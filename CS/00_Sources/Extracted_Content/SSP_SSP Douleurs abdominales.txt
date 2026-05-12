@@ -1,0 +1,237 @@
+Douleurs abdominales
+Anamnèse
+1. Caractérisation de la douleur
+a. Localisation
+b. Irradiation
+c. Chronologie
+i. Début
+ii. Circonstance de survenue
+iii. Évolution (fluctuation)
+d. Intensité
+e. Qualité
+f. Facteurs aggravants/soulageants
+2. Symptômes associés
+a. Fièvre
+i. Début
+ii. Intensité
+iii. Fluctuation
+b. Frissons, transpiration
+c. Perte de poids, modification de l’appétit
+d. Fatigue
+e. Ictère
+f. Vertige
+3. Système digestif
+a. Manger, boire ?
+b. Nausée, vomissement
+c. Selles
+i. Consistance
+ii. Fréquence, quantité
+iii. Couleur
+iv. Sang
+v. Flottent – glaires
+vi. Dernières selles / derniers gaz
+4. Système urogénital
+a. Douleur à la miction
+b. Fréquence mictionnelle, quantité
+c. Couleur
+d. Sang dans l’urine
+e. Dernières règles si femme
+Anamnèse gynécologique
+f. Possibilité d’être enceinte ?
+g. Perte vaginale si femme
+5. Antécédent
+a. Épisode similaire antérieur ?
+b. Maladie
+c. Hospitalisation/opération
+d. Médicaments
+e. Allergie
+
+6. Habitudes
+a. Diète (contenu du dernier repas)
+b. Alcool
+c. Tabac
+d. Drogues
+Signes d’alarmes :
+- État de choc
+- Agitation, torpeur, conscience altérée
+- Masse abdominale pulsatile
+- État fébrile
+- Ictère
+- Déshydratation, oligo-anurie
+- Dyspnée/tachypnée
+- Rectorragies, méléna
+- Âge > 65 ans
+- Retard de règles
+- Traumatisme récent
+Examen clinique
+1. Installation
+a. Bras et jambes décroisées
+b. Tête légèrement surélevée
+c. Abdomen entièrement visible
+2. Inspection
+a. Visage : malaise, douleur
+b. Peau : cicatrices, veines dilatées, lésions cutanées, vergetures…
+c. Allure de l’abdomen : plat, arrondi, symétrie, voussure
+d. Mouvements : respiratoire, péristaltique, pulsatiles
+3. Auscultation (avant palpation)
+a. 4 quadrants (fréquence gargouilles : 5-34/min)
+b. Aorte
+c. A. iliaque
+4. Percussion
+a. 4 quadrants
+b. Délimite la taille du foie
+5. Palpation (+ check visage patient, si résistance, le faire en expiration et en respirant
+par la bouche ouverte, mâchoire tombante)
+a. 4 quadrants
+i. Superficielle (1 main)
+ii. Profonde (2 mains)
+iii. Détente et défense
+b. Palpation du foie
+c. Palpation de la rate
+d. Palpation des reins
+e. Aorte (anévrysme)
+f. Orifice herniaire
+
+6. Tests spécifiques
+a. Mc Burney
+b. Signes du psoas
+c. Signe de Murphy
+7. Percussion des reins
+8. EVOQUER UN TOUCHER RECTAL + PALPATION AIRES INGUINALES
+Examen complémentaire
+- Fièvre, frisson  prise de sang
+o > 38.5  hémoculture
+- Hypochondre droit  ASAT, ALAT, gamma GT, phosphatase alcaline, bilirubine,
+albumine, TP/INR, marqueur inflammatoire, lipase
+- Imagerie (CT, Rx, US…)
+o US :
+ Liquide libre abdominal
+ Anévrysme de l’aorte
+ Grossesse extra-utérine
+ Pathologie hépato-biliaire
+ Globe vésical, dilatation pyélo-calicienne
+ Appendicite
+- Douleur épigastrique  ECG
+- Hospitalisation ? antibiotique ? antalgie ?
+- Coloscopie si
+o > 50 ans et douleur abdo
+o Bilan diarrhée
+o Bilan anémie
+DD
+- Douleur hypochondre droite
+o Cholangite (fièvre, douleur : murphy +, ictère)
+o Angiocholite (fièvre 39.5, frissons, ictère, secondairement à obstruction des
+voies biliares)
+o Hépatites aiguës (ictère, douleur hypochondre D)
+o Cholecystite (si murphy +, pas d’ictère, crampiforme, fièvre)
+o Cholédocholithiase (douleur < 6h, pas de fièvre, déclenché par repas copieux,
+graisse, alcool, nausée vomissement, ictère, selles décolorées – urines foncées,
+pancréatite biliaire)
+o Pancréatite (douleur transfixiante)
+o Abcès hépatiques
+o Thrombose veineuse
+o Insuffisance cardiaque droite (nausée, vomissement, inappétence,
+hépatomégalie, constipation)
+o Pneumonie (souvent avec symptômes respiratoires, mais aussi nausée,
+vomissement)
+o Pyélonéphrite
+- DD douleur hypochondre gauche
+o Infarctus splénique
+o Abcès splénique
+
+-
+
+-
+
+-
+
+o Rupture splénique (rechercher traumatisme)
+o Splénomégalie (chronique)
+o Pneumonie (souvent avec symptômes respiratoires, mais aussi nausée,
+vomissement)
+o Pyélonéphrite
+DD douleur épigastrique et/ou périombilicale
+o Infarctus du myocarde inférieur (parfois vomissement, nausée)
+o Dissection aortique (douleur brutale en coup de couteau, transfixiante, douleur
+dans les jambes, souffle aortique diastolique)
+o Pancréatite aiguë (fièvre, douleur transfixiante, position en chien de fusil, iléus)
+o Pancréatite chronique (douleurs transfixiante, épisodes à répétition, intensité
+augmente, ictère, insuffisance exocrine : diarrhées - selles avec glaires,
+insuffisance endocrine : diabète)
+o Ulcère gastrique (douleur indépendante des repas, méléna, hématémèse,
+anémie, FR : alcool tabac, stress)
+o Ulcère gastroduodénal (amélioré par repas, douleur à jeun, méléna,
+hématémèse, anémie FR : stress, alcool, tabac)
+o Gastrite (fièvre, nausée-vomissement, satiété précoce)
+o RGO (brûlures épigastriques, régurgitation, nausée, satiété précoce, éructation,
+toux chronique)
+DD douleur au flanc
+o Origine uro-génitale :
+ Colique néphrétique (lithiase rénale : douleur au flanc qui irradie dans
+organes génitaux externes, coup de couteau, subite, diminué par
+l’application de chaud et par antalgique)
+ Pyélonéphrite aiguë (CT si pyélo compliquée)
+ Infarctus ou hématome rénal
+ Toute pathologie obstructive rénale
+ Torsion testiculaire
+ Torsion ovarienne (FR ovaire polykystique : pilosité augmentée,
+obésité, stérilité, acné)
+ Kyste ovarien
+ Endométriose
+ Grossesse extra-utérine
+o Origine digestive :
+ Iléus (ATCD chir abdo, pas de selles depuis qq jours, ni gaz,
+vomissement, miserere, pas de bruit = paralytique vs bruit métalique =
+mécanique)
+ Maladie inflammatoire du tube digestif
+ Diverticulite
+o Origine vasculaire :
+ Dissection aortique
+ Anévrisme
+DD douleur fosse iliaque
+o Appendicite à droite (para-ombilicale, secondairement en FID, rapidement
+croissante, vomissement, signe du psoas, Mc Burney)
+o Diverticulite (G >> D, péritonisme, fièvre)
+
+-
+
+o Maladie de Crohn (diarrhée chronique > 30j, perte de poids, sudation
+nocturne, sang dans les selles)
+o Colite ulcéreuse (diarrhée chronique > 30j, perte de poids, sudation nocturne,
+sang dans les selles  réctorragies, ténesme, urgence, lithiase vésiculaire)
+o Iléite terminale
+o Colite
+o Affections gynécologiques
+o Hématome du psoas (baisse TA)
+DD douleur sus pubienne
+o Cystite
+o Globe vésical (matité à la percussion, douleur à la palpation)
+o Affection gynécologique
+
+Autre
+- Colite infectieuse (anamnèse d’exposition = voyage, ballonement, diarrhées glairosanglantes, perte de poids, fièvre)
+- Côlon irritable (un jour par semaine durant les 3 derniers mois, douleur soulagée suite
+à selles, modification fréquence et consistance)
+Urgence
+- Péritonite (< perf, ventre de bois, silence auscultatoire, fièvre)
+o CT + avis chir
+- Ischémie mésentérique (empiré par repas, diarrhée glairo-sanglante, fièvre)
+o CT + avis chir
+- Occlusion (abdo douloureux dans son ensemble, tympanisme, bruit métallique)
+o CT + avis chir
+- Rupture AA (FR : homme, âge, tabac, HTA, douleur subite, irradiation dans le dos,
+état de choc)
+o US si instable ou CT si stable + avis chir
+- Grossesse extra-utérine (amnénorrhée, douleurs abdo intenses, métrorragies)
+o Test de grossesse + US endovaginal
+Douleurs abdominales aiguës : messages essentiels :
+- Douleur abdominale d’origine incertaine  ECG à la recherche de SCA
+- Douleur abdominale chez une femme en âge de procréer  test de grossesse
+- Symptôme de colique néphrétique chez un patient de > 70 ans  suspecter un
+anévrisme de l’aorte (colique néphrétique inaugurale exceptionnelle au-delà de 70
+ans
+- Signes d’alarmes : état de choc, péritonisme, ECG pathologique, traumatisme, test de
+grossesse +  hospitaliser le patient
+- TRAITER LA DOULEUR
+
+

@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hepatite - Fiche de révision SSP</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #7b68ee;
+            --success-color: #5cb85c;
+            --danger-color: #d9534f;
+            --warning-color: #f0ad4e;
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --ecos-gradient: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
+            --card-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header {
+            background: var(--bg-gradient);
+            color: white;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .page-title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .meta-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            backdrop-filter: blur(10px);
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        /* Sections principales */
+        .main-section {
+            color: var(--primary-color);
+            margin: 35px 0 25px 0;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8em;
+        }
+        
+        .section-title {
+            color: var(--secondary-color);
+            margin: 25px 0 15px 0;
+            padding-left: 20px;
+            border-left: 5px solid var(--secondary-color);
+            font-size: 1.4em;
+        }
+        
+        .sub-section {
+            color: #495057;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        
+        /* Section spéciale Points Clés ECOS */
+        .ecos-key-points {
+            background: var(--ecos-gradient);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 15px 50px rgba(255,107,107,0.3);
+            position: relative;
+            overflow: hidden;
+            animation: pulse-glow 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 15px 50px rgba(255,107,107,0.3); }
+            50% { box-shadow: 0 20px 60px rgba(255,107,107,0.5); }
+        }
+        
+        .ecos-key-points::before {
+            content: '⚡';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 150px;
+            opacity: 0.1;
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .ecos-key-points-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .ecos-key-points-header h2 {
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin: 0;
+        }
+        
+        .ecos-icon {
+            font-size: 2.5em;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .ecos-key-points-content {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 20px;
+            color: #333;
+        }
+        
+        /* Highlights et alertes */
+        .red-flag, .critical-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff4444, #cc0000);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: pulse 1.5s infinite;
+            margin: 5px 0;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .urgent-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff9800, #f44336);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: blink 2s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        
+        .essential-point {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700, #ffb300);
+            color: #333;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        .important-note {
+            display: inline-block;
+            background: linear-gradient(135deg, #4caf50, #8bc34a);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        /* Highlights de texte */
+        .highlight-critical {
+            background: #ffebee;
+            color: #c62828;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            border-bottom: 2px solid #ef5350;
+        }
+        
+        mark.highlight-critical {
+            background: linear-gradient(to bottom, transparent 50%, #ffcdd2 50%);
+            padding: 2px 4px;
+        }
+        
+        /* Checkboxes */
+        .checkbox-item {
+            margin: 12px 0;
+            padding: 18px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            border-left: 5px solid transparent;
+            display: flex;
+            align-items: center;
+        }
+        
+        .checkbox-item:hover {
+            background: linear-gradient(135deg, #e9ecef, #dee2e6);
+            transform: translateX(8px);
+            border-left-color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        
+        .checkbox-item label {
+            cursor: pointer;
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+        
+        .checkbox-item input[type="checkbox"]:checked + label {
+            color: var(--success-color);
+            text-decoration: line-through;
+            font-weight: 500;
+        }
+        
+        /* Tables */
+        .table-container {
+            overflow-x: auto;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        .data-table thead {
+            background: var(--bg-gradient);
+            color: white;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .data-table tbody tr:hover {
+            background: linear-gradient(90deg, #f8f9fa, #ffffff);
+            transform: scale(1.01);
+            transition: all 0.2s ease;
+        }
+        
+        .cell-critical {
+            background: #ffebee !important;
+            color: #c62828;
+            font-weight: 600;
+        }
+        
+        .cell-important {
+            background: #fff3e0 !important;
+            color: #e65100;
+            font-weight: 600;
+        }
+        
+        /* Listes */
+        .content-list {
+            margin: 15px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .content-list li {
+            position: relative;
+            padding-left: 35px;
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+        
+        .content-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 10px;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        /* Sections enrichissement */
+        .enrichment-section {
+            margin: 30px 0;
+            background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 20px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .enrichment-header {
+            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: var(--primary-color);
+            padding: 10px;
+            user-select: none;
+            transition: all 0.3s ease;
+        }
+        
+        .enrichment-header:hover {
+            color: var(--secondary-color);
+            transform: translateX(10px);
+        }
+        
+        .enrichment-section[open] .enrichment-header {
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+        
+        .enrichment-content {
+            animation: fadeIn 0.5s ease-out;
+            padding: 0 10px;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Paragraphes */
+        p {
+            margin: 12px 0;
+            line-height: 1.8;
+        }
+        
+        strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        em {
+            color: #495057;
+            font-style: italic;
+        }
+        
+        /* Progress bar */
+        .progress-bar {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            min-width: 200px;
+            z-index: 1000;
+        }
+        
+        .progress-text {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .progress-track {
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--bg-gradient);
+            border-radius: 5px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+        
+        /* Menu flottant */
+        .floating-menu {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        
+        .menu-button {
+            background: var(--bg-gradient);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+        }
+        
+        .menu-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+        }
+        
+        /* Timer */
+        .timer {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            background: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            box-shadow: var(--card-shadow);
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            .page-title {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .floating-menu {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .timer {
+                top: 10px;
+                left: 10px;
+                font-size: 0.9em;
+            }
+            
+            .progress-bar {
+                bottom: 10px;
+                right: 10px;
+                min-width: 150px;
+            }
+            
+            .ecos-key-points {
+                padding: 20px;
+            }
+            
+            .ecos-key-points-header h2 {
+                font-size: 1.5em;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+            
+            .floating-menu,
+            .timer,
+            .progress-bar {
+                display: none;
+            }
+            
+            .ecos-key-points {
+                page-break-inside: avoid;
+                background: #fff3e0 !important;
+                border: 3px solid #ff6b6b;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="timer" id="timer">⏱️ 00:00</div>
+    
+    <div class="floating-menu">
+        <button class="menu-button" onclick="resetProgress()">🔄 Réinitialiser</button>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="page-title">Hepatite - Fiche de révision SSP</h1>
+            <div class="meta-info">
+                <span class="badge">📚 Médecine</span>
+                <span class="badge">📅 30/08/2025</span>
+                <span class="badge">🎯 Révision ECOS - Diagnostic</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h1 class="page-title">Hepatite - Fiche de révision SSP</h1><h2 class="main-section">📋 Informations générales</h2>
+            <h1 class="page-title">Hepatite - Fiche de révision SSP</h1><h2 class="main-section">📋 Informations générales</h2>
+<ul class="content-list">
+<ul>
+<li><strong>Discipline</strong>: Radiologie/Imagerie médicale</li>
+<li><strong>Fréquence</strong>: Variable</li>
+<li><strong>Gravité potentielle</strong>: À évaluer selon le contexte</li>
+</ul><h2 class="main-section">🎯 Objectifs d'apprentissage</h2>
+<ul class="content-list">
+<ul>
+<li>Connaître les indications et contre-indications</li>
+<li>Savoir interpréter les examens</li>
+<li>Comprendre les principes physiques</li>
+<li>Maîtriser la radioprotection</li>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>of a scintigraphy (Correia et al. Int J Cardiol, 2005) • 22% of interventional radiologists do not wear dosimeter (Kottou et al. Radiat Prot Dosimetry, 2001)• 81% of the interventional cardiology fellows did not know their radiation exposure (Kim C, Am J Cardiol 2010)• Inverse relationship between experience and dose awareness, consistently poor (Brown N, J Med Im Rad Oncol, 2013)</li>
+<li>Évolution clinique</li>
+<li>Contrôles d'imagerie si nécessaire</li>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>Calculs (reins, uretère,VB)-Calcification (foie, pancréas-Graisse (tumeur foie, adénome/myélolipome surrénales)</li>
+<li>800-600-400-200corticale osseuseeauos trabéculairegraissepoumonairUH</li>
+<li>Les produites de contraste</li>
+<li>François Deux Dr Alexis RICOEUR Dr Christophe Constantin</li>
+<li>1400—600W = 1600W = 4000</li>
+<li>EMI Mark 1 1971 : •13 mm épaisseur •Matrice 80x80 •Taille du pixel 3x3 mm •Reconstruction 5 minutes / coupe •1 détecteur</li>
+<li>75 mm64 x 0.6 mm50158*Royster AP, Am J Roentgenol 1997</li>
+<li>AMC Radio - Cours de radiologie</li>
+<li>Recommandations nationales et internationales</li>
+
+<li>continu.  </li>
+</ul>
+ 
+ 
+15
+<ul class="content-list">
+<ul>
+<li>12 dérivations : arythmie  ? anomalies faisant suspecter une cardiopathie ?</li>
+<li>– examiner le patient de manière dirigée  – reconnaître les signes/symptômes significatifs  – identifier le problème justifiant la consultation</li>
+<li>• input – output  • histoire abdominale (maladie, opération)  • médicaments, allergies</li>
+<li>• douleurs  • symptômes associés  • input – output  • histoire abdominale (maladie, opération)</li>
+<li>• peut être partiellement vaincue par la  palpation douce  • aggravée par une palpation brusque  signe de Lassec => signe de lombalgie : le patient pose sa jambe sur notre main et on la monte</li>
+<li>• contraction involontaire de la paroi  • qui s'oppose à la palpation profonde  • peut être partiellement vaincue par la  palpation douce</li>
+<li>palpation douce  • aggravée par une palpation brusque  signe de Lassec => signe de lombalgie : le patient pose sa jambe sur notre main et on la monte Signe du Psoas => signe de péritonite : le patient essaie de lever sa jambe et on la bloque</li>
+<li>péritonite spontanée,…  • Péritonite secondaire  – Etiologie: perforation inflammatoire d‘un organe  creux</li>
+<li>www.chirurgieviscerale.ch  Péritonite : étiologie  • Bactérienne 95%  • Chimique / toxique (urine, bile, produit de</li>
+<li>Péritonite: formes  • Péritonite post-opératoire (iatrogène)  – Etiologie: insuffisance anastomotique,  contamination intra- ou post-opératoire</li>
+<li>Contenu 1. Diagnostics différentiels 2. Douleurs abdominales: comment les caractériser? 3. Vignettes cliniques: comment les explorer? 4. Situations urgentes: comment ne rien rater?</li>
+<li>-Indication à une cholécystectomie chirurgicale en prévention 2aire Autres DD digestifs:  appendicite rétro-hépatique, colite droite/transverse -> pas d’ictère</li>
+<li>Diagnostics différentiels: douleur abdominale Pathophysiologie Anatomie Vascular Infectious</li>
+<li>Objectifs B3.8  • Examen Abdomen:  – Décrire et reconnaître les principaux signes de</li>
+<li>chirurgicales digestives.  – Décrire  l’examen  proctologique.</li>
+<li>Vignette clinique: douleur hypochondre droit Examens radiologiques: -US et cholangio-IRM >> CT-scanner</li>
+<li>•  Voyages / Origines   •  VACCINATIONS  •  MALADIES INFLAMMATOIRES</li>
+<li>•  Voyages / Origines   •   VACCINATIONS  •   MALADIES INFLAMMATOIRES</li>
+<li>Augmentation taille ganglions +/- douleurs  Symptômes & Signes par Systèmes  41</li>
+<li>vaccination</li>
+<li>Intro à la démarche clinique – 21.03.22 Prévention des infections:  tout ce qu'il faut savoir  pour l'immersion en milieu</li>
+<li>Voyages / Origines   •  VACCINATIONS  •  MALADIES INFLAMMATOIRES</li>
+<li>•  Radiothérapie  •  Corticostéroïdes ou autres immunosuppresseurs</li>
+<li>rouge, chaud, douloureux  … Un Cancer et son Traitement …  Femme de 65 ans, cancer pulmonaire, sous chimiothérapie  Neutropénie depuis 4 jours, alimentation parentérale …</li>
+<li>… Un Cancer et son Traitement …  Femme de 65 ans, cancer pulmonaire, sous chimiothérapie  Neutropénie depuis 4 jours, alimentation parentérale …  23</li>
+<li>coma</li>
+<li>Patiente de 19 ans, connue pour une intolérance au soleil.  Vient aux urgences car a mal à toutes les articulations …  57</li>
+<li>Objectifs du Cours  •  Identifier les éléments distinctifs importants de  l’anamnèse et de l’examen clinique</li>
+<li>Cas clinique</li>
+<li>Diagnostic</li>
+<li>Traitement</li>
+<li>Vignette</li>
+<li>Manifestation</li>
+<li>Plainte</li>
+<li>Présentation clinique</li>
+<li>Signe</li>
+<li>Symptôme</li>
+<li>Examen clinique</li>
+<li>Palpation</li>
+<li>Score</li>
+<li>Test</li>
+<li>Diagnostic</li>
+</ul>
+différentiel
+<ul class="content-list">
+<ul>
+<li>Diagnostic différentiel</li>
+<li><strong>Risque</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Sévère</mark></strong></li>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong>
+<ul>
+<li>Hospitalisation</li>
+<li>Orientation</li>
+<li>Prise en charge</li>
+<li>Suivi</li>
+<li>Thérapeutique</li>
+<li>Traitement</li>
+<li>Cancer</li>
+<li>Diabète</li>
+<li>Hypertension</li>
+<li>Infection</li>
+<li>Insuffisance</li>
+<li>Maladie</li>
+<li>230206_Tests hépatiques, cirrhose_Waeber.pdf</li>
+<li>230215_Généralisme FUO_Bart.pdf</li>
+<li>230214_Cas cliniques polymorbidité_Lamy.pdf</li>
+<li>230216_Cas cliniques_Sartori.pdf</li>
+<li>Cas clinique</li>
+<li>Diagnostic</li>
+<li>Traitement</li>
+<li>Vignette</li>
+<li>Manifestation</li>
+<li>Plainte</li>
+<li>Présentation clinique</li>
+<li>Signe</li>
+<li>Symptôme</li>
+<li>Examen clinique</li>
+<li>Palpation</li>
+<li>Score</li>
+<li>Test</li>
+<li>Diagnostic</li>
+</ul>
+différentiel
+<ul class="content-list">
+<ul>
+<li>Diagnostic différentiel</li>
+<li><strong><mark class="highlight-critical">Critique</mark></strong>
+<ul>
+<li><strong>Risque</strong></li>
+<li><strong><mark class="highlight-critical">Sévère</mark></strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Hospitalisation</li>
+<li>Orientation</li>
+<li>Prise en charge</li>
+<li>Suivi</li>
+<li>Thérapeutique</li>
+<li>Traitement</li>
+<li>Cancer</li>
+<li>Diabète</li>
+<li>Hypertension</li>
+<li>Infection</li>
+<li>Insuffisance</li>
+<li>Maladie</li>
+<li>230206_Tests hépatiques, cirrhose_Waeber.pdf</li>
+<li>230217_Covid long_Favrat.pdf</li>
+<li>230215_Généralisme FUO_Bart.pdf</li>
+<li>230214_Cas cliniques polymorbidité_Lamy.pdf</li>
+<li>230217_Covid long respiratoire_vonGarnier.pdf</li>
+<li>Aigu</li>
+<li>Inflammatoire</li>
+<li>Obstructif</li>
+<li>Distension</li>
+<li>Douleur</li>
+<li>Défense</li>
+<li>Sensibilité</li>
+<li>IRM</li>
+<li>Radiographie</li>
+<li>Scanner</li>
+<li>Échographie</li>
+<li>Étiologies</li>
+<li><strong>Ischémie</strong>
+<ul>
+<li><strong>Perforation</strong></li>
+<li><strong>Péritonite</strong>
+<ul>
+<li><strong>Sepsis</strong></li>
+<li><strong><mark class="highlight-critical">Sévère</mark></strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Traitement</li>
+<li>Appendicite</li>
+<li>Cholécystite</li>
+<li>Colite</li>
+<li>Diverticulite</li>
+<li>Hernie</li>
+<li>Occlusion</li>
+<li>Imagerie douleurs abdo hautes_RMS_2013.pdf</li>
+<li>Aigu</li>
+<li>Chronique</li>
+<li>Fonctionnel</li>
+<li>Mental</li>
+<li>Organique</li>
+<li>Physique</li>
+<li>Asthénie</li>
+<li>Faiblesse</li>
+<li>Fatigue</li>
+<li>Malaise</li>
+<li>Épuisement</li>
+<li>Anamnèse</li>
+<li>Examen clinique</li>
+<li>Bilan</li>
+<li>CRP</li>
+<li>Ferritine</li>
+<li>Glycémie</li>
+<li>TSH</li>
+<li>VS</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Étiologie</li>
+<li>Étiologies</li>
+<li><strong>Adénopathie</strong>
+<ul>
+<li>Activité</li>
+<li>Repos</li>
+<li>Sommeil</li>
+<li>Traitement</li>
+<li>Anémie</li>
+<li>Cancer</li>
+<li>Diabète</li>
+<li>Dépression</li>
+<li>Hypothyroïdie</li>
+<li>Infection</li>
+<li>Compas_5_Fatigue.pdf</li>
+<li>Aigu</li>
+<li>Chronique</li>
+<li>Fonctionnel</li>
+<li>Mental</li>
+<li>Organique</li>
+<li>Physique</li>
+<li>Asthénie</li>
+<li>Faiblesse</li>
+<li>Fatigue</li>
+<li>Malaise</li>
+<li>Somnolence</li>
+<li>Épuisement</li>
+<li>Anamnèse</li>
+<li>Examen clinique</li>
+<li>B12</li>
+<li>Bilan</li>
+<li>Cortisol</li>
+<li>CRP</li>
+<li>Ferritine</li>
+<li>Folate</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Étiologie</li>
+<li>Étiologies</li>
+<li><strong>Adénopathie</strong>
+<ul>
+<li><strong>Fièvre</strong></li>
+<li><strong>Perte de poids</strong>
+<ul>
+<li>Activité</li>
+<li>Nutrition</li>
+<li>Repos</li>
+<li>Sommeil</li>
+<li>Supplémentation</li>
+<li>Traitement</li>
+<li>Anémie</li>
+<li>Cancer</li>
+<li>Diabète</li>
+<li>Dépression</li>
+<li>Hypothyroïdie</li>
+<li>Infection</li>
+<li>Gonthier_SyndromeFatigueChronique_RMS_2015.pdf</li>
+<li>Compas_5_Fatigue.pdf</li>
+<li>Guessous_Fatigue_RevueApprocheDiagnostique_RMS_2006.pdf</li>
+<li>Anamnèse</li>
+<li>Diagnostic</li>
+<li>Examen</li>
+<li>Présentation</li>
+<li>Traitement</li>
+<li>Évolution</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Fatigue</li>
+<li>Fièvre</li>
+<li>Palpation</li>
+<li>Percussion</li>
+<li>Comorbidité</li>
+<li>Diagnostic différentiel</li>
+<li><strong>Choc</strong>
+<ul>
+<li><strong>Hémorragie</strong></li>
+<li><strong>Paralysie</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Hospitalisation</li>
+<li>Suivi</li>
+<li>Traitement</li>
+<li>Fracture</li>
+<li>Infection</li>
+<li>Inflammation</li>
+<li>Insuffisance</li>
+<li>210302_Présentation de cas_CaroleClair.pdf</li>
+<li>220223_oeil_rouge_Senn_Staeger.pdf</li>
+<li>220223_transpiration_Senn_Staeger.pdf</li>
+<li>Chronique</li>
+<li>Endocrinien</li>
+<li>Fonctionnel</li>
+<li>Asthénie</li>
+<li>Dyspnée</li>
+<li>Faiblesse</li>
+<li>Fatigue</li>
+<li>Pâleur</li>
+<li>Anamnèse</li>
+<li>Examen clinique</li>
+<li>Palpation</li>
+<li>B12</li>
+<li>Cortisol</li>
+<li>CRP</li>
+<li>Ferritine</li>
+<li>Folate</li>
+<li>Glycémie</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Diagnostic différentiel</li>
+<li>Étiologie</li>
+<li>Étiologies</li>
+<li><strong>Adénopathie</strong>
+<ul>
+<li><strong>Cancer</strong></li>
+<li><strong>Fièvre</strong>
+<ul>
+<li><strong>Perte de poids</strong></li>
+<li>Activité</li>
+<li>Repos</li>
+<li>Traitement</li>
+<li>Anémie</li>
+<li>Cancer</li>
+<li>Diabète</li>
+<li>Dépression</li>
+<li>Hypothyroïdie</li>
+<li>Infection</li>
+<li>220301_anemie _traitement _Favrat.pdf</li>
+<li>Cours-220228_Semiologie_DD_fatigue_Favrat.pdf</li>
+<li>Aigu</li>
+<li>Chronique</li>
+<li>Endocrinien</li>
+<li>Fonctionnel</li>
+<li>Primaire</li>
+<li>Secondaire</li>
+<li>Asthénie</li>
+<li>Dyspnée</li>
+<li>Faiblesse</li>
+<li>Fatigue</li>
+<li>Malaise</li>
+<li>Pâleur</li>
+<li>Anamnèse</li>
+<li>Examen clinique</li>
+<li>Cortisol</li>
+<li>CRP</li>
+<li>Ferritine</li>
+<li>Glycémie</li>
+<li>Sérologie</li>
+<li>TSH</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Diagnostic différentiel</li>
+<li>Étiologie</li>
+<li>Étiologies</li>
+<li><strong>Adénopathie</strong>
+<ul>
+<li><strong>Cancer</strong></li>
+<li><strong>Fièvre</strong>
+<ul>
+<li><strong>Perte de poids</strong></li>
+<li>Activité</li>
+<li>Repos</li>
+<li>Supplémentation</li>
+<li>Traitement</li>
+<li>Anémie</li>
+<li>Cancer</li>
+<li>Diabète</li>
+<li>Dépression</li>
+<li>Hypothyroïdie</li>
+<li>Infection</li>
+<li>220303_Fatigue et causes infectieuses_DAcremont.pdf</li>
+<li>Cours-220228_Semiologie_DD_fatigue_Favrat.pdf</li>
+<li>Cours-220317_Fatigue_adolescence_Ambresin.pdf</li>
+<li>220302_Grippe_Mueller_Senn.pdf</li>
+<li>220302_Fatigue causes endocriniennes_Waeber.pdf</li>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+  </li>
+</ul>
+</ul>

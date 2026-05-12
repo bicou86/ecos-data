@@ -1,0 +1,172 @@
+Douleurs thoraciques
+Anamnèse
+1. Douleurs thoraciques
+a. Localisation
+b. Irradiation
+c. Intensité
+d. Qualité
+e. Facteurs aggravants (respiration-dépendant)
+f. Facteurs soulageants (position dépendant)
+g. Chronologie
+i. Depuis quand
+ii. Évolution
+iii. Condition de survenues (trauma, sport, …)
+2. Dyspnée
+a. Condition de survenue
+b. Classification (périmètre de marche, nb étage etc)
+c. Chronologie
+3. Symptômes associés
+a. Toux
+i. Depuis quand
+ii. Fréquence
+iii. Qualité (sèche, grasse)
+iv. Expectoration
+1. Couleur
+2. Sang
+b. Hémoptysie
+c. Douleurs ou œdèmes des membres inférieurs (EP)
+d. Orthopnée – dyspnée paroxystique nocturne
+e. Nycturie
+f. Palpitation
+g. Fièvre
+4. Facteurs de risques
+a. Tabagisme
+b. Voyages récents (> 6h, pays?)
+c. Chirurgie, immobilisation récente – cancer
+d. Médicaments, contraceptions – grossesse (EP)
+e. ATCD EP, thrombose, phlébite,
+f. ATCD angine de poitrine
+g. ATCD AVC
+5. ATCD et comorbidités
+a. Maladie : diabète, hypercholestérolémie, HTA
+b. Hospitalisations
+c. Opération (récente ?)
+d. Médicaments
+e. Allergies
+6. ATCD familiaux
+
+Signes d’alarme
+- Sudations profuses
+- TA < 90/60 mmHg
+- Pouls > 120/min
+- Tachypnée > 30/min
+- Cyanose
+- Arythmie nouvelle
+- Signes cliniques de TVP (douleur, œdème d’un MI)
+- Déficit neurologique
+- Disparition des pouls aux MI
+- Asymétrie de TA systolique aux MS (>11 mmHg)
+- Déviation trachéale
+- Turgescence jugulaire
+Examen clinique
+1. Inspection
+a. Extrémités (ongles)
+b. Langue
+c. Recoloration capillaire
+d. Thorax et mouvements
+e. Oedèmes des MI (godet)
+f. Turgescence jugulaire (Reflux hépato-jugulaire (> 10s))
+2. Cardiaque
+a. Palpation
+i. Pouls périphériques aux 4 extrémités
+ii. Carotidien (!!! auscultation avant)
+iii. Choc de pointe
+b. Auscultation
+i. Aortique
+ii. Pulmonaire
+iii. Mitral
+iv. Tricuspide
+3. Pulmonaire
+a. Palpation
+i. Zone douloureuse (reproductible à la palpation ?)
+ii. Ampliation thoracique (post)
+b. Percussion (post + lat)
+i. Délimiter
+ii. Comparer les deux côtés
+c. Auscultation
+i. Antérieure
+ii. Postérieure : 4 plages en comparant
+iii. LatéraleS : 2 plages
+
+Examen complémentaire :
+- ECG
+- Rx thorax (év CT, US)
+- Laboratoire
+o FSC
+o Troponine si suspicion SCA
+o D-dimère si proba EP faible ou moyenne
+DD
+- Cardiaque
+o SCA
+ Angor – angor instable : douleur constrictive ne durant que qq minutes
+et répondant év. aux dérivés nitrés
+ Infarctus du myocarde : douleurs constrictive irradiants dans le bras et
+la mâchoire non soulagée par les dérivés nitrés, patient souvent figé
+avec des sudations profuses, signes d’IC, troponine positive
+o Dissection aortique : douleur transfixiante interscapulaire avec début brutal,
+en coup de poignard avec év. souffle diastolique d’insuffisance aortique,
+asymétrie tensionnelle aux 2 bras > 20 mmHg, abolition des pouls
+périphériques
+o Tamponnade : bruit lointain, hypotension
+o Péricardite : douleur peut être épisodique, d’apparition progressive, rétrosternale – latérale gauche avec irradiation vers le cou – épaule gauche,
+soulagée par la position assise et la flexion du tronc, frottement péricardique
+o Valvulopathie
+o Myocardite s
+- Pulmonaire
+o Embolie pulmonaire : douleur pleurale respiro-dépendante avec début brutal,
+dyspnée, polypnée, toux, hémoptysie, tachychardie et hypotension, ! peut
+entrainer une pleurésie qui peut faire une doul. reproductible à la palpation.
+Faire D-dimère seulement si probabilité faible ou intermédiaire, faire
+directement CT-scan si probabilité élevée
+o Pathologie pleurale
+ Pneumothorax : douleur aiguë respiro-dépendante, unilatéral, toux,
+homme, fume, fin, tympanisme, diminution murmure vésicale
+o Pneumonie - bronchite : fièvre, toux
+o Pneumomédiastin
+- Digestif
+o Œsophage
+ RGO : douleur retrosternale, de type brûlure, soulagée par la
+nourriture, aggravée par le décubitus dorsal après les repas
+ Spasme de l’œsophage : région sternale, profonde, douleur mimant
+l’angor, ne dure que 2-3 min, associée aux liquides froids, ! peut être
+soulagée par la nitroglycérine !
+ Déchirure : brutal
+o Estomac : ulcère, gastrite : brûlure épigastrique, profonde, soulagement de la
+douleur après le repas (lait) et par les anti-acides
+o Pancréas, foie, VB : cholécystite : profonde, hypochondre, survient ap. repas
+
+-
+
+Autre
+o Atteinte neuro : douleur en ceinture, hémi-ceinture +/- trouble de la sensibilité
+o Thyroïdite : douleur persistante, région du cou, aggravée en avalant, palpation
+de la thyroïde douloureuse  faire VS et TSH
+o Atteinte pariétale : douleur de longue durée superficielles fluctuantes, douleur
+mécanique (exacerbées par une position ou un mouvement), reproductible à
+la palpation
+ Syndrome chondrocostal : cartilages chondrocostaux hauts ou
+costosternaux, pas de tuméfaction
+ Syndrome de Tietze : tuméfaction de la jonction costosternale,
+sternoclaviculaire ou chondrocostal (2ème – 3ème côte) rare
+ Syndrome pectobrachial : développé couché, travail sur
+un ordinateur, manœuvre du coq
+ Syndrome sternal : douleur sur le sternum avec souvent
+une extension latérale de la douleur
+ Syndrome xiphoïdien : douleurs sur l’apophyse
+xiphoïdienne
+ Douleurs costales basses : hooking maneuver
+o Cutané (zona)
+o Douleur thoracique psychogène : punctiforme, brève, augmente
+en inspirium, calmée couché)
+
+SE RENDRE À l’HÔPITAL (EP, infarctus, pneumothorax)
+Les pièges : il peut s’agir d’un syndrome coronarien aigu, même si le patient présente :
+- Une douleur épigastrique
+- Une douleur dorsale
+- Une brûlure thoracique
+- Une irradiation vers l’épaule droite
+- Une absence de douleur (surtout s’il est diabétique)
+- Un ECG normal
+- Une absence de soulagement par un dérivé nitré
+
+

@@ -1,0 +1,1761 @@
+2024-2025
+
+1ère – 2ème années Master
+
+Apprentissage en milieu clinique
+
+COURS / SEMINAIRE DE RADIOLOGIE
+Cahier d’apprentissage
+
+APPRENTISSAGE EN MILIEU CLINIQUE
+(AMC)
+
+Cours / Séminaires de Radiologie
+
+Faculté de Médecine Université de Genève
+27e édition
+
+ 2024 Université de Genève (Faculté de médecine)
+
+TABLE DES MATIERES
+
+INFORMATIONS GENERALES ...............................................................................................................1
+Les années Master en radiologie .........................................................................................................1
+Personnes concernées ........................................................................................................................2
+Objectifs généraux de l’enseignement de la radiologie (1ère et 2ème années Master) .....................5
+Objectifs de l’enseignement de la radiologie dans les AMC selon les systèmes d’organes ...............6
+(Pour la radiopédiatrie, se reporter à l’AMC Radiopédiatrie) ...............................................................6
+REFERENCES .........................................................................................................................................9
+SEMINAIRES DE RADIOLOGIE DANS LES AMC ................................................................................11
+1ère année Master ...................................................................................................................................11
+AMC Médecine interne ......................................................................................................................12
+AMC Chirurgie ...................................................................................................................................18
+AMC Radiopédiatrie ...........................................................................................................................22
+AMC Gynécologie-Obstétrique ..........................................................................................................24
+AMC Médecine de premier recours ...................................................................................................26
+SEMINAIRES DE RADIOLOGIE DANS LES AMC ................................................................................27
+2ème année Master ..................................................................................................................................27
+AMC Urgences ...................................................................................................................................28
+AMC Neurologie-neurochirurgie ........................................................................................................30
+AMC O.R.L. ........................................................................................................................................34
+
+Informations générales
+
+INFORMATIONS GENERALES
+LES ANNEES MASTER EN RADIOLOGIE
+1ère Année Master
+L’enseignement se donne à la fois dans le cadre :
+-
+
+de l’Unité d’Introduction à la Démarche Clinique – UIDC, finalisé par un
+examen QCM en radiologie. Le cahier des UIDC, remis aux étudiant(e)s, est
+disponible sur Moodle et
+
+-
+
+des AMC des disciplines cliniques : chirurgie, pédiatrie, médecine interne,
+médecine de premiers recours et gynécologie.
+2ème Année Master
+
+L’enseignement se donne
+neuroradiologie et urgences.
+
+uniquement
+
+dans
+
+le
+
+cadre
+
+des
+
+AMC :
+
+ORL,
+
+Le mémoire :
+Durant ces 2 années, l’étudiant(e) rédige un mémoire de Master, travail de
+recherches dont la rédaction a lieu dans les dernières semaines de la 2ème année
+Master. Ce mémoire peut être effectué en radiologie (se référer au site de la Faculté
+de Médecine).
+Examen AMC Radiologie :
+Ces 2 années sont évaluées par un examen AMC Radiologie sur station Campus
+portant sur le champ des AMC. L’accent sera mis sur l’analyse sémiologique
+radiologique et toutes les techniques d’imagerie présentées tout au long des 2
+années. Il comportera également des questions théoriques sur la médecine
+nucléaire et la radio-oncologie. La pondération de la partie radiologique sera
+d’environ 2/3 de l’ensemble de l’examen.
+Un répétitoire est organisé courant juin pour la préparation de l’examen.
+3ème Année Master
+Cette année est entièrement consacrée aux stages électifs, proposés en radiologie,
+radiopédiatrie, neuroradiologie, médecine nucléaire et radio-oncologie. Un descriptif
+des stages est à disposition sur l’intranet de l’Université :
+https://applicationspub.unil.ch/interpub/noauth/php/Me/MeStaId.php
+
+Cours / Séminaires de radiologie
+1
+
+Informations générales
+
+PERSONNES CONCERNEES
+Coordinateurs
+Nom
+
+Dpt / Service
+
+Médecins coordinateurs :
+Prof. P-A. Poletti
+Prof. A. Platon
+
+Service de radiologie
+
+Secrétariat :
+Mme Z. Allisson
+
+Service de radiologie
+
+Répondants du Département de radiologie et informatique médicale
+Nom
+
+Dpt / Service
+
+AMC Médecine interne
+Prof. M. Becker
+
+Service de radiologie
+
+AMC Chirurgie cardio-vasculaire et thoracique
+Prof. J-P. Vallée
+Service de radiologie
+AMC Chirurgie orthopédique
+Dre S. Boudabbous
+Service de radiologie
+AMC Chirurgie digestive
+Dr A. Ricoeur
+
+Service de radiologie
+
+AMC Urologie
+Dr T. De Perrot
+
+Service de radiologie
+
+Cours / Séminaires de radiologie
+2
+
+Téléphone
+
+(022 37) 27 056
+(079 55) 32 439
+
+Informations générales
+Répondants du Département de radiologie et informatique médicale (suite)
+Nom
+
+Dpt / Service
+
+AMC Pédiatrie
+Dre S. Toso
+
+Service de radiologie
+
+AMC Gynécologie-Obstétrique
+Dr D. Botsikas / Dre C.
+Stoica
+AMC Médecine de 1er recours
+Prof. F.T. Kurz
+AMC Neurosciences
+Prof. K.-O. Lövblad
+
+Service de radiologie
+
+Service de neuro-diagnostique et
+neuro-interventionnel
+Service de neuro-diagnostique
+et neuro-interventionnel
+
+AMC ORL
+Prof. M. Becker
+
+Service de radiologie
+
+AMC Urgences
+Prof. A. Platon
+Prof. PA Poletti
+
+Service de radiologie
+Service de radiologie
+
+Avant chacune des 5 rotations, les plannings mentionnant le nom et le bip des
+tuteurs ainsi que les dates, lieux et thèmes des cours sont publiés sur Moodle
+« Radiologie ».
+
+Cours / Séminaires de radiologie
+3
+
+Informations générales
+
+Cours / Séminaires de radiologie
+4
+
+Objectifs généraux
+
+OBJ ECTIFS GENERAUX DE L’ENS EIGNEMENT DE
+LA RADIOLOGIE
+(1ERE ET 2EME ANNEES MAS TER)
+
+Connaître les principes généraux à la base de l’image radiologique selon les
+différentes techniques (radiologie conventionnelle, US, CT, IRM, angiographie,
+médecine nucléaire) et de la radio-oncologie.
+Connaître la sémiologie de l’image radiologique pour les affections les plus
+courantes.
+Connaître les indications des différentes techniques d’imagerie.
+
+Cours / Séminaires de radiologie
+5
+
+Objectifs généraux
+
+OBJECTIFS DE L’ENSEIGNEMENT DE LA RADIOLOGIE DANS LES AMC SELON LES
+SYSTEMES D’ORGANES
+(POUR LA RADIOPEDIATRIE, SE REPORTER A L’AMC DE PEDIATRIE)
+Prof. P.-A. Poletti et A. Platon
+
+SEMIOLOGIE RADIOLOGIQUE
+
+RADIOLOGIE THORACIQUE ET CARDIO-VASCULAIRE
+Le syndrome pariétal
+
+AMC Médecine
+interne
+
+Le syndrome pleural
+
+"
+
+Le syndrome médiastinal
+
+"
+
+Le syndrome interstitiel
+
+"
+
+Le syndrome alvéolaire
+
+"
+
+Le syndrome bronchique et les atélectasies
+
+"
+
+Le syndrome parenchymateux et le nodule pulmonaire
+
+"
+
+Le syndrome vasculaire et l’insuffisance cardiaque
+
+"
+
+Les maladies cardiaques et péricardiques
+
+"
+
+L’artériosclérose
+
+AMC Chirurgie
+cardio-vasculaire
+
+Les anévrismes
+
+"
+
+La dissection aortique
+
+"
+
+L’insuffisance artérielle des membres inférieurs
+
+"
+
+Cours / Séminaires de radiologie
+6
+
+Objectifs généraux
+
+RADIOLOGIE DE L’APPAREIL LOCOMOTEUR
+Lésions dégénératives
+
+AMC Chir. orthopédique
+
+Maladies inflammatoires
+
+AMC Médecine interne
+
+Maladies infectieuses
+
+AMC Médecine interne
+
+Tumeurs primaires et secondaires
+
+AMC Chir. orthopédique
+
+RADIOLOGIE ABDOMINALE
+
+Néoplasies, maladies inflammatoires et ulcéreuses
+du tube digestif
+
+AMC Chirurgie abdominale
+
+Pathologie du pancréas, du foie et des voies
+biliaires, ictère obstructif
+
+AMC Chirurgie abdominale
+
+URORADIOLOGIE
+
+Tumeurs, lithiases
+
+AMC Chirurgie urologique
+
+Infections
+
+AMC Médecine interne
+
+Hypertension artérielle
+
+AMC Médecine interne
+
+Cours / Séminaires de radiologie
+7
+
+Objectifs généraux
+
+RADIOLOGIE GYNECOLOGIQUE
+
+Imagerie du sein
+
+AMC Gynécologie
+
+Cancers gynécologiques
+
+obstétrique
+
+NEURORADIOLOGIE ET RADIOLOGIE DE LA SPHERE ORL
+
+Syndrome tumoral
+
+AMC Neurologie
+
+Syndrome ischémique
+
+"
+
+Traumatismes cranio-encéphaliques
+
+"
+
+Anévrismes et malformations artério-veineuses
+
+"
+
+Syndrome médullaire
+
+"
+
+Hernie discale (lombalgies)
+
+AMC de médecine
+1er recours
+
+Indications courantes d’examens radiologiques en ORL
+
+AMC O.R.L.
+
+Infections et traumatismes de la sphère ORL
+
+"
+
+Malformations congénitales de la sphère ORL
+
+"
+
+Oncologie cervico-faciale
+
+"
+
+Bilan radiologique des surdités
+
+"
+
+Radiologie des organes endocriniens
+
+Thyroïde et surrénales
+
+AMC Médecine interne
+
+Cours / Séminaires de radiologie
+8
+
+Références
+
+REFERENCES
+Matériel d’enseignement mis à disposition des étudiant(e)s et des tuteur(rice)s
+•
+
+Les cours AMC représentent le champ des connaissances requises pour
+l’examen CAMPUS. Ils sont publiés sur le site web Moodle (connexion avec
+login HUG ou UNIGE) : https://moodle.unige.ch/
+L‘AMC de radiopédiatrie est disponible sur le site de l’AMC de pédiatrie avec
+une iconographie et des questions à choix multiple :
+https://moodle.unige.ch/course/view.php?id=10406
+
+•
+
+Polycopié Imagerie médicale : séminaires aux étudiant(e)s en médecine
+de 1e, 2e et 3e années. Hôpitaux universitaires de Genève. Université de
+Genève. 3e éd.2004 consultable sur https://moodle.unige.ch/.
+Cliquez sur : - Discipline transversale : radiologie
+- Documents
+- Polycopié-imagerie-médicale
+
+Ouvrages
+•
+
+Jenkins PF. Maîtriser la radiographie du thorax : guide pratique. 2ème éd. Paris :
+Masson, 2014. WF 975 10
+
+•
+
+Runge M. Radiologie de l’appareil locomoteur. 3ème éd. Paris : Masson, 2011.
+WE 141 10
+
+•
+
+Hanquinet S, Ferey S, Kalifa G. Imagerie pédiatrique pratique. Issy-lesMoulineaux : Elsevier Masson, 2009. WN 240 7
+
+•
+
+Lacout A. Pneumologie PET SCAN (Pratiques courantes en). Paris :
+Vernazobres-Greco, 2008. WF 141 7
+
+•
+
+K. Sartor, S. Haehnel, B. Kress. Direct Diagnosis in Radiology. Brain Imaging.
+Thieme, ISBN 978-3-13-143961-1
+
+•
+
+Rafiee H. Chapman & Nakielny’s. Aids to Radiological Differential Diagnosis, 7th
+edition Edinburg : Elsevier, 2019. WN 200 1
+
+Article de périodique
+B. Marincek, Nontraumatic abdominal emergencies : acute abdominal pain :
+diagnostic strategies, Eur Radiol, 2002, 12:2136-2150
+Consultable sur le lien suivant :
+http://www.springerlink.com/content/fl5d8he0amxt7r5m/fulltext.pdf
+e-learning
+•
+•
+•
+
+http://www.learningradiology.com/medstudents/medstudtoc.htm
+https://www.radiologyeducation.com/ (quelques liens ne sont pas librement
+accessibles depuis l’extérieur)
+http://www.radiologyassistant.nl/en/p497b2a265d96d/chest-x-ray-basicinterpretation.html
+
+Cours / Séminaires de radiologie
+9
+
+Références
+
+La BFM (Bibliothèque de la Faculté de Médecine) est abonnée à un certain nombre
+de textbooks online. La liste de ces textbooks est disponible à l’adresse suivante :
+http://resolver.rero.ch/unige/azbook
+
+Cours / Séminaires de radiologie
+10
+
+Séminaires de radiologie dans les AMC
+
+SEMINAIRES DE RADIOLOGIE DANS LES AMC
+
+1ère année Master
+
+Cours / Séminaires de radiologie
+11
+
+Séminaires de radiologie dans les AMC
+
+Les séminaires de radiologie qui ont lieu dans les AMC de médecine interne et de
+chirurgie sont coordonnés avec ceux de pathologie.
+
+AMC MEDECINE INTERNE
+Enseignant(e)s
+
+: Prof. M. Becker, Prof. A. Platon, Prof. P-A. Poletti, Dre S.
+Boudabbous, Dre S. Neveü, Dr M. Scheffler,Dr. T. De Perrot,
+Dr. J.F. Deux
+
+Durée
+
+: 8 heures par rotation
+
+Lieu et horaires
+
+: Selon programme publié sur Moodle en début de rotation et
+adressé aux étudiant(e)s par le(a) secrétaire de l’AMC
+
+THEMES
+Semaine 1
+
+: Imagerie des maladies cardiaques et péricardiques.
+La pathologie des gros vaisseaux sera traitée dans l’AMC
+Cardio-vasculaire et l’AMC de Chirurgie cardio-Vasculaire.
+
+Semaine 2
+
+: Pathologie médiastinale, pleurale et pariétale.
+
+Semaine 3
+
+: Imagerie de l’appareil urinaire (se complète avec l’AMC de
+Chirurgie Urologique).
+
+Semaine 4
+
+: Imagerie de la thyroïde et des surrénales.
+
+Semaine 5
+
+: Parenchyme pulmonaire. Pathologies infectieuses,
+pneumopathies interstitielles et destructrices, emphysème.
+
+Semaine 6
+
+: Imagerie du nodule pulmonaire. Tumeurs, infections et autres.
+
+Semaines 7 et 8
+
+: Imagerie des maladies inflammatoires et infectieuses ostéoarticulaires (2 cours séparés).
+
+L’imagerie des lésions dégénératives du rachis sera traitée dans l’AMC de Médecine
+de 1er recours.
+
+Cours / Séminaires de radiologie
+12
+
+Séminaires de radiologie dans les AMC
+
+SEMAINE 1 : IMAGERIE DES MALADIES CARDIAQUES ET PERICARDIAQUES
+OBJECTIFS D’APPRENTISSAGE
+Après ce séminaire, l’étudiant(e) devra :
+•
+
+Connaître les signes radiologiques sur une radiographie du thorax d’une
+insuffisance cardiaque, d’une tamponnade et d’un pneumo péricarde
+
+•
+
+Connaître et comprendre les indications de l’IRM et du CT pour le diagnostic de
+la maladie coronarienne.
+
+SEMAINE 2 : PATHOLOGIE MEDIASTINALE, PLEURALE ET PARIETALE
+OBJECTIFS D’APPRENTISSAGE
+Après ce séminaire, l’étudiant(e) devra :
+•
+
+Savoir différencier le syndrome médiastinal, pleural et pariétal
+
+•
+
+Connaître les lignes médiastinales et leur apport dans le diagnostic des
+pathologies médiastinales
+
+•
+
+Comprendre le signe de la silhouette et savoir le reconnaître
+
+•
+
+Connaître les compartiments du médiastin selon Felson et le diagnostic
+différentiel des masses médiastinales selon leur localisation
+
+•
+
+Comprendre et connaître les limites d’une radiographie conventionnelle du
+thorax pour le diagnostic d’une pathologie médiastinale, pleurale et pariétale.
+
+SEMAINE 3 : IMAGERIE DE L’APPAREIL URINAIRE
+OBJECTIFS D’APPRENTISSAGE
+Après ce séminaire, l’étudiant(e) devra :
+•
+
+Comprendre l’apport des techniques d’imagerie pour l’exploration de l’appareil
+urinaire (échographie, tomodensitométrie et IRM), leur avantages et
+désavantages
+
+•
+
+Se familiariser avec la sémiologie radiologique des pathologies présentées dans
+ce séminaire :
+-
+
+Tumeurs urothéliales
+
+-
+
+Hyperplasie de la prostate et cancer de la prostate
+
+-
+
+Tumeurs testiculaires, hydrocèle et varicocèle.
+
+Cours / Séminaires de radiologie
+13
+
+Séminaires de radiologie dans les AMC
+
+SEMAINE 4 : IMAGERIE DE LA THYROÏDE ET DES SURRENALES
+OBJECTIFS D’APPRENTISSAGE
+Après ce séminaire, l’étudiant(e) devra :
+•
+
+Comprendre l’apport des techniques d’exploration de la thyroïde et des glandes
+surrénales (échographie, scintigraphie, tomodensitométrie, IRM et PET CT),
+leur avantages et désavantages respectifs
+
+•
+
+Se familiariser avec la sémiologie radiologique des pathologies présentées dans
+ce séminaire :
+- Thyroïde : adénome, goitre, maladie de Basedow, cancer thyroïdien
+- Parathyroïde : adénome et hyperparathyroïdie
+- Surrénales : adénome sécrétant versus non-sécrétant, maladie de Addison,
+syndrome de Cushing, phéochromocytome, métastases.
+
+•
+
+Comprendre quel examen prescrire dans quel contexte clinique et pourquoi.
+
+SEMAINE 5 : PARENCHYME PULMONAIRE, PATHOLOGIES INFECTIEUSES, PNEUMOPATHIES
+INTERSTITIELLES ET DESTRUCTRICES, EMPHYSEME
+OBJECTIFS D’APPRENTISSAGE
+Après ce séminaire, l’étudiant(e) devra :
+•
+
+Connaître la différence entre syndrome alvéolaire, syndrome interstitiel et
+emphysème
+
+•
+
+Savoir les reconnaître sur une radiographie conventionnelle du thorax
+
+•
+
+Connaître les pathophysiologies sous-adjacentes et les principaux diagnostics
+différentiels
+
+•
+
+Comprendre et connaître les limites d’une radiographie conventionnelle du
+thorax pour les sémiologies discutées dans ce séminaire.
+
+Cours / Séminaires de radiologie
+14
+
+Séminaires de radiologie dans les AMC
+
+SEMAINE 6 : IMAGERIE DU NODULE PULMONAIRE, TUMEURS, INFECTIONS ET AUTRES
+OBJECTIFS D’APPRENTISSAGE
+Après ce séminaire, l’étudiant(e) devra :
+•
+
+Connaître les définitions et la distinction entre nodule, micronodule et masse
+pulmonaire
+
+•
+
+Comprendre la problématique liée à la découverte fortuite et la prise en charge
+qui en résulte
+
+•
+
+Connaître l’apport et les limites de la radiographie du thorax et du scanner pour
+la caractérisation d’un nodule pulmonaire (bénin versus malin) sur la base de la
+forme, taille, contours, localisation, contenu et croissance
+
+•
+
+Comprendre les recommandations actuelles de la « Fleischner society » pour le
+suivi et la prise en charge des patients avec des nodules découverts de manière
+fortuite.
+
+SEMAINES 7 ET 8 : IMAGERIE DES MALADIES INFLAMMATOIRES ET INFECTIEUSES OSTEOARTICULAIRES
+
+OBJECTIFS D’APPRENTISSAGE
+•
+
+Définir les signes élémentaires en radiographie conventionnelle de la polyarthrite
+rhumatoïde et des spondyarthropathies
+
+•
+
+Définir les localisations préférentielles de la polyarthrite rhumatoïde et des
+spondylarthropathies
+
+•
+
+Connaître le bilan radiologique demandé pour le dépistage et le suivi de la
+polyarthrite rhumatoïde et des spondyarthropathies
+
+•
+
+Connaître les principales maladies métaboliques, leurs localisations
+préférentielles et les signes radiographiques
+
+•
+
+Connaître les signes radiographiques de la maladie de Paget, sa localisation
+osseuse et le principal diagnostic différentiel.
+
+Cours / Séminaires de radiologie
+15
+
+Séminaires de radiologie dans les AMC
+
+COURS INTERACTIFS POUR LES
+ROSERAIE » ET « TROIS-CHÊNE »
+
+ETUDIANTS
+
+DES
+
+SITES
+
+« CLUSE-
+
+OBJECTIFS D’APPRENTISSAGE
+Après cet AMC, l’étudiant(e) devra :
+•
+
+Maîtriser l’approche systématique
+conventionnelle du thorax
+
+•
+
+Savoir reconnaître :
+
+à
+
+l’interpretation
+
+d’une
+
+radiographie
+
+-
+
+les épanchements pleuraux (libre versus suspendu)
+
+-
+
+les masses thoraciques (médiastinales, pleurales, pulmonaires, pariétales)
+
+-
+
+les signes radiologiques d’une insuffisance cardiaque gauche
+
+-
+
+l’élargissement du médiastin et des hiles pulmonaires
+
+-
+
+le syndrome alvéolaire et interstitiel
+
+-
+
+les signes radiologiques d’une atélectasie.
+
+•
+
+Savoir interpréter la sémiologie radiologique par rapport aux données cliniques et
+être en mesure de fournir un diagnostic différentiel
+
+•
+
+Comprendre et connaître les limites d’une radiographie conventionnelle du
+thorax.
+
+Site CLUSE-ROSERAIE
+Enseignant(e)s :
+
+Prof. M. Becker, Prof. A. Platon, Prof. P-A Poletti, Dre S.
+Boudabbous, Dr. T. De Perrot, Dr. J.F. Deux
+
+Durée :
+
+3 heures soit 4 cours de 45 minutes
+
+Lieu et horaires :
+
+Selon programme publié sur Moodle en début de rotation et
+adressé aux étudiant(e)s par le(a) secrétaire de l’AMC
+
+Site TROIS-CHÊNE
+Enseignant(e)s :
+
+Dr M. Scheffler, Dre M. Majos
+
+Durée :
+
+5 heures soit 4 cours de 1 heure 15
+
+Lieu et horaires :
+
+Amphithéâtre Junod (80-H09)
+Mercredi de 11h00 à 12h15
+
+METHODE D’ENSEIGNEMENT
+Cours interactif
+
+Cours / Séminaires de radiologie
+16
+
+Séminaires de radiologie dans les AMC
+
+DESCRIPTIF
+Le but de cet AMC est d’appliquer et d’approfondir les notions abordées dans le
+cours UIDC ainsi que dans les séminaires de l’AMC de médecine interne dédiés à la
+radiographie du thorax. Des cas de pathologies typiques seront présentés ainsi que
+la corrélation entre la radiographie conventionnelle du thorax et le CT ou l’IRM
+thoracique.
+Le diagnostic différentiel sera discuté et expliqué en fonction de la présentation
+clinique.
+
+THEMES
+Pathologies courantes en radiologie thoracique:
+-
+
+Insuffisance cardiaque
+
+-
+
+Syndrome alvéolaire
+
+-
+
+Syndrome interstitiel
+
+-
+
+Syndrome de masse
+
+-
+
+Syndrome pleural
+
+-
+
+Pathologie hilaire
+
+-
+
+Pathologie médiastinale
+
+-
+
+Atélectasie
+
+Cours / Séminaires de radiologie
+17
+
+Séminaires de radiologie dans les AMC
+
+AMC CHIRURGIE
+Enseignant(e)s : Dr. C. Constantin (chir. digestive)
+Dr S. Boudabbous (chir. orthopédique)
+Prof. J-P. Vallée (chir. informatique)
+Dr T. De Perrot (chir. urologique)
+Dr. J-F. Deux (chir. cardio-vasculaire)
+Durée :
+
+12 heures par rotation
+
+Lieu et horaires : Selon programme publié sur Moodle en début de rotation et
+adressé aux étudiant-e-s par le(a) secrétaire de l’AMC
+THEMES
+Semaine 1 :
+
+Chirurgie digestive
+Foie, voies biliaires et pancréas
+
+Semaine 2 :
+
+Informatique
+Cours théorique et pratique
+
+Semaine 3 :
+
+----
+
+Semaine 4 :
+
+Chirurgie orthopédique
+Imagerie de l’arthrose des grandes articulations y compris le bilan
+pré-opératoire et l’imagerie des complications post-opératoires.
+Imagerie des métastases osseuses et du myélome.
+Remarque :
+L’imagerie des tumeurs osseuses primitives sera traitée dans le
+cadre de l’AMC Pédiatrie.
+
+Semaine 5 :
+
+Chirurgie digestive
+Maladies inflammatoires du tube digestif
+Cancers digestifs
+
+Semaine 6 :
+
+Chirurgie urologique
+L’imagerie de la lithiase. Les tumeurs des reins et des voies
+excrétrices. L’imagerie du scrotum.
+
+Semaine 7 :
+
+Oncologie
+Séminaires d’onco-chirurgie et de radio-oncologie donnés en
+chirurgie selon le planning.
+
+Semaine 8 :
+
+Chirurgie cardio-vasculaire
+Imagerie de l’insuffisance artérielle des membres inférieurs et
+stratégies thérapeutiques en radiologie interventionnelle
+vasculaire.
+Imagerie des anévrismes de l’aorte et des dissections aortiques.
+
+Cours / Séminaires de radiologie
+18
+
+Séminaires de radiologie dans les AMC
+
+SEMAINE 1 : CHIRURGIE DIGESTIVE
+Foie, voies biliaires et pancréas
+OBJECTIFS D’APPRENTISSAGE
+Après cet AMC, l’étudiant(e) devra :
+•
+
+Savoir appréhender le diagnostic radiologique d’un nodule hépatique, en fonction
+des données clinico-biologiques du patient
+
+•
+
+Connaître les caractéristiques radiologiques des tumeurs bénignes (kyste,
+hémangiome, hyperplasie nodulaire focale, adénome), des tumeurs malignes
+(carcinome hépatocellulaire, métastases hépatiques) et des lésions nontumorales (abcès, kyste hydatique) les plus fréquentes
+
+•
+
+Connaître les stratégies d’investigation (imagerie et biopsie) d’un nodule
+hépatique
+
+•
+
+Connaître l’anatomie des voies bilio-pancréatiques
+
+•
+
+Comprendre la lithiase vésiculaire et ses complications en fonction du niveau
+d’obstruction.
+
+•
+
+Connaître la sémiologie radiologique de la cholécystite aiguë, de la lithiase
+cholédocienne et de la pancréatite aiguë
+
+•
+
+Connaître les critères de résection d’un cancer du pancréas et savoir
+appréhender son bilan d’extension.
+
+SEMAINE 2 : INFORMATIQUE
+OBJECTIFS D’APPRENTISSAGE
+Après cet AMC, l’étudiant(e) devra :
+•
+
+Comprendre la différence entre un signal numérique et analogique
+
+•
+
+Connaître les 2 propriétés fondamentales des images numériques (taille et
+dynamique des couleurs) et les principales caractéristiques du format des
+images médicales (DICOM)
+
+•
+
+Connaître les différents types de rendu 3D (MPR, MIP, rendu de volume) et leur
+utilité.
+
+SEMAINE 3 : ---
+
+Cours / Séminaires de radiologie
+19
+
+Séminaires de radiologie dans les AMC
+
+SEMAINE 4 : CHIRURGIE ORTHOPEDIQUE
+OBJECTIFS D’APPRENTISSAGE
+Après cet AMC, l’étudiant(e) devra :
+•
+
+Définir les signes élémentaires en radiographie conventionnelle de l’arthrose
+
+•
+
+Définir les localisations préférentielles de l’arthrose
+
+•
+
+Connaître le bilan radiologique demandé en cas d’arthrose
+
+•
+
+Connaître les principaux diagnostics différentiels de l’arthrose
+
+•
+
+Connaître les différentes complications des prothèses
+
+•
+
+Connaître le bilan radiologique demandé en cas de suspicion d’infection de
+prothèses
+
+•
+
+Connaître l’aspect des métastases osseuses et de myélome multiple sur les
+radiographies conventionnelles
+
+•
+
+Connaître les moyens en imagerie pour le bilan des métastases osseuses et de
+myélome multiple.
+
+SEMAINE 5 : CHIRURGIE DIGESTIVE
+Imagerie du tube digestif
+OBJECTIFS D’APPRENTISSAGE
+Après cet AMC, l’étudiant(e) devra :
+•
+
+Connaître les différentes techniques d’imagerie pour l’exploration du tube digestif
+: radioscopie, échographie, colo-CT, entéro-CT, entéro-IRM.
+
+•
+
+Connaître la sémiologie radiologique des principales tumeurs du tube digestif :
+cancer colo-rectal, tumeur neuro-endocrine, GIST, lymphome
+
+•
+
+Savoir appréhender le bilan d’extension d’un cancer du tube digestif
+
+•
+
+Connaître la sémiologie radiologique des affections inflammatoires du tube
+digestif
+
+•
+
+Savoir reconnaître les principales pathologies inflammatoires aiguës du tube
+digestif
+:
+appendicite
+aiguë,
+diverticulite,
+appendagite,
+colite
+pseudomembraneuse, typhlite
+
+•
+
+Savoir reconnaître les principales pathologies inflammatoires chroniques du tube
+digestif : maladie de Crohn, RCUH, fibrose post-radique.
+
+Cours / Séminaires de radiologie
+20
+
+Séminaires de radiologie dans les AMC
+
+SEMAINE 6 : CHIRURGIE UROLOGIQUE
+OBJECTIFS D’APPRENTISSAGE
+Après cet AMC, l’étudiant(e) devra :
+•
+
+Connaître les examens radiologiques utilisés dans la détection des lithiases
+urinaires (échographie, scanner) avec leurs avantages et limites
+
+•
+
+Connaître la sémiologie radiologique des lithiases urinaires
+
+•
+
+Connaître les signes radiologiques d’une colique néphrétique
+
+•
+
+Connaître les examens radiologiques utilisés dans la détection des tumeurs
+rénales et des voies excrétrices (échographie, scanner, IRM) avec leurs
+avantages et limites
+
+•
+
+Connaître la sémiologie radiologique des tumeurs rénales et des voies
+excrétrices ainsi que les types de tumeurs les plus fréquentes
+
+•
+
+Connaître le bilan d’extension à effectuer lors de la découverte d’une tumeur
+rénale ou des voies excrétrices
+
+•
+
+Connaître les examens radiologiques de première intention dans l’imagerie du
+scrotum (échographie)
+
+•
+
+Connaître la sémiologie radiologique d’une torsion testiculaire, une orchiépididymite et une tumeur testiculaire.
+
+SEMAINE 7 : ONCOLOGIE
+(Séminaires d’onco-chirurgie et de radio-oncologie donnés en chirurgie)
+
+SEMAINE 8 : CHIRURGIE CARDIO-VASCULAIRE
+OBJECTIFS D’APPRENTISSAGE
+Après cet AMC, l’étudiant(e) devra connaître :
+•
+
+la place de l’angio-CT, angio-IRM et de la radiologie interventionnelle vasculaire
+dans le diagnostic et la prise en charge de l’insuffisance artérielle des membres
+inférieurs.
+
+•
+
+les signes radiologiques d’un anévrisme aortique et de ses complications.
+
+•
+
+les différents types de dissection aortique et leur sémiologie radiologique.
+
+Cours / Séminaires de radiologie
+21
+
+Séminaires de radiologie dans les AMC
+
+AMC RADIOPEDIATRIE
+Les séminaires de radiopédiatrie ont lieu à l’Hôpital des Enfants et sont coordonnés
+avec les AMC de pédiatrie (Secrétariat : Mme Machado Goncalves Maria Estela : 022
+3724503)
+https://moodle.unige.ch/course/view.php?id=10406
+Texte de l’AMC avec illustrations et quiz sur le site intranet AMC de Pédiatrie :
+https://moodle.unige.ch/course/view.php?id=10406
+Enseignant(e)s :
+
+Dre S. Toso, Dre C. Habre et Dre M. Laurent
+
+Durée :
+
+3 x 2 heures par rotation
+
+Lieu et horaires :
+
+Selon programme publié sur Moodle en début de rotation et
+adressé aux étudiant(e)s par la secrétaire de l’AMC
+
+OBJECTIFS D’APPRENTISSAGE
+Connaître les différentes modalités d’imagerie utilisées en pédiatrie
+Approche de la technique d’imagerie
+Sémiologie radio-anatomique normale chez l’enfant selon l’âge
+Illustrations de pathologies pédiatriques les plus fréquentes par organe.
+Approche de l’imagerie à travers des exemples en abordant :
+- crâne/ SNC
+- thorax
+- rein
+- abdomen (tube digestif et masses les plus fréquentes)
+- système squelettique
+Expliquer les avantages et limites d’une modalité d’imagerie par rapport à une autre,
+comment faire le choix de la technique d’imagerie la plus appropriée
+THEMES:
+
+Thorax (1h)
+Connaître les critères radiologiques d’un thorax normal chez l’enfant
+Explication des techniques radiologiques utilisées (Rx, US, CT, IRM)
+Discussion autour d’exemples de pathologies : hyperaération, hypoaération
+pulmonaires anormales, quelques anomalies pulmonaires congénitales, pathologies
+particulières du nouveau-né, pathologies infectieuses en dehors de la période
+néonatale…
+
+Cours / Séminaires de radiologie
+22
+
+Séminaires de radiologie dans les AMC
+
+Abdomen (2h)
+a) Sémiologie normale des anses digestives en fonction de l’âge
+Pathologies du tube digestif néonatales et du nourrisson
+Occlusions / vomissements: atrésies intestinales, iléus méconial, plug méconial,
+péritonite méconiale, volvulus sur malrotation, malformation ano-rectale, maladie
+de Hirschsprung, sténose hypertrophique du pylore, invagination
+b) Masses abdominales :
+Origine rétropéritonéale (reins, surrénales) ou intrapéritonéale.
+Tumeurs les plus fréquentes : neuroblastome et tumeur de Wilms
+
+Uro-néphrologie (1h)
+Explication des modalités d’imagerie : US, URO-IRM, cystographie.
+A travers les diverses techniques d’imagerie, aborder :
+Les malformations rénales et des voies excrétrices
+Les pathologies rénales les plus fréquentes chez l’enfant
+Le bilan d’une infection urinaire
+
+Système nerveux central (1h)
+Radiographie du crâne : sémiologie radio-anatomique en fonction de l’âge et
+exemples de pathologies de la boîte crânienne.
+Choix de l’imagerie cérébrale : US, CT, IRM en fonction de l’âge et de l’apport de
+chaque technique
+Exemples de pathologies cérébrales les plus fréquentes (US-CT-IRM)
+
+Système musculo-squelettique (1h)
+Croissance normale du squelette et âge osseux
+Exemples de pathologies : malformations, maladies métaboliques, traumatismes,
+boiteries, infections, tumeurs…
+
+Cours / Séminaires de radiologie
+23
+
+Séminaires de radiologie dans les AMC
+
+AMC GYNECOLOGIE-OBSTETRIQUE
+Enseignant(e)s:
+
+Dr D.Botsikas, Dre C. Stoica
+
+Durée :
+
+2 heures 30 par rotation
+
+Lieu et horaires : Selon programme publié sur Moodle en début de rotation et
+adressé aux étudiant(e)s par la secrétaire de l’AMC
+THEMES
+
+Imagerie du sein
+Indications, bases techniques et comment lire une mammographie
+Les principales anomalies mammographiques.
+La classification des anomalies mammographiques (système Birads@)
+Indications de l’échographie mammaire
+Les principales anomalies échographiques.
+IRM mammaire : indications cliniques et familiarisation avec les images.
+Imagerie interventionnelle du sein :
+-
+
+-
+
+Comprendre l’importance diagnostique de la biopsie ambulatoire, sous
+contrôle de l’imagerie, de toutes les anomalies suspectes du sein.
+Déroulement de la procédure.
+Présentation de la macrobiopsie diagnostique et thérapeutique.
+Les autres procédures interventionnelles : pose d’un repère radiologique au
+niveau des lésions tumorales. Pose d’un fil métallique (hameçon) avant une
+tumorectomie. Contrôle radiologique des pièces de tumorectomie pour vérifier
+les berges chirurgicales.
+
+OBJECTIFS D’APPRENTISSAGE :
+•
+
+•
+
+Connaître les principes techniques de base des différentes modalités en
+imagerie sénologique ainsi que les indications cliniques pour chacune de ces
+modalités.
+Se familiariser avec le système de classification Birads@ des lésions
+mammaires en imagerie
+
+Cours / Séminaires de radiologie
+24
+
+Séminaires de radiologie dans les AMC
+
+Imagerie des cancers gynécologiques
+Notions de base sur l’approche diagnostique, par l’imagerie, des cancers de l’ovaire
+et de l’utérus.
+Cancer de l’ovaire :
+Rôle de l’imagerie dans le screening, la caractérisation lésionnelle, le bilan
+d’extension locorégional et à distance.
+Sémiologie et classification échographique des principales lésions ovariennes.
+Quand compléter le bilan diagnostique des lésions ovariennes par une IRM ?
+Le rôle de l’IRM fonctionnelle (séquences de diffusion-perfusion) dans la
+caractérisation des lésions ovariennes.
+Le bilan d’extension à distance (le rôle de l’IRM, du CT et du PET-CT).
+Cancer de l’endomètre et du col
+Imagerie et détection/caractérisation.
+Que peut-on attendre de l’IRM, du CT et du PET-CT dans le bilan d’extension?
+Les classifications FIGO des cancers pelviens et concordance avec l’imagerie en
+coupe.
+
+OBJECTIFS D’APPRENTISSAGE :
+Connaître les principes techniques de base des différentes modalités en imagerie
+pelvienne ainsi que les indications cliniques pour chacune de ces modalités.
+
+Cours / Séminaires de radiologie
+25
+
+Séminaires de radiologie dans les AMC
+
+AMC MEDECINE DE PREMIER RECOURS
+Enseignant(e)s:
+
+Prof. F.T Kurz et collaborateur(rice)s
+
+Durée :
+
+1 heure par rotation
+
+Lieu et horaires : Selon programme publié sur Moodle en début de rotation et
+adressé aux étudiant(e)s par la secrétaire de l’AMC
+THEMES
+Lombalgies
+OBJECTIFS D’APPRENTISSAGE
+A la fin de l’AMC, l’étudiant(e) devrait connaître :
+-
+
+les causes les plus communes des lombalgies ainsi que leurs caractéristiques
+radiologiques
+
+-
+
+les guidelines relatives aux techniques d’imagerie
+
+-
+
+les indications, avantages et inconvénients de chaque type d’imagerie
+
+METHODE D’ENSEIGNEMENT
+-
+
+Cours interactif
+
+DESCRIPTION
+-
+
+Description des différents types d’imagerie (Rx standard, CT, résonnance
+magnétique) avec les avantages et les inconvénients de chaque technique.
+
+-
+
+Introduction à la lecture d’une IRM lombaire normale et pathologique.
+
+-
+
+Illustration par les différentes méthodes d’imagerie des étiologies les plus
+communes des lombalgies avec les spécificités liées à chaque pathologie, tout
+en mettant un accent particulier sur les pathologies dégénératives, infectieuses
+et tumorales.
+
+-
+
+Présentation de cas cliniques aux étudiant(e)s qui seront amené(e)s à les
+décrire.
+
+Cours / Séminaires de radiologie
+26
+
+Séminaires de radiologie dans les AMC
+
+SEMINAIRES DE RADIOLOGIE DANS LES AMC
+
+2ème année Master
+
+Cours / Séminaires de radiologie
+27
+
+Séminaires de radiologie dans les AMC
+
+AMC URGENCES
+Enseignant(e)s:
+
+Prof. P-A. Poletti, Prof. A. Platon
+
+Durée :
+
+4 heures par rotation
+
+Lieu et horaires : Selon programme publié sur Moodle en début de rotation et
+adressé aux étudiant(e) s par la secrétaire de l’AMC
+THEMES
+1. Urgences traumatiques thoraciques et abdominales
+
+2h
+
+2. Urgences non traumatiques abdominales
+
+2h
+
+LES URGENCES TRAUMATIQUES THORACIQUES
+OBJECTIFS D’APPRENTISSAGE
+•
+
+Savoir reconnaître les pathologies d’urgences thoraciques traumatiques,
+connaître leur sémiologie radiologique et celle de leurs complications
+(pneumothorax, pneumothorax sous tension, hémothorax, volet costal,
+hémomédiastin, embolie pulmonaire).
+
+•
+
+Connaître les signes radiologiques standards du syndrome médiastinal et
+connaître leur signification dans un contexte d’urgence (par ex. suspicion de
+rupture aortique).
+
+DESCRIPTIF
+Radiographies du thorax standard illustrant les thèmes décrits ci-dessus. Images CT
+du thorax, en plus des images standard, pour comprendre l’imagerie du syndrome
+médiastinal.
+
+LES URGENCES TRAUMATIQUES ABDOMINALES
+OBJECTIFS D’APPRENTISSAGE
+•
+
+Connaître les examens radiologiques à effectuer dans la prise en charge des
+patients polytraumatisés (guidelines ATLS).
+
+•
+
+Connaître notamment la valeur et les limitations de l’échographie en urgence
+traumatique abdominale.
+
+•
+
+Connaître les principes de l’imagerie CT des patients polytraumatisés.
+
+•
+
+Connaître les bases de la sémiologie traumatique du foie, de la rate, des reins,
+du tube digestif (et mésentère) et de la vessie au CT.
+
+DESCRIPTIF
+Images échographiques et CT illustratives des thèmes susmentionnés.
+
+Cours / Séminaires de radiologie
+28
+
+Séminaires de radiologie dans les AMC
+
+LES URGENCES NON TRAUMATIQUES ABDOMINALES
+OBJECTIFS D’APPRENTISSAGE
+•
+
+Comprendre comment est réalisé un cliché appelé « abdomen sans
+préparation » (ASP) et connaître les différences entre un cliché couché et
+debout (indications et sémiologie).
+
+•
+
+Connaître l’aspect radiologique standard des iléus (paralytiques et occlusifs) de
+l’intestin grêle.
+
+•
+
+Connaître l’aspect radiologique standard (ASP) des occlusions coliques et leur
+étiologie (néoplasies, volvulus, syndrome d’Ogilvie).
+
+•
+
+Connaître les examens les plus appropriés à réaliser dans les suspicions de
+cholécystite, appendicite, pancréatite aiguë, volvulus du sigmoïde et ischémie
+mésentérique ainsi que la sémiologie y relative.
+
+•
+
+Connaître les différents produits de contraste utilisés en urgence, leurs
+indications, contre-indications ainsi que leurs effets secondaires.
+
+•
+
+Connaître les bases de la radioprotection en radiologie abdominale.
+
+DESCRIPTIF
+Série de radiographies standard, ultrasons et images CT illustrant les thèmes
+susmentionnés.
+
+Cours / Séminaires de radiologie
+29
+
+Séminaires de radiologie dans les AMC
+
+AMC NEUROLOGIE-NEUROCHIRURGIE
+Enseignant(e)s:
+
+Prof. KO. Lövblad, Prof. P. Machi et Prof. F.T Kurz et
+collaborateur(rice)s
+
+Durée :
+
+5 heures 15 de cours réparties sur 2 semaines consécutives
+(soit 7 cours de 45 mn)
+
+Lieu et horaires : Selon programme publié sur Moodle en début de rotation et
+adressé aux étudiant-e-s par le-a secrétaire de l’AMC
+THEMES ET OBJECTIFS
+
+
+
+Techniques IRM
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+•
+•
+
+Comprendre les bases physiques de l’Imagerie par Résonance Magnétique
+Comprendre les différences entre une IRM et un CT
+Connaître les différentes séquences IRM, morphologiques et avancées
+Connaître les limitations et artéfacts de l’IRM
+Connaître le concept de sécurité en IRM
+
+Références
+Robert R. Edelman MD, John R. Hesselink MD FACR,Clinical Magnetic Resonance
+Imaging (3rd ed) saunders.
+Viallon M, Cuvinciuc V, Delattre B, Merlini L, Barnaure-Nachbar I, Toso-Patel S,
+Becker M, Lovblad KO, Haller S. State-of-the-art MRI techniques in neuroradiology:
+principles, pitfalls, and clinical applications. Neuroradiology. 2015 May;57(5):441-67.
+
+
+
+Lésions médullaires
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+
+Connaître les indications à un examen d’imagerie médullaire
+Connaître les différents types de lésions médullaires
+Comprendre les types d’imagerie utilisables pour les différentes lésions
+médullaires
+
+Références
+Michael Forsting, Detlev Uhlenbrock, Isabel Wanke MRT der Wirbelsäule und des
+Spinalkanals (German) Thieme
+
+Cours / Séminaires de radiologie
+30
+
+Séminaires de radiologie dans les AMC
+
+
+
+Lésions substance blanche
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+
+Connaître les différentes maladies de la substance blanche du SNC
+Comprendre les différentes techniques utilisables
+Comprendre les différences entre CT et IRM des lésions de la substance
+blanche
+
+Références
+Lövblad KO Introduction to: MR imaging of white matter diseases Top Magn Reson
+Imaging. 2009 Dec;20(6):299.
+Haller S, M Pereira, Lazeyras F, Vargas MI, Lovblad KO MR Imaging techniques in
+white matter disease: potentials and limitations Top Magn Reson Imaging. 2009
+Dec;20(6):301-12.
+Haller S, Mendes Pereira V, Lazeyras F, Lalive P, Chofflon M, Vargas MI, Lovblad
+KO Magnetic resonance imaging in multiple sclerosis Top Magn Reson Imaging.
+2009 Dec;20(6):313-23.
+Lövblad KO, Assal F, Mendes Pereira V, Vargas M, Sztajzel R, Haller H MR Imaging
+of vascular diseases of the white matter Top Magn Reson Imaging. 2009
+Dec;20(6):343-8
+
+
+
+Lésions traumatiques cérébrales
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+•
+•
+
+Connaître les différents types d’hématomes traumatiques
+Connaître les différents types de fracture crânienne
+Comprendre les examens d’imagerie utilisables et leur indication
+Connaître la notion de coup contre coup
+Connaître la notion de traumatisme axonal diffus
+
+Références
+K. Sartor, S. Haehnel, B. Kress. Direct Diagnosis in Radiology. Brain Imaging.
+Thieme, ISBN 978-3-13-143961-1
+
+Cours / Séminaires de radiologie
+31
+
+Séminaires de radiologie dans les AMC
+
+
+
+Lésions ischémiques cérébrales
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+•
+•
+
+Comprendre les indications au traitement de l’ischémie cérébrale
+Connaître les différents types d’examen radiologique
+Connaître le concept de fenêtre thérapeutique
+Connaître le concept de pénombre ischémique
+Connaître les différences entre CT et IRM ; dans l’ischémie cérébrale
+
+Références
+Lövblad KO, Barnaure-Nachbar I, Boto J, Fitsiori A, Vargas MI Imagerie des
+accidents vasculaires cérébraux (ischémie) La Gazette médicale, info gériatrie,
+24.01.2017
+Lövblad KO: Altrichter S, Mendes Pereira V, Vargas, M Marcos Gonzalez A, Haller S,
+Sztajzel RImaging of acute stroke: CT and/or MRI J Neuroradiology 2015, 55-64.
+
+
+
+Lésions vasculaires cérébrales
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+•
+
+Connaître les types de lésions vasculaires cérébrales
+Connaître les différents types d’hémorragies cérébrales
+Connaître les différents types de malformations vasculaires cérébrales
+Connaître le traitement de ces lésions
+
+Références
+Gonzalez AM, Narata AP, Yilmaz H, Bijlenga P, Radovanovic I, Schaller K, Lovblad
+KO, Pereira VM. Blood blister-like aneurysms: Single center experience and
+systematic literature review. Eur J Radiol. 2014 Jan;83(1):197-205.
+
+
+Lésions tumorales cérébrales
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+•
+
+Connaître les différents types de tumeurs cérébrales
+Connaître la répartition selon localisation et âge des types de tumeurs
+cérébrales
+Connaître les différentes techniques IRM utilisées dans l’évaluation d’une
+tumeur
+Connaître les techniques avancées IRM utilisées pour le planning préchirurgical
+
+Cours / Séminaires de radiologie
+32
+
+Séminaires de radiologie dans les AMC
+
+Références
+DN Louis et al. The 2016 World Health Organization Classification of Tumors of the
+Central Nervous System: a summary. Acta Neuropathol 2016.
+Robert R. Edelman MD, John R. Hesselink MD FACR,Clinical Magnetic Resonance
+Imaging (3rd ed) saunders.
+Viallon M, Cuvinciuc V, Delattre B, Merlini L, Barnaure-Nachbar I, Toso-Patel S,
+Becker M, Lovblad KO, Haller S. State-of-the-art MRI techniques in neuroradiology:
+principles, pitfalls, and clinical applications. Neuroradiology. 2015 May;57(5):441-67.
+
+Cours / Séminaires de radiologie
+33
+
+Séminaires de radiologie dans les AMC
+
+AMC O.R.L.
+Enseignant(e)s : Prof. M. Becker
+Lieu et horaires : Selon programme publié sur Moodle en début de rotation et
+adressé aux étudiant(e)s par la secrétaire de l’AMC
+
+OBJECTIFS D’APPRENTISSAGE
+À la fin de cet AMC, l’étudiant(e) devra :
+•
+
+Connaître les indications courantes d’examens radiologiques en ORL
+
+•
+
+Être en mesure d’expliquer le choix d’un examen radiologique en fonction de la
+présentation clinique
+
+•
+
+Comprendre la sémiologie radiologique des pathologies présentées dans cet
+AMC (voir thèmes)
+
+•
+
+Comprendre le diagnostic différentiel des principales entités telles que discutées
+lors de l’AMC.
+
+THEMES
+•
+
+Indications courantes d’examens radiologiques en ORL
+
+•
+
+Infections de la sphère ORL : diagnostic différentiel et complications
+
+•
+
+Traumatismes de la sphère ORL : os temporal, larynx/pharynx et corps étrangers
+
+•
+
+Malformations congénitales de la sphère ORL : kyste latéro-cervical, kyste du
+tractus thyréoglosse, malformations de l’oreille interne
+
+•
+
+Diverticule de Zenker
+
+•
+
+Schwannome vestibulaire
+
+•
+
+Sinusites aiguës et chroniques et polypose naso-sinusienne
+
+•
+
+Oncologie ORL : tumeurs du pharynx et larynx, atteinte ganglionnaire
+
+•
+
+Affections bénignes des glandes salivaires
+
+DESCRIPTIF
+Cas pratiques avec leur présentation clinique et des séries d’images (radiographie
+standard, CT, ultrasons et IRM) illustrant les thèmes susmentionnés.
+
+Cours / Séminaires de radiologie
+34
+
+

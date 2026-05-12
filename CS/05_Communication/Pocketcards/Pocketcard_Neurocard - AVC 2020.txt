@@ -1,0 +1,192 @@
+Service de Neurologie
+Centre Cérébrovasculaire Nouvéautés en jaune
+
+Version 10/2020
+
+Recommandations générales : AVC ischémique et AIT
+Traitement en phase aiguë après CT/IRM & angio & perfusion ± TIV/TEV :
+ Après exclusion d’une hémorragie chez le patient sans TIV :
+o Aspégic® 250 mg IV (clopidogrel 300mg PO si allergie à l’aspirine)
+o Charger les 2 si athérosclérose à haut risque = *Sténose sympt. extraou intracrân≥50%; plaque instable; ≥1 événement récent même territoire
+o Ne pas initier anticoagulation en phase aiguë (sauf exception)
+ Pas d’antiplaquettaire si TIV, candidat à craniectomie, ou anticoagulé
+ Patient anticoagulé lors de l’AVC (AVK ou DOAC): pas renverser la crase.
+o Si anticoagulation efficace (INR ≥2.0) : continuer anticoagulation, sauf si
+AVC >50% ACM ou hémicérébelleux  suspendre, puis reprendre
+selon règle 1-3-6-12. Aspirine 100mg/j dès qu’anticoagulation inefficace.
+o Si anticoagulation inefficace : suspendre, charge habituelle par
+antiplaquettaire, puis reprendre anticoagulation selon règle 1-3-6-12
+ Prophylaxie maladie thromboemb. si patient ne peut pas se déplacer seul
+aux toilettes : compressions pneumatiques intermitt. Ajouter HBPM
+prophylactique (ou héparine 2'500 UI 2x/jour si clearance < 30) s.c. si score
+de Padoue ≥4 et/ou parésie sévère et/ou alité >50% journée, et pas de
+risque hémorragique majeur (attendre 12-24h après TIV)
+ Si LDL > 1.4 ou AVC/AIT athérosclérotique ou lacunaire ou indéterminé:
+atorvastatine 20-40mg ou rosuvastatine 5-10mg (plus si déjà sous statine).
+Si source athérosclérotique à haut risque*  dose maximale
+Surveillance & soins dans unité cérébrovasculaire/intermédaire
+ Monitoring cardioresp. et neurol. pour ≥ 24h (cave effet de masse j2-5;
+réveil aux 2h x 24-48h si sténose/occlusion artère cervicale sympt.)
+ NaCl 0.9% i.v. 1500 ml/24h, viser euvolémie
+ Traiter si O2 < 92%. ECG 12 dériv. Radio thorax si cliniquement indiqué.
+ Traiter T>37.5°: chercher source & hémocult. & paracétamol PO/IV 1-2g
+ Si hyperglycémie > 10 mmol/L, cibler 7.5-10 mmol/L
+ Mobilisation hors lit immédiate si AIT, AVC mineur (NIHSS≤4) ou
+hémorragie sans effet de masse symptomatique. Sinon sur 12-24h.
+ Test de déglutition, prévention broncho-aspiration et chutes
+ Nutrition PO dès que possible. Nutrition entérale progressive dès 5ième jour
+si dysphagie sévère (déjà avant si dénutri à l’admission)
+ Evaluation et ttt précoce par physio-/ergo-/logo-/neuropsy/nutrition
+Bilan de base : IRM si doute AVC, jeune, ou syndr. inhabituel
+ Monitoring cardioresp. continu ≥ 24h, R-tests/télémétrie/monitoring
+portable si AVC embolique et suspicion de FA (cf. checkliste spécifique)
+ Echo transthoracique si AVC sans source et/ou indices pour source.
+ Discuter echo transoeso et/ou IRM cardiaque si pas de cause.
+ <60 ans: IRM, homocystéine. Si FOP: ETE seulement sur demande cardio
+
+Tension artérielle et AVC ischémique : phase aiguë
+1. Continuer en principe les antihypertenseurs oraux habituels ; suspendre si
+pas d'accès entéral et/ou si TAM ≤110 en phase hyperaiguë de l’AVC
+2. Limites supérieures en phase aiguë
+ Schéma 150 : AVC non-lysé: si TAM >150  traiter et viser TAM 125-150
+ Schéma 135 : avant et après TIV, TEV avant/sans recanalisation (TICI
+≤2a), AIT, AVC au-delà 24h: si TAM >135  traiter et viser TAM 115-135
+ Schéma 110 : après recanalisation par TEV (TICI≥2b): si TAM >110 
+traiter et viser TAM 90-110.
+ Schéma 95 : après endartériectomie ou stent carotidien pour athéro (aigu
+ou électif); SCA; insuffisance cardiaque décompensée : si TAM >95 
+traiter et viser TAM 80-95
+3. Choix des médicaments en phase hyperaiguë (consult. intensive si besoin)
+ IV : Labetolol 20 mg i.v. aux 5’ (max. 5x), puis perf. selon réponse
+ IV : Nicardipine perfusion 5mg/h, après 15’  7.5mg/h  10mg/h
+ PO / SNG : 1) reprendre ttt préhospitalier 2) libre ou patch nitro.
+4. En subaigu: viser à la sortie TA proches ou en-dessous des seuils prév. 2°
+5. Noradrénaline IV: considérer si TAM ≤110, Ø contre-indication à la NA,
+ et fluctuations NIHSS et/ou (sub-) occlusion art. proximale & pénombre
+ et pas de réponse rapide au ttt non-pharma. (volume, év. midodrine)
+Prévention secondaire à long terme
+ Stop tabac, exercice 30 min/j, ↓ surpoids, régime méditerranéen, ↓ sel, OH
+zéro à 1 verre/j, dépister SOAS (NO-SAS, Apnealink), éducation thérap.
+ Adapter hypolipémiants à 3 mois : cibler LDL <1.4 et/ou ≥50% réduction du
+LDL : ↑ statines à doses max. tolérées, puis ajouter ezetimibe, puis ajouter
+evolocumab/alirocumab (remboursé si LDL toujours >2.6)
+ Cibles TA: <65 ans 120-130/70-80; >65 ans 130-139/70-80 si toléré
+ Antiplaquettaire dès 2e jour si pas d’indication à anticoagulation
+o AVC athéroscl. ou lacunaire présumé : clopido 300mg charge, puis 75mg/j
+o Source athéromateuse à haut risque* ou SCA/stent récent: clopido 75mg/j
+& Aspirine Cardio® 100 mg/j. pour 2 semaines
+o Evénement à très bas risque : Aspirine Cardio® 100 mg/j
+o Après transfo. hémorr. importante : monothérapie sans charge dès j7 env.
+ Anticoagulation (DOAC ou AVK) pour source cardiaque significative
+o Délai d’attente: « Règle 1- 3 - 6 -12 » (diviser par 2 si valve ou thrombus ♥)
+ AIT sans lésion radiologique  débuter le jour même de l’AIT
+ AVC mineur (<20% territoire ACM/cérébelleux)  attendre 3 jours
+ AVC modéré (20-40%)
+ attendre 6 jours
+ AVC important (>40%)
+ attendre 12 jours
+o Initier DOAC ou AVK sans passer par HBPM/héparine
+ Préférer Eliquis®/Pradaxa® (arrêter antiplaquettaire soir avant)
+ AVK si clearance Créa ≤30 et/ou sténose mitrale modérée-sévère 
+stop antiplaquettaire dès INR thérapeutique
+o Après transformation hémorr. importante: DOAC petite dose dès j7 environ
+
+Hémorragie intracérébrale non traumatique
+
+CHUV 10/2020
+
+CDC Neurochir. 079-556-7618. Médecin cadre URG (MCU) 079-556-7900
+Filière thrombolyse externe: 021-314-9710. Garde Neurologie 079-556-1115
+
+Acheminement / communication
+Soit acheminement par la filière thrombolyse (déchoc) et détection de l’HIC
+Soit référé d’un autre hôpital avec imagerie positive (PACSWEB ou CD)
+ Hôpital contacte CDC NCH ( considérer hospitalisation directe en NCH)
+ NCH informe le MCU  MCU décide du lieu d’accueil aux URG
+ Si déchoc: éval. simultanée par URG & NCH (& SMIA si intubé)
+Critères pour transfert d’un autre hôpital (« zéro refus ») si :
+ Critères habituels pour des soins neurointensifs
+ Haut risque de complications « neuro » ou internistiques
+ Critères potentiels pour craniectomie, sans contre-indications (cf. en bas)
+ Besoin d’un bilan étiologique spécialisé (cause inhabituelle ?)
+
+Bilan urgent
+ IRM ou CT avec angio intracrânienne ; séq. veineuses selon suspicion
+ Labo routine, CRP, TP, aPTT, Thrombin Time (TT), INR (Coaguchek® si AVK)
+ ECG. Radio thorax seulement si cliniquement indiqué.
+
+Critères neurochirurgicaux  consult NCH et orientation NCH
+ Traumatisme associé. Participation du cervelet avec HIC diamètre > 2.5cm
+ Effet de masse avec > 5 mm déviation de la ligne médiane
+ Malformation vasculaire, tumeur sous-jacente (démontrée ou suspectée)
+ Hémorragie intra-ventriculaire substantielle (risque d’hydrocéphalie)
+ Hydrocéphalie obstructive ou malabsorptive aiguë
+ Importante composante sous-arachnoïdienne
+
+Correction immédiate de la TA et crase
+TA : viser « Schéma 110 » dans les 6 heures, i.e. TAM ≤110, éviter TAS <120
+ Labetolol bolus/perfusion, ou nicardipine, ou SMIA (pour nitroprusside etc.)
+Si AVK : Hémorragie sévère (*GCS <8, et/ou volume >30 ml et/ou spot sign)
+ Octaplex® 30 U/kg (arrondir, utiliser flacon entier). Vit. K 10mg.
+Si hémorragie pas sévère* et INR <1.3 (Coagucheck® ou labo)  Ø traitement
+- et INR ≥1.3  Octaplex® = (80-TP) x poids kg x 0.6. Puis Vit. K 10mg
+ Contrôle TP/INR 15 min après Octaplex®, retraiter si besoin
+Si DOAC : Anti-Xa (Eliquis®, Xarelto®, Lixiana®): si hémorragie sévère*, ou anti-Xa
+>50ng/ml: acide tranexamique 1g IVD sur 10’ et andexanet 400mg IV sur 15’ 
+480mg perfusion sur 2h. Si inefficace: consultation hématol. pour év. ttt. supp.
+Anti-IIa (Pradaxa®) : hémorragie sévère*, ou TT>80 sec. ou anti-IIa >50ng/ml :
+Praxbind® 2 bolus x 2.5mg IV  doser TT/anti-IIa après 6h
+Si HBPM/héparine thérapeutique: Protamine® 1000U. Puis contrôle anti-Xa après
+15’ (viser anti-Xa < 0.2 unités/ml)
+Si antiplaquettaires oraux: si hémorragie sévère*  1 concentré plaquettaire (CP)
+- Pas sévère, monothérapie/aspirine&clopidogrel/Brilique®  rien donner
+- Pas sévère, combinaison prasugrel (Effient®) plus autre  1 CP
+
+Contre-indications à une intervention NCH pour HIC si ≥1 facteur suivant
+ Comorbidités/handicap préexistant importants (en général Rankin >2)
+ Absence (ou altération importante) des réflexes du tronc cérébral
+ Troubles non-corrigibles de l’hémostase
+ HIC supratentorielle : sang profond et non-obstructif
+ HIC infratentorielle : dégât important du tronc cérébral
+ Si coma, dilatation pupillaire bilatérale déjà à l’arrivée CHUV: décision individ.
+ CI à une DVE: effet de masse non-traitable à l’origine de l’hydrocéphalie
+
+Indications craniectomie pour HIC (avec ou sans résection de l’hématome)
+Critères pour une craniectomie supratentorielle : tous les critères suivants
+ Effet de masse clinique et radiologique
+ Localisation plutôt superficielle
+ En général NIHSS 10-22 (hémisphère gauche) ou 8-19 (h. droit), au moins
+partiellement expliqué par l’effet de masse
+ Dégradation > 2 points au GCS
+ Si connu : PIC > 20 mmHg
+Critères pour une craniectomie infratentorielle: hydrocéphalie obstructive et/ou
+ Effet de masse clinique et HIC > 3 cm (ou > 20 cm3) ± hydrocéph. obstructive
+
+PeC générale de l’HIC dans l’unité cérébrovaculaire
+ Monitoring cardio & neurologique continu ≥ 24h (surveiller pour effet de masse)
+ NaCl 0.9% i.v. 1500 ml/24h, puis adapter pour euvolémie
+ Radio thorax si symptômes. Traiter T>37.5° avec paracétamol po ou iv.
+ O2 si saturation 92%. Si hyperglycémie > 10 mmol/L, cibler 7.5-10 mmol/L
+ Mobilisation hors lit, sauf si effet de masse symptomatique  position 30°
+ Compression pneumatique intermittente jusqu’à mobilisation complète
+ Après 24h sans aggravation, et si toujours score Padoue ≥4 et/ou parésie sévère
+≥1 extrémité et/ou alitement >50% journée : HBPM prophylactique ½ dose (ou
+héparine 2'500 UI 2x/jour si clearance < 30). Après 48h  dose entière.
+o Si aggravation: sans resaignement  idem; avec: décision individualisée
+ Test de la déglutition. Nutrition p.o. dès que possible. Nutrition entérale dès 5e
+jour si dysphagie sévère (avant si dénutri déjà à l’admission)
+ Bilan FRCV : HTA, tabagisme, surpoids, (pré-) diabète, OH, SAOS, style de vie
+ Si LDL >2.6 : statine (si aussi antécédents ischémiques : cibler LDL < 1.4)
+ Imagerie subaiguë: rien si stable et si pas de suspicion de cause spécifique
+o Si suspicion de cause structurelle ou angiopathie amyloïde  IRM injectée,
+IRM T2*, et angio-IRM cérébrale
+o Si suspicion de malformation vasculaire ou vasculite  angiographie DSA
+o Si suspicion persiste malfo. vasculaire ou néoplasie  IRM/angio à 1-3 mois
+ Bilan hémato-hémostasiologique supplémentaire avec consultation hémato. si
+o Anomalie de la FSC, TP, aPTT, TT, fibrinogène
+o HIC multiples et/ou inexpliquées, ou si diathèse hémorragique
+ Evaluation et ttt précoce par physio-/ergo-/logo-/neuropsy/nutrition
+ Prévention 2° à long terme : normaliser TA, stop tabac (détails cf. protocole long)
+ Reprise antiplaq. ou anticoag. à 2-6 sem. si indication, TA ok, et bénéfice > risque
+
+

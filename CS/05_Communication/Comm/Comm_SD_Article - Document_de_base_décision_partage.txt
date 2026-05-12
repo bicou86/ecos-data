@@ -1,0 +1,730 @@
+DDQFMH
+
+La division Données, démographie et qualité (DDQ) publie dans le Bulletin des médecins suisses les
+documents de base qu’elle établit sur différents thèmes relevant du domaine de la qualité en se fondant sur la littérature scientifique. La FMH s’appuie sur ces réflexions pour déterminer son point de
+vue et le rendre officiellement public dans le document «Avis de la FMH». Nous vous présentons ici le
+document de base ainsi que la prise de position de la FMH sur le thème de la décision partagée
+(Shared Decision Making).
+
+Document de base de la DDQ
+
+Décision partagée – Médecin et patient
+décident ensemble
+Michelle Gerber,
+Esther Kraft,
+Christoph Bosshard
+
+*	Les références se trouvent sous
+www.bullmed.ch → Numéro
+actuel ou → Archives → 2014
+→ 50.
+
+Correspondance:
+FMH/DDQ
+Elfenstrasse 18
+CH-3000 Berne 15
+Tél. 031 359 11 11
+Fax 031 359 11 12
+ddq[at]fmh.ch
+
+Résumé
+La Shared Decision Making (SDM) est un modèle de prise de décision partagée utilisé dans
+le contexte clinique, selon lequel le médecin et
+le patient échangent activement des informations et examinent les différentes options de
+traitement dans le but de prendre ensuite une
+décision en partenariat. Pour que cette démarche ait du succès, il faut que le médecin
+crée un climat de confiance permettant au patient de s’exprimer librement. La SDM est appliquée lorsqu’une décision unique peut être
+prise sur la base des préférences du patient,
+mais aussi pour des interventions à long terme
+afin de susciter un changement de comportement. Les avis divergent quant à une application systématique de la SDM, excepté dans les
+cas d’urgence, ou occasionnelle lorsque deux
+options thérapeutiques équivalentes se présentent.
+Lorsque le médecin utilise des outils décisionnels, la démarche SDM permet au patient d’en
+apprendre davantage sur sa maladie, l’encourage à collaborer et l’aide à formuler ses préférences. Il semblerait aussi qu’elle permette
+d’éviter des traitements inutiles. Selon les expériences faites jusqu’à présent, cette démarche
+n’exerce ni effets négatifs ni effets positifs sur
+l’état de santé, le bien-être et la satisfaction du
+patient. La recherche sur l’efficacité de la SDM
+doit donc être intensifiée et différenciée de
+manière générale.
+Bien que la démarche SDM soit appropriée sur
+le plan éthique, les patients sont rarement associés à la prise de décision comme ils le souhaiteraient. Son application dépend avant tout
+de l’attitude et des compétences du médecin
+auquel sont proposés des programmes de formation efficaces et des outils décisionnels de
+qualité élevée.
+
+A l’avenir, la décision partagée, appelée aussi Shared
+Decision Making (SDM), sera toujours plus considérée comme le modèle idéal de prise de décision dans
+le contexte clinique. Lors de la révision du Code civil
+concernant la protection des adultes en 2004, le
+­Comité central de la FMH a estimé que les décisions
+thérapeutiques relatives à des patients incapables
+de discernement devaient être prises de manière
+consensuelle entre les proches et l’équipe médicale concernée [1]*. La démarche SDM est désignée
+comme l’un des changements de paradigme les plus
+importants en médecine et elle est souvent évaluée
+comme l’indicateur d’une médecine de bonne qualité [2–5]. Selon ce modèle, médecin et patient décident ensemble d’un traitement spécifique. Par rapport au paternalisme qui régnait autrefois dans la
+­relation médecin-patient, on demande au médecin
+de tenir un rôle moins autoritaire et de le centrer
+­davantage sur le patient, comme en témoignent les
+approches du «Patient Centered Care» ainsi que les
+concepts et les différentes méthodes axées sur le
+­patient comme les compétences en santé, la responsabilisation (empowerment) du patient et les entretiens motivationnels (motivational interviewing).
+L’évolution visant à renforcer l’implication du patient se reflète dans les discussions menées actuellement au niveau suisse. Parmi les priorités fixées dans
+son rapport «Santé2020», le Conseil fédéral exige
+quant à lui: «Par ailleurs, il faut donner aux patients
+toute leur place dans la relation avec le personnel
+soignant, une place fondée sur l’égalité et l’auto­
+détermination» [6]. En contraste avec les exigences
+visant une autonomie accrue des patients, les discussions politiques actuelles mettent aussi en garde
+contre une «économisation» de la médecine et une
+prise en compte du patient comme client [7].
+En Suisse [8], il existe – en comparaison avec les
+Etats-Unis [9] ou l’Allemagne où l’on encourage la
+­recherche sur la SDM [10] par des aides financières –
+peu d’initiatives formelles pour analyser, diffuser et
+mettre en œuvre la démarche SDM. Outre quelques
+études sur le sujet, telle une enquête menée auprès
+
+Bulletin des médecins suisses | Schweizerische Ärztezeitung | Bollettino dei medici svizzeri | 2014;95: 50
+
+1883
+
+FMH
+
+DDQ
+
+de la population à Genève [11] ou un questionnaire
+envoyé aux médecins-assistants et aux responsables
+de la formation postgraduée [12], la démarche SDM
+est intégrée dans le coaching santé [13] du Collège de
+médecine de premier recours (CMPR). Dans ce projet, les médecins soutiennent leurs patients afin
+d’optimiser leur comportement en matière de santé
+dans un domaine qu’ils ont eux-mêmes choisi
+(autres exemples de projets, cf. Cornuz et al. 2011
+[8]). En Suisse, la démarche SDM figure également
+dans des brochures d’information, à savoir la brochure publiée par l’ONG Dialogue éthique sur la relation médecin-patient [14] et le guide «La communication dans la médecine au quotidien» publié par
+l’ASSM [15]. Quelques universités transmettent aux
+étudiants en médecine des informations à ce sujet et
+plusieurs cliniques universitaires donnent des cours
+de formation postgraduée sur ce thème [8].
+
+on exige alors la démarche SDM dans tous les cas,
+sauf quand la situation ne le permet pas, par exemple
+lorsqu’il faut agir rapidement en situation d’urgence.
+Loh et Simon [24] définissent la démarche SDM
+comme un processus interactif d’une participation
+juridiquement équivalente du médecin et du patient
+sur la base d’une information partagée dans le but
+de parvenir à un accord responsabilisant. Cette démarche se caractérise comme suit [3]:
+– Deux personnes au moins sont impliquées (un
+médecin et un patient), mais souvent encore
+d’autres personnes comme la famille, les proches
+et d’autres professionnels de la santé.
+– Ces deux personnes participent activement au
+processus de prise de décision.
+– Elles échangent chacune des informations.
+– Elles tiennent à prendre ensemble une décision
+thérapeutique.
+
+Qu’est-ce que la décision partagée?
+La notion de décision partagée est utilisée de différentes manières et sa délimitation par rapport aux
+concepts apparentés n’est pas claire [3, 16–18]. Dans
+le paragraphe qui suit, nous expliquons ce qu’on
+­entend par décision partagée et comment elle se
+­distingue des autres modèles et notions de prise de
+décision dans le contexte clinique.
+Lorsque deux options au moins (y compris la
+possibilité d’attendre) se présentent [2] dans le
+contexte clinique, la décision sera prise en fonction
+de la médecine basée sur les preuves (evidence-based
+medicine). Pour une patiente atteinte d’un cancer du
+sein par exemple, il convient de déterminer s’il est
+opportun de procéder à l’ablation du sein (mastectomie) ou s’il est préférable de réaliser une opération
+chirurgicale conservative. Souvent, les options thérapeutiques sont équivalentes («equipoise» [19]); il
+faut alors soupeser les avantages et les inconvénients, par exemple une durée de vie prolongée face
+à une qualité de vie diminuée. En outre, les effets
+possibles d’un traitement sont incertains et il n’est
+pas toujours facile d’émettre des recommandations
+quant au traitement. Comme les préférences, les besoins et les valeurs divergent d’un patient à l’autre et
+que ceux-ci ne disposent pas des mêmes connaissances au sujet de leur maladie, les médecins ne
+peuvent, selon le modèle SDM, prendre une décision
+qu’avec leurs patients. Particulièrement appropriée
+pour les décisions axées sur les préférences [3, 20–
+22], la démarche SDM soulève une question fondamentale, celle de savoir dans quelle situation elle
+doit être réalisée et comment l’option thérapeutique
+doit être choisie parmi celles discutées avec les patients [19, 20, 23]. D’un côté, on propose d’appliquer
+la démarche SDM uniquement lorsque deux options
+équivalentes, selon la médecine basée sur les preuves,
+se présentent sans inconvénient pour la population
+et sans grande différence en termes de coûts. De
+l’autre, on tient à renforcer l’autonomie du patient et
+
+La démarche SDM se distingue des autres modèles
+SDM en contexte clinique (tabl. 1) principalement
+par le fait que le médecin et son patient participent
+ensemble à toutes les phases de la prise de décision
+(échange d’informations, évaluation et décision).
+Dans les trois autres modèles, les informations sont
+données de manière unilatérale. Dans les modèles
+paternaliste et interprétatif, le médecin évalue seul
+les avantages et les inconvénients des différentes
+possibilités thérapeutiques et prend lui-même la
+­décision. Dans le modèle de la décision éclairée, le
+patient réalise seul ces différentes étapes. Une autre
+différence entre les modèles concerne le rôle du médecin et l’image du patient. Dans le modèle SDM,
+médecin et patient sont égaux en droit et aussi des
+partenaires complémentaires dans la prise de décision. Le patient fournit des informations sur son
+cadre de vie, ses valeurs, besoins et peurs et dévoile la
+connaissance subjective qu’il a de son état de santé
+et de sa maladie. Le médecin transmet ses connaissances professionnelles et son expérience clinique
+mais aussi des valeurs éthiques en contribuant à une
+prise de décision optimale avec une distance objective pour la problématique clinique [24, 25].
+Selon les patients, l’un des obstacles les plus
+fréquemment cités pour la démarche SDM est le
+­déséquilibre entre le médecin et son patient. Les patients ne veulent pas être désagréables ni importuner
+les médecins toujours très occupés [27]. Pour réaliser
+cette démarche, ce n’est donc pas seulement le moment de la décision qui est important mais aussi le
+climat et l’interaction pendant toute la consultation.
+A cet effet, le médecin doit être sensible aux besoins
+du patient, témoigner de l’empathie, lui fournir des
+informations individualisées, l’encourager à parti­
+ciper activement et lui donner la possibilité d’ex­
+primer ses pensées et ses émotions. De cette façon,
+les patients participent plus activement, communiquent leurs valeurs et préférences, indiquent les
+barrières posées au traitement ou informent des
+
+Bulletin des médecins suisses | Schweizerische Ärztezeitung | Bollettino dei medici svizzeri | 2014;95: 50
+
+1884
+
+FMH
+
+DDQ
+
+Tableau 1
+Modèles de prise de décision dans le contexte clinique.1
+Modèle paternaliste
+
+Modèle interprétatif 2
+
+Modèle de la décision
+partagée (SDM)
+
+Modèle de la décision
+éclairée
+
+Rôle du médecin
+
+Protecteur, bienfaiteur
+
+Représentant du patient
+
+Partenaire
+
+Expert technique
+
+Echange d’informations
+
+unilatéral
+médecin  patient
+
+unilatéral
+médecin  patient (savoir)
+
+réciproque
+médecin  patient
+
+unilatéral
+médecin  patient
+
+Prise en compte des valeurs Aucune importance donnée
+Le médecin s’enquiert des
+Le médecin voit avec son
+et préférences du patient
+aux préférences pour une prise préférences du patient et il en patient quelles sont ses
+de décision objective.
+tient compte dans l’évaluation. préférences.
+
+Le patient connaît ses propres
+préférences.
+
+Evaluation
+
+Le médecin seul, éventuellement avec d’autres professionnels
+de la santé.
+
+Médecin et patient ensemble, Le patient seul, évent. avec
+évent. avec son milieu social et son milieu social et d’autres
+d’autres professionnels.
+professionnels.
+
+Décision
+
+Médecin, le patient donne son accord.
+
+Médecin et patient
+
+Tâches médicales
+
+Etant donné les connaissances Etant donné les connaissances Etant donné ses connaissances Etant donné les connaissances
+professionnelles et l’expérience professionnelles et l’expérience professionnelles et son
+professionnelles et l’expérience
+du médecin, l’éthique veut
+du médecin ainsi que les va­expérience, le médecin informe du médecin, l’éthique veut
+qu’il choisisse objectivement le leurs du patient, l’éthique veut son patient des différentes
+qu’il donne des informations
+meilleur traitement pour son
+qu’il choisisse le meilleur
+possibilités thérapeutiques et il neutres et compréhensibles sur
+patient et qu’il obtienne au
+traitement pour son patient
+s’enquiert de ses préférences. les différentes possibilités
+préalable son accord.
+et qu’il obtienne au préalable L’éthique veut que le médecin thérapeutiques à son patient
+son accord.
+l’encourage à participer au
+de manière à ce qu’il puisse
+processus décisionnel, le
+choisir librement le meilleur
+soutienne et choisisse avec lui traitement.
+le meilleur traitement.
+
+Image du patient
+
+En raison d’un savoir lacunaire, d’une objectivité déficiente
+et de limites liées à sa maladie, le patient ne peut pas prendre
+une décision optimale.
+
+Le patient peut décider avec
+son médecin lorsque celui-ci
+l’encourage à participer au
+processus décisionnel et l’y
+accompagne.
+
+Patient
+
+Le patient peut décider en toute
+indépendance lorsque le savoir
+manquant lui est transmis de
+manière compréhensible.
+
+Sur la base de: [16, 23, 26]
+	Ces quatre modèles sont souvent cités dans la littérature scientifique. Mais d’autres modèles sont envisa­geables, par ex. le modèle du coaching dans lequel le
+médecin échange des informations avec son patient, dirige l’évaluation mais l’invite à prendre lui-même la décision.
+
+1
+
+2
+
+Appelé aussi modèle du professionnel en tant que représentant (agent).
+
+­décisions thérapeutiques non respectées comme la
+prise irrégulière de médicaments. Une bonne relation est également importante car la consultation
+chez le médecin est déjà une intervention thérapeutique en soi [28–31].
+La notion de «consentement éclairé» est apparentée à ces modèles de prise de décision clinique.
+On entend par là l’autorisation juridique du patient
+pour la réalisation d’un traitement, laquelle est liée à
+certaines conditions comme le discernement du patient et l’explication compréhensible des risques et
+des chances de succès d’un traitement. Le médecin
+propose un traitement et présente les autres possibilités thérapeutiques par rapport au choix du patient.
+Dans ce contexte, le médecin doit obtenir l’accord
+du patient [3, 23, 26] avant de réaliser le traitement.
+Il est important que les médecins exécutent correctement leur devoir d’information tel qu’il est fixé dans
+les lois cantonales sur la santé et qu’ils puissent aussi
+le prouver, si nécessaire [32–34]. Lorsque, dans ces
+conditions, ils prennent une décision thérapeutique
+difficile dans laquelle la qualité de vie pèse davan-
+
+tage que la durée de vie, ils n’ont pas à craindre une
+procédure en responsabilité civile ou une demande
+en dommages-intérêts.
+Processus de la décision partagée
+Pour faciliter la mise en œuvre de la SDM dans la pratique clinique, Charles et al. [16] ainsi qu’Elwyn et al.
+[25] ont développé des modèles de processus. Ces
+modèles distinguent quatre phases: introduction,
+échange d’informations, évaluation et décision.
+1. Introduction
+Au cours de la première phase, le médecin communique au patient quel est son problème médical et
+quelles sont les possibilités thérapeutiques, y compris la possibilité d’attendre et d’observer. En outre,
+le médecin lui explique le déroulement de la prise de
+décision et leurs rôles respectifs. Dans ce contexte, il
+l’informe qu’ils la prendront ensemble de manière à
+ce qu’il ne se sente pas seul et abandonné face à cette
+décision difficile [25, 35].
+
+Bulletin des médecins suisses | Schweizerische Ärztezeitung | Bollettino dei medici svizzeri | 2014;95: 50
+
+1885
+
+FMH
+
+DDQ
+
+2. Echange d’informations
+Lors de la deuxième phase, le médecin informe le
+­patient sur sa maladie, les options thérapeutiques,
+les risques et avantages en lien avec sa santé, son
+bien-être physique et psychique et son environnement social. Ce faisant, il intègre les preuves médicales dans la consultation et vérifie simultanément si
+le patient a bien compris ses explications. Il prend
+également en compte les craintes et les théories subjectives du patient quant à sa maladie ainsi que les
+éventuelles propositions pour d’autres options. Lors
+de la consultation, le patient communique ce qu’il
+sait de lui-même, comme son anamnèse, sa situation
+personnelle et ses valeurs [16, 17, 21, 25]. Le médecin
+l’encourage à acquérir des connaissances au moyen
+de brochures ou par des sites internet adéquats et
+à les interpréter [5]; des outils décisionnels seront
+utilisés durant cette phase. Des brochures, vidéos ou
+programmes en ligne informent le patient de manière standardisée de sa maladie, des options thérapeutiques et de leurs risques, rendent les probabilités
+compréhensibles et aident le patient à identifier ses
+préférences [35-37]. D’autres outils comme des graphiques de probabilités ou la présentation d’options
+avec leurs avantages et inconvénients (option grids)
+peuvent être utiles [21]. Ces différents moyens auxiliaires servent à mener l’échange d’informations (et
+l’évaluation) de manière systématique et standardisée et encouragent la participation active du patient.
+Mais ils ne sont pas partie intégrante obligatoire du
+processus SDM et leur application ne garantit pas
+que la décision sera prise selon le modèle SDM.
+3. Evaluation
+Après la phase d’information, le médecin passe à
+l’évaluation des différents avantages et inconvénients des options thérapeutiques à disposition. A
+cet effet, il s’enquiert des attentes, valeurs, préoccupations et idées du patient; il l’encourage à identifier
+ses propres préférences et à les pondérer. Le choix
+d’une option thérapeutique en particulier est aussi
+influencé par la probabilité des différents effets thérapeutiques et des attentes personnelles du patient
+quant à leur efficacité. On entend par là la capacité
+du patient à suivre avec succès le processus théra­
+peutique nécessaire (par ex. prise régulière de médicaments). De nombreux patients tiennent à intégrer
+l’avis de leurs proches dans le processus décisionnel
+et à connaître l’opinion d’autres médecins et professionnels de la santé. Contrairement au modèle de la
+décision éclairée, le rôle du médecin ne se limite pas
+à communiquer ses connaissances de façon neutre.
+Le médecin présente également son point de vue
+concernant les différentes options et peut donner
+des recommandations. Cela ne signifie toutefois pas
+qu’il va simplement chercher à convaincre son patient de la décision qu’il a déjà prise (cf. Karnieli-­
+Miller & Eisikovits [38]). Comme il y a un déséquilibre entre les parties, le médecin doit créer un climat
+
+agréable dans lequel le patient se sente en sécurité
+et puisse s’exprimer librement [16, 17, 25, 39].
+4. Décision
+De nombreux patients ont besoin de temps pour réfléchir, raison pour laquelle certaines décisions sont
+remises à plus tard et des consultations de suivi sont
+convenues. Conformément au modèle SDM, médecin et patient prennent ensemble une décision. Mais
+parfois, ils n’arrivent pas à se mettre d’accord malgré
+leur discussion. Si le médecin ne veut pas appliquer
+l’option thérapeutique choisie par le patient, celui-ci
+peut s’adresser à un autre médecin. A l’inverse, le
+­patient a en tout temps le droit de refuser une certaine option thérapeutique, ce qui montre que les
+deux parties sont soumises à des limites et qu’une
+personne ne peut pas décider seule [16, 17, 25].
+La prise de décision dans le contexte clinique
+est un processus dynamique – les phases décrites ciavant se succèdent de manière fluide. Au cours d’une
+phase de consultation, le modèle décisionnel (cf. tableau 1) peut changer ou des éléments de modèles
+différents peuvent être combinés entre eux. Par
+exemple, un médecin commence sa consultation
+avec le modèle SDM, mais passe finalement au modèle interprétatif après que le patient lui a demandé
+de prendre la décision thérapeutique à sa place. L’application des différents modèles de prise de décision
+est influencée par la situation clinique et les besoins
+du patient; de ce fait, elle exige beaucoup de souplesse [16].
+Application dans différents
+domaines médicaux
+Conformément à sa définition la plus connue, le
+modèle SDM [3] a été développé pour les maladies où
+le pronostic vital est engagé, par exemple un cancer,
+lorsqu’il faut choisir entre plusieurs solutions thérapeutiques présentant différentes conséquences possibles et incertaines (cf. application en oncologie:
+Politi et al. 2012 [40]). Le modèle SDM est également
+appliqué dans d’autres domaines, p. ex. en médecine
+intensive pour les décisions relatives à des mesures
+de maintien en vie [41], en réadaptation [42] et en
+psychiatrie [43].
+Le modèle de Charles et al. [3], créé dans le cadre
+de l’oncologie, a été étendu à la médecine de premier
+recours [5] et au traitement de patients atteints de
+maladies chroniques [31]. Selon Murray et collègues
+[5], la consultation en médecine de premier recours
+se caractérise par des symptômes indifférenciés et en
+partie par des diagnostics et problèmes multiples,
+également influencés par des facteurs psychiques et
+sociaux. En revanche, le modèle de Charles et al. [3]
+contient un diagnostic clair, connu des deux parties
+avant l’application de la démarche SDM. Pour la
+­médecine de premier recours, il est donc important
+de l’appliquer déjà en début de consultation au moment d’aborder la question du mandat. Patient et
+
+Bulletin des médecins suisses | Schweizerische Ärztezeitung | Bollettino dei medici svizzeri | 2014;95: 50
+
+1886
+
+FMH
+
+DDQ
+
+médecin doivent se mettre d’accord sur les problèmes à discuter, décider s’il faut en discuter immédiatement ou à une date ultérieure et si le médecin
+consulté est vraiment l’interlocuteur adéquat. En médecine de premier recours, il faut souvent prendre
+plusieurs décisions, lesquelles ont toutefois moins
+d’impact sur le patient et peuvent être revues constam­
+ment. C’est pourquoi il est également important de
+procéder à une évaluation commune des différentes
+décisions.
+Pour le traitement des patients atteints de maladies chroniques ou pour la promotion de la santé et
+la prévention, le rôle du médecin est moins orienté
+sur la transmission de son savoir d’expert que sur
+l’application d’une décision, contrairement à la problématique des maladies aigües présentée dans le
+modèle de Charles et al. [3]. De ce fait, Elwyn et collègues [19, 44] parlent d’interventions visant à modifier le comportement et non à soutenir la décision.
+Pour une décision thérapeutique visant à modifier le
+comportement, il s’agit, par exemple, de voir si un
+patient diabétique prend régulièrement ses médicaments ou s’il modifie ses habitudes alimentaires.
+Comme les effets de la décision prise dans ce genre
+de cas n’apparaissent généralement qu’à long terme,
+la mise en œuvre d’une décision relève du défi. C’est
+pourquoi il est particulièrement important de tenir
+compte, dans la décision, de la capacité du patient à
+appliquer les mesures thérapeutiques, de le rendre
+coresponsable de la décision et d’y intégrer le soutien de son environnement social (cf. entretien motivationnel [44]). Dans le cas des patients atteints de
+maladies chroniques, une relation de longue durée
+s’est souvent établie entre le patient et son médecin,
+ou entre le patient et d’autres professionnels de la
+santé. C’est, en l’occurrence, la condition idéale à
+l’origine de la démarche SDM, à savoir le partenariat
+entre médecin et patient [5, 31, 42].
+Pourquoi la décision partagée?
+Dans l’introduction, il est dit que la démarche SDM
+est considérée comme le modèle idéal de la prise
+de décision clinique. Dans les lignes qui suivent,
+nous en exposons les raisons et nous les complétons
+par des résultats scientifiques et des éléments de
+­discussion.
+Besoins des patients
+A l’heure actuelle, les patients sont plus sceptiques
+face aux médecins et plus conscients de leurs droits.
+De nombreux patients s’informent sur internet des
+thèmes touchant à leur santé et des différents pos­
+sibilités thérapeutiques; par conséquent, ils veulent
+aussi avoir la parole dans la prise de décision [20,
+22]. Des enquêtes montrent en effet qu’une majorité de patients aimeraient participer aux décisions
+médicales. D’un autre côté, il existe aussi une minorité qui préfère laisser au médecin le soin de prendre
+une décision [26, 45]. Une enquête menée auprès de
+
+la population allemande a révélé que 57 % des personnes interrogées estiment que les décisions médicales devraient être prises avec le médecin, 17 % que
+les patients devraient décider seuls et 23 % seulement
+étaient d’avis que le médecin doit décider seul [46].
+La préférence pour une participation active dans
+la prise de décision s’est accrue dans les années
+2000 [45]. Le souhait de participer aux décisions
+­médicales dépend du pays et de la culture [47], du
+groupe de patients [11, 20, 45, 46], de la méthode
+avec laquelle l’enquête a été menée [22, 45] ainsi que
+de la formulation et de la définition des questions
+posées [45]. Si tous les patients aimeraient davantage
+d’informations concernant leur maladie et les possibilités thérapeutiques, seule une partie d’entre eux
+voudrait participer à la prise de décision. Par contre,
+pratiquement personne ne souhaite participer à la
+pose du diagnostic et à la détermination des alter­
+natives thérapeutiques [20, 22, 26]. La participation active est le plus souvent souhaitée par les
+femmes, les personnes au bénéfice d’une formation professionnelle supérieure, les personnes issues d’une couche sociale élevée, les autochtones et
+les jeunes; néanmoins, ces facteurs sociodémographiques ne sont pas des indicateurs fiables pour déterminer les préférences en matière de participation
+dans un cas particulier [11, 46]. Dans l’ensemble,
+seuls 60 % des patients sont inclus dans la prise de
+décision conformément à leur demande [4]; la démarche SDM est rarement appliquée dans la pratique
+[48]. De nombreux médecins sous-estiment apparemment le besoin d’informations et de codécision:
+ils agissent souvent d’après les idées qu’ils se font
+des attentes des patients au lieu de s’enquérir direc­
+tement de leurs préférences [22, 26, 49].
+Réflexions éthiques
+Lorsque le consentement éclairé du patient pour la
+réalisation d’un traitement est établi comme un
+droit du patient sur le plan éthique et juridique, la
+démarche SDM constitue également un minimum
+éthique nécessaire, d’autant plus qu’elle permet aux
+patients d’obtenir davantage d’informations, de renforcer leur autonomie et de leur donner le sentiment
+de contrôler leur traitement. Dans la démarche SDM,
+les patients ne sont toutefois pas laissés à eux-mêmes
+dans la prise de décision, car le médecin est tenu de
+leur faire partager son expertise et de les accompagner dans le processus décisionnel. De ce fait, la décision partagée est souhaitée [3, 22] du point de vue
+éthique.
+Effets sur la santé
+On suppose que la démarche SDM augmente la qualité médicale par l’évaluation systématique de toutes
+les options, qu’elle empêche les traitements inutiles,
+qu’elle a un impact thérapeutique chez les patients
+atteints de maladies chroniques, qu’elle augmente
+l’observance (compliance ou fidélité thérapeutique)
+
+Bulletin des médecins suisses | Schweizerische Ärztezeitung | Bollettino dei medici svizzeri | 2014;95: 50
+
+1887
+
+FMH
+
+DDQ
+
+et qu’elle a donc des effets positifs sur l’état de santé
+des patients [20, 35, 39, 50]. Néanmoins, il ne faut
+pas s’attendre de manière générale à une amélioration de l’état de santé; cependant, les patients obtiennent plus vite les résultats escomptés car les inconvénients qu’ils voulaient éviter ne se présentent
+pas [37]. Il n’existe toutefois aucune étude prouvant
+une nette amélioration de l’état de santé et de la qualité de vie [37, 50–52]. En général, on constate des
+­effets positifs plutôt dans les études relatives à des
+­patients souffrant de maladies chroniques et ayant
+une relation de longue durée avec leur médecin,
+comme aussi lorsque la démarche SDM a eu lieu lors
+de plusieurs consultations avec un médecin formé à
+cet effet [51]. Toutefois, la démarche SDM n’a ni des
+effets clairement positifs ni clairement négatifs sur
+l’état de santé, selon nos connaissances actuelles. On
+ne peut donc faire de déclaration ferme concernant
+l’efficacité de la SDM qu’avec prudence en raison du
+nombre minime d’études de qualité et du fait que
+celles-ci analysent différents types d’intervention
+auprès de groupes de patients très différents. En
+­
+outre, le contrôle de la qualité de l’application de la
+SDM y fait souvent défaut.
+Effets sur la participation et la satisfaction
+La démarche SDM augmente de manière probante
+les connaissances des patients sur leur maladie, notamment lorsque des outils décisionnels sont utilisés
+[37, 50, 51]. Les patients connaissent mieux leurs
+propres valeurs et ils demeurent rarement indécis.
+Plus les médecins et les patients communiquent
+entre eux au sujet de la décision à prendre, plus les
+patients deviennent actifs. Dans les études sur les outils décisionnels (modèle de la décision éclairée), les
+patients décident plus souvent seuls, bien que la démarche SDM ne soit pas plus fréquente [37]. La question de savoir si cette dernière augmente l’observance du patient, comme on le suppose, est encore à
+éclaircir, vu le nombre restreint d’études [37, 50, 51].
+Concernant la satisfaction, les résultats sont également peu clairs et indiquent au plus un effet léger
+[37, 50, 51].
+
+Sujets
+d’actualité
+du forum
+Venez débattre avec nous!
+Dans la rubrique forum,
+nous présentons régulièrement des sujets d’actualité politique, économique
+et scientifique ayant
+trait au système de santé.
+Donnez votre avis ou
+commentez les affirmations
+de vos confrères. Pour
+accéder au forum:
+www.bullmed.ch/forum/
+
+Effets sur le système de santé
+Des différences régionales ont été constatées dans la
+fréquence des traitements au sein d’un pays, qui ne
+peuvent pas être expliquées par la maladie ou les préférences des patients, mais probablement par les avis
+médicaux différents selon l’endroit [53]. De telles
+différences thérapeutiques pourraient être diminuées par la prise en compte systématique des préférences des patients exprimées dans la démarche
+SDM. Certains éléments indiquent qu’elle empêche
+les traitements inutiles ne procurant aucun avantage
+ou entraînant des risques et effets secondaires considérables [21]. L’utilisation d’outils décisionnels permet d’opter plus souvent pour des traitements
+conservateurs en lieu et place d’interventions chirur-
+
+gicales importantes [37]. Les médecins de famille formés à la démarche SDM prescrivent également plus
+rarement des antibiotiques lors d’infections respiratoires aiguës [54].
+On craint souvent que la démarche SDM augmente la durée de consultation et donc les coûts de
+santé. Or l’obstacle le plus souvent mentionné par
+les médecins pour son application est en fait le
+manque de temps [16, 22, 49, 55], ce qui est également l’avis des patients [27]. Deux revues Cochrane
+[37, 50] montrent toutefois que les consultations
+durent en moyenne à peine trois minutes de plus. Si
+davantage de temps était à disposition, on estime
+que les effets seraient plutôt positifs [56].
+La question de savoir si la démarche SDM contribue à réduire les coûts de santé ou si, au contraire,
+elle aggrave encore la hausse des coûts, reste ouverte
+en raison des études quasi inexistantes à ce sujet. Les
+rares études effectuées indiquent qu’elle n’exerce
+vraisemblablement aucune influence significative
+sur les coûts [37].
+Conclusion
+La démarche SDM n’est pas un remède miracle.
+Lorsque des outils décisionnels sont utilisés, ils augmentent les connaissances des patients sur leur
+­maladie, les encouragent à participer activement et
+les aident à formuler leurs préférences. Certains indices montrent que cette démarche peut empêcher
+les traitements inutiles. Néanmoins, elle n’exerce
+pas d’effet positif ou négatif sur l’état de santé,
+le bien-être des patients et leur satisfaction, selon
+nos connaissances actuelles; par ailleurs, elle n’augmente pas significativement la durée des consultations. De nombreuses questions restent néanmoins
+ouvertes concernant son efficacité. Certes, il existe
+de très nombreuses études sur les outils décisionnels,
+mais très peu sur la démarche SDM. Par conséquent,
+on ignore s’il est possible de la rendre plus efficace
+dans le cadre d’une application de qualité élevée ou
+pour des groupes de patients déterminés.
+Son application dépend de l’attitude et des attentes des médecins. L’échange de connaissances ne
+suffit pas à lui seul, car il faut aussi encourager le
+­patient à participer et à vouloir une décision commune. La peur des médecins face à une procédure
+en responsabilité civile ou une demande en dommages-intérêts peut constituer une barrière lorsqu’un patient accorde plus d’importance à la qualité
+de vie qu’à sa durée. C’est pourquoi il est important,
+aussi dans le cadre de la démarche SDM, que
+les médecins informent correctement leurs patients
+et qu’ils puissent le prouver. Les médecins voient
+un autre obstacle pour cette démarche [49] dans le
+manque de compétence, de connaissances et de
+­modèles; ces lacunes se sont même avérées déterminantes dans une étude faite avec des diététiciens
+[55]. Malgré les nombreux programmes de for­
+mation offerts dans divers pays, entre autres aussi
+
+Bulletin des médecins suisses | Schweizerische Ärztezeitung | Bollettino dei medici svizzeri | 2014;95: 50
+
+1888
+
+FMH
+
+DDQ
+
+en Suisse [57], on ne dispose pas de résultats de
+­recherche indiquant quelle sorte de programme est
+efficace. Enfin, l’absence d’informations compréhensibles basées sur les preuves et d’outils déci­
+sionnels de qualité est également un handicap dans
+de nombreux domaines [22, 27, 49]. On trouve une
+vue d’ensemble des outils décisionnels existants et
+des indications pour évaluer leur qualité chez Lenz
+et al. 2012 [36] et Stacey et al. 2014 [37]. Pour la
+­démarche SDM, il est aussi utile que des guides de
+pratique associent explicitement les préférences des
+patients à différentes options. Afin que la démarche
+SDM puisse être vraiment possible, il faut éviter de
+donner aux médecins des directives trop restrictives
+les empêchant de tenir compte des préférences des
+patients [2, 5].
+Sur le plan éthique, la démarche SDM semble
+être un modèle très judicieux pour la prise de décision clinique. L’utilité de ce modèle est incontestée
+dans les situations sollicitant une décision en présence de plusieurs options équivalentes du point
+
+de vue médical. La démarche SDM donne accès à
+la participation active souhaitée par de nombreux
+patients sans les livrer à eux-mêmes ou leur donner
+le sentiment d’être trop sollicités. A cet égard, il est
+important que la démarche SDM soit mise en œuvre
+avec souplesse, car les besoins des patients peuvent
+changer avec le temps et ils sont différents d’un
+patient à l’autre. Comme leur participation plus
+ou moins active dépend de leurs besoins, il conviendra de l’adapter en conséquence.
+
+Articles interactifs
+
+.....
+......
+-------.... ------------------
+
+Vous souhaitez commenter cet article? Il vous suffit pour
+cela d’utiliser la fonction «Ajouter un commentaire»
+dans la version en ligne. Vous pouvez également consulter
+les remarques de vos confrères sous: www.bullmed.ch/
+numero-actuel/articles-interactifs/
+
+Prendre le pouls de l’actualité.
+L’offre groupée de la FMH.
+Bulletin des médecins suisses, Today’s Press,
+FMH-Flash. Gratuit pour nos membres.
+
+oir
+E n sav r
+s
+plus u h
+h.c
+www.fm
+
+Bulletin des médecins suisses | Schweizerische Ärztezeitung | Bollettino dei medici svizzeri | 2014;95: 50
+
+1889
+
+

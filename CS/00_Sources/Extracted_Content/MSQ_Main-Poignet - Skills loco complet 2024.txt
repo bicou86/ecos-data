@@ -1,0 +1,1423 @@
+Anatomie palpatoire de base – Main et poignet
+Os (palpation)
+Radius
+
+Epiphyse distale : styloïde radiale, tubercule de Lister (en dorsal), lèvre palmaire (située en regard du 1 er pli de flexion du poignet)
+
+Ulna
+Bord dorsal de la tête (palpé en pronation), apophyse styloïde (toujours dans l’axe de l’olécrane peu importe l’angle de pronosupination), bord palmaire
+de la tête et ligaments ulno-carpiens palmaire du T FCC (triangular fibrocartilage complexe) (sont mieux palpés en supination)
+
+Scaphoïde
+
+T ubercule palmaire (1/3 distal, palpé distal au pouls radial sur le 2 e pli de flexion, devient plus proéminent en inclinaison radiale)
+T abatière anatomique (1/3 moyen, palpé entre les court et long extenseurs du pouce, proéminent en inclinaison ulnaire)
+Pôle proximal (1/3 proximal, 1 cm distal au tubercule de Lister, palpé à la face dorsale du poignet, plus proéminent en flexion)
+
+Métacarpiens
+Commissures (4 au total): peau entre deux rayons digitaux (« palmure »).
+
+Phalanges : proximale (=P1), moyenne (=P2) et distale (=P3)
+
+Articulations (mesure des angles et stabilité)
+Radio-carpienne
+Extension-Flexion
+Inclinaison Radio-ulnaire
+
+(EF) : mesure au dos du poignet ; axes : entre le 3 e métacarpien et avant-bras (p. ex. 60°-0-80°)
+(RU) : mesure la main sur la table ; axes : entre le 3 e métacarpien et avant-bras (p. ex. 20°-0-30°)
+
+Radio-ulnaire :
+Pronation-Supination
+
+(PS) : coudes au corps fléchis à 90°; axes: tangente à face palmaire du poignet et humérus (p. ex. 85°-0-95°)
+
+Digitales : MP, IPP, IPD
+Extension-Flexion
+(EF) : Mesure au dos du doigt. (p.ex. : 0°-20°-100° : signifie un déficit d'extension de 20° et une flexion de 100°)
+Notations: Valeur en actif° (valeur en passif° entre parenthèses, si la valeur active est déficitaire)
+
+Nerfs (signe de Tinel par percussion sur le trajet du nerf)
+Nerf médian : médial au tendon distal du biceps (avec artère brachiale), ligne mé diane de l’avant-bras, pli thénarien (dans l’axe du médius)
+Nerf ulnaire : dans la gouttière épitrochléo-olécranienne, en regard de la face palmaire de l’ulna, radial au pisiforme (espace de Guyon)
+Nerf radial : face externe du bras (distal à l’insertion du déltoïde), bord radial de l’avant-bras et du poignet. Innerve tous les extenseurs du MS.
+
+Tendons (mobilité active) Extrinsèques = tendon s’insérant sur la main, mais muscle localisé
+dans l’avant-bras.
+Coulisses des tendons extenseurs (tendons des muscles extrinsèques, innervés par nerf radial):
+1 ère APL (Abductor Pol Longus), EPB (Extensor Pol Brevis); “ Auto-stop”
+T ABAT IERE ANAT OMIQUE
+2e
+ECRL, ECRB (Extensor Carpi Radialis) ; « accélération moto »
+(délimitée par 1 ère et 3 e coulisses)
+3e
+EPL (Extensor Pol Longus) ; « Main à plat, pouce surélevé de la table »
+4e
+EDC (extensor digitorum Communis) , EIP (Extensor indicis Proprius)
+5e
+EDM (Extensor dimgiti minimi) ; « extension MP auriculaire »
+6e
+ECU (Extensor carpi ulnaris)
+T endons fléchisseurs du poignet: FCR (par n. mé dian) et FCU (par n. ulnaire)
+T endons fléchisseurs des doigts (Flexor Digitorum):
+x
+FDS (superficiel) s'insérant sur la base de P2: tester la flexion IPP en bloquant les doigts adjacents en extension (neutralisation des FDP)
+x
+FDP (profond) s'insérant sur la base de P3: tester la flexion IPD (doit être complète en amplitude, contre résistance, indolore)
+Gaines tendineuses digitales : la poulie A1 est entre le pli palmaire transverse distal et le pli palmo-digital (tunnel sténosant dans les doigts à ressaut)
+Retinaculum des fléchisseurs : peut comprimer le nerf médian (sy. du tunnel carpien) mais ne bloquera pas le coulissement des 9 tendons fléchisseurs.
+
+Muscles (gradation de la force). Intrinsèques = muscles localisés dans la main.
+Intrinsèques innervés par nerf mé dian : APB: Abductor Pollicis Brevis (testé le dos de la main contre la table : lever le pouce au plafond)
+Intrinsèques innervés par nerf ulnaire : 1 er IOD: Interosseux Dorsal (testé le bord ulnaire main contre la table, lever l’index au plafond)
+ADM: Abductor Digiti Minimi
+
+Artères
+Pouls radial (facile à palper : radial à FCR ; branche dorsale : tabatière) et pouls ulnaire (plus difficile à palper : radial à FCU, en profondeur)
+T est d’Alle n : Comprimer les 2 axes artériels au poignet, 1 fermeture active du poing (vidange), ouverture du poing (sans extension max. des doigts,
+afin d’éviter le blanchiment permanent), décomprimer un seul des deux axes artériels pour tester sa perméabilité et la compétence de son arcade
+palmaire.
+
+Main et poignet
+
+Skills 2021-22 L. Wehrli, Centre de la main, Service CPM, CHUV
+
+Structure du status musculo-squelettique
+Respecter une systématique pour ne rien oublier !
+
+1) Inspection (je regarde avant de toucher)
+x
+x
+x
+x
+x
+
+Couleur (érythème, hématome, ischémie)
+Signes végétatifs: hypersudation, œdème, hypertrichose (syndrome douloureux régional complexe ?)
+T uméfaction localisée (œdème, kyste, arthrose, tumeur)
+Amyotrophie focale (atteinte musculaire par dénervation)
+Position au repos des doigts:
+o Défaut d'axe dans le plan frontal (clinodactylie; déficience ligamentaire)
+o Défaut d'axe dans le plan sagittal (luxation palmaire ou dorsale)
+o Cisaillement (chevauchement par dérotation d’une fracture)
+o Flexum IPP (rupture bandelette médiane du tendon extenseur Æ boutonnière ; raideur articulaire en flexion)
+o Recurvatum IPP (rupture plaque palmaire IPP Æ col de cygne)
+
+2) Palpation
+
+(je prends le temps de toucher)
+
+x
+
+Zones douloureuses (palpe r du moins douloureux vers le plus douloureux)
+
+x
+
+Fluctuation (collection liquidienne: pus, hématome liquéfié)
+
+x
+
+Gradient thermique: déficit d'apport sanguin artériel (section, thrombose, vasospasme) ; tester avec le dos de vos doigts
+
+3) Sensibilité (j’effleure tous les territoires)
+x
+
+Au toucher
+o si normale : Documenter « normoesthésie » ; l’examen sensitif s’arrête alors là
+o
+
+si anormale : hypoesthésie (moins), dysesthésie (fourmillements), hypodysesthésie, allodynie (douleur)
+
+si anormale : mesurer la discrimination deux points (trombone), si insensibilité au piqué : anesthésie (absence)
+x
+
+Recherche d’un signe de T inel (percussion du trajet du nerf: fourmillements dans le territoire cutané innervé par le nerf testé)
+
+4) Mobilité (le patient bouge, si anormal : je manipule l’articulation ; puis j’impose une résistance à sa contraction)
+x
+
+3DVVLYHĻ : raideur articulaire (rétraction des ligaments) ; adhérences tendineuses périarticulaires ; limitation par la douleur (fracture,
+inflammation ?)
+
+x
+
+$FWLYHĻ: incompétence tendineuse (plaie, rupture sous-cutanée !!!, adhérences), incompétence musculaire (bloc de conduction nerveuse par
+neurapraxie ou dénervation musculaire par axonotmésis)
+
+x
+
+Gradation de la force :
+o M0
+Plégie
+o M1
+Palpation d’une petite récupération de la contraction musculaire
+o M2
+Début d’un mouvement actif possible
+o M3
+Mouvement actif possible contre la gravité
+o M4
+Mouvement actif possible contre l’application d’une résistance
+o M5
+Force normale (symétrique au côté controlatéral)
+
+5) Tests
+x
+
+Stabilité ligamentaire (e xcè s de laxité: inclinaison latérale, tiroir ou ballotement). Il faut stabiliser le segment proximal.
+
+x
+
+Grinding (si arthrose : frottement osseux lors de la manipulation articulaire)
+
+x
+
+Provoquer une compression nerveuse (par compression externe sur le nerf ou par hyperflexion articulaire)
+
+Main et poignet
+
+Skills 2021-22 L. Wehrli, Centre de la main, Service CPM, CHUV
+
+Symptômes fréquents
+Plainte principale (Dr, j’ai…) Æ
+Æ lister les diagnostics différentiels
+
+Æ
+
+préciser l'anamnèse
+
+Æ
+
+cibler le STATUS
+
+J’ai mal au poignet (suite à une chute)
+Fracture (radius, scaphoïde,…)
+Entorse radio-carpienne
+
+Votre pouce palpe chaque os/articulation avec application d’un contre-appui (ne pas craindre un déplacement
+fracturaire ; cette localisation est capitale pour le choix des incidences radiologiques). Plâtrer.
+Douleur (±tuméfaction) du carpe sans lésion radiologique. Palper pour localiser. Plâtrer.
+
+J’ai mal au pouce (suite à une chute)
+
+Fracture base 1 er métacarpien
+Palpation douloureuse, tuméfaction Æ radiographies
+(Image radiologique: Winterstein = extra-articulaire, Be nnett = avulsion palmaire en ǻ, Rolando = en T )
+Instabilité MP (pouce du skieur)
+T est stabilité de l’inclinaison radiale après radiologie négative (craindre un déplacement fracturaire)
+Instabilité trapézo-métacarpienne
+T est tiroirs AP et latéral. Arrêt dur ? Comparer à controlatéral
+
+Je me suis coupé (face dorsale)
+Plaie tendon extenseur
+Arthrotomie traumatique
+
+Examen clinique non fiable : explorer chirurgicalement sous AL en flexion-extension passives : % lésé ?
+Idem. A craindre pour les zones impaires (=zone articulaire). Si pas de rinçage Æ arthrite septique
+
+Je me suis coupé (face palmaire)
+Plaie nerf sensitif
+Plaie tendon fléchisseur
+Dévascularisation
+
+Hypoesthésie, dysesthésies (fourmis au toucher), discrimination 2 points (en mm), anesthésie. Suture du nerf !
+FDS et FDP: amplitude active? Contre résistance? Douleurs?
+Ļ7 &UHWDUGGX UHWRXUFDSLOODLUH !TXH OHVDXWUHVSXOSHV pâleur, ĻWXUJHVFHQFH UHWRXUdu volume)
+
+J’ai des fourmillements dans la main
+T unnel carpien (sy canalaire du nerf médian au poignet. Fourmillements la nuit et engourdissement de la main le matin)
+Hypomyotrophie thénar, hypoesthésie (D1-D4r), parésie APB (Abductor Pol Brevis)
+Phalen (fl poignet), Durkan (pression), Tinel poignet (percussion)
+T unnel cubital (sy canalaire du nerf ulnaire au coude : fourmillements D4D5 encas de flexion prolongée du coude)
+Hypomyotrophie 1 ère commissure et hypothénar, hypoesthésie (D4u, D5), parésie 1 er IOD (Interosseux dorsal) et ADM
+Tinel coude (gouttière épitrochléenne), signe de Froment (hyperflexion IP compensatrice)
+Syndrome de Wartenberg (compression de la branche sensitive du nerf radial au bord radial de l'avant-bras)
+Dysesthésies face dorsale pouce et index
+Tinel 9 cm proximalement à la styloïde radiale
+
+J’ai mal au poignet (région radiale, sans trauma récent)
+T énosynovite 1 ère coulisse (de De Q ue rvain)
+Kyste arthro-synovial dorsal (scapho-lunaire)
+Kyste arthro-synovial palmaire
+Arthrose (svt post-traumatique), arthrite
+Douleurs face externe coude (épicondylite)
+
+T est de Finkelstein (fl. du pouce tenu sous autres doigts et inclinaison ulnaire du poignet)
+Masse située 1 cm distal à tubercule de Lister
+Masse dans la gouttière du pouls radial
+Empâtement (synovite) et douleurs dans la tabatière anatomique
+L’extension du poignet contre résistance (avec le coude étendu) est très douloureuse ;
+Palpation douloureuse : épicondyle, intervalle radio-huméral, origine tendon ECRB (2 e radial).
+La manœuvre en varus ne montre aucune instabilité du coude.
+
+J’ai mal au pouce (sans trauma)
+Rhizarthrose
+T énosynovite sténosante
+
+Grinding douloureux et proéminence dorsale du 1 er métacarpien dans l’arthrose trapé zo-métacarpienne
+Ressaut du pouce au retour vers l’extension, douleur poulie A1 (face palmaire MP)
+
+Je n’arrive plus à étendre mon doigt
+Mallet finger (=doigt en maillet ;+/- osseux ou tendineux)
+Doigt à ressaut (+/- bloqué en flexion)
+Luxation tendon extenseur (en intermétacarpien)
+Ancienne rupture bandelette médiane tendon extenseur
+Maladie de Dupuytren
+Paralyse radiale
+
+Flexum réductible interphalangienne distale (IPD)
+Douleur poulie A1 (face palmaire MP), ressaut douloureux à l’extension
+Si MP placée passivement en extension : peut être alors être maintenue activement
+Déformation en boutonnière (flexum IPP ; hyperextension IPD)
+Nodule sous-FXWDQpEULGH SUpWHQGLQHXVH ĹWHQVLRQbride par une extension passive)
+Parésie extenseurs du poignet et des doigts, hypoesthésie dos 1 ère commissure
+
+J’ai remarqué une boule
+Kyste arthrosynovial dorsal ou palmaire
+Kyste ténosynovial
+T umeur à cellules géantes des gaines synoviales
+Arthrose digitale
+
+Main et poignet
+
+Masse ronde indurée fixée aux plans profonds, mobile dans plan superficiel
+T aille 3 mm (perle), face palmaire MP médius ou annulaire
+T uméfaction indurée à la face palmaire des doigts
+Nodosité (par ostéophytes) de Bouchard (IPP) et d’He be rden (IPD), kyste mucoïde IPD
+
+Skills 2021-22 L. Wehrli, Centre de la main, Service CPM, CHUV
+
+La consultation optimale - Chirurgie de la main
+La relation
+respectueuse
+médecin-patient
+
+La collecte de
+données, le
+raisonnement
+clinique
+
+L'examen
+physique
+
+Les aptitudes
+cliniques
+
+Explications au
+patient
+
+Comportement
+professionnel
+
+Empathie et
+aptitudes à
+communiquer
+
+Exemples à suivre
+Bonjour Mme X, je suis le Dr (stagiaire) YZ.
+S’assoir en face de la patiente.
+Je travaille ici aux urgences. (Je suis stagiaire, êtes-vous d’accord que je vous
+examine avant d’appeler mon assistant/CDC ?)
+J’ai pu apprendre que vous venez en raison de/suite à ABC, est-ce exact ?
+Structurer les étapes de l’entretien : Au minimum 2 questions ouvertes
+(surtout sur les plaintes, douleurs, handicap) et prendre le temps d’écouter,
+puis questions fermées pour préciser, status expliqué pas à pas, raisonnement
+clinique à haute voix…
+Est-ce correcte si je résume la situation ainsi ?
+Pour les cas chroniques ou complexes: Vous mentionnez plusieurs
+problèmes ; j’aimerais savoir lequel vous dérange le plus actuellement?
+Respecter les étapes de l’examen physique (pour ne rien oublier) :
+Plaie : inspection (documenter comme par téléphone), vascularisation,
+sensitif distal, motricité distale (tendons et muscles)
+Trauma fermé : inspection (déformation, hématome, plaie…), sites de
+palpation douloureuse, sensitif, radiologie, puis testing ligamentaire
+Tunnel carpien : inspection (hypomyotrophie),
+Sensitivo-moteur, T inel, Phalen, Durkan
+Douleurs sans trauma : Sites de palpation douloureuse, mobilité
+active et passive, test de provocation de la douleur (étirement, grinding…)
+Investiguer ce qui est nécessaire (éviter le trop peu), systématiquement (sans
+raccourcis), même si je pense déjà connaître le diagnostic (pouvoir exclure
+les DD).
+Manipuler la patiente avec respect et douceur (veuillez me dire dès que je
+vous fais mal)
+Connaître ses limites et les respecter (pour respecter la confiance du patient).
+Je vais m’en référer à mon supérieur concernant l’éventail des options de
+prise en charge
+Expliquer clairement (plutôt que de vouloir absolument rassurer). Rassurer
+seulement dans une situation où l’on est certain que c’est justifié.
+Ecouter la réponse jusqu’au bout et rebondir dessus pour assurer un
+enchaînement fluide
+Rester empathique, malgré une attitude inhabituelle du patient ou une
+situation stressante
+Je vais vous expliquer ce que je trouve au fur et à mesure de mon examen
+(avec un contact visuel régulier).
+Expliquer un peu juste avant (pour mettre en confiance) et beaucoup après
+l’examen clinique.
+En fonction de ce que vous m’avez dit et ce que j’ai examiné, voici ce que je
+peux conclure…
+Répondre spécifiquement à la question du patient
+Accepter ses limites (p ex prise en charge spécialisée) et les communique en
+expliquant que le cas sera discuté avec son CDC
+Demander s’il a encore des questions
+
+Mauvais exemples
+Salutations peu enthousiastes.
+Ne se présente pas.
+Reste debout pour les premières explications
+ou questions, alors que la patiente est déjà
+assise.
+Saute du coq à l’âne
+Ne demande pas de préciser une plainte encore
+floue, fait trop de suppositions
+Ne cerne pas le problème. Juge la réponse.
+Analyse silencieusement dans sa tête
+Fronce les sourcils durant la réponse du patient
+Fais trop de suppositions, plutôt que d’écouter
+Examine en même temps que prend l’anamnèse
+Manque de structure
+Imprécis dans ses requêtes au patient ou dans
+ses manœuvres
+Gestes dangereux (testing ligamentaire avant
+RX, …)
+Examiner debout le patient qui est assis à la
+table
+Ne maîtrise pas les compétences de base.
+N’investigue seulement ce qui est nécessaire au
+diagnostic suspecté à l’anamnèse (incapacité
+d’exclure les DD !)
+Manipule trop brusquement, sans égard
+Donne des renseignements erronés ou aimerait
+trop rassurer
+
+Réponds de manière stéréotypée montrant qu’il
+est plus absorbé dans ses pensées que par les
+plaintes du patient
+Mets ses mains derrière le dos en se présentant
+ou sous la table durant la consultation, mâche
+un chewing-gum, avachi dans sa chaise
+T rop peu de contact visuel, longs silences
+durant l’examen ou lors de la synthèse, parle
+trop vite
+Ne répond pas aux plaintes initiales du patient
+Manque d’empathie en rigolant lors de
+l’annonce du diagnostic
+
+Phrases à éviter devant le patient :
+Durant l’anamnèse
+Je viens juste vous prendre en charge. Je pense que c’est un peu handicapant. Alors d’accord, ouais…. trèèès bien, OK, paaarfait, Mmmmh, excellent…
+Euhhhhh….euhhhhh. Je vais vérifier un peu ce que vous avez. Je vais regarder un peu votre plaie. Je vais voir si vous avez coupé des tendons, des
+vaisseaux, ou des trucs comme ça…Je vais commencer par ausculter la main.
+
+Durant le status
+Je vais effectuer un peu l’examen de votre main. Je vais vous faire un petit status de la main. Je vais effectuer un peu des tests. Je regarde vite fait. On
+contrôle vite fait. On a une belle lésion !! Une belle entaille quand-même !! Je vais….je vais…. (soupir)…tester…alors…. Là j’imagine que ça vous fait
+mal là. Suite à une question du patient : Vous me dites juste ! Si vous ne comprenez pas, c’est pas grave !
+
+En fin de consultation :
+Dans tous les cas, rassurez-vous : tout va bien aller…. (livre le diagnostic) …mais c’est pas très très grave ! Les nerfs régénèrent très bien et il faut juste
+un peu de temps. Votre fracture déplacée/ligament/tendon va guérir tout seul /avec une immobilisation… C’est un peu embêtant qu’il n’y ait pas une
+bonne sensibilité… Peut-être, je ne sais pas exactement…Je demanderai aux infirmières, qui sont plus aptes que moi à répondre. Donc…ok…
+Il faudra peut-être aller voir chirurgicalement. (Livre le diagnostic) …moi ça m’a l’air bien ! Pour moi, vous avez juste (livre le diagnostic)
+Vous avez (livre le diagnostic) …vous faites quel métier ? Je vais voir avec mon chef…on va s’en sortir….
+
+Main et poignet
+
+Skills 2021-22 L. Wehrli, Centre de la main, Service CPM, CHUV
+
+Version datant du 7 avril 2024
+
+Skills locomoteurs B3.8
+Support d’apprentissage – Main
+Contenu : Dr. Laurent Wehrli, Réalisation graphique : Danielyan Vagan (Travail de Master dirigé par Dr. Wehrli)
+
+Nom du test ou de la manœuvre
+a. Présentations cliniques
+fréquentes indiquant la
+réalisation du test
+
+Description
+
+Photos ou illustration
+
+a. Position et action du
+patient
+b. Action de l’examinateur
+
+b. Définition de la positivité
+c. Pièges techniques et
+astuces
+c. Implications cliniques
+
+1
+
+Version datant du 7 avril 2024
+Suspicion clinique d’une fracture
+du scaphoïde
+
+a. bord ulnaire de l’avantbras posé sur la table
+
+a. Douleurs post-traumatiques
+du bord radial du poignet,
+souvent suite à une
+hyperextension à plus de 90°
+
+b. le pouce palpe la
+styloïde radiale
+comme point de
+référence (ne bouge
+pas à la mobilisation
+du poignet) puis 1) la
+tabatière anatomique
+(tiers moyen), 2) le
+tubercule palmaire
+(tiers distal) et 3) le
+pôle proximal (1 cm
+distal au tubercule de
+Lister)
+
+b. La palpation douloureuse
+d’une des 3 faces du
+scaphoïde équivaut à une
+suspicion clinique de fracture
+du scaphoïde.
+c. 4 incidences scaphoïde
+doivent être prescrites et le
+patient partira des urgences
+toujours avec une attelle
+plâtrée palmo-radiale,
+laissant l’IP du pouce libre
+(peu importe le résultat
+radiologique). Faux
+négatifs radiologiques: une
+radiographie négative dans
+ce contexte doit encore faire
+suspecter une fracture
+occulte et les 4 incidences
+doivent être répétées 2
+semaines plus tard. En cas
+de douleur persistance et RX
+négative à 2 sem : ad IRM
+
+c. Pour éviter des faux
+positifs : comparer la
+douleur que produit la
+même pression sur le
+côté controlatéral.
+Penser à la fracture du
+radius distal si la
+douleurs est plus
+proximale, à la fracture
+du trapèze si elle est
+plus distale.
+
+1). la tabatière anatomique
+
+2) le tubercule palmaire
+
+3) le pôle proximal
+
+2
+
+1 Iypsf.gg Tuméfaction
+Version datant du 7 avril 2024
+Instabilité du ligament collatéral
+ulnaire MP du pouce (c)
+a. Douleurs MP pouce, suite à
+une hyperabduction MP
+traumatique (inclinaison
+radiale)
+b. trop d’amplitude passive vers
+l’inclinaison radiale ; absence
+d’arrêt sec en fin de course.
+En cas d’instabilité, une
+échographie devra exclure
+une lésion de Stener
+(insertion distale du ligament
+déplacée en sous-cutané,
+superficiellement à
+l’aponévrose)
+
+2 Palpation
+
+52ème
+
+à
+
+Hématomes
+
+articulaire
+
+Etmanip ligamentairescarenzone
+
+5 startcôtésain
+
+a. bord ulnaire de l’avantbras posé sur la table,
+pouce relâché
+
+b. L’examinateur stabilise la
+diaphyse du 1er
+métacarpien entre son
+pouce et index. De son
+autre main il impose une
+inclinaison vers radial
+c. Déplacement d’une
+fracture qui était in situ,
+en testant la stabilité
+ligamentaire avant de
+s’être assurer de
+l’absence de fracture par
+des radiographies
+
+c. débuter par le côté sain afin
+d’évaluer la laxité
+physiologique du patient.
+
+Lors de la rupture du LCU, sa partie proximale peut
+passer au-dessus de l’aponévrose du muscle
+adducteur du pouce. Cette lésion avec interposition
+est connue sous le nom d’e et Stener
+
+Faites aussi une inclinaison du coté opposé
+pour vérifier cette fois le ligament collatéral
+ulnaire
+
+3
+
+Version datant du 7 avril 2024
+Test d’Allen
+a. plaie de l’avant-bras ou de la
+paume ou bilan
+d’artériopathie ou avant de
+pratiquer une gazométrie
+b. Aucun doigt ne se recolore :
+l’axe artériel relâché n’est pas
+perméable. Certains doigts
+ne se recolorent pas : l’axe
+artériel relâché ne possède
+pas une arcade palmaire
+compétente.
+c. un examen Doppler peut être
+prescrit en cas de doute, sauf
+lors des plaies (qui doivent
+être explorées
+chirurgicalement)
+
+a. avant-bras en
+supination, poing serré
+activement au
+maximum. Il desserre
+le poing lorsque
+l’examinateur a
+comprimé ses 2 axes
+artériels.
+b. compression des 2
+axes artériels au tiers
+distal de l’avant-bras
+par les pouces de
+l’examinateur. Il
+relâche un seul axe
+et observe le retour
+d’une couleur rosée
+dans les 5 doigts.
+c. le patient ne doit pas
+étendre au maximum
+ses doigts, sinon le
+blanchiment de la
+peau perdure.
+
+1
+
+2
+
+3
+
+1
+
+2
+
+3
+
+4
+
+Version datant du 7 avril 2024
+Lésion nerveuse sensitive
+a.
+
+a.
+
+fourmillements, diminution de la
+sensibilité cutanée, plaie en amont,
+fracture déplacée ou luxation au MS
+
+b. chaque territoire nerveux est
+effleuré successivement
+
+b. une hypoesthésie à l’effleurement
+(en l’absence de polyneuropathie)
+doit faire suspecter une neuropathie
+focale
+c.
+
+1
+
+2
+
+yeux fermés, les 2 mains
+ouvertes en supination
+
+c.
+
+une discrimination spatiale (test des
+2 points de Weber) permettra de
+quantifier l’hypoesthésie ; une perte
+de discrimination du touché-piqué
+ne sera retrouvée que dans les cas
+très avancés.
+
+éviter les œillères
+diagnostiques : cartographier
+et documenter précisément,
+sans diagnostic préconçu : la
+démarche diagnostique ne
+viendra qu’après, afin de
+localiser le niveau
+(dermatome = radiculopathie
+vs territoire d’un tronc
+nerveux, plus distal)
+
+5
+
+8
+
+11
+
+6
+
+9
+
+12
+
+7
+
+10
+
+13
+
+3
+
+4
+
+5
+14
+
+Version datant du 7 avril 2024
+
+Recherche d’une plaie d’un
+tendon fléchisseur profond des
+doigts (FDP)
+a. plaie en amont, parésie de la
+flexion des doigts
+b. positif si amplitude active
+diminuée, une force abaissée
+contre résistance ou douleur
+c. les lésions partielles peuvent
+encore fournir une mobilité
+active complète, mais elle
+sera souvent douloureuse
+
+a. fléchit activement son
+doigt à la demande
+b. blocage de l’IPP en
+rectitude et
+observation de
+l’amplitude de la
+flexion active IPD ;
+puis quantifier la
+résistance applicable
+à la flexion IPD
+c. c. laisser les autres
+doigts aussi se fléchir
+pour tester la force
+d’un FDP
+
+6
+
+Version datant du 7 avril 2024
+
+Recherche d’une plaie d’un
+tendon fléchisseur superficiel
+(FDS)
+a. plaie en amont, parésie de
+la flexion des doigts
+b. on veut trouver : une
+amplitude active normale,
+une force normale contre
+résistance et sans douleur
+c. les lésions partielles
+peuvent fournir une mobilité
+active complète, mais elle
+sera souvent douloureuse
+
+a. fléchit activement son
+doigt à la demande
+b. blocage des autres
+doigts en extension
+(pour neutraliser le
+FDP du doigt testé) et
+observer l’amplitude
+de la flexion active
+IPP; puis quantifier la
+résistance applicable à
+la flexion IPP
+c. l’index possède
+souvent un FDP
+indépendant du FDP
+des autres doigts,
+rendant plus difficile le
+test de son FDS
+
+7
+
+Version datant du 7 avril 2024
+
+Lésion motrice distale du nerf
+médian
+a.
+
+fourmillements ou
+diminution de la sensibilité
+dans la main, plaie en
+amont, fracture déplacée
+ou luxation au MS
+
+b.
+
+gradation de M0 à M5 du
+muscle APB (Abductor
+Pollicis Brevis = muscle
+court abducteur du pouce),
+qui est le muscle clé
+innervé par le nerf médian
+distalement au poignet
+
+c.
+
+l’extension du pouce est
+innervée par le nerf radial et
+l’adduction du pouce par le
+nerf ulnaire. Une parésie de
+l’APB entraine la nécessité
+de tester tous les autres
+muscles du MS
+
+a. En supination, le dos
+des 2 mains collés
+contre la table, le pouce
+est positionné
+activement le plus
+verticalement possible
+(en direction du nez du
+patient) : abduction
+active
+b. évaluer la résistance du
+pouce du patient à être
+ramené vers
+l’index (adduction
+passive par
+l’examinateur)
+c. DD parésie : douleur
+par tendinite ou
+rhizarthrose ; lésion
+nerveuse plus
+proximale que le tunnel
+carpien (tester aussi le
+FPL – Flexor pollicis
+longus = muscle long
+fléchisseur du pouce)
+
+8
+
+Version datant du 7 avril 2024
+Lésion motrice distale du nerf
+ulnaire
+a. fourmillements ou
+diminution de la sensibilité
+dans la main, plaie en
+amont, fracture déplacée
+ou luxation au MS
+b. gradation de M0 à M5 du
+muscle 1er IOD (interosseux
+dorsal), qui est le muscle
+clé innervé par le nerf
+ulnaire
+c. une parésie entraine la
+nécessité de tester tous les
+autres muscles du MS et
+doit faire rechercher en
+priorité une compression du
+nerf ulnaire au coude
+
+a. main posée
+verticalement sur la
+table, MP index semifléchie, abduction
+active (index au
+plafond)
+b. évaluation de la
+résistance de l’index à
+être ramené en
+adduction (contre le
+sol)
+c. si la MP n’est pas
+semi-fléchie,
+l’extenseur de l’index
+est aussi testé : en
+cas de paralysie
+radiale, on
+diagnostique souvent
+à tors une faiblesse
+des abducteurs
+
+évaluation de la résistance de
+cinquième doigt
+
+évaluation de la résistance de
+l’index
+
+9
+
+Version datant du 7 avril 2024
+
+Lésion motrice distale du nerf
+radial
+a. fourmillements ou diminution
+de la sensibilité dans la main,
+plaie en amont, fracture
+déplacée ou luxation au MS
+b. gradation de M0 à M5 du
+muscle EIP (Extensor indicis
+proprius) est le muscle clé
+innervé par le nerf radial
+distal
+c. une parésie entraine la
+nécessité de tester tous les
+autres muscles du MS
+
+a. seul l’index est tendu
+activement, les 4 autres
+doigts sont fléchis
+b. évaluation de la
+résistance de la MP
+de l’index à être
+ramené en flexion
+c. appuyer sur la base
+de P1. Si plus
+distalement : grand
+bras de levier
+pouvant faire
+évoquer une parésie
+
+10
+
+Version datant du 7 avril 2024
+
+Test de compression interne par
+flexion (Phalen)
+a. engourdissement matinal de
+la main, fourmillements
+nocturnes, lâchages
+involontaires d’objet
+b. fourmillements apparaissant
+en moins de 60 sec dans le
+pouce, l’index, le médius ou
+l’annulaire
+c. prescrire une attelle nocturne
+du poignet (efficacité aussi
+liée au délai d’apparition des
+fourmillements au Phalen)
+
+a. bord ulnaire des deux
+avant-bras posés
+contre la table
+b. flexion passive forcée
+des 2 poignets
+c. ne pas fléchir les
+coudes, sinon les
+fourmillements
+pourraient aussi
+provenir d’une mise
+sous compression du
+nerf ulnaire au
+coude. Ne pas faire
+d’élévation des
+épaule, sinon les
+fourmillements
+pourraient aussi
+provenir d’une mise
+sous compression au
+défilé scapulothoracique (TOS)
+
+11
+
+Version datant du 7 avril 2024
+Test de provocation par pression
+externe sur le nerf médian
+a. engourdissement matinal de
+la main, fourmillements
+nocturnes, lâchages
+involontaires d’objet
+b. la forte pression sur le nerf
+provoque des
+fourmillements/engourdisse
+ment dans le pouce, l’index,
+le médius ou l’annulaire en
+moins de 30 sec
+c. prescrire une attelle nocturne
+du poignet (efficacité aussi
+liée au délai d’apparition des
+fourmillements au Durkan)
+
+a. les 2 avant-bras en
+supination contre la
+table
+b. le pouce presse sur le
+nerf médian au poignet
+(dans l’axe du médius,
+entre les 2 plis de
+flexion), les doigts en
+contre-appui à la face
+dorsale du poignet
+(Paley/McMurtry 1985)
+c. La sensibilité et la
+spécificité sont ainsi
+meilleures que si le nerf
+est comprimé avec les
+deux pouces en regard
+du ligament annulaire
+du carpe (distalement
+au 2e pli de flexion tel
+que proposé par
+Durkan 1991)
+
+12
+
+Version datant du 7 avril 2024
+
+Test de percussion du nerf
+médian (Tinel)
+a. engourdissement matinal de
+la main, fourmillements
+nocturnes, lâchages
+involontaires d’objet
+b. les percussions dans la main
+ou au poignet provoquent
+des fourmillements/piqûres
+dans le pouce, l’index, le
+médius ou l’annulaire
+c. prescrire une attelle nocturne
+du poignet
+
+a. les 2 avant-bras en
+supination contre la
+table
+
+1
+
+3
+
+2
+
+4
+
+5
+
+b. le médius percute
+verticalement le nerf
+médian, depuis le
+creux de la paume
+jusqu’à la face
+médiale du bras
+c. Tinel a décrit ce test
+pour suivre la
+migration vers distal
+du cône de
+régénération
+nerveuse après une
+plaie ; dans les
+syndromes
+canalaires, on utilise
+ainsi parfois le terme
+de « pseudo-Tinel ».
+
+13
+
+Version datant du 7 avril 2024
+
+Test de Tinel sur le nerf ulnaire
+au coude
+a. fourmillements dans
+l’annulaire ou l’auriculaire
+b. chaque percussion
+provoque des
+fourmillements/piqûres
+dans l’auriculaire
+c. instruire sur la nécessité
+d’éviter toute flexion
+prorogée du coude ;
+enrouler un linge en tube
+autour du coude la nuit
+
+a. rotation externe
+maximale de l’épaule
+(dévoile la face médiale
+du coude), coude semifléchi
+b. Palpation de
+l’olécrane, de
+l’épitrochlée et du nerf
+proximalement à la
+gouttière épitrochléoolécranienne ;
+percussion du nerf
+dans la gouttière, plus
+proximalement et plus
+distalement
+c. exclure aussi une
+subluxation antérieure
+du nerf en flexion du
+coude
+
+image 1 et 2 : percussion sur tout le trajet du nerf depuis le poignet jusqu’au coud
+
+14
+
+Version datant du 7 avril 2024
+Doigt à ressaut (ténosynovite
+des fléchisseurs de doigt)
+a. douleurs atraumatiques
+face palmaire MP des
+doigts, ressaut d’un doigt
+lors du retour vers
+l’extension , blocage d’un
+doigt en flexion
+b. poulie A1 douloureuse et
+sensation/visualisation
+d’un ressaut au retour vers
+l’extension
+c. proposer une infiltration
+corticoïde de la poulie A1,
+puis opérer si inefficace
+
+a. les deux avant-bras en
+supination sur la table
+b. Palpation de toutes les
+poulies A1 (face
+palmaire MP) à la
+recherche d’une
+douleur ; pression par le
+pouce sur chaque
+poulie A1 durant la
+flexion active :
+Image 1 : Ici pour l’exemple l’examinateur palpe la poulie A1 du 4ème doigt
+recherche d’un crépitus
+tendineux ou d’un
+ressaut ; observation
+d’un retard d’extension
+puis d’un ressaut
+brusque lors du retour
+vers l’extension depuis
+le poing fermé
+c. Les stades de la
+ténosynovite sténosante
+sont stéréotypés :
+douleurs MP en
+palmaire, puis ressaut
+vers l’extension, puis
+image 2
+blocage en flexion
+
+image 3
+
+Référence pour les images 2 et 3 : Description of the Factors Associated with Trigger Finger in Patients Treated at Petroleos Mexicanos “Pemex” Fernando Barbosa-Villarreal*, Cuahutémoc Márquez-Espriella, Rodrigo
+Dávila-Díaz, Marco A. Cuervo-Vergara, Blanca Y. Arambula-Sánchez, Alberto I. Cahuana-Quispe, Victor A. Esquivel-Chávez, Carlos E. García-Córdova, Ana P. Campollo-López, Mauricio Gutierrez-Alvarez, Jesus R.
+García-Corral, Alfredo Chama-Naranjo, Daniel de Luna-Gallardo, Ricardo A. Pulido-López, Isaac F. Recio-España, Esteban I. Campos-Serna, Carlos I. Navarro-Delgadillo, José C. Martínez-López,
+Victor H. Avalos-Gómez, Alejandro Cruz-Zarate Department of Plastic and Reconstructive Surgery, Hospital Central Sur Petróleos Mexicanos, Mexico City, Mexico
+
+15
+
+Version datant du 7 avril 2024
+Test de Heichhoff ou
+Finkelstein (tendinite de De
+Quervain)
+a. douleurs traumatiques au
+bord radial du poignet
+aggravées aux
+mouvements d’abduction
+du pouce (p ex par
+portage d’un bébé)
+b. triade douloureuse des
+tendinites : à la pression
+directe (1ère coulisse des
+extenseur), à l’étirement
+passif (Eichhoff ou
+Finkelstein), à la
+contraction musculaire
+(abduction ou extension)
+contre résistance
+
+a. poing fermé, le pouce
+enserré par les autres
+doigts, poignet détendu
+(Eichhoff)
+b. le poignet est incliné
+ulnairement
+c.
+
+pour éviter des fauxpositifs : comparer la
+douleur que produit la
+même force
+d’inclinaison ulnaire sur
+le côté controlatéral
+
+Il faut aussi mentionner que la
+ténosynovite de Quervain
+n'entraîne pas de sensation de
+"ressaut"
+
+image 1
+
+c. prescrire une attelle du
+poignet et pouce, puis
+proposer une infiltration,
+puis opérer
+
+image 2
+référence pour l’image 2 : Cours de Dr. Christen, Pathologies non-traumatiques Module M1.1
+Service de chirurgie plastique et de la main
+
+16
+
+Version datant du 7 avril 2024
+Recherche d’un grinding
+trapézométacarpien
+a. douleurs atraumatiques à
+la base du pouce (région
+carpo-métacarpienne) dès
+l’age de 50 ans, ou à
+distance d’un traumatisme
+chez les plus jeunes
+b. sensation de poivrier, de
+contact de râpe os contre
+l’os
+c. investiguer par des
+radiographies standards
+face et profil trapézométacarpienne (selon
+Kapandji), à la recherche
+de signes d’arthrose
+
+a. pouce relâché
+b. la main non-dominante
+stabilise le poignet, la
+main dominante enserre
+le métacarpien du
+pouce du bout des
+doigts : compression
+axiale et rotations
+axiales dans les deux
+sens, dans toutes les
+amplitudes extrêmes de
+la trapèzométacarpienne
+c. l’arthrose à l’étage plus
+proximal, STT (scaphotrapézo-trapézoidien),
+est indolore à cette
+manœuvre ; il est par
+contre douloureux en
+inclinaison radiale du
+poignet, pouce laissé
+libre.
+
+Les mouvements de l’examinateur sont indiqués par les flèches :
+En rouge : compression axiale
+En bleu : rotations axiales dans les deux sens
+
+17
+
+Version datant du 7 avril 2024
+Goniométrie d’un doigt
+a. limitation de l’amplitude de
+mouvement d’un doigt :
+flexum ou déficit de flexion
+b. Exemples d’amplitudes
+physiologiques en EF : MP
+10-0-90, IPP 0-0-110, IPD
+0-0-60
+c. investiguer par des
+radiographies standards,
+puis selon l’étiologie
+suspectée à l’anamnèse
+
+a. mouvements actifs en
+extension complète, puis
+en flexion; doigt relâché
+pour les mesures passives
+b. le goniomètre est posé
+à la face dorsale du
+doigt ; pour les mesures
+des mouvements
+passifs, l’examinateur
+place le doigt en
+extension extrême, puis
+en flexion extrême
+c. différencier une
+limitation antalgique
+d’une limitation
+mécanique
+
+La mesure de l’extension
+
+La mesure de la flexion
+
+18
+
+Version datant du 7 avril 2024
+Goniométrie du poignet
+a. limitation de l’amplitude de
+mouvement du poignet
+b. Exemples d’amplitudes
+physiologiques en FE : 800-60 ; RC 20-0-30 ; PS 850-90
+c. investiguer par des
+radiographies standards,
+puis selon l’étiologie
+suspectée à l’anamnèse
+
+a. mouvements actifs en
+flexion complète, puis en
+extension, inclinaison
+radial, puis ulnaire ;
+pronation, puis supination ;
+poignet relâché pour les
+mesures passives
+b. le goniomètre est posé
+à la face dorsale du
+poignet ; pour les
+mesures des
+mouvements passifs,
+l’examinateur place le
+poignet dans les
+amplitudes extrêmes
+c. comparaison obligatoire
+au côté controlatéral
+
+image 1 : la mesure de l’extension
+
+image 2 : la mesure de la flexion
+
+image 3 : indique le placement correct du goniomètre
+
+19
+
+Tutoriat skills 2022
+
+Status main et poignet
+Cas clinique : fourmillements (patient imite un syndrome du tunnel carpien)
+Désinfection !
+
+1. Inspection (décrire) :
+a) Rougeur
+b) Tuméfaction
+c) Amyotrophie (éminence thénar, loge 1er interosseux, éminence hypothénar)
+
+2. Palpation :
+a) Éminence thénar, loge 1er interosseux, éminence hypothénar
+b) Vascularisation : gradient thermique, temps de recoloration paume/doigts
+c) Trajet n. médian (palper assez fortement, douleur ?)
+d) Trajet n. ulnaire (+ positionner un doigt dans l’espace entre l’épicondyle médial et l’olécrane avec mobilisation du
+coude pour sentir le nerf ulnaire coulisser, douleur ?)
+
+3. Sensitif :
+a) Au touché (patient ferme les yeux, 10 demi-pulpes, 2 paumes/2 dos, 3 avant-bras)
+b) Si anormal = toucher/piquer (hypoesthésie/dysesthésie/hypo-dysesthésie/allodynie)
+c) Si anormal = discrimination entre deux points (si >5mm et détecte qu’un point, anesthésie)
+
+contreR Absencede
+Force
+Motricité
+distale
+(tendons
++
+muscles)
+4.
+: Amplitude
+
+Dt
+
+a) Fléchisseur profond des doigts (avec pouce)
+b) Fléchisseur superficiel des doigts (immobiliser les autres doigts)
+c) Abduction du pouce (demander au patient d’amener son pouce vers son nez + R, dos de la main sur la
+table) à test n. médian
+d) Abduction index (main posée sur le côté, demander de lever l’index contre R) et auriculaire (demander d’écarter
+l’auriculaire contre R) à test n. ulnaire
+e) Extension des doigts à test n. radial
+1
+
+Tutoriat skills 2022
+
+5. Tests spécifiques :
+a) Signe de Tinel (compression n. médian via percussion, tapoter fort sur trajet du n. médian dans canal carpien
+pendant 1 min ou jusqu’à provocation des symptômes, ddc en même temps, valable pour tous les
+nerfs) à positif si provoque fourmillements, électricité, douleur dans partie distale des doigts 1-3
+b) Signe de Phalen (compression n. médian via flexion poignet, patient avec avant-bras reposés sur la table, forcer la
+flexion passivement, ddc en même temps, pendant 1 min ou jusqu’à provocation des symptômes) à positif si
+douleur ou fourmillements dans partie distale doigts 1-3
+c) Signe de Durkan (compression directe n. médian) à positif si douleurs ou paresthésies du poignet déclenchées
+par pression au niveau du canal carpien, les deux en même temps
+d) Mobilisation de la tête (+/- Spürling : tête en extension latérale puis appuyer sur la tête)
+
+DD : Syndrome du tunnel carpien, syndrome du tunnel cubital, radiculopathie cervicale
+Prise en charge : proposer le port d’une attelle nocturne pendant 6 semaines, si pas d’amélioration proposer un
+examen ENMG/US.
+
+2
+
+Tutoriat skills 2022
+
+Status main et poignet
+Cas clinique : Plaie (patient avec nerf ulnaire lésé et section du tendon du m. fléchisseur du 4ème doigt)
+
+1. Inspection (décrire) :
+a) Rougeur (trajet lymphangitique)
+b) Hématome (voir le dos de la main !)
+c) Plaie (bords nettes, taille, perte de substance, profondeur, …)
+2. Palpation :
+a) Vascularisation : gradient thermique, temps de recoloration paume/doigts, test d’Allen
+b) Zones douloureuses (infection ?)
+3. Sensitif : yeux fermé
+a) Au touché (10 demi-pulpes, 2 paumes/2 dos, 3 avant-bras), regarder en amont de la plaie pour exclure un
+problème avant, attention annulaire : un côté ulnaire et un côté médian
+b) Si anormal = toucher/piquer (hypoesthésie/dysesthésie/hypo-dysesthésie/allodynie)
+c) Si anormal = discrimination entre deux points (si >5mm et détecte qu’un point, anesthésie)
+4. Motricité distale (tendons + muscles) :
+a) Fléchisseur profond des doigts (avec pouce)
+b) Fléchisseur superficiel des doigts (immobiliser les autres doigts, profond bloquer)
+c) Abduction du pouce (demander au patient d’amener son pouce vers son nez + R, dos de la main sur la
+table) à n. médian
+d) Abduction index (main posée sur le côté, demander de lever l’index contre R) et auriculaire (demander d’écarter
+l’auriculaire contre R) à test n. ulnaire (test de froment)
+e) Extension des doigts à n. radial
+
+DD : nerf ulnaire lésé et section du tendon du m. fléchisseur du 4ème doigt
+Prise en charge : intervention chirurgicale
+
+1
+
+Tutoriat skills 2022
+
+Si plaie poignet bas :
+Toute lésion sensitive (toucher ou moteur) découlant de cette plaie sera distale à la plaie.
+Toute perte motrice des muscles de l’avant-bras (ex : fléchisseur superficiel des doigts) sera due à une rupture
+d’un tendon (OU à une lésion de l’innervation des muscles et qui n’a rien à voir avec la plaie car muscles sont
+proximaux à la plaie).
+En revanche, une lésion du nerf des muscles intrinsèques de la main peut être observée car ces muscles (tensons
+et muscles) se situent distalement à la plaie.
+Au niveau de la sensibilité, on ne parle plus de dermatomes (qui font référence à des racines de nerfs) mais de
+territoires nerveux !
+
+2
+
+

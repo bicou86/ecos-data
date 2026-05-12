@@ -1,0 +1,220 @@
+--- Page 1 ---
+Neurologie : Pathologies fréquentes
+Tristan Born
+
+--- Page 2 ---
+Méningite
+• Red flag: État fébrile, céphalées, raideur de nuque (méningisme), pétéchies,
+HTIC(céphalées horizontale, vomissement en jet), photo-et phonophobie
+• Status: Chercher des signes neurologiques focaux (méningo-encéphalite ?), au lit du malade
+o Nerfs crâniens
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, dérive en pronation, méningisme, ROT
+o Dermatologique: Chercher des pétéchies sur tout le corps
+o Chercher un foyer infectieux : immunosuppression, angine, otite, pneumonie, herpes, tiques …
+o Chercher un choc septique : Mesure de la T°artérielle, FC, FR, GCS
+• Prise en charge :
+o Choc(TAS < 90 mmHgou/et TAM < 60 mmHg) → Immédiatement hémoculture+ Ceftriaxone IV + DMX IV,puisPL*
+o AbsencedechocetdeCIàlaPL*→ Immédiatement PL+ hémoculture, puis si liquide troubleCeftriaxone IV + DMX IV
+o AbsencedechocmaisCIàlaPL*→ Immédiatement Immédiatement hémoculture+ Ceftriaxone IV + DMX IV,puisCT
+*CT avant PL si : Crises épileptiques récente, CGS ≤ 10, déficit NLG focal
+
+--- Page 3 ---
+Algorithme méningite
+
+--- Page 4 ---
+Algorithme méningite
+
+--- Page 5 ---
+AVC
+• Red flag: N’importe quel déficit neurologique d’apparition subite
+Typiquement: Hémiplégie, dysarthrie, aphasie, céphalées, vertige, ataxie, troubles oculomoteurs
+• Status: Chercher des signes neurologiques focaux (identification du niveau de la lésion)
+o Nerfs crâniens
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme*, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+*Présence d’un méningisme en cas d’AVC avec HSA
+• Prise en charge : Déclenchement filière AVC (imagerie: CT–scan d’urgence)
+Céphalées (migraine ±aura, céphalées de tension, Horton,
+thrombose sinus-veineux, en grappe, trigéminales)
+• Red flag:
+o Type : la plus forte jamaisarrivé, en coupde tonnerre, différentesdes céphaléeshabituelles
+o Contexte: femmeenceinte/post-partum (PRES, thrombose), >50 ans (Horton),
+o Syndrome: HTIC(vomissement en jet et céphalésau révei, flou visuel),
+Hypotension intra-crânienne(Céphaléesorthostatique, ANTCD de PL/épidural, fuiteLCR nez/oreil),
+Méningisme(Raideurnuque, nauséeset vomissements)
+• Status: Chercher des signes neurologiques focaux (oriente vers un autre diagnostic ou la présence d’aura)
+o Nerfs crâniens
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme*, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+*Présence d’un méningisme en cas d’AVC avec HSA
+o Migraine:4-72h, pulsatile, unilatérale, renforcée par l’activité physique, photophobie etphonophobie
+o Céphalées de tensions : 30 minutes à 7 jours, bilatérale, étaux, non pulsatile, soulagé par l’activité
+o Hémicrânie trigémino-dysautonomique: très sévère, orbitaire, avec myosis/sudation/ptose/congestion
+nasale/rhinorrhée et agitation importante → donner O2 haut-débit + triptan intra-nasal/injectable,
+toujours effectuer une IRM au moment du diagnostic
+o Névralgiedu trijumeau : douleurs neuropathique paroxystique, épargne l’encoche massétérine,
+la présence d’une hypo-esthésie (face, cornée) oriente vers une cause secondaire (SEP, Zona, neurinome…)
+→ Toujours effectuer une IRM au moment du diagnostic
+
+--- Page 6 ---
+Encéphalopathie de Wernicke :
+• Définition: Encéphalopathie aiguë et atteinte cérébelleuse dans le cadre d’une carence en vitamine B1
+Particulièrement fréquent dans la population âgée et alcooliqu
+• Cliniquement:Triade composée d’une confusion, trouble de l’oculomotricitéet d’une ataxie
+• Diagnostic : Le diagnostic est généralement clinique, avec une atteinte compatible et une réponse au traitement
+• Status: Mise en évidence d’une atteinte cérébelleuse
+o Nerfs crâniens
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme*, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, Unterberger, marche
+• Prise en charge : Hospitalisation, administration de thiamine IV sur 3 jours puis POau long court
+Épilepsie et crise épileptique :
+• Définition: Lacriseépileptiqueestlasurvenue transitoire de signes ou symptômes dus à une activité
+neuronale excessive ou synchrone. On distingue la « crise épileptique » de la « épilepsie-maladie ».
+• Prise en charge :
+o Distinguer la crise épileptique de ces DD, en premier lieux la syncope convulsivante et la PNES
+o Repérer unecrised’épilepsie provoquée (n’entre pasdans le cadre de l’épilepsie-maladie) :
+Post-AVCou TCC, au décours d’une méningiteou d’une encéphalite, troubles électrolytiqueset IRA, lors
+d’un sevrageà l’alcool ou aux BZD, lors de la prise de cocaïne ou de MDMA (ecstasy)
+o S’il s’agit d’une crise épileptique non provoqué, estimer s’il s’agit de la première ou d’une récidive
+o S’il s’agit d’une crise épileptique non provoquée sans facteur de gravité: faire au minimum un laboratoire
+avec électrolytes, fonction rénaleet glycémie.Onorganiseraenambulatoireun EEGet un CT-injecté.
+Enprésencedefacteurdegravité (ECA, état de mal, déficit neurologique focal au status, TCC,
+immunosuppression, traitement anticoagulant, céphalées, fièvre…) : PL, CT et EEG aux urgences.
+
+--- Page 7 ---
+Myélopathie : Section complète
+• Description: Atteintebilatéralede touslestracts (sensitifsmoteurs, végétatifs) avecniveausupérieurconservé
+et uneparalysieflasqueet desfasciculationau niveaude la lésion. En dessous, paralysiespastiques.
+• Status: Chercher le niveau de l’atteinte et le type de modalités touchées
+o Nerfs crâniens
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme*, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+• Prise en charge : Imagerie (IRM), test fonctionnel (ENMG)
+Myélopathie : Syndrome de Brown-Séquart
+• Description: Atteinteunilatéraled‘unemoitiéde la moelle.
+o Ipsilatéralement: Atteintede la voiepyramidale (motrice) et de la voielemniscale(cordonpostérieur)
+o Controlatéralement: Atteintede la voiespino-thalamiquemaisconservationdes voiespyramidale/lemniscal
+o Au niveaude la lésion: Paralysieflasqueet spasticité, en dessousparalysiespastique.
+• Status: Chercher le niveau de l’atteinte et le type de modalités touchées
+o Nerfs crâniens
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme*, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+• Prise en charge : Imagerie (IRM), test fonctionnel (ENMG)
+Myélopathie : Syndrome spinale antérieur
+o Description: Destruction du cordon antérieur (voie pyramidale)(uni-ou bilatérale)
+o Au niveau de la lésion : Paralysie flasque et spasticité
+o En dessous du niveau : Parésie, spasticité
+Myélopathie : Syndrome spinale postérieur
+o Description: Destruction du cordon postérieur (voie lemniscale)(uni-ou bilatérale)
+o En dessous du niveau : Perte sensibilité fine, de la proprioception, de la vibration ipsilatérale
+Conservation T°et douleurs ipsilatérale (voie spini-thalamique)
+
+--- Page 8 ---
+Guillain-Barré : Polyradiculonévriteaigue
+• Description: Déficitsensitivo-moteurnon longueurdépendant(proximo-distal),
+o Relativementsymétrique, débutaigu et à environ3 semainesd’unépisodeviral/vaccination
+o Avec uneatteintemarquéedes grossesfibresproprioceptives(aréflexiegénéralisée).
+o Conservationde la sensibilitéthermo-algique
+• Status:
+o Nerfs crânien
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme*, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+o Chercher des signes de gravité: Dyphagie, dyspnée, arythmie
+• Prise en charge : Hospitalisersi signes de gravités, faire une sérologiepour C. jejuni, traiter avec
+immunomodulateur (IgIV0.4g/kg)
+Polyneuropathie (Diabétique)
+• Description:Déficitsensitifprincipalementdépendantet symétrique(en chaussettespuisen gant),
+o Souventaccompagnéde dysesthésiedouloureuse(atteinte des fibresthermo-algique)
+o Peuts’accompagnerd’unelégèreparésie(4/5)
+• Status:
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme*, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+
+--- Page 9 ---
+Radiculopathie:
+• Description: Associationd’unsyndromerachidien(mal de dos, torticolis) et d’unsyndromeradiculaire
+(atteinted‘uneracinenerveuse). On distinguel‘atteinteradiculaireirritativeet déficitaire
+o Radiculopathieirritative: Douleursneuropathique[Dermatomes]
+C5 : Deltoïde, cave : Symptômed’aborden périphériedu dermatome
+Coiffe rotateur, o Radiculopathiedéficitaire: Déficitmoteur, amyotrophie[Myotomes] et hypoesthésie, anesthésie[Dermatomes]
+Biceps, brachioradial
+cave : Atteintedéficitaireuniquementen casde compressionavancée
+• Status: Rechercher des signes de souffrances médullaires (niveau sensitif, hémisyndrome, troubles sphinctériens…)
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme*, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+o Test spécifique: Déclenchement symptômenerveux par compression/étirement.
+Test de Spurling(racines cervicales), ou Lasèque/Lasèqueinversé(racineslombo-sacrées)
+• Prise en charge : Si syndrome irritatif sans syndrome de la queue de cheval et sans douleurs incontrôlable
+1 mois de traitement 1èreligne : Antalgie (OMS), Médecine manuelle, courte corticothérapie (pas imagerie)
+2 semaines traitement 2èmeligne: Médicament anti-douleurs neuropathique, infiltration épidurale
+Si >6 semaines de traitement bien conduits : avis chirurgical, imagerie
+C6 : Biceps,
+brachioradial
+Syndrome de la queue de cheval
+C8
+o Description: Compression burtalplusieurs nerfs rachidiens (queue de cheval)
+Anesthésie en selle, troubles sphinctériens, diminution du tonus anal pouvant
+être accompagné de déficit sur les racines sensitivo-motrices des membres inférieur
+• Status:
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+C8-T1 : Fléchisseur
+méningisme*, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+doigts, muscles
+intrinsèque main o Test spécifique: Tonus anal
+o Prise en charge: Urgence absolue, IRM ou CTet avis chirurgical
+C7 : Triceps,
+extenseur
+poignet/doigts
+T1
+
+--- Page 10 ---
+Mononeuropathie: syndrome canalaire
+• Description: Compression d’un nerf périphérique avec altération des modalités sensitivo-
+motrices. Typiquement : nerfs médian, ulnaire, radial, fibulaire
+o N. median: abduction pouce, innervation sensitive doigts 1-3
+o N .ulnaire : abduction des doigts et Froment, innervation sensitive doigt 5
+o N. radial : extension avant-bras et doigts, innervation sensitive dorsale doigts 1-3
+o N. fibulaire : dorsi-flexiondu pieds, éversion, innervation orteil 1-4
+• Status: Caractériser l’atteinte nerveuse. Toujours bilatérale !
+o Sensibilité et force selon le nerf touché
+o Déclenchement de l’atteinte avec test de Phanelet de Tinel
+Mononeuropathiemultiple
+• Description: Atteintes rapide de plusieurs nerfs périphériques.
+• Status: Caractériser l’atteinte nerveuse. Toujours bilatérale !
+• Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+• Prise en charge : Possiblement une urgence (vasculite). ENMG, biopsieet avis neurologique+
+
+--- Page 11 ---
+Vertige : Maladie de Menière
+• Surdité fluctuante (en particulier sons graves), accouphènes, vertiges(minutes à heures)
+• Status: Chercher des déficits neurologiques (DD: AVC)
+o Nerfs crânien
+o Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+• Test spécifique : Surditédeneuro-sensorielle auWeber+Rinne
+Vertige : BPLS
+• Vertiges intense durant quelques minutes lors de mouvement rotatoire de la tête
+• Pas de perte auditive
+• Status: Chercher des déficits neurologiques (DD: AVC)
+• Nerfs crânien
+• Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+• Test spécifique : Dix-Hallpike
+Vertige : Neuronitedu NC.VIII
+• Vertiges de longue durée avec chute et nystagmus ipsilatérale. Pas de perte auditive
+Status: Chercher des déficits neurologiques (DD: AVC)
+• Nerfs crânien
+• Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+• Test spécifique : Halmagyi
+Vertige : Labyrinthite
+• Infection/inflammation de l’oreille interne avec acouphène, vertige, nystagmus,fièvre,surdité de
+perception, nauséeetvomissement. Foyer infectieux: Méningite, otitemoyenne, mastoïdite
+• Status: Chercher des déficits neurologiques (DD: AVC), un méningisme (méningite surajoutée)
+o Nerfs crânien
+Examen NLG rapide : Force et sensibilité, test cérébelleux, mouvement alternant précis et rapide,
+méningisme, ROT, test de Barrés et Mingazzini, Romberg, dérive en pronation, marche
+o Testspécifique:Surditéde neuro-sensorielle au Weber + Rinne, Otoscopie(OMA)
+o Priseencharge:IRMouCTdelabaseducrâne + Ceftriaxone IV
+

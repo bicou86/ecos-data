@@ -1,0 +1,781 @@
+EXAMEN
+PULMONAIRE
+
+Examen pulmonaire
+GUILLAUME JORDAN, ALBAN SADIKU, ARNAUD LYON, CLAIRE PERRIARD
+
+Table des matières
+
+Introduction
+
+02
+
+Contexte
+
+02
+
+Examen clinique
+1. Inspection
+2. Palpation
+3. Percussion
+
+02
+03
+06
+08
+
+Auscultation
+
+09
+
+Carte de synthèse
+
+11
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+01
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+PROFILES
+Ce document a pour objectif de soutenir l’apprentissage des étudiants en présentant et explicitant les outils nécessaires à la réalisation d’un
+examen thoracique et pulmonaire, compétence
+clinique à acquérir en vue du diplôme fédéral et
+de l’assistanat, et définie selon les Entrustable
+Professional Activities (EPA) | PROFILES auquel
+nous vous référons.
+Attention, effectuer un examen exhaustif n’est
+pas toujours possible en clinique. Selon les informations obtenues du patient, il est attendu de
+votre part de réaliser les éléments pertinents de
+l’examen.
+
+INTRODUCTION
+Globalement, en termes de mortalité, d'incidence, de prévalence et de coût, les maladiespulmonaires sont significatives. Un accroissement du nombre de décès dû aux
+maladies respiratoires est à prévoir lié majoritairement aux broncho-pneumopathies chroniques obstructives (BPCO) ainsi qu’aux cancers pulmonaires et aux infections.
+Un symptôme et un signe clinique respiratoire
+peuvent être la conséquence d’une étiologie
+pulmonaire ou non-pulmonaire. L’examen thoracique devra être complété par d’autres examens permettant d’exclure une origine non
+respiratoire. Devant une douleur thoracique, il
+faut penser dans son diagnostic différentiel aux
+origines pulmonaire, cardiaque, vasculaire, digestive, musculosquelettique, psychogène, etc.
+Face à ce type de douleur, il est important d’éliminer les diagnostics engageant le pronostic vital : infarctus du myocarde, dissection aortique,
+tamponnade, embolie pulmonaire, pneumothorax, crise d’asthme sévère.
+
+CONTEXTE
+Avant de commencer l’examen, il est essentiel
+de s’assurer que l’environnement est adap-
+
+02
+
+té. On se présente au patient avant de débuter l’examen, on lui demande son accord et
+on lui fournit des explications sur le déroulement. Mettre le patient à l’aise est une priorité et permet aussi de renforcer l’alliance thérapeutique. L’examen clinique en est d’autant
+plus facilité.
+Les règles d’hygiène prescrivent une désinfection des mains en entrant et en sortant de la
+pièce, avant et après contact avec le patient et
+après contact avec l’environnement du patient.
+Elles prescrivent également le port de gants
+lors de contact avec des liquides biologiques.
+Pour l’examen thoracique, on demande au patient d’enlever le haut en lui expliquant qu’il
+est essentiel d’avoir accès à son thorax entier.
+Une patiente peut garder ses sous-vêtements.
+La poitrine peut restreindre l’accès aux zones
+pulmonaire, on peut demander à la patiente de
+déplacer son sein pour faciliter l’examen.
+Pour l’examen du thorax antérieur et latéral, on l’installe confortablement sur le dos
+(décubitus dorsal) sur la table d’examen, les
+jambes décroisées, les bras le long du corps
+avec un coussin sous la tête et sous les genoux.
+Pour l’examen ultérieur du thorax postérieur, on installe le patient en position assise. On se place systématiquement à la droite
+du patient par convention.
+
+EXAMEN CLINIQUE
+On commence toujours par l’inspection du
+patient. Ensuite viennent dans cet ordre la
+palpation, la percussion et l’auscultation.
+Il est important que l’examen soit effectué
+de manière symétrique sur les deux poumons
+afin de constater une asymétrie.
+Cette séquence peut être effectuée, pour l’examen thoracique, en deux temps. On effectue
+tout d’abord un examen complet au niveau du
+thorax antérieur et latéral puis dans un deuxième temps nous répétons la séquence au ni-
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN
+PULMONAIRE
+
+FIG 1
+
+Lobes pulmonaires dorsaux
+
+veau du thorax postérieur. L’examen en deux
+temps favorise le confort du patient.
+On divise le poumon gauche en lobe supérieur
+et inférieur et le poumon droit en lobe supérieur, moyen et inférieur. Les lobes sont délimités par des scissures. La grande scissure
+à droite sépare le lobe supérieur et moyen de
+l’inférieur. À gauche elle sépare le supérieur de
+l’inférieur. La petite scissure sépare à droite le
+lobe supérieur et moyen. On localise la lésion
+selon les lobes et le niveau pulmonaire. L’examen clinique seul ne permet pas forcément de
+déterminer avec précision la localisation d’un
+foyer.
+
+1. Inspection
+On observe l’état général du patient avant
+de se focaliser sur le système thoracique.
+On recherche si une altération de l’état général du patient est en relation avec une pathologie respiratoire. Par exemple, on note
+s’il est agité, dyspnéique, tachypnéique, cyanosé, léthargique, on a du mal à communiquer
+avec lui, etc. Le patient est maigre et présente
+une amyotrophie importante on pense à une
+atteinte emphysémateuse sévère.
+Un patient peut être décontracté comme un
+autre pourrait présenter des douleurs diffici-
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+lement supportables et aurait donc tendance à
+se recroqueviller sur lui-même. La douleur se
+lira aussi sur son faciès. Par exemple, si un patient est en position assise, thorax vers l’avant
+on pensera à la position antalgique de la péricardite. Un refus de se coucher peut être la
+conséquence d’une orthopnée.
+On observe l’allure du thorax. Existe-il une
+déformation, une asymétrie, des cicatrices,
+des lésions cutanées ?
+On voit la partie inférieure du sternum qui fait
+protrusion antérieurement, on parle de déformation en carène (pectus carinatum). On voit
+un enfoncement du sternum, on parle de déformation en entonnoir (pectus excavatum).
+Ces déformations sont soit primaires soit plus
+rarement secondaires à une affection génétique.
+Les déformations du thorax peuvent dans les
+cas sévères diminuer la fonction cardiaque et
+respiratoire.
+On observe d’autres déformations de type cyphose ou scoliose.
+On observe une augmentation du diamètre
+antéro-postérieur du thorax. On parle de thorax en tonneau qui traduit une distension pulmonaire.
+
+03
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+On observe la qualité de la respiration.
+Existe-il des signes de détresse respiratoire ?
+Quel est le profil de respiration ? La respiration est-elle symétrique ?
+Concernant les signes de détresse respiratoire :
+• On évalue la fréquence respiratoire soit à
+l’auscultation soit à l’observation des mouvements du thorax. Si elle est régulière on
+l’évalue sur trente secondes et en cas d’irrégularité sur une minute. Il est important de
+ne pas avertir le patient de la mesure de la
+fréquence respiratoire au risque de le voir
+modifier consciemment sa respiration. Une
+fréquence supérieure à 20/minute est une
+tachypnée, une fréquence inférieure à 10/
+minute est une bradypnée.
+Une bradypnée peut être expliquée par un
+épuisement respiratoire, une hypertension
+intracrânienne, une urémie, un coma diabétique, une intoxication médicamenteuse,
+etc.
+Une tachypnée peut être expliquée par des
+états hypoxiques, hypercapniques, une acidose métabolique, une insuffisance cardiaque, un état de choc, un état inflammatoire ou douloureux, un syndrome d’hyperventilation, etc.
+• On observe un creusement des espaces intercostaux, sous-xyphoidien et sus-sternal et une contraction des muscles sternocléido-mastoidiens. Il s’agit d’un tirage,
+contraction de la musculature accessoire
+de la respiration.
+• On observe, lorsque le patient est en décubitus dorsal, une dépression abdominale à
+l’inspiration et une expansion abdominale
+à l’expiration. Il s’agit d’un balancement
+thoraco-abdominal qui s’oppose au mouvement physiologique d’expansion abdominale à l’inspiration, dit prédominance
+abdominale. On parle de respiration paradoxale. Ce type de respiration est expliqué par une faiblesse ou un dysfonctionnement diaphragme que l’on retrouve dans la
+BPCO, des atteintes neurologiques du nerf
+
+04
+
+•
+
+•
+
+phrénique, le syndrome obésité-hypoventilation, etc.
+On observe une rétraction d’une partie de
+la cage thoracique à l’inspiration et une
+protrusion de cette même partie à l’expiration. La respiration est dite paradoxale. On
+pense à un volet costal, 3 côtes successives
+fracturées en deux points.
+On observe une cyanose des extrémités
+(périphérique), possiblement des lèvres
+et de la muqueuse buccale (central). C’est
+un signe d’hypoxémie, diminution de la
+concentration d’oxygène transporté par
+l’hémoglobine. Plus un patient possède
+une concentration en hémoglobine élevée, plus la cyanose se manifestera rapidement avec la désaturation, par exemple
+lors d’une polyglobulie. À l’inverse, un patient anémique ne présentera une cyanose
+que tardivement.
+
+Une cyanose périphérique est synonyme d’extraction tissulaire locale d’oxygène augmen-
+
+FIG 2
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+Volet costal
+
+EXAMEN
+PULMONAIRE
+
+FIG 3
+
+Balancement thoraco-abdominal
+
+tée. Elle résulte d’une diminution de la perfusion ou d’une stase locale sanguine, par conséquent la saturation systémique est préservée.
+La cyanose centrale résulte d’une défaillance
+de l’échangeur gazeux sur un shunt droitegauche, un trouble de la diffusion ou une hypoventilation alvéolaire sur insuffisance respiratoire mécanique.
+Un shunt est d’origine cardiaque ou pulmonaire sur œdème pulmonaire, atélectasie,
+corps étranger, pneumonie, embolie pulmonaire, et rarement asthme et BPCO, etc. La
+saturation systémique est diminuée de façon
+importante. Un shunt et un trouble de la diffusion induisent une hypoxémie et secondairement une hypocapnie sur hyperventilation.
+• On observe une diaphorèse, un astérixis,
+etc. On peut penser à une hypercapnie. Elle
+résulte d’une hypoventilation alvéolaire,
+responsable d’une hypoxémie concomitante. On parle d’insuffisance respiratoire
+hypercapnique qui peut s’observer dans des
+situations à la fois de bradypnée et de tachypnée importante.
+On pense à des atteintes neurologiques
+centrales, périphériques, pariétales ou
+bronchopulmonaires. Les principales
+causes neurologiques sont les AVC, les tumeurs, les médicaments, la SLA, le Guillain-Barré, le tétanos, la poliomyélite, la
+myasthénie, la myopathie, l’intoxication
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+•
+
+au curare, etc. Pour les origines pariétales
+on pense à une fracture, un pneumothorax, une déformation thoracique, un épanchement, etc. Les origines bronchopulmonaires sont la BPCO, l’emphysème, un espace mort, etc.
+On entend des bruits respiratoires. Un sifflement au temps inspiratoire, stridor,
+évoque généralement obstruction des voies
+aériennes supérieures. Un sifflement au
+temps expiratoire, sibilance, évoque généralement une obstruction des voies aériennes inférieures. Chez l’enfant un gémissement expiratoire, grunting, est signe
+de détresse respiratoire. L’enfant expire
+contre glotte fermée pour maintenir ses alvéoles ouvertes. Chez les adultes atteints
+de BPCO, le pincement des lèvres permet
+également de maintenir une pression expiratoire positive dans les alvéoles Penser
+chez l’enfant également à identifier un battement des ailes du nez, signe de détresse.
+
+Les signes de détresse respiratoire ne sont pas
+forcément associés à une gêne respiratoire.
+Un tableau de détresse respiratoire doit toujours être mis en relation avec le contexte clinique. Par exemple, un stridor est associé à
+bon état général en cas laryngomalacie et un
+état diminué en cas d’épiglottite avec une fatigue importante, une diminution des apports
+alimentaires, etc.
+
+05
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+L’état général du patient détermine la gravité de la détresse. Une agitation peut être expliquée par une hypoxémie, une somnolence
+par une hypoxémie et une hypercapnie. Un patient peut présenter une incapacité à terminer
+ses phrases ou à parler en cas d’effort respiratoire important.
+
+FIG 4
+
+Profils de respiration
+
+Pour ne pas décompenser le patient sur le plan
+respiratoire, il est important d’observer et de
+respecter sa position. Pour faciliter son travail
+respiratoire le patient se tient souvent assis,
+en appui sur ses membres supérieurs. Cet appui permet de diminuer le travail statique du
+tronc et favoriser le travail des muscles respiratoires.
+Concernant la symétrie des mouvements
+respiratoires, si l’on observe une respiration
+asymétrique on pense un pneumothorax, une
+affection pleurale (par exemple, un épanchement pleural), une lésion du nerf phrénique,
+une fibrose chronique du poumon ou de la
+plèvre, une pneumonie lobaire ou encore une
+obstruction bronchique unilatérale.
+Concernant le profil de respiration, on le caractérise selon la fréquence, l’amplitude et la
+régularité des mouvements respiratoire.
+• On observe des mouvements respiratoires
+rapides et superficiels. On pense à un
+trouble de compliance thoracique, une fibrose, un syndrome obstructif, etc.
+• On observe une respiration rapide et ample.
+On parle de respiration de Kussmaul.
+On pense à une acidose métabolique, par
+exemple lors d’une acido-cétose diabétique,
+d’une insuffisance rénale, etc. On peut également l’observer dans des syndromes d’hyperventilation
+• On observe une alternance de cycle de rapides et amples entrecoupées d’apnées régulières ou irrégulières. On parle de respiration ataxique, associée à des traumatismes ou compression du pont ou à la prise
+d’opioïdes.
+• On observe des cycles où la respiration devient de plus en plus rapide et de plus en
+
+06
+
+plus ample avant de diminuer progressivement jusqu’à une pause respiratoire. On
+parle d’un profil respiratoire de CheyneStokes. On pense alors à une insuffisance
+cardiaque, une hypertension intracrânienne, etc. On peut également le trouver
+chez les personnes d’âge avancé. Ce profil
+respiratoire est de mauvais pronostic
+
+2. Palpation
+On débute par une palpation de toute zone
+douloureuse ou anomalie remarquée à l’inspection. On déclenche des douleurs à la palpation qui sont en faveur d’une atteinte musculosquelettique, d’une embolie pulmonaire,
+d’une crise d’occlusion des vaisseaux dans le
+cadre d’une drépanocytose, etc. Certaines manœuvres, non détaillées ici, permettent de reproduire une douleur musculosquelettique
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN
+PULMONAIRE
+
+FIG 5
+
+Topographie des
+­ganglions cervicaux
+
+FIG 6
+
+spécifique : crowing rooster maneuver, horizontal arm flexion, hooking maneuver, etc.
+On palpe une peau gonflée qui crépite. On
+pense à un emphysème cutané que l’on retrouve en cas de rupture broncho-pulmonaire
+avec communication sous-cutanée. On pense
+à un traumatisme, une ingestion de corps
+étranger, une infection, etc.
+On poursuit par une palpation en profondeur des ganglions sus-claviculaires, cervicaux antérieurs et postérieurs, submandibulaires, submentonniers, occipitaux, postauriculaires, préauriculaires, parotidiens et
+axillaires (avec des gants).
+On trouve une masse, on décrit :
+• Sa localisation (quadrant, région)
+• Sa taille
+• Si elle est isolée ou multiple
+• Son contour (absence, présence de délimitation)
+• Sa symétrie
+• Sa coloration
+• Sa mobilité (libre, fixé au plan profond)
+• Sa surface (lisse ou irrégulière)
+• Sa consistance (dur, mou, fluctuant car il y
+a du liquide à l’intérieur)
+• Sa sensibilité douloureuse
+• Sa pulsatilité (thrill)
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+Palpation ganglions
+cervicaux
+
+On palpe une masse isolée, solide, fixée au plan
+profond et indolore, on pense à une masse ou
+adénopathie tumorale. On palpe des masses
+multiples ou uniques, molles ou fluctuantes,
+libres et douloureuses, on pense à une adénopathie infectieuse, inflammatoire ou à un abcès. On palpe une masse sus-claviculaire, on
+pense à une adénopathie maligne.
+On évalue ensuite l’ampliation thoracique.
+On saisit la cage thoracique avec les deux
+mains soit en antérieur soit en postérieur entre
+la dixième et douzième côte. On demande au
+patient de prendre une grande inspiration. On
+observe la distance entre nos pouces lorsqu’ils
+s’écartent pour évaluer l’amplitude maximale
+et la symétrie du mouvement respiratoire.
+
+FIG 7
+
+07
+
+Test d'ampliation
+thoracique
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+On peut détecter les transmissions des vibrations vocales émises lorsque le patient parle
+ou dit trente-trois. On utilise soit la paume de
+la main soit la partie ulnaire de la main. Il est
+préférable de détecter une asymétrie de transmission en détectant simultanément la transmission vocale des deux côtés. Une transmission diminuée évoque un épanchement pleural liquidien ou gazeux, une consolidation
+pulmonaire rencontrée dans les tumeurs, etc.
+
+FIG 8
+
+Percussion frontale,
+latérale et dorsale
+
+3. Percussion
+La percussion se pratique avec un doigt percutant perpendiculairement un autre posé sur
+la surface du corps du patient, ici au niveau du
+thorax. Différents bruits peuvent être distingués et sont à interpréter. On distingue 3 sons
+différents : la sonorité pulmonaire normale, le
+tympanisme, et la matité. On percute chaque
+poumon sur la ligne médio-claviculaire pour
+délimiter la transition avec le foie à droite et
+l’estomac à gauche et le carré des lombes postérieurement. Le foie et le carré des lombes
+donnent un son plus mat que le poumon et l’estomac donne un son tympanique.
+On percute les deux poumons en comparant
+le côté droit et gauche à chaque niveau. On effectue une percussion des quatre niveaux
+antérieurs, deux latéraux et cinq postérieurs, afin de couvrir toutes les aires pulmonaires. On contourne la matité cardiaque antérieurement.
+
+FIG 9
+
+Tableau sémiologie pulmonaire
+Forme thoracique
+
+Mouvements thoraciques
+
+Percussion
+
+Pneumothorax
+
+Normale
+
+Diminués du côté atteint
+
+Tympanique
+
+Syndrome obstructif
+
+Thorax en tonneau
+
+Diminués des deux côtés
+
+Possiblement tympaniques
+
+Origine cardiaque
+
+Normale
+
+Normaux
+
+Possiblement mate
+
+Pneumonie
+
+Normale
+
+Possiblement diminués
+
+Mate
+
+Épanchement pleural
+
+Normale
+
+Diminués du côté atteint
+
+Mate
+
+Obstruction VAS
+
+Normale
+
+Augmentés
+
+Normale
+
+08
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN
+PULMONAIRE
+
+•
+
+•
+
+On entend un tympanisme sur les plages
+pulmonaires. On pense à une distension
+pulmonaire, retrouvée dans la BPCO, un
+asthme sévère, un emphysème, la mucoviscidose ou une rupture de la plèvre dans le
+cadre d’un pneumothorax.
+On entend une matité sur les plages pulmonaires. On pense à un épanchement pleural
+ou une condensation du tissu pulmonaire.
+Les causes d’épanchement pleural sont séparées en transsudat et exsudat. L’insuffisance cardiaque, l’hypertension pulmonaire, l’hypoalbuminémie produisent des
+transsudats. Les tumeurs, la tuberculose,
+l’empyème, l’embolie pulmonaire, les vasculites, la pancréatite, l’hémothorax et le
+chylothorax sont responsables d’exsudats.
+Une condensation est expliquée par une
+pneumonie, une tuberculose, un abcès, une
+tumeur, une atélectasie, des fibroses pulmonaires, un infarctus pulmonaire, etc.
+
+On ausculte au niveau des premières divisions des bronches en posant la membrane
+sur le premier et deuxième espace intercostal.
+On entend un bruit similaire au bruit trachéobronchique, moins aigu et intense. Il s’agit du
+bruit bronchovésiculaire, physiologique. Les
+bruits inspiratoires et expiratoires sont égaux.
+On ausculte ensuite les plages pulmonaires
+(parenchyme) avec la membrane du stéthoscope en comparant le côté droit et gauche à
+chaque niveau. On effectue une auscultation
+des quatre niveaux antérieurs, deux latéraux
+et cinq postérieurs, afin de couvrir toutes les
+aires pulmonaires.
+
+FIG 10
+
+Ausculation antérieure
+
+FIG 11
+
+Auscultation ­postérieure
+et latérale
+
+Auscultation
+On demande au patient de respirer un peu
+plus fort avec la bouche ouverte afin de faciliter l’auscultation. L’auscultation se fait systématiquement sur un cycle complet comprenant inspiration et expiration. L’inspiration a
+une durée plus importante que l’expiration en
+situation physiologique. On décrit deux types
+de bruits, ceux respiratoires obligés et ceux
+surajoutés, adventitiels.
+On ausculte d’abord la trachée en posant la
+cloche du stéthoscope sous le larynx. On entend un bruit aigu rauque et intense perçu de
+façon égale tant à l’inspiration qu’à l’expiration. Il s’agit du bruit trachéal, physiologique.
+On ausculte les bronches proximales en posant la membrane du stéthoscope sur le manubrium du sternum. On entend un bruit similaire au bruit trachéal, moins aigu et intense.
+Il s’agit du bruit trachéobronchique, physiologique. Il est plus long en phase expiratoire
+qu’inspiratoire.
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+09
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+•
+
+•
+
+•
+
+On entend un bruit grave et doux. Il s’agit
+du murmure vésiculaire, physiologique,
+qui correspond au passage d’air dans les
+voies aériennes lobaires et segmentaires.
+Il est plus long en phase inspiratoire (2/3)
+qu’expiratoire (1/3). On identifie un expirium prolongé, on pense à un syndrome
+obstructif.
+Son intensité peut être diminuée voire absente secondairement à un pneumothorax,
+un épanchement pleural, une distension
+pulmonaire, une condensation pulmonaire
+ou un syndrome obésité-hypoventilation.
+Une disparition des bruits est de mauvais
+pronostic.
+On entend un bruit similaire à celui trachéal
+aux plages pulmonaires. Il s’agit d’une modification du murmure vésiculaire, on parle
+de souffle tubaire. On pense à une condensation pulmonaire.
+
+Comme mentionné précédemment, on peut
+rencontrer d’autres bruits que l’on qualifie de
+surajoutés.
+• On entend des crépitations fines à l’inspiration que l’on peut apparenter au son du
+velcro ou de pas dans la neige. Il s’agit de
+râles crépitants fins provoqués par l’ouverture des bronchioles remplies d’exsudat
+ou de transsudat. Ils sont présents davantage en périphérie. On pense à une pneumonie, une fibrose, un œdème pulmonaire, etc. Les principales causes d’œdème
+sont la pneumonie, l’aspiration de liquide,
+la contusion pulmonaire, un état de choc,
+un sepsis, etc. Mais il existe aussi d’autres
+causes extra-thoraciques telles que l’insuffisance cardiaque, certaines causes neurogènes, etc.
+• On entend des crépitations grossières à
+l’inspiration que l’on peut apparenter au
+son de bulles dans l’eau. Il s’agit de râles
+crépitants grossiers provoqués par le déplacement de sécrétions dans l’arbre bronchique. Ils sont présents davantage au
+centre du thorax. On pense à la bronchite,
+la BPCO, la mucoviscidose, des bronchectasies, etc.
+
+10
+
+•
+
+•
+
+•
+
+•
+
+Une disparition de râles à la toux traduit soit
+des râles crépitants grossiers soit des râles
+crépitants fins d’ouverture, physiologiques.
+On entend un ronflement grave aux deux
+temps respiratoires. Il s’agit de ronchis qui
+évoquent des sécrétions dans les bronches.
+On pense à une bronchite, une BPCO, de
+l’asthme, une mucoviscidose, bronchectasies, etc.
+On entend un sifflement au temps expiratoire, souvent associé à un temps expiratoire prolongé. Il s’agit de sibilances qui
+évoquent une obstruction des voies aériennes inférieures. On pense à une bronchite, une BPCO, de l’asthme bronchique et
+cardiaque, une mucoviscidose, bronchectasies, un corps étranger, etc. Les bronchectasies sont la plupart du temps post-infectieuses ou idiopathiques.
+On entend un sifflement au temps inspiratoire. Il s’agit d’un stridor qui évoque
+une obstruction des voies aériennes supérieures. Un stridor isolé est synonyme
+d’une atteinte laryngée, s’il est présent aux
+deux temps respiratoires on pense à une atteinte sous-glottique et trachéale. Les atteintes laryngées sont principalement l’épiglottite, la laryngomalacie, la diplégie laryngée, le faux-croup, etc. Pour les atteintes
+trachéales on pense à un corps étranger,
+une sténose trachéale, etc.
+
+FIG 12
+
+Tableau bruits pulmonaires
+
+Lien audio : https://www.easyauscultation.com/
+Bruits obligés
+
+Bruits surajoutés
+
+Bruits obligés
+anormaux
+
+Trachéal
+
+Ronchis
+
+Souffle tubaire
+
+Trachéo-­
+bronchique
+
+Stridor
+
+Murmure vésiculaire diminué
+
+Broncho-­
+vésiculaire
+
+Sibilance
+
+Expirium
+prolongé
+
+Murmure
+vésiculaire
+
+Crépitants fins
+Crépitants grossiers
+Frottement pleural
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN
+PULMONAIRE
+
+FIG 13
+
+•
+
+Sémiologie bruits pulmonaires
+
+On entend un frottement durant tout le
+cycle respiratoire que l’on peut apparenter au crissement de chaussures sur le sol.
+Il s’agit d’un frottement pleural qui traduit
+une pleurite, une embolie pulmonaire, etc.
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+CARTE DE SYNTHÈSE
+Cette carte de synthèse reprend sous forme de
+liste à puces les outils nécessaires à la réalisation d’un examen pulmonaire. Elle vous servira comme support visuel rapide et intuitif en
+
+11
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+situation clinique comme rappel des outils à
+disposition et vous permettra de vous autoévaluer.
+Vous trouverez l’ensemble des cartes de synthèses que nous proposons sous la section relative de notre plateforme en ligne.
+Contributeurs
+Nous tenons à remercier tous les partenaires impliqués dans
+la réalisation de ce document et plus particulièrement, leurs
+auteurs et illustrateurs ainsi que les partenaires de projet
+impliqués dans la relecture et la publication des documents.
+La propriété intellectuelle revient à qui de droit.
+© Association des Étudiantes en Médecine de Lausanne
+21.04.2021
+
+AUTEURS
+GUILLAUME JORDAN
+Association des étudiantes en médecine de Lausanne
+1011 Lausanne
+
+ALBAN SADIKU
+Association des étudiantes en médecine de Lausanne
+1011 Lausanne
+
+BAHIA DIAB
+Association des étudiantes en médecine de Lausanne
+1011 Lausanne
+
+ILLUSTRATIONS
+
+Ressources bibliographiques
+Ce chapitre présente les ressources bibliographiques qui ont
+été utilisées en vue de la rédaction du document. La validité
+scientifique de l’information proposée a été soumise pour
+correction et validation à notre partenaire, la Revue Médicale
+Suisse.
+1 Verte LS. [En ligne]. PROFILES | Home [cité le 16 novembre
+2020]. Disponible: https://www.profilesmed.ch/
+2 Bickley, L. S., Szilagyi, P. G., & Bates, B. (2009). Bates’ guide
+to physical examination and history taking (10th ed.).
+Philadelphia : Wolters Kluwer Health/Lippincott Williams &
+Wilkins.
+3 Philippe Furger. INVESTI-MÉD©. Editions D&F
+4 Tran, C., Chen, Y. A., Shah, R., & Vaisman, A. (2011). The
+Toronto notes 2011 : Comprehensive medical reference and
+review for the Medical Council of Canada Qualifying Exam Part
+1 and the United States Medical Licensing Exam Step 2.
+Toronto: Toronto Notes for Medical Students, Inc.
+
+Dessin
+
+JULIA BALDWIN
+Association des étudiantes en médecine de Lausanne
+1011 Lausanne
+
+Photographie
+VALENTIN TAMMARO
+Association des étudiantes en médecine de Lausanne
+1011 Lausanne
+
+REVIEWING
+PROF. JEAN-FRANÇOIS BALAVOINE
+
+Références
+Figure 1 : Lobes pulmonaires dorsaux
+Figure 2 : Volet costal
+Figure 3 : Balancement thoraco-abdominal
+Figure 4 : Profiles de respiration
+Figure 5 : Topographie des ganglions cervicaux
+Figure 6 : Palpation ganglions cervicaux
+Figure 7 : Test d'ampliation thoracique
+Figure 8 : Percussion frontale, latérale et dorsale
+Figure 9 : Tableau sémiologie pulmonaire
+Figure 10 : Ausculation antérieure
+Figure 11 : Auscultation postérieure et latérale
+Figure 12 : Tableau bruits pulmonaires
+Figure 13 : Sémiologie bruits pulmonaires
+
+12
+
+03
+04
+05
+06
+07
+07
+07
+08
+08
+09
+09
+10
+11
+
+Ancien vice-doyen associé en charge de la formation
+postgrade et en médecine de premier recours de la Faculté
+de médecine de Genève – UNIGE, enseignant de la
+sémiologie clinique, de la médecine psychosociale,
+de l’éthique et des infections
+1205 Genève
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+

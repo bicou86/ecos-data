@@ -1,0 +1,958 @@
+8. PRISE EN CHARGE PÉRI-INTERVENTIONNELLE
+
+11. CHANGEMENT D’UN ANTICOAGULANT POUR
+RIVAROXABAN, DABIGATRAN, APIXABAN OU EDOXABAN
+
+RIVAROXABAN, APIXABAN, EDOXABAN DABIGATRAN
+Procédures
+opératoires
+invasives
+
+• ClCr ≥ 50ml/min : arrêter la dernière
+dose de rivaroxaban / apixaban / edoxaban ≥ 24h avant la procédure
+• ClCr < 50ml/min : arrêter le rivaroxaban / apixaban / edoxaban minimum
+24-48h avant la procédure
+Dans des situations à risque particulièrement élevé de thrombose,
+un bridging par héparine devrait être
+discuté avec les spécialistes.
+NB : recontrôler la fonction rénale
+à la reprise des DOAC.
+
+Pts à risque de saignement standard
+• ClCr ≥ 80ml/min : arrêter le dabigatran
+24h avant la procédure
+• ClCr 50-79ml/min : arrêter le
+dabigatran 1-2 j avant la procédure
+• ClCr 30-49ml/min : arrêter le
+dabigatran 2-3j avant la procédure
+Pts à haut risque
+de saignement / chirurgie majeure
+• ClCr ≥ 80 ml/min : arrêter le dabigatran
+2 j avant la procédure
+• ClCr 50-79 ml/min : arrêter le
+dabigatran 2-3 j avant la procédure
+• ClCr 30-49 ml/min : arrêter
+
+DÉLAI MINIMUM ENTRE
+LA PREMIÈRE DOSE D’AC
+APRÈS POSE OU
+ABLATION DE CATHÉTER
+
+Rivaroxaban
+10 mg 1x/j
+
+18h
+
+6h
+
+Rivaroxaban
+20 mg 1x/j
+
+24h
+
+6h
+
+Apixaban
+2.5 mg et 5 mg 2x/j
+
+> 30h
+
+> 6h
+
+Edoxaban 60 mg 1x/j
+
+> 48h
+
+> 6h
+
+Dabigatran 150 mg 2x/j
+
+> 36h (selon ClCr)
+
+> 6h
+
+Arrêter la perfusion d’HNF et débuter le rivaroxaban / dabigatran
+/ apixaban / edoxaban 1h après l’arrêt de la perfusion
+
+HBPM Fondaparinux
+
+Débuter le rivaroxaban / dabigatran / apixaban / edoxaban à l’heure prévue
+pour la prochaine administration d’HBPM ou du fondaparinux
+(arrêter ces derniers)
+
+AVK
+
+Débuter le rivaroxaban / dabigatran / apixaban / edoxaban dès qu’INR ≤ 2.5
+N.B. pas d’étude spécifique
+
+CHANGER
+POUR
+
+STRATÉGIES DE CHANGEMENT
+
+AVK
+
+Stratégie 1
+(En fonction du risque
+thrombotique du patient)
+
+Stratégie 2
+Attendre 24 h
+avant
+administration
+HBPM
+Fondaparinux
+
+RECOMMANDATIONS
+
+Faible
+
+Retarder la prochaine dose de rivaroxaban ou dabigatran ou apixaban
+(demi-vie courte) ou stop traitement
+
+1. Débuter une anticoagulation parentérale
+(i.e. HBPM) à la place du rivaroxaban / dabigatran / apixaban / edoxaban à l’heure de la
+prochaine administration planifiée de rivaroxaban / dabigatran /apixaban / edoxaban
+2. Démarrer les AVK comme d’habitude
+
+REMETTRE AUX PATIENTS LA CARTE D’ANTICOAGULATION CHUV (CIR202257)
+
+Traitements symptomatiques adaptés :
+Compression mécanique
+Hémostase chirurgicale
+Remplissage vasculaire et correction hémodynamique
+Transfusion produits sanguins
+
+14. CARACTÉRISTIQUES PHARMACOCINÉTIQUES
+
+1. Acide tranéxamique 1g i.v. répétable
+2. Concentrés de facteurs du complexe prothrombinique
+(i.e. Prothromplex®) 25-50UI/Kg IV
+3. L’utilisation de charbon actif peut être envisagée
+(jusqu’à 8 h après ingestion).
+4. Une hémodialyse pour le dabigatran peut être envisagée.
+Le rivaroxaban n’est pas dialysable, mais pourrait être partiellement
+éliminé par plasmaphérèse.
+L’utilisation du Facteur VII activé recombinant (Novoseven®) et/ou
+de la Desmopressine (DDAVP) ou du FVIII Inhibitor Bypassing Activity
+(FEIBA®) 30 - 50UI/KgIV peut être envisagée.
+
+Auteurs – Mazzolai L. (ANG), Alatri A. (ANG), Alberio L. (HEM), Kern C.(ALG), Livio F. (PCL), Michel P.
+(NLG), Voirol P. (PHA) Validé par – Borasio FD., Borens O., Buclin T., Bula C., Burnier M., Calandra T.,
+Clarke S., Cornuz J., Corpataux JM., Demartines N., Duchosal M., Du Pasquier R., Farron A., Gilliet M.,
+Hirschi B., Hohlfeld P., Hugli O., Jichlinski P., Jolliet P., Levivier M., Mathevet P., Meuli R., Moradpour D.,
+Nicod L., Pantaleo G., Pascual M., Pitteloud N., Pralong F., Prêtre R., Qanadli S., Raffoul W., Raymond E.,
+Ris H., Simon C., So A., Vogt P., Waeber G., Yersin B.
+Pour tous commentaires veuillez contacter : lucia.mazzolai@chuv.ch 2ème version, juin 2015
+
+cemcav - chuv | 2015 | 16886
+
+üü
+üü
+üü
+üü
+
+N.B. l’efficacité de ces traitements n’a pas été formellement démontrée. Pour les saignements sévères
+et autres situations difficiles : une consultation urgente avec les spécialistes concernés est recommandée. Le Feiba et le Novoseven ne sont pas recommandés par la task force SSAR
+
+APIXABAN
+Eliquis®, (Pfizer/BMS)
+stocké au CHUV
+
+Utilisation
+des anticoagulants
+oraux directs
+
+DABIGATRAN
+ÉTEXILATE
+Pradaxa®, (Boehringer Ingelheim)
+disponible sur demande au CHUV
+EDOXABAN
+Lixiana®, (Daiichi Sankyo)
+disponible sur demande au CHUV
+
+1. INDICATIONS (source : swissmedicinfo.ch)
+RIVAROXABAN
+
+APIXABAN
+
+EDOXABAN
+
+DABIGATRAN
+
+Prévention
+de la MTEV
+
+Prévention des
+thromboses en
+cas d’interventions
+orthopédiques
+majeures des extrémités inférieures
+telles que prothèse
+de la hanche ou du
+genou
+
+Prévention de la
+MTEV chez les
+patients adultes
+après une opération programmée
+pour prothèse de
+la hanche ou du
+genou
+
+Pas d’indication
+
+Pas d’indication
+
+Traitement
+de la MTEV
+
+Traitement de la
+TVP et de l’EP et
+prévention d’une
+récidive de TVP
+et d’EP
+
+Traitement de la
+TVP et de l’EP et
+prévention d’une
+récidive de TVP et
+EP chez l’adulte
+
+Traitement de la
+TVP et/ou de l’EP
+après à un traitement préalable par
+HNF ou HBPM de 5
+j et prévention de
+récidive de la TVP
+et/ou de l’EP
+
+Traitement de la
+TVP et/ou de l’EP
+suite à un traitement préalable par
+HNF ou HBPM de 5
+j en prévention de
+récidive de la TVP
+et/ou de l’EP
+
+Prévention
+des AVC
+en cas de FA
+non
+valvulaire
+
+Prévention de
+l’AVC et de l’ES en
+présence d’une FA
+non valvulaire
+
+Prévention de l’AVC
+et de l’ES chez les
+patients adultes
+atteints de FA non
+valvulaire
+
+Prévention des
+accidents vasculaires cérébraux
+et des embolies
+systémiques chez
+les patients adultes
+atteints de fibrillation auriculaire non
+valvulaire
+
+Prévention de
+l’AVC et de l’ES
+chez les patients
+présentant une
+FA non valvulaire
+associée
+à un ou plusieurs
+des facteurs de
+risque suivants :
+• Antécédent
+d’AVC, d’AIT ou
+d’ES
+• FEVG < 40 %
+• Insuffisance
+cardiaque symptomatique, ≥
+classe II NYHA
+• Age ≥ 75 ans
+• Age ≥ 65 ans
+associé à l’une
+des maladies suivantes : diabète,
+coronaropathie
+ou HTA
+
+Débuter l’HBPM ou le fondaparinux
+à l’heure de la prochaine administration planifiée de
+rivaroxaban / dabigatran / apixaban / edoxaban
+
+En cas d’oubli de dose :
+a. si traitement par rivaroxaban ou edoxaban 1x/j, prendre immédiatement la dose oubliée
+et le lendemain continuer la prise 1x/j à l’heure habituelle ;
+b. si traitement par rivaroxaban/apixaban 2x/j, prendre la dose oubliée immédiatement
+et poursuivre avec le traitement aux heures habituelles ;
+c. si traitement par dabigatran 2x/j, prendre immédiatement la dose oubliée jusqu’à 6h après
+l’oubli ; après 6h, attendre l’heure de la prochaine dose sans compenser la dose oubliée.
+
+(basé sur le Compendium Suisse des Médicaments® et la littérature)
+
+SÉVÉRITÉ
+DU SAIGNEMENT
+
+1. Débuter l’AVK sous rivaroxaban / dabigatran / apixaban / edoxaban
+2. Mesurer l’INR avant la prochaine prise du rivaroxaban/dabigatran au moins 24 heures après la
+dernière prise de rivaroxaban/apixaban/edoxaban (12 h pour le dabigatran)
+3. Dès INR ≥ 2 arrêter le rivaroxaban/dabigatran/
+apixaban/edoxaban
+
+Service d’angiologie
+
+13. EDUCATION DU PATIENT
+
+10. MANAGEMENT EN CAS DE SAIGNEMENT
+
+Sévère ou échec
+des traitements
+symptomatiques
+adaptés
+(en ordre de priorité)
+
+HNF
+
+SI PONCTION
+TRAUMATIQUE
+
+L’usage de l’anesthésie locorégionale en présence de dabigatran n’est pas recommandé par le fabricant. Compte tenu de la demi-vie du dabigatran, on pourrait considérer qu’un délai d’au moins 36h
+devrait être observé entre la dernière prise de dabigatran et la ponction, la pose ou l’ablation de
+cathéter. Le délai minimum entre l’anesthésie et la première dose de dabigatran serait de 6h au moins.
+Voir les guidelines de la SSAR (www.sgar-ssar.ch)
+
+Modérée
+
+INDICATIONS
+
+12. CHANGEMENT DU RIVAROXABAN, APIXABAN, EDOXABAN
+OU DABIGATRAN POUR UN AUTRE ANTICOAGULANT
+
+9. MANAGEMENT EN CAS D’ANESTHÉSIE PÉRIDURALE
+ET PONCTION RACHIDIENNE
+DÉLAI MINIMUM ENTRE
+LA DERNIÈRE PRISE D’AC
+ET PONCTION, POSE OU
+ABLATION DE CATHETÈR
+
+MÉDICAMENT
+
+RIVAROXABAN
+Xarelto®, (Bayer/J&J)
+stocké au CHUV
+
+CARACTÉRISTIQUES
+
+RIVAROXABAN
+
+APIXABAN
+
+EDOXABAN
+
+DABIGATRAN
+ÉTEXILATE
+
+Cible
+
+Facteur X activé Facteur X activé Facteur X activé
+
+Facteur II activé
+
+Poids moléculaire (Da)
+
+436
+
+460
+
+738
+
+628
+
+Prodrug
+
+non
+
+non
+
+non
+
+oui
+
+Biodisponibilité (%)
+
+80-100%
+
+52%
+
+62%
+
+6-7%
+
+Temps pour atteindre le 2-4
+pic de concentration (h)
+
+3-4
+
+1-2
+
+2
+
+Demi-vie (h) si fonction
+rénale normale
+
+5-9
+
+9-14
+
+10-14
+
+12-17
+
+Elimination rénale sous
+forme inchangée
+
+33%
+
+27%
+
+50% de la dose
+absorbée
+
+80%
+
+Substrat de cytochromes P-450
+
+oui, métabolites oui, métabolites minimal (fraction non
+inactifs
+inactifs
+métabolisée <4%)
+
+Substrat de
+la p-glycoprotéine
+
+oui
+
+oui
+
+oui
+
+oui
+
+Absorption linéaire
+
+Non,
+effet plafond
+à 60 mg
+
+Oui,
+jusqu’à 10 mg
+
+Oui
+aug­mentation
+proportionnelle
+de 15-60 mg
+
+Oui
+aug­mentation
+proportionnelle
+de 10-600 mg
+
+AAS acide acétylsalicylique ; AC anticoagulant ; AIT accident ischémique transitoire ; antiXa activité anti-facteur X activé ; anti-IIa activité anti-thrombine ; aPTT temps de thromboplastine partielle activé ; AVC accident vasculaire cérébral ; AVK antivitamine K ; BMI
+body mass index ; CLCr clearance à la créatinine ; DD d-dimères ; EP embolie pulmonaire ;
+ES embolie systémique ; FA fibrillation auriculaire ; FEVG fraction d’éjection ventriculaire
+gauche ; FGN fibrinogène ; FSS formule sanguine simple ; HBPM héparine à bas poids
+moléculaire ; HNF héparine non fractionnée, HTA hypertension artérielle ; INR international normalized ratio ; MTEV maladie thromboembolique veineuse ; NYHA New-York Heart
+Association ; Pts patients ; SSAR Société Suisse d’Anesthésiologie et de Réanimation ; TE
+thromboembolique ; TP temps de prothrombine ; TT temps de thrombine ; TVP thrombose
+veineuse profonde
+
+CIR103246
+
+2. CONTRE-INDICATIONS
+
+3. POSOLOGIE
+
+RIVAROXABAN, APIXABAN, EDOXABAN, DABIGATRAN
+1. Grossesse et allaitement
+2. Age < 18 ans
+3. Insuffisance rénale sévère
+4. Hépatopathie sévère (Child-Pugh) ou hépatopathie associée à un risque hémorragique
+augmenté de manière significative
+5. Hypersensibilité au principe actif ou à l’un des excipients
+6. Affections gastro-intestinales ulcératives actives ou récentes
+7. Hémorragie intracrânienne et hémorragie importante ailleurs :
+décision individualisée en collaboration avec les spécialistes
+8. Valves cardiaques
+9. Interactions médicamenteuses majeures, association contre-indiquée (non exhaustif) :
+Rivaroxaban, Apixaban
+
+Dabigatran
+
+Edoxaban
+
+Inhibiteurs
+
+Inducteurs
+
+Inhibiteurs
+
+Inducteurs
+
+Inhibiteurs
+
+kétoconazole1
+itraconazole
+voriconazole
+posaconazole
+ritonavir1,
++ autres
+antiprotéases HIV
+conivaptan
+cobicistat
+
+rifampicine1
+phénytoïne
+carbamazépine
+phénobarbital
+millepertuis
+
+kétoconazole1
+itraconazole
+voriconazole
+ritonavir + autres
+antiprotéases
+HIV quinidine1
+dronédarone
+ciclosporine
+tacrolimus
+
+rifampicine1
+millepertuis
+carbamazépine
+phénytoïne
+
+kétoconazole1,2
+itraconazole
+voriconazole
+ritonavir +autres
+antiprotéases HIV
+érythromycine1,2
+clarithromycine
+quinidine1,2
+vérapamil1,2
+dronédarone1,2
+cyclosporine1,2
+propafénone
+ranolazine
+
+Prévention
+de la MTEV
+
+Traitement
+de la MTEV
+et prévention
+de la récidive
+de TVP
+et / ou
+EP
+
+CLCR
+ML/MIN
+
+RIVAROXABAN
+
+APIXABAN
+
+EDOXABAN
+
+DABIGATRAN
+
+≥ 15
+
+10 mg 1x/j ;
+Première dose
+6 - 10 h post op
+et en fonction
+du risque
+hémorragique
+
+2.5 mg 2x/j ;
+Première dose
+12 - 24 h post op
+et en fonction
+du risque
+hémorragique
+
+Pas d’indication
+
+Pas d’indication
+
+< 15
+
+Contreindiqué
+
+Contreindiqué
+
+Pas
+d’indication
+
+Pas
+d’indication
+
+≥ 30
+
+15 mg 2x/j
+pendant les
+21 premiers
+jours, puis
+20 mg 1x/j avec
+les repas
+
+• 10 mg 2x/j
+pendant les
+7 premiers
+jours, puis
+5 mg 2x/j
+• 2.5 mg 2x/j
+après au
+moins 6 mois
+de ttt pour
+une TVP/EP
+
+• 60 mg,
+1x/j après
+traitement
+préalable pendant au moins
+5 j par HNF ou
+HBPM
+• 30 mg,
+1x/j si ClCr
+30-50 ml/
+min ou poids
+≤60 kg ou
+interactions
+avec certains
+inhibiteurs de
+la p-glycoprotéine (cf.
+tableau des
+interactions), après
+traitement
+préalable pendant au moins
+5j par HNF ou
+HBPM
+
+Traitement préalable pendant
+au moins 5j par
+HNF ou HBPM
+puis 150 mg
+2x/j pendant
+6 mois au
+maximum
+
+10. Interaction médicamenteuse cliniquement significative potentielle, association à éviter
+(non exhaustif) :
+Rivaroxaban, Apixaban
+
+Dabigatran
+
+Edoxaban
+
+Inhibiteurs
+
+Inducteurs
+
+Inhibiteurs
+
+Inducteurs
+
+amiodarone
+boceprevir
+ciclosporine
+dronedarone
+grapefruit
+quinidine
+ranolazine
+réglisse
+telaprevir
+verapamil
+
+bosentan
+dexaméthasone
+éfavirenz
+felbamate
+oxcarbazépine
+primidone topiramate
+
+amiodarone1
+(interaction moindre si prise de
+dabigatran au moins 2 heures avant
+l’amiodarone)
+propafenone
+ranolazine
+vérapamil1
+(interaction moindre si prise de
+dabigatran au moins 2 heures avant
+vérapamil)
+
+phénytoïne
+carbamazépine
+phénobarbitall
+millepertuis
+
+< 30
+Prévention
+des AVC
+en cas de FA
+non valvulaire
+
+≥ 30
+
+11. Interaction médicamenteuse modérée, association possible en l’absence d’alternative (non
+exhaustif) :
+Rivaroxaban, Apixaban
+
+Dabigatran
+
+Edoxaban
+
+Inhibiteurs
+
+Inducteurs
+
+Inhibiteurs
+
+Inhibiteurs :
+amiodarone1,3
+
+clarithromycine1
+naproxene1
+diltiazem1
+erythromycine1
+fluconazole1
+
+étravirine
+
+clarithromycine1
+erythromycine
+
+Inducteurs :
+rifampicine1
+
+1. Interaction quantifiée par une étude pharmacocinétique spécifique
+2. Eventuellement envisageable en l’absence d’alternative, pour autant que la posologie d’édoxaban
+soit réduite à 30 mg/j pendant la période de co-administration (cf www.swissmedicinfo.ch)
+3. L’exposition (AUC concentrations) à l’édoxaban est augmentée de 40% sous amiodarone.
+Une interaction avec un inhibiteur va dans le sens d’une augmentation de l’exposition à l’anticoagulant
+oral direct (risque de saignement). Une interaction avec un inducteur va dans le sens d’une diminution
+de l’exposition à l’anticoagulant oral direct (risque d’événement thrombotique).
+
+< 30
+
+PENDANT
+• Fonction rénale et fonction hépatique chaque fois que cela est nécessaire en fonction
+de la clinique et de l’âge (>75 ans) , (au moins 4x/an pour la fonction rénale)
+• Pression artérielle
+• Attention aux interactions médicamenteuses
+>>Un monitoring régulier de l’activité coagulante n’est pas indiqué. Toutefois, en
+cas de nécessité (i.e. complications hémorragiques, en vue d’une intervention ou
+procédure invasive, fonction rénale diminuée) le monitoring de l’activité anticoagulante dans une situation élective : (taux résiduel, prise de sang 12 resp. 24 heures
+après la dernière prise du médicament) peut se faire
+(Laboratoire central d’hématologie) en utilisant :
+-- la mesure de l’activité anti-Xa pour le rivaroxaban, apixaban, edoxaban
+-- la mesure de l’activité anti-IIa pour le dabigatran
+
+5. EFFETS INDÉSIRABLES (voir aussi swissmedicinfo.ch)
+Les principaux effets indésirables du rivaroxaban, apixaban, dabigatran et edoxaban sont les saignements et troubles en découlant. Les troubles digestifs (nausées, vomissements, constipation) et les
+perturbations de tests hépatiques sont fréquemment observés, mais pas davantage qu’avec les HBPM
+ou les antivitamines K. La dyspepsie est en revanche un effet indésirable classique et fréquent du
+dabigatran
+
+CIBLE
+Rivaroxaban
+
+APTT
+
+TP/INR
+
+TT
+
+FGN
+
+DD
+
+ANTI-XA
+
+ANTI-IIA
+
+Xa
+
+Apixaban
+
+Xa
+
+Edoxaban
+
+Xa
+
+Dabigatran
+
+IIa
+
+Nota bene :
+Un TP dans la norme n’exclut pas une haute concentration de rivaroxaban, apixaban
+ou edoxaban
+
+Pas
+recommandé
+
+Pas
+recommandé
+
+Pas
+recommandé
+
+• 20 mg 1x/
+avec les repas
+• 15 mg 1x/j
+avec les
+repas si
+• ClCr
+30-49 ml/min
+
+• 5 mg 2x/j
+• 2.5 mg 2x/j
+si au moins 2
+des critères
+suivants :
+≥80 ans ;
+poids ≤60 kg ;
+s-creat ≥1.5
+mg/dl
+
+• 60 mg, 1x/j
+• 30 mg,
+1x/j si ClCr
+30-49 ml/
+min ou poids
+≤60 kg, ou
+interactions
+avec certains
+inhibiteurs de
+la p-glycoprotéine (cf.
+tableau des
+interactions).
+
+• 150 mg 2x/j
+• 110 mg 2x/j
+si ≥ 80 ans
+ou ClCr 30-49
+ml/min
+
+Pas
+recommandé
+
+Pas
+recommandé
+
+Pas
+recommandé
+
+AVANT
+FSS
+TP/INR
+aPTT
+ClCr
+
+6. EFFETS SUR LES TESTS
+
+Pas
+recommandé
+
+Pas
+recommandé
+
+4. BILAN ET PRÉCAUTIONS AVANT
+ET PENDANT LE TRAITEMENT ANTICOAGULANT
+
+Double inhibition plaquettaire
+(AAS + clopidogrel, AAS + prasugrel, AAS + ticagrelor)
+
+Procédures
+dentaires
+
+X
+
+Risque hémorragique largement augmenté
+(comme pour AVK et HBPM)
+
+En général, la majorité des procédures dentaires peuvent être effectuées
+sans devoir arrêter les anticoagulants. Ceci devrait aussi être vrai pour le
+rivaroxaban, dabigatran, apixaban, edoxaban. Toutefois, la décision devrait être
+prise sur une base individuelle. De préférence organiser l’intervention après
+le pic de concentration plasmatique maximale (c.a.d. >4-6h après la prise de
+médicament)
+
+Situations difficiles :
+Une discussion avec les spécialistes concernés est recommandée. Attention également aux interactions médicamenteuses (impact sur la vitesse d’élimination des anticoagulants).
+
+a. estimation fonction rénale selon la formule de Cockcroft-Gault :
+ClCr (ml/min) = [(140-âge) x poids/créatp] x k ; Créatp mol/L ; k homme 1.23 ; k femme 1.03 ;
+b. Selon la monographie du produit (www.swissmedicinfo.ch) 15 mg 1 x/j avec les repas à utiliser
+avec prudence
+• Dans ROCKET-AF, RELY, ENGAGE, HOKUSAI, EINSTEIN, RE-COVER les patients
+avec ClCr < 30 ml/min (<25 ml/min dans AMPLIFY et ARISTOTLE ) ont été exclus
+• Pas d’adaptation en fonction du poids, sous réserve de l’absence d’évaluation formelle
+• chez les grands obèses (BMI dans les essais cliniques 28 ± 3 Kg/m2)
+
+7. INTERACTIONS MÉDICAMENTEUSES
+
+(Un avis pharmacologique peut être demandé au tél 41 600)
+A- Principales interactions pharmacocinétiques : cf. point 2
+B- Interactions pharmacodynamiques
+Le risque de saignements sous rivaroxaban, dabigatran, apixaban, edoxaban augmente lorsqu’ils
+sont associés à des anti-inflammatoires non-stéroïdiens, des antiagrégants, des fibrinolytiques ou à
+d’autres anticoagulants.
+MÉDICAMENTS
+
+ASSOCIATION
+
+COMMENTAIRE
+
+ü
+
+Risque hémorragique augmenté, comme pour AVK
+et HBPM
+
+X
+
+Risque hémorragique augmenté, effet additionnel
+(supra-additif sur INR) ; exception : bridging,
+
+HNF, HBPM
+
+X
+
+Risque hémorragique augmenté, effet additionnel
+
+Double inhibition
+plaquettaire
+(AAS + clopidogrel, AAS +
+prasugrel, AAS + ticagrelor)
+
+X
+
+AAS (≤100 mg)
+Clopidogrel (75 mg) AINS
+AVK
+
+Risque hémorragique largement augmenté
+(comme pour AVK et HBPM)
+
+

@@ -1,0 +1,105 @@
+ALGORITHME 1
+PRISE EN CHARGE DU PATIENT FUMEUR
+
+ASK
+
+Identifier le tabagisme: «Etes-vous fumeur?»
+Oui
+
+ASSESS
+
+Non
+
+Evaluer la motivation à arrêter de fumer:
+«Avez-vous l’intention d’arrêter de fumer?»
+
+Identifier arrêt
+r­ écent: «avez-vous
+arrêté de ­fumer
+dans les 6 derniers
+mois?»
+
+Evaluer la dépendance nicotinique:
+Nombre de cigarettes/jour? Délai entre le réveil et la 1ère cigarette?
+Symptômes de ­sevrage?
+Non motivé
+ADVISE
+ASSIST
+
+Ambivalent
+
+Recommander clairement d’arrêter de fumer à tous les fumeurs
+Intervention brève
+• Personnaliser les conseils
+et susciter la remise en
+question
+• Informer sur les aides
+disponibles et laisser le
+patient décider
+• Brochure «Et si j’arrêtais
+de fumer?»
+
+Entretien motivationnel
+• Personnaliser les conseils
+• Motiver: balance pour/
+contre l’arrêt du tabac
+• Offrir de l’aide mais
+­laisser le patient décider
+• Présenter les méthodes
+efficaces d’arrêt du
+­tabac
+• Brochure «J’envisage
+d’arrêter de fumer»
+Réduction de la
+consommation avec une
+substitution nicotinique
+en vue d’un arrêt à moyen
+terme?
+
+Non
+
+ARRANGE
+
+Motivé
+
+Suivi
+Rediscuter tabac aux
+­ rochains RDV
+p
+
+Oui
+
+Suivi
+Utiliser ou fixer un prochain RDV pour rediscuter
+du tabac
+
+Arrêt récent
+
+Renforcer la décision
+
+Intervention soutenue
+• Renforcer la décision
+• Offrir du soutien
+• Informer sur le sevrage
+nicotinique
+• Préparer l’arrêt
+• Brochure «C’est décidé,
+j’arrête de fumer»
+• Elaborer des stratégies
+de prévention de la
+­rechute
+• Prescrire substitution
+­nicotinique, varénicline, bupropion ou
+combinaison
+
+Arrêt
+d’un coup
+
+Arrêt
+­graduel
+
+Suivi
+RDV: 1 + 2 + 4 + 8 sem. +/– selon besoins si arrêt
+RDV: 2 à 4 semaines +/– selon besoins si réduction
+
+

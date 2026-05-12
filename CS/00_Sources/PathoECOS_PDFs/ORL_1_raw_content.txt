@@ -1,0 +1,232 @@
+--- Page 1 ---
+ORL : Pathologies fréquentes
+Tristan Born
+
+--- Page 2 ---
+Angine et pharyngite :
+• Défini~on :Inflammaèon le plus souvent aiguë (< 3 mois) du pharynx et des amygdales. Éèologie si aiguë :
+-70% virale : Adénovirus, EBV, CMV, HSV, coronavirus, rhinovirus, influenza et parainfluenza…
+-30% bactérienne : SGA > N. gonorrhoeae, C. diphtheriae, M. pneumoniae, F. necrophorum et T. vincenUi*
+Les angines chroniques(durée > 3 mois) ou récurrentes(≥3 épisodes par an) sont plus rares.
+En général, elles sont causés par une flore polymicrobienne mixtes (anaérobes et aérobes)
+• Cliniques:
+Virale: Douleurs et érythèmes + rhinite, conjoncèvite, diarrhée, aphtes et absence de fièvre
+Bactérienne: Douleurs(+) avec dysphagie, exsudat amygdalien, pétéchie au palais, adénopathie, fièvre
+Si infecèon par SGA sous la forme de la scarla~ne: En plus exanthème scarlaèniforme et langue framboisée
+• Red flag (complica~on d’une infec~on bactérienne):
+Indique la formaèon d’abcès péri-tonsillaire et rétro-pharyngé, d’une mastoïdite ou d’un sepsis.
+Trismus(incapacité ouvrir bouche, spasme muscle masècateur) indiquant une abcès péri-tonsillaire
+Dévia~on de l’uvule pala~ne, aáeinte unilatérale,tor~colis : indicatrice d’un abcès
+Immunosuppressionou qSOFAindicateur d’un sepsis : risque d’infecèon disséminée
+En présence de redflag : CT en urgence et avis ORL
+• Diagnos~c:
+Si origine virale suspectée, aucun test n’est nécessaire. Possible sérologie EBV pour documenter une
+séroconversion. Conserver un degré de suspicion bas pour le HIV (si doute : test Combi 4egénéraèon)
+Si infecèon SGA suspecté : Score de Centorpuis froïs et test rapide (ou culture).
+Si une autre infecèon bactérienne est suspecté, faire le test adapté (cave: *Angine de Plaut-Vincent→ gram)
+• Traitement:
+En général uniquement symptomaèque, même en cas d’infecèon SGA.
+Si traitement anèbioèque nécessaire, donner la pénicilineV po 10 jours (ou pénicilline G parentérale).
+Siinfecèon par anaérobesuspecté (angine de Plaut-Vincent ou récidivante) : Péniciline+ Métronidazole
+Si red-flag avec abcès/sepsis : Anèbioèque IV (Co-amoxciline) ±drainage chirurgical
+
+--- Page 3 ---
+Rx normal (N) versus
+abcès rétro-pharyngé(*)
+*Abcès para-parynghé *Abcès péri-tonsillaire
+*
+*
+*
+*
+N
+
+--- Page 4 ---
+Scarlatine :
+- exanthème scarlatiniforme
+- Flush avec paleur péri-orale
+- langue framboisée
+
+--- Page 5 ---
+Laryngite :
+• Définition :Inflammation aiguë ou chronique du larynx et des cordes vocales.
+Les laryngite aiguë sont souvent d’origine infectieuse (viral >> bactérienne), parfois environnementale (irritant,
+polluant, chants prolongés…) ou la manifestation d’une maladie auto-immune (sarcoïdose, RA, GPA…).
+Les laryngites chroniques sont souvent causé par une RGO, le tabac ou des IVRS récurrentes.
+• Cliniques: Extinction de la voix, toux sèche, EF et adénopathie (si infectieux), stridor inspiratoire (si sévère)…
+Autres symptômes de la maladie sous-jacente.
+• Diagnostique: Si nécessaire laryngoscopie direct ou indirect.
+• Traitement: Le plus souvent celui de la cause sous-jacente ou tt symptomatique le temps de l’infection virale.
+Faux-croup (laryngo-trachéite virale) :
+• Définition :Forme particulière de laryngite touchant les enfants entre 6 mois et 3 ans.
+D’origine virale (contrairement à la diphtérie = vrai-croup) : para-influenza > RSV, Adenovirus, coronavirus…
+• Cliniques: Rhinite, stridor et dyspnée, toux « aboyante»
+• Diagnostique: Uniquement clinque le plus souvent.
+Rxde thorax avec rétrécissement sous-glottique (cave non spécifique)
+DD: Vrai-croup, épiglottite
+• Traitement: Dexaméthasone PO+ antipyrétiqueet fluide IV pour tous les patients,
+Donner de l’O2et des nébulisation d’adrénaline si nécessaire
+Vrai-croup (laryngo-trachéite bactérienne) :
+• Définition :Forme particulière de laryngite causé par la toxine de C. diphteriae.
+• Cliniques: Stridor inspiratoire, dyspnée. Parfois en présence d’une angine avec dépôt grisâtre et de pharyngite.
+Possible manifestation extra-respiratoire dû à l’effet systémique de la toxine avec un cardite, des arythmies, des
+polyneuropathies, des arthrites…
+• Diagnostique: Cultureet gram(ou coloration de Albert) des frottis pharyngés et tonsillaire, PCR.
+• Traitement: Initier le traitement causal avant confirmation du diagnostic !
+PenicilineG parentérale ou ErythromycineIV/po pour 14 jours + antitoxine IV.
+Traitement symptomatique si nécessaire (O2, VNI, intubation…).
+• Prévention :Vaccination contre la toxine diphtérique (Vaccin DTP) → y-penser chez les enfants non vaccinés !
+Épiglottite :
+• Définition :Inflammation bactérienne de l’épiglotte. Causé par l’Hib > S. pyoegenes, S. pneumoniae, S. aureus
+• Cliniques: Touche en particulier les enfants entre 6 et 12 ans. Stridoreinspiratoire, dyspnée soulagé par position en
+tripode, odynodysphagie, voix de « patate chaude », absence de toux(non viral !), fièvre élevée
+• Diagnostique: Surtout clinique (tripode + patate chaude + aspect toxique). Si besoin, visualisation de l’épiglotte par
+laryngoscopie (in)directe, Rxlatérale du cou avec visualisation des tissus mou voir CT-injecté (adulte).
+Frottis du pharynx avec culture et hémoculture.
+• Traitement: Toujours commencer surveillance aux SI, FiO2 100% voir intubation si nécessaire
+Antibiothérapie IV empirique jusqu'à identification du germe : Amoxicilline-acide clavulanique
+
+--- Page 6 ---
+Laryngo-trachéite (faux et vrai croup) :
+Rétrécissement
+Epiglottite sur CT-injecté Epigloite à l’endoscopie
+*
+*
+Enfants entre 6 mois – 3 ans Enfants > 6 ans
+
+--- Page 7 ---
+Epiglottite sur Rx
+Epiglottite sur Rx
+Épiglotte normale
+*
+*
+
+--- Page 8 ---
+Paralysie faciale :
+• Définition :Atteinte centrale ou périphérique du NC.VII
+La cause la plus fréquente est une paralysie faciale périphérique idiopathique (« paralysie de Bell »).
+Les causes secondaires sont nombreuses et peuvent êtres infectieuses, ischémique/hémorragique, traumatique…
+Infectieuses: Syndrome de Ramsay-Hunt (VZV, atteinte des NC.VIIet/ou VIII), Lyme, HSV, HIV…
+Traumatique: fracture de l’os temporal),
+Tumorale: Sur le trajet du nerf (glande parotide) ou sur un nerf adjacent (schwannomevestibulaire),
+Sarcoidose: syndrome de Heerfordt(triade parotidite, paralysie faciale, uvéite antérieure),
+Syndrome de Guillain-Barré, Amyloïdose, Microangiopathie diabétique, Gestation, Otite moyenne…
+• Cliniques: Atteinte isolé du quadrant inférieur controlatérale en cas d’origine centrale,
+Atteinte combinée des quadrant inférieur et supérieur ipsilatéraux lors d’origine périphérique.
+En cas d’atteinte périphérique on peut également retrouver : Xérosebuccale et sécheresse oculaire, kératiteet
+possible ulcération de la cornée, dysgueusiede la partie antérieure langue, hyper-acousie.
+• Diagnostique: Même si la paralysie de Bell est la cause la plus fréquente, il reste un diagnostic d’exclusion.
+Toujours effectuer une anamnèse et un statusneurologique complet. Chercher des signes de paralysie faciale
+secondaire (érythème migrans, zona auriculaire ou cervicale, vésicules sur l’oreille ou dansleCAE,otite
+moyenne, masse parotide, rash…). Si nécessaire, exclure un AVC, une tumeur ou un traumatisme par une
+imagerie en coup adaptée. En présencedevésicules et de suspicion d’un syndrome de Ramsay-Hunt, effectuer un
+frottis et une PCR à la recherche du VZV.
+En l’absence de causes évidentes (ci-dessus), il faut aminimaeffectuerlebilansuivantavant de conclure à une
+paralysie idiopathique : sérologie HIV, dépistage syphilis(TPHApuis si positif VDLR), sérologie B. burgdorferi,
+• Traitement: Soin oculaire et prévention de la dessication dans tous les cas d’atteinte périphérique.
+Si paralysie de Bell : Prednisonedans les 72h du début des symptômes ±valacyclovir
+Récupération complète dans les 3 semaines dans ≈ 85% des cas
+Si Lyme : Doxycycline(alternative : amoxicilline, Cefuroxime), Ceftriaxone (si méningite, encéphalopathie…)
+Si réactivation VZV : Acyclovir
+
+--- Page 9 ---
+Érythème migrant
+Réactivation VZV
+Réactivation VZV
+
+--- Page 10 ---
+Rhinite non allergique :
+• Définition :Vasodilatation des plexus veineux de la cavité nasale provoquant un gonflement de la muqueuse,
+d’origine non allergique (≠ de la rhinite allergique : vasodilatation des vaisseaux sur libération d’histamine et
+d’autres médiateurs vasoactif dans le cadre d’une hypersensibilité de type 1). Peut-être aiguë ou chronique.
+o Rhinite infectieuse : dans le cadre d’une infection virale des voies aériennes supérieur. En général aiguë.
+o Rhinite non allergique avec éosinophilie : 1èrecause de rhinite inflammatoirenon allergique.
+Clinique proche d’une rhinite allergique (polypose nasale, éternuement, prurit) sans mise en évidence d’une
+hypersensibilité au moyen de test cutané ou de laboratoire. La présence d’une éosinophilie dans les sécrétions
+nasales permet de la différencier d’autres causes de rhinite non allergique.
+Traitement : Stéroïdestopiques ou systémique, antihistaminique.
+o Rhinite induite par les médicaments : Aspirine, médicaments anti-hypertenseur, médicaments contre troubles
+érections, contraceptifs oraux, neuroleptiques, anti-dépresseurs…
+o Rhinitismedicamentosa: induite par un effet rebond après utilisation d’un spray nasal décongestionnant.
+o Rhinite atrophique : Idiopathiqueou secondaire à une maladie granulomateuse(auto-immune type vasculiteà
+ANCA ou infectieuse comme la syphilis, la lèpre et Klebsiella rhinoscleromatis) ou une radiothérapie.
+o Rhinite vasomotrice : Congestion nasale d’origine indéterminée. Peut-être favorisé par certains médicaments
+ou modification hormonale (voir plus bas), les changements de température, la pollution, le stress…
+Traitement : éviction des triggers si identifié, spray nasal (solution saline, antihistaminique, stéroïdes,
+antimuscariniques…). Largement empirique
+Rhinite hormonale: Hypothyroïdie, contraception orale, grossesse, ménopause, puberté…
+Rhinite allergique :
+• Définition :Vasodilatation des vaisseaux sur libération d’histamine et d’autres médiateurs vasoactif dans le
+cadre d’une hypersensibilité de type 1)
+• Cliniques: Lors du contact avec l’allergène, congestion nasale avec éternuement, écoulement, prurit. Volontiers
+accompagné de conjonctivite allergique et d’un terrain atopique(eczéma, asthme…).
+• Diagnostique: Test de provocation cutané et test de laboratoire mettant en évidence une sensibilisation et une
+réaction allergique à un ou plusieurs allergènes.
+• Traitement: Éviction de l’allergène, désensibilisation, traitement symptomatique par antihistaminique et
+stéroïdes topiques ou systémique.
+
+--- Page 11 ---
+Rhinosinusiteaiguë :
+• Défini~on :Inflammaèon de cavité nasale et des sinus adjacents durant < 4 semaine.
+L’origine de la sinusite aiguë est le plus souvent virale, plus rarement bactérienne ou fongique.
+On parle de sinusite aiguë récidivante lors de 4 épisodes ou plus de sinusite par année entrecoupée de phase
+d’au moins 8 semaines sans symptômes.
+Virus: Coronavirus, parainfluenza, influenza, rhinovirus, adénovirus
+Bactéries : S. pneumoniae, H. influenzae (75% cas) >> M. catharralis, S. aureus, E. coli, K. pneumoniae
+Champignon : Aspergillus spp. et mucormycoseà Rhizopusoryzae
+• FR :IVRS virale préexistante (facteur risque le plus fréquent pour des surinfecèons bactériennes),
+Anomalie anatomique ou fonc~onnelles des sinus (déviaèon septum nasal, dyskinésie),
+Atopie: Terrain d’asthme ou d’allergie préexistante avec rhinite allergique, intolérance aux AINS…
+Désordre immunitaire : vasculiteà ANCA, immunosuppression
+Mauvaise hygiène dentaire avec extension d’une infecèon vers les sinus maxillaires.
+• Cliniques: Éternuement, congesèon nasale avec écoulement (rhinite) + céphalées et douleurs à la percussion
+des sinus touchés (sinusite) ±fièvre, malaise, baisse de l’état général (infecèon).
+o Aëeinte des sinus maxillaires : douleurs référées dans les dents,
+Aëeinte des sinus frontaux : douleurs dans le front / céphalées frontales,
+Aëeinte des sinus éthmoïdes : céphalées rétro-oculaire.
+o Sinusites bactériennes : Péjoraèon brutale après une première phase d’amélioraèon (surinfecèon), sécréèons
+nasales purulentes, fièvre importante (> 39°C)
+o Sinusite fongique : Paèent immuncompromis(y-comprit diabète) ou après un trauma/chirurgie. Épistaxis,
+croûtes noires, érosion osseuse à l’imagerie
+o Red flag :
+Altéra~on du statusmental, fièvre >39°C ou/et durant > 72h, céphalées très importantes,
+Déficit neurologique focal, anomalie oculaire (oculomotricité, douleurs, flou visuel…),
+Absence d’amélioraèon après 72h d’une anèbiothérapie bien conduite,
+Rhinosinusiteaiguë récidivante,
+Immunosuppression(y-comprit diabète)
+• Complica~on :Cellulite orbitaire, abcès orbitaire, thrombose du sinus caverneux,
+Méningite, abcès cérébraux ou sous-duraux, pneumonie voir sepsis.
+• Diagnos~que: Diagnosèc clinique, recourir à l’imagerie ou l’endoscopie uniquement si red-flag
+• Traitement: NaCl, CS topique, traitement de la douleur avec AINS/paracétamol, spray déconges~onnant.
+Uèlisaèon d’anèbioèque lors d’infecèon bactérienne suspecté (co-amoxicilinepour 5-10 jours) : Red-flag ou
+péjoraèon aiguë après une amélioraèon inièale, sécréèons nasales purulentes.
+Si suspicion de sinusite fongique, demander immédiatement un avis infecèologique et ORL !Mortalité >50%
+
+--- Page 12 ---
+Sinusite chronique :
+• Définition :Inflammation chronique (durée >12 semaines) de la cavité nasale et des sinus, entrecoupés
+d’exacerbations causées par des infections surajoutées.
+On trouve plus fréquemment des infections à M. catharralis, S. aureus et BGNdans la sinusite chronique.
+• Cliniques: Persistance insidieuse d’écoulement nasal, céphalées, congestion nasale et hyposmie.
+o Sous-type de «sinusite chronique avec polypose nasales » : Associé à de l’asthme, l’intolérance à
+l’aspirine/AINS (cave triade de Widal), la rhinite allergique et la mucoviscidose.
+o Sous-type de « sinusite chronique sans polypose nasales » : Associée à des anomalies anatomiques (déviation
+du septum, masses/tumeurs ou une mauvaise hygiène dentaire).
+• Diagnostique : Diagnostic clinique mais toujours effectuer une fois une imagerie en coupe et/ou endoscopie.
+Si nécessaire, effectuer des cultures lors d’épisodes de surinfections.
+Le diagnostic des polyposes nasale repose sur la cytologie des écoulements nasaux à la recherche d’une
+éosinophilie, et l’endoscopie ou le CT pour la visualisation des polypes et l’exclusion des autres causes
+d’obstruction nasale. L’endoscopie permet également de biopsier les polypes pour exclure une tumeur.
+• Traitement:
+Irrigation avec NaCl, CS topique, traitement de la douleur avec AINS/paracétamol, spray décongestionnant.
+Utilisation d’antibiotiquelors d’infection bactérienne avec exacerbation (co-amoxicilinepour 5-10 jours, si
+nécessaire FQ ou C3G/C4G en dernière intention). Si nécessaire résection endoscopique des polypes. Si
+possible, traitement de la maladie sous-jacente (déviation septum, tumeurs…).
+
+--- Page 13 ---
+Rx avec niveau hydro-aérique
+cave : Aujourd’hui, préférer faire un CT Sinusite chronique avec polypose
+*
+*
+*
+*
+*

@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS - Examen de la Main et du Poignet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .content-wrapper {
+            display: flex;
+            gap: 20px;
+            padding: 40px;
+        }
+        
+        .main-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        
+        .sidebar {
+            width: 350px;
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .sidebar h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .figure-container {
+            margin-bottom: 15px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .figure-container:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        
+        .figure-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .figure-caption {
+            padding: 8px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+            background: #f8f9fa;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        h4 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .pathology {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        
+        .stats-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .stats-box h4 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .stats-box ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .stats-box li {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .figure-reference {
+            color: #667eea;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        
+        .figure-reference:hover {
+            color: #764ba2;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: pointer;
+        }
+        
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 90%;
+            max-height: 90%;
+        }
+        
+        .modal-content img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: #667eea;
+        }
+        
+        .cards-section {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 3px solid #667eea;
+        }
+        
+        .cards-section h2 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+        
+        .cards-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .card-image-container {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .card-image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .anatomie-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .anatomie-box h4 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .anatomie-box ul {
+            margin-left: 20px;
+        }
+        
+        @media (max-width: 1200px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                max-height: 400px;
+                position: static;
+            }
+            
+            .main-content {
+                padding-right: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content-wrapper {
+                padding: 20px;
+            }
+            
+            .cards-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS</h1>
+            <p style="font-size: 1.2em; opacity: 0.9;">Examen de la Main et du Poignet</p>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="main-content">
+                <h2>Introduction</h2>
+                <p>Les maladies musculo-squelettiques peuvent atteindre les différentes structures osseuses, musculaires, cartilagineuses, tendineuses ou ligamentaires.</p>
+                
+                <p>En Suisse, environ 18% de la population présente des douleurs aux mains et aux membres supérieurs. C'est la partie du corps la plus utilisée et donc particulièrement sujette aux:</p>
+                <ul>
+                    <li>Traumatismes</li>
+                    <li>Plaies</li>
+                    <li>Infections</li>
+                    <li>Inflammations tendineuses</li>
+                    <li>Pathologies de compressions nerveuses</li>
+                </ul>
+                
+                <p>Les causes peuvent être traumatiques, infectieuses, néoplasiques, dégénératives.</p>
+                
+                <p>L'examen ostéo-articulaire sera souvent complété par des examens complémentaires (radiographie, IRM) selon le diagnostic différentiel.</p>
+                
+                <h2>Contexte</h2>
+                
+                <h3>Préparation</h3>
+                <ul>
+                    <li>Se présenter au patient</li>
+                    <li>Demander son accord</li>
+                    <li>Expliquer le déroulement de l'examen</li>
+                    <li>Désinfection des mains (entrée/sortie, avant/après contact)</li>
+                    <li>Port de gants si contact avec liquides biologiques</li>
+                </ul>
+                
+                <h3>Installation</h3>
+                <ul>
+                    <li>Pas de préparation particulière pour l'examen de la main</li>
+                    <li>Examen en station assise face au patient</li>
+</ul>
+                
+                <h2>Anatomie de la main et du poignet</h2>
+                
+                <h3>Structures osseuses <span class="figure-reference" onclick="scrollToFigure('fig1')">(FIG 1)</span></h3>
+                <p>27 os répartis entre:</p>
+                <div class="anatomie-box">
+                    <h4>Carpe: 8 os sur 2 rangées</h4>
+                    <ul>
+                        <li>Rangée proximale (radial → ulnaire): scaphoïde, lunatum, triquetrum, pisiforme</li>
+                        <li>Rangée distale (radial → ulnaire): trapèze, trapézoïde, capitatum, hamatum</li>
+                    </ul>
+                    <h4>Métacarpiens: 5</h4>
+                    <h4>Phalanges: 14</h4>
+                    <p>Articulation avec ulna et radius au poignet</p>
+                </div>
+                
+                <h3>Muscles extrinsèques <span class="figure-reference" onclick="scrollToFigure('fig2')">(FIG 2)</span>, <span class="figure-reference" onclick="scrollToFigure('fig3')">(FIG 3)</span></h3>
+                <p>Masse musculaire dans l'avant-bras, terminaison tendineuse dans la main.</p>
+                
+                <h4>Loge antérieure - Fléchisseurs:</h4>
+                <ul>
+                    <li>Fléchisseur radial du carpe <span class="pathology">→ base 2e métacarpien</span></li>
+                    <li>Fléchisseur ulnaire du carpe <span class="pathology">→ pisiforme</span></li>
+                    <li>Fléchisseur profond des doigts <span class="pathology">→ phalange P3 doigts II-V</span></li>
+                    <li>Fléchisseur superficiel des doigts <span class="pathology">→ phalange P2 doigts II-V</span></li>
+                    <li>Long palmaire <span class="pathology">→ rétinaculum des fléchisseurs</span></li>
+<ul>
+                    <li>Long fléchisseur du pouce <span class="pathology">→ phalange P2 doigt I</span></li>
+                    <li>Rond pronateur</li>
+                    <li>Carré pronateur</li>
+</ul>
+                
+</ul>
+                <h4>Gaines et poulies:</h4>
+<ul>
+<li>
+    <ul>
+                    <li>Gaines synoviales (risque de frottement)</li>
+                    <li>Gaines digitales fibreuses (arciformes/cruciformes)</li>
+                    <li>Poulies A1-A5 et C1-C3</li>
+                    <li>Rétinaculum des fléchisseurs au carpe</li>
+</ul>
+  </li>
+                
+</ul>
+                <h4>Loge postérieure - Extenseurs <span class="figure-reference" onclick="scrollToFigure('fig4')">(FIG 4)</span>:</h4>
+<ul>
+<li>
+    <ul>
+                    <li>Long abducteur pouce (1e coulisse)</li>
+                    <li>Court extenseur pouce (1e coulisse)</li>
+                    <li>Long/court extenseur radial carpe (2e coulisse) <span class="pathology">→ base 2e/3e métacarpien</span></li>
+                    <li>Long extenseur pouce (3e coulisse)</li>
+                    <li>Extenseur commun doigts (4e coulisse) <span class="pathology">→ P2 (bandelette médiane) et P3 (bandelettes latérales)</span></li>
+                    <li>Extenseur doigt II (4e coulisse)</li>
+                    <li>Extenseur doigt V (5e coulisse)</li>
+                    <li>Extenseur ulnaire carpe (6e coulisse) <span class="pathology">→ base 5e métacarpien</span></li>
+                    <li>Brachioradial</li>
+                    <li>Supinateur</li>
+</ul>
+  </li>
+                
+</ul>
+                <h4>Organisation:</h4>
+<ul>
+<li>
+    <ul>
+                    <li>6 coulisses ostéofibreuses indépendantes</li>
+                    <li>Rétinaculum des extenseurs (contention)</li>
+</ul>
+  </li>
+                
+</ul>
+                <h3>Muscles intrinsèques</h3>
+                <p>Masse et insertions dans la main.</p>
+                
+                <h4>Loge thénar (radiale):</h4>
+<ul>
+<li>
+    <ul>
+                    <li>Court abducteur pouce</li>
+                    <li>Court fléchisseur pouce</li>
+                    <li>Opposant pouce</li>
+                    <li>Adducteur pouce</li>
+                </ul>
+  </li>
+                
+</ul>
+                <h4>Loge hypothénar (ulnaire):</h4>
+<ul>
+<li>
+    <ul>
+                    <li>Abducteur doigt V</li>
+                    <li>Court fléchisseur doigt V</li>
+                    <li>Opposant doigt V</li>
+</ul>
+  </li>
+                
+</ul>
+                <h4>Loge moyenne:</h4>
+<ul>
+<li>
+    <ul>
+                    <li>Lombricaux</li>
+                    <li>Interosseux dorsaux</li>
+                    <li>Interosseux palmaires</li>
+</ul>
+  </li>
+                
+</ul>
+                <h3>Innervation <span class="figure-reference" onclick="scrollToFigure('fig5')">(FIG 5)</span></h3>
+                
+                <h4>Sensitif:</h4>
+<ul>
+<li>
+    <ul>
+                    <li>Palmaire médial: nerf ulnaire</li>
+                    <li>Palmaire latéral: nerf médian</li>
+                    <li>Dorsal médial: nerf ulnaire</li>
+                    <li>Dorsal latéral: nerf radial</li>
+                </ul>
+  </li>
+                
+</ul>
+                <h4>Moteur:</h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Nerf ulnaire:</strong> majorité muscles intrinsèques sauf abducteur/opposant pouce, chef superficiel court fléchisseur pouce, lombricaux I-II</li>
+                    <li><strong>Nerf médian:</strong> muscles ci-dessus + majorité fléchisseurs avant-bras</li>
+                    <li><strong>Nerf radial:</strong> tous les extenseurs</li>
+</ul>
+  </li>
+                
+</ul>
+                <h3>Vascularisation <span class="figure-reference" onclick="scrollToFigure('fig6')">(FIG 6)</span></h3>
+<ul>
+<li>
+    <ul>
+                    <li>Artères radiale et ulnaire</li>
+                    <li>Arcades palmaires superficielles/profondes</li>
+                    <li>Arcade dorsale</li>
+                    <li>Artères interdigitales <span class="pathology">→ digitales propres</span></li>
+                    <li>Canal de Guyon: artère + nerf ulnaire</li>
+                    <li>Tabatière anatomique: artère radiale</li>
+</ul>
+  </li>
+                
+</ul>
+                <h3>Mobilité</h3>
+                <p><strong>Important:</strong> Le pouce est tourné de 90°</p>
+<li>
+    <ul>
+                    <li>Plan flexion-extension doigts II-V = plan abduction-adduction pouce</li>
+                    <li>Plan abduction-adduction doigts II-V = plan flexion-extension pouce</li>
+</ul>
+  </li>
+                
+                <h2>Examen Clinique</h2>
+                
+                <h3>1. Inspection</h3>
+                
+                <h4>Signes visuels</h4>
+                
+                <p><strong>Coloration:</strong></p>
+<li>
+    <ul>
+                    <li>Doigt(s) blanc(s) <span class="pathology">→ dévascularisation (plaie, thrombose artérielle)</span></li>
+                    <li>Doigt bleu tuméfié <span class="pathology">→ stase veineuse, lésion veineuse</span></li>
+                    <li>Blanc au froid puis rouge-bleuté à la chaleur <span class="pathology">→ syndrome de Raynaud</span></li>
+                </ul>
+  </li>
+                
+                <p><strong>Masses/nodules:</strong></p>
+<li>
+    <ul>
+                    <li>Masse ronde indurée scapho-lunaire/scapho-trapézo-trapézoïdienne <span class="pathology">→ kyste arthrosynovial</span></li>
+                    <li>Nodosités IPP (Bouchard) ou IPD (Heberden) <span class="pathology">→ arthrose digitale, polyarthrite rhumatoïde</span></li>
+                    <li>Tuméfaction indurée face palmaire <span class="pathology">→ tumeur à cellules géantes gaines synoviales</span></li>
+                    <li>Nodule 3mm mobile pli palmo-digital <span class="pathology">→ kyste ténosynovial</span></li>
+                    <li>Nodule/puits/bride palmaire avec flexum MP/IPP/IPD (doigts IV-V) <span class="pathology">→ maladie de Dupuytren</span></li>
+                    <li>Proéminence dorsale trapézo-métacarpienne <span class="pathology">→ rizarthrose, instabilité</span></li>
+</ul>
+  </li>
+                
+                <p><strong>Zone tuméfiée rouge/chaude:</strong></p>
+<li>
+    <ul>
+                    <li>Rebord unguéal avec pus <span class="pathology">→ paronychie</span></li>
+                    <li>Collection sous-cutanée avec érythème <span class="pathology">→ abcès</span></li>
+                    <li>Tuméfaction articulaire + flexion spontanée <span class="pathology">→ arthrite septique</span></li>
+                    <li>Tuméfaction fusiforme + 4 signes de Kanavel <span class="pathology">→ phlegmon gaine fléchisseurs:</span></li>
+</ul>
+  </li>
+<li>
+<ol>
+                            <li>Tuméfaction fusiforme</li>
+                            <li>Position flexion spontanée</li>
+                            <li>Extension passive douloureuse</li>
+                            <li>Douleur palpation gaine fléchisseurs</li>
+                        </ol>
+  </li>
+                
+                <p><strong>Plaie:</strong></p>
+                <p>Décrire: origine, localisation, taille, profondeur, aspect (franche/contuse, propre/souillée)</p>
+                
+                <p><strong>Déformations digitales:</strong></p>
+                <ul>
+                    <li>IPP flexion + IPD extension ("boutonnière") <span class="pathology">→ polyarthrite rhumatoïde, arthrose, fracture, lésion bandelette médiane</span></li>
+                    <li>IPP extension + IPD flexion ("col-de-cygne") <span class="pathology">→ polyarthrite rhumatoïde, doigt en maillet non traité, laxité plaque palmaire, spasticité</span></li>
+                    <li>Flexion P3 (doigt en maillet) <span class="pathology">→ avulsion insertion tendon extenseur sur P3</span></li>
+                    <li>Défaut d'axe frontal <span class="pathology">→ atteinte ligamentaire</span></li>
+                    <li>Défaut d'axe sagittal <span class="pathology">→ luxation dorsale/palmaire</span></li>
+                </ul>
+                
+                <p><strong>Signes végétatifs:</strong></p>
+                <ul>
+                    <li>Hypersudation, changement trophique, œdème, asymétrie température/couleur</li>
+</ul>
+                <p class="pathology">→ Syndrome de Sudeck (algodystrophie, syndrome douloureux régional complexe)</p>
+                
+                <p><strong>Autres signes:</strong></p>
+                <ul>
+                    <li>Cisaillement/chevauchement doigts <span class="pathology">→ fracture déplacée (test: flexion vers scaphoïde)</span></li>
+                    <li>Dépressions punctiformes "dé à coudre" unguéales <span class="pathology">→ psoriasis</span></li>
+                    <li>Amyotrophie hypothénar/interosseux <span class="pathology">→ lésion nerf ulnaire (canal Guyon, coude), neuropathie motrice multifocale, myosite à corps d'inclusion, SLA</span></li>
+                    <li>Amyotrophie thénar <span class="pathology">→ lésion nerf médian (tunnel carpien, syndrome rond pronateur)</span></li>
+</ul>
+                
+                <h3>2. Palpation</h3>
+                
+                <p>Palpation symétrique et systématique, zone moins douloureuse → plus douloureuse.</p>
+                
+                <h4>Zones douloureuses et pathologies</h4>
+                
+                <p><strong>Radius distal:</strong></p>
+                <ul>
+                    <li>Styloïde radiale, tubercule de Lister, lèvre palmaire</li>
+                </ul>
+                <p class="pathology">→ Fracture radius (trauma, ostéoporose), entorse poignet, kyste arthrosynovial, anévrisme artère radiale, arthrose post-traumatique, ostéome ostéoïde, tumeur à cellules géantes</p>
+                
+                <p><strong>Ulna distal:</strong></p>
+                <ul>
+                    <li>Tête, apophyse styloïde, ligaments ulno-carpiens (TFCC)</li>
+</ul>
+                <p class="pathology">→ Fracture, pseudarthrose, impaction stylo-triquétrale, inflammation ligament triangulaire</p>
+                
+                <p><strong>1e coulisse extenseurs:</strong></p>
+                <p class="pathology">→ Tendinite de Quervain, syndrome croisement, pseudarthrose scaphoïde, arthrose poignet</p>
+                
+                <p><strong>Scaphoïde:</strong></p>
+                <ul>
+                    <li>Tubercule palmaire (1/3 distal)</li>
+                    <li>Tabatière anatomique (1/3 moyen) <span class="figure-reference" onclick="scrollToFigure('fig17')">(FIG 17)</span></li>
+                    <li>Pôle proximal (1/3 proximal)</li>
+                </ul>
+                <p class="pathology">→ Fracture scaphoïde</p>
+                
+                <p><strong>Bord ulnaire poignet:</strong></p>
+                <p class="pathology">→ Tendinite/subluxation extenseur ulnaire carpe, lésion ligament triangulaire, instabilité radio-ulnaire distale, pseudarthrose styloïde ulnaire, arthrose piso-triquétrale</p>
+                
+                <p><strong>5e métacarpien:</strong></p>
+                <ul>
+                    <li>Tête <span class="pathology">→ fracture "du boxeur"</span></li>
+                    <li>Diaphyse <span class="pathology">→ fracture diaphysaire</span></li>
+                    <li>Base <span class="pathology">→ fracture "Bennet inversé"</span></li>
+                </ul>
+                
+                <p><strong>Lunatum:</strong></p>
+                <p class="pathology">→ Maladie de Kienböck</p>
+                
+                <p><strong>1er métacarpien:</strong></p>
+                <ul>
+                    <li>Base <span class="pathology">→ fracture Bennet (articulaire simple), Rolando (articulaire complexe T), Winterstein (extra-articulaire transverse), rizarthrose, pouce à ressaut, pouce du skieur</span></li>
+                </ul>
+                
+                <p><strong>Articulations:</strong></p>
+                <p class="pathology">→ Arthrose, polyarthrite rhumatoïde, arthrite septique/micro-cristalline, psoriasis, hémochromatose, lupus</p>
+                
+                <p><strong>Ongle:</strong></p>
+                <p class="pathology">→ Hématome unguéal, tumeur glomique</p>
+                
+                <h3>3. Mobilité et force <span class="figure-reference" onclick="scrollToFigure('fig7')">(FIG 7)</span>, <span class="figure-reference" onclick="scrollToFigure('fig8')">(FIG 8)</span></h3>
+                
+                <p><strong>Principes:</strong></p>
+                <ul>
+                    <li>Diminution mobilité passive <span class="pathology">→ raideur articulaire (rétraction ligamentaire, adhérences, limitation douloureuse)</span></li>
+                    <li>Diminution mobilité active <span class="pathology">→ atteinte neuromusculaire (lésion tendineuse/musculaire/neurologique)</span></li>
+                </ul>
+                
+                <h4>Poignet</h4>
+                
+                <p><strong>Flexion-extension:</strong></p>
+                <ul>
+                    <li>Main tombante (flexion spontanée, impossibilité extension) <span class="pathology">→ lésion nerf radial (fracture humérale, compression, syndrome nerf interosseux postérieur, "paralysie samedi soir")</span></li>
+                </ul>
+                
+                <p><strong>Inclinaisons latérales:</strong></p>
+                <ul>
+                    <li>Douleur inclinaison radiale <span class="pathology">→ fracture scaphoïde</span></li>
+</ul>
+                
+                <p><strong>Test dérotation:</strong></p>
+                <ul>
+                    <li>Flexion doigts</li>
+                    <li>Normal: pointent vers scaphoïde</li>
+                    <li>Chevauchement <span class="pathology">→ fracture déplacée</span></li>
+</ul>
+                
+                <h4>Doigts</h4>
+                
+                <p><strong>Fléchisseur superficiel <span class="figure-reference" onclick="scrollToFigure('fig9')">(FIG 9)</span>:</strong></p>
+                <ul>
+                    <li>Fléchir doigts II-V individuellement (autres bloqués)</li>
+                    <li>Déficit <span class="pathology">→ lésion tendineuse traumatique, lésion nerf médian (tunnel carpien), nerf interosseux antérieur</span></li>
+                    <li>"Main du pape": doigts I-II-III en extension <span class="pathology">→ lésion nerf médian proximale</span></li>
+                </ul>
+                
+                <p><strong>Fléchisseur profond <span class="figure-reference" onclick="scrollToFigure('fig10')">(FIG 10)</span>:</strong></p>
+                <ul>
+                    <li>Fléchir uniquement P3 (P2 stabilisée)</li>
+                    <li>Déficit P3 ("jersey finger") <span class="pathology">→ désinsertion tendon fléchisseur profond</span></li>
+</ul>
+                
+                <p><strong>Extenseur commun:</strong></p>
+                <ul>
+                    <li>Extension doigts II-V simultanée</li>
+                    <li>Déficit <span class="pathology">→ lésion tendineuse, nerf radial, doigt à ressaut, subluxation tendon, Dupuytren</span></li>
+                    <li>Déficit P3 (doigt en maillet) <span class="pathology">→ désinsertion bandelettes latérales</span></li>
+                    <li>Griffe ulnaire (MCP IV-V extension, IP flexion) <span class="pathology">→ lésion nerf ulnaire</span></li>
+</ul>
+                
+                <p><strong>Extenseurs spécifiques <span class="figure-reference" onclick="scrollToFigure('fig11')">(FIG 11)</span>, <span class="figure-reference" onclick="scrollToFigure('fig12')">(FIG 12)</span>:</strong></p>
+                <ul>
+                    <li>Extension isolée doigt II et V</li>
+                    <li>Déficit <span class="pathology">→ lésion tendineuse ou nerf radial</span></li>
+</ul>
+                
+                <p><strong>Interosseux <span class="figure-reference" onclick="scrollToFigure('fig13')">(FIG 13)</span>:</strong></p>
+                <ul>
+                    <li>Abduction-adduction doigts</li>
+                    <li>Déficit <span class="pathology">→ lésion nerf ulnaire</span></li>
+</ul>
+                
+                <h4>Pouce</h4>
+                
+                <p><strong>Flexion <span class="figure-reference" onclick="scrollToFigure('fig14')">(FIG 14)</span>:</strong></p>
+                <ul>
+                    <li>Court et long fléchisseurs</li>
+                    <li>Déficit <span class="pathology">→ lésion nerf médian ou tendineuse</span></li>
+                </ul>
+                
+                <p><strong>Extension:</strong></p>
+                <ul>
+                    <li>Long et court extenseurs</li>
+                    <li>Déficit <span class="pathology">→ lésion tendineuse ou nerf radial</span></li>
+</ul>
+                
+                <p><strong>Abduction-adduction:</strong></p>
+                <ul>
+                    <li>Long/court abducteurs, adducteur</li>
+                    <li>Déficit <span class="pathology">→ lésion nerf radial (long abducteur), médian (court abducteur), ulnaire (adducteur)</span></li>
+</ul>
+                
+                <p><strong>Opposition <span class="figure-reference" onclick="scrollToFigure('fig15')">(FIG 15)</span>:</strong></p>
+                <ul>
+                    <li>Toucher chaque doigt avec pouce</li>
+                    <li>Déficit <span class="pathology">→ lésion tendineuse ou nerf médian</span></li>
+</ul>
+                
+                <h3>4. Sensibilité</h3>
+                
+                <p>Chaque doigt innervé par 2 branches collatérales (ulnaire et radiale).</p>
+                <p>Test chaque hémipulpe, yeux fermés.</p>
+                
+                <p><strong>Tests:</strong></p>
+                <ol>
+                    <li>Effleurement grossier</li>
+                    <li>Si anormal: discrimination 2 points
+                        <ul>
+                            <li>Normal: < 5mm d'écart</li>
+                            <li>Pathologique: > 5mm</li>
+                        </ul>
+  </li>
+                    <li>Toucher-piquer</li>
+                </ol>
+                
+                <h4>Territoires et pathologies:</h4>
+                
+                <p><strong>Hypoesthésie palmaire/dorsale ulnaire:</strong></p>
+                <p class="pathology">→ Lésion nerf ulnaire</p>
+                <ul>
+                    <li>Distale: kyste arthro-synovial, thrombose artère ulnaire, fracture pisiforme/hamatum, arthrose radio-ulnaire</li>
+                    <li>Proximale: tunnel cubital, radiculopathie C8, tumeur spinale/Pancoast, syndrome défilé thoracique, syringomyélie, SLA</li>
+                </ul>
+                
+                <p><strong>Hypoesthésie palmaire radiale:</strong></p>
+                <p class="pathology">→ Lésion nerf médian, tunnel carpien</p>
+                <ul>
+                    <li>Éminence thénar épargnée si tunnel carpien (branche superficielle passe au-dessus)</li>
+</ul>
+                
+                <p><strong>Hypoesthésie dorsale radiale:</strong></p>
+                <p class="pathology">→ Lésion nerf radial ("paralysie samedi soir/amoureux"), syndrome tunnel radial, syndrome Wartenberg</p>
+                
+                <p><strong>Hypoesthésie hémipulpe:</strong></p>
+                <p class="pathology">→ Lésion branche nerveuse collatérale</p>
+                
+                <h3>5. Tests spécifiques</h3>
+                
+                <h4>Fracture scaphoïde</h4>
+                
+                <p><strong>Test de piston <span class="figure-reference" onclick="scrollToFigure('fig16')">(FIG 16)</span>:</strong></p>
+                <ul>
+                    <li>Saisir pouce, mouvements piston</li>
+                    <li>Douleur <span class="pathology">→ fracture scaphoïde</span></li>
+                </ul>
+                
+                <p><strong>Palpation tabatière anatomique <span class="figure-reference" onclick="scrollToFigure('fig17')">(FIG 17)</span>:</strong></p>
+                <ul>
+                    <li>Saisir scaphoïde, inclinaison ulnaire</li>
+                    <li>Douleur <span class="pathology">→ fracture scaphoïde</span></li>
+</ul>
+                
+                <h4>Instabilité ligamentaire</h4>
+                
+                <p><strong>Test de Watson <span class="figure-reference" onclick="scrollToFigure('fig18')">(FIG 18)</span>:</strong></p>
+                <ul>
+                    <li>Inclinaison ulnaire + flexion légère</li>
+                    <li>Pression tubercule palmaire scaphoïde vers dorsal</li>
+                    <li>Amener en inclinaison radiale passive</li>
+                    <li>Douleur/ressaut/claquement <span class="pathology">→ lésion/instabilité ligament scapho-lunaire</span></li>
+                </ul>
+                
+                <h4>Syndromes compressifs</h4>
+                
+                <p><strong>Test de Tinel <span class="figure-reference" onclick="scrollToFigure('fig19')">(FIG 19)</span>:</strong></p>
+                <ul>
+                    <li>Percussion nerf au site compression</li>
+                    <li>Reproduit dysesthésies <span class="pathology">→ syndrome compressif</span></li>
+                    <li>Tunnel carpien: pli flexion poignet</li>
+                    <li>Tunnel cubital: gouttière épitrochléo-olécrânienne</li>
+                    <li>Syndrome Wartenberg: 10cm proximal styloïde radiale</li>
+                </ul>
+                
+                <p><strong>Test de Phalen <span class="figure-reference" onclick="scrollToFigure('fig20')">(FIG 20)</span>:</strong></p>
+                <ul>
+                    <li>Fléchir poignets, mains dos à dos</li>
+                    <li>Reproduit dysesthésies <span class="pathology">→ tunnel carpien</span></li>
+</ul>
+                
+                <p><strong>Test de Durkan <span class="figure-reference" onclick="scrollToFigure('fig21')">(FIG 21)</span>:</strong></p>
+                <ul>
+                    <li>Pression constante tunnel carpien</li>
+                    <li>Reproduit dysesthésies <span class="pathology">→ tunnel carpien</span></li>
+</ul>
+                
+                <h4>Neuropathie ulnaire</h4>
+                
+                <p><strong>Test de Froment <span class="figure-reference" onclick="scrollToFigure('fig22')">(FIG 22)</span>:</strong></p>
+                <ul>
+                    <li>Tenir feuille/carte entre index-pouce</li>
+                    <li>Flexion IP pouce <span class="pathology">→ incapacité adducteur/court fléchisseur pouce</span></li>
+                </ul>
+                <p class="pathology">→ Neuropathie ulnaire</p>
+                
+                <p><strong>Test 1er interosseux dorsal <span class="figure-reference" onclick="scrollToFigure('fig24')">(FIG 24)</span>:</strong></p>
+                <ul>
+                    <li>Main verticale versant ulnaire</li>
+                    <li>Abduction doigt II vers plafond</li>
+                    <li>Déficit <span class="pathology">→ neuropathie ulnaire</span></li>
+</ul>
+                
+                <p><strong>Signe de Wartenberg <span class="figure-reference" onclick="scrollToFigure('fig23')">(FIG 23)</span>:</strong></p>
+                <ul>
+                    <li>Extension doigts collés</li>
+                    <li>Doigt V écarté (déficit adduction)</li>
+</ul>
+                <p class="pathology">→ Neuropathie ulnaire</p>
+                
+                <p><strong>Test 2e commissure:</strong></p>
+                <ul>
+                    <li>Croiser doigt III sur II</li>
+                    <li>Teste 2e interosseux dorsal + 1er interosseux palmaire</li>
+                    <li>Déficit <span class="pathology">→ neuropathie ulnaire pure</span></li>
+</ul>
+                
+                <h4>Tendinite de De Quervain</h4>
+                
+                <p><strong>Test de Finkelstein <span class="figure-reference" onclick="scrollToFigure('fig25')">(FIG 25)</span>, <span class="figure-reference" onclick="scrollToFigure('fig26')">(FIG 26)</span>:</strong></p>
+                <ul>
+                    <li>Poing fermé avec pouce dedans</li>
+                    <li>Inclinaison ulnaire passive</li>
+                    <li>Douleur 1e coulisse <span class="pathology">→ tendinite de De Quervain</span></li>
+                </ul>
+                
+                <h4>Instabilités</h4>
+                
+                <p><strong>Pouce du skieur <span class="figure-reference" onclick="scrollToFigure('fig27')">(FIG 27)</span>:</strong></p>
+                <ul>
+                    <li>Stabiliser 1er métacarpien</li>
+                    <li>Inclinaison ulnaire MP pouce</li>
+                    <li>Laxité > 15° vs côté sain <span class="pathology">→ lésion ligament collatéral ulnaire</span></li>
+                </ul>
+                
+                <p><strong>Test tiroir trapèze <span class="figure-reference" onclick="scrollToFigure('fig28')">(FIG 28)</span>:</strong></p>
+                <ul>
+                    <li>Main paume sur table</li>
+                    <li>Saisir trapèze</li>
+                    <li>Translation antéro-postérieure et latérale</li>
+                    <li>Laxité augmentée <span class="pathology">→ instabilité/luxation trapézo-métacarpienne</span></li>
+</ul>
+                
+                <h4>Arthrose/arthrite</h4>
+                
+                <p><strong>Test de Gaenslen <span class="figure-reference" onclick="scrollToFigure('fig29')">(FIG 29)</span>:</strong></p>
+                <ul>
+                    <li>Frotter articulations entre doigts (grinding)</li>
+                    <li>Serrer MP entre doigts</li>
+                    <li>Douleur/crépitations <span class="pathology">→ arthrose, arthrite, chondrocalcinose, hémochromatose</span></li>
+                </ul>
+                
+                <h2>Carte de synthèse</h2>
+                
+                <h3>Inspection</h3>
+                <ul>
+                    <li>Coloration, tuméfaction, déformations</li>
+                    <li>Lésions cutanées/unguéales</li>
+                    <li>Amyotrophie</li>
+                    <li>Déficit vasomoteur</li>
+                </ul>
+                
+                <h3>Palpation</h3>
+                <h4>Structures osseuses:</h4>
+                <ul>
+                    <li>Styloïdes radiale/ulnaire</li>
+                    <li>Scaphoïde (3 sites)</li>
+                    <li>Os du carpe</li>
+                    <li>Métacarpiens/phalanges</li>
+                    <li>Interlignes articulaires</li>
+</ul>
+                
+                <h4>Tendons/tissus mous:</h4>
+                <ul>
+                    <li>Coulisses extenseurs</li>
+                    <li>Signes de Kanavel</li>
+                    <li>Crépitations</li>
+</ul>
+                
+                <h4>Vasculaire:</h4>
+                <ul>
+                    <li>Température</li>
+                    <li>Pouls radial/ulnaire</li>
+                    <li>Test d'Allen</li>
+</ul>
+                
+                <h3>Examen neurologique</h3>
+                <ul>
+                    <li>Toucher-piquer</li>
+                    <li>Discrimination 2 points</li>
+                    <li>Tests moteurs spécifiques</li>
+</ul>
+                
+                <h3>Amplitudes articulaires</h3>
+                <h4>Poignet:</h4>
+                <ul>
+                    <li>Flexion-Extension (60-0-60)</li>
+                    <li>Pronation-Supination (90-0-90)</li>
+                    <li>Inclinaison ulnaire-radiale (40-0-30)</li>
+</ul>
+                
+                <h4>Doigts:</h4>
+                <ul>
+                    <li>Tests musculaires individuels</li>
+                    <li>Flexion/extension par articulation</li>
+</ul>
+                
+                <h3>Tests spécifiques</h3>
+                <ul>
+                    <li>Fracture scaphoïde: piston, palpation, inclinaison</li>
+                    <li>Instabilité: Watson, tiroir trapèze</li>
+                    <li>Compression nerveuse: Tinel, Phalen, Durkan</li>
+                    <li>Neuropathie ulnaire: Froment, Wartenberg</li>
+                    <li>Tendinite: Finkelstein</li>
+                    <li>Laxité: pouce du skieur</li>
+                    <li>Arthrose: Gaenslen</li>
+</ul>
+                
+                <div class="cards-section">
+                    <h2>Cartes de Révision</h2>
+                    <div class="cards-images">
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/Main-Poignet/Main-carte_page-0001.jpg" alt="Carte de révision 1">
+                        </div>
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/Main-Poignet/Main-carte_page-0002.jpg" alt="Carte de révision 2">
+                        </div>
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/Main-Poignet/Main-carte_page-0003.jpg" alt="Carte de révision 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <h3>Figures</h3>
+                <div id="figures-container"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+    
+    <script>
+        // Liste des figures
+        const figures = [
+            {id: 'fig1', file: 'FIG 1.jpg', caption: 'FIG 1 - Structures osseuses'},
+            {id: 'fig2', file: 'FIG 2.jpg', caption: 'FIG 2 - Muscles extrinsèques'},
+            {id: 'fig3', file: 'FIG 3.jpg', caption: 'FIG 3 - Muscles extrinsèques'},
+            {id: 'fig4', file: 'FIG 4.jpg', caption: 'FIG 4 - Loge postérieure'},
+            {id: 'fig5', file: 'FIG 5.jpg', caption: 'FIG 5 - Innervation'},
+            {id: 'fig6', file: 'FIG 6.jpg', caption: 'FIG 6 - Vascularisation'},
+            {id: 'fig7', file: 'FIG 7.jpg', caption: 'FIG 7 - Mobilité et force'},
+            {id: 'fig8', file: 'FIG 8.jpg', caption: 'FIG 8 - Mobilité et force'},
+            {id: 'fig9', file: 'FIG 9.jpg', caption: 'FIG 9 - Fléchisseur superficiel'},
+            {id: 'fig10', file: 'FIG 10.jpg', caption: 'FIG 10 - Fléchisseur profond'},
+            {id: 'fig11', file: 'FIG 11.jpg', caption: 'FIG 11 - Extenseurs spécifiques'},
+            {id: 'fig12', file: 'FIG 12.jpg', caption: 'FIG 12 - Extenseurs spécifiques'},
+            {id: 'fig13', file: 'FIG 13.jpg', caption: 'FIG 13 - Interosseux'},
+            {id: 'fig14', file: 'FIG 14.jpg', caption: 'FIG 14 - Flexion pouce'},
+            {id: 'fig15', file: 'FIG 15.jpg', caption: 'FIG 15 - Opposition pouce'},
+            {id: 'fig16', file: 'FIG 16.jpg', caption: 'FIG 16 - Test de piston'},
+            {id: 'fig17', file: 'FIG 17.jpg', caption: 'FIG 17 - Tabatière anatomique'},
+            {id: 'fig18', file: 'FIG 18.jpg', caption: 'FIG 18 - Test de Watson'},
+            {id: 'fig19', file: 'FIG 19.jpg', caption: 'FIG 19 - Test de Tinel'},
+            {id: 'fig20', file: 'FIG 20.jpg', caption: 'FIG 20 - Test de Phalen'},
+            {id: 'fig21', file: 'FIG 21.jpg', caption: 'FIG 21 - Test de Durkan'},
+            {id: 'fig22', file: 'FIG 22.jpg', caption: 'FIG 22 - Test de Froment'},
+            {id: 'fig23', file: 'FIG 23.jpg', caption: 'FIG 23 - Signe de Wartenberg'},
+            {id: 'fig24', file: 'FIG 24.jpg', caption: 'FIG 24 - Test 1er interosseux'},
+            {id: 'fig25', file: 'FIG 25.jpg', caption: 'FIG 25 - Test de Finkelstein'},
+            {id: 'fig26', file: 'FIG 26.jpg', caption: 'FIG 26 - Test de Finkelstein'},
+            {id: 'fig27', file: 'FIG 27.jpg', caption: 'FIG 27 - Pouce du skieur'},
+            {id: 'fig28', file: 'FIG 28.jpg', caption: 'FIG 28 - Test tiroir trapèze'},
+            {id: 'fig29', file: 'FIG 29.jpg', caption: 'FIG 29 - Test de Gaenslen'},
+            {id: 'fig30', file: 'FIG 30.jpg', caption: 'FIG 30'},
+            {id: 'fig31', file: 'FIG 31.jpg', caption: 'FIG 31'},
+            {id: 'fig32', file: 'FIG 32.jpg', caption: 'FIG 32'},
+            {id: 'fig33', file: 'FIG 33.jpg', caption: 'FIG 33'}
+        ];
+        
+        // Génération des figures dans la sidebar
+        const figuresContainer = document.getElementById('figures-container');
+        figures.forEach(fig => {
+            const figureDiv = document.createElement('div');
+            figureDiv.className = 'figure-container';
+            figureDiv.id = fig.id;
+            figureDiv.onclick = () => openModal(figureDiv.querySelector('img'));
+            
+            const img = document.createElement('img');
+            img.src = `../Fiches/RMS/Main-Poignet/${fig.file}`;
+            img.alt = fig.caption;
+            
+            const caption = document.createElement('div');
+            caption.className = 'figure-caption';
+            caption.textContent = fig.caption;
+            
+            figureDiv.appendChild(img);
+            figureDiv.appendChild(caption);
+            figuresContainer.appendChild(figureDiv);
+        });
+        
+        // Fonction pour scroller vers une figure
+        function scrollToFigure(figId) {
+            const element = document.getElementById(figId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                element.style.transform = 'scale(1.05)';
+                setTimeout(() => {
+                    element.style.transform = '';
+                }, 500);
+            }
+        }
+        
+        // Fonction pour ouvrir le modal
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = img.src || img.querySelector('img').src;
+        }
+        
+        // Fonction pour fermer le modal
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+        
+        // Fermer le modal avec la touche Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

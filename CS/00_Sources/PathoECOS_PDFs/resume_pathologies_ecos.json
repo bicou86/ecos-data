@@ -1,0 +1,2503 @@
+{
+  "titre": "Neurologie, Gastro-entérologie, Cardiologie et Pneumologie : Pathologies fréquentes",
+  "specialites": {
+    "neurologie": {
+      "titre": "Neurologie : Pathologies fréquentes",
+      "pathologies": [
+        {
+          "nom": "Méningite",
+          "definition": "Infection/inflammation des méninges avec état fébrile, céphalées et raideur de nuque",
+          "redFlags": [
+            "État fébrile",
+            "Céphalées",
+            "Raideur de nuque (méningisme)",
+            "Pétéchies",
+            "HTIC (céphalées horizontale, vomissement en jet)",
+            "Photo- et phonophobie"
+          ],
+          "clinique": {
+            "signesPrincipaux": [
+              "Fièvre",
+              "Céphalées",
+              "Méningisme",
+              "Photophobie/phonophobie"
+            ],
+            "signesAssocies": [
+              "Pétéchies (méningocoque)",
+              "Vomissements en jet",
+              "Troubles de conscience"
+            ]
+          },
+          "status": {
+            "signesNeurologiques": "Chercher des signes neurologiques focaux (méningo-encéphalite ?)",
+            "examens": [
+              "Nerfs crâniens",
+              "Force et sensibilité",
+              "Test cérébelleux",
+              "Dérive en pronation",
+              "Méningisme",
+              "ROT"
+            ],
+            "rechercher": [
+              "Pétéchies sur tout le corps",
+              "Foyer infectieux : immunosuppression, angine, otite, pneumonie, herpes, tiques",
+              "Choc septique : T° artérielle, FC, FR, GCS"
+            ]
+          },
+          "priseEnCharge": {
+            "choc": "Immédiatement hémoculture + Ceftriaxone IV + DMX IV, puis PL",
+            "absenceChoc": {
+              "sansCIaPL": "Immédiatement PL + hémoculture, puis si liquide trouble Ceftriaxone IV + DMX IV",
+              "avecCIaPL": "Immédiatement hémoculture + Ceftriaxone IV + DMX IV, puis CT"
+            },
+            "contraindicationsPL": [
+              "Crises épileptiques récente",
+              "GCS ≤ 10",
+              "Déficit neurologique focal"
+            ]
+          },
+          "traitement": {
+            "antibiotiques": ["Ceftriaxone IV", "Dexaméthasone IV"],
+            "surveillance": "Surveillance rapprochée pendant les premières 24 heures",
+            "isolement": "Isolement gouttelettes, 2 paires d'hémocultures"
+          }
+        },
+        {
+          "nom": "AVC",
+          "definition": "Déficit neurologique d'apparition subite par ischémie ou hémorragie cérébrale",
+          "redFlags": [
+            "N'importe quel déficit neurologique d'apparition subite",
+            "Hémiplégie",
+            "Dysarthrie",
+            "Aphasie",
+            "Céphalées brutales",
+            "Vertige",
+            "Ataxie",
+            "Troubles oculomoteurs"
+          ],
+          "clinique": {
+            "signesPrincipaux": [
+              "Déficit neurologique focal brutal",
+              "Troubles du langage",
+              "Troubles moteurs"
+            ],
+            "signesAssocies": [
+              "Céphalées (si HSA)",
+              "Troubles de conscience",
+              "Convulsions"
+            ]
+          },
+          "status": {
+            "signesNeurologiques": "Chercher des signes neurologiques focaux (identification du niveau de la lésion)",
+            "examens": [
+              "Nerfs crâniens",
+              "Force et sensibilité",
+              "Test cérébelleux",
+              "Mouvement alternant précis et rapide",
+              "Test de Barrés et Mingazzini",
+              "Romberg",
+              "Dérive en pronation",
+              "Marche"
+            ],
+            "particularites": "Présence d'un méningisme en cas d'AVC avec HSA"
+          },
+          "priseEnCharge": {
+            "urgence": "Déclenchement filière AVC",
+            "imagerie": "CT-scan d'urgence",
+            "thrombolyse": "Si AVC ischémique < 4h30",
+            "thrombectomie": "Si occlusion proximale < 6h"
+          }
+        },
+        {
+          "nom": "Céphalées",
+          "definition": "Douleurs de la tête d'étiologies multiples",
+          "types": [
+            {
+              "nom": "Migraine",
+              "duree": "4-72h",
+              "caracteristiques": [
+                "Pulsatile",
+                "Unilatérale",
+                "Renforcée par l'activité physique",
+                "Photophobie et phonophobie"
+              ],
+              "traitement": ["Triptans", "AINS", "Repos dans le noir"]
+            },
+            {
+              "nom": "Céphalées de tension",
+              "duree": "30 minutes à 7 jours",
+              "caracteristiques": [
+                "Bilatérale",
+                "En étaux",
+                "Non pulsatile",
+                "Soulagé par l'activité"
+              ],
+              "traitement": ["Paracétamol", "Relaxation", "Massage"]
+            },
+            {
+              "nom": "Hémicrânie trigémino-dysautonomique (Horton)",
+              "caracteristiques": [
+                "Très sévère",
+                "Orbitaire",
+                "Myosis/sudation/ptose",
+                "Congestion nasale/rhinorrhée",
+                "Agitation importante"
+              ],
+              "traitement": [
+                "O2 haut-débit",
+                "Triptan intra-nasal/injectable",
+                "IRM au moment du diagnostic"
+              ]
+            },
+            {
+              "nom": "Névralgie du trijumeau",
+              "caracteristiques": [
+                "Douleurs neuropathique paroxystique",
+                "Épargne l'encoche massétérine",
+                "Hypo-esthésie oriente vers cause secondaire"
+              ],
+              "traitement": [
+                "Carbamazépine",
+                "IRM au moment du diagnostic"
+              ]
+            }
+          ],
+          "redFlags": [
+            "La plus forte jamais arrivée",
+            "En coup de tonnerre",
+            "Différentes des céphalées habituelles",
+            "Femme enceinte/post-partum",
+            ">50 ans (Horton)",
+            "HTIC (vomissement en jet, céphalées au réveil, flou visuel)",
+            "Hypotension intra-crânienne (orthostatique, ANTCD PL/épidural)",
+            "Méningisme"
+          ]
+        },
+        {
+          "nom": "Épilepsie et crise épileptique",
+          "definition": "Survenue transitoire de signes ou symptômes dus à une activité neuronale excessive ou synchrone",
+          "clinique": {
+            "criseGeneralisee": [
+              "Perte de connaissance",
+              "Convulsions tonico-cloniques",
+              "Morsure de langue",
+              "Perte d'urines"
+            ],
+            "criseFocale": [
+              "Déficit neurologique focal",
+              "Manifestations motrices/sensitives localisées",
+              "Possible généralisation secondaire"
+            ]
+          },
+          "priseEnCharge": {
+            "differentielDiagnostic": [
+              "Syncope convulsivante",
+              "PNES (crise psychogène)"
+            ],
+            "criseProvoquee": [
+              "Post-AVC ou TCC",
+              "Méningite ou encéphalite",
+              "Troubles électrolytiques et IRA",
+              "Sevrage alcool ou BZD",
+              "Cocaïne ou MDMA"
+            ],
+            "examens": {
+              "sansFacteurGravite": [
+                "Laboratoire avec électrolytes, fonction rénale, glycémie",
+                "EEG et CT-injecté en ambulatoire"
+              ],
+              "avecFacteurGravite": [
+                "PL",
+                "CT",
+                "EEG aux urgences"
+              ]
+            }
+          },
+          "traitement": {
+            "criseAigue": ["Benzodiazépines", "Phénytoïne si échec"],
+            "traitementFond": ["Valproate", "Lamotrigine", "Lévétiracétam"]
+          }
+        },
+        {
+          "nom": "Encéphalopathie de Wernicke",
+          "definition": "Encéphalopathie aiguë et atteinte cérébelleuse dans le cadre d'une carence en vitamine B1",
+          "clinique": {
+            "triade": [
+              "Confusion",
+              "Trouble de l'oculomotricité",
+              "Ataxie"
+            ],
+            "population": "Particulièrement fréquent dans la population âgée et alcoolique"
+          },
+          "diagnostic": "Généralement clinique avec réponse au traitement",
+          "status": {
+            "examens": [
+              "Nerfs crâniens",
+              "Force et sensibilité",
+              "Test cérébelleux",
+              "ROT",
+              "Test de Barrés et Mingazzini",
+              "Romberg",
+              "Unterberger",
+              "Marche"
+            ]
+          },
+          "traitement": [
+            "Hospitalisation",
+            "Thiamine IV sur 3 jours",
+            "Puis PO au long court"
+          ]
+        },
+        {
+          "nom": "Myélopathie : Section complète",
+          "definition": "Atteinte bilatérale de tous les tracts (sensitifs moteurs, végétatifs) avec niveau supérieur conservé",
+          "clinique": {
+            "auNiveauLesion": [
+              "Paralysie flasque",
+              "Fasciculations"
+            ],
+            "sousniveauLesion": [
+              "Paralysie spastiques"
+            ]
+          },
+          "priseEnCharge": {
+            "imagerie": "IRM",
+            "testFonctionnel": "ENMG"
+          }
+        },
+        {
+          "nom": "Myélopathie : Syndrome de Brown-Séquart",
+          "definition": "Atteinte unilatérale d'une moitié de la moelle",
+          "clinique": {
+            "ipsilateral": [
+              "Atteinte voie pyramidale (motrice)",
+              "Atteinte voie lemniscale (cordon postérieur)"
+            ],
+            "controlateral": [
+              "Atteinte voie spino-thalamique",
+              "Conservation voies pyramidale/lemniscale"
+            ],
+            "auNiveauLesion": "Paralysie flasque et spasticité, en dessous paralysie spastique"
+          },
+          "priseEnCharge": {
+            "imagerie": "IRM",
+            "testFonctionnel": "ENMG"
+          }
+        },
+        {
+          "nom": "Myélopathie : Syndrome spinal antérieur",
+          "definition": "Destruction du cordon antérieur (voie pyramidale) uni- ou bilatérale",
+          "clinique": {
+            "auNiveauLesion": "Paralysie flasque et spasticité",
+            "sousNiveau": "Parésie, spasticité"
+          }
+        },
+        {
+          "nom": "Myélopathie : Syndrome spinal postérieur",
+          "definition": "Destruction du cordon postérieur (voie lemniscale) uni- ou bilatérale",
+          "clinique": {
+            "sousNiveau": [
+              "Perte sensibilité fine",
+              "Perte de la proprioception",
+              "Perte de la vibration ipsilatérale",
+              "Conservation T° et douleurs ipsilatérale"
+            ]
+          }
+        },
+        {
+          "nom": "Guillain-Barré : Polyradiculonévrite aigue",
+          "definition": "Déficit sensitivo-moteur non longueur dépendant (proximo-distal)",
+          "clinique": {
+            "caracteristiques": [
+              "Relativement symétrique",
+              "Début aigu à environ 3 semaines d'un épisode viral/vaccination",
+              "Atteinte marquée des grosses fibres proprioceptives (aréflexie généralisée)",
+              "Conservation de la sensibilité thermo-algique"
+            ],
+            "signesGravite": [
+              "Dysphagie",
+              "Dyspnée",
+              "Arythmie"
+            ]
+          },
+          "traitement": [
+            "Hospitaliser si signes de gravités",
+            "Sérologie pour C. jejuni",
+            "Immunomodulateur (IgIV 0.4g/kg)"
+          ]
+        },
+        {
+          "nom": "Polyneuropathie (Diabétique)",
+          "definition": "Déficit sensitif principalement dépendant et symétrique",
+          "clinique": {
+            "distribution": "En chaussettes puis en gant",
+            "symptomes": [
+              "Dysesthésie douloureuse (atteinte des fibres thermo-algique)",
+              "Légère parésie (4/5) possible"
+            ]
+          }
+        },
+        {
+          "nom": "Radiculopathie",
+          "definition": "Association d'un syndrome rachidien et d'un syndrome radiculaire",
+          "types": [
+            {
+              "nom": "Radiculopathie irritative",
+              "symptomes": "Douleurs neuropathique [Dermatomes]",
+              "particularite": "Symptôme d'abord en périphérie du dermatome"
+            },
+            {
+              "nom": "Radiculopathie déficitaire",
+              "symptomes": [
+                "Déficit moteur, amyotrophie [Myotomes]",
+                "Hypoesthésie, anesthésie [Dermatomes]"
+              ],
+              "particularite": "Atteinte déficitaire uniquement en cas de compression avancée"
+            }
+          ],
+          "status": {
+            "rechercher": "Signes de souffrances médullaires (niveau sensitif, hémisyndrome, troubles sphinctériens)",
+            "testsSpecifiques": [
+              "Test de Spurling (racines cervicales)",
+              "Lasègue/Lasègue inversé (racines lombo-sacrées)"
+            ]
+          },
+          "priseEnCharge": {
+            "syndromIrritatif": {
+              "ligne1": "Antalgie (OMS), Médecine manuelle, courte corticothérapie (pas imagerie) - 1 mois",
+              "ligne2": "Médicament anti-douleurs neuropathique, infiltration épidurale - 2 semaines",
+              "ligne3": "Si >6 semaines : avis chirurgical, imagerie"
+            }
+          }
+        },
+        {
+          "nom": "Syndrome de la queue de cheval",
+          "definition": "Compression brutale plusieurs nerfs rachidiens (queue de cheval)",
+          "clinique": [
+            "Anesthésie en selle",
+            "Troubles sphinctériens",
+            "Diminution du tonus anal",
+            "Déficit sensitivo-moteur des membres inférieurs"
+          ],
+          "status": {
+            "testSpecifique": "Tonus anal"
+          },
+          "priseEnCharge": "Urgence absolue, IRM ou CT et avis chirurgical"
+        },
+        {
+          "nom": "Mononeuropathie : syndrome canalaire",
+          "definition": "Compression d'un nerf périphérique avec altération des modalités sensitivo-motrices",
+          "nerfsTypiques": [
+            {
+              "nerf": "Médian",
+              "fonction": "Abduction pouce, innervation sensitive doigts 1-3",
+              "test": "Phanel et Tinel"
+            },
+            {
+              "nerf": "Ulnaire",
+              "fonction": "Abduction des doigts et Froment, innervation sensitive doigt 5",
+              "test": "Phanel et Tinel"
+            },
+            {
+              "nerf": "Radial",
+              "fonction": "Extension avant-bras et doigts, innervation sensitive dorsale doigts 1-3",
+              "test": "Phanel et Tinel"
+            },
+            {
+              "nerf": "Fibulaire",
+              "fonction": "Dorsi-flexion du pieds, éversion, innervation orteil 1-4",
+              "test": "Phanel et Tinel"
+            }
+          ],
+          "status": "Caractériser l'atteinte nerveuse. Toujours bilatérale !"
+        },
+        {
+          "nom": "Mononeuropathie multiple",
+          "definition": "Atteintes rapide de plusieurs nerfs périphériques",
+          "priseEnCharge": [
+            "Possiblement une urgence (vasculite)",
+            "ENMG",
+            "Biopsie",
+            "Avis neurologique"
+          ]
+        },
+        {
+          "nom": "Vertige : Maladie de Menière",
+          "clinique": [
+            "Surdité fluctuante (en particulier sons graves)",
+            "Acouphènes",
+            "Vertiges (minutes à heures)"
+          ],
+          "testSpecifique": "Surdité de neuro-sensorielle au Weber + Rinne"
+        },
+        {
+          "nom": "Vertige : BPLS",
+          "clinique": [
+            "Vertiges intense durant quelques minutes lors de mouvement rotatoire de la tête",
+            "Pas de perte auditive"
+          ],
+          "testSpecifique": "Dix-Hallpike"
+        },
+        {
+          "nom": "Vertige : Neuronite du NC.VIII",
+          "clinique": [
+            "Vertiges de longue durée avec chute et nystagmus ipsilatérale",
+            "Pas de perte auditive"
+          ],
+          "testSpecifique": "Halmagyi"
+        },
+        {
+          "nom": "Vertige : Labyrinthite",
+          "definition": "Infection/inflammation de l'oreille interne",
+          "clinique": [
+            "Acouphène",
+            "Vertige",
+            "Nystagmus",
+            "Fièvre",
+            "Surdité de perception",
+            "Nausée et vomissement"
+          ],
+          "foyerInfectieux": ["Méningite", "Otite moyenne", "Mastoïdite"],
+          "testSpecifique": [
+            "Surdité de neuro-sensorielle au Weber + Rinne",
+            "Otoscopie (OMA)"
+          ],
+          "priseEnCharge": "IRM ou CT de la base du crâne + Ceftriaxone IV"
+        }
+      ]
+    },
+    "gastroEnterologie": {
+      "titre": "Gastro-entérologie et hépatologie : Pathologies fréquentes",
+      "pathologies": [
+        {
+          "nom": "Colique biliaire simple",
+          "clinique": {
+            "douleurs": "Douleurs coliques dans l'hypochondre droit ± irradiation vers l'épaule droite ou le dos",
+            "symptomesAssocies": ["Nausées", "Vomissements"],
+            "declencheur": "Postprandial, après repas riche en lipide",
+            "facteursRisque": ["Fat", "Female", "Forty", "Fertile"],
+            "facteursRisqueRares": [
+              "Trouble de la résorption des sels biliaires (atteinte iléale, M.Crohn) => Lithiase cholestérolique",
+              "Excès de bilirubine sur hémolyse => Lithiase Bilirubine"
+            ]
+          },
+          "note": "70% lithiase cholestérolique, 5% bilirubine => Radio-transparent, 25% lithiase oxalate calcium => Radio-opaque",
+          "diagnostic": {
+            "laboratoire": [
+              "CRP, Leucocytes, VS (exclure cholécystite/cholangite)",
+              "Lipase (exclure pancréatite)",
+              "Bilirubine, AP+γGT (exclure cholestase)",
+              "ASAT/ALAT (exclure dégâts hépatiques)"
+            ],
+            "imagerie": [
+              "US (visualisation calcul vésicule)",
+              "CT-scan si US peu contributif",
+              "Recherche dilatation cholédoque (>7cm) si cholédocholithiase",
+              "Absence épaississement paroi et signe Murphy échographique"
+            ]
+          },
+          "traitement": [
+            "Gestion douleur (AINS, Paracétamol, Novalgin, opioïde)",
+            "Buscopan (soulagement coliques)",
+            "Jeûne 24h et RAD",
+            "Cholécystectomie élective à discuter",
+            "ERCP urgence si calcul cholédoque"
+          ]
+        },
+        {
+          "nom": "Cholécystite",
+          "clinique": {
+            "base": "Identique à colique biliaire",
+            "enPlus": [
+              "Signe de Murphy positif",
+              "État fébrile",
+              "Syndrome inflammatoire"
+            ]
+          },
+          "diagnostic": {
+            "laboratoire": [
+              "CRP, Leucocytes, VS (confirmer infection)",
+              "Lipase (exclure pancréatite)",
+              "Bilirubine, AP+γGT (exclure cholestase)",
+              "ASAT/ALAT (exclure hépatite cholestatique)"
+            ],
+            "imagerie": [
+              "US (calcul vésicule)",
+              "Hydrops vésiculaire (>10cm)",
+              "Épaississement paroi (>3mm)"
+            ]
+          },
+          "traitement": [
+            "Gestion douleur (AINS, Paracétamol, Novalgin, opioïde)",
+            "Buscopan",
+            "AB: C3G(FQ/co-amox) + Metronidazole",
+            "Cholécystectomie dans les 24h si possible"
+          ]
+        },
+        {
+          "nom": "Cholédocholithiase",
+          "clinique": {
+            "base": "Identique à colique biliaire",
+            "enPlus": "Éventuellement ictère"
+          },
+          "diagnostic": {
+            "laboratoire": [
+              "CRP, Leucocytes, VS",
+              "Lipase",
+              "Bilirubine, AP+γGT (confirmer cholestase)",
+              "ASAT/ALAT (légèrement augmenté)"
+            ],
+            "imagerie": [
+              "US (calcul cholédoque)",
+              "Dilatation cholédoque (>7mm)",
+              "Élargissement voies biliaires intra-hépatiques"
+            ]
+          },
+          "traitement": [
+            "Gestion douleur",
+            "Buscopan",
+            "ERCP urgence (papillotomie + extraction)",
+            "Cholécystectomie dans les 72h"
+          ]
+        },
+        {
+          "nom": "Cholangite",
+          "clinique": {
+            "base": "Identique à colique biliaire",
+            "triadeCharcot": [
+              "Ictère",
+              "État fébrile",
+              "Douleurs hypochondre droit"
+            ]
+          },
+          "diagnostic": {
+            "laboratoire": [
+              "CRP, Leucocytes, VS (confirmer cholangite)",
+              "Lipase",
+              "Bilirubine, AP+γGT (confirmer cholestase)",
+              "ASAT/ALAT"
+            ],
+            "imagerie": [
+              "US (calcul cholédoque)",
+              "Dilatation cholédoque (>7mm)",
+              "Élargissement voies biliaires intra-hépatiques"
+            ]
+          },
+          "traitement": [
+            "Gestion douleur",
+            "Buscopan",
+            "AB: C3G(FQ/co-amox) + Metronidazole",
+            "Si cholangiosepsis: piperacillin-tazobactam ou Carbapem",
+            "ERCP urgence",
+            "Cholécystectomie dans les 72h"
+          ]
+        },
+        {
+          "nom": "Pancréatite aiguë",
+          "clinique": {
+            "douleur": "Épigastralgie transfixiante avec irradiation vers le dos, en ceinture",
+            "symptomesAssocies": [
+              "Nausées et vomissements",
+              "Sub-iléus paralytique",
+              "Météorisme"
+            ],
+            "signesCutanes": "Ecchymoses péri-ombilicales, flancs ou inguinales"
+          },
+          "causes": {
+            "principales": [
+              "Lithiases compliquée (40%)",
+              "Abus d'alcool (35%)"
+            ],
+            "autres": ["Médicamenteuse", "Virales", "Variations anatomiques"]
+          },
+          "diagnostic": {
+            "criteres": "2/3 parmi : Douleurs typiques + Lipases (3x normes) + Imagerie typique",
+            "laboratoire": [
+              "Leucocyte, pro-calcitonine, CRP, VS",
+              "Bilirubine, AP+γGT (cholestase)",
+              "PaCO2/PaO2, créatinine, TA, FC (défaillances)",
+              "Calcium (hypercalcémie toxique)",
+              "TG (hypertriglycidémie)"
+            ],
+            "imagerie": [
+              "US initial (œdème, lithiase)",
+              "ERCP/IRM si doute lithiase/obstruction",
+              "CT-scan injecté après 3-5 jours (score Balthazar)"
+            ]
+          },
+          "traitement": {
+            "leger": [
+              "Gestion douleur",
+              "Monitoring soins continus",
+              "Prophylaxie thrombose (héparine)",
+              "IPP (ulcère stress)"
+            ],
+            "surinfection": "C3G/FQ + Metronidazole x 10 jours",
+            "complications": [
+              "ERCP puis cholécystectomie si lithiasique",
+              "Drainage/débridement si kyste, abcès, nécrose"
+            ],
+            "nutrition": "Nourrir dès que possible (pas de jeûne prolongé)"
+          }
+        },
+        {
+          "nom": "Pancréatite chronique",
+          "clinique": {
+            "douleur": "Épigastralgie transfixiante chronique",
+            "signes": [
+              "Syndrome malabsorption",
+              "Stéatorrhée",
+              "Diabète (stade tardif)"
+            ]
+          },
+          "causes": {
+            "principales": [
+              "Alcoolisme chronique (80%)",
+              "Idiopathique (15%)"
+            ],
+            "autres": [
+              "Tabac",
+              "Hyperparathyroïdisme",
+              "Pancréatite auto-immune",
+              "Pancréatite familiale"
+            ]
+          },
+          "diagnostic": {
+            "laboratoire": [
+              "Lipase sérique élevée",
+              "Élastase fécale abaissée"
+            ],
+            "imagerie": "US/CT : calcifications, fibrose, pseudo-kystes"
+          },
+          "traitement": [
+            "Arrêt toxiques (tabac, OH)",
+            "Enzymes pancréatiques lors repas",
+            "Vitamines ADEK si carence",
+            "Insuline si diabète",
+            "Intervention endoscopique si sténose",
+            "Drainage abcès/kystes",
+            "Traitement douleur selon OMS"
+          ]
+        },
+        {
+          "nom": "Hépatite aiguë (virale)",
+          "phases": [
+            {
+              "nom": "Phase prodromale",
+              "duree": "7 jours",
+              "symptomes": [
+                "État grippal avec fièvre et fatigue",
+                "Douleurs abdominales hypochondre droit",
+                "HBV: exanthème et arthralgies",
+                "HEV: signes neurologiques (paralysie faciale, SGB)"
+              ]
+            },
+            {
+              "nom": "Hépatite",
+              "duree": "2-8 semaines",
+              "symptomes": [
+                "Ictère et selles décolorées",
+                "Prurit (cholestase intra-hépatique)",
+                "Hépatomégalie"
+              ]
+            }
+          ],
+          "risqueHepatiteFulminante": {
+            "HAV": "<1%",
+            "HBV": "≈1%",
+            "HCV": "<1%",
+            "HDV+HBV": "≈3%",
+            "HEV": "≈3% (20% si femme enceinte)"
+          },
+          "diagnostic": {
+            "serologie": "IgM pour tous sauf HCV (HCV-RNA sérique)",
+            "fonctionHepatique": ["Albumine", "Quick/PT", "Cholinestérase"],
+            "marqueurGravite": ["AP et GGT", "ASAT et ALAT"]
+          },
+          "traitement": {
+            "general": "Repos et évitement toxiques hépatiques",
+            "antiviralHBV": "Si fonction hépatique réduite (entécavir/ténofovir ou IFN-a)",
+            "antiviralHCV": "D'office (sofosbuvir et velpatasvir)",
+            "prevention": "Vaccination HAV et HBV/HDV"
+          }
+        },
+        {
+          "nom": "Cirrhose",
+          "clinique": {
+            "signesGeneraux": [
+              "Fatigue",
+              "Douleurs hypochondre droit"
+            ],
+            "signesCutanes": [
+              "Angiome stellaire",
+              "Érythème palmaire",
+              "Atrophie cutanée",
+              "Caput Medusae"
+            ],
+            "signesHormonaux": {
+              "hommes": ["Gynécomastie", "Perte pilosité pubienne"],
+              "femmes": ["Aménorrhée"]
+            },
+            "complications": [
+              "Ascite",
+              "Diathèse hémorragique",
+              "Hypersplénisme",
+              "Ictère et prurit",
+              "Encéphalopathie hépatique"
+            ]
+          },
+          "causes": {
+            "principales": [
+              "Alcoolisme chronique (50%)",
+              "Hépatites virales (40%)"
+            ],
+            "rares": [
+              "NASH",
+              "Hémochromatose",
+              "Wilson",
+              "PBC/PSC",
+              "Budd-Chiari"
+            ]
+          },
+          "diagnostic": {
+            "insuffisanceHepatoCellulaire": [
+              "Hypoalbuminémie",
+              "Diminution cholinestérase",
+              "Rallongement Quick/PT",
+              "Augmentation bilirubine non-conjuguée"
+            ],
+            "hypertensionPortale": "Thrombopénie",
+            "imagerie": [
+              "US (confirmation)",
+              "Élastométrie (degré fibrose)"
+            ]
+          },
+          "traitement": [
+            "Arrêt toxiques",
+            "Traitement maladie sous-jacente",
+            "Prise en charge complications",
+            "Transplantation si échec"
+          ]
+        },
+        {
+          "nom": "Appendicite",
+          "clinique": {
+            "evolution": "Douleurs croissante, d'abord difficilement localisable puis migrant en FID",
+            "symptomes": [
+              "État fébrile possible",
+              "Péritonisme si complication"
+            ]
+          },
+          "diagnostic": {
+            "clinique": [
+              "Signe du psoas",
+              "Douleur point McBurney",
+              "Loges rénales non douloureuses",
+              "Murphy négatif"
+            ],
+            "laboratoire": [
+              "VS, CRP, Leucocytes",
+              "Stix urinaire (exclure cause urinaire)"
+            ],
+            "imagerie": [
+              "US (signe de la cocarde)",
+              "IRM ou CT si non concluant",
+              "Rx thorax si suspicion perforation"
+            ]
+          },
+          "traitement": [
+            "Appendicectomie laparoscopique",
+            "OU AB: Co-Amoxicilline + Metronidazole",
+            "Si perforation: toujours appendicectomie"
+          ]
+        },
+        {
+          "nom": "Diverticulite",
+          "definition": "Inflammation d'un diverticule, sigmoïde (90%) ou caecum",
+          "clinique": {
+            "localisation": "Migration en FIG (ou FID si caecum)",
+            "symptomes": [
+              "Similaire à appendicite",
+              "Sang dans les selles"
+            ],
+            "attention": "Peut être silencieuse chez immunosupprimés"
+          },
+          "epidemiologie": {
+            "diverticulose": ">50% population >70 ans",
+            "risqueInflammation": "5% par année"
+          },
+          "diagnostic": "CT-scan ou US nécessaire",
+          "traitement": {
+            "type1": "Simple: traitement conservatif domicile",
+            "type2ab": "Avec abcès: hospitalisation + AB (C3G+Metronidazole) ± drainage",
+            "type2c": "Perforation: sigmoïdectomie",
+            "type3": "Récidive: opération élective possible"
+          }
+        },
+        {
+          "nom": "MICI : Maladie de Crohn et Colite ulcéreuse",
+          "clinique": {
+            "general": [
+              "Douleurs abdominales chroniques",
+              "Sang dans les selles et anémie",
+              "Douleurs insomniantes",
+              "Perte de poids et syndrome carentiel"
+            ],
+            "crohn": [
+              "Érythème noueux",
+              "Pyoderma gangrenosum",
+              "Aphtes",
+              "Fistules et abcès périnéaux",
+              "Spondylarthrite (HLA-B27)",
+              "Uvéite"
+            ],
+            "coliteUlcereuse": [
+              "Moins d'atteinte périnéale",
+              "Risque cholangite sclérosante primitive"
+            ]
+          },
+          "diagnostic": [
+            "Calprotectine fécale",
+            "Endoscopie ± biopsie si élevée"
+          ],
+          "traitement": [
+            "Arrêt tabac (Crohn)",
+            "Immunosuppresseurs"
+          ]
+        },
+        {
+          "nom": "Colite microscopique",
+          "clinique": "Diarrhée aqueuse chronique",
+          "diagnostic": "Endoscopie avec biopsies étagées du colon",
+          "traitement": [
+            "Arrêt tabac",
+            "Immunosuppresseurs"
+          ]
+        },
+        {
+          "nom": "Cœliaquie",
+          "clinique": {
+            "formeClassique": [
+              "Diarrhée",
+              "Malabsorption",
+              "Trouble croissance staturo-pondérale",
+              "Atteinte hépatique"
+            ],
+            "extraDigestif": "Dermatite herpétiforme"
+          },
+          "diagnostic": [
+            "Ac-anti-TG type IgA",
+            "HLA-DQ2 et DQ-8",
+            "Confirmation endoscopie + Bx"
+          ],
+          "traitement": "Arrêt gluten"
+        },
+        {
+          "nom": "Intestin irritable",
+          "clinique": {
+            "symptomes": [
+              "Douleurs abdominales mal caractérisées",
+              "Altération transit (diarrhée, constipation ou alternance)"
+            ],
+            "redFlags": [
+              "Début après 50 ans",
+              "Fièvre et amaigrissement",
+              "Douleurs nocturnes insomniantes",
+              "Sang dans selles ou anémie",
+              "Prise récente antibiotiques",
+              "ANTCD MICI ou CCR"
+            ]
+          },
+          "diagnostic": [
+            "Recherche parasites selles",
+            "Calprotectine fécale",
+            "CRP, VS, Leuco, Hb",
+            "Si normal: réassurer et éviter investigations inutiles"
+          ]
+        },
+        {
+          "nom": "Gastrite et ulcère",
+          "clinique": [
+            "Épigastralgie",
+            "Nausées et vomissements",
+            "Sensation pression/trop plein",
+            "Méléna si ulcère",
+            "Épigastralgie aiguë avec péritonisme si perforation"
+          ],
+          "facteursRisque": [
+            "Tabac",
+            "OH",
+            "AINS ± Cortisol",
+            "Biphosphonate",
+            "Stress"
+          ],
+          "diagnostic": [
+            "Radio thorax (air libre si perforation)",
+            "Anémie et sang occulte selles",
+            "Gastrine et PTH si indiqué",
+            "Sérologie ou test fécal H. pylori",
+            "Gastroscopie et Bx pour confirmation"
+          ],
+          "traitement": {
+            "fond": [
+              "IPP",
+              "Éliminer toxiques",
+              "Éradication H. pylori (IPP + Clarithromycine + Amoxicilline/Metronidazole)"
+            ],
+            "aigu": [
+              "Endoscopie urgence si saignement",
+              "Chirurgie si perforation"
+            ]
+          }
+        },
+        {
+          "nom": "RGO et œsophagite à éosinophile",
+          "clinique": {
+            "rgo": [
+              "Douleur rétrosternale",
+              "Épigastralgie",
+              "Pyrosis",
+              "Post-prandial (signe du lacet)",
+              "Toux et laryngite"
+            ],
+            "oesophagiteEosinophile": [
+              "Non réponse IPP",
+              "Symptômes obstruction (impaction)",
+              "Terrain atopique"
+            ]
+          },
+          "diagnostic": {
+            "rgo": [
+              "Clinique + traitement épreuve IPP",
+              "pH-métrie si doute",
+              "Gastroscopie si FR Barrett"
+            ],
+            "oesophagiteEosinophile": "Endoscopie avec Bx"
+          },
+          "traitement": {
+            "rgo": [
+              "Mesures hygiéno-diététiques",
+              "IPP",
+              "Surveillance endoscopique si Barrett"
+            ],
+            "oesophagiteEosinophile": [
+              "Stéroïdes locaux",
+              "Éviction allergène"
+            ]
+          }
+        },
+        {
+          "nom": "Ischémie mésentérique",
+          "epidemiologie": "Femmes âgées (sex ratio 1:4, >75 ans)",
+          "clinique": {
+            "presentation": "Douleur abdominale soudaine avec ventre souple paradoxal",
+            "symptomes": "Diarrhées sanglantes",
+            "evolution": {
+              "phase1": "Douleurs (4h)",
+              "phase2": "Intervalle non-douloureux (6h)",
+              "phase3": "Choc septique et péritonite"
+            }
+          },
+          "facteursRisque": {
+            "thromboseArterielle": [
+              "Dysplasie fibro-musculaire",
+              "Artérite",
+              "Rupture anévrysme"
+            ],
+            "embolieArterielle": [
+              "FA",
+              "Valvulopathie",
+              "Arrêt anticoagulant"
+            ],
+            "thromboseVeineuse": [
+              "Hypertension portale",
+              "Thrombophilie"
+            ],
+            "petitDebit": [
+              "Choc",
+              "Déshydratation",
+              "Vasoconstricteurs"
+            ]
+          },
+          "diagnostic": [
+            "Leucocytose et D-Lactate (sensible, aspécifique)",
+            "CT-injecté (sensibilité >90%)"
+          ],
+          "traitement": [
+            "Si péritonisme: laparoscopie immédiate",
+            "Sinon: stent ou thrombolyse",
+            "Hospitalisation SI (fréquent choc et MODS)"
+          ]
+        }
+      ]
+    },
+    "cardiologie": {
+      "titre": "Cardiologie : Pathologies fréquentes",
+      "pathologies": [
+        {
+          "nom": "Angor et Infarctus du myocarde de type I",
+          "definition": "Athérosclérose des artères coronaires provoquant diminution flux sanguin et ischémie myocardique",
+          "presentations": [
+            "Angor stable (50%)",
+            "Angor instable (30%) : sans ↑ troponines, NSTEMI, STEMI",
+            "Mort subite (20%)"
+          ],
+          "clinique": {
+            "douleur": "Rétro-sternale en étau, irradiant épaule G ou cou",
+            "aggravation": ["Effort physique", "Stress adrénergique"],
+            "soulagement": ["Repos", "Dérivés nitrés"],
+            "symptomesAssocies": ["Nausées", "Vertiges", "Dyspnée"],
+            "attention": "Douleurs peuvent manquer chez diabétiques (microangiopathie)"
+          },
+          "facteursRisqueCV": [
+            "LDL ↑, HDL ↓",
+            "Tabac",
+            "Surpoids",
+            "Sédentarité",
+            "HTA",
+            "ANTCD familiaux <55 ans (♂) ou 60 ans (♀)",
+            "Diabète"
+          ],
+          "diagnostic": {
+            "angorInstable": "ECG + TnT et CK-MB → coronarographie",
+            "angorStable": "ECG repos puis effort, PET/SPECT, CT, IRM, coronarographie"
+          },
+          "traitement": {
+            "angorStable": "Réduction FR CV + médicaments",
+            "angorInstable": {
+              "immediat": [
+                "O2 6L/min si SaO2<90%",
+                "Dérivé nitré sublingual ou IV",
+                "Aspirine 500mg + Clopidogrel 180mg PO",
+                "Héparine 5000 UI IV"
+              ],
+              "revascularisation": {
+                "STEMI": "Immédiate",
+                "NSTEMI": "24-72h selon TnT et clinique"
+              }
+            }
+          }
+        },
+        {
+          "nom": "Endocardite infectieuse",
+          "localisation": {
+            "coeurGauche": "Valve mitrale ou aortique (majorité)",
+            "coeurDroit": "Chez toxicomanes IV"
+          },
+          "clinique": {
+            "symptomesGeneraux": [
+              "État fébrile (>90%)",
+              "Sudations",
+              "Diminution état général",
+              "Perte de poids",
+              "Arthralgies"
+            ],
+            "signesCardiaques": [
+              "Souffle cardiaque nouveau",
+              "Insuffisance cardiaque"
+            ],
+            "signesCutanes": [
+              "Hémorragie en flammèche",
+              "Nodules d'Osler (douloureux)",
+              "Lésions de Janeway (indolores)"
+            ],
+            "emboleSeptique": [
+              "AVC",
+              "Insuffisance rénale",
+              "Hémorragie rétinienne"
+            ],
+            "autres": "Splénomégalie (cave: rupture)"
+          },
+          "types": [
+            "Endocardite aiguë (S. aureus)",
+            "Endocardite lente (S. viridans)"
+          ],
+          "germes": {
+            "frequents": [
+              "Staphylocoques (60%)",
+              "Streptocoques (30%)",
+              "Entérocoques (10%)"
+            ],
+            "rares": ["HACEK", "Bartonella", "C. burnetii", "Brucella", "Legionella", "Mycoplasma"]
+          },
+          "diagnostic": [
+            "Critères de Duke",
+            "US trans-thoracique ou trans-œsophagien",
+            "Hémocultures",
+            "Signes inflammation (leucocytose, CRP, VS)",
+            "Insuffisance rénale",
+            "Anémie"
+          ],
+          "traitement": {
+            "duree": "4-6 semaines",
+            "valveNative": "Co-amoxicilline + Gentamycine",
+            "valveProthetique": "Co-amoxicilline + Gentamycine + Rifampicine",
+            "chirurgie": "Si abcès ou valve prothétique défaillante"
+          }
+        },
+        {
+          "nom": "Endocardite auto-immune",
+          "types": [
+            {
+              "nom": "Libman-Sacks",
+              "contexte": "LES"
+            },
+            {
+              "nom": "Loeffler",
+              "contexte": "Hyper-éosinophilie (asthme, idiopathique)"
+            }
+          ]
+        },
+        {
+          "nom": "Rhumatisme articulaire aigu",
+          "definition": "Réaction auto-immune post-infection S. pyogenes",
+          "timing": "1-3 semaines après infection",
+          "clinique": [
+            "Pancardite (≈100%)",
+            "Fièvre",
+            "Polyarthrite grosses articulations (≈60%)",
+            "Érythème marginé ou noueux (≈30%)",
+            "Chorée de Sydenham (≈20%)"
+          ],
+          "diagnostic": [
+            "Critères de Jones",
+            "ASLO et anti-DNase B"
+          ],
+          "traitement": [
+            "Pénicilline V 10 jours",
+            "Prévention récidives 1x/mois x 5 ans",
+            "AINS (aspirine) + Cortisol"
+          ]
+        },
+        {
+          "nom": "Myocardite",
+          "clinique": [
+            "Dyspnée",
+            "Douleurs thoraciques 'angineuses'",
+            "Fatigue",
+            "Palpitations",
+            "Concomitant infection virale"
+          ],
+          "causes": {
+            "virales": ["Parvovirus B19", "Coxsackie", "Echovirus", "EBV", "Adenovirus"],
+            "autoImmunes": ["Arthrite rhumatoïde", "Vasculite", "Collagénose", "Sarcoïdose"],
+            "autres": "Post-radique"
+          },
+          "diagnostic": {
+            "laboratoire": [
+              "VS, CRP, Leucocytose",
+              "TnT, CK/CK-MB",
+              "NT-proBNP"
+            ],
+            "ecg": [
+              "Sus-décalage concave diffus ST",
+              "Négativation onde T"
+            ],
+            "imagerie": [
+              "US",
+              "IRM (œdème diffus)",
+              "Coronarographie si doute"
+            ]
+          },
+          "traitement": [
+            "Repos strict 3 mois",
+            "AINS + Colchicine x 3 mois",
+            "Si fulminant: hospitalisation, pacemaker, ECMO, transplantation"
+          ],
+          "complications": [
+            "Défaillance cardiaque aiguë",
+            "Cardiomyopathie dilatée"
+          ]
+        },
+        {
+          "nom": "Péricardite et épanchement",
+          "clinique": {
+            "douleur": "Respiro- et ventilation-dépendante",
+            "aggravation": ["Effort", "Inspiration", "Toux"],
+            "soulagement": ["Repos", "Position assise/penchée en avant"],
+            "positionAntalgique": "Typique"
+          },
+          "causes": [
+            "Para-infectieux (virale) ou idiopathique",
+            "Auto-immune (RAA, vasculite)",
+            "Post-infarctus (Dressler)",
+            "Oncologique",
+            "Syndrome urémique"
+          ],
+          "diagnostic": {
+            "clinique": [
+              "Pouls paradoxal (danger si >10 mmHg)",
+              "Frottement péricardique",
+              "Auscultation 'lointaine' si épanchement"
+            ],
+            "laboratoire": [
+              "VS, CRP, Leucocytose",
+              "TnT, CK-MB, NT-proBNP"
+            ],
+            "ecg": "Sus-décalage concave diffus ST",
+            "imagerie": [
+              "US ou IRM (épanchement)",
+              "Rx thorax (silhouette 'en carafe')"
+            ]
+          },
+          "traitement": [
+            "Repos strict 3 mois",
+            "AINS + Colchicine x 3 mois",
+            "Si fulminant: hospitalisation"
+          ],
+          "complications": [
+            "Tamponnade cardiaque",
+            "Récidive",
+            "Péricardite constrictive"
+          ]
+        },
+        {
+          "nom": "Tamponnade",
+          "definition": "Accumulation rapide 300-400 mL liquide péricarde avec choc cardiogène",
+          "clinique": {
+            "petitsDebits": ["Marbrures", "Extrémités froides"],
+            "insuffisanceCardiaque": ["OAP", "Œdème MI", "Turgescence jugulaire"],
+            "signesPericarde": [
+              "Auscultation lointaine",
+              "Frottement péricardique",
+              "Pouls paradoxal"
+            ]
+          },
+          "diagnostic": "US confirme et évalue fonction cardiaque",
+          "traitement": "Drainage péricardique urgent"
+        },
+        {
+          "nom": "Dissection aortique",
+          "clinique": "Douleurs transfixiante migrante : thoracique → interscapulaire → lombaire",
+          "diagnostic": {
+            "clinique": [
+              "Douleurs typiques",
+              "TA asymétrique entre bras",
+              "Rx thorax caractéristique"
+            ],
+            "facteursRisque": [
+              "Âge",
+              "Hypertension",
+              "Marfan ou Ehlers-Danlos",
+              "Vasculite gros vaisseaux",
+              "Traumatisme avec décélération"
+            ],
+            "imagerie": "CT-injecté (gold-standard), TEE, IRM",
+            "laboratoire": [
+              "D-Dimères élevés",
+              "TnT/CK-MB/NT-proBNP",
+              "Lactate (choc)",
+              "Créatinine (insuffisance rénale)"
+            ]
+          },
+          "traitement": {
+            "typeA": "Chirurgie urgence",
+            "typeB": "Conservateur, endovasculaire"
+          }
+        },
+        {
+          "nom": "Insuffisance cardiaque",
+          "definition": "Incapacité du cœur à pomper suffisamment par anomalie structurelle/fonctionnelle",
+          "types": [
+            {
+              "nom": "HF-rEF",
+              "fe": "<40%",
+              "probleme": "Systolique",
+              "causes": [
+                "Maladie coronaire, infarctus (60%)",
+                "HTA (stade tardif)",
+                "Valvulopathie",
+                "Cardiomyopathie dilatée",
+                "Post-myocardite",
+                "Toxique (OH, chimiothérapie)",
+                "Endocrine"
+              ]
+            },
+            {
+              "nom": "HF-pEF",
+              "fe": ">50%",
+              "probleme": "Diastolique",
+              "causes": [
+                "HTA (stade initial)",
+                "Cardiomyopathie hypertrophique",
+                "Pathologie infiltrative",
+                "Sclérose systémique",
+                "Maladie métabolique"
+              ]
+            },
+            {
+              "nom": "HF-mEF",
+              "fe": "40-50%",
+              "probleme": "Mixte ou compensé"
+            }
+          ],
+          "nyha": [
+            "I: Absence symptôme",
+            "II: Dyspnée après 2 étages",
+            "III: Dyspnée après 1 étage",
+            "IV: Dyspnée moindre activité"
+          ],
+          "clinique": {
+            "insuffisanceDroite": [
+              "Hépatomégalie et gastrite stase",
+              "Turgescence VJE",
+              "Œdème MI"
+            ],
+            "insuffisanceGauche": [
+              "OAP (dyspnée, orthopnée, toux nocturne, cyanose)",
+              "Petits débits (nycturie, fatigue, intolérance effort)"
+            ],
+            "auscultation": [
+              "Galop",
+              "Épanchement pleural"
+            ]
+          },
+          "diagnostic": [
+            "NT-proBNP",
+            "ECG",
+            "Rx thorax (cardiomégalie >50%)",
+            "US",
+            "IRM",
+            "Coronarographie"
+          ],
+          "traitement": {
+            "causal": "Si possible",
+            "hfRef": "PRIL/sartan + BB + spironolactone + SGLT2i",
+            "autres": [
+              "Resynchronisation si arythmie",
+              "DAI",
+              "ECMO",
+              "Transplantation"
+            ]
+          }
+        }
+      ]
+    },
+    "pneumologie": {
+      "titre": "Pneumologie : Pathologies fréquentes",
+      "pathologies": [
+        {
+          "nom": "Embolie Pulmonaire (EP)",
+          "clinique": {
+            "symptomesFrequents": [
+              "Dyspnée (80%)",
+              "Tachypnée (70%)",
+              "Douleurs thoraciques (60%) respiro-dépendantes",
+              "Tachycardie (30%)",
+              "Toux (20%)",
+              "Hémoptysie (15%)"
+            ],
+            "presentationGrave": "Syncope et choc (10%)",
+            "antecedent": "TVP souvent précède"
+          },
+          "diagnostic": {
+            "laboratoire": [
+              "D-Dimères (exclure si négatif)",
+              "TnT et NT-proBNP (répercussion cardiaque)",
+              "Gazométrie (PaO2)"
+            ],
+            "ecg": [
+              "Onde P-sinusal",
+              "Pattern SIQIII",
+              "Inversion onde-T V1-V4",
+              "BBD nouveau"
+            ],
+            "imagerie": [
+              "CT thoracique injecté (gold-standard)",
+              "Scintigraphie V/P si stable",
+              "Sonographie duplex MI (TVP)"
+            ]
+          },
+          "traitement": {
+            "epFulminante": [
+              "O2 ± Intubation",
+              "Amines vaso-actives",
+              "Remplissage",
+              "Thrombolyse chimique"
+            ],
+            "epStable": "Anticoagulation orale ≥3 mois",
+            "epAvecDefaillance": "Thrombolyse ou thrombectomie"
+          }
+        },
+        {
+          "nom": "Hypertension artérielle pulmonaire (HTAP)",
+          "definition": "mPAP >20mmHg avec PVR >3 UI chronique",
+          "clinique": {
+            "symptomes": [
+              "Dyspnée progressive",
+              "Fatigue",
+              "Tachycardie",
+              "Syncope"
+            ],
+            "insuffisanceDroite": [
+              "Turgescence VJE",
+              "Œdème MI",
+              "Galop",
+              "Cyanose"
+            ]
+          },
+          "facteursRisque": [
+            "IC gauche",
+            "EP répétition",
+            "BPCO",
+            "Fibrose interstitielle",
+            "Sarcoïdose"
+          ],
+          "diagnostic": {
+            "laboratoire": "NT-proBNP",
+            "ecg": {
+              "hypertrophieVD": [
+                "Déviation axe droite",
+                "Transition précoce V1-V2",
+                "Sokolow-Lyon >1.05 mV"
+              ],
+              "dilatationOD": "Onde-P pulmonaire"
+            },
+            "echocardiographie": "Examen de choix",
+            "catheterisme": "Confirmation diagnostic"
+          },
+          "traitement": [
+            "O2 domicile",
+            "Vasodilatateurs (antagonistes endothéline, iPDE-5, analogues prostacycline)",
+            "Traitement causal"
+          ]
+        },
+        {
+          "nom": "Asthme",
+          "definition": "Hyperréactivité bronchique à divers stimulus",
+          "types": [
+            "Allergique (allergène)",
+            "Non-allergique (effort, irritants, RGO, aspirine)"
+          ],
+          "clinique": [
+            "Dyspnée épisodique",
+            "Stridors expiratoires",
+            "Prolongation expirium",
+            "Toux sèche",
+            "Tachycardie"
+          ],
+          "diagnostic": {
+            "spirometrie": "Syndrome obstructif (VEMS/CVF abaissé)",
+            "reversibilite": "VEMS +200mL et +12% sous SABA",
+            "provocation": "Métacholine"
+          },
+          "traitement": {
+            "criseGrave": [
+              "SABA",
+              "Stéroïde IV",
+              "O2/VNI/Intubation",
+              "Sulfate magnésium si sévère"
+            ],
+            "fond": "Bronchodilatateur + CSI (Budésonide)"
+          }
+        },
+        {
+          "nom": "BPCO",
+          "definition": "Inflammation et obstruction secondaire exposition chronique irritants",
+          "causes": [
+            "Tabac",
+            "Pollution air",
+            "Déficit α1-AT",
+            "Infection chronique"
+          ],
+          "physiopathologie": [
+            "Augmentation résistances",
+            "Emphysème",
+            "Inadéquation V/P",
+            "Hypoxémie et hypercapnie chronique"
+          ],
+          "clinique": {
+            "symptomes": [
+              "Toux grasse chronique",
+              "Dyspnée et tachypnée",
+              "Prolongation expirium",
+              "Thorax en tonneau",
+              "Cyanose",
+              "Hippocratisme digital"
+            ],
+            "auscultation": [
+              "Tympanisme augmenté",
+              "Murmure vésiculaire diminué"
+            ],
+            "complications": "Cœur pulmonaire (IC droite)"
+          },
+          "phenotypes": [
+            {
+              "nom": "Pink Puffer",
+              "caracteristiques": ["Cachexique", "Emphysème", "Hypercapnie"]
+            },
+            {
+              "nom": "Blue Bloater",
+              "caracteristiques": ["Bronchite chronique", "Toux chronique", "Œdèmes"]
+            }
+          ],
+          "diagnostic": {
+            "spirometrie": "Syndrome obstructif non réversible",
+            "plethysmographie": "CPT augmentée (air trapping)",
+            "dlco": "Diminuée",
+            "laboratoire": [
+              "Polycythémie secondaire",
+              "Déficit α1-AT"
+            ],
+            "imagerie": "Hyperinflation, cœur pulmonaire, emphysème"
+          },
+          "traitement": {
+            "fond": [
+              "Vaccination (pneumocoque, influenza)",
+              "Cessation tabac",
+              "Screening (dépression, ostéoporose, MCV, cancer)",
+              "Bronchodilatateurs ± CSI",
+              "O2 longue durée si hypoxémie"
+            ],
+            "interventions": [
+              "Bullectomie",
+              "Réduction volume pulmonaire"
+            ],
+            "decompensation": [
+              "Bronchodilatateurs",
+              "Stéroïde IV",
+              "VNI/Intubation",
+              "AB si critères Anthonisen"
+            ]
+          }
+        },
+        {
+          "nom": "Pneumonie",
+          "types": [
+            {
+              "nom": "Pneumonie typique",
+              "clinique": [
+                "Début aigu",
+                "État fébrile",
+                "Frissons",
+                "Toux productive",
+                "Auscultation anormale",
+                "Matité percussion"
+              ],
+              "radiologie": "Pneumonie lobaire"
+            },
+            {
+              "nom": "Pneumonie atypique",
+              "clinique": [
+                "Début insidieux",
+                "Peu/pas fièvre",
+                "Toux sèche",
+                "Auscultation normale"
+              ],
+              "radiologie": "Pneumonie interstitielle"
+            }
+          ],
+          "diagnostic": {
+            "criteres": "Signes cliniques + Rx-Thorax",
+            "examensComplementaires": [
+              "Culture expectoration",
+              "Hémocultures",
+              "Test rapide urinaire",
+              "Signes inflammation",
+              "Défaillances organes"
+            ]
+          },
+          "traitement": {
+            "communautaireNonHospitalise": "Amoxicilline ou Co-amoxicilline PO",
+            "communautaireHospitalise": {
+              "sansFRPseudomonas": "Co-amoxicilline ou Ceftriaxone IV",
+              "avecFRPseudomonas": "Céfépime ou Pip-tazo IV"
+            },
+            "severe": "Ajouter Azithromycine IV",
+            "choc": "Ajouter Amikacine IV"
+          }
+        },
+        {
+          "nom": "Pneumothorax",
+          "types": [
+            {
+              "nom": "Spontané",
+              "sousTypes": [
+                "Idiopathique (85%)",
+                "Secondaire maladie pulmonaire (15%)"
+              ]
+            },
+            "Traumatique",
+            "Iatrogène"
+          ],
+          "facteursRisque": {
+            "secondaire": [
+              "BPCO avec emphysème",
+              "Asthme",
+              "Pneumopathie interstitielle",
+              "Cancer poumon",
+              "Pneumonie"
+            ],
+            "idiopathique": "Jeune homme fumeur, mince et grand"
+          },
+          "clinique": [
+            "Dyspnée brutale",
+            "Tachypnée",
+            "Douleurs thoraciques"
+          ],
+          "diagnostic": {
+            "clinique": [
+              "Thorax hyper-sonore",
+              "Murmure vésiculaire diminué/absent",
+              "Mouvement respiratoire asymétrique"
+            ],
+            "imagerie": [
+              "US (signe code-barre)",
+              "Rx-Thorax"
+            ]
+          },
+          "traitement": {
+            "peuSymptomatique": "Résolution spontanée ou air dénitrogénisé",
+            "compressifOuDyspnee": "Drain thoracique"
+          }
+        },
+        {
+          "nom": "Sarcoïdose aiguë",
+          "definition": "Maladie multisystémique auto-immune avec inflammation granulomateuse non caséeuse",
+          "formes": [
+            {
+              "nom": "Syndrome de Löfgren",
+              "triade": [
+                "Érythème noueux",
+                "Adénopathie bi-hilaire",
+                "Arthrite migrante (cheville)"
+              ],
+              "diagnostic": "Clinique + Rx thorax",
+              "traitement": [
+                "AINS ± colchicine",
+                "90% rémission à 2 ans"
+              ]
+            },
+            {
+              "nom": "Syndrome de Heerfordt",
+              "triade": [
+                "Parotidite",
+                "Paralysie faciale périphérique",
+                "Uvéite"
+              ]
+            }
+          ]
+        },
+        {
+          "nom": "Sarcoïdose chronique",
+          "clinique": {
+            "general": [
+              "Fatigue insidieuse",
+              "Perte poids",
+              "État sub-fébrile"
+            ],
+            "pulmonaire95pct": [
+              "Dyspnée",
+              "Toux sèche",
+              "Douleurs thoraciques"
+            ],
+            "cutane25pct": [
+              "Lupus pernio",
+              "Plaques/nodules violacés",
+              "Érythème noueux"
+            ],
+            "oculaire20pct": [
+              "Uvéite",
+              "Rétinite",
+              "Conjonctivite",
+              "Calcifications"
+            ],
+            "hepatique10pct": "Élévation transaminases",
+            "neuroSarcoidose10pct": [
+              "Méningite lymphocytaire",
+              "Paralysie faciale",
+              "Insuffisance hypophysaire"
+            ]
+          },
+          "diagnostic": {
+            "biopsie": "Ganglions médiastinaux",
+            "laboratoire": [
+              "Calcium élevé (PTH-rp)",
+              "s.IL-2R élevé",
+              "ACE élevé"
+            ],
+            "lba": "CD4+/CD8+ augmenté",
+            "fonctionPulmonaire": [
+              "Syndrome obstructif ou restrictif",
+              "DLCO diminuée"
+            ]
+          },
+          "traitement": [
+            "CS oraux si décompensation respiratoire",
+            "Immunosuppresseurs fond"
+          ]
+        }
+      ]
+    },
+    "orthopedie": {
+      "titre": "Orthopédie : Pathologies fréquentes",
+      "pathologies": [
+        {
+          "nom": "Coxarthrose",
+          "definition": "Arthrose de la hanche avec dégénérescence du cartilage articulaire",
+          "clinique": {
+            "douleur": "Douleur inguinale, parfois irradiation genou ou fesse",
+            "signes": [
+              "Douleur de démarrage matinale",
+              "Amélioration avec l'activité",
+              "Limitation progressive de la mobilité",
+              "Boiterie d'esquive"
+            ]
+          },
+          "status": {
+            "inspection": ["Attitude vicieuse", "Boiterie"],
+            "palpation": "Douleur à la pression du pli inguinal",
+            "mobilite": [
+              "Limitation rotation interne et abduction",
+              "Test de Drehmann positif (rotation externe automatique lors de la flexion)"
+            ]
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Radiographie: pincement articulaire, ostéophytes, géodes, sclérose",
+              "IRM si diagnostic précoce nécessaire"
+            ]
+          },
+          "traitement": {
+            "conservateur": [
+              "Antalgiques (paracétamol, AINS)",
+              "Physiothérapie",
+              "Perte de poids si surcharge",
+              "Cannes anglaises"
+            ],
+            "chirurgical": "Prothèse totale de hanche si échec conservateur"
+          },
+          "facteurs_risque": [
+            "Âge",
+            "Surpoids",
+            "Dysplasie de hanche",
+            "Traumatismes répétés",
+            "Facteurs génétiques"
+          ]
+        },
+        {
+          "nom": "Conflit fémoro-acétabulaire (FAI)",
+          "definition": "Contact anormal entre le fémur et l'acétabulum lors du mouvement",
+          "types": [
+            {
+              "nom": "CAM",
+              "description": "Excès osseux sur la tête/col fémoral"
+            },
+            {
+              "nom": "Pincer",
+              "description": "Surcouverture acétabulaire"
+            },
+            {
+              "nom": "Mixte",
+              "description": "Combinaison des deux"
+            }
+          ],
+          "clinique": {
+            "douleur": "Douleur inguinale d'effort chez le jeune adulte",
+            "signes": ["Limitation rotation interne", "Position assise prolongée douloureuse"]
+          },
+          "status": {
+            "testFABER": "Positif (Flexion-Abduction-Rotation Externe)",
+            "testFADIR": "Positif (Flexion-Adduction-Rotation Interne)",
+            "mobilite": "Limitation rotation interne en flexion à 90°"
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Radiographie: angle alpha >55° (CAM)",
+              "IRM arthro: lésions labrum et cartilage"
+            ]
+          },
+          "traitement": {
+            "conservateur": ["Modification activités", "Physiothérapie", "AINS"],
+            "chirurgical": "Arthroscopie avec ostéoplastie"
+          }
+        },
+        {
+          "nom": "Gonarthrose",
+          "definition": "Arthrose du genou avec atteinte préférentielle fémoro-tibiale médiale",
+          "clinique": {
+            "douleur": "Douleur mécanique du genou",
+            "signes": [
+              "Douleur à la montée/descente des escaliers",
+              "Raideur matinale <30 minutes",
+              "Épanchement possible",
+              "Déformation en varus ou valgus"
+            ]
+          },
+          "status": {
+            "inspection": ["Genu varum/valgum", "Épanchement", "Atrophie quadriceps"],
+            "palpation": [
+              "Douleur interligne articulaire",
+              "Crépitations",
+              "Épanchement (choc rotulien)"
+            ],
+            "mobilite": "Limitation extension/flexion"
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Radiographie debout: pincement, ostéophytes, sclérose",
+              "Pangonogramme pour axe mécanique"
+            ]
+          },
+          "traitement": {
+            "conservateur": [
+              "Perte de poids",
+              "Physiothérapie (renforcement quadriceps)",
+              "AINS topiques ou oraux",
+              "Infiltrations corticoïdes ou acide hyaluronique"
+            ],
+            "chirurgical": [
+              "Ostéotomie si jeune avec déformation axiale",
+              "Prothèse unicompartimentale ou totale"
+            ]
+          }
+        },
+        {
+          "nom": "Rupture du ligament croisé antérieur (LCA)",
+          "definition": "Rupture traumatique du LCA suite à un mécanisme de torsion-flexion",
+          "clinique": {
+            "aigu": [
+              "Sensation de craquement",
+              "Hémarthrose dans les 2 heures",
+              "Instabilité immédiate",
+              "Douleur importante"
+            ],
+            "chronique": [
+              "Instabilité rotatoire",
+              "Dérobements",
+              "Appréhension dans les pivots"
+            ]
+          },
+          "status": {
+            "testLachman": "Positif (plus sensible)",
+            "tiriorAnterieur": "Positif à 90° de flexion",
+            "pivotShift": "Positif (ressaut rotatoire)"
+          },
+          "diagnostic": {
+            "imagerie": [
+              "IRM: rupture LCA, lésions associées (ménisques, cartilage)",
+              "Radiographie: recherche fracture associée"
+            ]
+          },
+          "traitement": {
+            "conservateur": [
+              "Patient peu actif",
+              "Physiothérapie intensive",
+              "Renforcement musculaire"
+            ],
+            "chirurgical": [
+              "Reconstruction ligamentaire (autogreffe)",
+              "Indications: jeune, sportif, instabilité persistante"
+            ]
+          }
+        },
+        {
+          "nom": "Lésions méniscales",
+          "definition": "Déchirure traumatique ou dégénérative des ménisques",
+          "types": [
+            "Fissure longitudinale (anse de seau)",
+            "Fissure radiaire",
+            "Fissure horizontale (dégénérative)",
+            "Lambeau méniscal"
+          ],
+          "clinique": {
+            "symptomes": [
+              "Douleur interligne articulaire",
+              "Blocages mécaniques",
+              "Épanchements récidivants",
+              "Sensation d'accrochage"
+            ]
+          },
+          "status": {
+            "testMcMurray": "Positif (douleur et/ou ressaut)",
+            "testApley": "Positif (compression + rotation)",
+            "palpation": "Douleur interligne articulaire"
+          },
+          "diagnostic": {
+            "imagerie": "IRM: visualisation de la lésion méniscale"
+          },
+          "traitement": {
+            "conservateur": [
+              "Lésions stables ou dégénératives",
+              "Physiothérapie",
+              "AINS"
+            ],
+            "chirurgical": [
+              "Méniscectomie partielle arthroscopique",
+              "Suture méniscale si zone vascularisée"
+            ]
+          }
+        },
+        {
+          "nom": "Entorse de cheville",
+          "definition": "Lésion ligamentaire de la cheville, le plus souvent du ligament talo-fibulaire antérieur",
+          "grades": [
+            {
+              "grade": "I",
+              "description": "Élongation sans rupture"
+            },
+            {
+              "grade": "II",
+              "description": "Rupture partielle"
+            },
+            {
+              "grade": "III",
+              "description": "Rupture complète"
+            }
+          ],
+          "clinique": {
+            "symptomes": [
+              "Douleur latérale cheville",
+              "Œdème",
+              "Ecchymose",
+              "Instabilité selon gravité"
+            ]
+          },
+          "status": {
+            "testTiroirAnterieur": "Recherche laxité talo-crurale",
+            "testVarusForce": "Recherche laxité latérale",
+            "reglesOttawa": "Indications radiographie"
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Radiographie si critères d'Ottawa positifs",
+              "IRM si suspicion lésion grave ou échec traitement"
+            ]
+          },
+          "traitement": {
+            "fonctionnel": [
+              "RICE (repos, glace, compression, élévation)",
+              "Mobilisation précoce",
+              "Attelle fonctionnelle",
+              "Physiothérapie proprioceptive"
+            ],
+            "chirurgical": "Rare, si instabilité chronique"
+          }
+        },
+        {
+          "nom": "Fasciite plantaire",
+          "definition": "Inflammation de l'aponévrose plantaire à son insertion calcanéenne",
+          "clinique": {
+            "douleur": [
+              "Douleur talon matinale (premiers pas)",
+              "Amélioration avec l'activité",
+              "Récidive après repos"
+            ]
+          },
+          "status": {
+            "palpation": "Douleur insertion médiale aponévrose sur calcanéum",
+            "testWindlass": "Douleur à la dorsiflexion passive des orteils"
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Échographie: épaississement aponévrose >4mm",
+              "Radiographie: épine calcanéenne (non spécifique)"
+            ]
+          },
+          "traitement": {
+            "conservateur": [
+              "Étirements mollet et aponévrose",
+              "Semelles orthopédiques",
+              "AINS",
+              "Infiltrations corticoïdes",
+              "Ondes de choc"
+            ],
+            "chirurgical": "Fasciotomie (rare, après 6-12 mois d'échec)"
+          }
+        },
+        {
+          "nom": "Névrome de Morton",
+          "definition": "Névrome d'irritation du nerf interdigital, le plus souvent entre 3e et 4e métatarsiens",
+          "clinique": {
+            "symptomes": [
+              "Douleur brûlante avant-pied",
+              "Paresthésies des orteils",
+              "Sensation de marcher sur un caillou",
+              "Soulagement en retirant les chaussures"
+            ]
+          },
+          "status": {
+            "testMulder": "Positif (click palpable et douloureux)",
+            "compression": "Douleur à la compression latérale avant-pied"
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Échographie: masse hypoéchogène inter-métatarsienne",
+              "IRM si doute diagnostique"
+            ]
+          },
+          "traitement": {
+            "conservateur": [
+              "Chaussures larges",
+              "Orthèses plantaires avec barre rétro-capitale",
+              "Infiltrations corticoïdes"
+            ],
+            "chirurgical": "Neurectomie si échec conservateur"
+          }
+        },
+        {
+          "nom": "Lombalgie commune",
+          "definition": "Douleur lombaire non spécifique sans signes de gravité",
+          "clinique": {
+            "douleur": [
+              "Douleur lombaire mécanique",
+              "Aggravation aux mouvements",
+              "Amélioration au repos"
+            ],
+            "duree": [
+              "Aiguë: <6 semaines",
+              "Subaiguë: 6-12 semaines",
+              "Chronique: >12 semaines"
+            ]
+          },
+          "redFlags": [
+            "Syndrome de la queue de cheval",
+            "Déficit neurologique progressif",
+            "Traumatisme récent",
+            "Fièvre, perte de poids",
+            "Antécédent de cancer",
+            "Âge <20 ou >50 ans au premier épisode",
+            "Douleur nocturne ou au repos"
+          ],
+          "status": {
+            "inspection": "Attitude antalgique, contracture paravertébrale",
+            "palpation": "Contracture musculaire paravertébrale",
+            "mobilite": "Limitation flexion/extension",
+            "neurologique": "Normal (sinon red flag)"
+          },
+          "diagnostic": {
+            "imagerie": "Pas d'imagerie si absence de red flags avant 6 semaines"
+          },
+          "traitement": {
+            "aigu": [
+              "Maintien des activités",
+              "Antalgiques par paliers OMS",
+              "AINS courte durée",
+              "Myorelaxants si contractures"
+            ],
+            "chronique": [
+              "Rééducation active",
+              "Approche multidisciplinaire",
+              "Thérapie cognitivo-comportementale"
+            ]
+          }
+        },
+        {
+          "nom": "Hernie discale lombaire",
+          "definition": "Saillie du nucleus pulposus à travers l'annulus fibrosus avec compression radiculaire",
+          "localisations": [
+            {
+              "niveau": "L4-L5",
+              "racine": "L5",
+              "deficit": "Extension hallux et pied",
+              "reflexe": "Aucun",
+              "territoire": "Face dorsale pied"
+            },
+            {
+              "niveau": "L5-S1",
+              "racine": "S1",
+              "deficit": "Flexion plantaire",
+              "reflexe": "Achilléen",
+              "territoire": "Face latérale pied"
+            }
+          ],
+          "clinique": {
+            "symptomes": [
+              "Lombalgie",
+              "Sciatalgie ou cruralgie",
+              "Paresthésies territoire radiculaire",
+              "Déficit moteur possible"
+            ]
+          },
+          "status": {
+            "lasegue": "Positif <60° (sciatalgie)",
+            "lasegueInverse": "Positif (cruralgie L3-L4)",
+            "neurologique": [
+              "Testing musculaire spécifique",
+              "Réflexes ostéo-tendineux",
+              "Sensibilité dermatome"
+            ]
+          },
+          "diagnostic": {
+            "imagerie": [
+              "IRM: gold standard",
+              "CT si contre-indication IRM"
+            ]
+          },
+          "traitement": {
+            "conservateur": [
+              "Antalgiques et AINS",
+              "Physiothérapie après phase aiguë",
+              "Infiltrations épidurales",
+              "80% guérison spontanée en 6 semaines"
+            ],
+            "chirurgical": [
+              "Microdiscectomie",
+              "Indications: déficit moteur progressif, syndrome queue de cheval, échec 6-12 semaines"
+            ]
+          }
+        },
+        {
+          "nom": "Spondylolisthésis",
+          "definition": "Glissement antérieur d'une vertèbre sur celle du dessous",
+          "types": [
+            "Isthmique (lyse isthmique)",
+            "Dégénératif",
+            "Dysplasique",
+            "Traumatique",
+            "Pathologique"
+          ],
+          "grades": {
+            "gradeI": "<25%",
+            "gradeII": "25-50%",
+            "gradeIII": "50-75%",
+            "gradeIV": ">75%"
+          },
+          "clinique": {
+            "symptomes": [
+              "Lombalgie",
+              "Radiculopathie possible",
+              "Claudication neurogène si sténose"
+            ]
+          },
+          "status": {
+            "inspection": "Hyperlordose, marche en arrière",
+            "palpation": "Escalier palpable"
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Radiographie profil: glissement, lyse isthmique",
+              "IRM: compression nerveuse"
+            ]
+          },
+          "traitement": {
+            "conservateur": [
+              "Renforcement musculaire",
+              "Antalgiques",
+              "Infiltrations"
+            ],
+            "chirurgical": "Arthrodèse si instabilité ou déficit neurologique"
+          }
+        },
+        {
+          "nom": "Syndrome du conflit sous-acromial",
+          "definition": "Conflit mécanique entre l'acromion et les tendons de la coiffe des rotateurs",
+          "clinique": {
+            "douleur": [
+              "Douleur latérale épaule",
+              "Arc douloureux 60-120°",
+              "Douleur nocturne"
+            ]
+          },
+          "status": {
+            "testNeer": "Positif (élévation passive bras en rotation interne)",
+            "testHawkins": "Positif (flexion 90° + rotation interne)",
+            "testJobe": "Évalue supra-épineux"
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Radiographie: morphologie acromion, calcifications",
+              "Échographie: épaississement tendineux, bursite",
+              "IRM: si suspicion rupture"
+            ]
+          },
+          "traitement": {
+            "conservateur": [
+              "Repos relatif",
+              "AINS",
+              "Physiothérapie (recentrage tête humérale)",
+              "Infiltrations sous-acromiales"
+            ],
+            "chirurgical": "Acromioplastie arthroscopique si échec"
+          }
+        },
+        {
+          "nom": "Rupture de la coiffe des rotateurs",
+          "definition": "Rupture partielle ou complète d'un ou plusieurs tendons de la coiffe",
+          "clinique": {
+            "symptomes": [
+              "Douleur épaule",
+              "Faiblesse musculaire",
+              "Limitation active > passive"
+            ]
+          },
+          "status": {
+            "jobeTest": "Faiblesse supra-épineux",
+            "liftOff": "Test sous-scapulaire",
+            "hornblowerSign": "Atteinte infra-épineux"
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Échographie: discontinuité tendineuse",
+              "IRM: extension rupture, trophicité musculaire"
+            ]
+          },
+          "traitement": {
+            "conservateur": [
+              "Patient âgé ou rupture dégénérative",
+              "Physiothérapie compensatrice"
+            ],
+            "chirurgical": [
+              "Réparation arthroscopique",
+              "Prothèse inversée si rupture massive irréparable"
+            ]
+          }
+        },
+        {
+          "nom": "Capsulite rétractile (épaule gelée)",
+          "definition": "Inflammation et fibrose de la capsule articulaire gléno-humérale",
+          "phases": [
+            {
+              "nom": "Inflammatoire",
+              "duree": "2-9 mois",
+              "symptomes": "Douleur prédominante"
+            },
+            {
+              "nom": "Raideur",
+              "duree": "4-12 mois",
+              "symptomes": "Limitation mobilité"
+            },
+            {
+              "nom": "Résolution",
+              "duree": "12-24 mois",
+              "symptomes": "Amélioration progressive"
+            }
+          ],
+          "clinique": {
+            "symptomes": [
+              "Douleur diffuse épaule",
+              "Limitation passive et active",
+              "Rotation externe très limitée"
+            ]
+          },
+          "status": {
+            "mobilite": "Limitation globale, surtout rotation externe et abduction"
+          },
+          "diagnostic": {
+            "clinique": "Diagnostic d'exclusion",
+            "imagerie": "IRM: épaississement capsulaire, rétraction récessus axillaire"
+          },
+          "traitement": {
+            "conservateur": [
+              "Antalgiques et AINS",
+              "Infiltrations intra-articulaires",
+              "Physiothérapie douce",
+              "Mobilisation sous anesthésie"
+            ],
+            "chirurgical": "Arthrolyse arthroscopique (rare)"
+          }
+        },
+        {
+          "nom": "Épicondylite latérale (tennis elbow)",
+          "definition": "Tendinopathie des extenseurs du poignet à leur insertion sur l'épicondyle latéral",
+          "clinique": {
+            "douleur": [
+              "Douleur épicondyle latéral",
+              "Irradiation avant-bras",
+              "Aggravation préhension et extension poignet"
+            ]
+          },
+          "status": {
+            "palpation": "Douleur épicondyle latéral",
+            "thomsenTest": "Douleur à l'extension contrariée poignet",
+            "chairTest": "Douleur en soulevant une chaise bras tendu"
+          },
+          "diagnostic": {
+            "clinique": "Généralement suffisant",
+            "imagerie": "Échographie ou IRM si doute"
+          },
+          "traitement": {
+            "conservateur": [
+              "Repos relatif",
+              "AINS topiques",
+              "Bracelet épicondylien",
+              "Physiothérapie excentrique",
+              "Infiltrations corticoïdes",
+              "PRP ou ondes de choc"
+            ],
+            "chirurgical": "Ténotomie si échec >6-12 mois"
+          }
+        },
+        {
+          "nom": "Syndrome du canal carpien",
+          "definition": "Compression du nerf médian dans le canal carpien",
+          "clinique": {
+            "symptomes": [
+              "Paresthésies nocturnes des 3 premiers doigts et demi",
+              "Douleur irradiant vers l'avant-bras",
+              "Maladresse, lâchage d'objets"
+            ]
+          },
+          "status": {
+            "tinelTest": "Paresthésies à la percussion du canal",
+            "phalenTest": "Paresthésies en flexion maximale 60 secondes",
+            "atrophie": "Éminence thénar (stade avancé)"
+          },
+          "diagnostic": {
+            "enmg": "Ralentissement conduction sensitive et motrice",
+            "echographie": "Augmentation surface nerf >10mm²"
+          },
+          "traitement": {
+            "conservateur": [
+              "Attelle nocturne en position neutre",
+              "Infiltrations corticoïdes",
+              "Modification activités"
+            ],
+            "chirurgical": [
+              "Libération du rétinaculum des fléchisseurs",
+              "Indications: déficit moteur, échec conservateur"
+            ]
+          }
+        },
+        {
+          "nom": "Fracture du col du fémur",
+          "definition": "Fracture fréquente du sujet âgé ostéoporotique",
+          "types": [
+            {
+              "nom": "Intracapsulaire",
+              "sousTypes": ["Sous-capitale", "Transcervicale"],
+              "risque": "Nécrose tête fémorale"
+            },
+            {
+              "nom": "Extracapsulaire",
+              "sousTypes": ["Pertrochantérienne", "Sous-trochantérienne"],
+              "risque": "Meilleur pronostic"
+            }
+          ],
+          "clinique": {
+            "symptomes": [
+              "Douleur inguinale après chute",
+              "Impotence fonctionnelle",
+              "Membre inférieur raccourci et en rotation externe"
+            ]
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Radiographie bassin face + hanche profil",
+              "CT ou IRM si radiographie normale mais forte suspicion"
+            ]
+          },
+          "traitement": {
+            "intracapsulaire": [
+              "Vissage si non déplacée chez jeune",
+              "Hémiarthroplastie si déplacée chez âgé",
+              "PTH si patient actif"
+            ],
+            "extracapsulaire": [
+              "Ostéosynthèse (clou gamma, DHS)"
+            ],
+            "postOperatoire": [
+              "Mobilisation précoce",
+              "Prévention thromboembolique",
+              "Traitement ostéoporose"
+            ]
+          }
+        },
+        {
+          "nom": "Fracture vertébrale ostéoporotique",
+          "definition": "Tassement vertébral sur os fragilisé, souvent thoraco-lombaire",
+          "clinique": {
+            "aigu": [
+              "Douleur dorsale ou lombaire brutale",
+              "Aggravation en charge",
+              "Parfois asymptomatique"
+            ],
+            "chronique": [
+              "Cyphose progressive",
+              "Perte de taille",
+              "Douleurs chroniques"
+            ]
+          },
+          "diagnostic": {
+            "imagerie": [
+              "Radiographie: tassement cunéiforme",
+              "IRM: œdème osseux en phase aiguë",
+              "Ostéodensitométrie: recherche ostéoporose"
+            ]
+          },
+          "traitement": {
+            "conservateur": [
+              "Antalgiques",
+              "Mobilisation progressive",
+              "Corset si douleur importante",
+              "Traitement ostéoporose (bisphosphonates, vitamine D, calcium)"
+            ],
+            "chirurgical": [
+              "Vertébroplastie ou kyphoplastie si douleur réfractaire"
+            ]
+          }
+        }
+      ],
+      "tests_specifiques": {
+        "hanche": [
+          {
+            "nom": "Test de FABER",
+            "description": "Flexion-Abduction-Rotation Externe",
+            "indication": "Pathologie articulaire ou sacro-iliaque"
+          },
+          {
+            "nom": "Test de FADIR",
+            "description": "Flexion-Adduction-Rotation Interne",
+            "indication": "Conflit fémoro-acétabulaire"
+          },
+          {
+            "nom": "Test de Trendelenburg",
+            "description": "Appui monopodal",
+            "indication": "Insuffisance moyen fessier"
+          }
+        ],
+        "genou": [
+          {
+            "nom": "Test de Lachman",
+            "description": "Tiroir antérieur à 30° flexion",
+            "indication": "Rupture LCA"
+          },
+          {
+            "nom": "Test du pivot shift",
+            "description": "Subluxation-réduction",
+            "indication": "Instabilité rotatoire (LCA)"
+          },
+          {
+            "nom": "Test de McMurray",
+            "description": "Flexion-rotation avec compression",
+            "indication": "Lésion méniscale"
+          }
+        ],
+        "epaule": [
+          {
+            "nom": "Test de Neer",
+            "description": "Élévation passive en rotation interne",
+            "indication": "Conflit sous-acromial"
+          },
+          {
+            "nom": "Test de Jobe",
+            "description": "Abduction résistée à 90°",
+            "indication": "Tendon supra-épineux"
+          },
+          {
+            "nom": "Test de Gerber (lift-off)",
+            "description": "Décollement main du dos",
+            "indication": "Tendon sous-scapulaire"
+          }
+        ],
+        "rachis": [
+          {
+            "nom": "Test de Lasègue",
+            "description": "Élévation jambe tendue",
+            "indication": "Irritation racine sciatique"
+          },
+          {
+            "nom": "Test de Lasègue inversé",
+            "description": "Extension hanche patient en procubitus",
+            "indication": "Irritation racine crurale"
+          },
+          {
+            "nom": "Test de Spurling",
+            "description": "Compression + inclinaison + rotation cervicale",
+            "indication": "Radiculopathie cervicale"
+          }
+        ]
+      }
+    }
+  }
+}

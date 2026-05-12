@@ -1,0 +1,835 @@
+481
+
+ARTICLE DE REVUE
+
+L’heure d’un changement de paradigme a sonné
+
+Traitement de l’angine
+à ­streptocoques
+Cand. méd. Yaël Hofmann a*, cand. méd. Hanna Berger a*, Dr méd. Bernhard Wingeier b , Dr méd. Benedikt
+Huber c , Dr méd. Katja Boggian d , Dr méd. Henriette Hug-Batschelet e , Dr méd. Claudia Rosamilia f , Dr méd.
+Philippe Mosimann g , Dr méd. et phil. Julia Bielicki h , Dr méd. Lukas Horvath i , PD Dr méd. Michel-André Hotz k ,
+Dr méd. Andreas Dettwiler l , Dr méd. Pierino Avoledo e , Dr méd. Axel Rowedder m , PD Dr méd. Barbara Hasse n ,
+Prof. Dr méd. Klara Posfay-Barbe o , PD Dr méd. Laurence Senn p , Prof. Dr méd. Philip Tarr a
+Medizinische Universitätsklinik und Infektiologie/Spitalhygiene, Kantonsspital Baselland, Bruderholz, Universität Basel; b Abteilung Pädiatrie, Klinik
+Arlesheim; c Klinik für Pädiatrie, HFR Fribourg, Kantonsspital, Fribourg; d Klinik für Infektiologie und Spitalhygiene, Kantonsspital, St. Gallen; e Kinderarztpraxis
+Davidsboden, Basel; f Praxis für Allg. Innere Medizin, Röschenz BL; g Praxis für Allg. Innere Medizin, Bottmingen BL; h Pädiatrische Infektiologie, Universitätskinderspital beider Basel (UKBB), Basel; i Hals-Nasen-Ohren-Klinik, Kantonsspital Baselland; k Département de Chirurgie, Service d’ORL, Hôpital
+Neuchâtelois, Neuchâtel; l Praxis für Allg. Innere Medizin, Riehen BS; m Praxis mediX toujours, Basel; n Klinik für Infektionskrankheiten und Spitalhygiene,
+UniversitätsSpital, Zürich, Universität Zürich; o Unité des maladies infectieuses pédiatriques, Hôpital des Enfants, Hôpitaux Universitaires de Genève; p
+Service de Médecine Préventive Hospitalière, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne
+*Ces auteures ont contribué à part égale à la réalisation de cet article.
+
+v ie we
+
+d
+
+Peer
+
+re
+
+a r tic le
+
+a
+
+Vous trouverez l’éditorial
+relatif à cet article à la page
+467 de ce numéro.
+
+L’angine à streptocoques est le plus souvent spontanément régressive. Les antibiotiques ont un effet modeste sur la durée des symptômes. D’après les lignes directrices européennes, la prévention du rhumatisme articulaire aigu et de l’abcès
+périamygda­lien ne constitue plus une indication des antibiotiques. Dans cet article,
+nous présentons notre point de vue concernant l’angine à streptocoques, qui
+doit être recherchée par frottis pharyngé en cas de score de McIsaac ≥3 mais doit
+uniquement être traitée par antibiotiques dans des cas spécifiques.
+Introduction
+
+Yaël Hofmann
+
+Hanna Berger
+
+L’angine à streptocoques est le plus souvent spontanément régressive [1, 2]. La recommandation de la traiter
+par antibiotiques date des années 1950, lorsque les complications purulentes (avant tout abcès périamygdalien) et le rhumatisme articulaire aigu (RAA) étaient
+­encore relativement fréquents en Europe. Aujourd’hui,
+la prévention du RAA et de l’abcès périamygdalien ne
+représente plus une indication pour l’administration
+d’antibiotiques [3] d’après diverses recommandations
+européennes, comme celles de la Société européenne
+de microbiologie clinique et des maladies infectieuses
+(ESCMID), contrairement aux lignes directrices américaines, canadiennes ou finlandaises [4]. Aujourd’hui, la
+prescription d’antibiotiques est le plus souvent essentiellement motivée par un raccourcissement de la durée des
+symptômes [3], mais cet effet antibiotiques est modeste
+­selon les lignes directrices et des analyses Cochrane
+­[1–3, 5]. Par conséquent, les lignes directrices néerlandaises ­[6–8], belges [9] et écossaises [10] recommandent
+depuis quelques années un traitement principalement
+sans antibiotiques de l’angine à streptocoques.
+En Suisse, l’initiative «Smarter Medicine» encourage depuis des années à ne plus utiliser d’antibiotiques en cas
+
+SWISS MEDICAL FORUM – FORUM MÉDICAL SUISSE
+
+d’infections des voies respiratoires supérieures («Moins,
+c’est plus», www.smartermedicine.ch). Ce concept devrait encore mieux être mis en œuvre dans notre pays,
+car 75% de tous les antibiotiques sont prescrits dans les
+­cabinets et jusqu’à 50% d’entre eux, en fonction du
+contexte, ne sont pas indiqués [11]. En outre, la Confédération a reconnu l’urgence de lutter contre les résistances aux antibiotiques et en 2015, elle a lancé la stratégie nationale Antibiorésistance (StAR; www.star.admin.
+ch).
+Notre groupe de travail interdisciplinaire s’est constitué face à la situation préoccupante que représentent la
+médicalisation inutile depuis des décennies d’infections respiratoires le plus souvent inoffensives et l’augmentation inquiétante de l’antibiorésistance, avec la
+conscience que nous, médecins, devrions plus agir
+pour y remédier, et la crainte que les anti­biothérapies
+influencent défavorablement le microbiome [12].
+Cet article a pour objectif de montrer comment l’angine
+à streptocoques peut, en Suisse aussi, le plus souvent
+être traitée avec succès sans antibiotiques. A cet effet,
+une bonne anamnèse et un examen de qualité, une
+communication médecin-patient motivante, un soulagement efficace des symptômes et des contrôles de suivi
+adaptés à l’évolution clinique jouent un rôle clé (fig. 1).
+
+2019;19(29–30):481– 488
+
+Published under the copyright license “Attribution – Non-Commercial – NoDerivatives 4.0”. No commercial reuse without permission.
+
+See: http://emh.ch/en/services/permissions.html
+
+482
+
+Article de revue
+
+Mal de gorge aigu
+Examen clinique et score de McIsaac
+
+Score de McIsaac**
+pour prédire la mise en évidence de
+streptocoques du groupe A dans le frottis
+pharyngé
+Patient avec mal de gorge: additionner les
+symptômes suivants:
+● Fièvre >38 °C: 1 point
+● Rougeur + dépôts amygdaliens: 1 point
+● Lymphadénopathie cervicale: 1 point
+● Absence de toux: 1 point
+● Âge:
+- 3 à 14 ans: 1 point
+- 15 à 44 ans: 0 point
+- 45 ou plus: −1 point
+
+Score de McIsaac ≥ 3
+
+Score de McIsaac 0–2
+
+Frottis pharyngé +
+test rapide streptocoques
+
+Pas de frottis pharyngé
+Pas d’antibiotiques
+
+Négatif
+
+Positif
+
+Pas d’antibiotiques*
+* Exceptions: voir
+critères «red flag»
+
+Pas d’antibiotiques ou
+pénicilline/amoxicilline retardée *
+
+Communication (tous les patients)
+1. Durée des symptômes attendue:
+● Mal de gorge aigu y compris angine à streptocoques: jusqu’à 7 jours
+● Guérison presque toujours spontanée – il est difficile de prédire les
+rares cas sévères, prolongés ou compliqués
+2. Que faire pour soulager les symptômes?
+● Boire suffisamment – par ex. boire ou gargariser des infusions de tilleul
+et de sauge
+● Repos au lit en cas de fièvre
+● Enveloppements du cou avec citron ou fromage blanc
+● L’ibuprofène peut être utilisé pour soulager la douleur – le paracétamol
+est une alternative plus douce pour l’estomac et les reins
+● Anesthésiques locaux topiques éventuellement désinfectants (sous
+forme de pastilles à sucer, de solution pour gargarismes ou de spray
+pour la gorge)
+3. L’infection disparaîtra avec ou sans antibiotiques
+● Les antibiotiques contribuent peu à soulager les symptômes ou réduire
+leur durée par rapport aux antalgiques
+● La durée de l’absentéisme professionnel ou scolaire n’est pas réduite
+par les antibiotiques
+● Les complications sont rares et leur prévention ne constitue pas une
+indication pour la prise d’antibiotiques
+● Il n’est pas rare que les antibiotiques aient des effets indésirables,
+souvent sans danger mais incommodants (par ex. diarrhée, éruption
+cutanée, nausées), mais ils peuvent également être plus graves
+(par ex. colite à Clostridium difficile, anaphylaxie)
+● La prise inutile d’antibiotiques détruit la flore bactérienne normale
+et contribue largement à la propagation de bactéries résistantes.
+De nombreux patients en ont entendu parler dans les médias
+4. Appelez-moi ou revenez me voir si...
+● ... votre état empire ou ne s’améliore pas en 1 semaine (état général,
+fièvre, douleurs locales, troubles de la déglutition, nouveaux symptômes)
+● Un contrôle de suivi est recommandé quand le patient est très malade,
+très jeune (<3 à 5 ans), très âgé ou très affaibli ou s’il présente des
+antécédents personnels ou familiaux de rhumatisme articulaire aigu
+
+Probabilité d’un frottis pharyngé positif
+selon le score de McIsaac:
+Score 1 5−10%
+Score 2 11−17%
+Score 3 28−35%
+Score 4 ou 5 51–53%
+** Le score de McIsaac correspond au
+score de Centor. Il prend en plus en compte
+l‘âge du patient.
+
+Critères «red flag»
+pour une évaluation minutieuse du patient
+et une possible antibiothérapie immédiate
+(modifiée selon [6, 23, 51]).
+● Le patient semble très malade
+(décision clinique du médecin expérimenté)
+● Immunosuppression (par ex. cancer,
+chimiothérapie)
+● Evolution inhabituelle: augmentation
+de la douleur, mal-être, troubles de la
+déglutition ou fièvre après la première
+consultation, absence d’amélioration
+en 4–7 jours
+● Troubles ou anomalies strictement
+unilatérales (indice possible
+de complications comme abcès
+périamygdalien, situation inhabituelle)
+● Le toucher sur le côté du cou est
+douloureux (indication possible d’un
+abcès)
+● Le patient ne peut plus avaler, ouvrir
+la bouche («trismus»)
+● Suspicion de scarlatine: éruption
+cutanée rouge, «langue framboisée»,
+aspect «papier abrasif» palpable
+de la peau+
+● Antécédents personnels ou familiaux
+de rhumatisme articulaire aigu
+● Jeunes enfants, âge >65 ans, comorbidités significatives
+● Eventuellement: patient ayant
+récemment immigré d’un pays en
+développement++
+
++
+La scarlatine ne constitue actuellement
+pas une indication stricte pour l’administration d’antibiotiques, mais une évaluation
+clinique pour confirmer le diagnostic et
+détecter une flambée potentielle est
+indiquée
+++ Indice potentiel d’un risque accru de
+colonisation par des souches de streptocoques «rhumatogènes»
+
+Figure 1: Démarche diagnostique en cas de mal de gorge aigu, critères d’alarme et précisions sur la communication
+(Illustration: © Randy DuBurke, Binningen, randyduburke.com).
+
+SWISS MEDICAL FORUM – FORUM MÉDICAL SUISSE
+
+2019;19(29–30):481– 488
+
+Published under the copyright license “Attribution – Non-Commercial – NoDerivatives 4.0”. No commercial reuse without permission.
+
+See: http://emh.ch/en/services/permissions.html
+
+483
+
+Article de revue
+
+Epidémiologie
+A quelle fréquence les maux de gorge aigus ont-ils une
+cause virale? A quelle fréquence s’agit-il d’une angine
+à streptocoques?
+Le mal de gorge aigu est un motif fréquent de consultation au cabinet et au service des urgences. Chez 95%
+des enfants de <5 ans, 70% des enfants âgés de 5–16 ans
+et 85–95% des adultes, il est causé par une infection virale, comme c’est également le cas en cas d’otalgies aiguës [13]. Chez 5–15% des adultes avec mal de gorge aigu
+et 15–30% des enfants âgés de 3–15 ans («âge de prédilection des infections streptococciques»), il s’agit d’une
+angine à streptocoques, définie sur le plan symptomatique comme un score de McIsaac ≥3 plus la mise en
+évidence de streptocoques du groupe A dans le frottis
+pharyngé (fig. 1) [14]. Sur le plan clinique, il est difficile
+de faire la distinction entre une angine à streptocoques
+et une infection virale [14].
+Quelle est l’évolution spontanée en cas de mal
+de gorge aigu d’origine virale et en cas d’angine
+à streptocoques?
+Le mal de gorge aigu a le plus souvent une évolution
+bénigne: guérison spontanée en l’espace de moins de
+7 jours (tab. 1). La sévérité des symptômes est mal corrélée à la mise en évidence de streptocoques dans le frottis pharyngé [15]. En cas d’angine à streptocoques, le
+mal de gorge ne dure en général qu’un peu plus longtemps qu’en cas de mal de gorge d’origine virale et les
+complications sont rares [3, 5]. Lorsque le mal de gorge,
+Tableau 1: Etiologie du mal de gorge aigu.
+Manifestations cliniques,
+contexte épidémiologique
+
+Agents pathogènes, étiologie
+
+Ulcères oraux, rhume, toux
+et ­enrouement → le plus
+souvent, étiologie virale
+
+Par ex. rhinovirus, coronavirus, adénovirus, influenzavirus (en hiver), coxsackievirus, virus herpes simplex
+
+Durée des symptômes ou
+de la fièvre >7 jours
+
+Virus d’Epstein-Barr, mononucléose aiguë → étiologie dans
+1–10% des cas de mal de gorge aigu [36]
+Primo-infection par le VIH (contagiosité très élevée)
+Fièvre élevée, frissons (4–12 jours après le début du mal
+de gorge) → envisager un syndrome de Lemierre (souvent avec tuméfaction dans la région sous-mandibulaire
+ou au niveau du m
+­ uscle sterno-cléido-mastoïdien,
+­arthralgies, toux): envisager un examen d’imagerie.
+La thrombose veineuse jugulaire, les abcès pulmonaires
+hématogènes, l’empyème et la méningite sont des complications possibles
+
+Rapports sexuels oraux
+
+Gonorrhée, chlamydiose (asymptomatique dans >90%
+des cas) → mise en évidence par PCR et culture de N.
+­gonorrhoeae dans le frottis pharyngé
+
+Gingivite ulcéro-nécrotique
+
+Angine de Vincent (rare)
+
+Absence d’amélioration des
+­symptômes
+
+Envisager des causes non infectieuses
+Lésions des muqueuses
+Carcinome ou lymphome amygdalien → biopsie amygdalienne
+Irritation chronique: reflux, exposition à des substances
+nocives (tabagisme, alcool, gaz irritants, substances
+chimiques), air sec, respiration par la bouche chronique
+
+SWISS MEDICAL FORUM – FORUM MÉDICAL SUISSE
+
+la fièvre et la fatigue persistent durant plus d’1 semaine, le praticien devrait également songer à une mononucléose infectieuse [6–8].
+A quelle fréquence des antibiotiques sont-ils prescrits
+inutilement en cas de mal de gorge aigu?
+Bien que l’angine à streptocoques soit relativement
+rare, un traitement antibiotique est prescrit à >70% des
+adultes avec mal de gorge aigu aux Etats-Unis et à >30%
+en Europe [16], y compris dans les pays dans lesquels les
+antibiotiques ne sont plus recommandés [4, 17–19]. En
+Suisse également, de trop nombreux patients reçoivent
+des antibiotiques, notamment 44% des patients avec
+mal de gorge aigu, avec cependant des différences régionales [20].
+
+Indication des antibiotiques en cas
+­d’angine à streptocoques: les preuves
+Le principal motif de prescription d’antibiotiques
+est-il la prévention de complications auto-immunes
+(rhumatisme articulaire aigu)?
+Oui, c’était initialement l’objectif. A partir des années
+1950, un traitement par pénicilline de 10 jours était recommandé en cas d’angine à streptocoques, car l’incidence du RAA était plus faible de 82% et 87% chez les soldats lorsqu’ils étaient traités par pénicilline parentérale
+[21, 22]. Ces résultats proviennent des études «Fort Warren» conduites aux Etats-Unis, mais ils n’ont jamais pu
+être confirmés dans des études prospectives [23, 24] et le
+concept de prévention antibiotique du RAA a été remis
+en question de façon récurrente dès 1946 [25–28].
+Les données «Fort Warren» [21, 22] indiquant que 3–4%
+des patients avec angine à streptocoques développent
+un RAA n’ont elles non plus pas été confirmées [4, 5, 26,
+28]. Ainsi, le risque de RAA chez les civils s’élevait à env.
+1:200 (uniquement dans le cadre d’une épidémie, jusqu’à
+1:20) au Royaume-Uni dans les années 1950 [29,30], à
+1:260 à Chicago en 1960 [31] et à 1:489 aux Pays-Bas dans
+les années 1960 [23]. Depuis lors, le risque de RAA a chuté
+de façon spectaculaire (fig. 2) dans les pays occidentaux
+malgré une incidence stable de l’angine à streptocoques;
+en Ecosse, dans les années 1970, il s’élevait par ex. à
+1:30 000–40 000 [30]. Les antibiotiques n’ont pas permis de réduire davantage ce risque minime de RAA [30].
+Tandis que les lignes directrices de certains pays (EtatsUnis [32], Finlande, ­Canada [4]) reposent sur les études
+«Fort Warren», d’autres pays renoncent à une indication
+de la pénicilline en cas d’angine à streptocoques (par ex.
+Pays-Bas [6–8], Belgique [9], Ecosse [10], Société européenne de microbiologie clinique et des maladies infectieuses [3]) – exception: un traitement par pénicilline/
+amoxicilline est indiqué chez les patients présentant un
+risque accru de RAA (c.-à-d. patients avec RAA dans
+l’anamnèse personnelle).
+
+2019;19(29–30):481– 488
+
+Published under the copyright license “Attribution – Non-Commercial – NoDerivatives 4.0”. No commercial reuse without permission.
+
+See: http://emh.ch/en/services/permissions.html
+
+484
+
+Article de revue
+
+n’y a pas eu d’augmentation du RAA ou des abcès périamygdaliens suite à la réduction de l’utilisation des
+antibiotiques au Royaume-Uni dans les années 1990
+[40]. Le fait que des souches rhumatogènes puissent se
+réimplanter dans nos régions en raison de l’immigration accrue en provenance de pays pauvres et conduire
+à une recrudescence du RAA n’est actuellement que
+pure spéculation. Avec un traitement sans antibiotiques de l’angine à streptocoques, il faudra à l’avenir
+implémenter des surveillances nationales afin de détecter rapidement d’éventuels changements épidémiologiques.
+Figure 2: Incidence du rhumatisme articulaire aigu, Copenhague, 1860–1970. L’intro­duction des antibiotiques a accéléré
+la disparition du rhumatisme articulaire aigu au 20 e siècle,
+mais le déclin de cette affection a déjà débuté de nombreuses
+décennies auparavant (modifiée d’après [69]. Copyright ©
+2000 Oxford University Press. R
+­ eproduction avec l’aimable
+autorisation de l’éditeur).
+
+Les antibiotiques sont-ils indiqués pour la prévention
+de la glomérulonéphrite post-streptococcique?
+Non. Des calculs relatifs à la survenue de la glomé­
+rulonéphrite après une angine à streptocoques ont
+aussi indiqué dès les années 1970 un risque minime
+(1:13 000–1:17 000), qui n’a pas pu être réduit davantage
+par l’administration d’antibiotiques [29, 33].
+Le rhumatisme articulaire aigu existe-t-il au juste
+encore chez nous?
+A peine. Le risque de RAA est extrêmement faible en
+Suisse depuis plus de 50 ans [3, 5], s’élevant tout au plus
+à 0,1 cas/100 000 enfants/an [34], ce qui est à peu près
+équivalent au risque d’anaphylaxie sévère après l’administration de pénicilline [6–8]. Entre 2000 et 2010,
+24 cas possibles ont été constatés chez nous, mais il y
+avait probablement des surdiagnostics en raison d’un
+bilan diagnostique incomplet [35]. Les raisons de la disparition du RAA ne sont pas totalement élucidées. L’introduction des antibiotiques semble avoir accéléré sa
+disparition (fig. 2), mais ne l’explique certainement pas
+[28], car la régression du RAA avait déjà débuté de nombreuses décennies auparavant [36]. Une combinaison
+des facteurs suivants est postulée: meilleure alimentation, moins grande promiscuité de logement, plus petites familles et survenue de souches de streptocoques
+moins «rhumatogènes» [37]. A l’échelle mondiale, le
+RAA est aujourd’hui avant tout une maladie des enfants pauvres dans les pays pauvres, et il existe des
+­indices suggérant une prédisposition conférée par certains types de HLA [38].
+Les souches de streptocoques présentes dans une population ne sont pas constantes, mais on assiste en permanence à l’apparition de nouvelles souches et à la disparition d’autres souches [39]. Un point important est qu’il
+
+SWISS MEDICAL FORUM – FORUM MÉDICAL SUISSE
+
+Les antibiotiques administrés en cas d’angine
+à streptocoques peuvent-ils prévenir efficacement les
+complications purulentes locales (avant tout abcès
+périamygdalien, otite moyenne aiguë, sinusite aiguë)?
+D’après une méta-analyse Cochrane, les antibiotiques
+sont efficaces pour prévenir les abcès périamygdaliens
+[1], mais d’après les lignes directrices européennes, la
+prévention de ces complications locales ne constitue
+toutefois pas une indication explicite des antibiotiques
+[3]. En effet, ces complications sont rares et difficilement prévisibles sur la base de l’état clinique [41]: les
+2/3 de tous les abcès périamygdaliens surviennent chez
+des personnes qui avaient auparavant un score de McIsaac de 0–2 [41] ou chez des personnes qui ne s’étaient
+pas préalablement présentées au cabinet en raison d’un
+mal de gorge [42]. Par rapport aux années 1950 à 1970,
+les abcès périamygdaliens sont en outre nettement
+plus rares aujourd’hui [3, 5]. En conséquence, le nombre
+de patients qui devraient être traités par antibiotiques
+pour prévenir un abcès périamygdalien est aujourd’hui
+très élevé (d’après des études non randomisées, entre
+193 et 4300 patients avec mal de gorge [43, 44]).
+Dans une étude randomisée et contrôlée contre placebo
+conduite chez des enfants, des abcès périamygdaliens
+sont survenus plus rarement sous pénicilline, mais aucun des abcès périamygdaliens survenus n’a été considéré comme grave. Qui plus est, dans le groupe traité
+par pénicilline, les enfants n’ont pas manqué moins de
+jours d’école, leur besoin d’analgésiques n’était pas réduit et le risque de récidive n’était pas plus faible. Les auteurs sont parvenus à la conclusion qu’en cas de survenue d’une complication, il restait encore suffisamment
+de temps pour la traiter à temps et de façon adéquate
+par «antibiotiques retardés» (voir ci-dessous) [7].
+Un aspect essentiel pour une prise en charge réussie des
+patients avec infections respiratoires aiguës consiste
+à informer les patients de l’évolution le plus souvent
+­bénigne de la maladie et à leur expliquer que les complications sont rares, avec ou sans antibiotiques. En cas
+d’aggravation des symptômes, un nouveau contrôle doit
+avoir lieu (fig. 1).
+
+2019;19(29–30):481– 488
+
+Published under the copyright license “Attribution – Non-Commercial – NoDerivatives 4.0”. No commercial reuse without permission.
+
+See: http://emh.ch/en/services/permissions.html
+
+485
+
+Article de revue
+
+Des antibiotiques devraient-ils être administrés
+en cas d’angine à streptocoques afin de raccourcir
+la durée des symptômes?
+Il s’agit là d’une question à discuter, car après 1 semaine, 90% des patients sont asymptomatiques, avec
+ou sans antibiotiques [1]. En Europe de l’Ouest, les antibiotiques sont cependant le plus souvent prescrits
+dans ce cas [3], car des études de faible qualité datant
+des années 1970 à 1980 [5, 28] avaient montré que par
+rapport au placebo, la pénicilline abaissait la probabilité que les enfants présentent encore de la fièvre ou un
+mal de gorge après 48–72 heures [45, 46]. D’après une
+méta-analyse Cochrane, la probabilité de persistance
+des maux de gorge après 3 jours est plus faible de 42%
+sous antibiotiques que sous placebo. Cela correspond
+à un raccourcissement de la durée des symptômes
+d’1–2 jours par rapport au placebo [3]. Les lignes directrices internationales et les auteurs Cochrane qualifient cet effet de «modeste» [1, 3] ou de «faible» [2], tout
+en admettant que ce raccourcissement de la durée des
+symptômes pourrait être considéré comme «pertinent» [2] (par ex. concert d’une chanteuse, examen
+d’un étudiant). Toutefois, les analgésiques soulagent
+eux aussi les maux de gorge, et la comparaison pénicilline vs. placebo en ce qui concerne les symptômes est
+dès lors moins pertinente pour la pratique [5, 28]. Ainsi,
+les lignes directrices écossaises déconseillent de prescrire des antibiotiques dans le but de raccourcir la durée des symptômes, car par rapport aux analgésiques,
+le bénéfice des antibiotiques en termes de durée ou de
+soulagement des symptômes est marginal [10].
+L’institutrice prétend qu’un enfant souffrant d’une
+angine à streptocoques est contagieux et qu’il peut
+uniquement retourner à l’école après avoir pris des
+antibiotiques durant 24 heures. Est-ce exact?
+Aujourd’hui, le principe d’éviction scolaire s’applique
+dans tous les cantons en cas d’angine à streptocoques.
+L’enfant peut uniquement retourner à l’école s’il a reçu
+un traitement antibiotique durant 24 heures. Les données disponibles sur ce thème sont insuffisantes [5, 28].
+Les lignes directrices d’autres pays déconseillent de
+prescrire des antibiotiques pour prévenir des contaminations supplémentaires [10] ou ne s’expriment pas sur
+ce sujet [3]. Nous proposons une réévaluation de ce
+concept. Des efforts d’information supplémentaires
+sont nécessaires dans les jardins d’enfants, les écoles et
+les crèches. Un enfant ayant mal à la gorge peut retourner à l’école s’il s’en sent capable, avec ou sans antibiotiques. Il doit être afébrile même sans antipyrétique et
+pouvoir boire normalement. En cas d’angine à streptocoques dans la famille, à la crèche ou à l’école, env. 5%
+des personnes de contact développent une angine à
+streptocoques malgré un traitement antibiotique du pa-
+
+SWISS MEDICAL FORUM – FORUM MÉDICAL SUISSE
+
+tient index [47, 48]. Le faible risque de transmission et
+l’évolution le plus souvent légère, si une angine était effectivement contractée, ne sont pas des motifs suffisants pour tenir à l’écart de l’école tous les écoliers avec
+angine à streptocoques ou pour les traiter par antibiotiques et ainsi les exposer au risque d’effets indésirables.
+En cas d’infections respiratoires virales, une contamination des camarades de classe est également possible – en
+cas d’angine à streptocoques, il n’est pas nécessaire d’appliquer une stratégie différente. De plus, contrairement
+aux recommandations, tous les enfants avec angine à
+streptocoques ne sont pas traités par un antibiotique à
+spectre étroit (pénicilline, amoxicilline) en Suisse. En
+cas d’utilisation d’antibiotiques à large spectre, l’enfant
+est inutilement exposé au risque de développement de
+résistances et le microbiome est encore plus fortement
+altéré.
+La scarlatine doit-elle être traitée par antibiotiques?
+La scarlatine correspond à une infection par certains
+streptocoques du groupe A, lors de laquelle l’angine
+s’accompagne d’une éruption cutanée. Le diagnostic
+est confirmé par un test de diagnostic rapide des streptocoques positif sur écouvillonnage pharyngé [49]. La
+scarlatine reste toutefois un diagnostic clinique, avec
+une «langue framboisée» et une texture de «papier de
+verre» de l’éruption cutanée au toucher. L’éruption
+­débute souvent au niveau du tronc, elle peut avoir l’apparence d’un coup de soleil et entraîner des démangeaisons, et elle disparaît après 5–7 jours, en s’accompagnant éventuellement d’une desquamation.
+Dans la pratique, la majorité des éruptions fébriles
+avec mal de gorge sont virales et ne sont pas dues à la
+scarlatine. Pour cette raison et à cause du problème du
+portage de streptocoques, il convient de remettre en
+question le diagnostic: un frottis pharyngé positif ne
+prouve pas une scarlatine, mais un frottis négatif l’exclut.
+Actuellement, l’éviction scolaire s’applique en cas de
+scarlatine en Suisse. Là aussi, nous encourageons une
+réévaluation de cette approche. L’enfant doit certes être
+traité à la maison tant qu’il est malade et peut retourner
+à l’école quand il se sent à nouveau en forme, mais la
+scarlatine est aujourd’hui le plus souvent tout aussi bénigne qu’une angine à streptocoques sans éruption cutanée, et les complications sont rares [8, 49]. Le pédiatre
+peut prendre une décision sur une base clinique: si l’enfant atteint de scarlatine présente une atteinte systémique, de l’amoxicilline peut être prescrite.
+Pour la scarlatine également, les lignes directrices britanniques et néerlandaises préconisent de ne pas administrer d’antibiotiques ou de recourir à des antibiotiques retardés dans la plupart des cas d’évolution
+légère, comme pour l’angine à streptocoques [5, 8, 50].
+
+2019;19(29–30):481– 488
+
+Published under the copyright license “Attribution – Non-Commercial – NoDerivatives 4.0”. No commercial reuse without permission.
+
+See: http://emh.ch/en/services/permissions.html
+
+486
+
+Article de revue
+
+L’incidence et la sévérité de la scarlatine ont fortement
+diminué au 19e/20e siècle; la scarlatine «septique» ou
+«toxique», qui était redoutée au 19e siècle, ne s’observe
+plus guère aujourd’hui.
+Après 50 ans, des flambées de scarlatine sont à nouveau
+survenues de façon temporaire entre 2014 et 2016 en
+Angleterre, mais pas dans les autres pays qui recommandent un traitement sans antibiotiques de l’angine à
+streptocoques; pour l’instant, aucun lien microbiologique ou épidémiologique n’a pu être identifié [51]. Dans
+le but de prévenir des flambées et de contenir leur ampleur, les autorités de santé publique anglaises recommandent depuis lors à nouveau de traiter la scarlatine
+par antibiotiques, sachant que cette recommandation
+ne s’appuie pas sur des preuves, mais sur un avis d’experts [3, 14, 52, 53]. Chez nous aussi, la vigilance est de
+mise quant à une possible augmentation des cas de
+scarlatine (NB: En Suisse, la scarlatine n’est actuellement pas une maladie à déclaration obligatoire).
+Un traitement antibiotique de l’angine à streptocoques permet-il de prévenir des infections invasives
+graves à streptocoques (fasciite nécrosante, syndrome
+de choc toxique, etc.)?
+Non. Dans la littérature, aucun lien n’a été établi entre
+les rares infections invasives graves à streptocoques du
+groupe A et les angines à streptocoques non invasives et
+superficielles, le plus souvent d’évolution bénigne, qui
+sont beaucoup plus fréquentes [53]. Les infections invasives à streptocoques du groupe A sont certes en augmentation dans certaines régions du monde, mais souvent en rapport avec des facteurs de risque, tels que le
+diabète, les drogues ou la consommation d’alcool [3].
+Globalement, les infections invasives graves à streptocoques du groupe A, telles que les infections nécrosantes profondes de la peau et des tissus mous (par ex.
+fasciite nécrosante), sont cependant rares et elles ne surviennent pas suite à une angine à streptocoques, mais
+après un érysipèle, après des lésions cutanées traumatiques ou en postopératoire, mais parfois aussi sans
+cause identifiable. Après prélèvement des échantillons
+microbiologiques (hémocultures, échantillons tissulaires), une antibiothérapie immédiate est indiquée.
+
+Diagnostic
+
+1 Les critères moins connus
+de McIsaac correspondent
+aux critères de Centor.
+L’âge des patients est
+également pris en compte.
+
+Quelles analyses de laboratoire sont recommandées
+en cas de mal de gorge aigu?
+En cas de score de McIsaac1 ≥3, nous recommandons de
+réaliser un frottis pharyngé. D’autres analyses de laboratoire (par ex. CRP, procalcitonine, hémogramme,
+numéra­tion leucocytaire, formule sanguine avec différentiel, titre des anticorps anti-streptolysine O) ne sont
+d’une manière générale pas recommandées pour le dia-
+
+SWISS MEDICAL FORUM – FORUM MÉDICAL SUISSE
+
+gnostic initial ou la décision quant à une antibiothérapie [1, 2, 10], sauf en cas d’aggravation des symptômes
+ou d’évolution prolongée, dans le cadre de l’évaluation
+des diagnostics alternatifs. Malheureusement, il arrive
+que seules des analyses de laboratoire permettent de
+rassurer le patient et de lui donner le sentiment d’être
+pris au sérieux – le médecin expérimenté peut et doit
+contrecarrer cette médicalisation inutile de l’angine à
+streptocoques, le plus souvent d’évolution bénigne, en
+fournissant de bonnes explications au patient.
+En cas de mal de gorge aigu, les médecins doivent-ils
+décider de prescrire ou non des antibiotiques sur
+la base des critères de Centor/McIsaac et sans réaliser
+de frottis pharyngé?
+Non. Il est vrai que le test de diagnostic rapide des
+streptocoques n’est plus recommandé d’une manière
+générale aux Pays-Bas, en Belgique et en Ecosse. Raison: le bénéfice de l’antibiothérapie en termes de soulagement des symptômes est modeste même en cas de
+mise en évidence de streptocoques [3] et les antibiotiques ne sont pas indiqués pour prévenir les complications purulentes ou le RAA. Des publications récentes
+importantes ont cependant montré qu’en cas de recours systématique au test de diagnostic rapide, l’utilisation des antibiotiques diminue [32, 54–58]. En effet,
+en cas de test de diagnostic rapide négatif, le patient
+peut généralement être rassuré et une stratégie non
+antibiotique peut être choisie [3].
+Pour la décision quant à une antibiothérapie,
+un frottis pharyngé (test de diagnostic rapide des
+streptocoques du groupe A) doit-il être réalisé?
+Si le médecin envisage une antibiothérapie, il doit utiliser le score de Centor/McIsaac. Plus le nombre de points
+au score de McIsaac est élevé, plus la probabilité pré-test
+d’une angine à streptocoques (dans la plupart des cas,
+maladie localisée à un étage) est élevée et plus la probabilité d’une infection virale (souvent, maladie touchant
+plusieurs étages) est faible. Chez les enfants, le bénéfice
+du score de McIsaac est plus faible que chez les adultes
+[3]. Le frottis pharyngé doit être réalisé de manière différenciée, c.-à-d. uniquement en cas de score élevé
+(fig. 1). Cette approche correspond à une antibiothérapie
+ciblée par une pose d’indication ciblée, en accord avec la
+stratégie nationale Antibiorésistance:
+Frottis pharyngé si score de McIsaac ≥3 – le test de diagnostic rapide des streptocoques se révèlera positif
+chez 28–53% de ces patients. En cas de test de diagnostic
+rapide positif, une antibiothérapie peut être envisagée
+(fig. 1) [54, 59]. Les indications supplémentaires pour le
+frottis pharyngé sont cliniques: évolution prolongée ou
+aggravation des symptômes après la première consultation, complications (abcès périamygdalien).
+
+2019;19(29–30):481– 488
+
+Published under the copyright license “Attribution – Non-Commercial – NoDerivatives 4.0”. No commercial reuse without permission.
+
+See: http://emh.ch/en/services/permissions.html
+
+487
+
+Article de revue
+
+Pas de frottis pharyngé si score de McIsaac de 0 à 2 –
+un test de diagnostic rapide des streptocoques positif
+correspondrait alors le plus vraisemblablement à
+un portage. Les patients avec un score de McIsaac de
+0–2 ont généralement un faible risque de complications [60].
+Le test de diagnostic rapide ne doit jamais être le seul
+critère décisionnel pour l’administration ou non de pénicilline. En effet, le test de diagnostic rapide peut être
+faussement négatif (sensibilité de seulement 70–90%)
+[32], ce qui, dans la pratique, est le plus probablement lié
+à un écouvillonnage insuffisant des amygdales, par ex.
+en raison d’un réflexe nauséeux. La prudence est de rigueur en cas de test de diagnostic rapide négatif lorsque
+le patient a l’air gravement malade [6–8] ou lorsque des
+critères «red flag» sont présents (fig. 1). Dans ce cas, une
+évaluation clinique minutieuse est recommandée afin
+de ne pas passer à côté par ex. du rare syndrome de
+­Lemierre en réalisant des hémocultures (tab. 1) [61].
+Le portage asymptomatique de streptocoques est-il
+fréquent?
+Il s’agit là d’une question délicate, pour laquelle il
+n’existe actuellement pas de réponse satisfaisante: 10–
+30% des enfants et des jeunes adultes sont des porteurs
+asymptomatiques de streptocoques – un test de diagnostic rapide positif est dès lors toujours uniquement
+un indice mais pas une preuve que les streptocoques
+sont la cause du mal de gorge [14, 32]. Les porteurs
+asymptomatiques ont un test de diagnostic rapide
+­positif qu’ils aient mal à la gorge ou non, et en cas de
+mal de gorge viral, une angine à streptocoques serait
+alors diagnostiquée à tort et inutilement traitée par
+antibiotiques. La plupart des enfants avec «angine à
+streptocoques récidivante» présentent probablement
+des infections virales à répétition et un portage asymptomatique de streptocoques [32]. Le portage asymptomatique peut durer des mois, des angines cliniques
+surviennent rarement et le risque de transmission à
+des tiers est très faible – les frottis pharyngés pour rechercher des streptocoques ne sont pas indiqués chez
+les personnes asymptomatiques [14].
+
+Traitement
+Quel traitement est efficace en cas de mal de gorge aigu?
+Les antibiotiques ont un effet marginal sur la durée des
+symptômes [10] – leur utilisation systématique n’est pas
+indiquée [1, 3]. Une «non-réponse aux antibiotiques» remet en outre en question le diagnostic d’angine à streptocoques [32, 46]: il est préférable d’examiner à nouveau
+le patient.
+En revanche, les traitements symptomatiques sont appréciés par de nombreux patients, car ils soulagent les
+
+SWISS MEDICAL FORUM – FORUM MÉDICAL SUISSE
+
+symptômes et les rendent plus supportables. L’ibuprofène, le paracétamol ou les anesthésiques locaux topiques sont recommandés [3]. La fièvre devrait uniquement être abaissée avec modération en cas d’altération
+de l’état général, car elle joue un rôle essentiel dans la
+défense contre les infections. En cas de fièvre, le repos
+au lit est recommandé, et en particulier en cas de scarlatine, le repos à la maison jusqu’à la guérison (c.-à-d.
+disparition des maux de gorge, bon état général) est judicieux. Des apports liquidiens suffisants sont essentiels. Parmi les mesures utiles pour soulager les symptômes figurent les enveloppements du cou imprégnés
+de citron ou de fromage blanc, ainsi que les boissons
+chaudes (par ex. infusions de tilleul ou de sauge) à
+boire par petites gorgées ou (enfants plus âgés, adultes)
+à gargariser puis avaler.
+Ces mesures contribuent également à rassurer le patient qui a l’impression d’être pris en charge et elles lui
+enlèvent le sentiment d’impuissance et de ne rien faire
+pour guérir lorsque des antibiotiques ne sont pas prescrits. Ce point est encore plus important en pédiatrie,
+où il arrive que les parents ne parviennent autrement
+pas à accepter les symptômes de leur enfant, qui sont
+encore amplifiés par la méconnaissance, les peurs, les
+inquiétudes et le sentiment de ne rien pouvoir faire. La
+pression sociale doit également être prise en compte: il
+peut arriver que les parents souhaitent que l’enfant
+malade puisse retourner le plus rapidement possible à
+la crèche/l’école et qu’ils puissent retourner rapidement au travail – aucun traitement, ni même les antibiotiques, ne permet d’atteindre ces objectifs.
+Si antibiotiques indiqués, la pénicilline/l’amoxicilline
+sont-elles toujours suffisantes aujourd’hui?
+Oui. Aujourd’hui encore, les streptocoques du groupe A
+sont sensibles à la pénicilline. Si un traitement antibiotique doit être initié, alors il faut recourir à la pénicilline
+ou à l’amoxicilline. Les autres antibiotiques (macrolides
+tels que la clarithromycine ou l’azithromycine, céphalosporines telles que la céfuroxime, ou quinolones telles
+que la ciprofloxacine) ont un spectre beaucoup trop
+large et sont donc inutiles. Ils sont uniquement recommandés en cas d’allergie à la pénicilline. En outre, il
+existe parfois des résistances aux macrolides.
+Quand la pénicilline/l’amoxicilline est-elle indiquée?
+La pénicilline/l’amoxicilline peut être envisagée en cas
+de score de McIsaac ≥3 et de test de diagnostic rapide
+des streptocoques positif, et en cas de scarlatine. Il faut
+toutefois garder à l’esprit que la durée des symptômes
+n’est que faiblement réduite avec la pénicilline, que les
+complications sont également rares sans antibiotiques
+et que les antibiotiques peuvent avoir des effets indésirables [5]. La prudence s’impose chez les patients grave-
+
+2019;19(29–30):481– 488
+
+Published under the copyright license “Attribution – Non-Commercial – NoDerivatives 4.0”. No commercial reuse without permission.
+
+See: http://emh.ch/en/services/permissions.html
+
+488
+
+Article de revue
+
+Correspondance:
+Prof. Dr méd. Philip Tarr
+Medizinische
+­Universitätsklinik
+Kantonsspital Baselland
+CH-4101 Bruderholz
+philip.tarr[at]unibas.ch
+
+ment malades et immunodéprimés [6–8] (fig. 1), en cas
+d’aggravation des symptômes dans les jours suivant la
+première consultation et en cas de survenue d’une
+complication. Dans ce cas, une nouvelle évaluation clinique est recommandée.
+Si antibiotiques envisagés, faut-il les prescrire
+immédiatement ou de façon retardée?
+Une alternative intéressante aux antibiotiques immédiats réside dans la stratégie de l’antibiothérapie retardée («delayed»): le patient se voit remettre une ordonnance, avec la consigne de ne s’en servir que si les
+symptômes se détériorent ou ne s’améliorent pas après
+72 heures (comme pour les recommandations actuelles
+relatives au traitement de l’otite moyenne aiguë). Dans
+de grandes études, l’antibiothérapie immédiate et l’antibiothérapie retardée ont présenté une efficacité similaire, mais avec la stratégie retardée, il a été possible
+d’éviter les antibiotiques chez 69% des patients avec
+mal de gorge, car les symptômes se sont améliorés
+spontanément [43].
+Il est primordial de communiquer clairement pour éviter les «mixed messages» [62]. Afin de ne pas reporter
+une trop grande responsabilité sur les patients, il faut
+convenir d’une deuxième consultation en cas d’absence d’amélioration [63]. Parmi les autres avantages
+des antibiotiques retardés (ou évités) figurent la préservation de la flore bactérienne normale et le développement possiblement facilité d’une immunité utile
+contre les streptocoques, qui pourrait protéger contre
+les récidives [64]. Dans une étude randomisée conduite
+avec 114 enfants, le risque de récidive de pharyngite
+était plus de deux fois plus élevé dans le groupe pénicilline que dans le groupe placebo [65].
+
+L’essentiel pour la pratique
+•
+
+L’angine à streptocoques a le plus souvent une évolution bénigne: amé-
+
+•
+
+En cas de score de McIsaac ≥3, il est recommandé de réaliser un frottis
+
+•
+
+En cas de test de diagnostic rapide positif, les antibiotiques peuvent le
+
+lioration spontanée en l’espace d’1 semaine, avec ou sans antibiotiques.
+
+Un effet négatif regrettable et non négligeable de l’antibiothérapie immédiate (et des analyses de laboratoire inutiles) est la médicalisation inutile d’une situation le plus souvent bénigne: d’une part, l’indication
+d’une antibiothérapie en cas d’angine à streptocoques
+est clinique (c’est le patient qu’on traite et non pas la
+CRP élevée); d’autre part, une antibiothérapie immédiate suscite des attentes chez le patient qui, lorsqu’il
+sera à nouveau malade, reviendra chez le médecin et
+souhaitera à nouveau des antibiotiques [10, 64]. En cas
+d’antibiothérapie retardée, cet effet a été constaté
+moins souvent [5]. Pour les collègues enclins à prescrire des antibiotiques, une stratégie d’antibiothérapie
+retardée pourrait représenter un compromis entre
+une antibiothérapie immédiate et pas d’antibiothérapie du tout.
+Ne pas prescrire d’antibiotiques mais satisfaire
+le patient, est-ce possible?
+La recommandation de ne pas prescrire d’antibiotiques peut faire peur aux patients et doit dès lors être
+communiquée avec circonspection [66], en particulier
+lorsqu’ils ont été habitués à se faire prescrire des antibiotiques lors des consultations médicales par le passé.
+Il est essentiel de leur fournir une estimation réaliste
+de la durée prévisible des symptômes (fig. 1): jusqu’à
+7 jours. Avec les antibiotiques, la durée d’absentéisme
+professionnel ou scolaire n’est pas raccourcie [67]. Les
+preuves émanant de la recherche sur les infections des
+voies respiratoires supérieures sont solides: la satisfaction des patients ne dépend pas d’une ordonnance
+d’antibiotiques, mais du sentiment qu’ils ont été pris
+au sérieux par le médecin, du fait que le médecin ait
+pris du temps et ait expliqué la maladie et du fait que le
+patient ait compris la procédure [68]. Il est primordial
+de mettre l’accent sur les mesures destinées à soulager
+les symptômes. Une étude européenne récemment
+­publiée a fourni un résultat surprenant: moins de la
+moitié des personnes interrogées savaient que les antibiotiques étaient inefficaces en cas d’infections virales – le fait que le médecin précise que l’infection est
+«virale» et que des antibiotiques ne sont donc pas nécessaires est probablement pas très utile [10].
+
+pharyngé (test de diagnostic rapide des streptocoques du groupe A).
+plus souvent être utilisés de façon «retardée», c.-à-d. en cas d’aggravation
+des symptômes ou d’absence d’amélioration en l’espace de 72 heures.
+•
+
+D’après les lignes directrices internationales, les antibiotiques ne sont pas
+indiqués pour prévenir les abcès périamygdaliens ou le rhumatisme articulaire aigu.
+
+•
+
+Par rapport au placebo, les antibiotiques réduisent la durée des symptômes d’1–2 jours. D’après une méta-analyse Cochrane, ce bénéfice est
+modeste; les mesures destinées à soulager les symptômes, telles que les
+analgésiques, jouent un rôle essentiel.
+
+SWISS MEDICAL FORUM – FORUM MÉDICAL SUISSE
+
+Remerciements
+Les auteurs remercient le groupe chargé des lignes directrices sur la
+pharyngite de la Société Suisse d’Infectiologie (Christoph Berger, Benedikt Huttner, Noemie Boillat Blanco et Werner Albrich) pour les
+discussions précieuses.
+
+Disclosure statement
+Les auteurs n’ont pas déclaré d’obligations financières ou personnelles
+en rapport avec l’article soumis.
+
+Références
+La liste complète des références est disponible dans la version en ligne
+de l’article sur https://doi.org/10.4414/fms.2019.08092.
+
+2019;19(29–30):481– 488
+
+Published under the copyright license “Attribution – Non-Commercial – NoDerivatives 4.0”. No commercial reuse without permission.
+
+See: http://emh.ch/en/services/permissions.html
+
+

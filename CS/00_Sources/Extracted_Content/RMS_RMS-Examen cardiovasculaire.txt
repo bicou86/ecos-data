@@ -1,0 +1,960 @@
+EXAMEN CARDIOVASCULAIRE
+
+Examen cardio-vasculaire
+GUILLAUME JORDAN, ALBAN SADIKU, ARNAUD LYON, CLAIRE PERRIARD
+
+Table des matières
+
+Introduction
+
+02
+
+Contexte
+
+02
+
+Examen clinique
+1. Inspection cardio-vasculaire":
+2. Palpation cardio-vasculaire":
+3. Auscultation cardiaque":
+4. Inspection vasculaire":
+5. Auscultation et palpation vasculaire":
+
+02
+03
+05
+07
+11
+12
+
+Carte de synthèse
+
+15
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+01
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+PROFILES
+Ce document a pour objectif de soutenir l’apprentissage des étudiants en présentant et explicitant les outils nécessaires à la réalisation d’un
+examen cardio-vasculaire, compétence clinique
+à acquérir en vue du diplôme fédéral et de l’assistanat, et définie selon les Entrustable Professional Activities (EPA) | PROFILES auquel nous vous
+référons.
+Attention, effectuer un examen exhaustif n’est
+pas toujours possible en clinique. Selon les informations obtenues du patient, il est attendu de
+votre part de réaliser les éléments pertinents de
+l’examen.
+
+INTRODUCTION
+Les maladies cardiaques sont les causes les
+plus fréquentes de mortalité et d’hospitalisation en Suisse.
+Un symptôme cardiaque peut être la conséquence d’une étiologie cardiaque ou extracardiaque. Il faut garder en mémoire qu’un
+trouble cardiaque peut lui-même être primaire ou secondaire. L’examen cardiaque devra être complété par d’autres examens permettant d’exclure une autre origine. Devant
+une dyspnée, il faut inclure dans son diagnostic différentiel les systèmes oto-rhino-laryngologique, pulmonaire, cardiovasculaire, neuro-musculaire, métabolique et endocrinologique, hématologique, psychogène, etc.
+
+CONTEXTE
+Avant de commencer l’examen, il est essentiel
+de s’assurer que l’environnement est adapté. On se présente au patient avant de débuter l’examen, on lui demande son accord et
+on lui fournit des explications sur le déroulement. Mettre le patient à l’aise est une priorité et permet aussi de renforcer l’alliance thérapeutique. L’examen clinique en est d’autant
+plus facilité.
+
+02
+
+Les règles d’hygiène prescrivent une désinfection en entrant et en sortant de la pièce,
+avant et après contact avec le patient et après
+contact avec l’environnement du patient. Elles
+prescrivent également le port de gants lors de
+contact avec des liquides biologiques.
+Pour l’examen cardio-vasculaire, on demande
+au patient d’enlever le haut en lui expliquant
+qu’il est essentiel d’avoir accès à son thorax
+entier. Une patiente peut garder ses sous-vêtements. La poitrine peut restreindre l’accès
+aux zones cardiaques, on peut demander à la
+patiente de déplacer son sein pour faciliter
+l’examen.
+On l’installe confortablement sur le dos
+(décubitus dorsal) sur la table d’examen, les
+jambes décroisées, les bras le long du corps
+avec un coussin sous la tête et sous les genoux.
+On se place systématiquement à la droite du
+patient par convention.
+
+EXAMEN CLINIQUE
+Avant de procéder à un examen, il est important de connaître les constantes vitales du patient. On divise l’examen clinique cardio-vasculaire en deux phases. La première est l’examen cardiaque. On commence toujours par
+l’inspection du patient. Ensuite viennent
+dans cet ordre la palpation et l’auscultation.
+Dans un deuxième temps on procède à l’examen vasculaire, avec une inspection puis
+une palpation. Il est important d’effectuer
+l’examen de manière symétrique afin d’identifier une asymétrie.
+Le cœur est divisé en quatre cavités, ventricule gauche et droit ainsi que les oreillettes
+droite et gauche. Il existe quatre valves, deux
+valves atrio-ventriculaires, tricuspide et mitrale, et deux valves semi-lunaires, aortique
+et pulmonaire. Les foyers d’auscultation sont
+définis selon cette topographie anatomique
+et permettent de localiser l’origine des signes
+observés.
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN CARDIOVASCULAIRE
+
+FIG 1
+
+Topographie cardiaque, veineuse et artérielle
+
+Le système vasculaire est divisé en un compartiment artériel et un veineux. Au niveau artériel on définit des pouls centraux, carotidien
+et fémoral, et des pouls périphériques. Le système veineux est divisé en superficiel et profond. Le drainage du réseau superficiel est assuré au niveau du membre supérieur par la
+veine céphalique et basilique et au niveau du
+membre inférieur par les saphènes. Les veines
+perforantes relient le système profond et superficiel au niveau des membres inférieurs.
+En clinique on sépare le membre inférieur en
+proximal, au-dessus de l’interligne du genou
+et en distal, au-dessous.
+
+1.&Inspection cardio-vasculaire(:
+Lorsque l’on inspecte le système cardio-vasculaire d’un patient on doit observer d’une part
+l’état général du patient et d’autre part regarder les signes cliniques évocateurs d’une pathologie cardio-vasculaire. On observe l’état
+général du patient. Il est agité, léthargique,
+on a du mal à communiquer avec lui, etc.
+On pense à un état de conscience altéré, par
+exemple une détresse respiratoire, une insuffisance circulatoire ou un état confusionnel aigu sur une hyponatrémie, une altération
+neurologique centrale, une infection urinaire,
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+un trouble métabolique ou toxique, une anémie, etc. Le patient est maigre, présente des
+amyotrophies temporales ou interdigitales,
+des œdèmes et un ventre globuleux. On pense
+à une dénutrition.
+Un patient peut être décontracté comme un
+autre pourrait présenter des douleurs difficilement supportables et aurait donc tendance
+à se recroqueviller sur lui-même. La douleur
+se lira aussi sur son faciès. Les douleurs thoraciques sont un des symptômes les plus graves
+que l’on rencontre. Elles nécessitent Il est vital
+d’envisager une atteinte coronarienne (douleur profonde rétro-sternale irradiant dans de
+cou et le bras gauche souvent en relation avec
+l’effort) ou péricardique (patient en position
+assise, thorax vers l’avant se plaignant d’une
+douleur souvent respiro-dépendante). Mais
+il ne faut pas oublier les origines extra-cardiaques comme l’embolie pulmonaire.
+On observe si le patient est dyspnéique (à
+nouveau se poser la question si cette dyspnée
+est d’origine cardiaque ou extra-cardiaque) ou
+tachypnéique.
+On observe l’allure du thorax. Existe-il une
+déformation, une asymétrie, des cicatrices,
+
+03
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+des lésions cutanées, un boîtier de pacemaker!? Les déformations du thorax peuvent dans
+les cas sévères diminuer la fonction cardiaque
+et respiratoire.
+L’inspection cardiaque impose une observation d’éléments «!périphériques!» comme les
+veines jugulaires, les membres inférieurs,
+les doigts etc.
+On observe s’il existe une turgescence (ou
+une turgescence hépato-jugulaire voire plus
+bas) des veines jugulaires. Celle-ci reflète la
+pression dans l’oreillette droite et est observée dans l’insuffisance cardiaque droite. Si la
+veine jugulaire se remplit à l’inspiration, on
+peut penser spécifiquement à une péricardite constrictive. On parle de signe de Kussmaul, rarement observé dans la tamponnade.
+Il peut être expliqué par une augmentation du
+retour veineux à l’inspiration et un ventricule
+non compliant au remplissage.
+On observe une pâleur, on palpe des extrémités froides, marbrées et cyanosées, un temps
+de recoloration augmenté. On pense à une
+baisse de perfusion secondaire à une vasoconstriction périphérique. Les causes peuvent
+être locales, par exemple dans un syndrome
+de Raynaud, ou systémique sur une insuffisance cardiaque, un choc obstructif, hypovolémique ou cardiogénique. Si les extrémités
+sont chaudes et que l’on observe des signes
+d’insuffisance circulatoire, on pense à un choc
+distributif sur sepsis, anaphylaxie, intoxication, origine neurogène, etc. Ils se traduisent
+par une vasodilatation.
+On prend le temps de recoloration en appuyant sur la face palmaire de la dernière phalange et en évaluant la durée nécessaire pour
+la recoloration lorsque l’on cesse d’appuyer
+sur le doigt. Si la recoloration prend plus de
+trois secondes, la perfusion est diminuée.
+On observe un aspect bombé des ongles. Il
+s’agit d’un hippocratisme digital qui peut faire
+penser à une hypoxie chronique mais ce n’est
+
+04
+
+pas un signe spécifique d’une atteinte cardiorespiratoire.
+On observe un érythème maculaire palmoplantaire, des nodules douloureux au niveau
+de la pulpe des doigts, des pétéchies sous-unguéales. On parle respectivement de lésions
+de Janeway (érythème maculaire), emboles
+septiques et de nodules d’Osler (nodules),
+complexes immuns circulants. On pense à une
+endocardite. On peut également rechercher
+des taches hémorragiques suggestives au niveau rétinien appelées taches de Roth.
+On observe un membre tuméfié. On pense à
+des œdèmes, une dermohypodermite, un syndrome des loges, etc.
+Un phlébœdème est d’origine veineuse secondairement à une cause locale ou systémique. Il peut prendre tout le membre inférieur. Au niveau local on pense à une insuffisance veineuse, une thrombose veineuse, une
+algodystrophie, une malformation vasculaire,
+une origine inflammatoire ou infectieuse, etc.
+Concernant les causes systémiques, penser à
+un engorgement du cœur droit, une insuffisance rénale, une hypoalbuminémie, etc. Les
+causes systémiques ont la particularité d’être
+bilatérales.
+Un lymphœdème est d’origine lymphatique,
+primairement sur une malformation ou secondaire à une obstruction par une filariose,
+une tumeur gynécologique, de la prostate,
+un mélanome, un acte iatrogène, une malformation lymphatique, etc. Les lymphœdèmes
+prennent surtout le dos du pied et les orteils.
+Le myxœdème consiste en une déposition des
+glycosaminoglycanes dans le derme et les muqueuses. On pense à une hypothyroïdie.
+Le lipœdème consiste en une dystrophie localisée du tissu adipeux. Son origine est peu
+connue.
+On appuie sur la peau pour voir si une dépres-
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN CARDIOVASCULAIRE
+
+sion persiste, signe du godet. La persistance
+d’un creux parle en faveur d’une origine veineuse ou lymphatique.
+Un observe le visage. On observe un faciès
+œdématié, on pense à une insuffisance rénale,
+une obstruction de la veine cave supérieure,
+des dermatoses, un angioedème, une hypothyroïdie, une maladie de Cushing, une prééclampsie, etc.
+On observe une disparition des vaisseaux sanguins de la conjonctive palpébrale. On pense à
+une anémie.
+On observe des dépôts jaunâtres à l’angle nasal de l’œil ou à la périphérie de la cornée. On
+parle respectivement de xanthélasmas et de
+gérontoxon. Ce sont des signes de dyslipidémies qui peuvent également être observés ailleurs sur la peau.
+On observe une coloration bleutée des lèvres
+et la langue. Il s’agit d’une cyanose centrale
+La cyanose centrale résulte d’une défaillance
+de l’échangeur gazeux sur un shunt droitegauche, un trouble de la diffusion ou une hypoventilation alvéolaire sur insuffisance respiratoire mécanique. Un shunt est d’origine
+cardiaque ou pulmonaire sur œdème pulmonaire, atélectasie, BPCO, asthme, corps étranger, pneumonie, embolie pulmonaire, etc.
+
+2.&Palpation cardio-vasculaire(:
+On évalue la fréquence et le rythme cardiaque en palpant une artère, généralement
+radiale. Si elle est régulière on l’évalue sur
+quinze secondes et en cas d’irrégularité sur
+une minute. Une fréquence supérieure à 100/
+minute est une tachycardie, une fréquence inférieure à 60/minute est une bradycardie. Une
+tachycardie peut évoluer en bradycardie en
+cas de décompensation cardiaque sévère.
+Une tachycardie peut être tachyarythmique
+ce qui signifie que le rythme cardiaque en plus
+d’être rapide est irrégulier. Cela peut être se-
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+condaire à une insuffisance cardiaque, une
+embolie pulmonaire, un orthostatisme, une
+hémorragie, une déshydratation rénale ou
+extra-rénale, une infection ou un sepsis, une
+anémie, une anaphylaxie, une origine endocrinologique, un stress, des toxiques ou médicaments, des troubles hydroélectrolytiques, etc.
+Une bradycardie se retrouve dans une bradyarythmie, une hypertension intracrânienne,
+une origine endocrinologique, un stress, des
+toxiques ou médicaments, des troubles hydroélectrolytiques, une maladie du sinus carotidien, une dysautonomie, etc.
+On évalue la tension artérielle avec un brassard à pression. Nous évaluons deux valeurs";
+la pression artérielle systolique et la pression
+artérielle diastolique, la tension étant mesurée
+en millimètres de mercure (mmHg). La tension artérielle moyenne correspond à l’addition de 2/3 de la pression diastolique et 1/3 de
+la pression systolique. On considère une hypertension au-dessus de 140/90 mmHg et une
+hypotension en dessous de 90/60 mmHg.
+Nous observons une hypertension artérielle,
+on pensera le plus souvent à une HTA essentielle et moins fréquemment à des causes endocrinologiques (hyperaldostéronisme primaire, syndrome de Cushing, phéochromocytome, hyperparathyroïdisme primaire,
+hyperthyroïdie) ou des causes rénales (HTA
+rénovasculaire, atteinte parenchymateuse rénale). Avec l’âge, et donc la calcification des
+artères, nous tolérerons des valeurs seuils plus
+hautes d’hypertension.
+Nous observons une hypotension artérielle,
+on pensera à une hypotension sur orthostatisme, un réflexe vaso-vagal, une déshydratation, un état de choc (hypovolémique, cardiogène ou distributif), une pathologie cardiovasculaire (infarctus du myocarde, insuffisance
+cardiaque, etc.), une atteinte neurologique
+(Parkinson, Guillain-Barré, une sclérose en
+plaques, un AVC), une pathologie endocrinienne (insuffisance surrénalienne, hypothy-
+
+05
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+roïdie, etc.), une cause médicamenteuse (arrêt d’une corticothérapie au long cours, dérivés nitrés, diurétiques, anti-hypertenseurs,
+neuroleptiques, anxiolytiques, etc.), une maladie du sinus carotidien, etc.
+
+FIG 2
+
+Palpation artère carotide
+
+FIG 3
+
+Palpation du choc
+de pointe
+
+On palpe un pouls faible. On pense à une insuffisance volémique circulatoire.
+On pratique systématiquement une palpation du pouls carotidien. Il s’agit du pouls le
+plus représentatif de la fonction cardiaque. On
+place la pulpe de l’index et du majeur sur le
+bord interne du sterno-cléido-mastoïdien que
+l’on écarte. Attention, ne pas palper les deux
+carotides en même temps afin d’éviter une hypoperfusion cérébrale. Également, il faut éviter un massage des carotides qui par stimulation du glomus carotidien peut entraîner une
+stimulation vasovagale.
+Par la palpation on peut apprécier un rétrécissement ou une insuffisance aortique si le pouls
+est lent et retardé. Une asymétrie du pouls
+peut nous aider à identifier une athérosclérose
+ou une dissection aortique.
+Avant de procéder à la palpation du pouls carotidien, auscultez les carotides afin d’exclure
+une sténose. Un souffle carotidien n’est pas
+synonyme d’une atteinte athéromateuse carotidienne, le souffle pouvant provenir, par
+exemple, d’un rétrécissement aortique. Une
+investigation complémentaire doit être pratiquée. Mais il faut savoir qu’une palpation
+pourrait libérer un embole athéromateux en
+direction des vaisseaux cérébraux.
+On poursuit par une palpation du choc de
+pointe. On pose la pulpe des doigts au niveau des 4e et 5e espaces intercostaux, sur la
+ligne médio-claviculaire. On perçoit une vibration faible et vive, d’une zone de diamètre
+inférieure à 2,5 cm. Cette vibration résulte du
+mouvement du cœur et sa percussion contre
+la cage thoracique. On doit décrire le choc selon sa localisation, son diamètre et son amplitude. La position en décubitus latéral gauche
+
+06
+
+permet d’amener le ventricule gauche contre
+la paroi thoracique, ainsi la palpation est facilitée.
+On palpe un choc de pointe élargi, déplacé et
+amplifié. On pense à une surcharge de volume,
+en cas de dilatation des cavités cardiaques ou à
+une surcharge de pression, en cas d’hypertrophie des ventricules.
+Finalement on effectue la manœuvre dite du
+reflux hépato-jugulaire. Pour ce geste, il est
+essentiel de surélever le thorax du patient à 30
+degrés par rapport à ses jambes afin de diminuer le nombre de faux-positifs. On demande
+au patient de tourner sa tête vers la gauche,
+on appuie fermement sur son foie. On observe
+une turgescence au niveau de la veine jugu-
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN CARDIOVASCULAIRE
+
+FIG 4
+
+Manœuvre du reflux
+hépato-jugulaire
+
+laire externe. On pense à une dysfonction du
+cœur droit. Le reflux est expliqué par un engorgement des veines sus-hépatiques et porte
+lié au mauvais retour dû à la dysfonction cardiaque droite.
+
+où sont mieux entendus les bruits et souffles
+des valves cardiaques dont ils portent le nom.
+L’aorte après sa sortie du ventricule gauche
+s’enroule par la droite autour du tronc pulmonaire. Cette particularité anatomique explique
+l’emplacement droit du foyer aortique par rapport au pulmonaire.
+Le foyer aortique se trouve au niveau du 2e espace intercostal sur ligne para-sternale droite.
+Pour ce foyer, on peut demander au patient
+de se mettre en position assise et penché
+vers l’avant afin d’accentuer les souffles d’origine aortique. Le foyer pulmonaire est localisé au 2e espace intercostal sur ligne para-sternale gauche. Le foyer tricuspide se situe au 4e
+espace intercostal sur la ligne para-sternale
+
+FIG 6
+
+Auscultation avec
+le stéthoscope d'un foyer
+
+FIG 7
+
+Décubitus latéral gauche
+pour le foyer mitral
+
+3.&Auscultation cardiaque(:
+On ausculte un par un les cinq foyers cardiaques aortique, pulmonaire, tricuspide, mitral, et foyer d’Erb, dans cet ordre. On utilisera de préférence la cloche pour écouter les
+sons graves des foyers mitral et tricuspidien et
+le diaphragme pour écouter les sons plus aigus
+des foyers aortiques, pulmonaires et d’Erb. La
+localisation des foyers correspond aux régions
+
+FIG 5
+
+Les 5 foyers d'auscultation
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+07
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+gauche. Le foyer mitral se trouve au niveau du
+5e espace intercostal sur ligne médio-claviculaire gauche, proche de l’apex. Pour ce foyer,
+on peut demander au patient de se mettre
+en décubitus latéral gauche afin d’entendre
+mieux les souffles d’origine mitrale. Le foyer
+d’Erb est situé au 3e espace intercostal gauche
+accolé au bord sternal. C’est le foyer le plus
+adapté pour une vue d’ensemble des bruits et
+souffles cardiaques.
+On recherche pour commencer la présence
+des bruits physiologiques afin de définir le
+cycle cardiaque. Cette étape permet dans
+un deuxième temps de localiser les bruits et
+souffles additionnels, possiblement patholo-
+
+FIG 8
+
+FIG 9
+
+Position assise penché
+en avant pour le foyer
+tricuspidien
+
+Auscultation pouls
+carotidien
+
+08
+
+giques, dans le cycle et ainsi de les identifier.
+En cas d’interposition d’air ou de liquide entre
+le stéthoscope et le cœur, les bruits cardiaques
+seront assourdis.
+On entend un premier claquement grave et
+sourd, synchrone à l’onde de pouls, puis un deuxième plus aigu et sec après un bref silence. Un
+silence plus long que le précédent suit le deuxième bruit avant un nouveau claquement. Ces
+bruits physiologiques sont respectivement B1,
+fermeture des valves atrioventriculaires, et B2,
+fermeture des valves semi-lunaires. Le temps
+entre B1 et B2 définit la systole, celui entre B2
+et le B1 suivant définit la diastole, plus longue.
+B1 est mieux entendu à l’apex du cœur, B2 à sa
+base. Un dédoublement physiologique de B2
+peut être entendu à l’inspiration profonde. À
+l’inspiration, le retour veineux est plus important, ce qui génère une augmentation de la précharge du ventricule droit. Il met plus de temps
+à se vider, par conséquent la fermeture de la
+valve pulmonaire sera retardée par rapport à la
+valve aortique.
+Après avoir défini le cycle cardiaque on peut se
+concentrer sur les bruits additionnels, possiblement pathologiques, et les souffles. On entend un dédoublement des bruits physiologiques durant la systole. On définit selon sa
+proximité avec B1 et B2 son origine.
+• On entend un dédoublement fixe de B2 aux
+deux temps respiratoires. On doit penser à
+une communication inter-atriale qui génère
+par un shunt gauche-droite une précharge
+ventriculaire droite plus importante. La
+hausse de la précharge retarde la vidange et
+la fermeture de la valve pulmonaire.
+• On entend un dédoublement de B2 aux
+deux temps respiratoires, plus long à l’inspiration qu’à l’expiration. On pense à une
+hypertension pulmonaire, une valvulopathie pulmonaire. Le dédoublement inspiratoire et expiratoire est expliqué par
+une hausse de la postcharge ventriculaire
+droite. Cette augmentation retarde la vidange et la fermeture de la valve pulmonaire. Cet effet peut être majoré à l’inspira-
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN CARDIOVASCULAIRE
+
+FIG 10
+
+•
+
+Schéma du cycle cardiaque
+
+tion par un retour veineux et une hausse de
+la précharge ventriculaire droite. On pense
+également à un bloc avec une contraction
+cardiaque droite retardée.
+On entend un dédoublement de B2 à l’expiration mais pas à l’inspiration. On doit penser à une valvulopathie aortique, une cardiomyopathie hypertrophique obstructive.
+Ils sont responsables d’une vidange prolongée du ventricule gauche avec délai de
+fermeture de la valve aortique. Ce délai de
+fermeture est masqué à l’inspiration par le
+retard physiologique concomitant de fermeture de la valve pulmonaire. On pense
+également à un bloc avec une contraction
+cardiaque gauche retardée.
+
+On entend des bruits additionnels diastoliques. On pense à des bruits créés par le remplissage ventriculaire. On les définit selon leur
+position dans le cycle cardiaque.
+• On entend un bruit sourd, proto-diastolique, qui suit de près le claquement B2, on
+pense à un bruit dit B3. Il s’explique par un
+ventricule se remplissant très rapidement.
+Pour décrire ce bruit, on parle de galop ventriculaire. Il peut être physiologique chez
+les individus de moins de 40 ans ou chez les
+femmes enceintes. On pense en présence
+d’un B3 à une cardiomyopathie dilatée, responsable d’un remplissage rapide.
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+•
+
+On entend un bruit sourd, télé-diastolique,
+qui précède de près le claquement B1, on
+pense à un bruit dit B4. Il s’explique par
+un remplissage d’un ventricule peu compliant. Pour décrire ce bruit, on parle de galop atrial en raison de la contraction atriale
+contre résistance. Il peut être physiologique chez les individus d’âge avancé. On
+pense en présence d’un B4 à une hypertrophie ventriculaire, par exemple sur une hypertension artérielle, une sténose aortique,
+etc.
+
+On entend un bruit soufflé étalé sur la systole
+ou la diastole. Il s’agit d’un souffle. Ces bruits
+sont expliqués par une turbulence du flux sanguin. On identifie un souffle, on décrit":
+• sa position dans le cycle cardiaque, diastolique ou systolique
+• sa forme, définie par sa durée au sein de la
+diastole et de la systole.
+On parle de souffle proto-, méso-, télé-,
+holo-, systolique ou diastolique suivant s’ils
+concernent respectivement le début, le milieu, la fin ou la totalité du temps. On le caractérise également selon sa configuration":
+uniforme, crescendo, decrescendo ou en
+diamant (crescendo-decrescendo)
+• son irradiation
+• sa localisation précordiale du maximum
+d’intensité
+
+09
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+•
+
+•
+•
+
+son intensité sur une échelle de 1 à 6
+1) très faible, difficilement audible, nécessite le silence dans la pièce et un observateur expérimenté
+2) faible mais s’entend dès qu’on pose le
+stéthoscope
+3) modéré, bruit assez fort mais nécessitant
+une auscultation au stéthoscope
+4) fort, un thrill (passage du sang générant
+un frémissement) palpable
+5) très fort avec thrill, entendu avec le stéthoscope situé à distance du thorax
+6) très fort avec thrill, audible sans stéthoscope
+son accentuation par des manœuvres
+sa hauteur, aigu ou grave.
+
+FIG 11
+
+•
+
+Par exemple dans le cas d’une communication inter-ventriculaire, un souffle grave
+nous indique un gradient de pression faible,
+alors qu’un souffle dans les aigus signale un
+gradient de pression élevé. Un gradient de
+pression élevé est synonyme d’une communication de petite taille.
+son timbre, râpeux, roulant, rude, soufflant,
+musical, etc.
+
+On rencontre le plus fréquemment les bruits
+suivants":
+• On entend un souffle à tous les foyers d’une
+intensité variable inférieure à 3, mésosystolique ou continu sur les deux temps cardiaques, position-dépendant. On pense à
+
+Sémiologies des bruits cardiaques
+
+10
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN CARDIOVASCULAIRE
+
+FIG 12
+
+Phonocardiogramme
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+un souffle fonctionnel que l’on retrouve
+chez les enfants, durant la grossesse, en cas
+d’anémie, de fièvre ou de sepsis.
+On entend un souffle maximum au foyer
+aortique irradiant dans le cou, mésosystolique en diamant, de timbre râpeux, rude.
+On pense à une sténose aortique. Pour
+mieux l’ausculter on peut mettre le patient
+assis, penché vers l’avant.
+On entend un souffle maximum au foyer mitral irradiant dans l’aisselle gauche, holosystolique decrescendo, de timbre dit soufflant,
+en jet de vapeur. On pense à une insuffisance
+mitrale. Pour mieux l’ausculter on peut coucher le patient en décubitus latéral.
+On entend un souffle maximum en parasternal gauche, holosystolique en diamant, irradiant le long du sternum, de timbre rude. On
+pense à une cardiomyopathie obstructive.
+On entend un souffle maximum au foyer
+aortique irradiant le long du sternum, holodiastolique decrescendo, de timbre soufflant. On pense à une insuffisance aortique.
+On entend un souffle maximum à l’apex,
+diastolique decrescendo. On pense à une
+sténose mitrale, rare.
+
+On peut renforcer une suspicion par des manœuvres permettant de distinguer les
+souffles, par catégories.
+• Les inspirations augmentent les souffles du
+cœur droit à cause de l’augmentation du retour veineux.
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+La manœuvre de Valsalva diminue les
+souffles à l’exception de la cardiomyopathie
+hypertrophique obstructive et de l’insuffisance mitrale.
+La position accroupie augmente les souffles
+à l’exception de la cardiomyopathie hypertrophique obstructive.
+Les dérivés nitrés provoquent une vasodilatation. Ils augmentent les souffles des sténoses et diminuent ceux des insuffisances.
+La manœuvre du handgrip, serrer le point
+jusqu’à ressentir une fatigue, a un effet inverse.
+
+On entend à l’auscultation un bruit superficiel rugueux et intense, mésosystolique, mésodiastolique ou aux deux temps, réalisant un
+va-et-vient. On pense au frottement péricardique synonyme de péricardite.
+
+4.&Inspection vasculaire(:
+On observe l’allure des membres inférieurs
+et supérieurs, patient examiné debout. On
+observe une amputation d’une partie des
+membres inférieurs. On doit suspecter des antécédents vasculaires.
+On observe une discoloration des extrémités.
+Elle est symétrique, on pense à des causes systémiques, un acrosyndrome, etc. Elle est asymétrique, on pense à des causes locales de
+type acrosyndrome, artériopathie oblitérante
+des membres inférieurs, syndrome des loges,
+insuffisance veineuse, thrombose veineuse superficielle ou profonde, lymphangite, algodystrophie, des dermatoses, etc.
+Un temps de recoloration diminué et un gradient de température avec des extrémités de
+membre plus froides nous orientent vers des
+causes artérielles. Attention, un acrosyndrome
+peut se manifester à la fois par des hypo- et hyperhémies selon son origine.
+On observe une perte de pilosité, une dermite, des plaies, etc. On pense à un trouble
+trophique. Penser à une insuffisance veineuse,
+
+11
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+des ulcères d’origine veineuse ou artérielle, des
+escarres, une algodystrophie, des dermatoses,
+etc. Les ulcères d’origines veineuses sont suintants. Ils sont plus fréquents que leurs homologues artériels, secs et nécrotiques.
+
+•
+•
+•
+•
+•
+
+On observe un membre tuméfié. On pense à
+un phlébœdème, un lymphœdème, un lipœdème, un myxœdème, une dermatose, un syndrome des loges, etc.
+
+•
+•
+•
+•
+
+On observe une voussure, une augmentation
+de visibilité des trajets veineux. On pense à
+une insuffisance veineuse avec des varices,
+une thrombose veineuse superficielle ou profonde, des télangiectasies, etc. Une thrombose
+veineuse est unilatérale.
+On observe des veines dilatées autour de la
+cheville, une coloration brunâtre de la peau
+dite dermite ocre, des zones atrophiques
+blanches cutanées et une peau scléreuse très
+rétractée. On pense à une insuffisance veineuse chronique.
+On observe un aspect réticulé rouge à violacé de la peau. On parle de marbrure ou de livedo. Il est isolé ou secondaire à des maladies
+sous-jacentes. On doit penser en premier lieu
+à un sepsis. Il existe de multiples causes, par
+exemple infectieuse, hématologique, auto-immune, embolique, etc.
+On observe un cordon érythémateux sur un
+trajet lymphatique. On pense à une lymphangite, des dermatoses, etc.
+On observe une macule rougeâtre. On pense à
+un purpura, une pétéchie, une dermatose, une
+malformation capillaire, etc. Les principales
+causes de purpura sont les thrombopénies, les
+vasculites, les infections systémiques de type
+endocardite, méningococcémie, etc. Un purpura généralisé évoque une méningococcémie.
+On identifie une masse. On décrit":
+• Sa localisation (région)
+• Sa taille
+
+Si elle est isolée ou multiple
+Son contour (absence, présence de délimitation)
+Sa symétrie
+Sa coloration
+Sa mobilité (libre, fixé au plan profond)
+Sa surface (lisse ou irrégulière)
+Sa consistance (dur, mou, fluctuant car il y
+a du liquide à l’intérieur)
+Sa sensibilité douloureuse
+Sa pulsatilité (thrill)
+
+On observe une masse en relief, de coloration
+rouge à bleutée. On pense à une tumeur, un
+hémangiome, une malformation veineuse, une
+malformation artério-veineuse, etc. Cinq lésions de type hémangiome évoquent une hémangiomatose. Un changement de volume à
+la position oriente vers une malformation veineuse. Une pulsatilité évoque une malformation artério-veineuse.
+
+5.&Auscultation et palpation vasculaire(:
+On débute par une palpation de toute zone
+douloureuse ou anomalie remarquée à l’inspection. On déclenche des douleurs à la palpation. On pense à un syndrome des loges, une
+lymphangite, une thrombose veineuse superficielle ou profonde, une insuffisance veineuse,
+une algodystrophie, une dermatose, etc.
+On palpe une induration diffuse. On pense à
+un syndrome des loges (surtout si les muscles
+semblent tendus, «"pleins"»), une dermatose,
+un myxœdème, un lymphœdème, plus rarement un phlébœdème, etc.
+On poursuit en palpant les trajets artériels.
+On palpe les pouls de la tête aux pieds, symétriquement, patient en décubitus dorsal. On
+caractérise un pouls selon":
+• son absence ou sa présence
+• sa régularité
+• son amplitude et sa forme
+On palpe le pouls carotidien. On palpe le
+pouls brachial soit au pli du coude, médiale-
+
+12
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN CARDIOVASCULAIRE
+
+FIG 13
+
+Palpation pouls brachial
+
+FIG 16
+
+Palpation pouls inguinal
+
+FIG 14
+
+Palpation pouls carotidien
+
+FIG 17
+
+Palpation pouls poplité
+
+FIG 15
+
+Palpation pouls radial
+
+FIG 18
+
+Palpation pouls tibial
+postérieur
+
+ment au tendon du biceps soit médialement
+sous le biceps au niveau de son tiers moyen.
+On palpe le pouls radial sur la face antérieure
+du poignet, latéralement. On palpe le pouls
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+fémoral (avec des gants) près de la symphyse pubienne. On ausculte à la recherche
+de souffle sur les artères fémorales et sur
+l’aorte abdominale. Une absence peut évo-
+
+13
+
+REVUE MÉDICALE SUISSE DES ÉTUDIANTS
+
+FIG 19
+
+Palpation pouls pédieux
+
+On ne palpe pas le pouls attendu. On pense à
+une obstruction artérielle, à une hypotension
+sévère, une asystolie, etc. Une palpation du
+pouls radial assure un minimum systolique de
+90 mmHg et pour le pouls fémoral et carotidien
+un minimum respectif de 70 et 60 mmHg.
+On palpe un pouls de faible amplitude, allongé dans le temps. On parle de pouls filant. On
+pense à volume d’éjection réduit sur une insuffisance cardiaque ou une fibrillation ventriculaire, on pense également à une hypovolémie, un rétrécissement artériel, une vasoconstriction périphérique généralisée, etc.
+
+FIG 20
+
+Mesure de la pression
+artérielle
+
+quer à l’âge pédiatrique une coarctation de
+l’aorte. On palpe le pouls poplité au niveau
+du creux du genou. On pince le creux poplité
+sur un genou fléchi et détendu avec les doigts
+des deux mains. Il est difficile à palper, il faut
+aller le chercher en profondeur. On peut également le palper en décubitus ventral, jambe
+fléchie à 90o. On palpe le pouls tibial postérieur, inférieurement ou postérieurement à la
+malléole interne. On palpe le pouls pédieux,
+entre le premier et deuxième métatarsien.
+Une absence congénitale est présente chez
+une partie de la population.
+Spécifiquement, on peut rechercher un pouls
+abdominal pour identifier une masse pulsatile anévrismale, une artère temporale indurée
+pour une maladie de Horton.
+
+14
+
+On palpe un pouls de grande amplitude, raccourci dans le temps. On parle de pouls bondissant. On pense à augmentation du volume
+d’éjection sur une insuffisance aortique, une
+persistance du canal artériel, une bradycardie,
+etc. On pense également à une diminution de
+la compliance des vaisseaux secondaire à un
+vieillissement ou une athérosclérose. La diminution de compliance est responsable d’une
+hausse de pression différentielle qui explique
+la perception du pouls.
+On palpe un pouls de rythme irrégulier. On
+évalue si cette irrégularité est régulière ou irrégulière. On constate que l’irrégularité se répète dans le temps selon un schéma défini.
+On parle de pouls régulièrement irrégulier.
+Il existe une arythmie sinusale physiologique
+pendant laquelle le cœur s’accélère à l’inspiration et ralentit à l’expiration. On peut penser à
+des extra-systoles à un bloc, un flutter, des tachycardies atriales focales ou par réentrée, tachycardie ventriculaire, etc. En absence de répétition d’un schéma on parle de pouls irrégulièrement irrégulier. Ce dernier cas de figure
+est observé le plus souvent en cas de fibrillation auriculaire. On palpe une double pulsation intermittente, deux ondes rapprochées
+d’amplitudes différentes. On pense à une extrasystole. On parle de pouls bigéminé.
+On palpe un pouls régulier d’amplitude irrégulière. On pense à un pouls alternant ou un
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+EXAMEN CARDIOVASCULAIRE
+
+FIG 21
+
+Schématisation des pouls
+
+On observe un membre tuméfié. Comparer
+au périmètre du membre controlatéral. On
+pense à des œdèmes, une dermohypodermite,
+un syndrome des loges, etc. On appuie sur la
+peau pour voir une dépression persiste, signe
+du godet. La persistance d’un creux parle en
+faveur d’une origine veineuse ou lymphatique.
+Un œdème des membres inférieurs est souvent visible de dos avec une tuméfaction de la
+cheville et une disparition de la malléole interne.
+On mobilise passivement le mollet de
+gauche à droite. Une diminution du ballant
+évoque une thrombose veineuse profonde.
+Une palpation douloureuse renforce la suspicion.
+
+pouls paradoxal, caractérisé par sa dépendance au cycle respiratoire. On note dans ce
+dernier cas une amplitude plus importante à
+l’expiration. Ce phénomène est expliqué principalement par un bombement du septum
+ventriculaire droit à l’inspiration sur une augmentation du retour veineux. Le déplacement
+du septum limite le remplissage du ventricule gauche. Il apparaît suite à une incapacité du reste du ventricule droit de se dilater en
+conséquence d’une compression péricardique
+ou compression par des poumons distendus.
+On pense à une péricardite, une tamponnade
+cardiaque, péricardite constrictive, un pneumothorax sous tension, un asthme aigu sévère. Concernant le pouls alternant, sans lien
+avec le cycle respiratoire, on pense à une défaillance myocardique.
+On poursuit par une palpation des trajets
+veineux. On palpe un cordon induré. On
+pense à des varices, une lymphangite, une
+thrombose veineuse profonde, etc. En cas
+d’incompétence des valves veineuses, on
+peut sentir en amont du site palpé un flux rétrograde.
+
+WWW.RMSETUDIANTS.CH
+3 mai 2021
+
+On effectue une dorsiflexion du pied, genou fléchi. Une douleur profonde en regard du
+mollet évoque une thrombose veineuse profonde. On parle de signe de Homans. Une douleur à l’étirement passif musculaire doit également toujours faire évoquer un syndrome des
+loges.
+On termine par un examen de la sensibilité
+des membres inférieurs et supérieurs à la recherche de troubles neuro-vasculaires. Une altération de la sensibilité fait penser à une artériopathie oblitérante des membres inférieurs,
+une microangiopathie diabétique, un syndrome des loges, une algodystrophie, etc.
+
+CARTE DE SYNTHÈSE
+Cette carte de synthèse reprend sous forme de
+liste à puces les outils nécessaires à la réalisation d’un examen cardio-vasculaire. Elle vous
+servira comme support visuel rapide et intuitif en situation clinique comme rappel des outils à disposition et vous permettra de vous auto-évaluer.
+Vous trouverez l’ensemble des cartes de synthèses que nous proposons sous la section relative de notre plateforme en ligne.
+
+15
+
+REVUE
+MÉDICALE
+SUISSE
+
+ETUDIANTS
+
+EXAMEN
+CARDIOVASCULAIRE
+
+EXAMEN CARDIAQUE
+Inspection
+Appréciation de l’état général du patient
+• État de conscience, dénutrition, comportement algique, etc.
+• Douleurs thoraciques
+Allure du thorax
+• Cicatrices, boîtier pacemaker, déformations, lésions cutanées, etc.
+Inspection des extrémités
+• Temps de recoloration (norme < 3s.)
+• Cyanose périphérique, pâleur, gradient T°, lésions d’endocardite,
+hippocratisme digital, etc.
+Tuméfaction des membres
+• Suspicion d’œdème : signe du godet
+Inspection du visage
+• Cyanose centrale aux muqueuses, œdème, signes dyslipidémiques,
+vaisseaux conjonctivaux anormaux, etc.
+Turgescence jugulaire (inclinaison à 30°)
+Palpation
+Examen du pouls radial et carotidien
+• Fréquence (norme : 60-100/min)
+• Amplitude et régularité du pouls radial
+• Auscultation puis palpation des carotides, recherche d’un souffle
+Palpation du choc de pointe
+Reflux hépato-jugulaire (inclinaison à 30°)
+
+Auscultation
+Auscultation des cinq foyers aortique, pulmonaire, tricuspide, mitral
+et d’Erb
+• Définir le cycle cardiaque
+• Dédoublement B1, B2
+• Bruit additionnel B3, B4
+• Souffle
+> Caractériser (cf. document explicatif)
+> Disparition du souffle à la position debout ou au Valsalva (fonctionnel)
+• Identifier un frottement péricardique
+EXAMEN VASCULAIRE
+Recherche de signes veineux
+• Turgescence vasculaire (varice)
+• Œdème (unilatéral versus bilatéral)
+• Corona-phlebitica, dermite ocre, dermatite de stase, atrophie blanche,
+ulcère suintant (insuffisance veineuse)
+• Livedo (hypoperfusion)
+• Mobilisation passive du mollet douloureuse (thrombose veineuse
+profonde)
+• Signe de Homans (thrombose veineuse profonde)
+Recherche de signes lymphatiques
+• Œdème unilatéral du dos du pied
+• Signe de Stemmer
+Recherche de signes artériels
+• Gradient de température périphérique (artériopathie oblitérante / AOMI)
+• Pouls périphériques non-perceptibles (radial, brachial, carotidien,
+fémoral poplité, tibial postérieur, pédieux)
+• Présence de souffle
+• Ulcère sec (AOMI)
+
+Indice tibio-brachial ABI > 0,9 (AOMI)
+Artère temporale indurée (Horton)
+• Pouls fémoraux absents (sténose, dissection aortique)
+Examen sensitivo-moteur des membres
+•
+•
+
+Souffles auscultatoires
+
+Rédigé par Guillaume Jordan
+Illustré par Guillaume Jordan et Alban Sadiku
+Relu par Prof. Jean-François Balavoine
+© Association des Étudiantes en Médecine de Lausanne, 21.04.2021
+
+

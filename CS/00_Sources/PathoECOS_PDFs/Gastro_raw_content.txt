@@ -1,0 +1,225 @@
+--- Page 1 ---
+Gastro-entérologie et hépatologie :
+Pathologies fréquentes
+Tristan Born
+
+--- Page 2 ---
+Coliquebiliairesimple
+• Cliniques: Douleurs choliquesdans l’hypochondre droit±irradiation vers l’épaule droite ou le dos.
+Fréquemment accompagné de nausées et de vomissement.
+Typiquement postprandial, en particulier après un repas riche en lipide.
+Chercher les facteurs risques classiques : Fat, Female, Forty, Fertil
+FR rare : Trouble de la résorption des sels biliaires (atteinte iléale, iesur M.Crohn) => Lithiase cholestérolique
+FR rare : Excès de bilirubine sur hémolyse(ie: anémie auto-immune, thalassémie) => Lithiase Bilirubine
+• Note: 70% lithiase cholestérolique, 5% bilirubine=> Radio-transparent (Invisible à la RxASP),
+25% lithiase d’oxalate calcium => Radio-opaque (visible sur une simple RxASP)
+• Diagnostique: Labo avec CRP, Leucocyteset VSpour exclure une cholécystite/cholangite,
+Lipasepour exclure pancréatite(cave : calcul dans le sphincter de Oddi),
+Dosage de la bilirubineet de l’AP+ γGTpour exclurecholestase(si cholédocholithiase),
+ASAT/ALAT pour exclure des dégâts hépatiques (hépatite cholestatique)
+USpour confirmer le diagnostic (visualisation de calcul dans la vésicule biliaire), parfois CT-scan si US peu contributif,
+Recherche d’une dilatation du cholédoque (largeur >7cm) si cholédocholithiase,
+Normalement, absence d’épaississement de la paroi et de signe de Murphy échographique (signe de cholécystite)
+• Traitement: Gestion de la douleur (AINS, Paracétamol, Novalgin, éventuellement opioïde),
+Soulagement des douleurs coliques avec du buthylscopolamine(buscopan)
+Jeûne pour les prochaines 24h et RAD, cholécystectomie élective à discuter
+En présence d’un calcul dans le cholédoque (cholédocholithiase) -> ERCPen urgence
+Cholécystite
+• Cliniques: Identique à une colique biliaire, avec en plus un signe de Murphy positif et un EF
+(syndrome inflammatoire sur infection de la vésicule biliaire provoqué par une cholestase)
+• Diagnostique: Labo avec CRP, Leucocyteset VSpour confirmer l’infection et le syndrome inflammatoire,
+Dosage des lipasespour exclure une pancréatite(cave : calcul dans le sphincter de Oddi)
+Dosage de la bilirubineet de l’AP+ γGTpour exclure cholestase,
+ASAT/ALAT pour exclure des dégâts hépatiques (hépatite cholestatique)
+USpour confirmer le diagnostic (visualisation de calcul dans la vésicules), parfois CT-scan si US peu contributif,
+Recherche d’un hydropsvésiculaire (longueur >10cm) et un épaississement de la paroi (> 3mm).
+• Traitement: Gestion de la douleur (AINS, Paracétamol, Novalgin, éventuellement opioïde),
+Soulagement des douleurs coliques avec du buthylscopolamine(buscopan),
+Traitement de l’infection (germes fréquents: E.coli, E. faecalis) avec combinaison C3G(FQ/co-amox)+ Metronidazole
+Si possible cholécystectomie dans les 24h(moins de complication que si effectuée dans les semaines qui suivent)
+
+--- Page 3 ---
+Cholédoquolithiase
+• Cliniques: Identique à une colique biliaire, avec éventuellement en plus un ictère
+• Diagnostique: Labo avec CRP, Leucocyteset VSpour exclure une cholécystite/cholangite,
+Dosage des lipasespour exclure une pancréatite,
+Dosage de la bilirubineet de l’AP+ γGTpour confirmer la cholestase,
+ASAT/ALAT pour confirmer l’atteinte hépatiques (légèrement augmenté dans le cadre d’une hépatite cholestatique),
+USpour confirmer le diagnostic (visualisation de calcul dans le cholédoque), parfois CT-scan si US peu contributif,
+Recherche d’une dilatation du cholédoque (diamètre >7mm) et d’un élargissement des voies biliaires intra-hépatique,
+• Traitement: Gestion de la douleur (AINS, Paracétamol, Novalgin, éventuellement opioïde),
+Soulagement des douleurs coliques avec du buthylscopolamine(buscopan),
+ERCPen urgence (diagnostic et thérapeutique, avec papillotomieet extraction de la lithiase),
+puis cholécystectomie dans les 72h
+Cholangite
+• Cliniques: Identique à une colique biliaire, avec en plus un ictère et un EF
+Chercher la triade de Charcot : Ictère + EF + Douleurs hypochondre droit
+• Diagnostique: Labo avec CRP, Leucocyteset VSpour confirmer la cholangite,
+Dosage des lipasespour exclure une pancréatite,
+Dosage de la bilirubineet de l’AP+ γGTpour confirmer la cholestase,
+ASAT/ALAT pour confirmer l’atteinte hépatiques (légèrement augmenté dans le cadre d’une hépatite cholestatique),
+USpour confirmer le diagnostic (visualisation de calcul dans le cholédoque), parfois CT-scan si US peu contributif,
+Recherche d’une dilatation du cholédoque (diamètre >7mm) et d’un élargissement des voies biliaires intra-hépatique,
+• Traitement: Gestion de la douleur (AINS, Paracétamol, Novalgin, éventuellement opioïde),
+Soulagement des douleurs coliques avec du buthylscopolamine(buscopan),
+Traitement de l’infection (germes fréquents: E.coli, S. faecalis) avec combinaison C3G(FQ/co-amox)+ Metronidazole,
+Si début de cholangiosepsis: élargir le spectre avec piperacillin-tazobactam ou Carbapem
+ERCPen urgence (diagnostic et thérapeutique, avec papillotomieet extraction de la lithiase),
+puis cholécystectomie dans les 72h
+
+--- Page 4 ---
+Pancréatite aigüe
+• Cliniques: Épigastralgie transfixianteavec irradiation vers le dos, en ceinture.
+Possiblement surajouté à des douleurs de type cholique (en cas de pancréatite sur lithiase biliaire).
+Souvent accompagné de nausée et de vomissement, d’un sub-iléeusparalytique et d’un météorisme.
+Des ecchymosessont parfois visibles à des localisations particulières : péri-ombilical, sur les flancs ou au niveau inguinal
+• Notes: Causes principales sont la lithiasescompliquée (40%) et l’abus d’alcool (35%).
+Les autres causes sont médicamenteuse, virales, sur variation anatomiques…
+• Diagnostique: Douleurs typiques + élévation des lipasessérique(3x normes)+ imagerie typique (US ou plus tard CT) => 2/3
+Labo avec Leucocyte, pro-calcitonine, CRPet VS(inflammation, infection), bilirubineet de l’AP+ γGT(cholestase),
+Chercher des défaillances d’organes : PaCO2/PaO2 et fréquence respiratoire, créatinine, TA et fréquence cardiaque
+Doser le calcium (hypercalcémie => toxique pour pancréas) et TG(hypertriglycidémiecomme cause de pancréatite),
+Imagerie: Dans un premier temps US (chercher un œdème, une lithiase),
+Éventuellement ajouter investigation à l’ECRPet/ou IRM si doute sur lithiase ou obstruction par une tumeur.
+Seulement après 3-5 jours, CT-scan injecté (score de Balthazar) : œdème, nécrose, abcès
+• Traitement: Si pancréatite légère (majorité des cas) -> gestion de la douleur, monitoringen soins continus (TA, O2, urine…),
+prophylaxie des thrombose (heparine), prophylaxie d’un ulcère de stress avec IPP,
+Si surinfection (abcès, sepsis), traitement agressif :combinaison C3G/FQ+ Metronidazole, durée de traitement de 10 jours
+Traitement de la cause si possible (en particulier ERCPpuis cholécystectomiesi cause lithiasique).
+Quelques jours après hospitalisation, CT-scan et traitement endoscopique/percutané si nécessaire :
+Si kyste pancréatique ne se résolvant pas spontanément, abcès ou nécrose : Drainage, débridement
+Pas oublier de nourrir le patient dès que possible (rester à jeun est non conseillé) !
+Pancréatite chronique
+• Cliniques: Épigastralgie transfixiante irradiant en ceinture et vers le dos, chronique. S’accompagne des signes d’une perte
+progressive des fonctions exocrines (syndrome de malabsorption, stéatorrhée) et ultimement endocrine (diabète).
+Note: Les causes principales sont l’alcoolismechronique (80% des cas), idiopathique(15%) et finalement sur différentes
+causes se chevauchant parfois (tabac, hyperparathyroïdisme, pancréatite auto-immune, pancréatite familiale…)
+• Diagnostique: Anamnèse et FR typique, lipase sérique élevée, elastasefécale abaissée.
+Imagerie : US ou CT mettant en évidence des calcifications et une fibrose du tissus, parfois des pseudo-kystes.
+• Traitement: Arrêt des toxiques (tabac, OH), hormone pancréatique lors des repas ±complémentation en vitamine
+liposoluble ADEKpar voie parentérale si carence, traitement insulinique en cas de diabète.
+Si fibrose et sténose du canal de Wirsung, intervention endoscopique avec dilatation au ballon ou stentpour permettre bien
+vider les sucs pancréatiques dans le duodénum. Draînagedes abcès et des kystes. Traitement de la douleur selon OMS.
+
+--- Page 5 ---
+Hépatite aigüe (virale)
+• Cliniques: (1) Phase prodromale[7 jours] : État grippalavec fièvreet fatigue, douleurs abdominal en hypochondre droit.
+Dans l’hépatite aigüe à HBV, possibilité d’avoir un exanthème et des arthralgies (complexe immun entre HBs-Ag/Ac)
+Volontiers des signes neurologiques dans l’hépatiteàHEV(paralysiefaciale, SGB, amytrophie)
+(2) Hépatite[2-8 semaines] : Ictère et selles décolérés accompagné de prurit (cholestase intra-hépatique), hépatomégalie.
+En général, évolution favorable, rarement hépatite fulminante* (insuffisance hépatique aigüe).
+*HAV < 1%/ HBV ≈ 1%/ HCV < 1%/ HDV+HBV ≈ 3%/ HEV ≈ 3%(mais monte à 20% si femme enceinte)
+Notes: 95% sont causées par HAV, HBV et HDV, HCV, HEV. Les 5% restants sont causé par le CMV, EBV et des virus inconnues.
+• Diagnostique: Sérologie virale (chercher les IgM pour tous les virus sauf HCV où on cherche en plus le HCV-RNAsérique).
+Chercher les marqueurs de la fonction hépatique: Albumine, Quick/PT, Cholinestérase.
+Chercher des marqueurs de gravités: AP et GGT, ASAT et ALAT.
+• Traitement: La plupart du temps, reposet évitement strict de tout toxique hépatique (OH, médicament).
+Traitement antiviral anti-HBV seulement si fonction hépatique réduite (entécavir/ténofovirou IFN-a),
+Traitement antiviral anti-HCVd’office (sofosbuviret velpatasvir).
+Traitement préventif (vaccination) pour HAVet HBV/HDV
+Cirrhose
+• Cliniques: Fatigues, douleurs en hypochondre droit, angiome stellaire et érythème palmaire, gynécomastie et perte de la
+pillositépubienne chez les hommes / aménorrhée chez les femmes, ascite et diathèse hémorragique, atrophie cutané,
+CaputMedusae, hypersplénisme, ictère et prurit, coma et encéphalopathie hépatique.
+Note: Les causes principales sont l’alcoolismechronique (50% des cas) et les hépatites virales (40%). Plus rarement :
+NASH, l’hémochromatose (fer) ou le syndrome de Wilson (cuivre), les PBC/PSC ou le syndrome de Budd-Chiarri(thrombose des
+veines hépatiques) =>≈5%
+• Diagnostique: Chercher des signes d’insuffisance hépato-cellulaire : Hypoalbuminémie, diminution de la cholinestérase,
+rallongement du Quick/PT, augmentation de la bilirubine non-conjuguée. Signe d’hypertension portale avec une
+thrombopénie. USpour confirmer le diagnostic et faire le suivi, élastométriepour mesurer le dégrée de fibrose.
+• Traitement: Arrêt des toxiques (médicament, OH), traitement de la maladie sous-jascenteet prise en charge des
+complications(varices, ascite et péritonite bactérienne spontanée, encéphalopathie, diathèse hémorragique…)
+
+--- Page 6 ---
+Appendicite
+• Cliniques: Douleurs croissante, d’abord difficilement localisable puis migrant en fosse iliaque droite.
+Éventuellement état fébrilevoir péritonismeen cas de complication.
+• Diagnostique: Cliniquement, chercher un signe du psoas et une douleur à la palpation du point de McBurney. Loges rénales
+non douloureuses, signe de Murphy négatif.
+Laboratoire: paramètre inflammatoire (VS, CRP, Leucocytes). Stixurinaire pour exclure une cause urinaire.
+US(chercher le signe de la cocarde), si non concluant IRM ou CT scan. Rxen cas de suspicion de perforation (Rxthorax)
+Si EF et frissons : prélever des hémocultures.
+• Traitement: Appendicectomiepar laparoscopie ou traitement antibiotique (Co-Amoxicilline + Metronidazole).
+En cas de perforation, toujours appendicectomie !
+Diverticulite
+• Cliniques: Inflammation d’un diverticule, au niveau du sigmoïde (colon distal) ou au niveau du caecum(colonproximal).
+Clinique similaire à une appendicite avec migration en FIG(ou FID, plus rarement). En plus, présence de sang dans les selles.
+Attention : La clinique peut-être silencieuse dans la population immunosupprimée.
+Note: La diverticulose touche >50% de la population âgée de >70 ans.
+Risque d’inflammation et de diverticulite d’environ 5% par année.
+90% des diverticulites concerne le colon gauche, plus rarement le caecum(plus fréquent chez les japonais).
+• Diagnostique: CT-scan(ouUS) nécessaire pour poser formellement le diagnostic, et pour guider la suite de PEC
+• Traitement: De manière générale, nourriture parentérale ethydratation iv.
+Type 1: En cas de diverticulite simple (sans abcès, sans perforation), traitement conservatif à domicile
+Type 2a et 2b : Si présence d’abcès: hospitalisation et AB (C3G+Metronidazole) ±draînagede l’abcès
+Type 2c : En cas de perforation(ou absence d’amélioration avec tt conservateur), indication pour une simgmoïdectomie.
+Type 3: En cas de récidive, possible d’organiser une opération élective.
+
+--- Page 7 ---
+MICI : Maladie de Crohnet Colite ulcéreuse
+• Cliniques:De manière générale, douleurs abdominales chroniques avec red-flag :
+Sangdans les selles et anémie, douleurs insomniantes, perte de poids et syndrome carentiel, présence de symptôme
+extra-intestinaux(pyodermagangrenosum, uvéite, arthrite…), fistulepérinéale et aphtes, histoire familiale.
+Crohn: Érythème noueux, pyodermagangrenosum, aphte, fistule et abcès périnéeaux, spondylarthrite (HLA-B27), uvéite
+Colite ulcéreuse : Idem Crohnavec moins d’atteinte périnéales mais risque de cholangite sclérosante primitive
+• Diagnostique:Calprotectinefecalecomme porte d’entrée, si élevée aller à l’endoscopie ±biopsie.
+• Traitement:Arrêttabac (Crohn), médicament immunosuppresseur.
+Colite microscopique
+• Cliniques:Diarrhée aqueuses chroniques.
+• Diagnostique:Le seul moyen de poser le diagnostic est d’effectuer une endoscopie avec biopsies étagées du colon.
+• Traitement:Arrêttabac, médicament immunosuppresseur.
+Cœliaquie :
+• Cliniques:Forme ‘classique’ avec diarrhée, malabsorption, trouble croissance staturo-pondérale et atteinte
+hépatique. Forme sans malabsorption également possible, de même que des formes avec atteintes à la biopsie et
+la présence d’Ac mais sans symptômes. Symptômes extra-digestifs : dermatite herpétiforme.
+• Diagnostique:Ac-anti-TGde type IgA(rarement IgG), HLA-DQ2 et DQ-8. Confirmation avec endoscopie et Bx.
+• Traitement:Arrêt du gluten.
+Intestin irritable :
+• Cliniques:Douleurs abdominales souvent mal caractérisées, parfois avec altération du transit (diarrhée,
+constipation ou les deux). Bien chercher et exclure tous red-flag justifiant une endoscopie ou un scanner :
+Début après 50 ans, accompagné de fièvreet d’un amaigrissement, douleurs nocturnes insomniante, sang des les
+selles ou anémies, prise récente d’antibiotiques, ANTCD de MICIou de CCR.
+• Diagnostique:Recherche de parasites dans les selles et dosages de la calprotectinfécale avec labo simple
+(notamment CRP, VS, Leuco et Hb). Si le bilan revient dans la norme, réassurer et éviter des interventions inutiles
+supplémentaires (CT-scanner, colonoscopie, gastroscopie…)
+
+--- Page 8 ---
+Gastrite et ulcère :
+• Cliniques: Épigastralgie, nausée et vomissement, sensation de pression/trop plein. En cas d’ulcère présence de
+sang dans les selles (méléna). En cas de perforation, épigastralgie aigüe avec péritonisme.
+Diagnostique: Radio de thorax à la recherche d’air libre si suspicion de perforation,
+Chercher des facteurs risques (tabac, OH, AINS ±Cortisol, biphosphonate, stress).
+Prise de sang à la recherche d’une anémieet recherche de sang occultes dans les selles.
+Éventuellement dosage gastrineet la PTH.
+Sérologie ou test fécale pour H. pylori.
+En cas de doute et pour confirmer le diagnostic, gastroscopie etBx.
+Note : Causes rares : Hyperparathyroïdisme, gastrinome (maladie de Zollinger-Ellison : Diarrhée, ulcère, reflux)
+Traitement: Traitement de fond par IPP, éliminer les toxiques(tabac, OH, AINS),
+chercher et éradiquer H. pylori (combinaison IPP + Clarithrhomycin+ Amoxiciline/Metronidazole).
+En cas de saignement aigüe : endoscopieen urgence, chirurgieen cas de perforation et péritonite.
+RGO et oesophagiteà eosinophile:
+• Cliniques: Douleur rétrosternal, épigastralgie, pyrosis, en particulier post-prandial (signe du lacet), toux et laryngite
+• Diagnostique: Diagnostic le plus souvent clinique, confirmé par un traitement d’épreuve par IPP.
+pH-métrie possible en cas doute.
+En cas de facteurs de risques pour un Barett(homme, >50 ans, ANTCD familiaux, RGO longue date) : Gastroscopie et Bx
+• Traitement: Surveiller par des endoscopies avecBx, traiter les FR modifiables (repas, surélever tête lit, surpoids…),
+Traitement de fond par IPP
+• Remarque: En cas de non réponse au traitement pas IPP, en particulier si symptômes d’obstruction (impaction) et terrain
+atopique(dermatite atopique, asthme…), penser à un oesophagiteà eosinophile. Diagnostic par endoscopie avec Bx,
+Traitement avec stéroïdes locaux et éviction de l’allergène en cause (si possible).
+
+--- Page 9 ---
+Ischémie mésentérique :
+• Cliniques: Touche principalement les femmes âgées (sexratio 1:4, en moyenne >75 ans). Consulte pour une douleur abdominale
+soudaine avec un ventre souple paradoxal. Souvent des diarrhées sanglantesaccompagnent les douleurs.
+Tri-phasique: Douleurs durant plusieurs heures (4h), puis intervalle non-douloureux (6h) jusqu’au choc septique et à la péritonite
+(décompensation aigüe). Clinique très aspécifique, souvent sans signe d’appel clair dans la phase initiale (abdomen souple).
+De plus, une progression lente des symptômes en cas de problèmes veineux (thrombose) plutôt qu’artérielle.
+• Diagnostique: Chercher des FR pour augmenter la suspicion :
+Thrombose artérielle : Dysplasie fibro-musculaire, artérite, rupture d’anévrysme mésentérique (tabav+ HTA)
+Embolie artérielle : Trouble du rythme comme une FA, valvulopathie(valve mécanique), arrêt d’un tt anticoagulant
+Thrombose veineuse : hypertension portale (stase), thrombophilie(cancer, APLS, grossesse/COC, mutation facteur V…)
+Petit débit non obstructif: Choc(toute causes), déshydrations, drogue vasoconstrictrice (cocaïne…)
+Labo: Leucocytose et D-Lactate (très sensible, aspécifique). Le CT-injecté est sensible à >90%.
+• Traitement: Si péritonisme, laparoscopie exploratrice immédiate. Autrement, stentou thrombolyse.
+Hospitalisation obligatoire, souvent en SI, car association fréquente avec un choc et un MODS.

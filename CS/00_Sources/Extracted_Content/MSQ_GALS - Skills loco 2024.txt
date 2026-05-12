@@ -1,0 +1,188 @@
+Skills locomoteurs B3.8
+Support d’apprentissage pour le test de GALS
+Le GALS est un test de dépistage pour les pathologies de l’appareil locomoteur. Il comprend une partie d’anamnèse et une partie d’examen
+physique.
+L’anamnèse comprend 3 questions :
+1. Avez-vous des douleurs ou des raideurs dans les articulations, muscles ou dans le dos ?
+2. Pouvez-vous vous habiller complètement vous même sans aucune difficulté ?
+3. Pouvez-vous monter et descendre les escaliers sans aucune difficulté ?
+GALS est un acronyme pour Gait (marche), Arms (membres supérieurs), Legs (membres inférieurs) et Spine (colonne vertébrale).
+Pour rappel, l’examen physique s’effectue avec le patient en sous-vêtements.
+Nom du test ou de la manœuvre
+Signification de la positivité
+
+Description
+a. Position et action du patient
+b. Action de l’examinateur
+c. Pièges techniques et astuces
+
+Marche
+Causes de marche pathologique possible : arthrose ou arthrite
+des articulations : sacro-iliaque, hanche, genou, pied ;
+insuffisance du tendon moyen fessier ; atteinte inflammatoire
+ou mécanique de la colonne vertébrale lombaire; atteinte
+neurologique centrale (p.ex. accident vasculaire cérébral) ou
+périphérique (p.ex. hernie discale lombaire avec radiculalgie)
+
+a. Le patient marche quelques pas et se retourne
+rapidement
+b. On juge de la symétrie et fluidité des mouvements
+des membres sup. et inf. et du bassin, de la longueur
+des pas, du déroulement du pied et de la capacité du
+patient de tourner rapidement
+
+Colonne vertébrale – aspect dorsale
+Peut montrer une scoliose, une bascule du bassin ou de la
+ceinture scapulaire, une asymétrie de la musculature du tronc
+et des membres inf. Une tuméfaction poplitée peut se
+rencontrer en cas de kyste poplitée (dit « de Baker »).
+L’inspection du pied peut montrer des déformation (p.ex. en
+varus/valgus) ou des tuméfactions articulaires (p.ex. en cas
+d’arthrite ou arthrose décompensée)
+
+a. Patient debout, le dos vers l’examinateur
+b. On juge de la forme de la colonne dans le plan
+frontal; de la musculature para vertébrale, des
+épaules et de la région fessière; le niveau des
+épaules et des crêtes iliaques, les fosses poplitées
+et la forme et position de l’arrière-pied
+c. Pendant l’examen, le niveau des épaules et du
+bassin peut varier en fonction de la position des
+
+Photos ou illustration
+
+membres inf. P.ex., si le patient fait une flexion
+antalgique d’un genou ou a un appui plus important
+sur un des membres inf., il faut lui demander de
+s’appuyer de manière symétrique sur ses jambes.
+Colonne vertébrale - aspect latérale
+On peut constater de troubles statiques, comme une
+hyperlordose ou une hypercyphose, ainsi qu’une diminution de
+la mobilité normale de la colonne lombaire, comme en cas de
+lombalgie aigue ou de spondylarthrite ankylosante (une
+maladie inflammatoire qui peut provoquer une ankylose de la
+colonne vertébrale)
+
+a. Patient debout, de profil, statique, puis on laisse le
+patient faire une flexion (« touchez vos pieds »)
+b. Inspection : on évalue les lordoses cervicale et
+lombaire et la cyphose dorsale. On évalue la mobilité
+de la colonne lombaire de la manière suivante: on
+met un doigt approximativement sur L1 et autre doigt
+de la même main approximativement sur L5 (par
+exemple l’index/le pouce et le petit doigt,
+respectivement) en position debout et on laisse le
+patient effectuer une flexion de la colonne, tout en
+gardant nos doigts en place. La distance entre nos
+doigts doit augmenter entre la position neutre et la
+flexion du tronc (de 4-5 cm habituellement).
+c. Il faut bien garder les doigts en place en regard de
+épineux de L1 et L5 pendant la flexion.
+En laissant le patient se pencher en avant, on
+mesure également (indirectement) la flexion des
+hanches.
+
+Inspection de face – colonne vertébrale
+Une diminution de la mobilité de la colonne cervicale peut se
+rencontrer p.ex. en cas d’arthrose facettaire, en cas d’arthrite
+atlanto-axoidienne (polyarthrite rhumatoïde, chondrocalcinose),
+mais également en cas de contracture de la musculature
+cervicale.
+
+a. Patient debout ; il est demandé de toucher les
+épaules avec sa tête.
+b. On évalue la latéroflexion de la colonne cervicale
+c. Le patient ne doit pas surélever les épaules pendant
+cette manœuvre
+
+Inspection de face – membres sup.
+1. Mobilité incomplète p.ex. en cas d’arthrite /arthrose /épaule
+gelée.
+
+Patient debout.
+1.a. On lui demande de mettre les mains derrière la tête.
+1.b. On observe la mobilité de l’articulation glenohumérale, acromio-claviculaire et sternoclaviculaire, ainsi que la flexion des coudes.
+
+2. Une mobilité diminuée peut être constatée p.ex. en cas
+d’arthrite/arthrose du coude
+
+2.a. On demande au patient de tendre les bras le long
+du corps.
+2.b. On observe l’extension des coudes.
+3.a. On demande au patient de montrer ses mains, la
+face dorsale vers le haut, doigts tendus.
+3.b. On évalue la peau, la musculature, les éventuelles
+tuméfactions articulaires et l’extension des doigts, la
+pronation.
+4.a. On demande au patient de tourner ses mains.
+4.b. On évalue la peau, la musculature, les éventuelles
+tuméfactions articulaires, la supination.
+
+3. Des tuméfactions articulaires peuvent être constatées en
+cas de maladie inflammatoire (p.ex. des articulations MCP
+et IPP dans la polyarthrite rhumatoïde) ou dégénérative
+(IPP et IPD dans l’arthrose digitale)
+4. Idem
+
+5. Causes de diminution de la force de préhension : arthrite,
+arthrose, ténosynovite
+
+5.a. On demande au patient de serrer les poings ; on
+demande au patient de nous serrer 2 doigts.
+5.b. On évalue la force de préhension.
+
+6. Mouvements difficiles/incomplets en cas de problème
+articulaire, déficit neurologique ou problème tendineux
+
+6.a. On demande au patient de toucher le bout du pouce
+avec chaque doigt long.
+6.b. On évalue la motricité fine
+7.b. On serre la main du patient en amont des
+articulations MCP ddc
+
+7. Douleurs en cas d’arthrite des MCP. L’arthrose des MCP
+est rare et elle est toujours secondaire (p.ex. suite à une
+arthrite ou à un traumatisme).
+
+Inspection de face – membres inf.
+Il peut y avoir des atrophies musculaires, des tuméfactions
+articulaires (en cas d’arthrose/arthrite), des déviations de l’axe
+du genou (varus/valgus), des troubles statiques du pied (avantpied adductus/abductus, pied plat/creux etc)
+
+a. Patient debout.
+b. On inspecte la musculature, les axes, les
+articulations (genoux, pieds), l’avant-pied, le mi-pied,
+les voutes plantaires.
+
+Membres inf. en décubitus dorsale
+1. Mobilité réduite si arthrose/arthrite
+
+1.a. Le patient est allongé sur le lit d’examen
+1.b. On effectue une flexion du genou et de la hanche
+lors du même mouvement. On revient avec le
+genou en flexion à 90°, hanche fléchie à 90° et on
+effectue une rotation interne de la hanche (le pied
+pivote vers l’extérieur), en gardant la cuisse dans
+l’axe verticale.
+
+2. Épanchement articulaire possible en cas
+d’arthrite/arthrose/tumeur
+
+2.b. On effectue une pression vers le bas sur la rotule
+avec l’index d’une des mains après avoir
+« ramené » l’éventuel liquide synoviale du récessus
+suprapatellaire derrière la rotule avec l’autre main.
+3.b. On serre l’avant pied en amont des articulations
+MTP
+
+3. Manœuvre douloureuse en cas d’arthrite/arthrose/névrome
+de Morton ou bursite intercapitométatarsienne
+
+4. Les callosités anormales indiquent la présence d’une
+4.b. On inspecte la peau de la plante des pieds.
+surcharge mécanique à cet endroit (p.ex. des callosités en
+regard des MTP 2 et 3 indiquent un affaissement de la
+voute plantaire transversale avec appui pathologique sur les
+têtes des métatarsiens 2 et 3)
+
+

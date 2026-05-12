@@ -1,0 +1,417 @@
+— PROPHYLAXIE DE LA MTE VEINEUSE EN CHIRURGIE
+CARDIAQUE ET VASCULAIRE
+PRÉ-OP
+
+PER-OP
+
+POST-OP
+
+Mobilisation ou HNF en fonction du risque thrombotique
+
+HNF
+
+HNF jusqu’au retrait de
+toutes les voies i.v.; ensuite
+Clexane s.c. 40 mg/1x/j
+
+Dans le cadre de la chirurgie cardiaque et vasculaire, en plus de la prévention de la MTE veineuse, le traitement anticoagulant a pour but d’éviter la thrombose des valves et des pontages. En fonction du matériel utilisé et de la situation anatomique et hémodynamique du
+patient, le dosage et le type d’anticoagulant utilisé doivent être adaptés, et si nécessaire un
+traitement antiagrégant peut être combiné.
+
+Traitement et prophylaxie
+de la Maladie ThromboEmbolique Veineuse
+(MTEV)
+—
+Les recommandations sont à adapter
+en fonction des risques et de la situation du patient
+
+— POSOLOGIES
+— ANESTHÉSIE PÉRIDURALE/LOCO-RÉGIONALE
+
+Attention: Pas d’administration préopératoire de fondaparinux (Arixtra) ou de rivaroxaban (Xarelto) !
+NB : Lors d’une anticoagulation thérapeutique par fondaparinux (Arixtra) il faut renoncer à
+une anesthésie rachidienne ou péridurale ! (http://sgar-ssar.ch/Informations-concernant-desme.250.0.html?&L=1)
+
+PROPHYLAXIE
+
+THÉRAPIE
+
+Délai minimum entre la dernière
+injection d’HBPM et ponction,
+pose ou ablation de cathéter
+
+Délai minimum avant la première
+injection d’HBPM après pose ou
+ablation de cathéter
+
+Clexane
+
+12 h
+
+Clexane
+
+4h
+
+Arixtra
+
+36 h
+
+Arixtra
+
+12 h
+
+Xarelto
+
+18 h
+
+Xarelto
+
+6h
+
+Clexane: 24 h
+
+Clexane: 4 h
+
+— ANTICOAGULATION JOUR SÉANCE D’HÉMODIALYSE
+Hémodialyse <4h
+
+Clexane 1 mg/kg dans la partie «artérielle» de la tubulure de CEC
+
+Hémodialyse >4h
+
+Eventuellement une 2ème injection Clexane 0.5-1 mg/kg
+
+AC: anticoagulation, AIT: accident ischémique transitoire, AVC: accident vasculaire cérébral AVK: anti vitamine K, CEC: circulation extracorporelle, ClCr: clearance de la créatinine; CO: contraception orale, EP: embolie pulmonaire, FH: fracture hanche, FR: facteur de
+risque, HBPM: héparine de bas poids moléculaire, HNF: héparine non fractionnée, MTE: maladie thromboembolique, EP: embolie pulmonaire, PTG: prothèse totale genou, PTH: prothèse
+totale hanche, THS: traitement hormonal substitutif, TIH: thrombopénie induite par l’héparine,
+TVP: thrombose veineuse profonde.
+
+THÉRAPEUTIQUE Fondaparinux (Arixtra) 7.5 mg 1x/j s.c.
+(5 mg si poids <50 Kg, 10 mg si poids >100 Kg)
+Enoxaparine (Clexane) 1 mg/Kg/2x/j s.c.
+PROPHYLAXIE
+
+c.f. tableaux; Enoxaparine 20 ou 40 mg (parfois 60 mg) 1x/j s.c.;
+Fondaparinux a 2.5 mg 1x/j s.c.;
+Rivaroxaban (Xarelto) 10 mg/j p.o.
+
+INSUFFISANCE
+RÉNALE SÉVÈRE
+(ClCr <30 ML/
+MIN)
+
+Traitement: HNF selon nomogramme ou Clexane 1 mg/Kg/1x/j s.c.
+avec surveillance de l’activité anti Xa
+Prophylaxie: HNF 5’000 U 2x/j s.c. ou Clexane 20 mg/1x/j s.c.
+avec surveillance de l’activité anti Xa
+
+Patients ambulatoires: Arixtra, Clexane, Fragmine, Fraxiparine/Fraxiforte ou Xarelto peuvent
+être utilisés indifféremment en respectant leurs indications et posologies respectives.
+
+— SURVEILLANCE DU COMPTE PLAQUETTAIRE
+RISQUE DE TIH
+
+PATIENTS
+
+MONITORING
+
+Fréquent
+(>1%)
+
+Post-op sous prophylaxie par HNF
+
+1x/2j dès j4 à j14 ou
+jusqu’à l’arrêt de l’HNF
+
+Non fréquent
+(0.1-1%)
+
+En médecine/obstétrique sous prophylaxie 1x/2-3j dès j4 à j14 ou
+par HNF ou HBPM après traitement par HNF jusqu’à l’arrêt de l’HNF
+Post-op sous prophylaxie par HBPM
+Post-op avec voies i.v. rincés par HNF
+
+Rare
+(<0.1%)
+
+En médecine/obstétrique traités par HBPM
+seulement
+
+Pas de surveillance
+du compte plaquettaire
+
+En médecine/obstétrique avec voies i.v.
+rincées par HNF
+
+création: cemcav - chuv | 112792
+
+Traitement ou prophylaxie par Arixtra
+Prophylaxie par Xarelto
+
+— Références
+Chest 2008;133(6),67S-968S; se référer aussi au Compendium Suisse des Médicaments
+Mazzolai L., Angelillo A., Bervini D., Borens, O., Buclin T, Bulaz C., Burnier M., Calandra T., Cornuz J., Corpataux J.M., Daniel R., Demartines N., Duchosal M., Eeckhout E.,
+Farron A., Frackowiak. R., Hirschi B., Hohlfeld P., Hugli O., Jichlinski P., Jolliet P., Kern
+C., Levivier M., Leyvraz S., Meuli R., Michel P., Moradpour D., Nicod L., Pannatier A.,
+Prior J., Qanadli S., Ris H.B., Ruchat P., So A., Teta D., Vial Y., Vogt P., Voirol P., Von
+Segesser L., Waeber G, Yersin B.
+Pour tous commentaires veuillez contacter: lucia.mazzolai@chuv.ch
+4ème version, mai 2011
+
+— SITUATIONS PARTICULIÈRES NÉCESSITANT UN DOSAGE DE
+L’ACTIVITÉ ANTI-Xa
+SITUATION
+
+PROCÉDURE
+
+OBJECTIF ANTI-Xa
+
+Patients de poids
+<50 kg ou >110 kg
+Hémorragies
+MTEV récidivante sous traitement par HBPM
+ou Arixtra
+Insuffisance rénale sévère
+(ClCr <30ml/min)
+
+Mesure de l’activité anti-Xa
+après 2 injections: prise de
+sang 3-5 h après la dernière
+injection
+
+Clexane en prophylaxie:
+0,1-0,4 UI/ml
+Clexane en thérapeutique
+1 mg/kg/2x/j: 0,5-1,1 UI/ml
+Arixtra en prophylaxie:
+0,32-0,42 mg/l
+Arixtra en thérapeutique:
+0,46-0, 62 mg/l
+
+CIR103244
+
+— TRAITEMENT D’UNE TVP OU EP NON MASSIVE
+Premier choix: Arixtra 7.5 mg 1x/j s.c. (5 mg si poids <50 Kg, 10 mg si poids >100 Kg)
+Alternatives: Clexane 1 mg/Kg/2x/j s.c. ou HNF i.v.
+Durée: Selon recommandations. Si traitement concomitant par AVK, arrêt Arixtra ou HBPM
+ou HNF dès 2 INR efficaces à >24h d’intervalle et avec au moins un recouvrement de 5j
+
+— SUBSTITUTION DES AVK EN VUE D’UNE CHIRURGIE
+OU GESTE INTERVENTIONNEL
+CLEARANCE CRÉATININE > 30 ML/MIN
+
+CLEARANCE CRÉATININE < 30 ML/MIN
+
+2-4 j avant, stop AVK (mesurer l’INR)
+Introduire Clexane 1mg/kg 2x/j s.c.
+Pas d’injection le matin de l’examen
+Reprise de l’anticoagulation selon ordre
+médical
+
+Hospitalisation la veille
+Arrêt des AVK (mesurer l’ INR et donner
+de la vit K si nécessaire)
+Introduire l’HNF selon indication
+Arrêt de l’HNF 4 h avant intervention
+Reprise de l’anticoagulation selon
+ordre médical
+
+— PROPHYLAXIE DANS L’ANGOR INSTABLE OU NON STEMI
+STRATÉGIE INVASIVE
+URGENTE
+
+STRATÉGIE INVASIVE
+PRÉCOCE
+
+TRAITEMENT
+CONSERVATEUR
+
+HNF en bolus 70 UI/Kg
+(max 5’000 UI), perfusion
+d’entretien 12 UI/Kg/h
+
+Arixtra 2.5 mg s.c. 1x/j
+
+Arixtra 2.5 mg s.c. 1x/j
+
+— PROPHYLAXIE EN MÉDECINE
+INDICATION
+
+ATTITUDE
+
+Insuff. cardiaque (NYHA III, IV)
+Insuff. respiratoire sévère
+Affection infectieuse
+ou rhumatismale aiguë
+Immobilisation >3j + 1 FR*
+
+Clexane 40 mg/1x/j s.c.
+ou Arixtra 2.5 mg 1x/j
+
+— PROPHYLAXIE EN NEUROCHIRURGIE
+INDICATION
+
+ATTITUDE
+
+Chirurgie crânienne et
+spinale
+
+Pré-op: Clexane 20 mg/1xj s.c.
+(dernière injection au plus tard 12 h avant op)
+Post-op: Clexane 40 mg/1xj s.c.
+en fonction du risque hémorragique
+
+Hématome intracérébral
+primaire ou secondaire
+
+Si pas de chirurgie et pas d’aggravation clinique: Clexane 20
+mg/1xj s.c. dès le 2ème jour et 40 mg/1xj dès le 3ème
+
+Hématome sous-dural
+chronique
+
+Pré-op: pas de prophylaxie
+Post-op: Clexane 20 mg/1xj s.c. dès ablation du drain jusqu’au
+3ème j et 40 mg/1xj dès le 3ème j
+
+ Pour tous les patients, en plus de la prophylaxie pharmacologique, bas de compression
+antithrombotique (18mmHg) le jour de l’opération et jusqu’à mobilisation
+ Pour les patients avec: durée de chirurgie > 6h; chirurgie en position assise;
+séjour aux SI; contre-indication à la prophylaxie anticoagulante; Plusieurs FR*,
+en plus des bas de compression, une compression intermittente par bottes est indiquée
+
+*FR: antécédents de MTE, cancer évolutif, thrombophilie connue, grossesse, maladie
+neurologique aiguë, maladie inflammatoire digestive
+
+— PROPHYLAXIE EN ORTHOPÉDIE
+RISQUE THROMBOTIQUE
+
+PROPHYLAXIE
+
+Faible
+
+Arthroscopie avec garrot < 60’
+ou plâtre en charge complète
+
+mobilisation précoce
+
+Modéré
+
+arthroscopie avec garrot > 60’ Clexane 40 mg/1xj s.c. à débuter 8-12 h
+ou patient avec FR* ou procépost-op et jusqu’à mobilisation
+dure difficile ou thérapeutique Clexane 40 mg/1xj s.c., 3 semaines
+plâtre en décharge ± FR*
+ou jusqu’à charge complète
+
+Elevé
+
+Chirurgie orthopédique majeure des membres inférieurs
+
+Premier choix
+Xarelto 10 mg/1xj p.o. à débuter 6-10 h post-op.,
+6 semaines ou jusqu’à charge complète
+Alternative
+Clexane 40 mg s.c., 12 h pré-op
+Clexane s.c. 40 mg/1xj à débuter 12 h post-op,
+6 semaines ou jusqu’à charge complète
+
+Autre chirurgie majeure
+
+*FR: antécédents de MTE, cancer évolutif, thrombophilie connue, grossesse, maladie
+neurologique aiguë, maladie inflammatoire digestive
+
+Clexane 40 mg s.c., 12 h pré-op
+Clexane s.c. 40 mg/1xj à débuter 12 h post-op,
+6 semaines ou jusqu’à charge complète
+
+Traumatismes majeurs + 1 FR*: 40mg/1x/j Clexane s.c. jusqu’à mobilisation
+
+— GROSSESSE (INDICATION À POSER PAR LE GYNÉCOLOGUE
+ET/OU LE SPÉCIALISTE)
+PROPHYLAXIE
+
+Clexane 40 mg/1xj s.c.
+
+THÉRAPEUTIQUE
+
+Clexane 1 mg/kg 2xj s.c.
+
+—PROPHYLAXIE AUX SOINS INTENSIFS
+
+*FR: Age ≥ 70, CO, THS, obésité, thrombophilie connue, antécédent de MTE,
+cancer évolutif, décharge, grossesse, insuffisance respiratoire ou cardiaque sévère
+
+— PROPHYLAXIE EN CHIRURGIE GÉNÉRALE, VISCÉRALE,
+GYNÉCOLOGIQUE, UROLOGIQUE, THORACIQUE
+RISQUE THROMBOTIQUE
+
+PROPHYLAXIE
+
+Faible
+
+Chir<30min, sans FR*
+
+mobilisation précoce
+
+Modéré
+
+Chir<30min, avec FR*
+
+Clexane 20 mg s.c. 12 h pré-op
+20 mg/1x/j Clexane s.c. à débuter au plutôt 12 h post-op
+jusqu’à mobilisation ou jusqu’à 3 semaines post-op
+
+Elevé
+
+Chir majeure, ± FR*
+Chir pour néoplasie
+
+Clexane 40 mg s.c. 12 h pré-op
+Clexane 40 mg/1x/j s.c. à débuter au plutôt 12 h
+post-op jusqu’à mobilisation ou jusqu’à 3 sem post-op
+
+Chirurgie urologique
+
+Clexane 40 mg s.c. 12 h pré-op
+Clexane 40 mg/1x/j s.c. à débuter au plutôt 12 h post-op
+jusqu’à mobilisation ou jusqu’à 3 semaines post-op
+Pas de prophylaxie pour la chirurgie endoscopique
+de la vessie et de la prostate (risque hémorragique)
+
+Chirurgie bariatrique
+
+Poids < 150 Kg Clexane 40mg s.c.
+le soir de l’intervention pour 15 jours
+Poids 150-200 Kg Clexane 60mg s.c.
+le soir de l’intervention pour 15 jours
+Poids >200 Kg Clexane 80mg s.c.
+le soir de l’intervention pour 15 jours
+
+HNF jusqu’au retrait de toutes les voies i.v.; ensuite Clexane 40 mg/1x/j
+ou Arixtra 2.5 mg 1x/j s.c. selon les indications
+
+— PROPHYLAXIE EN NEUROLOGIE
+INDICATION
+
+ATTITUDE
+
+Hémorragie intracérébrale primaire
+
+Si pas de chirurgie et pas d’aggravation
+clinique: Clexane 20 mg/1xj s.c. dès le 2ème
+jour et 40 mg/1xj dès le 3ème
+
+AVC ischémique/AIT
+
+Clexane 40 mg/1x/j s.c.
+(si thrombolyse attendre 24h)
+
+Thrombose veineuse cérébrale, AVC + TVP/
+EP et situations spéciales d’AVC/AIT
+
+HNF selon les recommandations
+
+*FR: CO, THS, obésité, immobilité, antécédents de MTE, néoplasie progressive,
+thrombophilie connue, grossesse, insuffisance respiratoire ou cardiaque sévère
+
+

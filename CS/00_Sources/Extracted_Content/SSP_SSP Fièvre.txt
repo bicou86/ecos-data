@@ -1,0 +1,143 @@
+Fièvre
+Anamnèse
+1. Caractériser la fièvre
+a. Début/durée
+b. Intensité
+c. Évolution
+d. Fluctuation
+e. Facteurs soulageants
+2. Douleurs ?
+3. Symptômes B
+a. Frissons
+b. Transpiration
+c. Perte de poids
+4. Anamnèse par système
+a. Toux
+b. Dyspnée
+c. Disparition goût ou odorat
+d. Céphalées
+e. Éruption cutanée
+f. Douleurs articulaires
+g. Douleurs musculaires (courbatures)
+h. Symptômes digestifs
+i. Symptômes urinaires
+5. Antécédents personnels
+a. Maladie
+i. Maladie chronique
+ii. Immunosuppression
+b. Opération
+c. Hospitalisation
+d. Vaccins
+e. Perte de poids récente
+6. Habitudes
+a. Voyages
+b. Exposition à des malades (enfants, travail en milieu de soin)
+c. Contact avec des animaux
+d. Tabac
+e. Drogues iv
+f. Sexualité (type, préservatif)
+g. Médicaments
+
+Examen clinique
+1. Inspection cutanée (recherche systématique de tout le corps)
+a. Recherche d’affection/éruption cutanée
+2. Inspection cavité buccale
+3. Palpation des aires ganglionnaires
+a. Cervicales
+b. Axillaires
+c. Inguinales
+4. Auscultation cardiaque
+a. Foyer aortique
+b. Foyer pulmonaire
+c. Foyer mitral
+d. Foyer tricuspidien
+5. Status vasculaire
+a. Palpation des pouls périphériques
+b. Temps de recoloration des extrémités
+c. Œdème ? angioedème ?
+d. Ausculatation des carotides
+6. Pulmonaire
+a. Amplitude
+b. Percussion (lat + post : délimiter + comparer)
+c. Auscultation (lat + post : comparer)
+7. Rigidité nucale (méningisme)
+Drapeaux rouges
+- Patient instable (malgré remplissage sepsis)
+o Insuffisance respiratoire
+o Hypotension/tachycardie
+- Fièvre à plus de 39 avec frissons solennels
+- Immunosupprimé
+o Radiothérapie + cortiocothérapie
+o Chimiothérapie
+o Post splénectomie
+o Lymphome
+- Souffle cardiaque nouveau +/- signes de dissémination hématogène
+- Atteinte SNC +/- lésion hémorragiques (septicémie à méningocoque)
+- Retour de voyage
+o Malaria
+o Dengue
+o Ricketsios
+Examens complémentaires de débrouillage en absence d’éléments positifs :
+- Rx thorax
+- Labo : VS, FSC, électrolytes, tests hépatiques
+- Tests urinaires
+
+DD
+-
+
+-
+
+-
+
+-
+
+-
+
+Infectieux
+o Abcès (pelviens, abdominaux, dentaires, …)
+o Endocardite
+o Méningite
+o Pneumonie
+o Ostéomyélite
+o Sinusite
+o Prostatite
+o Tuberculose extra-pulmonaire
+o Lyme (paralysie, symptômes pseudo-grippaux, érythème migrant)
+o Virus : CMV, EBV, HIV, hépatites
+o Champignons
+Maladie inflammatoire
+o Connectivites
+Ténosynovites, ferritine
+▪ Still (arthrite, adénopathie, pharyngite, fièvre
+augmentée
+ondulante)
+▪ Lupus érythémateux disséminé (rash malaire, photosensibilité,
+pleurésie, péricardite, arthralgie, perte de poids, fatigue, fièvre)
+▪ Polyarthrite rhumatoïde (arthrite : MCP – IPP, genou)
+o Vasculite
+▪ Horton
+▪ Polymyalgia rheumatica (Raideur matinale et douleur symétrique des
+ceintures, réponse rapide aux CS)
+o Maladie granulomateuse
+▪ Sarcoïdose
+o Fièvre méditerranéenne
+o Spondylarthrite ankylosante (douleur lombaire inflammatoire, > 40, check
+uvéite)
+Néoplasie
+o Hémopathies
+o Tumeurs solides
+Endommagement des tissus
+o Traumatisme
+o Chirurgie
+o Infarctus
+o Nécrose
+o Hématome
+Transfusion / hémolyse
+Thrombo-embolie
+Hyperthyroïdie / insuffisance surrénalienne
+Fièvre médicamenteuse (ATB, médicament CV, allopurinol, phénytoïne)
+Fièvre suite à vaccin
+Aucun diag ne peut être posé : indéterminé : si investigation profonde et > 3
+semaines
+
+

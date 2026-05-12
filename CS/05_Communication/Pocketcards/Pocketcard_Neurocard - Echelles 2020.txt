@@ -1,0 +1,269 @@
+Service de Neurologie
+Centre Cérébrovasculaire
+
+Version 09/2020
+
+NIHSS (0 - 42 points)
+1a. Vigilance: 0: normal ; 1: somnolence ; 2: stupeur ; 3: coma (réflexes
+seulement ou pas de réponse)
+1b. Mois? Age? (1ère réponse!): 0: deux correctes ; 1: une correcte /
+intubation / dysarthrie sévère ; 2: deux fausses/pas de réponse
+/aphasie/coma
+1c. f/o yeux, f/o main (si aphasie ou sourd: pantomime)
+0: correct ; 1: un absent ; 2: deux absents/coma
+2. Parésie du regard (si pas collab: manœuvres optocin.)
+0: absente ; 1: partielle/unilatérale ; 2: sévère/déviation
+3. Hémianopsie: 0: absente ; 1: partielle/quadran./neglect ; 2: complète ;
+3: bilatérale/aveugle/sans réponse
+4. Parésie faciale (si pas collaborant ou coma : pantomime, stim.
+douloureuse) :
+0: absente ; 1: mineure ; 2: modérée ; 3: complète/bilatérale/sans réponse
+5. Drift bras D/G x 10 sec.: 0: absent ; 1: mineur ; 2: touche lit ; 3: M2 ;
+4: M1/M0/coma (X: pas testable)
+6. Drift jambes D/G x 5 sec.: idem
+7. Ataxie: 0: absente/plégie/comprend pas/coma ; 1: 1 membre ;
+2: >1 membre (X: pas testable)
+8. Sensibilité (stim. douloureuse permise): 0: normale ; 1: abaissée,
+2: absente/bilat/pas de réponse/coma
+9. Aphasie: 0: absente ; 1: discrète/modérée ; 2: sévère ; 3: mutique/coma (si
+intubé/anarthrique: tester écriture!)
+10. Dysarthrie: 0: absente ; 1: discrète/modérée ;
+2: incompréhensible/muet/coma (X: pas testable)
+11. Neglect (si aphasie/stupeur/confus: selon comport.)
+0: absent ; 1: unimodal, 2: plurimodal/coma
+Echelle de Rankin modifiée (0 – 6 points)
+0: Pas de symptômes du tout
+1: Pas de handicap significatif malgré la persistance de symptômes.
+Peut effectuer toutes les activités et tâches usuelles.
+2: Handicap léger: ne peut pas effectuer toutes les activités et tâches
+précédentes, mais reste autonome pour les besoins personnels.
+3: Handicap modéré: nécessite de l’aide pour les activités habituelles,
+mais peut marcher seul (avec ou sans canne, tintébin)
+4: Handicap modérément sévère: nécessite de l’aide pour les soins
+personnels et ne peut pas marcher sans l’aide d’une autre personne
+5: Handicap sévère: patient alité, incontinent, a besoin de soins
+constants.
+6: Décès
+
+Risque d’AVC après AIT : score ABCD3-I (Merwick, Lancet Neurol 2010)
+Age ≥60 ans
+1
+Hospitaliser dans unité cérébrov. si …
+Blood pressure ≥140/90Hg
+1
+- Score ABCD3-I > 3
+Clinique
+- Sténose >50% ds. territoire ischémique
+- Dysphasie
+1
+- Nouvelle fibrillation auriculaire
+- Parésie
+2
+Hospitaliser dans UCV ou ailleurs si ...
+Durée
+Pas les critères en haut, mais si ...
+- 10-59 min.
+1
+- Comorbidités ++ actives (cardioresp, ..)
+- ≥ 60 min.
+2
+- Facteurs psycho-sociaux ++
+Diabète
+1
+- Jugement du médecin
+Double AIT récent
+2
+Si pas d’hospitalisation : adresser à un
+Imagerie
+spécialiste cérébrovasc. pour bilan à
+- Sténose > 50%
+2
+- Hôpital de Jour - AIT
+- Lésion parenchyme
+- ou consultation cérébrovasculaire
+au CT, CTP, ou DWI
+2
+PeC patient avec FOP : RoPE score (0-10 points) (Kent Neurology 2013)
+No history of hypertension
+1 Fermeture du FOP raisonnable si :
+No history of diabetes
+1 - Bilan détaillé de l’AVC revu par un
+No history of other stroke/TIA
+1
+expert cérébrovasculaire, et
+Non - smoker
+1 -  1 événement artériel inexpliqué
+Cortical infarct (incl. cerebellar
+compatible avec un embole, et
+1
+cortical) on imaging
+-  6 points au score RoPE
+Age 18 - 29 years
+5 Cas limite : considérer aussi ...
+30 - 39 years
+4
+40 - 49 years
+3 - ASIA ≥ 11 mm
+50 - 59 years
+2 - Taille du shunt
+60 - 69 years
+1 - 2° événement embolique ischémique
+(clinique et/ou radiologique)
+≥ 70 years
+0
+INR cible pour valves mécaniques (Baumgartner, ESC 2018)
+Ø Facteurs
+Thrombogénécité valve
+de risque
+élevé*
+
+≥1 Facteurs
+de risque
+élevé*
+
+Low = Carbomedics (aortic position), Medtronic Hall,
+St Jude Medical (without Silzone), ON-X, Sorin
+Bicarbon
+
+2.5
+
+3.0
+
+Medium = other bileaflet valves
+
+3.0
+
+3.5
+
+High = Lillehei-Kaster, Omniscience, Starr-Edwards,
+Bjork-Shiley and other tilting-disc valves
+
+3.5
+
+4.0
+
+* Considérer ces facteurs de risqué: position mitrale, tricuspide ou pulmonaire de
+la valve; thromboembolie dans le passé; FA associée; diamètre oreillette G
+>50mm; contraste spontanément dense oreillette G; sténose mitrale modéréesévère ; FE <35%; état d’hypercoagulabilité
+
+Facteurs de risque pour une FA chez le patient avec AVC/AIT embolique
+(Critères élaborés par J. Schlaepfer et P. Michel, CHUV)
+Démographie
+& anamnèse
+
+- > 62 ans
+- Hypertension
+- Palpitations à l’anamnèse
+Type
+- Lésions emboliques multi-territoire (anciennes et/ou
+d’AVC/AIT
+actuelles, symptomatiques ou non)
+- Ø plaques athéromat. significatives en amont de l’AVC
+ECG
+- P > 120 ms
+- PR ≥ 200ms
+- Composante négative de l’onde P en V1 > 1 mm2
+- QRS ≥ 120 ms
+- Extrasystoles atriales
+Echocardio ou - Dilatation oreillette ≥ 30 (femme) ou ≥ 32 cc/m2 (homme)
+IRM cardiaque - Insuffisance ou sténose mitrale au moins modérée
+- FE < 40% et/ou ≥ 1 épisode d’insuffisance cardiaque
+Recommandation CHUV : recherche approfondie d’une FA intermittente si
+AVC/AIT cryptogénique embolique et de ≥ 2 des facteurs ci-dessus.
+Anticoagulants oraux directs (ACOD = DOAC)
+Contre-indiqués si clearance Créa < 30ml/min., valve mécanique, ou
+sténose mitrale modérée à sévère
+Réduction de la posologie : pour tous les ACOD :
+- Si ++ risque hémorragique global ou intracrânien (++ lésions vasculaires
+chroniques, antécédent de sousdural ou hémorragie hypertensive)
+- Pendant un ttt concomitant par antiplaquettaire (si indiqué)
+- Autre situation jugée étant à risque hémorragique accru
+Pradaxa®
+Xarelto®
+Eliquis®
+Lixiana®
+2 x 110mg/j 15 mg/j
+2 x 2.5 mg/j
+30mg/j
+- ClCrea 30-49 - ClCrea 30-49 ml/m
+ml/min.
+- ClCrea : 15-30:
+- >80 ans
+«avec prudence »
+
+≥ 2 des: ≥80 ans
+- Poids ≤60 kg
+- Crea >133 µmol/L
+
+- ClCrea<50 ml/min.
+- Poids ≤60 kg
+- Inhibiteurs P-gp
+
+Transformation hémorragique (TH) de l’AVC
+Considérée « symptomatique » si NIHSS ↑ de ≥4 points (expliqué par TH)
+Description radiologique :
+- Infarct hémorragique-1 (HI-1): small petechiae along margins of the
+infarct
+- HI-2: confluent petechiae within infarct; but no space occupying effect
+- Hémorragie parenchymateuse (PH-1): blood clots in <30% of the
+infarcted area, without or with slight space-occupying effect
+- PH-2: clots in 30% of the infarct; substantial space-occupying effect
+
+Score de Padoue pour le risque de maladie thromboembolique (MTEV)
+Cancer actif (3), MTEV antérieure (3), mobilité réduite = alitement ≥3j (3),
+thrombophilie déjà connue (3), traumatisme et/ou intervention chirurgicale
+≤1 mois (2), âge ≥ 70 ans (1), insuffisance cardiaque et/ou respiratoire (1),
+IM aigu ou AVC ischémique aigu (1), infection aiguë et/ou affection
+rhumatismale (1), obésité avec IMC > 30) (1), ttt hormonal actif (1).
+HBMP prophylactique si ≥4 (sauf si risque hém. élevé sur score IMPROVE)
+Score FOUR (0 - 16 points)
+Yeux : 4: ouverts, suit du regard; 3: ouverts, ne suit pas du regard;
+2: ouverture à l’appel; 1: ouverture à la douleur; 0: pas d’ouverture
+Réponse motrice : 4: suit les ordres; 3: localisation de la douleur; 2: posture
+en flexion à la douleur; 1: posture en extension à la douleur; 0: pas de
+réponse ou EME myoclonique
+Réflexes du tronc cérébral : 4: pupillaires et cornéens présents;
+3: mydriase unilatérale ; 2: pupillaires ou cornéens absents ; 1: pupillaires
+et cornéens absents, toux présente ; 0: absence de tous les réflexes
+Respiration : 4: non intubé, respiration régulière ; 3: non intubé, respiration
+Cheyne-Stokes ; 2: non intubé, respiration irrégulière ; 1: intubé, trigge ;
+0: intubé, ne trigge pas ; ou apnée
+Glasgow Coma Scale (3 - 15 points)
+Ouverture des yeux : 4: spontanée ; 3: demande ; 2: douleur ; 1: aucune
+Réponse verbale : 5: orientée ; 4: confuse ; 3: inappropriée ;
+2: incompréhensible ; 1: aucune
+Meilleure réponse motrice : 6: obéit à la demande verbale ; 5: orientée à la
+douleur ; 4: évitement non adapté ; 3: décortication (flexion à la douleur) ;
+2: décérébration (extension à la douleur) ; 1: aucune
+Conversion / rotation corticoïdes iv ou po (doses équivalentes)
+Déxamethasone 0.75 mg
+Prednisone 5 mg
+Hydrocortisone 20 mg
+Prednisolone 5 mg
+Methylprednisolone 4 mg
+Triamcinolone 4 mg
+Conversion / rotation opiacées (doses équivalentes)
+Buprénorphine (Transtec patch) 8.75 mcg/h
+Morphine 20 mg
+Fentanyl patch 12.5 mcg/h
+Oxycodone 10 mg
+Hydromorphone 2.5 mg
+Tramadol 100 mg
+NoSAS (probabilité d’une apnée du sommeil obstructive) (0 - 20 points)
+Neck circumference > 40 cm
+4
+Snoring
+2
+Obesity : BMI ≥ 25 and < 30 kg/m2
+3
+Age >55
+4
+2
+BMI ≥ 30 kg/m
+5
+Sex: Male
+2
+Si le score est ≥8, le patient bénéficiera d’un test de dépistage pendant
+l’hospitalisation (p.ex. ApneaLink®), puis décision polysomnographie ambul.
+
+

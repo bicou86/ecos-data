@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS - Examen du Pied et de la Cheville</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .content-wrapper {
+            display: flex;
+            gap: 20px;
+            padding: 40px;
+        }
+        
+        .main-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        
+        .sidebar {
+            width: 350px;
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .sidebar h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .figure-container {
+            margin-bottom: 15px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .figure-container:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        
+        .figure-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .figure-caption {
+            padding: 8px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+            background: #f8f9fa;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        h4 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .pathology {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        
+        .stats-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .stats-box h4 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .stats-box ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .stats-box li {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .figure-reference {
+            color: #667eea;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        
+        .figure-reference:hover {
+            color: #764ba2;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: pointer;
+        }
+        
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 90%;
+            max-height: 90%;
+        }
+        
+        .modal-content img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: #667eea;
+        }
+        
+        .cards-section {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 3px solid #667eea;
+        }
+        
+        .cards-section h2 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+        
+        .cards-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .card-image-container {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .card-image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .anatomie-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .anatomie-box h4 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .anatomie-box ul {
+            margin-left: 20px;
+        }
+        
+        .test-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .test-box h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 1200px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                max-height: 400px;
+                position: static;
+            }
+            
+            .main-content {
+                padding-right: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content-wrapper {
+                padding: 20px;
+            }
+            
+            .cards-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS</h1>
+            <p style="font-size: 1.2em; opacity: 0.9;">Examen du Pied et de la Cheville</p>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="main-content">
+                <h2>Introduction</h2>
+                <p>Les maladies musculo-squelettiques peuvent atteindre les différentes structures osseuses, musculaires, cartilagineuses, tendineuses ou ligamentaires.</p>
+                
+                <p>Le pied est sujet à de nombreuses pathologies dont l'incidence est élevée chez les personnes âgées. Chez les sujets de plus de 75 ans, un examen clinique du pied peut retrouver un trouble podologique dans 60% des cas. 21 à 40% des patients de cette catégorie d'âge rapportent des troubles du pied.</p>
+                
+                <h2>Anatomie</h2>
+                
+                <h3>Os (26 os)</h3>
+                <ul>
+                    <li><strong>Talus</strong> : articulation talocrurale avec tibia/fibula, subtalaire avec calcanéus, talonaviculaire avec naviculaire</li>
+                    <li><strong>Calcanéus</strong> : s'articule avec talus et cuboïde</li>
+                    <li><strong>Os naviculaire</strong> : s'articule avec talus, cuboïde et 3 cunéiformes</li>
+                    <li><strong>3 os cunéiformes</strong> (médial, intermédiaire, latéral)</li>
+                    <li><strong>Cuboïde</strong> : s'articule avec 4e-5e métatarsiens, calcanéus et cunéiforme latéral</li>
+<ul>
+                    <li><strong>5 métatarsiens</strong>
+<ul>
+<li><strong>14 phalanges</strong> : 3 par orteil sauf hallux (2)</li>
+</ul>
+  </li>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig1')">(FIG 1)</span>
+                
+</ul>
+</ul>
+                <h3>Articulations principales</h3>
+                <ul>
+                    <li><strong>Articulation talocrurale</strong> : talus-tibia-fibula, flexion-extension</li>
+                    <li><strong>Ligne de Chopart</strong> : calcanéocuboïde et talonaviculaire</li>
+                    <li><strong>Ligne de Lisfranc</strong> : articulations tarsométatarsiennes</li>
+                    <li><strong>Articulation tibiofibulaire distale</strong> : syndesmose</li>
+                </ul>
+                
+                <h3>Ligaments</h3>
+                <ul>
+                    <li><strong>Ligament deltoïde</strong> (médial) : tibiotalaire antérieur, tibionaviculaire, tibiocalcanéen, tibiotalaire postérieur</li>
+                    <li><strong>Complexe ligamentaire latéral</strong> : talofibulaire antérieur, talofibulaire postérieur, fibulocalcanéen</li>
+</ul>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig2')">(FIG 2)</span>
+                
+                <h3>Muscles extrinsèques</h3>
+                
+                <h4>Loge antérieure (nerf fibulaire profond)</h4>
+                <ul>
+                    <li>Tibial antérieur : inversion et dorsiflexion</li>
+                    <li>Long extenseur de l'hallux : extension hallux et dorsiflexion</li>
+                    <li>Long extenseur des orteils : extension orteils II-V et dorsiflexion</li>
+                    <li>3e fibulaire : éversion et dorsiflexion</li>
+                </ul>
+                
+                <h4>Loge postérieure (nerf tibial)</h4>
+                <p><strong>Superficielle :</strong></p>
+                <ul>
+                    <li>Gastrocnémiens : flexion plantaire et genou</li>
+                    <li>Soléaire : flexion plantaire</li>
+                    <li>Plantaire : flexion plantaire</li>
+</ul>
+                
+                <p><strong>Profonde :</strong></p>
+                <ul>
+                    <li>Tibial postérieur : inversion et flexion plantaire</li>
+                    <li>Long fléchisseur des orteils : flexion orteils II-V</li>
+                    <li>Long fléchisseur de l'hallux : flexion hallux</li>
+</ul>
+                
+                <h4>Loge latérale (nerf fibulaire superficiel)</h4>
+                <ul>
+                    <li>Long fibulaire : flexion plantaire et éversion</li>
+                    <li>Court fibulaire : éversion</li>
+</ul>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig3')">(FIG 3)</span>
+                
+                <h3>Vascularisation</h3>
+                <ul>
+                    <li><strong>Artère tibiale antérieure</strong> <span class="pathology">→ artère pédieuse dorsale</span></li>
+                    <li><strong>Artère tibiale postérieure</strong> <span class="pathology">→ artères plantaires médiale et latérale</span></li>
+                    <li><strong>Arc artériel plantaire</strong> : anastomose plantaire latérale-pédieuse dorsale</li>
+                    <li><strong>Veines</strong> : grande veine saphène (médiale), petite veine saphène (latérale)</li>
+                </ul>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig4')">(FIG 4)</span>
+                <span class="figure-reference" onclick="scrollToFigure('fig5')">(FIG 5)</span>
+                
+                <h3>Retinacula</h3>
+                <ul>
+                    <li><strong>Rétinaculum antérieur</strong> (extenseurs) : tendons compartiment antérieur, vaisseaux et nerf fibulaire profond</li>
+                    <li><strong>Rétinaculum médial</strong> (fléchisseurs) : tendons loge profonde postérieure, vaisseaux et nerf tibial</li>
+                    <li><strong>Rétinaculum latéral</strong> : tendons loge latérale</li>
+                </ul>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig6')">(FIG 6)</span>
+                
+                <h2>Examen clinique</h2>
+                
+                <h3>1. Inspection</h3>
+                
+                <h4>Marche</h4>
+                <p><strong>Boiterie</strong> <span class="pathology">→ arthrite septique, ostéomyélite, goutte, ostéome ostéoïde</span></p>
+                
+                <h4>Pied et cheville</h4>
+                <p><strong>Rouge, tuméfié, chaud</strong> <span class="pathology">→ arthrite septique, arthrite microcristalline, fracture, spondylarthropathie, bursite, polyarthrite rhumatoïde, entorse</span></p>
+                
+                <p><strong>Atrophie musculaire</strong> <span class="pathology">→ atteinte neuromusculaire, décharge antalgique</span></p>
+                
+                <p><strong>Cicatrices</strong> <span class="pathology">→ anciennes interventions d'ostéosynthèse</span></p>
+                
+                <p><strong>Nodules</strong> <span class="pathology">→ polyarthrite rhumatoïde, tophis (goutte)</span></p>
+                
+                <p><strong>Plaie</strong> <span class="pathology">→ lésion traumatique sur pied diabétique</span></p>
+                
+                <h4>Déformations</h4>
+                <p><strong>Affaissement voûte + pied valgus</strong> <span class="pathology">→ pied plat</span></p>
+                
+                <p><strong>Valgisation arrière-pied + "too many toes sign" + affaissement voûte</strong> <span class="pathology">→ pied plat valgus</span></p>
+                
+                <p><strong>Voûte très arquée + orteils en griffe + médialisation talon</strong> <span class="pathology">→ pied creux varus équin (ataxie de Friedreich)</span></p>
+                
+                <p><strong>Équin + adduction pied</strong> <span class="pathology">→ pied bot varus équin</span></p>
+                
+                <h3>2. Palpation</h3>
+                
+                <p>Palpation symétrique et systématique de toutes les structures</p>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig7')">(FIG 7)</span>
+                
+                <h4>Zones palpables</h4>
+                <ul>
+                    <li><strong>Arrière-pied</strong> : malléoles, ligaments, tendon d'Achille</li>
+                    <li><strong>Médio-pied</strong> : os du tarse, bases métatarsiennes, fascia plantaire, tendons</li>
+                    <li><strong>Avant-pied</strong> : têtes métatarsiennes, phalanges, os sésamoïdes</li>
+                    <li><strong>Cou-de-pied</strong> : tendons extenseurs, ligne interarticulaire talocrurale</li>
+                    <li><strong>Structures vasculaires</strong></li>
+                </ul>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig8')">(FIG 8)</span>
+                
+                <h4>Douleurs selon localisation</h4>
+                
+                <p><strong>Arrière-pied</strong> <span class="pathology">→ arthrose talocrurale/sous-talienne, tendinopathie d'Achille/fascia plantaire, entorse, fracture, enthésite (spondylarthropathie), arthrite, ténosynovite, syndrome radiculaire L5/S1, syndrome tunnel tarsien, algoneurodystrophie, syndrome épine calcanéenne</span></p>
+                
+                <p><strong>Médio-pied</strong> <span class="pathology">→ arthrose talo-naviculaire/tarso-métatarsienne, tendinopathie tibial postérieur/antérieur, fracture, arthropathie, spondylarthropathie, polyarthrite rhumatoïde, pied de Charcot</span></p>
+                
+                <p><strong>Avant-pied</strong> <span class="pathology">→ métatarsalgie, hallux valgus, orteils en griffe/marteau, spondylarthropathie, arthrite septique/microcristalline, polyneuropathie diabétique, névralgie de Morton, maladie de Ledderhose</span></p>
+                
+                <h3>3. Mobilité - Force - Sensibilité</h3>
+                
+                <h4>Mobilité active et passive</h4>
+                <ul>
+                    <li>Flexion-extension cheville</li>
+                    <li>Inversion-éversion tarse</li>
+                    <li>Flexion-extension orteils</li>
+                </ul>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig9')">(FIG 9)</span>
+                
+                <h4>Tests de force</h4>
+                
+                <p><strong>Mise sur pointe des pieds</strong> :</p>
+                <ul>
+                    <li>Normal : talon valgus à plat <span class="pathology">→ varisation sur pointe</span></li>
+                    <li>Anormal : talon reste valgus <span class="pathology">→ atteinte tibial postérieur</span></li>
+                </ul>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig10')">(FIG 10)</span>
+                
+                <h4>Déficits spécifiques</h4>
+                
+                <p><strong>Déficit flexion active (passive normale)</strong> <span class="pathology">→ lésion nerf tibial, lésion tendon d'Achille/fléchisseurs</span></p>
+                
+                <p><strong>Déficit extension active (passive normale)</strong> <span class="pathology">→ lésion nerf fibulaire profond, lésion tendons extenseurs</span></p>
+                
+                <p><strong>Déficit inversion active</strong> <span class="pathology">→ lésion tibial antérieur/postérieur</span></p>
+                
+                <p><strong>Déficit éversion active</strong> <span class="pathology">→ lésion tendons fibulaires</span></p>
+                
+                <p><strong>Déficit actif + passif</strong> <span class="pathology">→ trauma, inflammation, infection</span></p>
+                
+                <h3>4. Examens spécifiques</h3>
+                
+                <div class="test-box">
+                    <h4>Tiroir antérieur</h4>
+                    <p><strong>Position :</strong> décubitus dorsal, cheville 20° flexion plantaire</p>
+                    <p><strong>Manœuvre :</strong> translation antérieure arrière-pied</p>
+                    <p><strong>Test :</strong> ligament talofibulaire antérieur</p>
+                    <p><strong>Positif :</strong> translation asymétrique, arrêt mou <span class="pathology">→ entorse, lésion ligamentaire</span></p>
+                </div>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig11')">(FIG 11)</span>
+                
+                <div class="test-box">
+                    <h4>Test de Thompson</h4>
+                    <p><strong>Position :</strong> décubitus ventral, pieds dépassant table</p>
+                    <p><strong>Manœuvre :</strong> compression masse musculaire mollet</p>
+                    <p><strong>Normal :</strong> flexion plantaire</p>
+                    <p><strong>Positif :</strong> absence/diminution flexion <span class="pathology">→ rupture tendon d'Achille</span></p>
+                </div>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig12')">(FIG 12)</span>
+                
+                <div class="test-box">
+                    <h4>Test de Silfverskiöld</h4>
+                    <p><strong>Manœuvre :</strong> flexion-extension genou en maintenant dorsiflexion</p>
+                    <p><strong>Positif :</strong> dorsiflexion présente genou fléchi, réduite genou tendu <span class="pathology">→ raccourcissement gastrocnémiens</span></p>
+                </div>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig13')">(FIG 13)</span>
+                
+                <div class="test-box">
+                    <h4>Signe de Mulder</h4>
+                    <p><strong>Position :</strong> décubitus dorsal</p>
+                    <p><strong>Manœuvre :</strong> palpation espace intermétatarsien + compression avant-pied</p>
+                    <p><strong>Positif :</strong> "clic" ou douleur <span class="pathology">→ névrome de Morton</span></p>
+                </div>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig14')">(FIG 14)</span>
+                
+                <div class="test-box">
+                    <h4>Test de Molloy</h4>
+                    <p><strong>Position :</strong> décubitus dorsal, genoux fléchis</p>
+                    <p><strong>Manœuvre :</strong> pouce sur interligne talo-crurale, flexion plantaire puis dorsale</p>
+                    <p><strong>Positif :</strong> douleur au point de pression <span class="pathology">→ conflit antéro-latéral (syndrome d'impingement)</span></p>
+                </div>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig15')">(FIG 15)</span>
+                
+                <div class="test-box">
+                    <h4>Test de Windlass</h4>
+                    <p><strong>Position :</strong> décubitus dorsal/assis ou debout</p>
+                    <p><strong>Manœuvre :</strong> extension passive 1ère métatarsophalangienne</p>
+                    <p><strong>Positif :</strong> douleur en fin d'extension <span class="pathology">→ fascéite plantaire</span></p>
+                </div>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig16')">(FIG 16)</span>
+                
+                <div class="test-box">
+                    <h4>Test de Tinel</h4>
+                    <p><strong>Nerf tibial :</strong> percussion sous malléole interne</p>
+                    <p>Positif : paresthésies face plantaire <span class="pathology">→ syndrome tunnel tarsien postérieur</span></p>
+                </div>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig17')">(FIG 17)</span>
+                
+                <p><strong>Nerf fibulaire :</strong> percussion interligne tibio-talaire</p>
+                <p>Positif : paresthésies face dorsale <span class="pathology">→ syndrome tunnel tarsien antérieur</span></p>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig18')">(FIG 18)</span>
+                
+                <div class="test-box">
+                    <h4>Test de Hopkinson (Squeeze test)</h4>
+                    <p><strong>Manœuvre :</strong> compression fibula-tibia ou torsion jambe</p>
+                    <p><strong>Positif :</strong> douleur <span class="pathology">→ lésion syndesmose/membrane interosseuse, fracture de Maisonneuve</span></p>
+                </div>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig19')">(FIG 19)</span>
+                
+                <h2>Carte de synthèse</h2>
+                
+                <h3>Station debout</h3>
+                <h4>Inspection</h4>
+                <ul>
+                    <li>Marche : boiterie, pointe/talons, angle du pas</li>
+                    <li>Axe : valgus-varus, appui mono/bipodal</li>
+                    <li>Aspect : amyotrophie, rougeur, gonflement</li>
+                </ul>
+                
+                <h3>Station assis-couché</h3>
+                <h4>Inspection</h4>
+                <ul>
+                    <li>Chaussures et plante : points d'appui, hyperkératose</li>
+                    <li>Global : tuméfactions, plaies, amyotrophie</li>
+                    <li>Avant-pied : orteils en griffe, hallux valgus</li>
+                    <li>Médio-pied : pied plat/creux</li>
+                    <li>Arrière-pied : déformation Haglund, tendon d'Achille</li>
+</ul>
+                
+                <h4>Palpation</h4>
+                <ul>
+                    <li>Systématique de toutes les structures</li>
+                    <li>Recherche épanchement, synovite</li>
+                    <li>Points douloureux spécifiques</li>
+</ul>
+                
+                <h4>Mobilité</h4>
+                <ul>
+                    <li>Amplitudes actives et passives</li>
+                    <li>Flexion-extension : 50-0-20°</li>
+                    <li>Inversion-éversion : 20-0-5°</li>
+                    <li>Rotation : 10-0-10°</li>
+</ul>
+                
+                <h4>Tests spécifiques</h4>
+                <ul>
+                    <li>Tiroir antérieur, talus libre/bloqué</li>
+                    <li>Thompson, Heel rise test</li>
+                    <li>Silfverskiöld, Windlass</li>
+                    <li>Mulder, Molloy, Hopkinson</li>
+                    <li>Tinel tarsien et péronier</li>
+</ul>
+                
+                <div class="cards-section">
+                    <h2>Cartes de Révision</h2>
+                    <div class="cards-images">
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/Pied-Cheville/Cheville-carte_page-0001.jpg" alt="Carte de révision 1">
+                        </div>
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/Pied-Cheville/Cheville-carte_page-0002.jpg" alt="Carte de révision 2">
+                        </div>
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/Pied-Cheville/Cheville-carte_page-0003.jpg" alt="Carte de révision 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <h3>Figures</h3>
+                <div id="figures-container"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+    
+    <script>
+        // Liste des figures
+        const figures = [
+            {id: 'fig1', file: 'FIG 1.jpg', caption: 'FIG 1 - Os du pied'},
+            {id: 'fig2', file: 'FIG 2.jpg', caption: 'FIG 2 - Ligaments'},
+            {id: 'fig3', file: 'FIG 3.jpg', caption: 'FIG 3 - Muscles'},
+            {id: 'fig4', file: 'FIG 4.jpg', caption: 'FIG 4 - Vascularisation'},
+            {id: 'fig5', file: 'FIG 5.jpg', caption: 'FIG 5 - Vascularisation'},
+            {id: 'fig6', file: 'FIG 6.jpg', caption: 'FIG 6 - Retinacula'},
+            {id: 'fig7', file: 'FIG 7.jpg', caption: 'FIG 7 - Palpation'},
+            {id: 'fig8', file: 'FIG 8.jpg', caption: 'FIG 8 - Zones palpables'},
+            {id: 'fig9', file: 'FIG 9.jpg', caption: 'FIG 9 - Mobilité'},
+            {id: 'fig10', file: 'FIG 10.jpg', caption: 'FIG 10 - Test pointe des pieds'},
+            {id: 'fig11', file: 'FIG 11.jpg', caption: 'FIG 11 - Tiroir antérieur'},
+            {id: 'fig12', file: 'FIG 12.jpg', caption: 'FIG 12 - Test de Thompson'},
+            {id: 'fig13', file: 'FIG 13.jpg', caption: 'FIG 13 - Test de Silfverskiöld'},
+            {id: 'fig14', file: 'FIG 14.jpg', caption: 'FIG 14 - Signe de Mulder'},
+            {id: 'fig15', file: 'FIG 15.jpg', caption: 'FIG 15 - Test de Molloy'},
+            {id: 'fig16', file: 'FIG 16.jpg', caption: 'FIG 16 - Test de Windlass'},
+            {id: 'fig17', file: 'FIG 17.jpg', caption: 'FIG 17 - Test de Tinel tibial'},
+            {id: 'fig18', file: 'FIG 18.jpg', caption: 'FIG 18 - Test de Tinel fibulaire'},
+            {id: 'fig19', file: 'FIG 19.jpg', caption: 'FIG 19 - Test de Hopkinson'},
+            {id: 'fig20', file: 'FIG 20.jpg', caption: 'FIG 20'},
+            {id: 'fig21', file: 'FIG 21.jpg', caption: 'FIG 21'},
+            {id: 'fig22', file: 'FIG 22.jpg', caption: 'FIG 22'},
+            {id: 'fig23', file: 'FIG 23.jpg', caption: 'FIG 23'},
+            {id: 'fig24', file: 'FIG 24.jpg', caption: 'FIG 24'},
+            {id: 'fig25', file: 'FIG 25.jpg', caption: 'FIG 25'},
+            {id: 'fig26', file: 'FIG 26.jpg', caption: 'FIG 26'},
+            {id: 'fig27', file: 'FIG 27.jpg', caption: 'FIG 27'},
+            {id: 'fig28', file: 'FIG 28.jpg', caption: 'FIG 28'},
+            {id: 'fig29', file: 'FIG 29.jpg', caption: 'FIG 29'},
+            {id: 'fig30', file: 'FIG 30.jpg', caption: 'FIG 30'},
+            {id: 'fig31', file: 'FIG 31.jpg', caption: 'FIG 31'},
+            {id: 'fig32', file: 'FIG 32.jpg', caption: 'FIG 32'},
+            {id: 'fig33', file: 'FIG 33.jpg', caption: 'FIG 33'},
+            {id: 'fig34', file: 'FIG 34.jpg', caption: 'FIG 34'},
+            {id: 'fig35', file: 'FIG 35.jpg', caption: 'FIG 35'},
+            {id: 'fig36', file: 'FIG 36.jpg', caption: 'FIG 36'}
+        ];
+        
+        // Génération des figures dans la sidebar
+        const figuresContainer = document.getElementById('figures-container');
+        figures.forEach(fig => {
+            const figureDiv = document.createElement('div');
+            figureDiv.className = 'figure-container';
+            figureDiv.id = fig.id;
+            figureDiv.onclick = () => openModal(figureDiv.querySelector('img'));
+            
+            const img = document.createElement('img');
+            img.src = `../Fiches/RMS/Pied-Cheville/${fig.file}`;
+            img.alt = fig.caption;
+            
+            const caption = document.createElement('div');
+            caption.className = 'figure-caption';
+            caption.textContent = fig.caption;
+            
+            figureDiv.appendChild(img);
+            figureDiv.appendChild(caption);
+            figuresContainer.appendChild(figureDiv);
+        });
+        
+        // Fonction pour scroller vers une figure
+        function scrollToFigure(figId) {
+            const element = document.getElementById(figId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                element.style.transform = 'scale(1.05)';
+                setTimeout(() => {
+                    element.style.transform = '';
+                }, 500);
+            }
+        }
+        
+        // Fonction pour ouvrir le modal
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = img.src || img.querySelector('img').src;
+        }
+        
+        // Fonction pour fermer le modal
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+        
+        // Fermer le modal avec la touche Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1676 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Chirurgie ECOS - Révisions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.7; }
+        }
+        
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+            animation: slideInFromTop 0.8s ease-out;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        /* Barre de progression */
+        .progress-container {
+            padding: 20px;
+            background: white;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .progress-bar {
+            height: 30px;
+            background: #e9ecef;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 15px;
+            width: 0%;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        /* Cartes de statistiques */
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+        
+        /* Contrôles avec filtres améliorés */
+        .controls {
+            padding: 25px;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            border-bottom: 1px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .controls-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        
+        .search-container {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+            font-size: 18px;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 15px 12px 45px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: white;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        /* Filtres par tags */
+        .filter-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-tag {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 2px solid #dee2e6;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .filter-tag:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+        
+        .filter-tag.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: transparent;
+        }
+        
+        .filter-tag.urgent { border-color: #e74c3c; }
+        .filter-tag.urgent.active { background: #e74c3c; }
+        
+        .filter-tag.warning { border-color: #f39c12; }
+        .filter-tag.warning.active { background: #f39c12; }
+        
+        .filter-tag.dosage { border-color: #3498db; }
+        .filter-tag.dosage.active { background: #3498db; }
+        
+        .filter-tag.osce { border-color: #27ae60; }
+        .filter-tag.osce.active { background: #27ae60; }
+        
+        /* Sélecteur de sections */
+        .section-selector {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        select {
+            padding: 10px 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            background: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        select:hover {
+            border-color: #667eea;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        button {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        
+        button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        button:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+        
+        button:active {
+            transform: translateY(-1px);
+        }
+        
+        .counter {
+            padding: 12px 20px;
+            background: white;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #495057;
+            border: 2px solid #dee2e6;
+            min-width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .section.collapsed {
+            margin-bottom: 20px;
+        }
+        
+        .section.collapsed .table-wrapper {
+            display: none;
+        }
+        
+        .section-title {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            font-size: 1.5em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .section-title:hover {
+            padding-left: 30px;
+        }
+        
+        .section-title::before {
+            content: '▼';
+            position: absolute;
+            left: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .section.collapsed .section-title::before {
+            transform: rotate(-90deg);
+        }
+        
+        .section-count {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: normal;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        th {
+            background: #f8f9fa;
+            color: #495057;
+            font-weight: 600;
+            text-align: left;
+            padding: 15px;
+            border-bottom: 2px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e9ecef;
+            vertical-align: top;
+        }
+        
+        tr {
+            transition: all 0.3s ease;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+            transform: scale(1.01);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .pathology {
+            font-weight: 700;
+            color: #667eea;
+            font-size: 1.1em;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .pathology::before {
+            content: '🔬';
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        
+        /* STYLES POUR LES HIGHLIGHTS COLORÉS */
+        
+        /* Rouge - Urgences et alertes */
+        .urgent {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            animation: pulse-urgent 2s infinite;
+            box-shadow: 0 2px 5px rgba(231, 76, 60, 0.3);
+        }
+        
+        @keyframes pulse-urgent {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+        }
+        
+        /* Orange - Avertissements */
+        .warning {
+            background: linear-gradient(45deg, #f39c12, #e67e22);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(243, 156, 18, 0.3);
+        }
+        
+        /* Jaune - Points importants */
+        .highlight {
+            background: linear-gradient(45deg, #f1c40f, #f39c12);
+            color: #2c3e50;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(241, 196, 15, 0.3);
+        }
+        
+        /* Jaune - Points clés */
+        .key-point {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #2c3e50;
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            border: 1px solid #f1c40f;
+            box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);
+        }
+        
+        /* Bleu foncé - Signes cliniques */
+        .clinical-sign {
+            background: linear-gradient(45deg, #2c5aa0, #1e3c72);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(44, 90, 160, 0.3);
+        }
+        
+        /* Vert clair - Dosages */
+        .dosage {
+            background: linear-gradient(45deg, #00b894, #55efc4);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(0, 184, 148, 0.3);
+        }
+        
+        /* Bleu clair - Examens prioritaires */
+        .exam-priority {
+            background: linear-gradient(45deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(116, 185, 255, 0.3);
+        }
+        
+        /* Vert - Lignes de traitement */
+        .treatment-line {
+            background: linear-gradient(45deg, #27ae60, #229954);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(39, 174, 96, 0.3);
+        }
+        
+        /* Conseils OSCE - Encadré spécial */
+        .osce-tip {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 18px;
+            border-radius: 10px;
+            margin: 8px 0;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+            position: relative;
+            overflow: hidden;
+            border-left: 4px solid #fff;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .osce-tip::before {
+            content: '💡 ';
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+        
+        .osce-tip::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transform: translate(30px, -30px);
+        }
+        
+        /* Légende des couleurs */
+        .color-legend {
+            background: white;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: none; /* Hidden by default */
+        }
+        
+        .color-legend h3 {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        
+        .legend-item {
+            display: inline-flex;
+            align-items: center;
+            margin: 5px 10px;
+            font-size: 14px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 8px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .controls-row {
+                flex-direction: column;
+            }
+            
+            .search-container {
+                min-width: 100%;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 10px;
+            }
+            
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            .controls, .progress-container, .stats-container {
+                display: none;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+                box-shadow: none;
+            }
+            
+            .section-title {
+                background: #667eea !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            tr:hover {
+                transform: none;
+                box-shadow: none;
+            }
+            
+            /* Préserver les couleurs à l'impression */
+            .urgent, .warning, .highlight, .key-point,
+            .clinical-sign, .dosage, .exam-priority,
+            .treatment-line, .osce-tip {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    
+        .surgery {
+            background: linear-gradient(45deg, #d35400, #e67e22);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(211, 84, 0, 0.3);
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 Guide Chirurgie ECOS</h1>
+            <p class="subtitle">Fiches de révision complètes pour l'examen clinique</p>
+        </header>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number">15</div>
+                <div class="stat-label">Sections</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">41</div>
+                <div class="stat-label">Pathologies</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="viewedCount">0</div>
+                <div class="stat-label">Consultées</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="remainingCount">41</div>
+                <div class="stat-label">Restantes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="progressPercent">0%</div>
+                <div class="stat-label">Progression</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="timeSpent">0m</div>
+                <div class="stat-label">Temps passé</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="controls-row">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Rechercher une pathologie, symptôme, traitement...">
+                </div>
+                <button onclick="expandAll()">📖 Tout déplier</button>
+                <button onclick="collapseAll()">📚 Tout replier</button>
+                <button onclick="resetFilters()">🔄 Réinitialiser</button>
+            </div>
+            
+            <div class="controls-row">
+                <div class="filter-tags">
+                    <span style="margin-right: 10px; font-weight: 600;">Filtres:</span>
+                    <div class="filter-tag urgent" data-tag="urgent" onclick="toggleFilter(this)">🚨 Urgences</div>
+                    <div class="filter-tag warning" data-tag="warning" onclick="toggleFilter(this)">⚠️ Alertes</div>
+                    <div class="filter-tag dosage" data-tag="dosage" onclick="toggleFilter(this)">💊 Dosages</div>
+                    <div class="filter-tag osce" data-tag="osce" onclick="toggleFilter(this)">💡 Tips OSCE</div>
+                </div>
+                
+                <div class="section-selector">
+                    <label for="sectionSelect" style="font-weight: 600;">Section:</label>
+                    <select id="sectionSelect" onchange="filterBySection()">
+                        <option value="">Toutes les sections</option>
+                        <option value="">Toutes les sections</option>
+                        <option value="section-1">1. Traumatologie et Urgences</option>
+                        <option value="section-2">2. Pathologies Thyroïdiennes</option>
+                        <option value="section-3">3. Pathologies Digestives</option>
+                        <option value="section-4">4. Urgences Urologiques</option>
+                        <option value="section-5">5. Chirurgie Digestive</option>
+                        <option value="section-6">6. Maladies Inflammatoires Intestinales</option>
+                        <option value="section-7">7. Traumatisme Crânien</option>
+                        <option value="section-8">8. Pathologies Vertébrales</option>
+                        <option value="section-9">9. Pathologies Respiratoires</option>
+                        <option value="section-10">10. Pathologies Cardiovasculaires</option>
+                        <option value="section-11">11. Pathologies Vasculaires</option>
+                        <option value="section-12">12. Pathologies Œsophago-Gastriques</option>
+                        <option value="section-13">13. Abdomen Aigu</option>
+                        <option value="section-14">14. Pathologies Gastro-Duodénales</option>
+                        <option value="section-15">15. Traumatologie et urgences chirurgicales</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="counter" id="counter">
+                <span id="visibleCount">37</span> / 37 pathologies affichées
+            </div>
+        </div>
+        
+        <div class="content">
+
+            <!-- Section 1: Traumatologie et Urgences -->
+            <div class="section" id="section-1">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    1. Traumatologie et Urgences
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-1">
+                                <td class="pathology">Soins de plaie</td>
+                                <td>Morsure ? Tétanos ? Vaccins à jour ? Date et mécanisme exacts ? Contexte (animal domestique, professionnel, accidentel) ? ATCD médicaux, allergies, traitements anticoagulants ?</td>
+                                <td>Inspection (taille, profondeur, localisation, saignement, corps étranger). Évaluer motricité, sensibilité, circulation distale (pouls, recoloration capillaire). Vérifier signes infection.</td>
+                                <td>Vaccination antitétanique (si doute), prophylaxie antirabique selon contexte. Soins de plaie : anesthésie locale possible, désinfection/nettoyage abondant, retirer corps étrangers, débridement/irrigation, <span class="surgery">suture</span> (monofilament, non résorbable si <8h, sinon laisser plaie ouverte). Recherche radiographique si suspicion corps étranger profond.</td>
+                                <td><span class="surgery">Suture</span> seulement si plaie <8h ! Si >8h : soins ouverts, pansement. Antibiothérapie prophylactique si plaie souillée/morsure.</td>
+                                <td>Contre-indications à la <span class="surgery">suture</span> : morsure, plaie infectée, plaie très souillée (ex. couteau de boucher). Toujours vérifier statut vaccinal tétanos. Conseil <div class="osce-tip"><span class="osce-icon">💡</span>OSCE : annoncer le geste au patient et expliquer hygiène + surveillance.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-1">
+                                <td class="pathology">Fracture</td>
+                                <td>Mécanisme accidentel exact (traumatisme direct, chute, AVP) ? <span class="clinical-sign">Douleur</span>, craquement, impotence fonctionnelle ? ATCD fracture/ostéoporose ?</td>
+                                <td>Inspection (déformation, hématome, ecchymose). Palpation (<span class="clinical-sign">douleur</span> localisée, mobilité anormale, crépitation). Motricité, sensibilité, circulation distale (pouls, recoloration). Rechercher <span class="clinical-sign">syndrome</span> des loges.</td>
+                                <td><span class="exam">Radiographie</span> standard en 2 incidences. <span class="exam">Échographie</span> (tendons, ligaments). <span class="exam">Scanner</span> si localisation complexe (face, crâne, bassin). Bilan biologique si <span class="surgery">chirurgie</span> envisagée.</td>
+                                <td>Selon type de fracture : conservateur (plâtre, attelle, immobilisation) ou chirurgical (<span class="surgery">ostéosynthèse</span>, enclouage, plaque/vis). Antalgie systématique.</td>
+                                <td>Toujours vérifier l’intégrité vasculo-nerveuse en distal. <div class="osce-tip"><span class="osce-icon">💡</span>OSCE : expliquer immobilisation temporaire avant imagerie (attelle).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-1">
+                                <td class="pathology">Bilan préopératoire</td>
+                                <td>Explication déroulement, information/consentement chirurgical, anxiétés/attentes. Récemment ou actuellement malade ? Antécédents médicaux, chirurgicaux, allergies, traitements en cours (anticoagulants, antiagrégants, corticoïdes). Habitudes de vie (tabac, alcool). Assurance maladie.</td>
+                                <td>Examen interniste complet : cœur, poumons, abdomen, reins, neurologique, ORL, ganglions lymphatiques. Évaluation état nutritionnel.</td>
+                                <td>Bilan biologique standard (<span class="exam">NFS</span>, TP, <span class="exam">CRP</span>, créatinine, <span class="exam">glycémie</span>, <span class="exam">ionogramme</span>). Examen cytobactériologique des urines. <span class="exam">ECG</span> systématique >40 ans ou facteurs de <span class="warning">risque</span>. <span class="exam">Radiographie</span> thorax selon contexte. Examens spécialisés (écho-Doppler, épreuve fonctionnelle respiratoire). Consultation anesthésie (prémédication).</td>
+                                <td>Optimisation préopératoire (correction anémie, équilibre glycémique, sevrage tabac, arrêt anticoagulants selon protocole). Prévention thromboembolique.</td>
+                                <td>Toujours vérifier statut vaccinal. <div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur communication </div><span class="positive">claire</span>, expliquer risques-bénéfices et obtenir consentement éclairé.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 2: Pathologies Thyroïdiennes -->
+            <div class="section" id="section-2">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    2. Pathologies Thyroïdiennes
+                    <span class="section-count">1 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-2">
+                                <td class="pathology">Pathologie thyroïdienne</td>
+                                <td>Nodules ? Douleurs cervicales ? Troubles déglutition, <span class="clinical-sign">dyspnée</span>, enrouement, sensation de corps étranger, <span class="clinical-sign">fièvre</span>, symptômes B (<span class="clinical-sign">amaigrissement</span>, <span class="clinical-sign">sueurs</span>, <span class="clinical-sign">fièvre</span>). Signes hyperthyroïdie (<span class="clinical-sign">amaigrissement</span>, nervosité, <span class="clinical-sign">palpitations</span>, tremblements) ou hypothyroïdie (prise de poids, frilosité, <span class="clinical-sign">constipation</span>). Médicaments, irradiation cervicale, ATCD familiaux.</td>
+                                <td>Inspection cou, palpation thyroïde (taille, consistance, mobilité à la déglutition), recherche nodules, goitre, <span class="clinical-sign">douleur</span>. Recherche adénopathies cervicales. Examen ophtalmologique (exophtalmie Basedow). Examen général (pouls, TA, réflexes).</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">TSH</span>, fT4, fT3, anticorps anti-TPO, TRAb, <span class="exam">CRP</span>, leucocytes. Imagerie : <span class="exam">échographie</span> (taille, aspect nodules, kystes), scintigraphie (si nodule >1cm et <span class="exam">TSH</span> basse, nodule chaud/froid). Cytoponction fine aiguille (suspicion néoplasie ou inflammation).</td>
+                                <td>Kyste : <span class="surgery">drainage</span>, <span class="surgery">chirurgie</span> si récidive. Hyperthyroïdie (Basedow) : antithyroïdiens de synthèse ± iode radioactif, parfois <span class="surgery">chirurgie</span>. Hypothyroïdie (Hashimoto) : hormonothérapie substitutive (lévothyroxine). Thyroïdite de De Quervain : anti-inflammatoires. Néoplasie : <span class="surgery">thyroïdectomie</span> partielle ou totale ± curage ganglionnaire.</td>
+                                <td>Si suspicion nodulaire → <span class="exam">échographie</span> puis cytoponction. Surveiller complications chirurgicales (lésion nerf récurrent, hypocalcémie par hypoparathyroïdie). <div class="osce-tip"><span class="osce-icon">💡</span>OSCE : demander systématiquement troubles de la voix et déglutition.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 3: Pathologies Digestives -->
+            <div class="section" id="section-3">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    3. Pathologies Digestives
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-3">
+                                <td class="pathology">Lithiase vésiculaire/Cholédocholithiase</td>
+                                <td>Douleurs coliques hépatiques (épigastriques ou hypochondre droit), irradiation épaule droite ou en ceinture. <span class="clinical-sign">Fièvre</span> ? <span class="clinical-sign">Ictère</span> ? Facteurs déclenchants alimentaires (repas gras). Facteurs de <span class="warning">risque</span> : 6F (female, forty, fat, fertile, fair, family).</td>
+                                <td>Inspection abdomen, palpation (<span class="clinical-sign">signe de</span> <span class="clinical-sign">Murphy</span>), <span class="clinical-sign">défense</span> abdominale. Recherche <span class="clinical-sign">signe de</span> Courvoisier (vésicule palpable). Évaluer <span class="clinical-sign">ictère</span> conjonctival.</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">NFS</span>, <span class="exam">CRP</span>, <span class="exam">bilan hépatique</span> (ASAT, ALAT, γ-GT, phosphatases alcalines, bilirubine). <span class="exam">Échographie</span> abdominale (calculs vésicule et voies biliaires, dilatation). <span class="exam">CPRE</span> (diagnostic et thérapeutique) ou cholangio-<span class="exam">IRM</span>.</td>
+                                <td>Lithiase vésiculaire symptomatique : <span class="surgery">cholécystectomie</span> laparoscopique (gold standard). Calculs dans voie biliaire principale : extraction par <span class="exam">CPRE</span> ou <span class="surgery">chirurgie</span>. Antibiothérapie si cholécystite.</td>
+                                <td>Diagnostic différentiel : cholécystite aiguë. <span class="clinical-sign">Signe de</span> <span class="clinical-sign">Murphy</span> : <span class="clinical-sign">douleur</span> à l’inspiration profonde lors palpation sous-costale droite. <div class="osce-tip"><span class="osce-icon">💡</span>OSCE : penser à interroger sur épisodes similaires antérieurs.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-3">
+                                <td class="pathology">Lithiase rénale</td>
+                                <td>Coliques néphrétiques intenses irradiant vers l’aine/testicule/lèvre. <span class="clinical-sign">Fièvre</span> ? <span class="clinical-sign">Hématurie</span> macroscopique ou micro. ATCD lithiases, hydratation, alimentation riche en sel/protéines ?</td>
+                                <td><span class="clinical-sign">Douleur</span> fosse lombaire à la percussion (<span class="clinical-sign">signe de</span> Giordano). Examen abdominal (sensibilité, <span class="clinical-sign">défense</span>). Examen urologique complet. TR chez l’homme si suspicion prostatique.</td>
+                                <td>BU/<span class="exam">ECBU</span> (<span class="clinical-sign">hématurie</span>, infection). Imagerie : <span class="exam">échographie</span> (calcul, dilatation), <span class="exam">scanner</span> abdomino-pelvien sans injection (gold standard). <span class="exam">Biologie</span> : créatinine, <span class="exam">ionogramme</span>.</td>
+                                <td>Petits calculs <6 mm : hydratation, antalgie (AINS, morphiniques si besoin), surveillance expulsion. Calculs >6 mm : lithotritie extracorporelle, urétéroscopie ou <span class="surgery">chirurgie</span> percutanée.</td>
+                                <td>Toujours rechercher <span class="clinical-sign">fièvre</span> (colique néphrétique fébrile = <span class="urgent">urgence</span> urologique). <div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur prise en charge de la </div><span class="clinical-sign">douleur</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-3">
+                                <td class="pathology">Pancréatite aiguë</td>
+                                <td>Douleurs abdominales brutales intenses, en ceinture. Nausées, vomissements, arrêt transit. ATCD alcoolisme chronique ? Lithiase biliaire ? Médicaments ?</td>
+                                <td>Inspection abdomen (distension). Palpation : <span class="clinical-sign">douleur</span> diffuse, <span class="clinical-sign">défense</span> voire <span class="clinical-sign">contracture</span>. <span class="clinical-sign">Signe de</span> Cullen (ecchymoses péri-ombilicales). Recherche signes de gravité (choc, confusion).</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">lipase</span>, <span class="exam">amylase</span>, <span class="exam">CRP</span>, <span class="exam">NFS</span>, <span class="exam">bilan hépatique</span>, créatinine. Imagerie : <span class="exam">échographie</span> (calculs biliaires), <span class="exam">scanner</span> abdomino-pelvien (sévérité).</td>
+                                <td>Réanimation : oxygène, remplissage, analgésie morphinique, jeûne, IPP, surveillance rapprochée. <span class="exam">CPRE</span> si cause lithiasique. <span class="surgery">Chirurgie</span> si complications (nécrose infectée).</td>
+                                <td>Facteurs déclenchants majeurs : alcool, lithiase. <div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours évaluer gravité (scores type Ranson/Bisap).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-3">
+                                <td class="pathology">Diverticulite</td>
+                                <td>Douleurs fosse iliaque gauche progressives, fébricule, troubles transit (<span class="clinical-sign">diarrhée</span>, <span class="clinical-sign">constipation</span>). ATCD diverticulose colique ?</td>
+                                <td>Palpation FID gauche douloureuse avec <span class="clinical-sign">défense</span>. Rechercher masse abdominale. Examen général (<span class="clinical-sign">fièvre</span>, état septique).</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">CRP</span>, leucocytes. Imagerie : <span class="exam">scanner</span> abdomino-pelvien (gold standard, complications). <span class="exam">Coloscopie</span> à distance (après épisode).</td>
+                                <td>Forme non compliquée : régime sans résidus, antibiothérapie. Forme compliquée : <span class="surgery">drainage</span> d’abcès ou <span class="surgery">chirurgie</span> (sigmoïdectomie).</td>
+                                <td>Diverticulite sigmoïdienne la plus fréquente. <div class="osce-tip"><span class="osce-icon">💡</span>OSCE : savoir expliquer régime alimentaire post-crise.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 4: Urgences Urologiques -->
+            <div class="section" id="section-4">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    4. Urgences Urologiques
+                    <span class="section-count">1 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-4">
+                                <td class="pathology">Torsion testiculaire/ovarienne</td>
+                                <td><span class="clinical-sign">Douleur</span> <span class="urgent">brutale</span>, intense, unilatérale. Vomissements fréquents. Chez l’homme : début souvent nocturne. ATCD similaires ?</td>
+                                <td>Inspection scrotum : rougeur, <span class="clinical-sign">œdème</span>, asymétrie. Palpation douloureuse. <span class="clinical-sign">Signe de</span> Prehn négatif. Recherche réflexe crémastérien (souvent aboli).</td>
+                                <td><span class="exam">Échographie</span> doppler testiculaire/ovarien (flux absent). Mais si doute → exploration chirurgicale immédiate.</td>
+                                <td><span class="urgent">Urgence</span> chirurgicale absolue : détorsion + fixation bilatérale (orchidopexie). Chez femme : <span class="exam"><span class="surgery">cœlioscopie</span></span> et détorsion ± ovariectomie si nécrose.</td>
+                                <td>Pronostic fonctionnel si pris en charge <6h. <div class="osce-tip"><span class="osce-icon">💡</span>OSCE : bien différencier d’une orchi-épididymite (Prehn positif).</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 5: Chirurgie Digestive -->
+            <div class="section" id="section-5">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    5. Chirurgie Digestive
+                    <span class="section-count">6 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-5">
+                                <td class="pathology">Appendicite</td>
+                                <td>Douleurs initialement diffuses épigastriques puis migration FID. Intensité progressive, nausées/vomissements, <span class="clinical-sign">anorexie</span>. <span class="clinical-sign">Fièvre</span> ? ATCD chirurgicaux ? Chez femme : cycle menstruel, contraception, ATCD gynéco.</td>
+                                <td>Inspection (patient antalgique, jambes fléchies). Palpation : FID douloureuse, McBurney, Lanz, Blumberg (décompression douloureuse). <span class="clinical-sign">Défense</span>/<span class="clinical-sign">contracture</span>. Signe du <span class="clinical-sign">psoas</span>. Toucher rectal douloureux. Examen gynéco chez femme.</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">NFS</span>, <span class="exam">CRP</span>. BU/<span class="exam">ECBU</span>. <span class="exam">Échographie</span> abdo (appendice épaissi, <span class="clinical-sign">œdème</span>). <span class="exam">Scanner</span> abdo si doute. β-HCG chez femme en âge de procréer.</td>
+                                <td><span class="surgery">Appendicectomie</span> laparoscopique (gold standard). Rarement ouverte. Si CI chirurgicale : antibiothérapie large spectre. Observation si doute diagnostic.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours commencer palpation du côté opposé à la </div><span class="clinical-sign">douleur</span>. <span class="warning">Ne pas</span> oublier diagnostic différentiel gynécologique (GEU, kyste rompu, torsion).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-5">
+                                <td class="pathology">Iléus</td>
+                                <td>Douleurs abdominales coliques, vomissements alimentaires/biliaires/fécaloïdes, arrêt gaz/matières. ATCD <span class="surgery">chirurgie</span> abdominale (adhérences), hernies, tumeur ?</td>
+                                <td>Inspection : cicatrices, abdomen distendu. Auscultation : bruits métalliques (iléus mécanique) ou silence (iléus paralytique). Palpation : tympanisme, masse ? TR : ampoule vide.</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">NFS</span>, <span class="exam">CRP</span>, <span class="exam">ionogramme</span>, urée, créatinine. <span class="exam">Radiographie</span> abdomen sans préparation (niveaux hydroaériques). <span class="exam">Scanner</span> abdominal (recherche cause, complications).</td>
+                                <td>Conservateur (iléus paralytique) : sonde nasogastrique, hydratation, correction hydro-électrolytes. Chirurgical (iléus mécanique) : lever obstacle (adhésiolyse, hernie, <span class="surgery">résection</span> tumorale).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : préciser que l’examen doit inclure recherche de cicatrices chirurgicales.</div> Diagnostic différentiel : gastro-entérite, <span class="clinical-sign">constipation</span> simple.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-5">
+                                <td class="pathology">Ulcère perforé</td>
+                                <td><span class="clinical-sign">Douleur</span> <span class="urgent">brutale</span>, intense, abdominale diffuse « coup de poignard ». ATCD ulcère, AINS, alcool, tabac. Vomissements ? <span class="clinical-sign">Fièvre</span> ?</td>
+                                <td>Abdomen contracturé (ventre de bois). <span class="clinical-sign">Défense</span> généralisée. <span class="clinical-sign">Douleur</span> maximale épigastrique. Examen cardio-pulmonaire associé.</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">NFS</span>, <span class="exam">CRP</span>, <span class="exam">ionogramme</span>, créatinine. <span class="exam">Radiographie</span> thorax/abdomen debout (pneumopéritoine). <span class="exam">Scanner</span> abdo si doute.</td>
+                                <td>Réanimation initiale (O₂, VVP, remplissage, IPP, antibiotiques). <span class="surgery">Chirurgie</span> en <span class="urgent">urgence</span> (<span class="surgery">suture</span> perforation ± patch épiploïque, lavage).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : diagnostic </div><span class="clinical-sign">clinique</span> souvent évident. Toujours rechercher notion de prise d’AINS.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-5">
+                                <td class="pathology">Hémorragie digestive haute</td>
+                                <td>Hématémèse (sang rouge, café moulu) ? <span class="clinical-sign">Méléna</span> ? Symptômes d’anémie (fatigue, <span class="clinical-sign">dyspnée</span>, <span class="clinical-sign">palpitations</span>) ? ATCD ulcère, AINS, anticoagulants, cirrhose, alcool.</td>
+                                <td>Inspection : signes de choc (pouls rapide, TA basse, pâleur). TR : <span class="clinical-sign">méléna</span>. Recherche hépatopathie (<span class="clinical-sign">ictère</span>, circulation collatérale).</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">NFS</span>, coagulation, <span class="exam">bilan hépatique</span>, créatinine. VVP gros calibre. <span class="exam"><span class="surgery">Endoscopie</span></span> digestive haute (diagnostic + thérapeutique).</td>
+                                <td>Remplissage vasculaire, transfusion si besoin. IPP <span class="dosage">IV</span>. <span class="exam"><span class="surgery">Endoscopie</span></span> : hémostase (injection adrénaline, clips, thermocoagulation). Si rupture varices œsophagiennes : vasoactifs (octréotide), <span class="surgery">ligature</span> endoscopique. <span class="surgery">Chirurgie</span> en dernier recours.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours mentionner mise en condition (2 VVP, scope, remplissage).</div> Demander médicaments (AINS, anticoagulants).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-5">
+                                <td class="pathology">Ischémie mésentérique</td>
+                                <td><span class="clinical-sign">Douleur</span> abdominale <span class="urgent">brutale</span>, intense, disproportionnée par rapport à l’examen. ATCD : fibrillation auriculaire, athérome, <span class="surgery">chirurgie</span> vasculaire. <span class="clinical-sign">Diarrhée</span> sanglante ? Vomissements ?</td>
+                                <td>Abdomen souvent souple initialement (discordance <span class="clinical-sign">clinique</span>). Recherche signes de choc (tachycardie, hypotension). Examen vasculaire périphérique (pouls).</td>
+                                <td><span class="exam">Biologie</span> : hyperlactatémie, acidose métabolique, <span class="exam">NFS</span>. Imagerie : angio-<span class="exam">scanner</span> abdominal (diagnostic de référence).</td>
+                                <td>Réanimation initiale (O₂, remplissage, antibiotiques). <span class="surgery">Chirurgie</span> urgente : <span class="surgery">résection</span> intestinale nécrosée, embolectomie ou <span class="surgery">pontage</span>. Thrombolyse ou <span class="surgery">angioplastie</span> parfois.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : savoir insister sur discordance </div><span class="clinical-sign">douleur</span>/examen. <span class="warning">Ne pas</span> oublier facteurs de <span class="warning">risque</span> cardio-vasculaires.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-5">
+                                <td class="pathology">Péritonite généralisée</td>
+                                <td><span class="clinical-sign">Douleur</span> abdominale intense et diffuse, début <span class="urgent">brutal</span> ou progressif selon cause (perforation, appendicite compliquée, diverticulite perforée). <span class="clinical-sign">Fièvre</span>, arrêt transit, nausées/vomissements.</td>
+                                <td>Abdomen contracturé (ventre de bois). <span class="clinical-sign">Défense</span> généralisée. <span class="clinical-sign">Douleur</span> à la décompression. Signes de sepsis : tachycardie, hypotension, marbrures.</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">NFS</span>, <span class="exam">CRP</span>, <span class="exam">ionogramme</span>, lactates. Imagerie : <span class="exam">scanner</span> abdomino-pelvien avec injection (épanchement, perforation).</td>
+                                <td>Réanimation initiale (O₂, 2 VVP, remplissage, antibiotiques large spectre, IPP). <span class="surgery">Chirurgie</span> en <span class="urgent">urgence</span> : exploration, lavage, traitement cause (<span class="surgery">suture</span> perforation, <span class="surgery">colectomie</span>, <span class="surgery">appendicectomie</span>).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="clinical-sign">syndrome</span> péritonéal = <span class="urgent">urgence</span> absolue. Toujours dire « mise en condition avant bloc ».</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 6: Maladies Inflammatoires Intestinales -->
+            <div class="section" id="section-6">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    6. Maladies Inflammatoires Intestinales
+                    <span class="section-count">1 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-6">
+                                <td class="pathology">MICI/Maladies inflammatoires chroniques intestinales</td>
+                                <td>RCH : diarrhées sanglantes et glaireuses, douleurs abdominales basses, ténesme, <span class="clinical-sign">amaigrissement</span>, <span class="clinical-sign">asthénie</span>. Crohn : douleurs abdominales FID, <span class="clinical-sign">diarrhée</span> chronique non sanglante, <span class="clinical-sign">amaigrissement</span>, fistules, aphtes buccaux. ATCD familiaux ? Tabac ?</td>
+                                <td>Palpation abdominale (<span class="clinical-sign">douleur</span>, masse). TR (sang, douleurs). Recherche lésions péri-anales (Crohn). Examen général (pouls, TA, IMC).</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">NFS</span>, <span class="exam">CRP</span>, <span class="exam">VS</span>, <span class="exam">ferritine</span>, <span class="exam">B12</span>. Coproculture pour éliminer infection. Calprotectine fécale. <span class="exam">Coloscopie</span> avec biopsies multiples (diagnostic). Imagerie (<span class="exam">IRM</span> entéro, <span class="exam">scanner</span>) si Crohn.</td>
+                                <td>Crohn : corticoïdes, immunosuppresseurs (azathioprine), biothérapies (anti-TNF). RCH : 5-ASA, corticoïdes si poussée, immunosuppresseurs, biothérapies. <span class="surgery">Chirurgie</span> : proctocolectomie (RCH <span class="warning">sévère</span>), <span class="surgery">chirurgie</span> minimale Crohn (fistule, abcès).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur interrogatoire complet (digestif, général, extra-digestif : articulations, peau, yeux).</div> <span class="warning">Ne pas</span> oublier recherche carences (fer, <span class="exam">B12</span>, <span class="exam">folates</span>).</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 7: Traumatisme Crânien -->
+            <div class="section" id="section-7">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    7. Traumatisme Crânien
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-7">
+                                <td class="pathology">Traumatisme crânien</td>
+                                <td>Circonstances exactes (AVP, chute, agression). Perte de connaissance ? Amnésie ? Vomissements ? Céphalées ? ATCD anticoagulants/antiagrégants ? Convulsions ?</td>
+                                <td>Score de Glasgow, pupilles (taille, réactivité), motricité, sensibilité, nerfs crâniens. Signes HIC : bradycardie, HTA, bradypnée. Inspection : plaie, hématome, otorragie/rhinorrhée <span class="positive">claire</span> (fracture base crâne).</td>
+                                <td>VVP, monitoring, analgésie. <span class="exam">Scanner</span> cérébral systématique si TC <span class="warning">sévère</span> ou facteurs de <span class="warning">risque</span> (≥65 ans, anticoagulants). <span class="exam">IRM</span> si nécessaire.</td>
+                                <td>Surveillance neurologique rapprochée. Repos strict. Antalgie. <span class="surgery">Chirurgie</span> si hématome compressif (sous-dural, épidural). Dérivation si hydrocéphalie.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : ne </div><span class="warning">jamais</span> oublier de vérifier la nuque et rachis cervical. Toujours préciser « immobilisation rachis » initialement.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-7">
+                                <td class="pathology">Commotion cérébrale</td>
+                                <td>Traumatisme crânien léger avec perte de connaissance brève (<30 min), amnésie post-traumatique, céphalées, nausées, troubles de concentration, somnolence. Pas de prise d’anticoagulants ?</td>
+                                <td>Glasgow 13–15. Examen neuro <span class="positive">normal</span> en dehors céphalées. Pas de déficit focal. Vérifier équilibre, réflexes, pupilles. Surveillance neurologique répétée.</td>
+                                <td><span class="exam">Scanner</span> cérébral si facteurs de <span class="warning">risque</span> (≥65 ans, anticoagulants, signes neuro, vomissements répétés, trauma violent).</td>
+                                <td>Repos cérébral (<span class="warning">éviter</span> écrans, efforts cognitifs et physiques). Antalgie simple (paracétamol). Surveillance à domicile avec consignes de retour. Hospitalisation si <span class="warning">risque</span> élevé.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur les consignes de sortie (« reconsulter si vomissements, somnolence, troubles vision/parole »).</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 8: Pathologies Vertébrales -->
+            <div class="section" id="section-8">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    8. Pathologies Vertébrales
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-8">
+                                <td class="pathology">Sténose canal rachidien</td>
+                                <td>Claudication neurogène : douleurs lombaires irradiant membres inférieurs, aggravées par la marche, améliorées en flexion/assis. Paresthésies ? Troubles urinaires ?</td>
+                                <td>Examen neuro : sensibilité (dermatomes), force, tonus, réflexes. Examen rachis : mobilité, marche. Évaluation périnée (sphincters).</td>
+                                <td><span class="exam">IRM</span> lombaire (gold standard). <span class="exam">Radiographie</span> si suspicion instabilité.</td>
+                                <td>Conservateur : antalgiques, AINS, kinésithérapie. <span class="surgery">Chirurgie</span> (<span class="surgery">laminectomie</span>, décompression) si handicap ou <span class="clinical-sign">syndrome</span> de la queue de cheval.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : différencier claudication neurogène (améliorée flexion) de claudication artérielle (repos).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-8">
+                                <td class="pathology">Hernie discale/<span class="clinical-sign">Syndrome</span> radiculaire</td>
+                                <td><span class="clinical-sign">Douleur</span> lombaire ou cervicale, irradiation radiculaire (sciatique, cruralgie, névralgie cervico-brachiale). Douleurs majorées en flexion. Déficit moteur/sensitif ? Troubles sphinctériens ?</td>
+                                <td>Examen neuro : dermatomes, réflexes, force, tonus. <span class="clinical-sign">Signe de</span> Lasègue. Inspection posture, mobilité rachis. Palpation contractures musculaires.</td>
+                                <td><span class="exam">IRM</span> rachidienne (gold standard). <span class="exam">Scanner</span> si CI ou <span class="urgent">urgence</span>. <span class="exam">Radiographie</span> peu contributive.</td>
+                                <td>Conservateur : repos relatif, antalgiques, AINS, myorelaxants, kiné. <span class="surgery">Chirurgie</span> (discectomie, <span class="surgery">prothèse</span> discale) si déficit neurologique ou <span class="clinical-sign">douleur</span> rebelle.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : vérifier dermatomes, réflexes (Achilléen = S1, Rotulien = L4).</div> <span class="clinical-sign">Syndrome</span> queue de cheval = <span class="urgent">urgence</span> chirurgicale.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 9: Pathologies Respiratoires -->
+            <div class="section" id="section-9">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    9. Pathologies Respiratoires
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-9">
+                                <td class="pathology">Pneumothorax</td>
+                                <td><span class="clinical-sign">Douleur</span> thoracique <span class="urgent">brutale</span>, <span class="clinical-sign">dyspnée</span>, <span class="clinical-sign">toux</span> sèche. Facteurs déclenchants : spontané (jeune longiligne, fumeur), secondaire (BPCO, trauma, iatrogène).</td>
+                                <td>Inspection : asymétrie thorax, polypnée, cyanose. Auscultation : silence auscultatoire. Percussion : hypersonorité. Recherche signes de gravité (pneumothorax compressif : hypotension, turgescence jugulaire).</td>
+                                <td><span class="exam">Radiographie</span> thorax (poumon collabé). <span class="exam">Scanner</span> si doute. <span class="urgent">Urgence</span> compressif : diagnostic <span class="clinical-sign">clinique</span> → <span class="surgery">drainage</span> <span class="urgent">immédiat</span> sans attendre.</td>
+                                <td>Petit pneumothorax asymptomatique : O₂ et surveillance. Pneumothorax complet ou compressif : <span class="surgery">drainage</span> thoracique en aspiration.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur geste d’</div><span class="urgent">urgence</span> si compressif (<span class="surgery">drainage</span> sans attendre radio).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-9">
+                                <td class="pathology">Embolie pulmonaire</td>
+                                <td><span class="clinical-sign">Dyspnée</span> <span class="urgent">brutale</span>, <span class="clinical-sign">douleur</span> thoracique basithoracique, <span class="clinical-sign">hémoptysie</span>, <span class="clinical-sign">malaise</span>, syncope. Facteurs <span class="warning">risque</span> MTEV : <span class="surgery">chirurgie</span> récente, immobilisation, cancer, ATCD TVP/EP, contraception, grossesse.</td>
+                                <td>Tachypnée, tachycardie, désaturation. Recherche signes TVP (<span class="clinical-sign">œdème</span> unilatéral, chaleur, <span class="clinical-sign">douleur</span> mollet). Auscultation souvent normale.</td>
+                                <td>Score <span class="clinical-sign">clinique</span> (Wells, Genève). <span class="exam">D-dimères</span>. Angio-<span class="exam">scanner</span> pulmonaire (gold standard). <span class="exam">Échographie</span> Doppler MI si suspicion TVP. GDS (hypoxémie, hypocapnie).</td>
+                                <td>Anticoagulation immédiate (HBPM, DOAC). Thrombolyse si EP massive avec état de choc. Filtre cave si CI anticoagulation.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours rechercher facteurs </div><span class="warning">risque</span>. Diagnostic différentiel : infarctus, pneumothorax, crise d’asthme.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 10: Pathologies Cardiovasculaires -->
+            <div class="section" id="section-10">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    10. Pathologies Cardiovasculaires
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-10">
+                                <td class="pathology">Coronaropathie : Angor/Infarctus</td>
+                                <td><span class="clinical-sign">Douleur</span> thoracique constrictive rétrosternale, irradiant bras gauche/mâchoire. Facteurs déclenchants : effort, froid, stress. Soulagement trinitrine ? Infarctus : <span class="clinical-sign">douleur</span> >20 min, <span class="clinical-sign">sueurs</span>, nausées, angoisse, non soulagée trinitrine.</td>
+                                <td>Examen cardio-vasculaire rapide. Recherche signes insuffisance cardiaque (crépitants, œdèmes). Examen neurologique bref si infarctus (différentiel AVC).</td>
+                                <td><span class="exam">ECG</span> en <span class="urgent">urgence</span> (STEMI = sus-décalage ST). Troponines. <span class="exam">Coronarographie</span>. Tests ischémie (angor <span class="positive">stable</span> : épreuve effort, scintigraphie).</td>
+                                <td>STEMI : <span class="surgery">angioplastie</span> en <span class="urgent">urgence</span> (ou thrombolyse si impossible). NSTEMI/angor instable : anticoagulation + antiagrégants + <span class="exam">coronarographie</span> différée. Angor <span class="positive">stable</span> : β-bloquants, statines, trinitrine, traitement facteurs <span class="warning">risque</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : dire systématiquement « </div><span class="exam">ECG</span> + troponines ». MONA (Morphine, O₂, Nitrés, Aspirine).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-10">
+                                <td class="pathology">Dissection aortique</td>
+                                <td><span class="clinical-sign">Douleur</span> thoracique/abdominale <span class="urgent">brutale</span>, déchirure transfixiante irradiant dans le dos. HTA ? ATCD Marfan, bicuspidie, <span class="surgery">chirurgie</span> cardiaque ?</td>
+                                <td>Asymétrie tension artérielle aux bras. Déficit neurologique. Souffle diastolique (insuffisance aortique). Signes d’hypoperfusion (ischémie MI, rein, mésentère).</td>
+                                <td><span class="exam">Scanner</span> thoraco-abdominal avec injection (gold standard). <span class="exam">ECG</span> (différentiel infarctus). <span class="exam">Biologie</span> (<span class="exam">D-dimères</span> parfois élevés).</td>
+                                <td>Type A (ascendante) : <span class="surgery">chirurgie</span> urgente. Type B (descendante) : traitement médical (β-bloquants) ± endoprothèse si complications.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : différentiel majeur de </div><span class="clinical-sign">douleur</span> thoracique <span class="urgent">brutale</span>. Toujours prendre TA aux 2 bras.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-10">
+                                <td class="pathology">Insuffisance cardiaque aiguë</td>
+                                <td><span class="clinical-sign">Dyspnée</span> <span class="urgent">brutale</span> (repos, orthopnée), <span class="clinical-sign">toux</span>, expectoration mousseuse rosée. ATCD cardiopathie, HTA, infarctus. Prise AINS ?</td>
+                                <td>Polypnée, cyanose, <span class="clinical-sign">sueurs</span>. Auscultation : râles crépitants diffus, galop B3. Signes d’hyperpression droite (turgescence jugulaire, œdèmes MI).</td>
+                                <td><span class="exam">ECG</span>, <span class="exam">BNP</span>/<span class="exam">NT-proBNP</span>, troponines, <span class="exam">radiographie</span> thorax (<span class="clinical-sign">œdème</span> interstitiel). <span class="exam">Échographie</span> cardiaque (fonction VG, valvulopathies).</td>
+                                <td>Oxygène, diurétiques <span class="dosage">IV</span> (furosémide), vasodilatateurs (nitrés si PAS >100). Traitement cause (FA rapide, infarctus). Ventilation non invasive si hypoxémie <span class="warning">sévère</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : penser à demander orthopnée, </div><span class="clinical-sign">dyspnée</span> nocturne paroxystique. Diagnostic différentiel : EP, pneumopathie, crise asthme.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 11: Pathologies Vasculaires -->
+            <div class="section" id="section-11">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    11. Pathologies Vasculaires
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-11">
+                                <td class="pathology">Artériopathie oblitérante membres inférieurs</td>
+                                <td>Claudication intermittente : <span class="clinical-sign">douleur</span> mollets/cuisses à la marche disparaissant au repos. Distance de marche réduite ? Douleurs repos nocturnes ? Facteurs <span class="warning">risque</span> CV (tabac, diabète, HTA, dyslipidémie).</td>
+                                <td>Inspection MI : peau pâle, froide, atrophie, ulcères, gangrène. Palpation : pouls périphériques diminués ou absents. Auscultation : souffle fémoral. Test de Ratschow.</td>
+                                <td>IPS (index pression systolique), écho-Doppler artériel, angio-<span class="exam">scanner</span> ou <span class="exam">IRM</span> si indication chirurgicale.</td>
+                                <td>Stade I–IIa : mesures hygiéno-diététiques, arrêt tabac, marche, aspirine/clopidogrel. Stade IIb–<span class="dosage">IV</span> : revascularisation (<span class="surgery">angioplastie</span> ± <span class="surgery">stent</span>, <span class="surgery">pontage</span>).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours examiner pieds (pouls pédieux, tibial postérieur).</div> Classification Leriche-Fontaine : I asymptomatique, II claudication, III douleurs repos, <span class="dosage">IV</span> ulcères/nécrose.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-11">
+                                <td class="pathology">Varices</td>
+                                <td>Sensation de jambes lourdes, douleurs en fin de journée, <span class="clinical-sign">prurit</span>, antécédents familiaux. Station debout prolongée ? Grossesses ?</td>
+                                <td>Inspection debout : varices tronculaires, collatérales, télangiectasies. Signes insuffisance veineuse chronique (œdèmes, eczéma, hyperpigmentation, ulcère).</td>
+                                <td>Écho-Doppler veineux des MI (cartographie réseau superficiel/profond).</td>
+                                <td>Bas de compression (classe II). Mesures hygiéno-diététiques (activité physique, perte poids). Si symptomatiques : sclérothérapie, laser, <span class="surgery">chirurgie</span> (stripping, phlébectomie).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : examiner patient debout ! Bien différencier varices (superficielles) d’une TVP.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-11">
+                                <td class="pathology">Thrombose veineuse profonde</td>
+                                <td><span class="clinical-sign">Douleur</span> mollet ou cuisse, <span class="clinical-sign">œdème</span> unilatéral, chaleur. Facteurs <span class="warning">risque</span> : immobilisation, <span class="surgery">chirurgie</span> récente, cancer, grossesse, contraceptifs, ATCD MTEV.</td>
+                                <td>Inspection : asymétrie volume MI. Palpation : <span class="clinical-sign">douleur</span> trajet veineux, signe Homans (non spécifique). Rechercher signes EP associés (<span class="clinical-sign">dyspnée</span>, <span class="clinical-sign">douleur</span> thoracique).</td>
+                                <td>Score de Wells. <span class="exam">D-dimères</span>. Écho-Doppler veineux (diagnostic de référence).</td>
+                                <td>Anticoagulation curative (HBPM puis relais AVK/DOAC). Bas de contention. Filtre cave si CI anticoagulation.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours explorer </div><span class="warning">risque</span> d’embolie pulmonaire. Facteurs de <span class="warning">risque</span> = Virchow (stase, paroi, hypercoagulabilité).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-11">
+                                <td class="pathology">Rupture anévrisme aorte abdominale</td>
+                                <td><span class="clinical-sign">Douleur</span> abdominale ou lombaire <span class="urgent">brutale</span>, intense, irradiant dos/flancs. Hypotension, collapsus. ATCD AAA connu, HTA, tabac.</td>
+                                <td>Patient en état de choc. Masse battante abdo (si examinable). Marbrures, TA basse, pouls filant.</td>
+                                <td>Écho abdo au lit du patient (diagnostic rapide). Angio-<span class="exam">scanner</span> si <span class="positive">stable</span>. Hémogramme, bilan coagulation.</td>
+                                <td><span class="surgery">Chirurgie</span> urgente : <span class="surgery">prothèse</span> aortique (ouverte ou endovasculaire). Remplissage modéré (permissive hypotension).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : tableau de choc + </div><span class="clinical-sign">douleur</span> abdo/lombaire chez patient vasculaire > penser AAA. Toujours dire « VVP + réanimation immédiate ».</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 12: Pathologies Œsophago-Gastriques -->
+            <div class="section" id="section-12">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    12. Pathologies Œsophago-Gastriques
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-12">
+                                <td class="pathology">Hernie hiatale</td>
+                                <td>Pyrosis, régurgitations, dysphagie, douleurs épigastriques. Facteurs déclenchants : repas gras, surcharge pondérale, effort, grossesse.</td>
+                                <td>Examen abdo, examen ORL/pharynx, auscultation cardio-pulmonaire.</td>
+                                <td>Transit baryté. <span class="exam"><span class="surgery">Endoscopie</span></span> digestive haute. pH-métrie 24h si RGO.</td>
+                                <td>Mesures hygiéno-diététiques (petits repas, surélévation tête lit, perte poids). IPP si RGO. <span class="surgery">Chirurgie</span> (fundoplicature) si échec traitement médical.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : demander systématiquement habitudes alimentaires, alcool, tabac.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-12">
+                                <td class="pathology">Pathologies œsophagiennes</td>
+                                <td>Dysphagie progressive (solides puis liquides), odynophagie, pyrosis, <span class="clinical-sign">toux</span> nocturne, régurgitations. Facteurs aggravants : alcool, tabac, reflux.</td>
+                                <td>Inspection buccopharyngée, palpation cervicale, examen cardio-pulmonaire.</td>
+                                <td><span class="exam"><span class="surgery">Endoscopie</span></span> avec biopsies. Transit baryté. pH-métrie, manométrie. Écho-<span class="exam"><span class="surgery">endoscopie</span></span>, <span class="exam">scanner</span> si tumeur.</td>
+                                <td>Selon cause : IPP pour RGO, dilatation/ <span class="surgery">stent</span> pour sténose, <span class="surgery">chirurgie</span> pour tumeur, myotomie pour achalasie.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : penser au diagnostic différentiel « cancer œsophage » devant dysphagie progressive.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-12">
+                                <td class="pathology">Hémorragie digestive basse</td>
+                                <td>Rectorragies (sang rouge/<span class="clinical-sign">méléna</span>). Quantité, aspect, contexte (post-effort, douleurs abdo, <span class="clinical-sign">diarrhée</span>). ATCD diverticulose, hémorroïdes, polypes, anticoagulants.</td>
+                                <td>Inspection région anale, TR (sang rouge, masse, <span class="clinical-sign">douleur</span>). Examen abdo (sensibilité, <span class="clinical-sign">défense</span>).</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">NFS</span>, coagulation. <span class="exam">Coloscopie</span> (diagnostic et hémostase). Angio-<span class="exam">scanner</span> si hémorragie active massive.</td>
+                                <td>Remplissage vasculaire. Transfusion si besoin. <span class="exam"><span class="surgery">Endoscopie</span></span> avec hémostase (clips, coagulation). <span class="surgery">Embolisation</span> radiologique si échec. <span class="surgery">Chirurgie</span> en dernier recours.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours distinguer sang rouge (hémorragie basse) de </div><span class="clinical-sign">méléna</span> (plutôt haute).</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 13: Abdomen Aigu -->
+            <div class="section" id="section-13">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    13. Abdomen Aigu
+                    <span class="section-count">1 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-13">
+                                <td class="pathology">Abdomen aigu</td>
+                                <td>Douleurs abdominales brutales ou progressives. Localisation, irradiation, intensité. Signes associés : vomissements, arrêt gaz/matières, <span class="clinical-sign">fièvre</span>. ATCD chirurgicaux, gynécologiques. Prise AINS/anticoagulants ?</td>
+                                <td>Inspection (cicatrices, distension, agitation). Palpation : <span class="clinical-sign">défense</span>/<span class="clinical-sign">contracture</span>, points douloureux spécifiques (McBurney, <span class="clinical-sign">Murphy</span>). Percussion (météorisme, <span class="clinical-sign">douleur</span>). TR, examen gynéco. Auscultation : bruits intestinaux. Prise TA, pouls.</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">NFS</span>, <span class="exam">CRP</span>, électrolytes, <span class="exam">amylase</span>/<span class="exam">lipase</span>, BH, lactates, β-HCG si femme. Imagerie : <span class="exam">échographie</span>, <span class="exam">scanner</span> abdo-pelvien avec contraste. Radio thorax (pneumopéritoine).</td>
+                                <td>Mesures de réanimation (VVP, O₂, antibiotiques, jeûne, sonde gastrique, prophylaxie thromboembolique). <span class="surgery">Chirurgie</span> urgente si péritonite généralisée, perforation, ischémie, hémorragie intra-abdo.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours dire « mise en condition avant bloc ».</div> Diagnostiques différentiels : infarctus du myocarde, pancréatite, colique néphrétique, GEU.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 14: Pathologies Gastro-Duodénales -->
+            <div class="section" id="section-14">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    14. Pathologies Gastro-Duodénales
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-14">
+                                <td class="pathology">Ulcère gastro-duodénal</td>
+                                <td><span class="clinical-sign">Douleur</span> épigastrique rythmée par les repas (à jeun, nocturne, calmée par l’alimentation). Nausées, vomissements, brûlures. ATCD ulcère, prise AINS, alcool, tabac, stress.</td>
+                                <td>Souvent <span class="positive">normal</span>. <span class="clinical-sign">Douleur</span> épigastrique à la palpation. Rechercher signes d’anémie (pâleur, tachycardie).</td>
+                                <td>Fibroscopie oeso-gastro-duodénale (<span class="exam">FOGD</span>) avec biopsies (recherche H. pylori, exclusion cancer). Test H. pylori (respiratoire ou selles).</td>
+                                <td>IPP (ésoméprazole) + éradication H. pylori si positif (IPP + 2 antibiotiques 7–14 j). Arrêt AINS/alcool/tabac. <span class="surgery">Chirurgie</span> si complication (perforation, hémorragie).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur questions médicaments (AINS, aspirine).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-14">
+                                <td class="pathology">Ulcère hémorragique</td>
+                                <td>Hématémèse ou <span class="clinical-sign">méléna</span>. ATCD ulcère ou AINS. Symptômes d’anémie (lipothymies, <span class="clinical-sign">dyspnée</span>, fatigue).</td>
+                                <td>Signes de choc hypovolémique (tachycardie, hypotension, pâleur, marbrures). TR : <span class="clinical-sign">méléna</span>. <span class="clinical-sign">Douleur</span> épigastrique possible.</td>
+                                <td><span class="exam">Biologie</span> : <span class="exam">NFS</span>, coagulation, groupe sanguin. VVP gros calibre. <span class="exam"><span class="surgery">Endoscopie</span></span> digestive haute en <span class="urgent">urgence</span> (diagnostic + hémostase).</td>
+                                <td>IPP <span class="dosage">IV</span> haute <span class="dosage">dose</span>. Transfusion si besoin. <span class="exam"><span class="surgery">Endoscopie</span></span> avec hémostase (clips, coagulation, injection adrénaline). <span class="surgery">Chirurgie</span> si échec. Correction facteurs favorisants (arrêt AINS/anticoagulants).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mentionner systématiquement « 2 VVP, remplissage, scope » avant d’envoyer en </div><span class="exam"><span class="surgery">endoscopie</span></span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-14">
+                                <td class="pathology">Hernie inguinale</td>
+                                <td>Tuméfaction inguinale apparaissant à l’effort/<span class="clinical-sign">toux</span>. <span class="clinical-sign">Douleur</span> région inguinale, parfois irradiée scrotum. Réductible ou non ? Arrêt gaz/matières si étranglée ?</td>
+                                <td>Palpation orifice inguinal externe (côté et comparaison latérale). Hernie réductible/irréductible. Différencier directe (palpée au doigt) et indirecte (pointe du doigt).</td>
+                                <td><span class="exam">Échographie</span> si doute diagnostique. <span class="exam">Scanner</span> si suspicion hernie compliquée. Diaphanoscopie si hernie scrotale.</td>
+                                <td>Réduction manuelle si possible (sans signes de souffrance). <span class="surgery">Chirurgie</span> programmée (<span class="surgery">hernioplastie</span> avec mise en place de <span class="surgery">prothèse</span>). <span class="surgery">Chirurgie</span> en <span class="urgent">urgence</span> si étranglée/occluse.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours préciser diagnostic différentiel (lithiase rénale, </div><span class="clinical-sign">adénopathie</span>).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-14">
+                                <td class="pathology">Rétention aiguë d’urine</td>
+                                <td>Impossibilité <span class="urgent">brutale</span> d’uriner, douleurs hypogastriques, globe vésical. ATCD prostate (HBP, cancer), <span class="surgery">chirurgie</span> urologique, médicaments (anticholinergiques, morphiniques).</td>
+                                <td>Inspection/Palpation : globe vésical douloureux. TR : prostate augmentée de volume (HBP) ou dure/nodulaire (cancer).</td>
+                                <td><span class="exam">Échographie</span> vésicale (volume résiduel, globe). Bilan biologique : créatinine (IRA obstructive).</td>
+                                <td>Sondage urinaire à demeure (si possible). Si obstacle prostatique : alternative sus-pubienne si CI sondage urétral. Traitement étiologique (alpha-bloquants, <span class="surgery">chirurgie</span> prostate).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="warning">ne pas</span> oublier de proposer antalgiques avant sondage. Diagnostic différentiel : globe psychogène, obstacle urétral.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 15: Traumatologie et urgences chirurgicales -->
+            <div class="section" id="section-15">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    15. Traumatologie et urgences chirurgicales
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-15">
+                                <td class="pathology">Fracture du col du fémur</td>
+                                <td>Sujet âgé, chute de sa hauteur. <span class="clinical-sign">Douleur</span> hanche, impotence fonctionnelle totale. ATCD ostéoporose fréquents.</td>
+                                <td>MI en rotation externe, raccourci. <span class="clinical-sign">Douleur</span> vive mobilisation hanche. Pas de pouls abolis.</td>
+                                <td><span class="exam">Radiographie</span> bassin + hanche face/profil. Bilan préop (<span class="exam">NFS</span>, coag, <span class="exam">ECG</span>).</td>
+                                <td>Hospitalisation en <span class="urgent">urgence</span>. <span class="surgery">Chirurgie</span> rapide (<span class="surgery">ostéosynthèse</span> ou <span class="surgery">prothèse</span>). Antalgiques. Prévention phlébite. Rééducation <span class="urgent">précoce</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mot-clé = rotation externe + raccourcissement MI.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-15">
+                                <td class="pathology">Brûlures étendues</td>
+                                <td>Brûlure thermique/flamme, électrique ou chimique. Circonstances accidentelles/domestiques. <span class="clinical-sign">Douleur</span> intense.</td>
+                                <td>Évaluation % surface brûlée (règle des 9 de Wallace ou paume = <span class="dosage">1%</span>). Profondeur : 1er, 2e, 3e degré. Rechercher inhalation fumées.</td>
+                                <td><span class="exam">NFS</span>, iono, gaz du sang, COHb si fumées. Bilan lésionnel complet.</td>
+                                <td>ABCDE, oxygène, remplissage (formule de Parkland : <span class="dosage">4 mL</span> x poids x %SCB). Antalgiques, pansements stériles. Transfert centre brûlés si ><span class="dosage">20%</span> SCB adulte ou ><span class="dosage">10%</span> enfant.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer toujours %SCB et transfert centre spécialisé.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-15">
+                                <td class="pathology">Ischémie aiguë de membre inférieur</td>
+                                <td><span class="clinical-sign">Douleur</span> <span class="urgent">brutale</span> MI, impotence fonctionnelle. ATCD FA, artériopathie, <span class="surgery">chirurgie</span> vasculaire.</td>
+                                <td>Membre froid, pâle, abolition pouls périphériques, déficit sensitivo-moteur. Signes 6P : Pain, Pallor, Pulseless, Paresthesia, Paralysis, Perishing cold.</td>
+                                <td>Écho-Doppler artériel. Angio-<span class="exam">TDM</span> si délai compatible.</td>
+                                <td><span class="urgent">Urgence</span> chirurgicale. Héparine <span class="dosage">IV</span> immédiate. Thrombectomie / revascularisation.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer les 6P de l’ischémie aiguë.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-15">
+                                <td class="pathology">Polytraumatisme (ABCDE)</td>
+                                <td>Accident de la voie publique, chute, trauma violent. Plusieurs lésions possibles.</td>
+                                <td>ABCDE : Airway (libre ?), Breathing (FR, SatO₂), Circulation (TA, pouls, hémorragies), Disability (Glasgow), Exposure (recherche lésions).</td>
+                                <td>Bilan trauma systématique : radio thorax, bassin, FAST écho, <span class="exam">scanner</span> corps entier si <span class="positive">stable</span>.</td>
+                                <td>Stabilisation selon ABCDE. Oxygène, perfusions, transfusion si choc. <span class="surgery">Chirurgie</span> hémorragie control. Immobilisation fractures.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer systématiquement PEC initiale par ABCDE.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+        // Variables globales
+        let viewedPathologies = new Set();
+        let activeFilters = new Set();
+        let startTime = Date.now();
+        let totalPathologies = 41;
+        
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCounter();
+            updateProgress();
+            
+            // Mise à jour du temps passé
+            setInterval(updateTimeSpent, 60000);
+            
+            // Observer pour marquer les pathologies comme vues
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const row = entry.target;
+                        if (row.classList.contains('pathology-row')) {
+                            viewedPathologies.add(row);
+                            updateProgress();
+                        }
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                observer.observe(row);
+            });
+        });
+        
+        // Fonction de recherche améliorée
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const sections = document.querySelectorAll('.section');
+            let visibleCount = 0;
+            
+            sections.forEach(section => {
+                const rows = section.querySelectorAll('.pathology-row');
+                let sectionHasVisible = false;
+                
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                    const matchesFilters = activeFilters.size === 0 || 
+                        Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                    
+                    if (matchesSearch && matchesFilters) {
+                        row.style.display = '';
+                        sectionHasVisible = true;
+                        visibleCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+                
+                // Masquer la section si aucune pathologie visible
+                section.style.display = sectionHasVisible ? '' : 'none';
+            });
+            
+            updateCounter(visibleCount);
+        });
+        
+        // Toggle section (expand/collapse)
+        function toggleSection(section) {
+            section.classList.toggle('collapsed');
+        }
+        
+        // Fonction pour tout déplier
+        function expandAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('collapsed');
+            });
+        }
+        
+        // Fonction pour tout replier
+        function collapseAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.add('collapsed');
+            });
+        }
+        
+        // Toggle filter
+        function toggleFilter(filterElement) {
+            const tag = filterElement.dataset.tag;
+            filterElement.classList.toggle('active');
+            
+            if (activeFilters.has(tag)) {
+                activeFilters.delete(tag);
+            } else {
+                activeFilters.add(tag);
+            }
+            
+            applyFilters();
+        }
+        
+        // Appliquer les filtres
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const sectionFilter = document.getElementById('sectionSelect').value;
+            const rows = document.querySelectorAll('.pathology-row');
+            let visibleCount = 0;
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                const matchesSection = sectionFilter === '' || row.dataset.section === sectionFilter;
+                const matchesTags = activeFilters.size === 0 || 
+                    Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                
+                if (matchesSearch && matchesSection && matchesTags) {
+                    row.style.display = '';
+                    row.closest('.section').style.display = '';
+                    visibleCount++;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+            
+            // Masquer les sections vides
+            document.querySelectorAll('.section').forEach(section => {
+                const visibleRows = section.querySelectorAll('.pathology-row:not([style*="display: none"])');
+                if (visibleRows.length === 0) {
+                    section.style.display = 'none';
+                }
+            });
+            
+            updateCounter(visibleCount);
+        }
+        
+        // Filtrer par section
+        function filterBySection() {
+            applyFilters();
+        }
+        
+        // Réinitialiser les filtres
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('sectionSelect').value = '';
+            document.querySelectorAll('.filter-tag').forEach(tag => {
+                tag.classList.remove('active');
+            });
+            activeFilters.clear();
+            
+            // Afficher toutes les sections et pathologies
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = '';
+                section.classList.remove('collapsed');
+            });
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                row.style.display = '';
+            });
+            
+            updateCounter(totalPathologies);
+        }
+        
+        // Mettre à jour le compteur
+        function updateCounter(count = null) {
+            if (count === null) {
+                count = document.querySelectorAll('.pathology-row:not([style*="display: none"])').length;
+            }
+            document.getElementById('visibleCount').textContent = count;
+        }
+        
+        // Mettre à jour la progression
+        function updateProgress() {
+            const viewed = viewedPathologies.size;
+            const remaining = totalPathologies - viewed;
+            const percent = Math.round((viewed / totalPathologies) * 100);
+            
+            document.getElementById('viewedCount').textContent = viewed;
+            document.getElementById('remainingCount').textContent = remaining;
+            document.getElementById('progressPercent').textContent = percent + '%';
+            document.getElementById('progressFill').style.width = percent + '%';
+            document.getElementById('progressFill').textContent = percent + '%';
+        }
+        
+        // Mettre à jour le temps passé
+        function updateTimeSpent() {
+            const minutes = Math.floor((Date.now() - startTime) / 60000);
+            const hours = Math.floor(minutes / 60);
+            const mins = minutes % 60;
+            const timeStr = hours > 0 ? `${hours}h ${mins}m` : `${mins}m`;
+            document.getElementById('timeSpent').textContent = timeStr;
+        }
+        
+        // Raccourcis clavier
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + F pour focus sur recherche
+            if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                e.preventDefault();
+                document.getElementById('searchInput').focus();
+            }
+            
+            // Escape pour réinitialiser les filtres
+            if (e.key === 'Escape') {
+                resetFilters();
+            }
+            
+            // Alt + E pour tout déplier
+            if (e.altKey && e.key === 'e') {
+                e.preventDefault();
+                expandAll();
+            }
+            
+            // Alt + C pour tout replier
+            if (e.altKey && e.key === 'c') {
+                e.preventDefault();
+                collapseAll();
+            }
+        });
+    </script>
+</body>
+</html>

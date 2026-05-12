@@ -1,0 +1,702 @@
+pratique
+
+L’entretien motivationnel :
+
+quelques repères théoriques et
+quelques exercices pratiques
+Aider au changement dans le but d’améliorer la santé est un
+rôle important des soignants. L’entretien motivationnel (EM)
+est une approche qui a pour but d’explorer et résoudre l’ambivalence des patients face au changement. L’ambivalence, hésitation dans le choix entre deux ou plusieurs options, est considérée comme un frein puissant à la décision de changer. Dans
+un climat résolument empathique et avec confiance dans les
+capacités des patients à réussir le changement qu’ils souhaitent, l’EM utilise une approche centrée sur le patient pour encourager la décision de changer dans laquelle les moteurs sont
+en plus de l’empathie, le soutien à l’efficacité personnelle, le
+développement des divergences (conflits psychiques internes)
+et la diminution de la résistance au changement. La pratique
+est indispensable à l’apprentissage de cette approche exigeante et utile aux patients.
+
+Rev Med Suisse 2006 ; 2 : 2154-62
+
+P. Gache
+C. Fortini
+A. Meynard
+M. Reiner Meylan
+J. Sommer
+
+Motivational interviewing : some theoretical
+aspects and some practical exercises
+Heath behavior change is an important task
+for caregivers. Motivational Interviewing (MI)
+is an effective evidence-based approach to
+overcoming the ambivalence that keeps
+many people from desired changes in their
+lives. In a warm and empathic atmosphere
+and in a basic trust in the patient self efficacy
+for achieving the change, MI is a patient-centered approach to enhance patient motivation to commit them in the change decision.
+Among critical conditions of change, MI practicing emphasizes on expressing empathy,
+supporting self-efficacy, rolling with resistance
+and developing discrepancy. Regular practicing with helping and non judgmental teachers
+is a necessary condition of a fruitful learning.
+
+INTRODUCTION
+L’explication de l’approche motivationnelle, outil à la mode s’il
+en est et qui pourrait bien pâtir de cet engouement, laisse
+perplexe par sa simplicité de description. Il ne faudrait pas
+pour autant se laisser aller à une euphorie mal venue car la pratique de l’Entretien Motivationnel (EM) est aussi difficile que séduisante et aussi exigeante
+qu’enthousiasmante. Il existe plusieurs manières d’encourager le changement de
+comportement. Les psychosociologues, par exemple, ont montré que l’influence
+d’une personne sur l’autre peut tenir à de petits détails.1 Par ailleurs, toutes les
+approches psychologiques ont de près ou de loin l’idée d’influer sur la décision
+de changement. Issue des approches humanistes rogeriennes, l’EM a réussi à se
+forger une identité par un abord original des enjeux relationnels en même temps
+qu’utile aux patients.2 Peut-on vraiment parler de nouveauté dans ce champ ?
+Que contient exactement l’EM ? Quels sont les éléments centraux de sa pratique ? Pour répondre à ces questions, nous vous proposons d’être des lecteursacteurs et de vous essayer à quelques exercices pour vous familiariser avec l’EM :
+aucun risque, c’est entre vous et vous ! Et pour les plus téméraires, une surprise
+en fin d’article.
+
+REGARDONS LA SITUATION SANS FAUX-SEMBLANT
+La vie des médecins en particulier et de tous les soignants en général se rythme au gré des interventions au cours desquelles ils essaient avec enthousiasme
+d’encourager leurs patients à modifier un comportement délétère pour la santé.
+Ceci est le début de l’histoire. La suite est la plupart du temps moins glorieuse,
+en raison de l’effet pour le moins variable des conseils des soignants auprès des
+patients. Là-dessus les experts sont formels, les patients écoutent avec attention
+puis décident, parmi les recommandations proposées, celles qu’ils vont appliquer tout ou en partie.3 On comprend pourquoi les soignants se découragent devant des patients dûment informés – éduqués, serait-on tenté d’ajouter – qui
+continuent à fumer, boire de l’alcool ou manger en excès, prendre irrégulièrement
+
+2154
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+0
+
+leur traitement, faire peu d’activité physique, persister
+dans leurs conduites à risques (drogues injectées, relations sexuelles non protégées, etc.). Et si l’on voulait
+décrire avec plus d’acuité les tenants de cette relation soignant-soigné, il faudrait y rajouter tous les sentiments
+divers qui nous traversent l’esprit en face d’un «gros»,
+d’un «très très gros», d’une patiente diabétique qui fait
+des figures libres avec ses glycémies, d’un patient porteur
+d’un quadruple pontage qui ne fume plus que… vingt
+cigarettes par jour, d’un patient alcoolodépendant interpellé pour la troisième fois au volant de sa voiture avec
+1,8‰… La liste est bien sûr infinie et «on n’a pas que cela
+à faire».
+Ce n’est pas nouveau de dire que les médecins ou les soignants donnent des conseils à leurs patients. Ce qui est plus
+nouveau, enfin le croit-on, c’est de considérer que les patients
+ne suivent pas forcément les conseils donnés. Passé notre
+blessure narcissique, il faut se rendre à l’évidence, les études
+ne laissent aucun doute, les patients ne terminent pas leur
+traitement antibiotique, jouent avec leurs antidépresseurs,
+réduisent leur traitement antihypertenseur, etc.3 Plus encore,
+les fumeurs alertés par des paquets promettant cancer et
+impuissance se résignent à mettre leurs cigarettes dans des
+boîtes moins agressives. Certains consommateurs d’alcool
+déclarent que la dive bouteille est bonne pour les artères,
+protège de la maladie d’Alzheimer et concluent qu’il faut bien
+mourir de quelque chose.
+Dans un monde idéal qui existe dans les livres et les
+tarifications médicales, les choses sont heureusement plus
+simples. Il faudra appliquer ce qui est proposé et ce qui
+est écrit. Voilà, nous sommes sauvés ! Dans la vraie vie, la
+nôtre, la vôtre, il y a des patientes et des patients, des familles de patients, des personnes qui travaillent, d’autres
+qui aimeraient travailler, des patients qui voudraient arrêter
+de boire et ne le font pas et aussi des patients obèses qui
+continuent de trop se nourrir. Ils sont comme ça nos patients. Et cette assemblée humaine attend bien souvent
+de nous des miracles en pluie continue. Mais ne soyons pas
+modestes et désespérés, il y a plus à faire qu’on ne le croit.
+
+UNE IDÉE ISSUE DE L’OBSERVATION
+Absolument conscients de la difficulté d’initier le changement et avec un pragmatisme de rigueur, deux psychologues ont écouté des dizaines d’enregistrements d’entretiens de malades alcooliques et de patients toxicomanes.4
+Sans a priori, ils ont observé que certes, certains patients
+n’avaient besoin que de peu d’encouragements pour réussir alors que d’autres ne voulaient rien entendre en matière
+de changement, mais le plus intéressant est que ces deux
+précédents types de patients n’étaient de loin pas les plus
+nombreux. Alors, qui étaient les autres ?
+Les autres, les plus nombreux, s’interrogeaient sur leur
+comportement et oscillaient entre l’idée qu’ils devraient
+changer, que ce serait mieux pour eux et l’idée qu’après
+tout ce n’était pas si important que cela de changer. Les
+deux psychologues ont observé que cette oscillation pouvait se dérouler plusieurs fois dans le même entretien et
+que, stupeur, l’attitude du soignant influait intensément sur
+les oscillations du patient. Autrement dit, si un soignant
+
+2156
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+impatient (!) prend parti dans les hésitations de son patient, notamment en lui faisant savoir où est le bon choix
+(on sait bien que, 999/1000, le patient sait où est le bon
+choix), la réponse du patient cingle dans une argumentation sans faille en faveur du maintien du comportement
+qu’il avait envisagé de modifier. Et le soignant, benoît, conclura, à tort, que ce patient n’était pas motivé. Ce qu’il fallait
+démontrer (exemple : figure 1) !
+
+Patient : «Je me demande si je ne devrais pas arrêter de fumer, j’ai un frère qui
+vient de faire un infarctus et je fume depuis plus longtemps que lui.
+Mais arrêter en ce moment est impensable, j’ai trop de soucis dans
+mon travail»
+
+Avant de lire la suite, imaginez ce que vous auriez répondu à ce patient
+Médecin : «Je vous comprends mais
+ce serait vraiment bien
+si vous pouviez prendre la
+décision d’arrêter de
+fumer»
+Patient :
+
+Médecin : «Même si vous vous dites
+que ce serait difficile à
+cause de votre travail,
+l’infarctus de votre frère
+vous inquiète et vous vous
+demandez si ce ne serait
+«Vous avez raison et je le
+pas le bon moment pour
+sais bien mais je ne me vois
+arrêter de fumer»
+pas faire des efforts pour
+ça en ce moment»
+
+Patient :
+
+«Oui c’est ça d’autant plus
+que j’ai déjà eu une alerte il
+y a cinq ans et que je ne
+peux pas toujours me dire
+que ça n’arrive qu’aux
+autres»
+
+Figure 1. Un patient ambivalent
+
+Lorsque le médecin prend parti pour le changement (à
+gauche), le patient se défend et contre-argumente. Lorsque
+le médecin reflète ce qu’il comprend (à droite), le patient
+élabore et complète une argumentation en faveur du changement.
+Appelons ambivalence, les oscillations du patient et
+entretien motivationnel (EM), l’attitude qui consistera à
+aider le patient à explorer et résoudre cette ambivalence
+afin de l’encourager à modifier un comportement qu’il juge
+inapproprié. Cette approche centrée sur la personne met
+avant tout l’accent sur la résolution de l’ambivalence comme moteur de changement.4
+Aussi vient à l’esprit une question : comment l’EM peutil aider un patient à explorer et résoudre son ambivalence
+dans le but d’engager le changement ?
+
+LES RESSORTS DE L’ENTRETIEN
+MOTIVATIONNEL
+
+L’état d’esprit de l’EM : Autonomie, liberté et responsabilité des
+patients et confiance inconditionnelle des soignants envers les patients.
+Pour illustrer l’état d’esprit de l’EM : lisez cette situation
+clinique et répondez aux questions qui suivent. Prenez
+soin de répondre à la première question avant de lire
+la deuxième (sinon l’exercice perd son intérêt !).
+Ce patient est un jeune homme de 17 ans. Il vient à la
+consultation accompagné par sa mère. Une enseignante
+a suggéré à la mère de consulter car cette enseignante
+aurait décrit le jeune homme, selon la mère, comme
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+0
+
+souffrant d’une «maladie mentale». Selon la mère, cette
+opinion est partagée par la famille proche et les voisins.
+Malgré tout la mère pense que son fils est normal.
+Le parcours scolaire de l’enfant est une succession de
+problèmes et de notes médiocres. Il dit qu’il hait l’école.
+Selon sa mère, un des enseignants lui a fortement suggéré de retirer son fils de l’école parce que la seule présence en classe de celui-ci «est une atteinte au respect
+des autres élèves pour l’enseignant». Des évaluations
+précédentes laissaient penser que la mère était exigeante, dominatrice et pessimiste.
+Selon sa mère, le jeune homme n’a pas beaucoup
+d’amis et n’aime pas jouer avec ses pairs. Elle le décrit
+comme «solitaire». Selon ses parents, leur fils est sujet
+à des épisodes de colère inexpliquée. Le seul fait marquant de la biographie de ce jeune homme est qu’il est
+né avec une «grosse tête» et que sa famille a subi la mort
+de trois enfants avant sa naissance.
+1. A votre avis, en lisant cette histoire, quels sont les
+principaux problèmes dont souffre ce jeune homme et
+comment imaginez-vous que la situation évolue s’il ne
+bénéficie pas d’une prise en charge ?
+Réponse
+A cette question, on peut répondre que ce patient
+a des problèmes relationnels, qu’il est peut-être
+déprimé ou encore qu’il vit sous la domination
+d’une mère «très présente» ce qui l’empêche de
+développer sa propre personnalité. On se dit
+aussi qu’on aimerait approfondir la relation avec
+sa mère et savoir pourquoi il n’est pas fait mention
+du père.
+2. En fait, on connaît le devenir de ce jeune homme et
+on peut dire qu’il a plutôt bien réussi sa vie autant sur
+le plan personnel que professionnel. A votre avis, de
+quelles ressources internes et externes ce jeune homme
+a-t-il pu disposer pour «renverser la vapeur» ?
+
+Tableau 1. L’état d’esprit de l’entretien motivationnel
+1. La motivation au changement doit venir de la personne ellemême, elle n’est pas imposée de l’extérieur
+2. L’intervenant aide la personne à identifier ses valeurs intrinsèques et ses buts qui seront les moteurs du changement
+3. C’est à la personne et non à l’intervenant, d’explorer et de
+résoudre l’ambivalence. L’ambivalence est constituée de tendances opposées qui entrent en conflit, ce qui bloque les perspectives de changement
+4. L’entretien se déroule dans une atmosphère empathique non
+confrontante où l’on sollicite la participation active de la
+personne. La persuasion directe, la confrontation agressive, et
+l’argumentation sont des concepts opposés à l’EM et sont
+explicitement proscrits dans ce cadre
+5. L’intervenant est directif en aidant la personne à explorer et à
+résoudre son ambivalence
+6. Les stratégies spécifiques de l’EM servent à faire advenir,
+clarifier et résoudre l’ambivalence dans une atmosphère
+respectueuse à l’égard de la personne et tenant compte de
+son degré de préparation au changement
+7. La résistance au changement n’est pas qu’une caractéristique
+propre à la personne mais également le produit de l’interaction
+entre la personne et l’intervenant
+8. La relation thérapeutique correspond à un partenariat ;
+l’intervenant doit éviter de se positionner comme expert
+9. L’intervenant respecte l’autonomie et la liberté de choix de
+comportement de la personne
+
+comme on prescrirait un sirop contre la toux. A l’inverse, ce
+sentiment d’impuissance ne doit pas nous conduire à la
+résignation. Au contraire, être là et confiant quoi qu’il arrive,
+est le meilleur gage que l’on puisse offrir à un patient comme preuve qu’il peut changer. Pour l’anecdote, le jeune
+homme décrit ci-dessus n’est autre qu’Albert Einstein !
+
+Exploration et résolution de l’ambivalence
+Réponse
+Puisqu’on sait que ce jeune homme a bien évolué,
+on peut imaginer que son attitude actuelle est liée
+à un certain ennui à l’école, qu’il n’éprouve pas le
+besoin d’avoir des amis car il aime être seul et
+qu’il a une riche vie intérieure. Il a sans doute une
+capacité à croire en lui et à avoir confiance en ses
+propres forces. Sa mère a pu aussi l’encourager à
+accepter sa différence et à la cultiver comme un
+atout plutôt que comme une faiblesse.
+L’EM s’attache à trouver, en toute circonstance, des raisons d’optimisme et de confiance dans la capacité de l’autre à changer en respectant toujours sa liberté et en le centrant sur sa responsabilité (tableau 1). Nous sommes toujours tentés de voir le verre à moitié vide plutôt que le verre
+à moitié plein. Posons un regard de confiance sur nos patients et acceptons que nous ne puissions les faire changer
+
+0
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+Imaginez que vous ayez envie de changer de travail.
+Vous n’en êtes pas certain mais la question se pose car on
+vous fait une proposition sérieuse. Vous allez voir un(e)
+ami(e) et vous lui exposez votre situation en faisant part
+de votre hésitation. Votre ami(e) vous écoute et vous dit :
+«c’est tentant mais à ta place je garderais le même travail».
+Vous répondrez invariablement : «Oui mais reconnais que
+cette offre est tentante». Si votre ami(e) vous avait plutôt
+dit : «Alors, t’as bien raison de changer, j’ai toujours pensé
+que ton travail ne te convenait pas». Vous allez objecter :
+«Oui c’est vrai, mais dans mon travail actuel, j’ai une liberté
+que je risque de perdre dans le nouveau». Et cela peut
+durer ainsi, chacun trouvera un argument supplémentaire
+pour essayer, en vain, de convaincre l’autre. Pour éviter ce
+piège, l’EM propose d’aider l’exploration de l’ambivalence,
+préalable à sa résolution, en guidant le patient dans cette
+exploration tout en évitant soigneusement de prendre
+parti, de juger de la qualité des arguments ou encore de
+donner des conseils.5
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+2157
+
+Essayez-vous-1a
+1a. Que direz-vous à ce patient ?
+«Je sais que je devrais maigrir mais j’ai déjà fait tellement de tentatives qui ont finalement échoué que je ne
+me vois pas recommencer, d’autant que finalement
+pour le moment je ne souffre pas trop de mon poids»
+1b. Ou encore à cette patiente enceinte ?
+«Je sais bien que ce n’est pas une bonne idée de
+fumer quand on est enceinte. Je sais que je fais courir
+des risques à mon bébé. Mais voyez-vous docteur, je
+n’arrive pas à franchir le pas».
+
+LES PRINCIPES DE L’ENTRETIEN MOTIVATIONNEL : EMPATHIE, EFFICACITÉ PERSONNELLE, RÉSISTANCE ET DIVERGENCE
+
+A propos d’empathie
+Sur toutes les lèvres dès qu’il s’agit de communication
+soignant-soigné, l’empathie a pâti de cette notoriété. Exigeant à souhait, l’effort d’empathie se révèle particulièrement difficile quand tout va mal et qu’on ne peut s’empêcher de penser que le patient ne «fait pas tout ce qu’il
+devrait», c’est alors bien naturellement que l’agacement
+nous guette, que l’irritation pointe ou que la persuasion
+directe se fait jour. Car l’empathie se construit dans une vigilance constante grâce à laquelle on exprimera au patient
+notre compréhension de sa situation sans jugement ni approbation mais dans un registre de partage et d’écoute réflective. C’est notre capacité à transmettre au patient ce
+qu’on ressent de son vécu et particulièrement sur le plan
+émotionnel qui générera ce climat empathique, préalable
+indispensable à l’engagement au changement (tableau 2).
+Une personne qui se sent comprise est davantage disposée
+à s’ouvrir et à partager ses expériences, ce qui nous permettra de nous représenter quelles sont ses ressources et ses
+besoins d’apprentissage face au processus de changement.6
+
+Tableau 2. Les principes de l’entretien motivationnel
+• Exprimer l’Empathie
+• Rouler avec la Résistance
+• Développer les Divergences
+• Soutenir le Sentiment d’efficacité personnelle
+
+Essayez-vous-2 a
+2a. Comment exprimeriez-vous votre empathie à cette
+patiente ?
+«Docteur, je suis assez découragée par ce que je fais
+et je m’en veux terriblement parce que j’ai l’impression
+de vous faire perdre votre temps. Mes glycémies sont
+mauvaises et contrairement à ce que j’avais promis, j’ai
+fait beaucoup d’écarts sur la nourriture ce qui me vaut
+3 kilos de plus sur la balance aujourd’hui.»
+
+2b. Ou encore à cette jeune patiente asthmatique ?
+«Pourquoi je ne pourrais pas fumer comme mes copines, une cigarette de temps en temps ? C’est quand
+même pas une cigarette qui va me déclencher une
+crise. De toutes façons, j’ai beau faire des efforts et ne
+pas fumer, ça n’empêche pas les crises d’arriver !»
+
+A propos de résistance
+«Vous avez raison docteur, mais…». Quelle déception à
+l’écoute de ces mots, nous pensions avoir été convaincants, avoir fait état de notre savoir pour déclencher l’envie de changer de notre patient. Et le patient nous répond :
+«oui, mais…». Lorsque les patients commencent leur réponse par ces deux mots, ils nous signalent que ce qui suit
+le «mais» est plus important que le «oui». Ils nous traduisent ainsi qu’ils ne partagent pas notre point de vue. Dans
+l’EM, nous appelons cette manière de faire des patients,
+l’expression de la résistance au changement ou pour le
+moins l’expression de l’envie de maintenir le comportement actuel. La résistance puisant son origine dans la peur
+du changement, on comprend facilement que l’argumentation rationnelle n’est guère utile, la personne est d’ailleurs souvent parfaitement consciente de l’aspect irrationnel de ses peurs. En revanche, se mettre à ce moment-là
+du côté de la résistance, c’est reconnaître à la personne le
+droit d’avoir peur et de ne pas se sentir prête. Face à la
+résistance au changement, l’EM préconise de changer de
+stratégie. La résistance est un signal de discordance dans
+la relation. L’EM invite l’intervenant à modifier son style
+pour faire baisser la résistance et augmenter l’envie de
+changer. L’accompagnement dans la décision de changer a
+lieu dans un climat d’empathie et repose sur le principe
+que la décision finale de changement appartient à la personne. La véritable autonomie ne s’acquiert qu’après avoir
+reconnu «ses limites».7
+Essayez-vous-3 a
+3a. Que diriez-vous à cette patiente (en «roulant avec
+la résistance») ?
+«Docteur, je crois que vous ne vous mettez pas à ma
+place. J’aimerais voir ce que vous feriez si vous étiez
+obligé comme moi de faire attention à tout ce que je
+mange chaque fois que je suis invitée à dîner chez des
+amis. C’est facile pour vous de donner des conseils.»
+3b. Ou encore à ce patient ?
+«Vous faites votre travail, c’est bien. Moi je me débats
+avec mes problèmes tous les jours et j’ai pas beaucoup
+de gratifications. Alors un kilo de plus ou de moins.»
+3c. Et à celui-ci ?
+«Je ne vois pas ce qui pourrait m’aider, ni vous ni personne. C’est trop tard, il n’y a plus grand-chose à faire
+ou à espérer. Et puis passer ma vie à prendre tous ces
+médicaments, je n’en vois vraiment pas l’intérêt, d’autant que vous voyez le résultat aujourd’hui.»
+
+A propos d’efficacité personnelle
+a A la fin de cet article, nous vous faisons des propositions de réponses en les justifiant à
+partir du modèle de l’EM.
+
+2158
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+N’ayons pas peur des mots, il y a un peu de crainte à se
+dire qu’il faudrait intégrer la confiance en nos patients
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+0
+
+comme un principe relationnel. Que cette façon « outrageusement positiviste» de laisser au patient autonomie et
+responsabilité a des relents d'outre-Atlantique et ne saurait satisfaire notre manière habituelle de faire. Et si nous
+nous trompions ? Et si nos patients attendaient de nous
+de la confiance en eux et toujours l’espoir qu’ils y arriveront.
+Ne soyons pas avares de nos mots pour faire savoir notre
+confiance dans la capacité de l’autre à réussir et répétonsle lui. A l’usage, ce principe de soutien à l’efficacité personnelle nous semble un très bon principe.
+
+A propos de divergence
+La motivation au changement survient lorsque les gens
+perçoivent une contradiction entre ce qu’ils sont et ce qu’ils
+aimeraient être. Le travail motivationnel consiste à relever
+ces contradictions et à être le partenaire extérieur du dialogue intérieur que cette contradiction génère.
+Essayez-vous-4 a
+4a. Que diriez-vous à ce patient (en développant la
+divergence) ?
+«Ce que je trouve le plus pénible avec la cigarette,
+c’est que je me rends bien compte que je ne peux pas
+m’en passer et que je dois toujours en avoir sur moi.
+Cette idée d’être dépendant de quelque chose m’agace
+car j’aime bien être libre. D’ailleurs dans la vie j’aime
+bien avoir le contrôle sur les choses qui me concernent.»
+4b. Et à cette patiente ?
+«Mon alcoolisme je l’ai toujours plutôt bien assumé
+jusqu’au jour où une de mes collaboratrices proches est
+venue me dire que depuis quelque temps je ne faisais
+plus face à mes responsabilités. L’idée de ne pas être
+responsable est directement contraire à ce que m’ont
+appris mes parents. Chez mes parents, assumer ses
+responsabilités a toujours été quelque chose de fondamental. M’imaginer ne plus être responsable dans mon
+travail m’est tout à fait intolérable.»
+
+LES OUTILS DE L’ENTRETIEN
+MOTIVATIONNEL
+Les outils de l’EM ne présentent aucune originalité a
+priori. Ils appartiennent au registre des entretiens centrés
+sur la personne tels que Carl Rogers a pu les décrire.
+C’est la façon de les utiliser qui sera déterminante. Un
+peu comme un golfeur qui a le choix de son club, bois, fer
+ou putter en fonction du coup à jouer. Les quatre outils de
+l’EM se déclinent sous l’acronyme OUVER (OU : questions
+ouvertes ; V : valoriser ; E : écoute réflective ; R : résumer ;
+tableau 3). L’articulation de ces outils créera le climat empathique, donnera confiance au patient, encouragera le
+Tableau 3. Les outils de l’entretien motivationnel
+(OUVER)
+• Poser des questions OUvertes
+• Valoriser
+• Pratiquer l’Écoute réflective
+• Résumer
+
+0
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+changement, etc.8 Il y a donc deux choses importantes dans
+le maniement de ces outils : leur acquisition technique
+(comment faire ?) et leur utilisation (quand le faire ?). C’est
+cette dernière qui mérite apprentissage répété et supervision bienveillante.
+
+Poser des questions OUvertes
+Poser des questions ouvertes permet au patient d’élaborer son problème et d’explorer l’ensemble de sa situation. Cela lui donne également le sentiment que vous cherchez à le comprendre.
+D’une façon pratique, les questions ouvertes sont toutes
+les questions qui demandent une réponse faite de plusieurs
+mots, voire de plusieurs phrases. Elles s’opposent aux questions fermées qui provoquent des réponses courtes.
+Essayez-vous-5 a
+Dans la série de questions ci-dessous, transformez la
+question fermée en question ouverte en gardant le sens
+de la question.
+5a. «Pensez-vous que vous aurez des problèmes pour
+équilibrer votre diabète ?»
+5b. «Est-ce que votre santé vous inquiète ?»
+5c. «Qu’aimeriez-vous faire pour perdre du poids : un
+régime ou de l’activité physique ?»
+5d. «Ne pensez-vous pas que cela irait mieux si vous
+arrêtiez de fumer ?»
+5e. «Ne serait-il pas important pour vous de donner du
+sens à votre vie ?»
+
+Valoriser/soutenir
+Les encouragements prodigués au patient pas tant sur
+le résultat que sur son engagement augmenteront son sentiment qu’il est compétent pour réussir le changement qu’il
+souhaite. Même quand la situation semble bien compromise, notre capacité à maintenir notre soutien et donc
+notre confiance continueront d’indiquer au patient que
+l’horizon n’est pas entièrement obstrué mais qu’il existe
+encore de l’espoir. Un peu à l’image de cette psychologue
+de formation psychanalytique qui a tellement apprécié les
+encouragements authentiques et répétés de son médecin
+lorsqu’elle a arrêté de fumer qu’elle en a fait son principal
+facteur de réussite. Les encouragements entretiennent l’espoir, ils sont nécessaires pour traverser les moments particulièrement difficiles. Les patients en ont besoin plus
+que de toutes autres choses.
+
+Pratiquer l’Ecoute réflective
+L’écoute réflective est sans doute l’outil le plus exigeant
+car le plus difficile à acquérir et à intégrer de façon usuelle
+dans sa pratique quotidienne. D’une efficacité remarquable, l’écoute réflective engage le patient dans un dialogue
+avec lui-même que l’intervenant nourrit des propres dires
+du patient en en choisissant les parties les plus à même
+d’encourager le changement, en explorant l’ambivalence,
+en développant les divergences ou encore en reflétant les
+sentiments du patient. C’est l’outil-même qui donne au
+patient le sentiment qu’il est compris et au soignant la
+possibilité de respecter le rythme d’élaboration et de
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+2159
+
+changement du patient. C’est aussi grâce à cette manière
+de se positionner dans l’entretien que le soignant peut
+laisser parler le patient. Plus le patient parle, plus la probabilité qu’il soit acteur de son avenir augmente et plus la
+probabilité de changer se concrétise.
+Essayez-vous-6 a
+6a. Que diriez-vous à ce patient (en pratiquant l’écoute
+réflective) ?
+«Je n’imagine pas qu’un jour je pourrais me passer de
+la cigarette. Quand je rentre le soir chez moi, si je
+n’avais pas la possibilité de fumer une cigarette, je
+serais très nerveux.»
+6b. Et à cette patiente ?
+«J’aimerais bien être capable de me prendre en charge
+complètement et ne pas ennuyer ma famille avec mon
+diabète mais parfois je me sens si découragée que je
+ne peux pas m’empêcher de faire appel à eux et cela
+m’ennuie beaucoup.»
+6c. A cette jeune patiente ?
+«C’est dur de vivre avec le VIH. C’est tous les jours.
+Chaque fois que je rencontre un homme de mon âge, je
+ne peux m’empêcher de penser à cela, à ce que je devrais lui dire. Je crains sa réaction. La plupart des
+hommes sont partis dès que je leur ai dévoilé ma séropositivité. Maintenant je retarde le moment pour le
+dire et je n’aime pas ça non plus.»
+
+Résumer
+C’est une respiration dans l’entretien, une manière de
+faire le point pour intégrer ce qui a été dit. Le résumé assure les transitions, rassemble les informations ou donne
+une logique à ce qui a été partagé. Puisque c’est une respiration, son utilisation doit être régulière et relativement
+fréquente. Le résumé peut reprendre des éléments jugés
+pertinents, il peut clore une partie de l’entretien ou encore il peut inscrire un sens, une logique aux propos du
+patient.
+
+gements qu’ils souhaitent. La pratique de l’EM apporte du
+plaisir et de la satisfaction lors des entretiens lorsqu’on
+assiste «en direct» à la réflexion du patient et à l’élaboration autour de ses difficultés. Notre patience dans l’apprentissage de cette pratique nous conduira aussi à respecter le rythme du patient, antienne connue mais si difficile à maîtriser. Mark Twain aura le mot de la fin : «Pour
+perdre une habitude, il ne suffit pas de la jeter par la fenêtre, il faut lui faire descendre les escaliers marche après
+marche.»
+
+Implications pratiques
+
+> Notre style influence la motivation du patient à changer
+> L’entretien motivationnel aide les patients à explorer et
+résoudre leur ambivalence
+
+> L’entretien motivationnel ne s’apprend pas dans les livres
+> Si vous voulez vous familiariser avec l’entretien motivationnel,
+lisez le livre de Miller et Rollnick (disponible en français) et
+inscrivez-vous à une formation de deux jours au moins
+
+Adresses
+Drs Pascal Gache, Unité d’alcoologie
+Dr Anne Meynard, Consultation santé Jeunes
+Dr Murielle Reiner Meylan, Service d’éducation
+thérapeutique des maladies chroniques
+Dr Johanna Sommer, Policlinique de médecine
+Département de médecine communautaire
+HUG, 1211 Genève 14
+pascal.gache@hcuge.ch
+anne.meynard@hcuge.ch
+murielle.reiner@hcuge.ch
+johanna.sommer@hcuge.ch
+Dr Cristiana Fortini, Centre de traitement en alcoologie
+CHUV, 1011 Lausanne
+cristiana.fortini@chuv.ch
+
+CONCLUSION
+Nous souhaitons souvent les changements de comportement de nos patients parce que nous sommes des soignants et que nous voulons fondamentalement le bien
+pour eux. Parfois malgré eux. Notre style est un facteur déterminant de changement et c’est dans cette responsabilité
+partagée que nous guiderons nos patients vers les chan-
+
+Voir annexes page suivante
+
+Bibliographie
+1 Joule RV, Beauvois JL. Petit traité de manipulation à
+l’usage des honnêtes gens. Grenoble : PUG, 2002;288 p.
+2 Hettema J, Steele J, Miller WR. Motivational interviewing : A meta-analysis. Ann Rev Clin Psychol 2005;
+1:91-111.
+3 * Richard C, Lussier MT. La communication professionnelle en santé. Montréal : ERPI, 2005;840 p.
+4 ** Miller WR, Rollnick S. Motivational Interviewing.
+
+2160
+
+New York : the Guilford Press, 2002;428 p.
+5 ** Rollnick S, Mason P, Butler C. Health behaviour
+change. Londres : Churchill Livingstone, 1999;225 p.
+6 ** Miller WR, Rollnick S. Pratiquer l’entretien motivationnel. Paris : Dunod, 2006;241 p.
+7 Berdoz D, Conus MK, Daeppen JB. «Combien de fois
+il faut que je vous dise...». Quelques pistes données par
+l’entretien motivationnel. Rev Med Suisse 2005;1: 2453-6.
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+8 Lecallier D, Michaud P. L’entretien motivationnel :
+une évolution radicale de la relation thérapeutique.
+Alcoologie et Addictologie 2004;26:129-32.
+
+* à lire
+** à lire absolument
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+0
+
+Annexe 1. La surprise promise : un prix à gagner !
+
+Nous vous proposons de continuer le dialogue ci-dessous par au moins vingt répliques du médecin et vingt répliques du patient. Les
+répliques doivent être en phase avec l’esprit, les principes et les outils de l’entretien motivationnel. Envoyez votre proposition à pascal.
+gache@hcuge.ch. Les auteurs de cet article choisiront la meilleure proposition et le gagnant recevra en cadeau le livre traduit en français
+de Miller et Rollnick : «Pratiquer l’entretien motivationnel».
+A vous de jouer !
+Cabinet de médecine générale du Dr ou la Dresse Omyeux : Monsieur Jésite, 48 ans, est un patient connu du médecin. Il est suivi pour une
+HTA traitée par un IEC. Il souffre d’un surpoids (86 kg pour 1,75 m soit un BMI à 28). Il avait arrêté de fumer mais a repris la cigarette il y
+a un an à la suite de difficultés professionnelles.Vous pouvez inventer le reste dans votre dialogue.
+Monsieur Jésite :
+
+Ecoutez, docteur, j’ai bien réfléchi depuis ma dernière consultation, je pense que je vais essayer de faire un effort et
+perdre quelques kilos. Je pense que cela ne devrait pas me faire de mal et dans le même temps je vais me remettre au
+vélo. Enfin je vais essayer. Il y a tellement longtemps que je ne suis pas monté sur une bicyclette. J’ai un peu peur de ne
+pas arriver à faire tout ça. Ca fait tellement longtemps que je repousse la décision.
+Docteur Omyeux : Vous voulez perdre un peu de poids et faire de l’activité physique et en même temps vous craignez de ne pas y arriver.
+Monsieur Jésite :
+Oui c’est ça. D’un côté j’ai très envie et de l’autre j’ai très peur. Je ne sais pas si vous comprenez ce que cela veut dire.
+Docteur Omyeux : Ce que vous dites, c’est que vous êtes comme pris entre deux choses : vouloir entreprendre quelque chose de bien
+pour vous et de l’autre côté être dans la crainte de le faire.
+Monsieur Jésite :
+Enfin, si je regarde ma situation avec lucidité je ne devrais pas trop me poser de questions et foncer mais voilà ce n’est
+pas si simple.
+Docteur Omyeux : Pas si simple, dites-vous.
+Monsieur Jésite :
+Oui car vous voyez… (C’est à vous maintenant)
+
+Annexe 2. Propositions de réponses aux différents exercices
+
+1a. Dans cette phrase où l’ambivalence domine, on peut soit pratiquer l’écoute réflective, soit interroger le patient sur ses désirs.
+«D’un côté vous pensez que vous devriez perdre du poids et de l’autre l’idée de recommencer vous est assez lointaine d’autant que
+votre poids ne vous embête pas trop pour le moment.»
+Ou alors : «Vous dites que vous devriez maigrir. Quels avantages en tireriez-vous aujourd’hui ?»
+1b. Cette patiente nourrit sans doute de la culpabilité mais ne voit pas comment franchir le pas. On peut mettre l’accent sur la conscience des risques en respectant l’ambivalence.
+«Vous êtes parfaitement consciente des risques de fumer quand on est enceinte et en même temps vous ne voyez pas comment
+prendre la décision d’arrêter en ce moment.»
+2a. Cette patiente exprime de la culpabilité et du découragement. Le soignant peut montrer qu’il comprend les sentiments exprimés par
+la patiente.
+«Je vois que vous vous sentez coupable de n’avoir pas fait ce que vous souhaitiez et cela vous décourage beaucoup de vous retrouver
+dans cette situation.»
+2b. Il y a de la colère chez cette jeune fille qui exprime un sentiment d’injustice.
+«Tu trouves que c’est injuste ce qui t’arrive. Non seulement tu n’as pas l’impression que fumer aggrave ton asthme et en plus même si
+tu te retiens, tu fais quand même des crises.»
+3a. Cette patiente pense que le médecin ne la comprend pas et lui renvoie ce sentiment agressivement.
+«Vous êtes fâchée parce que vous avez le sentiment que je ne vois pas tous les efforts que ça représente de vivre avec cette maladie.
+Vous vous demandez même si je serais aussi courageuse que vous à votre place.»
+3b. Ce patient est découragé par sa situation et son sentiment d’être incompris par son médecin.
+«Vous aimeriez que je reconnaisse mieux vos efforts, vous vous sentiriez moins découragé, j’imagine.»
+3c. Ce patient ne voit pas très bien comment avancer dans sa situation. Rien ne semble être valable à ses yeux.
+«Vous vous demandez à quoi peut bien servir de faire des efforts parce que pour le moment, malgré vos efforts, les résultats tardent à
+venir.»
+4a. Ce patient aime avoir le contrôle de sa vie et se sentir libre et lorsqu’il fume, il a le sentiment que c’est la cigarette qui le contrôle.
+«L’idée d’être un homme libre qui a du contrôle sur sa vie est bien malmenée chaque fois que vous fumez et ça vous agace de vivre
+cela.»
+4b. Ce patient ne supporte pas qu’une valeur transmise par ses parents, le sens des responsabilités, soit mise en cause par son alcoolisme.
+«Prendre ses responsabilités est si essentiel pour vous que l’idée de faillir à cela vous est insupportable, ce serait un peu comme trahir
+vos parents et les valeurs qu’ils vous ont transmises.»
+5a. «Quels problèmes pourriez-vous rencontrer pour équilibrer votre diabète ?»
+5b. «Qu’est-ce qui vous inquiète dans votre santé ?»
+5c. «Qu’aimeriez-vous faire pour perdre du poids ?»
+5d. «Quels avantages auriez-vous à arrêter de fumer ?»
+5e. «Quel sens aimeriez-vous donner à votre vie ?»
+
+0
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+2161
+
+6a. Ce patient a du mal à imaginer sa vie sans cigarettes. Dans cette situation, on peut prendre le parti de forcer un peu le trait lors de
+l’écoute réflective. Cela amènera le patient à nuancer ensuite son propos.
+«Ce que vous dites, c’est qu’il n’y a que la cigarette qui vous détende en rentrant du travail.»
+6b. Cette patiente revendique son autonomie et vit assez mal ses échecs pour y parvenir.
+«Vous avez envie d’être autonome parce que vous n’aimez pas solliciter votre famille. Parfois, votre diabète vous décourage tant que
+vous demandez de l’aide à votre famille et cela vous ennuie beaucoup parce que votre but c’est d’être complètement autonome
+malgré cette maladie.»
+6c. C’est encore le sentiment d’injustice qui domine dans le propos de cette patiente en raison des efforts qu’elle fait pour sa vie affective.
+«C’est dur d’être authentique lorsqu’on est séropositive, car on est jugé seulement sur cet aspect-là et le reste ne compte plus. Pour
+augmenter vos chances d’être acceptée vous êtes même obligée de faire des choses que vous n’aimez pas forcément.»
+
+2162
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+Revue Médicale Suisse – www.revmed.ch – 27 septembre 2006
+
+0
+
+

@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVUE MÉDICALE SUISSE ÉTUDIANTS - EXAMEN ABDOMINAL</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        
+        .content-wrapper {
+            display: flex;
+            gap: 30px;
+            position: relative;
+        }
+        
+        .main-content {
+            flex: 1;
+            max-width: 850px;
+        }
+        
+        .sidebar-images {
+            width: 350px;
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            padding-left: 20px;
+            border-left: 2px solid #ecf0f1;
+        }
+        
+        .sidebar-images::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .sidebar-images::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 3px;
+        }
+        
+        .sidebar-images::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 3px;
+        }
+        
+        .sidebar-images::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #ecf0f1;
+            border-left: 5px solid #3498db;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        
+        h4 {
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        .pathology {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        .sidebar-figure {
+            margin-bottom: 20px;
+            background-color: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .sidebar-figure:hover {
+            transform: translateX(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .sidebar-figure img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .sidebar-figure-caption {
+            margin-top: 8px;
+            font-size: 0.85em;
+            color: #6c757d;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        .figure-ref {
+            color: #3498db;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            border-bottom: 1px dotted #3498db;
+            font-size: 0.9em;
+        }
+        
+        .figure-ref:hover {
+            color: #2980b9;
+            border-bottom-style: solid;
+        }
+        
+        .urgent-box {
+            background-color: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        
+        .urgent-box h2 {
+            background-color: #ffc107;
+            color: #856404;
+            margin: -20px -20px 15px -20px;
+            padding: 15px 20px;
+            border-radius: 6px 6px 0 0;
+        }
+        
+        .key-points-box {
+            background-color: #e3f2fd;
+            border: 2px solid #2196f3;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        
+        .key-points-box h2 {
+            background-color: #2196f3;
+            color: white;
+            margin: -20px -20px 15px -20px;
+            padding: 15px 20px;
+            border-radius: 6px 6px 0 0;
+        }
+        
+        .final-cards {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 3px solid #3498db;
+        }
+        
+        .final-cards h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .card-item img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Modal for image zoom */
+        .image-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 50px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+        }
+        
+        .modal-caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+        }
+        
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close-modal:hover {
+            color: #bbb;
+        }
+        
+        @media (max-width: 1200px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            
+            .main-content {
+                max-width: 100%;
+            }
+            
+            .sidebar-images {
+                width: 100%;
+                position: relative;
+                max-height: none;
+                border-left: none;
+                border-top: 2px solid #ecf0f1;
+                padding-left: 0;
+                padding-top: 20px;
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 20px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            h2 {
+                font-size: 1.4em;
+            }
+            
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS - EXAMEN ABDOMINAL</h1>
+        
+        <div class="content-wrapper">
+            <div class="main-content">
+                <h2>Introduction</h2>
+                
+                <h3>Contexte clinique</h3>
+                <p>La douleur abdominale constitue une cause fréquente de consultation aux urgences. Un symptôme digestif peut résulter d'une étiologie digestive ou non-digestive. L'examen abdominal doit être complété par d'autres examens pour exclure une origine non digestive (cardiaque, pulmonaire, uro-génitale, vasculaire).</p>
+                
+                <h2>Préparation de l'examen</h2>
+                
+                <h3>Installation du patient</h3>
+                <ul>
+                    <li><strong>Position :</strong> Décubitus dorsal sur table d'examen</li>
+                    <li><strong>Configuration :</strong>
+                        <ul>
+                            <li>Jambes décroisées</li>
+                            <li>Bras le long du corps</li>
+                            <li>Coussin sous la tête et sous les genoux</li>
+                            <li>Vessie idéalement vide</li>
+                        </ul>
+  </li>
+                </ul>
+                
+                <h3>Préparatifs</h3>
+                <ul>
+                    <li>Se présenter au patient</li>
+                    <li>Demander son accord</li>
+                    <li>Expliquer le déroulement</li>
+                    <li>Désinfection des mains (entrée/sortie, avant/après contact)</li>
+                    <li>Port de gants si contact avec liquides biologiques</li>
+                    <li>Patient dévêtu du haut, deux premiers boutons du pantalon défaits</li>
+                    <li>Examinateur positionné à droite du patient (convention)</li>
+</ul>
+                
+                <h2>Division anatomique de l'abdomen</h2>
+                
+                <h3>Système en 4 quadrants</h3>
+                <ul>
+                    <li>Quadrant supérieur droit (QSD)</li>
+                    <li>Quadrant supérieur gauche (QSG)</li>
+                    <li>Quadrant inférieur droit (QID)</li>
+                    <li>Quadrant inférieur gauche (QIG)</li>
+                </ul>
+                
+                <h3>Système en 9 régions <span class="figure-ref" onclick="scrollToFigure('fig1')">(voir Fig. 1)</span></h3>
+                <ul>
+                    <li>Épigastre</li>
+                    <li>Hypochondre droit</li>
+                    <li>Hypochondre gauche</li>
+                    <li>Flanc droit</li>
+                    <li>Région ombilicale</li>
+                    <li>Flanc gauche</li>
+                    <li>Fosse iliaque droite</li>
+                    <li>Hypogastre (région sus-pubienne)</li>
+                    <li>Fosse iliaque gauche</li>
+</ul>
+                
+                <h2>Diagnostics différentiels par cadran abdominal <span class="figure-ref" onclick="scrollToFigure('fig2')">(voir Fig. 2)</span></h2>
+                
+                <h3>Épigastre</h3>
+                <ul>
+                    <li>Ulcère gastrique/duodénal</li>
+                    <li>Pancréatite aiguë</li>
+                    <li>Reflux gastro-œsophagien</li>
+                    <li>Dissection aortique</li>
+                    <li>Infarctus du myocarde</li>
+                </ul>
+                
+                <h3>Hypochondre droit</h3>
+                <ul>
+                    <li>Cholélithiase/cholécystite</li>
+                    <li>Cholangite</li>
+                    <li>Cholédocholithiase</li>
+                    <li>Hépatite virale aiguë</li>
+                    <li>Thrombose de la veine porte</li>
+                    <li>Pneumonie</li>
+                    <li>Embolie pulmonaire</li>
+</ul>
+                
+                <h3>Hypochondre gauche</h3>
+                <ul>
+                    <li>Infarctus splénique</li>
+                    <li>Gastrite</li>
+                    <li>Pancréatite</li>
+                    <li>Pneumonie</li>
+</ul>
+                
+                <h3>Flancs</h3>
+                <ul>
+                    <li>Néphrolithiase</li>
+                    <li>Pyélonéphrite</li>
+                    <li>Appendicite</li>
+                    <li>Diverticulite</li>
+</ul>
+                
+                <h3>Fosse iliaque droite</h3>
+                <ul>
+                    <li>Appendicite</li>
+                    <li>Diverticulite</li>
+                    <li>Torsion ovarienne</li>
+                    <li>Kystes ovariens</li>
+                    <li>Grossesse extra-utérine</li>
+                    <li>Néphrolithiase</li>
+                    <li>Coxarthrose</li>
+</ul>
+                
+                <h3>Fosse iliaque gauche</h3>
+                <ul>
+                    <li>Diverticulite</li>
+                    <li>Torsion ovarienne</li>
+                    <li>Kystes ovariens</li>
+                    <li>Grossesse extra-utérine</li>
+                    <li>Néphrolithiase</li>
+                    <li>Coxarthrose</li>
+</ul>
+                
+                <h3>Hypogastre</h3>
+                <ul>
+                    <li>Prostatite</li>
+                    <li>Torsion testiculaire</li>
+                    <li>Infection urinaire</li>
+                    <li>Grossesse</li>
+                    <li>Maladie inflammatoire pelvienne</li>
+</ul>
+                
+                <h2>Séquence d'examen (ordre obligatoire)</h2>
+                
+                <h3>1. Inspection</h3>
+                
+                <h4>État général du patient</h4>
+                <ul>
+                    <li>État de conscience</li>
+                    <li>Position antalgique
+                        <ul>
+                            <li>Position chien de fusil <span class="pathology">→ Pancréatite</span></li>
+                            <li>Recroquevillement <span class="pathology">→ Douleur intense/péritonisme</span></li>
+                        </ul>
+  </li>
+                    <li>Faciès douloureux</li>
+<ul>
+                    <li>Signes vitaux perturbés <span class="pathology">→ Ischémie mésentérique, grossesse extra-utérine, rupture anévrisme aortique, perforation digestive</span></li>
+</ul>
+                
+</ul>
+                <h4>Morphologie abdominale</h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Abdomen globuleux</strong> <span class="pathology">→ Épanchement, météorisme</span></li>
+                    <li><strong>Voussure localisée</strong> <span class="pathology">→ Hernie (ombilicale, épigastrique, cicatricielle, inguinale, fémorale)</span></li>
+                    <li><strong>Mouvements :</strong>
+                    <li><strong>Mouvements :</strong>
+</ul>
+  </li>
+<li>
+    <ul>
+                            <li>Respiratoires superficiels <span class="pathology">→ Douleurs abdominales</span></li>
+                            <li>Péristaltiques visibles</li>
+                            <li>Pulsatiles <span class="pathology">→ Anévrisme aorte abdominale</span></li>
+                        </ul>
+  </li>
+                
+</ul>
+                <h4>Éléments cutanés à rechercher</h4>
+                
+                <strong>Cicatrices chirurgicales <span class="figure-ref" onclick="scrollToFigure('fig3')">(voir Fig. 3)</span> :</strong>
+                <ul>
+                    <li>Incisions médianes/paramédianes <span class="pathology">→ Chirurgie exploratrice</span></li>
+                    <li>Incisions obliques point de McBurney <span class="pathology">→ Appendicectomie</span></li>
+                    <li>Incisions horizontales sus-pubiennes/Pfannenstiel <span class="pathology">→ Césarienne, grossesse extra-utérine</span></li>
+                    <li>Incisions subcostales droites <span class="pathology">→ Cholécystectomie</span></li>
+                    <li>Orifices de laparoscopie</li>
+                </ul>
+                
+                <strong>Lésions cutanées pathologiques :</strong>
+                <ul>
+                    <li><strong>Hématome péri-ombilical ou des flancs</strong> <span class="pathology">→ Pancréatite, rupture aortique, grossesse extra-utérine, coagulopathie</span></li>
+                    <li><strong>Veines dilatées (caput medusae)</strong> <span class="pathology">→ Hypertension portale (cirrhose, thrombose veines hépatiques/porte, insuffisance cardiaque, schistosomiase)</span></li>
+                    <li><strong>Angiomes stellaires</strong> <span class="pathology">→ Cirrhose (hyperoestrogénisme), grossesse</span></li>
+                    <li><strong>Vergetures pourpres</strong> <span class="pathology">→ Hypercorticisme</span></li>
+                    <li><strong>Ictère cutané et scléral</strong> <span class="pathology">→ Malaria, drépanocytose, syndrome de Gilbert, cirrhose, hépatite, cholédocholithiase</span></li>
+                    <li><strong>Gynécomastie</strong> <span class="pathology">→ Hyperoestrogénisme</span></li>
+                    <li><strong>Érythème palmaire, astérixis, main de Dupuytren</strong> <span class="pathology">→ Cirrhose</span></li>
+</ul>
+                
+                <h3>2. Auscultation <span class="figure-ref" onclick="scrollToFigure('fig3')">(voir Fig. 3)</span></h3>
+                
+                <p><strong>Important :</strong> Toujours ausculter AVANT percussion et palpation</p>
+                
+                <h4>Bruits intestinaux</h4>
+                <ul>
+                    <li><strong>Zones :</strong> 4 quadrants (zone douloureuse en dernier)</li>
+                    <li><strong>Normal :</strong> 5-34 bruits/minute (cliquetis, gargouillis)</li>
+                </ul>
+                
+                <strong>Pathologies associées :</strong>
+                <ul>
+                    <li><strong>Absence de bruits</strong> <span class="pathology">→ Iléus paralytique (post-chirurgie, pancréatite, péritonite, hypokaliémie)</span></li>
+                    <li><strong>Cliquetis métallique</strong> <span class="pathology">→ Iléus obstructif, occlusion (fécalome, tumeur, adhérences, brides)</span></li>
+                    <li><strong>Bruits augmentés</strong> <span class="pathology">→ Diarrhée, inflammation, transit accéléré</span></li>
+                    <li><strong>Borborygmes</strong> <span class="pathology">→ Péristaltisme exagéré</span></li>
+</ul>
+                
+                <h4>Recherche de souffles vasculaires</h4>
+                <ul>
+                    <li><strong>Souffle aortique</strong> <span class="pathology">→ Anévrisme aorte abdominale, dissection aortique, aortite (syphilis, salmonellose), sténose athéromateuse</span></li>
+                    <li><strong>Souffle iliaque</strong> <span class="pathology">→ Artériopathie oblitérante membres inférieurs, syndrome de Leriche</span></li>
+                    <li><strong>Souffle artères rénales</strong> <span class="pathology">→ Hypertension réfractaire</span></li>
+</ul>
+                
+                <h3>3. Percussion <span class="figure-ref" onclick="scrollToFigure('fig4')">(voir Fig. 4)</span></h3>
+                
+                <h4>Technique</h4>
+                <ul>
+                    <li>Percuter les 4 quadrants (zone douloureuse en dernier)</li>
+                </ul>
+                
+                <h4>Sons et pathologies associées</h4>
+                <ul>
+                    <li><strong>Matité</strong> <span class="pathology">→ Organe solide, liquide, masses, matières fécales</span></li>
+                    <li><strong>Matité déclive mobile <span class="figure-ref" onclick="scrollToFigure('fig5')">(voir Fig. 5)</span></strong> <span class="pathology">→ Ascite</span></li>
+</ul>
+                        <ul>
+                            <li>Origine transudative (gradient albumine ≥11 g/L) : Hypertension portale (cirrhose), insuffisance cardiaque, thrombose veine porte</li>
+                            <li>Origine exsudative (gradient <11 g/L) : Hypoalbuminémie, carcinose péritonéale, pancréatite, tuberculose</li>
+                            <li>Hémorragique : Carcinose péritonéale</li>
+                            <li>Infectieuse : Perforation digestive</li>
+                            <li>Chyleuse : Atteinte système lymphatique</li>
+                        </ul>
+  </li>
+<ul>
+                    <li><strong>Signe du flot <span class="figure-ref" onclick="scrollToFigure('fig6')">(voir Fig. 6)</span></strong> <span class="pathology">→ Confirme ascite</span></li>
+</ul>
+                
+                <h3>4. Palpation</h3>
+                
+                <h4>Palpation superficielle <span class="figure-ref" onclick="scrollToFigure('fig7')">(voir Fig. 7)</span></h4>
+                <ul>
+                    <li><strong>Technique :</strong> Main horizontale, pression légère (1-2 cm)</li>
+                    <li><strong>But :</strong> Détendre le patient, identifier zones sensibles</li>
+                </ul>
+                
+                <h4>Palpation profonde <span class="figure-ref" onclick="scrollToFigure('fig8')">(voir Fig. 8)</span></h4>
+                <ul>
+                    <li><strong>Technique :</strong> Deux mains superposées</li>
+                    <li><strong>But :</strong> Recherche masses, organomégalie</li>
+</ul>
+                
+                <strong>Pathologies associées aux masses :</strong>
+                <ul>
+                    <li><strong>Masse sus-pubienne tendue mate</strong> <span class="pathology">→ Globe vésical (pathologie prostatique, anticholinergiques, syndrome queue-de-cheval)</span></li>
+                    <li><strong>Masse pulsatile abdominale</strong> <span class="pathology">→ Anévrisme aorte abdominale</span></li>
+</ul>
+                
+                <h4>Recherche de péritonisme</h4>
+                <ul>
+                    <li><strong>Défense</strong> <span class="pathology">→ Péritonite (primaire : cirrhose ascitique; secondaire : perforation gastro-intestinale, infections gynécologiques)</span></li>
+                    <li><strong>Détente/rebond</strong> <span class="pathology">→ Irritation péritonéale</span></li>
+</ul>
+                
+                <h3>5. Manœuvres spéciales</h3>
+                
+                <h4>Pour appendicite</h4>
+                <ul>
+                    <li><strong>Point de McBurney positif <span class="figure-ref" onclick="scrollToFigure('fig9')">(voir Fig. 9)</span></strong> <span class="pathology">→ Appendicite</span></li>
+                    <li><strong>Signe du psoas positif <span class="figure-ref" onclick="scrollToFigure('fig10')">(voir Fig. 10)</span></strong> <span class="pathology">→ Appendice rétrocæcal inflammé</span></li>
+                    <li><strong>Signe de l'obturateur positif <span class="figure-ref" onclick="scrollToFigure('fig11')">(voir Fig. 11)</span></strong> <span class="pathology">→ Appendice inflammé</span></li>
+                    <li><strong>Signe de Rovsing positif</strong> <span class="pathology">→ Appendicite</span></li>
+                </ul>
+                
+                <h4>Pour cholécystite</h4>
+                <ul>
+                    <li><strong>Signe de Murphy positif</strong> <span class="pathology">→ Cholécystite</span></li>
+</ul>
+                
+                <h4>Palpation aorte abdominale <span class="figure-ref" onclick="scrollToFigure('fig12')">(voir Fig. 12)</span></h4>
+                <ul>
+                    <li><strong>Masse pulsatile</strong> <span class="pathology">→ Anévrisme</span></li>
+</ul>
+                
+                <h3>6. Examen spécifique des organes</h3>
+                
+                <h4>Foie</h4>
+                <strong>Palpation <span class="figure-ref" onclick="scrollToFigure('fig13')">(voir Fig. 13)</span> et technique du crochet <span class="figure-ref" onclick="scrollToFigure('fig14')">(voir Fig. 14)</span></strong>
+                <ul>
+                    <li><strong>Hépatomégalie</strong> <span class="pathology">→ Cirrhose, carcinome hépato-cellulaire, hépatite, néoplasie, maladies métaboliques</span></li>
+                </ul>
+                
+                <strong>Percussion <span class="figure-ref" onclick="scrollToFigure('fig19')">(voir Fig. 19)</span></strong>
+                <ul>
+                    <li>Ligne médio-claviculaire : 6-12 cm (normal)</li>
+                    <li>Ligne médio-sternale : 4-8 cm (normal)</li>
+</ul>
+                
+                <h4>Rate</h4>
+                <strong>Topographie <span class="figure-ref" onclick="scrollToFigure('fig15')">(voir Fig. 15)</span> et palpation <span class="figure-ref" onclick="scrollToFigure('fig16')">(voir Fig. 16)</span></strong>
+                <ul>
+                    <li><strong>Splénomégalie</strong> <span class="pathology">→ Hypertension portale, hémopathies, infections</span></li>
+</ul>
+                
+                <h4>Reins</h4>
+                <strong>Palpation <span class="figure-ref" onclick="scrollToFigure('fig17')">(voir Fig. 17)</span></strong>
+                <ul>
+                    <li><strong>Augmentation volume</strong> <span class="pathology">→ Tumeur, polykystose, hydronéphrose</span></li>
+</ul>
+                
+                <strong>Percussion loges rénales <span class="figure-ref" onclick="scrollToFigure('fig18')">(voir Fig. 18)</span></strong>
+                <ul>
+                    <li><strong>Douleur angle costo-vertébral</strong> <span class="pathology">→ Pyélonéphrite</span></li>
+</ul>
+                
+                <h3>7. Examen des orifices herniaires et zones inguinales</h3>
+                
+                <h4>Types de hernies <span class="figure-ref" onclick="scrollToFigure('fig20')">(voir Fig. 20)</span></h4>
+                <ul>
+                    <li><strong>Hernie directe</strong> : Protrusion à travers paroi abdominale</li>
+                    <li><strong>Hernie indirecte</strong> : Protrusion à travers canal inguinal</li>
+                    <li><strong>Hernie fémorale</strong> : Inférieure au canal inguinal</li>
+                </ul>
+                
+                <strong>Toucher inguinal chez l'homme <span class="figure-ref" onclick="scrollToFigure('fig21')">(voir Fig. 21)</span></strong>
+                
+                <h4>Complications</h4>
+                <ul>
+                    <li><strong>Hernie strangulée (sac pourpre/violacé/nécrosé)</strong> <span class="pathology">→ Urgence chirurgicale</span></li>
+                </ul>
+                
+                <h3>8. Examen anal et rectal</h3>
+                
+                <h4>Inspection péri-anale <span class="figure-ref" onclick="scrollToFigure('fig22')">(voir Fig. 22)</span></h4>
+                <p>Description selon cadrans horaires (12h = antérieur)</p>
+                
+                <strong>Pathologies associées :</strong>
+                <ul>
+                    <li><strong>Masses</strong> <span class="pathology">→ Abcès fistulisé ou non, marisque, papille anale hypertrophique, thrombose veineuse superficielle, hémorroïde, condylome, tumeur, kyste sacrococcygien</span></li>
+                </ul>
+                
+                <h4>Toucher rectal <span class="figure-ref" onclick="scrollToFigure('fig23')">(voir Fig. 23)</span></h4>
+                <strong>Pathologies prostatiques :</strong>
+                <ul>
+                    <li><strong>Masse douloureuse</strong> <span class="pathology">→ Prostatite</span></li>
+                    <li><strong>Masse élastique régulière</strong> <span class="pathology">→ Hypertrophie bénigne prostate</span></li>
+                    <li><strong>Nodule dur irrégulier</strong> <span class="pathology">→ Tumeur</span></li>
+</ul>
+                
+                <strong>Autres pathologies :</strong>
+                <ul>
+                    <li><strong>Douleur cul-de-sac Douglas (femme)</strong> <span class="pathology">→ Péritonite</span></li>
+                    <li><strong>Atonie sphinctérienne</strong> <span class="pathology">→ Syndrome queue-de-cheval</span></li>
+</ul>
+                
+                <div class="key-points-box">
+                    <h2>Points clés et erreurs à éviter</h2>
+                    
+                    <h3>Points essentiels</h3>
+                    <ul>
+                        <li>Toujours ausculter AVANT palpation/percussion</li>
+                        <li>Zone douloureuse examinée en dernier</li>
+                        <li>Réchauffer mains et stéthoscope</li>
+                        <li>Genoux fléchis pour détendre abdomen</li>
+                        <li>Observer le visage du patient pendant l'examen</li>
+                    </ul>
+                    
+                    <h3>Erreurs fréquentes</h3>
+                    <ul>
+                        <li>Oublier le drapage approprié</li>
+                        <li>Commencer par la zone douloureuse</li>
+                        <li>Palpation trop brusque</li>
+                        <li>Négliger l'inspection initiale</li>
+                        <li>Oublier les signes extra-abdominaux</li>
+</ul>
+                </div>
+                
+                <div class="urgent-box">
+                    <h2>Urgences médicales - Drapeaux rouges</h2>
+                    <ul>
+                        <li><strong>Défense abdominale</strong> <span class="pathology">→ Péritonite (urgence chirurgicale)</span></li>
+                        <li><strong>Hématémèse massive</strong> <span class="pathology">→ Hémorragie digestive haute</span></li>
+                        <li><strong>Masse pulsatile</strong> <span class="pathology">→ Anévrisme aorte abdominale</span></li>
+                        <li><strong>Douleur testiculaire aiguë</strong> <span class="pathology">→ Torsion testiculaire (détorsion <6h)</span></li>
+                    </ul>
+                </div>
+                
+                <div class="final-cards">
+                    <h2>Cartes de révision - Examen abdominal</h2>
+                    <div class="card-grid">
+                        <div class="card-item">
+                            <img src="../Fiches/RMS/Abdo/Abdo-carte_page-0001.jpg" alt="Carte de révision 1">
+                        </div>
+                        <div class="card-item">
+                            <img src="../Fiches/RMS/Abdo/Abdo-carte_page-0002.jpg" alt="Carte de révision 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sidebar with images -->
+            <div class="sidebar-images">
+                <div class="sidebar-figure" id="fig1">
+                    <img src="../Fiches/RMS/Abdo/FIG 1.jpg" alt="Division anatomique de l'abdomen en 9 régions" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 1 : Division anatomique de l'abdomen en 9 régions</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig2">
+                    <img src="../Fiches/RMS/Abdo/FIG 2.jpg" alt="Diagnostics différentiels par cadran abdominal" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 2 : Diagnostics différentiels par cadran abdominal</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig3">
+                    <img src="../Fiches/RMS/Abdo/FIG 3.jpg" alt="Cicatrices chirurgicales et points d'auscultation" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 3 : Cicatrices chirurgicales et points d'auscultation</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig4">
+                    <img src="../Fiches/RMS/Abdo/FIG 4.jpg" alt="Technique de percussion abdominale" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 4 : Technique de percussion abdominale</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig5">
+                    <img src="../Fiches/RMS/Abdo/FIG 5.jpg" alt="Matité déclive mobile" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 5 : Matité déclive mobile</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig6">
+                    <img src="../Fiches/RMS/Abdo/FIG 6.jpg" alt="Signe du flot" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 6 : Signe du flot</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig7">
+                    <img src="../Fiches/RMS/Abdo/FIG 7.jpg" alt="Palpation superficielle" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 7 : Palpation superficielle</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig8">
+                    <img src="../Fiches/RMS/Abdo/FIG 8.jpg" alt="Palpation profonde" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 8 : Palpation profonde</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig9">
+                    <img src="../Fiches/RMS/Abdo/FIG 9.jpg" alt="Point de McBurney" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 9 : Point de McBurney</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig10">
+                    <img src="../Fiches/RMS/Abdo/FIG 10.jpg" alt="Signe du psoas" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 10 : Signe du psoas</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig11">
+                    <img src="../Fiches/RMS/Abdo/FIG 11.jpg" alt="Signe de l'obturateur" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 11 : Signe de l'obturateur</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig12">
+                    <img src="../Fiches/RMS/Abdo/FIG 12.jpg" alt="Palpation aorte abdominale" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 12 : Palpation aorte abdominale</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig13">
+                    <img src="../Fiches/RMS/Abdo/FIG 13.jpg" alt="Palpation du foie" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 13 : Palpation du foie</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig14">
+                    <img src="../Fiches/RMS/Abdo/FIG 14.jpg" alt="Technique du crochet" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 14 : Technique du crochet</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig15">
+                    <img src="../Fiches/RMS/Abdo/FIG 15.jpg" alt="Topographie de la rate" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 15 : Topographie de la rate</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig16">
+                    <img src="../Fiches/RMS/Abdo/FIG 16.jpg" alt="Palpation de la rate" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 16 : Palpation de la rate</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig17">
+                    <img src="../Fiches/RMS/Abdo/FIG 17.jpg" alt="Palpation des reins" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 17 : Palpation des reins</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig18">
+                    <img src="../Fiches/RMS/Abdo/FIG 18.jpg" alt="Percussion loges rénales" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 18 : Percussion loges rénales</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig19">
+                    <img src="../Fiches/RMS/Abdo/FIG 19.jpg" alt="Percussion du foie" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 19 : Percussion du foie</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig20">
+                    <img src="../Fiches/RMS/Abdo/FIG 20.jpg" alt="Types de hernies" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 20 : Types de hernies</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig21">
+                    <img src="../Fiches/RMS/Abdo/FIG 21.jpg" alt="Toucher inguinal chez l'homme" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 21 : Toucher inguinal chez l'homme</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig22">
+                    <img src="../Fiches/RMS/Abdo/FIG 22.jpg" alt="Inspection péri-anale" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 22 : Inspection péri-anale</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig23">
+                    <img src="../Fiches/RMS/Abdo/FIG 23.jpg" alt="Toucher rectal" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 23 : Toucher rectal</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for image zoom -->
+    <div id="imageModal" class="image-modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="modalCaption" class="modal-caption"></div>
+    </div>
+    
+    <script>
+        function scrollToFigure(figId) {
+            const element = document.getElementById(figId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                element.style.animation = 'pulse 1s';
+                setTimeout(() => {
+                    element.style.animation = '';
+                }, 1000);
+            }
+        }
+        
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImg');
+            const modalCaption = document.getElementById('modalCaption');
+            
+            modal.style.display = 'block';
+            modalImg.src = img.src;
+            modalCaption.innerHTML = img.alt;
+        }
+        
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+        
+        // Close modal when clicking outside of it
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+        
+        // Add pulse animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes pulse {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.05); box-shadow: 0 0 20px rgba(52, 152, 219, 0.5); }
+                100% { transform: scale(1); }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>

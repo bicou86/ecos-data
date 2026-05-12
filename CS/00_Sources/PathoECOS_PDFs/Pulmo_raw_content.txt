@@ -1,0 +1,145 @@
+--- Page 1 ---
+Pneumologie : Pathologies fréquentes
+Tristan Born
+
+--- Page 2 ---
+Embolie Pulmonaire (EP) :
+• Cliniques: Aspécifique, toujours avec un EP derrière la têteen cas de douleurs thoraciques ou de dyspnée aiguë.
+Dyspnée(80%), tachypnée(70%), tachychardie(30%)
+Douleurs thoracique (60%), en général respiro-dépendant et parfois reproductible à la palpation. Toux(20%) et hémoptysie(15%).
+Parfois, présentation initiale sous forme de défaillance cardiaque avec syncopeet choc(10%).
+Souvent précédé d’une thrombose veineuse profonde : toujours la chercher à l’anamnèse !
+En cas de complication, possibilité de développer une insuffisance cardiaque droite et un infarctus pulmonaire.
+• Diagnostique: Pour exclure une EP, dosage des D-Dimère(pas de valeur pronostic positive). Si probabilité très test élevée, ne pasdoser
+les D-Dimères et aller directement à l’imagerie. Dosage de la TnTet du NT-proBNP, qui sont des signes de répercussion cardiaque et des
+marqueurs utilisé pour la stratification des patients. Gazométrie(PaO ) pour évaluer la gravité de l’atteinte. ECGpour le DD d’infarctus
+2
+et pour chercher des signes indirects de souffrance cardiaque droite et donc d’EP (onde P-sinusal, pattern SQ , inversion onde-Ten
+I III
+V1-V4 et BBD nouveau). Echocardiographie(idem).
+Le gold-standartpour le diagnostic formel d’EP est un CT thoracique injecté. Pour les patients stables, un scintigraphie
+ventilation/perfusion est également envisageable. Une recherche de TVP asymptomatique par sonographie duplex est envisageable et
+permet de renforcer l’hypothèse diagnostic (90% des embolies sont à points de départ des membres inférieurs).
+• Traitement: L’attitude dépend de la gravité de l’atteinte.
+Si EP fulminante : O ±Intubation, amine vaso-active, remplir et thrombolyserchimiquement.
+2
+Si EP sans défaillance cardiaque chez des patients stables : anticoagulation oraledurant 3 mois ou plus (éviter récidive).
+Si EP avec défaillance cardiaque sans choc : Recanalisationchimique (thrombolyse), endovasculaireou chirurgicale (thrombectomie).
+Hypertension artérielle pulmonaire (HTAP) :
+• Définition :Augmentation chronique de la tension artérielle pulmonaire (mPAP> 20mmHg) avec augmentation des résistances
+vasculaires veineuse (PVR > 3 UI).
+Cliniques: Insidieux. Dyspnéelentement progressive, fatigue, tachycardie, syncope.
+Signe d’insuffisance cardiaque droite: Turgescence VJE, odèmeMI, auscultation au galop, cyanose.
+Chercher des facteurs de risque pour augmenter la probabilité : IC gauche connue, embolie pulmonaire à répétition (trouble de la
+coagulation, splénectomie…), maladie pulmonaire chronique (BPCO, fibrose interstitielle, sarcoïdose).
+• Diagnostique: Laboratoire (NT-proBNP),
+ECG:signe hypertrophie VD → déviation axe vers la droite, transition précoce en V1-V2, Sokolow-Lyon >1.05 mV
+ECG: dilatation OD →onde-P pulmonaire
+L’échocardiographieest l’examen de choix en cas de suspicion : permet d’approximer la mPAPet d’évaluer la fonction VD.
+Cathétérismecardiaque droit : Confirmation du diagnostic d’HTAP, aide au diagnostique étiologique.
+• Traitement: Oxygénothérapieà domicile, médicament vasodilatateur (antagonistes des récepteurs de l'endothéline, inhibiteur PDE-5,
+Analogue-Prostacycline). Traitement causal.
+
+--- Page 3 ---
+Asthme :
+• Définition :Maladie chronique découlant d’une hyperréactivité de l’arbre bronchique à divers stimulus, provoquant une dyspnée et une
+toux sèche. Caractérisé par une fonction pulmonaire ‘normale’ entrecoupée de crise. On distingue l’asthme allergique (déclenché par
+un allergène) de l’asthme non-allergique (déclenché par l’effort, des irritants, des RGO, la prise d’aspirine). Formes mixtes fréquentes.
+• Cliniques: Épisode limité dans le temps de dyspnée avec stridors expiratoireset prolongation de l’expirium. Souvent accompagné de
+toux sèches et de tachychardie. En général, crise en lien avec une exposition environnemental.
+• Diagnostique: Fonction pulmonaireavec syndrome obstructif (rapport de Tieffeneau[VEMS/CVF] abaissé).
+Réversibilité sous SABA avec augmentation de la VEMS de 200mLetde 12%, ou péjoration après test de provocation à la métacholine.
+• Traitement: Si crise grave : SABA+ StéroïdeIV + O /VNI/Intubation ±Sulfate de magnésium
+2
+Traitement de fond avec un bronchodilatateur (LABA/SABA, LAMA, théophylline, LTRA) + corticostéroïde inhalé (Budenoside)
+BPCO:
+• Définition :Inflammation et obstruction des voies aériennes secondaires à une expositions chroniques à des irritants bronchiques
+(tabac, pollution de l’air, déficit en α1-AT, infection chronique). L’inflammation et le remaniement conduisent à une augmentation
+des résistances, la formation d’emphysème et une inadéquation du rapport ventilation/perfusion (effet espace-mort, ↓Ventillation
+alvéolaire) entraînantune hypoxémie et une hypercapnie chronique. Risque de décompensations « aigüe sur chronique » si des
+infections se surajoutent au tableau.
+• Cliniques: Toux grasse chronique, dyspnéeet tachypnée, prolongation de l’expirium, thorax en tonneau (hyperinflation), cyanoseet
+hippocratisme digital. À la percussion, augmentation du tympanismeet diminution du murmure vésiculaire à l’auscultation.Parfois,
+signes d’insuffisance cardiaque droite (‘cœur pulmonaire’) avec œdème des MI, turgescences jugulaires externe et hépatomégalie.
+Garder les deux phénotypes possibles en tête(‘Pink Puffer’, cachéxiqueavec surtout de l’emphysème et une hypercapnie versusle
+‘Blue bloater’ avec surtout une bronchite chronique, une toux chronique et des oedèmes).
+• Diagnostique: Mise en évidence d’un syndrome obstructif à la spirométrie (diminution de la VEMS pour une CVF normale). Le
+syndrome obstructif n’est pas réversible (ou en tous cas pas totalement) après inhalation de SABA ou de SAMA.
+À la plethysmographie, on observe une augmentation de la capacité pulmonaire totale (« air trapping» à cause de l’emphysème).
+Dûà la fibrose et au remaniement, il y a fréquemment une diminution de la DL qui participe à l’hypoxémie.
+CO
+Labo à la recherche d’une polycéthmiesecondaire (↑Érythrocyte) et d’un déficit en α1-AT.
+ECG: signe indirect d’hypertrophie ventriculaire droite (cor pulmonale).
+La Rxthorax et le CTne sont pas nécessaire pour poser le diagnostic (permettent exclure DD) : hyperinflation, ‘cœur pulmonaire’, emphysème
+• Traitement: Traitement de fond avec vaccination(pneumocoque, influenza) pouddiminuer le risque de sur-infectiongrave,
+Cessation des toxiques environnementaux, screeningrégulier contre la dépression, l’ostéoporose, les MCV et le cancer du poumon.
+TT pharmacologique : principalement sur des bronchodilatateurs ± CSI (éosinophilie > 300 cellules/μL, asthme)
+Oxygénothérapie de Longue Durée (>15h/jour) si hypoxémie chronique.
+Les interventions possibles incluent la bullectomieet la réduction de volume pulmonaire (pour lutter contre l’emphysème).
+o En cas de décompensation : bronchodilatateurs + stéroïdeIV ±VNI/Intubation ±AB empirique (si 2/3 critère de Anthonisen)
+
+--- Page 4 ---
+Pneumonie :
+• Définition :On parle de pneumoniecommunautaireen cas de maladie acquise dans la communauté ou < 48h après admission à
+l’hôpital, et de pneumonienosocomialesi le patient est tombé malade >48h après l’admission.
+D’un point de vue sémiologique, on distingue également les pneumoniestypiques(corrélat radiologique : pneumonie lobaire) des
+pneumoniesatypiques(corrélat radiologique : pneumonie interstitielle). Chaque présentation clinique à une épidémiologie
+microbiologique différentes, permettant de choisir au mieux une antibiothérapie empirique.
+• Cliniques:
+o Pneumonietypique: Début aigüecaractérisé par un EF, des frissons et une toux productive. Auscultation anormale, parfois matité à la
+percussion dans le lobe infecté (OAP lésionnel).
+o Pneumonie atypique : Début insidieux, pas/peu de fièvre, toux sèche et ausculation/percussion sans particularité.
+• Diagnostique: Signes cliniques compatible + Rx-Thorax
+Éventuellement: Culture d’expectoration, hémo-culture, testrapide urinaire,
+Laboavec signes d’inflammation et éventuellement de défaillance d’organe (sepsis: Cr, Bilirubine, Thrombocytes + PaO2),
+CT-scanner, ponctionde liquide pleurale en cas d’épanchement,bronchoscopieavec LBA à visée diagnostic, PCR/Culture pour la Tb…
+• Traitement: Traitement empirique ou sur la base des tests rapides. En fonction de l’état clinique et des germes suspectés.
+Évaluer et re-évaluerle besoin d’une hospitalisation (âge, FR, PAM, confusion) et les effets de l’AB empirique (à 48h).
+• Pneumoniecommunautairenon-hospitalisé : Amoxicilline POou co-amoxicilline PO
+Pneumonie communautaire hospitalisé sans FR pour Pseudomonas : Co-amoxicilneou Ceftriaxone IV
+Pneumoniecommunautairehospitalisé avec FR Pseudomonas : Céfépime(C4G) ou Pip-tazoIV
+Si sévère (VNI, sepsis, soins continus ou intensifs) : Ajouter AzithromycineIV(même sans suspicion germe atypique)
+Si compliqué d’un choc : Ajouter Amikacine IV
+Pneumothorax:
+• Définition :Accumulation d’air dans l’espace pleurale, avec rupture de la plèvre viscérale uniquement (pneumothorax fermé) ou des
+plèvres viscérale et pariétale (pneumothorax ouvert). On distingue également les pneumothorax en fonction de leur éthologie :
+o Spontané: idiopathique(85%) ou secondaireà une maladie pulmoniare(15%)
+o Traumatique(en général pneumothorax ouvert)
+o Iatrogène(après une ponction pleurale, une pose de cathéter sub-clavière)
+• Cliniques: Apparition brutale de dyspnéeavec tachypnéeet dyspnéeavec douleurs thoracique. Chercher des facteurs de risque :
+Pneumothorax secondaire→ BPCO avec emphysème > Asthme, pneumopathie interstitielle, cancer du poumon, pneumonie…
+Pneumothorax idiopathique→Jeune homme fumeur, mince et grand (Marfanoïde)
+• Diagnostique: Percussion(thorax hyper-sonore), auscultation(diminution/absence de murmure vésiculaire), mouvement respiratoire
+asymétrique. Confirmation par US(signe du code-barre, perte du ‘signe de la plage’), Rx-Thorax
+• Traitement:
+Pneumothorax engendrant peu de symptôme=> résolution spontanéeou ventilleravec air sans N2 (‘dénitrogénisé’),
+Pneumothorax compressif ou engendrant dyspné(+) => Pose d’un drain thoracique
+
+--- Page 5 ---
+Sarcoïdoseaigüe :
+• Définition :La sarcoïdoseest une maladie multisystémiqueauto-immune d’origine indéterminée, caractérisé par une inflammation
+granulomateuse non caséeuse touchant principalement les ganglions et les poumons, mais pouvant impliquer tous les organes.
+Présentation aigüe(en général spontanément résolutive après quelques années, 10% des cas) ou chronique(90%).
+La sarcoïdose aigüe peut se présenter sous la forme d’un syndrome de Löfgren(fréquent) ou de Heerfordt(rarement).
+• Syndrome de Löfgren
+o Clinique: se caractérise par la présence d’un EF avec la triade suivante:
+Érythème noueux + adénopathie bi-hilaire + arthrite migrante (cheville).
+Diagnostique: En général, sur la base de la clinique (arthrite, érythème noueux) et d’une Rxthorax.
+o Traitement : Gestion des douleurs articulaires avec des AINS±de la colchicine.
+En général, excellent pronostic avec 90% de rémission à 2 ans
+o Syndrome de Heerfordt:
+Caractérisé par la triade suivante :Parotidite+ Paralysie faciale périphérique + Uvéite
+Sarcoïdosechronique:
+• Cliniques:
+Développement insidieuxd’une fatigue avec perte de poids et état sub-fébrile, d’une dyspnéeaccompagné d’une touxsècheet de
+douleurs thoracique (symptôme pulmonaire dans 95% des cas). Parfois, développement de symptômes touchant d’autres organes :
+Cutanée(25%) : lupus pernio, plaques ou nodules violacées, érythème noueux
+Oculaire (20%) : Uvéite, rétinite, conjonctivite, calcification
+Hépatique(10%) : Élévation des transaminases
+Neuro-sarcoïdose (10%) : Méningite lymphocytaire, paralysie faciale, insuffisance hypophysaire
+• Diagnostique: Clinique + biopsie de ganglion touchés (en général médiastinaux) + exclusion d’autres maladies granulomateuse.
+Laboratoire: élévation du calcium (sécrétion de PTH-rp), élévation du s.IL-2.Ret de l’ACE
+LBA: Augmentation du rapport CD4+/CD8+ (LTh1 nécessaire à la constitution de granulome)
+Fonction pulmonaire : syndrome obstructif ourestrictif, diminution de la DL.CO
+• Traitement: CS oraux en cas de décompensation respiratoire, tt de fond immunosuppresseur.
+

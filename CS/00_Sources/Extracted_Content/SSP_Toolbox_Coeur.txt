@@ -1,0 +1,1544 @@
+15
+Cœur
+Rappel anatomique
+Circulation
+
+Crosse de l’aorte
+V. cave supérieure
+
+Oreillette gauche
+Oreillette droite
+Valve mitrale
+VG
+VD
+
+Valve aortique
+Valve pulmonaire
+Valve tricuspide
+V. cave inférieure
+
+A. circonflexe (CX)
+
+Artère
+Organes
+internes 405
+Tronc commun gauche (TC)
+coronaire
+gauche
+
+Valve tricuspide
+V. cave inférieure
+
+Réseau artériel coronarien
+
+A. circonflexe (CX)
+Tronc commun gauche (TC)
+
+Artère
+coronaire
+gauche
+
+A. interventriculaire
+antérieure (IVA)
+A. coronaire droite (CD)
+
+L’artère coronaire gauche perfuse la plus grande partie du cœur : la
+paroi latérale gauche via la circonflexe (CX) ainsi que la paroi antérieure du ventricule gauche, le septum et la face inférieure via l’interventriculaire antérieure (IVA). L’artère coronaire droite contribue
+à la perfusion du VG de manière variable, essentiellement pour
+la paroi postéro-inférieure et le septum basal. L’artère coronaire
+droite (CD) irrigue par ailleurs la paroi latérale du cœur droit ainsi
+que l’oreillette droite et le nœud atrio-ventriculaire.
+
+Activité électrique du cœur
+L’activité électrique normale du cœur prend son origine au niveau
+de l’oreillette droite dans le nœud sinusal (1). Elle se transmet par
+dépolarisation cellulaire de l’oreillette droite (2), puis à l’oreillette
+gauche (3) puis au nœud atrio-ventriculaire (4) où elle rejoint les
+faisceaux de His (5) comme dans le schéma ci-dessus avant de
+transmettre son impulsion aux ventricules (6). Après un temps
+réfractaire, les ventricules se repolarisent (7), terminant le cycle
+cardiaque.
+
+406
+
+15 cœur
+1.
+
+3.
+2.
+
+Nœud sinusal
+
+4.
+Nœud AV
+Faisceau de His
+
+5.
+
+6.
+
+R
+7.
+2.
+1.
+
+3.
+
+T
+4. 5.
+
+7.
+
+P
+S
+
+Q
+
+temps
+P < 100 ms
+6.
+PR 120-200 ms
+
+QT < 440 ms
+
+QRS 60-120 ms
+
+Organes internes
+
+407
+
+Anamnèse cardiologique
+Angor et douleurs thoraciques
+Caractéristiques des douleurs
+55Qualité : sensations « désagréables » plutôt que « douloureuses », constrictives, brûlantes, oppressantes, en « barre thoracique », « comme dans un étau », etc.
+55Localisation, irradiations : rétrosternale, irradiant dans les
+deux membres supérieurs, la mâchoire, la région épigastrique,
+le dos
+55Durée, résolution : 2-10 minutes, disparition à l’arrêt de l’effort
+(ou autres facteurs déclenchants), 1-5 minutes après l’administration de nitrés
+55Facteurs déclenchants : efforts (marche accélérée, à la
+montée, contre le vent, par temps froid, en période postprandiale), surtout le matin (seuil douloureux diminué), stress mental
+Par définition
+55Angor typique
+–– caractère et circonstances typiques (voir ci-dessus)
+–– probabilité de maladie coronarienne ≥ 90 %
+55Angor atypique
+–– caractère ou circonstances atypiques
+–– probabilité de maladie coronarienne d’environ 50 %
+55Douleurs thoraciques atypiques
+–– ni caractère ni circonstances typiques
+–– probabilité de maladie coronarienne < 10 %
+
+408
+
+15 cœur
+Localisation et irradiation
+
+Interscapulaire
+•• Infarctus du myocarde
+•• Douleurs
+musculo-squelettiques
+•• Vésicule biliaire
+•• Pancréas
+Rétrosternale
+•• Infarctus du myocarde
+•• Péricardite
+•• Douleurs
+œsophagiennes
+•• Dissection aortique
+•• Lésion médiastinale
+•• Embolie pulmonaire
+Épaule
+•• Infarctus du myocarde
+•• Douleurs cervicales/
+dorsales
+•• Syndrome du défilé
+thoracique
+•• Vésicule
+
+Bras
+•• Infarctus du myocarde
+•• Péricardite
+•• Abcès
+sous-diaphragmatique
+•• Pleurésie
+•• Douleurs cervicales
+•• Douleurs
+musculo-squelettiques
+•• Syndrome du défilé
+thoracique
+Épigastrique
+•• Infarctus du myocarde
+•• Péricardite
+•• Œsophagite
+•• Estomac /duodénum
+•• Pancréas
+•• Vésicule biliaire
+•• Foie
+•• Pneumonie/pleurésie
+
+Hypocondre gauche
+•• Névralgie intercostale
+•• Embolie pulmonaire
+•• Myosite
+•• Pneumonie/pleurésie
+•• Infarctus splénique
+•• Abcès
+sous-diaphragmatique
+•• Traumatismes
+Hypocondre droit
+•• Vésicule biliaire
+•• Foie
+•• Abcès
+sous-diaphragmatique
+•• Pneumonie/pleurésie
+•• Estoma/duodénum
+•• Embolie pulmonaire
+•• Myosite
+•• Traumatismes
+
+Organes internes
+
+409
+
+Palpitations
+55Sensation de cœur qui bat « trop vite » ou « trop fort »
+55Conditions d’apparition : à l’effort, au repos, lors d’un changement de position, situations de stress, consommation de drogues, café, tabac
+55Durée des symptômes : battement isolé vs persistance pendant plusieurs minutes/heures
+55Symptômes associés : flush, état fébrile, sudations, perte de
+poids, diarrhées, etc.
+Dyspnée
+Sensation désagréable de difficulté respiratoire. À noter que la
+dyspnée est un symptôme. La dyspnée est donc subjective et
+décrite par le patient. Il ne s’agit pas d’un signe. En cas d’augmentation de la fréquence respiratoire (N ≥ 15/min), on parle de
+tachypnée et, en cas de tirage, de détresse respiratoire.
+Types selon les circonstances
+55Dyspnée d’effort : présente lors de l’effort physique
+55Dyspnée de repos aiguë : dyspnée d’apparition brutale, au
+repos. Il peut par exemple s’agir d’un symptôme isolé d’embolie pulmonaire
+55Dyspnée paroxystique nocturne : survient après quelques
+heures de sommeil. Elle est très suggestive d’une insuffisance
+cardiaque gauche
+55Orthopnée : présente en position couchée, soulagée par la surélévation du tronc
+55Platypnée : présente en position assise, apaisée en position
+couchée
+Classification New York Heart Association (NYHA)
+I. Absence de dyspnée
+II. Dyspnée lors d’efforts inhabituels (par exemple marche en
+montée ou rapide)
+III. Dyspnée lors d’efforts habituels (« quotidiens »)
+IV. Dyspnée de repos (lors d’efforts minimes tels que parler, se
+brosser les dents, etc.)
+
+410
+
+15 cœur
+Œdèmes des membres inférieurs
+55Uni- vs bilatéraux vs anasarque (œdème généralisé avec
+œdèmes diffus, ascite, épanchement pleural, épanchement
+péricardique et parfois hydrocèle chez l’homme)
+55Évolution (nycthémérale)
+55Symptômes associés : dyspnée, nycturie, ictère, dermite ocre,
+symptômes d’urémie (perte d’appétit, dysgueusie, perte de
+poids, confusion, troubles de la concentration, fatigue, etc.)
+Nycturie
+55Quantité d’urine nocturne (par définition, la nycturie est une
+quantité d’urine nocturne supérieure à la quantité diurne)
+55Nombre de mictions par nuit
+55Symptômes associés (pathologie urogénitale) : symptômes de
+stockage (pollakiurie, urgences mictionnelles, algurie), symptômes de vidange (pression pour uriner, latence, sensation de
+résidu postmictionnel, affaiblissement du jet)
+Cyanose
+55Centrale : langue et périphérie – causée par un shunt droitgauche ou par une insuffisance pulmonaire sévère
+55Périphérique : extrémités, lèvres – causée par un débit artériel
+fortement diminué ou une vasoconstriction veineuse périphérique
+
+Syncope
+55Perte de connaissance brusque, sans prodrome
+55Conditions : à l’effort, au repos, à la toux, lors d’un changement
+de position, etc.
+55Évaluer la durée de la syncope. En général, pas de convulsion,
+pas d’incontinence urinaire ni morsure de langue
+55Après la crise : amnésie et confusion passagères (quelques
+minutes)
+55Évaluer sil s’agit dune syncope unique ou d’épisodes multiples
+(dans ce cas : nombre d’épisodes et fréquence)
+N.B. Dans le cas de la sténose aortique, la syncope se produit
+typiquement lors d’un effort.
+
+Organes internes
+
+411
+
+Antécédents et habitudes de vie
+55Anamnèse familiale d’hypertension, de maladies cardio-vasculaires, de morts subites
+55Antécédent de maladies cardiaques et/ou métaboliques (dyslipidémie, diabète)
+55Tabagisme (actif, passif, antécédents – à quantifier en UPA
+[nombre de paquets consommés par jour × nombre d’années
+depuis le début de la consommation – par exemple : 1 paquet
+par jour depuis 40 ans = 40 UPA])
+55Habitudes alimentaires
+55Activité sportive
+55Activité professionnelle
+55Situation de famille
+Conclusions intermédiaires
+55Estimation du degré de probabilité d’un problème cardiaque
+55De la gravité de la maladie cardiaque suspectée
+55Du degré d’urgence – suspicion d’infarctus
+
+Examen clinique cardiologique
+Observation
+Aspects généraux
+55Comportement, surtout en présence de douleurs : patient
+calme, agité, en position antalgique. Apparence et corpulence :
+poids, taille, tension artérielle (TA)
+55Aspect de la peau : pâleur, cyanose (voir ci-dessus)
+Tête et cou
+55Œdème de la face afin de considérer le diagnostic différentiel
+d’une rétention hydrique généralisée (syndrome néphrotique,
+myxœdème) ou localisée (syndrome de la veine cave supérieure par exemple)
+55Examen de la bouche à la recherche dune cyanose centrale
+(lèvres et langue)
+
+412
+
+15 cœur
+55Pouls veineux jugulaire (PVJ) (se mesure sur un patient semiassis, tronc à 45° avec le plan du lit)
+–– Différencier la veine jugulaire interne (qui passe sous le
+muscle sterno-cléido-mastoïdien) de la veine jugulaire
+externe (superficielle) et de l’artère carotide. Le pouls veineux est très rarement palpable. Ce dernier est aboli par
+la pression des doigts et a un caractère biphasique. Il est
+modifié par la position (augmenté en position couchée) et la
+respiration (augmenté à l’expirium)
+–– Une fois la veine jugulaire interne visualisée, trouver l’inclinaison du lit qui permet de visualiser le sommet de la
+colonne de sang dans la veine. Mesurer la distance verticale entre ce sommet de la colonne de sang et le sternum
+et ajouter 5 cm à cette mesure (le cœur se trouve à environ
+5 cm du bord supérieur du sternum, B). On obtient ainsi une
+approximation en cmH2O de la pression veineuse jugulaire
+(PVJ)
+–– Limite supérieure : 9 cmH2O
+
+Veine jugulaire interne D
+
+A
+
+Tronc brachiocéphalique D
+B = 5 cm H2O
+
+PVJ = A + B
+
+Organes internes
+
+413
+
+Extrémités
+55Cyanose périphérique
+55Clubbing ou hippocratisme digital (ongles en verre de montre) :
+cette modification anatomique est une conséquence à long
+terme de la cyanose centrale, en lien avec une cardiopathie
+congénitale ou une pneumopathie avec hypoxie
+55Nodules d’Osler : lésions cutanées violacées, sensibles à la
+palpation, visibles à la pulpe des doigts, sur la paume des
+mains et la plante des pieds. Ils sont causés par des microemboles septiques lors d’une endocardite
+55Œdèmes des membres inférieurs : uni- vs bilatéraux.
+Recherche du signe du godet
+55Thorax et abdomen :
+–– Fréquence et type de respiration (voir « Pneumologie »)
+–– Forme du thorax : en tonneau (emphysème, BPCO, cœur
+pulmonaire), pectus excavatum (thorax en entonnoir – éventuellement syndrome de Marfan), pectus carinatum (thorax
+en carène – éventuellement syndrome de Marfan)
+–– Pouls de Corrigan : pouls bondissant, qui provoque une
+« pulsation » de la tête, du cou et/ou des extrémités supérieures. Typique de l’insuffisance aortique sévère (synonyme
+de homo pulsans ou signe de Musset)
+
+Palpation
+Prise des pouls périphériques
+55Être attentif à la fréquence cardiaque, à sa régularité et à l’intensité du pouls
+55Localisations :
+–– Carotidien (en avant du muscle sterno-cléido-mastoïdien,
+sous l’angle mandibulaire)
+–– Sous-clavier (en arrière de la clavicule)
+–– Axillaire (dans le creux axillaire)
+–– Brachial (pli du coude, à l’intérieur du tendon du muscle
+biceps)
+–– Radial (face interne du poignet, entre le tendon fléchisseur
+radial du carpe et le radius)
+
+414
+
+15 cœur
+–– Cubital (parallèlement au pouls radial,
+au niveau de la dépression en dessous
+de l’os piriforme)
+–– Fémoral (dans le sillon inguinal, aux
+deux tiers d’une ligne imaginaire depuis
+la crête iliaque antéro-supérieure à la
+symphyse pubienne)
+–– Poplité (profondément dans la partie
+externe du creux poplité, avec le genou
+en position fléchie)
+–– Tibial postérieur (derrière la malléole
+interne)
+–– Pédieux (entre le premier et le deuxième
+métatarse – nombreuses variantes)
+55Pouls hyper-/hypokinétique : d’amplitude
+augmentée ou diminuée.
+55Pulsus parvus et tardus : pouls faible et
+retardé. Typique de la sténose aortique
+sévère
+55Pouls bisférien : présence de deux pulsations durant la systole. Peut s’observer dans la cardiomyopathie hypertrophique obstructive
+55Pouls dicrote : présence d’une pulsation durant la systole,
+suivie d’une deuxième en diastole. Se voit dans les situations
+de débit cardiaque diminué associé à une résistance périphérique élevée. Également dans les situations avec résistance
+périphérique diminuée (sepsis)
+55Pulsus alternants : alternance de pulsations fortes et faibles.
+Causé par une dysfonction systolique
+55Pouls paradoxal : exagération de la diminution de pression artérielle lors de l’expirium (on tolère jusqu’à 10 mmHg lors de la
+mesure par sphygmomanomètre). Peut se rencontrer dans les
+cas de tamponnade, et plus rarement, chez les patients atteints
+de péricardite constrictive chronique ou d’emphysème
+Pour le mesurer, on commence par gonfler le brassard jusqu’à
+la disparition du pouls brachial. On diminue ensuite progressivement la pression (environ 2 mmHg par battement cardiaque),
+
+Organes internes
+
+415
+
+jusqu’à l’apparition des battements durant l’expirium et on note
+ce premier chiffre. Ensuite, on continue à dégonfler le brassard
+jusqu’à ce que les sons soient audibles durant tout le cycle
+respiratoire. La différence entre ces deux valeurs ne doit pas
+excéder 10 mmHg
+Thorax et abdomen
+55Choc de pointe : se palpe sur la ligne médio-claviculaire
+gauche. On décrit l’intensité du choc, ses dimensions (élargi,
+« en dôme ») et sa localisation. Il est déplacé à gauche et/ou
+augmenté en intensité en cas d’hypertrophie ou/et de dilatation
+ventriculaire gauche sévère (par exemple sur insuffisance aortique et cardiomyopathie dilatée). Au contraire, il est atténué en
+cas d’épanchement péricardique important
+55Soulèvement sternal lors de la palpation avec la paume de la
+main (sternal heave ou sternales Heben ou encore signe de
+Harzer) (CAVE : confusion avec une simple pulsation palpée
+dans le creux épigastrique !), diagnostic d’une surcharge du
+cœur droit
+55Frémitus : se recherche en appliquant la main à plat sur le
+thorax à la base (sternum) et à l’apex. Sa présence est un
+signe de cardiopathie valvulaire sévère ou de communication
+interventriculaire
+55Aorte abdominale : se palpe au niveau du creux épigastrique et
+dans la région périombilicale. Une aorte abdominale de taille augmentée (« trop facilement palpable ») est suspecte d’anévrisme
+55Hépatomégalie, splénomégalie ± ascite
+55Reflux hépato-jugulaire : avec le patient semi-assis de manière
+à rendre la veine jugulaire interne facilement visualisable (voir
+ci-dessus « Pouls veineux jugulaire »). Exercer une pression
+ferme avec les deux mains au niveau de l’hypocondre droit
+durant 10-30 secondes. Le test est normal s’il entraîne une
+élévation brève (moins de 15 secondes) et limitée (moins de
+3 cmH2O) de la colonne de sang dans la veine. Dans le cas
+contraire, il faut suspecter une dysfonction cardiaque droite ou/
+et globale, une valvulopathie tricuspidienne ou une péricardite
+constrictive
+
+416
+
+15 cœur
+Auscultation
+
+Technique d’auscultation
+55S’effectue dans un lieu calme, avec un patient à torse nu
+55On commence en décubitus dorsal et on ausculte tour à tour
+les 5 foyers (voir ci-dessous)
+55On poursuit en décubitus latéral gauche et on ausculte
+le foyer mitral
+55On termine en position assise
+55Durant l’auscultation, on sera attentif : au rythme du cœur, à sa
+régularité, aux bruits physiologiques (présence et intensité) et à
+la présence de souffles et de bruits surajoutés (voir ci-dessous)
+Foyers d’auscultation
+Foyer aortique
+(2e EIC parasternal droit)
+Foyer pulmonaire
+(2e EIC parasternal gauche)
+Foyer d’Erb
+(3e EIC parasternal gauche)
+Foyer mitral
+(5e EIC au niveau de la ligne
+médio-claviculaire)
+Foyer tricuspide
+(5e EIC parasternal droit)
+
+Autres points à ausculter
+55Les zones intermédiaires (en fonction des observations initiales).
+55La paroi thoracique gauche et le creux axillaire gauche, à la
+recherche dune irradiation des souffles mitraux
+55Les carotides, à la recherche de sténoses carotidiennes et
+dune irradiation des souffles aortiques
+N.B. L’auscultation pulmonaire garde toute son importance pour
+l’examen cardio-vasculaire, en particulier pour la recherche d’une
+stase pulmonaire ou de zones d’hypoventilation.
+
+Organes internes
+
+417
+
+Bruits cardiaques physiologiques
+En conditions normales, on entend les bruits suivants à l’auscultation cardiaque :
+55B1 : correspond au début de la systole avec la fermeture des
+valves atrio-ventriculaires (valves mitrale et tricuspide) et la
+contraction du myocarde. Il est maximal à l’apex, sourd et grave
+À noter que la fermeture de la valve mitrale précède celle de la
+valve tricuspide.
+55B2 : correspond à la fin de la systole, il est produit par la fermeture des valves aortique et pulmonaire (la valve aortique se
+ferme avant la valve pulmonaire). Ce bruit est plus sec que le
+B1, il est maximal à la base cardiaque et marque le début de la
+diastole
+N.B. En cas de tachycardie, la distinction entre B1 et B2
+est rendue plus difficile.
+Chez le sujet jeune, l’enfant et la femme enceinte, on peut
+entendre un troisième bruit, le B3, dans le silence suivant le
+B2. Ce bruit est habituellement peu intense et sourd, et correspond à la phase active (initiale) de remplissage du ventricule
+gauche. Dans les cas où il est physiologique, le B3 disparaît en
+général en position debout. En cas de B3 « pathologique », on
+parle de galop protodiastolique (voir ci-dessous).
+Phénomènes pathologiques
+Anomalies des bruits cardiaques
+55Éclat de B1 : audible à l’apex et au point d’Erb (mésocarde).
+Caractéristique de la sténose mitrale
+55Éclat de B2 : audible aux foyers aortique ou pulmonaire.
+Signe d’hypertension artérielle systémique ou pulmonaire,
+respectivement
+55Assourdissement des bruits : fréquent en cas d’obésité, d’emphysème, d’épanchement pleural ou péricardique, d’insuffisance cardiaque congestive et d’infarctus du myocarde
+55Assourdissement du B1 : insuffisance mitrale
+55Assourdissement du B2 : sténose aortique ou pulmonaire
+55Dédoublement de B1 et B2 : bloc de branche
+
+418
+
+15 cœur
+55Dédoublement de B2 : physiologique à l’inspirium ou fixe en
+cas de communication interauriculaire
+
+Les bruits surajoutés principaux
+Bruits systoliques
+55« Clic » éjectionnel : claquement protosystolique lors de l’ouverture des valves aortique et pulmonaire, en particulier en présence d’une bicuspidie aortique ou d’une sténose pulmonaire
+55« Clic » mitral : claquement mésotélésystolique aigu, causé
+par des anomalies des cordages dans le cas du prolapsus de
+cette valve
+Bruits diastoliques
+55Galop : bruit diastolique sourd, s’intercalant entre les bruits
+physiologiques – donnant ainsi un rythme à 3 temps – traduisant un problème fonctionnel du ventricule gauche
+–– Protodiastolique = galop B3 : en début de diastole, sur remplissage initial rapide dans un ventricule gauche pathologique (insuffisance ventriculaire gauche)
+–– Télédiastolique = galop B4 : en fin de diastole, sur remplissage terminal rapide (trouble de la compliance, par exemple
+en cas d’HTA sévère)
+–– De sommation B3/B4 : en milieu de diastole (diagnostic
+d’une insuffisance cardiaque généralement décompensée)
+–– Galop droit : audible au foyer tricuspide : il traduit une insuffisance ventriculaire droite
+55Claquement d’ouverture mitrale : bruit sec, audible à l’apex, au
+début de la diastole, signant une sténose mitrale
+Souffles cardiaques
+55La présence d’un souffle à l’auscultation correspond à la présence de turbulences ou d’un flux laminaire pathologiquement
+accéléré au passage d’une valve, causée soit par une valvulopathie (sténose ou insuffisance valvulaire) ou par un obstacle
+(cardiomyopathie obstructive, sténose membraneuse sous-aortique), soit dans les cas d’augmentation du flux sanguin (haut
+débit) à travers une valve normale (par exemple en cas de
+grossesse, anémie ou thyrotoxicose), ou chez les enfants et les
+jeunes individus en bonne santé (souffle fonctionnel)
+
+Organes internes
+
+419
+
+Marche à suivre en cas de souffle
+55Chercher le foyer où le souffle est maximal (ce qui permet en
+général de déterminer l’origine du souffle)
+55Déterminer si le souffle est systolique ou diastolique
+55Déterminer si le souffle occupe toute (holo-), le début (proto-),
+le milieu (méso-) ou la fin (télé-) de la systole/diastole
+55Déterminer l’intensité du souffle : sur une échelle – subjective – de 1 à 6 ; 1 correspondant à un souffle très léger, à peine
+perceptible, 4 à un souffle à l’origine aussi d’un frémitus et 6 à
+un souffle audible même sans stéthoscope
+55Déterminer le timbre du souffle : de haute fréquence acoustique en cas d’insuffisance mitrale ou tricuspidienne, râpeux en
+cas de sténose et sclérose aortique
+55Chercher une éventuelle irradiation : dans les carotides en cas
+de sténose aortique, au bord parasternal gauche en cas d’insuffisance aortique, vers le creux axillaire gauche en cas d’insuffisance mitrale, vers la clavicule gauche en cas de sténose
+pulmonaire
+
+Souffle fonctionnel en l’absence de valvulopathie
+55Fréquents chez le sujet jeune, ils sont souvent situés entre la
+base cardiaque et les bords du sternum. Ils sont peu irradiants
+et se situent tôt dans la systole. Ils sont sensibles aux changements de position ; ils diminuent en position debout et lors de
+la réalisation d’une manœuvre de Valsalva et ne sont jamais
+associés à un frémitus à la palpation
+Les principaux souffles pathologiques
+55Secondaires à des anomalies anatomiques
+55Constants, situés à un foyer spécifique et irradiant dans une
+direction précise
+55S’accompagnent fréquemment d’un frémitus à la palpation (si
+d’intensité 4/6)
+
+420
+
+15 cœur
+Systoliques
+55Sténose aortique : souffle méso- ou holosystolique, en « diamant », audible au foyer aortique, avec irradiation dans les
+carotides, rude et râpeux, associé à une diminution, voire disparition, du B2
+
+B1
+
+B2
+
+55Insuffisance mitrale : souffle mésotélésystolique ou holosystolique, de haute fréquence acoustique, allant crescendo et atteignant toujours le B2, mieux audible au foyer mitral et irradiant
+souvent dans le creux axillaire gauche, s’accompagnant d’une
+diminution du B1
+55Insuffisance tricuspidienne : souffle semblable audible au
+« foyer tricuspidien »
+55Communication interventriculaire : souffle holosystolique
+râpeux, d’intensité constante au cours de la systole, souvent
+très localisé (en regard du jet du shunt), souvent associé à un
+frémitus
+55Cardiomyopathie obstructive (CMO) : souffle râpeux, de type
+éjectionnel débutant après un intervalle libre après le B1, augmentant lors de la manœuvre de Valsalva
+55Sténose valvulaire pulmonaire : souffle éjectionnel, souvent
+râpeux, associé à un clic protosystolique, audible au « foyer
+pulmonaire »
+55Communication interauriculaire : souffle éjectionnel au foyer
+pulmonaire associé à un dédoublement constant de B2 (voir
+« Dédoublement de B2 »)
+Diastoliques
+55Insuffisance aortique : souffle audible le long du bord gauche
+du sternum et au « foyer aortique ». Il est de haute fréquence
+acoustique, d’intensité apparemment plus faible que les souffles systoliques, son intensité diminue durant la diastole. Sa
+durée est inversement propositionnelle à la gravité de la régurgitation, ce qui fournit un moyen rudimentaire pour la quantifier.
+Dans l’insuffisance aortique au moins modérément sévère, on
+
+Organes internes
+
+421
+
+perçoit un souffle éjectionnel reflétant le volume éjecté augmenté. On explique parfois un tel souffle par le passage d’un
+volume sanguin « pendulaire » à ne pas confondre avec un souffle
+de sténose aortique. Dans les cas d’insuffisance aortique sévère,
+le souffle diastolique est accompagné d’un galop (expression
+d’une dilatation et insuffisance contractile du ventricule gauche)
+55Roulement de rétrécissement mitral : de très basse fréquence
+acoustique, comme un « grondement » au loin, audible à l’apex,
+surtout en décubitus latéral gauche. Débute par un claquement
+d’ouverture (voir ci-dessous) et se renforce jusqu’à la fin de la
+diastole
+Changement d’ouverture
+
+B1
+
+B2
+
+55Roulement tricuspide : s’entend surtout au niveau du processus
+xiphoïde. Signe de sténose tricuspide (similaire au roulement
+de rétrécissement mitral)
+Frottement péricardique
+55Phénomène (« bruit ») superficiel, « près de la membrane du
+stéthoscope », plus ou moins fort, en « crissement de cuir neuf »
+55Très localisé et sans irradiation
+55Typiquement aux deux temps
+55Persiste en apnée, parfois augmenté lors de l’inspiration
+55Est diagnostique de la péricardite « sèche » (dans un contexte
+de péricardite aiguë, d’infarctus du myocarde ou d’insuffisance
+rénale chronique)
+Conclusions cliniques
+55Présence d’une anomalie à l’examen clinique ?
+55Gravité de la situation ?
+55Examens complémentaires ?
+55Consultation spécialisée ?
+55Degré d’urgence ?
+
+422
+
+15 cœur
+Lecture systématique de l’ECG
+Dérivations
+L’électrocardiogramme est l’enregistrement de l’activité électrique
+du cœur (dépolarisation-repos-repolarisation). Les variations de
+ces potentiels d’action dans le temps donnent un tracé qui peut
+être analysé selon deux plans :
+Plan frontal
+55Les dérivations périphériques sur les
+bras et les jambes (I, II, III – dérivations
+bipolaires et aVR, aVL, aVF – dérivations unipolaires) analysent l’activité
+Plan
+électrique du cœur dans le plan frontal
+horizontal
+55Les dérivations précordiales, unipolaires, analysent l’activité électrique du
+cœur dans le plan horizontal
+N . B . Le s électrode s périphérique s
+peuvent aussi être appliquées à la racine
+des membres.
+L’électrocardiogramme se pratique en position couchée, le patient
+étant au repos sur un support sans contact avec des sources
+électriques. Il existe des moyens mnémotechniques pour se souvenir de l’ordre de branchement des électrodes sur le schéma du
+corps humain. Pour les dérivations périphériques côté droit en
+anglais Red = Right et à gauche Yellow = Left et pour les membres
+gauches on dit que
+Dérivations précordiales
+le « soleil brille sur la Dérivations périphériques
+Ligne médio-claviculaire
+prairie » (bras jaune
+et cheville verte). Le
+noir (N) correspond
+au « neutre » élecV1 V2
+trique qui se place D = R
+V4
+G=L
+V6
+sur la cheville droite.
+Po ur l e s d é rivations précordiales il
+est important de bien
+compter les repères
+N
+P
+Ligne médio-axillaire
+thoraciques. V1 et
+
+Organes internes
+
+423
+
+V2 se placent de chaque côté du
+sternum dans le 4 e espace intercostal (EIC), le 2e EIC étant palpable
+sous le bord interne de la clavicule.
+V4 est placé dans le 5 e EIC, sur la
+II
+III
+ligne médio-claviculaire gauche. V3
+aVL
+aVR
+est placé au milieu de la ligne V2-V4.
+V6 est placé dans le 6 e EIC, sur la
+ligne médio-axillaire, V5 est placé
+exactement entre V4 et V6.
+Les dérivations V7 à V9 se placent
+au 5 e EIC, postérieurement (V7 à la
+aVF
+ligne axillaire postérieure ; V8 à la
+pointe de l’omoplate et V9 entre V8 et les épineuses). On ne les
+enregistre que dans certaines situations (recherche d’un infarctus
+postérieur – voir ci-dessous).
+Chaque dérivation permet d’analyser l’activité électrique dans
+une partie du cœur :
+55I, aVL, V5 et V6 explorent le ventricule gauche
+55II, III et aVF explorent la paroi diaphragmatique du ventricule
+gauche
+55V3 et V4 explorent la paroi antérieure du ventricule gauche
+55aVR explore l’intérieur des cavités
+55V1 et V2 explorent le ventricule droit
+55V1, V2, V3, V4 explorent le septum interventriculaire
+55V4 explore la pointe du cœur (apex du ventricule gauche)
+
+Tracé électrique de base
+R
+T
+
+U
+
+P
+Q S
+
+Le tracé électrique de base comporte dans l’ordre les ondes P,
+QRS, T et U.
+
+424
+
+15 cœur
+Systématique
+N.B. L’ECG reflète avant tout les événements électriques au
+niveau du ventricule gauche. À ce titre, on parle parfois de « laevogramme » ou « lévogramme ».
+1. Analyse de la qualité du tracé
+
+Questions clés
+55Vérifier le nom du patient
+55Vérifier la date de naissance du patient
+55Vérifier la date denregistrement
+55Vérifier la vitesse de déroulement du tracé (normalement
+25 mm/sec)
+55Vérifier l’amplitude de l’enregistrement du tracé : pour l’étalonnage, le stylet au début de l’enregistrement doit faire 1 cm
+(deux grands carrés). Ainsi, un petit carré correspond à 0,1 mV
+et un grand carré à 0,5 mV
+55Vérifier que toutes les dérivations ont été enregistrées
+55Vérifier la qualité du tracé à la recherche d’artéfacts
+Exemple
+55Tracé avec ligne de base parasitée (lit électrique avec mauvaise mise à terre par exemple)
+
+image mauvaise
+
+2. Détermination de l’axe du cœur
+
+Diagramme d’Einthoven
+Les différences de potentiel électrique entre les trois points (D),
+(G) et (P) définissent approximativement les trois directions d’un
+triangle équilatéral dans le plan frontal (diagramme d’Einthoven)
+et permettent de définir l’axe électrocardiographique d’une onde
+dans ce plan. Les dérivations aVL, aVR et aVF s’obtiennent de
+
+Organes internes
+
+425
+
+manière similaire. Les dérivations I et aVF étant de direction perpendiculaire, elles permettent de définir dans lequel des quatre
+quadrants l’onde étudiée a sa composante positive.
+Plan frontal
+aVR
+–150°
+
+aVL
+–30°
+0°
+
++120°
+III
+
++90°
+aVF
+
++60°
+II
+
+55Quadrant inférieur gauche en gris (axe normal) :
+QRS positif en I et aVF
+55Quadrant supérieur gauche (axe « gauche ») :
+QRS positif en I, négatif en aVF
+55Quadrant inférieur droit (axe « droit ») :
+QRS négatif en I, positif en aVF
+Une fois défini l’axe au moyen des dérivations I et aVF, vérifier la
+cohérence avec les autres dérivations. Par exemple, une onde
+isoélectrique signifie une direction perpendiculaire à l’axe de l’onde
+
+Exemple
+
+image mauvaise
+
+426
+
+L’onde QRS est positive
+dans les dérivations I, II
+et aVL. La dérivation la
+plus positive étant I, l’axe
+vaut approximativement 0°
+car le complexe QRS est
+négatif en aVR et isoélectrique en aVF.
+
+15 cœur
+Autre méthode de détermination de l’axe du cœur
+Regarder la composante plutôt positive ou négative du complexe
+QRS en I, II et III :
+55Complexe QRS positif en I, II et III : axe moyen (0-90°)
+55Complexe QRS positif en I et II, négatif en III :
+axe normal-gauche (0-30°)
+55Complexe QRS positif en I, négatif en II et III :
+axe hypergauche (< –30°)
+55Complexe QRS positif en III, négatif en I et II :
+axe hyperdroit (> 120°)
+3. Détermination de la fréquence cardiaque
+Lorsque le tracé défile à la vitesse de 25 mm/seconde, chaque
+petit carré de 1 mm représente 40 ms (0,04 seconde) et chaque
+grand carré (constitué de cinq petits carrés) vaut donc 200 ms
+(0,2 seconde).
+Dans ce cas, la fréquence cardiaque peut être évaluée grossièrement en démarrant sur un complexe QRS et en comptant le
+nombre de paquets de 5 carrés unitaires et en énumérant la suite
+suivante à chaque paquet « 300 – 150 – 100 – 75 – 60 – 50 ». La
+fréquence cardiaque correspond au chiffre de la suite qui tombe
+sur le prochain complexe QRS.
+Exemple : distance entre deux complexes  départ – 300 –
+150 – 100 (valeur approximative de la fréquence cardiaque).
+
+image mauvaise
+
+Dans le cas présent fréquence à environ 70/minute.
+
+Organes internes
+
+427
+
+4. Onde P
+L’onde P correspond à la dépolarisation des oreillettes, elle dure
+normalement < 100 ms.
+
+Questions clés
+55Y a-t-il des ondes P ?
+55Quelle est la forme des ondes P ?
+55Quel est laxe des ondes P ?
+55Rechercher des ondes P cachées dans le QRS ou dans le segment ST-T
+55Répondre à la question : « tout complexe QRS est-il précédé
+d’une onde P » ?
+On parle d’un rythme sinusal lorsqu’il existe des ondes P positives
+en I et II, et négatives en aVR. Par ailleurs, on dit que ce rythme est
+conduit si chaque onde P est suivie d’un complexe QRS.
+En sachant que l’oreillette gauche est dépolarisée après l’oreillette droite, on reconnaîtra deux morphologies pathologiques de
+l’onde P :
+55Onde P signant une hypertrophie de loreillette droite : onde
+« P pulmonaire », de grande amplitude, son sommet étant précoce (truc mnémotechnique : dromadaire = droite)
+R
+T
+
+U
+
+P
+Q S
+
+55Onde P signant une hypertrophie/dilatation de loreillette
+gauche : onde P bifide à sommet tardif en II et AVL, biphasique
+avec une deuxième partie négative de > 1 mm durant 40 ms
+en V1 (truc mnémotechnique : chameau = gauche)
+R
+T
+P
+Q S
+
+428
+
+U
+
+15 cœur
+N.B. Avant de déclarer qu’il n’existe pas d’onde P, examiner attentivement toutes les dérivations et rechercher une onde P rétrograde cachée dans le complexe QRS-T. Une activité auriculaire
+désordonnée se traduisant par une ligne isoélectrique « tremblée »
+avec un rythme irrégulièrement irrégulier signe une fibrillation auriculaire. Cette situation est à différencier du tracé de base parasité
+qui n’est pas accompagné d’une altération du rythme cardiaque.
+V1
+
+5. Intervalle PR
+L’intervalle PR est l’intervalle de temps séparant l’activation auriculaire de l’activation ventriculaire.
+
+Questions clés
+55Quelle est la durée de lintervalle PR/PQ ?
+55La durée de lintervalle PR/PQ est-elle constante ou croît-elle ?
+55Les ondes P sont-elles toutes suivies d’un complexe QRS ?
+55Existe-t-il un bloc atrio-ventriculaire ?
+L’intervalle PR ou PQ mesure au maximum 200 ms. On le mesure
+depuis le début de l’onde P au début du complexe QRS. Au-delà
+de cette limite, on parle de bloc atrio-ventriculaire (voir ci-dessous
+« Blocs atrio-ventriculaires »).
+6. Complexe QRS
+Le complexe QRS correspond à l’activation ventriculaire en
+trois temps : activation du septum, activation des parois libres, activation des régions postéro-basales.
+
+Questions clés
+55Le complexe QRS est-il fin ou large ?
+55Tous les complexes sont-ils précédés par une onde P ?
+55Y a-t-il des ondes Q pathologiques ? (donc une activation
+ventriculaire initiale anormale)
+
+Organes internes
+
+429
+
+La durée de l’onde Q normale ne doit pas excéder 40 ms et son
+amplitude ne doit pas dépasser 25 % de celle de l’onde R. Dans le
+cas contraire, il faut suspecter une nécrose myocardique aiguë ou
+une cicatrice de nécrose.
+Le complexe QRS dure normalement de 80 ms à ≤ 120 ms.
+Devant tout complexe excédant 120 ms, on parle de bloc de
+branche (voir ci-dessous « Blocs de branche »).
+7. Segment ST et onde T
+Le segment ST et l’onde T correspondent à la repolarisation
+ventriculaire.
+
+Point J
+55À lintersection entre la fin du QRS et le début du segment ST
+Point J
+Segment PQ
+
+55Habituellement isoélectrique (par rapport au segment PQ)
+55Utilisé pour quantifier un sus-décalage du segment ST
+55Un sus-décalage du point J peut être physiologique chez
+Point J
+Point J
+lhomme, surtout chez le sportif
+(ou plus rarement chez la
+femme) en cas de repolarisation précoce
+(voir
+Segment
+PQ ci-dessous
+« Diagnostic différentiel électrocardiographique du syndrome
+coronarien »)
+
+Questions clés
+55Le point J (« jonction ») est-il isoélectrique ?
+55Si le point J est sus-décalé :
+–– Quelle est la forme dominante
+(concave ou convexe) ?
+–– Quelle est lamplitude du sus-décalage
+(voir « STEMI » pour les critères
+de surélévation du ST) ?
+–– Dans quelles dérivations ?
+
+430
+
+Point J
+
+15 cœur
+55Si le point J est sous-décalé :
+–– Quelle est lamplitude du sous-décalage ?
+–– Dans quelles dérivations ?
+La digoxine provoque une inversion de l’onde T et une dépression
+oblique descendante du ST.
+
+8. Onde T
+
+Questions clés
+55Quelle est la morphologie des ondes T ?
+55La déflection des ondes T est-elle positive ou négative ?
+L’onde T a normalement la même direction de déflection que le
+complexe QRS (QRS et T concordants). Elle est négative en aVR
+et est positive de V2 à V6. Une onde T négative en V1 est considérée comme normale.
+9. Onde Q
+L’onde Q correspond à la dépolarisation initiale du ventricule.
+
+Questions clés
+55Quelle est la morphologie des ondes Q ?
+55Quelle est leur durée ?
+55Quelles sont leur amplitude et leur localisation ?
+Une onde Q de < 40 ms est physiologique dans certaines dérivations (I, II, III, aVL, V5 et V6).
+Une onde Q de plus de 40 ms, > 0,1 mV (ou plus de 30 % de
+l’onde R) et visible dans deux (ou plus) dérivations adjacentes est
+suspecte de nécrose transmurale. À noter que l’onde Q persiste
+une fois formée. Dès lors, il n’est pas possible de différencier une
+onde Q de nécrose aiguë d’une séquelle d’infarctus uniquement
+par l’ECG.
+
+Organes internes
+
+431
+
+10. Intervalle QT
+Se définit par l’intervalle entre le début de la dépolarisation (début
+du QRS) et la fin de la repolarisation (fin de l’onde T).
+À noter que la valeur du QT varie en fonction de la fréquence
+cardiaque, raison pour laquelle on utilise une mesure standardisée,
+le QTcorrigé (QTc). On le calcule comme suit, selon la formule de
+Bazett :
+55QT corrigé : QT (ms)/√RR (sec).
+55Le QTc ne doit pas excéder 440 ms chez les hommes
+et 450 ms chez les femmes.
+RR
+
+QT
+
+Questions clés
+55Quelle est la valeur du QTc ?
+55Le QTc est-il prolongé ?
+11. Autres ondes et anomalies
+Microvoltages : amplitude du complexe PQRST < 0,5 mV dans les
+dérivations frontales et < 1 mV dans les précordiales. Causes : tamponnade, erreur de calibration, obésité, BPCO, cardiopathie restrictive, cardiomyopathie dilatée sévère, hypothyroïdie.
+
+« Spikes » de stimulateur cardiaque (pacemaker)
+Spikes de pacemaker
+
+432
+
+15 cœur
+Troubles de la conduction
+Blocs atrio-ventriculaires (BAV)
+BAV du 1er degré
+Lorsque toutes les ondes P sont conduites mais qu’il existe un
+allongement constant de l’intervalle PR au-delà de 200 ms, on
+parle de bloc atrio-ventriculaire du 1er degré.
+BAV du 2e degré
+55Type Mobitz I (Wenckebach) : dans ce cas, il existe une
+conduction variable avec un allongement du PR d’un complexe
+à l’autre avant une onde P complètement bloquée.
+
+55Type Mobitz II : dans ce cas, l’activité auriculaire régulière n’est
+conduite qu’une fois sur deux, on parle alors d’un type 2/1, ou
+une fois sur 3, donc un type 3/1, etc.
+
+BAV du 3e degré
+Un bloc est dit du « 3e degré », lorsqu’il y a un bloc de conduction
+atrio-ventriculaire complet, c’est-à-dire qu’il n’y a plus de connexion
+entre ondes P et complexes QRS. Il s’agit d’une dissociation
+atrio-ventriculaire. Un foyer automatique vicariant prend alors la
+commande du cœur. On nomme ce rythme un « rythme d’échappement ». Ce dernier est habituellement lent.
+L’aspect électrique classique est celui d’une dissociation AV
+complète avec des QRS plus ou moins larges et une fréquence
+d’échappement plus ou moins rapide selon la hauteur du foyer
+
+Organes internes
+
+433
+
+de dépolarisation. Selon la fréquence et l’aspect du QRS (fin vs
+large), on peut déterminer le site du foyer d’échappement (proximal
+vs distal, respectivement).
+
+Chez les jeunes avec un BAV, exclure une syphilis, une borréliose
+et une sarcoïdose, le bloc atrio-ventriculaire du 3e degré peut être
+congénital. Chez les patients plus âgés, considérer un infarctus ou
+une cause médicamenteuse (entre autres bêta-bloqueurs – gouttes
+oculaires –, amiodarone, digoxine).
+
+Blocs de branche (blocs en aval du faisceau de His)
+Bloc de branche droit (BBD)
+L’axe du cœur est normal ou dévié à droite
+Lorsque le bloc est complet, le QRS
+est large (> 120 ms)
+Image en rSR’ en V1.
+
+rsR’
+
+rsR’
+N.B. Penser au syndrome de
+Brugada en prérsR’
+sence d’un BBD associé à une anamnèse
+de syncopes chez un patient avec une anamnèse familiale
+positive.
+rS
+
+Bloc de branche gauche (BBG)
+L’axe du cœur estrsR’
+normal ou dévié à gauche
+Lorsque le bloc est complet, le QRS
+est large (> 120 ms)
+rsR’
+Onde QS ou rS en
+V1-V2 (voir ci-contre)
+Image en « M » en V6 (voir ci-contre)
+
+rS
+rS
+«M»
+«M»
+
+«M»
+N.B. Un BBG est toujours
+pathologique et impose
+d’exclure un syndrome
+rS
+coronarien aigu (un BBD d’apparition récente
+aussi !). Par ailleurs, il rend difficile, voire imposrS
+sible, l’interprétation complète de l’ECG.
+«M»
+
+434
+
+«M»
+
+15 cœur
+Hémibloc antérieur gauche
+
+rS
+
+rS
+L’axe du cœur est dévié à gauche
+Le QRS est fin, plus grand en aVL qu’en V1 et est négatif
+dans les dérivations inférieures.
+On note une activation tardive dans la région latérale haute
+«M»
+du ventricule gauche «M»
+(retard de la déflexion intrinsèque en
+AVL par rapport à V6).
+Présence d’une onde S en V6
+
+Hémibloc postérieur gauche
+L’axe du cœur est dévié à droite
+Le QRS reste fin
+
+Anomalie du rythme cardiaque
+Extrasystoles
+Battement ectopique précoce, survenant avant l’impulsion sinusale. Sa morphologie est différente de celle des autres complexes
+de l’ECG.
+Extrasystole auriculaire (ESA) : l’onde P est différente de l’onde P
+d’origine sinusale.
+ESA
+ESA
+
+Extrasystole jonctionnelle (ESJ) : pas d’onde P, QRS plutôt fin.
+Foyer originaire du nœud atrio-ventriculaire ou au niveau du faisESJ
+ceau de His. Se voit, entre autres, dans les intoxications aux digitaliques, dans les infarctus du myocarde et en cas d’hypokaliémie.
+ESJ
+
+ESV
+
+Organes internes
+ESV
+
+435
+
+Extrasystole ventriculaire (ESV) :
+55Pas d’onde P, QRS large
+55À retard gauche ou droit, en fonction de leur morphologie
+(semblable aux blocs de branche)
+55Monomorphe ou polymorphe : terme utilisé en présence de
+plusieurs ESV sur un même tracé ECG. Il s’agit alors de déterminer si elles sont toutes de morphologie similaire (ESV monoESA
+morphes) ou non (on parle alors d’ESV polymorphes)
+55Fréquences : les ESV apparaissent en général de manière
+irrégulière. Toutefois, en présence d’une extrasystole après
+chaque complexe sinusal, on parle de bigéminisme. Si une
+ESV se retrouve après deux complexes sinusaux, on parle de
+trigéminisme
+ESJ
+
+Bradyarythmies
+Bradycardie sinusale
+
+ESV
+
+Caractéristiques
+55Onde P sinusale
+55Lintervalle RR est prolongé (fréquence cardiaque < 60 bpm)
+55Causes : tonus vagal, vomissements, maladie du sinus (avec
+alternance d’épisode de bradycardies et de tachycardies, soit
+tachycardie sinusale, FA ou flutter auriculaire), hypertension
+intracrânienne, hypothyroïdisme, hypothermie, médicamenteux
+(bêta-bloqueurs, anticalciques)
+55DD : BAV du 2e et du 3e degré. À noter qu’en présence d’une
+fréquence cardiaque très abaissée (au-dessous des 40 bpm),
+une bradycardie sinusale est peu probable
+
+436
+
+15 cœur
+Tachyarythmies régulières
+Tachycardie à QRS fins
+55Tachycardie sinusale : rythme sinusal > 100 bpm. Causes
+nombreuses :
+–– Physiologique : activation sympathique (stress), exercice
+­physique, altitude
+–– Substances : caféine, nicotine, médicaments (bêta-adrénergiques, anticholinergiques)
+–– Extracardiaques : anémie, hypovolémie, état fébrile, thyréotoxicose, choc, embolie pulmonaire
+–– Cardiaques : infarctus du myocarde
+55Tachycardie nodale (jonctionnelle) : sur foyer ectopique au
+niveau du nœud AV (ou : de la région jonctionnelle). Onde P
+noyée dans le QRS, ou juste à la fin de celui-ci. La cadence
+est rapide et régulière, en général autour des 180 et 200 bpm.
+Le succès des manœuvres vagales confirme le diagnostic
+
+55Syndrome de Wolff-Parkinson-White : connexion supplémentaire entre l’oreillette et le ventricule (faisceau de Kent), dont la
+vitesse de conduction excède celle de la connexion normale.
+Intervalle PR court (< 120 ms) associé à des QRS élargis en
+raison de la présence d’une onde delta
+Onde
+Onde
+deltadelta
+
+< 120
+PR <PR
+120
+ms ms
+
+Organes internes
+
+437
+
+Tachycardies à QRS larges
+55Tachycardie ventriculaire (TV) :
+–– Absence d’ondes P. Complexes QRS élargis et légèrement
+irréguliers en fréquence et en forme
+–– Monomorphe ou polymorphe
+–– Ondes de fusion ou de capture :
+Fusion : transmission d’une activité auriculaire, au moment
+où la dépolarisation des ventricules vient de débuter. On
+trouve alors sur l’ECG un complexe QRS de morphologie
+intermédiaire, dans la mesure où son origine est à la fois
+supraventriculaire et ventriculaire.
+Capture : transmission d’une activité auriculaire normale
+sous forme d’un complexe fin isolé. Se produit lorsque l’activité auriculaire survient juste au moment où les ventricules
+sont sortis de leur phase réfractaire.
+55Tachycardie supraventriculaire (TSV) avec aberration de
+conduction : diagnostic différentiel de la TV. Pour le médecin
+de premier recours, il faut considérer que jusqu’à preuve du
+contraire, une tachycardie à QRS large est une TV. Pour aller
+plus loin, il existe des critères diagnostiques pour aider à la
+différenciation de ces deux troubles. Pour simplifier : une TV
+vraie est caractérisée par un axe hypergauche ou hyperdroit
+et la présence d’ondes Q en V6. Par ailleurs, le résultat des
+manœuvres vagales renseigne également sur l’origine du
+trouble. L’algorithme de Brugada qui permet de préciser le diagnostic comporte quatre questions :
+–– En absence d’au moins un complexe avec morphologie RS
+dans les précordiales, il s’agit d’une TV
+–– En cas d’intervalle RS > 100 ms dans au moins une dérivation précordiale, il s’agit d’une TV
+–– En cas de dissociation atrio-ventriculaire visible, il s’agit
+d’une TV
+–– La dernière regroupe des critères morphologiques complexes diagnostiques pour une TV qui doivent être présents
+à la fois en V1-V2 et V6. Lorsqu’il y a un doute à ce stade,
+un avis cardiologique est recommandé
+
+438
+
+15 cœur
+55Torsades de pointe : sur QT long (voir « Troubles électrolytiques
+et anomalies du QT »)
+
+55Fibrillation ventriculaire (FV) : ondes chaotiques. Événement
+terminal si pas de défibrillation. Il s’agit de la cause la plus fréquente de mort subite
+Tachyarythmies irrégulières
+
+Tachycardie à QRS fins
+55Fibrillation auriculaire (FA) :
+55Rythme irrégulièrement irrégulier
+55Fréquence habituellement entre 100 et 180 bpm
+55La ligne de base est perturbée
+
+55Flutter auriculaire :
+55Fréquence typiquement de 300 ou 150 bpm (si conduction 1 : 2)
+55Image en toits d’usine (en II, III et aVF)
+
+Organes internes
+
+439
+
+Maladie coronarienne
+Stades de l’ischémie
+55Ischémie
+–– sous-épicardique (onde T inversée dans les dérivations reflétant le territoire touché)
+–– sous-endocardique (augmentation de l’amplitude de londe T
+dans le territoire touché)
+55Lésion : ischémie plus sévère mais encore réversible :
+–– stade 1 : aspect normal avec ST isoélectrique
+–– stade 2 : sus-décalage ST débutant avant la fin du QRS
+–– stade 3 : sus-décalage plus important débutant au tiers supérieur du QRS
+–– stade 4 : sus-décalage très important débutant au sommet du
+QRS, l’onde T n’est plus individualisable (onde monophasique)
+55Nécrose :
+–– Infarctus du myocarde avec destruction anatomique et électrique dune partie du myocarde
+Ces trois expressions de l’insuffisance coronarienne (ischémie,
+lésion, nécrose) coexistent très souvent chez le patient réel !
+
+STEMI (ST Elevation Myocardial Infarction)
+55Onde Q pathologique
+55Altérations significatives du segment ST-T
+dans deux (ou plus) dérivations contiguës,
+≥ 0,2 mV (2 mm) en V2-V3 (≥ 0,25 mV
+chez les hommes de > 40 ans, ≥ 0,15 mV
+chez les femmes), 0,1 mV dans toutes les
+autres dérivations
+55Onde de Pardee : convexe, en forme
+de « pierre tombale », rendant le point J parfois difficilement
+identifiable
+N.B. La persistance d’une surélévation ST à long terme est suspecte d’un anévrisme ventriculaire.
+
+440
+
+15 cœur
+NSTEMI (cf. tableau 1)
+55Sus-décalage ST transitoire dans deux (ou plus) dérivations
+contiguës selon critères mentionnés ci-dessus
+55Ou sous-décalage ST ≥ 0,05 mV (0,5 mm) dans deux (ou plus)
+dérivations contiguës
+55Ou inversion des ondes T ≥ 0,1 mV (1 mm) dans deux (ou plus)
+dérivations contiguës
+55Ondes T de grande amplitude
+
+Diagnostic différentiel électrocardiographique
+du syndrome coronarien
+55Embolie pulmonaire : déviation axiale droite, aspect en S1q3.
+55Péricardite : quatre phases :
+1. Sus-décalage ST diffus (maximum en II, V4 et
+V5), de forme concave et ascendante, hormis
+aVR et V1 ; PR descendant
+2. Retour à la normale des segments ST et PR
+3. Inversion diffuse des ondes T
+4. Normalisation de l’ECG
+À noter que le point J reste facilement identifiable. Pas d’image
+en miroir.
+55Repolarisation précoce : fréquente chez les hommes jeunes.
+Sus-décalage du point J bien marqué.
+
+Hypertrophies
+Hypertrophie ventriculaire gauche (HVG)
+55De nombreux critères, scores et indices sont disponibles
+(indice de Sokolow-Lyon et indice de Cornell, score dEstesRomhilt). Leur point commun à tous est une très faible à faible
+sensibilité et une bonne à très bonne spécificité. Le score le
+plus utile pour le clinicien est celui d’Estes-Romhilt qui tient
+compte non seulement de laugmentation de la masse ventriculaire (donc de lamplitude et de la configuration du QRS),
+mais aussi des conséquences de lHVG en amont (dilatation
+de l’oreillette gauche : voir « Onde P ») et en aval, troubles
+
+Organes internes
+
+441
+
+442
+
+T plate, biphasique ou négative
+
+•• Sous-épicardique
+
+I, aVL, V5-6
+sus-décalage ST
+
+souvent associée à une
+nécrose inférieure, grande
+onde R en V1
+
+NB Les trois expressions de l’insuffisance coronarienne (ischémie, lésion, nécrose) coexistent très souvent chez le patient réel ! Il existe
+un nombre élevé de chevauchements entre les localisations schématisées ci-dessus.
+Adapté de : J.-J. Goy et J. Schlaepfer.
+
+Postérieure
+
+QS ou QR en V1-6
+QS ou QR en II, III, aVF
+
+II, III, aVF : sus- ou sous-décalage ST
+
+Inférieure
+
+QS ou QR en V5-6, I, aVL
+
+Q en V3-4
+
+Antérieure étendue
+
+II, III, aVF
+
+Nécrose
+
+V1-3 (px V4) : sus- ou sous-décalage ST QS en V1-3, px V4
+
+segment ST
+
+Lésion
+
+•• Sous-endocardique onde T ample, symétrique, pointue, positive sous-décalage ST
+
+I, aVL, V5-6
+
+onde T plate, biphasique ou inversée
+
+Latérale
+
+•• Sous-épicardique
+
+Apicale
+
+•• Sous-endocardique T positive, pointue, d’amplitude accrue
+
+onde T
+
+V1-3, px V4
+
+Altération ECG
+
+Antéroseptale
+
+Ischémie
+
+Localisation
+
+Tableau 1. Localisation des altérations ischémiques,
+lésionnelles et nécrotiques
+
+15 cœur
+secondaires de la repolarisation, ces deux critères reflétant la
+surcharge systolique et diastolique du ventricule gauche
+55Score dEstes-Romhilt pour une hypertrophie du VG :
+–– Déflexion d’amplitude excessive (onde R ou S dans les dérivations frontales ≥ 20 mm ou onde S en V1-V2 ≥ 30 mm ou
+onde R en V5-V6 ≥ 30 mm) : 3 points
+–– Lésion sous-endocardique de type surcharge ventriculaire
+(segment ST-T orienté dans la direction opposée au vecteur
+principal) : 3 points
+–– Hypertrophie auriculaire gauche (négativité terminale de
+l’onde P en V1 ≥ 1 mm et durée ≥ 0,04 seconde) : 3 points
+–– Déviation axiale gauche des QRS (QRS entre 0 et -30°) :
+2 points
+–– Complexes QRS élargis (durée ≥ 0,09 s) : 1 point
+–– Déflexion intrinsécoïde retardée (durée ≥ 0,05 seconde
+en V5-6) : 1 point
+55L’HVG est probable avec 4 points
+55L’HVG est certaine avec 5 points et plus
+
+Hypertrophie ventriculaire droite
+55Déviation axiale droite
+55Grandes ondes R dans les précordiales droites (V1-V4)
+55Grandes ondes S dans les précordiales gauches (V5-V6)
+55Ondes T inversées en V1-V3
+55Dilatation auriculaire droite : amplitude des ondes P de plus de
+0,25 mm = onde P pulmonaire (voir « Onde P »).
+
+Organes internes
+
+443
+
+Électrolytes et anomalies du QT
+
+Onde U
+
+Hypokaliémie
+55Aplatissement de londe T (onde U > T)
+55Prolongement du QT
+Hypocalcémie
+55Prolongement du QT
+55Allongement du ST
+
+Qtc long
+
+Qtc court
+
+Hypercalcémie
+55Raccourcissement du ST
+55Ascension du point J
+55Raccourcissement du QT
+Hyperkaliémie
+55Ondes T pointues, à base étroite
+55Diminution de lamplitude des ondes P
+55Prolongement de lintervalle PR
+55Bradycardie profonde
+
+QT long (risque de torsades de pointe !)
+55Médicamenteux (non exhaustif) :
+–– Quinine
+–– Antiarythmiques
+–– Antidépresseurs tricycliques
+–– Certains psychotropes
+–– Certains antibiotiques (macrolides, fluoroquinolones)
+–– Antihistaminiques
+–– Antiémétiques (métoclopramide, ondansétron)
+–– Méthadone
+55Troubles électrolytiques : hypokaliémie, hypocalcémie,
+hypomagnésémie
+55Ischémie
+55Hémorragie sous-arachnoïdienne
+55Dysthyroïdie
+
+444
+
+15 cœur
+Conclusions intermédiaires après l’ECG
+55Présence d’une anomalie à lECG ?
+55Gravité de la situation ?
+55Examens complémentaires ?
+55Consultation spécialisée ?
+55Degré d’urgence ?
+N.B. Le diagnostic « final » du clinicien est à établir compte tenu
+de tous les éléments observés !
+
+Références
+Ce chapitre repose sur les références de base suivantes :
+1. JJ Goy et J. Schlaepfer. Cours d’électrocardiographie. Université de
+Lausanne, 1993.
+2. Zipes D, Libby P, Bonow RO, Braunwald E. Braunwald’s Heart Disease : a
+Textbook of Cardiovascular Medicine. 7e édition. Eslevier Saunders. 2005.
+Part II : Chapter 7-8.
+3. Vijvodic M, Young A. Essential Med Notes. Comprehensive Medical
+Reference and Review fort the United States Medical Licensing Exam Step
+2 and the Medical Council of Canada Qualifying Exam Part 1. 30 e édition.
+Toronto Notes for Medical Students, Inc. 2014.
+Le lecteur trouvera des compléments d’information sur le même sujet dans
+les références suivantes :
+4. The Criteria Committee of the New York Heart Association. Nomenclature
+and Criteria for Diagnosis of Diseases of the Heart and Great Vessels. 9e
+édition. Boston : Little, Brown & Co. 1994 ;253-6.
+5. Cardiologues. Disponible : www.laennext.com/fr/cardio.html. Consulté :
+22.12.2016.
+6. Cornuz J, Pasche O. Hypertension. In : Compas : Stratégies de prise
+en charge clinique médecine interne générale ambulatoire. 2e édition.
+Médecine & Hygiène. 2014. 301-15.
+7. Jaussi A. Les dyspnées : le point de vue du cardiologue. Médecine &
+Hygiène. 1991 ;49 :309-14.
+8. Jaussi A. et Favrat B. Faut-il encore ausculter les patients et enseigner
+l’auscultation à l’ère de l’échocardiographie ?. Médecine & Hygiène. 2001 ;
+59 :561-6.
+9. Taboulet P. e-cardiogram.com. Site de formation à la lecture de
+l’ElectroCardioGramme. Disponible : www.e-cardiogram.com/index.php.
+Consulté : 08.12.2016
+
+Organes internes
+
+445
+
+

@@ -1,0 +1,212 @@
+Fatigue
+Anamnèse
+1. Caractérisation de la fatigue
+a. Apparition – début
+b. Évolution – fluctuence
+c. Intensité  impact sur AVQ, impact de l’activité physique et mentale
+d. Moment de la journée
+e. Premier épisode
+2. Caractérisation du sommeil
+a. Durée du sommeil (heure de coucher et de lever) (semaine vs weekend)
+b. Qualité du sommeil (reposé au réveil ?)
+c. Réveils durant la nuit
+d. Habitude avant de dormir – utilisation des écrans
+3. Habitudes
+a. Diète – alimentation : plats types, grignotage
+b. Alcool – drogue
+c. Médicament
+4. DD dépression
+a. Perte de plaisir, manque d’intérêt
+b. Tristesse, idées noires, envie suicidaire
+5. DD cancer
+a. Perte de poids
+b. Fièvre, sudation nocturne
+6. DD maladie infectieuse (EBV, CMV, VIH, Hépatite, Tuberculose, Endocardite)
+a. Douleurs abdominales (+ Ca colon, maladie coeliaque, MICI, intoxication)
+b. Rapports sexuels à risque
+c. Voyage
+d. Fièvre
+7. DD cardiovasculaire
+a. Dyspnée, orthopnée paroxystique nocturne
+b. Toux (sèche)
+c. Jambes gonflées
+8. DD SAOS
+a. Somnolence diurne
+b. Ronflement
+c. Céphalées matinales
+9. DD hypothyroïdie
+a. Prise de poids
+b. Froid
+10. DD anémie ferriprive
+a. Ménométrorragie, sang dans les selles, méléna
+11. DD diabète, hyperparathyroïdie
+a. Polyurie, polydipsie
+12. DD connectivites (Ehlers-Danlos)
+a. Arthralgies, hyperlaxité articulaire
+13. DD Myopathies, myasthénie, SEP, Parkinson
+a. Faiblesse musculaire
+
+Examen clinique
+- Palpation de la thyroïde (faire ROT achilléen)
+- Palpation des aires ganglionnaires
+o Cervicales
+o Axillaires
+o Inguinales
+- Palpation et percussion des loges rénales
+- Status cardiaque
+o Inspection (cyanose, oedème)
+o Auscultation de la carotide
+o Palpation du choc de pointe
+o Auscultation des aires cardiaques
+- Si arthralgies ou hyperlaxité  check
+- Si faiblesse musculaire  check Babinski (SEP)
+Examen complémentaire
+Laboratoire :
+- FSC, VS
+- TSH
+- ALAT – ASAT
+- Ferritine
+- Test de grossesse
+- Autre selon contexte
+o Bilan infectieux :
+ Elispot-Tbc
+ Test HIV
+ Sérologie hépatites
+ Si originaire d’Amérique latine : maladie de Chagas
+ Si originaire zone endémique malaria + anémie ou fièvre : malaria
+o Glycémie, électrolytes
+o Calcium
+o Phosphatase alcaline
+o Créatinine, CK
+o Bandelette urinaire
+o Electrophorèse des protéines
+o Auto-anticorps (anti-transglutaminases  maladie coeliaque)
+o Rx du thorax
+o Mammographie, colonoscopie
+
+DD
+-
+
+-
+
+Dépression, burn out
+Cancer
+Maladie coeliaque, MICI
+Maladie infectieuse (EBV, CMV, VIH, Héptatite, Tuberculose, Endocardite, Covid)
+Cardiovasculaire : insuffisance cardiaque
+Hématologique : anémie
+SAOS
+Origine endocrinienne
+o Diabète
+o Hypothyroïdie
+o Hypercalcémie (hyperparathyroïdie)
+o Insuffisance corticosurrénalienne - Maladie d’Addison (test au synacthen)
+ Insuffisance corticosurrénalienne primaire
+ Destruction auto-immune
+ Infection (HIV, fongique, CMV, tuberculose, parasite, syphilis)
+ Infarctus hémorragique
+ Métastases bilatérales
+ Médicamenteux
+o Inhibiteur de la synthèse du cortisol
+ Aminoglutethimide
+ Ketoconazole
+ Fluconazole
+ Etomidate
+o Inducteur du catabolisme du cortisol
+ Phenobarbital – phenytoine
+ Rifampicine
+ Insuffisance corticosurrénalienne secondaire
+ Hypopituitarisme
+ Sevrage suite à glucocorticoïdes exogènes
+o Hypogonadisme (stéroïdes exogènes)
+Connectivites (Ehlers-Danlos)
+Médicament (somnifères, anti-hypertenseurs, anti-dépresseurs)
+
+DD hypercalcémie :
+- Asthénie
+- Troubles de la concentration
+- Douleurs ostéo-articulaires
+- Soif, polyurie, polydypsie
+- Lithiase rénale
+- Nausée, constipation, anorexie
+
+DD insuffisance surrénalienne :
+- Symptômes
+o Fatigue
+o Perte pondérale, dysgueusie, anorexie
+o Myalgies, arthralgies
+o Douleurs abdominales
+o Peau sèche, prurit
+o Altération de la libido
+o Vertiges
+- Signes
+o Hypotension orthostatique
+o Pâleur (ICS secondaire) vs bronzage (ICS primaire)
+o Anémie, lymphocytose, éosinophilie
+o Hyperkaliémie – hyponatrémie
+o EF
+o Hypercalcémie
+DD hypothyroïdie :
+- Symptômes et signes
+o Fatigue
+o Froid
+o Prise pondérale
+o Perte du tiers externe des sourcils
+o Constipation
+o Troubles du cycle
+o Trouble de la mémoire
+o Myxoedème
+o Alopécie
+o Macroglossie
+o SAOS
+o Tunnel carpien
+- Laboratoire
+o Dyslipidémie
+o CK élevés
+o Anémie macrocytaire
+o Hyponatrémie
+
+Fatigue
+1.
+-
+
+AA
+durée sommeil
+hygiène
+ronflements
+réveils nocturnes/étouffements
+apnée remarquée par conjoint
+stress/ED
+changement d’habitude
+travail nocturne
+régime
+changement de poids
+symptômes thyroïdiens
+anémie/antécédents d’hémorragie
+traitement habituel
+OH/caféine/drogues
+
+2.
+-
+
+Status
+signes vitaux
+ORL (conjonctives pâles, LA, thyroïde)
+examen cardio-pulmonaire
+examen neurologique
+extrémités (pâleur, froideur)
+TR/test de sang occulte
+
+3. DD
+
+-
+
+ED
+PTSD
+cancer du côlon
+hypothyroïdie
+SAOS
+DM
+trouble du sommeil en lien avec travail nocturne
+
+

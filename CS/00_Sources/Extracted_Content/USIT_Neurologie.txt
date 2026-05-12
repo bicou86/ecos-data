@@ -1,0 +1,4984 @@
+2024-2025
+
+2e année Master
+Apprentissage en milieu clinique
+
+NEUROLOGIE ET NEUROCHIRURGIE
+Cahier d’apprentissage
+
+APPRENTISSAGE EN MILIEU CLINIQUE
+(AMC)
+
+NEUROLOGI E ET NEUROCHIRURGIE
+
+Faculté de Médecine Université de Genève
+27e édition
+
+© 2024 Université de Genève (Faculté de médecine)
+
+TABLE DES MATIERES
+INFORMATIONS GENERALES ...............................................................................................................1
+OBJECTIFS GENERAUX.........................................................................................................................3
+DISCIPLINES ETUDIEES ........................................................................................................................5
+ABREVIATIONS .......................................................................................................................................7
+ACTIVITES ...............................................................................................................................................9
+REFERENCES .......................................................................................................................................11
+PROBLEMES (Vignettes) .......................................................................................................................13
+Problème no 1: Sclérose en plaques (SEP) .......................................................................................13
+Problème no 2 : Cérébelleux ..............................................................................................................22
+Problème no 3 : Myélopathie ..............................................................................................................29
+Problème no 4 : Faiblesse musculaire ...............................................................................................37
+Problème no 5: Epilepsie ....................................................................................................................50
+Problème no 6 : Parkinson .................................................................................................................58
+Problème no 7 : Céphalées secondaires : Madame Tohm ................................................................66
+Rappel céphalées (UIDC) : Madame Kopf ........................................................................................77
+Rappel AVC (UIDC) : Monsieur Paretic .............................................................................................86
+SEMINAIRES .........................................................................................................................................98
+Séminaire de Neuropathologie ........................................................................................................100
+Coupe no 1 : Encéphalopathie anoxique subaiguë ..........................................................................102
+Coupe n° 2A : Infarctus subaigu non hémorragique ........................................................................104
+Coupe n° 2B : Infarctus aigu hémorragique ....................................................................................104
+Coupe no 3 : Sclérose en plaques ...................................................................................................106
+Coupe no 6 : Méningite purulente ....................................................................................................108
+Coupe no 7 : Astrocytome diffus de bas grade (OMS grade II) .......................................................110
+Coupe no 8 : Glioblastome (OMS grade IV) .....................................................................................112
+Coupe no 9 : Méningiome transitionnel (OMS grade I) ....................................................................114
+Coupe no 10 : Schwannome (OMS grade I) ....................................................................................116
+Séminaire de Neuropédiatrie ...........................................................................................................118
+Séminaire de Neuroradiologie .........................................................................................................120
+Séminaire de Pharmacologie ...........................................................................................................123
+Séminaire de Médecine Légale et Ethique ......................................................................................126
+Seminaire de Neurorééducation ......................................................................................................127
+UNITES SPECIALISEES......................................................................................................................128
+
+Informations générales
+
+INFORMATIONS GENERALES
+PERSONNES CONCERNEES
+Groupe de travail de l’AMC
+Service
+
+Téléphone / Natel1
+
+Neurologie
+
+Tél. (022 37) 22 992
+Natel (079 55) 33 808
+
+Pr S. Momjian
+
+Neurochirurgie
+
+Natel (079 55) 33 781
+
+Dre B. Leemann
+
+Neurorééducation
+
+Tél. (022 37) 23 614
+Natel (079 55) 33 848
+
+Pre S. Hurst
+
+Médecine légale et éthique
+
+Tél. (022 37) 93 479
+
+Dr J. A. Lobrinus
+
+Neuropathologie
+
+Tél. (022 37) 24 917
+Natel (079 55) 31 200
+
+Dr J. Fluss
+
+Neuropédiatrie
+
+Tél. (022 37) 24 572
+Natel (079 55) 32 104
+
+Dr C. Korff
+
+Neuropédiatrie
+
+Tél. (022 37) 24 572
+Natel (079 55) 32 103
+
+Pr K.-O. Lövblad
+
+Neuroradiologie
+
+Tél. (022 37) 27 033
+Natel (079 55) 32 536
+
+Dre M. Besson
+
+Pharmacologie
+
+Tél. (022 30) 55 387
+Natel (079 55) 32 213
+
+Nom
+Responsables
+Pr F. Assal
+
+Co-responsables
+
+Membres
+
+1
+
+Appels de l'extérieur : ajouter le numéro entre parenthèses.
+
+AMC de neurologie et de neurochirurgie
+1
+
+Informations générales
+
+AMC de neurologie et de neurochirurgie
+2
+
+Objectifs généraux
+
+OBJECTIFS GENERAUX
+-
+
+Au terme de cet AMC, l'étudiant-e devrait avoir acquis les connaissances spécifiques
+suivantes :
+La démarche diagnostique neurologique, du problème à l’entité nosologique, passe par
+la localisation de la lésion (syndrome). Il est important de reconnaître les éléments
+recueillis lors de l’anamnèse et du status qui permettent cette localisation (intègre rappel
+des sciences fondamentales : anatomie, physiologie).
+1. Localisation de la lésion : atteinte centrale ou atteinte périphérique ; connaissance
+des grands syndromes.
+2. Connaissance des maladies neurologiques les plus importantes (en donnant la
+priorité aux maladies fréquentes, éventuellement urgentes, et traitables).
+
+- Au terme de cet AMC, l'étudiant-e devrait avoir acquis les compétences cliniques
+spécifiques suivantes :
+Anamnèse : savoir reconnaître les éléments importants de l’anamnèse neurologique.
+Examen clinique : savoir effectuer un examen neurologique complet.
+Synthèse : savoir exposer clairement une situation clinique.
+Investigations : savoir proposer un plan d’investigations ; savoir estimer le degré
+d’urgence des investigations.
+Examens complémentaires : connaître les indications, contre-indications, modalités,
+difficultés des examens complémentaires courants : EEG, ENMG, Neurosonologie,
+Neuroradiologie, Ponction lombaire et examen neuropsychologique/logopédique.
+Traitement : connaître les possibilités thérapeutiques usuelles.
+Utiliser les séminaires de neuropathologie comme support aux connaissances
+anatomiques ; corrélation anatomoclinique.
+- Au terme de cet AMC, l'étudiant-e devrait avoir acquis les attitudes personnelles et
+professionnelles suivantes :
+Savoir intégrer l’aspect psychosocial (par exemple : céphalées).
+Intégrer l’aspect éthique (par exemple : SLA).
+- Les connaissances ne sont pas évaluées mais une participation de 80 % au
+programme est recommandée.
+
+AMC de neurologie et de neurochirurgie
+3
+
+Objectifs généraux
+
+AMC de neurologie et de neurochirurgie
+4
+
+Disciplines étudiées
+
+DISCIPLINES ETUDIEES
+
+- NEUROLOGIE
+- NEUROCHIRURGIE
+- NEURORADIOLOGIE
+- NEUROREEDUCATION
+- NEUROPEDIATRIE
+- NEUROPATHOLOGIE
+- NEUROPHARMACOLOGIE
+- TOXICOLOGIE
+- MEDECINE LEGALE ET ETHIQUE
+
+AMC de neurologie et de neurochirurgie
+5
+
+Disciplines étudiées
+
+AMC de neurologie et de neurochirurgie
+6
+
+Abréviations
+
+ABREVIATIONS
+
+ABREVIATION
+
+SIGNIFICATION
+
+AIT
+
+Accident ischémique transitoire
+
+AVC
+
+Accident vasculaire cérébral
+
+EEG
+
+Electroencéphalogramme
+
+ENMG
+
+Electroneuromyographie
+
+HSA
+
+Hémorragie sous-arachnoïdienne
+
+IMAO
+
+Inhibiteurs de la monoamine oxydase
+
+IRM
+
+Imagerie par résonance magnétique
+
+LCR
+
+Liquide céphalo-rachidien
+
+MAV
+
+Malformation artério-veineuse
+
+PEM
+
+Potentiels évoqués moteurs
+
+PEV
+
+Potentiels évoqués visuels
+
+PL
+
+Ponction lombaire
+
+SEP
+
+Sclérose en plaques
+
+SLA
+
+Sclérose latérale amyotrophique
+
+SNC
+
+Système nerveux central
+
+SNP
+
+Système nerveux périphérique
+
+TCC
+
+Traumatisme crânio-cérébral
+
+US
+
+Unités Spécialisées
+
+AMC de neurologie et de neurochirurgie
+7
+
+Abréviations
+
+AMC de neurologie et de neurochirurgie
+8
+
+Activités
+
+ACTIVITES
+INTRODUCTION
+L’AMC de Neurologie-Neurochirurgie concerne les étudiant-es de 5e année de médecine
+(2e année de master ou M2).
+Le service de neurologie est composé de la Clinique (11 lits en neurologie générale, 20 en
+neurovasculaire, 7 aux soins intermédiaires, 4 en épileptologie et 5-7 en division privée),
+de la Policlinique, des Unités (EEG, ENMG, neurosonologie, neurospsychologieneurologie cognitive) et des laboratoires (neuro-immunologie et laboratoire LCR,
+évaluation préchirurgicale d’épilepsie, cartographie cérébrale). La Neurochirurgie et la
+Neurorééducation sont associées à la Neurologie pour cet enseignement.
+La Neuropathologie et la Neuroradiologie sont intégrées dans l’AMC de Neurologie.
+Des notions de neuropédiatrie sont abordées (séminaires), de même que de la
+pharmacologie et de la médecine légale et éthique.
+
+PRE-REQUIS
+-
+
+Notions de base d’anatomie et de physiologie du SNC et du SNP.
+Notions de base de pathologie et de pathophysiologie du SNC et SNP.
+Prise d’anamnèse, examen, synthèse et présentation d’un patient.
+Anamnèse et examen neurologique (unité neurosciences de 3e année ou B3).
+
+IMMERSION CLINIQUE
+Les étudiant-es vont 4 jours dans les unités hospitalières et ambulatoires de Neurologie,
+Neurochirurgie, Neurorééducation et Neuropédiatrie.
+Les étudiant-es sont accuillis par un tuteur référent pour organiser le travail. Le but est
+d’obtenir une impression d’une spécialité de neurosciences cliniques et de se familiariser
+avec l'examen neurologique. Durant ces jours d’immersion clinique, chaque étudiant-e
+devra examiner quelques patients, seul ou avec un médecin interne ou chef de clinique
+désigné par le tuteur référent qui sera également en charge du status supervisé de
+l’étudiant-e. Une immersion facultative à l’examen neuropsychologique sera proposée à 34 étudiants maximum par rotation.
+Un atelier ponction lombaire de 2 h est également proposé par groupe de 8 étudiant-es.
+Des jours sans cours, ni immersion sont à disposition pour préparer l’examen qui a lieu le
+dernier vendredi de la rotation.
+INTEGRATION DES DISCIPLINES TRANSVERSALES
+Cf. programme
+AMC de neurologie et de neurochirurgie
+9
+
+Activités
+
+EN PRATIQUE
+Personnes de référence :
+- Secrétariat, tél. (022 37) 25 283
+- Pr F. Assal, tél. (079 55) 33 808
+- Pr S. Momjian, tél. (079 55) 33 781
+- Dre B. Leemann, tél. (079 55) 33 848
+Auto-apprentissage : https://moodle.unige.ch/course/view.php?id=2952
+
+GARDES : TOUT étudiant-e pourra se proposer de « doubler » la garde avec l’interne de
+garde de 18 à 24 heures. Prière de se faire connaître lors de la réunion préliminaire ou de
+prendre contact directement avec le neurologue de garde (s'adresser à la réception de
+neurologie au tél. (022 37) 28 318 pour connaître le nom du neurologue de garde).
+
+AMC de neurologie et de neurochirurgie
+10
+
+Références
+
+REFERENCES
+RAPPEL DES REFERENCES DES DISCIPLINES FONDAMENTALES
+Sémiologie clinique
+-
+
+Bickley LS, Szilagyi PG. Bates' guide to physical examination and history taking.
+12th rev. ed. Philadelphia: Wolters Kluwer, 2016. WB 205 1
+
+- Duus, Peter. Diagnostic neurologique : les bases anatomiques. Paris : De Boeck,
+1998. WL 100 71
+- Swartz MH. Manuel de diagnostic clinique: historique et examen. 2è ed. Paris.
+Maloine, 2003. WB 200 19
+Anatomie
+- Martin JH. Neuroanatomy: text and atlas. 4th ed. McGraw-Hill, 2012. WL 300 33
+-
+
+L. Heimer. The human brain and spinal cord: functional neuroanatomy and
+dissection guide. New-York: Springer-Verlag, 2nd edition, 1995. WL 101 23
+
+Physiologie
+- Koeppen BM, Stanton BA. Berne & Levy Physiology. 7th ed. Philadelphia:
+Mosby/Elsevier, 2017. QT 104 39 + ebook :
+http://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=1456879&site=ehost-live
+-
+
+Kandel ER et al. Principles of neural science. 5th ed. New York: McGraw-Hill Medical,
+2013. WL 102 29
+
+-
+
+B.F. Westmoreland. Medical neurosciences: an approach to anatomy, pathology,
+and physiology by systems and levels. Boston: Little Brown, 3rd edition, 1994.
+WL 100 67
+
+REFERENCES RECOMMANDEES
+Ouvrages
+- Cambier J et al. Neurologie. 13e éd. Issy-les-Moulineaux : Masson, 2012. WL 100 7 +
+ebook : http://www.sciencedirect.com/science/book/9782294714511
+- Neurologie. Sonia Alamowitch et Nicolas Danziger. Editions MedLine. 13 e édition,
+10/2019.
+- Ropper AH, Samuels, MA. Adams and Victor's principles of neurology. 11th ed.
+New York: McGraw Hill, 2019. WL 140 8
+Ebook seulement : https://neurology.mhmedical.com/book.aspx?bookID=1477
+https://neurology.mhmedical.com/book.aspx?bookID=1477
+- Campbell WW. DeJong's the neurologic examination. 7th ed.
+Philadelphia: Wolters Kluwer/LWW, 2013
+Cote: WL 141 22 ed 7: http://data.rero.ch/01-R007457554/html?view=GE_V1&lang=fr
+- Louis ED et al. Merritt's neurology. 13th ed.
+Philadelphia: Wolters Kluwer, 2016
+Cote: WL 140 19 ed 13: http://data.rero.ch/01-R008371686/html?view=GE_V1&lang=fr
+AMC de neurologie et de neurochirurgie
+11
+
+Références
+- Kumar V et al. Robbins and Cotran pathologic basis of disease. 9th rev. ed.
+Philadelphia: Saunder, 2015. QZ 4 4 + ebook :
+https://www.elsevierelibrary.fr/pdfreader/robbins-cotran-pathologic-basis-disease61597
+- Greenberg MS. Handbook of neurosurgery. 9th ed. New York: Thieme, 2020. WL 39 11
+-
+
+Topical Diagnosis in Neurology Anatomy, Physiology, Signs, Symptoms de Mathias
+Bähr, Michael Frotscher chez Thieme
+
+POUR EN SAVOIR PLUS
+Ouvrages
+-
+
+Cf Références des problèmes (vignettes) et des séminaires
+
+-
+
+Aminoff MJ et al. Aminoff’s neurology and general medicine. 5th ed. Phidadelphia :
+Elsevier, ebook : http://www.sciencedirect.com/science/book/9780124077102
+
+-
+
+Armin Schnider. Neurologie du comportement. Paris : Masson, 1re édition, 2008.
+WL 340 1
+
+-
+
+Louis R. Caplan (editor), Jan van Gijn (editor). Stroke Syndromes, 3Ed. 3rd edition
+
+eBook (05 Aug 2012)
+-
+
+ILAE classification of the epilepsies: Position paper of the ILAE Commission for
+Classification and Terminology. I.E. Scheffer, S. Berkovic, G. Capovilla, M.B. Connolly,
+J. French, L. Guilhoto, E. Hirsch, S. Jain, G.W. Mathern, S.L. Moshé, D.R. Nordli, E.
+Perucca, T. Tomson, S. Wiebe, Y.-H. Zhang, S.M. Zuberi. Epilepsia 2017. doi:
+10.1111/epi.13709
+
+-
+
+Continuum
+
+-
+
+Love S. Greenfield's Neuropathology 9th ed. Boca Raton: CRC Press, 2015. WL 140
+17
+
+-
+
+David N. Louis, Hiroko Ohgaki, Otmar D. Wiestler, Webster K. Cavenee (Eds): WHO
+Classification of Tumours of the Central Nervous System (Revised 4th edition).
+IARC: Lyon 2016.
+
+-
+
+C.D. Marsden, S. Fahn. Movement Disorders I-III. Butterworths International Medical
+Reviews. London, 1994. WL 390 6
+
+-
+
+S Fahn, M Hallet, J Jankovic . Principles and practice of movements disorders. 2nd
+edition. Elsevier, 2011
+
+-
+
+Safran, Avinoam B. Neuro-ophtalmologie. Paris: Masson, WW 460 1, 2004.
+
+(minneap
+
+minn)
+
+2018;24
+
+(4,
+
+headache)
+
+http://www.ihs-
+
+headache.org/binary_data/3245_ichd-3-cephalalgia-2018-issue-1.pdf
+
+AMC de neurologie et de neurochirurgie
+12
+
+Problème no 1
+
+PROBLEMES (Vignettes)
+PROBLEME NO 1: SCLEROSE EN PLAQUES (SEP)
+ENONCE : ETAPE 1/2
+Aux Urgences
+Magali S., 32 ans, consulte en urgence en raison de troubles visuels. 24 heures
+auparavant, le soir, elle constate que l'image de la télévision est floue. Fatiguée, elle
+attribue ces difficultés au port de lentilles de contact. Le lendemain, au réveil, elle ne
+constate rien de particulier. En revanche, elle est gênée dans son travail de secrétariat et
+à la lecture notamment, elle note que les caractères sont flous et par moment doubles. Elle
+a également de la difficulté à regarder le texte à copier puis l'écran de l'ordinateur. La
+symptomatologie persiste toute la matinée. Sortant à midi du travail, elle se sent
+légèrement instable à la marche. Inquiète elle consulte son médecin traitant qui adresse
+la patiente aux urgences.
+L'anamnèse ne révèle pas d'antécédent personnel en dehors des maladies d'enfance
+(rougeole, rubéole, varicelle). L'anamnèse par système est sans particularité hormis, il y a
+3 semaines, un épisode d'allure grippal.
+Habitudes : alcool occasionnel, un demi-paquet de cigarettes par jour.
+Question :
+− Comment prenez-vous en charge cette patiente ?
+
+AMC de neurologie et de neurochirurgie
+13
+
+Problème no 1
+
+ENONCE : ETAPE 2/2
+A la Policlinique
+Vous suivez par la suite la patiente environ tous les trois mois dans le cadre de la
+policlinique de neurologie. Son évolution est parfaitement favorable. Elle ne signale plus
+aucun symptôme et, à l'examen neurologique, vous ne constatez qu'un nystagmus modéré
+dans le regard latéral vers la D. Elle ne prend aucun traitement. Environ un an après la
+première manifestation neurologique, Magali S. vous téléphone : « Docteur, depuis hier
+matin je vois flou de l'œil droit et ce matin cela me semble plus fort qu'hier. J'ai très peur,
+je crois que mon histoire recommence comme il y a un an ». Vous convenez d'un rendezvous à 16 heures le même jour.
+Question :
+− Que faites-vous ?
+
+AMC de neurologie et de neurochirurgie
+14
+
+Problème no 1
+
+CONTENU GENERAL DU PROBLEME
+• Problème clinique
+
+- Troubles visuels inauguraux chez une jeune
+patiente.
+
+• Diagnostics
+
+- Ophtalmoplégie
+internucléaire
+cérébelleuse cinétique.
+- Névrite optique rétrobulbaire.
+
+• Entités nosologiques
+
+- Sclérose en plaques.
+
+• Aspect(s) privilégié(s)
+
+- Recherche d’éléments cliniques complémentaires
+(anamnèse, examen neurologique) et examens
+complémentaires.
+
+• Cadre du problème
+
+- Urgences (étape 1).
+- Ambulatoire (policlinique/ cabinet) pour étape 2.
+
+OBJECTIFS D’APPRENTISSAGE
+
+et
+
+atteinte
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient
+être capables de (connaître) :
+•
+
+SEP :
+conduite
+de
+l’anamnèse,
+manifestations cliniques, traitement.
+
+épidémiologie, NEUROLOGIE /
+EPIDEMIOLOGIE
+
+•
+
+L'étiologie d'une modification de la vision et sémiologie des NEUROLOGIE /
+troubles de l'oculomotricité, d'une atteinte des voies OPHTALMOLOGIE
+visuelles.
+
+•
+
+L'étiologie d'un trouble de l'équilibre.
+
+•
+
+Les valeurs des examens paracliniques dans le cadre de NEURORADIOLOGIE /
+la SEP.
+NEUROLOGIE /
+OPHTALMOLOGIE / O.R.L
+
+•
+
+Les éléments du traitement des poussées, du traitement PHARMACOLOGIE CLINIQUE
+de fond (rappel).
+
+•
+
+La pathogénie de la SEP.
+
+•
+
+Les problèmes liés à l'annonce et à la gestion PSYCHIATRIE
+psychologique d'une affection chronique.
+
+•
+
+NEUROLOGIE / O.R.L.
+
+PATHOLOGIE CLINIQUE
+
+Lors du suivi, tenir compte de l’utilité attendue des
+examens/coût de la santé/santé planétaire
+
+AMC de neurologie et de neurochirurgie
+15
+
+Problème no 1
+
+REFERENCES
+NEUROLOGIE
+
+Neurologie. Sonia Alamowitch et Nicolas Danziger. Editions
+MedLine. 13e édition, 10/2019.
+Adams and Victor’s Principles of Neurology. 11th edition.
+McGraw Hill, 2019.
+
+POUR EN SAVOIR
+PLUS
+
+Diagnostic Criteria fro Multiple Sclerosis: 2017 Revisions to the
+McDonald Crtiteria. Lancet Neurol 2018 Feb; 17(2):162-173.
+Multiple sclerosis. The Lancet Volume 391, Issue 10130, 21–27
+April 2018, Pages 1622-1636.
+Treatment of multiple sclerosis — success from bench to bedside.
+Nature Reviews Neurology volume 15, pages53–58 (2019).
+
+AMC de neurologie et de neurochirurgie
+16
+
+Problème no 1
+
+GUIDE DU TUTEUR
+Directives générales
+A travers une présentation clinique en deux temps, les étudiant-es doivent être amenés à
+considérer la SEP, maladie chronique se présentant classiquement au début sous forme
+poussée-rémission. Les critères du diagnostic tant cliniques que paracliniques sont
+envisagés ainsi que les modalités thérapeutiques (TTT aigu/poussée, TTT de
+fond/préventif).
+Lors du premier tutorial, le-la tuteur-trice fournira les réponses aux questions posées par
+les étudiants concernant les éléments cliniques supplémentaires et les examens
+complémentaires, à mesure qu’ils sont demandés (spontanément ou avec son aide).
+
+Matériel associé
+-
+
+Histoire clinique en 2 étapes.
+Eléments anamnestiques complémentaires.
+Résultats de laboratoire et d'examens paracliniques.
+
+Déroulement détaillé des tutoriaux
+ETAPE 1/2
+« Aux urgences » (1/2 du temps imparti)
+Les étudiant-es devraient tout d’abord être amenés à compléter les éléments
+anamnestiques nécessaires à la prise en charge de cette patiente. Dans le cas particulier
+les éléments suivants devraient être recherchés :
+
+AMC de neurologie et de neurochirurgie
+17
+
+Problème no 1
+
+Eléments cliniques à considérer
+
+Réponses pour ce cas
+
+- Evolution de l'état grippal
+
+- spontanément favorable mais persistance
+d'une fatigue inhabituelle.
+
+- Anamnèse familiale
+
+- en dehors d'une mère connue pour une
+hypothyroïdie traitée, l'anamnèse familiale est
+vierge.
+
+- Médicament
+
+- nihil en dehors d'une CO.
+
+- Anamnèse neurologique : vision
+
+- pas de modification de la vision d'un œil ou de
+l'autre pris individuellement. Pas de
+modification de la vision des couleurs. A la
+lecture, les lettres semblent dédoublées plutôt
+l'une à côté de l'autre, diplopie également
+présente si elle regarde le nez de
+l'examinateur. Cette diplopie est plus
+marquée dans le regard vers la D. Pas de
+ptôse palpébrale.
+
+- Anamnèse neurologique : marche
+
+- petite instabilité, la patiente a fait à quelques
+reprises un écart vers la D en marchant.
+
+- Anamnèse neurologique : force
+
+- normale, MS et MI.
+
+- Anamnèse neurologique : sensibilité
+
+- pas de plainte.
+
+- Anamnèse neurologique : sphincters
+
+- tendance à la constipation, ancienne. Pas de
+troubles mictionnels.
+
+- Anamnèse neurologique : équilibre
+
+- voir marche, par ailleurs pas de plainte.
+
+- Céphalées
+
+- rares,
+pulsatiles
+généralement
+en
+hémicrânies D ou G, au début des règles.
+
+- Antécédents personnels
+
+- premier épisode de troubles neurologiques
+(importance d'une anamnèse soignée).
+
+- Reste de l’anamnèse
+
+- non contributive.
+
+AMC de neurologie et de neurochirurgie
+18
+
+Problème no 1
+L’examen neurologique est ensuite donné par le-la tuteur-trice.
+
+Examen clinique : la patiente est afébrile, anictérique, TA 115/75, 72 pouls/min, rég.
+L'examen clinique général complet et détaillé est normal.
+Neurologiquement vous constatez :
+Fonctions supérieures : Patiente droitière, adéquate, inquiète, orientée.
+Nerfs crâniens : acuité visuelle sp. Pas de modification de la vision des couleurs. Pupilles
+isocores et réactives. Champ visuel au doigt sp.
+Pas de limitation de l'oculomotricité hormis dans le regard latéral vers la droite où l'on
+observe une limitation relative de l'adduction de l'œil G accompagnée d'un nystagmus
+horizonto-rotatoire de l'œil D sans limitation nette. Dans ce même regard la patiente
+signale une diplopie horizontale. Pas de limitation à la convergence. Poursuite
+modérément saccadée. Pas de ptôse. Pas de trouble de la sensibilité ou de la mimique
+faciale, reste des NC sp.
+Nuque : Souple, pas de souffle.
+Membres supérieurs et inférieurs : Inspection, force normales et sym. Tonus normal à G,
+plutôt hypotone à D. Mingazzini tenu. Réflexes myotatiques : tous présents et sym. aux
+MS, vifs et sym. avec extension de la zone réflexogène aux MI. Cutané plantaire en flexion
+ddc. Index-nez : rate à 2 reprises le but à D, dysdiadococinésie D modérée, StewartHolmes mal freiné à D. Talon-genou correctement exécuté. Pas de troubles de la
+sensibilité.
+Station debout et démarche : Marche normale en dehors d'un élargissement modéré du
+polygone de sustentation. Funambule hésitant avec occasionnel pas de côté. Epreuve
+d'Unterberger instable mais sans latéralisation franche. La station debout les yeux ouverts
+montre une instabilité avec tendance à la chute vers la D. La fermeture des yeux (signe de
+Romberg) n’augmente que peu cette instabilité
+
+Par rapport à l'examen clinique les étudiant-es devraient être capables de définir les
+points importants permettant de trancher entre un type d'atteinte ou un autre,
+potentiellement responsable des symptômes :
+- Vision : atteinte œil / nerf optique / voies visuelles et cortex / oculomotricité (muscles,
+nerfs, noyaux, supra nucléaire).
+- Troubles de la marche : Liés à une parésie, à des troubles de la sensibilité profonde, à
+une atteinte cérébelleuse ou vestibulaire.
+- Décrire l’examen en termes syndromiques. (trouble oculomoteur, syndrome cérébelleux,
+syndrome pyramidal).
+- Discuter le diagnostic différentiel qui reste très large avant les examens
+complémentaires : dont neurosarcoïdose, vasculite, encéphalite, ADEM, NMO,
+MOGAD,…
+- Discuter les examens paracliniques nécessaires.
+
+AMC de neurologie et de neurochirurgie
+19
+
+Problème no 1
+
+Examens complémentaires (les plus importants sont en gras)
+- FSC normale, chimie N, tests hépatiques N. Enzyme de conversion N.
+- Bilan vasculitique N.
+- Sérologies pour HIV, herpès, varicelle, mal. de Lyme non contributives.
+- Sédiment et chimie urinaire N.
+- Radiographie du thorax N.
+- ECG N.
+- IRM cérébrale : présence en T2 de 2 lésions hyperintenses supratentorielles (frontale
+D et para ventriculaire G perpendiculaire au ventricule), d'une lésion paramédiane
+mésencéphalique G et d'une lésion cérébelleuse D. Ces 2 dernières lésions sont
+également visibles sur les séquences en T1, prenant le gadolinium.
+- Examen du LCR : 2 GR, 7 GB (6 % de monocytes, 93 % de lympho, 1 % de
+plasmocytes), isoelectrofocalisation avec distribution oligoclonale à 3 pics (absent
+dans le serum).
+- Potentiels évoqués visuels N.
+
+Face à ces éléments, reconnaître la SEP forme poussées-rémission comme le diagnostic
+le plus probable, connaître l'importance et les limites de chacun des examens par rapport
+à ce diagnostic, les restrictions imposées par l'absence d'un des critères diagnostics. Etre
+conscient que ce diagnostic doit s'appuyer sur des éléments cliniques et paracliniques
+positifs (clinique, LCR, IRM, Potentiels évoqués) et négatifs (sérologies, bilan collagénose,
+etc.).
+Quel traitement instaurer ? Une corticothérapie intraveineuse à hautes doses suivie de
+corticoïdes per os à doses dégressives. Evoquer en outre, à titre de rappel, les principes
+du traitement médicamenteux d’une poussée, les effets secondaires d'un tel traitement, la
+variabilité de l'évolution d'une poussée sous traitement.
+Connaître : - l'épidémiologie et la pathogénie de la SEP ;
+- les différents types de SEP ;
+- la sémiologie particulière de cette affection (troubles sensitifs
+variés, troubles sphinctériens, signes de Lhermitte, fatigue, phénomène
+d'Uhthoff, etc.).
+Aborder finalement la problématique de l'annonce du diagnostic, du pronostic.
+
+AMC de neurologie et de neurochirurgie
+20
+
+Problème no 1
+
+ETAPE 2/2
+« A la Policlinique » (1/4 du temps imparti)
+Cette deuxième partie sert surtout à illustrer qu'un symptôme qui peut sembler identique
+pour le patient n'implique pas obligatoirement une même localisation. Elle vise également
+à aborder les possibilités de traitements préventifs.
+Reconnaître une névrite optique rétrobulbaire anamnestiquement (douleur à la
+mobilisation de l'œil, voile monoculaire, absence de diplopie, modification de la vision des
+couleurs, etc.) et cliniquement (diminution de l'acuité visuelle, de la vision des couleurs,
+fond d'œil, etc.). Si cliniquement le diagnostic est certain, il n'y a pas lieu, dans cette
+situation, de le compléter par des examens paracliniques (IRM, PEV, etc.).
+Si cliniquement le diagnostic est certain, il n'y a pas lieu, dans cette situation, de le
+compléter par des examens paracliniques (IRM, PEV, etc.). Ne pas faire un examen qui
+ne modifiera pas la prise en charge mais alourdira les coûts de la santé et le bilan carbone
+(une IRM : 25 kg Co2 et on retrouve le Gadolinium dans l’eau et les coquilles SaintJaques).
+Envisager le traitement de la poussée (identique à celui de la première manifestation), si
+possible ambulatoirement.
+Avoir une idée des traitements immunorégulateurs préventifs à disposition (Interféron bêta,
+acétate de glatiramer, fingolimod, teriflunomide, ac. fumarique, natalizumab,
+alemtuzumab : avantages, inconvénients (efficacité, tolérance, risques)).
+Par ailleurs, avoir des connaissances concernant les traitements symptomatiques des
+problèmes urinaires, de la spasticité, des douleurs, etc.
+
+AMC de neurologie et de neurochirurgie
+21
+
+Problème no 2
+
+PROBLEME NO 2 : CEREBELLEUX
+ENONCE INITIAL : ETAPE 1/3
+Une femme de 38 ans, secrétaire, a remarqué depuis quelques temps une discrète
+maladresse de la main droite. La force lui semble normale (elle est droitière) mais il lui
+arrive de lâcher des objets ou de les renverser, notamment lorsqu’elle tient un verre rempli
+d’eau. Elle a remarqué également une difficulté à distribuer les cartes en jouant avec des
+amies. Ce sont ces dernières qui lui ont conseillé de venir consulter alors qu’elle-même
+n’en voyait pas vraiment l’utilité.
+A l’examen clinique :
+Patiente en excellent état général, les différents status sont sans particularités.
+A l’examen neurologique on remarque peu de choses, il existe une très légère hypotonie
+de la main droite, les réflexes ostéotendineux sont symétriques. L’épreuve de Mingazzini
+aux membres supérieurs est bien maintenue, avec une ou deux oscillations du bras droit
+lorsqu’on applique une pression.
+La patiente a un peu la « tremblote » lorsqu’elle tient un verre d’eau à droite mais elle dit
+que sa mère avait le même problème. L’examen du tronc et des membres inférieurs est
+normal ainsi que la démarche.
+Du fait que les signes sont très discrets et la patiente peu gênée il est décidé d’un commun
+accord de ne rien entreprendre de particulier.
+
+Question :
+− Que proposez-vous ?
+
+AMC de neurologie et de neurochirurgie
+22
+
+Problème no 2
+
+ETAPE 2/3
+La patiente reprend rendez-vous 3 semaines plus tard car elle a des maux de tête très
+pénibles chaque matin, elle se sent fatiguée, il lui arrive même de vomir à quelques
+occasions mais sans véritables nausées. Ces derniers jours elle ne se sent pas très sûre
+lorsqu’elle marche et lorsqu’elle regarde au loin elle a l’impression que les objets se
+dédoublent.
+A l’examen clinique :
+Par rapport à la dernière consultation vous trouvez la patiente plus apathique. Le status
+neurologique a peu changé. L’examen de l’oculomotricité ne révèle rien de particulier
+lorsque la patiente suit le doigt, hormis un nystagmus dans le regard latéral des deux côtés.
+En faisant marcher la patiente on peut en revanche remarquer qu’elle oscille d’un côté et
+de l’autre. L’examen du fond d’œil révèle une papille floue des deux côtés.
+Question :
+− Quels examens envisagez-vous ?
+
+ETAPE 3/3
+Enoncé donné par le-la tuteur-trice.
+
+AMC de neurologie et de neurochirurgie
+23
+
+Problème no 2
+
+CONTENU GENERAL DU PROBLEME
+• Problème clinique
+
+-
+
+Processus expansif de la fosse postérieure et
+répercussions sur la pression intracrânienne.
+
+• Diagnostics
+
+-
+
+Lésion cérébelleuse droite (étape 1).
+Hypertension intracrânienne par hydrocéphalie
+obstructive (étape 2).
+Lésion kystique intra-axiale cérébelleuse compatible
+avec un hémangioblastome (étape 3).
+
+• Aspects privilégiés
+
+-
+
+Localisation d’une lésion de la fosse postérieure.
+Discussion des éléments pouvant provoquer une
+hypertension intracrânienne.
+Evolution de la sémiologie clinique et radiologique de
+ces deux entités.
+Diagnostic différentiel des lésions intra-axiales.
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient
+être capables de connaître :
+-
+
+La topographie des lésions de la fosse postérieure et ANATOMIE /
+leurs répercussions cliniques.
+SYSTEMATISATION
+NEUROLOGIQUE
+
+-
+
+Les signes d’un syndrome cérébelleux cinétique et NEUROLOGIE
+statique.
+
+-
+
+Les signes d’appel d’une hypertension intracrânienne.
+
+-
+
+Les modalités de production, circulation et résorption du ANATOMIE / PHYSIOLOGIE
+liquide céphalo-rachidien.
+
+-
+
+Les mécanismes de l’hydrocéphalie obstructive par PHYSIOPATHOLOGIE
+rapport à ceux de l’hydrocéphalie malrésorptive.
+
+-
+
+Les principales lésions tumorales intra-axiales et leur PATHOLOGIE CLINIQUE /
+aspect neuroradiologique.
+NEURORADIOLOGIE
+
+-
+
+Les principes du traitement chirurgical et ses risques.
+
+PHYSIOPATHOLOGIE
+
+NEUROCHIRURGIE
+
+AMC de neurologie et de neurochirurgie
+24
+
+Problème no 2
+
+REFERENCES
+NEUROCHIRURGIE
+NEUROLOGIE
+
+Greenberg MS. Handbook of neurosurgery. 9th ed. New York:
+Thieme, 2020. WL 39 11
+Cambier J et al. Neurologie. 13e éd. Issy-les-Moulineaux : Masson,
+2012.
+Ropper AH, Samuels, MA. Adams and Victor's principles of
+neurology. 11th ed. New York: McGraw Hill, 2019. WL 140 8
+Ebook seulement :
+https://neurology.mhmedical.com/book.aspx?bookID=1477
+
+POUR EN SAVOIR
+PLUS
+
+AMC de neurologie et de neurochirurgie
+25
+
+Problème no 2
+
+GUIDE DU-DE LA TUTEUR-TRICE
+Directives générales
+Un des buts de ce problème est de faire refaire aux étudiant-es le chemin de l’analyse
+visant à préciser la localisation de la lésion dans un premier temps, à réfléchir aux
+conséquences de cette localisation sur les mécanismes physiopathologiques de la
+pression intracrânienne dans un deuxième temps, avant d’étudier sur la base des examens
+paracliniques la nature même du processus.
+
+Matériel associé
+-
+
+Histoire clinique en 2 étapes.
+Résultats de laboratoire.
+Un scanner cérébral, une résonance magnétique cérébrale, éventuellement une
+artériographie cérébrale.
+
+Déroulement détaillé du tutorial
+ETAPE 1/3 (1/4 du temps imparti)
+Le signe cardinal est une maladresse de la main droite. Les données anamnestiques
+laissent penser qu’il s’agit plus de problèmes de coordination que de faiblesse. Les
+épreuves permettant d’éliminer un problème de force peuvent être discutées. L’atteinte
+préférentielle du membre supérieur est également un élément pointant vers le système
+cérébelleux hémisphérique.
+Un autre aspect du problème est le fait que l’anamnèse est souvent plus révélatrice que
+l’examen neurologique si celui-ci n’est pas poussé systématiquement. C’est l’occasion de
+passer en revue les différentes épreuves du syndrome cérébelleux cinétique (asynergie,
+dysmétrie, dysdiadococinésie, hypotonie, recherche de réflexes pendulaires, exagération
+du rebond).
+L’étudiant-e devra également analyser les différentes caractéristiques du tremblement,
+distinguer le tremor de repos du tremor positionnel ou d’intention et décrire les structures
+impliquées (notamment les voies extrapyramidales et cérébelleuses).
+En dehors de la localisation probable de la lésion il n’est pas possible d’avancer plus dans
+le diagnostic à ce stade, en revanche la fausse piste indiquée par la patiente (évoquant un
+tremor essentiel familial) doit être écartée. A cet égard l’âge d’apparition, la maladresse
+associée et la latéralisation sont importants.
+Le-la tuteur-trice peut à ce stade distribuer la 2e partie de l’histoire clinique.
+
+AMC de neurologie et de neurochirurgie
+26
+
+Problème no 2
+
+ETAPE 2/3 (1/2 du temps imparti)
+- Cette phase décrit assez précisément les signes typiques d’hypertension
+intracrânienne. L’étudiant-e sera probablement amené rapidement à y penser vu que
+plusieurs signes spécifiques sont cités. Il convient alors de reprendre un à un les
+éléments subjectifs et objectifs retrouvés chez la patiente et d’y attacher une explication
+logique, compte tenu du mécanisme de décompensation de la pression.
+➢ Les céphalées peuvent être considérées comme secondaires et symptomatiques,
+d’apparition récente. Leur horaire matinal est très évocateur de l’hypertension
+intracrânienne, probablement en raison de la position couchée et surtout de
+l’hypoventilation nocturne. L’étude de la pression intracrânienne pendant le sommeil
+démontre l’existence d’ondes augmentant physiologiquement la pression selon les
+phases du sommeil.
+➢ Les vomissements dits « en jet » sont probablement dus à une irritation au niveau
+du plancher du IVe ventricule ce qui explique leur caractère subit et impulsif, dénué
+de nausées.
+➢ Les troubles de l’équilibre permettent de faire discuter la distinction entre un
+syndrome cérébelleux cinétique et un syndrome statique vermien. On peut imaginer
+soit l’extension de la lésion de la partie latérale à la partie médiane du cervelet, soit
+plus vraisemblablement l’atteinte plus diffuse de celui-ci dans le cadre de
+l’hypertension dans la fosse postérieure.
+➢ La diplopie signalée reflète l’atteinte débutante de la VIe paire crânienne dont
+l’étirement en cas de herniation cérébrale provoque une malfonction.
+➢ L’apathie est le premier signe d’une souffrance cérébrale diffuse qui se manifestera
+dans la progression vers des troubles de la conscience.
+➢ L’examen du fond d’œil confirme l’aspect typique d’hypertension intracrânienne. A
+noter que la patiente ne signale pas de troubles de l’acuité visuelle, ce qui est
+également caractéristique.
+- Les étudiant-es, à ce stade, doivent être amenés à réfléchir aux mécanismes
+physiopathologiques impliqués dans cette évolution, à savoir principalement la
+distorsion des structures de la fosse postérieure et l’obstacle à la circulation normale du
+LCR. Ils doivent s’exprimer sur la différence existant entre l’hydrocéphalie obstructive
+observée ici et l’hydrocéphalie non-obstructive par troubles de la résorption.
+- Le temps imparti est insuffisant pour entrer dans les détails des répercussions de
+l’hypertension intracrânienne sur la physiopathologie du débit sanguin. En revanche la
+question piège de l’intérêt d’un examen de LCR par ponction lombaire (qui
+représenterait une faute en raison du phénomène d’engagement des amygdales) doit
+être évoquée.
+Les autres types d’engagements cérébraux :
+- Culminal à travers l’incisure de la tente cérébelleuse.
+- Temporal ou uncal par déplacement médian de l’uncus du lobe temporal.
+- Sous-falcoriel par déplacement du lobe frontal sous la faux, peuvent alors être décrits.
+- L’examen à demander est soit un CT cérébral soit, mieux, une IRM cérébrale. En effet,
+si la présence d’une lésion est probable, une IRM sera in fine nécessaire, raison pour
+laquelle sursoir au CT (s’il n’y a pas d’urgence bien sûr) répond à la fois à un intérêt
+médico-économique et à un intérêt de santé planétaire.
+AMC de neurologie et de neurochirurgie
+27
+
+Problème no 2
+
+ETAPE 3/3 (1/4 du temps imparti)
+Le CT cérébral révèle une masse cérébelleuse hémisphérique droite hypodense
+comportant un petit nodule se rehaussant au produit de contraste. Les ventricules sustentoriels sont nettement dilatés.
+L’IRM cérébrale confirme l’existence de cette masse qui est hypointense en T1 et
+hyperintense en T2. Le nodule se rehausse au gadolinium.
+L’existence d’une masse cérébelleuse peut faire discuter brièvement les étiologies
+possibles.
+L’aspect combiné IRM-CT de la partie principale revêt toutes les caractéristiques d’un
+kyste liquidien. Ces caractéristiques sont légèrement différentes de celles du LCR (en
+raison d’un contenu protéique augmenté). Un kyste arachnoïdien pourrait être évoqué
+mais il faut prêter attention à la présence du nodule mural. Ce nodule peut être décrit
+comme compact et hypervascularisé.
+Cette combinaison implique en tout premier lieu le diagnostic d’hémangioblastome avec
+un kyste hyperprotéiné et un nodule mural hémangiomateux.
+Un des diagnostics différentiels possibles, bien que touchant des sujets plus jeunes, serait
+un astrocytome kystique (astrocytome pilocytique).
+La possibilité d’une métastase nécrotique peut être évoquée.
+Comme la lésion est intra-axiale et éloignée des ventricules, toute possibilité de
+méningiome, neurinome ou épendymome peut être écartée.
+Le-la tuteur-trice peut alors incidemment demander si les étudiant-es sont intéressés par
+un examen de laboratoire. La réponse la meilleure est une recherche de polycythémie par
+le biais de l’érythropoiétine produite parfois par la tumeur.
+Finalement, l’aspect thérapeutique peut être effleuré. Dans le cas particulier une exérèse
+chirurgicale du processus est le traitement de choix.
+
+AMC de neurologie et de neurochirurgie
+28
+
+Problème no 3
+
+PROBLEME NO 3 : MYELOPATHIE
+ENONCE INITIAL : ETAPE 1/3
+Ce jeune homme de 20 ans n’a jamais été très sportif ; il a remarqué de longue date des
+difficultés dans les marches prolongées avec impression de jambes lourdes ; cette
+fatigabilité s’est accentuée ces derniers temps. Il ressent parfois également l’impression
+qu’il est comme engainé dans un corset.
+
+A l’examen clinique :
+Jeune patient en excellent état général, normotendu, afébrile, dont les systèmes cardiovasculaires, respiratoires, ostéo-articulaire, digestifs et uro-génitaux sont normaux.
+L’examen neurologique ne montre pas d’anomalie des nerfs crâniens. Sur le versant
+moteur on remarque des réflexes plutôt vifs aux membres inférieurs, symétriques, avec un
+cutané plantaire indifférent des deux côtés. La force est bien conservée. Aux membres
+supérieurs les réflexes ostéotendineux sont en revanche faibles à tous les niveaux et la
+force est normale.
+Sur le versant sensitif il ne semble pas y avoir de problème aux membres inférieurs et au
+tronc où le toucher-piquer est bien ressenti à tous les niveaux ; il existe toutefois quelques
+erreurs au niveau des mains correspondant à une topographie « en gants ».
+Les radiographies apportées par le patient ne révèlent rien de particulier.
+Question :
+− Quelle prise en charge proposez-vous ?
+
+AMC de neurologie et de neurochirurgie
+29
+
+Problème no 3
+
+ENONCE : ETAPE 2/3
+Six mois plus tard, le patient se représente à votre consultation. La fatigabilité lors d’efforts
+n’a pas changé et l’impression d’être dans un corset ne s’est pratiquement pas reproduite.
+En revanche il est préoccupé par le fait que les muscles aussi bien dans la paume que sur
+le dos de ses mains (surtout à droite) ont tendance à fondre. Il lâche d’ailleurs des objets
+de temps en temps.
+
+A l’examen clinique :
+L’examen s’est modifié uniquement au niveau des membres supérieurs.
+Il existe une amyotrophie de l’éminence thénar et hypothénar ainsi que des interosseux à
+droite surtout. La force est diminuée dans la musculature intrinsèque des deux mains, avec
+une prédominance à droite. Les réflexes stylo-radial et cubito-pronateurs sont absents à
+droite.
+On voit quelques érosions et une plaie sur le bord cubital de la main droite que le patient
+n’avait pas remarqué.
+Le patient sent bien quand on le touche sur les mains et il peut bien situer l’endroit du
+stimulus. Le sens des positions est également bien conservé de même que les vibrations
+qui sont bien perçues.
+
+Questions :
+− Où localisez-vous la lésion ?
+− Quel est le diagnostic différentiel ?
+− Quelles investigations demandez-vous ?
+
+ETAPE 3/3
+Enoncé donné par le-la tuteur-trice.
+
+AMC de neurologie et de neurochirurgie
+30
+
+Problème no 3
+
+CONTENU GENERAL DU PROBLEME
+-
+
+Problème clinique
+
+• Diagnostics
+
+-
+
+Atteinte centromédullaire d’apparition progressive.
+
+-
+
+Syndrome d’atteinte médullaire de niveau cervical
+(étape 1).
+Atteinte
+centromédullaire
+avec
+dissociation
+syringomyélique (étape 2).
+-Cavité syringomyélique associée à une anomalie de la
+jonction occipito-cervicale de type Arnold-Chiari (étape 3).
+
+• Aspects privilégiés
+
+-
+
+Discussion de la localisation (dans le plan vertical du
+névraxe) d’une atteinte médullaire.
+Discussion de la localisation (dans le plan horizontal du
+névraxe) d’une atteinte médullaire.
+Mise en relation des problèmes médullaires avec un facteur
+étiologique lors de la croissance du rachis et de la charnière
+occipitale.
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient
+être capables de connaître :
+-
+
+La systématisation des voies longues intramédullaires et ANATOMIE /
+leur répercussion clinique.
+SYSTEMATISATION
+NEUROLOGIQUE
+
+-
+
+La différenciation entre une atteinte du motoneurone SYSTEMATISATION
+central et une atteinte du motoneurone périphérique.
+NEUROLOGIQUE /
+PHYSIOLOGIE
+
+-
+
+Les éléments typiques d’un niveau suspendu lésionnel SYSTEMATISATION
+par rapport à un syndrome sous-lésionnel.
+NEUROLOGIQUE /
+PHYSIOLOGIE
+
+-
+
+Le développement embryologique du rachis et du EMBRYOLOGIE / PATHOLOGIE
+névraxe avec les répercussions pathologiques d’une
+malformation de la charnière occipito-cervicale.
+
+-
+
+L’expression radiologique d’un processus expansif NEURORADIOLOGIE /
+intramédullaire et sa différenciation d’un processus PATHOLOGIE
+extramédullaire.
+
+-
+
+Les principales lésions tumorales intra-axiales et leur PATHOLOGIE CLINIQUE /
+aspect neuroradiologique.
+NEURORADIOLOGIE
+
+-
+
+Les principes
+syringomyélie.
+
+du
+
+traitement
+
+chirurgical
+
+de
+
+la NEUROCHIRURGIE
+
+AMC de neurologie et de neurochirurgie
+31
+
+Problème no 3
+
+REFERENCES
+NEUROCHIRURGIE
+NEUROLOGIE
+
+Greenberg MS. Handbook of neurosurgery. 9th ed. New York:
+Thieme, 2020. WL 39 11
+Cambier J et al. Neurologie. 13e éd. Issy-les-Moulineaux : Masson,
+2012.
+Ropper AH, Samuels, MA. Adams and Victor's principles of
+neurology. 11th ed. New York: McGraw Hill, 2019. WL 140 8
+Ebook seulement :
+https://neurology.mhmedical.com/book.aspx?bookID=1477
+
+POUR EN SAVOIR
+PLUS
+
+AMC de neurologie et de neurochirurgie
+32
+
+Problème no 3
+
+GUIDE DU-DE LA TUTEUR-TRICE
+Directives générales
+Le principal point de ce problème est de rappeler l’organisation des voies ascendantes et
+descendantes de la moelle. Il débouchera également sur la distinction entre des
+pathologies intramédullaires ou extramédullaires. La découverte finale d’un problème
+médullaire secondaire à une anomalie du développement de la charnière occipito-cervicale
+permet de rappeler les éléments d’embryologie liés au développement et à la régression
+du canal épendymaire.
+
+Matériel associé
+-
+
+Histoire clinique en 2 étapes.
+Résultats de laboratoire.
+Une résonance magnétique cervico-dorsale, une résonance magnétique de la fosse
+postérieure et charnière occipito-cervicale.
+
+Déroulement détaillé du tutorial
+ETAPE 1/3 (1/3 du temps imparti)
+Les étudiant-es doivent de manière logique retrouver dans le névraxe la localisation de la
+lésion correspondant à l’anamnèse clinique.
+➢ Sur la base de la bilatéralité des plaintes aux membres inférieurs et à la suggestion
+d’un niveau clinique sensitif (impression de stricture dans un corset) ils seront
+amenés à favoriser une lésion médullaire par rapport à une atteinte cérébrale.
+➢ Le véritable niveau n’apparaît pas clairement d’après les données à disposition à ce
+stade, mais la distribution des caractéristiques des réflexes ostéotendineux de
+même que quelques éléments pathologiques sur le versant sensitif pour les
+membres supérieurs doit faire suspecter une localisation cervicale.
+➢ La description « en chaussettes ou en gants » des troubles sensitifs doit faire
+évoquer la possibilité d’une atteinte périphérique, difficile à mettre en relation avec
+une pathologie de type médullaire, et probablement à écarter.
+- La notion de troubles très anciens (« difficultés remarquées de longue date, jamais été
+très sportif ») chez un jeune doit faire rechercher des signes d’atteinte ancienne
+(troubles trophiques, anomalies de développement ou de longueur des membres, pieds
+creux, etc.) ; les étudiant-es devraient donc à ce stade évoquer la possibilité de
+pathologies développementales. Il serait bon que la notion d’inspection des tissus
+cutanés de la région sacrée soit également signalée (neuropore inférieur). Les
+radiographies simples de la colonne décrites comme normales sont un argument contre
+la notion d’anomalie du développement, du moins de développement osseux.
+
+AMC de neurologie et de neurochirurgie
+33
+
+Problème no 3
+- Le réflexe cutané-plantaire n’est dans ce cas pas très contributif, ce qui permet de revoir
+le principe (sans attacher d’importance particulière au nom) de l’un ou l’autre des
+réflexes analogues au réflexe cutané plantaire, soit les réflexes de Oppenheim
+(stimulation descendante de la crête tibiale), Gordon (pression des muscles postérieurs
+de la jambe), Chaddock (stimulation dorsale latérale du pied).
+- Le-la tuteur-trice doit mettre en valeur, lors d’une anamnèse de ce type, la notion
+d’examen après effort fourni par le patient pour mettre en évidence une différence par
+rapport à l’examen en condition de repos.
+Le-la tuteur-trice peut à ce stade distribuer la 2e partie de l’histoire clinique.
+
+ETAPE 2/3 : (1/3 du temps imparti)
+- L’étudiant-e doit pouvoir convenir qu’en termes de pathologie médullaire le niveau
+caudal n’a pas subi de modification particulière (marche, fatigabilité et impression de
+structure) alors que le niveau proximal (phénomènes nouveaux pour les deux mains) a
+nettement évolué. Il devrait pouvoir situer, dans un premier temps, la lésion dans l’axe
+longitudinal au niveau cervical.
+- Sur le versant moteur les faits nouveaux sont une amyotrophie distale aux membres
+supérieurs qui n’impliquent ni un territoire radiculaire ni un territoire tronculaire (la
+distinction entre ces deux atteintes est l’objet d’un autre problème de l’unité et ne doit
+pas être détaillé ici).
+- De même la parésie de la musculature intrinsèque des mains bilatérale doit orienter la
+localisation de la pathologie vers le segment médullaire correspondant.
+- L’arc réflexe monosynaptique impliquant les réflexes ostéotendineux disparus (absence
+de réflexe significative car unilatérale et comparative à un examen antérieur) peut être
+rappelé.
+- Le versant sensitif est abordé par le fait que le patient n’a pas remarqué une blessure
+(phénomène classique dans cette affection) ; ceci devrait déboucher sur une distinction
+entre les sensibilités épicritiques (système spino-thalamique antérolatéral) et
+protopathiques (système lemniscal).
+- L’examen sensitif est incomplet à dessein puisqu’il ne teste pas spécifiquement la
+sensibilité thermo-algésique et laisse croire qu’il n’y a pas d’anomalie rencontrée, d’où
+la question posée.
+- L’ensemble de ces indications doit amener l’étudiant-e à définir un niveau lésionnel où
+l’expression de la cellule neuronale périphérique s’exprime, et un niveau sous-lésionnel
+où le motoneurone central et les voies ascendantes et descendantes sont impliqués.
+- Il peut déjà émettre des suppositions et argumenter quant à la probabilité qu’il s’agisse
+d’une lésion intra-axiale touchant les régions centro-médullaires plutôt qu’une lésion
+extra-axiale comprimant la moelle.
+
+AMC de neurologie et de neurochirurgie
+34
+
+Problème no 3
+
+- Le fait que les cordons postérieurs soient sélectivement épargnés pourrait faire discuter
+une atteinte vasculaire (ceci nécessite un rappel de la vascularisation médullaire) dans
+le territoire de l’artère spinale antérieure mais l’évolution très lente de l’affection et l’âge
+du patient parlent nettement contre cette hypothèse.
+- A la fin de cette phase l’étudiant-e aura donc une notion précise aussi bien dans le sens
+longitudinal que dans le sens transverse de l’étendue de la lésion et sera à même de
+demander l’examen complémentaire. Les avantages et inconvénients des trois
+examens disponibles (CT scan, myélographie à contraste positif et IRM) doivent être
+mentionnés en insistant sur le fait que le CT, s’il démontre bien les lésions ostéoligamentaires, est très peu performant pour le contenu du canal rachidien et que la
+myélographie est une technique pratiquement abandonnée sauf en certaines occasions
+où l’IRM est contre-indiquée (claustrophobie, pace-maker). C’est donc bien ce dernier
+examen qui est l’examen de choix.
+
+AMC de neurologie et de neurochirurgie
+35
+
+Problème no 3
+
+Etape 3/3 : (1/3 du temps imparti)
+L’IRM révèle un processus kystique médullaire cervical. Au cours de la discussion des
+clichés l’approche habituelle distinguant un processus extra-dural, un processus intradural
+extramédullaire et un processus intradural intramédullaire (correspondant à la pathologie
+rencontrée dans ce cas) doit être rappelée.
+Les aspects selon les séquences T1 (hypointense) et T2 (hyperintense) sont
+approximativement ceux du LCR. L’étudiant-e doit se diriger donc peu à peu vers la notion
+d’un kyste intramédullaire. Il devra alors chercher si ce kyste est d’origine tumorale, auquel
+cas des séquences complémentaires devraient apporter des éléments (prise de contraste
+au gadolinium par exemple) ou si ce n’est pas le cas.
+Le diagnostic de syringomyélie doit alors pouvoir être évoqué. Le-la tuteur-trice peut alors
+demander de proposer quelques explications pathogéniques, basées sur la circulation du
+LCR. C’est le moment de rappeler que le canal épendymaire subit une involution lors du
+développement embryonnaire et qu’il s’agit là d’une dilatation anormale appelée
+syringomyélie.
+L’une des causes connues de développement de cavité syringomyélique est la persistance
+ou la réouverture d’une communication entre le système ventriculaire et le canal
+épendymaire.
+L’étudiant-e pourra alors demander à préciser la région où se situe cette communication
+possible qui correspond à la partie basse du IVème ventricule. Le-la tuteur-trice peut alors
+lui remettre un cliché IRM de la charnière cervico-occipitale où l’on voit une position
+anormale des amygdales cérébelleuses, trop bas placées.
+Le diagnostic de malformation d’Arnold-Chiari pourra alors être précisé, en insistant plus
+sur la physiopathologie de développement d’une hyperpression pulsatile dans le canal
+épendymaire par obstruction de la circulation du LCR au niveau de la sortie des ventricules
+que sur l’appellation elle-même du syndrome.
+L’approche thérapeutique, qui se fait soit par un drainage ventriculaire si une
+hydrocéphalie associée est présente, soit par une décompression ostéo-durale du trou
+occipital, peut-être simplement mentionnée. Si la syringomyélie persiste et qu’il n’y a pas
+d’amélioration clinique, une déviation dérivation syringo-pleurale peut être envisagée.
+
+AMC de neurologie et de neurochirurgie
+36
+
+Problème no 4
+
+PROBLEME NO 4 : FAIBLESSE MUSCULAIRE
+ENONCE INITIAL : ETAPE 1/2
+
+Mme Guylaine B., 53 ans, consulte pour une faiblesse musculaire des membres supérieurs
+et inférieurs.
+Elle est en bonne santé habituelle. Il n’y a pas d’antécédents familiaux ou personnels
+notables.
+Elle ne prend pas de médicaments régulièrement, elle fume un demi-paquet de cigarettes
+par jour, elle ne boit que peu d’alcool.
+L’anamnèse systématique autre que neurologique est sans particularité.
+
+Question :
+- Quelles informations supplémentaires souhaitez-vous ?
+
+AMC de neurologie et de neurochirurgie
+37
+
+Problème no 4
+
+ENONCE : ETAPE 2/2
+Différentes situations sont possibles :
+Situation 1
+La faiblesse est apparue une à deux semaines auparavant, de façon très progressive,
+avec une fluctuation. La faiblesse concerne les membres supérieurs et inférieurs, de façon
+symétrique. La patiente signale encore de façon intermittente une vision double.
+Examen clinique
+L’examen général est normal. TA 12/8 ; pouls régulier à 72/min, afébrile.
+Examen neurologique :
+Fonctions supérieures normales.
+Nerfs crâniens : diplopie intermittente dans le regard latéral des deux côtés. Ptôse
+palpébrale bilatérale modérée, un peu plus marquée à droite.
+Membres : discrète parésie globale, à la limite du significatif.
+Réflexes normaux, tonus normal. Sensibilités et épreuves cérébelleuses normales.
+Questions :
+-
+
+A quoi pensez-vous ?
+Que faites-vous ?
+
+AMC de neurologie et de neurochirurgie
+38
+
+Problème no 4
+
+Situation 2
+La faiblesse est apparue 4-5 jours auparavant, de façon progressive. La faiblesse
+concerne les membres inférieurs, de façon symétrique. La patiente signale encore des
+paresthésies (fourmillements, engourdissement) des membres inférieurs et plus
+discrètement des mains.
+Quinze jours auparavant la patiente avait présenté un état grippal avec fièvre.
+Examen clinique
+Examen général normal.
+Examen neurologique : nerfs crâniens en ordre.
+Membres supérieurs : inspection normale, force normale, réflexes très faibles, sensibilité
+normale.
+Réflexes cutanés abdominaux présents, faibles.
+Membres inférieurs : faiblesse lors de l’épreuve de Mingazzini, releveurs des pieds faibles
+à 4/5. Réflexes rotuliens et achilléens absents. Cutané-plantaire en flexion. Hypoesthésie
+au tact et troubles de la sensibilité profonde.
+La marche sur les pointes et les talons est impossible. La patiente a de la difficulté à se
+relever de la position accroupie.
+
+Questions :
+-
+
+Que pensez-vous de cette situation ?
+Quelles investigations proposez-vous ?
+
+AMC de neurologie et de neurochirurgie
+39
+
+Problème no 4
+
+Situation 3
+La faiblesse est apparue 3-4 mois auparavant, de façon très lentement progressive. La
+faiblesse concerne les membres inférieurs, de façon symétrique, et à un degré moindre
+les membres supérieurs. Elle se traduit par une difficulté à se relever d’un siège par
+exemple, ou une difficulté à garder les bras surélevés. Elle s’accompagne de douleur
+proximale des membres, surtout des cuisses et des épaules.
+Examen clinique
+Examen général normal.
+Examen neurologique : nerfs crâniens en ordre.
+Membres supérieurs et inférieurs : inspection normale, tonus normal, force : parésie
+proximale modérée, réflexes présents, cutané-plantaire en flexion, sensibilité normale.
+La marche sur les pointes et les talons est possible. La patiente a de la difficulté à se
+relever de la position accroupie.
+Questions :
+-
+
+A quoi pensez-vous ?
+Que faites-vous ?
+
+AMC de neurologie et de neurochirurgie
+40
+
+Problème no 4
+
+CONTENU GENERAL DU PROBLEME
+•
+
+Problème clinique
+
+-
+
+Faiblesse musculaire
+
+•
+
+Diagnostic
+
+-
+
+Myasthénie grave
+
+-
+
+Guillain-Barré
+
+-
+
+Polymyosite
+
+•
+
+Entités nosologiques
+
+-
+
+Faiblesse musculaire, fatigabilité, douleur
+musculaire
+
+•
+
+Aspect(s) privilégié(s)
+
+-
+
+Sémiologie
+
+•
+
+Cadre du problème
+
+-
+
+Consultation ambulatoire
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient
+être capables de :
+-
+
+Faire le diagnostic
+musculaire
+
+différentiel
+
+d’une
+
+faiblesse NEUROLOGIE
+
+-
+
+Connaître les points importants de l’anamnèse et du NEUROLOGIE
+status menant au diagnostic de myasthénie grave
+
+-
+
+Connaître les points importants de l’anamnèse et du NEUROLOGIE
+status menant au diagnostic de Guillain-Barré
+
+-
+
+Connaître les points importants de l’anamnèse et du NEUROLOGIE
+status menant au diagnostic d’une myopathie
+
+-
+
+Proposer les investigations indispensables lors des 3 NEUROLOGIE
+diagnostics discutés
+
+-
+
+Estimer le degré d’urgence de la prise en charge des 3 NEUROLOGIE
+diagnostics discutés
+
+-
+
+Avoir une notion théorique des 3 diagnostics discutés
+
+-
+
+Savoir que de nombreux médicaments sont dangereux NEUROLOGIE
+dans la myasthénie grave.
+
+-
+
+Connaître les traitements usuels des 3 diagnostics discutés NEUROLOGIE
+
+-
+
+Tenir compte de la santé planétaire lors de la demande des
+examens
+
+NEUROLOGIE
+
+AMC de neurologie et de neurochirurgie
+41
+
+Problème no 4
+
+REFERENCES
+NEUROLOGIE
+
+Cambier J et al. Neurologie. 13e éd. Issy-les-Moulineaux :
+Masson, 2012.
+Ropper AH, Samuels, MA. Adams and Victor's principles of
+neurology. 11th ed. New York: McGraw Hill, 2019. WL 140 8
+Ebook seulement :
+https://neurology.mhmedical.com/book.aspx?bookID=1477
+
+POUR EN SAVOIR Gilhus, N.E., Tzartos, S., Evoli, A. et al. Myasthenia gravis. Nat
+Rev Dis Primers 5, 30 (2019). https://doi.org/10.1038/s41572PLUS
+019-0079-y
+
+AMC de neurologie et de neurochirurgie
+42
+
+Problème no 4
+
+GUIDE DU- DE LA TUTEUR-TRICE
+Directives générales
+Ce problème principalement sémiologique ouvre le diagnostic différentiel d’une faiblesse
+musculaire.
+Cette vignette d’un seul tenant est centrée sur la sémiologie, qui permet un diagnostic
+différentiel puis un diagnostic. Elle doit insister sur les éléments cliniques.
+Elle sert aussi à discuter les examens complémentaires nécessaires lors de chacune des
+situations. Elle doit discuter aussi le degré d’urgence des investigations.
+Elle permet d’aborder les traitements usuels des maladies présentées.
+L’aspect théorique et physiopathologique de ces diverses maladies peut être abordé ; il
+sera plutôt proposé comme travail personnel.
+
+Déroulement détaillé des tutoriaux
+ETAPE
+A partir de données cliniques très succinctes (faiblesse musculaire), l’étudiant-e est amené
+à poser une série de questions qui orientera le diagnostic.
+Le-la tuteur-trice peut éventuellement aider à compléter ces questions, qui sont pour le
+moins :
+- La date du début de la symptomatologie.
+- Le mode de début : brusque, aigu, subaigu, progressif.
+- Le mode de début (brusque, progressif).
+- La répartition du déficit, distal, proximal, diffus, bilatéral, symétrique.
+- Le caractère fluctuant ou constant des plaintes.
+- L’évolution : en aggravation, transitoire, stable.
+- La présence d’autres symptômes tels que diplopie, dysarthrie, trouble de la déglutition,
+autres.
+- La nature purement motrice du déficit, ou l’association avec des plaintes sensitives.
+- La présence d’une fatigabilité.
+- La présence de douleurs.
+- La présence de « red flags » pour une prise en charge urgente, type dysphagie,
+dyspnée.
+Ensuite l’étudiante doit déterminer ce qui à l’anamnèse et/ou au status va l’aider à
+déterminer où se situe la lésion : cerveau, moelle, racine, plexus, nerf, jonction nerfmuscle, muscle et en particulier à distinguer entre une atteinte centrale, nerf
+périphérique, jonction nerf-muscle et muscle :
+-
+
+Topographie de la faiblesse (hémi/para/territoire d’une racine ou d’un nerf).
+Réflexes ostéotendineux : absents ou diminués, normaux, vifs-très vifs.
+Amyotrophie et fasciculations.
+Signes associés (trouble cognitif, hémianopsie, trouble sensitif, troubles vésicosphinctériens,...).
+
+AMC de neurologie et de neurochirurgie
+43
+
+Problème no 4
+Pour chacune des 3 situations, le but est de trouver d’abord le système touché (jonction
+neuro-musculaire, système nerveux périphérique et muscle) puis de faire un diagnostic
+différentiel avant de parler du diagnostic en particulier.
+Situation 1 : Jonction neuro musculaire
+Auto immune : Myasthénie
+Mais DD :
+•
+•
+•
+
+Lambert Eaton
+Toxique : curare, venin de cobra, botulisme, gaz sarin,..
+…
+
+Situation 2 Polyneuropathie /Polyradiculopathie
+Auto immun : Guillain-Barré
+Mais DD
+• Toxico métabolique : OH, diabète, déficit vitamine, nombreux médicaments,…
+• Infectieux : Lyme,…
+• Héréditaire : Charcot Marie Tooth,…
+• …
+Profiter de cette vignette pour évoquer rapidement ce qui distingue une polyneuropathie,
+d’une mononeuropathie focale (ex nerf médian au tunnel carpien), d’une radiculopathie (ex
+L5 sur hernie discale), et d’une plexopathie (ex Parsonage Turner).
+Situation 3 Myopathie
+Auto immun : Polymyosite
+Mais DD
+• Toxico métabolique : troubles endocriniens ou électrolytiques, OH, nombreux
+médicaments
+• Infectieux
+• Héréditaire
+• …
+Il faut finalement mettre l’accent sur le fait que certains examens complémentaires sont
+non seulement inutiles mais mauvais pour la santé du patient et de la planète.
+Ex : CT cerebral (avant PL) et CT Lombaire (recherche prise contraste racines) lors d’un
+Guillain-Barré : respectivement 1,5 mSV et 7 mSV et 2,1 kg Co2.
+
+AMC de neurologie et de neurochirurgie
+44
+
+Problème no 4
+
+Situation 1 : Myasthénie grave
+Ce problème doit amener l’étudiant-e à poser un diagnostic à partir d’une symptomatologie
+purement motrice, qui est une parésie et une fatigabilité. Les questions suivantes doivent
+être posées : diplopie ? dysarthrie ? trouble de la déglutition ?
+Le diagnostic de myasthénie grave, même si ce n’est pas une maladie fréquente, doit être
+connu. Il faut savoir que des investigations sont nécessaires rapidement, que c’est une
+maladie traitable, et que de nombreux médicaments sont contre-indiqués dans la maladie.
+Le diagnostic doit être évoqué sur la base de l’anamnèse principalement et sur l’absence
+de signes et symptômes en faveur d’une atteinte centrale ou du nerf périphérique.
+Discuter le diagnostic de maladies neurologiques qui ne se traduisent que par des
+troubles moteurs :
+- Atteinte centrale : hémiparésie (transitoire ou installée). Importance des signes
+associés (spasticité, réflexes augmentés).
+- Atteinte médullaire : habituellement déficit sensitif (niveau), troubles sphinctériens.
+- Atteinte de la corne antérieure (par exemple SLA) : déficit moteur pur, mais lentement
+progressif.
+- Atteinte nerveuse périphérique, focale ou généralisée : habituellement sensitive et
+motrice. Rarement motrice pure, et pas transitoire.
+- Atteinte de la jonction neuromusculaire : fluctuations.
+- Myopathies d’étiologie diverses : pas transitoires.
+Lorsque le diagnostic de myasthénie grave est proposé, discuter les investigations :
+Anamnèse et examen clinique.
+Test médicamenteux (Enlon, Prostigmine), test du glaçon.
+Dosage des anticorps anti-récepteurs à l’acétylcholine (RACh), anti-MuSK.
+ENMG : (1) stimulation répétitive, peu sensible, très spécifique ; (2) examen de fibre
+unique très sensible, moins spécifique.
+Imagerie thoracique : pathologie du thymus.
+
+Discuter les traitements possibles
+1) Symptomatiques : anti-acétylcholin estérase : pyridostigmine (Mestinon®).
+2) Des crises (décompensation aiguë) : immunoglobulines iv, plasmaphérèses.
+3) De fond :
+- Immunosuppression : prednisone, azathioprine (Imurek®), mycophénolate mofétil
+(CellCept®), rituximab (MabThera®), etc.
+- Chirurgie (ablation du thymus).
+
+AMC de neurologie et de neurochirurgie
+45
+
+Problème no 4
+
+Généralités
+La myasthénie grave n’est pas une maladie fréquente. Toutefois c’est une maladie à
+connaître. Elle concerne souvent la personne jeune, et c’est une maladie traitable. C’est
+une maladie qu’il est important de diagnostiquer vite, car elle peut s’aggraver rapidement.
+Importance de connaître cette maladie, qui peut sur le plan clinique se présenter de façon
+très variable, ce qui rend son diagnostic parfois difficile.
+Les présentations habituelles sont :
+- une atteinte de l’oculomotricité, avec diplopie, ptosis avec fluctuations ;
+- une atteinte bulbaire, avec troubles de la déglutition et de l'élocution (dysarthrie
+nasonnée s'aggravant lorsque le patient parle longtemps) ;
+- une atteinte généralisée.
+Physiopathologie
+Il s’agit d’une maladie due à la présence d’anticorps dirigés contre des antigènes de la
+plaque motrice qui provoquent une dysfonction de la jonction neuromusculaire.
+De nombreux médicaments peuvent décompenser la maladie, en particulier les sédatifs,
+certains antibiothiques (aminosides), les bêtabloquants, etc.
+
+La décompensation peut être rapide, avec insuffisance respiratoire aiguë. Cet aspect doit
+être connu.
+
+Situation 2 : Guillain-Barré
+L’anamnèse de troubles sensitifs distaux des membres inférieurs, récents, avec une
+faiblesse, dans le décours d’un état grippal, doit faire suspecter un syndrome de GuillainBarré.
+L’examen montre des signes d’atteinte périphérique, ce qui conforte le diagnostic. Le-la
+tuteur-trice doit insister sur la sémiologie, en particulier sur la diminution des réflexes.
+Le diagnostic différentiel est discuté : autres polyneuropathies (diabète, alcool, autres)
+mais évolution trop rapide pour rendre ces diagnostics probables.
+Lorsque le diagnostic de Guillain-Barré est suspecté, des investigations doivent être
+proposées :
+Une ponction lombaire doit être pratiquée rapidement. Le LCR montre de manière
+caractéristique une dissociation cyto-albuminologique (protéinorachie sans élévation du
+nombre des leucocytes. Cette dissociation peut ne pas exister dans la phase précoce
+(nécessité de répéter la PL).
+Dans ce cas : le LCR : protéines à 0.67 g/l ; pas d’élévation des leucocytes.
+Examens sanguins : examens courants sans particularité.
+
+AMC de neurologie et de neurochirurgie
+46
+
+Problème no 4
+
+L'ENMG dans la forme typique démyélinisante de syndrome de Guillain-Barré (AIDP)
+montre un ralentissement de la conduction nerveuse périphérique de répartition
+inhomogène (multineuropathie), souvent accentué aux sites d'enclavements des nerfs
+périphériques. Il est souvent difficile de se prononcer sur une éventuelle atteinte axonale
+associée à la démyélinisation en raison de la diminution de l'excitabilité nerveuse. Le
+pronostic est moins bon en cas de lésions axonales importantes.
+Un traitement et une prise en charge doivent être proposés, et instaurés
+rapidement :
+Le traitement spécifique consiste en des immunoglobulines intraveineuses ou des
+échanges plasmatiques. Ces traitements diminuent la gravité et la durée de l’atteinte s’ils
+sont instaurés tôt.
+Mesures symptomatiques : surveillance de la fonction respiratoire. Hospitalisation aux
+soins intensifs en cas de troubles respiratoires.
+Surveillance des paramètres cardio-vasculaires (pouls et TA).
+
+Généralités
+Le syndrome de Guillain-Barré est une polyradiculonévrite aiguë (l’atteinte concerne donc
+les racines et les nerfs périphériques).
+Les lésions. Les nerfs sont le siège de démyélinisations focales multiples pouvant
+concerner le nerf en n’importe quel endroit de son trajet. Les axones (fibres nerveuses)
+sont souvent épargnés mais pas dans tous les cas. Histologiquement les nerfs sont le
+siège d’infiltrats inflammatoires périvasculaires.
+La physiopathologie (immunologique). Un mécanisme immunologique est responsable
+des polyradiculonévrites inflammatoires. L’affection succède souvent à une infection virale
+(par exemple ORL) ou bactérienne (par exemple gastroentérite à Campylobacter jejuni)
+ou rarement à une vaccination. Les troubles neurologiques débutent environ 3 semaines
+suivant ces antécédents. L’hypothèse physiopathogénique retenue actuellement est celle
+d’une atteinte croisée contre des antigènes myéliniques (mimimétisme moléculaire).
+
+AMC de neurologie et de neurochirurgie
+47
+
+Problème no 4
+L’évolution. On distingue 3 phases :
+1) Phase d’extension caractérisée par des paresthésies et déficit moteur dans des
+proportions variables. L’atteinte débute souvent aux membres inférieurs puis s’étant
+vers le haut du corps. La gravité qu’atteindra l’affection est imprévisible. Une
+surveillance est nécessaire pour détecter l’apparition de troubles respiratoires (par le
+contrôle de la capacité vitale) et autonomes qui nécessiteront le transfert dans un
+service de soin intensifs.
+2) Phase de plateau. Le nadir est habituellement atteint après 2 à 3 semaines. Au
+maximum l’atteinte réalise une tétraplégie avec souvent une parésie faciale bilatérale
+(diplégie faciale du s. de Guillain-Barré). Il peut exister une atteinte des nerfs crâniens
+IX et X, responsable de troubles de la déglutition. L’aréflexie (abolition des réflexes
+ostéotendineux) est fréquente. Les troubles sensitifs prédominent sur les sensibilités
+tactile et profonde. Des troubles nerveux autonomes sont observés dans les formes
+graves, avec en particulier une absence de variation du rythme cardiaque responsable
+de syncope, voire d’arrêt cardiaque (si les patients sont levés rapidement par exemple).
+3) Phase de récupération. Débute après une à deux semaines de stabilité des troubles.
+Les déficits régressent progressivement, souvent dans l’ordre inverse de leur apparition,
+cependant plus lentement. Cette phase dure des semaines ou des mois. Des séquelles
+durables sont observées dans les cas qui ont présenté une atteinte axonale accusée
+(20 % des patients).
+Connaître l’existence de formes cliniques particulières et de polyradiculonévrites
+inflammatoires chroniques.
+
+Situation 3 : Polymyosite
+L’anamnèse d’une faiblesse proximale progressive des 4 membres, relativement
+symétrique, l’absence de troubles sensitifs, doit faire évoquer une myopathie. La présence
+de douleurs associées doit faire penser à une polymyosite. L’absence de lésions
+dermatologiques écarte une dermatomyosite ; attention à l’association fréquente de cancer
+et dermatomyosite.
+Le diagnostic différentiel comporte d’autres myopathies.
+Le caractère récent et assez évolutif des plaintes écarte une myopathie héréditaire. La
+présence de douleur suggère une polymyosite. Néanmoins ce tableau n’est pas spécifique
+et le diagnostic différentiel comporte pour le moins des myopathies telles qu’une myopathie
+hypothyroïdienne, une myopathie due à l’alcool, etc.
+
+AMC de neurologie et de neurochirurgie
+48
+
+Problème no 4
+
+La répartition proximale de la parésie est habituelle dans les myopathies.
+Des investigations doivent être proposées
+Elles comportent des examens de sang, en particulier le dosage des enzymes
+musculaires. L’examen le plus usuel est le dosage de la créatine-kinase (CK) ; le dosage
+des autres enzymes (aldolase, LDH, etc.) peut se faire, mais il n’est pas indispensable.
+Les tests thyroïdiens sont indiqués.
+L’EMG est indiqué. Il montre habituellement des signes de myopathie, et des potentiels
+de repos. Cette association suggère nettement une myosite.
+
+Le diagnostic doit être confirmé par biopsie musculaire.
+Si le diagnostic de polymyosite est confirmé, un traitement est proposé (prednisone ou
+autres traitements immunosuppresseurs).
+
+AMC de neurologie et de neurochirurgie
+49
+
+Problème no 5
+
+PROBLÈME NO 5: EPILEPSIE
+ENONCÉ INITIAL : ETAPE 1/2
+Monsieur Anthony Koclonik âgé de 23 ans, étudiant, est adressé aux urgences pour la
+survenue brutale d’une perte de connaissance sur la voie publique.
+Dans les antécédents familiaux, on relève que la mère aurait souffert de crises de nature
+épileptique entre l’âge de 14 ans et de 37 ans, de type crises tonico-cloniques
+généralisées. Elle avait été traitée par phénobarbital. Elle est décédée à l’âge de 52 ans
+d’un cancer du sein.
+L’examen clinique à l’arrivée aux urgences révèle une confusion avec désorientation
+temporo-spatiale qui va en s’atténuant, de même que des troubles régressifs du langage.
+Il n’existe pas de plaie apparente, mais il est constaté une morsure de langue et une perte
+d’urines. L’examen neurologique ne montre pas de signe de focalisation.
+Le reste de l’examen général est normal, néanmoins l’auscultation cardiaque met en
+évidence un souffle holosystolique. On apprend par l’anamnèse qu’il n’y avait aucun signe
+prémonitoire de la crise, que le patient est tombé brutalement et a présenté des
+phénomènes convulsifs des deux côtés. Par ailleurs, la veille Monsieur Koclonik avait fait
+la fête avec des amis et avait bu de l’alcool d’une manière tout à fait inhabituelle.
+
+Questions :
+-
+
+Quels sont les problèmes posés par ce patient ?
+S’agit-il d’une crise d’épilepsie ou d’une syncope convulsivante ?
+Quels sont les examens à demander en urgence ?
+Faut-il instaurer un traitement d’emblée ?
+
+AMC de neurologie et de neurochirurgie
+50
+
+Problème no 5
+
+ENONCE : ETAPE 2/2
+Une demi-heure après son arrivée aux urgences, le patient a entièrement récupéré. Son
+examen neurologique est normal. Il se plaint de courbatures et sa langue lui fait mal. Il est
+pratiqué un bilan biologique.
+L’électroencéphalogramme pratiqué trois heures après la perte de connaissance montre
+des anomalies paroxystiques à type de pointes et de poly-pointes-ondes qui se distribuent
+d’une manière généralisée sur l’ensemble du scalp et qui sont majorées par l’hyperpnée
+et
+
+la
+
+SLI.
+
+L’électroencéphalographiste
+
+conclut
+
+qu’il
+
+s’agit
+
+de
+
+signes
+
+électroencéphalographiques d’une épilepsie généralisée génétique (ou idiopathique).
+L’électrocardiogramme est normal. Le bilan biologique se révèle normal ; la glycémie est
+à la limite inférieure de la normale.
+Le CT-scan est normal.
+Questions :
+-
+
+Va-t-on pratiquer une résonance magnétique nucléaire chez ce patient, compte
+tenu que le scanner est normal ?
+Est-ce que les résultats de l’électroencéphalogramme apportés sont suffisants ou
+faut-il pratiquer un EEG après privation de sommeil ?
+Faut-il instaurer un traitement antiépileptique ?
+
+AMC de neurologie et de neurochirurgie
+51
+
+Problème no 5
+
+CONTENU GENERAL DU PROBLEME
+-
+
+Problème clinique
+
+-
+
+Perte de connaissance de l'adulte jeune : origine
+cardiaque ou origine cérébrale.
+
+-
+
+Diagnostic
+
+-
+
+Epilepsie.
+
+-
+
+Entités nosologiques
+
+-
+
+Epilepsie de type généralisée entrant dans le
+cadre d'une épilepsie généralisée génétique (ou
+idiopathique).
+
+• Aspect(s) privilégié(s)
+
+-
+
+Séméiologie de la crise, examen post-critique,
+données de l'électroencéphalogramme, mise en
+route du traitement après une première crise,
+facteurs déclenchants des crises épileptiques
+chez l'adulte jeune.
+
+-
+
+-
+
+Cabinet médical, centre d'urgences, malade
+hospitalisé pour une suspicion de crise.
+
+Cadre du problème
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient
+être capables de :
+➢ Individualiser les symptômes et les signes qui orientent NEUROLOGIE
+vers la nature épileptique probable ou certaine d'une
+perte de connaissance de l'adulte jeune.
+➢ Connaître la séméiologie d'une crise bilatérale tonico- NEUROLOGIE
+clonique ou crise « grand mal » (vs syncope)
+➢ Partir du symptôme de la crise généralisée tonico- NEUROLOGIE
+clonique pour aboutir au syndrome épileptique apporté
+par la clinique d'une part et d'autre part et surtout les
+données de l'électroencéphalogramme indispensable
+ici au diagnostic.
+➢ Connaître la classification des crises et des NEUROLOGIE
+épilepsies/syndromes
+épileptiques
+(ancienne
+classification et nouvelle classification.de 2017).
+➢ Connaître l’utilité et les indications aux différents NEUROLOGIE
+examens complémentaires.
+
+AMC de neurologie et de neurochirurgie
+52
+
+Problème no 5
+
+REFERENCES
+NEUROLOGIE
+
+Cambier J et al. Neurologie. 13e éd. Issy-les-Moulineaux :
+Masson, 2012.
+Ropper AH, Samuels, MA. Adams and Victor's principles of
+neurology. 11th ed. New York: McGraw Hill, 2019. WL 140 8
+Ebook seulement :
+https://neurology.mhmedical.com/book.aspx?bookID=1477
+
+POUR EN SAVOIR W. Bouthour, P. Ryvlin, F. Picard. Première crise d’épilepsie :
+prise en charge pratique. Rev Med Suisse 2019; 15: 853-856.
+PLUS
+ILAE classification of the epilepsies: Position paper of the ILAE
+Commission for Classification and Terminology.
+I.E. Scheffer, S. Berkovic, G. Capovilla, M.B. Connolly, J. French,
+L. Guilhoto, E. Hirsch, S. Jain, G.W. Mathern, S.L. Moshé, D.R.
+Nordli, E. Perucca, T. Tomson, S. Wiebe, Y.-H. Zhang, S.M.
+Zuberi. Epilepsia 2017. doi: 10.1111/epi.13709
+Operational classification of seizure types by the International
+League Against Epilepsy: Position Paper of the ILAE Commission
+for Classification and Terminology.
+R.S. Fisher, J. H. Cross, J.A. French, N. Higurashi, E. Hirsch, F.E.
+Jansen, L. Lagae, S.L. Moshé, J. Peltola, E. Roulet Perez, I.E.
+Scheffer, S.M. Zuberi. Epilepsia 2017. doi: 10.1111/epi.13670
+Engel J., Epilepsy: a comprehensive textbook. (3 vol.) 2nd ed.
+Philadelphia: Wolters Kluwer, 2008. WL 385 2
+
+AMC de neurologie et de neurochirurgie
+53
+
+Problème no 5
+
+GUIDE DU-DE LA TUTEUR-TRICE
+Directives générales
+Les éléments importants qui doivent ressortir de ce problème sont :
+- L'importance de l'anamnèse d'un adulte qui vient de présenter une perte de
+connaissance.
+- L'importance de l'examen post-critique à la recherche de signes neurologiques
+focalisés, et discuter de la possibilité et des conséquences sur la prise en charge en
+cas de crise à début focal (même en l’absence de début focal évident cliniquement) vs
+crise tonico-clonique bilatérale d’emblée.
+- Poser finalement le diagnostic d'une crise épileptique tonico-clonique généralisée.
+- Déterminer si cette crise épileptique est provoquée ou non.
+- A partir des symptômes de la crise et grâce aux données de l'électroencéphalographie,
+intégrer cette crise dans un syndrome épileptique.
+1. Souligner d'emblée que cette crise est inaugurale d'une « épilepsie-maladie », car les
+données de l'électroencéphalogramme sont positives (montrant des anomalies
+épileptiformes) et donc dans ce cas précis, le patient devra être traité par un
+antiépileptique, qui doit être adapté au syndrome épileptique (valproate de sodium,
+lévétiracetam, lamotrigine). Le suivi du patient se fera par un contrôle clinique et
+électroencéphalographique. Le pronostic de ce type d'épilepsie est plutôt bon. La
+surveillance est clinique et électroencéphalographique. Aborder les problèmes de
+compliance et leurs conséquences si la compliance est mauvaise : accidents et
+traumatismes, mortalité plus élevée avec risque de SUDEP (mort subite inexpliquée
+chez un patient souffrant d’épilepsie), interactions médicamenteuses et précautions
+chez la femme en âge de procréer. Ne pas oublier de signaler l’interdiction de conduite
+automobile et l’indiquer dans le dossier.
+2. Connaître la définition actuelle de l’épilepsie (2 crises non provoquées à un intervalle
+> 24 h, ou 1 crise et un examen (EEG et/ou IRM cérébrale) indiquant un fort risque
+d’une récidive, c'est-à-dire lésion épileptogène, donc affectant le cortex cérébral, sur
+l’IRM ou décharges épileptiformes interictales sur l’EEG).
+- Discuter l’utilité de la neuroimagerie – aux urgences (évtl CT) vs pour le diagnostic
+précis (plutôt IRM).
+- Discuter la différence entre crise provoquée (symptomatique aiguë) et non-provoquée.
+- Parler des facteurs favorisants des crises (dette de sommeil, prise d’alcool la veille,
+prise de certains médicaments qui abaissent le seuil épileptogène).
+
+Matériel associé
+- Vidéo d'une crise d’emblée généralisée tonico-clonique, d’une absence et d’une crise
+focale (anciennement appelée « partielle »)
+- Exemple d’électroencéphalogramme
+AMC de neurologie et de neurochirurgie
+54
+
+Problème no 5
+
+Déroulement détaillé des tutoriaux
+ETAPE 1/2
+1) Bilan d'une perte de connaissance :
+Il est indispensable pour le-la tuteur-trice d'apporter les éléments habituels qui
+permettent de poser le diagnostic d'une crise d’emblée généralisée tonico-clonique par
+opposition à une crise focale avec généralisation secondaire : absence d’aura
+(symtômes subjectifs au début de la crise) ou de début moteur focal ou de rupture de
+contact prolongée ; les 3 composantes de la crise généralisée tonico-clonique avec
+phénomène tonique, phénomène clonique et état post-critique de plus de 10 minutes.
+Importance de l'examen post-critique. On peut rajouter que la perte des urines n’est pas
+spécifique d'une crise épileptique mais signale simplement une perte de connaissance
+avec altération profonde de la conscience. La morsure de langue est plus évocatrice
+d’une crise d’épilepsie si elle est latérale et importante.
+Y opposer les signes d'une syncope et en particulier de la syncope convulsivante où il
+existe habituellement des signes prémonitoires du malaise (sensation lipothymique),
+des phénomènes toniques ou quelques clonies plutôt qu’un pattern tonico-clonique et
+pas d’état post-critique prolongé.
+
+2) Diagnostic des pertes de connaissance de l'adulte jeune :
+Il est important ici de pouvoir proposer à l'étudiant-e la classification des crises
+épileptiques entre crises partielles (= focales dans la nouvelle terminologie) et crises
+généralisées. Quel est l'apport de l'anamnèse, l'apport de l'électroencéphalogramme
+dans la distinction des crises focales et généralisées ?
+Bien opposer les crises généralisées convulsives et non convulsives (absences) et dans
+les crises focales, les crises focales sans altération de la conscience (anciennement
+appelées « crises partielles simples ») et crises focales avec altération de la conscience
+(anciennement appelées « crises partielles simples »), qui s'accompagnent d'une
+rupture de contact soit immédiatement soit après un début sans altération de
+conscience.
+
+3) Individualiser un syndrome épileptique :
+Il est fondamental ici de bien individualiser le syndrome épileptique suivant les données
+de l'anamnèse, de l'électroencéphalogramme et éventuellement des examens
+neuroradiologiques et bien distinguer finalement 3 grands types d'étiologie : les
+épilepsies structurelles, dans lesquelles l'imagerie cérébrale montre une lésion
+épileptogène, les épilepsies dites génétiques (idiopathiques selon l’ancienne
+classification) dont le diagnostic ne peut être posé que sur l'électroencéphalogramme
+qui montre des anomalies spécifiques de chaque syndrome, enfin les épilepsies dites
+« de cause inconnue » (anciennement « cryptogéniques ») qui se définissent par
+exclusion des autres causes connues.
+
+AMC de neurologie et de neurochirurgie
+55
+
+Problème no 5
+
+4) Intérêt de l'électroencéphalogramme :
+Quand le pratiquer ? Il est plus important de prendre une bonne anamnèse, qui permet
+la plupart du temps de distinguer les crises d’épilepsie de leur diagnostic différentiel
+(syncope…) et de faire la différence entre une crise focale et une crise généralisée.
+Néanmoins, un EEG précoce dans les 6-12 heures qui ont suivi la crise augmente la
+probabilité de mettre en évidence des anomalies épileptiformes interictales focales,
+permettant devant une crise apparemment généralisée de dire qu'il s'agit d'une crise
+focale secondairement généralisée. L’EEG doit comporter des manœuvres d’activation
+(hyperpnée, stimulation lumineuse intermittente) qui permettent parfois de révéler des
+anomalies épileptiformes interictales. L’électroencéphalogramme est fondamental pour
+porter
+le
+diagnostic
+d'une
+épilepsie
+dite
+génétique
+(idiopathique).
+L'électroencéphalogramme devra être donc de toute façon systématiquement pratiqué
+après la suspicion d'une première crise de nature épileptique. Si cet
+électroencéphalogramme se révèle normal, alors que la clinique oriente très fort vers
+une épilepsie, il faudra demander un électroencéphalogramme de sommeil, plus
+sensible pour détecter des décharges épileptiformes interictales.
+
+5) Les examens complémentaires
+A demander devant un sujet venant de présenter une crise de nature épileptique
+certaine : avant tout et surtout : l'électroencéphalogramme de routine avec les
+différentes activations (HPN, SLI), dans un délai maximal de 2-3 jours. En cas d'EEG
+normal, un électroencéphalogramme de sommeil doit être discuté en fonction des
+données de l’imagerie.
+Une IRM cérébrale est plus informative que le CT pour détecter une lésion épileptogène,
+notamment pour détecter une tumeur de bas grade, une dysplasie corticale focale ou
+une séquelle traumatique ou vasculaire. Un CT en urgence est demandé lorsque
+l’examen clinique neurologique est anormal ou si on craint une hémorragie à l’origine
+de la crise ou comme conséquence (traumatisme). Une imagerie en urgence est
+également indiquée en présence de certaines comorbidités : alcoolisme,
+immunosuppression, troubles de la crase. En revanche, l'IRM doit être pratiquée
+lorsqu'il y a une suspicion d'une crise focale secondairement généralisée. Devant un
+tableau clinique et EEG typique d’une épilepsie généralisée idiopathique, il est possible
+de se passer de l’IRM.
+
+6) Faut-il mettre en route un traitement anti-épileptique et quand ?
+Un traitement anti-épileptique est proposé après la survenue de 2 crises épileptiques
+non provoquées survenues à plus de 24h d’intervalle, ou après 1 crise non provoquée
+associée à des anomalies IRM (lésion épileptogène) et/ou EEG (décharges
+épileptiformes interictales) concordantes. En effet, il a pu être montré que dans ce
+contexte la probabilité de récurrence de crise est similaire au risque de récurrence
+après 2 crises non provoquées sur les 10 prochaines années (au moins 60 %).
+Cependant, le risque de récidive est maximal au cours de la première année.
+
+AMC de neurologie et de neurochirurgie
+56
+
+Problème no 5
+
+Un traitement antiépileptique ne doit être prescrit que lorsque :
+➢ On a la certitude de la nature épileptique d'une crise.
+➢ L'électroencéphalogramme montre des anomalies épileptiformes indiscutables, ou
+l’IRM cérébrale montre une lésion épileptogène (cette première crise est donc
+inaugurale d'une épilepsie-maladie).
+➢ Le choix de l’antiépileptique se fera en fonction du type d’épilepsie (focale vs
+généralisée) mais également en tenant compte du profil d’effets secondaires (p.ex.
+prise/perte de poids, effet sur la thymie, effet sur le sommeil, toxicité, risque
+tératogène chez la femme en âge de procréer), des interactions médicamenteuses
+(induction/inhibition enzymatique, effet sur la contraception) et du métabolisme
+(rénal/hépatique). Comme il s’agit d’un traitement à long terme, une bonne tolérance
+est primordiale pour garantir une bonne compliance.
+
+ETAPE 2/2
+-
+
+Aborder la notion de pharmacorésistance. Près de 30 % des patients épileptiques
+seront résistants au traitement médicamenteux antiépileptique (en particulier en cas
+d’épilepsie focale). Après l’essai infructueux de 2 médicaments antiépileptiques, la
+chance de faire disparaitre les crises avec d’autres médicaments n’est que
+d’environ 5 %. Des alternatives au traitement médicamenteux sont alors proposées
+(traitement chirurgical, neuromodulation, à déterminer après une évaluation
+approfondie de l’épilepsie).
+
+AMC de neurologie et de neurochirurgie
+57
+
+Problème no 6
+
+PROBLÈME NO 6 : PARKINSON
+ENONCÉ INITIAL : ETAPE 1/3
+Monsieur JP, jardinier de 55 ans, droitier, a remarqué depuis environ un an l’apparition
+d’un tremblement de la main gauche, d’abord intermittent puis presque permanent, qui
+l'embarrasse lorsqu’il est en compagnie, mais qui ne l’empêche pas de poursuivre
+normalement ses activités manuelles. Néanmoins, il a récemment été convoqué par son
+employeur qui a noté une certaine lenteur dans ses tâches professionnelles. Il se plaint,
+par ailleurs, depuis environ six mois, de douleurs profondes dans la région de la fesse et
+de la cuisse gauche, pour lesquelles des RX des hanches et du rachis lombaire ainsi qu’un
+CT lombaire se sont révélés normaux. Il a toujours joui d’une excellente santé et son
+anamnèse familiale ne révèle aucun antécédent neurologique. Il ne prend aucun
+médicament particulier.
+Questions :
+− Quel est votre diagnostic différentiel ?
+− Que recherchez-vous à l’examen neurologique ?
+− Quels examens complémentaires demandez-vous ?
+
+AMC de neurologie et de neurochirurgie
+58
+
+Problème no 6
+
+ENONCE : ETAPE 2/3
+(Enoncé donné par le-la tuteur-trice)
+
+Patient orienté, collaborant à l’examen neuropsychologique normal. Discrète hypomimie,
+sans autre atteinte des nerfs crâniens, notamment PAS DE : limitation de l’oculomotricité,
+nystagmus, tremblement de la tête, dysarthrie ou dysphonie, posture anormale de la tête.
+Aux quatre membres : tremblement intermittent de la main gauche au repos. Pas de
+tremblement d’action ou de posture. Discrète rigidité au poignet gauche avec roue dentée.
+Diminution progressive de l’amplitude des mouvements répétitifs des membres supérieur et
+inférieur gauches. Position légèrement voûtée et diminution du ballant du bras gauche à la
+marche.
+Sinon sans particularité notamment PAS DE : signe de Babinski, signe cérébelleux, signe
+de polyneuropathie.
+Test de Schellong négatif.
+CT-scan ou IRM cérébral normal : pas de lésions vasculaires, d’hydrocéphalie ou,
+d’atteinte structurelle majeure des noyaux gris centraux.
+Question :
+− Quel est votre diagnostic et quel traitement instituez-vous ?
+
+AMC de neurologie et de neurochirurgie
+59
+
+Problème no 6
+
+ENONCE : ETAPE 3/3
+Sept ans plus tard, Monsieur JP a 62 ans. Malgré l’optimalisation de son traitement, il a vu
+réapparaître ses symptômes de façon intermittente, notamment juste après qu’il prenne
+son traitement. Il a dû abandonner son travail il y a 6 mois. Depuis lors, il remarque une
+instabilité à la marche et est tombé à deux reprises. De plus, sont apparus, depuis environ
+un an, des mouvements involontaires de ses quatre membres qui, bien qu’intermittents
+eux aussi, deviennent de plus en plus invalidants.
+Question :
+− Quelle est votre attitude ?
+
+AMC de neurologie et de neurochirurgie
+60
+
+Problème no 6
+
+CONTENU GENERAL DU PROBLEME
+-
+
+Problème clinique
+
+-
+
+Syndrome parkinsonien. Dyskinésies.
+
+-
+
+Diagnostic
+
+-
+
+Maladie de Parkinson.
+
+-
+
+Entités nosologiques
+
+-
+
+Maladies extrapyramidales.
+
+-
+
+Aspect(s) privilégié(s)
+
+-
+
+Diagnostic différentiel et traitement des maladies
+extrapyramidales.
+
+-
+
+Cadre du problème
+
+-
+
+Cabinet médical.
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient
+être capables de connaître :
+-
+
+L’approche diagnostique
+syndromes parkinsoniens.
+
+-
+
+Les autres syndromes extrapyramidaux et avoir NEUROLOGIE /
+certaines notions de leurs approches thérapeutiques.
+NEUROCHIRURGIE /
+PHARMACOLOGIE
+
+-
+
+L'approche particulière des maladies neurologiques NEUROLOGIE /
+chroniques.
+ENSEIGNEMENT
+THERAPEUTIQUE POUR
+MALADIE CHRONIQUE
+
+et
+
+thérapeutique
+
+des NEUROLOGIE /
+NEUROCHIRURGIE
+
+AMC de neurologie et de neurochirurgie
+61
+
+Problème no 6
+
+REFERENCES
+NEUROLOGIE
+
+Cambier J et al. Neurologie. 13e éd. Issy-les-Moulineaux :
+Masson, 2012.
+Ropper AH, Samuels, MA. Adams and Victor's principles of
+neurology. 11th ed. New York: McGraw Hill, 2019. WL 140 8
+Ebook seulement :
+https://neurology.mhmedical.com/book.aspx?bookID=1477
+
+POUR EN SAVOIR CD Marsden, S Fahn. Movement Disorders. Butterworths
+PLUS
+International Medical Reviews. London. Vol I: 1982, Vol II: 1987,
+Vol III: 1994.
+S Fahn, M Hallet, J Jankovic . Principles and practice of
+movements disorders. 2nd edition. Elsevier, 2011.
+
+AMC de neurologie et de neurochirurgie
+62
+
+Problème no 6
+
+GUIDE DU- DE LA TUTEUR-TRICE
+Directives générales
+Ce problème permet d’aborder divers aspects des maladies extrapyramidales à travers
+l’exemple d’une de ses pathologies les plus fréquentes : la maladie de Parkinson.
+L’essentiel de ce problème devrait être abordé lors des passages en clinique ou
+policlinique de Neurologie sans qu’il ne soit nécessaire d’y consacrer une leçon théorique.
+Divers volets seront abordés :
+D’un point de vue diagnostique :
+1) Diagnostic du syndrome parkinsonien et son diagnostic différentiel.
+2) Diagnostic différentiel des tremblements.
+3) Diagnostic différentiel des autres sémiologies extrapyramidales.
+D’un point de vue thérapeutique : indication et complications des :
+1) Traitements dopaminergiques présynaptiques (lévodopa, inhibiteurs de la dopadécarboxylase, ICOMT, IMAO).
+2) Traitements dopaminergiques post-synaptiques (agonistes dopaminergiques).
+3) Traitements antagonistes dopaminergiques (neuroleptiques).
+4) Autres traitements médicamenteux antiparkinsoniens.
+5) Traitements non-médicamenteux des syndromes parkinsoniens (physiothérapie,
+ergothérapie, etc.).
+6) Traitements de la maladie avancée : pompes et neurochirurgie fonctionnelle.
+De plus, certains aspects anatomiques et physiopathologiques déjà abordés par une
+vignette similaire de « Perception et Contrôle moteur » seront rappelés.
+Enfin les aspects particuliers des maladies chroniques lentement évolutives pourront être
+abordés : répercussion sociale, familiale, etc.
+
+Matériel associé
+Vidéo « maladies extrapyramidales ».
+
+AMC de neurologie et de neurochirurgie
+63
+
+Problème no 6
+
+Déroulement détaillé des tutoriaux
+ETAPE 1/3
+Le problème posé est la reconnaissance des symptômes d’appel du parkinsonisme sous
+deux aspects :
+1) Le diagnostic différentiel de son symptôme d’appel le plus fréquent : le tremblement.
+Ceci devrait permettre de rappeler les trois grands types de tremblement (repos,
+posture, d’action) leur caractéristiques habituelles (distribution, symétrie, etc.) et le type
+classique des pathologies qu’ils sous-tendent (tremblements parkinsonien, essentiel,
+cérébelleux). Partant, amener au diagnostic différentiel du tremblement, en particulier
+la distinction entre le tremblement parkinsonien et le tremblement essentiel
+2) La reconnaissance des symptômes d’appel plus inhabituels des syndromes
+parkinsoniens permettant d’inclure ces syndromes dans leur diagnostic différentiel.
+Ainsi, les douleurs et la dépression et de nombreux autres symptômes non moteurs
+peuvent fréquemment être le premier symptôme de la maladie de Parkinson.
+Le second aspect de cette étape est d’amener la recherche par l’examen clinique, puis la
+demande d’examen paraclinique approprié, à avancer dans le diagnostic différentiel
+jusqu’au diagnostic de maladie de Parkinson. Une attention particulière sera donnée à la
+recherche des autres causes traitables de parkinsonisme telles qu’elles apparaissent dans
+l’étape 2 qui sera remise à l’apprenti.
+
+ETAPE 2/3
+Le problème posé lors de cette étape est celui de l’introduction du traitement de la maladie
+de Parkinson.
+1) Certains principes du métabolisme des neurotransmetteurs pourront être revus
+(métabolisme des catécholamines) lors de la discussion de la lévodopa (inhibiteurs de
+l’AADC, ICOMT, IMAOB). De même les notions de récepteurs synaptiques pourront
+être rappelées (agonistes dopaminergiques).
+2) La notion de traitement symptomatique, par opposition aux traitements causals ou
+neuroprotecteurs seront rappelés.
+3) La notion de maladie chronique nécessitant un traitement au long cours sera abordée
+avec les risques potentiels de tel traitement (hallucinations, troubles du contrôle des
+impulsions, polyneuropathies, etc ).
+Chez le malade présent, l’indication au traitement n’est ni le tremblement (non invalidant,
+et répondant souvent mal à la thérapeutique) ni la douleur (fréquemment résistante) mais
+bien la bradykinésie que le patient n’a pas remarquée mais qui met en péril sa place de
+travail.
+
+AMC de neurologie et de neurochirurgie
+64
+
+Problème no 6
+
+ETAPE 3/3
+Le problème posé est celui de l’apparition des complications à long terme du traitement de
+la maladie de Parkinson : « détérioration de fin de dose » (« wearing off »), dyskinésies,
+dystonies, « ON-OFF ». D’une part afin de les reconnaître et d’autre part afin d’appliquer
+les traitements appropriés.
+Cet exemple permettra de rappeler quelques bases physiopathologiques sous-tendant les
+syndromes extrapyramidaux, (voies « directe » et « indirecte » du schéma d’Alexander et
+Delong) permettant d’expliquer :
+1) La notion de « balance » entre inhibition et activation motrice amenant, par l’atteinte
+d’un même système, à l’hypo- et à l’hyperkinésie.
+2) Les nouvelles approches thérapeutiques de la maladie, notamment les approches
+neurochirurgicales et leurs indications.
+De plus, on pourra aborder l’importance de l’introduction de thérapies physiques afin de
+diminuer l’impact de symptômes résistant au traitement tels les troubles de l’équilibre et
+de la marche.
+On abordera aussi à propos de cette étape le diagnostic des autres formes de dyskinésies
+et d’hyperkinésie : chorée, athétose, dystonie, tics, myoclonies. Afin d’aider à la description
+de ces syndromes une vidéo sera mise à disposition des apprentis.
+
+AMC de neurologie et de neurochirurgie
+65
+
+Problème no 7
+
+PROBLÈME NO 7 : CÉPHALÉES SECONDAIRES : MADAME TOHM
+EN collaboration avec les neuroradiologues
+ENONCE INITIAL : ETAPE 1/2
+Mme Tohm est hospitalisée en urgence. Elle a été trouvée étendue au bas d’un escalier,
+confuse, avec une plaie au cuir chevelu.
+A l’admission, l’état confusionnel la rend incapable de donner des renseignements.
+L’examen général est sans particularité chez cette patiente qui paraît avoir une
+quarantaine d’années. On constate une plaie du cuir chevelu, assez importante, frontale
+gauche.
+L’examen neurologique ne montre pas de latéralisation. La patiente est confuse et le
+glasgow est à 12.
+
+Questions :
+- A quoi pensez-vous ?
+- Que faites-vous ?
+
+AMC de neurologie et de neurochirurgie
+66
+
+Problème no 7
+
+ENONCE : ETAPE 2/2
+Différentes situations sont possibles :
+
+Situation 1
+Dans la demi-heure qui suit son admission, l’état de conscience s’améliore. Elle vous
+raconte une chute accidentelle dans les escaliers. Il n’y a pas eu de malaise avant la chute.
+Elle est en bonne santé habituelle, sans antécédents notables.
+Elle se plaint de céphalées, et de vagues nausées.
+L’examen général et neurologique reste normal.
+La nuque est souple.
+Questions :
+- A quoi pensez-vous ?
+- Que faites-vous ?
+
+1
+2
+
+Evolution : état de conscience diminue
+- Que faites-vous ?
+
+3
+
+AMC de neurologie et de neurochirurgie
+67
+
+Problème no 7
+
+Situation 2
+Dans la demi-heure qui suit son admission, l’état de conscience s’améliore. Elle
+vous raconte qu’elle a ressenti subitement de violents maux de tête, diffus, puis
+qu’elle ne se rappelle rien jusqu’à son admission à l’hôpital.
+Elle a toujours fortement mal à la tête, se tient le front ; elle est nauséeuse.
+Elle est en bonne santé habituelle, sans antécédents notables.
+L’examen général et neurologique est normal, sans signes de latéralisation. La nuque est
+raide et douloureuse à la mobilisation.
+Questions :
+- A quoi pensez-vous ?
+- Que faites-vous ? 5
+
+4
+
+Situation 3
+Dans la demi-heure qui suit son admission, l’état de conscience s’améliore. Elle vous
+raconte que depuis 3-4 jours elle a des céphalées, modérées, inhabituelles et qu’elle s’est
+exposée au soleil sans s’hydrater. Elle raconte l'épisode aigu comme une perte de
+connaissance, survenue sans prodromes.
+Elle est en bonne santé habituelle, sans antécédents notables. Elle est sous contraception
+orale et fume 8-10 cigarettes par jour.
+
+Elle a toujours mal à la tête.
+L’examen général est normal hormis une morsure de langue.
+L’examen neurologique est normal, sans signes de latéralisation. Elle a toutefois une petite
+difficulté à trouver certains mots.
+Questions :
+- A quoi pensez-vous ?
+- Que faites-vous ?
+
+AMC de neurologie et de neurochirurgie
+68
+
+Problème no 7
+
+CONTENU GENERAL DU PROBLEME
+• Problème clinique
+
+-
+
+Diagnostic différentiel des principales céphalées
+secondaires
+
+• Diagnostics
+
+-
+
+Hématome épidural
+
+-
+
+Hémorragie sous-arachnoïdienne (HSA)
+
+-
+
+Thrombose veineuse cérébrale
+
+• Entités nosologiques
+
+-
+
+Céphalées
+
+• Aspect(s) privilégié(s)
+
+-
+
+Sémiologie ; urgences
+
+• Cadre du problème
+
+-
+
+Centre d’urgences
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient
+être capables de :
+•
+
+•
+
+Faire le diagnostic différentiel d’une perte de
+connaissance
+
+NEUROLOGIE
+
+Faire le diagnostic différentiel d’une céphalée
+
+NEUROLOGIE
+
+NEUROCHIRURGIE
+
+NEUROCHIRURGIE
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Connaître les points importants de l’anamnèse et du
+status menant au diagnostic d'un hématome épidural
+
+NEUROLOGIE
+
+Connaître les points importants de l’anamnèse et du
+status menant au diagnostic d'une HSA
+
+NEUROLOGIE
+
+Connaître les points importants de l’anamnèse et du
+status menant au diagnostic d'une thrombose veineuse
+cérébrale
+
+NEUROLOGIE
+
+Proposer les investigations indispensables lors des 3
+diagnostics discutés
+
+NEUROLOGIE
+
+Estimer le degré d’urgence de la prise en charge des 3
+diagnostics discutés
+
+NEUROLOGIE
+
+Connaître les principales autres causes de céphalées
+secondaires
+
+NEUROCHIRURGIE
+
+NEUROCHIRURGIE
+
+NEUROCHIRURGIE
+
+NEUROCHIRURGIE
+
+NEUROCHIRURGIE
+
+NEUROLOGIE
+
+Connaitre les différentes techniques d’imagerie cérébrale NEUROCHIRURGIE
+NEURORADIOLOGIE
+et leur indication en cas de céphalée
+
+AMC de neurologie et de neurochirurgie
+69
+
+Problème no 7
+
+REFERENCES
+Cambier J et al. Neurologie. 13e éd. Issy-les-Moulineaux : Masson,
+2012
+Ropper AH, Samuels, MA. Adams and Victor's principles of
+neurology. 11th ed. New York: McGraw Hill, 2019. WL 140 8
+Ebook seulement :
+https://neurology.mhmedical.com/book.aspx?bookID=1477
+https://ichd-3.org/part-ii-the-secondary-headaches/
+Greenberg MS. Handbook of neurosurgery. 9th ed. New York:
+Thieme, 2020. WL 39 11
+
+POUR EN SAVOIR
+PLUS
+
+GUIDE DES TUTEURS-TRICES (TANDEM NEUROLOGUE-NEURORADIOLOGUE)
+Directives générales
+Ce problème ouvre le diagnostic différentiel des céphalées secondaires, en débutant par
+des vignettes cliniques depathologies fréquentes (hématome épidural, HSA) et moins
+fréquentes (thrombose veineuse cérébrale), importantes à connaître car traitables. Les
+aspects sémiologiques et de neuroimagerie seront présentés et illustrés en binôme
+neurologue-neuroradiologue. Les principales céphalées secondaires à connaître seront
+ensuite abordées (lésions vasculaires, tumorales, infectieuses, hypertension
+intracrânienne etc…).
+
+Déroulement détaillé des tutoriaux
+Donne une situation clinique fréquente, avec peu de renseignements, qui ouvre un
+diagnostic différentiel large.
+Le but de cette première partie n’est pas de discuter la prise en charge d’un coma (qui est
+le thème d’une vignette de médecine d’urgence).
+
+AMC de neurologie et de neurochirurgie
+70
+
+Problème no 7
+
+Evolution 1 : Hématome épidural
+1
+L’évolution montre dans un premier temps qu’il s’agit de toute évidence d’un
+traumatisme crânien isolé. La description du traumatisme par le patient lui-même
+qui garde un status neurologique normal en fait un traumatisme mineur. On peut en
+déduire toutefois une perte de connaissance suivie d’un état confus, une amnésie
+circonstancielle (et non rétrograde s’il peut décrire les instants précédant la chute,
+non-antérograde non plus s’il est depuis adéquate depuis l’accident), puis des
+céphalées et nausées : c’est le tableau reconnu comme une commotion.
+2
+Tout traumatisme crânien même mineur peut évoluer dans les premières heures et
+le point principal à mentionner est une surveillance neurologique serrée. On dispose
+pour ceci de l’échelle de Glasgow (réponses oculaire, verbale et motrice) et de la
+surveillance des signes vitaux.
+3
+Un élément nouveau est intervenu. Dans les traumatismes l’état de conscience ne se
+détériore pas d’un coup mais progressivement d’où l’intérêt de la surveillance. Ce patient
+a présenté un intervalle libre ou intervalle lucide, représentant une période au cours de
+laquelle le cerveau ne subissait aucun dommage (le cerveau n’a pas de lésion primaire
+puisque le status neurologique était normal, mais il subit une compression progressive).
+C’est l’évolution très typique d’une collection hématique extracérébrale provoquant une
+distorsion progressive du parenchyme cérébral.
+Les deux principaux hématomes sont :
+➢ hématome sousdural : d’origine veineuse, d’évolution plus lente, très souvent
+accompagné d’une contusion cérébrale d’où absence d’intervalle libre, souvent
+controlatéral à l’impact
+➢ hématome épidural : d’origine artérielle, d’évolution pouvant être très rapide,
+intervalle libre fréquent, presque toujours sous l’impact et sous une fracture
+
+AMC de neurologie et de neurochirurgie
+71
+
+Problème no 7
+Ces deux hématomes se manifestent cliniquement par une détérioration de l’état de
+conscience (détectable en surveillant le score de Glasgow), une latéralisation déficitaire
+neurologique et tardivement une modification des signes vitaux (atteinte du tronc cérébral
+avec bradycardie, hypertension artérielle et perte des réflexes pupillaires).
+Le patient doit être pris en charge très rapidement en milieu neurochirurgical. Si l’évolution
+le permet l’examen de choix est un CT scan ; toutefois le délai du traumatisme au premier
+signe de détérioration est le temps dont on dispose pour décomprimer le cerveau sans
+avoir des dégâts irréversibles. Ce temps peut être extrêmement court (moins de 20
+minutes).
+Une des difficultés principalement rencontrées dans l’évaluation des traumatismes est
+l’attribution erronée de troubles de la conscience à des facteurs externes
+(polytraumatisme, ethyl, toxiques).
+[neuroradiologue] Neuroimagerie des traumatismes (épidural, sous-dural aigu, sous-dural
+chronique, contusion, lésions axonales diffuses etc…)
+Evolution 2 : HSA
+4.
+L’anamnèse révèle un épisode subit de perte de connaissance précédé de violentes
+céphalées. Le status neurologique normal rend improbable l’existence d’un accident
+vasculaire cérébral ou d’une hémorragie dans le parenchyme cérébral.
+Le patient semble développer cependant les signes typiques de méningisme, à confirmer
+par l’examen clinique, notamment la recherche de raideur de nuque (rotations libres mais
+flexion impossible), les signes de Kernig (impossibilité de s’asseoir sans plier la jambe) et
+Brudzinski (flexion passive de la nuque amenant une flexion de la jambe). Le tout est
+hautement évocateur d’une hémorragie sous-arachnoidienne.
+
+AMC de neurologie et de neurochirurgie
+72
+
+Problème no 7
+L’étiologie de l’hémorragie sous-arachnoidienne comporte quatre groupes principaux :
+-
+
+Traumatique : souvent par ruptures veineuses dans l’espace sous-arachnoidien. Ici le
+patient a pu écarter cette hypothèse en racontant les événements, notamment les
+céphalées ayant précédé la perte de connaissance, mais la première étape seule
+n’aurait pas permis d’écarter cette hypothèse.
+
+-
+
+Hémorragie « sans substrat » : démonstration d’une hémorragie mais aucune cause
+trouvée ; en principe rapporté à des ruptures des veines entourant le tronc cérébral,
+bon pronostic.
+
+-
+
+Malformation artério-veineuse : peloton de vaisseaux (nidus) cortico-sous-cortical se
+manifestant par crise épileptique ou rupture. En principe cette malformation donne plus
+souvent un hématome dans le parenchyme qu’une hémorragie limitée au
+compartiment LCR, d’où deficit neurologique latéralisé.
+
+-
+
+Anévrysme sacculaire. C’est de loin l’étiologie la plus fréquente de rupture dans l’espace
+sous-arachnoidien. L’expression clinique est caractérisée par le syndrome méningé et
+par des troubles de conscience ou neurologiques qui ont donné lieu à des graduations.
+
+Graduation de la WFNS (fédér. mondiale neurochir) :
+0. anévrysme non rompu
+1. Glasgow score 15
+2. Glasgow score >12
+3. Glasgow score > 12 et déficit moteur
+4. Glasgow score >6 avec ou sans déficit moteur
+5. Glasgow score <7 avec ou sans déficit moteur
+Notre patient peut être défini comme ayant un syndrome méningé avec stade WFNS 1.
+Piège : souvent la raideur de nuque apparaît après plusieurs heures seulement.
+5.
+Il faut confirmer ou infirmer l’hémorragie sous-arachnoidienne. Le meilleur examen est le
+CT scan. Le sang (hyperdense) est directement visible dans les citernes arachnoidiennes
+ou les sillons corticaux. L’injection de produit i-v (CT injecté) peut montrer en outre
+directement l’anevrysme mais la sensibilité n’est pas très bonne. Si le CT est négatif (se
+voit si l’hémorragie est faible ou le délai de plus de 2 jours) et l’histoire clinique typique il
+convient de pratiquer une PL en analysant le surnageant après centrifugation
+(erytrhrophages ? aspect citrin ?).
+[neuroradiologue] Les examens de choix pour des décisions thérapeutiques sont du
+ressort d’équipes spécialisées et comportent soit l’angio-CT soit l’angiographie cérébrale.
+Neuroimagerie des anévrismes, utilisation de l’angioscanner et de l’angiographie.
+Grades de Fisher des HSA au scanner.
+
+AMC de neurologie et de neurochirurgie
+73
+
+Problème no 7
+
+DD de céphalées récidivantes nouvelles en coup de tonnerre (« thunderclap »), sévères,
+d’évolution monophasique, plus fréquentes chez la femme, parfois avec signes
+neurologiques focaux ou crises d’épilepsie, LCR normal, souvent facteurs favorisants
+(cannabis, cocaïne, médicaments vasoconstricteurs – syndrome de vasoconstriction
+réversible (SVCR)
+Neuroimagerie du SVCR-PRES
+
+DD neuroimagerie apoplexie pituitaire
+
+Evolution 3 : Thrombose veineuse cérébrale
+La thrombose veineuse cérébrale est, comparée aux causes artérielles, une cause peu
+fréquente d’accident vasculaire cérébral. Son incidence, bien que difficile à déterminer,
+semble avec l’avènement des nouvelles techniques d’imagerie être plus fréquente que
+préalablement décrite. Sa mortalité, si non traitée, varie selon les études de 7-48 %. Elle
+peut survenir à tout âge et dans les 2 sexes mais a une prépondérance chez les femmes
+jeunes âgées de 20-35 ans (grossesses, contraception orale). En raison de sa morbidité,
+un diagnostic précoce est indispensable afin d’instaurer un traitement rapidement.
+Dans le cas discuté ici, l’anamnèse révèle depuis quelques jours des céphalées et un état
+déshydratation. L’épisode aigu est vraisemblablement une crise comitiale (perte de
+connaissance sans prodromes). Le status neurologiquemet en évidence des discrets
+troubles du langage ( phasiques), une morsure de langue ainsi qu’une perte d’urine.Ces
+éléments doivent faire penser à la possibilité d’une thrombose vénosinusienne cérébrale.
+Des examens complémentaires sont impératifs.
+
+AMC de neurologie et de neurochirurgie
+74
+
+Problème no 7
+
+Clinique
+La clinique d’une thrombose veineuse cérébrale est variable, souvent insidieuse. Les
+éléments qui doivent faire penser à ce diagnostic sontdes céphalées inhabituelles, des
+crises comitiales des troubles de l’état de conscience et des déficits neurologiques focaux.
+Diagnostic différentiel (large, variable selon la présentation clinique) : pathologie vasculaire
+(AVC, hématome), pathologie infectieuse (méningo-encéphalites), traumatique
+(traumatisme crânien), pathologie tumorale, pseudotumor cerebri, syndromes du sinus
+caverneux, état de mal épileptique.
+Causes ou conditions prédisposantes :
+-
+
+Grossesse, post-partum, contraception orale, hormonothérapie.
+ATCD familiaux ou personnels de TVP/EP.
+ATCD de fausse-couche.
+Coagulopathies héréditaires/acquises : déficit en proteine C, S, mutation du facteur
+II,V) AC antiphospholipides, AC anti B2GP1, anticoagulant lupique.
+Synd hyperviscosité sanguine (Waldenström, myélome multiple).
+Maladie inflammatoire (Crohn. RCUH), collagénoses, granulomatoses (Behçet, LED, etc).
+Néoplasie.
+Causes infectieuses (sinusites, otites, méningites,etc).
+Traumatisme cérébral.
+Syndrome nephrotique.
+Désydratation, corticoïdes chimiothérapie.
+Cathéter jugulaire, injection parentérales, post-PL, thyreotoxicose.
+
+AMC de neurologie et de neurochirurgie
+75
+
+Problème no 7
+Investigations :
+Un CAT cérébral avec séquences veineuses (phlébo-CT) ou une IRM (phlébo-IRM) sont
+indiqués. Ces examens peuvent démontrer le siège de la thrombose et la présence d’une
+ischémie ou d’une hémorragie cérébrales associées. Eventuellement PL où pression
+d’ouverture élevée et hématophages dans le liquide (si CT injecté non praticable)
+Une artériographie cérébrale avec séquences phlébogaphiques peut être envisagée
+en seconde intention, mais ne se fait plus qu’à but interventionnel.
+D-dimères (>500ng/mL mais négatifs après 2-3 semaines).
+FSC, Crase spéciale (prot. S, C, antithrombine III, anticoagulant lupique, mutations du
+facteur II et V de Leiden).
+Anticorps antiphospholipides et anticardiolipines à la recherche d’un syndrome
+antiphospholipide. L EEG à la recherche d’un foyer épileptique focal ou généralisé.
+Traitement
+Anticoagulation (héparine IV, HBPM, dabigatran, acénocoumarol : INR 2-3).
+Thrombolyse / thromboaspiration / thrombectomie selon les cas.
+[neuroradiologue] Neuroimagerie des thromboses veineuses
+DD situation d’une patiente de 40 ans, obèse et hypertendue qui présente des céphalées
+nouvelles inhabituelles depuis 1 mois et depuis 10 jours un acouphène pulsatile. A
+l’examen, œdème papillaire bilatéral au fond d’œil. Le reste est normal.
+Neuroimagerie hypertension intracrânienne bénigne (HTIC)
+En passant neuroimagerie hypertension intracrânienne/tumeurs, abcès, carcinomatose
+méningée, hydrocéphalie
+Situation d’une patiente de 78 ans, fatiguée qui présente des céphalées inhabituelles
+temporales gauches et une hypersensibilité du cuir chevelu depuis une semaine et 3
+épisodes de cécité monoculaire transitoire à gauche. A l’examen, les artères temporales
+sont pulsatiles et douloureuse à la palpation. La VS est à 70mm/h et la CRP à 2x la
+norme.
+Neuroimagerie de l’artérite gigantocellulaire ou de Horton (doppler, IRM…)
+Neuroimagerie des vasculites cérébrales
+Tolosa-Hunt
+Cas d’une céphalée orthostatique, soulagée en décubitus
+Neuroimagerie hypotension du LCR
+Neuroimagerie : autres
+Dissections vasculaires cervicales
+Méningoencéphalite herpétique, autoimmune/paranéoplasique
+Malformation Arnold-Chiari
+Pièges non neurologiques) sinusite, abcès dentaire, dysfonction articulation temporomandibulaire (ATM))
+
+AMC de neurologie et de neurochirurgie
+76
+
+Rappel céphalées
+
+RAPPEL CEPHALEES (UIDC) : MADAME KOPF
+ENONCE INITIAL : ETAPE 1/2
+Mme Kopf, âgée de 33 ans, présente depuis l’âge de 15 ans des céphalées de type
+pulsatile se présentant en hémicrânie tantôt gauche tantôt droite durant de quelques
+heures à plusieurs jours. La symptomatologie est parfois précédée par une impression de
+flou visuel et peut s’accompagner de nausées et/ou vomissements.
+Elle vous consulte ce jour en raison d’un épisode de céphalée d’intensité beaucoup plus
+forte et d’apparition brutale qui est survenu 24 h plus tôt (elle parle de « coup de tonnerre
+dans la tête ») ce qui n’est pas le cas habituellement. La patiente, asymptomatique au
+moment de la consultation, se dit très inquiète car son père est décédé d’hémorragie
+cérébrale.
+La patiente ne prend ni médicament, ni contraception orale. A l’examen clinique on
+objective :
+Un état de conscience conservé, sans trouble de l’état de vigilance.
+T° 36,5 axillaire, TA : 140/80 mmHg, Fond d’oeil normal. L’examen neurologique retrouve
+une discrète raideur de nuque, le reste du status est dans la norme (paires crâniennes et
+voies longues)
+Questions :
+- Voulez-vous en savoir plus ?
+- Quelle serait votre attitude ?
+ENONCE : ETAPE 2/2
+On est 24 heures plus tard. Après des examens sans anomalies, Mme Kopf est rentrée
+chez elle avec un traitement symptomatique, puis les céphalées ont disparue. En
+consultation de contrôle, elle vous demande si vous ne pourriez pas faire quelque chose
+pour ses « migraines » récurrentes, qui l’empêchent de travailler au moins 1 jour par mois.
+Questions :
+- Quelles questions vous posez pour investiguer des céphalées récurrentes ?
+- Quel examen clinique, quelle(s) examens complémentaires ?
+- Quels conseils et quel(s) traitement(s) pour Mme Kopf ?
+
+AMC de neurologie et de neurochirurgie
+77
+
+Rappel céphalées
+
+CONTENU GENERAL
+⚫
+
+Concept : céphalée symptôme ou maladie (I / II).
+
+⚫
+
+Présentation clinique : céphalée paroxystique.
+
+⚫
+
+Problème : migraine de présentation inhabituelle, céphalée primaire ; suspicion
+d’hémorragie sous-arachnoïdienne (céphalées secondaires, cf.
+PROBLEME CEPHALEES II, Mme Tohm).
+
+⚫
+
+Démarche privilégiée par le problème : recueil des éléments anamnestiques ;
+utilisation des examens complémentaires, prise en charge thérapeutique.
+
+OBJECTIFS D’APPRENTISSAGE
+-
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es
+devraient être capables de (connaître) :
+l’apprentissage des points clés de l’anamnèse.
+
+Médecine interne
+Neurologie
+
+-
+
+Les critères diagnostiques des céphalées primaires (IHS
+International Headache Society).
+
+Médecine interne
+Neurologie
+
+-
+
+Les étiologies potentielles des céphalées ainsi que leur
+prévalence / incidence.
+
+Médecine interne
+Neurologie
+Epidémiologie
+Physiologie
+
+-
+
+Reconnaître les symptômes d’alarme.
+
+-
+
+La pertinence et
+complémentaires.
+
+examens
+
+Médecine interne
+Neurologie
+Neurochirurgie
+
+-
+
+Les indications et les modalités de du traitement des
+céphalées primaires (et secondaires ?).
+
+Médecine interne
+Neurologie
+Pharmacologie
+
+le
+
+rendement
+
+Médecine interne
+Neurologie
+Neurochirurgie
+des
+
+AMC de neurologie et de neurochirurgie
+78
+
+Rappel céphalées
+
+REFERENCES
+Cambier J et al. Neurologie. 13e éd. Issy-les-Moulineaux : Masson,
+2012.
+Jameson JL et al. Harrison's principles of internal medicine.
+20th ed. New York: McGraw-Hill, 2018. WB 115 1 + ebook :
+https://accessmedicine.mhmedical.com/book.aspx?bookID=2129
+Chapter 13: Headache (lien direct au chapitre online :
+https://accessmedicine.mhmedical.com/content.aspx?sectionid=1
+92011003&bookid=2129&Resultclick=2)
+Goetz CG. Textbook of clinical neurology. 3rd ed. Philadelphia:
+Saunders, 2007. WL 100 74
+Ropper AH, Samuels, MA. Adams and Victor's principles of
+neurology. 11th ed. New York: McGraw Hill, 2019. WL 140 8
+Ebook seulement :
+https://neurology.mhmedical.com/book.aspx?bookID=1477
+POUR EN SAVOIR
+
+Continuum (minneap minn) 2018;24 (4, headache)
+
+PLUS
+
+http://www.ihs-headache.org/binary_data/3245_ichd-3cephalalgia-2018-issue-1.pdf
+
+AMC de neurologie et de neurochirurgie
+79
+
+Rappel céphalées
+
+GUIDE DU-DE LA TUTEUR-TRICE
+Orientation générale
+Pertinence de la recherche étiologie des céphalées en fonction de leur prévalence et du
+contexte clinique et anamnestique (âge du patient, caractère inaugural, symptômes
+d’alarme, etc.). A ce propos, on rappellera que les céphalées sont un motif fréquent de
+consultation en médecine ambulatoire (6e motif de consultation). L’essentiel des céphalées
+rencontrées dans ce contexte sont des céphalées primaires (migraine, céphalées de
+tension, cluster headache, névralgies). Parmi elles on rencontre principalement la maladie
+migraineuse dont la prévalence varie de 6 % (c/o les hommes) à 17 % (c/o les femmes).
+La prévalence de la maladie migraineuse varie également selon l’âge : en effet elle
+intéresse moins de 5 % des patients d’âge gériatrique.
+La prévalence des céphalées de tension est variable selon qu’il s’agisse de la forme
+chronique (3 %) ou de la forme épisodique (70-80 %). Il est à relever toutefois que les
+céphalées de tension génèrent 4 fois moins de consultations que la migraine.
+La prévalence des névralgies varie également selon l’âge de 1 % (en-dessous) de 65 ans
+à 20 % (au-dessus). La prévalence du Cluster Headache est de moins de 1 %.
+Quant aux céphalées secondaires, elles représentent, selon l’âge du patient et le caractère
+inaugural ou non de la symptomatologie, 20-40 % de l’ensemble des céphalées.
+Environ 4 % des céphalées représentent une réelle urgence (hémorragie cérébrale,
+méningite, etc.).
+Dans le cas de Mme Kopf il s’agira avant tout de s’attacher à éliminer l’urgence dans ce
+contexte de céphalée aiguë inaugurale avant de s’intéresser aux céphalées primaires
+(souvent chroniques).
+
+AMC de neurologie et de neurochirurgie
+80
+
+Rappel céphalées
+
+ETAPE 1/2
+Il est important que les étudiant-es examinent le diagnostic différentiel d’une céphalée
+inaugurale ou d’intensité inhabituelle avant d’aborder le problème des céphalées
+primaires.
+Il s’agira de s’attacher à l’épisode motivant la consultation actuelle et qui pose le diagnostic
+d’une éventuelle hémorragie sous arachnoïdienne.
+Dans le cas présent, le caractère inhabituel des céphalées récentes en coup de tonnerre
+doit faire évoquer le diagnostic d’hémorragie sous-arachnoïdienne, HSA), avec des
+céphalées sentinelles (présent dans 50% des cas).
+De plus, il existe chez Mme Kopf des céphalées habituelles chroniques sans symptômes
+d’alarme et dont les crises durent de 6h à 48h, avec une installation progressive (qui sera
+développé lors de l’étape 2).
+Il est important que les étudiant-es relèvent les « red flags » décrit dans l’anamnèse qui
+évoquent la possibilité d’une céphalée secondaire sur la base de « céphalée d’intensité
+inhabituelle » avant d’aborder le problème des céphalées primaires.Les « red flags » sont
+mis en évidence par l’algorithme SNOOP :
+S : Systemic, signs and symptoms : fièvre, perte de poids, maladie concomitante (cancer,
+VIH…) grossesse et post partum
+N : Neurologic : altération de l’état de vigilance, modification du status neurologique,
+tinnitus, ataxie, diplopie…
+O : Onset Sudden (début brusque), très
+O : Older > 50 year
+P : Pattern Change céphalées progressives mais continues, aggravées par le valsalva ou
+la position.
+On profitera de cette étape pour évoquer les principales causes de céphalées secondaires
+(ORL, infectieuses, médicaments, endocrinopathie, toxique, maladie systémique...) et
+notamment celles présentant un caractère d’urgence immédiate (méningite/encéphalite,
+hémorragie cérébrale, artérite de Horton, crise de glaucome aigu, dissection carotidienne,
+crise hypertensive) en précisant leur incidence et leur prévalence selon l’âge).
+Les étudiant-es devront :
+-
+
+Se demander s’il existe, dans l’histoire de la patiente, des symptômes d’alarme devant
+faire
+évoquer
+une
+céphalée
+symptomatique
+(céphalée
+paroxystique,
+immunodéficience, céphalée inaugurale du 3ème âge, changement de caractère et
+d’intensité, AF d’hémorragie cérébrale, symptômes neurologiques, méningisme,
+altération de l’état de conscience).
+
+-
+
+Définir et justifier quels examens sont pertinent dans l’approche diagnostique.
+
+CT-Scan natif dans les 24h : excellente sensibilité (93%), 99% dans les 6h. CT-Scan à 3
+jours : sensibilité ≈ 50 %.
+Place de la PL à la recherche de cellules hématophages qui sera interprétable dès 12h
+(temps de recirculation du sang dans le LCR.).
+AMC de neurologie et de neurochirurgie
+81
+
+Rappel céphalées
+
+Si du sang est retrouvé à la phase native, une injection de liquide de contraste permettra
+de rechercher l’origine du saignement, toutefois il existe une meilleure sensibilité à l’IRM
+pour les anévrysmes postérieurs et les MAV.
+On rappellera que l’incidence annuelle des HSA est de 1/10000. Un patient avec une
+anamnèse familiale positive (rupture d’anévrisme) a 4 fois plus de chance de présenter
+une HSA. Il est important de rappeler que les patients peuvent consulter au décours d’un
+épisode aigu (céphalée « sentinelle ») et que l’examen neurologique peut être dans ces
+situations tout à fait normal avec un patient alerte et sans méningisme (10 - 15% des cas).
+Il est important dès lors, en cas de forte suspicion clinique, de poursuivre les investigations
+par une imagerie ou une ponction lombaire.
+Enfin on rappellera qu’une HSA n’est précédée par un effort que dans 30 % des cas. Parmi
+les étiologies, on trouve des ruptures d’anévrisme (75 %), des malformations artérioveineuses (6 %), des hémorragies cérébrales (6 %).
+
+AMC de neurologie et de neurochirurgie
+82
+
+Rappel céphalées
+
+ETAPE 2/2
+Après un scanner et une ponction lombaire normale, une origine secondaire des céphalées
+est exclue. Les symptômes sont également résolus. Il convient de reprendre l’anamnèse
+permettant aux étudiant-es d’analyser les différentes caractéristiques des céphalées
+primaires :
+1. En s’attachant aux points essentiels de l’anamnèse: début de la symptomatologie,
+fréquence des crises, durées des crises, intensité, localisation, caractère de la douleur,
+facteurs calmants ou aggravants, symptômes d’accompagnement (introduire la notion
+d’aura).
+2. En précisant les critères diagnostiques des principales céphalées primaires le-la tuteurtrice (à la demande des étudiant-es) s’attachera à préciser les points manquants de
+l’anamnèse (durée des crises, mode d’apparition, caractère et durée de l’aura).
+Mme Kopf évoque la présence lors de certaines de ses crises de troubles visuels
+s’exprimant comme une sensation de « Flou » intéressant la moitié d’un champ visuel
+(gauche ou droit selon les crises). Ces troubles s’installent progressivement sur une
+dizaine de minutes pour disparaître après 30’. Elle a également parfois des nausées
+précédant les symptômes.
+On en conclut que Mme Kopf présente habituellement des épisodes de migraines avec
+aura visuel typique appelés autrement migraine ophtalmique. Il peut également apparaitre
+des lumières scintillantes dans le champ visuel (image de forteresse de Vauban). Dans ce
+contexte de céphalées primaire typique, il n’y a pas lieu de pratiquer des examens
+complémentaires.
+On peut profiter de cette étape pour préciser:
+a. La physiopathologie du phénomène migraineux :
+Si le facteur déclenchant (« trigger ») de la crise reste encore inconnu nous savons que la
+phase céphalalgique implique :
+- D’une part un phénomène inflammatoire vasculaire avec dilatation de la vascularisation
+intracrânienne (territoire de la carotide externe); ce phénomène est modulé par la libération
+au niveau des noyaux du système nerveux central (raphe nucléus et locus céruléus)
+respectivement de sérotonine et de noradrénaline.
+- D’autre part un phénomène inflammatoire à médiation neurogène impliquant le noyau du
+V (trijumeau) avec libération de neurotransmetteurs vaso-actifs.
+C’est en agissant sur une, voire ces deux voies qu’agiront la plupart des antimigraineux.
+b. Les principes pharmacologiques des traitements de crise et de fond de la migraine, ainsi
+que les traitements préventifs.
+S’agissant du traitement préventif, il convient de motiver le patient à avoir une bonne
+hygiène de vie, repos, alimentation, sport, diminution du niveau de stress et activité telle
+la méditation. Il est utile de tenir un carnet répertoriant les survenues des céphalées et les
+facteurs favorisants associés.
+AMC de neurologie et de neurochirurgie
+83
+
+Rappel céphalées
+S’agissant du traitement de la crise il faut :
+- Utiliser en première intention un antalgique simple (paracétamol, AAS, AINS) associé à
+un procinétique (la gastroparésie accompagnant les crises ralentissant l’absorption du
+médicament). Réserver les agonistes sérotoninergiques (triptans) aux crises ne répondant
+pas au traitement conventionnel.
+- Administrer le traitement le plus rapidement possible (au stade des prodromes, et au
+dosage adapté).
+- Utiliser la plus petite dose efficace possible
+Limiter le traitement dans le temps en raison du risque de céphalées
+« rebound » ou sur excès de médicaments (céphalées sur abus médicamenteux).
+- S’assurer de l’absence de contre-indication (par ex: éviter les triptans chez les patients
+coronariens, certains antiémétiques augmentent le QT...)
+Enfin il faut envisager un traitement de fond quand il existe :
+•
+•
+
+Plus de 2 à 4 crises /mois (tenir compte de la durée des crises).
+Les crises sont sévères et empêchent toute activité quotidienne malgré un
+traitement de crise adéquat.
+• Les effets secondaires du traitement de la crise sont mal supportés / ou le patient
+risque un abus médicamenteux.
+• Les mesures générales (hygiène de vie…) sont sans effet.
+• Définir la durée du TTT : assez longue (3-6 mois) pour juger de son efficacité ou de
+son innocuité, assez courte pour éviter certains effets secondaires.
+- Prévoir l’augmentation des doses et le sevrage de manière progressive (risque de
+céphalées « rebound »), idée de fenêtre thérapeutique
+- Les traitements de méthysergide et dérivés de l’ergot ne sont plus utilisés pour les
+migraines.
+Le traitement de fond repose essentiellement sur 4 classes pharmacologiques : les βbloquants qui restent le premier choix, les antiépileptiques (topiramate, valproate), les
+antidépresseurs tricycliques (amitryptiline) et les antihypertenseurs. Lors de la grossesse
+le Magnésium peut être utile.
+Principales céphalées primaires
+Tiré de la stratégie SMPR « Céphalées aiguës »
+
+AMC de neurologie et de neurochirurgie
+84
+
+Rappel céphalées
+
+B : SNFT = Signes Neurologiques Focaux Transitoires = AURA :
+• Troubles visuels homonymes
+• Paresthésies et/ou
+• Engourdissement unilatéral
+• Parésie unilatérale
+• Aphasie
+
+AMC de neurologie et de neurochirurgie
+85
+
+Problème Paretic
+
+RAPPEL AVC (UIDC) : MONSIEUR PARETIC
+ENONCE INITIAL : ETAPE 1
+Admission au centre des urgences
+Monsieur Paretic, âgé de 60 ans, employé de banque, est hospitalisé en urgence pour
+une faiblesse de l’hémicorps droit et des troubles du langage.
+Antécédents personnels :
+Hypertension artérielle connue depuis de nombreuses années, traitée.
+Par ailleurs, bonne santé habituelle. Pas d’opération, ni de traumatisme ni d’allergie
+connue.
+Le père du patient est décédé à 73 ans d’une attaque cérébrale.
+Anamnèse actuelle :
+Cette anamnèse est faite avec l’aide de l’épouse, le patient étant incapable de
+s’exprimer, bien qu’il n’ait pas de trouble sévère de la compréhension. Il y a environ 6
+semaines, un matin au réveil, Monsieur Paretic a signalé un sentiment
+d’engourdissement du membre supérieur droit ayant disparu en 1 heure. Il avait pensé
+qu’il avait dormi dans une mauvaise position. Puis, il y a une semaine, alors qu’il
+regardait la télévision, il s’est plaint de ne plus rien voir de l’œil gauche. Quelques
+minutes après, la vue était redevenue tout à fait normale, si bien qu’il ne s’est pas
+inquiété.
+Ce matin, alors que Mme Paretic prenait le petit déjeuner avec son mari, elle remarque
+que ce dernier ne pouvait subitement plus parler. Il avait la bouche déviée à gauche.
+Il était incapable de bouger le membre supérieur droit, et avait de la difficulté de se
+mettre debout. Elle a tout de suite appelé le 144 et on lui a envoyé une ambulance.
+Elle a noté l’heure du début des symptômes : 9h25
+Habitudes :
+M. Paretic fume 1 paquet de cigarettes/jour depuis l’âge de 20 ans. Il boit 1 verre de
+vin par jour. Il prend 5 mg d’Amlodipine chaque matin. Il ne pratique aucun sport et
+sort très peu. Il a actuellement des soucis professionnels, la banque qui l’emploie étant
+en pleine restructuration et licenciant du personnel.
+
+AMC de neurologie et de neurochirurgie
+86
+
+Problème Paretic
+
+Examen clinique par systèmes :
+Le patient est en bon état général. Il est obèse, afébrile. Téguments bien hydratés.
+Pas d’adénopathies palpables. Thyroïde non agrandie. Pouls régulier à 80/minute
+régulier TAH 19/11 cm Hg. Toutes les artères périphériques sont palpables. Souffle
+carotidien gauche. Auscultation cardiaque normale. Quelques râles bronchiques à
+l’auscultation pulmonaire. Le reste de l’examen clinique est normal.
+Examen neurologique :
+Patient conscient, sans trouble de la vigilance. Il a un langage très pauvre, peu fluent,
+avec quelques déformations de mots. Il comprend bien les ordres. Il ne peut pas faire
+claquer la langue ni envoyer un baiser. Le FO révèle des papilles bien délimitées ; les
+artères sont fines et brillantes ; il y a des signes de croisement.
+L’examen des nerfs crâniens révèle une parésie de la commissure labiale droite.
+L’examen des membres permet d’objectiver une paralysie complète du membre
+supérieur ainsi qu’une parésie du membre inférieur droit. Le tonus est flasque, les
+réflexes myotatiques sont diminués alors que les réflexes cutanés-abdominaux sont
+abolis et le réflexe cutané-plantaire est indifférent à droite. Il ne semble pas y avoir de
+déficit sensitif. A gauche, l’examen est tout à fait normal.
+
+Questions :
+-
+
+Comment qualifiez-vous la difficulté de langage du patient ??
+
+-
+
+Quel est le système atteint ?
+
+-
+
+Où localisez-vous la lésion neurologique ?
+
+-
+
+Quel est votre diagnostic différentiel et quel est le diagnostic le plus probable ?
+
+-
+
+Quelles sont les étiologies possibles ?
+
+-
+
+Quel est le degré d’urgence en sachant que le patient est admis dans le service
+des urgences à 10h ?
+
+-
+
+Quel traitement préconisez-vous ?
+
+-
+
+Quelles investigations demandez-vous ?
+
+AMC de neurologie et de neurochirurgie
+87
+
+Problème Paretic
+
+ENONCE : ETAPE 2
+Evolution :
+L’évolution est lentement favorable. Quinze jours après l’admission, il persiste
+quelques troubles du langage. L’apraxie bucco-linguo-faciale a disparu. L’asymétrie
+faciale est discrète. Le patient peut bouger son bras et son avant-bras droits, mais la
+main est encore paralysée. Ce membre est spastique et les réflexes myotatiques sont
+très vifs, avec diffusion dans les doigts. Au membre inférieur, la force est suffisamment
+revenue pour que le patient puisse tenir debout ; il existe une hypertonie en extension
+et les réflexes myotatiques sont très vifs, polycinétiques, avec extension de la zone
+réflexogène. On peut déclencher facilement un clonus rotulien et un clonus achilléen.
+Le réflexe cutané-plantaire est toujours en extension. Le patient marche en fauchant
+avec le membre inférieur droit, le membre supérieur droit semi-fléchi et sans ballant.
+Il est transféré dans un centre de neurorééducation.
+
+Questions :
+-
+
+Comment envisagez-vous la suite de la prise en charge ?
+
+-
+
+Quelles mesures faut-il prévoir à long terme ?
+
+AMC de neurologie et de neurochirurgie
+88
+
+Problème Paretic
+
+ENONCE : ETAPE 3
+Et si les symptômes étaient transitoires
+L’anamnèse est faite avec le patient. Ce matin, alors que M. Paretic prenait le petit
+déjeuner, il note tout d’un coup qu’il ne peut plus parler et qu’il éprouve une difficulté à
+trouver les mots. Il a la bouche déviée à gauche, est incapable de bouger le membre
+supérieur droit, et n’arrive pas à se mettre debout. Son épouse avait néanmoins
+l’impression qu’il comprenait tout ce qu’on lui disait ; elle a tout de suite appelé le 144
+et on lui a envoyé une ambulance. Elle a noté l’heure du début des symptômes. Au
+moment où le patient arrive à l’hôpital tous les symptômes ont disparu.
+
+Questions :
+-
+
+Comment envisagez-vous la suite de la prise en charge?
+
+-
+
+Quelles mesures faut-il prévoir à long terme?
+
+AMC de neurologie et de neurochirurgie
+89
+
+Problème Paretic
+
+CONTENU GENERAL DU PROBLEME
+-
+
+Problème clinique
+
+Troubles du langage et hémiplégie droite
+d’installation brutale avec notion d’amaurose
+fugace et de troubles sensitifs transitoires du
+membre
+supérieur
+droit
+les
+semaines
+précédentes, chez un patient tabagique,
+hypertendu et sédentaire.
+Dans l’énoncé 3/2, les troubles sont transitoires
+
+-
+
+Diagnostic
+
+Accident vasculaire cérébral ischémique dans le
+territoire carotidien gauche.
+
+-
+
+Entités nosologiques
+
+Accidents vasculaires cérébraux. Accident
+ischémique transitoire. Facteurs de risque cardiovasculaires.
+
+-
+
+Aspect(s) privilégié(s)
+
+Anamnèse (notamment avec l’entourage) et examen
+clinique. Diagnostic différentiel. Recherche d’une
+étiologie. Prise en charge au stade aigu
+(thrombolyse) et prévention secondaire. Problème
+particulier de l’AIT. Prévention des complications.
+Neurorééducation.
+
+-
+
+Cadre du problème
+
+Centre des urgences puis service des lits d’un hôpital.
+
+AMC de neurologie et de neurochirurgie
+90
+
+Problème Paretic
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient
+être capables de :
+-
+
+Reconnaître un accident vasculaire cérébral (AVC) sur NEUROLOGIE /
+la base d’éléments anamnestiques et cliniques.
+NEURORADIOLOGIE /
+MEDECINE INTERNE
+Reconnaître un accident ischémique transitoire.
+
+-
+
+Connaître la nouvelle définition de l’AIT ainsi que le rôle
+de l’imagerie cérébrale, en particulier de l’IRM.
+
+-
+
+Reconnaître et savoir reconnaître la gravité de cet
+événement en tant que facteur de risque d’un AVC ainsi
+que les scores cliniques permettant de stratifier le risque
+de récidive (ABCD2 et ABCD3).
+
+-
+
+Enumérer les types d’AVC et le diagnostic différentiel.
+
+-
+
+NEUROLOGIE /
+Connaître les principaux examens complémentaires NEUROPHYSIOLOGIE /
+NEURORADIOLOGIE /
+utiles et savoir les interpréter.
+CARDIOLOGIE
+
+-
+
+Citer les principales étiologies des AVC.
+
+-
+
+Enumérer les principaux facteurs de risque associés MEDECINE INTERNE /
+aux AVC.
+NEUROLOGIE
+
+-
+
+Quelques données épidémiologiques concernant la
+fréquence des AVC en général, leur pronostic et leur
+taux de mortalité.
+
+-
+
+Connaître les principales thérapeutiques au stade aigu NEUROLOGIE / MEDECINE
+ainsi que les mesures de prévention secondaire.
+INTERNE / CHIRURGIE
+Connaître les principales indications et contre- CARDIO-VASCULAIRE /
+CARDIOLOGIE
+indications à la thrombolyse et à la thrombectomie.
+
+-
+
+NEUROLOGIE /
+CARDIOLOGIE
+
+Avoir saisi l’importance de la neurorééducation et les MEDECINE PHYSIQUE ET
+implications socio-économiques du handicap.
+REEDUCATION /
+NEUROPSYCHOLOGIE /
+PSYCHIATRIE
+
+AMC de neurologie et de neurochirurgie
+91
+
+Problème Paretic
+
+REFERENCES
+
+https://www.headtotoegeneva.com/
+Ropper AH, Samuels, MA. Adams and Victor's principles of
+neurology. 11th ed. New York: McGraw Hill, 2019. WL 140 8
+Ebook seulement :
+https://neurology.mhmedical.com/book.aspx?bookID=1477
+
+POUR EN SAVOIR
+PLUS
+
+Louis R. Caplan (editor), Jan van Gijn (editor). Stroke Syndromes,
+3Ed. 3rd edition. eBook (05 Aug 2012)
+
+AMC de neurologie et de neurochirurgie
+92
+
+Problème Paretic
+
+GUIDE DU-DE LA TUTEUR-TRICE
+Directives générales
+Par cette présentation clinique en deux temps (stade aigu de la maladie et évolution
+dans le temps), les étudiant-es doivent découvrir le problème des accidents
+vasculaires cérébraux, des facteurs de risque qui les favorisent et du handicap qui
+peut en résulter.
+Lors du premier séminaire, le-la tuteur-trice fournira les réponses aux questions
+posées par les étudiant-es concernant les éléments cliniques supplémentaires et les
+examens complémentaires qu’ils souhaiteraient demander. Lors de ce séminaire, les
+étudiant-es doivent arriver à déterminer les objectifs d’apprentissage mentionnés plus
+haut.
+
+Matériel associé
+-
+
+Histoire clinique avec déficit neurologique persistant ou avec déficit neurologique
+transitoire
+Candidat à la thrombolyse
+Eléments anamnestiques complémentaires. Examen neuropsychologique.
+Résultats de laboratoire
+ECG
+Rx du thorax
+CT-scan cérébral initial
+Examens ultrasoniques des vaisseaux du cou et intracrâniens
+
+AMC de neurologie et de neurochirurgie
+93
+
+Problème Paretic
+
+Déroulement détaillé des tutoriaux
+ETAPE 1/2 (3/4 DU TEMPS IMPARTI)
+
+Eléments cliniques à considérer
+
+Réponse pour ce cas
+
+Courbe de poids
+
+Pesait 60 kg à 20 ans pour une taille de
+175 cm. Actuellement en pèse 90.
+Non
+Non
+Pas connu
+Pas connue
+Rien de particulier
+
+Antécédents coronariens
+Claudication intermittente
+Diabète
+Dyslipidémie
+Reste de l’anamnèse
+
+Découvrir ensuite le problème actuel, son mode d’installation, la localisation et le type
+de lésion qu’ils suggèrent.
+Examens complémentaires :
+-
+
+HCT 50 %. Hb 16 g %.
+Glycémie à jeun 5 mmol/l.
+Thrombocytes 180000/mm3
+PTT et TP normal
+Triglycérides 3 mmol/l. Cholestérol total 7.5 mmol/l. HDL-cholestérol 0.80 mmol/l.
+CT-scan cérébral avec séquences angiographiques : discret effacement des
+sillons au niveau de la région fronto-operculaire gauche, Présence sur le coupes
+angiographiques d’un thrombus au niveau de la région jonctionnelle M2-M3 de la
+cérébrale moyenne gauche
+Séquences de perfusion : mismatch dans le territoire ACM (artère cérébrale
+moyenne) G.
+
+ECG : normal.
+-
+
+Rx du thorax : cardiomégalie modérée.
+IRM cérébrale : lésion hyperintense sur les séquences de diffusion
+(lésion aiguë) au niveau de la région fronto-operculaire gauche
+Examens ultrasoniques des vaisseaux du cou et intracrâniens : sténose serrée de la
+carotide interne gauche avec revascularisation de l’ophtalmique par la carotide
+externe. Bonne suppléance intracrânienne via la communicante antérieure de droite
+à gauche.
+
+Une fois ces éléments obtenus, reconnaître l’AVC comme problème principal et la
+sténose carotidienne comme origine des AIT et de l’AVC actuel. Reconnaître
+également les facteurs de risque cardio-vasculaires de ce patient.
+
+AMC de neurologie et de neurochirurgie
+94
+
+Problème Paretic
+
+Les étudiant-es devraient ensuite établir le plan de traitement :
+a) Traitement de l’AVC au stade aigu
+b) Candidat à la thrombolyse
+AVC < 9h (détermination précise de l’heure du début) avec score NIH>1 et symptômes
+invalidants Neuroradiologie : absence d’hémorragie, absence d’œdème ou
+d’hypodensité prenant >1/3 territoire de la cérébrale moyenne. Cartes de perfusion
+(entre 4h30 et 9h) : mismatch.
+c) Candidat à la thrombectomie
+AVC < 24h Cette dernière est réalisée uniquement en présence d’une occlusion
+proximale (portion terminale de la carotide interne, segments proximaux de la
+cérébrale moyenne, M1 et M2, de la cérébrale antérieure ou postérieure,
+respectivement A1 et P1 et du tronc basilaire)
+Si l’AVC est de moins de 4h30 ou entre 4.5 et 9heures avec mismatch, la
+thrombectomie est réalisée à la suite de la thrombolyse intraveineuse. Si l’AVC
+est entre 9 et 24 heures, une thrombectomie sera effectuée seulement si
+mismatch aux cartes de perfusion.
+Contre-indications à la thrombolyse :
+AVC récent (moins de 3 mois)
+ATCD de traumatisme crânien sévère dans les 3 mois
+ATCD de chirurgie récente (21 jours)
+TA >185/110 mmHg
+Glycémie <2.5 ou >22 mmol/l
+INR >1.7 ou prise de NACOD < 24h
+Thrombocytes <1200000/mm3
+d) Contrôle des paramètres neurologiques et généraux
+Lit strict
+Perfusion NaCl
+Laisser à jeûn
+Surveillance :
+neurologique (échelle NIH et Glasgow)
+Pression artérielle, glycémie, température, saturation 02, monitoring cardiaque
+Prévention de la TVP
+Prévention de la bronchopneumonie par aspiration
+Physiothérapie, ergothérapie et logopédie à instaurer tout de suite
+e) Mesures de prévention secondaire
+Antiagrégant plaquettaire
+Traitement hypolipémiant (statines)
+Après 48-72h, traitement de l’hypertension artérielle si présente en visant
+<140/90mmHg.
+Selon l’évolution, traitement chirurgical/stent de la sténose carotidienne à discuter.
+Le-la tuteur-trice peut distribuer à ce stade la 2e partie de l’histoire clinique.
+
+AMC de neurologie et de neurochirurgie
+95
+
+Problème Paretic
+
+ETAPE 2/2 (1/4 DU TEMPS IMPARTI)
+Cette partie sert à illustrer l’évolution d’un AVC et de souligner le handicap qui peut en
+découler.
+Evoquer les problèmes qu’il faut alors résoudre:
+- Neurorééducation avec logopédie et ergothérapie.
+- Soutien psychothérapeutique, car risque de dépression du patient et de la famille.
+- Eventuellement médicament antispastique.
+- Aménagement du domicile voire placement en fonction du taux de dépendance et
+d’un soutien possible ou non de la famille.
+Le-la tuteur-trice peut distribuer à ce stade la 3e partie de l’histoire clinique.
+
+ETAPE 3/2
+Prise en charge de l’AIT :
+L’AIT se définit comme un déficit neurologique de brève durée, ne dépassant pas les
+24 heures et en l’absence de toute évidence de lésion cérébrale (CT-scan ou IRM
+cérébrale)
+L’hospitalisation a pour but d’une part de surveiller le patient en sachant que le risque
+d’AVC après un AIT est de l’ordre de 5-10% durant les 7 premiers jours et que ce
+risque est maximal durant les premières 48 heures. Il faut aussi savoir que le risque
+d’AVC après un AIT est de l’ordre de 10-20% à 3 mois. Enfin, certaines études
+montrent que entre 20-40% des patients ont présenté un AIT dans la semaine
+précédant l’AVC.
+La prise en charge et les investigations ne diffèrent pas de celle de l’AVC, mais en
+général l’hospitalisation est plus courte. L‘IRM cérébrale a un rôle-clé, puisque la
+définition est basée sur la présence ou non d’une lésion visible sur cet examen.
+La décision d’hospitaliser le patient est basée sur la stratification du risque de récidive
+qui peut être établie grâce à un score.
+
+AMC de neurologie et de neurochirurgie
+96
+
+Problème Paretic
+
+Score ABCD2 : Un risque faible est associé à un score de <4: un risque modéré à un
+score de 4-5 et un risque élevé à un score de >5. Ce score constitue un outil
+complémentaire pour déterminer quel patient nécessite impérativement une
+hospitalisation et quel patient pourrait être investigué en ambulatoire.
+Hospitalisation dès que score ABCD3 > 4
+Age ≥ 60 ans =1 point
+PA ≥ 140 mm Hg/≥ 90 mm Hg=1 point
+CLINIQUE
+faiblesse unilatérale =2 points
+troubles langage sans faiblesse =1 point
+Durée symptômes
+60 minutes=2 points
+10 to 59 minutes=1 point
+<10 minutes=0 points
+Diabète= 1 point
+Dual (récidive des symptômes dans les 7 jours précédents) = 2 points
+*Le score ABCD3 ajoute la notion de récidive dans les 7 jours précédents, les données de l’imagerie
+vasculaire (présence d’une sténose d’au moins 50% de la carotide interne) et de l’imagerie cérébrale
+
+AMC de neurologie et de neurochirurgie
+97
+
+Séminaires
+
+SEMINAIRES
+
+AMC de neurologie et de neurochirurgie
+98
+
+Séminaires
+
+AMC de neurologie et de neurochirurgie
+99
+
+Séminaire de neuropathologie
+
+SEMINAIRE DE NEUROPATHOLOGIE
+4 x 90 minutes
+Cf. cours du Dr J. A. Lobrinus, du Pr D. Merkler et du Dr K. L. Egervari
+
+OBJECTIFS GENERAUX :
+-
+
+Rappel des connaissances d'anatomie normale du système nerveux.
+
+-
+
+Connaissance des principales pathologies de chaque compartiment concernant le
+système nerveux central (boîte crânienne, espace épidural, dure-mère et sinus
+veineux, espace sous-dural, arachnoïde, espace sous-arachnoïdien et vaisseaux de la
+base, cerveau avec cortex, substance blanche, noyaux gris centraux, système
+ventriculaire, tronc cérébral et cervelet).
+
+-
+
+Analyse macroscopique de cerveaux d'autopsies, en coupes frontales, illustrant les
+grandes catégories lésionnelles (pathologies vasculaires, tumorales, infectieuses,
+inflammatoires, dégénératives).
+
+-
+
+Analyse microscopique de dix pathologies illustratives du système nerveux central.
+
+HISTOPATHOLOGIE
+Dix pathologies sont illustrées histologiquement, majoritairement à l'aide de coupes
+colorées en hématoxyline éosine, plus rarement à l'aide de colorations spéciales ou
+d'examens immunohistochimiques. Ces coupes illustrent différentes entités clinicopathologiques, présentées dans le cadre de « vignettes cliniques ».
+Les quatre séminaires de Neuropathologie sont organisés de la façon suivante :
+Séminaire 1 : Examen macroscopique d'un cerveau normal avec rappel des principales
+pathologies affectant le système nerveux.
+Séminaire 2 : Examen macroscopique de cerveaux pathologiques.
+Séminaire 3 : Histopathologie des affections vasculaires, inflammatoires et infectieuses :
+➢ coupe 25/1 : Encéphalopathie anoxique subaiguë ;
+➢ coupe 25/2A : Infarctus subaigu non hémorragique,
+➢ coupe 25/2B : Infarctus aigu hémorragique ;
+➢ coupe 25/3 : Sclérose en plaques ;
+➢ coupe 25/6 : Méningite purulente.
+N.B. Les vignettes et coupes 25/4A et 4B (maladie d’Alzheimer) et 25/5 (maladie de
+Parkinson) sont enseignées dans le cadre de l’UIDC.
+
+AMC de neurologie et de neurochirurgie
+100
+
+Séminaire de neuropathologie
+
+Séminaire 4 : Histopathologie des affections tumorales :
+➢ coupe 25/7 : Astrocytome diffus de bas grade ;
+➢ coupe 25/8 : Glioblastome ;
+➢ coupe 25/9 : Méningiome transitionnel ;
+➢ coupe 25/10 : Schwannome.
+
+REFERENCE RECOMMANDEE
+-
+
+Robbins & Cotran Pathologic Basis of Disease, 10th Edition, Elsevier 2020 + ebook
+
+POUR EN SAVOIR PLUS
+-
+
+D. Ellison, S. Love et al. Neuropathology, a reference text of CNS pathology.
+Edinburgh: Mosby, 3rd ed. Edinburgh: Mosby, 2013. WL 17 11
+Love S. Greenfield’s Neuropathology. 9th ed. Boca Raton: CRC Press, 2015. WL
+140 17
+Louis DN et al. Who classification of tumours of the central nervous system. 4 th ed.
+Lyon: IARC, 2016. WL 358 8
+
+Ces livres peuvent être consultés sur place. Service de neuropathologie, CMU, 5e étage,
+bureau 5118.
+
+AMC de neurologie et de neurochirurgie
+101
+
+Séminaire de neuropathologie
+
+COUPE NO 1 : ENCEPHALOPATHIE ANOXIQUE SUBAIGUË
+PROBLEME CLINIQUE
+Homme de 60 ans, hospitalisé après arrêt cardio-respiratoire suite à une bronchoaspiration. Cliniquement, le patient est comateux, avec un EEG plat et une absence de
+réflexes du tronc cérébral. Décès après dix jours. La coupe concerne une circonvolution
+cérébrale.
+
+Macroscopie
+Le cerveau montre un discret épaississement du cortex, avec un aspect flou de la limite
+entre le cortex et la substance blanche.
+
+HISTOLOGIE (HE)
+Questions :
+-
+
+La lésion est-elle bien délimitée ou diffuse ?
+Quelle partie du cerveau (cortex ou substance blanche) est atteinte ?
+Qu'observez-vous histologiquement, en particulier dans les couches profondes du
+cortex ?
+
+AMC de neurologie et de neurochirurgie
+102
+
+Séminaire de neuropathologie
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+-
+
+Le principe et les causes de l'ischémie cérébrale globale.
+
+-
+
+Distinguer l'ischémie cérébrale globale de l'ischémie
+cérébrale focale.
+Connaître le principe de vulnérabilité sélective des
+différentes structures cérébrales vis-à-vis des troubles
+circulatoires systémiques.
+Connaître l'œdème cérébral diffus et sa relation avec
+l'hypertension intra-crânienne.
+
+-
+
+-
+
+REFERENCES
+PATHOLOGIE
+
+Robbins & Cotran Pathologic Basis of Disease, 10th Edition,
+Elsevier 2020, pp. 1253-1261
+
+AMC de neurologie et de neurochirurgie
+103
+
+Séminaire de neuropathologie
+
+COUPE N° 2A : INFARCTUS SUBAIGU NON HEMORRAGIQUE
+COUPE N° 2B : INFARCTUS AIGU HEMORRAGIQUE
+
+PROBLEME CLINIQUE 2A
+Homme de 70 ans, hypertendu et diabétique, souffrant d'une importante artériosclérose
+généralisée et ayant développé de façon brutale une aphasie motrice. La coupe
+histologique montre l'aire de Broca, une semaine après l'installation des symptômes.
+
+PROBLEME CLINIQUE 2B
+Femme de 45 ans, connue pour une fibrillation auriculaire chronique non traitée, ayant
+développé brutalement un hémisyndrome sensitivo-moteur gauche. La coupe histologique
+concerne le territoire de l'artère cérébrale moyenne droite, 24 heures après l'apparition des
+symptômes.
+
+MACROSCOPIE
+2A : Dans l'aire de Broca, présence d'une petite zone pâle, avec perte de la délimitation
+cortex/substance blanche.
+2B : Dans le territoire de l'artère cérébrale moyenne droite, le cerveau est légèrement
+œdémateux et mou, avec un important piqueté hémorragique.
+
+HISTOLOGIE (HE)
+Questions coupe 2A :
+-
+
+Où est située la lésion ?
+Est-elle bien délimitée ?
+Quelles sont les altérations visibles au centre et en périphérie de la lésion ?
+
+Questions coupe 2B :
+-
+
+Où est située la lésion ? Est-elle bien délimitée ?
+Quel est l'aspect des neurones ?
+Quelle est la différence essentielle par rapport à la coupe 2A ?
+
+AMC de neurologie et de neurochirurgie
+104
+
+Séminaire de neuropathologie
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+-
+
+Les causes et les mécanismes de l'infarctus cérébral.
+
+-
+
+La différence entre un infarctus cérébral hémorragique
+et non hémorragique.
+
+-
+
+La différence entre un infarctus cérébral (hémorragique
+ou non hémorragique) et une hémorragie cérébrale (par
+exemple d'origine hypertensive).
+
+-
+
+L'existence des anévrismes sacculaires du polygone de
+Willis comme cause principale d'hémorragie sousarachnoïdienne.
+
+-
+
+Les différences histologiques entre un infarctus aigu
+et subaigu.
+
+REFERENCES
+PATHOLOGIE
+
+Robbins & Cotran Pathologic Basis of Disease, 10th Edition,
+Elsevier 2020, pp. 1253-1261
+
+AMC de neurologie et de neurochirurgie
+105
+
+Séminaire de neuropathologie
+
+COUPE NO 3 : SCLEROSE EN PLAQUES
+PROBLEME CLINIQUE
+Patiente de 28 ans, ayant initialement développé une névrite optique suivie de symptômes
+évocateurs d'une atteinte du tronc cérébral (nystagmus et ataxie) puis finalement une
+atteinte sensitivo-motrice des extrémités. Le décès intervient 25 ans après de début de la
+maladie.
+
+MACROSCOPIE
+A l'examen externe, petites zones bien délimitées, grisâtres, visibles à la base du pont. A
+la coupe, multiples lésions bien délimitées de la substance blanche hémisphérique, d'une
+taille variant entre 5 et 30 mm de grand axe, prédominant dans les régions
+périventriculaires. Ces lésions ont un aspect grisâtre, légèrement translucide.
+
+HISTOLOGIE (VAN GIESON LUXOL)
+Questions :
+-
+
+Quelles sont les structures cérébrales identifiables sur cette coupe ?
+Dans quel compartiment se situe la lésion ?
+Quelle est la description histologique de cette lésion ?
+S'agit-il d'une lésion active ou quiescente ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+-
+
+Le concept des maladies démyélinisantes.
+
+-
+
+L'épidémiologie, la présentation clinique classique, ainsi
+que les hypothèses pathogéniques de la sclérose en
+plaques.
+
+-
+
+L'existence
+d'autres
+maladies
+démyélinisantes
+(leucodystrophies, encéphalomyélite aiguë disséminée,
+myélinolyse centro-pontique, maladie de MarchiafavaBignami).
+
+AMC de neurologie et de neurochirurgie
+106
+
+Séminaire de neuropathologie
+
+REFERENCES
+PATHOLOGIE
+
+Robbins & Cotran Pathologic Basis of Disease, 10th Edition,
+Elsevier 2020, pp.1269-1273
+
+AMC de neurologie et de neurochirurgie
+107
+
+Séminaire de neuropathologie
+
+COUPE NO 6 : MENINGITE PURULENTE
+PROBLEME CLINIQUE
+Patiente de 43 ans ayant développé de manière subaigüe une symptomatologie associant
+céphalées, photophobie, irritabilité, fièvre et troubles de l’état de conscience. A l’examen
+clinique, une raideur de nuque est objectivée. La patiente décède rapidement d’un choc
+septique avec multiples pétéchies cutanées.
+
+MACROSCOPIE
+A l’examen externe, les méninges sont opaques, avec présence d’un enduit blanc jaunâtre
+sous-arachnoïdien, recouvrant les hémisphères cérébraux. A la coupe, présence de rares
+petites lésions pétéchiales du cortex cérébral.
+
+HISTOLOGIE (HE)
+Questions :
+-
+
+Pouvez-vous identifier les structures normales présentes sur la coupe ?
+Quel est le compartiment pathologique ?
+De quoi est constitué l’exsudat inflammatoire ?
+Existe-t-il des lésions des vaisseaux méningés ?
+Existe-t-il des lésions du cortex ou de la substance blanche ?
+
+AMC de neurologie et de neurochirurgie
+108
+
+Séminaire de neuropathologie
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+-
+
+La présentation clinique et les moyens diagnostiques
+permettant de poser le diagnostic de méningite.
+
+-
+
+La distinction entre une méningite bactérienne et une
+méningite « aseptique ».
+
+-
+
+Les différents germes pouvant être à l’origine d’une
+méningite bactérienne en fonction de l’âge du patient.
+Le syndrome de Waterhouse-Friedrichson.
+
+-
+
+L’existence de la méningo-encéphalite, en particulier
+herpétique.
+
+REFERENCES
+PATHOLOGIE
+
+Robbins & Cotran Pathologic Basis of Disease, 10th Edition,
+Elsevier 2020, pp.1261-1262
+
+AMC de neurologie et de neurochirurgie
+109
+
+Séminaire de neuropathologie
+
+COUPE NO 7 : ASTROCYTOME DIFFUS DE BAS GRADE (OMS GRADE II)
+PROBLEME CLINIQUE
+Patient de 33 ans ayant développé de façon insidieuse des céphalées chroniques, suivies
+d'une crise d’épilepsie inaugurale. A l’imagerie cérébrale, mise en évidence d’une lésion
+pariéto-occipitale droite, centrée sur la substance blanche, mal délimitée, sans prise de
+contraste.
+
+MACROSCOPIE
+Présence d’une zone grisâtre, mal délimitée, avec augmentation du volume de la
+substance blanche en région pariéto-occipitale droite. La coupe histologique concerne une
+région cortico-sous-corticale pariétale postérieure droite.
+
+HISTOLOGIE (HE)
+Questions :
+-
+
+Quelle est la caractéristique de la lésion au faible grossissement ?
+S’agit-t-il d’une lésion bien ou mal délimitée ?
+Quelles sont les cellules composant la lésion au fort grossissement ?
+Observez-vous des signes histologiques d’agressivité (pléomorphisme, mitoses) ?
+
+AMC de neurologie et de neurochirurgie
+110
+
+Séminaire de neuropathologie
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+-
+
+Les grandes catégories de tumeurs primaires du
+système nerveux.
+
+-
+
+Les différents types de gliomes.
+
+-
+
+Le système de classification OMS des tumeurs cérébrales.
+
+-
+
+Les différences macroscopiques entre une tumeur
+cérébrale primaire et un processus métastatique.
+
+REFERENCES
+PATHOLOGIE
+
+Robbins & Cotran Pathologic Basis of Disease, 10th Edition,
+Elsevier 2020, pp.1293-1296
+
+AMC de neurologie et de neurochirurgie
+111
+
+Séminaire de neuropathologie
+
+COUPE NO 8 : GLIOBLASTOMAS (OMS GRADE IV)
+PROBLEME CLINIQUE
+Patient de 74 ans ayant développé de façon progressive un hémisyndrome
+sensitivomoteur droit avec trouble du langage. Par la suite, apparition d’un état
+confusionnel, de céphalées et de vomissements. A l’imagerie cérébrale, volumineux
+processus expansif fronto-pariétal gauche, avec effet de masse, épaississement du corps
+calleux, probables zones de nécrose et prise de contraste.
+
+MACROSCOPIE
+A l’examen externe, l’hémisphère cérébral gauche est plus grand que le droit avec
+aplatissement des circonvolutions cérébrales et engagement unciné à gauche. A la coupe,
+volumineuse lésion hétérogène fronto-pariétale gauche, avec des zones charnues
+blanches, des zones jaunâtres et molles ainsi que de petits foyers d’hémorragie. La coupe
+histologique concerne la région des noyaux gris centraux et de la capsule blanche interne
+à gauche.
+
+HISTOLOGIE (HE)
+Questions :
+-
+
+Pouvez-vous identifier les noyaux gris centraux et la capsule blanche interne ?
+Quelles sont les caractéristiques de la lésion à faible grossissement ?
+Observez-vous de la nécrose ?
+Les cellules tumorales sont-elles monomorphes ou pléomorphes ?
+Observez-vous des mitoses ?
+Qu’en est-il des vaisseaux sanguins ?
+
+AMC de neurologie et de neurochirurgie
+112
+
+Séminaire de neuropathologie
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+-
+
+Les critères histologiques du glioblastome.
+
+-
+
+Le concept du glioblastome primaire et secondaire
+ainsi que ses bases moléculaires.
+
+-
+
+L’épidémiologie, les modalités thérapeutiques et le
+pronostic de cette maladie.
+
+-
+
+La notion d'œdème cérébral, d'hypertension intracrânienne, de processus expansif intra-cérébral et les
+principaux engagements (temporal, uncal ou transtentoriel, sous-falcoriel, amygdalien).
+
+REFERENCES
+PATHOLOGIE
+
+Robbins & Cotran Pathologic Basis of Disease, 10th Edition,
+Elsevier 2020, pp.1293-1296
+
+AMC de neurologie et de neurochirurgie
+113
+
+Séminaire de neuropathologie
+
+COUPE NO 9 : MÉNINGIOME TRANSITIONNEL (OMS GRADE I)
+PROBLEME CLINIQUE
+Patiente de 47 ans, investiguée pour sinusite à répétition. Le CT scan cérébral met en
+évidence une tumeur attachée à la faux du cerveau, de 2,5cm de grand axe.
+
+MACROSCOPIE
+Opération : mise en évidence d’une tumeur bien délimitée, en forme de demi-sphère,
+adhérente à la faux du cerveau. A la coupe, le tissu tumoral est blanchâtre, élastique,
+charnu. L’exérèse est complète, emportant une pastille de dure-mère.
+
+HISTOLOGIE (HE)
+Questions :
+-
+
+Quelle structure normale reconnaissez-vous sur la coupe ?
+Quelles sont les caractéristiques architecturales de la lésion tumorale ?
+La tumeur présente-t-elle des critères de malignité ?
+Comment sont les noyaux ?
+Comment s’appellent les petites structures sphériques et calcifiées visibles ici et là ?
+
+AMC de neurologie et de neurochirurgie
+114
+
+Séminaire de neuropathologie
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient
+être capables de connaître :
+
+PATHOLOGIE
+
+-
+
+NEUROLOGIE
+
+L’épidémiologie, la localisation, les caractéristiques
+macroscopiques et microscopiques des méningiomes.
+
+REFERENCES
+PATHOLOGIE
+
+Robbins & Cotran Pathologic Basis of Disease, 10th Edition,
+Elsevier 2020, pp.1300-1301
+
+AMC de neurologie et de neurochirurgie
+115
+
+Séminaire de neuropathologie
+
+COUPE NO 10 : SCHWANNOME (OMS GRADE I)
+PROBLEME CLINIQUE
+Patient de 42 ans ayant développé progressivement une paraparésie des membres
+inférieurs associée à une hyper-réflexie et à des troubles sensitifs. A l’imagerie, mise en
+évidence d’une tumeur rachidienne, extradurale, de niveau D9.
+
+OPERATION
+Exérèse d’une masse arrondie de 1,8 cm de diamètre, bien délimitée. A la coupe, aspect
+blanc jaune avec des plages translucides.
+
+HISTOLOGIE (HE)
+Questions :
+-
+
+La tumeur présente deux aspects histologiques, pouvez-vous les identifier et les nommer ?
+Comment s’appellent les zones anucléaires visibles entre deux palissades de noyaux ?
+Quel est l’aspect des vaisseaux sanguins ?
+La tumeur est-elle située dans le nerf ou à sa périphérie ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient
+être capables de connaître :
+
+PATHOLOGIE
+
+-
+
+Les localisations classiques du schwannome, en particulier
+celle du schwannome vestibulaire.
+
+-
+
+La différence entre le schwannome et le neurofibrome.
+Les tumeurs bénignes solitaires du système nerveux
+périphérique et celles associées aux neurofibromatoses.
+
+NEUROLOGIE
+
+AMC de neurologie et de neurochirurgie
+116
+
+Séminaire de neuropathologie
+
+REFERENCES
+PATHOLOGIE
+
+Robbins & Cotran Pathologic Basis of Disease, 10th Edition,
+Elsevier 2020, pp.1236-1237
+
+AMC de neurologie et de neurochirurgie
+117
+
+Séminaire de neuropédiatrie
+
+SEMINAIRE DE NEUROPEDIATRIE
+2 x 90 minutes
+Cf. séminaires des Docteurs C. Korff et J. Fluss
+1. Première crise chez l’enfant et crises fébriles
+Les crises épileptiques sont particulièrement fréquentes chez l’enfant. En Suisse,
+on estime que 15'000 patients en âge pédiatrique sont concernés par le problème.
+De nombreuses formes de crises et de syndromes épileptiques débutent dans l’enfance,
+ou peuvent pour certains d’entre eux ne concerner que cette période de la vie. C’est le cas
+par exemple des crises fébriles, qui peuvent toucher jusqu’à 5 % des enfants.
+Au cours de cette heure d’enseignement, nous aborderons certaines notions théoriques
+de base en épileptologie et insisterons plus spécifiquement sur les aspects propres à
+la pédiatrie et aux crises fébriles. Ceux-ci incluent des notions de génétique, d’approches
+diagnostiques et de prise en charge basées sur des études scientifiques récentes et bien
+menées.
+2. Mouvements (a) normaux paroxystiques de l’enfant
+Les épisodes de mouvements paroxystiques de l’enfant représentent un motif de
+consultation fréquent en neuropédiatrie. Le diagnostic différentiel de ce type de
+manifestation est large, et inclut des entités aussi fréquentes que des crises épileptiques,
+des tics, ou des stéréotypies, que des atteintes plus rares, comme une chorée ou diverses
+anomalies neuro-ophtalmologiques. Certaines de ces présentations sont physiologiques
+et ne nécessitent aucune investigation ni traitement. D’autres, au contraire doivent être
+prises en charge de façon multidisciplinaire, et ont un pronostic moins favorable.
+La première étape dans l’abord ce type de symptômes est de bien décrire le mouvement
+lui-même. Cette heure d’enseignement se déroule sous la forme d’un quiz vidéo, au cours
+duquel les étudiant-es devront décrire leurs observations à propos de 10 enfants
+présentant divers types de mouvements paroxystiques. Des notions théoriques de base
+concernant chacune des entités concernées seront également discutées.
+3. Retard(s) du développement psychomoteur de l’enfant : approche clinique
+L’évaluation du développement psychomoteur d’un enfant est un domaine important de la
+pédiatrie. La reconnaissance des troubles du neurodéveloppement représente une part
+majeure de l’activité neuropédiatrique. Une connaissance préalable précise des grandes
+étapes du développement du petit enfant, et leurs variations, est nécessaire afin de pouvoir
+orienter la démarche diagnostique et thérapeutique de façon optimale.
+Durant cette heure d’enseignement, l’étudiant-e sera confronté à différents scénarios
+diagnostiques représentant diverses formes de retards globaux du développement, de
+retards isolés de la motricité ou du langage, ainsi que des troubles de la socialisation. Pour
+l’aider dans cette démarche, des points-clés de l’anamnèse et de l’examen clinique seront
+développés, dans le but de permettre à l’étudiant-e de se familiariser avec les signes
+d’alerte principaux ainsi qu’avec quelques pathologies fréquentes ou importantes
+(Paralysie cérébrale, myopathie, trouble d’acquisition des coordinations, trouble de la
+parole et du langage, autisme, syndromes génétiques…). Les modalités d’investigations
+seront abordées en fonction des tableaux évoqués.
+AMC de neurologie et de neurochirurgie
+118
+
+Séminaire de neuropédiatrie
+
+4. Difficultés scolaires et troubles spécifiques des apprentissages
+D’une problématique à première vue purement pédagogique, l’échec scolaire est devenu
+un motif fréquent de consultation médicale et de recherche en neurosciences cognitives.
+L’heure d’enseignement sera divisée en deux parties. Dans la première, l’étudiant-e sera
+exposé à la notion de « school readiness » ou de pré-requis aux apprentissages scolaires
+qu’un enfant possède vers 4-5 ans et qui sont la base des apprentissages formels et
+explicites (au travers de l’enseignement) du langage écrit et des mathématiques. Il devra
+comprendre le parallèle existant entre développement cognitif de l’enfant et les
+apprentissages et les principes des bases neurobiologiques de ceux-ci reflétant une
+interaction complexe entre gènes et environnement. Dans une deuxième partie, portant
+sur la base des connaissances théoriques apprises, l’étudiant-e sera invité à réfléchir sur
+les causes variées de difficultés scolaires, incluant les troubles dits « dys », ou spécifiques
+des apprentissages, que sont la dyslexie, la dyscalculie et la dyspraxie. Des troubles plus
+transversaux, c’est-à-dire se répercutant de manière générale sur les performances
+scolaires (par exemple : les troubles de l’attention, le retard mental, les troubles anxieux)
+seront également abordés brièvement dans le cadre du diagnostic différentiel de ces
+entités.
+
+AMC de neurologie et de neurochirurgie
+119
+
+Séminaire de neuroradiologie
+
+SEMINAIRE DE NEURORADIOLOGIE
+Enseignants :
+Durée :
+
+Prof. KO. Lövblad et MI. Vargas, Dr P. Machi et collaborateurs
+5 heures 15 de cours réparties sur 2 semaines consécutives
+(soit 7 cours de 45 minutes)
+Lieu et horaires : Salle de colloques, étage P, aile Jura, Bât. C Prévost
+(Selon programme publié en début de rotation)
+THÈMES ET OBJECTIFS
+
+➢
+
+Techniques IRM
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+•
+•
+
+Comprendre les bases physiques de l’Imagerie par Résonance Magnétique
+Comprendre les différences entre une IRM et un CT
+Connaître les différentes séquences IRM, morphologiques et avancées
+Connaître les limitations et artéfacts de l’IRM
+Connaître le concept de sécurité en IRM
+
+Références
+Robert R. Edelman MD, John R. Hesselink MD FACR,Clinical Magnetic Resonance
+Imaging (3rd ed) saunders.
+Viallon M, Cuvinciuc V, Delattre B, Merlini L, Barnaure-Nachbar I, Toso-Patel S, Becker M,
+Lovblad KO, Haller S. State-of-the-art MRI techniques in neuroradiology: principles, pitfalls,
+and clinical applications. Neuroradiology. 2015 May;57(5):441-67.
+
+AMC de neurologie et de neurochirurgie
+120
+
+Séminaire de neuroradiologie
+
+➢
+
+Lésions médullaires
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+
+Connaître les indications à un examen d’imagerie médullaire
+Connaître les différents types de lésions médullaires
+Comprendre les types d’imagerie utilisables pour les différentes lésions médullaires
+
+Références
+Michael Forsting, Detlev Uhlenbrock, Isabel Wanke MRT der Wirbelsäule und des
+Spinalkanals (German) Thieme
+➢
+
+Lésions substance blanche
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+
+Connaître les différentes maladies de la substance blanche du SNC
+Comprendre les différentes techniques utilisables
+Comprendre les différences entre CT et IRM des lésions de la substance blanche
+
+Références
+Lövblad KO Introduction to: MR imaging of white matter diseases Top Magn Reson
+Imaging. 2009 Dec;20(6):299.
+Haller S, M Pereira, Lazeyras F, Vargas MI, Lovblad KO MR Imaging techniques in white
+matter disease: potentials and limitations Top Magn Reson Imaging. 2009 Dec;20(6):30112.
+Haller S, Mendes Pereira V, Lazeyras F, Lalive P, Chofflon M, Vargas MI, Lovblad KO
+Magnetic resonance imaging in multiple sclerosis Top Magn Reson Imaging. 2009
+Dec;20(6):313-23.
+Lövblad KO, Assal F, Mendes Pereira V, Vargas M, Sztajzel R, Haller H MR Imaging of
+vascular diseases of the white matter Top Magn Reson Imaging. 2009 Dec;20(6):343-8
+➢
+
+Lésions traumatiques cérébrales
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+•
+•
+
+Connaître les différents types d’hématomes traumatiques
+Connaître les différents types de fracture crânienne
+Comprendre les examens d’imagerie utilisables et leur indication
+Connaître la notion de coup contre coup
+Connaître la notion de traumatisme axonal diffus
+
+Références
+K. Sartor, S. Haehnel, B. Kress. Direct Diagnosis in Radiology. Brain Imaging. Thieme,
+ISBN 978-3-13-143961-1
+
+AMC de neurologie et de neurochirurgie
+121
+
+Séminaire de neuroradiologie
+
+➢ Lésions ischémiques cérébrales
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+•
+•
+
+Comprendre les indications au traitement de l’ischémie cérébrale
+Connaître les différents types d’examen radiologique
+Connaître le concept de fenêtre thérapeutique
+Connaître le concept de pénombre ischémique
+Connaître les différences entre CT et IRM ; dans l’ischémie cérébrale
+
+Références
+Lövblad KO, Barnaure-Nachbar I, Boto J, Fitsiori A, Vargas MI Imagerie des accidents
+vasculaires cérébraux (ischémie) La Gazette médicale, info gériatrie, 24.01.2017
+Lövblad KO: Altrichter S, Mendes Pereira V, Vargas, M Marcos Gonzalez A, Haller S,
+Sztajzel RImaging of acute stroke: CT and/or MRI J Neuroradiology 2015, 55-64.
+➢
+Lésions vasculaires cérébrales
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+•
+
+Connaître les types de lésions vasculaires cérébrales
+Connaître les différents types d’hémorragies cérébrales
+Connaître les différents types de malformations vasculaires cérébrales
+Connaître le traitement de ces lésions
+
+Références
+Gonzalez AM, Narata AP, Yilmaz H, Bijlenga P, Radovanovic I, Schaller K, Lovblad KO,
+Pereira VM. Blood blister-like aneurysms: Single center experience and systematic
+literature review. Eur J Radiol. 2014 Jan;83(1):197-205.
+➢
+
+Lésions tumorales cérébrales
+
+Après ce cours, l’étudiant(e) devra :
+•
+•
+•
+•
+
+Connaître les différents types de tumeurs cérébrales
+Connaître la répartition selon localisation et âge des types de tumeurs cérébrales
+Connaître les différentes techniques IRM utilisées dans l’évaluation d’une tumeur
+Connaître les techniques avancées IRM utilisées pour le planning pré-chirurgical
+
+Références
+DN Louis et al. The 2016 World Health Organization Classification of Tumors of the
+Central Nervous System: a summary. Acta Neuropathol 2016.
+Robert R. Edelman MD, John R. Hesselink MD FACR,Clinical Magnetic Resonance
+Imaging (3rd ed) saunders.
+Viallon M, Cuvinciuc V, Delattre B, Merlini L, Barnaure-Nachbar I, Toso-Patel S, Becker
+M, Lovblad KO, Haller S. State-of-the-art MRI techniques in neuroradiology: principles,
+pitfalls, and clinical applications. Neuroradiology. 2015 May;57(5):441-67.
+
+AMC de neurologie et de neurochirurgie
+122
+
+Séminaire de pharmacologie
+
+SEMINAIRE DE PHARMACOLOGIE
+4 x 45 minutes
+Cf. cours de la Dre M. Besson et coll.
+Monitoring thérapeutique, TDM (90 minutes)
+Syndromes médicamenteux et toxicologie (90 minutes)
+Cf. Document de cours, site Moodle de pharmacologie
+(https://moodle.unige.ch/mod/folder/view.php?id=144303)
+
+OBJECTIFS D’APPRENTISSAGE GENERAUX :
+•
+•
+•
+•
+•
+•
+
+Citer les indications du monitoring thérapeutique
+Citer les limites du monitoring thérapeutique
+Citer les applications du monitoring thérapeutique en neurologie
+Décrire les grands syndromes médicamenteux à expression neurologique
+Identifier les effets indésirables neurologiques des médicaments et agents toxiques.
+
+Séminaire 1 : Therapeutic drug monitoring (TDM) : surveillance plasmatique des
+antiépileptiques
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient PHARMACOLOGIE
+être capables de connaître :
+NEUROLOGIE
+-
+
+Les indications à effectuer une concentration plasmatique
+lors d’un traitement par antiépileptique.
+L’utilité et les limites du TDM dans la prise en charge
+d’un patient épileptique.
+Comment prescrire et interpréter une concentration
+plasmatique d’antiépileptique.
+
+AMC de neurologie et de neurochirurgie
+123
+
+Séminaire de pharmacologie
+
+REFERENCES
+NEUROLOGIE
+PHARMACOLOGIE
+
+Patsalos PN, Berry DJ. Therapeutic drug monitoring of antiepileptic
+drugs by use of saliva. Ther Drug Monitol 2013; 35:4-29
+Krasowski MD. Therapeutic drug monitoring of the newer antiepilepsy medications. Pharmaceuticals 2010; 3:1909-1935
+
+Séminaire 2 & 3 : Syndromes médicamenteux (extrapyramidal, sérotoninergique,
+neuroleptique malin, anticholinergique) et neurotoxicité
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant-es devraient PHARMACOLOGIE
+être capables de discuter :
+NEUROLOGIE
+TOXICOLOGIE
+
+-
+
+-
+
+Les manifestations des syndromes médicamenteux à
+expression neurologique et reconnaître qu’un tableau
+clinique complexe peut être dû à une toxicité
+médicamenteuse.
+Les médicaments impliqués et les mécanismes
+physiopathologiques.
+Proposer une prise en charge thérapeutique de ces
+syndromes.
+Reconnaitre les atteintes neurologiques liées à des
+agents non médicamenteux tels que toxines biologiques
+et agents chimiques (plantes, champignons, araignées,
+pesticides, métaux lourds) et proposer une prise en
+charge
+
+AMC de neurologie et de neurochirurgie
+124
+
+Séminaire de pharmacologie
+
+REFERENCES
+NEUROLOGIE
+PHARMACOLOGIE
+TOXICOLOGIE
+
+Perry PJ, Wilborn CA. Serotonin syndrome vs neuroleptic
+malignant syndrom : a contrast of causes, diagnoses, and
+management. Ann Clin Psychiatry 2012; 24 :155-162
+Dayalu P, Chou KL. Antipsychotic-induced extrapyramidal
+symptoms and their management. Expert Opin Pharmacother
+2008; 9 :1451-1462
+Shin HW, Chung SJ. Drug-induced Parkinsonism. J Clin Neurol
+2012; 8 :15-21
+Caito S, Aschner M. Neurotoxicity of Metals. Handb Clin Neurol
+2015;131:169-89.
+Goldfrank’s Toxicologic Emergencies, Ed. Mc Graw Hill
+
+AMC de neurologie et de neurochirurgie
+125
+
+Séminaire de médecine légale et éthique
+
+SEMINAIRE DE MEDECINE LEGALE ET ETHIQUE
+1 x 90 minutes
+Cf. séminaire de la Pre B. Elger, la Pre S. Hurst et coll.
+La description de ce séminaire se trouve dans le cahier de l’étudiant-e du cours / séminaire
+de Médecine Légale et Ethique qui doit être apporté lors du séminaire. Le nom du cours
+donné durant ce séminaire est la mort cérébrale et son arrière fond conceptuel.
+
+AMC de neurologie et de neurochirurgie
+126
+
+Séminaire de neurorééducation
+
+SEMINAIRE DE NEUROREEDUCATION
+1 x 45 minutes (présence d'un patient en début ; ponctualité demandée)
+Cf. séminaire du Pr A. Schnider
+Les troubles après une atteinte neurologique sont très variés : moteurs, sensoriels,
+cognitifs et psychiques. Ils ont comme conséquence une réduction de l’indépendance dans
+les activités de la vie quotidienne, de la participation à certaines activités et au final une
+diminution de la qualité de vie de la personne concernée. Heureusement, ni le déficit
+neurologique, ni ses conséquences ne sont immuables.
+Basé sur l'anamnèse personnelle d'un patient présent au début, ce séminaire vise à
+introduire quelques principes et valeurs de la neurorééducation :
+-
+
+Les objectifs de la neurorééducation.
+L'évaluation du fonctionnement et du handicap après atteinte neurologique.
+Les facteurs somatiques et mentaux influençant le pronostic.
+L'équipe multidisciplinaire active en neurorééducation.
+La plasticité cérébrale et sa modulation par des médicaments, des stimulations, etc.
+L'importance de l'intensité des thérapies et le rôle de la robotique.
+L'intégration sociale d'une personne handicapée.
+
+Lieu : hôpital de Beau-Séjour (voir programme détaillé)
+
+AMC de neurologie et de neurochirurgie
+127
+
+Unités spécialisées
+
+UNITES SPECIALISEES
+6 x 45 minutes
+Durant les unités spécialisées ce sont les principaux examens complémentaires utilisés
+en neurologie qui sont abordés :
+1. Electroencéphalographie (EEG)
+Responsable : Pre M. Seeck, service de neurologie, HUG
+Les principes de la genèse et l’enregistrement d’activité neuronale cérébrale,
+les indications les plus fréquentes ainsi que quelques bases d’interprétation de l’EEG
+seront exposés et discutés.
+2. Electroneuromyographie, potentiels évoqués (ENMG)
+Responsable : Dre A. Lascano, service de neurologie, HUG
+Les principes de base et les principales indications de l'examen neurographique de la
+conduction nerveuse et de l'examen EMG sont exposés dans la première partie de la
+session. En deuxième partie, une démonstration pratique utilisant un appareil ENMG de
+l'unité est proposée aux étudiant-es, raison pour laquelle l'enseignement se déroule de
+préférence dans une des salles d'examen de l'unité.
+3. Neurologie cognitive et Neuropsychologie
+Responsable : Pr F. Assal, service de neurologie, HUG avec la collaboration de Mme R.
+Ronchi, PhD, responsable psychologue de l’unité.
+La neuropsychologie est l’étude des fonctions cognitives et émotionnelles des patients
+neurologiques avec lésions cérébrales et maladies dégénératives, inflammatoires, etc. Elle
+aide au diagnostic et prend en charge les patients sur le plan de la rééducation (p.ex de
+l’héminégligence ou de l’aphasie). L’examen neuropsychologique est abordé en
+privilégiant les aspects pratiques et en donnant des exemples des principaux tests utilisés.
+
+AMC de neurologie et de neurochirurgie
+128
+
+Unités spécialisées
+
+OBJECTIFS GENERAUX
+
+-
+
+Présentation de l’examen neuropsychologique (différents domaines cognitifs et tests
+utilisés).
+
+-
+
+Présentation des examens cognitifs brefs utilisés en neurologie cognitive.
+Sur une base facultative, 3-4 étudiants pourront assister à un examen
+neuropsychologique et à sa cotation, puis discuter de l’interprétation avec la
+neuropsychologue responsable, Mme R. Ronchi.
+
+4. Examen du liquide céphalo-rachidien (LCR)
+Responsable : Pr P. Lalive, service de neurologie, HUG
+Les bases physiologiques du LCR (composition, fonction), les principes de base d’une
+ponction lombaire, et la physiopathologique du LCR dans le contexte de maladies
+inflammatoires seront abordés durant cette unité spécialisée.
+OBJECTIFS GENERAUX
+
+-
+
+Rappel de la physiologie et de la physiopathologie du LCR dans un contexte
+d’inflammation du système nerveux.
+
+-
+
+Présentation de cas cliniques avec analyse du LCR.
+
+-
+
+Etablissement d’un diagnostic différentiel basé sur l’évaluation du LCR.
+
+5. Neurosonologie : échographie doppler carotido-vertébrale et transcrânienne
+Responsable : Dr E. Carrera, service de neurologie, HUG
+
+L'échographie Doppler (ultrasons) est un examen qui permet d'explorer à la fois les parois
+des vaisseaux ainsi que les flux sanguins intravasculaires. Elle est basée sur un
+phénomène physique des ultrasons, l'effet Doppler et constitue aujourd'hui le seul examen
+de l’hémodynamique en temps réel. Simple et performant, ses domaines d'applications se
+sont considérablement étendus grâce à l'amélioration technologique des appareillages et
+l’application de produit de contraste. Son caractère non-invasif pour un coût d'examen
+modéré en fait très souvent un examen de première intention.
+Les examens comprennent : le dépistage et suivi des patients à risque ou souffrant d’affections
+cérébro-vasculaires (AIT, AVC ischémique ou hémorragique, anévrisme/hémorragie sous
+arachnoïdienne, vasculite, drépanocytose, moyamoya). Pour ceci un bilan des troncs vasculaires
+supra-aortiques et intracrâniens à la recherche de sténoses ou d’occlusions généralement dans
+le cadre d'athéromatose sténosante, dissection, thrombus ou vasospasme, est effectué.
+
+AMC de neurologie et de neurochirurgie
+129
+
+Unités spécialisées
+Dans le cadre de nos investigations spécialisées, nous disposons d’échographes couleur
+de dernière génération destinés aux examens des troncs artériels supra-aortiques et
+transcrâniens (polygone de Willis) ; d’un échographe couleur portable : destiné aux
+examens des patients non transportables aux urgences, aux soins intermédiaires/intensifs ;
+d’un appareil Doppler portable destiné à l’évaluation et monitoring des vasospasmes et de
+la mort cérébrale et d’un appareil Doppler M-mode destiné aux tests fonctionnels : détection
+de foramen ovale perméables (FOP), mesure de la vasoréactivité cérébrale (capacité de
+réserve vasculaire cérébrale) et détection d’emboles (HITS).
+
+6. Physiopathologie neurochirurgicale
+Responsable : Pr S. Momjian, service de neurochirurgie, HUG
+Les principaux mécanismes physiopathologiques impliqués ou perturbés lors des
+pathologies neurochirurgicales crânio-cérébrales seront abordés durant cette unité
+spécialisée.
+OBJECTIFS GENERAUX
+
+-
+
+Rappel de la physiologie et de la physiopathologie de la production, circulation et
+résorption du liquide céphalorachidien ainsi que de la définition des hydrocéphalies.
+
+-
+
+Présentation de la problématique de la pression intracrânienne et de sa régulation, du
+concept de compliance crânio-spinale ainsi que de la notion d’engagement cérébral.
+
+-
+
+Exposé des éléments à connaître sur le débit sanguin cérébral et son autorégulation,
+sur l’ischémie cérébrale et sur l’œdème cérébral.
+
+AMC de neurologie et de neurochirurgie
+130
+
+

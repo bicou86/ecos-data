@@ -1,0 +1,196 @@
+ECC NEUROLOGIE 1 :
+EXAMEN DU SYSTÈME MOTEUR ET SENSITIF
+OBJECTIFS D’APPRENTISSAGE :
+Exercer l’examen de la force, du tonus et des réflexes myotatiques
+Savoir coter la force et les réflexes
+Pratiquer l’examen la sensibilité superficielle et profonde
+Les points entre parenthèses ne font pas partie des objectifs d’apprentissage primaires (ne
+font pas partie de l’examen de routine).
+
+SYSTÈME MOTEUR ET RÉFLEXES
+Inspection :
+-
+
+Atrophie, hypertrophie : mesurer la circonférence
+Mouvements involontaires, fasciculations (à observer sur le muscle au repos).
+
+Palpation :
+-
+
+Douleurs musculaires (dans les cas de myosite), consistance du muscle
+
+Percussion :
+-
+
+(Réponse idio-musculaire : réponse directe des fibres musculaires qui se contractent à la
+stimulation mécanique (disparaît précocément dans les affections musculaires, préservé dans
+les neuropathies périphériques) -> le plus visible sur le jambier antérieur.)
+
+Tonus :
+-
+
+-
+
+Tonus normal, hypotonie, hypertonie : tester en variant la vitesse, toujours chercher une
+asymétrie gauche-droite.
+Hypertonie spastique (pyramidale) : vitesse-dépendante, en lame de canif
+Hypertonie rigide (extra-pyramidale) :
+o vitesse-indépendante, roue dentée (l’hypertonie cède par à-coups)
+o Manœuvre de Froment : mobilisation passive du poignet du patient, qui doit effectuer
+un geste continu avec l’autre main (p. ex. marionettes). La rigidité apparaît plus
+nettement lors du geste volontaire.
+Hypotonie : par ex. syndrome cérébelleux.
+o Test au membre inférieur : patient assis, les jambes pendantes -> la jambe ne s’arrête
+pas de penduler
+o Test au membre supérieur : manœuvre de Stewart-Holmes pathologique
+
+Force :
+-
+
+-
+
+Pour tester globalement la force :
+o Mingazzini : membres supérieurs (bras et doigts tendus en supination, doigts écartés),
+membres inférieurs (ne pas coller les pieds, bras posés sur le lit), tenir pendant 1
+minute -> observer s’il y a une chute d’un bras/d’une jambe.
+o Epreuve du tabouret (passage de la position assise à la position debout sans l’aide
+des mains) -> teste les muscles proximaux
+o Marche sur les pointes des pieds et les talons
+Tester la force pour tous les groupes musculaires, comparer les deux côtés, comparer
+proximal-distal
+
+ECC Neurologie 1
+
+Page 1
+
+eva.pfarrwaller 10.10.2011
+
+o
+
+Membre supérieur :
+ abduction des bras (circonflexe, C5-6)
+ flexion de l’avant-bras (mm-cutané, C5-6)
+ extension de l’avant-bras (radial, C6-8)
+ flexion du poignet (médian, C6-7)
+ extension du poignet (radial, C6-8)
+ adduction des doigts (médian, C7-D1)
+ abduction des doigts (ulnaire, C7-D1)
+ abduction du pouce (médian, C8-D1)
+ Griffe ou serrer le doigt de l’examinateur
+
+Membre inférieur :
+ flexion de la hanche (L2-L4, iliopsoas)
+ extension de la hanche (S1, grand fessier)
+ adduction de la hanche (obturateur, L2-L4)
+ abduction de la hanche (fessier sup., L4-S1)
+ flexion des genoux (ischio-jambier, L4-S1)
+ extension des genoux (quadriceps, L2-L4)
+ dorsiflexion de la cheville et du gros orteil (tibial antérieur, L4-L5).
+ Marche sur les talons (L5)
+ flexion plantaire de la cheville et du gros orteil (S1).
+ Marche sur les pointes (S1)
+Cotation de la force sur une échelle de 0 à 5 :
+o 0 : pas de mouvement
+o 1 : contraction musculaire visible
+o 2 : mouvement possible dans le plan horizontal, mais pas contre la gravité
+o 3 : mouvement contre la gravité possible, mais pas contre une résistance
+o 4 : mouvement contre résistance
+o 5 : force normale
+o
+
+-
+
+Réflexes myotatiques :
+-
+
+-
+
+-
+
+Technique : veiller au placement du membre à tester (bien relâché, tester les deux côtés
+dans la même position)
+Toujours comparer au côté controlatéral !
+Décrire le réflexe : Normal, diminué (hyporéflexie, aréflexie, signe d’une atteinte périphérique),
+augmenté (hyperréflexie, signe d’une atteinte centrale)
+Cotation de 0 à 4 :
+o 0 : Aréflexie
+o 1 : diminué
+o 2 : normal
+o 3 : augmenté
+o 4 : très augmenté
+Hyperréflexie : Signe d’une atteinte centrale.
+o Rechercher une extension de la zone réflexogène
+o Clonus : l’étirement d’un muscle provoque des secousses répétées. Le plus
+facilement testé à la cheville (pousser le pied vers le haut) et en rotulien (pousser la
+rotule vers le bas).
+o Polycinétisme (réponses musculaires multiples pour une seule stimulation).
+Manœuvre de Jendrassik : permet d’augmenter les réflexes chez un patient avec des réflexes
+généralement faibles. Demander au patient de tirer sur ses deux mains (permet le
+relâchement des autres groupes musculaires, les réflexes myotatiques ne sont pas inhibés).
+
+Réflexes à rechercher aux membres supérieurs :
+- Bicipital (C6)
+- Tricipital (C7)
+- Stylo-radial (C6)
+- Signe de Hoffmann : flexion forcée de la phalange distale de l’index puis relâchement brusque
+entraîne une flexion des doigts et du pouce (apparaît lors d’un syndrome pyramidal).
+
+ECC Neurologie 1
+
+Page 2
+
+eva.pfarrwaller 10.10.2011
+
+Réflexes à rechercher aux membres inférieurs :
+- Rotulien (L3, L4) : tester en position assise ou couchée, selon l’état du patient.
+- Achilléen (S1)
+
+Réflexes cutanés :
+-
+
+Cutané plantaire (L5, S1) : en flexion (=normal), en extension (=signe de Babinski, signe de
+syndrome pyramidal), indifférent
+(Cutané abdominal (Th8 à Th12) : Stimulation de la périphérie vers l’ombilic dans les 4
+quadrants, l’ombilic se déplace vers le côté stimulé. Absent du côté d’une lésion pyramidale.)
+
+SYSTÈME SENSITIF
+-
+
+La sensibilité est testée chez le patient avec les yeux fermés
+Expliquez bien au patient ce que vous allez faire et donnez des indications claires (montrer
+d’abord au patient ce qu’est le toucher et le piquer).
+Commencer par tester la sensibilité au toucher grossière des deux côtés (visage, bras,
+cuisses, jambes), cibler selon les plaintes du patient !
+Si une anomalie est décelée : tester alors les dermatomes et territoires de nerfs de façon
+précise.
+
+Sensibilité superficielle :
+-
+
+-
+
+Comparer la symétrie gauche-droite et distal-proximal
+Technique d’examen de la sensibilité superficielle : soit de proximal à distal en suivant les
+dermatomes, soit de médial à latéral (en passant d’un dermatome à l’autre, en rondelle) -> si
+un déficit est détecté, tester plus spécifiquement cette région pour la délimiter (« sentez-vous
+mieux ici ou là ? »).
+Tact fin : toucher léger au doigt ou coton tige
+Sensibilité douloureuse : piquer
+Toucher-piquer (=discrimination)
+Sensibilité thermique (à tester seulement si anomalie aux tests précédents)
+
+Sensibilité profonde :
+-
+
+Sens des attitudes : recherche du pouce, position de l’index et gros orteil (tenir la dernière
+phalange sur le côté)
+Pallesthésie (diapason 128 Hz) : tester sur les repères osseux (malléole, genou, hanche,
+poignet…). Commencer par tester en distal et remonter proximalement si anomalie.
+
+ECC Neurologie 1
+
+Page 3
+
+eva.pfarrwaller 10.10.2011
+
+

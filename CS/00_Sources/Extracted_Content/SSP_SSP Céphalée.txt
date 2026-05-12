@@ -1,0 +1,267 @@
+Céphalée
+1. Rechercher des drapeaux rouges
+a. Type de douleur
+i. Pas comme d’habitude, différente (surtout si > 50 ans)
+ii. La pire
+iii. En coup de tonnerre +/- céphalée sentinelle (HSA)
+iv. Positionnelle, à l’effort (hémorragie, rupture anévrysme)
+v. Profil évolutif défavorable
+b. Contexte
+i. Grossesse / post-partum (thrombophlébite)
+ii. HIV, immunosuppression
+iii. Anticoagulant, consommation d’alcool
+iv. Traumatisme crânien
+v. Manipulation ou trauma nuque
+vi. Baisse de l’état général, perte de poids (cancer, métastase)
+c. Clinique
+i. Symptômes neuro récents inhabituels – examen neuro anormal
+1. Mydriase
+2. myosis + ptosis (Horner) (dissection carotidienne)
+ii. Horton
+1. Douleurs temporales en lien avec l’a. temporale
+2. Douleurs au passage du peigne ou de la mastication
+3. Douleurs ceintures
+4. Altération de l’état général
+iii. Rash – éruption cutanée
+iv. Méningisme – raideur de nuque
+v. Fièvre sans autre foyer clinique
+vi. HTA sévère > 180/120 – hypertension maligne
+2. Caractérisation des céphalées
+a. Durée des céphalées - évolution
+b. Localisation : douleur unilatérale vs bilatérale
+c. Caractère : pulsatile vs pression – étau
+d. Intensité
+e. Aggravation ou pas par les activités physiques de routine
+f. Nausée, vomissement
+g. Photophonophobie
+h. Aura (signes positifs)
+3. Symptômes associés
+a. Injection conjonctivale, larmoiement
+b. Sensation de plénitude de l’oreille
+c. Congestion nasale
+d. Myosis, ptosis
+e. Sudation, rougeur du front et de la face
+f. Œdème de la paupière
+g. Agitation
+4. ATCD personnel
+a. Maladie – hospitalisation – opération
+
+b. Médicaments
+c. Allergies
+5. ATCD familiaux
+6. Habitude
+a. Diète - Tabac – alcool – drogue (cocaïne) – AP
+Examen clinique :
+- Examen neurologique
+o Orientation – niveau attentionnel
+o Station debout et marche
+o Épreuves cérébelleuses
+o Nerfs crâniens
+o Signe méningé (Brudzinski, Kernig)
+o Signes de latéralisation : voies longues (grossièrement)
+o Cincinatti : bras tendu + n. VII + répéter phrase après moi
+o FO
+- Rash  inspection de tout le corps
+- Auscultation carotidienne et cardio
+- Examen dirigé selon l’anamnèse :
+o Palpation des artères temporales
+o ORL – percussion des sinus
+o Stomatologique – examen dentition
+o Palpation ATM
+o Rachis cervical
+Laboratoire
+- VS si céphalée inaugurale à > 50 ans – suspicion Horton
+- FS, hémocultures si suspicion méningite
+- Crase si suspicion hémorragie ou pathologie chirurgicale
+- PL si suspicion HSA, méningite ou méningite carcinomateuse
+Imagerie
+- CT si signe d’alarme sauf si suspicion méningite ou artèrite temporale
+- IRM si suspicion pathologie fosse post., charnière occipitale, pathologie vasculaire
+DD :
+- Céphalée primaire :
+o Migraine
+o Céphalée de tension
+o Névralgie du trijumeau
+o Névralgie occipitale
+o Cluster headache
+- Céphalée secondaire
+o AVC
+o Méningite
+o Hémorragie sous arachnoïdienne
+o Hématome sous-dural
+o Dissection (carotidienne ou vertébrale)
+o Thrombophlébite – thrombose veineuse
+o Cancer – métastase
+o Artérite temporale – Horton
+
+Migraine épisodique (< 15j/mois)
+Symptômes :
+- Céphalées durent 4 à 72 heures (sans ttt)
+- Au moins 2 des caractéristiques suivantes
+o Localisation unilatérale
+o Caractère pulsatile
+o Intensité modérée à sévère
+o Aggravation par les activités physique de routine
+- Au moins 1 des caractères suivants
+o Nausée / vomissement
+o Photophonophobie (aggravée par la lumière et par le bruit)
+Traitement :
+- Crise
+o AINS – paracétamol
+o Triptan
+- De fond
+o Beta-bloquant
+o Anti-calcique
+o Anti-épileptique
+o Antidépresseurs tricycliques
+o Anticorps monoclonaux
+
+Céphalées de tension
+Symptômes :
+- Céphalée dure de 30 minutes à 7 jours
+- Au moins 2 des caractéristiques suivantes
+o Localisation bilatérale
+o A type de pression ou d’étau
+o Intensité légère à modérée
+o Non aggravée par les activités physiques de routine
+- Aucun des caractères suivants
+o Nausée/vomissement
+o Photophonophobie
+Traitement :
+- Crise : AINS
+- Traitement de fond
+o Médicamenteux : antidépresseurs tricycliques
+o Non médicamenteux : relaxation, acupuncture, gymnastique posturale
+
+Algie vasculaire de la face = céphalées en grappe = cluster headache
+C’est une hémicrânie trigémino-dysautonomique. Les patients rapportent des douleurs très sévères
+unilatérales orbitaire, supra-orbitaire, temportale pendant 15 à 180 minutes.
+Pour poser le diagnostic il faut au moins 1 des signes suivants, du côté de la douleur :
+- Œil rouge
+- Injection conjonctivale, larmoiement
+- Sensation de plénitude de l’oreille
+- Congestion nasale ou rhinorrhée
+- Myosis ou ptosis
+- Sudation du front et de la face
+- Rougeur du front et de la face
+- Œdème de la paupière
+- Agitation
+
+Traitement :
+- Crise
+o O2 masque avec 10-12 l pendant 15 minutes
+o Triptan
+- De fond
+o Anticalciques
+
+Céphalées et névralgies occipitales
+-
+
+-
+
+Névralgies du nerf d’Arnold
+o Territoires des nerfs grands et petits occipitaux
+o En coup de poignard
+o Provoquée par des mouvements de la tête
+o Sensibles à la palpation
+o Douleur soulagée temporairement par un bloc local (permet diag)
+Névralgies trigéminales
+o Femme après 50 ans
+o Douleurs brèves (sec.) mais répétées (jusqu’à 100x/j)
+o Décharge électrique ou brûlure dans territoire du trijumeau (une ou plusieurs
+branches)
+o Zone gachette : toucher, parler, brossage des dents, manger
+o Porte la main au visage qui se crispe (tic douloureux)
+o Pas d’hypoesthésie
+
+DD :
+
+Syndrome méningés
+Position allongée en chien de fusil
+Nausée, vomissement
+Raideur douloureuse de la nuque
+
+Hémorragie méningée (apyrétique,
+brutal), méningite (pyrétique)
+
+TTT : dexaméthasone et céftriaxone
+
+Hypertension intracrânienne
+Prédominant en décubitus, le matin
+au réveil
+Nausée, vomissement en jet, le
+matin au réveil
+Flou visuel et œdème papillaire au
+fond d’œil (+/- atteinte de n. VI 
+diplopie)
+Thrombophlébite
+cérébrale
+(favorisé
+par
+facteurs
+prothrombotique + infection ORL 
+céphalées, déficit neurologique,
+crise d’épilepsie),
+Processus expansif,
+HTIC idiopathique (obèse)
+
+Hypotension intracrânienne
+Prédominant en orthostatisme
+Nausée après orthostatisme
+prolongé
+Acouphènes,
+troubles
+« fonctionnels » divers
+Fuite du LCR (spontanée ou post
+PL ou post-péridurale, y penser en
+post-partum)
+Diag : IRM  pachyméningite
+Voir PL
+
+Céphalées
+1.
+-
+
+AA
+onset
+location
+qualité
+intensité
+durée
+timing (empêche de dormir)
+symptômes neurologiques associés (photophobie, auras, ataxie)
+nausées/vomissements
+claudication de la mâchoire
+trauma récent
+chirurgie dentaire
+sinusite
+facteurs aggravants
+facteurs qui soulagent
+AF
+ancien trauma
+
+2.
+-
+
+Status
+signes vitaux
+inspection/palpation du crâne
+ORL
+examen neurologique
+fond d’œil
+
+3.
+-
+
+DD
+migraine
+céphalées cluster
+artérite temporale (Horton)
+sinusite
+migraine de tension
+HSA
+méningite
+névralgie du trijumeau
+pseudotumeur cérébrale
+
+

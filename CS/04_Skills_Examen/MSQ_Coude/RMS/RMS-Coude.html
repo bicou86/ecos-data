@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS - Examen du Coude</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .content-wrapper {
+            display: flex;
+            gap: 20px;
+            padding: 40px;
+        }
+        
+        .main-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        
+        .sidebar {
+            width: 350px;
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .sidebar h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .figure-container {
+            margin-bottom: 15px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .figure-container:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        
+        .figure-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .figure-caption {
+            padding: 8px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+            background: #f8f9fa;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        h4 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .pathology {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        
+        .figure-reference {
+            color: #667eea;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        
+        .figure-reference:hover {
+            color: #764ba2;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: pointer;
+        }
+        
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 90%;
+            max-height: 90%;
+        }
+        
+        .modal-content img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: #667eea;
+        }
+        
+        .cards-section {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 3px solid #667eea;
+        }
+        
+        .cards-section h2 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+        
+        .cards-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .card-image-container {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .card-image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .test-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .test-box h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .anatomie-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .anatomie-box h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .anatomie-box ul {
+            margin-left: 20px;
+        }
+        
+        .key-points {
+            background: #fff5f5;
+            border-left: 4px solid #dc3545;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+        
+        .key-points h2 {
+            color: #dc3545;
+            border-bottom: 2px solid #dc3545;
+        }
+        
+        @media (max-width: 1200px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                max-height: 400px;
+                position: static;
+            }
+            
+            .main-content {
+                padding-right: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content-wrapper {
+                padding: 20px;
+            }
+            
+            .cards-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS</h1>
+            <p style="font-size: 1.2em; opacity: 0.9;">Examen du Coude</p>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="main-content">
+                <h2>1. Inspection</h2>
+                
+                <h3>Observation initiale</h3>
+                <ul>
+                    <li>Capacité à se déshabiller</li>
+                    <li>Position du patient</li>
+                    <li>Déformations éventuelles</li>
+                    <li>Lésions cutanées</li>
+                    <li>Trophicité musculaire</li>
+<ul>
+                    <li>Fasciculations</li>
+</ul>
+                
+</ul>
+                <h3>Pathologies visibles</h3>
+                <p><strong>Tuméfaction au triangle radius-olécrâne-épicondyle latéral</strong> <span class="pathology">→ Épanchement articulaire (arthrose, arthrite, spondylarthropathie)</span></p>
+                
+                <p><strong>Tuméfaction, rougeur, chaleur sur olécrâne</strong> <span class="pathology">→ Bursite olécrânienne</span></p>
+                
+                <p><strong>Déformation importante du coude</strong> <span class="pathology">→ Fracture supracondylaire, fracture tête radiale, fracture olécrâne, luxation coude, fracture de Monteggia</span></p>
+                
+                <p><strong>Hématome face antérieure + rétraction biceps (signe de Popeye)</strong> <span class="pathology">→ Rupture tendon biceps brachial</span></p>
+                
+                <h2>2. Palpation</h2>
+                
+                <h3>Structures anatomiques à palper <span class="figure-reference" onclick="scrollToFigure('fig1')">(FIG 1)</span></h3>
+                <p>Palpation bilatérale systématique :</p>
+                <ul>
+                    <li>Olécrâne</li>
+                    <li>Épicondyle médial</li>
+                    <li>Épicondyle latéral</li>
+                    <li>Insertion biceps brachial</li>
+                    <li>Insertion triceps</li>
+                </ul>
+                
+                <h3>Douleur médiale</h3>
+                <p><strong>Douleur palpation partie médiale</strong> <span class="pathology">→ Épicondylite médiale, neuropathie ulnaire (syndrome tunnel cubital), arthrose compartiment médial, lésion ligament collatéral médial, fracture occulte épicondyle médial, radiculopathie cervicale, spondylarthropathie, prise fluoroquinolone</span></p>
+                
+                <h3>Douleur latérale</h3>
+                <p><strong>Douleur palpation partie latérale</strong> <span class="pathology">→ Épicondylite latérale, syndrome tunnel radial (nerf interosseux postérieur), radiculopathie cervicale, compensation sur épaule gelée, arthrose compartiment latéral, ostéochondrite disséquante, arthrite infectieuse/inflammatoire, instabilité varus, spondylarthropathie, fluoroquinolones, atteinte muscle anconé</span></p>
+                
+                <h3>Tests spécifiques de palpation</h3>
+                
+                <div class="test-box">
+                    <h4>Hook test <span class="figure-reference" onclick="scrollToFigure('fig2')">(FIG 2)</span></h4>
+                    <ul>
+                        <li>Crocheter le tendon du biceps brachial</li>
+                    </ul>
+                    <p><strong>Impossibilité de crocheter</strong> <span class="pathology">→ Rupture tendon biceps brachial</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Palpation triceps</h4>
+                    <ul>
+                        <li>Bras en extension, palper insertion triceps</li>
+                    </ul>
+                    <p><strong>Douleur ou creux</strong> <span class="pathology">→ Rupture tendon triceps (fluoroquinolone)</span></p>
+                </div>
+                
+                <h2>3. Mobilité et force</h2>
+                
+                <h3>Mobilité active et passive</h3>
+                <ul>
+                    <li>Flexion-Extension <span class="figure-reference" onclick="scrollToFigure('fig4')">(FIG 4)</span></li>
+                    <li>Pronation-Supination <span class="figure-reference" onclick="scrollToFigure('fig3')">(FIG 3)</span></li>
+                </ul>
+                
+                <h3>Interprétation</h3>
+                <p><strong>Déficit actif sans déficit passif</strong> <span class="pathology">→ Atteinte musculo-tendineuse ou déficit nerveux</span></p>
+                <p><strong>Déficit actif et passif</strong> <span class="pathology">→ Raideur articulaire</span></p>
+                
+                <h3>Déficits spécifiques</h3>
+                <p><strong>Déficit flexion</strong> <span class="pathology">→ Rupture biceps brachial, atteinte nerf musculocutané, radiculopathie C5-C6</span></p>
+                
+                <p><strong>Déficit extension</strong> <span class="pathology">→ Rupture triceps, lésion nerf axillaire ou radial, radiculopathie C5-C6-C7-C8</span></p>
+                
+                <p><strong>Déficit/douleur prosupination</strong> <span class="pathology">→ Fracture avant-bras ± luxation, contusion parties molles, tendinopathie</span></p>
+                
+                <h2>4. Tests de contrainte ligamentaire et épicondylite</h2>
+                
+                <h3>Tests ligamentaires</h3>
+                
+                <div class="test-box">
+                    <h4>Test de contrainte en valgus <span class="figure-reference" onclick="scrollToFigure('fig5')">(FIG 5)</span></h4>
+                    <ul>
+                        <li>Coude 30° flexion, supination</li>
+                        <li>Contrainte latérale (valgus)</li>
+                    </ul>
+                    <p><strong>Douleur ou ressaut</strong> <span class="pathology">→ Lésion ligament collatéral médial (peut léser nerf ulnaire)</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Moving valgus test</h4>
+                    <ul>
+                        <li>Flexion complète vers extension sous contrainte valgus</li>
+                        <li>Épaule 90° rotation externe, 90° abduction</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Lésion ligamentaire interne (plus sensible et spécifique)</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Test de contrainte en varus <span class="figure-reference" onclick="scrollToFigure('fig5')">(FIG 5)</span></h4>
+                    <ul>
+                        <li>Coude 30° flexion, supination</li>
+                        <li>Contrainte médiale (varus)</li>
+                    </ul>
+                    <p><strong>Douleur ou ressaut</strong> <span class="pathology">→ Lésion ligament collatéral latéral</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Test du tiroir postéro-latéral <span class="figure-reference" onclick="scrollToFigure('fig6')">(FIG 6)</span></h4>
+                    <ul>
+                        <li>Position assise, bras sur genoux</li>
+                        <li>Déplacer radius latéral vers postérieur</li>
+                    </ul>
+                    <p><strong>Translation augmentée ou prosupination</strong> <span class="pathology">→ Instabilité rotatoire postéro-latérale</span></p>
+                </div>
+                
+                <h3>Tests d'épicondylite latérale</h3>
+                
+                <div class="test-box">
+                    <h4>Test de Cozen <span class="figure-reference" onclick="scrollToFigure('fig7')">(FIG 7)</span></h4>
+                    <ul>
+                        <li>Poignet pronation, inclinaison radiale, flexion</li>
+                        <li>Extension poignet contre résistance</li>
+                    </ul>
+                    <p><strong>Douleur épicondyle latéral ou extenseurs</strong> <span class="pathology">→ Épicondylite latérale (tennis elbow)</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Test de Maudsley <span class="figure-reference" onclick="scrollToFigure('fig8')">(FIG 8)</span></h4>
+                    <ul>
+                        <li>Main pronation, palper épicondyle latéral</li>
+                        <li>Extension doigt III contre résistance</li>
+                    </ul>
+                    <p><strong>Douleur épicondyle latéral</strong> <span class="pathology">→ Épicondylite latérale</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Test de Mill <span class="figure-reference" onclick="scrollToFigure('fig9')">(FIG 9)</span></h4>
+                    <ul>
+                        <li>Palper épicondyle latéral</li>
+                        <li>Poignet en pronation-flexion, coude extension</li>
+                    </ul>
+                    <p><strong>Douleur épicondyle latéral ou extenseurs</strong> <span class="pathology">→ Épicondylite latérale</span></p>
+                </div>
+                
+                <h3>Tests d'épicondylite médiale</h3>
+                
+                <div class="test-box">
+                    <h4>Test de Cozen inversé <span class="figure-reference" onclick="scrollToFigure('fig10')">(FIG 10)</span></h4>
+                    <ul>
+                        <li>Poignet supination, flexion, inclinaison ulnaire</li>
+                        <li>Flexion poignet contre résistance</li>
+                    </ul>
+                    <p><strong>Douleur épicondyle médial</strong> <span class="pathology">→ Épicondylite médiale</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Test de Mill inversé <span class="figure-reference" onclick="scrollToFigure('fig11')">(FIG 11)</span></h4>
+                    <ul>
+                        <li>Palper épicondyle médial</li>
+                        <li>Poignet passivement en supination-extension, coude extension</li>
+                    </ul>
+                    <p><strong>Douleur épicondyle médial</strong> <span class="pathology">→ Épicondylite médiale (golfer's elbow)</span></p>
+                </div>
+                
+                <h2>5. Examen neurologique</h2>
+                
+                <h3>Anatomie nerveuse</h3>
+                <ul>
+                    <li><strong>Nerf ulnaire</strong> : Passe postérieurement à l'épicondyle médial dans son sillon <span class="figure-reference" onclick="scrollToFigure('fig12')">(FIG 12)</span></li>
+                    <li><strong>Nerf radial</strong> : Se divise en branches superficielle et profonde (traverse supinateur)</li>
+                    <li><strong>Nerf médian</strong> : Passe antérieurement, traverse rond pronateur</li>
+                </ul>
+                
+                <h3>Tests de compression nerveuse</h3>
+                
+                <div class="test-box">
+                    <h4>Syndrome tunnel cubital (nerf ulnaire)</h4>
+                    <ul>
+                        <li>Flexion maximale coude 1-3 minutes</li>
+                    </ul>
+                    <p><strong>Douleurs/troubles sensitifs territoire ulnaire</strong> <span class="pathology">→ Compression ulnaire</span></p>
+                    <ul>
+                        <li>Corde saillante sous peau en flexion <span class="pathology">→ Instabilité nerf ulnaire</span></li>
+<ul>
+                        <li>Test de Tinel au coude <span class="pathology">→ Neuropathie compressive ulnaire</span></li>
+</ul>
+</ul>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Syndrome rond pronateur (nerf médian)</h4>
+                    <ul>
+                        <li>Pronation avant-bras contre résistance</li>
+                    </ul>
+                    <p><strong>Reproduction symptômes</strong> <span class="pathology">→ Compression nerf médian au coude</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Syndrome tunnel radial</h4>
+                    <p><strong>Compression branche profonde nerf radial</strong> <span class="pathology">→ Syndrome tunnel radial</span></p>
+                </div>
+                
+                <h2>Anatomie fonctionnelle</h2>
+                
+                <div class="anatomie-box">
+                    <h3>Articulations</h3>
+                    <ul>
+                        <li>Huméro-ulnaire</li>
+                        <li>Huméro-radiale</li>
+                        <li>Radio-ulnaire proximale</li>
+                    </ul>
+                    
+                    <h3>Ligaments</h3>
+                    <ul>
+                        <li>Collatéral médial</li>
+                        <li>Collatéral latéral</li>
+                        <li>Annulaire radial</li>
+</ul>
+                    
+                    <h3>Points d'insertion musculaire</h3>
+                    <ul>
+                        <li><strong>Épicondyle médial</strong> : Muscles fléchisseurs poignet</li>
+                        <li><strong>Épicondyle latéral</strong> : Muscles extenseurs poignet</li>
+</ul>
+                    
+                    <h3>Mouvements</h3>
+                    <ul>
+                        <li>Flexion-Extension (articulation trochlée)</li>
+                        <li>Pronation-Supination</li>
+</ul>
+                    
+                    <h3>Fosse cubitale</h3>
+                    <p>Contient : nerf radial, tendon bicipital, artère brachiale, nerf médian, nœuds lymphatiques épitrochléens</p>
+                </div>
+                
+                <div class="key-points">
+                    <h2>Points clés</h2>
+                    <ul>
+                        <li>Le coude est très sollicité (sport, port de charges)</li>
+                        <li>Microtraumatismes répétés et macrotraumatismes fréquents</li>
+                        <li>Douleurs peuvent être d'origine cervicale ou épaule</li>
+                        <li>Diagnostic difficile : anatomie complexe concentrée</li>
+                        <li>Signes et symptômes peuvent se chevaucher</li>
+                    </ul>
+                </div>
+                
+                <div class="cards-section">
+                    <h2>Cartes de Révision</h2>
+                    <div class="cards-images">
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/Coude/Coude-carte_page-0001.jpg" alt="Carte de révision 1">
+                        </div>
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/Coude/Coude-carte_page-0002.jpg" alt="Carte de révision 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <h3>Figures</h3>
+                <div id="figures-container"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+    
+    <script>
+        // Liste des figures
+        const figures = [
+            {id: 'fig1', file: 'FIG 1.jpg', caption: 'FIG 1 - Structures anatomiques'},
+            {id: 'fig2', file: 'FIG 2.jpg', caption: 'FIG 2 - Hook test'},
+            {id: 'fig3', file: 'FIG 3.jpg', caption: 'FIG 3 - Pronation-Supination'},
+            {id: 'fig4', file: 'FIG 4.jpg', caption: 'FIG 4 - Flexion-Extension'},
+            {id: 'fig5', file: 'FIG 5.jpg', caption: 'FIG 5 - Tests valgus/varus'},
+            {id: 'fig6', file: 'FIG 6.jpg', caption: 'FIG 6 - Tiroir postéro-latéral'},
+            {id: 'fig7', file: 'FIG 7.jpg', caption: 'FIG 7 - Test de Cozen'},
+            {id: 'fig8', file: 'FIG 8.jpg', caption: 'FIG 8 - Test de Maudsley'},
+            {id: 'fig9', file: 'FIG 9.jpg', caption: 'FIG 9 - Test de Mill'},
+            {id: 'fig10', file: 'FIG 10.jpg', caption: 'FIG 10 - Test de Cozen inversé'},
+            {id: 'fig11', file: 'FIG 11.jpg', caption: 'FIG 11 - Test de Mill inversé'},
+            {id: 'fig12', file: 'FIG 12.jpg', caption: 'FIG 12 - Nerf ulnaire'}
+        ];
+        
+        // Génération des figures dans la sidebar
+        const figuresContainer = document.getElementById('figures-container');
+        figures.forEach(fig => {
+            const figureDiv = document.createElement('div');
+            figureDiv.className = 'figure-container';
+            figureDiv.id = fig.id;
+            figureDiv.onclick = () => openModal(figureDiv.querySelector('img'));
+            
+            const img = document.createElement('img');
+            img.src = `../Fiches/RMS/Coude/${fig.file}`;
+            img.alt = fig.caption;
+            
+            const caption = document.createElement('div');
+            caption.className = 'figure-caption';
+            caption.textContent = fig.caption;
+            
+            figureDiv.appendChild(img);
+            figureDiv.appendChild(caption);
+            figuresContainer.appendChild(figureDiv);
+        });
+        
+        // Fonction pour scroller vers une figure
+        function scrollToFigure(figId) {
+            const element = document.getElementById(figId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                element.style.transform = 'scale(1.05)';
+                setTimeout(() => {
+                    element.style.transform = '';
+                }, 500);
+            }
+        }
+        
+        // Fonction pour ouvrir le modal
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = img.src || img.querySelector('img').src;
+        }
+        
+        // Fonction pour fermer le modal
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+        
+        // Fermer le modal avec la touche Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

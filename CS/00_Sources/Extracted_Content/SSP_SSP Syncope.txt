@@ -1,0 +1,135 @@
+Syncope
+1. Caractériser la syncope
+a. 1er épisode ?
+b. Durée de la perte de connaissance
+c. Trauma crânien ?
+d. Prodromes
+i. Diaphorèse
+ii. Vertiges
+iii. Voile noir
+iv. Phosphènes (tâches lumineuses devant les yeux)
+v. Palpitation
+e. Condition de survenue
+i. En se levant
+ii. Debout depuis longtemps
+iii. Facteurs de stress
+f. Pendant la crise
+i. Mouvements anormaux
+ii. Convulsion
+iii. Yeux ouverts ou fermés
+iv. Morsure de la langue
+1. Antérieure
+2. Latérale
+g. Perte d’urine → épilepsie
+h. État post critique
+i. Repris ses esprits
+ème
+i. 2 crise successive
+2. Symptômes associés
+a. Perte de poids
+b. Fatigue
+c. Sudations nocturnes
+d. Fièvre
+e. Nausée
+3. Anamnèse par système
+a. Cardiaque
+i. Douleurs thoraciques
+ii. Peine à respirer : dyspnée
+iii. À l’effort
+1. Palpitation
+2. Dyspnée
+3. Angor
+4. ATCD
+a. Maladie - hospitalisation
+b. Opération
+c. Médicaments
+5. ATCD familiaux
+6. Habitudes
+
+Examen clinique
+1. Inspection
+a. Extrémités (ongles)
+b. Langue
+c. Conjonctive
+d. Recoloration capillaire
+e. Thorax et mouvements
+f. Oedèmes des MI (godet)
+g. Turgescence jugulaire
+i. Reflux hépato-jugulaire (> 10s)
+2. Cardiaque
+a. Palpation
+i. Pouls périphériques aux 4 extrémités
+ii. Carotidien (!!! auscultation avant)
+iii. Choc de pointe
+b. Auscultation
+i. Aortique
+ii. Pulmonaire
+iii. Mitral
+iv. Tricuspide
+3. Pulmonaire
+a. Palpation
+i. Zone douloureuse (reproductible à la palpation ?)
+ii. Ampliation thoracique (post)
+b. Percussion (post + lat)
+i. Délimiter
+ii. Comparer les deux côtés
+c. Auscultation
+i. Postérieure : 4 plages en comparant
+ii. LatéraleS : 2 plages
+
+Signes d’alarmes :
+- > 60 ans
+- ATCD coronariens
+- FRCV
+- Valvulopathie connue ou souffle cardiaque
+- Signes de choc
+- Circonstances
+o Pendant un effort physique
+- Prodromes
+o Aucun
+o Palpitations
+o Douleurs thoraciques
+o Céphalées
+o Douleurs abdominales chez la femme ou la personne âgée
+
+-
+
+DD :
+-
+
+-
+
+Récupération
+o Dyspnée
+o Manifestations neurologiques focales
+o Hémorragie digestive
+o Douleur thoracique
+o Tachycardie
+
+Cardiaques
+- Troubles du rythme (palpitation)
+▪ Bradycardie
+▪ Tachycardie
+o Maladie organique
+▪ Sténose aortique
+▪ Cardiomyopathie obstructive
+▪ Embolie pulmonaire
+▪ Infarctus
+▪ Tamponnade
+▪ HTAP
+▪ Dissection aortique
+Non cardiaque
+o Neurogène
+▪ Vaso-vagale (stress, prodrome positif, pas d’état post-critique)
+▪ De situation
+▪ Syndrome du sinus carotidien
+▪ Hypotension orthostatique (en se levant)
+o Maladies neurologiques
+▪ Crise d’épilepsie (yeux ouverts, mouvements pendant crise, perte
+d’urine, état post-critique, morsure langue latérale)
+▪ Crise psychogène non épileptique (yeux fermés)
+o Choc
+o Médicaments
+o Psychiatriques
+
+

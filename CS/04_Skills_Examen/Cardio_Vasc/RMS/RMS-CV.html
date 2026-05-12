@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVUE MÉDICALE SUISSE ÉTUDIANTS - EXAMEN CARDIOVASCULAIRE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        
+        .content-wrapper {
+            display: flex;
+            gap: 30px;
+            position: relative;
+        }
+        
+        .main-content {
+            flex: 1;
+            max-width: 850px;
+        }
+        
+        .sidebar-images {
+            width: 350px;
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            padding-left: 20px;
+            border-left: 2px solid #ecf0f1;
+        }
+        
+        .sidebar-images::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .sidebar-images::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 3px;
+        }
+        
+        .sidebar-images::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 3px;
+        }
+        
+        .sidebar-images::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        
+        h1 {
+            color: #c0392b;
+            border-bottom: 3px solid #e74c3c;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fadbd8;
+            border-left: 5px solid #e74c3c;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        
+        h4 {
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        .pathology {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        .sidebar-figure {
+            margin-bottom: 20px;
+            background-color: #fef5f5;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #f5b7b1;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .sidebar-figure:hover {
+            transform: translateX(-5px);
+            box-shadow: 0 4px 12px rgba(231, 76, 60, 0.15);
+        }
+        
+        .sidebar-figure img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .sidebar-figure-caption {
+            margin-top: 8px;
+            font-size: 0.85em;
+            color: #c0392b;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        .figure-ref {
+            color: #e74c3c;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            border-bottom: 1px dotted #e74c3c;
+            font-size: 0.9em;
+        }
+        
+        .figure-ref:hover {
+            color: #c0392b;
+            border-bottom-style: solid;
+        }
+        
+        .key-points-box {
+            background-color: #fdedec;
+            border: 2px solid #e74c3c;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        
+        .key-points-box h2 {
+            background-color: #e74c3c;
+            color: white;
+            margin: -20px -20px 15px -20px;
+            padding: 15px 20px;
+            border-radius: 6px 6px 0 0;
+        }
+        
+        .final-cards {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 3px solid #e74c3c;
+        }
+        
+        .final-cards h2 {
+            text-align: center;
+            color: #c0392b;
+            margin-bottom: 30px;
+        }
+        
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .card-item img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #f5b7b1;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Modal for image zoom */
+        .image-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 50px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+        }
+        
+        .modal-caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+        }
+        
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close-modal:hover {
+            color: #bbb;
+        }
+        
+        @media (max-width: 1200px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            
+            .main-content {
+                max-width: 100%;
+            }
+            
+            .sidebar-images {
+                width: 100%;
+                position: relative;
+                max-height: none;
+                border-left: none;
+                border-top: 2px solid #f5b7b1;
+                padding-left: 0;
+                padding-top: 20px;
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 20px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            h2 {
+                font-size: 1.4em;
+            }
+            
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS - EXAMEN CARDIOVASCULAIRE</h1>
+        
+        <div class="content-wrapper">
+            <div class="main-content">
+                <h2>Introduction</h2>
+                
+                <h3>Contexte clinique</h3>
+                <p>Les maladies cardiaques sont les causes les plus fréquentes de mortalité et d'hospitalisation en Suisse. Un symptôme cardiaque peut être la conséquence d'une étiologie cardiaque ou extra-cardiaque. L'examen cardiaque devra être complété par d'autres examens permettant d'exclure une autre origine.</p>
+                
+                <h2>Préparation de l'examen</h2>
+                
+                <h3>Installation du patient</h3>
+                <ul>
+                    <li><strong>Position :</strong> Décubitus dorsal sur table d'examen</li>
+                    <li><strong>Configuration :</strong>
+                        <ul>
+                            <li>Jambes décroisées</li>
+                            <li>Bras le long du corps</li>
+                            <li>Coussin sous la tête et sous les genoux</li>
+                            <li>Patient torse nu (femme peut garder sous-vêtements)</li>
+                        </ul>
+  </li>
+                </ul>
+                
+                <h3>Préparatifs</h3>
+                <ul>
+                    <li>Se présenter au patient</li>
+                    <li>Demander son accord</li>
+                    <li>Expliquer le déroulement</li>
+                    <li>Désinfection des mains (entrée/sortie, avant/après contact)</li>
+                    <li>Port de gants si contact avec liquides biologiques</li>
+                    <li>Examinateur positionné à droite du patient (convention)</li>
+</ul>
+                
+                <h2>Anatomie et topographie <span class="figure-ref" onclick="scrollToFigure('fig1a')">(voir Fig. 1a)</span>, <span class="figure-ref" onclick="scrollToFigure('fig1b')">(Fig. 1b)</span>, <span class="figure-ref" onclick="scrollToFigure('fig1c')">(Fig. 1c)</span></h2>
+                
+                <h3>Division du système cardiovasculaire</h3>
+                <strong>Cœur :</strong>
+                <ul>
+                    <li>4 cavités : ventricules droit/gauche, oreillettes droite/gauche</li>
+                    <li>4 valves : tricuspide, mitrale, aortique, pulmonaire</li>
+                </ul>
+                
+                <strong>Système vasculaire :</strong>
+                <ul>
+                    <li>Artériel : pouls centraux (carotidien, fémoral) et périphériques</li>
+                    <li>Veineux : superficiel et profond</li>
+</ul>
+                        <ul>
+                            <li>Membre supérieur : veines céphalique et basilique</li>
+                            <li>Membre inférieur : veines saphènes</li>
+                        </ul>
+  </li>
+                
+                <h2>EXAMEN CARDIAQUE</h2>
+                
+                <h3>1. Inspection cardiovasculaire</h3>
+                
+                <h4>État général du patient</h4>
+                <ul>
+                    <li><strong>État de conscience altéré</strong> <span class="pathology">→ Détresse respiratoire, insuffisance circulatoire, état confusionnel (hyponatrémie, infection urinaire, anémie)</span></li>
+                    <li><strong>Dénutrition</strong> (amyotrophies temporales/interdigitales, œdèmes, ventre globuleux)</li>
+                    <li><strong>Position antalgique</strong> <span class="pathology">→ Douleur thoracique intense</span>
+                        <ul>
+                            <li>Position assise penchée en avant <span class="pathology">→ Péricardite</span></li>
+                            <li>Recroquevillement <span class="pathology">→ Douleur coronarienne</span></li>
+                        </ul>
+  </li>
+                </ul>
+                
+                <h4>Inspection du thorax</h4>
+                <ul>
+                    <li><strong>Déformations thoraciques</strong> <span class="pathology">→ Diminution fonction cardio-respiratoire (cas sévères)</span></li>
+                    <li><strong>Cicatrices, boîtier pacemaker</strong></li>
+</ul>
+                
+                <h4>Inspection périphérique</h4>
+                
+                <strong>Veines jugulaires :</strong>
+<li>
+    <ul>
+                    <li><strong>Turgescence jugulaire</strong> <span class="pathology">→ Insuffisance cardiaque droite</span></li>
+                    <li><strong>Signe de Kussmaul</strong> (remplissage inspiratoire) <span class="pathology">→ Péricardite constrictive</span></li>
+                </ul>
+  </li>
+                
+                <strong>Extrémités :</strong>
+<li>
+    <ul>
+                    <li><strong>Pâleur, froideur, cyanose, marbrures</strong> <span class="pathology">→ Vasoconstriction périphérique (insuffisance cardiaque, choc obstructif/hypovolémique/cardiogénique)</span></li>
+                    <li><strong>Extrémités chaudes + signes insuffisance circulatoire</strong> <span class="pathology">→ Choc distributif (sepsis, anaphylaxie)</span></li>
+                    <li><strong>Temps de recoloration >3 secondes</strong> <span class="pathology">→ Hypoperfusion</span></li>
+                    <li><strong>Hippocratisme digital</strong> <span class="pathology">→ Hypoxie chronique (non spécifique)</span></li>
+</ul>
+  </li>
+                
+                <strong>Lésions cutanées spécifiques :</strong>
+<li>
+    <ul>
+                    <li><strong>Lésions de Janeway</strong> (érythème palmoplantaire) <span class="pathology">→ Endocardite</span></li>
+                    <li><strong>Nodules d'Osler</strong> (pulpe des doigts) <span class="pathology">→ Endocardite</span></li>
+                    <li><strong>Pétéchies sous-unguéales</strong> <span class="pathology">→ Endocardite</span></li>
+                    <li><strong>Taches de Roth</strong> (rétine) <span class="pathology">→ Endocardite</span></li>
+</ul>
+  </li>
+                
+                <strong>Œdèmes des membres :</strong>
+<li>
+    <ul>
+                    <li><strong>Phlébœdème bilatéral</strong> <span class="pathology">→ Insuffisance cardiaque droite, insuffisance rénale, hypoalbuminémie</span></li>
+                    <li><strong>Phlébœdème unilatéral</strong> <span class="pathology">→ Insuffisance veineuse, thrombose veineuse, algodystrophie</span></li>
+                    <li><strong>Lymphœdème</strong> <span class="pathology">→ Obstruction lymphatique (filariose, tumeur, iatrogène)</span></li>
+                    <li><strong>Myxœdème</strong> <span class="pathology">→ Hypothyroïdie</span></li>
+                    <li><strong>Lipœdème</strong> <span class="pathology">→ Dystrophie tissu adipeux</span></li>
+</ul>
+  </li>
+                
+                <strong>Visage :</strong>
+<li>
+    <ul>
+                    <li><strong>Faciès œdématié</strong> <span class="pathology">→ Insuffisance rénale, obstruction veine cave supérieure, angioœdème, hypothyroïdie, Cushing, prééclampsie</span></li>
+                    <li><strong>Pâleur conjonctivale</strong> <span class="pathology">→ Anémie</span></li>
+                    <li><strong>Xanthélasmas, gérontoxon</strong> <span class="pathology">→ Dyslipidémie</span></li>
+                    <li><strong>Cyanose centrale</strong> (lèvres, langue) <span class="pathology">→ Shunt droite-gauche, trouble diffusion, hypoventilation</span></li>
+</ul>
+  </li>
+                
+                <h3>2. Palpation cardiovasculaire <span class="figure-ref" onclick="scrollToFigure('fig2')">(voir Fig. 2)</span>, <span class="figure-ref" onclick="scrollToFigure('fig3')">(Fig. 3)</span></h3>
+                
+                <h4>Pouls et rythme</h4>
+                <strong>Fréquence cardiaque :</strong>
+<li>
+    <ul>
+                    <li><strong>Tachycardie (>100/min)</strong> <span class="pathology">→ Tachyarythmie, insuffisance cardiaque, embolie pulmonaire, hémorragie, déshydratation, sepsis, anémie, hyperthyroïdie</span></li>
+                    <li><strong>Bradycardie (<60/min)</strong> <span class="pathology">→ Bradyarythmie, hypertension intracrânienne, hypothyroïdie, maladie du sinus carotidien</span></li>
+                </ul>
+  </li>
+                
+                <strong>Tension artérielle :</strong>
+<li>
+    <ul>
+                    <li><strong>Hypertension (>140/90 mmHg)</strong> <span class="pathology">→ HTA essentielle, hyperaldostéronisme, Cushing, phéochromocytome, HTA rénovasculaire</span></li>
+                    <li><strong>Hypotension (<90/60 mmHg)</strong> <span class="pathology">→ Orthostatisme, choc, insuffisance cardiaque, insuffisance surrénalienne, hypothyroïdie</span></li>
+</ul>
+  </li>
+                
+                <strong>Caractéristiques du pouls :</strong>
+<li>
+    <ul>
+                    <li><strong>Pouls faible</strong> <span class="pathology">→ Insuffisance volémique</span></li>
+                    <li><strong>Pouls lent et retardé</strong> <span class="pathology">→ Rétrécissement ou insuffisance aortique</span></li>
+                    <li><strong>Asymétrie</strong> <span class="pathology">→ Athérosclérose, dissection aortique</span></li>
+</ul>
+  </li>
+                
+                <h4>Choc de pointe <span class="figure-ref" onclick="scrollToFigure('fig3')">(voir Fig. 3)</span></h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Normal :</strong> 4e-5e espace intercostal, ligne médio-claviculaire, diamètre <2,5 cm</li>
+                    <li><strong>Élargi, déplacé, amplifié</strong> <span class="pathology">→ Surcharge volume (dilatation cavités) ou pression (hypertrophie ventriculaire)</span></li>
+</ul>
+  </li>
+                
+</ul>
+                <h4>Reflux hépato-jugulaire <span class="figure-ref" onclick="scrollToFigure('fig4')">(voir Fig. 4)</span></h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Positif</strong> <span class="pathology">→ Dysfonction cœur droit</span></li>
+</ul>
+  </li>
+                
+</ul>
+                <h3>3. Auscultation cardiaque <span class="figure-ref" onclick="scrollToFigure('fig5')">(voir Fig. 5-9)</span></h3>
+                
+                <h4>Les 5 foyers d'auscultation <span class="figure-ref" onclick="scrollToFigure('fig5')">(voir Fig. 5)</span></h4>
+<ul>
+<li>
+<ol>
+                    <li><strong>Aortique :</strong> 2e espace intercostal parasternal droit</li>
+                    <li><strong>Pulmonaire :</strong> 2e espace intercostal parasternal gauche</li>
+                    <li><strong>Tricuspide :</strong> 4e espace intercostal parasternal gauche</li>
+                    <li><strong>Mitral :</strong> 5e espace intercostal médio-claviculaire gauche</li>
+                    <li><strong>Erb :</strong> 3e espace intercostal parasternal gauche</li>
+                </ol>
+  </li>
+                
+</ul>
+                <h4>Bruits cardiaques physiologiques <span class="figure-ref" onclick="scrollToFigure('fig10')">(voir Fig. 10)</span></h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>B1 :</strong> Fermeture valves atrioventriculaires (systole)</li>
+                    <li><strong>B2 :</strong> Fermeture valves semi-lunaires (diastole)</li>
+</ul>
+  </li>
+                
+</ul>
+                <h4>Dédoublements pathologiques</h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Dédoublement fixe B2</strong> <span class="pathology">→ Communication inter-atriale</span></li>
+                    <li><strong>Dédoublement B2 inspiratoire et expiratoire</strong> <span class="pathology">→ Hypertension pulmonaire, valvulopathie pulmonaire</span></li>
+                    <li><strong>Dédoublement B2 expiratoire seul</strong> <span class="pathology">→ Valvulopathie aortique, cardiomyopathie hypertrophique obstructive</span></li>
+</ul>
+  </li>
+                
+</ul>
+                <h4>Bruits additionnels <span class="figure-ref" onclick="scrollToFigure('fig11')">(voir Fig. 11)</span></h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>B3 (proto-diastolique)</strong> <span class="pathology">→ Cardiomyopathie dilatée (pathologique >40 ans)</span></li>
+                    <li><strong>B4 (télé-diastolique)</strong> <span class="pathology">→ Hypertrophie ventriculaire (HTA, sténose aortique)</span></li>
+</ul>
+  </li>
+                
+</ul>
+                <h4>Souffles cardiaques <span class="figure-ref" onclick="scrollToFigure('fig11')">(voir Fig. 11)</span>, <span class="figure-ref" onclick="scrollToFigure('fig12')">(Fig. 12)</span></h4>
+                
+                <strong>Souffles systoliques :</strong>
+<li>
+    <ul>
+                    <li><strong>Souffle fonctionnel</strong> <span class="pathology">→ Enfants, grossesse, anémie, fièvre, sepsis</span></li>
+                    <li><strong>Sténose aortique</strong> <span class="pathology">→ Foyer aortique, irradiation cou, mésosystolique diamant, râpeux</span></li>
+                    <li><strong>Insuffisance mitrale</strong> <span class="pathology">→ Foyer mitral, irradiation aisselle, holosystolique decrescendo</span></li>
+                    <li><strong>Cardiomyopathie obstructive</strong> <span class="pathology">→ Parasternal gauche, holosystolique diamant</span></li>
+                </ul>
+  </li>
+                
+                <strong>Souffles diastoliques :</strong>
+<li>
+    <ul>
+                    <li><strong>Insuffisance aortique</strong> <span class="pathology">→ Foyer aortique, holodiastolique decrescendo</span></li>
+                    <li><strong>Sténose mitrale</strong> <span class="pathology">→ Apex, diastolique decrescendo</span></li>
+</ul>
+  </li>
+                
+                <strong>Frottement péricardique</strong> <span class="pathology">→ Péricardite</span>
+                
+                <h2>EXAMEN VASCULAIRE</h2>
+                
+                <h3>4. Inspection vasculaire</h3>
+                
+                <h4>Membres inférieurs</h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Amputation</strong> <span class="pathology">→ Antécédents vasculaires</span></li>
+                    <li><strong>Discoloration asymétrique</strong> <span class="pathology">→ Artériopathie oblitérante, syndrome des loges, insuffisance veineuse, thrombose veineuse</span></li>
+                    <li><strong>Perte pilosité, dermite, plaies</strong> <span class="pathology">→ Troubles trophiques (insuffisance veineuse/artérielle)</span></li>
+                    <li><strong>Ulcères suintants</strong> <span class="pathology">→ Origine veineuse</span></li>
+                    <li><strong>Ulcères secs nécrotiques</strong> <span class="pathology">→ Origine artérielle</span></li>
+                </ul>
+  </li>
+                
+</ul>
+                <h4>Signes veineux</h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Varices, dermite ocre, atrophie blanche</strong> <span class="pathology">→ Insuffisance veineuse chronique</span></li>
+                    <li><strong>Cordon érythémateux</strong> <span class="pathology">→ Thrombose veineuse superficielle</span></li>
+                    <li><strong>Œdème unilatéral</strong> <span class="pathology">→ Thrombose veineuse profonde</span></li>
+</ul>
+  </li>
+                
+</ul>
+                <h4>Signes cutanés</h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Livedo (marbrures)</strong> <span class="pathology">→ Sepsis, pathologie embolique, auto-immune</span></li>
+                    <li><strong>Purpura généralisé</strong> <span class="pathology">→ Méningococcémie</span></li>
+                    <li><strong>Purpura localisé</strong> <span class="pathology">→ Thrombopénie, vasculite, endocardite</span></li>
+</ul>
+  </li>
+                
+</ul>
+                <h4>Masses vasculaires</h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Hémangiome</strong> (rouge-bleuté) <span class="pathology">→ 5 lésions = hémangiomatose</span></li>
+                    <li><strong>Malformation veineuse</strong> <span class="pathology">→ Volume variable selon position</span></li>
+                    <li><strong>Malformation artério-veineuse</strong> <span class="pathology">→ Pulsatile</span></li>
+</ul>
+  </li>
+                
+</ul>
+                <h3>5. Auscultation et palpation vasculaire <span class="figure-ref" onclick="scrollToFigure('fig13')">(voir Fig. 13-21)</span></h3>
+                
+                <h4>Palpation des pouls</h4>
+                <strong>Localisation des pouls :</strong>
+<li>
+    <ul>
+                    <li>Carotidien <span class="figure-ref" onclick="scrollToFigure('fig14')">(voir Fig. 14)</span></li>
+                    <li>Brachial <span class="figure-ref" onclick="scrollToFigure('fig13')">(voir Fig. 13)</span></li>
+                    <li>Radial <span class="figure-ref" onclick="scrollToFigure('fig15')">(voir Fig. 15)</span></li>
+                    <li>Fémoral <span class="figure-ref" onclick="scrollToFigure('fig16')">(voir Fig. 16)</span></li>
+                    <li>Poplité <span class="figure-ref" onclick="scrollToFigure('fig17')">(voir Fig. 17)</span></li>
+                    <li>Tibial postérieur <span class="figure-ref" onclick="scrollToFigure('fig18')">(voir Fig. 18)</span></li>
+                    <li>Pédieux <span class="figure-ref" onclick="scrollToFigure('fig19')">(voir Fig. 19)</span></li>
+</ul>
+  </li>
+                
+                <strong>Anomalies du pouls <span class="figure-ref" onclick="scrollToFigure('fig21')">(voir Fig. 21)</span> :</strong>
+<li>
+    <ul>
+                    <li><strong>Pouls absent</strong> <span class="pathology">→ Obstruction artérielle, hypotension sévère, asystolie</span></li>
+                    <li><strong>Pouls filant</strong> (faible, allongé) <span class="pathology">→ Insuffisance cardiaque, hypovolémie, rétrécissement artériel</span></li>
+                    <li><strong>Pouls bondissant</strong> (ample, court) <span class="pathology">→ Insuffisance aortique, bradycardie, athérosclérose</span></li>
+                    <li><strong>Pouls régulièrement irrégulier</strong> <span class="pathology">→ Extrasystoles, bloc, flutter</span></li>
+                    <li><strong>Pouls irrégulièrement irrégulier</strong> <span class="pathology">→ Fibrillation auriculaire</span></li>
+                    <li><strong>Pouls bigéminé</strong> <span class="pathology">→ Extrasystoles</span></li>
+                    <li><strong>Pouls alternant</strong> <span class="pathology">→ Défaillance myocardique</span></li>
+                    <li><strong>Pouls paradoxal</strong> <span class="pathology">→ Péricardite, tamponnade, pneumothorax tension, asthme aigu</span></li>
+</ul>
+  </li>
+                
+                <h4>Tests spécifiques</h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Mobilisation passive mollet douloureuse</strong> <span class="pathology">→ Thrombose veineuse profonde</span></li>
+                    <li><strong>Signe de Homans</strong> (dorsiflexion pied douloureuse) <span class="pathology">→ Thrombose veineuse profonde</span></li>
+                    <li><strong>Étirement passif douloureux</strong> <span class="pathology">→ Syndrome des loges</span></li>
+</ul>
+  </li>
+                
+</ul>
+                <h4>Examen sensitivo-moteur</h4>
+<ul>
+<li>
+    <ul>
+                    <li><strong>Altération sensibilité</strong> <span class="pathology">→ Artériopathie oblitérante, microangiopathie diabétique, syndrome des loges, algodystrophie</span></li>
+</ul>
+  </li>
+                
+                <div class="key-points-box">
+</ul>
+                    <h2>Points clés</h2>
+                    
+                    <h3>Ordre d'examen</h3>
+<ul>
+<li>
+<ol>
+                        <li>Inspection</li>
+                        <li>Palpation</li>
+                        <li>Auscultation (ausculter carotides AVANT palpation)</li>
+                    </ol>
+  </li>
+                    
+</ul>
+                    <h3>Positions spéciales</h3>
+<ul>
+<li>
+    <ul>
+                        <li><strong>Décubitus latéral gauche</strong> <span class="figure-ref" onclick="scrollToFigure('fig7')">(voir Fig. 7)</span> → Accentue souffle mitral</li>
+                        <li><strong>Assis penché en avant</strong> <span class="figure-ref" onclick="scrollToFigure('fig8')">(voir Fig. 8)</span> → Accentue souffle aortique</li>
+                        <li><strong>Inclinaison 30°</strong> → Reflux hépato-jugulaire et turgescence jugulaire</li>
+</ul>
+  </li>
+                    
+</ul>
+                    <h3>Manœuvres diagnostiques</h3>
+<ul>
+<li>
+    <ul>
+                        <li><strong>Inspiration</strong> → Augmente souffles cœur droit</li>
+                        <li><strong>Valsalva</strong> → Diminue souffles (sauf cardiomyopathie obstructive et insuffisance mitrale)</li>
+                        <li><strong>Position accroupie</strong> → Augmente souffles (sauf cardiomyopathie obstructive)</li>
+                        <li><strong>Handgrip</strong> → Augmente insuffisances, diminue sténoses</li>
+</ul>
+  </li>
+</ul>
+                </div>
+                
+                <div class="final-cards">
+                    <h2>Cartes de révision - Examen cardiovasculaire</h2>
+                    <div class="card-grid">
+                        <div class="card-item">
+                            <img src="../Fiches/RMS/CV/CV-carte_page-0001.jpg" alt="Carte de révision CV 1">
+                        </div>
+                        <div class="card-item">
+                            <img src="../Fiches/RMS/CV/CV-carte_page-0002.jpg" alt="Carte de révision CV 2">
+                        </div>
+                        <div class="card-item">
+                            <img src="../Fiches/RMS/CV/CV-carte_page-0003.jpg" alt="Carte de révision CV 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sidebar with images -->
+            <div class="sidebar-images">
+                <div class="sidebar-figure" id="fig1a">
+                    <img src="../Fiches/RMS/CV/FIG 1a.jpg" alt="Anatomie cardiovasculaire - Vue antérieure" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 1a : Anatomie cardiovasculaire - Vue antérieure</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig1b">
+                    <img src="../Fiches/RMS/CV/FIG 1b.jpg" alt="Anatomie cardiovasculaire - Coupe transversale" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 1b : Anatomie cardiovasculaire - Coupe transversale</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig1c">
+                    <img src="../Fiches/RMS/CV/FIG 1c.jpg" alt="Anatomie cardiovasculaire - Système vasculaire" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 1c : Anatomie cardiovasculaire - Système vasculaire</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig2">
+                    <img src="../Fiches/RMS/CV/FIG 2.jpg" alt="Palpation cardiovasculaire" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 2 : Palpation cardiovasculaire</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig3">
+                    <img src="../Fiches/RMS/CV/FIG 3.jpg" alt="Choc de pointe" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 3 : Choc de pointe</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig4">
+                    <img src="../Fiches/RMS/CV/FIG 4.jpg" alt="Reflux hépato-jugulaire" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 4 : Reflux hépato-jugulaire</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig5">
+                    <img src="../Fiches/RMS/CV/FIG 5.jpg" alt="Les 5 foyers d'auscultation" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 5 : Les 5 foyers d'auscultation</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig6">
+                    <img src="../Fiches/RMS/CV/FIG 6.jpg" alt="Technique d'auscultation" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 6 : Technique d'auscultation</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig7">
+                    <img src="../Fiches/RMS/CV/FIG 7.jpg" alt="Décubitus latéral gauche" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 7 : Décubitus latéral gauche</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig8">
+                    <img src="../Fiches/RMS/CV/FIG 8.jpg" alt="Position assise penchée en avant" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 8 : Position assise penchée en avant</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig9">
+                    <img src="../Fiches/RMS/CV/FIG 9.jpg" alt="Auscultation dynamique" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 9 : Auscultation dynamique</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig10">
+                    <img src="../Fiches/RMS/CV/FIG 10.jpg" alt="Bruits cardiaques physiologiques" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 10 : Bruits cardiaques physiologiques</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig11">
+                    <img src="../Fiches/RMS/CV/FIG 11.jpg" alt="Bruits additionnels et souffles" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 11 : Bruits additionnels et souffles</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig12">
+                    <img src="../Fiches/RMS/CV/FIG 12.jpg" alt="Chronologie des souffles" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 12 : Chronologie des souffles</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig13">
+                    <img src="../Fiches/RMS/CV/FIG 13.jpg" alt="Palpation pouls brachial" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 13 : Palpation pouls brachial</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig14">
+                    <img src="../Fiches/RMS/CV/FIG 14.jpg" alt="Palpation pouls carotidien" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 14 : Palpation pouls carotidien</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig15">
+                    <img src="../Fiches/RMS/CV/FIG 15.jpg" alt="Palpation pouls radial" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 15 : Palpation pouls radial</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig16">
+                    <img src="../Fiches/RMS/CV/FIG 16.jpg" alt="Palpation pouls fémoral" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 16 : Palpation pouls fémoral</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig17">
+                    <img src="../Fiches/RMS/CV/FIG 17.jpg" alt="Palpation pouls poplité" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 17 : Palpation pouls poplité</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig18">
+                    <img src="../Fiches/RMS/CV/FIG 18.jpg" alt="Palpation pouls tibial postérieur" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 18 : Palpation pouls tibial postérieur</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig19">
+                    <img src="../Fiches/RMS/CV/FIG 19.jpg" alt="Palpation pouls pédieux" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 19 : Palpation pouls pédieux</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig20">
+                    <img src="../Fiches/RMS/CV/FIG 20.jpg" alt="Schéma récapitulatif des pouls" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 20 : Schéma récapitulatif des pouls</div>
+                </div>
+                
+                <div class="sidebar-figure" id="fig21">
+                    <img src="../Fiches/RMS/CV/FIG 21.jpg" alt="Anomalies du pouls" onclick="openModal(this)">
+                    <div class="sidebar-figure-caption">Figure 21 : Anomalies du pouls</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for image zoom -->
+    <div id="imageModal" class="image-modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="modalCaption" class="modal-caption"></div>
+    </div>
+    
+    <script>
+        function scrollToFigure(figId) {
+            const element = document.getElementById(figId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                element.style.animation = 'pulse 1s';
+                setTimeout(() => {
+                    element.style.animation = '';
+                }, 1000);
+            }
+        }
+        
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImg');
+            const modalCaption = document.getElementById('modalCaption');
+            
+            modal.style.display = 'block';
+            modalImg.src = img.src;
+            modalCaption.innerHTML = img.alt;
+        }
+        
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+        
+        // Close modal when clicking outside of it
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+        
+        // Add pulse animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes pulse {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.05); box-shadow: 0 0 20px rgba(231, 76, 60, 0.5); }
+                100% { transform: scale(1); }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>

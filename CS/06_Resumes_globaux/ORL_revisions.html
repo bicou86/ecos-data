@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide ORL ECOS - Révisions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.7; }
+        }
+        
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+            animation: slideInFromTop 0.8s ease-out;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        /* Barre de progression */
+        .progress-container {
+            padding: 20px;
+            background: white;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .progress-bar {
+            height: 30px;
+            background: #e9ecef;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 15px;
+            width: 0%;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        /* Cartes de statistiques */
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+        
+        /* Contrôles avec filtres améliorés */
+        .controls {
+            padding: 25px;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            border-bottom: 1px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .controls-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        
+        .search-container {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+            font-size: 18px;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 15px 12px 45px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: white;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        /* Filtres par tags */
+        .filter-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-tag {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 2px solid #dee2e6;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .filter-tag:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+        
+        .filter-tag.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: transparent;
+        }
+        
+        .filter-tag.urgent { border-color: #e74c3c; }
+        .filter-tag.urgent.active { background: #e74c3c; }
+        
+        .filter-tag.warning { border-color: #f39c12; }
+        .filter-tag.warning.active { background: #f39c12; }
+        
+        .filter-tag.dosage { border-color: #3498db; }
+        .filter-tag.dosage.active { background: #3498db; }
+        
+        .filter-tag.osce { border-color: #27ae60; }
+        .filter-tag.osce.active { background: #27ae60; }
+        
+        /* Sélecteur de sections */
+        .section-selector {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        select {
+            padding: 10px 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            background: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        select:hover {
+            border-color: #667eea;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        button {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        
+        button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        button:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+        
+        button:active {
+            transform: translateY(-1px);
+        }
+        
+        .counter {
+            padding: 12px 20px;
+            background: white;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #495057;
+            border: 2px solid #dee2e6;
+            min-width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .section.collapsed {
+            margin-bottom: 20px;
+        }
+        
+        .section.collapsed .table-wrapper {
+            display: none;
+        }
+        
+        .section-title {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            font-size: 1.5em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .section-title:hover {
+            padding-left: 30px;
+        }
+        
+        .section-title::before {
+            content: '▼';
+            position: absolute;
+            left: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .section.collapsed .section-title::before {
+            transform: rotate(-90deg);
+        }
+        
+        .section-count {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: normal;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        th {
+            background: #f8f9fa;
+            color: #495057;
+            font-weight: 600;
+            text-align: left;
+            padding: 15px;
+            border-bottom: 2px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e9ecef;
+            vertical-align: top;
+        }
+        
+        tr {
+            transition: all 0.3s ease;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+            transform: scale(1.01);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .pathology {
+            font-weight: 700;
+            color: #667eea;
+            font-size: 1.1em;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .pathology::before {
+            content: '🔬';
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        
+        /* STYLES POUR LES HIGHLIGHTS COLORÉS */
+        
+        /* Rouge - Urgences et alertes */
+        .urgent {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            animation: pulse-urgent 2s infinite;
+            box-shadow: 0 2px 5px rgba(231, 76, 60, 0.3);
+        }
+        
+        @keyframes pulse-urgent {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+        }
+        
+        /* Orange - Avertissements */
+        .warning {
+            background: linear-gradient(45deg, #f39c12, #e67e22);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(243, 156, 18, 0.3);
+        }
+        
+        /* Jaune - Points importants */
+        .highlight {
+            background: linear-gradient(45deg, #f1c40f, #f39c12);
+            color: #2c3e50;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(241, 196, 15, 0.3);
+        }
+        
+        /* Jaune - Points clés */
+        .key-point {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #2c3e50;
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            border: 1px solid #f1c40f;
+            box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);
+        }
+        
+        /* Bleu foncé - Signes cliniques */
+        .clinical-sign {
+            background: linear-gradient(45deg, #2c5aa0, #1e3c72);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(44, 90, 160, 0.3);
+        }
+        
+        /* Vert clair - Dosages */
+        .dosage {
+            background: linear-gradient(45deg, #00b894, #55efc4);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(0, 184, 148, 0.3);
+        }
+        
+        /* Bleu clair - Examens prioritaires */
+        .exam-priority {
+            background: linear-gradient(45deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(116, 185, 255, 0.3);
+        }
+        
+        /* Vert - Lignes de traitement */
+        .treatment-line {
+            background: linear-gradient(45deg, #27ae60, #229954);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(39, 174, 96, 0.3);
+        }
+        
+        /* Conseils OSCE - Encadré spécial */
+        .osce-tip {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 18px;
+            border-radius: 10px;
+            margin: 8px 0;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+            position: relative;
+            overflow: hidden;
+            border-left: 4px solid #fff;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .osce-tip::before {
+            content: '💡 ';
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+        
+        .osce-tip::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transform: translate(30px, -30px);
+        }
+        
+        /* Légende des couleurs */
+        .color-legend {
+            background: white;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: none; /* Hidden by default */
+        }
+        
+        .color-legend h3 {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        
+        .legend-item {
+            display: inline-flex;
+            align-items: center;
+            margin: 5px 10px;
+            font-size: 14px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 8px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .controls-row {
+                flex-direction: column;
+            }
+            
+            .search-container {
+                min-width: 100%;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 10px;
+            }
+            
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            .controls, .progress-container, .stats-container {
+                display: none;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+                box-shadow: none;
+            }
+            
+            .section-title {
+                background: #667eea !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            tr:hover {
+                transform: none;
+                box-shadow: none;
+            }
+            
+            /* Préserver les couleurs à l'impression */
+            .urgent, .warning, .highlight, .key-point,
+            .clinical-sign, .dosage, .exam-priority,
+            .treatment-line, .osce-tip {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    
+        .anatomy {
+            background: linear-gradient(45deg, #16a085, #1abc9c);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(22, 160, 133, 0.3);
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 Guide ORL ECOS</h1>
+            <p class="subtitle">Fiches de révision complètes pour l'examen clinique</p>
+        </header>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number">6</div>
+                <div class="stat-label">Sections</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">27</div>
+                <div class="stat-label">Pathologies</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="viewedCount">0</div>
+                <div class="stat-label">Consultées</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="remainingCount">27</div>
+                <div class="stat-label">Restantes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="progressPercent">0%</div>
+                <div class="stat-label">Progression</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="timeSpent">0m</div>
+                <div class="stat-label">Temps passé</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="controls-row">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Rechercher une pathologie, symptôme, traitement...">
+                </div>
+                <button onclick="expandAll()">📖 Tout déplier</button>
+                <button onclick="collapseAll()">📚 Tout replier</button>
+                <button onclick="resetFilters()">🔄 Réinitialiser</button>
+            </div>
+            
+            <div class="controls-row">
+                <div class="filter-tags">
+                    <span style="margin-right: 10px; font-weight: 600;">Filtres:</span>
+                    <div class="filter-tag urgent" data-tag="urgent" onclick="toggleFilter(this)">🚨 Urgences</div>
+                    <div class="filter-tag warning" data-tag="warning" onclick="toggleFilter(this)">⚠️ Alertes</div>
+                    <div class="filter-tag dosage" data-tag="dosage" onclick="toggleFilter(this)">💊 Dosages</div>
+                    <div class="filter-tag osce" data-tag="osce" onclick="toggleFilter(this)">💡 Tips OSCE</div>
+                </div>
+                
+                <div class="section-selector">
+                    <label for="sectionSelect" style="font-weight: 600;">Section:</label>
+                    <select id="sectionSelect" onchange="filterBySection()">
+                        <option value="">Toutes les sections</option>
+                        <option value="">Toutes les sections</option>
+                        <option value="section-1">1. Pathologies bucco-pharyngées</option>
+                        <option value="section-2">2. Pathologies laryngées</option>
+                        <option value="section-3">3. Oreille externe et moyenne</option>
+                        <option value="section-4">4. Oreille interne et surdités</option>
+                        <option value="section-5">5. Naso-sinus</option>
+                        <option value="section-6">6. Cervical</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="counter" id="counter">
+                <span id="visibleCount">37</span> / 37 pathologies affichées
+            </div>
+        </div>
+        
+        <div class="content">
+
+            <!-- Section 1: Pathologies bucco-pharyngées -->
+            <div class="section" id="section-1">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    1. Pathologies bucco-pharyngées
+                    <span class="section-count">5 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-1">
+                                <td class="pathology">Angine streptococcique (Streptocoque β-hémolytique A)</td>
+                                <td><span class="clinical-sign">Fièvre</span>, <span class="clinical-sign">odynophagie</span> intense, <span class="clinical-sign">dysphagie</span>, pas de <span class="clinical-sign">toux</span> (score de Centor +).</td>
+                                <td><span class="anatomy">Amygdales</span> hypertrophiées avec enduits ponctués, adénopathies cervicales sensibles.</td>
+                                <td>Test de diagnostic rapide streptocoque. <span class="exam">NFS</span>/<span class="exam">CRP</span> si doute.</td>
+                                <td><span class="treatment">Amoxicilline</span> <span class="dosage">6j</span>. Antalgie et hydratation.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer le </div><span class="exam">TDR</span> systématique pour limiter sur-prescription d’<span class="treatment">ATB</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-1">
+                                <td class="pathology">Mononucléose infectieuse (<span class="exam">EBV</span>)</td>
+                                <td><span class="clinical-sign">Asthénie</span> majeure, <span class="clinical-sign">fièvre</span>, <span class="clinical-sign">odynophagie</span>, adénopathies diffuses, douleurs abdominales (splénomégalie).</td>
+                                <td><span class="anatomy">Amygdales</span> rouges, enduits blanchâtres confluents. Adénopathies généralisées, hépatosplénomégalie.</td>
+                                <td><span class="exam">NFS</span> (lymphocytose, cellules mononucléées atypiques). <span class="exam">Sérologie</span> <span class="exam">EBV</span> (<span class="exam">IgM</span>).</td>
+                                <td>Symptomatique (antalgiques, <span class="treatment">AINS</span> sauf aspirine). Repos. Pas de sport <span class="dosage">6 semaines</span> (<span class="warning">risque</span> <span class="warning">rupture rate</span>).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : ne </div><span class="warning">jamais</span> donner <span class="treatment">amoxicilline</span> (rash maculo-papuleux).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-1">
+                                <td class="pathology">Herpangine</td>
+                                <td><span class="clinical-sign">Fièvre</span> élevée, <span class="clinical-sign">odynophagie</span>, enfant en été/automne. Contexte épidémique (Coxsackie).</td>
+                                <td>Vésicules douloureuses sur <span class="anatomy">voile du palais</span>, <span class="anatomy">amygdales</span>, <span class="anatomy">uvule</span>.</td>
+                                <td><span class="clinical-sign">Clinique</span>.</td>
+                                <td>Symptomatique (antalgiques, hydratation).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : différencier de l’herpès (lésions diffusées, gingivostomatite).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent osce" data-section="section-1">
+                                <td class="pathology">Abcès péri-amygdalien</td>
+                                <td>Douleur unilatérale, <span class="clinical-sign">fièvre</span>, <span class="clinical-sign">trismus</span>, <span class="clinical-sign">odynophagie</span> intense.</td>
+                                <td>Déviation de l’<span class="anatomy">uvule</span>, amygdale refoulée en avant, <span class="clinical-sign">hypersialorrhée</span>.</td>
+                                <td>Diagnostic <span class="clinical-sign">clinique</span> ± <span class="exam">scanner</span> <span class="anatomy">cou</span> si doute extension.</td>
+                                <td><span class="urgent">Hospitalisation</span>, <span class="treatment">ATB</span> <span class="dosage">IV</span>, <span class="treatment">drainage</span> chirurgical, antalgie.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : signe clé = </div><span class="clinical-sign">trismus</span> + <span class="anatomy">uvule</span> déviée.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-1">
+                                <td class="pathology">Candidose buccale</td>
+                                <td>Enduits blancs adhérents, douloureux, ATCD immunodépression, corticoïdes inhalés.</td>
+                                <td>Plaques blanchâtres sur <span class="anatomy">langue</span> et muqueuse, saignant au grattage.</td>
+                                <td><span class="exam">Prélèvement</span> mycologique si doute.</td>
+                                <td>Antifongiques locaux (<span class="treatment">amphotéricine B</span> gel, <span class="treatment">miconazole</span>). <span class="treatment">Fluconazole</span> si forme étendue.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : penser à rechercher terrain sous-jacent (VIH, immunodépression, diabète).</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 2: Pathologies laryngées -->
+            <div class="section" id="section-2">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    2. Pathologies laryngées
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent warning osce" data-section="section-2">
+                                <td class="pathology">Laryngite virale de l’enfant</td>
+                                <td><span class="clinical-sign">Toux</span> aboyante, voix rauque, <span class="warning">stridor</span> inspiratoire, <span class="warning">dyspnée</span> nocturne. Début <span class="urgent">brutal</span> après infection ORL.</td>
+                                <td>Cornage, tirage intercostal, agitation, parfois cyanose. Pas d’<span class="clinical-sign">hypersialorrhée</span>.</td>
+                                <td>Diagnostic <span class="clinical-sign">clinique</span>. Pas de <span class="exam">laryngoscopie</span> en <span class="urgent">urgence</span>. Radio thorax parfois (<span class="clinical-sign">signe de</span> la flèche sous-glottique).</td>
+                                <td>Corticothérapie systémique (<span class="treatment">dexaméthasone</span>). Aérosols adrénaline si forme <span class="warning">sévère</span>. <span class="urgent">Hospitalisation</span> si détresse respiratoire.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : différencier du tableau d’épiglottite (</div><span class="urgent">urgence</span> vitale).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-2">
+                                <td class="pathology">Épiglottite</td>
+                                <td><span class="clinical-sign">Fièvre</span> élevée, <span class="clinical-sign">dysphagie</span>, <span class="clinical-sign">hypersialorrhée</span>, voix étouffée, <span class="warning">dyspnée</span> <span class="urgent">brutale</span>. Enfant non vacciné Hib.</td>
+                                <td>Position tripode (assis, penché en avant), <span class="clinical-sign">hypersialorrhée</span>, voix étouffée. <span class="warning">Stridor</span> inspiratoire. Examen ORL difficile/dangereux.</td>
+                                <td>Diagnostic <span class="clinical-sign">clinique</span>. Pas de <span class="exam">laryngoscopie</span> en <span class="urgent">urgence</span>. Hémocultures. <span class="exam">Radiographie</span> cervicale (signe du pouce) seulement si <span class="positive">stable</span>.</td>
+                                <td><span class="urgent">Urgence</span> vitale : sécuriser voie aérienne (intubation/anesthésiste). <span class="treatment">ATB</span> <span class="dosage">IV</span> (<span class="treatment">céphalosporine</span> 3eG). Corticothérapie.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mots-clés = </div><span class="clinical-sign">hypersialorrhée</span> + <span class="clinical-sign">fièvre</span> + position assise penchée en avant. <span class="warning">Jamais</span> examiner gorge à la spatule !</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-2">
+                                <td class="pathology"><span class="clinical-sign">Dysphonie</span> chronique (polypes <span class="anatomy">cordes vocales</span>)</td>
+                                <td><span class="clinical-sign">Dysphonie</span> chronique chez adulte, tabagisme, usage professionnel voix (professeurs, chanteurs).</td>
+                                <td><span class="exam">Laryngoscopie</span> indirecte ou nasofibroscopie : polypes ou nodules <span class="anatomy">cordes vocales</span>.</td>
+                                <td>Nasofibroscopie. Biopsie si doute lésion tumorale.</td>
+                                <td>Rééducation orthophonique. Microchirurgie si persistant. Sevrage tabac.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : différencier polypes bénins de cancer </div><span class="anatomy">larynx</span> (<span class="clinical-sign">dysphonie</span> persistante chez fumeur).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-2">
+                                <td class="pathology">Paralysie unilatérale d’une corde vocale</td>
+                                <td><span class="clinical-sign">Dysphonie</span> progressive, voix soufflée, fausses routes liquides. ATCD <span class="treatment">chirurgie</span> <span class="anatomy">thyroïde</span> ou thoracique.</td>
+                                <td>Nasofibroscopie : immobilité corde vocale en position paramédiane.</td>
+                                <td>Nasofibroscopie systématique. Bilan imagerie médiastin (<span class="exam">scanner</span> thoracique) pour compression nerf récurrent.</td>
+                                <td>Rééducation orthophonique. Injection cordale ou thyroplastie si persistant.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours rechercher cause iatrogène (</div><span class="treatment">thyroïdectomie</span>).</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 3: Oreille externe et moyenne -->
+            <div class="section" id="section-3">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    3. Oreille externe et moyenne
+                    <span class="section-count">5 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-3">
+                                <td class="pathology">Otite externe</td>
+                                <td>Douleur auriculaire, <span class="clinical-sign">prurit</span>, sensation d’<span class="anatomy">oreille</span> bouchée, <span class="clinical-sign">hypoacousie</span>. Facteurs favorisants : baignade (« otite du nageur »), manipulation coton-tige.</td>
+                                <td><span class="anatomy">Conduit auditif</span> rouge, douloureux à la traction <span class="anatomy">pavillon</span>. Débris ou sécrétions. <span class="anatomy">Tympan</span> <span class="positive">normal</span>.</td>
+                                <td><span class="exam">Otoscopie</span>. <span class="exam">Prélèvement</span> si <span class="clinical-sign">otorrhée</span> chronique ou résistante.</td>
+                                <td>Nettoyage conduit. <span class="dosage">Gouttes</span> <span class="treatment">ATB</span> ± corticoïdes. <span class="warning">Éviter</span> eau et manipulation.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : douleur vive au tragus ou traction </div><span class="anatomy">pavillon</span> = signe clé.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent osce" data-section="section-3">
+                                <td class="pathology">Otite moyenne aiguë</td>
+                                <td><span class="clinical-sign">Fièvre</span>, <span class="clinical-sign">otalgie</span> <span class="urgent">brutale</span>, enfant qui pleure la nuit, rhinopharyngite récente. <span class="clinical-sign">Hypoacousie</span> transitoire.</td>
+                                <td><span class="exam">Otoscopie</span> : <span class="anatomy">tympan</span> rouge, bombé, immobile. <span class="clinical-sign">Otorrhée</span> si perforation.</td>
+                                <td>Diagnostic <span class="clinical-sign">clinique</span>. Pas d’examens complémentaires sauf formes compliquées.</td>
+                                <td>Antalgiques systématiques. <span class="treatment">Amoxicilline</span> si <2 ans ou formes sévères. Surveillance possible >2 ans simple.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : bien différencier otite moyenne aiguë </div><span class="exam">vs</span> otite séreuse.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-3">
+                                <td class="pathology">Otite séreuse (séromuqueuse)</td>
+                                <td><span class="clinical-sign">Hypoacousie</span> fluctuante, parfois langage retardé, otalgies discrètes. ATCD otites répétées, hypertrophie <span class="anatomy">végétations</span>.</td>
+                                <td><span class="exam">Otoscopie</span> : <span class="anatomy">tympan</span> jaune/orangé, mat, rétracté, niveaux liquidiens visibles.</td>
+                                <td>Audiogramme, <span class="exam">tympanométrie</span> (plate).</td>
+                                <td>Surveillance <span class="dosage">3 mois</span>. <span class="treatment">Adénoïdectomie</span> ± <span class="treatment">aérateur transtympanique</span> si persistant ><span class="dosage">3 mois</span> ou retentissement langage.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : pathologie fréquente enfant.</div> Toujours demander retentissement scolaire/langage.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-3">
+                                <td class="pathology">Perforation tympanique</td>
+                                <td><span class="clinical-sign">Otorrhée</span> après otite aiguë ou traumatisme barotraumatique (plongée, explosion). <span class="clinical-sign">Hypoacousie</span>.</td>
+                                <td><span class="exam">Otoscopie</span> : perforation visible <span class="anatomy">tympan</span>.</td>
+                                <td>Audiogramme si suspicion déficit. Bilan imagerie si trauma violent.</td>
+                                <td><span class="warning">Éviter</span> eau. Cicatrisation spontanée fréquente. Tympanoplastie si persistant ><span class="dosage">6 mois</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : préciser prévention = pas d’eau dans l’</div><span class="anatomy">oreille</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent osce" data-section="section-3">
+                                <td class="pathology">Mastoïdite aiguë</td>
+                                <td>Douleur rétro-auriculaire, <span class="clinical-sign">fièvre</span>, otite aiguë mal ou non traitée. Enfant.</td>
+                                <td>Rougeur, <span class="clinical-sign">tuméfaction</span> rétro-auriculaire, décollement <span class="anatomy">pavillon</span>. <span class="exam">Otoscopie</span> : <span class="anatomy">tympan</span> inflammatoire ou perforé.</td>
+                                <td><span class="exam">Scanner</span> rochers (extension). <span class="exam">NFS</span>, <span class="exam">CRP</span>.</td>
+                                <td><span class="urgent">Hospitalisation</span>, <span class="treatment">ATB</span> <span class="dosage">IV</span>, <span class="treatment">drainage</span> chirurgical (mastoidectomie) si collection.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : complication classique otite moyenne aiguë → </div><span class="urgent">urgence</span> ORL.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 4: Oreille interne et surdités -->
+            <div class="section" id="section-4">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    4. Oreille interne et surdités
+                    <span class="section-count">5 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning osce" data-section="section-4">
+                                <td class="pathology">Vertige paroxystique positionnel <span class="positive">bénin</span> (VPPB)</td>
+                                <td><span class="clinical-sign">Vertiges</span> brefs (secondes) déclenchés par changements positionnels (se coucher, tourner dans le lit). Pas de <span class="warning"><span class="clinical-sign">surdité</span></span> ni <span class="clinical-sign">acouphènes</span>.</td>
+                                <td><span class="clinical-sign">Nystagmus</span> positionnel déclenché par manœuvre <span class="clinical-sign"><span class="exam">Dix-Hallpike</span></span>.</td>
+                                <td>Diagnostic <span class="clinical-sign">clinique</span>. Pas d’imagerie si typique.</td>
+                                <td>Manœuvre libératoire d’<span class="exam">Epley</span>. Rééducation vestibulaire.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : important = vertige déclenché par position, sans </div><span class="warning"><span class="clinical-sign">surdité</span></span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning osce" data-section="section-4">
+                                <td class="pathology">Maladie de Ménière</td>
+                                <td>Crises répétées <span class="clinical-sign">vertiges</span> rotatoires (minutes à heures), <span class="clinical-sign">acouphènes</span>, plénitude auriculaire, <span class="warning"><span class="clinical-sign">surdité</span></span> fluctuante unilatérale.</td>
+                                <td>Crise : <span class="clinical-sign">nystagmus</span>, instabilité posturale. Entre crises : souvent <span class="positive">normal</span>.</td>
+                                <td>Audiogramme (<span class="warning"><span class="clinical-sign">surdité</span></span> perception basse fréquence). Éliminer neurinome (<span class="exam">IRM</span> CAI).</td>
+                                <td>Régime désodé, <span class="treatment">bétahistine</span>. Diurétiques thiazidiques. Infiltrations intratympaniques corticoïdes/gentamicine si formes invalidantes.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer la </div><span class="clinical-sign">triade</span> = <span class="clinical-sign">vertiges</span> + <span class="clinical-sign">acouphènes</span> + <span class="warning"><span class="clinical-sign">surdité</span></span> fluctuante.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent warning osce" data-section="section-4">
+                                <td class="pathology"><span class="warning"><span class="clinical-sign">Surdité</span></span> brusque</td>
+                                <td>Installation <span class="urgent">brutale</span> <span class="clinical-sign">hypoacousie</span> unilatérale, parfois <span class="clinical-sign">acouphènes</span>, <span class="clinical-sign">vertiges</span>. Souvent idiopathique.</td>
+                                <td><span class="exam">Otoscopie</span> normale. Épreuves de <span class="clinical-sign"><span class="exam">Rinne</span></span>/<span class="clinical-sign"><span class="exam">Weber</span></span> → <span class="warning"><span class="clinical-sign">surdité</span></span> perception.</td>
+                                <td>Audiogramme tonal. <span class="exam">IRM</span> CAI pour éliminer neurinome.</td>
+                                <td>Corticothérapie orale/<span class="dosage">IV</span>. PEC urgente (<72h).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mot-clé = baisse </div><span class="urgent">brutale</span> audition = <span class="urgent">urgence</span> thérapeutique.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-4">
+                                <td class="pathology">Presbyacousie</td>
+                                <td><span class="clinical-sign">Hypoacousie</span> bilatérale progressive sujet âgé, <span class="clinical-sign">acouphènes</span>, difficulté compréhension conversation, surtout environnement bruyant.</td>
+                                <td><span class="exam">Otoscopie</span> normale. <span class="clinical-sign"><span class="exam">Rinne</span></span> positif bilatéral.</td>
+                                <td>Audiogramme tonal : <span class="warning"><span class="clinical-sign">surdité</span></span> perception bilatérale, symétrique, fréquences aiguës.</td>
+                                <td>Appareillage auditif (aides auditives). Rééducation orthophonique. Prévention isolement social.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : penser dépistage presbyacousie en consultation gériatrique.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning osce" data-section="section-4">
+                                <td class="pathology">Neurinome de l’acoustique (schwannome vestibulaire)</td>
+                                <td><span class="warning"><span class="clinical-sign">Surdité</span></span> perception unilatérale progressive, <span class="clinical-sign">acouphènes</span>, troubles équilibre. Parfois découverte sur <span class="warning"><span class="clinical-sign">surdité</span></span> brusque.</td>
+                                <td><span class="exam">Otoscopie</span> normale. Épreuves <span class="clinical-sign"><span class="exam">Rinne</span></span>/<span class="clinical-sign"><span class="exam">Weber</span></span> → perception unilatérale.</td>
+                                <td><span class="exam">IRM</span> CAI et angle ponto-cérébelleux. Audiogramme.</td>
+                                <td>Surveillance si petit. <span class="treatment">Chirurgie</span> ou radiochirurgie (gamma knife) si volumineux ou symptomatique.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer </div><span class="exam">IRM</span> CAI systématique devant toute <span class="warning"><span class="clinical-sign">surdité</span></span> perception unilatérale.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 5: Naso-sinus -->
+            <div class="section" id="section-5">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    5. Naso-sinus
+                    <span class="section-count">5 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-5">
+                                <td class="pathology">Rhinite allergique</td>
+                                <td>Éternuements en salves, <span class="clinical-sign">rhinorrhée</span> claire, <span class="clinical-sign">obstruction nasale</span>, <span class="clinical-sign">prurit</span>, conjonctivite associée. Déclenchée par allergènes saisonniers ou permanents.</td>
+                                <td><span class="anatomy">Cornets</span> inférieurs pâles, œdématiés. <span class="clinical-sign">Écoulement</span> clair.</td>
+                                <td>Tests cutanés allergiques, dosage IgE spécifiques. Rhinomanométrie parfois.</td>
+                                <td>Éviction allergènes, antihistaminiques oraux, corticoïdes nasaux. Désensibilisation si formes sévères.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : associer toujours rhinite allergique et asthme.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-5">
+                                <td class="pathology">Sinusite maxillaire aiguë</td>
+                                <td>Douleur faciale unilatérale, purulente, augmentée en antéflexion. <span class="clinical-sign">Rhinorrhée</span> purulente, <span class="clinical-sign">fièvre</span>. ATCD infections dentaires fréquents.</td>
+                                <td>Douleur palpation <span class="anatomy">sinus</span> maxillaire. <span class="clinical-sign">Écoulement</span> purulent méat moyen.</td>
+                                <td><span class="clinical-sign">Clinique</span>. <span class="exam">Scanner</span> <span class="anatomy">sinus</span> si complication ou doute diagnostic.</td>
+                                <td><span class="treatment">Amoxicilline</span> ± acide clavulanique. Antalgiques, lavages nasaux. <span class="treatment">Chirurgie</span> si complication (abcès orbitaire).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : préciser origine dentaire possible.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-5">
+                                <td class="pathology">Polypose nasale</td>
+                                <td><span class="clinical-sign">Obstruction nasale</span> bilatérale chronique, <span class="clinical-sign">anosmie</span>, <span class="clinical-sign">rhinorrhée</span> postérieure. ATCD asthme, intolérance aspirine (<span class="clinical-sign">triade</span> de Widal).</td>
+                                <td>Polypes translucides, lisses, bilatéraux visibles en <span class="exam">endoscopie</span> nasale.</td>
+                                <td><span class="exam">Scanner</span> <span class="anatomy">sinus</span>. Test mucoviscidose si enfant.</td>
+                                <td>Corticoïdes nasaux prolongés. <span class="treatment">Chirurgie</span> endoscopique si échec.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : chez l’enfant = évoquer mucoviscidose systématiquement.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent osce" data-section="section-5">
+                                <td class="pathology"><span class="clinical-sign">Épistaxis</span></td>
+                                <td>Saignement nasal spontané ou post-traumatique. Facteurs favorisants : HTA, anticoagulants, manipulation digitale.</td>
+                                <td>Zone de Kiesselbach (antérieure) le plus souvent. Vérifier TA.</td>
+                                <td>Nasofibroscopie si récidives ou localisation postérieure. Bilan coagulation si contexte.</td>
+                                <td>Compression narinaire 10 min. Cautérisation chimique ou électrique. Méchage si persistant. Correction facteurs favorisants.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : dire geste </div><span class="urgent">immédiat</span> = compression narine + tête penchée en avant.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-5">
+                                <td class="pathology">Cancer du cavum (<span class="anatomy">nasopharynx</span>)</td>
+                                <td>Adolescent ou adulte jeune. <span class="clinical-sign">Obstruction nasale</span> unilatérale, otite séreuse chronique, <span class="clinical-sign">épistaxis</span>, <span class="clinical-sign">adénopathie</span> cervicale indolore. ATCD <span class="exam">EBV</span> (zones endémiques).</td>
+                                <td>Otite séreuse unilatérale. Masse nasopharyngée à la nasofibroscopie. Adénopathies cervicales hautes.</td>
+                                <td>Nasofibroscopie avec biopsie. <span class="exam">IRM</span> tête-<span class="anatomy">cou</span>. <span class="exam">Sérologie</span> <span class="exam">EBV</span>.</td>
+                                <td>Radio-<span class="treatment">chimiothérapie</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : otite séreuse unilatérale chez adulte = rechercher cancer cavum.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 6: Cervical -->
+            <div class="section" id="section-6">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    6. Cervical
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-6">
+                                <td class="pathology">Adénopathies cervicales</td>
+                                <td>Masse cervicale, douloureuse si contexte infectieux (angine, infection dentaire). Indolore, dure et fixe si contexte tumoral. Durée, évolution, symptômes B (<span class="clinical-sign">fièvre</span>, sueurs nocturnes, amaigrissement).</td>
+                                <td>Palpation masse(s) cervicales (taille, consistance, mobilité). Examen ORL complet (cavum, <span class="anatomy">amygdales</span>, dents).</td>
+                                <td><span class="exam">NFS</span>, <span class="exam">CRP</span>. <span class="exam">Échographie</span> cervicale. <span class="exam">Scanner</span> cervico-thoracique si suspicion maligne. Ponction cytologique (FNA).</td>
+                                <td>Traitement cause infectieuse (<span class="treatment">ATB</span>, <span class="treatment">drainage</span> si abcès). Orientation spécialisée si suspicion lymphome/cancer ORL.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur distinction </div><span class="clinical-sign">adénopathie</span> infectieuse douloureuse <span class="exam">vs</span> tumorale dure, fixe, indolore.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-6">
+                                <td class="pathology">Kyste du tractus thyréoglosse</td>
+                                <td>Masse cervicale médiane découverte chez enfant ou adolescent, augmentant lors des infections ORL.</td>
+                                <td>Masse médiane, mobile à la déglutition et à la protrusion linguale.</td>
+                                <td><span class="exam">Échographie</span> cervicale. Bilan <span class="anatomy">thyroïde</span> (TSH, <span class="exam">échographie</span>).</td>
+                                <td>Exérèse chirurgicale (procédure de Sistrunk).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mot-clé = masse médiane mobile à la déglutition.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning osce" data-section="section-6">
+                                <td class="pathology">Nodule thyroïdien / Cancer thyroïdien</td>
+                                <td>Découverte fortuite ou masse cervicale antérieure. Facteurs <span class="warning">risque</span> : irradiation cervicale, ATCD familiaux cancer <span class="anatomy">thyroïde</span>.</td>
+                                <td>Nodule ferme, indolore, mobilité limitée. Adénopathies cervicales associées possibles.</td>
+                                <td><span class="exam">Échographie</span> <span class="anatomy">thyroïde</span> (classification EU-TIRADS). Dosage TSH. Cytoponction à l’aiguille fine. <span class="exam">Scanner</span> cervico-médiastinal si extension.</td>
+                                <td><span class="treatment">Chirurgie</span> (<span class="treatment">thyroïdectomie</span> totale ou lobectomie selon <span class="warning">risque</span>). ± Iode radioactif. Hormonothérapie substitutive.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : dire systématiquement = TSH + </div><span class="exam">échographie</span> en 1ère intention.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+        // Variables globales
+        let viewedPathologies = new Set();
+        let activeFilters = new Set();
+        let startTime = Date.now();
+        let totalPathologies = 27;
+        
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCounter();
+            updateProgress();
+            
+            // Mise à jour du temps passé
+            setInterval(updateTimeSpent, 60000);
+            
+            // Observer pour marquer les pathologies comme vues
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const row = entry.target;
+                        if (row.classList.contains('pathology-row')) {
+                            viewedPathologies.add(row);
+                            updateProgress();
+                        }
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                observer.observe(row);
+            });
+        });
+        
+        // Fonction de recherche améliorée
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const sections = document.querySelectorAll('.section');
+            let visibleCount = 0;
+            
+            sections.forEach(section => {
+                const rows = section.querySelectorAll('.pathology-row');
+                let sectionHasVisible = false;
+                
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                    const matchesFilters = activeFilters.size === 0 || 
+                        Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                    
+                    if (matchesSearch && matchesFilters) {
+                        row.style.display = '';
+                        sectionHasVisible = true;
+                        visibleCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+                
+                // Masquer la section si aucune pathologie visible
+                section.style.display = sectionHasVisible ? '' : 'none';
+            });
+            
+            updateCounter(visibleCount);
+        });
+        
+        // Toggle section (expand/collapse)
+        function toggleSection(section) {
+            section.classList.toggle('collapsed');
+        }
+        
+        // Fonction pour tout déplier
+        function expandAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('collapsed');
+            });
+        }
+        
+        // Fonction pour tout replier
+        function collapseAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.add('collapsed');
+            });
+        }
+        
+        // Toggle filter
+        function toggleFilter(filterElement) {
+            const tag = filterElement.dataset.tag;
+            filterElement.classList.toggle('active');
+            
+            if (activeFilters.has(tag)) {
+                activeFilters.delete(tag);
+            } else {
+                activeFilters.add(tag);
+            }
+            
+            applyFilters();
+        }
+        
+        // Appliquer les filtres
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const sectionFilter = document.getElementById('sectionSelect').value;
+            const rows = document.querySelectorAll('.pathology-row');
+            let visibleCount = 0;
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                const matchesSection = sectionFilter === '' || row.dataset.section === sectionFilter;
+                const matchesTags = activeFilters.size === 0 || 
+                    Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                
+                if (matchesSearch && matchesSection && matchesTags) {
+                    row.style.display = '';
+                    row.closest('.section').style.display = '';
+                    visibleCount++;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+            
+            // Masquer les sections vides
+            document.querySelectorAll('.section').forEach(section => {
+                const visibleRows = section.querySelectorAll('.pathology-row:not([style*="display: none"])');
+                if (visibleRows.length === 0) {
+                    section.style.display = 'none';
+                }
+            });
+            
+            updateCounter(visibleCount);
+        }
+        
+        // Filtrer par section
+        function filterBySection() {
+            applyFilters();
+        }
+        
+        // Réinitialiser les filtres
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('sectionSelect').value = '';
+            document.querySelectorAll('.filter-tag').forEach(tag => {
+                tag.classList.remove('active');
+            });
+            activeFilters.clear();
+            
+            // Afficher toutes les sections et pathologies
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = '';
+                section.classList.remove('collapsed');
+            });
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                row.style.display = '';
+            });
+            
+            updateCounter(totalPathologies);
+        }
+        
+        // Mettre à jour le compteur
+        function updateCounter(count = null) {
+            if (count === null) {
+                count = document.querySelectorAll('.pathology-row:not([style*="display: none"])').length;
+            }
+            document.getElementById('visibleCount').textContent = count;
+        }
+        
+        // Mettre à jour la progression
+        function updateProgress() {
+            const viewed = viewedPathologies.size;
+            const remaining = totalPathologies - viewed;
+            const percent = Math.round((viewed / totalPathologies) * 100);
+            
+            document.getElementById('viewedCount').textContent = viewed;
+            document.getElementById('remainingCount').textContent = remaining;
+            document.getElementById('progressPercent').textContent = percent + '%';
+            document.getElementById('progressFill').style.width = percent + '%';
+            document.getElementById('progressFill').textContent = percent + '%';
+        }
+        
+        // Mettre à jour le temps passé
+        function updateTimeSpent() {
+            const minutes = Math.floor((Date.now() - startTime) / 60000);
+            const hours = Math.floor(minutes / 60);
+            const mins = minutes % 60;
+            const timeStr = hours > 0 ? `${hours}h ${mins}m` : `${mins}m`;
+            document.getElementById('timeSpent').textContent = timeStr;
+        }
+        
+        // Raccourcis clavier
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + F pour focus sur recherche
+            if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                e.preventDefault();
+                document.getElementById('searchInput').focus();
+            }
+            
+            // Escape pour réinitialiser les filtres
+            if (e.key === 'Escape') {
+                resetFilters();
+            }
+            
+            // Alt + E pour tout déplier
+            if (e.altKey && e.key === 'e') {
+                e.preventDefault();
+                expandAll();
+            }
+            
+            // Alt + C pour tout replier
+            if (e.altKey && e.key === 'c') {
+                e.preventDefault();
+                collapseAll();
+            }
+        });
+    </script>
+</body>
+</html>

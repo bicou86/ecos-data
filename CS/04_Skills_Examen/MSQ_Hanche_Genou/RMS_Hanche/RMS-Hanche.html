@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de la Hanche - Revue Médicale Suisse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .main-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            display: flex;
+        }
+        
+        .content-area {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+        
+        .sidebar {
+            width: 350px;
+            background: #f8f9fa;
+            padding: 20px;
+            overflow-y: auto;
+            max-height: 90vh;
+            border-left: 1px solid #e0e0e0;
+            position: sticky;
+            top: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: linear-gradient(to right, #f6f8fa 0%, transparent 100%);
+            border-left: 4px solid #667eea;
+        }
+        
+        h3 {
+            color: #546e7a;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            padding-left: 10px;
+            border-left: 3px solid #764ba2;
+        }
+        
+        h4 {
+            color: #616161;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        p, li {
+            margin-bottom: 12px;
+            line-height: 1.8;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        /* Mise en évidence des pathologies */
+        .pathology {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+        
+        /* Références aux figures */
+        .fig-ref {
+            color: #3498db;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+            transition: color 0.3s;
+        }
+        
+        .fig-ref:hover {
+            color: #2980b9;
+        }
+        
+        /* Images dans la sidebar */
+        .figure-container {
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .figure-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: zoom-in;
+            transition: transform 0.3s;
+        }
+        
+        .figure-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        .figure-caption {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 8px;
+            font-weight: 500;
+        }
+        
+        /* Modal pour zoom image */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: zoom-out;
+        }
+        
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+        }
+        
+        /* Section anatomie */
+        .anatomy-section {
+            background: #f9f9f9;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        /* Stats épidémiologiques */
+        .stats-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        /* Cartes de révision */
+        .revision-cards {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 3px solid #667eea;
+        }
+        
+        .cards-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .card-image-container {
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card-image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: zoom-in;
+            transition: transform 0.3s;
+        }
+        
+        .card-image-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .main-container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                border-left: none;
+                border-top: 1px solid #e0e0e0;
+                position: relative;
+                max-height: 400px;
+            }
+            
+            .content-area {
+                max-height: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .content-area {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            .cards-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content-area">
+            <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS - EXAMEN DE LA HANCHE</h1>
+            
+            <h2>Introduction</h2>
+            <p>Les maladies musculo-squelettiques peuvent atteindre les différentes structures osseuses, musculaires, cartilagineuses, tendineuses ou ligamentaires.</p>
+            
+            <div class="stats-box">
+                <p><strong>Épidémiologie des coxalgies:</strong></p>
+                <ul>
+                    <li>Hommes 20-50 ans: 5-10%</li>
+                    <li>Hommes 50-80 ans: 15%</li>
+                    <li>Femmes 20-50 ans: 10-15%</li>
+                    <li>Femmes 50-80 ans: 15-20%</li>
+                </ul>
+            </div>
+            
+            <p>Les causes peuvent être:</p>
+            <ul>
+                <li>Traumatiques</li>
+                <li>Infectieuses</li>
+                <li>Néoplasiques</li>
+                <li>Dégénératives</li>
+</ul>
+            
+            <p>L'examen ostéo-articulaire sera souvent complété par des examens complémentaires (radiographie, IRM) selon le diagnostic différentiel.</p>
+            
+            <h2>Contexte clinique</h2>
+            
+            <h3>Préparation</h3>
+            <ul>
+                <li>Se présenter au patient</li>
+                <li>Demander son accord</li>
+                <li>Expliquer le déroulement de l'examen</li>
+                <li>Désinfection des mains (entrée/sortie, avant/après contact)</li>
+                <li>Port de gants si contact avec liquides biologiques</li>
+            </ul>
+            
+            <h3>Installation</h3>
+            <ul>
+                <li>Demander au patient d'enlever le bas</li>
+                <li>Accès aux deux membres inférieurs dans leur entièreté</li>
+                <li>Examen à la station debout et couchée</li>
+</ul>
+            
+            <h2>Anatomie de la hanche</h2>
+            
+            <div class="anatomy-section">
+                <h3>Articulation principale</h3>
+                <p><strong>Articulation fémoro-acétabulaire:</strong> énarthrose entre tête fémorale et acétabulum</p>
+                <ul>
+                    <li>Relie squelette axial aux membres inférieurs</li>
+                    <li>Supporte poids statique (position debout) et dynamique (marche, course)</li>
+                </ul>
+            </div>
+            
+            <h3>Mouvements</h3>
+            <ul>
+                <li>Flexion et extension</li>
+                <li>Rotation interne et externe</li>
+                <li>Abduction et adduction</li>
+                <li>Circumduction (combinaison)</li>
+</ul>
+            
+            <h3>Structures anatomiques</h3>
+            
+            <p><strong>Capsule articulaire:</strong></p>
+            <ul>
+                <li>Fibreuse, s'attache au bord de l'acétabulum</li>
+                <li>Ligament acétabulaire transversal</li>
+                <li>Col du fémur (ligne intertrochantérienne antérieure, crête intertrochantérienne postérieure)</li>
+            </ul>
+            
+            <p><strong>Acétabulum:</strong></p>
+            <ul>
+                <li>Structure en forme de coupe sur face latérale du bassin</li>
+                <li>Recouvert par labrum acétabulaire (anneau cartilagineux)</li>
+</ul>
+            
+            <p><strong>Ligaments stabilisateurs:</strong></p>
+            <ul>
+                <li><strong>Ilio-fémoral:</strong> limite hyperextension et rotation interne</li>
+                <li><strong>Pubo-fémoral:</strong> limite abduction et extension</li>
+                <li><strong>Ischio-fémoral:</strong> limite extension et rotation interne</li>
+</ul>
+            
+            <p><strong>Vascularisation:</strong></p>
+            <ul>
+                <li>Artère circonflexe médiale et latérale</li>
+                <li>Artères obturatrices</li>
+                <li>Artère glutéale supérieure et inférieure</li>
+</ul>
+            
+            <h3>Muscles</h3>
+            
+            <p><strong>Flexion:</strong></p>
+            <ul>
+                <li>Quadriceps (vaste médial, latéral, intermédiaire, droit antérieur) - nerf fémoral</li>
+                <li>Accessoires: tenseur fascia lata, ilio-psoas, sartorius</li>
+            </ul>
+            
+            <p><strong>Extension:</strong></p>
+            <ul>
+                <li>Ischio-jambiers (biceps fémoral, semi-tendineux, semi-membraneux) - nerf sciatique</li>
+                <li>Grand fessier</li>
+</ul>
+            
+            <p><strong>Adduction:</strong></p>
+            <ul>
+                <li>Grand, long et court adducteurs, pectiné, gracile - nerf obturateur</li>
+                <li>Portion distale grand fessier</li>
+</ul>
+            
+            <p><strong>Abduction:</strong></p>
+            <ul>
+                <li>"Deltoïde de la hanche": grand fessier + tenseur fascia lata</li>
+                <li>Moyen et petit fessiers - nerf glutéal supérieur</li>
+                <li>Piriforme - plexus sacré</li>
+                <li>Sartorius - nerf fémoral</li>
+</ul>
+            
+            <p><strong>Rotation interne:</strong></p>
+            <ul>
+                <li>Tenseur fascia lata, moyen fessier, petit fessier</li>
+</ul>
+            
+            <p><strong>Rotation externe:</strong></p>
+            <ul>
+                <li>Grand fessier, piriforme</li>
+                <li>Obturateurs interne et externe</li>
+                <li>Jumeaux supérieur et inférieur</li>
+                <li>Carré fémoral</li>
+                <li>Sartorius</li>
+</ul>
+            
+            <h3>Autres articulations</h3>
+            <ul>
+                <li>Symphyse pubienne</li>
+                <li>Articulation sacro-coccygienne (ligaments sacro-coccygiens)</li>
+                <li>Articulation sacro-iliaque (ligaments sacro-iliaques)</li>
+                <li>Articulation lombo-sacrée (ligaments ilio-lombaires)</li>
+</ul>
+            
+            <h2>Examen Clinique</h2>
+            
+            <h3>1. Inspection</h3>
+            
+            <h4>Marche</h4>
+            <p>Les anomalies de marche peuvent être liées à diverses pathologies (rachis, genou, pied, neurologie) et ne sont pas spécifiques de la hanche.</p>
+            
+            <p><strong>Boiterie - étiologies:</strong></p>
+            
+            <p><strong>Infectieuse:</strong></p>
+            <p><span class="pathology">→ Arthrite septique, ostéomyélite</span></p>
+            
+            <p><strong>Inflammatoire:</strong></p>
+            <p><span class="pathology">→ Ostéochondrite disséquante, synovite transitoire de hanche, maladie de Legg-Calvé-Perthes, épiphysiolyse</span></p>
+            
+            <p><strong>Néoplasique:</strong></p>
+            <p><span class="pathology">→ Ostéome ostéoïde</span></p>
+            
+            <p><strong>Neuro-musculaire:</strong></p>
+            <ul>
+                <li>Boiterie de Trendelenburg <span class="pathology">→ insuffisance moyen fessier</span></li>
+                <li>Boiterie de Duchenne <span class="pathology">→ insuffisance chronique moyen fessier</span></li>
+            </ul>
+            <p><span class="pathology">→ Myopathie de Duchenne, spasticité, dystonie, trouble cérébelleux, athétose</span></p>
+            
+            <p><strong>Raideur articulaire:</strong></p>
+            <p><span class="pathology">→ Paralysie spastique, malformations (coxa vara), séquelles ostéochondrite/épiphysiolyse/trauma/infection</span></p>
+            
+            <p><strong>Inégalité membres inférieurs:</strong></p>
+            <p><span class="pathology">→ Luxation congénitale hanche, coxa vara, séquelles fracture/ostéochondrite/épiphysiolyse/arthrite/ostéomyélite/poliomyélite, hémiplégie cérébrale, syndrome de Klippel-Trenaunay</span></p>
+            
+            <p><strong>Dégénérative:</strong></p>
+            <p><span class="pathology">→ Coxarthrose, conflit fémoro-acétabulaire</span></p>
+            
+            <h4>Station debout</h4>
+            
+            <p><strong>Observation systématique:</strong></p>
+            <ul>
+                <li>Position du patient</li>
+                <li>Déformations</li>
+                <li>Lésions cutanées</li>
+                <li>Trophicité musculaire</li>
+                <li>Fasciculations</li>
+<ul>
+                <li>Longueur membres inférieurs</li>
+                <li>Phase d'appui de la marche (expression des pathologies)</li>
+</ul>
+            
+</ul>
+            <h4>Signes visuels</h4>
+            
+            <p><strong>Hanche rouge/tuméfiée/chaude:</strong></p>
+            <p><span class="pathology">→ Arthrite septique, arthrite micro-cristalline, trauma, ostéochondrite disséquante, spondylarthropathie, épiphysiolyse, synovite transitoire, bursite</span></p>
+            
+            <p><strong>Atrophie musculaire:</strong></p>
+            <p><span class="pathology">→ Atteinte neuromusculaire, décharge antalgique sur trauma</span></p>
+            
+            <p><strong>Cicatrices cutanées:</strong></p>
+            <p><span class="pathology">→ Anciennes interventions (ostéosynthèse, chirurgie réparatrice)</span></p>
+            
+            <p><strong>Asymétrie longueur membres:</strong></p>
+            <ul>
+                <li>Avec rotation externe <span class="pathology">→ fracture col fémoral</span></li>
+                <li>Avec rotation interne <span class="pathology">→ luxation hanche</span></li>
+            </ul>
+            <p><span class="pathology">→ Dysplasie osseuse</span></p>
+            
+            <p><strong>Posture - déformations rachis:</strong></p>
+            <p><span class="pathology">→ Ostéoporose, trauma, condition congénitale (cyphose, lordose, scoliose)</span></p>
+            
+            <p><strong>Flexum (impossibilité extension complète):</strong></p>
+            <p><span class="pathology">→ Épanchement (traumatique, infectieux)</span></p>
+            <p>Important: dos patient bien à plat (compensation par lordose lombaire possible)</p>
+            
+            <h3>2. Palpation <span class="fig-ref" onclick="scrollToFigure('fig1')">(FIG 1)</span></h3>
+            
+            <p>Palpation symétrique et systématique des structures anatomiques:</p>
+            <ul>
+                <li>Grand trochanter</li>
+                <li>Épine iliaque antéro-supérieure</li>
+                <li>Tubérosité ischiatique</li>
+                <li>Crête iliaque</li>
+                <li>Symphyse pubienne</li>
+<ul>
+                <li>Bandelette ilio-tibiale</li>
+</ul>
+            
+</ul>
+            <h4>Zones douloureuses et pathologies</h4>
+            
+            <p><strong>Grand trochanter:</strong></p>
+            <p><span class="pathology">→ Fracture, infection, tendinite, bursite, syndrome essuie-glace</span></p>
+            
+            <p><strong>Bandelette ilio-tibiale:</strong></p>
+            <p><span class="pathology">→ Syndrome essuie-glace</span></p>
+            
+            <p><strong>Épine iliaque antéro-supérieure:</strong></p>
+            <p><span class="pathology">→ Lésion du sartorius</span></p>
+            
+            <p><strong>Tubérosité ischiatique:</strong></p>
+            <p><span class="pathology">→ Lésion ischio-jambiers</span></p>
+            
+            <p><strong>Crête iliaque:</strong></p>
+            <p><span class="pathology">→ Fracture, ostéoporose, tendinopathie</span></p>
+            
+            <p><strong>Symphyse pubienne:</strong></p>
+            <p><span class="pathology">→ Processus traumatique, dégénératif, rhumatismal (spondylarthrite ankylosante, ostéoporose, dystrophie osseuse)</span></p>
+            
+            <h3>3. Mobilité et force <span class="fig-ref" onclick="scrollToFigure('fig2')">(FIG 2)</span></h3>
+            
+            <h4>Mobilité active et passive</h4>
+            
+            <p><strong>Mouvements testés:</strong></p>
+            <ul>
+                <li><strong>Flexion:</strong> ramener genoux vers torse</li>
+                <li><strong>Extension:</strong> décubitus ventral, lever jambe tendue</li>
+                <li><strong>Abduction:</strong> écarter jambe au maximum</li>
+                <li><strong>Adduction:</strong> croiser jambe par-dessus l'autre</li>
+                <li><strong>Rotations:</strong> pied vers extérieur/intérieur (90° flexion hanche et genou)</li>
+            </ul>
+            
+            <p><strong>Test de force:</strong> mouvements contre résistance</p>
+            
+            <p><strong>Interprétation:</strong></p>
+            <ul>
+                <li>Mouvements actifs normaux sans douleur <span class="pathology">→ exclusion pathologie hanche</span></li>
+                <li>Déficit actif mais pas passif <span class="pathology">→ atteinte musculaire ou neurologique:</span>
+                    <ul>
+                        <li>Flexion <span class="pathology">→ déficit nerf fémoral</span></li>
+                        <li>Extension <span class="pathology">→ déficit nerf glutéal inférieur</span></li>
+                        <li>Abduction <span class="pathology">→ déficit nerf glutéal supérieur</span></li>
+                        <li>Adduction <span class="pathology">→ déficit nerf obturateur</span></li>
+                    </ul>
+                </li>
+<ul>
+                <li>Déficit actif et passif <span class="pathology">→ atteinte articulaire ou ligamentaire (trauma, inflammation)</span></li>
+</ul>
+            
+            <p><strong>Signe de Gower:</strong></p>
+<li>
+    <ul>
+                <li>Patient s'accroupit et se relève</li>
+                <li>S'aide des mains pour "marcher" le long du corps</li>
+</ul>
+</li>
+            <p><span class="pathology">→ Dystrophie de Duchenne, dystrophie de Becker, dermatomyosite</span></p>
+            
+</ul>
+            <h3>4. Examens spécifiques de la hanche</h3>
+            
+            <h4>Test de FADIR <span class="fig-ref" onclick="scrollToFigure('fig3')">(FIG 3)</span></h4>
+            <p><strong>Flexion - Adduction - Internal Rotation</strong></p>
+            <ul>
+                <li>Hanche 90° flexion + adduction + rotation interne</li>
+                <li>Douleur hanche ou pli inguinal</li>
+            </ul>
+            <p><span class="pathology">→ Déchirure labrum, conflit fémoro-acétabulaire, arthrose (asymétrie rotation)</span></p>
+            
+            <h4>Test de FABER/Patrick <span class="fig-ref" onclick="scrollToFigure('fig4')">(FIG 4)</span></h4>
+            <p><strong>Flexion - Abduction - External Rotation</strong></p>
+            <ul>
+                <li>Hanche 90° flexion + abduction + rotation externe</li>
+                <li>Douleur hanche/dos ou mobilité limitée</li>
+            </ul>
+            <p><span class="pathology">→ Atteinte iliopsoas, lésion intra-articulaire, sacro-ilite</span></p>
+            
+            <h4>Log roll test <span class="fig-ref" onclick="scrollToFigure('fig5')">(FIG 5)</span></h4>
+            <ul>
+                <li>Rouler cuisse en décubitus dorsal</li>
+                <li>Rotations internes/externes</li>
+                <li>Asymétrie mouvements <span class="pathology">→ laxité ligamentaire/capsulaire</span></li>
+                <li>"Clic" <span class="pathology">→ déchirure labrum</span></li>
+</ul>
+            
+            <h4>Test de Thomas <span class="fig-ref" onclick="scrollToFigure('fig6')">(FIG 6)</span></h4>
+            <ul>
+                <li>Une jambe dépassant table (90° flexion genou, hanche 0°)</li>
+                <li>Fléchir autre membre au maximum</li>
+                <li>Hanche controlatérale se fléchit</li>
+</ul>
+            <p><span class="pathology">→ Flexum hanche, contracture fléchisseur (ilio-psoas, droit fémoral)</span></p>
+            
+            <h4>Test d'Ober <span class="fig-ref" onclick="scrollToFigure('fig7')">(FIG 7)</span></h4>
+            <ul>
+                <li>Position latérale, côté atteint supérieur</li>
+                <li>Extension + abduction puis laisser revenir en adduction</li>
+                <li>Impossibilité adduction</li>
+</ul>
+            <p><span class="pathology">→ Atteinte bandelette ilio-tibiale</span></p>
+            
+            <h4>Flexion hanche contrariée <span class="fig-ref" onclick="scrollToFigure('fig8')">(FIG 8)</span></h4>
+            <ul>
+                <li>Décubitus dorsal</li>
+                <li>Flexion hanche 30-45°, genou extension</li>
+                <li>Douleur hanche ou genou</li>
+</ul>
+            <p><span class="pathology">→ Pathologie intra-articulaire hanche</span></p>
+            
+            <h4>Test de Mennel <span class="fig-ref" onclick="scrollToFigure('fig9')">(FIG 9)</span></h4>
+            <ul>
+                <li>Décubitus ventral</li>
+                <li>Extension passive hanche avec fixation</li>
+                <li>Douleur bassin postérieur</li>
+</ul>
+            <p><span class="pathology">→ Sacro-ilite (spondylarthrite ankylosante)</span></p>
+            
+            <p><strong>Différenciation niveau atteinte (3 étapes):</strong></p>
+            <ul>
+                <li>Fixation cotyle <span class="pathology">→ atteinte fémoro-acétabulaire</span></li>
+                <li>Fixation sacro-iliaque <span class="pathology">→ atteinte sacro-iliaque</span></li>
+                <li>Fixation colonne lombaire <span class="pathology">→ atteinte lombaire</span></li>
+</ul>
+            
+            <h4>Manœuvre de Gaenslen <span class="fig-ref" onclick="scrollToFigure('fig10')">(FIG 10)</span></h4>
+            <ul>
+                <li>Décubitus dorsal</li>
+                <li>Un membre fléchi au maximum</li>
+                <li>Autre membre en hyperextension hors table</li>
+                <li>Douleur</li>
+</ul>
+            <p><span class="pathology">→ Atteinte sacro-iliaque</span></p>
+            
+            <h2>Carte de synthèse</h2>
+            
+            <h3>Station debout</h3>
+            <p><strong>Inspection:</strong></p>
+            <ul>
+                <li>Capacité à se déshabiller</li>
+                <li>Marche (boiterie Duchenne/Trendelenburg/décharge/antalgique)</li>
+                <li>Marche pointe pieds et talons</li>
+                <li>Capacité à s'accroupir</li>
+                <li>Allure rachis</li>
+<ul>
+                <li>Symétrie ceintures scapulaires/pelviennes</li>
+                <li>Chute bassin sur une jambe (insuffisance glutéale)</li>
+</ul>
+            
+</ul>
+            <h3>Station couchée</h3>
+            <p><strong>Inspection:</strong></p>
+            <ul>
+                <li>Position spontanée et longueur jambes</li>
+                <li>Rotation externe (fracture col fémoral)</li>
+                <li>Asymétrie longueur</li>
+                <li>Axes (flexum-recurvatum, valgus-varus)</li>
+                <li>Aspect musculo-cutané</li>
+</ul>
+            
+            <p><strong>Palpation:</strong></p>
+            <ul>
+                <li>Structures musculo-squelettiques</li>
+                <li>Épines iliaques antéro-supérieures</li>
+                <li>Symphyse pubienne</li>
+                <li>Grand trochanter</li>
+                <li>Tendons</li>
+                <li>Tissus mous (crépitations, tension)</li>
+                <li>Zone inguinale (adénopathies)</li>
+</ul>
+            
+            <p><strong>Amplitudes articulaires:</strong></p>
+            <ul>
+                <li>Flexion-Extension (130-0-15)</li>
+                <li>Abduction-Adduction (50-0-25)</li>
+                <li>Rotation interne-externe (40-0-50)</li>
+</ul>
+            
+            <p><strong>Tests spécifiques:</strong></p>
+            <ul>
+                <li>Articulaires: FADIR, FABER, log roll, Mennel, Gaenslen</li>
+                <li>Musculo-tendineux: Ober, Thomas</li>
+                <li>Neurologiques: Lasègue</li>
+</ul>
+            
+            <!-- Cartes de révision -->
+            <div class="revision-cards">
+                <h2>Cartes de révision</h2>
+                
+                <div class="cards-images">
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Hanche/Hanche-carte_page-0001.jpg" alt="Carte de révision 1" onclick="openModal(this)">
+                    </div>
+                    
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Hanche/Hanche-carte_page-0002.jpg" alt="Carte de révision 2" onclick="openModal(this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sidebar avec images -->
+        <div class="sidebar" id="sidebar">
+            <!-- Les images seront ajoutées ici -->
+        </div>
+    </div>
+    
+    <!-- Modal pour zoom image -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    
+    <script>
+        // Liste des figures disponibles
+        const figures = [
+            {id: 'fig1', file: 'FIG 1.jpg', caption: 'FIG 1 - Palpation hanche'},
+            {id: 'fig2', file: 'FIG 2.jpg', caption: 'FIG 2 - Mobilité et force'},
+            {id: 'fig3', file: 'FIG 3.jpg', caption: 'FIG 3 - Test FADIR'},
+            {id: 'fig4', file: 'FIG 4.jpg', caption: 'FIG 4 - Test FABER/Patrick'},
+            {id: 'fig5', file: 'FIG 5.jpg', caption: 'FIG 5 - Log roll test'},
+            {id: 'fig6', file: 'FIG 6.jpg', caption: 'FIG 6 - Test de Thomas'},
+            {id: 'fig7', file: 'FIG 7.jpg', caption: 'FIG 7 - Test d\'Ober'},
+            {id: 'fig8', file: 'FIG 8.jpg', caption: 'FIG 8 - Flexion contrariée'},
+            {id: 'fig9', file: 'FIG 9.jpg', caption: 'FIG 9 - Test de Mennel'},
+            {id: 'fig10', file: 'FIG 10.jpg', caption: 'FIG 10 - Manœuvre de Gaenslen'},
+            {id: 'fig11', file: 'FIG 11.jpg', caption: 'FIG 11'},
+            {id: 'fig12', file: 'FIG 12.jpg', caption: 'FIG 12'},
+            {id: 'fig13', file: 'FIG 13.jpg', caption: 'FIG 13'},
+            {id: 'fig14', file: 'FIG 14.jpg', caption: 'FIG 14'},
+            {id: 'fig15', file: 'FIG 15.jpg', caption: 'FIG 15'},
+            {id: 'fig16', file: 'FIG 16.jpg', caption: 'FIG 16'}
+        ];
+        
+        // Ajouter les figures dans la sidebar
+        const sidebar = document.getElementById('sidebar');
+        figures.forEach(fig => {
+            const container = document.createElement('div');
+            container.className = 'figure-container';
+            container.id = fig.id;
+            
+            const img = document.createElement('img');
+            img.src = `../Fiches/RMS/Hanche/${fig.file}`;
+            img.alt = fig.caption;
+            img.onclick = function() { openModal(this); };
+            
+            const caption = document.createElement('div');
+            caption.className = 'figure-caption';
+            caption.textContent = fig.caption;
+            
+            container.appendChild(img);
+            container.appendChild(caption);
+            sidebar.appendChild(container);
+        });
+        
+        // Fonction pour faire défiler jusqu'à une figure
+        function scrollToFigure(figId) {
+            const element = document.getElementById(figId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                // Effet de surbrillance temporaire
+                element.style.transition = 'all 0.3s';
+                element.style.transform = 'scale(1.05)';
+                element.style.boxShadow = '0 5px 20px rgba(102, 126, 234, 0.4)';
+                setTimeout(() => {
+                    element.style.transform = 'scale(1)';
+                    element.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+                }, 1000);
+            }
+        }
+        
+        // Fonction pour ouvrir le modal avec l'image agrandie
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = img.src;
+        }
+        
+        // Fonction pour fermer le modal
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.style.display = 'none';
+        }
+        
+        // Fermer le modal en cliquant n'importe où
+        document.getElementById('imageModal').onclick = function() {
+            closeModal();
+        }
+        
+        // Empêcher la fermeture du modal en cliquant sur l'image
+        document.getElementById('modalImage').onclick = function(e) {
+            e.stopPropagation();
+        }
+    </script>
+</body>
+</html>

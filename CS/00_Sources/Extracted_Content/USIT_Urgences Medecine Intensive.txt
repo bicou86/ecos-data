@@ -1,0 +1,6086 @@
+2024-2025
+
+2ème années Master
+
+Apprentissage en milieu clinique
+URGENCES ET MEDECINE INTENSIVE
+Cahier d’apprentissage
+
+APPRENTISSAGE EN MILIEU CLINIQUE
+(AMC)
+
+URGENCES ET MÉDECINE INTENSIVE
+
+Cahier d’apprentissage
+
+Faculté de Médecine Université de Genève
+27e édition
+
+TABLE DES MATIERES
+INFORMATIONS GENERALES ...............................................................................................................1
+ORGANISATION GENERALE DE L’AMC ...............................................................................................2
+GROUPE DE DEVELOPPEMENT AMC URGENCES /SOINS INTENSIFS ............................................7
+OBJECTIFS GENERAUX ...................................................................................................................... 11
+OBJECTIFS SPECIFIQUES.................................................................................................................. 12
+REFERENCES ...................................................................................................................................... 16
+PROBLEMES ........................................................................................................................................ 17
+
+Problème n°1 : Blessé grave .................................................................................. 17
+Problème n°2 : Etat de choc ................................................................................... 35
+Problème n°3 : Douleurs thoraciques aiguës ......................................................... 57
+Problème n°4 : Insuffisance respiratoire aiguë ....................................................... 81
+Problème n°5 : Coma ........................................................................................... 102
+COURS & SEMINAIRES ..................................................................................................................... 141
+
+Séminaire : Hémodynamique 1 et 2 ..................................................................... 143
+Séminaire Sepsis.................................................................................................. 143
+Séminaire : Radiologie ......................................................................................... 144
+Séminaire : Urgences métaboliques ..................................................................... 147
+Séminaire : Mort aux urgences ............................................................................. 148
+Séminaire : Physiopathologie respiratoire ............................................................ 149
+Séminaire : Principe de base de ventilation mécanique ....................................... 149
+Séminaire : Ethique .............................................................................................. 150
+Séminaire : Intoxications ...................................................................................... 150
+Séminaire : Pathophysiologie de la souffrance cérébrale aiguë ........................... 151
+Séminaire : Intoxication au CO et accident de decompression ............................ 151
+Séminaire : Médecine de catastrophe .................................................................. 152
+Séminaire : ECG/Trouble du rythme..................................................................... 155
+Séminaire : Gazométrie et troubles acide-base .................................................... 155
+Séminaire : Amines et inotropes en médecine aigue............................................ 156
+Séminaire : Dysthermies ...................................................................................... 156
+
+TABLE DES MATIERES
+ATELIERS ........................................................................................................................................... 157
+
+ILS (Intermediate Life Support) ............................................................................ 157
+BLS (30 min.) ....................................................................................................... 158
+Atelier ventilation avancée en 3 groupes (3x15 min.) ........................................... 158
+Atelier d’échographie focalisée ............................................................................. 160
+Atelier : Respiration/ventilation mecanique........................................................... 161
+Atelier d’échographie au lit du malade.................................................................. 162
+Atelier ponction pleurale ....................................................................................... 162
+SIMULATION ....................................................................................................................................... 164
+
+Informations générales
+
+INFORMATIONS GENERALES
+La médecine d’urgence couvre plusieurs types de situations bien différentes : détresses
+vitales, urgences relatives, urgences ressenties aussi bien que consultations sans
+rendez-vous. La médecine intensive, quant à elle, englobe la prise en charge des patients
+dont la survie immédiate est prétéritée et pour lesquels il est nécessaire de mettre en
+œuvre des techniques permettant le maintien artificiel des fonctions vitales.
+L’enseignement de ces disciplines, dans les premières années du cursus prégradué,
+permet d’acquérir des compétences dans l’évaluation et la prise en charge des patientes présentant une détresse vitale. Cette dernière s’accompagne d’un risque élevé de
+décès si une prise en charge appropriée et rapide n’est pas mise en œuvre. Dans cette
+situation, une logique temporelle particulière doit être appliquée. Plus une situation est
+grave, plus la nécessité d’une intervention thérapeutique rapide devient grande. En
+revanche, la marge de sécurité d’une telle intervention est d’autant plus faible que celleci est urgente ; la séquence classique – anamnèse – examen clinique – diagnostic
+différentiel – examens complémentaires puis traitement ne peut pas être respectée en
+pareilles circonstances. La situation particulière des détresses vitales oblige donc à
+prendre des décisions dotées d’une marge d’incertitude importante. Cette logique
+représente une approche originale des problèmes médicaux et nécessite une gestion du
+stress particulière qui permette d’agir dans l’incertitude.
+
+AMC « Urgences et Médecine Intensive »
+1
+
+Informations générales
+
+ORGANISATION GENERALE DE L’AMC
+L’AMC « Urgences et Médecine Intensive » d’une durée de 3 semaines comprend un
+bloc théorique d’enseignement (semaine 1) et un bloc d’enseignement pratique en milieu
+clinique (semaine 2 et 3).
+La première semaine de théorie (semaine 1) commune pour tous les étudiant-es, est
+principalement composée de problèmes clinques « vignettes », séminaires, de cours et
+d’ateliers. Le tableau 1 ci-après, montre un exemple de programme d’enseignement de
+la semaine 1.
+L’activité des semaines 2 et 3 se déroule dans le Service des Urgences (SU), dans le
+Service de Soins Intensifs Adulte (SI) ainsi qu’aux soins intermédiaires. Chaque
+étudiant(e) aura l’occasion de passer dans chacun de ces deux services (SU, SI) et aux
+soins intermédiaires. Le tableau 2 ci-après montre un exemple de planning dans les
+services.
+Lors de la première journée d’immersion clinique aux soins intensifs / soins intermédiaires
+(lundi), les étudiant-es suivront une journée d’ateliers [réanimation cardiopulmonaire (ILS,
+intermediate life support)], atelier d’échographie focalisée, atelier de contrôle de
+l’infection et atelier de ventilation pratique).
+En plus de ces activités théoriques et de l’intégration clinique, les étudiant-es participeront
+à une session de simulation visant à intégrer les aspects théoriques dans la pratique
+clinique dans un milieux sécurisé.
+
+AMC « Urgences et Médecine Intensive »
+2
+
+Informations générales
+INTEGRATION EN PRATIQUE CLINIQUE AU SU, SI ET SOINS INTERMEDIAIRES
+Les étudiant-es auront l’occasion d’effectuer plusieurs types d’horaires au SU, aux SI
+ainsi qu’une journée dans une unité des soins intermédiaires [soit anesthésie (SINPI) soit
+de médecine interne (SIntermédiaires médecine, unité JUL33)] alternant jour/soir/nuit afin
+de pouvoir être en contact avec l’activité des différentes unités en rapport avec la
+médecine aigue. Durant ces périodes, ils suivront le parcours des patient-es dans ces
+deux services en tandem avec un interne/chef de clinique et/ou des soignant du service.
+L’objectif est d’avoir une vision réaliste de la médecine aiguë et de se familiariser avec
+les grands principes de cette discipline. La réalisation de gestes techniques est
+également un objectif.
+
+LE COACHING
+Des séminaires d’enseignement du malade de type « coaching » auront lieu dans les
+deux services, dans le but de faire le lien entre les connaissances théoriques et leurs
+applications pratiques de manière structurée dans une situation réelle de prise en charge.
+Ces cessions ont lieu en petit groupe (2-4 étudiants) supervisé par un formateur
+spécialisé dans la discipline.
+
+Programme de la semaine 1
+Semaine 1
+
+Heures
+
+Sujets
+
+Heures
+
+Sujets
+
+Pause
+
+Lundi
+
+Mardi
+
+8.00-08.45
+
+Accueil Etudiants
+
+14.00-15.00
+
+Séminaire Sepsis
+
+9.00-10.00
+
+Hémodynamique 1
+
+15.15-16.15
+
+Intoxication au CO et accident de
+
+10.00-11.00
+
+Hémodynamique 2
+
+11.15-13.00
+
+Vignette Polytrauma
+
+16.30-17.30
+
+Dysthermies
+
+8.30-10.30
+
+Radiologie 1 Urgences
+traumatiques
+
+13.30-15.15
+
+Urgences Métaboliques
+
+15.30-17.00
+
+Gazométrie et troubles acide-base
+
+décompression
+
+10.45-12.30
+Vignette Choc
+
+AMC « Urgences et Médecine Intensive »
+3
+
+Informations générales
+
+Mercredi
+
+9.00-10.00
+10.15-12.00
+
+Amine vaso-active en
+Médecine Aigue
+Vignette Douleur
+Thoracique aiguë
+
+Jeudi
+
+Vendredi
+
+15.30-17.30
+
+Radiologie 2 Urgences non
+Traumatiques
+
+Circulation Cérébrale
+
+8.00-09.45
+
+Mort aux Urgences
+
+14.00-15.45
+
+Séminaire Ethique
+
+10.15-12.00
+
+Vignette Insuffisance
+respiratoire aiguë
+
+16.00-17.30
+
+Principe de base de ventilation
+mécanique
+
+8.00-9.00
+
+Intoxications Aiguës
+
+13.00-14.30
+
+ECG / Trouble du rythme
+
+9.15-10.15
+
+Hémodynamique
+appliquée
+
+14.45-16.30
+
+Séminaire catastrophe
+
+12.45-15.00
+
+POCUS
+
+15.30-17.00
+
+Atelier Ventilation
+
+17.00-18.00
+
+Atelier ponction pleurale
+
+12.45-15.00
+
+POCUS
+
+15.30-17.00
+
+Atelier Ventilation
+
+17.00-18.00
+
+Atelier ponction pleurale
+
+Lundi (2ème 8.00-12.00
+semaine)
+
+Vignette Coma
+
+ILS
+
+1
+
+Lundi (3ème 8.00-12.00
+semaine)
+(Groupe
+SIA)
+
+Physiopathologie Respiratoire
+
+13.00-14.00
+
+10.30-12.15
+
+(Groupe
+SIA)
+
+14.00-15.00
+
+ILS
+
+2
+
+AMC « Urgences et Médecine Intensive »
+4
+
+Informations générales
+
+PROGRAMME DE SEMAINE TYPE DANS LE SERVICES DES URGENCES
+
+AMC « Urgences et Médecine Intensive »
+5
+
+Informations générales
+
+PROGRAMME DE SEMAINE TYPE DANS LE SERVICE DES SOINS INTENSIFS
+ET SOINS INTERMEDIAIRES
+Modules des soins intensifs (soins intensifs cardiovasculaires, soins intensifs polyvalents,
+soins intensifs polyvalents COVID, soins intensifs neuroréanimation).
+
+Unité de soins intermédiaires (SINPI : soins intermédiaires péri-interventionnels (site
+Opéra, service d’anesthésiologie) ; Soins intermédiaires de médecine (Bâtiment Julliard,
+unité 33).
+
+AMC « Urgences et Médecine Intensive »
+6
+
+Informations générales
+
+GROUPE DE DEVELOPPEMENT AMC URGENCES /SOINS INTENSIFS
+
+Nom
+
+Service HUG
+
+Téléphone
+
+Service des Urgences
+
+(55) 34334
+
+Service des Soins Intensifs
+
+(55) 36019
+
+Pr T. Desmettre
+
+Service des Urgences
+
+(37) 28132
+
+Dre E. Andereggen
+
+Service des Urgences
+
+(55) 33249
+
+Dr L. Suppan
+
+Service des Urgences
+
+(55) 32579
+
+Dr F. Rouyer
+
+Service des Urgences
+
+(55) 30139
+
+Dre S. Garcin
+
+Service des Urgences
+
+(55) 35766
+
+Pr K. Bendjelid
+
+Service des Soins intensifs
+
+(55) 32198
+
+Pr. H Quintard
+
+Service des Soins intensifs
+
+(55) 32188
+
+Dr R Giraud
+
+Service des Soins intensifs
+
+(55) 32196
+
+Dre C.P. Heidegger
+
+Service des Soins intensifs
+
+(55) 32199
+
+Dre S. Cereghetti
+
+Service des Soins intensifs
+
+(55) 32194
+
+Pr G. Savoldelli
+
+Service d’Anesthésiologie
+
+(37) 27409
+
+Responsables
+Dr. O. Grosgurin
+Co-Responsable
+Dre N. Suh
+Membres
+
+AMC « Urgences et Médecine Intensive »
+7
+
+Informations générales
+
+REPARTITION DES SALLES
+VIGNETTES ET SEMINAIRES
+Service des Urgences (SU), surélévation, 1er étage
+o
+
+Salle de cour Urgences Réunion 8B-1-826.1/2/3
+
+SEMINAIRES DE RADIOLOGIE
+Service de Radiologie
+o
+
+Etage P ; salle de colloques 3 et 1
+
+ATELIER ILS
+Centre de simulation
+o
+
+CMU, 5ème étage
+
+SIMULATION
+
+Centre de simulation
+o
+
+CMU, 5ème étage
+
+ADRESSE UTILE : SITE DE L’AMC
+https://moodle.unige.ch/enrol/index.php?id=3236
+
+AMC « Urgences et Médecine Intensive »
+8
+
+Informations générales
+
+PRE-REQUIS A L’AMC D’URGENCES ET MEDECINE INTENSIVE
+2ème et 3ème années
+1)
+
+APP
+
+Anatomie/morphologie, physiologie, physiopathologie et pharmacologie des principales
+fonctions vitales, notamment :
+•
+
+Système cardiovasculaire
+
+•
+
+Fonction respiratoire (du centre respiratoire à la mitochondrie)
+
+•
+
+Fonction rénale
+
+•
+
+Système nerveux central et périphérique
+
+•
+
+Métabolisme aérobie et anaérobie
+
+Sémiologie générale des maladies cardiovasculaires, neurologiques, respiratoires,
+rénales, digestives.
+Entretien avec les familles, connaissance des facteurs émotionnels en relation avec un
+accident, une maladie aiguë.
+Bases de l’éthique médicale, droits des patients, concept d’autonomie.
+
+2)
+
+CC – Compétences cliniques :
+•
+
+Signes vitaux, examen clinique « Urgences »
+
+•
+
+Arrêt respiratoire et ventilation (CC Urgence 1)
+
+•
+
+Arrêt cardio-respiratoire et défibrillation (CC Urgence 2)
+
+•
+
+Prise en charge d’un patient traumatisé simple (CC Urgence 3)
+
+•
+
+Arrêt cardio-respiratoire et réanimation chez l’enfant (CC Urgence 4)
+
+AMC « Urgences et Médecine Intensive »
+9
+
+Informations générales
+
+THEMES PRINCIPAUX DE L’AMC URGENCES ET MEDECINE
+INTENSIVE
+Les thèmes principaux sont les suivants :
+•
+
+Polytraumatisme
+
+•
+
+Etat de choc
+
+•
+
+Douleurs thoraciques aigues
+
+•
+
+Insuffisance respiratoire aigue
+
+•
+
+Coma et altération de conscience
+
+AMC « Urgences et Médecine Intensive »
+10
+
+Objectifs généraux
+
+OBJECTIFS GENERAUX
+Au terme de cet AMC, l’étudiant devrait avoir les connaissances spécifiques suivantes :
+•
+
+Comprendre l’approche pragmatique et le contrôle des signes vitaux chez le patient
+hémodynamiquement instable en utilisant le concept ABC.
+
+•
+
+Comprendre la notion de travail en équipe dans une situations d’urgence.
+
+•
+
+Connaître les éléments importants du traitement médical et de la surveillance du
+patient polytraumatisé.
+
+•
+
+Connaître la physiopathologie des différents types d’état de choc, savoir poser un
+diagnostic différentiel, les examens prioritaires, les approches thérapeutiques.
+
+•
+
+Connaître les principes d’évaluation et de prise en charge des détresses
+respiratoires.
+
+•
+
+Connaître les causes fréquentes de coma et l’approche diagnostique et
+thérapeutique du patient comateux.
+
+Au terme de cet AMC, l’étudiant devrait également avoir acquis les aptitudes personnelles
+et professionnelles suivantes :
+•
+
+Sensibilisation à des questions d’éthique spécifiques : acharnement thérapeutique,
+respect de la volonté (présumée) du patient inconscient ou incapable de
+discernement, directives anticipées.
+
+•
+
+Médecine de catastrophe : voir objectifs spécifiques.
+
+•
+
+Relation avec la famille en situation aiguë mettant en jeu le pronostic vital.
+
+•
+
+AMC « Urgences et Médecine Intensive »
+11
+
+Objectifs spécifiques
+
+OBJECTIFS SPECIFIQUES
+ANAMNESES ET EXAMEN PHYSIQUE
+•
+
+Effectuer une anamnèse et un examen physique centrés sur le motif de d’admission
+en urgence.
+
+•
+
+Formuler une hypothèse de travail centrée sur la plainte du patient et devant diriger
+la suite des investigations à effectuer en urgence.
+
+•
+
+Savoir proposer, en tenant compte des signes et symptômes cliniques ainsi que
+des
+
+examens
+
+complémentaires, une démarche
+
+thérapeutique
+
+(traitement
+
+d’urgence, discussion d’une indication opératoire).
+
+GESTES PRATIQUES A EXERCER DURANT L’AMC
+•
+
+Connaître les différentes méthodes de prélèvement de sang.
+
+•
+
+Connaître les complications et traitement des ponctions artérielles et veineuses.
+
+•
+
+Initiation d’une ventilation non invasive.
+
+•
+
+Réanimation cardio-pulmonaire.
+
+•
+
+Echographie dans les situations d’urgence.
+
+•
+
+Connaître et appliquer les règles d’asepsie et de protection.
+
+LIQUIDE DE
+ACIDE/BASE
+
+PERFUSION,
+
+ELECTROLYTES,
+
+EQUILIBRE,
+
+Connaître la composition des liquides de perfusion couramment utilisés aux Urgences et
+aux Soins Intensifs.
+
+AMC « Urgences et Médecine Intensive »
+12
+
+Objectifs spécifiques
+
+OBJECTIFS SPECIFIQUES DES VIGNETTES
+Au cours de l’AMC, l’acquisition des connaissances sera initiée par la discussion de
+situations cliniques, proposés sous forme de vignettes, discutées en groupe et modérées
+par un formateur spécialisé en médecine aiguë.
+
+1)
+PRISE EN CHARGE D’UN ACCIDENT ARRIVANT AUX
+URGENCES ET TRANSFERE AUX SOINS INTENSIFS
+•
+
+Savoir effectuer le bilan primaire et secondaire, selon le concept ATLS (Advanced
+Trauma Life Support).
+
+•
+
+Savoir initier une réanimation vitale
+
+•
+
+Savoir effectuer le bilan secondaire ou examen de « tête aux pieds ».
+
+•
+
+Savoir poursuivre la réanimation d’un polytraumatisé : gestion de la sédation, de
+l’hémodynamique, de la fonction respiratoire, des paramètres métaboliques et de la
+nutrition.
+
+•
+
+Prise en charge d’un état de choc hémorragique.
+
+AMC « Urgences et Médecine Intensive »
+13
+
+Objectifs spécifiques
+
+2) ETATS DE CHOC
+•
+
+Savoir effectuer le bilan initial en se référant à l’ABC.
+
+•
+
+Connaître et expliquer la physiopathologie des différents états de choc.
+
+•
+
+Connaître et expliquer les différents moyens cliniques et paracliniques à disposition
+pour objectiver un état de choc et déterminer son étiologie.
+
+•
+
+Connaître et expliquer le traitement de choc : hypovolémique, septique,
+cardiogénique, anaphylactique.
+
+3) DOULEUR THORACIQUE
+•
+
+Savoir effectuer le bilan initial en se référant à l’ABC.
+
+•
+
+Anamnèse et examen physique d’un patient arrivant pour une douleur thoracique.
+
+•
+
+Place des différents examens complémentaires à effectuer en urgence (RX thorax,
+CT-scan, échographie focalisée, labo).
+
+•
+
+Connaissance de l’importance des facteurs de risque pour la détermination de la
+probabilité des maladies se manifestant par des douleurs thoraciques.
+
+•
+
+Connaissance des principes thérapeutiques des entités nosologiques concernées
+et l’importance du temps dans l’administration des traitements.
+
+AMC « Urgences et Médecine Intensive »
+14
+
+Objectifs spécifiques
+
+4) DETRESSE RESPIRATOIRE
+•
+
+Savoir effectuer le bilan initial en se référant à l’ABC.
+
+•
+
+Reconnaître une détresse respiratoire et expliquer la physiopathologie
+
+•
+
+Anamnèse et examen physique d’un patient arrivant pour une dyspnée aiguë.
+
+•
+
+Place des différents examens complémentaires à effectuer en urgence (RX thorax,
+CT-scan, échographie focalisée, examen ORL, labo).
+
+•
+
+Connaître les critères de ventilation non invasive et d’intubation d’un patient en
+détresse respiratoire.
+
+•
+
+Connaître les principes de base de ventilation mécanique.
+
+5) COMA ET ALTERATION DE LA CONSCIENCE
+•
+
+Savoir effectuer le bilan initial en se référant à l’ABC.
+
+•
+
+Savoir reconnaître un coma, une syncope, une crise d’épilepsie et en expliquer la
+physiopathologie.
+
+•
+
+Anamnèse et examen clinique d’un patient présentant des troubles de la
+conscience.
+
+•
+
+Place des examens complémentaires à effectuer en urgence (Labo, imagerie, tests
+diagnostiques).
+
+•
+
+Connaître la prise en charge initiale d’un trouble de conscience aiguë (glycémie,
+protection des voies aériennes, etc.).
+
+AMC « Urgences et Médecine Intensive »
+15
+
+Références
+
+REFERENCES
+REFERENCES DES VIGNETTES
+Les références des vignettes se trouvent sur le site de l’AMC d’Urgences et Médecine
+Intensive.
+
+https://moodle.unige.ch/enrol/index.php?id=3236
+OUVRAGE DE REFERENCE
+•
+
+Tintinalli JE et al. Tintinalli's emergency medicine: a comprehensive study guide. 9th ed. New
+York : McGraw-Hill, 2020
+
+•
+
+URL : https://accessmedicine.mhmedical.com/book.aspx?bookid=2353
+
+•
+
+MAHADEVAN SV, Garmel GM. Introduction to clinical emergency medicine. 2nd ed.
+Cambridge : Cambridge Univ. Press, 2012. WB 105 2
+ebook : http://ebooks.cambridge.org/ebook.jsf?bid=CBO9780511852091
+Le livre électronique est accessible à l'URL suivante :
+
+•
+•
+•
+
+https://www.cambridge.org/core/books/an-introduction-to-clinical-emergencymedicine/EE5473A2D1080F44992D221EF23B05DE
+
+POUR EN SAVOIR PLUS
+•
+•
+•
+•
+•
+
+Vincent, JL.. Textbook of critical care. 8th ed. Philadelphia: Elsevier, 2024. WX 218 5 ed 8
+Walls RM et al. Rosen's emergency medicine: concepts and clinical practice. 10th ed.
+Philadelphia: Elsevier, 2023. WB 105 43 ed 10
+Winters ME. Emergency Department Resuscitation of the Critically ill. 2nd ed. Dallas:
+American College of Emergency Physicians, 2017. WX 215 1
+Skinner D, Driscoll P. ABC of major trauma. 5th ed. Hoboken: Wiley Backwell, 2023. WO 700
+17 ed 5
+La Harpe R, Ummel M, Dumoulin JF. Droit de la santé et médecine légale. Chêne-Bourg :
+Médecine & Hygiène ; 2014. W 700 3
+URL : https://www.revmed.ch/livres/droit-de-la-sante-et-medecine-legale
+
+•
+
+Duruz H et al. Traumatologie de l'appareil moteur : stratégies pour le médecin de premier
+recours. 2e éd. Chêne-Bourg : Médecine & Hygiène, 2021. WE 168 15 ed 2
+
+AMC « Urgences et Médecine Intensive »
+16
+
+Problème n°1/5
+
+PROBLEMES
+P ROBLEME N°1 : BLES S E GRAVE
+Etape 1/4
+Un patient de 28 ans est amené au SU par une ambulance sans intervention du SMUR.
+Selon les éléments donnés sur place par les témoins et rapportés par les ambulanciers, il
+a fait une chute d'une dizaine de mètres (3ème étage) avec impact sur le dos, sur le trottoir
+du boulevard de la Cluse, face à la Maternité.
+A l'arrivée des ambulanciers, le patient était inconscient et respirait difficilement.
+FR 32, SaO2 65% sous 10L O2 au masque à réserve, FC 140, Pression artérielle 75/?
+Vu la proximité du SU et l'indisponibilité momentanée du SMUR, on a renoncé à une
+médicalisation sur place au profit d'un transport rapide aux urgences.
+Pour le transport, le patient a été immobilisé par une minerve et un matelas coquille. Une
+ceinture pelvienne a été placée.
+
+Questions
+•
+
+Comment évaluez-vous la sévérité du traumatisme ?
+
+Etape 2/4
+A son arrivée, le patient a été transféré sur un brancard des urgences.
+Quelle va être votre prise en charge initiale ?
+
+Questions :
+1. Quelle est la séquence d’évaluation de ce patient ?
+Quels sont les examens complémentaires à réaliser lors de l’évaluation initiale ?
+
+Etape 3/4
+Questions :
+
+AMC « Urgences et Médecine Intensive »
+17
+
+Problème n°1/5
+1. Quels signes recherchez-vous au cours des différentes étapes de l’examen
+primaire ?
+2. Quelles conclusions en tirez-vous ?
+3. Quelles actions faut-il entreprendre pour traiter les menaces vitales du patient ?
+
+AMC « Urgences et Médecine Intensive »
+18
+
+Problème n°1/5
+
+AMC « Urgences et Médecine Intensive »
+19
+
+Problème n°1/5
+
+AMC « Urgences et Médecine Intensive »
+20
+
+Problème n°1/5
+
+Synthèse :
+Patient ayant fait une chute d’une hauteur élevée, avec impact sur le dos.
+Nécessité de protéger les voies aériennes (GCS 5), raison pour laquelle le patient a été
+intubé, tout en respectant l’alignement tête-cou-tronc car une lésion du rachis n’a pas pu
+être exclue à ce stade.
+Détresse respiratoire avec suspicion clinique de pneumothorax sous-tension du côté G,
+raison pour laquelle une exsufflation à l’aiguille a été réalisée, puis un drain thoracique a
+été mis en place.
+Etat de choc sévère sur saignement d’une plaie du scalp (pansement compressif en place),
+un saignement intra-abdominal (FAST positif), une fracture du fémur et une fracture du
+bassin (pour laquelle une ceinture abdominale est en place). Le patient a été équipé avec
+des voies veineuses périphériques et une transfusion a été initiée. Il a déjà reçu de l’acide
+tranexamique et du fibrinogène.
+Coma avec GSC 5, pupilles symétriques faiblement réactives.
+Hypothermie modérée. Des mesures de réchauffement ont été prises.
+
+La suite de la prise en charge implique le contrôle des sources hémorragiques et la
+collaboration de différents intervenants :
+•
+
+Anesthésie
+
+•
+
+Chirurgie
+
+•
+
+Radiologie interventionnelle
+
+Etape 4/4
+Question :
+•
+
+Quelles sont, aux urgences, les causes de mortalité potentiellement évitables lors
+de la prise en charge d’un blessé ?
+
+AMC « Urgences et Médecine Intensive »
+21
+
+Problème n°1/5
+
+Contenu Général du Problème
+
+Problème clinique
+
+Polytraumatisme par défenestration
+
+Diagnostic
+
+Traumatisme thoracique
+Traumatisme abdominal
+Traumatisme du bassin
+Traumatisme crânio-cérébral (TCC)
+
+Entité nosologique
+
+Chute d’une hauteur élevée
+
+Aspects privilégiés
+
+Séquence de prise en charge : identification et traitement des
+menaces vitales (ABCDE) : examen primaire
+Examens paracliniques utiles lors de l’examen primaire
+Reconnaissance de l'état de choc et de ses causes possibles dans le
+contexte traumatologique.
+
+Cadre du problème
+
+Urgences chirurgicales
+
+AMC « Urgences et Médecine Intensive »
+22
+
+Problème n°1/5
+
+OBJECTIFS D'APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème les étudiants
+devraient
+Connaître la systématique de l'examen initial du
+patient traumatisé.
+
+URGENCES
+
+Savoir citer et connaître les signes cliniques des
+4 causes de mortalité précoce potentiellement
+évitable.
+
+URGENCES
+
+Savoir citer les gestes d'urgence permettant de
+traiter rapidement et simplement ces 4 menaces.
+
+URGENCES
+
+Savoir citer les 4 régions anatomiques sources
+d'hémorragies internes.
+
+CHIRURGIE
+
+Savoir citer les examens complémentaires
+permettant de rechercher une hémorragie
+interne.
+
+RADIOLOGIE
+
+Connaître la stratégie de traitement du choc
+hémorragique traumatique.
+
+ANESTHESIE REANIMATION
+CHIRURGIE
+
+Savoir établir un score de Glasgow et évaluer les URGENCES
+réactions pupillaires
+NEUROCHIRUGIE
+Connaître l'importance de la protection thermique ANESTHESIE-REANIMATION
+chez le patient traumatisé
+
+AMC « Urgences et Médecine Intensive »
+23
+
+Problème n°1/5
+
+GUIDE DU TUTEUR
+Cadre général de l'enseignement :
+Au cours des études de médecine, l'enseignement de l’évaluation et de la prise en charge
+du patient polytraumatisé est structuré en deux étapes :
+•
+
+Le séminaire CC Urgences 3 aborde la systématique de prise en charge du patient
+traumatisé « simple » en milieu hospitalier.
+
+•
+
+Pendant l’AMC Urgences et Médecine intensive, la vignette « Blessé grave » traite
+du raisonnement clinique autour de la prise en charge du patient polytraumatisé en
+milieu hospitalier.
+
+De manière annexe, le cours Médecine de catastrophe donné durant l'AMC Urgences et
+Médecine Intensive permet de présenter la structure de la chaine des secours médicaux.
+
+Objectifs généraux :
+Au terme de ses études, l'étudiant doit pouvoir participer activement à la prise en charge
+d'un blessé grave dans le cadre d'un service d’urgence (approche multidisciplinaire / team
+trauma). A cet effet il doit connaître :
+•
+
+La séquence d'évaluation initiale comprenant un examen primaire ABCDE et un
+examen secondaire (examen "tête aux pieds").
+
+•
+
+Reconnaître les menaces vitales immédiates et savoir citer les mesures
+thérapeutiques qui en découlent.
+
+•
+
+Reconnaître les signes cliniques du choc et établir un diagnostic différentiel dans le
+contexte traumatique.
+
+•
+
+Connaître la stratégie générale de prise en charge du choc hémorragique chez le
+traumatisé.
+
+AMC « Urgences et Médecine Intensive »
+24
+
+Problème n°1/5
+Méthode :
+•
+
+Séminaire interactif de 90 minutes
+
+•
+
+Un enseignant pour 24 à 27 étudiants
+
+•
+
+Une vignette comprenant
+o Histoire clinique
+o Questions ciblées sur les objectifs d'enseignement
+
+•
+
+L'enseignant dispose des données cliniques et paracliniques permettant de
+répondre aux questions des étudiants. En cas de nécessité, il peut enrichir ces
+données au gré de sa propre expérience.
+
+Déroulement du tutorial
+Etape 1/4
+Un patient de 28 ans est amené au SU par une ambulance sans intervention du SMUR.
+Selon les éléments donnés sur place par les témoins et rapportés par les ambulanciers, il
+a fait une chute d'une dizaine de mètres (3ème étage) avec impact sur le dos, sur le trottoir
+du boulevard de la Cluse, face à la Maternité.
+A l'arrivée des ambulanciers, le patient était inconscient et respirait difficilement.
+FR 32, SaO2 65% sous 10L O2 au masque à réserve, FC 140, Pression artérielle 75/?
+Vu la proximité du SU et l'indisponibilité momentanée du SMUR, on a renoncé à une
+médicalisation sur place au profit d'un transport rapide aux urgences.
+Pour le transport, le patient a été immobilisé par une minerve et un matelas coquille. Une
+ceinture pelvienne a été placée.
+
+AMC « Urgences et Médecine Intensive »
+25
+
+Problème n°1/5
+Question :
+•
+
+Comment évaluez-vous la sévérité du traumatisme ?
+
+L'étudiant doit être amené à réfléchir sur la biomécanique de l’accident (en l’occurrence
+chute d’une hauteur élevée). Le patient a été victime d'un accident à haute cinétique. Lors
+d'une chute de 3 étages, (environ 10 m) l'impact au sol se fait à une vitesse approximative
+de 50 km/h et la décélération est d’autant plus brutale que la surface de réception est dure.
+Des lésions graves sont à prévoir : traumatisme crânio cérébral, traumatisme thoracique,
+fractures (rachis, bassin, membres), traumatisme abdominal.
+L’étudiant doit être alerté par les paramètres vitaux rapportés par les ambulanciers.
+
+Critères d’activation du « trauma team »
+Mécanisme du traumatisme
+
+2. Chute > 5 mètres
+3. Accident / collision à haute vitesse d’un véhicule à
+moteur
+4. Personne décédée dans le même véhicule
+5. Victime éjectée du véhicule
+6. Piéton, cycliste ou motocycliste renversé par un véhicule
+roulant à une vitesse > 30 km/h
+
+Paramètres vitaux
+
+1.
+
+TAS < 90 mmHg
+
+2.
+
+Pouls >130
+
+3.
+
+Fréquence resp. <10 ou >30/min
+
+4.
+
+GCS < 14
+
+Adapté de l’ATLS® (Student Course Manual 10th Ed.)
+
+AMC « Urgences et Médecine Intensive »
+26
+
+Problème n°1/5
+Etape 2/4
+Questions :
+1. Quelle est la séquence d’évaluation de ce patient ?
+2. Quels sont les examens complémentaires à réaliser lors de l’évaluation initiale ?
+
+L'évaluation du patient doit comprendre, dans l’ordre
+1. Un examen primaire : examen qui suit la séquence ABCDE
+2. Un examen secondaire : examen "tête-pieds"
+
+Le contenu de la vignette est centré sur l’examen primaire.
+La séquence de l’examen secondaire, enseignée lors du séminaire CC « Urgences 3 »
+doit simplement être rappelée.
+
+A ce stade, il est important de mentionner que l’examen primaire comprend également :
+•
+
+Le monitoring des signes vitaux : tension artérielle, ECG en continu, SpO2,
+fréquence respiratoire.
+
+AMC « Urgences et Médecine Intensive »
+27
+
+Problème n°1/5
+
+•
+
+Des examens complémentaires en lien avec les signes recherchés et les
+observations faites :
+o Echographie E-FAST (Extended Focused Assessment Sonography in
+Trauma :
+
+
+Recherche de liquide libre intra-abdominal (hémopéritoine)
+
+
+
+Recherche d’un épanchement péricardique (hémopéricarde)
+
+
+
+Recherche de pneumothorax
+
+
+
+Recherche de liquide libre dans les recessus pleuraux (hémothorax)
+
+
+
+Il importe de rappeler les objectifs du E-FAST (avant tout rechercher
+les causes d’un état de choc) et son manque de sensibilité
+
+o RX thorax
+o RX bassin
+
+•
+
+L’équipement du patient : sonde vésicale, sonde naso-gastrique.
+
+Etape 3/4
+Questions :
+1. Quels signes recherchez-vous au cours des différentes étapes de l’examen
+primaire ?
+2. Quelles conclusions en tirez-vous ?
+3. Quelles actions faut-il entreprendre pour traiter les menaces vitales du patient ?
+
+Les étudiants doivent mentionner les signes recherchés lors des étapes successives de
+l’examen primaire. En répondant aux questions posées par les étudiants, le tuteur leur
+indique les observations faites et engage une discussion sur leur signification clinique et
+les gestes d'urgence à entreprendre
+
+AMC « Urgences et Médecine Intensive »
+28
+
+Problème n°1/5
+EXAMEN PRIMAIRE
+
+Etapes
+
+Signes recherchés
+
+Observations
+
+Signification clinique et actions
+
+Airways
+
+Signes d’obstruction
+des voies aériennes :
+
+Obstruction des voies aériennes
+(menace vitale immédiate)
+
++ Cspine
+
+1.Respiration bruyante
+2.Tirage
+
+« Ronflement »
+inspiratoire et
+expiratoire
+
+1. Dégagement manuel des voies
+aériennes + aspiration
+2. Evaluer si les VAS sont menacées
+(diagnostic différentiel)
+3. Intubation si le patient ne protège
+pas ses voies aériennes
+
+Respect de l’axe coutête-tronc
+Minerve en place
+Patient couché à
+plat sur le dos
+
+FR 36/min,
+superficielle
+
+Breathing Fréquence resp.
+Asymétrie thoracique
+Bruits respiratoires
+présents,
+symétriques ?
+Emphysème souscutané
+Fausse mobilité de la
+cage thoracique,
+craquements à la
+palpation.
+Hématomes
+
+Asymétrie avec
+hyperinflation à G
+Diminution des
+bruits respiratoires
+àG
+Crépitus sous
+cutané
+Craquements à la
+palpation du gril
+costal à G
+
+Rappeler qu’un blessé doit être
+considéré comme un traumatisé du
+rachis jusqu’à preuve du contraire. Il
+doit par conséquent être mobilisé en
+bloc.
+Détresse respiratoire dont la cause
+est probablement un pneumothorax à
+G.
+En présence d’un état de choc
+associé, évoquer le pneumothorax
+sous tension.
+Discuter la physiopathologie du
+pneumothorax sous tension.
+Parler de la nécessité de drainer le
+pneumothorax rapidement
+(idéalement avant l’intubation).
+Parler des diagnostics différentiels de
+la détresse respiratoire chez le
+traumatisé.
+1.Oxygène 10l/min avec masque à
+réserve
+2.Drainage thoracique (précédé
+d’une décompression à l’aiguille si
+état de choc associé)
+
+E-FAST : signes de
+pneumothorax
+
+AMC « Urgences et Médecine Intensive »
+29
+
+Problème n°1/5
+Circulation
+
+Pouls
+Tension artérielle
+Aspect de la peau
+
+Recherche d’un
+saignement
+externe
+
+Recherches
+d’autres sources
+de saignement
+
+FC 130/min
+Pouls filant
+TA syst 70
+Pâleur, peau froide,
+temps de recoloration
+capillaire prolongé.
+
+Le patient présente un état de
+choc sévère dont une cause
+immédiatement contrôlable est
+l’hémorragie du scalp.
+Le pneumothorax sous tension
+a déjà été drainé.
+
+Plaie du scalp dans la Les autres sources de
+région occipitale avec saignement pouvant contribuer
+saignement actif
+à l’état de choc chez ce patient
+sont une lésion intraDéformation de la
+abdominale (visualisation d’un
+cuisse gauche
+hémopéritoine) et la fracture du
+fémur.
+E-FAST :
+Liquide libre intraMentionner les 4
+abdominal
+compartiments dans lesquels
+peut survenir une hémorragie
+RX thorax : drain
+interne avec comme
+thoracique en place,
+conséquence un état de choc :
+pas d’hémothorax
+1. Thorax
+massif
+2. Abdomen
+3. Bassin
+RX bassin : fracture
+4. Os longs (fémurs)
+de branches ilio- et
+ischio- pubiennes à D a) Contrôle de l’hémorragie du
+scalp (pansement
+compressif)
+b) Mise en place de 2 voies
+veineuses périphériques et
+remplissage, évaluer le
+besoin de transfuser
+d’emblée (cf. stade du choc),
+envisager voie intra-osseuse
+(IO) au besoin
+c) Grouper le patient
+d) Correction de la crase (acide
+tranexamique précocement)
+e) Une ceinture pelvienne est
+déjà en place (inutile voire
+dangereux de tester la
+stabilité du bassin)
+f) Le pneumothorax G est déjà
+drainé (contrôler ce que
+ramène le drain)
+Les points suivants peuvent
+être discutés :
+5.Les stades du choc (selon
+classification ACS)
+6.Cibles tensionnelles : TA syst
+80-90 (sauf TCC TAM ≥80)
+7.Transfusion
+8.Choc neurogène comme
+
+AMC « Urgences et Médecine Intensive »
+30
+
+Problème n°1/5
+diagnostic différentiel du choc
+(insister cependant sur le fait
+que l’état de choc, chez le
+patient traumatisé est dû à
+l’hémorragie, jusqu’à preuve
+du contraire)
+
+Déficit
+
+Score de Glasgow
+
+neurologique
+
+Examen des
+pupilles
+
+A la stimulation
+douloureuse
+1.Le patient n'ouvre
+pas les yeux (1)
+2.Il n'émet aucun son
+(1).
+3.Il fléchit le bras,
+sans localiser le
+stimulus douloureux
+(4).
+
+Le patient présente un coma,
+avec un GCS à 5.
+Le coma indique la possibilité
+d’une lésion cérébrale
+(compatible avec la cinétique et
+le mécanisme du trauma, avec
+un impact occipital).
+Le coma peut aussi être
+expliqué par l’état de choc,
+avec comme conséquence une
+hypoperfusion cérébrale.
+Le GCS n’a, à ce stade, pas de
+valeur pronostique.
+
+Les pupilles sont en
+position moyenne,
+elles réagissent
+lentement à la
+stimulation lumineuse, Rappeler les composantes du
+GCS.
+de manière
+Rappeler que GCS et l’examen
+symétrique.
+des pupilles doivent être
+répétés régulièrement car ils
+peuvent évoluer.
+
+1. L’objectif, au stade de
+l’évaluation primaire, est de
+rétablir une perfusion
+cérébrale adéquate (TAM ≥
+80)
+
+Le patient doit
+avoir été
+Environnement complètement
+déshabillé, pour
+pouvoir être
+examiné
+Exposition
+
+T° à l’admission :
+34.2°
+
+2. Prévenir l’hypothermie :
+chauffer la salle, couverture
+chauffante, réchauffer les
+perfusions
+Rappeler que l’hypothermie est
+délétère, en particulier parce
+qu’elle aggrave la
+coagulopathie.
+
+Eviter
+l’hypothermie
+
+AMC « Urgences et Médecine Intensive »
+31
+
+Problème n°1/5
+Au terme de la discussion de l’examen primaire, les étudiants doivent être capable de faire
+une brève synthèse du cas : mécanisme de l’accident, lésions constatée et mesures de
+traitement entreprises.
+
+Etape 4/4
+Question :
+•
+
+Quelles sont, aux urgences, les causes de mortalité potentiellement évitables lors
+de la prise en charge d’un blessé.
+
+Après avoir discuté de l’examen primaire, les étudiants doivent être capable de citer les 3
+causes suivantes :
+•
+
+Obstruction des voies aériennes
+
+•
+
+Choc hémorragique
+
+•
+
+Pneumothorax sous tension
+
+En ce qui concerne le choc hémorragique, la classification ATLS®/ACS (American College
+of surgeons) peut être discutée. Elle permet de rendre les étudiants attentifs au fait que
+certains signes cliniques, comme la baisse de la pression artérielle, n’apparaissent déjà
+qu’à un stade avancé de choc hémorragique, alors que le patient a déjà perdu une quantité
+importante de volume sanguin.
+Les limites de cette classification doivent aussi être évoquées : médicaments, âges
+extrêmes, grossesse, etc.
+
+AMC « Urgences et Médecine Intensive »
+32
+
+Problème n°1/5
+Choc hémorragique classification
+Classe I
+
+Classe II
+
+Classe III
+
+Classe IV
+
+Perte sanguine en %
+
+<15%
+
+15-30%
+
+30-40%
+
+>40%
+
+Volume perdu (ml)
+
+<750
+
+750-1500
+
+1500-2000
+
+>2000
+
+Fréquence cardiaque
+
+
+
+ ou 
+
+
+
+
+
+Pression artérielle
+
+
+
+
+
+
+
+
+
+Pouls 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ou 
+
+
+
+Etat de conscience
+
+Normal
+
+Normal 3
+
+(GCS)
+
+(GCS 15)
+
+(GCS 15)
+
+
+
+
+
+Base excess 2
+
+0 à 2 mEq/l
+
+-2 à -6 mEq/l
+
+-6 à -10 mEq/l
+
+< -10 mEq/l
+
+Fréquence
+respiratoire
+
+Adapté de l’ATLS® (Student Course Manual 10th Ed.)
+1 Pression du pouls
+2 Déficit en bases (Base excess négatif < 2 meq/l) : signe d’hypoperfusion périphérique
+3 Parfois anxiété, agressivité
+
+Les grandes lignes des concepts actuels de prise en charge du choc hémorragique doivent
+être abordées (stratégie de « damage control », prévention de la triade létale
+(hypothermie, acidose, coagulopathie).
+•
+
+Réanimation
+
+•
+
+Soutien transfusionnel
+
+•
+
+Prévention de la coagulopathie
+
+•
+
+Contrôle lésionnel (chirurgie, radiologie interventionnelle)
+
+AMC « Urgences et Médecine Intensive »
+33
+
+Problème n°1/5
+Il est important d’insister sur le fait que le remplissage vasculaire permet de « gagner du
+temps », mais ne suffit pas à sauver un patient qui présente un choc hémorragique non
+contrôlé. Il a pour but de restaurer une pression de perfusion cérébrale suffisante, tout en
+évitant l’excès de remplissage. La notion d’hypotension permissive peut être abordée au
+cours de la discussion.
+En conclusion de cette vignette, il est important que le tuteur de la prise en charge d’un
+blessé grave en salle d’urgence se fasse de manière multidisciplinaire, au sein d’une
+« trauma team ». Ainsi les actions décrites au cours de cette vignette s’effectuent souvent
+de manière simultanée. La séquence de prise en charge ABCDE reste cependant la même
+et le « team leader » en est le garant.
+
+Ouvrages de référence :
+
+•
+
+Tintinalli JE et al. Tintinalli's emergency medicine: a comprehensive study guide.
+9th ed. New York : McGraw-Hill, 2020,
+https://accessmedicine.mhmedical.com/book.aspx?bookid=2353
+
+•
+
+Chest Tube Insertion NEJM
+o Video.https://www.nejm.org/doi/full/10.1056/NEJMvcm071974
+
+Lien vers e-learning polytraumatisé :
+https://www.cardiomobile.ch/cis/polytrauma/story_html5.html
+
+Pour en savoir plus :
+•
+
+ATLS® Student Course Manual, 10th Ed.
+
+AMC « Urgences et Médecine Intensive »
+34
+
+Problème n°2/5
+
+P ROBLEME N°2 : ETAT DE CHOC
+Cas A : Etape 1/3
+Madame Herlach est âgée de 69 ans. Elle est connue pour une HTA traitée et 2 épisodes
+de TVP du membre inférieur gauche 5 et 2 ans auparavant.
+Pas d’anticoagulation actuelle. Elle se plaint de douleur thoracique, apparue brutalement,
+avec irradiation vers l’omoplate gauche et une sensation de dyspnée au moindre effort.
+Elle appelle un service d’urgence à domicile qui sur place constate que : 1) la patiente est
+pâle, transpirante avec des extrémités froides ; et 2) que PAS est à 100 mm Hg aux deux
+bras, la fréquence cardiaque à 120/min régulière, et la fréquence respiratoire à 30/min.
+L’auscultation est difficile, mais ne montre ni souffle cardiaque ni râle pulmonaire. Le
+SMUR est appelé et transporte la patiente au SU. Sur le scope (1 dérivation), le rythme
+est sinusal, rapide (120/min) et il n’y a pas de surélévation du segment S-T.
+
+Questions pour le médecin du SMUR :
+1. A quel tableau (syndrome) clinique correspond l’ensemble de ces signes et
+symptômes ?
+2. Quelles sont les différents types d’état de choc sur le plan physiopathologique et
+leurs diagnostics étiologiques ?
+3. Quel est à ce stade le(s) diagnostic(s) étiologiques le(s) plus probable(s) ?
+4. Faut-il mettre en route un traitement ?
+
+Cas A : Etape 2/3
+Au service des urgences le tableau clinique est inchangé mis à part une FC à 130/min.
+L’anamnèse et l’examen clinique plus détaillés n’apportent pas d’éléments nouveaux
+hormis la présence d’une turgescence jugulaire ddc. Pas de fièvre, ni frissons, ni autre
+piste infectieuse, aucun signe d’appel digestif (pas de douleur, abdomen souple et
+indolore), ni extériorisation de sang. Pas de signes de décompensation cardiaque gauche
+(râles).
+
+AMC « Urgences et Médecine Intensive »
+35
+
+Problème n°2/5
+Un ECG est réalisé :
+
+La gazométrie (faite sous 65% O2) est la suivante : pH 7.32, pCO2 3.39 kPa, PO2 9.2 kPa,
+lactates : 4.7 mmol/L, HCO3- : - 15 mmol/L, BE :- 9 mmol/L.
+Une radiographie du thorax est réalisée. Elle ne montre ni cardiomégalie, épanchement,
+infiltrat, ou pneumothorax.
+
+Questions pour le médecin des urgences :
+1. Quelle est l’interprétation de la gazométrie et de l’ECG ?
+2. Quel est le diagnostic le plus probable ?
+3. Comment équiper la patiente ?
+4. Comment poursuivre les investigations en fonction de la probabilité clinique ?
+
+AMC « Urgences et Médecine Intensive »
+36
+
+Problème n°2/5
+Cas A : Etape 3/3
+L’échocardiographie réalisée aux urgences est la suivante :
+
+A : patient sans pathologie
+
+B : la patiente en question
+
+AMC « Urgences et Médecine Intensive »
+37
+
+Problème n°2/5
+
+Questions pour le médecin des urgences :
+1. Quel est le diagnostic ?
+2. Quel traitement mettre en route ?
+
+Cas B : Etape 1/5
+Monsieur Vincent, patient de 72 ans, est amené en ambulance aux Urgences, adressé par
+le médecin de garde en ville pour douleurs abdominales, troubles de l’état de conscience
+et tachycardie.
+A son arrivée, le patient est installé sur un brancard en boxe de déchocage. Il est
+somnolent et désorienté.
+
+Questions :
+
+1. De quels éléments cliniques avez-vous besoin à ce stade ?
+2. Quelles sont les actions thérapeutiques essentielles que le médecin doit réaliser à
+ce stade de la prise en charge ?
+
+Cas B : Etape 2/5
+Pendant les 15 minutes qui suivent, et malgré l’administration rapide de cristalloïdes, les
+paramètres hémodynamiques se péjorent : le pouls devient irrégulier, filant, la TAM est à
+45 mmHg. Le patient devient très somnolent mais réagit toujours à l’appel en ouvrant les
+yeux et il bouge les 4 membres. La saturométrie transcutanée indique 95%, sous oxygène.
+L’abdomen reste tendu, diffusément douloureux à la palpation, avec une détente
+généralisée. Le reste du status n’amène pas d’éléments spécifiques supplémentaires.
+
+AMC « Urgences et Médecine Intensive »
+38
+
+Problème n°2/5
+Les résultats de la gazométrie veineuse sont les suivants :
+•
+
+pH : 7,23 ; PvCO2 : 4,0 kPa ; PvO2 :5,5 kPa
+
+•
+
+Bicarbonate : 14 mmol/l ; Excès de base :- 9 mmol/l
+
+•
+
+Lactate : 5.2 mmol/l
+
+•
+
+Glycémie: 9 mmol/l
+
+•
+
+Hémoglobine 130 g/l
+
+Question :
+1. Quelles sont vos hypothèses diagnostiques ?
+2. Quel score pronostique utilisez-vous pour évaluer la gravité de cette situation ?
+3. Quelles décisions faut-il prendre ?
+
+Cas B : Etape 3/5
+La réanimation volémique est poursuivie. Pendant les 60 minutes qui ont suivi son arrivée,
+le patient a reçu 2 litres de Ringer Acétate. Une perfusion continue de noradrénaline a été
+débutée. Ces mesures ont permis d’augmenter la pression et d’obtenir une TAM à 65 mm
+Hg. Le patient reste tachycarde à 120/min.
+
+Formule sanguine :
+•
+
+Hématocrite : 34%
+
+•
+
+Hémoglobine : 112 g/L
+
+•
+
+Leucocytes : 25 G/l, n. segmentés 50 % ; n. non-segmentés38 %
+
+•
+
+Thrombocytes : 70 G/l
+
+Question :
+
+• Comment poursuivez-vous votre démarche diagnostique et thérapeutique ?
+AMC « Urgences et Médecine Intensive »
+39
+
+Problème n°2/5
+
+Cas B : Etape 4/5
+Un CT-scan abdominal est réalisé. Cet examen montre une importante quantité de liquide
+libre dans le péritoine ainsi que la présence d’air libre extra-digestif.
+
+Question :
+•
+
+Quel est le traitement à envisager ?
+
+Cas B : Etape 5/5
+Le patient a été opéré et l’intervention a consisté en une sigmoïdectomie avec fermeture
+du rectum et réalisation d’une colostomie terminale sur le côlon descendant (opération de
+Hartmann), avec un lavage abondant de la cavité péritonéale.
+
+En postopératoire, 24 heures après son admission en choc septique, l’état du patient se
+dégrade progressivement du point de vue respiratoire (tachypnée à 40/min, cyanose
+centrale). Une anurie s’installe. Le patient est stuporeux. Les doses de noradrénaline
+doivent être augmentées pour maintenir les valeurs de pression artérielle.
+Les examens de laboratoire suivants sont à disposition :
+•
+
+Hématocrite : 33 %
+
+•
+
+Leucocytes : 20 G/l (déviation gauche 30 %)
+
+•
+
+Thrombocytes : 25 G/l
+
+•
+
+Créatinine : 300 µmol/l
+
+•
+
+Quick :
+
+48 %
+
+•
+
+PTT :
+
+92 sec
+
+•
+
+Gazométrie artérielle :
+o
+o
+o
+o
+
+pH
+7,31
+PaCO2
+4 kPa
+PaCO2
+6 kPa (sous O2, FIO2 50%)
+Bicarbonate 18 mmo/l.
+
+AMC « Urgences et Médecine Intensive »
+40
+
+Problème n°2/5
+Question :
+Quel est votre diagnostic ?
+
+Contenu général du problème
+Problème clinique
+
+Etats de choc.
+
+Diagnostic
+
+Choc sur embolie pulmonaire massive (Cas A).
+Choc septique sur péritonite avec développement
+d’une défaillance d’organes multiples (Multiple organ
+failure-MOF) (Cas B).
+
+Entités nosologiques
+
+Etats de choc (obstructif, cardiaque, distributif,
+hypovolémique) et tous les diagnostics à l’origine de
+ces syndromes (EP, infarctus, infection, neurogène,
+hémorragique…)
+Abdomen aigu
+
+Aspects privilégiés
+
+Stratégie de l’ABC initial,
+Examen clinique dirigé et rapide,
+Traitement de la douleur abdominale,
+Sélection d’examens utiles dans une situation
+d’urgence,
+Premiers gestes thérapeutiques, principes du "sepsis
+bundle".
+Evolution possible d’un choc septique.
+Prise en charge et traitement d’une embolie
+pulmonaire massive.
+
+Cadre du problème
+
+Médecine d’urgence.
+
+AMC « Urgences et Médecine Intensive »
+41
+
+Problème n°2/5
+
+OBJECTIFS D’ENSEIGNEMENT
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiants devraient être
+capables de:
+Reconnaître un état de choc (syndrome)
+MÉDECINE D'URGENCES
+Connaître les principes de prise en charge d’un état de
+choc en respectant l’ABC.
+Faire un diagnostic différentiel rapide d’un état de choc.
+MÉDECINE D’URGENCE,
+Connaître la stratégie d’investigation d’un état de choc et la
+priorisation des examens en fonction de l’état clinique du URGENCES,
+ANESTHESIE,
+patient.
+PHARMACOLOGIE,
+Evaluer et traiter la douleur abdominale en urgence.
+CHIRURGIE
+
+Connaître la définition d’un sepsis/sepsis sévère/choc MÉDECINE D’URGENCE
+septique ainsi que les principes d’une prise en charge
+standardisée fixée par des objectifs ("sepsis bundle")
+Comprendre la physiopathologie des différents types d’état PHYSIOPATHOLOGIE,
+de choc.
+URGENCES,
+SOINS INTENSIFS
+Connaître les notions d'ARDS et de MOF.
+
+SOINS INTENSIFS,
+ANESTHÉSIOLOGIE
+
+Identifier les composants d’une surveillance continue des URGENCES, SOINS
+signes vitaux (pouls, pression artérielle, respiration) avec INTENSIFS
+ou sans moyens électroniques.
+Connaître les indications et les différents liquides de URGENCES, ANESTHESIE
+perfusion à disposition pour traiter un état de choc SOINS INTENSIFS
+(cristalloïdes, plasma, sang). Voir aussi patient traumatisé.
+
+AMC « Urgences et Médecine Intensive »
+42
+
+Problème n°2/5
+
+GUIDE DU TUTEUR
+Directives générales
+L’étudiant doit être capable de :
+•
+
+Reconnaître et faire l’évaluation rapide et le diagnostic différentiel d’un état de choc.
+
+•
+
+Mettre immédiatement en route les gestes thérapeutiques appropriés en fonction de
+l’étiologie.
+
+•
+
+Choisir les examens paracliniques les plus appropriés, utiles lors de la phase initiale de la
+prise en charge, c’est-à-dire au cours des premières 30 minutes.
+
+•
+
+Introduire une antalgie adaptée à la symptomatologie.
+
+•
+
+Compléter l’anamnèse, l’examen clinique et les examens paracliniques.
+
+Déroulé détaillé des tutoriaux
+Cas A : Etape 1/3
+Madame Herlach est âgée de 69 ans. Elle est connue pour une HTA traitée et 2 épisodes
+de TVP du membre inférieur gauche 5 et 2 ans auparavant. Pas d’anticoagulation actuelle.
+Elle se plaint de douleur thoracique, apparue brutalement, avec irradiation vers l’omoplate
+gauche et une sensation de dyspnée au moindre effort. Elle appelle un service d’urgence
+à domicile qui sur place constate que : 1) la patiente est pâle, transpirante avec des
+extrémités froides ; et 2) que PAS est à 100 mm Hg aux deux bras, la fréquence cardiaque
+à 120/min régulière, et la fréquence respiratoire à 30/min. L’auscultation est difficile, mais
+ne montre ni souffle cardiaque ni râle pulmonaire. Le SMUR est appelé et transporte la
+patiente au SU. Sur le scope (1 dérivation), le rythme est sinusal, rapide (120/min) et il n’y
+a pas de surélévation du segment S-T.
+
+AMC « Urgences et Médecine Intensive »
+43
+
+Problème n°2/5
+Questions pour le médecin du SMUR :
+1. A quel tableau (syndrome) clinique correspond l’ensemble de ces signes et
+symptômes ?
+2. Quelles sont les différents types d’état de choc sur le plan physiopathologique et
+leurs diagnostics étiologiques ?
+3. Quel est à ce stade le(s) diagnostic(s) étiologiques le(s) plus probable(s) ?
+4. Faut-il mettre en route un traitement ?
+
+1 : Discuter les signes et symptômes cliniques d’un état de choc en insistant sur le fait qu’il
+s’agit d’un ensemble de symptômes et signes aspécifiques (syndrome). Chaque signe ou
+symptôme pris individuellement n’a que peu de valeur diagnostique. Discuter les pièges
+diagnostiques (patients âgés, immunosupprimés, sous traitement de bêtabloquants par
+ex.) Ce patient présente plusieurs signes d’un état de choc.
+2 : Discuter les 4 grandes catégories physiopathologiques d’état de choc (obstructif,
+défaillance de la pompe cardiaque, distributif, hypovolémique) et discuter le diagnostic
+différentiel pour chacune de ces catégories.
+3 : Dans cette situation précise, au vu de l’anamnèse et des antécédents, les origines
+obstructives et cardiaques paraissent le plus probable.
+4 : Pas de traitement étiologique à instaurer pour l’instant. Traitement aspécifique à
+débuter (équipements, oxygène, remplissage par des cristalloïdes)
+
+Cas A : Etape 2/3
+Au service des urgences le tableau clinique est inchangé mis à part une FC à 130/min.
+L’anamnèse et l’examen clinique plus détaillés n’apportent pas d’éléments nouveaux
+hormis la présence d’une turgescence jugulaire bilatérale. Pas de fièvre, ni frissons, ni
+autre piste infectieuse, aucun signe d’appel digestif (pas de douleur, abdomen souple et
+indolore), ni extériorisation de sang. Pas de signe de décompensation cardiaque gauche
+(râles).
+
+AMC « Urgences et Médecine Intensive »
+44
+
+Problème n°2/5
+
+Un ECG est réalisé :
+
+La gazométrie (faite sous 65% O2) est la suivante : pH 7.32, pCO2 3.39 kPa, PO2 9.2 kPa,
+lactates : 4.7 mmol/L, HCO3- : 15 mmol/L, BE :- 9 mmol/L.
+Une radiographie du thorax est réalisée. Elle ne montre ni cardiomégalie, épanchement,
+infiltrat, ou pneumothorax.
+
+Questions pour le médecin des urgences :
+1. Quelle est l’interprétation de la gazométrie et de l’ECG ?
+2. Quel est le diagnostic le plus probable ?
+3. Comment équiper la patiente ?
+4. Comment poursuivre les investigations en fonction de la probabilité clinique ?
+
+AMC « Urgences et Médecine Intensive »
+45
+
+Problème n°2/5
+1. L’ECG montre une tachycardie sinusale (130/min), un BBD incomplet, une déviation
+axiale D et des signes de surcharge du VD (troubles de la repolarisation dans les
+dérivations inférieures et précordiales (V1-V3). La gazométrie montre une acidémie
+sur acidose métabolique (lactique).
+2. Vu l’ensemble des signes et symptômes (atcd, anamnèse), l’ECG (tachycardie
+surcharge droite), la gazométrie et l’interprétation de la Rx du thorax (absence de
+cardiomégalie, infiltrats pulmonaire, épanchement ou pneumothorax), le diagnostic
+d’état de choc obstructif (EP, tamponnade) avec insuffisance respiratoire aiguë
+secondaire paraît le plus probable.
+3. La patiente doit être équipée avec 2 voies veineuses, un monitoring invasif de la
+PAS (cathéter radial), pose d’une sonde urinaire (diurèse horaire) et un scope. Le
+matériel de réanimation avancée (intubation, ventilateur, médicaments) doit être
+prêt.
+4. Devant cette forte suspicion d’état de choc d’origine obstructive sur une probable
+EP massive, l’indication à une échocardiographie doit être posée. Il faut discuter
+avec les étudiants de ce qu’ils doivent demander au cardiologue en regard de la
+suspicion de ce diagnostic (taille des cavités G et D, signes d’HTAP, gradient de
+pression, exclusion d’autres pathologies (épanchement péricardique). Discuter
+brièvement les risques et les bénéfices de l’échographie vs CT (dans cette
+situation).
+
+Cas A : Etape 3/3
+L’échocardiographie est réalisée aux urgences est la suivante :
+
+Question pour le médecin des urgences :
+1.
+
+Quel est le diagnostic ?
+
+2.
+
+Quel traitement mettre en route ?
+
+AMC « Urgences et Médecine Intensive »
+46
+
+Problème n°2/5
+
+A : patient sans pathologie
+
+B : la patiente en question
+
+AMC « Urgences et Médecine Intensive »
+47
+
+Problème n°2/5
+
+Vu le résultat de l’échocardiographie (dilation des cavités droites, pas d’épanchement), le
+diagnostic de présomption est une embolie pulmonaire massive. La clinique et
+l’échocardiographie et l’absence d’autres explications en fond un diagnostic de quasicertitude.
+En persistance d’un état de choc réfractaire à la réanimation initiale, le traitement de choix
+est la thrombolyse intraveineuse.
+En cas d’absence d’amélioration de l’état de choc après thrombolyse, l’une des
+alternatives possibles est la mise en place d’une ECMO V-A (extra-corporeal membrane
+oxygénation). Le tuteur pourra évoquer cette technique d’assistance cardiaque et /ou
+respiratoire.
+
+Cas B : Etape 1/5
+Monsieur Vincent, patient de 72 ans, est amené en ambulance aux Urgences, adressé par
+le médecin de garde en ville pour douleurs abdominales, troubles de l’état de conscience
+et tachycardie.
+
+A son arrivée, le patient est installé sur un brancard en boxe de déchocage. Il est
+somnolent et désorienté.
+
+Questions :
+
+1. De quels éléments cliniques avez-vous besoin à ce stade ?
+2. Quelles sont les actions thérapeutiques essentielles que le médecin doit réaliser à
+ce stade de la prise en charge ?
+
+AMC « Urgences et Médecine Intensive »
+48
+
+Problème n°2/5
+
+Eléments cliniques
+Le recueil d’éléments cliniques par les étudiants doit s’orienter autour de deux phases
+distinctes. Une phase initiale centrée sur l’évaluation primaire A-B-C-D-E, puis une
+seconde phase, centrée sur l’anamnèse et l’examen clinique, notamment abdominal,
+visant à explorer les 9 quadrants abdominaux et à évoquer les diagnostics différentiels
+possibles en fonction de la localisation des douleurs.
+
+Le patient est apathique, confus, s’agitant par moments. Sa température est à 38.5°C, le
+pouls est régulier à 136/min, la pression artérielle humérale est de 90/60mmHg. Les
+téguments sont pâles et marbrés. Il n’y a pas de veines visibles sur les mains ou les bras,
+ni sur le cou (en position couchée). L’auscultation cardiaque et pulmonaire est normale.
+La respiration est rapide (30/min) et profonde.
+
+Lorsque vous cherchez à examiner l’abdomen, le patient écarte vos mains, ce qui rend
+votre examen difficile. Vous arrivez cependant à identifier que l’abdomen est tendu et qu’il
+semble très douloureux à la palpation, avec une détente diffuse et une défense qui paraît
+plus marquée dans la FIG. Il est impossible de demander au patient d’évaluer l’intensité
+de sa douleur.
+
+En discutant avec l’épouse de M. Vincent vous apprenez qu’il se plaint depuis 24 heures
+de douleurs abdominales diffuses qui, en quelques heures, se sont brusquement
+aggravées, raison pour laquelle elle a appelé le médecin de garde. Le patient a toujours
+eu un transit difficile, il se sentait ballonné et se plaignait de ne pas être allé à selles depuis
+3 jours. Avant cet épisode il était en bonne santé.
+
+AMC « Urgences et Médecine Intensive »
+49
+
+Problème n°2/5
+
+Actions thérapeutiques
+En même temps que les réflexions à visée diagnostique, des gestes de réanimation
+volémique et une surveillance continue de l’état hémodynamique doivent être entrepris.
+Ceci comprend initialement la pose de deux voies veineuses périphériques, voire d’une
+voie intra-osseuse (IO) en cas d’incapacité d’obtenir un accès veineux, et d’un remplissage
+intravasculaire par cristalloïde. La douleur doit être traitée de manière adéquate.
+Comme complication du choc septique, le patient développe dans un deuxième temps une
+défaillance d’organes multiples (MOF), nécessitant un soutien de plusieurs fonctions
+vitales (cf point 5/5)
+
+Cas B : Etape 2/5
+Pendant les 15 minutes qui suivent, et malgré l’administration rapide de cristalloïdes, les
+paramètres hémodynamiques se péjorent : le pouls devient irrégulier, filant, la TAM est à
+45 mmHg. Le patient devient très somnolent mais réagit toujours à l’appel en ouvrant les
+yeux et il bouge les 4 membres. La saturométrie transcutanée indique 95%, sous oxygène.
+L’abdomen reste tendu, diffusément douloureux à la palpation, avec une détente
+généralisée. Le reste du status n’amène pas d’éléments spécifiques supplémentaires.
+Les résultats de la gazométrie veineuse sont les suivants :
+•
+
+pH : 7,23
+
+•
+
+PvCO2 : 4,0 kPa
+
+•
+
+PvO2 :5,5 kPa
+
+•
+
+Bicarbonate : 14 mmol/l
+
+•
+
+Excès de base :- 9 mmol/l
+
+•
+
+Lactate : 5.2 mmol/l
+
+•
+
+Glycémie : 9 mmol/l
+
+•
+
+Hémoglobine : 130 g/l
+
+AMC « Urgences et Médecine Intensive »
+50
+
+Problème n°2/5
+
+Questions :
+1 Quelles sont vos hypothèses diagnostiques ?
+2 Quelles décisions faut-il prendre ?
+
+1 Hypothèses diagnostiques
+Ce patient présente un état de choc et un problème abdominal. Dans cette situation l’état
+de choc est en lien avec une affection abdominale aiguë.
+L’hypothèse la plus probable à ce stade est que le patient souffre d’une péritonite due à
+une diverticulite sigmoïdienne perforée. Des diagnostics tels qu’une perforation digestive
+d’une autre origine (ulcère gastrique ou duodénal, appendicite), une pancréatite aiguë, un
+infarctus mésentérique doivent aussi être considérés. La possibilité d’un choc
+hémorragique, par exemple sur rupture d’un anévrisme aortique, doit être envisagée.
+
+Scores pronostics et définition du sepsis
+En 2016, une nouvelle définition du sepsis et du choc septique a été proposée (Sepsis-3).
+Le sepsis est défini comme une dysfonction d’organe secondaire à une réponse
+inappropriée de l’hôte à une infection. Les concepts de SIRS, débattus en raison de leur
+mauvaise spécificité, et de « sepsis sévère », ne sont donc plus reconduits.
+
+Les experts proposent donc d’utiliser le score SOFA pour identifier les patients présentant
+un sepsis. Un score SOFA ≥ 2 ou une élévation ≥ 2 points étant plus discriminant que le
+SIRS pour la prédiction de mortalité des patients en réanimation. Ce score n’est toutefois
+utilisable qu’en réanimation.
+
+AMC « Urgences et Médecine Intensive »
+51
+
+Problème n°2/5
+
+Aux urgences, et d’une manière générale en dehors des milieux de réanimation, les
+experts proposent l’utilisation du qSOFA, score simplifié, qui comportent 3 critères dont 2
+sont nécessaires pour suspecter un sepsis. Ce score est associé à un séjour en
+réanimation et à un risque augmenté de mortalité.
+
+Le diagnostic de choc septique est désormais défini par l’association de 3 critères :
+1 Présence d’un sepsis
+2 Besoin de vasopresseurs pour maintenir une TAM ≥ 65 mmHg
+3 Lactatémie ≥ 2 mmol/l en dépit d’une réanimation volémique adéquate
+
+AMC « Urgences et Médecine Intensive »
+52
+
+Problème n°2/5
+
+Décisions thérapeutiques
+L’état hémodynamique du patient et l’acidose métabolique doivent préoccuper l’étudiant.
+En l’absence d’une gazométrie artérielle, il doit interpréter la gazométrie veineuse et
+identifier la présence d’une acidose métabolique (lactique), partiellement compensée par
+une hyperventilation.
+Une réanimation volémique doit être poursuivie. En l’absence de réponse à ce traitement,
+un traitement vasopresseur, par noradrénaline, doit être débuté.
+En parallèle, la question d’une antibiothérapie à large spectre, appropriée, doit être
+évoquée.
+
+Cas B : Etape 3/5
+La réanimation volémique est poursuivie. Pendant les 60 minutes qui ont suivi son arrivée,
+le patient a reçu 2 litres de Ringer Acétate. Une perfusion continue de noradrénaline a été
+débutée. Ces mesures ont permis d’augmenter la TA et d’obtenir une TAM à 65 mmHg.
+Le patient reste tachycarde à 120/ min.
+
+Formule sanguine :
+•
+
+Hématocrite :
+
+34%
+
+•
+
+Hémoglobine :
+
+112 g/L
+
+•
+
+Leucocytes :
+
+25 G/l, n. segmentés 50 % ; n. non-segmentés 38 %
+
+•
+
+Thrombocytes :
+
+70 G/l
+
+AMC « Urgences et Médecine Intensive »
+53
+
+Problème n°2/5
+
+Question :
+1.
+
+Comment poursuivez-vous votre démarche diagnostique et thérapeutique ?
+
+Le diagnostic différentiel reste ouvert mais se précise tout de même entre une infection
+intra-abdominale ou une hémorragie intra-péritonéale. La formule sanguine est suggestive
+d’un problème infectieux et doit orienter le diagnostic vers un choc septique. L’étape
+suivante est la réalisation d’emblée d’un CT abdominal injecté.
+
+Cas B : Etape 4/5
+Un CT-scan abdominal est réalisé. Cet examen montre une importante quantité de liquide
+libre dans le péritoine ainsi que la présence d’air libre extra-digestif.
+
+Question :
+•
+
+Quel est le traitement à envisager ?
+
+Le CT-scan ayant permis de poser le diagnostic de perforation digestive, le traitement est
+chirurgical et doit être entrepris dans les meilleurs délais, même si le patient est
+hémodynamiquement instable.
+D’une manière générale, le contrôle de la source infectieuse fait partie de la prise en
+charge des patients qui présentent un sepsis. (Exemples : drainer un empyème, lever une
+obstruction des voies urinaires ou des voies biliaires, inciser ou drainer un abcès)
+
+AMC « Urgences et Médecine Intensive »
+54
+
+Problème n°2/5
+
+Cas B : Etape 5/5
+Le patient a été opéré et l’intervention a consisté en une sigmoïdectomie avec fermeture
+du rectum et réalisation d’une colostomie terminale sur le côlon descendant (opération de
+Hartmann), avec un lavage abondant de la cavité péritonéale.
+
+En postopératoire, 24 heures après son admission en choc septique, l’état du patient se
+dégrade progressivement du point de vue respiratoire (tachypnée à 40/min, cyanose
+centrale). Une anurie s’installe. Le patient est stuporeux. Les doses de noradrénaline
+doivent être augmentées pour maintenir les valeurs de pression artérielle.
+Les examens de laboratoire suivants sont à disposition :
+•
+
+Hématocrite : 33 %
+
+•
+
+Leucocytes : 20 G/l (déviation gauche 30 %)
+
+•
+
+Thrombocytes : 25 G/l
+
+•
+
+Créatinine : 300 µmol/l
+
+•
+
+Quick :
+
+•
+
+PTT : 92 sec
+
+•
+
+Gazométrie artérielle :
+
+48 %
+
+o pH
+
+7,31
+
+o PaCO2
+
+4 kPa
+
+o PaO2
+
+6 kPa (sous O2 au masque, FIO2 50%)
+
+o Bicarbonate
+
+18 mmol/l.
+
+AMC « Urgences et Médecine Intensive »
+55
+
+Problème n°2/5
+
+Question :
+•
+
+Quel est votre diagnostic ?
+
+En postopératoire, 24 heures après que le patient a été admis aux Soins Intensifs en choc
+septique, une défaillance multi-viscérale (MOF) se développe.
+
+L’étudiant doit analyser les différentes dysfonctions d’organes vitaux : syndrome de
+détresse respiratoire aiguë (ARDS), insuffisance rénale, dysfonction hépatique, CIVD, et
+atteinte du système nerveux central) et évoquer les divers moyens de suppléance
+disponibles (HDF, ventilation mécanique, ECMO).
+
+L’apparition d’un MOF, et la mortalité associée, sera l’occasion d’aborder brièvement la
+nécessité de discuter des limitations thérapeutiques aux soins intensifs, voire du retrait
+thérapeutique, en fonction des situations.
+
+Ouvrage de référence
+Tintinalli JE et al. Tintinalli's emergency medicine: a comprehensive study guide. 9th ed.
+New York : McGraw-Hill, 2020
+
+Pour en savoir plus
+•
+
+Marx JA. Rosen’s emergency medicine: concepts and clinical practice. 9th ed.
+Philadelphia : Elsevier, 2017. WB 105 43
+
+•
+
+Vincent J-L, De Backer D. Circulatory shock. N Engl J Med 2013;369:1726-34
+
+•
+
+Angus DC, van der Poll T. Severe sepsis and septic shock. N Engl J Med
+2013;369:840-51
+
+•
+
+Ramlawi M, Larribau R. Etat de choc: Approche diagnostique aux urgences. Rev
+Med Suisse 2009;5:1600-5
+
+•
+
+Rev Med Suisse 2014;10:1485-1511. Numéro entier consacré à l’état de choc.
+AMC « Urgences et Médecine Intensive »
+56
+
+Problème n°3/5
+
+P ROBLEME N°3 : DOULEURS THORACIQUE AIGUES
+Cas A étape 1/2
+Un de vos patients (59 ans, hypertendu traité) vous appelle à votre cabinet. Il se plaint
+d’une douleur thoracique intense qui dure depuis 1 heure, et qui ne change pas en
+intensité. Sa femme, dont vous entendez la voix dans le fond, précise qu’il est tout pâle.
+Vous ne vous souvenez pas que le patient se soit déjà plaint de tels symptômes.
+
+Quelle attitude choisir ?
+1 Trouver un créneau horaire et faire venir le patient à votre cabinet
+2 Se rendre à son domicile sans délai
+3 Demander à l’épouse d’appeler immédiatement le 144
+
+Cas A étape 2/2
+Le médecin du SMUR (ambulance médicalisée) arrive au domicile du patient. Le patient
+précise que depuis 8 jours, il a présenté à trois reprises, peu après le repas, des douleurs
+thoraciques rétro-sternales en barre, oppressives irradiant dans le cou et les bras, d’une
+durée de quelques minutes et cédant spontanément.
+Le patient est en bon état général, pâle, transpirant. La TA est à 140/100 mm Hg, le pouls
+irrégulier à 92/min. On ausculte un discret souffle éjectionnel 1-2/6 au foyer aortique et des
+râles de stase sur 3 cm ddc.
+Un ECG 12 pistes est réalisé (cf. tracé).
+
+AMC « Urgences et Médecine Intensive »
+57
+
+Problème n°3/5
+
+Questions pour le médecin du SMUR :
+1. Quel est le diagnostic le plus probable ?
+2. Quels sont les risques immédiats ?
+3. Quel traitement initial faut-il mettre en route ?
+4. Quel doit être l’objectif thérapeutique, dans quel délai, et quelle logistique cela
+impose-t-il ?
+
+AMC « Urgences et Médecine Intensive »
+58
+
+Problème n°3/5
+Cas B
+Une patiente diabétique non insulinodépendante, hypertendue, ancienne fumeuse vient
+d’elle-même aux urgences en raison d’une douleur thoracique aiguë, décrite comme une
+oppression avec irradiation dans le cou et nausée. Elle se plaint également d’une dyspnée
+inhabituelle.
+Les paramètres vitaux sont stables (TAS 140/90 mmHg, pouls 90/min, FR 15/min,
+saturation 94% (sous 02)
+Un ECG est rapidement réalisé.
+
+En plus de l’ECG, l’examen clinique montre des signes d’insuffisance cardiaque gauche
+(râles de stase sur la plage inférieure des 2 poumons) ainsi qu’un B3.
+
+AMC « Urgences et Médecine Intensive »
+59
+
+Problème n°3/5
+
+Questions pour le médecin des urgences :
+
+1. Quel est le diagnostic le plus probable à ce stade sans avoir tout le bilan (radiologique et
+laboratoire) ?
+2. Quels éléments cliniques et paracliniques utiliser pour stratifier le pronostic à court-terme ?
+3. Quelles mesures thérapeutiques et de surveillance immédiate envisagez-vous ?
+4. Faut-il envisager une reperfusion et quand ? Quelle orientation ?
+
+Cas C
+Monsieur A., 62 ans, ressent brutalement en jardinant une douleur thoracique aiguë,
+d’emblée maximale, localisée dans la partie antérieure du thorax et irradiant dans le cou
+et dans le dos. Craignant un infarctus, il appelle le 144 qui le fait hospitaliser au moyen du
+SMUR.
+
+L’examen physique au service des Urgences met en évidence :
+•
+
+GCS : 15, douleur d’intensité 10/10
+
+•
+
+Cardiovasculaire :
+o TAS : 180/100 mmHg ddc. Absence de pouls fémoral. Pas de signes d’IC.
+Auscultation d’un souffle cardiaque diastolique
+
+•
+
+Pulmonaire :
+o FR 20/min, MV symétrique ddc
+
+Vous apprendrez par la suite qu’il souffre d’une hypertension de longue date pour laquelle
+il a renoncé à tout traitement.
+
+AMC « Urgences et Médecine Intensive »
+60
+
+Problème n°3/5
+
+L’ECG montre une FA rapide (120/min) et la radiographie du thorax est ci-dessous :
+
+Questions pour le médecin des urgences :
+1. Quel est votre diagnostic différentiel ?
+2. Quelle est votre stratégie diagnostique de prise en charge?
+3. Quel traitement initial mettre en route ?
+
+Problème clinique
+
+Douleurs thoraciques aiguës.
+
+Diagnostics
+
+Syndrome coronarien aigu, dissection de l’aorte.
+
+Entités nosologiques
+
+Cardiopathie ischémique, dissection aortique,
+pneumothorax, embolie pulmonaire, affections
+pleurales, affections oeso-gastriques, affections
+musculo-squelettiques, attaques de panique.
+
+AMC « Urgences et Médecine Intensive »
+61
+
+Problème n°3/5
+Aspect privilégié
+
+Diagnostic et prises de décisions en urgence.
+
+Cadre du problème
+
+Douleurs thoraciques aiguës en pré-hospitalier et
+en salle d’urgence.
+
+OBJECTIFS D’ENSEIGNEMENT
+
+DISCIPLINES
+
+Connaître la prise en charge systématique d’une douleur
+thoracique aiguë (diagnostic différentiel, A-B-C).
+
+MÉDECINE D’URGENCE,
+MEDECINE INTERNE,
+
+Savoir hiérarchiser ce diagnostic différentiel (probabilité
+clinique) en fonction de l’anamnèse et l’examen clinique.
+
+CHIRURGIE
+
+Connaître les enjeux et les principes de prise en charge
+des SCA en tenant compte de l’environnement et de ses
+contraintes (pré-hospitalier).
+
+MÉDECINE D’URGENCE.
+CARDIOLOGIE
+
+Connaître les principes de prise en charge et la logistique MÉDECINE D’URGENCE,
+(reperfusion) en cas de STEMI.
+CARDIOLOGIE
+Connaître les principes de stratification (utilisation de
+scores cliniques) des SCA (NSTEMI) et leur traitement.
+
+MÉDECINE D’URGENCE
+
+Connaître les principes de raisonnement clinique
+permettant une utilisation rationnelle des tests
+diagnostiques (ex : troponines).
+
+MÉDECINE D’URGENCE
+
+Connaître les signes et symptômes cliniques évoquant
+une dissection aiguë de l’aorte.
+
+MÉDECINE D’URGENCE
+
+Connaître les principes de prise en charge diagnostique
+(stratégie d’investigation) d’une suspicion de dissection
+de l’aorte.
+
+MÉDECINE D’URGENCE
+CHIRURGIE CARDIO-
+
+AMC « Urgences et Médecine Intensive »
+62
+
+CARDIOLOGIE
+
+CHIRURGIE CARDIOVASCULAIRE
+
+VASCULAIRE
+
+Problème n°3/5
+
+GUIDE DU TUTEUR
+Directives générales
+•
+
+Rappeler les principales causes de douleurs thoraciques aiguës et l’importance du
+diagnostic différentiel en fonction de la situation clinique (âge du patient, présence
+de FRCV, FRTE, localisation et caractéristiques de la douleur…)
+
+•
+
+Insister sur la reconnaissance des signes cliniques de gravité des différentes
+affections invoquées, surtout les 3 entités qui menacent le pronostic vital à court
+terme (SCA, embolie pulmonaire et dissection de l’aorte).
+
+•
+
+Expliquer les principes de stratification du risque et l’apport (limites) des scores
+cliniques (ex : NSTEMI).
+
+•
+
+Expliquer comment interpréter les examens complémentaires et discuter leur apport
+diagnostique.
+
+•
+
+Connaître les principes thérapeutiques d’urgence pour les différentes entités
+nosologiques concernées, l’importance du contexte clinique (préhospitalier) et de la
+logistique (environnement).
+
+•
+
+Comprendre l’importance du contrôle de la douleur dans des situations comme
+l’infarctus et la dissection aortique et savoir avec quel(s) moyen(s) thérapeutique(s)
+la contrôler.
+
+AMC « Urgences et Médecine Intensive »
+63
+
+Problème n°3/5
+Déroulement détaillé des tutoriaux
+Cas A étape 1/2
+Un de vos patients (59 ans, hypertendu traité) vous appelle à votre cabinet. Il se plaint
+d’une douleur thoracique intense qui dure depuis 1 heure, et qui ne change pas en
+intensité. Sa femme, dont vous entendez la voix dans le fond, précise qu’il est tout pâle.
+Vous ne vous souvenez pas que le patient se soit déjà plaint de tels symptômes.
+
+Quelle attitude choisir ?
+A. Trouver un créneau horaire et faire venir le patient à votre cabinet
+B. Se rendre à son domicile sans délai
+C. Demande à l’épouse d’appeler immédiatement le 144.
+•
+
+Rappel du diagnostic différentiel des douleurs thoraciques centré sur les
+urgences vitales, c.à.d. les causes susceptibles : 1) de menacer le pronostic à
+court-terme (SCA, embolie pulmonaire, dissection aortique, voire PNO), et 2) de
+bénéficier d’un traitement dont l’efficacité est liée à la rapidité de la mise en route
+(ex : thrombolyse/reperfusion).
+
+•
+
+Discuter les limites de l’appel téléphonique (ou visite au domicile) compte tenu
+de l’impossibilité d’exclure ou confirmer un des diagnostics ci-dessus.
+
+•
+
+Discuter les désavantages et les dangers des options a) et b) :
+o Nécessité d’une évaluation A-B-C et d’un monitoring (suspicion de SCA)
+o Réalisation d’un ECG 12 pistes (suspicion de STEMI)
+o Nécessité d’un traitement rapide (oxygène, traitement de la douleur…)
+o Comprendre qu’une intervention à domicile ne permettra pas d’éviter le
+passage dans un SU, et fera perdre du temps
+o Intégrer la notion de délai et de réduction de l’efficacité du traitement (ex :
+reperfusion)
+
+AMC « Urgences et Médecine Intensive »
+64
+
+Problème n°3/5
+Cas A étape 2/2
+Le médecin du SMUR (ambulance médicalisée) arrive au domicile du patient. Le patient
+précise que depuis 8 jours, il a présenté à trois reprises, peu après le repas, des douleurs
+thoraciques rétro-sternales en barre, oppressives irradiant dans le cou et les bras, d’une
+durée de quelques minutes et cédant spontanément.
+Le patient est en bon état général, pâle, transpirant. La TA est à 140/100 mm Hg, le pouls
+à 92/min. On ausculte un discret souffle éjectionnel 1-2/6 au foyer aortique et des râles de
+stase sur 3 cm ddc.
+Un ECG 12 pistes est réalisé (cf. tracé)
+
+AMC « Urgences et Médecine Intensive »
+65
+
+Problème n°3/5
+Questions pour le médecin du SMUR :
+1. Quel est le diagnostic le plus probable ?
+2. Quels sont les risques immédiats ?
+3. Quel traitement initial faut-il mettre en route ?
+4. Quel doit être l’objectif thérapeutique, dans quel délai, et quelle logistique cela impose-t-il ?
+
+-
+
+Expliquer pourquoi, chez ce patient, avant même d’avoir l’ECG la probabilité clinique
+d’un SCA est élevée.
+o Age, FR, douleur à caractère typique, signes d’une insuffisance cardiaque
+congestive.
+
+-
+
+L’étudiant doit :
+o Proposer de pratiquer un ECG immédiatement. L’objectif est d’obtenir un
+ECG 12 pistes dans les 10 minutes suivant le premier contact médical.
+o Connaître les critères ainsi que la performance diagnostique de l’ECG pour
+le diagnostic de STEMI (sus-décalage dans 2 dérivations contiguës > 2 mm
+(> 1.5 mm c/o femme) en V2-3 ou > 1 mm dans autres dérivations).
+o Comprendre l’importance « clé » de l’ECG dans la stratification initiale des
+douleurs thoraciques aiguës (STEMI vs NSTEMI ou autres diagnostics).
+
+Nécessité d’un rappel sur la définition du SCA, l’hétérogénéité et la physiopathologie de
+ce syndrome, le concept de plaque instable, et d’occlusion complète ou partielle de l’artère.
+
+AMC « Urgences et Médecine Intensive »
+66
+
+Problème n°3/5
+
+Spectre des SCA
+
+AMC « Urgences et Médecine Intensive »
+67
+
+Problème n°3/5
+Définition universelle de l’infarctus du myocarde (Europ Society of Cardiol, 2018)
+
+AMC « Urgences et Médecine Intensive »
+68
+
+Problème n°3/5
+
+-
+
+Connaître et justifier sur le plan physiopathologique les bases du traitement,
+symptomatique et étiologique de l’infarctus du myocarde (STEMI) avec ses indications
+et ses contre-indications :
+o Soulagement des douleurs
+o Traitement antiagrégant
+o Reperfusion
+
+
+Mécanique
+
+
+
+Médicamenteuse (cf. schéma)
+•
+
+Contre-indication thrombolyse
+
+o Morphine, oxygène, nitrés, aspirine (M.O.N.A.) / Préciser les cibles
+d’oxygène (>90% saturation)
+o Autres traitements (B-bloqueurs, anticoagulants)
+o Traitement de reperfusion (angioplastie ou thrombolyse) avec ses
+avantages, inconvénients, contre-indications. L’angioplastie primaire est la
+méthode de choix si elle peut être réalisée par une équipe expérimentée
+dans les 120 minutes après le premier contact médical. Elle est également
+indiquée en cas d’insuffisance cardiaque aiguë ou de choc cardiogène.
+
+AMC « Urgences et Médecine Intensive »
+69
+
+Problème n°3/5
+
+Résumé des temps cibles de prise en charge
+
+Rappeler les contre-indications à la fibrinolyse
+
+AMC « Urgences et Médecine Intensive »
+70
+
+Problème n°3/5
+
+AMC « Urgences et Médecine Intensive »
+71
+
+Problème n°3/5
+-
+
+Rappeler le risque immédiat en cas de STEMI (arythmies ventriculaires,
+insuffisance cardiaque, choc) qui justifie un monitoring et un transport médicalisé
+(avec défibrillateur)
+
+-
+
+Discuter de l’importance de l’environnement (géographie, plateau technique,
+distance de l’hôpital) et de la logistique (centrale d’urgence « 144 », tri, existence
+de procédure connues propres à chaque service) pour atteindre ses objectifs.
+
+Figure 1 : étapes et délais de la prise en charge d’un STEMI
+
+AMC « Urgences et Médecine Intensive »
+72
+
+Problème n°3/5
+
+-
+
+Appliquer le concept de « chaîne de survie » du BLS à la situation des STEMI :
+o Etape 1 : reconnaissance des symptômes
+o Etape 2 : appel à centrale d’urgence (144)
+o Etape 3 : évaluation dans un SU ou filière STEMI selon système de santé ;
+o Etape 4 : traitement de reperfusion.
+
+Cas B
+Une patiente diabétique de 68 ans non insulinodépendante, hypertendue, ancienne
+fumeuse vient d’elle-même aux urgences en raison d’une douleur thoracique aiguë, décrite
+comme une oppression avec irradiation dans le cou et nausée. Elle se plaint également
+d’une dyspnée inhabituelle. Les paramètres vitaux sont stables (TAS 140/90 mmHg, pouls
+90/min, FR 15/min, saturation 94% (sous 02). Un ECG est rapidement réalisé.
+
+AMC « Urgences et Médecine Intensive »
+73
+
+Problème n°3/5
+
+En plus de l’ECG, l’examen clinique et échographique (pleuro-pulmonaire) montre des
+signes d’insuffisance cardiaque gauche (râles de stase sur la plage inférieure des 2
+poumons, lignes B) ainsi qu’un B3.
+
+1. Quel est le diagnostic le plus probable à ce stade sans avoir tout le bilan
+(radiologique et laboratoire) ?
+2. Quels éléments cliniques et paracliniques utiliser pour stratifier le pronostic à courtterme ?
+3. Quelles mesures thérapeutiques et de surveillance immédiates envisagez-vous ?
+4. Faut-il envisager une reperfusion et quand ? - Quelle orientation ?
+
+Après un rapide diagnostic différentiel, l’étudiant doit identifier que la probabilité d’un SCA
+(NSTEMI ou angor instable) (FRCV, anamnèse, examen physique, ECG).
+Rappeler que, en dehors du STEMI, le SCA comporte des patients très hétérogènes en
+termes de risque d’événements indésirables (infarctus, mort subite), et de pronostic à court
+terme (décès).
+Comprendre la notion de stratification du risque et son importance pour déterminer la prise
+en charge thérapeutique et les décisions d’orientation.
+Discuter les éléments cliniques et paracliniques utile à cette stratification
+• Anamnèse (douleur, durée,)
+• Examen physique (signes d'IC)
+• ECG
+• Enzymes cardiaques
+
+-
+
+Discuter la stratification en prenant l’exemple du score TIMI
+
+-
+
+Présenter l’exemple du protocole genevois de prise en charge des SCA au service des
+urgences.
+
+AMC « Urgences et Médecine Intensive »
+74
+
+Problème n°3/5
+
+Figure 1 : protocole de prise en charge des SCA au service des urgences HUG
+
+AMC « Urgences et Médecine Intensive »
+75
+
+Problème n°3/5
+Figure 2 : stratégie de stratification du risque dans les NSTEMI/angor instable
+
+AMC « Urgences et Médecine Intensive »
+76
+
+Problème n°3/5
+Figure 3 : causes d’élévation des troponines
+
+AMC « Urgences et Médecine Intensive »
+77
+
+Problème n°3/5
+
+-
+
+Discuter les traitements adjuvants au M.O.N.A. en cas de SCA type NSTEMI :
+o Anticoagulation
+o Bêta-bloqueurs
+o Antiagrégants plaquettaires (clopidogrel)
+o Antithrombotiques (anti 2B IIIA)
+o Reperfusion (angioplastie) immédiate ou différée
+
+AMC « Urgences et Médecine Intensive »
+78
+
+Problème n°3/5
+Cas C
+Monsieur A., 62 ans, ressent brutalement en jardinant une douleur thoracique aiguë,
+d’emblée maximale, localisée dans la partie antérieure du thorax et irradiant dans le cou
+et dans le dos. Craignant un infarctus, il appelle le 144 qui le fait hospitaliser au moyen du
+SMUR.
+L’examen physique :
+-
+
+A et B : tachypnée sans signe de détresse respiratoire, MVS
+
+-
+
+C : TAS : 180/100 mmHg ddc, absence de pouls fémoral, pas de signe d’IC,
+auscultation d’un souffle diastolique au foyer aortique
+
+-
+
+D : GCS : 15
+
+-
+
+E : Douleur d’intensité 10/10
+
+Vous apprendrez par la suite qu’il souffre d’une hypertension de longue date pour laquelle
+il a renoncé à tout traitement.
+L’ECG montre une FA rapide (120/min) et la radiographie du thorax est ci-dessous :
+
+1. Quel est votre diagnostic différentiel ?
+2. Quelle est votre stratégie diagnostique de prise en charge ?
+3. Quel traitement initial mettre en route ?
+
+AMC « Urgences et Médecine Intensive »
+79
+
+Problème n°3/5
+
+Les objectifs de cette étape sont :
+•
+
+Amener l’étudiant à prendre en compte le contexte, les caractéristiques de la
+douleur et l’éventuelle présence de signes cliniques évocateurs l’aorte (douleur
+transfixiante, asymétrie de pouls, insuffisance aortique, déficit neurologique
+subit, etc…).
+
+•
+
+Replacer la dissection dans son contexte épidémiologique (prévalence faible
+parmi toutes les douleurs thoraciques).
+
+•
+
+Rappeler les différences entre une dissection proximale et distale.
+
+•
+
+Savoir que la dissection est un diagnostic radiologique (il faut visualiser la
+déchirure intimale !) et non clinique.
+
+•
+
+Intégrer que la prise en charge d’une dissection nécessite une approche
+multidisciplinaire (urgentiste, radiologue, chirurgien).
+
+•
+
+Connaître les examens radiologiques à disposition avec leurs avantages et
+
+•
+
+Inconvénients.
+
+•
+
+Connaître
+
+les
+
+bases
+
+du
+
+traitement
+
+médicamenteux
+
+(antalgie,
+
+cibles
+
+tensionnelles).
+
+Ouvrages de référence
+o Tintinalli JE et al. Tintinalli's emergency medicine: a comprehensive study guide. 9th
+ed. New York : McGraw-Hill, 2020
+Ebook : https://accessmedicine.mhmedical.com/book.aspx?bookid=2353
+o ESC
+
+guidelines
+
+2018,
+
+https://esc365.escardio.org/Congress/ESC-Congress-
+
+2018/ESC-2018-Guidelines-Overview/24056-esc-2018-guidelines-overview
+
+AMC « Urgences et Médecine Intensive »
+80
+
+Problème n°4/5
+
+P ROBLEME N°4 : INSUFFIS ANCE RES P IRATOIRE AIGUË
+Etape 1/5
+Monsieur C, 62 ans, présente une aggravation récente d’une dyspnée chronique. Celle-ci
+ne s’améliorant pas, il consulte aux urgences. Le patient se plaint également d’une toux et
+d’expectorations en augmentation depuis plusieurs jours
+
+Questions :
+
+1. Comment évaluez-vous la sévérité / le degré d’urgence de la situation ?
+2. Quels éléments recherchez-vous pour définir l’étiologie de cette décompensation
+respiratoire ?
+a. Sur le plan anamnestique
+b. A l’examen clinique
+
+Etape 2/5
+Au vu des éléments anamnestiques et de l’examen physique, quelle va être votre prise en
+charge initiale aux urgences ?
+
+Questions :
+1. Quel est votre diagnostic et votre stratégie d’investigations ?
+2. Quel traitement allez-vous débuter immédiatement ?
+
+Etape 3/5
+Le malade est immédiatement équipé d’un masque pour une oxygénothérapie contrôlée
+(FIO2 0.3), et d’un saturomètre digital, qui donne une valeur de SpO2 transcutanée à 0.87
+et un traitement bronchodilatateur est instauré.
+
+AMC « Urgences et Médecine Intensive »
+81
+
+Problème n°4/5
+Vous avez prescrit une radiographie du thorax et obtenu une gazométrie sous oxygène
+dont les résultats sont ci-dessous :
+
+Une gazométrie artérielle pratiquée après quelques minutes d’oxygénothérapie (FiO2 0.3)
+donne les valeurs suivantes :
+•
+
+pH: 7.20
+
+•
+
+PaCO2: 9 kPa
+
+•
+
+PaO2: 7.3 kPa
+
+•
+
+Bicarbonate: 37 mmol/L
+
+•
+
+Base excess: 7 mmol/L
+
+•
+
+Saturation O2: 87%
+
+AMC « Urgences et Médecine Intensive »
+82
+
+Problème n°4/5
+
+Questions :
+1. Quelle est votre interprétation de la radiographie et de la gazométrie ?
+2. Quels traitements supplémentaires faut-il envisager ?
+
+Etape 4/5
+On met en route une ventilation non-invasive par masque facial (VNI) avec les réglages
+suivants : mode d’assistance inspiratoire : AI 15cmH2O ; FIO2 0.3 ; PEEP 5 cmH2O.
+Le malade tolère bien la VNI et son agitation diminue.
+On pratique une nouvelle gazométrie artérielle, 20 minutes plus tard :
+•
+
+pH: 7.30
+
+•
+
+PaCO2: 7.4 kPa
+
+•
+
+PaO2: 8.5 kPa
+
+•
+
+Bicarbonate: 34 mmol/L
+
+•
+
+Base excess: 5,8 mmol/L.
+
+Questions :
+1. Comment expliquer les réglages effectués sur la VNI
+2. Quelles sont les prochaines mesures diagnostiques, thérapeutiques et de
+surveillance à envisager ?
+3. Quel est le pronostic du malade et quels sont les éléments qui vont conditionner la
+suite de sa prise en charge ?
+
+AMC « Urgences et Médecine Intensive »
+83
+
+Problème n°4/5
+
+Etape 5/5
+Lors d’une quinte de toux, alors que la VNI est toujours en place, le malade devient
+brusquement tachypnéique, avec une FR à 40/min, cyanosé, et se plaint d’une violente
+douleur latéro-thoracique droite. La SpO2 diminue à 0.69, alors que la pression artérielle
+chute à 65/35 mmHg. Le malade suffoque. L’auscultation pulmonaire révèle une diminution
+des bruits audibles sur la plage pulmonaire droite.
+
+Questions :
+1. Quel est votre diagnostic ?
+2. Que faites-vous ?
+
+Contenu général du problème
+Problème clinique
+
+-
+
+Décompensation respiratoire aiguë chez
+insuffisant respiratoire chronique obstructif.
+
+-
+
+Apparition d’un pneumothorax aux urgences.
+
+Diagnostic
+
+-
+
+Exacerbation de BPCO, pneumothorax.
+
+Entités nosologiques
+
+-
+
+Syndrome obstructif, défaillance de la pompe
+ventilatoire, BPCO, asthme, pneumothorax,
+pneumonie,
+embolie
+pulmonaire
+(EP),
+décompensation cardiaque (OAP), surdosage
+médicamenteux (codéine)
+
+AMC « Urgences et Médecine Intensive »
+84
+
+un
+
+Problème n°4/5
+Aspects privilégiés
+
+Cadre du problème
+
+-
+
+Connaître les signes de gravité d’une
+décompensation respiratoire aiguë et proposer une
+conduite à tenir adaptée à la situation.
+
+-
+
+Classifier le type de décompensation respiratoire
+aigue
+
+-
+
+Identifier
+la
+possibilité
+d’un
+surdosage
+médicamenteux en cas d’insuffisance respiratoire
+chronique.
+
+-
+
+Connaître l’existence de la VNI et ses
+complications potentielles en cas d’atteinte
+respiratoire obstructive.
+
+-
+
+Connaître le diagnostic et la prise en charge d’un
+pneumothorax sous tension.
+
+-
+
+Quels sont les éléments à considérer dans le choix
+de l’orientation de ce patient.
+
+-
+
+Evoquer la question éthique que poseraient
+l’intubation et la prise en charge aux Soins
+Intensifs.
+
+-
+
+Service d’urgence.
+
+AMC « Urgences et Médecine Intensive »
+85
+
+Problème n°4/5
+
+OBJECTIFS D’ENSEIGNEMENT
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiants devraient
+connaître ce qui suit :
+Décrire une prise en charge systématique basée sur le URGENCES
+concept ABC.
+Identifier une insuffisance respiratoire grave et ses
+diagnostics différentiels.
+Les complications liées à une BPCO, y compris les
+perturbations acido-basiques (interprétation de la
+gazométrie artérielle).
+Différencier un trouble ventilatoire obstructif d’un trouble
+ventilatoire restrictif.
+Connaître le retentissement hémodynamique
+atteinte respiratoire (interaction cœur/poumon)
+
+d’une MEDECINE INTERNE
+
+Connaître les indications à l’assistance ventilatoire (non URGENCES
+invasive / intubation).
+Connaître le diagnostic et le traitement d’un pneumothorax. MEDECINE INTERNE
+Interpréter une radiographie thoracique avec des signes RADIOLOGIE
+radiologiques évoquant l’emphysème, la bronchite
+chronique, une pneumonie ainsi qu’un pneumothorax.
+Reconnaître la dimension éthique de ce problème, à savoir ETHIQUE
+la justification ou non d’entreprendre une réanimation
+lourde (intubation, soins intensifs) chez un malade en
+phase terminale d’une affection chronique débilitante.
+
+AMC « Urgences et Médecine Intensive »
+86
+
+Problème n°4/5
+
+GUIDE DU TUTEUR
+Directives générales
+Après avoir étudié cette vignette, les étudiants doivent connaître les signes cliniques et
+paracliniques de gravité d’une insuffisance respiratoire aiguë. Savoir faire la différence
+entre un trouble des échanges gazeux (hypoxémie) et un défaut de ventilation (compensé
+et décompensé). Ils doivent pouvoir planifier leurs actions thérapeutiques, diagnostiques
+et organiser la surveillance de leur malade.
+Connaitre les indications à un support ventilatoire non-invasif et invasif ainsi que les
+indications à une intubation trachéale.
+La dimension éthique de cette vignette doit être perçue.
+
+Déroulement du tutorial
+Etape 1/5
+Monsieur C, 62 ans, présente une aggravation récente d’une dyspnée chronique. Celle-ci
+ne s’améliorant pas il consulte aux urgences. Le patient se plaint également d’une toux et
+d’expectorations en augmentation depuis plusieurs jours
+
+Questions :
+1. Comment évaluez-vous la sévérité / le degré d’urgence de la situation ?
+2. Quels éléments rechercher pour définir l’étiologie de cette décompensation
+respiratoire ?
+a. Sur le plan anamnestique
+b. A l’examen clinique
+
+AMC « Urgences et Médecine Intensive »
+87
+
+Problème n°4/5
+
+Information donnée par le tuteur
+Question 1 (Evaluation Primaire)
+Le malade est agité, peu collaborant, GCS 14. On note une cyanose labiale. Sa fréquence
+cardiaque est régulière à 130/min, la pression artérielle est de 175/105 mmHg.
+L’auscultation cardiaque est normale. Le patient est transpirant, dyspnéique avec une FR
+à 25-30/min et un tirage sus-claviculaire, sus-sternal et intercostal. La saturation d’O2 à
+l’air ambiant est de 84%. L’auscultation pulmonaire est caractérisée par une diminution
+symétrique du murmure vésiculaire, des râles grossiers sur les deux bases et des
+sibilances sur les deux plages pulmonaires avec un expirium prolongé. Le patient est
+subfébrile (38 C).
+La gazométrie initiale (FiO2 : 21%)
+•
+
+pH: 7.20
+
+•
+
+PaCO2 : 8.7 kPa
+
+•
+
+PaO2: 6.8 kPa
+
+•
+
+Bicarbonate: 35 mmol/L
+
+•
+
+Base excess: 6.9 mmol/L
+
+•
+
+Saturation O2: 84%
+
+AMC « Urgences et Médecine Intensive »
+88
+
+Problème n°4/5
+
+Question 2
+Eléments Anamnestiques :
+Le patient dit présenter une dyspnée depuis plusieurs années et présente plusieurs
+décompensations par an avec deux hospitalisations cette année dont la dernière, il y a 3
+mois a nécessité une hospitalisation prolongée (pas d’intubation, pas d’admission aux
+soins intensifs). Le patient est suivi par son médecin traitant et prend des aérosols 3x/j
+(Seretide discus 250/50 2x/j, Spiriva 18ug 1x/j) et bénéficie d’oxygène à domicile. Il a
+augmenté sa prise d’aérosols depuis 3 jours sans effets. Il n’a pas augmenté la valeur de
+la FiO2. La dyspnée s’est aggravée de manière progressive sur 1 semaine et est beaucoup
+plus importante depuis 3 j. La dyspnée est présente ce jour au moindre effort (distance de
+marche d’environ 20 m (le patient ne sort plus de chez lui) limitant significativement ses
+activités et également, mais moins importante, au repos. Le patient ne fume plus depuis
+plusieurs années. Le patient signale une augmentation de ses expectorations et un
+changement de leur couleur (habituellement blanchâtres, actuellement brunâtres). Pas
+d’EF mesuré domicile mais le patient signale des sudations. Pas de douleurs thoraciques
+Il n’a pas d’antécédents thrombo-emboliques ou coronariens. Il signale une perte
+pondérale de 5 kg en 1 an attribuée à plusieurs épisodes d’hospitalisations prolongées
+pour des épisodes d’insuffisance respiratoire et à une inappétence.
+Dans le dossier on retrouve que le patient est connu pour une insuffisance respiratoire
+chronique sur une broncho-pneumopathie chronique obstructive (BPCO), (tabagisme 65
+UPA sevré depuis plusieurs années). Il présente un syndrome obstructif très sévère
+(VEMS/CVF 52%, VEMS: 0,69 (L), soit 22% de la valeur prédite) et bénéficie d’une
+oxygénothérapie à domicile depuis 4 ans. Il est également connu pour une HTA non traitée.
+Il ne prend pas de médicaments hormis ses bronchodilatateurs et de la codéine pour des
+lombalgies chroniques.
+
+AMC « Urgences et Médecine Intensive »
+89
+
+Problème n°4/5
+Eléments supplémentaires du status
+Le patient est subfébrile (38o C). Le patient est agité et peu collaborant, sans autres
+troubles neurologiques. Il ne présente pas de signes d’IC hormis de discrets œdèmes des
+membres inférieurs prenant le godet. L’auscultation cardiaque est lointaine, sans bruit
+surajouté et il n’y a pas de signes de TVP, on note une turgescence jugulaire. Le patient
+mesure 179 cm pour un poids de 61 kg.
+
+Etape 2/5
+Au vu des éléments anamnestiques et de l’examen physique, quelle va être votre prise en
+charge initiale aux urgences ?
+Questions :
+1) Quel est votre diagnostic et votre stratégie d’investigations ?
+2) Quel traitement allez-vous débuter immédiatement ?
+
+Question 1
+1. Quel est votre diagnostic et votre stratégie d’investigations ?
+
+Dans les situations d’insuffisances respiratoires, il est important de différencier les atteintes
+de l’échangeur gazeux, responsable d’une hypoxémie et en général liées à une égalité
+ventilation perfusion de type effet shunt, d’une insuffisance de la pompe ventilatoire. Dans
+le premier cas, le traitement visera à rétablir des rapports ventilation perfusion adéquat
+(recrutement alvéolaire, …) alors que dans le deuxième cas il s’agit de rétablir la ventilation
+alvéolaire.
+
+AMC « Urgences et Médecine Intensive »
+90
+
+Problème n°4/5
+
+Dans le cas de ce patient, les deux composantes participent, mais la composante
+d’insuffisance de la pompe ventilatoire semble prédominante.
+Les diagnostics différentiels de cette décompensation respiratoire doivent être discutés en
+évoquant :
+•
+
+Exacerbation de BPCO
+
+•
+
+Bronchopneumonie (germe banal, atypique)
+
+•
+
+La décompensation cardiaque gauche par dysfonction systolique ou diastolique :
+OAP cardiogène
+
+•
+
+EP
+
+•
+
+La dépression respiratoire d’origine centrale (traitement antitussif)
+
+•
+
+Le pneumothorax
+
+AMC « Urgences et Médecine Intensive »
+91
+
+Problème n°4/5
+
+La stratégie d’investigations :
+Les étudiants doivent demander une radiographie thoracique, un ECG, une formule
+sanguine, chimie sanguine (électrolytes, glucose, urée, créatinine, tests hépatiques,
+troponines, proBNB) et une gazométrie artérielle. Discuter l’intérêt à rechercher
+éventuellement une EP. Discuter du proBNB dans cette situation.
+
+Qu e s tio n 2
+Quel traitement allez-vous débuter immédiatement ?
+Le patient présente un tableau faisant évoquer une exacerbation de sa BPCO,
+possiblement secondaire à un processus infectieux (EF, expectos).
+L'hypoxémie peut entrainer une hypoxie tissulaire, de sorte que sa correction est un
+objectif prioritaire. Ceci peut être réalisé par une oxygénothérapie contrôlée par masque
+avec un système permettant de calibrer la FiO2 administrée (masque système Venturi
+(FiO2 : 24, 28, 31, 35, 40, 60)) Il est important de se rendre compte que le débit d’oxygène
+apporté par des lunettes ou un masque dépend du débit inspiratoire du patient. Plus le
+débit inspiratoire est élevé, plus le mélange entre oxygène air est important, limitant ainsi
+l’apport en O2. Les canules nasales à haut débit (High flow Nasal Cannula HFNC (Optiflow
+)) permettent, pour autant que la respiration par la bouche soit limitée, d’apporter un
+débit inspiratoire élevé (10-60 L/min) permettant ainsi un apport en O2 élevé (21-90% env.).
+Les autres avantages de cette technique sont la génération d’une PEEP (1.5-5 cmH2O),
+un ‘lavage ’de l’espace mort nasopharyngé, une humidification et un réchauffement
+adéquat, ces différentes propriétés résultant en une diminution du travail respiratoire. Cette
+technique est principalement utilisée lors d’insuffisances respiratoires hypoxémiques
+(trouble de l’échangeur gazeux > défaut de ventilation (indication à un support
+ventilatoire)). L'objectif de l’oxygénothérapie est d'obtenir une PaO2 supérieure à 8 kPa ou
+une SaO2 supérieure à 88-90 %. Il est recommandé de monitorer la PaCO2 et le pH lors
+de la titration initiale du débit d’oxygène. En effet, les centres respiratoires développent
+une tolérance à l’hypercapnie chez les patients insuffisants respiratoires chroniques.
+Administrer de l’O2 en excès va faire disparaître ce stimulus hypoxémique, conduisant
+potentiellement à une aggravation de l’hypercapnie, voire à la carbonarcose.
+
+AMC « Urgences et Médecine Intensive »
+92
+
+Problème n°4/5
+
+L'association d'un bêta-2-agoniste de courte durée et éventuellement associé à un
+anticholinergique (salbutamol-ipratropium : Dospir®) est la base du traitement aigu du
+bronchospasme. Les patients peuvent être traités par nébulisation ou par un aérosol
+doseur avec chambre d’inhalation. En cas de poussée aiguë sur BPCO ces traitements
+doivent être administrés à des intervalles rapprochés. L’oxygénothérapie et le traitement
+bronchodilatateur doivent être introduits immédiatement et sans attendre le bilan
+étiologique de cette décompensation.
+
+Etape 3/5
+Le malade est immédiatement équipé d’un masque pour une oxygénothérapie contrôlée
+(FIO2 0.3), et d’un saturomètre digital, qui donne une valeur de SpO2 transcutanée à 0.87
+et un traitement bronchodilatateur est instauré.
+
+Vous avez prescrit une radiographie du thorax et obtenu une gazométrie sous oxygène
+dont les résultats sont ci-dessous :
+
+AMC « Urgences et Médecine Intensive »
+93
+
+Problème n°4/5
+Une gazométrie artérielle pratiquée après quelques minutes d’oxygénothérapie (FiO2 0.3)
+donne les valeurs suivantes :
+•
+
+pH: 7.20
+
+•
+
+PaCO2: 9 kPa
+
+•
+
+PaO2: 7.3 kPa
+
+•
+
+Bicarbonate: 37 mmol/L
+
+•
+
+Base excess: 7 mmol/L
+
+•
+
+Saturation O2: 87%
+
+Questions :
+1. Quelle est votre interprétation de la radiographie et de la gazométrie ?
+2. Quel traitement faut-il envisager au vu de la gazométrie ?
+
+Information donnée par le Tuteur
+Question 1 :
+Quelle est votre interprétation de la radiographie et de la gazométrie ?
+a) Rx-thorax :
+La radiographie montre une cardiomégalie modérée, un flou péri-hilaire, une redistribution
+vasculaire, un aplatissement des coupoles diaphragmatiques, une augmentation de la
+taille des espaces intercostaux et horizontalisation des côtes, témoin de l’air trapping et de
+la pathologie sous-jacente.
+b) Gazométrie :
+La gazométrie montre une hypoxémie sévère, une acidémie par acidose respiratoire avec
+une compensation insuffisante (augmentation des bicarbonates chez un patient insuffisant
+respiratoire chronique, mais acidose respiratoire aigüe).
+
+AMC « Urgences et Médecine Intensive »
+94
+
+Problème n°4/5
+Les signes neurologiques témoignent de l'hypoxémie et/ou de l'hypercapnie et sont
+corrélés à leur rapidité d'installation. Les troubles de conscience sont surtout un indicateur
+de l'élévation de la PaCO2. Les troubles du comportement sont plus en rapport avec une
+hypoxémie cérébrale. On constate une amélioration de l’hypoxémie par rapport à la
+gazométrie initiale et une discrète augmentation de l’hypercapnie.
+
+Question 2 :
+Quels traitements supplémentaires faut-il envisager ?
+Le patient présente une probable exacerbation de sa BPCO avec une insuffisance
+respiratoire mixte hypoxémique et hypercapnique. L’atteinte de l’échangeur gazeux
+(hypoxémie) est en relation avec une inégalité ventilation/perfusion de type effet shunt,
+associé à la pathologie chronique. Une composante de diminution de l’oxygène alvéolaire
+lié à l’hypercapnie est également possible. En ce qui concerne l’hypercapnie, celle-ci est
+en lien avec une diminution de la ventilation alvéolaire. En premier lieu on considérera que
+la ventilation minute (FR X Vt) est insuffisante à maintenir une ventilation alvéolaire
+adéquate par rapport à la production de CO2 (Vco2), responsable de l’hypercapnie. De
+plus, une partie de la ventilation est ‘perdue ’dans l’espace mort (zones avec rapport
+ventilation/perfusion augmenté). Compte tenu de la fréquence respiratoire du patient (2530/min), il s’agit principalement d’une diminution du Vt en général lié à un déséquilibre
+entre force musculaire et compliance thoraco-pulmonaire (compliance diminuée par la
+pathologie sous-jacente, la présence d’un air trapping, d’une complication pulmonaire
+(œdème pulmonaire, inflammation, …) et éventuellement par une obésité : la force
+musculaire peut également être diminuée dans le contexte d’une fatigue musculaire ou
+d’un déconditionnement). Finalement, une composante médicamenteuse (patient sous
+traitement de codéine) pourrait également, par une diminution de la commande centrale,
+participer à ce défaut de ventilation. Dans ce contexte, on remplacera la force musculaire
+par une assistance respiratoire à pression positive (aide inspiratoire) en instaurant une
+ventilation non invasive (VNI).
+
+AMC « Urgences et Médecine Intensive »
+95
+
+Problème n°4/5
+
+Le principal objectif de la ventilation en pression positive est de soulager le travail des
+muscles respiratoires. Les techniques de ventilation assistée non invasive constituent la
+base du support ventilatoire d’un trouble de la ventilation (en absence de contreindications). En cas de contres indications ou de support ventilatoire important, l’interface
+avec les voies aériennes devras être adapté et une intubation oro-trachéale pourrait être
+indiquée.
+Les contre-indications à la VNI sont l’instabilité hémodynamique, une non-protection des
+voies aériennes (coma, troubles de la déglutition, …), l’absence d’une équipe formée à
+cette technique et les problèmes liés à l’interface faciale (malformation, trauma, chirurgie,
+…). En cas d'absence de coopération de troubles de la vigilance importants ou d’échec de
+la VNI, l'intubation trachéale et la ventilation conventionnelle ne doivent pas être différées.
+Le bilan effectué parle en faveur d’une exacerbation de BPCO. Une corticothérapie
+systémique est indiquée dans ces situations, par voie entérale en préférence, à dose
+modérée (p.ex. Prednisone 40-60mg/j) pour une durée de 5-10 j. De même, une
+antibiothérapie est en général introduite et poursuivie en fonction de la gravité de la
+situation, de la présence d’au moins 2 des 3 critères d’Anthonisen (augmentation du
+volume des expectorations, aggravation de la dyspnée, augmentation de la purulence des
+expectorations). Compte tenu de la BPCO et des hospitalisations multiples du patient, une
+colonisation par des bactéries hospitalières (Pseudomonas par ex.) est probable et doit
+être prise en compte dans le choix de l’antibiotique. On cherchera également activement
+la présence d’une infection virale (frottis nasopharyngé) et un traitement empirique de la
+grippe doit être discuté.
+
+AMC « Urgences et Médecine Intensive »
+96
+
+Problème n°4/5
+Etape 4/5
+On met en route une ventilation non-invasive par masque facial (VNI) avec les réglages
+suivants : mode d’assistance inspiratoire : AI 15cmH2O ; FIO2 0.3 ; PEEP 5 cmH2O.
+Le malade tolère bien la VNI et son agitation diminue.
+On pratique une nouvelle gazométrie artérielle, 20 minutes plus tard :
+•
+
+pH: 7.30
+
+•
+
+PaCO2: 7.4 kPa
+
+•
+
+PaO2: 8.5 kPa
+
+•
+
+Bicarbonate: 34 mmol/L
+
+•
+
+Base excess: 5,8 mmol/L
+
+Questions :
+1. Comment expliquer les réglages de ventilation mis en place.
+2. Quelles sont les prochaines mesures diagnostiques, thérapeutiques et de
+surveillance à envisager ?
+3. Quel est le pronostic du malade et quels sont les éléments qui vont conditionner la
+suite de sa prise en charge ?
+
+AMC « Urgences et Médecine Intensive »
+97
+
+Problème n°4/5
+
+Question 1 :
+Comment expliquer les réglages de ventilation mis en place ?
+L’aide inspiratoire représente une force externe (pression positive) qui associée à la force
+musculaire permet d’assurer une force mécanique totale permettant d’assurer un volume
+courant suffisant. L’apport d’une force externe, permet ainsi également de diminuer le
+besoin de force musculaire et met ainsi les muscles respiratoires au repos. Le niveau
+d’aide inspiratoire est titré en fonction de l’effort du patient (baisse de la fréquence
+respiratoire) et de l’effet sur la ventilation alvéolaire dont la PaCO2 est le témoin. Le risque
+d’une aide inspiratoire trop faible est de sous assister le patient, une aide inspiratoire trop
+élevée peut être responsable d’un volume inspiratoire trop élevé qui, en fonction des
+résistances expiratoires et du temps expiratoire, peut favoriser l’air trapping et aggraver la
+situation. La PEEP représente la pression résiduelle dans le poumon en fin d’expiration.
+Cette pression est générée par un volume d’air résiduel dans le poumon (recrutement
+pulmonaire) en fin d’expiration qui en fonction de la compliance thoraco-pulmonaire génère
+une certaine pression. La plupart des patients avec un syndrome obstructif génèrent un
+volume résiduel en fin d’expiration responsable d’une PEEP généré par le patient lui-même
+(Auto-PEEP). Le réglage d’une PEEP sur le ventilateur ne sert donc pas à recruter le
+poumon mais à fixer un niveau de pression dans le ventilateur plus proche de la pression
+pulmonaire en fin d’expiration facilitant le déclenchement du ventilateur (diminue l’effort
+nécessaire au déclenchement de l’aide inspiratoire). S’agissant d’un mode de ventilation
+spontané, la fréquence respiratoire correspond à la fréquence du patient et ne peut être
+réglé sur le ventilateur. En cas de fréquence respiratoire spontanée insuffisante, un mode
+de ventilation dit CONTRÔLE serait nécessaire.
+
+AMC « Urgences et Médecine Intensive »
+98
+
+Problème n°4/5
+
+Question 2 :
+Quelles sont les prochaines mesures diagnostiques, thérapeutiques et de
+surveillance à envisager ?
+La surveillance du patient par une saturométrie en O2 continue et une analyse répétée
+des gaz du sang est nécessaire car administration excessive d’oxygène peut contribuer à
+l’aggravation de l’hypercapnie par son action au niveau des centres respiratoires. Le suivi
+clinique du patient, de la fréquence respiratoire et de l’effort respiratoire (muscles
+accessoires) ainsi que de la PaCO2 permet de suivre l’effet de la VNI et la récupération
+de la fonction de ventilation du patient. Le suivi de la fréquence cardiaque et de la pression
+artérielle, permet de suivre l’impact hémodynamique de l’air trapping, particulièrement
+durant la VNI.
+En dehors des causes d’insuffisance respiratoires rapidement réversibles (OAP
+essentiellement), les patients nécessitant une assistance respiratoire pour une
+insuffisance respiratoire aiguë doivent être admis dans une unité de soins intensifs afin
+d’initier la VNI et de s’assurer de réglages adaptés.
+Question 3 :
+Quel est le pronostic du malade et quels sont les éléments qui vont conditionner la
+suite de sa prise en charge ?
+La question du pronostic de l’insuffisance respiratoire chronique doit être abordée (sévérité
+selon GOLD, BODE index). Selon l’index BODE, (et avec une capacité de marche de 100
+m/6 min) la mortalité à 3 ans de ce patient est estimée à 70%. Le contexte clinique du
+patient et ses volontés doivent également être pris en compte. Il se pose la question du
+degré d’investissement thérapeutique chez ce malade insuffisant respiratoire chronique,
+en fin d’évolution de son affection respiratoire, souvent hospitalisé pour des épisodes de
+décompensations respiratoires aiguës. Les étudiants doivent discuter de la qualité de la
+vie de ce malade dont l’autonomie est limitée et d’apprécier l’adéquation de la mise en
+place de thérapies ‘invasives ’telles que la VNI, l’intubation du patient ou la mise en place
+de manœuvres de réanimation.
+
+AMC « Urgences et Médecine Intensive »
+99
+
+Problème n°4/5
+
+Etape 5/5
+Lors d’une quinte de toux, alors que la VNI est toujours en place, le malade devient
+brusquement très tachypnéique, FR 40/min, cyanosé, et il se plaint d’une violente douleur
+latéro-thoracique droite. La SpO2 s’effondre à 0.69, alors que la pression artérielle chute
+brutalement à 65/35 mmHg. Le malade suffoque. L’auscultation pulmonaire révèle une
+diminution des bruits audibles sur la plage pulmonaire droite.
+
+Questions :
+1. Quel est votre diagnostic ?
+2. Que faites-vous ?
+
+Question 1 :
+Quel est votre diagnostic ?
+Le nouvel épisode de décompensation respiratoire aiguë catastrophique doit mener les
+étudiants à proposer un diagnostic différentiel, qui devrait les conduire au diagnostic de
+pneumothorax droit.
+
+Question 2 :
+Que faites-vous ?
+Les mesures thérapeutiques d’urgence doivent être discutées : exsufflation à l’aiguille
+/drainage thoracique.
+
+AMC « Urgences et Médecine Intensive »
+100
+
+Problème n°4/5
+
+Ouvrage de référence
+•
+
+Tintinalli JE et al. Tintinalli's emergency medicine: a comprehensive study guide.
+9th ed. New York : McGraw-Hill, 2020
+Ebook : https://accessmedicine.mhmedical.com/book.aspx?bookid=2353
+
+Pour en savoir plus :
+•
+
+www.goldcopd.org
+
+•
+
+Caubel A. Insuffisance respiratoire aigüe: diagnostic et traitement aux urgences.
+Réanimation 2006 ; 15 : 523-532
+
+•
+
+Vijayasaratha K, Stockley RA. Causes and management of exacerbations of
+
+•
+
+COPD. Breathe, March 2007; 3 (3):251-263.
+
+•
+
+Gruber P, Swadron S. The Acute Presentation Of Chronic Obstructive Pulmonary
+Disease In The Emergency Department: A Challenging Oxymoron. Emergency
+Medicine Practice 2008 ; 10(11) :1-28
+
+•
+
+Rutschmann OT, Cornuz J, Poletti PA, Bridevaux PO, Hugli OW, Qanadli SD, Perrier
+A. Should pulmonary embolism be suspected in exacerbation of chronic obstructive
+pulmonary disease? Thorax. 2007 Feb;62(2):121-5. Epub 2006 Nov 13.
+
+•
+
+Gariani K, Perrier A, Marti C. Performance of natriuretic peptide as a marker in
+patients with chronic obstructive pulmonary disease. Rev Med Suisse. 2012 Oct
+17;8(358):1961-2, 1964-5
+
+•
+
+Management of exacerbations of chronic obstructive pulmonary disease. James K
+Stoller . Up to Date last updated: Aug 05, 2019.
+
+•
+
+Chest Tube insertion NEJM Video.
+https://www.nejm.org/doi/full/10.1056/NEJMvcm071974Exacerbations of COPD.
+Viniol C. Eur Re spir Rev. 2018 Mar 14;27(147)
+
+AMC « Urgences et Médecine Intensive »
+101
+
+Problème n°5/5
+
+P ROBLEME N°5 : COMA
+CAS CLINIQUE A, Etape 1/3
+Alarme donnée au 144
+Un homme de 50 ans est retrouvé inconscient à domicile par son épouse.
+
+
+
+Envoi sur place d’une ambulance médicalisée dont vous êtes le médecin.
+
+A votre arrivée sur place, le patient est étendu à terre sur le dos dans le salon, il ne répond
+pas à l’appel et gît dans ses vomissures.
+L’examen neurologique montre : un GCS à 6 (E1 ;M4 ;V1) ; des pupilles intermédiaires
+faiblement réactives, on n’observe pas de latéralisation nette, mais une nuque raide. La
+pression artérielle systémique est à : 160/100, le pouls à: 45 /min. La fréquence respiratoire
+est à : 9 /min. La saturation à: 85%
+
+1. Quels sont vos premiers gestes ?
+2. Quels sont les éléments anamnestiques complémentaires qui pourraient vous
+aider ? Quel est votre diagnostic différentiel ?
+3. Quelle est votre stratégie thérapeutique ?
+
+CAS CLINIQUE A, Etape 2/3
+Vous avez procédé au transfert de votre malade. A l’arrivée aux Urgences, vous
+n’observez pas d’amélioration neurologique. Les valeurs hémodynamiques sont stables,
+vous ventiler le patient en contrôlé avec une PEEP à 5 mmHg et la FIO2 est de 0.5 pour
+obtenir une saturation entre 92 et 94%.
+•
+
+Quel(s) examen(s) para-clinique(s) préconisez-vous ?
+
+AMC « Urgences et Médecine Intensive »
+102
+
+Problème n°5/5
+
+CAS CLINIQUE A, Etape 3/3
+Vous avez obtenu un CT-scan cérébral en urgence que voici :
+
+AMC « Urgences et Médecine Intensive »
+103
+
+Problème n°5/5
+
+Comparatif normal
+
+AMC « Urgences et Médecine Intensive »
+104
+
+Problème n°5/5
+
+1. Quel est votre diagnostic radiologique ?
+2. Quelles classifications clinique et radiologique utilisez-vous pour établir la gravité
+de la pathologie cérébrale de votre malade ?
+3. Quelle est votre stratégie thérapeutique ?
+
+CAS CLINIQUE B, ETAPE 1/3
+Mme B, âgée de 52 ans, en bonne santé habituelle, présente à 14h30 un hémisyndrome
+facio bracchio crural gauche. Son fils appelle les secours à 15h. Vous arrivez sur place à
+15h08. A votre arrivée vous confirmez le déficit moteur ainsi qu’une hémianopsie latérale
+homonyme gauche et une héminégligence gauche. Le GCS est à 14/15 (E4, M6, V5), Les
+pupilles sont isochores isoréactives de taille intermédiaire.
+La pression artérielle systémique est à 190/100, le pouls à 60/min, la fréquence respiratoire
+à 12/minutes, la saturation à 92% en air ambient.
+La glycémie est dans la norme.
+
+1. Quel est le diagnostic principal et les diagnostics différentiels auquel vous
+pensez ?
+2. Quels sont les éléments anamnestiques complémentaires qui pourraient vous
+aider
+3. Détailler votre prise en charge initiale
+
+CAS CLINIQUE B, ETAPE 2/3
+Elle est transférée aux urgences des HUG. L’examen neurologique et les signes vitaux
+sont superposables à ceux à domicile.
+1. Pourquoi les ambulanciers ont-ils décidé de transférer la patiente aux HUG
+plutôt qu’à l’hôpital le plus proche ?
+2. Quel est votre plan d’investigations ?
+
+AMC « Urgences et Médecine Intensive »
+105
+
+Problème n°5/5
+
+Un scanner est demandé. Les radiologues sont prêts à effectuer l’examen dans un délai
+de 2 heures.
+•
+
+Quelle est votre attitude ?
+
+Finalement le scanner est effectué en urgence à 15h30.
+
+•
+
+Quelle est votre diagnostique et votre stratégie thérapeutique ?
+
+Vous obtenez une reperméabilisation complète vasculaire suite à votre traitement. Vous
+la transférez en secteur de soins intensifs.
+
+CAS CLINIQUE B, ETAPE 3/3
+A J1 de son hospitalisation, le status neurologique de la patiente se dégrade, celle-ci ne
+répond plus à la stimulation. Vous décidez de réaliser un nouveau scanner cérébral.
+
+AMC « Urgences et Médecine Intensive »
+106
+
+Problème n°5/5
+
+Le patient présente une PA 170/120 mmHg, FC 47/mn, SpO2 98%. Il développe une
+anisocorie droite.
+
+•
+
+Quel est votre diagnostique et la stratégie thérapeutique ?
+
+Sa famille présente lors de l’épisode, rapporte que la patiente ne souhaitait pas se
+retrouver dans un état de dépendance ou de handicap. Quelle autre option peut alors être
+envisagée ?
+
+CAS CLINIQUE C, ETAPE 1/2
+Un jeune homme de 20 ans est amené par son amie au SU, car depuis 48h ses propos
+sont incohérents. Ce matin, elle note l’apparition de troubles de la vigilance caractérisés
+par une somnolence ne cédant qu’à une très forte stimulation verbale. Ces derniers jours,
+il a développé un état fébrile jusqu’à 39.5° avec un syndrome grippal.
+A l’anamnèse complémentaire, vous apprenez que le patient est diabétique insulino-traité,
+mais qu’en principe il n’a pas de problème à régler ces glycémies.
+AMC « Urgences et Médecine Intensive »
+107
+
+Problème n°5/5
+
+1. Quel est votre premier diagnostic différentiel ? Quelles conséquences en
+tirez-vous ?
+2. Quels sont les points principaux de votre examen clinique ?
+
+CAS CLINIQUE C, ETAPE 2/2
+Votre examen clinique montre un patient hautement fébrile à 39.8° qui frissonne, à
+l’examen de ses téguments on observe de petites lésions érythémateuses parfois
+confluentes ne disparaissant pas à la vitropression et touchant tout le corps mais en
+particulier les parties déclives.
+La pression artérielle est à 90/60, le pouls à 120 / min. Le GCS est à 11, pas de
+latéralisation.
+Pas de souffle cardiaque autre qu’un souffle d’allure éjectionnelle. Vous notez une
+respiration à 25 / min, avec une ampliation élevée et des râles sur les deux plages
+pulmonaires.
+
+1. Quelles sont les priorités de votre prise en charge en fonction du (des)
+diagnostic (s) le (s) plus probable (s) que vous retenez ?
+2. Quelles sont les investigations que vous prévoyez ?
+3. Quel est le degré d’urgence de votre prise en charge thérapeutique ?
+
+AMC « Urgences et Médecine Intensive »
+108
+
+Problème n°5/5
+
+CONTENU GENERAL DU PROBLEME
+Problème clinique
+
+Coma
+
+Diagnostics
+HSA
+AVC ischémique
+- AVC malin
+Méningo-encéphalite ; Décompensation
+diabétique ; Epilepsie
+Entités nosologiques
+
+Affections pouvant entraîner un coma :
+- AVC ischémique/hémorragique
+- Hématomes intra-crâniens
+- Désordres métaboliques
+- Méningo-encéphalite infectieuse/non
+infectieuse
+- Maladie tumorale
+
+Aspect privilégié
+
+Diagnostic et prises de décisions en
+urgence
+
+Cadre du problème
+
+Coma, sur le terrain et en salle d’urgence
+
+AMC « Urgences et Médecine Intensive »
+109
+
+Problème n°5/5
+
+OBJECTIFS D’ENSEIGNEMENT
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiants devraient
+connaître :
+Les principes de l’évaluation d’un état comateux en étant
+capables de faire un examen neurologique rapide (GCS,
+signes neurologiques focaux et signes
+d’engagement/herniation) tout en respectant l’ABC.
+
+MEDECINE
+D’URGENCE
+
+Les principes d’une prise en charge thérapeutique d’un
+patient comateux ne protégeant pas ses voies aériennes
+(indication à et principes de base de l’intubation, risques
+hémodynamiques de la procédure)
+La physiopathologie du coma
+
+PHYSIOPATHOLOGIE
+
+Le diagnostic différentiel étiologique du coma
+
+MEDECINE
+D’URGENCE ET
+MEDECINE
+INTENSIVE
+
+Les tests diagnostiques permettant d’identifier les entités MEDECINE
+causant un coma
+D’URGENCE,
+MEDECINE
+INTENSIVE,
+NEUROLOGIE,
+NEUROCHIRURGIE,
+PHARMACOLOGIE
+Les complications potentielles du coma et des entités MEDECINE
+nosologiques
+D’URGENCE,
+Les complications potentielles du coma et des entités MEDECINE
+INTENSIVE,
+nosologiques
+NEUROLOGIE,
+NEUROCHIRURGIE,
+PHARMACOLOGIE
+Les concepts éthiques liés à la prise en charge de patients ETHIQUE
+graves
+
+AMC « Urgences et Médecine Intensive »
+110
+
+Problème n°5/5
+
+GUIDE DU TUTEUR
+
+Rappel théorique
+Le coma se définit comme une altération profonde de l’état de conscience avec
+impossibilité d’obtenir un état d’éveil. L’éveil est une fonction du système réticulé activateur
+ascendant (SRAA) dont les structures sont localisées dans le tronc cérébral, le
+diencéphale et leurs projections corticales. On relève en particulier les noyaux
+cholinergiques pédonculo-pontins et latéro-dorsaux du tegmentum. Ces noyaux se
+projettent en deux voies rostrales : l’une, dorsale, fait synapse avec des noyaux
+thalamiques non-spécifiques qui envoient des projections glutaminergiques vers de larges
+aires corticales et l’autre ventrale atteint principalement l’hypothalamus postérieur où elle
+interagit avec des neurones produisant de l’hypocretin et de l’orexin pour également
+participer à l’influence corticale sur l’état d’éveil. La réversibilité du sommeil est en relation
+avec l’inhibition dynamique de ces structures. Les centres du sommeil sont localisés dans
+la
+
+région
+
+pré-optique
+
+de
+
+l’hypothalamus
+
+et
+
+utilisent
+
+l’amino-butyrate
+
+comme
+
+neurotransmetteur. L’adénosine, quant à elle, agit comme inhibiteur rétro-actif du SRAA.
+
+Les causes générales du coma sont les :
+•
+
+Lésions cérébrales structurelles d’origine traumatique ou non-traumatique
+
+•
+
+Désordres électrolytiques et métaboliques
+
+•
+
+Produits toxiques
+
+•
+
+Infections du SNC et encéphalopathie septique
+
+•
+
+Epilepsie primaire ou secondaire
+
+AMC « Urgences et Médecine Intensive »
+111
+
+Problème n°5/5
+Lors de lésions structurelles, on observe une destruction directe du tissu cérébral ou une
+compression des structures vitales. Pour que le coma s’installe, il faut que les structures
+du SRAA soient atteintes. Lorsque l’atteinte destructive touche le diencéphale ou le cortex,
+l’atteinte doit être, en principe, bilatérale. Une atteinte isolée du tronc cérébral peut générer
+un état comateux. Une lésion supratentorielle isolée produit un coma lorsqu’elle génère un
+effet de masse déplaçant les structures cérébrales d’un compartiment à un autre, soit au
+niveau sous-falcoriel, soit au niveau transtentoriel.
+Les troubles métaboliques génèrent le coma en provoquant une dysfonction souvent
+réversible du SRAA, on n’observe souvent pas de signes focaux, bien que dans certains
+cas surviennent des atteintes des nerfs crâniens ou des voies longues voire des crises
+d’épilepsies. En voici quelques exemples :
+1. Hypernatrémie (peut s’accompagner de convulsions, d’un AVC ischémique)
+2. Hyponatrémie (peut s’accompagner de convulsions, d’une respiration de CheyneStokes)
+3. Hypermagnésémie (peut s’accompagner d’une mydriase bilatérale
+4. Hypomagnésémie
+
+(peut
+
+s’accompagner
+
+de
+
+convulsions,
+
+de
+
+myoclonies,
+
+d’hyperréflexie, d’ataxie, d’athétose et nystagmus vertical)
+5. Hypercalcémie (hyperréflexie et fasciculations bucco-linguales possibles ; apnée
+chez l’enfant ; peut s’accompagner d’un AVC ischémique ; internucléaire ; signes
+pyramidaux ; ataxie ; myélopathie)
+6. Hypocalcémie (état confusionnel le plus souvent ; signes de Chvostek et de
+Trousseau; peut s’accompagner de convulsions ; signes extrapyramidaux)
+7. Hypophosphatémie
+8. Urémie (peut s’accompagner de convulsions)
+9. Insuffisance hépatique (peut s’accompagner de convulsions)
+10. Hypoglycémie (des signes neuropsychiatriques peuvent précéder ; signes focaux
+dans 2.5% des cas)
+
+AMC « Urgences et Médecine Intensive »
+112
+
+Problème n°5/5
+11. Décompensation
+
+diabétique
+
+acido-cétosique
+
+et/ou
+
+hyperosmolaire
+
+(coma
+
+hyperosmolaire : >30% signes focaux, aphasie, syndrome pyramidal ; myoclonies,
+convulsions)
+12. Thyréotoxicose (atteinte bulbaire ou des voies pyramidales possible ; infarctus
+ganglions de la base ; convulsions dans 10% des cas)
+13. Hypothyroïdie (convulsions dans 20% des cas ; ataxie cérébelleuse ; atteinte des
+nerfs crâniens)
+
+Les comas d’origine toxique, peuvent s’accompagner d’une altération pupillaire :
+•
+
+Mydriase :
+
+sympaticomimétiques,
+
+anticholinergiques,
+
+antihistaminiques,
+
+antidépresseurs tricycliques, barbiturates (hautes doses)
+•
+
+Myosis : opiacés, sédatifs, éthanol (parfois anisocorie), organophosphorés,
+insecticides carbamates, 2 agonistes
+
+Les pathologies infectieuses du système nerveux central peuvent générer un coma
+nerveux central soit par une atteinte méningo-encéphalitique soit par l’effet de masse
+provoqué par une lésion abcédée. Les atteintes méningo-encéphalitiques engendrent le
+coma par des phénomènes complexes de toxicité/destruction directes du tissu cérébral
+avec effet de masse secondaire (encéphalite herpétique) et par l’activation des cascades
+inflammatoires (méningite bactérienne) qui sont capables d’engendrer un œdème
+cérébral, une vasculite ou une hydrocéphalie.
+
+A l’issue de ce problème, l’étudiant doit être capable de :
+1. Distinguer le coma des autres troubles de la conscience (sommeil, syncope,
+confusion) en s’appuyant sur des données physiopathologiques.
+2. Evoquer les différentes étiologies des troubles de la conscience.
+3. Evaluer la profondeur d’un coma et connaître les caractéristiques sémiologiques
+des principales étiologies de coma.
+
+AMC « Urgences et Médecine Intensive »
+113
+
+Problème n°5/5
+
+4. Connaître les mesures thérapeutiques d’urgence (positionnement, contrôle
+respiratoire y compris l’indication à l’intubation, contrôle circulatoire…).
+5. Connaître les différents examens complémentaires pouvant être utiles dans le
+diagnostic étiologique d’un coma (laboratoire, imagerie, ponction lombaire).
+6. Connaître les différentes stratégies thérapeutiques disponibles en fonction du
+diagnostic primaire et savoir demander l’intervention des spécialistes.
+
+Déroulement détaillé des tutoriaux
+CAS CLINIQUE A, Etape 1/3
+Un homme de 50 ans est retrouvé inconscient à domicile par son épouse.
+
+
+Envoi sur place d’une ambulance médicalisée dont vous êtes le médecin.
+
+A votre arrivée sur place, le patient est étendu à terre sur le dos dans le salon, il ne répond
+pas à l’appel et gît dans ses vomissures.
+L’examen neurologique montre : un GCS à 6 (E1 ; M4 ; V1) ; des pupilles intermédiaires
+faiblement réactives, on n’observe pas de latéralisation nette, mais une nuque raide. La
+pression artérielle systémique est à : 160/100, le pouls à: 45 /min. La fréquence respiratoire
+est à : 9 /min. La saturation à: 85%
+
+1. Quels sont vos premiers gestes ?
+2. Quels sont les éléments anamnestiques complémentaires qui pourraient vous
+aider ? Quel est votre diagnostic différentiel ?
+
+AMC « Urgences et Médecine Intensive »
+114
+
+Problème n°5/5
+
+•
+
+Rappel du positionnement initial des patients comateux ne protégeant pas leurs
+voies aériennes. Souligner l'importance de définir le contexte du coma pour évaluer
+le risque d'atteinte de la colonne vertébrale et de souffrance médullaire secondaire.
+
+•
+
+Discuter la manière de conduire l’examen clinique neurologique : GCS (E+M+V),
+les nerfs crâniens, les signes de latéralisation et d’engagement/herniation.
+
+•
+
+Rappeler les manifestations hémodynamiques et respiratoires de l’hypertension
+intracrânienne.
+
+•
+
+Rappeler le respect de l’ABC dans la prise en charge extrahospitalière en intégrant
+l’absence de protection des voies aériennes, de manière à poser l’indication à une
+intubation sur place :
+➔
+
+Discuter la technique d’intubation en urgence
+
+➔
+
+Discuter la sédation chez les patients neurolésés (interférence
+
+potentielle avec l’examen clinique ultérieur)
+➔
+
+Discuter les risques hémodynamiques de l’intubation/sédation chez un
+
+patient présentant des signes d’hypertension intracrânienne (chute de la
+pression de perfusion cérébrale (PPC)). Intégrer la notion de risque de resaignement dans les AVC hémorragiques, en particulier dans l’HSA (risque
+évalué à 20% pendant les deux premières semaines, mais maximal dans les
+24 premières heures ; pronostic : 50% de décès immédiat et 30% de décès
+différé), lors de poussées hypertensives.
+➔
+
+Discuter l’effet de l’hypoxémie sur le pronostic des patients neurolésés
+
+(agression secondaire). Evoquer les effets de l’hypoxémie et de
+l’hypercapnie sur la pression intracrânienne et les effets de l’hypocapnie sur
+la perfusion cérébrale.
+
+AMC « Urgences et Médecine Intensive »
+115
+
+Problème n°5/5
+
+•
+
+Lors du diagnostic différentiel (cf. rappel théorique ci-dessus), insister sur les
+notions anamnestiques et cliniques mettant sur la piste du diagnostic d’HSA :
+céphalées prémonitoires inhabituelles, céphalée explosive lors d’un effort, perte
+
+•
+
+De connaissance concomitante et raideur de nuque. Discuter les causes de
+l’hypertension intracrânienne dans l’HSA (hématome avec effet de masse,
+hydrocéphalie aiguë...).
+
+CAS CLINIQUE A, Etape 2/3
+Vous avez procédé au transfert de votre malade. A l’arrivée aux Urgences, vous
+n’observez pas d’amélioration neurologique. Les valeurs hémodynamiques sont stables,
+vous ventiler le patient en contrôlé avec une PEEP à 5 mmHg et la FIO2 est de 0.5 pour
+obtenir une saturation entre 92 et 94%.
+
+AMC « Urgences et Médecine Intensive »
+116
+
+Problème n°5/5
+
+•
+
+Quel(s) examen(s) para-clinique(s) préconisez-vous ?
+
+Discuter la place des examens neuroradiologiques dans la prise en charge des malades
+comateux :
+1. CT-SCAN natif + angio CT : examen de premier choix pour l’investigation initiale
+des patients souffrant d’un coma (examen rapide et performant sauf pour
+l’évaluation du tronc cérébral et de la fosse postérieure, disponible 24h/24h en
+principe sans délai. Il permet de mettre en évidence : l’HSA et les autres AVC
+hémorragiques, les anomalies vasculaires à l’origine du saignement (anévrisme,
+malformation artério-veineuse, les thromboses des sinus veineux...). Il permet
+également de mettre en évidence une occlusion de l’artère cérébrale moyenne
+parfois sur le ct-scan natif (signe de l’artère hyperdense) mais systématiquement
+sur l’angio-CT. Le CT permet également de mettre en évidence les lésions
+encéphalitiques liées à l’herpès simplex, mais dans un délai pouvant atteindre
+quelques jours. Les lésions vasculitiques peuvent être identifiées sur l’angio-CT, le
+CT natif met en évidence les ramollissements secondaires à la vasculite, mais dans
+un délai minimal de 24 à 48h.
+2. IRM + angio IRM : avec les nouvelles séquences, l’examen est souvent plus
+performant que le CT, mais il est difficilement accessible (durée de l’examen, délai
+d’obtention, difficultés de monitoring des patients intubés). Excellent dans
+l’évaluation du tronc cérébral et de la fosse postérieure, en particulier dans les AVC.
+Plus sensible que le CT dans l’identification des vasculites, la mise en évidence des
+lésions encéphalitiques ou des lésions de la substance blanche (ADEM).
+3. Angiographie : peut-être un complément d’investigation dans l’HSA, lorsque l’angioCT est négatif ou lorsque l’anatomie de l’anévrisme est mal définie et que clipping
+versus coïling sont discutés par le neurochirurgien et le neuroradiologue.
+L’angiographie permet également d’identifier la présence d’une vasculite.
+
+AMC « Urgences et Médecine Intensive »
+117
+
+Problème n°5/5
+
+Discuter des investigations non-cérébrales en fonction du diagnostic différentiel évoqué :
+➔
+
+Les atteintes du SNC avec hypertension intracrânienne sévère, en particulier
+
+les HSA génèrent des altérations cardiovasculaires et respiratoires.
+➔
+
+Modifications de l’ECG (troubles de la repolarisation, ondes Pardee-formes,
+
+troubles du rythme et de la conduction, FA, TV, FV ...).
+Dix pourcents des ACR aux urgences sont dus à une HSA ; plus fréquents
+dans les HSA de la fosse postérieure. Arrêt respiratoire suivi d'un arrêt cardiaque,
+dus au phénomène de distorsion du tronc cérébral.
+➔
+
+Lésions myocardiques avec troponines et altérations échographiques
+
+(éventuellement choc cardiogène).
+➔
+
+Défaillance respiratoire d'origine multifactorielle sur:
+-
+
+bronchoaspiration
+
+-
+
+défaillance cardiaque gauche
+
+-
+
+OAP lésionnel lié à la décharge neurovégétative (poumon neurogène).
+
+CAS CLINIQUE A, Etape 3/3
+Vous avez obtenu un CT-scan cérébral en urgence que voici :
+
+AMC « Urgences et Médecine Intensive »
+118
+
+Problème n°5/5
+
+AMC « Urgences et Médecine Intensive »
+119
+
+Problème n°5/5
+
+Comparatif normal
+
+1. Quel est votre diagnostic radiologique ?
+2. Quelles classifications clinique et radiologique utilisez-vous pour établir la gravité
+de la pathologie cérébrale de votre malade ?
+3. Quelle est votre stratégie thérapeutique ?
+Discuter le CT qui montre une HSA avec inondation ventriculaire et hydrocéphalie.
+Evoquer la localisation de l’anévrisme sur le CT natif et confirmer sur l’angio-CT 3D
+
+AMC « Urgences et Médecine Intensive »
+120
+
+Problème n°5/5
+
+Expliquer la classification clinique des HSA par le "world federation of neurological
+surgeons (WFNS) grading system":
+
+grade WFNS
+
+GCS
+
+déficit moteur
+
+I
+
+15
+
+Absent
+
+II
+
+14-13
+
+Absent
+
+III
+
+14-13
+
+Présent
+
+IV
+
+12-7
+
+Absent/présent
+
+V
+
+6-3
+
+Absent/présent
+
+Expliquer la classification radiologique des HSA par le Fischer grading system:
+
+Grade Fischer
+
+Description espace sous-arachnoïdien
+
+I
+
+Pas ou très peu de sang
+
+II
+
+Sang diffus mais fin
+
+III
+
+Sang diffuse et épais (> 1cm)
+
+IV
+
+Sang intra-ventriculaire ou intraparenchymateux
+
+AMC « Urgences et Médecine Intensive »
+121
+
+Problème n°5/5
+
+Discuter la stratégie thérapeutique et le degré d’urgence des traitements :
+➔
+
+Appel immédiat du neurochirurgien (+/- neuroradiologue) pour discuter de la
+
+stratégie :
+Drainage de l’hydrocéphalie en urgence zéro
+Oblitération de l’anévrisme en fonction de l’anatomie par coiling ou clipping, évoquer
+la nature multidisciplinaire de la décision.
+Le drainage oblitération se font en principe dans le même temps. Parfois lors
+d’anévrismes chirurgicaux complexes, la chirurgie peut être différée, en particulier
+la nuit, jusqu’au matin pour des raisons logistiques. D’après la littérature, le risque
+de re-saignement à l’occasion du drainage ventriculaire n’est pas augmenté lorsque
+l’oblitération est différée.
+➔
+
+Poursuite de la réanimation du patient en attendant le traitement vasculaire
+
+définitif
+Réanimation cardio-pulmonaire : monitoring invasif de la pression artérielle ;
+monitoring invasif du débit cardiaque (si arguments pour défaillance cardiaque).
+
+AMC « Urgences et Médecine Intensive »
+122
+
+Problème n°5/5
+
+Discuter des options thérapeutiques en fonction des paramètres hémodynamiques :
+vasodilatateur de premier choix en cas de PAM > 100-110 avant oblitération de
+l’anévrisme (cave PPC) : labetalol, sauf si défaillance cardiaque gauche et/ou bradycardie.
+Deuxième choix : nicardipine.
+en cas de choc cardiogène, le traiter comme d’habitude, en gardant des pressions
+de remplissage correctes.
+si défaillance respiratoire sur broncho-aspiration (avec +/- ARDS), ventilation
+protective, mais évoquer l’effet potentiellement délétère de la PEEP et de l'élévation de la
+PCO2 sur l’hypertension intracrânienne.
+1. Réanimation neurologique
+•➔
+
+Monitoring de la PIC par le DVE
+
+•➔
+
+Obtenir un drainage de 10 ml/h par le DVE
+
+•➔
+
+Empêcher l’hyperthermie
+
+•➔
+
+Stratégie de sédation : demi-vie courte (propofol-fentanyl) pour
+
+permettre une évaluation neurologique rapide après les interventions
+thérapeutiques. En cas de défaillance hémodynamique rendant le
+propofol difficile à utiliser, le remplacer par le midazolam.
+
+AMC « Urgences et Médecine Intensive »
+123
+
+Problème n°5/5
+CAS CLINIQUE B, ETAPE 1/3
+Mme B, âgée de 52 ans, en bonne santé habituelle, présente à 14h30 un hémisyndrome
+facio bracchio crural gauche. Son fils appelle les secours à 15h. Vous arrivez sur place à
+15h08. A votre arrivée vous confirmez le déficit moteur ainsi qu’une hémianopsie latérale
+homonyme gauche et une héminégligence gauche. Le GCS est à 14/15 (E4, M6, V5), Les
+pupilles sont isochores isoréactives de taille intermédiaire.
+La pression artérielle systémique est à 190/100, le pouls à 60/min, la fréquence respiratoire
+à 12/minutes, la saturation à 92% en air ambient.
+La glycémie est dans la norme.
+
+•
+
+Quel est le diagnostic principal et les diagnostics différentiels auquel vous pensez ?
+o L’étudiant doit évoquer l’AVC ischémique en premier lieu
+o DD :
+
+AVC
+
+hémorragique
+
+(HED,
+
+HSD,
+
+HSA,
+
+hémorragie
+
+intraparenchymateuse), trouble métabolique (hypoglycémie en particulier),
+crise d’épilepsie avec phénomène de Todd, aura migraineuse, thrombose
+cérébrale, tumeur cérébrale, infectieux: méningoencéphalite +/- abcès
+cérébral, toxiques, origine non neurologique (p.e : lipothymie d’origine
+cardiovasculaire, syndrome du vol sous-clavier).
+
+o Insister sur l’importance de l’anamnèse dans l’aide au DD
+
+•
+
+Quels sont les éléments anamnestiques complémentaires qui pourraient vous aider
+
+o ATCD : âge, FRCV, Fibrillation auriculaire, AIT, migraine
+o Médicaments : antiplaquettaires ou anticoagulants, antidiabétiques
+o Anamnèse générale des jours précédents (par ex. EF)
+o Arguments en faveur d’un AVC hémorragique : céphalées brutales initiales,
+détérioration rapide de la vigilance, déficit n’ayant pas de topographie
+systématisée en termes de territoire artériel
+
+AMC « Urgences et Médecine Intensive »
+124
+
+Problème n°5/5
+
+o Rappeler qu’un AVC ischémique sylvien aigu ne provoque pas de coma,
+puisqu’il touche qu’un seul hémisphère (un AVC thromboembolique bithalamique peut, lui, rendre comateux). Un coma dans le contexte d’un AVC
+ischémique aigu avec hémiplégie doit faire évoquer un AVC du tronc. On
+recherche alors une atteinte des nerfs crâniens (en particulier de
+l’oculomotricité).
+o Un AVC hémorragique dans le territoire sylvien ou dans tout autre territoire
+hémisphérique (et ailleurs) peut provoquer un coma sur compression des
+structures du SRAA. Les hématomes extra-cérébraux provoquent non
+seulement un coma mais aussi un hémisyndrome par compression des
+structures cérébrales.
+
+•
+
+Détailler votre prise en charge initiale
+o Rappeler le respect de l’ABC dans la prise en charge extrahospitalière en
+intégrant l’absence de protection des voies aériennes, de manière à poser
+l’indication à une intubation sur place si nécessaire (pas dans ce cas). Cf.
+Cas clinique A, étape 1/3.
+o Actions ambulancières spécifiques lors d’un AVC :
+o 1 VVP, O2 à titrer pour SpO2 92-96%, une TAH > 220/120 mmHg n’est traité
+que après évaluation médicale, glycémie ( !)
+o Positionnement : PLS sur site puis 0° pendant le transport (ou PLS si
+vomissements, cave protection VA)
+o Discuter la manière de conduire l’examen clinique neurologique : GCS
+(E+M+V), les nerfs crâniens, les signes de latéralisation.
+o Déclenchement Alarme « AVC aigu »  activation de la filière AVC
+
+AMC « Urgences et Médecine Intensive »
+125
+
+Problème n°5/5
+
+GFAST :
+
+CAS CLINIQUE B, ETAPE 2/3
+Elle est transférée aux urgences des HUG. L’examen neurologique et les signes vitaux
+sont superposables à ceux à domicile.
+
+Pourquoi les ambulanciers ont-ils décidé de transférer la patiente aux HUG plutôt qu’à
+l’hôpital le plus proche ?
+
+Nécessité d’un plateau technique adéquat avec présence constante de neurologues,
+neuroradiologues interventionnels (geste endovasculaire), radiologues, urgentistes et
+intensivistes. Cette prise en charge multidisciplinaire permet d’améliorer le pronostic des
+patients atteints d’AVC.
+
+Déclenchement de l’alarme « AVC aigu » en préhospitalier : en cas de suspicion d’AVC
+aigu (<24h avec critères) l’ambulancier/médecin smuriste peut déclencher une alarme
+« AVC aigu ». Cette alarme sert à aviser les intervenants intra-hospitaliers adéquats de
+l’arrivée d’un patient pouvant bénéficier d’une prise en charge immédiate d’un AVC par un
+traitement de lyse intraveineuse et/ou endovasculaire.
+
+AMC « Urgences et Médecine Intensive »
+126
+
+Problème n°5/5
+
+« Time is brain ! ».
+
+AMC « Urgences et Médecine Intensive »
+127
+
+Problème n°5/5
+
+Quel est votre plan d’investigations ?
+
+•
+
+Examen clinique neurologique : score NIHSS.
+
+•
+
+Basé sur 15 items, est un score de gravité et pronostic qui permet de suivre
+l’évolution des patients.
+
+•
+
+Bilan sanguin de base (y.c. coagulation recherche contre-indications à la lyse iv)
+
+•
+
+Examen radiologique (cf. cas clinique A, étape 2/3) :
+o CT-scan natif + angio CT cérébral : examen de premier choix pour
+l’investigation initiale des patients souffrant d’un AVC. Examen rapide et
+performant sauf pour l’évaluation du tronc cérébral et de la fosse postérieure,
+disponible 24h/24h en principe sans délai.
+o Lors d’un AVC ischémique Il permet de mettre en évidence une occlusion de
+l’artère cérébrale moyenne parfois sur le ct-scan natif (signe de l’artère
+hyperdense) mais systématiquement sur l’angio-CT.
+o IRM + angio-IRM cérébral : avec les nouvelles séquences, l’examen est
+souvent plus performant que le CT, mais il est difficilement accessible (durée
+de l’examen, délai d’obtention, difficultés de monitoring des patients intubés).
+Excellent dans l’évaluation du tronc cérébral et de la fosse postérieure, en
+particulier dans les AVC
+
+AMC « Urgences et Médecine Intensive »
+128
+
+Problème n°5/5
+
+Un scanner est demandé. Les radiologues sont prêts à effectuer l’examen dans un délai
+de 2heures.
+Quelle est votre attitude ?
+
+•
+
+Discuter la nécessité de raccourcir le délai du CT-scan quel que soit le diagnostic
+évoqué :
+
+•
+
+AVC ischémique: « time is brain ». Importance du délai écoulé depuis le début des
+symptômes
+
+pour
+
+décider
+
+d’effecteur
+
+une
+
+thrombolyse
+
+et/ou
+
+un
+
+geste
+
+endovasculaire.
+
+•
+
+AVC hémorragique = prise en charge neurochirurgicale au bloc en urgence 0 si
+indication chirurgicale posée au CT et en fonction de l’examen clinique. En cas
+d’hématome épidural ou HSD : souvent urgence 0. En cas d’hématome profond, en
+principe pas d’indication chirurgicale car pronostic pas changé voir même aggravé
+par l’intervention. Si l’hématome est superficiel, la chirurgie est possible en fonction
+de l’âge et des comorbidités. Expliquer que la surveillance neurologique doit être
+rapprochée, en raison du risque de détérioration clinique. Rappeler qu’entre le
+moment de la pose de l’indication chirurgicale (en urgence 0) et celui de l’ouverture
+de la boîte crânienne, il s’écoule entre 30 et 45 min (parfois plus).
+
+Finalement le scanner est effectué en urgence à 15h30.
+
+AMC « Urgences et Médecine Intensive »
+129
+
+Problème n°5/5
+
+Quelle est votre diagnostic et votre stratégie thérapeutique ?
+
+•
+
+Diagnostic : AVC ischémique sylvien droit
+
+AMC « Urgences et Médecine Intensive »
+130
+
+Problème n°5/5
+
+Stratégie thérapeutique :
+
+•
+
+Critères de revascularisation aiguë post AVC :
+o TIV : thrombolyse intra-veineuse (rt-PA = Ateleplase)
+o TEV : traitement endovasculaire précoce = thrombectomie
+
+AMC « Urgences et Médecine Intensive »
+131
+
+Problème n°5/5
+
+AMC « Urgences et Médecine Intensive »
+132
+
+Problème n°5/5
+
+•
+
+L’étudiant devrait connaître qu’ils existent des contre-indications absolues à la
+thrombolyse i.v. : hémorragie intracrânienne aiguë ou subaiguë à l’imagerie,
+symptômes ou signes d’une HSA récente, ATCD HSA avec source de saignement
+inconnue ou incomplètement traitée, anévrysme cérébral symptomatique ou géant,
+MAV, Chirurgie récente, TCC < 6 semaines, INR > 1.7 (spontané ou avec ACO) ,
+anticoagulation thérapeutique avec ACO (seuils précis),
+
+anévrysme aorte
+
+abdominale symptomatique, …ou régression rapide des symptômes sans occlusion
+vasculaire proximale.
+
+Vous obtenez une reperméabilisation complète vasculaire suite à votre traitement. Vous
+la transférez en secteur de soins intensifs.
+
+CAS CLINIQUE B, ETAPE 3/3
+
+A J1 de son hospitalisation, le status neurologique de la patiente se dégrade, celle-ci ne
+répond plus à la stimulation. Vous décidez de réaliser un nouveau scanner cérébral.
+Le patient présente une PA 170/120 mmHg, FC 47/mn, SpO2 98%. Il développe une
+anisocorie droite.
+
+AMC « Urgences et Médecine Intensive »
+133
+
+Problème n°5/5
+
+Quel est votre diagnostic et la stratégie thérapeutique ?
+•
+
+L’étudiant doit être capable de décrire la dégradation au TDM avec un œdème
+hémisphérique droit complet avec effacement des sillons et effet de masse faisant
+craindre l’évolution vers un accident vasculaire cérébral malin. La prise en charge
+en urgence repose alors sur :
+
+•
+
+Sécurisation des voies aériennes. Rappeler les défis hémodynamiques de
+l’intubation (contrôle hémodynamique avec remplissage et catécholamines).
+
+•
+
+Utilisation de solutés osmotiques (sérum salé hypertonique, Mannitol) afin de limiter
+l’extension de l’œdème cérébral
+
+•
+
+Indication chirurgicale en urgences absolue pour craniectomie décompressive. La
+craniectomie décompressive dans l’AVC malin est la seule indication unanimement
+reconnue pour des patients de <65 ans.
+o Références :
+
+
+Decimal, Stroke 2007
+
+
+
+Hamlet, Lancet Neurol 2009
+
+
+
+Destiny, Stroke 2007
+
+AMC « Urgences et Médecine Intensive »
+134
+
+Problème n°5/5
+
+•
+
+Sa famille présente lors de l’épisode, rapporte que la patiente ne souhaitait pas se
+retrouver dans un état de dépendance ou de handicap. Quelle autre option peut
+alors être envisagée ?
+
+La discussion de la craniectomie décompressive doit être envisagée en réunion
+multidisciplinaire, tenant compte des désirs de la patiente. L’alternative dans cette situation
+est une décision de non-ascension thérapeutique avec une évolution vers un état de mort
+encéphalique par effet de masse. Ceci conduira à l’engagement cérébral et à un état de
+mort encéphalique signant le décès de la patiente.
+
+Le diagnostic de mort encéphalique est un diagnostic clinique en suisse reposant sur les
+signes suivants qui doivent être validées par 2 médecins avec titre de FMH :
+
+Une fois que le diagnostic de mort cérébrale est validé, le patient peut être éligible au don
+d’organes
+
+AMC « Urgences et Médecine Intensive »
+135
+
+Problème n°5/5
+
+Référence :
+•
+
+Prise en charge des accidents vasculaires cérébraux à la phase aigue A.Jacquens,
+C. Guidoux, B. Mathon, F. Clarencon , V. Degos
+
+•
+
+Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019
+Update to the 2018 Guidelines for the Early Management of Acute Ischemic Stroke:
+A
+
+Guideline
+
+for
+
+Healthcare
+
+Professionals
+
+Association/American Stroke Association.
+
+From
+
+the
+
+American
+
+Heart
+
+Powers WJ, Rabinstein AA, Ackerson
+
+T, Adeoye OM, Bambakidis NC, Becker K, Biller J, Brown M, Demaerschalk BM,
+Hoh B, Jauch EC, Kidwell CS, Leslie-Mazwi TM, Ovbiagele B, Scott PA, Sheth KN,
+Southerland AM, Summers DV, Tirschwell DL, Stroke 2019
+
+CAS CLINIQUE C, Etape 1/2
+Un jeune homme de 20 ans est amené par son amie au SU, car depuis 48h ses propos
+sont incohérents. Ce matin, elle note l’apparition de troubles de la vigilance caractérisés
+par une somnolence ne cédant qu’à une très forte stimulation verbale. Ces derniers jours,
+il a développé un état fébrile jusqu’à 39.5° avec un syndrome grippal.
+A l’anamnèse complémentaire, vous apprenez que le patient est diabétique insulino-traité,
+mais qu’en principe il n’a pas de problème à régler ses glycémies.
+
+1. Quel est votre premier diagnostic différentiel ? Quelles conséquences en
+tirez-vous?
+2. Quels sont les points principaux de votre examen clinique ?
+
+AMC « Urgences et Médecine Intensive »
+136
+
+Problème n°5/5
+
+L'étudiant doit penser aux conséquences d'une suspicion de méningite bactérienne à
+méningocoque :
+-
+
+Port d'un masque par le personnel prenant en charge le patient
+
+-
+
+Isolement du patient aux urgences
+
+-
+
+Recherche des contacts (famille, entourage, école, etc.) si méningocoque confirmé
+
+L’étudiant doit être capable de rechercher cliniquement :
+-
+
+Les signes d’une méningite
+
+-
+
+Les signes d’un sepsis
+
+-
+
+Les signes cutanés d’une méningococcémie
+
+CAS CLINIQUE C, Etape 2/2
+Votre examen clinique montre un patient hautement fébrile à 39.8° qui frissonne, à
+l’examen de ses téguments on observe de petites lésions érythémateuses parfois
+confluentes ne disparaissant pas à la vitropression et touchant tout le corps mais en
+particulier les parties déclives.
+La pression artérielle est à 90/60, le pouls à 120 / min. Le GCS est à 11, pas de
+latéralisation. Pas de souffle cardiaque autre qu’un souffle d’allure éjectionnelle. Vous
+notez une respiration à 25 / min, avec une ampliation élevée et des râles sur les deux
+plages pulmonaires.
+
+AMC « Urgences et Médecine Intensive »
+137
+
+Problème n°5/5
+
+1. Quelles sont les priorités de votre prise en charge en fonction du (des)
+diagnostic (s) le (s) plus probable (s) que vous retenez ?
+2. Quelles sont les investigations que vous prévoyez ?
+3. Quel est le degré d’urgence de votre prise en charge thérapeutique ?
+
+L’étudiant doit évoquer les différents diagnostics pouvant expliquer l’état de son patient :
+-
+
+Méningite
+
+-
+
+Diabète décompensé (acido-cétosique, hyperosmolaire, hypoglycémie)
+
+Discuter la séquence de prise en charge dans le cadre d’une suspicion de méningite à
+méningocoques :
+
+CT-SCAN
+
+PL
+
+Antibiothérapie
+
+Indication
+séquence ?
+
+Indication
+séquence ?
+
+Indication
+séquence ?
+
+Principes de base :
+Chez un patient sans altération de l'état de conscience ni trouble neurologique focal, il n'y
+a pas d'indication à faire un ct-scan cérébral avant la PL.
+En cas de suspicion de méningite/sepsis à méningocoque, aucun examen ne doit retarder
+l'administration d'AB (en pratique, la mise en place de la voie veineuse permet de prélever
+du sang pour les hémocultures et d'administrer les AB, même avant la PL). La PL peut
+être contre-indiquée en cas d'atteinte de la crase ou d'hypertension intracrânienne.
+Discuter les examens complémentaires permettant le diagnostic de méningo-encéphalite
+virale et en particulier herpétique : PL (+PCR), CT (IRM), EEG
+
+AMC « Urgences et Médecine Intensive »
+138
+
+Problème n°5/5
+
+Ouvrage de référence
+o Tintinalli JE et al. Tintinalli's emergency medicine : a comprehensive study guide. 9th
+ed. New York : McGraw-Hill, 2020
+Ebook : https://accessmedicine.mhmedical.com/book.aspx?bookid=2353
+
+Pour en savoir plus
+•
+
+Wijdicks EFM. Guide to the comatose patient: expert advice for families and caregivers.
+Mayo Clinic Press, 2022
+https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=3147417&site=e
+host-live
+Le livre numérique de la nouvelle édition pourrait permettre d’identifier si le contenu est
+adéquat. Si c’est le cas, la bibliothèque pourra acheter un exemplaire papier, car l’accès
+au numérique est limité à un accès simultané.
+
+•
+
+Diagnosis of reversible causes of coma, Jonathan A Edlow, Alejandro Rabinstein,
+Stephen J Traub, Eelco F M Wijdicks, The Lancet, 22 avril 2014.
+
+AMC « Urgences et Médecine Intensive »
+139
+
+Problème n°5/5
+
+AMC « Urgences et Médecine Intensive »
+140
+
+Séminaires
+
+COURS & SEMINAIRES
+Horaire : Tous les jours, matin et après-midi de la première semaine, selon l’horaire remis
+aux étudiants en début de stage
+Lieu : Salle de cours du SU, 1ER étage
+Lieu : Séminaire de Radiologie : Salles de démonstration, étage P
+Lieu : Atelier BLS (CPR) : Centre de simulation : CMU 5ème étage
+
+AMC « Urgences et Médecine Intensive »
+141
+
+Séminaires
+
+Liste des cours
+N°
+
+Thèmes
+
+Responsables
+
+1
+
+Hémodynamique 1 et 2
+
+Pr K. Bendjelid
+
+2
+
+Sepsis – réactions immunologiques aiguës
+
+Dr F. Boroli
+
+3
+
+Radiologie 1 et 2
+
+Pr P-A. Poletti, A. Platon
+
+4
+
+Urgences Métaboliques
+
+Dr F. Sangla
+
+5
+
+Mort aux Urgences, aux Soins Intensifs, mort violente
+
+Pre S. Hurst ; Pr T. Fracasso ;
+Pre S. Grabherr
+6
+
+Physiopathologie respiratoire
+
+Dr D. Tassaux
+
+7
+
+Principe de base de la ventilation mécanique
+
+Dr D. Tassaux
+
+8
+
+Ethique
+
+Pre S. Hurst ; Pr T. Fracasso ;
+Pre S. Grabherr
+Dre B. Gartner; Dre S. Garcin;
+
+9
+
+Intoxications aiguës
+
+10
+
+Pathophysiologie de la souffrance cérébrale aiguë
+
+Dr. Y. Gasche
+
+11
+
+Intoxication au CO et accident de décompression
+
+Dr R. Pignel ; Pr. S. Boet
+
+12
+
+Catastrophe : Triage organisation
+
+13
+
+ECG/Trouble du rythme
+
+Pr H. Zender
+
+14
+
+Gazométrie et troubles acide base
+
+Dr D. Tassaux
+
+15
+
+Amines et inotropes en médecine aiguë
+
+Dr B. Assouline ; Dre N. Suh
+
+16
+
+Dysthermies
+
+Dr M. Genoud
+
+Dr Y. Magnien
+
+Dre B. Gartner; Dr S. Regard,
+Dre M. Chan
+
+AMC « Urgences et Médecine Intensive »
+142
+
+Séminaires
+
+S EMINAIRE : HEMODYNAMIQUE 1 ET 2
+Objectifs :
+•
+
+Connaître et expliquer les différents types d’état de choc
+
+•
+
+Connaître et expliquer les différents moyens cliniques et paracliniques à
+disposition pour objectiver un état de choc et déterminer son étiologie.
+
+•
+
+Connaître et expliquer le traitement d’un choc :
+o
+
+Hypovolémique
+
+o
+
+Septique
+
+o
+
+Cardiogénique
+
+o Anaphylactique
+
+S EMINAIRE : S EP SIS
+Objectifs :
+•
+
+Connaître les signes et les pathologies fréquentes à l’origine du syndrome de réponse
+inflammatoire systémique (SIRS).
+
+•
+
+Connaître les différences entre sepsis, sepsis sévère et choc septique
+
+•
+
+Connaître la physiopathologie du syndrome septique et la relation entre le système
+immunitaire et les micro-organismes.
+
+•
+
+Savoir reconnaître sur la base des signes cliniques et d’examens de laboratoire d’urgence
+un syndrome septique et instaurer un traitement initial.
+
+•
+
+Connaître la physiopathologie de la défaillance d’organes multiple au cours de
+sepsis et les principales atteintes d’organes.
+
+AMC « Urgences et Médecine Intensive »
+143
+
+Séminaires
+
+S EMINAIRE : R ADIOLOGIE
+
+Semaine 1
+
+Mardi
+
+8h.30-10h.30
+
+Urgences non traumatiques Collaborateurs Service de
+Radiologie.
+
+Semaine 1
+
+Mercredi
+
+15h30-17h30
+
+Urgence Traumatiques
+
+Collaborateurs Service de
+
+(abdominales, thoraciques
+
+Radiologie
+
+et membres)
+
+Enseignants :
+
+Prof. PA. Poletti et A. Platon et collaborateurs
+
+Durée :
+
+4 heures par rotation
+
+Lieu et horaires : Salle de colloques 1 et 3, étage P, aile Jura, Bât. C Prévost
+Mardi de 8h30 à 10h30
+Mercredi de 15h30 à 17h30, selon programme
+
+THEMES
+1.
+
+Urgences traumatiques thoraciques et abdominales 2h
+
+2.
+
+Urgences non traumatiques abdominales
+
+2h
+
+AMC « Urgences et Médecine Intensive »
+144
+
+Séminaires
+
+LES URGENCES TRAUMATIQUES THORACIQUES
+OBJECTIFS D’APPRENTISSAGE
+•
+
+Savoir reconnaître les pathologies d’urgences thoraciques traumatiques, connaître
+
+leur sémiologie radiologique et celle de leurs complications (pneumothorax, pneumothorax
+sous tension, hémothorax, volet costal, hémomédiastin, embolie pulmonaire).
+•
+
+Connaître les signes radiologiques standards du syndrome médiastinal et connaître
+
+leur signification dans un contexte d’urgence (par ex. suspicion de rupture aortique).
+DESCRIPTIF
+Radiographies du thorax standard illustrant les thèmes décrits ci-dessus. Images CT du
+thorax, en plus des images standard, pour comprendre l’imagerie du syndrome
+médiastinal.
+
+LES URGENCES TRAUMATIQUES ABDOMINALES
+OBJECTIFS D’APPRENTISSAGE
+•
+
+Connaître les examens radiologiques à effectuer dans la prise en charge des
+patients polytraumatisés (guidelines ATLS).
+
+•
+
+Connaître notamment la valeur et les limitations de l’échographie en urgence
+traumatique abdominale.
+
+•
+
+Connaître les principes de l’imagerie CT des patients polytraumatisés.
+
+•
+
+Connaître les bases de la sémiologie traumatique du foie, de la rate, des reins, du
+tube digestif (et mésentère) et de la vessie au CT.
+
+DESCRIPTIF
+Images échographiques et CT illustratives des thèmes susmentionnés.
+
+AMC « Urgences et Médecine Intensive »
+145
+
+Séminaires
+LES URGENCES NON TRAUMATIQUES ABDOMINALES
+OBJECTIFS D’APPRENTISSAGE
+•
+
+Comprendre comment est réalisé un cliché appelé « abdomen sans préparation »
+(ASP) et connaître les différences entre un cliché couché et debout (indications et
+sémiologie).
+
+•
+
+Connaître l’aspect radiologique standard des iléus (paralytiques et occlusifs) de
+l’intestin grêle.
+
+•
+
+Connaître l’aspect radiologique standard (ASP) des occlusions coliques et leur
+étiologie (néoplasies, volvulus, syndrome d’Ogilvie).
+
+•
+
+Connaître les examens les plus appropriés à réaliser dans les suspicions de
+cholécystite, appendicite, pancréatite aiguë, volvulus du sigmoïde et ischémie
+mésentérique ainsi que la sémiologie y relative.
+
+•
+
+Connaître les différents produits de contraste utilisés en urgence, leurs indications,
+contre-indications ainsi que leurs effets secondaires.
+
+•
+
+Connaître les bases de la radioprotection en radiologie abdominale.
+
+DESCRIPTIF
+Série de radiographies standard, ultrasons et images CT illustrant les thèmes
+susmentionnés.
+
+AMC « Urgences et Médecine Intensive »
+146
+
+Séminaires
+
+S EMINAIRE : URGENCES METABOLIQUES
+Objectifs :
+•
+
+Comprendre les différents types d’hyponatrémie et leur mécanisme.
+
+•
+
+Connaître les causes d’hyponatrémie les plus fréquemment rencontrées en
+médecine d’urgence.
+
+•
+
+Connaître les signes cliniques de l’hyponatrémie.
+
+•
+
+Comprendre les principes généraux du traitement des hyponatrémies.
+
+•
+
+Connaître les causes d’hyperkaliémie les plus fréquemment rencontrées en
+médecine d’urgence.
+
+•
+
+Comprendre les bases du traitement d’urgence de l’hyperkaliémie.
+
+•
+
+Comprendre les mécanismes principaux de la décompensation diabétique acidocétosique et hyperosmolaire et connaître les principes et pièges de leur traitement.
+
+AMC « Urgences et Médecine Intensive »
+147
+
+Séminaires
+
+S EMINAIRE : MORT AUX URGENCES
+Après avoir participé à ce séminaire, l’étudiant devrait être capable de :
+•
+
+Comprendre le rôle du médecin et ses devoirs légaux face à la mort :
+
+•
+
+Vérification du décès : distinction entre mort naturelle et mort non naturelle
+(accident, suicide, homicide).
+
+•
+
+Connaissance des lésions anatomiques et autres signes externes compatibles avec
+une mort non naturelle (arme blanche, pendaison, strangulation, arme à feu,
+traumatisme, etc.).
+
+•
+
+Diagnostic d’une mort par intoxication (« overdose », absorption de médicaments
+dans un but suicidaire, monoxyde de carbone, etc.) et d’une mort par asphyxie.
+
+•
+
+Distinction entre certificat et constat de décès.
+
+•
+
+Connaissance de la procédure concernant les prélèvements d’organes.
+
+•
+
+Connaissance de la procédure concernant l’autopsie.
+
+•
+
+Attitude à adopter lorsqu’une erreur médicale aurait pu contribuer à la mort.
+
+•
+
+Information et accompagnement de l’entourage de la famille.
+
+•
+
+Principes de l’identification post-mortem.
+
+•
+
+Savoir quels sont les devoirs légaux du médecin face à une personne décédée (y
+compris les procédures de prélèvement d’organes et l’autopsie).
+
+•
+
+Savoir se comporter avec la famille ou les proches d’une personne décédée.
+
+•
+
+Connaître les indications (problèmes pénaux, civils et administratifs) d’une autopsie
+médico-légale.
+
+AMC « Urgences et Médecine Intensive »
+148
+
+Séminaires
+
+S EMINAIRE : P HYS IOP ATHOLOGIE RES P IRATOIRE
+Objectifs :
+•
+
+Distinguer l’insuffisance respiratoire aiguë par défaillance de l’échangeur gazeux et
+défaillance de la pompe ventilatoire et comprendre leurs liens étroits.
+
+•
+
+Comprendre que, selon mécanisme causal, l’hypoxémie est plus ou moins
+facilement corrigible.
+
+•
+
+Connaître les différents moyens à disposition pour corriger l’hypoxémie et
+l’hypoventilation.
+
+•
+
+Connaître les bases de l’oxygénothérapie (masques et « lunettes »).
+
+•
+
+Comprendre les principes de base du CPAP (Continuous Positive Airway
+Pressure »).
+
+S EMINAIRE : P RINCIPE DE BAS E DE VENTILATION MECANIQUE
+Objectifs :
+•
+
+Initiation aux principes de bases de la ventilation a pression positive basé sur les
+concepts physiques et la physiologie.
+
+AMC « Urgences et Médecine Intensive »
+149
+
+Séminaires
+
+S EMINAIRE : E THIQUE
+Objectifs :
+•
+
+Être familier du problème de l’acharnement thérapeutique et de la futilité.
+
+•
+
+Comprendre les exigences éthiques de la relation médecin-patient dans une
+situation dépassée.
+
+•
+
+Comprendre l’équivalence au plan éthique entre interruption et abstention de
+traitement vital.
+
+•
+
+Être capable de reconnaître les indications d’un retrait/abstention thérapeutique et
+de l’organiser de façon éthiquement et psychologiquement supportable pour toutes
+les personnes concernées.
+
+S EMINAIRE : INTOXICATIONS
+Objectifs :
+•
+
+Intoxications volontaires : importance du problème.
+
+•
+
+Principes de base du traitement des intoxications chez l’adulte.
+
+•
+
+Approche pratique du patient intoxiqué.
+
+•
+
+Utilisation rationnelle du laboratoire de toxicologie.
+
+•
+
+Types de toxicité de certaines substances.
+
+•
+
+Types d’action de certains antidotes.
+
+AMC « Urgences et Médecine Intensive »
+150
+
+Séminaires
+
+S EMINAIRE : P ATHOPHYS IOLOGIE DE LA S OUFFRANCE CEREBRALE AIGUË
+Objectifs :
+•
+
+Circulation cérébrale.
+
+•
+
+Connaître et expliquer les déterminants de la perfusion cérébrale et les variables
+influençant cette perfusion.
+
+•
+
+Connaître et expliquer le monitorage de la perfusion cérébrale et les principes
+généraux de traitement lors d’une perfusion cérébrale anormale.
+
+S EMINAIRE : INTOXICATION AU CO ET ACCIDENT DE DECOMP RES S ION
+Objectifs :
+•
+
+Savoir suspecter et diagnostiquer une intoxication au CO.
+
+•
+
+Connaître la prise en charge préhospitalière et hospitalière de l'intoxication au CO.
+
+•
+
+Connaître les indications de l'OHB lors d'une intoxication au CO.
+
+•
+
+Connaître les principes physiopathologiques des accidents de décompression et
+des barotraumatismes.
+
+•
+
+Connaître les principes de traitement des accidents de plongée.
+
+AMC « Urgences et Médecine Intensive »
+151
+
+Séminaires
+
+S EMINAIRE : MEDECINE DE CATASTROP HE
+Objectifs :
+•
+
+Après avoir étudié ce séminaire, les étudiants doivent :
+
+•
+
+Être capable d’expliquer le principe de la « montée en puissance » selon le type et
+la gravité de l’évènement ;
+
+•
+
+Connaître les règles de comportements des sauveteurs qui diffèrent selon qu’il
+s’agisse
+o d’un événement unique avec un seul blessé
+o d’un événement unique, circonscrit, avec plusieurs blessés,
+o d’un événement majeur touchant un grand nombre d’individus.
+
+•
+
+Connaître les principes de triage
+o qui sont différents suivant l’événement,
+o qui doivent permettre des soins appropriés pour chaque individu.
+
+Rappel théorique
+Introduction sur les objectifs énumérés ci-dessus. Mettre en avant les principales
+différences entre la médecine individuelle et la médecine de catastrophe.
+
+Déroulement détaillé du SEMINAIRE
+•
+
+Slides d’introduction (10 min) :
+o Objectifs du séminaire
+o Présenter brièvement les concepts et les différences entre médecine
+individuelle et médecine de catastrophe
+
+AMC « Urgences et Médecine Intensive »
+152
+
+Séminaires
+•
+
+Projection du film « Attacks November 13th, 2015 » (10 min) :
+o Vérifier au préalable auprès des étudiants qu’aucun n’ait été confronté à cet
+évènement ou un évènement similaire et prévenir que les images projetées
+peuvent être difficiles
+o Consigne : « après la projection du film nous ferons un debriefing dans
+l’objectif d’échanger autour des aspects de médecine de catastrophe illustrés
+par cette situation »
+
+•
+
+Debriefing général (15 min):
+
+o Recueil des émotions
+o Encourager la reconnaissance des principes de médecine de catastrophe :
+phase d’alarme, montée en puissance, conduite, sécurité, communication,
+triage, traitement (PMA) transport (et structures d’aval), volatilité, incertitude
+
+•
+
+Travail de groupes (20 min de préparation – 20 min de présentation) :
+o Faire 3-4 sous-groupes d’étudiants et leur demander de préparer chacun l’un
+des points suivant comme illustré par le film sous forme d’affiche à présenter.
+o Les étudiants réfléchissent aux moyens de faire face à la situation sous
+l’angle de la thématique déterminée. Poser la question : « Comment allezvous faire pour… ?»
+
+
+Réagir dans les premières minutes : « alarme, montée en puissance »
+
+
+
+Répondre à l’incertitude et à l’insécurité : « sécurité et incertitude »
+
+
+
+Faire au mieux pour le plus grand nombre de patients : « triage et
+traitement ciblé »
+
+
+
+Eviter de déplacer la catastrophe à l’hôpital : « évacuations
+organisées vers les hôpitaux »
+
+AMC « Urgences et Médecine Intensive »
+153
+
+Séminaires
+
+•
+
+Slides de synthèse (20 min)
+o Quelques chiffres locaux
+o Modèle METHANE – CSCATTTT issu du cours MIMMS
+o Exemples d’algorithmes de pré et triage, rôle du bon sens et de la
+spontanéité
+
+•
+
+Questions – Conclusion (10 min)
+o La conclusion englobe le fait que ces événements restent
+heureusement
+
+rares
+
+mais
+
+leurs
+
+principes
+
+d’actions
+
+peuvent
+
+s’appliquer dans plusieurs situations : la pandémie de COVID-19 est
+un exemple de même que plusieurs contextes humanitaires.
+
+Référence :
+•
+
+Chapitre 5 : Accident majeur et multiples patients, Médecine d’urgence
+préhospitalière, Pierre-Nicolas Carron et al, Editions RMS, 2013
+
+•
+
+Cours MIMMS, ALSG
+
+AMC « Urgences et Médecine Intensive »
+154
+
+Séminaires
+
+S EMINAIRE : ECG/TROUBLE DU RYTHME
+Objectifs : révision des éléments de base de l’ECG et des troubles du rythme
+
+S EMINAIRE : G AZOMETRIE ET TROUBLES ACIDE -BAS E
+Objectifs : révision de l’approche systématique de la gazométrie et illustration clinique.
+
+AMC « Urgences et Médecine Intensive »
+155
+
+Séminaires
+
+S EMINAIRE : AMINES ET INOTROP ES EN MEDECINE AIGUE
+Objectifs :
+•
+
+Connaitre les différents vasopresseurs et inotropes utilisé en médecin aigue,
+mécanisme d’action, effet et effets secondaires.
+
+•
+
+Connaitre les principales indications à leurs utilisations en médecine aigue
+
+S EMINAIRE : DYSTHERMIES
+Objectifs :
+•
+
+Physiopathologie de l’hypo- et de l’hyperthermie
+
+•
+
+Présentation clinique et paraclinique de l’hypo- et de l’hyperthermie
+
+•
+
+Prise en charge de l’hypo- et de l’hyperthermie
+
+Durée : 1 heure
+Responsable
+•
+
+Dr Matthieu Genoud
+
+AMC « Urgences et Médecine Intensive »
+156
+
+Séminaires
+
+ATELIERS
+ILS (INTERMEDIATE LIFE S UP P ORT)
+Lieu : Centre interprofessionnel de simulation CIS (CMU 5ème étage)
+Responsable : Dr L. Suppan
+Directives générales/objectifs
+Après avoir participé au séminaire, les étudiants doivent :
+-
+
+Maitriser le BLS (Basic Life Support) comprenant :
+o Reconnaissance de l’inconscience
+o Mise en position latérale de sécurité (PLS)
+o Reconnaissance de l’arrêt cardio-respiratoire (ACR)
+o Massage cardiaque externe (MCE)
+o Ventilation avec un ballon auto-remplisseur à valve unidirectionnelle (BAVU)
+o Utilisation d’un défibrillateur semi-automatique (DSA)
+
+-
+
+Connaître les techniques et le matériel de gestion intermédiaire des voies
+aériennes :
+o Canule oropharyngée (Guedel)
+o Canule nasopharyngée (Wendel)
+o Dispositif supra-glottique (i-gel)
+
+-
+
+Participer activement à des simulations d’ACR de difficulté « intermédiaire »
+o Reconnaître les différents types de rythmes cardiaques rencontrés lors d’un
+ACR et savoir débuter leur traitement en utilisant un défibrillateur en mode
+manuel
+o Connaître les causes réversibles de l’ACR (5H et 5T)
+o Reconnaitre le retour à une circulation spontanée (ROSC – Return of
+Spontaneous Circulation)
+
+AMC « Urgences et Médecine Intensive »
+157
+
+Séminaires
+-
+
+Classe inversée – Apport théorique
+
+-
+
+Un module e-Learning spécifique doit obligatoirement être effectué sur Moodle
+avant le cours.
+
+-
+
+Déroulement détaillé du séminaire
+
+-
+
+Slides d’introduction (plan du cours) : objectifs et timing (5 min)
+
+BLS (30 MIN.)
+o Par groupe de 2, les étudiants pratiquent le BLS sur un mannequin « FeedBack »
+o Les étudiants utilisent le ballon de ventilation avec le masque facial standard
+o Les étudiants utilisent le DSA
+
+ATELIER VENTILATION AVANCEE EN 3 GROUP ES (3 X15 MIN.)
+o Atelier Wendel et Guedel
+o Atelier i-gel
+o Atelier ventilation au ballon
+
+Démonstration d’un atelier de type « Megacode ACLS » par un intructeur avec 3-4
+étudiants suivi d’un débriefing (10 min + 15 min) :
+Scénario « Fibrillation ventriculaire » :
+o ABC par instructeur leader
+o Déroulé du scénario pendant 10 minutes en attribuant les rôles aux étudiants
+o 1 défibrillation au minimum
+o 1 passage en AESP
+o 5H et 5T
+o ROSC
+
+AMC « Urgences et Médecine Intensive »
+158
+
+Séminaires
+
+Ateliers de groupe (Megacode) (3 X 35 min) :
+Partager la classe en 2 groupes. Chaque groupe doit effectuer les scénarii suivants (par
+groupe de 3)
+Scénario « Asystolie » - asystolie réfractaire à 10 minutes de réanimation :
+o ABC par leader
+o Algorithme ACR non-choquable
+o 5H et 5T
+o Arrêt de réanimation
+
+Scénario « AESP » secondaire à une réaction anaphylactique :
+o ABC par leader
+o Algorithme ACR non-choquable
+o 5H et 5T
+o ROSC
+
+Scénario « Fibrillation ventriculaire » :
+o ABC par leader
+o Algorithme ACR choquable
+o 5H et 5T
+o ROSC après le 3ème choc
+
+Situation supplémentaire selon temps à disposition : Scénario « AESP » sur embolie
+pulmonaire
+
+AMC « Urgences et Médecine Intensive »
+159
+
+Séminaires
+Résumé des messages clés (10 min)
+BLS de haute qualité :
+o Algorithme ACR non-choquable
+o Algorithme ACR choquable
+
+Penser à intégrer une pause de 15 minutes avant les ateliers ACR
+
+Cet atelier suit le schéma d’une « classe inversée ». Le module e-learning, disponible sur
+Moodle, doit impérativement avoir été effectué avant cet atelier !
+
+ATELIER D’ECHOGRAP HIE FOCALIS EE
+Lieu: Centre interprofessionnel de simulation (CMU 5ème étage)
+Responsables : Dr O. Grosgurin et Dr F. Rouyer (Urgences)
+
+Objectifs :
+o Acquisition d’une image normale des 4 cavités cardiaques en fenêtre sous
+costale
+o Reconnaissance
+
+des
+
+signes
+
+échographiques
+
+d’un
+
+épanchement
+
+péricardique
+o Acquisition d’une image pleuro-pulmonaire normale sur le thorax antérieur
+o Reconnaissance de signes échographiques d’un pneumothorax complet
+o Connaissances de base du protocole E-FAST
+o E-learning FOCUS (Focused Cardiac Ultrasound) : en construction
+o Introduction pratique au FOCUS
+
+AMC « Urgences et Médecine Intensive »
+160
+
+Séminaires
+
+Déroulement de l’atelier :
+o Visionnage rapide des slides (préalablement visualisées sur Moodle) pour
+réponses aux questions
+o ½ groupe : acquisition des images sur les étudiants eux-mêmes avec 1 tuteur
+o ½ groupe : images pathologiques sur simulateur écho
+o Les groupes s’alternent après 20-25 minutes
+Cet atelier sera suivi par une session de pratique d’échographie ciblée dans le service des
+soins intensifs (cf. Atelier d’échographie au lit de malade)
+
+ATELIER : R ES P IRATION/VENTILATION MECANIQUE
+Lieu: Soins intensifs adulte
+Responsable : Dr. N. Suh
+Formateur : Médecins CDC et adjoint du groupe ventilation (soins intensifs)
+Objectifs :
+o Intégrer dans la pratique clinique les connaissances théoriques acquises
+durant les cours (insuffisance respiratoire par défaut de ventilation ou de
+l’échangeur gazeux ; ventilation invasive/non invasive ; CPAP Vs VNI ;
+réglages de base d’un ventilateur à pression positive)
+Déroulement :
+o Ateliers de 60 minutes dans le service des soins intensifs. Discussion
+théorique et application pratique avec un ventilateur de soins intensifs des
+concepts d’insuffisance respiratoire par trouble de la fonction ventilatoire
+(hypercapnie) ou de l’échangeur gazeux (hypoxémie). Discussion et
+démonstration des principes de base de la ventilation à pression positive
+invasif ou non invasif et des principaux modes de ventilation (respiration
+spontanée, ventilation contrôlée, pression contrôlée ou volume contrôlé).
+
+AMC « Urgences et Médecine Intensive »
+161
+
+Séminaires
+
+ATELIER D’ECHOGRAP HIE AU LIT DU MALADE
+Lieu: Soins intensifs adulte
+Responsables : Dr. N. Suh ; Dr. O Grosgurin
+Formateurs : Médecins CDC ou adjoint formé à l’utilisation de l’échographie en milieux
+aigu.
+Objectifs :
+o Intégrer dans la pratique clinique les connaissances théoriques acquises
+ainsi que les compétences acquises durant l’atelier théorique d’échographie.
+Déroulement :
+o Ateliers de 60 minutes dans le service des soins intensifs sous forme d’un
+coaching. Un formateur (CDC ou médecin adjoint formé) supervise 3-4
+étudiants auprès d’un patient admis dans le service des soins intensifs.
+
+ATELIER PONCTION PLEURALE
+Lieu: salles CC
+Responsables : Dr B. Assouline (Soins intensifs)
+Formateur : Médecins adjoint (soins intensifs et urgences) avec étudiants formateurs
+Objectifs :
+o Acquisition pratique de la technique de ponction pleurale sur mannequin de
+simulation
+o Indication et contre-indications du geste
+o Examens paracliniques pré et post geste
+o Repères anatomiques de la technique
+
+AMC « Urgences et Médecine Intensive »
+162
+
+Séminaires
+
+Déroulement de l’atelier :
+o E-learning (30 minutes) à effectuer avant l’atelier
+o Durée de l’atelier 60 minutes
+o Introduction et rappels points clés du e-learning
+o Démonstration du geste par un moniteur
+o Réalisation du geste supervisé par moniteur : au moins 1 fois par étudiant
+
+AMC « Urgences et Médecine Intensive »
+163
+
+Séminaires
+
+SIMULATION
+Activités d’apprentissage basées sur la simulation
+
+Organisation :
+o Par groupe de 8-9 étudiants
+o Séance de 4h pour tous les étudiants AMC Urgences-SI
+o Selon le planning distribué. Certains groupes d’étudiants participeront à une
+simulation interprofessionnelle avec des étudiants de l’HEdS.
+Déroulement de la séance :
+o Les étudiants viennent avec leur blouse et leur matériel (stéthoscope, livres,)
+o Introduction : brève présentation du concept et du déroulement de
+l’apprentissage en simulation (objectif : mettre à l’aise les étudiants).
+o Présentation de la salle de simulation et familiarisation avec les mannequins.
+o Scénarii par groupes de 8 étudiants (4 actifs, 4 observateurs)
+o 20-30 minutes par scénario, suivies de 40-45 minutes de débriefing
+o Tuteurs par après-midi (soit 2 médecins, soit un(e) médecin et un(e)
+infirmier(ère) HEdS)
+o 1 technicien du centre de simulation
+o Lieu : Centre de simulation : CMU 5ème étage
+o Tuteurs :
+
+
+Médecins cadres (SU, SI, anesthésie)
+
+
+
+Infirmiers enseignants HEdS
+
+AMC « Urgences et Médecine Intensive »
+164
+
+

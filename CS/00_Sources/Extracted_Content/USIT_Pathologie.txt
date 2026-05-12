@@ -1,0 +1,4649 @@
+2024-2025
+
+1ère – 2ème années Master
+Apprentissage en milieu clinique
+COURS / SEMINAIRES DE PATHOLOGIE
+Cahier du.de la tuteur.trice et de
+l’étudiant.e
+
+APPRENTISSAGE EN MILIEU CLINIQUE
+(AMC)
+
+Cours / Séminaires de Pathologie
+
+Faculté de Médecine Université de Genève
+27e édition
+
+ 2024 Université de Genève (Faculté de médecine)
+
+TABLE DES MATIERES
+
+INFORMATIONS GENERALES ..............................................................................................................1
+Personnes concernées .............................................................................................................................1
+Grilles horaires .........................................................................................................................................3
+OBJECTIFS GENERAUX ........................................................................................................................8
+REFERENCES .........................................................................................................................................9
+UNITE “ INTRODUCTION A LA DEMARCHE CLINIQUE ” .................................................................10
+Cours / Séminaire Path 1 (Dre Anne-Laure Rougemont-Pidoux) ..........................................................11
+Cours / Séminaire Path 2 (Dre Anne-Laure Rougemont-Pidoux) ..........................................................12
+Cours / Séminaire Path 3 (Dre Essia Saiji) ............................................................................................14
+Cours / Séminaire Path 4 (Dr Johannes Alexander Lobrinus) ...............................................................15
+AMC MEDECINE INTERNE...................................................................................................................20
+Séminaire N° 2 : Protéinurie (biopsie rénale – 1H30) (Pre Solange Moll) .............................................21
+Séminaire N° 3 : Ictère (biopsie hépatique - 1h30) (Dre Aurélie Bornand) ............................................25
+Séminaires N° 4, 10 & 11 : Lymphomes : pathogénie, diagnostic, clinique et principes de traitement
+(Dr Kristof Egervari, pathologie, & Dre Noémie Lang, oncologie) ..........................................................30
+Séminaire N° 4 : lymphomes malins non-hodgkiniens - biopsie ganglionnaire (1h30 inclus les N°10 &
+11)………………………………………………………….. .........................................................................32
+Séminaire N° 10 : Lymphome de Hodgkin (1h30 inclus les N° 4 & 11) .................................................37
+Séminaire N° 11 : Hyperplasie folliculaire (1h30 inclus les N° 4 & 10) ..................................................39
+Séminaire N° 13 : Infarctus du myocarde (1h30) (Dr Jean-Christophe Tille).........................................42
+Séminaire N° 14 : Carcinomes pulmonaires (1h30) (Dr Claudio De Vito) .............................................45
+Séminaire N° 15 : Pneumopathies (1h30) (Dr Claudio De Vito) ............................................................48
+AMC CHIRURGIE ..................................................................................................................................53
+Séminaire N° 1 : Introduction à la pathologie (Dr Jean-Christophe Tille) ..............................................54
+AMC CHIRURGIE VISCERALE ............................................................................................................56
+Séminaire N° 5 : Rectocolite ulcéreuse hémorragique (1h45) (Dre Suzanne Chartier) ........................57
+Séminaire N° 6 : Cancers digestifs hauts (1h45) (Dre Suzanne Chartier) .............................................62
+Séminaire N° 26 : Pathologie macroscopique (1h45) (Dre Aurélie Bornand) ........................................66
+AMC CHIRURGIE ORTHOPEDIQUE ....................................................................................................67
+Séminaire N° 7 : Tumeur osseuse (1h45 inclus le N° 8) (Dre Essia Saiji) .............................................68
+Séminaire N° 8 : Arthrose (1h45 inclus le N° 7) (Dre Essia Saiji) ..........................................................73
+
+TABLE DES MATIERES (suite)
+
+AMC CHIRURGIE THORACIQUE .........................................................................................................77
+Séminaire N° 16 : Nodule thyroïdien (45 min.) (Dr Claudio De Vito) .....................................................78
+AMC CHIRURGIE UROLOGIQUE ........................................................................................................81
+Séminaire N° 17 : Hématurie macroscopique (1h45 inclus N° 18 & N° 19) (Dre Essia Saiji) ................82
+Séminaire N° 18 : Rétention urinaire d’origine prostatique (1h45 inclus N° 17 & N° 19) .......................85
+Séminaire N° 19 : Masse testiculaire (1h45 inclus N° 17 & N° 18) ........................................................89
+AMC GYNECOLOGIE-OBSTETRIQUE ................................................................................................92
+Séminaire N° 20 : Pathologie du col utérin (2h. inclus N° 21) (Dre Essia Saiji) .....................................93
+Séminaire N° 21 : Dépistage et prévention des cancers gynécologiques (2h. inclus N° 20) .................96
+Séminaire N° 22 : Une boule dans le sein (2h. inclus N° 23) (Dr Jean-Christophe Tille) ......................99
+Séminaire N° 23 : Tumeur ovarienne (2h. inclus N° 22) ......................................................................102
+AMC PEDIATRIE .................................................................................................................................106
+Séminaire N° 24 : Rhabdomyosarcome embryonnaire (biopsies pédiatriques et examens spécialisés)
+(1h.) (Dre Anne-Laure Rougemont-Pidoux) .........................................................................................107
+AMC NEUROLOGIE (NEUCLID) .........................................................................................................109
+OBJECTIFS GENERAUX ....................................................................................................................110
+Séminaire N° 25 : Neuropathologie (NEUCLID) (Dr Johannes Alexander Lobrinus, Dr Kristof Egervari)
+……………………………. .....................................................................................................................112
+
+Informations générales
+
+INFORMATIONS GENERALES
+PERSONNES CONCERNEES
+Groupe de travail de l’AMC
+Nom
+Responsable
+Dre Aurélie Bornand
+
+Dpt / Division / Cabinet médical
+
+GSM
+
+Service de Pathologie Clinique
+
+079 5535697
+
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+
+079 5535697
+079 5535398
+079 5533340
+079 5539951
+079 5531200
+079 5533270
+079 5533271
+079 5535292
+079 5533311
+
+Membres
+
+Dre Aurélie Bornand
+Dre Suzanne Chartier
+Dr Claudio De Vito
+Dr Kristof Egervari
+Dr Johannes Alexander Lobrinus
+Pre Solange Moll
+Dre Anne-Laure Rougemont-Pidoux
+Dre Essia Saiji
+Dr Jean-Christophe Tille
+
+“Cours / Séminaires de Pathologie ”
+1
+
+Informations générales
+
+Tuteur.trice.s de l’AMC
+Nom
+
+Division
+
+GSM
+
+Dre Aurélie Bornand
+Dre Suzanne Chartier
+Dr Claudio De Vito
+Dr Kristof Egervari
+Dre Noémie Lang
+Dr Johannes Alexander Lobrinus
+Pre Solange Moll
+Dre Anne-Laure Rougemont-Pidoux
+Dre Essia Saiji
+Dr Jean-Christophe Tille
+
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service d’Oncologie
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+Service de Pathologie Clinique
+
+079 5535697
+079 5535398
+079 5533340
+079 5539951
+079 5532406
+079 5531200
+079 5533270
+079 5533271
+079 5535292
+079 5533311
+
+“Cours / Séminaires de Pathologie ”
+2
+
+Informations générales
+
+GRILLES HORAIRE
+Rotation 1
+
+Plan d’études de la 1ère et 2e années de Master → enseignement de la pathologie
+Semaine 1
+25.11.24-29.11.24
+
+Semaine 2
+02.12.24-06.12.24
+
+Semaine 3
+09.12.24-13.12.24
+
+Semaine 4
+16.12.24-20.12.24
+
+Semaine 5
+06.01.25-10.01.25
+
+Semaine 6
+13.01.25-17.01.25
+
+Semaine 7
+20.01.25-24.01.25
+
+Semaine 8
+27.01.25-31.01.25
+
+Lu pas de patho
+
+Lu 15h15-16h45
+Macro & Histo N°15
+
+Ve pas de patho
+
+Ve pas de patho
+
+AMC de Médecine Interne
+Séminaire
+Pathologie N°
+
+Lu 14h45-16h15
+Lu 14h45-16h15
+Macro & Histo N°13 Macro & Histo N°2
+
+Lu 14h45-16h15
+Histo N°11
+
+Lu 15h15-16h45
+Histo N°4 & 10
+
+Lu 14h45-16h15
+Lu 14h45-16h15
+Macro & Histo N°14 Histo N°3
+
+AMC de Chirurgie
+Séminaire
+Pathologie N°
+
+Ve 08h55-10h30
+Histo N°26
+
+Ve 08h55-10h30
+Macro & Histo N°6
+
+Ve 13h00-13h45
+Introduction N°1
+
+Ve 09h45-11h20
+Ve 08h55-10h30
+Macro & Histo N°7 & 8 Macro & Histo N°5
+
+Ve 08h55-10h30
+Macro & Histo N°17,18 &19
+
+Ve 13h55-14h40
+Histo N°16
+AMC de Gynécologie & Obstétrique
+Séminaire
+Pathologie N°
+
+Lu 10h15-12h00
+Macro & Histo N°20 & 21
+
+Lu 10h15-12h00
+Macro & Histo N°20 & 21
+
+Ma 10h15-12h00
+Macro & Histo N°22 & 23
+
+Ma 10h15-12h00
+Macro & Histo N°22 & 23
+AMC de Pédiatrie
+
+Séminaire
+Pathologie N° 24
+
+voir horaires
+
+AMC de Pédiatrie
+AMC de Neurologie
+
+Séminaire
+Pathologie N° 25
+
+voir horaires
+
+AMC de Neurologie
+(NEUCLID)
+
+Vacances de Noël : du 23 décembre 2024 au 3 janvier 2025, inclus
+
+“Cours / Séminaires de Pathologie ”
+3
+
+Informations générales
+
+Rotation 2
+
+Plan d’études de la 1ère et 2e années de Master → enseignement de la pathologie
+Semaine 1
+03.02.25-07.02.25
+
+Semaine 2
+10.02.25-14.02.25
+
+Semaine 3
+17-02.25-21.02.25
+
+Semaine 4
+24.02.25-28.02.25
+
+Semaine 5
+03.03.25-07.03.25
+
+Semaine 6
+10.03.25-14.03.25
+
+Semaine 7
+17.03.25-21.03.25
+
+Semaine 8
+24.03.25-28.03.25
+
+Lu 14h45-16h15
+Histo N°3
+
+Lu pas de patho
+
+Lu 15h15-16h45
+Macro & Histo N°15
+
+Ve 08h55-10h30
+Macro & Histo N°17,18 &19
+
+Ve pas de patho
+
+Ve pas de patho
+
+AMC de Médecine Interne
+Séminaire
+Pathologie N°
+
+Lu 14h45-16h15
+Macro & Histo
+N°13
+
+Lu 14h45-16h15
+Macro & Histo N°2
+
+Lu 14h45-16h15
+Histo N°11
+
+Lu 15h15-16h45
+Histo N°4 & 10
+
+Lu 14h45-16h15
+Macro & Histo N°14
+
+AMC de Chirurgie
+Séminaire
+Pathologie N°
+
+Ve 08h55-10h30
+Macro N°26
+
+Ve 08h55-10h30
+Macro & Histo N°6
+
+Ve 13h00-13h45
+Introduction N°1
+
+Ve 09h45-11h20
+Ve 08h55-10h30
+Macro & Histo N°7 & 8 Macro & Histo N°5
+
+Ve 13h55-14h40
+Histo N°16
+AMC de Gynécologie & Obstétrique
+Séminaire
+Pathologie N°
+
+Lu 10h15-12h00
+Macro & Histo N°20 & 21
+
+Lu 10h15-12h00
+Macro & Histo N°20 & 21
+
+Ma 10h15-12h00
+Macro & Histo N°22 & 23
+
+Ma 10h15-12h00
+Macro & Histo N°22 & 23
+AMC de Pédiatrie
+
+Séminaire
+Pathologie N° 24
+
+voir horaires
+
+AMC de Pédiatrie
+AMC de Neurologie
+
+Séminaire
+Pathologie N° 25
+
+voir horaires
+
+AMC de Neurologie
+(NEUCLID)
+
+Vacances de Pâques : du 18 avril 2025 au 25 avril 2025, inclus
+
+“Cours / Séminaires de Pathologie ”
+4
+
+Informations générales
+
+Rotation 3
+
+Plan d’études de la 1ère et 2e années de Master → enseignement de la pathologie
+Semaine 1
+28.04.25-02.05.25
+
+Semaine 2
+05.05.25-09.05.25
+
+Semaine 3
+12.05.25-16.05-25
+
+Semaine 4
+19.05.25-23.05.25
+
+Semaine 5
+26.05.25-30.05.25
+
+Semaine 6
+02.06.25-06.06.25
+
+Semaine 7
+09.06.25-13.06.25
+
+Semaine 8
+16.06.25-20.06.25
+
+AMC de Médecine Interne
+Séminaire
+Pathologie N°
+
+Lu 14h45-16h15
+Macro & Histo N°13
+
+Lu 14h45-16h15
+Macro & Histo N°2
+
+Lu 14h45-16h15
+Histo N°11
+
+Lu 15h15-16h45
+Histo N°4 & 10
+
+Lu 14h45-16h15
+Macro & Histo N°14
+
+Lu 14h45-16h15
+Histo N°3
+
+Lu pas de patho
+
+Lu 15h15-16h45
+Macro & Histo N°15
+
+Ve 09h45-11h20
+Ve 08h55-10h30
+Macro & Histo N°7 & 8 Macro & Histo N°5
+
+Ve 08h55-10h30
+
+Ve pas de patho
+
+Ve pas de patho
+
+AMC de Chirurgie
+Séminaire
+Pathologie N°
+
+Ve 08h55-10h30
+Macro N°26
+
+Ve 08h55-10h30
+Macro & Histo N° 6
+
+Ve 13h00-13h45
+Introduction N°1
+
+Macro & Histo N°17,18 &19
+
+Ve 13h55-14h40
+Histo N°16
+AMC de Gynécologie & Obstétrique
+Séminaire
+Pathologie N°
+
+Lu 10h15-12h00
+Macro & Histo N°20 & 21
+
+Lu 10h15-12h00
+Macro & Histo N°20 & 21
+
+Ma 10h15-12h00
+Macro & Histo N°22 & 23
+
+Ma 10h15-12h00
+Macro & Histo N°22 & 23
+AMC de Pédiatrie
+
+Séminaire
+Pathologie N° 24
+
+voir horaires
+
+AMC de Pédiatrie
+AMC de Neurologie
+
+Séminaire
+Pathologie N° 25
+
+voir horaires
+
+AMC-Neurologie
+(NEUCLID)
+
+Jeudi 1er mai : Fête du travail
+Jeudi 29 mai : Ascension
+Lundi 9 juin : Lundi de Pentecôte
+
+“Cours / Séminaires de Pathologie ”
+5
+
+Informations générales
+
+Rotation 4
+
+Plan d’études de la 1ère et 2e années de Master → enseignement de la pathologie
+Semaine 1
+23.06.25-27.06.25
+
+Semaine 2
+30.06.25-04.07.25
+
+Semaine 3
+07.07.25-11.07.25
+
+Semaine 4
+14.07.25-18.07.25
+
+Semaine 5
+18.08.25-22.08.25
+
+Semaine 6
+25.08.25-29.08.25
+
+Semaine 7
+01.09.25-05.09.25
+
+Semaine 8
+08.09.25-12.09.25
+
+Lu pas de patho
+
+Lu 15h15-16h45
+Macro & Histo N°15
+
+AMC de Médecine Interne
+Séminaire
+pathologie N°
+
+Lu 14h45-16h15
+
+Macro & Histo N°13
+
+Lu 14h45-16h15
+Macro & Histo N°2
+
+Lu 14h45-16h15
+Histo N°11
+
+Lu 15h15-16h45
+Histo N°4 & 10
+
+Lu 14h45-16h15
+Lu 14h45-16h15
+Macro & Histo N°14 Histo N°3
+
+AMC de Chirurgie
+Séminaire
+pathologie N°
+
+Ve 08h55-10h30
+Macro N°26
+
+Ve 08h55-10h30
+Macro & Histo N°6
+
+Ve 13h00-13h45
+Introduction N°1
+
+Ve 09h45-11h20
+Ve 08h55-10h30
+Macro & Histo N°7 & 8 Macro & Histo N°5
+
+Ve 08h55-10h30
+Ve pas de patho
+Macro & Histo N°17,18 & 19
+
+Ve 13h55-14h40
+Histo N°16
+AMC de Gynécologie & Obstétrique
+Séminaire
+pathologie N°
+
+Lu 10h15-12h00
+Macro & Histo N°20 & 21
+
+Lu 10h15-12h00
+Macro & Histo N°20 & 21
+
+Ma 10h15-12h00
+Macro & Histo N°22 & 23
+
+Ma 10h15-12h00
+Macro & Histo N°22 & 23
+AMC de Pédiatrie
+
+Séminaire
+Pathologie N° 24
+
+voir Horaires
+
+AMC de Pédiatrie
+AMC de Neurologie
+
+Séminaire
+Pathologie N° 25
+
+voir horaires
+
+AMC de Neurologie
+(NEUCLID)
+
+Vacances d’été : du 21 juillet 2025 au 15 août 2025, inclus
+Jeudi 11 septembre : Jeûne Genevois
+
+“Cours / Séminaires de Pathologie ”
+6
+
+Ve pas de patho
+
+Informations générales
+
+Rotation 5
+
+Plan d’études de la 1ère et 2e année de Master → enseignement de la pathologie
+Semaine 1
+15.09.25-19.09.25
+
+Semaine 2
+22.09.25-26.09.25
+
+Semaine 3
+29.09.25-03.10.25
+
+Semaine 4
+06.10.25-10.10.25
+
+Semaine 5
+13.10.25-17.10.25
+
+Semaine 6
+20.10.25-24.10.25
+
+Semaine 7
+27.10.25-31.10.25
+
+Semaine 8
+03.11.25-07.11.25
+
+Lu pas de patho
+
+Lu 15h15-16h45
+Macro & Histo
+N°15
+
+Ve pas de patho
+
+Ve pas de patho
+
+AMC de Médecine Interne
+Séminaire
+pathologie N°
+
+Lu 14h45-16h15
+
+Macro & Histo N°13
+
+Lu 14h45-16h15
+Macro & Histo N°2
+
+Lu 14h45-16h15
+Histo N°11
+
+Lu 15h15-16h45
+Histo N°4 & 10
+
+Lu 14h45-16h15
+Macro & Histo
+N°14
+
+Lu 14h45-16h15
+Histo N°3
+
+AMC de Chirurgie
+Séminaire
+pathologie N°
+
+Ve 08h55-10h30
+Macro N°26
+
+Ve 08h55-10h30
+Macro & Histo N°6
+
+Ve 13h00-13h45
+Introduction N°1
+Ve 13h55-14h40
+Histo N°16
+
+Ve 09h45-11h20
+Ve 08h55-10h30
+Ve 08h55-10h30
+Macro & Histo N°7 & 8 Macro & Histo N°5 Macro & Histo N°17,18 &
+19
+
+AMC de Gynécologie & Obstétrique
+Séminaire
+pathologie N°
+
+Lu 10h15-12h00
+Macro & Histo N°20 & 21
+
+Lu 10h15-12h00
+Macro & Histo N°20 & 21
+
+Ma 10h15-12h00
+Macro & Histo N°22 & 23
+
+Ma 10h15-12h00
+Macro & Histo N°22 & 23
+AMC de Pédiatrie
+
+Séminaire
+Pathologie N° 24
+
+voir horaires
+
+AMC de Pédiatrie
+AMC de Neurologie
+
+Séminaire
+Pathologie N° 25
+
+voir horaires
+
+AMC de Neurologie
+(NEUCLID)
+
+“Cours / Séminaires de Pathologie ”
+7
+
+Objectifs généraux
+
+OBJECTIFS GENERAUX
+La pathologie est une discipline médicale qui :
+•
+•
+•
+•
+•
+•
+
+étudie les causes des maladies (étiologie)
+étudie les mécanismes de développement des maladies (pathogénie)
+participe à l’établissement des diagnostics
+aide au choix du traitement
+contribue au dépistage des maladies et génère des données épidémiologiques
+participe à l’évaluation de la qualité d’un acte ou d’une technique médicale
+
+Cet enseignement doit amener l'étudiant.e à :
+• connaître la place des différents examens anatomo-pathologiques dans
+la prise en charge d’un patient
+• se familiariser avec les démarches diagnostiques en pathologie dans le contexte de l’analyse de biopsies et de pièces de résection chirurgicale,
+et des autopsies
+• approfondir ses connaissances en anatomie pathologique générale et spéciale (macroscopique et microscopique) incluant les lésions inflammatoires,
+circulatoires, infectieuses, tumorales et dégénératives les plus courantes.
+• connaître les principes généraux des classifications anatomo-pathologiques
+des maladies les plus courantes
+• se familiariser avec la base légale de l’autopsie et l’intérêt de la pratique
+de l’autopsie en tant que vérification anatomo-pathologique
+Cet enseignement a pour but :
+• d’intégrer le diagnostic anatomo-pathologique dans la prise en charge
+et le suivi du patient
+• de poser correctement l’indication de l’examen anatomo-pathologique
+
+“Cours / Séminaires de Pathologie ”
+8
+
+Références
+
+REFERENCES
+REFERENCES RECOMMANDEES
+Ouvrages
+• Kumar V, & al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia:
+Elsevier Saunders. 10th edition, 2021 (Réf. BFM QZ 4 4 + ebook).
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-diseaseebook
+
+• Strayer DS, Saffitz JE. Rubin’s Pathology. Mechanisms of human disease. Philadelphia: Wolters Kluwer, 8th edition, 2020. (Réf. BFM QZ 4 23)
+• A. Stevens, J. Lowe. Anatomie Pathologique Générale et Spéciale. Bruxelles:
+De Boeck & Larcier S.A., 1997.
+• AJCC Cancer Staging Handbook. From the AJCC Cancer Staging Manual. 8th
+ed. New York: Springer, 2017.
+• Brierley JD, Gospodarowicz MK, Wittekind C. TNM classification of malignant tumours. 8th ed. Chichester: Wiley, 2017. (Réf. BFM QZ 15 1).
+
+POUR EN SAVOIR PLUS
+Voir problèmes spécifiques
+
+SUPPORTS D’ENSEIGNEMENT
+•
+
+Les cours / séminaires de pathologie AMC 4ème-5ème années sont accessibles
+par Internet sur le site Moodle de l’Université de Genève :
+https://moodle.unige.ch → médecine discipline transversale
+
+•
+
+Les coupes histologiques virtuelles des séminaires de pathologie AMC 4ème5ème années sont disponibles par Internet sur le site de microscopie virtuelle de
+la Faculté de Médecine – Université de Genève :
+Collection ETUDIANT.E.S sur CYTOMINE (accessible depuis Moodle)
+
+“Cours / Séminaires de Pathologie ”
+9
+
+Unité « Introduction à la Démarche Clinique »
+
+UNITE
+“ INTRODUCTION A LA DEMARCHE CLINIQUE ”
+
+UIDC
+10
+
+Cours / Séminaire Path 1
+
+COURS / SEMINAIRE PATH 1 (Dre Anne-Laure Rougemont-Pidoux)
+THEME:
+Pathologie infectieuse chez des sujets immunocompétents et des malades immunosupprimés. Exemple : pneumonie.
+Introduction et description des différents modes de réaction du tissu pulmonaire après
+agression par des agents infectieux. La pathologie induite par des infections bactériennes (pneumonie, bronchopneumonie, tuberculose) sera décrite, de même que
+celle induite par des champignons (PCP, aspergillose) et des virus (CMV, herpès). Les
+différents modes de réaction inflammatoire seront également corrélés au status immunitaire du patient.
+
+OBJECTIFS SPECIFIQUES:
+Au terme de ce cours/séminaire, les étudiant.e.s devraient être capables de :
+ Identifier les différentes lésions pulmonaires associées à une infection
+ Associer pattern inflammatoire et type d’agent infectieux
+ Comprendre le rôle du status immunitaire : patient(e) immunocompétent(e) vs
+patient(e) immunosupprimé(e)
+
+RÉFÉRENCES :
+PATHOLOGIE
+
+Strayer DS, Saffitz JE. Rubin’s Pathology. Mechanisms of human disease. Philadelphia: Wolters Kluwer, 8th edition, 2020.
+(Réf. BFM QZ 4 23)
+Chap. 18: The Respiratory System
+• Infections, pp. 703-715
+Kumar V, et al. Robbins and Cotran pathologic basis of disease. 10th ed. Philadelphia : Elsevier ; 2021. QZ 4 4 ed 10 +
+ebook : https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+
+Chap. 8: Infectious Diseases.
+ Mycobacteria: tuberculosis, pp. 367-374
+ Aspergillosis, pp. 387
+Chap. 15: The Lung
+ Pumonary infections, pp. 704-714
+
+MATERIELS ASSOCIES : coupes histologiques (voir site Moodle Cours/Séminaires de
+Pathologie)
+• Coupe UI1-4/1 : pneumonie aiguë
+• Coupe UI1-4/2 : aspergillose pulmonaire
+• Coupe UI1-4/3 : CMV pulmonaire
+Coupe UI1-4/4 : tuberculose cavitaire et bronchopneumonie tuberculeuse.
+UIDC
+11
+
+Cours / Séminaire Path 2
+
+COURS / SEMINAIRE PATH 2 (Dre Anne-Laure Rougemont-Pidoux)
+
+THEME:
+Pathologie tumorale. Exemple : Adénocarcinome colique
+
+OBJECTIFS SPECIFIQUES:
+A l’issue de ce cours/séminaire, les étudiant.e.s devraient être capables de :
+• Distinguer les concepts nosologiques : tumeur maligne, tumeur bénigne, dysplasie,
+hyperplasie.
+• Corréler les modifications morphologiques et moléculaires de la carcinogénèse.
+• Connaître les processus d'extension et de dissémination tumorale.
+• Comprendre les étapes de la démarche diagnostique en pathologie : macroscopie,
+histologie, classifications des tumeurs, facteurs pronostiques.
+Le problème clinique du cancer colorectal est repris dans un cadre anatomopathologique. Cet exemple permet d'illustrer les différentes étapes de la démarche diagnostique en pathologie clinique (biopsies endoscopiques, macroscopie de pièce opératoire, examen histologique). Les concepts nosologiques - tumeur maligne, tumeur bénigne, dysplasie, hyperplasie - sont précisés dans la discussion des diagnostics différentiels. L’établissement des facteurs pronostiques fait appel à la connaissance des
+processus d'extension et de dissémination tumorale, ainsi qu’à des mécanismes moléculaires et immuns notamment. Dans la séquence "adénome – carcinome", les modifications morphologiques et moléculaires sont schématisées, corrélées et intégrées
+pour constituer un modèle d'oncogenèse.
+
+RÉFÉRENCES
+PATHOLOGIE
+
+Kumar V, et al. Robbins and Cotran pathologic basis of disease. 10th ed. Philadelphia : Elsevier ; 2021. QZ 4 4 ed 10 +
+ebook : https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+
+• Chap. 7 : Neoplasia, pp. 267-335.
+• Chap. 17 : The gastrointestinal tract, pp. 753-820.
+American Joint Committee on Cancer. AJCC Cancer Staging
+Handbook. 8th ed. New York : Springer, 2017.
+•
+
+General rules for TNM staging : pp. 3-30
+
+•
+
+Colon and Rectum : pp. 251-274
+
+UIDC
+12
+
+Cours / Séminaire Path 2
+
+MATERIEL ASSOCIE : coupes histologiques (voir site Moodle Cours/Séminaires de pathologie)
+• Coupe UI1-3/1 : Métastase ganglionnaire d'un adénocarcinome
+• Coupe UI1-3/2 : Adénocarcinome colique bien différencié G1
+• Coupe UI1-3/3 : Adénocarcinome colique moyennement différencié G2
+• Coupe UI1-3/4 : Adénocarcinome colique peu différencié G3
+
+UIDC
+13
+
+Cours / Séminaire Path 3
+
+COURS / SÉMINAIRE PATH 3 (Dre Essia Saiji)
+THEME:
+Pathologie vasculaire athéromateuse, facteurs de risque et conséquences cliniques.
+Rappel des éléments de pathogénèse de l’artériosclérose (ATS) et des mécanismes
+physiopathologiques. Discussion des complications de l’ATS au niveau des gros vaisseaux (anévrismes) et des coronaires (infarctus du myocarde).
+
+OBJECTIFS SPECIFIQUES:
+Au terme de cette heure d'enseignement les étudiant.e.s devraient être capables de :
+•
+
+Définir l’ATS, en connaître les facteurs de risque, la pathogénie et les principales
+formes topographiques.
+
+•
+
+Connaître la structure générale d’une plaque athéroscléreuse et ses complications
+évolutives.
+
+•
+
+Décrire l’aspect macroscopique et microscopique de l’ATS.
+
+•
+
+Connaître les mécanismes
+et ses conséquences.
+
+•
+
+Connaître les conséquences de l’ATS coronarienne et les lésions ischémiques au
+niveau myocardique.
+
+de
+
+formation
+
+d’un
+
+anévrisme
+
+athéromateux
+
+RÉFÉRENCES
+PATHOLOGIE
+
+Kumar V, et al. Robbins and Cotran pathologic basis of disease. 10th ed. Philadelphia : Elsevier ; 2021. QZ 4 4 ed 10 +
+ebook : https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+
+Chap. 11: Blood Vessels.
+• Hypertensive vascular disease, pp.493-502.
+•
+
+Arteriosclerosis, pp 489-492.
+
+•
+
+Aneurysms and dissections, pp. 504-507.
+
+MATERIELS ASSOCIES : coupes histologiques (voir site Moodle Cours/séminaires de
+pathologie)
+•
+
+Coupe AMC-12/1 : ATS de l’aorte
+
+•
+
+Coupe AMC-12/2 : dissection aortique
+
+MACROSCOPIE : (voir site Moodle Cours/séminaires de pathologie)
+Aorte, anévrisme aortique, rein vasculaire, cœur.
+UIDC
+14
+
+Cours / Séminaire Path 4
+
+COURS / SEMINAIRE PATH 4 (Dr Johannes Alexander Lobrinus)
+THEME:
+Maladies neurodégénératives.
+Introduction aux maladies dégénératives du système nerveux central affectant le cortex cérébral, les noyaux de la base et le tronc cérébral, dans leurs aspects physiopathologiques et morphologiques. L'accent est mis sur la maladie d'Alzheimer et la maladie de Parkinson. Dans une moindre mesure, la démence vasculaire et les autres
+maladies dégénératives affectant le cortex, les noyaux de la base et le tronc cérébral,
+seront évoquées.
+Les altérations macroscopiques et les lésions histo-pathologiques sont discutées, de
+même que les aspects pathogéniques, la génétique moléculaire et la notion d'agrégats
+protéiques.
+
+OBJECTIFS SPECIFIQUES:
+Au terme de l'heure d'enseignement théorique et des périodes de travaux pratiques,
+l'étudiant.e devra :
+•
+•
+•
+
+Connaître les aspects macro- et microscopiques de la maladie d'Alzheimer et de
+la maladie de Parkinson / démence à corps de Lewy.
+Connaître les hypothèses pathogéniques de ces maladies.
+Comprendre l'utilité de l'immunohistochimie dans la mise en évidence des agrégats protéiques.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, et al. Robbins and Cotran pathologic basis of disease. 10th ed. Philadelphia : Elsevier ; 2021. QZ 4 4 ed 10 +
+ebook : https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+
+ chap. 28:The Central Nervous System, pp. 1241-1302.
+
+UIDC
+15
+
+Cours / Séminaire Path 4
+
+COUPES N° 4A & 4B : MALADIE D’ALZHEIMER
+PROBLEME CLINIQUE
+Patient de 73 ans ayant développé depuis sa retraite, de façon insidieuse, des troubles
+cognitifs avec perte de la mémoire, suivi de troubles du langage, de troubles praxiques
+puis d’une incapacité de marcher, d’une incontinence urinaire et d’un mutisme. Décès
+d’une bronchopneumonie, huit ans après l’apparition des premiers symptômes.
+
+MACROSCOPIE
+Importante atrophie corticale, avec élargissement des sillons, en particulier dans les
+régions fronto-temporales et pariétales. A la coupe, élargissement du système ventriculaire.
+
+HISTOLOGIE
+Coupe 4A : lobe frontal, immunohistochimie dirigée contre la β-amyloïde
+Coupe 4B : hippocampe, immunohistochimie dirigée contre la protéine TAU
+
+Questions:
+- Quelles sont les lésions observées sur la coupe 4A ?
+- Existe-t-il une atteinte des vaisseaux sur la coupe 4A ?
+- Quelles sont les structures présentes sur la coupe 4B ?
+- Quelles sont les lésions observées sur la coupe 4B ?
+
+UIDC
+16
+
+Cours / Séminaire Path 4
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître:
+NEUROLOGIE
+•
+
+L’épidémiologie et les hypothèses pathogéniques de la
+maladie d’Alzheimer.
+
+•
+
+Les critères histologiques de la maladie d’Alzheimer.
+
+•
+
+L’existence d’autres causes possibles de démence.
+
+•
+
+Le principe de l'immunohistochimie.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, et al. Robbins and Cotran pathologic basis of disease. 10th ed. Philadelphia : Elsevier ; 2021. QZ 4 4 ed 10 +
+ebook : https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+
+ Chap. 28 : The Central Nervous System, pp.1241-1302.
+Voir le site Moodle
+
+UIDC
+17
+
+Cours / Séminaire Path 4
+
+COUPE N° 5 : MALADIE DE PARKINSON
+PROBLEME CLINIQUE
+Patiente de 57 ans ayant développé de façon progressive un tremblement au repos,
+légèrement asymétrique, s’accompagnant d’une marche à petits pas, d’une difficulté à
+initier les mouvements. La patiente a bénéficié dès le début des symptômes d’un traitement pharmacologique de L-dopa, avec stabilisation des symptômes. Cependant au
+fils des années, l’état clinique s’est peu à peu péjoré et la patiente décède à l’âge de
+69 ans, des suites d’une bronchopneumonie.
+
+MACROSCOPIE
+Le cerveau est sans lésion à l’examen externe. A la coupe, on observe une pâleur de
+la substance noire mésencéphalique et du locus ceruleus situé dans le pont.
+
+HISTOLOGIE
+Coupe 5 (coloration HE)
+Questions:
+- Quelle est la région du cerveau présente sur la coupe ?
+- Pouvez-vous identifier les structures principales de cette région ?
+- Quelles sont les altérations objectivées dans la substance noire ?
+
+UIDC
+18
+
+Cours / Séminaire Path 4
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître:
+NEUROLOGIE
+•
+
+La présentation clinique classique et les signes histologiques pathognomoniques de la maladie de Parkinson.
+
+•
+
+La protéine accumulée dans le corps de Lévy.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, et al. Robbins and Cotran pathologic basis of disease. 10th ed. Philadelphia : Elsevier ; 2021. QZ 4 4 ed 10 +
+ebook : https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+
+ Chap. 28 : The Central Nervous System, pp.1294-1296.
+
+Voir le site Moodle
+
+UIDC
+19
+
+AMC Médecine Interne
+
+AMC MEDECINE INTERNE
+
+Pathologie – « AMC Médecine Interne »
+20
+
+Séminaire N° 2
+
+SEMINAIRE N° 2 : PROTEINURIE (BIOPSIE RENALE – 1H30) (Pre Solange Moll)
+PROBLEMES CLINIQUES
+Cas A :
+Une mère se présente avec son enfant, un petit garçon de 4 ans, chez le pédiatre.
+A l’anamnèse, cet enfant a présenté il y a quelques semaines une infection des voies
+respiratoires supérieures. Puis la maman a remarqué que son enfant était souvent
+fatigué et que son état général diminuait.
+Cliniquement, le pédiatre constate un œdème des paupières, des membres inférieurs
+et du scrotum. Le reste du status est sans particularité.
+Les examens complémentaires montrent une protéinurie, une microhématurie et
+une insuffisance rénale. Une biopsie rénale est réalisée afin d’apprécier le diagnostic
+et le pronostic de l’atteinte rénale.
+Questions :
+- Vous avez à disposition la coupe AMC-2/1 qui, en comparaison avec le rein normal
+(coupes AMC-2/3 et AMC-APP03), montre un rein avec des lésions sévères : quel
+est le diagnostic ?
+- Quels examens complémentaires histopathologiques dans ce cas proposez-vous ?
+- Vous avez à disposition les coupes AMC-2/2 et AMC-APP02 de deux patients de
+60 ans avec un syndrome néphrotique ; quelles sont les différences les plus importantes par rapport à la coupe AMC-2/1 ?
+
+Cas B :
+Une patiente de 65 ans, hypertendue, est connue et traitée depuis de nombreuses
+années pour une polyarthrite chronique.
+Lors du dernier examen clinique son médecin remarque une diminution de la clearance
+de la créatinine (eGFR) et l’apparition d’une protéinurie.
+Une biopsie rénale est réalisée afin d’apprécier le diagnostic et le pronostic de l’atteinte
+rénale.
+Questions :
+-
+
+Vous avez à disposition la coupe AMC-2/4 qui montre un rein avec multiples dépôts
+hyalins : quelle est la nature de ces dépôts ?
+Quel est votre diagnostic dans ce cas ? Quel est le diagnostic différentiel des dépôts
+hyalins ?
+Quel examen complémentaire histopathologique proposez-vous dans ce cas ?
+Quelles sont l’étiologie et la pathogenèse de cette lésion (en considérant l’anamnèse) ?
+
+Pathologie – « AMC Médecine Interne »
+21
+
+Séminaire N° 2
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient
+pouvoir :
+
+PATHOLOGIE
+
+•
+
+Reconnaître les pathologies principales d’un rein au niveau des glomérules
+
+•
+
+Reconnaître les principales caractéristiques histologiques
+de trois pathologies glomérulaires (glomérulonéphrite proliférative, glomérulopathie membraneuse, amyloïdose)
+
+•
+
+Comprendre l’utilité des examens complémentaires histopathologiques en pathologie rénale (colorations supplémentaires, immunofluorescence, microscopie électronique)
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM QZ 4 4 + ebook).
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotranpathologic-basis-disease-ebook
+• Chap. 6 : Diseases of Immunity : Amyloidosis, pp. 259-260.
+• chap. 20 : The Kidney, pp. 896-951.
+
+POUR EN SAVOIR L.-H. Noël. Atlas de Pathologie Rénale. Paris : Flammarion
+PLUS
+Médecine-Sciences, 2008 (Réf. BFM WJ 300 55)
+•
+
+P. Callard, M. Colombat. Glomérulonéphrites extramembraneuses. Chap. 10, pp.165-180.
+
+•
+
+E. Justrago et al. Glomérulonéphrites extracapillaires ou
+à croissants. Chap. 12, pp. 199-232.
+
+•
+
+J. Verine et al. Amyloses rénales. Chap. 17, 345-365.
+
+Matériel associé
+-
+
+Coupe AMC-2/1 : glomérulonéphrite extracapillaire
+Coupes AMC-2/2 et AMC-APP02 : glomérulopathie membraneuse
+Coupes AMC-2/3 et AMC-APP03 : rein humain normal
+Coupes AMC-2/4 et AMC-APP05 et AMC-APP06 : amyloïdose
+
+Voir le site Moodle
+Pathologie – « AMC Médecine Interne »
+22
+
+Séminaire N° 2
+
+Description histopathologique des coupes
+Coupe 2/1 : Glomérulonéphrite proliférative avec composante extracapillaire
+Prélèvement : biopsie de rein
+Cette coupe intéresse le cortex rénal. Il est coloré par une coloration PAS (Periodic
+Acid Schiff) qui colore en rose les membranes basales glomérulaires et tubulaires et
+la matrice mésangiale, et par une coloration trichrome qui colore en bleu le collagène
+(interstitiel et mésangial), en rouge les protéines et en orange la fibrine.
+Les glomérules montrent de façon assez diffuse une augmentation de la cellularité
+du floculus capillaire. Cette prolifération cellulaire comprime les anses capillaires dont
+la lumière est en grande partie abolie ; il y a donc une prolifération cellulaire mésangiale et endocapillaire. Dans une proportion des glomérules, on observe de plus
+une prolifération cellulaire intéressant la chambre urinaire, soit une prolifération extracapillaire avec formation de ce qu’on appelle un croissant cellulaire. De plus,
+dans quelques glomérules, on note la présence de matériel orange (fibrine) dans
+la chambre urinaire : il s’agit d’une nécrose de l’anse capillaire avec exsudation de
+fibrine dans la chambre urinaire, soit une nécrose fibrinoïde.
+
+Coupe 2/2 et AMC-APP02 : Glomérulopathie membraneuse (appelée aussi extramembraneuse)
+Prélèvement : biopsie de rein
+Dans ce cas il s’agit à nouveau d’une biopsie de rein colorée par la coloration PAS
+(cf. description de la coupe 2/1). Sur ces coupes les modifications histologiques glomérulaires sont subtiles. Il n’y a pas d’augmentation notable de la cellularité du floculus
+capillaire et la chambre urinaire est libre. En revanche, la membrane basale glomérulaire est diffusément altérée, et ceci dans tous les glomérules. Cette membrane basale qui ressort en rose fuchsia avec cette coloration PAS est d’une part épaissie et
+si vous regardez bien, on distingue des spicules de la membrane basale dont la pointe
+est dirigée vers la chambre urinaire. Ces spicules correspondent à une modification
+de la structure de la membrane basale due à l’interposition de complexes immuns
+circulants qui se situent sur le versant extérieur de la membrane basale et provoquent
+cette modification de l’architecture.
+Ces modifications correspondent à une glomérulonéphrite membraneuse.
+
+Pathologie – « AMC Médecine Interne »
+23
+
+Séminaire N° 2
+
+Coupes 2/3 et AMC-APP03 : Rein humain normal
+Cette coupe 2/3 intéresse toute l’épaisseur du parenchyme rénal du cortex jusqu’au
+revêtement d’une cavité pyélo-calicielle. La cavité pyélo-calicielle est revêtue d’un épithélium de type transitionnel. Dans le cortex vous pouvez identifier les glomérules.
+Cette coupe AMC-APP03 intéresse le cortex.
+Dans le glomérule il faut reconnaître le floculus capillaire qui est constitué d’un réseau
+de capillaires entremêlés composé de trois types de cellules : les cellules épithéliales
+viscérales (ou podocytes), mésangiales et endothéliales. Les podocytes se situent
+sur le versant externe de la membrane basale glomérulaire des anses capillaires et
+les cellules endothéliales sur son versant interne. Les cellules mésangiales, qui
+produisent la matrice mésangiale, sont situées dans les axes mésangiaux soutenant
+les anses capillaires. La chambre urinaire est constituée par un espace vide (virtuel)
+et est bordée en périphérie par une couche de cellules épithéliales pariétales qui
+constitue la capsule de Bowman.
+Le compartiment tubulo-interstitiel cortical montre des tubes proximaux (cytoplasme
+éosinophile) et des tubes distaux adossés de façon jointive les uns contre les autres.
+
+Coupe 2/4 et AMC-APP05 et AMC-APP06 : Amyloïdose rénale
+Prélèvement : biopsie de rein
+Il s’agit de coupes de rein humain colorées à l’hématoxyline-éosine (H&E) et au PAS.
+L’amyloïde est déposée dans les glomérules, l’interstice et les parois vasculaires.
+Cette substance amyloïde se présente sous forme de petites masses roses,
+amorphes, c’est-à-dire acellulaires. Dans les glomérules cette substance amorphe
+confère parfois un aspect nodulaire, les cellules étant repoussées vers la périphérie
+du floculus capillaire.
+Dans l’interstice vous pouvez également voir la déposition de cette substance éosinophile amorphe qui provoque une dissociation des tubes, ces derniers ne sont plus
+adossés les uns aux autres comme dans le rein normal. Enfin, dans les vaisseaux
+(artères et artérioles), il y a une déposition de substance amyloïde qui intéresse focalement toute l’épaisseur de la paroi vasculaire mais surtout la média.
+Une coloration Rouge Congo permet l’identification de la substance amyloïde qui
+se colore en rouge.
+
+Macroscopie
+Rein polykystique
+Hydronéphrose
+Pyélonéphrite chronique
+
+Pathologie – « AMC Médecine Interne »
+24
+
+Séminaire N° 3
+
+SEMINAIRE N° 3 : ICTERE (BIOPSIE HEPATIQUE - 1H30)
+(Dre Aurélie Bornand)
+(CF PROBLEME CORRESPONDANT : AMC MEDECINE INTERNE)
+
+PROBLEME CLINIQUE
+
+Patrice est un homme de 37 ans qui se présente à votre consultation avec les symptômes suivants, évoluant progressivement depuis une dizaine de jours : anorexie, fatigue, état subfébrile (37.5-38°C), quelques arthralgies prédominant au niveau des poignets, un inconfort épigastrique et des urines foncées.
+Dans les antécédents, on ne relève pas d’ictère ni de maladie du foie.
+Il s’agit d’un homme célibataire, homosexuel, travaillant comme artiste peintre. Sa consommation d’alcool est modérée. Il ne fume pas. Il prend comme traitement régulier
+du diltiazem (Dilzem) pour une HTA découverte il y a deux ans. Depuis deux semaines, du diclofenac (Voltarène) lui a été prescrit pour une entorse ligamentaire
+à la cheville.
+A l’examen clinique, le patient est apathique, il a perdu 3 kg en 10 jours. Il est orienté
+dans le temps et l’espace. Sa température axillaire est de 37°. TA 150/90 mmHg.
+On note un ictère franc, pas de lésions cutanées. Le foie est mesuré sur 15 cm sur
+la ligne médioclaviculaire. Il est sensible à la percussion. La rate n’est pas palpable.
+Il n’y a pas d’astérixis.
+Voici les résultats que vous obtenez en urgence le jour même :
+Résultats sanguins
+HB 11.5 gr/l, GB 5600 avec répartition
+TP (Quick) 65%, fibrinogène 2.9 gr/L.
+
+N,
+
+thrombocytes
+
+180.000/mm3,
+
+Electrolytes, urée et créatinine sérique N. Bilirubine totale 130 µmol/l (conjugée
+95 umol/l), phosphatase alcaline 260 UI/L, ASAT 1160 UI/L, ALAT 1500 UI/L. Amylase
+et lipase N.
+Echographie abdominale : foie d’échostructure homogène, un peu diminué de taille,
+d’allure stéatosique. Pas de nodule. Vésicule biliaire alithiasique, à paroi fine. Voies
+biliaires intra- et extrahépatiques non dilatées. Pancréas mal visualisé en raison
+de surprojections aériques.
+
+Pathologie – « AMC Médecine Interne »
+25
+
+Séminaire N° 3
+
+Et les résultats que vous recevez quelques jours plus tard :
+Sérologie
+HAV IgM nég, HBsAg +, IgM antiHBc+, antiHCV nég, HIV nég. Tube pour sérothèque.
+La sérologie pour l’agent delta est négative ; la sérologie négative pour l’hépatite C
+est confirmée par un test PCR négatif.
+
+Sang
+Facteur V 75 %, facteurs 7 et 10 à 60 %.
+Votre patient vient à ses deux premiers contrôles, puis vous n’entendez plus parler
+de lui. Un de ses proches vous dit que se sentant guéri, il ne voit plus de raison de consulter.
+Dix ans plus tard, il réapparaît à votre cabinet, mais vous ne le reconnaissez pas.
+Il est ralenti, confus, décharné, ictérique, son abdomen est tendu et il a de nombreuses
+ecchymoses diffuses. Pendant que vous l’examinez, le patient présente une hématémèse.
+
+PATHOLOGIE
+Dans la discussion histopathologique du problème 12, nous vous proposons d’envisager d’abord (1er séminaire) la première partie de l’histoire de ce patient, à savoir l’aspect aigu de la pathologie hépatique (voir les coupes AMC-3/1 et AMC-3/2).
+Dans le second séminaire, les complications sont envisagées (voir les coupes AMC3/3, AMC-3/ 4 et AMC-3/5).
+
+Pathologie – « AMC Médecine Interne »
+26
+
+Séminaire N° 3
+
+Questions :
+- Dans les coupes AMC-3/1 (hépatite aiguë alcoolique) et AMC-3/2 (hépatite virale
+au stade cirrhose), nous avons affaire à des lésions inflammatoires du foie.
+Quels sont les éléments indiquant une origine virale et ceux en faveur d’une cause
+alcoolique ?
+- Dans l’atteinte virale chronique, le foie est le siège d’un remaniement important,
+comment le décrivez-vous (coupe AMC-3/2 : hépatite virale au stade cirrhose) ?
+- Ce remaniement entraîne une complication illustrée sur la coupe AMC-3/3 (carcinome hépatocellulaire), de quoi s’agit-il ?
+- Dans la coupe AMC-3/4 (cholestase extrahépatique), le foie illustré est perturbé par
+une atteinte extrahépatique, quelle est sa répercussion dans le parenchyme ?
+
+Questions générales :
+- A quel stade une biopsie aurait-elle été indiquée ? Quelles en sont les indications,
+contre-indications et complications ?
+- Quels renseignements histopathologiques sont fournis par la biopsie hépatique ?
+- Que peut représenter l’apparition d’un macronodule dans un foie cirrhotique ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+pouvoir :
+•
+
+Connaître les indications et buts de la biopsie hépatique.
+
+•
+
+Connaître les principales causes intra- ou extra-hépatiques d’une cholestase.
+
+•
+
+Connaître les lésions élémentaires du foie et être capables
+de décrire les principales caractéristiques histopathologiques des hépatites aiguës virale et alcoolique, d’une hépatite chronique, des divers types de cirrhose.
+
+•
+
+Etre capables de décrire les principales caractéristiques
+histologiques des lésions prénéoplasiques et néoplasiques hépatiques
+
+Pathologie – « AMC Médecine Interne »
+27
+
+Séminaire N° 3
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021
+(Réf. BFM QZ 4 4 + ebook).
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotranpathologic-basis-disease-ebook
+ chap. 18 : Liver & Gallbladder, pp 823-876.
+ chap. 19, The Pancreas, pp 881-894.
+S. G. Hübscher. Histological grading and staging in chronic
+hepatitis : clinical applications and problems. J Hepatol 1998;
+29 : 1015-1022.
+
+Matériel associé
+- Coupe AMC-3/1 : hépatite aiguë alcoolique dans un terrain de cirrhose
+- Coupe AMC-3/2 : hépatite virale au stade cirrhose
+- Coupe AMC-3/3 : carcinome hépatocellulaire
+- Coupe AMC-3/4 : cholestase extrahépatique
+Voir le site Moodle
+
+Pathologie – « AMC Médecine Interne »
+28
+
+Séminaire N° 3
+
+Description des coupes histologiques
+Coupe 3/1 : Hépatite aiguë alcoolique dans un terrain de cirrhose
+Le tissu hépatique est le siège d’une cirrhose, caractérisée par un remaniement de
+l’architecture lobulaire, avec présence de nodules de régénération entièrement encerclés par des septa fibreux contenant des néoductules. Ces septa fibreux englobent les
+espaces portes et les veines centrolobulaires et contiennent quelques rares lymphocytes. La lame bordante est généralement intacte. Les nodules parenchymateux sont
+composés de travées hépatocytaires élargies ou anarchiques. Il y a une stéatose principalement macrovacuolaire au niveau de quelques hépatocytes. Il y a, de plus, des
+hépatocytes ballonnisés contenant de nombreux corps de Mallory, encerclés par des
+polynucléaires neutrophiles correspondant à une image d’hépatite alcoolique. Enfin,
+quelques thrombi biliaires sont présents.
+
+Coupe 3/2 : Hépatite virale au stade cirrhose
+Le foie est le siège d’une cirrhose qui détruit l’architecture hépatique avec présence
+de nodules de régénération encerclés par une fibrose annulaire. Dans les espaces
+portes et les septa fibreux, il y a un infiltrat inflammatoire relativement abondant composé principalement de lymphocytes, qui focalement empiète sur lame bordante et
+s’étend à l’espace périportal (hépatite d’interface). Dans les nodules parenchymateux,
+il y a quelques amas de lymphocytes et quelques rares nécroses, le tout aboutissant
+à une image d’hépatite chronique. On constate une discrète stéatose.
+
+Coupe 3/3 : Carcinome hépatocellulaire
+Au sein de la cirrhose, on note une large plage d’infiltration par un carcinome hépatocellulaire, partiellement en nécroses hémorragiques. Les cellules tumorales sont d’allure hépatoïde et contiennent un noyau atypique, siège d’occasionnelles mitoses. L’infiltration tumorale s’accompagne de réactions fibreuses desmoplasiques.
+
+Coupe 3/4 : Cholestase extrahépatique
+Il s’agit d’un foie d’architecture conservée, sans fibrose. Les espaces portes montrent
+différents degrés d’oedème, parfois concentré au voisinage du canal biliaire interlobulaire, qui s’accompagne d’un petit infiltrat inflammatoire contenant des lymphocytes et
+surtout quelques polynucléaires neutrophiles. Il y a une petite prolifération des canaux
+biliaires interlobulaires. Dans les régions centro-lobulaires, il y a une bilirubinostase,
+caractérisée par des thrombi biliaires canaliculaires.
+
+Pathologie – « AMC Médecine Interne »
+29
+
+Séminaires N° 4, 10 & 11
+
+SEMINAIRES N° 4, 10 & 11 : LYMPHOMES : PATHOGÉNIE, DIAGNOSTIC,
+CLINIQUE ET PRINCIPES DE TRAITEMENT.
+(DR KRISTOF EGERVARI, PATHOLOGIE, & DRE NOEMIE LANG, ONCOLOGIE)
+
+Le sujet des lymphomes est d’une grande complexité à tous les niveaux (pathogénie,
+diagnostic, clinique et principes du traitement). Il demande une intégration rapprochée
+entre clinicien.ne et pathologiste. C’est pour ces raisons que nous avons développé
+ce séminaire patho-clinique ou clinico-pathologique.
+LE PLAN DU COURS
+•
+•
+•
+•
+•
+
+•
+
+Quelques définitions
+La vie normale du lymphocyte B
+Clinique des lymphomes : généralités
+Les étapes du diagnostic
+Une classification clinico-pratique
+– Lymphome de Hodgkin
+– Lymphome non-Hogdkinien
+• Lymphomes B
+– High grade
+» Lymphome diffus à grandes cellules B (DLBCL)
+» Burkitt
+» Lymphoblastique
+– Low grade
+» Folliculaire
+» CLL (leucémie lymphatique chronique)
+» Marginal zone lymphoma
+– Le cas particulier du lymphome du manteau
+• Lymphomes T
+• Quelques lymphomes d’organes
+• Lymphome et immuno-suppression
+• Complications cliniques
+Revue de la pathologie : préparation à l’examen.
+Lymphome diffus à grandes cellules B (DBCL)
+Lymphome de Burkitt
+Lymphome folliculaire
+Lymphome hodgkinien
+CLL (leucémie lymphatique chronique)
+Lymphome du manteau
+Hyperplasie folliculaire ganglionnaire
+Myélomes multiples
+
+Pathologie – « AMC Médecine Interne »
+30
+
+Séminaires N° 4, 10 & 11
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient
+être capables de connaître:
+
+PATHOLOGIE
+
+•
+
+La physiologie du système lymphoïde.
+
+Le diagnostic différentiel bénin vs malin de l’adénopathie.
+• Les lymphomes malins hodgkiniens et non-hodgkiniens :
+ Les bases de l’approche diagnostique et présentation clinique
+ L’importance de la différence entre les lymphomes
+de bas et de haut grade.
+ Les principes des traitements des lymphomes.
+ Les moyens disponibles afin d’estimer le pronostic
+des lymphomes.
+•
+
+Pathologie – « AMC Médecine Interne »
+31
+
+Séminaire N° 4
+
+SEMINAIRE N° 4 : LYMPHOMES MALINS NON-HODGKINIENS - BIOPSIE
+GANGLIONNAIRE (1H30 INCLUS LE N° 10)
+Questions:
+- Etudiez d’abord les coupes d’hématologie AMC-4/1 (lymphome folliculaire), AMC4/2 (lymphome de type LLC) et AMC-4/3 (lymphome du manteau) et comparez
+ces coupes avec la coupe du ganglion réactif (UI1-5/2) et la coupe de l’hyperplasie
+folliculaire (AMC-11/4; séminaire de pathologie 11).
+- Décidez quels sont les compartiments ganglionnaires altérés (architecture).
+- Quelles sont les populations lymphoïdes qui prolifèrent ?
+- Comment aller plus loin après cette analyse de l’architecture et de la cytologie
+de ces lymphoproliférations dans ces ganglions ?
+- Regardez maintenant les coupes AMC-4/4 (lymphome à grandes cellules B)
+et AMC-4/5 (lymphome de Burkitt). Quelles sont les différences par rapport
+aux coupes précédentes que vous pouvez apprécier en faisant la même démarche
+que précédemment ?
+- Quelles sont donc les différences que vous voyez entre les coupes AMC-4/1
+et AMC-4/2, qui sont des exemples de lymphomes malins non-hodgkiniens (LMNH)
+de bas degré de malignité, comparés aux exemples de LMNH de haut degré de malignité ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître:
+•
+
+Les lymphomes malins non-hodgkiniens (LMNH) :
+- système lymphohématopoïétique normal (rappel)
+- diagnostic différentiel adénopathie : bénin vs malin
+- bases de l’approche diagnostique actuelle des LMNH :
+morphologie (architecture, cytologie), immunohistochimie, biologie moléculaire.
+
+•
+
+L’importance entre la notion de bas ou de haut degré de
+malignité dans les LMNH.
+
+•
+
+Lymphome versus leucémie.
+
+Voir aussi les objectifs du problème traité dans l’AMC Médecine N° 12.
+
+Pathologie – « AMC Médecine Interne »
+32
+
+Séminaire N° 4
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM QZ 4 4 + ebook).
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotranpathologic-basis-disease-ebook
+ chap. 13 : Diseases of White Blood Cells, Lymph
+Nodes, Spleen, & Thymus, pp. 583-633
+• Lymphoid neoplasms, pp. 592-616
+Swerdlow SH et al. WHO Classification of tumours of haematopoietic and lymphoid tissues. 4th rev. ed. Lyon: IARC, 2017.
+WH 525 8.
+Chap. 10 : Mature B-cell neoplasms :
+. Chronic lymphocytic leukaemia, pp. 180-182.
+. Follicular lymphoma, pp. 220-226.
+. Mantle cell lymphoma, pp. 229-232.
+. Diffuse large B-cell lymphoma, pp. 233-237.
+. Burkitt lymphoma / leukaemia, pp. 262-264.
+
+Matériel associé
+Les lames de ces entités sont disponibles sous forme classique (verre) et sur support
+informatique.
+-
+
+Coupe AMC-4/1 : lymphome folliculaire
+Coupe AMC-4/2 : lymphome de type LLC
+Coupe AMC-4/3 : lymphome du manteau
+Coupe AMC-4/4 : lymphome à grandes cellules B
+Coupe AMC-4/5 : lymphome de Burkitt.
+
+Voir le site Moodle
+
+Pathologie – « AMC Médecine Interne »
+33
+
+Séminaire N° 4
+
+Description histopathologique des coupes
+INTRODUCTION
+Les cinq coupes histologiques de ces ganglions sont colorées avec la coloration
+de Giemsa, coloration standard en lympho-hématologie afin de visualiser les noyaux
+et le cytoplasme des différents types de lymphome.
+Coupe 4/1 : Lymphome folliculaire
+A faible grossissement, vous notez la présence de nodules lymphoïdes, d’aspect monotone, en nombre augmenté. Ces nodules lymphoïdes sont souvent dos à dos, avec
+une couronne lymphocytaire (zone du manteau) souvent mal visible. Ces nodules non
+seulement occupent le cortex, comprimant la zone interfolliculaire, mais aussi la medulla. Certains de ces nodules sont aussi visibles dans le tissu adipeux périganglionnaire. A fort grossissement, au sein de ces nodules, vous trouvez essentiellement
+des centrocytes de taille petite à moyenne sous forme de cellules à noyau très clivé
+et allongé. D’occasionnels centroblastes (beaucoup plus grands) avec un noyau clair
+et 2 à 3 nucléoles bien visibles souvent adossés à la membrane nucléaire. Le cytoplasme de ces centroblastes est basophile. A noter qu’il y a relativement peu de mitoses dans ces nodules tumoraux (à comparer avec la coupe d’hyperplasie folliculaire
+du séminaire N° 11). A noter que l’aspect cytologique de ces centrocytes et de ces centroblastes ne permet pas de les distinguer des cellules non lymphomateuses. L’analyse immunohistochimique complémentaire est souvent donc indispensable dans
+ce contexte. En effet, les nodules lymphoïdes tumoraux seront positifs à la fois pour
+CD20, Bcl6, CD10 et Bcl2, contrairement à un ganglion lymphatique avec hyperplasie
+folliculaire réactionnelle où les centres germinatifs des follicules secondaires seraient
+positifs pour CD20, Bcl6 et CD10 mais négatifs pour Bcl2. En biologie moléculaire,
+une translocation impliquant le gène BCL2 peut être mise en évidence par FISH dans
+la grande majorité des lymphomes folliculaires.
+
+Pathologie – « AMC Médecine Interne »
+34
+
+Séminaire N° 4
+
+Coupe 4/2 : Lymphome de type LLC
+Vous reconnaissez des restes de structure ganglionnaire avec une extension du processus tumoral dans le tissu adipeux adjacent. L’architecture de ce ganglion est effacée de manière diffuse. A fort grossissement, vous trouvez une prolifération de cellules
+lymphomateuses monotones, de petite taille (les noyaux sont plus petits que
+les noyaux des macrophages). A noter la quasi absence de mitoses. Pour la taille
+des cellules, cette coupe est à comparer avec les coupes 4/3 (lymphome du manteau)
+et 4/4 (lymphome à grandes cellules). Il s’agit dans cette coupe de la forme lymphomateuse de la leucémie lymphatique chronique (voir coupe AMC 9/2). En immunohistochimie, la population lymphoïde tumorale serait positive pour le CD20 avec
+une coexpression aberrante du CD5 typiquement. Le diagnostic différentiel avec
+un lymphome du manteau se fait alors en cas de négatvité de la cycline D1 (=Bcl1)
+dans la LLC. En cytogénétique, certaines anomalies chromosomiques sont associées
+à un moins bon pronostic, telles que les délétions 17p et 11q.
+Coupe 4/3 : Lymphome du manteau
+A faible grossissement, vous reconnaissez un ganglion avec effacement de la structure. Par endroits, vous avez vaguement l’impression d’une nodularité. A fort grossissement, prolifération de cellules lymphomateuses monotones, légèrement plus
+grandes que celles de la LLC. Mitoses facilement visibles. Une analyse immunohistochimique complémentaire permettra de confirmer le diagnostic (ce qui est essentiel
+dans ce cas, car ce lymphome rare est de mauvais pronostic, contrairement au lymphome de la coupe 4/2). Cette lymphoprolifération sera positive pour CD20 avec coexpression aberrante du CD5 (comme pour la LLC). La positivité de la cycline D1 (=Bcl1)
+est spécifique du lymphome du manteau et permettra de le distinguer d’une LLC. L’expression de la cycline D1 en immunohistochimie est liée à une translocation du gène
+de la cycline D1 qui peut être mise en évidence par FISH.
+
+Coupe 4/4 : Lymphome à grandes cellules B
+Il s’agit d’une infiltration lymphomateuse, probablement d’un ganglion lymphatique.
+Il s’agit d’un nodule rond au niveau d’un tissu adipeux remanié. En périphérie du nodule, où les cellules sont mieux fixées, on reconnaît une prolifération de cellules lymphomateuses de grande taille avec des noyaux relativement ronds, avec soit un nucléole central de grande taille (immunoblaste) ou surtout avec 2-3 nucléoles adossés
+à la membrane nucléaire (centroblastes). Nombreuses mitoses facilement visibles.
+A noter la présence de quelques petits lymphocytes à noyaux très denses (lymphocytes T réactionnels) qui accompagnent fréquemment les proliférations lymphomateuses. L’analyse immunohistochimique complémentaire (CD20 notamment) pourra
+prouver qu’il s’agit le plus probablement de centroblastes et d’immunoblastes de phénotype B. Certains des lymphomes diffus à grandes cellules B peuvent être associés
+à une translocation des gènes BCL2 et/ou MYC, identifiables par FISH, et associée
+à un plus mauvais pronostic.
+
+Pathologie – « AMC Médecine Interne »
+35
+
+Séminaire N° 4
+
+Coupe 4/5 : Lymphome de Burkitt
+Il s’agit encore d’un ganglion lymphatique avec des restes de structure ganglionnaire
+préservée. La majorité de ce ganglion est remplacée par une prolifération lymphomateuse diffuse. A faible et moyen grossissement, vous trouvez l’image classique du
+« ciel étoilé », surtout en périphérie : petits espaces clairs correspondants au cytoplasme rétracté des macrophages. Dans ces espaces vous trouvez par endroits
+des restes de cellules phagocytées (débris cellulaires de cellules nécrotiques dans les
+macrophages). Ces très nombreux macrophages signent indirectement la présence
+d’une lymphoprolifération extrêmement active, comme en témoigne l’index de prolifération typiquement très élevé révélé par l’anticorps MIB1 qui marque généralement
+plus de 95% des cellules tumorales en immunohistochimie. La prolifération consiste
+en cellules de taille moyenne (les noyaux de ces cellules de Burkitt sont de taille inférieure ou égale aux noyaux des macrophages). Ces noyaux sont ronds, avec plusieurs
+nucléoles de petite taille. Le cytoplasme est relativement abondant avec un arrangement des cellules en pavé. Les mitoses sont extrêmement nombreuses. Ce lymphome
+constitue une urgence thérapeutique au vu de son temps de doublement cellulaire
+compris entre 1 et 2 jours. Ce diagnostic peut-être confirmé par immunohistochimie
+(positivité du CD20, du CD10 et du Bcl6 et négativité du Bcl2) et par des techniques
+de biologie moléculaire (mise en évidence d’un réarrangement du gène MYC par
+FISH).
+
+Pathologie – « AMC Médecine Interne »
+36
+
+Séminaire N° 10
+
+SEMINAIRE N° 10 : LYMPHOME DE HODGKIN (1H30 INCLUS LE N° 4)
+Questions:
+- La coupe AMC-10/1 correspond à la lésion pathologique présentée par le/la patient.e. Quelles caractéristiques histologiques vous semblent importantes ?
+- Comparez cette lésion avec la lésion du problème N° 11 (coupe AMC-11/1). Comment se comparent les deux lésions ?
+- Quels éléments de l’anamnèse vous semblent utiles dans l’orientation du diagnostic ? Lesquels sont vos diagnostics différentiels ?
+- Quelles investigations allez-vous effectuer ? Laquelle d’entre elles vous semble
+la plus importante pour poser le diagnostic ?
+- Quelles sont l’étiologie et la pathogenèse de cette lésion ?
+- Connaissez-vous d’autres maladies qui montrent une association au même agent
+infectieux ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de :
+•
+
+Connaître la définition et l’aspect histologique du lymphome de Hodgkin.
+
+•
+
+Connaître les facteurs associés et l’épidémiologie du lymphome de Hodgkin.
+
+Pathologie – « AMC Médecine Interne »
+37
+
+Séminaire N° 10
+
+RÉFÉRENCES
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM QZ 4 4 + ebook).
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotranpathologic-basis-disease-ebook
+ Chap 13 : Diseases of White Blood Cells, Lymph
+Nodes, Spleen, & Thymus, pp. 583-633
+. Hodgkin lymphoma, pp. 611-616
+
+PATHOLOGIE
+
+Swerdlow SH et al. WHO Classification of tumours of haematopoietic and lymphoid tissues. 4th rev. ed. Lyon: IARC, 2017.
+WH 525 8.
+ Chap. 12 : Hodgkin lymphoma, pp. 322-329.
+
+Matériel associé
+-
+
+Coupe AMC-10/1 : lymphome de Hodgkin, sclérose nodulaire
+
+Voir le site Moodle
+
+Description histopathologique des coupes
+Coupe 10/1 : Lymphome de Hodgkin
+La coupe porte sur un fragment ovalaire. Sur son pourtour, le fragment est entouré
+d’une capsule épaissie. Au centre, on observe des résidus de tissu lymphoréticulaire
+sur un terrain de fibrose qui entourent ces îlots cellulaires d'une façon nodulaire.
+Dans les régions riches en cellules, nous pouvons distinguer des éosinophiles, des petits lymphocytes et des plasmocytes. Isolées dans cet arrière-fond, se trouvent
+de grandes cellules avec des noyaux contenant des nucléoles bien visibles et un cytoplasme abondant. Certaines sont multinucléées. Il s'agit de cellules dites de Hodgkin
+ou Reed-Sternberg, caractéristiques du lymphome de Hodgkin. Ces grandes cellules
+se situent souvent dans un espace « vide » (halo, artéfact de rétraction tissulaire)
+d’où leur nom de « lacunar cells ». L'ensemble de la composition cellulaire et la forme
+de fibrose qui s'est installée amènent au diagnostic de lymphome de Hodgkin classique, de type scléro-nodulaire.
+
+Pathologie – « AMC Médecine Interne »
+38
+
+Séminaire N° 11
+
+SEMINAIRE N° 11 : HYPERPLASIE FOLLICULAIRE (1H30 INCLUS LE N° 9)
+
+Questions:
+-
+
+Le ganglion (coupe AMC-11/1) montre des modifications architecturales et cytologiques. Quels sont les changements les plus frappants ?
+
+- Dans quelles conditions trouvez-vous les mêmes altérations ?
+- Est-ce que le lymphome malin (NHL) de type B diagnostiqué au niveau des poumons a un rapport avec la lésion ganglionnaire ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient
+être capables de:
+
+PATHOLOGIE
+
+•
+
+Distinguer une lésion réactive ganglionnaire d’une lésion
+tumorale.
+
+•
+
+Connaître les conditions qui sont associées au développement des lésions lymphoprolifératives.
+
+•
+
+Connaître, dans le contexte décrit ci-dessus, le rôle des infections virales associées.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM QZ 4 4 + ebook).
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotranpathologic-basis-disease-ebook
+ Chap 13 : Diseases of White Blood Cells, Lymph
+Nodes, Spleen, & Thymus, pp. 583-633
+. Follicular hyperplasia, pp. 589
+Medeiros L.J. Ioachim’s Lymph Node Pathology. 5th ed. Philadelphia. Wolters Kluwer, 2022 (Réf. BFM WH 700 2 ed 5)
+ Chap. 32 Reactive Lymphoid Hypeplasia, pp.220-229.
+
+Pathologie – « AMC Médecine Interne »
+39
+
+Séminaire N° 11
+
+Matériel associé
+-
+
+Coupe AMC-11/1 : hyperplasie folliculaire.
+
+Voir le site Moodle
+
+Description histopathologique des coupes
+Coupe 11/1 : Hyperplasie folliculaire
+La lame comporte une coupe d’un ganglion lymphatique entouré par du tissu adipeux
+avoisinant. Une capsule fine et quelques vaisseaux l'accompagnent. Au sein du ganglion, l'architecture de base est conservée. Nous notons beaucoup de follicules avec
+un centre germinatif (follicules lymphoïdes secondaires). Ces derniers sont très grands
+et sont délimités par une fine zone mantellaire. Chaque centre germinatif contient
+les éléments habituels à savoir centroblastes, centrocytes, macrophages à corps tingibles et cellules folliculaires dendritiques. La zone interfolliculaire est peu abondante
+et contient quelques veinules à endothélium élevé.
+
+Pathologie – « AMC Médecine Interne »
+40
+
+Séminaire N° 11
+
+Pathologie – « AMC Médecine Interne »
+41
+
+Séminaire N° 13
+
+SEMINAIRE N° 13 : INFARCTUS DU MYOCARDE (1H30) (Dr Jean-Christophe Tille)
+PROBLEME CLINIQUE
+Saturnin est responsable d’une petite entreprise qui connaît bien des difficultés économiques depuis ces dernières années. Il se tue littéralement au travail et, pour diminuer son stress, fume énormément. Il a toujours fumé (environ un paquet par jour),
+mais sa consommation actuelle a plus que doublé. Trop absorbé par son travail,
+il a négligé son hygiène de vie et engouffre fréquemment deux ou trois hamburgers
+par jour, en plus de nombreuses friandises. Il accuse un excès pondéral important.
+Son médecin traitant a entrepris des investigations en cardiologie pour une angine
+de poitrine connue, mais s’aggravant. Les différents examens ont montré une maladie
+coronarienne diffuse très sévère mais une absence d’infarctus du myocarde. Les lésions coronariennes sont telles que les cardiologues ont renoncé à une angioplastie
+percutanée et consultent les chirurgiens pour une revascularisation.
+
+Questions:
+-
+
+Quelles sont les structures anatomiques et leurs altérations qui sont le plus fréquemment à l’origine de la pathologie myocardique discutée ici ?
+
+- Quelles complications myocardiques irréversibles risque Saturnin ?
+-
+
+Dans la coupe AMC-13/1 décrivez les lésions et datez-les.
+
+-
+
+Comment se “ répare ” cette lésion, comme l’illustre la coupe AMC-13/2 ?
+
+Pathologie – « AMC Médecine Interne »
+42
+
+Séminaire N° 13
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient
+être capables de connaître:
+
+PATHOLOGIE
+
+•
+
+Les mécanismes de souffrance du muscle cardiaque,
+de la souffrance réversible à l’infarctus.
+
+•
+
+Les étapes de la nécrose ischémique au niveau myocardique, les mécanismes de réparation et la réaction tissulaire à la nécrose.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM QZ 4 4 + ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotranpathologic-basis-disease-ebook
+ Chap 11 : Blood Vessels, pp 485- 525
+ Chap 12 : The Heart, pp 527-582
+
+Matériel associé
+-
+
+Coupe AMC-13/1 : infarctus frais du myocarde
+Coupe AMC-13/2 : ancien infarctus du myocarde cicatriciel.
+
+Voir le site Moodle
+
+Pathologie – « AMC Médecine Interne »
+43
+
+Séminaire N° 13
+
+Macroscopie
+Infarctus du myocarde, cicatrice d’infarctus du myocarde, hypertrophie et dilatation
+cardiaque.
+
+Description histopathologique des coupes
+Coupe 13/1 : Infarctus frais du myocarde
+A faible grossissement, identifiez d’abord les 3 couches anatomiques constituant la paroi ventriculaire (épicarde, myocarde, endocarde). La plus grande partie du myocarde
+est le siège d’un infarctus frais avec nécrose de coagulation des cardiomyocytes (hyperéosinophilie, perte de la striation, caryolyse ou pycnose du noyau). Dans la région
+sous-endocardique et autour de certains vaisseaux intramyocardiques vous pourrez
+identifier des fibres musculaires encore viables et les comparer avec les fibres nécrotiques. Au sein de l’infarctus aigu, notez un important oedème interstitiel dissociant les
+fibres ainsi qu’un infiltrat interstitiel constitué de polymorphonucléaires neutrophiles
+souvent altérés et pycnotiques, mêlés à des débris cellulaires (petits débris bleutés).
+L’ensemble de ces constatations permet de dire que l’infarctus a eu lieu entre
+24 et 72 heures avant le décès du patient.
+Coupe 13/2 : Ancien infarctus du myocarde
+Il s’agit d’une cicatrice d’infarctus sous-endocardique ayant eu lieu il y a plusieurs semaines ou mois. Dans la moitié interne de la paroi ventriculaire, la musculature cardiaque est en grande partie remplacée par du tissu cicatriciel éosinophile amorphe
+correspondant à du collagène. Dans cette cicatrice, on trouve encore quelques fibroblastes et des vaisseaux sanguins. Au sein de la fibrose cicatricielle persistent encore
+quelques faisceaux de cardiomyocytes d’aspect hypertrophique avec des noyaux hyperchromatiques agrandis. Dans le tissu adipeux épicardique, vous pouvez observer
+un segment d’artère coronaire siège d’une artériosclérose avec épaississement important de l’intima.
+
+Pathologie – « AMC Médecine Interne »
+44
+
+Séminaire N° 14
+
+SEMINAIRE N° 14 : CARCINOMES PULMONAIRES (1H30) (Dr Claudio De Vito)
+PROBLEME CLINIQUE
+Patient de 58 ans, d’origine suisse, menuisier, présentant une douleur parasternale
+droite et toux. Importante perte pondérale depuis 3 mois. Il est sévèrement tabagique
+(60 UPA) et consomme environ un demi-litre de vin par jour. A la radiographie, présence d’une masse ovalaire de 4 cm au centre du poumon droit. Après les examens
+cliniques et biochimiques, plusieurs examens cytologiques (expectorations) sont pratiqués.
+De plus, une bronchoscopie est faite. Elle montre une tumeur sténosante. Des biopsies
+et un brossage sont effectués.
+L’examen endoscopique est complété par CT-scan thoracique.
+
+Questions:
+-
+
+Vous disposez de la coupe AMC-14/1, provenant de la pièce opératoire. Quels sont
+les principaux éléments histopathologiques de cette lésion ? Quel diagnostic différentiel serait à considérer (comparer avec les coupes AMC-14/2 & AMC-14/3) ?
+
+-
+
+Quelle autre information pourrait-on obtenir lors de l’examen anatomopathologique
+de la pièce opératoire ?
+
+-
+
+A quelles questions va devoir répondre le/la pathologiste lors d’un examen extemporané d’une pièce de pneumonectomie ?
+
+-
+
+Quel est le pronostic de cette tumeur (coupes AMC-14/1), et de quoi dépend-il ?
+
+-
+
+Quelle serait l'attitude thérapeutique ?
+
+-
+
+Dans quel but sont pratiqués l’examen des expectorations et la bronchoscopie,
+et pourquoi des biopsies et un brossage sont-ils effectués ?
+
+-
+
+Quels sont les facteurs de risque pour les carcinomes pulmonaires ?
+Sont-ils les mêmes pour l’adénocarcinome, le carcinome épidermoïde et le carcinome à petites cellules ?
+
+Pathologie – « AMC Médecine Interne »
+45
+
+Séminaire N° 14
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient
+être capables de connaître:
+
+PATHOLOGIE
+
+•
+
+Les types principaux des carcinomes pulmonaires. L’importance de la distinction de ces trois types au point de
+vue pronostic et thérapeutique.
+
+•
+
+Les facteurs de risque et l’étiopathogenèse
+
+•
+
+Les principes du “ grading ” et “ staging ” des tumeurs pulmonaires.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM QZ 4 4 + ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotranpathologic-basis-disease-ebook
+ Chap. 15 : The lung, pp 673-729
+Tumors pp. 715-724.
+Goldblum JR et al. Rosai and Ackerman’s Surgical Pathology.
+11th ed. Philadelphia: Elsevier; 2018 WO 142 1
+ Vol. 1 : Chap. 7 : Respiratory tract : Carcinoma, pp. 366385.
+
+Matériel associé
+- Coupe AMC-14/1 : carcinome épidermoïde
+- Coupe AMC-14/2 : adénocarcinome
+- Coupe AMC-14/3 : carcinome anaplasique à petites cellules.
+Voir le site Moodle
+
+Pathologie – « AMC Médecine Interne »
+46
+
+Séminaire N° 14
+
+Macroscopie
+Cancers bronchiques (harmartome; carcinoïdes; Ca bronchiques; métastases; mésothéliome).
+
+Description histopathologique des coupes
+Les coupes 14/1, 14/2 et 14/3 montrent l’histologie de pièces opératoires du poumon.
+Le diagnostic de l’organe est basé sur la présence des bronches et du parenchyme
+normal. Les lames ont été choisies dans le but de vous présenter les trois types principaux des carcinomes pulmonaires, le carcinome épidermoïde, l’adénocarcinome et
+le carcinome anaplasique à petites cellules. Comme cela a été déjà discuté pour les tumeurs du tractus digestif (AMC 6), le carcinome épidermoïde, qui est situé plutôt
+au centre, est caractérisé par une différenciation rappelant l’épiderme. Il y a des variantes kératinisantes (avec des globes cornés) ou non-kératinisantes. Souvent,
+on note également une métaplasie épidermoïde de la muqueuse bronchique adjacente.
+L’adénocarcinome, qui est situé plutôt à la périphérie, est caractérisé par une différenciation glandulaire. La fréquence de ce type de tumeur augmente.
+Le carcinome anaplasique à petites cellules et le carcinome épidermoïde sont les carcinomes les plus fréquents chez les fumeurs. L’histologie est caractérisée par des nécroses extensives et par des artéfacts d’écrasement. Les cellules tumorales se présentent avec peu ou pas de cytoplasme, la taille des noyaux correspond à peu près
+à celle des lymphocytes.
+Le traitement pour le carcinome épidermoïde et l’adénocarcinome est la chirurgie,
+pour le carcinome anaplasique à petites cellules, la chimio- et radiothérapie. Les carcinomes pulmonaires ont généralement un mauvais pronostic avec un taux de survie
+de 10 % à 5 ans.
+
+Pathologie – « AMC Médecine Interne »
+47
+
+Séminaire N° 15
+
+SEMINAIRE N° 15 : PNEUMOPATHIES (1H30) (Dr Claudio De Vito)
+A l’âge de 30 ans, Monsieur Schaumann présenta une gêne respiratoire associée à
+une toux sèche. Après avoir pratiqué une radiographie thoracique, son médecin
+l'adressa à l'hôpital où l’on pratiqua une bronchoscopie et un lavage broncho-alvéolaire, ainsi que des biopsies pulmonaires (coupe AMC-15/1).
+Quinze ans plus tard, Monsieur Schaumann souffre toujours d'une insuffisance respiratoire sévère invalidante et persistante qui s’aggrave malgré le traitement aux antibiotiques. La biopsie pratiquée à ce moment-là vous est montrée dans la coupe AMC15/4. Une transplantation pulmonaire bilatérale est alors effectuée.
+Le matériel histopathologique à disposition consiste en 3 biopsies pulmonaires représentant des entités clinico-pathologiques (coupe AMC-15/1, AMC-15/2 et AMC-15/3)
+susceptibles d’évoluer en fibrose pulmonaire terminale en “ nid d’abeille ” (coupe
+AMC-15/4).
+
+Questions:
+- Que voyez-vous sur la coupe AMC-15/1 (inflammation granulomateuse bronchique) ?
+- Quel est le DD et comment le pathologiste peut-il contribuer à l'identification du processus pathogénique ?
+- Quelle diagnostic histologique posez-vous sur les poumons explantés lors de
+la greffe pulmonaire (coupe AMC-15/4 : poumons fibrotiques) ?
+- Que voyez-vous sur les coupes AMC-15/1, AMC-15/2 et AMC-15/3 ? Quelles sont
+les pathologies pulmonaires aboutissant à un poumon fibrotique en nid d'abeille
+(Honey-comb lung) (coupe AMC-15/4) ?
+- Citez les critères histologiques les plus importants des atteintes aboutissant au poumon en nid d’abeille : fibrose interstitielle idiopathique (“ Usual Interstitial Pneumopathy ”) (coupe AMC-15/3), sarcoïdose (coupe AMC-15/1), granulome éosinophile
+(AMC-15/2).
+
+Pathologie – « AMC Médecine Interne »
+48
+
+Séminaire N° 15
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+pouvoir:
+•
+
+Identifier histopathologiquement une inflammation granulomateuse.
+
+•
+
+Décrire histopathologiquement différentes entités pathologiques pouvant évoluer en poumon fibrotique en nid
+d’abeille
+
+•
+
+Connaître et définir les formes habituelles de souffrance
+du tissu pulmonaire.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 10: Diseases of infancy & Childhood, pp 453483
+. Cystic fibrosis (mucoviscidosis), pp 466-473
+ Chap. 13 : Diseases of White Blood Cells, Lymph
+Nodes, Spleen, & Thymus, pp 583-633
+. Langerhans cell histiocytosis, pp 627-628
+ Chap. 15 : The lung, pp 673-729
+. Chronic diffuse interstitial (restrictive) diseases, pp. 688700
+R. M. du Bois. An earlier and more confident diagnosi of idiopathic pulmonary fibrosis. Eur Respir Rev 2012; 21:141-146.
+
+Matériel associé
+-
+
+Coupe AMC-15/1 : sarcoïdose
+Coupe AMC-15/2 : granulome éosinophile
+Coupe AMC-15/3 : fibrose interstitielle (« Usual interstitial pneumonia »)
+Coupe AMC-15/4 : fibrose pulmonaire en nid d’abeille.
+Pathologie – « AMC Médecine Interne »
+49
+
+Séminaire N° 15
+Voir le site Moodle
+
+Pathologie – « AMC Médecine Interne »
+50
+
+Séminaire N° 15
+
+Macroscopie
+Pneumopathies alvéolaires et inflammatoires (bronchiectasies, emphysème, mucoviscidose).
+
+Description histopathologique de coupes
+Coupe 15/1 : Sarcoïdose
+Le parenchyme pulmonaire est fortement remanié par une inflammation de type granulomateux sans localisation préférentielle. Les granulomes sont de taille variable et
+entourés d’une fibrose lamellaire circonférentielle sous forme de dépôts des fibres collagènes éosinophiles. Les granulomes sont constitués d’un mélange de cellules épithélioïdes et de cellules géantes. Les cellules épithélioïdes sont des cellules à cytoplasme éosinophile modérément abondant et un noyau allongé parfois nucléolé. Les
+cellules géantes présentent des noyaux en périphérie (type Langhans). Certains granulomes démontrent une petite zone de nécrose centrale. Autour de la zone de fibrose
+on observe un infiltrat par des lymphocytes matures.
+Diagnostics différentiels : 1. Sarcoïdose;
+2. Tuberculose (coloration de Ziehl Neelsen);
+3. Affection mycotique (pneumocystis, etc...) (coloration de
+Grocott);
+4. Alvéolite allergique
+Coupe 15/2 : Granulome éosinophile pulmonaire
+Le parenchyme pulmonaire présente de façon focale des accumulations très importantes de cellules mononucléées dans les espaces alvéolaires. Il n’y a pas de fibrose.
+L’infiltrat alvéolaire est constitué en grande partie par des macrophages alvéolaires
+contenant parfois un pigment brun-noirâtre. Mêlées à ces macrophages, on observe
+également des cellules de Langerhans (antigen presenting cells APC). Il s’agit de cellules spécialisées de la lignée des macrophages qui présentent un noyau plus allongé
+avec une fente nucléaire médiane.
+Diagnostic différentiel : Pneumonie interstitielle desquamative
+Il s’agit d’une forme particulière d’inflammation pulmonaire caractérisée par des accumulations alvéolaires de macrophages (pas de cellules de Langerhans). Cette entité
+pourrait être une forme de fibrose interstitielle débutante.
+
+Pathologie – « AMC Médecine Interne »
+51
+
+Séminaire N° 15
+
+Coupe 15/3 : Fibrose interstitielle idiopathique (« Usual intersititial pneumonia »)
+Inflammation interstitielle associée à de la fibrose débutante et touchant de façon hétérogène le parenchyme pulmonaire : en effet de nombreux septa alvéolaires sont élargis et contiennent un nombre augmenté de fibres collagènes et de matrice extracellulaire. De même les septa présentent un infiltrat mononucléé sous forme de lymphocytes de petite taille, de macrophages par endroits on voit également des foyers de
+proliférations fibroblastiques témoignant de lésions fibrosantes actives. A noter la préservation de certaines zones du parenchyme alvéolaire.
+
+Coupe 15/4 : Fibrose pulmonaire terminale avec image en nid d’abeille
+Présence de bandes de fibrose à prédominance sous-pleurale et s’étendant également dans le parenchyme pulmonaire en particulier le long des axes bronchiovasculaires. Les zones les plus densément fibrosées sont constituées par des plages de
+collagène au sein desquelles se trouvent des lymphocytes disséminés et parfois en
+amas. On constate également une hyperplasie des cellules musculaires lisses. Les
+voies aériennes terminales sont dilatées. On voit aussi des kystes microscopiques correspondant soit à des kystes bronchiolaires par rétraction soit à des kystes alvéolaires.
+Quelques foyers de bronchiolite purulente sont visibles.
+
+Pathologie – « AMC Médecine Interne »
+52
+
+AMC Chirurgie
+
+AMC CHIRURGIE
+
+Pathologie – « AMC Chirurgie »
+53
+
+Séminaire N° 1
+
+SEMINAIRE N° 1 : INTRODUCTION A LA PATHOLOGIE
+(Dr Jean-Christophe Tille)
+Question(s):
+- Quelles sont les bases légales de l’autopsie ?
+- Dans quel but est pratiquée l’autopsie ?
+- Quels arguments pouvez-vous utiliser pour convaincre la famille de la nécessité
+d’une autopsie ?
+- Quelle est l’importance de l’autopsie pour la famille, le médecin traitant, le
+pathologiste et l’étudiant.e ?
+- Comment l’autopsie est-elle effectuée ?
+- Quelles sont les informations utiles que vous tirez de l’histoire clinique ?
+- Quel diagnostic posez-vous sur les données macroscopiques, microscopiques et
+les éventuelles investigations supplémentaires ?
+- Est-ce que l’autopsie est une option ou une obligation pour le contrôle de qualité
+dans la médecine ?
+- Quel est le but d’un examen extemporané ?
+- Quelle est la différence entre un examen histologique et cytologique ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître:
+•
+
+Les différents buts de l’autopsie.
+
+•
+
+L’autopsie comme instrument de contrôle de qualité de la
+médecine.
+
+•
+
+Le rôle de l’examen extemporané.
+
+•
+
+La différence entre la cytologie et l’histologie.
+
+Pathologie – « AMC Chirurgie »
+54
+
+Séminaire N° 1
+
+REFERENCES
+PATHOLOGIE
+
+Loi concernant la constatation de décès et les interventions sur
+les cadavres humains du 16 septembre 1988, nouvelle teneur dès
+le 18-5-1996.
+S. J. McPhee. Maximizing the benefits of autopsy for clinicians and families. Arch Pathol Lab Med 1996; 120 : 743-748.
+R. E. Anderson. The autopsy as an instrument of quality assessment. Arch Pathol Lab Med 1984; 108 : 490-493.
+W. Mac Gee. Causes of death in a hospitalized geriatric population : an autopsy study of 3000 patients. Virchows Arch A
+Pathol Anat 1993; 423 : 343-349.
+
+Pathologie – « AMC Chirurgie »
+55
+
+AMC Chirurgie Viscérale
+
+AMC CHIRURGIE VISCERALE
+
+Pathologie – « AMC Chirurgie Viscérale »
+56
+
+Séminaire N° 5
+
+SEMINAIRE N° 5 : RECTOCOLITE ULCEREUSE HEMORRAGIQUE (1H45)
+(Dre Suzanne Chartier)
+(CF. PROBLEME CORRESPONDANT : AMC CHIRURGIE VISCERALE)
+
+PROBLEME CLINIQUE
+Un homme de 17 ans d’origine italienne, souffre depuis 4 jours de douleurs abdominales en crampes associées à des diarrhées sanglantes diurnes et nocturnes (environ
+20/24 heures). Pas de nausées, ni de vomissements associés. Aucun épisode comparable dans le passé et absence de déplacement récent à l’étranger. Aucun antécédent médico-chirurgical particulier.
+Après l’examen physique et les données de la chimie clinique, des cultures, des examens de parasitologie et une colonoscopie totale sont pratiqués.
+On note une inflammation aiguë micro-ulcérée du sigmoïde et du rectum sur les derniers 25 cm; le reste de la muqueuse est strictement normal. Plusieurs biopsies sont
+effectuées.
+Au cours de la maladie, une colectomie totale avec poche iléo-anale est effectuée.
+L’examen macroscopique de la pièce opératoire montre une atteinte diffuse et continue du côlon et du rectum. La muqueuse est érythémateuse, avec de nombreux ulcères longitudinaux et des îlots de muqueuse résiduelle d’aspect en pavé, par places
+pseudopolypeux.
+
+PATHOLOGIE
+Les lésions morphologiques cardinales des deux maladies inflammatoires principales
+du tube digestif (RCUH et maladie de Crohn) son illustrées. A l’aide des ouvrages de
+références proposés, (surtout Cotran-Robbins), vous devriez être capables de repérer
+ces lésions et d’indiquer les différences entre ces 2 maladies sur les coupes, et tâcher
+de déterminer les signes cardinaux de ces atteintes chroniques intestinales. Une distinction entre ces deux entités est importante, vu que la prise en charge thérapeutique
+ainsi que les complications à long terme sont différentes. Le pathologiste n’est pas
+seulement impliqué dans le diagnostic initial de ces maladies - qui se fait normalement
+sur des biopsies endoscopiques et dont vous trouvez un exemple de chacune dans
+votre boîte - mais aussi dans le suivi de ces patients. Le rôle du dépistage est surtout
+important dans la RCUH, connue pour développer des lésions dysplasiques associées
+à un risque important d’évoluer vers un carcinome (voir aussi unité d’intégration N° 3).
+
+Pathologie – « AMC Chirurgie Viscérale »
+57
+
+Séminaire N° 5
+
+Questions:
+- Quelles sont les informations que vous pouvez tirer de l’histoire clinique et de l’examen endoscopique (colonoscopie) ?
+- Pourquoi un examen bactériologique et parasitologique des selles est-il demandé ?
+- Pourquoi des biopsies sont-elles effectuées? Comment le gastro-entérologue va-til procéder ?
+- Décrivez les lésions histologiques présentes sur la biopsie initiale (coupe AMC-5/1).
+Quelles sont vos conclusions ?
+- Quelles sont les informations que vous tirez de la coupe histologique provenant de
+la pièce opératoire (coupe AMC-5/2). Quels éléments tirez-vous de la description
+macroscopique ?
+- Quels éléments vous ont-ils permis de poser le diagnostic ?
+- Quel diagnostic différentiel est illustré dans les coupes (coupes AMC-5/3 et AMC5/4), provenant d’une biopsie initiale et de la pièce de résection iléo-colique ultérieure d’une jeune patiente avec une iléo-colite. Quelles sont les différences principales entre les deux pathologies illustrées ?
+- A l’aide des ouvrages de références proposés, recherchez les différences principales entre ces 2 maladies sur les coupes et tâchez de repérer les signes cardinaux
+de ces atteintes chroniques intestinales.
+- Quels sont les risques des ces pathologies à court et à long terme ?
+- Connaissez-vous d’autres manifestations de ces maladies ?
+- Qu’allez-vous demander au pathologiste lors de la biopsie initiale et des biopsies
+ultérieures ?
+- Quels sont les concepts étiopathogéniques actuellement en vigueur ?
+
+Pathologie – « AMC Chirurgie Viscérale »
+58
+
+Séminaire N° 5
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+pouvoir :
+•
+
+Connaître les 2 principales atteintes inflammatoires chroniques de l’intestin.
+
+•
+
+Savoir comment les distinguer, et pourquoi.
+
+•
+
+Saisir l’importance du diagnostic différentiel dans le suivi
+du patient (complications, pronostic).
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 17 : The gastrointestinal Tract, pp. 753-822
+. Infectious enterocolitis, pp. 787-798
+. Inflammatory Bowel Disease, pp. 798-804
+. Crohn disease, pp. 800-801
+. Ulcerative colitis, pp. 801-803
+Strayer DS, Saffitz JE. Rubin’s Pathology. Mechanisms of human disease. Philadelphia: Wolters Kluwer, 8th edition, 2020.
+(Réf. BFM QZ 4 23)
+ Chap. 19 : The Gastrointestinal tract, pp. 751-823,
+. Infections of the large intestine, pp. 799-800,
+Diverticular disease, pp. 800-802
+Inflammatory bowel disease, pp. 803--809.
+
+POUR EN SAVOIR R.M. Feakins. Inflammatory Bowel Disease Biopsies: updated
+PLUS
+British Society of Gastroenterology reporting guidelines. J
+Clin Pathol 2013; 66 : 1005-1026.
+F. Magro et al. European Concensus on the Histopathology of
+Inflammatory Bowel Disease. J Crohn’s and Colitis 2013 ;7 :
+827-851.
+
+Pathologie – « AMC Chirurgie Viscérale »
+59
+
+Séminaire N° 5
+
+Matériel associé
+-
+
+Coupe AMC-5/1 : rectocolite ulcéro-hémorragique : biopsie initiale colique
+Coupe AMC-5/2 : rectocolite ulcéro-hémorragique : pièce de résection colique
+Coupe AMC-5/3 : maladie de Crohn : biopsie initiale colique
+Coupe AMC-5/4 : maladie de Crohn : pièce de résection iléo-colique.
+
+Voir le site Moodle
+
+Macroscopie
+RCUH; Crohn; diverticulite; péritonite; colite ischémique.
+
+Description histopathologique des coupes
+
+Les coupes 5/1 et 5/3 montrent de petits prélèvements endoscopiques (biopsies) effectués lors des investigations initiales pour suspicion d’une maladie inflammatoire
+chronique. Contrairement aux prélèvements provenant des pièces de résection
+(coupes 5/2 et 5/4), ces prélèvements intéressent uniquement la muqueuse et éventuellement les parties superficielles de la sous-muqueuse tandis que la paroi profonde
+notamment la musculature propre et l’adventice ne sont pas échantillonnés. En conséquence, une partie des critères diagnostiques, comme l’extension transpariétale des
+lésions inflammatoires dans la maladie de Crohn et souvent l’architecture des ulcères,
+ne peuvent être appréciées dans les biopsies endoscopiques. De même, l’extension
+des lésions inflammatoires ne peut être évaluée, si l’ensemble des fragments biopsiques est mis dans le même bocal. Afin de pouvoir apprécier l’extension et la topographie des lésions inflammatoires, le clinicen doit les mettre dans des bocaux différents et indiquer leur localisation respective. C’est donc les données endoscopiques
+qui remplacent l’examen macroscopique qui est possible seulement sur les pièces de
+résection.
+Dans les tableaux suivants sont indiqués la démarche principale de l’examen histologique d’un patient biopsié pour une suspicion de maladie inflammatoire chronique
+(RCUH ou maladie de Crohn), leurs critères diagnostiques principaux ainsi que leurs
+diagnostics différentiels.
+
+Pathologie – « AMC Chirurgie Viscérale »
+60
+
+Séminaire N° 5
+
+Biopsie: Suspicion de MIC
+Biopsies colique, rectale, iléale
+normale
+MIC
+RCUH
+
+C. indeterminé
+
+inflammation
+
+de type infectieuse
+M. de Crohn
+
+autre
+colite microscopique
+colite collagène
+
+Colite chronique
+ass. à
+Maladie diverticulaire
+
+Critères diagnostiques principaux
+RCUH
+modifications architectu-
+
+M. de Crohn
+
++++
+
++/++
+
+--
+
+-/nl
+
+cellularité lamina propria
+
++++, diffuse
+
++/++, focale
+
+granulome épithélïoïde
+
+-
+
++
+
+cryptite/abcès de crypte
+
++++
+
++, focale
+
+déplétion mucineuse
+
++++
+
++
+
+rales
+densité des cryptes
+
+Diagnostics différentiels de la MIC
+ Colite/iléïte infectieuse
+salmonellose, shigellose, yersiniose, à E.coli
+tuberculeuse
+champignons
+ Colite obstructive
+ Colite microscopique
+idiopathique vs secondaire
+ Autre (médicamenteuse)
+
+Pathologie – « AMC Chirurgie Viscérale »
+61
+
+non classable
+
+Séminaire N° 6
+
+SEMINAIRE N° 6 : CANCERS DIGESTIFS HAUTS (1H45)
+(Dre Suzanne Chartier)
+
+(CF PROBLÈME CORRESPONDANT : AMC CHIRURGIE VISCERALE)
+
+PROBLEME CLINIQUE
+Patient de 47 ans, d’origine espagnole, aide hospitalier, consultant pour des épigastralgies et un amaigrissement. Le patient relate un épisode de blocage de la déglutition. Il est sévèrement tabagique (50 UPA) et consomme environ 1 litre de vin rouge
+par jour. Après les examens cliniques et biochimiques (cf. AMC Chirurgie Problème
+N° 5), une oeso-gastro-duodénoscopie est pratiquée.
+L’oesophagoscopie montre une tumeur sténosante à 32 cm de l’ADS. Des biopsies
+sont effectuées, qui montrent un carcinome épidermoïde invasif.
+L’examen endoscopique est complété par une écho-endoscopie et un CT-scan abdominal, afin de déterminer le stade de la tumeur.
+
+PATHOLOGIE
+Cet exemple illustre les cancers les plus fréquents du tube digestif haut dans nos régions : le carcinome épidermoïde de l’oesophage, l’adénocarcinome développé dans
+un oesophage de Barrett et l’adénocarcinome de l’estomac. Dans la pathogenèse de
+ces tumeurs, le tabagisme, ainsi que l’irritation chronique par des aliments (liquides et
+solides) jouent un rôle important. L'implication d'agents infectieux, notamment l’Helicobacter pylori, est illustrée par la séquence d'évolution vers l'adénocarcinome gastrique, précédée par des lésions métaplasiques puis dysplasiques de la muqueuse.
+Cependant, la transition d’une métaplasie à une dysplasie est un événement rare, et
+la présence d’une dysplasie notamment de haut grade, est associée à un risque important d’évolution vers un carcinome. Le diagnostic anatomopathologique est donc
+essentiel.
+
+Questions:
+- Expliquez la différence entre métaplasie et dysplasie.
+- Quelle type de tumeur vous montre la coupe AMC-6/1 provenant de la pièce opératoire ? Comment évaluez-vous le grade et le stade de cette tumeur ?
+
+Pathologie – « AMC Chirurgie Viscérale »
+62
+
+Séminaire N° 6
+
+- La coupe AMC-6/2 présente une autre catégorie de lésion de l'œsophage. Quel
+diagnostic histologique faut-il retenir ? Vers quelle tumeur maligne invasive cette
+lésion a-t-elle évolué ?
+- La coupe AMC-6/3 vous présente un cancer dont les cellules sont tout à fait différentes de celles vues dans les 2 premières coupes, et qui pourtant proviennent
+aussi d’une muqueuse. En quoi consiste cette différence morphologiquement ?
+Quel est l’organe d’origine de ce cancer ?
+- Rôle des gastrites chroniques (voir coupe AMC-6/4). Connaissez-vous d’autres tumeurs non épithéliales pouvant se développer dans le contexte d’une gastrite chronique ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+pouvoir :
+•
+
+Connaître les types les plus fréquents de cancer survenant dans le secteur digestif haut et en apprécier les importantes différences géographiques.
+
+•
+
+Connaître les possibles pathologies associées (gastrite
+chronique) et les lésions précurseurs (métaplasie, dysplasie).
+
+•
+
+Connaître les principes de “ grading ” et de “ staging ” des
+tumeurs malignes.
+
+•
+
+Apprécier le rôle joué par l’irritation chronique d’une muqueuse dans la survenue d’une métaplasie, d’une dysplasie et finalement d’un carcinome.
+
+Pathologie – « AMC Chirurgie Viscérale »
+63
+
+Séminaire N° 6
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ chap. 17 : The gastrointestinal tract, pp. 753-822
+Strayer DS, Saffitz JE. Rubin’s Pathology. Mechanisms of human disease. Philadelphia: Wolters Kluwer, 8th edition, 2020.
+(Réf. BFM QZ 4 23)
+ chap. 13 : The Gastrointestinal tract, pp. 755-776.
+
+Matériel associé
+-
+
+Coupe AMC-6/1 : carcinome épidermoïde de l’œsophage
+Coupe AMC-6/2 : œsophage de Barrett et adénocarcinome
+Coupe AMC-6/3 : adénocarcinome diffus de l’estomac (cardia)
+Coupe AMC-6/4 : gastrite chronique atrophique.
+
+Voir le site Moodle
+
+Pathologie – « AMC Chirurgie Viscérale »
+64
+
+Séminaire N° 6
+
+Macroscopie
+Cancers digestifs hauts (dd ulcère, oesophage, estomac); cancers digestifs bas (côlon,
+rectum).
+
+Description histopathologique des coupes
+Les lames mises à votre disposition illustrent les principaux types histologiques de
+carcinome rencontrés dans le tube digestif haut (œsophage et estomac), à savoir le
+carcinome épidermoïde de l’œsophage, l’adénocarcinome du bas œsophage développé en terrain d’œsophage de Barrett et l’adénocarcinome à cellules dyscohésives.
+Les adénocarcinomes classiques de l’estomac de localisation antrale diminuent, en
+raison de l’éradication de l’Helicobacter pylori.
+Le carcinome à un stade précoce est illustré, correspondant à une tumeur limitée à la
+muqueuse ou à la sous-muqueuse, de même que le carcinome de stade plus avancé,
+avec invasion de toute l’épaisseur de la paroi ; des métastases ganglionnaires ou des
+métastases à distance sont souvent associées. Tandis que le carcinome précoce a un
+très bon pronostic en l’absence d’invasion lymphatique, le carcinome avancé, peu importe le type histologique, est de très mauvais pronostic. Le carcinome précoce est
+illustré par l’adénocarcinome développé dans un œsophage de Barrett et le carcinome
+avancé par le carcinome épidermoïde de l’œsophage ainsi que l’adénocarcinome à
+cellules dyscohésives de l’estomac.
+Le carcinome épidermoïde est caractérisé par une différenciation rappelant l’épiderme,
+avec des plages de cellules à cytoplasme éosinophile abondant et des signes de kératisation (globes cornés, cf. fascicule de l’APP).
+L’adénocarcinome est en revanche caractérisé par une différenciation glandulaire
+avec présence de structures tubulo-glandulaires. Dans les adénocarcinomes à cellules
+dyscohésives, les cellules tumorales infiltrent de façon isolée, sans former de glandes ;
+toutefois, une mucosecrétion est observée, sous la forme d’une gouttelette de mucus
+intracellulaire.
+La dernière lame illustre une gastrite chronique à Helicobacter pylori avec métaplasie
+intestinale (cf. cahier APP).
+
+Pathologie – « AMC Chirurgie Viscérale »
+65
+
+Séminaire N° 26
+
+SEMINAIRE N° 26 : PATHOLOGIE MACROSCOPIQUE (1H45)
+(Dre Aurélie Bornand)
+
+Thèmes abordés :
+• Foie : cirrhose; carcinome hépatocellulaire; cholangiocarcinome; métastases.
+• Voies biliaires : lithiase; cholécystite; carcinomes.
+• Rate : splénomégalie.
+
+Pathologie – « AMC Chirurgie Viscérale »
+66
+
+AMC Chirurgie Orthopédique
+
+AMC CHIRURGIE ORTHOPEDIQUE
+
+Pathologie – « AMC Chirurgie Orthopédique »
+67
+
+Séminaire N° 7
+
+SEMINAIRE N° 7 : TUMEUR OSSEUSE (1H45 INCLUS LE N° 8)
+(Dre Essia Saiji)
+(CF. PROBLEME N°4 : AMC CHIRURGIE ORTHOPEDIQUE)
+
+PROBLEME CLINIQUE
+Une jeune fille de 19 ans note l’apparition d’une tuméfaction modérée au niveau de la
+face antéro-externe du genou gauche. Dans les semaines qui suivent, sans augmentation notable de taille, cette masse devient un peu douloureuse, spontanément, mais
+surtout à la palpation. Elle consulte un mois plus tard car les symptômes ne disparaissent pas.
+Elle ne se plaint d’aucune atteinte de l’état général, ni de faiblesse du membre inférieur.
+Elle fait un apprentissage d’esthéticienne et ne pratique pas de sport.
+
+Examen physique : Patiente de 19 ans, en bon état général, sans état fébrile, pas
+d’adénopathie. TA 115/70, pouls régulier. Status cardio-pulmonaire sans particularité.
+Marche avec une discrète boiterie antalgique, pas d’inégalité de longueur des
+membres inférieurs. Mobilité complète des hanche, genou et cheville gauches. Palpation peu douloureuse d’une discrète tuméfaction ferme au niveau de la face antéroexterne de la métaphyse proximale du tibia G. Extrémité proximale du péroné indolore.
+Pas de trouble neuro-vasculaire périphérique, et en particulier pas d’atteinte du nerf
+péronier commun.
+
+PATHOLOGIE
+La tumeur primitive de l’os faisant l’objet de ce problème, est illustrée dans la coupe
+AMC-7/1 (ostéosarcome). C’est de loin la tumeur osseuse la plus fréquente. Le sarcome d’Ewing (coupe AMC-7/2) est une tumeur osseuse primitive relativement moins
+fréquente. Ces 2 tumeurs sont biologiquement très différentes.
+
+Pathologie – « AMC Chirurgie Orthopédique »
+68
+
+Séminaire N° 7
+
+Questions:
+- Laquelle des deux tumeurs est ostéogénique ?
+-
+
+Quelles sont les cellules à l’origine, respectivement, de l’ostéosarcome et du sarcome d’Ewing ?
+
+- Une de ces 2 tumeurs peut parfois présenter une lésion génétique rencontrée très
+fréquemment dans un autre cancer pédiatrique. Quelle est cette lésion génétique
+et quel chromosome touche-t-elle ?
+- Une de ces 2 tumeurs présente toujours une altération chromosomique. Laquelle
+et quelle est son utilité diagnostique ?
+-
+
+Une métastase osseuse d’un adénocarcinome (coupe AMC-7/3) complète ce séminaire de pathologie tumorale osseuse. L’accumulation secondaire de cellules
+tumorales dans la matrice osseuse présente des images lytiques en principe facilement distinguables des atteintes de l’os en cas de tumeur primitive. Recherchez
+les foyers métastatiques et définissez l’état de la structure osseuse avoisinante.
+- Pourquoi le carcinome prostatique fait-il de fréquentes métastases osseuses ?
+Quelles explications peut-on offrir pour expliquer ce phénomène ? Quels autres
+carcinomes montrent aussi une tendance à métastatiser dans l’os ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient
+pouvoir :
+
+PATHOLOGIE
+
+•
+
+Connaître l’aspect histopathologique des 2 principales tumeurs primitives de l’os.
+
+•
+
+Connaître les mécanismes de métastatisation osseuse
+des différents carcinomes.
+
+•
+
+Connaître la classification histologique des tumeurs osseuses en fonction de la cellule d’origine.
+
+•
+
+Connaître les différences dans le comportement biologiques des sarcomes par rapport aux carcinomes en matière de métastatisation.
+
+•
+
+Connaître l’utilité et les limites des différents types de
+biopsies utilisés pour arriver au diagnostic histologique.
+
+•
+
+Connaître la morphologie des principales tumeurs osseuses et l’importance du grade histologique.
+
+Pathologie – « AMC Chirurgie Orthopédique »
+69
+
+Séminaire N° 7
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ chap. 26 : Bones, Joints, and Soft Tissue Tumors, pp
+1171-1215.
+•
+•
+•
+
+Osteosarcoma, pp.1188-1189
+Ewing sarcoma, pp. 1192-1193
+Metastatic tumors, pp. 1196-1197
+
+Matériel associé
+- Coupe AMC-7/1 : ostéosarcome
+- Coupe AMC-7/2 : sarcome d’Ewing
+- Coupe AMC-7/3 : métastase osseuse d’un adénocarcinome.
+Voir le site Moodle
+
+Macroscopie
+Tumeurs osseuses malignes.
+
+Description histopathologique des coupes
+Coupe 7/1 : Ostéosarcome
+La coupe provient de l'épiphyse d'un os long. A une extrémité on trouve le cartilage
+hyalin de surface, intact. Dans l'os spongieux, on note une infiltration tumorale diffuse
+de tous les espaces médullaires avec persistance de quelques travées résiduelles d'os
+lamellaire. La tumeur est constituée de nappes de grandes cellules avec un pléomorphisme cellulaire marqué et quelques mitoses. Entre les cellules tumorales, on voit un
+fin réseau interstitiel d'ostéoïdes plus ou moins minéralisés, apparaissant en rose pâle
+(non minéralisés) ou violet foncé (minéralisés). Repérez les plages d'aspect cartilagineux avec des chondrocytes atypiques, de grande taille, à disposition anarchique,
+ainsi que les plages d'hémorragie et de nécrose au sein de la tumeur.
+Pathologie – « AMC Chirurgie Orthopédique »
+70
+
+Séminaire N° 7
+
+Pathologie – « AMC Chirurgie Orthopédique »
+71
+
+Séminaire N° 7
+
+Coupe 7/2 : Sarcome d'Ewing
+La coupe provient de la diaphyse d'un os long et n'intéresse que l'os spongieux. Les
+travées osseuses sont épaissies et la moelle montre des plages de fibrose. Au sein de
+plusieurs espaces médullaires, on voit une infiltration tumorale par des cellules assez
+monomorphes arrangées en cordons. Les cellules ont un noyau avec une chromatine
+fine et des petits nucléoles, plusieurs images mitotiques sont présentes, le cytoplasme
+est mal visible. Une bonne partie de la coupe est occupée par de la nécrose tumorale.
+
+Coupe 7/3 : Métastase osseuse d'un adénocarcinome
+La coupe provient de l'épiphyse d'un os long. Le cartilage hyalin articulaire est intact.
+Dans l'os spongieux on voit une infiltration des espaces médullaires par un adénocarcinome. La tumeur forme des structures glandulaires de taille variable avec des massifs cribriformes. Les cellules bordant les glandes ont un noyau de grande taille avec
+un ou deux gros nucléoles. Elles comportent souvent une gouttelette de muco-sécrétion intracytoplasmique refoulant le noyau en périphérie. Les travées d'os spongieux
+lamellaire sont encore bien visibles. A une extrémité de la coupe, sous le cartilage
+articulaire, on voit une large plage de nécrose des espaces médullaires.
+
+Pathologie – « AMC Chirurgie Orthopédique »
+72
+
+Séminaire N° 8
+
+SEMINAIRE N° 8 : ARTHROSE (1H45 INCLUS LE N° 7)
+(Dre Essia Saiji)
+(CF. PROBLEME N° 5 : AMC CHIRURGIE ORTHOPEDIQUE)
+
+PROBLEME CLINIQUE
+Depuis plusieurs années, Madame Gléneau, sympathique patiente de 68 ans, se plaint
+de douleurs dans l’épaule gauche. Les douleurs sont survenues petit à petit et depuis
+quelques mois elles sont intolérables. Tout mouvement lui fait mal et la nuit elle ne sait
+pas comment se mettre pour pouvoir dormir. Elle note que, depuis un certain temps,
+la force lui manque et qu’elle a des difficultés à faire son ménage ou sa toilette et même
+enfiler un manteau devient difficile.
+Son médecin lui a fait suivre des séances de physiothérapie et lui a prescrit des médicaments antalgiques et anti-inflammatoires. Au début, ces mesures étaient efficaces
+puis la situation s’est dégradée et le médecin a procédé à une série de trois infiltrations
+intra-articulaires. Les deux premières étaient très efficaces avec un effet sur plusieurs
+semaines, mais une douleur vive est revenue après la troisième et la situation est
+maintenant devenue intolérable.
+Vivant seule, elle n’arrive plus à se débrouiller et elle sent que sa qualité de vie est en
+train de se détériorer.
+A l’examen général, on trouve une patiente en bon état général. L’examen par systèmes ne révèle aucune anomalie importante.
+L’examen clinique de l’épaule met en évidence une atrophie musculaire restreinte autant en actif qu’en passif et la mobilisation provoquent de vives douleurs. L’élévation
+est à 90° (160° à droite), l’abduction est à 70° (110° à droite), la rotation externe est à
+0° coude au corps (80° à droite) et la rotation interne est limitée au sacrum (vertèbre
+D7 à droite). Lors de la mobilisation articulaire, on a l’impression d’un frottement accompagné de grincements sonores. Le testing musculaire est difficile en raison des
+douleurs. Malgré cela, la musculature développe une force estimée entre 4 et 5 (deltoïde, sous-épineux, sus-épineux, sous-scapulaire, biceps, trapèze). La sensibilité et
+les réflexes ostéo-tendineux sont normaux. Les pouls sont présents et bien frappés.
+Les radiographies que la patiente amène, mettent en évidence une disparition de l’interligne gléno-huméral, une sclérose sous-chondrale est visible, des kystes sont nombreux dans la tête humérale ainsi que de volumineux ostéophytes.
+
+Pathologie – « AMC Chirurgie Orthopédique »
+73
+
+Séminaire N° 8
+
+PATHOLOGIE
+Il s’agit de l’arthrose (osteoarthritis, en anglais) (coupe AMC-8/2) et d’une coupe illustrant l’une des pathologies fréquentes au niveau de la hanche à distinguer de l’arthrose
+(coupe AMC-8/4) (nécrose aseptique de la tête fémorale). Nous vous conseillons de
+revoir les notions d’anatomie (et d’histologie) acquises lors de votre passage dans
+l’unité Locomotion (Unité 12, 3ème année).
+L’arthrose représente l’atteinte dégénérative la plus fréquente en pathologie humaine.
+A l’aide du Robbins, essayez de repérer les lésions initiales de la maladie (atteinte du
+cartilage), puis d’identifier les altérations de la matrice osseuse qui surviennent ultérieurement (condensations osseuses, kystes intra-osseux et ostéophytes). La coupe
+de nécrose aseptique vous montre les conséquences de l’ischémie au niveau de l’os.
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient
+pouvoir :
+
+PATHOLOGIE
+
+•
+
+Distinguer l’atteinte dégénérative à point de départ cartilagineux de l’atteinte inflammatoire touchant sélectivement la synoviale.
+
+•
+
+Comprendre l’importance de l’anatomie de l’articulation
+et des structures para-articulaires et leurs altérations
+pouvant conduire à l’arthrose.
+
+•
+
+Connaître les modifications morphologiques du cartilage
+dans l’arthrose.
+
+•
+
+Connaître les modifications osseuses secondaires (condensations osseuses, kystes intra-osseux, ostéophytes).
+
+•
+
+Connaître les modifications des structures articulaires accompagnant l’arthrose (synoviale, capsule articulaire)
+
+•
+
+Connaître les différents types d’arthrose (primaires, secondaires).
+
+•
+
+Comprendre les différences morphologiques au niveau
+de l’atteinte osseuse et synoviale avec :
+- une atteinte ischémique (nécrose aseptique)
+- une atteinte inflammatoire (PR)
+
+•
+
+Corréler les lésions anatomiques de l’arthrose avec
+l’image radiologique et la symptomatologie.
+
+Pathologie – « AMC Chirurgie Orthopédique »
+74
+
+Séminaire N° 8
+
+RÉFÉRENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ chap. 26. Bone, Joints and Soft Tissue Tumors, pp
+1171-1215
+. Osteoarthritis, pp. 1198-1199
+. Osteonecrosis, pp 1185
+P. G. Bullough. Orthopaedic Pathology. Maryland Heights (Missouri) Mosby-Elsevier, 5th edition, 2010 (Réf. BFM WE 200 13).
+
+
+Chap. 11 The Noninflammatory arthritides
+. osteoarthritis (degenerative joint disease), pp. 254-265
+
+ Chap. 4. The Effects of Injury and the Inflammatory response
+. Necrosis, pp. 84-85.
+
+Matériel associé
+- Coupe AMC-8/2 : arthrose
+- Coupe AMC-8/4 : nécrose aseptique de la tête fémorale.
+Voir le site Moodle
+
+Macroscopie
+Arthrose; nécrose.
+
+Pathologie – « AMC Chirurgie Orthopédique »
+75
+
+Séminaire N° 8
+
+Description histopathologique des coupes
+Coupe 8/2 : Arthrose
+La coupe provient de la tête fémorale. A l'œil nu, on voit, sur environ la moitié de la
+surface, un liseré bleu violacé correspondant au cartilage hyalin, l'autre moitié étant de
+couleur rose (dépourvue de cartilage) = zone de charge. Repérer dans cette zone le
+kyste intra-médullaire et la condensation osseuse de toute la surface dépourvue de
+cartilage (comparer avec la densité osseuse de l'os spongieux en profondeur de la
+coupe).
+Au microscope, dans la zone de charge on voit que la surface articulaire est constituée
+d'os compact sans revêtement cartilagineux. Dans cette zone, les espaces médullaires
+sont occupés par du tissu fibreux sans cellules adipeuses ni hématopoïèse. Le kyste
+est en réalité un pseudokyste; il ne possède pas de revêtement épithélial, la paroi étant
+constituée par du tissu fibreux.
+La zone où le cartilage est encore conservé correspond à l'ostéophyte. Repérer les
+travées osseuses avec l'ossification de type enchondral et l'hématopoïèse normale
+dans les espaces médullaires.
+
+Coupe 8/4 : Nécrose aseptique
+La coupe provient de la tête fémorale. A l'œil nu on voit un décollement complet du
+cartilage hyalin de l'os sous-chondral correspondant à la zone de nécrose.
+Au microscope, le cartilage est encore viable. Repérer la zone de nécrose. Les travées
+osseuses sont encore visibles, mais on ne voit plus de noyaux d'ostéocytes dans les
+lacunes intraosseuses. La moelle séparant les travées est nécrosée, on ne voit plus
+d'adipocytes mais des plages de fibrine; noter l'absence de cellules inflammatoires
+(nécrose aseptique). Repérer en profondeur l'interface entre le tissu nécrosé et le tissu
+encore viable. Dans cette zone, on voit un tissu de granulation avec prolifération vasculaire, fibroblastes, quelques cellules inflammatoires et un important remodelage osseux (ostéoblastes et ostéoclastes).
+
+Pathologie – « AMC Chirurgie Orthopédique »
+76
+
+AMC Chirurgie Thoracique
+
+AMC CHIRURGIE THORACIQUE
+
+Pathologie – « AMC Chirurgie Thoracique »
+77
+
+Séminaire N° 16
+
+SEMINAIRE N° 16 : NODULE THYROÏDIEN (45 MIN.)
+(Dr Claudio De Vito)
+(CF. VIGNETTE N° 2: AMC CHIRURGIE THORACIQUE)
+
+PROBLEME CLINIQUE
+Dans la famille Laboulette, les femmes ont des goitres de mère en fille et Simone, 23
+ans, ne fait pas exception à la règle. Le sien est un petit nodule à gauche qu’on distingue à peine parce que Simone est discrètement grassouillette.
+Elle est suivie par un endocrinologue qui lui prescrit depuis 2 ans un traitement d’Eltroxine dit suppresseur. Mais cela l’a inquiétée, en plein été, sur la Côte d’Azur, quand
+elle a eu la nette impression que sa boule avait grossi, en quelques jours pratiquement,
+et que sa mère, avec infiniment de tact, avait confirmé ce sentiment. Une cytoponction
+ramène un liquide séro-hématique et des “ cellules de carcinome papillaire ”. Simone
+se décide à l’opération et le chirurgien lui dit qu’il devra lui enlever toute la thyroïde.
+
+PATHOLOGIE
+Le nodule de Simone semble contenir des cellules qui incitent le chirurgien à procéder à l’ablation du lobe gauche.
+
+Questions :
+- A quoi correspondent ces cellules tumorales prélevées au cours de la cytoponction
+(coupe AMC 16/4) ?
+- Les coupes proposées sont : la coupe AMC-16/3 : adénome folliculaire, la coupe
+AMC-16/4 : carcinome papillaire, coupe AMC-16/5 : carcinome indifférencié et la
+coupe AMC-16/6 : thyroïde normale.
+Ces pathologies thyroïdiennes ont été choisies parce qu’elles sont les plus fréquentes.
+Dans la coupe d’adénome (AMC-16/3),
+- Quelle est l’activité des cellules thyroïdiennes : produisent-elles peu ou beaucoup
+de colloïde, sont-elles organisées en follicule ou pas ?
+- Dans la coupe de carcinome papillaire (AMC-16/4), comparez l’aspect des noyaux
+avec ceux des cellules folliculaires normales. L’état des noyaux est en effet un élément important pour le diagnostic de carcinome papillaire.
+- Quels types histologiques de carcinome de la thyroïde connaissez-vous ? Quel est
+leur mode de métastatisation préférentiel ?
+
+Pathologie – « AMC Chirurgie Thoracique »
+78
+
+Séminaire N° 16
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+pouvoir :
+•
+
+Connaître les causes principales du nodule thyroïdien.
+
+•
+
+Parvenir à distinguer une atteinte bénigne (nodule hyperplasique, adénome) d’une atteinte maligne (carcinome)
+par un examen histopathologique systématique.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ chap. 24 : The endocrine system, pp 1065-1132
+
+Matériel associé
+- Coupe AMC-16/3 : adénome thyroïdien
+- Coupe AMC-16/4 : carcinome papillaire thyroïdien
+- Coupe AMC-16/5 : carcinome indifférencié
+- Coupe AMC-16/6 : thyroïde normale (matériel fourni par le Département de Morphologie, Genève)
+Voir le site Moodle
+
+Pathologie – « AMC Chirurgie Thoracique »
+79
+
+Séminaire N° 16
+
+Description histopathologique des coupes
+Coupe 16/3 : Adénome folliculaire
+Le nodule présent sur la coupe est constitué de micro-follicules avec parfois présence
+de colloïdes. Les thyréocytes sont réguliers sans atypie nucléocytoplasmique particulière. En périphérie, la lésion est bordée d’une fine capsule. Il n’y a pas d’invasion de
+part et d’autre de la capsule par le tissu thyroïdien micro-folliculaire de même, il n’y a
+pas d’invasion vasculaire avec des micro-follicules implantés sur la paroi vasculaire
+et/ou recouverte d‘un endothélium. A l’extérieur de la capsule, on observe un parenchyme thyroïdien normal parfois atrophique.
+Diagnostic différentiel : carcinome folliculaire.
+Coupe 16/4 : Carcinome papillaire thyroïdien
+Le prélèvement est centré par une tumeur constituée en grande partie de formations
+papillaires. Ces dernières sont constituées d’un axe conjonctivo-vasculaire tapissé par
+des cellules tumorales à noyaux agrandis irréguliers et en nombre augmenté avec
+parfois superposition. On cherchera 2 caractéristiques cytologiques : les noyaux en
+verre dépoli et les noyaux plissés (en grain de café).
+Coupe 16/5 : Carcinome indifférencié
+Le prélèvement présente un parenchyme thyroïdien normal infiltré par une tumeur
+montrant des cellules de grande taille, parfois fusiformes. Ces cellules se disposent en
+plages diffuses et on note des mitoses. On peut parfois observer dans ce type de
+tumeur la présence de nécrose. Pas de papilles ou de structure folliculaire au niveau
+de la tumeur.
+Coupe 16/6 : Thyroïde normale
+Cette coupe permet de voir des follicules au repos, à épithélium cubique ou aplati,
+et des follicules actifs à épithélium haut présentant des vacuoles claires au-dessus
+du pôle apical des cellules. Ces vacuoles correspondent à un artefact de fixation dû à
+la rétraction de la partie apicale des cellules laissant leurs empreintes sur le bord de
+la colloïde. (Texte fait par le Département de Morphologie, Genève).
+
+Pathologie – « AMC Chirurgie Thoracique »
+80
+
+AMC Chirurgie Urologique
+
+AMC CHIRURGIE UROLOGIQUE
+
+Pathologie – « AMC Chirurgie Urologique »
+81
+
+Séminaire N° 17
+
+SEMINAIRE N° 17 : HEMATURIE MACROSCOPIQUE (1H45 INCLUS N° 18 & N° 19)
+(Dre Essia Saiji)
+
+VIGNETTE N°1 : «DES URINES ROUGES»
+Un patient âgé de 50 ans, tabagique, est suivi par son médecin traitant pour des maux
+de tête et une constipation opiniâtre sur fond dépressif. Le seul constat régulier est
+une réaction positive à l'hémoglobine lors de l'examen d'urine à répétition. Le patient
+remarque tout récemment que ses urines deviennent sanglantes, tout au long de la
+miction, sans aucune douleur particulière, ni difficulté à uriner.
+
+PATHOLOGIE
+Etudiez les coupes d’uropathologie AMC-17/1 (carcinome rénal) et AMC-17/2 (carcinome vésical).
+Questions:
+-
+
+Reconnaissez les sites de prélèvements.
+
+-
+
+Quelle(s) coupe(s) peu(ven)t correspondre à l’histoire clinique de ce patient ?
+
+-
+
+Quelles informations pouvez-vous tirer de la coupe histologique ?
+
+-
+
+Pour ce type de néoplasie, que peut vous apporter la cytologie ?
+
+-
+
+Concernant le carcinome rénal, comment évolue cette tumeur (progression des
+stades et particularités).
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître :
+•
+
+Carcinome rénal: facteurs de risque, aspects cliniques essentiels, bases histologiques, caractéristiques de métastatisation et pronostic (bases du pTNM).
+
+•
+
+Carcinome urothélial de la vessie : épidémiologie, caractéristiques cliniques; bases histologiques, approche diagnostique, apport de la cytologie, pronostic (bases du
+pTNM).
+
+Pathologie – « AMC Chirurgie Urologique »
+82
+
+Séminaire N° 17
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 20 : The Kidney, pp. 895-952 (carcinome rénal);
+ Chap. 21 : The Lower Urinary Tract & Male Genital
+System, pp. 953-983 (tumeur vessie, voies urinaires).
+Amercian Joint Committee on Cancer. AJCC Cancer Staging
+Handbook. 8th edition. New York, Springer, 2017
+
+Matériel associé
+Coupes histologiques et numérisées
+- Coupe AMC-17/1 : carcinome à cellules claires rénales.
+- Coupe AMC-17/2 : carcinome urothélial de la vessie.
+
+Macroscopie
+Rein : Carcinome rénal.
+Vessie : Carcinome vésical.
+Voir également le site
+
+Description des coupes histologiques et numérisées
+Revoir histologie normale sur coupes numérisées AMC 17/0 et Histologie SU 03.
+
+Pathologie – « AMC Chirurgie Urologique »
+83
+
+Séminaire N° 17
+
+Coupe 17/1 : Carcinome à cellules claires rénales
+Néphrectomie.
+Retrouver, sur les bords du prélèvement et sous la capsule, des zones de parenchyme
+rénal non tumoral. Des tubes et des glomérules atrophiques et hyalinisés sont reconnaissables. Ils sont entourés d’une fibrose et d’une infiltration inflammatoire chronique
+lymphocytaire. Ces aspects sont compatibles avec une réaction à la compression tumorale.
+Le carcinome rénal est assez bien délimité. Il est constitué par des plages de cellules
+claires. Le stroma contient des vaisseaux souvent nombreux, de grande taille, avec
+des zones hémorragiques et quelques cellules inflammatoires mononucléées. Observer les cellules tumorales. Elles sont rondes ou polygonales et présentent un cytoplasme abondant et clair; elles ressemblent à des cellules végétales à cause de leur
+cytoplasme vide (lipides et glycogène ont été dissous pendant la déshydratation des
+tissus). Contrairement aux adipocytes, leur noyau n’est pas refoulé en périphérie. Noter la présence de nucléoles et d’irrégularités de la chromatine. Remarquer le cytoplasme éosinophile (rouge) et finement granulaire de certaines cellules tumorales.
+Coupes 17/2 : Carcinome urothélial de la vessie
+Encore appelé carcinome à cellules transitionnelles.
+Pièce de cystectomie totale.
+Retrouver la zone non tumorale sur un bord de la coupe. Reconnaître les différentes
+couches de la paroi vésicale. Remarquer l’œdème de la muqueuse et les foyers de
+lymphocytes dans la paroi.
+Identifier la tumeur. Noter qu’elle infiltre la musculeuse. Il s’agit d’un carcinome urothélial de haut grade (anciennement G3). Observer l’aspect peu différencié (= perte du
+caractère urothélial) des cellules tumorales en les comparant à l’urothélium normal.
+Noter l’importance des anomalies nucléaires et la fréquence des mitoses.
+
+Pathologie – « AMC Chirurgie Urologique »
+84
+
+Séminaire N° 18
+
+SEMINAIRE N° 18 : RETENTION URINAIRE D’ORIGINE PROSTATIQUE
+(Dre Essia Saiji)
+
+VIGNETTE N°3 : «UNE HISTOIRE DE BOUCHONS...»
+Monsieur Martin, retraité de 68 ans, vient d’effectuer un parcours en voiture, plus long
+que prévu d’ailleurs puisqu’il s’est trouvé pris dans un bouchon sur l’autoroute et que,
+pour ne pas perdre davantage de temps, il a décidé de ne pas faire de halte. Arrivé à
+destination, il a terriblement besoin d’uriner, mais il ne parvient pas à se soulager. Il
+ressent une douleur de plus en plus intense du bas-ventre, mais il n’arrive à uriner que
+quelques gouttes. N’y tenant plus, il se présente en toute urgence à l’hôpital le plus
+proche.
+Après lui avoir brièvement examiné l’abdomen, un médecin lui met en place une sonde
+vésicale par laquelle s’écoule 1,5 litre d’urine, ce qui soulage Monsieur Martin instantanément.
+Le médecin pratique ensuite un toucher rectal et remarque que la prostate est agrandie.
+Un examen sanguin sommaire montre, essentiellement, une créatinine à 180 umol/l
+(N: 56-115). Après une nuit passée en observation, surtout afin de mesurer la quantité
+d’urine produite, le médecin laisse rentrer Monsieur MARTIN à domicile avec sa sonde
+urinaire et lui propose d’aller consulter un urologue.
+
+ECG N°2 : «CANCER DE LA PROSTATE»
+Monsieur Henri, 57 ans, se présente à votre consultation pour la première fois, car il "
+aimerait se faire examiner la prostate". Il vient de lire dans une brochure de vulgarisation médicale qu'un tel contrôle pourrait être souhaitable chaque année dès l'âge de
+50 ans. Il ne se plaint pas de troubles mictionnels.
+Ses antécédents : Appendicectomie à l'âge de 13 ans, tabagisme ½ UPA, bonne
+santé habituelle, pas de médication particulière. Poids stable. Dans l'anamnèse familiale, on note que le père du patient est décédé d'un cancer de la prostate à l'âge de
+66 ans.
+Examen clinique: Excellent état général. Abdomen et loges rénales souples et indolores. Organes génitaux externes sans particularité. Au toucher rectal, la prostate est
+discrètement augmentée de volume (de la taille d'un petit pruneau), de consistance
+élastique, sans nodule ou fermeté suspecte. Le reste de l'examen clinique est non
+contributif.
+
+Pathologie – « AMC Chirurgie Urologique »
+85
+
+Séminaire N° 18
+
+PATHOLOGIE
+Questions :
+-
+
+Etudier en parallèle les coupes histologiques AMC-18/1 et AMC-18/2.
+Quelle coupe correspond le mieux à l’histoire clinique de ce patient ?
+Quels sont les processus pathologiques et quels sont vos diagnostics ?
+Quelle information concernant des processus pathologiques recherchez-vous sur
+du matériel provenant d'une résection endoscopique transuréthrale, comparé à une
+biopsie à l'aiguille ?
+- Concernant la coupe avec le carcinome, quelles sont les caractéristiques biologiques de cette tumeur ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+connaître :
+•
+
+L’hyperplasie musculoglandulaire: incidence, facteurs de
+risques; complications.
+
+Le carcinome prostatique :
+- incidence et facteurs de risque
+- bases histopathologiques (grade)
+- métastatisation; notion de métastase d’adénocarcinome d’origine X
+- pronostic (bases du pTNM)
+- marqueurs tumoraux prostatiques
+- bases du suivi de ce patient et des traitements chirurgicaux et médicamenteux.
+•
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ chap. 21 : The Lower Urinary Tract & Male Genital
+System, pp. 953-983 (hyperplasie et carcinome).
+American Joint Committee on Cancer. AJCC Cancer Staging
+Handbook. 8th edition. New York: Springer. 2017.
+Pathologie – « AMC Chirurgie Urologique »
+86
+
+Séminaire N° 18
+
+Pathologie – « AMC Chirurgie Urologique »
+87
+
+Séminaire N° 18
+
+Matériel Associé
+Coupes histologiques et numérisées
+-
+
+Coupe AMC-18/1 : hyperplasie musculoglandulaire de la prostate
+Coupe AMC-18/2 : adénocarcinome prostatique.
+
+Voir également le site
+
+Description des coupes histologiques et numérisées
+Revoir histologie normale sur coupes numérisées : AMC 18/0 et Histologie SGM 12
+Coupe 18/1 : Hyperplasie musculoglandulaire de la prostate
+Prostatectomie transvésicale (= adénomectomie prostatique transvésicale).
+Reconnaître le tissu prostatique et l’aspect nodulaire au faible grossissement.
+Observer :
+- des glandes dilatées et kystiques dont l’épithélium est aplati et cubique
+- des glandes hyperplasiques dont l’épithélium est papillaire et pluristratifié (= plusieurs couches de noyaux), mais sans atypies nucléaires.
+Remarquer également l’hyperplasie du stroma musculaire lisse.
+
+Coupe 18/2 : Adénocarcinome prostatique
+Prostatectomie radicale.
+Retrouver, sur cette coupe, l’hyperplasie musculo-glandulaire décrite sur la coupe
+18/1.
+Comparer et Identifier l’adénocarcinome formé de glandes petites et irrégulières et de
+structures cribriformes (= glandes « dos à dos »). Observer les atypies nucléolaires et
+nucléaires. Remarquer :
+- l’infiltration et la destruction du stroma musculaire par la tumeur
+-
+
+les invasions périnerveuses dans la capsule.
+
+Pathologie – « AMC Chirurgie Urologique »
+88
+
+Séminaire N° 19
+
+SEMINAIRE N° 19 : MASSE TESTICULAIRE
+(Dre Essia Saiji)
+
+VIGNETTE N°2 : «UN MATCH VIRIL…»
+Un jeune homme, âgé de 25 ans, se présente pour une masse scrotale d'apparition
+récente, indolore.
+Au médecin qui le reçoit et le questionne, le patient explique qu'il n'a pas consulté plus
+tôt, car il a remarqué cette grosseur à la suite d'un coup reçu lors d'un match de football. Il a pensé qu'il s'agissait d'un saignement interne sans conséquence, mais trois
+mois après, la situation est inchangée.
+A l'examen visuel, on ne constate rien de particulier, il n'y a aucun signe inflammatoire.
+En revanche, à la palpation, le testicule s'avère incontestablement agrandi et induré,
+bien différenciable de l'épididyme.
+L’échographie du testicule montre qu’il s’agit d’une masse intra-testiculaire à contours
+irréguliers, d’aspect aniso-échogène.
+Dans la prise de sang, on remarque, comme seule anomalie, une élévation de la bêtaHCG et de l’alphafoetoprotéine.
+
+PATHOLOGIE
+Etudiez les différents aspects histologiques présents dans les coupes AMC-19/1 à
+AMC-19/2.
+Questions:
+-
+
+Commencez par étudier les différents aspects histologiques présents dans les
+coupes AMC-19/1 à AMC-19/2.
+Y a-t-il des analogies avec l’histologie normale pour certaines de ces tumeurs ?
+Quel(s) est (sont) le (les) type(s) de cellules qui prolifèrent ?
+Quelle aide pouvez-vous obtenir de l’histoire clinique et des paramètres biologiques ?
+Pourquoi un échantillonnage important de la tumeur est-il nécessaire ?
+
+Pathologie – « AMC Chirurgie Urologique »
+89
+
+Séminaire N° 19
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître:
+Les facteurs de risque et principales caractéristiques cliniques et histopathologiques des tumeurs testiculaires fréquentes (séminome; carcinome embryonnaire; tératome;
+choriocarcinome).
+• Les concepts de base de classification: tumeurs germinales, non germinales; concepts de différenciation.
+• L’importance clinique des tumeurs séminomateuses versus non séminomateuses. Marqueurs tumoraux. Bases de
+la prise en charge thérapeutique découlant des concepts
+étudiés.
+•
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ chap. 21 : The Lower Urinary Tract & Male Genital
+System, pp. 953-983
+
+Matériel associé
+Coupes histologiques et numérisées
+- Coupe AMC-19/1 : séminome
+- Coupe AMC-19/2 : carcinome embryonnaire.
+Voir également le site
+
+Pathologie – « AMC Chirurgie Urologique »
+90
+
+Séminaire N° 19
+
+Description des coupes histologiques et numérisées
+Revoir histologie normale sur coupes numérisées : AMC 19/0 et Histologie SGM 04
+Coupe 19/1 : Séminome
+Orchidectomie.
+Sur un bord du prélèvement, reconnaître l’épididyme et le parenchyme testiculaire en
+dehors de la tumeur. Identifier des îlots de Leydig et des tubes séminifères avec spermatogénèse.
+Observer la tumeur. Elle est formée de plages cellulaires divisées en petits lobules par
+un fin stroma collagène contenant des vaisseaux et des lymphocytes : ceci est assez
+caractéristique des séminomes.
+Les cellules tumorales sont monomorphes (= uniformes), rondes ou polygonales. Elles
+ont une membrane cellulaire distincte, un cytoplasme clair (glycogène en quantité variable), un noyau central, un ou deux nucléoles. Les mitoses sont plus ou moins fréquentes.
+Dans certains tubes séminifères voisins de la tumeur, observer des cellules tumorales
+d’aspect identique : il s’agit d’une néoplasie germinale intratubulaire (anciennement
+séminome in situ). Remarquer leur ressemblance avec les spermatogonies des tubes
+séminifères présentant une spermatogénèse active.
+Remarquer une zone de nécrose tumorale : les contours cellulaires sont flous, les cytoplasmes éosinophiles pâles, les noyaux lysés. La nécrose tumorale n’est pas habituelle dans les séminomes.
+Coupe 19/2 : Carcinome embryonnaire
+Orchidectomie.
+Comparer à la coupe 19/1.
+Identifier le parenchyme testiculaire et la tumeur.
+Les cellules tumorales sont volumineuses. Contrairement au séminome, forme et taille
+des noyaux et cytoplasmes sont très variables (= cellules pléomorphes), et les limites
+cellulaires mal visibles. Les cytoplasmes sont basophiles ou clairs, les noyaux grands,
+irréguliers et les nucléoles proéminents. Les mitoses sont fréquentes, voire pluripolaires.
+La tumeur est constituée de plages indifférenciées avec parfois des cavités ressemblant à une différenciation glandulaire (d’où le terme de carcinome embryonnaire, mais
+il est inadéquat puisque ce sont des tumeurs germinales et non pas épithéliales).
+Noter la présence de plusieurs foyers de nécrose tumorale, phénomène assez fréquent dans les carcinomes embryonnaires.
+
+Pathologie – « AMC Chirurgie Urologique »
+91
+
+AMC Gynécologie - Obstétrique
+
+AMC GYNECOLOGIE-OBSTETRIQUE
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+92
+
+Séminaire N° 20
+
+SEMINAIRE N° 20 : PATHOLOGIE DU COL UTERIN (2H. INCLUS N° 21)
+(Dre Essia Saiji)
+Voir cahier AMC « Gynécologie-Obstétrique »
+
+PROBLEME N°4: PERTES DE SANG
+PATHOLOGIE
+Ce séminaire de pathologie gynécologique est centré sur le cancer du col utérin et les
+néoplasies intra-épithéliales (= non invasives). Il montre l’importance de la cytologie
+pour le dépistage et des biopsies pour la prise en charge de ces patientes. Il illustre
+les entités de condylome, LSIL (CIN1) et carcinome épidermoide invasif du col utérin.
+Le rôle du virus HPV est étudié à l’occasion de ce séminaire.
+Questions:
+- Définissez le site histologique et les lésions histopathologiques présentes sur ces
+2 coupes. Etayez votre diagnostic.
+- Quelle est la pathogenèse de ces lésions et les facteurs principalement impliqués
+dans leur apparition ?
+- Comment “ grade ”-t-on ces lésions intra-épithéliales et quelle en est l’implication
+clinique et thérapeutique ?
+- Quelles conséquences allez-vous tirer de ces 2 coupes histologiques quant à la
+prévention et au suivi des lésions précancéreuses et cancéreuses du col ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître:
+•
+
+La définition et l’aspect histologique des lésions squameuses intra-épithéliales (concept de néoplasie intra-épithéliale non invasive), leur classification (selon Bethesda), leur prévalence et les moyens diagnostiques
+(notion de dépistage cervico-vaginal).
+
+•
+
+Le rôle fondamental du virus HPV dans la survenue des
+séquences des lésions squameuses intra-épithéliales et
+du carcinome du col utérin, l’importance des sous-types
+oncogéniques et non oncogéniques des virus HPV et les
+mécanismes d’oncogénèse.
+
+•
+
+Le mode de dissémination métastatique et les principes
+de la classification pTNM du carcinome du col utérin.
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+93
+
+Séminaire N° 20
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 22 : The Female Genital Tract, pp. 985-1036
+American Joint Committee on Cancer. AJCC Cancer Staging
+Handbook. 8h edition. New York: Springer. 2017, p. 649-659.
+
+Matériel associé
+Coupes histologiques et numérisées
+- Coupe AMC-20/1 : carcinome épidermoïde invasif du col.
+- Coupe AMC-20/2 : lésion squameuse intra-épithéliale de bas grade (LSIL) (condylome avec dysplasie légère).
+
+Voir également le site Moodle et l’Introduction à la cytopathologie gynécologique.
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+94
+
+Séminaire N° 20
+
+Description des coupes histologiques et numérisées
+Revoir histologie normale sur coupes numérisées AMC 20/0 et Histologie SGF 18
+
+Coupe 20/1 : Carcinome épidermoïde invasif du col
+Hystérectomie.
+Reconnaître l’endocol. La muqueuse et les glandes sont caractérisées par la présence
+de cellules mucineuses.
+La tumeur est formée de lobules carcinomateux (parenchyme) séparés par de fines
+travées de collagène renfermant de nombreux lymphocytes/plasmocytes (stroma).
+Les cellules carcinomateuses présentent un cytoplasme abondant, polygonal, un
+noyau hyperchromatique, irrégulier, souvent nucléolé. Certaines sont en mitose.
+Observer le caractère invasif, l’invasion et la destruction du tissu conjonctif par la tumeur.
+
+Coupe 20/2 : Lésion squameuse intraépithéliale de bas grade (LSIL)
+(condylome avec dysplasie légère)
+Biopsie colposcopique.
+Reconnaître l’exocol. L’épithélium est pavimenteux pluristratifié (= malpighien) non kératinisé. Le chorion renferme un infiltrat lymphoplasmocytaire, signe d’une inflammation chronique.
+Identifier les koïlocytes. Ce sont des cellules malpighiennes au noyau agrandi, irrégulier, nucléolé, entouré d’un halo clair, et au cytoplasme d’aspect « creux ». Ils montrent
+l’effet cytopathique de l’ HPV, c’est-à-dire la réplication active du virus dans les cellules
+en voie de maturation.
+Remarquer l’aspect papillaire de l’épithélium et le grand nombre de koïlocytes, ce qui
+justifie le terme de condylome.
+Noter la présence d’une prolifération cellulaire et d’atypies cytonucléaires dans le tiers
+profond de l’épithélium, ce qui constitue un CIN1 (cervical intra-epithelial neoplasia
+grade I) (=dysplasie légère).
+Remarques :
+- LSIL (low grade squamous intra-epithelial lesion) s’oppose à HSIL (high grade
+squamous intraepithelial lesion).
+- LSIL et HISL sont des termes utilisés en cytologie (terminologie dite de Bethesda).
+- LSIL correspond, en histologie, à CIN1 (=dysplasie légère)
+- HSIL regroupe, en histologie, CIN2 (=dysplasie modérée) et CIN3 (=dysplasie marquée) (= carcinome in situ).
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+95
+
+Séminaire N° 21
+
+SEMINAIRE N° 21 : DEPISTAGE ET PREVENTION DES CANCERS
+GYNECOLOGIQUES (Dr Essia Saiji)
+
+(Problème interne)
+Voir Cahier AMC « Gynécologie-Obstétrique »
+
+PROBLEME N°1 : DEPISTAGE ET PREVENTION DES CANCERS GYNECOLOGIQUES
+PATHOLOGIE
+Ce séminaire de pathologie gynécologique illustre des pathologies fréquentes à l’origine de saignements. Il montre que les carcinomes de l’endomètre présentent des
+caractéristiques épidémiologiques, hormonales, pathologiques et oncogéniques opposées point par point à celles des carcinomes du col utérin. Enfin, plus de 98% des
+carcinomes endométrioïdes de l’endomètre sont sporadiques, mais 2% peuvent s’associer à des carcinomes coliques ou ovariens dans le cadre d’un Syndrome de Lynch.
+Dans cette situation, les carcinomes endométriaux sont les tumeurs gynécologiques
+les plus fréquentes, à part celles de l’ovaire, avec mutations germinales sur les gènes
+de réparation de l’ADN.
+Questions:
+- La coupe AMC-21/2 illustre la pathologie de cette patiente. Décrivez-la et indiquez
+le diagnostic.
+- Quelles pathologies bénignes ou malignes faut-il exclure devant des ménométrorragies dans cette tranche d’âge ?
+- La coupe AMC-21/1 illustre la pathologie bénigne la plus fréquente dans cette
+tranche d’âge. Décrivez-la et indiquez le diagnostic.
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+96
+
+Séminaire N° 21
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient
+être capables de connaître:
+
+PATHOLOGIE
+
+•
+
+Les principales pathologies bénignes (polype, hyperplasie, léiomyome) et malignes (carcinome de l’endomètre)
+du corps utérin, que l’on rencontre en particulier dans la
+période péri- et post-ménopausique.
+
+•
+
+Le mode de dissémination métastatique et les principes
+de la classification pTNM du carcinome du corps utérin.
+
+Voir également les objectifs d’apprentissage des problèmes N° 1, 4 et 12 des AMC
+Gynécologie-Obstétrique.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 22 : The Female Genital Tract, pp. 985-1036
+
+Matériel associé
+Coupes histologiques et numérisées
+- Coupe AMC-21/1 : léiomyome utérin sous-séreux.
+- Coupe AMC-21/2 : adénocarcinome de l’endomètre.
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+97
+
+Séminaire N° 21
+
+Macroscopie
+Utérus : léiomyome.
+Utérus : adénocarcinome de l'endomètre.
+Voir également le site
+
+Description des coupes histologiques et numérisées
+Revoir histologie normale sur coupes numérisées AMC 21/0 et Histologie SGF 15
+Coupe 21/1 : Léiomyome utérin sous-séreux.
+Hystérectomie.
+Identifier endomètre, myomètre et séreuse. La muqueuse endométriale est caractérisée par la présence de cellules prismatiques (= cylindriques) unistratifiées non mucineuses dans l’épithélium et les glandes.
+Dans le léiomyome, observer la prolifération des myocytes disposés en faisceaux et
+l’absence d’atypies nucléaires et de mitoses.
+
+Coupe 21/2 : Adénocarcinome de l'endomètre
+Hystérectomie.
+Reconnaître myomètre et séreuse. Il n’y a pas d’endomètre normal visible sur cette
+coupe.
+Observer l’infiltration du myomètre par des tubes carcinomateux et des structures cribriformes (= «glandes dos à dos ») comportant plusieurs couches cellulaires.
+Remarquer la forme cylindrique des cellules tumorales, leur cytoplasme basophile et
+dépourvu de mucus, leur noyau nucléolé : ces caractères rappellent les cellules endométriales normales.
+Il s’agit d’un adénocarcinome endométrioïde grade 1(=bien différencié).
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+98
+
+Séminaire N° 22
+
+SEMINAIRE N° 22 : UNE BOULE DANS LE SEIN (2H. INCLUS N° 23)
+(DR JEAN-CHRISTOPHE TILLE)
+Voir cahier AMC « Gynécologie-Obstétrique »
+
+PROBLEME N°3 : UNE BOULE DANS LE SEIN
+PATHOLOGIE
+Ce séminaire de pathologie mammaire est centré sur le cancer du sein, avec les concepts de carcinome invasif et de carcinome in situ. Il aborde également d’autres pathologies mammaires comme la mastopathie fibrokystique (= modifications fibrokystiques) et le fibroadénome, car elles sont fréquemment rencontrées, notamment dans
+le cadre du dépistage et de la prise en charge clinique sénologique.
+
+Questions:
+- Après analyse des coupes laquelle peut correspondre à la pathologie présentée par
+la jeune femme de 23 ans ? Laquelle par sa mère ?
+- Quelles sont les pathologies mammaires bénignes et malignes les plus fréquentes
+chez la femme en fonction des différents groupes d’âge ? Leur évolution ? Les aspects histopathologiques ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître:
+•
+
+Les principales lésions bénignes du sein, leur fréquence
+et la répartition en fonction de l’âge (fibroadénome, papillome, mastopathie fibrokystique, adénose, hyperplasie
+simple, hyperplasie atypique).
+
+•
+
+Les principaux types de carcinome du sein et leur fréquence (canalaire, lobulaire).
+
+•
+
+Comprendre la notion de carcinome in situ et invasif et ses
+implications thérapeutiques.
+
+•
+
+Les modes de métastatisation des cancers du sein (ganglionnaire et systémique).
+
+•
+
+Comprendre l’importance thérapeutique et pronostique et
+les principes généraux du grade histologique (Scarff et
+Bloom) du stade pathologique (pTNM), de la détection des
+récepteurs hormonaux et l’amplification d’Her2.
+Pathologie – « AMC Gynécologie-Obstétrique »
+99
+
+Séminaire N° 22
+
+Voir également les objectifs d’apprentissage du problème N° 3 des AMC Gynécologie-Obstétrique.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 23 : The Breast, pp. 1037-1064
+American Joint Committee on Cancer. AJCC Cancer Staging
+Handbook. 8th edition. New York: Springer. 2017, p. 589-628
+
+Matériel associé
+Coupes histologiques et numérisées
+-
+
+Coupe AMC-22/1 : fibroadénome
+Coupe AMC-22/2 : maladie fibrokystique
+Coupe AMC-22/3 : carcinome canalaire in situ et invasif.
+
+Macroscopie
+Sein : carcinome invasif.
+
+Voir également le site.
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+100
+
+Séminaire N° 22
+
+Description des coupes histologiques et numérisées
+Revoir histologie normale sur coupes numérisées AMC 22/0 et Histologie SGF 02.
+
+Coupe 22/1 : Fibroadénome
+Tumorectomie.
+Reconnaître en périphérie un (des) lobule(s) mammaire(s).
+La tumeur forme un nodule bien délimité et entouré de fibres de collagène.
+Observer les tubes nombreux, réguliers, constitués de cellules cubiques, basophiles,
+nucléolées, parfois pluristratifiées. Leur lumière est petite ou virtuelle. A cette prolifération épithéliale est associée une prolifération mésenchymale (= stromale) péritubulaire d’histiocytes et fibroblastes.
+Remarquer l’absence d’atypies cellulaires et de mitoses.
+Le fibroadénome est un exemple de tumeur fibroépithéliale (= biphasique = « mixte »)
+bénigne.
+Coupe 22/2 : Maladie fibrokystique
+Excision mammaire.
+Reconnaître l’architecture lobulaire mammaire et comparer avec la coupe 22/1.
+Observer :
+- les kystes (= ductules dilatés)
+- la fibrose du stroma inter et intralobulaire mammaire
+- l’adénose (= augmentation du nombre de ductules par lobule). Sur cette coupe,
+l’adénose est dite sclérosante car il y a plus de fibrose et moins de ductules.
+Remarquer, dans certains kystes, une métaplasie apocrine : les cellules sont agrandies, avec un noyau rond nucléolé, un cytoplasme granulaire éosinophile ; elles ressemblent à l’épithélium des glandes sudoripares apocrines.
+Coupe 22/3 : Carcinome canalaire in situ et invasif
+Tumorectomie.
+Identifier glande mammaire normale et tumeur.
+Observer dans la tumeur, les 3 éléments utilisés pour le grading :
+- l’architecture en travées et cordons avec peu de tubes
+- les caractères cytologiques : noyaux irréguliers, nucléoles denses, chromatine granulaire
+- les mitoses
+Remarquer l’invasion du tissu adipeux (= carcinome invasif).
+Identifier un (des) foyer(s) de carcinome canalaire in situ : la néoplasie reste intraépithéliale, limitée des cellules myoépithéliales et par la membrane basale ductulaire.
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+101
+
+Séminaire N° 23
+
+SEMINAIRE N° 23 : TUMEUR OVARIENNE (Dr Jean-Christophe Tille)
+PROBLEME CLINIQUE ELABORE PAR LA GYNECOLOGIE-OBSTETRIQUE
+Une femme de 49 ans consulte son médecin généraliste pour des troubles digestifs,
+d’ordre de constipation, spasmes occasionnels et mauvaise digestion. Depuis 2 mois
+elle constate une augmentation de son périmètre abdominal, elle ne peut plus fermer
+ses jupes ou pantalons. L’anamnèse montre par ailleurs qu’elle est en bonne santé.
+Elle est mariée et a eu 2 enfants, qui ont maintenant 16 et 18 ans. Elle ne les a pas
+allaités. Elle a subi une appendicectomie à l’âge de 7 ans. Elle a pris une contraception
+orale entre l’âge de 28 et 47 ans, c’est-à-dire depuis l’année où elle s’est mariée.
+A 30 ans, lors d’un contrôle annuel chez son gynécologue, on a découvert une petite
+tumeur dans le quadrant supéro-externe du sein droit. Une mammographie et une
+cyto-ponction confirment le caractère malin de ce nodule. Elle subit donc un traitement
+chirurgical conservateur ainsi qu’une radiothérapie complémentaire. Il s’agissait d’un
+cancer canalaire invasif pT1b, G1, No, Mo, ER négatifs et PR négatifs. Il n’y a plus eu
+de complications suite à ce traitement. Un dernier contrôle oncologique a été pratiqué
+il y a 3 mois, il était sans particularité.
+Par ailleurs, la patiente est encore réglée. Les dernières règles datent de 15 jours.
+Elles étaient indolores et de durée normale. La patiente ne prend pas de médicaments,
+elle ne fume pas et elle a des rapports sexuels normaux.
+A l’examen clinique, on est en présence d’une patiente en bon état général, d’une taille
+de 167 cm, d’un poids de 72 kg, qui présente une distension abdominale importante,
+le périmètre mesurant 112 cm. La distension est homogène, mais on arrive à palper
+une masse plus ou moins mobile dans la fosse iliaque gauche, légèrement bosselée,
+mesurant environ 12 cm de diamètre. Cette masse est indolore.
+Une laparotomie exploratrice est pratiquée montrant une masse encapsulée, développée dans la région de l’ovaire gauche. Le chirurgien pratique tout d’abord un rinçage
+péritonéal (adressé au Service de Pathologie Clinique des HUG), puis effectue une
+exérèse de la masse qu’il envoie au Service de pathologie clinique des HUG pour un
+examen extemporané. A l’ouverture de la pièce, le pathologiste note qu’il s’agit d’une
+masse solide et kystique avec des foyers de nécrose et d’hémorragie. De nombreuses
+formations papillaires sont présentes. Au vu du résultat de l’examen extemporané le
+chirurgien pratique une hystérectomie totale abdominale avec annexectomie controlatérale et omentectomie.
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+102
+
+Séminaire N° 23
+
+PATHOLOGIE
+Ce séminaire est consacré aux tumeurs ovariennes. Celles-ci sont souvent kystiques,
+mais il faut rappeler que les kystes ovariens non tumoraux sont beaucoup plus fréquents. Un kyste est défini comme une cavité pathologique, à contenu liquide ou solide. Il peut résulter d’un processus néoplasique (=tumoral) et son comportement peut
+être bénin, malin, voire « borderline ».
+Dans l’ovaire, les kystes non néoplasiques sont représentés d’abord par les kystes
+fonctionnels : kystes folliculaires/lutéiniques, kystes du corps jaune. Les kystes folliculaires/lutéiniques s’observent de la puberté à la ménopause. Ils peuvent être multiples
+ou solitaires et atteindre 8 cm de diamètre en dehors de la grossesse. Ils sont généralement asymptomatiques ou donnent des douleurs pelviennes discrètes. Ce sont des
+follicules de Graaf non rompus. Histologiquement, leur paroi est faite de cellules lutéinisées de la granulosa ou de cellules thécales ou les deux et ils sont plus ou moins
+hémorragiques. Les kystes du corps jaune correspondent à un corps jaune de plus de
+3 cm, kystique, plus ou moins hémorragique et susceptible de rupture.
+L’endométriose (voir AMC Gynécologie-Obstétrique Tutorial: Endocrinologie 11 : "Une
+maladie du 21e siècle" (endométriose)) peut se manifester par des kystes endométriotiques (dits « endométriomes ») de l’ovaire. Ils représentent une des causes les plus
+fréquentes d’augmentation du volume ovarien chez les 40-50 ans. Ils mesurent de
+quelques mms à 15 cm de diamètre. Macroscopiquement, ils sont constitués par une
+paroi molle, lisse, épaisse et une cavité hémorragique, voire remplie d’un contenu visqueux, brun-foncé (« kyste chocolat »). Histologiquement, on observe dans la paroi,
+un épithélium mullérien, un stroma avec des glandes endométriales et des signes d’anciennes hémorragies.
+Enfin les kystes épithéliaux d’inclusion et les kystes simples de l’ovaire sont également
+des kystes non néoplasiques. Ils proviennent d’une invagination mésothéliale.
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+103
+
+Séminaire N° 23
+
+Questions:
+- Etudiez les coupes de gynécopathologie AMC-23/1 (cystadénome mucineux),
+AMC-23/2 (carcinome séreux de haut grade) et AMC-23/3 (tératome).
+- Quelles sont les différences histologiques entre ces coupes ? Lesquelles sont bénignes ? Malignes ?
+- A quels groupes ces tumeurs ovariennes appartiennent-elles ?
+- Quels profils cliniques correspondent aux 3 coupes histologiques présentées ?
+- Pourquoi pratique-t-on des examens extemporanés pour les tumeurs ovariennes ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître:
+•
+
+Les principes et les grandes lignes de la classification des
+tumeurs de l’ovaire.
+
+•
+
+Les principales caractéristiques histologiques des kystes
+et des tumeurs bénignes (cystadénome, tératome, etc.) et
+malignes (carcinome, Krükenberg) de l’ovaire.
+
+•
+
+Les modes de dissémination métastatiques et les bases
+du pTNM.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 22 : The Female Genital Tract, pp. 985-1036
+American Joint Committee on Cancer. AJCC Cancer Staging
+Handbook. 8th edition. New York: Springer. 2017, p. 681-690.
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+104
+
+Séminaire N° 23
+
+Matériel associé
+Coupes histologiques et numérisées
+- Coupe AMC-23/1 : cystadénome mucineux.
+- Coupe AMC-23/2 : carcinome séreux de haut grade.
+- Coupe AMC-23/3 : tératome.
+
+Macroscopie
+Ovaire : tumeurs ovariennes.
+Voir également le site.
+
+Description des coupes histologiques et numérisées
+Revoir histologie normale sur coupes numérisées AMC 23/0 et Histologie SGF 06
+Coupe 23/1 : Cystadénome mucineux
+Ovariectomie.
+Reconnaître des corps fibreux dans le cortex ovarien.
+Observer une paroi de kyste. La composante épithéliale est faite d’une seule couche
+de cellules mucineuses type intestinal, au noyau régulier et refoulé à la base du cytoplasme. Il n'y a pas d’atypies nucléaires ni de mitoses. La composante stromiale est
+un tissu collagène et fibroblastique.
+Coupe 23/2 : Carcinome séreux de haut grade
+Ovariectomie.
+Reconnaître un corps blanc. Repérer la surface ovarienne et le cortex.
+La tumeur est partiellement kystique et constituée de zones papillaires et de zones
+solides. Les cellules sont de type séreux et ne contiennent pas de mucus. Elles présentent des signes nucléaires de malignité (noyaux volumineux, irréguliers, chromatine dense, irrégulière, nucléoles) et certaines sont pléomorphes et multinuclés. Les
+mitoses sont fréquentes, certaines pluripolaires. Le stroma est envahi.
+Coupe 23/3 : Tératome
+Kystectomie.
+Remarquer l’absence de tissu ovarien.
+Analyser le caractère pluritissulaire de cette tumeur : tissu cutané (épiderme et annexes), tissu adipeux, cartilage, muqueuse digestive avec tissu lymphoïde associé et
+muscle lisse.
+
+Pathologie – « AMC Gynécologie-Obstétrique »
+105
+
+AMC Pédiatrie
+
+AMC PEDIATRIE
+
+Pathologie – « AMC Pédiatrie »
+106
+
+Séminaire N° 24
+
+SEMINAIRE N° 24 : RHABDOMYOSARCOME
+PEDIATRIQUES
+
+ET
+
+EMBRYONNAIRE
+(BIOPSIES
+(1H.)
+EXAMENS
+SPECIALISES)
+
+(Dre Anne-Laure Rougemont-Pidoux)
+
+PROBLEME CLINIQUE
+La maman de Lucas, un jeune garçon de 4 ans, décrit une voussure d'apparition récente de la joue droite. Elle consulte le pédiatre de l'enfant, qui fait réaliser un bilan
+radiologique lequel confirme la présence d'une masse. Il adresse Lucas à l'Hôpital des
+Enfants pour suite de la prise en charge et biopsie de la lésion.
+
+Questions :
+- Pourquoi une biopsie est-elle requise ?
+- Comment adresser le matériel prélevé en pathologie ?
+La biopsie met en évidence un rhabdomyosarcome.
+Question :
+- Quels sont les examens complémentaires à la disposition du médecin pathologiste ?
+Le rhabdomyosarcome fait partie des tumeurs à petites cellules rondes et bleues de
+l'enfant et de l'adolescent. Les examens complémentaires réalisés ont permis, chez
+cet enfant, de retenir un diagnostic de rhabdomyosarcome embryonnaire.
+Questions :
+- Quelles tumeurs peuvent également être classées dans ce groupe ?
+- Comment peut-on les différencier ?
+
+Pathologie – « AMC Pédiatrie »
+107
+
+Séminaire N° 24
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE - PEDIATRIE
+être capables de connaître:
+•
+
+Les principales tumeurs à petites cellules rondes et bleues
+de l’enfant et de l’adolescent.
+
+•
+
+Connaître les principes et apports des techniques complémentaires en termes de diagnostic ou de pronostic.
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 10 : Diseases of Infancy and Childhood, pp
+453-483
+. Neuroblastic Tumors, pp. 477-480
+. Wilms Tumor, pp. 480-483
+ Chap. 26 : Bones, Joints, and Soft Tissues Tumors,
+pp1171-1215
+. Osteosarcoma, pp. 1188-1189
+. Ewing Sarcoma, pp. 1192-1193
+ Chap. 28 : The Central Nervous System, pp 12411304
+. Medulloblastoma, pp. 1298-1299
+Parham DM. Modern Diagnosis of Small Cell Malignancies of
+Children. Surg Pathol Clin 2010 ; 3(3) : 515-51.
+
+Pathologie – « AMC Pédiatrie »
+108
+
+AMC Neurologie (NEUCLID)
+
+AMC NEUROLOGIE (NEUCLID)
+
+Pathologie – « AMC Neurologie »
+109
+
+Objectifs généraux
+
+OBJECTIFS GENERAUX
+• Rappel des connaissances d'anatomie normale du système nerveux.
+
+• Connaissance des principales pathologies de chaque compartiment concernant
+le système nerveux central (boîte crânienne, espace épidural, dure-mère et sinus
+veineux, espace sous-dural, arachnoïde, espace sous-arachnoïdien et vaisseaux
+de la base, cerveau avec cortex, substance blanche, noyaux gris centraux, système
+ventriculaire, tronc cérébral et cervelet).
+
+• Analyse macroscopique de cerveaux d'autopsies, en coupes frontales, illustrant
+les grandes catégories lésionnelles (pathologies vasculaires, tumorales, infectieuses,
+inflammatoires, dégénératives).
+• Analyse microscopique de dix pathologies illustratives du système nerveux central.
+
+• Principes de base des tumeurs cérébrales.
+
+HISTOPATHOLOGIE
+Dix pathologies sont illustrées histologiquement, majoritairement à l'aide de coupes
+colorées en hématoxyline éosine, plus rarement à l'aide de colorations spéciales ou
+d'examens immunohistochimiques. Ces coupes illustrent différentes entités clinico-pathologiques, présentées dans le cadre de "vignettes cliniques".
+
+Pathologie – « AMC Neurologie »
+110
+
+Objectifs généraux
+
+Les quatre séminaires de Neuropathologie sont organisés de la façon suivante :
+
+Séminaire 1 : Examen macroscopique d'un cerveau normal avec rappel des principales
+pathologies affectant le système nerveux
+
+Séminaire 2 : Examen macroscopique de cerveaux pathologiques
+
+Séminaire 3 : Examen macroscopique de cerveaux pathologiques (suite)
+En fonction du temps à disposition, histopathologie de diverses affections vasculaires, inflammatoires, dégénératives et infectieuses :
+ coupe 25/1 : Encéphalopathie anoxique subaiguë
+ coupe 25/2A : Infarctus subaigu non hémorragique
+ coupe 25/2B : Infarctus aigu hémorragique
+ coupe 25/3 : Sclérose en plaques
+ coupe 25/4A et coupe 25/4B : Maladie d'Alzheimer (traitée dans
+l’UIDC Path 4)
+ coupe 25/5 : Maladie de Parkinson (traitée dans l’UIDC Path 4)
+ coupe 25/6 : Méningite purulente
+
+Séminaire 4 : Tumeurs cérébrales, principes de base
+Histopathologie des affections tumorales :
+ coupe 25/7 : Astrocytome diffus de bas grade
+ coupe 25/8 : Glioblastome
+ coupe 25/9 : Méningiome transitionnel
+ coupe 25/10 : Schwannome
+
+REFERENCES RECOMMANDEES
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia:
+Elsevier Saunders. 10th edition, 2021 (Réf. BFM QZ 4 4 + ebook) https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 28 : The Central Nervous System, pp 1241-1304
+
+Pathologie – « AMC Neurologie »
+111
+
+Séminaire N° 25 – Coupe N° 1
+
+SEMINAIRE N° 25 : NEUROPATHOLOGIE (NEUCLID)
+(Dr Johannes Alexander Lobrinus, Dr K. Egervari)
+
+COUPE N° 1 : ENCEPHALOPATHIE ANOXIQUE SUBAIGUË
+PROBLEME CLINIQUE
+Homme de 60 ans, hospitalisé après arrêt cardio-respiratoire suite à une broncho-aspiration. Cliniquement, le patient est comateux, avec un EEG plat et une absence de
+réflexes du tronc cérébral. Décès après dix jours. La coupe concerne une circonvolution cérébrale.
+
+MACROSCOPIE
+Le cerveau montre un discret épaississement du cortex, avec un aspect flou de la limite entre le cortex et la substance blanche.
+
+HISTOLOGIE (HE)
+Questions:
+- La lésion est-elle bien délimitée ou diffuse ?
+- Quelle partie du cerveau (cortex ou substance blanche) est atteinte ?
+- Qu'observez-vous histologiquement, en particulier dans les couches profondes
+du cortex ?
+
+Pathologie – « AMC Neurologie »
+112
+
+Séminaire N° 25 – Coupe N° 1
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de :
+NEUROLOGIE
+. Connaître le principe et les causes de l'ischémie cérébrale
+globale
+. Distinguer l'ischémie cérébrale globale de l'ischémie cérébrale focale
+. Connaître le principe de vulnérabilité sélective des différentes structures cérébrales vis-à-vis des troubles circulatoires systémiques
+. Connaître l'œdème cérébral diffus et sa relation avec l'hypertension intra-crânienne
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 28 : The Central Nervous System, pp 12411304
+
+Pathologie – « AMC Neurologie »
+113
+
+Séminaire N° 25 - Coupe N° 2
+
+COUPE N° 2A : INFARCTUS SUBAIGU NON HEMORRAGIQUE
+COUPE N° 2B : INFARCTUS AIGU HEMORRAGIQUE
+
+PROBLEME CLINIQUE 2A
+Homme de 70 ans, hypertendu et diabétique, souffrant d'une importante artériosclérose généralisée et ayant développé de façon brutale une aphasie motrice. La coupe
+histologique montre l'aire de Broca, une semaine après l'installation des symptômes.
+
+PROBLEME CLINIQUE 2B
+Femme de 45 ans, connue pour une fibrillation auriculaire chronique non traitée, ayant
+développé brutalement un hémisyndrome sensitivo-moteur gauche. La coupe histologique concerne le territoire de l'artère cérébrale moyenne droite, 24 heures après l'apparition des symptômes.
+
+MACROSCOPIE
+2A : Dans l'aire de Broca, présence d'une petite zone pâle, avec perte de la délimitation cortex/substance blanche.
+2B : Dans le territoire de l'artère cérébrale moyenne droite, le cerveau est légèrement
+œdémateux et mou, avec un important piqueté hémorragique.
+
+HISTOLOGIE (HE)
+Questions coupe 2A :
+-
+
+Où est située la lésion ?
+Est-elle bien délimitée ?
+Quelles sont les altérations visibles au centre et en périphérie de la lésion ?
+
+Questions coupe 2B :
+- Où est située la lésion ? Est-elle bien délimitée ?
+- Quel est l'aspect des neurones ?
+- Quelle est la différence essentielle par rapport à la coupe 2A ?
+
+Pathologie – « AMC Neurologie »
+114
+
+Séminaire N° 25 - Coupe N° 2
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+•
+
+Les causes et les mécanismes de l'infarctus cérébral
+
+•
+
+La différence entre un infarctus cérébral hémorragique et
+non hémorragique
+
+•
+
+La différence entre un infarctus cérébral (hémorragique ou
+non hémorragique) et une hémorragie cérébrale (par
+exemple d'origine hypertensive)
+
+•
+
+L'existence des anévrismes sacculaires du polygone de
+Willis comme cause principale d'hémorragie sous-arachnoïdienne
+
+•
+
+Les différences histologiques entre un infarctus aigu
+et subaigu
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 28 : The Central Nervous System, pp 1241-1304
+
+Pathologie – « AMC Neurologie »
+115
+
+Séminaire N° 25 - Coupe N° 3
+
+COUPE N° 3 : SCLEROSE EN PLAQUES
+PROBLEME CLINIQUE
+Patiente de 28 ans, ayant initialement développé une névrite optique suivie de symptômes évocateurs d'une atteinte du tronc cérébral (nystagmus et ataxie) puis finalement une atteinte sensitivo-motrice des extrémités. Le décès intervient 25 ans après
+le début de la maladie.
+
+MACROSCOPIE
+A l'examen externe, petites zones bien délimitées, grisâtres, visibles à la base du pont.
+A la coupe, multiples lésions bien délimitées de la substance blanche hémisphérique,
+d'une taille variant entre 5 et 30 mm de grand axe, prédominant dans les régions périventriculaires. Ces lésions ont un aspect grisâtre, légèrement translucide.
+
+HISTOLOGIE (Van Gieson luxol)
+Questions :
+-
+
+Quelles sont les structures cérébrales identifiables sur cette coupe ?
+Dans quel compartiment se situe la lésion ?
+Quelle est la description histologique de cette lésion ?
+S'agit-il d'une lésion active ou quiescente ?
+
+Pathologie – « AMC Neurologie »
+116
+
+Séminaire N° 25 - Coupe N° 3
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient
+être capables de connaître :
+
+PATHOLOGIE
+
+•
+
+Le concept des maladies démyélinisantes
+
+•
+
+L'épidémiologie, la présentation clinique classique, ainsi
+que les hypothèses pathogéniques de la sclérose en
+plaques
+
+•
+
+L'existence d'autres maladies démyélinisantes (leucodystrophies, encéphalomyélite aiguë disséminée, myélinolyse centro-pontique, maladie de MarchiafavaBignami)
+
+NEUROLOGIE
+
+RÉFÉRENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 28 : The Central Nervous System, pp 1241-1304
+
+Pathologie – « AMC Neurologie »
+117
+
+Séminaire N° 25 - Coupe N° 6
+
+COUPE N° 6 : MENINGITE PURULENTE
+PROBLEME CLINIQUE
+Patiente de 43 ans ayant développé de manière sub-aiguë une symptomatologie associant céphalées, photophobie, irritabilité, fièvre et troubles de l’état de conscience.
+A l’examen clinique, une raideur de nuque est objectivée. La patiente décède rapidement d’un choc septique avec multiples pétéchies cutanées.
+
+MACROSCOPIE
+A l’examen externe, les méninges sont opaques, avec présence d’un enduit blanc jaunâtre sous-arachnoïdien, recouvrant les hémisphères cérébraux. A la coupe, présence
+de rares petites lésions pétéchiales du cortex cérébral.
+
+HISTOLOGIE (HE)
+Questions :
+-
+
+Pouvez-vous identifier les structures normales présentes sur la coupe ?
+Quel est le compartiment pathologique ?
+De quoi est constitué l’exsudat inflammatoire ?
+Existe-t-il des lésions des vaisseaux méningés ?
+Existe-t-il des lésions du cortex ou de la substance blanche ?
+
+Pathologie – « AMC Neurologie »
+118
+
+Séminaire N° 25 - Coupe N° 6
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+•
+
+La présentation clinique et les moyens diagnostiques permettant de poser le diagnostic de méningite
+
+•
+
+La distinction entre une méningite bactérienne et une méningite « aseptique »
+
+. Les différents germes pouvant être à l’origine d’une méningite bactérienne en fonction de l’âge du patient
+. Le syndrome de Waterhouse-Friedrichson
+. L’existence de la méningo-encéphalite, en particulier herpétique
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 28 : The Central Nervous System, pp 1241-1304
+
+Pathologie – « AMC Neurologie »
+119
+
+Séminaire N° 25 - Coupe N°7
+
+COUPE N° 7 : ASTROCYTOME DIFFUS DE BAS GRADE (OMS GRADE II)
+
+PROBLEME CLINIQUE
+Patient de 33 ans ayant développé de façon insidieuse des céphalées chroniques,
+suivies d'une crise d’épilepsie inaugurale. A l’imagerie cérébrale, mise en évidence
+d’une lésion pariéto-occipitale droite, centrée sur la substance blanche, mal délimitée,
+sans prise de contraste.
+
+MACROSCOPIE
+Présence d’une zone grisâtre, mal délimitée, avec augmentation du volume de la substance blanche en région pariéto-occipitale droite. La coupe histologique concerne
+une région cortico-sous-corticale pariétale postérieure droite.
+
+HISTOLOGIE (HE)
+Questions :
+-
+
+Quelle est la caractéristique de la lésion au faible grossissement ?
+S’agit-t-il d’une lésion bien ou mal délimitée ?
+Quelles sont les cellules composant la lésion au fort grossissement ?
+Observez-vous des signes histologiques d’agressivité (pléomorphisme, mitoses) ?
+
+Pathologie – « AMC Neurologie »
+120
+
+Séminaire N° 25 - Coupe N°7
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+•
+
+Les grandes catégories de tumeurs primaires du système
+nerveux
+
+•
+
+Les différents types de gliomes
+
+•
+
+Le système de classification OMS des tumeurs cérébrales
+
+•
+
+Les différences macroscopiques entre une tumeur cérébrale primaire et un processus métastatique
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 28 : The Central Nervous System, pp 1241-1304
+
+Pathologie – « AMC Neurologie »
+121
+
+Séminaire N° 25 - Coupe N°8
+
+COUPE N° 8 : GLIOBLASTOME (OMS GRADE IV)
+
+PROBLEME CLINIQUE
+Patient de 74 ans ayant développé de façon progressive un hémisyndrome sensitivomoteur droit avec trouble du langage. Par la suite, apparition d’un état confusionnel,
+de céphalées et de vomissements. A l’imagerie cérébrale, volumineux processus expansif fronto-pariétal gauche, avec effet de masse, épaississement du corps calleux,
+probables zones de nécrose et prise de contraste.
+
+MACROSCOPIE
+A l’examen externe, l’hémisphère cérébral gauche est plus grand que le droit avec
+aplatissement des circonvolutions cérébrales et engagement unciné à gauche.
+A la coupe, volumineuse lésion hétérogène fronto-pariétale gauche, avec des zones
+charnues blanches, des zones jaunâtres et molles ainsi que de petits foyers d’hémorragie. La coupe histologique concerne la région des noyaux gris centraux et de la capsule blanche interne à gauche.
+
+HISTOLOGIE (HE)
+Questions :
+-
+
+Pouvez-vous identifier les noyaux gris centraux et la capsule blanche interne ?
+Quelles sont les caractéristiques de la lésion à faible grossissement ?
+Observez-vous de la nécrose ?
+Les cellules tumorales sont-elles monomorphes ou pléomorphes ?
+Observez-vous des mitoses ?
+Qu’en est-il des vaisseaux sanguins ?
+
+Pathologie – « AMC Neurologie »
+122
+
+Séminaire N° 25 - Coupe N°8
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+•
+
+Les critères histologiques du glioblastome
+
+•
+
+Le concept du glioblastome primaire et secondaire ainsi
+que ses bases moléculaires
+
+•
+
+L’épidémiologie, les modalités thérapeutiques et le pronostic de cette maladie
+
+•
+
+La notion d'œdème cérébral, d'hypertension intra-crânienne, de processus expansif intra-cérébral et les principaux engagements (unciné ou trans-tentoriel, sous-falcoriel, amygdalien)
+
+REFERENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 28 : The Central Nervous System, pp 1241-1304
+
+Pathologie – « AMC Neurologie »
+123
+
+Séminaire N° 25 - Coupe N° 9
+
+COUPE N° 9 : MENINGIOME TRANSITIONNEL (OMS GRADE I)
+PROBLEME CLINIQUE
+Patiente de 47 ans, investiguée pour sinusite à répétition. Le CT scann cérébral met
+en évidence une tumeur attachée à la faux du cerveau, de 2,5cm de grand axe.
+
+MACROSCOPIE
+Opération : mise en évidence d’une tumeur bien délimitée, en forme de demi-sphère,
+adhérente à la faux du cerveau. A la coupe, le tissu tumoral est blanchâtre, élastique,
+charnu. L’exérèse est complète, emportant une pastille de dure-mère.
+
+HISTOLOGIE (HE)
+Questions :
+-
+
+Quelle structure normale reconnaissez-vous sur la coupe ?
+Quelles sont les caractéristiques architecturales de la lésion tumorale ?
+La tumeur présente-t-elle des critères de malignité ?
+Comment sont les noyaux ?
+Comment s’appellent les petites structures sphériques et calcifiées visibles ici et
+là ?
+
+Pathologie – « AMC Neurologie »
+124
+
+Séminaire N° 25 - Coupe N° 9
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient PATHOLOGIE
+être capables de connaître :
+NEUROLOGIE
+•
+
+L’épidémiologie, la localisation, les caractéristiques macroscopiques et microscopiques des méningiomes
+
+RÉFÉRENCES
+PATHOLOGIE
+
+Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+BFM
+QZ
+4
+4
++
+ebook)
+https://elsevierelibrary.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+ Chap. 28 : The Central Nervous System, pp 1241-1304
+
+Pathologie – « AMC Neurologie »
+125
+
+Séminaire N° 25 - Coupe N° 10
+
+COUPE N° 10 : SCHWANNOME (OMS GRADE I)
+PROBLEME CLINIQUE
+Patient de 42 ans ayant développé progressivement une paraparésie des membres
+inférieurs associée à une hyper-réflexie et à des troubles sensitifs. A l’imagerie, mise
+en évidence d’une tumeur rachidienne, extradurale, de niveau D9.
+
+OPERATION
+Exérèse d’une masse arrondie de 1,8 cm de diamètre, bien délimitée. A la coupe,
+aspect blanc jaune avec des plages translucides.
+
+HISTOLOGIE (HE)
+Questions :
+- La tumeur présente deux aspects histologiques, pouvez-vous les identifier et
+les nommer ?
+- Comment s’appellent les zones anucléaires visibles entre deux palissades de
+noyaux ?
+- Quel est l’aspect des vaisseaux sanguins ?
+- La tumeur est-elle située dans le nerf ou à sa périphérie ?
+
+OBJECTIFS D’APPRENTISSAGE
+
+DISCIPLINES
+
+Après avoir étudié ce problème, les étudiant.e.s devraient
+être capables de connaître :
+
+PATHOLOGIE
+
+•
+
+NEUROLOGIE
+
+Les localisations classiques du schwannome, en particulier celle du schwannome vestibulaire
+
+La différence entre le schwannome et le neurofibrome
+. Les tumeurs bénignes solitaires du système nerveux périphérique et celles associées aux neurofibromatoses
+•
+
+REFERENCES
+PATHOLOGIE
+
+V Kumar V, Et al. Robbins and Cotran Pathologic Basis of Disease. Philadelphia: Elsevier Saunders. 10th edition, 2021 (Réf.
+https://elseviereBFM
+QZ
+4
+4
++
+ebook)
+library.co.uk/pdfreader/robbins-cotran-pathologic-basis-disease-ebook
+Pathologie – « AMC Neurologie »
+126
+
+Séminaire N° 25 - Coupe N° 10
+ Chap. 28 : The Central Nervous System, pp 1241-1304
+
+Pathologie – « AMC Neurologie »
+127
+
+

@@ -1,0 +1,215 @@
+--- Page 1 ---
+Opthalmologie : Pathologies fréquentes
+Tristan Born
+
+--- Page 2 ---
+Lésions traumatiquemécanique et chimique
+• Définition :On distingue les lésions fermés et ouvertes du globe oculaire ainsi que les fractures du plancher de
+l’orbite (mécanique) et les lésions chimiques. Les traumatismes oculaires sont en général et jusqu’à preuve du
+contraire par un ophtalmologue des urgences.
+• Lésions ouverte du globe oculaire :
+o Causégénéralementparuntraumatismecontondant
+o Complication : Abrasion de la cornée, dislocation du cristallin, décollement traumatique de la rétine, hyphéma.
+À terme risque de perte de la vue (rétine ou cornée)
+o Diagnostic: fondoscopieettestàlafluorescéine
+• Lésions fermées du globe oculaire :
+o Perforationdetoutel’épaisseur de la paroi du globe oculaire, lacération. Généralement secondaire à une lésion
+provoquée par un objet piquant/tranchant ou un traumatisme à haute énergie cinétique.
+o Cliniquement : Déformation de l’œil, diminution de l’acuité visuel et déficit pupillaire afférent, déformation de
+l’iris (par rupture du muscle sphincter de l’iris), pic de tension intra-oculaire, décollement traumatique rétine
+o Complication : endophtalmie(infection corps vitré/humeur aqueuse), perte de la vision (rétine, infectieux)
+o Diagnostic: Lampe à fente, fondoscopieet test à la fluorescéine
+• Fractureduplancher:
+o Fracturedu plancher avec risque de passage du contenu de l’orbite à travers la fracture.
+o Cliniquement :Enophtalmie(déplacement du globe oculaire vers l’arrière), douleurs orbitaire, ecchymose en
+monocle, restriction de la mobilité du globe oculaire et diplopie(attention signe d’incarcérationdu muscle
+droit inférieur), perte de sensibilité dans le territoire innervé par la branche ophtalmique du nerf trijumeau(V1)
+o Diagnostic. Effectuer un CToù on en évidence la fracture et le déplacement du contenu de l’orbite
+• Lésion chimique :
+• Brulure de l’œil avec des substances acide ou alcaline
+• Cliniquement : Douleurs intenses, photophobie, conjonctivite, blépharospasme(fermeture paupière)
+• Traitement : Immédiatementrincer avec une solution physiologique pendant au moins 15 minutes. Le
+facteur le plus important pour le pronostic visuel
+
+--- Page 3 ---
+DislocaLon du cristallin (CT et US)
+Fracture du plancher de l’orbite
+Déformation de l’iris post lésion
+du muscle sphincter (traumatique)
+Hyphéma
+Décollement traumatique de larétine
+
+--- Page 4 ---
+Glaucome :
+• Définition :Groupedemaladie, dans laquelle le nerf optiqueestprogressivementdétruit de manière aiguë ou
+chronique,avecousansaugmentation de la pression intra-oculaire(IOP). Dans les pays développé,leglaucome
+est la seconde cause de cécité derrière la dégénérescence maculaire liée à l’âge. 10% des glaucomes sont des
+glaucomes à angles fermé (aiguë et avec une augmentation de la IOP) et 90% sont à angle ouvert (chronique,
+avec ou sans hypertension intra-oculaire). Le glaucome à angle fermé est en général unilatéral, celui à angle
+ouvert bilatéral.
+• Glaucomeàanglefermé
+o FR:Utilisation de substance mydriatique (atropine, adrénaline), origine asiatique.
+o Clinique: Début brutal de douleur au globe oculaire accompagné de céphalées frontales, de nausées et de
+vomissement. Vision flou, œdème cornée, pupille aréactive et œil rouge.
+o Diagnostic:Clinique, mesure d’une hypertension intra-oculaire au tonomètre(généralement 40-80 mmHg)
+Diminution de l’angle irido-cornéen à la gonioscopie.
+o Traitement: Il doit être débuté en urgence pour éviter une perte de vision. AcétalozamideIVetcollyre
+(timolol,apraclonidine).Possible iridotomie au laser (traitement curatif). Ne pas donner de drogue mydriatique
+• Glaucome à angle ouvert
+o FR: Origine africaine, diabète, âge, forte myopie, histoire familiale au 1erdegré, hypertension IO, faible
+épaisseur de cornée, hypertension artérielle et surtout hypotension artérielle.
+o Clinique: Début insidieux et asymptomatique, perte progressive du champ visuel périphérique.
+o Diagnostic:Compliqué, repose sur un faisceau de preuve. Tonomètre (tension >21 mmHg, mais pression
+normale dans 30% des cas), fondoscopie(ratio cupule/disque se rapproche de 1), pachymétrie(cornée fine),
+périmétrie (perte de vision périphérique, scotome arciforme)
+o Traitement: Gestiondesfacteurs de risque modifiable.
+Médicamenteux :Diminution de la IOP de 20-40% (collyrede prostaglandine, BB, agoniste alpha-2)
+Interventionnel : Trabéculoplastieau laser(également possible en première intention)
+
+--- Page 5 ---
+Glaucome à angle ouvert
+Ratio << 1
+Fond d’œil normal
+Glaucome à angle fermé
+Glaucome à angle ouvert
+Scotome arciforme à la périmétrie
+Ratio ≈ 1
+Fond d’œil pathologique
+
+--- Page 6 ---
+Décollement de la rétine
+• Définition :Décollement de la rétine de l’épithélium pigmentaire sous-jacent.
+Le plus souvent secondaire à la formation d’un trou dans la rétine (décollement rhegmatogène), moins souvent
+secondaire à la rétraction du gel vitréen qui tire la rétine (décollement tractionnel). Très rarement, secondaire à
+l’accumulation de fluide sous la rétine (décollement exsudatif). La clinique est identique dans les trois cas, mais
+les FR, les maladies sous-jacente et le traitement sera différent. Lescritèresdegravitéssont l’amplitude du
+détachement rétinien ainsi que l’atteinte ou non de la macula (macula-on, macula-off).
+• Cliniques: Photopsie(perception d’éclair, flash lumineux), perception de peluche/points noirs dans le champ
+visuel (corps flottants dans le corps vitré), perte d’une partie du champs visuel sur un seul œil (voile noir).
+• Diagnostique: La fondoscopiepermet de confirmer le décollement.
+• Décolementrhegmatogène:
+o FR: Myopie (œil long, étire la rétine), traumatisme (décollement), antécédent d’opération intra-oculaire,
+antécédent personnel ou familiaux de détachement de larétine
+o Traitement:En urgence en cas de macula-off (quelques jours de délai possible si macula-on).
+Photocoagulationau laseret/ou chirurgie en cas d’atteinte extensive.
+• Décolementtractionnel:
+o FR: Diabète (rétinopathie diabétique proliférative), prématurité (rétinopathie du prématuré)
+• Décolementtractionnel
+o FR:Croissance d’une tumeur (mélanomede la choroïde, glioblastome)
+
+--- Page 7 ---
+Occlusion d’une artère rétinienne :
+• Définition :Occlusiond’une artère de la rétine, généralement d’origine thrombo-embolique.
+L’occlusion peut toucher l’artèrecentraledelarétine,ouunedesesbranches.
+• FR :Âge > 60 ans, FA ou athérosclérose carotidienne (source d’embole). Rarement : Vasculite(Horton)
+• Cliniques:
+o Atteinte l’artère centrale → perte soudaine et indolore d’acuité visuelle, présence d’un RAPD.
+Décrite comme la descente d’un rideau
+o Atteinte d’une branche → perte du champ visuel dans la partie de la rétine ischémique (scotome). Pas de RAPD
+o Amaurosefugace:AIT de la rétine causé par un embole qui se dissout spontanément.
+• Diagnostique:
+A. centrale → fondoscopie,rétine pâleavec un point rouge au centre (drapeau du japon).
+Branche → Le quadrant non vascularisé est anormalement pâle, le reste de la rétine est normalement perfusé
+• Traitement: Mauvais pronostic du à l’absence de traitement. La zone ischémique n’est plus récupérable.
+Occlusion d’une veine ré~nienne :
+• Défini~on :Occlusiond’une veine de la réène, peut-être ischémique ou non-ischémique, et peut toucher la veine
+centrale ou une branche. Les occlusions de branches sont le plus souvent asymptomaèques.
+• FR :Âge > 80 ans, athérosclérose, diabète et hypertension
+• Cliniques:
+o Aëeinte ischémiquecentrale→ perte soudaine et indolore d’acuité visuelle, présence d’un RAPD
+o Aëeinte nonischémiquecentrale→ perte de vision modérée et progressive, pas de RAPD
+• Diagnos~que: Au fond d’œil, on voit des hémorragiesdisséminées sur toute la réène, une tortuosités des veines
+réèniennes et des tâches blanches (coáon-woolspot)
+L’angiographie est nécessaire pour disènguer une occlusion ischémique d’une non-ischémique.
+• Traitement et pronos~c: Mauvais pronosèc en cas d’occlusion ischémique centrale (risque de néo-vascularisaèon
+pouvant entrainer un décollement de réèneet un glaucome). Traitement au laser.
+Les occlusions non ischémiques et les occlusions de branche ne requièrent aucun traitement.
+
+--- Page 8 ---
+Décollement rhegmatogène
+Occlusion centrale veineuse (haut)
+Et artérielle (bas)
+Décollement tractionnel
+
+--- Page 9 ---
+Dégénérescence maculaire lié à l’âge
+• Définition :Premièrecausedecécité dans la population âgé de >65 ans dans les pays industrialisés.
+Il en existe une forme «sèche» (>90%,d’évolution très lente (décennies) et caractérisée par le dépôt de
+protéines et de lipides sous le rétine), et une forme « humide» (< 10%, d’évolution plus rapide (semaines à
+mois) et caractérisée par une néovascularisation et des capillaires perméables).
+• Cliniques: Pertedu champs visuel (scotome centrale), voir plus fréquemment diminution de l’acuitévisuelle
+(fovéa). Progression des décennies dans DMLA sèches, sur quelques mois dans les DMLA humides.
+Métamorphopsie (distorsion visuelle avec déformation de traits droits en courbes, atteinte macula).
+• Diagnostique: LagrilledeAmslerpermetde mettre en évidence la métamorphopsie. Le fond d’œil permet de
+mettre en évidence des dépôts dans la forme sèche et des hémorragies dans la forme humide. L’angiographie
+permet de mettre en évidence la porosité des capillaires (formes humides). La tomographie en cohérence
+optique (OTC) permet de voir précisément au niveau de la rétine les dépôts de protéines etdelipidesoules
+fuites des vaisseaux.
+• Traitement:
+DMLA sèche:Amélioration de l’alimentation(effet protecteur des vitamines et antioxydants)
+DMLA humide:Injectiond’anti-VEGFdanslecorpsvitrépourbloquerlanéovascularisation
+
+--- Page 10 ---
+DMLA : Métamorphopsie (B) ou scotome central (C)
+DMLA sèche DMLA sèche DMLA humide (exsudative) DMLA humide (exsudative)
+
+--- Page 11 ---
+Conjonctivite virale
+• Définition :Forme de conjonctivite la plus fréquente. Causé le plus souvent pardesadénovirus. En généralils’agit
+d’uneinfection bilatérale. Parfois causé par des virus herpétiques (VZV, HSV).
+• Red-flag :Douleurs, photophobie, lésion conjonctive, ulcère cornée, vésicules, lentille contact, immunodéficience
+• Cliniques: Écoulement aqueux, sensation de corps étranger, prurit, œil rouge, adénopathie pré-auriculaire.
+Dans les conjonctivites à adénovirus, IVRS concomitante ou dans les jours précédant.
+• Diagnostic:Le diagnostic est clinique.
+Dans la conjonctivite à HSV, le test à la fluorescéine révèle un ulcère dendritique (y-penser en cas de conjonctivite
+unilatérale).
+• Traitement: Engénéralaucuntraitementparticulier, résolution spontanée. Attention aux mesures d’hygiène, la
+conjonctivite à adénovirus est très contagieuse.
+Si conjonctivite à HSV : gancyclovirtopique (ou acyclovir PO en cas de kératite, voir slide suivante)
+Si red-flag : avis ophtalmologique
+Conjonctivite bactérienne
+• Définition :Causé le plus souvent par le S. areusou H. influenza.
+Chez les nouveau-nées ou les jeunes sexuelles actifs, évoquer N. gonorrhoeae
+• Red-flag:Douleurs, photophobie, lésion conjonctive, ulcère cornée, vésicules, lentille de contact,
+immunodéficience, conjonctiviterécurrente,antécédentdeconjonctiviteàHSV
+• Cliniques: Unioubilatérale. Écoulement purulent, sensation de corps étranger, œil rouge, prurit.
+Diagnostic:Le diagnostic est clinique.
+En cas de drapeau-rouge : gram, PCR et culture du liquide purulent/frottis et avis ophtalmologique
+Traitement: Collyre antibiotique (par exemple érythromycine).
+Si suspicion de conjonctivite à gonocoque : Ceftriaxone IM
+Conjonctivite non infectieuse
+• Définition :Conjonctivite allergique ou « sèche ». Cette dernière peut-être idiopathique ou sur un syndrome de
+Sjöegren. Le traitement consiste en des larmes artificielles, et en cas de conjonctivite allergique des anti-
+histaminiquespo ou en collyre, voirdes corticostéroïdes.
+
+--- Page 12 ---
+Kératite bactérienne
+• Définition :Forme de kératite la plus fréquente. Incidence augmentée avec le port de lentille de contact.
+Causé le plus souvent pardesStaphylocoquesetleP.aeruginosa,parfoisentérobactérie(Klebsiella, E. coli…)
+• Cliniques: Douleurprogressive et sensation de corps étranger, œil rouge. Écoulement purulent, parfois hypopyon
+Attention,possible évolution en ulcère.
+• Traitement: Antibiotique topique,leplus souvent un fluoroquinolone (ciprofloxacine)
+Kératite zosterienne(VZV)
+• Cliniques: Prodrome de la réactivationavecfièvre,céphalées, malaise.
+Diminution delasensibilitéde la cornée au toucher mais douleurs (anesthesiadolorosa), lésions punctiformes à la
+surface. Dans unsecond temps vésicules autour de la paupière et sur le bout du nez
+• Traitement: ValacyclovirPOet stéroïde topique
+Kératite herpétique (HSV)
+• Cliniques: Clinique enapparence similaire à une conjonctivite virale, mais unilatérale : œil rouge, sensation de corps
+étranger, photophobie, douleurs. Le test à la fluorescéine révèle un ulcère dentritique(pathgognomonique)
+• Traitement: Acyclovir PO(jamais de stéroïde)
+Kératite à acanthamoeba
+• Définition :Forme rare de kératite. Incidence augmenté avec le port de lentille de contact.
+• Cliniques: Lésioncirculaire à la surface de la cornée (pathognomonique)
+• Traitement: Antiseptique encollyretypechlorhexidineetpropamidine
+Kéra~te non infec~euse : Photokéra~te
+• Défini~on :Kéraètetrès douloureuses, causée par une exposièon intense aux rayons UV.
+Souvent secondaire à de la souduresans protecèon (cave : aussi exclure un corps étranger) ou voyage en haute
+montage sans protecèon ni luneëes de soleils. Latence de 6-8havant l’apparièon des symptômes.
+• Cliniques: Douleur et photophobie importante. Au test à la fluorescéine, mul~ples lésions punc~forme (kéraète
+superficielle de Thygeson)
+• Traitement: AINS,larmes ar~ficielles. Résoluèon spontanée dans les 24-72h
+
+--- Page 13 ---
+Kératite dendritique Kératite bactérienne
+Kératite à acanthamoeba Kératite zosterienne Photokératite

@@ -1,0 +1,151 @@
+Vision : On retrouve 4 tests, les premiers testant l’acuité visuelle, le troisième testant le champ visuel et le dernier testant la vision
+des couleurs :
+1) Quadrants : ENLEVER les lunettes du patient, car on teste son champ de vision, car ce test n’est PAS quelque chose de précis
+comme l’acuité ! La première étape se fait les deux yeux ouverts (pour avoir une idée globale de si quelque chose cloche). On
+place nos mains derrière le patient en lui demandant de regarder droit devant lui et d’annoncer lorsqu’elles arrivent dans son champ
+visuel (déplacer ses mains lentement et en bougeant les doigts). Ce test s’appelle le test de Goldmann (à faire 2 fois, une fois en
+haut et une fois en bas !). On peut aussi reproduire ce test pour chaque oeil individuel si on a le temps, en testant les 4 quadrants :
+on met les deux mains derrière le patient, on en rapproche UNE SEULE en la bougeant et le patient doit la pointer.
+Comme deuxième point, on demandera au patient de se mettre ~ à distance de bras de nous et de regarder fixement notre nez avec
+un oeil alors que l’autre est fermé. On teste alors successivement ses 4 quadrants en lui montrant un chiffre avec les doigts, puis on
+teste des additions dans plusieurs cadrants. Si on veut éviter de mettre nos doigts hors de son champ de vision et fausser le status,
+on peut faire le test en même temps que lui, nous aussi avec l’oeil miroir ouvert.
+2) Vision de loin : tout d’abord, regarder la distance à laquelle le test (= échelle de Snellen) est prévu pour être fait et placer le
+patient AVEC ses lunettes à cette distance. Lui demander de cacher/fermer l’oeil droit pour commencer avec l’oeil gauche, tout en
+lui demandant de directement essayer de lire la plus petite ligne qu’il lui est possible de lire (permet de gagner du temps).
+On quantifie ensuite son résultat, en fonction de la ligne qu’il a réussi à lire (ligne à 0,66 ; 0,75 ; 1 ; etc.) et en fonction du nombre
+de lettres justes dites (7 sur 10 ou 1 sur 10, etc.).
+3) Vision de près : on reproduit les mêmes étapes qu’avant, en changeant seulement la distance ; le patient doit maintenant se
+trouver à distance de lecture du papier, c’est-à-dire ~ 40cm (DISTANCE DONNÉE SUR LA CARTE).
+Pour la quantification, on utilisera encore une fois la ligne qu’il a réussi à lire (ligne à 0,66 ; etc.), mais on dit juste ici s’il a plus ou
+moins bien réussi à lire la phrase/le morceau de texte.
+4) Test de confusion d’Ishihara : on demande au patient de se positionner à ~ 70cm du livre, avec ses lunettes et un seul oeil ouvert.
+On lui présente ensuite les différentes pages et on observe s’il donne les bonnes réponses et s’il en est persuadé (des petites fautes
+arrivent). Les premiers tests sont relativement simples, puis ils se compliquent. Finalement, les 4 derniers exercices se focalisent
+sur déterminer si le patient est daltonien sélectivement pour les rouges ou les verts (protanopes et deutéranopes respectivement).
+On quantifie les résultats en fonction du nombre de figures justes données (7 sur 13, etc.).
+Ce test est plutôt utilisé en clinique après des traumatismes (touchant surtout l’aire associative V4), moins pour les daltoniens (des
+tests spécifiques existent) ; on a ici seulement un test de dépistage
+
+Audition : 3 parties pour ce test : les tests de Rinné et Weber et l’otoscopie.
+Remarque : on ne fait QUE l’acoumétrie instrumentale et pas la vocale. Au cas où, pour faire l’acoumétrie vocale, on se met d’un côté du patient
+(d’abord du côté de sa meilleure oreille), à distance d’avant bras, tout en masquant son autre oreille en demandant au patient de se frotter le tragus (ou en
+le frottant nous-même) ou en utilisant la boîte de Barany (permet de masquer le son de cette oreille et ainsi d’éviter le transfert crânien).
+On va ensuite prononcer successivement plusieurs mots de deux syllabes (surtout les nombres comme 18, 33, etc.), tout d’abord en chuchotant, puis en
+parlant normalement, et finalement d’une voie forte. On détermine ainsi approximativement le degré d’atteinte. Remarque : pour l’ECOS, uniquement
+se limiter au chuchotement
+Remarque pour les diapasons : pour l’ORL, le diapason est plus court et épais, SANS les triangles noir et blanc !
+Test de Rinné : on commence en général par le test de Rinné, en tapant le diapason contre son coude, sa rotule ou en le pinçant, puis en le pressant (ne
+pas hésiter à appuyer jusqu’à qu’il entende bien) contre le processus mastoïde. On attend ensuite que le patient n’entende plus rien, puis on met le
+diapason très proche de son oreille, PARALLÈLEMENT à celle-ci. S’il entend à nouveau tout est normal (= Rinné POSITIF !).
+Test de Weber : on frappe à nouveau le diapason, mais on le pose cette fois-ci sur le vertex ou le front (ou encore sur le menton, mais c’est moins
+efficace ; en tout cas, sur la ligne médiane du crâne). Encore une fois, il ne faut pas hésiter à bien appuyer le diapason, en maintenant la tête du patient
+avec l’autre main. Le patient devrait entendre le son avec la même intensité avec ses deux oreilles.
+Otoscopie : on commence tout d’abord par un examen de l’oreille et quelques questions au patient.
+Si le patient souffre d’une baisse de l’audition, on lui demande d’abord si elle a un impact sur sa vie et lequel. Ensuite, on peut lui demander s’il souffre
+d’otalgies (= douleurs à l’oreille), de vertiges ou encore s’il a des acouphènes (= oreilles qui sifflent). On passe ensuite à l’examen physique : si on
+suspecte une otite externe, on peut palper le tragus (fait mal, ainsi que tout mouvement de l’oreille), la zone antérieure au tragus, regarder si on voit un
+écoulement, une rougeur, un gonflement, etc. On peut ensuite inspecter le MAE avec l’otoscope à la recherche de gonflement.
+Si on suspecte plutôt une otite moyenne, on va palper les ganglions du cou et de la mâchoire, on peut également parfois observer un décollement de
+l’oreille (surtout chez les enfants), on va chercher des signes de gonflements et d’inflammation au niveau du processus mastoïde. On peut encore
+percuter ce processus (fait mal) pour écouter s’il est encore creux et finalement inspecter l’intérieur de l’oreille pour regarder si du liquide est visible
+dans l’oreille moyenne.
+Pour manier l’otoscope, on le tient comme un crayon avec sa main ANTÉRIEURE (= permet une stabilisation sur la joue et évite de percer le tympan si
+le patient bouge la tête), on penche la tête du patient à ~ 30°, puis on tire l’oreille vers le haut et l’arrière. On peut ensuite insérer l’otoscope, plutôt
+horizontalement que verticalement, en suivant la courbure du canal à l’oeil nu (et on ne l’enfonce PAS TROP). On regarde ensuite à travers la lentille,
+en dirigeant l’otoscope vers la partie postérieure du canal, puis sa partie antérieure (= technique pour ne pas faire mal).
+On décrit ensuite ce qu’on voit dans l’oreille (un bouchon de cire (gros et brun, réfléchissant bien la lumière), un canal étroit, tout normal, etc.) et il est
+normal de trouver des poils dans la partie distale de l’oreille, qu’il faut passer (et dire qu’on les voit).
+On va finalement demander au patient d’effectuer une manoeuvre de Vasalva pour voir si son tympan répond correctement aux différences de pression :
+avec l’otoscope dans son oreille, on lui demande de se boucher le nez, puis se souffler par le nez (= comme pour se déboucher les oreilles quand on
+monte à la montagne). On devrait voir le tympan se bomber et le triangle lumineux changer de position.
+Ce qui est normal : avoir le TRIANGLE LUMINEUX dans la partie ANTÉRO-INFÉRIEURE de l’oreille, voir les osselets en transparence, etc.
+Il est important de CHANGER d’embout entre chaque oreille pour éviter de transmettre des germes d’une oreille à l’autre en cas d’otite !
+L’oreille est innervée postérieurement par les C2-3, antérieurement par le V3, la zone de Ramsay-Hunt et le canal par les nn. VII, IX et X. La partie
+antérieure et supérieure du MAE est innervée par le n. V3 et la partie postérieure et inférieure par les nn. VII, IX et X
+
+ACOUMÉTRIE INSTRUMENTALE
+= est-ce que le patient entend
+EN RÉSUMÉ
+bien ou non ? Ensuite on
+donne les tests plus complets
+
+Audition
+normale
+
+Surdité
+transmission
+unilatérale
+
+Surdité
+perception
+unilatérale
+
+WEBER
+
+centré
+
+latéralisé
+côté malade
+
+latéralisé
+côté sain
+
+RINNÉ
+
+positif
+
+négatif
+
+positif
+
+Si latéralisé, est-ce que l’otoscopie est
+normale ?
+
+Raisons pour ces tests :
+Surdité de perception unilatérale : le Rinné est POSITIF (= NORMAL) du côté de la lésion (et
+de l’autre côté), car comme la transmission de l’oreille n’est pas affectée, alors il n’y a pas de
+raison que la transmission aérienne devienne moins bonne que la transmission osseuse. Le
+Weber est latéralisé du côté controlatéral, car on entend juste moins bien de l’oreille atteinte et
+celle-ci ne possède aucune diminution du masquage.
+Le traumatisme acoustique et la presbyacousie (= la diminution du spectre des fréquences
+perçues avec l’âge, touchant surtout les hautes fréquences) sont les causes principales de
+surdités de perception.
+Problèmes affectant la perception : tout ce qui peut toucher la cochlée et les nerfs (surtout
+auditifs). Les pertes auditives associées peuvent varier de légères à totales.
+Surdité de transmission unilatérale : le Rinné est négatif du côté de la lésion (et positif du côté
+sain), car la transmission aérienne, diminuée par quelque chose, devient soudain moins bonne
+que la transmission osseuse. Le Weber se latéralise lui du côté de la lésion, car ce défaut de
+transmission diminue le masquage des sons fait par voie aérienne, ce qui diminue l’atténuation
+normale du son par l’environnement.
+Problèmes affectant la transmission : tout ce qui peut toucher l’oreille externe et moyenne,
+comme un bouchon de cire, un tympan percé, un problème des osselets, une otite moyenne, etc.
+Les pertes auditives associées peuvent être de légères à moyennes (~ 60dB).
+
+TEST DE RINNÉ - LIMITES
+Négatif à partir de 25-30dB de perte
+auditive par conduction aérienne
+Faussement négatif dans surdité
+unilatérale de perception ≥  60  dB
+(diapason non perçu en CA et entendu
+par  l’oreille  saine  en  CO  =  transfert  crânien)
+
+CLASSIFICATION SURDITÉ EN
+FONCTION DU DEGRÉ DE PERTE
+Perte auditive
+(entre 500 et 4000 Hz)
+Difficulté de compréhension de la
+voix basse
+
+Parole perçue si on élève la voix
+Quelques bruits familiers sont
+encore perçus
+Ne perçoit que la voix forte
+Sonnerie du téléphone pas perçue
+Aucune perception de la parole
+Seuls bruits très puissants sont
+perçus
+
+(Diapasons utilisés pour les tests de Rinné et Weber : 256Hz ou 512Hz)
+
+

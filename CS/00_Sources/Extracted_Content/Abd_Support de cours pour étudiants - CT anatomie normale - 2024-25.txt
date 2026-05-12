@@ -1,0 +1,437 @@
+CCDC UIDC
+Approche interactive à l’abdomen aigu
+Anatomie abdominale normale
+Prof. Sylvain Terraz
+
+Scanner abdominal: coupes axiales
+A
+veine cave
+inférieure (VCI)
+oesophage
+foie
+D
+
+G
+
+rate
+côtes
+
+rachis
+
+P
+
+aorte
+
+Scanner abdominal: coupes axiales
+veine porte G
+
+A
+estomac
+angle
+colique G
+
+D
+
+G
+
+foie
+rate
+
+côtes
+
+VCI
+
+rachis
+
+P
+
+aorte
+
+Scanner abdominal: coupes axiales
+VCI
+
+A
+estomac
+
+veine
+porte D
+
+côlon G
+
+D
+
+G
+foie
+
+surrénale D
+
+rate
+
+rein D
+rachis
+
+P
+
+aorte
+
+surrénale G
+
+pancréas
+(queue)
+
+Scanner abdominal: coupes axiales
+tronc porte
+
+pancréas
+(corps)
+
+A
+
+estomac
+intestin grêle
+
+vésicule
+biliaire
+D
+
+G
+
+foie
+côlon G
+rate
+
+VCI
+
+rein D
+
+rein G
+rachis
+
+P
+
+aorte
+
+Scanner abdominal: coupes axiales
+pancréas
+(tête)
+
+A
+
+côlon transverse
+intestin grêle
+
+vésicule
+biliaire
+
+côlon G
+D
+
+G
+
+foie
+
+angle
+colique D
+
+rate
+
+VCI
+rein D
+
+rachis
+
+P
+
+aorte
+
+rein G
+
+Scanner abdominal: coupes axiales
+A
+
+intestin grêle
+
+intestin grêle
+caecum
+
+D
+
+G
+
+côlon G
+VCI
+
+rachis
+
+P
+
+aorte
+
+Scanner abdominal: coupes axiales
+intestin grêle
+
+intestin grêle
+A
+
+D
+
+G
+
+caecum
+appendice
+
+P
+rachis
+
+appendice
+
+vaisseaux
+iliaques D
+
+Scanner abdominal: coupes axiales
+A
+
+intestin
+grêle
+
+côlon
+sigmoïde
+D
+
+G
+
+os
+iliaque D
+
+os
+iliaque G
+
+vaisseaux
+iliaques D
+
+vaisseaux
+iliaques G
+sacrum
+
+P
+
+Scanner abdominal: coupes axiales
+vaisseaux
+iliaques D
+
+A
+
+vaisseaux
+iliaques G
+
+hanche D
+
+hanche G
+vessie
+
+D
+
+G
+
+rectum
+
+P
+
+coccyx
+
+Scanner abdominal: coupes coronales
+S
+
+côtes
+
+coeur
+vésicule
+biliaire
+
+foie
+
+estomac
+angle
+colique G
+côlon
+transverse
+
+D
+côlon D
+
+côlon
+sigmoïde
+
+intestin
+grêle
+
+I
+
+G
+
+Scanner abdominal: coupes coronales
+S
+
+vésicule
+biliaire
+
+coeur
+foie
+
+D
+
+estomac
+intestin
+grêle
+
+duodénum
+
+G
+côlon G
+
+côlon D
+
+os iliaque G
+
+os iliaque D
+
+côlon sigmoïde
+vessie
+
+I
+
+Scanner abdominal: coupes coronales
+tronc porte
+
+S
+coeur
+
+vésicule
+biliaire
+foie
+
+D
+
+estomac
+angle colique G
+
+pancréas
+(tête)
+
+intestin grêle
+G
+côlon G
+
+côlon D
+os iliaque D
+
+os iliaque G
+
+artère iliaques
+externes
+
+côlon sigmoïde
+I
+
+symphyse pubienne
+
+vessie
+
+Scanner abdominal: coupes coronales
+pancréas
+(corps)
+
+S
+coeur
+
+estomac
+rate
+
+foie
+
+D
+
+intestin grêle
+aorte
+
+côlon D
+
+côlon G
+
+VCI
+
+côlon sigmoïde
+hanche D
+
+vessie
+I
+
+hanche G
+
+G
+
+Scanner abdominal: coupes coronales
+S
+
+estomac
+
+VCI
+foie
+
+rate
+
+angle
+colique D
+
+pancréas
+(queue)
+aorte
+
+D
+
+côlon G
+rein D
+
+rein G
+
+hanche D
+
+hanche G
+rachis
+
+I
+rectum
+
+G
+
+Scanner abdominal: coupes coronales
+S
+côtes
+
+poumon
+D
+foie
+
+D
+
+poumon
+G
+rate
+
+rein D
+
+rachis
+
+rein G
+
+os iliaque D
+
+os iliaque G
+
+rectum I
+
+sacrum
+
+G
+
+

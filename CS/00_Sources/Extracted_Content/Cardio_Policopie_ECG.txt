@@ -1,0 +1,7770 @@
+Support du cours ECG
+4ème année (UIDC)
+Ce document a été compilé à partir de l'oeuvre
+Stroobandt RX, Barold SS, Sinnaeve AF. ECG from basics to
+essentials : step by step. Wiley, 2016
+Ebook : http://onlinelibrary.wiley.com/book/10.1002/9781119066446
+Disponible dans son integralité sur le site Moodle du cours
+
+Le contenu de ce document a été fortement condensé en supprimant des
+pages et des figures et texte afin de limiter l'information à l'essentiel.
+L'ordre des chapitres a été restructuré, afin de mieux correspondre à la
+séquence des sujets enseignés durant les cours ECG 1 et ECG 2
+Quelques pages ont des commentaires qui ont été ajoutés (en français,
+afin de les identifier)
+
+Bonne lecture!
+Pr. Haran BURRI
+Service de Cardiologie
+HUG
+
+A lire avant le module
+ECG1
+Bases de l’enregistrement
+Les ondes de l’ECG
+L’axe du QRS
+Dysfonction sinusale
+Wandering pacemaker
+Rythme jonctionnel
+Arythmies atriales (flutter, FA, tachycardie atriale)
+Arythmies jonctionnelles (AVNRT et AVRT)
+Voies accessoires
+
+CHAPTER 1
+
+ANATOMY
+AND
+BASIC PHYSIOLOGY
+* What is an ECG?
+* Blood circulation – the heart in action
+* The conduction system of the heart
+* Myocardial electrophysiology
+° About cardiac cells
+° Depolarization of a myocardial fiber
+° Distribution of current in myocardium
+* Recording a voltage by external electrodes
+* The resultant heart vector during ventricular depolarization
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+1
+
+3
+The electrocardiogram (ECG) is the recording of
+the electrical activity generated during and after
+activation of the various parts of the heart. It is
+detected by electrodes attached to the skin.
+
+The ECG provides information on:
+
+* the heart rate or cardiac rhythm
+* position of the heart inside the body
+* the thickness of the heart muscle or dilatation of heart cavities
+* origin and propagation of the electrical activity and its possible
+aberrations
+* cardiac rhythm disorders due to congenital anomalies of
+the heart
+* injuries due to insufficient blood supply (ischemia, infarction, ...)
+* malfunction of the heart due to electrolyte disturbances or drugs
+
+History
+The Dutch physiologist Willem Einthoven was one of the pioneers of electrocardiography and
+developer of the first useful string galvonometer. He labelled the various parts of the electrocardiogram using P, Q, R, S and T in a classic article published in 1903. Professor Einthoven
+received the Nobel prize for medicine in 1924.
+
+6
+
+THE CONDUCTION SYSTEM OF THE HEART
+
+LEFT
+ATRIUM
+
+3
+
+1
+
+BUNDLE
+of
+HIS
+
+SINUS
+NODE
+(SA)
+
+LEFT
+VENTRICLE
+(LV)
+
+RIGHT
+ATRIUM
+(RA)
+
+2
+
+4
+
+AV
+NODE
+
+LEFT
+BUNDLE
+BRANCH
+
+RIGHT
+VENTRICLE
+(RV)
+
+5
+4
+RIGHT
+BUNDLE
+BRANCH
+
+PURKINJE
+NETWORK
+(P. FIBRES)
+
+Sinus node
+
+AV
+Node
+
+His
+Bundle
+
+Atria
+
+Left
+Bundle
+Branch
+
+AV node
+LBB
+Main
+Stem
+
+Right
+Bundle
+Branch
+
+Bundle of His
+Left
+Posterior
+Fascicle
+
+Right BB
+
+Left
+Anterior
+Fascicle
+
+Purkinje
+fibers
+Right
+ventricle
+
+Left BB
+Left
+anterior
+fascicle
+
+Left
+posterior
+fascicle
+
+Purkinje
+fibers
+
+Purkinje
+fibers
+
+Left
+ventricle
+
+8
+
+ABOUT CARDIAC CELLS 1
+Cylindrical cells
+
+intercalated disks
+
+membrane potential
+
+- 90 mV
+EXTRACELLULAR
+
+Na+
+MEMBRANE
+
+Na+
+
+K+
+
+INTRACELLULAR
+
+Na+
+
+micropipette
+electrode
+
+K+
+
+Na+
+
+Na+
+
+POLARIZED RESTING CELL
+K+
+
+SO -4 -
+
+PO -4 --
+
+Na+
+
+Na+
+
+Na+
+
+-Prot
+
+K+
+Na+
+
+Na+
+Na+
+
+extracellular
+electrode
+
+Na+
+ION CHANNELS
+
+Na Cl Ca
+ION
+
+ion e
+ion i
+Extracellular
+Intracellular
+concentration in concentration in
+mmol/liter, mM mmol/liter, mM
+4
+
+150
+
+Na
+
+145
+
+10
+
+Ca
+
+1.8
+
+10-4
+
+Cl
+
+120
+
+20
+
+K
+
+Influx
+
+CELL
+Efflux
+
+K
+
+10
+
+ABOUT CARDIAC CELLS 2
+electrical
+impulse
+
+1
+
+POLARIZED CELL
+(RESTING)
+
+2
+
+INFLUX
+local ionic current
+
+Na+
+
+propagation of
+depolarization
+
+moving depolarization front
+
+EFFLUX
+
+INFLUX
+Ca
+
+3
+
+4
+
+DEPOLARIZED CELL
+
+K
+
+propagation of
+repolarization
+
+moving depolarization front
+
+voltage
+
+Action potential
++30 mV
+
+-60 mV
+
+time
+
+Repolarization
+
+-30 mV
+
+Depolarization
+
+0 mV
+
+-90 mV
+
+Resting
+potential
+voltage
++20
+
+Phase 1
+Phase 2
+
+++
+
+Phase 3
+
+Ca
+
+Phase 0
+
+0 mV
+
+OUT
+
+IN
++
+
+Na
+IN
+
+IN
+
++
+
+Phase 0
+
+K
+
+Phase 4
+
+Phase 4
+
+Action potential of
+myocardial cells
+
+OUT
++
+
+K
+
+-40
+Phase 3
+
+++
+
+Ca
+
+-20
+
+Phase 4
+
+Phase 4
+
+-60
+-80
+
+Action potential of
+pacemaker cells
+
+16
+
+RECORDING A VOLTAGE BY EXTERNAL ELECTRODES
+2 : negative pole
+of the voltmeter
+
+NO
+potential
+difference
+
+1 : positive pole
+of the voltmeter
+
+NO
+potential
+difference
+
+Voltmeter
+
+90 mV
+
+I
+
+I
+
+0 mV
+2
+
+1
+
+2
+
+voltage
+vector
+
+0 mV
+1
+
+2
+
+1
+
+resting part
+of the cell
+
+Depolarized part
+of the cell
+
+depolarization
+front
+
+Current
+
+electrode 1
+
+electrode 2
+voltage
+vector
+
++
+
+noninverting
+input (positive
+connector)
+
+inverting
+input (negative
+connector)
+
+ECG machine
+
+18
+THE RESULTANT HEART VECTOR
+DURING VENTRICULAR DEPOLARIZATION
+
+Schematic model
+of the ventricles
+SPREAD OF THE
+DEPOLARIZATION
+
+plane of
+cross
+section
+
+(only the resultant vector
+at a given time is shown)
+10 ms
+
+20 ms
+
+30 ms
+
+40 ms
+
+50 ms
+
+1
+2
+50 ms
+
+70 ms
+
+60 ms
+
+cross section of
+ventricles and
+depolarization
+at 50 ms.
+
+90 ms
+
+resultant vector
+
+1
+2
+RV and LV vectors
+occurring simultaneously
+
+CHAPTER 2
+
+ECG RECORDING
+AND
+ECG LEADS
+* The ECG machine or electrocardiograph
+* The ECG grid
+* Time interval versus rate
+* Registration of an ECG
+* Standard leads according to Einthoven
+* Wilson central terminal
+* Augmented limb leads according to Goldberger
+* The precordial leads after Wilson
+* How to locate the 4th right and left intercostal spaces
+* The 12 leads put together
+* Understanding the hexaxial diagram and its importance
+* Common errors in recording the ECG from precordial leads
+* Lead reversals in frontal plane
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+21
+
+22
+
+THE ECG MACHINE OR ELECTROCARDIOGRAPH
+
+grounding
+to prevent
+EMI
+
+feedback
+circuit
+
+μ-processor
+(computer)
+
+battery
+
+power
+supply
+
+grounding
+for patient
+safety
+mains plug
+220 V
+
+pre-amplifiers
+& filters
+
+lead
+selector
+switch
+LA
+
+RA
+
+power
+amplifier
+
+recorder
+or
+printer
+
+RL
+LL
+
+paper
+speed
+
+virtual grounding
+for the suppression
+of interference
+(driven
+right leg)
+
+Abbreviations
+EMI = electromagnetic interference ; μ = micro (Greek letter mu)
+RA = right arm ; LA = left arm ; RL = right leg ; LL = left leg (frontal plane connections)
+
+Pre-amplifiers enhance the small signals picked up by the electrodes on
+the patient. They also provide filters avoiding non-cardiac signals from
+disturbing the ECG. An AC-filter counteracts 50 or 60 Hz interference (EMI)
+and another filter cuts down the influence of myopotentials from
+musculoskeletal sources.
+Contemporary ECG machines may contain an embedded microprocessor
+(computer) that not only controls the proper functioning of the equipment,
+but also provides an ECG diagnosis.
+A feed-back circuit combines all spurious signals (noise) of the limb leads
+and is coupled to the right leg. This eliminates most of the unwanted noise
+and provides a thin baseline so that small details of the ECG can be
+observed.
+
+24
+
+THE ECG GRID
+
+PAPER
+
+amp
+
+lifier
+
+electrode
+
+–
+
++
+
+electrode
+
+5 mm = 200 ms
+
+5 mm =
+0,5 mV
+
+Calibration
+
+1 mm = 40 ms
+10 mm
+= 1 mV
+1 mm =
+0,1 mV
+25 mm = 1 sec
+
+MEASURING MAGNITUDES
+
+14 mm
+
+10 mm
+= 1 mV
+
+10 mm
+= 1 mV
+
+Baseline
+7 mm
+
+Baseline
+
+Calibration : 10 mm for 1 mV
+Height of deflection : 14 mm or 1.4 mV
+
+Calibration : 10 mm for 1 mV
+Depth of deflection : 7 mm or 0.7 mV
+
+25
+
+voltage
+(mV)
+Time is measured horizontally in s or ms
+Magnitude is measured vertically in mV
+time
+(ms)
+* Conventionally the sensitivity of the ECG machine is adjusted (i.e. calibrated) so that a 1 millivolt (1 mV) electrical
+signal produces a 10 mm deflection on the ECG (i.e. two
+large squares).
+* The standard paper speed is 25 mm per second (i.e. 1 s or
+1000 ms corresponds to five large squares)
+
+positive
+deflection
+
+Baseline
+
+Baseline
+
+Baseline
+
+negative
+deflection
+
+There is no absolute or fixed zero voltage. All measurements of voltages
+on ECG are relative to the baseline or isoelectric line.
+Upward deflections on an ECG (above the baseline) are called positive.
+Downward deflections (under the baseline) are called negative.
+
+26
+
+TIME INTERVAL VS RATE
+5 mm
+
+interval
+
+interval
+
+Large square = 5 mm = 0.2 s = 200 ms
+
+Small square = 1 mm = 0.04 s = 40 ms
+1200 ms
+1000 ms
+800 ms
+600 ms
+400 ms
+200 ms
+
+5 mm
+
+1 mm
+
+50
+
+60
+
+0
+10
+
+75
+
+0
+15
+
+0
+30
+
+St
+ar
+t
+
+m
+
+bp
+
+27
+* The intervals are normally expressed in milliseconds (ms).
+* The heart rate or frequency of the heart is expressed in
+beats per minute (bpm).
+* There are 1000 ms in one second and 60 seconds in a minute.
+* Hence :
+
+Heart Rate (in bpm) =
+
+60,000
+RR-interval (in ms)
+
+No calculation needed for a quick estimation of the rate, just
+count the number of squares between two consecutive R waves !
+
+Heart rate (bpm) =
+
+300
+Number of large squares
+
+or with more accuracy
+
+Heart rate (bpm) =
+
+1500
+Number of small squares
+
+For
+determinationofofthe
+therate,
+rate,
+For aa rapid
+rapid determination
+memorize the
+memorize
+thenumbers
+numbers
+300
+300--150
+150- -100
+100- -75
+75- -60
+60- -5050
+
+28
+
+TIME INTERVAL VS RATE – EXAMPLES
+Numbers to remember ! INTERVAL
+
+RATE
+R
+
+R
+
+300
+bpm
+
+RR interval
+= 200 ms
+1 large square
+
+150
+bpm
+
+RR interval
+= 400 ms
+2 large squares
+QS
+
+R
+
+QS
+
+R
+
+RR interval
+= 600 ms
+3 large squares
+
+100
+bpm
+
+R
+
+R
+
+RR interval
+= 800 ms
+4 large squares
+
+75
+bpm
+
+R
+
+R
+
+RR interval
+= 1000 ms
+5 large squares
+
+60
+bpm
+
+R
+
+50
+bpm
+
+R
+
+RR interval
+= 1200 ms
+6 large squares
+
+Methods for determining the heart rate during regular rhythm
+1. Cardiac ruler method
+Place the beginning point of a cardiac ruler over an R wave. Look at the
+number on which the next R wave falls and read the heart rate.
+
+R
+
+R
+
+300
+
+175
+120
+90
+75
+65
+55
+100
+80 70
+60
+200 150
+
+45
+50
+
+35
+40
+
+30
+
+25 mm/sec
+2. The 300 method
+Count the number of large squares (5 mm boxes) between 2 consecutive R
+waves and divide 300 by that number.
+
+Methods for determining the heart rate during irregular rhythm
+When the heart rate is irregular (e.g. atrial fibrillation), a longer interval should be
+measured to provide a more precise rate. “1 second time lines” may be used to
+measure longer intervals. If no “1 s time lines” are marked on the ECG paper, they
+can be created by counting 5 large squares (5 x 0.2 s = 1 s).
+1. The 6 seconds method
+Heart rate = number of QRS complexes in 6 s multiplied by 10
+
+Example of the 6 s rule during irregular rhythm
+
+* A 6 s strip is selected between the two blue arrows
+* Number of QRS complexes in 6 s is 13
+* Mean heart rate is 13 x 10 = 130 bpm
+
+29
+
+32
+
+STANDARD LEADS ACCORDING TO EINTHOVEN
+
+LEAD II
+
+LEAD I
+
+RA
+
+RA
+
+LA
+
+RA = right arm
+LA = left arm
+LL = left leg
+
+LL
+
+LEAD III
+Einthoven’s
+equilateral
+triangle
+
+LA
+
+RA
+LL
+
+I
+
+LA
+
+I
+II
+
+7
+mm
+
+12
+mm
+
+III
+
+5
+mm
+
+III
+
+LL
+lead
+axis III
+
+II
+
+lead
+axis I
+
+lead
+axis II
+
+I + III = II or 7 mm + 5 mm = 12 mm
+
+33
+The standard leads are :
+* Bipolar leads since the measurement occurs between two electrodes
+(+ and −) attached to the body
+* Limb leads or extremity leads since the electrodes are connected to
+the extremities
+Note : Arms and legs are good electrical conductors, hence the position of the
+electrodes (hand or shoulder, foot or hip) is not critical.
+The positive electrodes (+) of the standard limb leads are electrically at about the
+same distance from a theoretical zero reference in the heart. Hence, the lead axes
+form an equilateral triangle with the heart and its zero reference in the center. This
+triangle is called Einthoven’s triangle. (Although in reality it is not exactly
+equilateral, but it is a good approximation.)
+
+Einthoven’s law
+
+lead I + lead III = lead II
+This equation can also be written as :
+
+lead I + lead III – lead II = 0
+which is the well-known form of Einthoven’s law!
+
+34
+WILSON CENTRAL TERMINAL
+
+amplifier of
+electrocardiograph
+
+exploring
+electrode
+
+P
+
+RA
+
+LA
+
+WILSON
+BOX
+
+LL
+
+VCT
+Reference
+potential
+
+Equipotential
+points
+
+35
+Wilson connected the three standard limb leads through
+equal-valued resistors to a common point. The potential
+at this point is the average of the potentials at each limb
+electrode and is used as a reference potential.
+
+This reference is known as the
+central terminal potential (VCT)
+and is used by physicians as
+zero equivalent.
+
+By linking the three limbs RA, LA and LL through large equal resistors a relatively
+stable reference potential VCT is created. Although it is technically incorrect to label
+VCT as the zero potential it may be considered as such because the electrocardiograph only registers variations of voltages and suppresses constant (or DC) voltages.
+
+VCT =
+
+VRA + VLA + VLL
+3
+
+Since the potential of the central terminal is essentially constant, the potential
+difference or voltage recorded by the electrocardiograph only reflects the potential
+variations at the exploring electrode - hence the term “unipolar lead”.
+
+36
+
+AUGMENTED LIMB LEADS
+ACCORDING TO GOLDBERGER
+LEAD aVL
+
+LEAD aVR
+
+to ECG recording
+circuitry
+
+to ECG recording
+circuitry
+
+RA
+
+LA
+
+RA
+
+LL
+
+LA
+
+reference in
+ECG machine
+
+reference in
+ECG machine
+
+LL
+
+LEAD aVF
+to ECG recording
+circuitry
+
+LA
+
+RA
+
+lead
+axis
+aVR
+
+LA
+
+RA
+aV
+
+L
+
+R
+
+reference in
+ECG machine
+
+LL
+lead
+axis
+aVF
+
+aVR
+-8 mm
+
++6 mm
+
++2 mm
+aVF
+
+aV
+
+aVF
+
+LL
+
+aVL
+
+lead
+axis
+aVL
+
+aVR + aVL + aVF = 0
+or : aVL + aVF = –aVR
+6 mm + 2 mm = – (–8) mm = 8 mm
+
+This law is very useful to detect
+lead misplacement !
+
+With the Wilson box as a reference potential, additional lead axes were
+created using one of the three limb electrodes (i.e. RA, LA and LL) as an
+exploring electrode.
+By using only two resistors and omitting the connection between the exploring
+electrode and the reference point, Dr. Goldberger obtained an amplitude of
+the deflecton that was 50% larger.
+Therefore these leads are called “augmented” hence the letter “a” is applied
+to the VR, VL and VF leads (aVR, aVL, aVF).
+
+The augmented leads are:
+* Limb leads because the exploring electrode (+ pole of the ECG
+machine) is connected to a leg or an arm.
+* Unipolar leads since only one exploring electrode is used
+and the negative pole of the ECG machine is connected to the
+reference point.
+* Frontal plane leads like leads I, II and III.
+The lead axis for any particular augmented lead is a straight
+line drawn between the reference voltage point at the center
+of the heart and its extremity electrode.
+
+aVR + aVL + aVF = 0
+
+37
+
+38
+
+THE PRECORDIAL LEADS
+AFTER WILSON
+
+Precordial electrode
+(exploring electrode)
+
+LA
+
+RA
+
+amplifier of
+electrocardiograph
+
+WILSON
+BOX
+
+VCT
+LL
+
+midclavicular
+line
+
+Reference
+point
+
+anterior
+axillary
+line
+midaxillary
+line
+
+V1
+V1 et V2:
+4ème espace intercostal
+
+V6
+V2
+
+V3 V4
+
+V6
+V1 V2 V3 V4
+
+V5
+
+V5
+
+The Wilson leads are:
+* Unipolar leads since the measurement occurs with only one exploring
+or probing electrode (the negative pole of the ECG machine is connected
+to the central terminal; the reference point VCT acts as a zero potential).
+* Chest leads or precordial leads since the electrodes are placed on
+the chest around the heart.
+V1 and V2 reflect the electrical activity of the interventricular septum (predominantly a left-sided structure)
+V3 and V4 point towards the anterior LV
+V5 and V6 reflect the lateral LV.
+
+Normal position of precordial electrodes
+V1 Right side of the sternum in the fourth intercostal space
+V2 Left side of the sternum in the fourth intercostal space
+V3 Midway between V2 and V4
+V4 Midclavicular line in the fifth intercostal space
+V5 Anterior axillary line at the same level as V4
+V6 Midaxillary line at the same level as V4
+
+Lead axes in the
+horizontal plane
+
+V6
+
+V5
+
+V1
+
+V4
+
+V2
+
+V3
+
+39
+
+42
+
+THE 12 LEADS PUT TOGETHER
+SUPERIOR
+
+-150°
+aVR
+
+- 30°
+
+aVL
+
+0° I
+
+V6
+V1
+
+V5
+
+V2 V3 V4
+
+HORIZONTAL
+PLANE
+
+60°
+
+120°
+
+III
+
+II
+
+90°
+
+aVF
+
+INFERIOR
+
+I
+High Lateral
+
+aVR
+
+II
+
+aVL
+
+Inferior
+
+High Lateral
+
+V1
+
+V4
+
+Anteroseptal
+
+Anterior
+
+V2
+
+V5
+Low Lateral
+
+Anteroseptal
+
+III
+
+aVF
+
+V3
+
+Inferior
+
+Inferior
+
+Anterior
+
+V6
+Low Lateral
+
+LEFT LATERAL
+
+RIGHT LATERAL
+
+FRONTAL
+PLANE
+
+43
+WHY DO WE NEED 12 LEADS?
+
+If you want to check the quality of an apple you have to look
+for weak spots from many directions !
+The same principle applies to the heart !
+
+The
+The 12-lead ECG provides 12 different views of the electrical
+activity of the
+outside
+of of
+activity
+the heart,
+heart,each
+eachview
+viewlooking
+lookingfrom
+fromthe
+the
+outside
+the chest
+chest toward
+toward the
+the reference
+reference point
+point within
+within the
+the heart.
+heart.
+the
+
+45
+THE LIMB LEADS IN THE FRONTAL PLANE
+(HEXAXIAL REFERENCE FIGURE)
+GOLDBERGER
+
+EINTHOVEN
+
+aV
+
+L
+
+aV
+
+R
+
+I
+
+II
+
+III
+
+aVF
+-90°
+-120°
+
+-150°
+
+-60°
+
+aV
+
+-30°
+
+L
+
+R
+
+aV
+
+I
+
+-180°
++180°
+
+0°
+
+30°
+
+III
+120°
+
+aVF
+
+150°
+
+90°
+
+II
+60°
+
+48
+COMMON ERRORS IN RECORDING
+THE ECG FROM PRECORDIAL LEADS
+
+The precordial electrodes require careful positioning by palpating
+the bony structures of the chest. Common errors in placement of
+a chest electrode include:
+1. Placing an electrode directly on a rib, rather than on an intercostal space.
+2. Placing it on the wrong intercostal space.
+3. Placing V1 or V2 directly on the sternum.
+4. Placing V1 to the left of the sternum.
+5. The right precordial electrodes V1 and V2 are often too high
+and too far apart.
+6. The left precordial electrodes V4 to V6 are commonly placed
+both too low and too far towards the back for serial ECG
+recording.
+
+Technicians are commonly trained to place the chest electrodes
+under the breast of women. The effect of breast tissue on the ECG
+is smaller than that of misplacement.Therefore it is recommended
+by some experts to place the electrodes on the breast rather than
+under the breast to facilitate the precision of electrode placement
+at the correct horizontal level and at the correct lateral positions.
+Others believe that there is insufficient evidence to support a switch
+from traditional sites beneath the left breast to record V4 to V6.
+
+Errors in the placement of the chest electrodes do not influence the morphology of the QRS complex of the limb leads
+in the frontal plane.
+
+An error in the placement of precordial leads may change the morphology
+of the ECG and result in inadequate or even wrong diagnosis.
+In the example below, the P wave changes from its normal equiphasic
+appearance to monophasic positive if the electrodes are placed
+incorrectly too low or monophasic negative if they are placed too high:
+
+Correct positioning of the precordial electrodes
+
+V1
+
+V2
+
+Equiphasic
+
+V3
+
+V4
+
+V5
+
+V6
+
+V3
+
+V4
+
+V5
+
+V6
+
+V3
+
+V4
+
+V5
+
+V6
+
+QS
+
+2 IC lower than normal
+
+V1
+
+V2
+
+Monophasic
+positive
+rS
+
+2 IC higher than normal
+
+V1
+
+V2
+
+Monophasic
+negative
+
+Placer V1 et V2 trop haut modifie également le QRS!
+
+49
+
+50
+
+LEAD REVERSALS IN FRONTAL PLANE
+Lead switches are a common mistake in ECG recording and can lead to wrong diagnoses. The
+most common mistake in electrode positioning is reversal of the right and the left arm leads,
+which occurs in about 3% of ECGs recorded in a hospital setting. Lead I becomes the mirror
+image of the true lead I so that all deflections (P wave, QRS complex and T wave) are inverted.
+Lead aVR shows reversed polarity with a positive P wave and QRS complex. Just looking at lead
+I makes the diagnosis.
+Right and left arm lead reversal can be distinguished from the much rarer dextrocardia (where the
+heart is positioned on the right side) by examination of the precordial R wave progression. This
+progression is normal with arm lead reversal but is reversed with dextrocardia.
+Transposition of the arm and leg electrodes is much less common but quite complex to evaluate,
+except reversal of the right leg lead with one of the arm leads. In this situation the reversal produces
+“pseudo-asystole” (a straight line) in either lead II or III because the potential between the
+two legs is zero. .
+
+Always look at lead I to recognize arm lead reversal: P, QRS and T
+are all inverted.
+A straight line in leads II or III suggests arm lead and right leg reversal.
+
+I
+II
+
+V1
+V2
+
+RA/LA reversal
+
+III
+V3
+
+P, QRS, T negative
+in lead I
+
+aVR
+
+Normal R wave
+progression in
+precordial leads
+
+aVL
+aVF
+
+V4
+V5
+V6
+
+V1
+
+I
+II
+III
+
+Dextrocardia
+
+V2
+
+P, QRS, T negative
+in lead I
+
+V3
+
+Reversed R wave
+progression in
+precordial leads
+
+aVR
+
+V4
+
+aVL
+
+V5
+
+aVF
+
+51
+
+V6
+
+LA/RL
+reversal
+
+RA/RL
+reversal
+
+Pseudo-asystole
+in lead III
+
+Pseudo-asystole
+in lead II
+
+RA/RL
+and LA/LL
+reversal
+Zero potential
+in lead I
+Both arm leads are on
+the legs and both leg
+leads are on the arms.
+Lead I = LA – RA but
+with reversal of arm
+and leg electrodes
+lead I now becomes
+LL – RL = 0
+
+I
+
+I
+
+II
+
+II
+
+II
+
+III
+
+III
+
+III
+
+I
+
+CHAPTER 4
+
+THE COMPONENTS
+OF THE ECG
+WAVES AND INTERVALS
+* What can be seen on the normal ECG – waves and complexes
+* Intervals and segments
+* The QT interval and the U wave
+* T wave polarity and morphology
+* The QRS complex – designation of special cases
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+73
+
+74
+
+WHAT CAN BE SEEN ON THE NORMAL ECG
+Atrial
+depolarization
+
+QRS
+complex
+
+R
+
+Junction
+or “J” point
+
+T
+wave
+
+P
+wave
+
+Heart at rest
+no electrical
+activity
+
+U
+wave
+
+Q
+
+S
+
+Isoelectric line
+or baseline
+
+Ventricular
+repolarization
+
+Ventricular
+depolarization
+
+R
+
+R wave
+Purkinje fibers
+
+His bundle
+
+Sinus node
+
+Start AV node
+
+R
+
+isoelectric
+line
+
+time
+
+P
+AV Node
+delay
+
+Q wave
+Q
+
+S wave
+
+Q
+S
+
+* Only electrical activity can be seen !
+Mechanical action (contraction) is not registered by the ECG.
+* Atrial repolarization is not seen in the ECG.
+* The depolarization of sinus node, AV node, His bundle and
+bundle branches is not marked on the normal ECG because
+they do not contain sufficient cells to produce a voltage that
+can be measured on the skin of the body.
+* An obvious U wave is seldom seen on a normal ECG.
+
+* The P wave represents the depolarization of both the
+right and left atria.
+
+* The QRS complex is the representation of ventricular
+depolarization.
+* The Q wave is the first downward deflection of the
+QRS complex and is followed by the upward R
+wave.
+* The R wave is the first upward deflection of the
+QRS complex and is followed by a downward
+S wave.
+* The S wave is the downward deflection preceded
+by an upward deflection.
+Note: differentiation between downward Q and S
+waves depends on whether the downward stroke
+occurs before or after the R wave.
+
+* The T wave represents the repolarization of both the
+right and left ventricles.
+
+75
+
+76
+ABOUT INTERVALS AND SEGMENTS
+RR interval
+
+R
+
+R
+
+J point
+
+T
+P
+
+T
+P
+time
+
+PR
+interval
+
+QT
+interval
+
+S
+
+QRS
+interval
+
+isoelectric line
+
+R
+
+R
+ST
+segment
+
+T
+P
+
+T
+P
+time
+
+Q S
+
+Q S
+
+* Intervals are periods of time including waves and complexes.
+Segments are always measured between waves but never
+include them.
+* The baseline or isoelectric line is a straight flat line seen when
+no electric activity of the heart is detected.
+
+77
+PR interval
+The PR interval begins at the onset of the P wave and ends at the onset of the
+QRS complex. This interval represents the time taken by the cardiac impulse to
+reach the ventricles starting from the sinus node and high right atrium. It is called
+PR interval because the Q wave is frequently absent. Normal values are between
+0.12 and 0.20 s ; prolongation defines 1st-degree atrioventricular block.
+RR interval
+The RR interval starts at the peak of one R wave to the peak of the next R wave
+and represents the time between two QRS complexes.This measure-ment is
+useful in calculating the heart rate.
+QRS complex
+The QRS complex represents the duration of ventricular depolarization. The short
+duration of the QRS complex indicates that ventricular depolarization normally
+occurs very rapidly (0.06 to 0.10 s). The QRS complex begins at the onset of the
+Q wave and ends at the endpoint of the S wave. The deflections are still termed
+QRS complexes even if one or more of the 3 waves (Q, R, S) are not visible.
+Hence the traditional use of the term RR interval to indicate the time between two
+QRS complexes regardless of their configurations.
+The ventricles have a much larger muscle mass compared to the atria, causing the
+QRS complex to exhibit a much larger amplitude than the P wave. The amplitude
+of the QRS complex is increased secondary to a larger myo-cardial mass in left
+ventricular hypertrophy.
+If the QRS complex is prolonged (> 0.1 s) conduction is impaired within the
+ventricles.
+ST segment
+The ST segment begins at the endpoint of the S wave and ends at the onset of
+the T wave, lasting 0.08 to 0.12 s. During the ST segment, the atria are relaxed
+and the ventricles are contracting but no electricity is noted. Electrical activity is
+not visible so that the ST segment is normally isoelectric but ST eleva-tion with a
+slight upward concavity may also be normal thereby complicating the diagnostic
+value of the ST segment.
+The length of the ST segment shortens with increasing heart rate. A change from
+baseline producing ST segment depression or elevation occurs in pathological
+situations.
+QT interval
+The QT interval represents the duration from depolarization to repolarization of
+the ventricles. (See next page.)
+
+88
+
+THE NORMAL P WAVE 1
+THE FRONTAL PLANE
+sum
+P1 + P2
+
+P2
+
+P wave e.g. in lead II
+
+P1
+
+P2
+
+< 2.5 mm
+(< 0,25mV)
+
+P1
+time
+
+< 110 ms
+
+Lead aVR
+
+-90°
+-120°
+
+-60°
+
+aVR-150°
+
+-30°
+
+-180°
++180°
+
+aVL
+
+0° I
+
+150°
+
+Lead II
+
+30°
+
+60°
+
+120°
+
+III
+
+90°
+
+II
+
+Resultant
+P wave
+vector
+
+aVF
+
+Lead II is oriented nearly
+parallel to atrial activation
+
+SINUS
+NODE
+(SA)
+
+RIGHT
+atrium
+(RA)
+
+89
+
+Schematic
+representation
+of the atria
+P2
+P1
+
+LEFT
+atrium
+(LA)
+
+The P wave represents
+the depolarization
+of both right
+and left atria
+
+AV NODE
+
+The sinoatrial node is situated near the top of the right atrium near the
+inlet of the superior vena cava.
+Atrial depolarization starts at the sinus node and progresses from
+right to left.
+The right atrium depolarizes first and the wave front (P1) travels from
+the top (superior) to the bottom (inferior).
+Electrical activation is transmitted from the sinoatrial node to the high
+left atrium via Bachmann’s bundle which serves as the only atrial
+specialized conduction system or tract conducting electrical activity
+to the high left atrium. This arrangement causes a slight delay in left
+atrial compared to right atrial depolarization as the activation then
+travels to the left and posteriorly (P2). This delay causes continuing
+left atrial depolarization after right atrial depolarization has finished.
+
+Since activation starts at the sinus node, the P wave is always negative
+in lead aVR during normal sinus rhythm. The P wave vector is directed
+towards lead II and hence the P wave is always positive in lead II during
+sinus rhythm.
+The mean frontal plane axis of the P wave is between 0° and 75°. It is
+usually between 45° and 60°. The axis of the P wave is usually the first
+measurement in ECG interpretation to determine whether normal sinus
+rhythm is present. An abnormal P wave axis may suggest the presence
+of a non-sinus rhythm, dextrocardia or reversal of the ECG limb leads.
+The normal P wave has a smooth contour and is never peaked or
+pointed.
+
+90
+THE NORMAL P WAVE 2
+THE HORIZONTAL PLANE
+
+Left Atrium
+
+(LA)
+P2
+V6
+
+P1
+
+Right Atrium
+
+(RA)
+
+Lead V5
+V5
+
+P
+
+wave
+
+Lead V1
+
+V4
+V1
+
+V2
+
+V3
+
+P
+
+wave
+
+Biphasic
+
+Lead V1
+P1
+P2
+2
+
+< 40 ms
+
+depolarization
+of RA
+P1
+
+< 1.5 mm
+(< 0,15 mV)
+
+P2
+depolarization
+of LA
+
+91
+
+The best two leads to examine the P wave are leads II and
+V1 as they look at the atria in opposite directions (lead II
+looks along the axis of the atria, while V1 looks across
+the atria).
+Lead V1 allows the easy separation of the two components of atrial depolarization.
+
+82
+THE QRS COMPLEX
+
+Designation of special cases
+
+s
+
+q
+
+R
+
+R
+
+R
+
+s
+
+q
+
+R
+
+R’
+
+S
+
+S
+
+R’
+
+R’
+
+R
+
+r
+
+r’
+S
+
+S
+
+r
+
+R
+
+s
+Q
+
+r
+
+r
+
+s s’
+
+Notched
+R wave
+
+s
+QS
+
+r r’
+
+S
+
+Q
+
+S
+
+r r’
+q
+
+q
+
+r
+
+S
+
+r
+
+r
+
+Q
+
+R
+
+R
+
+Q
+
+81
+T wave
+time
+
+* The T wave represents the repolarization of the ventricles and roughly
+corresponds to phase 3 of the action potential of an average myocardial cell.
+* The T wave is broader and not as large as the R wave because ventricular repolarization is less synchronous than depolarization.
+
+The T wave is the most variable wave in the ECG. T wave changes including lowamplitude T waves and abnormally inverted T waves may be the result of many
+cardiac and non-cardiac conditions. The normal T wave is usually in the same
+direction as the QRS except in the right precordial leads. In the normal ECG the T
+wave is always upright in leads I, II, V3 to V6, and always inverted in lead aVR. The
+other leads are variable depending on the direction of the QRS and the age of the
+patient.The shape of the T wave is normally rounded and smooth. Also, the normal
+T wave is asymmetric with the first half moving more slowly than the second half.
+The action potential duration in epicardial cells is shorter than in endocardial cells.
+Hence, the repolarization starts in the tissue that was depolarized last. Repolarization
+occurs from epicardum towards endocardium, i.e. opposite to the direction of
+depolarization. However, the voltage vector (the +/− dipole) is still pointing to the
+epicardium and towards the recording electrode and again causes a positive
+deflection (T wave) on the ECG.
+
+128
+
+Polarité des QRS et de l'onde T
+
+QRS
+
+T wave
+
+time
+
+REPOLARIZING CELL
+
+DEPOLARIZING CELL
+voltage
+vector
+positive
+pole of
+voltmeter
+
+time
+
+Voltage vector is
+pointing towards
+the positive pole
+of the voltmeter
+(or ECG device)
+
+voltage
+vector
+positive
+pole of
+voltmeter
+0
+
+0
+
+propagation of
+depolarization
+wavefront
+
+forwards driving car
+
+In both cases a
+positive voltage
+is measured by
+the voltmeter
+
+propagation of
+repolarization
+wavefront
+
+ANALOGY backwards driving car
+In both cases
+light is
+projected
+on the wall
+
+Although the cars are moving in opposite directions, their headlights are
+pointing in the same direction. In a normal healthy cell depolarization and
+repolarization are also propagating in opposite directions, but their voltage vectors are both pointing towards the positive pole of the voltmeter
+(or ECG recorder) resulting in the same deflection.
+
+T-WAVE POLARITY AND MORPHOLOGY
+Depolarization
+
+Repolarization
+
+from endo- to epicardium
+
+from epi- to endocardium
+
+Purkinje
+fibers
+
+equivalent
+dipole
+moving to
+epicardium
+
+endocardium
+
+R
+_ _
+electrode
+
+epicardium
+free wall
+
+direction of
+wavefront
+Purkinje
+fibers
+
+equivalent
+dipole
+moving to
+endocardium
+
+endocardium
+
+T
+_ _
+_
+
+direction of
+wavefront
+
+_
+
+80
+
+electrode
+
+epicardium
+free wall
+
+78
+
+THE QT INTERVAL
+R-R interval
+R
+
+R
+
+T
+
+T
+
+P
+
+P
+time
+
+Q
+
+S
+
+Q S
+
+QT interval
+1
+
+time
+
+2
+
+0 mV
+
+3
+
+0
+
+4
+
+- 90 mV
+
+Action Potential
+Duration
+
+THE U WAVE
+R
+
+R
+
+T
+P
+
+U
+Q
+
+S
+
+P
+Q
+
+time
+
+S
+
+79
+The QT interval represents the duration from depolarization to repolarization of
+the ventricles. It is measured from the beginning of the QRS complex to the end of
+the T wave. Therefore it roughly estimates the duration of an average ventricular
+action potential. Ventricular action potentials shorten in duration at faster rates
+which decrease the QT interval. The QT interval also varies according to gender
+(longer in females), and age (increases slightly with age). The QT interval can
+range from 0.2 to 0.4 s approximately depending upon the heart rate. Because
+prolonged QT intervals can indicate susceptibility to certain types of ventricular
+tachyarrhythmias and sudden death (see later), it is important to determine if a
+given QT interval is truly excessively long, especially in patients receiving drugs
+that lengthen the QT interval.
+In practice, the QT interval is expressed as a “corrected QT interval” (QTc) by
+taking the QT interval (in s) and dividing it by the square root of the RR interval
+(in s). This is known as the Bazett formula:
+
+QTc (in s) =
+
+QT interval (in s)
+R-R interval (in s)
+
+The Bazett formula allows an assessment of the QT interval that is independent of
+heart rate. The normal corrected QTc is < 0.44 s in men and < 0.46 s in women.
+Easy to remember: at a heart rate of 60 bpm, the RR interval is 1 s and QTc = QT.
+The QT interval should be determined as the average value obtained from 3 to 5
+cardiac cycles.
+Modern ECG machines give the QTc. However, the machines are not always
+capable of making the correct determination of the end of the T wave. Therefore, it
+is important to check the QT time manually. The methodology of QT measure-ment
+has not been standardized!
+
+The U wave is not always seen. It is typically low amplitude, and, by definition,
+follows the T wave. The U wave may be seen in some leads, especially the right
+precordial leads V2 to V4. U waves are associated with metabolic disturbances,
+typically hypokalemia. Additionally, it may be seen closely following the T wave
+and can make interpretation of the QT interval especially difficult.
+
+CHAPTER 3
+
+THE NORMAL ECG
+AND
+THE FRONTAL PLANE
+QRS AXIS
+* The origin of the ECG – projection of the heart vector
+* Neutral plane and hemisphere concept
+* The origin of the ECG – normal QRS complex
+* Normal QRS complex in the frontal plane
+* Summary of the frontal plane for a normal heart
+* Summary of the precordial plane for a normal heart
+* Rotation of the heart
+* Mean frontal plane electrical QRS axis
+* Determination of the mean QRS axis in the frontal plane
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+53
+
+54
+
+THE ORIGIN OF THE ECG
+voltage
+vector
+
+voltage
+vector
+
+voltage
+vector
+
+voltage
+vector
+
+θ
+
+θ
+
+Lead
+projection
+
+projection
+
+projection
+
+axis
+
+perpendicular
+
+projection
+
+Lead
+axis
+
+perpendicular
+
+time
+
+2
+1
+
+3
+
+90°
+
+projection
+zero
+
+Lead
+
+Lead
+
+axis
+
+axis
+
+3
+1
+
+time
+
+2
+Biphasic
+
+perpendicular
+2
+
+2
+
+perpendicular
+
+3
+
+3
+4
+
+1
+4
+
+1
+
+lead axis
+
+lead axis
+
+3
+
+3
+4
+
+4
+2
+
+2
+1
+
+1
+Predominantly positive
+
+Predominantly negative
+
+66
+
+MEAN FRONTAL PLANE ELECTRICAL QRS AXIS
+
+end of
+ventricular
+depolarization
+
+direction of
+rotation
+instantaneous
+heart vectors
+changing as
+time proceeds
+start of
+ventricular
+depolarization
+
+ELECTRICAL
+AXIS
+
+The electrical QRS axis in the frontal plane refers to the
+direction of a single vector representing the summation or mean
+of all the instantaneous frontal plane vectors generated by
+ventricular depolarization. It depicts the net overall direction of
+the electrical activity in the frontal plane. The mean frontal plane
+electrical QRS axis (abbreviated as “electrical axis”) usually
+points to the left and inferiorly in the normal heart because of
+left ventricular dominance.
+
+The mean QRS axis in the horizontal plane is rarely, if ever, used clinically.
+
+67
+
+DETERMINATION OF THE MEAN
+QRS AXIS IN THE FRONTAL PLANE 1
+STEP 1 : LOOK AT LEADS I & aVF TO DETERMINE IN WHICH
+QUADRANT THE FRONTAL PLANE AXIS IS SITUATED
+
+Lead I
+negative
+
+(- 90°)
+(- 120°)
+
+Lead aVF
+negative
+
+Lead I
+positive
+(- 60°)
+(- 30°)
+
+(- 150°)
+
+(0°)
+
+(180°)
+
+Lead I
+negative
+
+(30°)
+
+(150°)
+
+Lead aVF
+positive
+
+Lead aVF
+negative
+
+(120°)
+
+(60°)
+(90°)
+
+I
+Lead I
+positive
+Lead aVF
+positive
+
+aVF
+Leads I and aVF divide the thorax into 4 quadrants equal in size. Examine the
+direction of the QRS complex in leads I and aVF. The combination should place the
+electrical axis in one of the 4 quadrants of the hexaxial diagram.
+
+Left superior axis deviation if it is more superior or more negative than −30°.
+Right axis deviation is >90°
+
+If both leads I and aVF are positive the axis is in the right superior quadrant(blue
+area). This quadrant has been described by a variety of names: no man’s land,
+marked right axis deviation, marked left axis deviation, indeterminate axis,
+northwest quadrant. It is best called a right superior axis.
+
+68
+
+DETERMINATION OF THE MEAN
+QRS AXIS IN THE FRONTAL PLANE 2
+STEP 2 : LOOK IN THE APPROPRIATE QUADRANT FOR THE
+TALLEST R WAVE OR THE DEEPEST S WAVE
+(0°)
+
+(0°)
+
+(30°)
+
+(30°)
+(60°)
+
+(60°)
+
+AXI
+
+II
+
+S
+
+AXIS
+
+(90°)
+
+II
+
+aVF
+
+aVF
+
+The lead nearest to (or parallel along) the QRS axis has the largest positive
+deflection. If two leads have equal positive deflections, the axis is exactly in the
+middle between these two leads.
+
+STEP 3 : FIND THE LEAD WHICH IS PERPENDICULAR TO THE
+ELECTRICAL QRS AXIS
+
+(- 90°)
+(- 120°)
+
+(- 60°)
+
+aVL is equiphasic
+(- 30°)
+
+(- 150°)
+
+aVL Lead aVL is perpendicular
+
+aVR
+
+to the QRS axis
+
+I (0°)
+
+(180°)
+
+Lead I is positive, thus the
+QRS axis is on the left
+(30°)
+
+(150°)
+
+III
+(120°)
+
+aVF
+
+(90°)
+
+II
+
+(60°)
+
+QRS axis in the frontal plane
+QRS axis is along lead II. Note that
+lead II has the largest positive deflection, confirming the direction of the
+axis.
+
+The electrical QRS axis is perpendicular to the lead with an isoelectric QRS
+complex or the lead with the smallest net amplitude. Since there are two
+perpendicular directions to each isoelectric lead, choose the direction (positive or
+negative) that best fits to the adjacent leads.
+Occasionally each of the 6 frontal plane leads is small and/or isoelectric. The axis
+cannot be determined and is called indeterminate.
+
+Normal & abnormal QRS axes of the heart
+Right
+superior
+quadrant
+axis
+
+Left
+(superior)
+axis deviation
+
+(- 90°)
+(- 120°)
+
+(- 60°)
+(- 30°)
+
+(- 150°)
+
+aVL
+
+aVR
+
+I (0°)
+
+(180°)
+Right
+axis deviation
+
+Normal
+axis
+(30°)
+
+(150°)
+
+(- 90°)
+(- 120°)
+
+III
+(120°)
+
+aVF
+
+II
+
+(- 60°)
+
+AXIS
+(- 150°)
+
+(60°)
+
+aVR
+
+(90°)
+
+(- 30°)
+
+aVL
+
+(A)
+
+I (0°)
+
+(30°)
+
+(150°)
+
+QUADRANT METHOD
+plus LEAD II
+
+III
+
+II
+
+(90°)
+
+aVF
+
+(- 90°)
+
+The normal axis resides between 90° and
+–30° (yellow area)!
+When lead I is positive and lead aVF is
+negative, the axis cannot be determined
+without looking at lead II.
+A. If lead II is equiphasic, the axis is
+directed along lead aVL. This is because
+an equiphasic lead (lead II in this case) is
+perpendicular to the aVL axis.
+B. If lead II is more positive than negative,
+the axis is below –30° and normal (yellow
+area).
+C. If lead II is more negative than positive,
+the axis is more negative than –30° and is
+in the left superior quadrant (red area).
+
+(- 120°)
+
+(- 60°)
+(- 30°)
+
+(- 150°)
+
+aVL
+
+aVR
+
+AXIS
+
+I (0°)
+
+(B)
+
+(30°)
+
+(150°)
+
+III
+
+(90°)
+
+II
+
+AXIS
+
+aVF
+(- 90°)
+(- 120°)
+
+(- 60°)
+(- 30°)
+
+(- 150°)
+
+aVL
+
+aVR
+
+(C)
+
+I (0°)
+
+(30°)
+
+(150°)
+
+III
+
+(90°)
+
+aVF
+
+II
+
+69
+
+70
+
+MEAN QRS AXIS IN THE FRONTAL PLANE
+EXAMPLES 1
+lead I
+
+lead II
+
+lead III
+
+lead aVR
+
+lead aVL
+
+lead aVF
+
+(- 90°)
+
+Normal electrogram
+QRS axis at + 60°
+
+(- 120°)
+
+(- 60°)
+(- 30°)
+
+(- 150°)
+
+I and aVF both positive: left inferior quadrant
+tallest R wave in II: QRS axis is along II
+most equiphasic in aVL: perpendicular to aVL
+
+aVL
+
+aVR
+
+(180°)
+
+I
+
+(30°)
+
+(150°)
+
+III
+(120°)
+
+lead I
+
+lead II
+
+lead III
+
+lead aVR
+
+aVF
+
+lead aVL
+
+II
+
+(60°)
+
+lead aVF
+
+(- 90°)
+
+Left Axis Deviation (LAD)
+QRS axis at − 60°
+I positive; aVF negative: left superior quadrant
+tallest S wave in III: QRS axis is along III
+most equiphasic in aVR: perpendicular to aVR
+
+(- 120°)
+
+(- 60°)
+(- 30°)
+
+(- 150°)
+
+aVL
+
+aVR
+
+(180°)
+
+I
+
+(30°)
+
+(150°)
+
+III
+(120°)
+
+aVF
+
+II
+
+(60°)
+
+71
+
+MEAN QRS AXIS IN THE FRONTAL PLANE
+EXAMPLES 2
+lead I
+
+lead II
+
+lead III
+
+lead aVL
+
+lead aVR
+
+lead aVF
+
+(- 90°)
+(- 120°)
+
+Right Axis Deviation (RAD)
+QRS axis at about + 110°
+
+(- 60°)
+(- 30°)
+
+(- 150°)
+
+aVL
+
+aVR
+
+aVF is + and lead I is −: QRS is in the right inferior
+quadrant
+tallest R wave in III: QRS axis is close to III
+lead III > aVF: axis near III
+
+(180°)
+
+I
+
+(30°)
+
+(150°)
+
+Note that the sum of R and S waves in lead I is
+negative which places the axis in the right
+inferior quadrant
+
+lead I
+
+lead II
+
+lead III
+
+III
+(120°)
+
+aVF
+
+lead aVL
+
+lead aVR
+
+II
+
+(60°)
+
+lead aVF
+
+(- 90°)
+(- 120°)
+
+Right Superior Axis
+QRS axis at about −100°
+aVF is negative: QRS is oriented superiorly
+most equiphasic in lead I: QRS axis is nearly
+perpendicular to lead I
+Note that the largest QRS deflections are in
+leads II and aVF. Therefore the axis is diametrically opposite the line that bisects the angle
+between the lead II axis and the aVF axis.
+
+(- 60°)
+(- 30°)
+
+(- 150°)
+
+aVL
+
+aVR
+
+(180°)
+
+I
+
+(30°)
+
+(150°)
+
+III
+(120°)
+
+aVF
+
+II
+
+(60°)
+
+CHAPTER 11
+
+SINUS NODE
+DYSFUNCTION
+* Sinus rhythms - sinus tachycardia and sinus bradycardia
+* Sinoatrial block
+* Sinoatrial Wenckebach and sinoatrial 2:1 block
+* Wandering atrial pacemaker
+* AV junctional rhythm
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+203
+
+204
+
+SINUS RHYTHMS
+Sinus Tachycardia (> 100 bpm)
+PR interval :
+slightly shorter
+QT interval :
+slightly shorter
+HR = 122/min
+
+Sinus Bradycardia (< 60 bpm)
+PR interval :
+slightly longer
+or normal
+QT interval :
+slightly longer
+
+HR = 52/min
+
+NOTE : Sinus Pause or Sinus Arrest
+
+P
+
+junctional
+escape
+complex
+
+P
+
+P
+time
+
+This is a disorder of impulse formation. The pauses show long PP intervals that are
+not exact multiples of the shorter basic PP interval representing sinus rhythm.
+
+210
+
+WANDERING ATRIAL PACEMAKER
+SinusNode
+
+Escape
+Focus
+in LA
+
+Escape
+Focus
+in RA
+
+(A)
+
+(D)
+(C)
+Escape
+Focus
+from
+AV junction
+
+(B)
+
+Different P wave morphology, different PR intervals, different PP intervals
+1
+
+3
+
+2
+
+normal PR
+
+4
+
+short PR
+
+very short PR
+
+DIAGNOSIS
+A. Three morphologically different P waves
+B. Rate lower than 100 bpm
+C. Exclude frequent atrial premature beats
+1
+
+2
+
+Lead II
+
+3
+
+4
+
+5
+
+5
+
+211
+lead II
+
+Wandering pacemaker. Note that the pattern consists basically of varying
+supraventricular escape beats
+
+II
+
+The ECG resembles superficially that of a wandering pacemaker. In fact there are
+late multifocal atrial premature beats which actively usurp the atrial rhythm. It is not
+a passive escape mechanism.
+
+Wandering atrial pacemaker (WAP) is an atrial arrhythmia that occurs
+when the natural pacemaker site shifts passively from the head of the
+sinoatrial node to more distant sites in the node itself, to other parts of
+the atria, and/or the AV junction. This shifting of the dominant pacemaker
+is manifested electrocardiographically by changes in the size, shape and
+direction of the P waves. The diagnosis of WAP requires 3 morphologically
+different P waves.
+The PR intervals vary according the site of the dominant pacemaker and
+may be short with AV junctional or low atrial beats as they are located
+close to the AV node. A wandering atrial pacemaker produces an irregular
+rhythm with varying RR intervals. The rate is usually between 45 and
+100 bpm by definition but the rate is rarely fast. When the rate
+exceeds
+100 bpm, the arrhythmia becomes multifocal atrial
+tachycardia which is more serious.
+A wandering pacemaker is usually caused by varying vagal tone. With
+increased vagal tone the sinoatrial node slows and permits other pacemaker
+sites to emerge because their automatic properties are slightly faster for a
+brief period. After vagal tone decreases the sinus node resumes its natural
+control of the heart.
+A wandering pacemaker is basically benign and often occurs in
+young people or athletes because of augmented vagal tone. It must be
+differentiated from sinus rhythm with frequent atrial premature beats where
+there is a regular underlying rhythm.
+
+212
+
+AV JUNCTIONAL RHYTHM
+
+The ECG shows an AV junctional rhythm of 33 bpm. No P waves are visible. The P waves
+are in all likelihood buried inside the QRS complex.
+
+All cells of the conduction system have the potential to generate electrical impulses. Normally the
+higher frequency of the sinoatrial node will override the other cells of the conduction system. The AV
+junction has intrinsic automaticity that allows it to initiate depolarizing impulses during periods of
+significant sinus bradycardia or complete heart block. This escape mechanism usually has a rate of 40–60
+bpm (always consider digitalis toxicity when the rate is faster). Junctional rhythms produce a narrow QRS
+complex because the ventricle is depolarized via the normal conduction pathway. A junctional escape
+rhythm may occur in the absence of heart disease.
+An accelerated junctional rhythm (rate > 60) is a narrow complex rhythm that often supersedes the
+sinus mechanism which may or may not be slow. Accelerated junctional rhythms may be due to digitalis
+intoxication or heart disease and are seldom seen in normal individuals. The rate of accelerated junctional
+rhythms is 60–100 bpm. If the rate is more than 100 bpm, the rhythm is called junctional tachycardia.
+
+AV JUNCTIONAL RHYTHM 2
+
+V1
+
+The arrows point to the retrograde P waves
+
+II
+
+III
+
+ATRIAL ACTIVITY DURING A JUNCTIONAL RHYTHM
+The key to recognizing a junctional rhythm begins in leads II, III and aVF. Here,
+the P wave is normally always upright and only negative when the impulse is
+coming from below the atria. Thus, inverted retrograde P waves in the inferior
+leads and a narrow QRS immediately indicates that the primary pacemaker has
+shifted to the AV junction. In the presence of retrograde conduction, the P and
+QRS relationship may exhibit one of 3 patterns: a visible inverted P wave
+preceding the QRS in the inferior leads (PR < 0.12 s), an invisible P wave buried
+within the QRS complex due to simultaneous activation of the atrium and the
+ventricle, and a visible inverted P wave succeeding the QRS.
+
+215
+
+CHAPTER 14
+
+ATRIAL RHYTHM
+DISORDERS
+* Atrial flutter definition and reentry
+* Atrial flutter diagnosis
+* Atrial flutter and ventricular rate
+* Atypical atrial flutter
+* Atrial fibrillation definition and classification
+* Long-short rule – Ashman phenomenon
+* Pathophysiology and principles of therapy
+* Carotid sinus massage
+* Sick sinus syndrome – bradycardia-tachycardia syndrome
+* Supraventricular tachyarrhythmias
+° Tachycardias related to the sinoatrial node
+° Atrial tachycardias
+* Atrioventricular nodal reentrant tachycardia
+* Atrioventricular reentrant tachycardia (AVRT)
+° Accessory pathways and delta waves
+° Orthodromic and antidromic AVRT
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+243
+
+244
+
+ATRIAL FLUTTER 1
+Atrial flutter (AFL) is a very fast atrial rhythm (240–300 bpm). The atrial flutter rate may
+be slower (even < 200 bpm) in the presence of pharmacologic therapy or marked conduction delay within the atria. The atrial rhythm is regular and organized. Occasionally it
+may coexist with atrial fibrillation.
+The common type of AFL is a macro-reentrant phenomenon in the right atrium.
+There are two types of common flutter: anticlockwise and clockwise. They both engage
+the same macro-reentrant pathway in the right atrium but in opposite directions. The
+anticlockwise form constitutes about 90% of all atrial flutters and is by far more common
+than the clockwise form of common atrial flutter (AFL).
+
+Schematic representation of reentry circuits
+Anticlockwise
+
+Clockwise
+
+PV
+
+SVC
+
+SVC
+
+RA
+
+RA
+IVC
+
+IVC
+
+CS
+
+CS
+time
+
+time
+
+negative flutter waves in the
+inferior leads (leads II, III, aVF)
+
+positive flutter waves in the
+inferior leads (leads II, III, aVF)
+
+CS = coronary sinus ; IVC = inferior vena cava ; SVC = superior vena cava ; PV = pulmonary veins
+
+Reentry
+All reentrant processes must have an area of slow conduction for sustaining an arrhythmia.
+In common AFL the area of slow conduction is in the lower part of the right atrium.
+Common AFL can be cured by catheter ablation of the area or slow conduction in the
+lower right atrium (cavotricuspid isthmus between the tricuspid orifice and the inferior vena
+cava).
+
+246
+
+ATRIAL FLUTTER 2
+Diagnosis
+The diagnosis is usually easy. A common mistake is to call AFL sinus tachycardia at a
+rate of 150 bpm. It is an important clinical rule that a narrow QRS tachycardia at a rate
+close to 150 bpm should be considered as being AFL until proven otherwise. With
+this concept one can then look for the “hidden” Flutter waves on the T wave.
+AFL must be differentiated from other forms of supraventricular tachycardia.
+Carotid sinus massage often causes a higher degree of AV block such as 4:1 AV
+block whereupon the atrial flutter waves are easily recognizable. With the
+common types of reentrant
+supraventricular tachycardia, carotid sinus
+massage may either terminate the tachycardia or have no effect. Multifocal
+atrial tachycardia and atrial tachycardia with AV block (atrial rate usually < 240
+bpm) must be ruled out. If the QRS complex is wide (functional or stable bundle
+branch block), AFL at a rate of 150 bpm may mimic ventricular tachycardia.
+Artifacts from tremor (as in Parkinson’s disease) may closely resemble AFL.
+
+Atrial flutter rate slowed due to the effect of antiarrhythmic drug
+
+The atrial rate is 220 bpm (slower than classic AFL) and the ventricular rate is 110 bpm.
+It is important not to mistake this arrhythmia for sinus tachycardia.
+
+247
+Atrial flutter (300 bpm) with 2:1 ventricular response (150 bpm)
+
+Effect of Carotid Sinus Massage (CSM) on atrial flutter.
+CSM slows the ventricular rate by producing high grade AV block
+
+The ECG suggests anticlockwise AFL at a rate of 250 bpm
+
+248
+
+ATRIAL FLUTTER 3
+Ventricular rate
+The ventricular rate is usually 150 bpm because of 2:1 AV block (i.e. 2
+atrial impulses and 1 ventricular impulse). This is a functional AV block (as a
+safety or protective mechanism) because the normal AV node can conduct
+the atrial impulses on a 1:1 fashion (300 bpm) only in exceptional
+circumstances. Such a 1:1 conduction is rare but may occur in patients with
+an accessory pathway that bypasses the AV node (no protective mechanism as
+in the AV node) or in states of excessive catecholamine (adrenaline) stimulation
+or even exercise. Some antiarrhythmic agents can also precipitate 1:1 AV
+conduction. With medication with drugs that block AV nodal function the degree
+of functional block may increase to 4:1 AV block.
+
+The tracing shows atrial flutter at a rate of about 300 bpm and varying degrees of AV block.
+Anticlockwise AFL is ruled out by the pattern in lead II where the F waves are positive. This
+is compatible with clockwise AFL but a nonisthmus-dependent AFL cannot be ruled out.
+
+249
+
+Atrial flutter with complete AV block
+
+The escape ventricular rate is 33 bpm
+
+Atypical Atrial Flutter
+Atypical AFL may occur in many parts of the heart especially the left atrium. AFL may
+also revolve around a scar from previous cardiac surgery or occur after catheter
+ablation in the left atrium as for atrial fibrillation. These flutters produce electrocardiographic patterns that usually do not resemble those of common AFL in the right
+atrium. Indeed, left AFL is often fast, 340–350 bpm, obviously not isthmusdependent and behaves like atrial fibrillation. Finding the origin and mechanism of
+these atypical flutters requires an invasive electrophysiologic study.
+
+UPPER LOOP
+REENTRY TACHYCARDIA
+
+LOWER LOOP
+REENTRY TACHYCARDIA
+
+SVC
+SVC
+
+IVC
+IVC
+
+A
+
+CS
+
+B
+
+MACRO-REENTRY TACHYCARDIA in the LEFT ATRIUM
+
+INCISIONAL (SCAR)
+REENTRY TACHYCARDIA
+
+SVC
+
+IVC
+
+C
+
+D
+
+PV
+
+CS
+
+252
+
+ATRIAL FIBRILLATION 1
+PV
+SVC
+
+IVC
+CS
+CS: coronary sinus; PV: pulmonary vein;
+IVC: inferior vena cava; SVC: superior vena
+cava
+
+Compared with atrial flutter in which
+there is one reentrant circuit and is
+organized, atrial fibrillation has multiple reentrant circuits and no organization.
+Atrial fibrillation (AFib) is the most
+common arrhythmia and is due to
+uncoordinated
+atrial
+myocardial
+activity due to multiple reentry
+circuits associated with deterioration
+of atrial mechanical activity. In
+essence the atria quiver with no
+effective contraction.
+
+AFib has a high incidence in the elderly, increasing with age. Patients can develop AFib
+secondary to cardiac disease that affects the atria (e.g. congestive heart failure, hypertensive heart disease, rheumatic heart disease, coronary artery disease) but sometimes
+no cause is found. AFib patients tend to be older, and AFib is more likely to be persistent in
+the elderly.
+In AFib, the normal regular electrical impulses generated by the sinoatrial node are overwhelmed by impulses usually originating in the roots of the pulmonary veins that disorganize the atrial rhythm, creating an irregular atrial rhythm (AFib), leading in turn to
+irregular conduction of impulses to the ventricles. AFib may occur in episodes lasting from
+minutes to days (“paroxysmal”), or may be permanent in nature.
+
+Classification scheme for patients with atrial fibrillation
+Published guidelines from an American College of Cardiology (ACC)/ American Heart Association
+(AHA)/ European Society of Cardiology (ESC) Committee of experts on the treatment of patients
+with atrial fibrillation recommend classification of AFib into the following 3 patterns :
+* Paroxysmal AFib : Episodes of AFib that terminate spontaneously within 7 days (most episodes
+last less than 24 hours).
+* Persistent AFib : Episodes of AFib that last more than 7 days and may require either pharmacologic or electrical intervention to terminate.
+* Permanent AFib : AFib that has persisted for more than 1 year, because electrical cardioversion has either failed or has not been attempted.
+
+253
+
+AFib with rapid irregular ventricular rate 150–160 bpm.
+
+Electrocardiogram
+AFib produces a totally irregular rhythm with absence of P waves. There are small irregular
+“f waves” (350–600 bpm) creating an undulating baseline. AFib can coexist with third degree AV
+block in which case the ventricular rate is slow and the baseline shows a pattern typical of AFib.
+
+In the untreated patient, the ventricular rate is fast and irregular; it may be as fast as 200 bpm though
+it is usually 140–160 bpm. There is no pattern to the irregularity, so AFib may be described
+as irregularly irregular. The rate can be close to 300 in patients with a bypass (accessory) tract
+that does not utilize the AV node for transmission to the ventricles.
+
+AFib with an average of about 100 bpm and complete right bundle branch block.
+
+259
+
+II
+
+II
+
+25 mm/s
+
+Atrial fibrillation with an irregular ventricular rate. Cessation of the arrhythmia is associated with prolonged
+sinus arrest (ventricular asystole) of about 5 sec due to overdrive suppression. When sinus rhythm returns
+frequent atrial premature beats are evident.
+
+262
+SUPRAVENTRICULAR TACHYARRHYTHMIAS 2
+ATRIAL TACHYCARDIAS continued
+Focal versus macro-reentrant atrial tachycardia
+Focal AT may be initiated by increased automaticity or triggered automaticity or microentry
+Macro-reentrant AT occurs around a large central obstacle usually centimeters in diameter. In
+contrast to sinus tachycardia, macro-reentrant AT starts abruptly and the P waves differ from
+sinus P waves.
+
+The P wave morphology as observed on the ECG may give clues to the site of origin and
+mechanism of the atrial tachycardia. In the case of a focal tachycardia, the P wave morphology
+and axis depend on the location in the atrium from which the tachycardia originates.
+
+Atrial tachycardia can be focal or macro-reentrant. It can be difficult to
+differentiate these two types from the ECG.
+
+Always look for a P wave that may be hidden within the QRS complex. Carotid sinus
+massage may cause AV block (usually 2:1) allowing evaluation of the P wave rate and
+configuration. It is worth stressing again that the presence or induction of AV block
+(2:1 A V block; Wenckebach type 1 block) is diagnostically helpful in ruling out
+reentrant SVT whose reentrant pathway includes the AV node (AV nodal reentrant
+tachycardia and AV reentrant tachycardia) and establishing the diagnosis of an atrial
+tachycardia independent of the AV node.
+
+ATRIAL TACHYCARDIA WITH AV BLOCK
+
+Atrial tachycardia with 2:1 AV block. The atrial rate is 107 bpm.
+
+SVT
+
+Carotid Sinus Massage
+
+Atrial tachycardia at a rate of 250 bpm with 2:1 block.
+Carotid sinus massage increases the degree of AV block permitting the diagnosis
+but does not terminate the tachycardia.
+
+In AT there is an isoelectric baseline between the P waves in contrast to
+atrial flutter where there is no isoelectric baseline between the F waves.
+
+265
+
+266
+SUPRAVENTRICULAR TACHYARRHYTHMIAS 4
+Multifocal atrial tachycardia
+Multifocal atrial tachycardia (MAT) arises from the atrium and is composed of at least 3
+morphologies of the P wave. The PP intervals, PR duration and RR intervals are all variable.
+The rate is 100–250 bpm and the arrhythmia may be intermittent. Other kinds of atrial
+arrhythmias (such as atrial fibrillation) may precede or follow an episode of MAT. The irregular
+rhythm is often misinterpreted as atrial fibrillation.The differential diagnosis is crucial because
+the therapy of AF and MAT differ considerably. MAT typically occurs in elderly patients with
+chronic obstructive pulmonary disease.
+
+Multifocal atrial tachycardia typically occurs in elderly
+patients with chronic obstructive pulmonary disease.
+
+Multifocal atrial tachycardia with P waves of varying configuration and
+totally irregular ventricular rate.
+
+268
+
+ATRIOVENTRICULAR NODAL
+REENTRANT TACHYCARDIA 1
+Atrioventricular nodal reentry tachycardia (AVNRT) is the most common type of reentrant supraventricular tachycardia (SVT) These arrhythmias occur in young healthy patients and in those
+with chronic heart disease. It occurs somewhat more commonly in adult females than in
+males. The rate ranges from 120 to 250 bpm.
+
+During AVNRT, the circuit typically involves both a fast and a slow pathway within the region of
+the AV node.
+
+Sinus rhythm : the
+anterograde conduction
+over the slow pathway
+is blocked by retrograde
+invasion of the impulse
+traveling from the fast
+pathway.
+
+An early atrial extrasystole
+is only conducted over the
+slow pathway since the
+fast one is still refractory.
+The refractory period of the
+fast pathway is longer than
+that of the slow one.
+
+The slow path is the anterograde limb and the fast one
+is the retrograde limb of
+the tachycardia circuit.
+
+atria (P)
+
+AES
+
+P’
+P’
+
+slow
+path
+
+fast
+path
+
+ventricle (R)
+
+R
+
+R
+
+R
+
+R
+
+R
+
+R
+
+R
+
+R
+
+AES
+P
+
+P
+
+P*
+
+short PP
+
+P
+
+time
+
+P’
+
+P’
+
+P’
+
+P’
+
+P’
+
+retrograde
+
+P*
+
+P
+
+P’
+
+P’
+
+long
+PR
+
+P’
+
+A
+t
+
+t
+
+fas
+
+time
+
+sl
+
+ow
+
+t
+
+t
+
+ow
+
+fas
+
+sl
+
+fas
+
+fas
+
+AV
+
+time
+
+V
+R
+
+R
+slow pathway
+is blocked
+
+R
+
+R
+
+R
+
+R
+
+fast pathway
+is blocked
+AVNRT starts !
+
+Abbreviations : AES = atrial extrasystole ; AVNRT = AV nodal reentrant tachycardia.
+
+269
+The tachycardia is often initi- ated by an atrial premature complex blocked in the fast pathway
+according to prematurity and because the fast pathway has a longer refractory period.
+Consequently the impulse conducts in the slow pathway with a shorter refractory period. Thus
+the initiating AES has a long PR interval. While the impulse conducts to the ventricle in the slow
+pathway, the fast pathway recovers (provided the delay in the anterograde conduction is long
+enough to permit fast pathway recovery) and allows the impulse to be conducted via the fast
+pathway (when outside its refractory period) back to the atrium
+Less commonly AVNRT is induced by premature ventricular beats. In addition to the above, atypical
+AV nodal reentry can occur in the opposite direction, with anterograde conduction in the fast
+pathway and retrograde conduction in the slow pathway. The typical form is slow-fast referring to
+anterograde and retrograde conduction. This slow-fast form occurs in 90% of clinical AVNRT
+episodes. In the atypical form, the conduction moves fast-slow i.e. anterogradely in the fast pathway, resulting in a short PR interval and a long RP interval. A third form also occurs where both the
+anterograde and the retrograde conduction occur through slow pathways (slow-slow).
+
+AVNRT and AVRT (AV reciprocating or orthodromic tachycardia
+with accessory pathway) are dependent on AV nodal conduction.
+Sinus node reentry, atrial tachycardia, atrial flutter and atrial fibrillation are independent of AV nodal conduction.
+
+In AVNRT the ventricle and atrium are activated simultaneously. The ventricle
+is not necessary for the reentrant process.
+
+Slow-fast form
+The QRS complex is generally narrow unless there is aberrant conduction (usually a right bundle
+branch pattern) or there is a preexisting conduction defect. The P waves are usually embedded
+in the QRS complex in the typical form and therefore not identifiable. P waves may be
+seen at the end of the QRS complex (as if they form part of the QRS) in the form of a pseudo-r’ in
+lead V1 (imitating incomplete right bundle branch block) or a pseudo-s wave in leads II, III,
+and aVF (reflecting the negative retrograde P waves). These patterns can only be recognized
+by comparing the ECG during AVNRT with one in sinus rhythm. After the episode, significant ST
+depression is common as in AVRT and most patients do not have coronary artery disease.
+
+Fast-slow form
+In atypical cases the P waves can be clearly seen. The fast-slow AVNRT is thought to use the same
+pathways as in the typical AVNRT but in reverse direction. In the fast-slow type, the PR can be
+normal and there is a corresponding long PR interval. The retrograde P waves are inverted in leads
+II, III, and aVF.
+
+Slow-slow form
+The slow-slow variety of AVNRT presents as a long RP tachycardia and resembles the fast-slow
+form. In the slow-slow type the RP interval depends on the relative conduction time over both
+pathways.The fast-slow and the slow-slow varieties of AVNRT may resemble sinus tachycardia
+because a P wave precedes the QRS complex.
+
+270
+
+ATRIOVENTRICULAR NODAL
+REENTRANT TACHYCARDIA 2
+
+AVNRT rate about 140 bpm. No P waves are seen.
+An electrophysiologic study confirmed the diagnosis.
+
+272
+
+ATRIOVENTRICULAR REENTRANT
+TACHYCARDIA 1
+Atrioventricular reentrant tachycardia (AVRT) is the second most common form of paroxysmal
+supraventricular tachycardia. AVRT is more common in males than in females. Patients with AVRT
+do not have evidence of structural heart disease but they have accessory pathways, or bypass
+tracts. Accessory pathways are congenital strands of myocardium that bridge the mitral or
+tricuspid valves and are capable of conducting electrical activation from atrium to ventricle.
+AVRT is the result of two or more conducting pathways: the AV node and one or more bypass
+tracts. The accessory pathways may conduct impulses in an anterograde manner from atrium to
+ventricle, a retrograde manner from ventricle to atrium, or in both directions. In classic (or manifest)
+Wolff-Parkinson-White (WPW) syndrome, anterograde conduction occurs over both the
+accessory pathway and the normal conduction system during sinus rhythm. The accessory
+pathway, being faster, depolarizes some of the ventricle early, resulting in a short PR interval and a
+slurred upstroke to the QRS complex (delta wave). Not all accessory pathways conduct in an anterograde manner. Concealed accessory pathways are not evident during sinus rhythm because
+they are only capable of retrograde conduction. These occur in about 30-40% of patients with accessory pathways. A large reentry circuit is most commonly established by impulses traveling in an
+anterograde manner through the AV node and in a retrograde manner through the accessory pathway; this is often called orthodromic AVRT. “Orthodromic” comes from Greek where it means
+“straight or correct” because ventricular activation is normal. Concealed pathways cannot be
+detected by standard ECG. Distinction between concealed accessory pathway and AVNRT may
+be difficult, although a faster rate (>200 per minute) and a retrograde P wave after, rather than
+within, the QRS complex favor a concealed bypass tract.
+
+Schematic representation of
+the conduction system and an
+accessory pathway
+Delta
+wave
+AV
+node
+
+Accessory
+connection
+
+His
+
+Left
+Bundle
+Branch
+
+Right
+Bundle
+Branch
+
+time
+
+Greek capital letter
+DELTA =
+
+Occasionally, the reentrant circuit revolves in the opposite direction, from the atrium to the ventricle
+via the accessory connection, and returns from the ventricle in the retrograde direction up the
+normal AV conduction system (called antidromic reciprocating tachycardia and constitutes about
+5% of the arrhythmias in WPW syndrome). The QRS complex is wide (maximal preexcitation)
+because the ventricles are activated abnormally. The bizarre, wide complex tachycardia can be
+mistaken for ventricular tachycardia.
+
+CHAPTER 17
+
+PREEXCITATION AND
+WOLFF-PARKINSON-WHITE
+SYNDROME (WPW)
+* Accessory pathways and delta waves
+* ECG manifestations
+* Features of the WPW syndrome
+* Location of accessory pathways
+* WPW is a great mimic
+* Arrhythmias
+* Characteristics of benign accessory pathways
+* Preexcitation variants – atriofascicular, atriohisian and
+fasciculoventricular bypass
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+311
+
+312
+PREEXCITATION AND WPW SYNDROME 1
+In 1930, Wolff, Parkinson, and White (WPW) described a series of young patients who had a
+bundle branch block pattern on the ECG, a short PR interval, and paroxysms of tachycardia.
+
+sinus
+node
+slowly
+conducting
+AV node
+
+Connective
+tissue (not
+conducting)
+
+accessory AV
+pathway with
+fast conduction
+
+zone
+reponsible
+for delta wave
+
+Conduction over an accessory pathway (AP)
+circumvents conduction delay occurring
+within the atrioventricular node (AVN),
+which leads to early eccentric activation of the
+ventricles and fusion
+complexes.
+
+delta wave
+
+MECHANISM
+WPW syndrome strictly refers to patients with symptoms. Those without symptoms strictly have a
+WPW pattern. However the terms are used loosely in the literature. WPW is currently defined as a
+congenital abnormality involving the presence of abnormal conductive tissue between the atria
+and the ventricles. The abnormal pathway connects directly and bypasses the AV node. The
+normal sinus impulse can travel down the normal pathway through the AV node, as well as the
+more rapidly conducting extra electrical accessory pathway. This results in ventricular
+depolarization starting earlier, or “preexcitation”. It also produces eccentric myocardial activation.
+The WPW beat is a fusion beat. The presence of two pathways (the normal and the accessory
+one) between the atria and ventricles poses a risk of developing a “short circuit” which can result
+in an arrhythmia.
+
+ECG MANIFESTATIONS
+Classic ECG findings (see following figure) that are associated with WPW syndrome include the
+following:
+
+313
+
+Features of the WPW syndrome
+* Presence of a short PR interval (< 120 ms)
+* A wide QRS complex longer than 110 ms with a slurred onset of the QRS waveform producing a
+delta wave in the early part of QRS. An accessory pathway activates the myocardium ahead of the
+His-Purkinje conduction system. Conduction outside the specialized conduction system is more
+sluggish as reflected by the slow rate of change of the delta wave.
+* Secondary ST-T wave changes.
+Some accessory pathways cannot conduct retrogradely under ordinary circumstances but retrograde VA conduction may sometimes become evident in high catecholamine (adrenergic)
+situations. Others have a concealed bypass tract with absent anterograde conduction. Although
+such connections are accessory pathways, they cannot conduct anterogradely. Therefore the
+ECG of patients with a concealed accessory pathway does not show the classic ECG abnormalities of WPW syndrome. However, these concealed bypass tracts can conduct
+retrogradely and can participate in orthodromic supraventricular tachycardia.
+
+The prevalence of ventricular preexcitation is thought to be 0.1–0.3%, or 1 to 3 per 1000 people
+in the general population
+
+314
+PREEXCITATION AND WPW SYNDROME 2
+MANIFEST or OVERT
+
+CONCEALED
+
+accessory pathway (AP)
+
+accessory pathway (AP)
+
+AV
+node
+
+AV
+node
+not
+conducting
+
+not
+conducting
+
+AP
+
+AP
+His
+
+His
+LBB
+
+RBB
+
+LBB
+
+RBB
+
+delta wave
+
+Retrograde conduction occurs during AVRT
+
+ORTHODROMIC AVRT
+Atrioventricular reentry tachycardia
+AV
+node
+not
+conducting
+AP
+His
+
+LBB
+
+RBB
+
+ATRIAL FIBRILLATION
+
+ANTIDROMIC AVRT
+Atrioventricular reentry tachycardia
+AV
+node
+
+AV
+node
+
+not
+conducting
+AP
+
+not
+conducting
+
+His
+
+AP
+His
+
+RBB
+
+LBB
+RBB
+LBB
+
+320
+
+PREEXCITATION AND WPW SYNDROME 5
+Atrial fibrillation (AF)
+For reasons that are not clear atrial fibrillation is relatively common (20%) in patients with WPW
+syndrome compared with the normal population. Many AF patients also have inducible AVRT that
+can degenerate into AF. In AF several patterns are possible bearing in mind that a rapidly conducting
+accessory pathway conducts faster than the AV node and therefore avoids the rate-limiting function
+provided by the normal conducting pathways.
+Preexcitation activation of the ventricles is predominantly via a rapidly conducting accessory
+pathway causing an irregular rapid rhythm with wide QRS and bizarre morphology. The atria
+generate electrical impulses at an extremely rapid rate; those impulses can travel down the
+accessory pathway and stimulate the ventricles at an also extremely rapid rate, leading to a
+dangerous situation which may be life-threatening. The ventricular rate may be faster than 250 bpm,
+with some RR intervals approaching a corresponding rate of 300 bpm. Therefore AF may resemble
+ventricular tachycardia. However, the extreme irregularity suggests that the arrhythmia is not
+ventricular tachycardia. Extremely rapid ventricular rates may exceed the ability of the ventricles to
+follow in an organized manner resulting in disorganized ventricular activation, hypotension and
+eventually ventricular fibrillation.
+
+EB87
+
+WPW syndrome with atrial fibrillation producing a very rapid irregular ventricular rate. The
+shortest RR interval measures 200 ms or slightly less and the ventricular rate is close to 300
+bpm. The QRS is wide showing exclusive conduction via a left posteroseptal accessory pathway.
+
+A lire avant le module
+ECG 2
+Bloc sino-atrial
+Bloc atrioventriculaire
+Troubles de la conduction intra-ventriculaire
+Extrasystoles ventriculaires
+Tachycardie ventriculaire
+Syndrome de Brugada et du QT long
+Fibrillation et flutter ventriculaire
+Ischémie myocardique et infarctus
+Divers
+- Hypertrophie atriale
+- Hypertrophie ventriculaire
+- Pericardite
+- Embolie pulmonaire
+- Troubles électrolytiques
+- Lecture systématique de l’ECG
+
+SINOATRIAL BLOCK
+
+204
+
+Sinoatrial block: The sinus node continues to discharge at regular inter-
+
+vals but some impulses cannot exit from the sinus node or are considerably delayed. Like AV block, sinoatrial block manifests the patterns of first-,
+second- or third-degree block.
+
+1st degree SA block
+S
+S-A
+A
+
+PP
+
+PP
+
+Since the P waves are regular, the ECG looks normal and 1st degree SA cannot
+be seen.
+
+2nd degree SA block (exit block)
+720 ms
+
+720 ms
+
+1440 ms
+
+720 ms
+
+720 ms
+
+Pause
+
+time
+
+As a rule the sinus pauses exhibit long P-P intervals that are exact multiples of
+the basic and shorter P-P intervals.
+This form is sometimes described as type II SA exit block.
+
+3rd degree SA block (exit block)
+time
+
+This may be present when there is a slow junctional rhythm and no P waves
+can be seen.
+
+NOTE : Sinus Pause or Sinus Arrest
+
+P
+
+junctional
+escape
+complex
+
+P
+
+P
+time
+
+This is a disorder of impulse formation. The pauses show long PP intervals that are
+not exact multiples of the shorter basic PP interval representing sinus rhythm.
+
+CHAPTER 13
+
+ATRIOVENTRICULAR
+BLOCK
+* Normal conduction
+* First-degree AV block
+* Second-degree AV block type I and type II
+* 2:1 and advanced second-degree AV block
+* Complete or 3rd-degree AV block
+* AV block with narrow or wide QRS complexes
+* Unifascicular, bifascicular and trifascicular blocks
+* Overview of 2nd-degree AV block
+* ECG pitfalls in the diagnosis of 2nd-degree AV block
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+227
+
+228
+ATRIOVENTRICULAR BLOCK 1
+SN(1)
+
+NORMAL CONDUCTION
+R
+
+AVN(2)
+
+R
+
+(3)
+P
+
+LB
+
+P
+
+RB
+V(4)
+
+time
+(1)
+
+A
+
+(2)
+(3)
+(4)
+
+V
+160
+ms
+
+160
+ms
+
+160
+ms
+
+160
+ms
+
+160
+ms
+
+SN(1)
+
+1st degree AV BLOCK
+R
+
+AVN(2)
+
+R
+
+delay
+(3)
+P
+
+P
+
+LB
+RB
+V(4)
+
+time
+800 ms
+
+A
+
+800 ms
+
+(1)
+800 ms
+
+800 ms
+(2)
+
+V
+
+280
+ms
+
+(3)
+
+800 ms
+
+800 ms
+
+800 ms
+280
+ms
+
+280
+ms
+
+800 ms
+280
+ms
+
+(4)
+280
+ms
+
+2nd degree AV BLOCK type I (Wenckebach or Mobitz 1)
+R
+
+SN(1)
+
+R
+
+P
+
+intermittent
+block
+AVN(2)
+
+P
+
+(3)
+LB
+time
+A
+
+810 ms
+
+810 ms
+
+810 ms
+
+810 ms
+
+810 ms
+
+RB
+(1)
+(2)
+
+910 ms
+V
+190
+ms
+
+normal
+
+290
+ms
+
+prolonged
+
+190
+ms
+
+blocked
+
+(3)
+
+910 ms
+
+1520 ms
+
+(4)
+290
+ms
+
+V(4)
+
+229
+There are three types of AV block based on the severity of the conduction abnormality:
+First-degree AV block
+Second-degree AV block
+* Mobitz type I (also called AV Wenckebach)
+* Mobitz type II
+* 2:1 fixed-ratio AV block
+* High-grade (also called advanced) 2nd degree AV block
+Third-degree or complete AV block
+
+1st DEGREE AV BLOCK
+1. The PR interval is prolonged > 200 ms or 0.20 s
+2. Every P-wave is followed by a QRS complex
+The PR interval represents the time from the onset of atrial depolarization to the
+onset of ventricular depolarization as seen on the ECG.
+Activation originating in the sinus node can be delayed anywhere between the
+atria and the ventricles (including AV node, His bundle, bundle branches and fascicles) although the prolongation is almost always due to slowing of conduction
+within the AV node.
+
+2nd DEGREE AV BLOCK (Mobitz type I or Wenckebach)
+1. The diagnosis requires the presence of sinus rhythm (which
+may be regular or irregular) and at least 2 consecutive conducted P waves (thus excluding 2:1 AV block).
+2. Progressive prolongation of the PR interval before a nonconducted P wave (i.e. before a missing QRS complex).
+3. Two or more consecutive P waves are conducted but only a
+single P wave is blocked.
+4. The PR interval always shortens immediately after the pause
+i.e. in the first conducted P wave.
+* Long sequences often generate atypical behavior of the PR intervals. The greatest
+increment of the PR interval may not always occur in the second PR interval.
+* The conduction ratio is the ratio of the total number of P waves to the number of
+P waves that are conducted. Thus, a 4:3 Wenckebach means that of 4 consecutive
+P waves only 3 are conducted and the 4th is blocked.
+
+230
+
+ATRIOVENTRICULAR BLOCK 2
+2nd degree AV BLOCK type II (Mobitz II)
+Type II block with wide QRS complexes
+
+SN(1)
+
+lead V6
+P R
+
+R
+
+P
+
+AVN(2)
+
+R
+
+P
+
+intermittent
+block
+time
+
+LB
+
+RB
+(1)
+
+A
+
+V(4)
+
+(2)
+block
+V
+
+LBB
+Block
+
+(3)
+
+(3)
+(4)
+
+180
+ms
+
+180
+ms
+
+180
+ms
+
+180
+ms
+
+blocked
+
+constant PR interval
+
+2nd degree AV BLOCK type II (Mobitz II)
+Type II block with narrow QRS complexes
+R
+
+SN(1)
+
+R
+
+P
+
+P
+
+AVN(2)
+intermittent
+(3) block
+
+P
+
+P
+
+time
+A
+
+720 ms
+
+720 ms
+
+720 ms
+
+720 ms
+
+720 ms
+block
+
+block
+
+V(4)
+
+(2)
+(3)
+
+720 ms
+
+720 ms
+
+1440 ms
+
+(4)
+
+V
+190
+ms
+
+LB
+
+RB
+(1)
+
+190
+ms
+
+190
+ms
+
+190
+ms
+
+constant PR interval
+
+High grade 2nd degree AV BLOCK
+P
+
+SN(1)
+
+P
+
+P
+
+AVN(2)
+intermittent
+block
+time
+(2)
+block
+
+block
+
+block
+
+(3)
+(4)
+
+180
+ms
+
+constant PR interval
+
+BAV haut grade = 3:1 ou plus
+
+180
+ms
+
+LBB
+Block
+LB
+
+RB
+(1)
+
+A
+
+V
+
+(3)
+
+V(4)
+
+231
+2nd DEGREE AV BLOCK (Mobitz type II)
+1. Two or more consecutive P waves are conducted;
+only single P waves are blocked (this requirement excludes
+2:1 AV block).
+2. The PR interval remains constant before and after the
+blocked P wave. (The PR interval may be normal or
+prolonged, but does not vary.)
+3. The R-R intervals are constant because the sinus rate is
+constant, i.e. the P-P intervals are stable (the R-R interval
+is twice as long if a P wave is blocked).
+* Type II block is always infranodal.
+* The QRS complex is mostly wide (65–80%) but may be occasionally narrow
+(if the block occurs in the His bundle).
+* A vagal surge can cause simultaneous sinus slowing and AV nodal block
+superficially resembling type II block. Therefore stability of the sinus rate is
+an important criterion for the diagnosis of type II block.
+* Diagnosis of type II block may not be possible if there is sinus slowing, but
+is possible with an increasing sinus rate.
+
+HIGH GRADE 2nd DEGREE AV BLOCK
+1. Two or more consecutive P waves are blocked.
+2. High grade AV block with narrow QRS complexes may be
+nodal or infranodal. When the QRS complexes are wide, the
+block is almost always infranodal.
+* The conduction ratio refers to the number of P waves that are blocked
+before a P wave is conducted ; e.g. a 3:1 ratio means that of three consecutive P waves, only one is conducted.
+* High grade 2nd degree AV block might be defined as an AV block with a
+blocking ratio of 3:1 or higher (3:1 , 4:1 , ...)
+
+232
+Fixed-ratio 2:1 AV BLOCK
+
+P
+
+SN(1)
+
+P
+
+P
+
+P
+
+AVN(2)
+intermittent
+(3) block
+LB
+
+P
+
+P
+
+RBB
+Block
+time
+
+RB
+(1)
+
+A
+
+V(4)
+
+(2)
+block
+
+block
+
+block
+
+(3)
+(4)
+
+V
+180
+ms
+
+180
+ms
+
+180
+ms
+
+constant PR interval
+
+Complete or 3rd degree AV BLOCK
+with narrow QRS complexes
+
+SN(1)
+
+block
+P
+
+P
+
+P
+
+P
+
+P
+
+P
+
+AVN(2)
+
+*
+
+junctional
+escape
+rhythm
+
+(3)
+
+LB
+time
+
+RB
+(1)
+
+A
+block
+
+V(4)
+
+(2)
+block
+(3)
+(4)
+
+V
+
+junctional escape rhythm
+
+Complete or 3rd degree AV BLOCK
+with wide QRS complexes
+
+P
+
+P
+
+P
+
+P
+
+SN(1)
+
+P
+
+AVN(2)
+
+P
+
+block
+
+(3)
+LB
+time
+
+RB
+(1)
+
+A
+block
+
+block
+
+block
+
+(2)
+(3)
+(4)
+
+V
+ventricular escape rhythm
+
+V(4)
+
+*
+ventricular
+escape
+rhythm
+
+233
+FIXED-RATIO 2:1 AV BLOCK
+1. Every other P wave is conducted, alternating with every
+other blocked P wave.
+2. 2:1 block cannot be classified as type I or type II because
+only a single P wave is conducted (two conducted P waves
+are needed to evaluate the behavior of the PR interval).
+* QRS complexes may be wide or narrow.
+* Barring myocardial infarction, sustained 2:1 block with a wide QRS complex occurs in the His-Purkinje system in 80% of cases (with 20% in the
+AV node).
+* As the PR interval looks constant, 2:1 AV block is often mistaken for
+type II block.
+
+COMPLETE or 3rd DEGREE AV BLOCK
+1. Third degree AV block is the complete absence of conduction of electrical impulses from the atria to the ventricles.
+2. Unless an escape rhythm comes to the rescue, the ventricles
+will remain asystolic. Only P waves will be present on the
+ECG causing lightheadedness, syncope or sudden death.
+3. The escape rhythm is completely independent of the
+sinus rhythm. P waves and QRS complexes are completely
+dissociated.
+4. QRS complexes can be narrow or wide, depending upon the
+location of the block and the origin of the escape rhythm.
+
+The atrial rate must be faster than the ventricular rate !
+
+BAV III (complet): le rythme d'échappement ventriculaire est
+en général parfaitement régulier (une irrégularité suggère
+une conduction AV résiduelle)
+
+235
+
+Complete AV Block
+AVN
+
+AVN
+LBB
+
+HIS
+RBB
+
+LBB
+
+HIS
+RBB
+
+AV Nodal Block
+
+His bundle Block
+(Infranodal Block)
+
+AVN
+
+AVN
+
+HIS
+
+LBB
+
+RBB
+Bilateral Bundle Branch Block
+(Trifascicular Block)
+
+HIS
+
+LBB
+
+RBB
+Trifascicular Block
+
+It is a common error to label bifascicular block with 1st-degree AV block as
+tri-fascicular block because the block can be either in the AV node (outside the
+His-Purkinje system) or in the His bundle or in all three fascicles.
+
+All conduction disorders in the His-Purkinje system may
+be permanent, transient, intermittent (rate-independent) or
+rate-dependent usually precipitated by tachycardia (phase
+3 block) and rarely by bradycardia (phase 4 block).
+
+Abbreviations : AVN = atrioventricular node ; LAH = left anterior hemiblock ;
+LBB = left bundle branch ; LBBB = left bundle branch block ; LPH = left posterior
+hemiblock ; RBB = right bundle branch ; RBBB = right bundle branch block
+
+238
+
+OVERVIEW OF 2ND-DEGREE AV BLOCK
+Illustrative example 2
+
+Type I variant. The PR intervals are constant before the blocked beat. There is sinus slowing at
+the time of the nonconducted P wave. Sinus slowing with concomitant AV block is typical of a
+vagal effect. The PR interval after the block is shorter than those before the block. Such
+recordings should not be misinterpreted as type II block.
+
+Illustrative example 3
+V5
+
+?
+
+V1
+
+V3
+
+2nd-degree AV block. The PR intervals are constant before the blocked atrial impulse. This
+should not be misinterpreted as type II block because there is no PR interval for examination
+after the blocked P wave. This pattern is best described as unclassifiable.
+
+3RD
+
+240
+
+OVERVIEW OF 2ND-DEGREE AV BLOCK
+Illustrative example 7
+P
+
+P
+
+P
+
+P
+
+P
+
+P
+
+P
+
+P
+
+P
+
+I
+II
+III
+aVR
+aVL
+aVF
+V1
+V2
+V3
+V4
+V5
+V6
+25 mm/s
+
+Complete AV block.There is AV dissociation and the atrial rate is faster than the ventricular rate.
+The idioventricular rhythm is regular at 45 bpm.
+
+Illustrative example 8
+
+Bradycardia-dependent (phase 4) AV block sometimes called “paroxysmal block”.
+
+CHAPTER 7
+
+INTRAVENTRICULAR
+CONDUCTION
+DEFECTS
+* Right bundle branch block
+* Left bundle branch block
+* LBBB versus RBBB
+* Left anterior hemiblock
+* Left posterior hemiblock
+* LAH versus LPH
+* Incomplete right bundle branch block
+* Left hemiblock and right bundle branch block
+* Rate-dependent bundle branch block
+* Phase 3 and phase 4 blocks
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+105
+
+106
+
+RIGHT BUNDLE BRANCH BLOCK
+Left
+Anterior
+Fascicle
+
+Complete RBBB
+
+Left
+Posterior
+Fascicle
+
+Right
+Bundle
+Branch
+
+Sequence of Ventricular Depolarization
+2
+2
+2
+2
+
+1
+Main
+vector
+
+Terminal
+vector
+(delayed)
+
+VM
+
+1
+3
+
+VI
+
+VT
+
+1
+
+3
+3
+
+Initial
+vector
+
+-120°
+
+large R’
+
+delayed
+0°
+
+180°
+
+R’
+r
+s
+
+V1
+
+3
+
+-60°
+
+HORIZONTAL PLANE
+
+Horizontal
+lead V1
+
+2
+2
+
+1
+
+3
+
+VT
+
+VI
+
+Horizontal
+lead V6
+
+V6
+
+R
+
+VM
+
+q s
+
+120°
+60°
+
+wide s
+
+Complete RBBB – Criteria
+1. QRS duration ≥ 120 ms in adults,
+2. rsr’, rsR’, rSr’, or rSR’ in leads V1 or V2. The R’ or r’ deflection is usually
+wider than the initial R wave. In a minority of patients, a wide and often
+notched R wave pattern may be seen in lead V1 and/or V2.
+3. S wave of greater duration than R wave or > 40 ms in leads I and V6 in
+adults.
+
+Incomplete RBBB
+Incomplete RBBB is defined by QRS duration between 110 and 120 ms in
+adults, between 90 and 100 ms in children between 8 and 16 years of age,
+and between 86 and 90 in children less than 8 years of age.
+Other criteria are the same as for complete RBBB. The ECG pattern of
+incomplete RBBB may be present in the absence of heart disease, particularly when the V1 lead is recorded higher than or to the right of normal
+position and r’ is less than 20 ms.
+
+Functional RBBB
+A transient form of RBBB may be observed in patients with premature atrial contractions (Ashman phenomenon) or supraventricular tachycardia (rate dependent functional right bundle branch block). This occurs when an early impulse is
+conducted from the atrioventricular node to the His bundle while the right bundle
+branch but not the left bundle branch is still refractory. Conduction down the right
+bundle branch is therefore delayed or blocked, resulting in a transient RBBB.
+
+107
+
+108
+
+LEFT BUNDLE BRANCH BLOCK
+Site of LBBB :
+main trunk or block
+of both left fascicles
+
+Sequence of Left
+Ventricular
+Depolarization
+
+Left
+Posterior
+Fascicle
+
+2
+
+Left
+Anterior
+Fascicle
+Right
+Bundle
+Branch
+
+RV
+
+V1
+1
+
+1 LV
+1
+1
+1
+1
+
+2
+2
+2
+2
+2
+
+2
+
+V6
+1
+
+Vectors of RV depolarization
+are not depicted as they have
+nearly no influence on the QRS
+
+LBBB is a conduction disorder that alters the initial forces of the QRS
+complex. Consequently LBBB may mask the electrocardiographic manifestations of conditions affecting the initial part of the QRS complex
+such as the Q waves of myocardial infarction.
+
+2
+
+109
+
+Complete LBBB – Criteria
+1. QRS duration ≥ 120 ms in adults
+2. Broad notched or slurred R wave in leads I, aVL, V5, and V6 and an
+occasional RS pattern in V5 and V6 attributed to displaced transition of QRS
+complex (or incorrect lead placement).
+
+Lead V1
+QS no r OR
+
+small r
+
+Lead V6
+Normal
+
+LBBB
+
+q
+
+no q
+
+r
+
+LBBB
+
+110
+
+Lead V1
+
+Leads I - V6
+
+Typical
+
+RBBB
+Typical
+
+LBBB
+
+OR
+
+LBBB
+Right-sided
+precordial
+lead V1
+
+LEFT-HAND
+SIDE BLOCKED
+
+Left-sided
+precordial
+lead V6
+
+r
+
+R R’
+S S’
+Initial septal vector is abnormal
+
+LBBB
+
+112
+
+LEFT ANTERIOR HEMIBLOCK
+Initial depolarization with LAH
+
+LAH
+
+(short-axis view of the heart)
+
+Left
+Anterior
+Fascicle
+
+Superior
+Left Anterior
+Fascicular Block
+
+Right
+
+RV
+
+Left
+
+LV
+
+anterior papillary
+muscle of the
+tricuspid valve
+
+Inferior
+
+anterior papillary
+muscle of the
+mitral valve
+posterior papillary
+muscle of the
+mitral valve
+
+The left anterior fascicle crosses the LV outflow tract and terminates in the Purkinje system of the
+anterolateral wall of the LV. In “Left Anterior Hemiblock” (LAH), which is also known as “Left
+Anterior Fascicular Block” (LAFB), the impulse spreads first through the left posterior fascicle,
+causing a delay in activation of the anterior and lateral walls of the LV which are normally
+activated via the left anterior fascicle. The main vector moves superiorly and anticlockwise. .
+
+LEFT ANTERIOR HEMIBLOCK
+1. Frontal plane axis between –45° and –90°.
+2. QRS duration < 120 ms.
+
+In LAH the inferior LV is activated first. The delayed and unopposed activation of the rest of the
+LV produces a shift in the QRS axis leftward and superiorly, causing a marked left axis
+deviation.
+
+WARNING !
+1. Low r waves in V1 to V3 (delayed transitional zone) may cause the erroneous
+diagnosis of anteroseptal myocardial infarction.
+2. Because the initial vector points inferiorly and to the right, V2 and V3 may exhibit
+micro q waves simulating an anteroseptal myocardial infarction. These q waves occur
+in a small portion of patients and disappear with recording V2 and V3 one intercostal
+space lower.
+
+114
+
+LEFT POSTERIOR HEMIBLOCK
+LPH
+
+Initial depolarization with LPH
+(short-axis view of the heart)
+Left
+Posterior
+Fascicle
+
+Superior
+
+Right
+
+RV
+
+Left
+
+LV
+
+anterior papillary
+muscle of the
+tricuspid valve
+Left Posterior
+Fascicular Block
+
+Inferior
+
+anterior papillary
+muscle of the
+mitral valve
+posterior papillary
+muscle of the
+mitral valve
+
+“Left Posterior Hemiblock” (LPH) is rare as an isolated abnormality and it usually occurs
+together with right bundle branch block. The ECG manifestations of LPH are opposite to
+those of LAH. The cardiac impulse emerges from the unblocked left anterior fascicle and
+spreads superiorly and leftward. This leads to the characteristic rightward axis of +90° to +180°.
+As with LAH the QRS complex may be normal in duration or increased by < 20 ms.
+
+LEFT POSTERIOR HEMIBLOCK
+1. Frontal plane axis between 90° and 180° in adults.
+2. rS pattern in leads I and aVL.
+3. qR pattern in leads III and aVF
+4. QRS duration < 120 ms.
+WARNING !
+There are a number of settings which may produce ECG findings similar to LPH which
+is a diagnosis of exclusion.
+1. The diagnostic criteria apply only in the absence of other causes for right axis
+deviation such as right ventricular hypertrophy or lung disease with cor pulmonale.
+2. A high lateral or anterolateral myocardial infarction can mimic LPH. With an infarct,
+however, the initial r wave in leads I and aVL is absent and only a Q wave is seen.
+
+CHAPTER 12
+
+PREMATURE
+VENTRICULAR
+COMPLEXES (PVC)
+* Definitions
+* Unifocal PVC with fully compensatory pause
+* Multifocal PVCs
+* PVC causing retrograde P wave and noncompensatory pause
+* Interpolated PVC and PR prolongation
+* Coupling interval
+* End-diastolic PVC
+* PVCs and the “R on T” phenomenon
+* Paired PVCs
+* PVC configuration and morphology
+* Parasystole
+* Accelerated idioventricular rhythm
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+217
+
+218
+
+PREMATURE VENTRICULAR COMPLEXES 1
+* Premature ventricular complexes (PVC) originate in ectopic foci in
+the ventricles
+* PVCs occur earlier than expected
+* They are not preceded by P waves
+* The QRS duration of PVCs is larger than 0.12 s because the depolarization front does not follow the normal conduction system (His
+bundle and bundle branches)
+* The T wave is discordant to the QRS complex
+* PVCs are followed by a pause that is usually fully compensatory
+
+Unifocal PVC with fully compensatory pause
+P2
+
+P1
+A
+
+700 ms
+
+AV
+V
+
+700 ms
+
+700 ms
+700 ms
+
+700 ms
+
+R1
+
+R
+
+2
+
+PVC
+
+700 ms
+
+PVC
+
+1400 ms
+
+compensatory
+pause
+
+lead II
+
+2 RR
+
+RR
+
+2 RR
+
+Unifocal PVCs originate in a single location in the ventricles; they are uniform and have
+identical configuration. On the contrary, multifocal PVCs start at two or more ectopic foci
+in the ventricles; these PVCs have different configurations
+
+Multifocal PVCs
+
+II
+1
+
+2
+
+219
+PVC causing a retrograde P wave and noncompensatory pause
+P2
+
+P1
+A
+
+P’
+
+700 ms
+
+AV
+V
+
+700 ms
+
+700 ms
+
+R1
+
+700 ms
+
+R
+
+700 ms
+
+2
+
+PVC
+
+1295 ms < 1400 ms
+
+P’
+
+II
+
+noncompensatory
+pause
+
+III
+RR
+
+< 2 RR
+
+221
+
+PVCs and the “R on T” Phenomenon
+T wave
+
+< 400 ms
+The “R on T” phenomenon describes the occurrence of a PVC beginning at or near the apex
+of the T wave of the previous complex (the so-called vulnerable period). Such PVCs were
+originally considered to carry a grave prognosis (being associated with ventricular fibrillation).
+The R on T PVC is only of importance in patients with an acute myocardial infarction or myocardial ischemia or with long QT intervals where it may be associated with the risk of ventricular
+fibrillation.
+
+Paired PVCs
+
+II
+
+lead II
+
+V1
+
+V1
+
+V1
+
+PVCs in bigeminy
+the PVCs alternate
+with normal sinus
+complexes
+
+PVCs in trigeminy
+a PVC occurs every
+third complex
+
+PVC quadrigeminy
+every fourth complex
+is a PVC
+
+PVCs in couplet
+a sequence of two
+PVCs
+
+PVCs in triplet
+a salvo of three
+consecutive PVCs
+(must be differentiated
+from a run of PVCs or
+unsustained ventricular
+tachycardia)
+
+CHAPTER 15
+
+VENTRICULAR
+TACHYCARDIAS
+* Ventricular tachycardia
+* Electrocardiography of monomorphic ventricular tachycardia
+* Brugada algorithm for the diagnosis of wide complex
+tachycardia
+* The Brugada syndrome
+* Catecholaminergic polymorphic ventricular tachycardia
+* Idiopathic ventricular tachycardia
+* Arrhythmogenic right ventricular dysplasia
+* Bundle branch reentry
+* Long QT syndrome – early afterdepolarization
+* Torsades de pointes
+* Short QT syndrome
+* Polymorphic ventricular tachycardia and cardiac ischemia
+* Short-coupled variant of TdP
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+279
+
+280
+
+VENTRICULAR TACHYCARDIA 1
+Ventricular tachycardia (VT) originates from the ventricles or more specifically below the bundle of
+His in the AV junction. By definition it consists of 3 or more beats at a rate > 100 bpm and a QRS of
+at least 0.12 s. VT occurs mostly in the presence of heart disease. It is a potentially lifethreatening arrhythmia. VT can be classified in many ways. The mechanism, prognosis and
+management of VT differs according to the underlying substrate coronary artery disease,
+mitral valve prolapse, cardiomyopathy, etc.)
+
+1 Duration.
+Sustained for VT > 30 s, and non-sustained VT for < 30 s.
+2 Electrocardiographic morphology.
+Monomorphic with a regular rate and consistent beat-to-beat QRS morphology or polymorphic
+with frequent changes in QRS configuration.
+3 Underlying mechanism especially reentry.
+The commonest cause of VT is post myocardial infarction where reentry is the mechanism.
+Areas of slow conduction have been identified in the substrate for reentry.
+4 Disease entity.
+Chronic coronary artery disease, congenital heart disease, cardiomyopathy or absence of
+structural heart disease. Absence of heart disease makes SVT with aberration more likely. The
+presence of heart disease makes VT more likely. A wide QRS tachycardia in a patient with an old
+myocardial infarction is almost always VT.
+5 Clinical presentation.
+Episodes lasting only a few beats may produce no or minimal symptoms. VT rates between
+110 and 150 bpm may be tolerated even if sustained for minutes to hours. However, faster
+rates (>180 bpm) may cause a drop in the blood pressure and low cardiac ouput. It is a
+misconception that hemodynamically stable patients cannot have VT.
+
+6 Mechanism.
+Reentry, enhanced automaticity and triggered activity. VT related to a scar after myocardial
+infarction is always due to reentry.
+
+Electrocardiography of monomorphic ventricular tachycardia
+1. AV dissociation
+The finding of atrioventricular (AV) dissociation is one of the most useful practical criteria for the
+diagnosis of VT. However, retrograde ventriculoatrial (VA) conduction occurs in up to 50%
+of all VT. Retrograde VA conduction is more frequent at slower VT rates. P waves can be
+difficult to recognize during a broad QRS tachycardia with AV dissoci- ation. As the ventricular
+beats may occur so rapidly, P waves may be lost within the QRS complexes.
+
+AV dissociation
+P
+
+P
+
+P
+
+2. Fusion and capture beats
+In patients with slow VT rates occasional conduction from atrium to ventricle over the AV nodebundle branch system may result in “capture” or “fusion” beats. The presence of fusion or capture
+beats when present are diagnostic of VT and help distinguish supraventricular tachycardia with
+aberrancy vs. VT. A fusion beat occurs when ventricular depolarization consists of a combination
+of a conducted supraventricular beat superimposed on a VT beat. The fusion beat is generally
+narrower than a pure VT beat. A capture beat represents total ventricular depolarization by a
+conducted supraventricular beat.
+
+Ventricular fusion (F)
+F
+
+281
+
+286
+
+VENTRICULAR TACHYCARDIA 4
+The causes of wide QRS tachycardia include:
+1. Ventricular tachycardia
+2. Supraventricular tachycardia with bundle branch block either preexisting or due to tachy
+cardia dependent aberrant conduction.
+3. Supraventricular tachycardia with conduction of impulses to the ventricles over an
+accessory pathway (preexcited tachycardia)
+
+Wide QRS tachycardia
+VT
+
+SVT & BBB
+
+SVT & Acc. Path.
+
+There are multiple approaches and protocols, each having its own pros and
+cons. No protocol is 100% accurate. In this book we try to to summarize
+approaches which we consider optimal for the evaluation of patients with
+wide QRS complex tachycardias.
+Age, hemodynamic status, heart rate and regularity of R-R intervals may be
+misleading and should not be considered in making the diagnosis of VT.
+
+I
+
+aVR
+
+II
+
+aVL
+
+III
+
+aVF
+
+V1
+
+V4
+
+V2
+
+V5
+
+V3
+
+V6
+
+VT at a rate of about 160 bpm, QRS = 200 ms.
+
+288
+
+VENTRICULAR TACHYCARDIA 5
+
+WIDE QRS TACHYCARDIA
+
+DEFINITION :
+a regular tachycardia at a rate faster than 100 bpm
+with QRS complexes of at least 120 ms.
+
+VENTRICULAR
+TACHYCARDIA
+(VT)
+
+SUPRAVENTRICULAR TACHYCARDIA (SVT)
+A supraventricular tachycardia (SVT) commonly has a narrow
+QRS complex because the impulse originates in the atria
+and follows the normal AV conduction system.
+
+VT
+
+SVT with BBB
+
+AVRT (antidromic)
+
+The arrhythmia originates
+in the ventricle below the
+bifurcation of the bundle
+of His.
+The impulse does not follow the normal conduction system, hence the activation of both ventricles
+does not occur simultaneously.
+
+The tachycardia originates
+in the atria but the impulses are conducted with
+aberration into the ventricles either due to a preexistent or a rate related
+bundle branch block.
+
+Antidromic AV reciprocating tachycardia (AVRT)
+with anterograde conduction over a bypass tract
+and retrograde conduction
+over the AV node or a second bypass tract.
+
+292
+
+VENTRICULAR TACHYCARDIA 7
+THE BRUGADA SYNDROME
+Brugada syndrome is an example of channelopathy, and a genetically determined disease (autosomal dominant pattern of transmission in about 50% of familial cases) caused by an alteration in
+the transmembrane ion currents that constitute the cardiac action potential. It is characterized by ST
+elevation in leads V1 to V3, polymorphic ventricular tachycardia that may lead to syncope,
+cardiac arrest, or sudden cardiac death.
+
+Type 1
+
+COVED
+
+J-point elevated (> 2 mm)
+negative T wave
+2mm
+
+time
+
+Type 2
+
+SADDLEBACK
+
+J-point elevated (> 2 mm)
+positive or biphasic T wave
+
+time
+
+Lead
+V2
+
+time
+
+Lead
+V3
+
+time
+
+2mm
+1mm
+
+time
+
+Type 3
+
+Lead
+V1
+
+J-point less elevated (< 1mm)
+positive or biphasic T wave
+1mm
+
+1mm
+
+OR
+time
+
+A drug challenge with a sodium channel blocker (procainamide in the US or flecainide or
+ajmaline in Europe) to unmask Brugada syndrome should be considered in patients with
+syncope in whom no obvious cause is found
+or in patients with cardiac arrest of unknown
+etiology.
+
+298
+
+VENTRICULAR TACHYCARDIA 10
+Long QT syndrome
+CATEGORIES
+1. Congenital LQTS due to hereditary defects of ion channels
+responsible for the repolarization process.
+2. Acquired LQTS as a result of electrolyte disturbances or
+QT-prolonging drugs impairing the repolarization process.
+
+Long QT syndrome (LQTS) is a congenital familial
+disorder known to be caused by mutations of the genes
+for cardiac potassium channels or less commonly
+sodium ion channels resulting in malfunction of these
+channels influencing ventricular repolarization. There
+are at least 10 types of channelopathies but the first
+three, LQTS 1 to 3, are the most prevalent and most
+studied. LQTS1 occurs in 30–35% (K channel), LQTS2
+in 25-30% (K channel), LQTS3 in 5–10% (Na channel) of
+patients and comprise about 95% of the congenital
+LQTS.
+LQTS is characterized by prologation of the QT interval
+on ECG and a propensity to ventricular tachyarrhythmias (polymorphic ventricular tachycardia – torsades de
+pointes or twisting of the points), which may lead to
+syncope, seizures, cardiac arrest, or sudden death.
+Torsades may either revert spontaneously back to sinus
+rhythm causing syncope or degenerate into ventricular
+fibrillation causing sudden death.
+
+ST segment and T wave
+in hereditary LQTS
+LQT 1
+time
+
+LQT 2
+time
+
+LQT 3
+time
+
+LQTS may also be acquired due to drugs or metabolic abnormalities. It is likely that many of
+those with acquired LQTS have a genetic basis.
+Because the QT interval varies with heart rate (lengthening with bradycardia and shortening with
+tachycardia), the QT interval is corrected (QTc) for heart rate using Bazett’s formula: QTc = QT
+divided by the square root of the RR interval in seconds. The QT which represents the duration of
+activation and recovery of the ventricular myocardium is measured from the beginning of the QRS
+complex to the end of the T wave and is normally between 0.30 and 0.44s. Any QTc interval > 0.44 s is
+considered prolonged. Do not rely on computer measurements. The normal QTc can be more
+prolonged in females (up to 0.46 s). When marked variation is present in the RR interval (atrial
+fibrillation, ectopy), correction of the QT interval is difficult to define precisely.
+
+EADs originate during the phase 2 (plateau) or
+phase 3 (final repolarization) of the action
+potential.
+EADs are frequently found with prolonged
+action potential durations (as with LQTS)
+when Ca channels can partly be reactivated
+(note that Ca currents are depolarizing).
+EADs often occur with slow heart rates and
+usually following an extrasystole (i.e. after a
+compensatory pause).
+
+DISPERSION
+time
+
+299
+
+EAD
+
+EARLY AFTERDEPOLARIZATIONS (EAD)
+
+time
+(ms)
+
+0 mV
+
+-90mV
+
+prolonged
+APD
+
+action potential duration
+
+Dispersion or difference of the action potential
+duration (APD) occurs even in the normal heart.
+The epicardial APD is the shortest !
+
+REPOLARIZATION
+1/ first Epicardial layer
+2/ next Endocardial layer
+3/ last Midcardial layer
+
+time
+TDR = transmural dispersion of
+repolarization
+
+In LQTS, QT prolongation can lead to polymorphic ventricular tachycardia, or torsades de
+pointes, which itself may lead to ventricular fibrillation and sudden death.
+
+The ECG is
+consistent
+with type 1
+LQTS.
+
+EB241
+
+300
+
+VENTRICULAR TACHYCARDIA 11
+Torsades de pointes
+Torsades de pointes (TdP) is a form of polymorphic ventricular tachycardia (VT) that occurs
+in acquired or congenital QT interval prolongation. The peaks of the QRS complexes appear to
+“twist” around the isoelectric line of the recording.
+
+Acquired LQTS usually results from drug therapy, hypokalemia, or hypomagnesemia. More than 50
+medications, many of them common, can lengthen the QT interval in otherwise healthy people and
+cause a form of acquired long QT syndrome known as drug-induced LQTS. They include certain
+antibiotics, antidepressants, antihistamines, diuretics, heart medications, cholesterollowering drugs, diabetes medications, as well as some antifungal and antipsychotic drugs.
+Hypokalemia, hypomagnesemia, and bradycardia can increase the risk of drug-induced LQTS.
+
+There is a characteristic initiating sequence before the onset of TdP, particularly in the acquired
+form with pause dependency. TdP are favored by bradycardia.
+
+There is often a long-short interval before the onset
+of a tachycardia with “Torsades de Pointes”.
+post-ectopic pause
+
+abnormal T/U wave
+
+Torsades de pointes
+
+(After: Yap Y & Camm A - Heart 2003; 89; 1363)
+
+short-long-short ventricular cycle
+Rhythm strip in a patient with drug-induced TdP. Typical short-long-short ventricular cycle,
+pause dependent QT prolongation, and abnormal TU wave leading to classical TdP.
+
+303
+
+Ventricular extrasystoles with R on T phenomenon and induction of polymorphic ventricular tachycardia
+
+Polymorphic ventricular tachycardia and cardiac ischemia
+Ventricular tachycardia (VT) is classified as polymorphic when
+QRS complexes during tachycardia vary in appearance from
+beat to beat, suggesting a variable electrical activation sequence. Torsades de pointes (TdP) is the most common form of
+polymorphic VT and is associated with a prolonged QT interval.
+Acute coronary ischemia is a cause of polymorphic VT
+or ventricular fibrillation (VF) is probably the most common
+cause of out-of-hospital sudden death.
+In contrast, the most common setting for monomorphic VT is
+coronary artery disease in which myocardial scar tissue forms
+the substrate for electrical reentry.
+
+CHAPTER 16
+
+VENTRICULAR FIBRILLATION
+AND
+VENTRICULAR FLUTTER
+* Ventricular fibrillation
+* Ventricular flutter
+* Termination of ventricular fibrillation by a shock from an
+implanted defibrillator
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+305
+
+306
+
+VENTRICULAR FIBRILLATION
+Ventricular fibrillation (VF) consists of uncoordinated ineffectual contraction of the ventricles
+whereby they quiver uncontrollablly rather than contract properly. VF appears due to multiple
+reentry loops in the ventricles. Organized ventricular activity disappears and is replaced by rapid
+irregular electrical impulses at a rate of 350–450 bpm. VF is the most commonly identified
+arrhythmia of cardiac arrest (pulseless situation). The most common cause of VF is an acute
+myocardial infarction. VF is the final common pathway of many heart diseases. If this arrhythmia
+continues for more than 1–2 minutes, it will degenerate further into asystole (flat line) and death.
+Death often occurs if normal sinus rhythm is not restored within 90 seconds of the onset of VF,
+especially if it has degenerated further into asystole. The ECG is bizarre with a wandering baseline
+and shows QRS complexes of varying morphology and height so that no QRS complex looks like
+another. The QRS cannot be distinguished from the ST segment. There are no discernible P or T
+waves. VF can also be described as an undulating baseline. It may sometimes be difficult to
+differentiate VF from polymorphic VT. The totally disorganized ECG must be differentiated from
+artifact.
+
+VENTRICULAR FLUTTER
+
+Rare!
+
+Ventricular flutter is a rapid VT believed to be due to reentry. The rate is traditionally close to 300
+bpm though it is sometimes described in terms of much slower rates. The ECG reveals a
+sinusoidal pattern and P waves, QRS complexes and T waves cannot be distinguished. Thus
+the ECG looks the same when it is visualized upside down. The arrhythmia may be considered
+an extreme form of VT and it is associated with rapid and profound hemodynamic compromise.
+
+Ventricular flutter often deteriorates into VF
+
+307
+
+EB226
+
+Ventricular flutter
+Ventricular rate is about 300 bpm
+
+EB293
+
+Ventricular fibrillation
+
+CHAPTER 8
+
+CORONARY ARTERY DISEASE
+AND ACUTE CORONARY
+SYNDROMES
+* Electrophysiologic concepts of ischemia
+* ST segment and T wave changes during ischemia
+* Coronary artery disease and acute coronary syndromes
+* Pathophysiology of acute coronary syndromes
+* Common causes of myocardial infarction
+* Manifestations of acute ST elevation MI
+* Reciprocal changes in ST elevation MI
+* ST elevation MI vs early repolarization
+* Q waves in ST elevation MI
+* Conditions that mimic MI
+* T waves in ST elevation MI
+* Right-sided leads and right ventricular infarction
+* Non-STEMI and unstable angina
+* ST segment depression
+* Other features – poor R wave progression; persistent ST elevation
+* Reperfusion
+* Takotsubo cardiomyopathy
+* Localization of STEMI
+* Myocardial infarction and bundle branch block
+* Diagnosis of MI during pacing
+* Arrhythmias in acute myocardial infarction
+* Diagnosis of coronary artery disease – exercise testing
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+123
+
+The ECG in acute MI is quite variable. It is related
+to size, location and rapidity of reperfusion (if any).
+
+ACUTE CORONARY SYNDROME
+
+No ST segment elevation
+
+ST segment elevation
+
+I
+M
+TE
+
+NS
+
+Unstable
+angina
+
+STEMI
+
+Non-Q-wave
+MI
+
+Q-wave MI
+
+Myocardial Infarction
+
+Fig. 5 Nomenclature of acute coronary syndromes
+Patients with ischemic discomfort may present with or without ST-segment elevation on the
+ECG. The majority of patients with ST-segment elevation (large arrow) ultimately develop a
+Q-wave MI, whereas a minority (small arrow) develop a non-Q-wave MI. Patients who
+present without ST-segment elevation are experiencing either unstable angina or an non-STsegment elevation myocardial infarction (NSTEMI). The distinction between these 2
+diagnoses is ultimately made by the presence or absence of a cardiac biomarker detected
+in the blood.
+
+COMMON CAUSES OF MYOCARDIAL INFARCTION
+* Rupture of an atheromatous plaque.
+* Vasospasm (including cocaine).
+* In-stent thrombosis (early).
+* In-stent fibrosis (late).
+* Coronary artery surgery (poor surgical technique).
+
+135
+
+131
+
+Séquence des modifications ECG lors d'un infarctus aigu du myocarde
+
+Progressive
+ST segment elevation
+
+Normal
+
+Hyperacute
+T wave
+
+Before
+ischemia
+
+Minutes
+later on
+
+Minutes to
+hours later
+
+Days
+later
+
+Days, weeks,
+months later
+
+T wave inversion
+
+T wave normalization
+permanent Q wave
+
+Hours to
+days later
+Loss of R wave
+forming of Q wave
+
+136
+
+CORONARY ARTERY DISEASE AND
+ACUTE CORONARY SYNDROMES 3
+TRANSMURAL (EPICARDIAL)
+INJURY
+ST Elevation
+
+SUBENDOCARDIAL
+INJURY
+ST Depression
+ST
+
+electrode
+V5
+
+electrode
+V5
+
+ST
+t
+
+Fig. 6
+
+t
+
+MANIFESTATIONS OF ACUTE ST ELEVATION MI
+ST elevation MI (STEMI) occurs when a coronary artery is completely blocked, so that a large proportion of the heart muscle being supplied by that artery becomes damaged or necrotic. The patient
+with STEMI has (1) cardiac chest pain; (2) serologic evidence of myonecrosis (i.e. elevation of
+serum troponin or creatine kinase MB isoenzyme concentration); and (3) persistent (> 20 mins) ST
+segment elevation. In a patient without chest pain, ST-segment elevation incidentally noted,
+suggests the presence of a nonischemic cardiac condition. When the ECG identifies a STEMI, the
+diagnosis dictates the need for immediate reperfusion therapy for an optimal outcome. The
+potential size of an STEMI and the amount of myocardium at risk can be estimated by the larger
+number of ECG leads with ST-segment elevation. If ST elevation involves many leads, extensive
+ST elevation (if a large proximal coronary artery is involved) correlates with a higher mortality.
+
+The prognosis of STEMI depends on the size of the MI,
+the site and timely medical therapy
+Hyperacute T wave changes
+The earliest manifestation of acute MI is the hyperacute T wave, which is treated in the same way as
+ST-segment elevation. It only exists for 20–30 minutes after the onset of MI and represents
+transmural ischemia before the beginning of necrosis. Hyperacute T waves must be differentiated
+from the peaked T waves seen with hyperkalemia. Such T waves are often asymmetric with a broad
+base. Because of the rapid progression from the hyperacute T wave to frank ST elevation, most
+ECGs fail to show this pattern and patients usually present with significant ST-segment elevation.
+
+Current of injury: ST-segment elevation
+Under normal conditions, the ST segment is usually isoelectric (flat along the baseline) because
+normal myocardial cells attain the same potential during repolarization. Ischemia causes complex
+time-dependent effects on the electrophysiology of myocardial cells. Severe acute ischemia lowers
+the resting membrane potential and shortens the duration of the action potential in the ischemic area,
+and also decreases the rate of rise and amplitude of phase 0. These changes generate a voltage
+gradient between normal and ischemic zones, causing a current-flow of injury between these
+regions. This voltage difference is represented on the surface ECG by elevation of the ST segment.
+
+140
+
+CORONARYARTERY DISEASE AND
+ACUTE CORONARY SYNDROMES 5
+The ECG alone cannot reliably be used to diagnose acute MI
+as many conditions result in deviation of ST segments and
+may be misinterpreted as acute MI. Serial ECGs are essential
+because acute coronary syndrome is an evolving process.
+
+Q WAVES IN ST ELEVATION MI
+Small septal Q waves in the left ventricular leads result from depolarization of the septum from left to
+right. A Q wave in lead III alone may be positional and represents a normal finding. Q waves in lead
+III are not pathologic as long as abnormal Q waves are absent in leads II and aVF (the contiguous
+leads).
+Q waves may be a marker of electrical silence which, when pathologic, implies myocardial necrosis in the past. Most STEMI develop Q waves and a few non-STEMI also develop Q waves (see
+Fig. 7). A Q wave reflects normal endocardial to epicardial depolarization of the ventricular wall on
+the opposite side of the heart, moving away from the positive electrode of the recording lead. Therefore Q waves are negative because they are effectively windows through which the opposite side
+of the heart can be seen.
+
+Q waves may occur as early as 2 hours with a STEMI. Q waves typically appear within the first
+9 hours with a range of only a few minutes to 24 hours. The time it takes for the development of
+Q waves depends on the collateral circulation that connects with the occluded coronary artery. A
+rich collateral network may delay or may actually prevent the appearance of Q waves.
+
+Transient Q waves
+Transient Q waves occur uncommonly during ischemia in the absence of MI and reflect transient
+loss of electrophysiologic function without irreversible cellular damage (“myocardial concussion”).
+Q waves of MI may sometimes disappear after early successful revascularization.
+
+EXAMINATION of a Q WAVE
+* Width.
+* Depth (not as important as width).
+* Lead or leads where Q wave(s) are recorded.
+Look for grouping or contiguous leads.
+
+142
+
+CORONARY ARTERY DISEASE AND
+ACUTE CORONARY SYNDROMES 6
+Conditions that mimic MI either by simulating pathologic Q waves or
+QS complexes or mimicking the typical ST-T changes of acute MI
+* Normal variant “septal” Q wave in leads I, aVL, V5, V6
+* Normal variant Q waves as in lead III
+* Early repolarization
+* Transient short-lived severe myocardial ischemia. Transient Q waves without MI.
+* Preexcitation (Wolff-Parkinson-White syndrome): negative delta wave may mimic a
+pathologic Q waves.
+* Left ventricular aneurysm with persistent ST elevation after acute MI
+* Hypertrophic cardiomyopathy (septal hypertrophy may make normal septal Q waves
+“fatter” thereby mimicking pathologic Q waves).
+* Hypertrophic cardiomyopathy: ST elevation in V3 to V5 (sometimes V6)
+* Cardiomyopathy (dilated, infiltrative - such as sarcoid, amyloid).
+* Left ventricular hypertrophy (may have QS pattern or poor R wave progression in leads
+V1 to V3).
+* Right ventricular hypertrophy (tall R waves in V1 or V2 may mimic true posterior MI).
+* Acute myocarditis
+* Complete or incomplete LBBB (QS waves or poor R wave progression in leads V1 to V3).
+* Left anterior fascicular block (may see small q waves in anterior chest leads).
+* Pneumothorax (loss of right precordial R waves).
+* Acute pericarditis (ST elevation in all leads except aVR; the ST segment elevation may
+mimic acute transmural injury)
+* Pulmonary emphysema and cor pulmonale (loss of R waves in V1 to V3 and/or inferior
+Q waves with right axis deviation).
+* Pulmonary embolism: ST elevation in V1 and aVR
+* Artificial cardiac pacemaker.
+* Central nervous system disease and raised intracranial pressure (acute neurologic events
+may mimic non-Q-wave MI causing diffuse ST-T abnormalities primarily in V1 to V6.)
+* Idioventricular rhythm
+* Hyperkalemia: ST elevation in V1 and V2
+* Brugada syndrome: leads V1 and V2
+* Hypothermia: ST elevation in V3 to V6, II, III, and aVF
+* Cardiac contusion
+* Following electrical cardioversion (transient ST elevation)
+
+ST segment depression associated with unstable angina/NSTEMI
+is transient and dynamic. It is important to obtain serial ECGs
+especially during symptoms because ischemia is an evolving
+process. Serial ECGs are essential if the first ECG is obtained
+during a pain-free episode.
+
+1 Upsloping
+
+2 Downsloping
+
+3 Horizontal
+
+Fig. 14 Various forms of ST segment depression
+ECG manifestations of acute myocardial ischemia
+(in absence of left ventricle hypertrophy and left bundle branch block)
+
+ST elevation
+New ST elevation at the J-point in two contiguous leads with the cut- points:
+≥ 0.1 mV in all leads other than leads V2 and V3 where the following cut-points
+apply: ≥ 0.2 mV in men ≥ 40 years; ≥ 0.25 mV in men < 40 years; or ≥ 0.15 mV
+in women.
+
+ST depression and T wave changes
+New horizontal or downsloping ST depression > 0.05 mV in two contiguous
+leads and/or T inversion > 0.1 mV in two contiguous leads with prominent R
+wave or R/S ratio > 1.
+According to the guidelines of the “Joint ESC/ACCF/AHA/WHF Task Force for the
+Universal Definition of Myocardial Infarction” European Heart Journal, 2012
+
+145
+
+Normal T wave inversion
+The normal T wave is usually in the same direction as the QRS complex. The T wave is always
+upright in leads I, II, V3 to V6. It is normally inverted in lead aVR and may be normally inverted in
+leads III and V1. In lead aVL, the T wave should be in the same direction as the QRS complex. The
+T wave can be inverted in the right precordial leads in normal persons. T waves are commonly
+inverted in all precordial leads at birth but usually become upright as time passes. T wave
+inversions in V1 to V3 are relatively common in athletes < 16 years and probably represent the
+juvenile electrocardiogram pattern. In adolescent athletes, T wave inversions may occur beyond
+V2 if > 16 years. A persistent juvenile pattern with inverted T waves in V1 to V3 occurs in 1–3% of
+adults (19 to 45 years of age) and is more common in women than in men and is more common in
+black people. T wave inversions in the inferior/lateral leads and deep T wave inversions in any lead
+are unusual, warranting further investigations for underlying cardiomyopathy.
+
+Marked (i.e. ≥ 2 mm or 0.2 mV) deep symmetrical T wave inversion in the
+precordial leads (V1 to V4) strongly suggests severe acute ischemia and
+a critical lesion in the proximal left anterior descending artery requiring
+emergency reperfusion therapy. These abnormalities may appear some
+time after an episode of chest pain.
+
+OTHER FEATURES OF MYOCARDIAL INFARCTION
+Poor R wave Progression
+Poor R wave progression is a vague term used to describe the transition in voltage in the precordial
+leads of an ECG. It is not a diagnosis but simply describes a pattern frequently noted.This finding is
+often inconclusively interpreted as suggestive, but not diagnostic, of anterior MI. The ECG report
+often states that “cannot rule out anterior myocardial infarction”. Normal R wave progression in the
+precordial leads shows an rS-type complex in lead V1 with a steady increase in the relative size of
+the R wave toward the left chest and a decrease in the S wave amplitude (Fig.16A). If the height of
+the r wave in leads V1 to V4 remains extremely small, we say there is “poor R wave progression”
+(Fig. 16B). In the literature, definitions of poor R wave progression have been variable.
+
+V1
+
+V2
+
+V3
+
+V4
+
+V5
+
+V6
+
+V4
+
+V5
+
+V6
+
+A
+Normal R wave progression
+V1
+
+V2
+
+V3
+
+B
+Poor R wave progression
+
+Fig. 16 Normal versus poor R wave progression
+
+147
+
+148
+
+CORONARY ARTERY DISEASE AND
+ACUTE CORONARY SYNDROMES 9
+
+Poor R wave progression in the precordial leads
+The differential diagnosis of these QRS abnormalities depends on other ECG findings as well as
+clinical evaluation. Note that the list resembles that of conditions that interfere with the diagnosis of
+STEMI.
+* Normal variant (if the rest of the ECG is normal).
+* Misplaced ECG leads.
+* Dextrocardia.
+* Left ventricular hypertrophy (look for voltage criteria and ST-T changes of LV “strain”).
+* Complete or incomplete left bundle branch block (increased QRS duration).
+* Left anterior fascicular block (should see left axis deviation in frontal plane).
+* Anterior or anteroseptal MI.
+* Emphysema and COPD (look for R/S ratio in V5 and V6 < 1)
+* Diffuse infiltrative or dilated cardiomyopathy.
+* WPW preexcitation (look for delta waves, short PR).
+* Right ventricular hypertrophy (should see RAD in frontal plane and or P pulmonale).
+COPD = chronic obstructive pulmonary disease ; WPW = Wolff-Parkinson-White ;
+MI = myocardial infarction ; RAD = right axis deviation ; LV = left ventricle
+
+Persistent ST elevation
+Persistent ST elevation (convex or concave upwards) after an MI suggests the presence of a LV
+aneurysm manifested by a thinned dyskinetic LV wall with a broad neck and bulging during systole
+and diastole. About 3-15% of STEMI develop a left ventricular aneurysm after several weeks. Most
+LV aneurysms occur after a large anterior or apical MI and ECG changes occur in V1 to V6, I and
+aVL. Q waves occur in the leads showing ST elevation. The T wave is usually inverted. The ST
+elevation may be convex upwards or concave. Persistence of ST segment elevation for at least 2
+weeks is suggestive of a left ventricular aneurysm. The mechanism of the ST elevation is not well
+known. Sometimes the ECG is indistinguishable from that of an acute MI in patients with an old MI.
+This may lead to errors in therapy. Comparison of the ECGs with old tracings is crucial.
+
+150
+
+CORONARY ARTERY DISEASE AND
+ACUTE CORONARY SYNDROMES 10
+
+LOCALIZATION OF STEMI
+Determination of regions of infarction may be done by analysis of the ECG. Therefore, it should
+be kept in mind that different leads are looking at different parts of the heart (Fig. 18 – and also
+chapter 2). To be certain that changes of ST segments or T waves are truly due to ischemia or MI,
+changes have to be seen in a regional distribution of leads.
+
+I
+High Lateral
+
+II
+Inferior
+
+III
+Inferior
+
+aVR
+aVL
+High Lateral
+
+V1
+
+V4
+
+Anteroseptal
+
+Anterior
+
+V2
+
+V5
+Low Lateral
+
+Anteroseptal
+
+aVF
+
+V3
+
+Inferior
+
+Anterior
+
+V6
+Low Lateral
+
+Fig. 18 Regions of the heart seen by the leads in the frontal and the precordial plane
+
+Anterior STEMI
+Anterior wall ischemia/infarction is invariably due to occlusion of the left anterior descending artery
+(LAD) expressed as ST elevation in some or all of leads V1 to V6 and changes in the high
+lateral leads I and aVL. The location of the occlusion within the LAD whether proximal or distal, is
+suggested by the precordial leads in which the ST segment elevation occurs and the presence of
+ST elevation or depression in other leads (extremity and lateral leads) (Fig., p.128). Reciprocal
+ST depression occurs in the inferior leads (mainly III and aVF) and is determined by the magnitude
+of the ST elevation in I and aVL (as these high lateral leads are electrically opposite to III and aVF.
+Reciprocal changes may be minimal or absent in anterior STEMIs that do not involve the high
+lateral leads.
+
+151
+
+The early diagnosis of STEMI depends on deviation of the ST segment rather
+than the development of Q waves. The leads with ST segment deviation
+reflect the site and the size of the ischemic process. Analysis of the ST
+segment permits identification of the culprit artery.
+
+Occlusion of the proximal LAD above the first septal and first diagonal branches
+LAD
+
+OCCLUSION
+
+ISCHEMIA
+VECTOR
+
+First diagonal
+branch D1
+
+aVL
+
+aVR
+
+I
+First septal
+branch S1
+
+ISCHEMIA
+VECTOR
+
+III
+
+aVF
+
+II
+
+Fig. 19 LAD occlusion proximal to both S1 and D1 and resulting ischemia vector
+This results in involvement of the basal portion of of the left ventricle, as well as the anterior and
+lateral walls and the interventricular septum (Fig. 19). This will result in ST segment elevation in
+leads V1 to V4 (lead V1 ST elevation > 2 mm) and also in lead I /aVL and often in aVR. It will
+also be associated with reciprocal ST segment depression in the inferior leads II, III, aVF, and often
+V5.Typically, ST elevation in aVL > aVR and more ST segment depression in lead III than in lead II.
+Acquired right bundle branch block may occur.
+
+154
+
+CORONARY ARTERY DISEASE AND
+ACUTE CORONARY SYNDROMES 12
+Inferior STEMI
+The vast majority (80–90%) of inferior STEMIs (ST elevation in leads II, III and aVF) are due
+to occlusion of the dominant right coronary artery (RCA).
+
+The RCA territory covers the medial part of the inferior wall,
+including the inferior septum.
+
+Occlusion of the right coronary artery
+
+aVR
+
+aVL
+I
+
+Ischemia
+vector
+
+III
+
+aVF
+
+II
+
+Fig. 23 Inferior wall STEMI due to occlusion of the RCA
+The rightward and inferiorly directed ischemia vector results in ST segment elevation in lead III
+> lead II
+
+166
+
+Cardiac ischemia : ECG example 4
+
+EB416
+
+Post-exercise test showing ischemia. Sinus tachycardia at 125 bpm and marked ST and T wave
+depression in V2 to V6, I and aVL as well as ST elevation in aVR all consistent with ischemia.
+
+Cardiac ischemia : ECG example 5
+
+EB901
+
+Cardiac ischemia at rest. Sinus rate 70 bpm, ST elevation in V1 and V2, and marked T wave inversion in V2 to V6, I and aVL. The ECG is consistent with ischemia or an early anterior MI. Serial
+ECGs and biomarkers will make the diagnosis. In the presence of negative biomarker elevation, this
+pattern is consistent with severe ischemia involving the proximal left anterior descending artery.
+
+169
+
+Inferior myocardial infarction : ECG example 10
+
+EB 377
+Sinus rhythm at 48 bpm, acute inferior MI with ST elevation in II, III, and aVF, (III > II), marked ST
+depression in I and aVL.The pattern suggests occlusion of the proximal right coronary artery. Note the
+slight ST elevation in V1 which may be due to a right ventricular infarct.
+
+Inferior myocardial infarction : ECG example 11
+
+EB 378
+
+Normal sinus rhythm at 68 bpm. Acute inferolateral MI, ST elevation in II, III, aVF, V5 and V6 as well
+as ST depression in V1 to V3. ST elevation III > II is consistent with occlusion of the right coronary
+artery. The ST depression in the precordial leads V1 to V3 indicates a large MI with possible
+involvement of the posterior wall of the left ventricle.With an inferior MI ST-T wave changes in V1 to V3
+indicate a large inferior MI but one cannot postulate the presence of a posterior MI or ischemia though
+both are likely. Lateral involvement is shown in the ST elevation in V5 and V6. Q waves eventually
+appeared in all inferior leads.
+
+170
+
+Inferior myocardial infarction : ECG example 12
+
+EB 379
+Normal sinus rhythm at 60 bpm, complete right bundle branch block, Q waves in II, III, aVF and V4
+to V6 consistent with an old inferolateral MI. There is also a low amplitude r wave in V3 which may
+represent an additional anterior MI. Complete right bundle branch block does not affect the initial
+forces and therefore does not conceal Q waves of MI.
+
+Inferior myocardial infarction : ECG example 13
+
+EB 382
+Sinus tachycardia at 100 bpm, acute inferior MI with ST elevation in II, III, and aVF and ST III > II
+consistent with occlusion of the right coronary artery. The marked ST depression in V1 to V3
+suggests that the MI is large.
+
+177
+
+Anterior myocardial infarction : ECG example 25
+
+EB385
+
+Old MI with QS waves in leads V1 to V4 and persistent ST elevation consistent with
+a left ventricular aneurysm.
+
+Anterior myocardial infarction : ECG example 26
+
+EB393
+
+Extensive anterior myocardial infarction due to a proximal occlusion of the left anterior
+descending artery; consistent with occlusion of the left anterior descending artery proximal
+to the first septal and first diagonal branches.
+
+CHAPTER 5
+
+P WAVES AND
+ATRIAL
+ABNORMALITIES
+* Topographical anatomy of the heart
+* The normal P wave in the frontal plane
+* The normal P wave in the horizontal plane
+* Left atrial abnormality
+* Right atrial abnormalitiy
+* Biatrial abnormality
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+85
+
+93
+
+LEFT ATRIAL ABNORMALITY
+“Atrial abnormality” (or delay of left atrial activation) is a term being used increasingly in
+place of “atrial enlargement”, “atrial dilatation”, “atrial distention”, “atrial hypertrophy”,
+“atrial overload”, and “P mitrale” or even in the presence of atrial conduction delay.
+
+Schematic
+representation
+of the atria
+
+SINUS
+NODE
+(SA)
+
+P2
+
+P1
+
+RIGHT
+atrium
+(RA)
+
+FRONTAL PLANE
+
+AV NODE
+
+aVL
+
+aVR
+P2
+
+LEFT
+atrium
+(LA)
+
+I
+
+P1
+
+Wide and notched
+P wave
+lead II
+
+time
+
+III
+
+> 110ms
+
+II
+
+aVF
+
+HORIZONTAL PLANE
+
+P2
+
+lead V1
+
+> 1 mm
+
+V6
+P1
+
+> 1 mm
+V5
+
+V1
+
+time
+
+V2
+
+V4
+
+95
+RIGHT ATRIAL ABNORMALITY
+LEFT
+atrium
+(LA)
+
+SINUS
+NODE
+(SA)
+
+Schematic
+representation
+of the atria
+
+P2
+P1
+
+RIGHT
+atrium
+(RA)
+AV NODE
+
+FRONTAL PLANE
+aVL
+
+aVR
+
+I
+
+Tall and symmetrically
+peaked P wave
+lead III
+P
+
+1
+
+sum
+> 0,25mV
+
+Mean
+P wave
+vector
+
+III
+
+P2
+
+II
+
+aVF
+
+time
+
+< 110ms
+
+HORIZONTAL PLANE
+
+P2
+V6
+
+> 0,15mV
+
+P1
+V5
+V1
+
+lead V1
+
+V2
+
+V4
+
+time
+
+CHAPTER 6
+
+CHAMBER
+ENLARGEMENT
+AND HYPERTROPHY
+* Left ventricular hypertrophy
+* Right ventricular hypertrophy
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+99
+
+100
+
+LEFT VENTRICULAR HYPERTROPHY
+LEFT VENTRICULAR
+HYPERTROPHY
+DUE TO SYSTOLIC OVERLOAD
+
+The left ventricular wall is much
+thicker than normal
+
+SOME CRITERIA TO DIAGNOSE LEFT VENTRICULAR HYPERTROPHY
+
+In the horizontal plane
+
+V5 or V6
+
+V1 or V2
+
+(Sokolow index)
+S + R 35 mm
+
+R
+
+S
+
+In the frontal plane
+(for a horizontal heart axis)
+
+Lead aVL
+
+R
+
+11 mm
+
+In the frontal plane (if left axis deviation)
+Lead aVL
+
+Lead III
+
+R
+
+In the frontal plane
+
+13 mm
+
+AND
+
+S
+
+(R in I) + (S in III) > 25 mm
+Lead III
+
+Lead I
+
+R
+
+Lead V6
+
+S
+R
+
+Delayed intrinsicoid deflection
+(Time from QRS onset to peak R is > 50 ms)
+
+> 50 ms
+
+15 mm
+
+101
+Left ventricular hypertrophy (LVH) refers to an increase in the size
+of myocardial fibers. Such hypertrophy is usually the response to
+a chronic volume or pressure overload.
+* The two most important pressure overload states are systemic
+hypertension and aortic stenosis.
+* The major conditions associated with LV volume overload are
+aortic or mitral valve regurgitation and dilated cardiomyopathy.
+
+A physiologic type of hypertrophy with increase in wall thickness and diastolic
+vol-ume overload may occur in trained athletes. The “athletic heart” is often
+associated with ECG voltage criteria for LVH.
+
+The electrocardiogram is a useful but imperfect tool for detecting LVH. The utility of
+the ECG relates to its being relatively inexpensive and widely available. The limitations of the ECG relate to its poor sensitivity depending upon which of the many
+proposed sets of criteria are applied. The ECG is often used as a screening test to
+determine who should undergo further testing with an echocardiogram.
+
+Commonly used ECG criteria for diagnosis of LVH :
+* S in V1 + R in V5 or V6 (whichever is larger) ≥ 35 mm (or 3.5 mV)
+* R in aVL ≥ 11 mm
+or if left axis deviation R in aVL ≥ 13 mm plus S in III ≥ 15 mm
+* R in I + S in III > 25 mm
+
+The ECG criteria for diagnosing LVH are very insensitive (about 20–50%) meaning that
+many patients with LVH cannot be recognized by ECG (false negatives!). However,
+the criteria are very specific (about 90%) which means it is very likely thatLVH is
+present if the criteria are met.
+
+The power of some of the more commonly used ECG criteria to
+rule out the diagnosis of LVH in patients with hypertension is poor.
+
+CHAPTER 9
+
+ACUTE
+PERICARDITIS
+* Clinical stages
+* Other conditions with similar features
+* Differential diagnosis
+* Early repolarization
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+187
+
+188
+
+ACUTE PERICARDITIS 1
+ECG changes in acute pericarditis mainly indicate inflammation of the epicardium (the layer directly
+surrounding the heart). The ECG is useful in the diagnosis of acute pericarditis, with
+abnormalities found in approximately 90% of cases. .
+
+The most sensitive ECG change characteristic of acute pericarditis is ST segment elevation, which
+reflects the abnormal repolarization that develops secondary to pericardial inflammation. The ST
+elevation occurs during the first few days of pericardial inflammation and is mainly characterized by
+diffuse upward concavity (saddle-shaped). ST segment elevation is usually less than 5 mm with
+concordance of the T wave. ST elevation involves the limb leads and precordial leads with reciprocal
+ST segment depression only in aVR and V1. This limited change in aVR and V1 represents a lack of
+substantial reciprocal changes corresponding to the extensive ST elevation. PR segment
+depression that may be subtle (1 mm or so) may occur in all the leads except aVR and V1 where the
+PR segment may be elevated. The PR changes are thought to be due to atrial wall injury.
+
+PR
+1. The ST segment elevation in
+acute pericarditis is usually
+“concave”, compared with the
+“convex” appearance of the ST
+segment in the acute injury stage
+of a myocardial infarction (MI).
+2. The widespread ST segment
+elevation does not correspond
+with any specific arterial territory, which usually occurs with
+acute MI.
+3. Reciprocal changes are absent
+in acute pericarditis, but frequent
+with acute MI.
+
+ST
+
+aVR
+V5
+ST
+
+PR
+
+CHAPTER 10
+
+THE ECG IN
+EXTRACARDIAC DISEASE
+* Pulmonary diseases and cor pulmonale
+° Right atrial enlargement
+° Chronic obstructive pulmonary disease
+° Pulmonary embolism
+* Hypothermia
+* Diseases of the central nervous system
+* Acute pancreatitis
+* Hypothyroidism and hyperthyroidism
+* Electrocardiography in athletes
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: [insert url, once provided]
+
+193
+
+Pulmonary embolism
+Pulmonary embolism (PE) is one of the most commonly missed diagnoses leading to mortality in
+hospitalized patients. This is often due to the nonspecific signs and symptoms of pulmonary embolism. There are no pathognomonic ECG changes for the diagnosis or its exclusion. No isolated
+ECG abnormality is definitely associated with PE and the ECG can occasionally be normal. ECG
+changes are all fairly insensitive for the diagnosis of PE. ECG changes appear when pulmonary
+embolism is sufficiently large to cause right ventricular dilatation. A large embolus or multiple
+smaller emboli will cause acute pulmonary hypertension. Rather it is the constellation of ECG abnormalities that helps one to suspect the diagnosis of PE. The commonest ECG abnormality is
+sinus tachycardia. ECG abnormalities are often transient and sequential ECGs should be recorded.
+The ECG abnormalities resolve with appropriate therapy. ECG findings noted during the acute
+phase of pulmonary embolism can include any number of the following:
+* Right shift of QRS axis
+* Right axis deviation
+* “S1Q3T3” - prominent S in lead I, Q and inverted T in lead III
+* Right bundle branch block, complete or incomplete, often resolving after the acute phase
+* Clockwise rotation: shift of the R/S transition point toward V6, persistent S wave in V6
+* ST elevation in V1 and aVR
+* Tall R wave in V1
+* Generalized low-amplitude QRS (less than 5 mm in the inferior leads)
+* Arrhythmias: sinus tachycardia, atrial fibrillation/flutter. New onset of atrial fibrillation is important.
+* Right ventricular strain pattern: T wave inversions in V1 to V3, sometimes extending to V4.
+Simultaneous T wave inversions in the inferior (II, III, aVF) and right precordial (V1 to V3) leads.
+* Right atrial enlargement (P pulmonale): peaked P waves in lead II (> 2 mm in height) in the
+absence of ECG evidence of right ventricular hypertrophy.
+
+I
+
+V1
+
+II
+
+V2
+
+III
+
+V3
+
+aVR
+
+V4
+
+aVL
+
+V5
+
+aVF
+
+V6
+
+EB330
+
+Acute Pulmonary Embolism. Sinus rhythm - RR = about 880 ms; HR = about 69 bpm;
+P pulmonale P wave > 2.5 mV; right axis deviation: QRS axis at +125°; deep S wave in I & aVL;
+qR in III & aVF; S1Q3T3 syndrome; incomplete RBBB; negative T wave in V1 & V2.
+
+195
+
+CHAPTER 18
+
+ELECTROLYTE
+ABNORMALITIES
+* Hyperkalemia
+* Hypokalemia
+* Hypomagnesemia
+* Hypermagnesemia
+* Hypocalcemia
+* Hypercalcemia
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+327
+
+328
+
+ELECTROLYTE ABNORMALITIES 1
+HYPERKALEMIA
+
+3,5 - 5,0 mEq/L
+
+ca. 7 mEq/L
+
+8,0 - 9,0 mEq/L
+
+> 10,0 mEq/L
+
+A very broad QRS > 0.20 s in
+an idioventricular rhythm and
+no visible P waves should be
+considered due to hyperkalemia until proven otherwise.
+
+Hyperkalemia is defined as a potassium level greater
+than 5.5 mEq/L. Ranges are as follows :
+* Mild : 5.5–6 mEq/L
+* Moderate : 6.1–7.0 mEq/L
+* Severe : 7. 0 mEq/L and greater
+Hyperkalemia causes depression of conduction with
+widening of the P wave and QRS complex, while the
+function of the sinoatrial (SA) node and the AV node are
+suppressed. Early changes of hyperkalemia include
+tall tented or peaked T waves with narrow base seen
+best in the precordial leads (the Eiffel tower effect). The
+T wave shows a steep ascent and descent in the
+precordial leads. There is a shortened QT interval, and
+ST segment depression. The T wave changes occur
+before changes in the QRS. These changes are
+followed by a widening of the QRS complex, increases
+in the PR interval, and decreased amplitude and
+widening of the P wave. This produces the appearance
+of a bizarre idioventricular rhythm with very wide QRS
+complexes (nonspecific intraventricular conduction
+disorder with a QRS that may be > 180 ms) without P
+waves. Without treatment, the P wave eventually
+disappears and the QRS morphology widens to
+resemble a sine wave.
+
+Hyperkalemia may cause complete AV block, hemiblock, bundle branch block and an axis
+shift because of an intraventricular conduction delay. These abnormalities are reversible.
+Occasionally the ECG in severe hyperkalemia shows ST elevation in V1 and V2
+resembling cardiac ischemia and infarction but these changes disappear after dialysis in
+patients with chronic renal failure.
+I
+
+aVR
+
+V1
+
+II
+
+aVL
+
+V2
+
+III
+
+aVF
+
+V3
+
+V4
+
+V5
+
+V6
+
+Suspect hyperkalemia when the amplitude of the T wave > R wave in
+more than one lead.
+
+330
+
+ELECTROLYTE ABNORMALITIES 2
+HYPOKALEMIA
+Normal
+3.5–5.0 mEq/L
+
+Hypokalemia may been defined as a potassium level
+lower than 3.5 mEq/L. Moderate hypokalemia is a
+serum level of < 3.0 mEq/L. Severe hypokalemia is
+defined as a level < 2.5 mEq/L. ECG changes appear
+when K+ falls below about 2.7 mEq/L; these changes
+are mainly due to a delayed ventricular repolarization.
+The changes normally do not correlate well with the
+plasma concentration and the ECG is unreliable in the
+diagnosis of hypokalemia. The ECG changes are not
+very dramatic and are rare in mild hypokalemia. The
+hearts of patients with hypomagnesemia or digoxin
+therapy are more sensitive to hypokalemia. Changes
+that may be noted are: prominent U wave; increased
+amplitude and width of the P wave; slight prolongation
+of the PR interval and minimal QRS prolongation; T
+wave flattening and inversion; mild ST depression.
+
+TU
+
+ca. 3.0 mEq/L
+TU
+
+ca. 2.0 mEq/L
+TU
+
+ca. 1.0 mEq/L
+T
+
+U
+
+The U wave is a small wave that occurs after the T wave and is usually 1/10 th the height of the T wave
+in the normal situation. The origin of the U wave is uncertain and is believed that it may arise from
+repolarization of the Purkinje fibers. U waves are not specific for hypokalemia. They also occur in
+bradycardia and left ventricular hypertrophy. Prominent U waves (best seen in the precordial leads as
+a bump) are the most common ECG abnormality of hypokalemia. The apparent prolongation of the
+QT interval is caused by fusion of the T and U waves as the T wave becomes smaller and the U wave
+larger and the U wave becomes higher than the T wave. These 2 waves may no longer be
+distinguished (long QU interval), while the true QT interval remains normal. With worsening
+hypokalemia, a potential to develop life-threatening ventricular arrhythmias exists (VT, VF, torsades
+de pointes). In patients on digoxin, hypokalemia may precipitate the arrhythmias of digitalis toxicity.
+
+I
+
+II
+
+III
+
+aVR
+
+aVL
+
+aVF
+
+V1
+
+V4
+
+V2
+
+V5
+
+V3
+
+V6
+
+* A prominent U wave with a small T wave
+should raise suspicion of hypokalemia.
+* The end of the T wave may not be identifiable.
+
+Hypokalemia. Note
+the ST depression
+and the prominent U
+wave. In V5 the amplitude of the T wave
+and the U wave are
+similar.There is prolongation of the
+QU interval.
+
+CHAPTER 23
+
+HOW TO READ
+AN ECG
+
+ECG from Basics to Essentials: Step by Step. First Edition. Roland X. Stroobandt, S. Serge Barold and Alfons F. Sinnaeve.
+Published 2016 © 2016 by John Wiley & Sons, Ltd. Companion Website: www.wiley.com/go/stroobandt/ecg
+
+407
+
+408
+
+HOW TO READ AN ECG 1
+STEP 1: Clinical history
+
+* Verify brief history
+* Compare tracing with old records (if available)
+* First look: “lay of the land”
+
+STEP 2: Technical quality and calibration
+
+10 mm
+= 1 mV
+
+* Check technical quality
+* Check paper speed (25 mm/s ?)
+* Check calibration (10 mm/mV ?)
+
+25 mm = 1 s
+
+STEP 3: Rate
+Rate
+Slow
+< 60 bpm
+Bradycardia
+
+Normal
+60–100 bpm
+
+Fast
+> 100 bpm
+Tachycardia
+
+Sinus Rhythm
+* mostly regular
+* sinus arrhythmia
+* P wave
+- neg. in aVR
+- pos. in II, III, aVF
+if P wave is not upright in lead II consider
+* arm lead reversal (P, QRS & T wave neg. in lead I)
+* dextrocardia
+
+409
+
+STEP 4: Rhythm diagnosis
+* Rhythm regular or irregular? AFib (irregular), AFl (occasionally
+irregular), AV block (irregular with partial AV block)
+* P waves present or absent?
+* QRS narrow or wide?
+* rate P: rate QRS relation? (rate P = rate QRS, rate P > rate QRS,
+rate QRS > rate P)
+Rhythm regular / irregular
+Slow
+< 60 bpm
+Bradycardia
+
+* Sinus bradycardia
+* Escape rhythm
+* AV Block
+
+P waves
+present
+
+P waves
+absent
+
+Normal
+sinus
+rhythm
+
+* Aflutter
+* AFib
+
+Fast
+> 100 bpm
+Tachycardia
+* Sinus tachycardia
+* Supraventric.
+tachycardia
+* Ventricular
+tachycardia
+
+STEP 5: Determine QRS axis in frontal plane
+Lead
+Lead
+III
+I
+(or aVF)
+
+Quick and easy way
+
+pos.
+
+normal axis (–30° to +90°)
+
+pos.
+
+(- 90°)
+
+Look at lead II
+
+pos.
+
+neg.
+neg.
+
+neg.
+
+pos.
+neg.
+
+(- 120°)
+
+(- 60°)
+(- 30°)
+
+(- 150°)
+
+lead II neg.
+
+left axis
+deviation
+
+lead II equiphasic
+(R = S)
+
+axis –30°
+
+lead II pos.
+
+normal
+axis
+
+right axis deviation
+(+90° to +180°)
+right superior “no mans land”
+(–90° to –180°)
+
+aVL
+
+aVR
+
+I (0°)
+
+(180°)
+
+(30°)
+
+(150°)
+
+III
+(120°)
+
+aVF
+
+II
+
+(60°)
+
+(90°)
+
+LAH : rS in Lead II and aVF and Lead III
+LPH : rS in Lead I and aVL
+Abbreviations: AFib: atrial fibrillation; AFl: atrial flutter; pos: positive; neg: negative; LAH: left
+anterior hemiblock; LPH: left posterior hemiblock
+
+410
+
+HOW TO READ AN ECG 2
+PR
+interval
+
+STEP 6A: Measurement of PR interval
+PR interval
+Short PR
+< 0.12 s
+
+Normal
+0.12–0.20 s
+
+* WPW
+* Low atrial rhythm
+* Upper AV
+junctional rhythm
+* Normal variant
+
+Prolonged PR
+with preserved
+AV conduction
+> 0.20 s
+* No dropped beats:
+AVB I
+* Dropped beats
+* No AV conduction
+
+A very long PR may push the P wave into the T wave where it
+may not be identified
+
+STEP 6B: Measurement of QRS complex: duration
+QRS duration (QRSd)
+
+QRSd Normal
+< 0.10 s
+
+QRSd
+> 0.10 s and
+< 0.12 s
+
+QRSd wide
+> 0.12 s
+
+* Consider incomplete BBB
+* Intraventricular
+conduction disorder
+
+* Sinus rhythm:
+RBBB or LBBB
+* No sinus rhythm:
+ventricular
+rhythm or VT
+
+QRS
+duration
+
+If sinus rhythm and wide QRS, look at three leads
+V1, V6 and I
+
+STEP 6C: Measurement of QRS complex: voltage
+QRS voltage
+Low QRS voltage
+Amplitude of all QRS complexes in limb leads < 5 mm
+or < 10 mm in the precordial leads
+
+High QRS voltage
+SV1 + RV6 > 35 mm
+R in I > 15 mm
+R > aVL > 11 mm
+LVH
+
+* Pericardial effusion (triad
+of low voltage, tachycardia,
+electrical alternans)
+* Pleural effusion
+* Emphysema (COPD)
+* Pneumothorax
+* Marked obesity
+* Previous massive MI
+* End-stage dilated cardiomyopathy
+* Hypothyroidism
+* Infiltrative myocardial disease
+
+Exclude:
+* Ventricular pacing (look for
+pacemaker stimuli)
+* Hyperkalemia (if prolonged
+QRS)
+* Look for delta wave (WPW)
+The absence of LVH on ECG
+means nothing, if present
+LVH is likely.
+
+COPD: chronic obstructive pulmonary disease;
+MI: myocardial infarction; LVH: left ventricular
+hypertrophy
+
+Thin people, athletes, and young adults frequently show tall
+QRS voltage without LVH
+
+STEP 7A: Look at R wave progression in precordial leads
+Normal R wave
+progression
+V1
+
+V2
+
+V3
+
+V4
+
+V5
+
+V6
+
+V5
+
+V6
+
+Slow R wave progression
+V1
+
+V2
+
+V3
+
+V4
+
+Causes of slow R
+wave progression:
+* Anterior myocardial
+infarction
+* Incorrect lead placement
+(in obese women)
+* LVH, * LBBB, * WPW
+* Dextrocardia
+* Tension pneumothorax
+with mediastinal shift
+* Congenital heart disease
+
+.................................................
+LVH: left ventricular hypertrophy; LBBB:
+left bundle branch block; WPW: WolffParkinson-White
+
+411
+
+412
+
+HOW TO READ AN ECG 3
+STEP 7B: Look at R wave progression in precordial leads
+Reversed R wave progression
+V1
+
+This describes abnormal R waves in lead V1 that progressively decrease in amplitude if the QRS is narrow.
+This pattern may occur with a number of conditions,
+including RVH, posterior (or posterolateral) MI, dextrocardia (in concert with a limb lead reversal pattern), misplaced leads and rarely as a normal variant. If the QRS
+is wide, a dominant R wave in V1 may be caused by
+RBBB or WPW.
+
+V2
+
+MI: myocardial infarction; RBBB: right bundle branch block; WPW:
+Wolff-Parkinson-White syndrome; RVH: right ventricular hypertrophy;
+
+STEP 8: QT Interval
+QTc = corrected QT interval
+QT interval (s)
+QTc (s) =
+RR interval (s)
+Normal QTc ≤ 440 ms
+slightly larger values are acceptable
+in women
+
+R
+
+Short QTc ≤ 330 ms
+Increased risk of
+AF & VF
+
+T
+P
+
+R
+
+T
+P
+
+Long QTc ≥ 460 ms
+If QTc ≥ 500 ms :
+high risk for EAD &
+TdP (after short-longshort sequence)
+
+RR interval
+R
+
+RR
+2
+
+P
+
+T
+
+QT
+interval
+
+Causes
+* Congenital (requires family
+history)
+* Acquired
+- drug toxicity
+- electrolyte imbalance
+Abbreviations
+EAD = early afterdepolarization
+TdP = torsades de pointes
+AF = atrial fibrillation
+VF = ventricular fibrillation
+
+The QT interval is a measure of ventricular action potential duration.
+It decreases when the heart rate increases.
+
+413
+
+STEP 9: U wave
+* small deflection (0.5 mm), immediately following the T wave
+* usually same polarity as T wave
+* possibly originating from Purkinje network
+* best seen in lead V2 and V3 and during slow rate
+Normal
+TU
+
+Prominent U wave
+
+Hypokalemia
+
+TU
+
+Lead II
+
+Inverted U wave
+
+STEP 10: P wave
+
+* Myocardial ischemia
+* LV volume overload
+
+P waves are best seen in lead II and V1
+
+P wave
+
+Normal P wave * lead II ≤ 0.12 s and < 2.5 mm
+* lead V1 biphasic
+P wave too wide
+Lead II ≥ 0.12 s & notched
+Prominent negative terminal forces in lead V1
+P wave too tall
+P peaked in lead II
+P > 2.5 mm in inferior leads
+P > 1.5 mm in lead V1
+
+P wave negative
+in inferior leads
+(II, III, aVF)
+
+II
+LA abnormality
+V1
+
+V1
+
+RA abnormality
+
+II
+
+II
+
+P wave funny
+
+II
+
+Retrograde P wave ?
+Ectopic beat ?
+
+Ectopic beat ?
+II
+
+414
+
+HOW TO READ AN ECG 4
+STEP 11: T wave
+
+R
+
+Normal T wave
+* T wave same polarity as main QRS deflection
+* T wave is upright in I, II, V3 to V6
+P
+* T wave always inverted in aVR
+T wave inversion in V1 to V3
+* Common finding in children and adolescents
+* Infrequently found in healthy adults
+Is not associated with adverse outcome if T waves
+are normal in other leads
+High amplitude
+T waves
+
+T
+
+* Hyperacute T wave
+
+V3
+
+- may be seen 5–30 min after
+onset of MI
+- broad-based T wave
+- round summit
+
+V3
+
+* Hyperkalemia (best seen in
+precordial leads)
+- narrow-based T wave
+- tenting of T wave
+
+Abnormal T waves
+Inverted
+T waves
+
+V3
+
+Biphasic
+T waves
+
+Flattened
+T waves
+
+V3
+
+Camel hump T waves
+Severe
+hypokalemia
+prominent U wave
+fused to end of the
+T wave
+
+V3
+
+V3
+
+Hidden P waves
+embedded in T wave
+- sinus tachycardia
+- various types of
+heart block
+
+* The typical ST segment duration
+is usually around 0.08 s (80 ms).
+* Usually flat and isoelectric and
+should essentially level with PR
+and TP segments.
+* The ventricles remain depolarized during the ST segment.
+* It is usually difficult to determine
+exactly where the ST segment
+ends and the T wave begins.
+Therefore the relationship between
+ST segment and T wave should be
+evaluated together.
+
+415
+
+QRS complex
+
+STEP 12: ST segment
+
+ST
+segment
+
+T wave
+
+Junction
+or “J” point
+0 mV
+
+Action
+potential
+- 90 mV
+
+depolarization
+
+repolarization
+
+The most important cause of ST segment
+abnormality (elevation or depression) is
+myocardial ischemia or infarction.
+The diagnosis of AMI and severe ischemia depend on the
+careful assessment of the ST segment.
+AMI: acute myocardial infarction
+
+ST segment depression
+* Ischemia (most common)
+* Subendocardial infarction
+* Reciprocal changes associated with AMI
+* Drug effects
+ischemia
+or early MI
+
+digitalis
+effects
+
+Scooping of the
+ST segment
+
+ST segment elevation
+* AMI (convex ST segment
+elevation)
+* Transmural ischemia
+* Ventricular aneurysm (ST elevation does not subside after
+AMI)
+* Pericarditis
+AMI
+
+pericarditis
+
+Abbreviations
+MI : myocardial infarction
+AMI: acute myocardial infarction
+
+416
+
+HOW TO READ AN ECG 5
+STEP 13: ST elevation MI (STEMI)
+ECG diagnosis of STEMI
+* Limb leads: ST segment elevation ≥ 1 mm (0.1 mV)
+* Precordial leads: ST segment elevation ≥ 2 mm (0.2 mV)
+* Elevations must be present in anatomically contiguous leads
+
+Inferior
+
+Lateral
+
+Septal
+
+Anterior
+
+II, III, aVF
+
+I, aVL, V5, V6
+
+V1, V2
+
+V3, V4
+
+* An approximation of the infarction size can be assessed from
+the extent of ST elevation.
+* Of note: Over 90% of healthy men have at least 1 mm (0.1 mV)
+of ST segment elevation in at least one precordial lead.
+Look for reciprocal changes of ST depression in leads
+opposite the area undergoing injury
+
+aVR
+
+aVL
+I
+
+Ischemia
+vector
+
+III
+
+aVF
+
+II
+
+For example in acute transmural
+inferior ischemia, the direction of
+the ST vector faces the injured area
+(resulting in a ST elevation in leads II,
+III, aVF) while the tail of the ST vector faces anatomically opposite sites
+where it causes ST segment depression (lead aVL and lead I).
+The significance of these reciprocal
+changes or mirror-images is unclear
+but they are useful diagnostically by
+providing confirmatory evidence for
+the diagnosis of STEMI.
+
+Mirror-image changes do not occur in pericarditis
+An acute STEMI can present with upwardly concave ST elevation, so
+the mere fact that ST elevation is upwardly concave does NOT mean
+that a condition other than ischemia is present.
+
+417
+
+ST elevation due to ischemia or infarction: Focus on
+contiguous leads and those showing reciprocal changes!
+One must be well versed in recognizing the so-called ECG mimics of
+acute myocardial infarction. The development of reciprocal changes
+during STEMI helps the differentiation from the listed conditions:
+ECG mimics of AMI: * Left ventricular hypertrophy (LVH)
+* Left bundle branch block (LBBB)
+* Paced rhythm
+* Early repolarization
+* Pericarditis
+* Hyperkalemia
+* Ventricular aneurysm
+LVH
+V1
+
+LVH
+
+Paced
+Rhythm
+
+LBBB
+
+Ventricular
+aneurysm
+
+V6
+R
+
+S
+
+(18mm)
+
+(19mm)
+
+V3
+
+V2
+
+long-term
+changes
+
+S + R > 35mm
+
+Evolution of STEMI
+V3
+
+1
+
+3
+
+Note :
+
+Sometimes the earliest
+presentation of AMI is
+the hyperacute T wave,
+which is treated the same
+as ST elevation. In practice this is rarely seen
+Pathologic Q waves
+may appear within hours
+or may take more than
+24 hr. The T wave will
+generally become inverted in the first 24 hr, as ST
+elevation begins to resolve
+
+In the first few hours the
+ST segments usually
+begin to rise
+
+2
+
+4
+
+Long-term changes of
+ECG include persistent
+Q waves (in 90% of
+cases) and persistent
+inverted T waves
+
+Persistent ST elevation is rare except
+in the presence of a ventricular aneurysm
+
+Abbreviation: AMI: acute myocardial infarction
+
+418
+
+HOW TO READ AN ECG 6
+STEP 14: Non-ST elevation MI (NSTEMI)
+* The ECG sign of non-STEMI is ST segment depression
+* ST segment depression seen in subendocardial ischemia or infarction
+can take on different patterns. The most typical is a horizontal or
+downsloping depression (A, B, C). Upsloping ST depression (D) is
+less specific.
+A
+
+B
+
+D
+
+C
+
+J
+
+E
+
+J
+
+* Upsloping depression of less than 1 mm at 80 ms beyond the J
+point (E) is simply J point depression and not ST segment depression.
+The label of nonspecific ST-T wave abnormalities is
+somewhat vague but it does not mean it’s not important.
+* Depression is reversible if ischemia is only transient but depression
+persists if ischemia is severe enough to produce infarction.
+* T wave inversion with or without ST segment depression is sometimes
+seen but not ST segment elevation or new Q waves.
+* The nonspecific ST-T wave changes should be evaluated with old
+ECGs because myocardial ischemia is not a static process.
+
+GUIDELINES
+ECG manifestations of acute myocardial ischemia (in absence
+of LVH and LBBB) according to ESC/ACC/AHA (2012 definitions)
+
+1. ST Elevation
+New ST elevation at the J point in 2 contiguous leads with the
+following cut-points:
+Age and gender specific !
+* > 0.1 mV in all leads except leads V2-V3 in men and women
+* in leads V2-V3: ≥ 0.2 mV in men ≥ 40 years and
+≥ 0.25 mV in men < 40 years
+* in leads V2-V3: ≥ 0.15 mV in women
+
+2. ST Depression and T wave changes
+* New horizontal or down-sloping ST segment depression
+≥ 0.05 mV in 2 contiguous leads
+* and/or T wave inversion ≥ 0.1 mV in 2 contiguous leads with
+prominent R wave or R/S ratio > 1
+
+

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS - Examen de l'Épaule</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .content-wrapper {
+            display: flex;
+            gap: 20px;
+            padding: 40px;
+        }
+        
+        .main-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        
+        .sidebar {
+            width: 350px;
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .sidebar h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .figure-container {
+            margin-bottom: 15px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .figure-container:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        
+        .figure-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .figure-caption {
+            padding: 8px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+            background: #f8f9fa;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        h4 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .pathology {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        
+        .figure-reference {
+            color: #667eea;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        
+        .figure-reference:hover {
+            color: #764ba2;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: pointer;
+        }
+        
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 90%;
+            max-height: 90%;
+        }
+        
+        .modal-content img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: #667eea;
+        }
+        
+        .cards-section {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 3px solid #667eea;
+        }
+        
+        .cards-section h2 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+        
+        .cards-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .card-image-container {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .card-image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .test-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .test-box h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        .anatomie-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .anatomie-box h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .anatomie-box ul {
+            margin-left: 20px;
+        }
+        
+        .key-points {
+            background: #fff5f5;
+            border-left: 4px solid #dc3545;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+        
+        .key-points h2 {
+            color: #dc3545;
+            border-bottom: 2px solid #dc3545;
+        }
+        
+        @media (max-width: 1200px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                max-height: 400px;
+                position: static;
+            }
+            
+            .main-content {
+                padding-right: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content-wrapper {
+                padding: 20px;
+            }
+            
+            .cards-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS</h1>
+            <p style="font-size: 1.2em; opacity: 0.9;">Examen de l'Épaule</p>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="main-content">
+                <h2>1. Inspection</h2>
+                
+                <h3>Observation initiale</h3>
+                <ul>
+                    <li>Capacité à se déshabiller</li>
+                    <li>Ballant des bras</li>
+                    <li>Position antalgique</li>
+                    <li>Poignée de main</li>
+                </ul>
+                
+                <h3>Analyse de l'allure de l'épaule</h3>
+                <p><strong>Asymétrie horizontale</strong> <span class="pathology">→ Paralysie trapèze, surcharge, scoliose</span></p>
+                
+                <p><strong>Asymétrie verticale</strong> <span class="pathology">→ Scapula alata, luxation acromio-claviculaire, fracture clavicule, scoliose</span></p>
+                
+                <p><strong>Épaule rouge, tuméfiée, chaude</strong> <span class="pathology">→ Arthrite septique, arthrite micro-cristalline, tendinite calcifiante, bursite sous-acromiale, tendinite coiffe</span></p>
+                
+                <p><strong>Masse biceps asymétrique (signe de Popeye)</strong> <span class="pathology">→ Tendinopathie biceps avec rupture complète</span></p>
+                
+                <p><strong>Voussure avec bras en abduction/rotation externe</strong> <span class="pathology">→ Luxation antérieure tête humérale</span></p>
+                
+                <p><strong>Dépression avec bras en adduction/rotation interne</strong> <span class="pathology">→ Luxation postérieure</span></p>
+                
+                <p><strong>Cicatrices cutanées</strong> <span class="pathology">→ Chirurgie (rupture coiffe, conflit sous-acromial, luxation)</span></p>
+                
+                <h2>2. Palpation</h2>
+                
+                <h3>Structures anatomiques <span class="figure-reference" onclick="scrollToFigure('fig5')">(FIG 5)</span></h3>
+                <p>Palpation systématique bilatérale :</p>
+                <ul>
+                    <li>Articulation sterno-claviculaire</li>
+                    <li>Clavicule</li>
+                    <li>Articulation acromio-claviculaire</li>
+                    <li>Acromion</li>
+                    <li>Processus coracoïde</li>
+<ul>
+                    <li>Scapula avec épine scapulaire</li>
+                    <li>Tête humérale</li>
+                    <li>Gouttière bicipitale</li>
+</ul>
+                
+</ul>
+                <h3>Pathologies associées</h3>
+                <p><strong>Douleur clavicule avec voussure</strong> <span class="pathology">→ Fracture clavicule</span></p>
+                
+                <p><strong>Voussure acromio-claviculaire réductible ("touche de piano")</strong> <span class="pathology">→ Lésion ligamentaire acromio-claviculaire</span></p>
+                
+                <p><strong>Voussure sterno-claviculaire</strong> <span class="pathology">→ Lésion ligamentaire avec possible luxation</span></p>
+                
+                <p><strong>Atrophie fosse sus/sous-épineuse</strong> <span class="pathology">→ Amyotrophie sus/sous-épineux</span></p>
+                
+                <p><strong>Douleur gouttière bicipitale</strong> <span class="pathology">→ Tendinopathie bicipitale</span></p>
+                
+                <p><strong>Masse asymétrique insertion distale tendon bicipital (signe de Popeye)</strong> <span class="pathology">→ Rupture tendon biceps</span></p>
+                
+                <h2>3. Mobilité et force</h2>
+                
+                <h3>Mobilité active et passive</h3>
+                
+                <h4>Abduction <span class="figure-reference" onclick="scrollToFigure('fig6')">(FIG 6)</span></h4>
+                <p><strong>Déficit</strong> <span class="pathology">→ Rupture sus-épineux, lésion nerf axillaire</span></p>
+                <p><strong>Douleur en cours de mouvement</strong> <span class="pathology">→ Conflit sous-acromial</span></p>
+                
+                <h4>Flexion <span class="figure-reference" onclick="scrollToFigure('fig8')">(FIG 8)</span></h4>
+                <p>Test : lever les bras par devant (plan sagittal)</p>
+                
+                <h4>Extension <span class="figure-reference" onclick="scrollToFigure('fig9')">(FIG 9)</span></h4>
+                <p>Test : lever les bras par derrière</p>
+                
+                <h4>Rotation interne-externe <span class="figure-reference" onclick="scrollToFigure('fig7')">(FIG 7)</span></h4>
+                <p><strong>Déficit rotation interne</strong> <span class="pathology">→ Atteinte rotateurs internes</span></p>
+                <p><strong>Déficit rotation externe</strong> <span class="pathology">→ Atteinte rotateurs externes</span></p>
+                
+                <h3>Interprétation clinique</h3>
+                <p><strong>Déficit actif sans déficit passif</strong> <span class="pathology">→ Atteinte musculaire ou neurologique</span></p>
+                <p><strong>Déficit actif et passif</strong> <span class="pathology">→ Atteinte articulaire ou ligamentaire (capsulite rétractile)</span></p>
+                <p><strong>Diminution amplitude généralisée</strong> <span class="pathology">→ Capsulite rétractile</span></p>
+                <p><strong>Diminution amplitude spécifique</strong> <span class="pathology">→ Rupture tendon coiffe</span></p>
+                
+                <h2>4. Tests spécifiques de la coiffe des rotateurs</h2>
+                
+                <div class="test-box">
+                    <h3>Test de Jobe <span class="figure-reference" onclick="scrollToFigure('fig10')">(FIG 10)</span></h3>
+                    <ul>
+                        <li>Bras à 90° abduction, 30° antéflexion, pouces vers le bas</li>
+                        <li>Résistance contre force vers le bas</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Rupture sus-épineux, tendinopathie, conflit sous-acromial, bursite</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h3>Test du Lift-off <span class="figure-reference" onclick="scrollToFigure('fig11')">(FIG 11)</span></h3>
+                    <ul>
+                        <li>Mains au niveau lombaire, paumes vers l'extérieur</li>
+                        <li>Décoller les mains et maintenir</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Atteinte subscapulaire (partie inférieure)</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h3>Test du Belly press <span class="figure-reference" onclick="scrollToFigure('fig12')">(FIG 12)</span></h3>
+                    <ul>
+                        <li>Appuyer sur l'abdomen, maintenir rotation interne</li>
+                        <li>Coudes alignés avec le corps</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Atteinte subscapulaire (partie supérieure)</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h3>Test de Patte <span class="figure-reference" onclick="scrollToFigure('fig13')">(FIG 13)</span></h3>
+                    <ul>
+                        <li>Bras à 90° abduction, coudes fléchis à 90°</li>
+                        <li>Rotation externe contre résistance</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Atteinte petit rond</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h3>Test du portillon <span class="figure-reference" onclick="scrollToFigure('fig14')">(FIG 14)</span></h3>
+                    <ul>
+                        <li>Rotation externe maximale passive</li>
+                        <li>Patient ramène avant-bras en rotation interne</li>
+                    </ul>
+                    <p><strong>Signe du portillon positif</strong> <span class="pathology">→ Atteinte sous-épineux</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h3>Signe du Clairon <span class="figure-reference" onclick="scrollToFigure('fig15')">(FIG 15)</span></h3>
+                    <ul>
+                        <li>Porter la main à la bouche</li>
+                    </ul>
+                    <p><strong>Test positif (coude levé)</strong> <span class="pathology">→ Atteinte rotateurs externes (petit rond, sous-épineux)</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h3>Test du Palm-up <span class="figure-reference" onclick="scrollToFigure('fig16')">(FIG 16)</span></h3>
+                    <ul>
+                        <li>Bras tendus devant en supination</li>
+                        <li>Résistance contre force vers le bas</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Tendinopathie bicipitale, subluxation biceps, lésion labrum, conflit sous-acromial</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h3>Test de Yergason <span class="figure-reference" onclick="scrollToFigure('fig17')">(FIG 17)</span></h3>
+                    <ul>
+                        <li>Bras fléchi à 90°</li>
+                        <li>Supination contre résistance</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Tendinopathie long chef biceps</span></p>
+                </div>
+                
+                <h2>5. Recherche de conflits</h2>
+                
+                <h3>Arc douloureux <span class="figure-reference" onclick="scrollToFigure('fig18')">(FIG 18)</span></h3>
+                <p><strong>Douleur 60-120°</strong> <span class="pathology">→ Conflit sous-acromial</span></p>
+                <p><strong>Douleur 120-170°</strong> <span class="pathology">→ Atteinte acromio-claviculaire</span></p>
+                <p><strong>Douleur tout le mouvement</strong> <span class="pathology">→ Atteinte gléno-humérale (épaule gelée, arthrose)</span></p>
+                
+                <div class="test-box">
+                    <h3>Test de Neer <span class="figure-reference" onclick="scrollToFigure('fig19')">(FIG 19)</span></h3>
+                    <ul>
+                        <li>Flexion passive maximale, bras en pronation</li>
+                        <li>Main stabilise la scapula</li>
+                    </ul>
+                    <p><strong>Douleur 90-120°</strong> <span class="pathology">→ Conflit sous-acromial, atteinte sus-épineux</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h3>Test de Hawkins-Kennedy <span class="figure-reference" onclick="scrollToFigure('fig20')">(FIG 20)</span></h3>
+                    <ul>
+                        <li>Abduction 90°, coude fléchi 90°</li>
+                        <li>Rotation interne passive de l'avant-bras</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Conflit sous-acromial, pathologie coiffe (sus-épineux)</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h3>Test de Yocum <span class="figure-reference" onclick="scrollToFigure('fig21')">(FIG 21)</span></h3>
+                    <ul>
+                        <li>Main sur épaule controlatérale</li>
+                        <li>Lever le coude contre résistance</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Conflit sous-acromial</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h3>Body-cross test (test d'adduction forcée) <span class="figure-reference" onclick="scrollToFigure('fig22')">(FIG 22)</span></h3>
+                    <ul>
+                        <li>Adduction horizontale maximale passive</li>
+                    </ul>
+                    <p><strong>Douleur acromio-claviculaire</strong> <span class="pathology">→ Conflit articulation acromio-claviculaire</span></p>
+                </div>
+                
+                <h2>6. Laxité et instabilité</h2>
+                
+                <h3>Tests de laxité</h3>
+                
+                <div class="test-box">
+                    <h4>Tiroir antérieur et postérieur <span class="figure-reference" onclick="scrollToFigure('fig23')">(FIG 23)</span></h4>
+                    <ul>
+                        <li>Stabilisation scapula</li>
+                        <li>Translation antéro-postérieure tête humérale</li>
+                    </ul>
+                    <p><strong>Différence entre épaules</strong> <span class="pathology">→ Laxité antéro-postérieure gléno-humérale</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Tiroir inférieur <span class="figure-reference" onclick="scrollToFigure('fig24')">(FIG 24)</span></h4>
+                    <ul>
+                        <li>Pression vers le bas</li>
+                        <li>Recherche sillon humérus-acromion</li>
+                    </ul>
+                    <p><strong>Sillon présent</strong> <span class="pathology">→ Laxité inférieure</span></p>
+                </div>
+                
+                <h3>Tests d'instabilité</h3>
+                
+                <div class="test-box">
+                    <h4>Test d'appréhension antérieur <span class="figure-reference" onclick="scrollToFigure('fig25')">(FIG 25)</span></h4>
+                    <ul>
+                        <li>Bras 90° flexion, 90° abduction</li>
+                        <li>Rotation externe + poussée tête humérale en avant</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Lésion complexe capsulo-ligamentaire</span></p>
+                </div>
+                
+                <div class="test-box">
+                    <h4>Test d'appréhension postérieur <span class="figure-reference" onclick="scrollToFigure('fig26')">(FIG 26)</span></h4>
+                    <ul>
+                        <li>Bras 90° flexion antérieure, coude fléchi 90°, rotation interne</li>
+                        <li>Poussée tête humérale en arrière</li>
+                    </ul>
+                    <p><strong>Test positif</strong> <span class="pathology">→ Lésion complexe capsulo-ligamentaire</span></p>
+                </div>
+                
+                <h2>Anatomie fonctionnelle</h2>
+                
+                <div class="anatomie-box">
+                    <h3>Articulations</h3>
+                    <ul>
+                        <li><strong>Gléno-humérale</strong> : Non congruente, grande mobilité</li>
+                        <li><strong>Sterno-costo-claviculaire</strong> : Stabilisée par complexe ligamentaire</li>
+                        <li><strong>Acromio-claviculaire</strong> : Stabilisée par ligaments coraco-claviculaires</li>
+                    </ul>
+                    
+                    <h3>Coiffe des rotateurs <span class="figure-reference" onclick="scrollToFigure('fig3')" style="color: white; text-decoration: underline;">(FIG 3)</span></h3>
+                    <ul>
+                        <li><strong>Sus-épineux</strong> : Abduction</li>
+                        <li><strong>Sous-épineux</strong> : Rotation externe</li>
+                        <li><strong>Petit rond</strong> : Rotation externe (surtout en abduction)</li>
+                        <li><strong>Subscapulaire</strong> : Rotation interne</li>
+</ul>
+                    
+                    <h3>Plans de glissement <span class="figure-reference" onclick="scrollToFigure('fig4')" style="color: white; text-decoration: underline;">(FIG 4)</span></h3>
+                    <ul>
+                        <li><strong>Plan omo-thoracique</strong> : Glissement scapula sur grille thoracique</li>
+                        <li><strong>Plan sous-acromial</strong> : Passage tendons sus/sous-épineux → Site conflit sous-acromial</li>
+</ul>
+                </div>
+                
+                <div class="key-points">
+                    <h2>Points clés</h2>
+                    <ul>
+                        <li>Stabilisation dynamique par la coiffe des rotateurs</li>
+                        <li>Coiffe impliquée dans >60% des épaules douloureuses</li>
+                        <li>Récidive luxation : 50-80%</li>
+                        <li>Conflit sous-acromial : acromion proéminent, ostéophytes, dégénérescence tendineuse</li>
+                    </ul>
+                </div>
+                
+                <div class="cards-section">
+                    <h2>Cartes de Révision</h2>
+                    <div class="cards-images">
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/Epaule/Epaule-carte_page-0001.jpg" alt="Carte de révision 1">
+                        </div>
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/Epaule/Epaule-carte_page-0002.jpg" alt="Carte de révision 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <h3>Figures</h3>
+                <div id="figures-container"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+    
+    <script>
+        // Liste des figures
+        const figures = [
+            {id: 'fig1', file: 'FIG 1.jpg', caption: 'FIG 1'},
+            {id: 'fig2', file: 'FIG 2.jpg', caption: 'FIG 2'},
+            {id: 'fig3', file: 'FIG 3.jpg', caption: 'FIG 3 - Coiffe des rotateurs'},
+            {id: 'fig4', file: 'FIG 4.jpg', caption: 'FIG 4 - Plans de glissement'},
+            {id: 'fig5', file: 'FIG 5.jpg', caption: 'FIG 5 - Structures anatomiques'},
+            {id: 'fig6', file: 'FIG 6.jpg', caption: 'FIG 6 - Abduction'},
+            {id: 'fig7', file: 'FIG 7.jpg', caption: 'FIG 7 - Rotation interne-externe'},
+            {id: 'fig8', file: 'FIG 8.jpg', caption: 'FIG 8 - Flexion'},
+            {id: 'fig9', file: 'FIG 9.jpg', caption: 'FIG 9 - Extension'},
+            {id: 'fig10', file: 'FIG 10.jpg', caption: 'FIG 10 - Test de Jobe'},
+            {id: 'fig11', file: 'FIG 11.jpg', caption: 'FIG 11 - Test du Lift-off'},
+            {id: 'fig12', file: 'FIG 12.jpg', caption: 'FIG 12 - Test du Belly press'},
+            {id: 'fig13', file: 'FIG 13.jpg', caption: 'FIG 13 - Test de Patte'},
+            {id: 'fig14', file: 'FIG 14.jpg', caption: 'FIG 14 - Test du portillon'},
+            {id: 'fig15', file: 'FIG 15.jpg', caption: 'FIG 15 - Signe du Clairon'},
+            {id: 'fig16', file: 'FIG 16.jpg', caption: 'FIG 16 - Test du Palm-up'},
+            {id: 'fig17', file: 'FIG 17.jpg', caption: 'FIG 17 - Test de Yergason'},
+            {id: 'fig18', file: 'FIG 18.jpg', caption: 'FIG 18 - Arc douloureux'},
+            {id: 'fig19', file: 'FIG 19.jpg', caption: 'FIG 19 - Test de Neer'},
+            {id: 'fig20', file: 'FIG 20.jpg', caption: 'FIG 20 - Test de Hawkins-Kennedy'},
+            {id: 'fig21', file: 'FIG 21.jpg', caption: 'FIG 21 - Test de Yocum'},
+            {id: 'fig22', file: 'FIG 22.jpg', caption: 'FIG 22 - Body-cross test'},
+            {id: 'fig23', file: 'FIG 23.jpg', caption: 'FIG 23 - Tiroir antérieur et postérieur'},
+            {id: 'fig24', file: 'FIG 24.jpg', caption: 'FIG 24 - Tiroir inférieur'},
+            {id: 'fig25', file: 'FIG 25.jpg', caption: 'FIG 25 - Test d\'appréhension antérieur'},
+            {id: 'fig26', file: 'FIG 26.jpg', caption: 'FIG 26 - Test d\'appréhension postérieur'},
+            {id: 'fig27', file: 'FIG 27.jpg', caption: 'FIG 27'},
+            {id: 'fig28', file: 'FIG 28.jpg', caption: 'FIG 28'},
+            {id: 'fig29', file: 'FIG 29.jpg', caption: 'FIG 29'},
+            {id: 'fig30', file: 'FIG 30.jpg', caption: 'FIG 30'},
+            {id: 'fig31', file: 'FIG 31.jpg', caption: 'FIG 31'},
+            {id: 'fig32', file: 'FIG 32.jpg', caption: 'FIG 32'},
+            {id: 'fig33', file: 'FIG 33.jpg', caption: 'FIG 33'}
+        ];
+        
+        // Génération des figures dans la sidebar
+        const figuresContainer = document.getElementById('figures-container');
+        figures.forEach(fig => {
+            const figureDiv = document.createElement('div');
+            figureDiv.className = 'figure-container';
+            figureDiv.id = fig.id;
+            figureDiv.onclick = () => openModal(figureDiv.querySelector('img'));
+            
+            const img = document.createElement('img');
+            img.src = `../Fiches/RMS/Epaule/${fig.file}`;
+            img.alt = fig.caption;
+            
+            const caption = document.createElement('div');
+            caption.className = 'figure-caption';
+            caption.textContent = fig.caption;
+            
+            figureDiv.appendChild(img);
+            figureDiv.appendChild(caption);
+            figuresContainer.appendChild(figureDiv);
+        });
+        
+        // Fonction pour scroller vers une figure
+        function scrollToFigure(figId) {
+            const element = document.getElementById(figId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                element.style.transform = 'scale(1.05)';
+                setTimeout(() => {
+                    element.style.transform = '';
+                }, 500);
+            }
+        }
+        
+        // Fonction pour ouvrir le modal
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = img.src || img.querySelector('img').src;
+        }
+        
+        // Fonction pour fermer le modal
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+        
+        // Fermer le modal avec la touche Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

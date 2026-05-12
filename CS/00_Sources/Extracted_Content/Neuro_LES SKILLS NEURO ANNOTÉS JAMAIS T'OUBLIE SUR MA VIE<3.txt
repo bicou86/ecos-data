@@ -1,0 +1,238 @@
+Poste formatif neurologie
+
+avec annotations des tuteurs skills
+
+Buts :
+
+Pratiquer l’examen clinique neurologique.
+Objectifs d’apprentissage :
+1. Réaliser un status neurologique de base dans les 3 registres suivants : force, réflexes,
+sensibilité :
+
+2.
+
+•
+
+Examiner la force/motricité des extrémités (pas de cotation car patients simulés tous
+normaux)
+
+•
+
+Déclencher et coter les réflexes des membres inférieurs et supérieurs, y compris le réflexe
+cutané plantaire
+
+•
+
+Examiner la marche
+
+•
+
+Examiner la sensibilité
+
+Etablir une relation adéquate avec le/la patient·e
+
+Prérequis :
+
+-
+
+-
+
+Cours du Dr Théaudin, Introduction skills neurologie, B2.8
+
+-
+
+Visionner les vidéos Virtual Skills Lab (Moodle):
+Examen neurologique :
+• Examen du système moteur : inspection et palpation, épreuve des bras tendus, examen
+de la force aux membres supérieurs, épreuve des jambes fléchies, examen de la force
+aux membres inférieurs, réflexes ostéo-tendineux (position assise/ position couchée),
+réflexe cutané-plantaire.
+• Examen de la sensibilité : sensibilité globale, discrimination toucher-piquer, examen du
+sens vibratoire, examen du sens postural.
+• Epreuves complémentaires : épreuve de Romberg, épreuves de marche.
+Séance skills, status neurologique (exercices entre étudiant·e·s), B2.8
+
+!!! Dans la vraie vie /ECOS !!!
+- Tout status neurologique se fera en sous-vêtement et sans chausettes
+- Il y a plusieurs manière d'examiner correctement un patient et les tuteurs peuvent avoir différentes
+techniques/préférences. pas de stress t'auras les points à l'ECOS
+- l'ordre (force/sensi/marche/réflexes) n'est pas "important" mais il faut surtout rien oublier.
+Idéalement le faire d'une façon logique et qui te fais gagner du temps
+- Ne pas oublier la désinfection des mains (souvent il sera dit avant l'ECOS les instructions
+spécifiques inhérentes au format de l'examen et pas à la vraie vie )
+
+Remarque Force :
+-Toujours commencer par demander au pt de faire un mouvement actif avant de tester la force
+- Savoir le nom des muscles que l'on examine
+- Utiliser si possible la main dominante pour la force et la faible pour stabiliser.
+- L'examen à droite du patient uniquement n'est plus obligatoire ! Il faut être à l'aise.
+- Il faut contrer la force d'un muscle de manière proportionnée (tester la force des doigts du pt en contrant avec nos doigts
+
+Cotation de la force avec échelle MRC
+Note : les PS ont tous une force normale à 5 dans ce poste formatif
+0 = absence de contraction visible
+1 = contraction visible sans mouvement du membre
+2 = mouvement insuffisant pour vaincre la pesanteur
+3 = mouvement permettant de vaincre la pesanteur
+4 = mouvement contre la pesanteur et contre résistance
+5 = force musculaire normale
+
+DDC = des deux côtés
+EF = erreurs fréquentes
+
+PT =Patient
+
+Observation et palpation 4 membres Faire symétriquement DDC
+FORCE M Sup
+Epreuve bras tendus EF :minimum 10 secondes
+
+Fait à D
+
+Fait à G
+
+A faire DDC en même temps !
+
+paumes vers le ciel + fermer les yeux
+
+Abduction du bras (muscle deltoïde) "ailes de poulets"
+
+A faire DDC en même temps !
+
+bras 90°, poings au niveau des clavicules
+
+Rotation latérale épaule (muscle sous-épineux)
+
+A faire DDC en même temps !
+
+coudes touchent le tronc, puis écarter les mains
+
+Flexion avant-bras (muscle biceps brachial)
+cave : la poing fermé doit être vers le haut "soulever des haltères"
+
+Extension bras (muscle triceps brachial)
+remarque idem que flexion. stabiliser au niveau de l'épaule
+
+Flexion poignet (muscles fléchisseurs du carpe)
+stabiliser au niveau de l'avant-bras
+
+Extension poignet (muscles extenseurs du carpe)
+idem
+
+Abduction des doigts (muscles interosseux) dorsaux uniquement !
+ouvrir les doigts contre pression
+
+Flexion des doigts (muscles fléchisseurs des doigts)
+doigts en crochet/" grimper sur qqch"
+
+Extension des doigts (muscles extenseurs des doigts)
+plus facile paume vers le bas
+
+FORCE M Inf à faire uniquement couché !!
+Epreuve jambes fléchies EF : minimum 10 secondes
+jambes en équerre, les jambes ne se touchent pas !
+
+Fait à D
+
+Fait à G
+
+A faire DDC en même temps !
+
+Flexion hanche (muscle psoas) tester à 30°-45°, pas à plat !
+main forte sur la cuisse et l'autre sur l'épaule
+
+Extension hanche (muscle grand fessier) décubitus dorsal
+écraser la main mise sous le talon du pt
+
+Flexion genou (muscles ischiojambiers) se mettre vers les pieds du pt
+genou plié et ramener le talon vers les fesses
+Extension genou (muscle quadriceps) stabiliser SOUS le genou
+commencer genou plié et dire de tendre
+
+Flexion dorsale / extension du pied (muscle tibial antérieur)
+* tirer
+le pt vers le bas de la table cheville
+
+A faire DDC en même temps !
+
+Extension gros orteil
+à faire avec 1-2 doigts et stabiliser la cheville
+
+Flexion du gros orteil
+idem
+
+Eversion du pied (muscle péronier latéral)
+mettre les pieds "en canard" avec talon qui se touchent, stabiliser la cheville
+
+Inversion du pied (muscle tibial postérieur)
+idem
+EF Inversion/éversion : tester la flexion/extension (car notre main est pas au bon endroit) , pas de
+stabilisation de la cheville entrainant une rotation interne de la hanche
+
+*la flexion de la cheville n'est pas testée ici, car muscle trop fort et testé lors de la marche (sur la pointe des pieds et sautillement)
+
+Cotation des réflexes
+0 = absent
++ = faible
+++ = normal
++++ = augmenté
+++++ = très augmenté
+EF réflexes : Oublier de rassurer et dire au pt de se détendre (ECOS +++), pas frapper assez fort et sec,
+amplitude pas assez grande du marteau (c'est pas pour rien que ça s'appelle un marteau :) )
+
+REFLEXES A démontrer assis et couché
+Bicipital frapper sur notre doigt !
+
+Cotation à D
+
+Cotation à G
+
+Tricipital
+Stylo-radial frapper sur notre doigt !
+Rotulien
+Achilléen
+mettre un peu sous tension, mais pas trop sinon réflexe aboli
+
+Cutané-plantaire tuteurs : ne pas montrer le cutané abdominal... :(
+ne pas mettre trop de force ! un BBK bien fait est
+désagrable mais ne doit pas être algique pour le patient
+MARCHE
+Marche
+
+Résultat
+
+on regarde le balancement des bras et le demi-tour (sd parkinsonien)
+
+Marche sur la pointe des pieds
+Marche sur les talons
+Marche sur une ligne, pieds collés l’un à l’autre
+Sautiller sur un pied, puis sur l’autre
+Epreuve de Romberg jambes collés et yeux fermés. idéalement bras tendu ( mais pas obligatoire,
+on cherche un trouble de l'équilibre ± danse des tendons)
+MS = membre supérieur
+
+SENSIBILITE tact/piqure globale à faire au coton tige !
+Tact global depuis l'extremité du membre vers le haut, puis redescendre sur
+
+Résultat
+
+tous les dermatomes du torse lorsque MS. Un membre après l'autre.
+Piqûre global idem que tact. Demander au pt si il sent bien tout de la même manière des deux côtés
+EF tact/pique global : remonter sur 1 seul dermatome du membre
+Toucher-piquer yeux fermés !
+environ 3-4x sur chaque membre/torse
+
+* Pallesthésie index ou poignet
+* Pallesthésie hallux ou cheville
+
+yeux fermés !
+regarder le diapason (et pas la tête du pt...)
+yeux fermés !
+
+Position doigt à tester sur 1 doigt de chaque mains seulement.
+Position orteil à faire sur l'hallux
+
+* EF pallesthésie : il faut prendre le diapason de neuro et pas celui d'ORL...
+
+ECOS : ne pas oublier de dire au patient de se rhabiller avant de conclure avec 2-3 blabla et quitter la salle
+
+

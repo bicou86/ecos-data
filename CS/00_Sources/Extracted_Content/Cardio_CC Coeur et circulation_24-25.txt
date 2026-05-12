@@ -1,0 +1,862 @@
+CC Cœur et circulation
+Ultrasons
+CC 2024-2025
+
+Dr Alexis Ricoeur, Dr Matthieu Papillard
+Pr Jean-Paul Vallée, Dr Jean-François Deux
+Service de Radiologie,
+Hôpitaux Universitaires de Genève
+
+Objectifs
+ Comprendre le principe de production des
+
+ultrasons
+ Comprendre le contraste en ultrasons
+ Comprendre comment un appareil d’ultrasons
+
+différentie 2 points dans l’espace
+
+Pourquoi une place si importante ?
+– Faible cout
+• Echographe: 0.15 M Euros
+• Scanner : 0.5 - 0.8 M Euros.
+• IRM: 1.5 M Euros
+• Tep :3 M Euros
+– Pas de rayon ionisant
+• C’est le cas en imagerie par rayon X, ou en TEP
+– Non invasif
+• Sauf en IVUS ou il y a insertion d’un cathéter
+• Ou en échographie de contraste (injection d’agent de contraste)3
+
+Pourquoi une place si importante ?
+
+– Temps réel
+• Quelques 100aines d’images/sec
+• IRM : 10 images/sec
+• Scanner : 30 secondes au moins pour l‘image
+
+– Accès facile
+• On Peut déplacer l’échographe pour l’apporter au pieds du
+lit du patient
+• Nouveaux échographes miniatures
+
+4
+
+Inconvénients
+• Parfois limitée :
+Pour certains patients, (obèses, constipés) l'examen peut être peu
+performant et de réalisation difficile.
+• Incomplète :
+L'exploration de certains organes n'est pas du ressort de l'échographie (tube
+digestif, poumons etc…)
+• Opérateur dépendante :
+Contrairement à un scanner ou à une radiographie, il n'est pas possible de
+réinterpréter correctement des clichés échographiques réalisés par un
+autre médecin, car il s'agit d'un examen dynamique.
+5
+
+NATURE PHYSIQUE D'UNE ONDE ACOUSTIQUE
+Une onde acoustique est une onde (vibration) mécanique
+
+- qui nécessite un support matériel
+(solide, liquide, gaz) pour se propager
+- dont la propagation est liée à la
+compressibilité du milieu.
+
+6
+
+Rappels Physiques
+ C (en m/s) : vitesse de progation d’une onde
+
+(depend du milieu)
+
+  (en m): longueur d’onde
+ T (en s): période => T = 1/ (fréquence)
+
+C =  / T = • 
+
+Ondes US > 20’000HZ (3-14MHz)
+
+Propagation d'une vibration longitudinale
+
+- dans un tuyau
+
+- le long d'un ressort
+
+Propagation d'une vibration transversale
+
+- le long d'une corde
+
+- à la surface libre d'un liquide
+
+Le front d’onde est l’ensemble des points subissant la même
+pression au même instant
+
+Source sphérique vibrante
+
+Le front de l’onde est de forme
+sphérique, on parle d’onde
+sphérique
+
+Source rectangulaire vibrante
+
+Le front de l’onde est de forme
+plane, on parle d’onde plane
+
+Vitesse de propagation des ondes transversales
+et longitudinales
+C’est la vitesse de propagation du front d’onde
+Ne pas la confondre avec la vitesse des particules
+
+Propagation du front d’onde à une
+certaine vitesse
+
+Mouvement des particules à une
+autre vitesse
+
+Vitesse de propagation des ondes transversales
+et longitudinales
+
+U
+
+U
+
+U
+
+U
+T
+
+L
+
+X
+
+X
+
+a - Onde Longitudinale
+
+cL =
+
+ -1 4 
+ b + G÷
+
+3 
+
+r
+
+b- Onde Transversale
+
+cT =
+
+G
+
+r
+
+b: compressibilité du milieu;
+r: masse volumique du milieu;
+G: module d'élasticité transversale ou module de cisaillement.
+
+Définitions: fréquence, période, pulsation, longueur, d’onde,
+nombre d’onde
+Soit une source générant une onde plane sinusoïdale, de type
+longitudinale, de fréquence f et d’amplitude U0
+
+u0 (t) = U0 sin(2  f t)
+La période est l’intervalle de temps au bout duquel la source se trouve
+en configuration initiale, c’est l’inverse de la fréquence
+1
+T=
+f
+On associe à la période et à la fréquence une grandeur appelée
+pulsation notée ω qui donne une information sur la vitesse angulaire
+ = 2 f
+14
+
+L’onde se propage à la vitesse c. On appelle longueur d’onde la
+distance parcoure pendant un temps d’une période, En un point du
+milieu situé à une distance x de la source, l'onde arrive avec un
+retard x/c. Le déplacement est une fonction du temps et de l'espace
+x 
+
+u(x, t) = U0 sin  2f (t - ) 
+c 
+
+
+On appelle longueur d’onde et on note λ la distance parcourue par
+l’onde en un temps T
+ = cT
+
+Le nombre d’onde K est l’angle par unité de distance lorsqu’on
+associe 2Π à la distance λ
+
+2
+K=
+
+
+15
+
+En un point M, distant de x de la source, le déplacement est alors
+uniquement une fonction du temps. Cette équation décrit le
+mouvement du point M
+
+xM 
+
+uM (t ) = U sin  2 f (t )
+c 
+
+De même à un instant t, le déplacement est alors uniquement une
+fonction de l'espace. Cette équation décrit le déplacement de la
+vibration
+
+x 
+
+u1( x ) = U sin  2 f (t1 - ) 
+c 
+
+
+16
+
+Longueur d’onde  = c T
+
+17
+
+Quelques définitions
+a/ La pression acoustique
+La pression acoustique, c’est la variation de pression autour de la
+pression statique (pression ambiante)
+
+p (Pa)
+105
+
+pression acoustique
+maximale
+
+t
+
+18
+
+Quelques définitions
+b/ La vitesse de propagation (ou célérité)
+Rappel du cas général
+cL =
+
+ -1 4 
+ b + G÷ c = G
+T
+
+3 
+r
+
+r
+
+,
+
+Cas particulier des liquides (tissus biologiques):
+le module d'élasticité transversale G est négligeable
+seule l’onde longitudinale peut se propager
+cL =
+ordres de grandeur:
+
+1
+
+c=f=/T :
+ la longueur d’onde
+F la fréquence
+T la période
+r la densité
+b la compressibilité
+
+rb
+
+330 m/s pour
+l'air
+1500m/s
+pour l'eau
+2500 m/s pour le plexiglas
+6000 m/s pour l'acier
+
+19
+
+Vitesse de
+propagation
+des ultrasons
+
+20
+
+Quelques définitions
+c/ L'impédance acoustique
+On la note z
+C’est le rapport de la variation de pression p engendrée par le passage
+de l'onde sur la vitesse de déplacement des particules v
+
+p
+z =
+v
+avec
+
+en Rayleigh (kgm-2s-1)
+
+v=
+
+du
+dt
+
+vitesse de déplacement de la particule
+avec u la position de la particule
+
+Dans le cas des ondes planes en milieu non absorbant:
+
+z =ρc
+
+21
+
+Quelques définitions
+d/ Intensité acoustique
+L'intensité acoustique instantanée Ii est l'énergie totale d'une
+onde plane ultrasonore traversant l’unité de surface pendant
+l’unité de temps elle s’écrit:
+
+P (t , r )²
+Ii (t , r ) = r cv ²(t , r ) =
+rc
+
+Unité : W/m² ou mW/cm² en médecine
+
+En introduisant l’expression de l’impédance acoustique on obtient
+
+Ii (t , r ) = Zv ²(t , r ) =
+
+P (t , r )²
+Z
+
+Egalement appelée puissance surfacique
+22
+
+Effet Piezo-Electrique
++
+
++ + + + + +
+_ _ _ _ _ _
++ + + + + +
+_ _ _ _ _ _
+
++ + + + + +
+_ _ _ _ _ _
++ + + + + +
+_ _ _ _ _ _
++ + + + + +
+_ _ _ _ _ _
++ + + + + +
+_ _ _ _ _ _
++ + + + + +
+_ _ _ _ _ _
++ + + + + +
+_ _ _ _ _ _
++ + + + + +
+_ _ _ _ _ _
++ + + + + +
+_ _ _ _ _ _
++ + + + + +
+_ _ _ _ _ _
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
+_
+
++
+
++ + + + + +
+_ _ _ _ _ _
++ + + + + +
+_ _ _ _ _ _
+
++
+
+Propriété que possèdent
+certains matériaux de se
+polariser électriquement
+sous l’action d’une
+contrainte mécanique et
+réciproquement de se
+déformer lorsqu’on leur
+applique un champ
+électrique.
+
++
++
++
+
++
+
+-
+
+Sondes US
+
+Principe d’Emission- Réception
+ La sonde est éméttrice et receptrice
+
+ Émettrice (stimulation) : 1% du temps
+ Réceptrice : 99% du temps
+
+Balayage réalisé par la sonde US
+
+Premières images d’ultrasons
+
+Reconstruites à partir d’un déplacement manuel de la sonde
+
+Composition d’une Sonde US
+
+Interactions
+entre l’onde US et la Matière
+3 Mécanismes:
+ Réflexion
+ Réfraction
+ Absorption
+
+Réflexion- Réfraction
+Rayon
+réfléchi
+
+Rayon
+incident
+
+1
+
+1
+
+2
+Rayon réfracté
+
+Milieu A
+
+Milieu B
+
+Z = C• p
+(p = densité du milieu)
+
+I incident = I réfléchi + I réfracté
+
+Z1-Z2 
+
+R =
+ 100
+2
+Z1+Z2 
+2
+
+(R : Réfléchi en %)
+
+Vitesses et Impédances
+dans le Corps
+
+Air
+Graisse
+Foie
+Rein
+Muscle
+Eau
+Bone
+
+Impédance Z
+
+Vitesse C
+
+(g/cm2 sec x 10-5)
+
+(m/s)
+
+0.0004
+1.38
+1.65
+1.62
+1.7
+1.54
+7.8
+
+331
+1450
+1541
+1561
+1585
+1540
+4080
+
+Applications
+
+Air
+Graisse
+Foie
+Rein
+Muscle
+Eau
+Bone
+
+Impédance Z
+
+Vitesse C
+
+(g/cm2 sec x 10-5)
+
+(m/s)
+
+0.0004
+1.38
+1.65
+1.62
+1.7
+1.54
+7.8
+
+331
+1450
+1541
+1561
+1585
+1540
+4080
+
+Rein-graisse
+R = 1.62-1.38  100 = 0.6%
+1.62+1.38
+2
+
+2
+
+Muscle-graisse
+1.7-1.38
+R = 
+ 100 = 1.1%
+1.7+1.38
+Muscle-os
+1.7-7.8
+R = 
+ 100 = 49%
+1.7+7.8
+Foie-air
+1.65-0.0004
+R = 
+ 100 = 99.9%
+1.65+0.0004
+2
+
+2
+
+2
+
+% ondes réfléchies
+
+
+
+R = Z1 - Z 2
+Z1 + Z 2 
+
+2
+2
+
+ 100
+
+2
+
+2
+
+2
+
+Interface Foie- Poumon
+
+Interface Muscle - Os
+
+Absorption
+
+ Dispersion : lorsque les ondes rencontrent
+
+des réflecteurs plus grands que la
+longueur d’onde
+ Absorption = réflexion + dispersion
+
+Absorption
+
+ Dispersion : lorsque les ondes rencontrent des
+
+réflecteurs plus grands que la longueur d’onde
+
+ Absorption = réflexion + dispersion
+ Faible absorption dans l’eau => anéchogène
+
+Vésicule Biliaire
+
+Hautes fréquences = forte absorption
+Basses fréquences = faible absorption
+Analogie: isolation phonique => on n’entend surtout les basses
+
+Hautes fréquences = faible pénétration + haute résolution
+Basses fréquences = haute pénétration + basse résolution
+
+Calculs Biliaires
+
+Calculs Biliaires
+
+Calculs Biliaires
+
+Calculs Biliaires
+
+Merci de votre attention.
+
+Contact :
+alexis.ricoeur@hcuge.ch
+
+

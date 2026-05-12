@@ -1,0 +1,679 @@
+Service de Neurologie / Centre Cérébrovasculaire
+Département de Radiologie Médicale
+Service des Urgences
+Services de Néphrologie, d’Anesthésie et des Soins Intensifs Adultes
+
+Neuroimagerie pour situations urgentes
+Recommandations pour la pratique clinique
+Table des matières
+1. Imagerie cérébrovasculaire pour suspicion d’un événement ischémique ..........................................................1
+1.1
+Premier choix de l’imagerie en phase urgente .......................................................................................... 1
+1.2
+Séquences CT en urgence pour suspicion d’AVC ou AIT ........................................................................ 1
+1.3
+Séquences IRM en urgence pour suspicion d’AVC ou AIT ...................................................................... 1
+1.4
+Imagerie cérébrovasculaire complémentaire après la phase aiguë pour événement ischémique ........... 2
+2. Neuroimagerie pour hémorragie intracérébrale et/ou intraventriculaire ............................................................. 2
+2.1
+Séquences CT........................................................................................................................................... 2
+2.2
+Séquences IRM ......................................................................................................................................... 2
+3. Crises épileptiques ou état de mal (EM) ............................................................................................................ 3
+4. Autres syndromes neurologiques suspectés ...................................................................................................... 4
+5. Contre-indications (CI) à l’IRM / CT et au Gadolinium / contraste iodé ............................................................. 5
+6. Modalités pratiques de l’IRM en urgence ........................................................................................................... 7
+6.1
+Préparation à l’IRM et CT .......................................................................................................................... 7
+6.2
+Surveillance du patient dans l’IRM pour filières TIV/TEV et patients stables à risque de se péjorer ....... 7
+6.3
+Gestion des complications du patient dans l’IRM ..................................................................................... 7
+6.4
+Rôle des médecins NLG, URG et RAD, et autres pendant l’imagerie pendant les filières TIV/TEV ........ 8
+6.5
+Supervision de la neuroimagerie urgente pour problèmes neurologiques & neurochirurgicaux .............. 9
+6.6
+Patient intubé et imagerie en urgence .................................................................................................... 10
+6.7
+Médicaments par perfusion IV dans l’IRM .............................................................................................. 10
+7. Demande d’IRM urgente par FHV hors heures de travail ................................................................................10
+8. Validation ..........................................................................................................................................................11
+
+1. Imagerie cérébrovasculaire pour suspicion d’un événement ischémique
+1.1 Premier choix de l’imagerie en phase urgente
+CT préféré si
+• Situation précoce claire : NIHSS ≥10, et délai depuis début connu ≤ 7h, et absence de contre-indication au
+contraste iodé
+• Et/ou agitation, instabilité cardiorespiratoire ou neurologique, patient intubé
+• Et/ou contre-indications à l’IRM selon le tableau ci-dessous.
+IRM préférée pour les autres situations aussi vite que possible, notamment AVC incertain, AVC mineur, AVC
+subaigu, AIT, ou amaurose.
+Si la méthode d’imagerie préférée n’est pas disponible, l’autre méthode est en principe offerte (sauf contreindication) aussi vite que possible.
+L’équipe radiologique est pré-informée d’une filière TIV potentielle selon l’annonce groupée de la filière ; elle
+s’efforce à libérer à l’heure présumée le scanner de la modalité la plus probable basé sur les informations
+disponibles.
+1.2 Séquences CT en urgence pour suspicion d’AVC ou AIT
+1. CT cérébral natif  Bolus rtPA si critères remplis, et si pas de contre-indication radiologique
+2. CT cérébral de perfusion (omettre si >24h depuis dernière preuve de bonne santé, ou si patient agité)
+3. Angio-CT cervico-cérébral  Discuter TEV et alerter filière si occlusion proximale
+4. CT cérébral injecté tardif  Perfusion du reste du rtPA, et/ou transfert en salle d’angio
+1.3 Séquences IRM en urgence pour suspicion d’AVC ou AIT
+2. DWI, FLAIR, T2*, T1-sagital  RAD évalue images pour contre-indications TIV, et pour indications TEV
+ Dès que critères TEV précoce clairement remplis  obtenir accord NRI (48704) pour TEV
+
+Neuroimagerie pour situation urgentes CHUV, version Oct. 2024
+
+1/11
+
+ Dès que RAD confirme absence radiologique de contre-indications TIV  NLG&URG signent o.m. pour
+thrombolyse
+3. Continuer avec IRM-TOF (si AVC circulation postérieure : inclure le disque C3-C4 meilleure analyse des
+boucles V2-V4) pour confirmer indication TEV
+ Interruption IRM  injecter bolus thrombolyse sur table si indiqué
+ Si critères TEV confirmés  arrêter imagerie  alerter filière TEV (49880)  transfert en salle d’angio
+ Seulement si situation tardive/situation TEV distale/ TEV limite/pas d’indication TEV  continuer imagerie
+4. Si forte suspicion de dissection (jeune, douleurs latéralisées, peu de FRCV, Horner): T1 space fatsat cervical
+et/ou cérébral en fonction de la localisation suspectée
+5. ARM contraste cervical & cérébral (si grossesse : TOF cervical)
+6. T1GE post contraste  sortir de l’IRM  perfusion du reste du rtPA
+7. PWI  décision TEV si pas déjà prise  discussion NRI (48704)  filière TEV (49880)
+1.4 Imagerie cérébrovasculaire complémentaire après la phase aiguë pour événement ischémique
+CT de contrôle (avec CTA si pathologie artérielle initiale)
+• 12h après une filière TIV/TEV avec IRM initiale (utiliser dual energy CT si toujours possible)
+• Si aggravation rapide (avec ou sans TIV/TEV  hémorragie ? œdème ? status artériel ?)
+IRM de contrôle / complément (avec ARM si pathologie artérielle initiale) si pas de contre-indication :
+• 12h après une filière TIV ou TEV avec CT initial
+• si question spécifique non répondue par l’IRM initiale (dissection, vasculite, aggravation progressive,
+suspicion de récidive, etc.)
+CT ou IRM lors d’aggravation neurologique inexpliquée ou de suspicion d’effet de masse, avec séquences
+angiographiques si nécessaire
+D’autres images sont décidées en fonction du bilan initial et après discussion avec le superviseur NLG.
+
+2. Neuroimagerie pour hémorragie intracérébrale et/ou intraventriculaire
+2.1 Séquences CT
+•
+•
+•
+•
+
+Séquences initiales identiques à l’ischémie (CT sans contraste ; puis injecté)
+Angio-CT cérébrale
+CT cérébral injecté tardif
+Pas d’imagerie de perfusion ni d’angio-CT cervicale
+
+2.2 Séquences IRM
+• Séquences initiales identiques à l’ischémie (DWI, FLAIR, T2*, T1 sagittal)
+• Si hémorragie intracérébrale lobaire/cérébelleuse, ou patient < 45 ans : ajouter le protocole « IRM-MAV »
+avec TOF qui inclut au moins l’hématome & angio-IRM 4D & SWI & 3D-Gado-T1 pour veines
+• Pas d’imagerie de perfusion ni d’angio-IRM cervicale
+Diagramme diagnostique pour hémorragie intracérébrale détectée à une imagerie initiale
+
+Auteurs : D. Strambo, G. Sirimarco, P. Michel, V. Dunet, G. Saliou
+
+Neuroimagerie pour situations urgentes CHUV, version Oct. 2024
+
+2/11
+
+Interprétation de l’hémorragie intracérébrale (parenchymateuse) aiguë et chronique à l’IRM
+
+Auteur : V. Dunet
+
+3. Crises épileptiques ou état de mal (EM)
+• Première crise :
+o IRM dès que possible. Pas d’imagerie si arguments forts pour une épilepsie génétique selon EEG et avis
+NLG.
+• Crise récurrente chez un patient épileptique traité :
+o Pas d’imagerie de routine
+o Imagerie seulement si TCC (CT natif) ou si nouveaux signes/symptômes neurologiques (voir avec NLG)
+• Etat de mal (EM):
+o Nouvel EM, inexpliqué: IRM (si baisse de la vigilance et/ou intubé : décision individualisée pour le choix
+de l’imagerie)
+o EM récurrent, avec déjà une explication probable (non-compliance, sevrage etc.) : CT injecté, ou pas
+d’imagerie (voir avec NLG)
+
+Neuroimagerie pour situations urgentes CHUV, version Oct. 2024
+
+3/11
+
+4. Autres syndromes neurologiques suspectés
+Suspicion clinique de ....
+
+Imagerie recommandée
+
+Méningite aiguë
+Encéphalite (ou méningo-encéphalite)
+aiguë
+Stupeur/coma aigu d’origine indéterminée
+(suspicion d’AVC basse)
+Etat confusionnel
+Thrombose veineuse cérébrale
+HSA (céphalée explosive +/- autres
+symptômes)
+
+CT cérébral natif et injecté avant la PL
+IRM
+
+Traumatisme crânio-cérébral/ cervical
+Myélopathie non-traumatique
+Vertiges aigus sans cause périphérique
+Atteinte ORL compliquée : sinusite
+Céphalées inhabituelles :
+• Pat. sans suspicion spécifique
+• Pat. souffrant d'alcoolisme
+• Pat. sous ttt antithrombotique
+Néoplasie (primaire ou métastases)
+Abcès cérébral, y.i. toxoplasmose
+Hypertension intracrânienne
+Hypotension intracrânienne
+SEP et/ou NORB
+
+IRM
+Selon évaluation individuelle par URG, NLG et RAD (agitation etc.)
+Angio-CT veineux ou ARM avec séquences veineuses
+CT cérébral natif + angio-CT cérébral (cervicocérébral si >50 ans)
+Si négatif et symptômes > 12h, faire une PL (cf. « Stratégie
+diagnostique des céphalées suspectes d’hémorragie sousarachnoïdienne »)
+Examens selon RPC URG pour le TCC et pour le trauma cervical
+IRM
+IRM
+CT après avis ORL
+CT cérébral natif et injecté
+
+IRM ou CT cérébral natif et injecté selon disponibilité
+IRM ou CT cérébral natif et injecté selon disponibilité
+Selon avis spécialisé
+IRM cérébrale (puis ajouter IRM médullaire en hospit. si besoin)
+IRM
+
+Comme pour les syndromes cérébrovasculaires et épileptiques, des examens complémentaires « neuro »
+devraient en général se faire selon les recommandations communes DNC-URG-RAD et/ou après évaluation du
+patient par le consultant NLG/NCH, sauf exception justifiée (telle que menace vitale immédiate et délai du
+consultant).
+
+Neuroimagerie pour situations urgentes CHUV, version Oct. 2024
+
+4/11
+
+5. Contre-indications (CI) à l’IRM / CT et au Gadolinium / contraste iodé
+Compatibles avec la « European Society of Urogenital Radiology » (ESUR) et www.mrisafety.com/TMDL_list.php
+Situation
+Agitation importante, baisse importante
+de la vigilance, nausée/ vomissements
+(patient non-intubé)
+Instabilité cardiovasculaire et/ou
+neurologique et/ou patient intubé
+
+IRM
+CI
+
+Gadolinium
+
+CI (sauf suspicion occlusion
+basilaire intubé  IRM sous
+responsabilité SMIA, utilisation
+de matériel IRM-conditionnel, cf.
+chapitre 5.5)
+CI
+CI
+
+Claustrophobie sévère connue
+Pace-maker, implants non-IRM-condit. 1
+Allergies connues
+- Produit de contraste à base d’iode ou
+Gadolinium NON
+Gadolinium 2
+(contraste iodé OK)
+- Alimentaire ou médicamenteuse,
+OK
+polyallergie, patient atopique
+Clearance créatinine (calcul de l’eGFR par méthode MDRD)
+- Hyperurgence, et pt pas connu pour
+OK
+eGFR < 30 ml/min/1.73m2
+- eGFR connue et < 30 ml/min/1.73m2
+Dotarem® simple dose
+uniquement sur avis
+radiologique au cas par
+cas selon justification et
+évaluation du
+risque/bénéfice 5
+2
+- eGFR 30 – 60 ml/min/1.73m et
+o diabète
+OK
+o ou insuffisance cardiaque
+o ou myélome multiple
+o ou protéinurie connue
+Patients dialysés
+- Anurique
+Dotarem® simple dose
+uniquement sur avis
+- Production urinaire > 500 ml ou
+radiologique au cas par
+inconnue
+cas selon justification et
+évaluation du
+risque/bénéfice. Dialyse
+selon rythme habituel 4
+Metformine
+OK
+
+Hyperthyroïdie non-équilibrée
+Grossesse 5
+Allaitement 6
+
+OK sauf
+premier
+trimestre
+OK
+
+CT
+OK
+
+Contraste iodé
+CTA : essayer
+(pas de CTP)
+
+OK
+
+OK
+
+OK
+OK
+
+OK
+OK
+Contraste iodé NON
+(Gadolinium OK)
+OK
+OK
+CI
+
+OK
+mais ↑ perfusion
+NaCl3
+
+OK
+CI
+
+OK, mais stop
+Metformine,
+reprendre à 48h sauf
+si acidose lactique ou
+↓ eGFR
+CI
+
+OK
+CI
+
+OK
+
+OK
+
+OK
+
+OK
+
+OK
+
+1 Liste des implants non-IRM-conditionnels en phase aiguë (indicative, non exhaustive):
+
+• Pacemaker/stimulateur cardiaque
+o Situation aiguë : tous les modèles sont contre-indiqués sur toute les IRM du CHUV
+o Situation subaiguë : tous les modèles sont contre-indiqués au BH05 (Siemens-Vida).
+o Situation subaiguë (hors filière, i.e. planifié) : OK à l’IRM BH-07 si
+ Modèles « IRM-conditionnels » :
+ Et désactivation effectuée par les cardiologues dans les délais utiles selon leur protocole, avec
+un délai minimal d’attente de 6 semaines depuis l’implantation
+• Implant cochléaire (oreille interne), appareil auditif
+• Neurostimulateur
+
+Neuroimagerie pour situations urgentes CHUV, version Oct. 2024
+
+5/11
+
+• Pompe à insuline
+• Mesure continue de la glucose (MCG), pompe à insuline (IRM subaigu/élective en général possible
+après avoir enlevé l’outil  patient doit venir avec matériel de remplacement)
+• Prothèse dentaire impossible d’enlever
+Implants en général IRM-conditionnels :
+• Monitoring cardiaque implantable (REVEAL® LINQ etc). Après IRM, vérifier son fonctionnement par un
+cardiologue. Délai d’attente minimale depuis l’implantation 4 semaines (pour la cicatrisation).
+• Valve cardiaque biologique, mécanique, TAVI et annuloplastie : il n’y a pas de délai d’attente minimale
+depuis l’implantation
+• Port-à-cath de chimiothérapie : pas de délai d’attente minimale depuis l’implantation
+• Prothèses orthopédiques (hanche, genou etc.) : pas de délai d’attente minimale depuis l’implantation
+(fixateurs externes : regarder sur le fixateur, ou selon www.mrisafety.com/TMDL_list.php)
+Si informations insuffisantes (aphasie, confusion, patient non-informé, pas de documents suffisants) pour
+exclure la présence d’un implant non-IRM-conditionnel  radiographie du thorax au déchoc.
+Si doute sur la sécurité d’un implant, RAD/TRM vérifient sur le site www.mrisafety.com/List.html
+Si une IRM est effectuée par inadvertance pour un stimulateur non-IRM-conditionnel, il faut interrompre
+l’IRM dès que la situation est identifiée, puis monitorer le patient et réévaluer le fonctionnement du
+stimulateur dès que possible par un spécialiste.
+2 Si allergie à un produit de contraste (iodé ou Gadolinium) connue et imagerie non-urgente
+
+• Faible à modérée,
+o une préparation peut être proposée (prednisolone 30mg 12h et 2h avant l’injection de produit de
+contraste)
+o pour un candidat TIV/TEV, un médecin cadre URG-SMIA-NLG peut poser l’indication au contraste
+iodé urgente, avec ou sans préparation
+• Sévère, l’injection du produit incriminé est contre-indiquée (sauf si tests allergologiques confirment que
+le produit de contraste qu’on souhaiterait injecter ne présente pas de risque pour le patient)
+
+Rappel : Un produit de contraste non-incriminé peut être donné sans autre, selon indications et contreindications dans le tableau en haut (p.ex. : Gadolinium OK malgré réaction sévère à un produit de
+contraste iodé par le passé)
+3 Prévention de l’insuffisance rénale par NaCl pour fonction rénale limitée :
+
+• Prévention rapide : 3 mL/kg de NaCl 0.9% dans l’heure précédent l’examen, suivi de 1-1.5 mL/kg/heure
+pendant et 6 heures qui suivent l’examen.
+• ou prévention normale : 1 mL/kg/heure de NaCl 0.9% 6 heures avant et 6 heures après l’examen (si
+examen planifiable)
+
+4 Pour diminuer le risque d’une fibrose systémique néphrogénique
+5 Grossesse (responsabilité de l’indiquer sur la checkliste IRM : prescripteur = urgentiste par patientes
+
+hébergées aux URG)
+• CT avec contraste : considéré comme sûr pendant toute la grossesse
+• IRM sans contraste : déconseillée dans le premier trimestre, ok pour le reste de la grossesse.
+• IRM avec contraste : déconseillée pendant toute la grossesse
+• Comme pour toute acte diagnostique ou thérapeutique, une patiente capable de discernement (sinon
+son représentant légal) peut refuser des examens qui lui sont proposés, mais elle doit en accepter les
+conséquences éventuelles
+• En l’absence d’indices anamnéstiques et/ou cliniques de grossesse, une IRM dans le cadre d’une filière
+AVC est acceptable aussi en premier trimestre avec contraste sans attendre les résultats du ẞ-HCG.
+
+6 Allaitement : il n’y a pas de contre-indication spécifique en lien avec l’allaitement à l’injection de produit de
+
+contraste iodé ou gadolinium. L’allaitement peut être poursuivi sans interruption après l’injection (selon
+« European Society of Urogenital Radiology » (ESUR))
+
+Neuroimagerie pour situations urgentes CHUV, version Oct. 2024
+
+6/11
+
+6. Modalités pratiques de l’IRM en urgence
+6.1 Préparation à l’IRM et CT
+La demande de l’imagerie est communiquée au radiologue par le médecin URG (ou médecin du service en
+charge du patient ou NLG lors des filières TIV/TEV intra-hospitalières)
+• Préférentiellement par Soarian
+• Et en communiquant personnellement avec le radiologue pour les cas urgents ou complexes
+Le médecin prescripteur indique
+• (Suspicion d’) AVC ou AIT
+• Le syndrome clinique et le côté affecté
+• L’heure du début des symptômes
+Accès veineux : pour l’imagerie de perfusion, il faut un Venflon 18 Gauge au pli du coude. Pour les patients
+potentiellement thrombolysables, il faut toujours un deuxième accès, de préférence un Venflon 18-20 Gauge sur
+l’autre avant-bras).
+Patients avec pace-maker/défibrillateur
+• Jamais d'IRM au BH05
+• En phase subaiguë (patients hospitalisés)
+o Renoncer à l’IRM si implantation < 6 semaines (cicatrisation)
+o Utiliser IRM BH-07 (autre que Vida)
+o Les RV sont fixés au BH07 pendant les heures de travail en appelant le le/la chef/fe d’unité IRM au
+61771 ou le/la TRM chef/fe adjoint/e au 61493
+o Les TRM se chargeront d’appeler cardiologue de garde
+o Si possible transmettre les coordonnées du pacemaker ou défibrillateur (boitier + toutes les sondes).
+6.2 Surveillance du patient dans l’IRM pour filières TIV/TEV et patients stables à risque de se péjorer
+ECG continu (3 électrodes IRM-conditionnelles ; les mettre au déchoc déjà par ID-URG)
+Oxymétrie continue
+Monitorage tensionnel
+ID en charge du patient doit se préparer, pour pouvoir entrer rapidement dans la salle en cas d’urgence
+Surveillance clinique de la tête du patient en utilisant les caméras internes de l’IRM centrées sur le visage du
+patient, depuis l’extérieur de la salle pour toutes les filières AVC avec potentiel de TIV/TEV (autres patients
+hors filière selon décision du médecin URG en charge du patient). La vue du visage du patient est
+interrompue durant l’angiographie du cou (env. 2-3 min.). Cette surveillance se fait
+o par ID-URG si non intubé pour les filières TIV/TEV admis par les urgences
+o par ID-SMIA si intubé (averti/e par CDC-SMIA)
+o par ID-NLG pour filières TIV/TEV intra-hospitalières
+• Le/la deuxième ID-URG est libéré/e par un médecin URG dès que le patient est sur la table IRM (peut être
+réactivé/e par CDC-URG en appelant IRO)
+• Un médecin URG (ou médecin du service en charge du patient ou NLG lors des filières TIV/TEV intrahospitalières) est toujours sur place dans la salle de préparation, et non dans l’IRM
+
+•
+•
+•
+•
+•
+
+6.3 Gestion des complications du patient dans l’IRM
+Dans les situations suivantes, arrêt de l’IRM, sortie du patient de la salle d’IRM, début BLS par les médecins
+présents si indiqué en salle de préparation de l’IRM après transfert du patient sur brancard, et pendant le transfert
+immédiat au déchocage. Là, un traitement plus spécifique et/ou agressif des complications sera entrepris.
+• Airways : obstruction des voies aériennes / vomissements
+• Breathing :
+o désaturation nouvelle
+o bradypnée ou tachypnée nouvelle
+o arrêt respiratoire
+• Circulation :
+o trouble du rythme malin
+o bradycardie < 40/min
+o tachycardie > 150/min
+o hypotension nouvelle
+• Disability (neurology) :
+o chute de l’état de conscience
+o agitation
+o crise d’épilepsie
+
+Neuroimagerie pour situations urgentes CHUV, version Oct. 2024
+
+7/11
+
+• Réaction allergique au produit de contraste, i.e.
+o nausées/vomissements, urticaire, bronchospasme, oedème laryngé
+o hypotension, réaction anaphylactique généralisée
+ prise en charge de l’allergie selon recommandations de la « European Society of Urogenital
+Radiology » (ESUR).
+6.4 Rôle des médecins NLG, URG et RAD, et autres pendant l’imagerie pendant les filières TIV/TEV
+• Avant l’IRM/CT :
+o Effectuer gestes habituels pour filière TIV (anamnèse rapide, NIHSS, estimer poids, donner ordre
+prémélange bolus, etc...) selon la carte TIV/TEV
+o Prescripteur de l’imagerie (urgentiste, ou médecin du service en charge du patient lors de filières
+TIV/TEV intra-hospitalières) vérifie critères pacemaker et implants (s’orienter avec « Checklist patient
+avant IRM », remplir et signer le « Formulaire de sécurité à remplir avant chaque nouvel examen IRM » ).
+Si doute, demander radiographie du thorax au TRM sur place (sinon appel au TRM au 44510). Si contreindications  URG ou NLG avertissent RAD (61509)
+o Vérifier si autres contre-indications IRM (agitation, stabilité cardioresp, ...) ; si contre-indications  URG
+ou médecin du service en charge du patient lors de filières TIV/TEV intra-hospitalières ou NLG
+avertissent RAD (61509)
+o Pousser patient à l’IRM, sonner pour ouverture de la porte IRM
+• En salle de préparation IRM/CT
+o Aider à préparer le patient pour IRM
+o Communiquer avec RAD sur syndrome et questions neuroradiologiques
+o Suivre les instructions des TRM et RAD
+• Pendant l’IRM/CT
+o Les médecins n’entrent pas dans l’IRM
+o Revoir séquences initiales avec RAD pour hémorragie/ischémie
+ RAD confirme verbalement l’absence de CI radiologiques, puis l’écrit dans son rapport ; en cas de
+doute, consulte son superviseur
+ NLG fait quittance verbale de l’absence de CI
+ Décision thrombolyse par NLG et URG ; éventuellement attendre perfusion si doute clinique sur AVC
+et DWI/CT natif négative et syndrome hémisphérique
+o Effectuer gestes habituels pour filière TIV (ordre du bolus rtPA par NLG et URG, recommander ttt
+tensionnel, etc…, activer filière TEV si occlusion au TOF)
+o NLG a le droit d’utiliser le poste informatique à l’IRM-URG (sans ouvrir une nouvelle session)
+o Un médecin URG (ou médecin du service en charge du patient lors de filières TIV/TEV intrahospitalières) doit toujours rester en salle de commande IRM ou CT pendant la procédure. Pendant
+l’imagerie, NLG doit être présent au moment des décisions (TIV ; TEV), mais peut évaluer d’autres
+patients aux URG entretemps si nécessaire.
+• Après l’IRM/CT
+o Pousser patient aux SC-NLGH, ou en salle d’angio BH-07 en cas de TEV (NLG avec ID-URG)
+o Transmettre les informations médicales
+o Le médecin RAD
+ Transmet son interprétation de l’imagerie oralement aux médecins URG et NLG, y.i. les év. les év.
+contre-indications radiologiques à une TIV
+ Discute avec son superviseur si nécessaire (cf. chapitre « Supervision")
+ Est à dispo des autres médecins pour donner des informations supplémentaires
+ Rédige un rapport radiologique qui inclut les volumes du core et pénombre (si appliquable) et les év.
+contre-indications radiologiques à une TIV
+
+Neuroimagerie pour situations urgentes CHUV, version Oct. 2024
+
+8/11
+
+6.5 Supervision de la neuroimagerie urgente pour problèmes neurologiques & neurochirurgicaux
+
+Neuroimagerie urgente
+
+selon protocole «Neuroimagerie urgente»
+
+Interprétation des images par radiologue
+(MA ou CDC) attitré-e aux URG 24h/7j.
+Mise à disposition des résultats
+aux médecins en charge et aux consultants.
+
+NLG/NCH/URG/SMIA/ORL
+sur place (avec son superviseur le cas
+échéant) peuvent prendre les décisions
+qui influencent la PeC
+immédiate
+
+OUI
+
+NON
+Superviseur de NLG/NCH/URG/SMIA/ORL
+- revoit si possible les images lui/elle-même
+- discute si nécessaire avec les autres spécialistes
+- discute si nécessaire avec des souspécialistes de son service
+
+Superviseur
+de NLG/NCH/URG/SMIA/ORL
+peut prendre les décisions qui
+influencent la PeC
+immédiate
+
+OUI
+
+NON
+NLG/NCH/URG/SMIA/ORL demande au
+radiologue attitré-e aux URG un avis neuroradiologique
+supervisé dans les délais appropriés à la situation
+
+Radiologue attitré-e aux URG transmet avis supervisé
+à NLG/NCH/URG/SMIA/ORL qui prend sa décision
+(avec ou sans nouvelle consultation avec son
+superviseur)
+
+Supervision des images
+par NRD le lendemain
+matin (jours ouvrables et
+WE/jours fériés).
+
+Neuroimagerie interprétée en répondant
+aux besoins (urgents) des patient-e-s
+* Superviseur NRD/NRI = MC ou CDC neurorad. formé, ou en formation (si CDC en formation). Actuellement :
+• Pas de surpiquet par MC-NRD formalisé, réponse pas toujours assurée
+• Surpiquet par MC-NRI formalisé, et réponse toujours assurée.
+Supervision neuroimagerie diagnostique au CHUV
+• Supervision les jours ouvrables 7h-17h :
+o CT par NRI
+o IRM par NRD
+• Supervision pendant des périodes de garde la semaine : CT et IRM :
+o 17h-23h : CDC RAD des URG sur place en temps réel (avec couverture piquet NRD*)
+o 23h-07h : piquet NRD* le lendemain matin avant 07h00
+• Supervision pendant le WE/jour fériés : CT et IRM :
+o 07h-23h : CDC RAD des URG sur place en temps réel (avec couverture piquet NRD*)
+o 23h-07h : piquet NRD* le lendemain matin avant 07h00
+
+Neuroimagerie pour situations urgentes CHUV, version Oct. 2024
+
+9/11
+
+6.6 Patient intubé et imagerie en urgence
+En général, un patient intubé avec besoin d’imagerie sera dirigé vers un CT multimodal (cf. tableau avec contreindications IRM en haut).
+Une IRM chez un patient intubé est indiquée dans ces deux situations :
+1) Patient au déchoc avec suspicion clinique d’occlusion basilaire selon NLG et URG, et NIHSS > 15 (si
+évaluable)
+2) Occlusion basilaire déjà démontrée au CTA préhospitalier (patient adressé pour TEV depuis une autre
+unité cérébrovasculaire), NIHSS > 15, et IRM aura influence sur décision TEV
+ préavertissement par NLG au « Team Endovasculaire AVC » et au CDC-SMIA  CDC-SMIA instruit IDSMIA de venir au déchoc avec le chariot et respirateur IRM conditionnelles
+Equipement avec respirateur IRM conditionnelle: le patient intubé
+1) Se trouve déjà au déchoc URG en présence des médecins URG et SMIA et des ID-URG
+ équipement du patient par SMIA avec respirateur et chariot IRM-conditionnelle
+ départ à l’IRM sous responsabilité des médecins SMIA et ID-SMIA (en présence de NLG)
+2) ou vient d’une autre unité cérébrovasculaire et est guidé au déchoc par NLG
+ transfert de la responsabilité de l’équipe préhospitalière aux médecins et ID SMIA au déchoc
+ équipement du patient par SMIA avec respirateur et chariot IRM-conditionnelle
+ départ à l’IRM sous responsabilité des médecins SMIA et ID-SMIA (en présence de NLG)
+3) Pendant IRM, prise en charge par SMIA. ID-SMIA surveille le patient cliniquement dans l’IRM à la tête du
+patient
+4) Après l’IRM :
+• soit transfert en salle d’angio BH07 pour TEV
+• soit en salle d’op si intervention NCH (hémorragie/sous-dural etc.) (NLG annule filière TEV)
+• soit transfert aux SMIA si pas d’intervention (NLG annule filière TEV)
+Aspects techniques de l’IRM chez patient intubé
+• Respirateur IRM compatible : 2 se trouvent aux MIA, 1 aux SIPI)
+• Monitorage : cf. chapitre en haut « Surveillance du patient dans l’IRM ».
+• Perfusions : cf. chapitre en haut
+6.7 Médicaments par perfusion IV dans l’IRM
+• Thrombolyse en cours : continuer dès la sortie de l’IRM
+• Autres perfusions : suspendre si possible (o.m.)
+• Monter une tubulure standard plus 500 mL de NaCl 0.9% à un débit d’entretien de 21 mL/h (ID-URG)
+
+7. Demande d’IRM urgente par FHV hors heures de travail
+Les hôpitaux FHV n’ont actuellement pas d’accès aux IRM hors heures de travail.
+Nous recommandons la démarche suivante :
+• Hôpitaux FHV avec une UCV : demande d’IRM cérébrovasculaire seulement après évaluation par neurologue
+de l’UCV locale 24h/24h (qui en pré-informe NLG du CHUV)
+• Autres situations/hôpitaux FHV :
+o Peu de situations nécessitent une IRM en urgence pour la sécurité et gestion du patient.
+o Situations typiques : syndrome médullaire/queue du cheval aigu avec handicap significatif ; lésion tumorale
+inexpliquée avec effet de masse/hydrocéphalie ; suspicion coma/stupor sur AVC aigu du tronc (avec AVC
+non-identifié au CT/CTA)
+o Les situations suivantes ne nécessitent typiquement pas d’IRM urgente, mais peuvent attendre l’avis
+neurologique et/ou l’IRM locale le prochain jour ouvrable (avec ou sans CT local auparavant pour
+débrouillage/sécurité) : AIT ; vertiges aigus isolées ; 1ère crise d’épilepsie ; état de mal épileptique ;
+suspicion de/poussée de SEP
+• Demande d’IRM urgente : selon décision des urgentistes FHV
+o D’abord discussion/coordination avec le MCU-URG-CHUV (079-556-7900) et NLG CHUV (079-556-1115)
+pour confirmer l’indication au transfert en urgences et s’assurer de la disponibilité de l’IRM
+o Transfert aux URG CHUV sous responsabilité URG
+o URG demande évaluation NLG selon les règles habituelles (consultation rapide si patient déjà évalué par
+autre neurologue)  consultation NLG Soarian qui recommande ou pas IRM ou autres examens
+o Le cas échéant, URG demande IRM, remplit formulaire de sécurité IRM
+o NLG CHUV évalue IRM avec radiologue, transmets les résultats de sa consultation et IRM aux URG CHUV
+(et au NLG externe qui a recommandé l’IRM le cas échéant), et documente ceci dans sa consultation
+Soarian
+
+Neuroimagerie pour situations urgentes CHUV, version Oct. 2024
+
+10/11
+
+8. Validation
+Date
+02.05.2023
+
+28.10.2024
+
+Auteur(s)
+NLG: P. Michel
+NRD: V. Dunet, Ch. Rohner, D. Rodrigues
+NRI: G. Saliou
+RAD-URG: S. Schmidt, F. Koehler
+NEP: G. Wuerzner
+URG: N. Beysard, V. Darioli, O. Hugli, E. Foucault
+ALG: J.D. Rouvé
+SMIA: N.M. Ben Hamouda, M. Rusca
+Adaptations mineures par P. Michel, V. Dunet, et
+Ch. Rohner
+
+Neuroimagerie pour situations urgentes CHUV, version Oct. 2024
+
+Validation
+A. Denys (RAD)
+R. Du Pasquier (NLG)
+PN. Carron (URG)
+G. Wuerzner (NEP)
+P. Schoettker (ALG)
+JD. Chiche (SMIA)
+M. Levivier (NCH)
+
+Archivage
+S. Kuhner DNC
+
+---
+
+S. Kuhner DNC
+
+11/11
+
+

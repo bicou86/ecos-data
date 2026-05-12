@@ -1,0 +1,153 @@
+Intégration 1
+
+Site: Moodle Université de Genève
+Cours: Compétences cliniques en 2e année Bachelor
+Livre: Intégration 1
+
+Imprimé par: Damien Fulliquet
+Date:
+jeudi 8 mai 2025, 11:36
+
+Table des matières
+1. Organisation
+2. Déroulement et objectifs spécifiques de la session
+2.1. Prise de l'anamnèse
+2.2. Pratique de l'examen physique
+3. Scénario pour le jeu de rôle /histoire de cas réel
+4. Références
+
+1. Organisation
+Personne concernée
+
+Responsable du séminaire :
+Pr Marco Roffi, médecin adjoint agrégé, Bip 079/ 55.33.391
+
+Thème du séminaire
+
+Problème de dyspnée d'origine cardiaque versus pulmonaire.
+
+Objectifs généraux
+
+Les objectifs d'apprentissage et les compétences visées sont consultables en ligne sur LOOOP.
+
+Méthode d’enseignement
+
+Session de deux heures.
+Groupe de huit étudiants par formateur.
+Pratique de l'anamnèse (jeu de rôle avec le moniteur) et de l'examen physique par les étudiants entre eux.
+
+2. Déroulement et objectifs spécifiques de la session
+Le but de ce séminaire est que l'étudiant apprenne:
+A orchestrer des éléments de l'anamnèse et de l'examen physique qu'il (elle) a jusqu'alors appris séparément,
+dans le cadre des Unités « Coeur et Circulation » et « Respiration ».
+Le séminaire est donc consacré à l'anamnèse d'un patient se plaignant d'une dyspnée progressive (jeu de rôle
+avec le formateur). Puis, le formateur démontre l'examen physique intégré des systèmes cardio-vasculaire et
+respiratoire sur un étudiant, en insistant sur les éléments prioritaires, et sur une séquence optimalisant le confort
+du patient. Il est important que les étudiants pratiquent ensuite entre eux, car voir faire faire...
+S'il reste du temps, le formateur peut amener les étudiants auprès d'un patient.
+
+2.1. Prise de l'anamnèse
+A l'issue du séminaire, l'étudiant(e) devrait être capable de :
+Reconnaître le caractère non spécifique de la dyspnée.
+Rechercher des éléments anamnestiques qui permettraient de discriminer entre une origine cardiaque et respiratoire
+de la dyspnée:
+en faveur d'une origine cardiaque: anamnèse d’antécédents cardiaques (pathologie préexistante), facteurs de
+risque cardiovasculaires, orthopnée, dyspnée paroxystique nocturne, œdèmes des membres inférieurs
+vespéraux, prise de poids récente.
+en faveur d'une origine respiratoire: facteurs de risque pour un syndrome obstructif chronique (tabac), anamnèse
+de bronchite chronique, absence d'orthopnée.
+Relever le caractère relatif de ces éléments: un insuffisant respiratoire ayant un cœur pulmonaire chronique peut avoir
+des symptômes d'insuffisance cardiaque droite ; certains patients porteurs d'une pathologie respiratoire peuvent être
+orthopnéiques (dysfonction plus importante du diaphragme en position couchée en cas de fatigue musculaire
+respiratoire); le tabac est un facteur de risque aussi bien sur le plan cardio-vasculaire que pour certaines pathologies
+respiratoires.
+Intégrer les anamnèses cardio-vasculaire et respiratoire.
+
+2.2. Pratique de l'examen physique
+Les éléments du status cardio-vasculaire et respiratoire ayant déjà été appris par l'étudiant(e) au cours des Unités “
+Circulation ” et “ Respiration ”, le but de l'examen est ici l'intégration des gestes propres à l'examen de ces deux systèmes.
+A l'issue du séminaire, l'étudiant(e) devrait donc être capable de pratiquer un examen intégré comprenant les éléments
+suivants:
+Une inspection générale afin d'évaluer: la fréquence respiratoire, la coloration de la peau, le pouls jugulaire, la
+présence d'un tirage sus-sternal et un examen des extrémités (les mains surtout, le patient n'étant que partiellement
+déshabillé) à la recherche d'une cyanose périphérique et d'une froideur.
+Un status cardio-vasculaire en position couchée à 45 degrés, avec au minimum:
+l'inspection de l'aire cardiaque et du pouls jugulaire;
+la palpation de l'aire précordiale, du choc de pointe, et du pouls carotidien;
+l'auscultation cardiaque aux quatre foyers en décubitus dorsal, et en décubitus latéral gauche à la recherche d'un
+B3 ou d'un B4.
+Un status respiratoire en position assise avec au minimum:
+l'inspection des mouvements respiratoires et du type de respiration ;
+la palpation avec l'évaluation de l'ampliation thoracique et des vibrations vocales;
+la percussion et l'auscultation postérieure et antérieure.
+
+3. Scénario pour le jeu de rôle /histoire de cas réel
+M. E. Soufflé :
+
+Patient de 64 ans, ayant occupé une multitude d'emplois, dont aucun qualifié. Actuellement chômeur en fin de droit,
+vivant d'une aide sociale et d'un petit soutien financier de son fils.
+
+Antécédents personnels :
+
+Aucun, en particulier pas de rhumatisme articulaire aigu.
+
+Anamnèse actuelle :
+
+M. E. Soufflé présente depuis six mois une dyspnée d'effort progressive, avec depuis deux mois une orthopnée, une dyspnée
+paroxystique nocturne. Il s'est mis à tousser aussi la nuit. Ses chevilles (surtout la droite) ont gonflé. Il doit se lever deux fois
+au cours de la nuit pour aller uriner.
+
+Anamnèse systématique :
+
+Modification du poids? (ne se pèse pas). Pas d'état fébrile. Pas de claudication intermittente, ni d'angor. Pas de syncope. En
+revanche, bronchite chronique depuis des années.
+
+Habitudes :
+
+Le patient est un gros fumeur (80 Unités/Paquet/Année (UPA)).
+Consommation d'alcool niée par le patient. Pas de médicaments.
+Le formateur peut, s'il le désire, dire aux étudiants ce que le status a révélé de pathologique chez ce patient, en démontrant
+le status sur un étudiant.
+
+Status :
+
+EG moyen, patient inquiet. FR 20/'. Pas de cyanose. TA 100/60 mmHg aux deux bras. Pouls régulier à 96/min. B1 et B2
+inaudibles. Souffle protomésosytolique 3/6 râpeux au foyer aortique, irradiant dans les carotides. Souffle holosystolique 2/6 à
+l'apex irradiant dans l'aisselle. Pouls jugulaire à 12 cm de la fourchette sternale à 60 degrés. Montée carotidienne lente.
+Artères périphériques toutes palpables et sans souffle. Œdèmes des membres inférieurs remontant jusqu'à la cuisse,
+prenant le godet. Diamètre antéro-postérieur du thorax élargi. Expirium discrètement prolongé. Sibilances expiratoires. Râles
+crépitants inspiratoires aux deux bases pulmonaires.
+La suite du cas est facultative.
+
+Radiographie du thorax :
+
+Cardiomégalie, redistribution vasculaire, lignes de Kerley B. Pas d'épanchement pleural.
+
+Electrocardiogramme:
+
+Rythme sinusal régulier. Hypertrophie ventriculaire gauche.
+
+Echocardiographie, résultat :
+Ventricule gauche: diminution homogène modérée à sévère de la fonction systolique avec une fraction d’éjection estimée
+visuellement à 30%.
+Valve aortique: épaississement modéré. Insuffisance discrète. Sténose importante avec une vitesse maximale de 4.4 m/s,
+gradient moyen de 50 mmHg permettant de calculer une surface à 0.5 cm2.
+Valve mitrale: insuffisance modérée.
+
+Conclusion :
+
+Insuffisance cardiaque décompensée sur sténose aortique sévère.
+Insuffisance mitrale modérée.
+Possible syndrome obstructif.
+
+4. Références
+Lectures obligatoires
+
+Bickley LS, Szilagyi PG. Bates’ guide to physical examination and history taking. 12th ed. Philadelphia : Wolters
+Kluwer ; 2017. WB 205 1
+Révision des chapitres de sémiologie respiratoire et cardio-vasculaire
+Vidéos d’accompagnement : http://batesvisualguide.com
+M.H. Swartz. Manuel de diagnostic clinique: historique et examen physique. 2ème édition, Paris. Maloine, 2003,
+révision des chapitres de sémiologie respiratoire et cardio-vasculaire, WB 200 19 ed 2.
+
+

@@ -1,0 +1,1990 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Médecine Générale ECOS - Révisions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.7; }
+        }
+        
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+            animation: slideInFromTop 0.8s ease-out;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        /* Barre de progression */
+        .progress-container {
+            padding: 20px;
+            background: white;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .progress-bar {
+            height: 30px;
+            background: #e9ecef;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 15px;
+            width: 0%;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        /* Cartes de statistiques */
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+        
+        /* Contrôles avec filtres améliorés */
+        .controls {
+            padding: 25px;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            border-bottom: 1px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .controls-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        
+        .search-container {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+            font-size: 18px;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 15px 12px 45px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: white;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        /* Filtres par tags */
+        .filter-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-tag {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 2px solid #dee2e6;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .filter-tag:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+        
+        .filter-tag.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: transparent;
+        }
+        
+        .filter-tag.urgent { border-color: #e74c3c; }
+        .filter-tag.urgent.active { background: #e74c3c; }
+        
+        .filter-tag.warning { border-color: #f39c12; }
+        .filter-tag.warning.active { background: #f39c12; }
+        
+        .filter-tag.dosage { border-color: #3498db; }
+        .filter-tag.dosage.active { background: #3498db; }
+        
+        .filter-tag.osce { border-color: #27ae60; }
+        .filter-tag.osce.active { background: #27ae60; }
+        
+        /* Sélecteur de sections */
+        .section-selector {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        select {
+            padding: 10px 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            background: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        select:hover {
+            border-color: #667eea;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        button {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        
+        button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        button:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+        
+        button:active {
+            transform: translateY(-1px);
+        }
+        
+        .counter {
+            padding: 12px 20px;
+            background: white;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #495057;
+            border: 2px solid #dee2e6;
+            min-width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .section.collapsed {
+            margin-bottom: 20px;
+        }
+        
+        .section.collapsed .table-wrapper {
+            display: none;
+        }
+        
+        .section-title {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            font-size: 1.5em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .section-title:hover {
+            padding-left: 30px;
+        }
+        
+        .section-title::before {
+            content: '▼';
+            position: absolute;
+            left: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .section.collapsed .section-title::before {
+            transform: rotate(-90deg);
+        }
+        
+        .section-count {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: normal;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        th {
+            background: #f8f9fa;
+            color: #495057;
+            font-weight: 600;
+            text-align: left;
+            padding: 15px;
+            border-bottom: 2px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e9ecef;
+            vertical-align: top;
+        }
+        
+        tr {
+            transition: all 0.3s ease;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+            transform: scale(1.01);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .pathology {
+            font-weight: 700;
+            color: #667eea;
+            font-size: 1.1em;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .pathology::before {
+            content: '🔬';
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        
+        /* STYLES POUR LES HIGHLIGHTS COLORÉS */
+        
+        /* Rouge - Urgences et alertes */
+        .urgent {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            animation: pulse-urgent 2s infinite;
+            box-shadow: 0 2px 5px rgba(231, 76, 60, 0.3);
+        }
+        
+        @keyframes pulse-urgent {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+        }
+        
+        /* Orange - Avertissements */
+        .warning {
+            background: linear-gradient(45deg, #f39c12, #e67e22);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(243, 156, 18, 0.3);
+        }
+        
+        /* Jaune - Points importants */
+        .highlight {
+            background: linear-gradient(45deg, #f1c40f, #f39c12);
+            color: #2c3e50;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(241, 196, 15, 0.3);
+        }
+        
+        /* Jaune - Points clés */
+        .key-point {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #2c3e50;
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            border: 1px solid #f1c40f;
+            box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);
+        }
+        
+        /* Bleu foncé - Signes cliniques */
+        .clinical-sign {
+            background: linear-gradient(45deg, #2c5aa0, #1e3c72);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(44, 90, 160, 0.3);
+        }
+        
+        /* Vert clair - Dosages */
+        .dosage {
+            background: linear-gradient(45deg, #00b894, #55efc4);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(0, 184, 148, 0.3);
+        }
+        
+        /* Bleu clair - Examens prioritaires */
+        .exam-priority {
+            background: linear-gradient(45deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(116, 185, 255, 0.3);
+        }
+        
+        /* Vert - Lignes de traitement */
+        .treatment-line {
+            background: linear-gradient(45deg, #27ae60, #229954);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(39, 174, 96, 0.3);
+        }
+        
+        /* Conseils OSCE - Encadré spécial */
+        .osce-tip {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 18px;
+            border-radius: 10px;
+            margin: 8px 0;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+            position: relative;
+            overflow: hidden;
+            border-left: 4px solid #fff;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .osce-tip::before {
+            content: '💡 ';
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+        
+        .osce-tip::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transform: translate(30px, -30px);
+        }
+        
+        /* Légende des couleurs */
+        .color-legend {
+            background: white;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: none; /* Hidden by default */
+        }
+        
+        .color-legend h3 {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        
+        .legend-item {
+            display: inline-flex;
+            align-items: center;
+            margin: 5px 10px;
+            font-size: 14px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 8px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .controls-row {
+                flex-direction: column;
+            }
+            
+            .search-container {
+                min-width: 100%;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 10px;
+            }
+            
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            .controls, .progress-container, .stats-container {
+                display: none;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+                box-shadow: none;
+            }
+            
+            .section-title {
+                background: #667eea !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            tr:hover {
+                transform: none;
+                box-shadow: none;
+            }
+            
+            /* Préserver les couleurs à l'impression */
+            .urgent, .warning, .highlight, .key-point,
+            .clinical-sign, .dosage, .exam-priority,
+            .treatment-line, .osce-tip {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 Guide Médecine Générale ECOS</h1>
+            <p class="subtitle">Fiches de révision complètes pour l'examen clinique</p>
+        </header>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number">21</div>
+                <div class="stat-label">Sections</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">63</div>
+                <div class="stat-label">Pathologies</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="viewedCount">0</div>
+                <div class="stat-label">Consultées</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="remainingCount">63</div>
+                <div class="stat-label">Restantes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="progressPercent">0%</div>
+                <div class="stat-label">Progression</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="timeSpent">0m</div>
+                <div class="stat-label">Temps passé</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="controls-row">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Rechercher une pathologie, symptôme, traitement...">
+                </div>
+                <button onclick="expandAll()">📖 Tout déplier</button>
+                <button onclick="collapseAll()">📚 Tout replier</button>
+                <button onclick="resetFilters()">🔄 Réinitialiser</button>
+            </div>
+            
+            <div class="controls-row">
+                <div class="filter-tags">
+                    <span style="margin-right: 10px; font-weight: 600;">Filtres:</span>
+                    <div class="filter-tag urgent" data-tag="urgent" onclick="toggleFilter(this)">🚨 Urgences</div>
+                    <div class="filter-tag warning" data-tag="warning" onclick="toggleFilter(this)">⚠️ Alertes</div>
+                    <div class="filter-tag dosage" data-tag="dosage" onclick="toggleFilter(this)">💊 Dosages</div>
+                    <div class="filter-tag osce" data-tag="osce" onclick="toggleFilter(this)">💡 Tips OSCE</div>
+                </div>
+                
+                <div class="section-selector">
+                    <label for="sectionSelect" style="font-weight: 600;">Section:</label>
+                    <select id="sectionSelect" onchange="filterBySection()">
+                        <option value="">Toutes les sections</option>
+                        <option value="">Toutes les sections</option>
+                        <option value="section-1">1. Prévention et Conseil Médical</option>
+                        <option value="section-2">2. Pathologies Hématologiques</option>
+                        <option value="section-3">3. Pathologies Neurologiques</option>
+                        <option value="section-4">4. Pathologies Endocriniennes</option>
+                        <option value="section-5">5. Diabète et Métabolisme</option>
+                        <option value="section-6">6. Pathologies Respiratoires</option>
+                        <option value="section-7">7. Pathologies Digestives</option>
+                        <option value="section-8">8. Pathologies Cardiovasculaires</option>
+                        <option value="section-9">9. Pathologies Infectieuses</option>
+                        <option value="section-10">10. Pathologies Psychiatriques</option>
+                        <option value="section-11">11. Pathologies Rhumatologiques</option>
+                        <option value="section-12">12. Pathologies Pédiatriques</option>
+                        <option value="section-13">13. Pathologies Gériatriques</option>
+                        <option value="section-14">14. Urgences vitales</option>
+                        <option value="section-15">15. Pathologies métaboliques et infectieuses</option>
+                        <option value="section-16">16. Pathologies toxiques</option>
+                        <option value="section-17">17. Troubles hydro-électrolytiques</option>
+                        <option value="section-18">18. Urgences neurologiques et cardio</option>
+                        <option value="section-19">19. Intoxications médicamenteuses</option>
+                        <option value="section-20">20. Urgences métaboliques</option>
+                        <option value="section-21">21. Pathologies neurologiques fréquentes</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="counter" id="counter">
+                <span id="visibleCount">37</span> / 37 pathologies affichées
+            </div>
+        </div>
+        
+        <div class="content">
+
+            <!-- Section 1: Prévention et Conseil Médical -->
+            <div class="section" id="section-1">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    1. Prévention et Conseil Médical
+                    <span class="section-count">7 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-1">
+                                <td class="pathology">Conseil de voyage</td>
+                                <td>Région, durée, type de voyage, hébergement, activités prévues (trekking, rural <span class="exam">vs</span> urbain), vaccins déjà faits, antécédents médicaux, immunodépression, grossesse.</td>
+                                <td>État général, signes infection chronique ou contre-indication vaccination.</td>
+                                <td>Vaccinations spécifiques : hépatite A, hépatite B, <span class="clinical-sign">fièvre</span> jaune, typhoïde, rage, encéphalite japonaise, FSME. Vérifier vaccins de base (tétanos, diphtérie, polio, coqueluche, ROR, varicelle, grippe). Paludisme : prophylaxie adaptée zone (atovaquone-proguanil, méfloquine, doxycycline).</td>
+                                <td>Vaccinations, mesures hygiéno-diététiques (eau, aliments, moustiques, sexualité protégée). Prophylaxie paludisme selon zone. Préparation pharmacie voyage.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours demander statut vaccinal.</div> Insister sur protection moustiques (moustiquaires, répulsifs).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-1">
+                                <td class="pathology">Fatigue</td>
+                                <td>Durée, intensité, impact quotidien, rythme sommeil, ronflements/apnées, humeur (dépression ?), alimentation, règles abondantes, <span class="clinical-sign">fièvre</span>, perte poids, médicaments, contexte psychosocial.</td>
+                                <td>Inspection pâleur, poids, constantes vitales, examen cardio-pulmonaire, thyroïde, abdomen, examen neuro bref.</td>
+                                <td>Bilan de 1ère intention si >4 semaines : <span class="exam">NFS</span>, <span class="exam">CRP</span>, <span class="exam">VS</span>, <span class="exam">TSH</span>, <span class="exam">ferritine</span>, <span class="exam">glycémie</span>, fonction hépatique/rénale, sérologies ciblées. <span class="exam">Radiographie</span> thorax si <span class="clinical-sign">toux</span> ou <span class="clinical-sign">dyspnée</span>. <span class="exam">ECG</span> si <span class="clinical-sign">palpitations</span>.</td>
+                                <td>Selon cause. Hygiène sommeil (horaires réguliers, pas de sieste, <span class="warning">éviter</span> écrans). Sport régulier. Psychothérapie si trouble dépressif. Supplémentation si carence.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours éliminer causes organiques (anémie, hypothyroïdie, cancer) et grossesse chez femme jeune.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-1">
+                                <td class="pathology">Entretien médicamenteux</td>
+                                <td>Lister traitements, indication, observance, effets secondaires, interactions, automédication.</td>
+                                <td>TA, poids, paramètres selon médicaments (ex. pouls si <span class="treatment">bêtabloquant</span>, examen diabète si antidiabétiques).</td>
+                                <td>Bilan biologique adapté (INR si <span class="treatment">AVK</span>, <span class="exam">HbA1c</span> si diabète, créatinine si <span class="treatment">IEC</span>/<span class="treatment">ARA2</span>, <span class="exam">bilan hépatique</span> si statines).</td>
+                                <td>Établir plan médicamenteux clair et écrit. Adapter posologies si besoin. Éducation patient.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours demander observance + vérifier automédication et phytothérapie.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-1">
+                                <td class="pathology">Arrêt tabac</td>
+                                <td>Durée consommation, nombre paquets/année, déclencheurs, motivation, tentatives passées.</td>
+                                <td>Poids, TA, auscultation pulmonaire, souffle cardiaque, saturation.</td>
+                                <td>Test de Fagerström. Évaluation comorbidités (BPCO, HTA, diabète).</td>
+                                <td>Approche motivationnelle. Substituts nicotiniques (patch, gomme, spray). Varénicline, bupropion. Suivi régulier.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur bénéfices rapides arrêt tabac (TA, respiration, </div><span class="warning">risque</span> CV).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-1">
+                                <td class="pathology">Arrêt alcool</td>
+                                <td>Quantité, type, fréquence, contexte social, signes dépendance (CAGE), antécédents sevrage compliqué.</td>
+                                <td>Signes cirrhose (<span class="clinical-sign">ictère</span>, angiomes stellaires, <span class="clinical-sign">ascite</span>), TA, FC, tremblements.</td>
+                                <td><span class="exam">Bilan hépatique</span> (ASAT, ALAT, GGT), <span class="exam">NFS</span>, MCV, CDT, <span class="exam">échographie</span> foie, <span class="exam">sérologie</span> VIH/VHB/VHC.</td>
+                                <td>Sevrage supervisé si dépendance <span class="warning">sévère</span>. Benzodiazépines si sevrage aigu. Acamprosate, naltrexone en maintien. Suivi addictologique.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours préciser </div><span class="warning">risque</span> delirium tremens (<span class="urgent">urgence</span> vitale).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-1">
+                                <td class="pathology">Conseil vaccinal adulte</td>
+                                <td>Vérifier carnet vaccinal. Demander âge, profession, voyage, grossesse, comorbidités (immunodépression, splénectomie).</td>
+                                <td></td>
+                                <td>Vaccins systématiques : DTP, coqueluche, ROR, hépatite B. Vaccins recommandés : grippe annuelle, pneumocoque, zona >65 ans, HPV (jusqu’à 26 ans).</td>
+                                <td>Mise à jour vaccinations, information patient.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : question fréquente sur rattrapage vaccinal et vaccinations professionnelles.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-1">
+                                <td class="pathology">Dépistages en médecine générale</td>
+                                <td>Âge, ATCD familiaux, facteurs <span class="warning">risque</span> cardio-métaboliques, habitudes de vie.</td>
+                                <td>TA, IMC, palpation seins (selon âge), toucher rectal si suspicion prostate.</td>
+                                <td><span class="exam">Mammographie</span> 50–74 ans, <span class="exam">frottis</span> cervico-utérin 25–65 ans, test colorectal 50–74 ans, dépistage HTA/diabète, dépistage VIH/hépatites.</td>
+                                <td>Orientation vers dépistage organisé. Conseils hygiène de vie.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : penser dépistages systématiques selon âge et sexe.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 2: Pathologies Hématologiques -->
+            <div class="section" id="section-2">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    2. Pathologies Hématologiques
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-2">
+                                <td class="pathology">Anémie</td>
+                                <td>Fatigue, <span class="clinical-sign">dyspnée</span>, <span class="clinical-sign">palpitations</span>, céphalées, pâleur, règles abondantes, saignements digestifs, alimentation pauvre en fer ou végétarisme strict, ATCD familiaux (thalassémie, drépanocytose).</td>
+                                <td>Pâleur cutanéo-muqueuse, tachycardie, souffle systolique fonctionnel, glossite, koïlonychie. Palpation foie et rate.</td>
+                                <td><span class="exam">NFS</span>, <span class="exam">frottis</span> sanguin, réticulocytes, <span class="exam">ferritine</span>, transferrine, <span class="exam">B12</span>, <span class="exam">folates</span>, électrophorèse Hb, test hémoccult selles.</td>
+                                <td>Supplémentation fer/<span class="exam">B12</span>/<span class="exam">folates</span> selon cause. Transfusion si anémie <span class="warning">sévère</span> symptomatique. Traitement étiologique (contrôle saignement, régime alimentaire).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours penser grossesse chez femme jeune.</div> Préciser cause probable selon VGM.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-2">
+                                <td class="pathology">Leucémie aiguë</td>
+                                <td>Fatigue, pâleur, infections récidivantes, <span class="clinical-sign">fièvre</span>, hémorragies cutanéo-muqueuses, douleurs osseuses. Début rapide, parfois après infection.</td>
+                                <td>Pâleur, purpura, ecchymoses, gingivorragies, adénopathies diffuses, <span class="clinical-sign">splénomégalie</span>.</td>
+                                <td><span class="exam">NFS</span> : cytopénies + blastes. <span class="exam">Frottis</span> sanguin. Myélogramme (diagnostic). Bilan d’extension (imagerie, <span class="exam">ponction lombaire</span>).</td>
+                                <td>Chimiothérapie intensive ± greffe moelle osseuse. Antibioprophylaxie. Transfusions plaquettes/GR.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="urgent">urgence</span> hématologique. Toujours citer myélogramme = diagnostic.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-2">
+                                <td class="pathology">Lymphome</td>
+                                <td>Adénopathies indolores persistantes, <span class="clinical-sign">sueurs</span> nocturnes, perte poids, <span class="clinical-sign">fièvre</span> inexpliquée (« symptômes B »). ATCD immunosuppression/VIH.</td>
+                                <td>Adénopathies fermes, indolores, non inflammatoires. <span class="clinical-sign">Splénomégalie</span> ± <span class="clinical-sign">hépatomégalie</span>.</td>
+                                <td>Biopsie ganglionnaire excisionnelle (diagnostic). <span class="exam">Scanner</span> TAP ou TEP-scan. Bilan biologique : <span class="exam">LDH</span>, bêta-2 microglobuline.</td>
+                                <td>Chimiothérapie (CHOP ± rituximab). Radiothérapie selon stade. Greffe cellules souches dans formes agressives.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours citer symptômes B + biopsie ganglion comme examen clé.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 3: Pathologies Neurologiques -->
+            <div class="section" id="section-3">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    3. Pathologies Neurologiques
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-3">
+                                <td class="pathology">Accident vasculaire cérébral (AVC)</td>
+                                <td>Début <span class="urgent">brutal</span> déficit moteur, trouble langage, hémianopsie. Facteurs <span class="warning">risque</span> : HTA, diabète, FA, tabac.</td>
+                                <td>Déficit moteur/sensitif d’un hémicorps, <span class="clinical-sign">paralysie</span> faciale centrale, troubles langage. Score NIHSS.</td>
+                                <td><span class="exam">Scanner</span> cérébral sans injection (exclure hémorragie). <span class="exam">IRM</span> diffusion. Bilan cardio-vasculaire (<span class="exam">ECG</span>, ETT, doppler carotides).</td>
+                                <td>AVC ischémique <4h30 : thrombolyse. Thrombectomie mécanique si occlusion gros vaisseau. <span class="treatment">Aspirine</span>, anticoagulation si FA. Rééducation neuro.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur délai 4h30.</div> Toujours début <span class="urgent">brutal</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-3">
+                                <td class="pathology">Épilepsie</td>
+                                <td>Crises répétées, perte connaissance, mouvements toniques/cloniques, morsure langue, perte urine. Déclencheurs : manque sommeil, alcool, lumière clignotante. ATCD familiaux.</td>
+                                <td>Souvent <span class="positive">normal</span> entre crises. Recherche signes trauma (post-ictal).</td>
+                                <td><span class="exam">EEG</span> (diagnostic). Imagerie cérébrale (<span class="exam">IRM</span> cérébrale). Bilan biologique pour causes métaboliques.</td>
+                                <td>Antiépileptiques (<span class="treatment">valproate</span>, <span class="treatment">lamotrigine</span>, <span class="treatment">lévétiracétam</span>). Éducation patient (conduite, travail).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur interdiction temporaire conduite + identifier déclencheurs.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-3">
+                                <td class="pathology">Maladie de Parkinson</td>
+                                <td>Tremblement repos, akinésie, rigidité, marche lente, micrographie. Début progressif après 60 ans.</td>
+                                <td>Faciès figé, tremblement repos, roue dentée, freezing à la marche.</td>
+                                <td>Diagnostic <span class="clinical-sign">clinique</span>. <span class="exam">IRM</span> cérébrale si doute. Test dopathérapie.</td>
+                                <td>L-dopa, agonistes dopaminergiques. Rééducation motrice.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="clinical-sign">triade</span> tremblement, akinésie, rigidité. Diagnostic <span class="clinical-sign">clinique</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-3">
+                                <td class="pathology">Sclérose en plaques (SEP)</td>
+                                <td>Jeune femme. Déficits neurologiques disséminés dans le temps et l’espace : névrite optique, paresthésies, faiblesse, troubles équilibre. Évolution par poussées.</td>
+                                <td>Déficit moteur, hyperréflexie, Babinski, nystagmus, diplopie. Troubles sensibilité. Signes pyramidal + cérébelleux associés.</td>
+                                <td><span class="exam">IRM</span> cérébrale et médullaire (plaques démyélinisation). <span class="exam">PL</span> : bandes oligoclonales. Potentiels évoqués visuels.</td>
+                                <td>Corticoïdes fortes doses en poussée. Traitements de fond (interférons, natalizumab, ocrelizumab). Rééducation fonctionnelle.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur dissémination temps + espace.</div> Souvent femme jeune.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 4: Pathologies Endocriniennes -->
+            <div class="section" id="section-4">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    4. Pathologies Endocriniennes
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-4">
+                                <td class="pathology">Maladie de Basedow (hyperthyroïdie auto-immune)</td>
+                                <td><span class="clinical-sign">Amaigrissement</span> malgré appétit conservé, <span class="clinical-sign">palpitations</span>, nervosité, tremblements, intolérance chaleur, diarrhées, <span class="clinical-sign">sueurs</span>. ATCD familiaux maladies auto-immunes.</td>
+                                <td>Goitre diffus, bruit vasculaire thyroïdien. Tremblements fins. Tachycardie, fibrillation auriculaire possible. Exophtalmie, rétraction palpébrale.</td>
+                                <td><span class="exam">TSH</span> effondrée, T4L augmentée. Anticorps anti-récepteurs <span class="exam">TSH</span> (TRAK). <span class="exam">Échographie</span> thyroïde ± scintigraphie.</td>
+                                <td>Antithyroïdiens de synthèse (carbimazole). β-bloquants pour symptômes. Iode radioactif ou thyroïdectomie si échec. Corticoïdes si orbitopathie.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : penser palpation thyroïde + recherche signes orbitopathie.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-4">
+                                <td class="pathology">Hypothyroïdie</td>
+                                <td>Fatigue, frilosité, <span class="clinical-sign">constipation</span>, prise poids, peau sèche, chute cheveux, voix rauque. Chez femme : troubles menstruels, infertilité.</td>
+                                <td>Faciès bouffi, peau sèche, cheveux cassants, bradycardie, hypothermie. Goitre parfois. Réflexes ostéotendineux ralentis.</td>
+                                <td><span class="exam">TSH</span> élevée, T4L basse. Recherche anticorps anti-TPO/anti-thyroglobuline (thyroïdite Hashimoto).</td>
+                                <td>Lévothyroxine substitution. Ajustement <span class="dosage">dose</span> selon <span class="exam">TSH</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours penser hypothyroïdie si fatigue + frilosité + </div><span class="clinical-sign">constipation</span>.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 5: Diabète et Métabolisme -->
+            <div class="section" id="section-5">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    5. Diabète et Métabolisme
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-5">
+                                <td class="pathology">Diabète de type 1</td>
+                                <td>Polyurie, polydipsie, <span class="clinical-sign">amaigrissement</span> rapide, fatigue, cétonurie. Début jeune, <span class="urgent">brutal</span>. ATCD familiaux auto-immunes.</td>
+                                <td><span class="clinical-sign">Amaigrissement</span>, déshydratation. Haleine cétonique si acidocétose.</td>
+                                <td><span class="exam">Glycémie</span> >1,<span class="dosage">26 g/L</span> à jeun ×2. <span class="exam">HbA1c</span> ≥6,<span class="dosage">5%</span>. Corps cétoniques. Dosages anticorps anti-GAD/IA2.</td>
+                                <td>Insulinothérapie à vie. Éducation thérapeutique (autosurveillance, adaptation doses).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours citer acidocétose = </div><span class="urgent">urgence</span> vitale.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-5">
+                                <td class="pathology">Diabète de type 2</td>
+                                <td>Découverte souvent fortuite. Polyurie, polydipsie, infections cutanées récidivantes, troubles visuels. Facteurs <span class="warning">risque</span> : obésité, sédentarité, ATCD familiaux.</td>
+                                <td>Surpoids/obésité androïde. HTA, acanthosis nigricans, complications (neuropathie, pied diabétique).</td>
+                                <td><span class="exam">Glycémie</span>, <span class="exam">HbA1c</span>. Bilan complications : microalbuminurie, fond d’œil, <span class="exam">ECG</span>, doppler MI.</td>
+                                <td>Mesures hygiéno-diététiques. <span class="treatment">Metformine</span> 1ère intention. Ajout sulfamides, inhibiteurs SGLT2, analogues GLP1. <span class="treatment">Insuline</span> si échec.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur éducation hygiéno-diététique + dépistage complications.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-5">
+                                <td class="pathology"><span class="clinical-sign">Syndrome</span> métabolique</td>
+                                <td>Surpoids abdominal, fatigue, <span class="clinical-sign">dyspnée</span> effort, ATCD familiaux diabète/HTA. Facteurs <span class="warning">risque</span> : sédentarité, alimentation riche.</td>
+                                <td>Tour taille augmenté, obésité abdominale, HTA, signes acanthosis nigricans. Calcul IMC.</td>
+                                <td>Critères NCEP-ATP III (≥3) : tour taille ↑, HTA, <span class="exam">glycémie</span> ≥1,<span class="dosage">10 g/L</span>, triglycérides ↑, HDL bas.</td>
+                                <td>Perte poids, activité physique, régime adapté. Contrôle HTA, diabète, dyslipidémie. Prévention CV.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="clinical-sign">syndrome</span> métabolique = <span class="warning">risque</span> cardiovasculaire majeur.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 6: Pathologies Respiratoires -->
+            <div class="section" id="section-6">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    6. Pathologies Respiratoires
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-6">
+                                <td class="pathology">Asthme</td>
+                                <td><span class="clinical-sign">Dyspnée</span> sifflante par crises, <span class="clinical-sign">toux</span> nocturne, gêne respiratoire à l’effort ou allergènes. ATCD personnels/familiaux d’atopie.</td>
+                                <td>Sibilants diffus, tirage, polypnée. Examen souvent <span class="positive">normal</span> hors crise.</td>
+                                <td>EFR avec réversibilité après <span class="treatment">bronchodilatateur</span>. Peak-flow. Recherche allergènes (tests cutanés, IgE).</td>
+                                <td>Crise : β2-mimétiques inhalés, O₂, corticoïdes oraux si <span class="warning">sévère</span>. Fond : corticoïdes inhalés ± β2 longue durée, éviction allergènes.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : diagnostic = interrogatoire (</div><span class="clinical-sign">dyspnée</span> sifflante nocturne).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-6">
+                                <td class="pathology">BPCO</td>
+                                <td><span class="clinical-sign">Dyspnée</span> progressive, <span class="clinical-sign">toux</span> chronique productive, tabagisme important (tabac ≥20 PA). Exacerbations à répétition.</td>
+                                <td>Thorax distendu, murmure vésiculaire diminué, sibilants, ronchi, hippocratisme digital si emphysème.</td>
+                                <td>EFR : VEMS/CVF <0,7 post-<span class="treatment">bronchodilatateur</span>. Gaz du sang si <span class="warning">sévère</span>. <span class="exam">Scanner</span> thoracique. Score BODE.</td>
+                                <td>Arrêt tabac, bronchodilatateurs (β2/anticholinergiques), corticoïdes inhalés si exacerbations. Oxygénothérapie si hypoxémie chronique.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours demander tabac en PA.</div> Différencier asthme (réversible).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-6">
+                                <td class="pathology">Pneumonie communautaire</td>
+                                <td><span class="clinical-sign">Fièvre</span>, <span class="clinical-sign">toux</span> productive, douleurs thoraciques, <span class="clinical-sign">dyspnée</span>. Facteurs <span class="warning">risque</span> : âge, comorbidités, tabac, alcool.</td>
+                                <td>Crépitants, souffle tubaire, matité. <span class="clinical-sign">Syndrome</span> de condensation pulmonaire.</td>
+                                <td>Radio thorax (infiltrat alvéolaire). <span class="exam">NFS</span>, <span class="exam">CRP</span>. Hémocultures ± antigène urinaire pneumocoque/Légionelle.</td>
+                                <td>Antibiothérapie probabiliste (<span class="treatment">amoxicilline</span> ou <span class="treatment">macrolide</span> selon contexte). Hospitalisation si signes gravité (score CRB-65).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer toujours radio thorax + </div><span class="treatment">ATB</span> empirique rapide.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 7: Pathologies Digestives -->
+            <div class="section" id="section-7">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    7. Pathologies Digestives
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-7">
+                                <td class="pathology">Cirrhose</td>
+                                <td>Fatigue, <span class="clinical-sign">ictère</span>, <span class="clinical-sign">ascite</span>, hémorragies digestives. ATCD alcool, hépatite B/C, stéatopathie métabolique.</td>
+                                <td><span class="clinical-sign">Ictère</span>, angiomes stellaires, érythrose palmaire, <span class="clinical-sign">ascite</span>, circulation collatérale, <span class="clinical-sign">splénomégalie</span>.</td>
+                                <td><span class="exam">Bilan hépatique</span> (ASAT, ALAT, TP, bilirubine). Écho foie + doppler porte. Score Child-Pugh, MELD. <span class="exam">Endoscopie</span> œsogastrique (VO).</td>
+                                <td>Arrêt alcool, traitement cause (AV antiviraux VHB/VHC, régime métabolique). Diurétiques (<span class="treatment">spironolactone</span>/<span class="treatment">furosémide</span>) pour <span class="clinical-sign">ascite</span>. Bêta-bloquants pour VO. Transplantation si décompensée.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours citer dépistage HCC (écho + AFP/6 mois).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-7">
+                                <td class="pathology">Maladie de Crohn</td>
+                                <td><span class="clinical-sign">Diarrhée</span> chronique, douleurs abdominales, <span class="clinical-sign">amaigrissement</span>, aphtes buccaux, fistules anales. Début adulte jeune.</td>
+                                <td><span class="clinical-sign">Douleur</span> fosse iliaque droite, masse abdo parfois. Fissures/fistules anales.</td>
+                                <td><span class="exam">Coloscopie</span> + biopsies (lésions discontinues, ulcérations). <span class="exam">IRM</span> entérographie. <span class="exam">Biologie</span> (<span class="exam">CRP</span>, anémie).</td>
+                                <td>Corticoïdes en poussée. Immunosuppresseurs (azathioprine, méthotrexate). Biothérapies (anti-TNF). Chirurgie si complications.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : Crohn = lésions discontinues, toutes couches.</div> Souvent atteinte iléale.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-7">
+                                <td class="pathology">Rectocolite hémorragique (RCH)</td>
+                                <td>Diarrhées sanglantes, ténesme, épreintes, <span class="clinical-sign">fièvre</span>. Début jeune adulte.</td>
+                                <td><span class="clinical-sign">Douleur</span> FID ou diffuse. État général altéré si poussée <span class="warning">sévère</span>.</td>
+                                <td><span class="exam">Coloscopie</span> (lésions continues, atteinte rectale). Biopsies. Bilan biologique (anémie, <span class="exam">CRP</span>).</td>
+                                <td>5-ASA en traitement fond. Corticoïdes poussée. Immunosuppresseurs ou biothérapies si réfractaire. Chirurgie (coloproctectomie) si formes graves.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : RCH = atteinte continue rectum → colon.</div> Toujours demander rectorragies.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 8: Pathologies Cardiovasculaires -->
+            <div class="section" id="section-8">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    8. Pathologies Cardiovasculaires
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-8">
+                                <td class="pathology">Hypertension artérielle</td>
+                                <td>Souvent asymptomatique. Parfois céphalées, acouphènes, vertiges, <span class="clinical-sign">palpitations</span>. ATCD familiaux HTA, facteurs <span class="warning">risque</span> CV (tabac, diabète, obésité).</td>
+                                <td>TA mesurée correctement (3 mesures, 2 consultations). Recherche souffles (carotidien, abdominal). Examen cœur et reins.</td>
+                                <td>MAPA (holter tensionnel). Bilan biologique (créatinine, kaliémie, <span class="exam">glycémie</span>, bilan lipidique). <span class="exam">ECG</span>. Fond d’œil.</td>
+                                <td>Mesures hygiéno-diététiques. <span class="treatment">IEC</span>/<span class="treatment">ARA2</span>, bêtabloquants, diurétiques, inhibiteurs calciques selon profil.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : préciser méthode mesure TA + citer recherche retentissement viscéral.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-8">
+                                <td class="pathology">Insuffisance cardiaque</td>
+                                <td><span class="clinical-sign">Dyspnée</span> d’effort puis repos, orthopnée, œdèmes MI, nycturie. ATCD infarctus, HTA, valvulopathie.</td>
+                                <td>Crépitants pulmonaires, galop B3, turgescence jugulaire, œdèmes MI. <span class="clinical-sign">Hépatomégalie</span>.</td>
+                                <td><span class="exam">BNP</span>/<span class="exam">NT-proBNP</span>. <span class="exam">ECG</span>. Écho cœur (FEVG, valvules). Radio thorax (cardiomégalie, lignes Kerley).</td>
+                                <td><span class="treatment">IEC</span>/<span class="treatment">ARA2</span>/ARNI, bêtabloquants, <span class="treatment">spironolactone</span>. Diurétiques si congestion. Resynchronisation/DAI selon cas.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : orthopnée + œdèmes MI = penser IC.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-8">
+                                <td class="pathology">Fibrillation auriculaire</td>
+                                <td><span class="clinical-sign">Palpitations</span>, <span class="clinical-sign">dyspnée</span>, fatigabilité, parfois asymptomatique. ATCD HTA, valvulopathie, hyperthyroïdie.</td>
+                                <td>Pouls irrégulier, tachycardie. TA, signes IC.</td>
+                                <td><span class="exam">ECG</span> : arythmie complète irrégulière sans onde P. Bilan thyroïdien. Écho cœur.</td>
+                                <td>Contrôle fréquence (<span class="treatment">bêtabloquant</span>, digoxine) ou rythme (cardioversion). Anticoagulation (score CHA2DS2-VASc).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours parler </div><span class="warning">risque</span> AVC + anticoagulation.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-8">
+                                <td class="pathology">Endocardite infectieuse</td>
+                                <td><span class="clinical-sign">Fièvre</span> prolongée, souffle cardiaque nouveau, embolies périphériques, ATCD valvulopathie/prothèse/IVDA.</td>
+                                <td>Souffle cardiaque, <span class="clinical-sign">splénomégalie</span>, lésions cutanées spécifiques (Janeway, Osler, hémorragies sous-unguéales).</td>
+                                <td>Hémocultures. Écho cœur (végétation). <span class="exam">Biologie</span> (inflammation, anémie).</td>
+                                <td>Antibiotiques <span class="dosage">IV</span> prolongés adaptés. Chirurgie valvulaire si complication.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer critères de Duke (</div><span class="clinical-sign">clinique</span> + imagerie + hémocultures).</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 9: Pathologies Infectieuses -->
+            <div class="section" id="section-9">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    9. Pathologies Infectieuses
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-9">
+                                <td class="pathology">Infection urinaire</td>
+                                <td><span class="clinical-sign">Pollakiurie</span>, brûlures mictionnelles, urgences. Pyélonéphrite : <span class="clinical-sign">fièvre</span>, douleurs lombaires. ATCD IU récidivantes, malformations urinaires.</td>
+                                <td>Sensibilité fosse lombaire (pyélonéphrite). État général, <span class="clinical-sign">fièvre</span>.</td>
+                                <td>BU (leucocytes, nitrites). <span class="exam">ECBU</span> avec <span class="exam">antibiogramme</span>. Bilan sanguin si pyélonéphrite.</td>
+                                <td>Cystite : fosfomycine <span class="dosage">dose</span> unique. Pyélonéphrite : fluoroquinolone ou <span class="treatment">céphalosporine</span>. Adaptation <span class="treatment">ATB</span> selon <span class="exam">antibiogramme</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours différencier cystite </div><span class="exam">vs</span> pyélonéphrite (<span class="clinical-sign">fièvre</span>, <span class="clinical-sign">douleur</span> lombaire).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-9">
+                                <td class="pathology">Infection VIH</td>
+                                <td>Primo-infection : <span class="clinical-sign">fièvre</span>, rash, polyadénopathies. ATCD comportements à <span class="warning">risque</span>. Symptômes opportunistes si tardif.</td>
+                                <td>Adénopathies diffuses, candidose buccale, lésions cutanées, <span class="clinical-sign">amaigrissement</span>.</td>
+                                <td><span class="exam">Sérologie</span> VIH (ELISA + Western Blot/confirmatoire). Charge virale, CD4. Dépistage IST associées.</td>
+                                <td>Trithérapie antirétrovirale (2 INTI + 1 INNTI/INI/IP). Suivi CD4 et charge virale.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : penser dépistage VIH chez toute IST.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-9">
+                                <td class="pathology">Tuberculose pulmonaire</td>
+                                <td><span class="clinical-sign">Toux</span> chronique >3 semaines, <span class="clinical-sign">fièvre</span>, <span class="clinical-sign">sueurs</span> nocturnes, <span class="clinical-sign">amaigrissement</span>, hémoptysies. ATCD voyage pays endémique, contage.</td>
+                                <td>Crépitants apicaux, râles bronchiques. État général altéré.</td>
+                                <td>Radio thorax (cavernes, infiltrats apicaux). IDR ou IGRA. Examen direct BAAR et <span class="exam">culture</span> sur expectorations.</td>
+                                <td>Traitement quadrithérapie 2 mois (isoniazide, rifampicine, pyrazinamide, éthambutol) puis bithérapie 4 mois.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : isolement respiratoire dès suspicion.</div> Toujours demander contage + voyage.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 10: Pathologies Psychiatriques -->
+            <div class="section" id="section-10">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    10. Pathologies Psychiatriques
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-10">
+                                <td class="pathology">Épisode dépressif caractérisé</td>
+                                <td>Humeur triste, anhédonie, fatigue, perte appétit, troubles sommeil, culpabilité, idées noires. Durée >2 semaines. Facteurs déclenchants ? ATCD familiaux ?</td>
+                                <td>Ralentissement psychomoteur, discours pauvre, troubles concentration. Évaluation <span class="warning">risque</span> suicidaire.</td>
+                                <td>Échelles (HDRS, PHQ-9). Bilan somatique minimal (<span class="exam">NFS</span>, <span class="exam">TSH</span>) pour éliminer cause organique.</td>
+                                <td>Psychothérapie. Antidépresseurs <span class="treatment">ISRS</span> en 1ère intention. Hospitalisation si <span class="warning">risque</span> suicidaire élevé.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours évaluer le </div><span class="warning">risque</span> suicidaire.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-10">
+                                <td class="pathology">Schizophrénie</td>
+                                <td>Idées délirantes (persécution, mégalomanie), hallucinations auditives, repli social, discours incohérent. Début adulte jeune. ATCD familiaux.</td>
+                                <td><span class="clinical-sign">Syndrome</span> dissociatif (pensée désorganisée), émoussement affectif, troubles <span class="urgent"><span class="warning">attention</span></span>/mémoire.</td>
+                                <td>Bilan psychiatrique complet. Exclure causes organiques (toxicologie, <span class="exam">TSH</span>, neuro imagerie).</td>
+                                <td>Antipsychotiques (<span class="treatment">olanzapine</span>, <span class="treatment">rispéridone</span>). Psychothérapie + réinsertion sociale. Hospitalisation si <span class="warning">danger</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : différencier trouble psychotique aigu </div><span class="exam">vs</span> schizophrénie chronique.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-10">
+                                <td class="pathology">Trouble anxieux généralisé</td>
+                                <td>Anxiété persistante >6 mois, préoccupations excessives, insomnie, irritabilité, céphalées, tensions musculaires.</td>
+                                <td>Souvent <span class="positive">normal</span>. Signes somatiques d’anxiété (tachycardie, <span class="clinical-sign">sueurs</span>, tremblements).</td>
+                                <td>Exclure cause somatique (<span class="exam">TSH</span>, <span class="exam">ECG</span>, bilan bio). Échelles anxiété (GAD-7).</td>
+                                <td>TCC en 1ère intention. <span class="treatment">ISRS</span>/IRSNA si <span class="warning">sévère</span>. Benzodiazépines court terme uniquement.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours demander retentissement vie quotidienne (travail, famille).</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 11: Pathologies Rhumatologiques -->
+            <div class="section" id="section-11">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    11. Pathologies Rhumatologiques
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-11">
+                                <td class="pathology">Polyarthrite rhumatoïde</td>
+                                <td>Douleurs articulaires inflammatoires (raideur matinale >30 min, polyarthrite symétrique). Début progressif. ATCD auto-immunité.</td>
+                                <td>Arthrite bilatérale poignets, MCP, <span class="treatment">IPP</span>. Déformation mains (doigts en col de cygne, boutonnière). Nodules rhumatoïdes.</td>
+                                <td>FR, anti-CCP positifs. <span class="exam">VS</span>, <span class="exam">CRP</span> élevées. Radio mains/pieds (érosions).</td>
+                                <td>Méthotrexate 1ère intention. Corticoïdes court terme. Biothérapies (anti-TNF, anti-IL6) si échec.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours insister sur raideur matinale et caractère symétrique.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-11">
+                                <td class="pathology">Goutte</td>
+                                <td>Crise <span class="urgent">brutale</span> <span class="clinical-sign">douleur</span> articulaire (MTP1 typique = podagre). Facteurs : alcool, excès viande/abats, diurétiques. ATCD hyperuricémie.</td>
+                                <td>Arthrite aiguë monoarticulaire rouge, chaude, douloureuse. Tophi chroniques dans formes évoluées.</td>
+                                <td>Uricémie (parfois normale en crise). Ponction articulaire : cristaux urate biréfringents. Radio tardive : érosions.</td>
+                                <td>Crise : <span class="treatment">AINS</span>, colchicine, corticoïdes. Fond : allopurinol, fébuxostat. Régime alimentaire (limiter alcool, viandes rouges).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : préciser que diagnostic = cristaux urate à l’examen du liquide articulaire.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 12: Pathologies Pédiatriques -->
+            <div class="section" id="section-12">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    12. Pathologies Pédiatriques
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-12">
+                                <td class="pathology">Bronchiolite du nourrisson</td>
+                                <td>Nourrisson <2 ans. Rhinorrhée, <span class="clinical-sign">toux</span>, <span class="clinical-sign">fièvre</span> modérée, gêne respiratoire, difficultés alimentaires. Contage viral (fratrie).</td>
+                                <td>Polypnée, tirage, battements ailes nez, sibilants, crépitants. Désaturation possible.</td>
+                                <td><span class="clinical-sign">Clinique</span>. Pas de radio systématique. Gaz du sang si <span class="warning">sévère</span>.</td>
+                                <td>Oxygénothérapie si SatO₂ <<span class="dosage">92%</span>. Hydratation. Lavage nasal. Surveillance hospitalière si <6 semaines, prématurité, apnées.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : préciser surveillance respi + alimentation.</div> Antibiotiques inutiles.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-12">
+                                <td class="pathology">Coqueluche</td>
+                                <td><span class="clinical-sign">Toux</span> quinteuse persistante >2 semaines, apnées, vomissements post-<span class="clinical-sign">toux</span>. Contage familial. Vaccination incomplète.</td>
+                                <td>Accès de <span class="clinical-sign">toux</span> quinteuse. Bruit inspiratoire caractéristique (chant du coq). Apnées nourrisson.</td>
+                                <td><span class="exam">PCR</span> Bordetella pertussis sur aspiration nasopharyngée.</td>
+                                <td>Macrolides. Isolement. Vaccination entourage (cocooning).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : penser chez nourrisson non vacciné avec apnées.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-12">
+                                <td class="pathology">Retard de développement psychomoteur</td>
+                                <td>Non-acquisition étapes développement (s’asseoir, marcher, langage). Grossesse/accouchement compliqués ? ATCD familiaux ?</td>
+                                <td>Courbes croissance. Examen neuro complet. Dysmorphie éventuelle.</td>
+                                <td>Bilan étiologique : génétique (caryotype, CGH-array), métabolique, imagerie cérébrale. Audiogramme/vision.</td>
+                                <td>Prise en charge pluridisciplinaire (orthophonie, psychomotricité, kiné). Orientation neuropédiatrie.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur dépistage </div><span class="urgent">précoce</span> + accompagnement parents.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 13: Pathologies Gériatriques -->
+            <div class="section" id="section-13">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    13. Pathologies Gériatriques
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-13">
+                                <td class="pathology"><span class="clinical-sign">Syndrome</span> confusionnel aigu (delirium)</td>
+                                <td>Installation aiguë, fluctuations vigilance, désorientation, hallucinations. Facteurs déclenchants fréquents : infection, médicaments, déshydratation, trouble métabolique.</td>
+                                <td>Troubles <span class="urgent"><span class="warning">attention</span></span>, agitation ou hypoactivité, inversion rythme nycthéméral. Examen complet (somatique + neuro).</td>
+                                <td>Recherche cause : <span class="exam">NFS</span>, iono, <span class="exam">glycémie</span>, <span class="exam">CRP</span>, BU, radio thorax, <span class="exam">ECG</span>. <span class="exam">Scanner</span> cérébral si trauma ou déficit focal.</td>
+                                <td>Traitement cause. Réhydratation, correction troubles métaboliques. Contention médicamenteuse (neuroleptiques faibles doses) uniquement si <span class="warning">danger</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : question classique.</div> Toujours rechercher cause organique.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-13">
+                                <td class="pathology">Chute du sujet âgé</td>
+                                <td>Circonstances chute (syncopal <span class="exam">vs</span> mécanique). Médicaments (hypotenseurs, psychotropes). ATCD chutes. Facteurs environnementaux (obstacles domicile).</td>
+                                <td>TA couchée/debout (hypotension orthostatique). Examen cardio, neuro, locomoteur. Recherche trauma (fracture col fémur).</td>
+                                <td><span class="exam">ECG</span> (trouble rythme). Bilan bio (<span class="exam">NFS</span>, iono). Imagerie ciblée si trauma. Bilan marche (kiné, ergo).</td>
+                                <td>Correction facteurs (médicaments, environnement). Rééducation équilibre. Aides techniques (canne, déambulateur).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : chute chez PA = toujours rechercher cause multifactorielle.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 14: Urgences vitales -->
+            <div class="section" id="section-14">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    14. Urgences vitales
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-14">
+                                <td class="pathology">Choc anaphylactique</td>
+                                <td>Début <span class="urgent">brutal</span> après allergène (médicament, piqûre, aliment). <span class="clinical-sign">Prurit</span>, urticaire, <span class="clinical-sign">malaise</span>, <span class="clinical-sign">dyspnée</span>, dysphonie, <span class="clinical-sign">palpitations</span>.</td>
+                                <td>Hypotension, tachycardie, détresse respiratoire (sibilants, stridor), <span class="clinical-sign">œdème</span> lèvres/langue, urticaire généralisée.</td>
+                                <td>Diagnostic <span class="clinical-sign">clinique</span> <span class="urgent">immédiat</span>. Pas d’attente examens. ± Tryptase post-crise.</td>
+                                <td>Adrénaline <span class="dosage">IM</span> immédiatement (0,<span class="dosage">5 mg</span> adulte, 0,<span class="dosage">01 mg/kg</span> enfant). O₂, remplissage, β2 inhalés si bronchospasme. Hospitalisation surveillance.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mot-clé = Adrénaline </div><span class="dosage">IM</span>. Citer site injection : face antéro-latérale cuisse.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-14">
+                                <td class="pathology">Arrêt cardio-respiratoire (ACR)</td>
+                                <td>Survient <span class="urgent">brutalement</span>. Pas de conscience, pas de respiration <span class="positive">efficace</span>. ATCD cardiaque souvent.</td>
+                                <td>Inconscience, absence ventilation, absence pouls central. Pupilles fixes.</td>
+                                <td>Diagnostic <span class="clinical-sign">clinique</span> <span class="urgent">immédiat</span>. <span class="exam">ECG</span> si reprise activité.</td>
+                                <td>Appeler aide + massage cardiaque externe 30:2 + DSA/DEA dès dispo. Adrénaline <span class="dosage">IV</span> et amiodarone selon protocole ALS.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer les 3 mots clés = Appeler / Masser / Défibriller.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-14">
+                                <td class="pathology"><span class="clinical-sign">Douleur</span> thoracique aiguë aux urgences</td>
+                                <td><span class="clinical-sign">Douleur</span> constrictive rétrosternale, irradiation bras gauche/mâchoire, durée >20 min. Facteurs <span class="warning">risque</span> CV. Différentiel : EP, dissection aortique, péricardite.</td>
+                                <td>Constantes (TA, FC, SatO₂). Auscultation cardio-pulmonaire. Recherche signes IC ou choc.</td>
+                                <td><span class="exam">ECG</span> 12 dérivations en <span class="urgent">urgence</span>. Troponines. Radio thorax. ± <span class="exam">D-dimères</span>, angio-<span class="exam">TDM</span> si suspicion EP. Écho cœur.</td>
+                                <td>O₂ si Sat <<span class="dosage">90%</span>. <span class="treatment">Aspirine</span>, anticoagulation, dérivés nitrés, <span class="treatment">morphine</span> si besoin. Coronarographie en <span class="urgent">urgence</span> si STEMI.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : dire systématiquement </div><span class="exam">ECG</span> + troponines. Toujours évoquer 3 DD vitaux : SCA, EP, dissection.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 15: Pathologies métaboliques et infectieuses -->
+            <div class="section" id="section-15">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    15. Pathologies métaboliques et infectieuses
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-15">
+                                <td class="pathology">Acidocétose diabétique</td>
+                                <td>Diabétique type 1 (ou type 2 insulinodépendant). Polyuro-polydipsie, <span class="clinical-sign">amaigrissement</span>, douleurs abdominales, nausées, confusion. Facteurs déclenchants : infection, arrêt <span class="treatment">insuline</span>.</td>
+                                <td>Déshydratation, tachypnée de Kussmaul, haleine cétonique, TA basse, obnubilation possible.</td>
+                                <td><span class="exam">Glycémie</span> > 2,<span class="dosage">5 g/L</span>, cétonurie/cétonémie positive, pH < 7,30, bicarbonates < <span class="dosage">18 mmol/L</span>, <span class="exam">ionogramme</span> sanguin (troubles K+).</td>
+                                <td>Réhydratation <span class="dosage">IV</span> (NaCl 0,<span class="dosage">9%</span>), <span class="treatment">insuline</span> <span class="dosage">IV</span> continue, correction potassium, traiter facteur déclenchant.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur correction K+ en parallèle </div><span class="treatment">insuline</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-15">
+                                <td class="pathology">Sepsis / Choc septique</td>
+                                <td><span class="clinical-sign">Fièvre</span>, <span class="clinical-sign">frissons</span>, <span class="clinical-sign">malaise</span>, altération conscience. Contexte infectieux (pneumonie, IU, plaie).</td>
+                                <td>TA basse, tachycardie, marbrures, oligurie, polypnée. Rechercher point d’appel infectieux.</td>
+                                <td><span class="exam">NFS</span>, <span class="exam">CRP</span>, hémocultures avant <span class="treatment">ATB</span>. Lactates sanguins. Imagerie selon foyer suspect.</td>
+                                <td>Remplissage vasculaire (<span class="dosage">30 mL/kg</span>), <span class="treatment">ATB</span> <span class="dosage">IV</span> probabilistes en <span class="urgent">urgence</span> (<1h), noradrénaline si hypotension persistante. Prise en charge réa.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mot-clé = </div><span class="treatment">ATB</span> probabiliste rapide + remplissage <span class="dosage">IV</span> massif.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 16: Pathologies toxiques -->
+            <div class="section" id="section-16">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    16. Pathologies toxiques
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-16">
+                                <td class="pathology">Intoxication au <span class="treatment">paracétamol</span></td>
+                                <td>Prise massive volontaire ou accidentelle. Début asymptomatique puis douleurs abdominales, vomissements, <span class="clinical-sign">ictère</span> retardé.</td>
+                                <td>Parfois <span class="positive">normal</span> initialement. <span class="clinical-sign">Hépatomégalie</span> douloureuse, <span class="clinical-sign">ictère</span> tardif.</td>
+                                <td>Dosage <span class="treatment">paracétamol</span> plasmatique (courbe de Rumack-Matthew). <span class="exam">Bilan hépatique</span> (ASAT, ALAT, TP).</td>
+                                <td>N-acétylcystéine <span class="dosage">IV</span>/<span class="dosage">PO</span> si <span class="dosage">dose</span> toxique ou dosage plasmatique au-dessus seuil. Hospitalisation.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer antidote NAC systématiquement.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-16">
+                                <td class="pathology">Intoxication au CO (monoxyde de carbone)</td>
+                                <td>Exposition chauffage/poêle défectueux. Céphalées, vertiges, nausées, confusion, coma. Contexte collectif (plusieurs personnes atteintes).</td>
+                                <td>Peau rosée « carminée » (rare). Signes neuro (troubles conscience, convulsions).</td>
+                                <td>Dosage carboxyhémoglobine artériel (GDS). <span class="exam">ECG</span>, troponines.</td>
+                                <td>Oxygénothérapie haut débit au masque. Oxygénothérapie hyperbare si COHb ><span class="dosage">25%</span> ou signes neurologiques.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : penser intox collective + traitement = O₂ </div><span class="urgent">immédiat</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-16">
+                                <td class="pathology">Intoxication alcoolique aiguë</td>
+                                <td>Prise massive éthylique. Troubles conscience, agitation, amnésie, vomissements. ATCD addictions.</td>
+                                <td>Halitose éthylique, nystagmus, hypoglycémie, hypothermie, coma si <span class="warning">sévère</span>.</td>
+                                <td>Alcoolémie. Bilan <span class="exam">glycémie</span>, <span class="exam">ionogramme</span>, fonction hépatique. <span class="exam">ECG</span> si troubles rythme.</td>
+                                <td>Surveillance + protection voies aériennes. Correction hypoglycémie (glucose <span class="dosage">IV</span>). Vit B1 systématique. Réhydratation.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours citer vitamine B1 avant glucose pour </div><span class="warning">éviter</span> encéphalopathie de Wernicke.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 17: Troubles hydro-électrolytiques -->
+            <div class="section" id="section-17">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    17. Troubles hydro-électrolytiques
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-17">
+                                <td class="pathology">Hyperkaliémie <span class="warning">sévère</span></td>
+                                <td>Contexte : IR, traitement <span class="treatment">IEC</span>/<span class="treatment">ARA2</span>, <span class="treatment">spironolactone</span>, rhabdomyolyse. <span class="clinical-sign">Palpitations</span>, faiblesse musculaire, paresthésies.</td>
+                                <td>Parfois <span class="positive">normal</span>. Faiblesse musculaire, <span class="clinical-sign">paralysie</span> flasque.</td>
+                                <td><span class="exam">ECG</span> : ondes T amples et pointues, QRS élargi, bradycardie. Kaliémie > 6,<span class="dosage">5 mmol/L</span>.</td>
+                                <td>Gluconate de calcium <span class="dosage">IV</span> (cardioprotection). <span class="treatment">Insuline</span> + glucose <span class="dosage">IV</span>. Bêta-2-mimétiques inhalés. Résines échangeuses ou dialyse si rebelle.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer systématiquement </div><span class="exam">ECG</span> + calcium <span class="dosage">IV</span> en <span class="urgent">urgence</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-17">
+                                <td class="pathology">Hyponatrémie aiguë</td>
+                                <td>Contexte : SIADH (pneumonie, tumeurs), pertes digestives, diurétiques. Céphalées, confusion, convulsions, coma si <<span class="dosage">120 mmol/L</span> rapide.</td>
+                                <td>Signes neuro (troubles conscience, convulsions). Etat d’hydratation (eu/ hypo/hypervolémie).</td>
+                                <td>Natrémie <<span class="dosage">135 mmol/L</span>. Osmolarité plasmatique/urinaire. <span class="exam">Ionogramme</span> complet.</td>
+                                <td>Restriction hydrique si SIADH. Perfusion NaCl hypertonique <span class="dosage">3%</span> si symptômes neuro graves (lentement).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur correction progressive pour </div><span class="warning">éviter</span> myélinolyse.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 18: Urgences neurologiques et cardio -->
+            <div class="section" id="section-18">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    18. Urgences neurologiques et cardio
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-18">
+                                <td class="pathology">AVC ischémique aigu</td>
+                                <td>Déficit neurologique <span class="urgent">brutal</span> (hémiparésie, aphasie, hémianopsie). Facteurs <span class="warning">risque</span> : HTA, FA, diabète.</td>
+                                <td>Déficit focal neurologique. NIHSS pour quantifier gravité.</td>
+                                <td><span class="exam">Scanner</span> cérébral sans injection en <span class="urgent">urgence</span> (exclure hémorragie). <span class="exam">ECG</span>, bilan bio (<span class="exam">NFS</span>, coagulation, <span class="exam">glycémie</span>).</td>
+                                <td>Thrombolyse <span class="dosage">IV</span> <4h30 si éligible. Thrombectomie mécanique <6h (jusqu’à 24h si critères). Contrôle TA, <span class="exam">glycémie</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mot-clé = </div><span class="exam">scanner</span> sans injection <span class="urgent">immédiat</span> + délai 4h30 thrombolyse.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-18">
+                                <td class="pathology">Etat de mal épileptique</td>
+                                <td>Crise tonico-clonique généralisée >5 min ou crises répétées sans reprise conscience. ATCD épilepsie ou causes aiguës (AVC, intox).</td>
+                                <td>Convulsions persistantes. Glasgow bas. Cyanose possible.</td>
+                                <td><span class="exam">ECG</span>, <span class="exam">ionogramme</span>, <span class="exam">glycémie</span>, toxiques. <span class="exam">EEG</span> si dispo.</td>
+                                <td>Benzodiazépines <span class="dosage">IV</span> (diazépam/midazolam). Si persistant : phénytoïne/<span class="treatment">valproate</span>/levetiracetam. Intubation + anesthésiques si réfractaire.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : geste </div><span class="urgent">immédiat</span> = <span class="treatment">benzodiazépine</span> <span class="dosage">IV</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-18">
+                                <td class="pathology"><span class="clinical-sign">Syndrome</span> coronarien aigu (SCA)</td>
+                                <td><span class="clinical-sign">Douleur</span> thoracique constrictive >20 min, irradiation bras/jaw, facteurs <span class="warning">risque</span> CV. Début au repos.</td>
+                                <td>TA, FC, SatO₂. Souffle, râles, signes insuffisance cardiaque.</td>
+                                <td><span class="exam">ECG</span> 12 dérivations (STEMI <span class="exam">vs</span> NSTEMI). Troponines. Radio thorax ± écho cœur.</td>
+                                <td><span class="treatment">Aspirine</span> <span class="dosage">250 mg</span>, <span class="treatment">héparine</span> <span class="dosage">IV</span>, O₂ si Sat<<span class="dosage">90%</span>, <span class="treatment">morphine</span> si douleurs. Reperfusion (angioplastie <120 min, thrombolyse si pas d’accès).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer systématiquement </div><span class="exam">ECG</span> + troponines + appel cardiologue pour coronarographie.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 19: Intoxications médicamenteuses -->
+            <div class="section" id="section-19">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    19. Intoxications médicamenteuses
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-19">
+                                <td class="pathology">Intoxication aux benzodiazépines</td>
+                                <td>Ingestion massive volontaire ou accidentelle. Somnolence, troubles mémoire, ataxie, coma calme.</td>
+                                <td>Myorelaxation, hypotonie, hypoventilation si co-intox alcool/opiacés. Pupilles normales.</td>
+                                <td>Dosage benzodiazépines sanguin (rare). Bilan toxico large.</td>
+                                <td>Surveillance, ventilation si nécessaire. Flumazénil antidote mais réservé (<span class="warning">risque</span> convulsions).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : dire PEC = surveillance + ventilation.</div> Antidote flumazénil réservé cas exceptionnels.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-19">
+                                <td class="pathology">Intoxication aux antidépresseurs tricycliques</td>
+                                <td>Prise volontaire. Somnolence, convulsions, troubles rythme cardiaque, coma.</td>
+                                <td>Hypotension, tachycardie, mydriase, signes anticholinergiques (sécheresse, rétention). <span class="exam">ECG</span> : QRS élargi, troubles conduction.</td>
+                                <td><span class="exam">ECG</span> systématique. <span class="exam">Ionogramme</span>, gaz du sang.</td>
+                                <td>Surveillance en soins intensifs. Bicarbonates <span class="dosage">IV</span> si QRS >100 ms. Traitement convulsions par benzodiazépines.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : signe clé = QRS élargi → donner bicarbonates </div><span class="dosage">IV</span>.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 20: Urgences métaboliques -->
+            <div class="section" id="section-20">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    20. Urgences métaboliques
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-20">
+                                <td class="pathology">Hypoglycémie <span class="warning">sévère</span></td>
+                                <td>Diabétique sous <span class="treatment">insuline</span>/sulfamides. Symptômes neurovégétatifs (<span class="clinical-sign">sueurs</span>, tremblements, <span class="clinical-sign">palpitations</span>) puis neuroglycopéniques (troubles conscience, convulsions, coma).</td>
+                                <td>Confusion, convulsions, coma. TA parfois basse.</td>
+                                <td><span class="exam">Glycémie</span> capillaire <0,<span class="dosage">7 g/L</span>. <span class="exam">Ionogramme</span> ± <span class="exam">ECG</span>.</td>
+                                <td>Glucose <span class="dosage">IV</span> (30–<span class="dosage">50 mL</span> G30%). Glucagon <span class="dosage">IM</span> si accès <span class="dosage">IV</span> impossible. Adapter traitement de fond.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : geste clé = mesurer </div><span class="exam">glycémie</span> capillaire immédiatement.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-20">
+                                <td class="pathology">Crise d’hypercalcémie maligne</td>
+                                <td>Contexte cancer (poumon, sein, rein). Fatigue, nausées, vomissements, polyurie, soif, confusion, coma.</td>
+                                <td>Déshydratation, troubles conscience. <span class="exam">ECG</span> : QT court.</td>
+                                <td>Calcémie >3,<span class="dosage">5 mmol/L</span>. <span class="exam">Ionogramme</span>, fonction rénale. <span class="exam">ECG</span> systématique.</td>
+                                <td>Perfusion NaCl 0,<span class="dosage">9%</span> abondante. Bisphosphonates <span class="dosage">IV</span> (zolédronate). Calcitonine si <span class="urgent">urgence</span>. Dialyse si échec.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mot-clé = perfusion abondante NaCl + bisphosphonates.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 21: Pathologies neurologiques fréquentes -->
+            <div class="section" id="section-21">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    21. Pathologies neurologiques fréquentes
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-21">
+                                <td class="pathology">Crise d’épilepsie / Épilepsie</td>
+                                <td>Perte de connaissance <span class="urgent">brutale</span>, chute, mouvements tonico-cloniques, morsure langue, confusion post-<span class="urgent">critique</span>. ATCD familiaux ou causes secondaires (trauma, AVC, tumeur).</td>
+                                <td>Post-<span class="urgent">critique</span> : confusion, <span class="clinical-sign">céphalée</span>, déficit transitoire (Todd). Examen neuro souvent <span class="positive">normal</span> après.</td>
+                                <td><span class="exam">EEG</span> (pointes-ondes). Imagerie cérébrale (<span class="exam">IRM</span>). Bilan métabolique/toxico si première crise.</td>
+                                <td>PEC crise : position latérale sécurité. TTT fond : <span class="treatment">valproate</span>, <span class="treatment">lamotrigine</span>, levetiracetam selon profil. <span class="warning">Éviter</span> déclencheurs (manque sommeil, alcool).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer </div><span class="exam">PL</span> en <span class="urgent">urgence</span> si suspicion méningite/encéphalite + toujours rechercher facteur déclenchant 1ère crise.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-21">
+                                <td class="pathology">Sclérose en plaques (SEP)</td>
+                                <td>Jeune adulte, femme ++. Poussées neurologiques régressives (troubles visuels, moteurs, sensitifs, urinaires). Diplopie, névrite optique douloureuse fréquente.</td>
+                                <td>Déficits neurologiques disséminés dans le temps et l’espace. Nystagmus, <span class="clinical-sign">syndrome</span> pyramidal, réflexes vifs.</td>
+                                <td><span class="exam">IRM</span> cérébrale et médullaire (plaques démyélinisation). <span class="exam">PL</span> (bandes oligoclonales IgG). Potentiels évoqués.</td>
+                                <td>Corticoïdes <span class="dosage">IV</span> (poussées). Immunomodulateurs de fond (interférons, anti-CD20, fingolimod). Rééducation neuro.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer critères de dissémination spatio-temporelle (</div><span class="exam">IRM</span> + <span class="clinical-sign">clinique</span>).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-21">
+                                <td class="pathology"><span class="clinical-sign">Syndrome</span> de Guillain-Barré</td>
+                                <td><span class="clinical-sign">Paralysie</span> ascendante progressive, symétrique, après infection virale (Campylobacter, EBV). Paresthésies. Troubles déglutition/respiration.</td>
+                                <td>Déficit moteur symétrique, aréflexie. Atteinte nerfs crâniens possible. Pas d’atteinte sensitive objective marquée.</td>
+                                <td><span class="exam">PL</span> : dissociation albumino-cytologique (protéines ↑, cellules normales). ENMG : démyélinisation. Spirométrie (CVF).</td>
+                                <td>Hospitalisation réa. IgIV ou plasmaphérèse. Surveillance respi. Rééducation.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="urgent">urgence</span> = <span class="warning">risque</span> d’insuffisance respiratoire → CVF à surveiller.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-21">
+                                <td class="pathology">Myasthénie <span class="warning">grave</span></td>
+                                <td>Fatigue musculaire fluctuante, aggravée à l’effort, améliorée au repos. Diplopie, ptosis, troubles déglutition, voix nasonnée. Début adulte jeune (formes auto-immunes).</td>
+                                <td>Ptosis asymétrique, fatigabilité muscles oculaires et bulbaires. Test glaçon positif (<span class="positive">amélioration</span> ptosis au froid).</td>
+                                <td>Dosage Ac anti-récepteurs AChR/MuSK. ENMG (décrément). <span class="exam">Scanner</span> thorax (thymome).</td>
+                                <td>Anticholinestérasiques (pyridostigmine). Corticoïdes/immunosuppresseurs. Thymectomie si thymome. IgIV/plasmaphérèse si crise myasthénique.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mot-clé = fatigabilité musculaire fluctuante.</div> Toujours rechercher thymome.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+        // Variables globales
+        let viewedPathologies = new Set();
+        let activeFilters = new Set();
+        let startTime = Date.now();
+        let totalPathologies = 63;
+        
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCounter();
+            updateProgress();
+            
+            // Mise à jour du temps passé
+            setInterval(updateTimeSpent, 60000);
+            
+            // Observer pour marquer les pathologies comme vues
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const row = entry.target;
+                        if (row.classList.contains('pathology-row')) {
+                            viewedPathologies.add(row);
+                            updateProgress();
+                        }
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                observer.observe(row);
+            });
+        });
+        
+        // Fonction de recherche améliorée
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const sections = document.querySelectorAll('.section');
+            let visibleCount = 0;
+            
+            sections.forEach(section => {
+                const rows = section.querySelectorAll('.pathology-row');
+                let sectionHasVisible = false;
+                
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                    const matchesFilters = activeFilters.size === 0 || 
+                        Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                    
+                    if (matchesSearch && matchesFilters) {
+                        row.style.display = '';
+                        sectionHasVisible = true;
+                        visibleCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+                
+                // Masquer la section si aucune pathologie visible
+                section.style.display = sectionHasVisible ? '' : 'none';
+            });
+            
+            updateCounter(visibleCount);
+        });
+        
+        // Toggle section (expand/collapse)
+        function toggleSection(section) {
+            section.classList.toggle('collapsed');
+        }
+        
+        // Fonction pour tout déplier
+        function expandAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('collapsed');
+            });
+        }
+        
+        // Fonction pour tout replier
+        function collapseAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.add('collapsed');
+            });
+        }
+        
+        // Toggle filter
+        function toggleFilter(filterElement) {
+            const tag = filterElement.dataset.tag;
+            filterElement.classList.toggle('active');
+            
+            if (activeFilters.has(tag)) {
+                activeFilters.delete(tag);
+            } else {
+                activeFilters.add(tag);
+            }
+            
+            applyFilters();
+        }
+        
+        // Appliquer les filtres
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const sectionFilter = document.getElementById('sectionSelect').value;
+            const rows = document.querySelectorAll('.pathology-row');
+            let visibleCount = 0;
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                const matchesSection = sectionFilter === '' || row.dataset.section === sectionFilter;
+                const matchesTags = activeFilters.size === 0 || 
+                    Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                
+                if (matchesSearch && matchesSection && matchesTags) {
+                    row.style.display = '';
+                    row.closest('.section').style.display = '';
+                    visibleCount++;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+            
+            // Masquer les sections vides
+            document.querySelectorAll('.section').forEach(section => {
+                const visibleRows = section.querySelectorAll('.pathology-row:not([style*="display: none"])');
+                if (visibleRows.length === 0) {
+                    section.style.display = 'none';
+                }
+            });
+            
+            updateCounter(visibleCount);
+        }
+        
+        // Filtrer par section
+        function filterBySection() {
+            applyFilters();
+        }
+        
+        // Réinitialiser les filtres
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('sectionSelect').value = '';
+            document.querySelectorAll('.filter-tag').forEach(tag => {
+                tag.classList.remove('active');
+            });
+            activeFilters.clear();
+            
+            // Afficher toutes les sections et pathologies
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = '';
+                section.classList.remove('collapsed');
+            });
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                row.style.display = '';
+            });
+            
+            updateCounter(totalPathologies);
+        }
+        
+        // Mettre à jour le compteur
+        function updateCounter(count = null) {
+            if (count === null) {
+                count = document.querySelectorAll('.pathology-row:not([style*="display: none"])').length;
+            }
+            document.getElementById('visibleCount').textContent = count;
+        }
+        
+        // Mettre à jour la progression
+        function updateProgress() {
+            const viewed = viewedPathologies.size;
+            const remaining = totalPathologies - viewed;
+            const percent = Math.round((viewed / totalPathologies) * 100);
+            
+            document.getElementById('viewedCount').textContent = viewed;
+            document.getElementById('remainingCount').textContent = remaining;
+            document.getElementById('progressPercent').textContent = percent + '%';
+            document.getElementById('progressFill').style.width = percent + '%';
+            document.getElementById('progressFill').textContent = percent + '%';
+        }
+        
+        // Mettre à jour le temps passé
+        function updateTimeSpent() {
+            const minutes = Math.floor((Date.now() - startTime) / 60000);
+            const hours = Math.floor(minutes / 60);
+            const mins = minutes % 60;
+            const timeStr = hours > 0 ? `${hours}h ${mins}m` : `${mins}m`;
+            document.getElementById('timeSpent').textContent = timeStr;
+        }
+        
+        // Raccourcis clavier
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + F pour focus sur recherche
+            if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                e.preventDefault();
+                document.getElementById('searchInput').focus();
+            }
+            
+            // Escape pour réinitialiser les filtres
+            if (e.key === 'Escape') {
+                resetFilters();
+            }
+            
+            // Alt + E pour tout déplier
+            if (e.altKey && e.key === 'e') {
+                e.preventDefault();
+                expandAll();
+            }
+            
+            // Alt + C pour tout replier
+            if (e.altKey && e.key === 'c') {
+                e.preventDefault();
+                collapseAll();
+            }
+        });
+    </script>
+</body>
+</html>

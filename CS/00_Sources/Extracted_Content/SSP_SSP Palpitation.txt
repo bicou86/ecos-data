@@ -1,0 +1,83 @@
+Palpitation
+Anamnèse
+1. Caractériser les palpitations
+a. Localisation (cou)
+b. Qualité
+i. Bat très vite
+ii. Fort mais lent
+iii. Régulier/irrégulier
+c. Facteurs aggravants / soulageants
+d. Chronologie
+i. Depuis quand
+ii. Début brusque ?
+iii. Évolution
+iv. Condition de survenues
+1. Repos / effort
+2. Symptômes associés
+a. Douleurs thoraciques
+b. Dyspnée
+i. Condition de survenue
+ii. Classification (périmètre de marche, nb étage etc)
+iii. Chronologie
+c. Toux
+i. Depuis quand
+ii. Fréquence
+iii. Qualité (sèche, grasse)
+iv. Expectoration
+1. Couleur
+2. Sang
+d. Œdèmes des membres inférieurs
+e. Orthopnée
+3. Syncope
+4. ATCD et comorbidités
+a. Maladie
+b. Hospitalisations
+c. Opération (récente ?)
+d. Médicaments
+e. Allergies
+5. ATCD familiaux
+
+Examen clinique
+1. Inspection
+a. Extrémités (ongles)
+b. Langue
+c. Recoloration capillaire
+d. Thorax et mouvements
+e. Oedèmes des MI (godet)
+f. Turgescence jugulaire
+i. Reflux hépato-jugulaire (> 10s)
+2. Cardiaque
+a. Palpation
+i. Pouls périphériques aux 4 extrémités
+ii. Carotidien (!!! auscultation avant)
+iii. Choc de pointe
+b. Auscultation
+i. Aortique
+ii. Pulmonaire
+iii. Mitral
+iv. Tricuspide
+v. Recherche souffle abdominal
+vi. Recherche souffles fémoraux
+3. Pulmonaire
+a. Palpation
+i. Zone douloureuse (reproductible à la palpation ?)
+ii. Ampliation thoracique (post)
+b. Percussion (post + lat)
+i. Délimiter
+ii. Comparer les deux côtés
+c. Auscultation
+i. Postérieure : 4 plages en comparant
+ii. LatéraleS : 2 plages
+Prise en charge
+- Faire ECG
+DD
+-
+
+Bradyarythmies (palpitation lente)
+Fibrillation auriculaire (AVC, signes IC)
+Flutter auriculaire (AVC, signes IC)
+Tachycardie auriculaire (signes IC)
+Tachycardie supraventriculaire par réentrée nodale (cou, début et fin brusque)
+Tachycardie ventriculaire (FC : 150-200 mais hypotension)
+
+

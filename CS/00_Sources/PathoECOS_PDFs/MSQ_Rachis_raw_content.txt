@@ -1,0 +1,127 @@
+--- Page 1 ---
+Rachis : Rappel des test spécifiques
+et pathologies courantes
+Tristan Born
+
+--- Page 2 ---
+Rachis : Rappel des test spécifiques
+Lombalgie : Test de Lasègue-Bragard
+• Pourmeëreenévidenceune radiculopathie lombaire (N. sciaèque, niveaux L4-S1)
+• Cave :Dermatomepourl’irradiaèondeladouleurdans le MI
+[L2-L3] →L3: Parèe latérale cuisse jusqu’à la parèe médiale sous le genou
+Cervicalgie : Test de Spurling
+[L3-L4] →L4: Parèe latérale cuisse jusqu’à la parèe médiale du pieds (orteil 1-2)
+• Pourmettreenévidenceune radiculopathie cervicale [L4-L5] →L5: Parèe latérale cuisse jusqu’à la parèe intermédiaire du pieds (orteil 3-4)
+• Cave :Dermatomepourl’irradiationdeladouleurdans le MS [L5-L6] →S1: Parèe postérieure de la cuisse et de la jambe, parèe latérale du pied (orteil 5)
+[C4-C5] →C5: Épaule
+[C5-C6] →C6: Face latérale du bras, de l’avant–bras etdelamain (pouce) Lombalgie : Test de Lasègueinversé
+[C6-C7] →C7: Face dorsale de la main, doigts 2-3-4 • Pourmettreenévidenceune radiculopathie lombaire (N. fémoral, niveaux L2-L4)
+[C7-C8] →C8: Face médiale du bras, de l’avant-bras et de la main, doigts 5 • Cave :Dermatomepourl’irradiationdeladouleurdans le MI
+[L2-L3] →L3: Partie latérale cuisse jusqu’à la partie médiale sous le genou
+[L3-L4] →L4: Partie latérale cuisse jusqu’à la partie médiale du pieds (orteil 1-2)
+
+--- Page 5 ---
+Rachis : Rappel des test spécifiques
+Sacro-illite: Test de Mennel (3-phase test)
+• Pour distinguer une sacro-illite d’une atteinte du rachis lombaire et de l’articulation de la hanche
+• Effectuer une extension passive de la cuisse tout en pressant sur le rachis lombaire,
+puis l’articulation sacro-iliaque et enfin sur l’articulation de la hanche
+
+--- Page 6 ---
+Maladie dégénérative des disques intervertébraux et du rachis :
+• Définition :Groupe de pathologie où le contenu du disque est déplacé en regard du canal rachidien, provoquant
+desprotrusions,desherniationsoudesséquestrationsdiscales.Elles peuventêtres asymptomatique ou
+provoquer des radiculopathies (irritatives ou déficitaire) et des myélopathies. Plus de 50% de la population adulte
+se plaint de maux de dos, mais < 5% sont causés par des hernies discales.Lesniveaux lesplusfréquemment
+touchés L5-S1 puis L4-L5
+• Cliniques:
+Syndrome rachidien (cervicalgie, lombalgie) plus syndrome radiculaire (irritatif ou déficitaire).
+En fonction de la hauteur, les cliniques sera différentes suivant les dermatomes et les myotomes.
+Les symptômes peuvent être déclenchés par des manœuvres de provocation (Spurling, Lasegue,Bragard).
+Un syndrome radiculaire est dit déficitaire en cas de diminution de la force et de la sensibilité de la zone inervée.
+Encasdesimples douleurs irradiant dans le dermatome, on parle de syndrome radiculaire irritatif.
+• Red flag :
+Durée> 6 semainesmalgré un traitement conservateur bien conduit
+Âge : <18 ans ou>50 ans
+Post-traumatisme oudouleurlocalisée àlapalpation
+Ostéoporose connue ouaprès longue corticothérapie,
+Cancer connu(même si considéré en rémission depuis des années)
+Symptôme B, douleurs nocturnes
+IVDU, Immunosuppression, infection ou opération récente
+Douleurs empirant lors des manœuvre de Valsalva
+Déficit neurologique (sensoriel, moteur, incontinence, anesthésie en selle, impotence…)
+• Diagnostic:
+o En absence de red-flag : diagnosticuniquement clinique
+o Enprésencedered-flag:Imagerie (IRM en urgence, éventuellement myélographie CT si IRM indisponible)
+• Traitement:
+o En absence de red-flag : absence de lésion sous-jacente, amélioration en 2-3 semaines. Réassurance, consultation
+de contrôle à 1-2 semaines. Antalgie par AINS(ibuprofène) ±monodosede DXM.
+Pas d’association AINS + Paracétamol, pas d’opioïde plus de 5 jours, pas d’antiépileptique
+o Enprésencedered-flag:Traitementenfonctiondelacause(fracture,métastase,abcès…)
+
+--- Page 7 ---
+T2 : Hernie C5-C6
+T2 : Hernie L5-S1
+
+--- Page 8 ---
+Spondylolisthésis:
+• Définition :Glissement vertébral antérieur (fréquent, antérolisthésis) ou postérieur (rare, rétrolisthésis).
+Touche environ 10% de la population générale. Les deuxformeslesplusfréquentessontles spondyloesthésis
+type II (isthmique) et type III (dégénératives).
+Le type II touche de façon prédominante le niveau L5-S1, le type III le niveau L4-L5.
+o Type II : Patient jeune, aprèsdestraumatismesmineursmaisrépétésentraînant des glissements vertébraux
+o Type III : Patient âgé de >60 ans avec de l’arthrose. Touche 6x plus les femmes que les hommes
+• Cliniques: Volontiers asymptomatiques (majorité des patients), surtout lors d’un glissement sur une surface
+<50%. En cas de symptomatologie, on trouve fréquemment des syndromes rachidiens (lombalgie) parfois
+accompagné d’un syndrome radiculaire (irritatif ou déficitaire).
+• Diagnostic: Le diagnostic nécessite une imagerie (simple radio de profil).
+En cas de red-flag pour une atteinte nerveuse, aller à l’IRM.
+• Traitement: En général un traitement conservateur produit des bons résultats surtout si glissement < 50%.
+En dernière intention, on peut effectuer une opération neurochirurgicale (fusion vertébrale).
+
+--- Page 9 ---
+L4-L5, grade I (< 25%) L4-L5, grade II (25-50%) L4-L5, grade III (50-75%) L5-S1, grade IV (>75%)
+
+--- Page 10 ---
+Fracture vertébrale ostéoporotique :
+• Définition :L’ostéoporose est la cause de la grande majorité des fractures vertébrale par compression.
+Elles surviennent volontiers après un stessmineur (chute, flexion soudaine, soulèvement d'une charge, toux).
+• Cliniques: Parfois asymptomatique, se manifestant uniquement par un tassement. Autrement, douleur dorsale
+reproductible à la palpation de la vertèbre touchée.
+• Diagnostic: Chercher une ostéoporose (DXA scan) et mettre en évidence une fracture avec une forme typique
+en triangle (keilwirbel) à la radiographie ou au CT
+• Traitement: En général, l’antalgie et la mobilisation précoce sont suffisantes.
+L’ostéoporose sous-jacente doit-être traitée (biphosphonate, vitamine D, calcium, renforcement musculaire).
+Sinécessaire, une kyphoplastie au ballon peut-être effectuée.
+
+--- Page 11 ---
+Fracture ostéoporotique
+aux niveaux T8 et T10
+Aspect typique d’une fracture
+ostéoporotique par compression
+*
+*
+
+--- Page 12 ---
+Spondylarthrite ankylosante (M. Bechterew) :
+• Définition :Maladie inflammatoire chronique séronégative, touchant le squelette axial et conduisant à la
+rigidification de la colonne et la fusion des vertèbres. Typiquement, la maladie commence par une érosion au
+niveau de l’articulation sacro-iliaque, puis progresse avec la formation de syndesmophytes puis leur fusion.
+Les hommessont3x plus atteints par la maladie, et >90% possèdentleHLA-B27. Le pic d’incidence est entre 20-
+40 ans. La maladie peut-également se manifester par des atteintes extra-articulaires.
+• Cliniques: Douleurs nocturnes, soulagées par la prise d’AINS accompagné de rigidité matinale.
+Autres symptômes : dactylite (DD arthrite psoriasique), enthésite, uvéite antérieur, dyspnée sur syndrome
+restrictif (diminution mobilité vertèbres thoracique et des côtes).
+SignedeMennel(sacroiliite), diminution de la mobilité vertébrale (ampliation thoracique, inclinaisons
+latérales).
+• Diagnostic: L’IRM permet un diagnostic plus précoce, notamment pour chercher une sacroiliite. Les
+syndesmophytes sont visibles au CT et sur une radio standard. La VS et la CRP sont augmentés et le HLA-B27 est
+positif tandis que les anticorps pour d’autres maladies rhumatismale (ANA, ANCA, anti-CCP, FR) sont négatifs.
+• Traitement: AINS en première ligne, si nécessaire anti-TNFa.
+
+--- Page 13 ---
+Syndesmophyte
+Lésion de Romanus
+(shiny corners)
+«Bamboo spine » «Bamboo spine »
+Scaro-illite à l’IRM

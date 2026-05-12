@@ -1,0 +1,860 @@
+Service des urgences
+
+Pocket card
+antidotes
+
+Liste des antidotes à disposition du Service des urgences (URG) du CHUV
+Indication, posologie et lieu de stockage (SI : soins intensifs, URG : urgences ; local BH 05-706 : local
+antidotes/médicaments d’urgence).
+X : Disponible en réserve pour plan INCA
+Attention aux autres antidotes hors CHUV (anti-venins, antitoxine botulique, etc.) : acheminement via pharmacie
+centrale
+
+Dr Feiner Adam Scott (URG)
+Arnaud Parejas (URG)
+Emmanuèle Guignard (pharmacie)
+Marianne Cumin (pharmacie)
+Version 2.1
+Validation du service des urgences : 23.04.2024
+Durée de validité : juin 2025
+
+Index des antidotes selon toxique (par liste alphabétique des toxiques) En gras , le 1er choix
+Amanite phalloïde
+Amphétamine et dérivés
+Anticholinergique central (Sd)
+Anesthésiques locaux
+Antidépresseurs tri et tetra-cycliques
+Arsenic
+AVK (anti vit.K)
+Benzodiazépines
+Béta bloquants
+Anticalciques
+
+Carbamates
+Chloroforme
+Cocaïne
+Cyanure et dérivés
+
+Diethylène glycol
+Digoxine/Digitoxine
+Ethylène glycol
+Extra pyramidal (Sd) aux NL, antiH1,
+antiémétiques
+Fer
+Fluorure, Ac fluorhydrique
+Hydrazine
+
+Silibinine, Acétylcystéine
+Magnésium, phentolamine aux SI
+Physostigmine salicylate
+Emulsion lipidique
+Bicarbonate de Na, magnésium, émulsion
+lipidique
+Acétylcystéine, DMSA, DMPS
+Phytoménadione (vit.K)
+Flumazénil
+Glucagon puis Insuline/glucose
+Calcium puis insuline/glucose, glucagon,
+émulsion lipidique
+Atropine
+Acétylcystéine
+Magnésium
+Hydroxocobalamine, 4-DMAP, thiosulfate
+de Na, amyle nitrite
+Fomépizole + hémodialyse, éthanol
+Atropine, anticorps anti digitaliques
+Fomépizole, éthanol 96%, calcium
+Bipéridène
+Déféroxamine
+Calcium gluconate
+Pyridoxine (vit.B6)
+
+= Douche avant prise en charge par les équipes
+
+Inhibiteurs de la cholinestérase
+Isoniazide
+Iode
+Lithium
+Mercure
+Métaux lourds
+Méthémoglobinémie > 30%
+Méthanol
+Moussants (produits)
+Nicotine
+Opiacés
+
+Organophosphorés
+Oxalique Acide (éthylène glycol)
+Paracétamol
+Phénobarbital
+Plomb
+Poppers
+Salicylés
+Spray lacrymogène
+Sulfonylurées
+Tétrachlorures de carbone
+Torsades de pointes
+Zolpidem, zopiclone, zaléplone
+
+Atropine
+Pyridoxine (vit.B6)
+Thiosulfate de Na
+Polystyrène sulfonate
+DMPS, DMSA, Dimaval
+DMPS, DMSA, calcium EDTA, Dimaval
+Bleu de méthylène
+Fomépizole, éthanol 96%
+Siméticone
+Atropine
+Naloxone
+Atropine, Obidoxime
+Fomépizole, éthanol 96%, calcium
+Acétylcystéine
+Bicarbonate de Na
+DMSA
+Bleu de méthylène
+Bicarbonate de Na
+Novésine collyre
+Octréotide
+Acétylcystéine
+Magnésium
+Flumazénil
+
+DCI
+Nom commercial
+
+Acétylcystéine
+Fluimucil® 20%
+
+Amyle Nitrite
+inhalant®
+Anticorps Fab antidigitaliques
+DigiFab®
+
+Atropine sulfate
+
+Atropine sulfate Aapot®
+Atropine sulfate Sintetica®
+Atropine sulfate Labatec®
+
+Bicarbonate de sodium
+
+Biperidène
+Akineton®
+
+Bleu de méthylène
+Chlor Méthylthion
+Proveblue®
+
+Calcium Gluconate
+
+DCI
+
+Intoxication Infos - Clinique
+
+Présentation
+
+Paracétamol (dose toxique >7.5g ou
+150mg/kg)
+Chloroforme, arsenic
+
+Fluimucil sol perf 200 mg/ml
+Amp 25 mL = 5 g
+
+Digoxine
+Digitaliques
+(hyperK+= facteur de gravité, hypoK+,
+hyperCa2+, arythmie, nausées/
+vomissements, douleurs abdo, confusion)
+Organophosphorés (Sd
+muscarinique), Carbamates
+
+Digifab
+Amp sec 40 mg
+
+Cyanure et dérivés
+
+Bradycardie (ex : digitaliques)
+Nicotine
+Stabilisants de membrane (T aplaties,
+QRS larges, allongement QT, torsades de
+pointes, TV)
+Propanolol, chloroquine, lidocaïne
+Antidépresseurs tri-et tétracycliques
+Salicylés, phénobarbital
+Neuroleptiques
+Antiémétiques
+Antihistaminique
+
+Méthémoglobinémie > 30% ou
+symptomatique (angor, confusion,
+agitation, anémie)
+Intoxication au Poppers (nitrite d’amyle)
+Ifosfamide (antinéoplasique)
+Anticalciques
+Oxalate, éthylène glycol
+Exposition cutanée ou ingestion/inhalation
+d’acide fluorhydrique
+
+Intoxication -
+
+SI
+
+Stockage
+Local
+BH05706
+
+X
+
+Amp 0.3 ml
+
+X
+
+Atropine sulfate sol inj
+0.5 mg/ml Amp 100 ml = 50 mg
+
+X
+
+Atropine sulfate sol inj 0.5mg/ml
+Amp 1 ml = 0.5 mg
+Atropine sulfate sol inj 0.2mg/ml
+Ser 5 ml = 1 mg
+Sodium Bicarbonate sol inj
+8.4% 100 ml (1 mmol/ml)
+
+X
+
+1.4 % 500 ml (0.167 mmol/ml)
+
+Akineton sol inj 5 mg/ml
+Amp 1mL = 5 mg
+
+X
+
+X
+
+X
+
+X
+
+Calcium gluconate gel 2.5%
+
+Présentation
+
+X
+
+X
+
+X
+X
+
+Stockage
+
+Selon protocole Prescott :
+Etape 1 : 200 mg/kg dans 500 ml de G5% ou NaCl 0.9% sur 4 h puis,
+Etape 2 : 100 mg/kg dans 1000 ml de G5% ou NaCl 0.9% sur 16 h.
+CAVE : réaction anaphylactoïde (17%) vomissements (11%)
+Renverser le contenu d’une ampoule sur une compresse et inhaler pendant 30
+secondes. A répéter toutes les 2 minutes, max. 10 fois
+A titrer selon la symptomatique ; le traitement commence par 1-2 ampoules sur 2030 min à répéter en cas de non-réponse ou en cas de réapparition des symptômes
+(rebond fréquent).
+
+Bradycardie : 1mg IVD max 3x 1mg
+
+X
+
+X
+
+Posologie et précautions
+Mode d’administration : cf RefMed /Toxcentrum
+
+Reconstitution 4 ml d’eau stérile par ampoule puis dilution ad 50 ml avec NaCl 0.9%
+2-5 mg IV en bolus pur, dose doublée /5-10min jusqu’à résolution des symptômes
+muscariniques (sécrétions bronchiques)
+Traitement d’entretien : 10-20 % de la dose totale administrée par heure
+
+X
+
+Chlor Méthylthion Proveblue sol
+inj 5 mg/ml
+Amp 10 ml = 50 mg
+Calcium Gluconate sol inj 10%
+Ampoule 10 ml = 90 mg Ca2+ =
+2.2 mmol
+
+URG
+
+0.5 mg IV en bolus pur toutes les 3 à 5 min jusqu'à résolution de la bronchorrhée
+Si VVC = 0.02-0.08 mg/kg/h
+Cardiotoxicité (élargissement des QRS) : 50-100 mmol IVD, à répéter /5min pour
+pH sanguin 7.45-7.55. Idéalement sur VVC car phlébogène, alcalin et hyperosmolaire
+avec risque important de lésions tissulaires en cas d’extravasation MAIS
+administration en urgence possible sur VVP sur ordre médical.
+CAVE : surveillance K+, supplémenter si besoin
+100 mmol dans 1L de G5% + 40 mmol de KCl
+CAVE : surveillance K+, supplémenter si besoin sur autre voie
+Synd. Extra-pyramidal d’origine médicamenteuse
+2.5-5 mg IVD sur 3 à 5 min (répéter à 30 min si besoin) max 20 mg/j
+CAVE : contre-indications = glaucome à angle fermé, sténose digestive, mégacôlon,
+iléus
+1-2 mg/kg IVD sur 5min (à répéter à 30-60 min si réponse partielle). Dose max
+7mg/kg/24h (si possible VVC)
+CAVE : perturbe la fonctionnalité du saturomètre
+CAVE : hémolyse si déficit en G6PD ou Pyruvate Kinase
+CAVE : Synd. sérotoninergique si anti dépresseurs SSRI
+Intoxication Ca2+ : Adulte : 20-30 mL soit 180 à 270 mg de Ca2+ (4.4 à 6.6 mmol) sur
+5 min (risque hypo TA et arythmie) répéter après 10-20 min et jusqu'à 4 fois sous
+contrôle fréquent de la calcémie.
+
+Si corrosion Acide fluorhydrique :
+Thérapie systémique : 20 ml Gluconate de calcium 10% IV sur 5 min et/ou Thérapie
+locale : Calcium gluconate 2.5% topique (appliquer 5mm et rincer après 2 mins puis
+répéter et laisser en place 4-6x/j) ou infiltration locale 0.1mmol=0,5ml par cm 2
+
+Posologie et précautions
+
+Nom commercial
+
+Infos - Clinique
+
+Calcium EDTA
+
+Métaux lourds / radionucléides
+
+Charbon actif
+
+Absorbant universel
+(sauf alcool, solvants, acides/bases,
+métaux, lithium)
+Intoxication par le fer
+
+Sodio calcium edet®
+Carbovit®
+
+Déféroxamine
+Desferal®
+
+Dimercaptopropane
+
+Métaux lourds, mercure
+
+Diméthylaminophénol
+
+Cyanure et dérivés (fumées incendie)
+
+Dimaval® DMPS
+
+4-DMAP®
+
+Acide
+dimercaptosuccinique
+Succicaptal®, DMSA
+Emulsion lipidique
+20% Clinoleic 20% /
+Smoflipid 20%
+
+Ethanol 96%
+
+Flumazénil
+
+Flumazenil labatec®
+
+Fomépizole
+
+Glucagon
+
+Glucagen Novo®
+
+DCI
+
+Sol inj 100 mg/ml
+Amp 10 ml (1000 mg)
+
+SI
+
+Local
+BH05706
+
+X
+
+Carbovit ssp 15 g/100ml
+
+X
+
+Desferal fio sec 500 mg
+
+X
+
+Sol inj 50 mg/ml
+Amp 5ml (250 mg)
+
+X
+
+URG
+
+Mode d’administration : cf RefMed /Toxcentrum
+
+1000-1500 mg/m2/24 h IV répartis en 2 à 6 doses
+Préparation : dans NaCl 0.9% ou G5% (max 5 mg/ml) // perfuser sur 60 min
+minimum
+Plus efficace si donné précocement (<1h) : 1g/kg PO (soit 4-5 flacons de 100 ml en
+moyenne). Indiqué qq soit le délai si ingestion de substances à fort potentiel toxique
+ou intox sévère. SNG si besoin. CAVE : contre-indiqué si tr de l’état de conscience
+15 mg/kg/h IV pour 4-6 h (dose max journalière 80 mg/kg)
+Préparation : reconstituer avec 5ml d’eau stérile puis diluer dans NaCl 0.9% ou G5%
+(concentration finale 20 mg/ml)
+250 mg (1 x 5 mL/250 mg) toutes les 4 h pendant 48 h puis suite cf. Refmed
+Administration : pur en 3 à 5 min.
+Les formes parentérales sont à utiliser pour la dose de charge et à relayer dès que
+possible PO pour les intox au polonium 210, sinon les autres intox se traitent PO
+
+Capsules 100 mg
+50 mg/ml
+Ampoule 5 ml = 250 mg
+Intoxication par le plomb et autres métaux Succicaptal
+lourds
+Caps 200 mg
+
+X
+X
+
+X
+
+Bolus initial 1.5ml/kg sur 1 min puis 0.25ml/kg/min sur 30-60min
+(Cathéter de 18 G minimum)
+
+Ethylène glycol, méthanol
+2e choix après fomépizole
+
+Clinoleic 20 %
+Poche de 100 ml = 20 g
+Smoflipid 20 %
+Flacon 250 ml = 50 g
+Fiole 100 ml
+0.756 g/ml
+
+X
+
+Solution à 10% : 58 mL d'éthanol 96% + 442 mL de glucose 5% (total 500 mL).
+Solution à 5 % : 58 mL d'éthanol 96% + 942 mL de glucose 5% (total 1000 mL)
+
+Intoxication aux benzodiazépines,
+zolpidem, zopiclone, zaléplone
+
+Flumazenil sol inj 0.1 mg/ml
+Ampoule 5 ml = 0.5 mg
+
+Fomepizole sol inj 1000 mg/mL
+Fiole 1.5 mL = 1.5 g
+
+X
+
+Intoxication aux Bétabloquants ou
+anticalciques
+
+Glucagen Novo Hypo-Kit - fio sec
+Ampoule 1mg
+
+X
+
+Présentation
+
+Stockage
+
+Toxicité CV des anesthésiques locaux
+lipophiles
+
+Ethylène glycol, méthanol
+
+Intoxication -
+
+Dose initiale 300 mg puis 200 mg aux 2 h pour 2 premier jours
+Adulte : 250 mg (1 ampoule) en 3-5 min pur
+
+X
+
+X
+
+PO : 30 mg/kg/j pendant 5 jours puis cf. Refmed
+
+X
+
+X
+
+VVC : Solution à 10% d'éthanol
+- Dose de charge : 8-10 mL/kg sur 30 à 60 min
+- Dose de maintien : 0.8-2 ml/kg/h
+VVP : Solution à 5% d'éthanol
+- Dose de charge : 16-20 mL/kg sur 30 à 60 min
+- Dose de maintien : 1.6-4 ml/kg/h
+--- > Objectif alcoolémie 1 à 1,5°/°° (100 à 150 mg/dL)
+Bolus 0.2 mg IVD, év répéter toutes les 60 sec (max 10 mg)
+Perfusion continue : 0.1-0.4 mg/h (sans dilution)
+CAVE : contre-indication si intox associée aux tricycliques
+Dose initiale 15 mg/kg IV (ou PO mais off-label use)
+Dose d’entretien 10mg/kg toutes les 12h
+Préparation : Dose prescrite + 100 ml de G5% ou NaCl 0.9%
+Prélever pour plus de précision avec une seringue à insuline
+Charge : 5-10 mg IV sur 15min puis poursuite prise en charge par insuline (cf. cidessous)
+Préparation : 10 mg (10 x 1mL/1 mg) + 40 mL d’eau stérile = 0.2 mg/mL
+
+Posologie et précautions
+
+Nom commercial
+
+Hydroxocobalamine
+Vitamine B12
+Cyanokit®
+
+Insuline
+
+Novorapid®
+Actrapid®
+
+Magnésium sulfate
+
+Naloxone Naloxone®
+Oxybuprocaïne collyre
+0.4%
+Oxybuprocaïne Faure®
+
+Obidoxime chlorure
+Toxogonin®
+
+Octreotide Labatec ®
+Physostigmine
+salicylate
+Anticholium®
+
+Polystyrène sulfonate
+Resonium®
+
+Pyridoxine
+
+Vitamine B6 Streuli®
+
+Silibinine
+
+Légalon SIL®
+
+Siméticone
+Flatulex®
+
+Thiosulfate de sodium
+
+Sodium thiosulfate CHUV®
+
+Infos - Clinique
+Cyanure et dérivés (inhalation de fumées
+d’incendie domestique)
+
+Cyanokit fio sec 5g
+
+SI
+
+Local
+BH05706
+
+X
+
+Intoxication aux Bétabloquants
+(bradycardie, hypotension, choc
+cardiogène, troubles de conscience,
+convulsions, hypoglycémie,
+bronchospasme, troubles du rythme) ou
+anticalciques (hypotension, bradycardie,
+insuff cardiaque)
+Torsades de pointe
+Asthme sévère
+Tricycliques, cocaïne, amphétamines,
+psychostimulants
+Intoxication aux opiacés
+
+Novorapid sol inj 100UI/ml
+Fioles 10 ml (1000 UI)
+
+Spray au poivre, irritation
+oculaire
+
+Collyre monodose 4 mg/ml
+
+X
+
+Toxogonin sol inj 250 mg/ml
+Fiole 1 ml
+
+X
+
+Intoxication aux
+organophosphorés (pesticides,
+gaz de combat)
+(Sd nicotinique)
+Intoxication aux antidiabétiques oraux
+type sulfonylurée (famille antidiabétique)
+Sd anticholinergique central (intoxication
+médicamenteuse)
+Intoxication au lithium
+
+Actrapid sol inj 100 UI/ml
+Fioles 10 ml (1000 UI)
+
+Magnésium sulfate sol inj
+100mg/ml
+Ampoule 10 ml = 1 g = 4 mmol
+Naloxon sol inj 0.4 mg/ml
+Ampoule 1 ml = 0.4 mg
+
+Octreotide sol inj 0.1 mg/ml ;
+Fiole 1 ml
+Anticholium sol inj 0.4 mg/ml
+Amp 5 ml = 2 mg
+
+Intoxication à l’Isoniazide, fausse morille
+(Gyromitra)
+
+Resonium A
+Pdr 450 g
+Vitamine B6 sol inj 50 mg/ml
+Amp 2 ml = 100 mg
+
+Produits moussants
+
+Flatulex gtes 41.2 mg/ml
+
+Amanite phalloïde
+
+Cyanure et dérivés
+Iode
+
+Mode d’administration : cf RefMed /Toxcentrum
+
+5 g en 15 min (éventuellement répéter 1x si intox grave)
+Préparation : reconstituer avec 200 ml de NaCl 0.9%
+
+X
+
+Bolus 1UI/kg IV puis 1UI/kg/h
+Augmenter de 1-2UI/kg/h toutes les 10-15min jusqu’à réponse clinique
+(max 10 UI/kg/h)
+CAVE : maintien glycémie par 20-30 g/h de Glucose
+CAVE : surveillance K+
+
+X
+
+X
+
+2 g (soit 8 mmol) dans 100ml de NaCl 0.9% sur 20 min (1 à 2X)
+Eventuellement suivi par perfusion 0.15-1.2 g/h (soit 0,6 à 4,8 mmol/h)
+
+X
+
+X
+
+Titration 0.1 mg IVD à répéter (max 2 mg soit 5 amp)
+Si entretien : 0.8 mg/h à titrer selon réponse clinique ou : ½ dose du bolus
+nécessaire/h
+Anesthésie de la surface cornéenne et conjonctivale : 3 fois 1 goutte en 5 minutes
+
+X
+
+X
+
+X
+
+X
+
+X
+
+Legalon 350 mg/amp fiole sec
+
+X
+
+Sol inj 250 mg/ml
+Amp 20 ml = 5 g
+
+X
+
+Sol inj 150 mg/ml
+Flac 100 ml = 15 g
+
+URG
+
+X
+
+X
+
+X
+
+X
+
+Bolus 250 mg IV sur 3 à 5 minutes
+Préparation : sans dilution supplémentaire ou diluer dans 5-10 mL de NaCl 0.9%
+pour confort d’administration. Si réactivation possible : entretien à 750 mg/24h
+Préparation : diluer 1 ampoule dans 250 ml de G5% ou NaCl 0.9% (1 mg/ml)
+50-100 mcg IV toutes les 6-12 h max 3 fois
+Ou perf continue 1.8 mcg/kg/h (0.5 mg (5 x 1 mL/0.1 mg) + 45 mL de NaCl)
+0.5-1 mg IVD puis augmenter la dose à intervalle de 15 min selon réponse clinique
+jusqu’à 2 mg max.
+Sans dilution supplémentaire
+30g PO
+1g IV par gramme d’Isoniazide absorbé sur 30-60min (max 5g)
+
+Si dose toxique inconnue : posologie max 5g/60min (soit 50 amp)
+20 mg/kg/24h réparties en 4 perfusions de 2 h = 5 mg/kg toutes les 6 heures
+Préparation : reconstituer avec 35 ml de NaCl puis dose prescrite + 100 ml de NaCl
+400-800 mg PO, à répéter si besoin
+100-200 mg/kg IV sur 10-20 min
+Si besoin : répéter ½ dose à 30-60 min
+Préparation : pur
+5-10 g dans 200ml d’eau PO
+
+Hémorragie sous anticoagulants
+DCI
+Nom commercial
+
+Octaplex
+
+Facteur VII
+Novoseven®
+
+Complexe
+prothrombique activé
+FEIBA®
+
+Phytoméniadone
+Vitamine K
+Konakion®
+
+Idarucizumab
+Praxbind®
+
+Fibrinogène
+
+Haemocomplettan®
+
+Andexanet alfa
+Ondexxya®
+
+Intoxication Infos - Clinique
+
+Présentation
+
+Accident hémorragique sous
+anticoagulants
+
+Octaplex 500 UI fio sec
+
+2e ligne après PPSB Prothromplex®
+Accident hémorragique aux
+anticoagulants oraux directs (AOD)*
+
+Novoseven fio sec sol inj 1,
+2 ou 5 mg
+
+2e ligne après PPSB Prothromplex®
+Accident hémorragique aux
+anticoagulants oraux directs (AOD)*
+Intoxication aux anti-vitamine K
+
+Stockage
+
+SIA
+X
+
+X
+
+FEIBA® fio sec 1000 UI
+
+Konakion MM sol inj
+10mg/ml
+Amp 1 ml = 10 mg
+Hémorragie sous Dabigatran (Pradaxa®) Sol perf 50mg/ml
+Flacon 50ml = 2.5g
+Synd hémorragique avec
+Sub sèche 1 g
+perte/consommation de Fibrinogène
+Sub sèche 2 g
+Hémorragie sous Rivaroxaban
+Fiole sec 200 mg/fiole
+(Xarelto®), apixaban (Eliquis®),
+Edoxaban (Lixiana®)
+
+Local
+BH05706
+
+URG
+X
+
+X
+
+X
+
+X
+X
+
+Protamine sulfate
+
+Hémorragie sous héparine
+
+Préparation : reconstituer avec le solvant d’origine sans dilution supplémentaire
+Si AVK et TP connu : (80 - TP%) x 0.6 x kg = UI
+Si AVK sans TP connu : 80 x 0.6 x kg = UI
+Si AOD ou fondaparinux : 25 UI/kg
+Dose max. 5000 UI
+
+30-50 UI/kg IV
+Préparation : reconstituer avec 20 ml d’eau stérile sans dilution supplémentaire
+5 -10 mg PO ou IV pur selon degré d’urgence
+5g IV pur
+
+X
+
+1 à 2 g IV
+Préparation : 1 g dans 50 ml d’eau stérile//2 g dans 100 ml d’eau stérile
+Low dose (protocole CHUV, 5 fio) : Bolus de 400 mg (2 fio) sur 15 min puis
+perf continue de 480 mg (2 fio + 8ml de la 3ème fio) sur 120 min.
+
+X
+
+High dose (protocole CHUV, 9 fio) : Bolus de 800 mg (4 fio) sur 30 min puis perf
+continue de 960mg (4 fio + 16ml de la 5ème fio) sur 120 min.
+
+Nécessite la validation d'un médecin
+cadre des URG ou ALG/SIA/NLG/HEM.
+
+Protamine
+
+Mode d’administration : cf RefMed
+
+CI : HIT < 3 mois
+90 mcg/kg IV
+Préparation : reconstituer avec le solvant d’origine sans dilution supplémentaire
+
+X
+
+X
+
+Posologie et précautions
+
+Préparation : Reconstituer avec 20 ml d’eau stérile délicatement et ne pas secouer
+(mousse) (4min). Utiliser le filtre fourni
+Sol inj 10 mg/ml
+Fiole 5 ml (50 mg)
+
+X
+
+X
+
+* AOD : rivaroxaban (Xarelto®), apixaban (Eliquis®), Edoxaban (Lixiana®), Dabigatran (Pradaxa®)
+Se référer également aux documents disponibles sur TRIBU :
+• Algorithme CHUV « Gestions des hémorragies critiques sous anticoagulants »
+• Protocole d’administration d’andexanet alpha (Ondexxya®)
+
+X
+
+Se référer à la directive métier spécifique sur Tribu
+10 mg = 1 mL = 1000 UI de protamine neutralise 1000 UI d'héparine
+Préparation : Dose prescrite en mg + 100 ml NaCl 0.9%.
+Perf lente (max 50 mg/10 min)
+
+

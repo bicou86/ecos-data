@@ -1,0 +1,111 @@
+--- Page 1 ---
+Poignet-main : Rappel des tests
+spécifiques et pathologies courantes
+Tristan Born
+
+--- Page 2 ---
+Poignet-main : Tests spécifiques
+Suspicion fracture du scaphoïde: Scaphoïdshift-test
+Rhizarthrose: Grindingtest
+• Permet de mettre en évidence une lésion du ligament
+• Mobilisation de l’articulation trapezo-métacarpienne
+scapho-lunaire, le principal DD de la fracture du scaphoïde.
+(rotation interne, externe, pression) : positif si reproduit
+• L’examinateur applique une pression au niveau de la face palmaire
+la douleur ou provoque des crépitations lors du frottement
+du scaphoïde et effectue une inclinaison radial de la main. Si letest est négatif
+(pas de douleur) que la palpation de tabatière anatomique est douloureuse,
+il s’agit d’une fracture du scaphoïde jusqu’à preuve du contraire.
+
+--- Page 3 ---
+Poignet-main : Tests spécifiques
+Tunnel carpien : Test Phanelet Tinel
+• Positifsidéclenchelessymptômes
+(paresthésie, douleurs neuropathiques)
+Pouceduskieur: Valgus stress Ténosynovite : Test de Finkelstein
+dans le territoire du N. médian (doigts I-III)
+• Stress mécanique de ligament métacarpo-phalangien • Permet de mettre en évidence une ténosynovite des
+du pouce au moyen d’unstressenvalgus tendons du long abducteur et du court extenseur
+du pouce (ténosynovite de De Quervain)
+
+--- Page 4 ---
+Poignet-main : Tests spécifiques
+Tunnel cubital : Test de Froment
+Tunelcarpien/cubital: Abduction pouce/auriculaire • Positifen cas d’hyperflexion compensatrice
+Tunnel cubital : Test de Tinel
+• Testlaforcedel’abductiondupouce (musclelong extenseur de l’interphalangienne du pouce (déficit en
+• Positif si déclenche les symptômes
+et court abducteur du pouce,innervépar le nerf médian) adduction sur atteinte du Nerf ulnaire)
+(paresthésie, douleurs neuropathiques)
+• Idempourlenerfulnaire(force dans l’abduction de l’auriculaire,
+dans le territoire du N. ulnaire (doigts IV-V)
+tranche ulnaire sur la table et abduction contre la gravité et le poids de la main)
+
+--- Page 5 ---
+Fracture du radius distal:
+• Définition :Fracture fréquente du poignet, de distribution bimodale : 20-30 ans (traumatisme à haute énergie
+cinétique) et >65 ans (souvent simple chute/trauma mineur chezdesfemmes avec de l’ostéoporose).
+• Cliniques: Douleurs, rougeur, diminution de l’amplitude articulaire et autres signes généraux de fractures
+(crépitant osseux, déformation…)
+• Diagnostic: Radiographie (antéro-postérieur, oblique et latéral)
+• Traitement: Conservateur pour les fractures fermées et stables.
+Toujours chirurgical pour les fractures instables, intra-articulaire ou ouverte.
+Fracture du scaphoïde :
+• Définition :Fracture la plus fréquente des os du carpes. Touche le plus souvent le tiers intermédiaires de l’os
+scaphoïde. Le mécanisme est le plus souvent une chute en hyperextension et le pic d’incidence est entre 15-19 ans.
+• Cliniques: Une douleur à palpation de la tabatière anatomique est un signe fortement évocateur.
+• Diagnostic: Radiographie (AP, latéral, oblique). Attention, 25% des fractures du scaphoïde ne se voient pas sur une
+radiographie ! Rn casdenégativitéconsidérer enimagerieencoupe.
+• Traitement: Fracture non déplacée -> traitement conservateur,
+Fracture déplacé >1 mm : prise en charge chirurgicale
+
+--- Page 6 ---
+Fracture distale du radius
+Fracture du scaphoïde Fracture du scaphoïde
+
+--- Page 7 ---
+Ténosynovite :
+• Définition :Inflammation des tendons et de leur gaine synoviale, d’origine mécanique (fréquent : surutilisation),
+dysimmun(diabète,sarcoïdose, polyarthrite…) ou infectieux (Staphylocoque, Streptocoque, parfois P. multocida,
+E. corrodens, P. aeruginosa…). Touche le plus souvent les tendons du poignet et de la main.
+• Cliniques: Douleurs à la mobilisation (surtout l’extension passive) et la palpation du tendon touché, œdème.
+• Diagnostic: Le diagnostic est posé cliniquement. Des examens complémentaires peuvent-être nécessaire dans les
+cas auto-immun et infectieux.
+• Entités particulières :
+o Ténosynovite de De Quervain : Touche les tendons des muscles long abducteur et court extenseur du pouce
+Le plus souvent dans le cadre d’une surutilisation (texto, certains sportifs…), rarement sur polyarthrite
+rhumatoïde. Cliniquement: Positivité du test de Finkelstein
+o Doigts à ressaut : Inflammation du tendon conduisant à la formation d’un nodule à la surface des tendons des
+muscles fléchisseurs des doigts. Le nodule peut empêcher le glissement du tendon dans sa poulie, conduisant à un
+blocage en flexion puis à un déblocage brusque (ressaut) lorsque l’obstacle est franchi.
+• Traitement: Antibiotique IV (Ceftriaxone) et reprise chirurgicale en cas d’infection, autrement immobilisation par
+une attelle en combinaison avecdes AINS. Si nécessaire injection de stéroïde. En dehors des cas infectieux, où
+l’opération est indispensable, on recourt à la chirurgie uniquement en dernier recourt.
+
+--- Page 8 ---
+Lésion des doigts:
+• Entités :
+o Rugby/Jersey finger : Lésions des tendons des fléchisseurs profonds des doigts, causé par une extension forcée.
+Cliniquement: Rougeur, œdème et douleur au niveau de l’articulation interphalangienne distale (IPD). Perte de
+la flexion au niveau de l’IPD mais des articulations métacarpo-phalangienne (MCP) et IPP.
+Traitement: Toujours chirurgical ! Réparationdutendonlésé.
+o Doigt en maillet/marteau : Lésions des tendons des extenseurs des doigts, causé par une flexion forcée des
+doigts. Attention, fréquemment associé à une lésion osseuse de la phalange distale.
+Cliniquement: Incapacité à étendre le doigt avec hyperflexion de l’IPD
+Traitement:Enl’absencedefractureassociéeetd’un déficit en extension >45°, le traitement est conservateur.
+Autrement : reprise chirurgicale et réparation osseuse et tendineuse.
+o Déformation en boutonnière: Lésions de l’insertion du tendons des extenseurs des doigts au niveau son
+insertion sur la phalange intermédiaire, avec le tendon qui poursuit sa course jusqu'à la phalange distale.
+Multiples étiologies possibles : polyarthrite rhumatoïde, arthrose, traumatisme.
+Cliniquement: Hyperflexion de l’IPP ethyperextension de l’IPD
+Traitement: Conservateur ou chirurgical, en fonction de l’atteinte et de l’étiologie.
+o Skier’sthumb: Lésion du ligament collatéral ulnaire (LCU) du pouce, causéparunehyperextension et une
+abduction forcée du pouce.
+Cliniquement: Douleur, œdème et laxité de l’articulation métacarpo-phalangienne. Diminution de la force au
+moment de serrer quelque chose entre le pouce et l’index.
+Traitement: Conservateur ou chirurgical, en fonction de l’atteinte et de l’étiologie
+
+--- Page 9 ---
+Rugby/Jersey finger Doigts en maillet/marteau
+Doigts en boutonnière
+

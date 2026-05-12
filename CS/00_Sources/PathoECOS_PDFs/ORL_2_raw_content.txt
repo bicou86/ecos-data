@@ -1,0 +1,113 @@
+--- Page 1 ---
+ORL : Pathologies fréquentes
+Tristan Born
+
+--- Page 2 ---
+Otite moyenne aiguë :
+• Définition :Inflammation de l’oreille moyenne, en général causée par une infection bactérienne survenant
+après une infection virale des voies aériennes supérieures. Incidence maximale entre 6 et 24 mois.
+Bactéries fréquentes : S. pneumoniae, H. influenza, Moraxellacatarrhalis
+Virus sous-jacent fréquent : RSV, influenza, parainfluenza, rhinovirus, adénovirus
+• FR : Rhinite viral ou allergique, hypertrophie des végétations adénoïdes, polypose nasale.
+• Cliniques: Otalgie, fièvre, otorrée (lors de rupture du tympan), surdité de transmission (Rinnénégatif)
+• Complications :Mastoïdite, abcès(cérébral, post-auriculaire…), labyrinthite bactérienne, paralysie faciale
+• Diagnostique: Clinique + visualisation du tympan à l’otoscope (perte cône lumineux, tympan bombé, érythème)
+• Traitement: Le plus souvent uniquement conservateur avec AINS/paracétamol et réévaluation à 48h
+Si indiqué*, ajouter une antibiothérapie empirique : amoxicilline poseule ou augmentinpo
+*Indication : Enfant < 6 mois ou adulte,
+Si absence d’amélioration après >72h, lors d’otorréesans otite externe, porteur d’implant cochléaire
+Lors d’infection récurrente ou absence d’amélioration sous AB : paracentèse
+Otite externe :
+• Définition : Inflammation de l’oreille externe, le plus souvent sur infection, parfois secondaire à une dermatite
+atopiqueou un eczéma de contact (hyper-sensibilité type IV à des traitement topiques).
+Aiguë (< 6 semaines) ou chronique (> 3 mois).
+o Bactéries fréquentes : P. aeruginosa(40%), S. aureus, P. mirrabilis, E. coli
+Virus (plus rarement) : réactivation VZV, influenza
+Champignons (plus rarement): Aspergillus spp. >> Candida spp.
+• Cliniques: Otalgie, douleurs dans la mâchoire, otorrée, prurit, sensibilité du tragus, surdité de transmission.
+• Diagnostique: Diagnostic clinique basé sur la présentation clinique et l’otoscopie.
+Cave: Le tympan doit être intact (DD : otite moyenne suppurative chronique)
+Possibilité de chercher des comorbidités entraînant un risque accru de complication (diabète, HIV…)
+Effectuer des culturesdes écoulements (en particulier si traitement AB récent ou absence d’amélioration)
+Effectuer un CTsi suspicion d’ostéomyélite de la base du crane sous-jacente (otite externe maligne).
+• Traitement:
+Cas non compliqué : Goutte antibiotique (Ciprofloxacineou Gentamycine) ±Corticostéroïde
+Otite externe maligne suspecté, immunosuppression (y-comprit DM), cellulite ou extension de l’infection à la
+peau adjacente : Ciprofloxacine po
+
+--- Page 3 ---
+Otite moyenne chronique:
+• Otite moyenne chronique (OMC) suppuré :
+Fait suite à une otite moyenne aiguë avec perforation du tympan, engendrant un drainage chronique du contenue
+de l’oreille moyenne vers le CAE (otorrée) ainsi qu’une surdité de transmission, le tout sans douleur.
+Les complications comprennent notamment le développement de cholestéatomeainsiqu’unesurinfection.
+Le diagnostic est clinique avec la visualisation d’un defecttympanique à l’otoscopie.
+Le traitement est conservateur avec des AB topique (fluoroquinolone), des CS topique ainsi qu’un nettoyage
+méticuleux et quotidien. Le tympanrégénère spontanément.
+• Choléstéatome:
+Fréquemment la complication d’otite moyenne aiguë à répétition et d’otite moyenne chronique suppuré.
+Il s’agit d’une prolifération de l’épithélium tympanique ou du CAE, qui forme une masse qui envahit l’oreille
+moyenne et parfois la mastoïde.Cetépithélium aberrant conduit à une réaction inflammatoire et détruit
+progressivement les structures présentes (en particulier la chaîne des osselets).
+Les symptômes typiques sont une otorréeindolore(fond d’OMC suppurée) et une surdité de transmission.
+Si la maladie progresse, elle peut éroder l’osetprovoqueruneparalysiefacialepériphériqueainsiquedesabcès
+etdesthrombosedu sinus sigmoïde.Encas d’atteinte de l’oreille interne, ils peuvent provoquer des vertiges.
+Le diagnostic requiert une otoscopie, mais surtout une imagerie en coupe de la mastoïde et de l’oreille moyenne
+pour mettre en évidence les choléstéatomes.
+Comme les choléstéatomespeuvent progressivement détruire l’oreille, la chirurgie est toujours indiquée,
+avec une excision des choléstéatomes(tympano-mastoïdectomie) et une reconstruction des structures lésées
+Otosclérose :
+• Excroissance osseuse anormale de l’étrier, qui devient de plus en plus collé à la fenêtre ovale et fini par ne plus
+conduire les sons correctement, entrainentunesurditédetransmission. L’atteinte est fréquemment bilatérale.
+• Les autres symptômes sont des acouphènes, parfois des vertiges et une «Paracusiswillisii» (le patient entend
+paradoxalement mieux dans les environnements bruyants que silencieux).
+• À l’audiométrie : diminution de la perception des sons à 2’000 Hz à la conduction osseuse (Carhart’snotch),
+ainsi qu’une surdité de transmission et une absence du réflexe stapédien.
+• Le traitement consiste en une stapédectomieet son remplacement par une prothèse, ou un implant auditif.
+
+--- Page 4 ---
+Otite externe infectieuse Dermatite atopique
+zona auriculaire
+
+--- Page 5 ---
+Exemples d’OMC suppurée (haut)
+Exemples d’oWte moyenne aiguë
+et de cholestéatome (bas)
+
+--- Page 6 ---
+Menière:
+• Définition :Maladie causée par une anomalie de résorption de l’endolymphe dans l’oreille interne.
+La cause précise est indéterminée et la maladie débute en général chez les adultes entre 40 et 50 ans.
+• Cliniques: Épisode durant 20 minutes à 12h de surdité de perception, acouphèneet vertigepériphérique
+(triade de Menière). Des nystagmus et la sensation d’engorgement de l’oreille peuvent être présents.
+• Diagnostique: Clinique (épisodes récidivants et compatible dans la durée), démonstration à l’audiométried’une
+surdité de perception prédominant dans les fréquences basses et moyenne (grave). En cas de suspicion
+d’origine centrale, une imagerie en coupe devrait être effectuée.
+• Critères: 2 épisodes ou plus de vertige durant 20’ à 12h + surdité de perception prédominant dans les
+fréquences basses à l’audiométrie +autres symptômes du côté atteinte (acouphène, oreille « pleine »…)
+• Traitement: Lors des crises, administrer des médicaments avec effets suppresseurs sur l’oreille interne
+=> Antiémétique, BZD, anti-histaminiquede 1èregénération
+En dehors des crises : diète pauvre en sodium (< 3g par jour), réduction du stress, éviction des triggers si
+identifiés (alcool, café, nicotine…). Si nécessaire introduction d’un traitement pharmacologique au long court :
+Diurétique thiazidique ou acétalozamide, betahistine. En dernier recours, administration localement et à haute
+doses de médicaments toxiques pour l’oreille interne : Gentamycineou administration locale de stéroïdes.
+Autrement, résection chirurgicale : neurectomievestibulaire ou labyrinthectomie
+Neuronitevestibulaire :
+• Définition :Inflammation idiopathique du nerf vestibulaire, souvent para-infectieuse après une IVRS.
+Après le VPPB, il s’agit de la seconde cause la plus fréquente de vertige et touche les adultes entre 30 et 50 ans.
+Cliniques: Apparition rapide de symptômes liés à un déficit unilatérale du NC.VIII (versant cochléaire en général
+épargné) avec un nystagmus du côté sain, des vertiges et une chute du côté touché
+• Diagnostique: Diagnostic clinique (effectuer la Head-impulse test : green flag)
+• Traitement: Le traitement le plus important est la réhabilitationvestibulaire précoce. En aiguë, des
+médicaments avec effets suppresseurs sur la fonction vestibulaire peuvent-être prescrit. En revanche, il n’y a
+plus d’indication pour une utilisation systématique de stéroïdes. L’évolution est normalement spontanément
+favorable avec une cessation des vertiges après quelques jours et une résolution complète en 2-3 semaines.
+Dans les cas réfractaires, possibilités d’effectuer une neurectomievestibulaire ou labyrinthectomie
+VPBB:
+• Définition :Vertige paroxystique provoqué par des rotations brusques de la nuque, en relation avec des calculs
+dans les canaux semi-circulaire. Cause la plus fréquente de vertige, pic d’incidence entre 50-60 ans !
+• Cliniques: Épisode brutaux et court (< 1 minute) de vertige avec nystagmus unidirectionnel. Comme pour la
+neuronitevestibulaire, il n’y en général pasde signe cochléaire associées (acouphène, surdité de perception…)
+• Diagnostique: Déclenchement des symptômes (vertiges et nystagmus) lors de la manœuvre de Dix-Hallpike
+• Traitement: Manœuvre de repositionnement des calculs (manœuvre de Epley), en général évolution
+spontannémentfavorable y-comprit sans manœuvre de repositionnement après quelques semaines.

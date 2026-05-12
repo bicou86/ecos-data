@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Dermatologie ECOS - Révisions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.7; }
+        }
+        
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+            animation: slideInFromTop 0.8s ease-out;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        /* Barre de progression */
+        .progress-container {
+            padding: 20px;
+            background: white;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .progress-bar {
+            height: 30px;
+            background: #e9ecef;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 15px;
+            width: 0%;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        /* Cartes de statistiques */
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+        
+        /* Contrôles avec filtres améliorés */
+        .controls {
+            padding: 25px;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            border-bottom: 1px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .controls-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        
+        .search-container {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+            font-size: 18px;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 15px 12px 45px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: white;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        /* Filtres par tags */
+        .filter-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-tag {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 2px solid #dee2e6;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .filter-tag:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+        
+        .filter-tag.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: transparent;
+        }
+        
+        .filter-tag.urgent { border-color: #e74c3c; }
+        .filter-tag.urgent.active { background: #e74c3c; }
+        
+        .filter-tag.warning { border-color: #f39c12; }
+        .filter-tag.warning.active { background: #f39c12; }
+        
+        .filter-tag.dosage { border-color: #3498db; }
+        .filter-tag.dosage.active { background: #3498db; }
+        
+        .filter-tag.osce { border-color: #27ae60; }
+        .filter-tag.osce.active { background: #27ae60; }
+        
+        /* Sélecteur de sections */
+        .section-selector {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        select {
+            padding: 10px 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            background: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        select:hover {
+            border-color: #667eea;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        button {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        
+        button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        button:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+        
+        button:active {
+            transform: translateY(-1px);
+        }
+        
+        .counter {
+            padding: 12px 20px;
+            background: white;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #495057;
+            border: 2px solid #dee2e6;
+            min-width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .section.collapsed {
+            margin-bottom: 20px;
+        }
+        
+        .section.collapsed .table-wrapper {
+            display: none;
+        }
+        
+        .section-title {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            font-size: 1.5em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .section-title:hover {
+            padding-left: 30px;
+        }
+        
+        .section-title::before {
+            content: '▼';
+            position: absolute;
+            left: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .section.collapsed .section-title::before {
+            transform: rotate(-90deg);
+        }
+        
+        .section-count {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: normal;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        th {
+            background: #f8f9fa;
+            color: #495057;
+            font-weight: 600;
+            text-align: left;
+            padding: 15px;
+            border-bottom: 2px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e9ecef;
+            vertical-align: top;
+        }
+        
+        tr {
+            transition: all 0.3s ease;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+            transform: scale(1.01);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .pathology {
+            font-weight: 700;
+            color: #667eea;
+            font-size: 1.1em;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .pathology::before {
+            content: '🔬';
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        
+        /* STYLES POUR LES HIGHLIGHTS COLORÉS */
+        
+        /* Rouge - Urgences et alertes */
+        .urgent {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            animation: pulse-urgent 2s infinite;
+            box-shadow: 0 2px 5px rgba(231, 76, 60, 0.3);
+        }
+        
+        @keyframes pulse-urgent {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+        }
+        
+        /* Orange - Avertissements */
+        .warning {
+            background: linear-gradient(45deg, #f39c12, #e67e22);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(243, 156, 18, 0.3);
+        }
+        
+        /* Jaune - Points importants */
+        .highlight {
+            background: linear-gradient(45deg, #f1c40f, #f39c12);
+            color: #2c3e50;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(241, 196, 15, 0.3);
+        }
+        
+        /* Jaune - Points clés */
+        .key-point {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #2c3e50;
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            border: 1px solid #f1c40f;
+            box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);
+        }
+        
+        /* Bleu foncé - Signes cliniques */
+        .clinical-sign {
+            background: linear-gradient(45deg, #2c5aa0, #1e3c72);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(44, 90, 160, 0.3);
+        }
+        
+        /* Vert clair - Dosages */
+        .dosage {
+            background: linear-gradient(45deg, #00b894, #55efc4);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(0, 184, 148, 0.3);
+        }
+        
+        /* Bleu clair - Examens prioritaires */
+        .exam-priority {
+            background: linear-gradient(45deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(116, 185, 255, 0.3);
+        }
+        
+        /* Vert - Lignes de traitement */
+        .treatment-line {
+            background: linear-gradient(45deg, #27ae60, #229954);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(39, 174, 96, 0.3);
+        }
+        
+        /* Conseils OSCE - Encadré spécial */
+        .osce-tip {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 18px;
+            border-radius: 10px;
+            margin: 8px 0;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+            position: relative;
+            overflow: hidden;
+            border-left: 4px solid #fff;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .osce-tip::before {
+            content: '💡 ';
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+        
+        .osce-tip::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transform: translate(30px, -30px);
+        }
+        
+        /* Légende des couleurs */
+        .color-legend {
+            background: white;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: none; /* Hidden by default */
+        }
+        
+        .color-legend h3 {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        
+        .legend-item {
+            display: inline-flex;
+            align-items: center;
+            margin: 5px 10px;
+            font-size: 14px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 8px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .controls-row {
+                flex-direction: column;
+            }
+            
+            .search-container {
+                min-width: 100%;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 10px;
+            }
+            
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            .controls, .progress-container, .stats-container {
+                display: none;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+                box-shadow: none;
+            }
+            
+            .section-title {
+                background: #667eea !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            tr:hover {
+                transform: none;
+                box-shadow: none;
+            }
+            
+            /* Préserver les couleurs à l'impression */
+            .urgent, .warning, .highlight, .key-point,
+            .clinical-sign, .dosage, .exam-priority,
+            .treatment-line, .osce-tip {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 Guide Dermatologie ECOS</h1>
+            <p class="subtitle">Fiches de révision complètes pour l'examen clinique</p>
+        </header>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Sections</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">28</div>
+                <div class="stat-label">Pathologies</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="viewedCount">0</div>
+                <div class="stat-label">Consultées</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="remainingCount">28</div>
+                <div class="stat-label">Restantes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="progressPercent">0%</div>
+                <div class="stat-label">Progression</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="timeSpent">0m</div>
+                <div class="stat-label">Temps passé</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="controls-row">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Rechercher une pathologie, symptôme, traitement...">
+                </div>
+                <button onclick="expandAll()">📖 Tout déplier</button>
+                <button onclick="collapseAll()">📚 Tout replier</button>
+                <button onclick="resetFilters()">🔄 Réinitialiser</button>
+            </div>
+            
+            <div class="controls-row">
+                <div class="filter-tags">
+                    <span style="margin-right: 10px; font-weight: 600;">Filtres:</span>
+                    <div class="filter-tag urgent" data-tag="urgent" onclick="toggleFilter(this)">🚨 Urgences</div>
+                    <div class="filter-tag warning" data-tag="warning" onclick="toggleFilter(this)">⚠️ Alertes</div>
+                    <div class="filter-tag dosage" data-tag="dosage" onclick="toggleFilter(this)">💊 Dosages</div>
+                    <div class="filter-tag osce" data-tag="osce" onclick="toggleFilter(this)">💡 Tips OSCE</div>
+                </div>
+                
+                <div class="section-selector">
+                    <label for="sectionSelect" style="font-weight: 600;">Section:</label>
+                    <select id="sectionSelect" onchange="filterBySection()">
+                        <option value="">Toutes les sections</option>
+                        <option value="section-1">1. Dermatoses Inflammatoires</option>
+                        <option value="section-2">2. Acné et Rosacée</option>
+                        <option value="section-3">3. Eczémas</option>
+                        <option value="section-4">4. Pathologies vasculaires cutanées</option>
+                        <option value="section-5">5. Tumeurs cutanées bénignes et malignes</option>
+                        <option value="section-6">6. Infections cutanées bactériennes et virales</option>
+                        <option value="section-7">7. Mycoses</option>
+                        <option value="section-8">8. Infestations et parasitoses</option>
+                        <option value="section-9">9. Pathologies bulleuses auto-immunes</option>
+                        <option value="section-10">10. Autres dermatoses et urgences cutanées</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="counter" id="counter">
+                <span id="visibleCount">28</span> / 28 pathologies affichées
+            </div>
+        </div>
+        
+        <div class="content">
+
+            <!-- Section 1: Dermatoses Inflammatoires -->
+            <div class="section" id="section-1">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    1. Dermatoses Inflammatoires
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-1">
+                                <td class="pathology">Psoriasis vulgaire</td>
+                                <td>Lésions cutanées chroniques, prurit variable, douleurs articulaires. <span class="highlight">ATCD</span> familiaux fréquents. Facteurs déclenchants : infections, stress, médicaments (β-bloquants, lithium, IEC), alcool, tabac. Maladies associées : <span class="clinical-sign">syndrome</span> métabolique, Crohn, polyarthrite psoriasique.</td>
+                                <td>Plaques érythémato-squameuses bien limitées aux faces d’extension (coudes, genoux), cuir chevelu, sillon interfessier. Squames blanchâtres, <span class="clinical-sign">phénomène</span> de la bougie, saignement punctiforme. Ongles : piquetés, onycholyse. Recherche arthrite psoriasique.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. <span class="exam-priority">Biopsie</span> seulement si doute. <span class="exam-priority">Bilan</span> comorbidités métaboliques.</td>
+                                <td>Formes légères : dermocorticoïdes, analogues vitamine D. Formes modérées : photothérapie, méthotrexate, ciclosporine, acitrétine. Formes sévères : biothérapies (anti-TNF, anti-IL-17/23).</td>
+                                <td><span class="key-point">Jamais</span> de corticoïdes systémiques (<span class="warning">risque</span> rebond). <span class="key-point">Toujours</span> examiner ongles et articulations.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-1">
+                                <td class="pathology">Ulcère de jambe</td>
+                                <td>Plaie chronique jambe. Facteurs <span class="warning">risque</span> : insuffisance veineuse, artériopathie, diabète, immobilisation, âge.</td>
+                                <td>Ulcère veineux : malléolaire interne, fond fibrineux, bord régulier, œdème, varices. Ulcère artériel : distalité, douloureux, fond nécrotique, pouls abolis. Ulcère diabétique : zones de pression, neuropathie associée.</td>
+                                <td>IPS (index de pression systolique), écho-Doppler artériel/veineux. <span class="exam-priority">Biopsie</span> si ulcère atypique. Recherche infection (frottis, imagerie si suspicion ostéite).</td>
+                                <td>Ulcère veineux : compression, soins locaux, <span class="treatment-line">chirurgie</span> veineuse. Ulcère artériel : revascularisation (angioplastie/pontage). Ulcère diabétique : décharge podologique, correction diabète. Antibiotiques si surinfection.</td>
+                                <td><span class="key-point">Toujours</span> décrire localisation, fond, bords et pourtour. <span class="urgent">Complication</span> = ostéomyélite.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 2: Acné et Rosacée -->
+            <div class="section" id="section-2">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    2. Acné et Rosacée
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-2">
+                                <td class="pathology">Acné</td>
+                                <td>Début adolescence, aggravation cycles menstruels. Facteurs aggravants : cosmétiques, stress, médicaments (corticoïdes, lithium). Retentissement psychosocial à évaluer.</td>
+                                <td>Comédons, papules, pustules, nodules ± cicatrices. Formes : comédonienne, papulo-pustuleuse, nodulaire/conglobata. Localisation visage, thorax, dos.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. Dosages hormonaux si acné tardive ou hyperandrogénie.</td>
+                                <td>Formes légères : rétinoïdes topiques ± peroxyde benzoyle. Modérées : ajout antibiotiques (tétracyclines). Sévères : isotrétinoïne orale (contraception obligatoire).</td>
+                                <td><span class="key-point">Toujours</span> vérifier contraception si isotrétinoïne. Différentiel : rosacée, folliculite.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage" data-section="section-2">
+                                <td class="pathology">Hidradénite suppurée</td>
+                                <td>Nodules douloureux chroniques plis axillaires/inguinaux, récidivants. Facteurs <span class="warning">risque</span> : obésité, tabac.</td>
+                                <td>Nodules, abcès, fistules, cicatrices hypertrophiques.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. Imagerie si atteinte profonde.</td>
+                                <td>Antibiotiques prolongés, rétinoïdes, biothérapies (anti-TNF). <span class="treatment-line">Chirurgie</span> pour formes sévères.</td>
+                                <td>Pathologie invalidante, récidivante. Souvent associée à dépression.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="" data-section="section-2">
+                                <td class="pathology">Rosacée</td>
+                                <td>Flushs, érythème facial chronique, aggravé par soleil, alcool, stress, repas épicés.</td>
+                                <td>Érythème centro-facial, papulo-pustules, télangiectasies. Rhinophyma dans formes tardives. Atteinte oculaire possible.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. <span class="exam-priority">Biopsie</span> si doute.</td>
+                                <td><span class="dosage">Métronidazole</span> ou ivermectine topiques, antibiotiques oraux (cyclines). Isotrétinoïne si sévère. Laser pour télangiectasies.</td>
+                                <td>Pas de comédons (différentiel acné).</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 3: Eczémas -->
+            <div class="section" id="section-3">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    3. Eczémas
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-3">
+                                <td class="pathology">Dermatite atopique</td>
+                                <td>Prurit chronique, <span class="highlight">antécédents</span> familiaux d’atopie (asthme, rhinite allergique, dermatite). Début enfance, poussées évolutives. Facteurs déclenchants : allergènes, stress, climat sec.</td>
+                                <td>Lésions eczématiformes mal limitées, érythémato-squameuses, lichénifiées, zones de grattage. Localisation variable selon âge : nourrisson (joues, convexités), enfant (plis), adulte (face, cou, mains).</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. Tests allergologiques si suspicion. <span class="exam-priority">Biopsie</span> rarement utile.</td>
+                                <td>Émollients en continu. Dermocorticoïdes locaux en poussée. Inhibiteurs calcineurine topiques si résistance. Antihistaminiques parfois. Photothérapie/biothérapie (dupilumab) formes sévères.</td>
+                                <td><div class="osce-tip">OSCE : <span class="key-point">toujours</span> insister sur <span class="treatment-line">mesures</span> d’hygiène (savons doux, hydratation).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-3">
+                                <td class="pathology">Eczéma de contact</td>
+                                <td>Éruption après exposition allergène/irritant (cosmétiques, métaux, produits ménagers). Prurit, brûlures.</td>
+                                <td>Plaques érythémato-vésiculeuses mal limitées, suintantes, prurigineuses. Localisation en regard zone contact.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. Tests épicutanés (patch tests) pour identifier allergène.</td>
+                                <td>Éviction allergène, dermocorticoïdes locaux. Émollients.</td>
+                                <td><div class="osce-tip">OSCE : <span class="key-point">toujours</span> demander profession (dermatite des mains fréquente chez soignants).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-3">
+                                <td class="pathology">Gale</td>
+                                <td>Prurit nocturne intense, contage familial/sexuel. Délai incubation 2–3 semaines. <span class="highlight">ATCD</span> vie en collectivité.</td>
+                                <td>Sillons scabieux (espaces interdigitaux, poignets, mamelons, organes génitaux). Papules érythémateuses excoriées. Respect visage sauf nourrisson.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. Dermoscopie ou grattage cutané si doute (visualisation parasite).</td>
+                                <td>Perméthrine topique ou ivermectine orale. <span class="treatment-line">Traitement</span> simultané entourage + désinfection literie/vêtements.</td>
+                                <td><div class="osce-tip">OSCE : prurit nocturne + contage = gale jusqu’à preuve du contraire.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 4: Pathologies vasculaires cutanées -->
+            <div class="section" id="section-4">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    4. Pathologies vasculaires cutanées
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-4">
+                                <td class="pathology">Ulcère veineux</td>
+                                <td>Plaie chronique, malléolaire interne, contexte insuffisance veineuse. <span class="highlight">Antécédents</span> thrombose, varices.</td>
+                                <td>Ulcère fond fibrineux, bords réguliers, peau périlésionnelle pigmentée, œdème. Pouls périphériques présents.</td>
+                                <td>Écho-Doppler veineux. IPS pour exclure composante artérielle.</td>
+                                <td>Compression élastique. Soins locaux. <span class="treatment-line">Chirurgie</span> veineuse si récidive.</td>
+                                <td><div class="osce-tip">OSCE : décrire localisation, fond, bords, pourtour <span class="key-point">systématiquement</span>.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-4">
+                                <td class="pathology">Ulcère artériel</td>
+                                <td>Plaie distale douloureuse, contexte artériopathie. Facteurs <span class="warning">risque</span> CV.</td>
+                                <td>Ulcère nécrotique, bords creusés, pouls abolis, extrémités froides.</td>
+                                <td>IPS bas. Écho-Doppler artériel, angio-<span class="exam-priority">scanner</span>.</td>
+                                <td>Revascularisation artérielle (angioplastie/pontage). Soins locaux. Antalgie.</td>
+                                <td><div class="osce-tip">OSCE : <span class="key-point">toujours</span> prendre pouls périphériques.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-4">
+                                <td class="pathology">Érysipèle</td>
+                                <td>Fièvre brutale, frissons, douleur locale. Facteurs <span class="warning">risque</span> : plaies, mycose interdigitale, lymphœdème, diabète.</td>
+                                <td>Plaque rouge inflammatoire bien limitée, chaude, douloureuse. Adénopathies régionales. Porte d’entrée souvent visible.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. NFS, CRP. Hémocultures si sepsis.</td>
+                                <td>Antibiothérapie IV (<span class="dosage">amoxicilline</span>) puis relais per os. <span class="treatment-line">Traitement</span> porte d’entrée.</td>
+                                <td><div class="osce-tip">OSCE : <span class="urgent">urgence</span> infectieuse.</div> <span class="key-point">Toujours</span> chercher porte d’entrée.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-4">
+                                <td class="pathology">Lymphœdème</td>
+                                <td>Œdème chronique, lourd, non réductible, progressif. Primaire (congénital) ou secondaire (<span class="treatment-line">chirurgie</span> ganglionnaire, radiothérapie, infection filarienne).</td>
+                                <td>Œdème ferme, indolore, prenant peu le godet. Peau épaissie, papillomateuse. Signe du Stemmer positif (impossibilité pincer peau 2ᵉ orteil).</td>
+                                <td>Écho-Doppler pour exclure TVP. Lymphoscintigraphie si besoin.</td>
+                                <td>Drainage lymphatique manuel, pressothérapie, bas compression. <span class="treatment-line">Chirurgie</span> microchirurgicale exceptionnelle.</td>
+                                <td><div class="osce-tip">OSCE : différencier d’un œdème veineux (prend le godet).</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 5: Tumeurs cutanées bénignes et malignes -->
+            <div class="section" id="section-5">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    5. Tumeurs cutanées bénignes et malignes
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-5">
+                                <td class="pathology">Kératose séborrhéique (bénigne)</td>
+                                <td>Lésion cutanée apparue progressivement, souvent multiples, prurit léger. Patient inquiet d’un cancer.</td>
+                                <td>Plage brunâtre, surélevée, aspect « stuck-on » verruqueux, bien limitée.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. Dermoscopie si doute. <span class="exam-priority">Biopsie</span> si suspicion cancer.</td>
+                                <td>Rassurer. Exérèse/cryothérapie si gêne esthétique ou doute.</td>
+                                <td><div class="osce-tip">OSCE : ne <span class="key-point">jamais</span> confondre avec mélanome → si doute, biopsier.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-5">
+                                <td class="pathology">Carcinome basocellulaire</td>
+                                <td>Lésion cutanée évoluant lentement, souvent zone photo-exposée. Facteurs <span class="warning">risque</span> : soleil, phototype clair, radiothérapie antérieure.</td>
+                                <td>Nodule translucide, perlé, télangiectasies, ulcération centrale possible (« perle épithéliomateuse »).</td>
+                                <td><span class="exam-priority">Biopsie</span>-exérèse diagnostique. Dermoscopie.</td>
+                                <td>Exérèse chirurgicale complète (marges étroites). Alternatives : radiothérapie, cryothérapie, imiquimod topique selon formes.</td>
+                                <td><div class="osce-tip">OSCE : le cancer cutané le plus fréquent, très rarement métastatique.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-5">
+                                <td class="pathology">Carcinome épidermoïde (spinocellulaire)</td>
+                                <td>Lésion croûteuse, bourgeonnante, douloureuse, croissant rapidement. Facteurs <span class="warning">risque</span> : soleil, immunosuppression, cicatrice chronique, HPV.</td>
+                                <td>Plaque érythémateuse ou nodule ulcéro-bourgeonnant, induré, zones photo-exposées. Adénopathies possibles.</td>
+                                <td><span class="exam-priority">Biopsie</span>. <span class="exam-priority">Bilan</span> extension ganglionnaire/imagerie si tumeur avancée.</td>
+                                <td>Exérèse chirurgicale large + analyse marges. ± Curage ganglionnaire. Radiothérapie si inopérable.</td>
+                                <td><div class="osce-tip">OSCE : différentiel avec kératose actinique (lésion précurseur).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-5">
+                                <td class="pathology">Mélanome</td>
+                                <td>Nævus préexistant modifié ou lésion pigmentée nouvelle. Facteurs <span class="warning">risque</span> : phototype clair, coups de soleil, <span class="highlight">ATCD</span> familiaux.</td>
+                                <td>Règle ABCDE : Asymétrie, Bords irréguliers, Couleur inhomogène, Diamètre >6mm, <span class="highlight">Évolution</span> rapide. Palpation ganglions.</td>
+                                <td>Exérèse-<span class="exam-priority">biopsie</span> complète (<span class="key-point">jamais</span> <span class="exam-priority">biopsie</span> partielle). Analyse histologique (épaisseur Breslow). <span class="exam-priority">Bilan</span> extension (<span class="exam-priority">scanner</span>, PET).</td>
+                                <td>Exérèse chirurgicale élargie selon Breslow. ± Curage ganglionnaire. Immunothérapie (anti-PD1, anti-CTLA4) ou thérapies ciblées (BRAF/MEK).</td>
+                                <td><div class="osce-tip">OSCE : <span class="key-point">toujours</span> citer règle ABCDE.</div> Toute lésion pigmentée suspecte = exérèse complète.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 6: Infections cutanées bactériennes et virales -->
+            <div class="section" id="section-6">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    6. Infections cutanées bactériennes et virales
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-6">
+                                <td class="pathology">Furoncle</td>
+                                <td>Nodule douloureux, inflammatoire, centré sur follicule pileux. Facteurs <span class="warning">risque</span> : diabète, immunodépression.</td>
+                                <td>Nodule rouge, douloureux, fluctuant. Pustule centrale. ± Adénopathies régionales.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. Prélèvement bactériologique si récidives.</td>
+                                <td>Antiseptiques locaux. Antibiotiques si multiples ou immunodéprimé. Drainage chirurgical si abcédation.</td>
+                                <td><div class="osce-tip">OSCE : différencier d’un kyste infecté.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-6">
+                                <td class="pathology">Impétigo</td>
+                                <td>Plaques érythémateuses suintantes, croûtes jaunâtres. Contage enfants, collectivités. Facteurs : dermatite atopique, hygiène.</td>
+                                <td>Lésions croûteuses jaune-miel, souvent visage et mains. Formes bulleuses possibles.</td>
+                                <td>Clinique. Prélèvement si forme résistante.</td>
+                                <td>Antibiotiques locaux (mupirocine). Orale (<span class="dosage">amoxicilline</span>-ac. clavulanique) si étendu.</td>
+                                <td><div class="osce-tip">OSCE : très contagieux.</div> Prévention = hygiène, éviction scolaire temporaire.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-6">
+                                <td class="pathology">Zona</td>
+                                <td>Douleur neuropathique localisée (brûlures, picotements), suivie d’éruption vésiculeuse unilatérale, systématisée selon dermatome. <span class="highlight">ATCD</span> varicelle.</td>
+                                <td>Vésicules groupées sur fond érythémateux, unilatérales, respectant ligne médiane. ± Névralgies post-zostériennes.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. PCR VZV si doute. Sérologie inutile.</td>
+                                <td>Antiviraux (valaciclovir, aciclovir) dans les 72h. Antalgiques adaptés. Vaccination préventive personnes âgées.</td>
+                                <td><div class="osce-tip">OSCE : préciser <span class="warning">risque</span> zona ophtalmique (atteinte V1) → <span class="urgent">urgence</span> ophtalmo.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 7: Mycoses -->
+            <div class="section" id="section-7">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    7. Mycoses
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-7">
+                                <td class="pathology">Candidose cutanéo-muqueuse</td>
+                                <td>Prurit, brûlures, lésions intertrigos ou muqueuses (vulvo-vaginale, buccale). Facteurs <span class="warning">risque</span> : antibiotiques, diabète, immunodépression, macération.</td>
+                                <td>Plaques érythémateuses luisantes avec collerette périphérique. Macération plis. Vulvo-vaginite avec leucorrhées blanches grumeleuses. Muguet buccal (enduit blanchâtre).</td>
+                                <td>Examen direct mycologique + culture (Candida albicans).</td>
+                                <td>Antifongiques locaux (imidazolés, nystatine). Systémique (fluconazole) si formes sévères. Corriger facteurs favorisants.</td>
+                                <td><div class="osce-tip">OSCE : <span class="key-point">toujours</span> rechercher immunodépression ou diabète.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-7">
+                                <td class="pathology">Dermatophytie (teigne, intertrigo)</td>
+                                <td>Plaques squameuses prurigineuses. Atteinte cuir chevelu (teigne) : alopécie. Facteurs : contage animal, piscine, sport.</td>
+                                <td>Plaques arrondies érythémato-squameuses à bordure active. Intertrigo macéré. Ongles épaissis, friables (onychomycose).</td>
+                                <td>Examen direct + culture fongique. Lampe de Wood pour teigne.</td>
+                                <td>Antifongiques locaux (terbinafine, imidazolés). Per os si atteinte cuir chevelu ou ongles.</td>
+                                <td><div class="osce-tip">OSCE : différencier teigne (contagieuse) d’eczéma.</div> Demander contage animal.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 8: Infestations et parasitoses -->
+            <div class="section" id="section-8">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    8. Infestations et parasitoses
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-8">
+                                <td class="pathology">Leishmaniose cutanée</td>
+                                <td>Séjour zone endémique (Maghreb, Moyen-Orient, Amérique Latine). Lésion cutanée chronique indolore. Facteurs <span class="warning">risque</span> : immunodépression.</td>
+                                <td>Papule/nodule évoluant vers ulcération bordée indurée. Localisation zones découvertes.</td>
+                                <td>Examen direct (amastigotes). PCR. Culture. <span class="exam-priority">Biopsie</span>.</td>
+                                <td>Antimoniés, amphotéricine B liposomale, miltéfosine selon formes. <span class="treatment-line">Traitement</span> local possible (cryothérapie, thermothérapie).</td>
+                                <td><div class="osce-tip">OSCE : <span class="key-point">toujours</span> demander voyage récent ou migration.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-8">
+                                <td class="pathology">Pédiculose (poux)</td>
+                                <td>Prurit intense cuir chevelu ou pubis, contage familial/collectivité. <span class="highlight">ATCD</span> hygiène ou promiscuité.</td>
+                                <td>Lentes adhérentes aux cheveux (derrière oreilles, nuque). Poux visibles parfois. Excoriations. Prurit pubien = morpions.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique.</td>
+                                <td>Topiques (perméthrine, diméticone). Peigne fin répété. <span class="treatment-line">Traitement</span> simultané entourage. Désinfection literie/vêtements.</td>
+                                <td><div class="osce-tip">OSCE : différencier lentes mortes (blanches, loin cuir chevelu) de lentes vivantes (brunâtres, proches racine).</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 9: Pathologies bulleuses auto-immunes -->
+            <div class="section" id="section-9">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    9. Pathologies bulleuses auto-immunes
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-9">
+                                <td class="pathology">Pemphigus vulgaire</td>
+                                <td>Bulles douloureuses, flasques, sur peau saine et muqueuses (buccales fréquentes). Facteurs <span class="warning">risque</span> : auto-immunité, certains médicaments.</td>
+                                <td>Bulles flasques, érosions, croûtes. <span class="clinical-sign">Signe de</span> Nikolsky positif (décollement épiderme au frottement).</td>
+                                <td><span class="exam-priority">Biopsie</span> cutanée avec immunofluorescence directe (dépôts intra-épidermiques IgG).</td>
+                                <td>Corticoïdes systémiques haute <span class="dosage">dose</span>. Immunosuppresseurs (azathioprine, mycophénolate). Biothérapies (rituximab). Soins locaux.</td>
+                                <td><div class="osce-tip">OSCE : différencier du pemphigoïde (bulles tendues, sujet âgé).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-9">
+                                <td class="pathology">Pemphigoïde bulleuse</td>
+                                <td>Sujet âgé, prurit intense, éruption bulleuse chronique. Pas d’atteinte muqueuse majeure.</td>
+                                <td>Bulles tendues, érythémateuses ou urticariennes. <span class="clinical-sign">Signe de</span> Nikolsky négatif.</td>
+                                <td><span class="exam-priority">Biopsie</span> + immunofluorescence (dépôts linéaires IgG, C3 en sous-épiderme).</td>
+                                <td>Corticoïdes topiques haute puissance. Corticoïdes systémiques ou immunosuppresseurs si sévère.</td>
+                                <td><div class="osce-tip">OSCE : prurit inaugural fréquent → <span class="exam-priority">diagnostic</span> différentiel = eczéma du sujet âgé.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 10: Autres dermatoses et urgences cutanées -->
+            <div class="section" id="section-10">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    10. Autres dermatoses et urgences cutanées
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-10">
+                                <td class="pathology">Érythrodermie</td>
+                                <td>Rougeur diffuse >90% surface corporelle, prurit, frissons, malaise. <span class="highlight">ATCD</span> psoriasis, eczéma, lymphome cutané ou toxidermie.</td>
+                                <td>Peau diffuse rouge, squameuse. Œdème, adénopathies, chute cheveux/ongles. Signes déshydratation, insuffisance cardiaque.</td>
+                                <td><span class="exam-priority">Biopsie</span> cutanée si cause inconnue. <span class="exam-priority">Bilan</span> biologique (NFS, ionogramme, protéines).</td>
+                                <td>Hospitalisation. Rééquilibration hydro-électrolytique, soins locaux émollients. Corticoïdes ou immunosuppresseurs selon cause.</td>
+                                <td><div class="osce-tip">OSCE : <span class="urgent">urgence</span> vitale par <span class="warning">risque</span> défaillance multi-organes.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent osce" data-section="section-10">
+                                <td class="pathology">Toxidermie sévère (Stevens-Johnson/Lyell)</td>
+                                <td>Début brutal après prise médicamenteuse (sulfamides, anticonvulsivants, allopurinol, AINS). Fièvre, malaise, douleurs cutanées.</td>
+                                <td>Érythème, bulles, nécrose cutanée, décollement épidermique (Nikolsky +). Atteinte muqueuse sévère (buccale, oculaire, génitale).</td>
+                                <td>Clinique. <span class="exam-priority">Biopsie</span> cutanée si doute. <span class="exam-priority">Bilan</span> biologique (ionogramme, <span class="exam-priority">bilan</span> rénal/hépatique).</td>
+                                <td>Arrêt <span class="urgent">immédiat</span> médicament. Hospitalisation en réa/grands brûlés. Soins de support intensifs. Immunomodulateurs parfois.</td>
+                                <td><div class="osce-tip">OSCE : mentionner transfert unité spécialisée grands brûlés.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-10">
+                                <td class="pathology">Urticaire et œdème de Quincke</td>
+                                <td>Éruption prurigineuse fugace. Déclencheurs : médicaments, aliments, infections, piqûres. Œdème lèvres, paupières, langue (Quincke). <span class="highlight">ATCD</span> allergies.</td>
+                                <td>Papules érythémateuses œdémateuses à bordure nette, migratrices. Œdème muqueux possible.</td>
+                                <td><span class="exam-priority">Diagnostic</span> clinique. Recherche allergène. <span class="exam-priority">Bilan</span> complémentaire si récidivant (IgE, <span class="exam-priority">bilan</span> immuno).</td>
+                                <td>Antihistaminiques. Corticoïdes si sévère. Adrénaline IM si atteinte larynx/anaphylaxie. <span class="warning">Surveillance</span> hospitalière si Quincke respiratoire.</td>
+                                <td><div class="osce-tip">OSCE : <span class="urgent">urgence</span> vitale si atteinte laryngée → adrénaline IM.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Variables globales
+        let viewedPathologies = new Set();
+        let activeFilters = new Set();
+        let startTime = Date.now();
+        let totalPathologies = 28;
+        
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCounter();
+            updateProgress();
+            
+            // Mise à jour du temps passé
+            setInterval(updateTimeSpent, 60000);
+            
+            // Observer pour marquer les pathologies comme vues
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const row = entry.target;
+                        if (row.classList.contains('pathology-row')) {
+                            viewedPathologies.add(row);
+                            updateProgress();
+                        }
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                observer.observe(row);
+            });
+        });
+        
+        // Fonction de recherche améliorée
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const sections = document.querySelectorAll('.section');
+            let visibleCount = 0;
+            
+            sections.forEach(section => {
+                const rows = section.querySelectorAll('.pathology-row');
+                let sectionHasVisible = false;
+                
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                    const matchesFilters = activeFilters.size === 0 || 
+                        Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                    
+                    if (matchesSearch && matchesFilters) {
+                        row.style.display = '';
+                        sectionHasVisible = true;
+                        visibleCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+                
+                // Masquer la section si aucune pathologie visible
+                section.style.display = sectionHasVisible ? '' : 'none';
+            });
+            
+            updateCounter(visibleCount);
+        });
+        
+        // Toggle section (expand/collapse)
+        function toggleSection(section) {
+            section.classList.toggle('collapsed');
+        }
+        
+        // Fonction pour tout déplier
+        function expandAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('collapsed');
+            });
+        }
+        
+        // Fonction pour tout replier
+        function collapseAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.add('collapsed');
+            });
+        }
+        
+        // Toggle filter
+        function toggleFilter(filterElement) {
+            const tag = filterElement.dataset.tag;
+            filterElement.classList.toggle('active');
+            
+            if (activeFilters.has(tag)) {
+                activeFilters.delete(tag);
+            } else {
+                activeFilters.add(tag);
+            }
+            
+            applyFilters();
+        }
+        
+        // Appliquer les filtres
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const sectionFilter = document.getElementById('sectionSelect').value;
+            const rows = document.querySelectorAll('.pathology-row');
+            let visibleCount = 0;
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                const matchesSection = sectionFilter === '' || row.dataset.section === sectionFilter;
+                const matchesTags = activeFilters.size === 0 || 
+                    Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                
+                if (matchesSearch && matchesSection && matchesTags) {
+                    row.style.display = '';
+                    row.closest('.section').style.display = '';
+                    visibleCount++;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+            
+            // Masquer les sections vides
+            document.querySelectorAll('.section').forEach(section => {
+                const visibleRows = section.querySelectorAll('.pathology-row:not([style*="display: none"])');
+                if (visibleRows.length === 0) {
+                    section.style.display = 'none';
+                }
+            });
+            
+            updateCounter(visibleCount);
+        }
+        
+        // Filtrer par section
+        function filterBySection() {
+            applyFilters();
+        }
+        
+        // Réinitialiser les filtres
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('sectionSelect').value = '';
+            document.querySelectorAll('.filter-tag').forEach(tag => {
+                tag.classList.remove('active');
+            });
+            activeFilters.clear();
+            
+            // Afficher toutes les sections et pathologies
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = '';
+                section.classList.remove('collapsed');
+            });
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                row.style.display = '';
+            });
+            
+            updateCounter(totalPathologies);
+        }
+        
+        // Mettre à jour le compteur
+        function updateCounter(count = null) {
+            if (count === null) {
+                count = document.querySelectorAll('.pathology-row:not([style*="display: none"])').length;
+            }
+            document.getElementById('visibleCount').textContent = count;
+        }
+        
+        // Mettre à jour la progression
+        function updateProgress() {
+            const viewed = viewedPathologies.size;
+            const remaining = totalPathologies - viewed;
+            const percent = Math.round((viewed / totalPathologies) * 100);
+            
+            document.getElementById('viewedCount').textContent = viewed;
+            document.getElementById('remainingCount').textContent = remaining;
+            document.getElementById('progressPercent').textContent = percent + '%';
+            document.getElementById('progressFill').style.width = percent + '%';
+            document.getElementById('progressFill').textContent = percent + '%';
+        }
+        
+        // Mettre à jour le temps passé
+        function updateTimeSpent() {
+            const minutes = Math.floor((Date.now() - startTime) / 60000);
+            const hours = Math.floor(minutes / 60);
+            const mins = minutes % 60;
+            const timeStr = hours > 0 ? `${hours}h ${mins}m` : `${mins}m`;
+            document.getElementById('timeSpent').textContent = timeStr;
+        }
+        
+        // Raccourcis clavier
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + F pour focus sur recherche
+            if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                e.preventDefault();
+                document.getElementById('searchInput').focus();
+            }
+            
+            // Escape pour réinitialiser les filtres
+            if (e.key === 'Escape') {
+                resetFilters();
+            }
+            
+            // Alt + E pour tout déplier
+            if (e.altKey && e.key === 'e') {
+                e.preventDefault();
+                expandAll();
+            }
+            
+            // Alt + C pour tout replier
+            if (e.altKey && e.key === 'c') {
+                e.preventDefault();
+                collapseAll();
+            }
+        });
+    </script>
+</body>
+</html>

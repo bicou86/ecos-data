@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faux Croup (Laryngite) - Fiche de révision SSP Pédiatrie</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #7b68ee;
+            --success-color: #5cb85c;
+            --danger-color: #d9534f;
+            --warning-color: #f0ad4e;
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --ecos-gradient: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
+            --card-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header {
+            background: var(--bg-gradient);
+            color: white;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .page-title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .meta-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            backdrop-filter: blur(10px);
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        /* Sections principales */
+        .main-section {
+            color: var(--primary-color);
+            margin: 35px 0 25px 0;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8em;
+        }
+        
+        .section-title {
+            color: var(--secondary-color);
+            margin: 25px 0 15px 0;
+            padding-left: 20px;
+            border-left: 5px solid var(--secondary-color);
+            font-size: 1.4em;
+        }
+        
+        .sub-section {
+            color: #495057;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        
+        /* Section spéciale Points Clés ECOS */
+        .ecos-key-points {
+            background: var(--ecos-gradient);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 15px 50px rgba(255,107,107,0.3);
+            position: relative;
+            overflow: hidden;
+            animation: pulse-glow 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 15px 50px rgba(255,107,107,0.3); }
+            50% { box-shadow: 0 20px 60px rgba(255,107,107,0.5); }
+        }
+        
+        .ecos-key-points::before {
+            content: '⚡';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 150px;
+            opacity: 0.1;
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .ecos-key-points-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .ecos-key-points-header h2 {
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin: 0;
+        }
+        
+        .ecos-icon {
+            font-size: 2.5em;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .ecos-key-points-content {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 20px;
+            color: #333;
+        }
+        
+        /* Highlights et alertes */
+        .red-flag, .critical-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff4444, #cc0000);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: pulse 1.5s infinite;
+            margin: 5px 0;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .urgent-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff9800, #f44336);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: blink 2s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        
+        .essential-point {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700, #ffb300);
+            color: #333;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        .important-note {
+            display: inline-block;
+            background: linear-gradient(135deg, #4caf50, #8bc34a);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        /* Highlights de texte */
+        .highlight-critical {
+            background: #ffebee;
+            color: #c62828;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            border-bottom: 2px solid #ef5350;
+        }
+        
+        mark.highlight-critical {
+            background: linear-gradient(to bottom, transparent 50%, #ffcdd2 50%);
+            padding: 2px 4px;
+        }
+        
+        /* Checkboxes */
+        .checkbox-item {
+            margin: 12px 0;
+            padding: 18px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            border-left: 5px solid transparent;
+            display: flex;
+            align-items: center;
+        }
+        
+        .checkbox-item:hover {
+            background: linear-gradient(135deg, #e9ecef, #dee2e6);
+            transform: translateX(8px);
+            border-left-color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        
+        .checkbox-item label {
+            cursor: pointer;
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+        
+        .checkbox-item input[type="checkbox"]:checked + label {
+            color: var(--success-color);
+            text-decoration: line-through;
+            font-weight: 500;
+        }
+        
+        /* Tables */
+        .table-container {
+            overflow-x: auto;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        .data-table thead {
+            background: var(--bg-gradient);
+            color: white;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .data-table tbody tr:hover {
+            background: linear-gradient(90deg, #f8f9fa, #ffffff);
+            transform: scale(1.01);
+            transition: all 0.2s ease;
+        }
+        
+        .cell-critical {
+            background: #ffebee !important;
+            color: #c62828;
+            font-weight: 600;
+        }
+        
+        .cell-important {
+            background: #fff3e0 !important;
+            color: #e65100;
+            font-weight: 600;
+        }
+        
+        /* Listes */
+        .content-list {
+            margin: 15px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .content-list li {
+            position: relative;
+            padding-left: 35px;
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+        
+        .content-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 10px;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        /* Sections enrichissement */
+        .enrichment-section {
+            margin: 30px 0;
+            background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 20px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .enrichment-header {
+            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: var(--primary-color);
+            padding: 10px;
+            user-select: none;
+            transition: all 0.3s ease;
+        }
+        
+        .enrichment-header:hover {
+            color: var(--secondary-color);
+            transform: translateX(10px);
+        }
+        
+        .enrichment-section[open] .enrichment-header {
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+        
+        .enrichment-content {
+            animation: fadeIn 0.5s ease-out;
+            padding: 0 10px;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Paragraphes */
+        p {
+            margin: 12px 0;
+            line-height: 1.8;
+        }
+        
+        strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        em {
+            color: #495057;
+            font-style: italic;
+        }
+        
+        /* Progress bar */
+        .progress-bar {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            min-width: 200px;
+            z-index: 1000;
+        }
+        
+        .progress-text {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .progress-track {
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--bg-gradient);
+            border-radius: 5px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+        
+        /* Menu flottant */
+        .floating-menu {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        
+        .menu-button {
+            background: var(--bg-gradient);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+        }
+        
+        .menu-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+        }
+        
+        /* Timer */
+        .timer {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            background: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            box-shadow: var(--card-shadow);
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            .page-title {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .floating-menu {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .timer {
+                top: 10px;
+                left: 10px;
+                font-size: 0.9em;
+            }
+            
+            .progress-bar {
+                bottom: 10px;
+                right: 10px;
+                min-width: 150px;
+            }
+            
+            .ecos-key-points {
+                padding: 20px;
+            }
+            
+            .ecos-key-points-header h2 {
+                font-size: 1.5em;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+            
+            .floating-menu,
+            .timer,
+            .progress-bar {
+                display: none;
+            }
+            
+            .ecos-key-points {
+                page-break-inside: avoid;
+                background: #fff3e0 !important;
+                border: 3px solid #ff6b6b;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="timer" id="timer">⏱️ 00:00</div>
+    
+    <div class="floating-menu">
+        <button class="menu-button" onclick="resetProgress()">🔄 Réinitialiser</button>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="page-title">Faux Croup (Laryngite) - Fiche de révision SSP Pédiatrie</h1>
+            <div class="meta-info">
+                <span class="badge">📚 Médecine</span>
+                <span class="badge">📅 30/08/2025</span>
+                <span class="badge">🎯 Révision ECOS - Diagnostic</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h1 class="page-title">Faux Croup (Laryngite) - Fiche de révision SSP Pédiatrie</h1><h2 class="main-section">📋 Informations générales</h2>
+            <h1 class="page-title">Faux Croup (Laryngite) - Fiche de révision SSP Pédiatrie</h1><h2 class="main-section">📋 Informations générales</h2>
+<ul class="content-list">
+<ul>
+<li><strong>Discipline</strong>: Pédiatrie</li>
+<li><strong>Fréquence</strong>: Variable selon l'âge</li>
+<li><strong>Gravité potentielle</strong>: Variable</li>
+<li><strong>Terrain</strong>: Enfants (préciser l'âge à risque)</li>
+</ul><h2 class="main-section">🎯 Objectifs d'apprentissage ECOS</h2>
+<ul class="content-list">
+<li>
+    <ul>
+<li>Reconnaître les signes cliniques</li>
+<li>Connaître les critères d'hospitalisation</li>
+<li>Savoir initier le traitement de première ligne</li>
+<li>Identifier les complications</li>
+<li>Conseiller les parents</li>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>Inspection</li>
+<li>Palpation</li>
+<li>Auscultation</li>
+<li>Signes vitaux pédiatriques</li>
+<li>Nouveau-né (0-28 jours)</li>
+<li>Nourrisson (1-24 mois)</li>
+<li>Enfant (2-12 ans)</li>
+<li>Adolescent (>12 ans)</li>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>Introduction</li>
+</ul>
+  </li>
+Le faux-croup est lʼobstruction des voies respiratoires hautes la plus fréquente chez le jeune enfant. Elle résulte dʼun œdème
+inflammatoire sous-glottique.
+Elle est due au parainfluenza virus (type 1, 2, 3) dans plus de 65 % des cas.
+<ul class="content-list">
+<li>
+    <ul>
+<li>Vapeur froide (ou chaude) :</li>
+</ul>
+  </li>
+Humidifie les sécrétions : Auparavant fréquemment utilisé dans le traitement du croup, les études ne montrent pas
+dʼamélioration des scores de croup.</p><h2 class="main-section">🎯 Diagnostic</h2><h3 class="section-title">Critères diagnostiques</h3>
+dʼamélioration des scores de croup.</p><h2 class="main-section">🎯 Diagnostic</h2><h3 class="section-title">Critères diagnostiques</h3>
+<ul class="content-list">
+<li>
+    <ul>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>Âge < 3 mois</li>
+<li>Signes de gravité</li>
+<li>Échec du traitement ambulatoire</li>
+<li>Contexte social défavorable</li>
+<li>Paramètres vitaux</li>
+<li>Évolution clinique</li>
+<li>Tolérance au traitement</li>
+<li>À compléter</li>
+<li>l'enfant doit être surveillé quelques heures aux urgences s'il a</li>
+<li>respiratoire peuvent être</li>
+<li>respiratoire importants.</li>
+<li>ou des troubles de lʼétat de conscience</li>
+<li>Altération de l'état général</li>
+<li>Détresse respiratoire</li>
+<li>Déshydratation</li>
+<li>Signes neurologiques</li>
+<li>À compléter</li>
+<li>Surveillance à domicile</li>
+<li>Critères de reconsultation</li>
+<li>Mesures d'hygiène</li>
+<li>Éviction scolaire si nécessaire</li>
+<li>pharynx et contamine lʼépithélium respiratoire du larynx et de la trachée, pouvant</li>
+<li>adrénergiques conduisant à la constriction des capillaires et à la</li>
+<li>glottique étant la partie la plus étroite de lʼarbre respiratoire de lʼenfant</li>
+<li>48 heures, toux aboyante, voix rauque et stridor inspiratoire ou inspiro-expiratoire apparaissent. Les</li>
+<li>croup est lʼobstruction des voies respiratoires hautes la plus fréquente chez le jeune enfant. Elle résulte dʼun œdème</li>
+<li>croup est une maladie virale touchant principalement les enfants entre 3 mois et 5 ans, avec un âge moyen de 18</li>
+<li>croup est typiquement précédé de quelques jours de rhinite, pharyngite et éventuellement dʼun état fébrile modéré.</li>
+<li>Durée de la maladie</li>
+<li>Contagiosité</li>
+<li>Retour à l'école/crèche</li>
+<li>Vaccination</li>
+<li>AMC Pédiatrie - Université de Genève</li>
+<li>Recommandations pédiatriques suisses</li>
+<li>Livre bleu de pédiatrie</li>
+<li>inspiratoire et expiration prolongée</li>
+<li>inspiratoire marqué, en particulier pendant l'excitation</li>
+<li>inspiratoire persistant pendant l'excitation</li>
+<li>inspiratoire et expiration prolongée</li>
+<li>inspiratoire ausculté et expiration prolongée</li>
+<li>et expiration prolongée</li>
+<li>marqué, en particulier pendant l'excitation</li>
+<li>avec stridor inspiratoire marqué, en particulier pendant l'excitation</li>
+<li>de la tachydyspnée, stridor inspiratoire persistant pendant l'excitation</li>
+<li>de la tachydyspnée, stridor inspiratoire persistant pendant l'excitation</li>
+<li>toire audible même sans stéthoscope.</li>
+<li>leurs de saturation en oxygène 97 %</li>
+<li>costales et jugulaires</li>
+<li>https://youtu.be/hTClmf8egGM (examen cardiac ado) https://youtu.be/P-p_UVha4QE ( examen cardiaque grand enfant) https://youtu.be/Mu0C_of6Aw0 (cardiovascular exam in child) learn.pediatrics.ubc.ca (très bon examen cardiaque complet: aller sur videos puis cardiovascular exam)</li>
+<li>§ Inspection § Palpation § Auscultation http://mrcpch.paediatrics.co.uk : aller sous cardiovascular exam, en particulier cardiovascular exam 4</li>
+<li>chez l’enfant § Savoir effectuer un examen clinique à la recherche des signes cliniques d’une affection cardiovasculaire chez l’enfant</li>
+<li>Cyanose § Feuille de papier et stylo § Notez les questions pertinentes concernant ce symptôme à l’anamnèse!</li>
+<li>https://youtu.be/XQdUnyjcbA0 (insuffisance cardiaque avec détresse resp, stridor) https://youtu.be/9toNQwNSF8E (global healthmedia.org : critical illnesses in newborns: détresse resp, cyanose) https://www.youtube.com/watch?v=SDrMG_qwXlI ( tachypnée nourrisson) https://globalhealthmedia.org/portfolio-items/breathing-problems/ (difficultés respiratoires bébé)</li>
+<li>§ Irradiation cou, mâchoire, bras G § À l’effort (pleurs à la tétée chez nourrisson) § Pâleur, sudations</li>
+<li>Difficultés d’alimentation § Croissance staturopondérale</li>
+<li>Examen général § Croissance § Signes vitaux § Dysmorphisme</li>
+<li>§ Symptômes associés: sudations, malaises, pâleur § Croissance staturopondérale</li>
+<li>§ Feuille de papier et stylo § Notez 2 caractéristiques anamnestiques pour chacune des étiologies de  douleurs thoraciques suivantes: musculosquelettique, péricardique,  coronarienne, dissection aortique, embolie pulmonaire !</li>
+<li>CONSTIPATION : cause fréquente de  douleur abdominale chronique Signes d’alerte: douleur non périombilicale ou nocturne,</li>
+<li>fébrifuges, pas forcément de traitement de R. Toutes autres  causes ad hospitalisation et contrôle par neuropédiatre.</li>
+<li>2. Convulsions pendant la maladie présente  3. Incapacité de boire ou téter</li>
+<li>une certaine date et lui enseigner à déceler les signes qui montrent qu’il  faut ramener l’enfant d’<mark class="highlight-critical">urgence</mark> au centre de santé évaluer  l’alimentation, y compris l’allaitement au sein;</li>
+<li>§ Facteurs atténuants § Symptômes associés: polypnée, perte de contact, convulsion</li>
+</li>
+<div class="ecos-key-points">
+    <div class="ecos-key-points-header">
+        <span class="ecos-icon">🎯</span>
+</ul>
+  </li>
+</ul>
+        <h2>Points Clés pour l'ECOS</h2>
+    </div>
+    <div class="ecos-key-points-content">
+        ### 📌 Points clés pour l'ECOS</p><ul class="content-list">
+<li>
+    <ul>
+<li>limitation modérée à l’effort, rien au repos § III limitation importante de l’acitivité physique quotidienne, rien au  repos</li>
+<li>photophobie, raideur de nuque Chez le nourrisson: moins clair, somnolence plus importante, peu  calmable, fontanelle bombée</li>
+<li>Ils traduisent une malformation  Réponse C : signe-clé d'une mucoviscidose 22</li>
+<li>Chirurgie</li>
+<li>Pédiatrie</li>
+<li><mark class="highlight-critical">Urgence</mark></li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Fièvre</li>
+<li>Vomissement</li>
+<li>Érythème</li>
+<li>Œdème</li>
+<li>Auscultation</li>
+<li>Examen</li>
+<li>Palpation</li>
+<li>Score</li>
+<li>Test</li>
+<li>Complication</li>
+<li>Diagnostic</li>
+<li>Indication</li>
+<li>Traitement</li>
+<li><strong>Danger</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Grave</mark></strong></li>
+<li><strong>Mortel</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Chirurgie</li>
+<li>Médicament</li>
+<li>Traitement</li>
+<li>Cancer</li>
+<li>Infection</li>
+<li>3. QCM Pédiatrie.pdf</li>
+</li>
+
+        </div>
+    </div>
+    
+    <div class="progress-bar">
+        <div class="progress-text">Progression: <span id="percentage">0%</span></div>
+        <div class="progress-track">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Timer functionality
+        let seconds = 0;
+        let timerInterval;
+        
+        function updateTimer() {
+            seconds++;
+            const minutes = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            document.getElementById('timer').textContent = 
+                `⏱️ ${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+        
+        function startTimer() {
+            timerInterval = setInterval(updateTimer, 1000);
+        }
+        
+        // Progress tracking
+        function updateProgress() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const checkedCount = document.querySelectorAll('input[type="checkbox"]:checked').length;
+            const totalCount = checkboxes.length;
+            
+            if (totalCount > 0) {
+                const percentage = Math.round((checkedCount / totalCount) * 100);
+                document.getElementById('percentage').textContent = percentage + '%';
+                document.getElementById('progress-fill').style.width = percentage + '%';
+                
+                if (percentage === 100) {
+                    celebrate();
+                }
+            }
+        }
+        
+        function resetProgress() {
+            if (confirm('Voulez-vous vraiment réinitialiser votre progression ?')) {
+                document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                    cb.checked = false;
+                });
+                updateProgress();
+                seconds = 0;
+                updateTimer();
+                localStorage.removeItem('fiche_Dx_Faux_Croup.md_progress');
+            }
+        }
+        
+        function saveProgress() {
+            const checkboxStates = {};
+            document.querySelectorAll('input[type="checkbox"]').forEach((cb, index) => {
+                checkboxStates[index] = cb.checked;
+            });
+            localStorage.setItem('fiche_Dx_Faux_Croup.md_progress', JSON.stringify({
+                checkboxes: checkboxStates,
+                time: seconds
+            }));
+        }
+        
+        function loadProgress() {
+            const saved = localStorage.getItem('fiche_Dx_Faux_Croup.md_progress');
+            if (saved) {
+                const data = JSON.parse(saved);
+                seconds = data.time || 0;
+                updateTimer();
+                
+                document.querySelectorAll('input[type="checkbox"]').forEach((cb, index) => {
+                    if (data.checkboxes[index]) {
+                        cb.checked = true;
+                    }
+                });
+                updateProgress();
+            }
+        }
+        
+        function celebrate() {
+            const celebration = document.createElement('div');
+            celebration.innerHTML = '🎉 Félicitations! Fiche complétée! 🎉';
+            celebration.style.cssText = `
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: var(--ecos-gradient);
+                color: white;
+                padding: 30px 50px;
+                border-radius: 20px;
+                font-size: 1.5em;
+                font-weight: bold;
+                z-index: 2000;
+                animation: celebrate 2s ease-out;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            `;
+            document.body.appendChild(celebration);
+            
+            setTimeout(() => {
+                celebration.remove();
+            }, 3000);
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProgress();
+            startTimer();
+            
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                cb.addEventListener('change', function() {
+                    updateProgress();
+                    saveProgress();
+                });
+            });
+            
+            setInterval(saveProgress, 10000);
+        });
+        
+        window.addEventListener('beforeunload', saveProgress);
+    </script>
+</body>
+</html>
+</ul>
+</ul>
+  </li>
+</ul>
+  </li>

@@ -1,0 +1,205 @@
+Algorithme « Antalgie aiguë précoce chez l’adulte en urgence »
+
+Service des urgences
+
+Prise en charge
+Médecins
+
+Adulte avec Douleur Aiguë
+
+Prise en charge
+Infirmièr(e)s
+
+Douleur Aiguë
+
+Traiter préventivement
+la douleur liée aux
+actes diagnostiques
+et thérapeutiques
+
+A
+
+La prise en charge de la
+douleur et du diagnostic
+se font en parallèle B
+
+Evaluation: Localisation, Qualité, Intensité
+Mesures immédiates: Réassurance, application de froid,
+immobilisation, position antalgique...
+
+Douleurs chroniques,
+somatoformes, toxicomanes,
+refus du patient C
+
+Douleurs
+VAS/EN < 4/10
+
+VAS/EN > 4/10
+
+A
+
+Céphalées
+sans critères de gravité
+
+Paracétamol 1g
+
+Morphine 0,1 mg/kg i.v.
+
+Paracétamol 1g
+
+et/ou
+
+puis titration
+jusqu’à dose totale initiale
+de 0,15 mg/kg i.v.
+
+et/ou
+
+AINS, p. ex:
+- ibuprofène 600 mg ou
+- diclofénac 75 mg
+
+voie d’administration
+selon la clinique
+
+et
+Paracétamol 1g
+ou
+AINS
+
+F
+
+Céphalées avec critères
+de gravité D
+
+Vérifier les contre-indications
+médicamenteuses G
+
+AINS, p. ex.:
+- ibuprofène 600 mg
+si absence de critère
+de gravité
+- pas d’opiacés
+
+D
+
+Voie d’administration
+selon la clinique
+
+F
+
+Acide acétylsalicylique
+contre-indiqué en
+urgence G
+Prévenir les effets indésirables
+médicamenteux (laxatifs, IPP,
+antiémétiques, p. ex.)
+
+Efficacité du traitement
+évaluée à 15 minutes (VAS/EN)
+Réévaluation constante de la douleur:
+localisation, qualité, intensité
+Réadministration d’antalgique systémique: poursuivre
+avec le même médicament
+H
+vs modifier la stratégie thérapeutique?
+Si traitement inefficace
+
+H
+
+Si pas de réponse à l’antalgique systémique: le
+diagnostic de présomption est-il toujours le bon?
+Actes thérapeutiques/étiologiques
+
+Si traitement efficace/toléré
+Prescription journalière
+Voie p.o à privilégier
+
+Surveillance paramètres vitaux
+
+CIR104134
+
+Service des urgences
+
+Algorithme « Antalgie aiguë précoce chez l’adulte en urgence »
+
+A
+Identification et évaluation de la douleur : Rechercher la douleur chez tout patient examiné en
+urgence (« Avez-vous mal ? »). Mesurer l’intensité de la douleur avec une échelle identique (verbale,
+numérique-EN, visuelle analogique-VAS) durant tout le séjour. Douleur intense : VAS > 40 mm (EN
+> 4/10). VAS/EN à moduler selon gravité de la pathologie, attentes et préférences du patient (p.ex.).
+
+B
+Antalgie et prise en charge diagnostique : Réalisées en parallèle. Une antalgie devrait être administrée
+dans un délai de 15 minutes suivant l’examen du patient. Si les risques dépassent nettement les
+bénéfices (p.e. hypertension intracrânienne), prise en charge diagnostique et antalgie à déterminer
+avec le spécialiste. Dans les douleurs abdominales, il est démontré qu’une antalgie précoce ne modifie
+pas la sensibilité du status ni le résultat de la prise en charge.
+
+C
+Douleurs chroniques (> 3 mois, seuil de la douleur modifié), douleurs neuropathiques, ou
+somatoformes moins sensibles aux analgésiques standards. Administration de doses plus élevées
+souvent nécessaire. Avis spécialisé utile pour réévaluation et introduction d’une co-analgésie.
+Toxicomanes : Administration d’une antalgie selon l’algorithme, sans changement des doses de
+méthadone (si substitution). Augmenter de façon importante les doses de morphine jusqu’à effet
+antalgique. Prévoir rapidement avis spécialisé (anticipation du sevrage). Refus du patient : comprendre
+pourquoi, expliquer bénéfices d’une antalgie, garder une « porte ouverte ». Si refus définitif, consigner
+dans le dossier.
+
+D
+Céphalées avec critère de gravité : La description de « la pire des céphalées », « de céphalée
+différente », de céphalée positionnelle ou manœuvre de Valsalva, de céphalée en crescendo sur
+quelques jours, de céphalée post-traumatique, en présence d’une anticoagulation ou d’une prise
+d’alcool, de fièvre, de perte de poids, de troubles des fonctions supérieures doivent, entre autres, faire
+suspecter une céphalée à caractère « grave ». L’acide acétylsalicylique ne devrait pas être utilisé aux
+urgences (fort potentiel antiaggrégant). Les opiacés n’apportent pas de bénéfice dans le traitement des
+céphalées et compliquent la prise en charge ultérieure. Administration d’antimigraineux spécifiques
+indiquée en urgence après discussion avec le neurologue.
+
+E
+Morphine : a) Patient insuffisant respiratoire : En urgence, une surveillance continue est de mise
+et une réversion en cas de problème (naloxone) est toujours possible. Lorsque la fréquence
+respiratoire est régulière et > 10/min, administration de morphine possible. Le contrôle des
+
+paramètres vitaux et de l’état de vigilance par l’équipe infirmière est essentiel. b) Hypertension
+intracrânienne : Contre-indication sauf si douleur intense avec excellente ventilation. c) Iléus
+paralytique : Utilisation d’une antalgie alternative préférable. d) Coliques biliaires, pancréatites,
+coliques néphrétiques : L’augmentation de la pression du sphincter d’Oddi ne survient qu’à dose
+élevée de morphine et parfois aussi avec péthidine. Les recommandations récentes incitent à
+utiliser préférentiellement la morphine (effets indésirables moins délétères que la péthidine).
+Coliques biliaires et rénales : En l’absence de contre-indications (Cave : déshydratation, âge
+avancé), l’administration de 75 mg de diclofenac i.v. est le traitement recommandé. e) Titration :
+En urgence, la voie i.v. est préférée pour la morphine (voie s.c. trop lente et inconstante) :
+1) injecter 0,1 mg/kg en i.v. lent - 2) attendre 15 minutes - 3) si nécessaire, ajouter 0,05 mg/kg
+par complément de 2mg toutes les 5-10 minutes - 4) La dose totale reçue correspond à la dose à
+répéter toutes les 4 heures. f) paracétamol (ou AINS si Ø contre-indication) : Permet de diminuer la
+dose totale de morphine (effet additif). g) choix de l’opiacé : La morphine est l’opiacé de choix. Si
+contre-indications formelles au paracétamol / AINS, un opiacé de faible puissance peut
+éventuellement être envisagé pour les douleurs modérées. Cave : connaître avantages, risques
+et doses équianalgésiques des différents opiacés - cf Compendium - (p.e. buprénorphine adéquate
+dans l’insuffisance rénale, mais effet plafond et réversion par naloxone très difficile). Fentanyl : réservé
+aux douleurs « suraiguës » et aux médecins connaissant parfaitement ce produit. Minalgine et
+Péthidine : riches d’effets indésirables importants.
+
+F
+Voie d’administration : Paracétamol, diclofénac, morphine sont disponibles sous différentes formes
+galéniques (notamment suppositoires pour les deux premiers). Hormis la morphine, voie i.v.
+exclusivement réservée aux pathologies nécessitant une antalgie rapide (p.ex. coliques néphrétiques)
+ou lorsque l’administration p.o. est formellement contre-indiquée (penser aux suppositoires !). Les
+produits i.v. sont plus chers et peuvent provoquer des chocs (sulfites).
+
+G
+Contre-indications et Effets indésirables : Identifier les contre-indications (ulcère gastrique, grossesse
+p.ex.) et effets indésirables (antiaggrégation plaquettaire p.ex.) des produits utilisés. En cas de
+contre-indications, choisir un autre antalgique. Adapter les doses en présence d’insuffisance rénale,
+hépatique, de déshydratation, de terrain polymorbide (patient âgé), ou de prise concomitante d’autres
+médicaments. Les « adaptations » de doses se font sur la base du Compendium.
+
+H
+Stratégie antalgique : Si absence d’effet antalgique ou effet mineur, réévaluer le diagnostic présumé et
+les choix thérapeutiques. Faire intervenir un spécialiste ?
+Tamchès E. et all ; Swiss Medical Weekly 2007; 137 :223-7
+Decosterd I. et all ; Annals of Emergency Medicine 2007; 50:462-71
+Version 06.2010
+
+

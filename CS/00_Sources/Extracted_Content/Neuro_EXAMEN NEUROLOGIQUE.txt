@@ -1,0 +1,117 @@
+EXAMEN NEUROLOGIQUE
+Introduction générale :
+L’examen neurologique permet d’évaluer les fonctions du système nerveux périphérique
+(nerfs périphériques et nerfs crâniens) et central (cerveau et moelle épinière). Il permet de
+trouver quelle(s) est(sont) la(les) structure(s) touchée(s), donc de localiser la(les) lésion(s),
+d’évaluer l’évolution et les conséquences sur le fonctionnement du système nerveux. Lors
+de l’examen, il faut rechercher les signes positifs (spasticité, allodynie, etc.) et négatifs
+(parésie, paresthésie, etc.) et observer s’il existe une symétrie ou asymétrie entre la droite
+et la gauche.
+Une atteinte du SNC se présente plutôt avec des signes positifs et un phénomène de
+libération (hyperréflexie, spasticité, etc.), alors qu’une lésion du SNP se présente avec des
+signes déficitaires reflétant l’absence de fonction (paralysie, etc.). Il faut aussi évaluer les
+fonctions cognitives et observer d’éventuels déficits.
+L’examen neurologique se décompense en 5 étapes :
+- les fonctions cognitives
+- la motricité
+- la sensibilité
+- les réflexes
+- les nerfs crâniens
+La motricité
+Introduction :
+Le système moteur est composé des motoneurones supérieurs (voie cortico-nucléaires et
+cortico-spinales), des motoneurones inférieurs (corne antérieure de la moelle et noyaux des
+nerfs crâniens), « d’aires prémotrices associées » (aires associatives frontales, l’aire
+prémotrice et l’aire motrice supplémentaire), des noyaux gris centraux, du cervelet ainsi que
+de certaines voies qui partent du tronc cérébral vers la moelle épinière et sur lesquelles
+différentes afférences agissent (afférences du cortex moteur, noyaux gris centraux et
+cervelet)
+La faiblesse est un symptôme fréquent qui peut avoir des causes mutiples. Quelles sont les
+parties du corps atteintes ? La faiblesse est-elle généralisée ou limitée à un membre ou un
+hémicorps ? Quels mouvements sont affectés ? Est-ce une faiblesse distale ou proximale,
+bilatérale ou symétrique ? C’est tout autant de questions qu’on se pose et auxquelles il faut
+essayer de répondre afin de s’orienter sur la localisation de la lésion, la cause, l’étiologie,
+etc.
+
+Il existe une cotation pour la force qui est le système MRC (Medical Research Council).
+Ce système permet une cotation de la force sur une échelle de 0 à 5 :
+0 – Aucune contraction musculaire n’est détectée
+1 – Frémissement à peine décelable ou ébauche de contraction
+2 – Mouvement actif d’une partie du corps en éliminant la pesanteur
+3 – Mouvement actif contre pesanteur, le membre testé tient tout seul, mais si une force
+externe s’applique, il ne pourra pas lutter contre
+4 – Mouvement actif contre pesanteur et une certaine résistance
+5 – Mouvement contre une résistance complète, sans fatigue évidente. C’est la force
+musculaire normale.
+Il faut tester la force musculaire en demandant au patient de résister activement à votre
+mouvement, par exemple, lorsqu’on teste la flexion, on demande au patient d’effectuer le
+mouvement de flexion pendant que le médecin s’oppose à ce mouvement de flexion. Il est
+important de tester la force bilatéralement. La force des gens étant variable, il faut
+prendre le patient comme référentiel, car il n’existe pas de normes absolues concernant la
+force.
+Inspection :
+-
+
+Cherchez toute anomalie telle que des tremblements, des tics, des mouvements
+anormaux, une atrophie musculaire, une hypotonie, des troubles à la marche, un
+problème de coordination, etc.
+
+Épreuves de motricités :
+On commence les tests avec le patient assis en allant de la tête aux pieds afin d’examiner les
+membres supérieurs et les muscles proximaux inférieurs :
+- Abduction des bras (deltoïde : C5-C6)
+- Rotation externe des bras (sous-épineux, petit rond : C4-C5-C6)
+- Rotation interne des bras (sub-scapulaire)
+- Flexion des bras et avant-bras (biceps brachial : C5-C6)
+- Extension des bras et avant-bras (triceps brachial : C6-C7-C8)
+- Extension des poignets (long et court extenseur radial du carpe, extenseur ulnaire du
+carpe : C6-C7-C8)
+- Flexion des poignets (fléchisseur radial du carpe, long palmaire, fléchisseur ulnaire
+du carpe, fléchisseur superficiel et profond des doigts
+- Extension des doigts II-V (extenseur commun des doigts, extenseur propre des doigts
+II et V)
+- Flexion des doigts II-V (fléchisseur profond et superficiel des doigts)
+- Abduction des doigts II-V (abducteur du doigt V, interosseux dorsaux)
+- Adduction des doigts II-V (interosseux palmaires)
+- Flexion des pouces (long et court fléchisseur du pouce
+- Extension des pouces (long et court extenseur du pouce, long abducteur du pouce)
+- Abduction des pouces (adducteur du pouce)
+- Adduction des pouces (long et court abducteur du pouce)
+
+-
+
+Flexion des cuisses (ilio-psoas)
+Flexion des genoux (quadriceps)
+Extension genou (ischio-jambiers)
+
+Puis on teste la motricité avec le patient couché pour l’examination de la force des muscles
+distaux inférieurs :
+- Extension des pieds
+- Flexion des pieds
+- Extension orteils
+- Flexion orteils
+Les muscles examinés en position assise peuvent tout aussi bien être examinés en position
+couchée.
+Epreuves fonctionnelles :
+- Bras tendus : le patient maintient les bras tendus à l’horizontal devant lui. En cas
+d’atteinte pyramidale, les paumes se creuseront. En cas de déficit des muscles
+proximaux, le côté atteint chutera.
+- Pianotage : On demande au patient de pianoter avec ses doigts. Une atteinte
+pyramidale rend le pianotage difficile
+- Epreuve de Mingazzini : On demande au patient en position de décubitus dorsal de
+garder les cuisses fléchies à 90° (cuisses à la verticale, jambes à l’horizontale) afin
+d’explorer la force des fléchisseurs de la cuisse. Une atteinte va se manifester par
+une chute du côté atteint.
+- Epreuve de Barré : On teste la même chose que lors de l’épreuve de Mingazzini, sauf
+que le patient est en décubitus ventral et fléchit les jambes (cuisses à l’horizontale,
+jambes à la verticale).
+- Marche : Faire marcher simplement le patient avec ½ tour à faire, apprécier sa
+démarche, le balancement des bras, la manière d’effectuer le ½ tour ( ½ tour
+décomposé typique du Parkinson). Faire marcher sur la pointe des pieds pour tester
+S1 et sur les talons pour L5. Demander au patient de s’accroupir et se relever (signe
+de Gowers qui signe une parésie de la musculature proximale inférieure, le patient
+doit s’aider de ses bras pour compenser le déficit musculaire). Tenir sur une jambe
+(signe de Trendelenburg avec parésie du moyen fessier où le patient va abaisser la
+hanche du côté sain)
+
+

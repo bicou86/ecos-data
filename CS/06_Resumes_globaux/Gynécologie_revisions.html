@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Gynécologie-Obstétrique ECOS - Révisions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.7; }
+        }
+        
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+            animation: slideInFromTop 0.8s ease-out;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        /* Barre de progression */
+        .progress-container {
+            padding: 20px;
+            background: white;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .progress-bar {
+            height: 30px;
+            background: #e9ecef;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 15px;
+            width: 0%;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        /* Cartes de statistiques */
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+        
+        /* Contrôles avec filtres améliorés */
+        .controls {
+            padding: 25px;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            border-bottom: 1px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .controls-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        
+        .search-container {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+            font-size: 18px;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 15px 12px 45px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: white;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        /* Filtres par tags */
+        .filter-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-tag {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 2px solid #dee2e6;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .filter-tag:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+        
+        .filter-tag.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: transparent;
+        }
+        
+        .filter-tag.urgent { border-color: #e74c3c; }
+        .filter-tag.urgent.active { background: #e74c3c; }
+        
+        .filter-tag.warning { border-color: #f39c12; }
+        .filter-tag.warning.active { background: #f39c12; }
+        
+        .filter-tag.dosage { border-color: #3498db; }
+        .filter-tag.dosage.active { background: #3498db; }
+        
+        .filter-tag.osce { border-color: #27ae60; }
+        .filter-tag.osce.active { background: #27ae60; }
+        
+        /* Sélecteur de sections */
+        .section-selector {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        select {
+            padding: 10px 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            background: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        select:hover {
+            border-color: #667eea;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        button {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        
+        button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        button:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+        
+        button:active {
+            transform: translateY(-1px);
+        }
+        
+        .counter {
+            padding: 12px 20px;
+            background: white;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #495057;
+            border: 2px solid #dee2e6;
+            min-width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .section.collapsed {
+            margin-bottom: 20px;
+        }
+        
+        .section.collapsed .table-wrapper {
+            display: none;
+        }
+        
+        .section-title {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            font-size: 1.5em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .section-title:hover {
+            padding-left: 30px;
+        }
+        
+        .section-title::before {
+            content: '▼';
+            position: absolute;
+            left: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .section.collapsed .section-title::before {
+            transform: rotate(-90deg);
+        }
+        
+        .section-count {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: normal;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        th {
+            background: #f8f9fa;
+            color: #495057;
+            font-weight: 600;
+            text-align: left;
+            padding: 15px;
+            border-bottom: 2px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e9ecef;
+            vertical-align: top;
+        }
+        
+        tr {
+            transition: all 0.3s ease;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+            transform: scale(1.01);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .pathology {
+            font-weight: 700;
+            color: #667eea;
+            font-size: 1.1em;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .pathology::before {
+            content: '🔬';
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        
+        /* STYLES POUR LES HIGHLIGHTS COLORÉS */
+        
+        /* Rouge - Urgences et alertes */
+        .urgent {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            animation: pulse-urgent 2s infinite;
+            box-shadow: 0 2px 5px rgba(231, 76, 60, 0.3);
+        }
+        
+        @keyframes pulse-urgent {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+        }
+        
+        /* Orange - Avertissements */
+        .warning {
+            background: linear-gradient(45deg, #f39c12, #e67e22);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(243, 156, 18, 0.3);
+        }
+        
+        /* Jaune - Points importants */
+        .highlight {
+            background: linear-gradient(45deg, #f1c40f, #f39c12);
+            color: #2c3e50;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(241, 196, 15, 0.3);
+        }
+        
+        /* Jaune - Points clés */
+        .key-point {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #2c3e50;
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            border: 1px solid #f1c40f;
+            box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);
+        }
+        
+        /* Bleu foncé - Signes cliniques */
+        .clinical-sign {
+            background: linear-gradient(45deg, #2c5aa0, #1e3c72);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(44, 90, 160, 0.3);
+        }
+        
+        /* Vert clair - Dosages */
+        .dosage {
+            background: linear-gradient(45deg, #00b894, #55efc4);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(0, 184, 148, 0.3);
+        }
+        
+        /* Bleu clair - Examens prioritaires */
+        .exam-priority {
+            background: linear-gradient(45deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(116, 185, 255, 0.3);
+        }
+        
+        /* Vert - Lignes de traitement */
+        .treatment-line {
+            background: linear-gradient(45deg, #27ae60, #229954);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(39, 174, 96, 0.3);
+        }
+        
+        /* Conseils OSCE - Encadré spécial */
+        .osce-tip {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 18px;
+            border-radius: 10px;
+            margin: 8px 0;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+            position: relative;
+            overflow: hidden;
+            border-left: 4px solid #fff;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .osce-tip::before {
+            content: '💡 ';
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+        
+        .osce-tip::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transform: translate(30px, -30px);
+        }
+        
+        /* Légende des couleurs */
+        .color-legend {
+            background: white;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: none; /* Hidden by default */
+        }
+        
+        .color-legend h3 {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        
+        .legend-item {
+            display: inline-flex;
+            align-items: center;
+            margin: 5px 10px;
+            font-size: 14px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 8px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .controls-row {
+                flex-direction: column;
+            }
+            
+            .search-container {
+                min-width: 100%;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 10px;
+            }
+            
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            .controls, .progress-container, .stats-container {
+                display: none;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+                box-shadow: none;
+            }
+            
+            .section-title {
+                background: #667eea !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            tr:hover {
+                transform: none;
+                box-shadow: none;
+            }
+            
+            /* Préserver les couleurs à l'impression */
+            .urgent, .warning, .highlight, .key-point,
+            .clinical-sign, .dosage, .exam-priority,
+            .treatment-line, .osce-tip {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    
+        .anatomy {
+            background: linear-gradient(45deg, #e91e63, #ec407a);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(233, 30, 99, 0.3);
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 Guide Gynécologie-Obstétrique ECOS</h1>
+            <p class="subtitle">Fiches de révision complètes pour l'examen clinique</p>
+        </header>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number">11</div>
+                <div class="stat-label">Sections</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">38</div>
+                <div class="stat-label">Pathologies</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="viewedCount">0</div>
+                <div class="stat-label">Consultées</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="remainingCount">38</div>
+                <div class="stat-label">Restantes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="progressPercent">0%</div>
+                <div class="stat-label">Progression</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="timeSpent">0m</div>
+                <div class="stat-label">Temps passé</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="controls-row">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Rechercher une pathologie, symptôme, traitement...">
+                </div>
+                <button onclick="expandAll()">📖 Tout déplier</button>
+                <button onclick="collapseAll()">📚 Tout replier</button>
+                <button onclick="resetFilters()">🔄 Réinitialiser</button>
+            </div>
+            
+            <div class="controls-row">
+                <div class="filter-tags">
+                    <span style="margin-right: 10px; font-weight: 600;">Filtres:</span>
+                    <div class="filter-tag urgent" data-tag="urgent" onclick="toggleFilter(this)">🚨 Urgences</div>
+                    <div class="filter-tag warning" data-tag="warning" onclick="toggleFilter(this)">⚠️ Alertes</div>
+                    <div class="filter-tag dosage" data-tag="dosage" onclick="toggleFilter(this)">💊 Dosages</div>
+                    <div class="filter-tag osce" data-tag="osce" onclick="toggleFilter(this)">💡 Tips OSCE</div>
+                </div>
+                
+                <div class="section-selector">
+                    <label for="sectionSelect" style="font-weight: 600;">Section:</label>
+                    <select id="sectionSelect" onchange="filterBySection()">
+                        <option value="">Toutes les sections</option>
+                        <option value="">Toutes les sections</option>
+                        <option value="section-1">1. Contraception et Planification Familiale</option>
+                        <option value="section-2">2. Grossesse et Complications</option>
+                        <option value="section-3">3. Pathologies Gynécologiques</option>
+                        <option value="section-4">4. Troubles Menstruels et Hormonaux</option>
+                        <option value="section-5">5. Pathologies mammaires</option>
+                        <option value="section-6">6. Oncologie gynécologique</option>
+                        <option value="section-7">7. Urgences gynécologiques</option>
+                        <option value="section-8">8. Pathologies infectieuses</option>
+                        <option value="section-9">9. Pathologies vulvaires</option>
+                        <option value="section-10">10. Pathologies uro-gynécologiques</option>
+                        <option value="section-11">11. Urgences obstétricales</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="counter" id="counter">
+                <span id="visibleCount">37</span> / 37 pathologies affichées
+            </div>
+        </div>
+        
+        <div class="content">
+
+            <!-- Section 1: Contraception et Planification Familiale -->
+            <div class="section" id="section-1">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    1. Contraception et Planification Familiale
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-1">
+                                <td class="pathology">Contraception</td>
+                                <td>Rapports protégés/non protégés ? Contraception utilisée auparavant ? Désir d'enfant à court ou moyen terme ? Antécédents thromboemboliques, cancers hormono-dépendants, migraines avec aura, tabac >35 ans, <span class="clinical-sign">HTA</span> ? Confiance/motivation à <span class="anatomy">la</span> prise quotidienne (<span class="dosage">pilule</span>) ? Acceptation dispositifs intra-utérins ? Attentes : sécurité, praticité, effets secondaires.</td>
+                                <td>IMC, tension artérielle. Examen gynécologique si suspicion pathologie associée. <span class="exam">Frottis</span> si non à jour.</td>
+                                <td>Biologie seulement si facteurs <span class="warning">risque</span> (glycémie, lipides, bilan coagulation). <span class="exam">Test grossesse</span> si doute.</td>
+                                <td>Méthodes hormonales (<span class="dosage">pilule</span> combinée, minipilule, patch, anneau, <span class="dosage">implant</span>, injection). Méthodes non-hormonales (<span class="dosage">stérilet</span> cuivre, préservatifs, diaphragme, cape cervicale, méthodes naturelles). Méthodes définitives (ligature tubaire, vasectomie).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours vérifier contre-indications avant prescription (tabac +35 ans, ATCD TEV, migraine avec aura, cancer </div><span class="anatomy">sein</span>). <span class="warning">Ne pas</span> oublier contraception d’<span class="urgent">urgence</span> en cas d’échec.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-1">
+                                <td class="pathology">Stérilité</td>
+                                <td>Rapports réguliers non protégés depuis >12 mois (ou >6 mois si >35 ans) sans grossesse. ATCD gynéco (endométriose, infections, chirurgie pelvienne). ATCD masculins (cryptorchidie, infections, varicocèle). Mode de vie (tabac, alcool, poids, stress).</td>
+                                <td>Examen gynécologique complet (<span class="anatomy">utérus</span>, <span class="anatomy">annexes</span>). Examen andrologique partenaire si indiqué.</td>
+                                <td>Bilan hormonal féminin (<span class="exam">FSH</span>, <span class="exam">LH</span>, <span class="exam">TSH</span>, <span class="exam">prolactine</span>, <span class="dosage"><span class="exam">progestérone</span></span>). <span class="exam">Échographie</span> transvaginale (<span class="anatomy">ovaires</span>, <span class="anatomy">utérus</span>). <span class="exam">Hystérosalpingographie</span> (perméabilité <span class="anatomy">trompes</span>). <span class="exam">Hystéroscopie</span> si anomalie cavité. <span class="exam"><span class="treatment">Laparoscopie</span></span> si suspicion adhérences. Spermogramme + test migration-survie. Dépistage infectieux (Chlamydia, VIH, hépatites).</td>
+                                <td>Correction facteurs <span class="warning">risque</span>. Induction ovulation (<span class="dosage">clomifène</span>, gonadotrophines). Insémination intra-utérine. Fécondation in vitro ± ICSI. Chirurgie si cause mécanique (myome, endométriose, adhérences).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours inclure le partenaire dans l’interrogatoire.</div> Causes fréquentes : 1/3 féminines, 1/3 masculines, 1/3 mixtes ou inexpliquées.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 2: Grossesse et Complications -->
+            <div class="section" id="section-2">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    2. Grossesse et Complications
+                    <span class="section-count">10 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-2">
+                                <td class="pathology">Suspicion grossesse/<span class="clinical-sign">aménorrhée</span></td>
+                                <td><span class="clinical-sign">Aménorrhée</span>, tension mammaire, nausées/vomissements, pollakiurie, fatigue. Date dernières règles ? Cycles réguliers ? Rapports à <span class="warning">risque</span> ? Désir de grossesse ou non ? ATCD obstétricaux.</td>
+                                <td><span class="anatomy">Col</span> violacé, augmentation volume <span class="anatomy">utérus</span>, seins tendus, colostrum. Palpation abdominale (<span class="exam">manœuvres de Léopold</span> à partir T2).</td>
+                                <td>Test urinaire <span class="exam">hCG</span> (positif dès 6-8j post-fécondation). <span class="exam">hCG</span> sanguine quantitative. <span class="exam">Échographie</span> de datation (5-<span class="dosage">7 SA</span>). <span class="exam">Doppler</span> cardiaque fœtal dès 6-<span class="dosage">7 SA</span>.</td>
+                                <td>Complément <span class="treatment">acide folique</span> <span class="urgent">précoce</span>. Arrêt tabac/alccol. Adaptation médicaments. Détermination groupe sanguin/rhésus. Vaccinations (grippe, coqueluche).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours demander date dernières règles et contraception utilisée.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-2">
+                                <td class="pathology">Contraception d’<span class="urgent">urgence</span></td>
+                                <td>Date et circonstances du rapport à <span class="warning">risque</span>. Contraception utilisée ? Vomissements dans les 3h après prise ? Facteurs de <span class="warning">risque</span> thrombo-embolique ?</td>
+                                <td>Non obligatoire sauf si suspicion IST ou grossesse.</td>
+                                <td><span class="exam">Test grossesse</span> si délai >3 semaines ou signes évocateurs.</td>
+                                <td>Lévonorgestrel ≤72h ou ulipristal ≤120h. <span class="dosage">DIU</span> cuivre possible jusqu’à 5 jours.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : proposer systématiquement test IST et rappeler contraception régulière.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-2">
+                                <td class="pathology">Interruption volontaire grossesse</td>
+                                <td>Demande écrite motivée. Âge gestationnel (dernier jour règles). Facteurs psychologiques, sociaux, médicaux. Vérifier groupe sanguin et Rhésus.</td>
+                                <td>Examen gynécologique + <span class="exam">échographie</span> pour dater <span class="anatomy">la</span> grossesse.</td>
+                                <td><span class="exam">β-hCG</span>. Sérologies usuelles si pas faites (VIH, syphilis, hépatites).</td>
+                                <td>Jusqu’à <span class="dosage">7 SA</span> : médicamenteux (<span class="dosage">mifépristone</span> + <span class="dosage">misoprostol</span>). Jusqu’à <span class="dosage">14 SA</span> : <span class="treatment">aspiration</span> chirurgicale. Au-delà : indications médicales strictes.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : préciser </div><span class="treatment">prophylaxie anti-D</span> si Rh−.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-2">
+                                <td class="pathology">Avortement/Fausse couche</td>
+                                <td>Saignements vaginaux, douleurs pelviennes, fièvre possible. Date dernières règles ? Facteurs de <span class="warning">risque</span> (tabac, malformations, infections, ATCD obstétricaux).</td>
+                                <td>Examen au <span class="exam">spéculum</span> (origine saignement). <span class="exam">TV</span> : <span class="anatomy">col</span> ouvert/fermé, vacuité utérine.</td>
+                                <td><span class="exam">β-hCG</span> sériées. <span class="exam">Échographie</span> endovaginale (activité cardiaque fœtale, vacuité cavité).</td>
+                                <td>Repos si menace. <span class="treatment">Aspiration</span>/chirurgie si incomplet ou hémorragique. Médicamenteux (<span class="dosage">misoprostol</span>) possible. <span class="treatment">Antibioprophylaxie</span> si <span class="treatment">curetage</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : bien différencier menace (</div><span class="anatomy">col</span> fermé) vs avortement en cours (<span class="anatomy">col</span> ouvert).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-2">
+                                <td class="pathology">Suivi grossesse</td>
+                                <td>Signes fonctionnels : <span class="clinical-sign">mouvements fœtaux</span>, <span class="clinical-sign">contractions</span>, pertes, saignements, <span class="clinical-sign">céphalées</span>, œdèmes. Facteurs de <span class="warning">risque</span> maternels (<span class="clinical-sign">HTA</span>, diabète, infections, obésité).</td>
+                                <td>TA, poids, hauteur utérine, <span class="clinical-sign">BCF</span>. Recherche œdèmes, varices.</td>
+                                <td>Échographies T1, T2, T3. Sérologies (toxoplasmose, rubéole, syphilis, VIH, hépatite B). Dépistage diabète gestationnel. BU mensuelle (<span class="clinical-sign">protéinurie</span>). <span class="exam">Doppler</span> ombilical si RCIU suspecté.</td>
+                                <td>Education à <span class="anatomy">la</span> grossesse. Planification <span class="treatment">accouchement</span>. Dépistage systématique pathologies. Préparation à <span class="anatomy">la</span> parentalité.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="warning">ne pas</span> oublier carnet maternité.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-2">
+                                <td class="pathology">Grossesse avec traumatisme</td>
+                                <td>Circonstances trauma (AVP, chute, violence). SA. Douleurs abdo, saignements, <span class="clinical-sign">mouvements fœtaux</span>. ATCD obstétricaux.</td>
+                                <td>Constantes vitales maternelles. Palpation abdo, <span class="clinical-sign">contractions</span>. Examen <span class="exam">spéculum</span> si saignements.</td>
+                                <td><span class="exam">Monitoring fœtal</span>, <span class="exam">échographie</span> (<span class="anatomy">placenta</span>, liquide, vitalité fœtale).</td>
+                                <td>Surveillance rapprochée mère et <span class="anatomy">fœtus</span>. <span class="treatment">Césarienne</span> en <span class="urgent">urgence</span> si décollement <span class="anatomy">placenta</span> ou souffrance fœtale.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours sécuriser </div><span class="anatomy">la</span> mère en premier.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-2">
+                                <td class="pathology">Rupture prématurée des <span class="anatomy">membranes</span></td>
+                                <td>Perte liquidienne <span class="positive">claire</span> ? Odeur ? Quantité ? Fièvre, <span class="clinical-sign">contractions</span>, saignements. ATCD obstétricaux.</td>
+                                <td>Examen au <span class="exam">spéculum</span> (pertes liquidiennes). TA, température.</td>
+                                <td>Test cristallisation ou pH vaginal. <span class="exam">Échographie</span> (quantité <span class="anatomy">LA</span>). Bilan infectieux (CRP, BU).</td>
+                                <td>Hospitalisation, <span class="treatment">antibioprophylaxie</span>, surveillance fœtale, déclenchement selon terme. <span class="treatment">Tocolyse</span> si prématurité.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : préciser </div><span class="warning">risque</span> infection materno-fœtale.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-2">
+                                <td class="pathology">Prééclampsie</td>
+                                <td><span class="clinical-sign">HTA</span> gravidique après <span class="dosage">20 SA</span>. <span class="clinical-sign">Céphalées</span>, <span class="clinical-sign">phosphènes</span>, douleurs épigastriques, œdèmes. ATCD prééclampsie, obésité, diabète, grossesse multiple.</td>
+                                <td>TA répétée. Recherche signes gravité : clonus, convulsions, hyperréflexie.</td>
+                                <td>BU (<span class="clinical-sign">protéinurie</span>). Bilan biologique (plaquettes, créatinine, bilan hépatique).</td>
+                                <td>Repos, hospitalisation. Anti-hypertenseurs si >160/110 (labetalol, nifédipine). <span class="treatment">Sulfate de magnésium</span> si <span class="warning">sévère</span>. Déclenchement <span class="treatment">accouchement</span> selon gravité/terme.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer </div><span class="clinical-sign">syndrome</span> <span class="warning">HELLP</span> et <span class="warning">éclampsie</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-2">
+                                <td class="pathology">Diabète gestationnel</td>
+                                <td>Facteurs <span class="warning">risque</span> : âge >35, obésité, ATCD diabète. Soif, polyurie, macrosomie fœtale.</td>
+                                <td>TA, poids. Examen fœtal.</td>
+                                <td><span class="exam">HGPO</span> 24–<span class="dosage">28 SA</span>. Glycémie à jeun.</td>
+                                <td>Régime adapté, activité physique. Insuline si HbA1c/glycémie mal contrôlées. Surveillance fœtale (croissance, <span class="anatomy">LA</span>).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : préciser surveillance post-partum (</div><span class="warning">risque</span> diabète type 2).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-2">
+                                <td class="pathology">Femme en travail</td>
+                                <td>Début <span class="clinical-sign">contractions</span>, pertes, saignements. Perception <span class="clinical-sign">mouvements fœtaux</span>. ATCD obstétricaux (<span class="treatment">césarienne</span>, prééclampsie).</td>
+                                <td>TA, pouls, température. Palpation utérine (fréquence, intensité). <span class="exam">Toucher vaginal</span> (dilatation, <span class="clinical-sign">effacement</span> <span class="anatomy">col</span>).</td>
+                                <td><span class="exam">Monitoring fœtal</span>. <span class="exam">Échographie</span> si doute <span class="clinical-sign">présentation</span>. Bilan pré-op si <span class="treatment">césarienne</span>.</td>
+                                <td>Surveillance travail. <span class="dosage">Ocytocine</span> si stagnation. <span class="treatment">Césarienne</span> si souffrance fœtale ou stagnation prolongée.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : dire systématiquement « je prépare matériel réanimation néonatale ».</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 3: Pathologies Gynécologiques -->
+            <div class="section" id="section-3">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    3. Pathologies Gynécologiques
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-3">
+                                <td class="pathology">Endométriose</td>
+                                <td><span class="clinical-sign">Dysménorrhée</span> <span class="warning">sévère</span>, <span class="clinical-sign">dyspareunie</span> profonde, douleurs pelviennes chroniques, infertilité. ATCD familiaux d’endométriose ?</td>
+                                <td><span class="exam">TV</span> : <span class="anatomy">utérus</span> rétroversé sensible, nodules douloureux <span class="anatomy">cul-de-sac de Douglas</span>, <span class="anatomy">annexes</span> douloureuses.</td>
+                                <td><span class="exam">Échographie</span> endovaginale (endométriome). <span class="exam">IRM</span> <span class="anatomy">pelvis</span>. <span class="exam"><span class="treatment">Laparoscopie</span></span> diagnostique (gold standard).</td>
+                                <td>Antalgiques, AINS, contraception hormonale continue, analogues GnRH. Chirurgie conservatrice (résection lésions, endométriomes). Chirurgie radicale (<span class="treatment">hystérectomie</span>) si forme <span class="warning">sévère</span> non désir de grossesse.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : demander systématiquement douleur pendant règles et rapports.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-3">
+                                <td class="pathology">Fibrome utérin (myome)</td>
+                                <td>Métrorragies, ménorragies, douleurs pelviennes, pesanteur, infertilité. ATCD gynécologiques.</td>
+                                <td><span class="exam">TV</span> : <span class="anatomy">utérus</span> augmenté de volume, irrégulier, ferme.</td>
+                                <td><span class="exam">Échographie</span> pelvienne. <span class="exam">IRM</span> si bilan pré-op. <span class="exam">Hystéroscopie</span> si suspicion sous-muqueux.</td>
+                                <td>Traitement médical (progestatifs, analogues GnRH). Chirurgie conservatrice (<span class="treatment">myomectomie</span>) si désir grossesse. <span class="treatment">Hystérectomie</span> si volumineux ou symptomatique et pas de désir grossesse.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : préciser âge et désir de grossesse car impact thérapeutique.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-3">
+                                <td class="pathology">Cancer de l’ovaire</td>
+                                <td>Ballonnement, douleurs pelviennes chroniques, troubles digestifs, augmentation périmètre abdominal, ménopause récente. ATCD familiaux cancers gynécologiques (BRCA).</td>
+                                <td><span class="exam">TV</span> : masse annexielle dure, irrégulière. <span class="clinical-sign">Ascite</span>. Palpation abdo (masse).</td>
+                                <td><span class="exam">Échographie</span> pelvienne. Marqueurs <span class="exam">CA-125</span>. <span class="exam">Scanner</span> TAP. <span class="exam">IRM</span> <span class="anatomy">pelvis</span>. <span class="exam"><span class="treatment">Laparoscopie</span></span> diagnostique.</td>
+                                <td>Chirurgie cytoréductrice (<span class="treatment">hystérectomie</span>, <span class="treatment">annexectomie</span>, omentectomie). <span class="treatment">Chimiothérapie</span> (platine). Suivi <span class="exam">CA-125</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : souvent diagnostiqué tard → insister sur symptômes vagues + contexte ménopause.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-3">
+                                <td class="pathology">Cancer du <span class="anatomy">col</span> de l’<span class="anatomy">utérus</span></td>
+                                <td>Métrorragies post-coïtales, leucorrhées fétides, douleurs pelviennes. ATCD <span class="exam">HPV</span>, absence dépistage <span class="exam">frottis</span>.</td>
+                                <td>Examen au <span class="exam">spéculum</span> : masse friable saignante. <span class="exam">TV</span> : extension <span class="anatomy">paramètres</span>, mobilité <span class="anatomy">utérus</span>.</td>
+                                <td><span class="exam">Frottis</span> cervico-utérin (dépistage). <span class="exam">Colposcopie</span> + biopsies. <span class="exam">IRM</span> <span class="anatomy">pelvis</span> pour bilan extension.</td>
+                                <td><span class="treatment">Conisation</span> si stade <span class="urgent">précoce</span>. Chirurgie radicale (<span class="treatment">hystérectomie</span> élargie). <span class="treatment">Radio-chimiothérapie</span> si avancé.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : demander statut vaccinal </div><span class="exam">HPV</span> et suivi <span class="exam">frottis</span>.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 4: Troubles Menstruels et Hormonaux -->
+            <div class="section" id="section-4">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    4. Troubles Menstruels et Hormonaux
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-4">
+                                <td class="pathology"><span class="clinical-sign">Aménorrhée</span> primaire</td>
+                                <td>Absence règles >16 ans avec caractères sexuels secondaires normaux, ou >14 ans sans caractères sexuels secondaires. ATCD familiaux. Exercice intensif ? Troubles alimentaires ?</td>
+                                <td>Examen pubertaire (stade Tanner), morphotype, recherche malformations génitales. Examen thyroïde.</td>
+                                <td>Dosages hormonaux (<span class="exam">FSH</span>, <span class="exam">LH</span>, <span class="exam">estradiol</span>, <span class="exam">prolactine</span>, <span class="exam">TSH</span>). <span class="exam">Échographie</span> <span class="anatomy">pelvis</span> (<span class="anatomy">utérus</span>, <span class="anatomy">ovaires</span>). <span class="exam">Caryotype</span> si suspicion anomalie génétique.</td>
+                                <td>Selon cause : substitution hormonale si insuffisance ovarienne, correction anomalies anatomiques, traitement troubles alimentaires.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours éliminer grossesse même si primaire.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-4">
+                                <td class="pathology"><span class="clinical-sign">Aménorrhée</span> secondaire</td>
+                                <td>Absence règles >3 mois chez femme réglée. Grossesse ? Stress, perte poids, exercice ? ATCD gynéco (<span class="treatment">curetage</span>, chirurgie utérine). Médicaments (neuroleptiques, <span class="treatment">chimiothérapie</span>).</td>
+                                <td>Poids, IMC, signes <span class="clinical-sign">hirsutisme</span>, <span class="clinical-sign">galactorrhée</span>. Examen thyroïde. <span class="exam">TV</span> si suspicion utérine.</td>
+                                <td><span class="exam">β-hCG</span>. Dosages hormonaux (<span class="exam">FSH</span>, <span class="exam">LH</span>, <span class="exam">prolactine</span>, <span class="exam">TSH</span>, <span class="exam">estradiol</span>). <span class="exam">Échographie</span> <span class="anatomy">utérus</span>/<span class="anatomy">ovaires</span>. <span class="exam">IRM</span> hypophyse si hyperprolactinémie.</td>
+                                <td>Traitement cause (sevrage médicamenteux, correction troubles alimentaires, substitution hormonale).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : première cause = grossesse → toujours </div><span class="anatomy">la</span> rechercher.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-4">
+                                <td class="pathology"><span class="clinical-sign">Syndrome</span> des <span class="anatomy">ovaires</span> polykystiques (SOPK)</td>
+                                <td><span class="clinical-sign">Aménorrhée</span>/oligoménorrhée, <span class="clinical-sign">hirsutisme</span>, acné, infertilité. ATCD familiaux SOPK/diabète.</td>
+                                <td>IMC, pilosité, acné, <span class="clinical-sign">acanthosis nigricans</span>. <span class="exam">TV</span> : <span class="anatomy">ovaires</span> augmentés. TA.</td>
+                                <td><span class="exam">Échographie</span> <span class="anatomy">ovaires</span> (polykystiques). Bilan hormonal (<span class="exam">LH</span>/<span class="exam">FSH</span>, <span class="exam">testostérone</span>, <span class="exam">prolactine</span>, <span class="exam">TSH</span>). Glycémie, HbA1c.</td>
+                                <td>Contraception combinée (régulation cycles + <span class="clinical-sign">hirsutisme</span>). <span class="dosage">Metformine</span> si insulinorésistance. Induction ovulation si désir grossesse (<span class="dosage">clomifène</span>, letrozole).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="clinical-sign">triade</span> typique = <span class="clinical-sign">aménorrhée</span>, <span class="clinical-sign">hirsutisme</span>, <span class="exam">échographie</span> polykystique.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-4">
+                                <td class="pathology">Insuffisance ovarienne prématurée</td>
+                                <td><span class="clinical-sign">Aménorrhée</span> <40 ans, bouffées chaleur, infertilité. ATCD <span class="treatment">chimiothérapie</span>, <span class="treatment">radiothérapie</span>, chirurgie ovarienne, auto-immunité.</td>
+                                <td>Signes hypo-estrogénie (sécheresse vaginale, atrophie). Examen général (thyroïde, peau, IMC).</td>
+                                <td>Dosages hormonaux : <span class="exam">FSH</span> élevée, <span class="exam">estradiol</span> bas. <span class="exam">Caryotype</span> si <30 ans. Dépistage auto-immun. <span class="exam">DMO</span> (ostéoporose).</td>
+                                <td>Substitution estro-progestative jusqu’à l’âge physiologique ménopause. Prévention ostéoporose (vit D, <span class="treatment">calcium</span>). Assistance médicale à <span class="anatomy">la</span> procréation (don ovocytes).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours penser au retentissement osseux et cardiovasculaire.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 5: Pathologies mammaires -->
+            <div class="section" id="section-5">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    5. Pathologies mammaires
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-5">
+                                <td class="pathology">Mastopathie bénigne</td>
+                                <td>Douleurs mammaires cycliques, mastodynie, nodules diffus bilatéraux. Contexte souvent prémenstruel.</td>
+                                <td>Palpation mammaire : nodules multiples, diffus, sensibles, sans adénopathies suspectes. Pas de rétraction cutanée ni écoulement sanglant.</td>
+                                <td><span class="exam">Échographie</span> mammaire <35 ans. <span class="exam">Mammographie</span> >35 ans. <span class="exam">Biopsie</span> si doute.</td>
+                                <td>Rassurer, antalgiques. Soutien-gorge adapté. Traitement hormonal si <span class="warning">sévère</span> (progestatifs locaux).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : différencier d’un cancer (nodule unique, dur, irrégulier, non douloureux).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-5">
+                                <td class="pathology">Cancer du <span class="anatomy">sein</span></td>
+                                <td>Nodule indolore, augmentation progressive, écoulement mamelonnaire sanglant, rétraction du <span class="anatomy">mamelon</span>. ATCD familiaux cancer du <span class="anatomy">sein</span>/ovaire (BRCA).</td>
+                                <td>Palpation : nodule dur, irrégulier, indolore, fixe. Inspection : peau d’orange, rétraction <span class="anatomy">mamelon</span>. Recherche adénopathies axillaires/sus-claviculaires.</td>
+                                <td><span class="exam">Mammographie</span> + <span class="exam">échographie</span> mammaire. <span class="exam">Biopsie</span> (micro ou macrobiopsie). <span class="exam">IRM</span> mammaire si besoin. Bilan d’extension (<span class="exam">scanner</span>, scintigraphie osseuse).</td>
+                                <td>Chirurgie (<span class="treatment">tumorectomie</span> ou <span class="treatment">mastectomie</span>) + ganglion sentinelle/curage. <span class="treatment">Radiothérapie</span>, <span class="treatment">chimiothérapie</span>, <span class="treatment">hormonothérapie</span>, thérapies ciblées selon profil. Suivi multidisciplinaire.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : demander systématiquement ATCD familiaux et dépistage (</div><span class="exam">mammographie</span>).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-5">
+                                <td class="pathology">Mastite/abcès du <span class="anatomy">sein</span></td>
+                                <td>Douleur mammaire localisée, fièvre, rougeur, tuméfaction. Contexte allaitement ? Stagnation lait ?</td>
+                                <td>Zone inflammatoire douloureuse, rouge, chaude. Masse fluctuante si abcès. Adénopathies axillaires possibles.</td>
+                                <td><span class="clinical-sign">Clinique</span> souvent suffisant. <span class="exam">Échographie</span> si suspicion abcès.</td>
+                                <td>Antibiotiques (cloxacilline, amoxicilline-ac. clavulanique). Continuer allaitement si possible. Drainage chirurgical ou ponction si abcès.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : bien différencier mastite (infection) d’un engorgement simple (stase lait).</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 6: Oncologie gynécologique -->
+            <div class="section" id="section-6">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    6. Oncologie gynécologique
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-6">
+                                <td class="pathology">Cancer de l’ovaire</td>
+                                <td>Ballonnements, douleurs pelviennes, troubles digestifs, <span class="clinical-sign">ascite</span>, amaigrissement. ATCD familiaux BRCA.</td>
+                                <td>Masse annexielle dure, irrégulière. <span class="clinical-sign">Ascite</span>. Adénopathies possibles.</td>
+                                <td><span class="exam">Échographie</span> pelvienne, <span class="exam">CA-125</span>, <span class="exam">scanner</span> TAP. <span class="exam">IRM</span> <span class="anatomy">pelvis</span>. <span class="exam"><span class="treatment">Laparoscopie</span></span> diagnostique.</td>
+                                <td>Chirurgie cytoréductrice + <span class="treatment">chimiothérapie</span> (platine). Suivi <span class="exam">CA-125</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur découverte souvent tardive.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-6">
+                                <td class="pathology">Cancer du <span class="anatomy">col</span> utérin</td>
+                                <td>Métrorragies post-coïtales, leucorrhées fétides, douleurs pelviennes. ATCD <span class="exam">HPV</span>, absence dépistage.</td>
+                                <td>Speculum : lésion friable saignante. <span class="exam">TV</span> : extension <span class="anatomy">paramètres</span>.</td>
+                                <td><span class="exam">Frottis</span> cervico-utérin, <span class="exam">colposcopie</span> + biopsies. <span class="exam">IRM</span> <span class="anatomy">pelvis</span>.</td>
+                                <td><span class="treatment">Conisation</span> si <span class="urgent">précoce</span>. <span class="treatment">Hystérectomie</span> élargie. <span class="treatment">Radio-chimiothérapie</span> si avancé.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : demander statut vaccinal </div><span class="exam">HPV</span> et dépistage <span class="exam">frottis</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning osce" data-section="section-6">
+                                <td class="pathology">Cancer de l’<span class="anatomy">endomètre</span></td>
+                                <td>Métrorragies post-ménopausiques (<span class="clinical-sign">symptôme</span> cardinal). Facteurs <span class="warning">risque</span> : obésité, diabète, <span class="clinical-sign">HTA</span>, tamoxifène, nulliparité.</td>
+                                <td><span class="exam">TV</span> : <span class="anatomy">utérus</span> augmenté de volume parfois. Speculum : métrorragies.</td>
+                                <td><span class="exam">Échographie</span> endovaginale (épaisseur <span class="anatomy">endomètre</span>). <span class="exam">Hystéroscopie</span> + <span class="exam">biopsie</span> <span class="anatomy">endomètre</span>. <span class="exam">Scanner</span> TAP pour extension.</td>
+                                <td><span class="treatment">Hystérectomie</span> totale avec <span class="treatment">annexectomie</span> bilatérale. ± Curage ganglionnaire. Radio/<span class="treatment">chimiothérapie</span> si avancé.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toute </div><span class="clinical-sign">métrorragie</span> post-ménopausique = cancer jusqu’à preuve du contraire.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 7: Urgences gynécologiques -->
+            <div class="section" id="section-7">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    7. Urgences gynécologiques
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-7">
+                                <td class="pathology">Grossesse extra-utérine (<span class="warning">GEU</span>)</td>
+                                <td><span class="clinical-sign">Aménorrhée</span>, métrorragies peu abondantes noirâtres, douleurs pelviennes unilatérales irradiant épaule/anus. Facteurs <span class="warning">risque</span> : salpingite, chirurgie tubaire, <span class="dosage">DIU</span>, FIV.</td>
+                                <td>État hémodynamique (TA, pouls). Palpation abdominale douloureuse. <span class="exam">TV</span> : douleur annexielle, masse, cul-de-sac postérieur bombé si hémopéritoine.</td>
+                                <td><span class="exam">β-hCG</span> plasmatique (dosages répétés). <span class="exam">Échographie</span> endovaginale (sac ovulaire extra-utérin, vacuité utérine).</td>
+                                <td>Si <span class="positive">stable</span> et petit sac : méthotrexate <span class="dosage">IM</span>. Si instable ou hémopéritoine : chirurgie (<span class="exam"><span class="treatment">cœlioscopie</span></span> avec salpingotomie ou <span class="treatment">salpingectomie</span>).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours vérifier stabilité hémodynamique.</div> Toute douleur + <span class="clinical-sign">métrorragie</span> chez femme en âge procréatif = <span class="warning">GEU</span> jusqu’à preuve du contraire.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent warning osce" data-section="section-7">
+                                <td class="pathology"><span class="warning">Torsion</span> d’annexe</td>
+                                <td>Douleur pelvienne <span class="urgent">brutale</span>, unilatérale, continue, parfois nausées/vomissements. ATCD kyste ovarien ?</td>
+                                <td>Palpation abdo douloureuse, défense modérée. <span class="exam">TV</span> : masse annexielle douloureuse, mobilité réduite.</td>
+                                <td><span class="exam">Échographie</span> pelvienne + <span class="exam">Doppler</span> (flux absent ou diminué).</td>
+                                <td><span class="urgent">Urgence</span> chirurgicale : <span class="exam"><span class="treatment">cœlioscopie</span></span>, détorsion ± <span class="treatment">annexectomie</span> si nécrose.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : différentiel majeur = </div><span class="warning">GEU</span>. Douleur <span class="urgent">brutale</span> + masse ovarienne = <span class="warning">torsion</span> jusqu’à preuve du contraire.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 8: Pathologies infectieuses -->
+            <div class="section" id="section-8">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    8. Pathologies infectieuses
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent warning dosage osce" data-section="section-8">
+                                <td class="pathology">Infections génitales hautes (Salpingite/PID)</td>
+                                <td>Douleurs pelviennes, fièvre, leucorrhées purulentes, métrorragies intermenstruelles, <span class="clinical-sign">dyspareunie</span>. Facteurs <span class="warning">risque</span> : IST, partenaires multiples, <span class="dosage">DIU</span> récent.</td>
+                                <td><span class="exam">Spéculum</span> : leucorrhées, <span class="anatomy">col</span> inflammatoire. <span class="exam">TV</span> : <span class="anatomy">utérus</span> et <span class="anatomy">annexes</span> douloureux, cul-de-sac sensible.</td>
+                                <td>Prélèvements vaginaux et endocervicaux (Chlamydia, Gonocoque). Biologie : NFS, CRP. <span class="exam">Échographie</span> <span class="anatomy">pelvis</span> (abcès tubo-ovarien).</td>
+                                <td>Antibiothérapie <span class="dosage">IV</span> puis relais <span class="dosage">per os</span> (céphalosporine + doxycycline ± métronidazole). Hospitalisation si forme <span class="warning">sévère</span>. Drainage chirurgical si abcès.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="warning">risque</span> majeur = stérilité tubaire. Toujours demander IST et contraception.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-8">
+                                <td class="pathology"><span class="anatomy">Bartholinite</span></td>
+                                <td>Douleur vulvaire unilatérale, tuméfaction gênante, fièvre modérée. ATCD <span class="anatomy">bartholinite</span> récidivante ?</td>
+                                <td>Inspection <span class="anatomy">vulve</span> : tuméfaction rouge, tendue, fluctuante dans région postéro-latérale <span class="anatomy">vulve</span>.</td>
+                                <td><span class="clinical-sign">Clinique</span> suffit. Prélèvement bactériologique si récidive.</td>
+                                <td>Incision-drainage ou marsupialisation. Antibiotiques si signes infection systémique. Bain de siège.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : diagnostic essentiellement </div><span class="clinical-sign">clinique</span>. Toujours examiner les deux côtés + rechercher IST associée.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 9: Pathologies vulvaires -->
+            <div class="section" id="section-9">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    9. Pathologies vulvaires
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-9">
+                                <td class="pathology">Cancer de <span class="anatomy">la</span> <span class="anatomy">vulve</span></td>
+                                <td>Prurit vulvaire chronique, douleurs, saignements, masse ou ulcération vulvaire. Facteurs <span class="warning">risque</span> : âge avancé, <span class="exam">HPV</span>, lichen scléreux, tabac.</td>
+                                <td>Inspection <span class="anatomy">vulve</span> : lésion ulcéro-bourgeonnante, leucoplasie. Palpation ganglions inguinaux.</td>
+                                <td><span class="exam">Biopsie</span> vulvaire (diagnostic). <span class="exam">IRM</span> <span class="anatomy">pelvis</span> et <span class="exam">scanner</span> TAP pour bilan extension.</td>
+                                <td>Chirurgie (<span class="treatment">vulvectomie</span> partielle ou totale ± curage inguinal). <span class="treatment">Radio-chimiothérapie</span> si avancé.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toute lésion vulvaire chronique ou suspecte doit être biopsiée.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-9">
+                                <td class="pathology">Lichen scléreux vulvaire</td>
+                                <td>Prurit vulvaire chronique, <span class="clinical-sign">dyspareunie</span>, douleurs. Post-ménopause fréquent.</td>
+                                <td>Peau vulvaire blanchâtre, fine, atrophique. Fissures possibles.</td>
+                                <td><span class="exam">Biopsie</span> si doute ou suspicion transformation maligne.</td>
+                                <td>Dermocorticoïdes puissants (clobétasol). Surveillance régulière (<span class="warning">risque</span> cancer <span class="anatomy">vulve</span>).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur </div><span class="warning">risque</span> dégénérescence → suivi indispensable.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 10: Pathologies uro-gynécologiques -->
+            <div class="section" id="section-10">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    10. Pathologies uro-gynécologiques
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-10">
+                                <td class="pathology">Prolapsus génital</td>
+                                <td>Sensation boule vaginale, pesanteur pelvienne, troubles mictionnels (dysurie, incontinence), constipation. Multiparité, ménopause.</td>
+                                <td>Examen gynécologique avec poussée : cystocèle, rectocèle, hystérocèle.</td>
+                                <td><span class="clinical-sign">Clinique</span> surtout. <span class="exam">Échographie</span> ou <span class="exam">IRM</span> si doute. Bilan urodynamique si troubles urinaires.</td>
+                                <td>Rééducation périnéale. Pessaire. Chirurgie par voie vaginale ou abdominale (colposuspension, promontofixation).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : demander systématiquement impact qualité de vie et troubles urinaires associés.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-10">
+                                <td class="pathology">Incontinence urinaire d’effort</td>
+                                <td>Fuites urinaires lors d’effort, toux, éternuement, sport. Multiparité, ménopause, chirurgie pelvienne.</td>
+                                <td><span class="exam">TV</span> : tonicité <span class="anatomy">périnée</span>, prolapsus associé. Test de provocation (toux).</td>
+                                <td>Calendrier mictionnel. Bilan urodynamique si chirurgie envisagée.</td>
+                                <td>Rééducation périnéale (1ère intention). Si échec : chirurgie (bandelette sous-urétrale).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : différencier d’incontinence par urgenturie (impériosités).</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-10">
+                                <td class="pathology">Incontinence urinaire par urgenturie (instabilité vésicale)</td>
+                                <td>Impériosités mictionnelles avec fuites. Pollakiurie diurne/nocturne. Absence déclenchement à l’effort.</td>
+                                <td>Souvent <span class="positive">normal</span>. <span class="exam">TV</span> : recherche prolapsus associé. Examen neurologique si suspicion cause neuro.</td>
+                                <td>Calendrier mictionnel. Bilan urodynamique (hyperactivité détrusorienne).</td>
+                                <td>Rééducation comportementale (mictions programmées). Anticholinergiques ou bêta-3 agonistes. Neurostimulation ou injection toxine botulique si échec.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours différencier effort vs urgenturie → question clé à l’interrogatoire.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 11: Urgences obstétricales -->
+            <div class="section" id="section-11">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    11. Urgences obstétricales
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-11">
+                                <td class="pathology">Menace d’<span class="treatment">accouchement</span> prématuré (MAP)</td>
+                                <td>Grossesse <<span class="dosage">37 SA</span>. <span class="clinical-sign">Contractions</span> utérines régulières, douleurs pelviennes ou lombaires, sensation pesanteur pelvienne.</td>
+                                <td>Palpation utérine (<span class="clinical-sign">contractions</span>). <span class="exam">Toucher vaginal</span> : <span class="anatomy">col</span> raccourci, modifié ou dilaté. <span class="exam">Spéculum</span> pour pertes/écoulement.</td>
+                                <td><span class="exam">Monitoring</span> (<span class="exam">tocographie</span>), <span class="exam">échographie</span> cervico-longitudinale (longueur <span class="anatomy">col</span>). ECBU, bilan infectieux. CRP/NFS. Fibronectine fœtale si disponible.</td>
+                                <td>Repos alité, <span class="treatment">tocolyse</span> (nifédipine, atosiban). <span class="treatment">Corticothérapie anténatale</span> pour maturation pulmonaire. ATB si infection. Transfert en maternité niveau adapté.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer systématiquement corticothérapie et transfert si </div><<span class="dosage">32 SA</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-11">
+                                <td class="pathology">Rupture prématurée des <span class="anatomy">membranes</span> (RPM)</td>
+                                <td>Perte liquidienne vaginale <span class="positive">claire</span> avant début travail. Âge gestationnel ? <span class="clinical-sign">Contractions</span> ? Fièvre ?</td>
+                                <td><span class="exam">Spéculum</span> : <span class="anatomy">liquide amniotique</span> clair. <span class="exam">TV</span> évité sauf si travail établi. Surveillance fièvre, TA, FC maternelle et fœtale.</td>
+                                <td>Test IGFBP-1 ou test à <span class="anatomy">la</span> nitrazine (pH). Écho pour quantité <span class="anatomy">LA</span>. ECBU, prélèvements vaginaux. Bilan infectieux.</td>
+                                <td>Hospitalisation. ATB prophylactique. Surveillance <span class="clinical-sign">clinique</span>/maternelle/fœtale. Corticothérapie si <<span class="dosage">34 SA</span>. Déclenchement si ><span class="dosage">37 SA</span> ou infection.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mot-clé = perte liquide clair + </div><span class="exam">spéculum</span> obligatoire.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-11">
+                                <td class="pathology">Infection urinaire / Pyélonéphrite gravidique</td>
+                                <td>Femme enceinte avec brûlures mictionnelles, pollakiurie, douleurs lombaires, fièvre. Facteur <span class="warning">risque</span> prématurité.</td>
+                                <td>Fièvre, douleur fosse lombaire, sensibilité palpation. Pas de <span class="clinical-sign">contractions</span> si cystite simple.</td>
+                                <td>ECBU systématique. NFS, CRP. Écho rénale si doute obstacle.</td>
+                                <td>ATB probabilistes <span class="dosage">IV</span> (céphalosporines 3eG). Repos, hydratation. Hospitalisation obligatoire. Relais <span class="dosage">per os</span> 10–14j. Surveillance MAP/RPM.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : dire systématiquement = toute infection urinaire chez femme enceinte = hospitalisation et ATB </div><span class="dosage">IV</span>.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+        // Variables globales
+        let viewedPathologies = new Set();
+        let activeFilters = new Set();
+        let startTime = Date.now();
+        let totalPathologies = 38;
+        
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCounter();
+            updateProgress();
+            
+            // Mise à jour du temps passé
+            setInterval(updateTimeSpent, 60000);
+            
+            // Observer pour marquer les pathologies comme vues
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const row = entry.target;
+                        if (row.classList.contains('pathology-row')) {
+                            viewedPathologies.add(row);
+                            updateProgress();
+                        }
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                observer.observe(row);
+            });
+        });
+        
+        // Fonction de recherche améliorée
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const sections = document.querySelectorAll('.section');
+            let visibleCount = 0;
+            
+            sections.forEach(section => {
+                const rows = section.querySelectorAll('.pathology-row');
+                let sectionHasVisible = false;
+                
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                    const matchesFilters = activeFilters.size === 0 || 
+                        Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                    
+                    if (matchesSearch && matchesFilters) {
+                        row.style.display = '';
+                        sectionHasVisible = true;
+                        visibleCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+                
+                // Masquer la section si aucune pathologie visible
+                section.style.display = sectionHasVisible ? '' : 'none';
+            });
+            
+            updateCounter(visibleCount);
+        });
+        
+        // Toggle section (expand/collapse)
+        function toggleSection(section) {
+            section.classList.toggle('collapsed');
+        }
+        
+        // Fonction pour tout déplier
+        function expandAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('collapsed');
+            });
+        }
+        
+        // Fonction pour tout replier
+        function collapseAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.add('collapsed');
+            });
+        }
+        
+        // Toggle filter
+        function toggleFilter(filterElement) {
+            const tag = filterElement.dataset.tag;
+            filterElement.classList.toggle('active');
+            
+            if (activeFilters.has(tag)) {
+                activeFilters.delete(tag);
+            } else {
+                activeFilters.add(tag);
+            }
+            
+            applyFilters();
+        }
+        
+        // Appliquer les filtres
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const sectionFilter = document.getElementById('sectionSelect').value;
+            const rows = document.querySelectorAll('.pathology-row');
+            let visibleCount = 0;
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                const matchesSection = sectionFilter === '' || row.dataset.section === sectionFilter;
+                const matchesTags = activeFilters.size === 0 || 
+                    Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                
+                if (matchesSearch && matchesSection && matchesTags) {
+                    row.style.display = '';
+                    row.closest('.section').style.display = '';
+                    visibleCount++;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+            
+            // Masquer les sections vides
+            document.querySelectorAll('.section').forEach(section => {
+                const visibleRows = section.querySelectorAll('.pathology-row:not([style*="display: none"])');
+                if (visibleRows.length === 0) {
+                    section.style.display = 'none';
+                }
+            });
+            
+            updateCounter(visibleCount);
+        }
+        
+        // Filtrer par section
+        function filterBySection() {
+            applyFilters();
+        }
+        
+        // Réinitialiser les filtres
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('sectionSelect').value = '';
+            document.querySelectorAll('.filter-tag').forEach(tag => {
+                tag.classList.remove('active');
+            });
+            activeFilters.clear();
+            
+            // Afficher toutes les sections et pathologies
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = '';
+                section.classList.remove('collapsed');
+            });
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                row.style.display = '';
+            });
+            
+            updateCounter(totalPathologies);
+        }
+        
+        // Mettre à jour le compteur
+        function updateCounter(count = null) {
+            if (count === null) {
+                count = document.querySelectorAll('.pathology-row:not([style*="display: none"])').length;
+            }
+            document.getElementById('visibleCount').textContent = count;
+        }
+        
+        // Mettre à jour la progression
+        function updateProgress() {
+            const viewed = viewedPathologies.size;
+            const remaining = totalPathologies - viewed;
+            const percent = Math.round((viewed / totalPathologies) * 100);
+            
+            document.getElementById('viewedCount').textContent = viewed;
+            document.getElementById('remainingCount').textContent = remaining;
+            document.getElementById('progressPercent').textContent = percent + '%';
+            document.getElementById('progressFill').style.width = percent + '%';
+            document.getElementById('progressFill').textContent = percent + '%';
+        }
+        
+        // Mettre à jour le temps passé
+        function updateTimeSpent() {
+            const minutes = Math.floor((Date.now() - startTime) / 60000);
+            const hours = Math.floor(minutes / 60);
+            const mins = minutes % 60;
+            const timeStr = hours > 0 ? `${hours}h ${mins}m` : `${mins}m`;
+            document.getElementById('timeSpent').textContent = timeStr;
+        }
+        
+        // Raccourcis clavier
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + F pour focus sur recherche
+            if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                e.preventDefault();
+                document.getElementById('searchInput').focus();
+            }
+            
+            // Escape pour réinitialiser les filtres
+            if (e.key === 'Escape') {
+                resetFilters();
+            }
+            
+            // Alt + E pour tout déplier
+            if (e.altKey && e.key === 'e') {
+                e.preventDefault();
+                expandAll();
+            }
+            
+            // Alt + C pour tout replier
+            if (e.altKey && e.key === 'c') {
+                e.preventDefault();
+                collapseAll();
+            }
+        });
+    </script>
+</body>
+</html>

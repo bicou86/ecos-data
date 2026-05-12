@@ -1,0 +1,371 @@
+Recommandation pour la pratique clinique
+
+Electrisation, Electrocution et Foudroiement
+OBJET
+Cette recommandation pour la pratique clinique (RCP) élaborée par l’équipe des URG a pour but d’unifier et
+d’optimaliser la prise en charge des patients admis pour ces problématiques.
+
+DOMAINE D’APPLICATION
+Ce document concerne les médecins et les infirmier(e)s des URG.
+
+DEFINITIONS
+RPC :
+URG :
+
+Recommandation pour la pratique clinique
+Service des urgences
+
+RESPONSABILITES
+Cette recommandation est sous la responsabilité du Médecin Chef de service URG.
+
+RECOMMANDATION
+Objectifs
+1. Uniformiser la prise en charge aux urgences des patients admis pour un accident électrique.
+2. Identifier les patients à hospitaliser et ceux qui peuvent être traités en ambulatoire.
+3. Préciser les critères d’activation de la filière brûlés CHUV dans cette situation.
+
+Définition
+-
+
+Electrisation : Manifestations physiopathologiques engendrées par un passage de courant à travers
+l’organisme
+Electrocution : Electrisation mortelle
+Foudroiement : Electrisation par la foudre. Synonyme : Fulguration
+
+Epidémiologie
+Dans les accidents électriques, on retrouve 2 pics d’incidence :
+1) Enfants < 6 ans (accidents domestiques souvent à basse tension)
+2) Adultes jeunes (accidents professionnels le plus souvent)
+De manière anecdotique, depuis quelques années, un 3ème pic d’incidence apparait chez les adolescents de
+sexe masculin avec un comportement à risque (Ex : selfie sur le toit des wagons).[1, 2]
+En Suisse, environ 550 cas d’accidents électriques sont déclarés par année.[3] En 2017, 8 personnes ont été
+électrocutées en Suisse, toutes dans un contexte d’accidents non professionnels (suicide, comportements à
+risque chez des jeunes).
+Rappel physique
+Le courant électrique correspond à un flux d’électrons se déplaçant à travers un conducteur entre un point
+de haut potentiel et un point à potentiel inférieur, sous l’effet de la force électromagnétique.
+L’intensité (débit de courant, ampérage) est la quantité d’électrons qui traverse un point donné par
+secondes. Elle se mesure en Ampères (A) .
+RPC_Electrisation_Electrocution_Foudroiement
+CHUV/DCILM/URG/
+
+V1.0 du 11.12.2020
+
+1/9
+
+La différence de potentiel (tension de courant, voltage) est le gradient de force qui entraîne les électrons et
+qu’on mesure en Volt (V).
+La résistance est spécifique au milieu et correspond à la capacité de ce milieu à s’opposer au passage du
+courant électrique.
+L’intensité du courant est proportionnelle à la tension du courant mesurée en Volts (V) et est inversement
+proportionnelle à la résistance mesurée en Ohms (Ω), ce qui correspond à la loi d’Ohm :
+𝐼𝑛𝑡𝑒𝑛𝑠𝑖𝑡é 𝑑𝑢 𝑐𝑜𝑢𝑟𝑎𝑛𝑡 (𝐴) =
+
+𝑇𝑒𝑛𝑠𝑖𝑜𝑛 𝑑𝑢 𝑐𝑜𝑢𝑟𝑎𝑛𝑡 (𝑉)
+𝑅é𝑠𝑖𝑠𝑡𝑎𝑛𝑐𝑒 𝑒𝑛 𝑂ℎ𝑚𝑠
+
+Il existe deux types de courants distincts, le courant (retrouvé dans les batteries, la foudre, les défibrillateurs)
+et le courant alternatif (retrouvé dans les lignes haute tension, les lignes ferroviaires et le courant
+domestique). Dans un courant continu, les électrons circulent continuellement dans la même direction (pôle
+négatif au pôle positif) contrairement au courant alternatif, où le flux des électrons est cyclique. Cette
+caractéristique du courant alternatif définit sa fréquence mesurée en Hertz.
+Lors d’accidents électriques par un courant alternatif, on assiste le plus souvent à une tétanie des muscles.
+
+Déterminants physiques des lésions organiques et mécanismes lésionnels
+En règle générale, le déterminant primaire des lésions organiques lors des accidents électriques est l’intensité
+du courant (ampérage). Dans le tableau ci-dessous adapté de [1, 4], nous retrouvons les différents seuils
+d’intensité et les effets physiologiques sur le corps humain.
+Tableau 1 : Effets physiologiques selon l’intensité du courant.
+
+Intensité du courant en mA
+02-2 mA
+10-20mA
+20-50mA
+50-100mA
+
+Effets physiologiques
+Sensation de picotements/fourmillements
+Décharge « no-let-go » (victime ne peut pas lâcher la source)
+Tétanie des muscles respiratoires
+Fibrillation ventriculaire
+
+Les autres déterminants des lésions organiques induites par le passage du courant sont : la tension du
+courant, le type de courant, la trajectoire du courant dans l’organisme, et la durée du contact avec le courant.
+Ces facteurs sont décrits par la loi de Joule [5] :
+𝐸𝑛𝑒𝑟𝑔𝑖𝑒 (𝑡ℎ𝑒𝑟𝑚𝑖𝑞𝑢𝑒) = 𝐼 2 𝑥 𝑅 𝑥 𝑇
+I étant l’intensité du courant en Ampères
+R étant la résistance du courant en Ohms
+T étant la durée de passage du courant en secondes.
+
+La résistance du corps humain est variable d’un individu à l’autre, mais aussi d’un organe à un autre. Dans
+certaines conditions physico-chimiques, il existe même une variabilité de résistance au sein d’un même
+organe. La figure 1 reprend la résistance des différents organes. [1, 4, 5]
+Figure 1 : Résistance du corps humain au passage du courant.
+
+RPC_Eletrisation_Electrocution_Foudroiement
+CHUV/DCILM/URG/
+
+V1.0 du 11.12.2020
+
+2/9
+
+Lors des accidents électriques, les lésions organiques surviennent suite à 4 mécanismes :
+1. Effet direct du courant électrique sur les organes (déterminant = intensité du courant)
+2. Lésion traumatique (due à la projection de la victime lors de l’accident électrique ou due aux
+contractions musculaires intenses)
+3. Transformation de l’énergie électrique en énergie thermique, (notamment dans les organes
+résistants au passage du courant)  Brûlures, dénaturation des protéines et activation de la
+coagulation.
+4. Electroporation (mécanisme de destruction de la membrane cellulaire)  apoptose.[6]
+
+Classification des accidents électriques
+Le déterminant primaire des lésions organiques est l’intensité du courant. Cette intensité étant impossible à
+mesurer en pratique (résistance du corps humain difficile à estimer), la classification des accidents électriques
+se base sur la tension du courant, qui est proportionnelle et donc directement liée à l’intensité du courant (Loi
+d’Ohm).
+Les accidents électriques sont donc classifiés en accident à haut voltage (>1000volts) et à bas voltage
+(≤1000volts). Les foudroiements comprenant quelques spécificités nous les considérerons à part dans cette
+RPC.
+Figure 2 : Classification des accidents électriques selon la tension du courant
+
+Lésions organiques spécifiques
+De manière générale, tout patient victime d’un accident d’électrisation doit être considéré et pris en charge
+comme un patient polytraumatisé.
+1. Lésions cutanées
+Lors des accidents électriques à basse tension, les patients présentent souvent des brûlures cutanées
+de contact qui signent la porte d’entrée et la porte de sortie du courant ; ce sont les marques
+électriques de Jellineck. Ces lésions peuvent être absentes lors d’accidents électriques à haute
+tension, mais il s’agit alors d’un aspect faussement rassurant de la peau (la peau étant un organe
+résistant, le courant ayant tendance à passer dans le milieu le moins résistant, va donc passer dans
+les tissus profonds et épargner de la peau).[1, 4, 5]
+Cas particulier lors du foudroiement : Les lésions cutanées en fougères dites de « Lichtenberg » sont
+pathognomoniques d’un foudroiement. Ces lésions sont bénignes, spontanément et totalement
+régressives et ne nécessitent aucune prise en charge. [5]
+2. Lésions musculo-squelettiques
+Les lésions musculo-squelettiques peuvent être induites soit indirectement par le traumatisme soit
+directement par l’effet du courant :
+- Muscle : nécrose engendrant une rhabdomyolyse voire un syndrome des loges
+- Os : brûlures du périoste et ostéonécrose [1, 4, 5]
+RPC_Eletrisation_Electrocution_Foudroiement
+CHUV/DCILM/URG/
+
+V1.0 du 11.12.2020
+
+3/9
+
+3. Lésions rénales :
+Les reins sont rarement atteints de manière directe par le courant. L’atteinte survient surtout en lien
+avec la rhabdomyolyse et l’hypovolémie induites secondairement par les brûlures. [7]
+
+4. Lésions neurologiques :
+Les nerfs étant l’organe le moins résistant au passage du courant électrique, l’atteinte du système
+nerveux est très fréquente lors des accidents électriques. Les lésions neurologiques sont souvent
+présentes à l’admission mais peuvent apparaitre plus tardivement.
+
+a. Atteinte du système nerveux central :
+- Perte de connaissance (sur FV, sur passage du courant, sur trauma crânien)
+- Amnésies
+- Crises d’épilepsie parfois atypiques
+- Atteintes médullaires dues au passage du courant ou à un traumatisme associé
+- Thrombophlébites cérébrales
+- AVC ischémiques [1, 5, 7, 8]
+b. Atteinte du système nerveux périphérique :
+Lésions les plus fréquentes lors des accidents électriques. Les lésions nerveuses
+périphériques se manifestent par des troubles moteurs ou sensitifs qui sont réversibles dans
+2/3 des cas. Dans la littérature l’atteinte du nerf médian semble la plus fréquente suivie du
+nerf ulnaire, du radial et enfin du péronier. Une atteinte du système nerveux autonome est
+aussi possible et se manifeste le plus souvent par une hyperalgésie et une allodynie et peut
+apparaitre secondairement.[1, 4, 5, 7]
+Cas particulier lors du foudroiement : Une kéraunoparalysise peut survenir lors des accidents de foudroiement.
+Il s’agit d’une paralysie flasque fulgurante touchant préférentiellement les membres inférieurs associant des
+troubles sensitivo-moteurs, une cyanose du membre, une pâleur et une absence de pouls. Cette paralysie est
+généralement totalement réversible (cas le plus long réversible après 48h), mais il faut aussi exclure une
+origine traumatique devant toute atteinte de ce type.
+Le foudroiement peut de même provoquer une mydriase bilatérale aréactive qui ne peut donc être utilisée
+comme paramètre objectif lors d’une réanimation. [9]
+5. Lésions pulmonaires :
+L’atteinte pulmonaire lésionnelle est souvent secondaire à de multiples facteurs (brulures, inhalation,
+trauma thoracique, remplissage vasculaire massif).
+L’arrêt respiratoire peut survenir suite à la tétanie des muscles respiratoires et ce en particulier à partir
+d’une intensité du courant entre 20 et 50mA.[1, 4, 7]
+6. Lésions vasculaires :
+Les vaisseaux sont de bons conducteurs du courant électrique. Leur atteinte est souvent directe, avec
+soit des lésions vasculaires localisées (électroporation), soit des thromboses (activation de la cascade
+de coagulation). C’est pour cette raison, que les avis d’experts recommandent d’introduire une
+anticoagulation prophylactique à tout patient victime d’un accident électrique nécessitant une
+hospitalisation.[7]
+7. Lésions cardiaques :
+L’atteinte cardiaque est l’atteinte la plus redoutée lors des accidents électriques. Le seul facteur
+prédictif de cette atteinte est le trajet que le courant va prendre au sein de l’organisme (trajectoire
+passant par le cœur ou non). Il existe trois mécanismes d’atteinte cardiaque :
+a. Arythmies : Elles surviennent souvent suite au choc électrique, mais peuvent survenir
+tardivement (cas rapportés d’arythmies > 24h après un accident électrique). Cependant il
+n’existe pas d’arythmies fatales chez les patients ayant un ECG normal et n’ayant pas
+présenté d’arythmies ou de syncope avant leur admission.[10, 11]
+RPC_Eletrisation_Electrocution_Foudroiement
+CHUV/DCILM/URG/
+
+V1.0 du 11.12.2020
+
+4/9
+
+La fibrillation ventriculaire est souvent décrite après des accidents à basse tension ou après
+une électrisation par un courant alternatif. Les courants à haute tension ou le foudroiement
+provoquent plus souvent des asystolies. Les autres arythmies notables retrouvées après des
+accidents électriques sont : la tachycardie sinusale, les ESV, et plus rarement les FA et les
+TV.
+b. Les troubles de la conduction : Du fait de la prédilection du courant alternatif pour les nœuds
+SA et AV, une bradycardie sinusale ou des BAV de tout degré peuvent survenir suite à un
+accident électrique. [5]
+c. Les atteintes myocardiques : Elles sont soit provoquées par le passage du courant par le
+muscle myocardique soit peuvent être secondaires au traumatisme. Des spasmes
+coronariens sont aussi décrits dans la littérature et peuvent provoquer des lésions
+myocardiques.[7]
+Cas particulier lors du foudroiement et des accidents électriques à haute tension : Lors d’un
+foudroiement, l’asystolie initiale est souvent résolutive spontanément avec un retour à rythme
+cardiaque organisé, il s’agit d’une sorte de « stunning cardiaque ». La mortalité élevée dans
+les cas de foudroiement (25-30%) est surtout due à l’apnée par tétanie des muscles
+respiratoires prolongée.[1, 5]
+8. Autres atteintes :
+a. Atteintes neuro-psychologiques : Ces patients peuvent souffrir d’un PTSD, et de l’apparition
+tardive d’un état dépressif.
+b. Atteintes ophtalmologiques : Dans 30% des cas d’électrisation par un courant à haute tension
+les patients peuvent développer des cataractes.[1, 12, 13]
+Figure 3 : Récapitulatif des lésions par système provoquées par un accident électrique
+
+RPC_Eletrisation_Electrocution_Foudroiement
+CHUV/DCILM/URG/
+
+V1.0 du 11.12.2020
+
+5/9
+
+Prise en charge préhospitalière des patients victimes d’un accident électrique
+1. Sécurisation des lieux de l’accident pour éviter le sur-accident
+2. Prise en charge selon l’ATLS et l’ACLS
+3. En cas d’un accident avec l’implication de plusieurs victimes : donner la priorité aux patients en ACR
+car ils ont une bonne chance de récupération et sont souvent jeunes et en bonne santé habituelle. [1,
+12, 13]
+
+4. Transport des patients électrisés et brûlés vers un centre spécialisé
+Prise en charge hospitalière des patients victimes d’un accident électrique
+Anamnèse ciblée: circonstance de survenue, mécanisme lésionnel associés (chute, projection ?), haute ou
+basse tension, perte de connaissance, type de courant (AC/DC)
+Examen clinique détaillé: recherche lésions cutanées de Jellineck, brûlures, examen neurologique
+complet, cardio-vasculaire, recherche syndrome des loges.
+En cas de brûlures, calcul du %TBSA selon la règle des 9 de Wallace.
+Examens complémentaires : ECG à tous les patients, Laboratoire : FSS, électrolytes, créatinine, CK,
+TP/PTT (selon situation), Stix urinaire, myoglobinurie. Rx ou imagerie selon situation clinique.
+Le dosage des troponines et des CK-MB n’est pas utile chez les patients électrisés, ils ne sont pas corrélés
+à l’atteinte myocardique et sont toujours élevés. [11, 14]
+Prise en charge : selon l’algorithme ci-dessous.
+En cas d’accident d’électrisation associé à des brûlures, il convient de déclencher la filière brûlé du CHUV.
+Selon les informations à disposition, l’appel au NCH, TRA ou CHV peut-être pertinent pour compléter le
+team en salle de déchocage.
+- Traitement de soutien et un remplissage vasculaire adéquat (cible diurèse entre 1 et 1.5ml/kg/h) pour les
+patients victimes d’un accident électrique à haute tension ou qui présentent des brûlures sévères (>10% du
+TBSA). [1]
+- Antibioprophylaxie non recommandée d’emblée pour les patients électrisés brulés.
+- Vaccination antitétanique si brûlures.
+- Surveillance télémétrée pour tous les patients victimes d’un accident à haute tension ou de la foudre
+
+RPC_Eletrisation_Electrocution_Foudroiement
+CHUV/DCILM/URG/
+
+V1.0 du 11.12.2020
+
+6/9
+
+Figure 4 : Algorithme de prise en charge des patients victimes d’un accident électrique
+RPC_Eletrisation_Electrocution_Foudroiement
+CHUV/DCILM/URG/
+
+V1.0 du 11.12.2020
+
+7/9
+
+Population particulière
+Femmes enceintes : Le liquide amniotique étant un bon conducteur, la mortalité fœtale est augmentée en
+cas d’électrisation. Une évaluation obsétricale avec un monitoring fœtal est donc indiqué chez toute femme
+enceinte victime d’un accident électrique. [1]
+Enfants : Les enfants présentent souvent des brûlures au niveau péribuccal (câble électrique à la bouche)
+avec un risque important d’hémorragie à 7-10 jours (chute d’escarre avec une artère labiale souvent
+touchée). Un risque secondaire de rétraction de la brulure est aussi présent. Toute brûlure de ce type doit
+faire l’objet d’une évaluation par un ORL et/ou un CPR.[1]
+
+VALIDATION
+N° de
+Date
+version d’émission
+1.0
+
+11.12.2020
+
+Elaboré/Modifié par :
+
+Validé par :
+
+Muriel Abi-Khalil (CDC URG)
+Vincent Darioli (médecin cadre URG)
+
+Pierre-Nicolas Carron (chef de service URG)
+
+La responsabilité du CHUV ne peut être engagée en cas d’utilisation de cette directive en dehors du
+cadre de l’institution.
+
+RPC_Eletrisation_Electrocution_Foudroiement
+CHUV/DCILM/URG/
+
+V1.0 du 11.12.2020
+
+8/9
+
+Références :
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+
+Gentges, J. and C. Schieche, Electrical injuries in the emergency department: an evidence-based review.
+Emerg Med Pract, 2018. 20(11): p. 1-20.
+Cuculic, D. and I. Sosa, "Selfie"-related electrocution. Forensic Sci Med Pathol, 2019. 15(4): p. 635-637.
+Roland Hürlimann, C.i.E. and d.E. Daniel Otti, Accidents électriques 2017. Bulletin.ch, 2018. 10/2018.
+Grosgurin, O., C. Marti, and M. Niquille, [Electrical injuries]. Rev Med Suisse, 2011. 7(305): p. 1569-73.
+Spies, C. and R.G. Trohman, Narrative review: Electrocution and life-threatening electrical injuries. Ann Intern
+Med, 2006. 145(7): p. 531-7.
+Lee, R.C., D. Zhang, and J. Hannig, Biophysical injury mechanisms in electrical shock trauma. Annu Rev
+Biomed Eng, 2000. 2: p. 477-509.
+Waldmann, V., et al., Electrical injury. Bmj, 2017. 357: p. j1418.
+Kokatnur, L. and M. Rudrappa, Acute Stroke due to Electrocution: Uncommon or Unrecognized? Case Rep
+Neurol Med, 2016. 2016: p. 9510863.
+Andrews, C.J. and A.D. Reisner, Neurological and neuropsychological consequences of electrical and lightning
+shock: review and theories of causation. Neural Regen Res, 2017. 12(5): p. 677-686.
+Bailey, B., P. Gaudreault, and R.L. Thivierge, Cardiac monitoring of high-risk patients after an electrical injury: a
+prospective multicentre study. Emerg Med J, 2007. 24(5): p. 348-52.
+Pilecky, D., et al., Risk of cardiac arrhythmias after electrical accident: a single-center study of 480 patients. Clin
+Res Cardiol, 2019. 108(8): p. 901-908.
+Grover, S. and J. Goodwin, Lightning and electrical injuries: neuro-ophthalmologic aspects. Semin Neurol,
+1995. 15(4): p. 335-41.
+Saffle, J.R., A. Crandall, and G.D. Warden, Cataracts: A Long-term Complication of Electrical Injury. Journal of
+Trauma and Acute Care Surgery, 1985. 25(1).
+Housinger, T.A., et al., A prospective study of myocardial damage in electrical injuries. J Trauma, 1985. 25(2):
+p. 122-4.
+
+RPC_Eletrisation_Electrocution_Foudroiement
+CHUV/DCILM/URG/
+
+V1.0 du 11.12.2020
+
+9/9
+
+

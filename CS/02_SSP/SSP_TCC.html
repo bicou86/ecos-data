@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSP - Traumatisme Crânien</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #7b68ee;
+            --success-color: #5cb85c;
+            --danger-color: #d9534f;
+            --warning-color: #f0ad4e;
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --ecos-gradient: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
+            --card-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header {
+            background: var(--bg-gradient);
+            color: white;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .page-title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .meta-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            backdrop-filter: blur(10px);
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        /* Sections principales */
+        .main-section {
+            color: var(--primary-color);
+            margin: 35px 0 25px 0;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8em;
+        }
+        
+        .section-title {
+            color: var(--secondary-color);
+            margin: 25px 0 15px 0;
+            padding-left: 20px;
+            border-left: 5px solid var(--secondary-color);
+            font-size: 1.4em;
+        }
+        
+        .sub-section {
+            color: #495057;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        
+        /* Section spéciale Points Clés ECOS */
+        .ecos-key-points {
+            background: var(--ecos-gradient);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 15px 50px rgba(255,107,107,0.3);
+            position: relative;
+            overflow: hidden;
+            animation: pulse-glow 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 15px 50px rgba(255,107,107,0.3); }
+            50% { box-shadow: 0 20px 60px rgba(255,107,107,0.5); }
+        }
+        
+        .ecos-key-points::before {
+            content: '⚡';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 150px;
+            opacity: 0.1;
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .ecos-key-points-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .ecos-key-points-header h2 {
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin: 0;
+        }
+        
+        .ecos-icon {
+            font-size: 2.5em;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .ecos-key-points-content {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 20px;
+            color: #333;
+        }
+        
+        /* Highlights et alertes */
+        .red-flag {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff4444, #cc0000);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: pulse 1.5s infinite;
+            margin: 5px 0;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .urgent-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff9800, #f44336);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: blink 2s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        
+        .essential-point {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700, #ffb300);
+            color: #333;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        .important-note {
+            display: inline-block;
+            background: linear-gradient(135deg, #4caf50, #8bc34a);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        /* Highlights de texte */
+        .highlight-critical {
+            background: #ffebee;
+            color: #c62828;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            border-bottom: 2px solid #ef5350;
+        }
+        
+        mark.highlight-critical {
+            background: linear-gradient(to bottom, transparent 50%, #ffcdd2 50%);
+            padding: 2px 4px;
+        }
+        
+        /* Checkboxes */
+        .checkbox-item {
+            margin: 12px 0;
+            padding: 18px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            border-left: 5px solid transparent;
+            display: flex;
+            align-items: center;
+        }
+        
+        .checkbox-item:hover {
+            background: linear-gradient(135deg, #e9ecef, #dee2e6);
+            transform: translateX(8px);
+            border-left-color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        
+        .checkbox-item label {
+            cursor: pointer;
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+        
+        .checkbox-item input[type="checkbox"]:checked + label {
+            color: var(--success-color);
+            text-decoration: line-through;
+            font-weight: 500;
+        }
+        
+        /* Tables */
+        .table-container {
+            overflow-x: auto;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        .data-table thead {
+            background: var(--bg-gradient);
+            color: white;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .data-table tbody tr:hover {
+            background: linear-gradient(90deg, #f8f9fa, #ffffff);
+            transform: scale(1.01);
+            transition: all 0.2s ease;
+        }
+        
+        .cell-critical {
+            background: #ffebee !important;
+            color: #c62828;
+            font-weight: 600;
+        }
+        
+        .cell-important {
+            background: #fff3e0 !important;
+            color: #e65100;
+            font-weight: 600;
+        }
+        
+        /* Listes */
+        .content-list {
+            margin: 15px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .content-list li {
+            position: relative;
+            padding-left: 35px;
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+        
+        .content-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 10px;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        /* Sections enrichissement */
+        .enrichment-section {
+            margin: 30px 0;
+            background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 20px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .enrichment-header {
+            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: var(--primary-color);
+            padding: 10px;
+            user-select: none;
+            transition: all 0.3s ease;
+        }
+        
+        .enrichment-header:hover {
+            color: var(--secondary-color);
+            transform: translateX(10px);
+        }
+        
+        .enrichment-section[open] .enrichment-header {
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+        
+        .enrichment-content {
+            animation: fadeIn 0.5s ease-out;
+            padding: 0 10px;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Paragraphes */
+        p {
+            margin: 12px 0;
+            line-height: 1.8;
+        }
+        
+        strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        em {
+            color: #495057;
+            font-style: italic;
+        }
+        
+        /* Progress bar */
+        .progress-bar {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            min-width: 200px;
+            z-index: 1000;
+        }
+        
+        .progress-text {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .progress-track {
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--bg-gradient);
+            border-radius: 5px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+        
+        /* Menu flottant */
+        .floating-menu {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        
+        .menu-button {
+            background: var(--bg-gradient);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+        }
+        
+        .menu-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+        }
+        
+        /* Timer */
+        .timer {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            background: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            box-shadow: var(--card-shadow);
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            .page-title {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .floating-menu {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .timer {
+                top: 10px;
+                left: 10px;
+                font-size: 0.9em;
+            }
+            
+            .progress-bar {
+                bottom: 10px;
+                right: 10px;
+                min-width: 150px;
+            }
+            
+            .ecos-key-points {
+                padding: 20px;
+            }
+            
+            .ecos-key-points-header h2 {
+                font-size: 1.5em;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+            
+            .floating-menu,
+            .timer,
+            .progress-bar {
+                display: none;
+            }
+            
+            .ecos-key-points {
+                page-break-inside: avoid;
+                background: #fff3e0 !important;
+                border: 3px solid #ff6b6b;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="timer" id="timer">⏱️ 00:00</div>
+    
+    <div class="floating-menu">
+        <button class="menu-button" onclick="resetProgress()">🔄 Réinitialiser</button>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="page-title">SSP - Traumatisme Crânien</h1>
+            <div class="meta-info">
+                <span class="badge">📚 Médecine</span>
+                <span class="badge">📅 04/09/2025</span>
+                <span class="badge">🎯 Révision ECOS</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h1 class="page-title">SSP - Traumatisme Crânien</h1><h2 class="main-section">Anamnèse neurologique spécifique</h2><p><strong>Mécanisme:</strong> choc direct, décélération, pénétrant
+<strong>Perte de conscience:</strong> durée, circonstances
+<strong>Amnésie post-traumatique:</strong> durée
+<strong>Vomissements, céphalées, confusion</strong>
+<strong>Antécédents:</strong> anticoagulants, éthylisme, comorbidités</p><h2 class="main-section">Examen neurologique</h2><p><strong>Glasgow Coma Scale</strong> (répété dans le temps)
+<strong>Examen neurologique complet:</strong> pupilles, motricité, réflexes
+<strong>Signes de fracture de base:</strong> battle sign, raccoon eyes
+<strong>Recherche lésions associées</strong> (cervicales, thoraciques)</p><h2 class="main-section"><mark class="highlight-critical">Red flags</mark> neurologiques</h2><p><strong>GCS < 13 ou détérioration</strong>
+<strong>Anisocorie pupillaire</strong>
+<strong>Vomissements répétés</strong>
+<strong>Convulsions post-traumatiques</strong>
+<strong>Amnésie > 30 min ou confusion persistante</strong></p><h2 class="main-section">Examens complémentaires</h2><p><strong>CT cérébral:</strong> selon critères (GCS < 13, vomissements, etc.)
+<strong>IRM:</strong> lésions axonales diffuses
+<strong>Radiographies cervicales</strong> si suspicion
+<strong>Surveillance neurologique</strong> (GCS horaire)</p><h2 class="main-section">Scores et échelles</h2><h2 class="main-section">Prise en charge</h2><p><strong>Immobilisation cervicale</strong> si doute
+<strong>Surveillance neurologique étroite</strong>
+<strong>Chirurgie décompressive</strong> si HTIC réfractaire
+<strong>Prévention complications:</strong> convulsions, infections
+<strong>Rééducation multidisciplinaire</strong> précoce</p><p>---
+<em>Fiche enrichie avec données AMC Neurologie - 2025-08-13</em></p><h2 class="main-section">🧠 Enrichissement depuis les cours de psychiatrie-sexualité</h2><p><em>Mis à jour le 2025-08-14</em></p><h3 class="section-title">Techniques d'examen psychiatriques</h3><ul class="content-list">
+<li>• Evaluation de votre interaction de 12 minutes avec le patient • Anamnèse: Mise en évidence du contexte du patient et de la raison de sa venue • Examen clinique: Mise en évidence des symptômes clé et exclusion des autres troubles • Plan de prise en charge: Diagnostic, approche proposée et ses buts</li>
+<li>• Psycho:  • Il y a plusieurs pistes à clarifier dans un entretien initial.  • On peut traiter le symptôme avec une thérapie cognitivo comportementale, mais la  situation est plus complexe avec des éléments contextuels de crise liés à son histoire et</li>
+<li>• La première étape est d’informer sur l’état de stress post traumatique le patient et ses proches  (psychoéducation); puis développer une zone de sécurité (arrêt de travail, entretiens réguliers)  • Psychoéducation sur le PTSD;  • Orientation vers unité de psycho-traumatologie</li>
+</ul><h3 class="section-title">🔍 Signes cliniques spécifiques</h3><ul class="content-list">
+<li>• Comme on constate que les idées délirantes sont <mark class="highlight-critical">toujours</mark> présentes, pour clarifier le  diagnostic on va explorer si et quand les symptômes maniaques ont disparu. • Si les symptômes maniaques ont disparu il y a plus de deux semaines, c’est un trouble  schizo-affectif: en effet, la persistance des symptômes psychotiques pendant plus de deux</li>
+<li>• un sentiment de peur intense, d’horreur et d’impuissance accompagné d’un ou de plusieurs des  symptômes suivants : • palpitations cardiaques (cœur qui bat anormalement vite), • respiration rapide,</li>
+<li>• Evaluer la situation de manière très étroite, considérant le risque pour l’enfant, mais travail  en  finesse pour me pas ajouter au sentiment de persécution  de la mère; si les symptômes  persistent sur quelques heures,  • Mise en place d’une surveillance rapprochée</li>
+</ul><h3 class="section-title">🗣️ Techniques psychothérapeutiques</h3><ul class="content-list">
+<li>borderline. •  Le GPM good psychiatric management est approche inspirée par la psychothérapie, mais  accessible à tous les professionnels (voir cours psychothérapie).  • Le but est de diminuer des comportements dommageables mieux gérer les émotions en</li>
+<li>• Il y a plusieurs pistes à clarifier dans un entretien initial.  • On peut traiter le symptôme avec une thérapie cognitivo comportementale, mais la  situation est plus complexe avec des éléments contextuels de crise liés à son histoire et  son mode de fonctionnement.</li>
+<li>son mode de fonctionnement.  • Une formulation de crise ou de psychothérapie pourrait inclure des éléments pour  expliciter des schémas de fonctionnement cognitivo comportemental (TCC), des désirs  contradictoires et des liens entre le fonctionnement actuel et le passé</li>
+</ul><h3 class="section-title">🎯 Diagnostic différentiel approfondi</h3><ul class="content-list">
+<li>• Comme on constate que les idées délirantes sont <mark class="highlight-critical">toujours</mark> présentes, pour clarifier le  diagnostic on va explorer si et quand les symptômes maniaques ont disparu. • Si les symptômes maniaques ont disparu il y a plus de deux semaines, c’est un trouble  schizo-affectif: en effet, la persistance des symptômes psychotiques pendant plus de deux</li>
+<li>Un homme qui crie la nuit:  diagnostic différentiel • Phobie sociale • Personnalité schizotypique</li>
+<li>Une jeune mère: diagnostic différentiel • Cause organique  • Schizophrénie</li>
+</ul><h3 class="section-title"><span class="red-flag">⚠️ <mark class="highlight-critical">Red Flags</mark></span> psychiatriques</h3><ul class="content-list">
+<li>son mode de fonctionnement.  • Une formulation de crise ou de psychothérapie pourrait inclure des éléments pour  expliciter des schémas de fonctionnement cognitivo comportemental (TCC), des désirs  contradictoires et des liens entre le fonctionnement actuel et le passé</li>
+<li>▪BIO (Médication): ▪En crise aiguë, commencer par anxiolytiques (si pas de  risque <mark class="highlight-critical">vital</mark> ou de mise en danger à cause des symptômes) ▪Après 24à 48h de persistance des symptômes</li>
+<li>• 20 % inférieure à la population générale.  • Les causes principales de l’excès de mortalité : suicide, maladies  respiratoires et infectieuses, l’abus de substances et maladies  cardiovasculaires.</li>
+</ul><p>#
+<div class="ecos-key-points">
+    <div class="ecos-key-points-header">
+        <span class="ecos-icon">🎯</span>
+        <h2>Points Clés pour l'ECOS</h2>
+    </div>
+    <div class="ecos-key-points-content">
+        ## 📌 Points clés pour l'ECOS</p><ul class="content-list">
+<li>compulsif avec des idées obsédantes et des rituels qui ont un impact  important sur son fonctionnement depuis trois ans. Les troubles sont bien  installés et les facteurs déclenchant sont difficiles à identifier. Une</li>
+<li>• Anamnèse: Mise en évidence du contexte du patient et de la raison de sa venue • Examen clinique: Mise en évidence des symptômes clé et exclusion des autres troubles • Plan de prise en charge: Diagnostic, approche proposée et ses buts</li>
+<li>• Social:  • L’impact social des troubles de la personnalité est important (difficultés relationnelles et  professionnelles). A évaluer.</li>
+</ul><p>    </div>
+</div>
+<h2 class="main-section">🚨 Enrichissement depuis les cours d'<mark class="highlight-critical">urgence</mark></h2><p><em>Mis à jour le 2025-08-14</em></p><h3 class="section-title">Procédures d'<mark class="highlight-critical">urgence</mark> spécialisées</h3><ul class="content-list">
+<li>te pour assurer des soins de qualité aux patients? La rédaction de protocoles ou de recom- mandations pour la pratique clinique (guideli- nes) par une équipe pluridisciplinaire permet de</li>
+<li>clinique ciblée sur les motifs de recours et les procédures cliniques, Stiell et coll. à Ottawa10 ont développé une démarche originale qui com- prend successivement l’identification d’un mo-</li>
+<li>MISE AU POINT 1. Tout patient transporté au CAU par une ambulance suite à un Accident de la Voie Publique doit porter un collier cervical (CC) (cf. protocoles ambulanciers) 2. Tout patient arrivant au CAU suite à une chute et qui ne porte pas de collier cervical, doit être évalué pour identifier la nécessité d’en poser un (chute de > 1 m, perte de connaissance, douleur spontanée de la colonne cervicale). Si doute: mettre un collier cervical</li>
+</ul><h3 class="section-title">🔍 Signes cliniques d'<mark class="highlight-critical">urgence</mark></h3><ul class="content-list">
+<li> Dans tous les cas Neurochir prévenu  Signes de fracture de la base (otorragie,  CT-scan demandé par le CdC chirurgie: atteinte NC, hématome en lunette, rhinorrée)</li>
+<li>lors de la palpation directe d’une quelconque apophyse épineuse cervicale 2. Pas de signes en faveur d’une intoxication Un patient doit être considéré comme intoxiqué s’il présente l’un ou l’autre des éléments suivants: 1) une anamnèse récente d’intoxication ou d’ingestion de toxique de la part du patient ou d’un observateur ;</li>
+<li>prise d’anticoagulant ou non doit être identifiée. Chez les patients avec un TCC, un Glasgow à 15 et sans aucun des facteurs de risque men- tionnés ci-dessus, le médecin urgentiste peut</li>
+</ul><h3 class="section-title">🎯 Techniques d'évaluation d'<mark class="highlight-critical">urgence</mark></h3><ul class="content-list">
+<li>rectement appliquées, ces directives permet- tent de diminuer d’environ 50% les examens de radiologie. Traumatisme crânien et cervical :</li>
+<li>L’étude NEXUS (The National Emergency X-Radiography Utilization Study) a validé CINQ critères qui doivent tous être présents pour décider de ne pas effectuer d’examens radiologiques. Une fois la décision prise par le clinicien de ne pas effectuer d’examen radiologique, celui-ci peut procéder à l’ablation du collier cervi- cal Selon les critères de faible risque de l’étude NEXUS,</li>
+<li>décider d’une stratégie efficiente pour choi- sir la nécessité d’examen complémentaire ra- diologique ou non. Correctement appliquées, ces directives permettent de diminuer d’en-</li>
+</ul><h3 class="section-title">🏥 Prise en charge d'<mark class="highlight-critical">urgence</mark></h3><ul class="content-list">
+<li>Hémorragie sous-arachnoïdienne : prise en charge dans un centre d’urgences régional (voir article p. 1514)</li>
+<li>potentiellement à risque et qui nécessitent une prise en charge urgente. Des directives ont été développées en ce qui concerne les TCC. Un groupe multidisciplinaire (neurochirurgien, ra-</li>
+<li>C. Les dérivés nitrés sont contre-indiqués dans le traitement de l’hypertension D. Les hommes sont plus fréquemment touchés que les femmes</li>
+</ul><h3 class="section-title"><span class="red-flag">⚠️ <mark class="highlight-critical">Red Flags</mark></span> d'<mark class="highlight-critical">urgence</mark></h3><ul class="content-list">
+<li>• fréquence respiratoire ?  • signes de détresse respiratoire ?  • asymétrie ?  • hématome ?</li>
+</ul><p>#
+<div class="ecos-key-points">
+    <div class="ecos-key-points-header">
+        <span class="ecos-icon">🎯</span>
+        <h2>Points Clés pour l'ECOS</h2>
+    </div>
+    <div class="ecos-key-points-content">
+        ## 📌 Points clés pour l'ECOS d'<mark class="highlight-critical">urgence</mark></p><ul class="content-list">
+<li>avec un TCC mineur et un trait de fracture Mots-clés:  traumatisme cranio-</li>
+<li>TCC Mais si: céphalées importantes, absence Cas à discuter</li>
+<li>avec un TCC mineur et un trait de fracture Mots-clés:  traumatisme cranio-</li>
+</ul><p>    </div>
+</div>
+<h2 class="main-section">🧠 Enrichissement Céphalées</h2><p><em>Ajouté le 2025-08-14</em></p><h3 class="section-title">📚 Types et caractéristiques</h3>
+<ul class="content-list">
+<li>Aigu</li>
+<li>Chronique</li>
+<li>Primaire</li>
+<li>Secondaire</li>
+<li>Tension</li>
+<li>Vasculaire</li>
+</ul><h3 class="section-title">🔍 Signes cliniques</h3>
+<ul class="content-list">
+<li>Céphalée</li>
+<li>Douleur</li>
+<li>Pulsatile</li>
+</ul><h3 class="section-title">🔬 Signes neurologiques associés</h3>
+<ul class="content-list">
+<li>Déficit</li>
+<li>Parésie</li>
+<li>Phonophobie</li>
+<li>Raideur</li>
+</ul><h3 class="section-title">🩺 Examen neurologique</h3>
+<ul class="content-list">
+<li>Examen neurologique</li>
+<li>Palpation</li>
+<li>Sensibilité</li>
+</ul><h3 class="section-title">🚨 <mark class="highlight-critical">Red flags</mark> - Céphalées secondaires</h3>
+<ul class="content-list">
+<li><strong>Brutal</strong></li>
+<li><strong>Nouveau</strong></li>
+<li><strong>Pire</strong></li>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+</ul><h3 class="section-title">💊 Prise en charge thérapeutique</h3>
+<ul class="content-list">
+<li>Hospitalisation</li>
+<li>Prophylaxie</li>
+<li>Surveillance</li>
+<li>Traitement</li>
+</ul><h3 class="section-title">🏥 Étiologies principales</h3>
+<ul class="content-list">
+<li>Avc</li>
+<li>Dissection</li>
+<li>Hémorragie</li>
+<li>Migraine</li>
+<li>Méningite</li>
+<li>Sinusite</li>
+</ul><h3 class="section-title">📖 Sources Céphalées</h3>
+<em>Documents analysés:</em>
+<ul class="content-list">
+<li>Restitution_QCM_Cephalees_2023.pdf</li>
+<li>39_Céphalée aiguë non traumatique.pdf</li>
+</ul>
+        </div>
+    </div>
+    
+    <div class="progress-bar">
+        <div class="progress-text">Progression: <span id="percentage">0%</span></div>
+        <div class="progress-track">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Timer functionality
+        let seconds = 0;
+        let timerInterval;
+        
+        function updateTimer() {
+            seconds++;
+            const minutes = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            document.getElementById('timer').textContent = 
+                `⏱️ ${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+        
+        function startTimer() {
+            timerInterval = setInterval(updateTimer, 1000);
+        }
+        
+        // Progress tracking
+        function updateProgress() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const checkedCount = document.querySelectorAll('input[type="checkbox"]:checked').length;
+            const totalCount = checkboxes.length;
+            
+            if (totalCount > 0) {
+                const percentage = Math.round((checkedCount / totalCount) * 100);
+                document.getElementById('percentage').textContent = percentage + '%';
+                document.getElementById('progress-fill').style.width = percentage + '%';
+                
+                if (percentage === 100) {
+                    celebrate();
+                }
+            }
+        }
+        
+        function resetProgress() {
+            if (confirm('Voulez-vous vraiment réinitialiser votre progression ?')) {
+                document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                    cb.checked = false;
+                });
+                updateProgress();
+                seconds = 0;
+                updateTimer();
+                localStorage.removeItem('fiche_SSP_TCC.md_progress');
+            }
+        }
+        
+        function saveProgress() {
+            const checkboxStates = {};
+            document.querySelectorAll('input[type="checkbox"]').forEach((cb, index) => {
+                checkboxStates[index] = cb.checked;
+            });
+            localStorage.setItem('fiche_SSP_TCC.md_progress', JSON.stringify({
+                checkboxes: checkboxStates,
+                time: seconds
+            }));
+        }
+        
+        function loadProgress() {
+            const saved = localStorage.getItem('fiche_SSP_TCC.md_progress');
+            if (saved) {
+                const data = JSON.parse(saved);
+                seconds = data.time || 0;
+                updateTimer();
+                
+                document.querySelectorAll('input[type="checkbox"]').forEach((cb, index) => {
+                    if (data.checkboxes[index]) {
+                        cb.checked = true;
+                    }
+                });
+                updateProgress();
+            }
+        }
+        
+        function celebrate() {
+            const celebration = document.createElement('div');
+            celebration.innerHTML = '🎉 Félicitations! Fiche complétée! 🎉';
+            celebration.style.cssText = `
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: var(--ecos-gradient);
+                color: white;
+                padding: 30px 50px;
+                border-radius: 20px;
+                font-size: 1.5em;
+                font-weight: bold;
+                z-index: 2000;
+                animation: celebrate 2s ease-out;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            `;
+            document.body.appendChild(celebration);
+            
+            setTimeout(() => {
+                celebration.remove();
+            }, 3000);
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProgress();
+            startTimer();
+            
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                cb.addEventListener('change', function() {
+                    updateProgress();
+                    saveProgress();
+                });
+            });
+            
+            setInterval(saveProgress, 10000);
+        });
+        
+        window.addEventListener('beforeunload', saveProgress);
+    </script>
+</body>
+</html>

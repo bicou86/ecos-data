@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syndrome du QT Long Médicamenteux - Fiche de révision SSP Pharmacologie</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #7b68ee;
+            --success-color: #5cb85c;
+            --danger-color: #d9534f;
+            --warning-color: #f0ad4e;
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --ecos-gradient: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
+            --card-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header {
+            background: var(--bg-gradient);
+            color: white;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .page-title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .meta-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            backdrop-filter: blur(10px);
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        /* Sections principales */
+        .main-section {
+            color: var(--primary-color);
+            margin: 35px 0 25px 0;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8em;
+        }
+        
+        .section-title {
+            color: var(--secondary-color);
+            margin: 25px 0 15px 0;
+            padding-left: 20px;
+            border-left: 5px solid var(--secondary-color);
+            font-size: 1.4em;
+        }
+        
+        .sub-section {
+            color: #495057;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        
+        /* Section spéciale Points Clés ECOS */
+        .ecos-key-points {
+            background: var(--ecos-gradient);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 15px 50px rgba(255,107,107,0.3);
+            position: relative;
+            overflow: hidden;
+            animation: pulse-glow 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 15px 50px rgba(255,107,107,0.3); }
+            50% { box-shadow: 0 20px 60px rgba(255,107,107,0.5); }
+        }
+        
+        .ecos-key-points::before {
+            content: '⚡';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 150px;
+            opacity: 0.1;
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .ecos-key-points-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .ecos-key-points-header h2 {
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin: 0;
+        }
+        
+        .ecos-icon {
+            font-size: 2.5em;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .ecos-key-points-content {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 20px;
+            color: #333;
+        }
+        
+        /* Highlights et alertes */
+        .red-flag {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff4444, #cc0000);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: pulse 1.5s infinite;
+            margin: 5px 0;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .urgent-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff9800, #f44336);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: blink 2s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        
+        .essential-point {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700, #ffb300);
+            color: #333;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        .important-note {
+            display: inline-block;
+            background: linear-gradient(135deg, #4caf50, #8bc34a);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        /* Highlights de texte */
+        .highlight-critical {
+            background: #ffebee;
+            color: #c62828;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            border-bottom: 2px solid #ef5350;
+        }
+        
+        mark.highlight-critical {
+            background: linear-gradient(to bottom, transparent 50%, #ffcdd2 50%);
+            padding: 2px 4px;
+        }
+        
+        /* Checkboxes */
+        .checkbox-item {
+            margin: 12px 0;
+            padding: 18px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            border-left: 5px solid transparent;
+            display: flex;
+            align-items: center;
+        }
+        
+        .checkbox-item:hover {
+            background: linear-gradient(135deg, #e9ecef, #dee2e6);
+            transform: translateX(8px);
+            border-left-color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        
+        .checkbox-item label {
+            cursor: pointer;
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+        
+        .checkbox-item input[type="checkbox"]:checked + label {
+            color: var(--success-color);
+            text-decoration: line-through;
+            font-weight: 500;
+        }
+        
+        /* Tables */
+        .table-container {
+            overflow-x: auto;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        .data-table thead {
+            background: var(--bg-gradient);
+            color: white;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .data-table tbody tr:hover {
+            background: linear-gradient(90deg, #f8f9fa, #ffffff);
+            transform: scale(1.01);
+            transition: all 0.2s ease;
+        }
+        
+        .cell-critical {
+            background: #ffebee !important;
+            color: #c62828;
+            font-weight: 600;
+        }
+        
+        .cell-important {
+            background: #fff3e0 !important;
+            color: #e65100;
+            font-weight: 600;
+        }
+        
+        /* Listes */
+        .content-list {
+            margin: 15px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .content-list li {
+            position: relative;
+            padding-left: 35px;
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+        
+        .content-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 10px;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        /* Sections enrichissement */
+        .enrichment-section {
+            margin: 30px 0;
+            background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 20px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .enrichment-header {
+            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: var(--primary-color);
+            padding: 10px;
+            user-select: none;
+            transition: all 0.3s ease;
+        }
+        
+        .enrichment-header:hover {
+            color: var(--secondary-color);
+            transform: translateX(10px);
+        }
+        
+        .enrichment-section[open] .enrichment-header {
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+        
+        .enrichment-content {
+            animation: fadeIn 0.5s ease-out;
+            padding: 0 10px;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Paragraphes */
+        p {
+            margin: 12px 0;
+            line-height: 1.8;
+        }
+        
+        strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        em {
+            color: #495057;
+            font-style: italic;
+        }
+        
+        /* Progress bar */
+        .progress-bar {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            min-width: 200px;
+            z-index: 1000;
+        }
+        
+        .progress-text {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .progress-track {
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--bg-gradient);
+            border-radius: 5px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+        
+        /* Menu flottant */
+        .floating-menu {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        
+        .menu-button {
+            background: var(--bg-gradient);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+        }
+        
+        .menu-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+        }
+        
+        /* Timer */
+        .timer {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            background: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            box-shadow: var(--card-shadow);
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            .page-title {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .floating-menu {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .timer {
+                top: 10px;
+                left: 10px;
+                font-size: 0.9em;
+            }
+            
+            .progress-bar {
+                bottom: 10px;
+                right: 10px;
+                min-width: 150px;
+            }
+            
+            .ecos-key-points {
+                padding: 20px;
+            }
+            
+            .ecos-key-points-header h2 {
+                font-size: 1.5em;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+            
+            .floating-menu,
+            .timer,
+            .progress-bar {
+                display: none;
+            }
+            
+            .ecos-key-points {
+                page-break-inside: avoid;
+                background: #fff3e0 !important;
+                border: 3px solid #ff6b6b;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="timer" id="timer">⏱️ 00:00</div>
+    
+    <div class="floating-menu">
+        <button class="menu-button" onclick="resetProgress()">🔄 Réinitialiser</button>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="page-title">Syndrome du QT Long Médicamenteux - Fiche de révision SSP Pharmacologie</h1>
+            <div class="meta-info">
+                <span class="badge">📚 Médecine</span>
+                <span class="badge">📅 04/09/2025</span>
+                <span class="badge">🎯 Révision ECOS</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h1 class="page-title">Syndrome du QT Long Médicamenteux - Fiche de révision SSP Pharmacologie</h1><h2 class="main-section">📋 Informations générales</h2>
+<ul class="content-list">
+<li><strong>Discipline</strong>: Pharmacologie clinique</li>
+<li><strong>Importance</strong>: Haute pour la pratique clinique</li>
+<li><strong>Fréquence</strong>: Variable selon le contexte</li>
+</ul><h2 class="main-section">🎯 Objectifs d'apprentissage</h2>
+<ul class="content-list">
+<li>Connaître les principes pharmacologiques</li>
+<li>Identifier les situations à risque</li>
+<li>Maîtriser la prescription sécuritaire</li>
+<li>Reconnaître et gérer les effets indésirables</li>
+<li>Optimiser la thérapeutique</li>
+</ul><h2 class="main-section">💊 Médicaments concernés</h2>
+<ul class="content-list">
+<li>À compléter selon le contexte</li>
+</ul><h2 class="main-section">🔬 Mécanismes pharmacologiques</h2>
+<ul class="content-list">
+<li>le métabolisme de l’éthanol au niveau de</li>
+<li>longeant ses infrastructures entre 1930 -76</li>
+</ul><h2 class="main-section">📋 Indications principales</h2>
+<ul class="content-list">
+<li>À compléter selon le contexte</li>
+</ul><h2 class="main-section">📏 Posologies et administration</h2><h3 class="section-title">Posologies usuelles</h3>
+<ul class="content-list">
+<li>5mg/j etdela</li>
+<li>50 mg 4x/j en réserve, fluoxétine 20mg/j, zolpidem 10 mg/j, lévothyroxine 0.125</li>
+<li>225mg/j pour unétat dépressif <mark class="highlight-critical">sévère</mark> .</li>
+<li>d’un antipsychotique.</li>
+<li>d’un agent sérotoninergique.</li>
+</ul><h3 class="section-title">Voies d'administration</h3>
+<ul class="content-list">
+<li>Orale</li>
+<li>Parentérale</li>
+<li>Topique</li>
+<li>Inhalée</li>
+</ul><h2 class="main-section">⛔ Contre-indications</h2>
+<ul class="content-list">
+<li>À compléter selon le contexte</li>
+</ul><h3 class="section-title">Précautions d'emploi</h3>
+<ul class="content-list">
+<li>Évaluer le rapport bénéfice/risque</li>
+<li>Surveillance renforcée</li>
+<li>Information du patient</li>
+</ul><h2 class="main-section">⚠️ Effets indésirables</h2><h3 class="section-title">Effets fréquents</h3>
+<ul class="content-list">
+<li>OBJECTIFS D ’APPRENTISSAGE  DISCIPLINES</li>
+<li>sérotoninergique »SS: éventail des manifestations cliniques</li>
+<li>(volontaire ou accidentel)</li>
+<li>semblable àun surdosage enisoniazide</li>
+<li>•2-5 baies chez l’enfant</li>
+<li>SNC : paresthésies, restrictions du champ visuel, pertes d’audition, ataxies,</li>
+</ul><h3 class="section-title">Effets graves</h3>
+<ul class="content-list">
+<li>À identifier rapidement</li>
+<li>Conduite à tenir</li>
+<li>Déclaration de pharmacovigilance</li>
+</ul><h2 class="main-section">🔄 Interactions médicamenteuses</h2>
+<ul class="content-list">
+<li>du SNC (sommeil, T°, mémoire)</li>
+</ul><h3 class="section-title">Types d'interactions</h3>
+<ul class="content-list">
+<li>Pharmacocinétiques (absorption, métabolisme, élimination)</li>
+<li>Pharmacodynamiques (synergie, antagonisme)</li>
+<li>Physico-chimiques</li>
+</ul><h2 class="main-section">📊 Surveillance thérapeutique</h2>
+<ul class="content-list">
+<li>À compléter selon le contexte</li>
+</ul><h3 class="section-title">Paramètres à monitorer</h3>
+<ul class="content-list">
+<li>Cliniques</li>
+<li>Biologiques</li>
+<li>Concentrations plasmatiques (si TDM)</li>
+</ul><h2 class="main-section">🔧 Adaptations posologiques</h2>
+<ul class="content-list">
+<li>étudié ce problème, les étudiants devraient être</li>
+<li>etelleremarque une perte duballant desbras .</li>
+<li>en place. Pouls 98/min régulier, TA</li>
+<li>à nouveau discuté avec la patiente, celle -ci admet avoir pris 15 comprimés de 50 mg (750</li>
+<li>d’encreSyndrome antabuse</li>
+<li>du Hg élémentaire dans un environnement aquatique, et ingéré</li>
+</ul><h3 class="section-title">Populations particulières</h3>
+<ul class="content-list">
+<li>Insuffisance rénale</li>
+<li>Insuffisance hépatique</li>
+<li>Personnes âgées</li>
+<li>Pédiatrie</li>
+<li>Grossesse et allaitement</li>
+</ul><h2 class="main-section">💡 Conseils pratiques</h2>
+<ul class="content-list">
+<li>À compléter selon le contexte</li>
+</ul><h3 class="section-title">Éducation thérapeutique</h3>
+<ul class="content-list">
+<li>Observance</li>
+<li>Modalités de prise</li>
+<li>Reconnaissance des effets indésirables</li>
+<li>Que faire en cas d'oubli</li>
+</ul><h2 class="main-section">👶 Cas particuliers</h2>
+<ul class="content-list">
+<li>français), ~ 44% sérieux</li>
+</ul><h2 class="main-section">🚨 Situations d'<mark class="highlight-critical">urgence</mark></h2>
+<ul class="content-list">
+<li>Surdosage</li>
+<li>Réactions allergiques</li>
+<li>Effets indésirables graves</li>
+<li>Antidotes spécifiques</li>
+</ul><h2 class="main-section">📝 Points clés pour l'ECOS</h2>
+<ul class="content-list">
+<li>Choix du médicament approprié</li>
+<li>Calcul de posologie</li>
+<li>Identification des contre-indications</li>
+<li>Surveillance adaptée</li>
+<li>Information au patient</li>
+</ul><h2 class="main-section">📚 Références</h2>
+<ul class="content-list">
+<li>Compendium Suisse des Médicaments</li>
+<li>Guidelines de pharmacologie clinique</li>
+<li>Recommandations HAS/ANSM</li>
+</ul><p>---
+<em>Dernière mise à jour: 2025-08-14</em>
+<em>Source: PDFs Pharmacologie</em></p><h2 class="main-section">📚 Enrichissement APP</h2><p><em>Ajouté le 2025-08-14</em></p><h3 class="section-title">🎯 Objectifs d'apprentissage</h3>
+<ul class="content-list">
+<li>Connaissance</li>
+<li>Objectif</li>
+</ul><h3 class="section-title">💡 Concepts clés</h3>
+<ul class="content-list">
+<li>App</li>
+<li>Problème</li>
+</ul><h3 class="section-title">🔄 Hypothèses diagnostiques</h3>
+<ul class="content-list">
+<li>Hypothèse</li>
+</ul><h3 class="section-title">📖 Sources APP</h3>
+<em>Documents analysés:</em>
+<ul class="content-list">
+<li>1b) objectifs APP B2.4.1.pdf</li>
+</ul>
+        </div>
+    </div>
+    
+    <div class="progress-bar">
+        <div class="progress-text">Progression: <span id="percentage">0%</span></div>
+        <div class="progress-track">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Timer functionality
+        let seconds = 0;
+        let timerInterval;
+        
+        function updateTimer() {
+            seconds++;
+            const minutes = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            document.getElementById('timer').textContent = 
+                `⏱️ ${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+        
+        function startTimer() {
+            timerInterval = setInterval(updateTimer, 1000);
+        }
+        
+        // Progress tracking
+        function updateProgress() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const checkedCount = document.querySelectorAll('input[type="checkbox"]:checked').length;
+            const totalCount = checkboxes.length;
+            
+            if (totalCount > 0) {
+                const percentage = Math.round((checkedCount / totalCount) * 100);
+                document.getElementById('percentage').textContent = percentage + '%';
+                document.getElementById('progress-fill').style.width = percentage + '%';
+                
+                if (percentage === 100) {
+                    celebrate();
+                }
+            }
+        }
+        
+        function resetProgress() {
+            if (confirm('Voulez-vous vraiment réinitialiser votre progression ?')) {
+                document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                    cb.checked = false;
+                });
+                updateProgress();
+                seconds = 0;
+                updateTimer();
+                localStorage.removeItem('fiche_SSP_Syndrome_QtLong.md_progress');
+            }
+        }
+        
+        function saveProgress() {
+            const checkboxStates = {};
+            document.querySelectorAll('input[type="checkbox"]').forEach((cb, index) => {
+                checkboxStates[index] = cb.checked;
+            });
+            localStorage.setItem('fiche_SSP_Syndrome_QtLong.md_progress', JSON.stringify({
+                checkboxes: checkboxStates,
+                time: seconds
+            }));
+        }
+        
+        function loadProgress() {
+            const saved = localStorage.getItem('fiche_SSP_Syndrome_QtLong.md_progress');
+            if (saved) {
+                const data = JSON.parse(saved);
+                seconds = data.time || 0;
+                updateTimer();
+                
+                document.querySelectorAll('input[type="checkbox"]').forEach((cb, index) => {
+                    if (data.checkboxes[index]) {
+                        cb.checked = true;
+                    }
+                });
+                updateProgress();
+            }
+        }
+        
+        function celebrate() {
+            const celebration = document.createElement('div');
+            celebration.innerHTML = '🎉 Félicitations! Fiche complétée! 🎉';
+            celebration.style.cssText = `
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: var(--ecos-gradient);
+                color: white;
+                padding: 30px 50px;
+                border-radius: 20px;
+                font-size: 1.5em;
+                font-weight: bold;
+                z-index: 2000;
+                animation: celebrate 2s ease-out;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            `;
+            document.body.appendChild(celebration);
+            
+            setTimeout(() => {
+                celebration.remove();
+            }, 3000);
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProgress();
+            startTimer();
+            
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                cb.addEventListener('change', function() {
+                    updateProgress();
+                    saveProgress();
+                });
+            });
+            
+            setInterval(saveProgress, 10000);
+        });
+        
+        window.addEventListener('beforeunload', saveProgress);
+    </script>
+</body>
+</html>

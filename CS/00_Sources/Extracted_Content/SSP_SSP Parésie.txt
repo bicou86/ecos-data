@@ -1,0 +1,174 @@
+Parésie
+Anamnèse
+1. Caractériser
+AVC URGENCE
+a. Condition de survenue ?
+- Paralysie du visage
+i. Brutal ?
+- Paralysie du bras ou jambe
+ii. Traumatisme ?
+- Trouble de la parole
+iii. Depuis quand ?
+- Trouble de la vue
+iv. Évolution ?
+- Vertiges violents
+b. Signes associés ?
+- Maux de tête intense
+i. Trouble de la parole ?
+ii. Trouble de la vue ?
+iii. Trouble de l’audition ?
+iv. Vertiges ?
+v. Céphalées intenses ?
+c. Localisation
+i. Membre touché ? Quel mouvement ?
+d. Facteurs aggravants/soulageant
+e. Matin mieux que le soir ?
+2. Symptômes associés
+a. Douleur
+i. Localisation
+ii. Irradiation
+iii. Qualité
+1. Brûlures
+2. Décharge électrique
+iv. Intensité
+v. Chronologie
+vi. Facteurs aggravants / soulageant
+1. Effort
+2. Toux
+b. Paresthésie (fourmillement) (+ localisation et autre caractérisation)
+c. Hypoesthésie (+ localisation et autre caractérisation)
+d. Atrophie
+e. Autre ?
+3. Marche
+a. Symptômes apparaissent après distance fixe ?
+b. Toujours présent
+4. Système digestif
+a. Selles  faire TR
+i. Incontinence, fuites
+ii. Constipation
+b. Urines
+i. Incontinence, fuites
+ii. Vidange incomplète
+
+5. ATCD personnels
+a. Symptômes similaires par le passé
+b. Maladie
+c. Hospitalisation
+d. Opération
+e. Médicaments
+f. Allergie
+6. ATCD familiaux
+7. Habitudes
+a. Tabac
+b. Alcool
+c. Drogue
+DD
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+AVC/AIT
+Trauma moelle
+o Totale
+o Hémi-moelle (hémiparésie + dissociation entre côté atteint proprioception et
+sensibilité douleur/chaleur)
+o Antérieur (hémiparésie + abolition thermoalgésie alors que tactile ok)
+Myélopathie (démarche ataxique, perte motricité fine, parésie, hyperréflexe, signes
+pyramidaux : Babinski +)
+o Mécanique : canal étroit, hernie, processus expansif, hématome,
+traumatisme, abcès épidural)
+o Métabolique : myélose funiculaire (déficit B12)
+o Infectieux : polio, cocksakie, herpès, EBC, CMV, HIV, syphilis, lyme, maladie de
+Pott
+o Inflammatoire : SEP, lupus, Sjögren
+o Vasculaire : ischémique (début subaigu)
+o Paranéoplasique : cancer pulmonaire, lymphome, …
+Syndrome radiculaire
+o Irritatif (Douleur neuropathie intense unilatérale (dermatome), paresthésie,
+majoré par l’effort, la toux + reproductible par l’étirement)
+o Déficitaire (hypoesthésie, parésie (myotome) + abolition réflexe, atrophie)
+Polyneuropathie (= purement sensitif au début, distal, bilatérale, symétrie, synchrone,
+pts diabétique)
+Polyradiculoneuropathie chronique (prédominance motrice, atteinte sensitive surtout
+proprioception  trouble de la marche, instabilité, non longueur dépendant, +/symétrique)
+Polyradiculoneuropathie aiguë : Guillain-Barré (prédominance motrice, atteinte
+sensitive surtout proprioception  trouble de la marche, instabilité, non longueur
+dépendant, +/- symétrique + précédé d’un épisode infectieux respiratoire ou
+digestif, ! on ne fait qu’un Guillain-Barré dans sa vie)
+Myasthénie (ptosis, paralysie faciale, dysphagie, faiblesse nuque, difficulté de tenir les
+bras tendus et les jambes fléchies, mieux le matin que le soir, dépend de la fatigue)
+Sclérose latérale amyotrophique (uniquement motrice, faiblesse, amyotrophie,
+fasciculations,, crampes  atteinte du 1er et du 2ème motoneurone)
+
+Examen clinique
+!!! si symptômes
+Faire examen neuro normal
+seulement MI depuis dos
+1. Orientation
+ faire examen du rachis +
+a. Comment vous-vous appelez ?
+neuro membre inf +
+b. Où êtes-vous ?
+lasègue et lasègue inversé
+c. Quelles dates sommes-nous ?
+2. Cincinatti pour suspicion AVC :
+a. Motricité de la face NII
+b. Épreuve des bras tendus
+c. Répétition d’une phrase
+3. Marche
+a. Normal
+b. Pointe / talon +/- funambule
+4. Romberg (main tendue d’abord yeux ouverts ensuite avec fermés)
+5. Nerfs crâniens
+6. Inspection - palpation muscle  amyothrophie ?
+7. Membre sup force contre résistance
+a. Épreuve bras tendu (DDC)
+b. Abduction latérale (DDC)
+c. Rotation latérale épaule (DDC)
+d. Flexion avant-bras
+e. Extension bras
+f. Flexion poignet
+g. Extension poignet
+h. Abduction des doigts (ouvrir doigt contre pression)
+i. Flexion des doigts (doigt en crochet)
+j. Extension des doigts (paume vers le bas)
+8. Réflexe ( !!! comparer des 2 côtés)
+a. Tricipital (C7)
+b. Bicipital (C6)
+c. Stylo-radial (C6)
+d. Rotulien (L3-L4)
+e. Achiléen (S1)
+9. Membre inf force contre résistance
+a. Épreuve jambes fléchies
+b. Flexion hanche
+c. Extension hanche (main sous pied)
+d. Flexion genou
+e. Extension genou
+f. Flexion pied (tirer patient en bas de la table)
+g. Extension pied
+h. Flexion gros orteil
+i. Extension gros orteil
+10. Babinski
+
+11. Sensibilité
+a. Tact global
+b. Piqûre global
+c. Toucher – piquer
+d. Position doigt – orteil
+e. Pallesthésie poignet / cheville
+
+!!! faire toucher piquer, sensibilité
+profonde (position doigt), pallesthésie
+etc seulement si plainte de la
+sensibilité globale ou de la sensibilité
+à l’anamnèse
+
+

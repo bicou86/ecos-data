@@ -1,0 +1,98 @@
+Toux
+Anamnèse
+1. Toux
+a.
+b.
+c.
+d.
+
+2.
+
+3.
+
+4.
+5.
+
+Depuis quand
+Fréquence
+Qualité (sèche, grasse, rauque)
+Expectoration
+i. Couleur
+ii. Sang
+e. Condition de survenues
+i. Effort (asthme, IC)
+ii. Nuit (asthme, IC)
+iii. Lever (RGO)
+iv. Matin (bronchite chronique, rhinorrhée post)
+v. Changement de position (pathologie pleurale)
+vi. Déglutition (fausse route)
+Symptômes associés
+a. Dyspnée
+i. Condition de survenue
+ii. Classification (périmètre de marche, nb étage etc)
+iii. Chronologie
+b. Douleurs thoraciques
+c. Hémoptysie
+d. Oedèmes des membres inférieurs
+e. Orthopnée
+f. Palpitation
+g. Fièvre (check comptage infectieux)
+ATCD et comorbidités
+a. Maladie
+b. Hospitalisations
+c. Opération (récente ?)
+d. Médicaments
+e. Allergies
+Facteurs de risques
+a. Tabagisme
+ATCD familiaux
+
+Examen clinique
+1. Inspection
+a. Extrémités (ongles) + langue
+b. Recoloration capillaire
+c. Thorax et mouvements
+d. Oedèmes des MI (godet)
+e. Turgescence jugulaire + reflux hépato-jugulaire (> 10s)
+2. Cardiaque
+a. Palpation
+i. Pouls périphériques aux 4 extrémités
+ii. Carotidien (!!! auscultation avant)
+iii. Choc de pointe
+b. Auscultation
+i. Aortique
+ii. Pulmonaire
+iii. Mitral
+iv. Tricuspide
+3. Pulmonaire
+a. Palpation
+i. Zone douloureuse (reproductible à la palpation ?)
+ii. Ampliation thoracique (post)
+b. Percussion (post + lat)
+i. Délimiter
+ii. Comparer les deux côtés
+c. Auscultation
+i. Antérieure
+ii. Postérieure : 4 plages en comparant
+iii. LatéraleS : 2 plages
+DD
+Aiguë (< 3 semaines)
+- Infection des voies aériennes supérieures
+- Asthme
+- Exacerbation BPCO
+- Corps étranger
+- Pneumonie
+3 – 8 semaines
+- Toux post infectieuse (dû à irritation)
+- Coqueluche
+Chronique (> 8 semaines)
+- Syndrome de toux d’origine des voies aériennes supérieures – rhinorrhée post
+- Asthme
+- BPCO
+- RGO
+- Médicamenteuse : IEC
+- Pneumopathie interstitielle
+- Cancer broncho-pulmonaire
+- Insuffisance cardiaque
+
+

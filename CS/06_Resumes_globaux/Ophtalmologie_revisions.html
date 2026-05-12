@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Ophtalmologie ECOS - Révisions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.7; }
+        }
+        
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+            animation: slideInFromTop 0.8s ease-out;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        /* Barre de progression */
+        .progress-container {
+            padding: 20px;
+            background: white;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .progress-bar {
+            height: 30px;
+            background: #e9ecef;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 15px;
+            width: 0%;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        /* Cartes de statistiques */
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+        
+        /* Contrôles avec filtres améliorés */
+        .controls {
+            padding: 25px;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            border-bottom: 1px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .controls-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        
+        .search-container {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c757d;
+            font-size: 18px;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 15px 12px 45px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: white;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        /* Filtres par tags */
+        .filter-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-tag {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 2px solid #dee2e6;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .filter-tag:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+        
+        .filter-tag.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: transparent;
+        }
+        
+        .filter-tag.urgent { border-color: #e74c3c; }
+        .filter-tag.urgent.active { background: #e74c3c; }
+        
+        .filter-tag.warning { border-color: #f39c12; }
+        .filter-tag.warning.active { background: #f39c12; }
+        
+        .filter-tag.dosage { border-color: #3498db; }
+        .filter-tag.dosage.active { background: #3498db; }
+        
+        .filter-tag.osce { border-color: #27ae60; }
+        .filter-tag.osce.active { background: #27ae60; }
+        
+        /* Sélecteur de sections */
+        .section-selector {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        select {
+            padding: 10px 15px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            background: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        select:hover {
+            border-color: #667eea;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        button {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        
+        button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        button:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+        
+        button:active {
+            transform: translateY(-1px);
+        }
+        
+        .counter {
+            padding: 12px 20px;
+            background: white;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #495057;
+            border: 2px solid #dee2e6;
+            min-width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .section.collapsed {
+            margin-bottom: 20px;
+        }
+        
+        .section.collapsed .table-wrapper {
+            display: none;
+        }
+        
+        .section-title {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            font-size: 1.5em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .section-title:hover {
+            padding-left: 30px;
+        }
+        
+        .section-title::before {
+            content: '▼';
+            position: absolute;
+            left: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .section.collapsed .section-title::before {
+            transform: rotate(-90deg);
+        }
+        
+        .section-count {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: normal;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        th {
+            background: #f8f9fa;
+            color: #495057;
+            font-weight: 600;
+            text-align: left;
+            padding: 15px;
+            border-bottom: 2px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e9ecef;
+            vertical-align: top;
+        }
+        
+        tr {
+            transition: all 0.3s ease;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+            transform: scale(1.01);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .pathology {
+            font-weight: 700;
+            color: #667eea;
+            font-size: 1.1em;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .pathology::before {
+            content: '🔬';
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+        
+        /* STYLES POUR LES HIGHLIGHTS COLORÉS */
+        
+        /* Rouge - Urgences et alertes */
+        .urgent {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            animation: pulse-urgent 2s infinite;
+            box-shadow: 0 2px 5px rgba(231, 76, 60, 0.3);
+        }
+        
+        @keyframes pulse-urgent {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+        }
+        
+        /* Orange - Avertissements */
+        .warning {
+            background: linear-gradient(45deg, #f39c12, #e67e22);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(243, 156, 18, 0.3);
+        }
+        
+        /* Jaune - Points importants */
+        .highlight {
+            background: linear-gradient(45deg, #f1c40f, #f39c12);
+            color: #2c3e50;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(241, 196, 15, 0.3);
+        }
+        
+        /* Jaune - Points clés */
+        .key-point {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #2c3e50;
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            border: 1px solid #f1c40f;
+            box-shadow: 0 2px 5px rgba(255, 215, 0, 0.3);
+        }
+        
+        /* Bleu foncé - Signes cliniques */
+        .clinical-sign {
+            background: linear-gradient(45deg, #2c5aa0, #1e3c72);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(44, 90, 160, 0.3);
+        }
+        
+        /* Vert clair - Dosages */
+        .dosage {
+            background: linear-gradient(45deg, #00b894, #55efc4);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(0, 184, 148, 0.3);
+        }
+        
+        /* Bleu clair - Examens prioritaires */
+        .exam-priority {
+            background: linear-gradient(45deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(116, 185, 255, 0.3);
+        }
+        
+        /* Vert - Lignes de traitement */
+        .treatment-line {
+            background: linear-gradient(45deg, #27ae60, #229954);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(39, 174, 96, 0.3);
+        }
+        
+        /* Conseils OSCE - Encadré spécial */
+        .osce-tip {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 18px;
+            border-radius: 10px;
+            margin: 8px 0;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+            position: relative;
+            overflow: hidden;
+            border-left: 4px solid #fff;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .osce-tip::before {
+            content: '💡 ';
+            font-size: 1.3em;
+            margin-right: 8px;
+        }
+        
+        .osce-tip::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            transform: translate(30px, -30px);
+        }
+        
+        /* Légende des couleurs */
+        .color-legend {
+            background: white;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: none; /* Hidden by default */
+        }
+        
+        .color-legend h3 {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        
+        .legend-item {
+            display: inline-flex;
+            align-items: center;
+            margin: 5px 10px;
+            font-size: 14px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 8px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .controls-row {
+                flex-direction: column;
+            }
+            
+            .search-container {
+                min-width: 100%;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 10px;
+            }
+            
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            .controls, .progress-container, .stats-container {
+                display: none;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+                box-shadow: none;
+            }
+            
+            .section-title {
+                background: #667eea !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            tr:hover {
+                transform: none;
+                box-shadow: none;
+            }
+            
+            /* Préserver les couleurs à l'impression */
+            .urgent, .warning, .highlight, .key-point,
+            .clinical-sign, .dosage, .exam-priority,
+            .treatment-line, .osce-tip {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    
+        .anatomy {
+            background: linear-gradient(45deg, #8e44ad, #9b59b6);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 2px 0;
+            box-shadow: 0 2px 5px rgba(142, 68, 173, 0.3);
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 Guide Ophtalmologie ECOS</h1>
+            <p class="subtitle">Fiches de révision complètes pour l'examen clinique</p>
+        </header>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number">9</div>
+                <div class="stat-label">Sections</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">26</div>
+                <div class="stat-label">Pathologies</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="viewedCount">0</div>
+                <div class="stat-label">Consultées</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="remainingCount">26</div>
+                <div class="stat-label">Restantes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="progressPercent">0%</div>
+                <div class="stat-label">Progression</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="timeSpent">0m</div>
+                <div class="stat-label">Temps passé</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="controls-row">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Rechercher une pathologie, symptôme, traitement...">
+                </div>
+                <button onclick="expandAll()">📖 Tout déplier</button>
+                <button onclick="collapseAll()">📚 Tout replier</button>
+                <button onclick="resetFilters()">🔄 Réinitialiser</button>
+            </div>
+            
+            <div class="controls-row">
+                <div class="filter-tags">
+                    <span style="margin-right: 10px; font-weight: 600;">Filtres:</span>
+                    <div class="filter-tag urgent" data-tag="urgent" onclick="toggleFilter(this)">🚨 Urgences</div>
+                    <div class="filter-tag warning" data-tag="warning" onclick="toggleFilter(this)">⚠️ Alertes</div>
+                    <div class="filter-tag dosage" data-tag="dosage" onclick="toggleFilter(this)">💊 Dosages</div>
+                    <div class="filter-tag osce" data-tag="osce" onclick="toggleFilter(this)">💡 Tips OSCE</div>
+                </div>
+                
+                <div class="section-selector">
+                    <label for="sectionSelect" style="font-weight: 600;">Section:</label>
+                    <select id="sectionSelect" onchange="filterBySection()">
+                        <option value="">Toutes les sections</option>
+                        <option value="">Toutes les sections</option>
+                        <option value="section-1">1. Pathologies de la surface oculaire et conjonctive</option>
+                        <option value="section-2">2. Pathologies de la cornée</option>
+                        <option value="section-3">3. Pathologies du cristallin et strabisme</option>
+                        <option value="section-4">4. Pathologies rétiniennes</option>
+                        <option value="section-5">5. Pathologies du glaucome</option>
+                        <option value="section-6">6. Pathologies du nerf optique et neuro-ophtalmologie</option>
+                        <option value="section-7">7. Traumatologie oculaire</option>
+                        <option value="section-8">8. Urgences ophtalmologiques générales</option>
+                        <option value="section-9">9. Pathologies ophtalmologiques complémentaires</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="counter" id="counter">
+                <span id="visibleCount">37</span> / 37 pathologies affichées
+            </div>
+        </div>
+        
+        <div class="content">
+
+            <!-- Section 1: Pathologies de la surface oculaire et conjonctive -->
+            <div class="section" id="section-1">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    1. Pathologies de la surface oculaire et conjonctive
+                    <span class="section-count">5 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent" data-section="section-1">
+                                <td class="pathology">Conjonctivite allergique</td>
+                                <td>Printemps, <span class="clinical-sign">prurit</span>, sensation de sable dans les yeux, rougeur, sécrétions aqueuses, rhinorrhée, asthme ou rhinite allergique associée.</td>
+                                <td><span class="anatomy">Conjonctive</span> <span class="clinical-sign">chemosis</span>, injection conjonctivale, papilles sous la <span class="anatomy">paupière</span>. <span class="exam">Acuité visuelle</span> <span class="positive">conservée</span>.</td>
+                                <td>Bilan allergologique si formes récidivantes.</td>
+                                <td>Antihistaminiques topiques, <span class="warning">éviter</span> exposition allergènes. Corticoïdes locaux seulement par ophtalmologiste si formes sévères.</td>
+                                <td>Toujours bilatérale, acuité <span class="positive">conservée</span>. <span class="warning">Ne pas</span> utiliser corticoïdes en ville sans indication spécialisée.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage" data-section="section-1">
+                                <td class="pathology">Conjonctivite bactérienne</td>
+                                <td>Rougeur, sécrétions purulentes, paupières collées le matin. Début <span class="urgent">brutal</span>. Contexte ORL parfois associé.</td>
+                                <td><span class="anatomy">Conjonctive</span> rouge, sécrétions mucopurulentes, <span class="anatomy">cornée</span> <span class="positive">claire</span>. Adénopathies préauriculaires parfois.</td>
+                                <td><span class="exam">Prélèvement</span> si chronique, néonatale ou résistance traitement.</td>
+                                <td><span class="dosage"><span class="treatment">Collyre</span></span> <span class="treatment">ATB</span> (<span class="treatment">fluoroquinolone</span>, <span class="treatment">aminoside</span>) 7j. Lavage sérum physiologique.</td>
+                                <td>Forme néonatale = <span class="urgent">urgence</span> (Chlamydia, gonocoque).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="" data-section="section-1">
+                                <td class="pathology">Conjonctivite virale</td>
+                                <td>Œil rouge, <span class="clinical-sign">larmoiement</span> aqueux, <span class="clinical-sign">prurit</span> modéré, souvent unilatérale débutant, contage familial.</td>
+                                <td>Injection conjonctivale diffuse, ganglion préauriculaire sensible.</td>
+                                <td><span class="clinical-sign">Clinique</span>. <span class="exam">Prélèvement</span> si épidémie.</td>
+                                <td><span class="treatment">Larmes artificielles</span>, repos, hygiène stricte. Arrêt école/travail si contagion.</td>
+                                <td>Très contagieuse, adénovirus = cause principale.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage" data-section="section-1">
+                                <td class="pathology">Orgelet</td>
+                                <td>Douleur localisée <span class="anatomy">paupière</span>, début <span class="urgent">brutal</span>, ATCD blépharite.</td>
+                                <td>Nodule rouge douloureux bord palpébral.</td>
+                                <td><span class="clinical-sign">Clinique</span>.</td>
+                                <td>Compresses chaudes, <span class="dosage"><span class="treatment">pommade</span></span> <span class="treatment">ATB</span> locale. Incision si collection.</td>
+                                <td>Différencier chalazion (indolore, chronique).</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent" data-section="section-1">
+                                <td class="pathology"><span class="clinical-sign">Hémorragie</span> sous-conjonctivale</td>
+                                <td>Découverte <span class="urgent">brutale</span> « œil rouge » indolore. Facteurs déclenchants : toux, effort, HTA, anticoagulants.</td>
+                                <td>Tache rouge homogène conjonctivale, acuité normale, pas de douleur.</td>
+                                <td>TA, bilan coagulation si récidives.</td>
+                                <td>Aucun traitement. Résorption spontanée en 10–15j.</td>
+                                <td>Important de rassurer. Pas <span class="warning">grave</span> sauf contexte anticoagulants ou récidive.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 2: Pathologies de la cornée -->
+            <div class="section" id="section-2">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    2. Pathologies de la cornée
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="dosage" data-section="section-2">
+                                <td class="pathology">Kératite bactérienne</td>
+                                <td>Douleur, baisse <span class="exam">acuité visuelle</span>, <span class="clinical-sign">photophobie</span>. Facteurs : port lentilles, microtrauma.</td>
+                                <td>Ulcère cornéen prenant <span class="exam">fluorescéine</span>, hyperhémie, parfois <span class="clinical-sign">hypopion</span>.</td>
+                                <td><span class="exam">Prélèvement</span> cornéen, <span class="exam">culture</span>.</td>
+                                <td>Collyres <span class="treatment">ATB</span> forts (quinolone) en <span class="urgent">urgence</span>. Hospitalisation parfois.</td>
+                                <td>Peut perforer et menacer vision.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning" data-section="section-2">
+                                <td class="pathology">Kératite herpétique</td>
+                                <td>Douleur, <span class="clinical-sign">photophobie</span>, baisse acuité. ATCD boutons labiaux.</td>
+                                <td>Lésion dendritique cornéenne <span class="exam">fluorescéine</span> +. Hypoesthésie cornéenne.</td>
+                                <td><span class="clinical-sign">Clinique</span> ± PCR HSV.</td>
+                                <td><span class="treatment">Aciclovir</span> <span class="dosage">local</span> ± systémique. Corticoïdes contre-indiqués en forme épithéliale.</td>
+                                <td><span class="warning">Risque</span> récidives et cicatrices cornéennes.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent warning" data-section="section-2">
+                                <td class="pathology">Abcès cornéen</td>
+                                <td>Douleur intense, <span class="clinical-sign">photophobie</span>, baisse <span class="urgent">brutale</span> acuité. ATCD lentilles ou trauma végétal.</td>
+                                <td>Ulcère profond cornéen avec infiltration blanchâtre, parfois <span class="clinical-sign">hypopion</span>.</td>
+                                <td>Grattage cornéen, <span class="exam">culture</span> bactérienne/mycosique.</td>
+                                <td><span class="treatment">ATB</span>/antifongiques forts locaux ± hospitalisation.</td>
+                                <td><span class="urgent">Urgence</span> absolue, <span class="warning">risque</span> perte œil.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage" data-section="section-2">
+                                <td class="pathology">Corps étranger cornéen</td>
+                                <td>Douleur, <span class="clinical-sign">photophobie</span>, ATCD bricolage/métallurgie.</td>
+                                <td>Corps étranger visible cornéen ± anneau rouille.</td>
+                                <td>Examen <span class="exam">fluorescéine</span>. <span class="exam">Scanner</span> si suspicion intraoculaire.</td>
+                                <td>Retrait corps étranger, <span class="dosage"><span class="treatment">pommade</span></span> <span class="treatment">ATB</span>, pansement occlusif.</td>
+                                <td>Rappel vaccination tétanos systématique.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 3: Pathologies du cristallin et strabisme -->
+            <div class="section" id="section-3">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    3. Pathologies du cristallin et strabisme
+                    <span class="section-count">3 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-3">
+                                <td class="pathology">Cataracte</td>
+                                <td>Baisse progressive <span class="exam">acuité visuelle</span>, <span class="clinical-sign">photophobie</span>, éblouissements nocturnes. ATCD diabète, corticoïdes, traumatisme.</td>
+                                <td>Diminution transparence <span class="anatomy">cristallin</span> au biomicroscope. Reflet pupillaire blanc.</td>
+                                <td>Examen à la <span class="exam">lampe à fente</span>. Mesure <span class="exam">acuité visuelle</span>. Fond d’œil si possible.</td>
+                                <td>Chirurgie (<span class="treatment">phacoémulsification</span> + implant).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : reflet pupillaire blanc chez enfant = cataracte congénitale → </div><span class="urgent">urgence</span> dépistage amblyopie.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent warning osce" data-section="section-3">
+                                <td class="pathology">Strabisme</td>
+                                <td>Déviation œil, parfois <span class="clinical-sign">diplopie</span>. Dépistage <span class="urgent">précoce</span> en pédiatrie. ATCD familiaux.</td>
+                                <td>Test Hirschberg (réflexe cornéen), cover-test. Recherche amblyopie associée.</td>
+                                <td>Orthoptie. Examen ophtalmologique complet. Fundus si doute rétinoblastome.</td>
+                                <td>Correction optique. Rééducation orthoptique. Chirurgie si persistant.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : insister sur </div><span class="warning">risque</span> amblyopie <span class="warning">irréversible</span> si non traité précocement.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="warning osce" data-section="section-3">
+                                <td class="pathology">Amblyopie</td>
+                                <td>Enfant avec baisse acuité monoculaire, souvent secondaire strabisme, cataracte congénitale, anisométropie.</td>
+                                <td><span class="exam">Acuité visuelle</span> différente entre les deux yeux. Pas de lésion organique majeure.</td>
+                                <td>Examen visuel systématique. Recherche cause (strabisme, cataracte, réfraction).</td>
+                                <td>Correction optique. Occlusion œil sain (cache) ou pénalisation optique. Traitement cause.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : importance dépistage </div><6 ans → après, séquelles irréversibles.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 4: Pathologies rétiniennes -->
+            <div class="section" id="section-4">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    4. Pathologies rétiniennes
+                    <span class="section-count">4 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning osce" data-section="section-4">
+                                <td class="pathology">Décollement de <span class="anatomy">rétine</span></td>
+                                <td>Perception éclairs lumineux, <span class="clinical-sign">myodésopsies</span> (mouches volantes), voile noir progressif. ATCD myopie forte, chirurgie oculaire.</td>
+                                <td>Fond d’œil : <span class="anatomy">rétine</span> décollée, flottante. BAV rapide.</td>
+                                <td>Examen ophtalmoscopique. <span class="exam">Échographie</span> oculaire si fond œil inaccessible.</td>
+                                <td>Chirurgie (indentation, <span class="treatment">vitrectomie</span>, <span class="treatment">laser</span>).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="urgent">urgence</span> chirurgicale, sinon perte visuelle <span class="warning">irréversible</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-4">
+                                <td class="pathology">Rétinopathie diabétique</td>
+                                <td>Souvent asymptomatique longtemps. BAV progressive tardive. ATCD diabète ancien.</td>
+                                <td>Fond d’œil : microanévrysmes, hémorragies rétiniennes, exsudats, <span class="clinical-sign">néovaisseaux</span>.</td>
+                                <td>Fond d’œil systématique diabétique. <span class="exam">OCT</span> maculaire. <span class="exam">Angiographie</span> <span class="exam">fluorescéine</span>.</td>
+                                <td>Équilibre diabète/HTA. <span class="treatment">Photocoagulation</span> <span class="treatment">laser</span>. Injections <span class="treatment">anti-VEGF</span> si <span class="clinical-sign">œdème</span> maculaire.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : dépistage annuel obligatoire chez diabétique.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-4">
+                                <td class="pathology">Rétinoblastome</td>
+                                <td>Enfant <5 ans, leucocorie (reflet pupillaire blanc), strabisme. ATCD familiaux.</td>
+                                <td>Reflet pupillaire anormal, masse intraoculaire au fond d’œil.</td>
+                                <td>Fond d’œil sous AG. <span class="exam">Échographie</span> oculaire, <span class="exam">IRM</span> orbito-encéphalique. Test génétique (RB1).</td>
+                                <td>Chimiothérapie, <span class="treatment">laser</span>, cryothérapie. Énucléation si avancé.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : leucocorie chez enfant = rétinoblastome jusqu’à preuve contraire.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="dosage osce" data-section="section-4">
+                                <td class="pathology">DMLA (Dégénérescence maculaire liée à l’âge)</td>
+                                <td>Sujet >60 ans, BAV centrale, <span class="clinical-sign">métamorphopsies</span> (lignes droites déformées).</td>
+                                <td>Fond d’œil : <span class="clinical-sign">drusen</span>, altération <span class="anatomy">épithélium pigmentaire</span> (forme sèche), <span class="clinical-sign">néovaisseaux</span> (forme humide).</td>
+                                <td><span class="exam">OCT</span> maculaire. <span class="exam">Angiographie</span> <span class="exam">fluorescéine</span>.</td>
+                                <td>Forme humide : injections <span class="treatment">anti-VEGF</span>. Forme sèche : supplémentation vit. Age-Related Eye Disease Study (AREDS).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer </div><span class="exam">Amsler</span> test (grille) comme outil dépistage patient.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 5: Pathologies du glaucome -->
+            <div class="section" id="section-5">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    5. Pathologies du glaucome
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="warning dosage osce" data-section="section-5">
+                                <td class="pathology">Glaucome chronique à angle ouvert</td>
+                                <td>Souvent asymptomatique longtemps. ATCD familiaux. Facteurs <span class="warning">risque</span> : âge >40 ans, myopie, corticothérapie chronique.</td>
+                                <td><span class="exam">Tonométrie</span> : <span class="exam">PIO</span> augmentée. Fond d’œil : <span class="clinical-sign">excavation</span> <span class="clinical-sign"><span class="anatomy">papille</span></span> optique. <span class="exam">Champ visuel</span> : scotomes périphériques.</td>
+                                <td>Mesure <span class="exam">PIO</span>, <span class="exam">gonioscopie</span>, <span class="exam">champ visuel</span> automatisé, <span class="exam">OCT</span> fibre optique.</td>
+                                <td>Collyres hypotonisants (prostaglandines en 1ère intention). <span class="treatment">Laser</span> trabéculoplastie ou chirurgie si échec.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : important = atteinte périphérique silencieuse → dépistage chez sujets à </div><span class="warning">risque</span>.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-5">
+                                <td class="pathology">Glaucome aigu par fermeture de l’angle</td>
+                                <td>Douleur oculaire <span class="urgent">brutale</span>, baisse acuité, <span class="clinical-sign">halos</span> colorés autour lumières, nausées, vomissements.</td>
+                                <td>Œil rouge, <span class="anatomy">cornée</span> œdémateuse, <span class="clinical-sign">mydriase</span> semi-fixe, <span class="exam">PIO</span> très élevée.</td>
+                                <td><span class="exam">Tonométrie</span> (<span class="exam">PIO</span> >40 mmHg). <span class="exam">Gonioscopie</span> angle fermé.</td>
+                                <td><span class="urgent">Urgence</span> : <span class="treatment">acétazolamide</span> <span class="dosage">IV</span>, mannitol si <span class="warning">sévère</span>, collyres hypotonisants. <span class="treatment">Iridotomie</span> <span class="treatment">laser</span> en prévention récidives.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="urgent">urgence</span> absolue. Mot-clé = douleur + baisse vue <span class="urgent">brutale</span> + nausées.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 6: Pathologies du nerf optique et neuro-ophtalmologie -->
+            <div class="section" id="section-6">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    6. Pathologies du nerf optique et neuro-ophtalmologie
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent warning osce" data-section="section-6">
+                                <td class="pathology">Neuropathie optique ischémique antérieure</td>
+                                <td>Baisse <span class="urgent">brutale</span> acuité, indolore, souvent au réveil. Facteurs <span class="warning">risque</span> : HTA, diabète, SAOS.</td>
+                                <td>Fond d’œil : <span class="clinical-sign"><span class="anatomy">papille</span></span> pâle, œdématiée. Déficit <span class="exam">champ visuel</span> altitudinal.</td>
+                                <td><span class="exam">OCT</span> <span class="anatomy">nerf optique</span>. Bilan vasculaire (TA, glycémie, lipides).</td>
+                                <td>Pas de traitement spécifique. Contrôle facteurs <span class="warning">risque</span>. Corticoïdes si cause artéritique (Horton).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : différencier formes artéritiques (</div><span class="urgent">urgence</span> corticoïdes) vs non artéritiques.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="osce" data-section="section-6">
+                                <td class="pathology">Névrite optique</td>
+                                <td>Baisse visuelle aiguë douloureuse (surtout mouvements oculaires). Souvent jeune femme. ATCD ou suspicion SEP.</td>
+                                <td>Fond d’œil : <span class="clinical-sign"><span class="anatomy">papille</span></span> normale (forme rétrobulbaire) ou <span class="clinical-sign">œdème</span> (forme papillite). Dyschromatopsie rouge-vert. <span class="clinical-sign">RAPD</span> (<span class="clinical-sign">Marcus Gunn</span>).</td>
+                                <td><span class="exam">IRM</span> orbito-encéphalique (plaques démyélinisation). Potentiels évoqués visuels. Bilan SEP.</td>
+                                <td>Corticoïdes <span class="dosage">IV</span> (méthylprednisolone). PEC SEP si confirmée.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : baisse visuelle + douleur oculaire + jeune femme = SEP jusqu’à preuve contraire.</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 7: Traumatologie oculaire -->
+            <div class="section" id="section-7">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    7. Traumatologie oculaire
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent dosage osce" data-section="section-7">
+                                <td class="pathology">Brûlure chimique oculaire</td>
+                                <td>Projection produit acide ou base (ménage, industrie, bricolage). Douleur, baisse <span class="exam">acuité visuelle</span>, <span class="clinical-sign">photophobie</span>.</td>
+                                <td>Œil rouge, chémosis, opacification <span class="anatomy">cornée</span>. Nécrose <span class="anatomy">conjonctive</span> possible.</td>
+                                <td>Mesure pH conjonctival. Examen à la <span class="exam">fluorescéine</span> après irrigation abondante.</td>
+                                <td>Irrigation immédiate abondante (≥30 min) avant tout examen. Retrait corps étranger. Collyres <span class="treatment">ATB</span>, corticoïdes topiques ± greffe amniotique.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : phrase clé = rincer avant tout examen.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent osce" data-section="section-7">
+                                <td class="pathology">Plaie pénétrante du globe oculaire</td>
+                                <td>Traumatisme direct (métallurgie, arme blanche, projectile). Douleur, baisse <span class="urgent">brutale</span> <span class="exam">acuité visuelle</span>.</td>
+                                <td>Œil douloureux, hypotonie, plaie sclérale/cornéenne, <span class="clinical-sign">hémorragie</span> <span class="anatomy">chambre antérieure</span>, <span class="anatomy">iris</span> irrégulier.</td>
+                                <td><span class="exam">Scanner</span> orbito-cérébral sans injection. Pas de pression oculaire ni de fond d’œil.</td>
+                                <td>Protection œil (coque rigide). <span class="treatment">ATB</span> <span class="dosage">IV</span>. Chirurgie urgente spécialisée.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : toujours citer = ne </div><span class="warning">jamais</span> comprimer l’œil.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 8: Urgences ophtalmologiques générales -->
+            <div class="section" id="section-8">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    8. Urgences ophtalmologiques générales
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent osce" data-section="section-8">
+                                <td class="pathology"><span class="clinical-sign">Hémorragie</span> intravitréenne</td>
+                                <td>Baisse <span class="urgent">brutale</span> <span class="exam">acuité visuelle</span>, <span class="clinical-sign">myodésopsies</span>, voile noir. ATCD diabète, trauma.</td>
+                                <td>Fond d’œil inaccessible. Rougeur pupillaire anormale.</td>
+                                <td><span class="exam">Échographie</span> oculaire B. Bilan diabète si rétinopathie.</td>
+                                <td>Repos, tête surélevée. PEC cause (<span class="treatment">laser</span>, <span class="treatment">vitrectomie</span>).</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer </div><span class="exam">échographie</span> B = examen clé.</td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent warning osce" data-section="section-8">
+                                <td class="pathology"><span class="warning">Cécité</span> <span class="urgent">brutale</span> (artérite temporale de Horton)</td>
+                                <td>Sujet >50 ans. Céphalées temporales, claudication mâchoire, douleurs scalp. BAV <span class="urgent">brutale</span>, unilatérale.</td>
+                                <td>Artère temporale indurée, sensible. BAV <span class="warning">sévère</span>. Fond d’œil : pâleur <span class="clinical-sign"><span class="anatomy">papille</span></span>.</td>
+                                <td>VS, CRP élevées. Biopsie artère temporale. <span class="exam">OCT</span> <span class="anatomy">nerf optique</span>.</td>
+                                <td>Corticoïdes <span class="dosage">IV</span> immédiats sans attendre biopsie.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : </div><span class="urgent">urgence</span> vitale et fonctionnelle. Mot-clé = traiter avant confirmer.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Section 9: Pathologies ophtalmologiques complémentaires -->
+            <div class="section" id="section-9">
+                <h2 class="section-title" onclick="toggleSection(this.parentElement)">
+                    9. Pathologies ophtalmologiques complémentaires
+                    <span class="section-count">2 pathologies</span>
+                </h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pathologie</th>
+                                <th>Anamnèse</th>
+                                <th>Examen Physique</th>
+                                <th>Procédures/Examens</th>
+                                <th>Thérapie</th>
+                                <th>Commentaires</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="pathology-row" data-tags="urgent warning osce" data-section="section-9">
+                                <td class="pathology">Rétinopathie du prématuré</td>
+                                <td>Nourrisson prématuré (<32 SA ou <<span class="dosage">1500 g</span>). ATCD oxygénothérapie prolongée. Asymptomatique initialement.</td>
+                                <td>Fond d’œil sous AG : <span class="clinical-sign">néovaisseaux</span> rétiniens périphériques, traction vitréo-rétinienne.</td>
+                                <td>Dépistage systématique fond d’œil chez prématurés à <span class="warning">risque</span> (à partir de 4–6 semaines de vie). Classification internationale (stades 1–5).</td>
+                                <td><span class="treatment">Photocoagulation</span> <span class="treatment">laser</span> périphérie rétinienne. Injections <span class="treatment">anti-VEGF</span> intravitréennes dans formes sévères. <span class="treatment">Vitrectomie</span> si décollement <span class="anatomy">rétine</span>.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : citer dépistage systématique chez grands prématurés.</div></td>
+                            </tr>
+                            <tr class="pathology-row" data-tags="urgent osce" data-section="section-9">
+                                <td class="pathology">Rétinopathie hypertensive maligne</td>
+                                <td>HTA <span class="warning">sévère</span> (>220/120 mmHg). Céphalées, baisse <span class="urgent">brutale</span> <span class="exam">acuité visuelle</span>, <span class="clinical-sign">phosphènes</span>.</td>
+                                <td>Fond d’œil : hémorragies diffuses, exsudats cotonneux, <span class="clinical-sign">œdème</span> papillaire, rétrécissement artériel.</td>
+                                <td>TA systématique. Fond d’œil. Bilan retentissement viscéral (rein, cœur, cerveau).</td>
+                                <td><span class="urgent">Urgence</span> hypertensive : baisse progressive TA <span class="dosage">IV</span> (urapidil, nicardipine). Surveillance réa. PEC cause HTA.</td>
+                                <td><div class="osce-tip"><span class="osce-icon">💡</span>OSCE : mot-clé = baisse </div><span class="urgent">brutale</span> acuité + HTA très élevée → <span class="urgent">urgence</span> hypertensive.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+        // Variables globales
+        let viewedPathologies = new Set();
+        let activeFilters = new Set();
+        let startTime = Date.now();
+        let totalPathologies = 26;
+        
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCounter();
+            updateProgress();
+            
+            // Mise à jour du temps passé
+            setInterval(updateTimeSpent, 60000);
+            
+            // Observer pour marquer les pathologies comme vues
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const row = entry.target;
+                        if (row.classList.contains('pathology-row')) {
+                            viewedPathologies.add(row);
+                            updateProgress();
+                        }
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                observer.observe(row);
+            });
+        });
+        
+        // Fonction de recherche améliorée
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const sections = document.querySelectorAll('.section');
+            let visibleCount = 0;
+            
+            sections.forEach(section => {
+                const rows = section.querySelectorAll('.pathology-row');
+                let sectionHasVisible = false;
+                
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                    const matchesFilters = activeFilters.size === 0 || 
+                        Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                    
+                    if (matchesSearch && matchesFilters) {
+                        row.style.display = '';
+                        sectionHasVisible = true;
+                        visibleCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+                
+                // Masquer la section si aucune pathologie visible
+                section.style.display = sectionHasVisible ? '' : 'none';
+            });
+            
+            updateCounter(visibleCount);
+        });
+        
+        // Toggle section (expand/collapse)
+        function toggleSection(section) {
+            section.classList.toggle('collapsed');
+        }
+        
+        // Fonction pour tout déplier
+        function expandAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('collapsed');
+            });
+        }
+        
+        // Fonction pour tout replier
+        function collapseAll() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.add('collapsed');
+            });
+        }
+        
+        // Toggle filter
+        function toggleFilter(filterElement) {
+            const tag = filterElement.dataset.tag;
+            filterElement.classList.toggle('active');
+            
+            if (activeFilters.has(tag)) {
+                activeFilters.delete(tag);
+            } else {
+                activeFilters.add(tag);
+            }
+            
+            applyFilters();
+        }
+        
+        // Appliquer les filtres
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const sectionFilter = document.getElementById('sectionSelect').value;
+            const rows = document.querySelectorAll('.pathology-row');
+            let visibleCount = 0;
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                const matchesSearch = searchTerm === '' || text.includes(searchTerm);
+                const matchesSection = sectionFilter === '' || row.dataset.section === sectionFilter;
+                const matchesTags = activeFilters.size === 0 || 
+                    Array.from(activeFilters).some(filter => row.dataset.tags.includes(filter));
+                
+                if (matchesSearch && matchesSection && matchesTags) {
+                    row.style.display = '';
+                    row.closest('.section').style.display = '';
+                    visibleCount++;
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+            
+            // Masquer les sections vides
+            document.querySelectorAll('.section').forEach(section => {
+                const visibleRows = section.querySelectorAll('.pathology-row:not([style*="display: none"])');
+                if (visibleRows.length === 0) {
+                    section.style.display = 'none';
+                }
+            });
+            
+            updateCounter(visibleCount);
+        }
+        
+        // Filtrer par section
+        function filterBySection() {
+            applyFilters();
+        }
+        
+        // Réinitialiser les filtres
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('sectionSelect').value = '';
+            document.querySelectorAll('.filter-tag').forEach(tag => {
+                tag.classList.remove('active');
+            });
+            activeFilters.clear();
+            
+            // Afficher toutes les sections et pathologies
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = '';
+                section.classList.remove('collapsed');
+            });
+            document.querySelectorAll('.pathology-row').forEach(row => {
+                row.style.display = '';
+            });
+            
+            updateCounter(totalPathologies);
+        }
+        
+        // Mettre à jour le compteur
+        function updateCounter(count = null) {
+            if (count === null) {
+                count = document.querySelectorAll('.pathology-row:not([style*="display: none"])').length;
+            }
+            document.getElementById('visibleCount').textContent = count;
+        }
+        
+        // Mettre à jour la progression
+        function updateProgress() {
+            const viewed = viewedPathologies.size;
+            const remaining = totalPathologies - viewed;
+            const percent = Math.round((viewed / totalPathologies) * 100);
+            
+            document.getElementById('viewedCount').textContent = viewed;
+            document.getElementById('remainingCount').textContent = remaining;
+            document.getElementById('progressPercent').textContent = percent + '%';
+            document.getElementById('progressFill').style.width = percent + '%';
+            document.getElementById('progressFill').textContent = percent + '%';
+        }
+        
+        // Mettre à jour le temps passé
+        function updateTimeSpent() {
+            const minutes = Math.floor((Date.now() - startTime) / 60000);
+            const hours = Math.floor(minutes / 60);
+            const mins = minutes % 60;
+            const timeStr = hours > 0 ? `${hours}h ${mins}m` : `${mins}m`;
+            document.getElementById('timeSpent').textContent = timeStr;
+        }
+        
+        // Raccourcis clavier
+        document.addEventListener('keydown', function(e) {
+            // Ctrl/Cmd + F pour focus sur recherche
+            if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                e.preventDefault();
+                document.getElementById('searchInput').focus();
+            }
+            
+            // Escape pour réinitialiser les filtres
+            if (e.key === 'Escape') {
+                resetFilters();
+            }
+            
+            // Alt + E pour tout déplier
+            if (e.altKey && e.key === 'e') {
+                e.preventDefault();
+                expandAll();
+            }
+            
+            // Alt + C pour tout replier
+            if (e.altKey && e.key === 'c') {
+                e.preventDefault();
+                collapseAll();
+            }
+        });
+    </script>
+</body>
+</html>

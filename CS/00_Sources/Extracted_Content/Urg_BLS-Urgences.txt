@@ -1,0 +1,654 @@
+BLS
+Table des matières
+1) BLS..................................................................................................................................................1
+1.1) Généralités :..............................................................................................................................1
+1.2) Chaîne de survie.......................................................................................................................2
+1.3) Que faire...................................................................................................................................2
+1. Lieu du drame.........................................................................................................................3
+2. AVPU : Conscience................................................................................................................3
+3. Respiration..............................................................................................................................3
+4. Si la respiration est normale : PLS..........................................................................................4
+5. S'il n'y a pas de respiration (attention au Gasping) : prise de pouls........................................4
+1.4) Autre.........................................................................................................................................6
+1.5) Théorie......................................................................................................................................6
+2) Aux urgences....................................................................................................................................7
+2.1) ABCDE primaire, secondaire et évaluation complémentaire...................................................7
+2.2) Urgences dans le cadre de douleurs thoraciques ou de dyspnée..............................................9
+2.2) Urgences dans le cadre de douleurs abdominales..................................................................10
+
+1) BLS
+1.1) Généralités :
+Nourrisson: 1 mois - 1 an
+Enfant : 1 an - 8 ans
+DEA = Défibrillateur Externe Automatique
+VAS = Voies Aériennes Supérieures
+MCE = Massage Cardiaque Externe
+AESP = Activité Électrique Sans Pouls = asystolie
+Gasp = respiration superficielle qui ne fournit pas assez d'O2 à l'organisme et doit être considérée
+comme un arrêt respiratoire, souvent précurseur d'un arrêt cardio-respiratoire (= ACR). On retrouve
+même ces gasps dans 40% des ACR précoces !
+
+ECOS : très souvent, on retrouve une victime au milieu d'un passage piéton = tout de suite
+l'enlever ! Une fois la victime sécurisée, on demande à l'expert d'appeler les secours, l'expert ne
+pouvant nous aider par la suite (= pas de relai possible...). On effectue ensuite un BLS complet (=
+masque présent dans la salle) autant de fois qu'il le faut, jusqu'à ce que l'ambulance arrive avec le
+DEA. On doit ensuite utiliser le DEA et crier 'QUE TOUT LE MONDE S'ÉCARTE' (alors qu'il n'y
+a personne) avant chaque choc
+
+Page 1 sur 11
+
+1.2) Chaîne de survie
+1) Chaîne de survie pour l'adulte en cas d’arrêt cardio-respiratoire (surtout en cas de fibrillation
+ventriculaire (80% des arrêts cardio-respiratoires) ; l’asystolie est une exception, où on a une
+activité électrique sans pouls (souvent dans les chocs (anaphylactique, septique, etc.)), qui n'est pas
+chocable => il faut continuer à masser jusqu'à ce que la victime devienne chocable ou qu'elle se
+réveille) :
+–
+
+1. Appeler les secours (après s'être assuré d'être en présence d'un ACR ou d'un arrêt
+respiratoire)
+
+–
+
+2. Massage cardiaque
+
+–
+
+3. Défibrillation
+
+–
+
+4. Soins avancés (= ACLS)
+
+–
+
+5. Rééducation
+
+CAB
+C = Circulation : Massage cardiaque
+A = Airways : Libérer les voies respiratoires
+B = Breathing : Ventiler
+(D : Defibrillation ou Disability (si SNC touché))
+(E : Exposure, Environment)
+2) Chaîne de survie pour l'enfant (et le nourrisson j'imagine) en cas d’arrêt cardiaque (surtout suite
+à une hypoxie résultant de l’obstruction des voies respiratoires (80%) = comme ils sont souvent
+atteints par des problèmes d'hypoxie, la ventilation est primordiale dans leur cas (mais tant qu'un
+masque n'est pas disponible, le massage est continu) !) :
+–
+
+–
+
+Si on est seul :
+–
+
+1. Ventilation/massage pendant ~ 2 minutes (= 5 cycles)
+
+–
+
+2. Appeler les secours
+
+–
+
+3. Massage/défibrillation (et ventilation ?)
+
+Si d'autres personnes sont présentes :
+–
+
+1. Ventilation/massage et appeler les secours
+
+–
+
+2. Massage/défibrillation (et ventilation ?)
+
+Note : cette chaîne a été dite pendant le cours en groupe et est retrouvée sur internet, mais n'est
+nulle part dans les cours théoriques ! Cependant, ce schéma est totalement logique, car si l'ACR
+provient d'un problème de ventilation, il est normal de d'abord essayer de ventiler, puis appeler le
+DEA !
+
+1.3) Que faire
+Résumé :
+Page 2 sur 11
+
+–
+
+1) Sécuriser les lieux
+
+–
+
+2) S'assurer de l'état de conscience de la personne et si elle respire
+
+–
+
+3) Appeler à l'aide, s'organiser et appeler le 49 144. Si on est seul, appeler directement le
+49 144
+
+–
+
+4) Prendre le pouls de la personne
+
+–
+
+5) PLS si respire, insuffler toutes les 5-6 secondes si respire pas mais pouls, CAB si
+respire pas et pas de pouls
+
+1. Lieu du drame
+Situation, Sécurité, Scène (Habits de protection)
+Toujours penser à la fois à sa sécurité et à la sécurité de la victime. Par exemple, en cas d'accident
+de la route, il ne faut pas être le prochain !
+Règle : si plus d'une personne se retrouvent inconscientes au même endroit, suspecter un problème
+environnemental (ex. : intoxication au CO dans une caravane) et transporter les victimes hors de cet
+endroit
+2. AVPU : Conscience
+Alerte
+Verbal
+Pain (pincer ses trapèzes, râper son sternum avec ses phalanges, etc.)
+Unresponsive
+S'il est bien inconscient : il faut s’assurer que la respiration soit normale (15/min), si elle est agonale
+(gasping), cela est souvent précurseur d’un arrêt cardiaque
+3. Respiration
+(On peut directement enlever les habits qui masquent son torse pour mieux voir s'il respire)
+Toujours commencer par regarder dans la bouche si on remarque un obstacle
+Respiration : on commence par effectuer un « chin-lift » (attention aux lésions cervicales !) : faire
+basculer la tête de la victime en arrière (permet de dégager la langue et d'ouvrir les voies aériennes).
+Pour ce faire, mettre la paume de l'une de ses mains sur le front de la personne et utiliser le majeur
+et l'index de l'autre pour passer sous le menton. Il ne reste plus qu'à gentiment pivoter la tête et
+garder ses deux mains comme ça pendant toute la manoeuvre.
+On peut maintenant se pencher très près de la bouche de la personne (permet de ressentir son
+souffle sur la joue ou souffle chaud sur la nuque), tout en observant attentivement le thorax
+(idéalement nu). Comme il faut garder ses deux mains sur la tête de la personne pour la maintenir,
+on ne peut pas checker la respiration en même temps que le pouls (en fait il est noté dans
+l’algorithme CAB et les cours qu'on doit checker la respiration, puis le pouls, mais pas les deux en
+même temps visiblement)
+Le check de la respiration, tout comme le check du pouls (vient après), doit être fait pendant
+maximum 10s et ne peut pas être fait en même temps que le check du pouls
+
+Page 3 sur 11
+
+4. Si la respiration est normale : PLS
+Femme enceinte sur la gauche, sinon on comprime la veine cave
+Les victimes réanimées doivent aussi être mises en PLS en attendant l'arrivée des secours (= il faut
+quand même appeler les secours !)
+Dans tous les cas, il faut régulièrement vérifier le pouls des personnes mises en PLS
+5. S'il n'y a pas de respiration (attention au Gasping) : prise de pouls
+Prise de pouls : Pouls carotide chez l’enfant et l’adulte (éventuellement : fémoral en hôpital) /
+Nourrisson : pouls brachial (exception chez le nourrisson : si sa fréquence cardiaque est inférieure à
+60 bpm et qu'il est en arrêt respiratoire, considérer qu'il fait un ACR). On ne prendra jamais le pouls
+radial, le pouls des artères plus grosses étant garanti et ne pouvant être confondu avec son propre
+pouls (« Une fois qu'on a couru dans les escalier et avec l'adrénaline, tout a un pouls, même les
+murs »).
+La prise de pouls doit être effectuée pendant maximum 10s
+Dans tous les cas, toujours (1) se protéger soi-même (= ne pas se faire infecter), (2) demander de
+l'aide (= des autres personnes sur le lieu du drame) et un masque, (3) s'organiser avec les autres
+personnes (ex. : expliquer quoi dire pour l'appel et demander à recevoir une confirmation une fois
+l'appel passé ; demander à quelqu'un de se poster où vont arriver les secours pour les guider jusqu'à
+nous ; expliquer qui se relaie et comment ; etc.) et (4) appeler les secours.
+Contenu du message pour les secours : qui, quoi, où, état de conscience et DEA d'urgence (+
+masque à oxygène).
+Si la personne ne respire pas mais a un pouls :
+–
+
+La personne fait un 'simple' arrêt respiratoire : il faut quand même appeler les secours,
+lui donner une ventilation toutes les 5-6 secondes et recontrôler le pouls toutes les deux
+minutes.
+Cette situation se trouve souvent chez les drogués.
+
+Si la personne ne respire pas et n'a pas de pouls :
+–
+
+CAB
+
+C : Massage cardiaque
+Enfoncer 5 cm, puis RELÂCHER ; 1/3 du thorax chez les enfants et nouveaux-nés
+Mettre la personne sur un plan dur (pas de matelas)
+110 compressions/min ; 2 doigts au-dessus du processus xiphoïde
+On verrouille le haut du corps pour pousser avec le poids du corps, sans plier les coudes
+A : Libérer les voies respiratoires
+Regarder rapidement dans la bouche s'il n'y a pas d'obstacle à la respiration
+
+Page 4 sur 11
+
+« Chin-lift » : cette manoeuvre est simple à effectuer, mais à absolument éviter en cas de lésion
+cervicale ou de dommage au rachis !
+Manoeuvre d'Esmach : en cas de suspicion d'un trauma touchant le rachis, on peut subluxer la
+mâchoire pour permettre le passage de l’air. Il est important de conserver l'alignement tête-coutronc pendant la manoeuvre
+Poser un linge sous les nourrissons au niveau des omoplates pour soulever sa tête (disproportionnée
+par rapport à leur petit corps !)
+B : Ventilation
+3 doigts sous la mâchoire, 2 sur le masque. Cette configuration se fait si la personne qui masse est
+seule ; autrement, il est plus facile et efficace d'utiliser le système « à 4 mains » (limite fortement
+les chances de fuite, car appliquer un masque à une main est très compliqué), où une autre personne
+verrouille le masque en permanence (la victime ne respire de toute façon pas, donc pas de
+problème) sur le visage de la victime, puis c'est le masseur qui s'occupe de la ventilation
+2 insufflations de courte durée (~ 1s) ; pas trop puissantes (sinon l'air rentre dans l'estomac et
+renforce les chances que la victime vomisse) ; adapter à la taille du patient (nourrisson ; pour les
+enfants, s'il n'est pas possible d'avoir un masque adapté à leur taille, il suffit de retourner un masque
+pour adulte) ; s’assurer que le thorax se soulève de quelques centimètres (pour bien le voir, il est
+toujours bien de mettre le thorax de la victime à nu, ce qui sera aussi indispensable pour coller les
+patches du défibrillateur !)
+(Si bouche à nez : couvrir la bouche pour éviter les fuites)
+(Chez le nourrisson : prendre le nez et la bouche)
+(Ces deux méthodes sont désormais interdites par la loi et il est obligatoire d'utiliser un masque
+pour la ventilation)
+Compressions/insufflations :
+Adulte : 30/2
+Enfant : 15/2 ; si on est seul : 30/2. Le massage cardiaque n'est fait qu'avec un seul bras
+Nourrisson : 2 doigts ou avec les pouces : 15/2 ; si on est seul : 30/2
+Tant qu'un masque n'est pas disponible, le massage est continu
+Idéalement, il faudrait relayer les masseurs toutes les 2 minutes (si pas de masque disponible) ou
+tous les 5 cycles. Ce temps équivaut aussi au délai entre deux chocs du défibrillateur
+Défibrillation :
+Masser pendant les explications, pendant la charge (pas pendant l’analyse) et directement après la
+charge ; coller les patches pendant que le masseur masse
+Adulte : Antéro-latéral
+Enfant : Antéro-postérieur
+Page 5 sur 11
+
+Sécher les patients mouillés, car l’eau n’est pas conductrice
+Attention à la pilosité : Raser ou Décoller/Recoller
+Attention aux patches médicamenteux
+Une fois que la victime commence à respirer et que son coeur recommence à battre, continuer
+encore ~ 1 minute, ce qui est plus ou moins le temps qu'elle mettra à redevenir consciente (indique
+que le cerveau est à nouveau bien perfusé et qu'on peut arrêter de masser)
+
+1.4) Autre
+Obstruction des voies aériennes dès 1 an :
+Debout : manœuvre de Heimlich = poing vers le nombril, faire un geste brusque vers le haut
+Couché : compression thoracique (= comme un massage cardiaque pour adulte)
+Nourrisson :
+Conscient : manoeuvre de Mofenson (en 2 parties) = prendre le nourrisson sur le dos, lui tenir la
+tête, 5 compressions thoraciques, puis le retourner sur le ventre, l'appuyer contre sa cuisse et tenir sa
+tête (en tenant sa mâchoire, PAS son cou) avec les doigts en V, et taper 5 fois entre les omoplates
+avec la paume de sa main
+Inconscient : compression thoracique (= comme un massage cardiaque pour un nourrisson)
+
+1.5) Théorie
+Dénominateur commun de toutes les causes immédiates de menace vitale (= arrêt cardiaque,
+hémorragie, étouffement, mort cérébrale, etc.) : O2. Le but de la réanimation est donc de maintenir
+une perfusion cérébrale continue, sinon mort cérébrale
+Chances de survie en cas d'arrêt cardiaque : baissent de 10% chaque minute
+Dans le C de Circulation, on reconnaît les états de choc (hémorragiques ou non-hémorragiques),
+caractérisés par différents aspects cliniques :
+–
+
+tachycardie
+
+–
+
+vasoconstriction
+
+–
+
+diminution de la pression artérielle
+
+–
+
+pouls filant
+
+Tous ces mécanismes sont compensatoires de la perte du volume sanguin occasionnée par le choc
+(Pour l'ACLS, le patient reçoit une voie IV avec un shot d'adrénaline tous les 2 cycles et de la
+cordaronnne (= anti-arythmique))
+
+Page 6 sur 11
+
+Éthique : appliquer les principes de bienfaisance (= faire tout son possible), de non-malfaisance (=
+renoncer aux mesures de réanimations si elles feraient souffrir la victime) et de respect de l'autodétermination (= si la victime ne souhaite pas être réanimée (directives anticipées, représentants
+légaux, représentants désignés par le patient ou volonté présumée), respecter ce choix. En aucun cas
+l'estimation du soignant concernant les qualités de vie de la victime ne doit primer sur la volonté de
+la victime)
+
+2) Aux urgences
+2.1) ABCDE primaire, secondaire et évaluation complémentaire
+Remarque 1 : il existe une exception à l'ABCDE qui est l'arrêt cardiaque ; dans ce cas là, on fait
+seulement un CAB !
+Remarque 2 : la clé de toutes les urgences se cache dans la réévaluation fréquente des
+patients !
+A = Airways + Spine : s'assurer que la personne a les voies aériennes bien dégagées. Repérer les
+obstacles comme du sang, un corps étranger, des résidus alimentaires, un coma, etc. et faire
+attention aux lésions cervicales !
+Exemples de mesures primaires : libérer les VA avec une canule de Guedel, donner de l'O2 et
+mettre une minerve
+B = Breathing : s'assurer que la personne arrive à respirer. Repérer les pneumothorax, BPCO,
+asthme, obstruction trachéales, OAP, etc.
+Exemples de mesures primaires : FR, inspection, auscultation et oxymétrie
+Exemples de mesures secondaires : RX thorax
+C = Circulation : s'assurer que la personne a assez de sang (hémorragies internes qui saignent
+beaucoup et qui sont cachées !) et/ou qu'il circule correctement. Repérer les chocs hémorragiques
+(sang qui s'accumule à l'intérieur (sauf dans le cerveau !) ou qui se perd à l'extérieur) ou nonhémorragiques (pneumothorax, septique, anaphylactique, etc.).
+Exemples de mesures primaires : FC, TA aux 2 bras, T°, perfusion périphérique (= saturation), mise
+en place de 2 voies veineuses, cristalloïde chaud (soluté de perfusion contenant des particules de
+petite taille (sels minéraux et glucose) qui sortent rapidement de la circulation pour aller dans les
+tissus)
+Exemples de mesures secondaires : réévaluer la TA aux 2 bras, ECG (12 pistes pour nombre
+d’extra-systoles ventriculaires (ESV) et voir si abaissement de ST), laboratoire et médicaments
+éventuels
+D = Disability (ou Defibrillation dans les arrêts cardiaques) : touche tous les problèmes de l'état de
+conscience, surtout avec les comas (traumatiques (les plus fréquents), métaboliques (Na+, Ca2+,
+O2, etc.) et toxiques (OH, CO, etc.)) et les AVC. On utilise le score de Glasgow (qui est maximal (=
+15) si la personne est consciente, répond et nous suit du regard (= 3 composantes du score de
+Glasgow)), un score ≤ 8 indiquant un coma.
+Page 7 sur 11
+
+Exemples de mesures primaires : GCS et pupilles
+Exemples de mesures secondaires : réévaluer le GCS, défibrillateur prêt, examen neurologique
+ciblé, RX cervicales, (CT scan et EEG)
+E = Exposure/Environment : température, gaz, etc. Également inspection complète du patient avec
+le « log-roll »
+Exemples de mesures primaires : prévention/traitement de l’hypothermie
+Exemples de mesures secondaires : inspection complète du patient (log-roll souvent impossible en
+ABCDE primaire car il faut une surveillance et vérifier le déplacement possible du patient),
+anamnèse actuelle, ATCD, contexte et allergies (secondaires, car au début on essaie de sauver le
+patient avant tout !)
+
+Choc hémorragique :
+
+Séquence :
+–
+
+1) ABCDE primaire : dès l'arrivée du patient aux urgences, on fait l'ABCDE une fois, de
+manière superficielle, pour rétablir les fonctions vitales le plus rapidement possible
+
+–
+
+2) ABCDE secondaire : une fois l'ABCDE primaire fait, on le refait, mais cette fois-ci de
+manière plus approfondie, en recherchant les problèmes à chaque étape avec des
+examens ciblés (RX et/ou labo)
+
+–
+
+3) Évaluation/examen complet secondaire : on recherche ici tous les autres problèmes
+« secondaires » qui ne sont pas au premier plan et qu'on aurait pu rater. On utilise ici des
+examens complémentaires comme le CT ou l'EEG. Ces examens complémentaires
+auront donc pour but de rechercher les désordres traumatiques, toxiques ou médicaux
+menaçant la vie
+
+Page 8 sur 11
+
+2.2) Urgences dans le cadre de douleurs thoraciques ou de dyspnée
+Remarque 1 : en cas de dyspnée ou de douleurs thoraciques, un patient qui répond lorsqu'on lui
+parle indique que l'ABCD primaire est ok (ne correspond pas avec l'ABCDE primaire défini
+avant...). De plus, l'ABCD primaire permet de grader les urgences en fonction de leur gravité !
+Remarque 2 : si le patient a un CO2 très élevé mais un O2 très bas, il faut lui donner de l'O2, car
+c'est l'hypoxémie et non l'hypercapnie qui tue !
+Séquence pour une douleur évoquant un infarctus :
+–
+
+1) ABCD1 (Défibrillation, si nécessaire) primaire : dès l'arrivée du patient aux urgences,
+superficiel, sans aucun examen (contrairement à avant...). Si le patient répond, l'ABCD
+primaire est ok
+
+–
+
+2) ABCD (Diagnostic différentiels) secondaire : refaire l'ABCD, cette fois-ci plus en
+profondeur et commencer à envisager les DD
+
+–
+
+3) ACCD :
+–
+
+Anamnèse : rapide et centrée sur le problème
+
+–
+
+Caractérisation de la plainte (et recherche des FRCV)
+
+–
+
+examens Complémentaires (ex. : ECG si anamnèse suggestive d'infarctus ou
+d'angor)
+
+–
+
+soulagement de la Douleur (ex. : pour l'infarctus, on a MONA (Morphine, O2,
+NO (si TA > 100mmHg) et Aspirine)
+
+–
+
+4) Status : recherche de signes de défaillance cardiaque : turgescence jugulaire, reflux
+hépato-jugulaire, auscultation cardiaque (B3, gallop, souffle) et pulmonaire (râle de stase
+=> OAP). Le dépistage d'une insuffisance cardiaque est indispensable pour la
+coronarographie, car comme le patient sera à plat, une IC risque de provoquer une
+orthopnée et un possible état de choc ! Le status ne sert donc qu'à préparer le patient à la
+coronarographie
+
+–
+
+5) Anticoagulation et antiaggrégation et coronarographie ou thrombolyse (= SI)
+
+–
+
+6) Appeler le cardiologue
+
+Si au cours de toute cette chaîne le patient fait soudainement un arrêt cardiaque (pas pouls et
+gasp/apnée et absence de réponse aux stimuli = choses à faire avant d'appeler le 144), on bascule
+immédiatement dans le CABD (Défibrillation) et on demande le Déchoc. Une fois le CABD fait et
+le patient sauvé, on suit la chaîne avec un ABCD secondaire (puis ACCD, puis etc.)
+Séquence pour une dyspnée (moins critique et urgente que pour l'infarctus) :
+–
+
+1) Se présenter et exposer la situation
+
+–
+
+2) ABCD (Défibrillation, si nécessaire) primaire : superficiel, sans aucun examen
+(contrairement à avant...). Si le patient répond, l'ABCD primaire est ok
+
+–
+
+3) Anamnèse ciblée
+
+–
+
+4) ABCD (Diagnostic différentiels) secondaire : refaire l'ABCD, cette fois-ci plus en
+
+1 (Souligné juste pour ne pas oublier le D)
+
+Page 9 sur 11
+
+profondeur et commencer à envisager les DD ; pour une dyspnée aux urgences, on a le
+plus souvent (dans l'ordre de fréquence) : OAP d'origine cardiaque, pneumonies,
+embolies pulmonaires, pneumothorax, décompensation asthmatique, pleurésie
+–
+
+5) Status cardio-pulmonaire
+
+–
+
+6) Examens complémentaires en fonction du status
+
+2.2) Urgences dans le cadre de douleurs abdominales
+Séquence en l'absence de traumatisme :
+–
+
+–
+
+–
+
+–
+
+–
+
+1) Signes d'alarme (= checker les paramètres vitaux)
+–
+
+FR > 20/min ou saturation < 90%
+
+–
+
+FC > 100/min ou < 50/min
+
+–
+
+TA < 90/60mmHg
+
+–
+
+T° > 38°C ou < 36°C
+
+–
+
+GSC < 12
+
+2) Anamnèse ciblée (jamais de CT avant l'anamnèse !)
+–
+
+État général
+
+–
+
+Nausée/vomissements/dysphagies
+
+–
+
+Inappétence/perte pondérale
+
+–
+
+Soif
+
+–
+
+Modification du transit
+
+–
+
+Accompagnée de symptôme urinaire ou gynécologique
+
+–
+
+ATCD chirurgicaux
+
+3) Examen clinique (identique au status abdominal)
+–
+
+(Inspection (du pubis aux tétons) : ventre ballonné : les 6 G : Graisse, Gaga (=
+FOSS), Gaz, Grossesse, Grandes eaux (= liquide libre), Grosse tumeur)
+
+–
+
+(Palpation : recherche systématique d'une hernie cachée)
+
+–
+
+Lors d'une douleur dans le bassin, la palpation abdominale est le plus souvent
+sans particularités !
+
+4) Examens paracliniques
+–
+
+Toujours : test de grossesse, FSS, glucose, CRP, Na+, K+, créatinine
+
+–
+
+Selon suspicions : tests hépatiques et pancréatiques, stix urinaire, US, RX
+debout, RX couché, CT, gazométrie (surtout si choc ; recherche acide lactique >
+2mM)
+
+5) Traitement initial : oxygénation, analgésie et hydratation
+
+Séquence en cas de traumatisme :
+Page 10 sur 11
+
+–
+
+1) Anamnèse
+
+–
+
+2) ABC (Intubation (= A) ? | Drain thoracique (= B) ? | Mise en place de voies veineuses
+± transfusion (= C))
+
+–
+
+3) Examens complémentaires : gazométrie, US, RX, CT
+
+Facteurs confondants :
+–
+
+Âge avancé
+
+–
+
+Traitement par corticostéroïdes
+
+–
+
+Diabète
+
+–
+
+VIH non-traité
+
+–
+
+GSC bas
+
+–
+
+Antalgie profonde
+
+–
+
+Ascite
+
+Différents types de douleurs et leurs DD :
+–
+
+–
+
+–
+
+1) Agonique (= très rapidement à 10/10 et se maintient) :
+–
+
+Rupture d'anévrisme
+
+–
+
+Appendicite phlegmoneuse
+
+–
+
+Perforation (gastrique)
+
+–
+
+Torsion testiculaire ou ovarienne
+
+2) Constante et progressive
+–
+
+Diverticulite
+
+–
+
+Pyélonéphrite
+
+–
+
+Ischémie mésentérique
+
+–
+
+Cholécystite (≠ coliques biliaires !)
+
+3) Variable (= les coliques)
+–
+
+Coliques digestives
+
+–
+
+Coliques néphrétiques
+
+–
+
+Coliques biliaires
+
+Une douleur sous-diaphragmatique (ex. : vésicule biliaire ou rate) peut se répercuter dans les
+épaules ; une douleur dans le dos peut venir d'une pancréatite ou d'une dissection d’anévrisme de
+l'aorte ; une douleur dans le rétropéritoire en FIG ou FID peut se répercuter dans la hanche
+
+Page 11 sur 11
+
+

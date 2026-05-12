@@ -1,0 +1,539 @@
+COURS PRATIQUES - SÉMIOLOGIE GYNÉCOLOGIQUE
+
+THÈME DU SÉMINAIRE : Anamnèse et examen clinique gynécologique
+OBJECTIFS :
+● Savoir mener une anamnèse gynécologique complète et inclusive comprenant :
+○ L’investigation d’une plainte gynécologique
+○ La récolte des antécédents généraux et gynéco-obstétricaux
+● Connaître l'anatomie de la région génitale
+● Connaître le déroulement d’un examen gynécologique de routine : inspection génitale,
+examen au spéculum, toucher vaginal, y compris l’exploration d’une
+plainte spécifique
+● Savoir comment effectuer les différents prélèvements au niveau génital
+
+L’examen gynécologique fait partie de la formation d'un·e étudiant·e en médecine. L’objectif de
+l’enseignement de l'examen physique génital est de permettre à l’étudiant·e de distinguer le
+physiologique du pathologique. Toutefois, il faut comprendre que l’examen gynécologique touche la
+sphère intime de la/du patient·e* et est un examen parfois invasif ; il requiert donc un consentement
+explicite oral, consentement qui doit être renouvelé pour les différentes partie de l’examen
+(inspection, toucher, spéculum).
+Lors de ces entraînements, un examen sur mannequin sera réalisé. Les mannequins sont basés sur un
+modèle anatomique unique, qui n’est pas représentatif de la variabilité anatomique dans la
+population. Celui-ci permet l'apprentissage des habiletés procédurales et la familiarisation avec
+l'examen gynécologique réel ainsi que la reconnaissance de l’anatomie et des repères appropriés et
+permettent de s'entraîner aux gestes à effectuer pour un examen clinique gynécologique.
+*Inclusivité : l’anamnèse gynécologique concerne toutes les personnes avec des organes génitaux
+internes et / ou externes dits féminins, quel que soit leur identité de genre. Cela inclut donc des
+femmes cis, des femmes trans, des hommes trans ainsi que des personnes non-binaires (voir lexique
+si ces notions ne vous sont pas familières).
+
+INTRODUCTION
+Comment aborder la sexualité en consultation ? Quelques conseils :
+Avant la consultation
+• Ayez une attitude réflexive : Avant tout, évaluez votre propre aisance à discuter de sexualité
+avec divers groupes de patient·e·s et identifiez tout préjugé que vous pourriez avoir. Si vous
+n’êtes pas à l’aise de parler de sexe et de sexualité, votre patient·e le sera aussi.
+Au début de la consultation
+• Rappeler le cadre de confidentialité et celui de non-jugement. Pour se faire, signaler
+ouvertement son attitude non discriminante par une annonce d’inclusivité est une solution.
+(p.ex : « Ici, on accueille toutes les personnes, quels que soient leurs origines, leurs religions,
+leurs orientations sexuelles ou affectives ou leurs identités de genre. »)
+• Mettez votre patient·e à l’aise en établissant une relation (empathie, respect, ouverture,
+inclusivité) avant de poser des questions intimes.
+• Demandez les pronoms ou la terminologie préférée lorsque vous parlez à un·e patient·e
+transgenre ou non-binaire. Utilisez ces pronoms et soutenez l’identité de genre actuelle,
+quelle que soit son anatomie.
+1
+
+•
+Avant d’aborder l’anamnèse sexuelle dans l’entretien
+• Contextualisez la raison qui vous pousse à aborder la sexualité. Vous pouvez p.ex :
+o Utilisez des déclarations générales pour normaliser les sujets dont vous discutez,
+cela aide les patient·e·s à comprendre que les préoccupations sexuelles sont
+courantes. Par exemple : « À ce moment de la consultation, je pose
+généralement des questions à propos de votre vie sexuelle. »
+o Expliquez l’éléments qui motive votre besoin de faire l’anamnèse sexuelle à ce
+moment. (P.ex : « Pour savoir quels examens de laboratoire nous devrons réaliser
+aujourd’hui, j’aurais besoin de vous poser quelques questions sur votre vie
+sexuelle. »)
+• Demandez la permission de manière explicite pour aborder ces sujets (p.ex : Est-ce que cela
+serait ok pour vous? Est-ce que vous êtes d’accord avec cela ?)
+• Rappelez la possibilité de ne pas répondre à certaines questions si la personne le souhaite
+Pendant l’anamnèse sexuelle
+• Utilisez des termes neutres et inclusifs (ex: “partenaire” “personne”) et posez vos questions
+sans porter de jugement de manière professionnelle.
+• Évitez de faire des suppositions sur votre patient·e en fonction de son âge, de son apparence,
+de son état civil, de sa religion, de son origine géographique ou de tout autre facteur. A moins
+que la personne ne vous le dise, vous ne pouvez supposer de l’orientation sexuelle, des
+comportements ou de l’identité de genre d’une personne.
+• Essayez de ne pas réagir de manière excessive, même si vous vous sentez mal à l’aise. Faites
+attention à votre langage corporel et à votre posture.
+o Reformulez votre question ou expliquez brièvement pourquoi vous posez une
+question si un·e patient·e paraît surpris·e ou réticent·e à vous répondre.
+o Assurez-vous que vous et votre patient·e partagez une compréhension des termes
+utilisés pour éviter toute confusion. Par exemple : Avez-vous déjà eu des relations
+sexuelles avec quelqu’un·e? Par “relations sexuelles” je comprends le sexe vaginal,
+anal ou oral. Si vous n’êtes pas familier/ère avec un terme utilisé par votre patient·e,
+demandez une explication.
+• Assurez-vous que les termes utilisés pour désigner les parties du corps ne créent pas de
+dysphorie pour les patient·e·s transgenres ou non-binaires. Essayez de reprendre le
+vocabulaire du/de la patient·e.
+
+2
+
+LEXIQUE
+Avortement
+spontané
+ou
+Grossesse arrêtée
+ou Grossesse nonévolutive
+Cisgenre
+Consentement
+explicite
+
+Dyschésie
+Dysménorrhée
+Dyspareunie
+
+Expression de genre
+Genre
+
+Hématochézie
+Identité de genre
+
+Interruption
+grossesse
+Intersexuation
+
+de
+
+Ménarche
+Mutilation génitale
+féminine (MGF)
+Non-binaire
+Orientation sexuelle
+Prolapsus
+
+Grossesse s’arrêtant spontanément avant 20 semaines d’aménorrhées
+Souvent nommée « fausse couche » dans la population générale
+
+Adjectif qualifiant une personne dont l’identité de genre correspond au
+genre assigné à la naissance
+A la différence du consentement présumé, le consentement explicite
+implique un accord oral clair ou un accord par écrit des personnes
+impliquées.
+Le consentement se doit d’être :
+- Libre : La personne n’est pas contrainte d’accepter (ni sous
+pression, menace ou insistance). Personne ne l’oblige à dire oui, y
+compris le/la médecin.
+- Éclairé : La personne a toutes les informations pour prendre sa
+décision, notamment les alternatives si elle refuse.
+- Enthousiaste : La personne exprime un “oui” sincère par ses
+paroles et/ou langage corporel, sans signes d’ambivalence.
+Gêne ou douleurs à la défécation
+Douleurs lors des règles
+Ce terme regroupe l’ensemble des douleurs dans le vagin ou au niveau
+de la vulve avant ou après un rapport sexuel. Elle peut être :
+- Superficielle : Douleurs au niveau de la vulve ou de l’orifice vaginal
+- Profonde : Douleurs ressenties à l’intérieur lors des rapports
+sexuels pénétratifs, au niveau du pelvis et au fond du vagin.
+Le genre que l’on montre aux autres (e.g. habillements, maquillage, etc)
+Construction sociale permettant de catégoriser les rôles, comportements,
+expressions et sentiments identitaires considérés comme féminins,
+masculins ou ne correspondant à aucune de ces deux catégories
+Présence de sang dans les selles
+Sentiment profond et intime d’appartenance au genre féminin ou masculin
+(binaire), ni l’un ni l’autre (non-binaire), aucun genre (agenre); parfois l’un
+ou l’autre (fluidité de genre). Cela ne correspond pas forcément avec son
+sexe biologique.
+Grossesse arrêtée de manière médicamenteuse ou chirurgicale
+Les personnes intersexes ou intersexuées sont des personnes dont le corps
+possède des caractéristiques biologiques ne correspondant pas ou qu’en
+partie aux catégories binaires employées généralement pour distinguer les
+corps "femelles" des corps "mâles".
+Premières menstruations
+Selon l’OMS, « les mutilations génitales féminines désignent toutes les
+interventions aboutissant à l’ablation partielle ou totale des organes
+génitaux externes féminins pour des raisons non médicales.”
+Adjectif qualifiant une personne qui ne se reconnait pas dans les catégories
+binaires de femmes et d’hommes.
+Elle désigne l’attirance sexuelle pour les personnes d’un ou plusieurs genres
+Descente d'organes. On distingue :
+3
+
+-
+
+Pubarche
+Saignements utérins
+anormaux
+Santé sexuelle
+
+Sexe
+
+Sexualité
+
+Syndrome
+prémenstruel
+Thélarche
+Transgenre
+trans*
+
+ou
+
+Cystocèle : Descente de la vessie qui appuie contre la paroi
+antérieure du vagin
+Hystérocèle : Descente de l’utérus
+Rectocèle : Descente du rectum qui appuie contre la paroi
+postérieure du vagin
+
+Apparition des premiers poils pubiens
+Regroupe plusieurs types de saignement, comme les saignements
+intermenstruels (entre les périodes de règles) ou les règles abondantes
+Ancienne terminologie : Métrorragies, ménorragies, etc.
+Selon l’OMS, la santé sexuelle est un « état de bien-être physique, mental
+et social à l’égard de la sexualité, qui ne consiste pas seulement en une
+absence de maladie, de dysfonctionnement ou d'infirmité. La santé
+sexuelle s'entend comme une approche positive et respectueuse de la
+sexualité et des relations sexuelles, ainsi que comme la possibilité de vivre
+des expériences sexuelles agréables et sûres, exemptes de coercition, de
+discrimination et de violence. Pour que la santé sexuelle soit assurée et
+protégée, les droits sexuels de toutes les personnes doivent être respectés,
+protégés et appliqués »
+Attributs biologiques permettant de catégoriser les personnes ou les
+animaux comme femelle, mâle ou ne correspondant à aucune des deux
+catégories.
+L’OMS décrit la sexualité comme « ... un aspect central de l'être humain
+tout au long de la vie, qui englobe le sexe, les identités de genre et les rôles
+y afférents, l'orientation sexuelle, l'érotisme, le plaisir, l'intimité et la
+reproduction. »
+Symptômes physiques et psychologiques dans la semaine qui précède les
+menstruations et qui se terminent avec celles-ci
+Développement des seins
+Adjectif qualifiant une personne dont l’identité de genre ne correspond pas
+au genre assigné à la naissance. L’astérisque sert à inclure la variété des
+transidentités, dont les personnes non-binaires.
+
+4
+
+1 - ANAMNÈSE : QUESTIONS À POSER PAR LES ÉTUDIANT·E·S
+MOTIF DE CONSULTATION : Investiguer la plainte de la/du patient·e* (ex : douleurs pelviennes,
+saignements anormaux, pertes vaginales, démangeaisons, brûlures...)
+● Caractérisation de la douleur
+o Localisation
+o Irradiation
+o Qualité (douleur sourde, en coup de couteau, crampiforme...)
+o Facteurs déclenchants et circonstances d’apparition (à l’effort, au repos, pendant ou
+après un rapport sexuel, apparition brutale/progressive)
+o Facteurs aggravants/soulageant (effort, mobilisation, rapport sexuel, repos, assis,
+couché, antalgiques utilisés...)
+o Douleurs nouvelle ou connue
+o Temporalité (durée, caractère cyclique, pendant les menstruations, mi-cycle)
+o Impact fonctionnel (empêche de faire certaines activités, travail/dormir)
+● Caractérisation des pertes vaginales et démangeaisons
+○ Pertes vaginales anormales (augmentées, aspect : grumeleux, spumeux, liquide,
+couleur, présence de sang, odeur)
+o Démangeaison (vulvaire, vaginale, périanale)
+● Caractérisation des saignements anormaux
+○ Temporalité (selon la période du cycle menstruel)
+o Quantité (nombre de protections/jours et fréquence des changements)
+o Durée des cycles et des menstruations
+o Dysménorrhée
+● Symptômes associés : État fébrile, frissons, fatigue, adénopathie
+● Cycle actuel : Date des dernières règles (DDR)
+● Anamnèse urinaire et digestive
+○ Troubles urinaires : algurie, dysurie, brûlures (en urinant ou
+intermittentes/persistantes), pollakiurie, hématurie, urines malodorantes, douleurs
+lombaires
+o Troubles digestifs : transit (constipation, diarrhée), dernières selles, hématochézie,
+dyschésies
+● Partenaire(s) : Symptômes similaires chez la/le/les partenaire(s)
+ANTÉCÉDENTS PERSONNELS
+• Antécédents médicaux
+o Pathologies chroniques (par ex HTA, diabète, surpoids, obésité)
+o Hospitalisations antérieures
+o Allergies (substances, type de réaction)
+• Antécédents chirurgicaux : Interventions (année, indication, voie d’abord :
+laparoscopie/laparotomie/voie vaginale/chirurgies ou modifications génitales y compris
+mutilations génitales, chirurgie d’affirmation)
+• Antécédents gynéco-obstétricaux
+o Ménarche, pubarche, thélarche (attention à ne pas investiguer tout le temps,
+dépend du degré d’urgence et du contexte)
+o Cycle : régulier, durée du cycle et des règles, quantité (nombre de serviettes
+tampons/jour), dysménorrhée, syndrome prémenstruel
+o Saignements (utérins) anormaux
+o Ménopause (lorsque cela est pertinent) : Symptômes ménopausiques (bouffées
+de chaleur, prise de poids, irritabilité, sécheresse vaginale, etc.), traitement
+hormonal substitutif
+o Rapports sexuels : Partenaire régulier/ère, multiple, nombres de partenaires
+antérieurs, dyspareunie (profonde/superficielle), protection
+5
+
+o
+o
+o
+
+o
+o
+•
+
+•
+
+•
+
+Contraception actuelle et antérieure, selon les pratiques sexuelles évoquées
+Gestité : Nombre de grossesse (évolutive, avortement spontané, interruption de
+grossesse) : Avez-vous déjà été enceinte ? Combien de fois ?
+Parité (dès 22 SA) : Année, terme de la grossesse, santé de l’enfant : Combien de
+fois avez-vous accouché ?
+▪ Basse : Spontané, instrumenté (forceps, ventouse) ou non, présence
+d’une lésion périnéale simple ou compliquée dans l’immédiat et à long
+terme
+▪ Césarienne et son indication
+▪ Complications néonatales et du post-partum ?
+Antécédents d’IST ou d’affections gynécologiques
+Dernier contrôle gynécologique (dont dernière cytologie (=dépistage du cancer
+du col), mammographie si pertinent)
+
+Habitudes
+o Tabac, alcool, substances autres
+o Traitements actuels
+o Activité physiques et alimentation
+Anamnèse familiale
+o Oncologique : Sein, utérus, col, digestif, autres (préciser degré de parenté, âge du
+diagnostic)
+o Antécédents thromboemboliques (TVP, EP, âge d’apparition)
+o Diabète, maladies cardiovasculaires (dont HTA, AVC et SCA)
+o Autres pathologies chroniques ou héréditaires
+Anamnèse socioprofessionnelle
+o Activité professionnelle
+o Entourage familial
+o Enfants à charge
+o Antécédents de violences1: physiques, psychologiques, sexuelles et gynécologiques
+et/ou obstétricales et mutilation génitale (à savoir avant d’effectuer un examen
+gynécologique) :
+“Est-ce que vous avez déjà subi des violences de type
+psychologiques, physiques, sexuelles dans votre vie?” « Est-ce que dans votre vie vous
+avez déjà été touché·e de manière où vous n’étiez pas d’accord ? »
+o Origine de la patiente* (plusieurs conditions ou pathologies gynécologiques sont plus
+fréquentes dans certains groupes ethniques)
+
+1
+
+Un dépistage systématique des violences est efficace et utile dans la pratique médicale. Il peut se faire
+simplement d’une question générale. Il est important pour tout·e soignant·e de savoir informer et orienter
+vers le réseau de soins compétents, en fonction de la réponse reçue. Cf. pour en savoir plus
+
+6
+
+2 - EXAMEN CLINIQUE
+1. Signes vitaux : TA, pouls, température
+2. Poids, taille, BMI
+3. Examens complémentaires systématiques : Bandelette urinaire (stix) et test de grossesse
+Pour chaque étape de l’examen, un consentement explicite oral doit être (re-)demandé en veillant à
+ce que le/la patiente* soit bien installé·e.
+Lorsqu’il s’agit du premier examen gynécologique, il peut être utile d’expliquer précisément comment
+il va se dérouler.
+Pendant les gestes, décrire progressivement ce que l’on fait et surveiller le visage afin de détecter des
+douleurs reproduites.
+En absence de consentement, ne pas effectuer le geste et proposer des alternatives (autoprélèvements, que la/le patient.e mette le spéculum elle/lui-même).
+/!\ Préparer le matériel avant d’examiner le patient·e pour limiter la durée de l’examen
+Débuter par un status abdominal (inspection, auscultation, palpation superficielle/ profonde,
+percussion des loges rénales, palpation des aires ganglionnaires).
+INSPECTION GÉNITALE
+4. Vulve : Lèvres externes, lèvres interne, prépuce clitoridien, gland du clitoris, entrée du
+vagin, caroncules hyménéales, présence de MGF
+5. Périnée
+6. Région péri-anale
+7. Mont du pubis
+8. Régions inguinales: adénopathies
+Rechercher en fonction de l’anamnèse des lésions érythémateuses, vésicules, ulcérations,
+cicatrices de lésion périnéale ou épisiotomie, furoncle, hémorroïdes, pilosité générale, prolapsus
+(cystocèle, rectocèle, hystérocèle)
+
+Rappel: Il est important d’être conscient·e qu’il existe une grande diversité dans l’anatomie des
+vulves. La vulve change au cours de la vie en fonction des changements hormonaux et des
+antécédents de la/du patient.e*.
+
+7
+
+EXAMEN AU SPÉCULUM (demander consentement avant le geste →voir lexique)
+1. Position gynécologique, les fesses dépassant légèrement
+le rebord de la table, surélévation légère des fesses
+2. Écarter les lèvres internes
+3. Introduire le spéculum à 45° avec appui sur la fourchette
+vaginale postérieure, vis entièrement ouverte et lames du
+spéculum fermées
+4. Ouvrir progressivement le spéculum jusqu’au fond du
+vagin avec les lames de part et d’autre du col en tournant
+le spéculum en position horizontale
+NB : Si on ne trouve pas le col, il vaut mieux refermer un peu
+le spéculum et se repositionner que de chercher le col avec le
+spéculum ouvert. Lorsque le col est difficile à trouver, une palpation vaginale peut aider à
+situer le col.
+5. Fixer la vis ou tourner la fixation (selon le modèle de spéculum
+6. Mise en évidence du col avec inspection :
+○ Col nullipare/multipare, lésions, leucorrhées physiologiques ou anormales (couleur,
+aspect, odeur), inspecter les parois vaginales
+7. Effectuer les prélèvements nécessaires en fonction de l’anamnèse[JB1]
+○ Examen direct (permet de regarder les sécrétions au microscope lors de la
+consultation) : prélèvements dans le fornix postérieur mettre sur 2 lames ; dans une
+goutte de NaCl 0.9%,
+o Cytologie cervicale (frotter l’exocol avec la spatule puis l’endocol avec la brosse)
+o Prélèvements bactériologiques ou PCR pour la recherche de chlamydia et/ou
+gonocoque
+8. Retirer le spéculum : Ouvrir la vis entièrement, sortir en effectuant une rotation afin de
+visualiser les parois vaginales antérieures et postérieures, fermer progressivement le
+speculum, garder le speculum légèrement ouvert pour ne pas pincer les muqueuses.
+/!\ Le sortir à deux mains pour éviter qu’il s’ouvre d’un coup sur l’orifice vaginal.
+PALPATION VAGINALE BIMANUELLE (demander consentement avant le geste)
+• Insérer l’index lubrifié (et éventuellement le majeur)
+• Palper le col (position, taille, consistance, douleurs à la mobilisation, lésion palpable)
+• Avec la main abdominale : ramener le contenu pelvien vers les doigts vaginaux, Explorer
+la face antérieure et la face postérieure de l’utérus (taille, consistance, contours), les
+régions annexielles (masse, douleurs → On ne devrait rien sentir)
+• Avec les doigts insérés dans le vagin : Palper les parois notamment au fond, le cul-de-sac
+de Douglas (douleurs, masses), latéralement, les ligaments utérosacrés (douleurs) et
+postérieurement (vers le bas), la paroi vaginorectale.
+
+8
+
+AU TERME DE LA FORMATION, L'ÉTUDIANT.E DOIT ÊTRE CAPABLE DE :
+• Mener une anamnèse gynécologique complète et inclusive.
+• Connaître le déroulement de l’examen clinique gynécologique, à savoir :
+○ Inspection des organes génitaux externes
+o Recueil du consentement
+o Examen au spéculum
+o Prélèvement vaginal pour analyse microbiologique lors de l'examen au spéculum
+o Prélèvement cervical pour cytologie cervicale lors de l’examen au spéculum
+o Palpation vaginale bimanuelle
+• Savoir justifier le déroulement de l’examen gynécologique et connaître les éléments
+importants pour l’évaluation d’un symptôme (savoir décrire les constatations pouvant
+être décelées grâce à cet examen).
+
+9
+
+LECTURES ET VIDÉOS RECOMMANDÉES
+1. Lynn S. Bickley. Bates' Guide to Physical Examination and History-Taking. Ninth
+Edition WB205, Female Genitalia, chapitre 12, pp 429-448
+2. Vidéo examen gynécologique - Bates’ physical examination videos :
+https://batesvisualguide.com/multimedia.aspx?categoryID=21787#21782
+3. Moodle de l'unité Reproduction : https://moodle.unige.ch/course/view.php?id=3880
+4. «Virtual Skills lab. - Gynécologie & Obstétrique» disponible sur le site
+https://moodle.unil.ch/course/view.php?id=285
+
+:
+
+POUR EN SAVOIR PLUS
+ANAMNESE SEXUELLE
+L’anamnèse sexuelle entre dans le cadre de la consultation gynécologique. Elle entre également dans
+l’intimité de la personne. Toutes les questions ne sont pas pertinentes à chaque consultation, il faut
+se poser la question de quelles réponses sont nécessaires pour avancer dans la prise en charge. (cf.
+texte d’introduction)
+Un exemple de modèle d’anamnèse sexuelle : PLISSIT Model of
+Adressing Sexual Functioning
+C’est un modèle proposé pour que tout.e spécialiste puisse
+débuter une anamnèse sexuelle, en demandant tout d’abord la
+permission (voir exemples de phrases), donner les informations
+et suggestions à l’échelle de nos connaissances, puis référer à
+un.e spécialiste en sexologie ou psychologie si nécessaire.
+Exemples de phrases de permission :
+• Est-ce que je peux vous poser quelques questions concernant votre sexualité ? Je pose ces
+questions systématiquement car de la même manière que les autres questions que je vous
+pose, elles sont importantes pour comprendre votre état de santé générale.
+• A ce moment de la consultation, je pose généralement des questions à propos de votre
+vie sexuelle. Est-ce que cela serait ok pour vous?
+• Vous pouvez également préciser :
+• Vous pouvez à tout moment me dire si mes questions vous mettent mal à l’aise ou si vous ne
+souhaitez pas répondre à certaines d’entre elles.
+Les “6 P” :
+• Partenaires : Avez-vous actuellement des relations sexuelles avec un.e ou des partenaires?
+• Pratiques: Quels types de contacts sexuels avez-vous (eu) Quelles parties de votre corps
+étaient impliquées?
+• Protection: Avez-vous été dépisté.e pour les IST récemment?
+• Passé (antécédents) d’infection: Avez-vous déjà été (ou votre/vos partenaire·s) infecté·e
+par une IST dans le passé?
+• Pregnancy/ Grossesse ou intentions de grossesse (si cela s’applique): À quel point est-il
+important pour vous de prévenir une grossesse lors de vos rapports?
+• Plus:
+o Pleasure : Est-ce que vos rapports sexuels sont agréables ?
+o Problèmes : Dysfonctions sexuelles (douleurs, troubles de l’excitation, etc.)
+o Pride : Soutien et/ou violences dues à l’orientation sexuelle/identité de genre
+
+10
+
+Plus d’informations à ce sujet
+1. Sexual Health and Your Patientspar la NationalCoalition for Sexual Health :
+https://nationalcoalitionforsexualhealth.org/tools/for-healthcare-providers/asset/ProviderGu ide_May-2022.pdf
+2. A Guide to Taking a Sexual History:https://www.cdc.gov/std/treatment/sexualhistory.htm
+3. Cours par la Dre Jasmine Abdulcadir : “Santé Sexuelle” dans l’Unité d’Immersion en
+Communauté (3ème année)
+DEPISTAGE DES VIOLENCES
+Comment aborder/poser la question des violences ?
+1.
+
+Introduction généralisante :
+« Les violences peuvent avoir des conséquences sur la santé, c’est pourquoi comme médecin
+j’aborde cette question avec tous/tes mes patient·e·s »
+« La violence peut être un problème dans la vie des gens, alors j’aborde ce sujet avec tous/tes
+mes patient·e·s »
+« Je demande à tous.tes mes patient·e·s des renseignements sur leurs proches et leurs familles
+afin de mieux les comprendre et de pouvoir parler des problèmes relationnels qu’ils ou elles
+pourraient avoir. »
+Devant certains symptômes très évocateurs :
+« La dernière fois que j’ai vu des marques ou des signes comme les vôtres, la personne avait
+subi des violences, est- ce votre cas? » « Souhaitez-vous en parler? »
+Questions indirectes :
+« Tous les couples sont susceptibles de vivre des conflits. Que se passe-t-il quand vous et votre
+conjoint·e vous disputez ? Est-ce que les conflits tournent en bagarres ? »
+« Comment votre partenaire vous traite-t-il/elle ? »
+Cadrage par des questions plus spécifiques :
+« Vous sentez-vous en sécurité dans votre couple / famille, sur votre lieu de travail ? »
+« Avez-vous peur d’un-e ex-partenaire ou collègue, de votre chef·fe... ? Souhaitez-vous en
+parler? »
+
+2.
+
+3.
+
+4.
+
+Violences dans le milieu du soin :
+Il est important de se rappeler que les patient·e·s peuvent aussi vivre des violences dans le milieu
+médical. Ces violences peuvent avoir un effet sur la santé puisqu’elles peuvent mener à un retard de
+consultation et une méfiance face aux professionnel·le·s.
+Plus d’informations sur le sujet, le réseau et les procédures :
+-
+
+https://www.ge.ch/dossier/prevenir-violences-domestiques
+http://ge.ch/stopviolence/
+http://www.centrelavi-ge.ch/
+https://www.prevention-violence.ch/
+www.hug-ge.ch/sites/interhug/files/structures/.../Strategies/strategie_violence.pdf
+Vidéo Anna : http://stop-violences-femmes.gouv.fr/4- outils-pour-l-animation-sur-les.html
+
+11
+
+RÉFÉRENCES
+Lexique:
+- Définition de l’OMS, 2006a
+- Rev Med Suisse 2022 ; 18 : 1518-23
+- https://www.inter-action-suisse.ch/definitions
+- https://www.unicef.org/fr/protection/mutilations-genitales-feminines Violences:
+- DU “Santé Sexuelle pour tous-tes” de Sorbonne Université : Cours sur les types de violences
+et leur dépistage
+Images:
+- https://www.hug.ch/gynecologie/prolapsus-genital-femme
+- https://www.unige.ch/ssi/ressources/ressources-pedagogiques-ssi/planches-anatomi
+ques/planches-anatomiques-de-la-brochure-hey-you/
+- https://www.docteurclic.com/encyclopedie/speculum.aspx
+- Mon sexe et moi : Mon corps sous la loupe; Vulva Gallery
+
+Cette mise à jour du cahier d’ECC a été réalisée en 2022 par deux étudiantes de la Faculté de Médecine de
+Genève, Lorena Mackinnon Lacasa et Julia Barbe, dans le cadre du Diplôme Universitaire “Santé Sexuelle
+pour tous-tes” de l’Université de la Sorbonne.
+Elle a été validée par la responsables de l’ECC de gynécologie, la Docteure Jasmine Abdulcadir, ainsi que
+par les membres du groupe Médecine, Genre et Équité des HUG et de l’UNIGE.
+
+12
+
+

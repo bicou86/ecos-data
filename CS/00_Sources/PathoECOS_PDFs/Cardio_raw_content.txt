@@ -1,0 +1,147 @@
+--- Page 1 ---
+Cardiologie : Pathologies fréquentes
+Tristan Born
+
+--- Page 2 ---
+Angor et Infarctus du myocarde de type I :
+• Définition :Reflet de athérosclérose des artères coronaires, provoquant une diminution du flux sanguins et des symptômexassociés à
+l’ischémie du muscle cardiaque. En fonction de la vitesse de développement de la sténose et de l’étendue du muscles touché, il existe
+trois présentation clinique :
+L’angor stable (50% des premières manifestations),
+L’angor instable (30% des premières manifestation) => ’angor instable sans augmentation des troponines’, ‘NSTEMI’ et ’STEMI’
+La morte subite (20% des premières manifestation).
+• Cliniques: Douleurs rétro-sternale en étau, irradiant vers l’épaule G ou le cou. Parfois, épigastralgie(femmes, ischémie inférieure).
+Aggravé par l’effortphysique ou un stress adrénergique (froid, stress) et soulagé par le reposet les dérivés nitrés.
+Souvent accompagné de nausée, de vertigeet de dyspnée.
+Les douleurs peuvent manquer chez les patients diabétiques (microangiopathie) !
+Chercher les FR CV typique : LDL ↑, HDL ↓, tabac, surpoids, sédentarité, HTA, ANTCD familiaux < 55 ans (♂) ou 60 ans (♀), DM
+• Diagnostique:
+o ECGd’emblée si angor instable + dosage TnTetCK-MBpuis selon résultats coronarographieet revascularisation
+o Si angor stable typique, consultation élective et faire un ECG au repospuis à l’effort(stress physique ou pharmacologique).
+D’autres test sont également possible (PET et SPECT, CT, IRM, coronarographie).
+• Traitement:
+o Si angor stable => réduction des FR CV et traitement médicamenteux,
+o Si angor instable, d’emblée avant même le diagnostic :
+O2 6 L/min si Sa.O2< 90%, dérivé nitré sublingual(0.4 mg) ou IV, aspirine(500mg) + Clopidogrel(180mg) po, + héparine5’000 UI IV
+Si STEMI, d’emblée revascularisation. Si NSTEMI, revascularisation en 24h à 72h discuter en fonction du taux TnTet de la clinique.
+
+--- Page 3 ---
+Endocardite infectieuse:
+• Cliniques: Touche principalement le cœur gauche (valve mitrale ou aortique) chez des individus prédisposés (opération du cœur
+dans l’enfance ou valve prothétique) ayant été exposé à une bactériémie transitoire (par exemple : dentiste, infection…).
+Exception : Cœur droite touché chez les ’intravasculardruguser’. Symptômes variées :
+EF(>90% cas), sudation, diminution de l’état général, perte de poids, arthralgie
+Souffle cardiaque nouveau, insuffisance cardiaque (OAP, œdème MI, turgescence veine jugulaire),
+Symptômescutanés : hémorragie en flammèche, nodule de Hosler(douloureux), lésion de Jenaway(indolore)
+Embole septique : AVC, insuffisance rénale, hémorragie rétinienne
+Splénomégalie (cave: rupture splénique)
+Deux types d’évolution : ‘Endocardite aigüe’ (typiquement S. aureus) versus ‘Endocardite lente’ (typiquement S. viridans)
+• Diagnostique: Chercher des FR pour augmenter la suspicion, chercher à compléter les critères de Duke
+UStrans-thoracique(plus simple, moins sensible, VPP), US trans-œsophage(plus complexe, plus sensible, VPN).
+Labo: Hémoculture, signe d’inflammation (leucocytose/CRP/VS), signe d’insuffisance rénale, Anémie(anemiaof chronicdisease)
+• Traitement: Antibiothérapie prolongée (4-6 semaines voir plus), d’abord empiriquement puis centré sur le germe.
+Sivalvenative:Co-amoxicilline+ Gentamycine|Sivalveprosthétique: Co-amoxicilline+ Gentamycine+ Rifampicine
+Éventuellement opérationpour draînerabcès ou réparer une valve prothétique.
+• Notes: Germe typique -> Staphylocoques(60%), Streptocoque(30%), Entérocoque(10%),
+Rarement : ‘HACEK’ (BGN fastidieux) ou Bartonellasp, C. burnetii, Brucella sp, Legionellaspet Mycoplasmasp
+Endocardite Auto-immune:
+• Rare, clinique similaire avec végétation sur une valve ou l’endocarde et une inflammation avec risque de thrombus.
+• Endocardite de Libman-Sacks: dans le cadre d’un LES
+• Endocardite de Loeffler: Endocardite avec hyper-éosinophilie,
+se retrouve dans différentes maladies dont l’asthme et les hyper-éosinophilie idiopathique.
+Rhumatisme articulaire aigüe:
+• Cliniques:Réaction auto-immune en réponse à une infection à S. pyogenes, avec réaction croisées des Accontre les tissus
+Apparition 1-3 semaines après l’infection des symptômessuivants : pancardites(endo-, myo-et péricardite)(≈100%)
+Fièvre, polyarthrite(grosses articulation, ≈60%), Atteintes cutanées (érythème marginé rhumatismal ou érythème noueux, ≈30%)
+éventuellement chorée de Sydenham (≈20%)
+• Diagnostique: Présentation clinique et temporalité avec infection à streptocoque. Critères de Jones.
+Présence d’anticorps caractéristique dans le sérum : anti-Streptolysine-A (ASLO) et anti-DesoxyribonucléaseB
+• Traitement :
+PénicilineV 10 jours pour éradiquer le S. pyogenes puis prévention des récidives avec une dose 1x mois durant 5 ans,
+Traitement de l’inflammation avec des AINS (aspirine) + Cortisol
+
+--- Page 4 ---
+Myocardite:
+• Cliniques: Dyspnée, douleurs thoracique ‘angineuse’ (majoré à l’effort, soulagé au repos), fatigue, palpitationchez un jeune adulte.
+En général, apparition des symptômes concomitamment à une infection virale (angine, rhume, gastro-entérite…).
+Notes: La majorité du temps, causé par une réaction croisée entre la myocarde et des épitopes viraux (parvovirusB19, coxsackie,
+echovirus, EBV adenovirus). Parfois, cause auto-immune (arthrite rhumatoïde, vasculite, collagénose, sarcoïdose…) ou post-radique
+• Diagnostique: Principalement clinique et après exclusion d’une cause grave de douleurs thoracique (EP, infarctus).
+Auscultation en général sans particulier, parfois présence d’une frottement péricardique(en cas de péricardite associée) ou d’une
+auscultation au galop (en cas d’insuffisance cardiaque). Au laboratoire, signes d’inflammation (VS, CRP, Leucocytose) et signes de
+souffrances myocardique (élévation TnT, CK/CK-MB, éventuellement NT-proBNP). Un ECGest indispensable pour exclure un
+infarctus, mais des petites anomalies peuvent être visible (sus-décalage concave et diffus de segment ST, négativation de l’onde T).
+Une imagerie peut-être effectuée mais n’est pas absolument nécessaire : US, IRM (permet de mettre en évidence un œdème diffus
+au niveau myocardique et d’exclure un infarctus) voir coronarographie. Dans des rares cas, une biopsie du myocarde.
+• Traitement: Repos stricte durant les trois mois suivants (pas de sport), AINS+ Colchicine(durant 3 mois) et RAD dans la majorité
+des cas (évolution spontanément favorable sous traitement). En cas d’atteinte fulminante, hospitaliseret éventuellement
+stimulateur cardiaque ou ECMOvoir transplantation.
+• Complication: En aigu, défaillance cardiaque. Après guérison, cardiomyopathie dilatée avec insuffisance cardiaque..
+Péricardite et épanchement :
+• Cliniques: Dyspnée, douleurs thoracique respiro-et ventilation-dépendante (majoré à l’effort, à l’inspiration prolongé ou lors de
+toux, soulagé au repos et en position assisse/penchée en avant). Les patients se tiennent dans une position antalgique typique.
+En général, apparition des symptômes concomitamment à une infection virale (angine, rhume, gastro-entérite…).
+Notes: Le plus souvent para-infectieux (virale)ou idiopathique. Parfois, la cause est auto-immune (sur RAA, vasculite…), post-
+infarctus (syndrome de Dressler), oncologique (épanchement péricardique malin) ou sur syndrome urémique(insuffisance rénale).
+• Diagnostique: Principalement clinique et après exclusion d’une cause grave de douleurs thoracique (EP, infarctus).
+Palpation et auscultation d’un pouls paradoxale(cave danger si pouls paradoxal >10 mmHg),
+auscultation d’un frottement péricardique, parfois auscultation ‘lointaine’ (épanchement péricardique).
+Au laboratoire, on s’attend à des signes d’inflammation (VS, CRP, Leucocytose) et à des signes de souffrances myocardique
+• (TnT, CK-MB, NT-proBNP). Un ECGest indispensable (typiquement une sus-décalage concave et diffus de segment ST).
+Une imagerie peut-être effectuée : US ou IRM (mise évidence épanchement), Rx-thorax(silhouette cardiaque ‘en carafe’).
+Si cas atypique, éventuellement drainage diagnostic du liquide ou Bx cardiaque, sérologie HIV, test Tb…
+• Traitement: Repos stricte durant les trois mois suivants (pas de sport), AINS+ Colchicine(durant 3 mois) et RAD dans la majorité des
+cas (évolution spontanément favorable sous traitement). En cas d’atteinte fulminante, hospitaliseret éventuellement stimulateur
+cardiaque ou ECMOvoir transplantation.
+• Complication: En aigu, évolution vers une tamponnade cardiaque. Après guérison, risque de récidiveou de péricardite constrictive.
+
+--- Page 5 ---
+Tamponnade:
+• Accumulation rapide de 300-400 mLde transsudat/exsudat dans le péricarde avec diminution de la compliance cardiaque et choc
+cardiogène. Signes de petits débits (marbrures, extrémités froides), d’insuffisance cardiaque (OAP, œdème MI, turgescence
+jugulaire), signe d’accumulation de liquide dans le péricarde (auscultation lointaine, frottement péricardique, pouls paradoxale).
+L’USpermet de confirmer le diagnostic et d’évaluer la fonction cardiaque.
+Dissection aortique :
+• Cliniques: Douleurs transfixiante migrante, d’abord thoracique, progressant en position interscapulairepuis lombaire.
+• Diagnostique: Douleurs typiques, T°A asymétrique entre les deux bras, Rxthorax caractéristique.
+Chercher les FR typiques : Âge, hypertension, syndrome de Marfanou Ehlers-Danlos, vasculitetouchant les gros vaisseaux
+(syphilis, Takayasu), traumatisme avec décélération brutale.
+Confirmation du diagnostic et évaluation de la situation par CT-injecté (gold-standart), TEEou IRM.
+ECG (possible infarctus surajouté en cas de dissection des artères coronaires).
+Labo: D-Dimère (élevée), TnT/CK-MB/NT-proBNP, Lactare(choc), Créatine (insuffisance rénale)
+• Traitement: Contrôlede la pression artérielle,
+Si dissection type A => Chirurgie en urgence
+Si type B => conservateur, endovasculaire
+
+--- Page 6 ---
+Insuffisance cardiaque:
+• Définition :Incapacité du cœur à pomper suffisamment de sang à cause d’une anomalie structurelle ou fonctionnelle.
+Il s’agit d’un syndrome clinique, qui peut-être le reflet de différentes pathologies, mais pas d’un diagnostic étiologique.
+Distinction en trois groupes sur la base de la fraction d’éjection (EF) : Cette distinction guide les investigations et la thérapeutique.
+HF-rEF: Insuffisance cardiaque avec fraction éjection réduite (<40%) => Chercher un problème systolique
+HF-pEF: Insuffisance cardiaque avec fraction éjection conservée (<40%) => Chercher un problème diastolique
+HF-mEF: Insuffisance cardiaque avec fraction éjection intermédiaire (40-50%)=> Problème mixte ou compensé
+On utilise également l’échelle de la NYHA pour grader les patients en fonction de leur dyspnée :
+NYHA I / II/ III/ IV=> absence de symptôme / dyspnéaprès avoir monté 2 étages / après avoir monté 1 étage / à la moindre activité
+• Cliniques:
+o Insuffisance cardiaque droite: Hépatomégalieet gastrite de stase, turgescence de la VJE, œdèmedes MI
+o Insuffisance cardiaque gauche: OAP(dyspnée, orthopnée, toux nocturne, cyanose), petit débits(nycturie, fatigue, intolérance effort)
+Auscultation au galop (ventricules ne se vident pas complètement), épanchement pleural.
+Diagnostique:
+Labo : NT-proBNP(reste en fonction des DD), ECG
+Rx-thorax : cardiomégalie (silhouette cardiaque > 50% médiastin), US: insuffisance cardiaque et autres signes, IRM, coronarographie
+• Traitement:
+Si possible : traitement causal! Si besoin : resynchronisation(si arythmie), défibrillateur automatique implantable (DAI). Rarement,
+circulation extracorporelle (ECMO) ou transplantation cardiaque.
+Un traitement médicamenteux efficace n’est possible que pour la HT-rEF: pril/sartan+BB + spironolactone + SGLT2i
+• Maladie coronaire,infarctus
+(60% de toutes les IC) • HTA, sténose valvulaire
+• HTA(stade tardif, dilaté) (stade initial, hypertrophie)
+IC • Pathologie valvulaire IC • Cardiomyopathie hypertrophique
+systolique (sténose ou insuffisance) diastolique • Pathologie infiltrative
+(HF-rEF) • Cardiomyopathie dilaté (HF-pEF) (Amyloïdose, Sarcoïdose, Hémochromatose)
+• Post-myocardite / auto-immune • Sclérose systémique
+• Toxique: OH, chimiothérapie • Maladie métabolique(DM, HT)
+• Endocrine: hyper-et hypo-thyroïdie,
+Syndrome Conn,
+phéochromocytome, post-partum

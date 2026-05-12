@@ -1,0 +1,105 @@
+Cours UIDC 4ème année
+
+Interprétation de l’ ECG (2)
+Arythmies ventriculaires
+Ischémie
+Divers
+
+Haran Burri
+
+Mehdi Namdar
+
+Valérian Valiton
+
+ARYTHMIES VENTRICULAIRES
+
+*
+
+Captures et fusions
+Capture *
+Fusion °
+
+Présent surtout si
+TV lente
+
+°
+
+*
+
+*
+
+QT long
+• Congénital (canalopathie)
+• Médicamenteux
+• Hypokaliéme, hypocalcémie, hypomagnésiémie
+• Ischémie myocardique
+• Bradycardie
+• Accident vasculaire cérébral
+
+Syndrome de Brugada
+Sus-décalage en «dos de selle» en
+V1 et/ou V2
+Associé à la mort subite
+H>F, age moyen de présentation
+souvent vers 40 ans
+Cœur structurellement normal
+
+Pour ceux qui veulent approfondir….
+
+Tachycardies régulières à QRS larges: TV vs TSV avec aberration
+
+Début onde r – nadir onde S > 100ms
+
+Brugada Circulation 1991;83:1649-1659
+
+ISCHEMIE ET INFARCTUS
+
+RCA= right coronary artery; LAD= left anterior descending artery; LCX=left circumflex; MO=marginal oblique
+
+Lésion du tronc commun:
+Sus-décalage en aVR + sous-décalage ST diffus
+
+Diagnostic difficile en
+cas de BBG!
+
+STEMI antérieur à 1 semaine
+- «trou électrique antérieur» V1-4
+(= Q)
+- T négatifs/biphasiques en V1-V5
+- Persistance sus-décalage ST V1-3
+(=anévrysme)
+
+Repolarisation précoce (early repolarization)
+Trouvaille fréquente (1-5%) chez le sujet normal (surtout les sportifs)
+Sus-décalage ST ascendant, concave (ondes de Pardee = convexe)
+Onde J dans les dérivations inféro-latérales
+T asymétrique (ischémie, hyperkaliémie = T symmétrique)
+
+Onde J
+
+DIVERS
+
+Hypertrophie ventriculaire gauche
+• S en V1+ R en V5 >35mm
+• R en I + S en III >25mm
+• R en aVL >11mm
+• Trouvailles associées: déviation axiale gauche, sousdécalage ST et inversion ondes T en latéral (V4-6)
+
+www.lifeinthefastlane.com
+
+Microvoltage
+• QRS < 5mm (0.5mV) dans toutes les dérivation périphériques
+et/ou
+QRS < 1cm (1mV) dans toutes les dérivations précordiales
+• Etiologies
+- épanchement péricardique ou pleural
+- emphysème pulmonaire / pneumothorax
+- obésité
+- cardiopathie dilatée
+- cardiopathie infiltrative (amyloidose, sarcoidose etc.)
+- infarctus étendu
+- pseudomicrovoltage: erreur de calibration
+
+H 57 ans. AVC. Monitoring en neurologie
+
+

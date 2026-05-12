@@ -1,0 +1,296 @@
+Poignet traumatique aux urgences
+Mécanisme du trauma, main dominante
+Recherche troubles neuro-vasculaires
+Recherche oedème, tuméfaction
+Zones douloureuses à la palpation
+Pas de testing des mobilités avant Rx ++
+
+Plaie en regard d’une fracture = fracture ouverte
+Vaccins (status VAT) + ATB
+En cas de fort déplacement et/ou compression nerveuse
+(parésie, paresthésies, dysesthésie, hypoesthésie) =>
+réduction au doigtier japonais
+
+Extrémité distale du radius (EDR) : Rx F+P
+Pas de fracture : ENTORSE
+- Degré I (légère) : peu d’oedème, peu de douleur, bonne mobilité => attelle palmaire 7j puis réévaluation
+(pas d’attelle velcro) - Contrôle chir main à J7
+- Degré II (modérée) : oedème hématome, diminution partielle des amplitudes articulaires
+- Degré III (sévère) : oedème important, hématome, diminution importante des amplitudes articulaires
+=> attelle palmaire 3 semaines - Contrôle chir main à 2-3 semaines
+Risques : une fracture occulte (in situ) sera plus visible à 2 sem
+- Atteinte des ligaments intrinsèques ou extrinsèques du carpe
+- Atteinte du TFCC : complexe fibro-cartilagineux triangulaire ulno-carpien
+
+Fracture extra-articulaire
+
+Fracture intra-articulaire + Rx 2 obliques
+
+In situ ou peu déplacée :
+=> attelle palmaire position neutre Contrôle chir main < J7
+PEC chirurgicale si :
+- bascule dorsale > 10°
+- toute bascule palmaire
+- variance ulnaire positive (radius raccourci vs controlat)
+=> PEC CHIR - attelle palmaire dans l’attente
+
+- In situ : discuter CT si doute sur escalier
+=> attelle palmaire 4 semaines
+Contrôle chir main < J7
+- Déplacée : probable CT
+=> PEC CHIR - attelle palmaire dans
+l’attente
+
+Service des urgences
+
+Chirurgie de la
+main aux
+urgences
+
+Guide médical de prise en charge des pathologies
+traumatiques du poignet et de la main.
+
+Trauma du Scaphoïde
+Suspicion clinique = douleur à la palpation de :
+- 1/3 moyen = tabatière anatomique en inclinaison ulnaire
+- 1/3 distal = tubercule palmaire (distal au pouls radial)
+- 1/3 proximal = 1cm en distal du tubercule de Lister
+Douleur à l’inclinaison ulnaire (VPN ++ à 72h)
+Piston du pouce : Se et Sp faibles !
+Pas de fracture : Suspicion clinique de fracture
+occulte
+Attelle palmo-radiale en position neutre
+Contrôle chir main à 2-3 semaines
+Info au patient : en cas de susp clinique =
+traitement par immobilisation
+Abréviations : CM = chir main, VAT = vaccin anti
+tétanique, FPL = flexor pollicis longus, EPL =
+extensor pollicis longus, APB = abductor pollicis
+brevis, IOD = inter osseux dorsaux, ADM = abductor
+digiti minimi, IP = inter phalangienne
+
+Fracture du scaphoïde
+1/3 proximal : PEC CHIR car risque de pseudarthrose
+1/3 moyen :
+- in situ : attelle palmo-radiale > 8 sem
+- déplacée : PEC CHIR
+1/3 distal : attelle palmo-radiale
+Contrôle chir main 4-6 sem
+
+Alexandre Bentvelzen
+Laurent Wehrli
+
+15.02.2019 V.1.1
+Validation : Direction du Service des Urgences
+Février 2019
+Durée de validité : 02.2021
+
+CIR104445
+
+Plaies de la main aux urgences
+Anamnèse : Latéralité, profession (âge, sexe),
+date et heure de la plaie, dernier repas, status
+VAT, circonstances de survenue
+Vascularisation
+Couleur (rose, blanc, bleu)
+Chaleur (versus
+controlatéral)
+Recoloration capillaire et
+turgescence
+
+Trauma digital aux urgences : Rx F+P strict +/- oblique
+
+Morphologie plaie : Site, taille, orientation, berges
+nettes, contuses, dilacérées, perte de substance,
+plaie punctiforme = risque infectieux
+
+Tendons
+Mobilité active globale
+Cascade physiologique au repos
+Effet ténodèse
+Testing des fléchisseurs superficiels et
+profonds + FPL
+Testing des extenseurs communs,
+propres du II et V, EPL, APB, IOD, ADM
+
+Sensibilité
+Hypoesthésie au toucher
+D2Ps (discrimination aux 2
+points statique)
+< 4 mm = normal
+4-6mm = douteux
+>6mm = pathologique
+
+Avis spécialisé si : dévascularisation, trouble de la sensibilité, plaie palmaire profonde, déficit de la mobilité
+active, infection profonde
+
+Plaie palmaire
+
+Plaie dorsale
+
+Pas d’exploration d’une plaie palmaire aux
+urgences
+Observation simple macroscopique des
+lésions
+Lavage abondant +/- parage des berges
+Si lésion suspectée cliniquement : Points de
+rapprochement + immobilisation dans
+l’attente d’une PEC chir main
+Si pas de lésion suspectée cliniquement et
+plaie superficielle simple : suture simple
+Prolene 4.0
+Dans tous les cas, réévaluation CM à 24-48h
+
+Parage des berges a minima (0,5mm)
+Ablation d’un éventuel corps étranger
+Lavage abondant +++ (intra articulaire si arthrotomie
+traumatique à rechercher systématiquement)
+En l’absence de lésion retrouvée : Suture simple
+CAVE : décalage lésion peau/lésion tendon
+Si lésion suspectée : points de rapprochement,
+immobilisation dans l’attente d’une PEC CM
+Documenter le % en largeur de section tendineuse
+Si extension chirurgicale de la plaie : a minima et
+progressive, purement longitudinales en dorsal
+
+Morsures ou plaies souillées
+Anamnèse : charge bactérienne (animal, plaie
+agricole, couteau à viande…), VAT, facteurs
+de risque infectieux (asplénie, diabète, curage
+ganglionnaire…)
+Signes de Kanavel pour phlegmon des gaines
+des fléchisseurs (doigt en légère flexion,
+fusiforme, douleur le long de la gaine des
+fléchisseurs, douleur à l’extension passive du
+doigt)
+Lavage abondant eau + savon
+Rx (si relevant)
+Débridement, parage des berges (0,5mm)
+aux urgences
+Rinçage NaCl > 100cc +++
+Pas de suture +++
+
+Pansement bétadiné, immobilisation de
+
+Morsure de chat
+S’infecte dans 50% des cas (Pasteurella multocida ++)
+Augmentin 1gx2/j si prophylaxie, 1gx3/j si curatif 7j
+Si allergie : Dalacine 600mgx3 + Ciprofloxacine
+500mgx2 (CAVE : fonction rénale)
+ou Dalacine 600mgx3 + Bactrim forte 1cpx3
+Morsure de chien
+S’infecte dans 20% des cas
+Antibioprophylaxie : idem chat
+Déclaration cantonale obligatoire (information sur
+chien et propriétaire)
+https://www.vd.ch/fileadmin/user_upload/themes/vie_privee/ani
+maux/fichiers_pdf/V4__DGAV_AffVet_Annonce_morsure_chien_s
+_humain.pdf
+
+Morsure humaine
+Pas de prophylaxie HIV (sauf si du sang dans la bouche)
+Status vaccinal hépatite B
+Antibioprophylaxie : idem chat
+
+Doigt II à V : Topographie douleur, hématome, tuméfaction, déformation
+Métacarpe - MP
+
+P1 - IPP - P2
+
+IPD - P3
+
+Pas de fracture = Entorse
+Plâtre IP libres 3 semaines
+Contrôle CM à 7j
+Si instable => CHIR
+
+Pas de fracture = Entorse IPP
+Attelle digitale GDS 2-3 sem
+Contrôle CM à 7-10j
+
+Pas de fracture + pas de
+déformation = entorse IPD
+Attelle digitale courte 2-3 sem
+Contrôle CM à 7-10j
+Pas de fracture mais déficit
+d’extension = Mallet tendineux
+Attelle IPD en hyperextension
+stricte 10°
+Contrôle CM à 8 sem
+
+Fracture extra articulaire
+Recherche DEROTATION !
+Dérotation => CHIR
+Fracture instable (transverse,
+oblique, spiroïde) => CHIR
+Fracture stable sans dérotation :
+Plâtre IP libres 4 semaines et
+contrôle CM à 7j
+Fracture intra articulaire
+= # in situ ou déplacée
+Faire Rx 2e oblique
+=> CHIR
+
+Fracture in situ sans dérotation
+Attelle digitale ou palmo-digitale
+4 semaines
+Contrôle CM à 7j
+Fracture déplacée et/ou dérotation
+=> CHIR
+Luxation dorsale IPP
+Réduction sous AL
+SANS DISTRACTION
+hyperextension -> compression axiale ->
+flexion P2 sur P1
+Attelle GDS IPP (IPD libre) 3sem
+Contrôle CM <7j
+
+Arrachement osseux dorsal avec
+déficit d’extension = Mallet osseux
+Attelle IPD à 0°
+Contrôle CM 6 sem pour évaluer
+indication opératoire
+Fracture extra articulaire
+Attelle IPD 4 sem
+Contrôle CM 7j
+
+Pouce : Topographie douleur, hématome, tuméfaction, déformation
+Métacarpo-phalangienne : Rx pouce F+P
+
+Base M1 - Trapézo-métacarpienne : Rx TM F+P
+
+Pas de fracture = Entorse MP1
+Douleur/Laxité en hyperextension = entorse plaque
+palmaire
+Attelle MP en semi flexion 3 sem - Contrôle CM 7-10j
+Entorse du LCU (lig collat ulnaire = pouce du skieur)
+- Stable (inclinaison radiale < 30°, arrêt net)
+Attelle palmo-radiale IP libre 3 sem
+- Instable (inclinaison radiale > 30°, arrêt mou)
+= suspicion de lésion de Stener => CHIR
+
+Pas de fracture = Entorse TM
+- Stable = attelle palmo-radiale IP libre 2-3 sem
+Contrôle CM à 7-10j
+- Instable : tiroir trapézo-métacarpein (TM) antéro-post
+ou latéral = CHIR
+
+Fracture base P1
+Fracture/avulsion in situ = attelle palmo-radiale 4sem
+Fracture/avulsion déplacée => CHIR
+avulsion millimétrique = suspicion Stener (cf infra)
+Luxation dorsale MP
+Réduction sous AL SANS DISTRACTION ++
+hyperextension -> compression axiale -> flexion MP
+Attelle MP en semi flexion 3 sem
+Contrôle CM 7-10 jours
+
+Fracture
+BENNETT déplacée => CHIR
+ROLANDO => CHIR
+WINTERSTEIN (extra-articulaire)
+∝> 30° => CHIR
+∝< 20° => attelle palmo-radiale TM en extension 4sem
+Contrôle CM à 7-10j
+
+

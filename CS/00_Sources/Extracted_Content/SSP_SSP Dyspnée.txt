@@ -1,0 +1,188 @@
+Dyspnée
+Anamnèse
+1. Caractériser la dyspnée
+a. Qualité
+b. Depuis quand ?
+c. Condition de survenue
+d. Permanente / intermittente
+e. Nocturne / diurne (dyspnée paroxystique nocturne = IC)
+f. Aggravation / diminution
+g. Facteurs favorisants
+i. Position
+ii. Froid
+iii. Poussière, pollen, animaux
+iv. Effort
+h. Classification (périmètre de marche, nb étage etc)
+2. Symptômes associés
+a. Doul. thoraciques (caractériser si +)(oppressives  card, respiro-dép  pulm)
+b. Toux
+i. Depuis quand
+ii. Fréquence
+iii. Qualité (sèche, grasse)
+iv. Expectoration : couleur – sang
+c. Hémoptysie
+d. Œdèmes MI – douleur MI
+e. Orthopnée – dyspnée paroxystique nocturne
+f. Nycturie
+g. Palpitation
+h. Fièvre
+i. ORL : dysphonie – obstruction nasale
+3. Symptômes B
+a. Sudations nocturnes
+b. Perte de poids
+4. ATCD et comorbidités
+a. Maladie
+b. Hospitalisations
+c. Opération (récente ?)
+d. Médicaments (hormonothérapie)
+e. Allergies
+5. ATCD familiaux
+6. Voyage – immobilisation
+7. Habitudes
+a. Tabac
+b. Alcool
+c. Drogue
+d. Diète
+e. Activité physique
+
+Signes d’alarmes :
+- Diminution de l’état de conscience, agitation, confusion
+- Difficultés à parler (mots isolés)
+- Détresse respiratoire : utilisation des muscles accessoires, tirage intercostal
+- FR < 8/min ou > 25/min
+- Saturation < 90%
+- Cyanose
+- Diaphorèse
+- Arythmie nouvelle
+- Fréquence cardiaque > 120/min
+- TA < 90/60 mmHg (nouvelle)
+- PF < 50% du prédit ou < 200 L/min
+Examen clinique
+1. Inspection
+a. Extrémités (ongles)
+b. Langue
+c. Recoloration capillaire
+d. Thorax et mouvements
+e. Oedèmes des MI (godet)
+f. Turgescence jugulaire
+i. Reflux hépato-jugulaire (> 10s)
+2. Cardiaque
+a. Palpation
+i. Pouls périphériques aux 4 extrémités
+ii. Carotidien (!!! auscultation avant)
+iii. Choc de pointe
+b. Auscultation
+i. Aortique
+ii. Pulmonaire
+iii. Mitral
+iv. Tricuspide
+3. Pulmonaire
+a. Palpation
+i. Zone douloureuse (reproductible à la palpation ?)
+ii. Ampliation thoracique (post)
+b. Percussion (post + lat)
+i. Délimiter
+ii. Comparer les deux côtés
+c. Auscultation
+i. Antérieure
+ii. Postérieure : 4 plages en comparant
+iii. LatéraleS : 2 plages
+
+Bruits respiratoires : (https://www.nejm.org/doi/10.1056/NEJMra1302901)
+- Râles crépitants fins : fibrose pulmonaire, pneumonie, stase cardiaque
+- Râles crépitants grossiers : sécrétions bronchiques (bronchiectasie, bronchite)
+- Ronchi : asthme, BPCO
+- Sibilances : asthme, BPCO, insuffisance cardiaque
+- Stridor : sténose des voies respiratoires centrales
+DD
+-
+
+-
+
+Aigu (< 3 semaines)
+o Origine cardiaque
+ Cardiopathie ischémique aiguë
+ Décompensation insuff. cardiaque (ischémique, valvulaire, rythmique)
+ Tamponnade
+o Origine respiratoire
+ Asthme
+ BPCO décompensé
+ EP
+ Pneumothorax
+ Pneumonie
+ Obstruction VA (corps étranger, anaphylaxie)
+o Autres
+ Toxiques
+ Métaboliques
+ Psychogène
+Chronique
+o Origine cardiaque
+ Insuffisance cardiaque (ischémique, valvulaire, rythmique)
+o Origine respiratoire
+ BPCO
+ Asthme
+ Maladie interstitielle (fibrose)
+ Hypertension pulmonaire (dû à cirrhose, ou post EP, …)
+ Patho. extra-pulmonaire (squel, obésité, mal. pleurale, neuro-musc)
+ Cancer
+o Origine métabolique / neurologique
+ Acidose métabolique
+ Insuffisance rénale
+ Acidose d’origine médicamenteuse
+ Diabète décompensé
+ Myopathies
+ Déconditionnement
+
+Examen complémentaire possibles :
+- Rx thorax
+- ECG
+- Gazométrie si dyspnée aiguë
+- Laboratoire
+o FSC
+o Fonction rénale
+o D-dimères
+Des taux normaux permettent d’exclure
+o BNP / pro-BNP
+la maladie/l’origine de la dyspnée
+o Troponine
+- Fonction pulmonaire
+- Échocardiographie / ergométrie +/- spirométrie
+- Imagerie : CT-scan, scintigraphie pulmonaire
+Critères d’hospitalisation
+- Asthme :
+o Patient à haut risque selon les ATCD
+o Entourage ne garantissant pas une réaction
+adéquate en cas d’évolution défavorable
+o Absence d’amélioration après un traitement initial
+- BPCO
+o Fatigue respiratoire
+o EF > 38
+o Suspicion de foyer pulmonaire
+o OMI
+o Entourage défavorable
+- Insuffisance cardiaque
+o Douleurs thoraciques
+o Comorbidités importantes
+o Souffle cardiaque nouveau
+o Entourage défavorable
+- Pneumonie
+o Fièvre > 40 ou T < 35
+o Comorbidité sévère
+o Plusieurs lobes atteints
+o Épanchement pleural significatif
+o PaO2 < 60mmHg
+o pH artériel < 7.35
+o Ht < 30%
+o Na < 130 mmol/L
+o Glycémie > 14 mmol/L
+
+DD hyperventilation – asthme :
+En faveur d’un asthme
+o
+Sibilances
+o
+Sécrétions
+o
+Toux
+
+

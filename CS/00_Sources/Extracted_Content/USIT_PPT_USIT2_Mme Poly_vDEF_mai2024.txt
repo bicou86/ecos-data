@@ -1,0 +1,651 @@
+Madame Poly
+USIT 2
+mai 2024
+
+Amandine Berner & Matteo Coen
+
+Madame Poly : Objectifs
+A travers un cas clinique complexe, intégratif et évolutif,
+revoir les grands thèmes de la médecine interne
+
+Question 1
+Mme Poly, 28 ans est en bonne santé habituelle est hospitalisée pour une
+pneumonie acquise en communauté du lobe inférieur droit. Une antibiothérapie
+empirique de co-amoxicilline et clarithromycine a été instaurée. L’antigène urinaire
+pneumocoque et les expectorations sont positives pour un pneumocoque avec un
+antibiogramme sensible à l’amoxicilline, motivant un relai par une monothérapie
+d’amoxicilline intraveineuse.
+Au 5ème jour d'hospitalisation: 39,2 °C, 150/90 mmHg, FC 112/min, FR 28/min,
+Sp02 96 % en air ambiant. Râles crépitants en base pulmonaire droite.
+De nouvelles hémocultures et des expectorations sont répétées et sont négatives.
+Une nouvelle radio du thorax montre un épanchement pleural du côté droit.
+Un scanner thoracique est effectué.
+
+Question 1
+
+Question 1
+Laquelle des mesures suivantes est la plus appropriée ?
+A.
+B.
+C.
+D.
+
+Ajouter du pipéracilline-tazobactam
+Reprendre l’antibiothérapie de co-amoxicilline et clarithromycine
+Effectuer une bronchoscopie avec biopsie transbronchique
+Effectuer une ponction pleurale (thoracentèse) et un drainage
+
+Question 1
+• Une fièvre persistante dans un contexte de pneumonie d’acquisition
+communautaire fait évoquer une infection par un organisme non couvert
+par l’antibiothérapie empirique ou un contrôle inadéquat de la source de
+l’infection.
+• Empyème (au CT : rehaussement de la plèvre autour du liquide créant une
+opacité de forme lenticulaire)
+• Une ponction pleurale (thoracentèse) et un drainage doivent être
+effectués.
+
+Question 1 Pneumonie acquise en communauté : thérapie empirique
+• Ambulatoire : Amoxicilline PO ou co-amoxicilline PO (si comorbidités, patients âgés)
+• Hospitalisation : co-amoxicilline IV (+ macrolide si CURB-65≥2)
+• Tout épenchement parapneumonique dans le contexte d’une pneumonie
+doit être ponctionné
+Cx de Light pour exsudat
+
+Compliqué = empyème
+
+ratio protéines plèvre/serum >0.5
+ou LDH plèvre/serum >0.6 ou
+LDH plèvre >2/3 limite
+supérieure de la norme sérique
+ou protéines pleurales >30 g/l
+
+pus franc, pH < 7.2, LDH >1200,
+glucose < 2.2, culture positive
+
+Drain
+thoracique
+
+Non compliqué
+
+Pas de drain
+d’emblée
+
+Question 2
+Mme Poly, 66 ans, présente une toux chronique
+productive avec des expectorations claires,
+associée à une dyspnée d’effort en aggravation
+ces 2 dernières années. Elle a un tabagisme actif à
+54 UPA. Ne prend aucun médicament.
+A l’examen physique, les signes vitaux sont
+normaux. Léger sifflement expiratoire sur toutes
+les plages pulmonaires. Examen cardiovasculaire
+normal.
+La spirométrie montre un rapport VEMS/CVF de
+0.65 et un VEMS de 52% de la valeur prédite,
+sans
+amélioration
+après
+traitement
+bronchodilatateur.
+
+Question 2
+Quel diagnostic est le plus probable ?
+A. Asthme
+B. Bronchiectasies
+C. BPCO
+D. Pneumonie interstitielle desquamative
+
+Question 2
+• Un diagnostic de BPCO devrait être considéré chez tout patient qui présente
+une dyspnée, une toux chronique et/ou des expectorations chroniques, une
+anamnèse d’infection des voies respiratoires inférieures et/ou une anamnèse
+d’exposition à des facteurs de risques (tabagisme surtout)
+• Une spirométrie est obligatoire pour établir le diagnostic de BPCO avec un
+ratio VEMS/CVF post-bronchodilatateur de <0.7
+
+Question 2
+Le diagnostic différentiel d’une toux chronique est large
+Causes intra-thoraciques
+
+Causes extra-thoraciques
+
+Asthme
+Insuffisance cardiaque
+Cancer pulmonaire
+Tuberculose
+Bronchiectasies
+Pneumopathie interstitielle
+Mucoviscidose
+…
+
+Rhinite chronique allergique
+Ecoulement nasal postérieur
+RGO
+Médicamenteux (IEC)
+…
+
+Question 2
+1. Confirmation du diagnostic de
+BPCO par la spirométrie
+2. Définition de la sévérité de
+l’obstruction
+
+Question 2
+• Asthme
+• Pathologie inflammatoire
+• Trouble ventilatoire obstructif avec obstruction réversible des voies aériennes
+(augmentation VEMS ≥ 12 % et ≥ 200 ml)
+
+• Bronchiectasies
+• DxD toux chronique (+/- expectorations muco-purulentes) + FR → Dx par CT thorax
+• Étiologies variées : infections respiratoires à répétition, idiopathique, mucoviscidose,
+maladies auto-immunes, fibrose post-radique.
+
+• Pneumonie interstitielle desquamative
+• Lié au Tabagisme. Toux sèche et dyspnée.
+• Trouble restrictif pur (diminution CPT)
+
+Question 3
+Vous avez donc confirmé chez Mme Poly un diagnostic de BPCO de stade 2A
+Lequel de ces traitements pharmacologiques est le plus approprié ?
+A. Corticostéroïdes et béta-agoniste longue durée d’action inhalés (ISC +
+LABA)
+B. Anticholinergique à longue durée d'action inhalé (LAMA)
+C. Prednisone
+D. Azithromycine
+
+Question 3
+Lequel de ces traitements pharmacologiques est le plus approprié ?
+
+A. Corticostéroïdes et béta-agoniste longue durée d’action inhalés (ISC +
+LABA)
+B. Anticholinergique à longue durée d'action inhalé (LAMA)
+C. Prednisone
+D. Azithromycine
+
+Question 3
+• Indépendamment de la sévérité de la BPCO, les β2-agonistes et les
+anticholinergique/anti-muscarinique inhalés sont les piliers du ttt de fond
+de la BPCO.
+• Les ttt pharmacologiques sont utilisés pour diminuer les symptômes,
+améliorer la qualité de vie et diminuer les exacerbations.
+
+Question 3
+Pour les BPCO du groupe A
+
+• Choix du bronchodilatateur
+basé sur son effet sur la
+dyspnée.
+• Court ou une longue durée
+d’action. LABA ou SABA ou
+SAMA ou LAMA (option B).
+
+Question 3
+
+Question 4
+Mme Poly est traitée par tiotropium (LAMA) pour sa BPCO de stade 2A.
+
+Elle consulte 6 mois plus tard pour un contrôle. Elle continue à fumer (54
+UPA). Elle peut marcher à plat mais est essoufflée dès qu’elle monte une
+pente ou des escaliers. Elle n’a pas présenté d’exacerbation. Elle prend
+correctement et régulièrement son traitement bronchodilatateur.
+A l’examen physique, Sp02 92% en air ambiant, reste des signes vitaux
+normaux. Légères sibilances à l’auscultation.
+
+Une nouvelle spirométrie montre un rapport VEMS/CVF de 0.58 et un
+VEMS à 60 % de la valeur prédite.
+
+Question 4
+Lequel des traitements suivants est le plus approprié ?
+A. Traitement chronique d’azithromycine
+B. Prednisone
+C. Réhabilitation pulmonaire
+D. Arrêt du tabac
+
+Question 4
+❖ Seul traitement capable de ralentir le déclin du VEMS et de réduire la
+mortalité due à la BPCO
+• Sevrage du tabac
+
+❖ Pas d’impact sur déclin de la fonction pulmonaire ni sur la mortalité
+• Macrolides
+• diminution fréquences des exacerbations (patient avec profil exacerbateur)
+• Glucocorticoïdes oraux
+• ttt des exacerbations aigues de BPCO.
+• CAVE : effets secondaires (diabète, ostéoporose notamment)
+• Réadaptation pulmonaire
+• amélioration des symptômes et de la qualité de vie et diminution de la fréquence des
+hospitalisations (patients avec symptômes modérés à sévères et si ≥1 exacerbation/an)
+
+Question 5
+Mme Poly est hospitalisée en raison d’une exacerbation aiguë de sa BPCO se manifestant par une
+dyspnée en aggravation et une augmentation de la quantité de ses expectorations qui sont
+devenues purulentes. Elle est traitée par tiotropium (LAMA) et est compliante.
+A l’examen physique : 37.2 °T, 135/82 mmHg, FC 112/min, FR 21/min et Sp02 94 % sous 3 L/min
+d’02 aux lunettes. Expirium prolongé et sibilances diffuses à l’auscultation. Pas d’utilisation des
+muscles respiratoires accessoires. Reste de l'examen physique non contributif.
+La gazométrie artérielle montre un pH à 7.36, une PaC02 à 5.7 kPa et une Pa02 à 8.6 kPa. La Pas
+d’infiltrat pulmonaire à la radio du thorax.
+Des aérosols de salbutamol ainsi qu’une antibiothérapie sont initiés.
+
+Question 5
+A ce stade, quelle est la prise en charge additionnelle la plus appropriée ?
+
+A. Oxygénothérapie à haut débit
+B. Ventilation non invasive à 2 niveaux de pression positive
+C. Prednisone
+
+D. Culture d’expectoration
+
+Question 5
+• Glucocorticoïdes : pilier du ttt des exacerbations BPCO. Impact sur le VEMS et l’hypoxémie.
+Diminution des hospitalisations si prescription précoce, des échecs thérapeutiques et de la durée
+du séjour. Augmentation de l’intervalle de temps avant l’exacerbation suivante.
+• TTT symptômes aigus par SABA (+/- SAMA)
+• Sp02 cible > 88% sous lunettes 02 VNI (pression positive à deux niveaux) peut améliorer les
+symptômes et réduire les taux d'intubation, la durée du séjour et la mortalité. Cependant, cette
+patiente a une ventilation adéquate (pH et PaCO2 dans la norme) et n'a pas besoin de VNI.
+• Une culture d’expectoration n'est pas systématiquement réalisée chez les patients présentant
+une exacerbation BPCO car les résultats affectent rarement la prise en charge.
+
+Question 6
+Mme Poly est donc hospitalisée pour une exacerbation BPCO. Un traitement
+approprié a été mis en place avec des bronchodilatateurs et un traitement de
+prednisone.
+La patiente s’alimente et s’hydrate correctement. Depuis l'instauration du
+traitement de la prednisone, la glycémie à jeun a toujours été supérieure à 10
+mmol/L et la glycémie postprandiale supérieure à 13,9 mmol/L. À l'admission,
+l'hémoglobine glyquée (HbA1c) était de 5,3 %.
+
+Question 6
+Laquelle des mesures suivantes est la plus appropriée pour traiter
+l'hyperglycémie ?
+A.
+
+Insuline basale et insuline de correction
+
+B.
+C.
+D.
+
+Insuline basale, insuline prandiale (bolus) et insuline de correction
+Insuline de correction
+Metformine
+
+Question 6
+• L'insuline basale, prandiale et de correction est le traitement recommandé de
+l'hyperglycémie chez les patients hospitalisés (hors SI) et qui s’alimentent
+normalement.
+• Si glycémies > 10 mmol/L avec cible entre 7,8 et 10 mmol/L.
+• Améliore le contrôle de la glycémie et réduit les complications hospitalières
+par rapport à l'utilisation de schémas d'insuline uniquement corrective.
+• Insuline basale + insuline de correction est le ttt de choix pour les patients
+hospitalisés qui sont à jeun.
+
+Question 7
+Madame Poly a 72 ans. Sa BPCO est stable sous bithérapie de LABA-LAMA et
+n’a pas présenté de nouvelle exacerbation. Elle a arrêté de fumer.
+Elle présente des lombalgies depuis 5 jours, après avoir porté ses sacs de
+courses. La douleur n’irradie pas. Elle est incapable de rester assise ou debout
+longtemps, mais la douleur s'atténue lorsqu'elle s'allonge. Pas de trouble
+sphinctérien. Elle prend de l’ibuprofène depuis 5 jours.
+À l'examen physique: douleur à la palpation de la musculature paravertébrale, à
+la flexion et l'extension lombaire. Mouvements lombaires limités par la douleur.
+ROT normaux. Pas de déficit moteur ni sensitif. Test de Lasègue négatif.
+
+Question 7
+Laquelle des mesures suivantes est la plus appropriée pour la prise en
+charge ?
+A. Alitement
+B. IRM de la colonne lombaire
+C. Education du patient
+D. Oxycodone
+E. Paracétamol
+
+Question 7 Lombalgies aigues non déficitaires (sans redflags)
+• Pas d’imagerie d’emblée (CAVE Mme Poly > 50 ans)
+• CAVE Mme Poly > 50 ans → si <20 ou >50 ans : Rx colonne lombaire et +/- IRM à envisager en 2ème
+
+• TTT non pharmacologique recommandé en 1ère intention (médecine manuelle,
+étirements lombaire, chaleur locale) et éventuellement patch capsaïcine
+• En 2ème intention, en cas d’échec des ttt de 1ère ligne : AINS (paracétamol non
+recommandé). Myorelaxants. Opiacés pas/peu efficaces.
+• Informer les patients sur le pronostic favorable de la lombalgie aiguë (à 1 mois).
+• Le repos au lit augmente la douleur et diminue la récupération fonctionnelle.
+Encourager les patients à rester le plus actif possible.
+• Les lombalgies aiguës (≤ 4 semaines) non déficitaires et sans redflags peuvent
+être prise en charge conservativement sans imagerie.
+
+Question 7
+Lombalgie aigue : redflags
+
+- âge >50 ou <20 ans
+- fracture/tassement : trauma, ostéoporose, prise de corticoïdes au long cours
+- néoplasie : perte pondérale inexpliquée, douleurs nocturnes constantes, cancer
+actif ou atcd
+- infection : EF, infection urinaire ou cutanée, geste invasif local récent, usage
+substances IV, douleur inflammatoire nocturne ou au repos
+- atteintes neuro compressives : anesthésie en selle, troubles sphinctériens,
+déficit moteur <M3, paresthésie, aréflexie, déficit moteur en <24h progressif ou
+polyradiculaire.
+
+Question 8
+Mme Poly a 76 ans. Elle présente des palpitations occasionnelles. Sa BPCO est
+stable, elle n’a pas de symptôme respiratoire. Elle est connue depuis 3 ans pour
+une HTA. Son traitement habituel est une bithérapie LABA-LAMA, un IECA et
+du métoprolol.
+A l’examen physique, la fréquence cardiaque est irrégulière à 75/minute. ; les
+autres paramètres vitaux sont dans la norme. L’auscultation cardiaque révèle
+des bruits cardiaques irréguliers, sans souffle ni galop. Il n’y a pas de signe
+clinique d’insuffisance cardiaque.
+Un ECG est effectué.
+
+Question 8
+
+Question 8
+L’ ECG montre :
+A. Des extra-systoles auriculaires
+B. Une fibrillation auriculaire à réponse ventriculaire à 75/min
+C. Un flutter auriculaire typique à conduction 3:1
+D. Un bloc atrio-ventriculaire
+Wenckenbach
+
+du
+
+2ème
+
+degré
+
+avec
+
+phénomène
+
+de
+
+Question 8
+L’ ECG montre :
+A. Un rythme sinusal
+B. Une fibrillation auriculaire à réponse ventriculaire à 75/min
+C. Un flutter auriculaire typique à conduction 3:1
+D. Un bloc atrio-ventriculaire
+Wenckenbach
+
+du
+
+2ème
+
+degré
+
+avec
+
+phénomène
+
+de
+
+Question 8
+Fibrillation auriculaire
+Rythme ventriculaire irrégulièrement irrégulier.
+Pas d’ondes P à proprement parler. Activation continue et très rapide de multiples foyers
+ectopiques au niveau des oreillettes. Aucune stimulation ne parvient à entraîner la
+dépolarisation complète des oreillettes et seulement occasionnellement une impulsion atriale
+parvient à franchir le NAV pour stimuler les ventricules, entraînant une arythmie ventriculaire
+(rapide ou lente mais toujours irrégulière.)
+
+Question 8
+Rythme sinusal
+Nœud SA élabore des impulsions régulières (60-100/min) entraînant la contraction des
+oreillettes. Forme l’onde P. Une onde P avant chaque QRS et un QRS après chaque P.
+Ondes P monomorphes, positives en D1 et V1.
+
+Question 8
+Phénomène de Weckenbach
+Bloc AV du 2ème degré (Mobitz I) caractérisé par l’allongement progressif de
+l’intervalle PR jusqu’à ce que le nœud AV ne soit plus traversé (absence de
+QRS; jusqu’à ce qu’une onde P ne soit pas suivie d’un QRS)
+
+Question 8
+Le bloc de branche droit (BBD)
+Blocage de la dépolarisation dans la branche droite du faisceau de His. Le VD
+se dépolarise avec retard. Le diagnostic d’un BB repose sur l’élargissement
+du QRS (>120 msec), puis recherche dans les dérivations V1 et V2
+(précordiales D) et dans les dérivations V5 et V6 (précordiales gauches)
+l’aspect R-R’. Si aspect R-R’ en V1-V2 = BBD
+
+Question 9
+Mme Poly présente donc une fibrillation auriculaire à réponse ventriculaire
+normocarde à 75/min.
+Quelle prise en charge est maintenant la plus appropriée ?
+A. Ajouter de l'aspirine
+B. Effectuer une cardioversion urgente
+C. Augmenter la dose de métoprolol
+D. Introduction d'une anticoagulation orale
+E. Rassurer la patiente
+
+Question 9
+En cas de FA stable, les principaux objectifs de la prise en charge sont:
+
+1) prévention du risque cardio-embolique (AVC)
+• CHA2DS2-VASc ≥2 (hommes) et ≥3 (femmes)
+
+2) contrôle de la FC
+• FC cible < 100-110 bpm/min ttt initial si asymptomatique et FEVG préservée vs cible
+<80 bpm/min si symptomatique. Adaptation selon symptômes à l’effort.
+
+3) prise en charge symptomatique
+4) prise en charge des facteurs de risque sous-jacents
+• Diabète, obésité, HTA, coronaropathie, IC, SAOS
+
+Question 10
+Mme Poly, 78 ans, connue pour une BPCO, une HTA et une FA paroxystique consulte
+en raison d’une dyspnée d’effort évoluant depuis 6 semaines. Pas d’augmentation de
+toux ni des expectorations. Ses traitements sont : LABA-LAMA, lisinopril, métoprolol
+et apixaban (ACOD)
+À l'examen physique, TA 148/90 mm Hg, autres signes vitaux normaux. B4 à
+l’auscultation cardiaque, pas de souffle. Râles fins aux 2 bases pulmonaires, pas de
+sibilances. OMI péri-malléolaires bilatéraux prenant le godet. Pro-BNP 800 ng/L (norme
+<300). FA à réponse ventriculaire à 75/min et signes d’hypertrophie du ventricule
+gauche.
+
+L'échocardiographie transthoracique montre une fraction d'éjection du ventricule
+gauche à 60% et une augmentation de l'épaisseur de la paroi ventriculaire gauche.
+
+Question 10
+Lequel des diagnostics suivants est le plus probable ?
+
+A.
+
+Insuffisance cardiaque avec fraction d'éjection préservée
+
+B.
+
+Insuffisance cardiaque à fraction d’éjection diminuée
+
+C.
+
+Exacerbation de BPCO
+
+D.
+
+Embolie pulmonaire
+
+Question 10
+Une HFpEF doit être suspectée si 3 critères suivants : symptômes
+d'insuffisance cardiaque, FEVG ≥ à 50 % et absence d'autre cause alternative
+pouvant expliquer les symptômes.
+
+ESC 2023
+
+Question 10
+
+ESC 2023
+
+Question 10
+
+ESC 2023
+
+Question 10
+
+ESC 2019
+
+Question 10
+HTA traitement de fond
+ISH 2020
+
+Question 11
+Mme Poly, 80 ans, connue pour une BPCO, une insuffisance cardiaque à FEVG conservée
+avec une HTA et une fibrillation auriculaire paroxystique ainsi qu’une incontinence urinaire
+est hospitalisée pour une insuffisance cardiaque décompensée avec introduction de
+furosémide IV.
+Une sonde urinaire est mise en place pour surveillance de la diurèse.
+
+Question 11
+Laquelle des mesures suivantes est la plus appropriée pour prévenir une
+infection urinaire ?
+A. Administrer du triméthoprime-sulfaméthoxazole à titre prophylactique.
+B. Contrôler l'analyse d'urine et la culture d'urine au troisième jour du
+cathétérisme
+C. Retirer la sonde urinaire
+D. Remplacer la sonde urinaire à demeure par une sonde enduite
+d'antiseptique
+
+Question 11
+• En l’absence d’indication formelle à une SU, celle-ci doit être retirée (risque CA-UTI)
+• Indications SU à l’hôpital
+• Surveillance stricte de la diurèse aux soins intermédiaires ou intensifs
+• Escarre sacré stade III-IV et incontinence
+• L’incontinence urinaire seule n’est pas une indication
+• Pas d’indication à une antibioprophylaxie en cas de SU (risque résistances bactériennes)
+• Analyses urinaires de routine, sans symptômes non recommandées (colonisation versus
+infection)
+
+• Les cathéters imprégnés d'antimicrobiens n’ont pas démontré qu'ils réduisaient les infections
+urinaires ni les bactériémies associées aux cathéters urinaires
+
+Question 12
+Mme Poly, 80 ans, souffre à présent d’une insuffisance cardiaque à fraction d’éjection
+diminuée (HFrEF). Elle rapporte une dyspnée d’effort lorsqu’elle porte ses courses, qui est
+stable. Elle n’a pas d’autre plainte. Son traitement habituel est le suivant : LABA-LAMA
+lisinopril à doses maximales, métoprolol, spironolactone, dapaglifozine (iSGLT2), torasémide
+et apixaban (ACOD)
+À l'examen physique, TA 112/72 mm Hg, FC 60/min. Reste de l'examen clinique sans
+particularité. Au laboratoire, la fonction rénale est normale. Une récente échocardiographie a
+montré une FEVG de 37%.
+
+Question 12
+Lequel des traitements suivants est le plus approprié ?
+A. Ajout de digoxine
+B. Ajout d’un antagoniste des récepteurs de l'angiotensine (sartan/ARA2)
+C. Augmentation de la dose de métoprolol
+D. Passer du lisinopril au valsartan-sacubitril
+
+Question 12
+• Le valsartan-sacubitril réduit les hospitalisations pour IC et la mortalité
+chez les patients avec HFrEF symptomatique (NYHA > II). Il est
+recommandé de remplacer l’IECA ou le Sartan par ce traitement.
+• En cas de diagnostic récent d’HFrEF, l'instauration directe de valsartansacubitril, plutôt qu'un prétraitement avec un IEC ou ARA2, est une
+stratégie sûre et efficace.
+• La digoxine réduit le risque d'hospitalisation pour IC mais n'affecte pas la
+mortalité. La toxicité de la digoxine est fréquente et le risque est accru
+chez les patients, surtout si insuffisance rénale.
+• Pas d’indication à un double blocage SRAA (IEC+ARA2) vu risque
+insuffisance rénale et hyperkaliémie.
+
+Question 13
+Mme Poly, 84 ans, est évaluée deux jours après une hospitalisation pour
+pneumonie, traitée initialement par ceftriaxone clarithromycine. Clarithromycine
+stoppée car antigène urinaire Legionelle négatif. Son état clinique s'est
+amélioré et elle est capable de manger et de s'hydrater par voie orale.
+À l'examen physique, °T 37,7 °C, TA 126/84 mmHg, FC 82/min et FR 15/min.
+Sp02 98 % en air ambiant. Râles crépitants base pulmonaire droite.
+Au laboratoire, les leucocytes totaux sont à 9,7 G/L (15 G/L à l’admission)
+La radio du thorax à l'admission montre un infiltrat du lobe inférieur droit, sans
+épanchement pleural.
+
+Question 13
+Quelle est la prise en charge la plus appropriée à ce stade ?
+A.
+B.
+C.
+D.
+
+Continuer la ceftriaxone
+Mesurer le taux de procalcitonine
+Répéter la radiographie pulmonaire
+Passer à la co-amoxicilline par voie orale
+
+Question 13
+• Les facteurs justifiant le passage d'un ttt IV à PO sont :
+• Amélioration clinique : °T ≤38 °C
+• Amélioration biologique : diminution des leucocytes, amélioration clinique
+• Capacité de prise PO, absence d'indication pour un ttt IV (p.ex : endocardite, bactériémie S.
+aureus) et disponibilité alternative orale bonne biodisponibilité
+• Versus risque maintient ttt IV (risqué lié au catheter p.ex)
+• Pas recommandé de répéter la radiographie en cas de pneumonie avec clinique en amelioration..
+• Il est peu probable que le dosage de la PCT influence la prise en charge, vu la durée de ttt qui va
+être de 5-7 jours max et n’informe pas sur l’indication à passer de IV à PO.
+
+Question 14
+Mme Poly, 85 ans, est évaluée en raison de vertiges et d’une confusion survenus 2 semaines
+après l’augmentation du dosage de son traitement habituel de torasémide. Le reste de son ttt
+habituel consiste en : LABA-LAMA, métoprolol, spironolactone, dapaglifozine, sacubitrilvalsartan, apixaban et gabapentine (depuis une année pour des névralgies post-zoostériennes)
+
+A l’examen clinique : Etat général diminué. Paramètres vitaux dans la norme. Test de Schellong
+négatif. FC irrégulière mais normocarde. Le reste de l’examen physique non contributif. Au labo,
+la créatininémie est passée d’une valeur habituelle de 80 umol/l à 140 umol/l. Le reste des
+analyses sanguines est dans la norme.
+
+Question 14
+Quelle est la cause la plus probable expliquant les symptômes de Mme Poly ?
+A. Une insuffisance cardiaque
+B. Une hémorragie intra-cérébrale
+
+C. Un effet indésirable médicamenteux
+D. Une pneumonie
+
+Question 14
+• >10% des patients de >65 ans ont >10 médicaments/semaine. Les effets
+indésirables médicamenteux (EI) dans cette population représente jusqu’à 10%
+des consultations aux urgences et jusqu’à 17% des hospitalisations.
+• Une revue du ttt habituel, surtout si >65 ans devrait être faite de routine pour
+éviter la polymédication et les risques d’ EI liés.
+• La polypharmacie/polymédication est un problème fréquent parmi la population
+gériatrique, définie par >5 médicaments prescrits. De plus, la transition de soins
+(sortie d’hospitalization) est associée à une augmentation du nombre de
+medications prescrites et des erreurs dans la reconciliation médicamenteuse.
+
+Question 15
+Mme Poly, 89 ans est évaluée par son médecin traitant après sa sortie
+d’hospitalisation. Quatre semaines auparavant elle s’est fracturé la hanche
+droite en tombant la nuit, en se precipitant pour aller uriner car elle présente
+une incontinence urinaire de type urge. Son traitement habituel est :
+métoprolol, apixaban et du zolpidem en réserve pour le sommeil qui lui a été
+prescrit durant son hospitalisation.
+Les paramètres vitaux sont dans la norme et l’examen physique sans
+particularité. La cicatrice chirurgicale au niveau de sa hanche droite est calme,
+sans signe d’infection.
+
+Question 15
+Afin de minimiser le risque de chute de Mme Poly, quelle est la prise en
+charge la plus adaptée à ce stade?
+
+A. Introduire de oxybutynin pour le traitement l’incontinence urinaire
+B. Introduire une supplémentation en vitamine D
+
+C. Stopper le zolpidem
+D. Stopper le metoprolol
+
+Question 15
+• Une revue du traitement est nécessaire avec l’arrêt des médicaments inappropriés pour les
+patients âgés, notamment lors des phases de transitions entre l’hôpital et le retour à
+domicile.
+• Les critères Beers (The 2019 Beers Criteria for Potentially Inappropriate Medication Use in
+Older Adults from the American Geriatrics Society) fournissent des recommendations
+concernant les médicaments potentiellement inappropriés et le risque d’interactions
+médicamenteuses.
+• Zolpidem
+• Benzodiazépines
+• anti-histaminique de 1ere génération (diphenhydramine)
+• anti-dépresseurs tricycliques, anti-psychotiques.
+
+

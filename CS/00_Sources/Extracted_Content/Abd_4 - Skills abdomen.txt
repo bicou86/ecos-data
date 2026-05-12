@@ -1,0 +1,1507 @@
+Skills abdomen
+Table des matières
+Général.................................................................................................................................................1
+1) Anamnèse ciblée..............................................................................................................................1
+2) Examen de l'abdomen......................................................................................................................4
+2.1) Marche à suivre........................................................................................................................5
+3) Tableaux cliniques typiques.............................................................................................................9
+3.1) Douleurs oesophagiennes et sous-diaphragmatiques.............................................................15
+3.2) Douleurs abdominales non-digestives....................................................................................16
+3.3) Douleurs par localisation........................................................................................................17
+4) Théorie...........................................................................................................................................18
+
+Général
+Dans cet examen, il est particulièrement important de mettre le patient le plus à l'aise possible,
+autrement il contractera sa musculature, sursautera, etc. et on ne sentira rien ! Du coup, ça vaut la
+peine de lui demander s'il n'aurait pas besoin d'aller au toilettes pour uriner, de lui demander s'il a
+froid, de réchauffer le stéthoscope avant de toucher le patient avec, de réchauffer ses mains avant de
+toucher le patient, etc.
+
+1) Anamnèse ciblée
+0) Entrée :
+–
+
+Se désinfecter les mains
+
+–
+
+Saluer le patient et se présenter
+
+–
+
+Demander au patient la confirmation de son identité
+
+–
+
+Expliquer la situation (= annoncer pourquoi on est là et quel examen on va faire) et
+demander l'accord du patient
+
+–
+
+Demander au patient d'enlever son T-Shirt et de s'allonger en décubitus dorsal, les bras
+le long du corps, tout en étant totalement détendu (= position de base pour effectuer tout
+status), même s'il a mal et veut se recroqueviller ! Typiquement, à l'ECOS, le patient ne
+prendra pas cette position !
+Les femmes n'ont pas besoin d'enlever leur soutien-gorge pour cet examen.
+Pour bien observer la région inguinale, il faut demander au patient de déboutonner le
+premier bouton de son pantalon et d'ouvrir sa ceinture
+
+–
+
+Se positionner face au patient, ni trop loin, ni trop près, et poser sa bouteille d'eau
+quelque part
+
+1) Anamnèse actuelle
+–
+
+« Dites-moi ce qui vous amène ? »
+
+2) Caractérisation de la douleur
+–
+
+1) Localisation et irradiation
+– Typiquement, les douleurs abdominales sont très vagues, mais elles peuvent
+parfois se préciser avec le temps ; c'est le cas de l'appendicite : au début, la
+Page 1 sur 19
+
+douleur est souvent péri-ombilicale (= inflammation du péritoine viscéral, qui
+n'offre qu'une douleur référée), puis, avec le temps, elle va gentiment migrer en
+fosse iliaque droite (= l'inflammation se transmet au péritoine pariétal et à la
+paroi, qui eux ont une innervation somatique précise)
+
+–
+
+–
+
+2) Qualité (serrement, colique, brulure, décharge électrique, piqure, coup de poignard,
+déchirement, etc.) et caractère (douleur ondulante, persistante, etc.)
+– Typiquement, une perforation (vésicule biliaire, appendicite, estomac, etc.) se
+comportera avec une douleur intense augmentant rapidement (= perforation et
+dommages à la paroi de l'organe), qui va ensuite graduellement augmenter plus
+lentement avec le temps (= douleur inflammatoire qui reprend) ; des coliques
+(biliaires, néphrétiques, iléus, etc.) vont elles typiquement se manifester en
+ondulant, alternant des phases sans douleur avec des phases très douloureuses ;
+finalement, une inflammation (appendicite, cholécystite, pancrétatite, etc.) va elle
+être persistante (légèrement ondulante) et devenir de plus en plus forte
+3) Intensité (échelle de 0 à 10) et évolution
+–
+
+–
+
+Exemplifier l'échelle ou au moins dire « 0 étant une absence de douleur et 10 une
+douleur insoutenable/la pire douleur qui soit ». Il est aussi important de se
+renseigner si la douleur évolue avec le temps, par exemple si elle augmente avec
+le temps (= va en crescendo) ou si elle reste identique, se calme avec le temps,
+etc.
+La douleur est aussi un point important où demander comment le patient se sent
+vis-à-vis d'elle et comment il vit cette douleur !
+
+4) Condition de survenue
+–
+
+Qu'est-ce qui a déclenché ce problème ? Depuis quand est-il apparu, pourquoi et
+Page 2 sur 19
+
+a-t-il évolué depuis ? Faire des liens !
+–
+
+5) Chronologie (début, fin, durée, fréquence)
+–
+
+–
+
+Essayer d'approfondir les conditions de survenue, pour savoir si la douleur
+apparaît avec un effort (si oui quel genre), si elle apparaît au repos, dans une
+certaine position, avec le froid, quand on avale, avec certains mouvements, après
+manger, etc. Demander si la douleur apparaît aussi lorsqu'on presse sur le point
+douloureux ou non, pendant la respiration, etc.
+
+–
+
+6) Facteurs le modifiant (aggravant ou soulageant)
+
+–
+
+7) Manifestations associees = autres douleurs/éléments liés au problème
+–
+
+7.1) Fatigue
+
+–
+
+7.2) Vertiges, nausée
+
+–
+
+7.3) Fièvre, frissons
+
+–
+
+7.4) Modifications de l'appétit, perte de poids
+
+–
+
+7.5) Odyno-dysphagies (= douleurs et/ou peine à avaler) et pyrosis 1 (= renvois
+acides)
+
+–
+
+7.6) Fonction intestinale (allé à selles ? Gaz ?)
+
+–
+
+7.7) Ictère
+
+Bonus :
+–
+
+1) Comment le patient vit-il la douleur ?
+
+–
+
+2) Est-ce que c'est la première fois que ces douleurs apparaissent ? Si oui, creuser vers
+les hospitalisations, opérations, etc.
+
+–
+
+3) Est-ce que la situation a évolué entre avant et maintenant ?
+
+–
+
+4) Un membre de la famille aurait-il déjà été touché par cette maladie ?
+
+–
+
+5) Avez-vous déjà pris des médicaments depuis ? Si oui, ont-ils eu un effet sur cette
+douleur ?
+
+–
+
+6) Est-ce qu'il y aurait eu un événement précédent cette douleur/quelque chose de
+particulier qui se serait passé dans les derniers mois/semaines/jours ?
+
+3) Input – output
+–
+
+–
+
+1) Dernier repas
+–
+
+1.1) Mangé (les personnes avec mal de ventre ne mangent souvent pas ou très
+peu !)
+
+–
+
+1.2) Bu
+
+–
+
+1.3) Date
+
+–
+
+1.4) Type
+
+2) Brulures, nausées, vomissements
+–
+
+2.1) Début (+ avant ou après avoir mangé ? Après signerait plutôt un problème
+
+1 Caractérisation décrite en 1.1
+
+Page 3 sur 19
+
+gastrique !)
+–
+
+2.2) Description du contenu et de l'aspect (hématémèse ? Bile ? Contenu du
+repas ?)
+
+–
+
+3) Troubles du transit et gaz (fréquence normale 10 à 12 par jour ; derniers gaz ?)
+
+–
+
+4) Selles
+
+–
+
+–
+
+–
+
+4.1) Changement par rapport à avant
+
+–
+
+4.2) Fréquence et régularité (normal : entre 3 par jour et une fois tous les 3 jours)
+
+–
+
+4.3) Consistance (saucisson, bloc de marbre, pétoles, etc.) (selon score de
+Bristol)
+
+–
+
+4.4) Couleur (hématochésie (= sang frais dans les selles), méléna (selles noires à
+cause d'une hémorragie du tractus digestif supérieur ou d'un excès de fer (≠
+méléna))
+
+–
+
+4.5) Odeur (ex. : pancréatite qui provoque une stéatorrhée qui rend les selles très
+odorantes)
+
+–
+
+4.6) Sang (dans la cuvette ? Sur le papier ? Mêlé aux selles ?)
+
+–
+
+4.7) Date des dernières selles
+
+5) Plaintes urinaires
+–
+
+5.1) Fréquence
+
+–
+
+5.2) Douleur
+
+–
+
+5.3) Odeur
+
+6) Éléments féminins
+–
+
+6.1) Pertes vaginales
+
+–
+
+6.2) Dernières règles/test de grossesse
+
+4) Antécédents personnels
+–
+
+1) Maladies, traitements et médicaments
+
+–
+
+2) Les accidents et les blessures
+
+–
+
+3) Les opérations
+
+–
+
+4) Les hospitalisations
+
+–
+
+5) La dernière fois que la personne est allée chez le médecin, quand et pourquoi
+
+–
+
+6) Allergies
+
+2) Examen de l'abdomen
+Il faut faire attention au fait que l'ordre des examens est ici différent de l'ordre retrouvé dans les
+skills pulmonaire, cardiaque et des vaisseaux !
+Comme dans tous les examen de l'ECOS de cette année, il est capital de toujours prévenir le patient
+de ce qu'on va faire (près de la moitié des points passent dans la communication !), d'expliquer à
+haute voix ce qu'on recherche et ce qu'on voit. Il faut aussi donner l'impression au patient qu'on est
+Page 4 sur 19
+
+là que pour lui et qu'on ne s'occupe que de lui pour le bref instant pendant lequel on est avec lui.
+Pour toutes les différentes parties de l'examen, on commencera toujours du côté opposé à l'endroit
+où le patient décrit une douleur. Pour la description du lieu de la douleur, ne pas hésiter à demander
+au patient de pointer du doigts l'endroit en question ou en tout cas de le délimiter avec son doigt si
+la douleur est diffuse, car on va essayer d'éviter de lui appuyer directement là où il a mal !
+Il faut aussi bien tenir ses mains quand on ne fait rien avec.
+On parle au patient et pas au ventre !
+
+2.1) Marche à suivre
+Dans un status ciblé, il ne sert à rien d'effectuer des tests inutiles comme la palpation de la rate en
+cas de douleur claire en FID ! De plus, Hahnloser dirait que faire le signe de Murphy serait aussi
+inutile en cas de suspicion d'appendicite
+1) Inspection :
+–
+
+Demander au patient s'il a mal quelque part, que ce soit à l'abdomen ou aux reins
+
+–
+
+Visage
+
+–
+
+–
+
+–
+
+–
+
+–
+
+Signes de douleur
+
+–
+
+Signes de malaise
+
+–
+
+Respiration difficile
+
+Peau
+–
+
+Cicatrices ; on dit ce qu'on fait, on dit qu'on voit/ne voit rien et on demande la
+confirmation, car les cicatrices d'appendicites sont par exemple très discrètes !
+
+–
+
+Vergetures
+
+–
+
+Veines dilatées (caput medusae)
+
+–
+
+Lésions cutanées
+
+–
+
+Ictère
+
+Ombilic
+–
+
+Localisation
+
+–
+
+Aspect
+
+–
+
+Couleur
+
+–
+
+Hernie visible/voussure
+
+Allure de l'abdomen
+–
+
+Plat, bombé
+
+–
+
+Protubérant
+
+–
+
+Symétrique
+
+Mouvements
+–
+
+Respiratoires ; normal en étant couché = par le ventre. Une respiration 'par les
+poumons' est typiquement une respiration de quelqu'un qui a mal
+Page 5 sur 19
+
+–
+
+Péristaltiques
+
+–
+
+Pulsatiles
+
+2) Auscultation ; redemander où le patient a mal et commencer par l'autre côté.
+On indiquera les bruits qu'on perçoit suivant leur qualité (= tonalité) et quantité (= fréquence) (ex. :
+pour un iléus, on aura soit un 'Ping ping' très métallique arrivant avec une fréquence élevée (= lutte
+contre un obstacle), soit aucun bruit), en les qualifiant de normo-fréquents et normo-intenses.
+Énoncer le fait que 'Je n'ai pas entendu de bruit suspect, donc tout à l'air normal'.
+Il est pertinent de demander au patient s'il a mangé ou non avant le test, pour savoir si les bruits
+qu'on entend sont cohérents ou non avec la situation du patient :
+–
+
+Écouter successivement les 4 quadrants abdominaux
+–
+
+–
+
+On commence à l'opposé de l'endroit qui fait mal. Il faut bien appuyer le
+diaphragme du stéthoscope contre la peau pour entendre les bruits, qui devraient
+être normalement des cliquetis et gargouillis, entre 5 et 34 fois par minute. On
+doit entendre un bruit dans chaque quadrant, et en l'absence de tout bruit, on peut
+gentiment pistonner l'endroit pour stimuler le péristaltisme
+
+Écouter le foyer aortique
+–
+
+On écoute le foyer aortique au milieu de l'abdomen (meilleur : péri-ombilical
+gauche), avec la cloche, à la recherche d'un quelconque souffle
+
+3) Percussion (on ne percute pas ni la rate, ni les reins) :
+–
+
+Percuter les 4 quadrants
+–
+
+–
+
+On percute successivement les 4 quadrants à la recherche d'air (normal) dans le
+ventre (l'endroit douloureux étant toujours testé en dernier), indiqué par un
+tympanisme. En cas d'ascite, on demandera au patient de se mettre sur la gauche,
+puis la droite et de le percuter à chaque fois ; en effet, l'eau se déplacera avec la
+gravité, changeant les sons de la percussion !
+
+Rechercher le foie
+–
+
+On commence par percuter sous le mamelon, au niveau des poumons, puis on
+descend lentement. On devrait passer d'une sonorité à une matité, puis de la
+matité à un tympanisme. La percussion se fait le long de la ligne médioclaviculaire.
+On peut aussi localiser le foie par la méthode du grattage, c'est-à-dire en mettant
+son stéthoscope au niveau épigastrique, puis en grattant gentiment l'abdomen
+gauche de haut en bas, avec un doigt. Là où le foie est présent, on entend du
+bruit, et autre part non
+
+4) Palpation ; on va ici rechercher des éventuelles résistances, signes par exemple de tumeur, ou
+alors naturellement de la présence du foie, des reins, de la vessie, de ganglions inguinaux, de selles
+dures, du côlon sigmoïde, de la vessie, etc.
+Pendant la palpation, on va également rechercher les signes d'un péritonisme (= irritation
+péritonéale), en le localisant avec la palpation superficielle, puis en le confirmant par une douleur
+lors de la décompression brusque/détente :
+–
+
+Palper superficiellement les 4 quadrants en regardant l'expression du patient
+–
+
+Se fait à une main, le quadrant douloureux en dernier. Elle sert à lever la
+résistance musculaire, identifier les structures superficielles et les masses et à
+Page 6 sur 19
+
+localiser la douleur.
+Pour la technique, il suffit de mettre 3 ou 4 doigts de sa main sur le ventre et de
+gentiment masser
+–
+
+Palper profondément les 4 quadrants en regardant l'expression du patient
+–
+
+–
+
+Défense/détente dans les 4 quadrants
+–
+
+–
+
+Se fait à deux mains, le quadrant douloureux en dernier. Pour toute masse qui
+serait repérée, il faut en préciser la localisation, la forme, la taille (faire des
+analogies ; ex. : comme une pièce de 1fr, etc.), la surface, les contours (diffus ou
+précis), la consistance, la sensibilité (= douleur ou pas douleur), la mobilité et la
+pulsation.
+Pour la technique, on met les mains les unes sur les autres, une explorant et
+l'autre poussant et on explore avec les doigts. On masse comme pour le
+superficiel et on descend gentiment de superficiel à profond
+On enfonce lentement et assez profondément une de ses mains dans un des
+quadrants et on demande si le patient à mal. On va tenir sa main enfoncée dans le
+ventre pendant quelques secondes, puis on va ensuite retirer rapidement sa main
+et redemande si le patient à mal.
+L a defense2 est le mécanisme de défense du corps qui empêche la palpation
+profonde et est surtout un signe d'atteinte du péritoine pariétal. On retrouve une
+contraction involontaire des muscles qui protègent l'endroit inflammé, mais cette
+contraction involontaire peut aussi se retrouver si le patient est stressé, auquel cas
+la palpation superficielle permettra d'abord de détendre la musculature ; de
+même, elle peut être provoquée par une palpation trop brusque !
+La detente vient des feuillets de péritoine qui se frottent ensemble et produisent
+une vive douleur lors de la décompression et est surtout un signe d'atteinte du
+péritoine viscéral. Elle peut apparaître même assez loin de la zone inflammée. On
+pourrait retrouver une « hyperesthésie cutanée »
+
+Recherche d'une appendicite
+–
+
+Signe de McBurney : on localise l'appendicite antérieure en pointant le tiers
+inférieur d'une ligne imaginaire tracée entre l'ombilic et l'épine iliaque antérosupérieure
+
+–
+
+Signe du psoas : on localise l'appendicite postérieure en demandant au patient
+allongé d'essayer d'élever sa cuisse (tendue et complètement droite) contre
+résistance (douleur lançante dans le bas du dos)
+
+5) Examen spécifique du foie, de la rate, des reins et de l'aorte
+–
+
+Foie
+–
+
+Estimer sa taille, sa forme, sa sensibilité et sa consistance.
+On le palpe avec la main droite (en dehors du m. grand droit), la gauche étant
+derrière les 11 à 12ème côtes pour soulever le foie.
+On peut également palper le foie à deux mains, en formant un 'front' avec les
+deux mains, puis en allant explorer la zone sous le rebord costal.
+Comme on ne sait pas si le patient a une hépatomégalie, dans les deux types de
+palpation, on commence depuis ~ l'ombilic, puis on remonte. Si on a de la peine
+à sentir le foie (et surtout pour les patients obèses), on peut demander au patient
+
+2 Autre moyen de la tester : prendre l'abdomen à deux mains et gentiment secouer le ventre
+
+Page 7 sur 19
+
+d'inspirer profondément (= le diaphragme pousse le foie) ou utiliser la 'technique
+du crochet' (= se mettre vers la tête du patient et lui attraper les côtes)
+–
+
+–
+
+Rate (on ne la percute pas)
+–
+
+–
+
+–
+
+Signe de Murphy : dans le but de détecter une affection de la vésicule biliaire
+(majoritairement des cholécystites), on demande au patient d'inspirer, on
+positionne ses deux mains sous le rebord costal, puis on demande au patient
+d'expirer pour nous permettre d'enfoncer les mains, et finalement on lui demande
+de réinspirer, ce qui devrait faire très mal, car l'inspiration pousse le foie (et la
+vésicule biliaire !) sur nos doigts.
+Un signe de Murphy est considéré positif lorsque la manoeuvre provoque une
+douleur et un blocage de l'inspiration
+On positionne sa main gauche derrières les côtes du patient pour pousser la rate
+vers le haut et on essaie de la palper avec la main droite, sous le rebord costal ;
+on demande finalement au patient d'inspirer profondément. Normalement, on ne
+devrait rien sentir, sauf chez les patients très maigres ou avec une splénomégalie,
+qui fait descendre la rate vers le bas à droite
+
+Reins
+–
+
+On essaie de les palper juste après la rate, en utilisant la même technique toujours
+avec la main gauche qui surélève les côtes et la main droite qui palpe. On ne
+devrait pouvoir les palper que si leur taille est augmentée
+
+–
+
+On demande au patient de s'asseoir, puis on se positionne derrière lui. On peut lui
+redemander s'il aurait une douleur dans le dos, vers le bas des côtes, puis on lui
+annonce qu'on va percuter. Pour ce faire, on positionne sa main gauche (~ niveau
+de la 12ème côte) comme enclume (en soulevant légèrement les côtes) sur un des
+reins du patient et on tape modérément comme pour casser des noix. La moindre
+vibration devrait le faire sauter au plafond s'il a une pyélonéphrite
+
+Aorte
+–
+
+Appuyer fermement sur la partie supérieure de l'abdomen, légèrement à gauche
+(peut se faire à une ou deux mains, mais à deux mains c'est plus facile). On
+devrait sentir une petite pulsation ou rien du tout (chez les gens maigres on sent
+cette pulsation assez fort)
+
+6) Orifices herniaires :
+–
+
+Observer les régions abdominale et crurale à la recherche de voussures
+–
+
+–
+
+On a 5 orifices herniaires possibles : épigastrique (fréquent), ombilical (très
+fréquent), inguinal, fémoral et cicatriciel.
+On essaie premièrement de trouver la présence de hernies à l'oeil nu, les 5
+hernies possibles pouvant être facilement visibles.
+Pour détecter la hernie ombilicale, on met un doigt dans le nombril du patient,
+puis on lui demande de relever la tête. Si quelque chose essaie de sortir, c'est un
+alien.
+Pour la hernie inguinale, on demande simplement au patient de relever la tête et
+on observe la région inguinale. On peut aussi suivre le cordon spermatique avec
+son doigt et demander au patient de tousser
+
+Si on voit une hernie, peu importe laquelle, on va toujours se poser ces 3 questions :
+Page 8 sur 19
+
+–
+
+1) Symptomatique ou non (= fait mal ou non ; gêne ou non)
+
+–
+
+2) Réponible (= pas incarcérée) ou non (= incarcérée)
+
+–
+
+3) Si la hernie est incarcérée : strangulée ou non
+
+7) Toucher rectal : on finit avec 'J'ai terminé l'examen de l'abdomen et je transmettrai toutes les
+informations au Dr. X. Je vais maintenant me référer à mon chef, mais je pense qu'un toucher rectal
+serait pertinent'
+
+3) Tableaux cliniques typiques
+Remarque : si ni l'anamnèse, ni l'examen clinique ne nous permettent de classer les patients en SAA
+(Surgical Acute Abdomen) ou en NSAA (Non-SAA), avant de faire des investigations
+supplémentaires, on va calmer la douleur du patient !
+Remarque 2 : en général, on demandera un labo pour tous les patients venant avec un abdomen
+aigu, et on demandera le plus souvent :
+–
+
+Recherche d'inflammation : FSS + CRP
+
+–
+
+Recherche d'anomalies rénales : K+ + Na+ + urée + créatinine
+
+–
+
+Recherche de problèmes hépatiques ou de cholestase : bilirubine + γ-GT + PA (=
+Phosphatase Alcaline) + ASAT + ALAT
+
+–
+
+Recherche de problèmes de coagulation : crase
+
+Tableaux cliniques :
+–
+
+Coprostase/FOSS (= Full Of Shit Syndrome) :
+–
+
+Anamnèse : douleurs abdominales crampiformes, pas de fièvre, pas de CRP ou de
+leucocytose, ballonnée, peut avoir des selles (= même si on est constipé, on peut
+continuer à avoir des selles, mais beaucoup moins que d'habitude !)
+
+–
+
+Clinique : douleurs très diffuses, abdomen souple, sans défense ni détente
+
+–
+
+Toutes les douleurs gynécologiques, notamment la grossesse et la torsion ovarienne !
+
+–
+
+Appendicite :
+–
+
+Anamnèse : douleur continue tout d'abord vague et périombilicale, se localisant en
+FID avec le temps, accompagnée de vomissements, nausée, un arrêt du transit (pas
+nécessairement), une fièvre et une tachycardie. Touche le plus souvent les sujets
+jeunes et masculins
+
+–
+
+Clinique : signe de défense et de détente en FID. D'après papa, la détente
+controlatérale est le signe qui tue pour détecter les appendicites !
+
+–
+
+Examens complémentaires : si gros doute, demander des US en complément
+(recherche du 'signe du cocarde'), et si les US ne sont pas clairs ou ne donnent rien,
+passer au CT
+
+–
+
+Remarque : si l'appendicite est localisée et n'a pas encore perforé, la douleur (ainsi
+que défense et détente) se concentreront le plus souvent en FID. Si l'appendicite se
+complique et perfore, tout le ventre sera douloureux
+
+Page 9 sur 19
+
+–
+
+–
+
+–
+
+–
+
+Perforation (le plus souvent gastrique) :
+–
+
+Anamnèse : douleur subite, rapidement croissante, localisée de manière épigastrique,
+sans vomissements, avec nausées, une fièvre et une tachycardie. On peut retrouver
+une prise d'AINS, qui favorisent grandement les risques d'ulcère gastrique/duodénal !
+Touche 3 fois plus fréquemment les hommes
+
+–
+
+Clinique : signe de défense et de détente dans l'épigastre et absence de bruits
+intestinaux
+
+–
+
+Examens complémentaires : il faut systématiquement demander au moins une radio
+thoracique debout (le mieux, rechercher d'accumulation d'air sous les coupoles
+diaphragmatiques), sur le côté ou couché (recherche du signe de Rigler/de la double
+paroi abdominale) (et pas un ASP) pour repérer le pneumopéritoine ; autrement, si
+on ne sait toujours pas quoi faire, demander un CT
+
+Diverticulite (le plus souvent sigmoïde)3 :
+–
+
+Anamnèse : douleur constante durant plusieurs jours, augmentant soudainement en
+intensité, souvent en FIG, sans vomissements, sans problèmes de selles, avec fièvre.
+En cas de fistule avec la vessie, on peut retrouver une pneumaturie. La diverticulite
+touche plus souvent les personnes plus âgées avec régime pauvre en fibres
+
+–
+
+Clinique : signe de défense et de détente en FIG
+
+–
+
+Examens complémentaires : CT avec produit de contraste dans l'anus à la recherche
+de diverticules (paroi très fine, souvent avec un peu d'air dedans), abcès, oedèmes ou
+épaississement (presque à chaque fois) de la paroi du sigmoïde (le plus souvent). Le
+traitement est primairement conservateur, sauf en cas de complication (abcès > 4cm,
+fistule, sténose et ) ou si récidivant (> 4 poussées) ou si la personne est jeune (< 50
+ans)
+
+–
+
+Remarque : triade typique : fièvre + douleurs en FIG + arrêt du transit
+
+Iléus :
+–
+
+Anamnèse : douleurs crampiformes depuis plusieurs jours (mais peuvent aussi être
+aigües !), en augmentation (pas toujours), péri-ombilicales, sans irradiation, qui
+diminuent une fois que le patient est couché, sans fièvre (mais parfois leucocytose),
+mais souvent avec un arrêt du transit (touche parfois gaz, surtout selles) qui est arrivé
+avant ou en même temps que les douleurs, parfois hernies. Dans 75% des cas, les
+patients ont déjà eu une opération abdominale auparavant ! Les deux symptômes les
+plus retrouvés sont la douleur (> 90%) et les vomissements (70%), moins le
+météorisme (50%) et les arrêts du transit (30%)
+
+–
+
+Clinique : pas de signe de défense et de détente (on peut quand même parfois les
+retrouver, surtout dans les iléus de strangulation !), douleur diffuse dans l'abdomen et
+météorisme (= bruit entendu à la percussion avec une grande quantité d'air présente
+dans les intestins), « ting-ting » très métallique si iléus obstructif, sinon moins/aucun
+bruit si iléus paralytique
+
+–
+
+Examens complémentaires : si tous les autres signes restent peu clairs, demander un
+CT
+
+Ischémie mésentérique aigüe :
+
+3 Diagnostic posé uniquement avec l'anamnèse !
+
+Page 10 sur 19
+
+–
+
+–
+
+Anamnèse : douleurs atroces, ne diminuant pas avec les antalgiques puissants
+comme la morphine, sans localisation précise. Toujours rechercher si ces patients ont
+une ischémie mésentérique chronique (50% !), des signes de thrombose artérielle
+(déjà eu une thrombose artérielle ou ischémie mésentérique chronique), embolie
+artérielle (patients âgées, FA, infarctus, AVC, embolie concomitante, déjà eu une
+embolie, etc.) et de thrombose veineuse (femme, enceinte, contraceptifs, trauma,
+inflammations, post-opératoire, etc.). Ce sont surtout les femmes âgées qui sont
+touchées. Souvent présence d'une forte leucocytose
+
+–
+
+Clinique : pas de péritonisme et ventre très souple
+
+–
+
+Examens complémentaires : angio-CT (ou très rarement angio-IRM) pour repérer
+des calcifications, caillots, embols, etc.
+
+–
+
+Remarques : les signes cardinaux d'une ischémie mésentérique sont une discrépence
+entre les symptômes cliniques (= ventre souple, pas de péritonite) et l'état général
+(douleur atroce), une douleur atroce et une forte leucocytose.
+Dans les ischémies mésentériques chroniques, on retrouve une « fear for food » à
+cause d'un angor intestinal/claudication post-prandiale apparaissant après que les
+patients aient mangé
+
+Abcès post-opératoire :
+–
+
+–
+
+–
+
+Peut faire une douleur diffuse, avec ou sans signe de défense et/ou de détente
+
+Choliques hépatiques :
+–
+
+Anamnèse : douleurs à 10/10 (comme pour les coliques néphrétiques), d'apparition
+subite, rapidement insoutenables, dans l'hypochondre droit ou dans l'épigastre,
+pouvant irradier vers l'omoplate. On peut retrouver une inhibition respiratoire (=
+signe de Murphy) et des nausées/vomissements. Absence de fièvre ou d'ictère et
+spontanément régressives après quelques heures. Peut être déclenché par un repas
+copieux (typiquement la chasse à cause de sa sauce ou la fondue chinoise à cause de
+ses sauces) ou de l'alcool
+
+–
+
+Clinique : le signe de Murphy peut être positif, pas de défense, pas de détente
+
+–
+
+Examens complémentaires : demander des US de l'abdomen
+
+Cholécystite :
+–
+
+Anamnèse : douleurs intenses (à 10/10 si choliques hépatiques concomitantes), très
+souvent post-choliques hépatiques ou lithiases vésiculaires. On retrouve de la fièvre,
+une CRP et des leucocytes élevés
+
+–
+
+Clinique : signe de Murphy souvent positif, parfois défense et/ou détente
+
+–
+
+Examens complémentaires : toujours demander des US d'abord (permet de détecter
+un calcul pas trop bas et de caractériser un hydrops vésiculaire), puis une cholangioIRM si on ne trouve rien
+
+–
+
+Facteurs risque : 6 F : Female, Fertile, Forty, Fat, Family et Fair
+
+–
+
+Remarque : comme les cholécystites sont le plus souvent causées par des lithiases
+vésiculaires se bloquant dans le col vésiculaire ou dans le canal cystique, on retrouve
+rarement des ictères concomitants. Par contre, dans les cholédocholithiases
+(typiquement symptomatologie cholécystite (signe de Murphy compris) + ictère ±
+pancréatite aigüe), on va parfois retrouver une cholécystite, mais beaucoup plus
+Page 11 sur 19
+
+souvent un ictère, absent dans les cholécystites !
+–
+
+–
+
+–
+
+–
+
+Cholangite4 :
+–
+
+Anamnèse : ictère (post-hépatique), urines foncées, selles décolorées, inappétence et
+fièvre. Cette constellation ne peut pointer que vers une cholangite !
+
+–
+
+Clinique : signe de Murphy souvent positif, parfois défense et/ou détente
+
+–
+
+Examens complémentaires : toujours demander des US d'abord (permet de détecter
+un calcul pas trop bas et de caractériser un hydrops vésiculaire), puis une cholangioIRM si on ne trouve rien
+
+Choliques néphrétiques :
+–
+
+Anamnèse : douleurs coliques à 10/10, sans position qui améliore, d'apparition
+subite. Naissent dans le dos, puis peuvent se déplacer en suivant le trajet urétéral.
+Souvent accompagnées de vomissements
+
+–
+
+Clinique : ventre totalement souple, sans défense ni détente ; par contre, on retrouve
+une douleur à la percussion des loges renales, le/les pyélon/pyélons étant sous
+pression !
+
+–
+
+Remarque : des douleurs coliques sans trouble du transit apparent doivent toujours
+faire penser à des coliques néphrétiques ! De plus, une douleur chronique, dans le
+dos, qui répond à la palpation profonde et aux vibrations des reins (cf. C. !) doit faire
+penser à une lithiase chronique !
+
+Pyélonéphrite :
+–
+
+Anamnèse : fièvre (fréquente, alors qu'elle est rare dans les cystites !), douleur dans
+le flanc, nausée/vomissements et éventuellement cystites pouvant l'accompagner (car
+contamination de l'urine qui s'infecte). Le patient peut se plaindre de douleurs
+lombaires à la vibration et/ou aux chocs (ex. : descendre les escaliers)
+
+–
+
+Clinique : ventre totalement souple, sans défense ni détente, sauf éventuellement à la
+palpation bimanuelle des loges rénales. On retrouvera par contre de vives douleurs
+lorsqu'on soumet le patient à des vibrations (ex. : lorsqu'il est couché, passer une
+main au niveau du rein et gentiment pousser le rein vers nous ; on peut aussi le faire
+lorsque le patient est assis et qu'on le secoure/balance un peu) ou à la percussion des
+loges rénales
+
+–
+
+Remarque : si on oublie la palpation ou la percussion des reins, on peut passer à côté
+d'une pyélonéphrite, car cette douleur peut parfois mimer celle d'une appendicite !
+De plus, une pyélonéphrite obstructive (= pyélonéphrite sur obstruction par un calcul
+rénal) = douleur dans les loges rénales + fièvre) est une urgence médicale, à traiter le
+plus rapidement possible par néphrostomie, au risque de perdre le patient en
+quelques heures !
+
+Globe vésical :
+–
+
+Anamnèse : douleur sus-pubienne avec besoin horrible d'aller uriner. Chez une
+personne âgée, peut ne se manifester que par un état confusionnel
+
+–
+
+Clinique : douleur à la palpation, matité à la percussion, masse sus-pubienne
+
+–
+
+Remarque : dans les causes les plus fréquentes, on retrouve les obstructions (HBP,
+
+4 Diagnostic posé uniquement avec l'anamnèse !
+
+Page 12 sur 19
+
+cancer de la prostate, etc.), les vessies neurogènes (spina bifida, sclérose en plaques,
+trauma médullaire, syndrome de la queue de cheval, chirurgie abdominale, etc.) et
+médicamenteuses (neuroleptiques anticholinergiques)
+–
+
+Saignement anal (= sang dans les selles) :
+–
+
+–
+
+–
+
+–
+
+Anamnèse : demander :
+–
+
+Combien
+
+–
+
+Fréquence (tout le temps ? Seulement en allant à selles ?)
+
+–
+
+Associé à... (ex. : douleurs)
+
+–
+
+Anamnèse familiale
+
+–
+
+Antécédents personnels (poussée de RCUH ?)
+
+–
+
+Médicaments
+
+–
+
+On regarde d'abord si le saignement est anal (ordre décroissant de fréquence :
+hémorroïdes > fissure > fistule > proctite). Si ce n'est pas le cas, le saignement est
+soit digestif haut (dans 90% des cas), soit digestif bas.
+Dans un saignement digestif haut, on retrouve : ulcères > érosions (= gastrites ou
+duodénites) > varices > Mallory-Weiss > oesophagites. Dans un saignement digestif
+bas (touche presque exclusivement les personnes âgées), on retrouve : diverticulose
+> angiodysplasies > néoplasies > colites ischémiques > Crohn + RCUH
+
+–
+
+Regarder si le sang est dans la cuvette (souvent hémorroïdes), avec les selles
+(souvent atteinte du côlon), sur les selles (souvent atteinte du rectum) ou digéré dans
+des selles noires (souvent hémorragie digestive haute) permet d'indiquer l'origine du
+saignement
+
+–
+
+Un patient jeune touché par une hémorragie digestive basse aura plutôt tendance à
+souffrir d'un Meckel ou d'une IBD
+
+Dissection aortique :
+–
+
+Anamnèse : douleur très violente, médiane, avec irradiation dorsale. Peut aussi être
+pauci-symptomatique et ne se manifester que par des artériopathies périphériques (=
+douleurs dans les jambes par embols artériels) et une douleur dans le flanc.
+Rechercher les principaux FRCV (homme âgé et fumeur)
+
+–
+
+Clinique : palpation et recherche de souffle. De base, toute masse pulsatile avec des
+douleurs très intenses dans le ventre doit être considérée comme une rupture
+d'anévrisme de l'aorte !
+
+Pancréatite aigüe :
+–
+
+Anamnèse : localisation épigastrique, avec irradiation dans le dos en forme de
+ceinture et souvent accompagnée de vomissements. S’installe en quelques heures,
+voire quelques jours tout au plus
+
+–
+
+Clinique : défense et détente dans toute la partie haute du ventre
+
+Pancréatite chronique :
+–
+
+Anamnèse : douleur varie considérablement, de totalement absente à constante ou en
+crises successives ; la douleur augmente au fur et à mesure des mois/années. Elle est
+souvent de localisation épigastrique, avec irradiation dans le dos en forme de
+Page 13 sur 19
+
+ceinture et est souvent accompagnée de vomissements
+–
+–
+
+–
+
+Clinique : défense et détente dans toute la partie haute du ventre, parfois rien du tout
+
+Ulcère duodénal :
+–
+
+Anamnèse : douleur variable, parfois avec hématémèse (plutôt méléna), rarement
+prise d'AINS. Classiquement, elle est présente à jeun, puis se calme après les repas
+
+–
+
+Clinique : défense épigastrique
+
+–
+
+Examens complémentaires : OGD, IPP et éradication Hp
+
+Ulcère gastrique :
+–
+
+Anamnèse : douleur variable, parfois avec hématémèse (plutôt méléna), avec prise
+d'AINS dans 25%. Classiquement, elle est présente après les repas et est soulagée par
+la prise alimentaire ; elle apparaît aussi typiquement pendant la nuit
+
+–
+
+Clinique : défense épigastrique
+
+–
+
+Examens complémentaires : OGD, IPP et éradication Hp
+
+–
+
+Ventre ballonné : les 6 G : Graisse, Gaga (= FOSS), Gaz, Grossesse, Grandes eaux (=
+liquide libre), Grosse tumeur
+
+–
+
+Crohn :
+–
+
+–
+
+RCUH :
+–
+
+–
+
+Anamnèse : douleur abdominale variable, parfois appendicite-like, souvent
+diarrhées, rarement du sang, parfois des constipations. Symptômes extra-digestifs
+(articulaires, oculaires, osseux, cutanés, etc.), souvent perte de poids. Crohn péri-anal
+dans 30% des cas, se déclarant dans 50% du temps avant la maladie !
+Anamnèse : douleur abdominale variable, parfois diarrhées, quasi-systématiquement
+du sang, jamais de constipation (ou méga-côlon !). Symptômes extra-digestifs
+(articulaires, oculaires, osseux, cutanés, etc.), souvent perte de poids
+
+Côlon irritable (constipation, diarrhée ou mixte) :
+–
+
+Anamnèse : diagnostic purement anamnestique, reposant en partie sur l'exclusion
+d'autres maladies. Touche plutôt les patients jeunes et, selon les critères de Rome
+IV : douleurs abdominales au moins une fois par semaine depuis 3 mois, avec (2 ou
+plus) (1) douleurs en lien avec la défécation (ex. : peuvent être soulagées après
+défécation), (2) anomalie de la fréquence ou (3) anomalie de la forme/apparence des
+selles. On a typiquement une absence de symptômes nocturnes, d'amaigrissement, de
+fièvre, de sang dans les selles, etc. (= de symptômes organiques qui pourraient par
+exemple évoquer une maladie inflammatoire intestinale). On retrouve typiquement
+des flatulences, des ballonnements (= météorisme).
+Une gastro-entérite bactérienne, une prise récente d'antibiotique et une mauvaise
+qualité de vie augmentent les risques de survenue !
+
+Différents types de douleurs et leurs DD :
+–
+
+1) Agonique (= très rapidement à 10/10 et se maintient) :
+–
+
+Rupture d'anévrisme
+Page 14 sur 19
+
+–
+
+–
+
+–
+
+Appendicite phlegmoneuse
+
+–
+
+Perforation (gastrique)
+
+–
+
+Torsion testiculaire ou ovarienne
+
+2) Constante et progressive
+–
+
+Diverticulite
+
+–
+
+Pyélonéphrite
+
+–
+
+Ischémie mésentérique
+
+–
+
+Cholécystite (≠ coliques biliaires !)
+
+3) Variable (= les coliques)
+–
+
+Coliques digestives
+
+–
+
+Coliques néphrétiques
+
+–
+
+Coliques biliaires
+
+3.1) Douleurs oesophagiennes et sous-diaphragmatiques
+Remarque : une douleur oesophagienne peut mimer une douleur cardiaque, mais on peut les
+distinguer par :
+–
+
+Douleurs œsophagiennes plutôt en lien avec les repas vs douleurs cardiaques plutôt en
+lien avec l'effort
+
+–
+
+Douleurs oesophagiennes toujours au milieu du thorax vs douleurs cardiaques qui
+peuvent aller dans le thorax, les bras, la mâchoire, etc.
+
+On en retrouve principalement 3 grands types de douleurs oesophagiennes :
+–
+
+1) Reflux gastro-oesophagien/RGO5 : brulure rétro-sternale (= pyrosis) + régurgitations
+acides = RGO dans > 95% des cas ! On peut également retrouver des douleurs rétrosternales, une dysphagie et une hématémèse (rare, le plus souvent en marc de café).
+Souvent après un repas ou en lien avec, déclenché par les changements de position ou
+certaines positions (couché ou penché en avant). Il peut ne se manifester que par de la
+toux et de l'asthme
+
+–
+
+2) Spasme oesophagien ou nutcracker oesophagus : douleur rétro-sternale constrictive,
+déclenchée par la déglutition. Elle est souvent brève et récidivante. Elle peut être calmée
+par la trinitrine, qui est un donneur de NO => énorme piège, car cette douleur irradie
+dans la même zone qu'une douleur coronarienne et peut être calmée par le même
+médicament !
+
+–
+
+3) Rupture oesophagienne : douleur brutale, intense, de type déchirure, rétrosternale et
+basi-thoracique gauche, accompagnée de vomissements
+
+–
+
+[4) Infections (candidose et herpès surtout, mais généralement rares)]
+
+On retrouve plusieurs lieux d'irradiation des douleurs sous-diaphragmatiques :
+5 Diagnostic posé uniquement avec l'anamnèse !
+
+Page 15 sur 19
+
+–
+
+Basi-thoracique : plutôt d'origine digestive
+
+–
+
+Épaule droite : souvent d'origine hépatique
+
+–
+
+Lombaire haute : souvent d'origine rénale ou biliaire
+
+3.2) Douleurs abdominales non-digestives
+Pathologies d'origine sus-diaphragmatique :
+–
+
+–
+
+Cardiaque :
+–
+
+Infarctus myocardique inférieur : peut donner des douleurs épigastriques avec
+nausées et vomissements => anamnèse de gastrite, mais l'ECG tranche. De plus,
+la douleur s'intensifie les jours suivant avec des signes de décompensation
+cardiaque ou un galop audible
+
+–
+
+ICD : hépatomégalie, splénomégalie et éventuellement ascite => ventre sous
+tension avec inapétence, pesanteur abdominale, nausée, vomissement, douleurs
+dans l'hypochondre droit, constipation
+
+–
+
+Péricardite (rarement)
+
+Pulmonaire :
+–
+
+Pneumonies touchant les bases pulmonaires : symptômes respiratoires
+prédominants avec parfois (~ 25% du temps !) des symptômes digestifs
+accompagnateurs, comme des douleurs abdominales (même parfois péritonites),
+des nausées ou des diarrhées. Rarement symptômes purement digestifs
+
+–
+
+Pleurésies (rarement)
+
+Pathologies urinaires :
+–
+
+Douleur rénale (ex. : pyélonéphrite) : douleur sourde, en arrière ou sous le rebord costal,
+elle peut irradier en avant vers l'ombilic
+
+–
+
+Colique néphrétique : douleur intense, qui naît au niveau de l'articulation costovertébrale et suit le trajet urétéral, jusque dans les lèvres/bourses, parfois même jusqu'à
+la cuisse. On rencontre souvent des vomissements avec ! Peut se déplacer avec le temps
+jusqu'à atteindre ce tableau
+
+–
+
+Globe vésical : douleur sus-pubienne + masse avec matité + besoin horrible d'aller
+uriner. Chez une personne âgée, peut ne se manifester que par un état confusionnel.
+Dans les causes les plus fréquentes, on retrouve les obstructions (HBP, cancer de la
+prostate, etc.), les vessies neurogènes (spina bifida, sclérose en plaques, trauma
+médullaire, syndrome de la queue de cheval, chirurgie abdominale, etc.) et
+médicamenteuses (neuroleptiques anticholinergiques)
+
+Pathologies d'origine vasculaire (toutes des urgences (mais seulement dissection aortique et
+ischémie artérielle sont vitales) !) :
+–
+
+Dissection aortique : douleur très violente, médiane, avec irradiation dorsale. Peut aussi
+être pauci-symptomatique et ne se manifester que par des artériopathies périphériques (=
+douleurs dans les jambes par embols artériels) et une douleur dans le flanc. Rechercher
+Page 16 sur 19
+
+les principaux FRCV (homme âgé et fumeur). Toujours faire anamnèse + palpation +
+auscultation (recherche de souffle)
+–
+
+Ischémie artérielle : douleurs abdominales atroces, sans aucune défense ni détente. Si
+problème chronique, alors claudication post-prandiale. Rechercher les FRCV
+
+–
+
+Thrombose veineuse : rarement aigües, elles sont plutôt chroniques et chez les personnes
+avec antécédents thrombo-emboliques, avec cancer ou sous contraception. Les douleurs
+sont semblables à celles d'ischémie artérielle mésentérique chronique, mais en encore
+plus vague. Les deux populations les plus touchées sont les jeunes femmes avec
+contraception nouvelle et les vieilles femmes sous traitement hormonal nouveau
+
+–
+
+Vasculites : tableau large touchant beaucoup d'autres organes (peau, reins, poumons,
+etc.) et secondairement les intestins
+
+–
+
+Hématome pariétal : difficiles à repérer à la palpation (très traîtres, car se situent souvent
+dans les fesses, cuisses et dans le ventre), bien visibles au CT. Typiquement
+accompagnés de baisse de TA, syncope et accélération du pouls, secondairement de
+douleurs abdominales. Touchent surtout les patients anti-coagulés ou ayant subi un
+traumatisme. Hypotension nouvelle + douleurs abdominales doivent faire suspecter un
+hématome abdominal !
+
+–
+
+Splénomégalie et rupture de rate : sous forme aigüe, on retrouve surtout les traumatismes
+(avec le signe de Kehr = douleur dans l'épaule gauche) et les infections virales (CMV et
+EBV = la mononucléose !) ; sous forme chronique, on retrouve plutôt les causes
+infectieuses, la cirrhose et l'hémopathie maligne (ex. : leucémie myéloïde chronique).
+On peut palper la rate (si on la sent => pathologique !), la percuter et faire le scratch test
+(= déterminer sa taille avec le stéthoscope)
+
+Toutes les masses abdominales :
+–
+
+Masse surrénalienne (ex. : tumeurs => recherche d'hyper-sécrétion hormonale)
+
+–
+
+Lymphome
+
+–
+
+Tumeurs solides
+
+Pathologies endocriniennes et métaboliques :
+–
+
+Insuffisance surrénalienne aigüe : douleurs abdominales au second plan, avec une
+fatigue extrême et hypotension
+
+–
+
+Thyréotoxicose : énorme appétit, tachycardie, tremblements, diarrhées, perte pondérale
+
+–
+
+Hypercalcémie : asthénie, anorexie, polyurie, constipation
+
+Tous les problèmes gynécologiques, notamment la grossesse (surtout chez les femmes jeunes) et les
+torsions ovariennes
+Atteintes autres : fractures vertébrales, déformations de la cage thoracique, zona, etc. On retrouve
+également toutes les douleurs d'origine psychogène !
+
+Page 17 sur 19
+
+3.3) Douleurs par localisation
+–
+
+Épaules : épaule droite plutôt foie ou vésicule biliaire, épaule gauche plutôt rate
+
+–
+
+Thoracique : oesophagienne, pulmonaire ou cardiaque
+
+–
+
+Épigastrique : dyspepsie6, RGO, ulcères, tumeurs/lymphomes, pancréas
+
+–
+
+Hypochondre droit : hépatites, cholécystites, cholangites, calculs biliaires => toujours
+demander des US, puis une ERCP, rarement une IRM ou un CT
+
+–
+
+FID : appendicite, Crohn, côlon irritable => côlonoscopie bonne idée
+
+–
+
+FIG : diverticulite, Crohn, RCUH, colite (ischémique ou infectieuse), côlon irritable,
+tumeur
+
+–
+
+Tout le cadre colique : tumeur (plutôt personnes âgées), côlon irritable (plutôt personnes
+jeunes), polypes, Crohn, FOSS
+
+–
+
+Dos : pancréatites aigüe et chronique, dissection d’anévrisme de l'aorte
+
+–
+
+Hanche : douleur dans le rétropéritoire en FIG ou FID
+
+4) Théorie
+On recherche avant tout des signes de péritonite primaire (sans infection, pouvant être due à une
+cirrhose hépatique, un lupus érythémateux, une carcinomatose péritonéale, etc.) ou secondaire
+(inflammation/infection du péritoine à cause de bactéries (95%), chimique/toxique (urine, bile,
+produit de contraste, etc.), post-radique, etc.). Elle peut être localisee ou generalisee (ventre de
+bois) et peut être représentée par une détente ou défense seule ou une combinaison des deux.
+Pour l'examen, on divise l'abdomen en 4 quadrants, mais une localisation précise pour une douleur
+devra utiliser le découpage en 9 cadrans (hypochondres (droit et gauche), épigastre, flancs (droit et
+gauche), région ombilicale, fosses iliaques (droite et gauche) et sus-pubienne/hypogastre), plus
+précis.
+Conditions générales : il faut un bon éclairage, le patient doit être détendu, l’abdomen est
+complètement mis à nu (et on dégage les régions inguinales en faisant ouvrir la ceinture et en
+ouvrant un bouton) et la vessie du patient doit être vide (on pousse fort sur l'abdomen). Les mains
+de l’examinateur doivent être chaudes, ses ongles courts.
+Le patient doit être couché confortablement sur le dos, avec un coussin sous la tête et les bras le
+long du corps. Il est important d’expliquer et de prévenir le patient de toutes les manipulations !
+Palpation :
+–
+
+Le foie est difficile à palper, situé à l'arrière des côtes et faisant entre 6cm et 12cm de
+haut
+
+–
+
+L a rate et les reins (se trouvent entre les côtes 11 et 12) ne sont normalement pas
+palpable du tout, mais on les palpe pour rechercher une anomalie éventuelle
+
+–
+
+On fait passer la palpation en dernier, car si on commence directement par la palpation,
+on risque d'activer le transit et de biaiser l'auscultation et les bruits entendus
+
+–
+
+Si le patient est tendu, on peut lui demander d'expirer pendant qu'on palpe ou encore lui
+demander de respirer par la bouche, avec la mâchoire tombante
+
+6 Cf. 4) Théorie
+
+Page 18 sur 19
+
+Pour ne plus se tromper :
+–
+
+Dyspepsie : peut être des symptômes ou un diagnostic. Les critères de Rome III
+définissent les symptômes dyspeptiques comme (1) un inconfort abdominal postprandial, (2) une satiété précoce ou (3) des douleurs ou brulures épigastriques ; ces
+symptômes comprennent donc (point (3)) les RGO et ulcères ! On ne parlera de
+diagnostic que lorsque toutes les causes possibles de ces symptômes dyspeptiques ont
+été éliminées. Il peut parfois être utile de traiter Hp dans les dyspepsies.
+Normalement, avant 50 ans, on traite toute les dyspepsies, alors qu'après 50 ans, on va
+plutôt faire un bilan, car on retrouve plus souvent des causes organiques et dangereuses !
+
+–
+
+RGO : reflux acide de l'estomac. Il n'a pas encore été démontré que le traitement d'Hp
+avait une quelconque influence sur eux !
+
+–
+
+Ulcères : gastrique ou duodénal, ils sont presque systématiquement dus à Hp => le traiter
+est donc une priorité !
+
+Page 19 sur 19
+
+

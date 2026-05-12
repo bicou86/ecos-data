@@ -1,0 +1,1163 @@
+Système ostéo-articulaire – examen clinique
+Préface
+Le système ostéo-articulaire (ou système locomoteur) concerne 3 spécialités :
+L’orthopédie qui s’occupe de la chirurgie et traumatologie de l’appareil locomoteur, la
+rhumatologie médecine spécialisée dans maladies du système locomoteur et maladies
+systémiques/immunologiques et la médecine physique et rééducation dont la mission est la lutte
+contre le handicap après une maladie ou une chirurgie en coordonnant plusieurs professions
+médicales et paramédicales (ex : polytraumatisés, amputés, brûlés, maladies neuromusculaires).
+Dans bien des cas, l’anamnèse et l’examen clinique sont essentiels pour poser, élaborer un
+diagnostic différentiel et procéder à un suivi correct de l’évolution.
+Les investigations comme le laboratoire ou les examens radiologiques ne sont prescrits qu’en
+fonction des symptômes et des pathologies envisagées. Souvent, seul un examen clinique minutieux
+peut fournir la réponse diagnostique, tant dit que les examens complémentaires restent souvent
+non spécifiques. Les interpréter sans une solide base clinique conduit souvent à des errances
+diagnostiques et thérapeutiques.
+Ce livre est un résumé qui donne une orientation des techniques de l’examen clinique du système
+ostéo-articulaire. Il est le fruit d’une synthèse donnant les bases nécessaires à l’étudiant pour
+reconnaître les structures en cause, l’extension et le type de pathologies les plus courantes pour les
+3 spécialités. De très nombreux tests (et de nombreuses variantes de chaque test) sont rapportés
+dans la littérature médicale. Un choix consensuel mais drastique a donc été opéré. Libre à chacun
+ensuite, en fonction de ses intérêts de venir étoffer ses connaissances durant ses années cliniques.
+
+1
+
+Table des matières
+Système ostéo-articulaire – examen clinique ............................................................................ 1
+Définitions .................................................................................................................................. 4
+Anamnèse ................................................................................................................................... 4
+Examen clinique ......................................................................................................................... 6
+Généralités .......................................................................................................................................6
+Mesures de la mobilité .....................................................................................................................8
+Hypermobilité généralisée. ..............................................................................................................9
+Evaluation de la force musculaire : ................................................................................................10
+Mesure de la longueur des membres inférieurs. ...........................................................................11
+Hanches .................................................................................................................................... 12
+Inspection .......................................................................................................................................12
+Palpation.........................................................................................................................................13
+Examen fonctionnel........................................................................................................................16
+Genou ....................................................................................................................................... 19
+Inspection .......................................................................................................................................19
+Palpation.........................................................................................................................................20
+Examen fonctionnel........................................................................................................................25
+Pieds ......................................................................................................................................... 29
+Inspection .......................................................................................................................................29
+Palpation.........................................................................................................................................30
+Examen fonctionnel........................................................................................................................30
+Examen fonctionnel........................................................................................................................31
+Epaule ....................................................................................................................................... 33
+Inspection .......................................................................................................................................33
+Palpation.........................................................................................................................................33
+Examen fonctionnel........................................................................................................................35
+Coudes ...................................................................................................................................... 42
+Inspection .......................................................................................................................................42
+Palpation.........................................................................................................................................42
+Examen fonctionnel........................................................................................................................42
+Mains ........................................................................................................................................ 44
+Inspection .......................................................................................................................................44
+2
+
+Palpation.........................................................................................................................................44
+Examen fonctionnel........................................................................................................................46
+Colonne vertébrale ................................................................................................................... 50
+Inspection .......................................................................................................................................50
+Colonne vertébrale cervicale ................................................................................................... 51
+Palpation.........................................................................................................................................51
+Examen fonctionnel........................................................................................................................51
+Colonne vertébrale dorso-lombaire ......................................................................................... 53
+Palpation :.......................................................................................................................................53
+Examen fonctionnel........................................................................................................................54
+Articulation sacro-iliaque ......................................................................................................... 57
+Inspection .......................................................................................................................................57
+Palpation.........................................................................................................................................57
+Examen fonctionnel........................................................................................................................57
+Articulation temporo-mandibulaire ......................................................................................... 60
+Inspection .......................................................................................................................................60
+Palpation.........................................................................................................................................60
+Examen fonctionnel........................................................................................................................60
+
+3
+
+Définitions
+Le mot rhumatisme vient du grec rheuma, qui signifie «eau qui coule» en référence aux théories de
+la médecine de la Grèce antique, qui interprétait le rhumatisme comme un écoulement des
+«humeurs». C'est un terme générique qui englobe plus de 200 maladies dont le point commun est
+qu’elles touchent principalement l’appareil locomoteur, c’est-à-dire les os, les articulations et les
+parties molles. Ce dernier terme comprend un ensemble incluant les muscles, les tendons, les
+bourses et les enthèses (tissus spécifiques à l’interface entre un tendon/ligament et l’os). On parle
+alors volontiers de rhumatisme abarticulaire.
+Le terme d’arthralgies(s) est utilisé pour décrire la présence d’une douleur articulaire. On parlera
+d’arthrite lorsqu’il existe en plus une tuméfaction (secondaire à une synovite et/ou un
+épanchement) d’origine inflammatoire. Dans ce cas, lorsqu’une seule articulation est touchée on
+ajoutera alors le préfixe mono, oligo s'il y en a 2 ou 3 et poly au-delà de 3.
+
+Anamnèse
+L’anamnèse d’un problème locomoteur est un élément essentiel dans l’établissement d’un
+diagnostic différentiel. Elle va permettre 1) d’orienter l’examen clinique, 2) d’apprécier l’intensité
+de la maladie et 3) informer le clinicien sur l’intensité de la souffrance 4) de définir les investigations.
+Les deux plaintes principales sont la douleur (de loin la plus fréquente) et la gêne fonctionnelle.
+Les points à considérer sont :
+1. Caractère et localisation des douleurs
+2. La répercussion fonctionnelle (handicap)
+3. La présence de symptômes généraux
+4. La recherche des facteurs psychosociaux (qui sont d’importants facteurs de chronicité)
+5. Les habitudes de vie et l’anamnèse familiale
+L’anamnèse rhumatologique comprend les questions suivantes :
+1. Où sont les symptômes ?
+A. Axial (colonne vertébrale, sacro-iliaque) ou périphérique
+Si périphérique : articulaire ou tissus mous
+B. Diffus ou délimités
+Si délimités et périphérique : mono, oligo ou polyarticulaires
+2. Quand apparaissent les symptômes ?
+A. Durée : aiguë < 3 mois, chronique > 3 mois
+B. Au repos, au démarrage, au mouvement, avec la fatigue
+C. Prédominance : nocturne, au réveil, vespéral
+B+C => horaire mécanique ou inflammatoire
+Douleur mécanique
+Douleur inflammatoire
+Repos
+Soulage
+Aggrave
+Activité physique
+Aggrave
+Soulage
+Réveils nocturnes
+Lors des mouvements
+En 2ème partie de
+Requiert le changement de Requiert le mouvement
+position
+Raideur matinale
+< 15’
+> 30’ à 60’
+3. Comment sont les symptômes
+4
+
+nuit
+
+A. Caractéristiques de la douleur
+Crampes, sourde, lancées, décharges, brûlures, fourmillements…
+B. Intensité
+Légère, moyenne, forte ou EVA ou ENA
+EVA : échelle visuelle analogique
+ENA : échelle numérique analogique
+C. Conséquences sur activités quotidiennes
+(soins personnels, vie sociale et professionnelle)
+4. Evolution
+A. Début brutal ou progressif
+B. Variations spontanées (permanant, résolutif, récidivant)
+C. Facteurs d’influence (soulage / aggrave)
+D. Effet des traitements
+5. Anamnèse par système
+Particulièrement importantes dans le contexte des rhumatismes inflammatoires qui peuvent
+affecter d’autres systèmes que le système locomoteur
+6. Recherche des principaux facteurs psychosociaux (facteur de risque de chronicité)
+A. Kinésiophobie : peur du mouvement
+B. Catastrophisme : voir « tout en noir »
+C. Anxiété
+D. Perte de plaisir
+E. Difficultés /stress professionnel
+7. Habitude de vie et anamnèse familiale
+Des éléments peuvent moduler la probabilité de certaines maladies
+
+5
+
+Examen clinique
+Généralités
+L’examen clinique du système ostéo-articulaire se pratique toujours sur une zone du corps dénudée,
+le patient en sous-vêtement.
+Il est relativement long et complexe et demande donc beaucoup d’entraînement pour apprendre la
+normalité et maîtriser les tests.
+Pour chaque zone ou articulation il est important d’adopter une démarche structurée afin de ne
+rien oublier.
+L’examen clinique du système ostéo-articulaire est classiquement divisé en trois parties :
+1. Inspection
+Observation du mouvement naturel (marche, déshabillage)
+Coloration cutanée (érythème, hématome, dépigmentation, etc.)
+Trophicité (amyotrophie, aspect cutané)
+Tuméfaction (épanchement articulaire, bursite, ostéophyte, œdème, etc.)
+Déformation (articulaire, osseuse, etc.)
+Mensuration (poids, taille)
+2. Palpation
+a. Repérage : prendre ses repères anatomiques
+b. Chaleur : rechercher une chaleur locale signant une inflammation
+c. Douleur : localisation/structure anatomique concernée, intensité, reproduction ou
+non de la plainte
+d. Tuméfaction : dure (ex : ostéophyte) ou molle (ex : épanchement, œdème)
+e. Crépitations (nécessite la mobilisation de la structure ; est un signe d’arthrose ou de
+ténosynovite de la structure palpée)
+3. Examen fonctionnel
+a. Connaître la position de départ, le 0° de chaque articulation (schéma ci-dessous)
+b. Mobilités actives (il est demandé au patient de bouger son articulation)
+i. Toujours comparer l’amplitude au côté sain en raison des variations
+interindividuelles.
+ii. Savoir apprécier “à l’œil” et savoir utiliser le goniomètre pour mesurer
+l’amplitude obtenue
+iii. Connaitre la notation de référence (Ex : flex/ext = 45°/0°/70°)
+iv. Evaluer l’éventuelle reproduction de la plainte douloureuse
+c. Mobilités passives
+i. Ne se teste que dans le cas d’une limitation de la mobilité active dans cette
+direction.
+ii. L’examinateur effectue le mouvement.
+iii. Si le gain de mobilité est important, la pathologie est plutôt abarticulaire; si
+le gain est nul ou faible, la pathologie est plutôt articulaire.
+d. Force
+i. Tests contre résistance
+ii. Dans toutes les directions de l’espace possibles (selon l’articulation)
+iii. Cotation idem à celle utilisée en neurologie (M0 à M5)
+iv. Similaire mais pas identique au test de la force en neurologie ; ici il s’agit de
+tester une fonction (abduction, rotation externe, etc.).
+6
+
+e. Tests spécifiques
+i. Nombres très variables d’une articulation à l’autre
+ii. Permet de préciser une structure (par exemple tendon) ou un phénomène
+pathologique (par exemple laxité)
+L’ordre de la 3e partie peut varier d’une articulation à l’autre dans un esprit de commodité.
+En pratique, l’examen clinique du système ostéo-articulaire est toujours complété par
+1. Un examen neurologique du système nerveux périphérique de la zone examinée (force,
+sensibilité tactile superficielle, réflexes ostéo-tendineux).
+2. Un examen vasculaire : palpation des pouls de la région examinée
+Ces examens-là seront enseignés dans les unités correspondantes.
+
+7
+
+Mesures de la mobilité
+La mobilité mesurée selon la méthode du 0 – neutre. La mesure se fait avec un goniomètre ou par
+approximation visuelle. Le schéma ci-contre montre la position de
+départ des articulations et de la colonne vertébrale pour la
+méthode en question. Cette position est définie comme ligne zéro,
+les fonctions sont mesurées à partir de celle-ci. La convention veut
+que la notation d’amplitude se fasse en mettant le 0° au centre,
+pour autant que la mobilité articulaire permette de passer par la
+position neutre. Ainsi on indiquera les directions testées avec les
+angles correspondant observés. Par exemple si l’on veut noter la
+mobilité en flexion et en extension d’une articulation normale du
+poignet on indiquera : flexion/extension : 60/0/80°
+Exemple de notation pour l’articulation du genou :
+Flexion/extension 130°/0°/5° correspond à une flexion maximale
+de 130° et une extension maximale de 5° au-delà de la ligne du 0.
+Flexion/extension 60°/0°/0° correspond à une flexion maximale de
+60° avec une absence de mobilité au-delà du 0°.
+Flexion/extension 90°/20°/0° correspond à une flexion maximale
+de 90° avec un flexum de 20°, c’est-à-dire un déficit d’extension de
+20°, le 0° (position neutre) ne pouvant pas être atteint.
+
+8
+
+Hypermobilité généralisée.
+Une tendance à l’hypermobilité (ou hyperlaxité) touche environ 10% de la population générale et
+peut contribuer à des problèmes locomoteurs (enthésopathie, épanchement mécanique,
+dislocation et contribution à l’arthrose). Un faible pourcentage seulement de ces cas est secondaire
+à une maladie génétique ou métabolique (syndrome de Marfan, Ehler Danlos ou d’acromégalie).
+L’hypermobilité générale peut être détectée grâce au score modifié de Beighton :
+
+1. Extension du petit doigt à supérieur de 90° (1 point pour chaque côté)
+
+2. Possibilité d’amener passivement le pouce parallèlement à l’avant-bras (1 point de chaque
+côté)
+
+3. Extension du coude de supérieur de 10° (1 point de chaque côté)
+
+4. Extension du genou de supérieur de 10° (1 point de chaque côté)
+
+5. Possibilité de toucher le sol avec le plat de la main, les jambes tendues (1 point)
+Score maximal 9.
+Syndrome d’hypermobilité générale (ou d’hyperlaxité générale) si la somme est ≥ 6.
+
+9
+
+Evaluation de la force musculaire :
+Outre les maladies neurologiques, une diminution de la force musculaire peut se rencontrer dans
+plusieurs atteintes du système ostéo-articulaires :
+ Rupture tendineuse
+ Arthropathie chronique (inflammatoire ou arthrose)
+ “Fausse” faiblesse, induite par la douleur (très fréquente)
+ Problème neurologique dans un contexte ostéo-articulaire (ex : radiculopathie sur hernie
+discale)
+Système de cotation de la force musculaire (idem à neurologique) :
+M0 = pas de contraction visible
+M1 = contraction visible palpable sans mouvement articulaire
+M2 = mouvement seulement en absence de pesanteur
+M3 = mouvement possible contre la pesanteur
+M4 = mouvement possible contre la pesanteur et une résistance extérieure
+M5 = force normale (possibilité à s’opposer à une résistance extérieure importante)
+A noter que pour les doigts, on mesure plutôt la force de préhension en utilisant un dynamomètre
+
+10
+
+Mesure de la longueur des membres inférieurs.
+La mesure de la longueur totale (vraie) de la jambe est la mesure la plus informative. Deux méthodes
+sont utilisées :
+La première méthode de mesure se réalise sur un patient en
+décubitus dorsal, les 2 jambes formant un angle droit par
+rapport aux lignes joignant les 2 épines iliaques antérosupérieures.
+On mesure de chaque côté la distance entre l’épine iliaque
+antéro-supérieure et la malléole interne du même côté (cf.
+schéma). Répéter l’examen jusqu’à ce qu’une mesure
+consistante soit obtenue. Une différence de 1 à 1,5 cm en
+fonction de la taille du patient, peut être considérée comme
+normale, mais peut parfois conduire à des déséquilibres
+symptomatiques.
+La 2ème méthode, dite des planchettes, s’effectue avec un
+patient debout.
+On se place derrière lui et l’on repère les crêtes iliaques. La
+ligne imaginaire qui les relie doit être horizontale. Si ce n’est
+pas le cas on rajoute des petites planchettes standardisées
+dont l’épaisseur est connue (0.5 mm, 1 mm, 1.5 mm, etc.),
+sous le pied de la jambe la plus courte jusqu’à ce que l’on
+obtienne une ligne horizontale.
+Quelques soit la méthode, un raccourcissement supérieur à
+1.0-1.5 cm est souvent associé à des bursites
+trochantériennes et/ou une arthrose de la hanche du côté le plus long, ou à des douleurs du rachis
+et devrait être compensé par une semelle. Les raccourcissements entre 0.5 et 1.0 cm font l’objet
+d’un débat concernant l’utilité de les compenser
+En cas de raccourcissement significatif, la localisation du raccourcissement peut être déterminée en
+mesurant la distance entre le point le plus haut de la crête iliaque et le grand trochanter (diminué
+dans la coxa vara) entre le grand trochanter et la ligne externe du genou (pour la longueur du fémur)
+et entre l’interligne articulaire interne du genou et la malléole interne (pour la longueur du tibia).
+
+11
+
+Hanches
+Inspection
+Debout : Observer le déplacement du patient, les phases de la marche à la recherche d’une boiterie
+et les éventuelles limitations ou difficulté lorsqu’il se déshabille.
+Une boiterie de Duchenne (bascule du tronc lors de la phase d’appui monopodal du côté
+pathologique entrainant un abaissement de l’épaule ipsilatérale et une élévation de l’épaule
+controlatérale) se manifeste souvent déjà au stade précoce d'une atteinte de la hanche.
+S’accompagne d’une élévation de la crête iliaque controlatérale.
+On peut également noter un signe de Trendelenburg secondaire à l'affaiblissement de la
+musculature fessière (M. glutaeus medius) ce qui provoque une bascule du bassin du côté sain.
+
+Normal
+
+Signe de Trendelenburg
+Insuffisance du moyen fessier gauche
+
+On recherche aussi un flexum, ou une tuméfaction (bursite, kyste synovial).
+12
+
+En décubitus dorsal :
+ Poursuite de l’inspection (cicatrices, érythème, amyotrophie, tuméfaction ...)
+
+Palpation
+La palpation débute par la recherche des repères anatomiques (cf. page suivante) et de l’éventuelle
+reproduction de la plainte principale, ce qui pourrait donner une orientation quant à la source
+nociceptive.
+On recherche également ainsi des douleurs musculo-tendineuses (contractures musculaires,
+tendinopathies +/- bursites) par palpation des muscles et de leurs insertions. Les plus fréquemment
+pathologiques sont :
+
+
+
+En antérieur : muscles adductor longus (pubis) et rectus femoris (épine iliaque antéroinférieure.
+En latéral, l’insertion distale du glutaeus medius (grand trochanter) et le piriformis (en
+profondeur) ainsi que le tenseur du fascia lata qui se poursuit par le passage de la bandelette
+ilio-tibiale au-dessus du grand trochanter.
+
+ASTUCE :
+Dans ce document, l’ordre habituel de l’examen clinique (inspection, palpation, examen fonctionnel
+actif – passif – force – tests spécifiques) a été respecté.
+Lors de l’examen clinique de la hanche, il est cependant d’usage de modifier la séquence et de le
+réaliser en fonction de la position du patient :
+ Décubitus dorsal
+ Décubitus latéral
+ Décubitus ventral
+Dans chacune de ces positions la séquence habituelle (inspection, palpation, fonctionnel) est
+conservée. On évite ainsi de demander au patient de changer de position un nombre considérable
+de fois.
+
+13
+
+Repères anatomiques
+
+14
+
+15
+
+Examen fonctionnel
+Les amplitudes des mouvements de l'articulation de la hanche sont assez variables d'un sujet à
+l'autre, en particulier pour les rotations. L’appréciation de la symétrie est donc particulièrement
+importante. Une limitation fonctionnelle unilatérale même très discrète, est pathologique.
+Contrairement aux autres articulations, l’usage lors de l’examen des amplitudes est de ne pas tester
+les amplitudes actives. L’examinateur commence donc directement par tester l’amplitude passive.
+ En décubitus dorsal :
+o Flexion, rotation interne et externe (hanche et genou à 90°, attention à vérifier que
+le bassin n’est pas emporté par le mouvement en fin de course).
+o Force contre résistance (cf. locomotion 1 pour la cotation)
+ En décubitus latéral ou ventral :
+o Extension (bien stabilisé le sacrum pour isoler le mouvement de l’articulation coxofémorale)
+o Force contre résistance (cf. locomotion 1 pour la cotation)
+
+16
+
+17
+
+Tests spécifiques
+
+La manoeuvre du quatre mesure une fonction combinée de
+la hanche (Flexion, Abduction External Rotation = FABER).
+On recherche ainsi :
+1) une reproduction de la douleur dans le pli inguinal
+2) Una limitation d’amplitude (souvent précoce dans les
+pathologies coxo-fémorales) que l’on mesure avec la
+distance genou (condyle fémoral)-table. Norme : < 20 cm.
+Mais l’asymétrie est sans doute l’élément le plus
+déterminant.
+Ce même test est utilisé pour la sacro-iliaque. La différence
+concerne la localisation de la douleur.
+Le test de FADIR (Flexion-Adduction-Intenal Rotation) est démontré sur la vidéo correspondante.
+Lorsqu’il reproduit la douleur inguinale du patient, il suggère une douleur d’origine labrale.
+
+Test du moyen fessier. Muscle très important la stabilité de
+la marche, raison pour laquelle il est fréquemment testé.
+Cette méthode est plus sensible que le signe de
+Tredelenburg. Elle consiste en une abduction contrariée de
+la hanche en décubitus latéral.
+Le genou contro-latéral peut-être en légère flexion pour
+donner plus de stabilité. L’examinateur se positionne
+derrière et applique une pression juste en dessus du genou.
+
+18
+
+Genou
+Inspection
+Comme pour la hanche, l’inspection débute lorsque le patient marche et se déshabille. Toujours
+debout on observera l’axe des membres inférieurs :
+ De face : valgus (jambe en X) ou varus (jambe en O)
+ De profil : genou recurvatum, flexum,
+Mais aussi un agrandissement des contours articulaires (ostéophytes, tuméfaction, épanchement),
+tuméfactions (le plus souvent : prépatellaires, récessus suprapatellaire, creux poplité), couleur
+(érythème en cas de : bursite, arthrite infectieuse, goutte, …), atrophie du m. quadriceps fréquente
+en cas d’arthrose de genou ou de hanche.
+Les mêmes éléments sont recherchés et précisés en décubitus dorsal.
+Déformation en varus (jambes en O)
+
+Déformation en valgus (jambes en X)
+
+19
+
+Palpation
+Pour que la palpation donne toutes les informations désirées, une bonne connaissance de
+l'anatomie du genou est particulièrement importante.
+Avec la palpation on cherche à reproduire la douleur en palpant un certain nombre de structures
+les plus fréquemment atteintes et d'éventuelles tuméfactions.
+Avec la jambe allongée, un repère le quadriceps avec son vaste médial et latéral se rejoignant pour
+former le tendon quadricipital, la rotule (que l’on peut mobiliser) et le tendon rotulien (qui est en
+fait un ligament) avec son insertion distale sur la tubérosité tibiale antérieur. On palpera aussi la
+fosse postérieur (creux poplité) à la recherche d’une tuméfaction (bursite communément appelée
+kyste de Baker)
+La palpation de la rotule permet de rechercher une douleur
+secondaire à une fracture. On peut en profiter pour tester, à
+2 mains, sa mobilité par un mouvement axial et latéral de
+celle-ci à la recherche de douleur et de crépitations (signe
+d’arthrose).
+Avec le genou à 90° (si possible) on repérera plus facilement
+ En interne : Condyle fémoral médian qui est l’insertion du ligament longitudinal interne,
+l’interligne articulaire (tissus synovial, ménisque), les ischio-jambiers (mm. sartorius, gracilis,
+semi-tendinosus) avec leur insertion commune sur la patte d’oie, lieu fréquente de
+tendinopathie et de bursite.
+ En externe : Condyle fémoral latéral (insertion proximale du ligament longitudinal externe
+(LLE)), interligne articulaire (tissus synovial, ménisque), tête du fibula (péroné) insertion
+distale du LLE et du biceps fémoral. Insertion distale du tractus ilio-tibial sur le tibia
+(tubercule de Gerdy).
+La meilleure palpation de la capsule articulaire se fait en
+position fléchie latéralement au tendon rotulien (synovite).
+
+On finira par :
+ Mesure du périmètre de la cuisse et du mollet (cf. locomotion 1)
+ La recherche d’un gradient de température (les articulations sont normalement plus fraîches
+que les muscles).
+
+20
+
+21
+
+22
+
+23
+
+24
+
+Examen fonctionnel
+Analyse de la flexion et de l'extension, en actif puis en passif, en comparaison avec le côté sain.
+L’amplitude de flexion peut être présentée comme d’habitude par un angle, mais le plus souvent on
+utilise la distance talon-fesse.
+
+Lors du mouvement de l’articulation en flexion-extension, on sera attentif à la présence de
+crépitations, typique d’une arthrose fémoro-tibiale.
+Une douleur lors de la flexion complète forcée (légère)
+peut être le seul signe d'une synovite de l'articulation
+(douleur en fin de flexion).
+
+On teste ensuite la force en flexion et en extension contre résistance.
+
+25
+
+Tests spécifiques :
+La mobilisation de la rotule peut être faite à ce moment-ci, si elle n’a pas été faite lors de la
+palpation.
+Un épanchement de l'articulation du genou peut être mis en évidence de 2 manières :
+Par une pression sur la rotule (choc rotulien, test du glaçon).
+Le genou est gardé en extension. Une main comprimant la
+bourse sous-quadricipitale pour ramener le liquide articulaire
+potentiel sous la rotule, le pouce (ou le majeur) de l’autre main
+vient appuyer sur la rotule. Le test est positif si l’effet est celui
+d’un glaçon que l’on enfonce dans un verre d’eau.
+Certains petits épanchements sont détectables par le signe
+du flot. On commence par bien « vider » (chasser une
+éventuelle présence de liquide) un récessus sousquadricipital (par exemple latéral) par une pression du dos de
+la main remontant depuis la région sous rotulienne externe
+vers le pôle supérieur de la rotule. Ensuite une petite
+pression, avec le dos d’un doigt, sur récessus médian entraine
+un discret comblement du récessus latéral mieux visible à
+jour frisant.
+
+La recherche d'une instabilité latérale se fait
+dans les positions en neutre (0°) et en discrète
+flexion (environ 30°).
+Une main stabilise au niveau de la partie distale
+de la cuisse alors que l’autre empaume la jambe
+et imprime une poussée latérale vers l’extérieur
+(ligament collatéral interne / médial) ou vers
+l’intérieur (ligament collatéral externe / latéral).
+Normalement aucun mouvement latéral n’est
+obtenu en position neutre. Un bâillement parle
+en faveur d'une lésion concomitante de la
+capsule postérieure.
+En flexion de 30° la capsule postérieure est
+relâchée, ce qui permet de mieux tester la
+stabilité des ligaments.
+Une petite laxité est obtenue chez toutes les
+personnes. Il est donc important de comparer au
+côté opposé.
+
+26
+
+L'instabilité antéro-postérieure est testée avec
+une petite flexion d’environ 20° (test de
+Lachmann) ; certains glissent leur propre genou
+sous le genou du patient pour avoir une plus
+grande stabilité lors de la recherche du tiroir
+(signant l’instabilité).
+Important : musculature relâchée et comparaison
+avec le côté controlatéral.
+Un 2ème test est parfois pratiqué, avec une flexion
+de 90°, l’examinateur venant s’assoir sur le pied
+du patient.
+Une instabilité correspond à une lésion du
+ligament croisé antérieur.
+
+Une lésion du ligament croisé postérieur (plus rare) est recherchée d’abord passivement, les 2
+genoux fléchis à 70° pieds reposant sur la table d’examen, et en examinant attentivement les reliefs
+osseux. En cas d’insuffisance du ligament, il se produit un recul spontané du tibia du côté
+pathologique que l’on note comme une disparition du relief normalement proéminant de la
+tubérosité tibiale antérieur.
+Il est également possible de faire un test dynamique dans cette position pour rechercher un tiroir
+postérieur (cf vidéo).
+
+27
+
+Les tests méniscaux sont pratiqués en cas de suspicion de lésions méniscales.
+Remarque : un signe méniscal négatif n'exclut pas une lésion du ménisque.
+Signe de Mc Murray : A partir d’un genou
+en flexion et en rotation que l’on obtient en
+empaumant le pied, on amène le genou en
+extension.
+La manœuvre est effectuée une fois avec
+une rotation interne, pouce de l’autre main
+sur l’interligne articulaire externe. On
+recherche la douleur mais aussi un « pop »
+ou un « clic » méniscale.
+Puis on répète le test avec une rotation
+externe, pouce sur l’interligne interne.
+
+Grinding-test d'Apley : Le patient est en
+décubitus ventral. Le genou est d’abord
+amené à 90°. L’examinateur imprime une
+pression axiale sur la plante du pied en y
+ajoutant des rotations internes et externes.
+Certains ajoutent à ceci un mouvement de
+flexion et d’extension du genou.
+
+.
+
+28
+
+Pieds
+Inspection
+On inspecte la forme (pied entier, différentes parties et orteils) de dos et de profil à la recherche de
+déformations : Pied-plat, pied creux, valgus physiologique de la cheville (qui se corrige si le patient
+monte sur la pointe des pieds), hallux valgus, orteils en griffes ou en marteau
+On recherche des tuméfactions (diffuses, localisées, orteils en saucisse, épaississement du tendon
+d’Achille), un érythème, des œdèmes, des nodosités osseuses (arthrose du médio-pied), des points
+de pression inhabituels sur la voute plantaire (cors, ulcération), anomalies unguéales (par ex :
+psoriasis en dé à coudre).
+
+Avant-pied plat (souvent combiné avec un hallux valgus).
+Pied plat
+
+Pied en valgus
+
+29
+
+Palpation
+Repères anatomiques et zones de douleur : Malléole interne et externe, articulation tibioastragalienne, ligaments collatéraux internes et externes, Tendons d’Achille et son insertion sur le
+calcanéum, tendons des fibulaires, du jambier antérieur, de l’extenseur de l’hallux, aponévrose
+plantaire, MTP, IPP..
+
+Comme au niveau des mains, la palpation permet de localiser des
+processus pathologiques. La palpation de la capsule articulaire
+tibio-tarsienne se fait de préférence dans la région pré- et sousmalléolaire.
+
+Des pathologies ligamentaires et des ténosynovites ne
+peuvent souvent être détectées qu'à travers la
+palpation. A noter des points d'insertion importants :
+insertion du tendon d'Achille sur le côté dorsal du
+calcanéum et de l'aponévrose plantaire sur le côté
+plantaire du calcanéum.
+
+Examen fonctionnel
+L’amplitude de mouvement est déterminée pour la cheville : flexion (= flexion plantaire) et
+l’extension (parfois appelée flexion dorsale), l’articulation sous-talienne (inversion et éversion), les
+articulations de l’avant-pied (pronation et supination). Pour les orteils on vérifie que la pulpe repose
+bien sur la table d’examen lorsque le pied est à plat (genoux fléchis).
+On vérifie ensuite la force contre résistance pour chacune des amplitudes.
+En dehors des consultations spécialisées, on ne teste généralement pas l’amplitude du mouvement
+ou la force contre résistance des orteils, à l’exception de l’extenseur de l’hallux.
+
+30
+
+Examen fonctionnel
+
+31
+
+On peut relever au passage que la douleur évoquée lors de certains mouvements contre-résistance
+est fortement évocateur d’une pathologie tendineuse :
+Extension dorsale active du gros orteil contre résistance.
+Douloureuse en cas d'affection du tendon du muscle
+extensor hallucis longus.
+
+Pronation active de l'avant-pied contre résistance. Présence
+de douleurs lors d'affection des tendons fibulaires
+(péroniers).
+
+Tests spécifiques
+Sur les vidéos vous trouverez la démonstration des tests qui permettent de chercher une laxité
+antérieure (tiroir antérieur) et latérale externe.
+Des tuméfactions discrètes des MTPs sont souvent difficiles à déterminer. On
+recherche des douleurs par la compression globale de ces articulations
+(manoeuvre de Gänslen ou étreinte des MTPs), puis par une palpation
+individuelle des articulations MTP douloureuses en cas d'arthrite.
+Remarque : ce test important n’apparait pas sur la vidéo.
+
+Tests pour une neuropathie compressive du nerf tibial (syndrome
+du tunnel tarsien).
+On peut reproduire des douleurs et des troubles sensitifs de la
+plante du pied par une compression du nerf tibial dans la région du
+ligament annulaire
+
+32
+
+Epaule
+Inspection
+Le comportement général (ballant des bras, position antalgique coude au corps) et le déshabillage
+apportent souvent beaucoup d’informations sur les répercussions fonctionnelles d’un problème
+d’épaule.
+On vérifiera la symétrie des épaules et des scapulas. Les asymétries sont importantes, surtout les
+atrophies musculaires (ex : deltoïde, sus-épineux, …), les dépressions (rupture du long chef du
+biceps), les tuméfactions acromio-claviculaire et sterno-calviculaire. Les tuméfactions de
+l’articulation gléno-humérale (bursite, synovite) sont, elles, souvent difficile à voir.
+On peut parfois percevoir une discrète tuméfaction antérieure
+correspondant à un épanchement intra-articulaire.
+
+Palpation
+La palpation permet de localiser les structures atteintes et de distinguer entre les altérations
+articulaires, musculaires et péri-articulaires. On repère ainsi l’articulation sterno-claviculaire puis la
+clavicule jusqu’à l’articulation acromio-claviculaire et enfin l’acromion. En antérieur on palpe
+l’apophyse coracoïde (insertion du muscle biceps brevis), puis en allant vers l’extérieur, l’espace
+articulaire, le tuberculum minus avec l’insertion du muscle sub-scapularis, la gouttière bicipitale
+contenant le tendon du muscle biceps longus, le tuberculum magnus où s’insère dans l’ordre le
+muscle supra-spinatus (insertion antéro-latérale) puis supraspinatus (latéro-postérieur) et enfin, en
+postérieur, le teres minor. En postérieur, on palpe l’épine de la scapula qui délimite les fosses supra
+et infra-épineuse.
+
+33
+
+Légende :
+1. Coracoïde
+M. biceps brachii (Caput breve)
+Coiffe des rotateurs
+2. Tuberculum magnus (insertion
+de :
+M.
+supraspinatus,
+M.
+infraspinatus, M. teres minor)
+3. Tuberculum minus (insertion du
+M. subscapularis)
+4. Sulcus intertubercularis (contient
+le tendon du M. biceps brachii
+(Caput longum))
+5. Insertion du muscle deltoïde
+6. Bursa subacromialis
+7. Articulation acromioclaviculaire
+8. Ligament coracoacromial
+
+La palpation de l’articulation acromio-claviculaire se fait
+par voie supéro-antérieure.
+
+Outre la reproduction de la douleur, la palpation cherchera aussi à mettre en évidence une chaleur.
+
+34
+
+Coiffe des rotateurs vue postérieure
+M. supraspinatus abduction
+M. infraspinatus et M. teres miner rotation externe.
+Entre la scapula et la cage thoracique, il y a le
+M. subscapularis qui passe le long de la cage thoracique
+pour venir s’insérer en antérieur (tuberculum minus) ;
+c’est donc un rotateur interne.
+
+Examen fonctionnel
+L’examen recherchera les amplitudes articulaires du mouvement dans 5 directions, d’abord :
+- Flexion antérieur (=élévation), abduction (latérale),
+- Rotation externe coude au corps, rotation interne, en passant la main dans le dos, et en
+notant la distance du pouce à C7.
+- En clinique l’extension (postérieure) et l’adduction ne sont en général pas mesurée.
+- Les rotations internes et externes peuvent aussi être testées en amenant l’épaule en
+abduction à 90°. Les valeurs seront alors un peu différentes.
+
+
+En cas de limitation d’amplitude du mouvement actif, l’examinateur cherchera la possibilité
+de gagner en amplitude par un mouvement passif.
+
+
+
+Afin de déterminer si il existe une limitation d’amplitude, il est important de comparé au
+côté sain.
+
+Chacune de ces directions est ensuite testée contre résistance, en général avec le coude au corps.
+L’abduction et l’antéflexion testent ainsi les différentes composantes du deltoïde.
+
+35
+
+36
+
+La rotation interne est en souvent mesurée en terme de
+distance entre le pouce et C7 (1ère épineuse proéminente)
+En général devrait être inférieure à 20 cm (exemple. P-C7 = 14
+cm).
+
+Certains examinateurs utilisent un mouvement global combiné
+(élévation, rotation interne) en mesurant également la distance
+pouce-C7 en passant par le haut
+
+37
+
+Les tests fonctionnels contre résistance dessinés ci-dessous
+informent sur les douleurs ou l'affaiblissement individuel des
+muscles.
+L’élévation (antéflexion) n’est pas représentée mais elle est
+testée.
+
+Les tests spécifiques
+Chaque tendon de la coiffe mais aussi le tendon du biceps longus a un ou plusieurs tests
+relativement spécifiques. Ils ont avant tout été élaborés pour mettre en évidence une rupture
+(défaut de force). Par extension, on les utilise pour tenter de mettre en évidence une tendinopathie.
+Dans ce contexte (reproduction de douleur) ils sont nettement moins spécifiques.
+Le sous-scapulaire (rotateur externe) n’a pas besoin d’une manœuvre particulière. Comme il est le
+seul à participer à la rotation externe coude au corps, le test contre-résistance réalisé
+précédemment rempli pleinement ce rôle.
+
+38
+
+Test de Jobe : sus-épineux (abduction)
+
+Test de
+interne)
+
+lift-off :
+
+sous-scapulaire
+
+(rotation
+
+Comme les muscles de la coiffe des Rotateurs, le M. biceps brachii
+peut être testé contre résistance (insertion douloureuse, parésie
+musculaire, rupture tendineuse.
+
+39
+
+Un test a également été développé pour rechercher un conflit sous-acromial (irritation du susépineux « piégé » entre la tête humérale et l’acromion.
+Le bras est amené à 90° d’abduction avec une
+légère antéflexion. Dans cette position des
+mouvements de rotation interne (avant-bras
+amené vers le bas) et externe (avant-bras amené
+vers le haut) permettent de rendre
+symptomatique une altération éventuelle de la
+coiffe des rotateurs (compression entre acromion
+et humérus).
+
+Test d'appréhension : permet de détecter une éventuelle instabilité de ~l'articulation de l'épaule
+
+40
+
+Test de l’acromio-claviculaire. L'adduction passive et
+forcée en position horizontale du bras reproduit des
+douleurs dans l'articulation acromio-claviculaire lorsque
+celle-ci est à l’origine de la nociception (souvent en raison
+d’une arthrose).
+
+41
+
+Coudes
+Inspection
+Déformation, asymétries, atrophies musculaires (éventuellement localisées), tuméfaction, nodule.
+
+Palpation
+Repères anatomiques :
+Tendon distal du biceps, épicondyle latérale (insertion du
+M. extensor carpi radialis), tête radiale, épicondyle
+médiale (=épitrochlée), gouttière ulnaire, olécrâne,
+tendon du triceps brachial.
+Palpation des insertions musculaires (en particulier M.
+extensor carpi radialis au niveau de l'épicondyle latéral) de
+la tête radiale, du nerf cubital.
+
+La palpation de la capsule articulaire se palpe le plus
+facilement à la face latérale du coude, dans l’espace
+l’épicondyle et l’olécrâne. On peut y palper une synovite
+ou un épanchement articulaire.
+
+Examen fonctionnel
+En actif puis, si nécessaire en passif, on mesure l’amplitude de la flexion et de l’extension. Cette
+dernière est souvent de 0° mais peut aller jusqu’à 10°.
+Ensuite, coude fléchi à 90°, on teste la pronation (80°) et la supination (80°)
+
+42
+
+Les mêmes mouvements sont ensuite testés contre résistance.
+
+Tests spécifiques
+Épicondylite latérale : extension contrariée du poignet
+reproduisant la douleur à l’épicondyle latérale.
+Epicondylite médiale : flexion contrariée
+reproduisant la douleur à l’épicondyle médiale
+
+43
+
+du
+
+poignet
+
+Mains
+Inspection
+On évalue la couleur et trophicité de la peau et des ongles, les tuméfactions (diffuses, localisées,
+doigts en saucisse), rétraction aponévrotique, épaississements des tendons fléchisseurs (nodules),
+les déformations des IPP et des IPD (= ostéophytose de l’arthrose = nodules de Bouchard et
+d’Heberden) , pouce en Z ou en abduction (arthrose du pouce = rhizarthrose), déformation de la
+polyarthrite rhumatoïde : déformation des doigts en col de cygne ou en boutonnière, déviations
+ulnaire du carpe.
+
+Palpation
+Repères anatomiques : tête radiale, tendon fléchisseur radial du carpe, tendon long fléchisseur des
+doigts, tendon fléchisseur ulnaire du carpe, tête ulnaire. Os pisiforme et scaphoïde. Tendon des
+extenseurs des doigts, long extenseur du pouce, court extenseur et long abducteur du pouce,
+tabatière anatomique. MCP, IPP IPD.
+
+44
+
+La palpation de la capsule articulaire du poignet permet de détecter une synovite ou un
+épanchement (attention : l'espace inter-articulaire des articulations des doigts se déplace
+distalement en cas de flexion).
+Important pour la palpation des petites articulations : une pression régulière du côté palmaire
+permet, surtout quand l'articulation est en flexion, de déplacer les tissus ou le liquide dorsalement
+vers les doigts de l'examinateur.
+
+Une douleur à la flexion palmaire du poignet est un signe de
+synovite dans cette articulation.
+
+Palpation douloureuse des tendons palmaires ou dorsaux en cas
+de ténosynovite aiguë. Crépitations dans la paume ou sur le dos
+de la main en cas d'altérations tendineuses chroniques.
+
+45
+
+Examen fonctionnel
+
+46
+
+L'examen fonctionnel du poignet comprend l'extension, la flexion, l'inclinaison ulnaire et radiale. La
+supination et la pronation dépendent d'un mouvement simultané dans l'articulation du coude.
+Toutes les amplitudes se testent en actif puis en passif en cas de limitation.
+Enfin chaque amplitude est testée contre résistance.
+
+Particularité pour les doigts :
+En première intention, un déficit de flexion des
+doigts se caractérise par une augmentation de la
+distance pulpe paume.
+
+Un déficit en extension se repère avec le signe du
+prieur
+
+Tests spécifiques
+
+Signe de Gänslen (étreinte des MCP) : la compression des
+articulations des doigts provoque des douleurs lors de synovites
+des MCP.
+
+47
+
+Ténosynovite de de Quervain
+L'examen contre résistance de l'abduction ou
+extension active du pouce est douloureux lors
+d'une affection des gaines des tendons du long
+abducteur et court extenseur.
+
+On utilise aussi le test de Finkelstein : on
+demande au patient d’empaumer son pouce
+puis de réaliser une inclinaison ulnaire. Le test
+est positif lorsqu’il reproduit la douleur en
+regard des tendons.
+
+La neuropathie compressive du nerf médian (= syndrome du tunnel carpien) est une affection
+neurologique qui est fréquemment rencontrée dans les consultations d’orthopédie ou de
+rhumatologie. Elle se détecte grâce à 2 tests :
+Signe de Tinel :
+La percussion du point de passage du nerf médian au poignet provoque
+des douleurs avec irradiation dans les doigts 1 à 3.
+
+48
+
+Test de Phalen:
+L’hyperflexion des 2 poignets pendant une minute
+provoque les mêmes douleurs que décrites cidessus.
+
+La force de préhension est un paramètre important dans le suivi des atteintes articulaires des
+doigts. Dans certaines consultations, la mesure à l'aide d'un ballon en caoutchouc est réalisée car
+elle est plus fiable que celle faite avec la manchette du tensiomètre.
+
+49
+
+Colonne vertébrale
+Inspection
+Posture
+La posture s’apprécie en regardant l’aspect global du rachis, avec des courbures harmonieuses et
+physiologiques (lordose dans la partie cervicale et lombaire, cyphose dans la partie dorsale).
+L’appréciation d’une déviation de la forme physiologique s’appuie sur l’observation de la symétrie
+des épaules, des masses musculaires, de l’horizontalité du bassin et de la différence de longueur des
+membres inférieurs. De profil on vérifiera l’alignement tragus-acromion-grand trochanter-cheville.
+On peut utiliser un fil à plomb pour s’aider ou mesurer avec précision.
+Attention :
+1) si visuellement on observe une lordose cervicale (en raison de la forme du crâne), la courbure
+cervicale radiologique C2-C7 d’un individu asymptomatique peut être en lordose, plate ou
+même en cyphose !
+2) L’importance des différentes courbures est en lien direct avec la forme du bassin. Sans une
+radiographie pour caractériser l’incidence pelvienne, il n’est pas possible de connaitre
+l’intensité des courbures nécessaires à une personne donnée pour être dans un bon équilibre.
+Cliniquement, on peut donc donner une appréciation générale de l’équilibre global mais en
+aucun cas parler de « trop » ou de «pas assez » de courbure lombaire ou thoracique.
+En cas d’anomalie posturale, on parle parfois d’attitude vicieuse pour une variante de la position
+fonctionnelle corrigible. Exemple : attitude scoliotique, cyphose dorsale accentuée sur diminution
+de tonus musculaire.
+Lorsque la correction est impossible ou seulement partielle cela implique qu’il y a une déformation
+structurelle sous-jacente. Exemple : scoliose (implique non seulement une déformation dans le plan
+coronal mais aussi la présence d’une rotation des vertèbres participantes), cyphose dorsale dans le
+contexte de fracture ostéoporotique ou de maladie de Scheuermann.
+Pour faire la différence entre déformation structurelle et attitude vicieuse
+Dans le plan sagittal, on observera l’évolution de la cyphose lorsque le patient est couché sur le dos
+(son occiput repose-t-il naturellement sur la table d’examen ?).
+Dans le plan frontal, pour différencier une scoliose d’une attitude scoliotique, on examinera en
+particulier la symétrie des masses musculaires thoraciques lors de la flexion du tronc. Lors de
+scoliose il y a une asymétrie de hauteur entre la droite et la gauche, on parle alors de gibbosité. Elle
+est due à une rotation des corps vertébraux sous-jacent et signe donc une vraie scoliose.
+
+50
+
+Colonne vertébrale cervicale
+Palpation
+Repères anatomiques.
+Pour repérer l’épineuse de C7 :
+Il est d’usage de dire que C7 est l’épineuse la plus proéminente, mais dans 40% c’est C6 !
+Deux autres techniques sont proposées pour repérer C7 :
+1. Lors de le flexion-extension, C6 bouge beaucoup, C7 peu ou pas.
+2. Lors de la rotation l’épineuse de C7 va se déplacer latéralement alors que l’épineuse de T1
+va rester fixe.
+
+On recherchera également
+
+
+
+
+
+Musculature paravertébrale (tonus, douleur),
+Apophyses épineuses (marche d’escalier = suspicion de spondylolisthésis, douleur)
+Douleur à la percussion d’une apophyse épineuse (suspicion de fracture vertébrale)
+Ligament interépineux (douleurs à la palpation).
+
+Examen fonctionnel
+Flexion, extension et inclinaison des deux côtés sont examinées dans chaque segment.
+Examen de rotation au niveau de la colonne cervicale en position neutre, flexion et extension, et de
+la colonne dorsale en position neutre. On utilise plutôt la distance entre le menton et le sternum
+pour
+rapport
+l’amplitude
+de
+mouvement
+en
+flexion
+et
+en
+extension.
+Note : Il est possible d’isoler la rotation faite en cervical haut et en cervical bas. Une rotation en
+flexion complète teste surtout le rachis cervical C0-C2, et en extension surtout ce qui est lié au C2C7.
+51
+
+52
+
+Paramètres
+
+Distance menton-sternum mesure la flexion/extension
+maximale de la colonne cervicale (exemple: Distance
+menton/sternum (DMS) = 1/19 cm)
+
+Colonne vertébrale dorso-lombaire
+Les deux zones sont généralement examinées ensemble
+
+Palpation :
+Repères thoraciques
+
+53
+
+Les repères au niveau lombaire sont les crêtes iliaques en général à la hauteur de l’espace
+intervertébral L4-L5, la charnière lombo-sacrée, le sacrum, les épines iliaques postéro-supérieurs.
+
+On recherchera également
+
+
+
+
+
+Musculature paravertébrale (tonus, douleur),
+Apophyses épineuses (marche d’escalier = suspicion de spondylolisthésis, douleur)
+Douleur à la percussion d’une apophyse épineuse (suspicion de fracture vertébrale)
+Ligament interépineux (douleurs à la palpation)
+
+Examen fonctionnel
+Le segment dorsal et le segment lombaire bouge de concert.
+La flexion se mesure en distance (cf. infra, mesure de l’Ott pour le segment dorsal et de Schober
+pour les lombaires). On apprécie de manière globale l’extension (les genoux doivent rester en
+extension pendant la manœuvre).
+Les inclinaisons sont le plus souvent mesurées de manière globale (dorsal et lombaire ensemble)
+par la distance doigts-sol ou doigts-genou plutôt que par des angles.
+Les rotations impliquent essentiellement le segment dorsal. Pour avoir une mesure plus précise, il
+est essentiel que le bassin soit bien stabilisé en position neutre et ne participe pas à la rotation. La
+mesure en position assise permet naturellement cette stabilisation.
+
+54
+
+Norme = 2 à 4 cm
+
+La version la plus reproductible est dite
+« Schober modifié-modifié »:
+On trace une ligne horizontale entre les
+épines iliaques postéro-supérieur puis
+un 2ème repère 15 cm au-dessus. En fin
+de flexion, un gain d’au moins 6 cm est
+attendu.
+
+55
+
+56
+
+Articulation sacro-iliaque
+L'articulation sacro-iliaque relie la colonne vertébrale au bassin. L'examen direct n'est pas possible.
+Cette articulation est examinée parallèlement avec la colonne vertébrale et les articulations de la
+hanche.
+
+Inspection
+Symétrie de la position du bassin, musculature, longueur des jambes (assis et couché)
+
+Palpation
+L'articulation elle-même n'est pas accessible à la palpation directe (>2 cm d'épaisseur des tissus
+au-dessus de l’articulation). La palpation indirecte de l'articulation sacro-iliaque se fait en décubitus
+ventral ou en position latérale (musculature relâchée). La palpation est en général douloureuse dans
+la partie supéro-postérieure de l'articulation sacro-iliaque (en dessus de l'épine Iliaque postérieure
+supérieure).
+
+Examen fonctionnel
+Les tests des articulations sacro-iliaques cherchent à reproduire la douleur de la région lombofessière à travers des mouvements de cisaillement (tests de stress) ou à travers une pression (tests
+57
+
+de compression). Seuls, ces tests sont cependant peu fiables. La présence de plusieurs tests positifs
+renforce cependant la suspicion d’un problème de sacro-iliaque. Pour chaque test c’est la
+reproduction de la douleur dans la fesse, autour de l’EIPS, qui est recherchée et défini un test positif.
+Compression antéro-postérieure du bassin: en
+décubitus dorsal on applique une pression forte vers
+l'arrière. La douleur est localisée dans la région de
+l'articulation sacro-iliaque atteinte.
+
+Signe du quatre (selon Patrick): examen identique à celui
+test combiné de la hanche (rotation externe et abduction,
+appelé aussi FABER). Une distance agrandie suggère une
+dysfonction ou une inflammation de la sacro-iliaque
+(condition: articulation de la hanche normale). On cherche
+aussi une reproduction de la douleur de la région de la
+sacro-iliaque lors de l’appui sur le genou, tout en
+maintenant le bassin stable par appui sur l’épine iliaque
+antérieure contro-latérale
+
+Une
+
+« thigh thrust » test, test en « pression de cuisse ». La
+cuisse du côté symptomatique est placée à 90° de flexion.
+main est placée sous le sacrum. Quelques pressions
+d’intensité progressives sont réalisées dans l’axe du fémur
+
+58
+
+Test de Gänslen Le patient est positionné au bord de
+la table, la cuisse contro-latérale (ici, la gauche) est
+amenée en flexion afin de stabilisé la région lombaire.
+La jambe du côté symptomatique est alors amenée en
+dehors de la table avec une petite pression sur la
+cuisse pour obtenir une extension de hanche.
+
+Test de ventralisation du sacrum: la pression
+directe des 2 mains sur le sacrum (patient en
+décubitus ventral) provoque une douleur latéralisée
+du côté de l’atteinte.
+Le même effet sur les articulations sacro-iliaques
+peut être obtenu en décubitus latéral en exerçant
+une pression sur l’aile iliaque
+
+Autres tests fréquemment utilisés :
+Test de Mennell (Extension de la
+hanche): Examen en position
+latérale ou décubitus ventral. Le
+bassin fixé par une main,
+l'articulation de la hanche, du côté
+identique à l'articulation sacroiliaque atteinte, est mise en
+extension par un mouvement fort et
+maximal.
+
+59
+
+Articulation temporo-mandibulaire
+Inspection
+En général peu conclusive, éventuellement tuméfaction discrète.
+
+Palpation
+Tuméfaction (dure, molle), bruit de friction (lors de la
+mastication).Système ostéo-articulaire
+Douleur
+
+Examen fonctionnel
+Symétrie de l'ouverture de la bouche, avec mesure
+de la distance inter-dentaire est un bon paramètre
+d'évaluation.
+
+60
+
+

@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche de Révision ECOS - INFARCTUS DU MYOCARDE</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #7b68ee;
+            --success-color: #5cb85c;
+            --danger-color: #d9534f;
+            --warning-color: #f0ad4e;
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --ecos-gradient: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
+            --card-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header {
+            background: var(--bg-gradient);
+            color: white;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .page-title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .meta-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            backdrop-filter: blur(10px);
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        /* Sections principales */
+        .main-section {
+            color: var(--primary-color);
+            margin: 35px 0 25px 0;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8em;
+        }
+        
+        .section-title {
+            color: var(--secondary-color);
+            margin: 25px 0 15px 0;
+            padding-left: 20px;
+            border-left: 5px solid var(--secondary-color);
+            font-size: 1.4em;
+        }
+        
+        .sub-section {
+            color: #495057;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        
+        /* Section spéciale Points Clés ECOS */
+        .ecos-key-points {
+            background: var(--ecos-gradient);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 15px 50px rgba(255,107,107,0.3);
+            position: relative;
+            overflow: hidden;
+            animation: pulse-glow 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 15px 50px rgba(255,107,107,0.3); }
+            50% { box-shadow: 0 20px 60px rgba(255,107,107,0.5); }
+        }
+        
+        .ecos-key-points::before {
+            content: '⚡';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 150px;
+            opacity: 0.1;
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .ecos-key-points-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .ecos-key-points-header h2 {
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin: 0;
+        }
+        
+        .ecos-icon {
+            font-size: 2.5em;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .ecos-key-points-content {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 20px;
+            color: #333;
+        }
+        
+        /* Highlights et alertes */
+        .red-flag, .critical-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff4444, #cc0000);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: pulse 1.5s infinite;
+            margin: 5px 0;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .urgent-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff9800, #f44336);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: blink 2s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        
+        .essential-point {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700, #ffb300);
+            color: #333;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        .important-note {
+            display: inline-block;
+            background: linear-gradient(135deg, #4caf50, #8bc34a);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        /* Highlights de texte */
+        .highlight-critical {
+            background: #ffebee;
+            color: #c62828;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            border-bottom: 2px solid #ef5350;
+        }
+        
+        mark.highlight-critical {
+            background: linear-gradient(to bottom, transparent 50%, #ffcdd2 50%);
+            padding: 2px 4px;
+        }
+        
+        /* Checkboxes */
+        .checkbox-item {
+            margin: 12px 0;
+            padding: 18px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            border-left: 5px solid transparent;
+            display: flex;
+            align-items: center;
+        }
+        
+        .checkbox-item:hover {
+            background: linear-gradient(135deg, #e9ecef, #dee2e6);
+            transform: translateX(8px);
+            border-left-color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        
+        .checkbox-item label {
+            cursor: pointer;
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+        
+        .checkbox-item input[type="checkbox"]:checked + label {
+            color: var(--success-color);
+            text-decoration: line-through;
+            font-weight: 500;
+        }
+        
+        /* Tables */
+        .table-container {
+            overflow-x: auto;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        .data-table thead {
+            background: var(--bg-gradient);
+            color: white;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .data-table tbody tr:hover {
+            background: linear-gradient(90deg, #f8f9fa, #ffffff);
+            transform: scale(1.01);
+            transition: all 0.2s ease;
+        }
+        
+        .cell-critical {
+            background: #ffebee !important;
+            color: #c62828;
+            font-weight: 600;
+        }
+        
+        .cell-important {
+            background: #fff3e0 !important;
+            color: #e65100;
+            font-weight: 600;
+        }
+        
+        /* Listes */
+        .content-list {
+            margin: 15px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .content-list li {
+            position: relative;
+            padding-left: 35px;
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+        
+        .content-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 10px;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        /* Sections enrichissement */
+        .enrichment-section {
+            margin: 30px 0;
+            background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 20px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .enrichment-header {
+            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: var(--primary-color);
+            padding: 10px;
+            user-select: none;
+            transition: all 0.3s ease;
+        }
+        
+        .enrichment-header:hover {
+            color: var(--secondary-color);
+            transform: translateX(10px);
+        }
+        
+        .enrichment-section[open] .enrichment-header {
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+        
+        .enrichment-content {
+            animation: fadeIn 0.5s ease-out;
+            padding: 0 10px;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Paragraphes */
+        p {
+            margin: 12px 0;
+            line-height: 1.8;
+        }
+        
+        strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        em {
+            color: #495057;
+            font-style: italic;
+        }
+        
+        /* Progress bar */
+        .progress-bar {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            min-width: 200px;
+            z-index: 1000;
+        }
+        
+        .progress-text {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .progress-track {
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--bg-gradient);
+            border-radius: 5px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+        
+        /* Menu flottant */
+        .floating-menu {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        
+        .menu-button {
+            background: var(--bg-gradient);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+        }
+        
+        .menu-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+        }
+        
+        /* Timer */
+        .timer {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            background: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            box-shadow: var(--card-shadow);
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            .page-title {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .floating-menu {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .timer {
+                top: 10px;
+                left: 10px;
+                font-size: 0.9em;
+            }
+            
+            .progress-bar {
+                bottom: 10px;
+                right: 10px;
+                min-width: 150px;
+            }
+            
+            .ecos-key-points {
+                padding: 20px;
+            }
+            
+            .ecos-key-points-header h2 {
+                font-size: 1.5em;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+            
+            .floating-menu,
+            .timer,
+            .progress-bar {
+                display: none;
+            }
+            
+            .ecos-key-points {
+                page-break-inside: avoid;
+                background: #fff3e0 !important;
+                border: 3px solid #ff6b6b;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="timer" id="timer">⏱️ 00:00</div>
+    
+    <div class="floating-menu">
+        <button class="menu-button" onclick="resetProgress()">🔄 Réinitialiser</button>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="page-title">Fiche de Révision ECOS - INFARCTUS DU MYOCARDE</h1>
+            <div class="meta-info">
+                <span class="badge">📚 Médecine Interne</span>
+                <span class="badge">📅 30/08/2025</span>
+                <span class="badge">🎯 Révision ECOS - Diagnostic</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h1 class="page-title">Fiche de Révision ECOS - INFARCTUS DU MYOCARDE</h1><h2 class="main-section">🎯 Situation à Starting Point (SSP)</h2>
+            <h1 class="page-title">Fiche de Révision ECOS - INFARCTUS DU MYOCARDE</h1><h2 class="main-section">🎯 Situation à Starting Point (SSP)</h2>
+<strong>Description:</strong> Patient se présentant avec infarctus du myocarde
+<strong>Spécialité principale:</strong> Médecine Interne
+<strong>Objectifs d'évaluation:</strong> Anamnèse complète, examen clinique ciblé, diagnostics différentiels, prise en charge adaptée</p><p>---</p><h2 class="main-section">📋 ANAMNÈSE</h2>
+<strong>Objectifs d'évaluation:</strong> Anamnèse complète, examen clinique ciblé, diagnostics différentiels, prise en charge adaptée</p><p>---</p><h2 class="main-section">📋 ANAMNÈSE</h2>
+<h3 class="section-title">1. Caractérisation du symptôme principal</h3>
+<h3 class="section-title">1. Caractérisation du symptôme principal</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-1"><label for="cb-1"><strong>Début et évolution:</strong></label></div>
+<ul>
+<li>Depuis quand?</li>
+<li>Mode d'installation (brutal/progressif)?</li>
+<li>Évolution dans le temps?</li>
+</ul>
+<div class="checkbox-item"><input type="checkbox" id="cb-2"><label for="cb-2"><strong>Caractéristiques:</strong></label></div>
+<ul>
+<li>Intensité?</li>
+<li>Localisation précise?</li>
+<li>Type/Qualité?</li>
+</ul>
+<div class="checkbox-item"><input type="checkbox" id="cb-3"><label for="cb-3"><strong>Facteurs:</strong></label></div>
+<ul>
+<li>Déclenchants?</li>
+<li>Aggravants?</li>
+<li>Soulageants?</p><h3 class="section-title">2. Symptômes associés</h3></li>
+<li>Soulageants?</p><h3 class="section-title">2. Symptômes associés</h3></li>
+</ul>
+<div class="checkbox-item"><input type="checkbox" id="cb-4"><label for="cb-4"><strong>Signes d'accompagnement fréquents:</strong></label></div>
+<ul>
+<li>ient ? 2. pourriez-vous rappeler les éléments importants et la chronologie de la prise aigüe de l’in...</li>
+<li>e cardiaque. 1. quel est le diagnostic différentiel de douleurs thoraciques récidivantes après un in...</li>
+<li>on ? 2. quel est le diagnostic différentiel d’un souffle cardiaque nouveau dans la période post-infa...</p><h3 class="section-title">3. Antécédents</h3></li>
+<li>on ? 2. quel est le diagnostic différentiel d’un souffle cardiaque nouveau dans la période post-infa...</p><h3 class="section-title">3. Antécédents</h3></li>
+</ul>
+<div class="checkbox-item"><input type="checkbox" id="cb-5"><label for="cb-5"><strong>Médicaux:</strong> Pathologies chroniques</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-6"><label for="cb-6"><strong>Chirurgicaux:</strong> Interventions antérieures</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-7"><label for="cb-7"><strong>Médicamenteux:</strong> Traitements actuels</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-8"><label for="cb-8"><strong>Allergiques:</strong> Médicaments, autres</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-9"><label for="cb-9"><strong>Familiaux:</strong> Pathologies héréditaires</label></div><h3 class="section-title">4. Habitudes de vie</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-9"><label for="cb-9"><strong>Familiaux:</strong> Pathologies héréditaires</label></div><h3 class="section-title">4. Habitudes de vie</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-10"><label for="cb-10"><strong>Tabac:</strong> PA</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-11"><label for="cb-11"><strong>Alcool:</strong> Consommation</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-12"><label for="cb-12"><strong>Drogues:</strong> Usage</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-13"><label for="cb-13"><strong>Activité physique:</strong> Niveau</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-14"><label for="cb-14"><strong>Profession:</strong> Exposition professionnelle</label></div><p>---</p><h2 class="main-section">🩺 EXAMEN CLINIQUE (STATUS)</h2>
+<div class="checkbox-item"><input type="checkbox" id="cb-14"><label for="cb-14"><strong>Profession:</strong> Exposition professionnelle</label></div><p>---</p><h2 class="main-section">🩺 EXAMEN CLINIQUE (STATUS)</h2>
+<h3 class="section-title">Signes vitaux</h3>
+<h3 class="section-title">Signes vitaux</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-15"><label for="cb-15"><strong>TA, FC, FR, T°, SaO2</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-16"><label for="cb-16"><strong>État général</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-17"><label for="cb-17"><strong>Conscience (GCS si altérée)</strong></label></div><h3 class="section-title">Examen général</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-17"><label for="cb-17"><strong>Conscience (GCS si altérée)</strong></label></div><h3 class="section-title">Examen général</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-18"><label for="cb-18"><strong>Inspection:</strong> Morphotype, état nutritionnel</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-19"><label for="cb-19"><strong>Palpation:</strong> Aires ganglionnaires</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-20"><label for="cb-20"><strong>Auscultation:</strong> Cardio-pulmonaire</label></div><h3 class="section-title">Examens spécifiques recommandés</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-20"><label for="cb-20"><strong>Auscultation:</strong> Cardio-pulmonaire</label></div><h3 class="section-title">Examens spécifiques recommandés</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-21"><label for="cb-21"><strong>auscultation cardiaque</strong></label></div><p>---</p><h2 class="main-section">💊 PRISE EN CHARGE (MANAGEMENT)</h2>
+<div class="checkbox-item"><input type="checkbox" id="cb-21"><label for="cb-21"><strong>auscultation cardiaque</strong></label></div><p>---</p><h2 class="main-section">💊 PRISE EN CHARGE (MANAGEMENT)</h2>
+<h3 class="section-title">1. <mark class="highlight-critical">Drapeaux rouges</mark></h3>
+<h3 class="section-title">1. <mark class="highlight-critical">Drapeaux rouges</mark></h3>
+<h3 class="section-title">2. Examens complémentaires</h3>
+<h3 class="section-title">2. Examens complémentaires</h3>
+<h4 class="sub-section">Examens de première intention</h4>
+<h4 class="sub-section">Examens de première intention</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-22"><label for="cb-22">radiographie thoracique</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-23"><label for="cb-23">échographie cardiaque</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-24"><label for="cb-24">électroencéphalogramme</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-25"><label for="cb-25">échographie abdominale</label></div><h3 class="section-title">3. Diagnostics différentiels</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-25"><label for="cb-25">échographie abdominale</label></div><h3 class="section-title">3. Diagnostics différentiels</h3>
+<div class="table-container"><table class="data-table">
+<thead><tr><th>Diagnostic</th><th>Arguments POUR</th><th>Arguments CONTRE</th></tr></thead>
+<tbody>
+<tr><td><strong>À compléter</strong></td><td>• Selon contexte</td><td>• Selon clinique</td></tr>
+<tr><td><strong>À compléter</strong></td><td>• Selon anamnèse</td><td>• Selon examens</td></tr>
+<tr><td><strong>À compléter</strong></td><td>• Selon évolution</td><td>• Selon tests</td></tr>
+</tbody>
+</table>
+</div><h3 class="section-title">4. Traitement</h3>
+</div><h3 class="section-title">4. Traitement</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-26"><label for="cb-26"><strong>Mesures générales:</strong> Repos, hydratation</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-27"><label for="cb-27"><strong>Traitement symptomatique:</strong> Antalgiques, autres</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-28"><label for="cb-28"><strong>Traitement étiologique:</strong> Selon diagnostic</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-29"><label for="cb-29"><strong>Surveillance:</strong> Paramètres à suivre</label></div><h3 class="section-title">5. Conseils au patient</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-29"><label for="cb-29"><strong>Surveillance:</strong> Paramètres à suivre</label></div><h3 class="section-title">5. Conseils au patient</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-30"><label for="cb-30"><strong>Explication du diagnostic</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-31"><label for="cb-31"><strong>Plan de traitement</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-32"><label for="cb-32"><strong>Signes d'alarme</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-33"><label for="cb-33"><strong>Suivi prévu</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-34"><label for="cb-34"><strong>Mesures préventives</strong></label></div><p>---</p><div class="ecos-key-points">
+    <div class="ecos-key-points-header">
+        <span class="ecos-icon">🎯</span>
+        <h2>Points Clés pour l'ECOS</h2>
+    </div>
+    <div class="ecos-key-points-content">
+        
+<div class="ecos-key-points">
+    <div class="ecos-key-points-header">
+        <span class="ecos-icon">🎯</span>
+        <h2>Points Clés pour l'ECOS</h2>
+    </div>
+    <div class="ecos-key-points-content">
+        ## 📌 POINTS CLÉS POUR L'EXAMEN</p><p>#
+    </div>
+</div><p>    </div>
+</div>
+<h2 class="main-section">✅ Points essentiels</h2>
+<h2 class="main-section">✅ Points essentiels</h2>
+<ul>
+<li><strong>Anamnèse complète et <mark class="highlight-critical">systématique</mark></strong>
+<ul>
+<li><strong>Rechercher les <mark class="highlight-critical">drapeaux rouges</mark></strong></li>
+<li><strong>Examen clinique ciblé</strong>
+<ul>
+<li><strong>Examens complémentaires pertinents</strong></li>
+<li><strong>Prise en charge adaptée</strong></p><h3 class="section-title">❌ Pièges à éviter</h3>
+<li><strong>Prise en charge adaptée</strong></p><h3 class="section-title">❌ Pièges à éviter</h3>
+</li>
+</ul>
+<ul>
+<li>Oublier les diagnostics graves</li>
+<li>Ne pas rechercher les signes d'alarme</li>
+<li>Examens non pertinents</li>
+<li>Sous-estimer la gravité</li>
+<li>Oublier le suivi</p><p>---</p><h2 class="main-section">🏥 POINTS PAR SPÉCIALITÉ</h2>
+<li>Oublier le suivi</p><p>---</p><h2 class="main-section">🏥 POINTS PAR SPÉCIALITÉ</h2>
+</li>
+</ul>
+</ul>
+  </li>
+</ul>
+<h3 class="section-title">Médecine Interne</h3>
+<h3 class="section-title">Médecine Interne</h3>
+<ul class="content-list">
+<ul>
+<li>Points spécifiques à la spécialité</li>
+<li>Examens particuliers recommandés</li>
+<li>Prise en charge spécialisée</li>
+</ul><p>---</p><h2 class="main-section">📚 RÉFÉRENCES</h2>
+<ul class="content-list">
+<ul>
+<li>Guidelines et recommandations actuelles</li>
+<li>Consensus d'experts</li>
+<li>Littérature médicale récente</li>
+<li>15 : 2 si 2 secouristes QUALITÉ RCP • Fort 5-6 cm (1/3 thorax chez l’enfant) • Vite 100-120/min.</li>
+<li>si l’appareil est en proximité immédiate. L’importance absolue  du MCE est illustrée par le moyen  mnémotechnique «"C-A-B"»  (Circulation-Airways-Breathing) qui donne donc la préséance  au MCE sur toutes les autres  actions (en particulier la gestion</li>
+<li>O2 / VENTILATION Intubation orotrachéale ou dispositif supraglottique, puis massage en continu,</li>
+<li>rapidement permettre à ces patients de bouger leur coude. <mark class="highlight-critical">Toujours</mark> rechercher le signe du fat pad chez quelqu’un  qui n’arrive plus à bouger le coude et a mal ! Comme on n’est pas des oiseaux, on traite les fractures de</li>
+<li>et qu’il n’arrive pas à tendre le  coude, il faut rechercher ce signe,  parfois plus simple à détecter que  la fracture  !</li>
+<li>mécanisme: • le plus souvent choc directe • sur coude fléchi • rare sur traction du triceps</li>
+<li>• douleurs, déformation, fausse mobilité • examen neurologique!!! • Rx: F et P • CT pré-op</li>
+<li>• douleurs, déformation, fausse mobilité • examen neurologique!!! • Rx: F et P  diagnostic</li>
+<li>comprend notamment l’identification de l’étiologie de l’ACR  par différents examens complémentaires (coronarographie,  imagerie cérébrale, échocardiographie, dosages sanguins, etc.)  et une thérapie de protection neurologique par le contrôle</li>
+<li>• prothèse totale de coude traitement Chez les personnes âgées, les vis ne  tiennent pas bien (ostéoporose !), du</li>
+<li>dans le plâtre, et si ça marche, on  continue avec un traitement  conservateur (= le brace) Critères pour un traitement</li>
+<li>• débridement origine ECRB traitement = muscle court extenseur  radial du carpe</li>
+<li>Position à 0°, ou PLS si nausées   Si instabilité ou critères the thrombolyse, médicalisation en 2ème échelon si SMUR pas déjà  engagé.</li>
+<li>microtraumatismes  Instabilités  Infections  Spondylarthrites-SAPHO</li>
+<li>• fréquence respiratoire ?  • signes de détresse respiratoire ?  • asymétrie ?  • hématome ?</li>
+<li>os) ! Le plus souvent, ce sont les ligaments qui rompent, et parfois  cela vient d’une fracture assez importante</li>
+<li>une opération, on fait un CT (Visiblement CT surtout important lors des fractures touchant les articulations)</li>
+<li>Balek de la classification ; juste pour  montrer que le CT est très important !</li>
+<li>Aigu</li>
+<li>Cardiaque</li>
+<li>Chronique</li>
+<li>Coronarien</li>
+<li>Ischémie</li>
+<li>Pulmonaire</li>
+<li>Brûlure</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Malaise</li>
+<li>Palpitations</li>
+<li>Auscultation</li>
+<li>Examen </li>
+</ul>
+clinique
+<ul class="content-list">
+<ul>
+<li>Examen clinique</li>
+<li>Palpation</li>
+<li>Percussion</li>
+<li>Status</li>
+<li>Pr interval</li>
+<li>Q wave</li>
+<li>QRS</li>
+<li>ST ELEVATION</li>
+<li>ST-ELEVATION</li>
+<li>T wave</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Diagnostic </li>
+</ul>
+différentiel
+<ul class="content-list">
+<ul>
+<li>Diagnostic différentiel</li>
+<li>Differential diagnosis</li>
+<li><strong>Choc</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Grave</mark></strong></li>
+<li><strong>Instable</strong>
+<ul>
+<li><strong>Mortalité</strong></li>
+<li><strong><mark class="highlight-critical">Sévère</mark></strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Angioplastie</li>
+<li>Anticoagulation</li>
+<li>Hospitalisation</li>
+<li>Revascularisation</li>
+<li>Thrombolyse</li>
+<li>Traitement</li>
+<li>Angor</li>
+<li>Dissection</li>
+<li>Embolie</li>
+<li>Infarctus</li>
+<li>Pneumonie</li>
+<li>Pneumothorax</li>
+<li>Vignette Intermed DRS_.pdf</li>
+<li>VignetteClinique_TBL_DRS_Restitution.pdf</li>
+<li>ECG_QUIZ_Intermed_semaine_1.pdf</li>
+<li>RMS NSTEMI 2016.pdf</li>
+<li>AAFP acute chest pain.pdf</li>
+<li>Aigu</li>
+<li>Cardiaque</li>
+<li>Chronique</li>
+<li>Coronarien</li>
+<li>Ischémie</li>
+<li>Pulmonaire</li>
+<li>Brûlure</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Auscultation</li>
+<li>Examen clinique</li>
+<li>Palpation</li>
+<li>Percussion</li>
+<li>Pr interval</li>
+<li>Q wave</li>
+<li>QRS</li>
+<li>ST-ELEVATION</li>
+<li>T wave</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Diagnostic </li>
+</ul>
+différentiel
+<ul class="content-list">
+<ul>
+<li>Diagnostic différentiel</li>
+<li>Differential diagnosis</li>
+<li><strong>Choc</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Grave</mark></strong></li>
+<li><strong>Instable</strong>
+<ul>
+<li><strong>Mortalité</strong></li>
+<li><strong><mark class="highlight-critical">Sévère</mark></strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Angioplastie</li>
+<li>Hospitalisation</li>
+<li>Revascularisation</li>
+<li>Thrombolyse</li>
+<li>Traitement</li>
+<li>Angor</li>
+<li>Dissection</li>
+<li>Embolie</li>
+<li>Infarctus</li>
+<li>Pneumonie</li>
+<li>Pneumothorax</li>
+<li>AAFP acute chest pain.pdf</li>
+<li>Compas_24_Douleur thoracique.pdf</li>
+<li>Article Primary Care DRS.pdf</li>
+<li>Aigu</li>
+<li>Cardiaque</li>
+<li>Chronique</li>
+<li>Coronarien</li>
+<li>Ischémie</li>
+<li>Pulmonaire</li>
+<li>Brûlure</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Malaise</li>
+<li>Palpitations</li>
+<li>Auscultation</li>
+<li>Examen </li>
+</ul>
+clinique
+<ul class="content-list">
+<ul>
+<li>Examen clinique</li>
+<li>Palpation</li>
+<li>Percussion</li>
+<li>Status</li>
+<li>Pr interval</li>
+<li>Q wave</li>
+<li>QRS</li>
+<li>ST ELEVATION</li>
+<li>ST-ELEVATION</li>
+<li>T wave</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Diagnostic différentiel</li>
+<li>Differential diagnosis</li>
+<li>Étiologies</li>
+<li><strong>Choc</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Grave</mark></strong></li>
+<li><strong>Instable</strong>
+<ul>
+<li><strong>Mortalité</strong></li>
+<li><strong><mark class="highlight-critical">Sévère</mark></strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Angioplastie</li>
+<li>Anticoagulation</li>
+<li>Hospitalisation</li>
+<li>Revascularisation</li>
+<li>Thrombolyse</li>
+<li>Traitement</li>
+<li>Angor</li>
+<li>Dissection</li>
+<li>Embolie</li>
+<li>Infarctus</li>
+<li>Pneumonie</li>
+<li>Pneumothorax</li>
+<li>ECG_QUIZ_Intermed_semaine_1.pdf</li>
+<li>RMS NSTEMI 2016.pdf</li>
+<li>AAFP acute chest pain.pdf</li>
+<li>Compas_24_Douleur thoracique.pdf</li>
+<li>Intermed ECG_Monti.pdf</li>
+<li>Aigu</li>
+<li>Cardiaque</li>
+<li>Chronique</li>
+<li>Coronarien</li>
+<li>Ischémie</li>
+<li>Vasculaire</li>
+<li>Douleur</li>
+<li>Examen </li>
+</ul>
+clinique
+<ul class="content-list">
+<ul>
+<li>Status</li>
+<li>Causes</li>
+<li><strong>Choc</strong>
+<ul>
+<li><strong>Instable</strong></li>
+<li><strong>Mortalité</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Angioplastie</li>
+<li>Anticoagulation</li>
+<li>Hospitalisation</li>
+<li>Revascularisation</li>
+<li>Traitement</li>
+<li>Angor</li>
+<li>Infarctus</li>
+<li>Syndrome</li>
+<li>RMS NSTEMI 2016.pdf</li>
+<li>Aigu</li>
+<li>Cardiaque</li>
+<li>Chronique</li>
+<li>Coronarien</li>
+<li>Ischémie</li>
+<li>Vasculaire</li>
+<li>Douleur</li>
+<li>Examen </li>
+</ul>
+clinique
+<ul class="content-list">
+<ul>
+<li>Status</li>
+<li>Causes</li>
+<li><strong>Choc</strong>
+<ul>
+<li><strong>Instable</strong></li>
+<li><strong>Mortalité</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Angioplastie</li>
+<li>Anticoagulation</li>
+<li>Hospitalisation</li>
+<li>Revascularisation</li>
+<li>Traitement</li>
+<li>Angor</li>
+<li>Infarctus</li>
+<li>Syndrome</li>
+<li>RMS NSTEMI 2016.pdf</li>
+<li>Aigu</li>
+<li>Cardiaque</li>
+<li>Chronique</li>
+<li>Coronarien</li>
+<li>Ischémie</li>
+<li>Pulmonaire</li>
+<li>Brûlure</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Malaise</li>
+<li>Palpitations</li>
+<li>Auscultation</li>
+<li>Examen </li>
+</ul>
+clinique
+<ul class="content-list">
+<ul>
+<li>Examen clinique</li>
+<li>Palpation</li>
+<li>Percussion</li>
+<li>Status</li>
+<li>Pr interval</li>
+<li>Q wave</li>
+<li>QRS</li>
+<li>ST ELEVATION</li>
+<li>ST-ELEVATION</li>
+<li>T wave</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Diagnostic différentiel</li>
+<li>Differential diagnosis</li>
+<li>Étiologies</li>
+<li><strong>Choc</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Grave</mark></strong></li>
+<li><strong>Instable</strong>
+<ul>
+<li><strong>Mortalité</strong></li>
+<li><strong><mark class="highlight-critical">Sévère</mark></strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Angioplastie</li>
+<li>Anticoagulation</li>
+<li>Hospitalisation</li>
+<li>Revascularisation</li>
+<li>Thrombolyse</li>
+<li>Traitement</li>
+<li>Angor</li>
+<li>Dissection</li>
+<li>Embolie</li>
+<li>Infarctus</li>
+<li>Pneumonie</li>
+<li>Pneumothorax</li>
+<li>Vignette Intermed DRS_.pdf</li>
+<li>ECG_QUIZ_Intermed_semaine_1.pdf</li>
+<li>RMS NSTEMI 2016.pdf</li>
+<li>AAFP acute chest pain.pdf</li>
+<li>Compas_24_Douleur thoracique.pdf</li>
+<li>Aigu</li>
+<li>Cardiaque</li>
+<li>Chronique</li>
+<li>Coronarien</li>
+<li>Ischémie</li>
+<li>Pulmonaire</li>
+<li>Brûlure</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Palpitations</li>
+<li>Auscultation</li>
+<li>Examen clinique</li>
+<li>Palpation</li>
+<li>QRS</li>
+<li>ST ELEVATION</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Diagnostic différentiel</li>
+<li>Étiologies</li>
+<li><strong>Choc</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Grave</mark></strong></li>
+<li><strong>Instable</strong>
+<ul>
+<li><strong>Mortalité</strong></li>
+<li><strong><mark class="highlight-critical">Sévère</mark></strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Angioplastie</li>
+<li>Hospitalisation</li>
+<li>Revascularisation</li>
+<li>Thrombolyse</li>
+<li>Traitement</li>
+<li>Angor</li>
+<li>Dissection</li>
+<li>Embolie</li>
+<li>Infarctus</li>
+<li>Pneumonie</li>
+<li>Pneumothorax</li>
+<li>Compas_24_Douleur thoracique.pdf</li>
+<li>Toolbox_Coeur.pdf</li>
+<li>Aigu</li>
+<li>Cardiaque</li>
+<li>Chronique</li>
+<li>Coronarien</li>
+<li>Ischémie</li>
+<li>Pulmonaire</li>
+<li>Brûlure</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Palpitations</li>
+<li>Auscultation</li>
+<li>Examen </li>
+<li>Examen clinique</li>
+<li>Palpation</li>
+<li>Percussion</li>
+<li>Status</li>
+<li>Pr interval</li>
+<li>Q wave</li>
+<li>QRS</li>
+<li>ST ELEVATION</li>
+<li>ST-ELEVATION</li>
+<li>T wave</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Diagnostic </li>
+<li>Diagnostic différentiel</li>
+<li>Differential diagnosis</li>
+<li><strong>Choc</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Grave</mark></strong></li>
+<li><strong>Instable</strong>
+<ul>
+<li><strong>Mortalité</strong></li>
+<li><strong><mark class="highlight-critical">Sévère</mark></strong>
+<ul>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+<li>Angioplastie</li>
+<li>Anticoagulation</li>
+<li>Hospitalisation</li>
+<li>Revascularisation</li>
+<li>Thrombolyse</li>
+<li>Traitement</li>
+<li>Angor</li>
+<li>Dissection</li>
+<li>Embolie</li>
+<li>Infarctus</li>
+<li>Pneumonie</li>
+<li>Pneumothorax</li>
+<li>RMS NSTEMI 2016.pdf</li>
+<li>AAFP acute chest pain.pdf</li>
+<li>Compas_24_Douleur thoracique.pdf</li>
+<li>Article Primary Care DRS.pdf</li>
+<li>Toolbox_Coeur.pdf</li>
+<li>Anamnèse</li>
+<li>Diagnostic</li>
+<li>Examen</li>
+<li>Pronostic</li>
+<li>Présentation</li>
+<li>Traitement</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Fatigue</li>
+<li>Fièvre</li>
+<li>Malaise</li>
+<li>Pâleur</li>
+<li>Œdème</li>
+<li>Auscultation</li>
+<li>Inspection</li>
+<li>Mobilisation</li>
+<li>Palpation</li>
+<li>Percussion</li>
+<li>Testing</li>
+<li>Comorbidité</li>
+<li>Comorbidités</li>
+<li>Diagnostic </li>
+<li>Diagnostic différentiel</li>
+<li>Differential</li>
+<li><strong>Choc</strong>
+<ul>
+<li><strong>Détresse</strong></li>
+<li><strong>Hémorragie</strong>
+<ul>
+<li><strong>Paralysie</strong></li>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong>
+<ul>
+<li>Hospitalisation</li>
+<li>Référence</li>
+<li>Suivi</li>
+<li>Surveillance</li>
+<li>Traitement</li>
+<li>Fracture</li>
+<li>Infection</li>
+<li>Inflammation</li>
+<li>Insuffisance</li>
+<li>Thrombose</li>
+<li>Tumeur</li>
+<li>230215_Dr, j'ai mal à la poitrine.pdf</li>
+<li>210302_Présentation de cas_CaroleClair.pdf</li>
+<li>210217_Vignette clinique_SA_Senn.pdf</li>
+<li>230208_Dr, j’ai mal à la tête et à la gorge.pdf</li>
+<li>210217_Vignette clinique_Staeger.pdf</li>
+<li>Aigu</li>
+<li>Aiguë</li>
+<li>Chronique</li>
+<li>Fonctionnelle</li>
+<li>Inflammatoire</li>
+<li>Nociceptive</li>
+<li>Aigu</li>
+<li>Chronique</li>
+<li>Fonctionnel</li>
+<li>Inflammatoire</li>
+<li>Douleur</li>
+<li>Déficit</li>
+<li>Faiblesse</li>
+<li>Hypoesthésie</li>
+<li>Paresthésie</li>
+<li>Mobilisation</li>
+<li>Palpation</li>
+<li>Percussion</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Diagnostic différentiel</li>
+<li>Étiologie</li>
+<li>Étiologies</li>
+<li><strong>Cancer</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Drapeau rouge</mark></strong></li>
+<li><strong>Déficit neurologique</strong>
+<ul>
+<li><strong>Fracture</strong></li>
+<li><strong>Infection</strong>
+<ul>
+<li><strong><mark class="highlight-critical">Red flag</mark></strong></li>
+<li>Chirurgie</li>
+<li>Infiltration</li>
+<li>Physiothérapie</li>
+<li>Traitement</li>
+<li>Arthrose</li>
+<li>Cancer</li>
+<li>Fibromyalgie</li>
+<li>Lombalgie</li>
+<li>Migraine</li>
+<li>Névralgie</li>
+<li>Cours-220316_Drapeaux rouges_Staeger.pdf</li>
+<li>220316_Traitement de la douleur_Médecine manuelle_Amstutz.pdf</li>
+<li>Cours-220316_douleurs thoraciques ambulatoire_Favrat.pdf</li>
+<li>Cours-220314_Dyslipidemies_Nanchen.pdf</li>
+<li>Cours-220316_douleurs thoraciques_Waeber.pdf</li>
+<li>Aigu</li>
+<li>Cardiaque</li>
+<li>Chronique</li>
+<li>Obstructif</li>
+<li>Pulmonaire</li>
+<li>Restrictif</li>
+<li>Cyanose</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Orthopnée</li>
+<li>Tachypnée</li>
+<li>Tirage</li>
+<li>Toux</li>
+<li>Œdème</li>
+<li>Auscultation</li>
+<li>Palpation</li>
+<li>BNP</li>
+<li>ECG</li>
+<li>Gazométrie</li>
+<li>Radio</li>
+<li>Spirométrie</li>
+<li>Troponine</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Diagnostic différentiel</li>
+<li>Étiologie</li>
+<li>Étiologies</li>
+<li><strong>Arrêt</strong>
+<ul>
+<li><strong>Choc</strong></li>
+<li><strong>Confusion</strong>
+<ul>
+<li><strong>Cyanose</strong></li>
+<li><strong>Détresse</strong>
+<ul>
+<li><strong>Hypotension</strong></li>
+<li>Anticoagulation</li>
+<li>Bronchodilatateur</li>
+<li>Diurétique</li>
+<li>Hospitalisation</li>
+<li>Oxygène</li>
+<li>Ventilation</li>
+<li>Asthme</li>
+<li>Bpco</li>
+<li>Covid</li>
+<li>Embolie</li>
+<li>Insuffisance cardiaque</li>
+<li>Pneumonie</li>
+<li>220308_Sevrage tabac_Cornuz_Sadowski.pdf</li>
+<li>220310_Casclinique_Dyspnée d'origine cardiaque_Vollenweider.pdf</li>
+<li>220308_Dyspnee_Guyot_Carron.pdf</li>
+<li>220309_BPCO_vonGarnier.pdf</li>
+<li>220307_Dyspnées_Waeber.pdf</li>
+<li>Diagnostic </li>
+<li>Douleur</li>
+<li>Fièvre</li>
+<li>Nausée</li>
+<li>Vomissement</li>
+<li>Auscultation</li>
+<li>Inspection</li>
+<li>Palpation</li>
+<li>Percussion</li>
+<li>Clinique</li>
+<li>Diagnostic</li>
+<li>Thérapeutique</li>
+<li><mark class="highlight-critical">Urgence</mark></li>
+<li>Diagnostic </li>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong>
+<ul>
+<li>Antibiothérapie</li>
+<li>Traitement</li>
+<li>Appendicite</li>
+<li>Infarctus</li>
+<li>231711_Jenelten_Bart_RCI_B3.8_B3.2 transmission.pdf</li>
+<li>Connaissance</li>
+<li>Savoir</li>
+<li>Examen</li>
+<li>App</li>
+<li>Clinique</li>
+<li>Diagnostic</li>
+<li>Diagnostic différentiel</li>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong>
+<ul>
+<li>Médicament</li>
+<li>Suivi</li>
+<li>Traitement</li>
+<li>1c) retour.pdf</li>
+<li>Cas clinique</li>
+<li>Patient de 30 ans</li>
+<li>Patient de 55 ans</li>
+<li>Scénario</li>
+<li>Vignette</li>
+<li>Cyanose</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Fièvre</li>
+<li>Ictère</li>
+<li>Pâleur</li>
+<li>Œdème</li>
+<li>Auscultation</li>
+<li>Examen </li>
+<li>Examen clinique</li>
+<li>Inspection</li>
+<li>Palpation</li>
+<li>Percussion</li>
+<li>Diagnostic différentiel</li>
+<li><strong><mark class="highlight-critical">Critique</mark></strong>
+<ul>
+<li><strong><mark class="highlight-critical">Immédiat</mark></strong></li>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong>
+<ul>
+<li>Ambulatoire</li>
+<li>Hospitalisation</li>
+<li>Orientation</li>
+<li>Surveillance</li>
+<li>Traitement</li>
+<li>Questions ouvertes</li>
+<li>Démarche </li>
+<li>Démarche diagnostique</li>
+<li>Guidelines</li>
+<li>Ischémie</li>
+<li>CC-DC_cahier_2425.pdf</li>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+</ul>
+  </li>
+</ul>
+</ul>

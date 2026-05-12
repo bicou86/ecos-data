@@ -1,0 +1,181 @@
+Cours UIDC 4ème année
+
+Interprétation de l’ ECG (1)
+Arythmies supra-ventriculaires
+Troubles de la conduction
+
+Haran Burri
+
+Mehdi Namdar
+
+Valérian Valiton
+
+ARYTHMIES SUPRA-VENTRICULAIRES
+
+FA (réponse ventriculaire lente du au ralentissement de la conduction AV)
+
+Fibrillation atriale (FA)
+«Quand le P est parti et le QRST» Duchosal (Genève)
+Activité électrique désorganisée dans les oreillettes
+Rythme ventriculaire «irrégulièrement irrégulier»
+Facteurs de risque:
+Age, HTA, valvulopathie mitrale, cardiopathie ischémique,
+alcool, apnées du sommeil…..(rarement, sans cardiopathie)
+Complications:
+- accident vasculaire cérébral / embol périphérique
+- insuffisance cardiaque
+
+Flutter typique 2:1
+Souvent réponse
+ventriculaire à 150bpm
+
+Flutter typique
+horaire
++ en DII
+- en V1 (en W)
+
+Flutter atypique
+
+Flutter atrial
+Typique antihoraire
+
+Atypique
+
+• Macro-réentrée atriale
+• Typique:dépend de l’isthme cavo-tricuspidien
+antihoraire >> horaire
+• Atypique: pericicatriciel, perimitral etc
+• Presque jamais sans cardiopathie sous-jacente
+• Complications: thrombo-embolie cerebrale ou périphérique, insuffisance cardiaque
+
+Réentrée intra-nodale
+AVNRT (atrioventricular nodal reentrant tachycardia)
+Dualité de la conduction AV
+Voie rapide
+période réfractaire
+longue
+- récupère lentement
+
+Voie lente
+période réfractaire
+courte
+– récupère vite
+RP<PR
+slow-fast RP<PR
+fast-slow
+RP>PR
+slow-fast
+
+90%
+
+90%
+
+10%
+
+fast-slow
+RP>PR
+10%
+
+Voie accessoire
+• Congénital
+• Conduction «tout ou rien» (en général pas décrémentielle)
+• Degré de pré-excitation (onde delta) dépend de:
+- localisation de la voie
+- sa vélocité de conduction (en générale rapide)
+- vélocité conduction AV
+- site de dépolarisation atriale
+- période réfractaire de la voie accessoire
+• Une voie accessoire peut être «cachée» avec une
+conduction uniquement rétrograde (et sans onde delta)
+• Arythmies possibles:
+AVRT ortho- et antidromiques
+FA avec conduction rapide (potentiellement dangereux)
+
+www.blaufuss.org
+
+AVRT orthodromique (induite au laboratoire d’électrophysiologie)
+P rétrograde
+
+AVRT
+(atrioventricular reentrant tachycardia)
+(rare)
+
+FA + voie accessoire (aspect «accordéon»)
+Période refractaire courte de la voie accessoire = fréquence ventriculaire rapide (risque d’arythmie ventriculaire et mort subite!)
+
+Pour ceux qui veulent approfondir….
+
+DD des TSV avec rapport A:V = 1:1
+P invisible
+
+RP < PR
+
+RP > PR
+
+P collé au QRS
+AVNRT commune
+(TA)
+
+AVNRT commune
+(TA)
+
+P détaché du QRS
+AVNRT commune
+TA
+AVRT
+
+TA
+AVNRT atypique
+(PJRT)
+
+* Rare or extremely rare diagnoses
+
+AF=atrial flutter; AFL= atrial flutter; APB=atrial premature beat; AT=atrial tachycardia; AVNRT=atrioventricular nodal
+reentrant tachycardia; AVRT=atrioventricular reentrant tachycardia; JPB=junctional premature beat; JT=junctional
+tachycardia (automatic); MAT=multifocal atrial tachycardia; PJRT= permanent junctional reciprocating tachycardia
+
+Adapté de: Burri H. The ESC textbook. Oxford University Press
+
+TROUBLES DE LA CONDUCTION
+
+Prolongation intervalles PR et raccourcissement des intervalles RR dans un BAV II Wenckebach
+
+«Ladder diagram»
+Diminution des incréments PR
+
+Mond Heart, Lung and Circulation (2017);26:1252–1266
+
+Siège des BAV
+BAV I
+BAV II Wenckebach
+BAV II Mobitz 2
+BAV II 2:1
+BAV III
+Etiologie
+
+Nodal
++++
++++
++
++
+
+Infra-nodal
++
+(+)
++++
+++
+++
+
+Age
+BB, Anti-Ca, digoxine, amio….
+Ischémie
+Maladie de Lyme
+……
+
+Age
+Flecainide
+Ischémie
+Sarcoidose
+……
+
+

@@ -1,0 +1,96 @@
+Skills audition
+Otoscope (transmission)
+I
+II
+III
+IV
+V
+
+Allumer la lampe de l’otoscope
+Pencher la tête du patient du côté opposé à l’otoscope
+Prendre l’otoscope à horizontale, main par-dessous (changer de main)
+Appuyer le poing sur la joue, sert d’appui
+Tirer l’oreille vers le haut et l’arrière avant introduction de l’otoscope dans l’oreille
+(protégé par un embout)
+
+Innervation : Pavillon : V3 ant./IX,X conque/VII post. et MAE V3 ant. sup./VII, IX, X post. inf.
+Visible : ant. -inf. cône lumière, strie malléaire du marteau, branche enclume/couleur grise, transparent
+Faire attention à ne pas toucher le tympan (profondeur)
+
+Acoumétrie (transmission/perception)
+I
+
+Chuchoter à 60cm de l’oreille deux syllabes (bonjour) tout en effectuant un masquage
+(éviter travail compensatoire autre oreille) en frottant le tragus, puis monter en intensité
+
+Voie chuchotée : 20-30dB, normal 50-60dB, forte 80-90dB
+
+Weber (transmission/perception, Ca/Co)
+I
+II
+
+Faire vibrer le diapason sur le genou/coude et placer le diapason sur le milieu du crâne
+(vertex) ou du front
+Demander au patient de quel côté il entend la vibration
+
+Weber centré physiologique, latéralisé pathologique (latéralisé par définition du côté ou il entend le mieux)
+Déficit de transmission : meilleure audition du côté atteint (masquage non fonctionnel)
+Déficit de perception : meilleure audition du côté non atteint
+
+Rinne (évaluer transmission, Ca/Co)
+I
+II
+
+Placer le diapason vibrant sur le mastoïde, derrière l’oreille
+Mettre le diapason dans l’air à proximité de l’oreille et demander au patient d’indiquer
+lorsqu’il n’entend plus le signal (ou s’il l’entend +/- fort que sur le mastoïde)
+
+Atteinte unilatérale perception, Rinne faussé (diapason non entendu en Co mais en Ca par oreille opposée)
+Diapason 70-90dB (surdité sévère)
+
+Skills vision
+Inspection œil
+Test acuité visuelle
+I Placer le patient face à la feuille à la distance indiquée dessus (6m général)
+II Cacher un œil au patient puis l’autre
+III Faire lire au patient le tableau, physiologique si >/= 60% correct
+Patient ne doit pas se déplacer
+Ne teste que le champ visuel fovéal
+En cas de myopie/hypermétropie le patient voit les lettres plus petites floues (erreurs > 40%)
+Fraction à côté de la ligne indique le pourcentage d’acuité
+
+Test des couleurs (Isihara)
+I
+
+Faire lire au patient le livret composé de planches permettant de mettre en évidence un
+protanotrope (-cône rouge), deutéranotrope (-cône vert) / d. acquis (névrite, rouge – vif)
+
+Planche 1 : visible par tous, 2-9 chiffres différents vus par malades, 10-17 malades ne voient rien,
+18-21 seuls malades voient, 22-25 malades voient un chiffre sur deux
+Cacher un œil au patient puis l’autre (atteinte héréditaire touche deux yeux)
+Tritanopie non détectée mais rare car récessive (chromosome 7 et non X)
+
+Test de champ visuel
+I
+II
+
+Se placer proche du patient (debout) à mi-distance de ses propres mains
+Demander au patient de cacher un œil puis l’autre et de regarder le nez de l’examinateur
+(test du champ visuel non fovéal)
+III Mettre les mains postéro latéralement à la tête du patient
+IV Test du mouvement, déplacer les mains devant la tête et demander au patient d’indiquer
+quand il voit la main et où se trouve la main (tester quatre cadrans)
+V Test du cadran, déplacer les doigts dans chaque cadran du champ visuel d’un œil et
+demander au patient combien de doigts il voit (tester chaque cadran)
+L’examinateur peut se cacher un œil pour mieux délimiter les quadrans
+Cécité unilatérale (nerf optique G)
+
+Hémianopsie bitemporale (chiasma)
+
+Hémianopsie latérale homonyme (tractus optique G)
+
+Quadranopsie latérale hom. (rad. optique G)
+
+Représentation champs visuels/inverse de rétine (atteinte champ temporal signifie défaut niveau rétine nasale
+
+

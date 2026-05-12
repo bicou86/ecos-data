@@ -1,0 +1,150 @@
+Hôpital périphérique
+
+Domicile
+
+Appel au 144 (SMUR) ou REGA
+
+Médecin traitant/
+Policlinique Médicale
+
+DOULEUR THORACIQUE AIGUE D’UNE DUREE ≥ 20 MINUTES
+
+L’ambulance s’annonce en salle de déchocage de médecine du CHUV 5 –10 minutes avant son arrivée
+
+Transfert médicalisé en urgence du patient en salle de déchocage de médecine du CHUV (BH 05)
+
+· + HEPARINE NON FRACTIONNEE: 5 000 UI i.v. en bolus (intra-hospitalier)
+
+· + TICAGRELOR 180 mg p.o. en prise unique (intra-hospitalier)
+Si contre-indication ou si non disponible: Clopidogrel 600 mg p.o. en prise unique
+
+TRAITEMENT PHARMACOLOGIQUE (A ADMINISTRER DES QUE POSSIBLE)
+· ASPIRINE 500 mg p.o. (ou i.v.) en bolus
+
+· Le médecin cadre/chef de clinique de garde des URG (MCU):
+1. Confirme le diagnostic de STEMI (1 critère clinique ET 1 critère ECG)
+2. S’assurer de l’absence de critères d’exclusion de la filière STEMI
+3. Demande à l’Infirmière responsable de l’orientation (IRO) des URG d’activer la filière STEMI
+· Le technicien de radiologie de garde confirme la disponibilité de la salle de cathétérisme cardiaque au
+médecin cadre/chef de clinique de garde des URG au 079 556 79 00
+
+Le médecin du SMUR ou de l’Hôpital périphérique appelle
+le médecin cadre/chef de clinique de garde des URG au 079 556 79 00
+
+Transmission de l’ECG 12 pistes aux URG du CHUV par télémétrie (médecin du SMUR ou REGA)
+ou par fax (médecin de l’hôpital périphérique ou médecin traitant) au 021 314 59 06
+
+DIAGNOSTIC DE STEMI (critère clinique ET 1 critère ECG)
+1. Critères cliniques: DOULEURS RETROSTERNALES TYPIQUES D’UNE DUREE <12 HEURES
+2. Critères ECG:
+· Sus-décalage nouveau du segment ST dans ≥ 2 dérivations contiguës
+(dérivations antérieures: V1-V6, inférieures II, III, AVF ou latéral/apical: I, aVL):
+· ≥2 mm (≥0.2 mV, hommes ≥40 ans) ou ≥2.5 mm (≥0.25 mV, hommes <40 ans) ou ≥1.5 mm
+(≥0.15 mV, femmes) dans les dérivations V2–V3 et/ou
+· ≥1 mm (≥0.1 mV) dans les autres dérivations (en l’absence d’HVG ou de BBG)
+· ou bloc de branche gauche (présumé) nouveau
+· ou sous-décalage du segment ST ≥0.5 mm (0.05 mV) dans les dérivations V1– V3 (infarctus inférobasal= postérieur
+
+ECG 12 pistes
+
+MESURES THERAPEUTIQUES INITIALES (simultanément à la réalisation de l’ECG 12 pistes):
+· Monitoring cardiaque, mise en place du défibrillateur, pose de 1 (idéalement 2) voie(s) veineuse(s) périphérique(s) au
+membre supérieur gauche (si possible)
+· Oxygène (cible: SpO2 ≥96%)
+· Antalgie (à titrer): dérivés nitrés (si pression artérielle systolique ≥110 mmHg), morphine i.v.
+
+CHUV
+
+Filière STEMI
+
+LIEU DE
+PRESENTATION
+
+CONFIRMATION DU DIAGNOSTIC
+
+ACTIVATION DE LA FILIERE STEMI ET
+TRAITEMENT PHARMACOLOGIQUE
+
+· Transfert au SMIA
+· Traitement spécifique (indication à la thrombolyse intraveineuse
+à discuter avec le cardiologue interventionnel de garde)
+· Stabilisation hémodynamique et respiratoire
+· Transfert en salle de cathétérisme cardiaque après accord du cardiologue
+interventionnel de garde (021 314 44 05)
+
+Non
+
+Prise en charge du patient par le
+Service de médecine intensive adulte
+
+Prise en charge du patient par le
+Service de Cardiologie
+
+Prise en charge du patient
+par le Service de Cardiologie
+
+Score de risque STEMI CHUV = 0
+
+Prise en charge du patient
+par le Service de médecine intensive
+adulte
+
+Score de risque STEMI CHUV ≥ 1
+
+Prise en charge par le Service des
+Urgences après accord du MCU
+079 556 79 00
+
+Coronarographie avec absence
+de sténose significative
+
+Evaluation clinique du patient après l’intervention par le cardiologue interventionnel de garde selon les critères
+d’admission au SMIA (Score de risque STEMI CHUV)
+
+Durant l’intervention: en cas d’apparition de critères d’admission au SMIA (score de risque STEMI CHUV ≥ 1), appeler
+le médecin cadre/chef de clinique de garde du SMIA (079 556 50 19) et prise en charge du patient par le SMIA
+
+ANGIOPLASTIE PRIMAIRE
+
+Transfert du patient en salle de cathétérisme cardiaque
+
+· Transfert au SMIA
+· Stabilisation hémodynamique et respiratoire
+· Rediscuter indication et délai de la
+coronarographie avec le cardiologue
+interventionnel de garde (021 314 44 05)
+
+Non
+
+Patient stable sur le plan
+hémodynamique et respiratoire?
+
+Stabilisation hémodynamique et/ou respiratoire
+en salle de déchocage(maximum 30 minutes)
+
+Non
+
+Patient stable sur le plan
+hémodynamique et respiratoire?
+
+Score de risque STEMI CHUV ≥ 1
+
+Score de risque STEMI CHUV = 0
+
+Oui
+
+Evaluation clinique du patient par le Médecin cadre/Chef de clinique de garde du SMIA selon les critères
+d’admission au SMIA (Score de risque STEMI CHUV)
+
+Oui
+
+Salle de cathétérisme cardiaque disponible (dans les 30 minutes)
+
+ACCUEIL DU PATIENT EN SALLE DE DECHOCAGE DE MEDECINE DU CHUV (BH05)
+
+Filière STEMI
+TRAJET ET STRATIFICATION DU RISQUE ET DECISION HOSPITALISATION TRANSFERT DE PRISE EN CHARGE
+TRANSFERT
+HOSPITALISATION
+
+

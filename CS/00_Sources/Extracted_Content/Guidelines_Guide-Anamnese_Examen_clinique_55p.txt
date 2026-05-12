@@ -1,0 +1,2989 @@
+TOMAS JARA SCHOCH
+
+Skills
+Status
+MED II : 2012- 2013
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+SOMMAIRE
+Avant-propos ................................................................................................................................................... 4
+Examen visuel .................................................................................................................................................. 5
+Acuité visuelle .............................................................................................................................................. 5
+Théorie .................................................................................................................................................... 5
+Pratique ................................................................................................................................................... 5
+Interprétation .......................................................................................................................................... 5
+Champs visuels par confrontation ................................................................................................................ 6
+Théorie .................................................................................................................................................... 6
+Pratique ................................................................................................................................................... 6
+Interprétation .......................................................................................................................................... 6
+Vision des couleurs ....................................................................................................................................... 7
+Théorie .................................................................................................................................................... 7
+Pratique ................................................................................................................................................... 7
+Interprétation .......................................................................................................................................... 7
+Evaluation clinique de l’audition ....................................................................................................................... 8
+Otoscopie .................................................................................................................................................... 8
+Pratique ................................................................................................................................................... 8
+Interprétation .......................................................................................................................................... 8
+Acoumétrie .................................................................................................................................................. 8
+Acoumétrie phonique .............................................................................................................................. 8
+Acoumétrie de transmission ................................................................................................................... 10
+Examen vasculaire ...........................................................................................................................................13
+Palpation des pouls et mesure de la fréquence cardiaque ............................................................................13
+Les pouls .................................................................................................................................................13
+Fréquence cardiaque .............................................................................................................................. 14
+Mesure le pression artérielle ....................................................................................................................... 14
+Description des bruits de Korotkoff ........................................................................................................ 15
+Pratique ................................................................................................................................................. 15
+Interprétation ........................................................................................................................................ 16
+Affections .............................................................................................................................................. 16
+Auscultation cardiaque .................................................................................................................................... 17
+Théorie ....................................................................................................................................................... 17
+er
+
+1 bruit : B1 ............................................................................................................................................. 17
+e
+
+2 bruit : B2 ............................................................................................................................................. 17
+Zones (foyers) d’ausculatation ............................................................................................................... 18
+Pratique ..................................................................................................................................................... 18
+Tomas Jara Schoch | Avant-propos
+
+2
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Interprétation............................................................................................................................................. 19
+Auscultation pulmonaire ................................................................................................................................ 20
+Pratique ..................................................................................................................................................... 20
+partie antérieure .................................................................................................................................... 20
+Partie postérieure .................................................................................................................................. 22
+Examen neurologique..................................................................................................................................... 24
+Forc e musculaire ....................................................................................................................................... 24
+Théorie .................................................................................................................................................. 24
+Pratique ................................................................................................................................................. 24
+Réflexes ..................................................................................................................................................... 32
+Théorie .................................................................................................................................................. 32
+Pratique ..................................................................................................................................................33
+Sensibilité ................................................................................................................................................... 37
+Théorie ................................................................................................................................................... 37
+Pratique .................................................................................................................................................. 37
+Reconnaissance du sens de positon (ou arthocinésie) ............................................................................ 38
+Reconnaissance du sens vibratoire (ou pallesthésie) ............................................................................... 38
+Stéréogenèse (modalités complexes) ..................................................................................................... 38
+Épreuves fonctionnelles ......................................................................................................................... 39
+Examen et cotation articulaire ........................................................................................................................ 42
+Objectifs .................................................................................................................................................... 42
+Connaître l’utilisation du goniomètre ..................................................................................................... 42
+Distinguer la mobilité passive de l’active ................................................................................................ 42
+Utiliser la cotation articulaire internationale et sa notation .................................................................... 42
+Théorie ...................................................................................................................................................... 42
+Epaule .................................................................................................................................................... 42
+Genou .................................................................................................................................................... 43
+Pratique ..................................................................................................................................................... 43
+Examen de l’abdomen .................................................................................................................................... 47
+Conditions générales .................................................................................................................................. 47
+Positionner le patient ................................................................................................................................. 47
+Observer .................................................................................................................................................... 47
+Points principaux à observer .................................................................................................................. 47
+Points à observer ................................................................................................................................... 47
+Auscultation ............................................................................................................................................... 48
+Percussion .................................................................................................................................................. 48
+Palpation.................................................................................................................................................... 49
+Tomas Jara Schoch | Avant-propos
+
+3
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Le foie ........................................................................................................................................................ 51
+La rate........................................................................................................................................................ 52
+Les reins ..................................................................................................................................................... 53
+L'aorte ....................................................................................................................................................... 54
+Orifices herniaires ...................................................................................................................................... 55
+
+AVANT-PROPOS
+Ce polycopié décrit les différents status abordés durant la deuxième année Bachelor de médecine à
+l'Université de Lausanne.
+La bibliographie utilisée pour la rédaction comprend les divers support de cours, des annotations personnelles
+et des éléments du livre « Guide de l'examen clinique» écrit par Barbara Bates et Lynn S. Bickley publié aux
+éditions «Arnette». Je vous conseille vivement l'achat de ce livre de référence. J'ai fait de mon mieux pour
+indiquer les passages qui sont inspirés de la bibliographie. Le texte de couleur verte correspond à des passages
+puisés dans les références.
+Ce polycopié a été rédigé par un étudiant dans le but de servir de complément aux cours. Il contient
+probablement des erreurs et des fautes d'orthographes. Je vous prie, d'avance, de m'en excuser.
+Ce polycopié ne constitue, en aucun cas, un support de cours et ne remplace pas les documents fournis dans le
+cadre de l'enseignement. Je vous conseille d'ailleurs de participer au cours.
+PS. Merci à Olivia pour avoir acceptée d'être prise en photo durant tout l'examen sur la force musculaire.
+
+Tomas Jara Schoch | Avant-propos
+
+4
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+EXAMEN VISUEL
+ACUITÉ VISUELLE
+THÉORIE
+L’acuité vise à mesurer le seuil de perception d’une grandeur physique. Elle ne teste que la fovéa.
+L’unité de mesure de référence est la minute d’arc. Une minute d’arc correspond à la vision d’une balle de golf
+à une distance de 300m. On utilise des tableaux contenant des symboles noirs sur fond blanc appelés
+optotypes. Un optotype contient différentes lignes de lettre d’une taille définie. L’optytpe est conçu de
+manière à que l’identification des éléments d’une lettre définissent un arc d’une minute à une distance donné
+(cette distance varie selon la ligne, c’est-à-dire la taille des lettres).
+
+PRATIQUE
+Le principal optotype se place à 6 mètres. Il constitue la référence. Il faut placer le patient à 6 mètres de
+l’optotype.
+-
+
+-
+
+-
+
+Bonjour, je souhaiterai contrôler votre acuité
+visuelle.
+L’acuité visuelle mesure votre degré de précision de
+la perception/capacité à distinguer une cible. Je vais
+chercher la distance maximale pour laquelle vous
+percevez deux objets distincts.
+Je vais examiner un œil après l’autre.
+Est-ce que vous êtes d’accord ?
+Commençons par l’œil droite. Pour cela, pouvezvous cacher votre œil gauche (avec cet obturateur),
+s’il vous plait ? Parfait !
+Pouvez-vous lire les lettres de cette ligne à voie
+haute/m’indiquer le sens des lettres sur cette ligne,
+s’il vous plait ?
+
+Faire la même chose pour l’œil droit.
+NB. L’examen se réalise avec des lunettes (pour ceux qui
+en portent) !
+
+Otoptype
+
+NB. Si le patient ne voit rien, se rapprocher, lui demander compter les doigts de votre main. S’il ne voit rien,
+demander s’il perçoit le mouvement de votre main.
+
+INTERPRÉTATION
+L’acuité est exprimée en fraction. Le numérateur correspond à la valeur de référence. Le dénominateur
+correspond à la valeur obtenue. Une fraction de 20/20 indique un résultat parfait (100%). En effet, le patient a
+atteint la distance idéale de perception qui est de 6 mètres. Si le patient atteint 20/40 (c’est-à-dire 6m/12m), il
+possède une acuité visuelle de 50%. Si le résultat est de 20/200, l’acuité visuelle est de 10%.
+
+Tomas Jara Schoch | Examen visuel
+
+5
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+CHAMPS VISUELS PAR CONFRONTATION
+THÉORIE
+Le champ visuel évalue la vision périphérique. Le champ visuel monoculaire représente l’espace visible par un
+œil immobile. Il comprend la rétine dans son ensemble et les voies nerveuses jusqu’au cortex cérébral. Les
+altérations peuvent être oculaires ou neurologiques.
+L’examen des champs visuels par confrontation n’est pas très sensible et ne peut détecter qu’un scotome de la
+taille d’une hémianopsie.
+
+PRATIQUE
+Demander au patient d’enlever ses lunettes. Demander au patient de cacher avec sa main un des ses yeux.
+L’examinateur se place en face du patient à une distance d’un mètre environ. Il cache également son œil avec
+la main et fixe l’œil du patient. Si le patient cache son œil gauche, le médecin cache son œil droit.
+-
+
+Pouvez-vous cacher votre œil gauche avec votre main gauche ? Pouvez-vous fixer mon nez ?
+
+L’examinateur divise le champ visuel en quatre cadrans. Il place ses mains, les points fermés, dans deux
+cadrans. Il ouvre soudainement une des mains main, en soulevant des doigts et demande au patient de lui
+indiquer le nombre de doigts qu’il perçoit en périphérie.
+-
+
+Pouvez-vous m’indiquer le nombre de doigts que vous percevez, s’il vous plait ?
+
+NB : Cet examen s’effectue sans lunettes, un œil après l’autre.
+NB : La main du médecin doit se déplacer dans un plan qui soit à mi-distance du patient.
+NB : Faites des mouvements rapides, mettez vos deux mains de chaque côté, de façon à ce que le patient ne
+sache pas de quel côté vous allez tester son champ de vision.
+
+INTERPRÉTATION
+Si la délimitation du champ visuel du
+patient n’est identique pas identique que la
+votre, il faut d’abord définir l’extension du
+scotome. Si le scotome est monoculaire, il
+faut chercher une lésion au niveau du nerf
+optique ou antérieurement. S’il concerne
+les deux yeux, il faut suspecter une lésion
+dans le chiasma ou dans les voies rétrochiasmatiques.
+
+Tomas Jara Schoch | Examen visuel
+
+6
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+VISION DES COULEURS
+THÉORIE
+Les tests pseudo-isochromatiques permettent de tester la vision des couleurs. Le plus important est le test
+d’Ishihara. Il est utilisé pour détecter le daltonisme. Cette affection génétique liée au chromosome X touche
+6% de la population. Les hommes sont davantage susceptibles étant donné qu’il ne possède qu’un seul
+chromosome X.
+Il existe trois types d’anopies, anomalies de la vision de la couleur : protanopie (rouge), deutanopie (vert),
+tritanopie (bleu et jaune).
+On teste principalement le rouge-vert (car plus fréquent que le jaune-bleu).
+
+PRATIQUE
+Montrer 13 planches de l’atlas pseudo-isochromatique d’Ishihara. Demander au patient d’expliquer (de dire les
+chiffres) ce qu’il voit. (Il y a 38 planches normalement).
+
+INTERPRÉTATION
+Cf. : http://daltonien.free.fr/daltonien/article.php3?id_article=6#nb38
+-
+
+-
+
+1 (38) : initiation ; tout le monde le voit ; pour dépister des simulateurs
+2 (2-5 ;36 ;37) : dyschromatopsie rouge-vert
+6 (6-9 ;34;35) : dyschromatopsie rouge-vert sur fond différent. Les sujets anormaux peuvent percevoir
+des chiffres différents.
+10 (10-13 ; 32; 33) : bleu vert - orangé
+14 (14-17 ; 30; 31) : dyschromatopsie rouge-vert sur fond différent. les sujets anormaux ne perçoivent
+pas de chiffre. Les sujets anormaux ne perçoivent pas de chiffre.
+18 (18-21 ; 28; 29) : Les sujets normaux (et les achromates) ne perçoivent rien alors que les
+dyschromates peuvent être capables de distinguer des chiffres.
+22(22-25 ; 26; 27) : très importantes car elles ont pour but de séparer les sujets protans des deutans.
+Pour cela le fond est gris et chaque planche présente deux chiffres dont la couleur est située dans la
+zone neutre protane pour le chiffre de gauche et deutane pour celui de droite.
+Comme on le voit bien sur ces planches, ces zones neutres sont très voisines. Un sujet dichromate ne
+percevra donc qu’un seul chiffre, l’autre étant confondu avec le fond gris puisqu’étant dans la zone
+neutre, et un trichromate anormal aura plus de difficulté à percevoir un chiffre que l’autre.
+
+Tomas Jara Schoch | Examen visuel
+
+7
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+EVALUATION CLINIQUE DE L’AUDITION
+OTOSCOPIE
+L’examen du tympan s’effectue avec un otoscope. Il a pour but de détecter des anomalies du conduit auditif
+externe et du tympan.
+
+PRATIQUE
+Informer le patient, montrer l’otoscope et demander son accord. L’examen s’effectue dans une oreille, l’une
+après l’autre.
+Si l’oreille droite est examinée :
+
+
+
+
+
+Demander au patient de pencher la tête de 30° à gauche.
+Soulever gentiment le pavillon de l’oreille.
+Tenir l’otoscope comme un crayon avec la main droite, le manche vers le haut, verticalement.
+Introduire lentement l’othoscope et observer.
+
+NB : Attention à ne pas transpercer le tympan !
+
+INTERPRÉTATION
+Un tympan sain présente dans sa partie antéro-inférieure un reflet lumineux appelé le triangle lumineux.
+
+ACOUMÉTRIE 1
+ACOUMÉTRIE PHONIQUE
+Acuité auditive (Barbara Bates)
+Dans un premier temps, il faut tester l’acuité auditive avec une voix chuchotée
+prononcée proche d’une oreille en provocant un son de masquage pour l’autre
+oreille. Pour évaluer l’audition, testez une seule oreille à la fois. Demandez au sujet
+de boucher une oreille avec son doigt ou, mieux encore, bouchez-la pour lui. Si
+l’acuité auditive est très différente des deux côtés, déplacez le doigt rapidement
+mais délicatement dans le conduit auditif bouché. Le bruit ainsi produit empêche
+l’oreille bouchée de faire le travail à la place de l’oreille que l’on désire évaluer.
+Ensuite, en se tenant à 30 ou 60 cm du sujet, expirez à fond (pour réduire l’intensité
+de votre voix) et murmurez doucement en direction de l’oreille non bouchée.
+Choisissez des nombres ou des mots qui comportent deux syllabes également
+accentuées, par exemple « 33 » et « base-ball ». Si nécessaire, augmentez l’intensité
+de la voix jusqu’à un murmure moyen, un murmure plus fort, puis une voix faible,
+moyenne et forte. Assurez-vous que le sujet ne lit pas sur vos lèvres en cachant
+2
+votre bouche ou bien en masquant les yeux du patient.
+
+1
+2
+
+Cours du Pr. Croquelois
+Bates B. Guide de l'examen clinique.
+Tomas Jara Schoch | Evaluation clinique de l’audition
+
+8
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Utiliser des mots de deux syllabes
+Masquage de l’autre oreille par :
+
+
+
+Friction du tragus
+Boîte de Barany (≈ 100 dB)
+
+NIVEAUX SONORES
+
+
+
+
+
+
+Seuil d’audition ≈ 0-10 dB
+Voix chuchotée ≈ 30 dB
+Voix parlée ≈ 60 dB
+Voix criée ≈ 90-100 dB
+Seuil douleur ≈ 120 dB
+
+3
+
+3
+
+Cours du Pr. Croquelois
+Tomas Jara Schoch | Evaluation clinique de l’audition
+
+9
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+INTERPRÉTATION
+Diagnostic surdité degré de surdité voix chuchotée voix parlée : légère non perçue > 30 cm (20 – 40 dB)
+Perte auditive
+(entre 500 et 4000 Hz)
+
+Voix chuchotée
+
+Degré de surdité
+
+0-20 dB
+
+
+
+20-40 dB
+
+
+non perçue > 30 cm
+
+Voix parlée
+Audition normale
+
+non perçue > 4m
+
+Surdité légère : ne
+comprend pas toujours
+bien, déforme les mots
+
+non perçue > 1 m
+
+Surdité moyenne : lecture
+labiale ; compréhension
+fragmentaire du langage
+
+non perçue > 30 cm
+
+Surdité sévère : ne
+perçoit que la voix forte ;
+pas de langage structuré
+
+ne comprend rien
+
+Surdité profonde :
+(cophose) aucune parole
+perçue
+
+
+40-70 dB
+
+70-90 dB
+
+
+> 90 dB
+
+ACOUMÉTRIE DE TRANSMISSION
+L’acoumétrie teste la transmission aérienne et la conduction. Le test d’acoumétrie s’effectue avec un diapason
+de 256 ou 512Hz.
+Si l'audition est diminuée, essayez de faire la distinction entre surdité de transmission et de perception. On
+distingue les déficits de transmission (de l’oreille externe à la fenêtre ovale) et les déficits de perception plus
+spécialement liés à l’oreille interne et au nerf cochléaire. Pour les distinguer, on effectue les épreuves de Rinné
+et de Weber.
+Ces tests sont basés sur deux constatations. Premièrement la conduction aérienne (via le pavillon, le CAE et les
+osselets) est meilleure que la conduction osseuse (directement transmise à la cochlée). Deuxièmement, en
+dehors de locaux très bien insonorisés, le bruit environnemental produit un masquage des signaux
+acoustiques.
+Tout déficit observé en clinique devrait être confirmé par un examen para-clinique appelé audiogramme.
+
+EPREUVE DE WEBER
+Le test de Weber teste la latéralisation. Il consiste à placer le diapason sur le vertex ou sur le front et à
+demander au sujet s’il entend le stimulus au milieu, à droite ou à gauche. Le Weber est latéralisé (mieux perçu)
+du côté de l’oreille atteinte si on a une hypoacousie de transmission (le masquage est moins efficace), il est
+latéralisé (mieux perçu) du côté opposé à l’oreille atteinte si on a une hypoacousie de perception.
+-
+
+Je vais placer ce diapason sur votre tête pour tester vos fonctions auditives. Est-ce que vous êtes
+d’accord ?
+Ce diapason sera entrain de vibrer et va émettre des vibrations que vous allez percevoir.
+
+Tomas Jara Schoch | Evaluation clinique de l’audition
+
+10
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+-
+
+Lorsqu’il sera dessus, il faudrait que vous m’indiquiez si vous entendez (ou si vous entendez le
+bruit/stimulus/vibration du) le diapason des deux côtés ou bien d’un seul côté. Dans ce dernier cas, je
+vous demanderai de me préciser quel est ce côté.
+
+
+
+
+Faites vibrer le diapason avec la main.
+Placez le manche fermement sur le vertex ou sur le front. S’il n’entend rien, appuyez plus fortement
+avec le manche.
+Demandez au patient d’indiquer s’il entend le stimulus d’un seul côté (latéralisé) (et préciser lequel) ou
+bien des deux côtés (non-latéralisé).
+
+
+
+EPREUVE DE RINNÉ
+L’épreuve de Rinné compare la conduction aérienne (CA) et la conduction osseuse (CO). Il consiste à placer le
+diapason sur la mastoïde en demandant au sujet de dire à l’examinateur quand il n’entend plus le stimulus.
+L’examinateur place alors rapidement le diapason en regard du conduit auditif externe. Le sujet est censé
+entendre à nouveau, en effet la conduction aérienne est meilleure que la conduction osseuse. Si le sujet
+n’entend pas le signal, alors on peut suspecter un déficit de transmission.
+-
+
+-
+
+
+
+
+
+
+Je vais maintenant placer, dans un premier temps, le diapason en arrière de votre oreille puis, dans un
+deuxième temps, je vais le rapprocher de votre oreille.
+Le diapason va vibrer et dans un premier temps, vous allez sentir ces vibrations. Lorsque vous ne sentez
+pas ces vibrations, il faudra me l’indiquer. A ce moment-là, dans un deuxième temps, je vais déplacer le
+diapason à côté de votre oreille et il faudra m’indiquer si vous entendez des vibrations.
+Est-ce que vous m’avez bien compris ? Par précaution, répétez le point important : N’oubliez pas, faitesmoi signe lorsque vous ne sentez plus le diapason vibrer.
+Faites vibrer le diapason avec la main.
+Placez le diapason sur la mastoïde..
+Lorsque le patient n’entend plus rien, déplacez rapidement le diapason en avant du conduit auditif
+externe.
+Effectuez le test sur l’autre oreille.
+
+Normalement, le son peut être entendu plus longtemps lorsqu'il est transmis par l'air que par l'os (CA >
+CO). Le test de Rinné est positif lorsque CA > CO et négatif lorsque CA < CO.
+NB : Le "U" du diapason doit être ici placé en avant, ce qui accroît au maximum le son pour le patient.
+
+INTERPRÉTATION
+Latéralisé à gauche
+
+Latéralisé à droite
+
+Weber : Gauche +
+
+Weber : Droite -
+
+Weber : Gauche -
+
+Weber : Droite +
+
+• Surdité de
+transmission?
+
+• Surdité de perception?
+
+• Surdité de perception?
+
+• Surdité de
+transmission?
+
+Rinné : pas de signal
+à gauche = surdité
+de transmission
+
+Rinné : par défaut à
+droite, surdité de
+perception
+
+Rinné : par défaut à
+gauche, surdité de
+perception
+
+Rinné : pas de signal
+à droite = surdité de
+transmission
+
+Tomas Jara Schoch | Evaluation clinique de l’audition
+
+11
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Le test de Weber indique que :
+
+
+
+Dans le cas d’une surdité de transmission, le son est mieux perçu du côté de l’oreille atteinte.
+Dans le cas d’une surdité de perception, le son est mieux perçu du côté de l’oreille non-atteinte.
+
+Le test de Rinné permet de confirmer une surdité de transmission. Dans le cas d’une surdité de transmission, le
+son est entendu aussi longtemps ou plus longtemps par voie osseuse que par voie aérienne (CO = CA ou > CA).
+De fait, il sera négatif et le patient n’entendra pas lorsque le diapason se rapproche de l’oreille. Dans une
+surdité de perception, le son est entendu plus longtemps par voie aérienne (CA > CO).
+Normalement, le son peut être entendu plus longtemps lorsqu'il est transmis par l'air que par l'os (CA > CO).
+
+Tomas Jara Schoch | Evaluation clinique de l’audition
+
+12
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+EXAMEN VASCULAIRE
+PALPATION DES POULS ET MESURE DE LA FRÉQUENCE CARDIAQUE
+Le but est de s’assurer que la circulation fonctionne dans tout le corps. De ce fait, il faut chercher le pouls dans
+différentes régions du corps.
+Indiquer au patient que la perception du pouls, c’est-à-dire du flux sanguin pulsé par le cœur, par palpation de la
+peau permet de s’assurer de la bonne vascularisation du corps.
+Ne pas oublier de se chauffer les mains.
+Il faut comparer les pouls des deux côtés.
+Pour prendre le pouls, il faut utiliser les doigts autres que le pouce, car une artère passe à l'extrémité du pouce
+et le « pouls du pouce » peut perturber la mesure (wikipédia).
+Cotation des pouls artériels :
+
+
+
+
+
+Bondissant
+Vif (normal)
+Diminué, plus faible que la normale
+Absent, impossible à palper
+
+LES POULS
+
+
+
+
+
+
+
+
+
+Pouls carotidien (pouls central) :
+- Placer deux doigts dans le creux du SCM, au niveau de la pomme d’Adam.
+- Il ne faut pas les chercher des deux côtés en même temps.
+- Il ne faut ni appuyer sur le glomus carotidien et ni masser (risque de tomber dans les
+pommes).
+- Il ne faut pas appuyer fortement
+(Pouls fémoral)
+Pouls huméral/brachial : médialement au tendon de biceps (chercher le tendon puis glisser)
+Pouls radial : latéralement
+Pouls poplité : il faut empoigner le genou
+Pouls tibial postérieur : au niveau du bord interne, dans le milieu de la malléole interne
+Pouls pédieux :
+er
+e
+- Présent entre le 1 et 2 métatarsiens, sauf exceptions…pas rares ! Parfois absent
+- Placer sa main au-dessus de pied pour le chercher. Il faut toucher légèrement avec la paume
+de la main.
+Si le pouls fémoral n’a pas été découvert, ce n’est pas grave tant que le pouls poplité ou pédieux a été
+identifié.
+
+Tomas Jara Schoch | Examen vasculaire
+
+13
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Pouls poplité
+
+Pouls tibial postérieur
+
+Pouls pédieux
+
+FRÉQUENCE CARDIAQUE
+Il faut ensuite mesurer la fréquence cardiaque (de préférence sur le pouls radial) en identifiant le pouls.
+Indiquer au patient que : « la fréquence cardiaque est le nombre de battements cardiaques (pulsations) par unité
+de temps (généralement la minute) ».
+Si la fréquence cardiaque est régulière, compter le nombre de pulsation sur 15 secondes et multiplier le chiffre
+obtenu par 4.
+Si la fréquence cardiaque est irrégulière, compter le nombre de pulsations en 60 secondes.
+Une fréquence cardiaque normale correspond à un intervalle de 60 à 100 pulsations/minute.
+La tachycardie correspond à une fréquence cardiaque plus élevé que 100 et la bradycardie à une fréquence
+cardiaque inférieure à 60.
+
+MESURE LE PRESSION ARTÉRIELLE
+Indiquer au patient que la pression artérielle :
+
+
+
+
+est la pression du sang qui circule dans les artères.
+4
+correspond à la force exercée par le sang sur la paroi des artères.
+permet de diagnostiquer/d’identifier des maladies du cœur (puissance cardiaque) ou des vaisseaux.
+
+Deux valeurs standards sont retenues pour mesurer la pression sanguine :
+
+
+
+La pression systolique est la valeur la plus élevée. Elle correspond à la contraction ventriculaire, c’està-dire au moment où le cœur injecte du sang dans le système artérielle.
+La pression diastolique correspond à la valeur la plus basse. Elle correspond au moment où le cœur se
+relâche (diastole) afin de se remplir de sang. A ce moment-là, il n’a y pas plus de résistances qu’en
+temps normal.
+
+4
+
+. Comme le cœur expulse le sang dans les troncs artériels plus rapidement qu'il n'est absorbé par les artérioles
+et les capillaires, il en résulte une pression résiduelle sur les parois artérielles. (Encarta)
+Tomas Jara Schoch | Examen vasculaire
+
+14
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+DESCRIPTION DES BRUITS DE KOROTKOFF
+
+
+
+
+
+
+Phase 1 : Première apparition d’un bruit clair, qui coïncide avec la perception d’un pouls palpable (=
+pression systolique en pratique)
+Phase 2 : Bruits doux et prolongés
+Phase 3 : Bruits renforcés et brefs
+Phase 4 : Bruits assourdis et doux
+Phase 5 : Disparition des bruits (= pression diastolique en pratique)
+
+Les bruits sont des turbulences du flux sanguin artériel, c’est-à-dire des ébranlements de la paroi artérielle
+induit par les variations de la pression intra-artérielle.
+
+PRATIQUE
+L’identification de la pression artérielle s’effectue à l’aide d’un sphygmomanomètre et d’un stéthoscope.
+La prise de la pression artérielle consiste à appliquer une force suffisante pour bloquer l’écoulement de sang à
+travers les vaisseaux puis à diminuer cette force, de manière à identifier dans un premier temps la pression
+systolique puis la pression diastolique.
+Le premier bruit perçu correspond à la pression systolique. L’ouverture du vaisseau crée un fluide turbulent.
+Dès qu’il n’y a pas de bruits, c’est-à-dire qu’il n’y pas de résistances imposées par le sphygmomètre, la pression
+diastolique est obtenue.
+
+MISE EN PRATIQUE
+1.
+
+2.
+
+3.
+4.
+5.
+6.
+
+7.
+
+Vérifier :
+- Les fuites d’air : imposer une pression de plus de 200mmHg pendant 5 secondes.
+- La graduation : elle doit être de 0, lorsque la valve de dégonflage est ouverte.
+- Le dégonflage : régulier, à 2mmHg par seconde
+- Taille du brassard :
+· Sa taille doit être adaptée à la circonférence du bras afin que la pression qui règne
+dans poche soit bien celle qui s’exerce sur l’artère à comprimer
+· Suffisamment grande pour que ses 2/3 recouvre la circonférence du bras et sa
+largeur les 2/3 de la longueur du bras.
+· Bras de 21-33cm : brassard standard ; >33cm : brassard pour obèse
+· Si la poche est trop étroite, la pression peut être surestimée.
+S’assurer que :
+- Le patient et la salle d’examen sont calmes (supprimer les objets nuisibles).
+- Le patient est confortablement assis (pas croiser la jambe), que sont bras est relâché et libre
+de tout vêtement constricteur. Attendre au moins 5 minutes (en profiter pour controler le
+matériel
+Positionner l’avant-bras à 90° du bras (si le patient est debout, il faut lui plier le coude)
+(Demander au patient sa pression habituelle).
+Palper l’artère brachiale au niveau du pli du coude.
+Installer le brassard en s’assurant que le centre de la poche gonflable soit positionné en regard du
+trajet de l’artère humérale, et que le bord inférieur du brassard reste 2-3 cm au-dessus du pli du
+coude.
+Première pression systolique :
+- Rechercher le pouls radial.
+Tomas Jara Schoch | Examen vasculaire
+
+15
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+- Gonfler le brassard.
+- Lorsqu’on ne sent pas le pouls, on a une première estimation de la pression systolique.
+8. Stéthoscope :
+- Réchauffer le métal.
+- Désinfecter entre chaque patient.
+- Placer la membrane sur la peau, en-dessous du brassard.
+9. Gonfler le brassard au-dessus de l’estimation de la pression systolique plus 30mmHg.
+10. Dégonfler à une vitesse de 2mmHg par seconde.
+11. Mesurer la pression systolique
+12. Mesurer de la pression diastolique.
+13. Effectuer trois mesures au moins d’une minute et moyenner les valeurs des 2 dernières.
+14. (Effectuer une mesure supplémentaire la différence entre deux mesures est plus grande que
+10mmHg).
+15. Mesurer la fréquence cardiaque (pendant 15 sec si la fréquence cardiaque est régulière, 60 sec si elle
+est irrégulière).
+16. Même procédure avec l’autre bras.
+NB : La perception des bruits peut persister jusqu’à zéro (peut se rencontrer chez l’enfant, la femme enceinte,
+pendant l’effort physique). Dans ce cas, utiliser la Phase 4 pour déterminer la pression diastolique.
+
+INTERPRÉTATION
+Une pression normale est de 120/80.
+L’hypertension est de >140/90. L’hypotension dépend de la personne en question (entre le 80-100 pour la
+pression systolique).
+
+AFFECTIONS
+
+
+
+
+
+Fréquence cardiaque irrégulière (intensité variable du bruit de la Phase 1)
+Trou auscultatoire :
+- Disparition des bruits des Phases 2 et 3
+- Rigidité des artères ou artéfact qui donnent une pression diastolique trop élevée.
+Coarctation de l’aorte :
+- Pressions artérielles différentes entre chaque bras. De ce fait, il est indispensable de mesurer
+dans chaque bras.
+
+Tomas Jara Schoch | Examen vasculaire
+
+16
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+AUSCULTATION CARDIAQ UE
+THÉORIE
+
+Lorsqu’on ausculte le cœur avec un stéthoscope, on perçoit deux bruits séparés par un petit silence et un grand
+silence.
+
+
+
+
+
+er
+
+Le 1 bruit, B1, correspond à la fermeture des valves atrio-ventriculaires « Toum »
+er
+Le 1 silence, un petit silence, correspond à la systole ventriculaire.
+e
+Le 2 bruit, B2, correspond à la fermeture des valves semi-lunaires notamment la valve aortique.
+e
+Le 2 silence, un grand silence, correspond à la diastole ventriculaire.
+
+1 E R BRUIT : B1
+
+
+
+
+
+
+Début de la systole
+Bruit sourd et grave, un peu prolongé (100ms)
+Mieux perçu à la pointe
+La palpation du pouls est synchrone de B1. En prenant le pouls, on peut distinguer B1 de B2
+Il a 4 composantes : mise en tension des parois ventriculaires ; fermeture mitrale (M1) ; fermeture
+tricuspide (T1) ; vibrations des parois aortique et pulmonaire.
+
+2 E BRUIT : B2
+
+
+
+
+
+
+
+
+Début de la diastole
+Plus bref (80ms)
+Plus aigue, « plus sec » : « Ta »
+Il a 2 composantes : celle de la valve aortique (A2) et celle de la valve pulmonaire (P2).
+Dédoublement phisiologique de B2 :
+- A2 et P2 correspondent aux bruits produits par les valves, consécutifs à l’éjection
+ventriculaire.
+- Le VG se vide avant le VD. De ce fait, A2 s’entend avant P2.
+- Ils sont séparés par un intervalle de <30ms mais entendus comme un seul bruit.
+- Ils sont distinguables (auditivement) à l’inspiration profonde ; le retard de P2 augmente.
+En effet, suite variations des retours veineux systémique et pulmonaire produites par
+l’inspiration, la systole ventriculaire droite est alors prolongée et la systole ventriculaire
+gauche raccourcie. -> l’augmentation de la pression abdominale provoque un plus grand
+remplissage de VD. Le P s’entend plus tard.
+e
+- Il est mieux entendu au 2 EICG (car P2 est confiné à cette endroit).
+A2 est audible à la base, à la pointe du sternum et à l’apex.
+
+Tomas Jara Schoch | Auscultation cardiaque
+
+17
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+ZONES (FOYERS) D’AUSCULATATION
+
+
+
+
+
+e
+
+Foyer A (aortique) : 2 EIC,
+ligne para-sternale droite
+e
+Foyer P (pulmonaire) : 2 EIC,
+ligne para-sternale gauche
+e
+Foyer T (tricuspidien) : 4 EIC,
+ligne para-sternale gauche
+e
+Foyer M (mitral) : 5 EIC, ligne
+médio-claviculaire, proche de
+l’apex
+
+Pourquoi A est à droite et P à gauche ?
+Le flux aortique se déplace à droite au début de l’aorte (ascendante) et le
+flux pulmonaire se déplace à gauche.
+
+PRATIQUE
+1.
+
+Inspection du thorax :
+- Demander au patient de se placer en décubitus dorsal (-> sur le dos)
+- L’examinateur se place à droite du thorax.
+-
+
+2.
+
+Symétrie vs déformations ?
+Couleur normale ?
+Grains de beauté, cicatrices, pacemaker (mélanome) ?
+Bonne qualité respiratoire (régulier) ?
+Pulsations au niveau de la VJE : régulières ?
+
+Palpation :
+- Palpation du pouls carotidien.
+Si l’examinateur est à droite, il utilise sa main gauche. Avec son pouce, il palpe l’artère carotide
+droite du patient.
+-
+
+Choc de pointe :
+e
+· 5 EIC au niveau de l’apex
+· 2cm de diamètre
+· Il correspond au mouvement du cœur, à la contraction du VG.
+· A l’état physiologique, il doit être bref et unique. A l’état pathologique, il est étalé.
+· Il peut être identifié en décubitus dorsale mais il peut l’être aussi en décubitus latéral
+gauche (sur le dos puis tourne à gauche).
+Tomas Jara Schoch | Auscultation cardiaque
+
+18
+
+MED II : 2012- 2013
+
+3.
+
+[SKILLS]
+
+Auscultation :
+- L’environnement doit être calme et la température doit être adaptée à celle du patient (fermer la
+fenêtre).
+- Priez le patient de se déshabiller : torse nu (l’auscultation ne se fait pas à travers les habits). Si le
+patient est une femme, on peut lui demander de se détacher son soutien-gorge.
+- Ordre : « All people try Macdonald » :
+e
+· Chercher le point d’Erb au niveau du 3 EIC (au début)
+· A : poum-poum--poum-poum ; Utilisation de la membrane
+· P : poum-poum--poum-poum ; Utilisation de la membrane
+· T : ppoum -ppoum-ppoum ; Utilisation de la cloche
+· M : ppoum -ppoum-ppoum ; Utilisation de la cloche
+· Chercher à nouveau le point d’Erb avec la cloche (sans trop appuyer).
+· Inspiration pour identifier le point P.
+
+INTERPRÉTATION
+B1 et B2 sont entendus dans chaque foyer d’auscultation. Pour les différencier, il faut utiliser le pouls. En effet,
+B1 suit le même rythme que le pouls.
+L’intensité de B1 et B2 varie selon la localisation. B2 est plus intense à la base (A et P), B1 à la pointe (T et
+5
+M). Aux 2e et 3e EIC D, B1 n’est jamais plus intense que B2.
+B1 et B2 ont des tonalités différentes: B1 est donc plus long et plus grave. B2 est plus bref et plus aigu.
+Aux fréquences lentes la systole est notablement plus courte que la diastole: B2 suit donc la pause courte et B1
+la pause longue.
+
+5
+
+Ce phénomène se vérifie en positionnant le patient en DLG et en recherchant le point de l’impulsion
+maximale: l’auscultation avec le diaphragme à cet endroit est à comparer avec l’auscultation à la base.
+
+Tomas Jara Schoch | Auscultation cardiaque
+
+19
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+AUSCULTATION PULMONAIRE
+PRATIQUE
+PARTIE ANTÉRIEURE
+Installer le patient en position couchée.
+1.
+
+Inspection :
+- Signes de détresse respiratoire :
+· Téguments :
+˚ Cyanose
+˚ Transpiration
+· Bruits :
+˚ Sifflements
+· Effort : contraction des muscles respiratoires accessoires :
+˚ Contraction sterno-cléido-mastoïdienne
+˚ Rétraction sus-claviculaire ou intercostale
+-
+
+Forme du thorax et mouvements respiratoires :
+· Forme du thorax :
+˚ Déformations ? Asymétrie gauche-droite ? Cicatrices ?
+· Mouvement respiratoires :
+˚ Expansion thoraco-abdominale inspiratoire
+˚ Prédominance du mouvement de l’abdomen (lorsqu’on inspire, le ventre
+doit se gonfler)
+˚ Symétrie gauche-droit
+
+-
+
+2.
+
+Fréquence cardiaque et respiratoire:
+· Indiquer au patient que vous allez déterminer la fréquence cardiaque. Ne pas lui dire
+que vous allez déterminer la fréquence respiratoire (pour éviter de fausser le résultat).
+Informer le patient après l’avoir déterminée.
+· Chercher la fréquence cardiaque puis la respiratoire.
+· Compter les mouvements respiratoires sur 30 secondes (et multiplier par 2) ou sur
+une minute.
+· Valeurs :
+˚ Normal : 10-20 cycles/minute
+˚ Bradypnée : < 10 cycles/min
+˚ Tachypnée : > 20 cycles/min
+Palpation :
+- Ganglions :
+· Cervicaux : le long du côté médial du
+SCM
+· Sus-claviculaire : au-dessus de la
+clavicule
+· Axillaires : palper les ganglions avec
+des gants
+En temps normal, on ne les sent pas. Ils
+sont palpables en cas de grippe et de toux.
+Tomas Jara Schoch | Auscultation pulmonaire
+
+20
+
+MED II : 2012- 2013
+
+3.
+
+[SKILLS]
+
+-
+
+Toute anomalie visible ou zones douloureuses (fracture de côte)
+
+-
+
+Ampliation thoracique :
+· Mains appliquées symétriquement sur chaque rebord costal.
+· Evaluer l’amplitude et la symétrie du mouvement lors d’une grande inspiration.
+
+Percussion pulmonaire :
+Poser le majeur (doigt du milieu) sur la zone que l’on souhaite percuter. Percuter le majeur avec l’index et
+le majeur de l’autre main. Faire des mouvements forts et utiliser la pulpe du doigt.
+-
+
+Son de référence : Sonorité pulmonaire
+Sons pathologiques :
+· Tympanisme (augmentation de la résonance) :
+˚ Distension pulmonaire
+˚ Pneumothorax
+Même son que lorsqu’on percute la joue
+·
+
+-
+
+Matité (sonorité normale remplacée par un bruit mat) :
+˚ Épanchement pleural
+˚ Condensation pulmonaire
+Même son que lorsqu’on percute le foie (ça ne résonne pas)
+Percuter des deux côtés selon l’ordre suivant :
+a. LSD : bonne sonorité pulmonaire
+b. LSG : cœur = matte. De ce fait,
+percuter en-dehors de la matité
+cardiaque.
+c. LM
+d. LIG
+e. LID
+Base droite : transition entre la sonorité
+du poumon et la matité du foie. -> Ce qui
+permet de délimiter le foie.
+Base gauche : transition entre la sonorité du poumon et le tympanisme de l’estomac.
+-> Permet de délimiter le tympanisme de l’estomac.
+Dans le cas d’une patiente, lui demander de soutenir elle-même son sein.
+
+-
+
+Percuter latéralement en suivant les mêmes lobes.
+
+Tomas Jara Schoch | Auscultation pulmonaire
+
+21
+
+MED II : 2012- 2013
+
+4.
+
+[SKILLS]
+
+Auscultation pulmonaire : Utiliser la membrane
+du stéthoscope :
+- Respirer profondément avec la bouche
+ouverte.
+- Ausculter, de gauche à droite, le
+thorax en avant et sur les côtés.
+- Comparer les zones symétriques des
+poumons de manière horizontale.
+- Ausculter également latéralement.
+- Écouter le bruit laryngo-trachéal, plus
+haut et plus fort, est entendu sur la
+trachée (Tra).
+-
+
+-
+
+Son de référence normal = Murmure
+respiratoire (ou murmure vésiculaire) :
+Bruit doux et grave inspiratoire et expiratoire = bruit des turbulences aériennes transmis à la
+surface corporelle par vibration du tissu pulmonaire
+Anomalies :
+· Modification du murmure respiratoire (plus lointain)
+· Bruits surajoutés (adventices) : râles crépitants : le bruit des cheveux dans les
+oreilles
+
+PARTIE POSTERIEURE
+Installer le patient en position assise.
+1.
+
+2.
+
+Inspection :
+- Forme du thorax et mouvements respiratoires :
+· Forme du thorax :
+˚ Déformations ? Asymétrie gauche-droite ? Cicatrices ?
+· Mouvement respiratoires :
+˚ Symétrie gauche-droit
+Palpation :
+- Toute anomalie visible
+- Zones douloureuses : Est-ce que vous avez mal quelque
+part ?
+- Ampliation thoracique :
+· Demander au patient d’expirer.
+· Appliquer les mains symétriquement sur les
+ème
+côtes inférieures (10 côtes). Plier un peu la
+peau à l’aide des pouces.
+· Demander au patient d’inspirer. Laisser les mains
+se déplacer selon le mouvement inspiratoire.
+· Evaluer l’amplitude et la symétrie du
+mouvement lors d’une grande inspiration.
+
+Tomas Jara Schoch | Auscultation pulmonaire
+
+22
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+3.
+
+Percussion :
+Il faut éviter de percuter la scapula. De ce fait, on demande au patient de croiser ses bras de manière à
+effectuer une rotation externe des omoplates.
+- Percuter et comparer les deux
+côtés. Il est important que la
+comparaison gauche droite s’effectue
+au même niveau horizontal.
+- Délimiter les bases pulmonaires :
+transition entre la sonorité du
+poumon et la matité des loges
+lombaires.
+Un épanchement pleural ou une
+paralysie diaphragmatique élèvent
+la limite supérieure de la submatité.
+
+4.
+
+Auscultation : Utiliser la membrane du stéthoscope
+- Comparer les zones symétriques des poumons (LSG-> LSD  LIG -> LID)
+- Le murmure respiratoire est entendu sur les aires pulmonaires.
+
+Sons de percussion
+Matité franche
+
+Intensité, hauteur et durée
+relatives
+Faible/aigüe/brève
+
+Sub-matité
+Sonorité
+
+Moyenne/moyenne/moyenne
+Forte/grave/longue
+
+Hypersonorité
+
+Plus forte/plus grave/plus
+longue
+Forte/aiguë (le timbre est
+musical)
+
+Tympanisme
+
+Exemples
+Epanchement pleural
+abondant
+Pneumonie lobaire
+Poumon normal ;
+bronchite chronique non
+compliquée
+Emphysème,
+pneumothorax
+Pneumothorax
+important
+
+Tomas Jara Schoch | Auscultation pulmonaire
+
+23
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+EXAMEN NEUROLOGIQUE
+FORC E MUSCULAIRE
+THÉORIE
+Rappel cotation force musculaire ; système MRC 0 - 5 (contre gravité avec maintien = 3), normal = 5, si < 5 =
+parésie ou faiblesse musculaire (MRC=Medical Research Council ou conseil scientifique britannique ayant
+reconnu après la 1ère Guerre mondiale l’utilité d’une cotation internationale) .
+
+La précision de l’examen est fonction des hypothèses de travail
+Les épreuves fonctionnelles permettent de donner une appréciation de sévérité des déficits
+Les troubles à la marche peuvent être revus à la BDFM CHUV, BH (R. Ménétrey, Attention à la marche, Cote
+WE 103 MEN)
+
+PRATIQUE
+1.
+
+2.
+
+Assis, pour l’examen des muscles des membres supérieurs (sous-épineux; deltoïde ; biceps brachial ;
+triceps brachial ; extenseurs poignet ; fléchisseurs poignets ; extenseurs doigts ; fléchisseurs doigts ;
+interosseux et abd doigt V ; court abducteur du pouce) et pour les muscles proximaux des membres
+inférieurs ; fléchisseurs cuisse ; quadriceps ; fléchisseurs genou).
+Assis ou couché, pour tester la motilité fine des doigts (et des orteils), signe mineur pour une atteinte
+pyramidale.
+
+Tomas Jara Schoch | Examen neurologique
+
+24
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Muscles
+des membres
+supérieurs
+
+Objectifs
+
+Sous-épineux
+
+L'examinateur
+contre une rotation
+externe du bras
+L'examinateur
+contre l’adduction
+du bras
+Patient : flexion de
+l’avant-bras
+
+Deltoïde
+
+Biceps brachial
+
+Exemples (assis)
+
+Examinateur :
+contrer une flexion
+de l’avant bras
+
+Triceps brachial
+
+Patient :
+Avant-bras en en
+flexion et effectuer
+une extension de
+l’avant-bras
+Examinateur :
+Contrer une
+extension de
+l’avant-bras
+
+Extenseurs
+poignet
+
+Patient :
+Faire un poing,
+mettre en extension
+le poing et résister
+à la flexion
+Examinateur :
+Effectuer une
+flexion du poignet
+sur le poing du
+patient.
+
+Tomas Jara Schoch | Examen neurologique
+
+25
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Fléchisseurs
+poignets
+
+Patient : Flexion de
+la main le poing
+fermé et résister à
+l’extension
+Examinateur :
+Exercer une force
+conduisant à
+l’extension
+
+Extenseurs doigts
+
+Patient : Main et
+avant-bras en
+pronation. Doigts
+en extension.
+Examinateur :
+provoque une
+flexion des doigts
+en appuyant pardessus à l’extrémité
+des doigts
+
+Fléchisseurs doigts
+
+Patient : bras
+étendus. Ouvrir la
+main et serrer les
+deux doigts de
+l’examinateur aussi
+fort que possible et
+ne pas les laisser
+aller.
+Examinateur :
+Placer l’index et le
+majeur sur le creux
+de la main
+Essayer de retirer
+les doigts en
+effectuant un
+mouvement de
+traction à l’opposée
+du patient.
+Tester les deux
+poignées facilite la
+comparaison
+
+Tomas Jara Schoch | Examen neurologique
+
+26
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Interosseux et
+e
+abducteur du 5
+doigt
+
+Patient : Main en
+pronation.
+Abduction des
+doigts de la main.
+Résister
+l’adduction.
+Examinateur :
+Effectuer une
+adduction des
+doigts
+
+Court abducteur
+du pouce
+
+Patient : Main en
+supination. Le
+patient essaie de
+toucher la pointe du
+petit doigt
+(opposition)
+Examinateur :
+contre le
+mouvement du
+pouce (reposition)
+
+Muscles
+proximaux des
+membres
+inférieurs
+
+Objectifs
+
+Fléchisseurs de la
+cuisse
+
+Patient : Flexion de
+la cuisse (une après
+l’autre)
+
+Ilio-psoas
+(L2, L3, L4)
+
+Exemples (assis)
+
+Examinateur :
+Contrer la flexion
+Si couché :
+Le patient soulève sa
+cuisse et
+l’examinateur
+oppose une
+résistance
+
+Tomas Jara Schoch | Examen neurologique
+
+27
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Quadriceps
+
+Patient : Extension
+de la jambe
+
+NB : Attention, un
+des muscles les plus
+puissants.
+
+Examinateur :
+contrer l’extension
+
+(L2, L3, L4)
+
+Si couché :
+L’examinateur
+maintient le genou
+en flexion. Le
+patient étend la
+jambe contre la
+main.
+
+Fléchisseurs du
+genou
+
+Patient : Flexion de
+la jambe
+
+Ischio-jambiers
+(L4, L5, S1, S2)
+
+Examinateur :
+Contrer la flexion
+Si couché :
+L’examinateur place
+la jambe du patient
+de manière à que le
+genou soit fléchi et
+le pied repose sur le
+lit. Le patient doit
+garder le pied contre
+le lit, lorsque
+l’examinateur essaie
+d’étendre la jambe.
+
+3.
+
+Couché, pour l’examen de la partie distale des muscles des membres inférieurs ; extenseurs et
+fléchisseurs du pied et des orteils ; orteils). Les muscles examinés en position assise peuvent aussi être
+examinés en position couchée.
+
+Muscles des
+membres
+inférieurs
+
+Objectifs
+
+Extenseurs du pied
+et des orteils
+
+Patient : extension
+(dorsi-flexion) du
+pied
+
+Tibial antérieur
+(L4, L5)
+
+Exemples (couché)
+
+Examinateur :
+Contrer l’extension
+
+Tomas Jara Schoch | Examen neurologique
+
+28
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Fléchisseurs du
+pied et des orteils
+
+Patient : flexion du
+pied
+
+Gastrocnémiens
+Soléaire
+(S1)
+
+Examinateur :
+Contrer la flexion
+
+Orteils
+
+Extension et flexion
+comme pour les
+doigts
+
+4.
+
+Épreuves fonctionnelles : Relever de la tête et du tronc ; épreuve des bras tendus et jambes fléchies ;
+élévation des bras en dessus de la tête ; accroupissement et relever possible (si pathologique = signe
+de Gowers) ou épreuve du tabouret ; marche sur les pieds et les talons ; tient sur une jambe (si parésie
+du moyen fessier = signe de Trendelenbourg).
+
+Epreuves
+fonctionnelles
+
+Objectifs &
+Constatations
+
+Exemples et anamolies
+
+Relever le tête et le
+tronc
+
+Jambes fléchies
+
+Les manœuvres de
+Mingazzini (sur le
+dos) ou de Barré
+(sur le ventre)
+explorent la force
+des muscles
+fléchisseurs de
+cuisse.
+Le patient doit
+garder les cuisses
+fléchies à 90° sur le
+bassin pendant
+quelques secondes;
+une chute du côté
+atteint peut alors
+survenir.
+
+Tomas Jara Schoch | Examen neurologique
+
+29
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Bras tendus
+
+20 à 30 secondes
+avec les deux bras
+tendus vers l'avant,
+en supination, et les
+yeux fermés.
+En demandant au
+patient de garder les
+bras et les yeux
+fermés,
+l’examinateur
+appuie sur les bras
+brusquement vers le
+bas. Les bras
+normalement
+retournent en
+douceur vers leur
+position horizontale.
+Son absence
+indique une
+faiblesse, un
+manque de
+coordination.
+
+Flexion et pronation au niveau du coude et dérive vers le bas en
+cas la lésion du faisceau pyramidal contre-latéral.
+
+Elévation des bras
+au-dessus de la
+tête
+
+Accroupissement
+et se relever
+
+Signe de Gowers :
+Parésie de la
+musculature
+proximale des
+membres inférieurs.
+Le patient est
+obligé de se servir
+de ses mains et de
+ses bras pour passer
+de la position
+agenouillée à la
+position debout
+(manque de force
+des muscles des
+hanches et des
+cuisses).
+
+Épreuve du
+tabouret
+
+Se relever à partir de
+la position assise,
+
+Une difficulté à cette à cette épreuve suggère une faiblesse des
+muscles proximaux (extenseurs de la hanche, du quadriceps
+Tomas Jara Schoch | Examen neurologique
+
+30
+
+MED II : 2012- 2013
+
+Marcher sur les
+pieds et les talons
+
+[SKILLS]
+sans s'aider des
+bras, et monter sur
+un tabouret solide
+sont des tests plus
+adéquats que les
+sautillements et les
+génuflexions quand
+les patients sont
+âgés ou faibles.
+
+(extenseur du genou), ou des deux.
+Les gens qui ont une diminution de la force des muscles de la
+ceinture pelvienne et des membres inférieurs ont du mal à faire
+ces exercices.
+
+Marcher, la pointe
+d'un pied touchant le
+talon de l'autre, en
+ligne droite.
+
+Marcher dans la pièce ou aller jusqu'au couloir, faire demi-tour
+et revenir. Observez son attitude, son équilibre, le balancement
+des bras et les mouvements des membres inférieurs.
+Normalement, l'équilibre est aisé, les bras se balancent sur les
+côtés et les demi-tours sont accomplis sans à-coups.
+Une démarche incoordonnée, chancelante, instable est dite
+ataxique. L'ataxie peut être due à une pathologie cérébelleuse,
+la perte du sens de la postion ou une intoxication.
+
+Marcher sur la
+pointe des pieds,
+puis sur les talons:
+des tests sensibles,
+respectivement, de
+la flexion plantaire
+et dorsale des
+chevilles, aussi bien
+que de l'équilibre.
+
+Tenir sur une
+jambe
+
+la démarche point du pied-talon peut révéler une ataxie non
+évidente jusque-là.
+La marche sur la pointe des pieds ou les talons peut révéler une
+faiblesses musculaire distale des membres inférieurs.
+L'impossibilité de marcher sur les talon est un test sensible de
+lésion du faisceau corticospinal.
+
+Le signe de
+Trendelenbourg
+correspond à une
+parésie du moyen
+fessier (image de
+droite)
+
+Tomas Jara Schoch | Examen neurologique
+
+31
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+RÉFLEXES
+THÉORIE
+
+
+Rappel de la cotation 0 - 4+ (normal 2+ ; si >2+ = sémiologie pyramidale ; si <2+ = sémiologie
+périphérique) :
+
+
+
+L’étude des niveaux métamériques sont limités lors de l’étude des ROT:
+- Seuls sont examinés C6 et C7 aux membres supérieurs.
+- L4 et S1 aux membres inférieurs.
+Utiliser un marteau à tête lourde.
+Lors du déclenchement des ROT, évoquer 2-3 fois à 1 niveau, puis déclencher le même ROT
+controlatéral.
+Utiliser les manœuvres de facilitation connues (pour créer une inhibition physiologique)
+
+
+
+
+
+Si les réflexes du patient sont diminués ou abolis de façon symétrique, on utilise le
+renforcement, une technique faisant appel à la contraction isométrique d'autres
+muscles (pendant au plus 10 secondes), qui peut accroître l'activité réflexe.
+Pour les réflexes des membres supérieurs, demandez par exemple au sujet de serrer
+les dents ou de comprimer sa cuisse avec sa main opposée.
+Si les réflexes des membres inférieurs sont diminués ou abolis, vous pouvez les
+renforcer ne demandant au sujet de tenter d'écarter l'une de l'autre les deux mains
+réunies par les doigts en crochets (manœuvre de Jendrassik). Dites bien au patient
+de tirer juste avant de percuter le tendon.
+Il peut aussi décoller la tête du plan du lit (ou fermer sa mâchoire) ou effectuer une
+6
+flexion plantaire (c).
+
+6
+
+D’après Barbara Bates
+Tomas Jara Schoch | Examen neurologique
+
+32
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+PRATIQUE
+Encourager le patient à se détendre. Utiliser les manœuvres de facilitation.
+Les réflexes s’effectuent des deux côtés. Le réflexe contre-latéral suit le premier réflexe de manière à pouvoir
+les comparer.
+Tous les ROT sont évocables du même côté du lit sauf 1 Achilléen controlatéral.
+Tenez le marteau à réflexe de manière lâche, entre le pouce et l'index afin qu'il pivote librement dans un arc
+(limité par la paume de la main et des doigts autres). Avecle poignet détendu, frapper le tendon vivement à
+l'aide d'un mouvement du poignet rapide.
+Notez la vitesse, la force et l'amplitude de la réponse réflexe et la qualité de la réponse en utilisant l'échelle.
+N’oubliez pas de toujours comparer la réponse d'un côté à l'autre.
+Erreurs fréquentes:
+Le marteau n’atteint pas la cible du tendon.
+Le marteau n’est pas déclenché assez fort.
+Les ROT ne sont pas évoqués du même côté du lit.
+Le réflexe cutané plantaire n’est pas frotté suffisamment au bord latéral du pied jusqu’à la base du
+gros orteil.
+Utiliser le schéma suivant pour la prise de notes :
+
+Tomas Jara Schoch | Examen neurologique
+
+33
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Muscles
+
+Comment faire?
+
+Biceps
+brachial
+ROT bicipital
+(C5-C6)
+
+
+
+
+Triceps
+brachial
+ROT tricipital
+C7)
+
+
+
+
+
+
+
+
+
+Patient assis
+
+Patient couché
+
+Si problémes
+
+Avant-bras tenu flechi
+Percussion du pouce de
+l’examinateur placé sur le
+tendon d’insertion du biceps
+Contraction du biceps et flexion
+de l’avant bras sur le bras
+
+Avant-bras tenu fléchi
+Epaule légèrement surélevée
+Percussion du tendon du triceps
+au-dessus de l’olécrâne.
+Contraction du triceps brachial
+et extension de l’avant bras.
+
+Si le patient n’arrive pas à se détendre,
+essayez de soutenir le bras. Demander
+au patient de se laisser aller (bras mous).
+
+Tomas Jara Schoch | Examen neurologique
+
+34
+
+MED II : 2012- 2013
+Brachio-radial
+ROT
+brachioradial
+(C6)
+
+
+
+Quadriceps
+ROT rotulien
+ou
+quadricipital
+(L4)
+
+
+
+
+
+
+
+
+
+[SKILLS]
+Avant-bras tenu en demi-flexion
+et demi-supination
+Percussion de l’apophyse
+styloïde du radius
+Contraction du long supinateur
+et flexion de l’avant-bras
+
+Membre inférieur en légère
+flexion et soutenu au niveau du
+creux poplité par l’examinateur
+pour bien détendre la cuisse ou
+position assise
+Percussion du tendon
+d’insertion du quadriceps sous
+la rotule
+Contraction du quadriceps et
+extension de la jambe
+Deux méthodes sont utiles lorsque l'on examine le patient en
+décubitus dorsal. Soutenir les deux genoux à la fois, comme
+indiqué ci-dessous à gauche, vous permet d'évaluer de petites
+différences entre les réflexes du genou (tester de manière
+répétée un réflexe, puis l'autre). Parfois, cependant, soutenir
+deux jambes rend mal à l'aise à la fois l'examinateur et le
+patient. Vous pouvez reposer votre bras de support sous la
+jambe du patient, comme illustré ci-dessous à droite. Certains
+patients trouvent plus facile de se détendre avec cette
+méthode.
+
+Tomas Jara Schoch | Examen neurologique
+
+35
+
+MED II : 2012- 2013
+Achillien
+ROT Achillien
+(S1)
+
+
+
+
+
+[SKILLS]
+Le genou fléchi du patient
+repose en abduction sur le litL’examinateur tient le pied en
+position intermédiaire et
+percute le tendon d’Achille.
+Contraction du triceps sural et
+extension du pied
+
+Réflexes cutanés :
+Cutané
+abdominal
+
+
+
+
+
+
+
+Réflexe
+cutané
+plantaire
+(=RCP)
+(L5, S1).
+
+
+
+
+
+A réaliser uniquement en position couchée !
+L’obésité peut masquer un réflexe
+abdominal. Dans ce cas, utilisez un doigt
+pour tirer l’ombilic du sujet du côté
+opposé à la stimulation. On perçoit la
+contraction musculaire avec le doigt qui
+rétracte l’ombilic.
+
+Gratter légèrement mais
+rapidement chaque côté de
+l’abdomen, au dessus (T8, T9,
+T10) et au-dessous (T10, T11,
+T12) de l’ombilic, selon les
+directions indiquées dans la
+figure.
+Servez-vous d’une clef, d’un
+écouvillon ou d’un abaisselangue fendu
+longitudinalement.
+Notez la contraction des
+muscles abdominaux et la
+déviation de l’ombilic vers le
+stimulus.
+
+Si extension
+anormale des
+orteils = signe de
+Babinski
+
+Appliqué un objet depuis la face
+latérale de la semelle du talon à
+la pointe du pied
+Utilisez un léger stimulus et
+appuyer plus fortement si
+nécessaire.
+Mouvement du gros orteil,
+flexion plantaire
+
+Tomas Jara Schoch | Examen neurologique
+
+36
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+SENSIBILITÉ
+THÉORIE
+
+
+
+
+
+Rappel des différentes modalités protopathiques et épicritiques
+Connaître les niveaux métamériques : mamelons, ombilic, racines des extrémités
+La précision de l’examen est fonction du contexte .
+Les épreuves fonctionnelles permettent de donner une appréciation de sévérité des déficits .
+
+PRATIQUE
+
+
+
+
+
+
+
+
+
+
+L’examen débute au niveau de la base unguéale des indes et des gros orteils. Si la personne n’a pas de
+sensibilité/reconnaissance, il faut remonter proximalement vers le poignet/cheville et le
+coude/genoux.
+En effet, une cartographie sensorielle méticuleuse permet d'établir le niveau d'une lésion de la moelle
+épinière et de déterminer si cette lésion résulte d’une lésion d’une racine nerveuse, un nerf
+périphérique principale, ou l'une de ses branches.
+Il faut toujours comparer des zones symétriques sur les deux côtés du corps, y compris les bras, les
+jambes et le tronc.
+Lorsque vous détectez des résultats anormaux, il faut les mettre en corrélation avec le moteur et
+l'activité réflexe.
+Lorsque vous détectez une zone de perte sensorielle ou d'hypersensibilité, tracer ses frontières en
+détail. Il faut stimuler en premier point la sensibilité réduite, et se déplacer par étapes progressives
+jusqu'à ce que le patient détecte le changement.
+Évaluer le patient attentivement, en vous posant les questions suivantes:
+- Est-ce que la lésion sous- jacente est centrale ou périphérique ?
+- Est-ce que la perte sensorielle unilatérale ou bilatérale?
+- Il y a-t-il un modèle suggérant une distribution métamérique, une poly-neuropathie, ou un
+syndrome de la moelle épinière avec une perte de la douleur et de la sensation de
+température mais aussi le toucher intact et les vibrations?
+
+RECONNAISSANCE AU PIQUER – TOUCHER
+
+
+
+
+
+Lorsque l’examinateur teste la douleur, la température et la sensation du toucher, il compare les deux
+zones symétriques du corps et les régions distales avec les régions proximales.
+Les dermatomes testés sont :
+- Les deux épaules (C4),
+- Les régions interne et externe de l'avant-bras (C6 et T1),
+- Les pouces et les petits doigts (C6 et C8)
+- Le devant des deux cuisses (L2)
+- Les aspects médians et latéraux de deux veaux (L4 et L5)
+- Les petits orteils (S1)
+- La face interne de chaque fesse (S3).
+L’examinateur utilise un coton-tige pour le test de la douleur et celui du toucher. Les stimulations
+toucher/piquer doivent être légères et répétées au même site, 2-3 fois.
+
+Tomas Jara Schoch | Examen neurologique
+
+37
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+TOUCHER
+
+
+
+
+
+
+L’examinateur applique le coton-tige sur les différents dermatomes.
+Il faut touche légèrement la peau, en évitant la pression.
+Demandez au patient de faire signe chaque fois qu’un touché est ressenti.
+L’examinateur compare d’un côté du corps à un autre.
+Normalement, la peau est normalement relativement insensible et devrait être évitée.
+
+DOULEUR
+
+
+
+Même procédure mais avec les pics du coton-tige cassé en deux.
+L’examinateur demande au patient si la douleur est aiguë ou sourde ou de comparer («Est- ce que vous
+ressentez la même chose ? »).
+
+TEMPÉRATURE
+
+
+
+Le sens de température nécessite l’utilisation de petits Erlenmeyer remplis d’eau chaude/froide.
+Le patient indique si la sensation est froide ou chaleureuse.
+
+RECONNAISSANCE DU SENS DE POSITON (OU ARTHOCINÉSIE)
+
+
+
+
+Lors du test de vibration et du sens de position, il faut d'abord
+tester les doigts et les orteils. Si ceux-ci sont normaux, vous
+pouvez supposer que les zones plus proximales sont
+également normales.
+L’examinateur saisit le gros orteil/pouce de manière latérale. Il
+exécute ensuite des mouvements rapides. Le patient doit
+indiquer, les yeux fermés, la position du pouce ou de l’orteil.
+
+RECONNAISSANCE DU SENS VIBRATOIRE (OU PALLESTHÉSIE)
+
+
+
+
+
+Un diapason de 128 ou 256Hz est utilisé et est appliqué sur une
+saillie osseuse.
+L’examinateur fait vibrer le diapason. Le patient lui indique
+lorsqu’il ne ressent plus rien. L’examinateur à ce moment-là,
+observe la cotation.
+Normalement, on place le diapason sur le bord antérieur du
+tibia, les chevilles et les processus styloïdes.
+
+STÉRÉOGENÈSE (MODALITÉS COMPLEXES)
+
+
+La stéréognosie, aussi appelée gnosie tactile se définit par la capacité
+d’une personne à reconnaître et identifier les caractéristiques d’un
+objet ou d’une forme géométrique uniquement en sollicitant les
+perceptions tactiles (toucher, texture et température) et les
+
+Tomas Jara Schoch | Examen neurologique
+
+38
+
+MED II : 2012- 2013
+
+
+
+
+[SKILLS]
+
+informations proprioceptives (pression, position, mouvement et poids) que l’objet ou la forme
+fournissent (Carlson & Brooks, 2009).
+L’examinateur utilise une pièce de monnaie ou un objet et demande au patient d’indiquer le type de
+monnaie (20 centimes ou 1 franc). L’autre possibilité est de dessiné le chiffre 3 sur la peau
+Nota bene : L’étude du sens de la stéréognosie (objet fin dans la main sans contrôle visuel) peut être
+utile dans une appréciation intégrée des sensibilités (cortex pariétal).
+
+ÉPREUVES FONCTIONNELLES
+DÉMARCHE DU FUNAMBULE (PIEDS APPONDUS L’UN DEVANT
+L’AUTRE)
+
+
+
+L’examinateur demande au patient de marcher un pied devant l’autre ou du
+funambule (test proprioceptif, vestibulaire ou cérébelleux).
+Ce test permet de déterminer un déséquilibre ou une ataxie.
+
+EPREUVE DE ROMBERG, D’ABORD PIED SERRÉS ET BRAS TENDUS, PUIS FERMETURE
+OCULAIRE
+
+
+
+
+
+
+L’examinateur demande au patient de se placer le patient debout sans autre appui que les talons joints
+sur le sol, et il observe la posture du patient avec les yeux ouverts.
+Les membres supérieurs sont tenus collés au corps, mais on peut sensibiliser l’épreuve en les plaçant
+autrement: tendus en avant paumes en l’air (pour mieux voir les oscillations), coudes fléchis avec les
+index pointés en avant (pour mieux voir les déviations latérales). L’examinateur suit la même procédure
+en demandant au patient de lever les bras en avant.
+L’examinateur demande au patient ensuite de fermer les yeux et il observe la posture.
+Trois atteintes perturbent l’épreuve en déterminant un déséquilibre (ataxie statique):
+- Cordonale postérieure (donne le vrai signe de Romberg)
+- Cérébelleuse
+- Vestibulaire (faux signes de Romberg)
+Atteinte cordonale
+postérieure
+
+Atteinte cérébelleuse
+
+Atteinte vestibulaire
+
+Description
+du
+déséquilibre
+
+Oscillations puis chute,
+non latéralisées
+
+Déviation latéralisée
+vers le côté du
+labyrinthe
+
+Fermeture
+des yeux
+
+Déclenche ou aggrave
+le déséquilibre
+
+Oscillations non latérailisées,
+obligation d'écarter les pieds,
+pour ne pas tomber, danse des
+tendons jambiers antérieurs
+visibles à la face antérieure des
+chevilles.
+Sans effet
+
+Déclenche ou aggrave
+le déséquilibre lésé
+
+Les trois fonctions (proprioception (= vestibulaire et cordonale postérieure), cervelet, visuel)
+contribuent à maintenir debout. S’il manque la fonction visuelle (c’est-à-dire si l’on ferme les yeux),
+l’épreuve de Romberg indique si c’est la fonction proprioceptive ou cérébelleuse qui est atteinte.
+
+Tomas Jara Schoch | Examen neurologique
+
+39
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+EPREUVE DES BRAS TENDUS ET JAMBES FLÉCHIES.
+
+
+Cf. : force musculaire
+
+Tomas Jara Schoch | Examen neurologique
+
+40
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Tomas Jara Schoch | Examen neurologique
+
+41
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+EXAMEN ET COTATION ARTICULAIRE
+OBJECTIFS
+CONNAÎTRE L’UTILISATION DU GONIOMÈTRE
+Le goniomètre est un instrument qui permet de mesurer
+l’angle de l’amplitude articulaire en degré par rapport à la
+position anatomique.
+
+DISTINGUER LA MOBILITÉ PASSIVE DE
+L’ACTIVE
+
+
+
+Mobilité active : le patient fait un mouvement.
+Mobilité passive : l’examinateur fait le mouvement.
+
+UTILISER LA COTATION ARTICULAIRE
+INTERNATIONALE ET SA NOTATION
+La cotation internationale repose sur trois nombres :
+
+
+
+er
+
+e
+
+Le 1 et le dernier (3 ) donnent l’amplitude des mouvements dans les deux directions opposées
+(flexion-extension).
+e
+Le chiffre central (2 ) donne la position neutre
+
+Exemples :
+
+
+
+
+Flexion de l’épaule 125°, extension 15°, on notera : 125-0-15
+Flexion du genou 120° avec une flexion de 12°, on notera : 120-12-0
+Flexion du genou 140° avec un recurvatum de 5°, on notera 140-0-5
+
+THÉORIE
+EPAULE
+L’épaule possède 3 articulations :
+
+
+
+
+articulation sterno-claviculaire : énarthrose (3 degrés de
+liberté)
+articulation acromio-claviculaire
+articulation scapulo-humérale : énarthrose
+
+Mouvements :
+
+
+
+Flexion : mm. grand pectoral, coraco-brachial deltoïde
+(faisceau claviculaire)
+Extension : mm. deltoïde (faisceau spinal), grand pectoral
+
+
+
+Abduction : mm. supra-épineux et deltoïde (faisceau
+Tomas Jara Schoch | Examen et cotation articulaire
+
+42
+
+MED II : 2012- 2013
+
+
+
+
+
+
+
+[SKILLS]
+
+acromial)
+Adduction : mm. grand dorsal, grand pectoral, coracobrachial, subscapulaire, grand rond, deltoïde (faisceau
+spinal et faisceau claviculaire)
+Rotation interne : mm. subscapulaire (test du lift-off),
+grand rond, grand dorsal, grand pectoral et deltoïde
+(faisceau claviculaire)
+Rotation externe : mm. infra-épineux, petit rond et
+deltoïde (faisceau spinal)
+
+GENOU
+
+
+Le genou dispose de 4 ligaments :
+- Ligament collatéral fibulaire
+- Ligament collatéral tibiale
+- Ligament croisé antérieur
+- Ligament croisé postérieur
+
+
+
+
+
+La laxité latérale teste les ligaments collatéraux fibulaire.
+La laxité médiale teste les ligaments collatéraux tibiaux.
+La cotation utilisée pour décrire la laxité est : +, ++ ou +++.
+
+PRATIQUE
+1.
+
+Se présenter, expliquer l’examen :
+- « Bonjour[…]. Je souhaiterai contrôler l’état de vos articulations ».
+- « Pour cela, je vais utiliser un goniomètre. Il est constitué de deux réglettes qui me
+permettent de mesurer les angles des articulations. »
+- « Je le place au-dessus d’une articulation. Une des deux réglettes de base reste sur
+l’articulation et l’autre suit le mouvement. »
+- « Pour pouvoir mesurer, je vais vous demander d’effectuer certain mouvement. Dans
+d’autres cas, c’est moi qui va déplacer vos membres pour effectuer certains mouvement »
+- « Est-ce que vous m’avez bien compris ? Est-ce que vous avez des questions ? »
+
+2.
+
+Demander au patient de se déshabiller. En profiter pour scruter la présence d’hématomes, brulures…
+NB : Il ne faut pas aider le patient à se déshabiller sauf s’il a de la peine. Le déshabillement renseigne
+sur les capacités musculaires et articulaires du patient.
+
+EPAULE (LE PATIENT EST ASSIS SUR UNE CHAISE)
+3.
+
+(Palper les articulations)
+
+4.
+
+Flexion et extension :
+- L’examinateur se place de côté, latéralement au patient. Il place le goniomètre latéralement. La
+position au repos correspond au bras collé contre le thorax.
+- Il demande au patient de réaliser une extension puis une flexion.
+- L’examinateur exécute ensuite ces deux mouvements passivement.
+- Il réalise ensuite ces mouvements avec l’autre bras.
+Tomas Jara Schoch | Examen et cotation articulaire
+
+43
+
+MED II : 2012- 2013
+5.
+
+6.
+
+7.
+
+[SKILLS]
+
+Abduction et adduction :
+- L’examinateur se place derrière le patient.
+- La position au repos correspond au bras collé contre le thorax.
+- Il demande au patient de réaliser une abduction (vers le haut).
+- Il demande au patient ensuite de réaliser une adduction, c’est-à-dire de ramener son bras
+derrière le dos.
+- L’examinateur réalise ensuite les mouvements passivement.
+- Mêmes étapes avec l’autre bras.
+Rotation externe :
+- L’examinateur se place latéralement.
+- La position basale correspond une flexion du bras à 90°, collé contre les côtes (la main pointe
+vers l’avant, elle n’est pas collée contre l’abdomen).
+- Le patient réalise une rotation externe.
+- L’examinateur réalise ensuite le mouvement passivement.
+- Même procédé avec l’autre bras.
+Rotation interne :
+- L’examinateur se place latéralement.
+- La position basale correspond une flexion du bras à 90°, collé contre le thorax.
+- Belly press :
+· Le patient place le plat de sa
+main sur son thorax, au niveau
+de l’apophyse xiphoïde. Le
+coude est placé contre les
+côtes.
+· Le patient doit maintenir le
+bras collé au thorax.
+· L’examinateur teste la force
+musculaire en tirant le bras
+vers lui, dans le sens contraire
+au patient.
+- Lift-off ou test de Gerber :
+· Le patient place le dos de sa
+main sur son dos.
+· Le patient éloigne son bras de
+son dos.
+· L’examinateur s’oppose au
+mouvement et évalue ainsi la
+force.
+- Tester l’autre bras avec le Belly press et
+le lift-off.
+- Tester le mouvement passif :
+· Le patient place le plat de sa main dans le dos.
+· Il monte son pouce aussi que possible.
+· L’examinateur essaie ensuite de le monter le plus haut possible (attention le patient ne
+doit pas avoir mal).
+· L’examinateur mesure la distance entre le pouce du patient et la C7.
+· Même procéde avec l’autre bras.
+· NB : Un résultat physiologique suppose que la distance soit identique pour chaque bras.
+
+Tomas Jara Schoch | Examen et cotation articulaire
+
+44
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+GENOU : LE PATIENT EST INSTALLÉ EN DECUBITUS
+
+8.
+
+Identifier une présence anormale de chaleur ou d’une tuméfaction. Déterminer si les jambes sont
+symétriques.
+9. Palper la rotule.
+10. Flexion et extension :
+- L’examinateur se place
+latéralement du côté du
+genou examiné.
+- Le patient fléchit sa jambe ( il
+ramène sa malléole vers le
+côté postérieur proximal de sa
+cuisse).
+- L’examinateur réalise le
+même mouvement mais
+passivement.
+- Même procédé pour l’autre
+membre inférieur.
+11. Laxité frontale en extension :
+- L’examinateur se place latéralement du côté du genou examiné.
+- Le patient maintient sa jambe en extension.
+- L’examinateur place les mains comme indiquer sur le schéma.
+- Sa main droite (celle qui est dessous la cuisse) déplace le tibia médialement (varus) et
+latéralement (valgus) en stabilisant la cheville avec l’autre main.
+- Normalement, en extension, le genou est stable sans battement, car les éléments tendus de
+la capsule postérieure confèrent cette absence de laxité.
+12. Laxité frontale en flexion de 30° :
+- L’examinateur se place latéralement du côté du genou examiné.
+- Le patient maintient sa jambe fléchit à 30°.
+- L’examinateur place les mains comme indiquer sur le schéma.
+- Sa main droite (celle qui est dessous la cuisse) déplace le tibia médialement (varus) et
+latéralement (valgus) en stabilisant la cheville avec l’autre main.
+- Normalement à 30°, le genou est plus laxe latéralement (en varus) que médialement (en
+valgus).
+13. Même procédé avec l’autre jambe
+14. Axe des membres inférieurs :
+- L’examinateur se place au bout de la table d’examen.
+- Le patient place ses jambes en extension, rotule en zénith (le genou en légère rotation interne).
+- L’examinateur réunit, si possible, les deux chevilles (malléoles tibiales G et D jointes).
+- Si les distances entre les deux condyles fémoraux internes et celle entre les deux malléoles
+sont nulles, le morphotype est normo-axé.
+- Varus (lucky-luke) : un espace (en centimètre) est mesuré entre les deux condyles.
+- Valgus (jambe en X) : un espace est mesuré entre les deux malléoles.
+Tomas Jara Schoch | Examen et cotation articulaire
+
+45
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+Tomas Jara Schoch | Examen et cotation articulaire
+
+46
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+EXAMEN DE L’ABDOMEN
+
+
+
+Se laver les mains (former le robinet avec le papier).
+Demander au patient de soulever son pull
+
+CONDITIONS GÉNÉRALES
+
+
+
+
+
+
+Bon éclairage
+Patient détendu
+Mise en nu complète de l’abdomen : il faut pouvoir voir les régions inguinales
+Régions inguinales visibles
+Mais chaudes et ongles courts
+La vessie doit être vide
+Donner l’impression d’une totale disponibilité
+
+POSITIONNER LE PATIENT
+
+
+
+
+
+Doit être couché confortablement, sur le dos, avec un coussin sous la tête (sous les genoux).
+Les bras le long du corps
+Expliquer (prévenir) !
+Garantir l’intimité
+
+OBSERVER
+POINTS PRINCIPAUX À OBSERVER
+1.
+
+2.
+
+3.
+
+Est-ce que le patient a mal ? Si une personne à mal au
+ventre, le patient à des jambes pliés et les mains sur le
+ventre.
+Comment est-ce que le patient respire ? S’il a mal, il
+respire avec les poumons. Si n’a pas mal, il respire avec le
+ventre.
+La peau
+
+POINTS À OBSERVER
+
+
+
+
+
+
+Le visage du patient :
+- Malaise
+2 : rebord costal
+- Douleur
+4. foie et pancréas
+- Respiration
+6 : rétro-péritoine
+La peau :
+7 : appendice
+- Cicatrices : demander s’il a été opéré
+9 : césarienne ou hystérectomie
+10 : vaisseaux
+- Vergetures
+- Veines dilatées : hypertension portal : obstruction portale : cirrhose
+- Lésions cutanées
+- Autre élément : bronzé ? péristaltisme ?
+L’ombilic :
+- Localisation : est-il au milieu ?
+Tomas Jara Schoch | Examen de l’abdomen
+
+47
+
+MED II : 2012- 2013
+
+
+
+
+
+[SKILLS]
+
+- Aspect : il y a-t-il une voussure ?
+- Couleur
+- Hernie ?
+Allure de l’abdomen :
+- Plat, arrondi
+- Protubérant
+- « Scaphoïde »
+- Voussure localisée
+- Symétrie
+Mouvements :
+- Respiratoires : comment est-ce qu’il respire ? S’il va mal, il respire avec les poumons. S’il est
+en bon état, il respire avec le ventre.
+- Péristaltiques
+- Pulsatiles
+
+AUSCULTATION
+
+
+
+
+
+
+Avant d’examiner, demander au patient d’indiquer la (les) région(s) douloureuse(s).
+Prévenir
+Ausculter (il faut utiliser la membrane du stéthoscope) : on pose dessus.
+L’auscultation doit se réaliser avant de palper sinon on risque de stimuler le péristaltisme.
+Il ne faut pas ausculter l’endroit où il a mal.
+Ecouter les 4 quadrants :
+On peut provoquer de petits bruits et ensuite écouter. : On appuie avec le stéthoscope puis, on
+écoute. On ausculte avant de palper.
+- Bruits :
+· Qualité (tonalité) : aigue (toang), iléus ; gargouillement (nourriture)
+· Quantité (fréquence) : absence de bruits (iléus), augmentée (hyperpéristaltisme)
+· Normalement : cliquetis, gargouilles, fréquence 5-34/min
+- Souffle vasculaire : aorte, artère iliaque : écouter l’aorte, au centre avec la cloche.
+
+PERCUSSION
+
+
+
+
+
+Prévenir :
+- Informer
+- Se désinfecter les mains et les réchauffer
+- Demander au patient lorsqu’il a mal.
+Percussion de chaque quadrant
+Délimiter le foie :
+- Commencer la percussion au niveau des poumons et descendre le long de la ligne médioclaviculaire, jusqu’à entendre le tympanisme de l’abdomen.
+- Il faut déterminer la taille du foie au niveau de la ligne médio-claviculaire.
+
+Tomas Jara Schoch | Examen de l’abdomen
+
+48
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+PALPATION
+Il ne faut jamais palper où le patient ressent de la douleur. Il faut terminer où le patient à mal.
+
+
+Prévenir
+- En cas de résistance :
+· Tenter de détendre le patient
+· Relâchement du muscle grand droit en expiration
+· Demander au patient de respirer par la bouche, la mâchoire tombante.
+
+
+
+Palpation superficielle
+- Application :
+· Placer superficiellement la main avec
+les 5 doigts sur les différents cadrants
+et observer la réaction du patient
+· Palper également la vessie
+-
+
+
+
+But :
+·
+·
+·
+
+Aide à lever la résistance musculaire
+Identifie les structures superficielles et d’éventuelles masses .
+Sert à identifier les points douloureux.
+
+Palpation profonde
+- Application :
+· Exploration des 4 quadrants avec la
+pulpe des doigts : superposer les
+deux mains pour mieux contrôler la
+force
+· Il faut terminer la palpation sur
+l’endroit où le patient à mal.
+L’examinateur doit chercher les
+détentes. Il appuie profondément,
+demande au patient s’il a mal. Puis
+l’examinateur relâche et demande au patient s’il a mal. Ce permet d’identifier une
+détente (le patient souffre davantage lorsque l’examinateur relâche). Celle-ci
+indique une irritation du péritoine, une péritonite. Cf. : Recherche d’une irritation
+péritonéale, un péritonisme
+Tomas Jara Schoch | Examen de l’abdomen
+
+49
+
+MED II : 2012- 2013
+
+-
+
+[SKILLS]
+
+Pour toute masse, préciser:
+· Localisation
+· Forme
+· Taille
+· Consistance
+· Sensibilité
+· Mobilité
+Identifier toutes les masses et noter leur emplacement, la taille, la forme, la consistance, la
+tendresse, pulsations, et leur déplacement lors la respiration ou avec la main d'instruction.
+Corréler ces résultats (palpables) avec la percussion.
+
+
+
+Recherche d’une irritation péritonéale, un péritonisme :
+- Palpation légère avec un doigt pour la localiser exactement : on cherche.
+- Rechercher une douleur à la décompression brusque (détente) :
+· Appuyer profondément et lâcher sans prévenir en regardant le visage du patient.
+· Refaire le même mouvement en demandant, cette fois-ci, au patient d’indiquer une
+éventuelle douleur (lorsque l’examinateur appuie ou lorsqu’il détend).
+· Demander au patient où il ressent la douleur (où l’examinateur appuie ou autre part ?).
+· Le péritoine est infecté ou irrité lorsque le patient ressent plus de douleur après
+décompression. De plus, lorsque la douleur est étendue (géographiquement)
+(détente croisée), la péritonite est plus grave.
+
+
+
+Examen de Mcburney et le signe du Psoas :
+- L’appendice se trouve au niveau du point de McBurney : localisation :
+· Crète iliaque antérosupérieure droite
+· On relie la crête à la l’ombilic
+· Au deux tiers (~milieu) de
+cette ligne se trouve le point
+de Mcburney
+- Si l’appendice est enflammé, le
+patient souffre lorsque l’examinateur
+appuie sur le point de McBurney
+-
+
+-
+
+Mais 30%, des appendices sont rétrocaecale. L’appendice est dans ce cas
+couché sur le psoas.
+Identifier une appendicite :
+· Demander au patient de
+fléchir la cuisse
+· L’examinateur appuie vers le
+bas et le patient doit
+maintenir la jambe fléchit (le
+psoas est sous tension).
+· Si le patient a une
+appendicite, il devrait avoir
+mal.
+
+Tomas Jara Schoch | Examen de l’abdomen
+
+50
+
+MED II : 2012- 2013
+
+
+[SKILLS]
+
+Toute palpation doit être décrite :
+
+LE FOIE
+
+
+
+
+
+
+Estimer :
+- Taille : grâce à la percussion
+- Forme
+- Consistance
+- Sensibilité
+(Percussion)
+Un épanchement pleural peut augmenter faussement l'estimation de la taille du foie. Le gaz dans le
+côlon peut produire tympanite dans le quadrant droit et ainsi diminuer faussement l'estimation de la
+taille du foie.
+Palpation :
+- On cherche le bord du foie :
+· L’examinateur palpe vers le
+rebord costal avec sa main
+droite
+· Autre possibilité : bimanuellement :
+Il pace sa main gauche
+derrière le patient,
+parallèlement aux côtes
+droites 11 et 12. Il rappelle
+au patient qu’il peut se
+détendre sur la main de
+l’examinateur si nécessaire.
+L’examinateur place sa
+main droite sur le foie.
+L’examinateur soulève avec
+la main gauche ce qui
+facilite la perception du foie
+par la main droite.
+L’examinateur appuie avec
+sa main droite doucement
+et vers le haut.
+Tomas Jara Schoch | Examen de l’abdomen
+
+51
+
+MED II : 2012- 2013
+
+[SKILLS]
+·
+
+·
+·
+
+-
+
+L’examinateur demande au patient de prendre une profonde respiration et il essaie de
+sentir le bord du foie (dès qu’il le sent, il est conseillé d’alléger la pression et de palper
+légèrement).
+S’il ne peut pas le sentir, I ‘examinateur doit déplacer sa main près du rebord costal et
+réessayez.
+Signe de Murphy : palpation de la vésicule biliaire : L’examinateur place ses mains au
+niveau du rebord costal droit. Le patient inspire (il pousse le foie vers le bas).
+Si la vésicule est enflammé, elle touche la main de l’examinateur et le patient
+ressent de la douleur. Permet de diagnostiquer une cholecystite.
+Il est important que le patient ait la tête relâchée (pas de contraction de
+l’abdomen) et les mains le long du corps.
+Normalement un foie sain n’est pas palpable.
+
+Technique de crochet :
+· Même technique mais
+les mains sont placés
+sur le rebord costal
+depuis les poumons.
+Elle est utile surtout
+lorsque le patient est
+obèse.
+· L’examinateur se tient à
+droite de la poitrine du
+patient. Il place ses
+deux mains, côte à côte,
+sur la droite de
+l'abdomen en dessous
+de la frontière de la
+matité du foie. Il appuie
+avec ses doigts vers le haut et vers le rebord costal.
+· Le patient de prendre une profonde respiration. Le bord du foie ci-dessous est palpable
+avec les bouts de doigts des deux mains.
+
+LA RATE
+
+
+Percussion :
+- Percuter la rate dans le sens des flèches :
+- L’examinateur percute la paroi thoracique antérieure inférieure gauche entre la résonance du
+poumon et au-dessus du rebord costal, à savoir l'espace de Traube.
+- Lorsque la taille de la rate est normale, cette percussion latérale reste généralement
+tympanique. Si le tympanisme est important, surtout latéralement, splénomégalie est peu
+probable. La grisaille pourrait indiquer une splénomégalie et les fluides ou solides dans
+l'estomac ou du côlon peuvent causer une matité.
+- Lorsque la rate grossit, elle se développe en avant, en bas et en dedans.
+
+Tomas Jara Schoch | Examen de l’abdomen
+
+52
+
+MED II : 2012- 2013
+
+
+
+[SKILLS]
+
+Palpation :
+- L’examinateur passe sa
+main gauche autour du
+patient pour soutenir et
+appuyer vers l'avant de la
+cage thoracique inférieur
+gauche et les tissus mous
+adjacents. Il place sa main
+droite au-dessous du
+rebord costal gauche et il
+appuie en direction.
+- Il est conseillé de
+commencer la palpation
+suffisamment bas pour
+pouvoir sentir la rate sans
+en être empêché par la
+cage thoracique.
+- L’examinateur demande
+au patient de prendre une
+profonde inspiration. Il
+essaie de sentir la pointe ou le bord de la rate comme avec le
+bout de ses doigts.
+- Demander au patient s’il ressent une douleur.
+- La rate n’est jamais palpable que lorsqu’elle est immense.
+
+LES REINS
+
+
+Percussion :
+- L’examinateur demande au patient de s’assoir.
+- Le poignet fermé, l’examinateur percute, avec la surface
+ulnaire du poing, les reins au niveau de l’angle costovertébrale.
+- L’examinateur doit utiliser assez de force pour provoquer
+bruit perceptible mais indolore chez une personne
+normale.
+- Un patient souffrant d’une pyélonéphrite (infection du
+bassinet) aura mal.
+Tomas Jara Schoch | Examen de l’abdomen
+
+53
+
+MED II : 2012- 2013
+
+
+[SKILLS]
+
+Palpation
+- Palpation du rein droit :
+· L’examinateur se déplace sur le côté
+droit du patient.
+· Il place sa main gauche derrière le
+patient, juste en dessous et
+e
+parallèlement à la 12 côte. Il place
+ses doigts pour atteindre l'angle
+costo-vertébrale.
+· Il place sa main droite doucement
+dans le quadrant supérieur droite,
+latéralement et parallèlement au
+muscle droit.
+· Il soulève sa main gauche en
+essayant de déplacer le rein
+antérieurement.
+· L’examinateur demande au patient
+d’inspirer profondément. Au sommet
+de l'inspiration, il appuie sa main
+droite fermement et profondément
+dans le quadrant supérieur droite, juste en dessous du rebord costal, et d'essayer de
+"capturer" le rein entre ses deux mains.
+· L’examinateur demande ensuite au patient d'expirer et puis d'arrêter de respirer
+brièvement. Il relâche doucement la pression de sa main droite, en sentant le rein
+glisser dans sa position expiratoire.
+· Si le rein est palpable, il faut décrire sa taille, contour, et toute tendresse.
+· Un rein normal droit peut être palpable, surtout dans les femmes minces bien
+détendues. Parfois, le foie peut recouvrir le rein droit et empêche la palpation.
+- Palpation du rein gauche :
+· L’examinateur se déplace sur le côté gauche du patient.
+e
+· Il place sa main droite derrière le patient, juste en dessous et parallèlement à la 12
+côte. Il place ses doigts pour atteindre l'angle costo-vertébrale.
+· Il place sa main droite doucement dans le quadrant supérieur gauche, latéralement et
+parallèlement au muscle droit.
+· Il soulève sa main droite en essayant de déplacer le rein antérieurement.
+· L’examinateur demande au patient d’inspirer profondément. Au sommet de
+l'inspiration, il appuie sa main gauche fermement et profondément dans le quadrant
+supérieur gauche, juste en dessous du rebord costal, et d'essayer de "capturer" le rein
+entre ses deux mains.
+· L’examinateur demande ensuite au patient d'expirer et puis d'arrêter de respirer
+brièvement. Il relâche doucement la pression de sa main gauche, en sentant le rein
+glisser dans sa position expiratoire.
+· Si le rein est palpable, il faut décrire sa
+taille, contour, et toute tendresse.
+
+L'AORTE
+
+
+L’examinateur appuie fermement sur la partie supérieure de
+l’abdomen, légèrement à gauche de la ligne médiane.
+Tomas Jara Schoch | Examen de l’abdomen
+
+54
+
+MED II : 2012- 2013
+
+[SKILLS]
+
+ORIFICES HERNIAIRES
+Une hernie se définit par un trou, par un sac herniaire et par un contenu.
+Il y a deux hernies fréquentes :
+
+
+
+
+
+
+Ombilicale :
+- Trou = nombril
+- Sac = péritoine
+- Contenu = graisse
+- L’examinateur place sa main sur le nombril.
+- Le patient contracte son ventre (c’est-à-dire de lever la tête).
+- L’hernie devient palpable.
+Épigastrique :
+- Ce n’est pas une vraie hernie car elle ne possède pas de sac. L’hernie épigastrique est un trou
+dans la ligne blanche où un peu de graisse sort.
+- L’examinateur place sa main au niveau épigastrique.
+- Le patient contracte son ventre (c’est-à-dire de lever la tête).
+- L’hernie devient palpable.
+Cicatricielle
+- Il faut chercher l’hernie chaque fois qu’il y a une cicatrice.
+- L’examinateur place sa main au niveau de la cicatrice.
+- Le patient contracte son ventre (c’est-à-dire de lever la tête).
+- L’hernie devient palpable.
+
+Tomas Jara Schoch | Examen de l’abdomen
+
+55
+
+

@@ -1,0 +1,247 @@
+Vertiges
+
+AVC URGENCE
+- Paralysie du visage
+- Paralysie du bras ou jambe
+- Trouble de la parole
+- Trouble de la vue
+- Vertiges violents
+- Maux de tête intense
+
+1. Rechercher des drapeaux rouges
+a. Céphalées inhabituelles
+i. Est-ce que vous avez aussi mal à la tête ?
+b. Début soudain
+i. Comment est-ce que c’est apparu ?
+c. Ne tient pas debout (périphérique arrive à tenir mais ont peur)
+i. Est-ce que vous arrivez à marcher ?
+d. Anomalie neuro
+i. Dysarthrie, Dysphagies, Diplopie, Dysphonie
+4D
+1. Est-ce que vous trouvez que vous avez de la peine à articuler ?
+2. Est-ce qu’on vous demande de répéter ce que vous dites parce
+qu’on a de la peine à comprendre quand vous parlez ?
+3. Est-ce que vous avez de la peine à avaler ?
+4. Diplopie binoculaire / parésie oculomotrice (jamais de diplopie
+si vertige périphérique) : Est-ce que vous voyez double ?
+ii. Nystagmus
+4H
+1. Vertical
+Hoquet
+2. Multidirectionnel
+Horner
+3. Dysconjugué (les deux yeux ne font pas la même chose)
+Hémisyndrome
+4. Horizonto (rotatoire) est en général périphérique (DVB)
+Hallux (Babinski)
+iii. Hémisyndrome spinothalamique (douleur, chaleur)
+iv. Hoquet
+1. Est-ce que vous avez eu le hoquet ?
+v. Syndrome de Horner (myosis, ptosis)
+vi. Skew deviation = divergence vertical statique et non paralytique de la
+position des yeux. Des fois sans diplopie, mise en évidence avec le
+alternate cover test (couvrir alternativement chaque œil et voir s’il
+existe une saccade de correction verticale)
+2. Caractériser le vertige
+a. Constant ? au mouvement, brusque ?
+b. Pièce qui tourne ? ou comme si tangue ?
+3. Autres symptômes ?
+a. Nausée – vomissement
+b. Autre
+4. ATCD personnels
+5. ATCD familiaux
+6. Habitudes
+a. Tabac
+b. Alcool
+c. Drogue
+
+Examen clinique
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Orientation
+o Comment vous-vous appelez ?
+o Où êtes-vous ?
+o Quelles dates sommes-nous ?
+Marche
+o Normal
+o Pointe / talon
+o Funambule
+Romberg (main tendue d’abord yeux ouverts ensuite avec fermés)
+Doigt-nez
+Marionnette
+Patho yeux ouverts : cervelet
+Rebond pathologique
+Patho yeux fermés
+Talon-genou-descendre le long du tibia
+seulement : vestibulaire
+Réflexe (!!! comparer des 2 côtés)
+o Tricipital (C7)
+o Bicipital (C5)
+o Stylo-radial (C6)
+o Rotulien (L3-L4)
+o Achiléen (S1)
+Hallpike
+Head impulse test
+Palpation muscle
+Nerfs crâniens
+Membre sup force contre résistance
+o Épreuve bras tendu (DDC)
+o Abduction latérale (DDC)
+o Rotation latérale épaule (DDC)
+o Flexion avant-bras
+o Extension bras
+o Flexion poignet
+o Extension poignet
+o Abduction des doigts (ouvrir doigt contre pression)
+o Flexion des doigts (doigt en crochet)
+o Extension des doigts (paume vers le bas)
+Membre inf force contre résistance
+o Épreuve jambes fléchies
+o Flexion hanche
+o Extension hanche (main sous pied)
+o Flexion genou
+o Extension genou
+o Flexion pied (tirer patient en bas de la table)
+o Extension pied
+o Flexion gros orteil
+o Extension gros orteil
+Babinski
+Sensibilité : tact global
+
+DD
+AVC (syndrome cérebelleux aigu) :
+- Vertiges intenses d’installation brusque
+- Impossibilité à tenir debout
+- Nausées, vomissement
+- Céphalées
+- Déficit neurologique (<50%)  NIHSS 0
+o Symptômes du TC
+ Diplopie
+ Dysarthrie
+ Dysphagie
+ Hoquet
+ Nystagmus
+Gayer- Wernicke :
+Se présente chez des pts éthylique et dénutri. On observe les symptômes suivants :
+- Confusion
+- Nausée
+- Oscillopsie
+- Trouble de l’équilibre
+- Dysarthrie
+- Troubles oculomoteurs
+o Ophtalmoplégie
+o Nystagmus spontané
+Triade
+o Ataxie oculaire
+- Confusion
+- Ataxie statique / cinétique
+
+Physiopathologie
+
+Chronologie
+Clinique
+
+Nystagmus
+
+Test diagnostic
+
+DVB
+Neuropathie du n. VII  déficit d’input
+unilatéral se manifestant sur le plan
+horizontal
+Constant
+Grands vertiges et nystagmus constants
+Syndrome vestibulaire harmonieux
+Nausées, vomissement
+Horizonto-rotatoire (battant du côté de
+l’oreille saine)
+Constant
+Manœuvre de Halmagyi = Head impulse
+test
+
+VPPB
+Cristal dans un canal semi-circulaire 
+suractivation paroxystique d’un canal
+Aux mouvements
+Vertiges et nystagmus brusques
+Nausée, vomissement
+Selon l’axe du canal touché
+
+Manœuvre de Hallpike (supine roll test pour
+le canal horizontal)
+
+Vertiges
+1.
+2.
+-
+
+AA
+lipothymie vs. vertiges
+symptômes auditifs (perte auditive, acouphène)
+durée
+contexte (position, suite à un trauma)
+symptômes associés (troubles visuels, nausées, infections des voies aériennes
+supérieures)
+douleurs cervicales, blessure
+médication actuelle
+antécédents d’ATS, FRCV
+Status
+signes vitaux
+examen neurologique complet
+Romberg (examen se fait sans les chaussures, pieds joints et bras tendus devant,
+position maintenue d’abord avec les yeux ouverts, puis fermés)
+nystagmus
+Tilt (avec table d’inclinaison) ou Hallpike test (patient assis, tête orientée à 45° vers
+l’oreille testée et allonger le patient avec nuque en extension et attendre 1 minute)
+Head impulse test ou Halmagyi
+démarche
+audition
+Weber et Rinné
+examen ORL
+examen CV
+
+3. DD
+- Maladie de Ménière (acouphènes, nausées, perte d’audition)
+o FSC, sérologie syphilis, IRM, Hallpike négatif
+- hypotension orthostatique sur déshydration
+o A debout-assis, FSC, électrolytes, leucocytes selles
+- hypotension orthostatique médicamenteuse
+o TA debout-assis, FSC, électrolytes, ECG, IRM
+- vertige positionnel bénin (vertiges sur certains mouvements, chambre tourne autour)
+o Hallpike positif, IRM, audiogramme
+- labyrinthite (perte d’audition, nausées, infections des voies aériennes supérieures)
+o audiogramme, IRM
+- neuronite vestibulaire (nausées, infections des voies aériennes supérieures, pas de
+perte d’audition)
+o FSC, électrolytes, IRM
+- neurinome (perte d’audition progressive unilatérale)
+4. Significations des tests
+- Romberg latéralisé (syndrome vestibulaire central ou périphérique), Romberg positif
+(atteinte proprioceptive, déviation lors de la fermeture des yeux ou aggravée par la
+fermeture des yeux), Romberg négatif (syndrome cérébelleux, instabilité non
+aggravée par la fermeture des yeux)
+
+-
+
+nystagmus périphérique quand unidirectionnel (vestibule, nerf vestibulaire VIII, noyau
+vestibulaire) et nystagmus central si multidirectionnel
+Hallpike : si nystagmus alors vertige paroxystique positionnel bénin (otolithes dans
+canaux semi-circulaires antérieurs)
+Halmagyi : si un œil doit faire une cascade correctrice alors déficit vestibulaire
+(saccade correctrice quand on tourne la tête du patient à droite = déficit canalaire
+droit)
+Weber (latéralisation du côté atteint si surdité de transmission, latéralisation du côté
+sain si surdité de perception)
+Rinné (surdité de transmission si CA<CO, surdité de perception si CA=CO)
+
+

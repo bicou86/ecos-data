@@ -1,0 +1,269 @@
+Algorithme BLS-AED-SRC 2015 d’après le CoSTR * de
+l‘ILCOR
+
+Contrôle rapide concernant la sécurité des
+environs (p.e. intoxications et électricité)
+
+Personne inconsciente
+Respiration manquante ou anormale
+
+Appeler de l‘aide
+Donner l’alarme, tél. 144
+Aller chercher ou demander l‘AED
+
+Faire attention à:
+ Compression thoracique 5 – 6 cm
+resp 1/3 du diamètre du thorax
+chez les enfants
+ Point de compression au milieu
+de la cage thoracique
+ Décharge complète
+ 30:2 continu, interruption
+minimale
+ Ventilations: mouvements du
+thorax visibles!
+
+30 compressions thoraciques (100 – 120 /min)
+suivi de 2 insufflations
+ou
+compressions thoraciques sans insufflations
+
+Arrivée de l‘AED
+Suivre les instructions de l‘AED
+
+Quellen:
+
+Travers AH, et al., 2015 *International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment
+Recommendations. Part 3: adult basic life support and automated external defibrillation: Circulation. 2015;132 (suppl 1):S51–S83.
+
+Maconochie IK, et al., 2015 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science with Treatment
+Recommendations Part 6: Pediatric basic life support and pediatric advanced life support,, Resuscitation 95 (2015) e147–e168
+
+BLS + AED adultes, enfants et nourrisson (à partir de 1 mois)
+Directives de réanimation 2010 Swiss Resuscitation Council (SRC)
+d’après les recommandations de l’ILCOR
+
+Personne inconsciente
+Enfant/nourrisson sans mouvement
+ou réaction
+
+Appeler de l’aide
+
+Respiration normale?
+
+Position latérale
+oui
+
+non
+Donner l’alarme, tél. 144
+Aller chercher ou demander l‘AED
+
+30 compressions thoraciques suivies
+de 2 insufflations
+ou
+au moins 100 compressions thoraciques à la
+minute sans insufflations jusqu’à l’arrivée de
+l’AED
+
+Arrivée de l‘AED
+
+défibrillable
+
+1 défibrillation
+
+Recommencer immédiatement
+le BLS
+30 : 2 pendant 2 minutes
+ou au moins
+100 compressions thoraciques
+à la min. sans insufflations
+
+www.resuscitation.ch
+© Swiss Resuscitation Council SRC
+
+Rythme?
+
+Non défibrillable
+
+Recommencer
+immédiatement le BLS, 30 :
+2 pendant 2 minutes
+ou au moins
+100 compressions
+thoraciques à la min. sans
+insufflations.
+Poursuivre le BLS jusqu’à
+l’arrivée des secouristes
+professionnels ou que le
+patient bouge
+
+*ILCOR
+(International Liaison Committee on Resuscitation)
+
+Réanimation 1
+
+Savoir identifier un Arrêt Cardio-Respiratoire (ACR)
+Procédure :
+Après avoir déterminé que le lieu est sécurisé, le sauveteur
+doit rapidement confirmer que la victime est bien inconsciente.
+Lui parler fort et distinctement : « Que s’est-il passé ?
+Comment ça va ? Ouvrez les yeux ! Serrez-moi la main !»
+2 critères suffisent à poser le diagnostic d’arrêt cardiorespiratoire :
+1.
+
+Absence de réaction à la stimulation verbale / tactile
+(non douloureuse)
+
+2.
+
+Respiration absente
+« gasping »)
+
+ou
+
+anormale
+
+(agonique
+
+–
+
+Commentaires :
+La stimulation douloureuse n’est plus recommandée .
+
+Savoir donner l’alarme
+Procédure :
+1. Si la victime ne répond pas, appeler ou faire appeler le
+144.
+2. Faire chercher un défibrillateur (AED : Automated
+External Defibrillator – DSA en français pour
+Défibrillateur Semi-Automatique) si cette ressource est
+disponible dans les environs immédiats (hôpitaux,
+certains lieux publics : gares, aéroport, …).
+3. Noter l’heure (heure de découverte de la victime, ou
+heure présumée du passage en ACR) !
+4. Placer le patient sur le dos, sur une surface dure et
+plane. Si la victime est sur le ventre, éviter les torsions
+en la retournant. La tête et le cou doivent rester dans le
+même axe et le même plan.
+Heure de début de réanimation : élément important dans
+l’appréciation ultérieure de la durée de réanimation.
+L’appel au 144
+doit être le plus
+précis possible :
+
+-
+
+Qui êtes-vous / quel est votre numéro d’appel (si
+nécessaire)
+Où êtes-vous ?
+Que se passe-t-il ?
+Combien de victimes y-a-t-il ?
+RCP en cours ?
+AED disponible ?
+Autres (accès particuliers, risques pour les intervenants,
+…)
+
+Réanimation 1
+
+C – Circulation
+Séquence de traitement « 2015 » : C-A-B
+ou Circulation-Airways-Breathing : en pratique, cela signifie
+que le traitement de l’arrêt cardio-respiratoire débute par les
+compressions thoraciques. Les compressions thoraciques
+commencent donc immédiatement après le diagnostic
+d'ACR et la transmission de l’alarme!
+Compressions thoraciques :
+1. S’agenouiller à côté du patient.
+2. Exposer complètement le thorax. Les compressions se
+font à peau nue.
+3. Déterminer la zone d’appui: à la moitié inférieure du
+sternum au milieu du thorax.
+4. Exercer une compression de 5-6 cm de profondeur, puis
+relâcher complètement.
+5. Les épaules du sauveteur sont à la verticale au-dessus
+de la zone d’appui. Les coudes sont tendus. Fréquence
+visée : 100-120 x/min.
+Fréquence des compressions : 100-120 /min
+Sans interruption !
+Commentaires
+Pas de prise de pouls lors de cette phase initiale !
+Des compressions thoraciques efficaces pendant la RCP
+produisent un flux de sang grâce à un mécanisme de pompe
+thoracique, c’est pourquoi il faut
+1. comprimer fortement et rapidement (100 à 120/min)
+2. relâcher complètement
+3. ne pas interrompre les compressions thoraciques
+Ne jamais interrompre les compressions thoraciques plus de
+10 secondes (sauf pour une intervention supplémentaire aux
+voies respiratoires ou pour défibriller).
+Si possible échanger le secouriste qui comprime le thorax
+toutes les 2 minutes.
+
+Note : bien que les directives de l’AHA soient, depuis 2017, réactualisées
+annuellement, la dernière révision de la séquence de réanimation remonte à 2015
+
+Réanimation 1
+
+A – Airways (voies aériennes)
+La libération des voies aériennes et la ventilation ne sont entreprises qu’après 30
+compressions thoraciques au moins. En cas de difficultés de libération des voies
+aériennes ou de ventilation, les compressions thoraciques doivent absolument être
+poursuivies !
+Procédure :
+1. Libérer les voies respiratoires : mettre la tête en légère extension (head
+tilt) et soulever le menton.
+Commentaires :
+Les voies respiratoires peuvent être obstruées par un corps étranger à rechercher
+par une inspection visuelle de la bouche. L’exploration digitale n’est pas
+recommandée. S’il y a des prothèses dentaires non fixées ou un corps étranger
+facilement accessible, il faut les retirer.
+Le plus souvent, le tonus musculaire diminué entraîne une obstruction des voies
+respiratoires par la langue et l’épiglotte.
+
+B – Breathing (respiration)
+Procédure :
+1. Appliquer le masque facial
+2. Procéder à 2 insufflations de manière à faire se soulever et s’abaisser le
+thorax
+3. Rapport compressions – ventilations: 30:2
+Commentaires :
+Chaque insufflation doit durer seulement une seconde et doit provoquer une
+élévation visible de la poitrine.
+Rapport compression-ventilation 30:2
+
+Réanimation 1
+
+POUR EN SAVOIR PLUS :
+REFERENCE POUR INFORMATIONS COMPLEMENTAIRES
+Swiss Resuscitation Council (SRC)
+– http://www.resuscitation.ch/
+Guidelines de réanimation du European Resuscitation Council (ERC)
+– https://cprguidelines.eu/
+Guidelines de réanimation de l’American Heart Association (AHA)
+– https://eccguidelines.heart.org/
+International Liaison Committee on Resuscitation (ILCOR)
+– http://www.ilcor.org/
+
+REMERCIEMENTS
+Aux Docteurs Robert Larribau, Marc Niquille, Simon Regard et Mélanie Suppan, ainsi qu’au
+Professeur Olivier Rutschmann, pour leur aide inestimable à la création des supports de
+formation
+
+Unité Excrétion et Homéostasie
+
+Droege et al. Scand J Trauma Resusc Emerg Med
+
+(2023) 31:81
+
+Page 5 of 11
+
+Fig. 2 Checklist based on ABCDE mnemonic. A: Airway, B: Breathing, C: Circulation, D: Disability
+
+each scenario was continued for 10 min according
+to protocol. During this time, the patient remained
+unconscious.
+
+To assess time management and eﬀective use of procedure time, the number of processed items per minute of
+observation was measured (items/min).
+
+

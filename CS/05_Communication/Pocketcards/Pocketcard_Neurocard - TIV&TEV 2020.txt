@@ -1,0 +1,198 @@
+Service de Neurologie
+Centre Cérébrovasculaire
+
+Version 10/2020
+
+Thrombolyse et traitement endovasculaire pour AVC ischémique
+Téléconf. TIV externe: 021-314-9710
+AVC intra-hospitalier ID-NLG : 64482
+Téléconf. TEV externe: 021-314-8704
+MC-URG: 67900
+RAD-URG: 61509
+Filière TEV par NLG-CHUV: 49880 NRI garde: 44531 ALG garde: 65114 IRO: 65300
+Indications générales à une revascularisation aiguë (TIV et/ou TEV)
+AVC ischémique aigu probable selon neurologue, même si imagerie négative.
+Déficit neurologique au moment du traitement: NIHSS 4, ou NIHSS <4 et déficit
+handicapant, ou déficit avec NIHSS<4 et occl. très prox. (ACM1/siphon/basilaire)*
+Rankin en général ≤ 3. Bonne qualité de vie et espérance de vie > 3 mois.
+ACM, ou ACA/ACP/cervelet isolée: lésion DWI ou CT-natif <2/3 du territoire ischém.
+Si imagerie incomplète, ne pas ajouter ex. radio si infos suffisantes pour décision.
+<16 ans: contacter immédiatement NPED (62532 heures ouvrables) et cadre MCV.
+Indications à thrombolyse intraveineuse (TIV) ≤ 4.5h
+Cf. en haut, et traitable ≤ 4.5h depuis dernière preuve de bonne santé (DPBS)
+Indications à ttt endovasculaire (TEV) ≤ 8h, avec ou sans TIV <4.5h auparavant
+Critères cliniques : cf. en haut, et traitable ≤8h (ponction fémorale) depuis DPBS
+Critères rad. : circ. antérieure:
+- Core (DWI, CT natif, ou CTP: mesuré ou estimé) <125ml ou CT-ASPECTS ≥5
+- et occlusion aiguë accessible de ≥1 artères suivantes : carotide*, ACM-1 ou -2,
+ACA-1 ou -2 (si CTA/MRA impossible: TEV si artère hyperdense, ou NIHSS ≥7)
+Circ. postérieure: Ø core transverse étendu du tronc (=DWI++, NIHSS >15: ad IRM)
+- et occlusion de ≥1 artères suivantes : vertébrale*, basilaire, ACP-1 ou -2
+* Occlusion aiguë extra-crânienne isolée, ou sub-occlusion serrée intra- ou extracrânienne: discuter TEV avec NRI si déficit handicapant et mismatch++
+Indications à TEV direct pour début inconnu ou tardif 8h-24h basé sur mismatch
+Critères cliniques: cf. en haut. Sites d’occlusion artérielle : cf. critères TEV ≤8h.
+AVC supratentoriel
+Soit A) Mismatch core-clinique : NIHSS ≥10 et core <50ml (CT-ASPECTS ≥7)
+- ou NIHSS <10 et core <30ml (CT-ASPECTS ≥8)
+Soit B) Mismatch core-penumbra (au CT ou IRM, indépendamment du NIHSS)
+- Core <70 ml et mismatch ratio (C&P)/C >1.8 (visuellement : pénombre ≥ core)
+AVC infratentoriel : Ø core transverse étendu du tronc (=DWI++, NIHSS >15: ad IRM)
+Indications TIV pure pour début inconnu ou tardif 4.5h - 24h basé sur mismatch
+Priorité: si critères TEV précoces ou tardifs remplis  TEV direct (sans TIV).
+Soit A) Début inconnu/au réveil, et <4.5h depuis la découverte du déficit :
+- Mismatch DWI+ / FLAIR pas clairement + (supra- ou infratentoriel). DWI<70ml
+- Circulation postérieure : Ø core transverse étendu du tronc
+Soit B) Début connu et 4.5 - 9h depuis le début, ou
+début inconnu et 4.5 - 24h depuis DPBS et <9h depuis découverte du déficit :
+- Core <70 ml (ou CT-ASPECTS ≥7), et
+- Mismatch supratent. avec ratio (C&P) / C >1.8 (visuellement : pénombre ≥ core)
+Critères TIV ischémie médullaire < 4.5 heures avec consentement
+Cf. TIV ; déficit handicapant. IRM médullaire; si impossible CT. Consentement.
+
+Critères TIV ischémie rétinienne < 4.5 heures avec consentement
+Ophtalmologie CHUV: 65739. Hôpital Ophtalmique URG: 021-626-8111
+Ophta évalue pat aux URG CHUV. NLG prédilate pupilles (tropicamide, neosynéph).
+Ischémie rétinienne due à une OACR ou OBCR (blanchiment, avec ou sans caillot
+au FO) selon ophtalm., causant une atteinte fonct. significative sur ≥ 1 quadrant.
+Traitable ≤ 4.5h. Rankin ≤ 3. Consentement documenté.
+Contre-indications : cf. TIV, et pas de suspicion clinique de NOIA ni de Horton.
+Documentation du consentement par patient ou représentant légal (sinon
+superviseur): « Consentement obtenu de la personne X devant témoin Y pour
+intervention Z après explication des avantages et risques »
+
+Critères d’exclusion TIV ( considérer TEV mécanique si critères TEV remplis)
+Amélioration du déficit neurol. en-dessous des critères cliniques de recanalisation
+AVC subaigu clinique (<6 semaines, thrombolysé ou non) avec lésion total >10ml
+AVC subaigu radiologique (silencieux) avec lésion totale >10ml
+S/P hémorragie sous-durale (sympt. ou asymptomat.) sans traumatisme
+S/P hém. clinique sur angiop. amyloïde. S/P HSA incompl. traitée/source inconnue
+Intervention intra-crânienne ou spinale <14 jours. TCC important < 6 sem.
+Thrombocytes <50’000/mm3 (pas attendre labo sauf si diathèse hémorragique)
+INR >1.7 et/ou aPTT >40 sec. si connus (spontané ou avec anticoagulant)
+Sous anticoagulants (indiquer au labo substance et dernière prise) : si taux pas
+immédiatement disponible ou si taux thérapeutiques  viser TEV direct
+- Pour tous les anticoagulants : INR >1.7 et/ou aPTT >40 sec.
+- Héparine thérapeutique ou HBPM thérapeutique: anti-Xa > 0.2 unités/ml
+- Eliquis®, Xarelto®, ou Lixiana®: anti-Xa calibré > 100 ng/ml
+- Pradaxa®: TT>80sec. ou anti-IIa >100ng/ml (=Hemoclot®=dTT avant 15h, durée
+1h)  possibilité de TIV 10’ après Praxbind® 5 gm IV (sans recontrôler crase)
+Ticagrelor ou prasugrel en combinaison avec autres antithromb. (monothérapie: OK)
+Endocardite, péricardite, ou vasculite SNC (suspicion clinique ou avérée)
+Anévrysme aortique symptomatique récemment et non complètement traité
+Neuroimagerie: toute hémorragie intracrânienne aiguë ou subaiguë
+Anévrysme sacc. intracrânien géant (>25mm); MAV/fistule/cavernome important;
+plusieurs cavernomes ( avis NRI) ; tumeur intracrânienne maligne active
+(glioblastome, métastase)
+Anévrysme disséquant intracrân. sympt. (dissection intracrân. sans anévrysme: OK)
+Indices que le patient compétent refuse le ttt après information  documenter
+Critères d’exclusion relatifs pour TIV
+ Discuter avec superviseurs et/ou spécialistes, considérer TEV direct
+S/P hémorragie intracérébrale hypertensive (OK si TA bien équilibrée)
+Anévrysme 10-25 mm; MAV/fistule/cavernome asympt. de petite taille (discuter NRI)
+Nombre important de microbleeds asymptomatiques (tel que >20), et/ou sidérose
+méningée asymptomatique chronique extensive au SWI/T2*, si connus
+TAM >135 qui résiste au ttt antihypertenseur IV (exclure globe urinaire)
+Thrombocytes 50-100’000/mm3 (pas attendre labo sauf si diathèse hémorragique)
+Intervention chir./ophtal. majeure ou hémorragie interne ou biopsie d’un organe ou
+trauma majeur <14j (TEV direct si possible; sinon discuter TIV avec spécialiste)
+Grossesse: TEV direct si possible. Si seulement critères TIV: OK si risque
+d’handicap maternel important  risque d’hémorragie utérine et décès fœtus
+~30%  Si possible consentement. Si TIV, informer obstétriciens.
+
+Thrombolyser malgré ....
+Crise d’épilepsie ou glycémie <2.7 ou >22 mmol/l, si AVC prouvé à l’imagerie.
+S/P HSA si source connue et bien traitée. Anévrysme asympt. <10mm.
+S/P HIC/HSA/sous-/épidurale clairement traumatique; dolichoectasie basilaire
+Hygrome sans antécédents cliniques. Infarctus du myocarde aigu/subaigu/ancien.
+PL/ponction artérielle/chirurgie mineure récentes (site traitable). Menstruation active.
+Sous AAS&clopido ; ticagrelor ou prasugrel en monothérapie ; HBPM dose prophyl.
+AVC sur coronaro (Ø TIV si aPTT >40 ou bithérapie incluant ticagrelor ou prasugrel)
+AIT(s) récent(s). AVCs subaigus radiologiques (avec ou sans clinique) total < 10ml.
+Néoplasie intracrânienne bénigne. Néoplasie systémique sans hémorragie active.
+Procédure TIV (cible : porte-à-aiguille < 30 min.)
+1) Venflon vert (18G) au pli du coude. NLG & URG calculent dose rtPA.
+2) Si CI à IRM, informer RAD 61509  CT. Si incertitude pace-maker  RadioThx
+3) Si anticoagulé/diathèse: crase & plaquettes (44206). Si AVK: Coaguchek®
+4) Ordre verbal du médecin URG à ID-URG pour préparer bolus rtPA=Actilyse® 
+quittance ID: 10% de la dose totale (dose totale : 0.9 mg/kg IV, max. 90 mg)
+5) Garder TAM <135. Si besoin bolus/perfusion labetalol, ou nicardipine ou dilzem
+6) DWI/T2*/FLAIR ou CT natif : si pas de contre-indication selon NLG & RAD: NLG
+& URG signent ordre rtPA. Ordre verbal par médecin URG à ID-URG pour bolus
+et perfusion rtPA. Après quittance verbale, ID donne bolus rtPA sur table.
+7) Compléter IRM/CT & perfusion, puis ID initie perfusion du reste du rtPA sur 60’
+8) Si occlusion accessible  TEV selon point 8a en bas
+9) Transfert aux SC-NLGH par NLG et ID-URG (ou en salle d’intervention si TEV).
+Si Ø place/joker aux SC-NLGH: attendre max 30’ aux URG avec pat, sinon SMIA
+10) CT (dual energy si TEV) ou IRM à 12h, avec angio si occlusion/sténose initiale
+Procédure TEV (cible : porte-à-ponction < 60 min.)
+8a) TEV depuis les URG: si critères radiologiques, NLG confirme indication & salle
+avec NRI au 48704. Si délai pour initier TEV, préavertir ALG 65114 (salle, délai).
+- NLG annonce TEV au 49880: «Nom/IPP/salle d’intervention 110 ou 150/délai/
+diagnostic/intervention» #  écouter message  «1» pour accepter
+- TEV direct, et patient pas anticoagulé (INR <2.0, ou doses/valeurs DOAC
+infrathérap. selon critères TIV): URG donne Aspegic 250mg IV
+8b) TEV transféré d’une autre Unité CV : noter heure d’arrivée au CHUV
+- NLG externe avertit téléconférence TEV au 021-314-8704 (NLG, NRI, TRM)
+- 1ère annonce par NLG au 49880 ASAP: «Nom/début/diagnotic/heure d’arrivée»
+- UCV faxe l’identité au 021-314-5736 ou gap.urgences@chuv.ch, envoie dossier
+médical au même fax ou stroke@chuv.ch (login : stroke, mdp : avc_1111)
+- Admissions (45733) envoient étiquettes & bracelets au PNE 357 (radiologie 07)
+- Hélico: NLG informe Securitas au 49117, accueil à l’ascenseur hélico PMU-07
+- Organiser IRM si occlusion basilaire et NIHSS>15 et influence sur décision TEV
+( informer RAD-URG 61509  Transfert au déchoc  PeC par équipe SMIA)
+- 2ième annonce 49880 : «Nom/salle 110 ou 150/délai/intervention/heure d’arrivée»
+- TEV direct et Ø anticoagulé (INR<2.0): ALG donne Aspegic 250mg IV pre-TEV
+9) Sauf si indiqué par ALG/NRI: transfert en salle d’angio-07.110 par NLG&ID-URG
+- Si <30’ attente: rester aux URG (pat externe: attendre au BH07 sous resp. ALG)
+- Si ≥30’: attente aux SC-NLGH (ou aux SMIA si intubé).
+- TEV avorté: informer 49880, transfert au SC-NLG (intubé: salle réveil ou SMIA)
+10) Prise en charge par ALG. AG sauf décision ALG/NRI  TEV. TA: page 4
+
+11) NLG informe CDC-SMIA si reste intubé 65019 ; sinon informe SC-NLGH 41210
+12) SV aller-retour après TEV. Extub. dès possible  salle de réveil BOP (ALG)
+13) Réévaluation par NLG. Si patient OK, NLG demande le transfert à ID-SC-NLGH
+AVC intra-hospitalier aigu au BH-CHUV (hors BH : si aigu, appel du 144 en ville)
+1) Appel à garde NLG 61115 qui confirme sur place les critères cliniques TIV/TEV
+2) Médecin du patient (MédPat) organise imagerie RAD-05 61509 selon rec. NLG
+3) MédPat et ID patient le transportent en RAD-05 et gardent responsabilité
+4) NLG appelle ID-NLG au 64482 qui se rend en RAD-05 avec chariot thrombolyse
+5) ID-NLG prépare bolus rtPA après quittance de l’ordre verbal de NLG & MédPat
+6) Imagerie. Si indication TIV selon NLG : NLG&MedPat signent ordre rtPA, et NLG
+donne ordre verbal pour bolus et perfusion rtPA. Après quittance et signature, IDNLG donne bolus rtPA sur table. Si hémorragie  NLG lance NCH (filière HIC)
+7) Si indication TEV : NLG confirme avec NRI au 48704, puis annonce TEV à 49880
+8) Transfert par MédPat & IDPat & NLG & ID-NLG: TIV  SC-NLG. TEV  salle
+angio. Ø TIV/TEV mais AVC=problème principal SC-NLG. Autresservice initial
+Tension artérielle lors des TIV et TEV
+TIV : Schéma 135 : si TAM >135  traiter et viser TAM 115-135
+TEV: Schéma 135 : avant TEV, et après TEV sans recanalisation (TICI ≤2a)
+Schéma 110 : après recanal TICI ≥2b : si TAM >110  viser TAM 90-110
+Schéma 95 : après recanalisation d’occlusion athéromeuse carotide, si
+insuffisance ♥ décompensée, ou si SCA : si TAM >95  viser TAM 80-95
+Choix du ttt IV: Labetolol bolus 20mg aux 5 min, puis perfusion selon réponse
+- ou Nicardipine perfusion 5mg/h, si besoin après 15’  7.5mg/h  10mg/h
+Antithrombotiques après TIV et TEV
+Après TIV ou bridging: Pas d’antiplaq. Imagerie à 12h  si pas d’hémorragie
+symptomatique ni PH-2  clopidogrel 300mg (év. double antiaggr.)
+TEV direct : Aspegic 250mg IV aux URG. HBPM prophylact. si *Score de Padoue
+≥4 et/ou parésie sévère et/ou alité >50%, et pas d’hémorragie sympt. ni PH-2.
+Imagerie à 12-24h sans hémorragie sympt. ni PH-2 év. double antiaggrégation
+TEV avec stenting permanent : Sans TIV : Aspégic 250mg IV déjà reçu aux URG.
+Avec TIV: Aspégic 250mg IV en salle par NRI.
+Si pas anticoagulé  cangrelor bolus & perfusion 4h & ticagrelor 180mg en salle.
+Imagerie à 12h sans hémorragie sympt. ni PH-2  aspirine & ticagrelor 2x90mg/j
+Thromboprophylaxie: compressions pneumatiques pour tous dès TIV/TEV
+Après imagerie à 12h : HBPM si *
+Si hémorragie sympt. ou PH-2: HBPM ½ dose 24h plus tarddose normale à 48h
+Hémorragie intracrânienne symptomatique après TIV/TEV
+1) Aggravation NIHSS ≥ 2: arrêter rtPA, considérer tél. au CDC SMIA 65019
+2) Doser crase, plaquettes, fibrinogène. CT/CTA après annonce au RAD 61509
+3) Si hémorragie sympt.: 2U PFC; 1 concentré plaquettaire; acide tranexamique 1g
+IVD sur 10’  perf. 1g/8h ; maintenir fibrinogène >1 g/L et plaquettes >150K
+4) Consult NCH 68817 et HEM 62117. Craniotomie OK si crase & fibrinogène OK
+5) Compressions pneumatiques. HBPM prophyl ½ dose à 24h, dose normale à 48h
+Œdème lingual après rtPA  Evaluation immédiate par CDC SMIA (65019)
+1) 100% O2, bronchodilatateurs si spasmes. Icatibant (Firazyr®) 30mg/3ml s.c.
+2) Si nécessaire : adrénaline 0.5 mg IM (ou 0.1mg IV), Tavegyl® 2 mg i.v., et
+Solumedrol® 125 mg i.v., intubation/cricothyroïdotomie/trachéotomie
+
+

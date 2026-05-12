@@ -1,0 +1,1850 @@
+Anamnèse et examen neurologique
+
+!
+
+Anamnèse........................................................................................1
+
+1) Motif de consultation ...........................................................................................................................1
+2) Antécédents médicaux/chirurgicaux/familiaux et TTT ........................................................................4
+3) Anamnèse psycho-sociale ....................................................................................................................4
+
+Examen neurologique .........................................................................5
+
+Marche ......................................................................................................................................................5
+Système moteur ........................................................................................................................................6
+Système sensitif ......................................................................................................................................10
+Nerfs crâniens .........................................................................................................................................12
+Evaluation de l’état de conscience ........................................................................................................26
+Techniques spéciales ..............................................................................................................................27
+
+Et après l’examen clinique… ...............................................................28
+Les grands syndromes neurologiques: ..................................................................................................28
+Que faire en cas de suspicion d'AVC/d'AIT ...........................................................................................29
+Séquence à tenir dans toutes les céphalées .............................................................................................30
+
+Anamnèse
+
+!
+
+1) Motif de consultation
+
+!
+
+Il est important de noter qu’il faudrait dans l’idéal caractériser chaque symptôme suivant le
+système en 7 points !
+
+!
+1.1) Caractérisation de la plainte
+!
+1.2) Mode d’apparition :
+!
+!
+
+•
+•
+•
+
+Aigu (secondes à minutes) : vasculaire/traumatique/activité électrique
+Subaigu (heures à jours) : infection (méningite)/inflammation (SEP)
+Chronique (mois à années) : néoplasie, dégénérative, infectieux/inflammatoire
+
+1.3) Questions par symptômes principaux à poser systématiquement (et ne poser les séries de
+questions qu’en cas de trouble) :
+
+!
+
+!
+
+1. Troubles visuels => « Comment voyez-vous ? »
+o Début
+o Vision de loin/de près/des couleurs (= dans le test clinique)
+o Tout le champ ou une partie (= dans le test clinique)
+o Atteinte centrale/périphérique (= vision en tunnel)
+o Un oeil ou les deux
+o Douleur/Larmoiement/Rougeur
+o Diplopie
+2. Troubles auditifs => « Comment entendez-vous ? »
+Page 1 sur 31
+
+o
+o
+o
+o
+
+!
+
+Début
+Hypoacousie/surdité
+Acouphène (signe d’atteinte plutôt périphérique)
+Vertiges (souvent accompagnés de nystagmus si périphériques, alors qu’un
+nystagmus central sera lui rarement accompagné de vertiges)
+o Nystagmus (cf. au-dessus)
+o Douleurs
+3. Céphalées
+o Localisation :
+▪ Unilatéral : cluster headache ou migraine surtout
+▪ Bilatéral : céphalée de tension ou névralgies du V (= sur un territoire du
+nerf V)
+o Irradiation : dans la nuque et omoplate pour les HSA et méningites (car les
+deux donnent une raideur de nuque)
+o Caractère : constriction, pesante (céphalée de tension), pulsatile (migraine)
+o Début et évolution de la douleur : en coup de tonnerre (= typiquement HSA et
+méningite = plus souvent des causes secondaires), rapidement progressif (=
+typiquement AVC ischémique ou hémorragique, hématome sous-dural,
+thrombose sino-veineuse, maladie de Horton, encéphalopathie hypertensive,
+migraines, cluster headache, etc.), lentement progressif (= tumeur, abcès ou
+autre processus expansif). Si la céphalée est présente depuis longtemps, il n’y a
+pas besoin de trop s’alarmer !
+o Chronologie : inhabituelle, permanente, intermittente, récurrente (signe
+capital à rechercher, car des céphalées récurrentes sont plutôt un bon signe et
+pointent vers des céphalées primaires !), nombre d’épisodes, etc.
+o Facteur soulageant/aggravant : activité physique, sons, lumière
+o Symptômes d’accompagnements : photo- et phono-phobie (fermer les rideaux
+si le patient est photophobe est sympa pour lui !), aura visuelle (dans 1/3 des
+migraines), nausées et vomissements (migraines), fièvre (méningite et
+encéphalite), symptômes B (= fatigue, sueurs nocturnes, perte de poids =>
+plutôt tumoral), signes ipsilatéraux (= Horner, sudation, etc. => cluster
+headache)
+• Tableaux typiques des différentes céphalées primaires :
+o Migraines : maladie se déroulant en 3 (ou 5) phases, avec (1) tout d’abord la
+phase de prodromes, durant plusieurs heures à plusieurs jours avant la crise,
+surtout composée de symptômes comportementaux (= dépression, irritabilité,
+euphorie, boulimie, etc.), puis (2) la phase de migraine en soi (décrite plus
+bas), avec ou sans aura (presque toujours visuelle, parfois suivie d’aura
+sensitive ou aphasique) et finalement (3) la phase de résolution (= fatigue,
+trouble de l’humeur, sensibilité du cuir chevelu, etc.).
+La migraine dure entre 4 et 72h et se caractérise par une douleur unilatérale,
+pulsatile, d’intensité modérée à sévère et est aggravée par les activités
+physiques de routine (ex. : sport). Elle doit être accompagnée au moins soit par
+des nausées et/ou vomissements, soit par une phono- et photo-phobie. On
+retrouve une aura (encore une fois le plus souvent visuelle) dans 1/3
+
+Page 2 sur 31
+
+!
+
+!
+
+o Céphalées de tension : durant de 30 minutes à 7 jours, elles se caractérisent par
+une douleur bilatérale, non-pulsatile (plutôt pression ou serrement = comme
+une barre au milieu du front), d’intensité légère à modérée et n’est pas
+aggravée par les activités physiques quotidiennes ; en bref, c’est l’exact opposé
+de la migraine. Elle ne doit pas être accompagnée de nausées (parfois dans les
+formes épisodiques) et de vomissements, mais elle peut être accompagnée de
+phono- ou photo-phobie. Ce sont de très loin les céphalées les plus fréquentes
+de toutes !
+o Cluster headache/Algie Vasculaire de la Face : durant entre 15 et 180 minutes,
+elle se caractérise par des douleurs atroces (souvent appelées les céphalées du
+suicide !) dans la région orbitaire (= aussi supra-orbitaire ou temporale) d’un
+seul côté et une incapacité de pouvoir tenir en place (vs aller se cacher dans un
+trou avec une migraine !). De plus, on va très souvent retrouver des
+manifestations ipsilatérales à la douleur : injection conjonctivale, larmoiement,
+syndrome de Horner, obstruction nasale, rhinorrhée, oedème palpébral,
+sudation, rougeur, sentiment de plénitude dans les oreilles, etc.
+On notera que ces céphalées sont typiquement nocturnes à horaire fixe, le plus
+souvent se manifestant de manière épisodique, c’est-à-dire par des « grappes »,
+des blocs de quelques jours durant lesquelles elles vont se manifester entre 1
+jour sur 2 et 8 fois par jour !
+4. Convulsions (épilepsie)1 :
+o Rechercher des facteurs favorisants (ex. : alcoolisme, manque de sommeil,
+etc.) et dans l’histoire personnelle (= première fois ?)
+o Début : prodromes (aura cognitive (déjà-vu) ou sensitive (surtout visuelle)) ;
+passage d’une position assis/couché avant à debout (orienterait vers une
+syncope de type malaise vagal par une chute de pression lors du changement
+de position)
+o Durant la crise : signes et symptômes psychiques (déjà-vu), moteurs (clonies,
+signe du 4, position de la tête, etc.) et autonomes (tachycardie, nausée, etc.),
+yeux ouverts, morsure de langue (typiquement latérale et dans les crises
+généralisées), pertes urinaires, cyanose, etc. Il est aussi important de rechercher
+si les symptômes ont varié durant la crise (indiquant la progression et/ou le lieu
+des décharges), si l’état de conscience s’est modifié (trouble de l’état de
+conscience dans les épilepsies focales vs absence dans les crises globales (mais
+pas toujours !))
+o Après la crise : durée de la crise (normalement entre 1 et 3 minutes) et
+récupération (= présence d’une phase post-critique ?)
+5. Trouble de la sensibilité (= atteinte du SNC/SNP) :
+o Hypoesthésie/anesthésie : diminution/abolition de la sensation (ex. : sensation
+d’avoir des chaussettes aux pieds)
+
+1 Il est important de les distinguer des vertiges et syncopes (en cas de perte de contact),
+
+mais aussi d’interroger une personne proche pour distinguer les éléments importants
+
+Page 3 sur 31
+
+!
+
+!
+
+!
+
+!
+
+o Paresthésie : sensation anormale sans stimulus particulier telles que les
+fourmillements, picotements, etc.
+o Dysesthésie: sensation anormale suite à un stimulus, qui peut persister après le
+stimulus
+6. Faiblesse motrice :
+o Soudaine (AVC ischémique) vs progressive (AVC hémorragique, SEP, etc.)
+o Différencier une atteinte à prédominance proximale ou distale : est-il plus
+difficile de gravir les marches hautes et d’attraper des objets haut-placés (=
+proximal = myopathie) ou d’ouvrir une boîte et d’utiliser des ciseaux (= distal
+= neuropathie) ? Est-ce que c’est aussi pire en fin de journée (= myasthénie) ?
+7. Troubles de l’équilibre, étourdissement et vertiges = « Avez-vous l’impression que
+tout tourne autour de vous ? »
+o Distinguer les atteintes centrales (signes neurologiques associées, atteinte
+sensori-motrice, des nerfs crâniens, du cervelet, nystagmus changeant, etc.) et
+périphériques (hypoacousie, acouphènes, vertige violent, nystagmus horizontorotatoire, etc.)
+8. Tremblements
+o De repos : Parkinson
+o D’action : si positionnel (= lors du maintien d’une position), on a plutôt un
+tremblement essentiel ; si cinétique, c’est plutôt lors des mouvements
+volontaires ; si intentionnel, c’est plutôt dans les lésions cérébelleuses, en fin
+de mouvement
+9. Douleurs (brûlures, électriques,…)
+
+2) Antécédents médicaux/chirurgicaux/familiaux et TTT
+
+!
+
+1. Les maladies et leurs traitements : épilepsie, maladie psychiatrique, cardiaque,
+maladie/infection récente (suspicion de Guillan-Barré2)
+2. Antécédents chirurgicaux : cancer
+3. Antécédents familiaux : démence, épilepsie, autres maladies neurologiques (migraine,
+etc.)
+
+3) Anamnèse psycho-sociale
+
+!
+!
+
+•
+•
+•
+
+Stress, tension psychique, trouble du sommeil => souvent la cause de céphalées !
+Tabagisme
+Consommation d’OH, de drogues, etc. => peuvent donner des céphalées, AVC,
+épilepsies, etc.
+
+2 Rappel : essentiellement sensitif et moteur
+
+Page 4 sur 31
+
+Examen neurologique
+
+!
+
+Généralités : Toujours comparer le côté atteint au côté sain. Pour l’examen des nerfs crâniens
+et du membre supérieur, la position assise est recommandée. La position couché est plus
+appropriée pour le membre inférieur. Le status neurologique est long (voire interminable !), il
+faut donc toujours l’orienter vers la plainte du patient. De plus, il n’y a pas de consensus par
+rapport à l’ordre des gestes à effectuer !
+
+!
+Marche
+
+!
+
+Conseil : Observer la marche dès que le patient entre, cela permet de l’évaluer sans qu’il s’en
+rende compte et la modifie (comme la respiration). Utile pour observer les troubles moteurs
+ou de l’équilibre. Il faut l’observer sous différents angles, sans ses dispositifs d’aide si
+possible (ex. : déambulateur) et il faut donc se tenir prêt à l’aider
+
+!
+
+1. Demander au patient d’enlever ses chaussettes, de se lever et de se tenir 30 secondes
+debout. Observer la position au repos
+2. On demande ensuite au patient de marcher jusqu’au bout de la pièce, de se retourner et
+revenir. Il pourrait avoir de la peine en cas d’AVC, d’ataxie cérébelleuse, de Parkinson
+et troubles proprioceptifs/vestibulaires. Éléments à observer pendant sa marche :
+o Le balancement des bras (diminué dans le Parkinson, écarté dans les atteintes
+cérébelleuses)
+o L’efficacité du demi-tour (bonne = en 2 pas, mauvaise dans Parkinson (= plein
+de petits pas et tournent en bloc))
+o Le polygone de sustentation, c’est la largeur du pas (agrandi si ataxie
+cérébelleuse ou autre)
+o La symétrie (patient hémiplégique qui marche avec une jambe qui
+« fauche » (paralysie spastique !), pied tombant)
+o La vitesse de la marche et la longueur du pas (pas inégaux dans les atteintes
+cérébelleuses)
+o Trajectoire (dévie dans les atteintes cérébelleuses)
+3. Demander au patient de s’asseoir et de se relever, à la recherche du signe de Gowers
+4. Demander au patient de se mettre debout, s’accroupir, puis de se relever sans les bras,
+là encore à la recherche du signe de Gowers
+5. On demande au patient de faire la marche du funambule, surtout pour mettre en
+évidence des ataxies cérébelleuses (déviation de la trajectoire, parcours sinueux)
+6. On lui demande ensuite de marcher sur la pointe des pieds (teste le n. S1), puis sur les
+talon (teste le n. L5). Cela met en avant les déficits de la voie pyramidale, surtout par
+la perte de force de ces mm.
+7. On effectue le Romberg. Le patient a les pieds joints et les yeux ouverts. On peut lui
+demander de tendre les mains avec les paumes en l’air pour mieux voir les
+oscillations. S’il tient en équilibre, on lui demande alors de fermer les yeux. Un léger
+déséquilibre est normal à la fermeture des yeux.
+On considère un Romberg négatif lorsque le patient perd l’équilibre alors qu’il a
+encore les yeux ouverts, ce qui est souvent le cas dans les atteintes cérébelleuses. Si le
+Page 5 sur 31
+
+!
+
+patient arrive à tenir son équilibre les yeux ouverts, on va lui demander de fermer les
+yeux et s’il perd son équilibre les yeux fermés, cela oriente vers une atteinte
+vestibulaire (ex : alcool, ou si atteinte du labyrinthe, chute du côté atteint) ou
+proprioceptive (si faisceaux dorsaux de la ME atteints ou neuropathie, chute non
+latéralisée).
+On notera qu’il est normal de perdre un peu l’équilibre les yeux fermés, avec une
+légère « danse des tendons » ; on guette donc surtout des déséquilibres soudains ! On
+se place derrière le patient pour le rattraper si besoin.
+8. On demande ensuite au patient de tenir sur une jambe puis sur l’autre. Si une fesse
+s’affaisse, c’est le signe de Trendelenburg (qui donne une marche dandinante),
+orientant vers une atteinte du moyen fessier (et donc du n. L5). C’est le côté sain qui
+s’affaisse, car le moyen fessier controlatéral est atteint et n’arrive pas remonter la
+cuisse
+•
+
+!
+
+Équilibre : l’équilibre est cordonné par le cervelet, qui intègre les informations
+vestibulaires, proprioceptives et visuelles. La fermeture des yeux enlève au cervelet
+une de ses sources d’information et met ainsi en évidence des déséquilibres dont la
+source est un déficit proprioceptif ou vestibulaire. Les troubles d’équilibre dus à une
+atteinte du cervelet lui-même sont déjà marqués les yeux ouverts
+
+Système moteur
+
+!
+Inspection générale
+!
+•
+•
+•
+
+!
+Tonus
+!
+
+Observer les déficits évidents (hémiplégie, Parkinson, ataxie, boiterie, etc.)
+Postures ou mouvements anormaux (chorée, bradykinésie, tremblements, asterixis,
+etc.)
+Amyotrophie et fasciculations (ondulations visibles du muscle, qui orientent vers une
+atteinte périphérique)
+
+Le tonus est la tension musculaire induite par la contraction partielle des muscles. On le teste
+en demandant au patient de se relâcher. « Laissez-moi soupeser votre bras, relâchez vos
+muscles »
+
+!
+
+On effectue alors des mouvements passifs des articulations pour les évaluer :
+• Membre supérieur : pronation/supination
+• Membre inférieur : fléchir la hanche et le genou en un mouvement, faire rouler le MI
+comme une bûche. Soulever le genou et le laisser tomber et évaluer la vitesse de la
+chute
+
+!
+
+Le tonus peut être :
+• Normal
+• Diminué : flasque, hypotonique, lors d’atteinte du second motoneurone (= ceux dans
+la ME)
+Page 6 sur 31
+
+•
+
+!
+Force
+!
+
+Augmenté : rigidité en tuyau de plomb (hypertonie sur toute l’amplitude du
+mouvement, associée au phénomène de « Roue dentée », oriente vers une atteinte
+extra-pyramidale, surtout retrouvée dans le Parkinson) ou spasticité (hypertonie suivie
+d’une certaine « perte du mouvement », appelée « Couteau suisse », typique des
+atteintes pyramidales)
+
+Il ne faut tester qu’un mouvement à la fois, en supportant l’articulation au-dessus. On place le
+membre que l’on teste au centre de son amplitude de mouvement (= entre la flexion et
+l’extension par exemple). Il vaut mieux éviter d’utiliser les termes abduction, adduction, etc.
+=> il est plus simple de directement demander au patient de résister à notre pression !
+
+!
+
+Patient assis :
+• Épaule : abduction (deltoïde)/adduction (pectoraux), rotation externe (sous-épineux)/
+interne (sous-scapulaire)
+• Coude : extension (triceps)/flexion (biceps et brachial)
+• Poignet : flexion/extension (l’extension est atteinte dans la paralysie radiale ; si
+hémiplégie associée : AVC ou SEP)
+• Doigts : flexion/extension (pour la flexion des doigts, on met notre index et majeur
+dans leur main et on leur demande de les tenir), abduction/adduction des interosseux
+(parésie dans la paralysie ulnaire), abduction (n. médian, affaibli dans le canal carpien)
+et opposition du pouce
+• Mobilité fine des doigts : demander au patient de pianoter (diminué dans les atteintes
+centrales)
+• Hanche : flexion/extension, abduction/adduction
+• Genou : flexion/extension
+
+!
+
+Patient couché
+• Cheville : flexion plantaire/dorsiflexion, inversion et éversion
+• Orteils : flexion/extension
+• Mobilité fine des orteils : demander au patient de « pianoter »
+
+!
+!
+
+On côte la force de M0 à M5. Si le patient n’a pas 5, on parle de parésie (= faiblesse
+musculaire) :
+• 0 : Pas de mouvement
+• 1 : Contraction palpable, mais pas de mouvement
+• 2 : Mouvement atténuant la pesanteur
+• 3 : Mouvement contre la pesanteur = maintien face à la pesanteur, mais pas face à une
+résistance. Le patient peut par exemple bouger son bras à plat
+• 4 : Mouvement contre résistance, mais force anormale
+• 5 : Force normale
+
+!
+
+Épreuves fonctionnelles, servant à évaluer l’importance du déficit :
+
+Page 7 sur 31
+
+•
+
+•
+
+•
+
+!
+•
+
+✓
+✓
+✓
+✓
+
+Test des bras tendus. On demande au patient de maintenir les bras devant lui (debout
+ou couché) en supination (paume vers le haut) pendant ~10s, d’abord les yeux ouverts,
+puis fermés. Une dérive vers le bas et la pronation (± creusement des doigts) oriente
+vers une atteinte pyramidale controlatérale. On demande ensuite au patient de
+« pianoter » pour tester la motilité fine (si diminuée, aussi signe d’atteinte centrale)
+Même test pour le MI : le patient est couché et fléchit ses jambes, aussi pendant ~ 10s
+les yeux ouverts, puis les yeux fermés. C’est le test des jambes fléchies. On lui
+demande finalement aussi de pianoter avec les doigts des pieds
+Le patient toujours couché, on lui demande de relever sa tête et son tronc, sans utiliser
+ses mains, puis de lever ses bras au-dessus de sa tête
+Note : En cas de faiblesse musculaire, il faut préciser sa topographie. Elle peut être
+causée par une atteinte d’un motoneurone supérieur, inférieur, d’un nerf rachidien,
+d’un nerf périphérique ou du muscle.
+Faiblesse de l’hémicorps : atteinte du motoneurone supérieur
+Faiblesse distale symétrique : polyneuropathie
+Faiblesse proximale : myopathie
+Faiblesse qui s’aggrave avec les répétitions et l’effort et qui s’atténue au repos :
+myasthénie
+
+!
+!
+!
+Réflexes
+!
+
+Le patient doit se détendre. On tient le marteau par la poignée et on fait un mouvement ample,
+comme un pendule. Il faut toujours évaluer avec deux-trois coups, puis tester le réflexe
+controlatéral. On cote ensuite les réflexes. On peut utiliser une manœuvre de facilitation en
+demandant au patient de serrer les dents, de serrer ses mains, de relever sa tête (s’il est
+couché) ou de fléchir les pieds (lui dans le cadre du réflexe quadricipital).Tous les réflexes
+peuvent être évoqués assis, à l’exception du cutané plantaire et du cutanée abdominal. Ils
+peuvent tous être testés du même côté du lit sauf le réflexe achilléen.
+
+!
+
+!
+
+•
+•
+•
+•
+•
+
+0 : Absent
+1 : Diminué (hyporéflexie, oriente vers du SNP)
+2 : Normal
+3 : Augmenté (hyperréflexie oriente vers une atteinte pyramidale)
+4 : Hyperréflexie avec clonus
+
+Clonus : C’est une série de contractions musculaires (à partir de 3) et il est déclenché
+typiquement par la dorsiflexion de la cheville. Il oriente vers une atteinte pyramidale
+
+!
+
+✓ Certaines personnes ont des réflexes qui se déclenchent peu, mais ce n’est pas une
+aréflexie si tout est normal et que les réflexes sont symétriques
+✓ On parle d’hyperréflexie lorsque les réflexes sont augmentés sur tout le membre
+concerné et que la zone réflexogène est augmentée (= pas seulement des réflexes plus
+vifs !)
+
+Page 8 sur 31
+
+!
+!
+
+✓ Les réflexes sont dit pendulaires chez les cérébelleux, car ils sont hypotones, ce qui
+fait que le membre continue à se balancer après que le réflexe ait été évoqué
+
+Membre supérieur :
+• Biceps (C5-C6) : placer son pouce sur le tendon
+• Brachioradial (C6) : directement ou avec le doigt
+• Triceps (C7) : directement sur le tendon
+• Ulno-pronateur (C8) : directement sur le processus styloïde de l’ulna
+
+!
+
+Membre inférieur :
+• Patellaire (L3-4) : heurter le tendon patellaire sous la patella, au-dessus du tibia
+• Achilléen (S1) : amener en le pied tester en dorsiflexion sur la jambe controlatérale et
+heurter son tendon achilléen.
+Bonus :
+• Réflexe plantaire/de Babinski : faire un J à l’envers du calcanéus ou gros orteil. La
+flexion du gros orteil est normale, alors qu’en cas d’extension, on parle du signe de
+Babinski, orientant vers une atteinte pyramidale
+• Réflexe abdominal : fait en 4 fois. On descend des mamelons jusqu’à l’ombilic dans
+les deux quadrants supérieurs et on monte des plis inguinaux, jusqu’à l’ombilic pour
+les deux quadrants inférieurs. Le m. grand droit doit se contracter et, s’il ne se
+contracte pas, cela oriente vers une atteinte pyramidale
+• Réflexe anal : frotter les 4 quadrants de dedans vers dehors avec un objet en mousse.
+Observer (et apprécier) la contraction de l’anus. Ce réflexe est aboli dans le syndrome
+de la queue de cheval
+
+!
+!
+Coordination = ±Cervelet
+!
+
+Le cervelet est responsable de la coordination ipsilatérale (par opposition au reste du cerveau)
+et de l’équilibre. À l’examen, on cherche à mettre en évidence l’incoordination entre les
+muscles agonistes et antagonistes. Les mouvements sont imprécis, trop amples, rapides et
+l’arrêt sur cible est difficile à obtenir (= dyssynergie et dysmétrie)
+
+!
+
+•
+
+•
+
+•
+
+Tapotement des doigts : demander au patient d’étendre tous ses doigts d’une main puis
+de successivement tous les toucher avec le pouce, dans un sens puis dans l’autre. Faire
+un main après l’autre, puis les deux en même temps
+Mouvements alternatifs rapides : demander au patient de rapidement alterner des
+mouvements de pronation et de supination du poignet en tapant ses genoux. On peut
+aussi « faire les marionnettes » ou bien tourner un bras autour de l’autre (en mode
+tecktonik). Une incapacité à le faire est appelé « dysdiadochocinésie » : les
+mouvements sont décalés, asynchrones, lents, etc.
+Test doigt-nez : on place notre doigt de manière à ce que le patient doive étendre son
+bras pour le toucher. On lui demande ensuite de toucher alternativement son nez, puis
+notre doigt, en faisant varier la position de notre doigt. On recherche des dyssymétries
+(ratage de cible) et des tremblements cinétiques (= lors de mouvements), et des
+
+Page 9 sur 31
+
+•
+
+•
+
+•
+
+!
+
+!
+!
+
+hypermétries (va trop loin). Il faut dire au patient de s’arrêter proche de notre index ;
+en effet il ne doit pas s’appuyer dessus, sinon il pourrait se stabiliser. On peut le tester
+les yeux fermés ensuite. (En cas d’atteinte cérébelleuse, ce test ne s’aggrave pas les
+yeux fermés)
+On peut tester les tremblements d’action (≠ de repos), qui se retrouvent surtout au
+début et à la fin des mouvements volontaires. Pour ce faire, on peut demander au
+patient de boire un verre d’eau ou de dessiner une spirale
+On peut tester le rebond : on positionne le bras du patient en position bras-d’honneur,
+on le tire loin de lui, puis soudainement on le relâche. Dans le cas où le patient serait
+incapable d’arrêter son geste et risquerait de se frapper (= incapacité du cerveau à
+coordonner les mm. agonistes et antagonistes à cause d’une atteinte cérébelleuse), on
+le protège en mettant une main entre son bras et son visage
+Test talon-genou : le patient, allongé, on lui demande de premièrement toucher son
+genou avec son talon opposé, de descendre jusqu’à sa cheville le long de la crête
+tibiale, puis finalement de remonter. On cherche aussi des dyssymétries et
+tremblements. Ils sont le plus évidents lorsque le patient remonte sa cheville juste
+avant de toucher le genou
+
+• Pathologie: Le syndrome cérébelleux se divise en trois atteintes :
+✓ Syndrome vestibulo-cérébelleux (lobe flocculo-nodulaire) : incapacité à tenir debout,
+latéropulsion ispsilatérale à la lésion au Romberg et syndrome oculomoteur (déviation
+ipsilatérale des yeux dès que le sujet ne fixe pas son regard)
+✓ Ataxie statique (vermis) : ligne de direction sinueuse à la marche du funambule (mais
+pas de latéropulsion comme dans le syndrome vestibulo-cérébelleux !), polygone de
+sustentation élargi (comme s’il avait bu), Romberg négatif avec danse des tendons,
+oscillations aux tests de bras et jambes tendues, instabilité assis
+✓ Ataxie cinétique (hémisphères cérébelleux) : dyssynergie (décomposition du
+mouvement, erreur de force et de timing), dysmétrie (va trop ou pas assez loin dans
+ses mouvements = hypo/hypermétrie à cause du manque de coordination entre les mm.
+agonistes et antagonistes), tremblement d’action, hypotonie (réflexes pendulaires),
+rebond pathologique, dysdiadochocinésie (marionnettes anormales)
+✓ Les ataxies peuvent toucher la marche (irrégulière, déséquilibre), les mouvements
+oculaires, mais aussi l’articulation de la parole (dysarthrie, avec des ralentissement,
+des klaxophonies, etc.)
+
+Système sensitif
+
+!
+
+On commence distalement et on se rapproche progressivement. On teste la base des ongles
+des index et des orteils. Si le patient ne sent pas/échoue, on remonte aux poignets/chevilles,
+puis coudes/genoux. Il faut tester le territoire des gros nerfs périphériques et les principaux
+dermatomes, pour déterminer si c’est un nerf périphérique, une racine ou la moelle qui est
+atteint. Toujours évaluer la symétrie. On reporte ensuite les déficits sur un schéma pour voir
+s’il y a une distribution rappelant une atteinte. Les modalités sensitives passent par les voies
+des colonnes dorsales pour le toucher léger (anesthésie/hyperesthésie), les vibrations et la
+Page 10 sur 31
+
+proprioception, alors que la douleur (analgésie/hypoalgésie/hyperalgésie), la température (=
+thermoalgésie, les deux sont souvent atteints ensemble) et le toucher grossier passent par les
+colonnes latérales. Le patient doit toujours fermer les yeux !
+
+!
+
+•
+
+•
+
+•
+
+•
+
+!
+
+Toucher/piquer (toucher léger et grossier) : prendre un coton tige, le casser en deux et
+montrer les sensations à reconnaître sur l’avant-bras. On pique/touche légèrement 2-3
+fois (≠ frotter, mais juste effleurer). On demande alors s’il ressent le toucher ou le
+piquer en remontant les territoires (si nécessaire). On peut tester uniquement l’une ou
+l’autre modalité également
+Proprioception (arthrocinésie) : prendre l’hallux ou le pouce sur leurs faces médiales
+et latérales. Montrer au patient « ceci est en haut, ceci en bas ». Il ferme ensuite les
+yeux. On commence par des petits mouvements, que l’on agrandit si le patient ne les
+détecte pas
+Vibration (pallesthésie) : utiliser le diapason neurologique 128 Hz. Pincer les branches
+du diapason ou le frapper contre son olécrane ou sa rotule (pour plus de puissance).
+Demander au patient lorsqu’il ne ressent plus la vibration et noter la valeur. On place
+le diapason soit sur le processus sytloïde (radius), soit sur les malléoles
+Autres tests : test de la température, stéréognosie (reconnaissance d’un objet au
+toucher, évalue le cortex pariétal, car c’est un sens demandant une certaine intégration
+de l’information), graphesthésie (chiffre que l’on « dessine » avec un stylo),
+discrimination de deux points
+
+Epreuves fonctionnelles (ces tests évaluent la proprioception, le cervelet et le vestibulaire !) :
+• Romberg
+• Démarche du funambule : on demande au patient de marcher un pied devant l’autre en
+suivant une ligne imaginaire. Comme le Romberg, ce test évalue les trois modalités
+sensorielles de l’équilibre (proprioception, vestibule et cervelet)
+• Bras tendus et jambes fléchies : On recherche des oscillations des membres
+
+!
+
+Quelques dermatomes : T4 pour les tétons et T10 pour l’ombilic. Pour la main, on aura de
+latéral à médial C6 (pouce), C7 (index et majeur) et C8 (annulaire et auriculaire). Pour le
+pied, on aura de latéral à médial S1 (tout le bord du pied avec le petit orteil. Petite partie de la
+plante et le talon), L5 (tout le dos du pied jusqu’à la moitié de l’hallux. Très grande partie de
+la plante avec les mêmes limites) et L4 (bord médial du pied à partir de la moitié médiale de
+l’hallux. Petite partie de la plante). Finalement, on a aussi que le genou fait partie du L4.
+Finalement, de S3 à S5, on a le uc et son pourtour.
+
+!
+
+• Pathologie : Toujours rapporter les atteintes sur un schéma
+✓ Le déficit d’un hémicorps suggère une atteinte corticale controlatérale
+✓ Les déficits en « gants et chaussettes » se voient dans les neuropathies périphériques
+alcoolique et diabétique
+✓ Les atteintes d’un ou plusieurs dermatomes orientent vers un zona ou une compression
+d’une racine nerveuse
+✓ La perte du sens vibratoire oriente vers une neuropathie périphérique (diabète/alcool),
+ou une atteinte des cordons dorsaux suite à une carence en B12 ou à la neurosyphilis
+
+Page 11 sur 31
+
+!
+
+✓ La stéréognosie, graphesthésie et/ou discrimination sont absents lors d’atteintes des
+voies postérieures ou du du cortex sensitif
+
+Nerfs crâniens
+
+!
+
+Ils ont été cotés de 1-12 par localisation anatomique. 3-4 dans le mésencéphale, 5-8 dans le
+pont (= métencéphale = protubérance) et 9-12 dans le bulbe rachidien (= myélencéphale). Le
+noyau est ipsilatéral à l’innervation terminale, sauf pour le nerf 4 qui lui croise !
+
+!
+1. Nerf olfactif
+!
+•
+
+À tester avec des odeurs non-nocives comme la menthe, l’eau de rose, un café que
+l’on a sous la main, etc ; en effet, les odeurs irritantes comme l’ammoniac et le
+vinaigre testent les fibres douloureuses du V dans la muqueuse nasale ! On teste une
+narine après l’autre, en la bouchant depuis le dessous (comme quand on met un doigt
+dans le nez, on n’appuie pas sur les ailes du nez). Un déficit est appelé anosmie. En
+pratique, cela prend beaucoup de temps, donc on demande simplement au patient, s’il
+a l’impression d’avoir soudainement perdu son odorat
+(Le cortex olfactif (ou entorhinal) est proche des zones de la mémoire et fait partie de
+la boucle du système limbique, expliquant pourquoi les odeurs sont si liées aux
+émotions)
+
+•
+
+Pathologie : trauma crânien (lésions frontales ou section des fibres qui traversent la
+lame criblée de l’ethmoïde) tumeur, Alzheimer et Parkinson
+
+!
+!
+!
+!
+
+!
+
+2. Nerf optique : on teste l’acuité visuelle (vision proche et lointaine), les champs visuels
+et la vision en couleur. On peut aussi faire un fond de l’œil (pas à l’ECOS)
+•
+
+Test de Snellen pour la vision de loin. Tout d’abord, regarder la distance à laquelle le
+test (= échelle de Snellen) est prévu pour être fait et placer le patient avec ses lunettes
+à cette distance. Lui demander de cacher/fermer l’oeil droit pour commencer avec
+l’oeil gauche, tout en lui demandant de directement essayer de lire la plus petite ligne
+qu’il lui est possible de lire (permet de gagner du temps). On quantifie ensuite son
+résultat, en fonction de la ligne qu’il a réussi à lire (ligne à 0,66 ; 0,75 ; 1 ; etc.) et en
+fonction du nombre de lettres justes dites (7 sur 10 ou 1 sur 10, etc.). On fait lire au
+patient la ligne la plus petite, et s’il lit correctement plus de 3 éléments sur 5, on
+considère qu’il a cette dioptrie
+
+•
+
+Test de Parinaud pour la vision de près. On reproduit les mêmes étapes qu’avant, en
+changeant seulement la distance ; le patient doit maintenant se trouver à distance de
+lecture du papier, c’est-à-dire ~ 40cm (distance donnée sur la carte). Pour la
+quantification, on utilisera encore une fois la ligne qu’il a réussi à lire (ligne à 0,66 ;
+etc.), mais on dit juste ici s’il a plus ou moins bien réussi à lire la phrase/le morceau de
+
+Page 12 sur 31
+
+!
+
+!
+
+!
+
+texte. On fait lire au patient la ligne la plus petite, et s’il lit correctement plus de 3
+éléments sur 5, on considère qu’il a cette dioptrie
+•
+
+Champs visuels : enlever les lunettes du patient, car on teste son champ de vision, ce
+test n’étant pas quelque chose de précis comme l’acuité ! La première étape se fait les
+deux yeux ouverts (pour avoir une idée globale de si quelque chose cloche). On place
+nos mains derrière le patient en lui demandant de regarder droit devant lui et
+d’annoncer lorsqu’elles arrivent dans son champ visuel (déplacer ses mains lentement
+et en bougeant les doigts, en diagonale dans son champ visuel, c’est-à-dire comme si
+on faisait un X en déplaçant ses mains, avec l’oeil au centre). Ce test s’appelle le test
+de Goldmann (à faire 2 fois, une fois en haut et une fois en bas !). On peut aussi
+reproduire ce test pour chaque oeil individuel si on a le temps, en testant les 4
+quadrants : on met les deux mains derrière le patient, on en rapproche une seule en la
+bougeant et le patient doit la pointer (idem, très important de le faire en faisant ce X,
+sinon on risque de louper certaines pathologies comme les restrictions
+périphériques !). Comme deuxième point, on demandera au patient de se mettre ~ à
+distance de bras de nous et de regarder fixement notre nez avec un oeil alors que
+l’autre est fermé. On teste alors successivement ses 4 quadrants en lui montrant un
+chiffre avec les doigts, puis on teste des additions dans plusieurs cadrants. Si on veut
+éviter de mettre nos doigts hors de son champ de vision et fausser le status, on peut
+faire le test en même temps que lui, nous aussi avec l’oeil miroir ouvert, mais on met
+la main ~ au milieu entre nous et le patient.
+Attention, aux patients qui disent « Je ne vois plus de l’œil gauche », mais en fait c’est
+tout l’hémichamp gauche qui a disparu !
+
+•
+
+Test de confusion d’Ishihara : On demande au patient de se positionner à ~ 70cm du
+livre, avec ses lunettes et un seul oeil ouvert. On lui présente ensuite les différentes
+pages et on observe s’il donne les bonnes réponses et s’il en est persuadé (des petites
+fautes arrivent). Les premiers tests sont relativement simples, puis ils se compliquent.
+Finalement, les 4 derniers exercices se focalisent sur déterminer si le patient est
+daltonien sélectivement pour les rouges ou les verts (protanopes et deutéranopes
+respectivement). On quantifie les résultats en fonction du nombre de figures justes
+données (7 sur 13, etc.). Ce test est plutôt utilisé en clinique après des traumatismes
+(touchant surtout l’aire associative V4), moins pour les daltoniens (des tests
+spécifiques existent) ; on a ici seulement un test de dépistage
+
+•
+
+Pupilles :
+1) Inspecter la taille des pupilles. Un myosis est une contraction de la pupille (<
+3mm), une mydriase une dilatation (> 5mm). L’anisocorie est une inégalité de la taille
+des pupilles. Attention au fait que près d’1/3 de la population a naturellement une
+anisocorie physiologique, les yeux gardant leur rapport de taille en mydriase et myosis
+!
+2) Tester le réflexe pupillaire (= réflexe photomoteur, avec le n. II conduisant
+l’information lumineuse à l’aire prétectacle qui projette sur le noyau d’Edinger
+Westphal, partie du n. III qui va ordonner une contraction bilatérale) : d’une main, on
+sépare les moitiés gauche et droite du visage (= comme si on donnait un coup de
+
+Page 13 sur 31
+
+!
+
+!
+
+karaté au nez du patient en collant notre main contre son visage) et de l’autre, on
+prend une petite lampe, avec laquelle on éclaire un oeil en partant de l’extérieur pour
+venir vers l’intérieur. On regarde si les deux yeux ont bien une myosis réactionnelle et
+on le fait aux deux yeux.
+On notera que pour tester le réflexe pupillaire, il faut être dans une pièce semi-sombre,
+et pas près de la fenêtre une journée de beau temps, sinon on ne verra pas les pupilles
+se contracter ou se relâcher ! De plus, si on repère la moindre anisochorie, on va
+exposer le patient à une salle très sombre, puis une salle très lumineuse pour voir
+comment ses deux pupilles se comportent (= si elles se modifient ensemble la réponse
+est physiologique, si non déduire en fonction de la myosis/mydriase anormale avec les
+conditions de luminosité)
+3) Swinging flashlight test : on commence par éclairer un oeil pendant 3 secondes
+avec la lampe, puis on switche à l’autre pour l’éclairer pendant 3 secondes. On alterne
+ainsi à la recherche d’une pupille qui se dilaterait au moment où on l’éclaire avec la
+lampe (ex. : en cas de neuropathie aigüe de l’oeil droit, lorsqu’on fait un cycle de
+swinging et qu’on l’éclaire pour la deuxième fois, il va soudainement faire une
+mydriase plutôt qu’une myosis). Ce test permet donc de dépister un problème
+d’afférence (de l’oeil atteint, cf. pathologie)
+4) Tester l’accommodation (appelé réflexe accommodation - convergence - myosis) :
+on demande au patient de fixer notre doigt à 30 cm de ses yeux. Les pupilles se
+contractent et convergent alors (seulement un tout petit peu). On lui demande ensuite
+de toujours fixer notre doigt, puis on va lentement l’approcher de son nez en faisant
+des mouvements de côté un peu comme un serpent, jusqu’à lui toucher le nez et voir
+une convergence maximale (et normalement un bon myosis). On peut finalement lui
+demander de fixer son regard au loin. On observe une dilatation et divergence des
+pupilles.
+Il est très important de tester l’accommodation si on retrouve une mauvaise/absence de
+réaction d’une ou des pupilles en situation de forte luminosité ou pénombre. En effet,
+si par exemple le réflexe pupillaire/photomoteur montre que les deux yeux ne
+réagissent pas du tout à la présence de lumière (= aucun myosis), on pourrait suspecter
+que l’afférence, l’efférente ou les deux sont perturbés/détruits ; on va donc tester le
+réflexe accommodation - convergence - myosis (= demander de loucher) pour voir si
+une myosis apparaît ! Si c’est le cas, c’est le signe que les efférences sont bonnes !
+•
+
+Fond d’oeil : on tient l’appareil avec la main droite et on regarde avec l’oeil droit pour
+tester l’œil droit (qu’on va d’ailleurs souvent dilater pour mieux voir), avec la gauche
+et l’oeil gauche pour l’oeil gauche. La main libre sert à nous stabiliser. On demande au
+patient de fixer au loin et on s’approche en venant de ~ 20cm du visage du patient au
+niveau supéro-temporal, puis on se rapproche gentiment jusqu’à arriver à ~ 3 à 4cm du
+visage du patient (gêne ultime). Dès qu’on aperçoit un vaisseau, on le suit jusqu’à
+tomber sur le n. optique. La seule et unique chose qu’on doit être capable de faire si on
+n’est pas neurologue est de pouvoir dire si le n. optique est gonflé ou nom (= œdème
+papillaire, signe d’hypertension intracrânienne, mais pas toujours), et si c’est le cas de
+référer à un ophtalmologue
+
+Page 14 sur 31
+
+!
+!
+
+✓ Pathologie : il faut séparer les atteintes antéchiasmatique, chiasmatique et
+rétrochiasmatique (= différences dans le champ visuel) :
+✓ Chiasmatique : hémianopsie bitemporale = chaque œil est amputé de son champ visuel
+temporal. L’atteinte est rarement complète des deux côtés (= plus souvent des
+quadranopsies ou des atteintes partielles et non-congruentes), mais il faut y penser si
+chaque œil est partiellement atteint dans un champ temporal. La cause la plus
+fréquente est les adénomes hypophysaires
+✓ Rétrochiasmatique : les deux yeux sont amputés du même champ visuel (dit
+« homonyme » ; là encore, l’atteinte peut être partielle et non-congruente ou
+l’inverse). Cela peut être un seul quadrant (radiations optiques ou cortex partiellement
+atteint), ou un hémichamp. Les étiologies sont AVC, TCC, tumeurs. Comme règle, on
+peut dire que toute atteinte visuelle homonyme dans les deux yeux est
+rétrochiasmatique
+✓ Antéchiasmatique : dernier type d’atteinte, atteignant souvent un seul œil, qui est
+soupçonnée lorsqu’on n’a ni une atteinte chiasmatique (= bitemporale complète ou
+partielle, congruente ou non), ni rétrochiasmatique (= homonyme dans les deux yeux).
+Ce sont les névrites optiques (SEP ou sarcoïdose) qui en sont les causes les plus
+fréquentes, où le patient dit qu’il ne voit rien, mais le médecin aussi, car le fond d’œil
+est normal. Peut aussi venir de microangiopathie ischémique, médicaments, TCC et
+tumeurs (schwanommes, gliomes). Dans le cas d’une rétinopathie, il faut référer le
+patient à un ophtalmologue
+✓ Un point important à noter pour les atteintes chiasmatiques et rétrochiasmatiques est
+que dans ces atteintes, on retrouve une ligne verticale nette au milieu du champ
+visuelle, qui n’est pas dépassée ! Ainsi, si une atteinte du champ visuel dépasse l’une
+des moitiés verticales (= gauche ou droite = ne respecte pas la verticalité) dans un oeil
+ou les deux, on suspecte une atteinte antéchiasmatique !
+✓ Un scotome caeco-central (= qui part de la tâche aveugle et se prolonge comme un
+point au centre du champ visuel) vient typiquement d’une neuropathie optique toxique
+✓ Une restriction périphérique (= vision comme avec des jumelles) peut venir d’une
+pathologie oculaire (ex. : glaucome), mais aussi de troubles fonctionnels ou
+psychiatriques. Dans le cas d’un vrai problème oculaire, on notera qu’il sera très
+difficile pour les patients de se déplacer dans une salle (regardent le sol et partout
+autour, mais se cognent partout) et que lors de l’examen des champs visuels, on
+remarquera que si on fait l’examen à quelques mètres de distance, on remarque qu’ils
+n’ont qu’un cône visuel. Au contraire, un trouble fonctionnel pourra se caractériser par
+un patient arrivant dans la salle sans se cogner à quoi que ce soit, puis lors de
+l’examen des champs visuels, qu’on le fasse proche ou loin, il aura un champ visuel
+un peu comme un laser (= pas comme le cône retrouvé dans les pathologies oculaires)
+✓ (Remarque : dans les examens faits par machine où on dessine le champ visuel et ses
+scotomes (= Goldmann ou computerisation), on retrouve naturellement une petite
+tache juste à l’extérieur du centre, qui est la tache aveugle !)
+
+✓ Pathologie de la diplopie : si un patient se plaint de diplopie, la première chose à faire
+est de lui demander de fermer un oeil, puis l’autre. Si la diplopie disparaît lorsqu’un
+seul oeil est ouvert, on a un problème très probablement neurologique qui peut
+Page 15 sur 31
+
+!
+!
+
+!
+
+!
+
+s’avérer être une urgence ; si au contraire la diplopie ne disparaît pas lorsque seul
+l’oeil atteint est ouvert (= si on ferme l’oeil atteint et que l’oeil sain est ouvert, pas de
+diplopie, mais diplopie si l’inverse et si les deux yeux sont ouverts) (= diplopie monooculaire), on a typiquement un problème non-neurologique, bénin et qui peut attendre
+(ex. : cataracte, lunettes pas adaptées (souvent astigmatisme mal corrigé), etc. =
+souvent troubles de réfraction)
+
+✓ Pathologie des pupilles :
+✓ 30% de la population possède une « anisochorie essentielle physiologique », qui se
+manifeste par une différence de la taille entre les deux pupilles restant identique peu
+importe la présence d’un myosis ou d’une mydriase (ex. : la pupille droite tout le
+temps plus grande d’1mm)
+✓ Une anisochorie chez un nouveau-né ou petit enfant doit faire penser à un
+neuroblastome
+✓ Une asymétrie des afférences donnera un déficit pupillaire relatif (= une dissociation
+lumière - convergence (cf. en-dessous) ou le problème dépisté par le swinging
+flashlight test (cf. juste en-dessous)), alors qu’une asymétrie des efférences donnera
+une anisochorie
+✓ Une asymétrie des afférences (dépistée par le swinging flashlight test) peut se
+retrouver en cas de neuropathie optique (= atteinte du NO dans (1) les oedèmes
+papillaires de stase, (2) les ischémies (artéritiques ou non) du NO et (3) les névrites
+optiques (surtout SEP)) ou rétinopathie étendue, mais pas en cas de rétinopathie légère
+à modérée, neuropathie optique bilatérale ou atteinte anté-rétinienne (ex. : cataracte,
+hémorragie vitréenne, etc.)
+✓ Une anisochorie peut être physiologique (= essentielle physiologique ou pupille
+tonique d’Adie), ophtalmologique (traumatisme des mm. dilatateur ou sphincter de
+l’iris), neurologique (lésion du système sympathique ou parasympathique) ou encore
+pharmacologique (typiquement une très forte mydriase aréactive d’un seul côté) (4
+DD à bien connaître !)
+✓ En cas de dissociation lumière - convergence (= les deux yeux ne font pas de myosis
+lorsqu’ils sont éclairés, mais la convergence produit un myosis = afférences détruites
+mais efférences bonnes), on retrouve très souvent un problème au niveau du
+mésencéphale (qui gère les afférences et commande aux efférences), souvent des
+tumeurs ou la syphilis
+✓ Perte visuelle aigüe :
+✓ En cas de perte visuelle aigüe, on commence par un fond d’oeil, et s’il revient normal
+on poursuit avec un examen des pupilles. Si le FO est normal et l’examen pupillaire
+montre un problème, on a une atteinte rétro-bulbaire. Si absolument tout est normal,
+c’est impossible et non-organique (= fonctionnel)
+3. Nerf oculomoteur : avec les nn. IV et VI, il est responsable de l’oculomotricité ; ces
+nn. sont donc tous testés en même temps ! On regarde 5 choses : (1) la fixation (regard
+primaire), (2) la poursuite, (3) les saccades, (4) le nystagmus et (5) les pupilles (déjà
+examinées dans le test du II). Le nerf III innerve les muscles droits supérieur, médial,
+Page 16 sur 31
+
+!
+
+!
+
+!
+
+inférieur, oblique inférieur et le releveur de la paupière ; il contient également des
+fibres parasympathiques assurant la contraction pupillaire (myosis) et
+l’accommodation
+(On notera qu’il n’innerve pas le m. de Müller (= releveur accessoire de la paupière),
+qui reçoit une innervation sympathique. Ce m. est atteint dans le syndrome de Horner
+causant : légère ptose, myosis, etc.)
+•
+
+Fixation : demander de regarder tout droit, et/ou de fixer un objet (normalement
+pendant 15 secondes). Rechercher une déviation conjuguée (les yeux partent dans la
+même direction), une hyper/hypotropie (= déviation des yeux vers le haut/bas) ou eso/
+exotropie (vers l’intérieur/extérieur). On recherche les atteintes isolées des nerfs III,
+IV et VI, mais également un nystagmus à la fixation. Si le patient se plaint de diplopie,
+un misalignement des yeux stables disparaît lorsque l’on cache l’un des deux yeux. Si
+la diplopie apparaît lors de la poursuite (= dynamique), il faut rechercher une parésie
+d’un muscle (= atteinte du III, IV ou VI, ou encore myasthénie ou hyperthyroïdie)3.
+On parle alors de misalignement instable.
+Remarque : comme les atteintes sont rarement complètes et souvent incomplètes
+(valable pour tous les mm.), si le patient se plaint d’une diplopie dans une direction
+particulière (ex. : vers la gauche), il sera important de comparer les deux côtés lorsque
+le patient regarde dans la direction causant la diplopie, la différence entre les deux
+yeux pouvant être très minime !
+
+•
+
+Poursuite (permet une vision stable des objets qui bougent, non–volontaire) : on
+demande au patient de suivre le doigt de l’examinateur (à une vitesse la plus stable
+possible, afin que le patient puisse anticiper un minimum) vers la droite/gauche, vers
+le haut/bas en faisant une croix (et on relève les paupières pour voir le mouvement
+vers le bas) (teste surtout le III et le VI), mais aussi en diagonale pour tester les
+muscles obliques en faisant un X (= teste surtout le IV). Il est important de déplacer
+lentement son doigt. Il faut s’assurer que la poursuite soit lisse, c’est-à-dire sans
+petites saccades. On recherche une parésie monoculaire, binoculaire (conjuguée ou
+dissociée). En cas de parésie dans toutes les directions, on parle d’ophtalmoplégie.
+Pour tester le IV, on demande au patient de loucher.
+On cherche également à détecter un nystagmus en fin de course (physiologique si
+épuisable) lorsqu’on atteint le maximum où le patient peut regarder en haut, en bas, à
+gauche et à droite
+
+•
+
+Saccades (permettent des mouvements rapides sous contrôle volontaire) : on demande
+au patient de fixer notre nez et on met nos deux mains en évidence dans 2 des 4 côtés
+de la croix (= vertical et horizontal). Lorsqu’on on lève un doigt, le patient doit le
+regarder, mais simplement donner cet ordre est parfois trop compliqué pour les
+personnes âgées ; il est mieux de mettre sa main le doigt levé dans l’un des 4 côtés de
+la croix, puis de dire « Regardez mon doigt, maintenant mon nez, doigt, nez, doigt,
+etc. ». Ses yeux doivent alors se déplacer de manière rapide, conjuguée et précise, sans
+
+3 Un Horton peut d’ailleurs donner une diplopie transitoire ; à surtout évoquer chez les
+
+patients de > 65 ans !
+
+Page 17 sur 31
+
+!
+
+saccade correctrice. On recherche une dysmétrie (= yeux qui vont trop ou pas assez
+loin et n’atteignent pas la cible, ils font alors une saccade correctrice)
+•
+
+!
+!
+
+!
+!
+
+Nystagmus : une oscillation des yeux avec une phase rapide (saccade) et lente
+(poursuite). La phase rapide détermine la direction du nystagmus. On a déjà observé
+s’il y avait un nystagmus au regard droit. Il faut également regarder s’il y a un
+nystgamus de regard (lorsque l’on regarde dans une direction), positionnel (lors du test
+de Hallpike), optocinétique (quand on regarde au loin dans le train et il est
+physiologique). Il faut également regarder la direction du nystagmus, si celle-ci est
+constante, regarder si les deux yeux font un nystagmus et si c’est le même. Si la
+direction du nystagmus change, si les deux yeux font un nystagmus différent ou si le
+nystagmus n’est pas horizontal, on suspecte un problème central !
+
+• Pathologie
+✓ Déviation conjuguée : en cas d’atteinte des hémisphères, les yeux regardent la lésion
+(et donc du côté opposé à l’hémisyndrome), alors qu’une atteinte du tronc cérébral
+donnera une déviation conjuguée avec les yeux regardant l’hémisyndrome
+✓ Atteinte isolée du III : exotropie (effet du VI) et hypotropie (effet du IV), ptose et
+mydriase. Les causes sont les apoplexies pituitaires, les anévrismes de l’artère
+communicante postérieure, les AVC du mésencéphale, les tumeurs (typiquement les
+schwannomes du sinus caverneux), les neuropathies diabétiques, les méningites et la
+SEP
+✓ Opthalmoplégie internucléaire (OINA), exemple : lorsque le VI à droite fait une
+abduction, le III à gauche doit faire une adduction. Le VI à droite communique au III à
+gauche qu’il doit faire l’adduction via le faisceau longitudinal médian gauche. Dans
+l’OINA, la connexion ne se fait plus (faisceau longitudinal médian atteint), ce qui fait
+que lorsqu’on demande au patient de regarder à droite (dans cet exemple), l’oeil
+gauche ne pourra pas regarder à droite et restera fixé au centre, alors que l’oeil droit va
+lui pouvoir aller à droite, mais en effectuant un petit nystagmus. Une OINA peut être
+un signe de SEP.
+Particularité : dans cette atteinte, on notera que la convergence (= loucher, médié par
+le IV) reste normale, malgré que l’adduction (médiée par le III) soit elle perturbée !
+✓ Nystagmus unidirectionnel soudain à la poursuite chez un patient alcoolique
+chronique : signe d’une encéphalopathie de Gayet-Wernicke (= déficit en thiamine, la
+vitamine B1). Il faut corriger le déficit avant d’administrer du glucose, car son cycle
+consomme de la B1 et risque d’empirer la situation !
+✓ Nystagmus au regard extrême : physiologique si épuisable
+✓ Saccades imprécises : ataxie cinétique cérébelleuse. Le patient doit faire une saccade
+correctrice pour voir notre doigt
+4. Nerf trochléaire/pathétique/IV : il est testé avec le III et VI. Il innerve le m. oblique
+supérieur (rotation interne et abaissement) et est testé en demandant au patient de
+loucher
+•
+
+Pathologie :
+Page 18 sur 31
+
+!
+!
+
+!
+
+✓ Atteinte isolé du IV : le muscle oblique supérieur est responsable d’une intorsion
+(rotation vers l’intérieur, d’un abaissement et d’une adduction). Son déficit va causer
+une exotropie et hypertropie, ainsi qu’une rotation de l’œil (non-visible). C’est le
+regard « pathétique », le patient fléchit la tête du côté sain et rentre son menton pour
+réaligner l’axe. Il est touché lors de TCC
+5. Nerf trijumeau/V : on teste sa fonction motrice (m. masséter, ptérygoïde et temporaux,
+tenseur du tympan) et sensitive. Sa fonction sensitive est divisée en trois racines
+(ophtalmique, maxillaire, mandibulaire) qui innervent des territoires distincts, que l’on
+doit tester. Des fibres lacrymales, provenant du noyau du VII, rejoignent le nerf V
+•
+
+Fonction motrice :
+1) Demander de déplacer la mandibule, vers les côtés, puis de l’ouvrir contre
+résistance. On demande ensuite au patient de mâcher tout en palpant ses mm. masséter
+et temporal superficiel pour évaluer leur contraction
+2) Réflexe massétérique : on demande au patient d’ouvrir légèrement la bouche
+(même position que lorsqu’on va éternuer). On place notre index dans le creux du
+menton, on tapote avec le marteau 2-3 fois et on regarde si on voit une contraction de
+la bouche (soit vers les dents, soit un peu en avant de l’oreille des deux côtés). Une
+hypertonie de ce réflexe est le signe d’une atteinte centrale
+
+•
+
+Fonction sensitive :
+1) Toucher rapide en caressant symétriquement la peau dans les territoires du
+trijumeau, (1) au-dessus des sourcils, (2) sur les pommettes (3) sur le menton4. On
+peut faire un toucher/piquer
+2) Réflexe cornéen : on approche un bout de coton vers la cornée jusqu’à la toucher,
+puis le patient doit brutalement fermer ses yeux pour se protéger de cette agression, en
+utilisant le VII. Comme ce test est très désagréable, il faut éviter de le faire en routine !
+
+!
+
+!
+!
+
+• Pathologie :
+✓ Les atteintes périphériques sont souvent isolées, touchant seulement l’une des trois
+branches
+✓ On peut avoir une atteinte isolée du V2 en cas de fracture du plancher de l’orbite
+✓ Le zona touche typiquement le V1 (donne alors un zona ophtalmique, ce qui risque de
+donner des lésions de l’oeil = à traiter !)
+✓ Le V est souvent touché dans les hémisyndromes
+6. Nerf abducens/VI : il est testé avec le III et IV et innerve le m. droit latéral, qui fait
+une abduction
+•
+
+Pathologie :
+
+4 Attention au fait que la branche mandibulaire du n. V (= le V3) n’innerve que la peau de la
+
+bouche qui est située au-dessus du menton ! Il ne faut donc pas dépasser le rebord inférieur
+de la mandibule !
+
+Page 19 sur 31
+
+!
+
+!
+
+!
+!
+
+!
+
+✓ Atteinte isolée du VI, par exemple à droite : ésotropie à la fixation et lors de la
+poursuite vers la droite, causant une diplopie, mais pas de diplopie lorsque le patient
+regarde à gauche (car le VI à gauche fonctionne, tout comme le III à droite). Il est
+surtout touché dans les HTIC
+7. Nerf facial/VII : il a une fonction motrice de par son innervation des muscles de la
+face (aussi le platysma) et du muscle stapédien (le petit dans la chaîne des osselets de
+l’audition, permettant de diminuer la transmission du son à l’oreille interne). Il a
+également une fonction gustative des deux tiers antérieurs de la langue et il innerve
+sensitivement le méat auditif externe (zona !). Il assure l’innervation parasympathique
+des glandes lacrymales, sous-linguales et sous-mandibulaires
+•
+
+Fonction motrice : demander au patient de faire les expressions faciales, rechercher
+des asymétries. « Fermez les yeux, si fort que je ne puisse pas vous relever les
+paupières », « Ouvrez les yeux et froncez les sourcils » (et lever les sourcils ?),
+« Gonflez les joues » (et appuyer sur la joue dans ce cas), « Souriez et montrez les
+dents », « Essayez de souffler/siffler ». On aussi peut dire « faites comme moi » pour
+faciliter les choses
+
+•
+
+Fonction gustative : utiliser des saveurs distinctes (sucré/salé, amer) pour tester la
+gustation des deux tiers antérieurs de la langue
+
+•
+
+Note : en cas de déficit facial évident, il faut aussi tester l’audition, car le nerf facial
+innerve le m. stapédien, dont le déficit cause une augmentation des bruits intenses. Le
+muscle stapédien est au centre d’un réflexe protecteur des bruits trop élevés sur le
+long-terme (type concert hard-rock de 5 heures), mais ne protège pas de traumatismes
+auditifs soudains
+
+• Pathologie :
+✓ Atteinte périphérique : hémiparésie de la face homolatérale (front lisse, pas de
+fermeture de l’œil), phénomène de Bell (réflexe naturel, dans lequel l’œil remonte vers
+le haut et l’extérieur lorsqu’on essaie de fermer l’oeil atteint. Il devient visible lorsque
+le nerf VII est atteint, car celui-ci commande la fermeture de l’œil, qui n’est alors plus
+possible), commissure labiale qui chute, éventuellement hyperacousie latéralisée du
+côté atteint et ageusie. Les causes d’atteintes unilatérales sont les herpès, le zona et les
+atteintes de la parotide (que le nerf traverse, mais n’innerve pas !), alors que les
+atteintes bilatérales sont causées par un Guillan-Barré, la myasthénie ou la borréliose
+(maladie de Lyme)
+✓ Les atteintes périphériques légères peuvent donner le signe des cils de Souques.
+Lorsque le patient ferme ces yeux, on voit toujours les cils, ce qui ne devrait pas
+arriver si le patient les fermaient suffisamment fort. Cela montre une légère atteinte
+périphérique. Il faut que ce signe soit unilatéral pour être significatif
+✓ Atteinte centrale : hémiparésie de quadrant inférieur controlatéral. La partie supérieure
+reçoit une innervation bilatérale, l’hémisphère homolatéral assure ainsi la fonction. On
+ne voit pas de phénomène de Bell, ni de difficulté à froncer le front, ni de difficulté à
+fermer l’œil, mais surtout une chute de la commissure labiale (= de la lèvre). On voit
+Page 20 sur 31
+
+!
+!
+!
+
+!
+
+!
+!
+
+aussi une dissociation automatico-volontaire (ex : le patient est incapable de sourire
+sur commande, mais peut le faire inconsciemment avec une blague. Ceci est expliqué
+par le fait que les boucles réflexes marchent encore !)
+✓ Après une atteinte, on peut retrouver une réinnervation aberrante, car les fibres sont
+proches les unes des autres. Par exemple, on peut avoir une élévation de la bouche lors
+de la fermeture de l’œil et inversement, ou encore les « larmes de crocodile », qui sont
+des larmoiements inattendus lors des repas
+
+8. Nerf vestibulo-cochléaire : il possède une fonction vestibulaire et une fonction
+auditive (test de murmure, de Rinné et Weber)
+•
+
+Fonction vestibulaire : en cas d’atteinte vestibulaire, le patient présente des vertiges,
+nausées et vomissements. La marche, le Romberg et les bras tendus sont latéralisés du
+côté de l’atteinte. On fait le test d’Halmagyi et de la marche en étoile (= test de
+Fukuda) pour l’examen neurologique. Des examens ORL plus poussés peuvent tester
+le nerf VIII, mais on ne les fait pas dans un examen de routine.
+Attention : dans le vertige central, on notera que le test d’Halmagyi est normal est
+qu’il n’est perturbé qu’en cas d’atteinte périphérique ! De même, une atteinte
+périphérique est très fortement associée à un nystagmus, alors qu’un nystagmus sans
+nausées et vomissements doit faire pointer vers une atteinte centrale ! On notera aussi
+que dans une atteinte centrale, le Romberg sera dysharmonieux, c’est-à-dire que
+contrairement à une atteinte périphérique où les doigts dévient du même côté que celui
+où le patient tombe, une atteinte centrale fera que les doigts ne dévient justement pas
+du même côté que celui vers lequel le patient tombe !
+
+•
+
+Halmagyi : de nos deux mains, on tient la tête du patient et on lui demande de garder
+son regard fixé sur notre nez. On le prévient qu’on va effectuer des mouvements
+brusques avec sa tête (à ne pas faire s’il a des problèmes de cervicales ou une sténose
+carotidienne !) et on fait brusquement tourner sa tête vers la gauche et la droite,
+plusieurs fois. On teste le réflexe vetibulo-oculaire, avec des yeux qui doivent
+continuer à nous fixer. Si on détecte une saccade correctrice, c’est le signe d’une
+atteinte périphérique du côté duquel on a tourné la tête. Le mouvement doit être
+brusque, car le vestibule fonctionne à haute fréquence.
+(Explication : le canal semi-circulaire horizontal ipsilatéral est activé par un
+mouvement vers lui (le canal droit est excité par la rotation vers la droite). Il va alors
+activé le nerf VI controlatéral et le III ispsilatéral pour assurer la fixation du regard.
+Pendant ce temps, le canal controlatéral est inhibé. Ceci explique pourquoi le test n’est
+pathologique que d’un des deux côtés. L’activation/inhibition des canaux dépend du
+sens dans lequel l’endolymphe tourne)
+
+•
+
+Marche en étoile : on demande au patient de marcher sur place les yeux fermés (ou on
+lui demande de faire 3 pas vers l’avant, puis 3 en arrière, puis 3 en avant, etc.) et il va
+commencer à dévier du côté ispilatérral à sa lésion en cas d’atteinte périphérique.
+C’est le signe d’Unterberger
+
+Page 21 sur 31
+
+!
+
+!
+
+!
+
+!
+
+•
+
+(J’imagine que ce serait aussi une bonne idée de faire un test de Romberg ?)
+
+•
+
+(Autre test : manœuvre de Hallpike : le patient, assis, a la tête tournée à 45°, puis on le
+couche tout en inclinant sa tête de 30° vers le sol. Si une nausée + un nystagmus
+(vertical le plus souvent, d’autres tests pouvant faire apparaître un nystagmus
+horizontal) apparaissent, on pourrait avoir affaire à un Vertige Positionnel
+Paroxystique Bénin (= VPPB), signe d’une atteinte périphérique bénigne)
+(Autre test : épreuve calorique : on met de l’eau chaude ou froide dans le conduit
+auditif, donnant un nystagmus battant du côté ipsilatéral pour l’eau chaude et du côté
+controlatéral pour l’eau froide)
+
+•
+
+Fonction auditive :
+Test du murmure : On se met d’un côté du patient (d’abord du côté de sa meilleure
+oreille), à distance d’avant bras, tout en masquant son autre oreille en demandant au
+patient de se frotter le tragus (ou en le frottant nous-même) ou en utilisant la boîte de
+Barany (permet de masquer le son de cette oreille et ainsi d’éviter le transfert crânien).
+On va ensuite prononcer successivement plusieurs mots de deux syllabes (surtout les
+nombres comme 18, 33, etc.), tout d’abord en chuchotant, puis en parlant
+normalement, et finalement d’une voie forte. On détermine ainsi approximativement le
+degré d’atteinte. Remarque : pour l’ECOS, uniquement se limiter au chuchotement. En
+pratique, si on ne découvre pas de déficit, on ne fait pas le Rinné et Weber.
+Alternative : on place nos deux mains à côtés de chaque oreille, on les frotte les unes
+après les autres et on demande où le patient entend et/ou s’il entend symétriquement.
+
+•
+
+Test de Rinné : On commence en général par le test de Rinné, en tapant le diapason
+(Diapason de 512Hz ≠ celui des vibrations) contre son coude, sa rotule ou en le
+pinçant, puis en le pressant (ne pas hésiter à appuyer jusqu’à qu’il entende bien) contre
+le processus mastoïde. On attend ensuite que le patient n’entende plus rien, puis on
+met le diapason très proche de son oreille, parallèlement à celle-ci. S’il entend à
+nouveau tout est normal (= Rinné positif !). En cas de surdité de conduction, la
+transmission osseuse sur la mastoïde étant meilleure, le patient n’entendra aucun son
+lorsque l’on placera le diapason proche de son oreille. Le Rinné est alors négatif. En
+cas de surdité de perception, le Rinné reste positif, car le déficit touche autant la
+conduction osseuse que aérienne. (Si la surdité de perception est trop forte (60dB), le
+test sera faussement négatif, car la conduction osseuse permet une transmission du son
+à l’oreille saine, alors que la conduction aérienne pas)
+
+•
+
+Test de Weber : On frappe à nouveau le diapason, mais on le pose cette fois-ci sur le
+vertex ou le front (ou encore sur le menton, mais c’est moins efficace ; en tout cas, sur
+la ligne médiane du crâne). Encore une fois, il ne faut pas hésiter à bien appuyer le
+diapason, en maintenant la tête du patient avec l’autre main. Le patient devrait
+entendre le son avec la même intensité avec ses deux oreilles. En cas de surdité de
+conduction, le Weber est latéralisé (= plus fort) du côté atteint. L’atteinte des voies de
+conduction du côté malade diminue le masquage naturelle du bruit de
+l’environnement, augmentant ainsi le bruit du côté atteint. En cas de surdité de
+perception, le Weber est latéralisé du côté sain. L’oreille atteinte ne bénéficie pas d’un
+
+Page 22 sur 31
+
+!
+
+!
+
+masquage des bruits de l’environnement et perçoit donc simplement des bruits plus
+faibles.
+•
+
+(Examen ORL, pas neurologique : pour compléter l’examen de l’audition, on peut
+faire une otoscopie ; si on suspecte une otite externe, on peut palper le tragus (fait mal,
+ainsi que tout mouvement de l’oreille), la zone antérieure au tragus, regarder si on voit
+un écoulement, une rougeur, un gonflement, etc. On peut ensuite inspecter le MAE
+avec l’otoscope à la recherche de gonflement. Si on suspecte plutôt une otite moyenne,
+on va palper les ganglions du cou et de la mâchoire, on peut également parfois
+observer un décollement de l’oreille (surtout chez les enfants, pouvant évoquer une
+mastoïdite), on va chercher des signes de gonflement et d’inflammation au niveau du
+processus mastoïde. On peut encore percuter ce processus (fait mal) pour écouter s’il
+est encore creux et finalement inspecter l’intérieur de l’oreille pour regarder si du
+liquide est visible dans l’oreille moyenne. Pour manier l’otoscope, on le tient comme
+un crayon avec sa main antérieure (= permet une stabilisation sur la joue et évite de
+percer le tympan si le patient bouge la tête), on penche la tête du patient à ~ 30°, puis
+on tire l’oreille vers le haut et l’arrière. On peut ensuite insérer l’otoscope, plutôt
+horizontalement que verticalement, en suivant la courbure du canal à l’oeil nu (et on
+ne l’enfonce pas trop). On regarde ensuite à travers la lentille, en dirigeant l’otoscope
+vers la partie postérieure du canal, puis sa partie antérieure (= technique pour ne pas
+faire mal). On décrit ensuite ce qu’on voit dans l’oreille (un bouchon de cire (gros et
+brun, réfléchissant bien la lumière), un canal étroit, tout normal, etc.) et il est normal
+de trouver des poils dans la partie distale de l’oreille, qu’il faut passer (et dire qu’on
+les voit). On va finalement demander au patient d’effectuer une manoeuvre de
+Valsalva pour voir si son tympan répond correctement aux différences de pression :
+avec l’otoscope dans son oreille, on lui demande de se boucher le nez, puis se souffler
+par le nez (= comme pour se déboucher les oreilles quand on monte à la montagne).
+On devrait voir le tympan se bomber et le triangle lumineux changer de position. Ce
+qui est normal : avoir le triangle lumineux dans la partie antéro-inférieure de l’oreille,
+voir les osselets en transparence, etc. Il est important de changer d’embout entre
+chaque oreille pour éviter de transmettre des germes d’une oreille à l’autre en cas
+d’otite ! L’oreille est innervée postérieurement par les C2-3, antérieurement par le V3,
+la zone de Ramsay-Hunt et le canal par les nn. VII, IX et X. La partie antérieure et
+supérieure du MAE est innervée par le n. V3 et la partie postérieure et inférieure par
+les nn. VII, IX et X)
+
+• Pathologie :
+✓ Il est difficile de distinguer les atteintes centrales des atteintes périphériques. Il faut
+chercher des signes neurologiques focaux pour nous orienter vers une atteinte centrale.
+Les lésions périphériques peuvent être diverses (schwannome, etc.)
+✓ Une hypoacousie est presque toujours périphérique (vasculite, syphilis, etc.)
+✓ Le traumatisme acoustique et la presbyacousie (= la diminution du spectre des
+fréquences perçues avec l’âge, touchant surtout les hautes fréquences) sont les causes
+principales de surdités de perception. Les affections de l’oreille externe et moyenne
+sont les principales causes de surdité de conduction (ex. : bouchon de cire, tympan
+
+Page 23 sur 31
+
+!
+!
+
+!
+!
+
+!
+
+percé, problème des osselets, otite moyenne, etc.). Les pertes auditives associées
+peuvent être de légères à moyennes (~ 60dB)
+✓ Patient avec AVC : on teste l’audition à gauche puis à droite et le patient dit entendre
+des deux côtés. Si on lui demande où il entend, il dit qu’il n’entend qu’à gauche. C’est
+une extinction sensorielle = ± héminégligence (la même chose peut arriver avec la
+sensibilité, la force, etc.)
+✓ Vertige central : début hyperaigu, le patient n’arrivant plus à marcher. Le nystagmus
+peut être vertical, dissocié et changer de direction. On retrouve d’autres signes
+centraux (Babinski, hoquet, diplopie, etc.). Le patient peut avoir des céphalées
+✓ Vertige périphérique : souvent associé à une hypoacousie et un tinnitus. Le patient
+vomit beaucoup. Le réflexe vestibulo-oculaire est absent, le test de Halmagyi est donc
+positif. En cas de VPPB, il y a un nystagmus (vertical) au Hallpike
+9. Nerf glosso-pharyngien/IX : il donne la sensibilité du pharynx et gustative du tiers
+postérieur de la langue. Il assure le parasympathique de la glande parotide. Il est
+également moteur pour le palais et la déglutition jusqu’au haut œsophage
+•
+
+On examine le pharynx du patient à la recherche d’une parésie de l’élévation du
+pharynx du côté atteint. Pour cela, on demande au patient de tirer la langue, on prend
+un abaisse-langue et on observe le fond de sa gorge. On observe, puis on lui demande
+de dire « Ahhh », ou « Ohhh » (ou n’importe qu’elle autre voyelle) et on regarde
+comment le la luette est tirée. Si ce n. est atteint, la luette sera davantage tirée du côté
+sain, car les muscles y fonctionnent encore ! On pourrait aussi remarquer que le palais
+est plus élevé du côté sain, donnant le signe du rideau
+
+•
+
+On peut tester la sensibilité gustative avec différentes saveurs (salé/sucré, amer). On
+peut également tester le réflexe nauséeux (afférence du IX, efférence du X), mais ces
+deux tests ne se font pas en routine
+
+10. Nerf vague/X : il est responsable de l’innervation motrice des muscles pharyngiens
+(avec le IX, pour la déglutition) et laryngés (= muscle de la voix et de la résonance via
+le nerf récurrent, qui contrôle les cordes vocales). Il a également des fibres gustatives
+au niveau de l’épiglotte (mais sérieux balek de celles-là) et il innerve les viscères
+thoraciques et abdominaux de manière parasympathique. Il a une petite partie sensitive
+dans le canal auditif
+•
+
+Tout comme pour le n. IX, on va rechercher une paralysie d’un hémivoile du palais (=
+voile asymétrique, avec le même test que pour le IX), mais également une voix
+sourde, enrouée et nasonnée (= comme quand on se bouche le nez). Dans le cas où
+seul un nerf récurrent est touché sans que le n. laryngé supérieur ipsilatéral ne soit
+atteint (= atteinte assez basse), on peut retrouver une voix soufflée et légèrement trop
+aigüe ± des dysphagies pendant quelques jours (s’améliorant au bout de 3 à 4 jours).
+
+Page 24 sur 31
+
+!
+
+Les atteintes du X donnent le plus souvent (1) des dysphonies5 (dans toutes les
+atteintes), (2) des dysphagies6 et (3) de la toux
+•
+
+!
+
+On peut également demander au patient de déglutir en regardant le fond de sa gorge,
+puis son cou ; si tout est harmonieux, les nn. IX et X doivent être intacts !
+
+• Pathologie:
+✓ Tous les muscles du larynx sont innervés par les nn. récurrents, à l’exception du cricothyroïdien qui est innervé par le n. laryngé supérieur (mais ces deux nn. sont des
+branches du X). Une atteinte du n. laryngé supérieur donne un déficit de la voix
+aiguë ; inversement, une atteinte du n. laryngé récurrent seul donnera une voix trop
+aigüe et soufflée
+✓ Une atteinte du nerf X peut donner un hoquet
+✓ Les troubles de la déglutition neurologiques concernent surtout les liquides, alors que
+les causes mécaniques (≠ neurologiques) concernent elles surtout les solides
+
+!
+!
+11. Nerf accessoire/XI : il assure l’innervation motrice du SCM et du trapèze
+!
+•
+
+On évalue l’élévation des épaules pour le trapèze et tourner la tête légèrement vers le
+bas pour le SCM, ces deux tests devant être faits contre résistance. On inspecte aussi
+ces mm. visuellement à la recherche d’une amyotrophie/de fasciculations orientant
+vers une atteinte périphérique
+
+!
+• Note : Lorsqu’on tourne la tête à droite, c’est le SCM gauche qui se contracte !
+!
+!
+
+12. Nerf hypoglosse/XII : il innerve les mm. de la langue, qui sont importants pour la
+déglutition et l’articulation
+•
+
+On demande au patient de tirer sa langue et ensuite de la bouger vers la gauche, puis la
+droite, la langue devant dévier du côté atteint en position neutre. On regarde si on une
+amyotrophie et si des fasciculations seraient apparentes (oriente vers une atteinte
+périphérique, par exemple une SLA). On va également tester la force de sa langue en
+lui demandant d’appuyer contre ses joues depuis l’intérieur de sa bouche et en
+imposant une résistance depuis l’extérieur.
+Mais pourquoi la langue dévie-t-elle du côté atteint ? Quand on tire la langue, les
+muscles la poussent dehors en réalité. Un déficit d’un côté va entraîner la déviation du
+
+5 Une dysphonie est une atteinte d’une ou plusieurs des modalités de la voix au niveau des
+
+cordes : timbre, hauteur et intensité, à distinguer de la dysarthrie qui est une difficulté à
+articuler au niveau de la bouche. La dysarthrie se voit en cas d’atteinte du cervelet, la voix
+variant en intensité de manière brusque et inappropriée (= klaxophonie)
+6 Les dysphagies sont transitoires en cas d’atteinte unilatérale épargnant le n. laryngé
+
+supérieur, importantes et persistantes en cas d’atteinte unilatérale du n. X et très
+importantes/vitales et persistantes en cas d’atteinte bilatérale laissant les deux cordes
+vocales ouvertes
+
+Page 25 sur 31
+
+côté sain de la langue vers le côté atteint. Toujours corréler au contexte clinique, car
+cela peut être une déviation de longue date !
+En cas d’atteinte de la langue, on pourrait aussi retrouver des dysarthries (= difficultés
+à articuler), car elle est indispensable pour pouvoir correctement parler !
+
+!
+
+!
+
+• Pathologie des nn. crâniens IX à XII dans le bulbe rachidien:
+✓ Syndrome bulbaire : atteinte des noyaux et/ou des nerfs après leur décussation,
+donnant une anomalie ipsilatérale : dysarthrie, dysphagie, atrophie et fasciculations
+✓ Syndrome pseudo-bulbaire : atteinte au-dessus des nerfs crâniens inférieurs avant leur
+décussation, donnant une dysarthrie, dysphagie, spasticité et/ou un ralentissement
+controlatéraux. On peut aussi retrouve des pleurs et/ou rires inappropriés, eux
+bilatéraux)
+
+Evaluation de l’état de conscience
+
+!
+La conscience est définie par deux concepts princeps :
+!
+!
+
+1. Wakefulness (± éveil) : c’est la capacité de percevoir = niveau de conscience
+2. Awareness (± perception) : c’est le contenu de la perception = contenu de conscience
+
+Ces deux concepts sont reliés à des régions anatomiques précises. L’éveil provient du système
+réticulaire dans le tronc cérébral et du thalamus, alors que ce sont les réseaux corticaux
+frontaux-pariétaux pour qui s’occupent de la perception
+
+!
+
+On teste la conscience avec le Glasgow Coma Scale (GCS). Le score maximum est 15, le
+minimum 3. En dessous de 8, on parle de coma
+
+!
+
+"
+•
+
+•
+
+•
+
+Ouverture des yeux : si le patient n’a pas les yeux ouverts, lui demander de les ouvrir,
+sinon le pincer sur la partie blanche de l’ongle. Si le patient dormait et qu’on le
+réveille, le score est de 4
+Réponse verbale : demander au patient un question simple « En quelle année sommesnous ? ». Confuse : c’est la mauvaise année. Inappropriée : « Hier, maman ».
+Incompréhensible. Crie, gémit, etc.
+Réponse motrice : Demander au patient de montrer 2 doigts. S’il ne le fait pas,
+provoquer une douleur (supraorbitaire, frotter le sternum, etc.) et regarder si le patient
+essaie de nous enlever le bras (= orienté à la douleur). Provoquer ensuite une douleur à
+l’ongle et regarder s’il retire son bras (= évitement adapté ou non). La décortication est
+une adduction et flexion du membre supérieur, montrant une destruction des voies
+Page 26 sur 31
+
+pyramidales proches des hémisphères. La décérébration est l’extension du bras
+orientant vers une atteinte sous-corticale (diencéphale, tronc, etc.)
+
+!
+
+!
+
+• Atteinte de l’état de conscience:
+✓ Coma : non-conscience et non-éveil. C’est le niveau minimum de conscience
+✓ Syndrome d’éveil non répondant (anciennement état végétatif) : l’éveil n’est pas
+atteint, mais il n’y a pas de perception consciente. Les yeux sont ouverts, mais ne
+répondent pas aux ordres. Il n’y a pas d’interactions
+✓ État de conscience minimale : l’éveil n’est pas atteint et la perception est atteinte, mais
+plus légèrement que dans le syndrome précédant. Les yeux sont ouverts, mais le
+patient arrive à effectuer une poursuite du regard sur ordre et il peut éventuellement
+dire un ou deux mots
+✓ Stupeur : réponse aux stimulations verbales par des gestes vagues ou grognements
+✓ Obnubilation : patient réveillable, répondant aux ordres avec lenteur et sans précision
+✓ Somnolence : état intermédiaire entre la veille/sommeil, tendance à s’assoupir en
+l’absence de stimulation
+
+Techniques spéciales
+
+!
+En cas de suspicion de méningisme (méningite, HSA, etc.)
+!
+•
+•
+•
+
+•
+
+!
+
+Raideur de nuque : remonter le menton jusqu’au sternum. Cela ne doit provoquer ni
+douleur, ni résistance
+Signe de Brudzinski : la flexion du cou lors du premier test donne un flexion des
+hanches et genoux
+Signe de Kernig : fléchir une hanche à 90°, puis lentement étendre le genou ; à un
+moment, le patient va fléchir la tête pour soulager la douleur, tout en essayant de
+fléchir son genou. Attention : une compression d’une racine nerveuse ou lombaire peut
+aussi provoquer cette douleur (même si ce test n’est pas le test de Lasègue) !
+Signe de Jolt : le meilleur des 4 signes et le plus simple à faire, on prendre la tête du
+patient couché dans ses deux mains et on fait doucement rouler la tête d’un côté puis
+de l’autre (fréquence de ~ 2 à 3 par secondes). Si on est au téléphone, on peut même
+simplement demander au patient de tourner sa tête d’un côté puis de l’autre quelque
+fois à la recherche d’un inconfort, de douleurs ou d’une raideur de nuque !
+
+Syndrome méningé : ensemble des signes et symptômes consécutifs à une irritation de
+la dure-mère/arachnoïde. Les protéines inflammatoires font augmenter la pression du
+LCR, ce qui provoque une douleur et une résistance dans toutes les méninges
+✓ Symptômes : 90% céphalées inhabituelles, violentes et continues, phono/photophobie,
+nausées et vomissements, fièvre (si infectieux)
+✓ Signes : raideur de nuque avec les deux signes ci-dessus, patient en chien de fusil,
+signes pyramidaux avec ROT vifs
+✓ 2 triades typiques de la méningite : ! maux de tête + raideur de nuque + fièvre ou
+altération de l'état de conscience + fièvre + raideur de nuque
+•
+
+!
+
+Page 27 sur 31
+
+!
+En cas d’hernie discale
+!
+•
+
+Signe de Bragard : le patient couché, on met son MI à ~ 30° de flexion, puis on fait
+une dorsiflexion du pied. On recherche une douleur dans le territoire du sciatique (ici
+L5). Les hernies sont associées à une faiblesse musculaire à la dorsiflexion (L4 - L5
+du sciatique, alors que S1 est pour l’arrière de la jambe et la flexion plantaire du pied)
+et une amyotrophie.
+
+!
+En cas d’insuffisance hépatique (encéphalopathie hépatique), d’urémie ou d’hypercapnie :
+!
+•
+
+Astérixis : asseoir le patient et lui demander de positionner ses mains comme pour
+arrêter un camion. On observe les mains pendant 1-2 min à la recherche de flexion
+brèves et brusques (2 à 3 fois par seconde = fréquence nettement plus faible que dans
+le Parkinson)
+
+Et après l’examen clinique…
+Les grands syndromes neurologiques:
+
+!
+
+!
+
+!
+
+•
+
+Syndrome pyramidal = atteinte des neurones moteurs centraux/supérieurs ou du
+faisceau pyramidal
+1) Force : muscles parétiques et spastiques (= contraction violente et douloureuse de
+tout le muscle), pas de fonte musculaire, hémiparésie ; Romberg : apparition
+progressive d’un abaissement du bras, d’une pronation et/ou d’un creusement des
+doigts
+2) Motilité fine : diminuée
+3) Tonus : augmenté, exacerbé par la vitesse à laquelle on déplace le membre,
+phénomène du « couteau suisse » (= muscles durs au début, puis lâchent
+soudainement), apparition d’un clonus (= > 3 secousses)
+4) Réflexes : le réflexe cutané abdominal disparaît, le réflexe de Babinski se positive,
+le signe de Hoffman se positive, hyper-réflexie généralisée
+
+•
+
+Syndrome périphérique (= myogène ou neuromusclaire) = atteinte des motoneurones
+inférieurs :
+1) Force : muscles parétiques ± fasciculations (= activation aberrante d’une seule unité
+motrice), fonte musculaire, para-/tétra-parésie ; Romberg : incapacité à se mettre dans
+la position/à lever les bras
+2) Motilité fine : intacte
+3) Tonus : hypotonie/tonus flasque
+4) Réflexes : réflexes abolis/fortement diminués
+
+•
+
+Syndrome extra-pyramidal = atteinte de la boucle des noyaux gris centraux ; du coup,
+on aura des symptômes ressemblant beaucoup à ceux d’un patient parkinsonien :
+rigidité des membres, bradykinésie, tremor permanent, parfois akathisie (=
+impossibilité de rester tranquille, forçant par exemple à tout le temps bouger les
+Page 28 sur 31
+
+!
+
+jambes)
+3) Tonus : membre très rigide en permanence (et ne dépend PAS de la vitesse), de type
+« tuyau de plomb »
+•
+
+!
+
+Syndrome cérébelleux : on retrouve les atteintes vestibulo-cérébelleuses, statiques et
+cinétiques
+✓ Syndrome vestibulo-cérébelleux (lobe flocculo-nodulaire) : incapacité à
+tenir debout, latéropulsion ispsilatérale à la lésion au Romberg, et
+syndrome oculomoteur (déviation ipsilatérale dès que le sujet ne fixe pas
+son regard)
+
+!
+
+✓ Ataxie statique (vermis) : ligne de direction sinueuse à la marche du
+funambule, polygone de sustentation élargi, Romberg négatif avec danse
+des tendons, oscillations aux tests de bras et jambes tendues, instabilité
+assis
+
+!
+
+✓ Ataxie cinétique (hémisphères cérébelleux): dyssynregie
+(décomposition du mouvement, erreur de force et de timing), dysmétrie
+(va trop ou pas assez loin dans ses mouvements = hypo/hypermétrie à
+cause du manque de coordination entre agonistes et antagonistes),
+tremblement d’action, hypotonie (réflexes pendulaires), rebond
+pathologique, dysdiadochocinésie (faire les marionnettes).
+
+!
+
+Que faire en cas de suspicion d'AVC/d'AIT
+
+!
+
+En cas de suspicion d'AVC ou d'AIT, il est important de tout tester en touchant le corps tout
+entier, pour rapidement identifier le siège possible de la lésion
+•
+
+Tester la conscience du patient avec le GCS
+
+•
+
+Tester la sensibilité et la motricité de tous les nerfs crâniens : pour le VIII, il n'est pas
+nécessaire de tester précisément l'audition avec les diapasons ; c'est plutôt un examen
+d'ORL
+
+•
+
+Tester la sensibilité et la motricité de tous les membres : pour tester la sensibilité, il
+n'est pas nécessaire d'effectuer un « toucher - piquer » partout, mais juste de passer
+symétriquement ses mains (= ~ de frotter) partout sur le corps du patient (ex. : sur les
+faces antérieure, postérieure, interne et externe des deux MS)
+
+•
+
+Tester tous les réflexes des membres
+
+•
+
+TR (recherche de troubles sphinctériens)
+
+•
+
+Romberg : demander au patient de faire un Romberg, ce qui permet à la fois de tester
+son équilibre et un éventuel problème moteur. De plus, lors de la phase où le patient a
+les yeux fermés, on peut parfois remarquer dans les AVC (signe très sensible) que le
+patient fait une lente pronation qu'il ne sent pas lui-même
+
+•
+
+Recherche d'une aphasie : on peut retrouver deux types d’aphasie (retrouvées dans les
+Page 29 sur 31
+
+lésions des cerveaux gauche et droit) : motrice et « vraie ». Dans l'aphasie motrice, le
+patient est incapable de parler, car ses muscles ne lui répondent plus (normalement
+visible lors du test des différents nerfs crâniens) ; par contre, il comprend tout ce qu'on
+lui demande. Dans l'aphasie « vraie », l'AVC/l'AIT a touché la zone du langage, ce qui
+fait que le patient n'arrive juste pas à communiquer (= il ne trouve pas les mots) et ne
+comprendra aussi souvent pas ce qu'on lui demande (= n'arrive pas à trouver le sens
+des mots)
+
+Séquence à tenir dans toutes les céphalées
+
+!
+
+Anamnèse (= caractériser la céphalée en 7 points + 6 questions) :
+• Localisation :
+o Unilatéral : cluster headache ou migraine surtout
+o Bilatéral : céphalée de tension ou névralgies du V (= sur un territoire du nerf
+V)
+• Irradiation : dans la nuque et omoplate pour les HSA et méningites (car les deux
+donnent une raideur de nuque)
+• Caractère : constriction, pesante (céphalée de tension), pulsatile (migraine)
+• Début et évolution de la douleur : en coup de tonnerre (= typiquement HSA et
+méningite = plus souvent des causes secondaires), rapidement progressif (=
+typiquement AVC ischémique ou hémorragique, hématome sous-dural, thrombose
+sino-veineuse, maladie de Horton, encéphalopathie hypertensive, migraines, cluster
+headache, etc.), lentement progressif (= tumeur, abcès ou autre processus expansif). Si
+la céphalée est présente depuis longtemps, il n’y a pas besoin de trop s’alarmer !
+• Chronologie : inhabituelle, permanente, intermittente, récurrente (signe capital à
+rechercher, car des céphalées récurrentes sont plutôt un bon signe et pointent vers des
+céphalées primaires !), nombre d’épisodes, etc.
+• Facteur soulageant/aggravant : activité physique, sons, lumière
+• Symptômes d’accompagnements : photo- et phono-phobie (fermer les rideaux si le
+patient est photophobe est sympa pour lui !), aura visuelle (dans 1/3 des migraines),
+nausées et vomissements (migraines), fièvre (méningite et encéphalite), symptômes B
+(= fatigue, sueurs nocturnes, perte de poids => plutôt tumoral), signes ipsilatéraux (=
+Horner, sudation, etc. => cluster headache)
+• 6 questions à toujours poser (pour éviter tout problème gravissime et tout problème
+juridique) :
+o 1) La pire céphalée de votre vie ± début paroxystique ? Doit faire évoquer :
+▪ HSA
+▪ Jeune : dissection carotidienne/vertébrale
+▪ Âgé : Horton, tumeur cérébrale, glaucome et hématome sous-dural
+o 2) Différente de d’habitude ? En effet, les migraineux se connaissent super
+bien, donc toute différence doit faire évoquer :
+▪ Maladie systémique
+▪ Immunodéficience
+▪ Cancer
+▪ Médicament (nouveau, sur-dosage, sevrage, etc.) : donne plutôt des
+thromboses des sinus veineux en aigu et des céphalées chroniques
+médicamenteuses en chronique
+Page 30 sur 31
+
+o
+
+o
+o
+
+o
+
+!
+
+▪ Causes toxiques ou métaboliques
+3) Céphalée positionnelle et/ou manoeuvre de Valsalva dépendante ? Bénignes
+dans 90% des cas, mais investiguer si :
+▪ Dure > 1 minute en cas de toux
+▪ Dure > 24h en cas d’effort physique
+▪ Toujours pour les céphalées coïtales
+4) Évolution défavorable (heures ou jours) ?
+5) Trauma, anti-coagulation ou OH ?
+De manière plus générale, tous les traumatismes crâniens mineurs
+accompagnés par (1) un déficit de la mémoire à court terme, (2) une prise
+d’OH ou de drogue, (3) un trauma au-dessus des clavicules, (4) un âge > 60
+ans, (5) une épilepsie post-contusionnelle, (6) des vomissements ou (7) une
+coagulopathie doivent être suivis d’une imagerie
+6) Fonctions supérieures altérées (vient d’une HTIC et donne le plus souvent
+une confusion) et/ou température (suspicion de méningite) ?
+
+Examen clinique :
+• Examen général :
+o Température
+o TA
+o GCS
+• Examen neurologique :
+o Signes méningés
+o Signes de latéralisation
+o Station debout et marche
+o FO
+• Examen dirigé (selon anamnèse) :
+o Percussion des sinus (sinusite)
+o Palpation des yeux (glaucome ; éviter à tout prix après une cure de cataracte !)
+o ORL (surtout pour Horton avec palpation des aa. temporales)
+o Stomatologie (= les dents !)
+o ATM
+o Rachis cervical
+o Auscultation cardio-pulmonaire et carotidienne
+o Examen neurologique plus approfondi (voies longues, nn. crâniens, aphasie,
+amnésie, héminégligence)
+
+Page 31 sur 31
+
+

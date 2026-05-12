@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen du Genou - Revue Médicale Suisse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .main-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            display: flex;
+        }
+        
+        .content-area {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+        
+        .sidebar {
+            width: 350px;
+            background: #f8f9fa;
+            padding: 20px;
+            overflow-y: auto;
+            max-height: 90vh;
+            border-left: 1px solid #e0e0e0;
+            position: sticky;
+            top: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: linear-gradient(to right, #f6f8fa 0%, transparent 100%);
+            border-left: 4px solid #667eea;
+        }
+        
+        h3 {
+            color: #546e7a;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            padding-left: 10px;
+            border-left: 3px solid #764ba2;
+        }
+        
+        h4 {
+            color: #616161;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        p, li {
+            margin-bottom: 12px;
+            line-height: 1.8;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        /* Mise en évidence des pathologies */
+        .pathology {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+        
+        /* Références aux figures */
+        .fig-ref {
+            color: #3498db;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+            transition: color 0.3s;
+        }
+        
+        .fig-ref:hover {
+            color: #2980b9;
+        }
+        
+        /* Images dans la sidebar */
+        .figure-container {
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .figure-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: zoom-in;
+            transition: transform 0.3s;
+        }
+        
+        .figure-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        .figure-caption {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 8px;
+            font-weight: 500;
+        }
+        
+        /* Modal pour zoom image */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: zoom-out;
+        }
+        
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+        }
+        
+        /* Section anatomie */
+        .anatomy-section {
+            background: #f9f9f9;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        /* Cartes de révision */
+        .revision-cards {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 3px solid #667eea;
+        }
+        
+        .cards-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .card-image-container {
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card-image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: zoom-in;
+            transition: transform 0.3s;
+        }
+        
+        .card-image-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin: 0 3px;
+        }
+        
+        .badge-info {
+            background: #3498db;
+            color: white;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .main-container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                border-left: none;
+                border-top: 1px solid #e0e0e0;
+                position: relative;
+                max-height: 400px;
+            }
+            
+            .content-area {
+                max-height: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .content-area {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            .cards-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content-area">
+            <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS - EXAMEN DU GENOU</h1>
+            
+            <h2>Introduction</h2>
+            <p>Les maladies musculo-squelettiques peuvent atteindre les différentes structures osseuses, musculaires, cartilagineuses, tendineuses ou ligamentaires. 6% des consultations de médecine de premier recours concernent les gonalgies. En médecine du sport, ce chiffre augmente à 43%.</p>
+            
+            <p>Les causes peuvent être:</p>
+            <ul>
+                <li>Traumatiques</li>
+                <li>Infectieuses</li>
+                <li>Néoplasiques</li>
+                <li>Dégénératives</li>
+            </ul>
+            
+            <p>L'examen ostéo-articulaire sera souvent complété par des examens complémentaires (radiographie, IRM) selon le diagnostic différentiel.</p>
+            
+            <h2>Contexte</h2>
+            
+            <h3>Préparation</h3>
+            <ul>
+                <li>Se présenter au patient</li>
+                <li>Demander son accord</li>
+                <li>Expliquer le déroulement de l'examen</li>
+                <li>Désinfection des mains (entrée/sortie, avant/après contact)</li>
+                <li>Port de gants si contact avec liquides biologiques</li>
+            </ul>
+            
+            <h3>Installation</h3>
+            <ul>
+                <li>Demander au patient d'enlever le bas</li>
+                <li>Accès aux deux membres inférieurs dans leur entièreté</li>
+                <li>Examen à la station debout et couchée</li>
+</ul>
+            
+            <h2>Anatomie du genou</h2>
+            
+            <div class="anatomy-section">
+                <h3>Articulations <span class="fig-ref" onclick="scrollToFigure('fig1')">(FIG 1)</span>, <span class="fig-ref" onclick="scrollToFigure('fig2')">(FIG 2)</span></h3>
+                <ul>
+                    <li><strong>Articulations fémoro-tibiales:</strong> 2 articulations trochléennes permettant flexion/extension</li>
+                    <li><strong>Articulation fémoro-patellaire</strong></li>
+                </ul>
+            </div>
+            
+            <h3>Ligaments principaux</h3>
+            
+            <p><strong>Ligaments collatéraux (extra-articulaires):</strong></p>
+            <ul>
+                <li><strong>Ligament latéral externe (LLE):</strong> limite les mouvements latéraux (varus)</li>
+                <li><strong>Ligament latéral interne (LLI):</strong> limite les mouvements médiaux (valgus)</li>
+                <li>En extension: tendus, peu de laxité médio-latérale</li>
+                <li>En flexion: détendus, permettent laxité et rotation</li>
+            </ul>
+            
+            <p><strong>Ligaments croisés (intra-articulaires):</strong></p>
+            <ul>
+                <li><strong>Ligament croisé antérieur (LCA):</strong> limite déplacement antérieur du tibia et hyperextension</li>
+                <li><strong>Ligament croisé postérieur (LCP):</strong> limite déplacement postérieur du tibia et hyperflexion</li>
+</ul>
+            
+            <p><strong>Autres ligaments:</strong></p>
+            <ul>
+                <li>Ligament antéro-latéral</li>
+                <li>Ligament transverse des ménisques</li>
+                <li>Ligament poplitéo-fibulaire</li>
+                <li>Ligaments fémoropatellaires médial et latéral</li>
+</ul>
+            
+            <h3>Muscles <span class="fig-ref" onclick="scrollToFigure('fig3')">(FIG 3)</span></h3>
+            
+            <p><strong>Fléchisseurs:</strong></p>
+            <ul>
+                <li>Ischio-jambiers: semi-membraneux, semi-tendineux, biceps fémoral</li>
+            </ul>
+            
+            <p><strong>Extenseurs:</strong></p>
+            <ul>
+                <li>Quadriceps: droit antérieur, vaste interne, vaste externe, vaste intermédiaire</li>
+</ul>
+            
+            <p><strong>Rotation:</strong></p>
+            <ul>
+                <li>Externe: biceps fémoral, sartorius</li>
+                <li>Interne: gracile, semi-membraneux, semi-tendineux</li>
+                <li>Rotation possible uniquement genou fléchi</li>
+</ul>
+            
+            <h3>Ménisques</h3>
+            <ul>
+                <li>Amortissement et répartition des contraintes</li>
+                <li>S'adaptent aux mouvements de flexion-extension et rotation</li>
+                <li>Ménisque interne: peu mobile</li>
+                <li>Ménisque externe: plus mobile</li>
+                <li>Périphérie bien vascularisée → bonne récupération</li>
+                <li>Partie centrale peu vascularisée → récupération réservée</li>
+</ul>
+            
+            <h3>Vascularisation <span class="fig-ref" onclick="scrollToFigure('fig4')">(FIG 4)</span></h3>
+            <ul>
+                <li>Anastomoses entre branches de l'artère fémorale et artère poplitée</li>
+                <li>Artère fémorale → artère poplitée au creux poplité</li>
+</ul>
+            
+            <h3>Innervation</h3>
+            <ul>
+                <li>Nerf fémoral: extension</li>
+                <li>Nerf sciatique</li>
+</ul>
+            
+            <h3>Bourses synoviales</h3>
+            <ul>
+                <li><strong>Bourse suprapatellaire:</strong> profondément au quadriceps</li>
+                <li><strong>Bourse prépatellaire:</strong> entre surface antérieure patella et peau</li>
+                <li><strong>Bourse infrapatellaire:</strong> entre tibia et tendon quadricipital</li>
+                <li><strong>Bourse ansérine:</strong> entre LLI et insertion patte d'oie</li>
+</ul>
+            
+            <h2>Examen Clinique</h2>
+            
+            <h3>1. Inspection</h3>
+            
+            <h4>Marche</h4>
+            <p>Genou tendu lors pose du talon puis fléchi</p>
+            
+            <p><strong>Boiterie - étiologies:</strong></p>
+            
+            <p><strong>Infectieuse:</strong></p>
+            <p><span class="pathology">→ Arthrite septique, ostéomyélite</span></p>
+            
+            <p><strong>Inflammatoire:</strong></p>
+            <p><span class="pathology">→ Goutte, chondrocalcinose, ostéochondrite disséquante, synovite transitoire de hanche, maladie de Legg-Calvé-Perthes, épiphysiolyse</span></p>
+            
+            <p><strong>Néoplasique:</strong></p>
+            <p><span class="pathology">→ Ostéome ostéoïde</span></p>
+            
+            <p><strong>Neuro-musculaire:</strong></p>
+            <ul>
+                <li>Boiterie de Trendelenburg <span class="pathology">→ insuffisance moyen fessier</span></li>
+                <li>Boiterie de Duchenne <span class="pathology">→ insuffisance chronique moyen fessier</span></li>
+            </ul>
+            <p><span class="pathology">→ Myopathie de Duchenne, spasticité, dystonie, trouble cérébelleux, athétose</span></p>
+            
+            <p><strong>Raideur articulaire:</strong></p>
+            <p><span class="pathology">→ Paralysie spastique, malformations (coxa vara), séquelles ostéochondrite/épiphysiolyse/trauma/infection</span></p>
+            
+            <p><strong>Inégalité membres inférieurs:</strong></p>
+            <p><span class="pathology">→ Luxation congénitale hanche, coxa vara, séquelles fracture/ostéochondrite/épiphysiolyse/arthrite/ostéomyélite/polyomyélite, hémiplégie cérébrale, syndrome de Klippel-Trenaunay</span></p>
+            
+            <p><strong>Dégénérative:</strong></p>
+            <p><span class="pathology">→ Coxarthrose, conflit fémoro-acétabulaire</span></p>
+            
+            <h4>Station debout</h4>
+            
+            <p><strong>Axes du genou <span class="fig-ref" onclick="scrollToFigure('fig6')">(FIG 6)</span>:</strong></p>
+            <ul>
+                <li>Distance inter-malléolaire et inter-condylienne</li>
+                <li><strong>Genu varum:</strong> distance inter-malléolaire > inter-condylienne</li>
+                <li><strong>Genu valgum:</strong> distance inter-condylienne > inter-malléolaire</li>
+            </ul>
+            
+            <p><strong>Physiologique (jusqu'à 5 ans):</strong></p>
+            <ul>
+                <li>Bilatéral</li>
+                <li>Stature normale</li>
+                <li>Sans symptômes</li>
+</ul>
+            
+            <p><strong>Pathologique (après 7 ans):</strong></p>
+            <ul>
+                <li>Progression de la déformation</li>
+                <li>Unilatéral et sévère</li>
+                <li>Contexte pied plat ou atteinte stature</li>
+                <li>Symptômes (fièvre, tuméfaction, gonalgies)</li>
+</ul>
+            <p><span class="pathology">→ Trauma, rachitisme, mucopolysaccharidoses, dysplasies squelettiques, néoplasie</span></p>
+            
+            <h4>Signes visuels</h4>
+            
+            <p><strong>Genou rouge/tuméfié/chaud:</strong></p>
+            <p><span class="pathology">→ Arthrite septique, arthrite micro-cristalline, trauma ligamentaire/méniscal, ostéochondrite disséquante, spondylarthropathie, rupture kyste de Baker, bursite</span></p>
+            
+            <p><strong>Atrophie musculaire <span class="fig-ref" onclick="scrollToFigure('fig7')">(FIG 7)</span>:</strong></p>
+            <p><span class="pathology">→ Atteinte neuromusculaire, décharge antalgique sur trauma</span></p>
+            
+            <p><strong>Cicatrices cutanées:</strong></p>
+            <p><span class="pathology">→ Anciennes interventions (ostéosynthèse, chirurgie réparatrice)</span></p>
+            
+            <p><strong>Asymétrie longueur membres:</strong></p>
+            <p><span class="pathology">→ Fracture col fémoral, dysplasie osseuse</span></p>
+            
+            <p><strong>Flexum (impossibilité extension complète):</strong></p>
+            <p><span class="pathology">→ Épanchement (traumatique, infectieux)</span></p>
+            <p>Important: dos patient bien à plat (compensation par lordose lombaire possible)</p>
+            
+            <h3>2. Palpation</h3>
+            
+            <p>Palpation symétrique et systématique des structures anatomiques.</p>
+            
+            <h4>Zones douloureuses et pathologies <span class="fig-ref" onclick="scrollToFigure('fig5')">(FIG 5)</span></h4>
+            
+            <p><strong>LLI/LLE:</strong></p>
+            <p><span class="pathology">→ Lésion ligamentaire sur traumatisme</span></p>
+            
+            <p><strong>Condyle externe fémur:</strong></p>
+            <p><span class="pathology">→ Syndrome de l'essuie-glace (bandelette ilio-tibiale)</span></p>
+            
+            <p><strong>Facettes patellaires <span class="fig-ref" onclick="scrollToFigure('fig8')">(FIG 8)</span>:</strong></p>
+            <ul>
+                <li>Pousser rotule médialement et latéralement</li>
+                <li>Mobiliser rotule droite-gauche et haut-bas</li>
+                <li>Douleur <span class="pathology">→ arthrose fémoro-patellaire, syndrome rotulien, ancienne luxation patellaire</span></li>
+            </ul>
+            
+            <p><strong>Interligne articulaire <span class="fig-ref" onclick="scrollToFigure('fig9')">(FIG 9)</span>:</strong></p>
+            <ul>
+                <li>Genou fléchi à 90°</li>
+                <li>Douleur <span class="pathology">→ lésion méniscale interne ou externe</span></li>
+</ul>
+            
+            <p><strong>Tubérosité tibiale antérieure:</strong></p>
+            <p><span class="pathology">→ Maladie d'Osgood-Schlatter, fracture de stress tibia</span></p>
+            
+            <p><strong>Tendon quadricipital:</strong></p>
+            <p><span class="pathology">→ Tendinite patellaire, maladie de Hoffa, bursite prépatellaire</span></p>
+            
+            <p><strong>Creux poplité:</strong></p>
+            <p><span class="pathology">→ Kyste de Baker, processus néoplasique, thrombose veineuse profonde, anévrisme artère poplitée</span></p>
+            
+            <p><strong>Fibula/tibia:</strong></p>
+            <p><span class="pathology">→ Fracture</span></p>
+            
+            <h4>Signe du glaçon <span class="fig-ref" onclick="scrollToFigure('fig10')">(FIG 10)</span></h4>
+            <ul>
+                <li>Ramener liquide articulaire vers patella</li>
+                <li>Appuyer sur patella</li>
+                <li>Patella remonte "comme un glaçon"</li>
+            </ul>
+            <p><span class="pathology">→ Épanchement (trauma, infection, inflammation, hémarthrose chez hémophile)</span></p>
+            
+            <h3>3. Mobilité et force</h3>
+            
+            <h4>Mobilité active et passive <span class="fig-ref" onclick="scrollToFigure('fig11')">(FIG 11)</span></h4>
+            <ul>
+                <li><strong>Flexion:</strong> ramener pieds vers fesses</li>
+                <li><strong>Extension:</strong> tendre jambe au maximum</li>
+            </ul>
+            
+            <p><strong>Interprétation:</strong></p>
+            <ul>
+                <li>Mouvements actifs normaux sans douleur <span class="pathology">→ exclusion pathologie genou</span></li>
+                <li>Déficit actif mais pas passif <span class="pathology">→ atteinte musculaire ou neurologique</span></li>
+                <li>Déficit actif et passif <span class="pathology">→ atteinte articulaire ou ligamentaire (trauma, inflammation, infection)</span></li>
+                <li>Blocage en flexion avec impossibilité extension <span class="pathology">→ ménisque en anse de sceau</span></li>
+</ul>
+            
+            <h3>4. Examen de la laxité</h3>
+            
+            <h4>Plan frontal <span class="fig-ref" onclick="scrollToFigure('fig12')">(FIG 12)</span></h4>
+            <p><strong>Test à 0° et 30° de flexion:</strong></p>
+            <ul>
+                <li>Stress en valgus → teste LLI</li>
+                <li>Stress en varus → teste LLE</li>
+            </ul>
+            
+            <p><strong>Interprétation:</strong></p>
+            <ul>
+                <li>Pas de laxité à 0°, laxité symétrique à 30° <span class="pathology">→ intégrité LLI/LLE</span></li>
+                <li>Pas de laxité à 0°, laxité asymétrique à 30° <span class="pathology">→ lésion mineure LLI/LLE</span></li>
+                <li>Laxité à 0° et asymétrique à 30° <span class="pathology">→ lésion majeure LLI/LLE + atteinte pivot central</span></li>
+</ul>
+            
+            <h4>Plan sagittal</h4>
+            
+            <p><strong>Tiroir antérieur/postérieur <span class="fig-ref" onclick="scrollToFigure('fig13')">(FIG 13)</span>:</strong></p>
+            <ul>
+                <li>Genou 90° flexion, hanche 45° flexion</li>
+                <li>S'asseoir sur pied patient</li>
+                <li>Translations antérieures (teste LCA) et postérieures (teste LCP)</li>
+                <li>Arrêt dur <span class="pathology">→ ligament intact</span></li>
+                <li>Arrêt mou asymétrique <span class="pathology">→ lésion LCA ou LCP</span></li>
+            </ul>
+            
+            <p><strong>Test d'avalement tubérosité tibiale <span class="fig-ref" onclick="scrollToFigure('fig14')">(FIG 14)</span>:</strong></p>
+            <ul>
+                <li>Genou 90° flexion, hanche 90° flexion</li>
+                <li>Avalement tubérosité tibiale <span class="pathology">→ lésion LCP</span></li>
+</ul>
+            
+            <p><strong>Test de Lachmann <span class="fig-ref" onclick="scrollToFigure('fig15')">(FIG 15)</span>:</strong></p>
+            <ul>
+                <li>Genou 30° flexion, légère rotation externe</li>
+                <li>Main sur fémur, autre sur tibia</li>
+                <li>Translation antérieure</li>
+                <li>Arrêt dur <span class="pathology">→ LCA intact</span></li>
+                <li>Arrêt mou asymétrique <span class="pathology">→ lésion LCA</span></li>
+</ul>
+            
+            <p><strong>Pivot shift test <span class="fig-ref" onclick="scrollToFigure('fig16')">(FIG 16)</span>:</strong></p>
+            <ul>
+                <li>Genou extension + rotation interne</li>
+                <li>Flexion + stress valgus</li>
+                <li>Mouvement fluide <span class="pathology">→ LCA intact</span></li>
+                <li>Ressaut <span class="pathology">→ lésion LCA</span></li>
+</ul>
+            
+            <h3>5. Examen des ménisques</h3>
+            
+            <p><strong>Test de McMurray <span class="fig-ref" onclick="scrollToFigure('fig17')">(FIG 17)</span>:</strong></p>
+            <ul>
+                <li>Légère flexion + rotation interne → flexion (teste ménisque externe)</li>
+                <li>Légère flexion + rotation externe → flexion (teste ménisque interne)</li>
+                <li>Palper interligne articulaire pendant manœuvre</li>
+                <li>Douleur <span class="pathology">→ lésion méniscale</span></li>
+            </ul>
+            
+            <p><strong>Test d'Apley <span class="fig-ref" onclick="scrollToFigure('fig18')">(FIG 18)</span>:</strong></p>
+            <ul>
+                <li>Décubitus ventral, genou 90° flexion</li>
+                <li>Appuyer sur talon dans l'axe + rotations</li>
+                <li>Rotation externe → douleur ménisque interne</li>
+                <li>Rotation interne → douleur ménisque externe</li>
+</ul>
+            
+            <h3>6. Examen de la rotule</h3>
+            
+            <p><strong>Test de Rabot <span class="fig-ref" onclick="scrollToFigure('fig19')">(FIG 19)</span>:</strong></p>
+            <ul>
+                <li>Appuyer sur rotule + mobilisation haut-bas</li>
+                <li>Augmente frictions surface articulaire</li>
+                <li>Douleur <span class="pathology">→ arthrose fémoro-patellaire, syndrome fémoro-patellaire</span></li>
+            </ul>
+            
+            <p><strong>Tilt patellaire <span class="fig-ref" onclick="scrollToFigure('fig20')">(FIG 20)</span>:</strong></p>
+            <ul>
+                <li>Pousser patella médialement et latéralement</li>
+                <li>Palper surfaces articulaires</li>
+                <li>Douleur <span class="pathology">→ arthrose patellaire, syndrome fémoro-patellaire</span></li>
+</ul>
+            
+            <p><strong>Test de Smilie <span class="fig-ref" onclick="scrollToFigure('fig21')">(FIG 21)</span>:</strong></p>
+            <ul>
+                <li>Pousser patella latéralement + flexion genou</li>
+                <li>Appréhension/arrêt <span class="pathology">→ luxation patellaire avec lésion ligament fémoro-patellaire médial</span></li>
+</ul>
+            
+            <p><strong>Test de Zohlen <span class="fig-ref" onclick="scrollToFigure('fig22')">(FIG 22)</span>:</strong></p>
+            <ul>
+                <li>Contraction quadriceps</li>
+                <li>Examinateur plaque patella vers bas</li>
+                <li>Douleur <span class="pathology">→ syndrome fémoro-patellaire</span></li>
+                <li>Comparer côté controlatéral</li>
+</ul>
+            
+            <p><strong>Glide test <span class="fig-ref" onclick="scrollToFigure('fig23')">(FIG 23)</span>:</strong></p>
+            <ul>
+                <li>Saisir patella au repos</li>
+                <li>Amener en position médiale</li>
+                <li>Teste mobilité patellaire</li>
+                <li>Peu mobile <span class="pathology">→ raideur latérale</span></li>
+                <li>Très mobile <span class="pathology">→ hypermobilité</span></li>
+</ul>
+            
+            <p><strong>J sign:</strong></p>
+            <ul>
+                <li>Patient assis bord de table</li>
+                <li>Extension jambe</li>
+                <li>Patella monte et bouge latéralement (forme "J")</li>
+</ul>
+            <p><span class="pathology">→ Dysplasie fémoro-patellaire, insuffisance vaste médial</span></p>
+            
+            <h2>Autres causes de gonalgies</h2>
+            <ul>
+                <li>Arthrose coxo-fémorale</li>
+                <li>Radiculopathie L2-L3-L4</li>
+</ul>
+            
+            <h2>Carte de synthèse</h2>
+            
+            <h3>Station debout</h3>
+            <p><strong>Inspection:</strong></p>
+            <ul>
+                <li>Capacité à se déshabiller</li>
+                <li>Marche (boiterie)</li>
+                <li>Symétrie ceintures scapulaires/pelviennes</li>
+            </ul>
+            
+            <h3>Station couchée</h3>
+            <p><strong>Inspection:</strong></p>
+            <ul>
+                <li>Position spontanée et longueur jambes</li>
+                <li>Axes (flexum-recurvatum, valgus-varus)</li>
+                <li>Aspect musculo-cutané</li>
+</ul>
+            
+            <p><strong>Palpation:</strong></p>
+            <ul>
+                <li>Température</li>
+                <li>Signe du glaçon</li>
+                <li>Structures anatomiques</li>
+                <li>Zones douloureuses</li>
+</ul>
+            
+            <p><strong>Amplitudes articulaires:</strong></p>
+            <ul>
+                <li>Actif et passif bilatéral</li>
+                <li>Flexion-Extension (150-0-10)</li>
+</ul>
+            
+            <p><strong>Laxité:</strong></p>
+            <ul>
+                <li>Plan frontal (valgus/varus)</li>
+                <li>Plan sagittal (tiroir, Lachmann, pivot shift)</li>
+</ul>
+            
+            <p><strong>Tests spécifiques:</strong></p>
+            <ul>
+                <li>Ménisques (McMurray, Apley)</li>
+                <li>Rotule (Smilie, Rabot, Zohlen, tilt, glide)</li>
+</ul>
+            
+            <!-- Cartes de révision -->
+            <div class="revision-cards">
+                <h2>Cartes de révision</h2>
+                
+                <div class="cards-images">
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Genou/Genou-carte_page-0001.jpg" alt="Carte de révision 1" onclick="openModal(this)">
+                    </div>
+                    
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Genou/Genou-carte_page-0002.jpg" alt="Carte de révision 2" onclick="openModal(this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sidebar avec images -->
+        <div class="sidebar" id="sidebar">
+            <!-- Les images seront ajoutées ici -->
+        </div>
+    </div>
+    
+    <!-- Modal pour zoom image -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    
+    <script>
+        // Liste des figures disponibles
+        const figures = [
+            {id: 'fig1', file: 'FIG 1.jpg', caption: 'FIG 1 - Articulations du genou'},
+            {id: 'fig2', file: 'FIG 2.jpg', caption: 'FIG 2 - Vue anatomique'},
+            {id: 'fig3', file: 'FIG 3.jpg', caption: 'FIG 3 - Muscles'},
+            {id: 'fig4', file: 'FIG 4.jpg', caption: 'FIG 4 - Vascularisation'},
+            {id: 'fig5', file: 'FIG 5.jpg', caption: 'FIG 5 - Zones douloureuses'},
+            {id: 'fig6', file: 'FIG 6.jpg', caption: 'FIG 6 - Axes du genou'},
+            {id: 'fig7', file: 'FIG 7.jpg', caption: 'FIG 7 - Atrophie musculaire'},
+            {id: 'fig8', file: 'FIG 8.jpg', caption: 'FIG 8 - Facettes patellaires'},
+            {id: 'fig9', file: 'FIG 9.jpg', caption: 'FIG 9 - Interligne articulaire'},
+            {id: 'fig10', file: 'FIG 10.jpg', caption: 'FIG 10 - Signe du glaçon'},
+            {id: 'fig11', file: 'FIG 11.jpg', caption: 'FIG 11 - Mobilité'},
+            {id: 'fig12', file: 'FIG 12.jpg', caption: 'FIG 12 - Test plan frontal'},
+            {id: 'fig13', file: 'FIG 13.jpg', caption: 'FIG 13 - Tiroir antérieur/postérieur'},
+            {id: 'fig14', file: 'FIG 14.jpg', caption: 'FIG 14 - Test avalement tubérosité'},
+            {id: 'fig15', file: 'FIG 15.jpg', caption: 'FIG 15 - Test de Lachmann'},
+            {id: 'fig16', file: 'FIG 16.jpg', caption: 'FIG 16 - Pivot shift test'},
+            {id: 'fig17', file: 'FIG 17.jpg', caption: 'FIG 17 - Test de McMurray'},
+            {id: 'fig18', file: 'FIG 18.jpg', caption: 'FIG 18 - Test d\'Apley'},
+            {id: 'fig19', file: 'FIG 19.jpg', caption: 'FIG 19 - Test de Rabot'},
+            {id: 'fig20', file: 'FIG 20.jpg', caption: 'FIG 20 - Tilt patellaire'},
+            {id: 'fig21', file: 'FIG 21.jpg', caption: 'FIG 21 - Test de Smilie'},
+            {id: 'fig22', file: 'FIG 22.jpg', caption: 'FIG 22 - Test de Zohlen'},
+            {id: 'fig23', file: 'FIG 23.jpg', caption: 'FIG 23 - Glide test'},
+            {id: 'fig24', file: 'FIG 24.jpg', caption: 'FIG 24'},
+            {id: 'fig25', file: 'FIG 25.jpg', caption: 'FIG 25'},
+            {id: 'fig26', file: 'FIG 26.jpg', caption: 'FIG 26'}
+        ];
+        
+        // Ajouter les figures dans la sidebar
+        const sidebar = document.getElementById('sidebar');
+        figures.forEach(fig => {
+            const container = document.createElement('div');
+            container.className = 'figure-container';
+            container.id = fig.id;
+            
+            const img = document.createElement('img');
+            img.src = `../Fiches/RMS/Genou/${fig.file}`;
+            img.alt = fig.caption;
+            img.onclick = function() { openModal(this); };
+            
+            const caption = document.createElement('div');
+            caption.className = 'figure-caption';
+            caption.textContent = fig.caption;
+            
+            container.appendChild(img);
+            container.appendChild(caption);
+            sidebar.appendChild(container);
+        });
+        
+        // Fonction pour faire défiler jusqu'à une figure
+        function scrollToFigure(figId) {
+            const element = document.getElementById(figId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                // Effet de surbrillance temporaire
+                element.style.transition = 'all 0.3s';
+                element.style.transform = 'scale(1.05)';
+                element.style.boxShadow = '0 5px 20px rgba(102, 126, 234, 0.4)';
+                setTimeout(() => {
+                    element.style.transform = 'scale(1)';
+                    element.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+                }, 1000);
+            }
+        }
+        
+        // Fonction pour ouvrir le modal avec l'image agrandie
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = img.src;
+        }
+        
+        // Fonction pour fermer le modal
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.style.display = 'none';
+        }
+        
+        // Fermer le modal en cliquant n'importe où
+        document.getElementById('imageModal').onclick = function() {
+            closeModal();
+        }
+        
+        // Empêcher la fermeture du modal en cliquant sur l'image
+        document.getElementById('modalImage').onclick = function(e) {
+            e.stopPropagation();
+        }
+    </script>
+</body>
+</html>

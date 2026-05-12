@@ -1,0 +1,240 @@
+CIBLES TENSIONNELLES EN URGENCE
+
+Service des Urgences
+
+HTA sévère
+TAs≥ 180 mmHg et/ou TAd ≥ 110 mmHg
+Avec ou sans sympômes associés
+
+DRS ?
+Oui
+
+Non
+
+Dyspnée
+aiguë ?
+
+Non
+
+Oui
+
+Troubles
+neuro ?
+
+Non
+
+Troubles
+visuels ?
+
+Oui
+
+Non
+
+Traitement oral
+Surveillance
+Suivi à 7 jours
+
+Oui
+
+Suspicion d’urgence hypertensive
+HTA sévère avec atteinte d’organes cibles (rein, cœur, cerveau, aorte, petits vaisseaux)
+
+Cf pages 2 à 4
+Classe
+
+DCI (nom commercial)
+
+Dosage (mg)
+
+Inhibiteurs de l’enzyme de conversion (IEC)
+
+Lisinopril
+
+5/20
+
+Irbesartan (Aprovel)
+
+150
+
+Valsartan (Diovan)
+
+80
+
+Candesartan (Atacand)
+Losartan (Cosaar)
+Torasemide (Torem)
+
+16
+50
+5/10/20
+
+Amlodipine
+
+5
+
+Nifédipine retard (Adalat)
+
+20 / 40
+
+Antagonistes du système rénine-angiotensine (ARA)
+
+Diurétiques
+
+Anticalciques
+
+Remarques
+En 1ère intention
+CAVE Intolérances/
+angioedème
+En 1ère intention à la
+place d’un IEC
+
+En complément d’un
+IEC/ARA
+En association d’un
+IEC/ARA +/- diurétique
+
+HTA sévère avec atteinte d’organes cibles (rein, cœur, cerveau, aorte, petits vaisseaux)
+
+Dissection aortique
+Syndrome coronarien aigu
+
+Insuffisance cardiaque
+congestive
+
+AVC ischémique ou
+hémorragique
+Encéphalopathie HTA
+
+Microangiopathie
+thrombotique
+
+Bilan de base
+
+Sang : FSS, créatinine, sodium, potassium
+Urines : spot (albumine, protéines) / sédiment (hématurie, leucopcyturie, cylindres)
+
+Troponines
+
+Troponines
+NT-proBNP
+
+Crase (TP, aPTT, INR)
+
+Schizocytes (FSC)
+Haptoglobine, LDH
+
+ECG
+Angio-CT aorte
+
+Radio du thorax
+US cardiaque et pulmonaire
+
+IRM cérébrale ou CT
+cérébral
+
+Fond d’oeil
+
+Inspiré de : Berney M et al. Hypertension artérielle sévère ou urgence hypertensive : du cabinet à l’ hôpital. Rev Med Suisse
+
+Suspicion d’urgence hypertensive
+
+Microangiopathie
+thrombotique
+
+Dissection aortique type A et B
+
+OAP
+
+AVC ischémique
+
+Cible :
+TAS 100 – 120 mmHg et FC ≤
+60/min
+1er choix :
+bétabloquants IV (labétalol)
+! TA aux 2 bras et traiter
+selon le coté le plus élevé !
+
+Cible :
+
+Cible :
+
+TAS < 140 mmHg
+
+1) Sans TIV / TEV :
+
+TAS < 180 mmHg ou
+
+1er choix :
+nitroglycérine IV
+
+Si TAM >150 = traiter pour TAM 125-150
+
+diminution de 25 %
+
+Infarctus du myocarde
+Cible :
+TAS < 140 mmHg
+1er choix :
+nitroglycérine
+
+2) Avec TIV / TEV :
+Si TAM >135 = traiter pour TAM 115-135
+1er choix :
+Labétalol puis nicardipine
+
+AVC hémorragique
+
+Cible :
+Si TAM >110 = traiter pour TAM 90- 110
+A atteindre en 60 min.
+Eviter les grandes fluctuations
+1er choix:
+Labétalol puis nicardipine
+! Eviter l'hypotension (TAS < 120 mmHg) !
+
+Encéphalopathie hypertensive
+
+Cible :
+TAS < 180 mmHg ou diminution de 25 %
+
+Cible :
+
+Autres cibles tensionnelles
+Polytraumatisé
+TAS cible = 90mmHg
+! Penser au PTM si : Hémorragie massive / réponse transitoire ou non-réponse à 500ml de cristalloïdes / BE < ─ 6
+
+Traumatisme crânio-cérébral (TCC) sévère isolé (GCS 3 – 8 /15)
+si âge 15 – 49 ou > 70 ans : TAS cible : > 110 mmHg ou TAM > 90 mmHg et TAS < 220 mmHg
+si âge 50 – 69 ans : TAS cible : > 100 mmHg ou TAM > 80 mmHg et TAS < 220 mmHg
+
+Traitement
+Traitements pour augmenter – maintenir la tension artérielle
+Ringer Lactate 1000ml IV (4x 250 ml en bolus)
+Si insuffisant : noradrénaline : 1 μg/min à 50 μg/min IV continu.
+Si noradrénaline insuffisante : adrénaline 1 μg/min à 50 μg/min IV continu (0.05 – 0.5 μg/kg/min)
+
+Traitements hypotenseurs IV
+Labétalol :
+
+1) bolus : 10 mg IV lent
+2) perfusion continue : 0.1 – 0.5 mg/kg/h IV
+Nicardipine : 1) bolus 1 mg IV (toutes les 5 min. max 10x)
+2) perfusion IV continue : commencer à 1 mg/h,  1 mg/h toutes les 5 min. Dose max. = 15 mg/h.
+! Dès cible TA atteinte :  car risque d’accumulation et d’hypotension !
+Nitroglycérine : perfusion continue : 1-10 mg/h IV
+
+Version
+3.2
+
+Rédaction / modifications
+
+Dr N. Beysard, médecin associé, Dre A. Schneider, cheffe de clinique
+
+Validation
+
+Direction des Urgences, octobre 23
+
+

@@ -1,0 +1,91 @@
+Ictère
+Anamnèse
+1. Caractériser l’ictère
+a. Début
+b. Contexte d’apparition
+c. Localisation
+d. Facteurs aggravants
+e. Facteurs atténuants
+f. Constant vs fluctuant
+g. Symptômes associés
+h. 1er épisode vs récurrent
+2. Anamnèse générale
+a. Perte de poids
+b. Fièvre
+c. Frissons
+d. Sudations nocturnes
+3. Anamnèse digestive
+a. Douleur abdominale (caractériser si oui)
+b. Nausée et vomissement
+c. Dysphagie
+d. Selles
+i. Fréquence
+ii. Sang
+iii. Couleur
+4. DD hépatites
+a. Vaccin hépatite A et B
+b. Voyage dans les zones endémiques
+c. Drogues IV
+d. Rapports sexuels à risque
+e. Tatouage récent, piercing
+5. Anamnèse urogénitale
+a. Couleur des urines
+b. Sang dans les urines
+c. Dernières règles
+6. Antécédents personnels
+a. Maladie
+b. Médicaments
+c. Chirurgie
+d. Hospitalisation
+e. Allergies
+7. Antécédents familiaux
+8. Habitudes alimentaires
+
+Examen clinique
+1. Préparation du status
+a. Position de l’étudiant à D
+b. Jambes et bras décroisés, le long du corps
+c. Tête du patient surélevée
+2. Regarder les sclères
+3. Auscultation (avant palpation)
+a. 4 quadrants
+4. Percussion
+a. 4 quadrants
+b. Délimité la taille du foie
+5. Palpation des (!!! maintenir contact visuel)
+a. Superficiel
+i. 4 quadrants
+b. Palpation profonde
+i. 4 quadrants
+ii. Rate
+iii. Reins
+iv. Foie
+c. Défense et détente
+d. Murphy
+DD
+- Néoplasie des voies biliaires
+- Cholangite = inflammation que du cholédoque (fièvre, douleur : murphy +)
+- Angiocholite = inflammation de toutes les voies biliaires (fièvre 39.5, frissons, douleur
+hypochondre D, secondairement à obstruction des voies biliaires)
+- Choléchodocholithiase
+- Hépatite (douleur hypochondre D)
+- Pancréatite chronique (douleurs irradiant dans le dos, épisodes à répétition, intensité
+augmente)
+- Carcinome pancréatique
+- Hémolyse
+o Malaria (fatigue, fièvre, hémolyse)
+o Auto-immun (hémaglutinine froide, hémaglutinine chaude)
+o Allo-immun (, incompatibilité ABO, rhésus)
+o Thalassémie
+o Déficit G6PD
+Examen complémentaire :
+- CRP
+- Crase
+- Bilan hépatique, lipase
+- LDH, haptoglobine
+- Coombs si suspicion hémolyse
+Bilirubine :
+- Bilirubine conjuguée : obstruction, foie
+- Bilirubine non conjuguée : hémolyse
+
+

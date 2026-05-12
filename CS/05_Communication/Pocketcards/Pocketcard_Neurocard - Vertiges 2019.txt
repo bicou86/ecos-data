@@ -1,0 +1,173 @@
+Vertiges aigus : Recommandations de pratique clinique
+Neurologie, Oto-neurologie/ORL, Urgences, Radiologie du CHUV, et Unisanté, 05/2019
+Vertiges < 7 jours
+(transitoires ou persistants)
+Oui
+
+Anamnèse:
+≥ 1 drapeau(x)
+rouge(s) ?
+Non
+Examen
+neurologique y.i. nystagmus :
+≥ 1 drapeau(x)
+rouge(s) ?
+
+Oui
+
+Non
+Non
+
+Oui
+
+Nystagmus
+horizontal (-rotatoire)
+spontané ?
+
+Dix-Hallpike
+(ou Roll-Over-Test)
+pathologique
+?
+
+Non
+
+Head
+impulse test
+pathologique (contralat. au
+nystagmus si
+présent) ?
+Oui
+
+Oui
+Vertige positionnel
+paroxystique bénin
+
+Non
+
+Vestibulopathie
+périphérique
+
+Consultation oto-neurologique
+si besoin pour PeC (ou ORL)
+
+si besoin
+
+Probable origine centrale
+
+Consultation neurologique
+si besoin pour PeC.
+Imagerie guidée par clinique.
+Autres ex. guidées par clinique
+
+Drapeaux rouges  éléments évocateurs d’une origine centrale
+Anamnèse
+Début soudain et unique (AVC/AIT)
+Ne tient pas debout ou assis (même
+à l’aide d’une personne, même
+transitoirement)
+Céphalées/cervicalgies inhabituelles
+Symptômes du SNC associés, en
+particulier
+ 4D : diplopie, dysphagie,
+dysarthrie, dysphonie
+ Hoquet, syndrome de Horner
+ Symptômes neurol. des voies
+longues
+
+Toute anomalie à l’examen
+neurologique, notamment
+Ne tient pas debout ...
+N’importe quelle anomalie
+(nouvelle) à l’examen
+neuro, notamment
+ ≥ 1 élément des 4D
+ Strabisme vertical (skew)
+au cover test alternant
+ Hoquet, syndr. de Horner
+ Signes cérébelleux
+ Hémisyndrome
+spinothalamique ou autre
+
+Nystagmus
+spontané ou du
+regard excentré ...
+Multidirectionnel
+Vertical (up and/or
+down)
+Dissocié (un œil fait
+autre choses que
+l’autre)
+
+Eléments spécifiques pour origine périphérique des vertiges
+Anamnèse
+Examen oto-neurologique
+Vestibulopathie Rechercher
+Head impulse test
+unilatérale aiguë  Hypoacousie nouvelle *
+(Halmagyi) pathologique
+(p.ex. neuronite
+ Acouphène nouveau
+du côté atteint
+vestibulaire)
+Hypoacousie nouvelle unilatérale *
+Inspection du tympan pathologique
+Vertige
+Episodes brefs et stéréotypés Dix-Hallpike pathologique
+positionnel
+des vertiges (environ <1 min.) Supine-Roll-Test
+paroxystique
+avec changement de la position
+pathologique
+bénin
+en
+(VPPB)
+ se tournant au lit
+ s’alitant / se levant du lit
+ lors d’extension de la nuque
+*Vertiges & surdité soudains: assumer lésion vestibulo-cochléaire (inflamm. ou ischémique)
+Eléments cliniques sans valeur suffisamment discriminatoire
+entre une origine centrale et périphérique des vertiges
+Anamnèse
+Examen neurolog.
+Vertiges rotatoires vs. tangage
+Instabilité à la
+Vertiges positionnels vs. au repos
+marche
+Durée des vertiges
+Latéro-déviation à la
+Début progressif
+marche, à
+Marche encore possible
+l’Unterberger ou
+Latéropulsion
+au Romberg
+Intensité des symptômes végétatifs
+Room tilt illusion
+Traumatisme crânien récent
+Absence de FRCV
+* Peu spécifique < 12 heures du début d’un vertige.
+
+Nystagmus
+Unidirectionnel
+Horizonto-rotatoire
+Horizontal pur
+Absent
+Diminution à la fixation ou
+apparition avec Frenzel *
+
+Investigations complémentaires potentielles après évaluation clinique
+Consultation neurologique si origine centrale ou incertaine et si besoin pour la
+prise en charge
+Consultation otoneurologique (ou ORL) si origine périphérique ou incertaine et si
+besoin pour la prise en charge
+IRM cérébrale
+ Positive ~ 80% pour AVC causant des vertiges (AIT : IRM négative)
+ Positive ou négative pour autres atteinte structurelles (SEP, tumeur, …)
+ Ajouter examen des artères cervico-cérébrales si suspicion d’AVC/AIT (IRM
+suppression de graisse si suspicion de dissection artérielle)
+ Si IRM impossible : CT injecté (avec artères si suspicion cérébrovasculaire). CAVE :
+basse sensibilité (<30%) pour lésions infratentorielles aiguës
+Ponction lombaire si suspicion encéphalite, SEP, carcinomatose, ...
+Labos selon suspicion (vitamine B1, B12, vasculite, infections, etc.)
+
+

@@ -1,0 +1,2285 @@
+2024-2025
+
+1ère – 2ème années Master
+Apprentissage en milieu clinique
+PSYCHIATRIE
+Cahier de l’étudiant-e
+
+Cahier de l’étudiant-e
+
+APPRENTISSAGE EN MILIEU CLINIQUE
+(AMC)
+
+PSYCHIATRIE
+
+Faculté de Médecine Université de Genève
+28e édition
+
+ 2024 Université de Genève (Faculté de médecine)
+
+TABLE DES MATIERES
+
+INFORMATIONS GENERALES ...............................................................................................................1
+OBJECTIFS GENERAUX.........................................................................................................................2
+DISCIPLINES ETUDIEES ........................................................................................................................9
+EXAMEN FACULTAIRE DE PSYCHIATRIE ..........................................................................................10
+REFERENCES BIBLIOGRAPHIQUES ..................................................................................................11
+SCENARIOS ..........................................................................................................................................18
+Scénario n°1 :
+
+Trouble de l’humeur ..............................................................................................18
+
+Scénario n°2 :
+
+Schizophrénie .......................................................................................................20
+
+Scénario n°3 :
+
+Trouble borderline .................................................................................................22
+
+Scénario n°4 :
+
+Démence ...............................................................................................................23
+
+SEMINAIRES .........................................................................................................................................24
+Eléments de Psychothérapie ..................................................................................................................24
+EVALUATIONS CLINIQUES - PRISE EN CHARGE PSYCHIATRIQUE ET
+PSYCHOTHÉRAPEUTIQUE ..................................................................................................................26
+Problème n°1 : Investigation d’un trouble psychotique inaugural ......................................................26
+Problème n°2 : Médecine sexuelle et sexologie ................................................................................28
+Problème n°3 : Etat de stress aigu et trouble de stress post-traumatique ........................................29
+Problème n°4 : Trouble du développement intellectuel (TDI) et trouble du spectre de l’autisme
+(TSA) chez l’adulte .............................................................................................................................30
+Problème n°5 :
+
+Urgence et Crise ...................................................................................................31
+
+Problème n°6 :
+
+Trouble anxieux et phobie sociale ........................................................................32
+
+Problème n°7 :
+
+Trouble obsessionnel-compulsif ...........................................................................33
+
+Problème n°8 :
+
+Passage de l’adolescence à l’âge adulte : aspects développementaux ...............34
+
+Problème n°9 :
+
+Le trouble d’insomnie : diagnostic et traitements ..................................................35
+
+Problème n°10 : Troubles du comportement alimentaire ................................................................37
+Problème n°11 : Addictions ..............................................................................................................39
+Problème n°12 : TDAH - Trouble du Déficit de l´Attention avec ou sans Hyperactivité ..................40
+Problème n°13 : Passage de l’adulte à l’âgé ...................................................................................42
+PROBLEMES DE THERAPEUTIQUES PSYCHIATRIQUES ................................................................44
+Pharmacologie clinique en psychiatrie ..............................................................................................44
+Droit médical et éthique clinique ........................................................................................................46
+NEUROSCIENCES PSYCHIATRIQUES ...............................................................................................47
+
+Informations générales
+
+INFORMATIONS GENERALES
+SEMAINE-TYPE
+Les informations pratiques concernant les horaires et les lieux des différentes activités
+seront communiquées par le service concerné.
+
+Groupe de travail de l’AMC
+Noms
+
+Dpt / Division / Cabinet médical
+
+Téléphone
+
+Département de psychiatrie
+Service de psychiatrie adulte
+
+022 372 31 20
+
+Responsable
+Pr Philippe Huguelet
+
+philippe.huguelet@hug.ch
+
+Membres
+La liste des membres peut être consultée sur le site « Moodle » de cet AMC
+Coordinatrice/
+coordinateur
+Secrétariat enseignement
+
+Département de psychiatrie
+Bâtiment les Champs - Belle-Idée
+
+022 305 47 98
+
+bureau B-221
+enseignement.dpsy@hug.ch
+
+AMC “ Psychiatrie ”
+
+1
+
+Objectifs généraux
+
+OBJECTIFS GENERAUX
+1. OBJECTIFS GENERAUX DE L'AMC DE PSYCHIATRIE
+L'objectif général de cet enseignement est de fournir les connaissances et les
+compétences permettant au médecin de premier recours d'entreprendre des
+démarches cliniques fiables et efficaces dans le domaine des troubles psychiatriques.
+Spécifiquement, il est souhaité que grâce à cet enseignement l'étudiant-e puisse :
+1.1
+
+Exercer une fonction de dépistage par rapport aux principaux troubles
+psychiatriques.
+
+1.2
+
+Evaluer le diagnostic psychiatrique :
+- en identifiant les éléments importants de l'histoire clinique du/de la patient-e
+et de sa maladie ;
+- en réalisant un examen mental approprié ;
+- en connaissant l’usage des instruments cliniques standardisés de base ;
+- en indiquant les investigations biologiques et psychologiques pertinentes qui,
+éventuellement, s’imposent.
+
+1.3
+
+Proposer un pronostic fiable.
+
+1.4
+
+Choisir un traitement biologique efficace, si ce dernier existe, et évaluer ses
+résultats.
+
+1.5.
+
+Manier des formes simples de psychothérapie et savoir poser l’indication de
+formes structurées de psychothérapie.
+
+1.6
+
+Collaborer avec le ou la psychiatre, en particulier en ce qui concerne :
+- la demande d'évaluations spécialisées ou l'affinement d'indications de
+traitement ;
+- l'interprétation d'un rapport psychiatrique ;
+- l'information du/de la patient-e et de sa famille concernant l'évolution et les
+répercussions d'un trouble psychiatrique donné ;
+- le contrôle des effets secondaires et des interactions médicamenteuses au
+cours d'un traitement psychiatrique.
+
+1.7
+
+2
+
+Utiliser de façon rationnelle le dispositif de santé mentale.
+
+AMC “ Psychiatrie ”
+
+Objectifs généraux
+
+2. PREREQUIS DE L'AMC DE PSYCHIATRIE
+2.1. Sensibilisation aux aspects médicosociaux de la pratique médicale
+(1e année) (facultatif)
+2.2 Unité comportement et communication (SMB, 2e – 3e année Bachelor)
+Organisation anatomo-fonctionnelle du SNC et du SNP. Facteurs neurobiologiques
+dans le développement des principaux troubles psychiatriques. Pharmacologie des
+agents psychotropes. Développement psychologique normal et pathologique de l'être
+humain. Influence des facteurs psychologiques, interpersonnels et sociaux sur
+l'émergence et le décours des troubles psychiatriques. Effets du stress sur l'équilibre
+psychobiologique de l'être humain.
+2.3 CCDC (3e année)
+Status mental et classification des troubles mentaux. Sémiologie générale des
+maladies psychiatriques. Introduction à l'entretien psychiatrique. Introduction à
+l'entretien de couple et de famille. Introduction au maniement des facteurs émotionnels
+et interpersonnels dans le cadre de l'examen médical.
+2.4 Unité d’introduction à la démarche clinique (1re année Master)
+Facteurs métaboliques, toxiques et toxi-infectieux modifiant le fonctionnement du SNC
+et du SNP. Notions de base de psychiatrie générale. Troubles psychiatriques
+secondaires à des maladies non psychiatriques. Expression corporelle des troubles
+psychiatriques.
+Principaux
+éléments
+de
+l’examen
+neurologique
+et
+neuropsychologique. Affections du SNC pouvant entraîner des troubles du
+fonctionnement mental et, plus particulièrement, une atteinte de l’orientation, de la
+mémoire et de l’état de conscience.
+
+3. LISTE FINALE DES PROBLEMES CLINIQUES TRAITES DANS L’AMC DE
+PSYCHIATRIE
+
+Les objectifs d’apprentissage pour l’enseignement prégradué, sont listés dans :
+- GPS-Profiles
+- SCLO (Swiss Catalogue of Learning Objectives for Undergraduate Medical Training).
+Lien internet : https://urlz.fr/qMUN
+Pour la partie « psychiatrie », cf. pages 105 à 109 (sauf « pédopsychiatrie »).
+
+AMC “ Psychiatrie ”
+
+3
+
+Objectifs généraux
+
+4.
+
+FORMAT DE L'AMC DE PSYCHIATRIE
+
+L’AMC de psychiatrie est constitué par 10 modules de 4 semaines. Chaque module a
+été prévu pour 16 à 18 étudiant-es et est placé sous la responsabilité d’un tuteur ou
+d’une tutrice de volée. Sur le plan organisationnel, le tuteur ou la tutrice prend en
+charge le déroulement général du module qui lui est confié en collaboration avec la/le
+coordinatrice/coordinateur de l’enseignement (tél. 022 305 47 98, mail
+enseignement.dpsy@hcuge.ch). Elle/il exerce, d’autre part, des fonctions didactiques
+spécifiques qui sont décrites au point 4.13.
+Un planning générique des 4 semaines de cet AMC est publié sur « Moodle ».
+L’AMC psychiatrie s’articule autour des activités suivantes :
+4.1
+
+Stages cliniques et auto-apprentissage
+
+Ces moments consistent en l'exposition des étudiant-es aux patient-es in vivo sous la
+supervision d'un-e médecin adjoint-e ou chef-fe de clinique. Les étudiant-es seront
+réparti-es dans différents services du Département de psychiatrie des HUG : Service
+de psychiatrie adulte, Service de psychiatrie gériatrique, Service d’addictologie,
+Service de psychiatrie de liaison et d’intervention de crise et Service des spécialités
+psychiatriques.
+Peuvent occasionnellement être sollicités comme lieux de stage : le Service de
+médecine pénitentiaire affilié au Département de médecine de premier recours et le
+Service des mesures institutionnelles, affilié à la Direction médicale des HUG.
+Ce stage sera divisé en deux parties de deux semaines, dont deux semaines en intrahospitalier et deux semaines en structure ambulatoire. Les expositions cliniques ont
+lieu 2 jours ½ par semaine, exception : 2 jours pour la dernière semaine.
+Durant ce stage, les étudiant-es participeront activement aux activités cliniques en
+intra-hospitalier ou en ambulatoire. L'objectif est de leur permettre, à travers la pratique
+clinique quotidienne, de se familiariser avec des activités variées, dont certaines feront
+partie intégrante de l’évaluation de l’AMC via « GPS-Profiles ».
+Plateforme de documentation GPS - PROFILES
+Durant le stage AMC de psychiatrie, afin de développer leurs compétences cliniques
+et dans le cadre du référentiel de formation PROFILES 1, les étudiant-es devront
+compléter sur la plateforme de documentation GPS un processus de formation
+comprenant divers éléments.
+Ces éléments ont été spécifiquement identifiés par le/les responsables du stage et
+s’intègrent dans le référentiel PROFILES.
+Au terme du stage, les responsables de stage, valident les différents éléments du
+processus.
+
+1 Principal Relevant Objectives and Framework for Integrated Learning and Education in Switzerland
+
+4
+
+AMC “ Psychiatrie ”
+
+Objectifs généraux
+4.2 Cadre général
+Tous les cours théoriques ont lieu dans les locaux d’enseignement du Département
+de psychiatrie à Belle-Idée (Bâtiment les Champs).
+4.3 Scénarios sous forme de « classe inversée »
+Quatre scénarios (1. Trouble de l’humeur, 2. Schizophrénie, 3. Borderline et 4.
+Démence), sont enseignés sous format de « classe inversée ». Chaque cours se
+divise en plusieurs parties :
+1. espace d’auto-apprentissage (documents à disposition sur Moodle)
+2. évaluation des connaissances (test à valider dans « Moodle »)
+3. apports théoriques (reprise en plénière).
+4.3.1. Structuration des apports théoriques
+Pour chacun des quatre scénarios, un support de cours est publié sur « Moodle ».
+Il apporte aux étudiant-es les connaissances pertinentes relatives à l’épidémiologie,
+aux aspects étiopathogéniques, psychopathologiques et psychosociaux de base ainsi
+qu’à l’indication et au résultat du traitement. Ces données permettront à l’étudiant-e de
+se familiariser avec leur utilisation pour le diagnostic et processus décisionnel.
+Un article scientifique de revue sur le sujet de chaque scénario est également proposé
+en complément du support de cours.
+S’inscrivant dans le processus d’enseignement « classe inversée », ces documents
+servent à l’auto-apprentissage mais un moment de travail en groupe est également
+prévu à cet effet.
+4.3.2. Patient-es standardisé-es
+Des patient-es standardisé-es serviront à illustrer les 4 scénarios cliniques durant 2
+matinées. Lors de chaque matinée, le groupe d’étudiant-es sera invité à tour de rôle à
+interviewer plusieurs patient-es standardisé-es pour recueillir une anamnèse, fournir
+un diagnostic structuré et une indication au traitement. Cette séance a lieu en présence
+du tuteur ou de la tutrice qui aidera les étudiant-es à organiser leur démarche. Par la
+suite, le/la tuteur/trice doit réaliser une évaluation interactive visant à identifier les
+points faibles et forts de l’entretien conduit par l’étudiant-e, et lui donner un feedback.
+En particulier, il s’agira de déterminer :
+a. la qualité du contact établi
+b. la cohérence de la démarche d’investigation anamnestique et la capacité de
+structurer l’examen psychiatrique
+c. l’identification des critères pertinents pour chaque diagnostic
+d. l’adéquation du traitement proposé
+4.4 Evaluations cliniques
+psychothérapeutique
+
+et
+
+prise
+
+en
+
+charge
+
+psychiatrique
+
+et
+
+Afin de permettre aux étudiant-es de se familiariser avec des problèmes importants
+pour leur future pratique, mais qui ne se rencontrent pas nécessairement sur leur site
+de stage, 13 problèmes sont prévus pour étudier en plénière une casuistique en
+provenance des unités spécialisées du Département.
+
+AMC “ Psychiatrie ”
+
+5
+
+Objectifs généraux
+Les thèmes choisis sont les suivants :
+-
+
+Investigation d’un trouble psychotique inaugural
+Médecine sexuelle et sexologie
+Réaction aiguë à un facteur de stress et état de stress post-traumatique
+Trouble du développement intellectuel (TDI) et trouble du spectre de l’autisme (TSA)
+chez l’adulte
+Urgence et crise
+Trouble anxieux et phobie sociale
+Trouble obsessionnel-compulsif
+Passage de l’adolescence à l’âge adulte : aspects développementaux
+Les insomnies : diagnostic et traitement
+Troubles du comportement alimentaire
+Addictions
+TDAH – Trouble du déficit de l’attention avec ou sans hyperactivité
+Passage de l’adulte à l’âgé
+
+4.5 Eléments de psychothérapie
+Le séminaire sera partagé entre une première partie théorique introduisant les
+différents modèles psychothérapeutiques dans une perspective historique et
+d’Evidence Based Medecine, et une deuxième partie permettant d‘illustrer et
+commenter un des 3 modèles reconnus dans la formation de psychiatriepsychothérapie en Suisse.
+4.6 Pharmacologie clinique en psychiatrie
+Huit heures seront destinées à des mises au point de thérapeutique en lien avec
+l’enseignement transversal de la pharmacologie et en collaboration avec le Service de
+pharmacologie clinique et de toxicologie (2 fois deux heures)
+Les problèmes choisis sont :
+- Mécanismes d’action des médicaments psychotropes
+- Effets indésirables des psychotropes
+- Eléments de pharmacocinétique et monitoring thérapeutique
+- Effet placébo
+- Observance thérapeutique
+
+6
+
+AMC “ Psychiatrie ”
+
+Objectifs généraux
+4.7 Entretien, status mental et classification diagnostique
+Ce cours est articulé en deux parties : la première porte sur l’examen du status mental,
+la deuxième sensibilise aux spécificités du diagnostic en psychiatrie.
+La première partie aborde les différents aspects sémiologiques en psychiatrie. Nous
+retrouvons entre autres la description de la présentation du sujet, de sa conscience et
+de son orientation, l’examen de sa mémoire, du cours et du contenu de sa pensée, les
+phénomènes psychosensoriels et les troubles du Moi. L’examen de la thymie, de la
+psychomotricité et de la nosognosie du/de la patient-e complètent cette partie.
+Lors de la deuxième partie sur le diagnostic psychiatrique, les aspects sémantiques et
+les éléments historiques seront abordés, avec un accent sur l’importance de la
+démarche diagnostique en psychiatrie et ses particularités, liées à la représentation
+subjective de la maladie psychique (modèles scientifiques, culturels et religieux) et au
+modèle bio-psycho-social. Les enjeux liés au besoin d’objectivité et aux principes de
+la phénoménologie seront traités.
+La description de deux systèmes de classification utilisés en psychiatrie (CIM-10 et
+DSM-5) complète cette partie.
+En conclusion, quelques notes au sujet de la complexe thématique du suicide et des
+comportements suicidaires.
+4.8 Droit médical et éthique clinique en psychiatrie
+Les questions éthiques et médico-légales relatives aux thérapeutiques psychiatriques
+sont abordées en collaboration avec le Centre universitaire romand de médecine
+légale et l’Institut éthique histoire humanités (3 fois deux heures).
+Les thèmes choisis sont :
+- Le placement à des fins d’assistance
+- Le consentement, les traitements sous contrainte et les mesures de restriction de
+liberté
+- Les mesures de protection des majeurs incapables
+- La responsabilité pénale et les différents types de mesures pénales
+- Les enjeux éthiques de la contrainte
+4.9 Psychiatrie psychosociale et santé mentale : (3 heures)
+La maladie mentale et les troubles du comportement sont déterminés par un ensemble
+complexe de facteurs de risques biologiques, psychologiques et sociaux. Le cours
+examine le rôle que jouent les déterminants sociaux dans l'histoire naturelle de la
+maladie mentale (son évolution et son issue). Il aborde l'implication des facteurs
+psychosociaux dans les modèles de soins et l'organisation des services.
+En se basant sur la convention de l’ONU relative aux droits des personnes
+handicapées, ratifiée par la Suisse en 2014, et la charte genevoise Amour, sexualité
+et handicap, des aspects de droit en matière de sexualité, de reproduction et de la
+stigmatisation des personnes atteintes de handicap ou plus généralement de patients
+psychiatriques chroniques, sont discutés.
+Le cours porte également sur une rencontre avec des associations d'usagers et de
+proches visant à une intégration de leurs points de vue dans la formation et les
+réflexions dans ce domaine.
+
+AMC “ Psychiatrie ”
+
+7
+
+Objectifs généraux
+4.10 Neurosciences
+Quatre cours (1h/cours) sont proposés avec pour objectifs de :
+- Permettre à de futur-es médecins généralistes de vulgariser les connaissances
+neuroscientifiques de base et de les expliquer aux patient-es / familles ;
+- assurer l’interface entre sciences fondamentales et pratique clinique. Certains
+éléments déjà abordés en Bachelor, dans l’unité Neurosciences, seront repris et
+approfondis.
+Les apports théoriques seront orientés spécifiquement sur quatre pathologies
+psychiatriques enseignées également en format « classe inversée » (point 4.3) et
+« entretiens avec patient.es standardisé.es » (point 4.3.2), soit :
+1. Trouble de l’humeur, 2. Schizophrénie, 3. Borderline, 4. Démence.
+Seront notamment abordés : Interactions gènes / environnement, Neuroimagerie,
+Neuroanatomie, Impulsivité, Régulation émotionnelle, etc.
+4.11 Gardes (l’Unité d’Urgences Psychiatriques, UUPsy et Belle-Idée)
+En soirée de 19h à 23h, les étudiant-es auront la possibilité de se familiariser avec
+l’activité de garde psychiatrique. Il est prévu que chacun-e participe à deux gardes à
+l’Unité d’urgences psychiatriques (UUPSY - Hôpital cantonal).
+Durant les matinées du week-end (8h-12), les étudiant-es auront également la
+possibilité de participer à la visite du samedi ou dimanche matin, effectuée par les
+médecins adjoint-es de garde au Département, sur le site de Belle-Idée. La
+participation est facultative et se fait sur inscription auprès du secrétariat
+(enseignement.dpsy@hcuge.ch).
+
+8
+
+AMC “ Psychiatrie ”
+
+Disciplines étudiées
+
+DISCIPLINES ETUDIEES
+-
+
+PSYCHIATRIE
+
+-
+
+PSYCHOLOGIE DU DEVELOPPEMENT
+
+-
+
+PSYCHOPATHOLOGIE
+
+-
+
+PSYCHOTHERAPIE
+
+-
+
+PHARMACOLOGIE
+
+-
+
+PSYCHOLOGIE MEDICALE
+
+-
+
+MEDECINE LEGALE
+
+-
+
+NEUROSCIENCES
+
+-
+
+ETHIQUE MEDICALE
+
+-
+
+MEDECINE INTERNE
+
+-
+
+MEDECINE SOCIALE ET PREVENTIVE
+
+-
+
+NEUROLOGIE
+
+-
+
+URGENCES MEDICALES
+
+-
+
+MEDECINE COMMUNAUTAIRE
+
+-
+
+EPIDEMIOLOGIE CLINIQUE
+
+AMC “ Psychiatrie ”
+
+9
+
+Examens
+
+EXAMEN FACULTAIRE DE PSYCHIATRIE
+L’examen facultaire de psychiatrie :
+La structure et le déroulement de l’examen sont détaillés dans le « Règlement de
+l’examen facultaire de psychiatrie » (site de la Faculté de médecine).
+https://www.unige.ch/medecine/fr/enseignement1/bachelor-et-master-en-medecinehumaine/examens-master/datesorganisation-1/amcsection1et2/
+
+10
+
+AMC “ Psychiatrie ”
+
+Références
+
+REFERENCES BIBLIOGRAPHIQUES
+Classifications diagnostiques
+•
+
+American Psychiatric Association. DSM-5 : manuel diagnostique et statistique
+des troubles mentaux, 5e éd. Issy-les-Moulineaux : Elsevier Masson, 2015. WM
+15 3
+https://ebookcentral.proquest.com/lib/unige/detail.action?pqorigsite=primo&docID=4337396
+
+•
+
+Organisation Mondiale de la Santé. CIM-10/ICD-10 : classification
+internationale des maladies. Dixième révision. Chapitre V (F) : troubles
+mentaux et troubles du comportement : descriptions cliniques et directives
+pour le diagnostic. 10e éd. Genève : OMS ; Paris : Masson, 1994. WM 15 5
+
+Textbooks :
+•
+
+Armony J, Vuilleumier P (ed.). The Cambridge handbook of human affective
+neuroscience. Cambridge : Cambridge University Press, 2013. BF 531 2
+https://archive-ouverte.unige.ch/unige:72677
+
+•
+
+Black DW, Andreasen NC. Introductory textbook of psychiatry. 7th ed.,
+Washington, DC : American Psychiatric Publishing, 2021. WM 100 55
+
+•
+
+El-Guebaly N, Carrà G, Galanter G (eds). Textbook of addiction treatment:
+International perspectives. 2nd ed. Cham : Springer, 2021. Ebook:
+https://link.springer.com/book/10.1007%2F978-3-030-36391-8
+
+•
+
+Lalonde P (dir.). Psychiatrie clinique : une approche bio-psycho-sociale.
+Tome I : Introduction à la psychiatrie, déterminants bio-psycho-sociaux,
+syndromes cliniques et organisation des soins. 4e éd. Montréal [etc.] : Chenelière
+éducation, 2016. WM 100 11
+
+•
+
+Lalonde P (dir.). Psychiatrie clinique : une approche bio-psycho-sociale. Tome
+II : Spécialités psychiatriques et traitements. 4e éd. Montréal [etc.] : Chenelière
+éducation, 2016. WM 100 11
+
+•
+
+Sadock BJ, Sadock VA, Ruiz P (eds). Kaplan & Sadock's comprehensive
+textbook of psychiatry. 10th ed. Philadelphia, PA : Wolters Kluwer
+Health/Lippincott Williams & Wilkins, cop. 2017. 2 vol. WM 100 5
+
+•
+
+Stahl SM. Psychopharmacologie essentielle : bases neuroscientifiques et
+applications pratiques. 4e éd. Paris: Lavoisier Médecine Sciences, 2015. WM
+402
+6
+ed
+4.
+Ebook
+(édition
+anglaise,
+5th
+ed.,
+2021) :
+https://www.cambridge.org/core/books/stahls-essentialpsychopharmacology/1231F597AE3471AE53B1CC9AFDA34B32
+
+Chapitres
+•
+
+Bondolfi G, Bizzini L. Introduction aux thérapies cognitivo-comportementales.
+In : Calanca A. (dir.) ; Bryois C, Buclin T (rév.). Vade-mecum de thérapeutique
+psychiatrique. 10e éd. entièrement rév. et augm. Genève : Médecine et Hygiène,
+2011, p. 105-112. WM 34 11
+
+AMC “ Psychiatrie ”
+
+11
+
+Références
+•
+
+Giannakopoulos P, Gaillard M (dir.). Abrégé de psychiatrie de l’âge avancé
+Chêne-Bourg :
+Médecine
+et
+Hygiène,
+2010,
+pp.
+57
+à
+170.
+WT 150 14
+
+•
+
+Karasu SR. Psychoanalysis and psychoanalytic psychotherapy. In: Sadock
+BJ, Sadock VA, Ruiz P (eds). Kaplan & Sadock's comprehensive textbook of
+psychiatry. 10th ed. Philadelphia, PA: Wolters Kluwer, 2017, p. 2638-2675. WM
+100 5
+
+•
+
+Meaux E, Vuilleumier P. Emotion perception and elicitation. In: Toga A. (editor).
+Brain mapping: An encyclopedic reference. San Diego, CA, USA : Academic
+Press/Elsevier, 2015, p. 79-90.
+Ebook:
+https://www.sciencedirect.com/referencework/9780123973160/brainmapping
+
+•
+
+Spitz HI, Spitz ST. Family and couples therapy. In: Sadock BJ, Sadock VA, Ruiz
+P (eds). Kaplan and Sadock's comprehensive textbook of psychiatry. 10th ed.
+Philadelphia, PA : Wolters Kluwer, 2017, p. 2748-2760. WM 100 5
+
+Ouvrages
+•
+
+American Psychiatric Association. Quick reference to the American Psychiatric
+Association practice guidelines for the treatment of psychiatric disorders:
+compendium 2006. 4th ed. Arlington, VA : American Psychiatric Association,
+2006. WM 400 4 ed 2006
+
+•
+
+Besson M, Aubry JM, Berney P, Chytas V, Curtis L (dir.). Psychotropes d'usage
+courant : guide pratique. 3e éd. Chêne-Bourg : Médecine et Hygiène, 2023. VQV
+77.2.
+
+•
+
+Boulenger JP, Lépine JP (dir.). Les troubles anxieux. Paris : Médecine Sciences
+Publications-Lavoisier, 2014. WM 172 11
+
+•
+
+Crocq L (dir.). Traumatismes psychiques : prise en charge psychologique des
+victimes. 2e éd. Issy-les-Moulineaux : Elsevier-Masson, 2014. WM 172 12
+
+•
+
+Desseilles M, Grosjean B, Perroud N. Manuel du borderline. Paris : Eyrolles,
+2018. WM 190 4
+
+•
+
+Desseilles M, Perroud N, Weibel S. Manuel de l’hyperactivité et du déficit
+d’attention : le TDAH chez l’adulte. Paris : Eyrolles, 2020. (Les manuels de
+développement personnel). WM 169 2
+
+•
+
+Dubois B, Michon A (coord). Démences. Montrouge : Doin, 2015. Ebook :
+http://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=991397&site
+=ehost-live
+
+•
+
+Elkaïm M, Hacker AL, Clerc C. Panorama des thérapies familiales. Paris : Ed.
+du Seuil, 2003. (Points ; 499. Essais). WM 430.5 4
+
+•
+
+Gabbard GO. Psychodynamic psychiatry in clinical practice. 5th ed.
+Washington, DC : American Psychiatric Pub., 2014. WM 420.5 3
+
+•
+
+Guillod O, Burgat S. Droit des familles. 6ème éd. Bâle : Helbing Lichtenhahn,
+2022. K 670 1 ed 6
+
+12
+
+AMC “ Psychiatrie ”
+
+Références
+•
+
+Gunderson JG, Links PS. Handbook of good psychiatric management for
+borderline personality disorder. Arlington, VA : American Psychiatric
+Publishing, 2014. WM 34 14
+
+•
+
+Hall KSK, Binik YM. Principles and practice of sex therapy. 6th ed. New York :
+Guildorf Press, 2020. WM 611 3 ed 6
+
+•
+
+Jones E, Asen E. Systemic couple therapy and depression. London ; New York
+: Routledge, 2000. Ebook:
+https://www.taylorfrancis.com/books/edit/10.4324/9780429480669/systemiccouple-therapy-depression-elsa-jones-eia-asen-gianfranco-cecchin-julian-leffelsa-jones-eia-asen
+
+•
+
+Katzung BG. Basic and clinical pharmacology. 15th ed. New York : MacGraw &
+Hill, 2021. QV 4 7
+Ebook: https://accessmedicine.mhmedical.com/book.aspx?bookid=2988
+
+•
+
+Kédia M, Sabouraud-Séguin A, Psychotraumatologie. 3e éd. Paris : Dunod,
+2020.
+Accès
+online
+.:
+https://www.cairn.info/psychotraumatologie-9782100793327.htm
+
+•
+
+Kryger MH, Roth T, Dement WC. Principles and practice of sleep medicine. 6th
+ed. Philadelphia PA : Elsevier, 2017. WL 108 27 ed 6
+
+•
+
+Michaud L, Bonsack C, Dorigi Y. Prévention du suicide : Rencontrer, évaluer,
+intervenir. Chêne-Bourg : Médecine & Hygiène, 2017. WM 165 3
+
+•
+
+Perroud N, Nicastro R, Zimmermann J, Prada P, Aubry JM. Déficit de l'attentionhyperactivité chez l'adulte : Psychopharmacologie et psychothérapie.
+Chêne-Bourg : Médecine & Hygiène, 2015. WM 169 PER
+
+•
+
+Reynaud M
+WM 270 6
+
+•
+
+Salem G, Frenck N. L’approche thérapeutique de la famille. 5e éd. Issy-lesMoulineaux :
+Masson,
+2009.
+Accès
+online :
+https://www.sciencedirect.com/book/9782294706134/lapproche-therapeutiquede-la-famille
+
+•
+
+Shea SC. Evaluation du potentiel suicidaire : Comment intervenir pour
+prévenir.
+Issy-les-Moulineaux :
+Elsevier
+Masson,
+2008.
+:
+https://www.sciencedirect.com/book/9782842998516/evaluation-du-potentielsuicidaire
+
+•
+
+Talpin JM. Psychologie clinique du vieillissement normal et pathologique. 2e
+éd. Malakoff : A. Colin, 2017. Accès online . https://www.cairn.info/psychologieclinique-du-vieillissement-normal--9782200618889.htm
+
+•
+
+Verdon, B. Le vieillissement psychique. 3e éd. corr. Paris: Presses universitaire
+de France, 2022. (Que sais-je?). Accès online : https://www.cairn.info/levieillissement-psychique--9782715410855.htm
+
+•
+
+Werro F. Concubinage, mariage et démariage. 5ème éd. (Précis de droit Stämpfli
+PdS). Berne : Staempfli, 2000. K 670 2 ed 5
+
+(éd.).
+
+Addictions
+
+et
+
+psychiatrie.
+
+AMC “ Psychiatrie ”
+
+Paris :
+
+Masson,
+
+2005.
+
+13
+
+Références
+Articles
+•
+
+Ahmed SP, Bittencourt-Hewitt A, Sebastian CL. Neurocognitive bases of
+emotion regulation development in adolescence. Dev Cogn Neurosci
+2015;15:11‑25.
+
+•
+
+Bateman AW, Gunderson J, Mulder R. Treatment of personality disorder.
+Lancet 2015;385(9969):735-43.
+
+•
+
+Bauer M, Bschor T, Pfennig A, Whybrow PC, Angst J, Versiani M, Möller HJ,
+WFSBP Task Force on Unipolar Depressive Disorders. V. World Federation of
+Societies of Biological Psychiatry (WFSBP) Guidelines for biological
+treatment of unipolar depressive disorders in primary care. World J Biol
+Psychiatry 2007;8(2):67-104.
+
+•
+
+Belmaker RH, Agam G. Major depressive disorder. N Engl J Med
+2008;358(1):55-68.
+
+•
+
+Benzakour L. Psychotraumatisme en contexte de psychiatrie de liaison. Rev
+Med Suisse 2020;16(681):301-6.
+
+•
+
+Berghändler T, Stieglitz R, Vriends N. La phobie sociale: étiologie, diagnostic
+et traitement. Forum Med Suisse 2007;7:225-30.
+
+•
+
+Blakemore SJ. Adolescence and mental health. Lancet 2019;393(10185):
+2030‑1.
+
+•
+
+Blakemore SJ, Mills KL. Is adolescence a sensitive period for sociocultural
+processing? Annu Rev Psychology 2014;65:187‑207.
+
+•
+
+Byrne P. Managing the acute psychotic episode. BMJ 2007;334(7595):686-92.
+
+•
+
+Cash TF, Deagle EA, 3rd. The nature and extent of body-image disturbances
+in anorexia nervosa and bulimia nervosa: a meta-analysis. Int J Eat Disord
+1997;22(2):107-25.
+
+•
+
+Fonagy P, Luyten P, Allison E, Campbell C. What we have changed our minds
+about: Part 1. Borderline personality disorder as a limitation of resilience.
+Borderline Personal Disord Emot Dysregul 2017;4:11.
+
+•
+
+Fonagy P, Luyten P, Bateman A. Treating borderline personality disorder with
+psychotherapy: Where do we go from here? JAMA Psychiatry 2017;74(4):3167.
+
+•
+
+Frassati D, Dauvé C, Kosel M. Le handicap intellectuel chez l’adulte : concepts
+actuels et défis dans l’approche clinique. Rev Med Suisse 2017;13(575):16014.
+
+•
+
+Goodman WK, Grice DE, Lapidus KA, Coffey BJ. Obsessive-compulsive
+disorder. Psychiatr Clin North Am 2014;37(3):257-67.
+
+•
+
+Hasler G, Preisig M, Müller T, Kawohl W, Aubry JM, Greil W. Troubles bipolaires:
+mise à jour 2019. Forum Med Suisse 2019;19(33/34):537-546.
+
+•
+
+Hiemke C, Bergemann N, Clement HW et al. Consensus guidelines for
+therapeutic drug monitoring in neuropsychopharmacology: Update 2017.
+Pharmacopsychiatry. 2018;51(1-02):9-62.
+
+14
+
+AMC “ Psychiatrie ”
+
+Références
+•
+
+Hirschtritt ME, Bloch MH, Mathews CA. Obsessive-compulsive disorder:
+advances in diagnosis and treatment. JAMA 2017;317(13):1358-67.
+
+•
+
+Holsboer-Trachsler E, Hättenschwiler J, Beck J, Brand S, Hemmeter UM, Keck
+ME, Rennhard S, Hatzinger M, Merlo M, Bondolfi G, Preisig M, Gehret A, Bielinski
+D, Seifritz E. Traitement aigu des épisodes dépressifs. Traitement somatique
+des troubles dépressifs unipolaires : mise à jour 2016, 1re partie. Forum Med
+Suisse 2016 ;16(35) :716-24.
+
+•
+
+Holsboer-Trachsler E, Hättenschwiler J, Beck J, Brand S, Hemmeter UM, Keck
+ME, Rennhard S, Hatzinger M, Merlo M, Bondolfi G, Preisig M, Gehret A, Bielinski
+D, Seifritz E. Traitement d’entretien et prévention des récidives des troubles
+dépressifs unipolaires. Traitement somatique des troubles dépressifs
+unipolaires : mise à jour 2016, 2e partie. Forum Med Suisse 2016;16(36) :73943.
+
+•
+
+Imtiaz B, Tolppanen AM, Kivipelto M, Soininen H . Future directions in
+Alzheimer's disease from risk factors to prevention. Biochem Pharmacol
+2014;88(4):661-70.
+
+•
+
+Johansson M, Stomrud E, Lindberg O, Westman E, Johansson PM, van Westen
+D, Mattsson N, Hansson O. Apathy and anxiety are early markers of
+Alzheimer's disease. Neurobiol Aging 2020;85:74-82.
+
+•
+
+Katzman MA, Bleau P, Blier P, Chokka P, Kjernisted K, Van Ameringen M,
+Canadian Anxiety Guidelines Initiative Group on behalf of the Anxiety Disorders
+Association of Canada/Association Canadienne des troubles anxieux and McGill
+University, Antony MM, Bouchard S, Brunet A, Flament M, Grigoriadis S,
+Mendlowitz S, O'Connor K, Rabheru K, Richter PM, Robichaud M, Walker JR.
+Canadian clinical practice guidelines for the management of anxiety,
+posttraumatic stress and obsessive-compulsive disorders. BMC Psychiatry
+2014;14(S1):S1.
+
+•
+
+Keck ME, Ropohl A, Bondolfi G, Constantin Brenni C, Hättenschwiler J, Hatzinger
+M, Hemmeter UM, Holsboer-Trachsler E, Kawohl W, Poppe C, Preisig M,
+Rennhard S, Seifritz E, Weidt S, Walitza S, Rufer M. Le traitement des troubles
+anxieux. 2e partie : Troubles obsessionnels compulsifs et syndrome de
+stress posttraumatique. Forum Med Suisse 2013;13(17):337-44.
+
+•
+
+Konrad N, Welke J, Opitz-Welke A. Paraphilias. Curr Opin Psychiatry
+2015;28(6):440-4.
+
+•
+
+Kosel M, Perroud N, Bondolfi G. Dépression : analyse décisionnelle pour la
+prise en charge par le médecin de premier recours. Rev Med Suisse
+2012;8:2346-63.
+
+•
+
+Lieberman JA, First MB. Psychotic disorders. N Engl J Med 2018;379(3):270-80.
+
+•
+
+Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum
+disorder. Lancet 2018;392(10146):508-20.
+
+AMC “ Psychiatrie ”
+
+15
+
+Références
+•
+
+Mangialasche F, Kivipelto M, Solomon A, Fratiglioni L. Dementia prevention:
+current epidemiological evidence and future perspective. Alzheimers Res
+Ther 2012;4(1):6.
+
+•
+
+Miller WR, Moyers TB. The forest and the trees: relational and specific factors
+in addiction treatment." Addiction 2015;110:401-13.
+
+•
+
+Prada P, Guenot F, Charbon P, Kolly S, Perroud N. Thérapies actuelles du
+trouble de personnalité borderline. Rev Med Suisse 2015;11(486):1686,168890.
+
+•
+
+Penzenstadler L, Machado A, Thorens G, Zullino D, Khazaal Y. Effect of case
+management interventions for patients with substance use disorders: A
+systematic review. Front Psychiatry 2017;8:51.
+
+•
+
+Romer D, Reyna VF, Satterthwaite TD. Beyond stereotypes of adolescent risk
+taking: Placing the adolescent brain in developmental context ». Dev Cogn
+Neurosci 2017;27:19‑34.
+
+•
+
+Sarazin M, Lagarde J, Roué-Jagot C. Maladie d’Alzheimer. EMC - Psychiatrie
+2016:1-15 [Article 37-540-B-30].
+
+•
+
+Sawyer SM, Azzopardi PS, Wickremarathne D, Patton GC. The age of
+adolescence. Lancet Child Adolesc Health 2018;2: 223–8.
+
+•
+
+Seifritz E, Hättenschwiler J, Hemmeter UM, Bondolfi G, Preisig M, Rennhard S,
+Hatzinger Walitza S, Brühl AB, Hoslboer-Trachsler E. Le traitement des troubles
+anxieux : version courte. Forum Med Suisse 2024;24(15):194-199.
+
+•
+
+Sindi S, Mangialasche F, Kivipelto M. Advances in the prevention of alzheimer's
+disease. F1000Prime Rep 2015;7:50.
+
+•
+
+Soldati L, Hischier M, Aubry JM. Réseau de soins pour patients souffrant de
+dysphorie de genre. Rev Med Suisse 2016;12(531):1557-60.
+
+•
+
+Thapar A, Cooper M, Rutter M. Neurodevelopmental disorders. Lancet
+Psychiatry 2017;4(4):339-46.
+
+•
+
+Treasure J, Duarte TA, Schmidt U. Eating disorders. Lancet
+2020;395(10227):899-911.
+
+•
+
+Vuilleumier P. Cerveau et émotion. Encyclopaedia Universalis [en ligne],
+consulté le 4 juin 2020. URL: http://www.universalisedu.com/encyclopedie/cerveau-et-emotion/
+
+•
+
+Volkow ND, Morales M. The Brain on drugs: From reward to addiction. Cell
+2015;162: 712-25.
+
+•
+
+Wright JH. Cognitive behavior therapy: basic principles and recent advances.
+Focus 2006;4:173-8.
+
+16
+
+AMC “ Psychiatrie ”
+
+Références
+
+Liens divers
+●
+
+Recommandations de traitement de la SSPP pour différents troubles
+psychiatriques (troubles dépressif, anxieux, de la schizophrénie, personnalité
+borderline)
+https://www.psychiatrie.ch/fr/sgpp/specialistes-et-commissions/recommandationstherapeutiques
+https://www.cairn.info/psychiatrie-de-liaison--9782257206923.htm
+
+•
+
+Recommandations pharmacogénétiques : https://www.pharmgkb.org/
+
+AMC “ Psychiatrie ”
+
+17
+
+Scénario 1/4
+
+SCENARIOS
+SCENARIO N°1 : TROUBLE DE L’HUMEUR
+RESUME DU SCENARIO :
+
+Madame N., 42 ans, mère de deux enfants, consulte les urgences sur conseil de sa
+famille, se plaignant d’une grosse fatigue. Elle a un médecin généraliste, qui ne la
+connaît pas très bien car elle le voit rarement étant en bonne santé habituelle et qui
+est actuellement en vacances. Ce sont sa mère et son mari qui lui ont conseillé de se
+rendre aux urgences, car ils la trouvent démotivée, triste, peu intéressée à son
+entourage, alors qu’habituellement elle est quelqu’un de passionné et enthousiaste. Ils
+sont également inquiets du fait qu’elle dort très peu et se lève parfois pendant la nuit,
+restant ensuite assise sur une chaise en cuisine. Elle est devenue apathique, mais
+pouvant également présenter des moments d’irritabilité l’amenant à interagir de
+manière brusque avec son fils cadet, âgé de 4 ans, et avec qui elle était habituellement
+très douce. Sa sœur aînée a souffert d’hypothyroïdie il y a quelques années et sa mère
+dit qu’elle avait certains de ces symptômes.
+Au début de la consultation Madame N. ne nie pas l’ensemble des symptômes décrits
+par son entourage, mais elle les minimise, disant « qu’elle ne veut pas déranger ». Elle
+se dit un peu ralentie, ayant de la peine à se concentrer et se sentant fatiguée tout le
+long de la journée. Elle décrit que les symptômes ont commencé à se présenter de
+manière insidieuse, il y a quelques mois, sous forme de fatigue, sentiment de solitude
+et de dévalorisation. Progressivement, elle a commencé à se sentir anxieuse et à
+dormir moins bien, se réveillant et ne pouvant plus s’endormir à cause de ruminations
+moroses (pas d’idéations suicidaires cependant, facteur protecteur principal : les
+enfants). Elle décrit également une tristesse et dit pleurer « pour un rien ». Elle peine
+à s’alimenter, la nourriture lui semble fade. Elle aurait perdu du poids car elle flotte
+désormais dans ses vêtements.
+La patiente évoque au fil de l’entretien un épisode semblable, qu’elle minimise
+cependant (un « coup de blues »), après la naissance de sa fille, il y a 15 ans. Elle
+aurait alors reçu un traitement antidépresseur. Elle rapporte également une période
+d’intense activité professionnelle, au cours de laquelle l’humeur était euphorique, avec
+un sentiment de toute-puissance, une nette diminution des besoins de sommeil sans
+fatigue, des dépenses inconsidérées pour acheter les bijoux, au point que son mari
+avait dû intervenir pour lui interdire l’accès aux moyens de paiement, une désinhibition
+et une logorrhée. Les symptômes se sont aggravés et finalement la patiente a été
+hospitalisée une dizaine de jours en milieu psychiatrique. Un traitement stabilisateur
+de l’humeur (possiblement du lithium) avait alors été introduit.
+OBJECTIF GÉNÉRAL DE L’ENTRETIEN :
+Le/la patient-e standardisé-e permet à l’étudiant-e d’apprendre à reconnaître le
+diagnostic d’un épisode dépressif dans le contexte d’un trouble bipolaire. Le trouble
+dépressif est assez facile à mettre en évidence au vu du status actuel. Le trouble
+bipolaire n’est mis en évidence qu’après un questionnement orienté de la patiente,
+celle-ci tendant à minimiser cet antécédent. Discussion sur la conduite à tenir en
+termes de prise en charge et de traitement psychopharmacologique.
+
+18
+
+AMC “ Psychiatrie ”
+
+Scénario 1/4
+
+CONTENU GENERAL
+• Concept
+
+-
+
+le trouble bipolaire
+
+• Présentation clinique
+
+-
+
+patiente déprimée avec anamnèse d’épisode
+maniaque à rechercher
+
+-
+
+traitements antidépresseurs
+
+• Problème
+
+-
+
+trouble bipolaire
+
+• Démarche privilégiée
+par le problème
+
+-
+
+recueil des éléments anamnestiques,
+évaluation clinique et diagnostic différentiel,
+problèmes pharmacologiques par rapport à un
+sujet déprimé dans le contexte d’un trouble
+bipolaire (risque d’effets indésirables si
+prescription d’antidépresseurs sans
+stabilisateur associé).
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours..
+
+AMC “ Psychiatrie ”
+
+19
+
+Scénario 2/4
+
+SCENARIO N°2 : SCHIZOPHRENIE
+RÉSUMÉ DU SCÉNARIO
+Mme X., 41 ans. Il s’agit d’une patiente mariée, actuellement sans emploi. Elle consulte
+sur demande de sa mère qui s’inquiète qu’elle ne va pas bien, suite à l’arrêt de son
+traitement prescrit lors d’un séjour à la clinique psychiatrique. Elle a développé un
+trouble d’allure schizophrénique d’instauration progressive après le décès de son père,
+alors qu’elle avait 18 ans. L’apparition d’un comportement bizarre et déstructuré l’a
+mise en échec dans ses études et l’a conduite à des hospitalisations répétées à la
+clinique psychiatrique. Elle a néanmoins réussi à obtenir une demi-licence, mais a de
+la peine à faire face à une activité professionnelle suivie. Elle s’est mariée il y a 3 ans
+à un requérant d’asile qui, de fait, a obtenu le droit de séjour. L’entente est assez
+mauvaise, le mari a des difficultés à supporter les symptômes que la patiente
+développe fréquemment. Cette patiente présente une évolution classique : elle
+fonctionne plutôt bien lorsqu’elle est sous médication, étant à même d’assurer une
+activité professionnelle rémunérée à temps partiel, mais manifeste d’importants
+symptômes (cf. infra) dès lors qu’elle arrête son traitement. Le tableau actuel (qui est
+superposable à ce qu’elle a présenté antérieurement) est caractérisé par un
+ralentissement psychomoteur, l’absence d’expression d’émotions. La patiente est
+plutôt ralentie en début d’entretien, puis s’anime peu à peu du fait d’une confiance
+partielle. Elle tient plus tard un discours projectif, disant que son état est la
+conséquence de la prise de ses médicaments ou des tracas que lui fait vivre sa mère.
+Elle fait part d’hallucinations qui sont de plus en plus fréquentes ces dernières
+semaines ; elle entend alors une voix qui lui tient des propos confus. Elle a quelques
+idées à thématique délirante (craint que sa mère ne l’empoisonne). Elle pense
+également avoir de l’influence sur les choses et dit que parfois elle serait capable de
+déclencher des catastrophes.
+NB : Pour le cas où le patient standardisé serait de sexe masculin, le scénario s’inverse
+avec des éléments compatibles avec cette situation.
+OBJECTIF GENERAL DE L’ENTRETIEN
+Le but est de confronter les étudiant-es à une patiente en pleine rechute psychotique,
+et peu collaborante. Ils/elles doivent être à même de trouver une attitude adéquate
+compte tenu de ce contexte. Ils/elles rechercheront également des éléments
+anamnestiques, de même qu’à effectuer un status mental à même de mettre en
+évidence la symptomatologie de cette patiente. Ils/elles parviendront ainsi à un
+diagnostic différentiel. Une fois celui-ci fait, ils/elles concluront en la présence d’un
+trouble psychotique d’allure schizophrénique et pourront proposer à l’intéressée une
+option thérapeutique-pharmacologique et psychosociale.
+
+20
+
+AMC “ Psychiatrie ”
+
+Scénario 2/4
+
+CONTENU GENERAL
+
+• Concept
+
+- Rechute dans le cadre d’une schizophrénie, suite à une
+rupture de traitement.
+
+• Présentation clinique
+
+- Schizophrénie indifférenciée
+
+• Problème
+
+- Approche relationnelle du patient, investigation
+diagnostique et proposition de prise en soins.
+
+• Démarche privilégiée
+par le problème
+
+- Premier contact, démarche d’investigation
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+AMC “ Psychiatrie ”
+
+21
+
+Scénario 3/4
+
+SCENARIO N°3 : TROUBLE BORDERLINE
+RÉSUME DU SCÉNARIO :
+Jeune femme de 32 ans, mariée, un fils préadolescent, employée à mi-temps comme
+réceptionniste dans une étude d’avocats, en bonne santé habituelle.
+La veille de la consultation, à la suite d’un nouveau conflit avec son mari qui refuse de
+sortir en boîte de nuit avec elle, elle quitte le domicile conjugal, va boire quelques
+verres d’alcool dans des bars du quartier, et « s’invite » chez son amant pour y passer
+la nuit.
+Il la découvre le matin très endormie, titubante, ayant de la peine à s’exprimer, et
+l’amène en urgence à votre consultation.
+OBJECTIF GÉNÉRAL DE L’ENTRETIEN :
+Pour favoriser l’intégration et compléter l’acquisition des connaissances de base,
+l’étudiant-e va rechercher les symptômes amenant au diagnostic de la personnalité
+borderline.
+Il/elle devra faire un diagnostic différentiel et particulièrement exclure un épisode
+dépressif et ou un trouble bipolaire. Le risque suicidaire devra également être évalué.
+L’acquisition du raisonnement clinique se fera par étapes, en établissant les
+anamnèses personnelle et actuelle d’une patiente peu collaborante, au contact fuyant
+et agressive par moments, centrée sur un sentiment de vide, d’ennui, de colère et de
+révolte.
+L’étudiant-e apprendra à définir le degré d’urgence immédiat de la prise en charge, à
+élaborer un plan de soins avec les différentes prises en charge thérapeutiques
+possibles (par le/la généraliste et par le/la psychiatre, à court, moyen et long terme).
+
+CONTENU GENERAL
+• Concept
+
+- les troubles de la personnalité influent durablement le
+contrôle émotionnel et la capacité à résister au stress.
+
+• Présentation clinique
+
+- jeune patiente présentant, dans le cadre d’une crise
+sentimentale, une réaction émotionnelle intense
+compliquée par des tendances auto et
+hétéroagressives.
+
+• Problème
+
+- rupture sentimentale chez une patiente borderline et
+prise en charge de la réaction d’abandon et du risque
+suicidaire et hétéro-agressif correspondants.
+
+• Démarche privilégiée
+par le problème
+
+- évaluation clinique de la personnalité, du risque
+suicidaire, diagnostic de trouble de la personnalité
+borderline, réponse à l’urgence et traitement à
+moyen/long terme.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+22
+
+AMC “ Psychiatrie ”
+
+Scénario 4/4
+
+SCENARIO N°4 : DEMENCE
+RESUME DU SCENARIO :
+Mme M., 68 ans, ancienne secrétaire de direction, veuve avec une fille, consulte sur
+l’incitation de cette dernière pour des problèmes de mémoire, apparus dans un
+contexte de déménagement. Elle est consciente de ses troubles mais tend à les
+banaliser, les mettant sur le compte du stress, de la fatigue, et des changements
+d’habitude. Elle a du mal à s’habituer à son nouveau logement et se perd dans ses
+affaires. Elle se sent davantage seule, ne veut pas être un poids pour sa fille, se sent
+plus facilement angoissée, et se culpabilise de ne pas arriver à faire face à la situation.
+Depuis peu elle a abandonné certaines de ses activités, prend moins d’initiatives, alors
+qu’elle était restée très active après sa retraite. Les antécédents sont difficiles à faire
+préciser. Elle a fait un épisode dépressif à la suite du décès de sa mère, pour laquelle
+on avait parlé de sénilité. Son père est décédé d’un accident vasculaire cérébral.
+Elle a perdu son mari jeune et a élevé sa fille seule, de façon indépendante, tout en
+étant très investie dans son métier par lequel elle avait beaucoup de contacts.
+
+OBJECTIF GENERAL DE L’ENTRETIEN
+Chez cette patiente qui consulte pour des troubles de mémoire, l’entretien devrait
+permettre de préciser la plainte, le mode de début et le caractère évolutif des troubles,
+leur contexte, leur retentissement, et de dégager certains signes d’alerte qui doivent
+faire évoquer une maladie d’Alzheimer. Des signes cliniques tels que l’oubli à mesure,
+le manque du mot, la désorientation temporelle et spatiale, les difficultés de
+planification témoignant d’une atteinte cognitive probable, doivent pouvoir être
+observés. L’entretien doit permettre une relation et une écoute qui favorise l’expression
+de symptômes dépressifs ou anxieux au-delà de la plainte mnésique, faisant discuter
+le diagnostic différentiel de dépression ou d’anxiété. Il doit permettre d’évoquer
+quelques hypothèses concernant les mécanismes d’adaptation à la maladie et les
+répercussions sur le plan familial. Une démarche diagnostique et thérapeutique devrait
+être proposée tout en restant attentif à la demande du/de la patient-e et à son
+questionnement sur le diagnostic.
+
+CONTENU GENERAL
+Concept :
+Présentation clinique
+Problème
+Démarche privilégiée par
+le problème
+
+Plainte mnésique
+Maladie d’Alzheimer
+Approche relationnelle du/de la patient-e, démarche
+diagnostique, prise en soins
+premier contact, évaluation, diagnostic différentiel,
+attitude
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+AMC “ Psychiatrie ”
+
+23
+
+Séminaires
+
+SEMINAIRES
+Eléments de Psychothérapie
+1 SESSION
+
+INTRODUCTION ET SENSIBILISATION A LA PSYCHOTHERAPIE
+3 heures
+OBJECTIFS D’APPRENTISSAGE
+1. Se familiariser avec les concepts communs aux différentes formes de psychothérapie.
+2. Connaître les principes théoriques de base des modèles de psychothérapie.
+ILLUSTRATION CLINIQUE
+Supports vidéo illustrant les différentes formes de psychothérapie enseignées :
+
+CONTENUS
+
+Conception étiologique :
+• Modèle psychodynamique :
+La conception étiologique de la thérapie psychodynamique repose sur l'idée que les
+problèmes psychologiques résultent de conflits inconscients, souvent issus de l'enfance,
+et des dynamiques internes. Les expériences passées, les traumatismes et les désirs
+refoulés influencent profondément le comportement et les émotions actuels. La thérapie
+vise à explorer et à résoudre ces conflits inconscients pour favoriser la guérison et le
+développement psychologique.
+•
+
+Modèle cognitivo-comportemental :
+
+L’individu développe des comportements inadaptés induits par des croyances erronées.
+Ses difficultés psychologiques sont dues à son style de pensée et de perception des
+événements, il est possible d’apprendre à les modifier, cette modification aura des effets
+bénéfiques sur les pensées mais aussi sur les comportements et les émotions qui en
+dépendent.
+• Modèle systémique :
+La thérapie systémique repose sur l'idée que les problèmes individuels sont mieux
+compris dans le contexte des relations et des dynamiques interpersonnelles au sein des
+systèmes familiaux ou sociaux. La thérapie vise à modifier les interactions
+dysfonctionnelles et les schémas de communication pour améliorer le bien-être global du
+système.
+
+24
+
+AMC “ Psychiatrie ”
+
+Séminaires
+Buts thérapeutiques:
+• Modèle psychodynamique :
+Le but thérapeutique de la thérapie analytique est de rendre conscient l'inconscient,
+permettant ainsi à l'individu de comprendre et de résoudre les conflits internes, les
+émotions refoulées et les influences passées qui affectent son comportement et ses
+relations actuelles. Cela vise à favoriser une meilleure compréhension de soi et à
+faciliter des changements durables dans la personnalité et le fonctionnement
+psychologique.
+• Modèle cognitivo-comportemental :
+La reconnaissance par le sujet des processus émotionnels, cognitifs et comportementaux
+à l’origine des troubles (auto-observation) et développement de compétences
+comportementales et cognitives adaptatives.
+• Modèle systémique :
+Permettre le dépistage et la modification des structures dysfonctionnelles, l’augmentation
+des compétences relationnelles et de la diversité du style communicationnel. Elaboration
+de la dimension transgénérationnelle pour éviter des répétitions.
+Moyens thérapeutiques :
+• Modèle psychodynamique :
+Interprétation d’associations libres, d’actes manqués et des rêves. L’élaboration du
+transfert où les sentiments et les désirs inconscients envers des figures passées sont
+transférés sur le thérapeute, est utilisée pour comprendre et résoudre les conflits
+internes..
+• Modèle cognitivo-comportemental :
+Thérapie généralement limitée dans le temps avec un objectif défini avec le patient dans
+un style collaboratif utilisant notamment des techniques d’exposition, de restructuration
+cognitive, d’entraînement des compétences sociales, et de tâches à domicile.
+• Modèle systémique :
+Généralement thérapie avec deux thérapeutes consultant une famille ou un couple,
+utilisant des techniques de questionnement circulaire, de recadrage, d’interventions
+paradoxales,des techniques analogiques et des co-constructions thérapeutiques dans le
+but d’aider l’ensemble du système familial sans privilégier un membre en particulier.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+AMC “ Psychiatrie ”
+
+25
+
+Problème 1/13
+
+EVALUATIONS CLINIQUES - PRISE EN CHARGE
+PSYCHIATRIQUE ET PSYCHOTHÉRAPEUTIQUE
+13 PROBLEMES
+
+PROBLEME N°1 : INVESTIGATION D’UN TROUBLE PSYCHOTIQUE
+INAUGURAL
+(selon DSM-5)
+2 heures
+OBJECTIFS D’APPRENTISSAGE
+1. Se familiariser avec une situation d’agitation et l’utilisation des psychotropes dans
+l’urgence. Développer des compétences cliniques pour faire face à l’agitation.
+2. Décrire les investigations nécessaires pour retenir un probable diagnostic
+psychiatrique.
+3. Etablir un diagnostic différentiel en se basant sur les éléments sémiologiques et en
+l’absence d’éléments anamnestiques complets. Situer les troubles psychotiques dans
+un spectre nosographique allant des troubles affectifs aux troubles schizophréniques.
+4. Orienter la prise en charge à moyen terme (hospitalisation en milieu psychiatrique,
+suivi ambulatoire).
+5. Se familiariser avec les situations frontières entre intervention de la police et
+intervention psychiatrique.
+ILLUSTRATION CLINIQUE
+Un homme d'une trentaine d'années environ, sans papiers d'identité, est amené par la
+police à 3 heures du matin aux urgences d'un hôpital général, après avoir été retrouvé
+errant sur la voie publique, tenant des propos incohérents, avec par moments des phases
+d'agitation et d'hétéroagressivité.
+A l'entrée, le patient se laisse difficilement approcher : un examen somatique sommaire
+parce que difficile ne met pas en évidence de pathologie somatique évidente. D'emblée,
+le patient s'oppose à tout examen complémentaire. Toutefois, les infirmiers arrivent
+finalement à lui faire accepter une prise de sang et mesurent la TA qui est normale. Les
+examens sanguins de routine (formule sanguine, électrolytes, fonctions hépatiques,
+thyroïdiens et rénaux, glucose, Vit. B12 et folates) sont dans les normes et n'orientent
+pas vers une piste somatique.
+Durant l'entretien avec le psychiatre de garde, il présente par moments un état de
+perplexité anxieuse, une grande méfiance, il tente à plusieurs reprises de quitter la pièce.
+Son comportement oscille entre une excitation motrice avec gestes menaçants et une
+tristesse intense. Il tient des propos décousus ou se replie dans un mutisme complet. Des
+idées délirantes mal systématisées alternant entre des idées de persécution ou de toutepuissance sont au premier plan. Le patient adopte parfois des attitudes d'écoute mais, à
+d'autres moments, se montre beaucoup plus inadéquat.
+
+26
+
+AMC “ Psychiatrie ”
+
+Problème 1/13
+
+La vigilance n’est pas altérée. L'orientation temporo-spatiale et la mémoire sont très
+difficilement évaluables dans ce contexte. Les éléments anamnestiques sont impossibles
+à obtenir.
+Un examen neurologique s’avère normal. Il en est de même pour l’analyse d’urines (pas
+de toxiques détectés). Ces éléments sont jugés suffisants pour exclure une étiologie
+organique aiguë, le CT-Scan et l’EEG sont différés.
+Grâce au traitement administré, le patient se calme et passe une bonne nuit. Le matin
+suivant, le patient accepte de donner son nom et on convoque la famille.
+On apprend de la femme du patient que ce tableau est apparu brusquement il y a 5-6
+jours sur un fond de dépression et de démoralisation très important. Le patient vit à
+Genève, est père de 2 filles, et n'est pas connu pour avoir eu des antécédents
+psychiatriques. Au cours des derniers mois, son équilibre affectif a été bouleversé par la
+décision de sa femme de divorcer (elle a noué depuis peu une nouvelle relation
+amoureuse) et par une situation d’échec professionnel. Comptable dans une petite
+entreprise depuis 5 ans, il a été récemment licencié sans préavis, suite à une
+restructuration de son service. Il ne dormait plus depuis plusieurs jours.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+AMC “ Psychiatrie ”
+
+27
+
+Problème 2/13
+
+PROBLEME N°2 : MEDECINE SEXUELLE ET SEXOLOGIE
+4 heures : Médecine sexuelle (2h) et Sexologie (2h)
+
+OBJECTIFS D'APPRENTISSAGE
+À l'issue du séminaire, les étudiant-es devraient :
+Partie « Dysfonctions sexuelles »
+1. Connaître la définition de la sexualité
+2. Connaître les principes de la réponse sexuelle
+3. Connaître les dysfonctions sexuelles chez l’homme et chez la femme
+4. Connaître les traitements pharmacologiques et psychothérapeutiques à proposer
+en cas de dysfonction sexuelle
+
+Partie « Paraphilies, identité de genre et incongruence de genre »:
+1. Avoir des notions concernant la paraphilie, l’identité de genre et l’incongruence de
+genre
+2. Savoir poser un diagnostic de trouble paraphilique et d’incongruence de genre.
+3. Connaître les traitements médicaux à proposer en cas d’incongruence de genre
+ainsi que le rôle du psychiatre dans l’évaluation et le suivi.
+4. Connaître les traitements pharmacologiques et les psychothérapies à proposer en
+cas de trouble paraphilique.
+
+ILLUSTRATION CLINIQUE
+
+Un homme de 35 ans consulte en sexologie en raison de difficultés avec l’érection et
+du fait qu’un traitement de Viagra, donné par son généraliste, n’a pas été efficace.
+Il a débuté une relation sentimentale il y a 4 mois, c’est la première de sa vie. La
+relation est très épanouissante, mais quand il a des relations sexuelles, il n’arrive pas
+à avoir d’érection et n’a pas de désir sexuel. Par contre, quand il se masturbe en
+utilisant du matériel pornographique, il a une bonne érection.
+Questionné sur ses fantasmes sexuels, le patient explique, avec beaucoup de honte,
+qu’il n’est pas attiré par les femmes mais par des enfants pré-pubères. Quand il se
+masturbe, il utilise du matériel pédopornographique. Il se sent très coupable de son
+désir sexuel et il sait, par ailleurs, que l’utilisation de pédopornographie est illégale
+mais il ne sait pas comment faire pour combattre ses désirs sexuels.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+28
+
+AMC “ Psychiatrie ”
+
+Problème 3/13
+
+PROBLEME N°3 : ETAT DE STRESS AIGU ET TROUBLE DE STRESS
+POST-TRAUMATIQUE
+2 heures
+OBJECTIFS D’APPRENTISSAGE
+A l’issue de l’investigation, les étudiant-es devraient :
+1. Être apte à identifier les symptômes principaux d’état de stress aigu susceptibles de
+se manifester dans les suites immédiates et les jours suivants l’exposition à un
+événement traumatique selon le DSM5.
+2. Connaître les symptômes principaux selon la CIM-10 et le DSM-5, et la
+psychopathologie du trouble de stress post-traumatique (TSPT)
+3. Connaître la sémiologie des principaux symptômes dissociatifs résultant de
+l’exposition à un (des) événement(s) traumatique(s).
+4. Connaître les principes de l’intervention d’aide psychologique immédiate et postimmédiate dans des situations de psychotraumatisme.
+5. Connaître les principes et modalités du traitement du TSPT.
+
+ILLUSTRATION CLINIQUE
+
+Paul a 25 ans et travaille comme employé de banque. Il vit en couple avec une étudiante
+en médecine et n’a pas d’enfant. Pendant leurs dernières vacances, ils se sont rendus
+à la montagne dans le chalet de la famille de Paul où il a l’habitude de se rendre depuis
+qu’il est enfant. Alors qu’il se trouvait sur une piste de ski bien connue, un autre skieur
+l’a percuté alors que ce dernier descendait la piste à toute allure. Paul a dû être
+transporté en hélicoptère vers l’hôpital le plus proche où il a été pris en charge pour une
+fracture du rachis cervical et opéré. Une consultation de psychiatrie de liaison lui a été
+proposée pendant son séjour à l’hôpital. Environ 3 mois après son accident de ski, Paul
+présente progressivement des troubles du sommeil avec des cauchemars quotidiens
+répétitifs ainsi qu’un état de tension interne allant croissant.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+AMC “ Psychiatrie ”
+
+29
+
+Problème 4/13
+
+PROBLEME N°4 : TROUBLE DU DEVELOPPEMENT INTELLECTUEL (TDI)
+ET TROUBLE DU SPECTRE DE L’AUTISME (TSA) CHEZ L’ADULTE
+2 heures
+OBJECTIFS D'APPRENTISSAGE
+1. Connaissance des critères diagnostiques selon la CIM-10 et le DSM-5/particularités
+cliniques selon le niveau de communication et de l’autonomie du patient
+2. Connaissance des investigations anamnestiques, techniques de l'examen clinique et
+de l'entretien, place d’instruments standardisés.
+3. Connaissance des approches thérapeutiques en général et lors de troubles du
+comportement/comportements défis : exclusion de causes somatiques, approches
+médicamenteuses, psychothérapeutiques individuelles et groupales.
+4. Connaissances des notions de base du concept du handicap : autonomie, inclusion,
+place du représentant légal.
+5. Connaître le travail en partenariat et approche pluriprofessionelle des patients en
+situation de handicap avec TDI et/ou TSA dans le réseau.
+
+ILLUSTRATION CLINIQUE
+
+A. est un jeune homme de 22 ans qui vit depuis quelques années en institution. Né à
+terme, après un accouchement sans problème, il montre, alors qu’il est âgé de quelques
+mois, ce que sa mère appelle « une très grande difficulté "à garder le contact" ».
+Contrairement à sa sœur aînée, il semble détaché de tout, absent et fort peu intéressé
+par son entourage. Craignant que leur enfant ne présente un problème d’audition, les
+parents demandent plusieurs consultations ORL, sans résultat. En grandissant, A. ne
+joue pas avec les enfants de son âge, mais aime s’amuser seul avec des objets qu'il
+manipule longuement dans ses mains. Le langage est resté très simple, voire bizarre.
+A. emploie des noms de son choix et non pas selon le langage commun, pour désigner
+des activités, des situations ou des lieux : il prononce par exemple le nom d'une cousine
+avec laquelle il avait l’habitude de se promener, pour dire qu’il veut sortir. A l’école
+maternelle, où sa tendance à s'isoler s'aggrave, son intégration échoue complètement.
+Il est alors orienté vers une école spécialisée, complétée par un internat durant la
+semaine dans un foyer d’accueil. En effet, le maintien dans le milieu familial devenait
+de plus en plus difficile en raison de ses troubles du comportement : une agitation très
+importante et éventuellement violente envers les autres si on essayait de le sortir de
+son isolement, mais se déclenchant également spontanément lors de bruits intenses,
+de l’exposition à la foule ou face à toute modification impromptue de son environnement.
+A. sait lire, comprendre des phrases simples et écrire quelques mots. Actuellement, il
+fréquente un atelier d’occupation. Il est capable pendant quelques heures par jour de
+confectionner des emballages. Mais son rythme est lent, et de plus en plus interrompu.
+A. reste souvent en retrait et les parents se posent la question s’il est heureux dans son
+environnement.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+30
+
+AMC “ Psychiatrie ”
+
+Problème 5/13
+
+PROBLEME N°5 : URGENCE ET CRISE
+2 heures
+OBJECTIFS D’APPRENTISSAGE
+1. Faire un examen psychiatrique, reconnaître les symptômes d’une symptomatologie
+dépressive versus un trouble de l’adaptation.
+2. Se familiariser avec les différents motifs et degrés d’urgence en psychiatrie selon
+l’échelle suisse de tri.
+3. Avoir des notions de l’évaluation du risque suicidaire.
+4. Définir l’état de crise et connaître les évolutions possibles d’une situation de crise.
+5. Connaître les principes d’évaluation de la capacité de discernement.
+6. Se familiariser avec une situation d’agitation et l’utilisation des psychotropes dans
+l’urgence. Développer des compétences cliniques pour faire face à l’agitation.
+
+ILLUSTRATIONS CLINIQUES
+Scenario A : Un homme de 42 ans consulte aux urgences psychiatriques en raison
+d’idées suicidaires suite à un conflit avec son supérieur hiérarchique. Il décrit une
+thymie triste depuis environ un mois, ainsi qu’une anhédonie et une aboulie. Aux
+urgences, un traitement de Lorazepam 0.5 mg est administré et le patient reste la nuit
+pour une évaluation (+ entretien de couple) le lendemain. Le lendemain matin, il avoue
+avoir détourné de l’argent qu’il avait à disposition pour son travail, pour ses propres
+intérêts et que, suite à cela, il a été licencié. En entretien de couple, le patient peut
+aborder la problématique avec son épouse. Un suivi intensif ambulatoire est organisé
+avec un entretien le lendemain de sa sortie des urgences.
+Scenario B : Le même patient est amené aux urgences suite à une défenestration,
+polytraumatisé, avec une indication à une intervention chirurgicale qu’il refuse. Un
+entretien conjoint avec le collègue somaticien est organisé pour évaluer la capacité de
+discernement. Le patient refuse l’intervention car il ne souhaite plus vivre et présente
+également une désorientation spatio-temporelle. Le patient commence à se montrer
+de plus en plus tendu, irritable, non collaborant, refuse les soins (essaie de retirer sa
+voie veineuse), ne comprend pas pourquoi les médecins souhaitent le garder à
+l’hôpital et demande à sortir. Un traitement de Lorazepam 2.5 mg est accepté par le
+patient après de nombreuses négociations et le patient est opéré le jour-même. A la
+suite de son hospitalisation, il est suivi par la psychiatrie de liaison. Un suivi
+ambulatoire intensif est organisé et mis en place dès sa sortie.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+AMC “ Psychiatrie ”
+
+31
+
+Problème 6/13
+
+PROBLEME N°6 : TROUBLE ANXIEUX ET PHOBIE SOCIALE
+2 heures
+PRESENTATION GENERALE DU PROBLEME
+La catégorie « troubles anxieux » comprend plusieurs pathologies distinctes ayant des
+points communs et des spécificités autant en termes diagnostiques que
+thérapeutiques. Un accent plus prononcé est mis sur la phobie sociale qui sert
+d’exemple et permet de mettre en avant les aspects psychothérapeutiques dans la
+prise en charge.
+OBJECTIFS D’APPRENTISSAGE
+Après avoir étudié ce problème, les étudiant-es devraient être capables de :
+1. Connaître les différents troubles anxieux, leurs points communs et leurs spécificités.
+Savoir chercher les éléments cliniques et anamnestiques étayant la réflexion
+diagnostique.
+2. Connaître les particularités de la phobie sociale, son mode d’évolution et son
+contexte.
+3. Pouvoir identifier les autres troubles psychiatriques qui peuvent être liés/associés
+aux troubles anxieux. Connaître le problème de l’automédication et de ses abus, en
+particulier en ce qui concerne la consommation abusive de benzodiazépines et les
+responsabilités du prescripteur/de la prescriptrice.
+4. Connaître l’impact de l’environnement et les changements climatiques sur la santé
+mentale.
+5. Connaître les différents traitements des troubles anxieux. Pouvoir envisager un plan
+de prise en charge global tenant compte des comorbidités.
+ILLUSTRATION CLINIQUE
+En l’absence du médecin traitant habituel, que vous remplacez, un patient vous
+demande de renouveler une prescription de benzodiazépines à des doses
+conséquentes : alprazolam 9 mg. Il vous dit qu’il va bien mais explique que s’il n’a pas
+son médicament pendant 24 heures, il n’ose plus parler aux gens, il se sent angoissé,
+a une sensation de malaise général, il tremble et transpire abondamment. Lorsque
+vous lui demandez comment il en est venu à prendre régulièrement ce médicament, il
+se décrit comme étant quelqu’un d’excessivement timide et émotif. Dès le début de
+son activité professionnelle il y a 3 ans, il était très impressionné par la cheffe du
+service administratif de l’entreprise ; il rougissait, s’angoissait et perdait ses moyens
+chaque fois qu’il devait s’adresser à elle. Il était également très effrayé lorsqu’il
+s’agissait de prendre la parole en public, en particulier lors de grandes réunions. Il a
+découvert l’alprazolam par une tante qui en prenait.
+Au début, il n’en prenait que quand il devait aller demander quelque chose de spécial,
+puis ensuite, dès qu’il devait faire une démarche auprès de quelqu’un avec qui il n’était
+pas très à l’aise ou parler en public, avant de finir par en prendre tous les jours.
+Après vous avoir expliqué ses différentes difficultés, le patient insiste toujours pour que
+vous répétiez la prescription de benzodiazépine.
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+32
+
+AMC “ Psychiatrie ”
+
+Problème 7/13
+
+PROBLEME N°7 : TROUBLE OBSESSIONNEL-COMPULSIF
+2 heures
+OBJECTIFS D’APPRENTISSAGE
+1. Au cours de l’investigation, les étudiant-es devraient:
+2. Identifier et définir les "obsessions" et "compulsions" ainsi que leur évolution dans
+l'histoire de vie de la personne (recrudescence, rémission, etc.) ;
+3. Identifier les liens avec l'anxiété, la dépression et d'autres pathologies
+psychiatriques et les répercussions sur le fonctionnement émotionnel et socioprofessionnel ;
+4. Connaître dans les lignes générales les modalités d'intervention de la thérapie
+cognitivo-comportamentale dans ce type de trouble ainsi que les généralités des
+approches pharmacologiques.
+
+ILLUSTRATION CLINIQUE
+Madame X, 38 ans, fondée de pouvoir dans une banque, mariée et mère d’une petite
+fille, consulte en raison de troubles du sommeil et d’une angoisse envahissante. Elle
+ne parvient plus à assumer son travail, ses arrivées sont de plus en plus tardives et le
+retard s’accumule. Questionnée sur ses symptômes, elle répond avec gêne qu’elle est
+assaillie de doutes et que lorsqu’elle se couche, elle passe en revue mentalement sa
+journée pour s’assurer qu’elle n’a pas fait d’erreur, bien qu’elle vérifie chaque opération
+à plusieurs reprises. Le matin, elle se lève à cinq heures et demie pour être sûre d’avoir
+le temps de se préparer, selon un rituel bien précis. Elle sait que tout cela est excessif,
+mais elle ne peut s’en empêcher.
+Elle est en bonne santé habituelle, elle n’a jamais consulté pour un problème
+psychiatrique. Il n’y a pas d’antécédents psychiatriques dans sa famille, mais elle
+mentionne que son père était obsédé par la propreté.
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+AMC “ Psychiatrie ”
+
+33
+
+Problème 8/13
+
+PROBLEME N°8 : PASSAGE DE L’ADOLESCENCE A L’AGE ADULTE :
+ASPECTS DEVELOPPEMENTAUX
+2 heures
+OBJECTIFS D’APPRENTISSAGE
+Connaitre les caractéristiques du développement cérébral au cours de l’adolescence et
+de la vulnérabilité que cela génère.
+1. Décrire les caractéristiques du processus adolescent et du stress généré par celuici.
+2. Faire le lien entre les aspects développementaux (vulnérabilité/stress) et l’émergence
+des troubles psychiques au cours de l’adolescence.
+3. Connaître les implications sur l’évaluation et la prise en charge des caractéristiques
+développementales des adolescent-es et jeunes adultes.
+
+ILLUSTRATION CLINIQUE
+Montage de plusieurs enregistrements en vidéo illustrant l’impact, sur les entretiens et
+l’expression cliniques des troubles, des caractéristiques développementales de
+l’adolescence.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+34
+
+AMC “ Psychiatrie ”
+
+Problème 9/13
+
+PROBLEME N°9 : LE TROUBLE D’INSOMNIE : DIAGNOSTIC ET
+TRAITEMENTS
+2 heures
+OBJECTIFS D’APPRENTISSAGE :
+1. Connaître les différents types d’insomnie et leur prévalence ;
+2. Savoir distinguer une fatigue d’une somnolence ;
+3. Décrire les outils d’investigation nécessaires pour investiguer une insomnie ;
+4. Décrire les relations entre l’insomnie et d’autres troubles psychiatriques ou
+somatiques ;
+5. Connaître un des modèles physiopathogéniques de l’insomnie ;
+6. Connaître
+les
+mesures
+thérapeutiques
+non
+pharmacologiques
+et
+pharmacologiques ;
+7. Connaitre les critères pharmacologiques de sélection d’un hypnotique ;
+8. Connaître le profil de sécurité des hypnotiques en général, les concepts de
+tolérance et de dépendance ;
+9. Connaître les substances susceptibles d’entraîner un trouble du sommeil
+(Amphétamine, cocaïne, caféine, methylphenidate (Ritaline®), corticostéroïdes,
+inhibiteurs sélectifs de la recapture de la sérotonine, quinolone).
+ILLUSTRATION CLINIQUE :
+Motif de consultation : une patiente consulte car elle aimerait pouvoir dormir sans
+somnifère et a peur d’une dépendance.
+Anamnèse actuelle : Il s’agit d’une secrétaire médicale de 35 ans travaillant à 80%, se
+plaignant de trouble du sommeil depuis 5 ans. Elle présente une difficulté à trouver le
+sommeil sans médicament et se plaint d’une fatigue importante le matin. Ses troubles
+du sommeil ont débuté à la naissance de son deuxième enfant. Son médecin
+généraliste lui avait prescrit du zolpidem qui avait temporairement amélioré son
+sommeil. L’insomnie s’est de nouveau aggravée à la reprise du travail. La patiente a
+« de bonnes et de mauvaises périodes », mais son sommeil reste en général peu
+réparateur. Elle s’inquiète des répercussions de son insomnie sur sa santé et pense
+devoir dormir 8 heures par nuit pour éviter des conséquences néfastes. Elle craint que
+le manque de sommeil affecte ses capacités de travail (son médecin traitant avait déjà
+noté une certaine anxiété de performance) et a peur de ne jamais retrouver un sommeil
+normal.
+Elle signale se coucher à 21h. Le sommeil ne vient qu’après avoir pris 10 mg de
+zolpidem, et est décrit comme léger, avec de nombreux réveils. Elle se lève à 6h30,
+bien que son réveil sonne à 7h. Les insomnies sont plus importantes le dimanche soir
+et au début de la semaine. Le week-end et les vacances elle dort un peu mieux. Elle
+ne ronfle pas, pas d’impatience des jambes mais elle semble bouger beaucoup durant
+le sommeil. Elle ne signale pas de somnolence durant la journée, elle ne fait jamais de
+sieste.
+
+AMC “ Psychiatrie ”
+
+35
+
+Problème 9/13
+Anamnèse systématique : Elle décrit une tension musculaire le soir, appétit conservé,
+pas de perte pondérale.
+Anamnèse psychiatrique : elle n’a pas d’idées noires, elle ne se sent pas triste, elle a
+un grand nombre d’activités qui lui procurent du plaisir (randonnées, activités
+culturelles, activités avec ses enfants). Pas de signes de la lignée psychotique, aucune
+phobie, pas de notion des crises de panique. Son anxiété semble spécifiquement liée
+au sommeil.
+Habitude : elle fume ½ paquet de cigarettes/j. Boit 1-2 verres de vin le soir. Elle a
+consommé de la cocaïne irrégulièrement avant son mariage. Médicaments : zolpidem
+10 mg le soir, un contraceptif oral et le pantoprazole pour un reflux gastrooesophagien.
+Anamnèse psychosociale : patiente divorcée, vivant seule, deux enfants de 7 et 5 ans.
+Celui-ci est connu pour un TDA/H nécessitant un suivi. Patiente se disant stressée au
+travail en raison d’une restructuration.
+Status : sans particularité BMI à 18.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+36
+
+AMC “ Psychiatrie ”
+
+Problème 10/13
+
+PROBLEME N°10 : TROUBLES DU COMPORTEMENT ALIMENTAIRE
+2 heures
+OBJECTIFS D’APPRENTISSAGE :
+1. Réaliser une anamnèse permettant d'évaluer la présence de troubles du
+comportement alimentaire.
+2. Connaître les différents troubles alimentaires et leurs critères diagnostiques
+(anorexie mentale, boulimie, hyperphagie, méricysme).
+3. Connaître l'épidémiologie de ces troubles.
+4. Connaître les conséquences somatiques de ces différents troubles.
+5. Connaître l'évolution clinique des différents troubles alimentaires.
+6. Discuter le diagnostic différentiel et le profil de comorbidités de ces troubles.
+7. Avoir des notions des différentes approches thérapeutiques possibles.
+ILLUSTRATION CLINIQUE :
+Melody, 17 ans, est accompagnée par sa mère aux urgences sur conseil de son
+médecin de famille. La maman est inquiète car sa fille perd du poids depuis plusieurs
+mois. Melody est en 3e année du collège. Elle a dû récemment interrompre
+prématurément un séjour linguistique en Allemagne. Sa famille d'accueil, inquiète de
+son état de santé psychique et de sa maigreur, a alerté ses parents qui l'ont rapatriée.
+Elle est plutôt grande, mesurant 172cm, cachectique, son poids est passé de 60kg à
+46kg en l'espace de 8 mois. Elle a d’abord commencé à modifier son alimentation en
+adoptant un régime sans gluten. Satisfaite de perdre du poids, elle a ensuite
+progressivement éliminé des aliments de son alimentation : d'abord les hydrates de
+carbone, puis les graisses. Elle mange actuellement tous les jours la même chose, de
+manière ritualisée et ne partage plus les repas familiaux. Elle connaît parfaitement la
+teneur calorique du peu d’aliments qu’elle consomme. Par contre elle s'est mise à
+cuisiner pour ses proches, d'excellents desserts. Elle n'a pas pris de médicaments
+pour maigrir mais augmenté sensiblement son activité physique. Elle se déplace à
+pieds, ne prend plus l'ascenseur et fait des abdominaux plusieurs fois par jour. Elle n'a
+plus ses règles depuis quelques mois.
+Melody est l'aînée d'une fratrie de deux. Sa sœur cadette souffre depuis son jeune âge
+d'une polyarthrite. Cette maladie a nécessité des soins réguliers et beaucoup mis à
+contribution les parents. Depuis quelques années, les conflits dans le couple parental
+sont le quotidien familial.
+Melody est une fille sans histoire. Particulièrement appliquée, elle est une bonne élève.
+Elle est décrite comme perfectionniste et méticuleuse. Son travail scolaire lui prend
+énormément de temps et elle a progressivement interrompu ses activités extra
+scolaires. Elle pratiquait la natation synchronisée à un bon niveau avant d'arrêter
+subitement. Melody a eu un petit copain l'année passée mais ils se sont séparés en
+fin d'année scolaire après qu'il eut embrassé une autre fille.
+
+AMC “ Psychiatrie ”
+
+37
+
+Problème 10/13
+
+Elle n'a pas de suivi psychiatrique. Elle avait tenté quelques régimes par le passé, par
+souci de son image corporelle. Elle n'a pas d'antécédents médicaux notables. Elle ne
+consomme pas de toxiques.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+38
+
+AMC “ Psychiatrie ”
+
+Problème 11/13
+
+PROBLEME N°11 : ADDICTIONS
+2 heures
+OBJECTIFS D’APPRENTISSAGE :
+1. Connaître les critères diagnostiques d’une addiction selon le DSM-5 et la CIM- 10.
+2. Connaître la différence entre une addiction et une dépendance.
+3. Connaître les principales familles de produits addictogènes.
+4. Connaître les grands principes de la prise en charge des addictions.
+5. Appréhender l’enjeu de la comorbidité psychiatrique dans les addictions.
+
+ILLUSTRATION CLINIQUE :
+Ce problème aborde la consommation de toxique chez un jeune étudiant qui a le
+sentiment de consommer comme tout le monde et de manière festive. En
+accompagnant ses réflexions, l’étudiant-e va se familiariser avec les risques liés aux
+différentes substances et la différence entre des consommations de toxiques et un
+diagnostic d’addiction. Les mécanismes entraînant le développement d’une addiction
+seront abordés en prenant en compte les facteurs de risques : âge, quantité, mode de
+consommation, produits consommés, etc… Les différentes catégories de produits
+psychotropes seront abordées et discutées. La prise en charge des addictions
+(psychothérapie et pharmacothérapie) seront discutées ainsi que la prise en compte
+des comorbidités psychiatriques.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+AMC “ Psychiatrie ”
+
+39
+
+Problème 12/13
+
+PROBLEME N°12 : TDAH - TROUBLE DU DEFICIT DE L´ATTENTION AVEC
+OU SANS HYPERACTIVITE
+
+2 heures
+OBJECTIFS D’APPRENTISSAGE :
+1. Identification des symptômes du TDAH et des diverses présentations du trouble,
+savoir comment poser un diagnostic de TDAH.
+2. Connaître les particularités du TDAH chez l’adulte ainsi que les mécanismes
+adaptatifs mis en œuvre pour pallier aux difficultés liées au trouble.
+3. Connaissance des approches thérapeutiques : approches médicamenteuses et
+non-médicamenteuses.
+4. Connaissance de l’épidémiologie du TDAH, son évolution au cours de la vie et les
+conséquences (sociales, familiales et professionnelles).
+5. Choix des examens complémentaires nécessaires (tests neuropsychologiques
+etc…).
+ILLUSTRATION CLINIQUE :
+Sophie, 65 ans, mère de deux enfants de 30 et 34 ans, ancienne gestionnaire de
+fortune dans une banque privée, vient vous voir à votre consultation car elle n’en peut
+plus. Depuis qu’elle est à la retraite, elle perd la tête, elle oublie où elle met ses choses,
+n’arrive plus à faire les tâches administratives, a des retards dans ses payements, se
+perd à faire plusieurs choses en même temps. Elle a de la peine à planifier ses
+journées et arrive souvent en retard aux rendez-vous ou toujours en courant, au
+dernier moment et n’arrive pas à se détendre, elle a toujours besoin de faire quelque
+chose, de bouger, de parler, un vrai moulin à parole…son mari devient fou. Tous les
+tests ont été faits et elle n’a de toute évidence pas de démence, pas de problème
+somatique ni de dépression ou tout autre problème psychique qui pourrait expliquer
+ses difficultés. Elle n’a jamais pris de drogues et, mis à part un léger décalage de
+phase au niveau de son sommeil (car elle n’arrive pas à se détendre le soir) et une
+fatigabilité diurne résiduelle, tout est normal. Elle est en bonne santé et ne prend aucun
+traitement.
+Elle aimerait savoir ce qu’il se passe, pourquoi elle est comme ça. Elle vous raconte
+que depuis toute petite elle a de la peine à se concentrer ; ses « profs » à l’école lui
+disaient « qu’elle avait les yeux bleus car elle regardait trop le ciel ». Elle se rappelle
+avoir été rêveuse, distraite, dans la lune (elle ne compte plus le nombre de fois où elle
+est allée à l’école en oubliant son cartable). En classe elle s’ennuyait, « c’était facile
+donc je ne faisais rien….ou juste ce qu’il fallait pour passer l’année » ; toujours en
+classe, quand c’était insupportable (pas intéressant pour elle) elle parlait, dérangeait,
+se levait ou tombait de sa chaise. Ayant relu récemment ses carnets scolaires, elle fut
+surprise de lire des remarques telles que celles-ci : « Ah cette chaise ! Sophie cela fait
+deux fois que tu tombes de ta chaise lors du cours de Français » « On ne dit pas je
+m’en fiche au professeur d’allemand qui se donne de la peine pour t’expliquer un
+exercice ! », « Ne te lève pas pendant une dictée pour venir guigner dans mes
+affaires… ».
+
+40
+
+AMC “ Psychiatrie ”
+
+Problème 12/13
+Mais cela n’a pas eu d’impact majeur sur son parcours scolaire vu qu’elle a pu finir des
+études de Sciences Economiques à l’Université puis travailler dans une banque
+jusqu’à récemment. Mais elle a toujours fonctionné à 200%, faisant tout dans la
+précipitation, à la dernière minute et c’est, à son avis, un miracle que cela ait marché.
+Elle vous dit toutefois que toute sa vie ça a été comme à l’école : distraite, rêveuse,
+dans la lune et qu’elle a toujours dû faire des efforts considérables pour se concentrer
+ou rester calme, pour ne pas interrompre les autres dans les réunions de travail par
+exemple. On le lui a souvent reproché d’ailleurs, mais comme elle était appréciée pour
+son travail, cela a toujours passé. Par ailleurs, sa secrétaire s’occupait de toutes les
+tâches ennuyeuses ; heureusement car sinon il y aurait belle lurette qu’elle aurait été
+licenciée. A la maison, c’était pareil, elle n’a jamais aimé faire le ménage, les tâches
+administratives, elle avait pris une femme de ménage et tout l’administratif était géré
+par son mari. Et jusque-là, ça fonctionnait bien, vu qu’ils ne se voyaient pas si souvent
+que cela. Elle réalise à quel point, depuis qu’elle est à la retraite, cela a changé.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+AMC “ Psychiatrie ”
+
+41
+
+Problème 13/13
+
+PROBLEME N°13 : PASSAGE DE L’ADULTE A L’AGE
+2 heures
+OBJECTIFS D’APPRENTISSAGE
+1. Familiariser les étudiant-es avec la notion de vieillissement dans ses dimensions
+corporelles, sociales et psychiques.
+2. Distinguer processus de vieillissement et manifestations de maladies intercurrentes.
+3. Penser à intégrer la notion de vieillissement dans la prise en charge thérapeutique
+des processus morbides de la personne âgée.
+ILLUSTRATION CLINIQUE :
+Monsieur X, âgé de 70 ans, se présente à votre cabinet de médecine générale
+accompagné de son épouse qui est à l’origine de la demande de consultation.
+Vous recevez dans un premier temps le couple. Madame X vous fait part de son
+inquiétude, car, dit-elle, cela fait près de trois mois que le caractère de son mari a
+changé. Il est devenu irritable et a renoncé récemment à un séjour en Valais prévu
+depuis longtemps car il ne s’en sentait pas l’énergie. Au lieu de profiter de l’air de la
+montagne, ce qui lui aurait fait du bien, il est resté chez lui avec l’intention de classer
+de vieux dossiers. Madame X met cette « perte de moral » en lien avec le décès d’un
+ami d’enfance de monsieur X, il y a six mois.
+Vu seul en consultation dans un second temps, Monsieur X vous apprend qu’il est
+marié depuis 40 ans, père de deux enfants de 35 et 38 ans, et grand-père de trois
+petits-enfants. En retraite depuis cinq ans, il explique avoir très bien vécu les premiers
+temps de sa retraite, à la surprise de son entourage qui redoutait la fin d’activité de cet
+ingénieur reconnu et très impliqué dans son entreprise. Il s’était en effet investi sans
+compter dans son rôle de grand-père, offrant à ses petits-enfants le temps et la
+disponibilité qu’il regrettait ne pas avoir eus pour ses propres enfants.
+Il y a un an, sa fille et son gendre ont quitté la région avec leurs enfants pour s’installer
+aux Etats-Unis, réalisant par procuration son rêve de jeune homme. Il s’est donc réjoui
+de ce départ en même temps qu’il se voyait privé de ses petits-enfants, leur fils cadet
+n’ayant pas encore fondé de famille.
+Depuis, rien n’irait plus normalement : après avoir beaucoup attendu, il s’est résolu à
+une opération de la prostate dont il garde une impuissance qui le rend honteux.
+Autrefois grand lecteur, il ne lit plus que les titres du journal, se désintéressant du
+contenu. Il convient avoir été très affecté par le décès de son ami avec qui il avait
+plaisir à se remémorer des souvenirs communs de leur enfance en Valais.
+Outre une hypertrophie bénigne de la prostate ayant justifié d’une résection endourétrale, ses antécédents médico-chirurgicaux se résument à une appendicectomie
+dans l’enfance, une HTA modérée et à une presbyacousie non appareillée.
+
+42
+
+AMC “ Psychiatrie ”
+
+Problème 13/13
+A l’examen clinique, vous retenez une présentation sans particularité de cet homme
+faisant son âge, une baisse de l’attention, quelques plaintes mnésiques, l’absence de
+désorientation temporo-spatiale, une thymie triste, un agacement et une irritabilité mal
+contenus, une perte d’intérêt, une anhédonie, un manque d’énergie et un sentiment
+d’inutilité. Le sommeil et l’appétit sont relativement conservés. Vous ne retrouvez pas
+d’idéations suicidaires mais des pensées centrées sur la finitude de l’existence. Pas
+de symptôme de la lignée psychotique.
+
+RÉFÉRENCES
+cf. bibliographie en début de cahier et références données lors des cours.
+
+AMC “ Psychiatrie ”
+
+43
+
+Pharmacologie clinique en psychiatrie
+
+PROBLEMES DE THERAPEUTIQUES
+PSYCHIATRIQUES
+PHARMACOLOGIE CLINIQUE EN PSYCHIATRIE
+En collaboration avec l’unité de psychopharmacologie clinique
+4 sessions de 2 heures
+OBJECTIFS D’APPRENTISSAGE
+Lors de l’APP et de l’AMC, l’étudiant-e rencontre certains aspects de l’utilisation des
+médicaments en psychiatrie. Cette approche, qui a l’avantage d’être proche de la
+réalité clinique, ne permet cependant pas d’intégrer toutes les notions
+pharmacologiques nécessaires à une pharmacothérapie psychiatrique.
+L’objectif de ce séminaire de 8 heures est la présentation systématisée des
+médicaments utilisés pour le traitement des maladies psychiatriques en relation étroite
+avec et en complément des notions traitées dans le cadre des vignettes cliniques de
+l’AMC.
+Les éléments de pharmacocinétique et de pharmacogénétique pertinents en clinique
+seront abordés, de même que les notions d’observance thérapeutique (aussi appelée
+compliance) et d’effet placebo.
+CONTENU
+Pharmacologie des médicaments psychotropes d’usage courant :
+•
+•
+•
+•
+
+les antidépresseurs
+les stabilisateurs de l’humeur
+les antipsychotiques
+les anxiolytiques et les sédatifs
+
+Pour chacune de ces classes de médicaments, les aspects suivants seront présentés :
+indications générales, classes pharmacologiques, critères de choix d’un médicament,
+suivi du traitement, arrêt du traitement.
+Les indications ne comprendront que les indications principales, sans entrer a priori
+(sauf demandes spécifiques des étudiant-es) dans la description d’indications
+secondaires pour un principe actif particulier.
+Les classes pharmacologiques seront présentées d’une manière globale. Par
+exemple, pour les antidépresseurs on retiendra les tricycliques, les inhibiteurs sélectifs
+de la recapture de la sérotonine et les “ autres ”.
+
+44
+
+AMC “ Psychiatrie ”
+
+Pharmacologie clinique en psychiatrie
+Les critères de choix porteront plus sur une approche globale et intégrative du choix
+d’une classe pharmacologique particulière (par exemple antipsychotique typique
+versus antipsychotique atypique) que sur une discussion par médicament.
+Le suivi du traitement portera sur les effets secondaires les plus importants et les plus
+fréquents dans la mesure où cela guide la conduite du médecin, ainsi que sur les
+situations d’intoxication.
+L’arrêt du traitement comprend aussi, outre les modalités, la durée du traitement.
+Notions de pharmacocinétique et monitoring thérapeutique :
+Les concepts, indications et conditions de réalisation du monitoring thérapeutique
+seront abordés, permettant également un rappel des principes de base de la
+pharmacocinétique pour les médicaments psychotropes. Les différents facteurs de
+variabilité pharmacocinétique sont ensuite discutés sur la base d’exemples
+(pharmacogénétique, interactions médicamenteuses). Les méthodes d’évaluation des
+sources de variabilité interindividuelle de réponse aux traitements sont également
+précisées.
+Psychopharmacologie clinique intégrée
+Les principes de psychopharmacologie énoncés ci-dessus seront revus et appliqués
+de manière intégrée à une situation clinique complexe.
+GUIDE POUR L’EMPLOI DES PSYCHOTROPES D’USAGE COURANT
+Ce guide est un support à l’enseignement de la bonne utilisation des médicaments
+psychotropes au Département de psychiatrie des HUG.
+Liens sur le site « Moodle » de la Faculté ou sous rubrique « Références
+bibliographiques » dans ce cahier.
+
+AMC “ Psychiatrie ”
+
+45
+
+Droit médical et éthique clinique
+
+DROIT MEDICAL ET ETHIQUE CLINIQUE
+EN COLLABORATION AVEC LE CENTRE UNIVERSITAIRE ROMAND DE MEDECINE LEGALE ET
+L’INSTITUT ETHIQUE HISTOIRE HUMANITES
+
+3 sessions de 2 heures et 1 session d’une heure dans le cadre de la psychiatrie
+psychosociale et santé mentale
+OBJECTIFS D’APPRENTISSAGE
+•
+
+Connaître les aspects médico-légaux du placement à des fins d’assistance.
+
+•
+
+Apprendre à évaluer la capacité d'un patient à consentir valablement et connaître
+les conditions d'application d'un traitement imposé ou d'une mesure de contrainte.
+
+•
+
+Connaître les aspects médico-légaux des mesures de protection des adultes.
+
+•
+
+Maitriser la notion de responsabilité pénale et connaitre les différents types de
+mesures pénales.
+
+•
+
+Connaître les enjeux éthiques de la contrainte.
+
+•
+
+Connaître les droits des patients psychiatriques et des personnes atteintes de
+handicap.
+
+ILLUSTRATION CLINIQUE
+Vignette 4 (droits du patient, tutelle, consentement), vignette 5 (risque autohétéroagressif) et problème 1 (problème avec la police).
+
+46
+
+AMC “ Psychiatrie ”
+
+Neurosciences psychiatriques
+
+NEUROSCIENCES PSYCHIATRIQUES
+4 sessions de 1 heure
+OBJECTIFS D’APPRENTISSAGE
+Bloc A : Troubles de l’humeur / Borderline
+Troubles de l’humeur et Borderline :
+Compétence : pouvoir expliquer de manière claire les principales bases
+neurobiologiques des troubles de l'humeur et de trouble de la personnalité borderline et
+des troubles psychotiques et abordant des notions de génétique, neurodéveloppement
+et neurochimie.
+Connaissances :
+• connaître les bases génétiques de la dépression et du trouble bipolaire, y compris le
+risque héréditaire et les principales altérations génétiques pouvant être impliquées ;
+• connaître les différentes théories biologiques de la dépression et du trouble
+bipolaire et les implications concernant des altérations cérébrales possibles ;
+• connaître les mécanismes cérébraux (neuro-anatomiques, circuits) impliqués dans la
+régulation des émotions et les lier aux différentes stratégies de régulation
+émotionnelle.
+Bloc B : Schizophrénie / Démence
+Schizophrénie
+Compétence : pouvoir expliquer de manière claire les principales bases
+neurobiologiques de la schizophrénie et des troubles psychotiques et abordant des
+notions de génétique, neurodéveloppement et neurochimie.
+Connaissances :
+• connaître les bases génétiques de la schizophrénie, y compris le risque héréditaire et
+les principales altérations génétiques pouvant être impliquées ;
+• connaître les bases de la théorie neurodéveloppementale de la schizophrénie et les
+implications concernant des altérations cérébrales possibles ;
+• connaître les bases neurochimiques impliquées dans la schizophrénie et les troubles
+psychotiques : les quatre voies dopaminergiques principales, le rôle des récepteurs
+DRD2 et 5-HT2A comme cibles pharmacologiques, et l’hypothèse glutamatergique de
+la schizophrénie.
+
+AMC “ Psychiatrie ”
+
+47
+
+Neurosciences psychiatriques
+
+Démence
+Compétence : pouvoir expliquer de manière claire les principales bases
+neurobiologiques de la maladie d’Alzheimer en abordant des notions de neuropathologie,
+de biologie cellulaire et de génétique. De plus, expliquer les bases neurobiologiques et
+neuropathologiques de l’approche diagnostique de la maladie.
+Connaissances :
+• connaître les lésions neuropathologiques associées à la maladie d’Alzheimer, les
+protéines impliquées et les mécanismes de formation de ces lésions
+• connaître les principaux types cellulaires impliqués dans la maladie d’Alzheimer
+• connaître les biomarqueurs d'imagerie moléculaire utilisés dans le diagnostic de la
+maladie et la recherche clinique
+• connaître comment la recherche translationelle et notamment les modèles animaux
+nous permettent de mieux comprendre les mécanismes moléculaires et cellulaires
+de la maladie ainsi que d’identifier et étudier des biomarqueurs de la maladie
+
+48
+
+AMC “ Psychiatrie ”
+
+

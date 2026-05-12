@@ -1,0 +1,453 @@
+AMC de Médecine Interne
+& Programme Rela6on Médecin Malade
+
+Atelier Décision Médicale Partagée
+(Shared Decision Making)
+Thomas Agoritsas
+Arnaud Merglen
+Pauline Darbellay Farhoumand
+Médecins adjoints
+Reproduced from cover page of JAMA, Users’ Guide to the Medical Literature, 3rd ed.
+
+Exercice 1 : SDM – quoi, quand?
+♦ Discutez par groupe de 3:
+
+– Pour vous, que veux dire partager la
+décision?
+– Quand est-ce plus ou moins utile,
+opportun, nécessaire (ou pas) ?
+♦ Echange en plénum
+2
+
+Pertinence d’application SDM
+Capacité de jugement élevée
+
+Maladie aiguë
+ou
+Recommandation
+forte
+
+Application
+limitée
+
+Application
+complète
+
+U pneumonie
+aiguë
+
+U Anticoagulation
+et FA
+U Dialyse
+
+Pas
+d’application
+
+Application
+limitée
+
+U Polytraumatisé
+
+U Ex. Démence
+U Avec
+représentant tt?
+
+Capacité de jugement faible
+
+Maladie chronique
+ou
+Recommandation
+faible
+
+3
+
+JAMA, 1992 / ACP J Club 1991
+
+CAN
+
+Faisable?
+
+NEED
+
+Approprié?
+
+WANT
+
+Souhaitable?
+Souhaité?
+
+Shared Decision Making is a process by which
+a patient and a clinician
+work together,
+have a
+
+conversation,
+partner with each other
+
+Not just
+throwing
+numbers!
+
+to identify the best course of action,
+the best treatment or test
+at this point in time.
+It is a about sharing what matters
+Clinicians share information about the alternatives, benefits, harms
+Patients share prior experience, goals, expectations, values.
+Victor Montori
+
+SDM - croyances et evidence
+♦ Consultation plus longues?
+– Pas de rallongement systématique (3 revues systématiques)
+♦ Les patients ne désirent pas partager la décision?
+– 70-90% préfèrent SDM (enquête européenne >8000 pat)
+– Time trend (50% avant les années 2000)
+– >50% insatisfaits (quantité d’info et implication)
+♦ Les patients n’en sont pas capables?
+– Faux, y compris les populations vulnérables / illettrées
+♦ Mais on le fait déjà!
+– Pas assez…”perception-reality gap »
+– Moyenne 23/100 sur OPTION scale (33 études internationales)
+Hoffmann et al. Shared decision making: what do clinicians need to know and why should they
+bother? Med J Aust. 2014;201(1):35-39.
+
+INGRÉDIENTS D’UNE
+APPROCHE SDM
+7
+
+Dr’s knowledge of the facts
+
+SHARE model www.ahrq.gov/shareddecisionmaking
+
+Steps (not strictly sequential!)
+
+Goals
+
+1. Prepare
+
+Knowing facts, EBM
+
+2. Partnership with patient
+
+Seek patient participation
+
+3. Barriers to communication
+4. Nature of decision
+5. Patient’s role in decision
+6. Patient’s decision making capacity
+7. Options
+8. Benefits and risks
+
+Help the patient explore and compare
+
+options
+
+9. Questions
+10. Patient understanding
+11. Patient preference
+12. Shared decision
+13. Action plan
+
+Assess patient values and preferences
+Reach decision
+Evaluate decision
+
+14. Documentation (file)
+15. Teaching
+Elwyn. J Gen Intern Med 2012;27(10):1361–7. SHARE model www.ahrq.gov/shareddecisionmaking
+
+Collaborative Deliberation
+
+Elwyn G et al. Shared decision making: a model for clinical practice.
+J Gen Intern Med. 2012 Oct;27(10):1361-7.
+
+Exercice 2 – il y a un choix
+♦ Par groupe de 3, jouez le rôle en alternance (3 x 3 min)
+– Patient
+– Médecin
+– Observateur
+♦ Mini-scénario
+– Découverte d’un cholestérol un peu élevé depuis la dernière
+consultation.
+– Option: Mesures d’hygiène de vie vs. traitement par statine
+♦ Instructions
+– Jouez un début l’entretien en mettant en évidence le fait qu’il y a
+un choix – et donc une décision à prendre (choice awareness)
+♦ Echange en plénum
+
+Collaborative Deliberation
+
+Elwyn G et al. Shared decision making: a model for clinical practice.
+J Gen Intern Med. 2012 Oct;27(10):1361-7.
+
+Risques et bénéfices
+Importance de discuter des effets absolus
+Traitement vs.
+
+Placebo
+
+Avec une réducCon de 50 % de mortalité (relaCve)
+RR = 0.5
+
+Scénario 1
+20 % à 10%
+
+Scénario 2
+10 % à 5%
+
+Scénario 3
+2 % à 1%
+
+Diﬀérence
+absolue:
+
+-10%
+
+-5%
+
+-1%
+
+PaCents
+sauvés:
+
+10 paCents
+sur 100
+
+5 paCents
+sur 100
+
+1 paCents
+sur 100
+
+Lien avec l’évidence?
+Recommendations forte
+
+Recommendations faible
+
+1. Balance claire
+
+1. Balance étroire
+
+Ø Bénéfices >> Risques/charge
+
+Ø Faible différence absolue
+
+Ø Risques/charge >> Bénéfices
+
+Ø Dans un sens ou l’autre
+
+2. Certitude de l’effet
+
+2. Incertitude de l’effet
+
+suffisante (haute-moy)
+3. Valeurs & Préférences
+Ø Tous le même choix
+
+3. Valeurs & Préférences
+Ø Variables (ou incertaines)
+
+Lien avec l’évidence?
+Recommendations forte
+
+Recommendations faible
+
+1. Balance claire
+
+1. Balance étroire
+
+Ø Bénéfices >> Risques/charge
+
+Ø Faible différence absolue
+
+Ø Risques/charge >> Bénéfices
+
+Ø Dans un sens ou l’autre
+
+Just do it
+2. Certitude de l’effet
+
+Décision
+Médicale Partagée
+
+2. Incertitude de l’effet
+
+suffisante (haute-moy)
+3. Valeurs & Préférences
+Ø Tous le même choix
+
+3. Valeurs & Préférences
+Ø Variables (ou incertaines)
+
+Strength of the recommendations
+The example of UpToDate (n=9451)
+
+2/3
+
+1/3
+
+UTILISER DES OUTILS?
+AIDES DECISIONELLES
+17
+
+Evidence dissemination to patients
+Patient Decision Aids
+
+Evidence
+
+Clinicians
+
+Patients
+
+Consultation Decision Aids
+
+Consultation Decision Aids
+
+Evidence quant à l’usage des
+Aides decisionelles (DA)
+♦ Increase
+ Knowledge (+ 13% absolute increase)
+ Accurate risk perceptions (+ 82% relative increase)
+ Congruence with values (+52% relative increase), Satisfaction
+♦ Lower
+ Decisional conflict (-7% absolute decrease)
+ Passivity in decision making (-34% relative decrease)
+♦ Mean duration + 2 min (95% CI -8 min à + 23 min)
+♦ No impact on adherence
+♦ No impact on cost
+Stacey et al. Decision aids for people facing health treatment or screening decisions.
+Cochrane Database Syst Rev. 2014;1:CD001431.
+
+Exercice 3 – Risques & Bénéfices
+♦ Par groupe de 3, jouez le rôle en alternance (3 x 5 min)
+– Patient
+– Médecin
+– Observateur
+♦ Utilisation de 2 aides décisionelles
+
+– STATINE CHOICE
+http://statindecisionaid.mayoclinic.org
+– OSTEOPOROSIS CHOICE
+http://osteoporosisdecisionaid.mayoclinic.org
+♦ Instructions
+– Jouez la partie de l’entretien en partant du risque individuel et des
+risques et bénéfices correspondants
+
+Voici Jean, 55 ans
+
+321
+
+Moyen de transport
+Jour de congé
+Le deadline c’est maintenant Diéteticienne
+108 kg Diabétologue
+Travail à la maison Obèse
+Cholesterol élevé
+performance! Diminuer
+sels, sucre, gras
+LDL élévé
+Assurance maladie
+HbA1c 8.2%
+Prêt
+DiabèteMetformine
+Sitaglitpine Glycémies
+Dette
+Diurétique
+Hypertension
+Vertiges
+55
+Les comptes ne jouent pas
+
+Adhérence Béta-bloquant
+DépressionInsomnies
+Exercice
+Mal au dos Neuropathie
+Douleur!
+Podiatre
+
+Sa fille de retour à la maison
+
+2 merveilleuses filles
+
+Contrôler ses pieds!
+
+Adapté avec la permission de V. Montori
+
+Barnett et al. Lancet 2012; 380: 37–43
+
+Barnett et al. Lancet 2012; 380: 37–43
+
+Care < Want
+
+Care > Want
+
+Overtreatment
+
+Undertreatment
+
+Desirable
+care
+
+Le travail de patient
+
+Charge
+
+Capacité
+http://minimallydisruptivemedicine.org
+
+L’évidence n’a pas de sens
+hors de l’histoire du patient
+L’évidence est populationnelle,
+mais chaque patient.e est unique
+
+BMJ 2015;350:g7624
+hVp://www.bmj.com/content/350/bmj.g7624.full
+
+Exercice 4 – Impact des considérations
+pratique
+♦ Par groupe de 2, jouez le rôle en alternance
+– Patient
+– Médecin
+♦ Utilisation de l’aide
+décisionnelle papier
+
+CHOIX ANTI-DEPRESSEUR
+
+Collaborative Deliberation
+
+Elwyn G et al. Shared decision making: a model for clinical practice.
+J Gen Intern Med. 2012 Oct;27(10):1361-7.
+
+Passer à la décision:
+Deux difficultés fréquentes
+♦ Patient demande très vite une recommandation
+– C’est vous le docteur?
+– Dites-moi quoi faire? Vous feriez quoi? Si j’étais votre mère?
+♦ Anxiété liée à l’incertitude, paralysie décisionnelle
+– Je ne sais pas quoi faire…
+– Mais est-ce que cela va m’arriver à moi?
+
+Quelles stratégies?
+34
+
+Conclusion
+♦ Reconnaître les situations propices au partage de la décision
+♦ S’adapter au patient, son contexte, compréhension et
+représentations
+♦ Expliciter le choix
+♦ Pesée des risques, bénéfices et considérations pratiques
+♦ Accompagner la décision (différer la recommandations)
+♦ Possibilité d’utiliser des aides décisionnelles
+S’entrainer, s’entrainer, s’entrainer
+
+Merci de votre par-cipa-on!
+
+Slides additionelles
+
+36
+
+BMJ RapidRecs & Aides décisionelles
+
+hBp://www.bmj.com/rapid-recommendaIons
+
+

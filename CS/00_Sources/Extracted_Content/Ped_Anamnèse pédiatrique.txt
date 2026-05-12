@@ -1,0 +1,345 @@
+Anamnèse pédiatrique générale
+1. Caractériser la plainte
+2. État général
+a. Tonus
+b. Éveil
+c. Nuits
+3. Pleurs
+a. Continus
+b. Habituels
+4. Repas
+a. Nombre
+b. Quantité
+c. Qualité
+5. Croissance
+a. Courbes PC
+b. Taille
+c. Poids
+6. Selles, urines, vomissement
+a. Quantité
+b. Qualité
+7. Symptômes associés
+a. EF
+b. Toux
+c. Rhinorrhée
+d. Rash
+8. Vaccination
+9. Déroulement de la grossesse et de grossesses antérieures
+10. Naissance
+a. Voie basse
+b. Césarienne
+c. Complication ?
+11. Adaptation néonatale
+a. 1ère minute de vie
+b. 1ère semaine
+12. Anamnèse actuelle de la mère
+a. + tabac, alcool, médicaments
+13. Anamnèse psychosociale
+a. Conjoint
+b. Foyer
+c. Travail
+d. Stress, surmenage
+14. Anamnèse familiale
+a. Développement
+b. Maladies
+Examen clinique : https://moodle.unil.ch/course/view.php?id=6388
+
+Évaluation urgence pédiatrique
+
+Urgence :
+
+FR > 70
+1. Apparence
+Respiration irrégulière avec pause
+a. État de conscience
+Cyanose
+b. Tonus musculaire
+Grunting
+c. Contact
+Enfant ne boit plus, ne parle plus
+2. Respiration
+État d’éveil altéré ou agité
+a. Position
+Mauvaise perfusion périphérique
+b. Travail respiratoire
+ou tachycardie importante
+i. FR
+ii. Signes de lutte
+Triangle permet de distinguer
+1. Tirage
+une pathologie banale ou
+2. Battement des ailes du nez
+grave chez un enfant qui a de
+3. Balancement thoraco abdominal
+la fièvre, qui pleure ou autre
+c. Bruits respiratoires
+i. Stridor
+ii. Grunting
+iii. Sibilance
+3. Hémodynamique
+a. Couleur des téguments (pâles, cyanoses)
+b. Châleur (chaud, froid)
+Ensuite ABCDE
+- Airway
+- Breathing
+o Signes de détresses repiratoires
+- Circulation
+o FC
+o TA
+o Évaluation de la perfusion
+- Disability (état neurologique)
+o État de conscience
+▪ Alert
+▪ Réponse à la voix
+▪ Réponse à la douleur
+▪ Absence de réponse
+o Tonus
+o Convulsions
+o Irritabilité
+o Léthargie
+o État des pupilles
+- Événements
+o Évidence de trauma
+o Brûlures
+o Hémorragie
+o Atteinte cutanée
+o Mesurer la température
+
+Pneumo pédiatrie
+-
+
+-
+
+-
+
+Pathologie obstructive haute
+o Faux croup (parainfluenza): ttt symptomatique 🡪 GCS + adrénaline à inspirer
+▪ Brutal, IVRS dernièrement
+Diphtèrie : apparition plus
+▪ Toux aboyante
+progressive, BEG, dysphagie
+▪ Voix rauque
+▪ Stridor
+▪ Peu de fièvre
+▪ Tachypnée
+▪ Tirage
+▪ Désaturation
+o Épiglotite (haemophilus influenza) 🡪 ttt : ttt ATB
+▪ Aspect toxique – se penche en avant – position de tripode
+▪ Fièvre élevée
+▪ Voix patate chaude
+▪ Pas de toux
+▪ Déglutition difficile
+▪ Salivation ++
+▪ Obstruction sévère
+▪ Répond mal au ttt habituel
+▪ Stridor inspiratoire
+▪ Tirage
+▪ Cyanose
+o Corps étranger
+▪ Anamnèse de syndrome de pénétration
+▪ Âge
+Pathologie obstructive basse
+o Bronchiolite
+▪ < 2 ans
+▪ Rhinite
+▪ EF
+▪ Sibilances et râles crépitants
+▪ Effort respiratoire augmenté (muscles abdominaux, scalène)
+o Asthme/bronchite spastique
+▪ > 2 ans
+▪ Déclenché par IVRS
+▪ Sibilance
+▪ Réponse au beta2 agoniste
+Pathologie restrictive basse
+o Pneumonie
+▪ EF
+▪ Toux
+▪ Tachypnée
+▪ Tirage
+▪ Grunting si sévère
+▪ Râles
+
+Cardio pédiatrique
+-
+
+Insuffisance cardiaque
+o Difficulté d’alimentation
+▪ Tétée
+▪ Vomissement
+▪ Douleur abdominale
+▪ Troubles du transit
+▪ Croissance staturo-pondérale
+o Sudations, malaises
+o Dyspnée
+▪ Signes de détresse respiratoire
+▪ Toux
+▪ Wheezing
+▪ Râles
+▪ Stridor
+o Cyanose
+▪ Extrémité
+▪ Muqueuses (lèvre, intérieur de la bouche)
+▪ Hippocratisme digital
+o Oedèmes
+▪ Godet
+▪ Signe d’ascite
+▪ Distension jugulaire (reflux hépatojugulaire)
+o Douleurs thoraciques
+▪ Augmentent à l’effort 🡪 à la tétée, nourrisson pleurt
+o Palpitation
+
+Neuro pédiatrie
+-
+
+Hypotonie
+o Périphérique
+▪ Aréflexie
+▪ Faiblesse et fatigabilité musculaire
+o Centrale
+▪ Hypotonie axiale
+▪ Léthargie
+▪ Éveil altéré
+▪ Hyperréflexie
+▪ Clonus
+▪ Persistance des mouvements archaïques
+- Syndrome pyramidal
+o Parésie
+o Spasticité
+o Hyperréflexie
+o Signe de Babinski
+Périmètre crânien :
+- Macrocéphalie
+o Constitutionnel
+o Progressif
+▪ Hydrocéphalie
+● HT intracrânienne : fontanelle bombée, regard en soleil
+couchant, léthargie, irritabilité
+▪ Processus expansif
+- Microcéphalie
+o Harmonieuse : congénitale
+▪ Malformation
+▪ Infection
+▪ Cause génétique
+▪ Cause métabolique
+o Progressive
+▪ Encéphalopathie anoxique
+▪ Lissencéphalie
+▪ Dégénérative
+
+Pleurs
+Anamnèse
+1. Caractériser les pleurs
+a. Habituels ou non
+b. Qualité
+c. Intensité
+d. Durée
+e. Fréquence
+f. Évolution
+g. Condition de survenue
+h. Facteurs déclenchants
+i. Voyages
+ii. Alimentation
+iii. Changement de rythme
+i. Facteurs apaisant
+i. Calmé quand dans les bras ?
+2. Manifestation associée
+a. Rash
+b. EF
+3. Retentissement
+a. Sommeil
+b. Alimentation
+c. Jeu
+4. Toujours penser à la maman, un épuisement peut avoir une répercussion sur l’enfant
+a. !!! shaken baby syndrome
+5. Notion de traumatisme ?
+6. Croissance
+a. Courbes PC
+b. Taille
+c. Poids
+7. Suivi médical
+a. Vaccination
+8. Anamnèse psychosociale
+a. Conjoint
+b. Foyer
+c. Travail
+d. Stress
+e. Surmenage
+f. !!! Histoire de grossessse compliquée, accouchement traumatique !!!
+Examen clinique
+🡪 complet et minutieux (conscience, respiratoire, cardiaque/circulatoire,abdomen, urogénital, ORL, peau, oculaire, ostéoarticulaire)
+
+Fièvre du bébé
+Anamnèse
+1. TEP
+
+2.
+
+3.
+
+4.
+5.
+6.
+
+7.
+8.
+
+a. Apparence
+i. Conscient ?
+ii. Contact ?
+iii. Joue ?
+iv. Irritable ?
+b. Respiration
+i. A l’air d’avoir de la peine à respirer ?
+ii. Fait du bruit quand respire ?
+1. Ressemble à quoi ?
+c. Hémodynamique
+i. Chaud ? froid ?
+ii. Rouge ? blanc ? bleu ?
+Caractériser la fièvre
+a. À combien ? ( !!! > 38)
+i. Prise où ?
+b. Début ?
+c. Évolution ?
+d. Facteurs modifiants
+i. Médicament
+e. Récurrence
+Symptômes associés
+a. Sueurs
+b. Convulsion
+c. Raideur de nuque
+d. Se tient l’oreille
+e. Toux
+f. Vomissement
+g. Diarrhée / constipation
+h. Couleur urinaire, quantité
+i. Boutons, éruption cutanée
+Pleurs ? a l’air inconfortable ?
+Alimentation ? boisson ?
+Croissance
+a. Courbe PC
+b. Taille
+c. Poids
+Vaccination
+ATCD personnels
+
+9. Déroulement de la grossesse ? complication
+10. Naissance (voie basse ? césarienne ? complication ? à terme ?)
+11. Adaptation néonatale ? (1ère minute, 1ère semaine)
+12. Anamnèse maternelle
+a. Tabac
+b. Alcool
+c. Médicaments
+13. Anamnèse psychosociale
+a. Conjoint
+b. Foyer
+c. Travail
+d. Stress
+e. Surmenage
+14. ATCD familiaux
+a. Développement
+b. Maladie
+Examen clinique
+🡪 complet et minutieux (conscience, respiratoire, cardiaque/circulatoire,abdomen, urogénital, ORL, peau, oculaire, ostéoarticulaire)
+
+

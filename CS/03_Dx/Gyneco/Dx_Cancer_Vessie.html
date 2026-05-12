@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancer Vessie</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #7b68ee;
+            --success-color: #5cb85c;
+            --danger-color: #d9534f;
+            --warning-color: #f0ad4e;
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --ecos-gradient: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
+            --card-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header {
+            background: var(--bg-gradient);
+            color: white;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .page-title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .meta-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            backdrop-filter: blur(10px);
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        /* Sections principales */
+        .main-section {
+            color: var(--primary-color);
+            margin: 35px 0 25px 0;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8em;
+        }
+        
+        .section-title {
+            color: var(--secondary-color);
+            margin: 25px 0 15px 0;
+            padding-left: 20px;
+            border-left: 5px solid var(--secondary-color);
+            font-size: 1.4em;
+        }
+        
+        .sub-section {
+            color: #495057;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        
+        /* Section spéciale Points Clés ECOS */
+        .ecos-key-points {
+            background: var(--ecos-gradient);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 15px 50px rgba(255,107,107,0.3);
+            position: relative;
+            overflow: hidden;
+            animation: pulse-glow 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 15px 50px rgba(255,107,107,0.3); }
+            50% { box-shadow: 0 20px 60px rgba(255,107,107,0.5); }
+        }
+        
+        .ecos-key-points::before {
+            content: '⚡';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 150px;
+            opacity: 0.1;
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .ecos-key-points-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .ecos-key-points-header h2 {
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin: 0;
+        }
+        
+        .ecos-icon {
+            font-size: 2.5em;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .ecos-key-points-content {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 20px;
+            color: #333;
+        }
+        
+        /* Highlights et alertes */
+        .red-flag, .critical-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff4444, #cc0000);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: pulse 1.5s infinite;
+            margin: 5px 0;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .urgent-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff9800, #f44336);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: blink 2s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        
+        .essential-point {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700, #ffb300);
+            color: #333;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        .important-note {
+            display: inline-block;
+            background: linear-gradient(135deg, #4caf50, #8bc34a);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        /* Highlights de texte */
+        .highlight-critical {
+            background: #ffebee;
+            color: #c62828;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            border-bottom: 2px solid #ef5350;
+        }
+        
+        mark.highlight-critical {
+            background: linear-gradient(to bottom, transparent 50%, #ffcdd2 50%);
+            padding: 2px 4px;
+        }
+        
+        /* Checkboxes */
+        .checkbox-item {
+            margin: 12px 0;
+            padding: 18px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            border-left: 5px solid transparent;
+            display: flex;
+            align-items: center;
+        }
+        
+        .checkbox-item:hover {
+            background: linear-gradient(135deg, #e9ecef, #dee2e6);
+            transform: translateX(8px);
+            border-left-color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        
+        .checkbox-item label {
+            cursor: pointer;
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+        
+        .checkbox-item input[type="checkbox"]:checked + label {
+            color: var(--success-color);
+            text-decoration: line-through;
+            font-weight: 500;
+        }
+        
+        /* Tables */
+        .table-container {
+            overflow-x: auto;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        .data-table thead {
+            background: var(--bg-gradient);
+            color: white;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .data-table tbody tr:hover {
+            background: linear-gradient(90deg, #f8f9fa, #ffffff);
+            transform: scale(1.01);
+            transition: all 0.2s ease;
+        }
+        
+        .cell-critical {
+            background: #ffebee !important;
+            color: #c62828;
+            font-weight: 600;
+        }
+        
+        .cell-important {
+            background: #fff3e0 !important;
+            color: #e65100;
+            font-weight: 600;
+        }
+        
+        /* Listes */
+        .content-list {
+            margin: 15px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .content-list li {
+            position: relative;
+            padding-left: 35px;
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+        
+        .content-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 10px;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        /* Sections enrichissement */
+        .enrichment-section {
+            margin: 30px 0;
+            background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 20px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .enrichment-header {
+            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: var(--primary-color);
+            padding: 10px;
+            user-select: none;
+            transition: all 0.3s ease;
+        }
+        
+        .enrichment-header:hover {
+            color: var(--secondary-color);
+            transform: translateX(10px);
+        }
+        
+        .enrichment-section[open] .enrichment-header {
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+        
+        .enrichment-content {
+            animation: fadeIn 0.5s ease-out;
+            padding: 0 10px;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Paragraphes */
+        p {
+            margin: 12px 0;
+            line-height: 1.8;
+        }
+        
+        strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        em {
+            color: #495057;
+            font-style: italic;
+        }
+        
+        /* Progress bar */
+        .progress-bar {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            min-width: 200px;
+            z-index: 1000;
+        }
+        
+        .progress-text {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .progress-track {
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--bg-gradient);
+            border-radius: 5px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+        
+        /* Menu flottant */
+        .floating-menu {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        
+        .menu-button {
+            background: var(--bg-gradient);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+        }
+        
+        .menu-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+        }
+        
+        /* Timer */
+        .timer {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            background: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            box-shadow: var(--card-shadow);
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            .page-title {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .floating-menu {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .timer {
+                top: 10px;
+                left: 10px;
+                font-size: 0.9em;
+            }
+            
+            .progress-bar {
+                bottom: 10px;
+                right: 10px;
+                min-width: 150px;
+            }
+            
+            .ecos-key-points {
+                padding: 20px;
+            }
+            
+            .ecos-key-points-header h2 {
+                font-size: 1.5em;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+            
+            .floating-menu,
+            .timer,
+            .progress-bar {
+                display: none;
+            }
+            
+            .ecos-key-points {
+                page-break-inside: avoid;
+                background: #fff3e0 !important;
+                border: 3px solid #ff6b6b;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="timer" id="timer">⏱️ 00:00</div>
+    
+    <div class="floating-menu">
+        <button class="menu-button" onclick="resetProgress()">🔄 Réinitialiser</button>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="page-title">Cancer Vessie</h1>
+            <div class="meta-info">
+                <span class="badge">📚 Médecine</span>
+                <span class="badge">📅 30/08/2025</span>
+                <span class="badge">🎯 Révision ECOS - Diagnostic</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h1 class="page-title">Cancer Vessie</h1><h2 class="main-section">📋 Définition</h2>
+            <h1 class="page-title">Cancer Vessie</h1><h2 class="main-section">📋 Définition</h2>
+<ul class="content-list">
+<ul>
+<li>urothélial de la vessie </li>
+</ul>
+musculo -invas if (stade T2 minimum) non -métastatique, Carcinome urothélial in situ 
+réfractaire au traitement conservateur, carcinome non -musculo invasif (stade <T2) 
+récidivant.  
+• Vessie neurogène avec troubles majeurs du remplissage/vidange vésicale avec risque de réperc ussion sur les reins  :  
+  
+Lymphadénectomie ilio -obturatrice 
+ 
+Prélèvement d’un segment d’iléon de 12 -15cm
+<ul class="content-list">
+<ul>
+<li>de la prostate à risque intermédiaire et élev é de progression chez des patients </li>
+</ul>
+avec une espérance de vie supérieure à 10ans.  
+ 
+Lymphadénectomie ilio -obturatrice bilatérale
+<ul class="content-list">
+<ul>
+<li>rénale confirmée soit radiologiquement soit par biopsies. Une nép hrectomie partielle </li>
+</ul>
+est proposée dans le cas de tumeur exophytiques, sans envahissement du hile rénal (stade T1 et T2)</p><h2 class="main-section">🔬 Épidémiologie</h2>
+est proposée dans le cas de tumeur exophytiques, sans envahissement du hile rénal (stade T1 et T2)</p><h2 class="main-section">🔬 Épidémiologie</h2>
+<ul class="content-list">
+<ul>
+<li>À compléter</li>
+</ul><h2 class="main-section">🧬 Physiopathologie</h2>
+<ul class="content-list">
+<li>
+    <ul>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>et d’autres complications (lithiase de stase intra- vésicale, hématurie,</li>
+<li>À compléter</li>
+<li>de la muqueuse vésicale a visée diagnostic </li>
+</ul>
+</li>
+dans le cadre de maladies inflammatoires ou infectieuses, coagulation dans le cadre d’une macrohématurie refractaire aux  traitements conservateurs.  
+ 
+1.3 Complications  :  
+Macrohématurie  :  perforation vésicale  ; infection urinaire  ; sténose urétrale.
+<ul class="content-list">
+<li>
+    <ul>
+<li>de la lésion par une pince puis vaporisation de la lésion au laser.  </li>
+</ul>
+</li>
+ 
+7.2 Indications  
+Calculs (néphrolithiases), tumeur de l’uret ère ou des cavités rénales, sténose urétérale.  
+ 
+7.3 Complications  
+• Per-opératoire  : montée de l’instrument impossible (uretère trop étroit, inflammation, 
+variante anatomique), lésion urétérale +/ - urinome.  
+• Post -opératoire  : infection urinaire, macrohématurie , hématome périrénal.
+<ul class="content-list">
+<li>
+    <ul>
+<li>à la peau (stomie) permettant ainsi d’utiliser le péristaltisme intestinal</li>
+<li>(très fréquent)  ; macrohématuri e ; infection urinaire  ; incontinence </li>
+</ul>
+</li>
+urinaire (transitoire) ; sténose urétrale.  
+ 
+vessie  
+Adénome de la prostate  
+Ablation endos copique de l’adénome prostatique
+<ul class="content-list">
+<li>
+    <ul>
+<li>T2 minimum) non -métastatique, Carcinome urothélial in situ </li>
+</ul>
+</li>
+réfractaire au traitement conservateur, carcinome non -musculo invasif (stade <T2) 
+récidivant.  
+• Vessie neurogène avec troubles majeurs du remplissage/vidange vésicale avec risque de réperc ussion sur les reins  :  
+  
+Lymphadénectomie ilio -obturatrice 
+ 
+Prélèvement d’un segment d’iléon de 12 -15cm</p><h2 class="main-section">🔄 Diagnostic différentiel</h2>
+Prélèvement d’un segment d’iléon de 12 -15cm</p><h2 class="main-section">🔄 Diagnostic différentiel</h2>
+<ul class="content-list">
+<li>
+    <ul>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>u rologique.  </li>
+</ul>
+</li>
+• Relatives  : mesure de la diurèse, culture d’urines, confort (controversé).  
+• Sus-pubienne  : libère et protège les organes génitaux externes, soins de sonde facilités, 
+pas de sonde transurétrale si suspicion de lésion urétrale.  
+ 
+8.3 Complications  
+• Sur la mise en place de la sonde  : Fausses routes, sténoses urétrale, paraphimosis.  
+• Sur la présence de la sonde  : colonisation bactérienne des urines avec risque infectieux, 
+lithiase, irritation de la paroi vésicale av</p><h2 class="main-section">🔧 Technique (si applicable)</h2>
+lithiase, irritation de la paroi vésicale av</p><h2 class="main-section">🔧 Technique (si applicable)</h2>
+<ul class="content-list">
+<li>
+    <ul>
+<li>lubrifiant (instillagel) avant introduction</li>
+<li>d’une sonde urétérale dans la partie distale de l’uretère et injection de produit de contraste sous contrôle radioscopique</li>
+<li>de l’urétéroscope  dans</li>
+<li>de la sonde vésicale</li>
+<li>après un retour d’urines</li>
+<li>Macrohématurie  :  perforation vésicale  ; infection urinaire  ; sténose urétrale</li>
+<li>(lithiase de stase intra- vésicale, hématurie,</li>
+<li>Ejaculation rétrograde (très fréquent)  ; macrohématuri e ; infection urinaire  ; incontinence</li>
+<li>de réperc ussion sur les reins  :</li>
+<li>• Post -opératoire <mark class="highlight-critical">immédiat</mark>  : iléus, fuite anastomose urétéro -iléale ou grêle, infection,</li>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>À compléter</li>
+<li>Bactérie</li>
+<li>Infection</li>
+<li>Inflammation</li>
+<li>Obstruction</li>
+<li>Urinaire</li>
+<li>Brûlure</li>
+<li>Douleur</li>
+<li>Fièvre</li>
+<li>Sang</li>
+<li><mark class="highlight-critical">Urgence</mark></li>
+<li>Palpation</li>
+<li>Bandelette</li>
+<li>Culture</li>
+<li>Sédiment</li>
+<li>Cause</li>
+<li>Causes</li>
+<li>Differential </li>
+<li>Differential diagnosis</li>
+<li>Antibiothérapie</li>
+<li>Surveillance</li>
+<li>Traitement</li>
+<li>Cancer</li>
+<li>Infection</li>
+<li>Pyélonéphrite</li>
+<li>Urétrite</li>
+<li>Analyse_urine.pdf</li>
+<li>AAFP dysuria.pdf</li>
+</ul>
+</li>

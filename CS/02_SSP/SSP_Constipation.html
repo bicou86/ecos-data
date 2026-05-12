@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche de Révision ECOS - CONSTIPATION</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #7b68ee;
+            --success-color: #5cb85c;
+            --danger-color: #d9534f;
+            --warning-color: #f0ad4e;
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --ecos-gradient: linear-gradient(135deg, #FF6B6B 0%, #FFE66D 100%);
+            --card-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header {
+            background: var(--bg-gradient);
+            color: white;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .page-title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .meta-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            backdrop-filter: blur(10px);
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        /* Sections principales */
+        .main-section {
+            color: var(--primary-color);
+            margin: 35px 0 25px 0;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8em;
+        }
+        
+        .section-title {
+            color: var(--secondary-color);
+            margin: 25px 0 15px 0;
+            padding-left: 20px;
+            border-left: 5px solid var(--secondary-color);
+            font-size: 1.4em;
+        }
+        
+        .sub-section {
+            color: #495057;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        
+        /* Section spéciale Points Clés ECOS */
+        .ecos-key-points {
+            background: var(--ecos-gradient);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 15px 50px rgba(255,107,107,0.3);
+            position: relative;
+            overflow: hidden;
+            animation: pulse-glow 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 15px 50px rgba(255,107,107,0.3); }
+            50% { box-shadow: 0 20px 60px rgba(255,107,107,0.5); }
+        }
+        
+        .ecos-key-points::before {
+            content: '⚡';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 150px;
+            opacity: 0.1;
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .ecos-key-points-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .ecos-key-points-header h2 {
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin: 0;
+        }
+        
+        .ecos-icon {
+            font-size: 2.5em;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .ecos-key-points-content {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 20px;
+            color: #333;
+        }
+        
+        /* Highlights et alertes */
+        .red-flag {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff4444, #cc0000);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: pulse 1.5s infinite;
+            margin: 5px 0;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .urgent-alert {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff9800, #f44336);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: blink 2s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        
+        .essential-point {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700, #ffb300);
+            color: #333;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        .important-note {
+            display: inline-block;
+            background: linear-gradient(135deg, #4caf50, #8bc34a);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        
+        /* Highlights de texte */
+        .highlight-critical {
+            background: #ffebee;
+            color: #c62828;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            border-bottom: 2px solid #ef5350;
+        }
+        
+        mark.highlight-critical {
+            background: linear-gradient(to bottom, transparent 50%, #ffcdd2 50%);
+            padding: 2px 4px;
+        }
+        
+        /* Checkboxes */
+        .checkbox-item {
+            margin: 12px 0;
+            padding: 18px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            border-left: 5px solid transparent;
+            display: flex;
+            align-items: center;
+        }
+        
+        .checkbox-item:hover {
+            background: linear-gradient(135deg, #e9ecef, #dee2e6);
+            transform: translateX(8px);
+            border-left-color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        
+        .checkbox-item label {
+            cursor: pointer;
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+        
+        .checkbox-item input[type="checkbox"]:checked + label {
+            color: var(--success-color);
+            text-decoration: line-through;
+            font-weight: 500;
+        }
+        
+        /* Tables */
+        .table-container {
+            overflow-x: auto;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        .data-table thead {
+            background: var(--bg-gradient);
+            color: white;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .data-table tbody tr:hover {
+            background: linear-gradient(90deg, #f8f9fa, #ffffff);
+            transform: scale(1.01);
+            transition: all 0.2s ease;
+        }
+        
+        .cell-critical {
+            background: #ffebee !important;
+            color: #c62828;
+            font-weight: 600;
+        }
+        
+        .cell-important {
+            background: #fff3e0 !important;
+            color: #e65100;
+            font-weight: 600;
+        }
+        
+        /* Listes */
+        .content-list {
+            margin: 15px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        
+        .content-list li {
+            position: relative;
+            padding-left: 35px;
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+        
+        .content-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 10px;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        /* Sections enrichissement */
+        .enrichment-section {
+            margin: 30px 0;
+            background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 20px;
+            border: 2px solid #dee2e6;
+        }
+        
+        .enrichment-header {
+            cursor: pointer;
+            font-size: 1.3em;
+            font-weight: 600;
+            color: var(--primary-color);
+            padding: 10px;
+            user-select: none;
+            transition: all 0.3s ease;
+        }
+        
+        .enrichment-header:hover {
+            color: var(--secondary-color);
+            transform: translateX(10px);
+        }
+        
+        .enrichment-section[open] .enrichment-header {
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+        }
+        
+        .enrichment-content {
+            animation: fadeIn 0.5s ease-out;
+            padding: 0 10px;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Paragraphes */
+        p {
+            margin: 12px 0;
+            line-height: 1.8;
+        }
+        
+        strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        em {
+            color: #495057;
+            font-style: italic;
+        }
+        
+        /* Progress bar */
+        .progress-bar {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            min-width: 200px;
+            z-index: 1000;
+        }
+        
+        .progress-text {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .progress-track {
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: var(--bg-gradient);
+            border-radius: 5px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+        
+        /* Menu flottant */
+        .floating-menu {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        
+        .menu-button {
+            background: var(--bg-gradient);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+        }
+        
+        .menu-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+        }
+        
+        /* Timer */
+        .timer {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            background: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            box-shadow: var(--card-shadow);
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            .page-title {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .floating-menu {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .timer {
+                top: 10px;
+                left: 10px;
+                font-size: 0.9em;
+            }
+            
+            .progress-bar {
+                bottom: 10px;
+                right: 10px;
+                min-width: 150px;
+            }
+            
+            .ecos-key-points {
+                padding: 20px;
+            }
+            
+            .ecos-key-points-header h2 {
+                font-size: 1.5em;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+            
+            .floating-menu,
+            .timer,
+            .progress-bar {
+                display: none;
+            }
+            
+            .ecos-key-points {
+                page-break-inside: avoid;
+                background: #fff3e0 !important;
+                border: 3px solid #ff6b6b;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="timer" id="timer">⏱️ 00:00</div>
+    
+    <div class="floating-menu">
+        <button class="menu-button" onclick="resetProgress()">🔄 Réinitialiser</button>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="page-title">Fiche de Révision ECOS - CONSTIPATION</h1>
+            <div class="meta-info">
+                <span class="badge">📚 Médecine</span>
+                <span class="badge">📅 04/09/2025</span>
+                <span class="badge">🎯 Révision ECOS</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h1 class="page-title">Fiche de Révision ECOS - CONSTIPATION</h1><h2 class="main-section">🎯 Situation à Starting Point (SSP)</h2>
+<strong>Description:</strong> Patient consultant pour constipation
+<strong>Objectifs d'évaluation:</strong> Caractériser la constipation, identifier les causes organiques, éliminer les signes d'alarme, proposer une prise en charge adaptée</p><p>---
+<h1 class="page-title">📋 ENRICHISSEMENT ANAMNÈSE & EXAMEN CLINIQUE</h1>
+<em>Source: Analyse des PDFs d'anamnèse et d'examen clinique - Système digestif</em></p><h2 class="main-section">🔍 ANAMNÈSE SPÉCIALISÉE</h2><h3 class="section-title">Points clés à explorer :</h3>
+<ul class="content-list">
+<li>des principales pathologies cardiovasculaires.</li>
+<li>- </li>
+</ul>
+Poser les questions clés relatives à l’anamnèse cardiovasculaire.
+<ul class="content-list">
+<li>peuvent se </li>
+</ul>
+confondre.
+<ul class="content-list">
+<li>générale </li>
+<li>Malaise, asthénie </li>
+<li>Symptômes B : fièvre (prolongée) +/- </li>
+</ul>
+frissons, perte poids, sudations nocturnes.
+<ul class="content-list">
+<li>B : fièvre (prolongée) +/- </li>
+</ul>
+frissons, perte poids, sudations nocturnes.
+<ul class="content-list">
+<li>en faveur d’une origine cardiaque ou </li>
+</ul>
+extra-cardiaque.
+<ul class="content-list">
+<li>actuelle : si douleur la caractériser, caractériser le symptôme, établir une échelle temporelle, manifestation </li>
+</ul>
+associé, traumatisme récent, etc.
+<ul class="content-list">
+<li>de troubles  digestifs.</li>
+</ul><h2 class="main-section">👨‍⚕️ EXAMEN CLINIQUE <mark class="highlight-critical">SYSTÉMATIQUE</mark></h2><h3 class="section-title">Éléments essentiels :</h3>
+<ul class="content-list">
+<li>spéciﬁque des organes</li>
+</ul>
+On procède à l’examen spéciﬁque du foie.
+<ul class="content-list">
+<li>anal et rectal</li>
+</ul>
+Un examen anal et rectal complète un exa-
+men abdominal.
+<ul class="content-list">
+<li>PULMONAIRE</li>
+</ul>
+Inspection
+Appréciation de l’état général du patient
+• État de conscience, dénutrition, comportement algique, etc.
+<ul class="content-list">
+<li>, étude des paramètres vitaux, prise de sang, hémoculture, cultures </li>
+</ul>
+d’expectoration et Rx thorax.
+<ul class="content-list">
+<li>des orifices herniaires et palpation des zones inguinales </li>
+</ul>
+11
+7.
+<ul class="content-list">
+<li>des </li>
+</ul>
+zones inguinales et l’examen anal et rectal.
+<ul class="content-list">
+<li>nous </li>
+</ul>
+donne des informations complémentaires.
+<ul class="content-list">
+<li>des zones inguinales</li>
+</ul>
+On demande au patient de lever la tête pour 
+provoquer une contraction abdominale.</p><h2 class="main-section">🧪 TESTS ET MANŒUVRES SPÉCIFIQUES</h2>
+<ul class="content-list">
+<li><strong>Rosving : on appuie profondément avec le poing fermé sur le QIG, on retire notre main d’un seul coup.</strong></li>
+<li><strong>cholécystite.</strong></li>
+<li>**l’obturateur#: cuisse droite ﬂéchie </li>
+</ul>
+et jambe droite ﬂéchie, on eﬀectue une rota-
+tion interne de la hanche.**
+<ul class="content-list">
+<li><strong>Murphy, etc.</strong></li>
+</ul><h2 class="main-section">🚨 <mark class="highlight-critical">RED FLAGS</mark> ET SIGNES D'ALARME</h2>
+<ul class="content-list">
+<li>⚠️ d’un syndrome douloureux abdominal </li>
+</ul>
+aigu.
+<ul class="content-list">
+<li>⚠️ s est la douleur abdominale.</li>
+<li>⚠️ s vitales : dissection aortique, infarctus du myocarde, tamponnade, </li>
+</ul>
+embolie pulmonaire et pneumothorax.
+<ul class="content-list">
+<li>⚠️ s cardiaques sont aussi à exclure car les symptômes peuvent se </li>
+</ul>
+confondre.</p><p>---</p><p>---</p><h2 class="main-section">📋 ANAMNÈSE</h2><h3 class="section-title">1. Caractérisation de la constipation ⚠️ <mark class="highlight-critical">ESSENTIEL</mark></h3><h4 class="sub-section">1.1 Critères de Rome IV</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-1"><label for="cb-1"><strong>Fréquence des selles:</strong> <3 par semaine</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-2"><label for="cb-2"><strong>Effort de poussée:</strong> >25% des défécations</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-3"><label for="cb-3"><strong>Selles dures:</strong> Type 1-2 Bristol (>25% du temps)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-4"><label for="cb-4"><strong>Sensation d'évacuation incomplète:</strong> >25% du temps</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-5"><label for="cb-5"><strong>Sensation de blocage anorectal:</strong> >25% du temps</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-6"><label for="cb-6"><strong>Manœuvres manuelles</strong> nécessaires</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-7"><label for="cb-7"><strong>Durée:</strong> >3 mois</label></div><h4 class="sub-section">1.2 Type de constipation</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-8"><label for="cb-8"><strong>Transit ralenti:</strong> Diminution fréquence</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-9"><label for="cb-9"><strong>Dyschésie:</strong> Difficulté d'évacuation</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-10"><label for="cb-10"><strong>Mixte:</strong> Association des deux</label></div><h4 class="sub-section">1.3 Évolution</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-11"><label for="cb-11"><strong>Début:</strong></label></div>
+  - Récent (<3 mois) ⚠️ ALARME
+  - Ancien (chronique)
+  - Depuis l'enfance
+<div class="checkbox-item"><input type="checkbox" id="cb-12"><label for="cb-12"><strong>Progression:</strong></label></div>
+  - Stable
+  - Aggravation progressive
+  - Fluctuante</p><h4 class="sub-section">1.4 Sévérité</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-13"><label for="cb-13"><strong>Fréquence actuelle</strong> des selles</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-14"><label for="cb-14"><strong>Temps passé</strong> aux toilettes</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-15"><label for="cb-15"><strong>Utilisation laxatifs:</strong> Fréquence, types</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-16"><label for="cb-16"><strong>Impact</strong> sur qualité de vie</label></div><h3 class="section-title">2. Caractéristiques des selles et de la défécation</h3><h4 class="sub-section">2.1 Aspect des selles</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-17"><label for="cb-17"><strong>Échelle de Bristol:</strong></label></div>
+  - Type 1: Billes dures séparées
+  - Type 2: Saucisse grumeleuse
+  - Type 3-4: Normal
+<div class="checkbox-item"><input type="checkbox" id="cb-18"><label for="cb-18"><strong>Calibre:</strong> Normal, diminué (sténose?)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-19"><label for="cb-19"><strong>Présence de:</strong></label></div>
+  - Sang (rouge vif)
+  - Glaires
+  - Méléna</p><h4 class="sub-section">2.2 Défécation</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-20"><label for="cb-20"><strong>Besoin:</strong> Présent, absent, diminué</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-21"><label for="cb-21"><strong>Position:</strong> Accroupie aide?</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-22"><label for="cb-22"><strong>Durée effort</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-23"><label for="cb-23"><strong>Douleur:</strong> Fissure, hémorroïdes</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-24"><label for="cb-24"><strong>Prolapsus</strong> ressenti</label></div><h3 class="section-title">3. Symptômes associés</h3><h4 class="sub-section">3.1 Signes digestifs</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-25"><label for="cb-25"><strong>Douleurs abdominales:</strong></label></div>
+  - Soulagées par défécation (SII)
+  - Permanentes (organique)
+<div class="checkbox-item"><input type="checkbox" id="cb-26"><label for="cb-26"><strong>Ballonnements</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-27"><label for="cb-27"><strong>Flatulences</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-28"><label for="cb-28"><strong>Alternance</strong> diarrhée/constipation</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-29"><label for="cb-29"><strong>Fausses diarrhées</strong> (fécalome)</label></div><h4 class="sub-section">3.2 Signes d'alarme ⚠️ CANCER COLORECTAL</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-30"><label for="cb-30"><strong>Rectorragies</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-31"><label for="cb-31"><strong>Amaigrissement</strong> involontaire</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-32"><label for="cb-32"><strong>Syndrome rectal:</strong> Faux besoins, ténesme</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-33"><label for="cb-33"><strong>Modification récente</strong> du transit (>50 ans)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-34"><label for="cb-34"><strong>Masse abdominale</strong> palpable</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-35"><label for="cb-35"><strong>Anémie ferriprive</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-36"><label for="cb-36"><strong>ATCD familiaux</strong> cancer colorectal</label></div><h4 class="sub-section">3.3 Signes extra-digestifs</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-37"><label for="cb-37"><strong>Urinaires:</strong></label></div>
+  - Dysurie
+  - Pollakiurie
+  - Incontinence
+<div class="checkbox-item"><input type="checkbox" id="cb-38"><label for="cb-38"><strong>Gynécologiques:</strong></label></div>
+  - Pesanteur pelvienne
+  - Dyspareunie
+<div class="checkbox-item"><input type="checkbox" id="cb-39"><label for="cb-39"><strong>Neurologiques:</strong></label></div>
+  - Paresthésies périnéales
+  - Troubles moteurs membres inférieurs</p><h3 class="section-title">4. Causes de constipation</h3><h4 class="sub-section">4.1 Causes fonctionnelles (95%)</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-40"><label for="cb-40"><strong>Constipation fonctionnelle primitive</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-41"><label for="cb-41"><strong>Syndrome intestin irritable</strong> (SII-C)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-42"><label for="cb-42"><strong>Troubles fonctionnels anorectaux:</strong></label></div>
+  - Anisme (dyssynergie)
+  - Hypertonie sphinctérienne</p><h4 class="sub-section">4.2 Causes organiques digestives</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-43"><label for="cb-43"><strong>Cancer colorectal</strong> ⚠️ APRÈS 50 ANS</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-44"><label for="cb-44"><strong>Sténoses:</strong></label></div>
+  - Post-radique
+  - Inflammatoire (MICI)
+  - Ischémique
+<div class="checkbox-item"><input type="checkbox" id="cb-45"><label for="cb-45"><strong>Pathologies anorectales:</strong></label></div>
+  - Fissure anale
+  - Hémorroïdes thrombosées
+  - Abcès, sténose anale
+  - Rectocèle, prolapsus</p><h4 class="sub-section">4.3 Causes médicamenteuses ⚠️ TRÈS FRÉQUENT</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-46"><label for="cb-46"><strong>Opioïdes</strong> (morphine, codéine)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-47"><label for="cb-47"><strong>Anticholinergiques:</strong></label></div>
+  - Antidépresseurs tricycliques
+  - Antiparkinsoniens
+  - Antipsychotiques
+  - Antihistaminiques
+<div class="checkbox-item"><input type="checkbox" id="cb-48"><label for="cb-48"><strong>Antihypertenseurs:</strong></label></div>
+  - Inhibiteurs calciques (vérapamil)
+  - Diurétiques
+<div class="checkbox-item"><input type="checkbox" id="cb-49"><label for="cb-49"><strong>Fer oral</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-50"><label for="cb-50"><strong>Antiacides</strong> (aluminium)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-51"><label for="cb-51"><strong>Anti-diarrhéiques</strong> (lopéramide)</label></div><h4 class="sub-section">4.4 Causes métaboliques et endocriniennes</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-52"><label for="cb-52"><strong>Hypothyroïdie</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-53"><label for="cb-53"><strong>Diabète</strong> (neuropathie)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-54"><label for="cb-54"><strong>Hypercalcémie</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-55"><label for="cb-55"><strong>Hypokaliémie</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-56"><label for="cb-56"><strong>Grossesse</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-57"><label for="cb-57"><strong>Insuffisance rénale</strong> (urémie)</label></div><h4 class="sub-section">4.5 Causes neurologiques</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-58"><label for="cb-58"><strong>Centrales:</strong></label></div>
+  - Parkinson
+  - SEP
+  - AVC
+  - Compression médullaire
+<div class="checkbox-item"><input type="checkbox" id="cb-59"><label for="cb-59"><strong>Périphériques:</strong></label></div>
+  - Neuropathie diabétique
+  - Syndrome queue de cheval
+  - Maladie de Hirschsprung</p><h3 class="section-title">5. Facteurs favorisants et mode de vie</h3><h4 class="sub-section">5.1 Alimentation</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-60"><label for="cb-60"><strong>Apports hydriques:</strong> <1,5L/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-61"><label for="cb-61"><strong>Fibres alimentaires:</strong> Insuffisantes (<25g/j)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-62"><label for="cb-62"><strong>Repas:</strong> Irréguliers, sautés</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-63"><label for="cb-63"><strong>Aliments constipants:</strong> Riz, banane, chocolat</label></div><h4 class="sub-section">5.2 Activité physique</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-64"><label for="cb-64"><strong>Sédentarité</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-65"><label for="cb-65"><strong>Alitement prolongé</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-66"><label for="cb-66"><strong>Mobilité réduite</strong></label></div><h4 class="sub-section">5.3 Habitudes défécatoires</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-67"><label for="cb-67"><strong>Retenue volontaire</strong> (travail, voyage)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-68"><label for="cb-68"><strong>Absence de routine</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-69"><label for="cb-69"><strong>Position inadéquate</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-70"><label for="cb-70"><strong>Environnement</strong> non propice</label></div><h4 class="sub-section">5.4 Facteurs psychologiques</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-71"><label for="cb-71"><strong>Stress, anxiété</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-72"><label for="cb-72"><strong>Dépression</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-73"><label for="cb-73"><strong>Troubles du comportement alimentaire</strong></label></div><h3 class="section-title">6. Antécédents</h3><h4 class="sub-section">6.1 Médicaux</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-74"><label for="cb-74"><strong>Digestifs:</strong></label></div>
+  - Chirurgie abdominale
+  - MICI
+  - Diverticulose
+<div class="checkbox-item"><input type="checkbox" id="cb-75"><label for="cb-75"><strong>Obstétricaux:</strong></label></div>
+  - Multiparité
+  - Accouchements difficiles
+  - Épisiotomie, déchirures
+<div class="checkbox-item"><input type="checkbox" id="cb-76"><label for="cb-76"><strong>Neurologiques</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-77"><label for="cb-77"><strong>Endocriniens</strong></label></div><h4 class="sub-section">6.2 Familiaux</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-78"><label for="cb-78"><strong>Cancer colorectal</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-79"><label for="cb-79"><strong>Polypose familiale</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-80"><label for="cb-80"><strong>MICI</strong></label></div><h3 class="section-title">7. Traitements essayés</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-81"><label for="cb-81"><strong>Mesures hygiéno-diététiques</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-82"><label for="cb-82"><strong>Laxatifs:</strong></label></div>
+  - Types utilisés
+  - Efficacité
+  - Tolérance
+  - Dépendance
+<div class="checkbox-item"><input type="checkbox" id="cb-83"><label for="cb-83"><strong>Suppositoires, lavements</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-84"><label for="cb-84"><strong>Thérapies alternatives</strong></label></div><h3 class="section-title">8. Question de clôture</h3>
+"Avez-vous remarqué du sang dans vos selles ou perdu du poids récemment?"</p><p>---</p><h2 class="main-section">🩺 EXAMEN CLINIQUE (STATUS)</h2><h3 class="section-title">Examen général</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-85"><label for="cb-85"><strong>Poids, IMC</strong> (dénutrition, obésité)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-86"><label for="cb-86"><strong>État général</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-87"><label for="cb-87"><strong>Pâleur</strong> (anémie)</label></div><h3 class="section-title">Examen abdominal</h3><h4 class="sub-section">Inspection</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-88"><label for="cb-88"><strong>Distension</strong> abdominale</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-89"><label for="cb-89"><strong>Cicatrices</strong> chirurgicales</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-90"><label for="cb-90"><strong>Hernies</strong></label></div><h4 class="sub-section">Auscultation</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-91"><label for="cb-91"><strong>Bruits hydroaériques:</strong> Présents, diminués</label></div><h4 class="sub-section">Palpation</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-92"><label for="cb-92"><strong>Masse abdominale</strong> (tumeur, fécalome)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-93"><label for="cb-93"><strong>Douleur provoquée</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-94"><label for="cb-94"><strong>Cadre colique:</strong> Matières palpables</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-95"><label for="cb-95"><strong>Fosse iliaque gauche:</strong> Cordes sigmoïdiennes</label></div><h4 class="sub-section">Percussion</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-96"><label for="cb-96"><strong>Tympanisme</strong> (gaz)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-97"><label for="cb-97"><strong>Matité</strong> (fécalome, masse)</label></div><h3 class="section-title">Examen périnéal et anal ⚠️ INDISPENSABLE</h3><h4 class="sub-section">Inspection au repos</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-98"><label for="cb-98"><strong>Béance anale</strong> (incontinence)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-99"><label for="cb-99"><strong>Prolapsus</strong> extériorisé</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-100"><label for="cb-100"><strong>Lésions cutanées:</strong> Eczéma, mycose</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-101"><label for="cb-101"><strong>Fissure anale</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-102"><label for="cb-102"><strong>Hémorroïdes externes</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-103"><label for="cb-103"><strong>Fistules, suppurations</strong></label></div><h4 class="sub-section">Inspection à la poussée</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-104"><label for="cb-104"><strong>Descente périnéale</strong> excessive</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-105"><label for="cb-105"><strong>Prolapsus rectal</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-106"><label for="cb-106"><strong>Rectocèle antérieure</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-107"><label for="cb-107"><strong>Entérocèle</strong></label></div><h4 class="sub-section">Toucher rectal</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-108"><label for="cb-108"><strong>Tonus sphinctérien:</strong> Normal, hypertonie, hypotonie</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-109"><label for="cb-109"><strong>Contraction volontaire</strong> (testing)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-110"><label for="cb-110"><strong>Ampoule rectale:</strong> Vide, pleine</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-111"><label for="cb-111"><strong>Fécalome</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-112"><label for="cb-112"><strong>Masses</strong> rectales</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-113"><label for="cb-113"><strong>Douleur provoquée</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-114"><label for="cb-114"><strong>Sang</strong> sur doigtier</label></div><h3 class="section-title">Examen neurologique (si indiqué)</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-115"><label for="cb-115"><strong>Réflexes:</strong> Rotuliens, achilléens</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-116"><label for="cb-116"><strong>Sensibilité périnéale</strong> (S2-S4)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-117"><label for="cb-117"><strong>Réflexe anal</strong> (contraction à la piqûre)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-118"><label for="cb-118"><strong>Testing musculaire</strong> membres inférieurs</label></div><h3 class="section-title">Recherche causes endocriniennes</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-119"><label for="cb-119"><strong>Signes d'hypothyroïdie:</strong></label></div>
+  - Bradycardie
+  - Peau sèche
+  - Réflexes lents
+<div class="checkbox-item"><input type="checkbox" id="cb-120"><label for="cb-120"><strong>Signes de diabète:</strong></label></div>
+  - Neuropathie périphérique</p><p>---</p><h2 class="main-section">💊 PRISE EN CHARGE (MANAGEMENT)</h2><h3 class="section-title">1. Examens complémentaires</h3><h4 class="sub-section">1.1 Bilan de première intention</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-121"><label for="cb-121"><strong>NFS</strong> (anémie)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-122"><label for="cb-122"><strong>Glycémie</strong> (diabète)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-123"><label for="cb-123"><strong>TSH</strong> (hypothyroïdie)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-124"><label for="cb-124"><strong>Calcémie</strong> (hypercalcémie)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-125"><label for="cb-125"><strong>Kaliémie</strong> (hypokaliémie)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-126"><label for="cb-126"><strong>Créatinine</strong> (IRC)</label></div><h4 class="sub-section">1.2 Explorations morphologiques</h4><p><strong>Coloscopie:</strong> ⚠️ INDICATIONS
+<div class="checkbox-item"><input type="checkbox" id="cb-127"><label for="cb-127"><strong>Signes d'alarme</strong> présents</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-128"><label for="cb-128"><strong>Âge >50 ans</strong> sans coloscopie récente</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-129"><label for="cb-129"><strong>Modification récente</strong> du transit</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-130"><label for="cb-130"><strong>Échec traitement</strong> bien conduit</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-131"><label for="cb-131"><strong>ATCD familiaux</strong> cancer colorectal</label></div><p><strong>Autres examens:</strong>
+<div class="checkbox-item"><input type="checkbox" id="cb-132"><label for="cb-132"><strong>Rectosigmoïdoscopie</strong> si sujet jeune</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-133"><label for="cb-133"><strong>Lavement baryté</strong> si coloscopie impossible</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-134"><label for="cb-134"><strong>Coloscopie virtuelle</strong> (scanner)</label></div><h4 class="sub-section">1.3 Explorations fonctionnelles (2ème intention)</h4><p><strong>Temps de transit colique:</strong>
+<div class="checkbox-item"><input type="checkbox" id="cb-135"><label for="cb-135"><strong>Pellets radio-opaques</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-136"><label for="cb-136"><strong>ASP à J3 et J6</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-137"><label for="cb-137"><strong>Normal:</strong> <72h</label></div><p><strong>Manométrie anorectale:</strong>
+<div class="checkbox-item"><input type="checkbox" id="cb-138"><label for="cb-138"><strong>Tonus sphinctérien</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-139"><label for="cb-139"><strong>Réflexe recto-anal inhibiteur</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-140"><label for="cb-140"><strong>Sensibilité rectale</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-141"><label for="cb-141"><strong>Compliance rectale</strong></label></div><p><strong>Défécographie:</strong>
+<div class="checkbox-item"><input type="checkbox" id="cb-142"><label for="cb-142"><strong>IRM dynamique</strong> (préférée)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-143"><label for="cb-143"><strong>Radiologique</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-144"><label for="cb-144"><strong>Recherche:</strong> Rectocèle, prolapsus, anisme</label></div><p><strong>Test d'expulsion du ballonnet:</strong>
+<div class="checkbox-item"><input type="checkbox" id="cb-145"><label for="cb-145"><strong>Normal:</strong> <1 minute</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-146"><label for="cb-146"><strong>Anormal:</strong> Dyssynergie anorectale</label></div><h3 class="section-title">2. Traitement de première intention</h3><h4 class="sub-section">2.1 Règles hygiéno-diététiques ⚠️ BASE DU TRAITEMENT</h4><p><strong>Alimentation:</strong>
+<div class="checkbox-item"><input type="checkbox" id="cb-147"><label for="cb-147"><strong>Fibres:</strong> 25-30g/j progressivement</label></div>
+  - Fruits, légumes
+  - Céréales complètes
+  - Son de blé (15-20g/j)
+<div class="checkbox-item"><input type="checkbox" id="cb-148"><label for="cb-148"><strong>Hydratation:</strong> 1,5-2L/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-149"><label for="cb-149"><strong>Repas réguliers</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-150"><label for="cb-150"><strong>Éviter aliments</strong> constipants</label></div><p><strong>Activité physique:</strong>
+<div class="checkbox-item"><input type="checkbox" id="cb-151"><label for="cb-151"><strong>30 min/j</strong> minimum</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-152"><label for="cb-152"><strong>Marche</strong> quotidienne</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-153"><label for="cb-153"><strong>Exercices abdominaux</strong></label></div><p><strong>Éducation défécatoire:</strong>
+<div class="checkbox-item"><input type="checkbox" id="cb-154"><label for="cb-154"><strong>Ne pas retenir</strong> le besoin</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-155"><label for="cb-155"><strong>Horaire régulier</strong> (réflexe gastro-colique post-prandial)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-156"><label for="cb-156"><strong>Position:</strong> Pieds surélevés (squatty potty)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-157"><label for="cb-157"><strong>Temps suffisant</strong> sans forcer</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-158"><label for="cb-158"><strong>Massage abdominal</strong> circulaire</label></div><h4 class="sub-section">2.2 Laxatifs de lest</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-159"><label for="cb-159"><strong>Psyllium</strong> (Spagulax): 1-3 sachets/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-160"><label for="cb-160"><strong>Ispaghul</strong> (Transilane): 1-3 sachets/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-161"><label for="cb-161"><strong>Sterculia</strong> (Normacol): 1-3 sachets/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-162"><label for="cb-162"><strong>Introduction progressive</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-163"><label for="cb-163"><strong>Avec beaucoup d'eau</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-164"><label for="cb-164"><strong>CI:</strong> Sténose, fécalome</label></div><h3 class="section-title">3. Traitement de deuxième intention</h3><h4 class="sub-section">3.1 Laxatifs osmotiques ⚠️ PREMIÈRE LIGNE MÉDICAMENTEUSE</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-165"><label for="cb-165"><strong>Macrogol</strong> (Forlax, Movicol):</label></div>
+  - 1-2 sachets/j
+  - Bien toléré
+  - Utilisation prolongée possible
+<div class="checkbox-item"><input type="checkbox" id="cb-166"><label for="cb-166"><strong>Lactulose</strong> (Duphalac): 15-30 ml/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-167"><label for="cb-167"><strong>Lactitol</strong> (Importal): 10-20g/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-168"><label for="cb-168"><strong>Sorbitol:</strong> 20-30g/j</label></div><h4 class="sub-section">3.2 Laxatifs stimulants (contact)</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-169"><label for="cb-169"><strong>Bisacodyl</strong> (Dulcolax): 5-10 mg/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-170"><label for="cb-170"><strong>Séné</strong> (Pursennide): 1-2 cp/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-171"><label for="cb-171"><strong>Picosulfate</strong> (Fructines): 5-10 gouttes/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-172"><label for="cb-172"><strong>Utilisation ponctuelle</strong> (dépendance)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-173"><label for="cb-173"><strong>Éviter usage chronique</strong> (colopathie)</label></div><h4 class="sub-section">3.3 Laxatifs lubrifiants</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-174"><label for="cb-174"><strong>Paraffine</strong> (Lansoyl): 15-45 ml/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-175"><label for="cb-175"><strong>CI:</strong> Troubles déglutition (pneumopathie huileuse)</label></div><h4 class="sub-section">3.4 Laxatifs rectaux</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-176"><label for="cb-176"><strong>Suppositoires glycérine</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-177"><label for="cb-177"><strong>Microlax:</strong> Microlavements</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-178"><label for="cb-178"><strong>Normacol:</strong> Lavements</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-179"><label for="cb-179"><strong>Usage ponctuel</strong> (<mark class="highlight-critical">urgence</mark>)</label></div><h3 class="section-title">4. Traitements spécifiques</h3><h4 class="sub-section">4.1 Constipation induite par opioïdes</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-180"><label for="cb-180"><strong>Prévention <mark class="highlight-critical">systématique</mark></strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-181"><label for="cb-181"><strong>Laxatifs osmotiques</strong> d'emblée</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-182"><label for="cb-182"><strong>Antagonistes périphériques:</strong></label></div>
+  - Méthylnaltrexone SC
+  - Naloxégol PO</p><h4 class="sub-section">4.2 Syndrome intestin irritable</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-183"><label for="cb-183"><strong>Linaclotide</strong> (Constella): 290 μg/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-184"><label for="cb-184"><strong>Prucalopride</strong> (Resolor): 2 mg/j</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-185"><label for="cb-185"><strong>Antispasmodiques</strong> si douleurs</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-186"><label for="cb-186"><strong>Probiotiques</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-187"><label for="cb-187"><strong>Psychothérapie</strong> si anxiété</label></div><h4 class="sub-section">4.3 Dyssynergie anorectale</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-188"><label for="cb-188"><strong>Rééducation périnéale</strong> (biofeedback)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-189"><label for="cb-189"><strong>Kinésithérapie</strong> spécialisée</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-190"><label for="cb-190"><strong>Toxine botulique</strong> (cas sévères)</label></div><h3 class="section-title">5. Traitement des complications</h3><h4 class="sub-section">5.1 Fécalome</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-191"><label for="cb-191"><strong>Évacuation manuelle</strong> sous sédation</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-192"><label for="cb-192"><strong>Lavements</strong> répétés</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-193"><label for="cb-193"><strong>Laxatifs osmotiques</strong> forte dose</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-194"><label for="cb-194"><strong>Prévention récidive</strong></label></div><h4 class="sub-section">5.2 Pathologie hémorroïdaire</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-195"><label for="cb-195"><strong>Traitement médical</strong> (veinotoniques, topiques)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-196"><label for="cb-196"><strong>Régularisation transit</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-197"><label for="cb-197"><strong>Traitement instrumental/chirurgical</strong> si échec</label></div><h3 class="section-title">6. Cas particuliers</h3><h4 class="sub-section">6.1 Grossesse</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-198"><label for="cb-198"><strong>Mesures hygiéno-diététiques</strong> +++</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-199"><label for="cb-199"><strong>Laxatifs de lest</strong> autorisés</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-200"><label for="cb-200"><strong>Macrogol</strong> si insuffisant</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-201"><label for="cb-201"><strong>Éviter stimulants</strong></label></div><h4 class="sub-section">6.2 Enfant</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-202"><label for="cb-202"><strong>Désimpaction</strong> si fécalome</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-203"><label for="cb-203"><strong>Macrogol</strong> adapté au poids</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-204"><label for="cb-204"><strong>Éducation</strong> toilettes</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-205"><label for="cb-205"><strong>Prise en charge</strong> encoprésie</label></div><h4 class="sub-section">6.3 Personne âgée</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-206"><label for="cb-206"><strong>Rechercher iatrogénie</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-207"><label for="cb-207"><strong>Mobilisation</strong> +++</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-208"><label for="cb-208"><strong>Hydratation</strong> surveillée</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-209"><label for="cb-209"><strong>Laxatifs osmotiques</strong> privilégiés</label></div><h3 class="section-title">7. Surveillance</h3><h4 class="sub-section">Efficacité traitement</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-210"><label for="cb-210"><strong>Fréquence selles</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-211"><label for="cb-211"><strong>Consistance</strong> (échelle Bristol)</label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-212"><label for="cb-212"><strong>Effort défécation</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-213"><label for="cb-213"><strong>Qualité de vie</strong></label></div><h4 class="sub-section">Tolérance</h4>
+<div class="checkbox-item"><input type="checkbox" id="cb-214"><label for="cb-214"><strong>Douleurs abdominales</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-215"><label for="cb-215"><strong>Ballonnements</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-216"><label for="cb-216"><strong>Diarrhée</strong> (surdosage)</label></div><h3 class="section-title">8. Prévention</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-217"><label for="cb-217"><strong>Maintien activité physique</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-218"><label for="cb-218"><strong>Alimentation équilibrée</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-219"><label for="cb-219"><strong>Hydratation suffisante</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-220"><label for="cb-220"><strong>Gestion stress</strong></label></div>
+<div class="checkbox-item"><input type="checkbox" id="cb-221"><label for="cb-221"><strong>Révision médicaments</strong></label></div><h3 class="section-title">9. Critères d'orientation spécialisée</h3>
+<div class="checkbox-item"><input type="checkbox" id="cb-222"><label for="cb-222"><strong>Gastro-entérologue:</strong></label></div>
+  - Signes d'alarme
+  - Échec traitement 3 mois
+  - Explorations fonctionnelles
+<div class="checkbox-item"><input type="checkbox" id="cb-223"><label for="cb-223"><strong>Proctologue:</strong></label></div>
+  - Pathologie anorectale
+  - Troubles statique pelvienne
+<div class="checkbox-item"><input type="checkbox" id="cb-224"><label for="cb-224"><strong>Chirurgien:</strong></label></div>
+  - Complications
+  - Colectomie (cas extrêmes)</p><p>---</p><h2 class="main-section">📌 POINTS CLÉS POUR L'EXAMEN</h2><h3 class="section-title">✅ À faire absolument</h3>
+1. <strong>Rechercher signes d'alarme</strong> (cancer++)
+2. <strong>Toucher rectal</strong> <mark class="highlight-critical">systématique</mark>
+3. <strong>Réviser médicaments</strong> (iatrogénie fréquente)
+4. <strong>RHD avant laxatifs</strong>
+5. <strong>Coloscopie si >50 ans</strong> ou signes d'alarme
+6. <strong>Laxatifs osmotiques</strong> en 1ère ligne médicamenteuse</p><h3 class="section-title">❌ Pièges à éviter</h3>
+1. <strong>Laxatifs stimulants</strong> chroniques (dépendance)
+2. <strong>Négliger cancer</strong> après 50 ans
+3. <strong>Oublier hypothyroïdie</strong> (TSH)
+4. <strong>Laxatifs de lest</strong> si sténose
+5. <strong>Forcer</strong> sur fécalome (perforation)</p><h3 class="section-title">💡 Astuces mnémotechniques</h3>
+<ul class="content-list">
+<li><strong>Rome IV:</strong> <strong>3</strong> selles/semaine, <strong>3</strong> mois de symptômes</li>
+<li><strong>Signes d'alarme:</strong> <strong>S</strong>ang, <strong>A</strong>maigrissement, <strong>M</strong>odification récente, <strong>Â</strong>ge >50 (SAMÂ)</li>
+<li><strong>Causes métaboliques:</strong> <strong>H</strong>ypothyroïdie, <strong>H</strong>ypercalcémie, <strong>H</strong>ypokaliémie, <strong>D</strong>iabète (HHHD)</li>
+<li><strong>Ordre laxatifs:</strong> <strong>L</strong>est, <strong>O</strong>smotiques, <strong>S</strong>timulants (LOS)</li>
+</ul><p>---</p><h2 class="main-section">📚 RÉFÉRENCES</h2>
+<ul class="content-list">
+<li>Constipation chronique - SNFGE 2021</li>
+<li>Critères de Rome IV - 2016</li>
+<li>Grilles d'évaluation ECOS officielles</li>
+</ul><p>---</p><p><em>Dernière mise à jour: Août 2024</em></p><h2 class="main-section">🔬 Enrichissement depuis les cours de gastroentérologie</h2><p><em>Mis à jour le 2025-08-14</em></p><h3 class="section-title">Approche clinique complémentaire</h3><ul class="content-list">
+<li>Absence de pathologie ‘’organique’’ (structural disease)/métabolique expliquant les symptômes aux investigations de routine y compris après gastroscopie *Symptômes assez sévères pour impacter la qualité de vie Postprandial Distress Syndrome</li>
+<li>Sémiologie gastro-intestinale Symptômes de troubles digestifs: investigation des douleurs abdominales Cours B3.8 Skills Dre Jeanine Wakim El-Khoury</li>
+<li>Rappel Indication de coloscopie en cas de symptômes: -Bilan de diarrhées chroniques ou intermittentes -Bilan d’anémie ferriprive</li>
+</ul><h3 class="section-title">Techniques d'examen spécifiques</h3><ul class="content-list">
+<li>sur corps étranger, fonctionnel abdomen douloureux dans son ensemble, tympanique à la percussion, silence  auscultatoire ou bruit métalloïdes, possible péritonisme (en particulier) si  perforation</li>
+<li>Iléus paralytique: secondaire à des pathologies abdominales/métaboliques Abdomen douloureux dans son ensemble, tympanique à la percussion,  silence auscultatoire/bruits métalloïdes +/- péritonisme si perforation Possible syndrome inflammatoire (selon étiologie et complications)</li>
+<li>impérieux d’uriner. A l’examen clinique une matité  à la percussion et des douleurs à la pression, évt.  une voussure suspubienne.  Globe vésical</li>
+</ul><h3 class="section-title"><span class="red-flag">⚠️ <mark class="highlight-critical">Red Flags</mark></span> additionnels</h3><ul class="content-list">
+<li>pathologie menaçant le pronostic <mark class="highlight-critical">vital</mark> à court terme Péritonite aiguë Souvent en lien avec une perforation digestive Appendicite, diverticulite, colite, ulcère gastro-duodénal perforé</li>
+<li>Vignette clinique: douleur hypochondre droit Une patiente obèse de 55 ans est admise aux urgences devant une  douleur abdominale intense de survenue brutale de  l’hypochondre droit depuis 12 heures avec nausées,</li>
+<li>• Signes d’alarme (<mark class="highlight-critical">Red Flags</mark>) • Retentissement: activités de la vie quotidienne/qualité de vie/sommeil</li>
+</ul><h3 class="section-title">Diagnostics différentiels détaillés</h3><ul class="content-list">
+<li>Contenu 1. Diagnostics différentiels 2. Douleurs abdominales: comment les caractériser? 3. Vignettes cliniques: comment les explorer? 4. Situations urgentes: comment ne rien rater?</li>
+<li>-Indication à une cholécystectomie chirurgicale en prévention 2aire Autres DD digestifs:  appendicite rétro-hépatique, colite droite/transverse -> pas d’ictère</li>
+<li>Diagnostics différentiels: douleur abdominale Pathophysiologie Anatomie Vascular Infectious</li>
+</ul><p>#
+<div class="ecos-key-points">
+    <div class="ecos-key-points-header">
+        <span class="ecos-icon">🎯</span>
+        <h2>Points Clés pour l'ECOS</h2>
+    </div>
+    <div class="ecos-key-points-content">
+        ## 📌 Points clés pour l'ECOS</p><ul class="content-list">
+<li>Vignette clinique: douleur hypochondre droit Examens radiologiques: -US et cholangio-IRM >> CT-scanner</li>
+<li>Altération de l’état général Examens complémentaires:  •</li>
+<li>antibiothérapie récente, parasitologie selon contexte Autre examen complémentaire?</li>
+</ul><p>    </div>
+</div>
+<h2 class="main-section">👶 Enrichissement depuis les cours de pédiatrie</h2><p><em>Mis à jour le 2025-08-14</em></p><h3 class="section-title">Techniques d'examen pédiatriques</h3><ul class="content-list">
+<li>f. abdominal  i. auscultation  ii. palpation superficielle et profonde (palper foie, rate)  iii. cordon</li>
+<li>Examen du nouveau-né  -  Cf vidéo « examen du nouveau-né » sur Moodle</li>
+<li>-  examen <mark class="highlight-critical">systématique</mark> laisse passer qq h (min 6h), ds 1ères 24h de vie (sage-femmes,  et pédiatre après 48h pour adaptation cardio-pulm soit mise en place)  -</li>
+</ul><h3 class="section-title">🔍 Signes cliniques spécifiques</h3><ul class="content-list">
+<li>3 mois à 3 ans: si température > 39°C ou plus de 72h ad bilan DD fièvre prolongée sans signe infectieux Kawasaki</li>
+<li>(tachypnée sans wheezing),  une toux +/- de la fièvre Tachypnée <1 an >50/min; >1 an >40/min, sur 1 minute Sévérité surtout selon détresse respiratoire et l’état général</li>
+<li>douloureuse • La fièvre • Les réactions allergiques • Les dosages</li>
+</ul><h3 class="section-title">📈 Étapes développementales</h3><ul class="content-list">
+<li>VERRUE : excroissance  kératinisée due au papilloma virus, parfois douloureuse.</li>
+<li>o expliquer ce qu’on fait/va faire  4) paramètres de croissance  o taille, poids, périmètre crânien (jusqu’à 3 ans)  o place sur courbes pour détecter le couloir de cr</li>
+<li>Questions «Pourquoi ? et «Où»  Langage compréhensible pour des tiers Dit «JE » Questionne sur des personnes absentes</li>
+</ul><h3 class="section-title">🎯 Diagnostic différentiel approfondi</h3><ul class="content-list">
+<li>CONSTIPATION : cause fréquente de  douleur abdominale chronique Signes d’alerte: douleur non périombilicale ou nocturne,</li>
+<li>fébrifuges, pas forcément de traitement de R. Toutes autres  causes ad hospitalisation et contrôle par neuropédiatre.</li>
+<li>20min; >1an Phénytoïne IV 15-20mg/kg sur 20min Identifier et traiter la cause : convulsions fébriles simples  fébrifuges, pas forcément de traitement de R. Toutes autres  causes ad hospitalisation et contrôle par neuropédiatre.</li>
+</ul><h3 class="section-title"><span class="red-flag">⚠️ <mark class="highlight-critical">Red Flags</mark></span> pédiatriques</h3><ul class="content-list">
+<li>CONVULSIONS:  Assurer les fonctions vitales Arrêter la crise :</li>
+<li>si l’enfant refuse de boire ou vomit ce qu’il boit, appelez le pédiatre en <mark class="highlight-critical">urgence</mark>. S’il urine peu (moins d’une fois par 8 heures) et qu’il est trop calme, si l’enfant est en mauvais état général ou qu’il a beaucoup de</li>
+<li>30 Urgences Convulsion  Votre enfant est tombé: Il est sans réaction et respire bruyamment;</li>
+</ul><p>#
+<div class="ecos-key-points">
+    <div class="ecos-key-points-header">
+        <span class="ecos-icon">🎯</span>
+        <h2>Points Clés pour l'ECOS</h2>
+    </div>
+    <div class="ecos-key-points-content">
+        ## 📌 Points clés pour l'ECOS</p><ul class="content-list">
+<li>photophobie, raideur de nuque Chez le nourrisson: moins clair, somnolence plus importante, peu  calmable, fontanelle bombée</li>
+<li>7 2. Il est aussi important de donner souvent à boire à votre enfant.  S’il est encore allaité, votre lait, sinon, de l’eau, des tisanes ou des</li>
+<li>si l’enfant est en mauvais état général ou qu’il a beaucoup de  ﬁèvre, même si les diarrhées sont peu importantes, appelez le 144.</li>
+</ul><p>    </div>
+</div>
+<h2 class="main-section">📚 Enrichissement Généralisme I</h2><p><em>Ajouté le 2025-08-14</em></p><h3 class="section-title">🔑 Concepts clés</h3>
+<ul class="content-list">
+<li>Prévention</li>
+</ul><h3 class="section-title">🩺 Signes cliniques associés</h3>
+<ul class="content-list">
+<li>Anamnèse</li>
+<li>Plainte</li>
+<li>Signe</li>
+<li>Symptôme</li>
+</ul><h3 class="section-title">🔬 Techniques d'évaluation</h3>
+<ul class="content-list">
+<li>Bilan</li>
+<li>Examen clinique</li>
+<li>Score</li>
+<li>Test</li>
+<li>Évaluation</li>
+</ul><h3 class="section-title">⚠️ <mark class="highlight-critical">Drapeaux rouges</mark></h3>
+<ul class="content-list">
+<li>Danger</li>
+<li><mark class="highlight-critical">Drapeau rouge</mark></li>
+<li><mark class="highlight-critical">Grave</mark></li>
+<li>Risque</li>
+<li><mark class="highlight-critical">Urgence</mark></li>
+</ul><h3 class="section-title">💊 Prise en charge</h3>
+<ul class="content-list">
+<li>Prise en charge</li>
+<li>Suivi</li>
+<li>Traitement</li>
+</ul><h3 class="section-title">🏥 Pathologies associées</h3>
+<ul class="content-list">
+<li>Anémie</li>
+<li>Cancer</li>
+<li>Diabète</li>
+<li>Douleur</li>
+<li>Démence</li>
+<li>Dépression</li>
+</ul><h3 class="section-title">📖 Sources</h3>
+<em>Cours Généralisme I analysés:</em>
+<ul class="content-list">
+<li>Drapeaux rouges_Staeger.pdf</li>
+<li>VIgnette Intermed douleurs abdominales_Castioni.pdf</li>
+<li>Désordres acidobasiques_Vollenweider.pdf</li>
+<li>Causes endocriniennes de la fatigue_Waeber.pdf</li>
+<li>Vignette Intermed diarrhées_Castioni.pdf</li>
+</ul><h2 class="main-section">🏥 Enrichissement Cas Cliniques</h2><p><em>Ajouté le 2025-08-14</em></p><h3 class="section-title">📚 Approche clinique</h3>
+<ul class="content-list">
+<li>Anamnèse</li>
+<li>Diagnostic</li>
+<li>Examen</li>
+<li>Présentation</li>
+<li>Traitement</li>
+<li>Évolution</li>
+</ul><h3 class="section-title">🔍 Signes cliniques fréquents</h3>
+<ul class="content-list">
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Fatigue</li>
+<li>Fièvre</li>
+<li>Malaise</li>
+</ul><h3 class="section-title">🩺 Techniques d'examen</h3>
+<ul class="content-list">
+<li>Mobilisation</li>
+<li>Palpation</li>
+<li>Percussion</li>
+</ul><h3 class="section-title">🎯 Approche diagnostique</h3>
+<ul class="content-list">
+<li>Diagnostic différentiel</li>
+</ul><h3 class="section-title">🚨 Points de vigilance</h3>
+<ul class="content-list">
+<li><strong>Hémorragie</strong></li>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+</ul><h3 class="section-title">💊 Stratégie thérapeutique</h3>
+<ul class="content-list">
+<li>Hospitalisation</li>
+<li>Suivi</li>
+<li>Traitement</li>
+</ul><h3 class="section-title">🏥 Pathologies associées</h3>
+<ul class="content-list">
+<li>Infection</li>
+<li>Insuffisance</li>
+<li>Thrombose</li>
+<li>Tumeur</li>
+</ul><h3 class="section-title">📖 Sources Cas Cliniques</h3>
+<em>Documents analysés:</em>
+<ul class="content-list">
+<li>230208_Dr, j’ai mal à la tête et à la gorge.pdf</li>
+</ul><h2 class="main-section">📝 Enrichissement Anamnèse/Status</h2><p><em>Ajouté le 2025-08-14</em></p><h3 class="section-title">📋 Compétences anamnèse</h3>
+<ul class="content-list">
+<li>Début</li>
+<li>Histoire</li>
+<li>Plainte</li>
+<li>Symptôme</li>
+<li>Symptômes</li>
+</ul><h3 class="section-title">🔍 Techniques d'examen</h3>
+<ul class="content-list">
+<li>Auscultation</li>
+<li>Inspection</li>
+<li>Mobilisation</li>
+<li>Palpation</li>
+<li>Percussion</li>
+</ul><h3 class="section-title">💬 Communication clinique</h3>
+<ul class="content-list">
+<li>Empathie</li>
+<li>Explication</li>
+<li>Question</li>
+<li>Questions</li>
+<li>Écoute</li>
+</ul><h3 class="section-title">🩺 Signes cliniques</h3>
+<ul class="content-list">
+<li>Cyanose</li>
+<li>Douleur</li>
+<li>Dyspnée</li>
+<li>Fatigue</li>
+<li>Fièvre</li>
+<li>Ictère</li>
+<li>Pâleur</li>
+<li>Œdème</li>
+</ul><h3 class="section-title">🔧 Méthodes cliniques</h3>
+<ul class="content-list">
+<li>Auscultation</li>
+<li>Inspection</li>
+<li>Manœuvre</li>
+<li>Palpation</li>
+<li>Percussion</li>
+</ul><h3 class="section-title">🎯 Approche diagnostique</h3>
+<ul class="content-list">
+<li>Diagnostic </li>
+</ul>
+différentiel
+<ul class="content-list">
+<li>Diagnostic différentiel</li>
+<li>Hypothèse</li>
+<li>Éliminer</li>
+<li>Évoquer</li>
+</ul><h3 class="section-title">🚨 Points de vigilance</h3>
+<ul class="content-list">
+<li><strong>Alarme</strong></li>
+<li><strong><mark class="highlight-critical">Critique</mark></strong></li>
+<li><strong>Danger</strong></li>
+<li><strong><mark class="highlight-critical">Grave</mark></strong></li>
+<li><strong><mark class="highlight-critical">Immédiat</mark></strong></li>
+<li><strong><mark class="highlight-critical">Urgence</mark></strong></li>
+</ul><h3 class="section-title">💊 Prise en charge</h3>
+<ul class="content-list">
+<li>Orientation</li>
+<li>Prise en </li>
+</ul>
+charge
+<ul class="content-list">
+<li>Prise en charge</li>
+<li>Surveillance</li>
+<li>Traitement</li>
+</ul><h3 class="section-title">📚 Concepts clés</h3>
+<ul class="content-list">
+<li>Anamnèse</li>
+<li>Communication</li>
+<li>Compétence</li>
+<li>Diagnostic</li>
+<li>Examen</li>
+</ul><h3 class="section-title">🏥 Pathologies courantes</h3>
+<ul class="content-list">
+<li>Asthme</li>
+<li>Diabète</li>
+<li>Dépression</li>
+<li>Hypertension</li>
+<li>Infarctus</li>
+<li>Pneumonie</li>
+</ul><h3 class="section-title">📖 Sources Anamnèse/Status</h3>
+<em>Résumés analysés:</em>
+<ul class="content-list">
+<li>USMLE CS - Anamnèse et Status.pdf</li>
+<li>Résumé_ECOS-3.pdf</li>
+<li>Résumé skills cliniques-1.pdf</li>
+<li>Résumé_ECOS-2.pdf</li>
+<li>Résumé skills cliniques-3.pdf</li>
+</ul>
+        </div>
+    </div>
+    
+    <div class="progress-bar">
+        <div class="progress-text">Progression: <span id="percentage">0%</span></div>
+        <div class="progress-track">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Timer functionality
+        let seconds = 0;
+        let timerInterval;
+        
+        function updateTimer() {
+            seconds++;
+            const minutes = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            document.getElementById('timer').textContent = 
+                `⏱️ ${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+        
+        function startTimer() {
+            timerInterval = setInterval(updateTimer, 1000);
+        }
+        
+        // Progress tracking
+        function updateProgress() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const checkedCount = document.querySelectorAll('input[type="checkbox"]:checked').length;
+            const totalCount = checkboxes.length;
+            
+            if (totalCount > 0) {
+                const percentage = Math.round((checkedCount / totalCount) * 100);
+                document.getElementById('percentage').textContent = percentage + '%';
+                document.getElementById('progress-fill').style.width = percentage + '%';
+                
+                if (percentage === 100) {
+                    celebrate();
+                }
+            }
+        }
+        
+        function resetProgress() {
+            if (confirm('Voulez-vous vraiment réinitialiser votre progression ?')) {
+                document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                    cb.checked = false;
+                });
+                updateProgress();
+                seconds = 0;
+                updateTimer();
+                localStorage.removeItem('fiche_SSP_Constipation.md_progress');
+            }
+        }
+        
+        function saveProgress() {
+            const checkboxStates = {};
+            document.querySelectorAll('input[type="checkbox"]').forEach((cb, index) => {
+                checkboxStates[index] = cb.checked;
+            });
+            localStorage.setItem('fiche_SSP_Constipation.md_progress', JSON.stringify({
+                checkboxes: checkboxStates,
+                time: seconds
+            }));
+        }
+        
+        function loadProgress() {
+            const saved = localStorage.getItem('fiche_SSP_Constipation.md_progress');
+            if (saved) {
+                const data = JSON.parse(saved);
+                seconds = data.time || 0;
+                updateTimer();
+                
+                document.querySelectorAll('input[type="checkbox"]').forEach((cb, index) => {
+                    if (data.checkboxes[index]) {
+                        cb.checked = true;
+                    }
+                });
+                updateProgress();
+            }
+        }
+        
+        function celebrate() {
+            const celebration = document.createElement('div');
+            celebration.innerHTML = '🎉 Félicitations! Fiche complétée! 🎉';
+            celebration.style.cssText = `
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: var(--ecos-gradient);
+                color: white;
+                padding: 30px 50px;
+                border-radius: 20px;
+                font-size: 1.5em;
+                font-weight: bold;
+                z-index: 2000;
+                animation: celebrate 2s ease-out;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            `;
+            document.body.appendChild(celebration);
+            
+            setTimeout(() => {
+                celebration.remove();
+            }, 3000);
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProgress();
+            startTimer();
+            
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                cb.addEventListener('change', function() {
+                    updateProgress();
+                    saveProgress();
+                });
+            });
+            
+            setInterval(saveProgress, 10000);
+        });
+        
+        window.addEventListener('beforeunload', saveProgress);
+    </script>
+</body>
+</html>

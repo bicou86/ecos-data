@@ -1,0 +1,1985 @@
+Arythmies 2025
+Pr Hervé Zender
+Médecin chef de service
+Service de médecine interne
+Département de médecine
+Réseau hospitalier neuchâtelois –
+La Chaux-de-Fonds
+Médecin cadre
+Service des soins intensifs
+Département de médecine
+Réseau hospitalier neuchâtelois –
+Pourtalès (Neuchâtel)
+Médecin consultant
+Service des soins intensifs
+Département médecine aiguë
+Hôpitaux universitaires de Genève
+Professeur titulaire
+Faculté de médecine de Genève
+
+1
+
+Arythmies
+
+2
+
+Arythmies
+Le rythme sinusal régulier (RSR) est caractérisé par:
+
+- Un rythme régulier entre 60/min et 100/min (possibles
+variations du rythme liées à la respiration).
+- Chaque onde P est suivie d'un complexe QRS et
+chaque complexe QRS est précédé d'une onde P.
+- La morphologie ainsi que l'axe des ondes P est
+physiologique (l'onde P est positive dans toutes les
+dérivations frontales sauf aVR).
+Rappel: l’activité du nœud sinusal n’est pas visible sur
+l’ECG.
+3
+
+Arythmies
+Classification:
+
+Classification schématique des principales arythmies:
+- Arythmies à fréquence cardiaque normale (arythmie
+sinusale, rythme atrial accéléré, RIVA...)
+- Bradyarythmies
+- Tachyarythmies supraventriculaires
+
+- Tachyarythmies ventriculaires
+
+4
+
+Arythmies
+Classification:
+
+Classification schématique des principales arythmies:
+- Bradyarythmies:
+Bradycardie sinusale et
+bradycardie non sinusale)
+
+variantes
+
+(dont
+
+la
+
+Blocs: sinoauriculaires et atrioventriculaires
+
+Asystolie
+
+5
+
+Arythmies
+Classification:
+
+Classification schématique des principales arythmies:
+- Tachyarythmies supraventriculaires (TSV):
+Tachyarythmies à l'étage atrial (dont la
+tachycardie sinusale, la tachycardie auriculaire, la
+tachycardie auriculaire multifocale, le flutter
+auriculaire, la fibrillation auriculaire)
+Tachyarythmies à l'étage nodal (dont l'AVNRT,
+l'AVRT, la JET)
+6
+
+Arythmies
+Classification:
+
+Classification schématique des principales arythmies:
+- Tachyarythmies supraventriculaires (TSV):
+On peut aussi séparer les TSV en fonction du
+mécanisme de l'arythmie:
+Point(s) focal(aux) déchargeant (dont la
+tachycardie sinusale, la tachycardie auriculaire, la
+JET, la tachycardie auriculaire multifocale)
+Boucle(s) électrique(s) (dont l’AVNRT, l’AVRT, le
+flutter auriculaire, la fibrillation auriculaire)
+7
+
+Arythmies
+Classification:
+
+Classification schématique des principales arythmies:
+- Tachyarythmies ventriculaires:
+Tachycardie ventriculaire et variantes (dont la
+torsade de pointes)
+Fibrillation ventriculaire
+
+8
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+Classification "simplifiée" des principales arythmies:
+- Bradyarythmies
+- Tachyarythmies supraventriculaires
+
+- Tachyarythmies ventriculaires
+
+9
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+Bradycardie sinusale
+fréquence < 60/min)
+
+(BS,
+
+idem
+
+RSR
+
+hormis
+
+10
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+Bradycardie non sinusale (ou jonctionnelle,
+bradyarythmie régulière habituellement sans ondes P
+et avec des complexes QRS fins)
+
+11
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+Bloc sinoauriculaire (BSA) du premier, du deuxième
+et du troisième degré, pas discutés ici, cf. document
+« word »
+
+12
+
+Arythmies
+
+BSA
+
+13
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+Pauses sinusales (sans critères de BSA)
+
+14
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+Intervalle PR/PQ prolongé ou bloc atrioventriculaire
+(BAV) du premier degré (intervalles PR/PQ > 0,2 s),
+autant d’ondes P que de complexes QRS
+
+15
+
+Arythmies
+
+BAV
+
+16
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+BAV du deuxième degré Mobitz de type 1 Wenckebach
+(allongement progressif de l'intervalle PR/PQ [les
+complexes QRS eux se rapprochent] suivi d'une onde
+P non conduite donc pas suivie d’un complexe QRS);
+peu de risque d’évoluer en BAV complet (sauf si
+complexes QRS larges concomitants)
+
+17
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+BAV du deuxième degré Mobitz de type 2 (onde P
+occasionnellement non conduite donc pas suivie d’un
+complexe QRS, sans allongement de l'intervalle
+PR/PQ, souvent avec des complexes QRS larges,
+BBG plus fréquent que BBD); environ 50% d’évolution
+en BAV complet
+
+18
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+BAV du deuxième degré 2:1 (PQRST-P-PQRST-P…)
+avec bloc nodal (complexes QRS plus fréquemment
+fins, intervalles PR/PQ habituellement > 0,3 s) ou
+bloc infra-nodal (complexes QRS plus fréquemment
+larges, intervalles PR/PQ habituellement < 0,16 s) à
+plus haut risque d’évoluer en BAV complet
+
+19
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+BAV de haut grade si > 2 ondes P non suivies d'un
+complexe QRS (3:1, 4:1, etc.) à haut risque d’évoluer
+en BAV complet
+
+20
+
+Arythmies
+BAV de haut grade (3:1 puis 2:1)
+
+21
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+BAV complet ou du troisième degré (dissociation des
+ondes P et des complexes QRS soit fins avec
+fréquence des complexes QRS habituellement >
+40/min, soit larges avec rythme d'échappement nodal
+bas ou ventriculaire régulier et fréquence des
+complexes QRS habituellement < 40/min)
+
+22
+
+Arythmies
+BAV complet ou du troisième degré
+
+23
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Bradyarythmies:
+(Asystolie, pas dans la liste des diagnostics du JACC,
+plutôt absence de rythme qu’arythmie avec absence
+de complexes QRS donc mécaniquement inefficace)
+
+24
+
+Arythmies
+Diagnostic différentiel (DD) des bradyarythmies
+(simplifié):
+- Compter les ondes P et les complexes QRS:
+
+- Si même nombre (et morphologie des ondes P
+typique): BS.
+
+25
+
+Arythmies
+Diagnostic différentiel (DD) des bradyarythmies
+(simplifié):
+- Compter les ondes P et les complexes QRS:
+
+- Si plus d'ondes P que de complexes QRS:
+regarder l’intervalle PR/PQ:
+- Si fixe: BAV-II Mobitz type 2 > BAV-II 2:1
+(PQRST-P-PQRST-P…) ou BAV de haut grade.
+
+26
+
+Arythmies
+Diagnostic différentiel (DD) des bradyarythmies
+(simplifié):
+- Compter les ondes P et les complexes QRS:
+
+- Si plus d'ondes P que de complexes QRS:
+regarder l’intervalle PR/PQ: (suite)
+- Si variable: BAV-II Mobitz type 1 (allongement
+progressif, intervalles RR variables) > BAV-III
+(dissociation
+complète,
+intervalles
+RR
+constants).
+27
+
+Arythmies
+Diagnostic différentiel (DD) des bradyarythmies
+(simplifié):
+- Si absence d'ondes P et rythme régulier:
+
+- Bradycardie non sinusale (jonctionnelle) > BSA-III.
+- Penser à une FA lente si totalement irrégulier.
+
+28
+
+Arythmies
+Diagnostic différentiel (DD) des bradyarythmies
+(simplifié):
+NB. Si irrégularité des PQRST avec impression d'une
+"carence" occasionnelle d’un PQRST, penser aux BSA
+(mesurer les intervalles PP)…
+
+29
+
+Arythmies
+
+30
+
+Arythmies
+Exemples
+Bradyarythmies !
+
+31
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies supraventriculaires ou tachycardies
+supraventriculaires (TSV):
+Tachycardie sinusale
+fréquence > 100/min)
+
+(TS,
+
+idem
+
+RSR
+
+hormis
+
+Autres tachycardies sinusales (inappropriée, par
+réentrée) pas discutées ici, cf. document « word »
+
+32
+
+Arythmies
+
+TS
+
+33
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies supraventriculaires (TSV):
+Tachycardie auriculaire (ou tachycardie atriale, TA)
+tachyarythmie habituellement régulière avec des
+ondes P atypiques; rare mécanisme de réentrée
+pouvant répondre à une cardioversion électrique
+
+34
+
+Arythmies
+
+TA
+
+35
+
+Arythmies
+Tachycardie ectopique auriculaire unifocale (OD)
+
+36
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies supraventriculaires (TSV):
+Tachycardie auriculaire multifocale (multifocal atrial
+tachycardia ou MAT) tachyarythmie irrégulière avec
+au moins 3 morphologies différentes des ondes P et
+intervalles PR/PQ variables; surtout c/o COPD avec
+HTP
+
+37
+
+Arythmies
+
+MAT
+
+38
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies supraventriculaires (TSV):
+Tachycardie ectopique jonctionnelle (junctional ectopic
+tachycardia ou JET) tachyarythmie régulière sans
+ondes P et habituellement sans ondes P’ rétrogrades
+visibles (rare, habituellement diagnostic d’exclusion)
+
+39
+
+Arythmies
+
+JET
+
+40
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies supraventriculaires (TSV):
+TSV avec micro-réentrée nodale (atrioventricular
+nodal reentrant/reciprocating tachycardia ou AVNRT),
+tachyarythmie régulière parfois avec des ondes P’
+rétrogrades visibles juste à la fin des complexes QRS
+surtout en DII/DIII/aVF (pseudo s) et/ou en V1 (pseudo
+r’)
+
+41
+
+Arythmies
+
+AVNRT
+
+42
+
+Arythmies
+Tachycardie supraventriculaire de type AVNRT
+
+43
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies supraventriculaires (TSV):
+TSV avec macro-réentrée par un faisceau accessoire
+(atrioventricular reentrant/reciprocating tachycardia
+ou AVRT), tachyarythmie régulière habituellement
+avec des ondes P’ rétrogrades visibles à distance des
+complexes QRS dans les segments ST (surtout
+visible en DII/DIII/aVF et/ou en V1)…
+
+44
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies supraventriculaires (TSV):
+AVRT… QRS fins si conduction orthodromique,
+descendant par le nœud atrioventriculaire et
+remontant par le faisceau accessoire (QRS large si
+conduction antidromique, descendant par le faisceau
+accessoire
+et
+remontant
+par
+le
+nœud
+atrioventriculaire)
+
+45
+
+Arythmies
+
+AVRT
+
+46
+
+Arythmies
+Tachycardie supraventriculaire de type AVRT
+
+P/
+
+47
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies supraventriculaires (TSV):
+Flutter auriculaire typique avec macro-réentrée
+dépendante de l'isthme cavo-tricuspidien et tournant
+autour de l'anneau tricuspide: tachyarythmie
+habituellement régulière avec des ondes P souvent à
+300/min et habituellement des complexes QRS à
+150/min signant une conduction 2:1…
+
+48
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies supraventriculaires (TSV):
+Flutter auriculaire antihoraire avec des ondes P
+négatives en dents de scie en DII et positives en V1
+(c/o 90%)
+Autres flutters auriculaires pas discutés ici, cf.
+document « word »
+
+49
+
+Arythmies
+
+Flutter auriculaire
+
+50
+
+Arythmies
+Flutter auriculaire antihoraire typique (freiné)
+
+51
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies supraventriculaires (TSV):
+Fibrillation auriculaire (FA, multiples micro-réentrées
+dans les 2 oreillettes, gauche > droite), tachyarythmie
+irrégulière
+
+52
+
+Arythmies
+
+FA
+
+53
+
+Arythmies
+Fibrillation auriculaire (freinée)
+
+54
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies ventriculaires:
+Tachycardie ventriculaire (TV) monomorphe (ou
+unifocale, habituellement régulière) ou polymorphe
+(ou multifocale, irrégulière)
+
+55
+
+Arythmies
+
+TV
+
+56
+
+Arythmies
+Tachycardie ventriculaire monomorphe
+
+57
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies ventriculaires:
+Torsade de pointes (TdP, forme de TV polymorphe
+irrégulière)
+
+58
+
+Arythmies
+Torsade de pointes
+
+59
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies ventriculaires:
+(Flutter ventriculaire, pas dans la liste des diagnostics
+du JACC, TV monomorphe régulière à > 250-300/min
+avec des complexes QRS soudés sans segments
+isoélectriques)
+
+60
+
+Arythmies
+Flutter ventriculaire
+
+61
+
+Arythmies
+Classification: [J Am Coll Cardiol 2007; 49: 1128-35]
+
+- Tachyarythmies ventriculaires:
+Fibrillation ventriculaire (FV), tachyarythmie
+irrégulière mécaniquement inefficace, souvent à ≥
+300/min
+
+62
+
+Arythmies
+
+FV
+
+63
+
+Arythmies
+Fibrillation ventriculaire
+
+64
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+
+Taille des complexes QRS: larges ( 120 ms) versus fins.
+- Si complexes
+monomorphes:
+
+QRS
+
+larges:
+
+polymorphes
+
+versus
+
+- Si complexes QRS larges et polymorphes:
+TV polymorphe > TdP: cf. plus loin…
+(si très irrégulier: FA + BBD / BBG = situation la plus
+fréquente)
+
+65
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+
+Taille des complexes QRS: larges ( 120 ms) versus fins.
+- Si complexes
+monomorphes:
+
+QRS
+
+larges:
+
+polymorphes
+
+versus
+
+- Si complexes QRS larges et monomorphes:
+TV > tachyarythmie supraventriculaire + BBD / BBG >
+AVRT à conduction antidromique...: cf. plus loin…
+
+66
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+
+- Si complexes QRS fins: irréguliers versus réguliers:
+- Si complexes QRS fins et irréguliers: présence
+d'ondes P typiques avant les complexes QRS ?:
+- Si complexes QRS fins irréguliers sans ondes P
+typiques avant les complexes QRS:
+FA > flutter auriculaire à conduction irrégulière >
+autre TSV à conduction irrégulière.
+
+67
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+
+- Si complexes QRS fins: irréguliers versus réguliers:
+- Si complexes QRS fins et irréguliers: présence
+d'ondes P typiques avant les complexes QRS ?:
+- Si complexes QRS fins irréguliers avec ondes P
+avant les complexes QRS:
+TS avec multiples ESSV (ondes P typiques) > TA
+avec multiples ESSV (ondes P atypiques) > MAT
+(plusieurs morphologies des ondes P).
+68
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+
+- Si complexes QRS fins et réguliers: présence d'ondes P
+typiques avant les complexes QRS?:
+- Si complexes QRS fins réguliers sans ondes P
+typiques avant les complexes QRS:
+présence d'ondes P' après les complexes QRS ?:
+- Si complexes QRS fins réguliers sans ondes P
+typiques avant les complexes QRS ni ondes P' après
+les complexes QRS, regarder le segment juste avant
+les complexes QRS en DII/DIII/aVF...
+69
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+
+- Si complexes QRS fins et réguliers: présence d'ondes P
+typiques avant les complexes QRS?:
+- Si complexes QRS fins réguliers sans ondes P
+typiques avant les complexes QRS:
+présence d'ondes P' après les complexes QRS ?:
+- Si complexes QRS fins réguliers sans ondes P
+typiques avant les complexes QRS ni ondes P' après
+les complexes QRS, regarder le segment juste avant
+les complexes QRS en DII/DIII/aVF:
+- Si segment isoélectrique: AVNRT > JET (rare).
+
+70
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+
+- Si complexes QRS fins et réguliers: présence d'ondes P
+typiques avant les complexes QRS?:
+- Si complexes QRS fins réguliers sans ondes P
+typiques avant les complexes QRS:
+présence d'ondes P' après les complexes QRS ?:
+- Si complexes QRS fins réguliers sans ondes P
+typiques avant les complexes QRS ni ondes P' après
+les complexes QRS, regarder le segment juste avant
+les complexes QRS en DII/DIII/aVF:
+- Si segment pas isoélectrique: flutter auriculaire (*).
+71
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+*: Le flutter auriculaire typique nécessite une certaine
+expertise pour le reconnaître, surtout s'il est à une
+fréquence de 150/min avec une conduction
+atrioventriculaire à 2:1; un algorithme (pas absolu)
+mentionne 3 critères qui doivent tous être présents:
+- Vecteur: direction du vecteur des ondes P en DII/DIII/aVF
+à l'opposé de la direction du vecteur des ondes P en V1.
+- Morphologie: morphologie uniforme des ondes P dans
+chaque dérivation.
+- Intervalles isoélectriques: absence d'intervalles
+isoélectriques entre les ondes P en DII/DIII/aVF.
+72
+[Open Heart 2021; 8: e001431] .
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+
+NON
+
+Flutter auriculaire ?
+
+NON
+
+OUI
+
+73
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+
+- Si complexes QRS fins et réguliers: présence d'ondes P
+typiques avant les complexes QRS?:
+- Si complexes QRS fins réguliers sans ondes P
+typiques avant les complexes QRS:
+présence d'ondes P' après les complexes QRS?:
+- Si complexes QRS fins réguliers sans ondes P
+typiques avant les complexes QRS mais avec ondes
+P' après les complexes QRS:
+AVRT > AVNRT > JET (rare).
+74
+
+Arythmies
+Diagnostic différentiel des tachyarythmies (simplifié):
+
+- Si complexes QRS fins et réguliers: présence d'ondes P
+typiques avant les complexes QRS?:
+- Si complexes QRS fins réguliers avec ondes P avant
+les complexes QRS:
+TS (ondes P typiques) > TA (ondes P atypiques).
+
+75
+
+Arythmies
+
+76
+
+Arythmies
+Exemples
+Tachyarythmies à complexes QRS fins !
+
+77
+
+Arythmies
+DD TV polymorphe et torsade de pointes (TdP):
+[J Am Coll Cardiol 2010; 55: 934-47] [Circulation 2012; 125: 168494]
+
+TdP [Arch Mal Cœur Vaiss 1966; 59: 263-72]: TV particulière
+(souvent à 160-240/min) dont les complexes
+ventriculaires polymorphes irréguliers tournent autour
+de la ligne isoélectrique (séquence de 5-20
+complexes); rare évolution en FV. Plus fréquent chez
+les femmes, surtout dès 65 ans. Quasiment toujours
+précédé par un intervalle QT long +/- onde U (risque
+surtout si intervalle QTc ≥ 0,48 s et tout
+particulièrement si intervalle QTc > 0,5 s) !
+
+78
+
+Arythmies
+DD TV polymorphe et torsade de pointes (TdP):
+
+Rappel: formule de Bazett (1920): QTc = QTm / (RR)1/2
+(N < 0,45 s), mesurer manuellement idéalement là où il
+est le plus long (en V5 voire en DII en cas de LQTS),
+mais tendance à surestimer le QTc dès FC > 80/min:
+préférer la formule de Fridericia (1920): QTc = QTm /
+(RR)1/3 ou la formule de Framingham (1992): QTc =
+QTm + 154 * (1 – 60/FC); ne pas tenir compte d’une
+éventuelle onde U.
+
+79
+
+Arythmies
+DD TV polymorphe et torsade de pointes (TdP):
+
+En présence d'un QRS élargi (= allongement du QT),
+utiliser la formule de Bogossian (2014) pour modifier le
+QT: QTb = QTm – (0,5 * largeur du complexe QRS)
+puis corriger en fonction de la fréquence avec les
+formules habituelles [Rev Med Suisse 2016; 12: 1049-53].
+Revue: [Circulation 2018; 138: 2345-58].
+
+80
+
+Arythmies
+DD TV polymorphe et torsade de pointes (TdP):
+
+Syndromes du QT long (LQTS1-17, 85% LQTS1,2,3):
+congénital (autosomique dominant) +/- surdité
+(autosomique
+récessif)
+faisant
+partie
+des
+canalopathies cardiaques.
+TT: Défibrillation si instable !
+MgSO4 2 g iv sur 15 min puis perfusion 0,5-2 g/h iv
+(1 g = 4 mmol = 1 amp. 10 ml à 10%).
+
+81
+
+Arythmies
+DD TV polymorphe et torsade de pointes (TdP):
+
+TT (suite): Overdrive par PM à 100-120/min (ad
+140/min) [Am J Emerg Med 2010; 28: 95-102].
+Maintenir la kaliémie entre 4,5 et 5 mmol/l.
+-bloquant non-cardiosélectif
+ganglion stellaire gauche)
+implantable (ICD).
+
+(voire
+et/ou
+
+ablation du
+défibrillateur
+
+Revues: [N Engl J Med 2008; 358: 169-76], [Lancet 2008; 372:
+750-63], [J Am Coll Cardiol 2008; 51: 229 -300], [Eur Heart J
+82
+2013; 34: 3109-16].
+
+Arythmies
+DD TV polymorphe et torsade de pointes (TdP):
+[pas ici]
+(Il existe aussi (rare) 9 types de syndromes du QT
+court, sans segment ST, avec onde T pointue et
+symétrique, fréquent sous-décalage du segment PR,
+autosomiques dominants (SQTS1-9, majorité SQTS1)
+faisant aussi partie des canalopathies cardiaques, à
+haut risque de FV (et FA); intervalle QTc ≤ 370 ms
+(surtout ≤ 330 ms); TT: discuter ICD, quinidine).
+Revue: [J Electrocardiol 2024; 85: 87-94].)
+
+83
+
+Arythmies
+DD TV polymorphe et torsade de pointes (TdP):
+
+QT
+
+long
+
+acquis:
+
+anti-arythmiques
+Ia
+(quinidine,
+procaïnamide...), Ic (flecaïnide…), III (amiodarone, dronaderone,
+sotalol, ibutilide…), tricycliques, macrolides, fluoroquinolones,
+pentamidine, anti-histaminiques, halopéridol et autres antipsychotiques,
+méthadone,
+imidazoles,
+tacrolimus,
+bradyarythmies, hypokaliémie, hypomagnésémie, hypocalcémie,
+organophosphorés,
+cocaïne,
+hémorragie
+intra-crânienne,
+hémorragie sous-arachnoïdienne, hypothyroïdie, hypothermie,
+HIV, SARS-CoV-2, embolie pulmonaire, Takotsubo...
+
+Voir aussi l'application CredibleMeds (téléchargeable
+sur smartphone).
+Eviter particulièrement l'association de 2 médicaments
+84
+prolongeant le QT !
+
+Arythmies
+DD TV polymorphe et torsade de pointes (TdP):
+
+TT: Défibrillation si instable !
+Traiter la cause (correction des électrolytes, arrêt des
+médicaments incriminés…). Amiodarone contreindiquée !
+MgSO4 2 g iv sur 15 min puis perfusion 0,5-2 g/h iv
+(1 g = 4 mmol = 1 amp. 10 ml à 10%).
+
+85
+
+Arythmies
+DD TV polymorphe et torsade de pointes (TdP):
+
+TT (suite): Overdrive par PM à 100-120/min (ad
+140/min) [Am J Emerg Med 2010; 28: 95-102].
+Maintenir la kaliémie entre 4,5 et 5 mmol/l.
+{Isoprénaline (Isuprel) (0,5) 2-10 (20) g/min iv =
+0,02-0,14 g/kg/min iv (prudence en cas de
+coronaropathie), jamais si QT long congénital}.
+Revue QT long et médicaments: [JAMA 2003; 289: 21207], [N Engl J Med 2004; 350: 1013-22], [BMJ 2016; 353: i2732].
+86
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+- Tachycardie ventriculaire (TV)
+- Tachyarythmie supraventriculaire et BBD (plus fréquent
+en cas d'AVNRT) ou BBG (plus fréquent en cas d'AVRT
+à conduction orthodromique)
+- Tachyarythmie supraventriculaire de type AVRT à
+conduction antidromique
+- Tachyarythmie supraventriculaire avec certains antiarythmiques (Flecaïnide, etc.), cocaïne
+- Tachyarythmie supraventriculaire avec hyperkaliémie
+sévère
+- Tachyarythmie supraventriculaire avec rythme entraîné
+par un PM (pacemaker mediated tachycardia)
+87
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+50-80% (selon le lieu [service d’urgences ou de
+cardiologie]) des tachycardies à complexes QRS
+larges sont des TV !
+
+88
+
+Arythmies
+
+TV
+
+89
+
+Arythmies
+
+BBD
+
+90
+
+Arythmies
+Rappel: bloc de branche droit (BBD)
+
+QRS ≥ 120 ms (incomplet 110-119 ms)
+V1: rsr’, rsR’ ou rSR’, r’ ou R’ plus large que r
+V6: S large, plus que R
+
+91
+
+Arythmies
+
+BBG
+
+92
+
+Arythmies
+Rappel: bloc de branche gauche (BBG)
+
+QRS ≥ 120 ms (incomplet 110-119 ms)
+V1: QS ou rS
+V6: R large, sans Q
+
+93
+
+Arythmies
+
+WPW
+
+94
+
+Arythmies
+Rappel: Wolff-Parkinson-White (WPW)
+
+Onde 
+QRS large
+PR/PQ court
+
+95
+
+Arythmies
+Tachycardie c/o AVRT à conduction antidromique
+
+96
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+Évoque une TV:
+Infarctus anamnestique (valeur prédictive positive pour
+une TV > 90%),
+complexes QRS > 140 ms avec image type BBD ou >
+160 ms avec image type BBG (relativement peu
+sensible et peu spécifique),
+déviation axiale G (- 90° à +/- 180°, retrouvé c/o 67%),
+
+97
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+Évoque une TV:
+dissociation atrioventriculaire (= quasiment spécifique,
+retrouvé c/o 20%),
+complexes « précoces » de capture / fusion (=
+spécifique, retrouvé c/o 5-10%).
+
+98
+
+Arythmies
+
+99
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+[c/o tachycardie régulière monomorphe]
+Depuis 1965, il existe 17 descriptions de critères pour
+évaluer les tachyarythmies à complexes QRS larges
+[Indian Heart J 2021; 71: 7-13]. Les plus connus et utilisés
+(Brugada, Wellens, Vereckei, Pava) sont les suivants
+(sensibilité 60-90%, spécificité 29-83%):
+
+100
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+Critères de Brugada (dérivés de 554 ECG) à utiliser dans
+l'ordre ci-dessous [Circulation 1991; 83: 1649-59]:
+
+101
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+- Absence d’ondes RS dans toutes les dérivations
+précordiales (= concordance*)
+= TV sinon...
+- Intervalle du début de l’onde R au nadir de l’onde S >
+100 ms dans une dérivation précordiale = TV sinon...
+- Dissociation atrioventriculaire (fréquence ventriculaire >
+fréquence auriculaire)
+= TV sinon...
+- Observer la morphologie des complexes QRS d'après
+les Critères de Wellens (dérivés de 140 ECG) [Am J Med
+1978; 64: 27-33]…
+102
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+- Absence de RS dans toutes les dérivations précordiales
+(= concordance*)
+= TV sinon...
+*: critères de Marriott [Geriatrics 1970; 25: 91-101] : tous les
+QRS de V1 à V6 sont monophasiques et négatifs
+(ondes QS, concordance négative) ou positifs (ondes
+R, concordance positive).
+
+103
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+Exemples de concordance...
+
+(= TV )
+
+104
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+Exemple de dissociation atrioventriculaire...
+
+(= TV )
+
+105
+
+Arythmies
+
+106
+
+Arythmies
+
+107
+
+Arythmies
+
+108
+
+Arythmies
+Exemples
+Tachyarythmies à complexes QRS larges !
+
+109
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+D’autres algorithmes existent, dont un (dérivés de 453
+ECG) également en 4 étapes montrant, entre autres,
+que la présence d’une onde R initiale en aVR est très
+évocatrice d’une TV [Eur Heart J 2007; 28: 589-600].
+Ceci a généré un nouvel algorithme (critères de
+Vereckei, dérivés de 483 ECG) en 4 étapes basé
+uniquement sur aVR, semblant meilleur que le
+précédent et que celui de Brugada (voir texte
+« word »…): [Heart Rythm 2008; 5: 89-98]
+110
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+Exemples typiques d'aVR: [Heart Rythm 2008; 5: 89-98]
+
+111
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+Pour les autres critères (Pava, LLA), cf. document
+« word ».
+
+112
+
+Arythmies
+DD des tachyarythmies à complexes QRS larges:
+
+NB: tous les algorithmes sont peu efficaces pour
+séparer une TV d'un AVRT à conduction antidromique;
+en cas de doute: considérer comme une TV !
+
+113
+
+Arythmies
+Traitements: schémas spécifiques (en "gras" sur les pages
+suivantes adaptés des références ci-dessous)
+[Circulation 2005; 112: IV-67-IV-77], [Circulation 2010; 122[suppl 2]:
+S345-S421 (S355-S359)], [Circulation 2010; 122[suppl 3]: S729-S767
+(S746-S756)], [Resuscitation 2021; 161: 115-51].
+
+- Bradycardie instable.
+- TV c/o patient stable.
+
+- TSV c/o patient stable (AVNRT, AVRT, TA, MAT, JET).
+- Flutter auriculaire, FA c/o patient stable.
+
+- Tachycardie instable: Flutter auriculaire, FA, TSV, TV, TdP.
+114
+
+Arythmies
+Instable (souvent rythme > 150/min lors des
+tachyarythmies ou < 40/min lors des bradyarythmies):
+Altération aiguë du status mental, convulsions,
+syncope, DRS, ischémie cardiaque, insuffisance
+cardiaque congestive, OAP, hypotension < 90 mmHg
+ou autres signes de choc (peau pâle, froide, sudations,
+extrémités clampées…)...
+Fonction cardiaque altérée:
+insuffisance cardiaque clinique.
+
+FEVG
+
+<
+
+40%
+
+ou
+
+Penser à rechercher et corriger les troubles
+électrolytiques (K+, Mg2+, Ca2+) !
+115
+
+Bradycardie instable
+O2 (but SpO2  94%) [ERC 2021 pour toutes les arythmies]
+
+Monitoring continu ECG + pression artérielle
+automatique + oxymétrie
+Rappel: bradycardie si < 60/min (= définition ECG;
+sinon < 50/min), potentiellement grave si < 40/min
+Voie veineuse périphérique + perfusion NaCl 9 g/l iv
+ECG 12 pistes (ne traiter avec des médicaments
+que les bradycardies instables)
+
+116
+
+Bradycardie instable
+Atropine (Atropin) 1 mg iv, répéter/3-5 min (max. 3
+mg iv)*
+
+117
+
+Bradycardie instable
+*: Contre-indications à l’Atropine (possible
+aggravation du bloc et de la bradycardie, voire
+asystolie):
+
+- Transplanté cardiaque.
+- BAV-II Mobitz type 2.
+- BAV-III avec échappement ventriculaire à
+complexes larges ou < 40/min.
+- Pauses ventriculaires > 3 s.
+Extrême prudence en cas de SCA, particulièrement
+en cas d’infarctus aigu (risque de TV ou FV) !
+118
+
+Bradycardie instable
+PM transcutané si immédiatement disponible
+(+/- analgésie et sédation):
+patchs en position antéro-postérieur ("sandwich" avec
+cœur entre les 2 patchs)
+
+vérifier efficacité mécanique !
+
+119
+
+Bradycardie instable
+Isoprénaline (Isuprel) 5-10 (20) g/min iv (= 0,07-0,28
+g/kg/min iv)
+
+120
+
+Bradycardie instable
+Adrénaline (Adrénaline) 2-10 g/min iv (= 0,02-0,14
+g/kg/min iv)
+
+121
+
+Bradycardie instable
+Aminophylline (Aminophylline) 120-240 mg (ad 6
+mg(kg) iv envisageable**
+
+122
+
+Bradycardie instable
+**: Surtout si:
+
+- Transplanté cardiaque.
+- Infarctus inférieur.
+- Traumatisme spinal.
+
+123
+
+Bradycardie instable
+Si intoxication aux -bloqueurs ou aux anticalciques:
+
+CaCl2 10 mmol iv sur 5-10 min puis 10 mmol/h iv +
+une thérapie d'hyperinsulinémie-euglycémie avec
+bolus d'insuline 1 U/kg iv puis perfusion de 1 U/kg/h
+iv [N Engl J Med 2006; 355: 602-11] jusqu'à 10 U/kg/h iv
+selon la réponse de la TA, avec un maximum publié
+jusqu'à 22 U/kg/h iv [Am J Emerg Med 2018; 36: 1817-24])
+Si réfractaire : Intralipid 20% 1,5 ml/kg iv à répéter 2 fois
+puis 0,25 ml/kg/min iv sur 30-60 min [Crit Care Med 2017;
+45: e306-e315], voire ECMO...
+124
+
+Bradycardie instable
+Dans l'attente du PM transcutané ou endoveineux,
+si médicaments inefficaces, "fist pacing" à 5070/min [Br J Anaesth 2007; 98: 429-33]
+
+125
+
+Bradycardie instable
+PM endoveineux (dans le ventricule droit)
+
+Si accès veineux impossible ou absence de réponse à
+la stimulation électrique du ventricule droit, possibilité
+de poser un PM provisoire par cathétérisme artériel
+fémoral rétrograde dans le ventricule gauche [Am J
+Emerg Med J 2009; 27: 374.e1-e2]
+
+126
+
+TV c/o patient stable
+O2 (but SpO2  94%)
+
+Monitoring continu ECG + pression artérielle
+automatique + oxymétrie
+Rappel: TV si ≥ 3 complexes type ESV à > 100/min,
+soutenue si ≥ 30 s ou nécessitant un traitement (surtout
+cardioversion électrique) en < 30 s en raison d'une
+instabilité hémodynamique, orage de TV si ≥ 3 TV
+soutenues (ou ≥ 3 traitements par ICD ou ≥ 3 FV) en ≤
+24h (chaque épisode séparé par ≥ 5 min)
+Voie veineuse périphérique + perfusion NaCl 9 g/l iv
+ECG 12 pistes puis essai d’un seul médicament; si
+127
+échec du médicament: cardioversion électrique !
+
+TV c/o patient stable
+TV monomorphe ou polymorphe avec intervalle QT
+normal:
+Amiodarone (Cordarone) 300 mg iv sur 30 min puis
+900-1'800 mg iv sur 24h [Am J Cardiol 1990; 65: 609-14], [J
+Am Coll Cardiol 1996; 27: 67-75] (max. 1’200 [2'200 mg] iv
+sur 24h)
+Une RCT chez 62 patients en TV ≥ 120/min a comparé
+l'Amiodarone (5 mg/kg iv en 20 min) à la Procaïnamide
+(10 mg/kg iv en 20 min) et a montré à 40 min 38%
+contre 67% de cardioversions, avec plus d'effets
+secondaires sous Amiodarone (31% contre 18%) [Eur
+Heart J 2017: 38: 1329-35]
+
+Sinon, idem TV instable (cardioversion électrique)
+
+128
+
+TV c/o patient stable
+TV monomorphe ou polymorphe avec intervalle QT
+normal:
+A terme, toujours discuter indication éventuelle à un
+ICD (si espérance de vie attendue > 1 an) et/ou une
+ablation par cathéter et/ou des -bloqueurs, en fonction
+de l'étiologie de la TV, voire même la radiothérapie
+stéréotaxique ablative (SBRT) chez les patients
+réfractaires [N Engl J Med 2017: 377: 2325-36]...
+
+129
+
+TV c/o patient stable
+TV polymorphe avec intervalle QT
+(évocateur d’une torsade de pointes):
+
+prolongé
+
+MgSO4 2 g iv sur 15 min puis perfusion 0,5-2 g/h iv
+(1 g = 4 mmol = 1 amp. 10 ml à 10%)
+Overdrive par PM à 100-120/min (ad 140/min)
+Maintenir la kaliémie entre 4,5 et 5 mmol/l
+{Isoprénaline (Isuprel) 2-10 g/min iv = 0,02-0,14
+g/kg/min iv (prudence en cas de coronaropathie),
+jamais si QT long congénital}
+130
+
+TSV c/o patient stable
+C/o AVNRT, AVRT, TA, MAT, JET
+
+O2 (but SpO2  94%)
+Monitoring continu ECG + pression artérielle
+automatique + oxymétrie
+Voie veineuse périphérique + perfusion NaCl 9 g/l iv
+ECG 12 pistes
+
+131
+
+TSV c/o patient stable
+Manœuvres vagales:
+
+Manœuvre de Valsalva modifiée (efficace c/o 43%): en
+position allongée, thorax surélevé à 45°, faire souffler
+par l'embout d'une seringue pour sonde nasogastrique
+de 60 ml (aussi possible avec une seringue de 10 ml)
+pour déplacer le piston durant 15 s puis coucher le
+patient à plat et surélever les jambes à 45° durant 15 s,
+puis remettre en position initiale durant 45 s (maximum
+3 essais) [Lancet 2015; 386. 1747-53], [Am J Med 2017; 35:
+1662-5]
+
+132
+
+TSV c/o patient stable
+Manœuvres vagales:
+
+Ou massage carotidien (en position allongée à plat, 510 s/essai de chaque côté, efficace c/o environ 25%), à
+proscrire en présence d'un souffle carotidien et à
+discuter chez la personne âgée ou chez la personne
+avec antécédents d'AVC ou d'AIT
+
+133
+
+TSV c/o patient stable
+Manœuvres vagales:
+Ou manœuvre de Valsalva inversée (possible pour un
+patient seul à domicile): en position assise, expirer
+totalement
+lentement
+puis
+essai
+d'inspirer
+énergiquement avec nez bouché (par 2 doigts) bouche
+fermée durant 10 s puis attendre 15 s [Am J Emerg Med
+2021; 41: 66-9]
+
+134
+
+TSV c/o patient stable
+Adénosine* (Krenosine) 6 mg iv en 1-3 s (bolus)
+suivi de 20 ml NaCl iv et surélever le bras
+Après 1-2 min Adénosine* (Krenosine) 12 mg iv en
+1-3 s (bolus) suivi de 20 ml NaCl iv et surélever le
+bras (12 mg d’emblée si café ou thé consommé < 4h
+[Ann Pharmacother 2024; 58: 715-27])
+
+135
+
+TSV c/o patient stable
+*: Prudence avec l’Adénosine (= 3 mg initialement) si:
+
+- Transplanté cardiaque.
+- Injection dans une voie veineuse centrale.
+- Traitement par dipyridamole ou carbamazépine.
+
+136
+
+TSV c/o patient stable
+Si traitement d’Adénosine:
+
+Avertir des sensations transitoires de malaise, vertiges,
+céphalées, syncope, DRS, dyspnée, nausées, chaleur
+faciale, etc. (très rares arythmies ventriculaires [Emerg
+Med J 2004; 21: 408-10]) !
+Contre-indication
+bronchospasme) !
+
+relative:
+
+asthme
+
+(surtout
+
+si
+
+Rappel: l'antagoniste de l‘Adénosine est l‘Aminophylline
+(Aminophyllin) par bolus de 60 mg iv ad 240 mg iv.
+137
+
+TSV c/o patient stable
+Si échec d’Adénosine:
+
+Fonction cardiaque préservée et absence de
+tachycardie auriculaire (TA) ou de tachycardie
+auriculaire multifocale (MAT) ou tachycardie ectopique
+jonctionnelle (JET):
+Après 1-2 min Verapamil (Isoptin) 5 mg iv sur 2 min
+Après 15-30 min Verapamil (Isoptin) 10 mg iv sur 2 min
+(max. 20-30 mg iv)
+Sinon, idem TSV instable (cardioversion électrique)
+138
+
+TSV c/o patient stable
+Si échec d’Adénosine:
+
+Fonction cardiaque altérée et absence de
+tachycardie auriculaire (TA) ou de tachycardie
+auriculaire multifocale (MAT) ou tachycardie
+ectopique jonctionnelle (JET):
+Amiodarone (Cordarone) 300 mg iv sur 30 min puis
+900-1'800 mg iv sur 24h (max. 1’200 [2'200 mg] iv sur
+24h)
+Sinon, idem TSV instable (cardioversion électrique)
+139
+
+TSV c/o patient stable
+Tachycardie auriculaire (TA)
+auriculaire multifocale (MAT)
+ectopique jonctionnelle (JET):
+
+ou
+ou
+
+tachycardie
+tachycardie
+
+-bloqueurs, anticalciques (Diltiazem/Verapamil) voire
+Amiodarone pour ralentir le rythme
+Pas de cardioversion électrique (inefficace,
+mais des exceptions existent pour certaines TA)
+
+140
+
+Flutter A, FA c/o patient stable
+O2 (but SpO2  94%)
+
+Monitoring continu ECG + pression artérielle
+automatique + oxymétrie (discutable)
+Voie veineuse périphérique + perfusion NaCl 9 g/l iv
+(discutable)
+ECG 12 pistes (exclure WPW: absence d'onde , cf.
+plus loin)
+
+141
+
+Flutter A, FA c/o patient stable
+Rappels:
+
+FA inaugurale: jamais diagnostiquée
+auparavant
+FA paroxystique: durée ≤ 7j
+(habituellement < 48h)
+FA persistante: durée > 7j
+FA persistante de longue durée: durée ≥ 1 an
+FA permanente = acceptée comme telle par le
+patient et le médecin ou échec de
+cardioversion
+
+Symptômes (1, 2a, 2b, 3, 4) selon score
+EHRA modifié:
+142
+
+Flutter A, FA c/o patient stable
+
+143
+
+Flutter A, FA c/o patient stable
+But = ralentir (FC  110/min, discuter dès  100/min)
+
+ou
+But = cardioverser FA ou flutter auriculaire
+
+144
+
+Flutter A, FA c/o patient stable
+But = ralentir (FC  110/min, discuter dès  100/min)
+et absence de WPW:
+Fonction cardiaque conservée: (TT po envisageable)
+
+Diltiazem (Diltiazem) 0,25 mg/kg (12,5 mg) iv sur 2
+min puis, si nécessaire après 15 minutes, 0,35 mg/kg
+(25 mg) iv sur 2 min
+ou 5-15 mg/h iv continu ou/puis 3*60 mg/j po (max. 360
+mg/j po)
+
+145
+
+Flutter A, FA c/o patient stable
+But = ralentir (FC  110/min, discuter dès  100/min)
+et absence de WPW: (suite)
+Fonction cardiaque conservée: (suite)
+
+Le Diltiazem iv ralentit plus efficacement et plus
+rapidement que le Metoprolol iv dans 4 méta-analyses
+récentes, particulièrement dans les RCT (17 études
+dont 9 RCT) [Am J Emerg Med 2022; 51: 248-56], (14 études
+dont 3 RCT) [Indian Heart J 2022; 74: 494-9], (8 études dont
+2 RCT) [J Emerg Med 2022; 63: 467-76], (16 études donc 7
+RCT) [Am J Cardiovasc Drugs 2024; 24: 103-15]
+146
+
+Flutter A, FA c/o patient stable
+But = ralentir (FC  110/min, discuter dès  100/min)
+et absence de WPW: (suite)
+Fonction cardiaque conservée: (TT po envisageable)
+
+Metoprolol (Beloc) aussi possible (cf. plus loin)
+
+147
+
+Flutter A, FA c/o patient stable
+But = ralentir (FC  110/min, discuter dès  100/min)
+et absence de WPW: (suite)
+Fonction cardiaque conservée: (suite)
+
+Possibilité d’ajouter du MgSO4 20 mmol iv sur 4h pour
+ralentir plus rapidement la FC [J Cardiovasc Electrophysiol
+2023; 34: 1286-95]
+
+148
+
+Flutter A, FA c/o patient stable
+But = ralentir (FC  110/min, discuter dès  100/min)
+et absence de WPW: (suite)
+Fonction cardiaque ≤ 40%: (TT po envisageable)
+
+Metoprolol (Beloc) 3*5 mg iv chaque fois en 2 min
+en 3*5 min
+ou/puis 4*25-50 mg/j po (max. 200 mg/j po)
+
+149
+
+Flutter A, FA c/o patient stable
+But = ralentir (FC  110/min, discuter dès  100/min)
+et absence de WPW: (suite)
+Fonction cardiaque ≤ 40%: (suite)
+
+Possibilité d’ajouter du MgSO4 20 mmol iv sur 4h pour
+ralentir plus rapidement la FC [J Cardiovasc Electrophysiol
+2023; 34: 1286-95]
+
+150
+
+Flutter A, FA c/o patient stable
+But = ralentir (FC  110/min, discuter dès  100/min)
+et absence de WPW: (suite)
+Fonction cardiaque sévèrement altérée: (surtout si
+décompensation cardiaque clinique avérée ou
+hypotension)
+
+Digoxine (Digoxine) 0,5 mg iv sur 10 min puis 3*0,25
+mg/6h iv chaque fois sur 5 min (max. 1,25 mg iv J1) +…
+
+151
+
+Flutter A, FA c/o patient stable
+But = ralentir (FC  110/min, discuter dès  100/min)
+et absence de WPW: (suite)
+Fonction cardiaque sévèrement altérée: (suite)
+
+…MgSO4 20 mmol iv sur 4h pour ralentir plus
+rapidement la FC [J Cardiovasc Electrophysiol 2023; 34: 128695]
+
+Association Digoxine et Diltiazem ou Metroprolol
+possible, éviter Diltiazem + Métoprolol
+
+152
+
+Flutter A, FA c/o patient stable
+But = ralentir (FC  110/min, discuter dès  100/min)
+et absence de WPW: (suite)
+ET anticoagulation thérapeutique (AOD versus
+HBPM/héparine + AVK), selon les scores de FA
+(CHA2DS2-VA)
+
+153
+
+Flutter A, FA c/o patient stable
+But = cardioverser FA ou flutter auriculaire < ≤ 24h et
+absence de WPW: (peu de médicaments sont efficaces
+en cas de flutter auriculaire)
+
+Lors d'un épisode durant depuis < 24h, une observation
+durant 24h sans cardioversion immédiate peut être
+proposée (69% de cardioversions spontanées) [N Engl J
+Med 2019; 380: 1499-508]
+
+Le score ReSinus peut prédire la probabilité d'une
+cardioversion spontanée [Eur J Intern Med 2021; 83: 45-53]
+
+154
+
+Flutter A, FA c/o patient stable
+But = cardioverser FA ou flutter auriculaire < ≤ 24h et
+absence de WPW: (peu de médicaments sont efficaces
+en cas de flutter auriculaire) (suite)
+
+Cardioversion électrique (cf. tachycardie instable)
+(contre-indiqué si intoxication digitalique (surtout > 2
+nmol/l) ou hypokaliémie < 3 mmol/l ou hyperkaliémie > 6
+mmol/l et vérifier que la synchronisation de la
+cardioversion est avec le complexe QRS (risque de FV si
+avec l’onde T) [Am J Emerg Med 2019; 37: 1539-43])…
+
+155
+
+Flutter A, FA c/o patient stable
+But = cardioverser FA ou flutter auriculaire < ≤ 24h et
+absence de WPW: (peu de médicaments sont efficaces
+en cas de flutter auriculaire) (suite)
+
+Cardioversion électrique (cf. tachycardie instable) …
+succès > 90% (18% d'effets secondaires [surtout si ≥ 85
+ans, coronaropathie, utilisation de Midazolam, utilisation
+de Fentanyl] mais que 0,4% d'effets secondaires sérieux,
+sans décès ni AVC) dans une revue de 1'736 patients
+[Can J Cardiol 2021; 37: 1775-82]
+
+156
+
+Flutter A, FA c/o patient stable
+But = cardioverser FA ou flutter auriculaire ≤ 24h et
+absence de WPW: (peu de médicaments sont efficaces
+en cas de flutter auriculaire) (suite)
+
+Alternative (si absence de cardiopathie sévère, d'état de
+choc, de syndrome coronarien aigu, de bradyarythmie
+sévère, d’intervalle QT long…): Vernakalant (Brinavess)
+3 mg/kg iv sur 10 min puis, si nécessaire après 15 min, 2
+mg/kg iv sur 10 min (inefficace en cas de flutter
+auriculaire) [Eur Heart J 2012; 33: 2719-47], plus rapidement
+efficace que l'Amiodarone [J Am Coll Cardiol 2011; 57: 313-21],
+voire que la Flecaïnide [Eur Heart J Acute Cardiovasc Care
+2019; 8: 114-20], [Emergencias 2024; 36: 239-40]
+157
+
+Flutter A, FA c/o patient stable
+But = cardioverser FA ou flutter auriculaire ≤ 24h et
+absence de WPW: (peu de médicaments sont efficaces
+en cas de flutter auriculaire) (suite)
+
+Alternative (si absence de toute autre cardiopathie):
+Flecaïnide (Tambocor) 150 mg iv (2 mg/kg) sur 10 min
+(dangereux en cas de flutter auriculaire), plus rapidement
+efficace que l'Amiodarone [J Am Coll Cardiol 2003; 41: 255-62]
+
+158
+
+Flutter A, FA c/o patient stable
+But = cardioverser FA ou flutter auriculaire ≤ 24h et
+absence de WPW: (peu de médicaments sont efficaces
+en cas de flutter auriculaire) (suite)
+
+Alternative: Amiodarone (Cordarone) 300 mg iv sur 30
+min puis 900-1'800 mg iv sur 24h [Heart 2005; 91: 964-5]
+(max. 1’200 [2'200 mg] iv sur 24h)
+
+159
+
+Flutter A, FA c/o patient stable
+But = cardioverser FA ou flutter auriculaire ≤ 24h et
+absence de WPW: (peu de médicaments sont efficaces
+en cas de flutter auriculaire) (suite)
+
+ET
+anticoagulation
+thérapeutique
+(AOD
+versus
+HBPM/héparine + AVK) min. 4 sem, sauf si flutter
+auriculaire ou FA ≤ 24h et CHA2DS2-VA = 0
+
+160
+
+Flutter A, FA c/o patient stable
+But = cardioverser FA ou flutter auriculaire > 24h et
+absence WPW:
+Anticoagulation thérapeutique 3 sem (AOD versus
+HBPM/héparine + AVK), puis cardioversion électrique
+(cf. tachycardie instable) (contre-indiqué si intoxication
+digitalique (surtout > 2 nmol/l) ou hypokaliémie < 3
+mmol/l) ou hyperkaliémie > 6 mmol/l et vérifier que la
+synchronisation de la cardioversion est avec le complexe
+QRS (risque de FV si avec l’onde T) [Am J Emerg Med 2019;
+37: 1539-43]), puis anticoagulation thérapeutique min. 4
+sem, indépendamment des scores de FA (CHA2DS2-VA)
+161
+
+Flutter A, FA c/o patient stable
+But = cardioverser FA ou flutter auriculaire > 24h et
+absence WPW: (suite)
+Alternative: Echocardiographie transoesophagienne
+pour exclure un caillot dans l’oreillette gauche puis
+cardioversion électrique (cf. tachycardie instable)
+(contre-indiqué si intoxication digitalique (surtout > 2
+nmol/l) ou hypokaliémie < 3 mmol/l ou hyperkaliémie > 6
+mmol/l et vérifier que la synchronisation de la
+cardioversion est avec le complexe QRS (risque de FV
+si avec l’onde T) [Am J Emerg Med 2019; 37: 1539-43])…
+162
+
+Flutter A, FA c/o patient stable
+But = cardioverser FA ou flutter auriculaire > 24h et
+absence WPW: (suite)
+Alternative:
+(suite)...
+sous
+anticoagulation
+thérapeutique (AOD versus HBPM/héparine + AVK),
+puis anticoagulation thérapeutique min. 4 sem [N Engl
+J Med 2001; 344: 1411-20], indépendamment des scores de
+FA (CHA2DS2-VA)
+
+163
+
+Flutter A, FA c/o patient stable
+Si WPW: (Adénosine, -bloqueurs, anticalciques,
+Digoxine contre-indiqués !)
+Si but = ralentir, ou cardioverser FA ou flutter
+auriculaire ≤ 24h:
+Cardioversion électrique (cf. tachycardie instable)
+(contre-indiqué si intoxication digitalique (surtout > 2
+nmol/l) ou hypokaliémie < 3 mmol/l ou hyperkaliémie >
+6 mmol/l et vérifier que la synchronisation de la
+cardioversion est avec le complexe QRS (risque de FV
+si avec l’onde T) [Am J Emerg Med 2019; 37: 1539-43])
+164
+
+Flutter A, FA c/o patient stable
+Si WPW: (Adénosine, -bloqueurs, anticalciques,
+Digoxine contre-indiqués !) (suite)
+Si but = ralentir, ou cardioverser FA ou flutter
+auriculaire ≤ 24h:
+Alternative (si absence de toute cardiopathie):
+Flecaïnide (Tambocor) 150 mg iv (2 mg/kg) sur 10
+min (dangereux en cas de flutter auriculaire)
+
+165
+
+Flutter A, FA c/o patient stable
+Si WPW: (Adénosine, -bloqueurs, anticalciques,
+Digoxine contre-indiqués !) (suite)
+Si but = ralentir, ou cardioverser FA ou flutter
+auriculaire ≤ 24h:
+ET anticoagulation thérapeutique (AOD versus
+HBPM/héparine + AVK) si uniquement ralentissement,
+selon les scores de FA (CHA2DS2-VA), sinon min. 4
+sem si cardioversion, sauf si flutter auriculaire ou FA ≤
+24h et CHA2DS2-VA = 0
+
+166
+
+Flutter A, FA c/o patient stable
+Si WPW: (Adénosine, -bloqueurs, anticalciques,
+Digoxine contre-indiqués !) (suite)
+Si but = cardioverser FA ou flutter auriculaire > 24h:
+
+Anticoagulation thérapeutique 3 sem (AOD versus
+HBPM/héparine + AVK), puis cardioversion électrique
+(cf. tachycardie instable) (contre-indiqué si intoxication
+digitalique (surtout > 2 nmol/l) ou hypokaliémie < 3
+mmol/l ou hyperkaliémie > 6 mmol/l et vérifier que la
+synchronisation de la cardioversion est avec le complexe
+QRS (risque de FV si avec l’onde T) [Am J Emerg Med 2019;
+37: 1539-43]), puis anticoagulation thérapeutique min. 4
+sem, indépendamment des scores de FA (CHA2DS2-VA)
+167
+
+Tachycardie instable
+Souvent rythme > 150/min risque majeur si > 250/min
+(flutter A, FA, TSV*, TV)
+O2 (but SpO2  94%)
+
+Monitoring continu ECG + pression artérielle
+automatique + oxymétrie
+Voie veineuse périphérique + perfusion NaCl 9 g/l iv
+ECG 12 pistes si possible + matériel complet de
+réanimation et d’intubation
+
+168
+
+Tachycardie instable
+Souvent rythme > 150/min (flutter A, FA, TSV*, TV)
+
+*: Adénosine (Krenosine) iv peut être tenté
+initialement en cas de TSV de type AVNRT ou
+AVRT
+
+169
+
+Tachycardie instable
+Souvent rythme > 150/min (flutter A, FA, TSV*, TV)
+
+Etomidate (Etomidat) 0,2-0,3 mg/kg (20 mg) iv
+
+170
+
+Tachycardie instable
+Souvent rythme > 150/min (flutter A, FA, TSV*, TV)
+
+Cardioversion (= défibrillation synchrone avec
+complexe QRS): vérifier que la synchronisation de la
+cardioversion est avec le complexe QRS (risque de FV
+si avec l’onde T) [Am J Emerg Med 2019; 37: 1539-43]
+inefficace en cas de tachycardie sinusale** /
+tachycardie auriculaire** / JET / tachycardie
+auriculaire multifocale (MAT)
+
+**: Des exceptions existent…
+171
+
+Tachycardie instable
+Souvent rythme > 150/min (flutter A, FA, TSV*, TV)
+
+Cardioversion (=
+complexe QRS):
+
+défibrillation
+
+synchrone
+
+avec
+
+ 100 J
+
+synchrone
+
+si TSV ou flutter auriculaire
+
+ 200 J
+
+synchrone
+
+si FA [Eur Heart J 2020; 41: 626-31]
+ou TV monomorphe
+
+172
+
+Tachycardie instable
+Souvent rythme > 150/min (flutter A, FA, TSV*, TV)
+
+Cardioversion (= défibrillation synchrone avec
+complexe QRS):
+En cas de FA, possibilité d'essayer aussi à la fin 
+200 J synchrone en antéro-postérieur, par analogie à
+[Lancet 2002; 360: 1279-9] (débattu: [Arch Cardiovasc Dis 2014;
+107: 280-90], pas de différence dans une étude
+randomisée [Lancet 2020; 395: 339-49] mais moins efficace
+dans une autre étude randomisée [Circulation 2021; 144:
+1995-2003]), et dans une méta-analyse de 11 études [Clin
+Cardiol 2023; 46: 359-75]), voire après une dose de
+Vernakalant (Brinavess) 3 mg/kg iv sur 10 min
+[Europace 2016; 18: 51-6]
+
+173
+
+Tachycardie instable
+Souvent rythme > 150/min (flutter A, FA, TSV*, TV)
+
+Cardioversion (= défibrillation synchrone avec
+complexe QRS):
+2 chocs électriques puis, si inefficaces, Amiodarone
+(Cordarone) 300 mg iv sur 15 min avant choc
+synchrone suivant puis 900-1'800 mg iv sur 24h (max.
+2'200 mg iv sur 24h)
+
+174
+
+Tachycardie instable
+Souvent rythme > 150/min (flutter A, FA, TSV*, TV)
+
+Défibrillation (non synchronisée) si TV polymorphe
+instable ou TdP instable (idem FV/TV sans pouls):
+ 200 J
+
+175
+
+Tachycardie instable
+Souvent rythme > 150/min (flutter A, FA, TSV*, TV)
+
+Médicaments
+d’arythmie
+
+anti-arythmiques
+
+selon
+
+le
+
+type
+
+ET anticoagulation thérapeutique (AOD versus
+HBPM/héparine + AVK) en cas de flutter auriculaire ou
+de FA min. 4 sem, sauf si flutter auriculaire ou FA ≤ 24h
+et CHA2DS2-VA = 0
+
+176
+
+Arythmies
+
+Merci de votre attention !
+A disposition pour des questions…
+
+177
+
+

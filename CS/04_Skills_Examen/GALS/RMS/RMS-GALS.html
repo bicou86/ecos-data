@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS - Examen de Dépistage GALS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .content-wrapper {
+            display: flex;
+            gap: 20px;
+            padding: 40px;
+        }
+        
+        .main-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        
+        .sidebar {
+            width: 350px;
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .sidebar h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .figure-container {
+            margin-bottom: 15px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .figure-container:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        
+        .figure-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .figure-caption {
+            padding: 8px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+            background: #f8f9fa;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        h4 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .pathology {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        
+        .stats-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .stats-box h4 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .stats-box ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .stats-box li {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .figure-reference {
+            color: #667eea;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        
+        .figure-reference:hover {
+            color: #764ba2;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: pointer;
+        }
+        
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 90%;
+            max-height: 90%;
+        }
+        
+        .modal-content img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: #667eea;
+        }
+        
+        .cards-section {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 3px solid #667eea;
+        }
+        
+        .cards-section h2 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 2em;
+        }
+        
+        .cards-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .card-image-container {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .card-image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .anamnese-box {
+            background: #e6f3ff;
+            border-left: 4px solid #007bff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .anamnese-box h3 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        
+        .gals-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .gals-box h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .test-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .test-box h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 1200px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                max-height: 400px;
+                position: static;
+            }
+            
+            .main-content {
+                padding-right: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content-wrapper {
+                padding: 20px;
+            }
+            
+            .cards-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS</h1>
+            <p style="font-size: 1.2em; opacity: 0.9;">Examen de Dépistage GALS</p>
+        </div>
+        
+        <div class="content-wrapper">
+            <div class="main-content">
+                <h2>Introduction</h2>
+                <p>Les maladies musculo-squelettiques peuvent atteindre les différentes structures osseuses, musculaires, cartilagineuses, tendineuses ou ligamentaires. En Suisse, environ 2 millions de personnes souffrent de douleurs rhumatismales dans toutes les classes d'âge. Il s'agit d'un des motifs de consultation les plus importants chez les médecins généralistes.</p>
+                
+                <p>Le rhumatisme regroupe environ 200 pathologies différentes affectant l'appareil locomoteur : muscles, tendons, os, articulations, tissu conjonctif <span class="pathology">→ arthrose, arthrite, fibromyalgie, goutte, lupus, ostéoporose, syndrome de Sjögren</span></p>
+                
+                <h2>Principe du GALS</h2>
+                
+                <p>L'examen de dépistage GALS (Gait, Arms, Legs, Spine) permet la détection d'anomalies du système musculo-squelettique en médecine de premier recours. C'est un examen méthodologique qui explore les diverses articulations de la tête aux pieds.</p>
+                
+                <div class="gals-box">
+                    <h3>Structure de l'examen</h3>
+                    <ol>
+                        <li>Mini-anamnèse (3 questions)</li>
+                        <li>Marche (Gait)</li>
+                        <li>Rachis (Spine)</li>
+                        <li>Membres supérieurs (Arms)</li>
+                        <li>Membres inférieurs (Legs)</li>
+                    </ol>
+                </div>
+                
+                <h2>1. Anamnèse obligatoire</h2>
+                
+                <div class="anamnese-box">
+                    <h3>Trois questions systématiques :</h3>
+                    <ul>
+                        <li>Avez-vous des douleurs ou une raideur dans les muscles, les articulations ou le dos ?</li>
+                        <li>Pouvez-vous vous habiller/déshabiller complètement et sans difficulté ?</li>
+                        <li>Pouvez-vous monter et descendre les escaliers sans difficulté ?</li>
+                    </ul>
+                </div>
+                
+                <h2>2. Marche (Gait)</h2>
+                
+                <p>Observer le patient faire des allers-retours de bas en haut</p>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig1')">(FIG 1)</span>
+                
+                <h3>Éléments à observer</h3>
+                
+                <p><strong>Marche normale</strong> : symétrique, fluide, sans boiterie, chevilles alignées avec hanches, base non élargie</p>
+                
+                <p><strong>Boiterie</strong> <span class="pathology">→ antalgique, Trendelenburg</span></p>
+                
+                <p><strong>Demi-tours</strong> : en 2 pas, fluides et assurés</p>
+                <p><strong>Demi-tours hachés, petits pas</strong> <span class="pathology">→ Parkinson</span></p>
+                
+                <p><strong>Autres observations</strong> :</p>
+                <ul>
+                    <li>Ballant des bras</li>
+                    <li>Position du haut du corps</li>
+                    <li>Stabilité</li>
+                </ul>
+                
+                <h3>Tests complémentaires</h3>
+                <ul>
+                    <li>Marche sur pointes de pieds <span class="pathology">→ écarter parésie latente</span></li>
+                    <li>Marche sur talons <span class="pathology">→ écarter parésie latente</span></li>
+</ul>
+                
+                <h2>3. Rachis (Spine)</h2>
+                
+                <p>Position : debout, bras le long du corps, pieds largeur des hanches</p>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig2')">(FIG 2)</span>
+                
+                <h3>Inspection de dos</h3>
+                
+                <p><strong>Symétrie</strong> : épaules, colonne droite, hanches</p>
+                
+                <p><strong>Courbure anormale</strong> <span class="pathology">→ scoliose (test : pencher en avant pour gibbosité)</span></p>
+                
+                <p><strong>Membres inférieurs</strong> :</p>
+                <ul>
+                    <li>Musculature (glutéaux, ischio-jambiers, mollets) : symétrie, atrophies, voussures</li>
+                    <li>Fosse poplitée : tuméfactions <span class="pathology">→ kyste poplité</span></li>
+                    <li>Alignement chevilles <span class="pathology">→ varus, valgus</span></li>
+                </ul>
+                
+                <h3>Inspection de profil</h3>
+                
+                <p><strong>Courbures physiologiques</strong> : lordose cervicale - cyphose thoracique - lordose lombaire</p>
+                
+                <p><strong>Position genoux</strong> <span class="pathology">→ hyperextension, hyperflexion</span></p>
+                
+                <h3>Inspection de face</h3>
+                
+                <p>Position anatomique</p>
+                
+                <p><strong>Observations</strong> :</p>
+                <ul>
+                    <li>Symétrie épaules et hanches</li>
+                    <li>Tuméfaction genoux</li>
+                    <li>Aspect musculature</li>
+                    <li>Coudes en extension : tuméfaction</li>
+                </ul>
+                
+                <h3>Tests fonctionnels</h3>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig3')">(FIG 3)</span>
+                
+                <p><strong>Flexion latérale cervicale</strong> : toucher épaule avec oreille</p>
+                
+                <p><strong>Articulation temporo-mandibulaire</strong> : ouvrir bouche, bouger mâchoire gauche-droite <span class="pathology">→ recherche arthrose</span></p>
+                
+                <p><strong>Inclinaisons latérales tronc</strong> : pencher gauche et droite (stabiliser bassin si nécessaire)</p>
+                
+                <p><strong>Extension</strong> : s'étendre en arrière</p>
+                
+                <div class="test-box">
+                    <h4>Test de Schober</h4>
+                    <ul>
+                        <li>Déterminer L5 (ligne entre crêtes iliaques)</li>
+                        <li>Marquer point 10cm au-dessus</li>
+                        <li>Patient se penche en avant sans plier genoux</li>
+                        <li>Mesurer distance L5-point marqué</li>
+                        <li>Normal : augmentation >5cm en flexion, diminution >2cm en extension</li>
+                    </ul>
+                </div>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig4')">(FIG 4)</span>
+                
+                <p><strong>Distance doigts-sol</strong> : normale 0-10cm</p>
+                
+                <h2>4. Membres supérieurs (Arms)</h2>
+                
+                <h3>Inspection mains</h3>
+                <ul>
+                    <li>Couleur, température</li>
+                    <li>Alignement doigts</li>
+                    <li>Tuméfactions, rougeurs articulations</li>
+                    <li>Ongles (couleur, qualité)</li>
+                </ul>
+                
+                <h3>Tests fonctionnels</h3>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig5')">(FIG 5)</span>
+                
+                <p><strong>Abduction + rotation externe épaules</strong> : mains derrière tête, coudes vers arrière</p>
+                
+                <p><strong>Extension membres supérieurs</strong> : mains devant soi, résister à la poussée vers le bas</p>
+                <ul>
+                    <li>Inspecter faces palmaires et dorsales</li>
+                </ul>
+                
+                <p><strong>Force de flexion</strong> : serrer doigt de l'examinateur</p>
+                
+                <p><strong>Coordination</strong> : pianoter</p>
+                
+                <p><strong>Compression articulations métacarpiennes</strong> <span class="pathology">→ recherche douleur</span></p>
+                
+                <h2>5. Membres inférieurs (Legs)</h2>
+                
+                <p>Position : patient couché</p>
+                
+                <h3>Tests fonctionnels</h3>
+                
+                <p><strong>Hanche</strong> : rotation interne et externe</p>
+                
+                <p><strong>Genou</strong> :</p>
+                <ul>
+                    <li>Recherche signe du glaçon</li>
+                    <li>Mobilité flexion-extension</li>
+                </ul>
+                
+                <p><strong>Pieds</strong> :</p>
+                <ul>
+                    <li>Compression articulations métatarsiennes <span class="pathology">→ recherche douleur</span></li>
+                    <li>Inspection plante des pieds</li>
+                    <li>Voûte plantaire</li>
+                    <li>Callosités, signes d'appui</li>
+</ul>
+                
+                <span class="figure-reference" onclick="scrollToFigure('fig6')">(FIG 6)</span>
+                
+                <h2>Carte de synthèse</h2>
+                
+                <h3>Anamnèse</h3>
+                <ul>
+                    <li>Douleurs/raideur musculaire/articulaire/lombaire ?</li>
+                    <li>Capacité à se dés-/habiller sans difficulté</li>
+                    <li>Capacité à monter/descendre escaliers sans difficulté</li>
+                </ul>
+                
+                <h3>Gait (marche)</h3>
+                <ul>
+                    <li>Observation : standard/pointes/talons</li>
+                    <li>Asymétrie, alignement axial</li>
+                    <li>Fluidité mouvement et demi-tour</li>
+                    <li>Boiterie (types)</li>
+                    <li>Ballant bras et position hémicorps supérieur</li>
+</ul>
+                
+                <h3>Spine (rachis)</h3>
+                <p><strong>Plan frontal</strong> :</p>
+                <ul>
+                    <li>Courbures colonne (lordose cervicale, cyphose thoracique, lordose lombaire)</li>
+                    <li>Position genoux (hyperflexion/extension)</li>
+</ul>
+                
+                <p><strong>Plan sagittal</strong> :</p>
+                <ul>
+                    <li>Symétrie colonne, épaules, hanches</li>
+                    <li>Recherche gibbosité scapulaire</li>
+                    <li>Trophicité membres inférieurs et masse poplitée</li>
+                    <li>Alignement axial membres inférieurs</li>
+</ul>
+                
+                <p><strong>Tests</strong> :</p>
+                <ul>
+                    <li>Inclinaisons latérales nuque</li>
+                    <li>Ouverture buccale et mouvement mâchoire</li>
+                    <li>Test de Schober et distance doigts-sol</li>
+</ul>
+                
+                <h3>Arms (membres supérieurs)</h3>
+                <ul>
+                    <li>Inspection coudes et mains (dorsale/palmaire)</li>
+                    <li>Aspect, température</li>
+                    <li>Alignement coudes et doigts</li>
+                    <li>Abduction/rotation externe épaules</li>
+                    <li>Pro-supination, test Palm-Up</li>
+                    <li>Force flexion doigts, pianotage</li>
+                    <li>Compression articulations métacarpiennes (douleur)</li>
+</ul>
+                
+                <h3>Legs (membres inférieurs)</h3>
+                <ul>
+                    <li>Rotation interne/externe hanches</li>
+                    <li>Flexion/extension genoux, signe du glaçon</li>
+                    <li>Compression articulations métatarsiennes (douleur)</li>
+                    <li>Inspection plantaire, qualité appui et voûte</li>
+</ul>
+                
+                <div class="cards-section">
+                    <h2>Cartes de Révision</h2>
+                    <div class="cards-images">
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/GALS/GALS-carte_page-0001.jpg" alt="Carte de révision 1">
+                        </div>
+                        <div class="card-image-container" onclick="openModal(this)">
+                            <img src="../Fiches/RMS/GALS/GALS-carte_page-0002.jpg" alt="Carte de révision 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <h3>Figures</h3>
+                <div id="figures-container"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+    
+    <script>
+        // Liste des figures
+        const figures = [
+            {id: 'fig1', file: 'FIG 1.jpg', caption: 'FIG 1 - Marche'},
+            {id: 'fig2', file: 'FIG 2.jpg', caption: 'FIG 2 - Position rachis'},
+            {id: 'fig3', file: 'FIG 3.jpg', caption: 'FIG 3 - Tests fonctionnels'},
+            {id: 'fig4', file: 'FIG 4.jpg', caption: 'FIG 4 - Test de Schober'},
+            {id: 'fig5', file: 'FIG 5.jpg', caption: 'FIG 5 - Tests membres supérieurs'},
+            {id: 'fig6', file: 'FIG 6.jpg', caption: 'FIG 6 - Tests membres inférieurs'},
+            {id: 'fig7', file: 'FIG 7.jpg', caption: 'FIG 7'},
+            {id: 'fig8', file: 'FIG 8.jpg', caption: 'FIG 8'},
+            {id: 'fig9', file: 'FIG 9.jpg', caption: 'FIG 9'}
+        ];
+        
+        // Génération des figures dans la sidebar
+        const figuresContainer = document.getElementById('figures-container');
+        figures.forEach(fig => {
+            const figureDiv = document.createElement('div');
+            figureDiv.className = 'figure-container';
+            figureDiv.id = fig.id;
+            figureDiv.onclick = () => openModal(figureDiv.querySelector('img'));
+            
+            const img = document.createElement('img');
+            img.src = `../Fiches/RMS/GALS/${fig.file}`;
+            img.alt = fig.caption;
+            
+            const caption = document.createElement('div');
+            caption.className = 'figure-caption';
+            caption.textContent = fig.caption;
+            
+            figureDiv.appendChild(img);
+            figureDiv.appendChild(caption);
+            figuresContainer.appendChild(figureDiv);
+        });
+        
+        // Fonction pour scroller vers une figure
+        function scrollToFigure(figId) {
+            const element = document.getElementById(figId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                element.style.transform = 'scale(1.05)';
+                setTimeout(() => {
+                    element.style.transform = '';
+                }, 500);
+            }
+        }
+        
+        // Fonction pour ouvrir le modal
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = img.src || img.querySelector('img').src;
+        }
+        
+        // Fonction pour fermer le modal
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+        
+        // Fermer le modal avec la touche Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

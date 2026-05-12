@@ -1,0 +1,3249 @@
+Examen pédiatrique
+Table des matières
+1) Urgences pédiatriques......................................................................................................................1
+1.1) Généralités................................................................................................................................1
+1.2) TEP...........................................................................................................................................2
+1.3) Pentagone pédiatrique..............................................................................................................3
+1.4) Hexagone pédiatrique et suite..................................................................................................5
+1.5) La détresse respiratoire.............................................................................................................6
+2) Symptômes de problèmes cardio-vasculaires chez l'enfant.............................................................7
+3) Skills neurologiques du petit enfant...............................................................................................10
+3.1) Périmètre crânien, macro- et micro-céphalie..........................................................................10
+3.2) Tonus et force.........................................................................................................................11
+4) Examen de la relation parents-enfant.............................................................................................13
+4.1) Théorie....................................................................................................................................13
+4.2) Structure de la consultation....................................................................................................14
+5) Anamnèse des pleurs du nourrisson...............................................................................................15
+5.1) Théorie....................................................................................................................................15
+5.2) Démarche clinique..................................................................................................................15
+5.3) Que faire de plus en cas de fièvre...........................................................................................18
+6) Développement psycho-moteur de l'enfant....................................................................................20
+7) Croissance staturo-pondérale et du PC de l'enfant.........................................................................21
+8) Examen clinique du nouveau-né....................................................................................................27
+9) Développement psycho-moteur de 0 à 2 ans..................................................................................36
+10) Examen clinique de l'enfant.........................................................................................................40
+
+1) Urgences pédiatriques
+1.1) Généralités
+On retrouve 3 grandes situations à risque :
+
+Page 1 sur 46
+
+On notera que la différence entre une détresse respiratoire et une insuffisance respiratoire est le fait
+que la détresse respiratoire est un état dans lequel on est si on sent que les échanges gazeux par les
+poumons ne sont plus efficaces (= demande une augmentation du travail respiratoire, induisant une
+dyspnée) et on met en place des mécanismes de défense pour compenser (ex. : tirage costal,
+tachypnée, etc.), alors que dans l'insuffisance respiratoire, les mécanismes de défense sont dépassés
+et le patient n'arrive plus à compenser les échanges gazeux perturbés.
+Il est important de noter que la survie après un arrêt respiratoire seul dépasse les 60% chez les
+enfants, alors qu'elle avoisine les 0% en cas d'ACR ! Il est donc indispensable de rapidement traiter
+un arrêt respiratoire (rappel : très fréquent chez les enfants) pour éviter qu'il se mue en ACR.
+Lors d'une urgence pédiatrique, on appliquera toujours ces deux schémas :
+
+On notera que le TEP (= Triangle d'Évaluation Pédiatrique) n'est qu'un examen purement visuel et
+ne va donner qu'une impression visuelle (= par de prise de pouls par exemple) de la gravité de la
+situation, sans non plus commencer à envisager des étiologie (= ne classe que par gravité).
+Lors de tout le processus, il est nécessaire de se mettre à plusieurs, avec un leader (à distance, qui
+observe et dit qui doit faire quoi ; est la personne avec le plus d'expérience) et plusieurs membres
+d'équipe avec chacun une tâche précise.
+On notera également que comme les enfants ont très souvent des problèmes respiratoires plus que
+des problèmes cardiaques, si on retrouve un problème cardiaque et respiratoire ensemble, il faut
+ventiler le patient, et si le problème ne se règle pas, il faut considérer un ACR !
+Remarque : on notera qu'en cas de trauma ou de causes toxiques, on va directement passer à l'ABC
+plutôt qu'à l'ABCDE/pentagone pédiatrique !
+
+1.2) TEP
+
+Page 2 sur 46
+
+Le TEP est un examen en un coup d'oeil pour déterminer la sévérité de la situation, comprenant 3
+points :
+–
+
+Conscience et tonus : alerte, irritable, ne répond pas, etc.
+
+–
+
+Respiration : augmentation, absence ou diminution du travail respiratoire, bruits
+respiratoires particuliers sans auscultation, etc.
+
+–
+
+Couleur : pâleur, marbrure, cyanose, etc.
+
+Si tous les côtés sont normaux ou un seul côté est touché, on peut encore laisser l'enfant en salle
+d'attente, mais si 2 côtés ou plus sont touchés, il faut immédiatement l'envoyer en salle de
+réanimation !
+
+1.3) Pentagone pédiatrique
+
+Le pentagone pédiatrique utilise le même principe que chez les adultes, avec l'ABCDE :
+–
+
+–
+
+A (Airways) : Il permet de déterminer si les voies sont :
+–
+
+Libres
+
+–
+
+Libres avec aide : elles peuvent se libérer par des mesures simples, comme la
+stimulation verbale, l'aspiration ou certaines manoeuvres (head tilt (= coucher
+l'enfant sur le dos avec un linge sur les épaules pour dégager ses VA) ou jaw
+thrust (= subluxation de la mâchoire))
+
+–
+
+Obstruées : demandent une intubation ou une ventilation assistée au ballon
+
+B (Breathing) :
+–
+
+FR ; tachypnée en fonction de l'âge : > 60/min chez < 2 mois, > 50/min entre > 2
+Page 3 sur 46
+
+mois et < 1 an, > 40/min entre > 1 an et < 5 ans et 20-30/min entre > 5 et < 10
+ans
+–
+
+Efforts respiratoires indiquant une lutte : tirage1, ampliation thoracique, signe de
+la tortue2, battement des ailes du nez, balance thoraco-abdominale, problèmes
+inspiratoire, expiratoire ou les deux, etc.
+–
+
+–
+
+Diagnostic de détresse respiratoire : posé si on retrouve ≥ 2 des 5 signes
+pendant minimum 15 à 30 minutes) :
+–
+
+Tachypnée (FR dépend de l'âge)
+
+–
+
+Cyanose (centrale !) ± transpiration (signe de lutte)
+
+–
+
+Efforts pour respirer avec tirages sous-sternal, inter-costal ou sussternal (contraction du SCM ou d'autres mm. accessoires de la
+respiration, rétraction sus-claviculaire ou costale (= clavicule ou côtes
+plus hautes))
+
+–
+
+Battement des ailes du nez
+
+–
+
+Gémissement expiratoire
+
+–
+
+Bruits respiratoires : stridor (inspir ou inspir et expir si sévère),
+wheezing/sibilances (signe d'obstruction des VAI) et gémissement
+expiratoire/grunting
+
+–
+
+Couleur de la peau (une peau marbrée sera retrouvée dans un état de choc ou
+chez un enfant fébrile)
+
+–
+
+Oxymétrie : se méfier d'elle, car elle n'indique pas une intoxication au CO par
+exemple, ou n'indique pas la quantité d'O2 délivrée aux tissus (dépendant surtout
+du débit cardiaque !). Elle ne permet également pas d'indiquer l'efficacité d'une
+ventilation
+
+C (Circulation) :
+–
+
+Fréquence cardiaque et régularité
+
+–
+
+Pouls : palper les pouls centraux (fémoral ; brachial si < 1 an ; carotidien si > 1
+an ; axillaire jamais fait) et périphériques (radial, pédieux et tibial postérieur)
+
+–
+
+Couleur3 et température de la peau
+
+–
+
+Temps de recoloration (pas forcément uniquement au bout des doigts)
+
+–
+
+TA
+
+–
+
+Fonction du cerveau (état d'éveil) et des reins : permet de donner une idée de la
+perfusion des organes. Il sera donc important de vérifier si les couches
+contiennent de l'urine (= indique une bonne perfusion et/ou hydratation) et, si
+l'enfant pleure, s'assurer que des larmes coulent (= indique une bonne
+hydratation)
+
+1 Comme bon moyen pour évaluer la détresse respiratoire d'un enfant, plus les signes de tirage sont haut (= souscostal > costal > etc.), plus la détresse respiratoire est importante
+2 Signe où l'enfant mobilise tous ses muscles respiratoires accessoires, ce qui fait qu'à chaque inspiration, sa tête se
+rejette légèrement en arrière
+3 Rappel : la cyanose centrale est visible sur la langue, alors que la cyanose périphérique est visible sur les lèvres et
+les extrémités
+
+Page 4 sur 46
+
+–
+
+–
+
+–
+
+Choc (par définition, c'est une diminution de la perfusion tissulaire) : on se
+souvient que si un enfant perd du sang, il sera d'abord dans une phase de choc
+compensé, jusqu'à une perte de 30%, les vaisseaux se contractant et maintenant
+l a TA normale (= au début, seulement tachycardie = choc compensé. La
+perfusion périphérique est donc amoindrie, mais les pouls centraux restent
+présents). Après cette barre des 30%, les enfants vont très rapidement
+décompenser, avec un choc décompensé/hypotensif (= TA basse et tachycardie !
+Ici, les pouls centraux s'affaiblissent et l'état d'éveil diminue)
+
+D (= Disability) :
+–
+
+Score de Glasgow simplifié pour les enfants : l'AVPU4
+
+–
+
+État des pupilles : myosis, mydriase, répondant ou non à la lumière, uni- ou bilatérale
+
+–
+
+Glycémie : peut provoquer des comas et facilement réversible !
+
+–
+
+Signes d'hypoxie sévère et soudaine : diminution de l'état de conscience,
+diminution du tonus musculaire, convulsions généralisées, dilatation des pupilles
+
+–
+
+Signes d'hypoxie progressive : confusion, diminution de l'état de conscience,
+irritabilité, léthargie, alternance entre léthargie et agitation (attention aux
+adolescents qui peuvent prendre des drogues)
+
+E (= Exposure) :
+–
+
+Enlever tous les vêtements des enfants, y compris le pampers !
+
+–
+
+Présence de trauma, brûlures, hémorragies, atteintes cutanées (ex. : pétéchies)
+
+–
+
+Mesure de la température (auriculaire, éviter rectale)
+
+–
+
+Prévention de l'hypothermie
+
+–
+
+Immobilisation de la colonne cervicale (= minerve) en cas de suspicion de
+traumatisme
+
+1.4) Hexagone pédiatrique et suite
+On suit les 6 lettres ; le « Dernier repas » est important à demander, car si l'enfant doit partir au
+bloc, il faut qu'il n'ait pas mangé dans les dernières 6 heures et pas bu dans les dernières 4 heures.
+
+L'étape finale est de classer le problème en fonction de sa sévérité et de suivre un autre algorithme
+4 Awake ; responsive to Voice ; responsive to Pain ; Unresponsive
+
+Page 5 sur 46
+
+(le schéma en gris montre les problèmes vitaux pour lesquels il faut agir rapidement) :
+
+1.5) La détresse respiratoire
+Une détresse respiratoire se caractérise suivant 5 signes :
+–
+
+1) Tachypnée
+
+–
+
+2) Tirage (plusieurs types, cf. plus bas)
+
+–
+
+3) Battement des ailes du nez
+
+–
+
+4) Balance thoraco-abdominale : pathognomique d'une obstruction des voies
+respiratoires supérieures, elle apparaît lors d'une fatigue du diaphragme. En effet,
+normalement, à l'inspir, le thorax et le ventre devraient se bomber, puis se vider à l'expir,
+mais ici on va retrouver une inversion entre le thorax et l'abdomen : à l'inspir, l'abdomen
+se gonfle et le thorax s'affaisse, et l'inverse en expir !
+
+–
+
+5) Signe de la torture : l'enfant mobilise tous ses muscles respiratoires accessoires, ce qui
+fait qu'à chaque inspiration, sa tête se rejette légèrement en arrière
+
+Un autre cours proposait plutôt : diagnostic posé si on retrouve ≥ 2 des 5 signes pendant minimum
+15 à 30 minutes) :
+–
+
+Tachypnée (FR dépend de l'âge)
+
+–
+
+Cyanose (centrale !) ± transpiration (signe de lutte)
+
+–
+
+Efforts pour respirer avec tirages sous-sternal, inter-costal ou sus-sternal (contraction du
+Page 6 sur 46
+
+SCM ou d'autres mm. accessoires de la respiration, rétraction sus-claviculaire ou costale
+(= clavicule ou côtes plus hautes))
+–
+
+Battement des ailes du nez
+
+–
+
+Gémissement expiratoire
+
+On peut retrouver deux grands types d'obstructions, soit haute, soit basse :
+–
+
+–
+
+Obstruction haute (prototype : corps étranger ou faux croup) :
+–
+
+Tirage majoritairement sus-sternal (= creux juste au-dessus du sternum, entre les
+deux clavicules)
+
+–
+
+Peu de tachypnée
+
+–
+
+Signe de la tortue
+
+–
+
+Stridor, surtout inspiratoire et pouvant devenir en deux temps en cas
+d'obstruction sévère
+
+–
+
+À exclure : faux-croup (= trachéite, virale, typiquement avec moins de fièvre
+qu'une épiglottite), laryngite, épiglottite et corps étranger
+
+Obstruction basse (prototype : asthme, bronchiolite ou pneumonie) :
+–
+
+Tirage sous- et inter-costal, moins marqué que dans les obstructions hautes
+
+–
+
+Tachypnée marquée
+
+–
+
+Balancement thoraco-abdominal
+
+–
+
+Sibilances/wheezing : syndrome obstructif comme bronchiolite ou asthme ;
+grunting/gémissement expiratoire : syndrome restrictif comme pneumonie
+
+2) Symptômes de problèmes cardio-vasculaires chez l'enfant
+Comme introduction, on peut dire qu'il est essentiel (et très difficile !) de faire la distinction entre
+problème CV ou pulmonaire chez les enfants !
+–
+
+–
+
+Difficultés d'alimentation
+–
+
+Têtée : durée (N ~ 10 à 15 minutes), fréquence et fatigue
+
+–
+
+Anorexie (grosse faim au réveil !), manque d'appétit
+
+–
+
+Vomissements
+
+–
+
+Douleurs abdominales (= se tortille dans tous les sens après avoir mangé)
+
+–
+
+Troubles du transit (= diarrhées ou constipation)
+
+–
+
+Croissance staturo-pondérale (par exemple, en cas de coeliakie, on a typiquement
+une cassure de la croissance vers 12 mois, lorsqu'on donne du gluten pour la
+première fois, l'impact se voyant d'abord sur le poids, puis sur la taille)
+
+–
+
+Symptômes associés : sudation, malaises, pâleur
+
+Apparence : un enfant avec IC chronique sera typiquement très maigre, avec une forte
+Page 7 sur 46
+
+déformation du thorax ! On peut aussi parfois retrouver un tirage, une tachypnée, un
+grunting, etc.
+–
+
+–
+
+–
+
+Dyspnée
+–
+
+Circonstances d'apparition
+
+–
+
+Signes associés
+
+–
+
+Classification NYHA (rappel : I = rien ; II = modérée à l'effort ; III = importante
+pour les activités quotidiennes ; IV = de repos)
+
+–
+
+Signes de détresse respiratoire5
+
+–
+
+Toux (indique un OAP ! On retrouve en fait étonnament souvent ce signe dans
+les problèmes d'origine cardiaque)
+
+–
+
+Wheezing (dans l'asthme ou les OAP)
+
+–
+
+Râles
+
+–
+
+Stridor (en cas d'anneau vasculaire formé par une aorte mal placée qui enserre la
+trachée)
+
+Cyanose
+–
+
+Centrale (= langue) ou périphérique (= doigts et lèvres)
+
+–
+
+Hippocratisme digital (= signe d'une cyanose chronique !)
+
+–
+
+Circonstance de survenue (= repos ou effort)
+
+–
+
+Facteurs déclenchants (= repas, pleurs, contrariété, déshydratation, etc.)
+
+–
+
+Facteurs atténuants (ex. : squatting avec la tétralogie de Fallot)
+
+–
+
+Symptômes associés : polypnée, perte de contact, convulsions
+
+Oedèmes (signe tardif d'une atteinte cardiaque, congénitale ou acquise)
+–
+
+Localisation : MS, MI, paupières, scrotum
+
+–
+
+Circonstances d'apparition (au lever le matin ou après une longue journée debout
+le soir)
+
+–
+
+Prise pondérale
+
+–
+
+Symptômes associés : varices, dermite (ocre) (= signe d'une insuffisance
+veineuse des MI, signant une ICD de longue durée), gonflement et/ou inconfort
+abdominal
+
+–
+
+Signe du godet
+
+–
+
+Signes d'ascite
+
+–
+
+Distension jugulaire
+
+–
+
+Hépato-splénomégalie
+
+–
+
+Reflux hépato-jugulaire
+
+5 Rappel des 5 signes : tachypnée, tirage, battement des ailes du nez, balancement thoraco-abdominal et signe de la
+tortue
+
+Page 8 sur 46
+
+–
+
+–
+
+–
+
+Douleurs thoraciques6 : dans les vraies douleurs thoraciques, les enfants pleurent et
+deviennent tout pâles (= normalement, s'ils pleurent, ils sont tout rouges ou tout bleus !)
+–
+
+Caractérisation selon les 7 points de la douleur7
+
+–
+
+Couleur
+
+–
+
+FC
+
+–
+
+Perfusion périphérique
+
+–
+
+Sudations
+
+–
+
+Inspirium profond
+
+–
+
+Palpation du thorax
+
+Palpitations8
+–
+
+Décrire le type
+
+–
+
+FC
+
+–
+
+Déclencheurs
+
+–
+
+Fréquence de survenue
+
+–
+
+Symptômes associés : malaise, pâleur, douleurs thoraciques, syncopes
+
+Syncope
+
+Causes principales des douleurs thoraciques :
+–
+
+N°1 : Douleurs musculo-squelettiques : douleurs à la palpation des espaces intercostaux,
+parfois des deux côtés. Super fréquentes (90% de toutes les douleurs thoraciques !)
+
+–
+
+N°2 : Péricardite : douleur violente, d'apparition soudaine, augmentant à l'inspirium et
+aggravée par la position couchée
+
+–
+
+Plus rare : Coronarienne : douleur médiothoracique, rétro-sternale et constrictive qui
+irradie dans le cou, la mâchoire ou le bras gauche. Elles arrivent typiquement à l'effort
+(ex. : pleurs et pâleur lors de la têtée du nourrisson => signal d'alarme !), souvent
+retrouvées avec la séquence pâleur, sudation et syncope9
+
+–
+
+Plus rare : Dissection aortique (typique du syndrome de Marfan) : douleur très violente,
+en coup de poignard, migratrice, débutant en médiothoracique, puis évoluant dans le dos
+et la région lombaire
+
+–
+
+Plus rare : Embolie pulmonaire : douleur latérale, aux bases thoracique, en coup de
+poignard. Elle augmente à l'inspirium profond, est exacerbée par la toux et est souvent
+accompagnée de polypnée
+
+6 Causes principales décrites ci-dessous
+7 Remarque : une douleur cardiaque se manifestera plutôt à l'effort, moins avec la respiration (sauf la péricardite)
+8 Les palpitations les plus fréquentes chez les enfants sont les TSV (FA et FV très rares), survenant typiquement au
+repos (= pas trop à l'effort), avec début et fin brutales, l'anamnèse étant typique avec un « coeur qui bat dans le cou »
+9 Ex : enfant qui, lorsqu'il fait du sport demandant beaucoup d'efforts, fait des syncopes => il avait en fait la coronaire
+gauche qui passait entre l'aorte et le tronc pulmonaire, et qui était compressée par les pulsations de l'aorte à l'effort
+
+Page 9 sur 46
+
+On notera que l'examen cardiaque de l'enfant s'effectue exactement comme chez l'adulte !
+Remarque : dans le syndrome de Down (yeux bridés, grosse langue, clinodactylie, RCIU et pli
+palmaire transverse), on retrouve classiquement 3 malformations cardiaques pouvant être
+associées :
+–
+
+Canal atrio-ventriculaire : anomalie du septum atrio-ventriculaire, qui ne forme pas une
+cloison et permet la fusion des valves tricuspide et mitrale en une seule et unique
+immense valve séparant les O des V
+
+–
+
+CIV
+
+–
+
+Tétralogie de Fallot
+
+3) Skills neurologiques du petit enfant
+3.1) Périmètre crânien, macro- et micro-céphalie
+Le périmètre crânien (PC) se calcule en prenant un mètre et en le faisant passer de la protubérance
+occipitale externe au centre du front, le but étant d’obtenir le diamètre fronto-occipital le plus grand
+possible. Il est normalement de 35cm à terme (et 25cm à 28 semaines et 45cm à 8 mois) et est
+déterminé par l'épaisseur du crâne et la taille du cerveau (avec le LCR). Pour avoir une bonne idée
+de si la croissance est harmonieuse, il faut toujours le comparer à la croissance staturo-pondérale de
+l'enfant !
+On notera que le PC grandit extrêmement rapidement les 2 premières années de vie, puis grandira
+plus gentiment ensuite ; ceci s'explique entre-autre par le fait que les fontanelles (antérieure et
+postérieure sont les plus importantes) ne sont pas encore fermées alors, étant fermées à 2 ans chez
+96% des enfants.
+Macrocéphalie : on parle de macrocéphalie si le PC > 97ème percentile. Face à une macrocéphalie,
+il faut toujours se poser les questions (1) est-ce qu'elle est congénitale ? (2) Est-ce qu'elle est au
+contraire progressive ? (3) Est-elle accompagnée ou non de signes neurologiques ? Ces questions
+pourront ainsi aider à savoir si le problème vient de la circulation du LCR ou du volume cérébral.
+Dans ces deux cas, l'IRM sera un outil très précieux pour poser le diagnostic ; exemples :
+–
+
+Trouble de la résorption du LCR : augmentation des espaces péri-cérébraux (= partie
+entre le crâne et le cerveau) avec dilatation modérée des venticules cérébraux. Si ce
+trouble ne s'accompagne pas de problèmes neurologiques (ex. : HTIC), d'effet de masse
+et que le développement est normal, il ne faudra rien faire ! On le retrouve souvent chez
+les petits garçons après 6 mois et il n'est pas dangereux en soi ; il faut juste avertir les
+parents qu'une chute pourrait faire lâcher des veines dans le cerveau, le cerveau se
+baladant plus librement dans sa boîte crânienne
+
+–
+
+Hydrocéphalie : disparition des espaces péri-cérébraux, immense dilatation des
+ventricules, fort effet de masse et signes d'HTIC. Ici on a affaire à une hydrocéphalie
+non-communicante, qu'il faut rapidement prendre en charge !
+
+On notera d'ailleurs que les hydrocéphalies sont des causes fréquentes d'HTIC chez les nourrissons,
+donnant typiquement plusieurs signes :
+–
+
+Fontanelle bombée
+
+–
+
+Déhiscence des sutures
+Page 10 sur 46
+
+–
+
+Veines du scalp trop visibles
+
+–
+
+Léthargie ou irritabilité
+
+–
+
+Apnées
+
+–
+
+Posture anormale (= opisthotonos, signe d'un engagement)
+
+–
+
+Signe du « Soleil couchant » : il apparaît lors d'une paralysie du regard vertical vers le
+haut chez les bébés, leurs yeux regardant vers le sol au repos. Du coup, leurs yeux jouent
+le rôle de soleil, à moitié caché derrière l'horizon qu'est la paupière inférieure
+
+Microcéphalie : on parle de microcéphalie si le PC < 3ème percentile. On se posera les 3 mêmes
+questions que pour la macrocéphalie, mais ici pour chercher à savoir si le problème vient d'une
+anomalie du développement cérébral (= petit à la base ?) ou d'une destruction en phase rapide de
+croissance (= perte progressive avec le temps ?). Dans ces deux cas, l'IRM sera un outil très
+précieux pour poser le diagnostic ; exemples :
+–
+
+Lissencéphalie : enfant né avec un PC petit de base, l'IRM montrant une absence de
+gyration du cerveau, un cortex anormalement épais, un sévère retard de développement
+et une épilepsie réfractaire (donne des genre de secousses, des sursauts, mais également
+une hypertonie périphérique et hypotonie axiale, des réflexes trop vifs, etc.)
+
+–
+
+Lésions (comme AVC ou post-traumatique) : les symptômes dépendent des zones
+touchées lors de l'accident (hémiparésie, épilepsies, cognition, etc.)
+
+En définitive, on retiendra que la cinétique de la courbe de croissance du PC nous oriente vers la
+cause :
+–
+
+Une courbe croissant de manière harmonieuse du début à la fin, même si elle reste en
+permanence sur ou sous les percentiles 3 et 97 indique une croissance normale ! Ce sont
+les grosses/petites têtes constitutionnelles
+
+–
+
+Une courbe décollant très rapidement de la norme (pratiquement à la verticale) et ne
+cessant d'augmenter doit faire penser à une hydrocéphalie ou a un processus expansif
+intra-crânien
+
+–
+
+Une cause pré-natale (génétique, malformative, métabolique, etc.) impactant sur le
+développement du cerveau se manifestera par un cerveau immédiatement sous les
+normes. Le développement peut ensuite suivre le développement normal en restant
+toujours sous la courbe, signe de lésions congénitales ou de syndrome dysmorphogénétique, ou au contraire se stabiliser ou se péjorer avec le temps, indiquant plutôt des
+maladies dégénératives, métaboliques ou des épilepsies sévères
+
+–
+
+Une cassure nette de la courbe, la faisant rapidement sortir de la norme (= passe
+rapidement sous le 3ème percentile) doit faire évoquer une cause acquise ou une maladie
+dégénérative
+
+3.2) Tonus et force
+Le tonus et la force sont tous deux déterminés par le SNC et SNP. Suivant le système le plus
+touché, on aura deux grands tableaux, en commençant avec le tonus :
+–
+
+SNC :
+Page 11 sur 46
+
+–
+
+–
+
+Hypotonie axiale (= dos et tête)
+
+–
+
+Hypertonie des membres (spastique (= augmentation du tonus en fonction de
+l'amplitude et de la vitesse du mouvement) si les voies pyramidales sont lésées,
+rigide si c'est la boucle des noyaux gris centraux qui sont lésés). Elle ne se
+manifestera que dès 3 à 4 mois, le SNC étant encore immature avant
+
+–
+
+± faiblesse
+
+–
+
+L'éveil et/ou le contact visuel peuvent être altérés (= typiquement ne pleure pas,
+n'est pas intéressé, etc.)
+
+–
+
+Hyper-réflexie, clonus et Babinski seulement dès 18 à 24 mois
+
+–
+
+Bras parfois en flexion et pronation avec le temps
+
+–
+
+(Réflexe de Moro normal)
+
+SNP :
+–
+
+Hypotonie (axiale et des membres) pseudo-paralytique flasque
+
+–
+
+Fatiguabilité et/ou faiblesse musculaire
+
+–
+
+Éveil et contact préservés => les enfants sont tout mous, comme des poupées de
+chiffon, mais ils sont bien présents
+
+En cas de problème de tonus, on peut faire différents tests pour déterminer le siège de l'atteinte :
+–
+
+Examiner le tonus de repos : un bébé normal a tout d'abord une hypertonie des membres
+et une hypotonie du tronc, prenant la position « en grenouille » s'il est mis sur le dos. Au
+contraire, un bébé hypotone aura les bras et les jambes plaqués au lit si on le met sur le
+dos, en « anse de panier »
+
+–
+
+Mesurer le tonus passif :
+
+–
+
+–
+
+Mobilisation autour d'une articulation : on peut par exemple prendre les bras des
+bébés et les faire alterner entre pro- et supination ; on peut également alterner
+entre flexion et extension (poignet et/ou coude). Dans ces deux cas, une atteinte
+centrale se révélera par une rigidité marquée du membre en question
+
+–
+
+Ballant des mains et des pieds
+
+Mesurer le tonus actif (ici en testant la résistance à la gravité, le soutien de la tête
+apparaissant vers les 2 mois chez les bébés) :
+–
+
+Tiré assis : on pose le bébé couché sur le dos dans son lit, on prend ses deux
+mains et on le tire vers le haut pour le mettre en position assise. Normalement, le
+bébé va redresser sa tête pour ne pas perdre le contact avec l'examinateur, mais
+dans une atteinte du SNC ou du SNP, la tête va complètement tomber en arrière,
+comme si aucun muscle ne la tenait (et il ne va pas non plus essayer de tirer sur
+nos bras pour s'aider à se mettre en position assise lorsqu'on le tire)
+
+–
+
+Suspension axillaire : on prend le bébé sous les bras comme Rafiki avec Simba
+dans le « Roi lion » et on regarde s'il contracte ses muscles pour maintenir ses
+bras collés à son corps pour éviter de glisser
+
+–
+
+Suspension ventrale : on prend le bébé à une main, sur le ventre et on le soulève
+Page 12 sur 46
+
+au-dessus de la table d'examen. Normalement, il va essayer de tenir sa tête dans
+l'axe de son dos (comme pour regarder tout droit) et il va essayer de ramener un
+peu ses membres vers son corps (~ la position d'un saut en parachute). S'il est
+tout mou, sa tête et ses membres vont tomber vers le sol sans tonus
+Maintenant pour un problème de force, il faut d'abord préciser qu'il est possible d'avoir un tonus
+diminué tout en ayant une force normale (ex. : hyperlaxes). Pour tester la force, on peut faire
+différents tests :
+–
+
+Amplitude des mouvements contre gravité
+
+–
+
+Aide au tiré assis
+
+–
+
+Port de tête
+
+–
+
+Manipulation des objets lourds
+
+–
+
+Signe de Gowers indiquant une faiblesse des muscles de la ceinture pelvienne
+
+4) Examen de la relation parents-enfant
+4.1) Théorie
+Rôle normal d'un parent : d'après Winnicott, le rôle normal d'un parent doit se faire en 3 étapes, qui
+si elles ne se font pas normalement, risquent d'apporter un développement anormal pour l'enfant :
+–
+
+1) Préoccupation maternelle primaire10 : cette première phase se passe au tout début de la
+vie du bébé, alors que la mère va totalement se dévouer à son enfant et va répondre à
+tous ses besoins. Elle va également se charger de beaucoup le stimuler pour qu'il soit
+bien
+
+–
+
+2) Protection contre l'excès de stimulation : cette autre phase est marquée par une
+fonction de par-excitation, la mère accompagnant l’enfant pour éviter que toutes les
+stimulations qu'il reçoit ne le submergent
+
+–
+
+3) Manque : après quelques semaines ou mois de vie du bébé, la mère sort de la
+préoccupation maternelle primaire et doit apprendre à laisser le bébé commencer à agir
+seul. Elle doit faire un retrait, difficile au début, tout en restant disponible pour son
+enfant. C'est généralement à ce moment là que l'enfant va mettre en place un objet
+transitionnel pour remplacer sa mère, un doudou
+
+On notera que même si un enfant peut difficilement communiquer au début, il va très rapidement
+échanger avec ses parents, donnant une circularité dans les échanges, même s'ils ne sont pas égaux.
+Il va rapidement susciter et répondre à l'attention des parents, modifiant le comportement de ses
+parents. Finalement, on peut aussi dire que le bébé constitue ses parents comme des parents, la
+bonne évolution de leur enfant les faisant sentir qu'ils sont de bons parents.
+Dans certaines pathologies, comme l'autisme par exemple, cette relation (encore une fois inégale
+entre les parents et leur enfant) est totalement perturbée, les parents ne retrouvant pas la réciprocité
+nécessaire à la constitution des échanges normaux, ce qui peut rapidement détruire la relation
+parents-enfant.
+10 Une anomalie de cette étape, comme une dépression post-partum par exemple, pourra sévèrement affecter l'enfant,
+le rendant très peu communicatif, très peu expressif et avec peu d'interactions
+
+Page 13 sur 46
+
+Les interactions entre les parents et leur enfant sont de 3 grands types :
+–
+
+Comportementales : ce sont les interactions visuelles, corporelles vocales, etc.
+
+–
+
+Affectives : c'est les émotions et leur circulation dans la relation
+
+–
+
+Fantasmatiques : c'est l'imaginaire et les fantasmes des parents quant à leur enfant, leurs
+représentations. Ces représentations sont la représentation de la place de l'enfant dans
+l'appareil psychique des parents, le rôle/l'image qu'ils lui attribuent, de manière
+consciente ou inconsciente (ex. : « Quand il sera plus grand, mon enfant sera
+astronaute ! »)
+
+On peut également retrouver des troubles de ces interactions, de 3 grands types :
+–
+
+Un excès de stimulation : c'est l'exemple de la mère qui sur-stimule son enfant, essayant
+tout le temps de le forcer à jouer, cherchant toujours à capter son attention par divers
+jeux ou sons, etc. L'enfant va alors souvent essayer de regarder ailleurs, rapidement se
+désintéresser de ce que lui présente sa mère, pas tellement prendre part au jeu, etc.
+
+–
+
+Un manque de stimulation : comme dit plus haut, l'exemple type est la dépression postpartum de la mère, qui pourra sévèrement affecter l'enfant, le rendant très peu
+communicatif, très peu expressif et avec peu d'interactions
+
+–
+
+Une distorsion des stimulations : perturbation des messages entre les parents et l'enfant,
+surtout en terme de verbal et non-verbal
+
+4.2) Structure de la consultation
+–
+
+Motif de consultation
+
+–
+
+Anamnèse :
+
+–
+
+–
+
+Actuelle : quel est le problème en détail
+
+–
+
+Personnelle : histoire péri-natale, scolaire et sociale
+
+–
+
+Parents et famille : super important en pédo-psychiatrie, car il faut considérer une
+famille comme un tout et explorer le fonctionnement de ses différents membres ! Il
+faut donc s'intéresser à tout le système familial
+
+Examen :
+–
+
+–
+
+De l'enfant :
+–
+
+Contact, communication infra-verbale, regard, exploration
+
+–
+
+Jeu (symbolique dès 2 à 3 ans), discours imaginaire. Il faut aller creuser dans
+son contenu et son organisation (rigide ou souple)
+
+–
+
+Dessins, avec sa qualité (= adapté à l'âge mental ?) et sa représentation
+(plaisir, questions, angoisses, etc.)
+
+–
+
+Communication verbale
+
+De la relation parents-enfant
+–
+
+Communication verbale et infra-verbale
+
+–
+
+Comportement
+Page 14 sur 46
+
+–
+
+–
+
+Dimension affective, angoisses, défenses
+
+–
+
+Représentations, fantasmes
+
+–
+
+Dynamique relationnelle, surtout entre la mère et son enfant, avec la
+dimension temporelle de l'adaptation et les cycles d'interaction mère-bébé,
+entre une alternance de phase de disponibilité et de repli
+
+–
+
+Vérité subjective et vérité objective : les parents viennent consulter pour un
+problème subjectif, le véritable problème, objectif, étant souvent caché =>
+c'est au fur et à mesure des consultations que le vrai objectif va émerger
+
+Discussion et diagnostic
+
+5) Anamnèse des pleurs du nourrisson
+5.1) Théorie
+Mais pourquoi les bébés pleurent-ils ?!? Comme c'est presque leur seul moyen de communiquer à
+leur âge, ils vont pleurer pour tout ! Du coup, un bébé va pleurer pour exprimer quelque chose : une
+irritation, de la douleur, faim, inconfort (ex. : couches remplies), poussée dentaire, reflux (normal
+sous les 6 mois), maladies, érythème (normal à cause des fesses qui massèrent), coliques (= toujours
+au même moment dans la soirée, difficiles à consoler), etc. Au final, on se rend compte qu'on
+retrouve beaucoup de choses « physiologiques » et très peu de maladies ou de choses graves !
+Du coup, comment différencier des pleurs normaux de pleurs pathologiques ? En général, des pleurs
+normaux sont pluriquotidiens (= plusieurs fois par jour = discontinus sur la journée = pas continus
+pendant des heures), augmentant en fréquence jusqu'à 6 semaines pour finalement atteindre jusqu'à
+3 heures par jour11 (mais encore une fois, 3 heures discontinues, les enfants faisant des « crises » de
+20 minutes environ) ! Vers 3 mois, les pleurs vont diminuer en terme de durée la journée, atteignant
+à peu près 1 heure par jour (et toujours discontinus).
+Un autre indice d'un pleur normal est s'il est possible de calmer ces pleurs : habituellement, si les
+pleurs sont normaux, le simple fait de demander au parent de gentiment prendre son bébé dans les
+bras et de lui parler pour le calmer devrait stopper ou diminuer l'intensité des pleurs (ne marche par
+contre pas dans les coliques).
+
+5.2) Démarche clinique
+–
+
+1) Laisser parler la maman : comme dans toute anamnèse, il suffit de laisser les patients
+parler et on aura une bonne idée de la situation !
+
+–
+
+2) Poser quelques questions supplémentaires si nécessaire (surtout s'intéresser à l'âge du
+nourrisson, les pleurs habituels changeant en fréquence et intensité avec l'âge !)
+–
+
+Effectuer un TEP
+
+–
+
+Demander si lorsqu'il pleure on voit des larmes (= signe de bonne hydratation) et la
+dernière fois que sa couche était remplie
+
+–
+
+Caractériser les pleurs : apparition (durée12 et évolution !), type, signes associés,
+retentissement, observation, facteurs déclenchants (voyage, changement de rythme,
+etc.), facteurs atténuants et aggravants, fièvre
+
+11 En fonction de si les pleurs sont normaux ou pathologiques, on les qualifiera d'habituels ou d'excessifs
+12 Ex. : pleurer non-stop depuis 3 heures de temps n'est pas normal !
+
+Page 15 sur 46
+
+–
+
+–
+
+–
+
+Est-ce que c'est la première fois (surtout penser aux coliques, qui arrivent
+périodiquement tous les soirs) ?
+
+–
+
+Alimentation : lien avec les repas (= avant = normal ; après = suspect), dernière fois
+qu'il a mangé (ne pas manger (et donc aussi ne pas boire !) pendant plusieurs heures
+est aussi anormal et dangereux, car les enfants peuvent rapidement se déshydrater !),
+transit intestinal. Il faut aussi poser la question des quantités, certains parents
+donnant systématiquement un biberon à l'enfant lorsqu'il pleure pour le calmer et au
+bout d'un moment, ça ne marche forcément plus !
+Aussi caractériser l'état nutritionnel
+
+–
+
+Sommeil (ex. : enfant qui a envie de dormir, mais un rayon de lumière lui illumine le
+visage !)
+
+–
+
+Couleur quand il pleure (blanc surtout pour la douleur, bleu et rouge plutôt pour
+l'inconfort ou la colère ?
+
+–
+
+Traumatismes
+
+–
+
+Risque infectieux péri-natal (= fièvre, boutons, vomissements, ORL et diarrhées) (=
+PECIME)
+
+–
+
+Suivi médical + la dernière fois qu'il a dû aller chez le médecin et pourquoi (=
+PECIME)
+
+–
+
+Carnet de santé et de vaccination (= PECIME)
+
+–
+
+Croissance staturo-pondérale (= PECIME)
+
+–
+
+Croissance PC (= PECIME)
+
+–
+
+Rechercher des signes de fièvre
+
+–
+
+Anamnèse par système
+
+–
+
+Dépression post-partum
+
+3) Examen clinique complet et systémique de l'enfant nu, de la tête au pied, en insistant bien
+sur le Pampers
+–
+
+État neurologique, conscience et réactivité (déjà fait dans le TEP)
+
+–
+
+Examen oculaire
+
+–
+
+Examen ORL
+
+–
+
+Système respiratoire (déjà fait dans le TEP)
+
+–
+
+Système cardiaque (déjà fait dans le TEP)
+
+–
+
+Abdomen
+
+–
+
+Uro-génital
+
+–
+
+Cutané (surtout aller regarder sous les Pampers !)
+
+–
+
+Ostéo-articulaire et crâne
+
+4) Se donner le temps de l'observation : si nécessaire, on peut demander aux parents de
+rester quelques temps à l'hôpital avec leur enfant pour évaluer si ces pleurs sont vraiment
+pathologiques. On fait ainsi un calendrier des pleurs pour déterminer quand précisément
+l'enfant se met à pleurer et on recherche pourquoi (ex. : tous les soirs dans les coliques,
+Page 16 sur 46
+
+chaque fois avant de manger, etc.)
+–
+
+5) DD (« Treat first what kills first »)
+–
+
+Éruption dentaire, coliques et caprices = bénin
+
+–
+
+Bactériémie, méningite, etc. = urgence !
+
+–
+
+6) Examen cliniques orientés
+
+–
+
+7) Prise en charge adaptée au DD et au profil familial
+
+Il est bien de toujours garder cet arbre en tête :
+
+En cas de pleurs habituels jugés excessifs, il est très important de faire de la prévention, car ces
+pleurs peuvent soudainement rendre les parents violents et donner des bébés secoués ! En effet, les
+parents en ont marre que le bébé pleure tout le temps, donc ils le prennent et le secoue =>
+brusquement, il s'arrête (car très surpris) => risquent de recommencer ! Il faut cependant noter qu'il
+suffit de ne le faire qu'une seule et unique fois pour risquer l'apparition de lésions cérébrales
+irréversibles chez le bébé ! Du coup, la prévention est indispensable :
+–
+
+1) Identifier les familles à risque, vulnérables :
+–
+
+ATCD familiaux (sévices, abus sexuels, etc.)
+
+–
+
+Situation socio-familiale (jeunes couples, alcoolisme, chômage)
+
+–
+
+Handicap physique ou mental de l'enfant, maladies chroniques de l'enfant,
+surcharge de travail
+
+–
+
+Histoire d'une grossesse compliquée, d'une éventuelle prématurité
+
+–
+
+Accouchement traumatique
+
+–
+
+Plaintes parentales
+
+–
+
+Dépression post-partum
+
+–
+
+Changement d'alimentation du bébé
+
+Page 17 sur 46
+
+–
+
+2) Mesures de prévention :
+–
+
+Guidance et suivi médico-socio-psycho-éducatif
+
+–
+
+Favoriser la proximité et les interactions entre la mère et son enfant
+
+–
+
+Favoriser l'allaitement maternel
+
+–
+
+Favoriser le portage
+
+–
+
+Respecter le caractère culturel
+
+–
+
+Expliquer le caractère passager des pleurs
+
+5.3) Que faire de plus en cas de fièvre
+Premièrement, il faut dire qu'on considère qu'un nourrisson a de la fièvre si sa température, peu
+importe le site de mesure, dépasse les 38°C. Il faut également que le nourrisson n'ait pas fait
+d'activité intense au préalable, qu'il ne soit pas trop couvert et que la température ambiante soit
+normale. On notera que l'écrasante majorité (~ 99%) des EF chez l'enfant sont causés par des virus,
+les infections bactériennes (beaucoup plus graves !) étant rares, et on se souviendra aussi que les
+parents sont le meilleur indicateur pour savoir si l'enfant est fébrile ou non !
+Que faire :
+–
+
+1) Effectuer un TEP : meilleur outil pour différencier un EF bénin/viral d'un EF
+potentiellement mortel/bactérien !
+
+–
+
+2) Prendre les constantes vitales : T°, FC, FR, TA
+
+–
+
+3) Rechercher des troubles de conscience (= des troubles neurologiques) : perte de
+contact visuel, irritabilité, pas de contact disponible, hypotonie axiale (= la tête qui
+n'arrive plus à se maintenir toute seule), réponse uniquement à la douleur
+
+–
+
+4) Signes de choc : mains froides, pâle, FR élevée, FC élevée et TA normale ou basse (=
+choc compensé ou non)
+
+–
+
+5) Signes d'infection : fièvre, FR rapide, FC rapide, signes de choc
+
+On peut également utiliser un score prédictif d'une infection bactérienne grave (mais on notera que
+ce score de McCarthy est moins efficace que le feeling d'un clinicien expérimenté !) :
+
+Page 18 sur 46
+
+Page 19 sur 46
+
+Page 20 sur 46
+
+(On notera qu'un nourrisson de moins de 6 semaines qui fait soudainement de la fièvre doit être
+considéré comme un drapeau rouge d'une éventuelle infection bactérienne)
+
+6) Développement psycho-moteur de l'enfant
+L'évaluation du développement doit toujours se faire selon 4 grands axes :
+–
+
+1) Motricité, à la fois fine (ex. : pince) et grossière (ex. : marcher, s'asseoir, tenir la tête)
+
+–
+
+2) Personnel, social et émotionnel
+
+–
+
+3) Langage, communication
+
+–
+
+4) Intelligence
+2 mois
+
+1) Motricité
+
+6 mois
+
+12 mois
+
+18 à 24 mois
+
+- Mains ouvertes (au - Tête dans l'axe (2 à 3 - Assis dès 5 à 10 mois - Monte les escaliers
+plus tard 3 mois)
+mois au plus tard)
+- Marche dès 10 à 18 debout et escalade tout
+- Tourne la tête vers la - Saisit dès 4 mois
+mois13
+=> attention aux
+cible
+- Pas de préférence - Pince fine dès 9 à 12 accidents !
+manuelle
+mois
+- Court
+- Apparition de la
+préférence manuelle
+- Autonome pour repas,
+habillage, jeu
+
+2) Personnel, - Dé pres s i on pos t - - Bébé très curieux, qui - A n g o i s s e d e l a - Désir d'autonomie
+s o c i a l e t partum !
+bouge tout le temps (= séparation => objet de - C o n s c i e n c e d e s
+émotionnel
+- Coliques (entre 17 et a l l a i t e m e n t p a r f o i s transition
+besoins
+22h, disparaissent à 3 difficile)
+- Teste les limites
+- Début du « non » pour
+mois)
+- Plus de coliques =
+tout
+- Sourire réponse
+dorment mieux la nuit
+- Attention courte (=
+- Peur de l'étranger
+difficile de le maintenir
+(plutôt vers 8 à 9 mois)
+concentré sur une
+tâche !)
+- Explore tout
+3) Langage, - Début des vocalises, - Babille de plus en - C o m m u n i q u e - Pointe beaucoup
+communicatio encore universelles
+p l u s , d e m a n i è r e beaucoup, premier mot - Jargonne beaucoup
+n
+différenciée
+- Imite beaucoup
+- Commence à faire des
+- Répond à son prénom - Pointage14
+phrases de 2 mots
+- R e c o n n a î t l e s - Comprend un ordre - Répertoire de 50 mots
+émotions
+simple (10 à 14 mois)
+4) Intelligence - Habituation
+
+- N o t i o n d ' o b j e t - Permanence de l'objet - Imite beaucoup
+intermédiaire
+- Contenant – contenu - Jeu représentatif
+- Explore beaucoup, - Jeu symbolique (= - Tours de 3 plots
+surtout avec la bouche faire semblant)
+
+13 Remarque : le shuffling et rouler doivent demander un examen neurologique !
+14 Deux types : proto-impératif, pour montrer ce qu’on veut (chocolat) et proto-déclaratif, pour partager l’intérêt
+(oiseau dans le ciel)
+
+Page 21 sur 46
+
+(Acquisitions normales à 4 ans : doit pouvoir marcher, courir, avoir une bonne motricité fine, avoir
+des phrases construites, compréhensibles à 100% (vs 50% à 3 ans), doit pouvoir dessiner des
+bonshommes, compter, reconnaître les couleurs, les formes, avoir des copains, pouvoir s'habiller et
+s'alimenter seul et finalement avoir une séparation facile avec ses parents)
+On se souvient qu'il est anormal qu'un enfant ait une préférence manuelle avant l'âge de 12 mois !
+De même, si à cet âge, on remarque une préférence manuelle très marquée, il faut se méfier ! On
+notera également que si à 18 mois, un enfant ne parle pas, n'imite pas, ne marche pas ou ne pointe
+pas, il faut s'inquiéter ! C'est également à cet âge que peuvent commencer à se manifester les TSA,
+donc à surveiller !
+On notera que certains éléments doivent éveiller l'attention : un mutisme pourrait signifier un
+trouble du développement du langage, une surdité ou une absence d'envie de s'exprimer (par
+exemple dans l'autisme) ; un enfant qui n'utilise qu'une main (= avant 12 mois ou de manière trop
+marquée après 12 mois) doit évoquer un hémisyndrome ; un enfant qui n'a pas d'intérêt pour le jeu
+doit évoquer un TSA ou une déficience mentale.
+Face à chaque retard développemental, il faudra se poser la question de si le déficit est global (= ≥ 2
+champs sur 4 touchés, par exemple avec une déficience intellectuelle ou un trouble du langage et de
+la motricité) ou spécifique (= un seul champ touché, avec des troubles moteurs ou langagiers) et il
+faudra systématiquement tester la vision et l'audition ! Si on repère en effet un problème, il faudra
+recontrôler l'enfant à 3 mois, à moins que l'examen ne révèle une dysmorphie (= trisomie), un retard
+de communication (= expression et compréhension) ou des troubles neurologiques. Il sera
+également important de déterminer si le problème est congénital ou acquis et statique ou évolutif en
+regardant les courbes de croissance staturo-pondérale et du PC de l'enfant !
+
+7) Croissance staturo-pondérale et du PC de l'enfant
+La croissance des enfants est très complexe et dépend de nombreux facteurs : santé générale, état
+nutritionnel, environnement émotionnel, syndromes génétiques, maladies (aigües ou chroniques),
+déprivation, histoire familiale, etc. Elle peut se trouver diminuée dans typiquement 4 cas : (1) en cas
+de manque d'apports, (2) en cas de malabsorption, (3) en cas d'augmentation du métabolisme et (4)
+en cas d'anomalies du métabolisme.
+La croissance se divise en 3 parties, dépendants les unes des autres :
+–
+
+Poids : c'est surtout lors de la première année de vie et à l'adolescence qu'on retrouve 2
+grands pics d'augmentation du poids. On notera qu'il se mesure couché jusqu'à ce que
+l'enfant fasse 12kg. On estime en général que le poids double à 5 mois, triple à une
+année et quadruple à 3 ans ; on peut aussi utiliser la formule « Poids en kg = 2 * âge +
+8»
+
+–
+
+Taille : elle aussi change beaucoup avec l'âge, passant de 25cm/an la première année à
+10cm/an entre la 1ère et la 4ème année et finalement diminuant à 5cm/an au-delà. On
+notera qu'elle se mesure couché jusqu'à ce que l'enfant ait 2 ans.
+Pour estimer la taille qu'un enfant devrait faire en ne tenant compte que de sa génétique,
+on peut appliquer les formules15 de la « Taille cible parentale ». Un meilleur indicateur
+du pronostic de la taille finale reste cependant l'âge osseux
+
+–
+
+PC : il croît extraordinairement vite les deux premières années, puis se calme,
+grandissant plus lentement. Chez un enfant à terme, il est normalement de 35cm, mais il
+
+15 Pour les filles : (père + mère – 13) / 2 ; pour les garçons : (père + mère + 13) / 2
+
+Page 22 sur 46
+
+oscille entre 32cm et 37cm. La grande fontanelle doit normalement se fermer entre 6 et
+18 mois.
+On définit les macro- et micro-céphalie comme tout PC dépassant les percentiles 97 et 3
+respectivement, peu importe la forme du crâne ou la cause sous-jacente
+–
+
+(Le BMI : ne fait pas partie de la croissance, mais permet de quantifier le degré de
+surpoids, un BMI entre 85 et 97 indiquant un surpoids et un BMI > 97 indiquant une
+obésité)
+
+Rapport poids sur taille : très utilisé, il permet de donner une idée de la nutrition des enfants. Pour le
+calculer, il faut (1) prendre la taille mesurée de l'enfant et suivre cette ligne jusqu'à ce qu'elle touche
+le percentile 50 (= nous donne un âge) ; une fois un âge obtenu, il faut (2) mettre cet âge dans la
+courbe des poids et regarder quel serait le poids au percentile 50 pour cet âge (= on obtient le poids
+moyen théorique). Il ne reste ensuite plus qu'à (3) appliquer la formule ci-dessous pour obtenir une
+valeur en % :
+
+Page 23 sur 46
+
+Grands axiomes pour lire ces courbes :
+–
+
+1) Le suivi d'un percentile est plus important que le percentile lui-même : si un enfant
+naît dans un percentile (peu importe lequel, et même s'il naît en-dehors de ces percentiles
+3 et 97 !), le plus important est qu'il persiste dans ce même couloir tout au long de sa
+croissance
+
+–
+
+2) Les courbes de croissance doivent être ajustée au terme de la grossesse : un enfant
+prématuré suit une courbe de croissance totalement différente de celle d'un NN à terme !
+
+–
+
+3) Une cassure soudaine de la courbe indique un problème autre que congénital
+
+–
+
+4) Une courbe anormale et/ou de progression anormale dès la naissance doit faire
+évoquer un problème congénital
+
+Courbes typiques :
+–
+
+Problèmes nutritionnels : on peut prendre l'exemple de la coeliakie, les parents
+introduisant généralement le gluten dans l'alimentation dès ~ 12 mois. À ce moment là,
+c'est d'abord la courbe de poids qui va avoir une cassure nette, puis ce n'est que quelques
+mois plus tard que la courbe de croissance staturo-pondérale (et parfois le PC) va se
+casser
+
+–
+
+Déficit en GH : typiquement ce ne sera que la courbe de croissance qui va être affectée,
+le poids n'augmentant que peu dans les percentiles, mais en tout cas continuant à
+augmenter « normalement ». Peut être congénital ou acquis
+
+Page 24 sur 46
+
+–
+
+Syndrome de Turner : classiquement, les ovaires ne fonctionnant pas du tout, on
+retrouvera une aménorrhée primaire et peu de développement de caractères sexuels
+secondaires (notamment la croissance mammaire) ; cependant, on pourrait aussi
+retrouver des règles irrégulières dans certains cas ! On notera ici que comme ces filles
+n'ont pas suffisamment d'hormones sexuelles, on retrouvera donc souvent un retard
+pubertaire, accompagné d'une petite taille, car le pic des hormones sexuelles, boostant la
+croissance, n'est pas présent. Ces filles, déjà de petite taille au départ, ne décolleront
+donc pas à l’adolescence et atteindront des tailles relativement faibles à l'âge adulte
+
+Page 25 sur 46
+
+–
+
+Hypochondroplasie16 : maladie génétique touchant les fibroblastes et créant une
+discordance nette entre la taille de la tête (= très grosse) et la taille des membres (= tout
+petits), tout grandissant de manière harmonieuse
+
+–
+
+Macro-, micro-céphalie et petite tête familiale :
+
+16 Cousine de l'achondroplasie (= nanisme), elle vient de la même mutation, mais est juste moins marquée
+
+Page 26 sur 46
+
+–
+
+RCIU (= Retard de Croissance Intra-Utérin) : on travaille ici avec les courbes pour les
+prématurés, différentes de celle des NN à terme.
+On parle de RCIU dysharmonieux si on a un prématuré avec un PC normal, mais une
+taille et un poids les deux assez bas, comme ici, indiquant qu'il y a eu un problème assez
+tard dans la grossesse, par exemple une infection lors du 3ème trimestre. Au
+contrairement, on parlera de RCIU harmonieux si tous les paramètres sont assez bas,
+indiquant qu'il y a probablement eu un problème dès le début de la grossesse (=
+congénital ou génétique)
+
+–
+
+Macrosomie : PC et taille normaux à élevé (~ percentile 75), mais net surpoids avec le
+poids dépassant le percentile 97
+
+Page 27 sur 46
+
+8) Examen clinique du nouveau-né
+On retrouve 4 grands objectifs pour l’examen clinique du NN :
+–
+
+Évaluer la qualité de la croissance IU
+–
+
+Elle est évaluée par 3 paramètres : (1) le poids, (2) la taille et (3) le PC17
+
+–
+
+Rechercher une malformation ou un signe d'alarme
+
+–
+
+Vérifier l'adaptation à la vie extra-utérine
+
+–
+
+Évaluer l'âge de gestation
+–
+
+Il est évalué soit (1) par la DDR, (2) par des mesures par US lors des contrôles
+obstétricaux ou (3) par le score de Dubowitz
+
+Examen :
+–
+
+Examen général
+–
+
+–
+
+Inspection des téguments :
+–
+
+Recherche d'éventuelles lésions cutanées et on évalue la couleur de la peau
+de l'enfant (rouge, bleu, blanc)
+
+–
+
+On peut retrouver un érythème toxique, une éruption fréquente qui apparaît
+sur le tronc et/ou le visage des bébés quelques heures seulement après leur
+naissance. On peut aussi parfois retrouver un milium, une accumulation
+bénigne de matières grasses dans les pores de la peau, le plus souvent au
+niveau du visage et sur le nez ; ce dernier apparaît à la naissance ou dans les
+semaines qui suivent et ne persiste pas plus de 2 mois
+
+–
+
+À la surface de la peau des bébés, on peut retrouver une substance blanchâtre
+naturelle, le vernix caseosa, qui peut persister dans les plis (surtout du cou et
+axillaires)
+
+–
+
+L'ictère physiologique n'apparaît que 36 heures après la naissance et est
+recherché au niveau des gencives et conjonctives
+
+Recherche de malformations externes, de signes dysmorphiques (génétiques ou
+toxiques)
+–
+
+Crâne : palper la suture métopique (= celle entre les deux os frontaux), la
+grande fontanelle18, la suture sagittale (= celle entre les deux os pariétaux), la
+petite fontanelle et les sutures coronales (= celles entre les os frontaux et
+pariétaux). On mesure ensuite les deux diagonales de la grande fontanelle
+(forme losangique) et on évalue sa tension.
+Rechercher une éventuelle bosse séro-sanguine (collection de sang souscutané partant en quelques jours), un céphalhématome (collection de sang
+périosté respectant les sutures) ou un crâniotabes
+
+–
+
+Examen de la texture et de l'implantation des cheveux
+
+–
+
+Forme et implantation des oreilles ; une droite horizontale doit pouvoir être
+tirée entre le bord externe des fentes palpébrales et la racine de l'hélix (=
+
+17 Il est normalement de 34cm à 35cm chez le NN à terme
+18 Fermeture entre 10 et 20 mois
+
+Page 28 sur 46
+
+grandes courbure de l'oreille). En cas d'oreille trop bas implantée ou d'oreille
+mal ourlée, il est nécessaire de rechercher des malformations urogénitales
+associées
+–
+
+Position, taille et inclinaison des fentes palpébrales. Si on suspecte un hypertélorisme (= écartement trop important entre les deux yeux), on mesurera les
+distances inter-pupillaire et entre les angles internes des yeux.
+Les fentes palpébrales sont normalement horizontales, mais de type
+mongoloïde (= inclinées en-dedans) dans la trisomie 21. Elles peuvent être
+anti-mongoloïdes dans d'autres syndromes
+
+–
+
+Épicanthus
+
+–
+
+Transparence des milieux oculaires à l'aide d'une lampe de poche. On
+recherche un reflet blanchâtre des pupilles (cataracte ou rétinoblastome)
+
+–
+
+Pupilles à la recherche de colobome
+
+–
+
+Un oedème palpébral est fréquent et bénin lors des premiers jours de vie
+
+–
+
+Nez et son ensellure
+
+–
+
+Lèvres. Elles sont par exemple fines avec une absence de philtrum dans le
+syndrome foeto-alcoolique
+
+–
+
+Inspection de la cavité buccale à la recherche de fente palatine
+
+–
+
+Menton à la recherche d'un rétro-gnatisme
+
+–
+
+Palper le cou en palpant les bords antérieurs du SCM à la recherche d'un
+kyste branchial. Palpation de la thyroïde et le creux sus-sternal à la recherche
+de goître
+
+–
+
+Forme du thorax et palper let sternum à la recherche de malformation
+thoracique
+
+–
+
+Observer les mamelons et rechercher des mamelons surnuméraires (sur la
+ligne médio-claviculaire)
+
+–
+
+Observer la paroi abdominale
+
+–
+
+Vérifier la présence de deux artères et d'une veine dans le cordon ombilical.
+Se dernier va se dessécher et tomber tout seul après 4 à 6 jours
+
+–
+
+Inspection de la peau du dos. On peut parfois retrouver une tâche mongoloïde
+dans la partie inférieure du dos, surtout retrouvée chez les personnes de peau
+foncée, ce qui est normal
+
+–
+
+Suivre les processus épineux du doigt et examiner le sillon inter-fessier, à la
+recherche d'une fossette ou d'une touffe de poil (signe une malformation
+profonde comme la spina bifida)
+
+–
+
+Vérifier l'emplacement de l'anus
+
+–
+
+Palper les 4 membres et extrémités
+
+–
+
+Examiner les mains : plis de la main (pli palmaire transverse unique), nombre
+de doigts, implantation du pouce, ongles. Examiner les orteils
+
+–
+
+Suspicion de pied bot : le pied bot est anormal et est fixé dans sa position,
+Page 29 sur 46
+
+alors que les pieds des bébés peuvent être dans la même position mais
+réductibles. Pour le contrôler, gentiment caresser la face externe de la jambe
+du bébé pour regarder s'il revient en position normale tout seul
+
+–
+
+–
+
+–
+
+–
+
+Mettre le bébé sur le dos et ramener ses pieds contre ses fesses pour s'assurer
+que ses genoux sont à la même hauteur. S'assurer que les jambes font la
+même longueur
+
+–
+
+Tester l'abduction des MI en mettant ses jambes en position moine shaolin,
+les pieds l'un contre l'autre
+
+–
+
+Manoeuvre de Barlow : on recherche un clic indiquant un fémur instable. On
+maintient le bassin d'une main, et de l'autre on effectue une légère abduction
+de l'autre cuisse, tout en effectuant un mouvement antéro-postérieur de
+pompage
+
+–
+
+Manoeuvre d'Ortolani : on teste simultanément les deux hanches et on
+recherche un clic indiquant une instabilité/subluxation de la hanche. On
+prend les deux jambes, une dans chaque main, en commençant avec l'une
+contre l'autre, les genoux pointant vers nous. On fait ensuite un mouvement
+de papillon avec une abduction suivie d'une adduction
+
+Recherche de lésions traumatiques les plus fréquentes
+–
+
+Hématome du SCM, identifiée par la palpation qui met en évidence un
+nodule. Peut provoquer un torticolis
+
+–
+
+Fracture de clavicule (palpation douloureuse)
+
+–
+
+Élongation du plexus brachial : donne une position typique du bras, en
+pronation et rotation interne
+
+Évaluation de la maturation somatique
+–
+
+Une imprégnation méconiale (surtout visible par des ongles et un ombilic
+jaunâtres/verts) se voit dès la naissance et est un signe de dys-maturité. On
+peut aussi parfois retrouver les mains de lavandière, qui sont des mains toutes
+plissées et avec un peau blanchâtre, desquamant toutes seules après quelques
+jours.
+
+–
+
+Score de Dubowitz19
+
+Examen respiratoire
+–
+
+Observer : elle peut être naturellement irrégulière, périodique ou comporter de
+brèves pauses. Une apnée est par définition une absence de respiration de > 20s et est
+souvent accompagnée d'une bradycardie
+
+–
+
+Ampliation
+
+–
+
+FR (N entre 30/min et 60/min)
+
+–
+
+Recherche de SDR (surtout fréquent chez le PM) : présence de ≥ 2 des 5 signes
+pendant plus de 15 minutes : tachypnée, cyanose, tirage, BAN et grunting. En
+présence de SDR, placer le NN dans un incubateur, lui fournir de l'O2 et le transférer
+dans une unité spécialisée
+
+19 Cf. plus bas
+
+Page 30 sur 46
+
+–
+–
+
+–
+
+–
+
+–
+
+Ausculter les plages antérieures et postérieures
+
+Examen cardio-vasculaire
+–
+
+Poser la main sur la région précordiale (= sur le coeur). On ne devrait presque pas
+sentier l'activité cardiaque, sinon on aurait une cardiomégalie
+
+–
+
+FC (N 120bpm à 160bpm), qui varie normalement avec la respiration
+
+–
+
+Rechercher un souffle
+
+–
+
+Palper les pouls fémoraux (comme chez les adultes) pour exclure une coarctation de
+l'aorte
+
+–
+
+Palper les pouls périphériques : huméral, radial, tibial postérieur et pédieux
+
+–
+
+Temps de recoloration (appuyer sur la face antérieure du tibia) < 3s
+
+–
+
+Prendre la TA aux 4 membres si certains pouls ne sont pas palpables ou si le temps
+de recoloration est prolongé
+
+Examen digestif
+–
+
+Consulter la courbe de poids. Les NN perdent souvent entre 5% et 10% de leur poids
+de naissance dans les jours qui la suivent, mais le poids de naissance doit être repris
+avant la fin de la première semaine
+
+–
+
+Tête vigoureusement ? Déglutit sans fausse route ?
+
+–
+
+Méconium normalement verdâtre à noir, visqueux et collant, éliminé dans les 48h de
+vie. Les selles d'allaitement maternel sont elles jaune or
+
+–
+
+Palper les 4 quadrants
+
+–
+
+Rechercher le foie en partant de la FID et remonter à chaque inspiration. Il doit
+normalement dépasser le rebord costal de < 3cm
+
+–
+
+Palper la rate (parfois naturellement palpable)
+
+–
+
+Palper les plis inguinaux à la recherche d'hernie inguinale
+
+Examen uro-génital
+–
+
+Palpation bimanuelle des loges rénales (comme chez l'adulte)
+
+–
+
+Parfois leucorrhée chez la petite fille
+
+–
+
+Une hypertrophie du clitoris doit faire suspecter un syndrome adréno-génital
+
+–
+
+Hydrocèles parfois naturellement transitoirement visibles chez le garçon
+
+–
+
+Palper les testicules en plaçant un doigt sur le canal inguinal pour éviter de les faire
+remonter lors de la palpation
+
+–
+
+Un phymosis est physiologique à la naissance
+
+–
+
+Rechercher un hypospadia
+
+–
+
+Jet urinaire et position de l'orifice urétral
+
+Examen neurologique (influencé par l'état d'éveil, le temps par rapport au dernier repas (= à
+faire idéalement 3 heures après) et l'âge gestationnel. Idéalement fait après 2 jours de vie)
+–
+
+État d'éveil : il est évalué par l'ouverture des yeux, la respiration, les vocalisations et
+Page 31 sur 46
+
+les mouvements spontanés. Brazelton a classé 6 stades : (1) sommeil profond, sans
+d'éveil, pas de mouvements (oculaires ou non, parfois mouvements brusques
+épisodiques), respiration régulière ; (2) sommeil léger, avec mouvements oculaires,
+du visage et des membres, enfant hypotone, respiration irrégulière ; (3) éveil calme,
+avec yeux fermés ou entrouverts et activité faible ; (4) alerte, avec yeux ouverts et
+bébé alerte ; (5) éveil agité, avec mouvements abondants et petits cris occasionnels ;
+(6) éveil en pleurs. L'examen neurologique doit être fait dans les stades 3 ou 4 une
+heure avant les repas
+–
+
+Examen du tonus
+–
+
+Posture20 : les PM sont normalement hypotones, alors que le NN à terme a lui
+plutôt une hypertonie, surtout des membres (position de grenouille sur le
+dos). Un PM a lui tout d'abord une extension de tous les membres, puis une
+flexion des MS avec extension des MI et finalement une position de
+grenouille.
+Vers le 12ème mois, on retrouvera une hypotonie physiologique, l'enfant
+devenant plus « mou » et laxe qu'à la naissance (ex. : signe de l'écharpe audelà de la ligne médiane, membres naturellement au repos et pas en flexion,
+etc.). Si le système cortico-spinal n'arrive pas à inhiber cette hypertonie
+naturelle des NN, on verra apparaître une paralysie cérébrale, avec une
+hypertonie et hyper-réflexie, reflet de la persistance du système sous-cortical
+
+–
+
+Tonus passif : on étire passivement les membres et on examine le ballant des
+bras. On le mesure par l'angle entre deux segments ou par rapport à un point
+anatomique
+–
+
+Square window : effectuer une flexion palmaire de la main en
+direction de l'avant-bras, l'angle devant être de 45° (il est plus proche
+de 90° chez le PM)
+
+–
+
+Dorsiflexion du pied : effectuer une flexion dorsale du pied en
+direction du tibia, l'angle devant être de 45° (il est plus proche de 90°
+chez le PM)
+
+–
+
+Traction du bras : saisir le poignet et tirer le bras vers le ciel jusqu'à
+ressentir une résistance (qui se manifestera par une épaule qui se
+décolle de la table d'examen). On mesure l'angle de flexion du coude
+(pas de chiffre donné)
+
+–
+
+Élévation des bras : on élève les bras au-dessus de la tête du NN
+(comme pour faire une « ola ») et on mesure l'angle de flexion du
+coude
+
+–
+
+Retour des bras : on fléchit les deux avant bras sur les bras (= position
+de grenouille exagérée), puis on étend rapidement les deux bras de
+long du corps du bébé pour finalement les lâcher brusquement. Les
+bras doivent alors revenir en position de grenouille exagérée avec une
+flexion du coude < 90° (retour des bras lent et incomplet (entre 180°
+et 90° chez le PM))
+
+–
+
+Traction de la jambe : saisir la cheville et tirer la jambe vers le ciel
+jusqu'à ressentir une résistance (qui se manifestera par un bassin qui
+
+20 Souligné = dans le score de Dubowitz
+
+Page 32 sur 46
+
+se décolle de la table d'examen). On mesure l'angle de flexion du
+creux poplité (pas de chiffre donné)
+
+–
+
+–
+
+Retour des jambes : idem que pour les bras (retour des jambes lent et
+incomplet (entre 180° et 90° chez le PM))
+
+–
+
+Angle poplité : on presse la cuisse du NN sur son torse d'une main et
+de l'autre on pousse son talon vers son visage, l'angle devant être de <
+20° (il est plus proche de 180° chez le PM)
+
+–
+
+Angle d'abduction : on met les deux MI en extension et on effectue
+une abduction symétrique. L'angle devrait être proche de 100°
+
+–
+
+Incurvation ventrale : on met les deux MI en flexion maximale (=
+collés contre le torse) et on essaie de ramener les fesses le plus près
+possible du visage du bébé (= lui fait bomber le dos)
+
+–
+
+Épreuve talon-oreille : on tire le pied le plus près possible de l'oreille
+(doit arriver un peu plus loin qu'à mi-chemin) (distance nulle chez le
+PM)
+
+–
+
+Signe de l'écharpe/du foulard : on tire la main en direction de l'épaule
+opposée et on mesure la distance entre le coude et la ligne médiane
+(doit être pile dessus) (le coude dépasse la ligne médiane chez le PM)
+
+–
+
+Ballant des membres : on tient les deux avant-bras et on les secoue
+pour voir si les mains sont toutes molles (normalement pas trop) ; on
+fait la même chose pour les jambes, en les tenant par la moitié du tibia
+
+Tonus actif : c'est la réponse active du NN à une stimulation, comme le tiré
+assis. On l'observe au niveau du tronc et de la tête
+–
+
+Tiré assis : le bébé étant couché sur le dos, on le saisit par les poignets
+et on le tire (lentement) en position assise. Sa tête devrait rester dans
+l'axe de son corps durant toute la manoeuvre (la tête pend pendant
+toute la manoeuvre chez le PM). On mesure l'angle de la tête lorsque
+le tronc est à 45°
+
+–
+
+Contrôle de la tête : le bébé assis, on lui fléchit la tête contre son
+sternum, puis on la lâche (doit retrouver sa position de base), puis on
+fait une extension de la tête, puis on la lâche (doit retrouver sa
+position de base). Ceci teste les fléchisseurs et extenseurs de la tête.
+Comme alternative, on peut aussi mettre la tête du bébé en flexion
+lorsqu'il est assis normalement, puis gentiment le laisser tomber en
+arrière, l'enfant utilisant ses extenseurs pour remettre la tête dans
+l'axe ; on peut aussi lui mettre la tête en arrière lorsque son tronc est
+penché en arrière, puis on va lentement le ramener à la verticale, la
+tête devant se remettre dans l'axe
+
+–
+
+Suspension ventrale : on soulève l'enfant du sol avec une main sur le
+ventre et on regarde sa posture ; normalement, son dos sera droit, ses
+membres seront proches de la position prise dans la marche à 4 pattes
+et sa tête sera dans l'axe du corps (le dos sera rond, les membres plus
+pendouillants et la tête orientée vers le sol chez le PM)
+
+–
+
+Position ventrale : on pose le NN sur le ventre et on met les bras le
+Page 33 sur 46
+
+long de son corps. Normalement, il va faire des flexions des MI et
+ramener ses bras en position de grenouille
+–
+
+–
+
+–
+
+Examen de la motricité
+–
+
+On retrouve naturellement des flexions et extensions des membres lorsque le
+bébé est éveillé et sur le dos. Ces mouvements doivent être symétriques
+
+–
+
+On peut parfois retrouver des convulsions néonatales (anormales), très
+variées, tonico-cloniques, focales ou généralisées. Ce ne sont parfois que les
+yeux qui sont touchés
+
+–
+
+On retrouve fréquemment des trémulations physiologiques des NN dans les
+quelques jours de vie, spontanées ou provoquées, augmentées par la faim
+et/ou les pleurs. Elles cessent lorsque l'examinateur saisi les membres qui
+trémulent et elles touchent surtout les extrémités
+
+–
+
+Motricité spontanée selon Prechtl : on met le bébé sur le dos et on le filme
+pendant 3 minutes, sans rien faire.
+Les mouvements spontanés doivent mobiliser toutes les parties du corps,
+avec le tronc, la tête et les membres. Chez le NN à terme, on recherche les
+« writhing movements », qui sont des mouvements de flexion et d'extension
+des membres avec rotation simultanée
+
+ROT21
+–
+
+On recherche les réflexes rotulien, achilléen22, bicipital et stylo-radial. On les
+évoque en tapant simplement avec un doigt ou avec le marteau réflexe. Ses
+ROT sont normalement vifs, témoignant de l'immaturité du système corticospinal
+
+–
+
+Recherche de clonus de la cheville comme chez l'adulte, un clonus de > 10
+mouvements étant anormal (une autre vidéo dit 5)
+
+Réflexes archaïques (disparaissent après 3 mois de vie, doivent être absents à 6 mois)
+–
+
+Réflexe de Moro : on fait une brusque extension de la tête. Pour ce faire, on
+tient la tête du bébé à une main tout en tenant et tirant ses deux bras croisés
+sur le torse vers nous. On lâche ensuite soudainement ses deux bras, le bébé
+basculant en arrière. Une autre méthode est de simplement lui soutenir le dos,
+la tête et la nuque à 45° et de brusquement le lâcher puis de le rattraper. Le
+NN va alors faire une abduction des bras avec ouverture des mains, puis il va
+faire une adduction et flexion des bras (manoeuvre d'embrassement) et
+terminer par un cri (le plus souvent).
+Ce réflexe est asymétrique en cas de fracture de la clavicule, paralysie du
+plexus brachial ou d'ostéo-arthrite du bras. Il faut le faire en fin d'examen,
+car il fait pleurer l'enfant !
+Ce réflexe disparaît vers 5 mois
+
+–
+
+Réflexe de Galant : avec un doigt, on « pique » la ligne paravertébrale
+(presque au niveau des côtes en fait) des vertèbres thoraciques aux fesses, ce
+qui va faire s'incurver le dos dans cette direction
+
+21 Attention a bien garder la tête du NN dans l'axe quand on teste les réflexes, car le réflexe tonique asymétrique de la
+nuque/position de l'escrimeur (cf. Plus bas) perturbe les réflexes !
+22 Différent à obtenir que chez l'adulte : on effectue une flexion dorsale du pied, puis on place son pouce sous la plante
+du pied. On tape ensuite son pouce avec le marteau réflexe
+
+Page 34 sur 46
+
+–
+
+–
+
+Points cardinaux : on stimule les joues au niveau des commissures labiales en
+les caressant d'un doigt, l'enfant devant faire une grimace du côté ipsilatéral
+et tourner la tête dans la même direction
+
+–
+
+Réflexe de succion : on met le petit doigt pulpe vers le haut dans la bouche
+du bébé et il le suce
+
+–
+
+Grasping : on met un doigt dans la paume de la main (sans toucher le dos de
+la main) et on la stimule ; le bébé va alors fermer sa main (disparaît vers 3
+mois). Idem pour les pieds (on presse le pouce contre la base de ses orteils)
+(disparaît vers 10 à 15 mois, peu avant la marche)
+
+–
+
+Allongement croisé : d'une main, on tient une jambe du bébé et de l'autre on
+va gentiment caresser la plante du pied ipsilatéral. Ce faisant, on aura un
+mouvement de flexion, puis d'extension et finalement d'adduction de l'autre
+jambe, qui va faire se rapprocher le pied controlatéral du pied stimulé
+
+–
+
+Marche automatique et enjambement : on met l'enfant en position verticale,
+légèrement penché en avant. On commence par lui stimuler la face dorsale
+des pieds en la frottant contre la table d'examen ; le NN va alors fléchir ses
+deux MI, pour enjamber. On le fait ensuite avancer avec les pieds touchant le
+sol. Il se mettra à faire des mouvements de marche tout seul
+
+–
+
+Réflexe tonique asymétrique de la nuque/position de l'escrimeur : on effectue
+une rotation passive de la nuque d'un côté pendant quelques secondes, puis
+on la relâche. La nuque devrait rester dans la même position et ses bras
+devraient prendre la position de l'escrimeur, avec le bras ipsilatéral tenant
+l'épée. Ce réflexe disparaît généralement avant 6 mois
+
+–
+
+Réflexe de Babinsky : la partie latérale du pied est stimulée, les orteils
+partant en extension. Il disparaît vers 10 à 15 mois, avant l'apparition de la
+marche
+
+–
+
+Réflexe du parachute (pas archaïque, mais développé avec le temps) : on
+approche brusquement le visage du NN en direction de la table d'examen en
+le tenant par l'abdomen, comme s'il sautait en parachute. L'enfant va alors
+faire une extension des bras en direction de la table d'examen pour
+s'empêcher de la heurter. Il se développe dès le 6ème mois, avec le réflexe de
+protection antérieure (= se protéger quand on tombe vers l'avant), le réflexe
+de protection latérale (= se protéger quand on tombe de côté) se développant
+dès 7 mois et le réflexe de protection postérieure à 11 mois
+
+Fonctions supérieures (= vision, audition et comportement)
+–
+
+Fonctions sensorielles
+–
+
+Vision : l'ouverture des yeux peut être provoquée par la succion. On
+observe que les mouvements spontanés des yeux sont conjugués et
+que l'exploration de l'environnement se fait par saccades.
+On peut rechercher un strabisme par le reflet cornéen.
+On teste l'orientation visuelle en plaçant un objet coloré (ou une cible)
+à 20cm du visage du NN et en le secouant pour attirer l'attention du
+bébé.
+La poursuite visuelle se teste en déplaçant un objet coloré (ou une
+cible) à 20cm du visage de 90° sur la gauche, droite, en haut et en bas.
+Page 35 sur 46
+
+La poursuite horizontale doit être bonne et elle est naturellement
+moins bonne en vertical. On peut soutenir la tête et la nuque du bébé
+d'une main pendant l'examen.
+On peut tester l'occlusion en faisant fixer un objet au bébé et en
+couvrant alternativement un oeil puis l'autre.
+On peut tester un nystagmus optocinétique avec un tambour rotatif.
+La vision périphérique est testée en attirant l'attention de l'enfant vers
+l'avant tout en faisant lentement entrer un objet dans le champ de
+vision périphérique de l'enfant, à hauteur de ses yeux.
+Tester la vision monoculaire.
+Tester l'acuité visuelle en lui présentant des petits objets comme des
+raisins secs.
+–
+
+Audition : on teste l'orientation auditive en faisant tinter une clochette
+(ou en utilisant une crécelle, en froissant du papier ou en disant
+« Pssst » ou « Ouuu »)23, en évitant de donner des indices visuels à
+l'enfant. Le NN doit progressivement tourner sa tête et ses yeux en
+direction de la source sonore (et souvent avec un temps de latence,
+physiologique).
+Les FR pour un examen audiologique plus poussé sont : troubles
+héréditaires de l'audition, malformation crânio-faciale, infections
+prénatale et périnatale, PN < 1,5kg, asphyxie périnatale,
+hyperbilirubinémie, trauma. L'audition s'améliore aussi normalement
+avec l'âge, mais diminue chez celui qui présente un trouble de
+l'audition
+
+–
+
+Comportement : pour évaluer la qualité du contact, on se met à 30cm de
+l'enfant et on lui parle à la recherche de contact visuel. Il est important de le
+tenir pour lui soutenir la nuque et la tête. Il doit être dans un état d'éveil
+calme et va réagir par des expression, un relâchement des membres et des
+mains qui s'ouvrent et/ou cherchent à attraper l'examinateur.
+Si le bébé pleure, on peut chercher à savoir s'il est consolable tout seul, s'il
+faut le prendre dans les bras, lui parler ou s'il est inconsolable
+
+–
+
+Modes de communication
+
+Score de Dubowitz : il permet de calculer l'âge de gestation et comprend plusieurs éléments de
+l'examen neurologique24 + des signes des bébés listés ci-dessous. On additionne ensuite les points
+pour obtenir un nombre (qui donne l'âge de gestation). Signes présentés par les bébés :
+–
+
+Oedèmes : chez les PM, on retrouve des oedèmes sur les mains et les pieds, prenant le
+godet sur le tibia. On ne retrouve normalement pas d'oedème chez le NN à terme
+
+–
+
+Peau : chez le PM, la peau est très fine et douce, alors qu'elle est beaucoup plus épaisse
+(on peut l'évaluer en la pinçant) chez le NN à terme, avec beaucoup plus de plis, surtout
+des mains et pieds
+
+–
+
+Couleur de la peau : uniformément rouge chez le PM, elle est rosée chez le NN à terme
+
+23 Si l'enfant réussi 3 de ces 4 tests, on considère qu'il a une audition suffisant pour permettre le langage. Cependant, ce
+test n'est qu'un dépistage et ne permet pas d'exclure une surdité !
+24 (1) Posture, (2) square window, (3) angle de dorsiflexion de la cheville, (4) retour des bras, (5) retour des jambes,
+(6) angle poplité, (7) épreuve talon-oreille, (8) signe de l'écharpe, (9) tiré assis et (10) suspension ventrale
+
+Page 36 sur 46
+
+–
+
+Tronc : les veines sont visibles en transparence au niveau du tronc chez le PM, alors que
+la peau est opaque chez le NN à terme
+
+–
+
+Lanugo (= poils blanchâtres sur le corps) : il est long, abondant et épais chez le PM,
+surtout sur son dos (le recouvre souvent entièrement), alors qu'il est presque absent chez
+le NN à terme
+
+–
+
+Plissement plantaire : absence de plissement plantaire chez le PM, alors qu'on retrouve
+des plis antérieurs profonds chez le NN à terme
+
+–
+
+Mamelons : tout juste visibles chez le PM, avec une aréole douce et plate, ils sont bien
+visibles et avec une aréole pointillée et un mamelon surélevé chez le NN à terme
+
+–
+
+Glande mammaire : impalpable chez le PM, elle mesure > 1cm chez le NN à terme
+
+–
+
+Pavillon : incurvation seulement ébauchée chez le PM, il est bien ourlé chez le NN à
+terme
+
+–
+
+Consistance du pavillon : mou et ne reprenant pas sa forme chez le PM, le cartilage est
+bien palpé et le retour est immédiat chez le NN à terme
+
+–
+
+Testicules : testicules souvent non-palpables chez le PM (ils n'ont pas achevé leur
+descente !), ils le sont chez le NN à terme. Le scrotum est bien plié chez le NN à terme
+
+–
+
+Organes génitaux féminins : les grandes lèvres ne recouvrent pas complètement les
+petites lèvres chez les PM, alors que les petites lèvres sont recouvertes chez le NN à
+terme
+
+Un PM est un NN né avant la fin de la 37ème SA, alors qu'un NN post-terme est né après la 42ème
+SA. La fenêtre physiologique est donc située entre 38 et 42 semaines.
+Le RCIU est définit comme un poids de naissance < 10ème percentile des courbes de poids, alors
+que la macrosomie est définie comme un poids de naissance > 90ème percentile des courbes de
+poids.
+
+9) Développement psycho-moteur de 0 à 2 ans
+Avant de faire l'examen point par point, toujours effectuer une anamnèse comprenant :
+–
+
+Santé générale
+
+–
+
+Inquiétudes maternelles
+
+–
+
+Situation socio-familiale
+
+–
+
+Prise en charge de l'enfant
+
+–
+
+Développement général
+
+–
+
+Alimentation
+
+–
+
+Sommeil
+
+–
+
+Nouvelles acquisitions
+6 mois
+
+12 mois
+
+1 ) C o n t a c t - Bébé très curieux, qui bouge - Curieux, touche à tout
+s o c i a l e t tout le temps (= allaitement - Montre son contentement
+Page 37 sur 46
+
+18 à 24 mois
+- Manifeste sa volonté
+- Réagit quand on le gronde ou
+
+comportemen parfois difficile)
+- Fait des câlins
+le félicite
+t
+- P a r c o u r t v i s u e l l e m e n t - Imite les gestes et répète les actes - Comprend ce qu'on lui
+l'entourage
+qui font rire son entourage
+demande
+- Montre son contentement
+- Frappe dans ses mains pour faire - Opposition croissante et
+bravo
+indépendance grandissante
+- Reconnaît son image dans le miroir - Intrépide et adore tout
+- Imite les mimiques
+explorer
+- Secoue la tête pour dire « Non »
+- Apprend de nouvelles
+- Essaie d'attirer l'attention
+capacités, surtout par imitation
+- Joue avec d'autres enfants en
+défendant son territoire
+- Assis à table et mange seul,
+avec ses doigts ou sa cuiller.
+Boit seul
+- Aide à s'habiller et se
+déshabiller ou s'habille/se
+déshabille seul
+2) Vision - - Suit des yeux un anneau rouge - Suit des yeux un anneau rouge placé - Même jeu avec les cubes et
+manipulation p l a c é à 2 0 c m d é p l a c é à 20cm déplacé horizontalement et leur boîte que l'enfant de 12
+h o r i z o n t a l e m e n t e t verticalement (= fixation et poursuite mois, mais plus précis et plus
+verticalement (= fixation et bonnes sur 180°)
+rapide
+poursuite bonnes sur 180°)
+- Notion d'objet intermédiaire (= - Arrive à construire une tour
+- Arrête l'anneau qui se balance ficelle qui permet de tirer l'anneau de 2 à 3 cubes
+- Attrape l'anneau s'il lui touche vers soi)
+- Est capable de mettre deux
+le dos de la main et le manipule, - Jette les objets
+objets de taille différentes dans
+joue avec
+- Relâchement volontaire, fin et précis leur forme découpée (= un rond
+des objets
+dans un rond) après
+- Permanence de l'objet : retrouve un démonstration. Arrive aussi
+jouet caché sous un linge
+avec des formes différentes
+3) Motricité - Attrape des petits cubes qui lui - Bonne opposition du pouce, surtout - Encore incapable de visser ou
+dévisser une bouteille, mais
+fine
+e t sont présentés
+pour saisir les gros objets
+préhension
+- Début de l'opposition du - Comprend qu'il y a quelque chose ess aie, ayant com pris le
+pouce
+dans une boîte qu'on secoue et l'ouvre mécanisme d'ouverture. Enlève
+et remet des éléments dans la
+- Peut changer les cubes de - Pointe des petits objets du doigt
+main ou en tenir 2 dans une - Début de la pince fine, le pouce état bouteille
+main
+opposé à l'index seul ou l'index et le - Relâchement fin et précis des
+objets
+- Pour attraper un petit objet, il majeur pour saisir des objets
+utilise tous ses doigts et la face - Comprend la relation contenant – - Commence à dessiner en
+tenant le crayon comme un
+p a l m a i r e d e s a m a i n = contenu et joue beaucoup avec
+préhension palmaire, globale, à - Est capable de mettre un objet dans couteau pour assassiner
+prédominance radiale
+sa forme découpée (= un rond dans un - Sait jouer avec des poupées et
+leur environnement (ex. : petite
+- Passe les objets d'une main à rond) après démonstration
+l'autre = transfert
+- Si on lui donne une tasse et une table et chaise, les assied, leur
+- Porte souvent les objets à la cuiller, il porte la cuiller à sa bouche donne à manger, les coiffe etc.
+bouche
+comme pour manger et porte la tasse à = jeu symbolique)
+- Enlève un voile qu'on met sur sa bouche en la tenant pas son truc - Mains ouvertes, coordination
+oculo-manuelle bonne
+son visage pour cacher sa vue
+pour mettre les doigts
+- Différencie la forme et la
+consistance des objets
+
+Page 38 sur 46
+
+- Ne met plus les objets à la
+bouche, plus de lancer
+systématique des objets
+- Permanence de l'objet, notion
+d'objet intermédiaire
+4) Audition - Babolage = il répète les - Ne fait souvent que baboler, donc - Babole moins, utilise de plus
+et langage
+différents sons qu'il entend
+demander aux parents s'il prononce en plus de mots avec le bon
+- Se tourne vers les sources des mots dont il comprend le sens sens (souvent difficile à évaluer
+sonores
+(minium 1 à 3 mots)
+et demander aux parents)
+- Rigole
+- Comprend un ordre simple (mais - S a i t p o i n t e r u n o b j e t
+- Module sa voix et l'expression n'obéit pas toujours)
+spécifique (ex. : cuiller, tasse,
+de son visage
+- Répond à son prénom
+poupée, etc.). Sait aussi les
+- La production de sons - Est intéressé par les livres à image
+nommer
+augmente avec l'âge
+- Sait nommer le nom des
+images simples
+- Adore regarder les livres
+d'image, les pointe du doigt,
+etc. = plus un simple objet à
+manipuler
+- Peut imiter le cri d'animaux
+vus sur un livre/une image
+- Sait où sont le nez, les mains,
+etc. sur une poupée ou sur luimême
+5) Motricité - Motricité spontanée sur le dos - Tient longtemps assis en équilibre, - Arrive à courir
+grossière
+- MI en rotation externe et forte arrive bien à se soutenir avec ses - Se baisse pour ramasser des
+abduction, mais facilement mains
+objets sans perdre l'équilibre
+extensibles
+- Assis, ses MI sont en rotation (testable en jouant à la balle)
+- Peut se tourner sur le côté, externe et il se tourne sans difficulté - Sait shooter un ballon et
+passé d'un côté à l'autre
+pour atteindre des objets
+lancer une balle sans tomber
+- Ramène ses deux mains sur la - Arrive à se mettre debout, s'aidant - Sait marcher à reculons
+ligne médiane
+souvent des meubles. Tombe encore - Adore grimper partout
+- Pédale
+souvent et sait comment se rattraper
+- Monte et descend les escaliers
+- Attrape ses pieds
+- Se penche pour ramasser des objets debout s'il a un appui, à 4 pattes
+- Test tiré-assis (et préfère être une fois debout
+en l'absence d'appui
+assis qu'en position dorsale)
+- Se déplace parfois à 4 pattes, sur le - Sait tomber et se retient avec
+- Bonne tenue de la tête, pas siège (shuffler25), en roulant ou en ses mains
+encore parfaite du tronc
+rampant. Ils doivent faire penser à une
+- Attitude cyphotique
+infirmité motrice cérébrale, des
+- MI en rotation externe et maladies neuro-musculaires et certains
+abduction quand assis, assis le syndromes dysmorpho-génétiques
+dos rond et les genoux fléchis
+- Parfois bébé « toe-walker » ( =
+- Appui latéral insuffisant marche uniquement sur la pointe des
+quand assis
+pieds ou alterne avec la marche
+- Mains bien ouvertes
+normale). Disparaît souvent tout seul,
+- Tient assis seul seulement un mais doit faire évoquer une infirmité
+court instant, préfère être motrice cérébrale, une dystonie
+25 On retrouve souvent une AF positive et une acquisition tardive de la marche proche de 18 mois. Le status
+neurologique doit être normal, hormis une légère hypotonie
+
+Page 39 sur 46
+
+penché en avant en appui
+transitoire ou un tendon d'Achilles
+- Debout, répartit le poids de court
+son corps sur ses MI et ses - Change facilement de posture
+pieds (ne doit pas se tenir sur la
+pointe des pieds, sinon
+suspect !), a le tronc bien droit,
+aime sautiller (si ne sautille pas
+suspect !)
+- Garde sa tête dans l'axe du
+corps si on le penche de côté en
+l'air
+- Position du parachutiste quand
+il est couché sur le ventre, avec
+le tronc et la tête souvent à 90°
+du plan = soutient le poids de
+son corps les bras tendus
+- Sur le ventre, mouvements de
+natation et de rampement sans
+déplacement
+6) Exa men Cf. examen clinique du NN
+Idem
+neurologique En cas de trouble visuel :
+référer à un ophtalmologue
+En cas de trouble auditif :
+effectuer un status ORL, réeffectuer l'examen dans les 4 à
+6 semaines. Si le doute persiste,
+PEA ou consultation ORL
+spécialisée
+Prévention : ne jamais quitter
+l'enfant des yeux à cet âge,
+mettre les petits objets hors de
+portée de l'enfant (phase orale !)
+
+10) Examen clinique de l'enfant
+Anamnèse :
+–
+
+Déroulement de la grossesse
+
+–
+
+Naissance
+
+–
+
+Développement
+
+–
+
+Prise pondérale
+
+–
+
+Alimentation
+
+–
+
+Vaccins
+
+–
+
+Allergies
+
+–
+
+Maladies d'enfance faites
+
+–
+
+Contact avec des maladies infectieuses
+Page 40 sur 46
+
+Examens clinique26 :
+–
+
+–
+
+–
+
+–
+
+–
+
+Mensuration
+–
+
+T° : on peut mesurer les températures rectale (N = 36,8°C – 37,5°C ; la fièvre est
+dès > 38°C), axillaire (N = 36,2°C – 36,8°C) ou orale (N = 36,7°C – 37,2°C)
+
+–
+
+PC : plus grand diamètre occipito-frontal
+
+–
+
+Poids
+
+–
+
+Taille : on mesure couché pour les petits enfants et debout pour les plus grands
+
+Coeur
+–
+
+Inspection (idem adultes)
+
+–
+
+Palpation (idem adultes ; choc de pointe vers 4ème EIC chez les petits, 5ème
+chez les grands)
+
+–
+
+Auscultation (idem adultes ; les fréquences cardiaques moyennes sont de
+140bpm à 1 an, 120bpm à 2 ans, 100bpm à 4 ans, 90bpm à 8 ans et adulte dès 16
+ans)
+
+Circulation
+–
+
+Pouls : radiaux et inguinaux des deux côtés
+
+–
+
+Temps de recoloration périphérique : on presse sur les crêtes tibiales ou sur le
+sternum, la peau devant se recolorer en maximum 3 secondes
+
+–
+
+TA (idem adultes ; une manchette trop petite donnera des valeurs trop élevées et
+vice-versa ; normes de 50 – 70 chez le nourrisson et 70 – 110 chez l'enfant de 10
+ans)
+
+Poumons
+–
+
+Inspection (idem adultes) : le thorax est naturellement plus rond et bombé chez
+les nourrissons et s'aplatit ensuite avec le temps.
+Le type de respiration change aussi avec le temps : respiration surtout
+abdominale pendant l'âge scolaire, puis surtout thoracique.
+FR moyennes : 40 chez le NN, 30 à 1 an, 25 à 2 ans, 20 à 8 ans et adulte dès 16
+ans
+
+–
+
+Percussion (idem adultes)
+
+–
+
+Auscultation (idem adultes ; les bruits bronchiques sont encore bien audibles en
+périphérie)
+
+Abdomen
+–
+
+Inspection (idem adulte) : le niveau de l'abdomen du nourrisson est naturellement
+plus haut que celui de son thorax et doit être sous le thorax > 1 an. L'abdomen
+des enfants est aussi naturellement proéminent lorsqu'ils sont debout
+
+–
+
+Auscultation (idem adultes)
+
+26 On commence par les examens qui demandent que l'enfant soit calme et on réserve les examens les moins agréables
+(TR, examen de la gorge et des oreilles et FO) pour la fin !
+
+Page 41 sur 46
+
+–
+–
+
+–
+
+Palpation (idem adultes) : un foie palpé 2cm sous le rebord costal est encore
+physiologique chez les nourrissons
+
+Peau
+–
+
+Inspection : couleur, boutons, cicatrices, cheveux (ex. : implantation basse dans
+le syndrome de Turner) et ongles
+
+–
+
+Palpation : température (mieux appréciée avec le dos de la main), hydratation 27,
+turgescence (on pince doucement la peau au niveau de l'abdomen), élasticité
+(pincer et tirer la peau), pannicule, oedème (surtout au niveau de la région prétibiale)
+
+Appareil locomoteur
+–
+
+Inspection
+–
+
+Proportions : proportions entre les extrémités et le tronc (ex. :
+achondroplasie)
+
+–
+
+Posture : déviations de la colonne, déformations du thorax, déviations des
+jambes et pieds (genoux naturellement varum jusqu'à 2 ans, puis valgus
+entre 2 et 7 ans ; pied plat valgus souvent transitoirement présents chez
+les nourrissons), position du bassin (recherche de longueur entre les
+jambes), position des épaules
+
+–
+
+Colonne vertébrale : alignement, demander de se pencher en avant
+(recherche de scoliose)
+
+–
+
+Articulations :
+
+–
+
+–
+
+–
+
+Accroupissement : se mettre en boule tout en câlinant ses jambes,
+la tête entre les genoux et les pieds à plat
+
+–
+
+Étirement : aller chercher le ciel des doigts sur la pointe des pieds
+
+–
+
+Toucher de la nuque : se mettre dans la position à la plage, les
+deux mains à plat contre la nuque
+
+–
+
+Toucher du dos : toucher le bas de son dos avec le dos de ses
+mains (comme attacher un tablier)
+
+–
+
+Ouverture et fermeture des poings
+
+–
+
+Si l'enfant se plaint de douleurs aux genoux, il faut toujours aller
+examiner la hanche, surtout son extension !
+
+–
+
+Des douleurs osseuses apparaissent fréquemment pendant la
+croissance, ces douleurs apparaissant surtout la nuit. Toujours
+penser à des leucémies
+
+Os
+
+Tête et cou
+–
+
+Crâne : on peut parfois avoir une scaphocéphalie (= crâne allongé) en cas de
+fermeture prématurée des sutures sagittales chez les NN
+
+27 Signe du pli, fontanelle déprimée, yeux enfoncés dans leurs orbites, moins/pas d'urines (< 3 fois par jour), forte
+envie de boire, pleurs sans larmes, muqueuses sèches, perte pondérale, TA abaissée, pouls plus faible
+
+Page 42 sur 46
+
+–
+
+–
+
+–
+
+Perméabilité du nez : on bouche successivement une narine, puis l'autre chez un
+enfant. Se souvenir que jusqu'à ~ 6 mois, les enfants ne savent respirer que par le
+nez, et qu'un enfant de cet âge qui est en forte détresse respiratoire peut se
+rétablir en quelques instants après lui avoir débouché le nez !
+Se souvenir que les enfants sont surtout touchés par les ethmoïdites (autres
+cavités par encore formées), puis les sinusites maxillaires dès 4 ans, puis les
+sinusites frontales et sphénoïdales dès l'âge scolaire
+
+–
+
+Yeux : cf. examen neurologique. Il est important de rapidement rechercher un
+strabisme, car la vision binoculaire est pleinement développée à 6 mois (= à
+rechercher au plus tard à 6 mois) !
+
+–
+
+Oreille : position par rapport aux yeux, forme (anomalies fréquentes dans les
+anomalies chromosomiques), mastoïde. L'otoscope est à faire à la fin !
+
+–
+
+Bouche et fond de gorge : dents, gencives, muqueuses, amygdales et pharynx.
+Cet examen doit aussi se faire à la fin, car si l'enfant ne veut pas ouvrir sa
+bouche, on doit lui provoquer un réflexe nauséeux !
+Les dents apparaissent dans un ordre bien précis, les premières à sortir étant les
+incisives inférieures (6 mois), qui tomberont vers 6 ans. Les premières dents
+définitives sont le plus souvent les premières molaires, suivies par les incisives
+inférieures. Les deuxièmes molaires apparaissent vers l'âge de 12 ans
+
+–
+
+Trachée et thyroïde : simple palpation la tête penchée en arrière, la thyroïde ne
+devant pas être palpable
+
+Ganglions lymphatiques
+–
+
+Occipitaux : caractéristiquement agrandis en cas de rougeole
+
+–
+
+Rétro-auriculaires (drainent la lymphe du pavillon de l'oreille et du cuir chevelu)
+
+–
+
+Pré-auriculaires (drainent la lymphe de la joue, du cuir chevelu et des parotides)
+
+–
+
+Sous-angulo-maxillaires (infections des amygdales)
+
+–
+
+Sous-maxillaires (drainent la lymphe de la langue et du visage)
+
+–
+
+Sous-mentonniers (drainent la lymphe de la lèvre inférieure et du menton)
+
+–
+
+Cervicaux (derrière le SCM, ils réagissent en cas d'affection des végétations
+adénoïdes)
+
+–
+
+Sus- et sous-claviculaires (drainent la lymphe des bras)
+
+–
+
+Axillaires (drainent la lymphe des bras et de la région thoracique)
+
+–
+
+Cubitaux (entre l'épicondyle médial et le tendon du biceps)
+
+–
+
+Inguinaux (palpables physiologiquement jusqu'à la puberté)
+
+Organes génitaux28
+–
+
+Fille
+–
+
+Les grandes lèvres doivent recouvrir les petites
+
+28 Une puberté précoce est diagnostiquée si des signes de puberté apparaissent avant 8 ans chez une fille et avant 9 ans
+chez un garçon ; elle est tardive si on retrouve une absence de signes pubertaires chez la fille de 14 ans et chez le
+garçon de 15 ans
+
+Page 43 sur 46
+
+–
+
+–
+
+–
+
+Au moment du pic de croissance, on retrouve le début du développement
+des seins en premier ou le début de la pilosité pubienne chez 50% des
+filles
+
+Garçons
+–
+
+Testicules bien descendus ? On bloque le haut du canal en le pinçant et
+on remonte depuis le scrotum de son autre main. On peut parfois
+retrouver un testicule oscillant, qui est plus haut que le scrotum, peut y
+être amener manuellement, mais retourne en position initiale avec le
+réflexe crémastérique
+
+–
+
+Décalotter le gland, un phymosis étant physiologique jusqu'à 3 ans
+
+–
+
+L'augmentation du volume testiculaire est le premier signe de puberté
+chez les garçons, suivie par une apparition de la pilosité pubienne dès 12
+à 13 ans
+
+Anus : rougeur, fistules, souillures, etc.
+
+Examen du système nerveux :
+–
+
+Développement psycho-moteur
+–
+
+–
+
+1 mois : sourit et suit un objet en mouvement des yeux
+
+–
+
+6 mois : se tiennent assis, saisissent des objets hors de leur portée, utilisent la
+« pince plate » (= pince avec d'un côté le pouce et de l'autre les 4 doigts)
+
+–
+
+8 mois : distingue familier et étrangers
+
+–
+
+9 mois : se met debout
+
+–
+
+12 mois : fait ses premiers pas, utilise un mot correctement, pince fine,
+transfert des objets
+
+–
+
+Sait se déshabiller avant 2 ans, à s'habiller plus tard
+
+–
+
+30 mois : sait combiner au moins 2 mots de manière sensée
+
+–
+
+3 ans : sait rouler en tricycle
+
+Motricité, symétrie des mouvements, stéréotypies, asymétrie
+
+État de conscience
+–
+
+–
+
+–
+
+Motricité spontanée
+–
+
+–
+
+Le développement psycho-moteur va de pair avec l'intégrité fonctionnelle, testée
+pendant l'examen neurologique. On peut le coter avec le test de Denver29 note
+quelques étapes importantes :
+
+Capacité de jeu, questions sur l'âge, l'endroit, etc. pour les plus grands
+
+Nn. crâniens
+–
+
+Chez le nourrisson, on les évalue par l'observation, alors que chez l'enfant d'âge
+scolaire, on les évalue de la même manière que chez l'adulte. Ci-dessous les plus
+
+29 Cf. 9) Développement psychomoteur de 0 à 2 ans
+
+Page 44 sur 46
+
+important chez les tout petits
+
+–
+
+–
+
+–
+
+N. II : examen des champs visuels et de l'acuité visuelle 30. On peut utiliser l'échelle
+de Snellen dès 4 ans (pas toujours facile).
+FO comme chez l'adulte
+
+–
+
+N. III, IV et VI : l’examinateur s'approche à 30cm du nourrisson et déplace
+lentement sa tête dans son champ visuel, alors que chez le petit enfant on lui
+demande de suivre la lumière d'une lampe de poche des yeux
+
+–
+
+Nn. V et VII : regarder la motricité spontanée et tester le réflexe cornéen
+
+–
+
+N. VIII : tester l'audition31. On peut le faire avec la clochette pour les NN et plutôt
+avec des ordres chuchotés pour le petit enfant. Idéalement, on aimerait dépister les
+surdités congénitales avant l'âge de 6 mois.
+Pour tester l'équilibre, on peut demander à l'enfant de se tenir debout les yeux fermés
+sur une surface molle. On peut aussi faire marcher sur une ligne droite, demander un
+appui monopodal et demander de faire une ligne droite en sautillant sur une jambe
+
+–
+
+Nn. IX et X : absence de déglutition et/ou de réflexe nauséeux lorsqu'on examine le
+fond de la gorge
+
+Force
+–
+
+Demander de tirer les doigts de l'examinateur pour se relever
+
+–
+
+Pincer le docteur32
+
+–
+
+Se tenir sur la pointe des pieds
+
+Tonus
+–
+
+Tiré assis chez le bébé
+
+–
+
+Réaction et réflexes33
+
+–
+
+ROT34
+
+–
+
+–
+
+Bicipital pour C5-6
+
+–
+
+Tricipital pour C6-7
+
+–
+
+Stylo-radial pour C5-6
+
+–
+
+Rotulien pour L2-4
+
+–
+
+Achilléen pour S1-2
+
+–
+
+On notera que chez les enfants, les ROT des MI sont plus importants que ceux des
+MS, ainsi que leur zone réflexogène
+
+Cervelet
+–
+
+Épreuve doigt-nez les yeux fermés, dès 3 ans (pas chez tout le monde)
+
+30 Cf. vision dans l'examen neurologique du NN
+31 Cf. audition dans l'examen neurologique du NN
+32 Quelle audace !
+33 Cf. examen neurologique du NN
+34 Attention au fait que le réflexe tonique asymétrique de la nuque/position de l'escrimeur modifie les réflexes, donc le
+NN doit avoir la tête dans l'axe ! Chez l'enfant plus grand, on peut aussi demander d'effectuer la manoeuvre de
+Jendrassik
+
+Page 45 sur 46
+
+–
+
+–
+
+Épreuve talon-genou les yeux fermés
+
+–
+
+Diadochocinésie (au début complexe, les enfants bougeant toute la main et le coude
+avec). Elle sera bien coordonnée dès 10 ans
+
+–
+
+Boutonner et déboutonner une chemise
+
+–
+
+Mettre le bouchon sur un stylo
+
+Sensibilité
+–
+
+–
+
+–
+
+Caresser gentiment l'intérieur et l'extérieur des MS, MI et de l'abdomen avec un
+coton-tige. Troubles très rares
+
+Posture et marche
+–
+
+Boiterie, mouvements coordonnés ? Marche bien, court bien ?
+
+–
+
+Marche sur la pointe des pieds (surtout dès 5 ans)
+
+–
+
+Marche sur les talons (surtout dès 5 ans)
+
+Signes méningés
+–
+
+Raideur de nuque : on essaie de fléchir le menton sur le sternum. Le fléchissement
+est impossible ou incomplet à cause de la douleur en cas de méningisme
+
+–
+
+Lasègue : flexion du MI en extension complète jusqu'à 70° - 90°. Il faut maintenir le
+bassin pour éviter tout mouvement de compensation et le signe est positif si la
+flexion est douloureuse ou incomplète
+
+–
+
+Kernig : flexion de la hanche à 90°, puis extension passive du genou. Extension
+impossible en cas de méningisme
+
+–
+
+Brudzinski : un soulèvement de la tête provoque un soulèvement des jambes
+
+–
+
+Position du trépied/tripode : si on demande à l'enfant de se tenir assis sur le sol, il
+met ses deux bras en extension derrière son dos, comme un tripode
+
+Page 46 sur 46
+
+

@@ -1,0 +1,824 @@
+REVUE MÉDICALE SUISSE
+
+Examen de l’abdomen :
+et si nous refaisions nos gammes ?
+SYLVIE PIQUERES, a, b Drs PHILIPPE STAEGER b et OLIVIER PASCHE a, b
+
+Rev Med Suisse 2016 ; 12 : 1866-72
+
+Cet article décrit les principaux gestes cliniques à effectuer lors
+de plaintes abdominales aiguës. Il résume les connaissances de la
+littérature en médecine générale en intégrant lorsque cela est
+possible le raisonnement clinique à l’aide des rapports de vraisemblance. Ce chapitre n’aborde pas les situations complexes.
+
+Examination of the abdomen, let’s train again ?
+This article describes the main clinical gestures to perform when a
+patient complains of acute abdominal pain. It summarizes the
+knowledge in general medicine by integrating whenever possible
+clinical reasoning with likelihood ratios. This chapter does not address complex situations.
+
+Introduction
+Les douleurs abdominales aiguës représentent environ 1-2 %
+des motifs de consultation en médecine de premier recours
+(MPR), dont à peine 10 % sont des urgences vitales.1 Les douleurs abdominales sont habituellement classées en fonction
+des quadrants anatomiques dans lesquels elles se projettent
+(figure 1). Les douleurs des organes abdominaux irradient en
+principe selon une logique dépendant de l’origine embryo­
+logique de ces organes. Ainsi, l’intestin primitif antérieur qui
+
+fig 1
+
+Hypochondre
+droit
+
+Classement des douleurs abdominales
+selon leur quadrant anatomique
+
+Epigastre
+
+Hypochondre
+gauche
+
+Flanc droit
+
+Péri-ombilical
+
+Flanc gauche
+
+Fosse iliaque
+droite
+
+Sus-pubien
+
+Fosse iliaque
+gauche
+
+forme les organes s’étendant de la bouche au duodénum
+proximal provoque des douleurs abdominales hautes alors
+que­l­’intestin primitif moyen qui forme les organes du duo­
+dénum au côlon transverse provoque des douleurs péri-­
+ombilicales. En revanche, l’intestin primitif postérieur qui
+forme le côlon, le rectum, les organes génitaux ainsi que
+­l’appareil urinaire provoque des douleurs abdominales basses.
+L’inflammation du pancréas, par sa nature rétropéritonéale,
+irradie dans le dos alors que l’atteinte de la vésicule biliaire le
+fait dans l’épaule droite et la région sous-scapulaire.
+
+Examen clinique abdominal – drapeaux
+rouges
+Comme dans toute démarche diagnostique, la tâche du MPR
+est d’exclure les situations cliniques relevant de l’urgence
+v­ itale (tableau 1). Il faut rechercher les symptômes et signes
+en faveur d’un état de choc : des douleurs abdominales associées à des signes vitaux perturbés,2 une hypotension ortho­
+statique symptomatique ou décelable par la mesure de
+quelques valeurs de tension artérielle en position debout, qui
+peuvent être annonciateurs de pathologies comme une grossesse e­ xtra-utérine ou une rupture d’anévrisme abdominal. Il
+faut également rechercher des signes de péritonite localisée
+ou généralisée : signes de défense, de détente ou l’absence de
+bruits digestifs qui peuvent annoncer une pathologie grave
+telle qu’une perforation digestive. L’infarctus mésentérique
+est un diagnostic réputé difficile qui doit être évoqué lors de
+douleurs abdominales très intenses avec examen clinique
+normal chez des patients connus pour des troubles du rythme
+thrombogènes, des facteurs de risque cardiovasculaires (FRCV)
+ou ayant un antécédent d’accident ischémique.
+
+Positionnement et confort
+La sensibilité de l’examen clinique est améliorée par un bon
+relâchement de la musculature abdominale qui est obtenu par
+un positionnement optimal du patient : légère surélévation de
+la tête et du tronc, les bras le long du corps, les jambes
+r­ epliées.3 Le patient doit être déshabillé de manière à ce que
+
+Tableau 1
+
+Drapeaux rouges
+
+Douleurs abdominales associées à :
+• Signes vitaux perturbés
+• Hypotension orthostatique symptomatique
+• Test de Shellong pathologique
+• Signe de péritonite
+• Douleurs abdominales très intenses
+• Facteurs de risque cardiovasculaires
+
+a Membres du ForOm NV, b PMU, 1011 Lausanne
+sylviegardet@hotmail.com | philippe.staeger@hospvd.ch
+olivier.pasche@hospvd.ch
+
+1866
+
+WWW.REVMED.CH
+2 novembre 2016
+
+Médecine de
+premier recours
+
+tout l’abdomen soit visible. Durant tout l’examen, il est
+­important de garder le contact visuel avec le patient afin de
+percevoir la mimique du visage qui renseigne sur son confort.
+De même, il est important d’approcher le patient avec empathie, calme et douceur et se réchauffer les mains avant de
+­ alper l’abdomen.
+p
+
+Inspection
+L’inspection de l’abdomen comprend l’examen de ses contours
+et de ses symétries à la recherche d’un bombement des flancs
+lors d’ascite, de voussure, par exemple lors d’hépatosplénomégalie, de tumeur, de globe vésical, de grossesse ou d’hernie.
+L’examen extérieur comprend la recherche de signes de virilisation ou de pilosité diminuée, l’examen de la couleur de la
+peau, la recherche de cicatrices, de vergetures pourpres, de
+veines dilatées, d’éruption cutanée ou d’ecchymoses comme
+dans le cas des hémorragies intra-abdominales et rétropéritonéales (signe de Cullen et signe de Turner). Parfois, des
+­mouvements rythmés de l’abdomen peuvent être perçus, correspondant à la transmission de la pulsation de l’aorte. Cette
+particularité est normale chez les patients maigres mais peut
+être pathologique en cas d’anévrysme de l’aorte abdominale.
+
+Auscultation des bruits abdominaux
+La fréquence normale des bruits abdominaux est extrêmement variable, allant de 5-34 / minutes. Il est donc difficile de se
+baser sur ce critère pour poser un diagnostic. Les bruits abdominaux étant bien transmis dans la cavité abdominale, un seul
+site d’auscultation suffit en principe.
+
+Auscultation des souffles vasculaires
+En présence de facteurs de risques cardiovasculaires, il vaut la
+peine de rechercher des souffles abdominaux (figure 2), par
+exemple un souffle systolo-diastolique révélant un flux turbulent provoqué par une artériosclérose des gros troncs artériels
+de la région. Chez des patients avec une hypertension artérielle (HTA) réfractaire, rechercher une sténose de l’artère rénale sous forme d’un souffle diastolique peut s’avérer utile. La
+prévalence de sténose de l’artère rénale chez ces patients est
+de 20 % et la présence d’un souffle diastolique ­abdominal a un
+
+fig 2
+
+Auscultation des souffles vasculaires
+
+Aorte
+Artère rénale
+
+Artère iliaque
+Artère fémorale
+
+www.revmed.ch
+2 novembre 2016
+
+rapport de vraisemblance positif élevé (RV+ 39).4 Le rapport
+de vraisemblance décrit la performance d’un test et correspond à la formule : sensibilité / (1-spécificité).
+
+Percussion
+La percussion permet de rechercher des zones de matité localisées mettant en évidence une possible masse sous-jacente
+ou des zones de matité des flancs suggérant une ascite ou
+­encore un tympanisme diffus pouvant être associé à un abdomen proéminant.
+
+Palpation
+Afin de faciliter l’examen, il est conseillé de demander au patient de respirer par la bouche avec la mâchoire tombante
+pour détendre la musculature de la paroi abdominale. Les
+structures intra-abdominales sont mieux perçues lors du relâchement de la musculature à l’expirium. La palpation se fait
+préférentiellement avec les avant-bras à l’horizontale, les
+doigts joints à plat sur l’abdomen et les mains plongeantes. Il
+est conseillé de débuter la palpation par les zones non douloureuses afin d’habituer le patient à la palpation et d’éviter
+une réaction de crispation musculaire. La palpation superficielle permet la recherche de zones sensibles, d’une r­ ésistance
+volontaire ou involontaire. Elle fait suspecter une irritation
+péritonéale quand elle est diffusément douloureuse et permet
+également de rassurer et détendre le patient pour la suite de
+l’examen. La palpation profonde permet d’identifier une
+masse dont on s’attachera à préciser les caractères suivant :
+localisation, dimension, forme, consistance, sensibilité,
+­caractère pulsatile, mobilité à la respiration. C’est également
+en profondeur que l’on met en évidence ou que l’on confirme
+une irritation péritonéale par une défense entraînant une
+contracture involontaire de la musculature accompagnée
+d’une grimace ; ainsi qu’une détente signant une atteinte du
+péritoine viscéral. Les autres signes permettant d’identifier
+une irritation péritonéale sont une sensibilité abdominale à la
+toux, à la respiration abdominale, à la percussion abdominale
+ou aux mouvements du lit lors de l’adaptation de sa hauteur.
+Un patient avec un péritonisme ne supportera pas de se laisser
+tomber sur les talons en étant sur la pointe des pieds, ni de
+sauter sur place.
+
+Palpation et percussion du foie
+La palpation du foie lors d’un examen de routine n’est pas
+­nécessaire. Il est utile de palper un foie lors de suspicion de
+néoplasie, d’insuffisance cardiaque, ou de pathologies hépatiques. Le bord inférieur du foie se trouve environ 3 cm en
+dessous du rebord costal à l’inspiration, sur la ligne médioclaviculaire. Le bord doit être mou, net, régulier et lisse. Le
+fait de palper ou non un foie a une mauvaise corrélation avec
+une hépatomégalie puisque dans ce cas le rapport de vraisemblance (RV+) n’est que de 2. En outre, l’absence de détection
+du foie à la palpation n’exclut pas une hépatomégalie : rapport
+de vraisemblance négatif (RV-) de 0,4.
+L’estimation de la taille du foie par percussion d’une matité
+sur la ligne médioclaviculaire a une corrélation de 60-70 %
+avec la hauteur réelle du foie. La hauteur normale du foie se
+situe entre 6-12 cm selon la taille du patient. L’estimation
+peut varier en fonction de la quantité de gaz dans le côlon
+
+1867
+
+REVUE MÉDICALE SUISSE
+
+fig 3
+
+Percussion de la matité hépatique
+sur la ligne médioclaviculaire
+
+Poumon
+
+5e côte
+
+Le signe de la percussion splénique est un autre test clinique
+permettant d’évaluer une splénomégalie. Il se pratique en
+percutant le dernier espace intercostal sur la ligne axillaire
+antérieure, qui est normalement tympanique (figure 4). Ce
+test est pathologique si une matité est présente ou devient
+présente à l’inspiration et a une sensibilité et spécificité d’environ 70 %. Son RV+ est de 1,2 et son RV- de 0,45.
+
+Orifices herniaires5,6
+Foie
+
+Ligne médioclaviculaire
+
+droit. Elle peut être perturbée par une matité pulmonaire
+contiguë à la matité hépatique (figure 3).
+
+Palpation et percussion de la rate
+Il est utile de palper et de percuter une rate dans les situations décrites dans le tableau 2. Il existe plusieurs techniques de palpation de la rate. Ici, nous avons privilégié la
+technique de palpation à deux mains qui se pratique depuis
+la droite du patient et consiste à placer la main gauche sous
+le rebord costal postérieur gauche et soulever la base thoracique avant de mettre la main droite en fosse iliaque droite
+et de remonter le long de l’abdomen en direction du rebord
+costal gauche à la recherche d’une structure élastique. En
+condition normale, la rate ne doit pas être palpable. Pour
+augmenter la sensibilité du test, l’examinateur demandera
+au patient d’inspirer profondément et cherchera à percevoir
+le pôle inferieur de la rate au contact des doigts (pointe de
+rate). Il est proposé de répéter la manœuvre en décubitus
+­latéral droit, ce qui permet de déplacer la rate en avant et
+vers la droite. Le RV+ de cet examen est de 8,2 et le RV- de
+0,4. Cet examen est plus spécifique que sensible. Si une
+splénomégalie est suspectée à l’anamnèse et que la rate est
+palpée, le diagnostic de splénomégalie peut être posé sur
+une base uniquement clinique. En cas de faible suspicion
+­clinique et de palpation d’une pointe de rate ou en cas de
+suspicion anamnestique et d’examen clinique négatif, des
+investigations complémentaires sont nécessaires.
+
+L’inspection et la palpation des orifices herniaires (figure 5)
+font partie de l’examen clinique abdominal. Trois quarts des
+hernies se trouvent dans la région inguinale. Un homme sur
+quatre a une hernie inguinale médicalement reconnaissable à
+l’examen clinique.
+Les orifices herniaires inguinaux se palpent lors de plaintes
+anamnestiques de voussures inguinales, de sensation d’étirement, de déchirure, de lourdeurs ou de douleur au niveau
+­inguinal. Cet examen a de bonnes sensibilité et spécificité, de
+respectivement 75 et 95 %, ce qui permet de calculer les rapports de vraisemblance du test : RV+ 15 et RV- 0,26. Pour cet
+examen, le patient doit se tenir debout. L’examinateur doit inspecter la zone à la recherche d’une voussure spontanée et
+lors d’une manœuvre de Valsalva. La palpation se fait par
+­invagination du scrotum avec l’index en partant de la partie
+basse du scrotum en suivant le cordon spermatique jusqu’à
+l’anneau inguinal superficiel (externe). Il faut demander au
+­patient de tousser ou de faire une manœuvre de Valsalva. Une
+
+fig 4
+Diaphragme
+(expirium)
+
+Ligne axillaire
+antérieure
+Rate, (inspiration,
+expiration)
+Zone de Traube
+
+La technique de percussion de la rate inclut la percussion de
+l’espace de Traube ainsi que le signe de la percussion splénique (Castell spot). L’espace de Traube se trouve entre la
+6e côte, la ligne axillaire antérieure et le rebord costal gauche
+(figure 4). Cet espace est normalement tympanique à la percussion. Une matité est pathologique dans cet espace. Ce test
+est moins performant que la palpation de la rate. Son RV+ est
+d’environ 2,5 et son RV- de 0,45.
+
+Tableau 2
+
+Percussion et palpation de la rate
+
+Percuter et palper une rate dans les situations suivantes :
+• Virose suspectée ou prouvée (p. ex. virus Epstein-Barr)
+• Pathologies hépatiques (cirrhose, hypertension portale)
+• Maladie lymphoproliférative
+• Anomalie à la formule sanguine
+• Parasitose (malaria, leishmaniose, schistosomiase)
+• Connectivite associée à une splénomégalie (lupus érythémateux diffus)
+
+1868
+
+Percussion splénique
+
+fig 5
+
+Castell spot
+
+Orifices herniaires
+
+Hernie épigastrique
+
+Hernie
+incisionnelle
+
+Hernie
+crurale
+
+WWW.REVMED.CH
+2 novembre 2016
+
+Hernie ombilicale
+Hernie de Spiegel
+
+Hernie inguinale
+
+REVUE MÉDICALE SUISSE
+
+hernie inguinale directe est confirmée si une impulsion ou une
+voussure est ressentie sous le doigt. Si l’anneau inguinal superficiel est large, pousser le doigt obliquement jusqu’à l’anneau
+inguinal profond (interne) et rechercher également une voussure, ce qui suggère une hernie inguinale indirecte (figure 6).
+
+Toucher rectal 7-9
+Un rappel anatomique est présenté à la figure 7. Il permet
+d’explorer une suspicion de cancer anal, colorectal ou prostatique. Une fois ces pathologies exclues, 90 % des lésions
+présentes au toucher rectal (TR) sont gérables par le MPR.
+Il est à effectuer dans les situations citées dans le t­ ableau 3.
+L’examen clinique se fait en décubitus latéral, les genoux sur la
+poitrine. Lors de l’inspection des zones sacro-­coccygiennes et
+périanales, on peut observer les pathologies ­décrites dans le
+tableau 4. Après l’inspection, le TR se fait de la façon suivante :
+lubrifier son gant, expliquer le geste et demander au patient de
+pousser. Introduire le doigt en direction de l’ombilic le plus
+loin possible. Evaluer le tonus sphinctérien (sphincter interne)
+et demander au patient de contracter afin de vérifier le tonus
+du sphincter externe. Palper le plus de surface rectale possible
+
+fig 6
+
+Hernie inguinale
+
+La palpation d’une hernie inguinale se fait par invagination du scrotum.
+Muscle oblique de l'abdomen
+
+Anneau inguinal
+profond
+Anneau inguinal
+superficiel
+Canal inguinal qui
+traverse les muscles
+abdominaux
+
+Toucher rectal : rappel anatomique
+
+Muscle
+élévateur
+
+Hémorroïdes
+internes
+Ligne
+pectinée
+
+Sphincter
+interne
+Canal anal
+Sphincter
+externe
+Marge anale
+
+Tableau 3
+
+Inspection anale
+
+Que rechercher ?
+• Des hémorroïdes externes thrombosées
+• Un prolapsus
+• Des hémorroïdes internes extériorisées
+• Une dermatite périanale
+• Des lichenifications
+• Des vésicules (herpès)
+• Des condylomes
+• Des fissures anales
+• Des fistules
+• Une masse indurée
+
+en tournant le doigt à 360° et rechercher des douleurs, des
+masses, des indurations ou des irrégularités. Les petites tumeurs peuvent parfois être ­palpées et non visualisées. Noter la
+couleur des selles et la présence de sang sur le doigtier à la fin
+du TR. En cas de douleur intense, ne pas forcer mais rechercher
+des lésions en écartant l’orifice doucement.
+
+Appendicite10-12
+La prévalence des appendicites parmi les consultations ambulatoires pour douleurs abdominales aiguës en MPR est estimée à 1 % alors que l’incidence dans la population générale est
+de 9 cas pour 100 000 personnes par année. Les signes cliniques typiques sont une sensibilité au point de Mac Burney
+(figure 8), le signe du psoas (figure 9) et de l’obturateur (figure 10). Le signe de Rovsing est décrit comme une douleur
+en fosse iliaque droite (FID) lors de pression exercée en fosse
+iliaque gauche (FIG). Il serait dû au refoulement des gaz du
+côlon gauche dans le côlon droit. Il permet de différencier
+une pathologie digestive d’une pathologie annexielle. Le tableau 5 décrit les symptômes et les signes permettant d’inclure un diagnostic d’appendicite. L’absence de ces signes ne
+permet pas d
+­ ’exclure une appendicite.
+
+Diverticulite13-15
+
+Cordon spermatique
+
+fig 7
+
+Tableau 4
+
+La diverticulose est présente chez 10 % des personnes de plus
+de 45 ans et 80 % des patients de plus de 85 ans. La prévalence
+de la diverticulite au cours de la vie chez les gens connus pour
+une diverticulose est de 25 %. Les facteurs prédisposants sont
+l’âge, les antécédents familiaux, la prise d’AINS, l’obésité, la
+sédentarité, la constipation chronique, le tabagisme et l’alimentation pauvre en fibres. L’unique signe relevant est la
+­sensibilité en FIG isolée avec un RV+ de 10 (tableau 6).
+
+Glandes
+anales
+Hémorroïdes
+externes
+
+fig 8
+
+Point de Mc Burney
+
+1 : Point de Mac Burney ; 2 : Ombilic ; 3 : Crête iliaque antérieure.
+
+Situations nécessitant un toucher rectal
+
+Modification du fonctionnement intestinal (volume et/ou calibre des selles)
+Rectorragie ou méléna
+• Douleur anale, prurit anal
+• Diminution du jet urinaire chez l’homme
+• De brûlures mictionnelles chez l’homme
+• Suspicion de lésion de la moelle (atteinte S2-S4)
+
+2
+
+•
+•
+
+1870
+
+Mc Burney 1
+
+Rovsing
+3
+
+WWW.REVMED.CH
+2 novembre 2016
+
+Médecine de
+premier recours
+
+fig 9
+
+fig 10
+
+Signe du psoas
+
+En décubitus dorsal : demander au patient de lever la jambe contre résistance,
+main placée au-dessus du genou. En décubitus latéral gauche : extension contre
+résistance de la hanche droite. La présence de douleurs signe une irritation du
+psoas par un appendice enflammé.
+
+Signe de l’obturateur
+
+Flexion passive de la hanche et du genou droit, rotation interne de la hanche
+droite. Ce signe provoque l’étirement du muscle obturateur, il est positif s’il produit
+une douleur abdominale à droite. Il reflète une irritation du muscle obturateur
+possiblement provoquée par l’appendice enflammé.
+
+Muscle psoas
+
+Vue en décubitus latéral gauche
+
+Tableau 5
+
+Symptômes et signes discriminatifs
+lors de suspicion d’appendicite 4,10-12
+
+Vue postérieure
+
+Le score d’Alvarado permet de stratifier le risque d’appendicite. Un score <
+4 permet en principe d’éviter une intervention chirurgicale. Un score ≥ 7 est
+fortement évocateur d’une appendicite et devrait orienter vers une stratégie
+opératoire (RV+ 3,1 ; RV- 0,26). www.mdcalc.com/alvarado-score-for-acute-­
+appendicitis/
+Symptômes et signes
+
+RV+
+
+RV-
+
+Score d’Alvarado
+
+Douleur en fosse iliaque droite
+
+∼ 8,0
+
+0,2
+
++2
+
+Etat fébrile > 37,3 °C
+
+∼ 3,0
+
+0,4
+
++1
+
+Défense
+
+∼ 3,0
+
+0,88
+
++1
+
+Migration des douleurs en fosse
+iliaque droite
+
+∼ 3,0
+
+Signe du psoas
+
+∼ 2,8
+
+0,88
+
+Douleur avant vomissement
+
+2,8
+
+0,02
+0,54
+
+Détente
+
+2,0
+
+1er épisode de douleur de ce type
+
+1,5
+
+Anorexie
+
+1,1
+
+Leucocytose > 10 000
+
+∼ 3,0
+
+Grand
+trochanter
+Muscle
+obturateur
+interne
+
+Cholécystite
+Environ 5 % des patients consultant dans un centre d’urgences
+pour des douleurs abdominales aiguës ont une cholécystite.
+Aucune combinaison de symptômes et / ou de signes cliniques
+ne permet de poser un diagnostic de cholécystite avec certitude. Le signe de Murphy, douleur bloquant la ­respiration à la
+palpation de l’hypochondre droit, est un examen peu discriminatif (tableau 7).
+
++1
+
+0,9
+
++1
++2
++1
+
+Ascite
+
+Diverticulite
+
+FIG : fosse iliaque gauche.
+Indicateurs
+
+RV+
+
+RV-
+
+Sensibilité uniquement en FIG
+
+∼10
+
+0,7
+
+Antécédents de douleur en FIG
+
+3,3
+
+0,5
+
+Absence de vomissement
+
+1,4
+
+0,2
+
+Etat fébrile anamnestique
+
+1,4
+
+0,6
+
+Sensibilité FIG, absence de vomissement, CRP > 50 mg/l
+
+18
+
+0,65
+
+CT-scan abdominal
+
+94
+
+0,3
+
+RV+
+
+RV-
+
+Tableau 7
+
+Appendice
+
++1
+
+Déviation gauche
+
+Tableau 6
+
+Cæcum
+
+Cholécystite 4
+
+Indicateurs
+Impression clinique du praticien (inclus
+échographie au lit du patient, praticiens entraînés)
+
+∼25
+
+Signe de Murphy
+
+2,8
+
+0,5
+
+www.revmed.ch
+2 novembre 2016
+
+En MPR, sa prévalence est estimée à 5 %. Il faut la rechercher
+cliniquement en présence d’une histoire de cirrhose, d’insuffisance cardiaque, de syndrome néphrotique, de néoplasie et
+des symptômes suivants : augmentation du périmètre abdominal anamnestique, prise de poids récente ou œdème des
+chevilles. L’examen clinique comprend la recherche du bombement des flancs, la mesure du périmètre abdominal, la percussion de la limite de la matité déclive en décubitus dorsal et
+la variation de cette limite de matité en décubitus latéral. Il
+faut rechercher le signe du flot qui est le meilleur test clinique
+(figure 11, tableau 8).
+
+Iléus mÉcanique et paralytique16-19
+Sa prévalence dans un centre d’urgences représente 15 % des
+douleurs abdominales. Il est exceptionnel de le rencontrer en
+MPR. Il faut le rechercher en cas d’antécédent d’iléus car la
+récidive d’un épisode occlusif est d’environ 15 à 20 %, en cas
+
+1871
+
+REVUE MÉDICALE SUISSE
+
+fig 11
+
+Signe du flot
+
+La main sur la ligne médiane de l’abdomen bloque la transmission de l’impulsion
+par la graisse J donner des coups secs sur un flan et percevoir l’impulsion sur le
+flanc opposé. Ce signe est souvent négatif si l’ascite est peu abondante.
+
+Tableau 8
+
+Ascite
+
+L’absence de ces signes n’exclut pas la présence de petite quantité d’ascite.
+Signes d’ascite
+
+RV+
+
+Matité mouvante
+
+2,1
+
+Signe du flot
+
+5,3
+
+Malgré ces limites, l’examen abdominal garde une place de
+choix en MPR, pour sa valeur diagnostique non négligeable,
+comme évoqué ci-dessus, mais aussi pour son rôle essentiel
+dans la construction du lien singulier qui s’établit entre le médecin traitant et son patient. Le toucher et la palpation font de
+l’examen abdominal l’étape de l’examen clinique qui rapproche, physiquement, le plus le médecin de son patient. En
+autorisant son médecin à le toucher et le palper, le patient se
+confie physiquement à lui. Le praticien de son côté, par ses
+gestes et son contact bienveillants, rassure son patient et renforce le lien de confiance qui les unit.
+Conflit d’intérêts : Les auteurs n’ont déclaré aucun conflit d’intérêts en relation
+avec cet article.
+
+d’antécédent de chirurgie abdominale, de néoplasie, de hernie, de maladie intestinale inflammatoire ou en situation postopératoire. A l’examen clinique, il faut rechercher une distension abdominale. Un abdomen tympanique est un signe
+tardif de la maladie. L’auscultation est non spécifique pour le
+diagnostic des obstructions digestives. Des études montrent
+qu’il n’y a pas de différence en termes d’intervalle entre les
+bruits ou de fréquence dominante des bruits abdominaux
+permettant de distinguer une obstruction abdominale aiguë,
+subaiguë ou une absence d’obstruction.
+La palpation abdominale peut s’avérer faussement rassurante
+car une souplesse n’exclut en rien une ischémie déjà installée.
+En conclusion, l’examen clinique est un examen peu fiable
+pour un diagnostic d’occlusion avec ischémie.
+
+Implications pratiques
+Assurer le confort du patient et son bon positionnement pour
+effectuer un examen abdominal permet d’augmenter la sensibilité
+et la spécificité de l’examen clinique
+Un souffle diastolique rénal chez des patients présentant une
+hypertension artérielle réfractaire est un excellent test pour
+diagnostiquer une sténose de l’artère rénale
+Une suspicion anamnestique associée à la palpation d’une
+pointe de rate permet de poser le diagnostic de splénomégalie
+Le signe de Murphy est un test peu discriminatif lors de
+suspicion de cholécystite
+Le signe du flot est le meilleur examen lors de suspicion d’ascite
+
+Conclusions
+Les signes cliniques abdominaux isolés sont souvent peu discriminatifs. Ils sont à intégrer dans une évaluation globale com1 Woodwell DA1, Cherry DK. National
+ambulatory medical care survey: 2002
+summary. Adv Data 2004;346:1-44.
+2 ** Oulhaci de Saussure W, Andereggen E. Quand référer aux urgences un
+patient présentant des douleurs abdominales? Rev Med Suisse 2010;6:1546-9.
+3	Bates B. Abdomen, chapitre 11. Guide
+de l’examen clinique, édition 17, 2014.
+4	Simel D, Rennie D, Keitz S. The rational clinical examination. New York: Mc
+Graw-Hill Medical, 2009.
+5	LeBlanc KE, LeBlanc LL. Inguinal hernias: Diagnosis and management. Am
+Fam Physician 2013;87:844-8.
+
+prenant la prévalence de la maladie suspectée en MPR ainsi que
+les symptômes et signes cliniques que présente le patient. La
+clinique seule ne permet malheureusement pas d’exclure la
+majorité des pathologies abdominales aiguës, ce qui justifie
+souvent le recours à des examens complémentaires. Un examen clinique abdominal normal peut s’avérer également faussement rassurant. Le praticien sera donc obligé de compléter
+son évaluation avec une imagerie pour inclure mais aussi souvent pour exclure les pathologies suspectées.
+
+6 ** Fitzgibbons RJ, Forse RA. Clinical
+Practice. Groin hernias in adults. N Engl J
+Med 2015;372:756-63.
+7 Fargo MV, Latimer KM. Evaluation
+and management of common anorectal
+conditions. Amn Fam Physician
+2013;85:624-30.
+8 ** Roche B, Skala K. Proctologie du
+praticien. Rev Med Suisse 2011;7:194-5.
+9 Bates B. Anus, rectum et prostate, chapitre 15. Guide de l’examen clinique, édition 17, 2014.
+10 Alvarado A. A practical score for the
+early diagnosis of acute appendicitis. Ann
+Emerg Med 1986;15:557-64
+
+1872
+
+La clinique seule ne permet malheureusement pas d’exclure
+avec un bon degré de certitude la majorité des pathologies
+abdominales aiguës
+
+11 D’Souza N, Nugent K. Appendicitis.
+
+Am Fam Physician 2016;93:142-3.
+12 Ebell MH. Diagnosis of appendicitis: Part I. History and physical examination. Am Fam Physician 2008;77:82830.
+13 Wilkins T, Embry K. Diagnosis and
+management of acute diverticulitis. Am
+Fam Physician 2013;87:612-20.
+14 Jacobs DO. Diverticulitis. N Engl J
+Med 2007;357;2057-66.
+15 Cartwright SL, Knudson MP. Evaluation of acute abdominal pain in adults.
+Am Fam Physician 2008;77:971-8.
+16 Schwenter F, Dominguez S. Occlusion
+
+WWW.REVMED.CH
+2 novembre 2016
+
+grêle aiguë: traitement conservateur ou
+chirurgical ? Rev Med Suisse 2011;7:1341-7.
+17 Jackson PG, Raiji M. Evaluation and
+management of intestinal obstruction.
+Am Fam Physician 2011;83:159-65.
+18 Felder S, Margel D. Usefulness of
+bowel sound auscultation: A prospective
+evaluation. J Surg Educ 2014;71:768-73.
+Ching SS, Tan YK. Spectral analysis of
+bowel sounds in intestinal obstruction
+using an electronic stethoscope. World J
+Gastroenterol 2012;18:4585-92.
+* à lire
+** à lire absolument
+
+

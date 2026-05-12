@@ -1,0 +1,2222 @@
+2024-2025
+
+1ère – 2ème années Master
+
+Apprentissage en milieu clinique
+COURS / SEMINAIRE
+DE PHARMACOLOGIE
+
+Cahier d’apprentissage
+
+APPRENTISSAGE EN MILIEU CLINIQUE
+(AMC)
+
+Pharmacologie
+
+Faculté de Médecine Université de Genève
+16ème édition
+
+© 2024 Université de Genève (Faculté de médecine)
+
+TABLE DES MATIERES
+
+OBJECTIFS GENERAUX D’APPRENTISSAGE EN PHARMACOLOGIE CLINIQUE ............................1
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance cardiaque ...........3
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la BPCO et du
+syndrome coronarien ........................................................................................................................ 14
+Séminaire n°3 : Adaptation posologique, exemple de la fibrillation auriculaire (FA) ........................ 27
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète ....................................... 45
+
+Objectifs généraux d’apprentissage en pharmacologie clinique
+
+OBJECTIFS GENERAUX D’APPRENTISSAGE
+EN PHARMACOLOGIE CLINIQUE
+
+Après avoir étudié les fiches thérapeutiques en relation avec des problèmes cliniques
+courant, l’étudiant.e devra être capable pour chaque médicament de :
+•
+•
+•
+•
+•
+
+Connaître son mécanisme d’action
+Connaître ses indications
+Connaître les effets indésirables
+Connaître ses caractéristiques pharmacocinétiques
+Prévoir les interactions médicamenteuses
+
+ACCES AUX REFERENCES DES AMC DE PHARMACOLOGIE CLINIQUE :
+Ces documents sont disponibles sur Moodle/AMC Médecine Interne/
+documents/Séminaires/Pharmacologie et pharmacothérapeutique, ainsi que sur
+Moodle/Pharmacologie/AMC Médecine interne/support de cours.
+
+Pharmacologie clinique et thérapeutique
+1
+
+Objectifs généraux d’apprentissage en pharmacologie clinique
+
+Pharmacologie clinique et thérapeutique
+2
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+
+SEMINAIRE N°1 : PRESCRIPTION ET CHOIX D'UN MEDICAMENT, EXEMPLE DE
+L'INSUFFISANCE CARDIAQUE
+Un cadre retraité de 85 ans est connu pour une insuffisance cardiaque sur cardiopathie
+ischémique traitée depuis 2 ans par de la digoxine 0,125mg/j, du furosémide 80 mg/j,
+de l’enalapril 10 mg/j.
+Il consulte son médecin traitant en raison d’une dyspnée, d’une asthénie et des
+œdèmes marqués aux deux membres inférieurs. Le patient est hospitalisé pour prise
+en charge.
+A l’examen clinique de l’entrée on relève des râles crépitant aux deux bases
+pulmonaires, un épanchement pleural bilatéral, une TA : 110/70 mmHg, FC : 120/min ;
+poids : 75kg (+3kg par rapport à la dernière consultation). Une Rx thorax montre une
+cardiomégalie et des signes de stase, une échographie cardiaque confirme une
+diminution de la fraction d’éjection et la présence d’une discrète insuffisance mitrale.
+Après un traitement approprié, le patient a retrouvé son poids de base.
+
+Question(s):
+•
+
+Quel traitement allez-vous lui prescrire à la sortie de l'hôpital?
+
+•
+
+Rédigez son ordonnance de sortie et organisez son entretien de sortie autour
+de son traitement médicamenteux
+
+Pharmacologie clinique et thérapeutique
+3
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+CONTENU GENERAL DU PROBLEME
+Problème clinique
+
+-
+
+Œdèmes et dyspnée, critères de choix du
+médicament dans une classe donnée
+
+Diagnostic
+
+-
+
+Insuffisance cardiaque G décompensée
+
+Aspect(s) privilégié(s)
+
+-
+
+Traitement de l'insuffisance cardiaque gauche
+chronique, rédaction de l’ordonnance, respect des
+dispositions légales de prescription
+
+Cadre du problème
+
+-
+
+Transition entre l'hôpital et le domicile
+
+OBJECTIFS D’APPRENTISSAGE
+• Détailler les principales classes médicamenteuses employées dans le traitement
+de l'insuffisance cardiaque chronique
+• Décrire leur mécanisme d'action
+• Décrire leur efficacité clinique (sur la mortalité et/ou sur la morbidité)
+• Etablir les critères de choix d'une molécule dans une classe de médicaments
+• Rédiger une prescription (ordonnance) dans le respect des dispositions légales et
+l’expliquer au patient
+• Décrire et appliquer les stratégies visant à limiter l’empreinte écologique des
+prescriptions médicamenteuses
+
+Pharmacologie clinique et thérapeutique
+4
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+
+REFERENCES
+PHARMACOLOGIE
+CLINIQUE
+/
+PHARMACOTHERAPIE
+
+Guignard E et al. Erreurs médicamenteuses en ambulatoire :
+problématique, prévention autour de l'ordonnance et
+amélioration de l'information aux patients. Rev Med Suisse 2004;
+499
+Daly et al. Médicaments génériques et biosimilaires : une
+panacée ? Rev Med Suisse 2015 ; 11 : 1909-14
+Livio F et al. Génériques et article 38a OPAS : quel impact ?
+Revue médicale suisse, 2006 ; 2 : 966-969.
+Capp-Info no 50, septembre 2008: Rédaction des ordonnances
+de sortie
+Pollock M. et al Appropriate Prescribing of Medications: An EightStep Approach. Am Fam Physician 2007;75:231-6, 239-40
+Schneider MP et al. Prescription médicamenteuse durable :
+réflexions croisées entre médecins et pharmaciens. Rev Med
+Suisse 2019 ; 15 : 942-6
+
+Pharmacologie clinique et thérapeutique
+5
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+PHARMACOLOGIE
+
+Sites
+
+CLINIQUE
+/
+PHARMACOTHERAPIE
+
+Swissmedic : http://www.swissmedicinfo.ch
+Compendium :
+https://compendium.ch/home/de?Platform=Desktop
+Liste des spécialités (OFSP):
+http://www.spezialitätenliste.ch/default.aspx
+Liste des stupéfiants
+https://www.bag.admin.ch/bag/fr/home/service/gesetzgebung/g
+esetzgebung-mensch-gesundheit/gesetzgebungbetaeubungsmittel.html
+
+MEDECINE INTERNE
+
+McMurray JJ. Clinical practice. Systolic heart failure. N Engl J
+Med. 2010;362:228-38.
+Redfield MM, Heart Failure with preserved ejection fraction, N
+Engl J Med 2016;375: 1868-77
+Arroll B, Doughty R, Andersen V. Investigation and management
+of congestive heart failure. BMJ. 2010;341:c3657.
+Mant J, Al-Mohammad A, Swain S, Laramee P. Management of
+chronic heart failure in adults: synopsis of the National Institute
+For Health and clinical excellence guideline. Ann Intern Med.
+2011 ;155:252-9.
+2021 ESC Guidelines for the diagnosis and treatment of acute
+and chronic heart failure Eur Heart J.2021 Sep 21;42(36):35993726; NB: un update 2023 est sous press.
+
+Pharmacologie clinique et thérapeutique
+6
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+Guide du tuteur
+Directives générales
+Ce problème doit permettre aux étudiant.e.s :
+-
+
+D’acquérir des connaissances au sujet du traitement pharmacologique de
+l'insuffisance cardiaque systolique chronique. On insistera particulièrement sur les
+aspects pratiques de la prescription (précautions, effets indésirables, contreindications, etc.).
+
+-
+
+De réfléchir sur les critères de choix d'une molécule dans une classe de
+médicaments.
+
+-
+
+De rédiger une prescription de manière appropriée et de réfléchir à son empreinte
+écologique
+Matériel Associé
+Fiches de pharmacologie/pharmacothérapie
+Déroulement détaillé du séminaire
+
+Un cadre retraité de 85 ans est connu pour une insuffisance cardiaque sur
+cardiopathie ischémique traitée depuis 2 ans par de la digoxine 0,125mg/j, du
+furosémide 80 mg/j, de l’enalapril 10 mg/j.
+Il consulte son médecin traitant en raison d’une dyspnée, d’une asthénie et des
+œdèmes marquées aux deux membres inférieurs. Le patient est hospitalisé pour
+prise en charge.
+A l’examen clinique de l’entrée on relève des râles crépitants aux deux bases
+pulmonaires, un épanchement pleural bilatéral, une TA : 110/70 mmHg, FC :
+120/min ; poids : 75kg (+3kg par rapport à la dernière consultation). Une Rx
+thorax montre une cardiomégalie et des signes de stase, une échographie
+cardiaque confirme une diminution de la fraction d’éjection et la présence d’une
+discrète insuffisance mitrale.
+Après un traitement approprié, le patient a retrouvé son poids de base.
+Question(s):
+•
+
+Quel traitement allez-vous lui prescrire à la sortie de l'hôpital?
+
+•
+
+Rédigez son ordonnance de sortie
+
+Pharmacologie clinique et thérapeutique
+7
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+1ERE PARTIE (env. 60 minutes)
+Classes de médicaments utilisés dans l'insuffisance cardiaque chronique
+L'objectif de cette première partie est de revoir avec les étudiant.e.s de manière
+interactive les notions au sujet des classes de médicaments suivantes et les
+complètent, au moyen des fiches thérapeutiques qui seront distribuées aux
+étudiant.e.s à la fin du séminaire:
+•
+
+IEC (enalapril, lisinopril)
+
+•
+
+antagonistes du récepteur de l'angiotensine (ARA, losartan)
+
+•
+
+diurétiques de l'anse (furosémide, torasémide)
+
+•
+
+antagonistes des récepteurs de l'aldostérone (spironolactone, éplérénone)
+
+•
+
+bêta-bloquants (metoprolol, carvedilol)
+
+•
+
+Inhibiteurs du cotransporteur sodium/glucose de type 2 (SGLT-2)
+(dapagliflozine, empagliflozine) (fiches thérapeutiques cf problème 4)
+
+Le préalable à cette discussion est un rappel actif de la part des étudiant.e.s de la
+physiopathologie de l'insuffisance cardiaque afin de leur permettre de faire le lien entre
+physiopathologie et thérapeutique. Le schéma ci-dessous, adapté du Harrison's, peut
+servir de base, en précisant qu’il s’agit de traitements dont l’éfficacité est démontrée
+pour l’insuffisance cardiaque à fonction systolique réduite (HFrEF) ; la distinction avec
+l’insuffisance cardiaque à fonction préservée (HFpEF) doit être faite (voir référence
+Redfield MM, Heart Failure with preserved ejection fraction, N Engl J Med 2016;375: 1868-77).
+
+ARA/sartans
+
+Spironolactone
+Diurétiques
+Inhib
+SGLT2
+
+Pharmacologie clinique et thérapeutique
+8
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+Puis, chaque classe médicamenteuse est prise en séquence en commençant par les
+IEC. La durée de cette phase est de 60 minutes environ.
+Choix d'une molécule au sein d'une classe de médicaments
+Il faut également intégrer à cette première phase les critères de choix d'une molécule
+au sein d'une classe de médicaments. Ces critères sont:
+1. Indication (Efficacité, validité de l'indication)
+2. Sécurité : (Effets indésirables, comorbidités, co-médications)
+3. Cinétique et galénique (absorption, demi-vie)
+4. Coût
+Il convient également de tenir compte des croyances du patient/prescripteur.
+Cette discussion peut se faire au sujet des IEC en comparant l'enalapril et le lisinopril
+au moyen du tableau suivant:
+Enalapril
+
+Lisinopril
+
+Efficacité
+
+Identique
+
+Effets indésirables
+
+Identiques (en particulier toux)
+
+Cinétique
+
+Demi-vie plasmatique
+moyenne =11 heures
+
+Demi-vie plasmatique
+moyenne =12 heures
+
+Durée d’action
+
+12 heures,
+2 prises quotidiennes
+
+12 à 24 heures, 1 prise
+quotidienne
+
+Interactions
+
+Identiques
+
+Coût
+
+Dose-cible 2 x 10 mg/j = env. Dose-cible 20 mg/j = env.
+1,00.- par jour
+0,65.- par jour
+
+Pharmacologie clinique et thérapeutique
+9
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+Autres exemples:
+-
+
+Eplérénone: moins de gynécomastie que la spironolactone
+
+-
+
+Carvedilol:
+o Bêta-bloquant non sélectif, effet alpha-bloquant en plus de l'effet bêtabloquant, susceptible d’entrainer une vasodilatation périphérique
+o La différence clinique d'efficacité entre metoprolol et carvedilol est faible
+dans l'insuffisance cardiaque (étude COMET, Lancet 2003: mortalité
+globale 40% dans le groupe metoprolol vs. 34% dans le groupe
+carvedilol pour un suivi de 5 ans, soit une différence de risque de 6% en
+faveur du carvedilol et un NNT de 17 pendant 5 ans, mais dans un
+groupe à risque très élevé)
+
+-
+
+Torasémide: demi-vie plasmatique et durée d'action plus longue que le
+furosémide
+
+2EME PARTIE (env. 30 minutes)
+Rédaction d'une prescription
+Les objectifs de cette seconde partie concernent la prescription. Les étudiant.e.s
+seront priés de rédiger une ordonnance de sortie pour le patient dont le cas a été
+présenté au début du séminaire.
+Les enseignant.e.s profiteront pour rappeler les catégories d'autorisation.
+Jusqu’en 2019, les catégories d’autorisation étaient les suivantes :
+A : remise sur ordonnance médicale non renouvelable
+B : remise sur ordonnance médicale
+C : remise sur conseils des professionnels de la santé
+D : remise sur conseil spécialisé
+E : remise sans conseil spécialisé
+Dans le cadre de la révision de la Loi sur les produits thérapeutiques, le/la
+législateur.trice a décidé de faciliter l’automédication et de mieux utiliser la compétence
+spécialisée des points de remise des médicaments (drogueries, pharmacies).
+Conformément aux prescriptions légales, tous les médicaments relevant
+antérieurement de la catégorie de remise C et certains médicaments de la catégorie
+de remise D ont été évalués et réaffectés dans une des nouvelles catégories de
+remise.
+
+Pharmacologie clinique et thérapeutique
+10
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+Depuis 2019, les nouvelles catégories de remise sont :
+A : remise sur ordonnance médicale non renouvelable
+B : remise sur ordonnance médicale
+D : remise sur conseils des professionnels de la santé
+E : remise sans conseil spécialisé
+Stupéfiant :
+Remise sur ordonnance à souche (3 exemplaires : copie bleue: prescripteur.trice;
+blanc et rose: pharmacien.ne)
+Depuis 2005, possibilité de prescrire jusqu'à 3 stupéfiants, dosages ou formes
+galéniques différents sur une seule ordonnance qui est valable un mois max à
+compter de la date d'établissement. Prolongation jusqu'à 2 mois possible si indiquée
+sur l'ordonnance.
+
+Savoir rédiger une ordonnance
+Identification du prescripteur (nom, adresse, numéro de téléphone)
+Identification du patient (nom, prénom, date de naissance),
+Rp = recipe = prenez
+Médicament(s) : nom DCI ou de marque
+Forme galénique : cp, sirop...
+Dosage : 20 mg, taille emballage si autre que le plus petit S = étiquetez
+Schéma posologique : 3x20mg/j
+Durée du traitement
+Indiquer si vous voulez renouveler l'ordonnance
+Signature du prescripteur
+Ces informations doivent être libellées lisiblement, afin de permettre au pharmacien.ne
+de réaliser la validation ou contrôle (prestation LAMaI) correcte de l'ordonnance.
+Lire et commenter l'ordonnance avec le/la patient.e!
+Les caisses-maladie (assurance-maladie obligatoire) ne remboursent pas tous les
+médicaments.
+La liste des spécialités est publiée par l’office de la santé publique (OFSP) et comprend
+la liste des médicaments qui sont pris en charge par l’assurance obligatoire de soins.
+
+Pharmacologie clinique et thérapeutique
+11
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+Les génériques
+Depuis 2001, l'article 52a de la loi sur l'assurance maladie (LAMaI) encourage déjà
+le/la pharmacien.ne à substituer les médicaments originaux par des génériques.
+L'article 38a de l'Ordonnance sur les prestations de l'assurance des soins (OPAS),
+applicable à partir du 1er avril 2006, est encore plus incitative puisqu'elle entraînera
+une augmentation de 2 à 4x de la quote-part payée par le patient si celui-ci se fait
+remettre un original de la liste des spécialités (LS) alors qu'un générique moins cher
+d'au moins 20% est disponible. Le devoir d'information imposé au prescripteur.trice
+laisse envisager que le/la patient.e pourrait se retourner contre ce/cette dernier.e et lui
+imputer le payement de la différence s'il n'a pas été dûment averti de cette éventualité.
+Pour garantir la remise de la préparation originale avec 10% de quote-part, le/la
+médecin traitant doit spécifier lisiblement par une note manuscrite sur l’ordonnance
+que, « pour des raisons médicales, la préparation originale ne peut être remplacée par
+un générique ». Cette mention indique au pharmacien.ne que le remplacement en
+vertu de l’art. 52a LAMal est exclu. La mention «sic » n’est pas suffisante. Les
+préparations originales pour lesquelles il n’existe aucun générique 20% meilleur
+marché continuent à être facturées avec 10% de quote-part.
+Le/la prescripteur.trice va désormais devoir connaître la liste des médicaments pour
+lesquels des génériques sont disponibles sur le marché, et les proposer
+systématiquement aux patients ou avertir le/la patient.e que le/la pharmacien.ne va lui
+proposer un générique.
+Empreinte écologique de la prescription
+Les services de santé exercent une empreinte carbone significative sur
+l’environnement. Les chiffres ne sont pas disponibles en Suisse mais, l’empreinte
+carbone attribuée au système de santé de Grande-Bretagne est de 4 % des émissions
+nationales globales à effet de serre, dont 22 % sont dues aux médicaments. La part
+liée au médicament est également d’une vingtaine de pourcents de l’empreinte
+carbone des services de santé aux Etats-Unis, au Canada et en Australie (Rev Med
+Suisse 2019 ; 15 : 942-6).
+La pharmacie durable (Green pharmacy) est définie comme « l’utilisation de pratiques
+durables dans le développement, la fabrication, la prescription et l’élimination d’un
+médicament pour maximiser son efficacité thérapeutique, diminuer ses coûts pour le
+système de santé et minimiser son impact sur l’environnement » (Rev Med Suisse
+2019 ; 15 : 942-6).
+Plusieurs médicaments sont des micropolluants, nécessitant une manutention et une
+utilisation adéquates. Certains d’entre eux sont détectables dans l’environnement
+(rivières, lacs et nappes phréatiques). Selon une revue systématique de la littérature,
+plus de 600 médicaments et métabolites sont détectables dans l’environnement de 71
+pays situés sur les 5 continents. Parmi ces substances, le diclofénac est détectable
+dans l’environnement de 50 pays (Rev Med Suisse 2019 ; 15 : 942-6).
+Les professionnel.les de santé et notamment les prescripteur.rice.s, doivent être
+sensibilisé.e.s à cette problématique dès maintenant et adopter une pratique
+pragmatique pour favoriser la dispensation d’une pharmaceutique durable.
+
+Pharmacologie clinique et thérapeutique
+12
+
+Séminaire n°1 : Préscription et choix d'un médicament, exemple de l'insuffisance
+cardiaque
+Pratiques à adopter : (tiré de Rev Med Suisse 2019 ; 15 : 942-6):
+• Prescrire selon les recommandations de la médecine basée sur les preuves
+• Prescrire en quantité suffisante jusqu’à une date spécifique ou pour une durée
+donnée
+• Vérifier les médicaments qu’une personne a déjà à domicile avant
+d’en prescrire plus ou d’autres (médicaments prescrits par d’autres prescripteurs,
+médicaments en OTC, restes de médicaments)
+• Limiter les changements thérapeutiques, dans la limite du possible
+• Limiter la polymédication inutile
+• Initier une déprescription quand un traitement n’est plus indiqué
+
+Pharmacologie clinique et thérapeutique
+13
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+
+SEMINAIRE N°2 : INTERACTIONS MEDICAMENTEUSES, PHARMACOGENETIQUE,
+EXEMPLE DE LA BPCO ET DU SYNDROME CORONARIEN
+CONTENU GENERAL DU PROBLEME
+Problème clinique
+
+-
+
+Toux, expectorations, automédication.
+
+Diagnostic
+
+-
+
+Décompensation de BPCO
+
+-
+
+Thrombose d’un stent chez un patient coronarien
+sous clopidogrel
+
+-
+
+Traitement de fond de la BPCO
+
+-
+
+Traitement des exacerbations
+
+-
+
+Influence du polymorphisme génétique dans
+certaines situations cliniques
+
+-
+
+Interactions pharmacocinétiques
+
+-
+
+Prise en charge en urgence puis hospitalière
+
+Aspect(s) privilégié(s)
+
+Cadre du problème
+
+Pharmacologie clinique et thérapeutique
+14
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+OBJECTIFS D’APPRENTISSAGE
+• Détailler les principales classes médicamenteuses employées dans le traitement
+de la BPCO
+• Connaître les critères de choix du traitement : stade GOLD, nombre
+d’exacerbations et symptômes
+• Détailler les raisons d’une réponse thérapeutique inattendue
+• Connaître les principaux mécanismes d’interactions médicamenteuses
+pharmacocinétiques (modification de l’absorption, déplacement des protéines
+plasmatiques, modification du métabolisme et de l’élimination).
+• Connaître les répercussions cliniques potentielles de certains polymorphismes
+génétiques.
+
+Pharmacologie clinique et thérapeutique
+15
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+
+REFERENCES
+Ancrenaz V, Daali Y, Fontana P, Besson M, Samer C, Dayer P,
+CLINIQUE
+/ Desmeules J. Impact of genetic polymorphisms and drug-drug
+PHARMACOTHERAPIE interactions on clopidogrel and prasugrel response variability.
+Curr Drug Metab. 2010 Oct;11(8):667-77
+PHARMACOLOGIE
+
+Kubica A, Kozinski M, Grzesk G, Fabiszak T, Navarese EP, Goch
+A
+Genetic determinants of platelet response to clopidogrel
+J Thromb Thrombolysis. 2011 Nov; 32(4): 459–466.
+Holmes MV, Perel P, Shah T, Hingorani A, Casas JP
+CYP2C19 Genotype, Clopidogrel Metabolism, Platelet Function,
+and Cardiovascular Events A Systematic Review and Metaanalysis
+JAMA. 2011;306(24):2704-2714.
+Yin T and Miyata T. Pharmacogenomics of clopidogrel : evidence
+and perspectives. Thrombosis Research.2008;128:307-16.
+Bergmeijer TO et al. Genome-wide and candidate gene
+approaches of clopidogrel efficacy using pharmacodynamic and
+clinical
+end
+points-Rationale
+and
+design
+of
+the
+International Clopidogrel Pharmacogenomics
+Consortium
+(ICPC). Am Heart J. 2018;198:152-159
+
+MEDECINE INTERNE
+
+© 2023 Global Initiative for Chronic Obstructive Lung Disease,
+Inc.
+
+Pharmacologie clinique et thérapeutique
+16
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+ETAPE 1
+Anamnèse actuelle
+Un patient de 67 ans connu pour broncho-pneumopathie chronique obstructive
+(BPCO) sévère (VEMS 38% de la valeur prédite, stade GOLD 3) sur tabagisme
+actif, est admis aux urgences pour la première fois cette année en raison d’une
+aggravation de sa dyspnée. Habituellement, son score CAT (COPD assessment
+test) est <10.
+Le traitement de fond de sa BPCO comprend des inhalations de salmétérol 50
+µg 2x2 push/j.
+Antécédents
+II y a deux mois, il a présenté un syndrome coronarien aigu sans infarctus, traité
+par implantation d’un stent actif dans l’IVA proximale. Depuis lors, il est donc
+également traité par aspirine 100 mg/j, clopidogrel 75 mg/j, métoprolol 100 mg/j
+et simvastatine 20 mg/j. Tous ces médicaments lui donnant des brûlures
+d’estomac, il s’est procuré de l’oméprazole 20 mg à la pharmacie qu’il a
+commencé à prendre il y a deux semaines.
+Traitement à l’admission :
+salmétérol 50 µg 2x2 push/j
+aspirine 100 mg/j
+clopidogrel 75 mg/j
+métoprolol 100 mg/j
+simvastatine 20 mg/j
+Question 1 : Que pensez-vous du traitement de fond de sa BPCO ?
+Le but du traitement de la BPCO est une réduction des symptômes (soulager les
+symptômes, améliorer la tolérance à l’exercice et l’état général (health status) et une
+réduction des risques (prévenir la progression de la maladie, prévenir et traiter les
+exacerbations, réduire la mortalité).
+En dehors de l’arrêt du tabac et de la prévention des exacerbations par une vaccination
+anti-grippale et anti-pneumococcique, un traitement pharmacologique est indiqué.
+Au plan pharmacologique, le traitement de fond de la BPCO repose sur l’administration
+de bronchodilatateurs associés ou non à des corticostéroïdes inhalés.
+Le TTT pharmacologique diminue les symptômes, la fréquence et la sévérité des
+exacerbations, améliore la tolérance à l’exercice et l’état clinique, mais n’a pas d’effet
+sur la progression de la maladie
+Le traitement pharmacologique doit être individualisé en fonction des symptômes, du
+risque d’exacerbation, des effets secondaires, des co-morbidités et des coûts, ainsi
+que des préférences des patients quant à l’utilisation des différents modèles
+d’inhalateurs.
+La technique d’inhalation doit être régulièrement contrôlée.
+
+Pharmacologie clinique et thérapeutique
+17
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+Le traitement de fond
+Rappel actif des étudiants que ce dernier dépend :
+•
+•
+•
+•
+
+Symptômes : échelle CAT ou mMRC
+Degré d’obstruction : spirométrie
+Risque d’exacerbations
+Co-morbidités
+
+Le « COPD Assessment test » (CAT) est un questionnaire simple et court, que
+tout.e patient.e lettré.e peut compléter de manière indépendante dans un temps
+très limité. Pour compléter le CAT, le/la patient.e doit s’évaluer sur une échelle à
+six niveaux pour huit éléments distincts
+
+© 2022, 2023 Global Initiative for Chronic Obstructive Lung Disease
+
+Pharmacologie clinique et thérapeutique
+18
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+Classification mMRC :
+Degré 1 : dyspnée lors d’un exercice intense.
+Degré 2 : dyspnée lors d’une marche rapide sur terrain plat ou en montant une
+pente légère.
+Degré 3 : marche plus lentement que les personnes de son âge sur terrain plat, ou
+doit s’arrêter pour respirer lorsqu’il marche à son propre rythme sur terrain plat.
+Degré 4 : doit s’arrêter pour respirer après une marche d’environ 90 mètres.
+Degré 5 : trop essoufflé.e pour quitter la maison, ou dyspnée lors de l’habillement.
+Grade GOLD ABE
+
+© 2022, 2023 Global Initiative for Chronic Obstructive Lung Disease
+
+Pharmacologie clinique et thérapeutique
+19
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+Passer en revue les classes de bronchodilatateurs (cf fiches thérapeutiques)
+Rappel du mécanisme d’action dont découlent les indications, des effets indésirables
+pertinents et des points de pharmacocinétiques pertinents pour la clinique.
+β-2 stimulants :
+SABA (short acting beta2 adrenergic receptor agonist):
+•
+
+Salbutamol, terbutaline, fénoterol
+
+•
+
+Début d’action en 5 min
+
+•
+
+Effet maximum en 15 min
+
+•
+
+Durée d’action 4-6h
+
+LABA (Long acting beta2 adrenergic receptor agonist):
+•
+
+Formotérol, salmététol
+
+•
+
+Début d’action en 5-10 min
+
+•
+
+Durée d’action 12h
+
+Anticholinergiques (antimuscariniques):
+SAMA (short acting muscarinic antagonist):
+•
+
+Ipratropium
+
+•
+
+Début d’action en 15-30 min
+
+•
+
+Effet maximum en 90 min
+
+•
+
+Durée d’action 6h
+
+LAMA (long acting muscarinic antagonist)
+•
+
+Tiotropium
+
+•
+
+Début d’action en 15-30 min
+
+•
+
+Effet maximal en 1-3h
+
+•
+
+Durée d’action 24h
+
+Discuter les corticoïdes (cf fiches thérapeutiques)
+Rappel du mécanisme d’action dont découlent les indications, des effets indésirables
+pertinents et des points de pharmacocinétiques pertinents pour la clinique.
+Discuter de la place des corticoïdes inhalés et po dans le traitement de la BPCO
+stable :
+Les corticostéroïdes inhalés sont réservés aux patient.e.s des classes E. Ils
+augmentent le risque de pneumonie chez les patient.e.s avec une maladie pulmonaire
+sévère (niveau d’évidence A). Ce risque est à contre-balancer avec les bénéfices
+attendus ou obtenus de ce traitement.
+
+Pharmacologie clinique et thérapeutique
+20
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+Algorithme pour le choix du traitement en fonction du grade GOLD.
+
+© 2022, 2023 Global Initiative for Chronic Obstructive Lung Disease
+
+Réponse à la Question 1 : Que pensez-vous du traitement de fond de sa BPCO ?
+Il s’agit de sa première hospitalisation cette année. Les LAMA en utilisation seule ont
+un meilleur effet de prévention des exacerbations que les LABA dans ce groupe de
+patients (Evidence A), et diminuent les hospitalisations. Le patient est à classer dans
+le groupe 3E. Une association LABA+ LAMA est a priori indiquée, au vu de la survenue
+d’une exacerbation malgré la prise d’un LABA seul.
+
+ETAPE 2
+Aux urgences, l’anamnèse est complétée. La dyspnée habituelle du patient
+(stade 2) est devenue une dyspnée de repos depuis la veille, quelques jours
+après le début d’un « rhume » qu’il pense avoir attrapé au contact de son petitfils, et qui lui est « descendu sur les bronches ». Il dit qu’il tousse plus que
+d’habitude mais sans expectorations.
+Examen clinique : état général diminué, amaigri (58 kg pour 172 cm). Temp.
+37.7°C, TA 150/90 mmHg, pouls 88/min régulier, FR 30/min. SaO2 88% à l’AA.
+Utilisation de la musculature accessoire, tirage sus-claviculaire, ronchis et
+sibilances diffuses ddc.
+Pharmacologie clinique et thérapeutique
+21
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+Gazométrie : pH 7.38, pCO2 5.5 kPa, pO2 7.6 kPa.
+Rx thorax : pas d’image suspecte de foyer.
+Formule sanguine sp. CRP 45 mg/dl, créatinine 120 µmol/L (clairance calculée
+selon Cockroft 43 mL/min)
+Une oxygénothérapie contrôlée est instaurée avec une diminution de la
+fréquence respiratoire et une amélioration de la saturation d’O2 à 92%.
+Question 2 : Quel est le traitement de cette exacerbation ?
+Antibiotiques :
+Pas de prescription antibiotique car présence d’un seul critère d’Anthonisen. Il faut
+en principe la présence de 2 des 3 critères suivants :
+-
+
+augmentation de la dyspnée
+
+-
+
+augmentation du volume des expectorations
+
+-
+
+augmentation de la purulence des expectorations
+
+Pharmacologie clinique et thérapeutique
+22
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+Bronchodilatateurs :
+Les bronchodilatateurs en cas d’exacerbation aiguë sont délivrés en nébulisation, afin
+de permettre à ces médicaments d’atteindre les bronchioles malgré l’augmentation de
+l’obstruction et la tachypnée (niveau d’évidence faible).
+Le salbutamol (2,5 mg) + ipratropium (0.5 mg) en inhalation (nébuliseur) est
+administré au minimum toutes les 4 heures jusqu’à amélioration clinique.
+Stéroïdes :
+Les corticostéroïdes systémiques améliorent significativement les symptômes et les
+échanges gazeux durant les trois premiers jours d’hospitalisation, ils réduisent le
+temps jusqu’à stabilisation clinique et la durée d’hospitalisation sans influer sur la
+mortalité. Ils réduisent également l’échec thérapeutique (OR 0.5, NNT de 9). Par
+contre, ils accroissent les effets indésirables (OR 2.3, NNH 6) et le risque
+d’hyperglycémie (OR 5.5).
+La prednisone est prescrite à une dose de 30-40 mg/j pendant 5 à 7 jours.
+ETAPE 3
+Une fois admis à l’hôpital, le traitement instauré aux urgences est poursuivi.
+Le patient fumant encore 1 paquet de cigarettes/j avant l’hospitalisation, ce sujet
+est abordé avec lui selon les recommandations institutionnelles et une
+substitution nicotinique lui est proposée pour éviter le sevrage.
+Au 4ème jour, le patient est cliniquement amélioré, avec une FR à 20/min, une
+absence de signes de détresse respiratoire, et une SaO2 à 91% à l’AA. Les
+nébulisations de salbutamol et ipratropium sont interrompues au profit d’un
+SABA en réserve.
+La nuit suivante, il est réveillé par une douleur rétrosternale oppressive, intense,
+sans irradiation, et l’ECG pratiqué montre un sus-décalage du segment ST de V1
+à V5. Le patient est transféré en urgence en salle de cathétérisme ou
+l’angiographie montre une occlusion aiguë du stent.
+Question 3 :
+
+Comment expliquer cette complication ?
+
+Pharmacologie clinique et thérapeutique
+23
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+A discuter :
+•
+
+Polymorphisme génétique des cytochromes P450 (CYP2C19)
+
+•
+
+Interactions pharmacocinétiques avec l’oméprazole (CYP2C19) et le goudron
+du tabac (CYP 1A2)
+
+•
+
+Rappel sur les interactions pharmacodynamiques
+
+Le clopidogrel est une pro-drogue, dont l’activation se fait en plusieurs étapes.
+85% de la molécule-mère est d’abord clivé par les estérases plasmatiques en un dérivé
+inactif. Les 15% restant sont métabolisés par les cytochromes P450 2C19 et 3A4 en
+2-oxo-clopidogrel qui doit être bio-activé, c'est-à-dire transformé par les cytochromes
+2C19 et 3A4, 1A2, 2B6 en métabolite actif qui possèdera donc l’activité anti-agrégeant.
+On a démontré que les CYP 2C19 et 3A4 étaient impliqués de manière prépondérante
+dans ces 2 étapes.
+Polymorphisme génétique : l’existence dans la population générale de différentes
+versions alléliques d’un même gène et, par conséquent, de différents génotypes,
+définit un polymorphisme génétique. Dans la définition classique du polymorphisme
+génétique s’ajoute une notion de fréquence arbitraire, précisant que l’allèle présente
+une fréquence au moins égale à 1 %.
+Le CYP2C19 est soumis à un polymorphisme génétique. Il existe au moins 25
+variantes alléliques du CYP2C19. Parmi elles, on a isolé 2 variantes majoritairement
+responsables d’une activité diminuée (PM) et une variante responsable d’une activité
+augmentée (UM).
+La répartition ethnique de ces polymorphismes n’est pas homogène. Chez les
+caucasiens, la prévalence de PM est de 4% alors qu’elle est de 10 à 25% dans la
+population asiatique. La prévalence de la variante responsable de l’activité augmentée
+est de 18% chez les caucasiens et les éthiopiens mais de 4% chez les asiatiques.
+Le clopidogrel étant une pro-drogue, une activité diminuée (PM) correspond donc à
+une diminution de sa bio-activation et donc de son efficacité.
+Ceci est bien démontré chez des volontaires sains, porteurs d’une des variantes (la
+variante*2) correspondant à une activité PM. On a mis en évidence, chez ces sujets,
+une diminution de la réponse des plaquettes au clopidogrel (mesurée ex vivo), de
+même qu’une diminution de production du métabolite actif. Ceci a été confirmé chez
+des patient.e.s cardiovasculaires.
+Par ailleurs plusieurs études épidémiologiques prospectives montrent une fréquence
+de thrombose du stent, de récidive d’infarctus du myocarde ou de mortalité globale
+plus importante chez les PM comparé aux EM.
+Concernant la variante ultra-rapide (la variante *17), une étude rétrospective qui s’est
+déroulée chez 600 patient.e.s coronarien.nes qui ont reçu une dose de charge montre
+une association entre la variante *17 et la réactivité plaquettaire mesurée ex vivo. Les
+résultats d’une autre étude de cohorte vont également dans ce sens, les
+porteur.euse.s de cet allèle ayant une agrégation plaquettaire diminuée et un plus
+grand risque de saignement que les patient.e.s porteur.euse.s de l’allèle « sauvage ».
+
+Pharmacologie clinique et thérapeutique
+24
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+Une des explications à la complication que présente le patient est un status de
+PM pour le CYP2C19.
+Discuter la pertinence d’un génotypage/phénotypage des CYP 2C19 par lequel est
+également métabolisés l’acénocoumarol ou les inhibiteurs de la recapture de la
+sérotonine, par exemple.
+Interactions médicamenteuses
+Les interactions non dépistées constituent une source majeure d’accidents ou
+d’échecs thérapeutiques, particulièrement en cas de polymédication. On peut anticiper
+certaines interactions dites pharmacodynamiques sur la base de l’action
+pharmacologique des médicaments. Elles sont en général plus faciles à prédire que
+celles d’origine pharmacocinétique.
+Un dépistage systématique des interactions est recommandé lorsqu’on a des
+médicaments à marge thérapeutique étroite.
+Dépistage au moyen de la carte des cytochromes et la Pgp (www.pharmacoclin.ch):
+les listes de médicaments ne sont pas exhaustives, il faut envisager par analogie la
+classe thérapeutique, mais des exceptions existent.
+Dépistage informatique : de nombreux outils informatiques généralistes ou spécialistes
+sont à ce jour disponibles : nous recommandons certains de ces outils, qui ont été
+testés pour leurs bonnes sensibilité et spécificité, qui sont mis à jour régulièrement et
+en raison de leur facilité d’emploi; certains sont gratuits : cf. le site
+www.epocrates.com, Lexicomp Drug interactions accessible via Uptodate
+www.uptodate.com/crlsql/interact/frameset.jsp
+Interactions pharmacocinétiques
+Les 4 étapes de la pharmacocinétique d’une substance sont l’absorption, la
+distribution, le métabolisme et l’élimination et à toutes ces étapes une interaction peut
+survenir.
+Interactions au niveau de l’absorption : concernant l’absorption au niveau du tube
+digestif, on peut imaginer une diminution de solubilité par chélation, formation de
+complexes qui diminuent de fait la quantité de médicament absorbé, par exemple avec
+les antacides. Une inhibition ou une induction de la Pgp qui est une pompe à efflux
+située notamment au niveau de la barrière intestinale est un second mécanisme
+d’interaction au niveau de l’absorption.
+Interactions au niveau de la distribution : essentiellement dues au déplacement des
+protéines plasmatiques ; la fraction libre du médicament étant également celle qui est
+éliminée la plus rapidement, la pertinence clinique des interactions au niveau de la
+distribution est ardue à déterminer.
+
+Pharmacologie clinique et thérapeutique
+25
+
+Séminaire n°2 : Interactions médicamenteuses, pharmacogénétique, exemple de la
+BPCO et du syndrome coronarien
+Interactions au niveau du métabolisme : schématiquement, pour être éliminé de
+l’organisme, un médicament doit subir des transformations qui augmentent son
+hydrosolubilité. Il existe deux voies principales de métabolisation des médicaments.
+Les cytochromes P450 contribuent au métabolisme oxydatif (phase I). Les réactions
+de phase II qui sont des conjugaisons par d’autres enzymes. Les cytochromes P450
+constituent un système enzymatique qui métabolise plus de 80% des médicaments.
+Chaque médicament est transformé par des cytochromes qui lui sont propres. Les
+interactions médicamenteuses au niveau des cytochromes P450 résultent de
+l’administration concomitante d’une substance métabolisée par un isoenzyme et d’une
+autre substance qui a la propriété d’inhiber cet isoenzyme ou au contraire de l’induire.
+Les médicaments substrats deviennent donc les « victimes » des inducteurs ou des
+inhibiteurs.
+Interactions au niveau de l’excrétion : l’excrétion des médicaments se fait
+majoritairement par les reins, par filtration glomérulaire. Certaines substances sont
+toutefois sécrétées activement dans l’urine, en empruntant des transporteurs qui
+peuvent être inhibés ou induits.
+Une explication alternative à la complication que présente le patient est une
+interaction pharmacocinétique entre l’oméprazole qui est un inhibiteur du
+CYP2C19 et le clopidogrel.
+Le patient ayant arrêté de fumer, les concentrations des substrats du CYP1A2
+sont susceptibles d’être augmentées en raison de la levée de l’induction.
+Interactions pharmacodynamiques
+Les interactions pharmacodynamiques sont des interactions qui surviennent sans
+modification de la disposition du médicament dans l’organisme (ou pour simplifier de
+sa concentration plasmatique) mais lorsque que 2 molécules ont le même effet
+(association de clopidogrel et d’aspirine → risque de saignement, par exemple) ou au
+contraire un mécanisme d’action opposé (β2- mimétique et β-bloquant → diminution
+de l’effet bronchodilatateur, par exemple). Il est souvent aisé de dépister les
+interactions qui découlent du mode d’action pharmacologique et de l’indication des
+médicaments. Ces interactions sont parfois recherchées (double antiaggrégation
+après pose d’un stent), ou admises (β2- mimétique pour la BPCO et β-bloquant pour
+la cardiopathie ischémique). Dans ces situations la balance risque bénéfice de la
+prescription doit tenir compte de la susceptibilité d’un.e patient.e donné.e
+
+Pharmacologie clinique et thérapeutique
+26
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+
+SEMINAIRE N°3 : ADAPTATION POSOLOGIQUE, EXEMPLE DE LA FIBRILLATION
+AURICULAIRE (FA)
+Une patiente de 80 ans, est transférée de son EMS en raison d’une
+bronchopneumonie ne répondant pas au traitement d’acide clavulanique et
+amoxicilline (3 X 625 mg/j) qu’elle reçoit par voie orale (po) depuis 4 jours ; on
+relève également l’apparition d’une fibrillation auriculaire (FA) rapide et d’une
+décompensation cardiaque globale (dyspnée, orthopnée ; œdèmes des
+membres inférieurs). La patiente est connue pour une hypertension artérielle
+traitée habituellement par énalapril 10 mg/j et hydrochlorothiazide 25 mg/j. A
+l’examen clinique, elle est fébrile (38°5 C), non cyanosée, tachypnéique à 20/min,
+tachycarde à 150/min (pouls irrégulièrement irrégulier), TA : 130/80 mmHg ; elle
+présente des œdèmes des membres inférieurs remontant à mi-cuisse, une
+turgescence jugulaire et un reflux hépato-jugulaire, des râles crépitants aux
+deux bases pulmonaires ainsi qu’un souffle tubaire apical droit. Le reste de
+l’examen clinique est sans particularité. Poids 50 kgs.
+La radiographie du thorax confirme le foyer apical droit, montre une
+cardiomégalie et des signes de stase pulmonaire. L’ECG montre une FA rapide
+à 140/min. Les examens sanguins révèlent une leucocytose avec une déviation
+gauche, un Na à 130 mmol/l, K à 3,5 mmol/l, urée 8 mmol/l et créatinine 100
+µmol/l.
+La patiente est traitée par oxygénothérapie, ceftriaxone 1g i.v./24h et une dose
+de 40mg de furosémide i.v.
+
+Question(s):
+Comment prenez-vous en charge le traitement de la FA rapide de cette
+patiente ?
+Quelles sont les adaptations posologiques auxquelles vous devez
+penser ?
+
+Pharmacologie clinique et thérapeutique
+27
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+
+CONTENU GENERAL DU PROBLEME
+Problème clinique
+
+-
+
+Fièvre, dyspnée
+
+Diagnostics
+
+-
+
+Fibrillation auriculaire, Insuffisance cardiaque ;
+Bronchopneumonie
+
+Aspect(s) privilégié(s)
+
+-
+
+Traitement de la fibrillation auriculaire
+
+-
+
+Adaptation posologique
+
+-
+
+Prise en charge hospitalière
+
+Cadre du problème
+
+OBJECTIFS D’APPRENTISSAGE
+• Détailler les principales classes médicamenteuses employées dans le traitement
+de la fibrillation auriculaire.
+• Connaître les
+posologique
+
+paramètres
+
+pharmacocinétiques
+
+déterminant
+
+Pharmacologie clinique et thérapeutique
+28
+
+l’adaptation
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+
+REFERENCES
+PHARMACOLOGIE
+CLINIQUE
+/
+PHARMACOTHERAPIE
+
+Katzung B. Basic and clinical pharmacology. 15th.New York :
+MacGraw & Hill, 2021. QV 4 7:
+
+PHARMACOLOGIE
+
+Sites
+
+CLINIQUE
+/
+PHARMACOTHERAPIE
+
+http://www.swissmedic.ch/
+David Bourne. A First Course in Pharmacokinetics and
+Biopharmaceutics http://www.boomer.org/c/p4/
+
+PHARMACOLOGIE
+
+ACC/AHA/ESC 2020 guidelines for the management of patients
+CLINIQUE
+/ with atrial fibrillation developed in collaboration with EACTS.
+PHARMACOTHERAPIE European Heart Journal, Volume 42, Issue 5, 1 February 2021,
+Pages 373–498,
+http://www.escardio.org
+
+Pharmacologie clinique et thérapeutique
+29
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+GUIDE DU TUTEUR
+Directives générales
+Ce problème doit permettre aux étudiant.e.s :
+-
+
+D’acquérir des connaissances au sujet du traitement pharmacologique d’une
+fibrillation auriculaire d’apparition récente dans le contexte d’une
+bronchopneumonie et d’une décompensation cardiaque globale. On insistera
+particulièrement sur les aspects pratiques de la prescription (précautions, taux
+efficaces, adaptations posologiques).
+
+-
+
+De comprendre les principes d’adaptation posologique
+Matériel Associé
+
+-
+
+Fiches de pharmacologie/pharmacothérapie
+
+Pharmacologie clinique et thérapeutique
+30
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+
+Déroulement détaillé du séminaire
+Une patiente de 80 ans, est transférée de son EMS en raison d’une
+bronchopneumonie ne répondant pas au traitement d’acide clavulanique et
+amoxicilline (3 X 625 mg/j) qu’elle reçoit par voie orale (po) depuis 4 jours ; on
+relève également l’apparition d’une fibrillation auriculaire (FA) rapide et d’une
+décompensation cardiaque globale (dyspnée, orthopnée ; œdèmes des
+membres inférieurs). La patiente est connue pour une hypertension artérielle
+traitée habituellement par énalapril 10 mg/j et hydrochlorothiazide 25 mg/j. A
+l’examen clinique, elle est fébrile (38°5 C), non cyanosée, tachypnéique à 20/min,
+tachycarde à 150/min (pouls irrégulièrement irrégulier), TA : 130/80 mmHg ; elle
+présente des œdèmes des membres inférieurs remontant à mi-cuisse, une
+turgescence jugulaire et un reflux hépato-jugulaire, des râles crépitants aux
+deux bases pulmonaires ainsi qu’un souffle tubaire apical droit. Le reste de
+l’examen clinique est sans particularité. Poids 50 kgs.
+La radiographie du thorax confirme le foyer apical droit, montre une
+cardiomégalie et des signes de stase pulmonaire. L’ECG montre une FA rapide
+à 140/min. Les examens sanguins révèlent une leucocytose avec une déviation
+gauche, un Na à 130 mmol/l, K à 3,5 mmol/l, urée 8 mmol/l et créatinine 100
+µmol/l.
+La patiente est traitée par oxygénothérapie, ceftriaxone 1g i.v./24h et une dose
+de 40mg de furosémide i.v.
+Question(s):
+•
+•
+
+Comment prenez-vous en charge le traitement de la FA rapide de cette
+patiente ?
+Quelles sont les adaptations posologiques auxquelles vous devez
+penser ?
+
+Pharmacologie clinique et thérapeutique
+31
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+
+1ERE PARTIE (env. 60 minutes)
+Rappel (bref) épidémiologie et pronostic de la FA
+Prévalence 0.4 à 1% dans population générale ; 2-4% > 60ans ; jusqu’à 10% > 80 ans.
+Cette prévalence est augmentée chez les patient.e.s âgé.e.s, hypertendu.e.s,
+insuffisant cardiaques, avec une coronaropathie, une maladie valvulaire, une obésité,
+un diabète ou une insuffisance rénale.
+FA associée avec un risque augmenté
+•
+
+•
+
+de morbidités
+o événement thromboembolique (AVC essentiellement) : 2 à 7 fois plus
+qu’un patient sans FA ; risque annuel de 5% chez patient non valvulaire ;
+risque annuel augmente avec l’âge (50-60 ans :1.3% ; 60-69a : 2.2% ;
+70-79a : 4.2% ; 80-89a : 5.1%). 20 à 30% des AVC sont dus à une FA
+o insuffisance cardiaque
+o
+
+10 à 40 % des patients en FA sont hospitalisés chaque année
+
+o
+
+Troubles cognitifs
+
+de mortalité toute cause (mortalité des femmes avec FA = 2x hommes= 1.5X
+de celle des patients en rythme sinusal et est liée à la pathologie cardiaque
+sous-jacente)
+
+Stratégies thérapeutiques envisagées en cas de fibrillation auriculaire
+On commencera par évoquer avec les étudiant.e.s et de manière interactive les
+principales stratégies thérapeutiques envisagées dans le traitement de la fibrillation
+auriculaire. Après corrections des facteurs aggravants ou précipitants (fièvre, troubles
+électrolytiques, sepsis, etc.), on tiendra compte de la durée de la FA, de son risque de
+récidive, des symptômes associés, des bénéfices et risques du traitement antiarythmique et des bénéfices et risques du traitement prophylactique
+thromboembolique.
+Les schémas ci-dessous peuvent servir de base à la discussion:
+NB : Pas de changement sur la mortalité entre les stratégies fréquence et rythme
+(études AFFIRM et RACE ; NEJM 2002, étude EAST-AFNET 4 NEJM 2020)
+
+Pharmacologie clinique et thérapeutique
+32
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+
+FA confirmée
+
+Instabilité hémodynamique
+
+Oui
+Anticoagulation et
+cardioversion électrique externe
+
+Non
+Recherche et traitement d’une cause réversible
+Anticoagulation si pas de contre indiction
+
+FA < 48H
+
+Contrôle du rythme
+
+FA > 48H ou non datable
+
+Reste symptomatique
+
+Contrôle de la fréquence
+
+Echec du contrôle du rythme
+
+Adapté des guidelines 2016 de l’ESC (European Society of Cardiology)
+
+Pharmacologie clinique et thérapeutique
+33
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+
+Fibrillation
+auriculaire
+
+ECG 12 dérivations
+
+Anticoagulation?
+
+Score
+Maladie associée
+Evaluation initiale
+
+Risque
+thromboembolique?
+
+Contrôle rythme et
+« rate »?
+
+Anticoagulation
+orale
+Aucun
+
+Type de FASymptômes
+
+Traitement maladie
+sous-jacente
+
+Contrôle rate +
+rythme
+Antiarythmiques
+Ablation
+
+Envisager avis
+cardiologique
+
+IEC; ARB
+Statines, acide gras
+polyinsaturés
+Autres
+
+Nb. Le terme « rate » se traduit par fréquence cardiaque.
+
+A cet effet on reverra avec les étudiant.e.s les notions qui leur restent au sujet des
+classes de médicaments suivants et qu’ils/elles complèteront, au moyen des fiches
+thérapeutiques qui leur seront distribuées.
+Principales classes de médicaments utilisés dans la fibrillation auriculaire
+•
+
+Dans tous les cas, prévention d’incident thromboembolique en tenant compte
+de l’évaluation du risque d’accident vasculaire cérébral (AVC), du bénéfice du
+traitement et du risque hémorragique du traitement.
+o
+
+Anti-coagulants : (héparine) ; anti-vitamine K (AVK) : ↓ du risque d’AVC de
+65%. Seul anticoagulant autorisé en cas de valvulopathie rhumatismale
+ou de valve mecanique
+
+o
+
+Anti-agrégants plaquettaires : le risque hémorragique est accru et n’a pas
+montré de bénéfice quant à la réduction du nombre d’AVC
+
+o
+
+Anticoagulants oraux directs :
+▪
+
+dabigatran (étude RE-LY) : inhibiteur direct de la thrombine
+
+▪
+
+rivaroxaban (étude ROCKET-AF) : anti-Xa
+
+▪
+
+apibaxan (étude ARISTOTLE) : anti-Xa
+
+▪
+
+edoxaban (etude ENGAGE-AF-TIMI 48) : anti Xa
+
+Pharmacologie clinique et thérapeutique
+34
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+
+Globalement, ces études ont montré une plus grande efficacité par rapport aux antivitamines K (10 à 30% de mieux selon les études), avec une diminution du risque
+d’hémorragies, y compris majeures. Ces molécules sont de plus en plus utilisées mais
+il convient de rester vigilant aux interactions médicamenteuses potentielles et à
+l’insuffisance rénale.
+Contrôle de la fréquence cardiaque (« rate control ») : contrôle de la réponse
+ventriculaire avant tout. Objectif : FC < 80/mn au repos, < 110/mn à l’effort
+Stratégie envisagée chez le/la patient.e âgé.e, avec maladie coronarienne, avec
+des contre-indications aux médicaments anti-arythmiques, ou chez les patient.e.s
+pour lesquels une cardioversion a peu de chance de réussir
+
+•
+
+o
+
+Bêtabloqueurs (propranolol, metoprolol)
+
+o
+
+Anticalciques (diltiazem, verapamil) : attention à l’effet inotrope négatif
+
+o
+
+Digoxine ou amiodarone (si insuffisance cardiaque) ; attention, la digoxine ne
+contrôle la fréquence cardiaque qu’au repos.
+
+Contrôle du rythme (« rhythm control ») : restauration du rythme sinusal et/ou
+maintien du rythme sinusal.
+Cette décision thérapeutique doit être basée sur la gravité des symptômes liés à
+l’arythmie (hypotension, insuffisance cardiaque…) et le risque potentiel des
+médicaments anti-arythmiques (proarythmogène, inotrope négatif etc...). NB :
+Avant cardioversion, il est important de contrôler la fréquence et d’anticoaguler les
+patient.e.s. Une alternative est de contrôler l’absence de thrombus auriculaire par
+une échographie transoesophagienne avant de tenter la cardioversion. Maintien
+d’une anticoagulation après la cardioversion au moins 4 semaines ou plus si haut
+risque de récidive de FA.
+o
+o
+
+Cardioversion électrique*
+Cardioversion pharmacologique
+▪ Amiodarone (également utilisable si cardiopathie sous-jacente)
+▪ Flécaïnide, propafenone, dofetilide, ibutilide* (sans cardiopathie sousjacente)
+
+o
+
+Maintien du rythme sinusal
+▪ Bêta-bloqueur
+▪ Amiodarone (également utilisable si cardiopathie sous-jacente)
+▪ Class 1c ou sotalol* (si pas de cardiopathie sous-jacente)
+
+* Ces traitements ne sont pas détaillés lors de ce séminaire
+On rappellera aussi la classification de Vaughan Williams et les principaux effets
+indésirables imputables aux médicaments anti-arythmiques.
+
+Pharmacologie clinique et thérapeutique
+35
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+
+Pharmacologie clinique et thérapeutique
+36
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+
+2EME PARTIE (env. 30 minutes)
+Adaptation posologique
+Les objectifs de cette seconde partie sont de rappeler
+pharmacocinétiques déterminant l’adaptation posologique.
+
+les
+
+concepts
+
+Rappel des concepts pharmacocinétiques déterminant l’adaptation posologique
+•
+•
+•
+•
+•
+
+Absorption et biodisponibilité
+Utilité d’une dose de charge pour les médicaments à grand volume de
+distribution
+Notion d’état d’équilibre des concentrations plasmatiques après prises multiples
+Interactions médicamenteuses ralentissant le métabolisme
+Principes de l’adaptation posologique en cas d’insuffisance rénale
+
+Dans le cas présenté, se référer aux médicaments phares du tutorial :
+➢ l’héparine (biodisponibilité : pas absorbée par voie orale !)
+➢ l’amiodarone (volume de distribution, demi-vie),
+➢ le diltiazem (métabolisation hépatique CYP 2D6 et 3A4)
+➢ amiodarone et interactions médicamenteuses avec le diltiazem (inhibition
+des CYP450) et avec la digoxine (inhibition de la P-glycoprotéine)
+➢ la digoxine (élimination rénale, substrat de la glycoprotéine P)
+
+Pharmacologie clinique et thérapeutique
+37
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+A. Absorption → biodisponibilité
+Qu’est ce qui limite la biodisponibilité et que signifie une mauvaise biodisponibilité ?
+Pourquoi administre-t-on l’héparine par voie parentérale ?
+Définition de la biodisponibilité :
+C’est la fraction du médicament administré qui est réellement absorbée dans le corps
+(disponibilité systémique). Fraction de la dose qui atteint la circulation systémique sous
+forme inchangée.
+Qu’est ce qui limite la biodisponibilité ?
+1.
+
+Caractéristiques physico-chimiques
+
+Les caractéristiques physico-chimiques de la molécule déterminent son passage à
+travers la barrière du tube digestif. Pour passer facilement une substance doit avoir
+une taille suffisamment petite, être plutôt lipophile et non chargée.
+2.
+
+Effet de premier passage
+
+Lors d'une administration orale, le principe actif peut être dégradé par le suc gastrique
+(par ex. médicaments peptidiques) par les enzymes et les bactéries intestinales, les
+enzymes de la barrière gastro-intestinale ou par le foie. On parle alors d'effet de
+premier passage. Tout effet de premier passage a pour conséquence de diminuer la
+disponibilité systémique du médicament.
+NB : Pour les « pro-médicaments" l'activation par effet de premier passage intestinal
+est essentielle. (exemples de prodrogues: énalapril→ énalaprilate ; clopidogrel → 2oxo-clopidogrel ;
+3.
+
+Être substrat d’un transporteur intestinal : ex la P-glycoprotéine.
+
+Pharmacologie clinique et thérapeutique
+38
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+LA GLYCOPROTEINE P (P-GP)
+C’est est un transporteur membranaire qui est localisé dans plusieurs tissus : les
+intestins, les reins, le foie, le système immunitaire, et au niveau de la barrière hématoencéphalique et placentaire.
+Elle possède de nombreux substrats endogènes et exogènes. Parmi les médicaments
+transportés par cette protéine, on trouve des agents anticancéreux, des médicaments
+du système cardiovasculaire (digoxine, certains bêtabloquants), des inhibiteurs de la
+protéase VIH, des antibiotiques, des immunosuppresseurs, des analgésiques opioïdes
+(morphine, méthadone) et bon nombre de psychotropes.
+La PgP agit comme une pompe à efflux qui « ressort » le substrat du compartiment où
+il va. Au niveau de la barrière intestinale la P-gp limite l’absorption.
+La glycoprotéine P est sujette à des variations de sa fonction et de son expression
+causées d’une part par un polymorphisme génétique, et d’autre part par son induction
+ou inhibition par des médicaments ou des xénobiotiques.
+Exemples de biodisponibilités (www.Swissmedic.ch)
+héparine : biodisponibilité nulle par voie orale : n'est pas absorbée à partir du
+tractus gastro-intestinal car elle a une taille moléculaire importante et variable avec
+une tension superficielle négative empêchant son passage à travers la membrane du
+tube digestif. »
+→ L’héparine doit s’administrer par voie parentérale
+La biodisponibilité de l'amiodarone par voie orale varie selon les individus de 30 à
+80% (valeur moyenne 50%).
+La biodisponibilité de la digoxine est de 60 à 85%
+Substrat P-gp→ risque d’être augmentée par la coadministration d’inhibiteurs
+de la PgP
+La biodisponibilité du diltiazem est de 40 à 50%
+Effet de premier passage→ risque d’être augmentée par la coadministration
+d’inhibiteurs des CYPp450
+D. Distribution → volume de distribution
+Que signifie un grand volume de distribution ?
+Pourquoi administre-t-on une dose de charge d’amiodarone ou de digoxine?
+
+Pharmacologie clinique et thérapeutique
+39
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+Le volume de distribution du médicament
+Le volume de distribution (Vd) est un facteur de proportionnalité qui lie la quantité de
+principe actif présente dans l’organisme (Ab) à la concentration (C) plasmatique. Le
+volume de distribution est un reflet de la quantité de substance dans l’organisme.
+Malgré son nom, le volume de distribution n'a pas, en général, de signification
+physiologique ou anatomique. Cependant, il peut donner une indication sur les
+différents fluides dans lesquels le principe actif est distribué. Le volume de distribution
+a pour dimension habituelle le litre. Vd = Ab /C0
+Comme le volume moyen de sang chez l’humain est d’environ 5 litres, un volume de
+distribution de moins de 5 litres indique, en général, que le médicament ne quitte pas
+le compartiment vasculaire, tandis qu’un volume de distribution de plus de 5 litres
+indique que le médicament quitte le compartiment vasculaire.
+Exemples de Vd:
+L/kg
+0.12
+0.16
+1
+3.14
+4.14
+7
+66
+4620( !)
+
+Furosémide
+Acide acétylsalicylique
+Aténolol
+Diltiazem
+Métoprolol
+Digoxine
+Amiodarone
+
+Pharmacologie clinique et thérapeutique
+40
+
+L/70kg
+8.4
+11
+70
+220
+290
+490
+( !)
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+Utilité d’une dose de charge pour les médicaments à grand volume de
+distribution.
+La digoxine et l’amiodarone ont un grand volume de distribution. Il peut être nécessaire
+d’administrer une dose de charge en début de traitement si le plein effet du
+médicament est rapidement souhaité. Une dose de charge permet d’atteindre
+d’emblée les concentrations souhaitées, sans devoir attendre l’état d’équilibre (4t1/2).
+Calcul de la dose de charge (synonymes : dose de saturation, dose initiale):
+Dose de charge= concentration que l’on cherche à atteindre / VD
+Dans cette équation la clairance n’intervient pas ce qui explique que même en cas d’IR
+la dose de charge ne se modifie pas en théorie
+En pratique on retiendra que la dose de charge ne change pas dans
+l’insuffisance rénale et qu’on peut donc appliquer la valeur indiquée dans les
+monographies pour un « adulte standard » à la personne âgée et aux
+insuffisants rénaux.
+Dans le cas de médicaments dont la marge thérapeutique est étroite (exemple la
+digoxine) on fractionne la dose de charge en plusieurs doses plus faibles que la
+dose de charge calculée mais pourtant plus importante que la dose d’entretien. L’effet
+de la dose de charge pourra ainsi être contrôlé cliniquement après chaque fraction
+administrée (par le suivi de la fréquence cardiaque par exemple pour la digoxine).
+Selon l’appréciation clinique, la première dose de saturation sera choisie d’autant plus
+élevée que le risque immédiat, inhérent à la maladie si elle n’est pas traitée, est plus
+grand.
+Exemple pour une digitalisation rapide versus lente (www.Swissmedic.ch)
+Digitalisation rapide: en moyenne 1,0 mg le 1er jour (j), à répartir sur 3 prises à
+intervalle de 6–8 heures, dose d'entretien à partir du 2e jour (en moyenne prise 1×/j
+de 0,25 mg; zone 0,125–0,5 mg/j). La dose d'entretien chez les patients âgés ne
+devrait pas dépasser 0,25 mg/j
+Digitalisation lente: administration journalière de la dose d'entretien (en moyenne
+prise 1×/j de 0,25 mg; zone 0,125–0,5 mg/j). Le taux sanguin à l'état d'équilibre est
+atteint en 7–10 jours (3–4 demi-vies).
+M E. Métabolisme et excrétion rénale = Elimination → t1/2
+La demi-vie du médicament
+Aux doses administrées en thérapeutique, la plupart des médicaments usuels ont une
+cinétique de premier ordre (cinétique linéaire). L’élimination de premier ordre est
+quantifiée par une demi-vie. Celle-ci est constante. Les paramètres
+pharmacocinétiques caractérisant l’élimination sont la clairance et la demi-vie. En
+pratique clinique on utilise essentiellement la demi-vie (t1/2).
+La demi-vie d’élimination est définie comme le temps nécessaire pour que la
+concentration plasmatique diminue d’une valeur donnée à la moitié de cette valeur.
+Pharmacologie clinique et thérapeutique
+41
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+Si l’on prend comme valeur de référence 100 (par exemple µg/litre), on observera les
+concentrations suivantes (extrait L. Balant Le cube pharmacocinétique) :
+
+t1/2
+
+µg/l
+
+0
+1
+2
+3
+4
+5
+6
+7
+
+100
+50
+25
+12,5
+6,25
+3,125
+1,56
+0,78
+
+Il faut donc attendre 4 demi-vies pour que la concentration d’un médicament soit
+inférieure à 10% de sa valeur initiale et 7 demi-vies pour considérer qu’il est totalement
+éliminé. Attention en cas de surdosage important, 10 ou 0.78% de la concentration
+initiale peut représenter encore une concentration substantielle.
+Exemple de l’amiodarone
+La demi-vie de l'amiodarone est longue avec une grande variabilité interindividuelle
+(20 à 100 jours).
+Après arrêt du traitement, l'élimination se poursuit pendant plusieurs mois. La
+persistance d'une activité rémanente pendant dix jours à un mois doit être prise en
+considération dans la conduite pratique du traitement.
+Autres exemples de demi-vie (en heures), pour comparaison
+(ref Bases de la thérapeutique médicamenteuse edit 2005 Documed):
+
+Furosémide
+Acide acétylsalicylique
+Aténolol
+Diltiazem
+Métoprolol
+Digoxine
+Amiodarone
+
+1,2
+0,25
+6
+6
+3,5
+36
+1000
+
+Notion d’état d’équilibre des concentrations plasmatiques après prises
+multiples
+Lorsqu’un médicament est donné en doses répétées par voie orale ou en injections, il
+s’accumule : le taux de cumulation dépend seulement du rapport entre l’intervalle
+posologique et la demi-vie (/t1/2). (L. Balant, Le cube pharmacocinétique)
+Le temps nécessaire pour atteindre l’état d’équilibre des concentrations plasmatiques
+est directement proportionnel à la demi-vie du médicament. L’état d’équilibre des
+concentrations plasmatiques après une administration répétée est atteint après 4 à 5
+demi-vies.
+Dans une cinétique de premier ordre, à l’état d’équilibre, la concentration plasmatique
+est proportionnelle à la dose.
+Pharmacologie clinique et thérapeutique
+42
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+Adaptation posologique en cas d’insuffisance rénale
+La créatinine est un produit secondaire du métabolisme des muscles. Sa vitesse de
+formation est essentiellement déterminée par la masse musculaire de l’individu. Cette
+dernière diminue avec l’âge et elle est plus faible pour les femmes. Pour un individu
+donné, la vitesse de production de la créatinine est constante. La créatinine libérée
+des muscles dans le plasma est éliminée presque exclusivement par filtration
+glomérulaire La créatinine est donc un marqueur endogène pour évaluer la fonction
+rénale, qui se mesure donc par la clairance de la créatinine.
+Estimation de la la clairance de la créatinine
+Une mesure précise de la clairance de la créatinine implique son dosage dans une
+récolte d’urine de 24h. En pratique de prescription, on a recours à différentes formules
+qui permettent d’estimer la clairance de la créatinine, en utilisant la concentration
+plasmatique de la créatinine et en tenant compte de certains facteurs connus pour
+modifier sa clairance : sexa, âge, poids (~masse musculaire), ethnicité.
+Formule de Cockroft & Gault (1976) à l’avantage de permettre d’estimer la clairance
+de la créatinine au moyen de paramètres facilement disponibles en clinique courante:
+Clcr (ml/min) = [(150-âge en années) x poids en kg] / créatininémie en micromol/l
+Pour un homme ajouter 10% à ce résultat, pour une femme enlever 10%.
+! La formule devient peu précise quand la fonction rénale se péjore de façon aiguë.
+Equation CKD-EPI (Chronic Kidney Disease Epidemiology Collaboration)
+Plus compliquée pour calculer rapidement une clairance. Formule choisie par les HUG
+pour estimer la clairance. La valeur est normalisée pour une surface de 1,73m2.
+
+Ann Intern Med. 2009 May 5;150(9):604-12; Scr= créatininémie; GFR: glomerular
+filtration rate
+
+Pharmacologie clinique et thérapeutique
+43
+
+Séminaire n°3 : Adaptation posologique, exemple de la FA
+Valeurs normales et définition de l’IR
+Rappel : clairance de la créatinine normale (pour une surface corporelle de 1.73m2):
+Homme : 97-103 ml/min
+Femme : 88-138 ml/min
+Rappel : Insuffisance rénale (IR): définitions
+IR « modérée » GFR 30-50 ml/min;
+IR « sévère » GFR < 30 ml/min;
+IR « terminale » GFR < 10 ml/min.
+Rappeler aux étudiants que les personnes âgées ont souvent une masse musculaire
+diminuée et qu’on s’attend, chez elles, à une créatininémie basse en comparaison à
+celle d’un jeune homme en bonne santé (qui serait de 35-88 micromol/l aux HUG).
+Une créatininémie « normale » chez une personne âgée est déjà un signe de fonction
+rénale abaissée et donc potentiellement d’une élimination ralentie du médicament.
+Rappeler que le résultat rendu par le laboratoire des HUG est un résultat normalisé
+pour la surface corporelle d’un adulte standard (1,73m2) et surévalue potentiellement
+la clairance de la créatinine de la personne âgée qui a moins de masse musculaire.
+Chez cette patiente, si on utilise Cockroft et Gault :
+ClCr = [(150-80) x 50] /100 = 70 x 50 /100 = 3500/100 = 35 ml/min
+Il s’agit d’une femme, enlever encore 10% → 35-3,5 = 31,5ml/min soit environ
+30ml/min
+Principe de l’adaptation posologique :
+L’adaptation tient compte du degré de diminution de la filtration glomérulaire et de la
+fraction du médicament éliminé par les reins.
+Exemples:
+Pour la digoxine qui est éliminée à 70% par voie rénale, l’adaptation de dose sera
+substancielle en cas d’insuffisance rénale.
+Pour le diltiazem qui est éliminé à 100% par voie hépatique, théoriquement l’adaptation
+sera moindre.
+Les modalités d’adaptation sont en général données par les monographies. Il existe
+également des applications qui les calculent.
+D’un point de vue cinétique, on peut choisir soit de diminuer la dose, soit d’espacer
+l’intervalle posologique. En pratique on a presque toujours recours à une diminution
+de dose.
+
+Pharmacologie clinique et thérapeutique
+44
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+SEMINAIRE N°4 : EFFETS INDESIRABLES MEDICAMENTEUX, EXEMPLE DU
+DIABETE
+
+CONTENU GENERAL DU PROBLEME
+Problème clinique
+
+-
+
+Evolution d’un diabète de type 2
+
+Diagnostic
+
+-
+
+Diabète de type 2, acidose lactique sur
+metformine
+
+Aspect(s) privilégié(s)
+
+-
+
+Traitement du diabète de type 2, effets
+indésirables médicamenteux
+
+Cadre du problème
+
+-
+
+Ambulatoire puis hospitalier
+
+OBJECTIFS D’APPRENTISSAGE
+Après avoir étudié ce problème, les étudiant.e.s devraient être capables de :
+• Détailler les principales classes médicamenteuses employées dans le traitement
+du diabète de type 2
+• Connaître les principes de base de la stratégie thérapeutique dans le diabète de
+type 2
+• Connaître les principaux types d’effets indésirables et leur prise en charge
+• Connaître les principes et le cadre légal de la pharmacovigilance
+
+Pharmacologie clinique et thérapeutique
+45
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+REFERENCES
+Rev Med Suisse 2022 ; 18 :21-4
+
+PHARMACOLOGIE
+CLINIQUE
+PHARMACOTHERAPIE
+
+/
+
+Pharmacologie clinique et thérapeutique
+46
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+GUIDE DU TUTEUR
+Directives générales
+Ce problème doit permettre aux étudiants :
+-
+
+D’acquérir des connaissances au sujet du traitement pharmacologique du diabète.
+On insistera particulièrement sur les classes d’antidiabétiques, les stratégies
+générales d’introduction de ces traitements, les précautions à prendre lors de la
+prescription de ces traitements.
+
+-
+
+De prévoir les effets indésirables de ces médicaments.
+
+-
+
+De reconnaître un effet secondaire rare mais vital.
+
+Matériel Associé
+-
+
+Fiches de pharmacologie/pharmacothérapie sur les antidiabétiques oraux et
+l’insuline
+
+Déroulement détaillé du séminaire
+
+ETAPE 1
+Vous avez découvert chez Madame P., 52 ans, un diabète de type 2 il y a 6 mois
+(HbA1c 7.7%). La patiente avait un BMI de 32. Elle n’a pas d’autre facteur de risque
+cardiovasculaire et vous n’avez décelé ni complications macro- ou
+microangiopathiques, ni complications neurologiques de son diabète. Vous avez mis
+sur pieds un programme alimentaire et d’activités physiques appropriées (mesures
+hygiéno-diététiques).
+Elle revient aujourd’hui pour un contrôle et vous constatez qu’elle a maintenant un BMI
+de 30 et que son HbA1c est de 7.4%. Vous jugez qu’il est indiqué de débuter un
+traitement pharmacologique de son diabète.
+Question(s):
+•
+
+Quels sont les principes généraux de prise en charge d’un diabète de type 2 ?
+
+•
+
+Quelles classes d’antidiabétiques oraux connaissez-vous ?
+
+Durée de cette étape : 30 minutes
+
+Pharmacologie clinique et thérapeutique
+47
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+Format interactif
+1. Réactiver les notions épidémiologiques.
+La prévalence mondiale du diabète chez les adultes de plus de 18 ans est passée de
+4.7% en 1980 à 8.5% en 2014, avec des disparités selon les régions : 7.3% en Europe
+jusqu’à 13.7% dans la région de méditerranée orientale. Entre 24 et 62% des
+personnes atteintes de diabète ne sont pas diagnostiquées et ne suivent donc pas de
+traitement, même dans les pays à haut revenu (rapport mondial sur le diabète, OMS,
+2016). Le diabète de type 2 constitue 90 à 95% des diagnostics de diabète. La plupart
+de ces patient.e.s sont obèses entrainant un certain degré d’insulino-resistance.
+L’hyperglycémie chronique entraîne à long terme des atteintes micro- et macrovasculaires, ayant pour conséquence des atteintes d’organes :
+-
+
+-
+
+Atteintes micro-vasculaires : rétinopathie avec risque de perte de la vision,
+néphropathie avec insuffisance rénale chronique et micro-albuminurie, neuropathie
+périphérique avec risque d’ulcères (mal perforant plantaire) et d’amputation ou de
+« pied de Charcot », neuropathie du système autonome avec symptômes gastrointestinaux génito-urinaires, cardiovasculaires, et/ou troubles sexuels.
+Atteintes macro-vasculaires : cardiopathie ischémique, insuffisance artérielle des
+membres inférieurs, accidents vasculaires cérébraux.
+
+2. Principes de base du traitement.
+Même si ce séminaire porte particulièrement sur la prise en charge médicamenteuse
+du diabète en se focalisant sur le contrôle de l’hyperglycémie, la prise en charge doit
+intégrer également comme objectif la prévention des complications chroniques en
+considérant le risque cardiovasculaire global et la prise en charge des autres facteurs
+de risque, notamment l’HTA, le tabac, la dyslipidémie, la sédentarité et l’obésité.
+Cette prise en charge passe par le suivi régulier, les prescriptions médicamenteuses,
+mais également par l’éducation du patient et par le soutien de sa motivation.
+Le diagnostic du diabète s’établit sur la base de la glycémie plasmatique à jeûn (≥7
+mmol/l). Il peut également être établi par la mesure de l’hémoglobine glycosylée
+(HbA1c≥6.5%) (reflet des valeurs de glycémies des 5-12 dernières semaines en
+l’absence d’une affection modifiant le métabolisme ou la fonction de érythrocytes) ou
+après une charge orale en glucose (glycémie mesurée 2 heures après la prise orale
+de 75g de glucose≥11.1 mmol/l). La définition du pré-diabète est une perturbation de
+la glycémie à jeun (entre 5.6 et 6.9 mmol/l) et/ou une perturbation de la tolérance au
+glucose (Glycémie 120 min après 75g de glucose entre 7.8 et 11.0 mmol/l) et/ou une
+hémoglobine glycquée entre 5.7 et 6.4% ; le pré-diabète est reconnu comme facteur
+de risque pour le développement d’un diabète ou d’une maladie cardio-vasculaire.
+
+Pharmacologie clinique et thérapeutique
+48
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+L’objectif glycémique doit être individualisé en fonction du profil des patient.e.s (de leur
+espérance de vie, de leurs comorbidités/complications, de leur motivation, de leur âge
+et du risque d’hypoglycémie) et peut évoluer au cours du temps (principe d’approche
+centrée sur le/la patient.e). Pour la plupart des patient.e.s diabétiques de type 2, une
+cible d’HbA1c inférieure ou égale à 7 % est recommandée. Le traitement
+médicamenteux doit être instauré ou réévalué si l’HbA1c est supérieure à 7 %. Dans
+certaines situations (notamment si espérance de vie limitée <5 ans ou cible de 7%
+difficile à atteindre à cause d’hypoglycémies sévères), l’objectif d’HbA1c peut être
+remonté à 8%. Pour les patients diabétiques de type 2 dont le diabète est nouvellement
+diagnostiqué ET dont l’espérance de vie est supérieure à 15 ans ET sans antécédent
+cardio-vasculaire, un objectif inférieur ou égal à 6.5 % est recommandé, sous réserve
+d’être atteint par la mise en œuvre ou le renforcement des mesures hygiénodiététiques puis, en cas d’échec, par une monothérapie orale. En cas de risque
+cardiovasculaire accru, un traitement intensif visant à une HbA1c <6% a été grevée
+d’une augmentation de la mortalité.
+Le traitement de base est hygiéno-diététique, visant à une alimentation équilibrée et à
+une correction de l’excès de poids, et à une activité physique régulière et adaptée
+(2h30/semaine réparties sur 3 jours ou plus).
+
+Pharmacologie clinique et thérapeutique
+49
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+3. Traitement médicamenteux : les cibles et les classes d’antidiabétiques oraux
+(ADO)
+Qu’est-ce qui conduit à l’hyperglycémie ?
+
+analogues du GLP-1
+gliptines
+
+Rappel de la physiopathologie expliquant les troubles métaboliques dans le diabète
+de type 2, définissant donc les cibles des traitements oraux (on peut s’aider du schéma
+ci-dessus). Le diabète de type 2 est une maladie métabolique caractérisée par une
+hyperglycémie chronique dont les éléments physiopathologiques comprennent une
+résistance accrue des tissus périphériques (foie, muscles, tissu adipeux) à l’action de
+l’insuline, une insuffisance de sécrétion d’insuline par les cellules β du pancréas, une
+sécrétion de glucagon inappropriée, ainsi qu’une diminution de l’effet des incrétines,
+hormones intestinales stimulant la sécrétion post-prandiale de l’insuline.
+
+Pharmacologie clinique et thérapeutique
+50
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+Mécanismes permettant une diminution de la glycémie :
+1. diminution de la résistance des tissus à l’insuline
+a. augmentation de capture du glucose par
+(Thiazolidinediones (appelées aussi glitazones))
+
+muscles
+
+striés
+
+b. diminution de production de glucose par le foie (Biguanides)
+c. diminution de la lipolyse par le tissu adipeux (Thiazolidinediones [TZD])
+2. stimulation de la sécrétion d’insuline dans le pancréas, phénomène inhibé par
+la glucotoxicité et la lipotoxicité (Sulfonylurées [SU], Sécrétagogues non
+sulfonylurées, dit « glinides », analogues du GLP-1 [GLP-1RA], gliptines)
+3. stimulation de l’effet « incrétine » (stimulation de la sécrétion d’insuline glucosedépendante, augmentation de la synthèse d’insuline, diminution de la sécrétion
+du glucagon (analogues du GLP1, inhibiteurs de la DPP-4 (DPP-4i, gliptines))
+4. diminution de l’absorption intestinale de glucose (Inhibiteurs des alphaglucosidases)
+5. augmentation de l’excrétion du glucose (inhibiteurs SGLT-2 [SGLT2i],
+« gliflozines »)
+Les classes d’antidiabétiques sont résumées dans la table 1.
+La pharmacologie de ces molécules peut être trouvée dans les fiches ad hoc.
+
+Pharmacologie clinique et thérapeutique
+51
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+Table 1 tiré de : Rev Med Suisse 2018 ; 14 :30-3
+
+Commentaire : analogues du GLP-1 : le sémaglutide est maintenant disponible en comprimé
+
+Pharmacologie clinique et thérapeutique
+52
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+ETAPE 2
+Mme P. a maintenant 58 ans. Son diabète est actuellement traité par un biguanide
+(metformine)) 500mg 2x/j, et de l’empagliflozine (Jardiance), 10 mg/j. Elle est par
+ailleurs sous lisinopril 10 mg/j car elle a une HTA et a fait un épisode d’insuffisance
+cardiaque.
+➢ Pourquoi la patiente est-elle sous ce traitement antidiabétique actuellement?
+➢ Quelles autres associations auraient été possibles ?
+➢ Quel traitement peut-on encore utiliser en cas de persistance d’une HbA1c
+> 7% ?
+Durée de cette étape : 30 minutes
+Format interactif
+Le but principal est d’aborder la stratégie d’initiation puis de suivi et d’adaptation du
+traitement médicamenteux.
+4. Traitement médicamenteux : stratégie d’introduction et de suivi
+Le choix des traitements peut être guidé selon les recommandations résumées dans
+la table 2 ci-dessous.
+
+Pharmacologie clinique et thérapeutique
+53
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+Table 2
+
+Monothérapie
+Une monothérapie devrait permettre une diminution de l’HbA1c de 1-2%. 18-24% des
+patients peuvent atteindre une HbA1c <7%.
+La metformine est un 1er choix en monothérapie, quel que soit le profil de patients.
+Elle participe à la stabilisation pondérale et à une amélioration du profil lipidique. Elle
+permet une baisse de l’HbA1c de 1-2% et une diminution des complications micro- et
+macrovasculaires à long terme. Elle a démontré une diminution du risque de décès et
+d’insuffisance cardiaque. Augmentation progressive de la posologie pour éviter une
+intolérance digestive, qui reste suffisamment importante néanmoins pour justifier l’arrêt
+du traitement dans env. 4% des cas. Risque d’hypoglycémie limité sous ce traitement.
+
+Pharmacologie clinique et thérapeutique
+54
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+Associations ADO
+Au fil du temps, la cible d’HbA1c devient difficile à atteindre avec une monothérapie: à
+3 ans 50% des patient.e.s l’atteignent et à 9 ans 25% seulement. Une intensification
+précoce du traitement permet d’obtenir un meilleur contrôle glycémique et d’améliorer
+les complications à long terme.
+On propose une intensification dès que l’HbA1c dépasse 7% durant 2 trimestres
+consécutifs ou que la cible déterminée avec un.e patient.e particulier.ère n’est pas
+atteinte. Il vaut mieux combiner divers ADO que de compter sur l’efficacité d’une
+augmentation des doses en monothérapie.
+Le traitement de seconde ligne est adapté au profil des patient.e.s et notamment aux
+comorbidités cardiovasculaires et rénales ( cf table 2).
+Il existe actuellement deux classes d’antidiabétiques (les inhibiteurs des SGLT-2 et les
+agonistes des récepteurs GLP-1) qui ont démontré, en plus de leur action
+hypoglycémiante, en prévention secondaire une réduction des évènements
+cardiovasculaires, de la mortalité cardiovasculaire et de la mortalité totale ainsi qu’un
+effet néphroprotecteur. Ils sont donc clairement indiqués en prévention secondaire et
+pour le traitement de l’insuffisance cardiaque (inhibiteurs de SGLT2) alors que les
+niveaux de preuves restent limités en prévention primaire. Il est donc recommandé de
+les débuter précocement.
+Les effets secondaires des analogues du GLP-1 sont essentiellement digestifs et jusqu’à
+récemment ils s’administraient sous forme injectable. Une forme po de sémaglutide est
+actuellement disponible.
+
+Les effets secondaires des gliflozines comprennent les infections génito-urinaires ou
+le risque, bien que rare, de décompensation acidocétosique euglycémique. Rappelons
+finalement que ces médicaments ne s’administrent pas chez les patient.e.s avec un
+débit de filtration glomérulaire inférieur à 45 ml/min, ceci pour des raisons d’efficacité
+en termes de réduction de la glycémie.
+
+Pharmacologie clinique et thérapeutique
+55
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+L’association metformine + Sulfonylurée était la combinaison anciennement
+recommandée, dont Le seul intérêt persistant actuel est d’être la moins chère.
+En cas de cible d’HbA1c non atteinte avec une bi-thérapie, une tri-thérapie peut être
+envisagée, particulièrement chez le patient obèse, mais ceci ne devrait pas retarder
+un passage à l’insuline suffisamment précoce.
+Insulinothérapie avec ADO
+Lorsque les combinaisons d’ADO ne sont plus suffisantes, il faut introduire une
+insulinothérapie. Celle-ci doit viser en première intention une glycémie matinale à jeun
+< 7mmol/l permettant un relais par des ADO durant la journée. Par la suite, si cela ne
+suffit pas à atteindre les objectifs glycémiques, on peut intensifier le schéma d’insuline.
+Les schémas successifs seraient donc par exemple:
+1. Insuline basale (ou lente) au coucher en plus de bi ou tri-thérapie orale la
+journée
+2. insuline basale (ou lente) combinée à insuline rapide avant le repas du soir en
+plus de bi ou tri-thérapie orale la journée
+3. insuline basale (ou lente) combinée à insuline rapide matin et soir en
+maintenant metformine.
+
+Pharmacologie clinique et thérapeutique
+56
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+ETAPE 3
+La patiente est hospitalisée par sa famille car elle présente depuis 4 jours une
+somnolence, une anorexie, des douleurs abdominales et des nausées qui augmentent
+en intensité.
+Elle est toujours sous traitement de metformine 500mg 2x/j et empagliflozine
+(Jardiance) 10 mg/j. En raison de gonarthroses bilatérales elle a commencé un
+traitement de diclofénac 75mg/j puis 150mg/j un mois auparavant.
+A l’admission, elle est très agitée, pouls 92/min, tension artérielle 130/70 mmHg,
+fréquence respiratoire 45/’, palpation abdominale diffusément douloureuse.
+Gazométrie:
+
+Laboratoire sanguin:
+
+pH 6.8
+
+Glycémie : 6.2 mmol/l
+
+PaCO2 2.6 kPa
+
+Na+ : 140 mmol/l
+
+PO2 10.2 kPa
+
+K+: 4.4 mmol/l
+
+HCO3- 5 mmol/l, BE -27.4 mmol/l
+
+Urée 27.4 mmol/l
+Créatinine 796 µmol/l
+Lactates 19.8 mmol/l (N : 0.6-1.7)
+
+La patiente est intubée et ventilée, un CT scan abdominal a exclu une ischémie
+mésentérique.
+Elle est hémodialysée et reçoit un traitement de bicarbonate. Après 2 jours elle peut
+être extubée, mais l’hémodialyse doit être poursuivie pendant 15 jours.
+➢ Quel est le problème de cette patiente et quelles sont les causes possibles?
+➢ Quelle autre complication aurait aussi pu survenir chez cette patiente ?
+Durée de cette étape : 30 minutes
+
+Pharmacologie clinique et thérapeutique
+57
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+6. Traitement médicamenteux : effets indésirables (EI)
+Phénomène fréquent en milieu hospitalier et ambulatoire (incidence: 2-25%). Au
+minimum, 7% des admissions hospitalières seraient dues directement aux EI et
+seraient évitables dans 30% des cas. Aux USA, > 100'000 décès/an et les EI
+médicamenteux seraient entre la 4ème et 6ème cause de décès ( accidents de la
+circulation).
+Il faut distinguer les EI qui sont dépendants de la dose de ceux qui ne sont pas
+dépendant de la dose. (Exemple : idiosyncrasiques, allergiques)
+Lors d'un EI dose-dépendant, appelé Type A (pour augmenter), (ce qui correspond à
+la majorité des effets indésirables), le mécanisme de l'effet indésirable médicamenteux
+EI est explicable par un effet pharmacologique, une réduction de la posologie permet
+une diminution ou une disparition de l'effet indésirable qui est la plupart du temps
+prévisible et réversible.
+Lors d'un EI de type B, la réaction est non prévisible et peut être le fait de différents
+mécanismes : idiosyncrasique (hémolyse si déficit en G-6-PD), pseudo-allergique
+(urticaire, anaphylaxie, angioedème) ou immuno-allergique (4 mécanismes de
+Coombs et Gell) toute nouvelle exposition est proscrite et risquerait d'entraîner un EI
+encore plus sévère.
+Pour le cas de Mme P., reconnaître le type d'EI et proposer une attitude pour la
+poursuite du traitement.
+Acidose lactique sous metformine
+Effet indésirable de type A, découlant de l’action pharmacologique de la substance.
+Rare (1 cas/30'000 patients-années), mais survient en présence de facteurs de risque
+qu’il faut anticiper.
+
+Mécanisme d’action de la metformine (tiré de Rev Med Suisse 2015; volume 11. 12221226)
+L’action métabolique de la metformine est rappelée dans le schéma ci-dessous.
+L’inhibition de la mGPD entraine une cascade métabolique qui aboutit cliniquement à
+une augmentation de la sensibilité à l’insuline du foie et du muscle squelettique et à
+une production de lactate, ce qui explique le risque d’acidose lactique dans des
+conditions où la production de lactate est déjà élevée.
+
+Pharmacologie clinique et thérapeutique
+58
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+mGPD: glycérol-phosphate déshydrogénase isoforme mitochondriale ; cGPD : glycérol-phosphate
+déshydrogénase isoforme cytoplasmique ; G3P : glycérol-3-phosphate ; LDH : lactate déshydrogénase
+; DHAP : dihydroxycétone phosphate ; NAD : nicotinamide adénine dinucléotide ; NADH : forme réduite
+de la nicotinamide adénine dinucléotide.
+Tiré de Rev Med Suisse 2015; volume 11. 1222-1226
+
+Facteurs de risque :
+•
+•
+•
+•
+
+Insuffisance rénale (diminution de l’élimination de la metformine)
+Insuffisance hépatique (↑ production lactates)
+Hypoxie : insuffisance cardiaque ou respiratoire décompensée, par ex : (↑
+production lactates)
+Infections sévères (↑ production lactates)
+
+Il est recommandé d’arrêter la metformine la veille d’une procédure invasive (chirurgie,
+cathétérisme, etc.) et de la reprendre 48h plus tard s’il n’y a pas eu de complications,
+d’insuffisance rénale notamment.
+Facteurs de risque chez Mme P. : dose élevée, insuffisance rénale sur
+polymédication (cocktail AINS + IEC)
+Comment faut-il revoir le traitement et peut-on réadministrer la metformine: si
+oui, au même dosage?
+Le traitement est stoppé dans la phase aigüe. Une fois la fonction rénale stabilisée, la
+metformine peut théoriquement être reprise à une dose adaptée la fonction rénale
+résiduelle (contrindicacation formelle en cas de clairance < 30 ml/min).
+Faut-il déclarer le cas de cette patiente: si oui, comment? Sensibiliser les
+étudiants aux principes de base de la pharmacovigilance.
+
+Pharmacologie clinique et thérapeutique
+59
+
+Séminaire n°4 : Effets indésirables médicamenteux, exemple du diabète
+
+Sont à annoncer :
+Tous les effets indésirables médicamenteux graves (pronostic vital, hospitalisation,
+séquelles, prolongation d’un séjour hospitalier, échec thérapeutique) ou nouveaux
+(non décrits dans le compendium) nécessitent une déclaration. Lorsque le médicament
+a moins de 5 ans tout effet indésirable doit être déclaré. La suspicion d'une relation de
+cause à effet suffit pour déclarer le cas. L'annonce d'effet indésirable médicamenteux
+en Suisse est une obligation légale pour toute personne qui prescrit ou remet un
+médicament depuis 2002.
+Aux HUG et en ambulatoire, l'annonce peut être faite directement au Service de
+pharmacologie et toxicologie cliniques, mais un formulaire en ligne est disponible sur
+le site de Swissmedic. Une évaluation du cas sera conclue par un degré d'imputabilité
+permettant d'établir une causalité estimée plus ou moins forte entre le médicament
+incriminé et l'effet indésirable en fonction du lien chronologique, des données de la
+littérature et de l’appréciation clinique de la situation, avec en particulier la présence
+de diagnostics alternatifs.
+Acido-cétose sous inhibiteurs de SGLT2 (ref : Rev Med Suisse 2017 ; 13 : 1164-7)
+Ce type de complication aurait pu survenir également chez cette patiente traitée par
+SGLT2i. Il s’agit d’une acidocétose sans hypergélycémie associant acidose, cétose et
+glycémie normale. Plusieurs mécanismes pourraient être en cause. Les SGLT2i
+altèrent notamment le rapport insuline/glucagon avec une diminution d’insuline
+circulante favorisant la production des acides gras libres qui sont convertis en corps
+cétoniques par beta-oxydation, alors qu’ils diminuent la glycémie par augmentation
+d’excrétion rénale.
+Certains facteurs de risque peuvent favoriser l’acidocétose euglycémique
+• réduction de la dose d’insuline, déficit relatif en insuline ;
+• diminution des apports caloriques secondaire à une maladie aiguë, chirurgie, jeûne
+prolongé ou autres ;
+• activité physique prolongée ;
+• pathologie pancréatique induisant une déficience en insuline (antécédent de
+pancréatite, chirurgie pancréatique ou diabète de type 1) ;
+• abus d’alcool (gluconéogenèse réduite).
+
+Pharmacologie clinique et thérapeutique
+60
+
+

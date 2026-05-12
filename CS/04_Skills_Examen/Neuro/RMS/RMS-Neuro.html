@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Neurologique - Revue Médicale Suisse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .main-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            display: flex;
+        }
+        
+        .content-area {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+        
+        .sidebar {
+            width: 350px;
+            background: #f8f9fa;
+            padding: 20px;
+            overflow-y: auto;
+            max-height: 90vh;
+            border-left: 1px solid #e0e0e0;
+            position: sticky;
+            top: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: linear-gradient(to right, #f6f8fa 0%, transparent 100%);
+            border-left: 4px solid #667eea;
+        }
+        
+        h3 {
+            color: #546e7a;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            padding-left: 10px;
+            border-left: 3px solid #764ba2;
+        }
+        
+        h4 {
+            color: #616161;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        p, li {
+            margin-bottom: 12px;
+            line-height: 1.8;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        /* Mise en évidence des pathologies */
+        .pathology {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+        
+        /* Références aux figures */
+        .fig-ref {
+            color: #3498db;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+            transition: color 0.3s;
+        }
+        
+        .fig-ref:hover {
+            color: #2980b9;
+        }
+        
+        /* Images dans la sidebar */
+        .figure-container {
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .figure-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: zoom-in;
+            transition: transform 0.3s;
+        }
+        
+        .figure-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        .figure-caption {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 8px;
+            font-weight: 500;
+        }
+        
+        /* Modal pour zoom image */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: zoom-out;
+        }
+        
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+        }
+        
+        /* Tableau */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        tr:hover {
+            background: #f0f0f0;
+        }
+        
+        /* Cartes de révision */
+        .revision-cards {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 3px solid #667eea;
+        }
+        
+        .cards-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .card-image-container {
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card-image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: zoom-in;
+            transition: transform 0.3s;
+        }
+        
+        .card-image-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin: 0 3px;
+        }
+        
+        .badge-urgence {
+            background: #e74c3c;
+            color: white;
+        }
+        
+        .badge-important {
+            background: #f39c12;
+            color: white;
+        }
+        
+        .badge-info {
+            background: #3498db;
+            color: white;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .main-container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                border-left: none;
+                border-top: 1px solid #e0e0e0;
+                position: relative;
+                max-height: 400px;
+            }
+            
+            .content-area {
+                max-height: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .content-area {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            .cards-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content-area">
+            <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS - EXAMEN NEUROLOGIQUE</h1>
+            
+            <h2>Préparatifs</h2>
+            <ul>
+                <li>Se présenter au patient</li>
+                <li>Demander son accord</li>
+                <li>Expliquer le déroulement</li>
+                <li>Désinfection des mains (entrée/sortie, avant/après contact)</li>
+            </ul>
+            
+            <h3>Examen en deux temps</h3>
+            <ul>
+                <li><strong>Position assise</strong> ou <strong>décubitus dorsal</strong> majoritairement</li>
+                <li><strong>Configuration :</strong>
+</ul>
+                    <ul>
+                        <li>Jambes décroisées</li>
+                        <li>Bras le long du corps</li>
+                        <li>Coussin sous tête et genoux</li>
+                        <li>Patient en sous-vêtements</li>
+                    </ul>
+                </li>
+            
+            <h2>1. Examen cognitif</h2>
+            
+            <h3>État de conscience et orientation</h3>
+            <p>Évaluation avec échelle Glasgow Coma Scale ou AVPU</p>
+            <p><strong>État altéré</strong> <span class="pathology">→ Détresse respiratoire, insuffisance circulatoire, état confusionnel (hyponatrémie, infection urinaire, trouble métabolique)</span></p>
+            
+            <h3>Mini-Mental State Examination (MMSE)</h3>
+            <p>Score sur 30 points évaluant :</p>
+            <ul>
+                <li><strong>Orientation temporelle et spatiale</strong> (10 points)</li>
+                <li><strong>Mémoire immédiate</strong> (3 mots répétés - 3 points)</li>
+                <li><strong>Attention et calcul</strong> (soustractions 100-7 - 5 points)</li>
+                <li><strong>Rappel différé</strong> (3 mots - 3 points)</li>
+                <li><strong>Langage</strong> (dénomination, répétition, compréhension - 8 points)</li>
+<ul>
+                <li><strong>Praxie constructive</strong> (copie de dessins - 1 point) <span class="fig-ref" onclick="scrollToFigure('fig1')">(FIG 1)</span></li>
+</ul>
+            
+            <p><strong>Empan <5 chiffres</strong> <span class="pathology">→ Altération mémoire de travail</span></p>
+            <p><strong>Dessin horloge pathologique</strong> <span class="fig-ref" onclick="scrollToFigure('fig2')">(FIG 2)</span> <span class="pathology">→ Atteinte fonction exécutive, praxie, gnosie</span></p>
+            <p><strong>Score MMSE bas</strong> <span class="pathology">→ Démence (Alzheimer: troubles mnésiques; frontale/vasculaire: troubles attention)</span></p>
+            
+</ul>
+            <h3>Tests complémentaires</h3>
+            <ul>
+                <li><strong>Apraxie idéomotrice</strong> : incapacité mimer actions</li>
+                <li><strong>Apraxie idéatoire</strong> : incapacité utiliser objets</li>
+                <li><strong>Dysfonction exécutive</strong> : test de préhension forcée</li>
+                <li><strong>Anosognosie</strong> : non-reconnaissance du déficit</li>
+            </ul>
+            
+            <h3>Tableau comparatif état confusionnel et démence</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>État confusionnel</th>
+                        <th>Démence</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Survenue</strong></td>
+                        <td>Abrupte</td>
+                        <td>Progressif</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Durée</strong></td>
+                        <td>Heures à jours</td>
+                        <td>Mois à années</td>
+                    </tr>
+                    <tr>
+                        <td><strong>État de conscience</strong></td>
+                        <td>Fluctuant</td>
+                        <td>Intact</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Langage</strong></td>
+                        <td>Incohérent et désorganisé</td>
+                        <td>Préservé</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Attention</strong></td>
+                        <td>Déficit important</td>
+                        <td>Préservé initialement</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h2>2. Examen des nerfs crâniens</h2>
+            
+            <h3>I - Nerf olfactif</h3>
+            <p>Test chaque narine séparément</p>
+            <p><strong>Anosmie bilatérale</strong> <span class="pathology">→ Parkinson, traumatisme crânien, syndrome de Kallmann</span></p>
+            <p><strong>Anosmie unilatérale</strong> <span class="pathology">→ Méningiome fronto-basal</span></p>
+            
+            <h3>II - Nerf optique</h3>
+            <ul>
+                <li>Acuité visuelle</li>
+                <li>Champs visuels <span class="fig-ref" onclick="scrollToFigure('fig5')">(FIG 5)</span></li>
+                <li>Test d'Ishihara</li>
+                <li>Pupilles et réflexe photomoteur <span class="fig-ref" onclick="scrollToFigure('fig6')">(FIG 6)</span></li>
+                <li>Fond d'œil</li>
+            </ul>
+            
+            <p><strong>Déficit monoculaire/binoculaire avec atteinte antéchiasmatique</strong> <span class="pathology">→ Rétinopathie, névrite optique, ischémie nerf optique</span></p>
+            <p><strong>Hémianopsie bitemporale</strong> <span class="pathology">→ Compression chiasmatique (hypophyse, anévrisme)</span></p>
+            <p><strong>Hémianopsie homonyme</strong> <span class="pathology">→ Lésion rétrochiasmatique controlatérale (AVC)</span></p>
+            <p><strong>Quadranopsie inférieure</strong> <span class="pathology">→ Lésion pariétale</span></p>
+            <p><strong>Quadranopsie supérieure</strong> <span class="pathology">→ Lésion temporale</span></p>
+            
+            <h3>III, IV, VI - Nerfs oculomoteurs</h3>
+            <ul>
+                <li>Paupières (ptose) <span class="fig-ref" onclick="scrollToFigure('fig17')">(FIG 17)</span></li>
+                <li>Regard primaire et strabisme <span class="fig-ref" onclick="scrollToFigure('fig8')">(FIG 8)</span></li>
+                <li>Poursuite oculaire <span class="fig-ref" onclick="scrollToFigure('fig9')">(FIG 9)</span></li>
+                <li>Convergence <span class="fig-ref" onclick="scrollToFigure('fig10')">(FIG 10)</span></li>
+                <li>Saccades</li>
+            </ul>
+            
+            <p><strong>Ptose + mydriase + exotropie/hypotropie</strong> <span class="pathology">→ Atteinte nerf III (anévrisme communicante postérieure, microangiopathie diabétique)</span></p>
+            <p><strong>Diplopie verticale + inclinaison tête</strong> <span class="pathology">→ Atteinte nerf IV (traumatisme)</span></p>
+            <p><strong>Esotropie</strong> <span class="pathology">→ Atteinte nerf VI (hypertension intracrânienne débutante)</span></p>
+            <p><strong>Ophtalmoplégie internucléaire</strong> <span class="pathology">→ Sclérose en plaques, AVC</span></p>
+            
+            <h3>V - Nerf trijumeau</h3>
+            <ul>
+                <li>Sensibilité faciale (3 branches) <span class="fig-ref" onclick="scrollToFigure('fig11')">(FIG 11)</span>, <span class="fig-ref" onclick="scrollToFigure('fig12')">(FIG 12)</span></li>
+                <li>Force massétérins <span class="fig-ref" onclick="scrollToFigure('fig13')">(FIG 13)</span>, <span class="fig-ref" onclick="scrollToFigure('fig14')">(FIG 14)</span></li>
+                <li>Réflexe cornéen (avec VII) <span class="fig-ref" onclick="scrollToFigure('fig15')">(FIG 15)</span></li>
+            </ul>
+            
+            <p><strong>Déficit sensitif/moteur d'une branche</strong> <span class="pathology">→ Zona ophtalmique, chirurgie orale, tumeur</span></p>
+            <p><strong>Trismus</strong> <span class="pathology">→ Abcès périamygdalien, sialadénite</span></p>
+            
+            <h3>VII - Nerf facial</h3>
+            <ul>
+                <li>Motricité faciale <span class="fig-ref" onclick="scrollToFigure('fig16')">(FIG 16)</span>, <span class="fig-ref" onclick="scrollToFigure('fig17')">(FIG 17)</span>, <span class="fig-ref" onclick="scrollToFigure('fig18')">(FIG 18)</span></li>
+                <li>Réflexe cornéen (avec V)</li>
+            </ul>
+            
+            <p><strong>Déficit unilatéral complet (front + face inférieure)</strong> <span class="pathology">→ Atteinte périphérique (idiopathique, traumatisme, infectieux, tumoral)</span></p>
+            <p><strong>Déficit unilatéral épargne front</strong> <span class="pathology">→ Atteinte centrale</span></p>
+            <p><strong>Déficit bilatéral</strong> <span class="pathology">→ Guillain-Barré, Lyme, myasthénie</span></p>
+            
+            <h3>VIII - Nerf vestibulocochléaire</h3>
+            
+            <h4>Audition</h4>
+            <ul>
+                <li>Test grossier <span class="fig-ref" onclick="scrollToFigure('fig19')">(FIG 19)</span></li>
+                <li>Weber <span class="fig-ref" onclick="scrollToFigure('fig20')">(FIG 20)</span> et Rinné <span class="fig-ref" onclick="scrollToFigure('fig21')">(FIG 21)</span>, <span class="fig-ref" onclick="scrollToFigure('fig22')">(FIG 22)</span></li>
+            </ul>
+            
+            <p><strong>Weber latéralisé + Rinné négatif ipsilatéral</strong> <span class="pathology">→ Surdité transmission</span></p>
+            <p><strong>Weber latéralisé + Rinné positif controlatéral</strong> <span class="pathology">→ Surdité perception</span></p>
+            
+            <h4>Vestibule</h4>
+            <ul>
+                <li>Test d'Halmagyi (head impulse test) <span class="fig-ref" onclick="scrollToFigure('fig23')">(FIG 23)</span></li>
+                <li>HINTS (head impulse, nystagmus, test of skew)</li>
+            </ul>
+            
+            <p><strong>Head impulse pathologique + nystagmus unidirectionnel</strong> <span class="pathology">→ Atteinte vestibulaire périphérique (neuronite, labyrinthite, Ménière)</span></p>
+            <p><strong>HINTS suggérant atteinte centrale</strong> <span class="pathology">→ AVC fosse postérieure</span></p>
+            
+            <h3>IX, X - Nerfs glossopharyngé et vague</h3>
+            <ul>
+                <li>Élévation voile du palais</li>
+                <li>Déglutition</li>
+                <li>Réflexe émétique</li>
+                <li>Phonation</li>
+            </ul>
+            
+            <p><strong>Déviation luette</strong> <span class="pathology">→ Lésion IX ou X controlatérale</span></p>
+            <p><strong>Voix rauque</strong> <span class="pathology">→ Laryngite, paralysie laryngée</span></p>
+            <p><strong>Voix nasonnée + troubles déglutition</strong> <span class="pathology">→ Atteinte nerf X</span></p>
+            
+            <h3>XI - Nerf spinal accessoire</h3>
+            <p>Force trapèzes <span class="fig-ref" onclick="scrollToFigure('fig24')">(FIG 24)</span> et sterno-cléido-mastoïdiens <span class="fig-ref" onclick="scrollToFigure('fig25')">(FIG 25)</span></p>
+            <p><strong>Déficit</strong> <span class="pathology">→ Iatrogène (chirurgie cervicale)</span></p>
+            
+            <h3>XII - Nerf hypoglosse</h3>
+            <p>Mobilisation langue</p>
+            <p><strong>Déviation à la protrusion</strong> <span class="pathology">→ Lésion XII ipsilatérale</span></p>
+            
+            <h3>Syndromes combinés</h3>
+            <p><strong>III, IV, V1-2, VI</strong> <span class="pathology">→ Compression sinus caverneux</span></p>
+            <p><strong>V, VI, VII, VIII, IX, X</strong> <span class="pathology">→ Angle ponto-cérébelleux, syndrome de Wallenberg</span></p>
+            <p><strong>IX, X, XI</strong> <span class="pathology">→ Foramen jugulaire</span></p>
+            <p><strong>IX, X, XII</strong> <span class="pathology">→ Syndrome bulbaire ou pseudo-bulbaire</span></p>
+            
+            <h2>3. Épreuves cérébelleuses</h2>
+            
+            <h3>Tests de coordination</h3>
+            <ul>
+                <li><strong>Doigt-nez</strong> <span class="fig-ref" onclick="scrollToFigure('fig26')">(FIG 26)</span> : dysmétrie, dysynergie</li>
+                <li><strong>Talon-genou-pied</strong> <span class="fig-ref" onclick="scrollToFigure('fig27')">(FIG 27)</span> : tremor cinétique</li>
+                <li><strong>Doigt-nez bras écartés</strong> <span class="fig-ref" onclick="scrollToFigure('fig28')">(FIG 28)</span> : dyssynchronométrie</li>
+                <li><strong>Marionnettes</strong> <span class="fig-ref" onclick="scrollToFigure('fig29')">(FIG 29)</span> : disdiadococinésie</li>
+                <li><strong>Rebond pathologique</strong></li>
+            </ul>
+            
+            <p><strong>Ataxie cinétique</strong> <span class="pathology">→ Lésions cérébelleuses hémisphériques</span></p>
+            <p><strong>Ataxie statique</strong> <span class="pathology">→ Lésions vermis</span></p>
+            <p><strong>Syndrome vestibulo-cérébelleux</strong> <span class="pathology">→ Lésions flocculonodulaires</span></p>
+            
+            <h2>4. Examen de la marche et posture</h2>
+            
+            <h3>Maintien postural</h3>
+            <ul>
+                <li><strong>Romberg</strong> <span class="fig-ref" onclick="scrollToFigure('fig30')">(FIG 30)</span>
+                    <ul>
+                        <li><strong>Négatif (instabilité yeux ouverts)</strong> <span class="pathology">→ Atteinte cérébelleuse</span></li>
+                        <li><strong>Positif (instabilité yeux fermés)</strong> <span class="pathology">→ Atteinte proprioceptive ou vestibulaire</span></li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h3>Types de marche pathologique</h3>
+            <ul>
+                <li><strong>Ataxique cérébelleuse</strong> : polygone sustentation élargi, pas irréguliers</li>
+                <li><strong>Ataxique proprioceptive</strong> : talons frappent sol</li>
+                <li><strong>Ataxique vestibulaire</strong> : déviation unilatérale</li>
+                <li><strong>Spastique/fauchage</strong> : membre inférieur en extension, arc de cercle</li>
+                <li><strong>Steppage</strong> : genou levé, appui pointe <span class="pathology">→ Paralysie releveurs (compression nerf péronier, radiculopathie)</span></li>
+                <li><strong>Myopathique (Trendelenburg)</strong> <span class="fig-ref" onclick="scrollToFigure('fig31')">(FIG 31)</span> : chute bassin, inclinaison tronc</li>
+                <li><strong>Hypokinétique</strong> : petits pas <span class="pathology">→ Syndrome parkinsonien</span></li>
+                <li><strong>Mouvements anormaux</strong> : chorée, ballisme, athétose, myoclonies, tics</li>
+</ul>
+            
+            <h3>Tests fonctionnels</h3>
+            <ul>
+                <li>Marche talons/pointes</li>
+                <li>Marche en tandem</li>
+                <li>S'accroupir <span class="fig-ref" onclick="scrollToFigure('fig32')">(FIG 32)</span></li>
+                <li>Se tenir sur une jambe</li>
+</ul>
+            
+            <h2>5. Examen méningé et irritations nerveuses</h2>
+            
+            <h3>Signes méningés</h3>
+            <ul>
+                <li><strong>Test de Jolt</strong> : aggravation céphalée à rotation rapide tête</li>
+                <li><strong>Signe de Kernig</strong> <span class="fig-ref" onclick="scrollToFigure('fig33')">(FIG 33)</span> : douleur extension genou à 90°</li>
+                <li><strong>Signe de Brudzinski</strong> <span class="fig-ref" onclick="scrollToFigure('fig34')">(FIG 34)</span> : flexion membres à flexion nuque</li>
+                <li><strong>Raideur de nuque</strong> <span class="fig-ref" onclick="scrollToFigure('fig35')">(FIG 35)</span></li>
+            </ul>
+            
+            <p><strong>Signes méningés positifs</strong> <span class="pathology">→ Méningite, méningo-encéphalite</span></p>
+            
+            <h3>Tests radiculaires</h3>
+            <ul>
+                <li><strong>Test de Spurling</strong> <span class="fig-ref" onclick="scrollToFigure('fig36')">(FIG 36)</span> : radiculopathie cervicale</li>
+                <li><strong>Signe de Lhermitte</strong> : décharge électrique <span class="pathology">→ Sclérose en plaques, myélopathie cervicale</span></li>
+                <li><strong>Signe de Lasègue</strong> <span class="fig-ref" onclick="scrollToFigure('fig37')">(FIG 37)</span> : radiculopathie L4-S1</li>
+                <li><strong>Signe de Bragard</strong> <span class="fig-ref" onclick="scrollToFigure('fig38')">(FIG 38)</span> : sensibilisation Lasègue</li>
+                <li><strong>Lasègue inversé</strong> <span class="fig-ref" onclick="scrollToFigure('fig39')">(FIG 39)</span> : radiculopathie L3-S1</li>
+            </ul>
+            
+            <h2>6. Examen moteur, sensitif et réflexes</h2>
+            
+            <h3>Force musculaire</h3>
+            <p>Cotation MRC 0-5 :</p>
+            <ul>
+                <li>0 : Aucune contraction</li>
+                <li>1 : Frémissement</li>
+                <li>2 : Mouvement sans pesanteur</li>
+                <li>3 : Mouvement contre pesanteur</li>
+                <li>4 : Mouvement contre résistance</li>
+<ul>
+                <li>5 : Force normale</li>
+</ul>
+            
+            <p><strong>Tests membres supérieurs :</strong></p>
+<li>
+    <ul>
+                <li>Deltoïde C5-6 : abduction bras <span class="fig-ref" onclick="scrollToFigure('fig41')">(FIG 41)</span></li>
+                <li>Biceps C5-6 : flexion avant-bras <span class="fig-ref" onclick="scrollToFigure('fig42')">(FIG 42)</span></li>
+                <li>Triceps C6-8 : extension bras <span class="fig-ref" onclick="scrollToFigure('fig43')">(FIG 43)</span></li>
+                <li>Extenseurs poignet C6-8 <span class="fig-ref" onclick="scrollToFigure('fig44')">(FIG 44)</span></li>
+                <li>Fléchisseurs poignet C6-D1 <span class="fig-ref" onclick="scrollToFigure('fig45')">(FIG 45)</span></li>
+                <li>Doigts : extension <span class="fig-ref" onclick="scrollToFigure('fig46')">(FIG 46)</span>, flexion <span class="fig-ref" onclick="scrollToFigure('fig47')">(FIG 47)</span>, abduction <span class="fig-ref" onclick="scrollToFigure('fig49')">(FIG 49)</span></li>
+</ul>
+</li>
+            
+            <p><strong>Tests membres inférieurs :</strong></p>
+<li>
+    <ul>
+                <li>Extension cuisse L5-S2 <span class="fig-ref" onclick="scrollToFigure('fig51')">(FIG 51)</span></li>
+                <li>Flexion cuisse L2-4 <span class="fig-ref" onclick="scrollToFigure('fig52')">(FIG 52)</span></li>
+                <li>Extension genou L2-4 <span class="fig-ref" onclick="scrollToFigure('fig53')">(FIG 53)</span></li>
+                <li>Flexion genou L5-S2 <span class="fig-ref" onclick="scrollToFigure('fig54')">(FIG 54)</span></li>
+                <li>Extension pied L5-S2 <span class="fig-ref" onclick="scrollToFigure('fig55')">(FIG 55)</span></li>
+                <li>Flexion pied L4-S1 <span class="fig-ref" onclick="scrollToFigure('fig56')">(FIG 56)</span></li>
+                <li>Orteils : extension L5-S1 <span class="fig-ref" onclick="scrollToFigure('fig57')">(FIG 57)</span>, flexion L5-S2 <span class="fig-ref" onclick="scrollToFigure('fig58')">(FIG 58)</span></li>
+</ul>
+</li>
+            
+            <p><strong>Tests fonctionnels :</strong></p>
+<li>
+    <ul>
+                <li>Mingazzini <span class="fig-ref" onclick="scrollToFigure('fig60')">(FIG 60)</span></li>
+                <li>Barré</li>
+</ul>
+</li>
+            
+</ul>
+            <h3>Réflexes ostéotendineux</h3>
+            <p>Cotation 0-4 :</p>
+<li>
+    <ul>
+                <li>0 : Absent</li>
+                <li>1 : Diminué</li>
+                <li>2 : Normal</li>
+                <li>3 : Augmenté</li>
+                <li>4 : Vif et clonique</li>
+</ul>
+</li>
+            
+            <p><strong>Membres supérieurs :</strong></p>
+<li>
+    <ul>
+                <li>Bicipital C5 <span class="fig-ref" onclick="scrollToFigure('fig61')">(FIG 61)</span></li>
+                <li>Tricipital C7 <span class="fig-ref" onclick="scrollToFigure('fig62')">(FIG 62)</span></li>
+                <li>Brachioradial C6 <span class="fig-ref" onclick="scrollToFigure('fig63')">(FIG 63)</span></li>
+</ul>
+</li>
+            
+            <p><strong>Membres inférieurs :</strong></p>
+<li>
+    <ul>
+                <li>Rotulien L4 <span class="fig-ref" onclick="scrollToFigure('fig64')">(FIG 64)</span></li>
+                <li>Achilléen S1 <span class="fig-ref" onclick="scrollToFigure('fig65')">(FIG 65)</span></li>
+</ul>
+</li>
+            
+            <p><strong>Réflexes pathologiques :</strong></p>
+<li>
+    <ul>
+                <li>Cutané abdominal <span class="fig-ref" onclick="scrollToFigure('fig66')">(FIG 66)</span> : absent <span class="pathology">→ Syndrome pyramidal</span></li>
+                <li>Babinski <span class="fig-ref" onclick="scrollToFigure('fig67')">(FIG 67)</span> : extension hallux <span class="pathology">→ Syndrome pyramidal</span></li>
+                <li>Hoffmann <span class="fig-ref" onclick="scrollToFigure('fig68')">(FIG 68)</span> : flexion pouce/index <span class="pathology">→ Lésion pyramidale</span></li>
+                <li>Clonus <span class="fig-ref" onclick="scrollToFigure('fig69')">(FIG 69)</span> : contractions rythmiques <span class="pathology">→ Syndrome pyramidal</span></li>
+</ul>
+</li>
+            
+            <h3>Sensibilité</h3>
+            <p>Selon dermatomes <span class="fig-ref" onclick="scrollToFigure('fig70')">(FIG 70)</span> et territoires nerveux</p>
+            
+            <p><strong>Modalités testées :</strong></p>
+<li>
+    <ul>
+                <li>Toucher grossier : voie spinothalamique</li>
+                <li>Toucher-piquer <span class="fig-ref" onclick="scrollToFigure('fig75')">(FIG 75)</span>, <span class="fig-ref" onclick="scrollToFigure('fig76')">(FIG 76)</span> : voie spinothalamique</li>
+                <li>Pallesthésie <span class="fig-ref" onclick="scrollToFigure('fig71')">(FIG 71)</span>, <span class="fig-ref" onclick="scrollToFigure('fig72')">(FIG 72)</span> : cordons postérieurs</li>
+                <li>Proprioception <span class="fig-ref" onclick="scrollToFigure('fig73')">(FIG 73)</span>, <span class="fig-ref" onclick="scrollToFigure('fig74')">(FIG 74)</span> : cordons postérieurs</li>
+                <li>Thermique : voie spinothalamique</li>
+            </ul>
+</li>
+            
+            <h3>Syndromes moteurs</h3>
+            
+            <p><strong>Syndrome pyramidal :</strong></p>
+<li>
+    <ul>
+                <li>Déficit moteur controlatéral</li>
+                <li>Spasticité, hyperréflexie</li>
+                <li>Babinski, Hoffmann positifs</li>
+                <li>Clonus</li>
+            </ul>
+</li>
+            
+            <p><strong>Syndrome neurogène périphérique :</strong></p>
+<li>
+    <ul>
+                <li>Déficit moteur ipsilatéral</li>
+                <li>Amyotrophie, fasciculations</li>
+                <li>Hypo/aréflexie</li>
+                <li>Déficit sensitif territoire nerveux</li>
+</ul>
+</li>
+            
+            <p><strong>Syndrome cérébelleux :</strong></p>
+<li>
+    <ul>
+                <li>Ataxie, dysmétrie, dysynergie</li>
+                <li>Disdiadococinésie</li>
+                <li>Réflexes pendulaires</li>
+                <li>Dysarthrie cérébelleuse</li>
+</ul>
+</li>
+            
+            <p><strong>Syndrome parkinsonien :</strong></p>
+<li>
+    <ul>
+                <li>Bradykinésie</li>
+                <li>Rigidité en roue dentée</li>
+                <li>Tremblement repos</li>
+                <li>Marche à petits pas</li>
+</ul>
+</li>
+            
+            <p><strong>Guillain-Barré :</strong></p>
+<li>
+    <ul>
+                <li>Déficit sensitivomoteur symétrique ascendant</li>
+                <li>Aréflexie</li>
+                <li>Progression distal vers proximal</li>
+                <li>Atteinte respiratoire possible</li>
+</ul>
+</li>
+            
+            <p><strong>Sclérose latérale amyotrophique :</strong></p>
+<li>
+    <ul>
+                <li>Déficits mixtes centraux/périphériques</li>
+                <li>Syndrome pseudo-bulbaire</li>
+                <li>Fasciculations</li>
+                <li>Amyotrophie progressive</li>
+</ul>
+</li>
+            
+            <p><strong>Myasthénie grave :</strong></p>
+<li>
+    <ul>
+                <li>Faiblesse fluctuante</li>
+                <li>Fatigabilité</li>
+                <li>Ptose</li>
+                <li>Strabisme</li>
+</ul>
+</li>
+            
+            <h3>Syndromes sensitifs</h3>
+            
+            <p><strong>Hémisyndrome faciobrachiocrural :</strong></p>
+<li>
+    <ul>
+                <li>Lésion corticale sylvienne controlatérale</li>
+                <li>Déficit face, bras et jambe</li>
+                <li>Signes centraux associés</li>
+            </ul>
+</li>
+            
+            <p><strong>Syndrome alterne sensitif :</strong></p>
+<li>
+    <ul>
+                <li>Lésion tronc cérébral</li>
+                <li>Déficit facial ipsilatéral</li>
+                <li>Déficit brachiocrural controlatéral</li>
+</ul>
+</li>
+            
+            <p><strong>Déficit bilatéral brachiocrural :</strong></p>
+<li>
+    <ul>
+                <li>Lésion médullaire complète</li>
+                <li>Brown-Séquard</li>
+                <li>Niveau sensitif</li>
+</ul>
+</li>
+            
+            <p><strong>Déficit segmentaire :</strong></p>
+<li>
+    <ul>
+                <li>Radiculopathie</li>
+                <li>Territoire dermatome spécifique</li>
+                <li>Signes périphériques</li>
+</ul>
+</li>
+            
+            <p><strong>Déficit territoire nerveux :</strong></p>
+<li>
+    <ul>
+                <li>Neuropathie focale</li>
+                <li>Distribution anatomique précise</li>
+                <li>Cause mécanique fréquente</li>
+</ul>
+</li>
+            
+            <p><strong>Déficit symétrique distal :</strong></p>
+<li>
+    <ul>
+                <li>Polyneuropathie</li>
+                <li>Longueur-dépendant <span class="pathology">→ métabolique</span></li>
+                <li>Non longueur-dépendant <span class="pathology">→ inflammatoire</span></li>
+</ul>
+</li>
+            
+            <p><strong>Déficit asymétrique multiple :</strong></p>
+<li>
+    <ul>
+                <li>Mononeuropathie multiple</li>
+                <li>Causes ischémiques</li>
+                <li>Causes infectieuses</li>
+</ul>
+</li>
+            
+            <h3>Syndromes médullaires</h3>
+<ul>
+<li>
+    <ul>
+                <li>Brown-Séquard : hémiparésie + déficit proprioceptif ipsilatéral, déficit thermo-algique controlatéral</li>
+                <li>Centro-médullaire, spinal antérieur, cordonal postérieur</li>
+                <li>Section complète</li>
+</ul>
+</li>
+            
+</ul>
+            <h2>Urgences neurologiques à exclure</h2>
+<ul>
+<li>
+    <ul>
+                <li>Méningite <span class="badge badge-urgence">URGENCE</span></li>
+                <li>AVC <span class="badge badge-urgence">URGENCE</span></li>
+                <li>Hémorragie <span class="badge badge-urgence">URGENCE</span></li>
+                <li>Dissection vasculaire <span class="badge badge-urgence">URGENCE</span></li>
+                <li>Hypertension intracrânienne <span class="badge badge-urgence">URGENCE</span></li>
+                <li>Artérite de Horton <span class="badge badge-urgence">URGENCE</span></li>
+                <li>État de mal épileptique <span class="badge badge-urgence">URGENCE</span></li>
+                <li>Syndrome de Guillain-Barré <span class="badge badge-urgence">URGENCE</span></li>
+                <li>Syndrome de la queue-de-cheval <span class="badge badge-urgence">URGENCE</span></li>
+</ul>
+</li>
+            
+</ul>
+            <h2>Carte de synthèse</h2>
+            
+            <h3>Dermatomes principaux</h3>
+<ul>
+<li>
+    <ul>
+                <li>C5-C6 : Épaule et bras</li>
+                <li>C7-C8 : Avant-bras et main</li>
+                <li>L2-L4 : Cuisse</li>
+                <li>L5-S1 : Jambe et pied</li>
+                <li>S2-S5 : Périnée</li>
+            </ul>
+</li>
+            
+</ul>
+            <h3>Myotomes</h3>
+<ul>
+<li>
+    <ul>
+                <li>C5 : Flexion coude (bicipital)</li>
+                <li>C6 : Extension poignet</li>
+                <li>C7 : Extension coude (tricipital)</li>
+                <li>C8 : Flexion doigts</li>
+                <li>L2-L4 : Extension genou (rotulien)</li>
+                <li>L5 : Dorsiflexion pied</li>
+                <li>S1 : Flexion plantaire (achilléen)</li>
+</ul>
+</li>
+            
+            <!-- Cartes de révision -->
+            <div class="revision-cards">
+</ul>
+                <h2>Cartes de révision</h2>
+                
+                <div class="cards-images">
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Neuro/Neuro-carte_page-0001.jpg" alt="Carte de révision 1" onclick="openModal(this)">
+                    </div>
+                    
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Neuro/Neuro-carte_page-0002.jpg" alt="Carte de révision 2" onclick="openModal(this)">
+                    </div>
+                    
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Neuro/Neuro-carte_page-0003.jpg" alt="Carte de révision 3" onclick="openModal(this)">
+                    </div>
+                    
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Neuro/Neuro-carte_page-0004.jpg" alt="Carte de révision 4" onclick="openModal(this)">
+                    </div>
+                    
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Neuro/Neuro-carte_page-0005.jpg" alt="Carte de révision 5" onclick="openModal(this)">
+                    </div>
+                    
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Neuro/Neuro-carte_page-0006.jpg" alt="Carte de révision 6" onclick="openModal(this)">
+                    </div>
+                    
+                    <div class="card-image-container">
+                        <img src="../Fiches/RMS/Neuro/Neuro-carte_page-0007.jpg" alt="Carte de révision 7" onclick="openModal(this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sidebar avec images -->
+        <div class="sidebar" id="sidebar">
+            <!-- Les images seront ajoutées dynamiquement via JavaScript -->
+        </div>
+    </div>
+    
+    <!-- Modal pour zoom image -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    
+    <script>
+        // Liste des figures disponibles
+        const figures = [
+            {id: 'fig1', file: 'FIG 1.jpg', caption: 'FIG 1 - Praxie constructive'},
+            {id: 'fig2', file: 'FIG 2.jpg', caption: 'FIG 2 - Dessin horloge'},
+            {id: 'fig3', file: 'FIG 3.jpg', caption: 'FIG 3'},
+            {id: 'fig4', file: 'FIG 4.jpg', caption: 'FIG 4'},
+            {id: 'fig5', file: 'FIG 5.jpg', caption: 'FIG 5 - Champs visuels'},
+            {id: 'fig6', file: 'FIG 6.jpg', caption: 'FIG 6 - Réflexe photomoteur'},
+            {id: 'fig7', file: 'FIG 7.jpg', caption: 'FIG 7'},
+            {id: 'fig8', file: 'FIG 8.jpg', caption: 'FIG 8 - Regard primaire'},
+            {id: 'fig9', file: 'FIG 9.jpg', caption: 'FIG 9 - Poursuite oculaire'},
+            {id: 'fig10', file: 'FIG 10.jpg', caption: 'FIG 10 - Convergence'},
+            {id: 'fig11', file: 'FIG 11.jpg', caption: 'FIG 11 - Sensibilité faciale'},
+            {id: 'fig12', file: 'FIG 12.jpg', caption: 'FIG 12 - Branches trijumeau'},
+            {id: 'fig13', file: 'FIG 13.jpg', caption: 'FIG 13 - Massétérins'},
+            {id: 'fig14', file: 'FIG 14.jpg', caption: 'FIG 14 - Force massétérins'},
+            {id: 'fig15', file: 'FIG 15.jpg', caption: 'FIG 15 - Réflexe cornéen'},
+            {id: 'fig16', file: 'FIG 16.jpg', caption: 'FIG 16 - Motricité faciale'},
+            {id: 'fig17', file: 'FIG 17.jpg', caption: 'FIG 17 - Ptose'},
+            {id: 'fig18', file: 'FIG 18.jpg', caption: 'FIG 18 - Motricité faciale'},
+            {id: 'fig19', file: 'FIG 19.jpg', caption: 'FIG 19 - Test auditif'},
+            {id: 'fig20', file: 'FIG 20.jpg', caption: 'FIG 20 - Test Weber'},
+            {id: 'fig21', file: 'FIG 21.jpg', caption: 'FIG 21 - Test Rinné'},
+            {id: 'fig22', file: 'FIG 22.jpg', caption: 'FIG 22 - Test Rinné'},
+            {id: 'fig23', file: 'FIG 23.jpg', caption: 'FIG 23 - Test Halmagyi'},
+            {id: 'fig24', file: 'FIG 24.jpg', caption: 'FIG 24 - Force trapèzes'},
+            {id: 'fig25', file: 'FIG 25.jpg', caption: 'FIG 25 - Sterno-cléido-mastoïdiens'},
+            {id: 'fig26', file: 'FIG 26.jpg', caption: 'FIG 26 - Doigt-nez'},
+            {id: 'fig27', file: 'FIG 27.jpg', caption: 'FIG 27 - Talon-genou-pied'},
+            {id: 'fig28', file: 'FIG 28.jpg', caption: 'FIG 28 - Doigt-nez bras écartés'},
+            {id: 'fig29', file: 'FIG 29.jpg', caption: 'FIG 29 - Marionnettes'},
+            {id: 'fig30', file: 'FIG 30.jpg', caption: 'FIG 30 - Test de Romberg'},
+            {id: 'fig31', file: 'FIG 31.jpg', caption: 'FIG 31 - Marche Trendelenburg'},
+            {id: 'fig32', file: 'FIG 32.jpg', caption: 'FIG 32 - S\'accroupir'},
+            {id: 'fig33', file: 'FIG 33.jpg', caption: 'FIG 33 - Signe de Kernig'},
+            {id: 'fig34', file: 'FIG 34.jpg', caption: 'FIG 34 - Signe de Brudzinski'},
+            {id: 'fig35', file: 'FIG 35.jpg', caption: 'FIG 35 - Raideur de nuque'},
+            {id: 'fig36', file: 'FIG 36.jpg', caption: 'FIG 36 - Test de Spurling'},
+            {id: 'fig37', file: 'FIG 37.jpg', caption: 'FIG 37 - Signe de Lasègue'},
+            {id: 'fig38', file: 'FIG 38.jpg', caption: 'FIG 38 - Signe de Bragard'},
+            {id: 'fig39', file: 'FIG 39.jpg', caption: 'FIG 39 - Lasègue inversé'},
+            {id: 'fig40', file: 'FIG 40.jpg', caption: 'FIG 40'},
+            {id: 'fig41', file: 'FIG 41.jpg', caption: 'FIG 41 - Deltoïde'},
+            {id: 'fig42', file: 'FIG 42.jpg', caption: 'FIG 42 - Biceps'},
+            {id: 'fig43', file: 'FIG 43.jpg', caption: 'FIG 43 - Triceps'},
+            {id: 'fig44', file: 'FIG 44.jpg', caption: 'FIG 44 - Extenseurs poignet'},
+            {id: 'fig45', file: 'FIG 45.jpg', caption: 'FIG 45 - Fléchisseurs poignet'},
+            {id: 'fig46', file: 'FIG 46.jpg', caption: 'FIG 46 - Extension doigts'},
+            {id: 'fig47', file: 'FIG 47.jpg', caption: 'FIG 47 - Flexion doigts'},
+            {id: 'fig48', file: 'FIG 48.jpg', caption: 'FIG 48'},
+            {id: 'fig49', file: 'FIG 49.jpg', caption: 'FIG 49 - Abduction doigts'},
+            {id: 'fig50', file: 'FIG 50.jpg', caption: 'FIG 50'},
+            {id: 'fig51', file: 'FIG 51.jpg', caption: 'FIG 51 - Extension cuisse'},
+            {id: 'fig52', file: 'FIG 52.jpg', caption: 'FIG 52 - Flexion cuisse'},
+            {id: 'fig53', file: 'FIG 53.jpg', caption: 'FIG 53 - Extension genou'},
+            {id: 'fig54', file: 'FIG 54.jpg', caption: 'FIG 54 - Flexion genou'},
+            {id: 'fig55', file: 'FIG 55.jpg', caption: 'FIG 55 - Extension pied'},
+            {id: 'fig56', file: 'FIG 56.jpg', caption: 'FIG 56 - Flexion pied'},
+            {id: 'fig57', file: 'FIG 57.jpg', caption: 'FIG 57 - Extension orteils'},
+            {id: 'fig58', file: 'FIG 58.jpg', caption: 'FIG 58 - Flexion orteils'},
+            {id: 'fig59', file: 'FIG 59.jpg', caption: 'FIG 59'},
+            {id: 'fig60', file: 'FIG 60.jpg', caption: 'FIG 60 - Test Mingazzini'},
+            {id: 'fig61', file: 'FIG 61.jpg', caption: 'FIG 61 - Réflexe bicipital'},
+            {id: 'fig62', file: 'FIG 62.jpg', caption: 'FIG 62 - Réflexe tricipital'},
+            {id: 'fig63', file: 'FIG 63.jpg', caption: 'FIG 63 - Réflexe brachioradial'},
+            {id: 'fig64', file: 'FIG 64.jpg', caption: 'FIG 64 - Réflexe rotulien'},
+            {id: 'fig65', file: 'FIG 65.jpg', caption: 'FIG 65 - Réflexe achilléen'},
+            {id: 'fig66', file: 'FIG 66.jpg', caption: 'FIG 66 - Réflexe cutané abdominal'},
+            {id: 'fig67', file: 'FIG 67.jpg', caption: 'FIG 67 - Signe de Babinski'},
+            {id: 'fig68', file: 'FIG 68.jpg', caption: 'FIG 68 - Signe d\'Hoffmann'},
+            {id: 'fig69', file: 'FIG 69.jpg', caption: 'FIG 69 - Clonus'},
+            {id: 'fig70', file: 'FIG 70.jpg', caption: 'FIG 70 - Dermatomes'},
+            {id: 'fig71', file: 'FIG 71.jpg', caption: 'FIG 71 - Pallesthésie'},
+            {id: 'fig72', file: 'FIG 72.jpg', caption: 'FIG 72 - Pallesthésie'},
+            {id: 'fig73', file: 'FIG 73.jpg', caption: 'FIG 73 - Proprioception'},
+            {id: 'fig74', file: 'FIG 74.jpg', caption: 'FIG 74 - Proprioception'},
+            {id: 'fig75', file: 'FIG 75.jpg', caption: 'FIG 75 - Toucher-piquer'},
+            {id: 'fig76', file: 'FIG 76.jpg', caption: 'FIG 76 - Toucher-piquer'}
+        ];
+        
+        // Ajouter les figures dans la sidebar
+        const sidebar = document.getElementById('sidebar');
+        figures.forEach(fig => {
+            const container = document.createElement('div');
+            container.className = 'figure-container';
+            container.id = fig.id;
+            
+            const img = document.createElement('img');
+            img.src = `../Fiches/RMS/Neuro/${fig.file}`;
+            img.alt = fig.caption;
+            img.onclick = function() { openModal(this); };
+            
+            const caption = document.createElement('div');
+            caption.className = 'figure-caption';
+            caption.textContent = fig.caption;
+            
+            container.appendChild(img);
+            container.appendChild(caption);
+            sidebar.appendChild(container);
+        });
+        
+        // Fonction pour faire défiler jusqu'à une figure
+        function scrollToFigure(figId) {
+            const element = document.getElementById(figId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                // Effet de surbrillance temporaire
+                element.style.transition = 'all 0.3s';
+                element.style.transform = 'scale(1.05)';
+                element.style.boxShadow = '0 5px 20px rgba(102, 126, 234, 0.4)';
+                setTimeout(() => {
+                    element.style.transform = 'scale(1)';
+                    element.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+                }, 1000);
+            }
+        }
+        
+        // Fonction pour ouvrir le modal avec l'image agrandie
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = img.src;
+        }
+        
+        // Fonction pour fermer le modal
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.style.display = 'none';
+        }
+        
+        // Fermer le modal en cliquant n'importe où
+        document.getElementById('imageModal').onclick = function() {
+            closeModal();
+        }
+        
+        // Empêcher la fermeture du modal en cliquant sur l'image
+        document.getElementById('modalImage').onclick = function(e) {
+            e.stopPropagation();
+        }
+    </script>
+</body>
+</html>

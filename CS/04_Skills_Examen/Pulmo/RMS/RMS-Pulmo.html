@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Pulmonaire - Revue Médicale Suisse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .main-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            display: flex;
+        }
+        
+        .content-area {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+        
+        .sidebar {
+            width: 350px;
+            background: #f8f9fa;
+            padding: 20px;
+            overflow-y: auto;
+            max-height: 90vh;
+            border-left: 1px solid #e0e0e0;
+            position: sticky;
+            top: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: linear-gradient(to right, #f6f8fa 0%, transparent 100%);
+            border-left: 4px solid #667eea;
+        }
+        
+        h3 {
+            color: #546e7a;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            padding-left: 10px;
+            border-left: 3px solid #764ba2;
+        }
+        
+        h4 {
+            color: #616161;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        p, li {
+            margin-bottom: 12px;
+            line-height: 1.8;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        /* Mise en évidence des pathologies */
+        .pathology {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+        
+        /* Références aux figures */
+        .fig-ref {
+            color: #3498db;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+            transition: color 0.3s;
+        }
+        
+        .fig-ref:hover {
+            color: #2980b9;
+        }
+        
+        /* Images dans la sidebar */
+        .figure-container {
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .figure-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: zoom-in;
+            transition: transform 0.3s;
+        }
+        
+        .figure-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        .figure-caption {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 8px;
+            font-weight: 500;
+        }
+        
+        /* Modal pour zoom image */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: zoom-out;
+        }
+        
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+        }
+        
+        /* Tableau */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        tr:hover {
+            background: #f0f0f0;
+        }
+        
+        /* Cartes de révision */
+        .revision-cards {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 3px solid #667eea;
+        }
+        
+        .cards-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .card-image-container {
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card-image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: zoom-in;
+            transition: transform 0.3s;
+        }
+        
+        .card-image-container img:hover {
+            transform: scale(1.02);
+        }
+        
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin: 0 3px;
+        }
+        
+        .badge-urgence {
+            background: #e74c3c;
+            color: white;
+        }
+        
+        .badge-important {
+            background: #f39c12;
+            color: white;
+        }
+        
+        .badge-info {
+            background: #3498db;
+            color: white;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .main-container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                border-left: none;
+                border-top: 1px solid #e0e0e0;
+                position: relative;
+                max-height: 400px;
+            }
+            
+            .content-area {
+                max-height: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .content-area {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content-area">
+            <h1>REVUE MÉDICALE SUISSE ÉTUDIANTS - EXAMEN PULMONAIRE</h1>
+            
+            <h2>Lobes pulmonaires <span class="fig-ref" onclick="scrollToFigure('fig1a')">(FIG 1a)</span>, <span class="fig-ref" onclick="scrollToFigure('fig1b')">(FIG 1b)</span></h2>
+            <ul>
+                <li>Poumon gauche : lobes supérieur et inférieur</li>
+                <li>Poumon droit : lobes supérieur, moyen et inférieur</li>
+                <li>Séparation par scissures (grande et petite)</li>
+            </ul>
+            
+            <h2>Préparatifs</h2>
+            <ul>
+                <li>Se présenter au patient</li>
+                <li>Demander son accord</li>
+                <li>Expliquer le déroulement</li>
+                <li>Désinfection des mains (entrée/sortie, avant/après contact)</li>
+                <li>Port de gants si contact avec liquides biologiques</li>
+                <li>Examinateur positionné à droite du patient (convention)</li>
+</ul>
+            
+            <h3>Examen en deux temps</h3>
+            <ul>
+                <li><strong>Position thorax antérieur/latéral :</strong> Décubitus dorsal</li>
+                <li><strong>Position thorax postérieur :</strong> Assis</li>
+                <li><strong>Configuration :</strong>
+</li>
+</ul>
+                    <ul>
+                        <li>Jambes décroisées</li>
+                        <li>Bras le long du corps</li>
+                        <li>Coussin sous tête et genoux</li>
+                        <li>Patient torse nu (femme peut garder sous-vêtements)</li>
+                    </ul>
+            
+            <h2>1. Inspection</h2>
+            
+            <h3>État général du patient</h3>
+            <ul>
+                <li>État de conscience, agitation, dyspnée, tachypnée, cyanose, léthargie</li>
+                <li>Communication difficile</li>
+                <li><strong>Patient maigre avec amyotrophie importante</strong> <span class="pathology">→ Atteinte emphysémateuse sévère</span></li>
+                <li><strong>Position assise, thorax vers l'avant</strong> <span class="pathology">→ Position antalgique de péricardite</span></li>
+                <li><strong>Refus de se coucher</strong> <span class="pathology">→ Orthopnée</span></li>
+            </ul>
+            
+            <h3>Allure du thorax</h3>
+            <p><strong>Déformation en carène (pectus carinatum)</strong> <span class="pathology">→ Protrusion antérieure du sternum (primaire ou génétique)</span></p>
+            
+            <p><strong>Déformation en entonnoir (pectus excavatum)</strong> <span class="pathology">→ Enfoncement du sternum (primaire ou génétique)</span></p>
+            
+            <p><strong>Autres déformations</strong> <span class="pathology">→ Cyphose, scoliose</span></p>
+            
+            <p><strong>Thorax en tonneau</strong> <span class="pathology">→ Distension pulmonaire (augmentation diamètre antéro-postérieur)</span></p>
+            
+            <h3>Signes de détresse respiratoire</h3>
+            
+            <h4>Fréquence respiratoire</h4>
+<ul>
+<ul>
+                <li><strong>Tachypnée (>20/min)</strong> <span class="pathology">→ États hypoxiques, hypercapniques, acidose métabolique, insuffisance cardiaque, état de choc, inflammation, douleur, syndrome d'hyperventilation</span></li>
+                <li><strong>Bradypnée (<10/min)</strong> <span class="pathology">→ Épuisement respiratoire, hypertension intracrânienne, urémie, coma diabétique, intoxication médicamenteuse</span></li>
+            </ul>
+            
+</ul>
+            <h4>Tirage</h4>
+            <p><strong>Creusement espaces intercostaux, sous-xyphoïdien, sus-sternal</strong> <span class="pathology">→ Contraction musculature accessoire</span></p>
+            
+            <h4>Respiration paradoxale</h4>
+            <p><strong>Balancement thoraco-abdominal</strong> <span class="fig-ref" onclick="scrollToFigure('fig3')">(FIG 3)</span> <span class="pathology">→ Faiblesse/dysfonctionnement diaphragme (BPCO, atteinte nerf phrénique, syndrome obésité-hypoventilation)</span></p>
+            
+            <p><strong>Volet costal</strong> <span class="fig-ref" onclick="scrollToFigure('fig2')">(FIG 2)</span> <span class="pathology">→ 3 côtes successives fracturées en 2 points</span></p>
+            
+            <h4>Cyanose</h4>
+            <p><strong>Cyanose périphérique</strong> <span class="pathology">→ Extraction tissulaire locale augmentée, perfusion diminuée, stase sanguine</span></p>
+            
+            <p><strong>Cyanose centrale</strong> <span class="pathology">→ Shunt droite-gauche, trouble diffusion, hypoventilation alvéolaire</span></p>
+            
+            <h4>Hypercapnie</h4>
+            <p><strong>Diaphorèse, astérixis</strong> <span class="pathology">→ Hypoventilation alvéolaire (atteintes neurologiques centrales/périphériques, pariétales, bronchopulmonaires)</span></p>
+            
+            <h4>Bruits respiratoires audibles</h4>
+<ul>
+<ul>
+                <li><strong>Stridor (inspiration)</strong> <span class="pathology">→ Obstruction voies aériennes supérieures</span></li>
+                <li><strong>Sibilance (expiration)</strong> <span class="pathology">→ Obstruction voies aériennes inférieures</span></li>
+                <li><strong>Grunting (enfant)</strong> <span class="pathology">→ Détresse respiratoire</span></li>
+            </ul>
+            
+</ul>
+            <h3>Symétrie des mouvements respiratoires</h3>
+            <p><strong>Respiration asymétrique</strong> <span class="pathology">→ Pneumothorax, épanchement pleural, lésion nerf phrénique, fibrose, pneumonie lobaire, obstruction bronchique unilatérale</span></p>
+            
+            <h3>Profils de respiration <span class="fig-ref" onclick="scrollToFigure('fig4')">(FIG 4)</span></h3>
+            
+            <p><strong>Respiration superficielle rapide</strong> <span class="pathology">→ Trouble compliance thoracique, fibrose, syndrome obstructif</span></p>
+            
+            <p><strong>Respiration de Kussmaul</strong> <span class="pathology">→ Acidose métabolique, acido-cétose diabétique, insuffisance rénale, hyperventilation</span></p>
+            
+            <p><strong>Respiration ataxique</strong> <span class="pathology">→ Traumatisme/compression du pont, opioïdes</span></p>
+            
+            <p><strong>Respiration de Cheyne-Stokes</strong> <span class="pathology">→ Insuffisance cardiaque, hypertension intracrânienne</span></p>
+            
+            <h2>2. Palpation</h2>
+            
+            <h3>Douleurs à la palpation</h3>
+            <p><strong>Douleur thoracique</strong> <span class="pathology">→ Atteinte musculosquelettique, embolie pulmonaire, crise drépanocytose</span></p>
+            
+            <h3>Emphysème cutané</h3>
+            <p><strong>Peau gonflée qui crépite</strong> <span class="pathology">→ Rupture broncho-pulmonaire (traumatisme, corps étranger, infection)</span></p>
+            
+            <h3>Ganglions <span class="fig-ref" onclick="scrollToFigure('fig5')">(FIG 5)</span>, <span class="fig-ref" onclick="scrollToFigure('fig6')">(FIG 6)</span></h3>
+            <p>Palpation : sus-claviculaires, cervicaux, submandibulaires, submentonniers, occipitaux, auriculaires, parotidiens, axillaires</p>
+            
+            <p><strong>Masse isolée, solide, fixée, indolore</strong> <span class="pathology">→ Tumeur, adénopathie maligne</span></p>
+            
+            <p><strong>Masses multiples/uniques, molles, fluctuantes, douloureuses</strong> <span class="pathology">→ Adénopathie infectieuse/inflammatoire, abcès</span></p>
+            
+            <p><strong>Masse sus-claviculaire</strong> <span class="pathology">→ Adénopathie maligne</span></p>
+            
+            <h3>Ampliation thoracique <span class="fig-ref" onclick="scrollToFigure('fig7')">(FIG 7)</span></h3>
+            <p>Test entre 10e et 12e côte</p>
+<ul>
+                <li>Évaluation amplitude maximale et symétrie</li>
+            </ul>
+            
+            <h3>Transmission vibrations vocales</h3>
+            <p><strong>Transmission diminuée</strong> <span class="pathology">→ Épanchement pleural liquidien/gazeux, consolidation pulmonaire, tumeurs</span></p>
+            
+            <h2>3. Percussion <span class="fig-ref" onclick="scrollToFigure('fig8a')">(FIG 8a)</span>, <span class="fig-ref" onclick="scrollToFigure('fig8b')">(FIG 8b)</span></h2>
+            
+            <h3>Sons de percussion</h3>
+<ul>
+<ul>
+                <li>Sonorité pulmonaire normale</li>
+                <li>Tympanisme</li>
+                <li>Matité</li>
+            </ul>
+            
+</ul>
+            <h3>Pathologies selon percussion</h3>
+            
+            <p><strong>Tympanisme sur plages pulmonaires</strong> <span class="pathology">→ Distension pulmonaire (BPCO, asthme sévère, emphysème, mucoviscidose), pneumothorax</span></p>
+            
+            <p><strong>Matité sur plages pulmonaires</strong> <span class="pathology">→ Épanchement pleural (transsudat: insuffisance cardiaque, hypertension pulmonaire, hypoalbuminémie; exsudat: tumeurs, tuberculose, empyème, embolie pulmonaire, vasculites, pancréatite, hémothorax, chylothorax) ou condensation (pneumonie, tuberculose, abcès, tumeur, atélectasie, fibrose, infarctus pulmonaire)</span></p>
+            
+            <h2>4. Auscultation <span class="fig-ref" onclick="scrollToFigure('fig9')">(FIG 9)</span>, <span class="fig-ref" onclick="scrollToFigure('fig10')">(FIG 10)</span></h2>
+            
+            <h3>Bruits respiratoires normaux</h3>
+<ul>
+<ul>
+                <li><strong>Bruit trachéal</strong> : Sous le larynx, aigu et rauque</li>
+                <li><strong>Bruit trachéobronchique</strong> : Manubrium sternal</li>
+                <li><strong>Bruit bronchovésiculaire</strong> : 1er-2e espace intercostal</li>
+                <li><strong>Murmure vésiculaire</strong> : Plages pulmonaires</li>
+            </ul>
+            
+</ul>
+            <h3>Bruits anormaux <span class="fig-ref" onclick="scrollToFigure('fig11')">(FIG 11)</span></h3>
+            
+            <h4>Murmure vésiculaire modifié</h4>
+            <p><strong>Murmure diminué/absent</strong> <span class="pathology">→ Pneumothorax, épanchement pleural, distension pulmonaire, condensation, syndrome obésité-hypoventilation</span></p>
+            
+            <p><strong>Souffle tubaire</strong> <span class="pathology">→ Condensation pulmonaire</span></p>
+            
+            <p><strong>Expirium prolongé</strong> <span class="pathology">→ Syndrome obstructif</span></p>
+            
+            <h3>Bruits surajoutés <span class="fig-ref" onclick="scrollToFigure('fig12')">(FIG 12)</span></h3>
+            
+            <h4>Râles crépitants fins</h4>
+            <p><strong>Son velcro/pas dans neige (inspiration)</strong> <span class="pathology">→ Pneumonie, fibrose, œdème pulmonaire</span></p>
+            
+            <h4>Râles crépitants grossiers</h4>
+            <p><strong>Bulles dans l'eau (inspiration)</strong> <span class="pathology">→ Bronchite, BPCO, mucoviscidose, bronchectasies</span></p>
+            
+            <h4>Ronchis</h4>
+            <p><strong>Ronflement grave (deux temps)</strong> <span class="pathology">→ Sécrétions bronchiques (bronchite, BPCO, asthme, mucoviscidose, bronchectasies)</span></p>
+            
+            <h4>Sibilances</h4>
+            <p><strong>Sifflement (expiration)</strong> <span class="pathology">→ Obstruction voies aériennes inférieures (bronchite, BPCO, asthme bronchique/cardiaque, mucoviscidose, bronchectasies, corps étranger)</span></p>
+            
+            <h4>Stridor</h4>
+            <p><strong>Sifflement (inspiration)</strong> <span class="pathology">→ Obstruction voies aériennes supérieures (épiglottite, laryngomalacie, diplégie laryngée, faux-croup, corps étranger, sténose trachéale)</span></p>
+            
+            <h4>Frottement pleural</h4>
+            <p><strong>Crissement (tout le cycle)</strong> <span class="pathology">→ Pleurite, embolie pulmonaire</span></p>
+            
+            <h2>Tableau récapitulatif</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pathologie</th>
+                        <th>Forme thoracique</th>
+                        <th>Mouvements thoraciques</th>
+                        <th>Percussion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pneumothorax</td>
+                        <td>Normale</td>
+                        <td>Diminués côté atteint</td>
+                        <td>Tympanique</td>
+                    </tr>
+                    <tr>
+                        <td>Syndrome obstructif</td>
+                        <td>Thorax en tonneau</td>
+                        <td>Diminués bilatéraux</td>
+                        <td>Possiblement tympanique</td>
+                    </tr>
+                    <tr>
+                        <td>Origine cardiaque</td>
+                        <td>Normale</td>
+                        <td>Normaux</td>
+                        <td>Possiblement mate</td>
+                    </tr>
+                    <tr>
+                        <td>Pneumonie</td>
+                        <td>Normale</td>
+                        <td>Possiblement diminués</td>
+                        <td>Mate</td>
+                    </tr>
+                    <tr>
+                        <td>Épanchement pleural</td>
+                        <td>Normale</td>
+                        <td>Diminués côté atteint</td>
+                        <td>Mate</td>
+                    </tr>
+                    <tr>
+                        <td>Obstruction VAS</td>
+                        <td>Normale</td>
+                        <td>Augmentés</td>
+                        <td>Normale</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h2>Signes d'urgence</h2>
+<ul>
+<ul>
+                <li>Détresse respiratoire avec altération état général <span class="badge badge-urgence">URGENCE</span></li>
+                <li>Stridor avec fatigue importante <span class="badge badge-urgence">URGENCE</span></li>
+                <li>Silent chest (absence de bruits) <span class="badge badge-urgence">URGENCE</span></li>
+                <li>Volet costal <span class="badge badge-urgence">URGENCE</span></li>
+                <li>Cyanose centrale <span class="badge badge-urgence">URGENCE</span></li>
+</ul>
+</ul>

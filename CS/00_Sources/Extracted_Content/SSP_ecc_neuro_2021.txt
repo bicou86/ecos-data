@@ -1,0 +1,792 @@
+Neurologie 1
+
+NEUROLOGIE 1
+PERSONNES CONCERNEES
+Responsable du séminaire : Dr N i c o l a s N I C A S T R O , tél. 079 (55) 32
+2 5 4 ; Nicolas.Nicastro@hcuge.ch
+THEME DU SEMINAIRE
+A. Structure et philosophie de l’entretien neurologique.
+B. Systèmes moteur et sensitif (somatosensoriel).
+C. Examen de la nuque et de la colonne vertébrale.
+METHODE D’ENSEIGNEMENT
+
+
+
+
+Session de deux heures.
+Groupes d’environ 8 étudiants par formateur.
+Pratique de l’examen neurologique par les étudiants entre eux.
+
+OBJECTIFS DE LA SESSION
+
+
+
+
+Comprendre le déroulement global de l’entretien neurologique.
+Connaître les symptômes liés aux atteintes des systèmes moteur et sensitif.
+Savoir pratiquer un examen de la motricité et de la sensibilité.
+
+A. Structure et philosophie de l’entretien neurologique
+L’entretien neurologique a pour but de répondre à 4 grandes questions :
+1. Y a-t-il une dysfonction du système nerveux ?
+2. Où se situe cette dysfonction dans le système nerveux ?
+3. Quelle est la cause de cette dysfonction ?
+4. Comment la prendre en charge ?
+Anamnèse
+L’anamnèse neurologique suit les mêmes principes que toute anamnèse médicale :
+ Le patient raconte les symptômes ressentis.
+ L’information est complétée par des questions dirigées pour caractériser les
+dimensions des symptômes et pour rechercher d’autres symptômes
+concomitants.
+ L’anamnèse permet de faire des observations utiles pour l’examen
+neurologique (capacité d’attention, langage et parole, mouvements
+spontanés…).
+ Il est parfois important de compléter l’anamnèse auprès de l’entourage.
+ L’anamnèse neurologique est complétée par les points habituels de
+l’anamnèse médicale.
+Examen clinique
+L’examen neurologique s’adapte aux découvertes faites durant l’anamnèse : un
+
+Unité Neurosciences
+
+ND juin 2021
+
+Neurologie 1
+patient qui se plaint de fourmillements dans une main bénéficiera d’un examen très
+détaillé de la force et de la sensibilité, alors qu’un patient amené par ses proches pour
+des troubles de la mémoire sera principalement testé sur les fonctions cognitives.
+L’examen peut se faire par grands systèmes : fonctions cognitives, fonctions motrices,
+fonctions sensorielles… ; ou par parties du corps : nerfs crâniens, membres
+supérieurs, tronc, membres inférieurs… ; ou encore une combinaison des deux. Il est
+important de développer une routine qui permet de s’habituer à pratiquer les
+manœuvres et en interpréter les trouvailles.
+Le déroulement des CC de neurologie s’adapte à l’acquisition progressive des
+connaissances par les étudiants au cours de l’unité Neurosciences. C’est pourquoi
+l’ordre dans lequel sont enseignées les différentes parties de l’examen neurologique
+est un peu différent du déroulement habituel d’un tel examen :
+1) Systèmes moteur et sensitif.
+2) Examen de la nuque et de la colonne vertébrale.
+3) Fonctions cognitives.
+4) Nerfs crâniens.
+5) Coordination, équilibre et démarche.
+La dernière séance est l’occasion d’entraîner la pratique d’un examen neurologique
+« minimal » de dépistage. L’enseignant peut répartir les différents points à aborder de
+façon différente. L’accent doit être mis sur la pratique des gestes de l’examen clinique.
+
+B. Systèmes moteur et sensitif
+Anamnèse
+Système moteur
+ Faiblesse, fatigabilité, difficultés dans les mouvements fins.
+ Atrophie musculaire ou fasciculations remarquées par le patient.
+Système sensitif
+ Hypoesthésie, anesthésie.
+ Paresthésies, dysesthésies.
+ Douleurs.
+Examen physique
+Système moteur
+ Inspection : trophicité des muscles (atrophie ?), fasciculations ?
+ Palpation : myalgies ?
+ Tonus : (sera revu au CC Neurologie 4)
+o Aux membres supérieurs et inférieurs.
+o Diminué (hypotonie) ? Augmenté (hypertonie) ?
+o Distinguer hypertonie spastique vs rigide.
+ Force :
+o Peut être testée en théorie pour chaque mouvement de chaque
+articulation.
+
+Unité Neurosciences
+
+ND juin 2021
+
+Neurologie 1
+
+
+
+
+
+o Chaque mouvement teste préférentiellement un muscle (ou quelquesuns), innervé par une (ou quelques) racine spinale (concept de
+myotome) et un nerf périphérique (concept de territoire d’innervation).
+o Contrebalancer la force du patient en utilisant un groupe musculaire de
+force équivalente ou similaire.
+o Comparer avec le côté controlatéral, proximal vs. distal.
+o Cotation de la force (échelle « Medical Research Council ») :
+0. Aucune contraction musculaire visible.
+1. Contraction musculaire visible, mais aucun mouvement.
+2. Mouvement possible une fois la gravité éliminée (p.ex. dans
+le plan du lit).
+3. Mouvement contre gravité possible, mais pas contre
+résistance.
+4. Mouvement contre résistance possible, mais pas assez de
+force pour considérer comme normal.
+5. Force normale.
+o Savoir tester au moins :
+ Membres supérieurs : abduction de l’épaule, flexion et extension
+du coude, flexion dorsale du poignet, extension et abduction des
+doigts.
+ Membres inférieurs : flexion et abduction de la hanche, flexion et
+extension du genou, flexion dorsale et plantaire de la cheville,
+inversion et éversion du pied, flexion dorsale et plantaire de
+l’hallux.
+o Tests globaux de la force :
+ Membres supérieurs : épreuve des bras tendus, « arm-roll test ».
+ Membres inférieurs : épreuve de Mingazzini, épreuve de Barré.
+Réflexes ostéo-tendineux (ROTs) :
+o Peuvent être recherchés en théorie pour chaque tendon.
+o Manœuvres de renforcement : Jendrassik (pour les ROTs des
+membres inférieurs), serrer les dents (pour les ROTs des membres
+supérieurs).
+o Comparer avec le côté controlatéral.
+o Cotation :
+0. Réflexe absent.
+1. Réflexe faible (ou obtenu uniquement avec renforcement).
+2. Réflexe normal.
+3. Réflexe vif.
+4. Réflexe hypervif (y compris clonus).
+o En cas d’hyperréflexie : rechercher une extension de la zone
+réflexogène, une diffusion.
+o Savoir tester au moins :
+ Membres supérieurs : bicipital, tricipital, stylo-radial (ou
+brachioradial).
+ Membres inférieurs : rotulien, achilléen.
+o Signe de Hoffmann : exagération du ROT fléchisseur des doigts.
+Réflexes cutanés :
+o Réflexe cutané plantaire : signe de Babinski ?
+o Réflexes cutanés abdominaux.
+
+Unité Neurosciences
+
+ND juin 2021
+
+Neurologie 1
+En fonction des trouvailles de l’examen du système moteur, il faut distinguer :
+ Une atteinte centrale (syndrome pyramidal) d’une atteinte périphérique.
+ En fonction de la distribution de la parésie : localisation de la lésion dans le
+système nerveux central (hémisphères, tronc cérébral, moelle épinière) ou
+périphérique (racine spinale, nerf périphérique, jonction nerf-muscle ou
+muscle).
+Système sensitif
+De préférence, tester
+ Sensibilité tactile superficielle :
+o Toucher léger (p.ex. avec les extrémités des doigts).
+o Comparer avec le côté controlatéral, proximal vs. distal.
+o Avoir en tête la distribution des dermatomes et des territoires
+d’innervation des nerfs périphériques pour guider l’examen.
+ Sensibilité thermo-algique :
+o Sensibilité à la piqûre (p.ex. avec un abaisse-langue ou un coton-tige
+qu’on casse).
+o Sensibilité à la douleur profonde (p.ex. pincer le lit de l’ongle ou le
+tendon achilléen) : utile pour estimer l’état de vigilance.
+o Sensibilité au chaud (p.ex. remplir un tube d’examen avec de l’eau
+chaude, mais pas brûlante) et au froid (p.ex. tube d’examen rempli
+d’eau froide, ou instruments d’examen en métal).
+ Sensibilité profonde :
+o Sens des positions :
+ Détection de mouvements passifs du pouce / du gros orteil.
+ Recherche du pouce.
+o Sensibilité vibratoire (pallesthésie) :
+ Avec le diapason orthopédique.
+ Comparer avec le côté controlatéral, proximal vs. distal,
+membres inférieurs vs. supérieurs.
+ Sensibilité discriminative : (sera revue en partie au CC Neurologie 2)
+o Discrimination de deux stimuli tactiles rapprochés (« two-point
+discrimination »).
+o Discrimination de formes, de textures.
+o Topesthésie (capacité de localiser un stimulus tactile sur le corps).
+o Stéréognosie (capacité de reconnaître un objet par le toucher ; utiliser
+p.ex. un trombone à papier et une épingle à nourrice).
+o Graphesthésie (capacité de reconnaître des chiffres et des lettres
+tracés sur la pulpe des doigts).
+
+C. Examen de la nuque et de la colonne vertébrale
+Nuque et signes méningés
+ Raideur de nuque ?
+ Signes de Kernig et de Brudzinski.
+Colonne vertébrale
+ Inspection : déformation, scoliose, hyperlordose, hypercyphose ?
+ Mobilité : manœuvre de Schober, distance doigts-sol.
+
+Unité Neurosciences
+
+ND juin 2021
+
+Neurologie 1
+
+
+Manœuvre de Lasègue : recherche d’une reproduction de la douleur
+radiculaire à l’élévation passive du membre impliqué (plus sensible) ou du
+membre controlatéral (plus spécifique).
+
+LECTURES OBLIGATOIRES
+
+
+
+
+L. S. Bickley. Bates’ Guide to Physical Examination and History Taking. 12th
+ed. Philadelphia: Wolters Kluwer; 2017. Chap. 17: The nervous system, pp.
+711-796.
+M. H. Swartz. Textbook of Physical Diagnosis. History and Examination. 7 th
+ed. Philadelphia: Elsevier; 2017. Chap. 18: The nervous system, pp. 583-636.
+Sous l'égide du comité directeur de la revue de neurologie Brain. Aide à
+l'examen du système nerveux périphérique. Issy-les-Moulineaux : Elsevier
+Masson ; 2008.
+De belles illustrations du testing de la force et des territoires sensitifs cutanés,
+et des tableaux utiles des myotomes et nerfs responsables des mouvements
+les plus souvent testés.
+
+POUR EN SAVOIR PLUS
+
+
+
+J. M. Orient. Sapira’s Art and Science of Bedside Diagnosis. 5th ed.
+Philadelphia: Wolters Kluwer; 2019. Chap. 26: The neurologic examination,
+pp. 582-681.
+W. W. Campbell, R. J. Barohn. DeJong’s The Neurologic Examination. 8th ed.
+Philadelphia: Wolters Kluwer; 2020.
+La « bible » de la sémiologie neurologique.
+
+Unité Neurosciences
+
+ND juin 2021
+
+Neurologie 2
+
+NEUROLOGIE 2
+PERSONNES CONCERNEES
+Responsable du séminaire : Dr Pierre MÉGEVAND, tél. 079 (55) 35 133 ;
+pierre.megevand@hcuge.ch.
+THEME DU SEMINAIRE
+
+
+Les fonctions cognitives.
+
+METHODE D’ENSEIGNEMENT
+
+
+
+
+Session de deux heures.
+Groupes d’environ 8 étudiants par formateur.
+Pratique de l’examen neurologique par les étudiants entre eux.
+
+OBJECTIFS DE LA SESSION
+
+
+
+Connaître les symptômes liés aux atteintes des fonctions cognitives.
+Savoir tester les fonctions cognitives au lit du malade.
+
+Anamnèse
+L’anamnèse recherche des difficultés avec les fonctions suivantes :
+ Attention et concentration
+ Langage (parlé et écrit)
+ Mémoire (oublis d’informations récentes ? rendez-vous manqués ? achats
+oubliés ou faits à double ? suivi de l’actualité régionale et mondiale ?)
+ Calcul
+ Habillage
+ Modifications du caractère et du comportement (irritabilité ? changement dans
+les intérêts ou les loisirs ?)
+Il est utile d’interroger le patient sur son autonomie dans les activités instrumentales
+de la vie quotidienne :
+ Déplacements quotidiens.
+ Achats des provisions et préparation des repas.
+ Ménage et lessive.
+ Communications.
+ Gestion administrative du ménage.
+ Gestion des médicaments.
+Il est aussi important d’évaluer la présence de symptômes anxieux ou dépressifs
+concomitants (p.ex. à l’aide d’un questionnaire de dépistage).
+Il peut être crucial de compléter l’anamnèse avec les proches aidants, car le patient
+peut ne pas être conscient de l’étendue de ses difficultés cognitives.
+Examen clinique
+
+Unité Neurosciences
+
+PM Oct 2020
+
+Neurologie 2
+
+Latéralité (gauchère ou droitière)
+Attention et concentration
+ L’attention est déjà évaluée durant l’anamnèse : le patient est-il capable de
+soutenir la conversation ?
+ Empan numérique à l’endroit (au moins 5 chiffres) et à l’envers (au moins 3
+chiffres).
+ Attention soutenue : « A-test ».
+ Soustractions de 7 en série : « 100 – 93 – 86 – 79 – 72 – 65 ».
+ Epellation de mots à l’envers.
+Orientation spatiale et temporelle
+Fonctions exécutives
+ Raisonnement abstrait :
+o Conceptualisation (similitudes entre objets).
+o Histoires absurdes.
+ Flexibilité mentale : fluence verbale grapho-phonémique.
+ Sensibilité aux interférences et inhibition des réponses automatiques :
+o Consignes contradictoires.
+o « Go-no go ».
+ Programmation et exécution de séquences motrices :
+o Séquence de Luria.
+o Frises de Luria.
+ Dépendance à l’environnement : comportement d’utilisation, grasping.
+ Réflexes archaïques :
+o Grasping.
+o Naso-palpébral.
+o Palmo-mentonnier.
+o Moue.
+o Succion.
+Langage
+ Expression orale :
+o Fluidité de l’expression spontanée.
+o Dénomination d’objets.
+o Présence de paraphasies (« mots pour d’autres ») sémantiques (« table
+pour chaise ») ou phonémiques (« tare pour barre »).
+ Compréhension orale :
+o Adéquation des réponses aux questions posées.
+o Exécution de consignes motrices simples (« Tirez la langue ») ou
+complexes (avec 3 étapes).
+ Lecture :
+o Lecture à voix haute.
+o Exécution de consignes motrices écrites (« Fermez les yeux »).
+o Résumé d’un bref texte écrit.
+ Ecriture : faire écrire une phrase complète (avec sujet, verbe et objet).
+
+Unité Neurosciences
+
+PM Oct 2020
+
+Neurologie 2
+Praxies
+ Imitation de gestes sans signification.
+ Pantomime d’utilisation d’objets.
+ Praxies constructives : dessin de figures géométriques, copie du cube de
+Necker.
+ Praxies d’habillage.
+Gnosies et capacités visuo-spatiales
+ Gnosies visuelles : reconnaissance des objets par la vision.
+ Gnosies tactiles :
+o Stéréognosie : reconnaissance des objets par le toucher.
+o Graphesthésie : reconnaissance de chiffres ou lettres tracés sur la
+peau.
+ Capacités visuo-spatiales : rechercher une héminégligence…
+o Détection de cibles.
+o Bissection de lignes.
+o Extinction visuelle ou tactile.
+Mémoire
+ Mémoire de travail : testée avec l’empan numérique.
+ Mémoire déclarative verbale : encodage et restitution d’une liste de mots.
+ Mémoire déclarative visuo-spatiale :
+o Test des 3 objets.
+o Copie d’un dessin de mémoire.
+ Mémoire déclarative autobiographique : testée avec l’aide des proches
+aidants.
+ Mémoire déclarative sémantique : connaissances générales (p.ex. « Quelle
+est la capitale de l’Italie ? »).
+
+LECTURES OBLIGATOIRES
+
+
+
+L. S. Bickley. Bates’ Guide to Physical Examination and History Taking. 12th
+ed. Philadelphia: Wolters Kluwer; 2017. Chap. 5: Behavior and mental status,
+pp. 147-171.
+M. H. Swartz. Textbook of Physical Diagnosis. History and Examination. 7 th
+ed. Philadelphia: Elsevier; 2017. Chap. 18: The nervous system, pp. 583-636.
+
+POUR EN SAVOIR PLUS
+
+
+J. M. Orient. Sapira’s Art and Science of Bedside Diagnosis. 5th ed.
+Philadelphia: Wolters Kluwer; 2019. Chap. 26: The neurologic examination,
+pp. 582-681.
+ W. W. Campbell, R. J. Barohn. DeJong’s The Neurologic Examination. 8th ed.
+Philadelphia: Wolters Kluwer; 2020.
+La « bible » de la sémiologie neurologique.
+ A. Schnider. Neurologie du comportement. La dimension neurologique de la
+neuropsychologie. Issy-les-Moulineaux : Masson ; 2008.
+
+Unité Neurosciences
+
+PM Oct 2020
+
+Neurologie 3
+
+NEUROLOGIE 3
+PERSONNES CONCERNEES
+Responsable du séminaire : Dr Pierre MÉGEVAND, tél. 079 (55) 35 133 ;
+pierre.megevand@hcuge.ch.
+THEME DU SEMINAIRE
+
+
+Nerfs crâniens.
+
+METHODE D’ENSEIGNEMENT
+
+
+
+
+Session de deux heures.
+Groupes d’environ 8 étudiants par formateur.
+Pratique de l’examen neurologique par les étudiants entre eux.
+
+OBJECTIFS DE LA SESSION
+
+
+
+Connaître les symptômes liés aux atteintes des nerfs crâniens.
+Savoir examiner les nerfs crâniens.
+
+Anamnèse
+
+
+
+I:
+II :
+
+
+
+III, IV, VI :
+
+
+
+V:
+
+
+
+VII :
+
+
+
+VIII :
+
+
+
+
+
+IX, X :
+XI :
+XII :
+
+Hyposmie, anosmie, dysosmies.
+Baisse d’acuité visuelle.
+Désaturation des couleurs.
+Scotome.
+Amaurose fugace.
+Amputation du champ visuel.
+Douleur aux mouvements oculaires.
+Diplopie, vision trouble.
+Ptose palpébrale, asymétrie des fentes palpébrales.
+Hypoesthésie, paresthésies, dysesthésies.
+Faiblesse de la mastication.
+Douleurs de la face (névralgie du trijumeau).
+Asymétrie de la face, sialorrhée.
+Hypogueusie, agueusie, dysgueusie.
+Hypoacousie, surdité.
+Acouphènes.
+Vertige.
+Dysarthrie, dysphonie, dysphagie (fausses routes ?).
+Faiblesse de l’élévation de l’épaule.
+Atrophie et diminution de la mobilité de la langue.
+
+Examen physique
+ I:
+
+Substances odorantes (éviter les irritants, le menthol). Tester
+chaque narine séparément.
+
+Unité Neurosciences
+
+PM Oct 2020
+
+Neurologie 3
+ II :
+
+ III, IV, VI :
+
+ V:
+
+ VII :
+
+ VIII :
+
+ IX, X :
+
+ XI :
+
+Acuité visuelle (avec les lunettes) : lecture à 30 cm. Tester
+chaque œil séparément.
+Réflexe pupillaire : direct et consensuel et à la convergence.
+Déficit pupillaire afférent relatif (RAPD).
+Champ visuel par confrontation : tester chaque œil séparément.
+Examen du fond d’œil avec l’ophtalmoscope direct.
+Position des yeux (déviation du regard ?). Parallélisme des axes
+visuels (strabisme ?).
+Motricité dans les 4 directions cardinales (diplopie, nystagmus ?).
+Nystagmus optocinétique.
+Ptose palpébrale, asymétrie des fentes palpébrales.
+Test de Simpson : maintien prolongé de l’ouverture des yeux et
+du regard vers le haut (myasthénie ?)
+Sensibilité tactile superficielle et thermo-algique des 3 territoires.
+Force des masticateurs : serrer les dents (palper les muscles de
+la mastication), mordre sur un abaisse-langue. Mouvements
+latéraux de la mâchoire. Asymétrie de l’ouverture de la bouche
+(signe d’atteinte unilatérale) ?
+Réflexe cornéen : direct et consensuel.
+Réflexe massétérin (un réflexe ostéo-tendineux).
+Mimique faciale spontanée (symétrie des commissures labiales,
+plis nasogéniens, plis du front).
+Fermeture forcée des yeux : observation du phénomène de Bell,
+recherche du signe des cils de Souques.
+Plisser le front.
+Gonfler les joues.
+Grimace montrant les dents : rechercher la contraction du
+platysma.
+Différencier une paralysie faciale périphérique d’une atteinte
+centrale : motricité faciale volontaire (sur consigne) vs.
+automatique (spontanée) ; moitié supérieure vs. moitié inférieure
+de la face.
+Penser à examiner le conduit auditif externe en cas de paralysie
+faciale périphérique (syndrome de Ramsay-Hunt).
+Le goût ne se teste pas de routine.
+Voix chuchotée (tester chaque oreille en masquant l’autre), voix
+haute si échec.
+Epreuves de Rinne et Weber.
+Nystagmus spontané (lunettes de Frenzel : permettent d’inhiber
+la fixation et faire apparaître un nystagmus vestibulaire).
+Manœuvre de Hallpike (vertige paroxystique positionnel bénin ?).
+Marche à l’aveugle, épreuve d’Unterberger (déviation ?).
+Phonation (voix bitonale ? voix nasonnée ? aphonie ?).
+Déglutition.
+Voile du palais, au repos et à la phonation (signe du rideau).
+Réflexe nauséeux.
+Faiblesse de l’élévation de l’épaule (partie supérieure du
+trapèze) et de la rotation de la tête (sterno-cléido-mastoïdien).
+La flexion de la nuque contre résistance teste les deux sternocléido-mastoïdiens en même temps.
+
+Unité Neurosciences
+
+PM Oct 2020
+
+Neurologie 3
+ XII :
+
+Trophicité de la langue (atrophie ? fasciculations ?).
+Protrusion de la langue, mouvements latéraux.
+
+LECTURES OBLIGATOIRES
+
+
+
+L. S. Bickley. Bates’ Guide to Physical Examination and History Taking. 12th
+ed. Philadelphia: Wolters Kluwer; 2017. Chap. 17: The nervous system, pp.
+711-796.
+M. H. Swartz. Textbook of Physical Diagnosis. History and Examination. 7th
+ed. Philadelphia: Elsevier; 2017. Chap. 18: The nervous system, pp. 583-636.
+
+POUR EN SAVOIR PLUS
+
+
+J. M. Orient. Sapira’s Art and Science of Bedside Diagnosis. 5th ed.
+Philadelphia: Wolters Kluwer; 2019. Chap. 26: The neurologic examination,
+pp. 582-681.
+ W. W. Campbell, R. J. Barohn. DeJong’s The Neurologic Examination. 8th ed.
+Philadelphia: Wolters Kluwer; 2020.
+La « bible » de la sémiologie neurologique.
+
+Unité Neurosciences
+
+PM Oct 2020
+
+Neurologie 4
+
+NEUROLOGIE 4
+PERSONNES CONCERNEES
+Responsable du séminaire : Dr Pierre MÉGEVAND, tél. 079 (55) 35 133 ;
+pierre.megevand@hcuge.ch.
+THEME DU SEMINAIRE
+A. La coordination, l’équilibre et la marche.
+B. Examen neurologique de dépistage.
+METHODE D’ENSEIGNEMENT
+
+
+
+
+Session de deux heures.
+Groupes d’environ 8 étudiants par formateur.
+Pratique de l’examen neurologique par les étudiants entre eux.
+
+OBJECTIFS DE LA SESSION
+
+
+
+
+Connaître les symptômes liés aux troubles de la coordination, de l’équilibre et
+de la marche.
+Savoir examiner la coordination, l’équilibre et la marche.
+Savoir pratiquer un examen neurologique de dépistage.
+
+A. La coordination, l’équilibre et la marche
+Anamnèse
+
+
+
+
+
+Symptômes liés à une dysfonction cérébelleuse : dysarthrie, troubles de la
+déglutition, vertiges, maladresse, troubles de l’équilibre et de la marche.
+Symptômes liés à une dysfonction des ganglions de la base : lenteur et rareté
+des mouvements, tremblement, autres mouvements involontaires remarqués
+par le patient, lenteur de la marche.
+Troubles de l’équilibre : sensation d’instabilité (parfois décrite comme un
+vertige), chutes ?
+Troubles de la marche : boiterie ? lenteur ? douleur ? (claudication neurogène)
+
+Examen physique
+Nerfs crâniens
+ Motricité oculaire : nystagmus ? skew deviation ?
+ Réflexe nasopalpébral : inépuisable ?
+ Mimique et motricité faciale : rareté du clignement ? expression figée ?
+ Articulation : répéter rapidement des syllabes sans signification (p.ex. « pa-taka »).
+Membres
+ Observation : tremblement ? mouvements involontaires ou postures
+anormales ? (chorée, dystonie)
+
+Unité Neurosciences
+
+PM Oct 2020
+
+Neurologie 4
+
+
+
+
+
+
+
+Tonus : hypotonie ? manœuvre de Stewart-Holmes. Hypertonie rigide ?
+manœuvre de Froment.
+Réflexes ostéo-tendineux : réflexe rotulien pendulaire ? (hypotonie)
+Diadococinésie (mouvements rapides alternés) : marionnettes, ouverture et
+fermeture rapide du poing, tapotement alterné du pouce contre l’index.
+Capacité à battre la mesure en rythme.
+Epreuve doigt-nez (et doigt-nez-doigt) : dysmétrie ? tremblement d’intention ?
+Epreuve talon-genou : dysmétrie ? tremblement d’intention ?
+
+Equilibre et démarche
+ Station debout : anomalie de la posture ? Elargissement du polygone de
+sustentation ?
+ Station debout pieds joints, position en tandem : maintien de l’équilibre ?
+ Accroupissement : les talons doivent normalement décoller du sol.
+ Marche : boiterie ? vitesse ? ballant des bras ? demi-tour (décomposé) ?
+ Marche sur les talons et les pointes des pieds, appui et sautillement sur un
+pied : bons tests globaux de la force des membres inférieurs et de l’équilibre.
+ Marche du funambule.
+Manœuvres liées à l’équilibre et à la marche
+ Manœuvre de Romberg : augmentation de l’instabilité à la fermeture des
+yeux ? (teste les fonctions proprioceptive et vestibulaire)
+ Manœuvre d’Unterberger (et marche à l’aveugle) : déviation ? (teste la
+fonction vestibulaire)
+B. Examen neurologique de dépistage
+Un examen neurologique de dépistage (screening) est présenté ci-dessous. Il s’agit
+du « minimum vital » à faire chez un patient chez qui l’anamnèse n’a pas relevé de
+symptômes neurologiques.
+Niveau de vigilance
+Fonctions cognitives
+ Capacité d’attention, orientation spatiale et temporelle.
+ Langage : compréhension et expression orales (durant l’anamnèse),
+dénomination.
+ Fonctions visuo-spatiales : négligence.
+ Mémoire.
+Nerfs crâniens
+ II :
+
+
+III, IV, VI :
+
+
+
+
+VII :
+IX, X :
+
+Champ visuel par confrontation.
+Fond d'œil.
+Motricité oculaire, nystagmus.
+Fentes palpébrales.
+Pupilles : forme et symétrie.
+Réflexe pupillaire à la lumière.
+Mimique et motricité faciale.
+Voile du palais, au repos et à la phonation.
+
+Unité Neurosciences
+
+PM Oct 2020
+
+Neurologie 4
+
+
+
+XII :
+
+Articulation, phonation (testées durant l’anamnèse).
+Langue, au repos et à la protrusion.
+
+Nuque
+ Signes méningés.
+Membres supérieurs
+ Inspection.
+ Tonus.
+ Force. Epreuve des bras tendus.
+ Réflexes ostéo-tendineux : bicipital, tricipital, stylo-radial.
+ Diadococinésie.
+ Sensibilité tactile superficielle.
+ Epreuve doigt-nez.
+Tronc
+ Sensibilité tactile superficielle : niveau sensitif ?
+Membres inférieurs
+ Inspection.
+ Tonus.
+ Force. Epreuve de Mingazzini.
+ Réflexes ostéo-tendineux : rotulien, achilléen.
+ Réflexe cutané plantaire.
+ Sensibilité tactile superficielle.
+ Pallesthésie aux extrémités inférieures.
+ Epreuve talon-genou.
+Equilibre et démarche
+ Station debout, pieds joints, yeux ouverts puis fermés (épreuve de Romberg).
+ Marche (symétrie des pas, ballant des bras, demi-tour).
+ Marche sur les pointes des pieds et les talons, appui et sautillement sur un
+pied.
+ Position du tandem, marche du funambule.
+
+LECTURES OBLIGATOIRES
+
+
+
+L. S. Bickley. Bates’ Guide to Physical Examination and History Taking. 12th
+ed. Philadelphia: Wolters Kluwer; 2017. Chap. 17: The nervous system, pp.
+711-796.
+M. H. Swartz. Textbook of Physical Diagnosis. History and Examination. 7th
+ed. Philadelphia: Elsevier; 2017. Chap. 18: The nervous system, pp. 583-636.
+
+POUR EN SAVOIR PLUS
+
+
+J. M. Orient. Sapira’s Art and Science of Bedside Diagnosis. 5th ed.
+Philadelphia: Wolters Kluwer; 2019. Chap. 26: The neurologic examination,
+pp. 582-681.
+
+Unité Neurosciences
+
+PM Oct 2020
+
+Neurologie 4
+
+
+W. W. Campbell, R. J. Barohn. DeJong’s The Neurologic Examination. 8th ed.
+Philadelphia: Wolters Kluwer; 2020.
+La « bible » de la sémiologie neurologique.
+
+Unité Neurosciences
+
+PM Oct 2020
+
+

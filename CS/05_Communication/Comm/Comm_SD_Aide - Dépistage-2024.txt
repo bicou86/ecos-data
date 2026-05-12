@@ -1,0 +1,1265 @@
+RECOMMANDATIONS
+EVIPREV 2024
+18
+
+Cliquez pour plus d’informations
+
+Bénéfice
+
+important
+
+élevée
+
+modéré - important
+
+moyenne
+
+faible
+
+Importance / force
+de la recommandation
+
+faible
+
+Recommandations vaccinales OFSP
+25
+
+30
+
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+ans
+
+Tabac
+
+Conseils
+
+Alcool
+Drogues illégales
+Activité physique
+
+≥ 1FRCV (IMC ≥ 25 kg/m2, dyslipidémie, HTA, diabète), recommandé de façon individualisée pour population générale
+
+Alimentation
+
+≥ 1FRCV (IMC ≥ 25 kg/m2, dyslipidémie, HTA, diabète), recommandé de façon individualisée pour population générale
+
+Comportement sexuel
+
+Population à risque 1
+
+Exposition solaire
+
+Si peau claire
+
+Cancers
+
+Col de l’utérus
+
+Recommandé de façon individualisée pour population générale
+
+1x / 3 ans (examen cytologique) 1x / 3 ans (examen cytologique ou test HPV)
+
+Côlon et rectum
+
+1x / 2 ans (FIT) ou 1x / 10 ans (coloscopie) 2,3
+
+Sein
+
+1x / 2 ans (mammographie) seulement après partage décision 2,3
+
+Prostate
+
+1x / 1-2 ans (PSA) seulement après partage décision 2
+
+Poumon
+
+1x / 1-2, 5 ans, ≥15 UPA / stop <10 ans (CT low dose) seulement après partage décision 2
+
+Hypertension artérielle
+
+1x / 3 ans si pas d’autre FRCV
+
+C.V.
+
+Surpoids
+
+1x / an
+
+1x / 3 ans
+
+Dyslipidémie
+
+1x / 2-5 ans selon évaluation du risque (score GSLA) 3
+
+Diabète
+
+Si BMI≥25 kg/m
+
+2
+
+1x / 1-3 ans selon FR de diabète 3
+
+Infections
+
+Anévrisme de l’aorte abdominale
+
+Autres
+
+Dépistages
+
+Dès 65 ans : si risque de chute
+
+H fumeur/ex-fumeur, 1x (ultrason)
+
+VIH
+
+Selon facteurs de risque 1
+
+Syphilis
+
+Selon facteurs de risque 1
+
+Chlamydia et gonorrhée
+
+Selon facteurs de risque 1
+
+Hépatites B et C
+
+Selon facteurs de risque 1
+
+Dès 65 ans, selon FR
+
+Dépression
+Violence domestique
+
+F en âge de procréer
+
+Ostéoporose
+
+F selon FRAX (ostéodensitométrie)
+
+Vaccination
+
+Vérification statut vaccinal selon le plan de vaccination OFSP
+18
+
+25
+
+30
+
+F dès 65 ans, selon FR 1
+
+Plan de vaccination suisse (admin.ch)
+
+35
+
+40
+
+45
+
+50
+
+55
+
+60
+
+65
+
+70
+
+Interventions pour lesquelles les données sont insuffisantes pour les recommander chez les personnes asymptomatiques
+
+Interventions non recommandées chez les personnes asymptomatiques
+
+- Dépistages cancers : peau, bouche, vessie.
+- Dépistages CV: fibrillation auriculaire dès 50 ans, artériopathie périphérique par index pression systolique (ABI), maladie cardiovasculaire par ABI/ hsCRP/
+score calcique coronaire, maladie coronarienne (ECG/ test effort) lors de risque CV intermédiaire ou élevé, anévrisme aorte abdominale chez F fumeuses ou
+ex-fumeuses de 65 à 75 ans.
+- Autres dépistages : dysfonction thyroïdienne, apnée du sommeil, maladie cœliaque, carence en vitamine D, troubles du comportement alimentaire, glaucome
+dès 40 ans, troubles acuité visuelle dès 65 ans, troubles auditifs dès 50 ans, troubles cognitifs dès 65 ans.
+
+- Dépistages cancers : thyroïde, pancréas, ovaire, testicule.
+- Dépistages CV : maladie coronarienne (ECG/test effort) lors de faible risque CV,
+sténose artères carotidiennes (ultrason).
+- Autres dépistages : BPCO (spirométrie), bactériurie (H et F non enceinte).
+
+ABI : ankle-brachial index
+BPCO : bronchopneumopathie chronique obstructive
+CT : computed tomography ( tomodensitométrie)
+ECG : électrocardiogramme
+F : femme
+FIT : fecal immunochemical test
+
+Les policliniques universitaires et instituts de médecine de famille suivants ont
+participé à l’élaboration de ces recommandations :
+Lausanne, Genève, Berne, Zürich et Bâle.
+
+FR : facteurs de risque
+FRAX : outil d’évaluation des risques de fractures
+FRCV : facteurs de risque cardio-vasculaire
+GSLA : groupe de travail lipides et athérosclérose
+H : homme
+hsCRP : protéine C réactive haute sensibilité
+
+Les populations à risque sont définies dans le texte «Annexe tableau EviPrev»
+Aides à la décision Recommandations EviPrev et Aides à la Décision | PEPra
+3
+Dépistage plus précoce en cas de facteurs de risque
+1
+
+2
+
+IMC : indice de masse corporelle [kg/m²]
+OFSP : office fédéral de la santé publique
+PSA : antigène spécifique de la prostate
+UPA : unité paquet année
+VIH : virus de l’immunodéficience humaine
+
+Les recommandations EviPrev sont soutenues par:
+
+ans
+
+Recommandations EviPrev 2024
+
+Le tableau EviPrev et les informations sur les différentes interventions ont été actualisés et
+complétés dans le cadre du Projet PEPra. www.pepra.ch
+Mise à jour 2024
+
+Annexe tableau « Recommandations EviPrev 2024 »
+Introduction (1, 2)
+Les recommandations EviPrev résumées dans le tableau concernent les conseils, dépistages et vaccins
+qui devraient être proposés aux patients, selon leur âge et leurs facteurs de risque. Elles se basent sur
+les recommandations de l’« US Preventive Services Task Force » (USPSTF) et d’institutions suisses,
+telles que la Ligue contre le cancer, les sociétés de spécialités médicales et le Groupe de travail Lipides
+et Athérosclérose (GSLA). Les recommandations vaccinales se basent sur celles de l’Office fédéral de
+la santé publique (OFSP).
+Les dépistages visent à identifier chez une personne asymptomatique une maladie à un stade précoce
+permettant une diminution de la mortalité ou une amélioration de la qualité de vie. Mais tout
+dépistage comporte également des risques liés à la méthode de dépistage (exposition aux radiations
+ionisantes, examen invasif tel que la coloscopie), aux examens complémentaires plus invasifs (ponction
+biopsie), ainsi que celui de détecter et traiter des cancers qui n’auraient pas menacé la vie du patient
+(sur-diagnostic et sur-traitement).
+Les interventions pour lesquelles les données sont insuffisantes pour les recommander sont
+mentionnées dans la case grisée sous le tableau.
+Les dépistages que la littérature scientifique recommande de ne pas faire chez les patients
+asymptomatiques en raison de l’absence de bénéfices sont listés dans la case rouge en bas du tableau.
+Les chimioprophylaxies telles que l’aspirine en prévention cardiovasculaire ou l’apport en vitamine D
+ne sont pas mentionnées dans le tableau.
+Les recommandations EviPrev s’adressent à la population adulte âgés de 18 à 75 ans. Certains conseils,
+dépistages et vaccins peuvent être poursuivis chez les patients de plus de 75 ans. Les recommandations
+spécifiques adressées aux femmes enceintes ou à un groupe de population très ciblé ne sont pas
+mentionnées dans le tableau.
+
+1
+
+Recommandations EviPrev 2024
+Le tableau des recommandations EviPrev 2023 résulte d’un consensus du comité scientifique EviPrev.
+Lorsqu’il existe différents grades de recommandation selon la population cible pour un item donné,
+c’est la recommandation la plus forte qui apparaît dans le tableau.
+Les définitions des différents degrés de recommandation (grades A, B, C) mentionnés dans le texte
+sont basées sur celles de l’USPSTF et sont les suivantes :
+- Grade A : bénéfice important avec preuves de bon niveau
+- Grade B : bénéfice modéré avec preuves de bon niveau ou bénéfice important avec preuves
+de niveau modéré
+- Grade C : bénéfice faible avec preuves satisfaisantes permettant une approche individualisée
+
+Conseils
+Tabac (3, 4)
+Il est recommandé de questionner activement tous les patients sur leur consommation de tabac et de
+soutenir ceux souhaitant arrêter de fumer (grade A).
+Les interventions suivantes sont recommandées :
+- identifier et documenter l’évolution du statut tabagique
+- recommander l’arrêt à tous les fumeurs
+- soutenir tout fumeur prêt à cesser de fumer
+- prescrire un traitement pharmacologique d’aide à l’arrêt du tabac aux fumeurs prêts à cesser
+de fumer : substituts nicotiniques, varénicline (non disponible en 2023) ou bupropion
+- utiliser l’approche motivationnelle auprès des fumeurs qui ne sont pas prêts à cesser de fumer,
+leur proposer une phase de réduction de la consommation soutenue par des substituts
+nicotiniques en visant un arrêt complet dans un deuxième temps
+- selon le contexte, la demande du patient, évoquer la probable efficacité de la vaporette pour
+l’arrêt du tabac, tout en précisant l’absence de données quant aux risques à moyen et à long
+terme
+- assurer un suivi
+Ressources utiles aux cliniciens : www.pepra.ch/fr/tabac
+Alcool (5-7)
+Le dépistage d’une consommation d’alcool à risque est recommandé ainsi qu’une intervention brève
+en cas de consommation à risque (grade B).
+L’AUDIT-C peut être utilisé pour identifier une consommation d’alcool à risque avec les 3 questions
+suivantes:
+- A quelle fréquence vous arrive-t-il de consommer des boissons contenant de l’alcool ?
+- Combien de verres standards buvez-vous au cours d’une journée ordinaire où vous buvez de
+l’alcool ?
+- Au cours d’une même occasion, à quelle fréquence vous arrive-t-il de boire six verres standards
+ou plus ?
+Une consommation d’alcool à risque chronique est définie selon les normes suivantes :
+- pour les femmes de tout âge et les hommes > 65 ans : > 7 boissons alcoolisées standard par
+semaine
+2
+
+Recommandations EviPrev 2024
+-
+
+pour les hommes < 65 ans : > 14 boissons alcoolisées standard par semaine
+
+Une consommation d’alcool à risque aiguë est définie selon les normes suivantes :
+- pour les femmes de tout âge et les hommes > 65 ans : > 3 boissons alcoolisées standard par
+occasion
+- pour les hommes < 65 ans : > 4 boissons alcoolisées standard par occasion
+Il est également recommandé de ne pas boire d’alcool pendant plusieurs jours par semaine.
+L’intervention brève consiste à :
+-
+
+aborder la question de la consommation d’alcool
+évaluer la consommation
+informer et conseiller le patient
+évaluer la motivation au changement de comportement
+motiver et soutenir le changement du comportement
+
+Ressources utiles aux cliniciens : www.pepra.ch/fr/alcool
+Drogues illégales (8)
+L'USPSTF recommande de dépister la consommation de drogues illégales en interrogeant les adultes
+âgés de 18 ans ou plus. Ce dépistage devrait être effectué dans un cadre de soins avec des possibilités
+de prise en charge efficace (grade B).
+Ressources utiles aux cliniciens: www.pepra.ch/fr/consommation-drogue
+
+Activité physique (9-12)
+Il est recommandé de conseiller les adultes d’une part en surpoids ou obèses et d’autre part ayant un
+autre facteur de risque cardiovasculaire (hypertension artérielle, dyslipidémie, diabète) sur la pratique
+d’une activité physique (grade B).
+Les mêmes conseils peuvent bien sûr s’appliquer aux personnes sans surpoids et obésité mais
+l’efficacité n’est pas démontrée (grade C).
+La pratique d’exercices physiques (marche, équilibre, …) est particulièrement recommandée chez les
+adultes ≥ 65 ans à risque de chute (grade B).
+Le Réseau suisse Santé et activité physique (www.hepa.ch) recommande de pratiquer au moins 150
+(2 heures et demie) à 300 minutes (5 heures) d’activité physique d’intensité modérée axée sur
+l’endurance par semaine (p. ex. marche rapide, vélo, natation ou jardinage), ou au moins 75 (1 heure
+et quart) à 150 minutes (2 heures et demie) d’activité physique ou sportive d’intensité soutenue axée
+sur l’endurance par semaine. Une activité complémentaire de renforcement musculaire d’intensité
+modérée ou soutenue faisant intervenir tous les groupes de muscles principaux au moins deux jours
+par semaine est conseillée. Il n’est pas nécessaire d’effectuer 30 minutes d’affilée. Chaque minute
+d’activité compte tant que l’activité, par exemple montée d’escalier, entraîne un essoufflement
+léger. En parallèle, les périodes sédentaires et notamment les positions assises prolongées doivent
+être limitées au minimum possible, il est recommandé de se lever, même brièvement, au moins
+toutes les 45 minutes.
+Le programme PAPRICA (Physical Activity in Primary Care) fournit des outils sur la manière de
+promouvoir l’activité physique au cabinet médical (cf. www.paprica.ch).
+3
+
+Recommandations EviPrev 2024
+Ressources utiles aux cliniciens : www.pepra.ch/fr/activite-physique
+
+Alimentation (9, 10, 13)
+Il est recommandé de conseiller une alimentation équilibrée aux adultes en surpoids, obèses et/ou
+ayant un/des facteur(s) de risque cardiovasculaire (hypertension artérielle, dyslipidémie, diabète,
+insuffisance rénale, …) (grade B). Pour la population générale sans facteurs de risque, bien qu’une
+alimentation équilibrée soit recommandée, l’efficacité des conseils médicaux n’est pas démontrée
+(grade C).
+Les principes d’une alimentation saine et équilibrée peuvent se baser sur la pyramide alimentaire de
+la Société suisse de nutrition. Une alimentation de type méditerranéenne pourrait avoir un effet
+favorable sur les facteurs de risque cardio-vasculaires.
+Ressources utiles : www.sge-ssn.ch
+
+Comportement sexuel (14, 15)
+Il est recommandé de donner des conseils de prévention des infections sexuellement transmissibles
+(IST) chez toutes les personnes dont le comportement peut être considéré à risque (grade B), soit :
+- personnes connues pour une IST actuellement ou par le passé ;
+- personnes avec des partenaires sexuels multiples ;
+Ressources utiles : www.lovelife.ch
+Exposition solaire (16, 17)
+Il est recommandé de conseiller aux jeunes adultes de ≤24 ans à la peau claire (peau claire, yeux clairs,
+cheveux blonds ou roux, tâches de rousseurs, ayant facilement des coups de soleil) de minimiser
+l’exposition aux rayonnements ultraviolets afin de réduire le risque de cancer cutané (grade B).
+Les conseils de base sont les suivants :
+- éviter les coups de soleil
+- préférer l’ombre, surtout entre 11h et 15h
+- porter un chapeau, des lunettes et des habits protecteurs
+- utiliser régulièrement de la crème solaire (indice 20 au minimum)
+Le bénéfice des conseils médicaux sur la protection de l’exposition au rayonnement UV chez les adultes
+> 24 ans étant faible (grade C), ces conseils sont recommandés plus particulièrement chez les
+personnes à risque de cancer de la peau, soit :
+- personnes à la peau claire
+- antécédent de coups de soleil fréquents
+- antécédent personnel ou familial de cancer de la peau
+- nombre important de taches pigmentées sur le corps
+- immunodéficience (HIV, traitement immunosuppresseur)
+
+4
+
+Recommandations EviPrev 2024
+
+Dépistage des cancers (18, 19)
+Le dépistage a pour but de diagnostiquer un cancer ou des lésions précancéreuses avant l’apparition
+de symptômes. La découverte de certains cancers à un stade précoce augmente les chances de survie
+et permet un traitement moins lourd. Le dépistage comporte toutefois des inconvénients et risques,
+tels que celui du surdiagnostic et du surtraitement.
+Compte tenu des limites et des risques liés aux dépistages des cancers, ceux-ci devraient se faire sur la
+base d’une décision partagée entre le patient et le médecin (shared decision-making). Pour cela, le
+médecin peut s’aider d’outils d’aide à la décision, comme ceux existant déjà pour le dépistage du
+cancer colorectal, du cancer de la prostate et du poumon. www.pepra.ch/fr/eviprev et
+www.unisante.ch/fr/centre-medical/professionnels-sante/aides-decision
+
+Cancer du col de l’utérus (20-22)
+Le dépistage du cancer du col utérin est recommandé chez toutes les femmes dès 21 ans, quel que soit
+le statut vaccinal contre le papillomavirus humain (HPV).
+Selon les recommandations de l’USPSTF, le dépistage du cancer du col utérin est recommandé tous les
+3 ans de 21 à 65 ans par un examen cytologique (test de Papanicolaou). Pour les femmes de 30 à 65
+ans souhaitant espacer les contrôles, l’USPSTF propose l’alternative d’un dépistage tous les 5 ans par
+un test HPV ou un test HPV + examen cytologique (grade A).
+La Société Suisse de Gynécologie et d’Obstétrique recommande un dépistage cytologique tous le 3 ans
+de 21 à 29 ans, puis un dépistage cytologique ou par test HPV tous les 3 ans de 30 à 70 ans. On pourra
+arrêter le dépistage chez les patientes > 70 ans, si les 3 derniers frottis cytologiques ou 2 derniers tests
+HPV ont été négatifs et qu’elles n’aient pas présenté de dysplasie dans les 10 dernières années.
+Le dépistage cytologique est remboursé par l’assurance obligatoire des soins mais pas le test HPV.
+
+Cancer du côlon et rectum (23-25)
+Le dépistage systématique du cancer colorectal (CCR) est recommandé chez les adultes entre 50 et 75
+ans (grade A). Pour les personnes entre 76 et 85 ans, le dépistage de routine n’est pas recommandé. Il
+peut toutefois être proposé selon l’état de santé et l’espérance de vie du patient (grade C). Pour les
+patients de plus de 85 ans, le dépistage n’est pas recommandé.
+Deux stratégies de dépistages sont possibles : recherche de sang occulte dans les selles tous les 2 ans
+par FIT (fecal immunologic test) avec coloscopie si le résultat est positif, ou coloscopie tous les 10 ans.
+Les bénéfices et inconvénients des tests de dépistage du cancer du côlon peuvent être partagés avec
+le patient avec un outil d’aide à la décision : www.pepra.ch/fr/eviprev et www.unisante.ch/fr/centremedical/professionnels-sante/aides-decision
+On estime qu’en Suisse, en l’absence de dépistage, 2 personnes sur 100 décèderont d’un cancer
+colorectal avant l’âge de 80 ans. Grâce à un dépistage régulier, sur ces 100 personnes, 1 décès pourra
+être évité, soit une réduction de 50% du nombre de décès.
+Les personnes à risque augmenté de CCR et qui doivent être dépistées précocement après avis
+spécialisé sont celles avec:
+- antécédent personnel d’adénome ou de CCR
+5
+
+Recommandations EviPrev 2024
+-
+
+1 membre de la famille directe diagnostiqué d’un cancer colorectal avant l’âge de 60 ans ;
+2 membres de la famille directe diagnostiqués d’un cancer colorectal quel que soit l'âge.
+anamnèse familiale de polypose adénomateuse familiale
+rectocolite ulcéro-hémorragique ou de maladie de Crohn
+
+En Suisse, de nombreux cantons ont mis en place des programmes de dépistage proposés aux
+personnes entre 50 et 69 ans. Les différentes offres de dépistage par canton sont disponibles sur ce
+site : https://www.swisscancerscreening.ch.
+Les examens effectués dans ce type de programmes cantonaux sont remboursés par l’assurance
+obligatoire des soins exemptés de franchise, mais la quote-part de 10% est à la charge du patient.
+
+Cancer du sein (26-33)
+La balance bénéfice-risque du dépistage du cancer du sein par mammographie est sujet à controverse.
+L’USPSTF recommande un dépistage tous les 2 ans de 50 à 74 ans (grade B) et, chez les femmes de 40
+à 49 ans, de discuter ce dépistage de façon individualisée (grade C).
+Les programmes de dépistage systématique mis en place dans de nombreux cantons peuvent
+renforcer l’idée qu’une mammographie est hautement recommandée avec un bon niveau de preuve
+chez toutes les femmes alors que les données actuelles sont moins catégoriques. Une mammographie
+de dépistage chaque 1 à 3 ans entraîne une réduction de la mortalité consécutive au cancer du sein
+chez les femmes de 50 à 74 ans mais surtout entre 60 et 69 ans. On estime que sur 1000 femmes
+participant à un programme de dépistage avec mammographie tous les 2 ans pendant 20 ans, 1 à 4
+décès liés au cancer du sein seront évités. Sur ces 1000 femmes, 250 nécessiteront des examens
+complémentaires et 5 à 10 auront un diagnostic et un traitement pour un cancer du sein qui ne se
+serait jamais déclaré cliniquement.
+La publication du Swiss Medical Board de 2013 conseille de ne plus lancer de programme de dépistage
+systématique par mammographie et de limiter dans le temps ceux déjà existants. Il recommande
+également que pour tout dépistage par mammographie, une explication claire avec la présentation
+des effets souhaités et des effets indésirables soit effectuée.
+Pour ces raisons, EviPrev recommande d’effectuer une mammographie de dépistage chez les femmes
+de 50 à 75 ans après discussion avec la patiente des bénéfices et des risques. Une aide à la décision est
+disponible : https://www.pepra.ch/fr/eviprev#outils-daide-a-la-decision-pour-le-patient
+Les femmes à risque augmenté de cancer du sein et devant être dépistées précocement après avis
+spécialisé sont :
+- femmes porteuses du gène muté BRCA ½
+- antécédent de cancer du sein chez la mère, la fille ou la sœur
+- antécédent personnel de cancer du sein, de carcinome lobulaire in situ ou d’hyperplasie
+atypique
+- antécédent personnel d’irradiation locale
+En Suisse, de nombreux cantons ont mis en place des programmes de dépistage proposés aux femmes
+entre 50 et 74 ans. Les différentes offres de dépistage par canton sont disponibles sur ce site :
+https://www.swisscancerscreening.ch.
+
+6
+
+Recommandations EviPrev 2024
+Ce dépistage est pris en charge par l’assurance obligatoire des soins, hors franchise, à condition qu’il
+soit effectué dans le cadre d’un programme de dépistage systématique. La quote-part de 10% est
+cependant à la charge des patientes.
+
+Cancer de la prostate (34-43)
+Les données sur l’efficacité du dépistage du cancer prostatique par le dosage du PSA montrent un
+faible impact sur la mortalité avec des risques importants de surdiagnostic.
+L’USPSTF recommande, pour les hommes âgés de 55 à 69 ans, d’effectuer un dépistage du cancer de
+la prostate par un dosage de l’antigène spécifique de la prostate (PSA) de façon individualisée, dans le
+cadre d’une « décision partagée » entre le médecin et le patient (grade C).
+Les recommandations suisses ne sont pas toutes concordantes : alors que le Swiss Medical Board s’est
+positionné en 2011 contre le dépistage du cancer de la prostate par un dosage du PSA, plusieurs
+sociétés médicales recommandent d’informer les patients entre 50 et 70 ans des bénéfices potentiels
+du dépistage, mais aussi de ses limites, des effets secondaires des investigations et des traitements,
+en incorporant les préférences du patient dans le choix d’effectuer le dépistage ou non. Les effets
+secondaires des investigations et traitements pourraient être diminués grâce au recours à l’IRM
+prostatique à la suite d’un PSA positif et à la surveillance active à la suite d’un diagnostic de cancer de
+la prostate de bas grade.
+Les résultats des essais cliniques sur le dépistage du cancer de la prostate par le PSA sont
+contradictoires. L’étude américaine n’a pas démontré de réduction significative de la mortalité
+spécifique liée au cancer de la prostate chez les participants ayant bénéficié d’un dépistage par PSA.
+Rappelons le taux très élevé de patients ayant finalement eu un dosage de PSA dans le groupe témoin
+(environ 90% !), suggérant une possible « contamination » de ce groupe et favorisant l’absence de
+différence de résultats entre les 2 groupes. Un essai britannique plus récent comparant un dosage
+unique du PSA avec un suivi à 10 ans n’a pas non plus trouvé de différence significative par rapport au
+groupe contrôle dans lequel un taux de contamination était estimé à 10-15%. L’étude européenne, par
+contre, conclut que le dépistage entraine une faible réduction de la mortalité. Sur la base de cette
+étude, on estime que sur 500 hommes avec dépistage du cancer de la prostate tous les 2 à 4 ans
+pendant 16 ans, 58 hommes auront le diagnostic de cancer de la prostate et 4 en décèderont. En
+l’absence de dépistage, 43 hommes auront ce diagnostic et 5 en décèderont. Ainsi, dépister 500
+hommes permet d’éviter 1 décès par cancer de la prostate. Un outil d’aide à la décision facilite
+l’explication des enjeux d’un tel dépistage www.pepra.ch/fr/eviprev et www.unisante.ch/fr/centremedical/professionnels-sante/aides-decision
+La fréquence des contrôles dépend du taux de PSA et varie entre 1 et 3 ans. Ce dépistage n’est pas
+recommandé chez les hommes ≥ 70 ans.
+A noter qu’un dépistage ciblé est indiqué chez les hommes dont le risque de cancer de la prostate est
+plus élevé, soit avec un antécédent familial de cancer de la prostate avant l’âge de 65 ans (père,
+frère, fils) et les hommes originaires d’Afrique subsaharienne et Antilles.
+Cancer du poumon (44-49)
+Le dépistage par CT-scan faible dose chez les fumeurs (actuels ou anciens fumeurs > 15 UPA, âgés de
+50 à 74 ans) permet de réduire la mortalité. Plusieurs questions persistent, comme le nombre élevé de
+faux positifs, la fréquence des examens, les coûts et l’impact sur la motivation à arrêter de fumer.
+7
+
+Recommandations EviPrev 2024
+L'étude NELSON confirme que le dépistage du cancer pulmonaire par CT-scan faible dose permet une
+diminution de la mortalité du cancer pulmonaire de 20 à 25%. Avec des critères basés sur le temps
+de doublement de la volumétrie des nodules suspects, le taux de faux positifs a pu être diminué.
+L’USPSTF recommande un dépistage annuel par CT faible dose chez les patients asymptomatiques,
+âgés de 50 à 80 ans, fumeurs ou anciens fumeurs depuis moins de 15 ans, ≥ 20 UPA et sans
+comorbidités compromettant la survie (grade B).
+En Suisse, le Comité d’experts du dépistage du cancer suisse a recommandé en 2022 que le dépistage
+du cancer du poumon soit offert à la population à risque, et ceci plutôt dans des programmes
+organisés qui peuvent garantir la qualité et l’équité. Par contre, il n’y a actuellement (2023) pas de
+programmes cantonaux, ni de remboursement de cet examen par l’assurance obligatoire des soins.
+Si un dépistage individuel du cancer pulmonaire est envisagé, le patient doit être informé des bénéfices
+potentiels mais également des risques de faux-positifs nécessitant des imageries itératives ou des
+interventions invasives. Le sevrage tabagique doit être encouragé à cette occasion.
+Un outil d’aide à la décision est disponible www.pepra.ch/fr/eviprev et www.unisante.ch/fr/centremedical/professionnels-sante/aides-decision
+
+Dépistage cardio-vasculaire (50)
+Les recommandations de dépistage des facteurs de risque cardio-vasculaires (FRCV) sont détaillées cidessous. Elles diffèrent selon l’USPSTF et les différentes sociétés de spécialistes.
+Le Groupe Suisse de travail Lipides et Athérosclérose (GSLA) recommande un calcul du risque cardiovasculaire chez tous les hommes à partir de 40 ans et toutes les femmes à partir de 50 ans ou en
+post-ménopause. Ce calcul prend en compte différents paramètres (âge, sexe, pression artérielle
+systolique, LDL, HDL et triglycérides, diabète, tabagisme actif, infarctus du myocarde chez les parents,
+grands-parents ou frères et sœurs avant l’âge de 60 ans).
+Une évaluation précoce et individuelle doit être effectuée pour les personnes à risque soit :
+- antécédents familiaux d’une maladie cardiovasculaire précoce ou d’hyperlipidémie
+- facteurs de risque cardiovasculaire élevés (tabagisme, hypertension artérielle, diabète sucré,
+hyperlipidémie, obésité, autres comorbidités responsables de l’augmentation du risque
+cardio-vasculaire)
+Une répétition de l’évaluation du risque est recommandée :
+- tous les 5 ans si le risque est faible = risque absolu à 10 ans de subir un évènement coronarien
+< 10 %
+- tous les 2-5 ans si le risque est modéré = risque absolu à 10 ans de subir un évènement
+coronarien entre 10 et 20 %
+- selon situation clinique si le risque est élevé = risque absolu à 10 ans de subir un évènement
+coronarien > 20 %
+Hypertension artérielle (51-53)
+Le dépistage de l’hypertension artérielle (HTA) est recommandé chez tous les adultes dès 18 ans (grade
+A). Une mesure tous les 3 ans est préconisée si la tension artérielle est normale (<130/85) chez les
+personnes de 18 à 39 ans. Dès 40 ans ou en cas de facteurs de risque cardiovasculaire le contrôle
+devrait être annuel.
+8
+
+Recommandations EviPrev 2024
+Il est recommandé de faire une confirmation du diagnostic d’HTA par des mesures ambulatoires, par
+exemple par l’analyse de la pression artérielle sur 24 heures (MAPA) ou par des relevés réalisés par le
+patient avec un appareil d’automesure (3 mesures le matin et le soir pendant 3 jours).
+En cas d’hypertension artérielle légère ou modérée, la société européenne de cardiologie (ESC)
+recommande le calcul du risque cardiovasculaire pour déterminer la nécessité d’introduire un
+traitement.
+Ressources utiles aux cliniciens : www.agla.ch/fr/calculateurs-outils
+
+Obésité et surpoids (54)
+Il est recommandé de donner des conseils intensifs et personnalisés ou de référer à un centre spécialisé
+les patients avec un IMC > 30 kg/m2 (grade B). Les patients en surpoids (IMC entre 25 et 30) et ayant
+un autre facteur de risque cardio-vasculaire devraient aussi être conseillés ou référés.
+L’obésité est associée, entre autres, à une augmentation de la mortalité et aux problématiques de
+santé suivantes :
+- maladies cardiovasculaires
+- diabète de type 2
+- cancer colorectal
+- syndrome d’apnées du sommeil
+- arthrose
+- lithiase vésiculaire
+
+Dyslipidémie (55-57)
+
+Le Groupe de travail Lipides et Athérosclérose GSLA recommande une première évaluation
+du risque cardiovasculaire comprenant un bilan lipidique à partir de 40 ans chez les hommes
+et à partir de 50 ans chez les femmes ou dès la post-ménopause. Cette évaluation du risque
+doit être plus précoce et individuelle pour les personnes à risques soit :
+‒ symptômes d’une maladie athérosclérotique/cardiovasculaire ;
+‒ antécédents familiaux d’une maladie cardiovasculaire précoce ou d’hyperlipidémie ;
+‒ facteurs de risque cardiovasculaire élevé ou comorbidités avec risque cardiovasculaire
+élevé (p. ex.: insuffisance rénale chronique, polyarthrite rhumatoïde).
+Selon l’USPSTF l’introduction d’une statine est recommandée chez les personnes âgées de 40 à 75 ans
+ayant au moins 1 facteur de risque cardio-vasculaire (dyslipidémie, diabète sucré, hypertension
+artérielle, tabagisme) et un risque d’évènement cardio-vasculaire à 10 ans calculé à ≥ 10% (grade B).
+Pour les personnes âgées de 40 à 75 ans ayant au moins 1 facteur de risque cardio-vasculaire et un
+risque d’évènement cardio-vasculaire à 10 ans calculé entre 7.5 et 10%, le bénéfice d’un traitement
+par statine est à considérer mais n’a pas été examiné dans des études randomisées (grade C). Dans les
+autres situations, avec risque < 7.5% des mesures de style de vie sont recommandées.
+Chez les personnes âgées de plus de 75 ans sans maladie cardio-vasculaire pré-existante, les données
+ne sont pas suffisantes pour juger du bénéfice d’un traitement par statine.
+
+9
+
+Recommandations EviPrev 2024
+L’outil d’aide à la décision développé par la Mayo Clinic permet de promouvoir une décision partagée
+sur l’introduction d’un tel traitement en prévention primaire.
+Ressources utiles aux cliniciens :
+-
+
+https://statindecisionaid.mayoclinic.org/?lang=fr_fr
+https://www.agla.ch/fr/recommendations
+
+Diabète (58, 59)
+L’USPSTF recommande, dans le cadre de l’évaluation du risque cardio-vasculaire, le dépistage du
+diabète chez les adultes âgés de 35 à 70 ans présentant un surpoids ou une obésité (IMC ≥ 25 kg/m2)
+(grade B).
+Le Groupe de travail Lipides et Athérosclérose GSLA recommande le dépistage du diabète pour les
+hommes à partir de 40 ans et les femmes à partir de 50 ans ou en post-ménopause. Un dépistage
+plus précoce peut être proposé en présence d’un IMC > 25 kg/m2 ou autres facteurs de risque de
+diabète.
+Selon les dernières recommandations de l’American Diabetes Association, les tests admis pour le
+dépistage du diabète sont, à choix, la glycémie veineuse plasmatique à jeun, l’hémoglobine glyquée
+ou le test oral de tolérance au glucose.
+Ressources utiles aux cliniciens :
+www.agla.ch/fr/recommendations
+www.diabetesschweiz.ch
+
+Anévrisme de l’aorte abdominale (60)
+Il est recommandé de réaliser, à une reprise, chez les hommes entre 65 et 75 ans, fumeurs actifs ou
+anciens fumeurs, un ultrason abdominal à la recherche d’un anévrisme de l’aorte abdominale (grade
+B). Les données sont insuffisantes pour recommander ou non ce dépistage chez les femmes
+fumeuses ou ex-fumeuses de 65 à 75 ans.
+
+Dépistage des maladies infectieuses
+Virus de l'immunodéficience humaine (VIH) (61-63)
+Selon l’USPSTF le dépistage d’une infection VIH est recommandé chez toutes les personnes
+sexuellement actives jusqu’à 65 ans et chez les personnes plus âgées présentant un risque accru
+d’infection (grade A). Ce dépistage est recommandé chez toutes les femmes enceintes (grade A).
+L’OFSP encourage le conseil et les dépistages (volontaires ou initiés par le médecin) du VIH. Le
+dépistage VIH peut être proposé à l’initiative du médecin, même en absence d’indices cliniques
+(Provider-initiated counselling and testing (PICT) ou lorsque le patient en fait la demande. A cette
+occasion, le médecin devrait donner des conseils de prévention des infections sexuellement
+transmissibles. Le dépistage peut aussi se faire de manière anonyme dans les centres VCT (Voluntary
+
+10
+
+Recommandations EviPrev 2024
+Counselling and Testing) qui appliquent les recommandations de l’OFSP en matière de conseil et de
+dépistage volontaire du VIH.
+Le dépistage devrait être proposé et répété selon les facteurs de risque, notamment chez les personnes
+appartenant à un groupe présentant un risque accru d’infection :
+- Hommes ayant des rapports sexuels avec des hommes ;
+- Personnes transgenres
+- Exposition accrue : rapports sexuels avec des partenaires occasionnel·le·s, pratiques
+sexuelles à haut risque de transmission, rapports sexuels avec des personnes appartenant à
+des groupes particulièrement touchés
+- Travailleurs et travailleuses du sexe
+- Consommateurs de drogues par voie intraveineuse (antérieurs ou actuels)
+- Personnes ayant un lien avec des pays à haute endémicité (par exemple Afrique
+subsaharienne)
+Liste détaillée et fréquence des dépistages : « Guide Safer Sex » pour les professionnels dans le conseil
+et la prévention.
+https://shop.aids.ch/img/A~1911~45/10/1911-45-Leitfaden-Gu.pdf?xet=1702372535001
+Ressources utiles aux cliniciens :
+-
+
+Dépistages et conseils (admin.ch)
+www.lovelife.ch/fr/hiv-co/
+www.aids.ch/fr/
+
+A noter qu’une infection VIH est une maladie infectieuse à déclaration obligatoire :
+www.bag.admin.ch/bag/fr/home/krankheiten/infektionskrankheiten-bekaempfen/meldesystemeinfektionskrankheiten/meldepflichtige-ik.html
+
+Syphilis (64, 65)
+
+L’USPSTF recommande un dépistage de la syphilis chez les personnes à risque accru
+d’infection et chez toutes les femmes enceintes (grade A).
+L’OFSP encourage le dépistage (volontaires ou initiés par le médecin) de la syphilis selon les facteurs
+de risque, notamment chez les personnes appartenant à un groupe présentant un risque accru
+d’infection :
+- Hommes ayant des rapports sexuels avec des hommes ;
+- Personnes transgenres
+- Exposition accrue : rapports sexuels avec des partenaires occasionnel·le·s, pratiques
+sexuelles à haut risque de transmission, rapports sexuels avec des personnes appartenant à
+des groupes particulièrement touchés
+- Travailleurs et travailleuses du sexe
+Liste détaillée et fréquence des dépistages : « Guide Safer Sex » pour les professionnels dans le conseil
+et la prévention.
+https://shop.aids.ch/img/A~1911~45/10/1911-45-Leitfaden-Gu.pdf?xet=1702372535001
+
+Le dépistage est l’occasion de transmettre des conseils de prévention des autres IST.
+-
+
+Dépistages et conseils (admin.ch)
+11
+
+Recommandations EviPrev 2024
+-
+
+www.lovelife.ch/fr/hiv-co/
+www.aids.ch/fr/
+
+A noter que la syphilis est une maladie infectieuse à déclaration obligatoire :
+https://www.bag.admin.ch/bag/fr/home/krankheiten/infektionskrankheitenbekaempfen/meldesysteme-infektionskrankheiten/meldepflichtige-ik.html
+
+Chlamydia (66-69)
+L’USPSTF recommande le dépistage d’une infection à Chlamydia trachomatis chez les femmes
+sexuellement actives âgées de ≤ 24 ans, les femmes enceintes et les femmes plus âgées présentant un
+facteur de risque pour les infection sexuellement transmissibles (IST) (grade B) selon soit :
+- IST actuelle ou ancienne
+- partenaire sexuel connu pour une IST
+- nouveau partenaire sexuel
+- plus d’un partenaire sexuel ou partenaire sexuel ayant d’autres partenaires
+- rapports sexuels tarifés
+L’OFSP encourage le dépistage (volontaires ou initiés par le médecin) d’une infection à Chlamydia
+trachomatis chez les hommes et femmes selon les facteurs de risque, notamment chez les personnes
+appartenant à un groupe présentant un risque accru d’infection :
+- Hommes ayant des rapports sexuels avec des hommes ;
+- Personnes transgenres
+- Exposition accrue : rapports sexuels avec des partenaires occasionnel·le·s, pratiques
+sexuelles à haut risque de transmission, rapports sexuels avec des personnes appartenant à
+des groupes particulièrement touchés
+- Travailleurs et travailleuses du sexe
+Liste détaillée et fréquence des dépistages : « Guide Safer Sex » pour les professionnels dans le conseil
+et la prévention.
+- https://shop.aids.ch/img/A~1911~45/10/1911-45-Leitfaden-Gu.pdf?xet=1702372535001
+Le diagnostic s’effectue par PCR urinaire sur premier jet d’urines ou par frottis pharyngé, anal et/ou
+méat urétral/vagin/col utérin selon les pratiques sexuelles. Chez la femme, le diagnostic s’effectue
+idéalement sur frottis vaginal ou cervical, plus sensible que sur le premier jet d’urine. Le dépistage
+devrait être accompagné de conseils de prévention des IST.
+-
+
+Dépistages et conseils (admin.ch)
+www.lovelife.ch/fr/hiv-co/
+www.aids.ch/fr/
+
+A noter qu’une infection à Chlamydia trachomatis est une maladie infectieuse à déclaration
+obligatoire : https://www.bag.admin.ch/bag/fr/home/krankheiten/infektionskrankheitenbekaempfen/meldesysteme-infektionskrankheiten/meldepflichtige-ik.html
+
+Gonorrhée (66, 70)
+L’USPSTF recommande un dépistage chez les femmes sexuellement actives âgées de 24 ans ou moins,
+les femmes enceintes et les femmes plus âgées qui présentent des facteurs de risque pour les IST (IST
+ancienne et/ou actuelle, comportements sexuels à risque) (grade B).
+12
+
+Recommandations EviPrev 2024
+Les facteurs de risque sont :
+- IST actuelle ou ancienne
+- partenaire sexuel connu pour une IST
+- nouveau partenaire sexuel
+- plus d’un partenaire sexuel ou partenaire sexuel ayant d’autres partenaires
+- rapports sexuels tarifés
+L’OFSP encourage le conseil et les dépistages (volontaires ou initiés par le médecin) des IST.
+Le dépistage devrait être proposé et répété selon les facteurs de risque, notamment chez les personnes
+appartenant à un groupe présentant un risque accru d’infection :
+- Hommes ayant des rapports sexuels avec des hommes ;
+- Personnes transgenres
+- Exposition accrue : rapports sexuels avec des partenaires occasionnel·le·s, pratiques
+sexuelles à haut risque de transmission, rapports sexuels avec des personnes appartenant à
+des groupes particulièrement touchés
+- Travailleurs et travailleuses du sexe
+Liste détaillée et fréquence des dépistages : « Guide Safer Sex » pour les professionnels dans le conseil
+et la prévention.
+- https://shop.aids.ch/img/A~1911~45/10/1911-45-Leitfaden-Gu.pdf?xet=1702372535001
+Le diagnostic s’effectue par PCR urinaire sur premier jet d’urines ou par frottis pharyngé, anal et/ou
+méat urétral/vagin/col utérin selon les pratiques sexuelles. Chez la femme, le diagnostic s’effectue
+idéalement sur frottis vaginal ou cervical, plus sensible que sur le premier jet d’urine. Le dépistage
+devrait être accompagné de conseils de prévention des IST.
+Ressources utiles aux cliniciens :
+-
+
+Dépistages et conseils (admin.ch)
+www.lovelife.ch/fr/hiv-co/
+www.aids.ch/fr/
+
+A noter que les infections à gonocoques est une maladie infectieuse à déclaration obligatoire :
+https://www.bag.admin.ch/bag/fr/home/krankheiten/infektionskrankheitenbekaempfen/meldesysteme-infektionskrankheiten/meldepflichtige-ik.html
+
+Hépatite B (HBV) (71-74)
+Le dépistage systématique d’une infection à hépatite B (antigène HBs et anticorps anti-HBc) dans la
+population générale n’est pas recommandé, car la prévalence de l’infection est relativement faible et
+la majorité des personnes infectées ne développeront pas d’infection chronique.
+Le dépistage de l’HBV est recommandé chez les personnes à haut risque (grade B) soit :
+- les personnes nées dans une région à haute prévalence d’HBV (>2%) ou non vaccinées à la
+naissance et dont les parents sont nés dans une région à haute prévalence (>8%)
+- les personnes HIV positives
+- les consommateurs de drogue
+- les hommes ayant des rapports sexuels avec des hommes
+
+13
+
+Recommandations EviPrev 2024
+-
+
+les personnes vivant en foyer ou ayant des relations sexuelles avec une personne connue pour
+une infection à HBV
+les personnes hémodialysées
+les personnes sous traitement immunosuppresseur ou cytotoxique
+
+A noter que l’USPSTF recommande un dépistage précoce de l’hépatite B chez toutes les femmes
+enceintes (grade A).
+L’OFSP recommande ce dépistage aux populations suivantes:
+-
+
+femmes enceintes
+groupes à forte prévalence : consommateurs de drogues et personnes vivant dans le même
+ménage qu’un individu infecté ou venant de zones à forte prévalence).
+
+A noter que l’hépatite B est une maladie infectieuse à déclaration
+https://www.bag.admin.ch/bag/fr/home/krankheiten/infektionskrankheitenbekaempfen/meldesysteme-infektionskrankheiten/meldepflichtige-ik.html
+
+obligatoire :
+
+Hépatite C (HCV) (73-76)
+L’USPSTF recommande depuis 2020 un dépistage chez tous les adultes de 18 à 75 ans, à répéter chez
+les personnes à haut risque d’infection (grade B).
+En Suisse, l’OFSP poursuit une approche de dépistage ciblée en fonction des facteurs de risque
+individuels présents ou passés et de la situation clinique. Le dépistage HCV est recommandé aux
+populations suivantes:
+-
+
+Consommateurs actuels ou anciens de drogues
+Personnes ayant reçu une transfusion sanguine ou une transplantation d’organe avant 1992
+Personnes ayant reçu des produits sanguins avant 1987 (par exemple hémophiles)
+Insuffisants rénaux sous hémodialyse (reins artificiels)
+Les personnes provenant de l’Asie centrale et orientale, de l’Afrique du Nord, des pays de
+l’Europe de l’Est, de France et d’Italie
+Partenaires sexuels de personnes infectées par le virus de l’hépatite C
+Personnes séropositives pour le VIH
+Patients avec des transaminases élevées à la prise de sang
+Personnes ayant fait un tatouage ou un piercing dans des conditions non-stériles
+Travailleurs/euses du sexe
+
+Le réseau Stratégie hépatite suisse recommande cependant de soumettre une fois dans leur vie les
+personnes
+nées
+entre
+1950
+et
+1985
+à
+un
+dépistage
+de
+l’hépatite
+C.
+A noter que l’hépatite C est une maladie infectieuse à déclaration obligatoire :
+https://www.bag.admin.ch/bag/fr/home/krankheiten/infektionskrankheitenbekaempfen/meldesysteme-infektionskrankheiten/meldepflichtige-ik.html
+
+Autres dépistages
+Dépression (77, 78)
+
+14
+
+Recommandations EviPrev 2024
+Le dépistage de la dépression est recommandé chez tous les adultes, incluant les femmes enceintes et
+en post-partum (grade B). Ce dépistage doit être effectué dans le cadre d’un système de soins avec
+des possibilités de traitement et de suivi.
+Deux questions sont proposées pour le dépistage de la dépression au cabinet médical :
+- Au cours des deux dernières semaines, avez-vous eu peu d’intérêt ou de plaisir à faire les
+choses ?
+- Au cours des deux dernières semaines, vous êtes-vous senti(e) triste, déprimé(e) ou
+désespéré(e) ?
+Considérer la possibilité d’un épisode dépressif majeur chez tout adulte répondant « oui » à l’une de
+ces questions (sensibilité d’environ 90 %, spécificité d’environ 65 %).
+
+Violences domestiques (79-81)
+Il est recommandé de dépister les violences domestiques chez toutes les femmes en âge de procréer
+et de les référer à des services spécialisés si nécessaire (grade B). Les preuves actuelles sont
+insuffisantes pour recommander ou non le dépistage d’une violence domestique auprès des personnes
+âgées ou vulnérables (grade I).
+La violence domestique reste souvent méconnue et concernerait 10-20% des femmes, la grossesse et
+la naissance d’un enfant figurant parmi les principaux événements qui déclenchent la violence.
+Plusieurs signaux d’alerte peuvent être présents :
+-
+
+plaintes vagues et symptômes chroniques sans cause physique apparente, problèmes
+psychosomatiques
+blessures anciennes, répétées ou qui ne correspondent pas à l’explication donnée
+traumatismes physiques subis pendant la grossesse
+manque de confiance et d’estime de soi, culpabilité, sentiment d’impuissance et résignation
+troubles émotionnels: stress, apathie, angoisse, confusion, dépression, hyperexcitation ou
+détachement, pensées suicidaires
+partenaire montrant une attention excessive, qui cherche à garder le contrôle ou qui manifeste
+du dénigrement, voire de l’agressivité
+isolement social
+toute forme de dépendance (financière, affective, à l’alcool, à des drogues ou aux
+médicaments, etc.)
+
+Ostéoporose (82-85)
+Le dépistage de l’ostéoporose par ostéodensitométrie est recommandé par l’USPSTF chez toutes les
+femmes ≥ 65 ans (grade B). Chez les femmes < 65 ans post-ménopausées, il est recommandé de faire
+un dépistage si le risque de fracture est égal ou supérieur à celui d’une femme blanche de 65 ans sans
+facteur de risque (grade B). L’outil « FRAX » peut être utilisé pour évaluer le risque de fracture à 10
+ans.
+Le bénéfice du dépistage pour les hommes n’est pour l’instant pas démontré (grade I)
+L’Association Suisse contre l’Ostéoporose recommande d’effectuer une ostéodensitométrie en cas de :
+- fracture vertébrale spontanée ou suite à un traumatisme bénin
+15
+
+Recommandations EviPrev 2024
+-
+
+fracture périphérique suite à un traumatisme bénin
+causes secondaires et facteurs de risque d’ostéoporose
+
+En Suisse, le dépistage de l’ostéoporose par ostéodensitométrie n’est donc pas recommandé de façon
+systématique mais à discuter de façon individualisée.
+L’ostéodensitométrie est prise en charge par l’assurance obligatoire des soins dans les situations
+suivantes :
+- ostéoporose ou fracture après traumatisme minime
+- corticothérapie longue durée (> 3 mois) ou hypogonadisme
+- maladie digestive avec syndrome de malabsorption (maladie de Crohn, RCUH, maladie
+cœliaque)
+- hyperparathyroïdie primaire
+- ostéogenèse imparfaite
+- HIV
+- suivi thérapeutique (maximum tous les 2 ans)
+Ressources utiles aux cliniciens : https://www.svgo.ch/ (site de l’association Suisse contre
+l’ostéoporose). FRAX Outil d'Evaluation des Risques de Fractures.
+https://www.sheffield.ac.uk/FRAX/?lang=fr.
+Vaccinations (86)
+Les recommandations pour la vaccination se réfèrent au plan de vaccination de l’OFSP 2023.
+Plan de vaccination suisse (admin.ch)
+
+16
+
+Recommandations EviPrev 2024
+
+Références
+1.
+U.S. Preventive Services Task Force USPSTF. Recommendations for Primary Care Pratice.
+[Internet]. https://www.uspreventiveservicestaskforce.org/Page/Name/recommendations.
+2.
+U.S. Preventive Services Task Force USPSTF. Grade definitions. [Internet].
+https://www.uspreventiveservicestaskforce.org/Page/Name/grade-definitions.
+3.
+Krist AH, Davidson KW, Mangione CM, Barry MJ, Cabana M, Caughey AB, et al. Interventions
+for Tobacco Smoking Cessation in Adults, Including Pregnant Persons: US Preventive Services Task
+Force Recommendation Statement. JAMA : the journal of the American Medical Association.
+2021;325(3):265-79.
+4.
+Cornuz J, Jacot Sadowski I, Humair JP. Conseil médical aux fumeurs et fumeuses. Document
+de référence pour les médecins. VIVRE SANS TABAC, Programme national d’arrêt du tabagisme,
+Berne 2015.
+5.
+Curry SJ, Krist AH, Owens DK, Barry MJ, Caughey AB, Davidson KW, et al. Screening and
+Behavioral Counseling Interventions to Reduce Unhealthy Alcohol Use in Adolescents and Adults: US
+Preventive Services Task Force Recommendation Statement. Jama. 2018;320(18):1899-909.
+6.
+Commission fédérale pour les problèmes liés à l'alcool CFAL. Repères relatifs à la
+consommation d'alcool - 2018. https://www.bag.admin.ch/bag/fr/home/gesund-leben/sucht-undgesundheit/alkohol/problemkonsum.html.
+7.
+Loeb P, Stoll B, Weil B. L’intervention brève pour des patients avec une consommation
+d’alcool à problème. Un guide pour les médecins et autres professionnels de premier recours
+deuxième édition révisée et élargie. EMH Media Berne 2014.
+8.
+Patnode CD, Perdue LA, Rushkin M, O’Connor EA. U.S. Preventive Services Task Force
+Evidence Syntheses, formerly Systematic Evidence Reviews. Screening for Unhealthy Drug Use in
+Primary Care in Adolescents and Adults, Including Pregnant Persons: Updated Systematic Review for
+the US Preventive Services Task Force. Rockville (MD): Agency for Healthcare Research and Quality
+(US); 2020.
+9.
+Mangione CM, Barry MJ, Nicholson WK, Cabana M, Coker TR, Davidson KW, et al. Behavioral
+Counseling Interventions to Promote a Healthy Diet and Physical Activity for Cardiovascular Disease
+Prevention in Adults Without Cardiovascular Disease Risk Factors: US Preventive Services Task Force
+Recommendation Statement. Jama. 2022;328(4):367-74.
+10.
+Krist AH, Davidson KW, Mangione CM, Barry MJ, Cabana M, Caughey AB, et al. Behavioral
+Counseling Interventions to Promote a Healthy Diet and Physical Activity for Cardiovascular Disease
+Prevention in Adults With Cardiovascular Risk Factors: US Preventive Services Task Force
+Recommendation Statement. Jama. 2020;324(20):2069-75.
+11.
+Grossman DC, Curry SJ, Owens DK, Barry MJ, Caughey AB, Davidson KW, et al. Interventions
+to Prevent Falls in Community-Dwelling Older Adults: US Preventive Services Task Force
+Recommendation Statement. Jama. 2018;319(16):1696-704.
+12.
+Office fédéral du sport OFSPO, Office fédéral de la santé publique OFSP, Promotion Santé
+Suisse, Bureau de prévention des accidents bpa, Réseau suisse Santé et activité physique hepa.
+Recommandations suisses en matière d’activité physique. Bases. Macolin: OFSPO 2022.
+13.
+Société Suisse de Nutrition. La pyramide alimentaire suisse. http://www.sge-ssn.ch/fr/toi-etmoi/boire-et-manger/equilibre-alimentaire/pyramide-alimentaire-suisse/.
+14.
+Krist AH, Davidson KW, Mangione CM, Barry MJ, Cabana M, Caughey AB, et al. Behavioral
+Counseling Interventions to Prevent Sexually Transmitted Infections: US Preventive Services Task
+Force Recommendation Statement. Jama. 2020;324(7):674-81.
+15.
+Office fédéral de la santé publique. Infections sexuellement transmissibles.
+https://www.bag.admin.ch/bag/fr/home/krankheiten/krankheiten-im-ueberblick/sexuelluebertragbare-infektionen.html.
+16.
+Grossman DC, Curry SJ, Owens DK, Barry MJ, Caughey AB, Davidson KW, et al. Behavioral
+Counseling to Prevent Skin Cancer: US Preventive Services Task Force Recommendation Statement.
+Jama. 2018;319(11):1134-42.
+17
+
+Recommandations EviPrev 2024
+17.
+Office fédéral de la santé publique OFSP. Protection solaire. [Internet].
+https://www.bag.admin.ch/bag/fr/home/gesund-leben/umwelt-und-gesundheit/strahlungradioaktivitaet-schall/elektromagnetische-felder-emf-uv-laser-licht/sonne_uvstrahlung/sonnenschutz.html.
+18.
+Cornuz J, Junod N, Pasche O, Guessous I. Dépistage des cancers en pratique clinique: une
+place privilegiée pour le partage de la décision. Rev Med Suisse. 2010;6(256):1410-4.
+19.
+Stacey D, Legare F, Lewis K, Barry MJ, Bennett CL, Eden KB, et al. Decision aids for people
+facing health treatment or screening decisions. Cochrane Database Syst Rev. 2017;4:Cd001431.
+20.
+Curry SJ, Krist AH, Owens DK, Barry MJ, Caughey AB, Davidson KW, et al. Screening for
+Cervical Cancer: US Preventive Services Task Force Recommendation Statement. Jama.
+2018;320(7):674-86.
+21.
+Comité d'experts du dépistage du cancer. Recommandations relatives au dépistage du cancer
+du col de l'utérus. https://cancerscreeningcommittee.ch/fr/themes/depistage-du-cancer-du-col-deluterus/. 08.2021.
+22.
+Société Suisse de Gynécologie et d'Obstétrique. Avis d'experts N°50. Recommandations pour
+la prévention du cancer du col de l'utérus. 2018.
+23.
+Davidson KW, Barry MJ, Mangione CM, Cabana M, Caughey AB, Davis EM, et al. Screening for
+Colorectal Cancer: US Preventive Services Task Force Recommendation Statement. Jama.
+2021;325(19):1965-77.
+24.
+Auer R, Selby K, Bulliard JL, Nichita C, Dorta G, Ducros C, et al. [Shared decision making in the
+colorectal cancer screening program in the canton of Vaud]. Revue medicale suisse.
+2015;11(496):2209-15.
+25.
+Truningera K, Luglic A, Köberle D. Comité de la Société Suisse de Gastroentérologie (SSG).
+Suivi après polypectomie coloscopique et traitement du cancer colorectal. Swiss Medical Forum.
+2022:349–355.
+26.
+Siu AL. Screening for Breast Cancer: U.S. Preventive Services Task Force Recommendation
+Statement. Ann Intern Med. 2016;164(4):279-96.
+27.
+Marmot MG, Altman DG, Cameron DA, Dewar JA, Thompson SG, Wilcox M. The benefits and
+harms of breast cancer screening: an independent review. Br J Cancer. 2013;108(11):2205-40.
+28.
+Keating NL, Pace LE. Breast Cancer Screening in 2018: Time for Shared Decision Making.
+Jama. 2018;319(17):1814-5.
+29.
+Nelson HD, Fu R, Cantor A, Pappas M, Daeges M, Humphrey L. Effectiveness of Breast Cancer
+Screening: Systematic Review and Meta-analysis to Update the 2009 U.S. Preventive Services Task
+Force Recommendation. Ann Intern Med. 2016;164(4):244-55.
+30.
+Welch HG, Passow HJ. Quantifying the benefits and harms of screening mammography. JAMA
+Intern Med. 2014;174(3):448-54.
+31.
+Biller-Andorno N, Juni P. Abolishing mammography screening programs? A view from the
+Swiss Medical Board. N Engl J Med. 2014;370(21):1965-7.
+32.
+Swiss Medical Board. Dépistage systématique par mammographie. Rapport du 15.12.2013.
+33.
+Swiss cancer screening. Le dépistage systématique du cancer du sein en chiffres.
+https://www.swisscancerscreening.ch/fr/depistage-du-cancer/sein/depistage-en-chiffres.
+34.
+Grossman DC, Curry SJ, Owens DK, Bibbins-Domingo K, Caughey AB, Davidson KW, et al.
+Screening for Prostate Cancer: US Preventive Services Task Force Recommendation Statement. Jama.
+2018;319(18):1901-13.
+35.
+Schröder FH, Hugosson J, Roobol MJ, Tammela TL, Zappa M, Nelen V, et al. Screening and
+prostate cancer mortality: results of the European Randomised Study of Screening for Prostate
+Cancer (ERSPC) at 13 years of follow-up. Lancet. 2014;384(9959):2027-35.
+36.
+Hugosson J, Roobol MJ, Månsson M, Tammela TLJ, Zappa M, Nelen V, et al. A 16-yr Follow-up
+of the European Randomized study of Screening for Prostate Cancer. Eur Urol. 2019;76(1):43-51.
+37.
+Swiss Medical Board : Importance du taux de PSA dans le dépistage précoce du cancer de la
+prostate. Zurich 2011.
+18
+
+Recommandations EviPrev 2024
+38.
+Gasser T, Iselin C, Jichlinksi P et al. Dosage du PSA. Recommandations de la Société suisse
+d’Urologie (SSU). Forum Med Suisse. 2012;12(06):126-128.
+39.
+Selby K, Auer R, Valerio M, Jichlinski P, Cornuz J. Dépistage du cancer de la prostate: partager
+avec le patient les incertitudes. Rev Med Suisse. 2015;11(496):2216, 8-20.
+40.
+Andriole GL, Crawford ED, Grubb RL, 3rd, Buys SS, Chia D, Church TR, et al. Prostate cancer
+screening in the randomized Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial: mortality
+results after 13 years of follow-up. J Natl Cancer Inst. 2012;104(2):125-32.
+41.
+Pinsky PF, Prorok PC, Yu K, Kramer BS, Black A, Gohagan JK, et al. Extended mortality results
+for prostate cancer screening in the PLCO trial with median follow-up of 15 years. Cancer.
+2017;123(4):592-9.
+42.
+Martin RM, Donovan JL, Turner EL, Metcalfe C, Young GJ, Walsh EI, et al. Effect of a LowIntensity PSA-Based Screening Intervention on Prostate Cancer Mortality: The CAP Randomized
+Clinical Trial. Jama. 2018;319(9):883-95.
+43.
+Hugosson J, Månsson M, Wallström J, Axcrona U, Carlsson SV, Egevad L, et al. Prostate
+Cancer Screening with PSA and MRI Followed by Targeted Biopsy Only. The New England journal of
+medicine. 2022;387(23):2126-37.
+44.
+Krist AH, Davidson KW, Mangione CM, Barry MJ, Cabana M, Caughey AB, et al. Screening for
+Lung Cancer: US Preventive Services Task Force Recommendation Statement. Jama.
+2021;325(10):962-70.
+45.
+de Koning HJ, van der Aalst CM, de Jong PA, Scholten ET, Nackaerts K, Heuvelmans MA, et al.
+Reduced Lung-Cancer Mortality with Volume CT Screening in a Randomized Trial. N Engl J Med.
+2020;382(6):503-13.
+46.
+Comité d'experts du dépistage du cancer. Recommandation relative au dépistage du cancer
+du poumon par scanner thoracique à faible dose. 2022.
+47.
+Société suisse de pneumologie. Dépistage précoce du cancer du poumon – bilan et
+perspectives 2017. Ce qui serait souhaitable et ce qui est faisable. Société suisse de pneumologie
+2017.
+48.
+Nicod LP, Soccal PM. Une étape décisive pour le dépistage du cancer pulmonaire. Editorial.
+Rev Med Suisse 2018; volume 14. 2043-2044.
+49.
+Selby K, Gubelmann R, Lovis A, Bulliard JL, Beigelman-Aubry C, Casutt A, et al. [Lung cancer
+screening: what can we tell our patients while we await a screening program ?]. Rev Med Suisse.
+2020;16(713):2086-91.
+50.
+Groupe Suisse de travail Lipides et Athérosclérose AGLA/GSLA. https://www.gsla.ch/.
+51.
+Krist AH, Davidson KW, Mangione CM, Cabana M, Caughey AB, Davis EM, et al. Screening for
+Hypertension in Adults: US Preventive Services Task Force Reaffirmation Recommendation
+Statement. Jama. 2021;325(16):1650-6.
+52.
+Williams B, Mancia G, Spiering W, Agabiti Rosei E, Azizi M, Burnier M, et al. 2018 Practice
+Guidelines for the management of arterial hypertension of the European Society of Hypertension and
+the European Society of Cardiology: ESH/ESC Task Force for the Management of Arterial
+Hypertension. J Hypertens. 2018;36(12):2284-309.
+53.
+Unger T, Borghi C, Charchar F, Khan NA, Poulter NR, Prabhakaran D, et al. 2020 International
+Society of Hypertension global hypertension practice guidelines. J Hypertens. 2020;38(6):982-1004.
+54.
+Curry SJ, Krist AH, Owens DK, Barry MJ, Caughey AB, Davidson KW, et al. Behavioral Weight
+Loss Interventions to Prevent Obesity-Related Morbidity and Mortality in Adults: US Preventive
+Services Task Force Recommendation Statement. Jama. 2018;320(11):1163-71.
+55.
+Bibbins-Domingo K, Grossman DC, Curry SJ, Davidson KW, Epling JW, Jr., Garcia FA, et al.
+Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: US Preventive Services
+Task Force Recommendation Statement. Jama. 2016;316(19):1997-2007.
+56.
+Rodondi N, Waeber G. Dyslipidémies: comment utiliser les nouvelles recommandations au
+cabinet medical. Editorial. Swiss Med Forum, 2018;18:973-974.
+57.
+Nanchen D, Vonnez JL, Selby K, Auer R, Cornuz J. Statines en prévention primaire: comment
+décider avec le patient? Rev Med Suisse. 2015;11(496):2222-6.
+19
+
+Recommandations EviPrev 2024
+58.
+Davidson KW, Barry MJ, Mangione CM, Cabana M, Caughey AB, Davis EM, et al. Screening for
+Prediabetes and Type 2 Diabetes: US Preventive Services Task Force Recommendation Statement.
+Jama. 2021;326(8):736-43.
+59.
+2. Classification and Diagnosis of Diabetes: Standards of Medical Care in Diabetes-2022.
+Diabetes Care. 2022;45(Suppl 1):S17-s38.
+60.
+Owens DK, Davidson KW, Krist AH, Barry MJ, Cabana M, Caughey AB, et al. Screening for
+Abdominal Aortic Aneurysm: US Preventive Services Task Force Recommendation Statement. Jama.
+2019;322(22):2211-8.
+61.
+Owens DK, Davidson KW, Krist AH, Barry MJ, Cabana M, Caughey AB, et al. Screening for HIV
+Infection: US Preventive Services Task Force Recommendation Statement. Jama. 2019;321(23):232636.
+62.
+Office fédéral de la santé publique OFSP. Dépistage du VIH effectué sur l'initiative des
+médecins. Bull 21. OFSP 2015: 237-41.
+63.
+D'Incau S, Viala B, Ciuffi A, Cavassini M, Calmy A. [Diagnosis, prevention and treatment of
+HIV : what's new in 2018 ?]. Rev Med Suisse. 2019;15(N° 632-633):107-12.
+64.
+Mangione CM, Barry MJ, Nicholson WK, Cabana M, Chelmow D, Coker TR, et al. Screening for
+Syphilis Infection in Nonpregnant Adolescents and Adults: US Preventive Services Task Force
+Reaffirmation Recommendation Statement. Jama. 2022;328(12):1243-9.
+65.
+Office fédéral de la santé publique. Diagnostic et traitement de la syphilis : recommandations
+actualisées. OFSP 2015 ; Bulletin 21 : 244-49.
+66.
+Davidson KW, Barry MJ, Mangione CM, Cabana M, Caughey AB, Davis EM, et al. Screening for
+Chlamydia and Gonorrhea: US Preventive Services Task Force Recommendation Statement. Jama.
+2021;326(10):949-56.
+67.
+OFSP. La chlamydiose en Suisse, situation en 2021. Bulletin 45 du 7 novembre 2022.
+68.
+Notter J, Frey Tirri B, Bally F et al. Commission fédérale pour la santé sexuelle, Société suisse
+d’infectiologie. Infections sexuellement transmissibles à Chlamydia trachomatis. Forum Med Suisse
+2017;11(34):705-711.
+69.
+Salamin P, Kraege V, Greub G. Quel test pour Chlamydia trachomatis ? Forum Med Suisse.
+2020;20(5152):788-790.
+70.
+OFSP. La gonorrhée en Suisse, situation en 2021. Bulletin 45 du 7 novembre 2022.
+71.
+Chou R, Blazina I, Bougatsos C, Holmes R, Selph S, Grusing S, et al. Screening for Hepatitis B
+Virus Infection in Nonpregnant Adolescents and Adults: Updated Evidence Report and Systematic
+Review for the US Preventive Services Task Force. Jama. 2020;324(23):2423-36.
+72.
+Office fédéral de la santé publique (OFSP) et Commission fédérale pour les vaccinations
+(CFV). Recommandations pour la prévention de l’hépatite B. Directives et recommandations. Berne :
+OFSP, 2019.
+73.
+Fretz R, Negro F, Bruggmann, Lavanchy D et al. Hepatitis B and C in Switzerland – healthcare
+provider initiated testing for chronic hepatitis B and C infection Swiss Med Wkly. 2013;143:w13793.
+74.
+Hépatite Suisse. Quand faut-il dépister? [Internet]. https://www.hepatitisschweiz.ch/fr/quand-faut-il-depister.
+75.
+Owens DK, Davidson KW, Krist AH, Barry MJ, Cabana M, Caughey AB, et al. Screening for
+Hepatitis C Virus Infection in Adolescents and Adults: US Preventive Services Task Force
+Recommendation Statement. Jama. 2020.
+76.
+Office fédéral de la santé publique, division maladies transmissibles. Hépatites C en Suisse,
+situation épidémiologique en 2015–2018. Bull OFSP 2019 ; No 45 : 12-24.
+77.
+Whooley MA, Avins AL, Miranda J, Browner WS. Case-finding instruments for depression.
+Two questions are as good as many. J Gen Intern Med. 1997;12(7):439-45.
+78.
+Barry MJ, Nicholson WK, Silverstein M, Chelmow D, Coker TR, Davidson KW, et al. Screening
+for Depression and Suicide Risk in Adults: US Preventive Services Task Force Recommendation
+Statement. Jama. 2023;329(23):2057-67.
+
+20
+
+Recommandations EviPrev 2024
+79.
+Feltner C, Wallace I, Berkman N, Kistler CE, Middleton JC, Barclay C, et al. Screening for
+Intimate Partner Violence, Elder Abuse, and Abuse of Vulnerable Adults: Evidence Report and
+Systematic Review for the US Preventive Services Task Force. Jama. 2018;320(16):1688-701.
+80.
+Office fédéral de la santé publique OFSP. Feuilles d'information violence domestique.
+https://www.ebg.admin.ch/ebg/fr/home/documentation/publications-en-general/publicationsviolence.html.
+81.
+Bureau de l’égalité entre les femmes et les hommes du canton de Vaud (BEFH). Violence
+dans le couple Détection-Soutien-Orientation des personnes victimes. Protocole d’intervention à
+l’usage des professionnel·le·s. BEFH 2017.
+82.
+Curry SJ, Krist AH, Owens DK, Barry MJ, Caughey AB, Davidson KW, et al. Screening for
+Osteoporosis to Prevent Fractures: US Preventive Services Task Force Recommendation Statement.
+Jama. 2018;319(24):2521-31.
+83.
+Association Suisse contre l'Ostéoporose ASCO. Recommandations 2015.
+https://www.svgo.ch/content/documents/2015/ASCO%20Recommandations%202015.pdf.
+84.
+Lippuner K, Johansson H, Kanis JA, Rizzoli R. FRAX assessment of osteoporotic fracture
+probability in Switzerland. Osteoporos Int. 2010;21(3):381-9.
+85.
+FRAX Outil d'Evaluation des Risques de Fractures.
+https://www.sheffield.ac.uk/FRAX/?lang=fr.
+86.
+Office fédéral de la santé publique, Commission fédérale pour les vaccinations. Plan de
+vaccination suisse 2023. Directives et recommandations. Berne : Office fédéral de la santé publique
+2023.
+
+21
+
+

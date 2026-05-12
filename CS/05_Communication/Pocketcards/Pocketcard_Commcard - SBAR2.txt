@@ -1,0 +1,58 @@
+Outil SBAR2
+
+SBAR + R = SBAR2
+
+S Situation
+
+Degré d’urgence
+Identité du patient et âge
+Motif d’hospitalisation
+Attitude thérapeutique
+Objectif médical du jour
+
+C’est Aline du JUL-22. Je t’appelle pour
+M. ZZ, 64 ans, qui a des vertiges depuis
+5 min. Il est là pour une pneumonie et diabète décompensé ; il est IMU-2. Les endocrinologues doivent passer aujourd’hui.
+
+B Background
+
+Antécédents, allergies
+
+Il est aussi connu pour une hypertension.
+
+A
+
+Examen clinique réalisé
+Signes vitaux modifiés
+Évaluation du problème
+du jour du patient
+
+Il a une tension à 105/65 (d’habitude
+140/80), avec un pouls irrégulier à
+55/min, sat 93% AA. La glycémie est à
+15.8 mmol/l. Il est un peu mieux allongé.
+
+R Recommandation
+ou requête
+
+Ce qu’il reste à faire
+
+J'aimerais que tu viennes l’évaluer d’ici
+30 minutes. Veux-tu un ECG ?
+
+R
+
+Résume ce qui a été dit
+Pose des questions
+Redit l’essentiel à faire
+
+Donc, un patient de 64 ans qui présente
+des vertiges, avec une hypotension nouvelle. Oui, volontiers pour un ECG. J’arrive
+dans 5 min.
+
+Appréciation
+
+Reformulation
+(par le receveur)
+
+
