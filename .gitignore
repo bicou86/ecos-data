@@ -3,3 +3,21 @@
 Thumbs.db
 __pycache__/
 *.pyc
+.claude/
+
+# Heavy reference books (>100 MB - GitHub limit)
+# Kept locally but excluded from remote
+CK/00_Sources/ECG_Books/ECG-book.pdf
+CK/00_Sources/ECG_Books/ECG-facile.epub
+CK/00_Sources/ECG_Books/ECG-Schlaepfer.pdf
+
+# Heavy QCM PDFs (>95 MB)
+CK/02_QCM/-QCM Ophtalmologie.pdf
+CK/02_QCM/-QCM Assécurologie.pdf
+CK/02_QCM/-QCM Radiologie.pdf
+CK/02_QCM/-QCM Médecine interne 2.pdf
+CK/02_QCM/-QCM Neuro.pdf
+CK/02_QCM/-QCM Médecine du travail.pdf
+
+# Heavy revision fiches
+CK/04_Resumes_par_Discipline/Abdo/Abdo | Fiches de révision - Gastro.pdf
