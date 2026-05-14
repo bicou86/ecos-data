@@ -7,9 +7,8 @@ __pycache__/
 
 # Heavy reference books (>100 MB - GitHub limit)
 # Kept locally but excluded from remote
-CK/00_Sources/ECG_Books/ECG-book.pdf
-CK/00_Sources/ECG_Books/ECG-facile.epub
-CK/00_Sources/ECG_Books/ECG-Schlaepfer.pdf
+# (ECG-book.pdf, ECG-facile.epub, ECG-Schlaepfer.pdf originaux supprimés /
+# remplacés par versions compressées pushées)
 
 # Heavy QCM PDFs (>95 MB)
 CK/02_QCM/-QCM Ophtalmologie.pdf
