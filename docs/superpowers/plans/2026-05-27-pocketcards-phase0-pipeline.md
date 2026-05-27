@@ -1308,7 +1308,6 @@ Expected: FAIL with `Cannot find module '../src/render.js'`.
 - [ ] **Step 4: Write `src/render.js`**
 
 ```js
-import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Eta } from "eta";
