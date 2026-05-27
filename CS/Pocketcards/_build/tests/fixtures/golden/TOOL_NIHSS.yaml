@@ -1,0 +1,43 @@
+id: TOOL-NIHSS
+type: tool
+title: NIHSS
+discipline: Neuro
+version: 2026-05-27
+status: ready
+sources:
+  - Neurocard - Echelles 2020.pdf
+
+quand_utiliser:
+  - AVC suspect (évaluation initiale)
+  - Suivi post-thrombolyse
+  - Évaluation gravité pour décision thérapeutique
+
+items:
+  - Niveau de conscience
+  - Questions orientation (mois, âge)
+  - Commandes simples
+  - Mouvements oculaires
+  - Champ visuel
+  - Paralysie faciale
+  - Force MS droit/gauche
+  - Force MI droit/gauche
+  - Ataxie
+  - Sensibilité
+  - Langage
+  - Dysarthrie
+  - Extinction/Négligence
+
+score_interpretation:
+  - { score: "0", interpretation: "Pas de déficit" }
+  - { score: "1-4", interpretation: "AVC mineur" }
+  - { score: "5-15", interpretation: "AVC modéré" }
+  - { score: "16-20", interpretation: "AVC modéré à sévère" }
+  - { score: ">20", interpretation: "AVC sévère" }
+
+limites:
+  - Sous-estime AVC postérieur
+  - Pas d'évaluation aphasie fine
+
+ssps_ou_utiliser:
+  - SSP-NEU-AVC
+  - SSP-NEU-Vertige

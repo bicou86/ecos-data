@@ -1,0 +1,13 @@
+id: SSP-XXX-01
+type: ssp
+title: Carte avec discipline invalide
+discipline: Cardiologie # invalide — l'enum attend "Cardio"
+urgency: low
+version: 2026-05-27
+status: ready
+sources: [test]
+anamnese: { socrates: [x], specifique: [x], atcd: [x] }
+red_flags: [{ description: x, dx_suspecte: x, action: x }]
+examen: { general: [x], cible: [x] }
+dd_top5: [{ dx: x, indices: x, freq: rare }]
+pec_initiale: { immediate: [x], orientation: [x] }

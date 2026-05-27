@@ -1,0 +1,89 @@
+id: SSP-NEU-04
+type: ssp
+title: Céphalée
+discipline: Neuro
+urgency: high
+version: 2026-05-27
+status: ready
+sources:
+  - CS/02_SSP/SSP_Céphalee.md
+
+anamnese:
+  socrates:
+    - Site (uni/bilatéral, localisation)
+    - Onset (brutal vs progressif)
+    - Character (pulsatile, étau)
+    - Radiation (nuque, mâchoire)
+    - Time (durée, fréquence)
+    - Exacerbating (effort, lumière)
+    - Relieving (repos, médicaments)
+    - Severity (0-10)
+  specifique:
+    - Aura visuelle/sensitive
+    - Photo/phonophobie
+    - Nausées/vomissements
+  atcd:
+    - Céphalées habituelles
+    - Migraine familiale
+
+red_flags:
+  - description: Coup de tonnerre (< 1 min)
+    dx_suspecte: HSA
+    action: CT cérébral immédiat
+  - description: "« Pire de ma vie »"
+    dx_suspecte: HSA, dissection
+    action: Imagerie urgente
+  - description: Déficit neurologique focal nouveau
+    dx_suspecte: AVC, tumeur
+    action: AVC pathway
+
+examen:
+  general:
+    - TA, FC, T°, SatO2
+    - Glasgow
+  cible:
+    - Status neuro complet
+    - FO (œdème papillaire)
+    - Palpation artères temporales
+
+dd_top5:
+  - dx: Migraine
+    indices: Pulsatile, photo/phono, aura
+    freq: très fréquent
+  - dx: Céphalée de tension
+    indices: Bilatérale, étau, sans aura
+    freq: fréquent
+  - dx: HSA
+    indices: Thunderclap, méningisme
+    freq: rare/urgent
+  - dx: Horton
+    indices: ">50a, claudication mâchoire, CRP↑"
+    freq: rare
+  - dx: Méningite
+    indices: Fièvre + raideur + altération
+    freq: rare/urgent
+
+pec_initiale:
+  immediate:
+    - Antalgie AINS / Paracétamol
+    - Triptan si migraine confirmée
+  orientation:
+    - Domicile + suivi MT si bénin
+    - URG si red flag
+
+examens_complementaires:
+  - CT cérébral (red flag)
+  - IRM (céphalée progressive)
+  - CRP/VS (Horton)
+
+criteres_hospitalisation:
+  - Imagerie anormale
+  - Altération de conscience
+
+pieges:
+  - Oublier le FO devant une céphalée nouvelle
+  - Triptan contre-indiqué dans HSA
+
+cartes_liees:
+  - SYS-NEU
+  - TOOL-NIHSS

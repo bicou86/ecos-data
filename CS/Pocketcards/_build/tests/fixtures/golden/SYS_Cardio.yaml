@@ -1,0 +1,36 @@
+id: SYS-CAR
+type: sys
+title: Cardio
+discipline: Cardio
+version: 2026-05-27
+status: ready
+sources:
+  - CS/04_Skills_Examen/Cardio/Skills/Cardio.pdf
+
+anamnese_appareil:
+  - Douleur thoracique
+  - Dyspnée
+  - Palpitations
+  - Syncope
+  - Œdèmes des membres inférieurs
+
+examen_physique:
+  - Inspection (cyanose, jugulaires)
+  - Palpation (choc de pointe, frémissements)
+  - Percussion (matité aire cardiaque)
+  - Auscultation (B1, B2, souffles, frottement)
+
+manoeuvres:
+  - Reflux hépatojugulaire
+  - Manœuvre de Valsalva
+  - Test orthostatique
+  - Pouls périphériques bilatéraux
+
+echelles:
+  - NYHA
+  - CHA2DS2-VASc
+  - HAS-BLED
+
+ssps_liees:
+  - SSP-CAR-01
+  - SSP-CAR-04

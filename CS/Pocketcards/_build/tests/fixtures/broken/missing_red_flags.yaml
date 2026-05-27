@@ -1,0 +1,21 @@
+id: SSP-NEU-99
+type: ssp
+title: Carte cassée
+discipline: Neuro
+urgency: low
+version: 2026-05-27
+status: ready
+sources: [test]
+anamnese:
+  socrates: [test]
+  specifique: [test]
+  atcd: [test]
+# red_flags MANQUANTE — c'est l'erreur testée
+examen:
+  general: [test]
+  cible: [test]
+dd_top5:
+  - { dx: Test, indices: x, freq: rare }
+pec_initiale:
+  immediate: [test]
+  orientation: [test]
