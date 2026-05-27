@@ -1,0 +1,308 @@
+/* ECOS Pocketcards — shared stylesheet
+ * Semantic color coding per section (not per discipline).
+ */
+
+:root {
+  --c-meta: #475569;
+  --c-anam: #3b82f6;
+  --c-rf: #dc2626;
+  --c-exam: #10b981;
+  --c-dd: #f59e0b;
+  --c-pec: #8b5cf6;
+  --c-misc: #57534e;
+
+  --bg-anam: #dbeafe;
+  --bg-rf: #fee2e2;
+  --bg-exam: #d1fae5;
+  --bg-dd: #fef3c7;
+  --bg-pec: #ede9fe;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, sans-serif;
+  margin: 0;
+  padding: 16px;
+  background: #f8fafc;
+  color: #1e293b;
+  line-height: 1.45;
+}
+
+.card {
+  max-width: 760px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.card-header {
+  background: var(--c-meta);
+  color: white;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.card-header h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card-header .meta {
+  font-size: 10px;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  opacity: 0.85;
+}
+.card-header .urgency {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.card-header .urgency.high {
+  background: #fecaca;
+  color: #7f1d1d;
+}
+.card-header .urgency.medium {
+  background: #fde68a;
+  color: #78350f;
+}
+.card-header .urgency.low {
+  background: #bbf7d0;
+  color: #14532d;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.section {
+  padding: 10px 14px;
+  border-right: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 12px;
+}
+.section:nth-child(2n) {
+  border-right: none;
+}
+.section.full {
+  grid-column: 1 / -1;
+}
+
+.section .label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.section ul {
+  margin: 0;
+  padding-left: 16px;
+}
+.section ul li {
+  margin: 2px 0;
+}
+
+.section.anam {
+  background: linear-gradient(to bottom, var(--bg-anam) 0%, white 30%);
+}
+.section.anam .label {
+  color: var(--c-anam);
+}
+.section.rf {
+  background: linear-gradient(to bottom, var(--bg-rf) 0%, white 50%);
+}
+.section.rf .label {
+  color: var(--c-rf);
+}
+.section.exam {
+  background: linear-gradient(to bottom, var(--bg-exam) 0%, white 30%);
+}
+.section.exam .label {
+  color: var(--c-exam);
+}
+.section.dd {
+  background: linear-gradient(to bottom, var(--bg-dd) 0%, white 30%);
+}
+.section.dd .label {
+  color: var(--c-dd);
+}
+.section.pec {
+  background: linear-gradient(to bottom, var(--bg-pec) 0%, white 30%);
+}
+.section.pec .label {
+  color: var(--c-pec);
+}
+
+.rf-list {
+  list-style: none;
+  padding: 0;
+}
+.rf-list li {
+  margin: 4px 0;
+  padding: 4px 8px;
+  background: white;
+  border-left: 3px solid var(--c-rf);
+  border-radius: 4px;
+}
+.rf-list .dx {
+  font-size: 10px;
+  color: var(--c-rf);
+  font-weight: 600;
+}
+.rf-list .action {
+  font-size: 10px;
+  color: #475569;
+  font-style: italic;
+}
+
+.dd-list {
+  list-style: none;
+  padding: 0;
+}
+.dd-list li {
+  padding: 3px 0;
+  border-bottom: 1px dashed #e5e7eb;
+}
+.dd-list .dx {
+  font-weight: 600;
+}
+.dd-list .indices {
+  font-size: 10px;
+  color: #475569;
+}
+.dd-list .freq {
+  font-size: 9px;
+  color: var(--c-dd);
+  text-transform: uppercase;
+}
+
+.card-footer {
+  padding: 8px 14px;
+  background: #fafbfc;
+  border-top: 1px solid #e5e7eb;
+  font-size: 10px;
+  color: #64748b;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+}
+.card-footer .linked a {
+  color: var(--c-meta);
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+/* Index page */
+.index {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.index h1 {
+  font-size: 22px;
+}
+.index .filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+.index .filters button {
+  font-size: 11px;
+  padding: 4px 10px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.index .filters button.active {
+  background: var(--c-meta);
+  color: white;
+  border-color: var(--c-meta);
+}
+.index .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+.index .card-link {
+  display: block;
+  padding: 10px 12px;
+  background: white;
+  border-radius: 8px;
+  border-left: 4px solid var(--c-meta);
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+.index .card-link.urgency-high {
+  border-left-color: var(--c-rf);
+}
+.index .card-link .id {
+  font-size: 10px;
+  color: #94a3b8;
+  font-family: monospace;
+}
+.index .card-link .title {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 2px 0;
+}
+.index .card-link .disc {
+  font-size: 10px;
+  color: var(--c-meta);
+}
+
+/* Mobile (< 768px) — collapse to one column */
+@media (max-width: 768px) {
+  body {
+    padding: 8px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .section {
+    border-right: none;
+  }
+  .section.full {
+    grid-column: 1;
+  }
+}
+
+/* Print — A5 portrait */
+@media print {
+  body {
+    background: white;
+    padding: 0;
+  }
+  .card {
+    box-shadow: none;
+    max-width: none;
+    border-radius: 0;
+  }
+  @page {
+    size: A5 portrait;
+    margin: 8mm;
+  }
+  .card-footer {
+    page-break-after: always;
+  }
+}
