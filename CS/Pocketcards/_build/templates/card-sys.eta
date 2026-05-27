@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title><%= it.card.title %> — <%= it.card.id %></title>
+    <link rel="stylesheet" href="../assets/card.css" />
+  </head>
+  <body>
+    <article
+      class="card"
+      data-type="sys"
+      data-discipline="<%= it.card.discipline %>"
+    >
+      <header class="card-header">
+        <h1>
+          <%= it.card.title %>
+          <small style="opacity:.7;font-size:13px;">— Système</small>
+        </h1>
+        <span class="meta"><%= it.card.id %> · v<%= it.card.version %></span>
+      </header>
+
+      <div class="grid">
+        <section class="section anam">
+          <div class="label">📋 Anamnèse par appareil</div>
+          <ul>
+            <% it.card.anamnese_appareil.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+
+        <section class="section exam">
+          <div class="label">🔍 Status d'examen</div>
+          <ul>
+            <% it.card.examen_physique.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+
+        <section class="section exam full">
+          <div class="label">✋ Manœuvres spécifiques</div>
+          <ul>
+            <% it.card.manoeuvres.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+
+        <% if (it.card.echelles && it.card.echelles.length) { %>
+        <section class="section">
+          <div class="label">📊 Échelles / scores</div>
+          <ul>
+            <% it.card.echelles.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+        <% } %> <% if (it.card.ssps_liees && it.card.ssps_liees.length) { %>
+        <section class="section">
+          <div class="label">🔗 SSPs liées</div>
+          <ul>
+            <% it.card.ssps_liees.forEach(function(id){ %>
+            <li><a href="<%= id %>.html"><%= id %></a></li>
+            <% }) %>
+          </ul>
+        </section>
+        <% } %>
+      </div>
+
+      <footer class="card-footer">
+        <span>Sources : <%= (it.card.sources || []).join(' · ') %></span>
+      </footer>
+    </article>
+  </body>
+</html>

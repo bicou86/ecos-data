@@ -22,4 +22,14 @@ describe("renderCard", () => {
     expect(html).toContain("section pec");
     expect(html).toMatchSnapshot();
   });
+
+  it("renders the golden SYS card to HTML", async () => {
+    const { card } = loadAndValidate(join(goldenDir, "SYS_Cardio.yaml"));
+    const html = await renderCard(card);
+    expect(html).toContain("<title>Cardio");
+    expect(html).toContain("SYS-CAR");
+    expect(html).toContain("Inspection");
+    expect(html).toContain("NYHA");
+    expect(html).toMatchSnapshot();
+  });
 });

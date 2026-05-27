@@ -175,3 +175,83 @@ exports[`renderCard > renders the golden SSP card to HTML 1`] = `
 </html>
 "
 `;
+
+exports[`renderCard > renders the golden SYS card to HTML 1`] = `
+"<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cardio — SYS-CAR</title>
+    <link rel="stylesheet" href="../assets/card.css" />
+  </head>
+  <body>
+    <article
+      class="card"
+      data-type="sys"
+      data-discipline="Cardio"
+    >
+      <header class="card-header">
+        <h1>
+          Cardio          <small style="opacity:.7;font-size:13px;">— Système</small>
+        </h1>
+        <span class="meta">SYS-CAR · v2026-05-27</span>
+      </header>
+
+      <div class="grid">
+        <section class="section anam">
+          <div class="label">📋 Anamnèse par appareil</div>
+          <ul>
+                        <li>Douleur thoracique</li>
+                        <li>Dyspnée</li>
+                        <li>Palpitations</li>
+                        <li>Syncope</li>
+                        <li>Œdèmes des membres inférieurs</li>
+                      </ul>
+        </section>
+
+        <section class="section exam">
+          <div class="label">🔍 Status d'examen</div>
+          <ul>
+                        <li>Inspection (cyanose, jugulaires)</li>
+                        <li>Palpation (choc de pointe, frémissements)</li>
+                        <li>Percussion (matité aire cardiaque)</li>
+                        <li>Auscultation (B1, B2, souffles, frottement)</li>
+                      </ul>
+        </section>
+
+        <section class="section exam full">
+          <div class="label">✋ Manœuvres spécifiques</div>
+          <ul>
+                        <li>Reflux hépatojugulaire</li>
+                        <li>Manœuvre de Valsalva</li>
+                        <li>Test orthostatique</li>
+                        <li>Pouls périphériques bilatéraux</li>
+                      </ul>
+        </section>
+
+                <section class="section">
+          <div class="label">📊 Échelles / scores</div>
+          <ul>
+                        <li>NYHA</li>
+                        <li>CHA2DS2-VASc</li>
+                        <li>HAS-BLED</li>
+                      </ul>
+        </section>
+                 <section class="section">
+          <div class="label">🔗 SSPs liées</div>
+          <ul>
+                        <li><a href="SSP-CAR-01.html">SSP-CAR-01</a></li>
+                        <li><a href="SSP-CAR-04.html">SSP-CAR-04</a></li>
+                      </ul>
+        </section>
+              </div>
+
+      <footer class="card-footer">
+        <span>Sources : CS/04_Skills_Examen/Cardio/Skills/Cardio.pdf</span>
+      </footer>
+    </article>
+  </body>
+</html>
+"
+`;
