@@ -537,7 +537,7 @@ Expected: FAIL with `Cannot find module '../src/validate.js'`.
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^(SSP|SYS|TOOL)-[A-Z]{3,4}(-\\d{2})?$"
+      "pattern": "^(SSP|SYS|TOOL)-([A-Z]{3,4}(-\\d{2})?|[A-Z]{5,})$"
     },
     "type": { "enum": ["ssp", "sys", "tool"] },
     "title": { "type": "string", "minLength": 1 },
@@ -697,7 +697,7 @@ import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import yaml from "js-yaml";
-import Ajv from "ajv";
+import Ajv from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -719,7 +719,7 @@ export function loadAndValidate(filePath) {
   const raw = readFileSync(filePath, "utf8");
   let card;
   try {
-    card = yaml.load(raw);
+    card = yaml.load(raw, { schema: yaml.JSON_SCHEMA });
   } catch (e) {
     return {
       valid: false,
