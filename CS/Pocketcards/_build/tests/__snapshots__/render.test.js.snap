@@ -255,3 +255,120 @@ exports[`renderCard > renders the golden SYS card to HTML 1`] = `
 </html>
 "
 `;
+
+exports[`renderCard > renders the golden TOOL card to HTML 1`] = `
+"<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>NIHSS — TOOL-NIHSS</title>
+    <link rel="stylesheet" href="../assets/card.css" />
+  </head>
+  <body>
+    <article
+      class="card"
+      data-type="tool"
+      data-discipline="Neuro"
+    >
+      <header class="card-header">
+        <h1>
+          NIHSS          <small style="opacity:.7;font-size:13px;">— Outil</small>
+        </h1>
+        <span class="meta"
+          >TOOL-NIHSS · Neuro · v2026-05-27</span
+        >
+      </header>
+
+      <div class="grid">
+        <section class="section anam">
+          <div class="label">❓ Quand l'utiliser</div>
+          <ul>
+                        <li>AVC suspect (évaluation initiale)</li>
+                        <li>Suivi post-thrombolyse</li>
+                        <li>Évaluation gravité pour décision thérapeutique</li>
+                      </ul>
+        </section>
+
+        <section class="section exam">
+          <div class="label">📝 Items</div>
+          <ul>
+                        <li>Niveau de conscience</li>
+                        <li>Questions orientation (mois, âge)</li>
+                        <li>Commandes simples</li>
+                        <li>Mouvements oculaires</li>
+                        <li>Champ visuel</li>
+                        <li>Paralysie faciale</li>
+                        <li>Force MS droit/gauche</li>
+                        <li>Force MI droit/gauche</li>
+                        <li>Ataxie</li>
+                        <li>Sensibilité</li>
+                        <li>Langage</li>
+                        <li>Dysarthrie</li>
+                        <li>Extinction/Négligence</li>
+                      </ul>
+        </section>
+
+        <section class="section dd full">
+          <div class="label">🧮 Score / Interprétation</div>
+          <table style="width:100%;border-collapse:collapse;font-size:11px;">
+            <thead>
+              <tr style="background:rgba(245,158,11,.15);">
+                <th style="text-align:left;padding:4px 8px;">Score</th>
+                <th style="text-align:left;padding:4px 8px;">Interprétation</th>
+              </tr>
+            </thead>
+            <tbody>
+                            <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:4px 8px;font-weight:600;">
+                  0                </td>
+                <td style="padding:4px 8px;">Pas de déficit</td>
+              </tr>
+                            <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:4px 8px;font-weight:600;">
+                  1-4                </td>
+                <td style="padding:4px 8px;">AVC mineur</td>
+              </tr>
+                            <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:4px 8px;font-weight:600;">
+                  5-15                </td>
+                <td style="padding:4px 8px;">AVC modéré</td>
+              </tr>
+                            <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:4px 8px;font-weight:600;">
+                  16-20                </td>
+                <td style="padding:4px 8px;">AVC modéré à sévère</td>
+              </tr>
+                            <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:4px 8px;font-weight:600;">
+                  &gt;20                </td>
+                <td style="padding:4px 8px;">AVC sévère</td>
+              </tr>
+                          </tbody>
+          </table>
+        </section>
+
+                <section class="section rf">
+          <div class="label">⚠️ Limites</div>
+          <ul>
+                        <li>Sous-estime AVC postérieur</li>
+                        <li>Pas d&#39;évaluation aphasie fine</li>
+                      </ul>
+        </section>
+                 <section class="section">
+          <div class="label">🔗 SSPs où l'utiliser</div>
+          <ul>
+                        <li><a href="SSP-NEU-AVC.html">SSP-NEU-AVC</a></li>
+                        <li><a href="SSP-NEU-Vertige.html">SSP-NEU-Vertige</a></li>
+                      </ul>
+        </section>
+              </div>
+
+      <footer class="card-footer">
+        <span>Sources : Neurocard - Echelles 2020.pdf</span>
+      </footer>
+    </article>
+  </body>
+</html>
+"
+`;

@@ -32,4 +32,14 @@ describe("renderCard", () => {
     expect(html).toContain("NYHA");
     expect(html).toMatchSnapshot();
   });
+
+  it("renders the golden TOOL card to HTML", async () => {
+    const { card } = loadAndValidate(join(goldenDir, "TOOL_NIHSS.yaml"));
+    const html = await renderCard(card);
+    expect(html).toContain("<title>NIHSS");
+    expect(html).toContain("TOOL-NIHSS");
+    expect(html).toContain("AVC suspect");
+    expect(html).toContain("Pas de déficit");
+    expect(html).toMatchSnapshot();
+  });
 });

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title><%= it.card.title %> — <%= it.card.id %></title>
+    <link rel="stylesheet" href="../assets/card.css" />
+  </head>
+  <body>
+    <article
+      class="card"
+      data-type="tool"
+      data-discipline="<%= it.card.discipline %>"
+    >
+      <header class="card-header">
+        <h1>
+          <%= it.card.title %>
+          <small style="opacity:.7;font-size:13px;">— Outil</small>
+        </h1>
+        <span class="meta"
+          ><%= it.card.id %> · <%= it.card.discipline %> · v<%= it.card.version
+          %></span
+        >
+      </header>
+
+      <div class="grid">
+        <section class="section anam">
+          <div class="label">❓ Quand l'utiliser</div>
+          <ul>
+            <% it.card.quand_utiliser.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+
+        <section class="section exam">
+          <div class="label">📝 Items</div>
+          <ul>
+            <% it.card.items.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+
+        <section class="section dd full">
+          <div class="label">🧮 Score / Interprétation</div>
+          <table style="width:100%;border-collapse:collapse;font-size:11px;">
+            <thead>
+              <tr style="background:rgba(245,158,11,.15);">
+                <th style="text-align:left;padding:4px 8px;">Score</th>
+                <th style="text-align:left;padding:4px 8px;">Interprétation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% it.card.score_interpretation.forEach(function(row){ %>
+              <tr style="border-bottom:1px solid #eee;">
+                <td style="padding:4px 8px;font-weight:600;">
+                  <%= row.score %>
+                </td>
+                <td style="padding:4px 8px;"><%= row.interpretation %></td>
+              </tr>
+              <% }) %>
+            </tbody>
+          </table>
+        </section>
+
+        <% if (it.card.limites && it.card.limites.length) { %>
+        <section class="section rf">
+          <div class="label">⚠️ Limites</div>
+          <ul>
+            <% it.card.limites.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+        <% } %> <% if (it.card.ssps_ou_utiliser &&
+        it.card.ssps_ou_utiliser.length) { %>
+        <section class="section">
+          <div class="label">🔗 SSPs où l'utiliser</div>
+          <ul>
+            <% it.card.ssps_ou_utiliser.forEach(function(id){ %>
+            <li><a href="<%= id %>.html"><%= id %></a></li>
+            <% }) %>
+          </ul>
+        </section>
+        <% } %>
+      </div>
+
+      <footer class="card-footer">
+        <span>Sources : <%= (it.card.sources || []).join(' · ') %></span>
+      </footer>
+    </article>
+  </body>
+</html>
