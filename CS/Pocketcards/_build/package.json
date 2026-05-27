@@ -1,0 +1,32 @@
+{
+  "name": "ecos-pocketcards-builder",
+  "version": "0.1.0",
+  "description": "ECOS pocketcards generator (YAML → HTML / PDF / Notion)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "node src/build.js --validate-only",
+    "build": "node src/build.js",
+    "build:pdf": "node src/build.js --pdf",
+    "publish:notion": "node src/build.js --notion",
+    "dev": "node src/watch.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "chokidar": "^4.0.1",
+    "eta": "^3.5.0",
+    "js-yaml": "^4.1.0",
+    "picocolors": "^1.1.1",
+    "puppeteer": "^23.10.0",
+    "serve-handler": "^6.1.6"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
