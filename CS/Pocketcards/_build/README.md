@@ -20,6 +20,7 @@ npm install      # or: yarn install
 | `npm run publish:notion` | Build the Notion push-manifest (`dist/notion/`)        |
 | `npm run dev`            | Watch mode + preview server on `http://localhost:3000` |
 | `npm test`               | Vitest suite                                           |
+| `npm run test:watch`     | Vitest in watch mode                                   |
 
 ## CLI flags
 
