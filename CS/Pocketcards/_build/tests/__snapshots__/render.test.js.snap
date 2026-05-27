@@ -1,0 +1,177 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renderCard > renders the golden SSP card to HTML 1`] = `
+"<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Céphalée — SSP-NEU-04</title>
+    <link rel="stylesheet" href="../assets/card.css" />
+  </head>
+  <body>
+    <article
+      class="card"
+      data-type="ssp"
+      data-discipline="Neuro"
+    >
+      <header class="card-header">
+        <h1>Céphalée</h1>
+        <div>
+                    <span class="urgency high"
+            >high</span
+          >
+                    <span class="meta"
+            >SSP-NEU-04 · Neuro · v2026-05-27</span
+          >
+        </div>
+      </header>
+
+      <div class="grid">
+        <section class="section anam">
+          <div class="label">📋 Anamnèse</div>
+          <strong>SOCRATES</strong>
+          <ul>
+                        <li>Site (uni/bilatéral, localisation)</li>
+                        <li>Onset (brutal vs progressif)</li>
+                        <li>Character (pulsatile, étau)</li>
+                        <li>Radiation (nuque, mâchoire)</li>
+                        <li>Time (durée, fréquence)</li>
+                        <li>Exacerbating (effort, lumière)</li>
+                        <li>Relieving (repos, médicaments)</li>
+                        <li>Severity (0-10)</li>
+                      </ul>
+          <strong>Spécifique</strong>
+          <ul>
+                        <li>Aura visuelle/sensitive</li>
+                        <li>Photo/phonophobie</li>
+                        <li>Nausées/vomissements</li>
+                      </ul>
+          <strong>ATCD</strong>
+          <ul>
+                        <li>Céphalées habituelles</li>
+                        <li>Migraine familiale</li>
+                      </ul>
+        </section>
+
+        <section class="section rf">
+          <div class="label">🚨 Red flags</div>
+          <ul class="rf-list">
+                        <li>
+              <div>Coup de tonnerre (&lt; 1 min)</div>
+              <div class="dx">→ HSA</div>
+              <div class="action">CT cérébral immédiat</div>
+            </li>
+                        <li>
+              <div>« Pire de ma vie »</div>
+              <div class="dx">→ HSA, dissection</div>
+              <div class="action">Imagerie urgente</div>
+            </li>
+                        <li>
+              <div>Déficit neurologique focal nouveau</div>
+              <div class="dx">→ AVC, tumeur</div>
+              <div class="action">AVC pathway</div>
+            </li>
+                      </ul>
+        </section>
+
+        <section class="section exam">
+          <div class="label">🔍 Examen</div>
+          <strong>Général</strong>
+          <ul>
+                        <li>TA, FC, T°, SatO2</li>
+                        <li>Glasgow</li>
+                      </ul>
+          <strong>Ciblé</strong>
+          <ul>
+                        <li>Status neuro complet</li>
+                        <li>FO (œdème papillaire)</li>
+                        <li>Palpation artères temporales</li>
+                      </ul>
+        </section>
+
+        <section class="section dd">
+          <div class="label">🎯 DD Top 5</div>
+          <ul class="dd-list">
+                        <li>
+              <div class="dx">Migraine</div>
+              <div class="indices">Pulsatile, photo/phono, aura</div>
+              <div class="freq">très fréquent</div>
+            </li>
+                        <li>
+              <div class="dx">Céphalée de tension</div>
+              <div class="indices">Bilatérale, étau, sans aura</div>
+              <div class="freq">fréquent</div>
+            </li>
+                        <li>
+              <div class="dx">HSA</div>
+              <div class="indices">Thunderclap, méningisme</div>
+              <div class="freq">rare/urgent</div>
+            </li>
+                        <li>
+              <div class="dx">Horton</div>
+              <div class="indices">&gt;50a, claudication mâchoire, CRP↑</div>
+              <div class="freq">rare</div>
+            </li>
+                        <li>
+              <div class="dx">Méningite</div>
+              <div class="indices">Fièvre + raideur + altération</div>
+              <div class="freq">rare/urgent</div>
+            </li>
+                      </ul>
+        </section>
+
+        <section class="section pec full">
+          <div class="label">💊 Prise en charge initiale</div>
+          <strong>Immédiat</strong>
+          <ul>
+                        <li>Antalgie AINS / Paracétamol</li>
+                        <li>Triptan si migraine confirmée</li>
+                      </ul>
+          <strong>Orientation</strong>
+          <ul>
+                        <li>Domicile + suivi MT si bénin</li>
+                        <li>URG si red flag</li>
+                      </ul>
+        </section>
+
+                <section class="section">
+          <div class="label">🧪 Examens complémentaires</div>
+          <ul>
+                        <li>CT cérébral (red flag)</li>
+                        <li>IRM (céphalée progressive)</li>
+                        <li>CRP/VS (Horton)</li>
+                      </ul>
+        </section>
+                 <section class="section">
+          <div class="label">🏥 Critères d'hospitalisation</div>
+          <ul>
+                        <li>Imagerie anormale</li>
+                        <li>Altération de conscience</li>
+                      </ul>
+        </section>
+                 <section class="section full">
+          <div class="label">💡 Pièges / Pearls</div>
+          <ul>
+                        <li>Oublier le FO devant une céphalée nouvelle</li>
+                        <li>Triptan contre-indiqué dans HSA</li>
+                      </ul>
+        </section>
+              </div>
+
+      <footer class="card-footer">
+        <span>Sources : CS/02_SSP/SSP_Céphalee.md</span>
+                <span class="linked"
+          >Liées : <a
+            href="SYS-NEU.html"
+            >SYS-NEU</a
+          > · <a
+            href="TOOL-NIHSS.html"
+            >TOOL-NIHSS</a
+          >        </span>
+              </footer>
+    </article>
+  </body>
+</html>
+"
+`;

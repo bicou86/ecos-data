@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title><%= it.card.title %> — <%= it.card.id %></title>
+    <link rel="stylesheet" href="../assets/card.css" />
+  </head>
+  <body>
+    <article
+      class="card"
+      data-type="ssp"
+      data-discipline="<%= it.card.discipline %>"
+    >
+      <header class="card-header">
+        <h1><%= it.card.title %></h1>
+        <div>
+          <% if (it.card.urgency) { %>
+          <span class="urgency <%= it.card.urgency %>"
+            ><%= it.card.urgency %></span
+          >
+          <% } %>
+          <span class="meta"
+            ><%= it.card.id %> · <%= it.card.discipline %> · v<%=
+            it.card.version %></span
+          >
+        </div>
+      </header>
+
+      <div class="grid">
+        <section class="section anam">
+          <div class="label">📋 Anamnèse</div>
+          <strong>SOCRATES</strong>
+          <ul>
+            <% it.card.anamnese.socrates.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+          <strong>Spécifique</strong>
+          <ul>
+            <% it.card.anamnese.specifique.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+          <strong>ATCD</strong>
+          <ul>
+            <% it.card.anamnese.atcd.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+
+        <section class="section rf">
+          <div class="label">🚨 Red flags</div>
+          <ul class="rf-list">
+            <% it.card.red_flags.forEach(function(rf){ %>
+            <li>
+              <div><%= rf.description %></div>
+              <div class="dx">→ <%= rf.dx_suspecte %></div>
+              <div class="action"><%= rf.action %></div>
+            </li>
+            <% }) %>
+          </ul>
+        </section>
+
+        <section class="section exam">
+          <div class="label">🔍 Examen</div>
+          <strong>Général</strong>
+          <ul>
+            <% it.card.examen.general.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+          <strong>Ciblé</strong>
+          <ul>
+            <% it.card.examen.cible.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+
+        <section class="section dd">
+          <div class="label">🎯 DD Top 5</div>
+          <ul class="dd-list">
+            <% it.card.dd_top5.forEach(function(d){ %>
+            <li>
+              <div class="dx"><%= d.dx %></div>
+              <div class="indices"><%= d.indices %></div>
+              <div class="freq"><%= d.freq %></div>
+            </li>
+            <% }) %>
+          </ul>
+        </section>
+
+        <section class="section pec full">
+          <div class="label">💊 Prise en charge initiale</div>
+          <strong>Immédiat</strong>
+          <ul>
+            <% it.card.pec_initiale.immediate.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+          <strong>Orientation</strong>
+          <ul>
+            <% it.card.pec_initiale.orientation.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+
+        <% if (it.card.examens_complementaires &&
+        it.card.examens_complementaires.length) { %>
+        <section class="section">
+          <div class="label">🧪 Examens complémentaires</div>
+          <ul>
+            <% it.card.examens_complementaires.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+        <% } %> <% if (it.card.criteres_hospitalisation &&
+        it.card.criteres_hospitalisation.length) { %>
+        <section class="section">
+          <div class="label">🏥 Critères d'hospitalisation</div>
+          <ul>
+            <% it.card.criteres_hospitalisation.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+        <% } %> <% if (it.card.pieges && it.card.pieges.length) { %>
+        <section class="section full">
+          <div class="label">💡 Pièges / Pearls</div>
+          <ul>
+            <% it.card.pieges.forEach(function(item){ %>
+            <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </section>
+        <% } %>
+      </div>
+
+      <footer class="card-footer">
+        <span>Sources : <%= (it.card.sources || []).join(' · ') %></span>
+        <% if (it.card.cartes_liees && it.card.cartes_liees.length) { %>
+        <span class="linked"
+          >Liées : <% it.card.cartes_liees.forEach(function(id, i){ %><a
+            href="<%= id %>.html"
+            ><%= id %></a
+          ><%= i < it.card.cartes_liees.length - 1 ? ' · ' : '' %><% }) %>
+        </span>
+        <% } %>
+      </footer>
+    </article>
+  </body>
+</html>
