@@ -129,7 +129,7 @@ async function main() {
   // loaded lazily to keep the validate-only path fast.
   if (opts.pdf && !opts.validateOnly) {
     const { runPdf } = await import("./pdf.js");
-    await runPdf({ verbose: opts.verbose });
+    await runPdf({ verbose: opts.verbose, only: opts.only });
   }
   if (opts.notion && !opts.validateOnly) {
     const { runNotion } = await import("./notion.js");
