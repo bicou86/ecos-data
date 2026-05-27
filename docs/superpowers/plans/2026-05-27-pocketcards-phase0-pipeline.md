@@ -1739,8 +1739,8 @@ Expected: FAIL — `index.eta` not found.
         <button class="active" data-filter="discipline" data-value="all">
           Toutes disciplines
         </button>
-        <% [...new Set(it.cards.map(c =>
-        c.discipline))].sort().forEach(function(d){ %>
+        <% Array.from(new Set(it.cards.map(function(c){ return c.discipline;
+        }))).sort().forEach(function(d){ %>
         <button data-filter="discipline" data-value="<%= d %>"><%= d %></button>
         <% }) %>
       </div>
