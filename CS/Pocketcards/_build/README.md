@@ -36,3 +36,36 @@ node src/build.js [--pdf] [--notion] [--include-drafts] [--only=<id>] [--verbose
 - Validation schema: `schema/pocketcard.schema.json`
 
 See `docs/superpowers/specs/2026-05-27-pocketcards-design.md` for the full design.
+
+## Troubleshooting
+
+**AJV draft-2020-12 import**
+AJV v8 ships multiple entry points. JSON Schema draft-2020-12 requires the dedicated export:
+
+```js
+import Ajv from "ajv/dist/2020.js";
+```
+
+Using the default `import Ajv from "ajv"` silently loads the draft-07 validator, which ignores `$schema` and produces false positives on allOf/if-then patterns.
+
+**js-yaml date auto-coercion**
+By default js-yaml converts bare YAML date strings (e.g. `version: 2026-05-27`) into JavaScript `Date` objects. This breaks the schema string-pattern check. Always load YAML with the JSON schema to keep dates as strings:
+
+```js
+yaml.load(raw, { schema: yaml.JSON_SCHEMA });
+```
+
+**Eta template spread syntax**
+Eta templates do not support the ES2015+ spread operator inside template expressions. Use `Array.from()` instead of `[...new Set(...)]`:
+
+```html
+<!-- fails in Eta -->
+<% [...new Set(it.cards.map(c => c.discipline))].forEach(...) %>
+
+<!-- works -->
+<% Array.from(new Set(it.cards.map(function(c){ return c.discipline;
+}))).forEach(...) %>
+```
+
+**Puppeteer first-run Chromium download**
+`npm install` triggers a one-time Chromium download (~150 MB, ~30 s on a fast connection). Subsequent installs use the local cache. If you are behind a corporate proxy and the download fails, set `PUPPETEER_SKIP_DOWNLOAD=1` before `npm install`, then point Puppeteer at a local Chromium via the `executablePath` option in `src/pdf.js`.
