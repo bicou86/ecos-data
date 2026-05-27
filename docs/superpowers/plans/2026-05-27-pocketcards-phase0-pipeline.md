@@ -322,7 +322,7 @@ anamnese_appareil:
   - Syncope
   - Œdèmes des membres inférieurs
 
-status:
+examen_physique:
   - Inspection (cyanose, jugulaires)
   - Palpation (choc de pointe, frémissements)
   - Percussion (matité aire cardiaque)
@@ -649,13 +649,13 @@ Expected: FAIL with `Cannot find module '../src/validate.js'`.
     {
       "if": { "properties": { "type": { "const": "sys" } } },
       "then": {
-        "required": ["anamnese_appareil", "status", "manoeuvres"],
+        "required": ["anamnese_appareil", "examen_physique", "manoeuvres"],
         "properties": {
           "anamnese_appareil": {
             "type": "array",
             "items": { "type": "string" }
           },
-          "status": { "type": "array", "items": { "type": "string" } },
+          "examen_physique": { "type": "array", "items": { "type": "string" } },
           "manoeuvres": { "type": "array", "items": { "type": "string" } },
           "echelles": { "type": "array", "items": { "type": "string" } },
           "ssps_liees": { "type": "array", "items": { "type": "string" } }
@@ -1454,7 +1454,7 @@ Expected: FAIL — no template for type `sys`.
         <section class="section exam">
           <div class="label">🔍 Status d'examen</div>
           <ul>
-            <% it.card.status.forEach(function(item){ %>
+            <% it.card.examen_physique.forEach(function(item){ %>
             <li><%= item %></li>
             <% }) %>
           </ul>
@@ -2461,7 +2461,7 @@ export function buildPushPlan(card) {
     blocks.push(heading("📋 Anamnèse par appareil"));
     card.anamnese_appareil.forEach((x) => blocks.push(bullet(x)));
     blocks.push(heading("🔍 Status d'examen"));
-    card.status.forEach((x) => blocks.push(bullet(x)));
+    card.examen_physique.forEach((x) => blocks.push(bullet(x)));
     blocks.push(heading("✋ Manœuvres"));
     card.manoeuvres.forEach((x) => blocks.push(bullet(x)));
     if (card.echelles?.length) {
