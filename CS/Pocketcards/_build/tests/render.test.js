@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { renderCard } from "../src/render.js";
+import { renderCard, renderIndex } from "../src/render.js";
 import { loadAndValidate } from "../src/validate.js";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
@@ -40,6 +40,23 @@ describe("renderCard", () => {
     expect(html).toContain("TOOL-NIHSS");
     expect(html).toContain("AVC suspect");
     expect(html).toContain("Pas de déficit");
+    expect(html).toMatchSnapshot();
+  });
+});
+
+describe("renderIndex", () => {
+  it("renders the index with all card links", async () => {
+    const cards = [
+      loadAndValidate(join(goldenDir, "SSP_Cephalee.yaml")).card,
+      loadAndValidate(join(goldenDir, "SYS_Cardio.yaml")).card,
+      loadAndValidate(join(goldenDir, "TOOL_NIHSS.yaml")).card,
+    ];
+    const html = await renderIndex(cards);
+    expect(html).toContain("SSP-NEU-04");
+    expect(html).toContain("SYS-CAR");
+    expect(html).toContain("TOOL-NIHSS");
+    expect(html).toContain("data-filter");
+    expect(html).toContain("Céphalée");
     expect(html).toMatchSnapshot();
   });
 });

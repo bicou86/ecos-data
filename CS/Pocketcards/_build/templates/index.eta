@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ECOS Pocketcards — Index</title>
+    <link rel="stylesheet" href="../assets/card.css" />
+  </head>
+  <body>
+    <main class="index">
+      <h1>ECOS Pocketcards</h1>
+      <p style="color:#64748b;font-size:13px;">
+        <%= it.cards.length %> cartes · <%= it.cards.filter(c => c.type ===
+        'ssp').length %> SSP · <%= it.cards.filter(c => c.type === 'sys').length
+        %> Systèmes · <%= it.cards.filter(c => c.type === 'tool').length %>
+        Outils
+      </p>
+
+      <div class="filters" id="type-filters">
+        <button class="active" data-filter="type" data-value="all">
+          Tous types
+        </button>
+        <button data-filter="type" data-value="ssp">SSP</button>
+        <button data-filter="type" data-value="sys">Système</button>
+        <button data-filter="type" data-value="tool">Outil</button>
+      </div>
+
+      <div class="filters" id="discipline-filters">
+        <button class="active" data-filter="discipline" data-value="all">
+          Toutes disciplines
+        </button>
+        <% Array.from(new Set(it.cards.map(function(c){ return c.discipline; }))).sort().forEach(function(d){ %>
+        <button data-filter="discipline" data-value="<%= d %>"><%= d %></button>
+        <% }) %>
+      </div>
+
+      <div class="cards" id="card-list">
+        <% it.cards.forEach(function(card){ %>
+        <a
+          class="card-link <%= card.urgency ? 'urgency-' + card.urgency : '' %>"
+          href="<%= card.id %>.html"
+          data-type="<%= card.type %>"
+          data-discipline="<%= card.discipline %>"
+        >
+          <div class="id"><%= card.id %></div>
+          <div class="title"><%= card.title %></div>
+          <div class="disc">
+            <%= card.discipline %><% if (card.urgency) { %> · <%= card.urgency
+            %><% } %>
+          </div>
+        </a>
+        <% }) %>
+      </div>
+    </main>
+
+    <script>
+      const state = { type: "all", discipline: "all" };
+      document.querySelectorAll("[data-filter]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const key = btn.dataset.filter;
+          state[key] = btn.dataset.value;
+          document
+            .querySelectorAll(`[data-filter="${key}"]`)
+            .forEach((b) =>
+              b.classList.toggle("active", b.dataset.value === state[key]),
+            );
+          document.querySelectorAll(".card-link").forEach((c) => {
+            const okType =
+              state.type === "all" || c.dataset.type === state.type;
+            const okDisc =
+              state.discipline === "all" ||
+              c.dataset.discipline === state.discipline;
+            c.style.display = okType && okDisc ? "" : "none";
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

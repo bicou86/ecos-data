@@ -372,3 +372,100 @@ exports[`renderCard > renders the golden TOOL card to HTML 1`] = `
 </html>
 "
 `;
+
+exports[`renderIndex > renders the index with all card links 1`] = `
+"<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ECOS Pocketcards — Index</title>
+    <link rel="stylesheet" href="../assets/card.css" />
+  </head>
+  <body>
+    <main class="index">
+      <h1>ECOS Pocketcards</h1>
+      <p style="color:#64748b;font-size:13px;">
+        3 cartes · 1 SSP · 1 Systèmes · 1        Outils
+      </p>
+
+      <div class="filters" id="type-filters">
+        <button class="active" data-filter="type" data-value="all">
+          Tous types
+        </button>
+        <button data-filter="type" data-value="ssp">SSP</button>
+        <button data-filter="type" data-value="sys">Système</button>
+        <button data-filter="type" data-value="tool">Outil</button>
+      </div>
+
+      <div class="filters" id="discipline-filters">
+        <button class="active" data-filter="discipline" data-value="all">
+          Toutes disciplines
+        </button>
+                <button data-filter="discipline" data-value="Cardio">Cardio</button>
+                <button data-filter="discipline" data-value="Neuro">Neuro</button>
+              </div>
+
+      <div class="cards" id="card-list">
+                <a
+          class="card-link urgency-high"
+          href="SSP-NEU-04.html"
+          data-type="ssp"
+          data-discipline="Neuro"
+        >
+          <div class="id">SSP-NEU-04</div>
+          <div class="title">Céphalée</div>
+          <div class="disc">
+            Neuro · high          </div>
+        </a>
+                <a
+          class="card-link "
+          href="SYS-CAR.html"
+          data-type="sys"
+          data-discipline="Cardio"
+        >
+          <div class="id">SYS-CAR</div>
+          <div class="title">Cardio</div>
+          <div class="disc">
+            Cardio          </div>
+        </a>
+                <a
+          class="card-link "
+          href="TOOL-NIHSS.html"
+          data-type="tool"
+          data-discipline="Neuro"
+        >
+          <div class="id">TOOL-NIHSS</div>
+          <div class="title">NIHSS</div>
+          <div class="disc">
+            Neuro          </div>
+        </a>
+              </div>
+    </main>
+
+    <script>
+      const state = { type: "all", discipline: "all" };
+      document.querySelectorAll("[data-filter]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const key = btn.dataset.filter;
+          state[key] = btn.dataset.value;
+          document
+            .querySelectorAll(\`[data-filter="\${key}"]\`)
+            .forEach((b) =>
+              b.classList.toggle("active", b.dataset.value === state[key]),
+            );
+          document.querySelectorAll(".card-link").forEach((c) => {
+            const okType =
+              state.type === "all" || c.dataset.type === state.type;
+            const okDisc =
+              state.discipline === "all" ||
+              c.dataset.discipline === state.discipline;
+            c.style.display = okType && okDisc ? "" : "none";
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
+"
+`;
