@@ -1,0 +1,193 @@
+# source: SSP_Fibrillation_Auriculaire.md — lignes 1-547
+id: SSP-CAR-02
+type: ssp
+title: Fibrillation auriculaire
+discipline: Cardio
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Fibrillation_Auriculaire.md
+
+# source: line 9-130 (anamnèse)
+anamnese:
+  socrates:
+    - |-
+      {s:Palpitations} (symptôme principal):
+      • régulières ou irrégulières?
+      • rapides ou lentes?
+      • début brutal ou progressif?
+      • durée des épisodes, première fois ou récidivant?
+    - "{s:Dyspnée}: au repos ou à l'effort? Orthopnée? Dyspnée paroxystique nocturne?"
+    - "{s:Douleur thoracique}: oppressive? localisation, irradiation, déclenchement effort? [VÉRIFIER:SCA concomitant]"
+    - "{s:Vertiges/syncope}: ⚠ instabilité — perte de conscience complète? circonstance? traumatisme?"
+    - "Depuis quand exactement? FA {e:paroxystique} (< 7 j) / {e:persistante} (≥ 7 j) / {e:permanente} (acceptée)?"
+    - |-
+      Facteurs déclenchants:
+      • alcool (binge drinking / «holiday heart»)?
+      • hyperthyroïdie / médicaments proarythmiques?
+      • infection récente? effort intense? stress? manque de sommeil?
+  specifique:
+    - |-
+      {s:Signes d'insuffisance cardiaque}:
+      • œdèmes MI bilatéraux? nycturie? prise de poids récente?
+      • dyspnée paroxystique nocturne, orthopnée?
+      • diminution périmètre de marche?
+    - |-
+      {s:Signes neurologiques / emboliques}:
+      • déficit moteur ou aphasie (AVC/AIT)?
+      • épisodes déficitaires < 24 h avec récupération complète (AIT)?
+      • douleur ou froideur d'un membre, abolition de pouls (embolie périphérique)?
+    - |-
+      Score {t:CHA2DS2-VASc} à calculer systématiquement:
+      • C = IC / FEVG < 40% / valvulopathie (+1)
+      • H = HTA (+1) • A2 = âge ≥ 75 ans (+2) • D = diabète (+1)
+      • S2 = AVC/AIT/embolie antérieure (+2) • V = vasculopathie (+1)
+      • A = âge 65-74 ans (+1) • Sc = femme (+1)
+    - |-
+      Score {t:HAS-BLED} (risque hémorragique):
+      • HTA non contrôlée, anomalie rénale/hépatique, AVC antérieur
+      • hémorragie antérieure, INR labile, âge > 65 ans, AINS/alcool
+      • ≥ 3 = haut risque → précaution, PAS une contre-indication
+    - "Score {t:EHRA} (symptômes FA): I = asymptomatique; II = symptômes mineurs; III = activités limitées; IV = handicapant [VÉRIFIER:utilisation EHRA en ECOS CH]"
+  atcd:
+    - |-
+      Cardiovasculaires:
+      • HTA (contrôlée?)
+      • coronaropathie (IDM, angor)
+      • insuffisance cardiaque (FE connue?)
+      • valvulopathie ({p:sténose mitrale} = indication AVK, pas AOD)
+      • cardiomyopathie, péricardite
+    - "Endocriniens: {p:hyperthyroïdie}? (TSH récente?) — diabète?"
+    - "Pulmonaires: BPCO, SAOS (apnées du sommeil), embolie pulmonaire antérieure?"
+    - |-
+      Médicaments:
+      • anticoagulation actuelle (AVK → INR récent? AOD? aspirine?)
+      • proarythmiques (antiarythmiques classe I, digoxine, théophylline)
+      • hormones thyroïdiennes (surdosage?)
+      • bêtabloquants, inhibiteurs calciques, diurétiques?
+    - |-
+      Toxiques:
+      • {e:alcool}: consommation habituelle, binge drinking récent?
+      • tabac, café en excès, cocaïne/amphétamines?
+    - "ATCD familiaux: FA familiale, cardiopathies, mort subite jeune, AVC précoces?"
+
+# source: line 256-265 (évaluation gravité) + pivots FA-specific
+red_flags:
+  - description: "{s:Hypotension symptomatique} ou {s:détresse hémodynamique} (TA < 90, sueurs, confusion, cyanose)"
+    dx_suspecte: "{p:FA instable — bas débit cardiaque aigu}"
+    action: "Cardioversion électrique {r:urgente (150-200 J biphasique)} sous AG; monitorer; appel urgences"
+  - description: "{s:Douleur thoracique oppressive} + FA rapide"
+    dx_suspecte: "{p:SCA (ischémie myocardique active)}"
+    action: "{t:ECG 12 dérivations STAT} + {t:troponines} + cardiologue urgence; ne pas retarder pour calcul de score"
+  - description: "{s:Déficit neurologique focal brutal} (parésie, aphasie, hémiparésie) associé à la FA"
+    dx_suspecte: "{p:AVC cardioembolique}"
+    action: "AVC pathway immédiat: {t:IRM/CT cérébral STAT}; anticoagulation en urgence discutée avec neuro"
+  - description: "{s:Insuffisance cardiaque aiguë} (dyspnée sévère, crépitants, SpO2 < 92%) avec FA rapide"
+    dx_suspecte: "{p:Décompensation cardiaque sur FA rapide}"
+    action: "Contrôle freq {r:urgent (β-bloquant ou digoxine IV)} + {r:diurétiques IV}; hospitalisation en urgence"
+  - description: "{s:Douleur de membre} + abolition de pouls périphérique (pâleur, froideur, paralysie)"
+    dx_suspecte: "{p:Embolie artérielle périphérique (thrombus OG)}"
+    action: "Chirurgie vasculaire urgente (embolectomie); {t:écho-doppler} membres; anticoagulation IV"
+  - description: "{s:FA} confirmée + {e:grossesse} ou {e:valve mécanique prothétique}"
+    dx_suspecte: "{p:FA valvulaire / FA gestationnelle — régime anticoagulant spécifique requis}"
+    action: "AVK (cible INR {r:2,5-3,5} pour valves méca) ou HBPM (grossesse); pas d'AOD; avis cardio-obstétrique"
+
+# source: line 133-211 (examen clinique)
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: {t:FC} (compter 1 min — irrégulier irrégulier?), {t:TA} (les deux bras), FR, SpO2, T°"
+    - "État général: agitation, confusion, cyanose, sueurs froides (instabilité)"
+    - "Hyperthyroïdie: amaigrissement, exophtalmie, goitre, tremblement des mains, agitation"
+  cible:
+    - |-
+      {s:Pouls radial} (ESSENTIEL — diagnostic au lit):
+      • rythme {s:irrégulièrement irrégulier}
+      • amplitude variable (battements forts/faibles alternés)
+      • {s:déficit radial-apical}: FC centrale (auscultation) > périphérique (pouls)
+      • 4 membres: embolie artérielle?
+    - |-
+      Auscultation cardiaque:
+      • rythme {s:irrégulier irrégulier}, B1 d'intensité variable, pas d'ondes P audibles
+      • souffles: diastolique (sténose mitrale → cause!), systolique apical (IM fonctionnelle)
+      • souffle de galop B3 (IC systolique)
+    - |-
+      Signes d'insuffisance cardiaque:
+      • pulmonaire: crépitants des bases, SaO2 diminuée
+      • droite: turgescence jugulaire, reflux hépato-jugulaire, hépatomégalie, œdèmes MI godet
+    - "Examen neurologique: déficit focal? confusion? (embolie cérébrale)"
+    - "Signes d'hyperthyroïdie: ROT vifs, tremblement fin, tachycardie disproportionnée"
+
+# source: line 217-255 (examens complémentaires)
+examens_complementaires:
+  - "{t:ECG 12 dérivations}: PREMIER examen — absence ondes P, ondes f 350-600/min, RR irréguliers, QRS fins; chercher ischémie, BBG [VÉRIFIER:critères ECG flutter vs FA en pratique ECOS]"
+  - "{t:TSH}: SYSTÉMATIQUE (hyperthyroïdie traitable)"
+  - "{t:Ionogramme + créatinine}: K+ et Mg2+ (maintien FA si troubles); clairance créatinine (ajustement AOD)"
+  - "{t:Troponines}: si douleur thoracique associée (SCA, myocardite)"
+  - "{t:Échocardiographie transthoracique}: fonction VG (FE), dilatation OG, valvulopathies, thrombus, HTAP"
+  - "{t:Holter ECG / ETO}: FA paroxystique suspectée (Holter) ou cardioversion si FA > 48 h (ETO — thrombus auricule G) [VÉRIFIER:délai 48h pour ETO avant cardioversion — protocole local CHUV/HUG]"
+
+# source: line 516-525 (pièges), pivots FA-specific
+dd_top5:
+  - dx: "{p:Flutter auriculaire}"
+    indices: "Ondes F régulières en dents de scie (250-350/min), bloc 2:1 ou 4:1 → FC régulière à 150/min; pas d'irrégularité absolue; distinction ECG cruciale"
+    freq: "fréquent — souvent associé ou précède la FA"
+  - dx: "{p:Tachycardie paroxystique supraventriculaire (TPSV)}"
+    indices: "Début/fin brutal, FC régulière 150-250/min, QRS fins; pas d'irrégularité — distinguer par ECG; manœuvre vagale peut terminer la TPSV"
+    freq: "fréquent chez adulte jeune"
+  - dx: "{p:Extrasystoles ventriculaires (ESV) en bigéminisme}"
+    indices: "Pouls alternativement régulier + extra irrégulier, sensation de «saut»; ECG: QRS larges, pause compensatrice; pas de tachycardie soutenue"
+    freq: "très fréquent — bénin si cœur normal"
+  - dx: "{p:Tachycardie ventriculaire (TV) non soutenue}"
+    indices: "Salves QRS larges (> 3 complexes), FC > 100/min, durée < 30 s; association cardiopathie structurelle (IDM, CMH); à ne jamais négliger"
+    freq: "moins fréquent — alarme si cardiopathie"
+  - dx: "{p:FA secondaire à hyperthyroïdie}"
+    indices: "FA révélatrice d'hyperthyroïdie: TSH effondrée, T4 libre élevée, tremblement, perte de poids, thermophobie; traitement de la cause → retour RS souvent possible"
+    freq: "5-10% des FA — cause curable à ne pas manquer"
+
+# source: line 336-432 + évaluation gravité
+pec_initiale:
+  immediate:
+    - "1. RED FLAGS d'abord: instabilité hémodynamique → cardioversion électrique URGENTE sans délai"
+    - "2. {t:ECG 12 dérivations} immédiat + signes vitaux complets"
+    - |-
+      3. Stratification urgence vs stable:
+      • instable (hypotension, IC aiguë, ischémie, syncope) → UMU/cardiologie urgence
+      • stable → traitement programmé selon rythme vs fréquence
+    - |-
+      4. Contrôle de la fréquence (FA stable — objectif {r:FC < 100/min au repos}):
+      • {r:β-bloquant 1ère ligne}: métoprolol 50-200 mg/j PO ou bisoprolol 2,5-10 mg/j (CI: asthme, choc)
+      • {r:Inhibiteurs calciques non-DHP}: vérapamil ou diltiazem 120-360 mg/j (CI: IC sévère)
+      • {r:Digoxine}: 0,125-0,25 mg/j (3e ligne; surveiller digoxinémie)
+    - |-
+      5. Anticoagulation ({t:CHA2DS2-VASc} ≥ 2 hommes / ≥ 3 femmes):
+      • {r:AOD 1ère ligne} (sauf valve mécanique / sténose mitrale rhumatismale):
+        - apixaban {r:5 mg ×2/j} (réduction {r:2,5 mg ×2/j} si ≥ 2: âge ≥80, poids ≤60 kg, créat ≥133 µmol/L)
+        - rivaroxaban {r:20 mg/j} avec repas (réduction 15 mg/j si ClCr 30-50)
+        - dabigatran {r:150 mg ×2/j} (antidote: idarucizumab — réduction 110 mg si âge ≥80)
+      • {r:AVK (INR 2-3)}: valves mécaniques, syndrome APL, grossesse CI
+    - "6. Cardioversion (contrôle du rythme): urgente si instable; programmée si FA > 48 h → anticoagulation {r:≥ 3 semaines} ou ETO préalable; pharmacologique: flécaïnide {r:1,5-3 mg/kg IV} (cœur normal) ou amiodarone {r:5-10 mg/kg IV} (cardiopathie) [VÉRIFIER:protocole flécaïnide IV institutionnel]"
+    - "7. Traitement étiologique: hyperthyroïdie → antithyroïdiens; SAOS → CPAP; alcool → sevrage; corrections ioniques K+/Mg2+"
+  orientation:
+    - "Urgences / USI: FA instable hémodynamiquement (cardioversion urgente), FA + SCA, FA + AVC, FA + IC aiguë sévère"
+    - "Hospitalisation cardiologie: FA symptomatique première, cardioversion programmée, FA + cardiopathie décompensée"
+    - "Ambulatoire + cardiologue < 1 mois: FA bien tolérée, contrôle freq initié, anticoagulation débutée"
+    - "Suivi MT: contrôle INR (J3, J7, puis mensuel si AVK), ionogramme/créatinine sous AOD à 3 mois, Holter si suspicion récidive"
+
+criteres_hospitalisation:
+  - "FA hémodynamiquement instable (hypotension, IC aiguë, ischémie, syncope)"
+  - "FA + AVC/AIT ou embolie périphérique"
+  - "Première FA sévèrement symptomatique sans diagnostic clair"
+  - "Cardioversion programmée (FA persistante > 48 h, ETO nécessaire)"
+  - "FA avec décompensation d'une comorbidité (IC, coronaropathie, hyperthyroïdie sévère)"
+
+pieges:
+  - "Confondre {p:flutter auriculaire} avec FA: flutter = ondes F régulières en dents de scie, FC souvent régulière à 150/min (2:1) — traitement différent"
+  - "{t:HAS-BLED ≥ 3} = PRÉCAUTION, pas contre-indication à l'anticoagulation — corriger les facteurs modifiables"
+  - "Cardioversion sans anticoagulation préalable si FA > 48 h → risque d'AVC embolique par mobilisation de thrombus de l'auricule"
+  - "Omettre la {t:TSH} = manquer une hyperthyroïdie traitable (5-10% des FA)"
+  - "Utiliser les {r:AOD} dans la FA valvulaire ({p:sténose mitrale rhumatismale} ou valve mécanique) — indication AVK stricte"
+
+cartes_liees:
+  - SYS-CAR
+  - SSP-CAR-01

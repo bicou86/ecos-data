@@ -1,0 +1,188 @@
+id: SSP-CAR-06
+type: ssp
+title: Claudication intermittente
+discipline: Cardio
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Claudication_Intermittente.md
+
+# source: ligne 1-168 (anamnèse)
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • mollet (fréquent), cuisse, fesse ({s:lésion iliaque}), pied?
+      • unilatérale ou bilatérale?
+    - |-
+      Onset:
+      • depuis quand? aggravation progressive?
+      • douleur uniquement à l'effort ou également au repos (→ stade avancé)?
+    - "Character: crampe / serrement / fatigue musculaire / brûlure?"
+    - "Radiation: remonte vers la cuisse, descend vers le pied?"
+    - |-
+      Time:
+      • {r:périmètre de marche} en mètres (avant douleur / marche maximale)
+      • stade {t:Leriche-Fontaine}: 2a >200 m, 2b <200 m, 3 = repos, 4 = trophique [VÉRIFIER: seuil 200 m invariant selon source]
+      • temps de récupération au repos (<10 min = vasculaire)?
+    - |-
+      Exacerbating:
+      • montée / côte (apparition plus précoce)?
+      • vélo possible? (si oui → penser {p:canal lombaire étroit}, neurogène)
+    - "Relieving: soulagement au repos EN POSITION DEBOUT (vasculaire) ou en FLEXION (neurogène)?"
+    - "Severity: EVA 0-10; obligé de s'arrêter? impact sur vie quotidienne / travail?"
+  specifique:
+    - |-
+      {s:Claudication vasculaire vs neurogène} (distinction clé):
+      • vasculaire: douleur fixe en distance, soulagée rapidement debout, vélo difficile
+      • neurogène: variable, soulagée penché en avant / assis, vélo OK
+    - |-
+      Symptômes d'ischémie avancée:
+      • {s:douleur de repos} / décubitus (stade 3)?
+      • {s:troubles trophiques}: peau sèche, perte pilosité, ongles épaissis, ulcères, gangrène?
+      • {s:paresthésies}, sensation de froid, différence thermique droite/gauche?
+    - "{s:Dysfonction érectile}? (syndrome de Leriche = occlusion aorto-iliaque bilatérale)"
+    - |-
+      Symptômes cardiovasculaires associés:
+      • {s:angor} (douleur thoracique à l'effort)?
+      • {s:dyspnée} (classe NYHA)?
+      • ATCD AVC/AIT, palpitations?
+  atcd:
+    - |-
+      FRCV: [VÉRIFIER: confirmer ordre de priorité selon ESC 2024]
+      • {r:tabagisme} (paquets-années, actif/sevré, tentatives d'arrêt) — FACTEUR MAJEUR
+      • diabète (type, HbA1c, complications)
+      • HTA (valeurs, traitement, observance)
+      • dyslipidémie (LDL, traitement)
+      • obésité (IMC, périmètre abdominal)
+    - |-
+      ATCD cardiovasculaires:
+      • IDM, angioplastie/stents, pontage
+      • AVC/AIT, anévrisme aortique
+      • chirurgie ou angioplastie vasculaire périphérique, amputation
+    - |-
+      ATCD familiaux:
+      • maladie coronarienne précoce (H <55 ans, F <65 ans)
+      • artériopathie périphérique, anévrisme
+    - |-
+      Traitements actuels:
+      • antiagrégants (aspirine, clopidogrel)?
+      • statines? IEC/ARA2? bêtabloquants? antidiabétiques?
+      • observance?
+    - "Mode de vie: activité physique (limitée par les symptômes?), alimentation, alcool, profession (impact fonctionnel)"
+
+# source: ligne 171-328 (examen)
+examen:
+  general:
+    - "Signes vitaux: {r:TA aux DEUX bras} (asymétrie >20 mmHg → sténose sous-clavière ou coarctation), FC, poids/IMC, périmètre abdominal"
+    - "Inspection: boiterie, position antalgique, {s:xanthélasmas}, arc cornéen, coloration jaune des doigts (tabac)"
+  cible:
+    - |-
+      Palpation vasculaire bilatérale (coter 0-3+):
+      • {r:pouls fémoral} (pli inguinal), {r:poplité} (creux poplité en DV), {r:tibial postérieur} (derrière malléole interne), {r:pédieux} (dos du pied)
+      • aorte abdominale: masse pulsatile? → AAA
+      • température cutanée: gradient, niveau de refroidissement
+    - |-
+      Auscultation vasculaire:
+      • carotides, sous-clavières, aorte abdominale (médiane), artères rénales (±2 cm au-dessus ombilic), iliaques, {r:fémorales}
+      • souffle = sténose >50%; noter caractère systolique/continu
+    - |-
+      Trophicité membres inférieurs (bilatérale):
+      • couleur: pâleur / cyanose / érythrose de déclivité
+      • pilosité diminuée, peau sèche/squameuse, ongles épaissis
+      • {s:ulcérations} (localisation!), gangrène, cicatrices
+      • pieds: talons, espaces interdigitaux, hyperkératose
+    - |-
+      {t:Test de Buerger}: surélever MI 45° × 2 min → pâleur (ischémie); asseoir jambes pendantes → érythrose reperfusion; {r:recoloration >15 sec} = anormal [VÉRIFIER: seuil exact 15 sec vs autres sources]
+    - "{t:IPS} (Index de Pression Systolique = TA cheville / TA bras): normal 0.9-1.3; <0.9 = AOMI; <0.5 = ischémie sévère; >1.3 = médiacalcose (diabète)"
+    - |-
+      Auscultation cardiaque (4 foyers):
+      • arythmie (FA → risque embolique)?
+      • souffle aortique (sténose → irradiation carotides)?
+    - "Examen neurologique ciblé si suspicion claudication neurogène: sensibilité (monofilament), ROT, proprioception, posture en flexion"
+
+# source: lignes 332-398 (PEC) + pivots
+red_flags:
+  - description: "{s:5 P aiguës}: douleur brutale + pâleur + absence pouls + paresthésies + paralysie"
+    dx_suspecte: "{p:Ischémie aiguë de membre}"
+    action: "Appel chirurgie vasculaire STAT; revascularisation <6 h; anticoagulation héparine IV immédiate"
+  - description: "{s:Douleur de repos} ou {s:nécrose/ulcère artériel} (orteils noirs, douleur nocturne position déclive)"
+    dx_suspecte: "{p:Ischémie critique} (Leriche-Fontaine stade 3-4)"
+    action: "Hospitalisation urgente; écho-Doppler + angio-CT; revascularisation semi-urgente"
+  - description: "{e:Jeune <40 ans} + HTA + claudication MI + gradient TA bras-jambes significatif"
+    dx_suspecte: "{p:Coarctation aortique}"
+    action: "{t:Écho cardiaque + angio-CT} aortique; avis cardiologie/chirurgie"
+  - description: "{s:Masse abdominale pulsatile} palpable + claudication ou douleur dorsale"
+    dx_suspecte: "{p:Anévrisme aortique abdominal (AAA)}"
+    action: "{t:Écho abdominal urgente}; si fissuration → chirurgie STAT"
+  - description: "FA détectée + début brutal claudication unilatérale sans FRCV"
+    dx_suspecte: "{p:Embolie artérielle} sur FA"
+    action: "Appel vasculaire; anticoagulation IV; artériographie/embolectomie"
+  - description: "{s:Douleur MI à la marche} + {e:cycliste de haut niveau} jeune sans FRCV"
+    dx_suspecte: "{p:Endofibrose iliaque externe}"
+    action: "{t:Angio-CT ou écho-Doppler à l'effort} [VÉRIFIER: protocole local CHUV/HUG]"
+
+dd_top5:
+  - dx: "{p:AOMI} (Artériopathie Oblitérante des MI)"
+    indices: "Douleur mollet/cuisse à la marche, soulagée au repos debout <10 min, distance fixe; IPS <0.9; FRCV multiples (tabac++); écho-Doppler confirme"
+    freq: "très fréquent (3-10% >50 ans)"
+  - dx: "{p:Canal lombaire étroit} (claudication neurogène)"
+    indices: "Douleur variable en distance, soulagée en FLEXION (vélo OK, penché en avant); pouls présents; IPS normal; IRM lombaire = clé [VÉRIFIER: prévalence relative vs AOMI en CS]"
+    freq: "fréquent (compétiteur principal)"
+  - dx: "{p:Syndrome compartimental d'effort chronique}"
+    indices: "Sportif jeune, douleur mollet à l'effort disparaissant à l'arrêt, loge musculaire tendue à l'effort; pouls et IPS normaux; diagnostic = mesures de pression intra-compartimentale"
+    freq: "rare (surtout coureurs)"
+  - dx: "{p:Endofibrose iliaque externe}"
+    indices: "Cycliste d'élite, douleur cuisse/MI à l'effort intense, pas de FRCV; IPS normal au repos, anormal à l'effort; angio-CT diagnostique"
+    freq: "très rare (sportifs de haut niveau)"
+  - dx: "{p:Coarctation aortique}"
+    indices: "Jeune (<40 ans), HTA sévère membres supérieurs, pouls fémoraux faibles/absents, gradient TA bras-jambes >20 mmHg, souffle systolique dorsal; écho + angio-CT confirmateurs"
+    freq: "rare (incidence 4/10 000 naissances)"
+
+pec_initiale:
+  immediate:
+    - "Si RED FLAG ischémie aiguë (5P) → chirurgie vasculaire urgente + héparine IV AVANT tout bilan exhaustif"
+    - "Bilan première intention: glycémie, HbA1c, bilan lipidique, créatinine/DFG, FSC, ECG"
+    - "{t:IPS} au cabinet (confirme AOMI si <0.9); si >1.3 (diabète/médiacalcose) → {t:IPS orteil} ou mesure transcutanée pO2"
+    - |-
+      Traitement médical (stade 2, claudication):
+      • {r:antiagrégant}: aspirine 100 mg/j OU clopidogrel 75 mg/j
+      • {r:statine systématique}: atorvastatine ou rosuvastatine; objectif LDL <0.7 g/L (1.8 mmol/L)
+      • {r:IEC/ARA2} si HTA ou diabète
+      • {r:sevrage tabagique IMPÉRATIF}: substituts nicotiniques, varénicline
+      • {r:programme de marche supervisée}: 3×/sem, 30-60 min, jusqu'à douleur modérée
+    - "Cilostazol {r:100 mg 2×/j} si disponible: améliore périmètre de marche (CI si IC) [VÉRIFIER: disponibilité et remboursement en Suisse]"
+    - "Stade 3-4 (ischémie critique) → hospitalisation + revascularisation semi-urgente (angioplastie ± stent / pontage)"
+  orientation:
+    - "Domicile + médecin traitant: claudication stade 2 stable, IPS 0.5-0.9, pas de red flag, traitement médical initié"
+    - "Consultation vasculaire ambulatoire: écho-Doppler artériel MI (gold standard), suivi IPS tous les 3-6 mois"
+    - "Angio-CT/IRM + avis vasculaire: claudication invalidante stade 2b après 3-6 mois de traitement médical optimal"
+    - "Urgences/hospitalisation: ischémie critique (stade 3-4), red flag 5P, AAA suspecté, embolie aiguë"
+    - "Signes d'alarme patient: douleur de repos, plaie ne cicatrisant pas, changement couleur orteils, fièvre + lésion"
+
+examens_complementaires:
+  - "{t:IPS} (Index de Pression Systolique): 1er examen, confirme AOMI si <0.9"
+  - "{t:Écho-Doppler artériel MI}: gold standard; localise sténoses, évalue vitesses, guide revascularisation"
+  - "{t:Angio-CT aorto-iliaque}: cartographie pré-opératoire, suspicion AAA ou coarctation"
+  - "Biologie: glycémie/HbA1c, lipides, créatinine, FSC, CRP si infection"
+  - "{t:ECG}: cardiopathie ischémique associée, arythmie"
+  - "{t:IRM lombaire}: si claudication neurogène suspectée (réponse au vélo, pouls normaux)"
+
+criteres_hospitalisation:
+  - "{p:Ischémie aiguë} (5P) — urgence chirurgicale <6 h"
+  - "{p:Ischémie critique} stade 3-4 (douleur repos, nécrose)"
+  - "{p:AAA} fissurée suspectée ou AAA >5.5 cm"
+  - "Embolie artérielle sur FA avec ischémie distale"
+  - "Plaie infectée non cicatrisante + fièvre (pied diabétique artériel)"
+
+pieges:
+  - "Confondre {p:claudication neurogène} et {p:AOMI}: le vélo soulage le neurogène (flexion), aggrave le vasculaire — demander explicitement si le vélo est possible"
+  - "Méconnaître une {p:ischémie aiguë} devant une claudication: les 5P signent l'urgence (<6 h), ne pas attendre l'écho-Doppler"
+  - "IPS >1.3 chez le diabétique = médiacalcose (artères incompressibles) → IPS FAUSSEMENT NORMAL, passer à la mesure transcutanée"
+  - "Oublier l'examen des DEUX bras pour la TA: asymétrie >20 mmHg → coarctation ou sténose sous-clavière"
+  - "Ne pas quantifier le tabagisme en paquets-années: facteur étiologique n°1, son sevrage est l'intervention la plus efficace"
+
+cartes_liees:
+  - SYS-CAR
+  - SSP-CAR-01

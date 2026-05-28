@@ -1,0 +1,210 @@
+id: SSP-CAR-05
+type: ssp
+title: Œdème des membres inférieurs
+discipline: Cardio
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Oedeme_MI.md
+
+# source: line 12-86 (SSP_Oedeme_MI.md)
+anamnese:
+  socrates:
+    - |-
+      Onset / évolution:
+      • aigu ({r:< 1 semaine}) vs chronique ({r:> 1 mois})
+      • progression rapide (IC, thrombose) vs lente (veineux, médicamenteux)
+    - |-
+      Site / topographie — pivot essentiel:
+      • {s:unilatéral} → TVP, lymphœdème, érysipèle, IVC localisée
+      • {s:bilatéral symétrique} → IC, néphrotique, cirrhose, médicamenteux
+    - |-
+      Character:
+      • {s:godet} : présent (cardiaque, rénal, veineux) vs absent (lymphœdème, myxœdème)
+      • blanc/mou (rénal, cardiaque) vs cyanoSé/dur (cardiaque)
+      • {s:douloureux} (TVP, érysipèle) vs indolore
+      • chaud (infection, inflammation) vs température normale
+    - |-
+      Horaire / variabilité:
+      • pires le soir ({p:IC}, veineux) vs matinaux ({p:syndrome néphrotique})
+      • permanents vs variables dans la journée
+    - |-
+      Radiation / extension:
+      • chevilles → mollets → cuisses → lombes → périnée ({p:anasarque})
+      • abdomen distendu (ascite → {p:cirrhose}) / visage gonflé (néphrotique)
+    - "Severity: prise de poids récente (kg), vêtements/chaussures qui serrent, mesure circonférence"
+    - |-
+      Aggravation / soulagement:
+      • aggravé: station debout prolongée, chaleur, fin de journée
+      • soulagé: surélévation, repos, décubitus
+  specifique:
+    - |-
+      Symptômes cardiovasculaires ({p:IC}):
+      • {s:dyspnée d'effort} — classe {t:NYHA} I-IV
+      • {s:orthopnée} (nombre d'oreillers)
+      • {s:dyspnée paroxystique nocturne}
+      • toux nocturne en décubitus
+      • palpitations / {p:FA} connue
+    - |-
+      Symptômes rénaux ({p:syndrome néphrotique}):
+      • {s:urines mousseuses} (protéinurie abondante)
+      • urines foncées / rouges (hématurie)
+      • nycturie, oligurie ({r:< 500 ml/24h})
+      • nausées, vomissements (urémie)
+    - |-
+      Symptômes hépatiques ({p:cirrhose}):
+      • {s:ictère} (sclérotique, peau)
+      • douleurs abdominales (HCD)
+      • hémorragies (troubles de coagulation)
+      • troubles cognitifs (encéphalopathie hépatique)
+    - |-
+      Symptômes veineux ({p:IVC} / {p:TVP}):
+      • lourdeur des jambes à la station debout
+      • {s:douleur aiguë unilatérale} du mollet
+      • varices visibles, prurit, eczéma de stase
+      • ulcères veineux (malléole interne)
+  atcd:
+    - |-
+      Médicaments œdématogènes [VÉRIFIER: liste complète et mécanismes]:
+      • {r:inhibiteurs calciques} (amlodipine, nifédipine) — vasodilatation capillaire
+      • {r:AINS} — rétention hydrosodée
+      • {r:corticostéroïdes} — rétention sodée
+      • {r:œstrogènes} / testostérone
+      • {r:gabapentine / prégabaline}, thiazolidinediones, alpha-bloquants
+    - |-
+      ATCD cardiovasculaires:
+      • cardiopathie ischémique (IDM, angor), valvulopathie, cardiomyopathie
+      • HTA, trouble du rythme ({p:FA}, flutter)
+      • ATCD TVP / EP — score {t:Wells TVP}
+    - |-
+      Autres ATCD:
+      • néphropathie connue (diabétique, HTA)
+      • hépatopathie (cirrhose, hépatite, alcool)
+      • cancer (compression lymphatique ou vasculaire)
+      • chirurgie pelvienne, radiothérapie (lymphœdème secondaire)
+
+# source: line 267-273 (SSP_Oedeme_MI.md) + pivots
+red_flags:
+  - description: "{s:Dyspnée aiguë + orthopnée + crépitants bilatéraux} ± {s:SaO2 < 94 %}"
+    dx_suspecte: "{p:OAP sur IC décompensée}"
+    action: "{r:O2}, position assise; {t:BNP} + {t:Rx thorax} + {t:écho} en urgence; furosémide IV si confirmé"
+  - description: "{s:Œdème unilatéral aigu douloureux + érythème + chaleur du mollet}"
+    dx_suspecte: "{p:Thrombose veineuse profonde (TVP)} ± {p:embolie pulmonaire}"
+    action: "{t:Score Wells TVP}; {t:D-dimères}; {t:écho-Doppler veineux} urgent; anticoagulation si probabilité élevée"
+  - description: "{s:Œdème massif + urines mousseuses} ± {s:albumine < 20 g/L}"
+    dx_suspecte: "{p:Syndrome néphrotique sévère}"
+    action: "{t:Bandelette urinaire} + {t:protéinurie 24h} + {t:albumine}; risque thrombotique → anticoagulation si albumine < 20 g/L [VÉRIFIER: seuil exact anticoagulation]"
+  - description: "{s:Œdème + ictère + ascite} ± encéphalopathie"
+    dx_suspecte: "{p:Cirrhose décompensée}"
+    action: "{t:Bilan hépatique} + {t:TP} + {t:albumine} + {t:écho abdominale}; hospitalisation si encéphalopathie ou TP < 50 %"
+  - description: "{s:Anurie / oligurie < 400 ml/24h} ou {s:troubles ioniques sévères} (Na < 125, K > 6)"
+    dx_suspecte: "{p:Insuffisance rénale aiguë} / déséquilibre électrolytique sévère"
+    action: "Ionogramme + créatinine STAT; arrêt diurétiques; hospitalisation en urgence"
+  - description: "{s:Anasarque} (œdèmes généralisés — membres + ascite + épanchements pleuraux)"
+    dx_suspecte: "{p:IC avancée} / {p:syndrome néphrotique} / {p:cirrhose} décompensée"
+    action: "Hospitalisation urgente; bilan multiorgane; furosémide IV ± albumine IV selon étiologie [VÉRIFIER: protocole anasarque au CHUV/HUG]"
+
+# source: line 91-156 (SSP_Oedeme_MI.md) + SYS_Cardio
+examen:
+  general:
+    - "Signes vitaux: TA (2 bras), FC, FR, {t:SaO2}, T°, poids actuel — prise pondérale récente?"
+    - "État général: cachexie (IC avancée), ictère, pâleur, cyanose des extrémités"
+    - "{s:Turgescence jugulaire} patient à 30-45° (> 3 cm au-dessus angle sternal → {p:IC droite})"
+    - "Inspection cutanée: spider nevi, ongles de Terry (hypoalbuminémie), purpura (DRESS, vasculite)"
+  cible:
+    - |-
+      Œdèmes — caractérisation systématique:
+      • localisation (pieds / chevilles / mollets / cuisses / périnée)
+      • {s:symétrie}: unilatéral vs bilatéral
+      • {s:signe du godet}: pression ferme {r:10 secondes} sur tibia/malléole
+        — présent: cardiaque, rénal, veineux
+        — absent: lymphœdème, myxœdème
+      • température locale (chaude → inflammation / TVP)
+      • mesure objectivede la circonférence (cm)
+    - |-
+      Examen cardiovasculaire:
+      • auscultation — {s:galop B3} (IC systolique), souffles (IM, RA)
+      • {r:reflux hépato-jugulaire} (compression HCD 10 sec — positif si distension > 3 cm)
+      • pouls périphériques bilatéraux (fémoral, tibial post., pédieux)
+      • {s:crépitants fins bilatéraux des bases} (OAP)
+    - |-
+      Examen veineux MI:
+      • {s:signes de TVP}: cordon induré, douleur mollet, signe de Homans (faible spécificité)
+      • varices (localisation, étendue), dermite de stase, ulcères veineux (malléole interne)
+      • gradient thermique (artériopathie)
+    - |-
+      Examen abdominal:
+      • {s:ascite}: matité des flancs déclive, matité mobile, signe du flot
+      • hépatomégalie douloureuse (foie cardiaque / cirrhose), splénomégalie (hypertension portale)
+      • palpation bimanuelle des reins (gros reins = polykystose, hydronéphrose)
+
+# source: line 162-186 (SSP_Oedeme_MI.md)
+dd_top5:
+  - dx: "{p:Insuffisance cardiaque (IC)}"
+    indices: "Bilatéral déclive, godet+, pire le soir; dyspnée NYHA, orthopnée, crépitants, galop B3, turgescence jugulaire; {t:BNP} ↑, cardiomégalie sur Rx"
+    freq: "très fréquent (cause no 1 des œdèmes bilatéraux > 65 ans)"
+  - dx: "{p:Insuffisance veineuse chronique (IVC)}"
+    indices: "Bilatéral ou asymétrique, aggravé en orthostatisme, soulagé en décubitus; varices, dermite de stase, ulcère malléole interne; {t:écho-Doppler veineux} confirme"
+    freq: "très fréquent (30 % de la population adulte)"
+  - dx: "{p:Thrombose veineuse profonde (TVP)}"
+    indices: "Unilatéral AIGU douloureux, érythème, chaleur, cordon induré; {t:score Wells} ≥ 2 → haute probabilité; {t:D-dimères} + {t:écho-Doppler} obligatoires"
+    freq: "fréquent (1-2/1000/an) — urgence anticoagulation"
+  - dx: "{p:Syndrome néphrotique}"
+    indices: "Bilatéral blanc mou, matinal, urines mousseuses; hypoalbuminémie < 30 g/L, protéinurie > {r:3.5 g/24h}, hyperlipidémie; {t:bandelette} ++ protéines"
+    freq: "moins fréquent (incidence 3/100 000/an adulte)"
+  - dx: "{p:Cirrhose / hypoalbuminémie}"
+    indices: "Bilatéral + ascite, ictère, spider nevi, hépatomégalie, splénomégalie; hypoalbuminémie, TP abaissé, bilan hépatique perturbé; ATCD alcool/hépatite [VÉRIFIER: ordre cirrhose vs hypoprotéinémie nutritionnelle]"
+    freq: "fréquent dans contexte alcool/hépatite chronique"
+
+# source: line 162-186, 198-239 (SSP_Oedeme_MI.md)
+pec_initiale:
+  immediate:
+    - "Tout red flag → bilan en urgence avant traitement symptomatique"
+    - |-
+      Mesures générales (tous types):
+      • {r:restriction sodée} < 6 g NaCl/j
+      • surélévation des MI ({r:15-20 cm})
+      • {r:bas de contention} classe II-III (CI si AOMI sévère — vérifier pouls)
+      • pesée quotidienne (même heure); alerte si prise > {r:2 kg/48h}
+    - |-
+      Diurétique si IC ou surcharge volémique confirmée:
+      • {r:furosémide 40-80 mg/j PO} (première ligne) [VÉRIFIER: posologie adaptée insuffisance rénale]
+      • {r:spironolactone 25-50 mg/j} si IC ou cirrhose
+      • objectif: perte {r:0.5-1 kg/j} max
+      • contrôle ionogramme + créatinine à {r:48-72 h}
+    - "Cause médicamenteuse identifiée → arrêt ou substitution du traitement causal"
+  orientation:
+    - "Domicile + médecin traitant: IVC ou œdème médicamenteux isolé, signes vitaux stables, pas de red flag"
+    - "Urgences: tout red flag (OAP, TVP, anasarque, anurie, troubles ioniques sévères)"
+    - "Cardio ambulatoire: IC stable NYHA I-II non décompensée, bilan écho requis"
+    - "Consignes de retour: prise pondérale > 2 kg en 48h, dyspnée au repos, douleur aiguë MI"
+
+# source: line 162-186 (SSP_Oedeme_MI.md)
+examens_complementaires:
+  - "{t:D-dimères} + {t:écho-Doppler veineux MI}: si suspicion {p:TVP} (score Wells ≥ 2 ou D-dimères positifs)"
+  - "{t:BNP / NT-proBNP}: suspicion {p:IC} ({r:BNP > 100 ng/L} = probable IC) [VÉRIFIER: seuil NT-proBNP selon âge]"
+  - "{t:Ionogramme complet + créatinine + urée}: systématique si diurétique ou surcharge volémique"
+  - "{t:Albumine + protéines totales} + {t:bandelette urinaire} + {t:protéinurie 24h}: suspicion {p:syndrome néphrotique}"
+  - "{t:Bilan hépatique} (ALAT, ASAT, bilirubine, GGT, TP, albumine): suspicion {p:cirrhose}"
+  - "{t:Rx thorax} + {t:ECG} + {t:échocardiographie}: bilan IC (cardiomégalie, FEVG, fonction diastolique)"
+
+# source: line 267-273 (SSP_Oedeme_MI.md)
+criteres_hospitalisation:
+  - "OAP ou {p:IC} décompensée (dyspnée repos, SaO2 < 94 %, crépitants)"
+  - "{p:TVP} à haut risque ou {p:EP} suspectée (tachycardie, hypoxémie, instabilité)"
+  - "Anurie / oligurie < 400 ml/24h ou troubles ioniques sévères (Na < 125, K > 6)"
+  - "Anasarque ou œdème massif avec altération hémodynamique"
+  - "Encéphalopathie hépatique ou {p:cirrhose} décompensée avec TP < 50 %"
+
+pieges:
+  - "Négliger le côté unilatéral ou asymétrique → toujours rechercher {p:TVP} (écho-Doppler + D-dimères) même sans fièvre"
+  - "Prescrire diurétique sans bilan étiologique → peut masquer une {p:cirrhose} (hypoalbuminémie aggravée) ou aggraver une insuffisance rénale"
+  - "Oublier l'anamnèse médicamenteuse ({r:inhibiteurs calciques}, AINS, gabapentine) — cause réversible fréquente"
+  - "Godet absent ≠ pas d'œdème pathologique — lymphœdème et myxœdème (hypothyroïdie) ne prennent pas le godet"
+  - "Confondre {p:IVC} (bilatéral, varices, lent) et {p:IC} (bilatéral, BNP élevé, dyspnée) — le BNP tranche"
+
+cartes_liees:
+  - SYS-CAR
+  - SSP-CAR-01
+  - SSP-CAR-03

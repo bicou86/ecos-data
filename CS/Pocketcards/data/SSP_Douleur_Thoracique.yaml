@@ -1,0 +1,185 @@
+id: SSP-CAR-01
+type: ssp
+title: Douleur thoracique
+discipline: Cardio
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Douleur_Thoracique.md
+
+# source: line 7-53
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • localisation précise (montrez avec un doigt)
+      • rétrosternal / latéral / pleurétique?
+    - |-
+      Onset:
+      • début brutal vs progressif
+      • circonstances (effort, repos, décubitus)
+    - "Character: oppression / brûlure / {s:déchirement} / coup de poignard?"
+    - |-
+      Radiation:
+      • mâchoire, bras gauche → {p:SCA}
+      • {s:dos interscapulaire} → {p:dissection aortique}
+      • épigastre → SCA inférieur ou cause digestive
+    - |-
+      Associated symptoms:
+      • dyspnée, sudations profuses, nausées, palpitations
+      • hémoptysie → {p:EP}
+      • syncope / lipothymie
+    - "Time: durée (min / h), constante ou intermittente, première fois?"
+    - |-
+      Exacerbating / Relieving:
+      • effort, position, respiration, repas
+      • {r:nitrates} sublinguaux (soulagement → SCA ou spasme œsophagien)
+      • antépulsion (soulagement → péricardite)
+    - "Severity: intensité 0-10, {s:pire douleur de sa vie}?"
+  # source: line 25-51
+  specifique:
+    - |-
+      FRCV (systématiques):
+      • tabac (paquets-années), HTA, diabète, dyslipidémie
+      • obésité (IMC), sédentarité
+      • ATCD familiaux IDM: H < 55 ans, F < 65 ans
+    - |-
+      FDR thrombo-embolique ({p:EP}):
+      • immobilisation / voyage > 6h / alitement
+      • chirurgie récente < 1 mois
+      • cancer actif, contraception orale, grossesse/post-partum
+      • ATCD TVP/EP
+    - |-
+      Fièvre / contexte viral → {p:péricardite}
+      Toxiques: cocaïne, amphétamines → {p:spasme coronaire}
+  # source: line 42-52
+  atcd:
+    - "Cardiovasculaires: IDM, angioplastie, pontage, IC — ATCD stents (arrêt antiagrégants?)"
+    - "Pulmonaires: BPCO, asthme, EP, pneumonie"
+    - "Digestifs: RGO, ulcère, œsophagite — pyrosis habituel?"
+    - "Psychiatriques: anxiété, attaques de panique — diagnostic d'exclusion uniquement"
+    - |-
+      Traitements actuels:
+      • anticoagulants (DOAC/AVK), antiagrégants, bêtabloquants
+      • allergies médicamenteuses
+      • compliance thérapeutique
+
+# source: line 57-120
+red_flags:
+  - description: "{s:Sus-décalage ST} nouveau ou BBG nouveau + {s:douleur oppressive avec sudations}"
+    dx_suspecte: "{p:STEMI (SCA ST+)}"
+    action: "Activation filière STEMI: {r:aspirine 300 mg PO} + {r:ticagrélor 180 mg PO} + {r:héparine IV}; coronarographie urgente < 90 min (fibrinolyse si délai > 120 min) [VÉRIFIER: protocole STEMI local CHUV/HUG]"
+  - description: "{s:Douleur déchirante maximal d'emblée} irradiant dans le dos + {s:asymétrie TA > 20 mmHg} aux 2 bras"
+    dx_suspecte: "{p:Dissection aortique aiguë (type A ou B)}"
+    action: "Angio-CT thoracique urgent SANS délai; contrôle PA: {r:β-bloquants IV (labétalol)}; chirurgie urgente si type A; NE PAS anticoaguler"
+  - description: "{s:Dyspnée aiguë + douleur pleurale} + FDR thrombo-embolique (immobilisation, cancer, grossesse)"
+    dx_suspecte: "{p:Embolie pulmonaire}"
+    action: "{t:Score de Wells} → si ≥ 5 ou D-dimères positifs: {t:angio-CT thoracique}; anticoagulation immédiate ({r:HBPM ou DOAC}); thrombolyse si instabilité hémodynamique [VÉRIFIER: seuil D-dimères selon âge (âge × 10 µg/L si > 50 ans)]"
+  - description: "{s:Frottement péricardique} + {s:sus-ST diffus concave + sous-décalage PR} à l'ECG + {e:contexte viral}"
+    dx_suspecte: "{p:Péricardite aiguë}"
+    action: "{t:ETT} pour éliminer tamponnade; {r:ibuprofène 600 mg × 3/j} + {r:colchicine 0,5 mg × 2/j × 3 mois}; repos strict; hospitalisation si épanchement"
+  - description: "{s:Hypotension + turgescence jugulaire + assourdissement des bruits cardiaques} (triade de Beck)"
+    dx_suspecte: "{p:Tamponnade péricardique}"
+    action: "{t:ETT} en urgence; ponction péricardique (péricardiocentèse) urgente sous guidage écho; remplissage IV; NE PAS donner diurétiques"
+  - description: "{s:Douleur thoracique + dyspnée brutal} unilatérale + {s:hémithorax immobile} + hypersonorité à la percussion"
+    dx_suspecte: "{p:Pneumothorax compressif}"
+    action: "Exsufflation à l'aiguille (2e EIC LMC) si instabilité; {t:Rx thorax} urgente; drainage si pneumothorax important ou symptomatique"
+
+# source: line 57-120
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: {r:TA aux 2 bras} (asymétrie > 20 mmHg = dissection?), FC, FR, T°, SaO₂"
+    - "État général: détresse, {s:diaphorèse}, cyanose, position antalgique (antépulsion → péricardite)"
+    - "{t:ECG 12 dérivations} < 10 min — ABSOLU; {t:score de Glasgow} si altération de conscience"
+  cible:
+    - |-
+      Cardiovasculaire:
+      • turgescence jugulaire (IC droite, tamponnade)
+      • choc de pointe: position, amplitude, soutenu?
+      • {s:frottement péricardique} (bord sternal gauche, persiste en apnée)
+      • souffles (nouveau souffle diastolique → IA = dissection aortique?)
+      • pouls périphériques: présents et symétriques bilatéralement?
+    - |-
+      Pulmonaire:
+      • FR, amplitude, {s:asymétrie thoracique} (hémithorax immobile → pneumothorax)
+      • percussion: tympanisme (pneumothorax), matité (épanchement pleural)
+      • auscultation: crépitants bibasaux (OAP), {s:frottement pleural}, sibilants
+      • emphysème sous-cutané (crépitations neigeuses)
+    - |-
+      Palpation thoracique et abdominale:
+      • reproduction de la douleur à la palpation costale → cause pariétale
+      • {s:douleur épigastrique}, défense (cause digestive)
+      • battements épigastriques (anévrisme aorte abdominale)
+      • œdèmes MI: signe du godet, asymétrie (TVP?)
+
+# source: line 214-246
+dd_top5:
+  - dx: "{p:SCA (STEMI/NSTEMI)}"
+    indices: "FDR CV, douleur oppressive typique avec irradiation, diaphorèse; ECG: sus-ST, sous-ST, T négatives; troponines hs élevées; douleur non reproductible à la palpation"
+    freq: "fréquent, urgence vitale absolue"
+  - dx: "{p:Embolie pulmonaire}"
+    indices: "FDR thrombo-embolique, douleur pleurale + dyspnée aiguë, tachycardie, SaO₂ basse; ECG: S1Q3T3, tachycardie sinusale; D-dimères positifs; {t:score Wells} ≥ 5 → angio-CT"
+    freq: "fréquent, urgence vitale"
+  - dx: "{p:Dissection aortique aiguë}"
+    indices: "HTA ou Marfan, douleur déchirante maximale d'emblée irradiant dans le dos, asymétrie TA aux 2 bras, nouveau souffle diastolique; ECG souvent normal; troponines négatives (sauf extension coronaire)"
+    freq: "rare (3/100 000/an), pronostic catastrophique si diagnostic manqué [VÉRIFIER: fréquence réelle dissection aortique en urgences suisses]"
+  - dx: "{p:Péricardite aiguë}"
+    indices: "contexte viral, douleur améliorée en antépulsion et aggravée en décubitus, frottement péricardique, sus-ST diffus concave + sous-décalage PR à l'ECG; troponines modérément élevées (myopéricardite?)"
+    freq: "fréquent chez sujet jeune"
+  - dx: "{p:Douleur musculo-squelettique pariétale}"
+    indices: "douleur reproduite précisément à la palpation costale ou sternale, localisée au doigt, contexte traumatique ou effort; ECG normal, troponines négatives, Rx thorax normale; syndrome de Tietze, costochondrite"
+    freq: "très fréquent (25-40 % des douleurs thoraciques en ambulatoire) [VÉRIFIER: prévalence exacte en ambulatoire vs urgences]"
+
+# source: line 136-210
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — ECG < 10 min ABSOLU; toute anomalie ECG ou instabilité → filière urgence"
+    - |-
+      {p:STEMI} → MONABASH:
+      • {r:M}orphine IV si douleur intense (CI: hypotension)
+      • {r:O}xygène si SaO₂ < 90%
+      • {r:N}itrés sublinguaux (CI: PAS < 90 mmHg, prise IPDE-5 < 24h)
+      • {r:A}spirine 300 mg PO à croquer + P2Y12 (ticagrélor 180 mg)
+      • {r:B}êtabloquants (bisoprolol ou métoprolol IV si FC > 100 sans IC)
+      • {r:A}nticoagulation: héparine non fractionnée IV ou HBPM
+      • {r:S}tatines haute dose (atorvastatine 80 mg)
+      • {r:H}ospitalisation USI / Cathlab urgence < 90 min
+    - "{p:EP} → {r:anticoagulation immédiate} (rivaroxaban ou HBPM); O₂ si hypoxémie; thrombolyse si choc ou arrêt cardiaque"
+    - "{p:Dissection aortique} → {r:β-bloquants IV} (cible FC < 60, PAS 100-120 mmHg) + morphine; angio-CT; chirurgie urgente si type A"
+    - "{p:Péricardite} → {r:ibuprofène 600 mg × 3/j} + {r:colchicine 0,5 mg × 2/j} × 3 mois; repos; IPP gastroprotection"
+    - "Cause pariétale / digestive / anxieuse: {r:AINS} ou paracétamol; rassurer après exclusion des urgences vitales"
+  orientation:
+    - "USI/cathlab: STEMI, NSTEMI à haut risque (GRACE > 140), tamponnade, dissection type A"
+    - "Urgences + hospitalisation: toute instabilité hémodynamique, EP à haut risque, pneumothorax compressif"
+    - "Urgences avec bilan STAT: 1ère douleur thoracique sévère sans diagnostic, SCA ST- (troponines × 2 à 3h)"
+    - "Ambulatoire + suivi rapide: cause pariétale ou digestive prouvée, péricardite légère stable"
+    - "Consignes retour urgences: récidive, dyspnée, syncope, douleur > 15 min malgré antalgiques"
+
+# source: line 136-155
+examens_complementaires:
+  - "{t:ECG 12 dérivations} < 10 min: sus-ST ({p:STEMI}), sous-ST/T négatives ({p:NSTEMI}), S1Q3T3 ({p:EP}), sus-ST diffus concave ({p:péricardite}), microvoltage ({p:tamponnade})"
+  - "{t:Troponine hs} T0 et T3h: élévation → SCA, myopéricardite, EP massive; si négatives × 2 → probabilité SCA faible"
+  - "{t:D-dimères}: si Wells EP < 5 ou score PERC négatif; valeur seuil ajustée à l'âge si > 50 ans (âge × 10 µg/L)"
+  - "{t:Angio-CT thoracique}: EP (protocole angio-CT pulmonaire) ou dissection aortique (protocole aorte entière avec PDC) — NE PAS combiner sans accord radiologue"
+  - "{t:Rx thorax} face: élargissement médiastinal (dissection), épanchement pleural, pneumothorax, cardiomégalie, OAP"
+  - "{t:ETT (échocardiographie trans-thoracique)}: épanchement péricardique/tamponnade, dysfonction VG, embolie massive (dilatation VD)"
+
+# source: line 126-135
+criteres_hospitalisation:
+  - "Tout red flag avéré: STEMI, dissection aortique, EP à haut risque, tamponnade, pneumothorax compressif"
+  - "NSTEMI confirmé (troponines élevées) ou score GRACE > 109"
+  - "Instabilité hémodynamique (PAS < 90 mmHg, FC > 110, SaO₂ < 90%)"
+  - "1ère douleur thoracique sévère sans diagnostic établi après bilan STAT"
+  - "Péricardite avec épanchement ou myopéricardite (troponines élevées)"
+
+pieges:
+  - "Rassurer trop vite sur ECG normal: la dissection aortique et l'EP ont souvent un ECG normal ou peu spécifique"
+  - "Oublier la {r:TA aux 2 bras}: une asymétrie > 20 mmHg doit évoquer immédiatement la {p:dissection aortique} et contre-indique l'anticoagulation empirique"
+  - "SCA atypique: chez la femme, le diabétique et le sujet âgé, la présentation peut être nausées isolées, dyspnée, fatigue — ne pas exclure sur l'absence d'oppression"
+  - "Anticoaguler avant d'éliminer la dissection aortique: anticoagulation empirique pour EP peut être fatale si c'est une dissection"
+  - "Banaliser une douleur reproductible à la palpation: 15 % des SCA ont une composante de douleur reproductible à la palpation thoracique — toujours faire ECG + troponines d'abord"
+
+cartes_liees:
+  - SYS-CAR
+  - TOOL-WELLS-EP

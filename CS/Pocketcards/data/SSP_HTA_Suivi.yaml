@@ -1,0 +1,207 @@
+id: SSP-CAR-07
+type: ssp
+title: HTA — suivi
+discipline: Cardio
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_HTA_Suivi.md
+
+# source: ligne 14-48
+anamnese:
+  socrates:
+    - |-
+      Contrôle tensionnel actuel:
+      • dernières valeurs en consultation (objectif < {r:140/90 mmHg})
+      • {t:auto-mesure domicile} (règle 3-3-3: 3 mesures matin + soir, 3 jours consécutifs)
+      • {t:MAPA} déjà réalisée? (blouse blanche / HTA masquée)
+      • variabilité: pics tensionnels, hypotensions, horaire des mesures
+    - |-
+      Traitement antihypertenseur actuel:
+      • liste complète (molécule, dose, horaire, forme galénique)
+      • date et raison des dernières modifications
+      • monoprise ou doses réparties, associations fixes
+    - |-
+      Observance — CRUCIAL:
+      • prise régulière quotidienne? fréquence des oublis?
+      • auto-adaptation des doses ou ruptures de traitement?
+      • barrières: coût, effets secondaires, déni, complexité
+    - |-
+      Tolérance par classe:
+      • {s:IEC} → toux sèche, angioœdème
+      • {s:Inhibiteurs calciques} → œdèmes chevilles, flush
+      • {s:Diurétiques thiazidiques} → crampes, {s:hypokaliémie}, troubles sexuels
+      • {s:Bêtabloquants} → fatigue, dysfonction érectile
+      • impact qualité de vie?
+
+  specifique:
+    - |-
+      Symptômes évocateurs de mauvais contrôle ou urgence:
+      • {s:céphalées} matinales occipitales
+      • {s:vertiges}, acouphènes
+      • {s:troubles visuels} (phosphènes, flou)
+      • {s:épistaxis} récurrentes
+      • {s:dyspnée d'effort} (IC?)
+    - |-
+      Mesures hygiéno-diététiques (RHD):
+      • sel: < {r:6 g NaCl/j} respecté? (étiquetage, charcuterie, plats préparés)
+      • alcool: < {r:2 verres/j} (H), < {r:1 verre/j} (F)
+      • activité physique: {r:150 min/semaine} intensité modérée?
+      • poids: IMC > 25 → objectif {r:5-10 % de perte}
+      • qualité sommeil / ronflement (apnées?)
+    - |-
+      Objectifs tensionnels personnalisés:
+      • général < {r:140/90 mmHg}; auto-mesure < {r:135/85 mmHg}
+      • diabète / IRC < {r:130/80 mmHg}
+      • > {e:80 ans} < {r:150/90 mmHg}
+      • [VÉRIFIER: objectifs ESH/ESC 2024 vs ESC 2023 — seuils parfois divergents selon source]
+
+  atcd:
+    - |-
+      Complications de l'HTA — «CRAC»:
+      • {p:Cœur}: angor/IDM (dyspnée d'effort, ECG, écho?), IC (NYHA, OMI, DPN), FA (palpitations)
+      • {p:Rein}: créatinine + DFG, protéinurie/microalbuminurie (ratio ACR)
+      • {p:Artères}: AVC/AIT (déficits résiduels), AOMI (claudication, périmètre marche), anévrisme aortique
+      • {p:Cerveau/Œil}: rétinopathie hypertensive, dernière consultation ophtalmologique
+    - |-
+      FRCV associés:
+      • tabac (statut, paquets-années, sevrage)
+      • dyslipidémie (LDL, traitement statine)
+      • diabète (type, HbA1c récente)
+      • surpoids (IMC, tour de taille)
+      • ATCD familiaux: IDM/AVC précoce (H < 55 ans, F < 65 ans)
+    - |-
+      Étiologie HTA — orientation secondaire si:
+      • jeune < {r:40 ans}, HTA sévère d'emblée
+      • {s:hypokaliémie} spontanée (Conn)
+      • HTA nocturne prédominante (apnées du sommeil)
+      • HTA résistante (≥ 3 médicaments dont diurétique)
+      • [VÉRIFIER: âge-seuil retenu pour bilan secondaire systématique — certaines sources disent <35 ans, d'autres <40 ans]
+
+# source: ligne 133-173
+examen:
+  general:
+    - |-
+      Mesure TA rigoureuse — technique standardisée:
+      • repos {r:5 min}, position assise, brassard adapté (2/3 bras)
+      • {r:3 mesures} à 1-2 min d'intervalle — noter moyenne 2e et 3e
+      • {r:2 bras} (asymétrie > {r:20 mmHg} = sténose sous-clavière)
+      • test orthostatique: couché → debout à 1 et 3 min; chute > {r:20 mmHg} systolique = positif
+    - "Poids, taille, IMC, tour de taille (niveau ombilical)"
+    - "FC et rythme; SpO2 si dyspnée; xanthélasmas (dyslipidémie)"
+
+  cible:
+    - |-
+      Examen cardiovasculaire:
+      • auscultation: rythme, B3/B4 (galop → IC), souffles (IM, RA)
+      • choc de pointe: déviation latérale / amplifié et soutenu → {p:HVG}
+      • pouls périphériques bilatéraux (fémoral, poplité, pédieux)
+      • souffles vasculaires: carotidien (sténose), abdominal (aorte / artère rénale)
+    - |-
+      Recherche de complications:
+      • {s:OMI} prenant le godet + reflux hépato-jugulaire + crépitants (IC)
+      • examen neurologique: déficit focal résiduel
+      • fond d'œil / rétinographie si compétent ({p:rétinopathie hypertensive} grade III-IV)
+
+# source: ligne 334-347
+red_flags:
+  - description: "{s:TA ≥ 180/120 mmHg} + signe d'atteinte d'organe (céphalée violente, troubles visuels, douleur thoracique, déficit neuro, OAP)"
+    dx_suspecte: "{p:Urgence hypertensive} (encéphalopathie, dissection aortique, OAP hypertensif)"
+    action: "Hospitalisation immédiate; traitement IV en USC; {t:ECG}, {t:créatinine}, {t:troponine}, {t:CT thorax} selon tableau; NE PAS abaisser trop vite"
+  - description: "{s:Déficit neurologique focal aigu} ± céphalée soudaine chez hypertendu"
+    dx_suspecte: "{p:AVC ischémique ou hémorragique}"
+    action: "{t:CT cérébral sans contraste} immédiat; alerte stroke team; mesure TA toutes les 15 min"
+  - description: "{s:Douleur thoracique déchirante} irradiant dans le dos ± asymétrie des pouls"
+    dx_suspecte: "{p:Dissection aortique}"
+    action: "Pas d'anticoagulants; {t:CT aorte avec contraste} en urgence; chirurgie vasculaire"
+  - description: "{e:Grossesse / post-partum}: TA ≥ {r:140/90 mmHg} + protéinurie ± céphalées, troubles visuels, épigastralgies"
+    dx_suspecte: "{p:Pré-éclampsie / éclampsie}"
+    action: "Urgence obstétricale; {r:sulfate de magnésium} si convulsions; antihypertenseur IV; évaluation fœtale"
+  - description: "{s:Hypokaliémie} < {r:3.5 mmol/L} spontanée (ou sous faibles doses diurétiques) chez hypertendu"
+    dx_suspecte: "{p:Hyperaldostéronisme primaire (Conn)}"
+    action: "{t:Rapport aldostérone/rénine} STAT; suspendre IEC/ARA2 4 semaines avant dosage [VÉRIFIER: délai washout selon centre]; endocrinologie"
+  - description: "{s:HTA résistante}: TA non contrôlée malgré {r:≥ 3 ATH} à doses optimales dont un diurétique"
+    dx_suspecte: "{p:HTA secondaire} (apnée du sommeil, Conn, HTA rénovasculaire, phéo)"
+    action: "Vérifier observance + mesure TA hors cabinet ({t:MAPA}); bilan secondaire élargi; adresser spécialiste"
+
+# source: ligne 334-347 / pivots fournis
+dd_top5:
+  - dx: "{p:HTA essentielle (primaire)}"
+    indices: "Absence de cause identifiable, ATCD familiaux, surpoids, sédentarité, excès sel/alcool; diagnostic d'exclusion; contrôlée par monothérapie ou bithérapie"
+    freq: "> 90 % des cas"
+  - dx: "{p:HTA rénovasculaire} (sténose artère rénale)"
+    indices: "Début brutal jeune (fibromusculaire, F > H) ou sujet âgé athéromateux; dégradation de la fonction rénale sous IEC/ARA2; {t:Doppler} artères rénales + {t:angio-IRM}"
+    freq: "1-5 % des hypertendus"
+  - dx: "{p:Hyperaldostéronisme primaire (Conn)}"
+    indices: "{s:Hypokaliémie} spontanée, HTA souvent sévère; {t:rapport aldostérone/rénine} élevé; {t:TDM surrénales} + scintigraphie [VÉRIFIER: place cathétérisme des veines surrénales selon centre]"
+    freq: "5-15 % des HTA résistantes"
+  - dx: "{p:Phéochromocytome}"
+    indices: "HTA paroxystique ± céphalées + sueurs + palpitations (triade de Ménard); {t:métanéphrines urinaires 24h} ou plasmatiques; {t:TDM surrénales}"
+    freq: "< 0.5 % des hypertendus"
+  - dx: "{p:Syndrome d'apnée obstructive du sommeil (SAOS)}"
+    indices: "HTA nocturne prédominante, ronflement, somnolence diurne, obésité, cou large; {t:polygraphie nocturne}; PEC: {r:CPAP}"
+    freq: "30-50 % des HTA résistantes"
+
+# source: ligne 183-215
+examens_complementaires:
+  - "{t:Bilan annuel standard}: créatinine + DFG (CKD-EPI), ionogramme (K+ +++), glycémie à jeun, bilan lipidique (CT, LDL, HDL, TG), microalbuminurie/créatininurie (ratio ACR)"
+  - "{t:ECG annuel}: HVG (Sokolow SV1 + RV5 > {r:3.5 mV}), troubles du rythme/conduction, ondes Q de nécrose"
+  - "{t:MAPA}: si suspicion HTA blouse blanche ou masquée, HTA résistante, contrôle difficile"
+  - "{t:Échocardiographie}: anomalie ECG (HVG), suspicion IC, mauvais contrôle malgré bithérapie"
+  - "{t:Score SCORE2 (ESC 2021)}: évaluation risque CV global — faible < 2.5 %, modéré 2.5-7.5 %, élevé 7.5-10 %, très élevé > 10 %"
+  - "{t:Bilan HTA secondaire si indicé}: rapport aldostérone/rénine, métanéphrines urinaires 24h, Doppler artères rénales, polygraphie nocturne"
+
+# source: ligne 216-332
+pec_initiale:
+  immediate:
+    - |-
+      Escalade thérapeutique si objectif non atteint:
+      • monothérapie insuffisante → augmenter dose ou switcher classe
+      • {r:bithérapie} recommandée d'emblée si TA > {r:160/100 mmHg}:
+        — {r:IEC/ARA2 + diurétique thiazidique}
+        — {r:IEC/ARA2 + inhibiteur calcique}
+        — {r:inhibiteur calcique + diurétique}
+      • {r:trithérapie}: IEC/ARA2 + IC + diurétique thiazidique (association fixe si dispo)
+      • {r:HTA résistante}: ajouter {r:spironolactone 25-50 mg/j} en 4e ligne
+    - |-
+      Renforcement RHD (mnémo SPAAM):
+      • {r:Sel} < 6 g NaCl/j; {r:Poids} −5-10 % si IMC > 25
+      • {r:Alcool} < 2 verres/j (H) / < 1 (F)
+      • {r:Activité} 150 min/semaine intensité modérée
+      • {r:Méditerranéen} (DASH): fruits, légumes, poissons gras, céréales complètes
+    - |-
+      Amélioration de l'observance:
+      • simplifier: monoprise, associations fixes
+      • pilulier, rappels (alarme/app), éducation thérapeutique
+      • identifier barrières (coût, ES, déni, complexité)
+    - |-
+      Prévention CV globale:
+      • {r:statine} si prévention secondaire, LDL > {r:1.9 g/L}, diabète > 40 ans, SCORE2 élevé/très élevé
+      • {r:aspirine 75-100 mg/j} en prévention secondaire uniquement (si TA contrôlée)
+      • gestion effets secondaires: toux IEC → switch {r:ARA2}; œdèmes IC → réduire dose ou ajouter diurétique
+
+  orientation:
+    - "Suivi habituel (3-6 mois): HTA contrôlée, pas de complication active, traitement stable"
+    - "Suivi rapproché (mensuel): HTA non contrôlée ou modification de traitement → contrôle à {r:1 mois}"
+    - "Urgences: tout red flag (TA ≥ 180/120 + organe-cible, AVC, dissection, éclampsie)"
+    - "Spécialiste (endocrinologie/néphro/pneumo): HTA résistante, suspicion HTA secondaire confirmée"
+
+criteres_hospitalisation:
+  - "{s:TA ≥ 180/120 mmHg} + atteinte d'organe cible (encéphalopathie, OAP, dissection, IDM)"
+  - "{p:AVC} ou {p:AIT} aigu chez hypertendu"
+  - "{p:Pré-éclampsie} / {p:éclampsie} en cours de grossesse"
+  - "HTA résistante sévère nécessitant bilan étiologique en hospitalisation"
+  - "Effets indésirables graves du traitement (angioœdème, hyperkaliémie sévère, insuffisance rénale aiguë)"
+
+pieges:
+  - "Négliger l'{s:observance} — la cause n°1 de mauvais contrôle est la non-adhérence avant l'échec thérapeutique"
+  - "Mesurer la TA une seule fois ou sans repos préalable de 5 min → chiffres non représentatifs"
+  - "Appliquer un objectif < {r:130/80 mmHg} chez le patient > {e:80 ans} — risque d'hypotension orthostatique et de chutes"
+  - "Multiplier les médicaments sans vérifier et renforcer les RHD → polypharmacie évitable"
+  - "Oublier de rechercher une {p:HTA secondaire} devant une HTA résistante, jeune ou avec hypokaliémie"
+
+cartes_liees:
+  - SYS-CAR
+  - SSP-CAR-01
+  - SSP-CAR-06

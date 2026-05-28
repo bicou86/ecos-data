@@ -1,0 +1,212 @@
+id: SSP-CAR-04
+type: ssp
+title: Palpitations
+discipline: Cardio
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Palpitations.md
+
+# source: SSP_Palpitations.md lignes 11-60 + SYS_Cardio.yaml anamnese_appareil
+anamnese:
+  socrates:
+    - |-
+      Site de perception:
+      • poitrine? cou? ({s:palpitations dans le cou} → TPSV)
+      • gorge? abdomen?
+    - |-
+      Onset / Chronologie:
+      • début {s:brutal} (TPSV, {p:FA} paroxystique) ou progressif (sinusale, anxiété)?
+      • fin brutale ou progressive?
+      • durée des épisodes, fréquence (quotidien / hebdo)
+    - |-
+      Character / Description:
+      • {s:rapides régulières}? (TPSV, flutter)
+      • {s:rapides irrégulières}? ({p:FA})
+      • {s:pauses / ratés}? (ESA/ESV)
+      • lentes mais fortes? ({p:BAV})
+      • demander de taper le rythme avec la main
+    - |-
+      Radiation / Associations:
+      • {s:douleur thoracique}? (→ SCA)
+      • {s:dyspnée}? (→ IC)
+      • {s:syncope / lipothymie}? (→ arythmie maligne)
+      • {s:déficit neurologique transitoire}? (→ AVC/AIT si FA)
+    - |-
+      Time:
+      • durée (secondes / minutes / heures)
+      • fréquence et évolution dans le temps
+    - |-
+      Exacerbating:
+      • effort? (arythmie ischémique, {p:CMH})
+      • repos/nuit? ({p:Brugada}, {p:CMH})
+      • stress? (TPSV, anxiété)
+      • caféine, alcool, cocaïne, amphétamines?
+      • médicaments allongeant le QT? (antiarythmiques, neuroleptiques)
+    - "Relieving: repos? manœuvres vagales (Valsalva, massage carotidien)?"
+    - |-
+      Severity:
+      • impact activités et travail
+      • sensation de mort imminente?
+  specifique:
+    - |-
+      Signes thyroïdiens ({p:hyperthyroïdie}):
+      • perte de poids malgré bon appétit?
+      • tremblements fins des mains?
+      • thermophobie, nervosité, transit accéléré?
+    - "Signes anxiété / attaque de panique: hyperventilation, paresthésies, contexte de stress?"
+    - |-
+      Signes d'IC:
+      • {s:orthopnée} (nombre d'oreillers)?
+      • {s:dyspnée paroxystique nocturne}?
+      • {s:OMI} bilatéraux prenant le godet?
+      • nycturie (> 2×/nuit)?
+    - "Grossesse? [VÉRIFIER: bHCG systématique chez toute femme en âge de procréer]"
+    - "Fièvre? (myocardite, endocardite)"
+  atcd:
+    - |-
+      ATCD cardiovasculaires:
+      • IDM, IC (FE connue?), valvulopathie
+      • {p:FA}/flutter, troubles du rythme connus
+      • ablation, pacemaker, DAI?
+    - |-
+      ATCD familiaux (canalopathies):
+      • {s:mort subite} < 40 ans? (→ {p:Brugada}, {p:QT long}, {p:CMH})
+      • cardiomyopathie hypertrophique familiale?
+    - |-
+      Médicaments arythmogènes:
+      • antiarythmiques, digitaliques, diurétiques
+      • neuroleptiques, antidépresseurs, antihistaminiques
+      • bronchodilatateurs, hormones thyroïdiennes
+      • [VÉRIFIER: liste complète médicaments allongeant QT selon protocole local]
+    - |-
+      Habitudes de vie:
+      • café (nombre/jour), alcool, tabac (PA)
+      • {r:cocaïne, amphétamines} (arythmogènes majeurs)
+      • boissons énergisantes?
+      • sport de compétition?
+
+# source: SSP_Palpitations.md lignes 530-718 + prompt pivots
+red_flags:
+  - description: "{s:Palpitations + syncope / lipothymie}"
+    dx_suspecte: "{p:Arythmie ventriculaire maligne (TV, FV)} ou {p:BAV complet}"
+    action: "Monitoring continu + {t:ECG 12D} immédiat; si TV instable: cardioversion électrique urgente"
+  - description: "{s:Palpitations + douleur thoracique} typique / atypique"
+    dx_suspecte: "{p:Syndrome coronarien aigu (SCA)}"
+    action: "{t:ECG} + {t:troponines} STAT; protocole SCA; cardiologue en urgence"
+  - description: "{s:ATCD familiaux mort subite < 40 ans} ou ECG: onde delta / QT long / aspect Brugada"
+    dx_suspecte: "{p:Canalopathie (Brugada, QT long, WPW)}"
+    action: "Avis cardiologie urgente; {t:ECG 12D} + {t:Holter}; éviter médicaments allongeant QT"
+  - description: "{s:Palpitations à l'effort} + lipothymie / syncope d'effort"
+    dx_suspecte: "{p:CMH obstructive} ou {p:dysplasie arythmogène VD} ou arythmie ischémique"
+    action: "{t:Échocardiographie urgente} + avis cardiologique; contre-indication sport jusqu'au bilan"
+  - description: "{s:Tachycardie irrégulière} + {s:déficit neurologique transitoire}"
+    dx_suspecte: "{p:FA} avec embolie cérébrale (AVC/AIT)"
+    action: "AVC pathway si < {r:4,5 h}; {t:ECG} + {t:IRM cérébrale}; anticoagulation selon {t:CHA2DS2-VASc}"
+  - description: "{s:Bradycardie symptomatique} (FC < 40/min) + lipothymie"
+    dx_suspecte: "{p:BAV du 2e ou 3e degré}"
+    action: "{t:ECG} STAT; {r:atropine} si BAV symptomatique; avis cardiologique; pacemaker si indiqué"
+
+# source: SSP_Palpitations.md lignes 282-453 + SYS_Cardio
+examen:
+  general:
+    - "Signes vitaux: FC (régulière?), TA (2 bras), FR, T°, SaO2, poids/IMC"
+    - |-
+      Inspection générale:
+      • anxiété visible, diaphorèse, pâleur, cyanose?
+      • exophtalmie ({p:Basedow}), goitre visible?
+      • tremblements fins des mains (hyperthyroïdie)?
+      • conjonctives pâles (anémie)?
+    - "{t:Glycémie capillaire} si diabétique"
+  cible:
+    - |-
+      {s:Pouls radial} (compter 60 sec si irrégulier):
+      • fréquence, régularité, amplitude
+      • {s:irrégulièrement irrégulier} → {p:FA}
+      • régulièrement irrégulier → ESV/ESA, bloc
+    - |-
+      Auscultation cardiaque (foyers APTM + Erb):
+      • rythme régulier / irrégulier / extrasystoles?
+      • souffles (caractériser: timing, foyer, irradiation, grade)?
+      • {s:B3} (IC systolique) / {s:B4} (HVG)?
+      • frottement péricardique?
+    - |-
+      Signes d'IC:
+      • {s:turgescence jugulaire} (patient à 45°, > 3 cm)?
+      • {r:reflux hépato-jugulaire} (compression 10 sec)?
+      • {s:crépitants} fins bilatéraux des bases (OAP)?
+      • {s:OMI} bilatéraux prenant le godet?
+      • hépatomégalie pulsatile?
+    - |-
+      Pouls périphériques (bilatéral):
+      • fémoraux, poplités, tibiaux postérieurs, pédieux
+      • ausculter carotides AVANT de palper
+    - "Examen thyroïdien si suspicion: volume, nodules, souffle thyroïdien (hypervascularisation)"
+    - "Examen neurologique ciblé si syncope/AIT: déficit focal, ROT, Babinski"
+
+# source: SSP_Palpitations.md lignes 527-563 + pivots
+dd_top5:
+  - dx: "{p:Anxiété / tachycardie sinusale}"
+    indices: "Début/fin progressifs, FC < 150/min, ondes P normales, contexte stress/effort; ECG normal; jeune; #1 en ambulatoire"
+    freq: "très fréquent (50-60 % des palpitations en soins primaires)"
+  - dx: "{p:ESA / ESV bénignes}"
+    indices: "{s:Sensation de raté ou pause} avec pause compensatrice; ECG: QRS prématuré (ESV: large > 120 ms); disparaît à l'effort pour les ESV bénignes; café, stress, alcool"
+    freq: "fréquent (cœur sain)"
+  - dx: "{p:TPSV (AVNRT / AVRT)}"
+    indices: "{s:Début et fin brutaux}; palpitations régulières rapides {r:150-250 /min}; parfois dans le cou; femme jeune; terminées par manœuvre vagale; QRS fins sur ECG [VÉRIFIER: critères diagnostiques ECG en crise]"
+    freq: "fréquent (35 /100 000 /an)"
+  - dx: "{p:FA paroxystique}"
+    indices: "{s:Irrégulièrement irrégulier}; absence d'ondes P; risque AVC → {t:CHA2DS2-VASc}; facteurs: âge, HTA, valvulopathie, alcool; peut être asymptomatique"
+    freq: "fréquent (prévalence 1-2 % population générale)"
+  - dx: "{p:Hyperthyroïdie}"
+    indices: "Tachycardie sinusale persistante; perte de poids, thermophobie, tremblements; {t:TSH} basse + T4 libre élevée; goitre, exophtalmie; peut déclencher FA"
+    freq: "peu fréquent mais à éliminer systématiquement"
+
+# source: SSP_Palpitations.md lignes 482-524 + 577-622
+pec_initiale:
+  immediate:
+    - "Si instabilité hémodynamique (PA < 90, altération conscience, choc): monitoring continu + VVP + O2 + {t:ECG} + cardioversion électrique si TV/TPSV mal tolérée"
+    - "Si stable: {t:ECG 12 dérivations} systématique (idéalement pendant épisode); rechercher: QRS fins/larges, ondes P, QT, pré-excitation (WPW), signes ischémiques"
+    - |-
+      TPSV en crise:
+      • {r:Valsalva modifié} (jambes levées) ou massage sino-carotidien (ausculter d'abord)
+      • si échec: {r:adénosine 6 mg IV rapide} + flush (→ 12 mg si échec)
+      • si échec: {r:vérapamil IV} (CI si WPW ou TV)
+    - "FA < 48h ou anticoagulation ≥ 3 sem: cardioversion (électrique ou pharmacologique: {r:flécaïnide} si pas de cardiopathie structurelle; {r:amiodarone} si cardiopathie)"
+    - "FA: anticoagulation selon {t:CHA2DS2-VASc} ≥ 2 (H) / ≥ 3 (F): {r:DOAC} préféré (pas de valve mécanique)"
+    - "Corriger anomalies métaboliques déclenchantes: hypokaliémie, hypomagnésémie, hyperthyroïdie, anémie"
+  orientation:
+    - "Urgences / soins intensifs: instabilité hémodynamique, TV soutenue, syncope associée, SCA suspecté, BAV symptomatique, FA avec réponse ventriculaire rapide non contrôlée"
+    - "Cardiologue en urgence différée: 1er épisode de TPSV documentée, FA nouvellement diagnostiquée, suspicion canalopathie (Brugada, QT long)"
+    - "Ambulatoire + {t:Holter 24-48h} / enregistreur R-test: palpitations paroxystiques sans red flag, ESA/ESV bénignes suspectées"
+    - "Consignes retour urgences: douleur thoracique, syncope, dyspnée sévère, palpitations > 30 min, pouls > 150 ou < 40/min"
+
+# source: SSP_Palpitations.md lignes 482-524
+examens_complementaires:
+  - "{t:ECG 12D} SYSTÉMATIQUE: rythme, fréquence, QRS fins/larges, QT, pré-excitation, ischémie"
+  - "{t:Holter ECG 24-48h}: palpitations paroxystiques fréquentes — corrélation symptômes-rythme"
+  - "{t:Enregistreur d'événements (R-test)}: épisodes rares (jusqu'à 30 jours) [VÉRIFIER: durée remboursée selon assurance]"
+  - "Biologie: FSC (anémie), ionogramme (K+/Mg2+), TSH, créatinine; {t:troponines} si douleur thoracique; {t:BNP/NT-proBNP} si dyspnée"
+  - "{t:Échocardiographie}: si souffle, signes IC, anomalie ECG, suspicion cardiopathie structurelle"
+  - "{t:Test d'effort}: palpitations déclenchées à l'effort; recherche arythmie ischémique"
+
+# source: SSP_Palpitations.md ligne 615-622
+criteres_hospitalisation:
+  - "Instabilité hémodynamique (choc, hypotension, altération conscience)"
+  - "TV soutenue ou FV récupérée"
+  - "Syncope associée aux palpitations"
+  - "FA avec réponse ventriculaire rapide non contrôlée ou AVC associé"
+  - "Suspicion SCA ou BAV symptomatique"
+
+# source: SSP_Palpitations.md lignes 684-692 + pivots
+pieges:
+  - "Méconnaître {p:FA} lors d'un épisode irrégulier bref → risque AVC; toujours anticoaguler selon {t:CHA2DS2-VASc}"
+  - "Omettre ATCD familiaux de mort subite → {p:Brugada} / {p:QT long} / {p:CMH} passés inaperçus"
+  - "Banaliser ESV 'bénignes' sans {t:ECG}: en cas de cœur pathologique, les ESV peuvent dégénérer en TV"
+  - "Masse des palpitations = anxiété → ne pas appliquer ce diagnostic avant avoir éliminé arythmie par {t:ECG} ou {t:Holter}"
+  - "Oublier médicaments allongeant le QT (neuroleptiques, quinolones, antihistaminiques) → torsades de pointes"
+
+cartes_liees:
+  - SYS-CAR
+  - TOOL-CHA2DS2VASC

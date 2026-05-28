@@ -1,0 +1,190 @@
+id: SSP-CAR-03
+type: ssp
+title: Syncope
+discipline: Cardio
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Syncope.md
+
+# source: lines 1-241 (anamnèse)
+anamnese:
+  socrates:
+    - |-
+      Onset:
+      • début brutal sans prodrome ('tombe comme une masse') ou progressif avec prodromes?
+      • premier épisode ou récidives? fréquence?
+    - |-
+      Character:
+      • durée perte de connaissance: {r:< 1-2 min} (syncope vraie) vs > 5 min ({p:épilepsie})
+      • récupération: rapide < 1 min, orientée, sans confusion? (syncope) ou état post-critique?
+    - |-
+      Time/Trigger:
+      • circonstances bénignes: debout prolongé, chaleur, émotion, douleur, vue du sang
+      • circonstances alarmantes: {s:pendant effort physique} ⚠️, au repos/couché
+      • facteurs situationnels: miction, défécation, toux → syncope situationnelle
+    - |-
+      Exacerbating — prodromes:
+      • {s:vasovagaux} (bénins): diaphorèse, voile noir, nausées, chaleur, phosphènes, acouphènes
+      • {s:cardiaques} ⚠️: palpitations, douleur thoracique, dyspnée — ou AUCUN prodrome
+    - |-
+      Severity / Traumatisme:
+      • chute? blessures? hématome crânien?
+      • impact: conduite automobile ⚠️, sport, travail en hauteur
+  specifique:
+    - |-
+      Pendant la crise (interroger le/les témoins):
+      • mouvements: convulsions généralisées ou myoclonies brèves? ({p:épilepsie} vs syncope)
+      • yeux ouverts (épilepsie/syncope cardiaque) ou fermés ({p:crise psychogène})?
+      • {s:morsure de langue latérale} → épilepsie; {s:perte d'urine} → épilepsie
+      • {s:pâleur + récupération rapide sans confusion} → syncope cardiaque ou réflexe
+    - |-
+      Récupération:
+      • {s:confusion > 5 min} / céphalées / myalgies → état post-critique → {p:épilepsie}
+      • dyspnée persistante ({p:IC}/{p:EP}), douleur thoracique ({p:SCA}/dissection),
+        déficit neurologique focal ({p:AVC}), hémorragie digestive ({p:AAA}) ⚠️
+    - |-
+      Palpitations associées (avant/pendant/après):
+      • début–fin brutal précis → arythmie par réentrée (TSV, {p:TV})
+      • irrégulières → {p:FA} rapide
+      • {t:monitoring ECG} indiqué si oui
+    - "Symptômes à l'effort: palpitations, dyspnée, douleur thoracique, fatigue excessive? → [{s:syncope d'effort} = urgence cardiaque] [VÉRIFIER: seuil exact pour orienter écho urgent vs test d'effort]"
+  atcd:
+    - |-
+      Cardiopathie connue:
+      • valvulopathie (RAo, CMH)? Sévérité évaluée?
+      • IC (FEVG connue?)? cardiopathie ischémique? DAI/pacemaker?
+      • troubles du rythme: BAV, FA, TV antérieure?
+    - |-
+      FRCV:
+      • HTA, diabète, dyslipidémie, tabac, hérédité coronarienne
+    - |-
+      ATCD familiaux ⚠️:
+      • {s:mort subite < 50 ans} dans la famille → {p:CMH}/{p:Brugada}/{p:QT long}
+      • cardiomyopathie, channelopathie
+    - |-
+      Médicaments impliqués:
+      • antihypertenseurs, diurétiques → hypotension orthostatique
+      • antiarythmiques, digitaliques, médicaments allongeant le QT
+      • [VÉRIFIER: liste complète médicaments allongeant QTc selon protocole CHUV/HUG]
+      • hypoglycémiants, psychotropes, tricycliques
+    - |-
+      Habitudes de vie:
+      • alcool (cardiomyopathie, hypoglycémie), drogues (cocaïne → arythmies)
+      • sport intensif/compétition? symptômes à l'effort?
+      • jeûne récent (hypoglycémie)
+
+# source: lines 244-363 (examen)
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: TA couché + {r:test orthostatique} (debout à {r:1 et 3 min}); FC (régularité, bradycardie?); FR; T°; SaO2; glycémie capillaire si suspect hypoglycémie"
+    - |-
+      Test orthostatique POSITIF si:
+      • chute TA systolique {r:≥ 20 mmHg} OU TA diastolique {r:≥ 10 mmHg}
+      • ou augmentation FC {r:≥ 30 bpm} — [VÉRIFIER: critère FC ≥ 30 bpm dans guidelines ESC 2018]
+    - "Traumatisme post-chute: hématomes, plaies, déformations (fracture?); langue (morsure latérale?)"
+  cible:
+    - |-
+      Auscultation cardiaque (4 foyers systématiques):
+      • {s:souffle systolique éjectionnel} foyer aortique → {p:RAo serré} ⚠️ (manœuvre: Valsalva diminue, accroupissement augmente)
+      • {s:souffle augmenté au Valsalva} (diminué à l'accroupissement) → {p:CMH obstructive} ⚠️
+      • B3/B4, crépitants fins bases → {p:IC}; frottement péricardique → {p:péricardite}/{p:tamponnade}
+    - |-
+      Pouls et TA:
+      • asymétrie pouls/TA > 10 mmHg entre les 2 bras → {p:dissection aortique}
+      • parvus et tardus → {p:RAo serré}
+      • irrégulièrement irrégulier → {p:FA}
+    - "Turgescence jugulaire (> 3 cm à 45°) + reflux hépato-jugulaire → {p:IC droite}, {p:tamponnade}, {p:EP} sévère"
+    - "Examen neurologique si récupération anormale: déficit focal, ROT, Babinski, signes méningés"
+    - "Masse pulsatile abdominale → {p:AAA}; œdèmes MI (godet, symétrie)"
+
+# source: lines 366-535 (PEC)
+red_flags:
+  - description: "{s:Syncope pendant effort physique} (sport, montée d'escalier)"
+    dx_suspecte: "{p:RAo serré} ou {p:CMH obstructive} — risque mort subite"
+    action: "Arrêt sport immédiat; {t:écho-cœur} urgent (J0); auscultation (souffle systolique); hospitalisation cardiologie"
+  - description: "{s:Syncope brutale sans prodrome} — 'tombe comme une masse'"
+    dx_suspecte: "{p:Arythmie} (BAV haut degré, TV, FA rapide)"
+    action: "{t:ECG 12 dérivations} immédiat; monitoring cardio continu; {t:Holter ECG} si ECG initial normal"
+  - description: "{s:Palpitations avant syncope} — début/fin brutaux (précis)"
+    dx_suspecte: "{p:Tachycardie ventriculaire} ou TSV avec cardiopathie"
+    action: "{t:ECG} + troponines; monitoring; avis cardiologie urgente; écho si cardiopathie sous-jacente"
+  - description: "ATCD familiaux de {s:mort subite < 50 ans} ou cardiopathie génétique"
+    dx_suspecte: "{p:Syndrome de Brugada} / {p:QT long congénital} / {p:CMH}"
+    action: "{t:ECG haute résolution} (V1-V3 hautes dér.); avis cardiologie génétique; Holter; arrêt sport compétitif"
+  - description: "{s:Syncope + douleur thoracique} / dyspnée persistante post-syncope"
+    dx_suspecte: "{p:SCA}, {p:EP}, {p:dissection aortique}"
+    action: "{t:ECG} + {t:troponines} + D-dimères + {t:angio-scanner} selon orientation; hospitalisation USIC"
+  - description: "{s:Souffle systolique} à l'auscultation chez patient syncopal"
+    dx_suspecte: "{p:RAo serré} ou {p:CMH} obstructive"
+    action: "{t:Écho-cœur} en urgence; cardio urgente; interdire tout effort en attendant le résultat"
+
+dd_top5:
+  - dx: "{p:Syncope arythmique} (BAV, TV, FA rapide)"
+    indices: "Syncope brutale sans prodrome, palpitations précédant la chute, récupération rapide, ECG: BAV/QT long/Brugada/ε-wave, cardiopathie sous-jacente; SCORE Canadian Syncope Risk"
+    freq: "~35 % des syncopes (cause cardiaque la plus fréquente)"
+  - dx: "{p:Syncope obstructive} (RAo serré, CMH, EP)"
+    indices: "Syncope d'effort ⚠️, souffle systolique éjectionnel, parvus-tardus, écho confirme; EP: dyspnée + FRCV + D-dimères"
+    freq: "~10-15 % — pronostic grave"
+  - dx: "{p:Syncope vasovagale} (neurogène réflexe)"
+    indices: "Prodromes riches (diaphorèse, voile noir, nausées), déclencheur émotionnel/douleur/chaleur/station debout prolongée, récupération rapide, sujet jeune, ECG normal"
+    freq: "~35 % — cause la plus bénigne"
+  - dx: "{p:Hypotension orthostatique}"
+    indices: "Syncope au lever, test orthostatique + (chute PAS ≥ 20 mmHg à 1-3 min), médicaments (antihypertenseurs, diurétiques), déshydratation, neuropathie autonome"
+    freq: "~10 % — fréquent chez la personne âgée"
+  - dx: "{p:Épilepsie généralisée} (diagnostic différentiel non-cardiaque)"
+    indices: "Yeux ouverts, convulsions ≥ 1 min, morsure langue latérale, perte urine, état post-critique (confusion > 5 min, myalgies, céphalées), EEG anormal"
+    freq: "~5-10 % des présentations avec syncope apparente"
+
+examens_complementaires:
+  - "{t:ECG 12 dérivations} OBLIGATOIRE: BAV, QT long/court, Brugada pattern (V1-V3), ε-wave (dysplasie VD), HVG (RAo), onde Q (IDM)"
+  - "{t:Écho-cœur} urgent si souffle ou syncope d'effort: FEVG, valvulopathie, CMH, épanchement"
+  - "{t:Holter ECG 24-48h} ou {t:Holter implantable}: syncope récidivante inexpliquée, ECG de base normal — [VÉRIFIER: durée Holter et seuil pour implantable selon protocole HUG 2023]"
+  - "Biologie: {t:FSC} (anémie), glycémie, ionogramme (hypokaliémie → arythmies), créatinine, {t:troponines} si douleur thoracique"
+  - "{t:D-dimères} + {t:angio-scanner thoracique}: si suspicion EP (dyspnée + FRCV + tachycardie persistante)"
+  - "{t:Test d'effort}: syncope d'effort après élimination RAo/CMH à l'écho; IRM cardiaque si cardiomyopathie suspectée"
+
+criteres_hospitalisation:
+  - "Syncope d'effort ou syncope avec douleur thoracique / dyspnée persistante → hospitalisation cardiologie/USIC"
+  - "ECG anormal (BAV haut degré, QT > 500 ms, Brugada, TV non soutenue) → monitoring continu"
+  - "Cardiopathie connue (RAo, CMH, FEVG < 35 %) + syncope → urgence absolue"
+  - "Signes de choc (hypotension, marbrures, tachycardie, OAP) ou traumatisme post-chute grave"
+  - "Syncope récidivante inexpliquée chez patient > 65 ans ou avec ATCD familiaux mort subite"
+
+pec_initiale:
+  immediate:
+    - "STOP RED FLAGS: syncope d'effort + souffle → écho urgent AVANT tout; syncope + douleur thoracique → ECG + troponines immédiat; syncope brutale sans prodrome → monitoring continu"
+    - |-
+      Selon étiologie identifiée:
+      • {p:BAV} symptomatique: {r:atropine IV} si bradycardie aiguë; pacemaker permanent
+      • {p:TV}: antiarythmiques ({r:amiodarone}) ± DAI si récidivante
+      • {p:RAo serré}: interdire effort; remplacement valvulaire (chirurgie ou {r:TAVI})
+      • {p:CMH obstructive}: {r:bêtabloquants}; éviter déshydratation/Valsalva; DAI si risque mort subite
+      • {p:EP}: {r:anticoagulation} immédiate (DOAC ou HNF selon gravité)
+    - |-
+      Syncope vasovagale (benigne, ECG/écho normaux):
+      • rassurance + éducation: reconnaître prodromes, s'allonger
+      • éviter déclencheurs; manœuvres physiques (contraction MI, accroupissement)
+      • {r:hydratation} 2-3 L/j + apport sodé; {r:midodrine} si récidivante [VÉRIFIER: dose midodrine pour syncope réflexe]
+    - |-
+      Hypotension orthostatique:
+      • révision médicaments (réduire/arrêter antihypertenseurs, diurétiques)
+      • lever progressif; bas de contention; {r:fludrocortisone} si sévère
+  orientation:
+    - "USIC/cardiologie: syncope d'effort, ECG anormal, cardiopathie + syncope, signes de choc"
+    - "Urgences (bilan + monitoring 24h): syncope inexpliquée > 65 ans, ATCD familiaux mort subite, premier épisode sévère sans cause évidente"
+    - "Ambulatoire + cardio dans la semaine: syncope vasovagale typique (prodromes riches, déclencheur clair, ECG normal)"
+    - "Consignes retour urgences: nouvelle syncope avec douleur thoracique / palpitations / dyspnée; interdiction conduite automobile ⚠️ jusqu'au diagnostic établi"
+
+pieges:
+  - "Banaliser {s:syncope d'effort} comme 'vasovagale' — toujours écho-cœur urgent pour éliminer {p:RAo} ou {p:CMH}"
+  - "Confondre {s:convulsions brèves} (myoclonies d'anoxie) de la syncope cardiaque avec une {p:épilepsie} → différentiel clé: durée, état post-critique, yeux ouverts/fermés"
+  - "Oublier les {s:médicaments allongeant le QT} (antiarythmiques, certains antibiotiques, antipsychotiques) comme cause d'arythmie létale"
+  - "Ne pas tester l'hypotension orthostatique (mesure TA couché vs debout) — piège classique surtout chez la personne âgée polymédicamentée"
+  - "Oublier d'interdire la conduite automobile ⚠️ — obligation légale jusqu'à étiologie clarifiée (risque médico-légal)"
+
+cartes_liees:
+  - SYS-CAR
+  - SSP-CAR-01
+  - SSP-CAR-02
