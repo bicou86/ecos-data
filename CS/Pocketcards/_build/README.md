@@ -37,6 +37,22 @@ node src/build.js [--pdf] [--notion] [--include-drafts] [--only=<id>] [--verbose
 
 See `docs/superpowers/specs/2026-05-27-pocketcards-design.md` for the full design.
 
+## Semantic color coding markup
+
+Inside YAML content, wrap words/phrases with the following markers to color them:
+
+| Marker    | Use for                                 | Color  |
+| --------- | --------------------------------------- | ------ |
+| `{s:...}` | symptom / sign / mechanism              | pink   |
+| `{p:...}` | pathology / diagnosis / vital emergency | red    |
+| `{t:...}` | test / score / imaging                  | green  |
+| `{r:...}` | treatment / drug / procedure / number   | yellow |
+| `{e:...}` | physiological state                     | brown  |
+
+Example: `"{s:Coup de tonnerre} → {p:HSA} → {t:CT cérébral}"`
+
+The markup is rendered as `<span>` in HTML and stripped from Notion exports.
+
 ## Troubleshooting
 
 **AJV draft-2020-12 import**

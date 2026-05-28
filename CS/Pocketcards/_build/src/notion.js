@@ -8,8 +8,13 @@ const here = dirname(fileURLToPath(import.meta.url));
 const DEFAULT_DATA_DIR = resolve(here, "..", "..", "data");
 const DEFAULT_DIST_DIR = resolve(here, "..", "..", "dist");
 
+function stripMarkup(text) {
+  if (text == null) return "";
+  return String(text).replace(/\{[sprte]:([^}]+)\}/g, "$1");
+}
+
 function text(content) {
-  return [{ type: "text", text: { content: String(content) } }];
+  return [{ type: "text", text: { content: stripMarkup(content) } }];
 }
 function heading(content) {
   return { type: "heading_2", heading_2: { rich_text: text(content) } };

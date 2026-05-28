@@ -366,7 +366,7 @@ exports[`renderCard > renders the golden TOOL card to HTML 1`] = `
           <div class="label">⚠️ Limites</div>
           <ul>
                         <li>Sous-estime AVC postérieur</li>
-                        <li>Pas d&#39;évaluation aphasie fine</li>
+                        <li>Pas d'évaluation aphasie fine</li>
                       </ul>
         </section>
                  <section class="section">

@@ -312,6 +312,28 @@ body {
   margin-top: 2px;
 }
 
+/* === Semantic word-level color coding === */
+.sem-symptom {
+  color: #db2777;
+  font-weight: 600;
+} /* pink — symptom/sign/mechanism */
+.sem-pathology {
+  color: #dc2626;
+  font-weight: 600;
+} /* red — pathology/diagnosis */
+.sem-test {
+  color: #059669;
+  font-weight: 600;
+} /* green — test/score/imaging */
+.sem-treatment {
+  color: #ca8a04;
+  font-weight: 600;
+} /* yellow/amber — treatment/drug/number */
+.sem-state {
+  color: #92400e;
+  font-weight: 600;
+} /* brown — physiological state */
+
 /* Print — A5 portrait */
 @media print {
   body {
