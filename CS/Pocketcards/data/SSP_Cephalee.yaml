@@ -157,9 +157,9 @@ pec_initiale:
     - "Céphalée primaire légère-modérée: {r:AINS (ibuprofène 400-600 mg PO)} ou paracétamol 1 g PO ou aspirine 900 mg"
     - "Migraine modérée-sévère: {r:sumatriptan 50-100 mg PO} ± antiémétique (métoclopramide 10 mg) — CI si cardiopathie ischémique, HTA non contrôlée, {e:grossesse}"
     - "Cluster: {r:O2 100 % 10-15 L/min × 15-20 min} + sumatriptan SC 6 mg"
-    - "Suspicion Horton: {r:prednisone 1 mg/kg/j (60-80 mg) PO} IMMEDIAT; si atteinte oculaire: méthylprednisolone IV 500-1000 mg × 3 j + IPP"
-    - "Suspicion méningite: {r:ceftriaxone 2 g IV + vancomycine 15-20 mg/kg IV + dexaméthasone 10 mg IV} AVANT ATB; + ampicilline si {e:> 50 ans}"
-    - "HSA confirmée: hospitalisation USI, {r:nimodipine 60 mg/4h PO}, neurochirurgie urgente"
+    - "Suspicion {p:Horton}: {r:prednisone 1 mg/kg/j (60-80 mg) PO} IMMEDIAT; si atteinte oculaire: méthylprednisolone IV 500-1000 mg × 3 j + IPP"
+    - "Suspicion {p:Méningite}: {r:ceftriaxone 2 g IV + vancomycine 15-20 mg/kg IV + dexaméthasone 10 mg IV} AVANT ATB; + ampicilline si {e:> 50 ans}"
+    - "{p:HSA} confirmée: hospitalisation USI, {r:nimodipine 60 mg/4h PO}, neurochirurgie urgente"
   orientation:
     - "Domicile + suivi médecin traitant: céphalée primaire typique, examen normal, pas de red flag"
     - "Urgences: tout red flag, 1ère céphalée sévère, céphalée nouvelle > 50 ans sans bilan"
@@ -168,15 +168,15 @@ pec_initiale:
 
 examens_complementaires:
   - "{t:CT cérébral SANS contraste}: red flag (coup de tonnerre, déficit focal, trauma, altération conscience)"
-  - "{t:PL} (xanthochromie + cytologie + protéinorachie): suspicion HSA avec CT négatif, méningite après CT si signes focaux"
+  - "{t:PL} (xanthochromie + cytologie + protéinorachie): suspicion {p:HSA} avec CT négatif, {p:Méningite} après CT si signes focaux"
   - "{t:IRM cérébrale + angio-IRM}: thrombophlébite cérébrale, dissection artérielle, pathologie fosse postérieure, céphalée progressive"
-  - "{t:VS + CRP} STAT: toute céphalée nouvelle > 50 ans (Horton); VS > 50 mm/h très évocatrice"
-  - "{t:FSC + hémocultures}: suspicion méningite"
+  - "{t:VS + CRP} STAT: toute céphalée nouvelle > 50 ans ({p:Horton}); VS > 50 mm/h très évocatrice"
+  - "{t:FSC + hémocultures}: suspicion {p:Méningite}"
   - "{t:Crase} (TP, TCA, plaquettes): hémorragie suspectée ou avant PL sous anticoagulants"
   - "{t:bHCG}: femme en âge de procréer avec céphalée nouvelle sévère"
 
 criteres_hospitalisation:
-  - "Tout red flag avéré (HSA, méningite, déficit neurologique focal, Horton avec atteinte oculaire)"
+  - "Tout red flag avéré ({p:HSA}, {p:Méningite}, déficit neurologique focal, {p:Horton} avec atteinte oculaire)"
   - "Imagerie ou PL anormale"
   - "Altération de la conscience ({t:GCS < 15})"
   - "{s:HTA maligne > 180/120} ou prééclampsie"
@@ -186,7 +186,7 @@ criteres_hospitalisation:
 pieges:
   - "Banaliser une céphalée NOUVELLE après {e:50 ans} — toujours éliminer {p:Horton} (ne pas retarder les corticoïdes en attendant la biopsie)"
   - "Faire la PL AVANT le {t:CT} en présence de signes focaux → risque d'engagement"
-  - "Donner des {r:triptans} sans avoir éliminé une HSA ou une dissection artérielle — contre-indiqués"
+  - "Donner des {r:triptans} sans avoir éliminé une {p:HSA} ou une dissection artérielle — contre-indiqués"
   - "Oublier le {t:FO} devant une céphalée progressive (oedème papillaire = HTIC jusqu'à preuve du contraire)"
   - "Méconnaître l'{r:abus médicamenteux} (> 10 j/mois) comme cause de céphalée chronique quotidienne"
   - "Oublier {e:grossesse / post-partum} (thrombophlébite cérébrale) et ne pas demander bHCG"

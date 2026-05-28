@@ -22,7 +22,7 @@ exports[`renderCard > renders the golden SSP card to HTML 1`] = `
             >high</span
           >
                     <span class="meta"
-            >SSP-NEU-04 · Neuro · v2026-05-27</span
+            >SSP-NEU-04 · Neuro · v2026-05-28</span
           >
         </div>
       </header>
@@ -32,25 +32,33 @@ exports[`renderCard > renders the golden SSP card to HTML 1`] = `
           <div class="label">📋 Anamnèse</div>
           <strong>SOCRATES</strong>
           <ul>
-                        <li>Site (uni/bilatéral, localisation)</li>
-                        <li>Onset (brutal vs progressif)</li>
-                        <li>Character (pulsatile, étau)</li>
-                        <li>Radiation (nuque, mâchoire)</li>
-                        <li>Time (durée, fréquence)</li>
-                        <li>Exacerbating (effort, lumière)</li>
-                        <li>Relieving (repos, médicaments)</li>
-                        <li>Severity (0-10)</li>
+                        <li><strong>Site:</strong><ul class="nested-bullets"><li>unilatérale ou bilatérale?</li><li>temporale / frontale / occipitale / diffuse?</li><li>toujours du même côté?</li></ul></li>
+                        <li><strong>Onset:</strong><ul class="nested-bullets"><li>début brutal <span class="sem-treatment">&lt; 1 min</span> ('coup de tonnerre') ou progressif?</li><li>première fois ou récurrent?</li></ul></li>
+                        <li><strong>Character:</strong> pulsatile ('ça bat') / pression-étau / coup de poignard / décharge électrique?</li>
+                        <li><strong>Radiation:</strong> vers la nuque, épaules, mâchoire, dents?</li>
+                        <li><strong>Time:</strong><ul class="nested-bullets"><li>durée (min / h / j)</li><li>fréquence (quotidienne, hebdomadaire)</li><li>horaire (réveil)</li><li>impact sommeil?</li></ul></li>
+                        <li><strong>Exacerbating:</strong><ul class="nested-bullets"><li>effort physique, toux</li><li>position penchée</li><li>lumière, bruit, stress</li><li>aliments (chocolat, fromage, vin)</li><li>règles?</li></ul></li>
+                        <li><strong>Relieving:</strong> repos dans le noir, médicaments (lesquels? efficaces?), position particulière?</li>
+                        <li><strong>Severity:</strong><ul class="nested-bullets"><li>intensité 0-10</li><li>impact activités quotidiennes</li><li>arrêts de travail?</li></ul></li>
                       </ul>
           <strong>Spécifique</strong>
           <ul>
-                        <li>Aura visuelle/sensitive</li>
-                        <li>Photo/phonophobie</li>
-                        <li>Nausées/vomissements</li>
+                        <li><strong><span class="sem-symptom">Aura</span> (20-60 min avant):</strong><ul class="nested-bullets"><li>scotomes scintillants</li><li>hémianopsie</li><li>paresthésies progressives</li><li>aphasie transitoire</li><li>vertiges?</li></ul></li>
+                        <li>Photo / phonophobie / osmophobie?</li>
+                        <li>Nausées / vomissements?</li>
+                        <li><strong>Signes dysautonomiques homolatéraux (<span class="sem-pathology">Cluster</span>):</strong><ul class="nested-bullets"><li>oeil rouge, larmoiement</li><li>congestion nasale</li><li>myosis/ptosis</li><li>agitation pendant la crise?</li></ul></li>
+                        <li><span class="sem-symptom">Claudication de la mâchoire</span> / hyperesthésie cuir chevelu ('douleur au peigne') → <span class="sem-pathology">Horton</span> si &gt; 50 ans?</li>
+                        <li><span class="sem-state">Grossesse / post-partum</span>?</li>
+                        <li>Traumatisme crânien ou manipulation cervicale récents?</li>
                       </ul>
           <strong>ATCD</strong>
           <ul>
-                        <li>Céphalées habituelles</li>
-                        <li>Migraine familiale</li>
+                        <li><strong>Céphalées habituelles:</strong> type, fréquence, évolution — cette céphalée est-elle DIFFÉRENTE?</li>
+                        <li><strong>ATCD neurologiques:</strong> épilepsie, AVC/AIT, traumatisme crânien</li>
+                        <li><strong>Maladies systémiques:</strong> HTA, diabète, cancers, maladies auto-immunes</li>
+                        <li><strong>Médicaments:</strong><ul class="nested-bullets"><li>anticoagulants</li><li>contraception orale</li><li>vasodilatateurs (dérivés nitrés)</li><li><span class="sem-treatment">ABUS ANTALGIQUES</span> (&gt; 10 j/mois)</li></ul></li>
+                        <li><strong>ATCD familiaux:</strong> migraine, anévrismes cérébraux</li>
+                        <li><strong>Habitudes de vie:</strong><ul class="nested-bullets"><li>sommeil, repas sautés, hydratation</li><li>café (sevrage)</li><li>tabac, alcool, cocaïne</li><li>stress</li></ul></li>
                       </ul>
         </section>
 
@@ -58,19 +66,39 @@ exports[`renderCard > renders the golden SSP card to HTML 1`] = `
           <div class="label">🚨 Red flags</div>
           <ul class="rf-list">
                         <li>
-              <div>Coup de tonnerre (&lt; 1 min)</div>
-              <div class="dx">→ HSA</div>
-              <div class="action">CT cérébral immédiat</div>
+              <div><span class="sem-symptom">Coup de tonnerre</span> (&lt;1 min) — pire céphalée de sa vie</div>
+              <div class="dx">→ <span class="sem-pathology">Hémorragie sous-arachnoïdienne (HSA)</span></div>
+              <div class="action"><span class="sem-test">CT cérébral</span> sans contraste immédiat; si CT négatif → PL</div>
             </li>
                         <li>
-              <div>« Pire de ma vie »</div>
-              <div class="dx">→ HSA, dissection</div>
-              <div class="action">Imagerie urgente</div>
+              <div><span class="sem-symptom">Déficit neurologique focal nouveau</span> (parésie, aphasie, diplopie, mydriase) ou altération de conscience</div>
+              <div class="dx">→ <span class="sem-pathology">AVC</span>, hématome, tumeur, HTIC</div>
+              <div class="action">AVC pathway / neuroimagerie urgente</div>
             </li>
                         <li>
-              <div>Déficit neurologique focal nouveau</div>
-              <div class="dx">→ AVC, tumeur</div>
-              <div class="action">AVC pathway</div>
+              <div><span class="sem-symptom">Fièvre + raideur de nuque</span> (méningisme) ± éruption cutanée</div>
+              <div class="dx">→ <span class="sem-pathology">Méningite bactérienne</span> / méningococcémie</div>
+              <div class="action">Antibiothérapie empirique IV immédiate (<span class="sem-treatment">ceftriaxone 2 g</span> + <span class="sem-treatment">vancomycine 15-20 mg/kg IV</span>); PL après CT si signes focaux</div>
+            </li>
+                        <li>
+              <div><span class="sem-state">&gt; 50 ans</span>: céphalée temporale nouvelle + claudication mâchoire ± artère temporale indurée</div>
+              <div class="dx">→ <span class="sem-pathology">Artérite à cellules géantes (Horton / ACG)</span></div>
+              <div class="action">VS/CRP STAT; <span class="sem-treatment">prednisone 1 mg/kg/j PO</span> sans attendre la biopsie</div>
+            </li>
+                        <li>
+              <div><span class="sem-symptom">Syndrome de Claude Bernard-Horner</span> (myosis + ptosis + enophtalmie) ± douleur cervicale</div>
+              <div class="dx">→ <span class="sem-pathology">Dissection carotidienne ou vertébrale</span></div>
+              <div class="action">Angio-IRM cervicale urgente; ne pas donner triptans</div>
+            </li>
+                        <li>
+              <div>Céphalée progressive nouvelle en <span class="sem-state">post-partum</span> ou sous contraception orale</div>
+              <div class="dx">→ <span class="sem-pathology">Thrombophlébite cérébrale</span></div>
+              <div class="action">IRM + angio-IRM veineuse urgente; bHCG si femme en âge de procréer</div>
+            </li>
+                        <li>
+              <div><span class="sem-symptom">HTA sévère &gt; 180/120 mmHg</span> avec céphalée</div>
+              <div class="dx">→ <span class="sem-pathology">Encéphalopathie hypertensive</span> / prééclampsie</div>
+              <div class="action">Mesure TA répétée; avis urgences; bHCG si femme</div>
             </li>
                       </ul>
         </section>
@@ -79,14 +107,21 @@ exports[`renderCard > renders the golden SSP card to HTML 1`] = `
           <div class="label">🔍 Examen</div>
           <strong>Général</strong>
           <ul>
-                        <li>TA, FC, T°, SatO2</li>
-                        <li>Glasgow</li>
+                        <li><strong>Signes vitaux OBLIGATOIRES:</strong> TA (les deux bras), FC, T°, FR, SaO2</li>
+                        <li>Glycémie si diabétique</li>
+                        <li><span class="sem-test">Score de Glasgow</span> si altération de conscience</li>
+                        <li>Inspection cutanée complète (<span class="sem-symptom">purpura pétéchial</span> → méningocoque)</li>
                       </ul>
           <strong>Ciblé</strong>
           <ul>
-                        <li>Status neuro complet</li>
-                        <li>FO (œdème papillaire)</li>
-                        <li>Palpation artères temporales</li>
+                        <li><strong><span class="sem-symptom">Syndrome méningé</span>:</strong><ul class="nested-bullets"><li>raideur de nuque (flexion passive)</li><li>signe de Kernig</li><li>signe de Brudzinski nucal et controlatéral</li><li>photophobie objective</li></ul></li>
+                        <li><strong>Nerfs crâniens:</strong><ul class="nested-bullets"><li>acuité visuelle</li><li>champs visuels par confrontation</li><li><span class="sem-test">FO</span> (oedème papillaire = <span class="sem-pathology">HTIC</span>)</li><li>pupilles (taille, symétrie, réflexes, ptosis)</li></ul></li>
+                        <li><strong>Oculomotricité:</strong> mouvements oculaires (III, IV, VI), diplopie?</li>
+                        <li><strong>Signes de latéralisation:</strong><ul class="nested-bullets"><li>force 4 membres</li><li>ROT symétriques?</li><li>Babinski</li><li>sensibilité</li></ul></li>
+                        <li><strong>Etat mental:</strong> orientation temporo-spatiale, attention (mois à l'envers), langage (aphasie?)</li>
+                        <li>Si <span class="sem-state">&gt; 50 ans</span>: palpation artères temporales (induration, absence de pouls, douleur), muscles temporaux</li>
+                        <li><strong>ORL:</strong> percussion/palpation sinus, palpation ATM (dysfonction temporo-mandibulaire)</li>
+                        <li>Auscultation carotidienne (souffle → sténose/dissection)</li>
                       </ul>
         </section>
 
@@ -94,29 +129,29 @@ exports[`renderCard > renders the golden SSP card to HTML 1`] = `
           <div class="label">🎯 DD Top 5</div>
           <ul class="dd-list">
                         <li>
-              <div class="dx">Migraine</div>
-              <div class="indices">Pulsatile, photo/phono, aura</div>
-              <div class="freq">très fréquent</div>
+              <div class="dx"><span class="sem-pathology">Migraine</span></div>
+              <div class="indices">Unilatérale pulsatile, photo/phonophobie, nausées, aggravée à l'effort, ATCD familiaux, aura possible (20 %); critères <span class="sem-test">POUND</span> (≥ 4 sur 5 = migraine probable)</div>
+              <div class="freq">très fréquent (12 % pop.)</div>
             </li>
                         <li>
-              <div class="dx">Céphalée de tension</div>
-              <div class="indices">Bilatérale, étau, sans aura</div>
-              <div class="freq">fréquent</div>
+              <div class="dx"><span class="sem-pathology">Céphalée de tension</span></div>
+              <div class="indices">Bilatérale en pression-étau, intensité légère-modérée, durée 30 min – 7 j, NON aggravée à l'effort, pas de nausées ni photo/phono (ou l'un mais pas les deux)</div>
+              <div class="freq">très fréquent (38 % pop.)</div>
             </li>
                         <li>
-              <div class="dx">HSA</div>
-              <div class="indices">Thunderclap, méningisme</div>
-              <div class="freq">rare/urgent</div>
+              <div class="dx"><span class="sem-pathology">Hémorragie sous-arachnoïdienne (HSA)</span></div>
+              <div class="indices">Début brutal &lt; 1 min, 'pire de ma vie', méningisme, parfois troubles de conscience; <span class="sem-test">CT</span> sens. 98 % &lt; 6 h</div>
+              <div class="freq">rare mais urgence absolue (mortalité 30 %)</div>
             </li>
                         <li>
-              <div class="dx">Horton</div>
-              <div class="indices">&gt;50a, claudication mâchoire, CRP↑</div>
-              <div class="freq">rare</div>
+              <div class="dx"><span class="sem-pathology">Artérite à cellules géantes (Horton)</span></div>
+              <div class="indices"><span class="sem-state">&gt; 50 ans</span>, céphalée temporale nouvelle, claudication mâchoire, artère temporale indurée/absence de pouls, VS &gt; 50 mm/h, CRP élevée, risque cécité irréversible</div>
+              <div class="freq">rare (incidence 15-30/100 000 &gt; 50 ans)</div>
             </li>
                         <li>
-              <div class="dx">Méningite</div>
-              <div class="indices">Fièvre + raideur + altération</div>
-              <div class="freq">rare/urgent</div>
+              <div class="dx"><span class="sem-pathology">Méningite bactérienne</span></div>
+              <div class="indices"><strong>Triade:</strong> fièvre + céphalée + raideur de nuque (présente dans 44 % seulement); photophobie, Kernig/Brudzinski +, purpura fulminans = urgence</div>
+              <div class="freq">rare mais urgence vitale</div>
             </li>
                       </ul>
         </section>
@@ -125,42 +160,62 @@ exports[`renderCard > renders the golden SSP card to HTML 1`] = `
           <div class="label">💊 Prise en charge initiale</div>
           <strong>Immédiat</strong>
           <ul>
-                        <li>Antalgie AINS / Paracétamol</li>
-                        <li>Triptan si migraine confirmée</li>
+                        <li>STOP red flags d'abord — tout red flag → imagerie / bilan biologique avant antalgiques</li>
+                        <li><strong>Céphalée primaire légère-modérée:</strong> <span class="sem-treatment">AINS (ibuprofène 400-600 mg PO)</span> ou paracétamol 1 g PO ou aspirine 900 mg</li>
+                        <li><strong>Migraine modérée-sévère:</strong> <span class="sem-treatment">sumatriptan 50-100 mg PO</span> ± antiémétique (métoclopramide 10 mg) — CI si cardiopathie ischémique, HTA non contrôlée, <span class="sem-state">grossesse</span></li>
+                        <li><strong>Cluster:</strong> <span class="sem-treatment">O2 100 % 10-15 L/min × 15-20 min</span> + sumatriptan SC 6 mg</li>
+                        <li>Suspicion <span class="sem-pathology">Horton</span>: <span class="sem-treatment">prednisone 1 mg/kg/j (60-80 mg) PO</span> IMMEDIAT; si atteinte oculaire: méthylprednisolone IV 500-1000 mg × 3 j + IPP</li>
+                        <li>Suspicion <span class="sem-pathology">Méningite</span>: <span class="sem-treatment">ceftriaxone 2 g IV + vancomycine 15-20 mg/kg IV + dexaméthasone 10 mg IV</span> AVANT ATB; + ampicilline si <span class="sem-state">&gt; 50 ans</span></li>
+                        <li><span class="sem-pathology">HSA</span> confirmée: hospitalisation USI, <span class="sem-treatment">nimodipine 60 mg/4h PO</span>, neurochirurgie urgente</li>
                       </ul>
           <strong>Orientation</strong>
           <ul>
-                        <li>Domicile + suivi MT si bénin</li>
-                        <li>URG si red flag</li>
+                        <li><strong>Domicile + suivi médecin traitant:</strong> céphalée primaire typique, examen normal, pas de red flag</li>
+                        <li><strong>Urgences:</strong> tout red flag, 1ère céphalée sévère, céphalée nouvelle &gt; 50 ans sans bilan</li>
+                        <li><strong>Neurologie ambulatoire:</strong> migraine &gt; 2 crises/mois affectant l'activité → évaluation traitement de fond</li>
+                        <li><strong>Consignes de retour aux urgences:</strong> changement brutal de pattern, coup de tonnerre, fièvre + raideur, troubles neurologiques nouveaux</li>
                       </ul>
         </section>
 
                 <section class="section">
           <div class="label">🧪 Examens complémentaires</div>
           <ul>
-                        <li>CT cérébral (red flag)</li>
-                        <li>IRM (céphalée progressive)</li>
-                        <li>CRP/VS (Horton)</li>
+                        <li><span class="sem-test">CT cérébral SANS contraste</span>: red flag (coup de tonnerre, déficit focal, trauma, altération conscience)</li>
+                        <li><span class="sem-test">PL</span> (xanthochromie + cytologie + protéinorachie): suspicion <span class="sem-pathology">HSA</span> avec CT négatif, <span class="sem-pathology">Méningite</span> après CT si signes focaux</li>
+                        <li><span class="sem-test">IRM cérébrale + angio-IRM</span>: thrombophlébite cérébrale, dissection artérielle, pathologie fosse postérieure, céphalée progressive</li>
+                        <li><span class="sem-test">VS + CRP</span> STAT: toute céphalée nouvelle &gt; 50 ans (<span class="sem-pathology">Horton</span>); VS &gt; 50 mm/h très évocatrice</li>
+                        <li><span class="sem-test">FSC + hémocultures</span>: suspicion <span class="sem-pathology">Méningite</span></li>
+                        <li><span class="sem-test">Crase</span> (TP, TCA, plaquettes): hémorragie suspectée ou avant PL sous anticoagulants</li>
+                        <li><strong><span class="sem-test">bHCG</span>:</strong> femme en âge de procréer avec céphalée nouvelle sévère</li>
                       </ul>
         </section>
                  <section class="section">
           <div class="label">🏥 Critères d'hospitalisation</div>
           <ul>
-                        <li>Imagerie anormale</li>
-                        <li>Altération de conscience</li>
+                        <li>Tout red flag avéré (<span class="sem-pathology">HSA</span>, <span class="sem-pathology">Méningite</span>, déficit neurologique focal, <span class="sem-pathology">Horton</span> avec atteinte oculaire)</li>
+                        <li>Imagerie ou PL anormale</li>
+                        <li>Altération de la conscience (<span class="sem-test">GCS &lt; 15</span>)</li>
+                        <li><span class="sem-symptom">HTA maligne &gt; 180/120</span> ou prééclampsie</li>
+                        <li>Première céphalée sévère sans diagnostic établi</li>
+                        <li>Douleur incontrôlée malgré traitement ambulatoire</li>
                       </ul>
         </section>
                  <section class="section full">
           <div class="label">💡 Pièges / Pearls</div>
           <ul>
-                        <li>Oublier le FO devant une céphalée nouvelle</li>
-                        <li>Triptan contre-indiqué dans HSA</li>
+                        <li>Banaliser une céphalée NOUVELLE après <span class="sem-state">50 ans</span> — toujours éliminer <span class="sem-pathology">Horton</span> (ne pas retarder les corticoïdes en attendant la biopsie)</li>
+                        <li>Faire la PL AVANT le <span class="sem-test">CT</span> en présence de signes focaux → risque d'engagement</li>
+                        <li>Donner des <span class="sem-treatment">triptans</span> sans avoir éliminé une <span class="sem-pathology">HSA</span> ou une dissection artérielle — contre-indiqués</li>
+                        <li>Oublier le <span class="sem-test">FO</span> devant une céphalée progressive (oedème papillaire = HTIC jusqu'à preuve du contraire)</li>
+                        <li>Méconnaître l'<span class="sem-treatment">abus médicamenteux</span> (&gt; 10 j/mois) comme cause de céphalée chronique quotidienne</li>
+                        <li>Oublier <span class="sem-state">grossesse / post-partum</span> (thrombophlébite cérébrale) et ne pas demander bHCG</li>
+                        <li>Ne pas rechercher le <span class="sem-symptom">syndrome de Claude Bernard-Horner</span> (dissection carotidienne) chez un patient avec céphalée + cervicalgie</li>
                       </ul>
         </section>
               </div>
 
       <footer class="card-footer">
-        <span>Sources : CS/02_SSP/SSP_Céphalee.md</span>
+        <span>Sources : CS/02_SSP/SSP_Céphalee.md · CS/Pocketcards/Neurocard - Examen clinique 2023.pdf · International Headache Society - ICHD-3 · Guidelines Société Suisse de Neurologie</span>
                 <span class="linked"
           >Liées : <a
             href="SYS-NEU.html"
@@ -195,74 +250,95 @@ exports[`renderCard > renders the golden SYS card to HTML 1`] = `
         <h1>
           Cardio          <small style="opacity:.7;font-size:13px;">— Système</small>
         </h1>
-        <span class="meta">SYS-CAR · v2026-05-27</span>
+        <span class="meta">SYS-CAR · v2026-05-28</span>
       </header>
 
       <div class="grid">
         <section class="section anam">
-          <div class="label">📋 <strong>Anamnèse</strong></div>
+          <div class="label">📋 Anamnèse</div>
           <ul>
-                        <li>Douleur thoracique</li>
-                        <li>Dyspnée</li>
-                        <li>Palpitations</li>
-                        <li>Syncope</li>
-                        <li>Œdèmes des membres inférieurs</li>
+                        <li><strong><span class="sem-symptom">Douleur thoracique</span>:</strong><ul class="nested-bullets"><li>siège (rétrosternal, latéral, pleurétique?)</li><li>irradiation (bras gauche, mâchoire, dos)</li><li>caractère (oppressive/brûlure/déchirure/pleurétique)</li><li>durée</li><li>facteurs déclenchants (effort, repos, décubitus)</li><li>facteurs soulageants (<span class="sem-treatment">nitrates</span>, position penchée en avant?)</li><li>association dyspnée/sueurs/nausées</li><li><span class="sem-treatment">score 0-10</span></li></ul></li>
+                        <li><strong><span class="sem-symptom">Dyspnée</span>:</strong><ul class="nested-bullets"><li>installation (aiguë vs progressive)</li><li>classe <span class="sem-test">NYHA</span> (I = effort intense seulement, II = effort modéré, III = effort minime, IV = repos)</li><li>orthopnée (nombre d'oreillers)</li><li>dyspnée paroxystique nocturne</li><li>position penchée en avant (péricardite)</li><li>aggravée au décubitus?</li></ul></li>
+                        <li><strong><span class="sem-symptom">Palpitations</span>:</strong><ul class="nested-bullets"><li>début/fin brutal ou progressif</li><li>régulières ou irrégulières</li><li>rapidité</li><li>début et fin précis (suggestif de réentrée)</li><li>facteurs déclenchants (café, alcool, stress, effort)</li><li>durée</li><li>association lipothymie/syncope/douleur thoracique/dyspnée</li></ul></li>
+                        <li><strong><span class="sem-symptom">Syncope/lipothymie</span>:</strong><ul class="nested-bullets"><li>prodromes (nausées, sudation, vision trouble)</li><li>circonstance (debout prolongé, effort, position, miction, toux, émotion)</li><li>récupération (durée, confusion post-critique absente = syncope)</li><li>morsure de langue</li><li>incontinence</li></ul></li>
+                        <li><strong><span class="sem-symptom">Œdèmes MI</span>:</strong><ul class="nested-bullets"><li>bilatéraux (IC droite, insuffisance rénale, hypoalbuminémie) ou unilatéral (<span class="sem-pathology">TVP</span>, insuffisance veineuse chronique)</li><li>aggravation vespérale</li><li>signe du godet</li><li>progression (chevilles → jambes → lombes)</li></ul></li>
+                        <li><strong><span class="sem-symptom">Claudication intermittente</span>:</strong><ul class="nested-bullets"><li>douleur au mollet à l'effort (distance de marche en mètres)</li><li>soulagée au repos (&lt; 10 min)</li><li>facteurs de risque cardiovasculaires (tabac, diabète, HTA, dyslipidémie)</li></ul></li>
+                        <li><strong>FRCV:</strong><ul class="nested-bullets"><li>tabac (paquets-années, arrêt?)</li><li>HTA (connue, traitée, mesures à domicile?)</li><li>diabète (type, HbA1c, complications?)</li><li>dyslipidémie (LDL, traitement?)</li><li>obésité (IMC)</li><li>sédentarité</li><li>stress chronique</li></ul></li>
+                        <li><strong>ATCD cardiovasculaires personnels:</strong><ul class="nested-bullets"><li>SCA/IDM (date, coronarographie, stents?)</li><li>IC (FE connue?)</li><li>FA/flutter</li><li>valvulopathie</li><li>AVC/AIT</li><li>AOMI</li><li>MTEV (TVP/EP)</li></ul></li>
+                        <li><strong>ATCD familiaux:</strong><ul class="nested-bullets"><li>maladie coronarienne précoce (H &lt; 55 ans, F &lt; 65 ans)</li><li>mort subite inexpliquée</li><li>cardiomyopathie</li><li>channelopathie (QT long, Brugada)</li><li>syndrome de Marfan</li></ul></li>
+                        <li><strong>Traitements en cours:</strong><ul class="nested-bullets"><li>aspirine</li><li><span class="sem-treatment">anticoagulants (DOAC, AVK)</span> (indication, INR?)</li><li>bêtabloquants</li><li>IEC/ARA/ARNI</li><li>diurétiques</li><li>statines</li><li>antiarythmiques</li><li>médicaments allongeant le QT</li></ul></li>
+                        <li><strong>Mode de vie:</strong> alcool (UI/semaine), activité physique (type, fréquence, capacité actuelle), régime alimentaire (sel, graisses saturées)</li>
                       </ul>
         </section>
 
         <section class="section exam">
-          <div class="label">🔍 <strong>Examen clinique</strong></div>
+          <div class="label">🔍 Examen clinique</div>
 
           <div class="subsection">
             <h4>Inspection</h4>
-            <ul><li>Inspection (cyanose, jugulaires)</li></ul>
+            <ul><li><strong>État général:</strong> conscience et agitation (Glasgow si altéré), position antalgique (penché en avant → <span class="sem-pathology">péricardite</span>; recroquevillé → douleur coronarienne), état nutritionnel (cachexie cardiaque: amyotrophie temporale/interdigitale)</li><li><strong>Peau et phanères:</strong> pâleur (anémie, choc), <span class="sem-symptom">cyanose centrale</span> (lèvres, langue — shunt D→G, hypoxémie) vs périphérique (extrémités froides — bas débit), marbrures/livedo (hypoperfusion, sepsis), teint gris (choc cardiogénique)</li><li>Signes d'<span class="sem-pathology">endocardite</span>: lésions de Janeway (érythème indolore paumes/plantes), nodules d'Osler (pulpe des doigts, douloureux), pétéchies sous-unguéales (hémorragies en flammèche), taches de Roth (fond d'œil)</li><li><strong>Signes dyslipidémiques:</strong> xanthélasmas (paupières), gérontoxon (arc cornéen &lt; 50 ans = pathologique), xanthomes tendineux (tendons d'Achille, extenseurs doigts)</li><li><strong>Thorax:</strong> cicatrice médiane (sternotomie), cicatrices latérales (thoracotomie, drain), boîtier pacemaker/DAI (sous-claviculaire), déformations thoraciques (pectus excavatum → prolapsus mitral, syndrome de Marfan)</li><li>Veines jugulaires (patient à 30-45°, tête tournée légèrement): <span class="sem-symptom">turgescence jugulaire</span> (distension &gt; 3-4 cm au-dessus de l'angle sternal = PVC élevée → <span class="sem-pathology">IC droite</span>, épanchement péricardique, HTAP); signe de Kussmaul (augmentation inspiratoire → péricardite constrictive, cardiomyopathie restrictive)</li><li><strong>Membres inférieurs:</strong> œdème bilatéral (signe du godet: appui 30 sec sur tibia/malléole — coter +/+++ selon profondeur), varices, dermite ocre, atrophie blanche (insuffisance veineuse chronique), ulcère veineux (sus-malléolaire, suintant) vs artériel (sec, nécrotique, douloureux)</li><li><strong>Membres inférieurs:</strong> gradient thermique (pied froid jusqu'à quel niveau → artériopathie oblitérante), décoloration (pâleur surélevé → rubiconde déclive = insuffisance artérielle), perte de pilosité distale, troubles trophiques</li></ul>
           </div>
 
           <div class="subsection">
             <h4>Palpation</h4>
-            <ul><li>Palpation (choc de pointe, frémissements)</li></ul>
+            <ul><li><strong>Pouls radial (1 min si irrégulier, sinon 15 sec × 4):</strong><ul class="nested-bullets"><li>fréquence (tachycardie &gt; 100, bradycardie &lt; 60)</li><li>rythme (régulier / <span class="sem-symptom">irrégulièrement irrégulier</span> = <span class="sem-pathology">FA</span> / régulièrement irrégulier = ESV, bloc)</li><li>amplitude (bondissant = IA, filant = IC/hypovolémie)</li><li>comparaison bilatérale</li></ul></li><li><strong>Pression artérielle:</strong> brassard adapté (2/3 circonférence du bras), déflation 2 mmHg/sec, bruits de Korotkoff, 3 mesures à 1 min d'intervalle (moyenner les 2 dernières), les deux bras (asymétrie &gt; 10 mmHg → <span class="sem-pathology">dissection aortique</span>, coarctation, AOMI sous-clavière); test orthostatique si syncope/hypotension</li><li>Pouls carotidien (un côté à la fois, jamais simultané): amplitude, retard (<span class="sem-symptom">parvus et tardus</span> → <span class="sem-pathology">RA serré</span>), auscultation souffles carotidiens avant la palpation</li><li><strong><span class="sem-treatment">Choc de pointe (apexien)</span> — main en regard du 4e-5e EIC gauche, affiner à la pulpe des doigts:</strong><ul class="nested-bullets"><li>normal: 4e-5e EIC, ligne médio-claviculaire, diamètre &lt; 2,5 cm, bref</li><li>déplacé latéralement/bas → dilatation VG</li><li>amplifié et soutenu → hypertrophie VG (HTA, RA)</li><li>impalpable → épanchement péricardique, BPCO, obésité</li></ul></li><li><strong>Frémissements:</strong> main à plat sur les foyers; frémissement systolique au foyer aortique → <span class="sem-pathology">RA serré</span>; à l'apex → IM sévère; diastolique = rare (RM serré)</li><li><span class="sem-treatment">Reflux hépato-jugulaire</span>: patient à 30-45°, compression ferme et soutenue de l'hypochondre droit (10 sec), observer la veine jugulaire interne droite; positif si distension &gt; 3 cm pendant compression → dysfonction VD, IC congestive</li><li><strong>Pouls périphériques (comparer bilatéralement, coter 0 à 3+):</strong><ul class="nested-bullets"><li>fémoral (arc crural mi-inguinal)</li><li>poplité (empoigner genou en décubitus dorsal)</li><li>tibial postérieur (bord interne de la malléole interne)</li><li>pédieux (dos du pied entre 1er et 2e métatarsiens — absent physiologiquement dans 8 %)</li></ul></li><li><span class="sem-treatment">Signe de Homans</span> (dorsiflexion passive du pied genou tendu) et palpation du mollet: douleur → TVP (faible sensibilité/spécificité; ne pas s'y fier seul); induration en cordon du trajet veineux superficiel → thrombose veineuse superficielle</li><li><strong>Abdomen:</strong> hépatomégalie (foie cardiaque = bord inférieur &gt; 2 travers de doigt sous rebord costal, douloureux = congestion aiguë); ascite (matité des flancs déclive, fluctuation); rate (splénomégalie = embolie septique d'endocardite)</li></ul>
           </div>
 
           <div class="subsection">
             <h4>Percussion</h4>
-            <ul><li>Percussion (matité aire cardiaque)</li></ul>
+            <ul><li><strong>Aire cardiaque:</strong> peu pratiquée en routine (écho &gt; percussion); matité cardiaque élargie → cardiomégalie, épanchement péricardique (matité qui suit la position)</li><li><strong>Bases pulmonaires:</strong> matité bilatérale déclive symétrique → épanchements pleuraux réactionnels (IC gauche); asymétrie → suspecter autre cause</li></ul>
           </div>
 
           <div class="subsection">
             <h4>Auscultation</h4>
-            <ul><li>Auscultation (B1, B2, souffles, frottement)</li></ul>
+            <ul><li>Foyers et ordre systématique (mémo 'All People Try MacDonald' = Aortique → Pulmonaire → Tricuspide → Mitral): examinateur à droite du patient, stéthoscope réchauffé, patient torse nu, environnement calme, associer palpation simultanée du pouls carotidien pour repérer la systole</li><li><strong>Foyer AORTIQUE (A):</strong> 2e espace intercostal (EIC), bord droit du sternum. Membrane. <span class="sem-pathology">Sténose aortique</span>: souffle mésosystolique crescendo-decrescendo rude, irradiation aux carotides, B2 diminué/absent, pouls parvus et tardus. Insuffisance aortique: souffle proto-diastolique decrescendo doux/aspiratif, mieux entendu en position penchée en avant en expiration</li><li><strong>Foyer PULMONAIRE (P):</strong> 2e EIC, bord gauche du sternum. Membrane. Sténose pulmonaire: souffle mésosystolique, B2 dédoublé. Insuffisance pulmonaire (Graham-Steell): souffle proto-diastolique doux (<span class="sem-pathology">HTAP</span>). Rechercher dédoublement B2: physiologique en inspiration; fixe → CIA; paradoxal → BBG/RA</li><li><strong>Foyer TRICUSPIDE (T):</strong> 4e EIC, bord gauche du sternum. Membrane puis cloche. <span class="sem-pathology">Insuffisance tricuspide</span>: souffle pansystolique doux, augmente à l'inspiration (<span class="sem-treatment">signe de Carvallo</span>). Sténose tricuspide: roulement diastolique rare, augmente à l'inspiration</li><li><strong>Foyer MITRAL (M):</strong> 5e EIC, ligne médio-claviculaire (apex). Cloche pour B3/B4 et rétrécissement mitral, membrane pour insuffisance mitrale. <span class="sem-pathology">Insuffisance mitrale</span>: souffle pansystolique en jet de vapeur, irradiation vers l'aisselle, B1 diminué. Rétrécissement mitral: roulement diastolique grave post-claquement d'ouverture, B1 accentué et claquant</li><li><strong>Point d'ERB:</strong> 3e EIC, bord gauche du sternum. Zone de rayonnement de plusieurs souffles; insuffisance aortique souvent mieux perçue ici qu'au foyer aortique. Utiliser cloche et membrane</li><li><strong>Bruits normaux et additionnels:</strong> B1 (fermeture valves AV, début systole, maximal à l'apex, long/grave); B2 (fermeture valves sigmoides, début diastole, maximal à la base, bref/aigu); <span class="sem-symptom">B3 proto-diastolique</span> (galop ventriculaire — cloche, DLG): pathologique &gt; 40 ans → <span class="sem-pathology">IC systolique</span>, surcharge volume; B4 télé-diastolique (galop atrial — cloche): HTA, RA, cardiomyopathie hypertrophique</li><li><span class="sem-symptom">Frottement péricardique</span>: bruit de cuir neuf, va-et-vient systolo-diastolique, localisé au bord sternal gauche, sans irradiation, PERSISTE EN APNÉE (distingue du frottement pleural), s'entend mieux en position penché en avant en expiration → <span class="sem-pathology">péricardite aiguë</span></li><li><strong>Souffles:</strong> caractériser systématiquement (6 critères): (1) siège et foyer d'intensité maximale, (2) irradiation, (3) timing (systolique/diastolique/continu), (4) intensité (1/6 = inaudible sans appui; 2/6 = doux; 3/6 = modéré; 4/6 = frémissement; 5/6 = très fort; 6/6 = audible sans stéthoscope), (5) timbre (rude/soufflant/roulant/musical), (6) forme (croissant-décroissant/plateau/crescendo)</li><li><strong>Poumons (toujours ausculter en cardio):</strong> <span class="sem-symptom">crépitants fins bilatéraux des bases</span> (oedème pulmonaire → <span class="sem-pathology">IC gauche</span>); épanchement pleural (diminution MV + matité + égophonie); sibilances (bronchospasme = asthme cardiaque dans l'IC gauche aiguë)</li><li><strong>Souffles vasculaires:</strong> artères carotides (souffle systolique → <span class="sem-pathology">sténose carotidienne</span>, irradiation RA), artère abdominale (épigastre → anévrisme aortique, sténose artère rénale), artères rénales (flancs → HTA rénovasculaire), artères fémorales (inguinal → AOMI)</li></ul>
           </div>
         </section>
 
         <section class="section exam full">
           <div class="label">✋ Manœuvres spécifiques</div>
           <ul>
-                        <li>Reflux hépatojugulaire</li>
-                        <li>Manœuvre de Valsalva</li>
-                        <li>Test orthostatique</li>
-                        <li>Pouls périphériques bilatéraux</li>
+                        <li><span class="sem-treatment">Reflux hépato-jugulaire (RHJ)</span>: patient à 30-45°, tête légèrement tournée à gauche, compression ferme hypochondre droit 10 secondes; POSITIF si augmentation de la pression veineuse jugulaire &gt; 3 cm pendant &gt; 10 sec; valeur prédictive positive élevée pour insuffisance cardiaque droite et pression capillaire pulmonaire &gt; 15 mmHg</li>
+                        <li><span class="sem-treatment">Test orthostatique</span> (hypotension orthostatique): mesure PA couché après 5 min de repos, puis debout à 1 min et 3 min; POSITIF si chute systolique ≥ 20 mmHg ou diastolique ≥ 10 mmHg; causes: déshydratation, médicaments (diurétiques, nitrates, bêtabloquants, antihypertenseurs), neuropathie autonomique (diabète), insuffisance surrénalienne</li>
+                        <li><span class="sem-treatment">Décubitus latéral gauche (DLG)</span> pour le foyer mitral: patient en DLG, stéthoscope à la pointe (5e EIC, MCG); AMPLIFIE: souffle d'insuffisance mitrale, rétrécissement mitral, B3 et B4 gauches; manœuvre de référence pour valvulopathies mitrales gauches</li>
+                        <li><span class="sem-treatment">Position assise penché en avant en expiration</span> (insuffisance aortique): patient assis, penché à 45° en avant, expiration forcée et maintenue; AMPLIFIE: souffle proto-diastolique de l'insuffisance aortique et souffles à composante diastolique gauche; AMPLIFIE aussi: frottement péricardique</li>
+                        <li><span class="sem-treatment">Manœuvre de Valsalva</span> (phase II → III): patient inspire profondément, bloque et pousse 10-15 sec; PHASE II (effort): diminue retour veineux et souffles (sauf <span class="sem-pathology">CMH</span> et <span class="sem-pathology">prolapsus mitral</span>); PHASE III (relâchement): augmentation brutale. CMH obstructive: souffle augmente à la phase II (moins de remplissage VG → plus d'obstruction). Prolapsus mitral: clic se rapproche de B1 en Valsalva (VG moins rempli → valve prolabe plus tôt)</li>
+                        <li><span class="sem-treatment">Accroupissement</span> (manœuvre antagoniste au Valsalva): depuis position debout → accroupi; augmente retour veineux et résistances périphériques → VG plus rempli → DIMINUE souffle CMH obstructive et RETARDE le clic du prolapsus mitral (clic s'éloigne de B1). Inverse: debout depuis accroupi → AUGMENTE souffle CMH</li>
+                        <li><span class="sem-treatment">Inspiration profonde (manœuvre de Rivero-Carvallo)</span> pour les souffles droits: inspiration profonde → augmente retour veineux VD → augmente tous les souffles droits (IT, ST, IP) et dédoublement B2; POSITIF: souffle augmente à l'inspiration → origine droite (tricuspide ou pulmonaire)</li>
+                        <li><span class="sem-treatment">Handgrip (isométrique)</span>: serrer fortement la main de l'examinateur pendant 20-30 sec; augmente les résistances périphériques (postcharge VG); AUGMENTE: insuffisances mitrales et aortiques (régurgitations); DIMINUE: CMH obstructive et sténose aortique (sténoses)</li>
+                        <li><strong>Palpation du choc de pointe en DLG:</strong> si le choc de pointe est difficile à repérer en décubitus dorsal, placer le patient en DLG (le cœur se rapproche de la paroi); permet de localiser l'apex et de rechercher un choc de pointe étalé/soutenu (surcharge pression VG) ou dévié (dilatation)</li>
+                        <li><span class="sem-symptom">Signe de Kussmaul</span>: observer les veines jugulaires pendant une inspiration profonde; NORMAL: les jugulaires se vident (inspiration → diminution PVC); ANORMAL (Kussmaul positif): augmentation paradoxale de la distension jugulaire à l'inspiration → <span class="sem-pathology">péricardite constrictive</span>, cardiomyopathie restrictive, IC droite sévère, tamponnade</li>
                       </ul>
         </section>
 
                 <section class="section">
           <div class="label">📊 Échelles / scores</div>
           <ul>
-                        <li>NYHA</li>
-                        <li>CHA2DS2-VASc</li>
-                        <li>HAS-BLED</li>
+                        <li><strong><span class="sem-test">NYHA (New York Heart Association)</span> — Classification fonctionnelle de l'IC:</strong><ul class="nested-bullets"><li>I = aucune limitation (effort intense seulement)</li><li>II = légère limitation (effort modéré: montée &gt; 2 étages)</li><li>III = limitation importante (effort minime: marche à plat &lt; 100 m)</li><li>IV = symptômes au repos ou tout effort</li><li>évaluer à chaque consultation pour guider le traitement</li></ul></li>
+                        <li><strong><span class="sem-test">CHA2DS2-VASc</span> — Risque thrombo-embolique dans la <span class="sem-pathology">FA</span>:</strong><ul class="nested-bullets"><li>C = IC ou FEVG&lt;40% (+1)</li><li>H = HTA (+1)</li><li>A2 = âge ≥75 ans (+2)</li><li>D = diabète (+1)</li><li>S2 = AVC/AIT/MTEV antérieur (+2)</li><li>V = maladie vasculaire (IDM, AOMI, plaque aortique) (+1)</li><li>A = âge 65-74 ans (+1)</li><li>Sc = sexe féminin (+1)</li><li>SCORE ≥2 (hommes) ou ≥3 (femmes): <span class="sem-treatment">anticoagulation</span> recommandée (DOAC préféré si pas de valve mécanique)</li></ul></li>
+                        <li><strong><span class="sem-test">HAS-BLED</span> — Risque hémorragique sous anticoagulation:</strong><ul class="nested-bullets"><li>H = HTA non contrôlée (&gt;160 systolique) (+1)</li><li>A = insuffisance rénale ou hépatique (+1 chacun)</li><li>S = AVC antérieur (+1)</li><li>B = hémorragie antérieure ou prédisposition (+1)</li><li>L = INR labile (&lt; 60% dans la cible) (+1)</li><li>E = âge &gt;65 ans (+1)</li><li>D = médicaments (antiplaquettaires, AINS) ou alcool (+1)</li><li>SCORE ≥3 = haut risque (ne contre-indique PAS l'anticoagulation mais justifie surveillance renforcée)</li></ul></li>
+                        <li><span class="sem-test">Score de GRACE</span> — Risque à 6 mois dans le <span class="sem-pathology">SCA</span>: variables: âge, FC, PAS, créatinine, classe Killip, arrêt cardiaque, déviation ST, enzymes cardiaques positives; calculateur en ligne (www.gracescore.org); SCORE &lt; 109 = bas risque, 109-140 = modéré, &gt; 140 = élevé; guide la stratégie de revascularisation (urgente vs semi-urgente vs conservateur)</li>
+                        <li><strong><span class="sem-test">Score de TIMI UA/NSTEMI</span> — Risque court terme (7 critères, 1 point chacun):</strong><ul class="nested-bullets"><li>âge ≥ 65 ans</li><li>≥ 3 FRCV</li><li>sténose coronarienne connue ≥ 50%</li><li>déviation ST ≥ 0,5 mm</li><li>≥ 2 épisodes angineux en 24h</li><li>utilisation aspirine dans les 7 jours</li><li>troponine élevée</li><li>SCORE 0-2 = bas, 3-4 = intermédiaire, 5-7 = élevé (mortalité + IDM + revascularisation urgente)</li></ul></li>
+                        <li><strong><span class="sem-test">Classification de Killip</span> — Gravité IC dans le SCA:</strong><ul class="nested-bullets"><li>I = pas de signe d'IC</li><li>II = râles crépitants &lt; 50% des champs + B3 ± turgescence jugulaire</li><li>III = OAP (râles &gt; 50% des champs)</li><li>IV = <span class="sem-pathology">choc cardiogénique</span> (PA &lt; 90 + oligurie + hypoperfusion périphérique)</li><li>mortalité hospitalière: I=6%, II=17%, III=38%, IV=67%</li></ul></li>
                       </ul>
         </section>
                  <section class="section">
           <div class="label">🔗 SSPs liées</div>
           <ul>
                         <li><a href="SSP-CAR-01.html">SSP-CAR-01</a></li>
+                        <li><a href="SSP-CAR-02.html">SSP-CAR-02</a></li>
+                        <li><a href="SSP-CAR-03.html">SSP-CAR-03</a></li>
                         <li><a href="SSP-CAR-04.html">SSP-CAR-04</a></li>
+                        <li><a href="SSP-CAR-05.html">SSP-CAR-05</a></li>
+                        <li><a href="SSP-CAR-06.html">SSP-CAR-06</a></li>
+                        <li><a href="SSP-CAR-07.html">SSP-CAR-07</a></li>
+                        <li><a href="SSP-CAR-08.html">SSP-CAR-08</a></li>
                       </ul>
         </section>
               </div>
 
       <footer class="card-footer">
-        <span>Sources : CS/04_Skills_Examen/Cardio/Skills/Cardio.pdf</span>
+        <span>Sources : CS/04_Skills_Examen/Cardio_Vasc/RMS/RMS-CV.md · CS/04_Skills_Examen/Cardio_Vasc/Skills/Skills-CV.md · CS/Pocketcards/RMS/Carte_Cardiovasculaire.pdf · CS/Pocketcards/Cardiocard - HF.pdf · CS/Pocketcards/Angiocard - DOAC.pdf · CS/Pocketcards/Angiocard - MTEV.PDF · Guidelines ESC Insuffisance Cardiaque 2021 (Eur Heart J 2021;42:3599-3726) · Guidelines ESC Fibrillation Auriculaire 2020</span>
       </footer>
     </article>
   </body>
@@ -290,7 +366,7 @@ exports[`renderCard > renders the golden TOOL card to HTML 1`] = `
           NIHSS          <small style="opacity:.7;font-size:13px;">— Outil</small>
         </h1>
         <span class="meta"
-          >TOOL-NIHSS · Neuro · v2026-05-27</span
+          >TOOL-NIHSS · Neuro · v2026-05-28</span
         >
       </header>
 
@@ -298,28 +374,32 @@ exports[`renderCard > renders the golden TOOL card to HTML 1`] = `
         <section class="section anam">
           <div class="label">❓ Quand l'utiliser</div>
           <ul>
-                        <li>AVC suspect (évaluation initiale)</li>
-                        <li>Suivi post-thrombolyse</li>
-                        <li>Évaluation gravité pour décision thérapeutique</li>
+                        <li><span class="sem-pathology">AVC ischémique</span> suspect — évaluation neurologique initiale aux urgences</li>
+                        <li>Décision de <span class="sem-treatment">thrombolyse IV (rtPA)</span> — NIHSS ≥4 généralement requis</li>
+                        <li>Décision de <span class="sem-treatment">thrombectomie mécanique</span> — NIHSS ≥6 pour occlusion grand vaisseau</li>
+                        <li>Monitoring USINV — suivi toutes les heures post-thrombolyse, puis toutes les 8h</li>
+                        <li>Télémédecine AVC — communication standardisée avec neurologie de référence</li>
                       </ul>
         </section>
 
         <section class="section exam">
           <div class="label">📝 Items</div>
           <ul>
-                        <li>Niveau de conscience</li>
-                        <li>Questions orientation (mois, âge)</li>
-                        <li>Commandes simples</li>
-                        <li>Mouvements oculaires</li>
-                        <li>Champ visuel</li>
-                        <li>Paralysie faciale</li>
-                        <li>Force MS droit/gauche</li>
-                        <li>Force MI droit/gauche</li>
-                        <li>Ataxie</li>
-                        <li>Sensibilité</li>
-                        <li>Langage</li>
-                        <li>Dysarthrie</li>
-                        <li>Extinction/Négligence</li>
+                        <li>1a. Niveau de conscience (0=vigilant ; 1=somnolent ; 2=stupeur ; 3=coma/réflexes seulement)</li>
+                        <li>1b. Questions LOC — Mois ? Âge ? (0=2 correctes ; 1=1 correcte ; 2=0 correctes / aphasie / coma)</li>
+                        <li>1c. Commandes LOC — ouvrir/fermer yeux, serrer/lâcher main (0=2 correctes ; 1=1 correcte ; 2=0 correctes / coma)</li>
+                        <li>2. Regard horizontal — mouvements oculaires conjugués (0=normal ; 1=paralysie partielle ; 2=déviation forcée/paralysie complète)</li>
+                        <li>3. Champ visuel (0=absent ; 1=hémianopsie partielle ; 2=hémianopsie complète ; 3=bilatérale/aveugle/sans réponse)</li>
+                        <li>4. Paralysie faciale (0=absent ; 1=mineure ; 2=modérée ; 3=complète/bilatérale/sans réponse)</li>
+                        <li><strong>5a. Force MS droit — bras tendu 45° (ou 90° assis), 10 s:</strong><ul class="nested-bullets"><li>0 = tenu</li><li>1 = chute avant 10 s</li><li>2 = effort contre gravité</li><li>3 = aucun effort contre gravité</li><li>4 = aucun mouvement</li></ul></li>
+                        <li>5b. Force MS gauche — même cotation que 5a (0–4 ; X=non testable)</li>
+                        <li><strong>6a. Force MI droit — jambe à 30° décubitus, 5 s:</strong><ul class="nested-bullets"><li>0 = tenu</li><li>1 = chute avant 5 s</li><li>2 = effort contre gravité</li><li>3 = aucun effort contre gravité</li><li>4 = aucun mouvement</li></ul></li>
+                        <li>6b. Force MI gauche — même cotation que 6a (0–4 ; X=non testable)</li>
+                        <li>7. Ataxie membres — doigt-nez + talon-genou (0=absent ; 1=un membre ; 2=deux membres ; X=non testable si hémiplégie)</li>
+                        <li>8. Sensibilité — piqûre ou retrait (0=normal ; 1=hypoesthésie légère/modérée ; 2=sévère/abolie bilatérale)</li>
+                        <li>9. Langage — décrire image, lire phrases, nommer objets (0=normal ; 1=aphasie légère/modérée ; 2=aphasie sévère ; 3=mutique/intubé/anarthrique)</li>
+                        <li>10. Dysarthrie — lire/répéter mots (0=normal ; 1=légère/modérée ; 2=sévère/inintelligible/intubé)</li>
+                        <li>11. Extinction / Négligence — stimulation double simultanée visuelle + tactile (0=absent ; 1=unimodal ; 2=bimodal/coma)</li>
                       </ul>
         </section>
 
@@ -336,27 +416,27 @@ exports[`renderCard > renders the golden TOOL card to HTML 1`] = `
                             <tr style="border-bottom:1px solid #eee;">
                 <td style="padding:4px 8px;font-weight:600;">
                   0                </td>
-                <td style="padding:4px 8px;">Pas de déficit</td>
+                <td style="padding:4px 8px;">Pas de déficit neurologique — <span class="sem-pathology">AVC</span> peu probable ou <span class="sem-pathology">AIT</span> résolu</td>
               </tr>
                             <tr style="border-bottom:1px solid #eee;">
                 <td style="padding:4px 8px;font-weight:600;">
                   1-4                </td>
-                <td style="padding:4px 8px;">AVC mineur</td>
+                <td style="padding:4px 8px;"><span class="sem-pathology">AVC mineur</span> — <span class="sem-treatment">thrombolyse</span> discutée au cas par cas (NIHSS &lt;4 = zone grise, évaluer handicap fonctionnel)</td>
               </tr>
                             <tr style="border-bottom:1px solid #eee;">
                 <td style="padding:4px 8px;font-weight:600;">
                   5-15                </td>
-                <td style="padding:4px 8px;">AVC modéré</td>
+                <td style="padding:4px 8px;"><span class="sem-pathology">AVC modéré</span> — indication <span class="sem-treatment">thrombolyse IV</span> si &lt;4h30, évaluer <span class="sem-treatment">thrombectomie</span> si NIHSS ≥6 et occlusion grand vaisseau</td>
               </tr>
                             <tr style="border-bottom:1px solid #eee;">
                 <td style="padding:4px 8px;font-weight:600;">
                   16-20                </td>
-                <td style="padding:4px 8px;">AVC modéré à sévère</td>
+                <td style="padding:4px 8px;"><span class="sem-pathology">AVC modéré à sévère</span> — indication <span class="sem-treatment">thrombectomie mécanique</span> à évaluer en urgence (occlusion M1/ICA)</td>
               </tr>
                             <tr style="border-bottom:1px solid #eee;">
                 <td style="padding:4px 8px;font-weight:600;">
-                  &gt;20                </td>
-                <td style="padding:4px 8px;">AVC sévère</td>
+                  21-42                </td>
+                <td style="padding:4px 8px;"><span class="sem-pathology">AVC sévère</span> — mortalité et dépendance élevées ; <span class="sem-treatment">thrombectomie</span> discutée selon imagerie (M1/carotide interne)</td>
               </tr>
                           </tbody>
           </table>
@@ -365,21 +445,26 @@ exports[`renderCard > renders the golden TOOL card to HTML 1`] = `
                 <section class="section rf">
           <div class="label">⚠️ Limites</div>
           <ul>
-                        <li>Sous-estime AVC postérieur</li>
-                        <li>Pas d'évaluation aphasie fine</li>
+                        <li>Sous-estime <span class="sem-pathology">AVC postérieur</span> (vertiges, diplopie, ataxie isolée peuvent avoir NIHSS=0–2 malgré occlusion basilaire)</li>
+                        <li>Biais hémisphère gauche — aphasie pèse plus lourd que négligence droite à déficit fonctionnel équivalent</li>
+                        <li>Variabilité inter-évaluateur — formation certifiante requise pour reproductibilité optimale (kappa ≈0.7–0.9 si formé)</li>
+                        <li>Non adapté au suivi cognitif fin — ne détecte pas démence vasculaire, troubles mnésiques isolés ni AVC lacunaires asymptomatiques</li>
+                        <li>Influence sur la décision thérapeutique limitée aux seuils établis — NIHSS doit toujours être interprété avec imagerie (<span class="sem-test">IRM DWI / CTP</span>) et tableau clinique global</li>
+                        <li><strong>Surveillance post-thrombolyse :</strong> aggravation NIHSS ≥4 points = <span class="sem-pathology">ICH symptomatique</span> → <span class="sem-test">CT immédiat</span></li>
                       </ul>
         </section>
                  <section class="section">
           <div class="label">🔗 SSPs où l'utiliser</div>
           <ul>
-                        <li><a href="SSP-NEU-AVC.html">SSP-NEU-AVC</a></li>
-                        <li><a href="SSP-NEU-Vertige.html">SSP-NEU-Vertige</a></li>
+                        <li><a href="SSP-NEU-01.html">SSP-NEU-01</a></li>
+                        <li><a href="SSP-NEU-02.html">SSP-NEU-02</a></li>
+                        <li><a href="SSP-NEU-03.html">SSP-NEU-03</a></li>
                       </ul>
         </section>
               </div>
 
       <footer class="card-footer">
-        <span>Sources : Neurocard - Echelles 2020.pdf</span>
+        <span>Sources : CS/Pocketcards/Neurocard - Echelles 2020.pdf · CS/Pocketcards/Neurocard - AVC 2020.pdf</span>
       </footer>
     </article>
   </body>

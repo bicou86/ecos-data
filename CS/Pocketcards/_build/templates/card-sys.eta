@@ -22,7 +22,7 @@
 
       <div class="grid">
         <section class="section anam">
-          <div class="label">📋 <strong>Anamnèse</strong></div>
+          <div class="label">📋 Anamnèse</div>
           <ul>
             <% it.card.anamnese_appareil.forEach(function(item){ %>
             <li><%~ it.fmt(item) %></li>
@@ -31,7 +31,7 @@
         </section>
 
         <section class="section exam">
-          <div class="label">🔍 <strong>Examen clinique</strong></div>
+          <div class="label">🔍 Examen clinique</div>
 
           <div class="subsection">
             <h4>Inspection</h4>

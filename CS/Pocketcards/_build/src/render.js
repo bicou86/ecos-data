@@ -48,6 +48,13 @@ export function formatItem(text) {
     }
   }
 
+  // Single-line "Lead: rest" → bold the lead
+  // Constraints: lead ≤ 40 chars, no comma in lead (avoid bolding long phrases)
+  const leadMatch = colored.match(/^([^:,\n]{1,40}):\s+(.+)$/);
+  if (leadMatch) {
+    return `<strong>${leadMatch[1]}:</strong> ${leadMatch[2]}`;
+  }
+
   return colored;
 }
 

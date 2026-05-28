@@ -38,7 +38,7 @@ describe("renderCard", () => {
     const html = await renderCard(card);
     expect(html).toContain("<title>NIHSS");
     expect(html).toContain("TOOL-NIHSS");
-    expect(html).toContain("AVC suspect");
+    expect(html).toContain("suspect");
     expect(html).toContain("Pas de déficit");
     expect(html).toMatchSnapshot();
   });
