@@ -87,4 +87,13 @@ describe("promoteCard", () => {
     writeFileSync(p, minimalSspYaml({ status: "ready" }));
     expect(() => promoteCard({ cardPath: p })).toThrow(/not draft/i);
   });
+
+  it("promotes a review-pending card to ready", () => {
+    const p = join(tmp, "card.yaml");
+    writeFileSync(p, minimalSspYaml({ status: "review-pending" }));
+    const result = promoteCard({ cardPath: p });
+    expect(result.promoted).toBe("SSP-NEU-99");
+    const updated = readFileSync(p, "utf8");
+    expect(updated).toMatch(/^status:\s*ready$/m);
+  });
 });

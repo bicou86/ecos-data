@@ -41,6 +41,15 @@ describe("extractBullets", () => {
     const result = extractBullets(text);
     expect(result).toHaveLength(1);
   });
+
+  it("does not include a lone colon as a detail item", () => {
+    const text = `- [ ] **Force MS**:\n  - Droit 4/5\n  - Gauche 5/5\n`;
+    const result = extractBullets(text);
+    expect(result).toHaveLength(1);
+    expect(result[0].label).toBe("Force MS");
+    expect(result[0].details).not.toContain(":");
+    expect(result[0].details).toEqual(["Droit 4/5", "Gauche 5/5"]);
+  });
 });
 
 describe("extractGroupedBullets", () => {

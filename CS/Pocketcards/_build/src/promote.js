@@ -45,7 +45,7 @@ export function promoteCard({ cardPath, force = false }) {
     );
   }
 
-  const updated = raw.replace(/^status:\s*\w+\s*$/m, "status: ready");
+  const updated = raw.replace(/^status:\s*[\w-]+\s*$/m, "status: ready");
   writeFileSync(cardPath, updated);
   return { promoted: card.id };
 }

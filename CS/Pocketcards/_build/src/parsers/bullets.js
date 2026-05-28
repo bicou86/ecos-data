@@ -21,11 +21,13 @@ export function extractBullets(text) {
       const indent = m[1].length;
       const label = (m[2] || "").trim();
       const rest = (m[3] || "").trim();
+      // Strip a lone trailing colon — `- [ ] **Label**:` shouldn't produce ":" as a detail item.
+      const cleanRest = rest === ":" ? "" : rest.replace(/\s*:$/, "");
       if (indent === 0) {
         if (current) result.push(current);
-        current = { label, details: rest ? [rest] : [] };
+        current = { label, details: cleanRest ? [cleanRest] : [] };
       } else if (current) {
-        const sub = label ? `${label} ${rest}`.trim() : rest;
+        const sub = label ? `${label} ${cleanRest}`.trim() : cleanRest;
         if (sub) current.details.push(sub);
       }
       continue;
