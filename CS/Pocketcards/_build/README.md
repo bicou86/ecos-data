@@ -37,6 +37,30 @@ node src/build.js [--pdf] [--notion] [--include-drafts] [--only=<id>] [--verbose
 
 See `docs/superpowers/specs/2026-05-27-pocketcards-design.md` for the full design.
 
+## Phase 2 — Import pipeline (Node side)
+
+### Commands
+
+| Command                                         | Purpose                                              |
+| ----------------------------------------------- | ---------------------------------------------------- |
+| `npm run parse-md <path-to-SSP.md>`             | Parse one SSP MD → JSON intermediate in import-cache |
+| `npm run parse-md -- --discipline=Neuro`        | Parse all SSPs for the discipline from the mapping   |
+| `npm run audit-drafts`                          | Scan all draft YAMLs for `[VÉRIFIER:]` markers       |
+| `npm run audit-drafts -- --discipline=Neuro`    | Audit one discipline                                 |
+| `npm run promote <card.yaml>`                   | Promote one card from draft → ready (with guards)    |
+| `npm run promote <card.yaml> -- --force`        | Bypass `[VÉRIFIER:]` guard                           |
+| `npm run check-coherence`                       | Check IDs unique + linked cards exist                |
+| `npm run check-coherence -- --discipline=Neuro` | Restricted to one discipline                         |
+
+### Pipeline flow
+
+1. **Parse** : `npm run parse-md` reads MD source → `import-cache/<slug>.json`
+2. **Dispatch subagent** (Claude orchestrator, not Node) : reads the JSON, generates YAML draft in `../data/SSP_<slug>.yaml` with `[VÉRIFIER:]` markers where uncertain.
+3. **Audit** : `npm run audit-drafts` produces `audit-report.md` for human review.
+4. **Review** : author resolves `[VÉRIFIER:]` markers in the YAML.
+5. **Promote** : `npm run promote` moves draft → ready (refuses if markers remain).
+6. **Coherence** : `npm run check-coherence` catches broken links / duplicate ids before commit.
+
 ## Semantic color coding markup
 
 Inside YAML content, wrap words/phrases with the following markers to color them:
