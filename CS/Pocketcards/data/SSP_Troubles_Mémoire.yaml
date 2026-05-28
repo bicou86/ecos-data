@@ -1,0 +1,185 @@
+id: SSP-NEU-11
+type: ssp
+title: Troubles de la mémoire
+discipline: Neuro
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Mémoire.md
+
+# source: line 9-88
+anamnese:
+  socrates:
+    - |-
+      Début et évolution de la plainte mnésique:
+      • insidieux (mois/années) → évocateur de démence dégénérative
+      • brutal (jours/semaines) → AVC, hématome, cause réversible
+      • {s:progression par paliers} → démence vasculaire
+      • {s:fluctuations} (moments de lucidité) → corps de Lewy, confusionnel
+    - "Mémoire récente vs ancienne: oublie-t-il les événements récents (rendez-vous, clés) en préservant les souvenirs anciens? [VÉRIFIER: dissociation antérograde/rétrograde selon critères NIA-AA 2018]"
+    - |-
+      Type de trouble mémorisé (exemples concrets):
+      • répétition des mêmes questions à la famille
+      • se perd dans un quartier connu
+      • oublie de prendre les médicaments
+    - "Impact fonctionnel (ADL / IADL): courses, cuisine, conduite, finances, médicaments — {s:impact AVQ = seuil démence vs MCI}"
+  specifique:
+    - |-
+      Troubles cognitifs associés — évaluer chaque domaine:
+      • {s:Langage}: manque du mot, paraphasies → Alzheimer/DFT
+      • {s:Fonctions exécutives}: planification, jugement altéré → DFT/vasculaire
+      • {s:Praxies}: habillage, cuisine (apraxie) → stade modéré
+      • {s:Gnosies}: reconnaissance visages/objets
+      • Attention/concentration: lecture, conversations
+    - |-
+      Troubles comportementaux et psychiatriques:
+      • {s:Désinhibition, apathie, impulsivité} → {p:DFT} (prédominent sur mémoire)
+      • {s:Hallucinations visuelles} + {s:fluctuations cognitives} + {s:parkinsonisme} → {p:Corps de Lewy}
+      • Humeur triste, anhédonie, «je ne sais pas» aux tests, facteur déclenchant → {p:pseudo-démence dépressive}
+      • Idées suicidaires (attention sujet âgé — explorer systématiquement)
+    - "Hétéroanamnèse OBLIGATOIRE (famille/proche): le patient minimise souvent — recueillir exemples concrets, dangers, situations embarrassantes"
+  atcd:
+    - |-
+      Facteurs de risque cardiovasculaires (démence vasculaire):
+      • HTA, diabète, dyslipidémie, fibrillation atriale, tabac
+      • ATCD AVC / AIT / traumatisme crânien
+    - "ATCD familiaux: démence, Alzheimer, Parkinson, Huntington"
+    - "Niveau d'éducation (protecteur: réserve cognitive) et profession"
+    - |-
+      Causes réversibles à dépister systématiquement:
+      • {s:Hypothyroïdie}: fatigue, intolérance froid, prise de poids
+      • {s:Carence B12/folates}: anémie, neuropathie
+      • {s:Hyponatrémie} chronique
+      • {r:Benzodiazépines} chroniques / {r:anticholinergiques} (antispasmodiques, neuroleptiques) → iatrogénie fréquente [VÉRIFIER: liste complète anticholinergiques à risque (Beers criteria)]
+      • Alcool chronique (syndrome de Korsakoff: amnésie + confabulation)
+    - "Isolement social, dépression, niveau d'activité cognitive"
+
+# source: line 237-243
+red_flags:
+  - description: "{s:Début brutal < 6 mois} avec déclin rapide"
+    dx_suspecte: "{p:Encéphalite (auto-immune / infectieuse)}, {p:maladie de Creutzfeldt-Jakob}, néoplasie"
+    action: "Bilan urgent: {t:IRM cérébrale} + {t:EEG} + {t:PL} (cellules, protéines, PCR HSV, anticorps anti-NMDAR); hospitalisation neurologie"
+  - description: "{s:Signes neurologiques focaux nouveaux} (hémiparésie, aphasie, Babinski) + troubles mnésiques"
+    dx_suspecte: "{p:AVC ischémique ou hémorragique}, {p:hématome sous-dural}, {p:tumeur cérébrale}"
+    action: "{t:CT cérébral sans contraste STAT} + neuroimagerie; AVC pathway si < 4h30"
+  - description: "{s:Triade marche magnétique + incontinence urinaire + démence}"
+    dx_suspecte: "{p:Hydrocéphalie à pression normale (HPN)}"
+    action: "{t:IRM cérébrale} (dilatation ventriculaire); adresser neurochirurgie pour {t:PL soustractive} (amélioration marche après drainage = test positif)"
+  - description: "Troubles cognitifs chez {e:patient < 65 ans} ou évolution < 1 an sans cause évidente"
+    dx_suspecte: "{p:Démence frontale (DFT)}, {p:maladie de Wilson}, {p:maladie de Huntington}, causes paranéoplasiques"
+    action: "Bilan étiologique élargi: {t:IRM cérébrale}, bilan métabolique, {t:PET-scan} si disponible; avis neurologie [VÉRIFIER: bilan paranéoplasique selon contexte]"
+  - description: "{s:Idées suicidaires} ou refus alimentaire chez patient âgé avec syndrome dépressif"
+    dx_suspecte: "{p:Pseudo-démence dépressive} sévère"
+    action: "Évaluation psychiatrique urgente; hospitalisation si risque immédiat; traitement antidépresseur (éviter anticholinergiques)"
+
+# source: line 91-143
+examen:
+  general:
+    - "Signes vitaux: TA (HTA → vasculaire), FC (FA → emboles), T°"
+    - "État nutritionnel: dénutrition, perte de poids (démence avancée)"
+    - "Signes de négligence: hygiène, vêtements, comportement en consultation"
+    - "Thyroïde: goitre, nodules (hypothyroïdie)"
+    - "Cardiovasculaire: arythmie (FA), souffles carotidiens"
+  cible:
+    - |-
+      {t:MMSE} (30 points) — OBLIGATOIRE:
+      • Orientation temporelle (5 pts) + spatiale (5 pts)
+      • Apprentissage 3 mots (3 pts)
+      • Attention: MONDE à l'envers / 100-7 (5 pts)
+      • Rappel différé 3 mots (3 pts)
+      • Langage: dénomination, répétition, ordre 3 temps, lecture, écriture (8 pts)
+      • Praxie constructive: pentagones (1 pt)
+      • Interprétation: {r:≥ 27} normal · {r:24-26} MCI possible · {r:< 24} démence probable (ajuster selon éducation)
+    - |-
+      Tests complémentaires (selon disponibilité):
+      • {t:5 mots de Dubois}: encodage indicé — sensible amnésie hippocampique
+      • {t:Test de l'horloge}: fonctions exécutives + praxies
+      • {t:BREF} (Batterie Rapide d'Évaluation Frontale): si DFT suspecté
+    - |-
+      Examen neurologique ciblé:
+      • Tonus: {s:rigidité extrapyramidale} (roue dentée → Parkinson/Lewy)
+      • Marche: festinante (Parkinson), magnétique/petits pas ({p:HPN}), prudente (Alzheimer avancé)
+      • Force: déficits focaux, hémiparésie ({p:vasculaire})
+      • Réflexes: asymétrie, Babinski ({p:démence vasculaire})
+      • Coordination: ataxie, tremblements
+    - "Audition et vision: baisse sensorielle → isolement et faux diagnostic de déclin cognitif"
+
+# source: line 166-174
+dd_top5:
+  - dx: "{p:Maladie d'Alzheimer}"
+    indices: "{s:Amnésie épisodique} antérograde progressive, début insidieux, atteinte mémoire récente >> ancienne, anosognosie fréquente; {t:IRM}: atrophie hippocampique temporale interne; critères NIA-AA 2018"
+    freq: "60-70 % des démences"
+  - dx: "{p:Pseudo-démence dépressive}"
+    indices: "Début plus brutal, facteur déclenchant identifiable (deuil, déménagement), plainte subjective marquée ('je ne sais pas'), symptômes dépressifs associés, effort aux tests mnésiques, réponse aux antidépresseurs [VÉRIFIER: différentiation dépression/Alzheimer débutant en cas de chevauchement]"
+    freq: "10-15 % des troubles cognitifs de la personne âgée"
+  - dx: "{p:Démence vasculaire}"
+    indices: "ATCD vasculaires (HTA, diabète, FA, AVC), évolution {s:par paliers}, profil sous-cortical (ralentissement, troubles exécutifs > mémoire); {t:IRM}: lacunes multiples, hypersignaux substance blanche (leucoaraiose)"
+    freq: "15-20 % des démences"
+  - dx: "{p:Démence à corps de Lewy (DCL)}"
+    indices: "{s:Triade}: {s:fluctuations cognitives} + {s:hallucinations visuelles} + {s:parkinsonisme}; sensibilité aux neuroleptiques (DANGEREUX); {t:DaTSCAN} altéré; troubles comportementaux du sommeil paradoxal"
+    freq: "5-10 % des démences"
+  - dx: "{p:Démence fronto-temporale (DFT)}"
+    indices: "{s:Changements comportementaux} (désinhibition, apathie, impulsivité) ou {s:troubles du langage} PRÉDOMINENT sur mémoire; début souvent < 65 ans; ATCD familiaux fréquents; {t:IRM}: atrophie frontale/temporale antérieure"
+    freq: "5 % des démences, mais 20 % des démences < 65 ans"
+
+# source: line 147-212
+pec_initiale:
+  immediate:
+    - "IDENTIFIER et TRAITER les causes réversibles EN PRIORITÉ — 10 % des démences sont traitables"
+    - |-
+      Causes réversibles à traiter:
+      • {p:Hypothyroïdie}: {r:lévothyroxine 25-50 μg/j} (initiation progressive chez sujet âgé)
+      • {p:Carence B12}: {r:cyanocobalamine 1000 μg IM × 10 j} puis relais PO
+      • {p:Dépression}: antidépresseur (ISRS de préférence — éviter anticholinergiques: tricycliques, paroxétine)
+      • Sevrage médicamenteux: réduction progressive BZD, révision anticholinergiques
+    - |-
+      Alzheimer confirmé (stade léger-modéré, {r:MMSE 10-26}):
+      • {r:Donépézil 5 mg/j → 10 mg/j} OU {r:Rivastigmine patch 4.6 → 9.5 mg/24h} OU {r:Galantamine 8 → 24 mg/j LP}
+      • Stade modéré-sévère ({r:MMSE < 15}): ajouter {r:Mémantine 5 → 20 mg/j}
+    - |-
+      Mesures non pharmacologiques (essentielles):
+      • stimulation cognitive (activités, jeux, lecture)
+      • activité physique adaptée (marche, gym douce)
+      • maintien lien social (famille, centres de jour)
+      • aménagement domicile (sécurité gaz/feu, repères visuels, errance)
+    - |-
+      Anticipation (à aborder dès le diagnostic):
+      • directives anticipées et protection juridique (curatelle/tutelle si besoin)
+      • permis de conduire: évaluation capacités, retrait si risque
+      • soutien aux aidants: information, répit (accueil de jour), associations
+  orientation:
+    - "Bilan initial en ambulatoire (médecin traitant + gériatre/neurologue) si déclin lent, causes réversibles cherchées, pas de red flag"
+    - "Neurologie / gériatrie urgente: red flag (déclin rapide, déficit focal, triade HPN, âge < 65 ans)"
+    - "Psychiatrie: si composante dépressive sévère ou idées suicidaires"
+    - "Consultation mémoire spécialisée: pour confirmation diagnostique, bilan neuropsychologique complet, éventuels biomarqueurs (LCR, PET amyloïde)"
+
+# source: line 151-164
+examens_complementaires:
+  - "{t:Biologie de base}: TSH, vitamine B12 + folates, NFS, ionogramme (Na), glycémie, bilan hépatique — causes réversibles systématiques"
+  - "{t:IRM cérébrale} (ou CT si CI): atrophie hippocampique ({p:Alzheimer}), lacunes/{t:hypersignaux SB} ({p:vasculaire}), hydrocéphalie ({p:HPN}), tumeurs, hématomes"
+  - "{t:Bilan neuropsychologique complet}: MoCA, 5 mots de Dubois, BREF, IADL Lawton — pour stadification et suivi"
+  - "{t:EEG}: déclin rapide (Creutzfeldt-Jakob: complexes périodiques), épilepsie sous-jacente"
+  - "{t:PL} (biomarqueurs Alzheimer: Aβ42↓, tau total↑, phospho-tau↑): si doute diagnostique ou déclin rapide; obligatoire si encéphalite suspectée"
+  - "{t:DaTSCAN}: si corps de Lewy suspecté (dopaminergique)"
+
+# source: line 237-243
+criteres_hospitalisation:
+  - "Tout red flag avéré: déclin rapide < 6 mois, déficit focal, triade HPN, encéphalite/CJD"
+  - "Agitation sévère ou dangerosité (errance, incendie, fugues) non contrôlable à domicile"
+  - "Idées suicidaires ou refus alimentaire avec dénutrition"
+  - "Cause réversible sévère nécessitant traitement IV (carence B12 profonde, hyponatrémie < 125 mmol/L)"
+  - "{e:Patient seul à domicile} sans aidant capable de surveillance"
+
+# source: line 224-235
+pieges:
+  - "Accepter la minimisation du patient sans {s:hétéroanamnèse} — le patient anosognosique sous-estime systématiquement ses troubles: toujours interroger la famille"
+  - "Porter le diagnostic d'{p:Alzheimer} sans avoir exclu les causes réversibles (TSH, B12, médicaments) — au moins 10 % sont traitables"
+  - "Confondre {p:pseudo-démence dépressive} et Alzheimer débutant: le dépressif se plaint fort ('je ne sais pas'), l'Alzheimer ne se plaint pas (anosognosie)"
+  - "Prescrire des {r:neuroleptiques} sans avoir exclu une {p:DCL} — risque de réaction sévère potentiellement fatale (rigidité, hyperthermie)"
+  - "Négliger l'{s:évaluation fonctionnelle} (ADL/IADL) — elle seule distingue MCI (AVQ préservées) de démence (AVQ impactées)"
+
+cartes_liees:
+  - SYS-NEU
+  - SSP-NEU-05
+  - TOOL-MMSE

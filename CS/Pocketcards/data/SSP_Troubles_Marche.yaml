@@ -1,0 +1,208 @@
+id: SSP-NEU-10
+type: ssp
+title: Troubles de la marche
+discipline: Neuro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Marche.md
+
+# source: lines 1-184 (anamnèse)
+anamnese:
+  socrates:
+    - |-
+      Site / type de gêne:
+      • instabilité / déséquilibre
+      • {s:faiblesse} ou {s:fatigue} musculaire
+      • {s:douleur} limitant la marche
+      • lenteur, {s:difficulté d'initiation}
+    - |-
+      Onset:
+      • début {s:brutal} (< 24 h) → red flag: {p:AVC}, {p:AIT}
+      • progressif insidieux → dégénératif, carentiel
+    - |-
+      Character — décrire le patron:
+      • périmètre maximal sans arrêt?
+      • limitation par douleur / dyspnée / fatigue?
+      • terrain plat vs escaliers vs obscurité?
+      • demi-tours / changements direction difficiles?
+    - |-
+      Time:
+      • aigu (< 1 mois) / subaigu / chronique
+      • évolution: stable / aggravation / fluctuante
+      • facteur déclenchant: chute, infection, médicament?
+    - |-
+      Exacerbating:
+      • {s:claudication} à périmètre constant → artérielle ou neurologique?
+      • aggravation obscurité → atteinte {s:proprioceptive}
+      • amélioration flexion du tronc (signe du caddie) → {p:canal lombaire étroit}
+    - |-
+      Severity / retentissement fonctionnel:
+      • autonomie domicile: cuisine, ménage, toilette
+      • sorties, transports, vie sociale
+      • chutes: fréquence, circonstances, conséquences
+
+  specifique:
+    - |-
+      {s:Signes neurologiques associés}:
+      • tremblements repos → {p:Parkinson}; freezing, festination?
+      • {s:paresthésies} MI → neuropathie sensitive / canal lombaire
+      • {s:troubles cognitifs}: mémoire, orientation → {p:HPN}, démence
+      • troubles sphinctériens (incontinence) + marche + cognition → {p:HPN} triade Hakim-Adams
+    - |-
+      {s:Signes cardiovasculaires}:
+      • {s:claudication} mollets, soulagement < 5 min à l'arrêt → {p:AOMI}
+      • dyspnée d'effort, orthopnée → {p:insuffisance cardiaque}
+      • {s:hypotension orthostatique}: vertiges au lever
+    - |-
+      {s:Signes ostéo-articulaires}:
+      • douleur mécanique hanches/genoux/chevilles
+      • raideur matinale < 30 min → arthrose
+      • douleur rachidienne irradiante → compression médullaire?
+    - |-
+      Spécificités par âge:
+      • {e:< 50 ans}: SEP (poussées-rémissions, fatigue, troubles sensitifs), myopathie, lésion médullaire
+      • {e:> 65 ans}: polymédication (psychotropes, {r:benzodiazépines}, hypotenseurs), sarcopénie, dénutrition, peur de tomber
+      • {e:> 65 ans}: syndrome post-chute → déconditionnement → cercle vicieux
+
+  atcd:
+    - "ATCD neurologiques: {p:Parkinson}, {p:AVC}/{p:AIT}, SEP, polyneuropathie"
+    - "ATCD CV: {p:AOMI} (tabac, diabète, HTA, dyslipidémie), {p:insuffisance cardiaque}"
+    - "ATCD rhumatologiques: coxarthrose, gonarthrose, canal lombaire étroit"
+    - |-
+      Médicaments — causes iatrogènes:
+      • psychotropes: {r:benzodiazépines}, neuroleptiques → sédation, instabilité
+      • hypotenseurs → hypotension orthostatique
+      • antiparkinsoniens → dyskinésies
+      • [VÉRIFIER: liste médicaments à risque chute selon protocole local CHUV/HUG]
+    - "ATCD familiaux: maladies neurologiques dégénératives (Parkinson familial, ataxie cérébelleuse)"
+    - "Chirurgies récentes / hospitalisation prolongée → déconditionnement"
+    - "Question de clôture: 'Avez-vous peur de tomber quand vous marchez?'"
+
+# source: lines 187-283 (examen clinique)
+red_flags:
+  - description: "{s:Déficit moteur ou sensitif focal brutal} (parésie, aphasie, diplopie)"
+    dx_suspecte: "{p:AVC ischémique ou hémorragique}"
+    action: "AVC pathway immédiat; {t:CT cérébral} sans contraste urgent + appel neurologie"
+  - description: "{s:Triade Hakim-Adams}: marche magnétique + incontinence urinaire + {s:troubles cognitifs}"
+    dx_suspecte: "{p:Hydrocéphalie à pression normale (HPN)}"
+    action: "{t:IRM cérébrale} urgente; {t:ponction lombaire} test d'évacuation {r:40-50 mL LCR}; avis neurochirurgie"
+  - description: "{s:Paraparésie progressive} + {s:niveau sensitif} ± troubles sphinctériens"
+    dx_suspecte: "{p:Myélopathie compressive} (tumeur, hernie discale, hématome épidural)"
+    action: "{t:IRM médullaire} urgente; avis neurochirurgie"
+  - description: "{s:Ataxie aiguë} + céphalée occipitale + nystagmus + vomissements"
+    dx_suspecte: "{p:AVC cérébelleux} ou hémorragie fosse postérieure"
+    action: "{t:CT cérébral} sans contraste STAT; ne pas omettre fosse postérieure; AVC pathway"
+  - description: "Aggravation marche sous {r:neuroleptique} ou {r:métoclopramide} — syndrome parkinsonien iatrogène"
+    dx_suspecte: "{p:Parkinsonisme médicamenteux}"
+    action: "Arrêt du médicament incriminé; réévaluation à 4-8 semaines; éviter neuroleptiques typiques [VÉRIFIER: délai récupération moyen selon littérature]"
+  - description: "{s:Chute brutale sans perte de connaissance} chez {e:> 65 ans} sous polymédication"
+    dx_suspecte: "{p:Hypotension orthostatique} sévère / syncope de cause médicamenteuse"
+    action: "Mesure TA couché/debout à 1 et 3 min; révision prescription urgente; ECG"
+
+# source: lines 187-283 (examen)
+examen:
+  general:
+    - "Signes vitaux: TA (couché + debout: chute ≥ {r:20/10 mmHg} = hypotension orthostatique), FC, T°"
+    - "Poids / BMI: dénutrition, sarcopénie [VÉRIFIER: seuil IMC sarcopénie selon ESPEN]"
+    - "Médication récente: psychotropes, hypotenseurs, antiparkinsoniens"
+    - "{t:Timed Up and Go (TUG)}: se lever, marcher 3 m, demi-tour, retour, s'asseoir — {r:< 10 s} normal, {r:> 14 s} risque chute élevé"
+  cible:
+    - |-
+      Observation de la marche (OBLIGATOIRE):
+      • initiation: délai démarrage, freezing?
+      • longueur et régularité des pas, élargissement polygone?
+      • ballant bras: diminué unilatéral ({p:Parkinson}, AVC)
+      • type pathologique: steppage / fauchage / festination / ataxique / spastique / antalgique?
+    - |-
+      {t:Tests d'équilibre statique}:
+      • {t:Romberg}: yeux ouverts puis fermés — positif YF = atteinte {s:proprioceptive}
+      • station unipodale: normal > {r:5 s}; < 5 s pathologique
+      • demi-tour: > 4 pas = pathologique
+    - |-
+      {s:Examen neurologique ciblé}:
+      • force musculaire cotée 0-5: psoas, quadriceps, jambiers antérieurs, fessiers, triceps suraux
+      • tonus: rigidité roue dentée ({p:Parkinson}) / spasticité ressort ({p:pyramidal})
+      • ROT: vifs (central) / abolis (périphérique); {s:Babinski}?
+      • sensibilité vibratoire (diapason 128 Hz), proprioceptive, tactile
+      • coordination: épreuve doigt-nez, diadococinésie, marche tandem
+    - |-
+      {s:Examen cardiovasculaire}:
+      • pouls périphériques: fémoraux, poplités, pédieux (abolis → {p:AOMI})
+      • {t:IPS} (Index pression systolique): normal > {r:0,9}
+      • auscultation cardiaque: souffle, galop
+      • œdèmes des chevilles
+    - |-
+      {s:Examen ostéo-articulaire}:
+      • hanches: amplitudes flexion/rotation interne, douleur
+      • genoux: genu varum/valgum, épanchement
+      • rachis: statique sagittale, mobilité, percussion épineuses
+
+# source: lines 149-153 + pivots cliniques
+dd_top5:
+  - dx: "{p:Maladie de Parkinson}"
+    indices: "Tremblement repos, rigidité roue dentée, bradykinésie, freezing, festination, ballant bras diminué; réponse à {r:L-DOPA}; {e:> 60 ans}"
+    freq: "fréquent (1-2 % > 60 ans)"
+  - dx: "{p:Hydrocéphalie à pression normale (HPN)}"
+    indices: "Triade Hakim-Adams: marche 'magnétique' (petits pas traînants, pieds collés au sol) + incontinence urinaire + troubles cognitifs; amélioration après PL {r:40-50 mL}"
+    freq: "rare mais potentiellement curable"
+  - dx: "{p:Neuropathie sensitive périphérique}"
+    indices: "{s:Ataxie talonnante}, Romberg positif YF, abolition vibratoire aux orteils, steppage si déficit moteur SPE; causes: diabète, {p:carence B12}, alcool, paranéoplasique [VÉRIFIER: seuil B12 selon labo local]"
+    freq: "fréquent (diabète, âge)"
+  - dx: "{p:Arthrose hanche/genou} + sarcopénie gériatrique"
+    indices: "Marche antalgique, douleur mécanique, limitation amplitudes, boiterie d'esquive; {e:> 65 ans}: polymédication + déconditionnement + peur de chuter"
+    freq: "très fréquent (> 65 ans)"
+  - dx: "{p:Syndrome cérébelleux}"
+    indices: "Ataxie ébrieuse, polygone élargi, Romberg non amélioré YO, dyscoordination (doigt-nez, diadococinésie), nystagmus; causes: alcool, médicaments, tumeur fosse postérieure, AVC cérébelleux"
+    freq: "fréquent toutes causes"
+
+# source: lines 286-438 (PEC)
+pec_initiale:
+  immediate:
+    - "Classer d'abord: marche {s:spastique} / {s:parkinsonienne} / {s:ataxique cérébelleuse} / {s:ataxique sensitive} / {s:steppage} / {s:antalgique} — oriente immédiatement le bilan"
+    - |-
+      {p:Parkinson} avec gêne fonctionnelle:
+      • {e:< 70 ans}: {r:agoniste dopaminergique} (pramipexole {r:0,125 mg × 3/j})
+      • {e:≥ 70 ans} ou gêne importante: {r:L-DOPA/carbidopa 100/25 mg × 3/j}; test thérapeutique positif confirme le diagnostic
+    - "{p:HPN}: test d'évacuation {r:40-50 mL LCR}; si amélioration → dérivation ventriculo-péritonéale (DVP)"
+    - |-
+      {p:AOMI} symptomatique:
+      • sevrage tabagique obligatoire
+      • {r:aspirine 75-100 mg/j} + {r:atorvastatine 40 mg/j}
+      • revascularisation si ischémie critique
+    - "Cause iatrogène identifiée: arrêt / substitution du médicament incriminé ({r:benzodiazépine}, neuroleptique)"
+    - "Prévention chutes multifactorielle: révision médicaments + aménagement domicile + kinésithérapie équilibre"
+  orientation:
+    - "Urgences: red flag présent (déficit focal, ataxie aiguë, myélopathie, HPN triade complète)"
+    - "Neurologie ambulatoire: {p:Parkinson} probable, ataxie cérébelleuse progressive, neuropathie à explorer"
+    - "MPR / Gériatrie: sujet âgé avec chutes répétées, syndrome post-chute, rééducation complexe"
+    - "Domicile + suivi MT: cause iatrogène corrigée, arthrose connue stable, rééducation initiée"
+
+examens_complementaires:
+  - "{t:IRM cérébrale} (FLAIR, diffusion): suspicion {p:AVC}, {p:HPN}, tumeur, {p:SEP}"
+  - "{t:IRM médullaire}: paraparésie progressive ou myélopathie suspectée"
+  - "{t:ENMG}: suspicion neuropathie périphérique (steppage, abolition ROT, Romberg +)"
+  - "{t:B12 + TSH} systématiques: causes carentielles / métaboliques curables"
+  - "{t:Écho-Doppler artériel MI + IPS}: claudication intermittente ({p:AOMI})"
+  - "{t:Bilan standard} (NFS, ionogramme, glycémie, CRP, CPK): causes métaboliques, inflammatoires, myopathiques"
+
+criteres_hospitalisation:
+  - "Red flag neurologique avéré: déficit focal, myélopathie aiguë, ataxie aiguë"
+  - "{p:HPN} avec triade complète → bilan neurochirurgical urgent"
+  - "Hypotension orthostatique sévère symptomatique non contrôlée"
+  - "Chutes répétées avec risque vital ou traumatisme grave (fracture, TC)"
+  - "Impossibilité de marche aiguë sans étiologie identifiée"
+
+pieges:
+  - "Attribuer les troubles de marche à 'l'âge normal' sans rechercher de cause traitable ({p:HPN}, {p:carence B12}, cause iatrogène)"
+  - "Omettre la triade Hakim-Adams ({p:HPN}) — marche 'magnétique' + incontinence + cognition est une urgence thérapeutique potentiellement curable"
+  - "Confondre {s:claudication neurologique} (canal lombaire étroit, améliorée en flexion) et {s:claudication artérielle} ({p:AOMI}, périmètre constant, soulagement arrêt < 5 min)"
+  - "Ne pas réviser la médication chez le sujet âgé — psychotropes et hypotenseurs sont la 1re cause iatrogène de chute"
+  - "Manquer un {s:Babinski} ou une {s:spasticité} subtile indiquant une atteinte pyramidale (myélopathie cervicale débutante)"
+
+cartes_liees:
+  - SSP-NEU-07
+  - SSP-NEU-04
+  - SYS-NEU
+  - TOOL-TUG

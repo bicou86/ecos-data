@@ -1,0 +1,196 @@
+id: SSP-NEU-09
+type: ssp
+title: Neuropathie périphérique
+discipline: Neuro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Neuropathie_Périphérique.md
+
+# source: line 16-91
+anamnese:
+  socrates:
+    - |-
+      Site / topographie (CRUCIAL):
+      • {s:polyneuropathie} — symétrique, longueur-dépendante ('chaussettes-gants')
+      • {s:mononeuropathie} — territoire nerveux unique (médian, cubital, SPE)
+      • {s:mononeuropathies multiples} — troncs nerveux asymétriques → vascularite?
+      • {s:polyradiculonévrite} — proximal + distal, ± rachis
+    - |-
+      Onset / chronologie:
+      • {s:aiguë < 4 sem} → {p:Guillain-Barré}?
+      • subaiguë 4-8 sem → toxique, infectieux, inflammatoire
+      • {e:chronique > 8 sem} → diabète, alcool, héréditaire, {p:CIDP}
+    - |-
+      Character — modalité atteinte:
+      • sensitive pure (brûlures, fourmillements, hypoesthésie)?
+      • motrice: faiblesse distale > proximale, steppage?
+      • mixte sensitive + motrice?
+      • {s:végétative}: peau sèche, sudation, troubles digestifs/génito-urinaires?
+    - "Severity: chutes? steppage? incapacité de marcher? retentissement ADL?"
+    - "Évolution: progressive / stable / fluctuante / ascendante?"
+  specifique:
+    - |-
+      Distribution {s:ascendante et rapide} en quelques jours:
+      • faiblesse membres inférieurs → supérieurs → muscles respiratoires
+      • abolition ROT précoce
+      → {p:Guillain-Barré} jusqu'à preuve du contraire
+    - |-
+      {s:Romberg positif} (aggravation yeux fermés):
+      • atteinte cordons postérieurs → {p:carence B12} jusqu'à preuve du contraire
+      • ± anémie macrocytaire, glossite, régime végétarien, IPP long cours
+    - "Infection récente (2-6 sem avant): Campylobacter, CMV, EBV → {p:Guillain-Barré}?"
+    - "Exposition toxique: chimiothérapie (cisplatine, taxanes, vincristine), {r:isoniazide}, amiodarone, métronidazole, statines?"
+    - |-
+      {s:Pieds creux} + ATCD familiaux de neuropathie + début insidieux jeune:
+      → {p:Charcot-Marie-Tooth} (héréditaire) [VÉRIFIER: génétique CMT-1A PMP22]
+  atcd:
+    - |-
+      Diabète (cause n°1 — 30%):
+      • type, durée, HbA1c, complications (rétinopathie, néphropathie)
+    - |-
+      Alcoolisme (souvent caché — 20%):
+      • consommation quantifiée; {t:CAGE} ≥ 2; malnutrition associée?
+    - |-
+      Carences vitaminiques:
+      • {r:B12}: végétarien, gastrectomie, IPP long cours, maladie de Crohn
+      • B1: alcoolisme, malnutrition, chirurgie bariatrique
+      • B6: excès supplémentation > 100 mg/j
+    - "ATCD familiaux neuropathie, maladies auto-immunes, cancers (paranéoplasique)?"
+    - |-
+      Médicaments neurotoxiques: chimiothérapie, {r:isoniazide} (sans pyridoxine),
+      amiodarone, métronidazole, statines (myopathie ± neuropathie)
+
+# source: line 92-136
+red_flags:
+  - description: "{s:Faiblesse ascendante rapide} des MI vers MS en jours, associée à abolition ROT"
+    dx_suspecte: "{p:Syndrome de Guillain-Barré (SGB)}"
+    action: "Hospitalisation USI immédiate; {t:ENMG} urgent + {t:PL} (dissociation albumino-cytologique); surveillance capacité vitale"
+  - description: "{s:Dysphagie ou dysphonie ou détresse respiratoire} dans contexte de neuropathie aiguë"
+    dx_suspecte: "{p:Guillain-Barré} avec atteinte respiratoire / nerfs crâniens"
+    action: "Intubation si CV < 20 mL/kg ou SpO2 < 93%; {r:IgIV 0,4 g/kg/j × 5j} ou plasmaphérèses"
+  - description: "{s:Babinski bilatéral} ou {s:spasticité} associé aux troubles sensitifs"
+    dx_suspecte: "{p:Myélopathie cervicale} ou {p:sclérose combinée de la moelle} (B12)"
+    action: "IRM médullaire urgente; ne pas conclure à neuropathie périphérique seule"
+  - description: "{s:Mononeuropathies multiples asymétriques} d'évolution rapide (semaines)"
+    dx_suspecte: "{p:Vascularite des nerfs} (PAN, cryoglobulinémie, Churg-Strauss)"
+    action: "CRP/VS + bilan immunologique (ANCA, cryoglobulines, hépatite B/C); biopsie nerf ± traitement immunosuppresseur urgent"
+  - description: "{s:Romberg positif} net + {s:ataxie proprioceptive} ± anémie macrocytaire"
+    dx_suspecte: "{p:Carence sévère en B12} / {p:sclérose combinée de la moelle}"
+    action: "{t:Dosage B12} STAT + {t:homocystéine}; {r:cyanocobalamine 1000 μg IM/j × 7j} sans attendre IRM [VÉRIFIER: protocole substitution B12 IM vs PO selon centre]"
+  - description: "{s:Neuropathie douloureuse progressive} chez patient avec protéinurie ou dysprotéinémie"
+    dx_suspecte: "{p:Amyloïdose} ou {p:gammapathie monoclonale} (MGUS/myélome)"
+    action: "{t:Électrophorèse protéines sériques + immunofixation}; avis neurologie + hématologie"
+
+# source: line 92-136
+examen:
+  general:
+    - "Signes vitaux: TA couché et debout ({s:hypotension orthostatique} → neuropathie végétative!), FC"
+    - "Inspection générale: dénutrition, pied creux, amyotrophie distale visible, ulcères"
+    - "Pied diabétique: ulcérations, mal perforant, pouls périphériques"
+    - "Signes d'alcoolisme: érythrose palmaire, angiomes, hépatomégalie"
+  cible:
+    - |-
+      {s:Sensibilité} — cartographie précise (ESSENTIEL):
+      • tactile épicritique: coton, {t:monofilament 10 g}
+      • douloureuse: piqûre
+      • vibratoire: {t:diapason 128 Hz} (altérée précocement!) sur malléoles/hallux
+      • proprioception: position hallux/doigt yeux fermés
+      • thermique: chaud/froid si nécessaire
+    - |-
+      {s:Force motrice} — testing 0-5:
+      • MI: releveurs du pied (steppage?), fléchisseurs orteils, loges antéro-ext
+      • MS: extenseurs doigts, interosseux, éminences thénar/hypothénar
+      • {s:faiblesse proximale} → myopathie ou Guillain-Barré?
+    - |-
+      {t:Réflexes ostéo-tendineux}:
+      • achilléens: souvent {s:abolis précocement} (axonale++)
+      • rotuliens, bicipitaux, tricipitaux
+      • {s:ROT vifs} + Babinski → atteinte centrale ⚠️
+    - |-
+      {t:Romberg}:
+      • aggravation yeux fermés → atteinte cordons postérieurs ({p:B12}!)
+      • instabilité yeux ouverts → cérébelleux ou vestibulaire
+    - |-
+      Marche et coordination:
+      • steppage (déficit releveurs)?
+      • marche tandem (ataxie cérébelleuse?)
+      • {s:ataxie proprioceptive}: aggravation yeux fermés, sol instable
+    - "Tests spécifiques mononeuropathie: {t:Tinel}, {t:Phalen} (canal carpien); testing territoire médian/cubital/SPE [VÉRIFIER: sensibilité/spécificité selon référence]"
+
+# source: line 167-176
+dd_top5:
+  - dx: "{p:Polyneuropathie diabétique}"
+    indices: "Distribution chaussettes-gants symétrique, brûlures nocturnes plantaires, sensibilité vibratoire ↓, ROT achilléens abolis; glycémie/HbA1c élevées; évolution chronique"
+    freq: "très fréquent (cause n°1, 30 %)"
+  - dx: "{p:Neuropathie carentielle en B12}"
+    indices: "Romberg positif, ataxie proprioceptive, atteinte cordons postérieurs ± anémie macrocytaire; végétarien, IPP, gastrectomie; peut associer atteinte médullaire"
+    freq: "fréquent (sous-diagnostiquée)"
+  - dx: "{p:Neuropathie alcoolique}"
+    indices: "Distribution longueur-dépendante, brûlures plantaires, malnutrition, consommation chronique; CAGE ≥ 2; souvent mixte avec carence B1/B12"
+    freq: "fréquent (cause n°2, ~20 %)"
+  - dx: "{p:Syndrome de Guillain-Barré}"
+    indices: "Installation aiguë < 4 sem, faiblesse ascendante, ROT abolis, infection récente; dissociation albumino-cytologique LCR; ENMG démyélinisant"
+    freq: "rare (1-2/100 000/an) mais urgence vitale"
+  - dx: "{p:Neuropathie toxique / iatrogène}"
+    indices: "Chronologie avec introduction médicament (chimio, INH, amiodarone); longueur-dépendante; régressive à l'arrêt; ENMG axonal"
+    freq: "modéré (5-10 %)"
+
+# source: line 178-247
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — faiblesse ascendante rapide ou Babinski → urgence neurologique avant tout"
+    - |-
+      {p:Guillain-Barré} confirmé ou suspecté:
+      {r:IgIV 0,4 g/kg/j × 5j} OU plasmaphérèses 5 séances
+      Surveillance capacité vitale (CV < 20 mL/kg = indication intubation)
+    - |-
+      {p:Carence B12} confirmée: {r:cyanocobalamine 1000 μg IM/j × 7j} puis {r:1×/mois à vie}
+      (si malabsorption); corriger B1 associée si alcoolisme
+    - |-
+      Traitement douleur neuropathique (1re ligne):
+      • {r:gabapentine} 300 mg/j → titrer jusqu'à 1800-3600 mg/j en 3 prises
+      • ou {r:prégabaline} 75 mg × 2/j → 300-600 mg/j
+      • ou {r:amitriptyline} 10-25 mg HS → 75-150 mg/j (CI: BAV, glaucome, HBP)
+      • ou {r:duloxétine} 60 mg/j
+      NE PAS utiliser opioïdes en 1re intention
+    - |-
+      Traitement étiologique prioritaire:
+      • diabète: optimiser HbA1c < 7 % (metformine ± insuline)
+      • alcoolisme: sevrage encadré + {r:thiamine 100 mg IV} puis PO + multivitamines
+      • médicamenteux: arrêt si possible, alternative thérapeutique
+  orientation:
+    - "Domicile + MT: polyneuropathie chronique stable, bilan initié, traitement étiologique en cours"
+    - "Urgences: faiblesse ascendante, atteinte respiratoire, Babinski, mononeuropathies multiples rapides"
+    - "Neurologie ambulatoire: diagnostic incertain, neuropathie progressive, suspicion CIDP, cause rare"
+    - "Kinésithérapie: renforcement musculaire, rééducation proprioceptive, prévention chutes"
+
+# source: line 138-166
+examens_complementaires:
+  - "{t:ENMG} (électroneuromyographie): confirmer neuropathie, type axonal vs démyélinisant, topographie — examen clé [VÉRIFIER: délai disponibilité ENMG selon urgence clinique]"
+  - "{t:Biologie 1re intention}: glycémie à jeun + HbA1c, B12, folates, TSH, créatinine/DFG, NFS (macrocytose), électrophorèse protéines, CRP/VS"
+  - "{t:PL} (ponction lombaire): suspicion {p:Guillain-Barré} — dissociation albumino-cytologique (protéines ↑, cellules normales)"
+  - "{t:Sérologies}: VIH, hépatite B/C, Lyme si orientation clinique; ANCA, cryoglobulines si vascularite suspectée"
+  - "{t:IRM médullaire cervicale}: si Babinski, spasticité ou suspicion myélopathie associée"
+  - "{t:Biopsie du nerf sural}: si cause indéterminée après bilan complet, suspicion vascularite ou amyloïdose"
+
+# source: line 267-273
+criteres_hospitalisation:
+  - "{p:Guillain-Barré} suspecté ou confirmé — toute faiblesse ascendante même légère"
+  - "Atteinte respiratoire (dysphagie, dysphonie, CV < 20 mL/kg) ou nerfs crâniens"
+  - "{s:Mononeuropathies multiples} d'évolution rapide (vascularite nécessitant bilan urgent)"
+  - "Carence B12 sévère avec ataxie ou suspicion sclérose combinée de la moelle"
+  - "Douleurs neuropathiques rebelles ou retentissement fonctionnel sévère (chutes, autonomie)"
+
+pieges:
+  - "Ne pas reconnaître {p:Guillain-Barré} précocement — la faiblesse PROXIMALE et l'abolition des ROT avant paresthésies intenses doivent alerter"
+  - "Banaliser un {s:Romberg positif} comme 'vertige' — c'est une atteinte des cordons postérieurs ({p:B12}) jusqu'à preuve du contraire"
+  - "Négliger l'interrogatoire alcoolisme (CAGE!) — cause masquée fréquente, corriger thiamine AVANT glucose IV (risque Wernicke)"
+  - "Prescrire des {r:opioïdes} d'emblée pour douleur neuropathique — inefficaces et risque dépendance; utiliser gabapentinoïdes ou tricycliques"
+  - "Conclure à polyneuropathie devant une distribution asymétrique ou rapide — éliminer vascularite (mononeuropathies multiples) ou radiculopathie"
+
+cartes_liees:
+  - SYS-NEU
+  - SSP-NEU-05
+  - SSP-NEU-06
