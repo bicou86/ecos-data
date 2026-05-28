@@ -985,7 +985,7 @@ function extractRedFlags(anamneseContent) {
   const afterStart = anamneseContent.slice(fromIdx + m[0].length);
   const nextHeadingMatch = afterStart.match(/^###\s+/m);
   const block = nextHeadingMatch
-    ? afterStart.slice(0, afterStart.indexOf(nextHeadingMatch[0]))
+    ? afterStart.slice(0, nextHeadingMatch.index)
     : afterStart;
   return extractGroupedBullets(block);
 }
@@ -999,7 +999,7 @@ function extractPieges(pointsClesContent) {
   const afterStart = pointsClesContent.slice(fromIdx + m[0].length);
   const nextHeadingMatch = afterStart.match(/^###\s+|^##\s+/m);
   const block = nextHeadingMatch
-    ? afterStart.slice(0, afterStart.indexOf(nextHeadingMatch[0]))
+    ? afterStart.slice(0, nextHeadingMatch.index)
     : afterStart;
   return extractBullets(block);
 }
