@@ -32,6 +32,62 @@ body {
   line-height: 1.45;
 }
 
+/* Discipline color palette — drives header gradient */
+.card {
+  --c-disc: #475569;
+} /* default slate */
+.card[data-discipline="Cardio"] {
+  --c-disc: #dc2626;
+} /* red */
+.card[data-discipline="Neuro"] {
+  --c-disc: #7c3aed;
+} /* purple */
+.card[data-discipline="MSQ"] {
+  --c-disc: #ea580c;
+} /* orange */
+.card[data-discipline="Gastro"] {
+  --c-disc: #d97706;
+} /* amber */
+.card[data-discipline="Pulmo"] {
+  --c-disc: #0891b2;
+} /* cyan */
+.card[data-discipline="Endocrino"] {
+  --c-disc: #16a34a;
+} /* green */
+.card[data-discipline="Dermato"] {
+  --c-disc: #db2777;
+} /* pink */
+.card[data-discipline="Gyneco"] {
+  --c-disc: #c026d3;
+} /* magenta */
+.card[data-discipline="Pediatric"] {
+  --c-disc: #0d9488;
+} /* teal */
+.card[data-discipline="Psy"] {
+  --c-disc: #4338ca;
+} /* indigo */
+.card[data-discipline="ORL"] {
+  --c-disc: #65a30d;
+} /* lime */
+.card[data-discipline="Ophtalmo"] {
+  --c-disc: #0284c7;
+} /* sky */
+.card[data-discipline="Urgences"] {
+  --c-disc: #b91c1c;
+} /* deep red */
+.card[data-discipline="Comm"] {
+  --c-disc: #475569;
+} /* slate */
+.card[data-discipline="Nephro"] {
+  --c-disc: #1d4ed8;
+} /* blue */
+.card[data-discipline="Infectio"] {
+  --c-disc: #e11d48;
+} /* rose */
+.card[data-discipline="Hemato"] {
+  --c-disc: #9f1239;
+} /* maroon */
+
 .card {
   max-width: 760px;
   margin: 0 auto;
@@ -42,7 +98,11 @@ body {
 }
 
 .card-header {
-  background: var(--c-meta);
+  background: linear-gradient(
+    135deg,
+    var(--c-disc),
+    color-mix(in oklab, var(--c-disc) 70%, black)
+  );
   color: white;
   padding: 10px 14px;
   display: flex;
@@ -312,27 +372,57 @@ body {
   margin-top: 2px;
 }
 
-/* === Semantic word-level color coding === */
+/* === Semantic word-level color coding — vivid with pale background === */
 .sem-symptom {
-  color: #db2777;
+  color: #9d174d;
+  background: #fce7f3;
+  padding: 1px 5px;
+  border-radius: 3px;
   font-weight: 600;
-} /* pink — symptom/sign/mechanism */
+} /* pink */
 .sem-pathology {
-  color: #dc2626;
+  color: #991b1b;
+  background: #fee2e2;
+  padding: 1px 5px;
+  border-radius: 3px;
   font-weight: 600;
-} /* red — pathology/diagnosis */
+} /* red */
 .sem-test {
-  color: #059669;
+  color: #065f46;
+  background: #d1fae5;
+  padding: 1px 5px;
+  border-radius: 3px;
   font-weight: 600;
-} /* green — test/score/imaging */
+} /* green */
 .sem-treatment {
-  color: #ca8a04;
+  color: #854d0e;
+  background: #fef3c7;
+  padding: 1px 5px;
+  border-radius: 3px;
   font-weight: 600;
-} /* yellow/amber — treatment/drug/number */
+} /* yellow / amber */
 .sem-state {
-  color: #92400e;
+  color: #78350f;
+  background: #fed7aa;
+  padding: 1px 5px;
+  border-radius: 3px;
   font-weight: 600;
-} /* brown — physiological state */
+} /* brown */
+
+/* === Nested bullets (multi-line YAML items) === */
+.nested-bullets {
+  margin: 4px 0 6px 8px;
+  padding-left: 16px;
+  list-style: square;
+}
+.nested-bullets li {
+  font-size: 0.95em;
+  margin: 1px 0;
+}
+.section ul > li > strong {
+  display: inline-block;
+  margin-bottom: 2px;
+}
 
 /* Print — A5 portrait */
 @media print {

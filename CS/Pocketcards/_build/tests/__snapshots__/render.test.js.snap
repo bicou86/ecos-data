@@ -210,7 +210,7 @@ exports[`renderCard > renders the golden SYS card to HTML 1`] = `
                       </ul>
         </section>
 
-        <section class="section exam full">
+        <section class="section exam">
           <div class="label">🔍 <strong>Examen clinique</strong></div>
 
           <div class="subsection">

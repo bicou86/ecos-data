@@ -30,10 +30,25 @@ const SEM_CLASS = {
 export function formatItem(text) {
   if (text == null) return "";
   const escaped = escapeHtml(text);
-  return escaped.replace(
+  const colored = escaped.replace(
     /\{([sprte]):([^}]+)\}/g,
     (_, type, content) => `<span class="${SEM_CLASS[type]}">${content}</span>`,
   );
+
+  // Detect multi-line with bullet markers: split into lead + nested list
+  if (colored.includes("\n")) {
+    const lines = colored.split("\n");
+    const lead = lines[0];
+    const bullets = lines.slice(1).filter((l) => /^[•\-]\s/.test(l));
+    if (bullets.length >= 2) {
+      const items = bullets
+        .map((b) => `<li>${b.replace(/^[•\-]\s/, "")}</li>`)
+        .join("");
+      return `<strong>${lead}</strong><ul class="nested-bullets">${items}</ul>`;
+    }
+  }
+
+  return colored;
 }
 
 export async function renderCard(card) {

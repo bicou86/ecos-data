@@ -39,17 +39,34 @@ function paragraph(content) {
   return { type: "paragraph", paragraph: { rich_text: text(content) } };
 }
 
+function pushItemBlocks(blocks, item) {
+  const rawText = stripMarkup(item);
+  if (rawText.includes("\n")) {
+    const lines = rawText.split("\n");
+    const lead = lines[0];
+    const bulletLines = lines.slice(1).filter((l) => /^[•\-]\s/.test(l));
+    if (bulletLines.length >= 2) {
+      blocks.push(paragraph(lead));
+      bulletLines.forEach((b) =>
+        blocks.push(bullet(b.replace(/^[•\-]\s/, ""))),
+      );
+      return;
+    }
+  }
+  blocks.push(bullet(rawText));
+}
+
 export function buildPushPlan(card) {
   const blocks = [];
 
   if (card.type === "ssp") {
     blocks.push(heading("📋 Anamnèse"));
     blocks.push(paragraph("SOCRATES"));
-    card.anamnese.socrates.forEach((x) => blocks.push(bullet(x)));
+    card.anamnese.socrates.forEach((x) => pushItemBlocks(blocks, x));
     blocks.push(paragraph("Spécifique"));
-    card.anamnese.specifique.forEach((x) => blocks.push(bullet(x)));
+    card.anamnese.specifique.forEach((x) => pushItemBlocks(blocks, x));
     blocks.push(paragraph("ATCD"));
-    card.anamnese.atcd.forEach((x) => blocks.push(bullet(x)));
+    card.anamnese.atcd.forEach((x) => pushItemBlocks(blocks, x));
 
     blocks.push(heading("🚨 Red flags"));
     card.red_flags.forEach((rf) => {
@@ -60,9 +77,9 @@ export function buildPushPlan(card) {
 
     blocks.push(heading("🔍 Examen"));
     blocks.push(paragraph("Général"));
-    card.examen.general.forEach((x) => blocks.push(bullet(x)));
+    card.examen.general.forEach((x) => pushItemBlocks(blocks, x));
     blocks.push(paragraph("Ciblé"));
-    card.examen.cible.forEach((x) => blocks.push(bullet(x)));
+    card.examen.cible.forEach((x) => pushItemBlocks(blocks, x));
 
     blocks.push(heading("🎯 DD Top 5"));
     card.dd_top5.forEach((d) =>
@@ -71,25 +88,25 @@ export function buildPushPlan(card) {
 
     blocks.push(heading("💊 Prise en charge initiale"));
     blocks.push(paragraph("Immédiat"));
-    card.pec_initiale.immediate.forEach((x) => blocks.push(bullet(x)));
+    card.pec_initiale.immediate.forEach((x) => pushItemBlocks(blocks, x));
     blocks.push(paragraph("Orientation"));
-    card.pec_initiale.orientation.forEach((x) => blocks.push(bullet(x)));
+    card.pec_initiale.orientation.forEach((x) => pushItemBlocks(blocks, x));
 
     if (card.examens_complementaires?.length) {
       blocks.push(heading("🧪 Examens complémentaires"));
-      card.examens_complementaires.forEach((x) => blocks.push(bullet(x)));
+      card.examens_complementaires.forEach((x) => pushItemBlocks(blocks, x));
     }
     if (card.criteres_hospitalisation?.length) {
       blocks.push(heading("🏥 Critères d'hospitalisation"));
-      card.criteres_hospitalisation.forEach((x) => blocks.push(bullet(x)));
+      card.criteres_hospitalisation.forEach((x) => pushItemBlocks(blocks, x));
     }
     if (card.pieges?.length) {
       blocks.push(heading("💡 Pièges"));
-      card.pieges.forEach((x) => blocks.push(bullet(x)));
+      card.pieges.forEach((x) => pushItemBlocks(blocks, x));
     }
   } else if (card.type === "sys") {
     blocks.push(heading("📋 Anamnèse"));
-    card.anamnese_appareil.forEach((x) => blocks.push(bullet(x)));
+    card.anamnese_appareil.forEach((x) => pushItemBlocks(blocks, x));
     blocks.push(heading("🔍 Examen clinique"));
     for (const sub of [
       "inspection",
@@ -98,26 +115,26 @@ export function buildPushPlan(card) {
       "auscultation",
     ]) {
       blocks.push(paragraph(sub[0].toUpperCase() + sub.slice(1)));
-      card.examen_physique[sub].forEach((x) => blocks.push(bullet(x)));
+      card.examen_physique[sub].forEach((x) => pushItemBlocks(blocks, x));
     }
     blocks.push(heading("✋ Manœuvres"));
-    card.manoeuvres.forEach((x) => blocks.push(bullet(x)));
+    card.manoeuvres.forEach((x) => pushItemBlocks(blocks, x));
     if (card.echelles?.length) {
       blocks.push(heading("📊 Échelles"));
-      card.echelles.forEach((x) => blocks.push(bullet(x)));
+      card.echelles.forEach((x) => pushItemBlocks(blocks, x));
     }
   } else if (card.type === "tool") {
     blocks.push(heading("❓ Quand l'utiliser"));
-    card.quand_utiliser.forEach((x) => blocks.push(bullet(x)));
+    card.quand_utiliser.forEach((x) => pushItemBlocks(blocks, x));
     blocks.push(heading("📝 Items"));
-    card.items.forEach((x) => blocks.push(bullet(x)));
+    card.items.forEach((x) => pushItemBlocks(blocks, x));
     blocks.push(heading("🧮 Score / Interprétation"));
     card.score_interpretation.forEach((row) => {
       blocks.push(bullet(`${row.score} : ${row.interpretation}`));
     });
     if (card.limites?.length) {
       blocks.push(heading("⚠️ Limites"));
-      card.limites.forEach((x) => blocks.push(bullet(x)));
+      card.limites.forEach((x) => pushItemBlocks(blocks, x));
     }
   }
 
