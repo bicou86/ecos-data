@@ -14,7 +14,7 @@ sources:
 anamnese:
   socrates:
     - "Site: unilatérale ou bilatérale? Temporale / frontale / occipitale / diffuse? Toujours du même côté?"
-    - "Onset: début brutal < 1 min ('coup de tonnerre') ou progressif? Première fois ou récurrent?"
+    - "Onset: début brutal {r:< 1 min} ('coup de tonnerre') ou progressif? Première fois ou récurrent?"
     - "Character: pulsatile ('ça bat') / pression-étau / coup de poignard / décharge électrique?"
     - "Radiation: vers la nuque, épaules, mâchoire, dents?"
     - "Time: durée (min / h / j), fréquence (quotidienne, hebdomadaire), horaire (réveil), impact sommeil?"
@@ -22,86 +22,86 @@ anamnese:
     - "Relieving: repos dans le noir, médicaments (lesquels? efficaces?), position particulière?"
     - "Severity: intensité 0-10 / impact activités quotidiennes / arrêts de travail?"
   specifique:
-    - "Aura (20-60 min avant): scotomes scintillants, hémianopsie, paresthésies progressives, aphasie transitoire, vertiges?"
+    - "{s:Aura} (20-60 min avant): scotomes scintillants, hémianopsie, paresthésies progressives, aphasie transitoire, vertiges?"
     - "Photo / phonophobie / osmophobie?"
     - "Nausées / vomissements?"
-    - "Signes dysautonomiques homolatéraux (Cluster): oeil rouge, larmoiement, congestion nasale, myosis/ptosis, agitation pendant la crise?"
-    - "Claudication de la mâchoire / hyperesthésie cuir chevelu ('douleur au peigne') → Horton si > 50 ans?"
-    - "Grossesse / post-partum?"
+    - "Signes dysautonomiques homolatéraux ({p:Cluster}): oeil rouge, larmoiement, congestion nasale, myosis/ptosis, agitation pendant la crise?"
+    - "{s:Claudication de la mâchoire} / hyperesthésie cuir chevelu ('douleur au peigne') → {p:Horton} si > 50 ans?"
+    - "{e:Grossesse / post-partum}?"
     - "Traumatisme crânien ou manipulation cervicale récents?"
   atcd:
     - "Céphalées habituelles: type, fréquence, évolution — cette céphalée est-elle DIFFÉRENTE?"
     - "ATCD neurologiques: épilepsie, AVC/AIT, traumatisme crânien"
     - "Maladies systémiques: HTA, diabète, cancers, maladies auto-immunes"
-    - "Médicaments: anticoagulants, contraception orale, vasodilatateurs (dérivés nitrés), ABUS ANTALGIQUES (> 10 j/mois)"
+    - "Médicaments: anticoagulants, contraception orale, vasodilatateurs (dérivés nitrés), {r:ABUS ANTALGIQUES} (> 10 j/mois)"
     - "ATCD familiaux: migraine, anévrismes cérébraux"
     - "Habitudes de vie: sommeil, repas sautés, hydratation, café (sevrage), tabac, alcool, cocaïne, stress"
 
 red_flags:
-  - description: "Début brutal < 1 min ('coup de tonnerre') — pire céphalée de sa vie"
-    dx_suspecte: Hémorragie sous-arachnoïdienne (HSA)
-    action: CT cérébral sans contraste immédiat; si CT négatif → PL
-  - description: "Déficit neurologique focal nouveau (parésie, aphasie, diplopie, mydriase) ou altération de conscience"
-    dx_suspecte: AVC, hématome, tumeur, HTIC
-    action: AVC pathway / neuroimagerie urgente
-  - description: "Fièvre + raideur de nuque (méningisme) ± éruption cutanée"
-    dx_suspecte: Méningite bactérienne / méningococcémie
-    action: Antibiothérapie empirique IV immédiate (ceftriaxone 2 g + vancomycine 15-20 mg/kg IV); PL après CT si signes focaux
-  - description: "> 50 ans: céphalée temporale nouvelle + claudication mâchoire ± artère temporale indurée"
-    dx_suspecte: Artérite à cellules géantes (Horton / ACG)
-    action: VS/CRP STAT; prednisone 1 mg/kg/j PO sans attendre la biopsie
-  - description: "Syndrome de Claude Bernard-Horner (myosis + ptosis + enophtalmie) ± douleur cervicale"
-    dx_suspecte: Dissection carotidienne ou vertébrale
-    action: Angio-IRM cervicale urgente; ne pas donner triptans
-  - description: "Céphalée progressive nouvelle en post-partum ou sous contraception orale"
-    dx_suspecte: Thrombophlébite cérébrale
-    action: IRM + angio-IRM veineuse urgente; bHCG si femme en âge de procréer
-  - description: "HTA sévère > 180/120 mmHg avec céphalée"
-    dx_suspecte: Encéphalopathie hypertensive / prééclampsie
-    action: Mesure TA répétée; avis urgences; bHCG si femme
+  - description: "{s:Coup de tonnerre} (<1 min) — pire céphalée de sa vie"
+    dx_suspecte: "{p:Hémorragie sous-arachnoïdienne (HSA)}"
+    action: "{t:CT cérébral} sans contraste immédiat; si CT négatif → PL"
+  - description: "{s:Déficit neurologique focal nouveau} (parésie, aphasie, diplopie, mydriase) ou altération de conscience"
+    dx_suspecte: "{p:AVC}, hématome, tumeur, HTIC"
+    action: "AVC pathway / neuroimagerie urgente"
+  - description: "{s:Fièvre + raideur de nuque} (méningisme) ± éruption cutanée"
+    dx_suspecte: "{p:Méningite bactérienne} / méningococcémie"
+    action: "Antibiothérapie empirique IV immédiate ({r:ceftriaxone 2 g} + {r:vancomycine 15-20 mg/kg IV}); PL après CT si signes focaux"
+  - description: "{e:> 50 ans}: céphalée temporale nouvelle + claudication mâchoire ± artère temporale indurée"
+    dx_suspecte: "{p:Artérite à cellules géantes (Horton / ACG)}"
+    action: "VS/CRP STAT; {r:prednisone 1 mg/kg/j PO} sans attendre la biopsie"
+  - description: "{s:Syndrome de Claude Bernard-Horner} (myosis + ptosis + enophtalmie) ± douleur cervicale"
+    dx_suspecte: "{p:Dissection carotidienne ou vertébrale}"
+    action: "Angio-IRM cervicale urgente; ne pas donner triptans"
+  - description: "Céphalée progressive nouvelle en {e:post-partum} ou sous contraception orale"
+    dx_suspecte: "{p:Thrombophlébite cérébrale}"
+    action: "IRM + angio-IRM veineuse urgente; bHCG si femme en âge de procréer"
+  - description: "{s:HTA sévère > 180/120 mmHg} avec céphalée"
+    dx_suspecte: "{p:Encéphalopathie hypertensive} / prééclampsie"
+    action: "Mesure TA répétée; avis urgences; bHCG si femme"
 
 examen:
   general:
     - "Signes vitaux OBLIGATOIRES: TA (les deux bras), FC, T°, FR, SaO2"
     - "Glycémie si diabétique"
-    - "Score de Glasgow si altération de conscience"
-    - "Inspection cutanée complète (purpura pétéchial → méningocoque)"
+    - "{t:Score de Glasgow} si altération de conscience"
+    - "Inspection cutanée complète ({s:purpura pétéchial} → méningocoque)"
   cible:
-    - "Syndrome méningé: raideur de nuque (flexion passive), signe de Kernig, signe de Brudzinski nucal et controlatéral, photophobie objective"
-    - "Nerfs crâniens: acuité visuelle, champs visuels par confrontation, FO (oedème papillaire = HTIC), pupilles (taille, symétrie, réflexes, ptosis)"
+    - "{s:Syndrome méningé}: raideur de nuque (flexion passive), signe de Kernig, signe de Brudzinski nucal et controlatéral, photophobie objective"
+    - "Nerfs crâniens: acuité visuelle, champs visuels par confrontation, {t:FO} (oedème papillaire = {p:HTIC}), pupilles (taille, symétrie, réflexes, ptosis)"
     - "Oculomotricité: mouvements oculaires (III, IV, VI), diplopie?"
     - "Signes de latéralisation: force 4 membres, ROT symétriques?, Babinski, sensibilité"
     - "Etat mental: orientation temporo-spatiale, attention (mois à l'envers), langage (aphasie?)"
-    - "Si > 50 ans: palpation artères temporales (induration, absence de pouls, douleur), muscles temporaux"
+    - "Si {e:> 50 ans}: palpation artères temporales (induration, absence de pouls, douleur), muscles temporaux"
     - "ORL: percussion/palpation sinus, palpation ATM (dysfonction temporo-mandibulaire)"
     - "Auscultation carotidienne (souffle → sténose/dissection)"
 
 dd_top5:
-  - dx: Migraine
-    indices: "Unilatérale pulsatile, photo/phonophobie, nausées, aggravée à l'effort, ATCD familiaux, aura possible (20 %); critères POUND (≥ 4 sur 5 = migraine probable)"
+  - dx: "{p:Migraine}"
+    indices: "Unilatérale pulsatile, photo/phonophobie, nausées, aggravée à l'effort, ATCD familiaux, aura possible (20 %); critères {t:POUND} (≥ 4 sur 5 = migraine probable)"
     freq: "très fréquent (12 % pop.)"
-  - dx: Céphalée de tension
+  - dx: "{p:Céphalée de tension}"
     indices: "Bilatérale en pression-étau, intensité légère-modérée, durée 30 min – 7 j, NON aggravée à l'effort, pas de nausées ni photo/phono (ou l'un mais pas les deux)"
     freq: "très fréquent (38 % pop.)"
-  - dx: Hémorragie sous-arachnoïdienne (HSA)
-    indices: "Début brutal < 1 min, 'pire de ma vie', méningisme, parfois troubles de conscience; CT sens. 98 % < 6 h"
+  - dx: "{p:Hémorragie sous-arachnoïdienne (HSA)}"
+    indices: "Début brutal < 1 min, 'pire de ma vie', méningisme, parfois troubles de conscience; {t:CT} sens. 98 % < 6 h"
     freq: "rare mais urgence absolue (mortalité 30 %)"
-  - dx: Artérite à cellules géantes (Horton)
-    indices: "> 50 ans, céphalée temporale nouvelle, claudication mâchoire, artère temporale indurée/absence de pouls, VS > 50 mm/h, CRP élevée, risque cécité irréversible"
+  - dx: "{p:Artérite à cellules géantes (Horton)}"
+    indices: "{e:> 50 ans}, céphalée temporale nouvelle, claudication mâchoire, artère temporale indurée/absence de pouls, VS > 50 mm/h, CRP élevée, risque cécité irréversible"
     freq: "rare (incidence 15-30/100 000 > 50 ans)"
-  - dx: Méningite bactérienne
+  - dx: "{p:Méningite bactérienne}"
     indices: "Triade: fièvre + céphalée + raideur de nuque (présente dans 44 % seulement); photophobie, Kernig/Brudzinski +, purpura fulminans = urgence"
     freq: "rare mais urgence vitale"
 
 pec_initiale:
   immediate:
     - "STOP red flags d'abord — tout red flag → imagerie / bilan biologique avant antalgiques"
-    - "Céphalée primaire légère-modérée: AINS (ibuprofène 400-600 mg PO) ou paracétamol 1 g PO ou aspirine 900 mg"
-    - "Migraine modérée-sévère: triptan (sumatriptan 50-100 mg PO) ± antiémétique (métoclopramide 10 mg) — CI si cardiopathie ischémique, HTA non contrôlée, grossesse"
-    - "Cluster: O2 100 % haut débit 10-15 L/min × 15-20 min + sumatriptan SC 6 mg"
-    - "Suspicion Horton: prednisone 1 mg/kg/j (60-80 mg) PO IMMEDIAT; si atteinte oculaire: méthylprednisolone IV 500-1000 mg × 3 j + IPP"
-    - "Suspicion méningite: ceftriaxone 2 g IV + vancomycine 15-20 mg/kg IV + dexaméthasone 10 mg IV AVANT ATB; + ampicilline si > 50 ans"
-    - "HSA confirmée: hospitalisation USI, nimodipine 60 mg/4h PO, neurochirurgie urgente"
+    - "Céphalée primaire légère-modérée: {r:AINS (ibuprofène 400-600 mg PO)} ou paracétamol 1 g PO ou aspirine 900 mg"
+    - "Migraine modérée-sévère: {r:sumatriptan 50-100 mg PO} ± antiémétique (métoclopramide 10 mg) — CI si cardiopathie ischémique, HTA non contrôlée, {e:grossesse}"
+    - "Cluster: {r:O2 100 % 10-15 L/min × 15-20 min} + sumatriptan SC 6 mg"
+    - "Suspicion Horton: {r:prednisone 1 mg/kg/j (60-80 mg) PO} IMMEDIAT; si atteinte oculaire: méthylprednisolone IV 500-1000 mg × 3 j + IPP"
+    - "Suspicion méningite: {r:ceftriaxone 2 g IV + vancomycine 15-20 mg/kg IV + dexaméthasone 10 mg IV} AVANT ATB; + ampicilline si {e:> 50 ans}"
+    - "HSA confirmée: hospitalisation USI, {r:nimodipine 60 mg/4h PO}, neurochirurgie urgente"
   orientation:
     - "Domicile + suivi médecin traitant: céphalée primaire typique, examen normal, pas de red flag"
     - "Urgences: tout red flag, 1ère céphalée sévère, céphalée nouvelle > 50 ans sans bilan"
@@ -109,30 +109,30 @@ pec_initiale:
     - "Consignes de retour aux urgences: changement brutal de pattern, coup de tonnerre, fièvre + raideur, troubles neurologiques nouveaux"
 
 examens_complementaires:
-  - "CT cérébral SANS contraste: red flag (coup de tonnerre, déficit focal, trauma, altération conscience)"
-  - "PL (xanthochromie + cytologie + protéinorachie): suspicion HSA avec CT négatif, méningite après CT si signes focaux"
-  - "IRM cérébrale + angio-IRM: thrombophlébite cérébrale, dissection artérielle, pathologie fosse postérieure, céphalée progressive"
-  - "VS + CRP STAT: toute céphalée nouvelle > 50 ans (Horton); VS > 50 mm/h très évocatrice"
-  - "FSC + hémocultures: suspicion méningite"
-  - "Crase (TP, TCA, plaquettes): hémorragie suspectée ou avant PL sous anticoagulants"
-  - "bHCG: femme en âge de procréer avec céphalée nouvelle sévère"
+  - "{t:CT cérébral SANS contraste}: red flag (coup de tonnerre, déficit focal, trauma, altération conscience)"
+  - "{t:PL} (xanthochromie + cytologie + protéinorachie): suspicion HSA avec CT négatif, méningite après CT si signes focaux"
+  - "{t:IRM cérébrale + angio-IRM}: thrombophlébite cérébrale, dissection artérielle, pathologie fosse postérieure, céphalée progressive"
+  - "{t:VS + CRP} STAT: toute céphalée nouvelle > 50 ans (Horton); VS > 50 mm/h très évocatrice"
+  - "{t:FSC + hémocultures}: suspicion méningite"
+  - "{t:Crase} (TP, TCA, plaquettes): hémorragie suspectée ou avant PL sous anticoagulants"
+  - "{t:bHCG}: femme en âge de procréer avec céphalée nouvelle sévère"
 
 criteres_hospitalisation:
   - "Tout red flag avéré (HSA, méningite, déficit neurologique focal, Horton avec atteinte oculaire)"
   - "Imagerie ou PL anormale"
-  - "Altération de la conscience (GCS < 15)"
-  - "HTA maligne > 180/120 ou prééclampsie"
+  - "Altération de la conscience ({t:GCS < 15})"
+  - "{s:HTA maligne > 180/120} ou prééclampsie"
   - "Première céphalée sévère sans diagnostic établi"
   - "Douleur incontrôlée malgré traitement ambulatoire"
 
 pieges:
-  - "Banaliser une céphalée NOUVELLE après 50 ans — toujours éliminer Horton (ne pas retarder les corticoïdes en attendant la biopsie)"
-  - "Faire la PL AVANT le CT en présence de signes focaux → risque d'engagement"
-  - "Donner des triptans sans avoir éliminé une HSA ou une dissection artérielle — contre-indiqués"
-  - "Oublier le FO devant une céphalée progressive (oedème papillaire = HTIC jusqu'à preuve du contraire)"
-  - "Méconnaître l'abus médicamenteux (> 10 j/mois) comme cause de céphalée chronique quotidienne"
-  - "Oublier grossesse / post-partum (thrombophlébite cérébrale) et ne pas demander bHCG"
-  - "Ne pas rechercher le syndrome de Claude Bernard-Horner (dissection carotidienne) chez un patient avec céphalée + cervicalgie"
+  - "Banaliser une céphalée NOUVELLE après {e:50 ans} — toujours éliminer {p:Horton} (ne pas retarder les corticoïdes en attendant la biopsie)"
+  - "Faire la PL AVANT le {t:CT} en présence de signes focaux → risque d'engagement"
+  - "Donner des {r:triptans} sans avoir éliminé une HSA ou une dissection artérielle — contre-indiqués"
+  - "Oublier le {t:FO} devant une céphalée progressive (oedème papillaire = HTIC jusqu'à preuve du contraire)"
+  - "Méconnaître l'{r:abus médicamenteux} (> 10 j/mois) comme cause de céphalée chronique quotidienne"
+  - "Oublier {e:grossesse / post-partum} (thrombophlébite cérébrale) et ne pas demander bHCG"
+  - "Ne pas rechercher le {s:syndrome de Claude Bernard-Horner} (dissection carotidienne) chez un patient avec céphalée + cervicalgie"
 
 cartes_liees:
   - SYS-NEU

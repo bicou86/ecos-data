@@ -9,11 +9,11 @@ sources:
   - CS/Pocketcards/Neurocard - AVC 2020.pdf
 
 quand_utiliser:
-  - AVC ischémique suspect — évaluation neurologique initiale aux urgences
-  - Décision de thrombolyse IV (rtPA) — NIHSS ≥4 généralement requis
-  - Décision de thrombectomie mécanique — NIHSS ≥6 pour occlusion grand vaisseau
-  - Monitoring USINV — suivi toutes les heures post-thrombolyse, puis toutes les 8h
-  - Télémédecine AVC — communication standardisée avec neurologie de référence
+  - "{p:AVC ischémique} suspect — évaluation neurologique initiale aux urgences"
+  - "Décision de {r:thrombolyse IV (rtPA)} — NIHSS ≥4 généralement requis"
+  - "Décision de {r:thrombectomie mécanique} — NIHSS ≥6 pour occlusion grand vaisseau"
+  - "Monitoring USINV — suivi toutes les heures post-thrombolyse, puis toutes les 8h"
+  - "Télémédecine AVC — communication standardisée avec neurologie de référence"
 
 items:
   - "1a. Niveau de conscience (0=vigilant ; 1=somnolent ; 2=stupeur ; 3=coma/réflexes seulement)"
@@ -34,23 +34,23 @@ items:
 
 score_interpretation:
   - score: "0"
-    interpretation: "Pas de déficit neurologique — AVC peu probable ou AIT résolu"
+    interpretation: "Pas de déficit neurologique — {p:AVC} peu probable ou {p:AIT} résolu"
   - score: "1-4"
-    interpretation: "AVC mineur — thrombolyse discutée au cas par cas (NIHSS <4 = zone grise, évaluer handicap fonctionnel)"
+    interpretation: "{p:AVC mineur} — {r:thrombolyse} discutée au cas par cas (NIHSS <4 = zone grise, évaluer handicap fonctionnel)"
   - score: "5-15"
-    interpretation: "AVC modéré — indication thrombolyse IV si <4h30, évaluer thrombectomie si NIHSS ≥6 et occlusion grand vaisseau"
+    interpretation: "{p:AVC modéré} — indication {r:thrombolyse IV} si <4h30, évaluer {r:thrombectomie} si NIHSS ≥6 et occlusion grand vaisseau"
   - score: "16-20"
-    interpretation: "AVC modéré à sévère — indication thrombectomie mécanique à évaluer en urgence (occlusion M1/ICA)"
+    interpretation: "{p:AVC modéré à sévère} — indication {r:thrombectomie mécanique} à évaluer en urgence (occlusion M1/ICA)"
   - score: "21-42"
-    interpretation: "AVC sévère — mortalité et dépendance élevées ; thrombectomie discutée selon imagerie (M1/carotide interne)"
+    interpretation: "{p:AVC sévère} — mortalité et dépendance élevées ; {r:thrombectomie} discutée selon imagerie (M1/carotide interne)"
 
 limites:
-  - "Sous-estime AVC postérieur (vertiges, diplopie, ataxie isolée peuvent avoir NIHSS=0–2 malgré occlusion basilaire)"
+  - "Sous-estime {p:AVC postérieur} (vertiges, diplopie, ataxie isolée peuvent avoir NIHSS=0–2 malgré occlusion basilaire)"
   - "Biais hémisphère gauche — aphasie pèse plus lourd que négligence droite à déficit fonctionnel équivalent"
   - "Variabilité inter-évaluateur — formation certifiante requise pour reproductibilité optimale (kappa ≈0.7–0.9 si formé)"
   - "Non adapté au suivi cognitif fin — ne détecte pas démence vasculaire, troubles mnésiques isolés ni AVC lacunaires asymptomatiques"
-  - "Influence sur la décision thérapeutique limitée aux seuils établis — NIHSS doit toujours être interprété avec imagerie (IRM DWI / CTP) et tableau clinique global"
-  - "Surveillance post-thrombolyse : aggravation NIHSS ≥4 points = ICH symptomatique → CT immédiat"
+  - "Influence sur la décision thérapeutique limitée aux seuils établis — NIHSS doit toujours être interprété avec imagerie ({t:IRM DWI / CTP}) et tableau clinique global"
+  - "Surveillance post-thrombolyse : aggravation NIHSS ≥4 points = {p:ICH symptomatique} → {t:CT immédiat}"
 
 ssps_ou_utiliser:
   # IDs des SSP neuro à venir (Phase 2 import)
