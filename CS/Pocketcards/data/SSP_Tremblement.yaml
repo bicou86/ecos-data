@@ -1,0 +1,155 @@
+id: SSP-NEU-07
+type: ssp
+title: Tremblement
+discipline: Neuro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Tremblement.md
+
+anamnese:
+  socrates:
+    - "Site: unilatérale vs bilatérale? MS / MI / chef / périoral?"
+    - "Onset: début aigu (<48 h) ou progressif insidieux? évolution (stable / crescendo)?"
+    - "Character — {s:type selon activité}:\n  • {s:Repos}: inactif, membre soutenu → suspect {p:Parkinson}\n  • {s:Postural}: bras tendus contre gravité → essentiel / métabolique\n  • {s:Intentionnel}: augmente vers la cible → cérébelleux"
+    - "Fréquence: lente 4-6 Hz (repos) vs rapide 6-12 Hz (postural/action)?"
+    - "Radiation: atteinte chef, voix, écriture (micrographie)?"
+    - |-
+      Exacerbating:
+      • fatigue, stress, émotions
+      • caféine, stimulants
+    - |-
+      Relieving:
+      • alcool améliore → {p:Essentiel}
+      • mouvement volontaire réduit → {p:Parkinson}
+      • bêtabloquants antérieurs efficaces?
+    - "Severity: retentissement AVQ — écriture, alimentation, conduite, vie sociale / professionnelle?"
+  specifique:
+    - |-
+      {s:Syndrome parkinsonien} — TRAP:
+      • bradykinésie (gestes lents, décrément)
+      • rigidité (lead-pipe, roue dentée)
+      • instabilité posturale, chutes
+      • micrographie, hypokinésie faciale, hypophonie
+    - |-
+      Signes non-moteurs ({p:Parkinson}):
+      • hyposmie (90 % des cas)
+      • constipation chronique, troubles sommeil REM
+      • dépression / anxiété
+    - |-
+      Causes médicamenteuses — chercher délai exposition:
+      • neuroleptiques: halopéridol, rispéridone
+      • antiémétiques: métoclopramide, dompéridone
+      • lithium, valproate, amiodarone
+    - "Causes métaboliques: palpitations / perte poids / sueurs → {p:Hyperthyroïdie}? sevrage alcool récent?"
+    - "{e:Âge < 50 ans}: signes hépatiques, ictère, anneau de Kayser-Fleischer → {p:Wilson}? [VÉRIFIER: seuil < 40 ou < 50 ans selon source]"
+  atcd:
+    - "ATCD personnels: traumatisme crânien, AVC, infections SNC, exposition toxiques (CO, manganèse)"
+    - "ATCD familiaux: {s:tremblement essentiel} (dominance 50%), {p:Parkinson} familial, mouvements anormaux"
+    - "Médicaments actuels complets (voir causes iatrogènes ci-dessus)"
+    - "Habitudes de vie: alcool (dose, dernier verre), café, tabac"
+
+red_flags:
+  - description: "{s:Tremblement + déficit neurologique focal brutal} (parésie, aphasie, diplopie)"
+    dx_suspecte: "{p:AVC ischémique ou hémorragique}, hématome cérébral"
+    action: "AVC pathway immédiat; {t:CT cérébral} sans contraste urgent"
+  - description: "{s:Tremblement + altération de conscience ou confusion aiguë}"
+    dx_suspecte: "{p:Encéphalopathie hépatique}, hypoglycémie, intoxication"
+    action: "Glycémie capillaire STAT; bilan biologique urgent ({t:glycémie}, {t:NH3}, {t:Na+})"
+  - description: "{e:Âge < 50 ans} + tremblement + ictère / hépatomégalie / anomalie psychiatrique"
+    dx_suspecte: "{p:Maladie de Wilson}"
+    action: "{t:Céruloplasmine} + {t:cuprurie 24h} urgent; avis neurologie / hépatologie"
+  - description: "{s:Tremblement + syndrome confusionnel} après arrêt brusque alcool (48-72 h)"
+    dx_suspecte: "{p:Delirium tremens} / sevrage alcoolique sévère"
+    action: "{r:Benzodiazépines IV} (diazépam ou lorazépam); surveillance USI; {t:alcoolémie}"
+  - description: "Tremblement postural fin chez patient agité + tachycardie + exophtalmie"
+    dx_suspecte: "{p:Hyperthyroïdie} / thyrotoxicose"
+    action: "{t:TSH + T4L} STAT; {r:bêtabloquant} si FC élevée; avis endocrinologie"
+
+examen:
+  general:
+    - "Signes vitaux: TA, FC (tachycardie → thyroïde / DT), T°, poids (amaigrissement?)"
+    - "Glycémie capillaire si confusion ou suspicion métabolique"
+    - "Inspection: exophtalmie, ictère, goitre, anneau cornéen de {p:Kayser-Fleischer}"
+  cible:
+    - |-
+      {s:Observation du tremblement en 3 positions} (OBLIGATOIRE):
+      • au repos (mains sur genoux, détendu)
+      • postural (bras étendus 10 s, doigts écartés)
+      • action (test doigt-nez, spirale, écriture)
+    - |-
+      Tonus et bradykinésie:
+      • rigidité lead-pipe ou roue dentée (cotée 0-3)
+      • tapping index-pouce 10 s → décrément amplitude = {p:Parkinson}
+      • mouvements alternés rapides main / pied
+    - |-
+      Tests cérébelleux:
+      • test doigt-nez (tremblement intentionnel?)
+      • diadococinésie
+      • Romberg
+    - |-
+      Marche et posture (obligatoire):
+      • initiation (freezing?), ballant bras asymétrique
+      • longueur de pas, posture voûtée
+      • demi-tour: nombre de pas, instabilité
+    - "Nerfs crâniens: oculomotricité (regard vertical → {p:PSP}?), expression faciale, déglutition; ROT + Babinski"
+
+dd_top5:
+  - dx: "{p:Maladie de Parkinson}"
+    indices: "Tremblement de repos unilatéral 4-6 Hz, rigidité lead-pipe, bradykinésie, marche à petits pas, ballant bras diminué; répond à {r:L-DOPA}"
+    freq: "fréquent (1-2 % > 60 ans)"
+  - dx: "{p:Tremblement essentiel}"
+    indices: "Tremblement postural bilatéral 6-12 Hz, chef/voix possible, ATCD familiaux 50 %, amélioré par alcool, absent au repos; répond à {r:propranolol}"
+    freq: "très fréquent (4-5 % pop.)"
+  - dx: "{p:Tremblement cérébelleux}"
+    indices: "Tremblement intentionnel augmentant vers la cible, dysmérie au doigt-nez, ataxie, nystagmus; chercher lésion fosse postérieure"
+    freq: "moins fréquent"
+  - dx: "{p:Tremblement métabolique / iatrogène}"
+    indices: "Tremblement postural fin; chercher TSH effondrée ({p:Hyperthyroïdie}), médicaments (neuroleptiques, lithium, valproate, amiodarone), sevrage"
+    freq: "fréquent, souvent réversible"
+  - dx: "{p:Maladie de Wilson}"
+    indices: "{e:< 50 ans}, tremblement 'flapping' ou intentionnel, hépatopathie, anneau Kayser-Fleischer, céruloplasmine basse; traitable ({r:D-pénicillamine})"
+    freq: "rare mais curable — ne pas manquer"
+
+pec_initiale:
+  immediate:
+    - "Classer le tremblement (repos / postural / intentionnel) AVANT tout traitement"
+    - "{t:TSH + T4L} systématiques; {t:céruloplasmine + cuprurie 24h} si < 50 ans"
+    - |-
+      {p:Parkinson} avec gêne fonctionnelle:
+      • < 70 ans: {r:agoniste dopaminergique} (pramipexole 0.125 mg × 3/j)
+      • ≥ 70 ans ou gêne importante: {r:L-DOPA/carbidopa 100/25 mg × 3/j}
+    - "{p:Tremblement essentiel}: {r:propranolol 40 mg × 2/j} 1re ligne; alternative: {r:primidone 62.5 mg} au coucher"
+    - "Cause iatrogène identifiée: arrêt ou substitution du médicament incriminé si possible"
+  orientation:
+    - "Neurologie ambulatoire: {p:Parkinson} probable, {p:Tremblement essentiel} invalidant"
+    - "Urgences: red flag présent (déficit focal, confusion, Wilson suspecté < 50 ans, sevrage alcool)"
+    - "Suivi médecin traitant: tremblement fonctionnel clair, cause iatrogène corrigée"
+
+examens_complementaires:
+  - "{t:TSH + T4L}: systématique — éliminer hyperthyroïdie"
+  - "{t:FSC, ionogramme, glycémie}: bilan général et causes métaboliques"
+  - "{t:Céruloplasmine + cuprurie 24h}: si âge < 50 ans ({p:Wilson})"
+  - "{t:IRM cérébrale}: début atypique, progression rapide, signes focaux, suspicion lésion structurelle [VÉRIFIER: normale dans {p:Parkinson} idiopathique]"
+  - "{t:DaTscan} (dopamine transporter): différentiel {p:Parkinson} vs {p:Essentiel} si doute clinique persistant"
+  - "{t:Bilan hépatique + ophtalmologie (lampe à fente)}: si {p:Wilson} suspecté (anneau Kayser-Fleischer)"
+
+criteres_hospitalisation:
+  - "Red flag avéré: déficit focal, confusion, delirium tremens"
+  - "{p:Wilson} confirmé ou très suspecté (< 50 ans + hépatopathie + tremblement)"
+  - "Crise thyrotoxique ou hyperthyroïdie sévère"
+  - "Tremblement aigu post-chute avec traumatisme crânien associé"
+  - "Chutes répétées ou instabilité posturale majeure avec risque vital"
+
+pieges:
+  - "Ne pas observer le tremblement dans les 3 positions (repos / postural / action) → erreur de classification"
+  - "Oublier l'examen de la marche — {s:ballant bras asymétrique} = signe précoce {p:Parkinson}"
+  - "Confondre rigidité extrapyramidale (lead-pipe, uniforme) et spasticité pyramidale (en lame de canif)"
+  - "Omettre les causes iatrogènes curables (neuroleptiques, métoclopramide, lithium) avant de diagnostiquer un parkinsonisme"
+  - "Ne pas chercher {p:Wilson} chez tout patient < 50 ans avec tremblement — diagnostic curable, délai = perte de chance"
+
+cartes_liees:
+  - SSP-NEU-04
+  - SYS-NEU
+  - TOOL-NIHSS

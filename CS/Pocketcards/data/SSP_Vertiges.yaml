@@ -1,0 +1,190 @@
+id: SSP-NEU-06
+type: ssp
+title: Vertiges
+discipline: Neuro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Vertiges.md
+
+anamnese:
+  socrates:
+    - |-
+      Site / type:
+      • rotatoire vrai ('la pièce tourne') vs déséquilibre ('marcher sur coton')?
+      • différencier vertige vestibulaire vs lipothymie (voile, sueurs, orthostatisme)
+    - |-
+      Onset:
+      • brutal (AVC, DVB) ou progressif (neuronite, Ménière)?
+      • spontané ou déclenché par mouvement de tête?
+    - |-
+      Duration / chronologie:
+      • secondes → {p:VPPB}
+      • minutes à heures → {p:Ménière}
+      • jours continus → {p:neuronite vestibulaire}
+    - "Exacerbating: changement de position, mouvements spécifiques de tête ({p:VPPB})?"
+    - "Relieving: immobilité, obscurité, antiémétiques?"
+    - "Severity: chutes? impossible de se lever? arrêt activités?"
+  specifique:
+    - |-
+      Symptômes auditifs ({s:ORIENTANTS}):
+      • hypoacousie unilatérale + acouphènes + plénitude auriculaire → {p:Ménière}
+      • hypoacousie unilatérale progressive → neurinome acoustique
+      • infection ORL récente → labyrinthite / neuronite
+    - |-
+      Signes {r:AVC tronc cérébral} (4D + 4H):
+      • 4D: {s:dysarthrie, dysphagie, diplopie, dysphonie}
+      • 4H: {s:hoquet, Horner, hémisyndrome spinothalamique, Hallux (Babinski)}
+    - "Céphalées concomitantes? Nouvelles, intenses, différentes des habituelles?"
+    - "Impossibilité totale de tenir debout? ({s:central} jusqu'à preuve du contraire)"
+    - |-
+      Nausées / vomissements: intensité, persistance?
+      (fréquents dans vertige périphérique ET central)
+  atcd:
+    - |-
+      Facteurs de risque cardiovasculaire: HTA, diabète, FA, dyslipidémie,
+      tabac, {s:AVC/AIT antérieurs} → risque {p:AVC vertébro-basilaire}
+    - |-
+      ATCD ORL: otites récidivantes, chirurgie oreille, traumatisme crânien,
+      barotraumatisme (plongée, avion)
+    - "ATCD neurologiques: migraine ({p:vertige migraineux}), SEP, épilepsie"
+    - |-
+      Médicaments {r:ototoxiques}: aminosides, furosémide, cisplatine, chloroquine
+      Médicaments sédatifs: BZD, antiépileptiques, neuroleptiques
+    - |-
+      Habitudes de vie: {r:alcool chronique} → {p:Wernicke} (triade confusion + ophtalmo + ataxie);
+      traumatisme crânien récent; douleurs cervicales (vertiges cervicogènes)
+
+# ─── RED FLAGS ─────────────────────────────────────────────────────────────────
+red_flags:
+  - description: "{s:Déficit neurologique focal nouveau}: dysarthrie, dysphagie, diplopie, Horner ou hémiplégie"
+    dx_suspecte: "{p:AVC vertébro-basilaire / tronc cérébral}"
+    action: "AVC pathway immédiat; {t:IRM diffusion} urgente (NIHSS peut être 0!)"
+  - description: "{s:Impossibilité totale de tenir debout} ou d'effectuer la marche tandem"
+    dx_suspecte: "{p:AVC cérébelleux} ou hémorragie fosse postérieure"
+    action: "{t:IRM diffusion} urgente; ne pas laisser rentrer à domicile"
+  - description: "{s:Céphalée brutale} ('coup de tonnerre') associée aux vertiges"
+    dx_suspecte: "{p:HSA} ou dissection vertébrale"
+    action: "{t:CT cérébral SANS contraste} immédiat; si négatif → PL + angio-CT"
+  - description: |-
+      {s:HINTS pathologique}: Head Impulse NORMAL + nystagmus changeant direction
+      OU skew deviation (cover test positif)
+    dx_suspecte: "{p:AVC postérieur} (peut mimer une neuronite)"
+    action: "{t:IRM diffusion} urgente — HINTS > IRM dans les 48 premières heures"
+  - description: "{s:Surdité aiguë unilatérale} associée aux vertiges"
+    dx_suspecte: "{p:AVC AICA} (artère cérébelleuse antéro-inférieure)"
+    action: "IRM en urgence; ne pas conclure à {p:Ménière} sans imagerie"
+  - description: "{s:Hoquet persistant} + {s:Horner} + vertiges"
+    dx_suspecte: "{p:Syndrome de Wallenberg} (infarctus bulbaire latéral)"
+    action: "AVC pathway; {t:IRM + angio-IRM} artères vertébrales en urgence"
+
+# ─── EXAMEN ─────────────────────────────────────────────────────────────────────
+examen:
+  general:
+    - "Signes vitaux: TA couché et debout ({s:hypotension orthostatique}), FC (FA?), T° (labyrinthite?)"
+    - "Orientation temporo-spatiale; Glasgow si altération conscience"
+    - "Inspection: nystagmus spontané visible? asymétrie faciale?"
+  cible:
+    - |-
+      {s:Marche et station debout} (TEST CLEF):
+      • marche normale → tandem (talon-pointe): {s:impossible} = central
+      • Romberg: instabilité YO = cérébelleux; aggravation YF = vestibulaire/proprioceptif
+    - |-
+      {s:Nystagmus spontané}:
+      • horizonto-rotatoire fixe, inhibé par fixation → {p:périphérique}
+      • vertical / multidirectionnel / changeant de direction → {s:CENTRAL} ⚠️
+      • loi d'Alexander: augmente en regardant vers phase rapide (périphérique)
+    - |-
+      {t:Batterie HINTS-PLUS} (vertige aigu + nausées intenses):
+      • {s:H} Head Impulse — saccade correctrice = périphérique; {s:NORMAL = central} ⚠️
+      • {s:I} Nystagmus — direction FIXE = périphérique; changeant = CENTRAL
+      • {s:T} Skew (cover test) — déviation verticale = CENTRAL
+      • {s:S} Surdité aiguë — unilatérale = CENTRAL (AICA)
+      → UN seul signe central = {p:AVC} jusqu'à preuve du contraire
+    - |-
+      {t:Test de Hallpike (Dix-Hallpike)} → {p:VPPB}:
+      • tête 45° vers côté testé, allonger rapidement en extension
+      • positif: nystagmus rotatoire, latence 1-3 s, {s:fatigable}
+      → si positif: {r:manœuvre d'Epley} (efficacité 80-90 %)
+    - |-
+      Examen neurologique complet:
+      • nerfs crâniens (III, IV, VI → diplopie; VII → paralysie faciale; VIII → audition)
+      • force 4 membres (DDC — dérive des bras), réflexes, Babinski
+      • coordination: doigt-nez, talon-genou, marionnette (dysmétrie = cérébelleux)
+      • sensibilité: hémisyndrome spinothalamique (Wallenberg)
+    - |-
+      Tests auditifs (si hypoacousie):
+      • {t:Weber} (diapason vertex): latéralise côté sain = surdité perception
+      • {t:Rinné}: CA < CO = surdité de transmission
+      • otoscopie: tympan, cérumen, effusion
+
+# ─── DIAGNOSTICS DIFFÉRENTIELS ──────────────────────────────────────────────────
+dd_top5:
+  - dx: "{p:VPPB} (vertige positionnel paroxystique bénin)"
+    indices: "Vertiges déclenchés par mouvement tête, épisodes < 1 min, Hallpike + (nystagmus rotatoire fatigable), pas d'hypoacousie; > 50 ans++"
+    freq: "très fréquent (cause n°1)"
+  - dx: "{p:Neuronite vestibulaire}"
+    indices: "Grands vertiges constants d'installation rapide, nystagmus horizonto-rotatoire fixe, Head Impulse +, pas d'hypoacousie; souvent post-viral"
+    freq: "fréquent"
+  - dx: "{p:Maladie de Ménière}"
+    indices: "Triade: vertiges (min-h) + {s:hypoacousie fluctuante} + acouphènes unilatéraux ± plénitude auriculaire; épisodes récurrents"
+    freq: "modéré (0,2 % pop.)"
+  - dx: "{p:AVC vertébro-basilaire}"
+    indices: "Début brutal, {s:impossibilité station debout}, déficits focaux (4D+4H), HINTS pathologique, FRCV; NIHSS peut être 0"
+    freq: "rare mais urgence absolue"
+  - dx: "{p:Vertige migraineux}"
+    indices: "ATCD migraine, vertiges ± céphalées ± photo/phonophobie, épisodes récurrents, femme jeune; diagnostic d'exclusion"
+    freq: "modéré (1 % pop.)"
+
+# ─── PEC INITIALE ───────────────────────────────────────────────────────────────
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — tout signe central → {t:IRM diffusion} avant toute conclusion"
+    - |-
+      {p:VPPB} confirmé (Hallpike +): {r:manœuvre d'Epley} immédiate (canal post.)
+      ou {r:Semont} — efficacité 80-90 %; kinésithérapie vestibulaire si récidives
+    - |-
+      Symptomatique aigu: {r:diménhydrinate 50 mg × 3/j} ou {r:métoclopramide 10 mg × 3/j}
+      ({e:pas de suppresseur vestibulaire prolongé} — retarde la compensation!)
+    - |-
+      {p:Neuronite vestibulaire} (< 72 h): {r:prednisone 1 mg/kg/j × 7 j} puis décroissance
+      + repos relatif phase aiguë (3-5 j) + rééducation vestibulaire en phase chronique
+    - |-
+      {p:Ménière} crise aiguë: antiémétiques ± {r:lorazépam 1 mg}
+      Prévention: régime hyposodé < 2 g/j, {r:bétahistine 24-48 mg/j}, diurétiques
+  orientation:
+    - "Domicile + MT: VPPB typique Epley réussi, Hallpike +, examen neuro normal"
+    - "Urgences: tout red flag, impossibilité marche, HINTS pathologique, 1er épisode sévère"
+    - "ORL: hypoacousie associée, récidives fréquentes, suspicion neurinome"
+    - "Neurologie ambulatoire: signes centraux résolus, vertige migraineux à confirmer"
+
+# ─── EXAMENS COMPLÉMENTAIRES ────────────────────────────────────────────────────
+examens_complementaires:
+  - "{t:IRM cérébrale + diffusion}: suspicion AVC tronc/cervelet, HINTS pathologique, impossibilité station debout"
+  - "{t:CT cérébral SANS contraste}: céphalée brutale (HSA?), disponible plus vite si IRM inaccessible"
+  - "{t:Angio-IRM artères vertébrales}: suspicion dissection vertébrale (céphalée + cervicalgie + Horner)"
+  - "{t:Audiométrie tonale + PEA}: hypoacousie unilatérale, suspicion neurinome ou Ménière"
+  - "{t:Bilan biologique de base}: FSC (anémie), glycémie (hypoglycémie), ionogramme, TSH — si cause non vestibulaire"
+  - "{t:Vidéonystagmographie}: bilan vestibulaire spécialisé ORL, déficit vestibulaire chronique [VÉRIFIER: disponibilité selon centre]"
+
+# ─── CRITÈRES D'HOSPITALISATION ─────────────────────────────────────────────────
+criteres_hospitalisation:
+  - "Tout signe central avéré: déficit neurologique focal, HINTS pathologique, nystagmus vertical"
+  - "Impossibilité de tenir debout ou de marcher de façon autonome"
+  - "Céphalée brutale associée — éliminer HSA ou dissection en cours"
+  - "Suspicion {p:Wernicke} (alcool + ataxie + confusion) → thiamine IV urgente"
+  - "Vertiges intenses incontrôlés avec nausées/vomissements persistants (hydratation IV)"
+
+# ─── PIÈGES ─────────────────────────────────────────────────────────────────────
+pieges:
+  - "NIHSS à 0 n'exclut pas un AVC du tronc — l'impossibilité de tenir debout prime sur le score"
+  - "{s:Head Impulse NORMAL} en aigu = PLUS inquiétant (AVC postérieur), pas rassurant"
+  - "Conclure trop vite à {p:Ménière} devant vertige + surdité sans imagerie — éliminer {p:AVC AICA}"
+  - "Prolonger les suppresseurs vestibulaires (BZD, antihistaminiques) > 3 j — retarde la compensation centrale"
+  - "Oublier le test orthostatique et la glycémie devant un 'vertige' non rotatoire (lipothymie)"
+
+cartes_liees:
+  - SYS-NEU
+  - SSP-NEU-04
+  - TOOL-NIHSS

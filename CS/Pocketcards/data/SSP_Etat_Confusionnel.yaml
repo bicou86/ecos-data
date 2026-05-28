@@ -1,0 +1,150 @@
+id: SSP-NEU-05
+type: ssp
+title: État confusionnel
+discipline: Neuro
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Etat_Confusionnel.md
+
+# source: line 113-121
+anamnese:
+  socrates:
+    - "Début / évolution: installation en heures-jours? fluctuant? aggravation vespérale?"
+    - "État cognitif BASELINE — différent de l'habituel? (hétéro-anamnèse OBLIGATOIRE)"
+    - |-
+      Médicaments:
+      • nouveaux depuis < 2 semaines?
+      • arrêtés récemment (sevrage)?
+      • anticholinergiques, BZD, opioïdes?
+    - "Consommation alcool / toxiques: dernière prise, sevrage?"
+    - "Symptômes associés: fièvre, dysurie, toux, douleur non contrôlée?"
+  specifique:
+    - |-
+      Forme clinique:
+      • {s:hyperactive}: agitation, agressivité, hallucinations
+      • {s:hypoactive}: apathie, ralentissement — souvent sous-diagnostiqué!
+      • mixte: alternance
+    - "Hallucinations visuelles / illusions / fausses reconnaissances?"
+    - "{s:Inversion cycle nycthéméral} — insomnie nocturne, somnolence diurne?"
+    - "Globe vésical / fécalome: dernier miction, selles?"
+  atcd:
+    - "{e:Démence connue}: MMSE de base connu? type de démence?"
+    - "ATCD psychiatriques (distinguer délirium de psychose aiguë)"
+    - |-
+      Facteurs de risque delirium:
+      • âge > 65 ans
+      • polymédication
+      • déficits sensoriels (lunettes, appareils auditifs)
+      • immobilisation, déshydratation
+    - "Maladies chroniques: insuffisance rénale/hépatique, diabète, cancers"
+
+# source: line 123-133
+red_flags:
+  - description: "{s:Fièvre > 38 °C + raideur de nuque} ± altération conscience"
+    dx_suspecte: "{p:Méningite bactérienne / encéphalite}"
+    action: "{r:Ceftriaxone 2 g IV STAT} + {r:dexaméthasone 10 mg IV}; {t:CT cérébral} puis {t:PL} immédiate"
+  - description: "{s:Glasgow ≤ 8} ou chute brutale {t:GCS} > 2 points"
+    dx_suspecte: "{p:Hématome intracrânien / lésion expansive} / {p:HSA}"
+    action: "{t:CT cérébral} sans contraste STAT + avis neurochirurgie"
+  - description: "{s:Déficit neurologique focal nouveau} (hémiplégie, aphasie, paralysie de regard)"
+    dx_suspecte: "{p:AVC ischémique ou hémorragique}"
+    action: "AVC pathway: {t:CT/IRM cérébrale} STAT + thrombolyse si critères"
+  - description: "{s:Convulsions} (ou post-ictus prolongé) dans un contexte confusionnel"
+    dx_suspecte: "{p:État de mal épileptique} non convulsivant"
+    action: "{t:EEG} urgent; {r:lorazépam 2 mg IV} si activité comitiale continue"
+  - description: "{e:Sevrage alcool} brutal: tremblement + agitation + {s:sudation profuse} 24-72 h après dernière consommation"
+    dx_suspecte: "{p:Delirium tremens}"
+    action: "{r:Diazépam 10 mg IV} (titration CIWA) + {r:thiamine 500 mg IV} AVANT tout glucose"
+
+# source: line 113-133
+examen:
+  general:
+    - "Signes vitaux COMPLETS: TA, FC, T°, FR, SaO2 — AVANT tout autre geste"
+    - "{t:Score de Glasgow} (baseline vs actuel)"
+    - "Glycémie capillaire immédiate (hypoglycémie = cause réversible urgente)"
+    - "État d'hydratation: pli cutané, sécheresse muqueuses, diurèse"
+  cible:
+    - |-
+      {t:CAM} (Confusion Assessment Method): positif si 1+2+(3 ou 4):
+      • 1. Début aigu + fluctuation
+      • 2. Inattention (mois à l'envers, compter de 20 à 1)
+      • 3. Pensée désorganisée
+      • 4. Altération niveau conscience
+    - |-
+      Examen neurologique:
+      • déficit focal (force, ROT, Babinski)
+      • syndrome méningé (Kernig, Brudzinski, raideur nuque)
+      • réflexes tronc cérébral si GCS bas (pupillaires, cornéen)
+      • troubles oculomoteurs, nystagmus
+    - "Recherche foyer infectieux: auscultation pulmonaire, percussion lombaire, peau (escarres, cellulite)"
+    - "Globe vésical (percussion sus-pubienne) + toucher rectal si rétention suspectée"
+
+# source: line 93-111
+dd_top5:
+  - dx: "{p:Infection (urinaire, pulmonaire)}"
+    indices: "Cause #1 chez {e:> 65 ans}; fièvre inconstante; bandelette urinaire + CRP orientent"
+    freq: "très fréquent (50 % des deliria âgés)"
+  - dx: "{p:Cause médicamenteuse / sevrage}"
+    indices: "Anticholinergiques, BZD, opioïdes, corticoïdes; sevrage alcool (CIWA); toujours revoir liste médicaments [VÉRIFIER: ordre DD à confirmer]"
+    freq: "fréquent (30-40 % des deliria)"
+  - dx: "{p:Troubles métaboliques (hyponatrémie, hypoglycémie, hypercalcémie)}"
+    indices: "Ionogramme + glycémie systématiques; TSH si chronique"
+    freq: "fréquent"
+  - dx: "{p:AVC / hématome intracrânien}"
+    indices: "Début souvent brutal; déficit focal possible; {t:CT} obligatoire si doute clinique"
+    freq: "moins fréquent mais urgence"
+  - dx: "{p:Démence décompensée}"
+    indices: "Délirium sur démence sous-jacente: même traitement; chercher facteur déclenchant; diagnostic différentiel: démence isolée (conscience préservée, début insidieux)"
+    freq: "fréquent chez > 80 ans"
+
+# source: line 154-201
+pec_initiale:
+  immediate:
+    - "TRAITEMENT ÉTIOLOGIQUE en priorité absolue — le délirium est un symptôme"
+    - |-
+      Mesures environnementales (priorité non-pharmacologique):
+      • horloge + calendrier + objets familiers
+      • lumière naturelle le jour, veilleuse la nuit
+      • présence famille / personnel connu
+      • mobilisation précoce, lunettes et appareils auditifs
+    - "Correction métabolique: hydratation IV si besoin, correction hyponatrémie, glycémie"
+    - |-
+      Traitement pharmacologique — UNIQUEMENT si agitation dangereuse échappant aux mesures non-pharmacologiques:
+      • {r:halopéridol 0.5-1 mg PO/IM} [VÉRIFIER: dose selon âge et poids]
+      • {r:rispéridone 0.25-0.5 mg PO} ou {r:quétiapine 12.5-25 mg PO}
+      • JAMAIS de BZD sauf sevrage alcool ({r:diazépam 10 mg IV} titration CIWA) + {r:thiamine 500 mg IV}
+    - "Surveillance {t:ECG} si neuroleptiques (allongement QT) [VÉRIFIER: seuil QTc à préciser]"
+  orientation:
+    - "Urgences / hospitalisation: tout delirium de novo — cause non identifiée, red flag, agitation incontrôlable"
+    - "Domicile SEULEMENT si: cause traitée, surveillance assurée, retour à l'état de base confirmé [VÉRIFIER: critères retour domicile à valider localement]"
+
+# source: line 134-152
+examens_complementaires:
+  - "{t:Biologie STAT}: NFS, CRP, iono, urée-créatinine, glycémie, calcémie, bilan hépatique, TSH"
+  - "{t:ECBU + BU}: cause infectieuse urinaire (cause #1 chez la personne âgée)"
+  - "{t:ECG}: arythmie, IDM silencieux; baseline avant neuroleptiques"
+  - "{t:CT cérébral sans contraste}: red flag neurologique (déficit focal, trauma, GCS bas)"
+  - "{t:PL} (si méningisme ou fièvre inexpliquée): {t:CT} d'abord si signes focaux"
+  - "{t:Dosages toxicologiques} + alcoolémie si suspicion intoxication/sevrage"
+
+# source: line 202-221
+criteres_hospitalisation:
+  - "Tout red flag avéré (méningite, AVC, hématome, delirium tremens)"
+  - "Cause non identifiée ou non traitable en ambulatoire"
+  - "Agitation incontrôlable ou risque de chute/automutilation"
+  - "Décompensation organique associée (sepsis, insuffisance rénale aiguë)"
+  - "{e:Personne seule à domicile} sans surveillance possible"
+
+pieges:
+  - "Confondre {p:délirium hypoactif} avec dépression ou démence: l'apathie est trompeuse — toujours chercher la cause organique"
+  - "Attribuer le delirium à la démence connue sans chercher de facteur déclenchant — la démence PREDISPOSE mais n'EXPLIQUE pas"
+  - "Prescrire des {r:benzodiazépines} pour 'calmer' un delirium non-sevrage — aggrave le tableau"
+  - "Oublier de contrôler le {t:QT} avant halopéridol ou vérifier {r:thiamine} avant glucose en cas de sevrage alcool"
+  - "Ne pas interroger l'entourage sur l'état cognitif BASELINE — indispensable pour poser le diagnostic"
+
+cartes_liees:
+  - SYS-NEU
+  - SSP-NEU-04
+  - TOOL-CAM
