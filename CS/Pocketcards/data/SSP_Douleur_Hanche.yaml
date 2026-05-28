@@ -1,0 +1,190 @@
+id: SSP-MSQ-07
+type: ssp
+title: Douleur de la hanche
+discipline: MSQ
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Douleur_Hanche.md
+
+# source: lines 7-210
+anamnese:
+  socrates:
+    - |-
+      Site: topographie exacte — clé du diagnostic:
+      • {s:inguinale antérieure} → intra-articulaire (coxofémorale)
+      • {s:grand trochanter latéral} → péri-articulaire (bursite, tendinopathie)
+      • {s:glutéale postérieure / fessière} → sacro-iliaque ou douleur projetée
+      • irradiation genou/cuisse → L2-L3 (racine fémorale)
+    - "Onset: début {s:brutal} (fracture, luxation) vs progressif (arthrose, nécrose) vs insidieux (inflammatoire)?"
+    - |-
+      Character: mécanique ou inflammatoire?
+      • {s:mécanique}: aggravation effort, soulagement repos
+      • {s:inflammatoire}: douleur repos/nuit, {s:dérouillage matinal > 30 min}
+    - |-
+      Radiation: irradiation vers le genou (L2-L3)? vers la cuisse?
+      Douleur uni- ou bilatérale?
+    - |-
+      Time: durée exacte, fréquence, évolution
+      • épisodes antérieurs?
+      • aggravation progressive?
+    - |-
+      Exacerbating: marche, escaliers, rotation, charge, position assise prolongée
+      Relieving: repos, chaleur/froid, antalgiques (efficacité?)
+    - "Severity: EVA 0-10, périmètre de marche (mètres), retentissement AVQ (chaussettes, conduite)?"
+  specifique:
+    - |-
+      {s:Boiterie}: type antalgique (appui raccourci côté douloureux)
+      ou de Trendelenburg (bassin chute côté controlatéral = insuffisance moyen fessier)?
+    - |-
+      {s:Raideur articulaire matinale}: durée?
+      • < 30 min → mécanique (coxarthrose)
+      • > 30-60 min → inflammatoire (coxite PR, spondylarthrite)
+    - "Blocage articulaire? Dérobement? (corps étranger, instabilité)"
+    - |-
+      Signes systémiques:
+      • {s:fièvre, frissons}, AEG → arthrite septique, infection
+      • {s:douleur nocturne constante}, AEG, amaigrissement → néoplasie
+      • polyarthrite, uvéite, psoriasis, MICI → spondylarthrite / PR
+    - "Contexte: chute même minime ({e:âgé, ostéoporose}), injection intra-articulaire récente, immunosuppression?"
+  atcd:
+    - |-
+      Facteurs de risque {p:nécrose aseptique} (CASTOR):
+      • {r:Corticoïdes} (dose, durée) — {r:Alcool} chronique
+      • {e:Drépanocytose} — Traumatisme — Ostéoradionécrose — Radiothérapie pelvienne
+      • Plongée (décompression), chimiothérapie, transplantation [VÉRIFIER: seuil doses corticoïdes]
+    - |-
+      ATCD rhumatologiques: arthrose autres localisations, arthrites inflammatoires,
+      prothèses articulaires, infiltrations antérieures, fractures (ostéoporose?)
+    - |-
+      Médicaments: {r:corticoïdes}, immunosuppresseurs, anticoagulants (hémarthrose),
+      bisphosphonates (fractures atypiques), AINS (CI: IRC, cardiopathie, > 65 ans)
+    - |-
+      Habitudes de vie: sport (type, fréquence, changement récent), profession
+      (port de charges, station debout), alcool (quantité), tabac
+    - "ATCD familiaux: arthrose précoce, arthrites inflammatoires, hémoglobinopathies, cancers"
+
+# source: urgences lignes 374-382 + red flags lignes 94-116
+red_flags:
+  - description: "{s:Impotence fonctionnelle totale + rotation externe + raccourcissement MI} après chute ({e:âgé, ostéoporose})"
+    dx_suspecte: "{p:Fracture du col fémoral}"
+    action: "{t:RX bassin face + hanche face/profil} URGENT; appel orthopédie; mise en décharge immédiate"
+  - description: "{s:Fièvre > 38,5°C + douleur hanche intense + impotence} ± contexte immunodéprimé / prothèse / injection récente"
+    dx_suspecte: "{p:Arthrite septique coxofémorale}"
+    action: "{t:Hémocultures + NFS/CRP} STAT; {t:ponction articulaire urgente} (> 50 000 GB/mm³); {r:ATB IV C3G + glycopeptide}; chirurgie si retard [VÉRIFIER: protocole ATB CHUV/HUG]"
+  - description: "{s:Douleur inguinale progressive} chez sujet jeune avec {e:facteurs de risque nécrose} (corticoïdes, OH, drépanocytose)"
+    dx_suspecte: "{p:Ostéonécrose tête fémorale}"
+    action: "{t:IRM hanche bilatérale} sans délai (gold standard); avis orthopédie urgente; mise en décharge"
+  - description: "{s:Douleur nocturne constante + AEG + amaigrissement} ± antécédent de cancer connu"
+    dx_suspecte: "{p:Métastase osseuse / néoplasie}"
+    action: "{t:RX hanche + scintigraphie osseuse}; si suspicion élevée: {t:scanner TAP}; bilan biologique (PAL, PSA si homme > 50 ans)"
+  - description: "{s:Rotation externe + raccourcissement} chez {e:adolescent obèse ou en croissance} sans traumatisme clair"
+    dx_suspecte: "{p:Épiphysiolyse fémorale supérieure}"
+    action: "{t:RX bassin face + profil grenouille} URGENT; appel orthopédie pédiatrique; décharge stricte — CI toute réduction manuelle [VÉRIFIER: critères stabilité SCFE]"
+  - description: "{s:Douleur hanche + boiterie aiguë} chez {e:enfant 3-10 ans}, apyrexie ou fébricule"
+    dx_suspecte: "{p:Synovite transitoire vs arthrite septique} (Kocher score)"
+    action: "{t:Écho hanche} (épanchement?); {t:NFS/CRP/VS}; si Kocher score ≥ 3 ou CRP > 20: {t:ponction écho-guidée}; avis pédiatrie urgence"
+
+# source: examen lignes 212-368
+examen:
+  general:
+    - "Signes vitaux: TA, FC, {s:température} (fièvre → infectieux), poids/taille/IMC"
+    - "Observer démarche spontanée AVANT tout: type boiterie (antalgique vs Trendelenburg), aide technique"
+  cible:
+    - |-
+      {t:Signe de Trendelenburg}: patient debout sur jambe douloureuse
+      → bassin s'affaisse côté controlatéral = insuffisance {s:moyen fessier}
+    - |-
+      Inspection allongé: position spontanée du MI
+      • {s:rotation externe + raccourcissement} → fracture col
+      • flexion + adduction → coxite, épanchement
+      • asymétrie, amyotrophie quadriceps/fessiers
+    - |-
+      Palpation systématique:
+      • {s:pli inguinal douloureux} → pathologie intra-articulaire
+      • {s:grand trochanter douloureux} → bursite / tendinopathie abducteurs
+      • chaleur locale, adénopathies inguinales
+    - |-
+      Mobilité passive (comparer bilatéral):
+      • {s:limitation rotation interne} = première atteinte coxarthrose (N: 35-40°)
+      • flexion N: 120-130°, abduction N: 45-50°
+      • {t:log roll test}: rotation douce → douleur inguinale = intra-articulaire
+    - |-
+      {t:Test FABER / Patrick}: cheville sur genou controlatéral (figure "4"), abaisser genou
+      → douleur inguinale = coxofémorale / sacro-iliaque; mesurer distance genou-table (N < 10 cm)
+    - |-
+      {t:Test FADIR}: hanche + genou 90°, adduction + rotation interne forcée
+      → douleur inguinale = {p:conflit fémoro-acétabulaire}
+    - |-
+      {t:Test Thomas} (flexum): hanche controlatérale fléchie → hanche testée se fléchit = flexum
+      {t:Abduction contrariée}: décubitus latéral, résistance → douleur trochantérienne = bursite
+    - |-
+      Mesures objectives: longueur réelle MI (EIAS → malléole interne)
+      différence > 2 cm significative; périmètres cuisse (amyotrophie)
+    - "Examen neurologique: force MI, ROT rotulien/achilléen, sensibilité L2-L3 (face ant. cuisse), Lasègue inversé"
+
+# source: diagnostics différentiels lignes 441-465
+dd_top5:
+  - dx: "{p:Coxarthrose}"
+    indices: "Âge > 50 ans, douleur inguinale mécanique, raideur < 30 min, 1ère limitation rotation interne, RX: pincement coxal + ostéophytes"
+    freq: "très fréquent (prévalence 10 % après 60 ans)"
+  - dx: "{p:Bursite trochantérienne / tendinopathie moyen fessier}"
+    indices: "Douleur latérale trochanter, palpation grand trochanter +, abduction contrariée +, écho: épanchement bourse; femme > 40 ans"
+    freq: "fréquent (15 % des douleurs de hanche)"
+  - dx: "{p:Coxite inflammatoire} (PR, spondylarthrite)"
+    indices: "Raideur matinale > 30-60 min, polyarthrite / atteinte rachis, CRP élevée, HLA-B27 (SA), ACPA (PR), réponse AINS; écho: synovite"
+    freq: "modéré; à évoquer si < 45 ans avec raideur prolongée"
+  - dx: "{p:Douleur projetée lombaire L3-L4}"
+    indices: "Lombalgies associées, irradiation face antérieure cuisse (territoire L2-L3), Lasègue inversé +, tests hanche normaux, IRM rachis: hernie"
+    freq: "fréquent; piège classique si douleur cuisse sans signe hanche"
+  - dx: "{p:Ostéonécrose tête fémorale}"
+    indices: "Facteurs de risque CASTOR, douleur inguinale progressive ± nocturne, RX normale au début, IRM: hypersignal T2 + ligne de démarcation (gold standard)"
+    freq: "rare; urgence orthopédique si non traité → collapsus tête"
+
+# source: examens complémentaires lignes 390-437
+examens_complementaires:
+  - "{t:RX bassin face + hanche face/profil}: SYSTÉMATIQUE — fracture, arthrose, nécrose (tardive), dysplasie"
+  - "{t:IRM hanche}: gold standard {p:nécrose aseptique} (stades précoces RX normaux); fracture fatigue non visible; [VÉRIFIER: délai accès IRM urgente selon hôpital]"
+  - "{t:Échographie hanche}: épanchement articulaire, guidage ponction, bursite trochantérienne"
+  - "{t:NFS + CRP + VS}: suspicion infectieuse ou inflammatoire; hémocultures si fièvre"
+  - "{t:Bilan rhumatologique}: FR, ACPA (PR), HLA-B27 (SA), AAN (LED) si suspicion inflammatoire"
+  - "{t:Ponction articulaire écho-guidée}: URGENTE si arthrite septique suspectée (cytologie > 50 000 GB/mm³, cristaux, culture)"
+
+# source: critères orientation lignes 550-566
+criteres_hospitalisation:
+  - "{p:Arthrite septique}: hospitalisation immédiate — ponction + ATB IV + avis chirurgie"
+  - "{p:Fracture col fémoral} ou épiphysiolyse: urgences orthopédiques sans délai"
+  - "{p:Ostéonécrose tête fémorale}: avis orthopédie semi-urgente (< 48 h) pour mise en décharge"
+  - "Impotence fonctionnelle totale avec impossibilité d'appui"
+  - "Suspicion néoplasie avec AEG: bilan urgent oncologie / rhumatologie [VÉRIFIER: filière locale selon hôpital]"
+
+pec_initiale:
+  immediate:
+    - "Éliminer les RED FLAGS avant tout traitement antalgique — fracture, infection, nécrose, tumeur"
+    - |-
+      Antalgiques palier 1-2:
+      • {r:paracétamol 1 g × 3-4/j} (max 4 g/j) en première intention
+      • {r:AINS ibuprofène 400 mg × 3/j} max 7-10 j si CI absentes (IRC, cardiopathie, > 65 ans) + {r:IPP si risque gastrique}
+      • {r:tramadol 50-100 mg × 3/j} si palier 1 insuffisant
+    - "Coxarthrose: kinésithérapie (renforcement quadriceps + abducteurs), perte de poids, activité adaptée (vélo, natation), canne côté controlatéral"
+    - "Bursite: repos relatif, étirements bandelette ilio-tibiale, infiltration corticoïdes locale écho-guidée, ondes de choc si chronique"
+    - "Arthrite septique: {r:C3G + glycopeptide IV} + drainage chirurgical URGENT (ne pas attendre)"
+    - "Nécrose aseptique précoce: mise en décharge (cannes), core decompression; avancée: PTH"
+  orientation:
+    - "Urgences: arthrite septique, fracture col, épiphysiolyse, impotence totale"
+    - "Orthopédie (semi-urgent < 48 h): nécrose aseptique confirmée, fracture fatigue, indication PTH"
+    - "Rhumatologue: coxite inflammatoire, coxarthrose résistante, bilan immunologique requis"
+    - "Médecin traitant: coxarthrose légère-modérée compensée, bursite, douleur projetée lombaire"
+    - "Consignes retour urgences: fièvre + douleur, déformation MI, impossibilité d'appui, douleur nocturne insomniante"
+
+pieges:
+  - "Banaliser une {s:chute même minime} chez la personne âgée ostéoporotique — toujours RX bassin même si mobilisation partielle possible (fracture occulte)"
+  - "Confondre {s:douleur trochantérienne latérale} (bursite) et {s:douleur inguinale} (intra-articulaire) — localisation est le pivot diagnostique"
+  - "Méconnaître {p:ostéonécrose} chez le patient sous corticoïdes — RX normale n'exclut pas le diagnostic; demander IRM"
+  - "Ne pas rechercher {p:arthrite septique} chez l'immunodéprimé ou porteur de prothèse — impotence + fébricule suffit à ponctionner"
+  - "Attribuer une douleur de hanche à l'arthrose sans chercher {p:douleur projetée} lombaire L3-L4 — tester toujours mobilité rachis + Lasègue inversé"
+
+cartes_liees:
+  - SYS-MSQ
+  - SSP-MSQ-08

@@ -1,0 +1,180 @@
+id: SSP-MSQ-02
+type: ssp
+title: Cervicalgies
+discipline: MSQ
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Cervicalgies.md
+
+# source: lines 15-153
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • cervicale haute (C1-C2): suboccipitale
+      • cervicale moyenne (C3-C5): nucale
+      • cervicale basse (C6-C7): base cou / trapèzes
+    - |-
+      Onset:
+      • brutal vs progressif?
+      • après traumatisme (whiplash, AVP, sport)?
+      • début au réveil vs progressif dans la journée?
+    - "Character: mécanique (mouvement/position) vs inflammatoire (repos/nuit/dérouillage matinal > 30 min)?"
+    - |-
+      Radiation:
+      • bras / avant-bras / main → névralgie cervicobrachiale (C5-T1)?
+      • occipito-frontale en décharges → névralgie d'Arnold?
+      • céphalées suboccipitales?
+    - |-
+      Time:
+      • durée: aiguë < 6 semaines / subaiguë 6-12 sem / chronique > 3 mois
+      • fréquence et évolution (aggravation progressive?)
+    - |-
+      Exacerbating / Relieving:
+      • mouvements déclenchants (quelle direction)?
+      • position prolongée (écran, téléphone)?
+      • chaleur / kiné / repos → soulagement?
+    - "Severity: EVA 0-10; impact sur activités (conduite, sommeil, travail)?"
+  specifique:
+    - |-
+      Signes neurologiques des membres supérieurs:
+      • paresthésies / fourmillements (territoire radiculaire)?
+      • faiblesse / maladresse de la main?
+      • {s:troubles des mouvements fins} (boutonner, écrire)?
+    - |-
+      Signes médullaires ({p:myélopathie}):
+      • instabilité à la marche, spasticité des membres inférieurs?
+      • {s:troubles sphinctériens} (urgenturie, incontinence)?
+      • Lhermitte (décharge électrique à la flexion cervicale)?
+    - "Vertiges cervicogéniques (instabilité liée aux mouvements cervicaux, sans vertige rotatoire vrai)?"
+    - "Fièvre / AEG / sueurs nocturnes / amaigrissement → origine infectieuse ou néoplasique?"
+    - |-
+      Contexte professionnel:
+      • travail sur écran (hauteur, durée)?
+      • port de charges, vibrations?
+      • postures fixes prolongées?
+  atcd:
+    - |-
+      Rachidiens:
+      • cervicalgies antérieures (fréquence, traitements)?
+      • traumatisme cervical (whiplash, plongée, manipulation chiro)?
+      • chirurgie cervicale (arthrodèse, discectomie)?
+    - |-
+      Généraux:
+      • rhumatismes inflammatoires (PR, spondylarthrite)?
+      • cancer connu (métastases)?
+      • immunodépression, toxicomanie IV?
+    - "Médicaments en cours: antalgiques (posologie, efficacité), AINS, myorelaxants, anticoagulants?"
+    - "Mode de vie: sédentarité, stress chronique, tabagisme [VÉRIFIER: tabac → dégénérescence discale documentée?], oreiller inadapté?"
+
+# source: lines 111-131
+red_flags:
+  - description: "{s:Trauma cervical} (whiplash, AVP, plongée) + {s:déficit neurologique} (parésie, hypoesthésie, myélomalacie)"
+    dx_suspecte: "{p:Fracture / instabilité C1-C2 ou myélopathie traumatique}"
+    action: "Immobilisation cervicale immédiate; {t:CT cervical} urgence; si myélomalacie suspectée → {t:IRM} + neurochirurgie"
+  - description: "{s:Syndrome de Claude Bernard-Horner} (ptosis + myosis + énophtalmie) ± douleur cervicale unilatérale, trauma ou manipulation chiro récente, jeune patient"
+    dx_suspecte: "{p:Dissection carotidienne ou vertébrale}"
+    action: "{t:Angio-IRM cervicale} URGENTE; anticoagulation discutée avec neurologie; pas de triptans"
+  - description: "{s:Paresthésies 4 membres} + {s:troubles marche/sphinctériens} + {t:Hoffmann} positif + {t:ROT vifs} aux MS"
+    dx_suspecte: "{p:Myélopathie cervicarthrosique}"
+    action: "{t:IRM cervicale} urgente; avis neurochirurgie; ne pas manipuler"
+  - description: "{s:Fièvre} + {s:AEG} + douleur cervicale progressive, ATCD toxicomanie IV ou immunodépression"
+    dx_suspecte: "{p:Spondylodiscite cervicale}"
+    action: "{t:IRM cervicale} STAT + {t:hémocultures} × 2 avant {r:ATB}; ne pas différer"
+  - description: "{s:Raideur méningée} + {s:fièvre} (± photophobie, céphalée en coup de tonnerre)"
+    dx_suspecte: "{p:Méningite bactérienne}"
+    action: "{t:CT cérébral} sans contraste puis {t:PL}; {r:ceftriaxone 2 g IV} AVANT l'imagerie si délai prévisible > 1 h"
+  - description: "{s:Cervicalgie sévère d'emblée} chez patient {e:> 50 ans} + amaigrissement, cancer connu ou corticothérapie au long cours"
+    dx_suspecte: "{p:Métastase vertébrale} ou {p:fracture sur ostéoporose}"
+    action: "{t:Radiographies cervicales} puis {t:IRM} si doute; {t:scintigraphie osseuse} si métastases suspectées"
+
+# source: lines 154-220
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T°, FR — température systématique (infection?)"
+    - "Inspection: posture antalgique (torticolis), amyotrophie épaule/bras, asymétries"
+    - "Palpation: épineuses cervicales, muscles paravertébraux, trapèzes, adénopathies cervicales"
+    - "Mobilité cervicale (amplitudes normales): flexion {r:45°} / extension {r:45°} / inclinaisons latérales {r:45°} / rotations {r:70°} [VÉRIFIER: valeurs normales à confirmer]"
+  cible:
+    - |-
+      Examen radiculaire C5-T1:
+      • C5: abduction épaule (deltoïde), sensibilité moignon
+      • C6: flexion coude (biceps), ext. poignet, sensibilité pouce/face radiale
+      • C7: extension coude (triceps), flex. poignet, sensibilité majeur
+      • C8: flexion doigts, intrinsèques main, sensibilité auriculaire
+    - |-
+      Réflexes ostéo-tendineux:
+      • {t:bicipital} (C5-C6), {t:stylo-radial} (C6), {t:tricipital} (C7)
+      • vifs + {t:Hoffmann} positif → myélopathie
+    - |-
+      Tests de provocation:
+      • {t:Spurling}: extension + rotation du côté douloureux + compression axiale → reproduction radiculaire
+      • {t:Lhermitte}: flexion cervicale passive → décharge électrique dans le dos/membres → myélopathie
+    - "Marche tandem, épreuve doigt-nez (si signes médullaires suspects)"
+    - "Syndrome de Claude Bernard-Horner: ptosis + myosis + énophtalmie (recherche systématique si cervicalgie unilatérale aiguë sévère)"
+
+# source: lines 221-255
+examens_complementaires:
+  - "{t:Radiographies cervicales} (face + profil + obliques ± bouche ouverte): traumatisme, > 50 ans + douleur > 6 sem, signes neuro [VÉRIFIER: critères Ottawa C-Spine Rule applicables en Suisse?]"
+  - "{t:IRM cervicale} (T1/T2/STIR): signes neurologiques, myélopathie suspectée, infection, tumeur — examen de référence"
+  - "{t:CT cervical}: traumatisme complexe, suspicion fracture, CI à l'IRM"
+  - "{t:ENMG}: névralgie cervicobrachiale persistante > 6-8 semaines malgré traitement"
+  - "{t:Angio-IRM cervicale}: suspicion dissection carotidienne / vertébrale (CBH, trauma, jeune)"
+  - "{t:VS + CRP + FSC}: fièvre / AEG — si spondylodiscite ou étiologie inflammatoire"
+
+# source: lines 256-380
+pec_initiale:
+  immediate:
+    - "Éliminer RED FLAGS avant tout traitement antalgique (examen neuro complet)"
+    - |-
+      Cervicalgie commune aiguë — paliers antalgiques:
+      • {r:paracétamol 1 g × 4/j} (1ère intention)
+      • {r:ibuprofène 400 mg × 3/j × 5-7 j} si inflammation/contractures
+      • {r:thiocolchicoside 8 mg × 2/j × 7 j max} (myorelaxant — courte durée, somnolence)
+    - "Phase aiguë (0-72 h): repos RELATIF; collier souple {r:≤ 2-3 j max} (risque déconditionnement si prolongé); cryothérapie 15-20 min × 3-4/j"
+    - "Phase subaiguë: mobilisation précoce, thermothérapie, massages doux; kinésithérapie prescrite rapidement"
+    - "Kinésithérapie: décontracture → récupération mobilité → renforcement extenseurs profonds → rééducation proprioceptive + éducation posturale"
+    - "Ergonomie: écran à hauteur des yeux, distance 50-70 cm, pauses toutes les heures, oreiller adapté"
+  orientation:
+    - "Domicile + suivi MG à 2 semaines: cervicalgie commune, examen neuro normal, pas de red flag"
+    - "Urgences: tout red flag (signes neuro, fièvre + raideur nucale, CBH, trauma avec déficit)"
+    - "Neurochirurgie / Neurologie urgente: myélopathie, instabilité C1-C2, spondylodiscite"
+    - "Rhumatologue programmé: échec traitement > 6-8 semaines, cervicalgie chronique, suspicion pathologie inflammatoire"
+    - "Consignes retour: apparition faiblesse bras/jambes, troubles sphinctériens, fièvre, aggravation rapide"
+
+criteres_hospitalisation:
+  - "Red flag avéré: signes médullaires, spondylodiscite, dissection vasculaire, fracture instable"
+  - "Méningite suspectée (fièvre + raideur nucale)"
+  - "Déficit neurologique focal progressif"
+  - "Douleur sévère incontrôlée malgré traitement ambulatoire"
+  - "Métastase vertébrale avec risque de compression médullaire imminente"
+
+pieges:
+  - "Omettre l'examen neurologique complet (radiculaire + médullaire) → manquer une myélopathie débutante"
+  - "Immobiliser longtemps avec collier cervical (> 3 j) → déconditionnement musculaire et chronicisation"
+  - "Manipuler en présence de signes neurologiques ou d'instabilité → aggravation risquée"
+  - "Ne pas rechercher CBH (dissection) chez patient jeune avec cervicalgie unilatérale sévère aiguë, trauma ou manipulation chiro récente"
+  - "Radiographies systématiques sans critères (Ottawa) → irradiation inutile [VÉRIFIER: règle Ottawa vs règle canadienne C-Spine — laquelle utiliser?]"
+
+dd_top5:
+  - dx: "{p:Cervicalgie mécanique commune}"
+    indices: "Horaire mécanique, facteurs posturaux (écran, stress), contractures para-vertébrales, examen neuro normal, pic 40-60 ans"
+    freq: "très fréquent (70-80 % des cervicalgies)"
+  - dx: "{p:Névralgie cervicobrachiale (NCB)}"
+    indices: "Irradiation bras selon territoire C5-T1, paresthésies, {t:Spurling} positif, ROT diminué, force segmentaire déficitaire"
+    freq: "fréquent (environ 1/1000/an)"
+  - dx: "{p:Cervicarthrose (arthrose cervicale)}"
+    indices: "Sujet > 50 ans, raideur cervicale progressive, craquements, douleurs mécaniques, pincements discaux + ostéophytes en radiographie"
+    freq: "très fréquent > 50 ans (90 % imagerie)"
+  - dx: "{p:Myélopathie cervicarthrosique}"
+    indices: "{s:Troubles marche} (spastique), {s:maladresse mains}, Hoffmann positif, ROT vifs, ± troubles sphinctériens; IRM: compression médullaire"
+    freq: "moins fréquent mais gravité potentielle élevée"
+  - dx: "{p:Spondylarthrite axiale (SPA)}"
+    indices: "Jeune < 40 ans, horaire inflammatoire (réveil, dérouillage > 30 min), amélioration à l'effort, sacro-iliite, HLA-B27"
+    freq: "moins fréquent (prévalence ~0.5 %)"
+
+cartes_liees:
+  - SYS-MSQ
+  - SSP-MSQ-01

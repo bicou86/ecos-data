@@ -1,0 +1,196 @@
+id: SSP-MSQ-08
+type: ssp
+title: Douleur du poignet
+discipline: MSQ
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Douleur_Poignet.md
+
+# source: line 1-90
+anamnese:
+  socrates:
+    - |-
+      Site/topographie (oriente le DD):
+      • radial (tabatière anatomique, base pouce)?
+      • médial / ulnaire (côté auriculaire)?
+      • volaire (face palmaire, canal carpien)?
+      • dorsal (dos du poignet)?
+    - |-
+      Onset:
+      • début brutal (traumatisme, chute) ou progressif (microtraumatismes)?
+      • première épisode ou récidive?
+    - |-
+      Character:
+      • paresthésies / fourmillements / brûlures → nerf médian ou ulnaire?
+      • douleur mécanique (effort, mouvement) ou inflammatoire (nocturne, raideur mat.)?
+      • irradiation avant-bras, épaule, 1er doigt?
+    - |-
+      Radiation: vers doigts (quels doigts?), avant-bras, épaule?
+    - |-
+      Time:
+      • durée (aiguë < 3 sem / chronique > 3 mois)
+      • prédominance nocturne → {p:SCC}
+      • après effort spécifique (pouce, pinces) → tendinopathie
+    - |-
+      Exacerbating:
+      • flexion/extension poignet prolongée ({p:SCC})
+      • mouvement pouce/pince ({p:De Quervain})
+      • charge axiale poignet ({p:scaphoïde}, {p:arthrose TM})
+      • secouement main soulage → {p:SCC}
+    - "Relieving: attelle nocturne? AINS? Repos?"
+    - "Severity: EVA 0-10, impact fonctionnel (écrire, conduire, porter)?"
+  specifique:
+    - |-
+      Traumatisme récent:
+      • chute paume tendue (EIRD/Pouteau-Colles, scaphoïde)?
+      • plaie palmaire ou dorsale (section tendons)?
+      • torsion poignet (entorse scapholunaire)?
+    - |-
+      Territoire sensitif ({p:SCC} = nerf médian):
+      • pouce-index-majeur-½ radiale annulaire ({s:3 doigts et demi})
+      • fourmillements nocturnes réveillant le patient ++
+      • hypoesthésie / atrophie thénarienne (forme sévère)?
+    - |-
+      Symptômes nerf ulnaire (canal de Guyon):
+      • auriculaire + ½ ulnaire annulaire
+      • faiblesse interosseux (pince index-médius)?
+    - "Retentissement fonctionnel: pinces, boutons, clavier, conduite?"
+    - |-
+      Facteurs de risque:
+      • profession (mouvements répétitifs, vibrations, dactylographie)
+      • {e:grossesse}, {e:ménopause}, {e:hypothyroïdie}, {e:diabète}
+      • maladie rhumatologique connue (PR, CPPD, goutte)?
+  atcd:
+    - "Fractures/chirurgies poignet antérieures (Pouteau-Colles → déformation, SCC secondaire)?"
+    - "Infiltrations corticoïdes locales: nombre, efficacité, durée?"
+    - |-
+      Maladies systémiques:
+      • {e:diabète} (neuropathie + SCC)
+      • {e:hypothyroïdie} (infiltration mucoïde → SCC)
+      • {e:PR} (synovite poignet)
+      • {e:IRC} / dialyse (fistule, amylose)
+    - "Traitements en cours: anticoagulants, corticoïdes, AINS? [VÉRIFIER: interactions médicamenteuses locales]"
+    - "Arrêts de travail / reconnaissance maladie professionnelle?"
+
+# source: line 92-150
+red_flags:
+  - description: "{s:Chute paume tendue} + douleur tabatière anatomique ± gonflement"
+    dx_suspecte: "{p:Fracture du scaphoïde}"
+    action: "{t:RX poignet F+P+3/4} immédiate; si RX neg → {t:IRM ou CT à J10}; attelle plâtrée en attente"
+  - description: "{s:Déformation en dos de fourchette} après chute chez patient âgé"
+    dx_suspecte: "{p:Fracture EIRD (Pouteau-Colles)}"
+    action: "{t:RX poignet F+P} immédiate; réduction urgente ± chirurgie; contre-indiqué mobiliser"
+  - description: "{s:Fièvre + œdème + chaleur} poignet ± perte de mobilité aiguë"
+    dx_suspecte: "{p:Arthrite septique}"
+    action: "{t:Ponction articulaire} (analyse + culture) en urgence; {r:ATB IV} après ponction; hospitalisation"
+  - description: "{s:Plaie palmaire ou dorsale} + perte active de flexion ou extension d'un doigt"
+    dx_suspecte: "{p:Section tendons fléchisseurs ou extenseurs}"
+    action: "Exploration chirurgicale urgente (< 6–12 h); ne pas mobiliser; couverture ATB; tétanos"
+  - description: "{s:Douleur intense + œdème majeur + paresthésies progressives} après traumatisme ou plâtre serré"
+    dx_suspecte: "{p:Syndrome compartimental aigu}"
+    action: "Avis chirurgical immédiat; ablation plâtre/attelle; {r:fasciotomie} urgente; mesure pression compartimentale [VÉRIFIER: seuil pression > 30 mmHg ou delta-P < 30 mmHg]"
+
+# source: line 92-150
+examen:
+  general:
+    - "Signes vitaux: TA, T°, FC (fièvre → arthrite septique)"
+    - "Inspection comparative bilatérale: déformation, gonflement, atrophie?"
+    - "Signes inflammatoires locaux: rougeur, chaleur, œdème"
+    - "Palpation tabatière anatomique (scaphoïde) et pisiforme/TFCC [VÉRIFIER: ordre de palpation optimal en ECOS]"
+  cible:
+    - |-
+      Tests diagnostiques spécifiques:
+      • {t:Finkelstein} (pouce en poing, déviation ulnaire) → {p:De Quervain}
+      • {t:Tabatière anatomique} (palpation) → {p:scaphoïde}
+      • {t:Phalen} (flexion 90° × 60s) → {p:SCC} (sensibilité 80%)
+      • {t:Tinel} (percussion canal carpien) → {p:SCC}
+      • {t:Watson} (pression scaphoïde + déviation radiale) → instabilité scapholunaire
+    - |-
+      Évaluation nerf médian (si paresthésies):
+      • territoire sensitif: pouce-index-majeur-½ annulaire
+      • discrimination 2 points (normal < 6 mm pulpe index)
+      • atrophie thénarienne: abduction pouce, opposition
+    - |-
+      Mobilité articulaire:
+      • flexion-extension (normale 80°/70°)
+      • inclinaisons radiale/ulnaire (20°/30°)
+      • prono-supination
+      • mobilité doigt par doigt (raideur matinale PR?)
+    - |-
+      Évaluation nerf ulnaire (canal de Guyon):
+      • sensibilité auriculaire + ½ ulnaire annulaire
+      • force interosseux (écartement doigts)
+    - "Rechercher radiculopathie C6-C7 si paresthésies hautes: réflexes, testing rachis cervical"
+
+# source: line 137-172
+dd_top5:
+  - dx: "{p:Syndrome du canal carpien (SCC)}"
+    indices: "{s:Paresthésies nocturnes} doigts 1-3, soulagement au secouement, {t:Phalen+}, {t:Tinel+}, atrophie thénarienne (forme sévère)"
+    freq: "très fréquent (femme 3:1, 40-70 ans)"
+  - dx: "{p:Tendinopathie de De Quervain}"
+    indices: "{s:Douleur radiale} à la base du pouce, aggravée par mouvements du pouce/pince, {t:Finkelstein+}"
+    freq: "fréquent (jeunes femmes, post-partum, mouvements répétitifs)"
+  - dx: "{p:Arthrose trapézo-métacarpienne (rhizarthrose) / arthrose du poignet}"
+    indices: "{s:Douleur base pouce} à la charge, craquements, déformation en équerre; RX: pincement, ostéophytes"
+    freq: "fréquent (> 50 ans, femmes ++++)"
+  - dx: "{p:Tendinite / ténosynovite extenseurs ou fléchisseurs}"
+    indices: "{s:Douleur dorsale ou volaire diffuse}, aggravée par mouvements répétitifs, crépitations à la palpation"
+    freq: "fréquent (professions manuelles, sportifs)"
+  - dx: "{p:Pathologie rhumatologique} (PR, goutte, CPPD poignet)"
+    indices: "{s:Synovite bilatérale}, raideur matinale > 30 min, autres articulations atteintes, VS/CRP élevées; CPPD: chondrocalcinose RX"
+    freq: "moins fréquent mais à ne pas manquer"
+
+# source: line 152-241
+pec_initiale:
+  immediate:
+    - "Éliminer RED FLAGS d'abord — traumatisme → RX systématique; fièvre → ponction; plaie → exploration"
+    - |-
+      {p:SCC} léger-modéré: traitement conservateur 6-12 sem.
+      • {r:attelle de repos nocturne} poignet en position neutre
+      • {r:AINS (ibuprofène 600 mg × 3/j × 7-10 j)} si inflammation aiguë
+      • correction facteurs de risque (hypothyroïdie, diabète, ergonomie)
+    - |-
+      {p:SCC} modéré rebelle / grossesse: infiltration corticoïde
+      • {r:bétaméthasone 1 ml + lidocaïne}, voie ulnaire au ligament palmaire long
+      • efficacité 60-80%, durée 3-6 mois; max {r:3 infiltrations/an} [VÉRIFIER: dose exacte bétaméthasone protocole local CHUV/HUG]
+    - |-
+      {p:De Quervain}: repos + attelle pouce + AINS; si rebelle → infiltration corticoïde (gaine)
+    - |-
+      {p:Rhizarthrose}: antalgiques + kinésithérapie + orthèse; infiltration si douleur majeure
+    - |-
+      {p:SCC} sévère (atrophie thénarienne, anesthésie): libération chirurgicale urgente
+      • voie ouverte (section rétinaculum) ou endoscopie
+      • paresthésies: amélioration immédiate 90%; force: récupération 6 mois
+  orientation:
+    - "Domicile + MT: SCC léger typique, examen normal, attelle nocturne prescrite"
+    - "Chirurgie main ambulatoire: SCC sévère (atrophie, anesthésie, échec conservateur > 3-6 mois)"
+    - "Urgences: fracture scaphoïde/EIRD, arthrite septique, section tendons, syndrome compartimental"
+    - "Rhumatologie: si PR, goutte, CPPD suspectés; bilan biologique orienté"
+
+examens_complementaires:
+  - "{t:RX poignet F+P+¾}: tout traumatisme, déformation, suspicion fracture (EIRD, scaphoïde)"
+  - "{t:IRM poignet ou CT}: scaphoïde si RX négatif (répéter à J10); TFCC; instabilité ligamentaire"
+  - "{t:ENMG}: confirmation {p:SCC} avant chirurgie, classification sévérité (latence motrice > 4,5 ms; VCS < 50 m/s)"
+  - "{t:Échographie}: épaississement nerf médian (surface > 9 mm²), ténosynovites, TFCC"
+  - "{t:VS, CRP, FR, anti-CCP, acide urique}: si suspicion PR, goutte, CPPD"
+  - "{t:TSH, glycémie/HbA1c}: si SCC sans cause évidente ({e:hypothyroïdie}, {e:diabète})"
+
+criteres_hospitalisation:
+  - "{p:Arthrite septique}: ponction + ATB IV + suivi chirurgical"
+  - "{p:Syndrome compartimental aigu}: fasciotomie urgente"
+  - "{p:Fracture EIRD déplacée} nécessitant réduction chirurgicale"
+  - "{p:Section tendons}: exploration chirurgicale < 12 h"
+  - "{p:SCC} sévère avec dénervation progressive rapide nécessitant libération urgente"
+
+pieges:
+  - "{s:Douleur tabatière anatomique} après chute: ne jamais éliminer {p:fracture scaphoïde} sur une RX normale seule — répéter à J10 ou IRM/CT immédiat si suspicion forte (10% manqués)"
+  - "Confondre {p:SCC} et {p:radiculopathie C6-C7}: territoire sensitif différent (SCC = 3 doigts et demi; C6 = pouce + index; C7 = médius + annulaire); tester les réflexes"
+  - "Attribuer toutes les paresthésies au {p:SCC} sans tester le nerf ulnaire ({p:canal de Guyon}: auriculaire + ½ annulaire ulnaire)"
+  - "Proposer la chirurgie sans {t:ENMG} préalable: confirmation électrophysiologique obligatoire sauf forme sévère évidente"
+  - "Passer à côté d'un {p:SCC} bilatéral: toujours tester les deux côtés (Phalen + Tinel bilatéraux)"
+
+cartes_liees:
+  - SYS-MSQ
+  - SSP-MSQ-01

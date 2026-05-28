@@ -1,0 +1,181 @@
+id: SSP-MSQ-03
+type: ssp
+title: Dorsalgies
+discipline: MSQ
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dorsalgies.md
+
+# source: line 15-113
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • dorsale haute (T1-T4): inter-scapulaire, base cou
+      • dorsale moyenne (T5-T8): entre omoplates
+      • dorsale basse (T9-T12): jonction dorso-lombaire
+    - |-
+      Onset:
+      • début brutal vs progressif?
+      • contexte: traumatisme, effort, spontané?
+    - "Character: mécanique (aggravée au mouvement, soulagée au repos) vs {s:inflammatoire} (nocturne, raideur matinale, améliorée à l'effort)?"
+    - |-
+      Radiation:
+      • intercostale en ceinture → névralgie intercostale
+      • vers thorax antérieur ou épigastre → projection viscérale
+      • vers MI + déficit → compression médullaire
+    - |-
+      Time:
+      • aiguë (<6 sem) / subaiguë (6 sem–3 mois) / chronique (>3 mois)
+      • évolution: stable / progressive / par poussées?
+    - "Exacerbating: toux, inspiration → pleural/EP; effort → SCA; position penchée?"
+    - "Relieving: AINS (spondylarthrite), repos (mécanique), aucun soulagement (tumeur, infection)?"
+    - |-
+      Severity:
+      • EVA 0-10
+      • impact sommeil, travail, AVQ
+  specifique:
+    - |-
+      {s:Symptômes neurologiques} (urgence):
+      • déficit moteur MI, troubles sensitifs, niveau sensitif?
+      • troubles sphinctériens (rétention, incontinence)?
+      • signe de Lhermitte (flexion cou → décharge électrique)?
+    - |-
+      {s:Signes systémiques} (tumeur/infection):
+      • fièvre, frissons, sueurs nocturnes?
+      • amaigrissement >10 % du poids?
+      • altération état général?
+    - |-
+      Projection viscérale — interrogatoire systématique:
+      • {s:douleur déchirante migratrice} → dissection aortique?
+      • {s:oppression thoracique antérieure + dyspnée} → SCA?
+      • {s:dyspnée, toux, hémoptysie} → EP, pneumonie, cancer pulmo?
+      • {s:épigastralgies, nausées, vomissements} → pancréatite, ulcère?
+    - |-
+      Contexte spondylarthrite:
+      • < 45 ans, homme, raideur matinale prolongée (>1 h)?
+      • amélioration par AINS, exercice?
+      • uvéite, psoriasis, MICI?
+  atcd:
+    - "ATCD cancéreux (métastases vertébrales), immunodépression, VIH, traitement immunosuppresseur"
+    - "Ostéoporose (ménopause, corticothérapie prolongée, âge > 70 ans), traumatisme bénin"
+    - "Toxicomanie IV (porte d'entrée spondylodiscite), diabète, dialyse"
+    - |-
+      Médicaments:
+      • {r:corticoïdes} au long cours → risque fracture
+      • anticoagulants → hématome épidural (rare)
+    - "HTA sévère, Marfan/Ehlers-Danlos, ATCD chirurgie aortique → dissection [VÉRIFIER: critères Score de risque dissection]"
+    - "Activité professionnelle, postures, manutention, sédentarité"
+
+# source: line 114-175
+red_flags:
+  - description: "{s:Douleur déchirante d'emblée maximale} + asymétrie pouls/TA (>20 mmHg) ± ATCD HTA ou Marfan"
+    dx_suspecte: "{p:Dissection aortique thoracique}"
+    action: "Angio-CT thoraco-abdo-pelvien URGENT; ne pas donner AINS; appel chirurgie vasculaire immédiat"
+  - description: "{s:Oppression thoracique antérieure irradiant en dorsal} ± diaphorèse, dyspnée, nausées — territoire inférieur"
+    dx_suspecte: "{p:SCA inférieur} projeté en dorsal"
+    action: "{t:ECG 12 dérivations} STAT + {t:troponines} hs; appel cardio si sus-décalage ST; antiagrégants selon résultat"
+  - description: "{s:Déficit moteur ou sensitif MI, troubles sphinctériens, niveau sensitif}, ou signe de Babinski"
+    dx_suspecte: "{p:Compression médullaire}"
+    action: "{t:IRM dorsale} urgente (< 4-6 h); avis neurochirurgie; dexaméthasone si origine tumorale suspectée [VÉRIFIER: dose dexaméthasone compression médullaire tumorale]"
+  - description: "{s:Fièvre > 38 °C + dorsalgie persistante} ± porte d'entrée (dentaire, urinaire, cutanée), ATCD toxicomanie IV ou diabète"
+    dx_suspecte: "{p:Spondylodiscite}"
+    action: "{t:Hémocultures} × 3 AVANT ATB + {t:IRM dorsale}; hospitalisation; ATB empirique selon protocole local [VÉRIFIER: protocole ATB spondylodiscite CHUV/HUG]"
+  - description: "{e:Âge > 70 ans} ou corticothérapie prolongée + dorsalgie après traumatisme bénin (chute de hauteur)"
+    dx_suspecte: "{p:Fracture vertébrale ostéoporotique}"
+    action: "{t:RX rachis dorsal face + profil} en urgence; si suspicion instabilité → {t:CT} dorsal; antalgie + avis ortho/rhumato"
+  - description: "{s:Douleur dorsale nocturne progressive} + AEG, amaigrissement, {e:ATCD cancer connu}"
+    dx_suspecte: "{p:Métastase vertébrale}"
+    action: "{t:IRM rachis dorsal} + bilan extension (CT TAP ou TEP-scan); avis oncologie urgente"
+
+# source: line 114-175
+examen:
+  general:
+    - "Signes vitaux: {r:TA aux deux bras} (asymétrie > 20 mmHg → dissection), FC, T°, FR, SaO2, EVA"
+    - "Inspection générale: attitude antalgique, déformation rachidienne (cyphose, gibbosité)"
+    - "{t:ECG 12 dérivations} si douleur thoracique ou facteur de risque cardiovasculaire"
+  cible:
+    - |-
+      Palpation rachis dorsal:
+      • épineuses T1-T12 (douleur pointue → fracture/tumeur)
+      • masses paravertébrales, contractures
+      • percussion épineuses (douleur localisée = fracture, infection)
+    - |-
+      Mobilité dorsale:
+      • flexion/extension, inclinaisons latérales, rotations
+      • douleur reproductible à la mobilisation?
+    - |-
+      {s:Examen neurologique MI} — SYSTÉMATIQUE:
+      • force musculaire 0-5 (psoas, quadriceps, jambiers, triceps sural)
+      • sensibilité tactile et algique par dermatomes T1-L1
+      • ROT rotuliens (L3-L4) + achilléens (S1), Babinski bilateral
+      • tonus sphinctérien (si signe d'appel)
+    - |-
+      Examen thoracique systématique (projections viscérales):
+      • auscultation pulmonaire (épanchement, pneumonie)
+      • auscultation cardiaque (souffle, frottement péricardique)
+      • palpation abdominale (masse épigastrique pulsatile → anévrisme?)
+    - "Test de Schober dorsal [VÉRIFIER: valeurs normales Schober dorsal vs lombaire]"
+
+# source: line 177-205
+examens_complementaires:
+  - "{t:ECG + troponines hs}: toute douleur dorsale avec facteur cardiaque, oppression antérieure, dyspnée"
+  - "{t:Angio-CT thoracique urgent}: suspicion dissection aortique (douleur déchirante, asymétrie TA)"
+  - "{t:IRM rachis dorsal}: compression médullaire, spondylodiscite, métastase — examen de référence"
+  - "{t:RX rachis dorsal face + profil}: suspicion fracture vertébrale, âge > 50 + douleur persistante, trauma"
+  - "{t:NFS, CRP, VS, hémocultures}: suspicion spondylodiscite ou pathologie inflammatoire"
+  - "{t:D-dimères + angio-CT pulmonaire}: suspicion EP (dyspnée, tachycardie, facteurs de risque)"
+
+# source: line 237-248
+criteres_hospitalisation:
+  - "Dissection aortique suspectée ou confirmée → USI chirurgie vasculaire"
+  - "SCA confirmé → USIC / cathlab"
+  - "Compression médullaire (IRM urgente < 4-6 h) → neurochirurgie"
+  - "Spondylodiscite confirmée ou fortement suspectée → infectiologie + orthopédie"
+  - "Fracture vertébrale instable ou douleur incontrôlée → orthopédie"
+
+# source: line 209-235
+pec_initiale:
+  immediate:
+    - "STOP — red flags viscéraux ou neurologiques d'abord → bilan avant antalgiques"
+    - "Dorsalgie commune: {r:paracétamol 1 g × 4/j} en 1re intention; si insuffisant {r:ibuprofène 400 mg × 3/j × 7 j} (CI: insuffisance rénale, UGD, grossesse)"
+    - "Éviter alitement prolongé; mobilisation précoce progressive; chaleur locale sur contractures"
+    - "Spondylarthrite axiale: {r:AINS} en 1re intention + kinésithérapie; si échec → avis rhumatologie (biothérapie anti-TNF/anti-IL17)"
+    - "Fracture ostéoporotique: antalgie + avis rhumato/ortho; initier traitement ostéoporose (biphosphonate) [VÉRIFIER: biphosphonate de 1re ligne CHUV post-fracture vertébrale]"
+  orientation:
+    - "Domicile + médecin traitant: dorsalgie commune sans red flag, examen neuro normal, bonne antalgie orale"
+    - "Urgences: tout red flag viscéral (dissection, SCA, EP), déficit neurologique, fièvre + dorsalgie"
+    - "Rhumatologie ambulatoire: suspicion spondylarthrite axiale, bilan insuffisant ou récidive"
+    - "Consignes de retour: douleur déchirante, déficit MI, rétention urinaire, fièvre"
+
+# source: line 260-265
+dd_top5:
+  - dx: "{p:Dorsalgie mécanique commune}"
+    indices: "Douleur posturale, aggravée à l'effort et la mobilisation, soulagée au repos; pas de red flags; contexte de surcharge, mauvaise posture, travail de bureau; évolue < 6 sem"
+    freq: "très fréquent (cause principale)"
+  - dx: "{p:Spondylarthrite axiale}"
+    indices: "< 45 ans, horaire inflammatoire, raideur matinale > 1 h, amélioration AINS + exercice, HLA-B27+, uvéite, sacro-iliite à l'IRM; critères ASAS"
+    freq: "fréquent (prévalence 0,3–0,5 %)"
+  - dx: "{p:Projection viscérale} (cardiaque / pulmonaire / aortique / digestive)"
+    indices: "Douleur déchirante (dissection), oppression (SCA), dyspnée + facteurs de risque EP; asymétrie TA; pas de corrélat rachidien à l'examen clinique"
+    freq: "rare mais urgence vitale à éliminer en priorité"
+  - dx: "{p:Fracture/tassement vertébral ostéoporotique}"
+    indices: "> 70 ans ou corticoïdes prolongés, traumatisme bénin (chute); douleur percussion épineuse; RX: tassement cunéiforme; densitométrie (T-score < −2.5)"
+    freq: "fréquent après 70 ans, femme ménopausée"
+  - dx: "{p:Métastase vertébrale}"
+    indices: "ATCD cancer (sein, poumon, prostate, rein, thyroïde); douleur nocturne progressive non soulagée au repos; AEG; lyse au RX; IRM: envahissement corps vertébral ± extension épidurale"
+    freq: "rare mais grave; 10 % des cancers métastasent au rachis"
+
+# source: line 260-265
+pieges:
+  - "{p:Dissection aortique} présentée comme dorsalgie banale — toujours prendre TA aux DEUX bras; asymétrie > 20 mmHg = angio-CT immédiat"
+  - "Négliger l'examen neurologique MI: une compression médullaire manquée peut évoluer vers la paraplégic irréversible en quelques heures"
+  - "Radiographies dorsales SYSTÉMATIQUES sans red flag: inutiles, coût et irradiation non justifiés — n'imager qu'en présence d'un critère de décision"
+  - "Confondre {p:spondylodiscite} et dorsalgie commune chez le diabétique ou le dialysé — la CRP peut être modérément élevée sans fièvre franche"
+  - "Alitement prolongé: aggrave la douleur et retarde la guérison — mobilisation précoce sauf fracture instable"
+
+cartes_liees:
+  - SYS-MSQ
+  - SSP-CAR-01

@@ -1,0 +1,178 @@
+id: SSP-MSQ-04
+type: ssp
+title: Douleur articulaire
+discipline: MSQ
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Douleur_Articulaire.md
+
+# source: line 1-79
+anamnese:
+  socrates:
+    - |-
+      Site / Distribution (pivot diagnostique majeur):
+      • {s:Monoarthrite} (1 articulation) / {s:oligoarthrite} (<5) / {s:polyarthrite} (≥5)
+      • Articulations atteintes — noter précisément (MCP, IPP, IPD, poignets, MTP, genou, cheville)
+      • {s:Symétrie} bilatérale vs asymétrique
+    - |-
+      Onset / Évolution:
+      • {s:Aigu} (<6 sem) vs {s:chronique} (>6 sem)
+      • Mode de début: brutal (microcristaux, septique) ou progressif (PR, arthrose)
+    - |-
+      Type — Inflammatoire vs mécanique (CLEF):
+      • {s:Inflammatoire}: raideur matinale {r:>30-60 min}, douleur nocturne, amélioration à l'effort
+      • {s:Mécanique}: douleur à l'effort/fin de journée, amélioration au repos, raideur <30 min
+    - "Intensity: EVA 0-10; impact fonctionnel (serrer la main, monter les escaliers)"
+    - "Exacerbating: mouvement / effort → mécanique; repos → inflammatoire; alcool/viande rouge → goutte"
+    - "Relieving: AINS, chaleur/glace, repos"
+    - "Severity: impotence fonctionnelle (ne peut plus marcher, ouvrir une porte)"
+  specifique:
+    - |-
+      {s:Signes inflammatoires locaux} à chaque articulation:
+      • Tuméfaction (épanchement, synovite)
+      • Chaleur, érythème local
+      • Douleur nocturne avec réveils
+    - |-
+      Symptômes extra-articulaires orientant l'étiologie:
+      • {s:Fièvre} → arthrite septique, goutte, connectivite
+      • {s:Rash malaire} → {p:lupus}
+      • {s:Psoriasis} → arthrite psoriasique
+      • {s:Uvéite}, conjonctivite → spondylarthrite, Reiter
+      • {s:Syndrome sec} (yeux/bouche) → {p:Sjögren}/PR
+      • {s:Purpura, livedo} → {p:vascularite}
+      • {s:Érythème migrant} → {p:Lyme}
+    - |-
+      Facteurs déclenchants:
+      • Infection récente ORL/digestive/urinaire → arthrite réactionnelle
+      • Traumatisme articulaire récent ou ancien
+      • Voyage, piqûre de tique → {p:Lyme}
+    - |-
+      Atteinte systémique:
+      • AEG, amaigrissement (maladies systémiques, néoplasie)
+      • Atteinte rénale (lupus, vascularite)
+      • Atteinte pulmonaire (PR, sclérodermie)
+      • Lombalgies inflammatoires nocturnes chez <45 ans → spondylarthrite axiale
+  atcd:
+    - "ATCD familiaux: PR, spondylarthrites, goutte (hyperuricémie familiale)"
+    - |-
+      Médicaments:
+      • Diurétiques (thiazidiques → hyperuricémie)
+      • Quinolones (tendinopathie, arthralgie)
+      • Corticoïdes prolongés (ostéonécrose)
+    - "Maladies systémiques connues: HTA, diabète, insuffisance rénale (influence sur prise en charge)"
+    - "Tabac, alcool, alimentation riche en purines (goutte) [VÉRIFIER: seuil d'alcool retenu dans recommandations EULAR goutte]"
+
+# source: line 83-126
+examen:
+  general:
+    - "Signes vitaux: T° (fièvre = urgence infectieuse/inflammatoire), TA, FC"
+    - "IMC/poids — surcharge pondérale facteur d'arthrose"
+    - "État général — altéré si maladie systémique ou néoplasie"
+    - "Démarche et attitude antalgique en entrée dans la pièce"
+  cible:
+    - |-
+      Examen articulaire systémique de CHAQUE articulation (nommer et coter):
+      • Inspection: tuméfaction, déformation, érythème, attitude vicieuse
+      • Palpation: chaleur locale (vs côté sain), douleur, épanchement
+      • {t:Choc rotulien / signe du glaçon} au genou (épanchement)
+      • {t:Squeeze test} MCP (compression latérale = douleur → synovite)
+      • Synovite palpable (épaississement synovial doux)
+    - |-
+      Mobilités articulaires:
+      • Amplitudes actives et passives
+      • {s:Limitation douloureuse} vs mécanique
+      • Craquements, crépitations (arthrose)
+    - |-
+      Rachis:
+      • {t:Test de Schöber} (spondylarthrite — expansion <5 cm sur 10 cm)
+      • Mobilité cervicale (PR: subluxation C1-C2 à rechercher)
+      • Douleur à la pression sacro-iliaque
+    - |-
+      Examen extra-articulaire (ne pas oublier):
+      • Peau: psoriasis (coudes, cuir chevelu, ongles), nodules rhumatoïdes, érythème
+      • Yeux: conjonctivite, uvéite, syndrome sec
+      • Ganglions lymphatiques, organomégalie (rate/foie)
+      • Nodules rhumatoïdes (faces d'extension)
+
+# source: line 132-155 (examens) + pivots diagnostiques du brief
+red_flags:
+  - description: "{s:Monoarthrite fébrile} — douleur intense, impotence, chaleur marquée, érythème"
+    dx_suspecte: "{p:Arthrite septique}"
+    action: "Ponction articulaire URGENTE (liquide trouble → culture, Gram, cytologie) + hémocultures × 2 + ATB IV sans attendre (ceftriaxone {r:2 g/j IV}); avis chirurgie [VÉRIFIER: protocole ATB initial CHUV/HUG arthrite septique]"
+  - description: "{s:Monoarthrite aiguë hyperalgique} — 1ère MTP ('orteil en feu'), genou ou cheville, début nocturne"
+    dx_suspecte: "{p:Crise de goutte} sévère / {p:Arthrite microcristalline}"
+    action: "Ponction articulaire (cristaux d'urate/CPPD) + {r:colchicine 1 mg PO puis 0,5 mg 1 h après} ou {r:AINS + IPP}; hyperuricémie à corriger à distance [VÉRIFIER: posologie colchicine si insuffisance rénale]"
+  - description: "{s:Polyarthrite symétrique des petites articulations} (MCP, IPP, poignets) + raideur matinale >60 min depuis <3 mois"
+    dx_suspecte: "{p:Polyarthrite rhumatoïde précoce} (window of opportunity)"
+    action: "Bilan urgent: FR, {t:anti-CCP}, VS/CRP, Rx mains+pieds; orientation rhumatologie dans 4 semaines; traitement de fond ({r:méthotrexate}) à débuter rapidement [VÉRIFIER: délai optimal d'initiation MTX selon recommandations ACR/EULAR 2022]"
+  - description: "{s:Arthrite} + {s:rash malaire} ou {s:atteinte rénale} ou {s:cytopenies} ou AEG"
+    dx_suspecte: "{p:Lupus érythémateux systémique} / {p:Vascularite systémique}"
+    action: "Bilan immunologique urgent: AAN, anti-DNA natif, complément C3/C4, ANCA; créatininémie + sédiment urinaire; avis rhumatologie/médecine interne en urgence"
+  - description: "Homme jeune <45 ans — lombalgies {s:inflammatoires nocturnes} + raideur axiale + enthésites"
+    dx_suspecte: "{p:Spondylarthrite ankylosante} axiale"
+    action: "{t:IRM sacro-iliaques} + {t:HLA-B27}; orientation rhumatologie (anti-TNF si IRM positive et échec AINS)"
+  - description: "{s:Monoarthrite post-traumatique} aiguë avec hémarthrose (liquide sanglant)"
+    dx_suspecte: "{p:Lésion ligamentaire / méniscale} ou fracture ostéochondrale"
+    action: "Rx articulaire; ponction évacuatrice si épanchement important; avis chirurgie orthopédique"
+
+# source: line 159-166 (DD table MD)
+dd_top5:
+  - dx: "{p:Arthrose}"
+    indices: "Douleur mécanique (effort/fin de journée), raideur <30 min, IPD + CMC pouce + genou + hanche, crépitations, âge >50 ans, surpoids; Rx: ostéophytes + pincement"
+    freq: "très fréquent (30 % pop. >65 ans)"
+  - dx: "{p:Polyarthrite rhumatoïde}"
+    indices: "MCP/IPP symétriques, raideur >60 min, synovite palpable, FR+/anti-CCP+, amélioration AINS partielle; Score ACR/EULAR ≥6/10 = PR"
+    freq: "fréquent (0,5-1 % pop.)"
+  - dx: "{p:Arthrite microcristalline} (goutte / CPPD)"
+    indices: "Mono/oligoarthrite aiguë hyperalgique, 1ère MTP (goutte), genou (CPPD), début nocturne, hyperuricémie, cristaux à la ponction"
+    freq: "fréquent (goutte: 1-4 % pop. adulte)"
+  - dx: "{p:Arthrite septique}"
+    indices: "Monoarthrite fébrile, douleur intense + impotence totale, GB>10 G/L, CRP élevée, patient immunodéprimé ou prothèse articulaire"
+    freq: "rare mais urgence absolue (mortalité 10-15 %)"
+  - dx: "{p:Spondylarthrite} / arthrite réactionnelle"
+    indices: "Oligoarthrite asymétrique des membres inférieurs, lombalgies inflammatoires, enthésites, dactylite, uvéite, HLA-B27+, infection précédente (arthrite réactionnelle)"
+    freq: "fréquent (spondylarthropathies: 0,5-1 % pop.)"
+
+# source: line 132-155 (examens complémentaires MD)
+examens_complementaires:
+  - "{t:VS + CRP + NFS}: syndrome inflammatoire; anémie inflammatoire; thrombocytose → PR active [VÉRIFIER: seuil CRP retenu pour diagnostic PR active selon EULAR]"
+  - "{t:FR + anti-CCP}: si polyarthrite (FR: sens 70%/spéc 80%; anti-CCP: sens 60%/spéc 95%)"
+  - "{t:Acide urique} + {t:ponction articulaire}: monoarthrite aiguë hyperalgique (cristaux, culture, cytologie)"
+  - "{t:AAN + anti-DNA natif + complément C3/C4}: si arthrite + signes systémiques (lupus, connectivite)"
+  - "{t:HLA-B27 + IRM sacro-iliaques}: si suspicion spondylarthrite axiale (homme jeune, lombalgie inflammatoire)"
+  - "{t:Radiographies} articulations symptomatiques (mains/pieds face pour PR); {t:écho articulaire} si épanchement douteux"
+
+# source: line 195-223 (points clés MD) + pivots du brief
+pec_initiale:
+  immediate:
+    - "STOP: Arthrite fébrile mono-articulaire = urgence (ponction articulaire avant tout traitement)"
+    - "Antalgique palier 1: {r:paracétamol 1 g × 3-4/j PO} si douleur légère-modérée"
+    - "AINS si inflammatoire + pas de CI (ex: {r:ibuprofène 400-600 mg × 3/j PO + IPP}); éviter si IRC, UGD, grossesse"
+    - "Crise de goutte: {r:colchicine 1 mg puis 0,5 mg 1 h après PO} ou AINS; corticoïdes si CI aux deux"
+    - "PR précoce confirmée: orienter rhumatologie ≤4 sem; initier {r:méthotrexate 15 mg/sem PO + acide folique 5 mg/sem} après bilan pré-thérapeutique"
+    - "Arthrite septique: ATB IV empirique ({r:ceftriaxone 2 g/j IV}) après ponction + hémocultures; avis chirurgie"
+  orientation:
+    - "Urgences immédiates: arthrite septique suspectée, hémarthrose, altération état général sévère"
+    - "Rhumatologie <4 semaines: polyarthrite nouvelle, suspicion PR précoce (window of opportunity), arthrite psoriasique, spondylarthrite"
+    - "Ambulatoire + médecin traitant: arthrose, goutte stable, oligoarthrite bénigne avec bilan complet normal"
+    - "Consignes de retour: fièvre avec gonflement articulaire, douleur qui s'emballe, nouveau signe systémique (rash, hématurie)"
+
+criteres_hospitalisation:
+  - "{p:Arthrite septique} suspectée ou confirmée (ATB IV + drainage)"
+  - "Polyarthrite sévère avec AEG ou atteinte systémique (lupus actif, vascularite)"
+  - "Crise de goutte réfractaire au traitement ambulatoire ou patient polyallergique"
+  - "Hémarthrose importante avec suspicion de fracture ou lésion ligamentaire majeure"
+  - "Impossibilité de marcher (impotence fonctionnelle totale) sans diagnostic établi"
+
+pieges:
+  - "Traiter une monoarthrite fébrile comme une crise de goutte sans ponction — risquer de rater une {p:arthrite septique} (toujours ponctionner en premier)"
+  - "Oublier les pieds (MTP) à l'examen articulaire — première articulation touchée dans PR débutante ET crise de goutte"
+  - "Confondre raideur mécanique (<30 min) et inflammatoire (>60 min) — interrogatoire précis sur la durée exacte"
+  - "Rater un psoriasis discret (cuir chevelu, ombilical, ongles) et manquer une {p:arthrite psoriasique}"
+  - "Négliger le bilan immunologique chez une femme jeune avec arthrite — {p:lupus} jusqu'à preuve du contraire si signes systémiques"
+
+cartes_liees:
+  - SYS-MSQ
+  - SSP-MSQ-05

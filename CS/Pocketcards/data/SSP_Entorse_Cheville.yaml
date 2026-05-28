@@ -1,0 +1,173 @@
+id: SSP-MSQ-10
+type: ssp
+title: Entorse de cheville
+discipline: MSQ
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Entorse_Cheville.md
+
+# source: lines 16-51
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • douleur latérale (malléole ext. / LLE) ou médiale (malléole int. / LLI)?
+      • médio-pied (base 5e métatarse, naviculaire)?
+      • diffuse?
+    - |-
+      Onset / Mécanisme:
+      • {s:inversion} (85 % → lésion LLE) ou {s:éversion} (→ LLI/deltoïde)?
+      • hauteur de chute, vitesse, surface irrégulière?
+      • {s:craquement entendu}? (rupture ligamentaire ou fracture)
+    - "Character: douleur aiguë immédiate vs. indolence relative (Grade III paradoxal)?"
+    - |-
+      Time / cinétique:
+      • {s:gonflement} en < 2h? (hémarthrose → gravité)
+      • ecchymose (apparition retardée 24-48h)
+    - |-
+      Severity — impotence fonctionnelle:
+      • marche possible immédiatement et actuellement ({r:4 pas} pour Ottawa)?
+      • {s:instabilité ressentie} 'cheville qui lâche'?
+  specifique:
+    - |-
+      {t:Règles d'Ottawa} — radiographie cheville si douleur malléolaire ET:
+      • douleur osseuse bord post./pointe malléole latérale (6 cm distaux)
+      • douleur osseuse bord post./pointe malléole médiale (6 cm distaux)
+      • incapacité de faire {r:4 pas} immédiatement et aux urgences
+    - |-
+      {t:Règles d'Ottawa} — radiographie pied si douleur médio-pied ET:
+      • douleur palpation base 5e métatarse
+      • douleur palpation os naviculaire
+      • incapacité de faire {r:4 pas}
+    - |-
+      Classification {t:West Point / grades}:
+      • Grade I: élongation, pas de laxité, marche possible
+      • Grade II: rupture partielle, laxité modérée, boiterie
+      • Grade III: rupture complète, laxité franche, appui impossible
+    - "Facteurs de risque: ATCD entorses (nombre, gravité, séquelles instabilité); laxité constitutionnelle; sport (basket, foot, trail)?"
+  atcd:
+    - "Entorses précédentes: instabilité chronique? traitement rééducatif reçu?"
+    - "Médicaments: anticoagulants (risque hémarthrose majeure)? corticoïdes prolongés (fragilité tendineuse)?"
+    - "Sports pratiqués et niveau: retentissement sur prise en charge (Grade III + sportif haut niveau → avis chirurgical)?"
+    - "[VÉRIFIER: statut vaccinal tetanos pertinent si plaie associée — à confirmer protocole CHUV/HUG]"
+
+# source: lines 53-119
+examen:
+  general:
+    - "Signes vitaux: TA, FC (douleur intense → réaction vagale?)"
+    - "{s:Déformation grossière} visible avant tout examen: suspicion fracture/luxation → ne pas mobiliser, antalgie + RX en urgence"
+    - "Évaluation vasculo-nerveuse: {s:pouls pédieux + tibial postérieur}, sensibilité nerf fibulaire superficiel, remplissage capillaire"
+  cible:
+    - |-
+      Inspection:
+      • position spontanée du pied (varus/valgus forcé?)
+      • {s:œuf de pigeon latéral} = hématome sous-malléolaire
+      • ecchymose et étendue
+      • déformation (luxation / fracture?)
+    - |-
+      Palpation systématique ({t:Ottawa}) — 4 points osseux OBLIGATOIRES:
+      • bord postérieur/pointe malléole latérale (6 cm distaux)
+      • bord postérieur/pointe malléole médiale (6 cm distaux)
+      • base du {r:5e métatarse}
+      • os naviculaire (scaphoïde tarsien)
+      + tête du péroné (fracture de Maisonneuve!)
+    - |-
+      Palpation ligamentaire:
+      • {s:LTFA} (talo-fibulaire antérieur): juste en avant malléole lat. — le + touché
+      • LCF (calcanéo-fibulaire): trajet vers calcanéum
+      • ligament deltoïde (médial): si éversion
+    - |-
+      Tests de stabilité (aiguë: douleur peut fausser):
+      • {t:Tiroir antérieur}: pied 90°, translation ant. talus > 5mm ou asymétrique → lésion LTFA
+      • {t:Tilt test} (varus forcé): bâillement articulaire → lésion LCF
+      • {t:Squeeze test}: compression tibia-fibula mi-jambe → douleur cheville = lésion syndesmose (entorse haute) [VÉRIFIER: seuil diagnostic exact squeeze test]
+    - "Mobilité: flexion dorsale/plantaire; comparaison controlatérale"
+
+# source: lines 248-261 + task pivots
+red_flags:
+  - description: "{t:Ottawa} positif: douleur osseuse malléolaire/médio-pied + incapacité 4 pas, ou {s:déformation}, ou impotence totale"
+    dx_suspecte: "{p:Fracture malléole externe/interne ou fracture Jones (base 5e métatarse)}"
+    action: "RX cheville face + profil + pied; si déformation: antalgie IV + immobilisation + avis orthopédie"
+  - description: "{s:Claquement} entendu dans le mollet + {s:perte de propulsion} + {t:Thompson négatif} (absence de flexion plantaire à la compression du mollet)"
+    dx_suspecte: "{p:Rupture du tendon d'Achille}"
+    action: "Immobilisation en équin (botte), {t:échographie} ou {t:IRM} urgente, avis chirurgie orthopédique [VÉRIFIER: protocole chirurgie vs orthèse selon centre]"
+  - description: "{s:Déformation grossière de la cheville} avec pied en position anormale, déficit vasculo-nerveux distal"
+    dx_suspecte: "{p:Luxation tibio-talienne}"
+    action: "Réduction en urgence (antalgie IV + sédation), contrôle vasculaire, {t:RX} + avis orthopédie immédiat"
+  - description: "{s:Douleur disproportionnée} + tension cutanée + {s:paresthésies} + douleur à l'extension passive des orteils (5P)"
+    dx_suspecte: "{p:Syndrome compartimental aigu}"
+    action: "Mesure pression compartimentale; si pression > 30 mmHg ou delta < 30 mmHg: {r:fasciotomie} urgente"
+  - description: "{t:Squeeze test} + douleur col péroné + mécanisme éversion/rotation externe → Maisonneuve"
+    dx_suspecte: "{p:Diastasis tibio-fibulaire (Maisonneuve)}"
+    action: "{t:RX jambe entière} face + cheville stress view; avis orthopédie (vis de syndesmose probable) [VÉRIFIER: critères chirurgicaux diastasis selon centre]"
+
+# source: lines 1-7 + task pivots
+dd_top5:
+  - dx: "{p:Entorse LLE (talo-fibulaire antérieur)}"
+    indices: "Inversion, douleur antéro-latérale, LTFA+, Ottawa négatif; Grade I-III selon laxité"
+    freq: "très fréquent — 85 % des entorses de cheville"
+  - dx: "{p:Entorse LLI (ligament deltoïde)}"
+    indices: "Éversion, douleur médiale, sensibilité malléole interne; souvent associée à fracture péroné (Ottawa médial)"
+    freq: "moins fréquent — surtout sports de contact"
+  - dx: "{p:Fracture malléole externe ou interne}"
+    indices: "Douleur osseuse bord postérieur malléole, impotence totale, déformation; {t:Ottawa} positif — sensibilité 96-99 %"
+    freq: "15-20 % des traumatismes de cheville vus en urgence"
+  - dx: "{p:Fracture base 5e métatarse (Jones)}"
+    indices: "Douleur médio-pied latéral après inversion; souvent confondue avec entorse LLE; palpation base 5e métatarse + Ottawa pied"
+    freq: "fréquent — piège classique de l'entorse banalisée"
+  - dx: "{p:Lésion ostéochondrale du dôme talien}"
+    indices: "Douleur persistante > 6 semaines après entorse traitée, mécanique, ± accrochage; {t:IRM} confirme; Ottawa initialement négatif"
+    freq: "rare en aigu — à évoquer devant persistance inexpliquée"
+
+# source: lines 171-226
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — déformation / Ottawa positif → RX avant tout traitement"
+    - |-
+      Protocole {r:PRICE} phase aiguë (0-72h):
+      • P = Protection: attelle selon grade (I: strapping / II: attelle amovible / III: botte rigide ou plâtre)
+      • R = Rest relatif: mobilisation précoce dès que tolérée (meilleur pronostic)
+      • I = Ice: {r:20 min toutes les 2-3h × 48-72h} (protection cutanée)
+      • C = Compression: bandage élastique pied → jambe, retirer la nuit
+      • E = Élévation: membre au-dessus du cœur
+    - "Antalgie: {r:paracétamol 1 g × 4/j} 1ère ligne; {r:ibuprofène 400 mg × 3/j × 5-7 j max} si inflammation (CI: allergie, ulcère, IRC, grossesse) [VÉRIFIER: posologie AINS si poids < 50 kg]"
+    - "Béquilles si appui douloureux (Grade II-III)"
+    - |-
+      Traitement selon grade:
+      • Grade I: PRICE, reprise sport {r:1-2 sem}
+      • Grade II: attelle amovible {r:1-3 sem}, physio précoce, reprise sport {r:3-6 sem}
+      • Grade III: immobilisation {r:3 sem}, ± chirurgie si sportif haut niveau, reprise {r:6-12 sem}
+  orientation:
+    - "Domicile + médecin traitant: Ottawa négatif, Grade I-II, examen vasculo-nerveux normal"
+    - "Urgences / orthopédie: Ottawa positif, Grade III, déficit vasculo-nerveux, red flag"
+    - "Consignes retour urgences: douleur disproportionnée croissante, gonflement massif rapide, paresthésies, décoloration"
+    - "Physio obligatoire Grade II-III: proprioception, renforcement fibulaires, prévention instabilité chronique (40 % si mal traitée)"
+
+# source: lines 121-139 + red flags section
+examens_complementaires:
+  - "{t:RX cheville face + profil}: Ottawa positif (sensibilité 96-99 %)"
+  - "{t:RX pied face + profil + oblique}: Ottawa pied positif (base 5e métatarse, naviculaire)"
+  - "{t:RX jambe entière}: suspicion Maisonneuve (douleur col péroné + diastasis)"
+  - "{t:Échographie}: rupture tendon d'Achille, luxation tendons fibulaires, lésion ligamentaire en aigu"
+  - "{t:IRM}: lésion ostéochondrale dôme talien (douleur persistante > 6 sem), Grade III avec doute diagnostique"
+  - "Mesure pression compartimentale: syndrome compartimental cliniquement suspecté [VÉRIFIER: seuil d'intervention selon protocole local]"
+
+criteres_hospitalisation:
+  - "Red flag avéré: fracture déplacée, luxation, rupture Achille chirurgicale, syndrome compartimental"
+  - "Diastasis tibio-fibulaire (Maisonneuve) nécessitant vissage"
+  - "Déficit vasculo-nerveux distal"
+  - "Douleur incontrôlée malgré antalgie de palier I-II"
+  - "Grade III chez sportif haut niveau avec indication chirurgicale discutée"
+
+pieges:
+  - "Banaliser une douleur latérale → omettre la palpation de la {s:base du 5e métatarse} et rater une fracture de Jones"
+  - "Appliquer les règles d'Ottawa chez l'enfant ({e:< 18 ans}): plaques de croissance non visibles sur RX standard — seuil abaissé"
+  - "Le {s:claquement} + impossibilité de propulsion n'est pas une entorse grave — exclure la rupture du tendon d'Achille ({t:Thompson})"
+  - "Ne pas palper la {s:tête du péroné}: rater une fracture de Maisonneuve (diastasis avec entorse cheville apparemment banale)"
+  - "Oublier l'examen vasculo-nerveux: le syndrome compartimental ne doit pas être diagnostiqué en retard"
+
+cartes_liees:
+  - SYS-MSQ
+  - TOOL-OTTAWA

@@ -1,0 +1,168 @@
+id: SSP-MSQ-05
+type: ssp
+title: Douleur de l'épaule
+discipline: MSQ
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Douleur_Epaule.md
+
+# source: SSP_Douleur_Epaule.md line 9-86
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • antérieure (biceps, conflit) / latérale ({s:coiffe rotateurs}) / postérieure (instabilité)
+      • acromio-claviculaire / diffuse ({p:capsulite}, arthrose)
+    - |-
+      Onset — PIVOT traumatique vs non-traumatique:
+      • traumatique: chute bras tendu, abduction-rotation externe forcée, sport contact
+      • progressif: surutilisation (peintres, coiffeurs, tennis, natation)
+    - "Character: sourde / lancinante / coup de poignard; constante vs intermittente?"
+    - "Radiation: vers le cou, le bras, les doigts? → douleur projetée cervicale ou cardiaque?"
+    - |-
+      Time:
+      • durée, évolution; épisodes récurrents?
+      • {s:douleur nocturne} = signe cardinal {p:coiffe des rotateurs} (réveil, côté impossible)
+    - |-
+      Exacerbating / Relieving:
+      • aggravation: mouvements overhead, port de charges
+      • amélioration: repos, position antalgique; réponse AINS?
+    - "Severity: EVA 0-10; impact activités (se coiffer, main-nuque, main-dos, mouvements au-dessus tête)"
+  specifique:
+    - |-
+      Instabilité:
+      • sensation «épaule qui se déboîte» / appréhension / lâchage
+      • ATCD luxation(s): fréquence, réduction spontanée vs médicale
+    - |-
+      Terrain et âge:
+      • {e:> 40 ans}: {p:coiffe des rotateurs} fréquente
+      • {e:< 40 ans}: instabilité, surmenage
+      • {e:diabète}: {p:capsulite adhésive}; thyroïde, hypothyroïdie?
+    - |-
+      Douleurs projetées — à éliminer systématiquement:
+      • cervicales: cervicalgies, névralgie cervico-brachiale, paresthésies doigts
+      • cardiaques: angor épaule gauche + douleur thoracique + sueurs → {t:ECG}
+      • diaphragmatiques: cholécystite, pneumopathie basale
+      • tumorales: {p:Pancoast-Tobias} (apex pulmonaire + CBH + névralgie brachiale)
+  atcd:
+    - "ATCD orthopédiques: fractures, luxations, chirurgies épaule, ATCD coiffe?"
+    - "Maladies systémiques: {p:polyarthrite rhumatoïde}, diabète, hypothyroïdie, néoplasie"
+    - "Médicaments: AINS, corticoïdes, anticoagulants (implications thérapeutiques)"
+    - "Retentissement: arrêt travail, limitation sportive, qualité sommeil, anxiété/dépression"
+
+# source: SSP_Douleur_Epaule.md line 89-280
+red_flags:
+  - description: "{s:Impotence fonctionnelle complète post-traumatique} + déformation («épaulette creuse»)"
+    dx_suspecte: "{p:Luxation gléno-humérale}"
+    action: "{t:RX épaule face + axillaire} immédiate; réduction urgente (Hippocrate ou Kocher) sous antalgie/sédation; contrôle neurovasculaire (nerf axillaire) avant/après"
+  - description: "{s:Douleur aiguë sévère} + {s:déformation} après chute chez {e:personne âgée}"
+    dx_suspecte: "{p:Fracture humérus proximal}"
+    action: "{t:RX épaule} (face vraie + profil + axillaire); immobilisation écharpe; avis orthopédique; [VÉRIFIER: critères chirurgie vs conservateur selon classification Neer]"
+  - description: "{s:Fièvre} + {s:impotence fonctionnelle aiguë} + {s:chaleur/rougeur articulaire} sans traumatisme"
+    dx_suspecte: "{p:Arthrite septique gléno-humérale}"
+    action: "{t:Ponction articulaire} diagnostique et thérapeutique URGENTE + hémocultures; {r:ATB IV empirique} (staphylocoque couverts); avis orthopédique; [VÉRIFIER: protocole ATB local CHUV/HUG]"
+  - description: "Douleur épaule {e:gauche} + {s:douleur thoracique} + {s:dyspnée} ou {s:sueurs}"
+    dx_suspecte: "{p:Syndrome coronarien aigu} (douleur projetée)"
+    action: "{t:ECG} STAT + {t:troponines}; O2 si SaO2 < 94%; activation filière urgences cardio"
+  - description: "{e:> 50 ans}: douleur {s:ceintures scapulaire et pelvienne} bilatérale + raideur matinale + {t:VS > 50 mm/h}"
+    dx_suspecte: "{p:Polymyalgie rhumatismale} ± {p:artérite de Horton}"
+    action: "{t:VS + CRP} STAT; {r:prednisone 15-20 mg/j PO} sans attendre biopsie; si céphalée temporale/trouble visuel → biopsie artère temporale [VÉRIFIER: dose prednisone PMR vs Horton]"
+
+# source: SSP_Douleur_Epaule.md line 89-168
+examen:
+  general:
+    - "Signes vitaux: T°, FC, TA, FR — T° > 38°C → arthrite septique jusqu'à preuve du contraire"
+    - "Inspection comparative bilatérale (torse nu debout): asymétrie, déformation, amyotrophie fosses sus/sous-épineuses, position antalgique"
+    - "Bilan neurovasculaire: pouls radial, sensibilité moignon épaule (nerf axillaire), force 4 membres"
+  cible:
+    - |-
+      Palpation systématique:
+      • clavicule, acromion, articulation acromio-claviculaire (douleur = arthrose AC)
+      • processus coracoïde, gouttière bicipitale (tendon long biceps)
+      • tubercule majeur (trochiter): douleur = tendinopathie coiffe
+    - |-
+      Mobilités comparatives — clé diagnostique:
+      • passive normale + active diminuée → atteinte musculo-tendineuse (coiffe)
+      • passive ET active diminuées → atteinte articulaire ({p:capsulite}, arthrose)
+      • arc douloureux {r:70-120°}: conflit sous-acromial
+    - |-
+      Tests coiffe des rotateurs:
+      • {t:Jobe (Empty can)}: abduction 90° + antépulsion 30° + RI, résistance vers le bas → supra-épineux (Sn 86%)
+      • {t:Patte}: rotation externe contrariée coude 90° → infra-épineux/petit rond
+      • {t:Gerber (Lift-off)}: main dans le dos, décollement → sous-scapulaire
+    - |-
+      Tests conflit sous-acromial:
+      • {t:Neer}: élévation passive forcée bras tendu (Sn 75%)
+      • {t:Hawkins-Kennedy}: flexion 90° + RI forcée → douleur espace sous-acromial
+    - |-
+      Tests instabilité:
+      • {t:appréhension antérieure}: décubitus, abduction 90° + RE progressive → appréhension
+      • {t:recentrage (relocation)}: pression postérieure → disparition appréhension = instabilité ant.
+    - |-
+      Tests long biceps:
+      • {t:Speed}: bras tendu, élévation antérieure contrariée → gouttière bicipitale
+      • {t:Yergason}: coude 90°, supination contrariée → gouttière bicipitale
+    - "Examen cervical systématique: mobilités, Spurling, réflexes C5-C6-C7-C8 → névralgie cervico-brachiale"
+
+dd_top5:
+  - dx: "{p:Tendinopathie / syndrome de conflit sous-acromial}"
+    indices: "Douleur latérale, arc {r:70-120°}, nocturne modérée; Neer + Hawkins +; > 40 ans, overhead; imagerie: radio + écho ou IRM"
+    freq: "très fréquent (cause n°1 douleur épaule ambulatoire, > 40 ans)"
+  - dx: "{p:Capsulite adhésive (épaule gelée)}"
+    indices: "{s:Limitation passive ET active} (raideur globale, main-dos limitée); évolution 3 phases (18-24 mois); {e:diabète}, hypothyroïdie; passive = active [VÉRIFIER: critères diagnostiques capsulite vs arthrose]"
+    freq: "fréquent (2-5% pop., F > H, 40-60 ans)"
+  - dx: "{p:Arthrose acromio-claviculaire / gléno-humérale}"
+    indices: "Douleur mécanique chronique, crépitations, raideur matinale < 30 min; palpation AC douloureuse; RX: pincement, ostéophytes"
+    freq: "fréquent (> 50 ans, terrain dégénératif)"
+  - dx: "{p:Rupture coiffe des rotateurs}"
+    indices: "{s:Douleur nocturne sévère} + {s:perte force abduction} (signe du clairon); Jobe +, Patte +; > 50 ans; IRM gold standard (Sn 89%)"
+    freq: "fréquent (prévalence 20% > 60 ans, souvent asymptomatique)"
+  - dx: "{p:Instabilité gléno-humérale}"
+    indices: "< 40 ans sportif; ATCD luxation, sensation déboîtement; appréhension + relocation +; IRM: lésion Bankart"
+    freq: "moins fréquent (jeune sportif, sports contact)"
+
+# source: SSP_Douleur_Epaule.md line 189-280
+examens_complementaires:
+  - "{t:RX épaule} (face vraie + profil + axillaire): 1re intention toujours — fracture, luxation, calcifications, pincement, espace sous-acromial, type acromion Bigliani"
+  - "{t:Échographie épaule} (opérateur-dépendant): coiffe (Sn 87%, Sp 96%), examen dynamique conflit, guidage infiltrations"
+  - "{t:IRM épaule} (gold standard): ruptures coiffe (Sn 89%, Sp 93%), labrum, instabilité, œdème osseux; si doute diagnostique ou chirurgie envisagée"
+  - "{t:Arthro-IRM}: lésions SLAP, ruptures partielles articulaires (Sn 82-100%)"
+  - "{t:VS + CRP}: si suspicion inflammatoire/systémique (PMR, PR, arthrite septique)"
+  - "{t:ECG + troponines}: si douleur épaule gauche + signes cardiaques associés"
+
+pec_initiale:
+  immediate:
+    - "Red flag d'abord: luxation → réduction urgente; fracture → immobilisation + orthopédie; arthrite septique → ponction + ATB IV; SCA → ECG STAT"
+    - |-
+      Tendinopathie/conflit phase aiguë:
+      • {r:ibuprofène 600 mg × 3/j × 2-3 semaines} (ou diclofénac si contre-indication) + protection gastrique
+      • repos relatif (éviter overhead); glace 15-20 min × 3-4/j
+      • exercices pendulaires de Codman précoces
+    - "Capsulite: {r:AINS + antalgiques}; infiltrations intra-articulaires précoces; mobilisation douce; kinésithérapie (étirements); hydrodilatation si échec [VÉRIFIER: bénéfice corticoïdes oraux capsulite selon recommandations SOFCOT]"
+    - "Rupture coiffe: conservateur (kiné intensive, infiltrations) si partielle ou patient > 65 ans; chirurgie précoce si rupture aiguë traumatique, > 3 cm, patient actif < 65 ans"
+    - "Instabilité: renforcement / proprioception en 1re intention; chirurgie si récidives (Bankart arthroscopique, butée si perte glénoïde)"
+  orientation:
+    - "Urgences (même jour): luxation, fracture, arthrite septique suspectée, SCA"
+    - "Orthopédie: rupture coiffe chirurgicale, instabilité récidivante, échec conservateur > 3-6 mois"
+    - "Rhumatologie: suspicion PR, PMR, arthropathie inflammatoire complexe"
+    - "Domicile + suivi MT: tendinopathie/conflit typique sans red flag — réévaluation à 4-6 semaines"
+
+criteres_hospitalisation:
+  - "{p:Luxation gléno-humérale} irréductible ou fracture-luxation (complication neurovasculaire)"
+  - "{p:Arthrite septique gléno-humérale} confirmée ou fortement suspectée"
+  - "Fracture humérus proximal instable ou déplacée (décision chirurgicale)"
+  - "{p:Syndrome coronarien aigu} comme cause de douleur projetée"
+  - "Douleur sévère incontrôlable + impotence fonctionnelle totale"
+
+pieges:
+  - "Omettre l'examen cervical: une {p:névralgie cervico-brachiale} C5-C6 mime parfaitement une tendinopathie de l'épaule"
+  - "Confondre limitation active vs passive: passive normale + active diminuée = coiffe; toutes deux diminuées = articulation ({p:capsulite}, arthrose)"
+  - "Mobiliser en force une {p:capsulite adhésive}: aggrave la douleur — kiné douce et progressive uniquement"
+  - "Ne pas demander {t:ECG} devant une douleur épaule gauche chez un patient avec facteurs de risque cardiovasculaires"
+  - "Prescrire l'IRM en première intention sans essai conservateur (4-6 semaines) sauf red flag ou indication chirurgicale d'emblée"
+
+cartes_liees:
+  - SYS-MSQ
+  - SSP-MSQ-06

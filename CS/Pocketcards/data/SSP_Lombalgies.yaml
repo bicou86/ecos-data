@@ -1,0 +1,184 @@
+id: SSP-MSQ-01
+type: ssp
+title: Lombalgies
+discipline: MSQ
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Lombalgies.md
+
+# source: lines 15-172
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • localisation médiane ou latéralisée?
+      • irradiation: fesse / cuisse / jambe / pied (trajet L4, L5, S1)?
+    - |-
+      Onset:
+      • début brutal ou progressif?
+      • après effort / faux mouvement / traumatisme?
+      • première fois ou récurrent (fréquence, durée des épisodes)?
+    - |-
+      Character:
+      • {s:mécanique} = aggravée mouvement, soulagée au repos
+      • {s:inflammatoire} = nocturne, raideur matinale {r:> 30 min}, non soulagée au repos → {p:SpA}?
+    - "Radiation: trajet radiculaire précis? Bilatéral? Fourmillements / hypoesthésie périnéale?"
+    - |-
+      Time:
+      • durée totale de l'épisode
+      • aiguë < 4 sem / subaiguë 4-12 sem / chronique > 12 sem
+      • impact sommeil / arrêt de travail?
+    - "Exacerbating / relieving: antalgiques (lesquels, efficacité)? Physiothérapie? Infiltrations?"
+    - "Severity: EVA 0-10; retentissement activités quotidiennes?"
+  specifique:
+    - |-
+      {s:Signes queue de cheval} ⚠️ URGENCE ABSOLUE:
+      • incontinence / rétention urinaire?
+      • incontinence fécale?
+      • {s:anesthésie en selle} (périnée)?
+      • impuissance récente?
+    - |-
+      Symptômes neurologiques:
+      • faiblesse jambe: marche sur talons (L4-L5) / pointes (S1) / steppage?
+      • engourdissements, fourmillements — dermatome précis?
+    - "Fièvre > 38 °C / frissons / sueurs nocturnes profuses → {p:spondylodiscite}?"
+    - "Douleur nocturne réveillant + pas d'amélioration au repos? Douleur progressive malgré traitement?"
+    - "Facteurs psychosociaux ({s:drapeaux jaunes}): kinésiophobie, catastrophisme, stress, litige/compensation?"
+  atcd:
+    - |-
+      ATCD oncologiques (sein, poumon, prostate, rein, thyroïde)?
+      Perte de poids inexpliquée > 4,5 kg / 3 mois? AEG?
+    - |-
+      Facteurs de risque fracture vertébrale:
+      • âge > 70 ans (F) / > 75 ans (H)?
+      • corticothérapie > 7,5 mg/j > 3 mois?
+      • ATCD fracture fragilité? IMC < 19?
+    - "ATCD infectieux: toxicomanie IV, immunosuppression (VIH, chimio), diabète déséquilibré, chirurgie rachidienne récente?"
+    - "ATCD rhumatismaux: spondylarthrite ankylosante, polyarthrite, hernies discales connues, chirurgie rachidienne?"
+    - "Traitements actuels: antalgiques, AINS, myorelaxants, anticoagulants (important pour infiltrations)?"
+
+# source: lines 332-356
+red_flags:
+  - description: |-
+      {s:Sciatique bilatérale} + {s:anesthésie en selle} + troubles sphinctériens
+      (rétention/incontinence urinaire ou fécale) ± déficit moteur
+    dx_suspecte: "{p:Syndrome de la queue de cheval}"
+    action: "{t:IRM lombaire} en URGENCE immédiate; chirurgie décompressive < 48h"
+  - description: |-
+      {s:Fièvre} > 38 °C + douleur dorsale localisée + facteurs de risque
+      (toxicomanie IV, immunosuppression, chirurgie rachidienne récente, diabète)
+    dx_suspecte: "{p:Spondylodiscite / spondylite infectieuse}"
+    action: "{t:IRM rachis} urgente + {t:hémocultures × 3} avant ATB; {r:ATB IV} après prélèvements"
+  - description: |-
+      ATCD cancer connu + douleur dorsale nouvelle nocturne / progressive +
+      AEG ({s:perte de poids} > 4,5 kg, anorexie, fatigue intense)
+    dx_suspecte: "{p:Métastase vertébrale / néoplasie}"
+    action: "{t:IRM rachis} urgente + {t:scanner TAP} + bilan oncologique (NFS, VS/CRP, LDH, PSA/CA15-3)"
+  - description: |-
+      Traumatisme (même minime) OU facteurs risque ostéoporose:
+      {e:âge > 70 ans}, corticothérapie prolongée, ATCD fracture fragilité
+    dx_suspecte: "{p:Fracture vertébrale}"
+    action: "{t:Radiographies lombaires} F+P (1ère intention); {t:scanner} si RX normales mais forte suspicion; {t:IRM} pour œdème osseux"
+  - description: |-
+      {e:< 45 ans} + {s:raideur matinale lombaire > 30 min} + douleur inflammatoire
+      (nocturne, non soulagée au repos) ± uvéite / psoriasis / MICI
+    dx_suspecte: "{p:Spondylarthrite axiale}"
+    action: "Bilan rhumatologique: {t:HLA-B27}, {t:VS/CRP}, {t:IRM sacro-iliaques} [VÉRIFIER: délai acceptable vs urgence]"
+  - description: |-
+      {e:> 60 ans} + HTA + tabagisme + {s:douleur abdominale pulsatile} ± malaise/syncope
+    dx_suspecte: "{p:Anévrisme de l'aorte abdominale (AAA)}"
+    action: "{t:Scanner abdominal} en urgence; chirurgie vasculaire si rupture"
+
+# source: lines 174-326
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T°, FR — TA élevée orienter vers cause secondaire"
+    - "Inspection marche d'entrée: boiterie / steppage / attitude antalgique?"
+    - "Observation rachis debout: scoliose, lordose effondrée, gibbosité, déformation?"
+    - "Palpation abdominale: masse pulsatile (AAA)? Globe vésical? Douleur flancs (colique néphrétique)?"
+  cible:
+    - |-
+      Mobilité rachidienne (debout):
+      • {t:Test de Schober}: marquer L5 + 10 cm au-dessus → flexion ≥ 5 cm (normal 15 cm total) [VÉRIFIER: valeur seuil Schober SpA]
+      • distance doigts-sol; inclinaisons latérales; extension
+    - |-
+      Tests radiculaires (couché):
+      • {t:Lasègue} L5-S1: positif si douleur irradiante {r:30-70°} (< 30° = simulation)
+      • Bragard: Lasègue + dorsiflexion pied (augmente tension sciatique)
+      • Lasègue inversé L3-L4: procubitus, extension hanche genou fléchi → face antérieure cuisse
+    - |-
+      Tests sacro-iliaques:
+      • {t:FABER} (Patrick): flexion-abduction-rotation externe → douleur SI = sacro-iliite
+      • Percussion vertébrale: douleur localisée → fracture / discite
+    - |-
+      Examen neurologique ciblé ⚠️ SYSTÉMATIQUE:
+      • Force: talons (L4-L5) / pointes (S1) / Quadriceps (L3-L4)
+      • ROT: rotulien (L3-L4) / achilléen (S1) — comparaison bilatérale
+      • Sensibilité: L4 (malléole interne) / L5 (gros orteil) / S1 (bord externe pied) / S2-S5 (selle)
+      • Babinski (signe pyramidal)?
+    - "TR si doute syndrome queue de cheval: tonus sphinctérien, sensibilité périnéale [VÉRIFIER: seuil indication TR en pratique ECOS]"
+
+# source: lines 327-356
+examens_complementaires:
+  - "{t:IRM lombaire} urgente: syndrome queue de cheval, déficit moteur progressif, suspicion infection/néoplasie"
+  - "{t:Radiographies lombaires F+P}: 1ère intention si suspicion fracture (trauma, ostéoporose)"
+  - "{t:Scanner lombaire}: si RX normales mais forte suspicion fracture; ou sténose canalaire"
+  - "{t:VS + CRP} + {t:NFS}: drapeaux rouges infectieux / néoplasiques / inflammatoires"
+  - "{t:Hémocultures × 3} avant ATB: suspicion spondylodiscite"
+  - "{t:HLA-B27} + {t:IRM sacro-iliaques}: suspicion spondylarthrite axiale < 45 ans"
+
+# source: lines 358-452
+pec_initiale:
+  immediate:
+    - "Red flag → investigations AVANT antalgiques; ne pas banaliser la douleur nocturne ou progressive"
+    - |-
+      Lombalgie aiguë simple (pas de red flag):
+      • {r:Paracétamol 1 g × 4/j}
+      • AINS: {r:ibuprofène 400 mg × 3/j} ± {r:IPP} si risque GI [VÉRIFIER: posologie ibuprofène selon poids/fonction rénale]
+      • Myorelaxants si contractures (tizanidine, courte durée)
+    - "Maintien des activités adaptées — éviter repos au lit > 2 jours (aggrave pronostic)"
+    - "Sciatique hyperalgique: {r:prégabaline} ± {r:corticoïdes oraux} courte durée; infiltration épidurale si échec > 4-6 sem"
+    - "{p:Syndrome queue de cheval}: transfert urgences immédiat, IRM STAT, décompression < 48h"
+  orientation:
+    - "Domicile + suivi MT: lombalgie commune < 4 sem, examen normal, pas de red flag"
+    - "Urgences: queue de cheval, déficit moteur progressif, fièvre + douleur dorsale, AAA suspecté"
+    - "Rhumatologie ambulatoire: suspicion SpA (< 45 ans, inflammatoire), subaiguë > 4-6 sem sans amélioration"
+    - "Physiothérapie active dès 1ère semaine; programme multidisciplinaire si risque chronicisation (drapeaux jaunes)"
+
+criteres_hospitalisation:
+  - "{p:Syndrome queue de cheval} (IRM + chirurgie urgente < 48h)"
+  - "Déficit moteur < {r:3/5} progressif"
+  - "Suspicion {p:spondylodiscite}: fièvre + douleur + facteurs de risque → ATB IV"
+  - "Suspicion {p:fracture instable} ou {p:métastase} avec risque neurologique"
+  - "{p:AAA} rompu ou suspecté (douleur abd. + collapsus)"
+
+pieges:
+  - "Minimiser le {p:syndrome queue de cheval}: toute sciatique bilatérale + trouble sphinctérien = IRM STAT + chirurgie < 48h"
+  - "Prescrire imagerie systématique sans red flag — augmente coût et iatrogénie sans bénéfice"
+  - "Oublier les causes extra-spinales: {p:AAA}, colique néphrétique, pathologie gynécologique (vérifier abdomen + fosses lombaires)"
+  - "Confondre lombosciatique {s:mécanique} et {s:inflammatoire} — raideur matinale > 30 min chez < 45 ans → SpA jusqu'à preuve du contraire"
+  - "Prescrire opioïdes forts d'emblée ou repos au lit prolongé (aggrave chronicisation)"
+
+# source: lines 138-165
+dd_top5:
+  - dx: "{p:Lombalgie commune (non spécifique)}"
+    indices: "Mécanique (effort/mouvement), pas de red flag, examen neuro normal, résolution spontanée habituelle"
+    freq: "très fréquent (80-90 % des lombalgies)"
+  - dx: "{p:Lombosciatique discale (L4-L5 / L5-S1)}"
+    indices: "{s:Lasègue} positif 30-70°, douleur irradiante trajet radiculaire, déficit sensitif/moteur segmentaire"
+    freq: "fréquent"
+  - dx: "{p:Sténose canalaire lombaire}"
+    indices: "{e:> 60 ans}, {s:claudication neurogène} (douleur à la marche, soulagée penché en avant), bilatérale"
+    freq: "fréquent chez >60 ans"
+  - dx: "{p:Spondylarthrite axiale}"
+    indices: "{e:< 45 ans}, inflammatoire (nocturne, raideur > 30 min), FABER+, HLA-B27 positif dans 90 %, IRM sacro-iliaques"
+    freq: "prévalence 0,5-1 %"
+  - dx: "{p:Fracture vertébrale / métastase}"
+    indices: "Trauma ou ostéoporose, douleur nocturne progressive, ATCD cancer, AEG, percussion vertébrale douloureuse"
+    freq: "< 1-4 % des lombalgies en soins primaires"
+
+cartes_liees:
+  - SYS-MSQ
+  - TOOL-LASEGUE

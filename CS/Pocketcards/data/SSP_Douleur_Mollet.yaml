@@ -1,0 +1,200 @@
+id: SSP-MSQ-09
+type: ssp
+title: Douleur du mollet
+discipline: MSQ
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Douleur_Mollet.md
+
+# source: SSP_Douleur_Mollet.md lignes 1-175
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • unilatéral ou bilatéral? (unilatéral = {p:TVP}++)
+      • face postérieure / latérale du mollet?
+      • toute la jambe ou mollet seul?
+    - |-
+      Onset:
+      • brutal (claquage, thrombus) ou progressif (AOMI, neuropathie)?
+      • circonstances: repos / effort / voyage / position assise prolongée?
+    - "Character: crampe / brûlure / lourdeur / tension / pulsatile?"
+    - |-
+      Time:
+      • durée et évolution (constant vs intermittent)?
+      • première fois ou récidive?
+    - |-
+      Exacerbating:
+      • marche — après quelle distance? (périmètre de marche fixe = {p:AOMI})
+      • dorsiflexion du pied?
+      • station debout ou descente d'escalier (claudication neurogène)?
+    - |-
+      Relieving:
+      • arrêt debout immobile → vasculaire
+      • assis/penché en avant → neurogène
+      • surélévation jambe?
+    - "Severity: échelle 0-10 — empêche la marche? réveille la nuit?"
+  specifique:
+    - |-
+      {s:Œdème} associé:
+      • asymétrie des mollets? (mesurer circonférence {r:10 cm sous tubérosité tibiale})
+      • godet à la pression?
+      • unilatéral = {p:TVP}++ / bilatéral = insuffisance veineuse/cardiaque
+    - "{s:Rougeur} locale (phlébite, érysipèle) / {s:pâleur} (ischémie) / cyanose?"
+    - "Chaleur locale (inflammation/infection) vs froideur (ischémie)?"
+    - |-
+      {s:Symptômes d'EP} — RED FLAG:
+      • dyspnée brutale, douleur thoracique, hémoptysie?
+      • tachycardie, désaturation?
+    - |-
+      Claudication intermittente:
+      • distance fixe → {p:AOMI} (vasculaire)
+      • distance variable, soulagé assis → claudication neurogène
+    - "Sensation de claquage / bruit entendu? hématome? → déchirure/rupture musculaire"
+    - "[VÉRIFIER: ATCD kyste poplité — rupture kyste de Baker peut mimer parfaitement TVP]"
+  atcd:
+    - |-
+      FDR thromboemboliques (score Wells):
+      • immobilisation > 3 j / alitement / plâtre / paralysie
+      • chirurgie < 4 semaines / anesthésie générale
+      • voyage avion > 4h ou voiture > 6h
+      • cancer actif / chimiothérapie
+      • grossesse / post-partum < 6 semaines
+      • pilule œstroprogestative / THS
+      • ATCD TVP/EP personnelle ou familiale / thrombophilie connue
+      • obésité IMC > 30 / varices / insuffisance cardiaque
+    - |-
+      FDR cardiovasculaires (AOMI):
+      • tabac (paquets-années) — principal FDR AOMI
+      • HTA / diabète / dyslipidémie / ATCD coronarien, AVC, artérite
+    - |-
+      Contexte traumatique/sportif:
+      • effort inhabituel ou changement d'entraînement?
+      • traumatisme direct / chute?
+    - |-
+      Médicaments:
+      • anticoagulants (protection ou risque hématome?)
+      • statines (myalgies) / diurétiques (crampes)
+    - "Alcool (neuropathie) / injection IV (infection) / hydratation?"
+
+# source: SSP_Douleur_Mollet.md lignes 181-280
+red_flags:
+  - description: "{s:Douleur mollet + Wells ≥ 2} + FDR thromboemboliques ± {s:œdème unilatéral} ± {s:Homans positif}"
+    dx_suspecte: "{p:Thrombose veineuse profonde (TVP)}"
+    action: "{t:Score de Wells} → {t:D-dimères} si probabilité faible/intermédiaire; si élevée ou D-dim+ → {t:écho-Doppler veineux MI} EN URGENCE; anticoagulation immédiate ({r:rivaroxaban 15 mg x2/j} ou {r:enoxaparine 1 mg/kg x2/j SC})"
+  - description: "{s:Dyspnée brutale + tachycardie + désaturation} chez patient avec douleur mollet"
+    dx_suspecte: "{p:Embolie pulmonaire (EP)}"
+    action: "{t:Score de Wells EP} + {t:D-dimères}; si probabilité élevée → {t:angio-CT thoracique} URGENT + anticoagulation sans délai"
+  - description: "{s:Douleur + pâleur + absence de pouls + paresthésies + paralysie} — apparition brutale"
+    dx_suspecte: "{p:Ischémie aiguë de membre}"
+    action: "{t:Écho-Doppler artériel} + {r:héparine IV} immédiate + avis chirurgie vasculaire urgente (revascularisation en < 6h)"
+  - description: "{s:Douleur mollet disproportionnée + tension extrême du mollet + paresthésies} après effort intense ou trauma"
+    dx_suspecte: "{p:Syndrome des loges aigu}"
+    action: "Mesure pression intracompartimentale [VÉRIFIER: seuil de fasciotomie — généralement > 30 mmHg ou delta < 30 mmHg]; {r:fasciotomie} EN URGENCE; NE PAS surélever le membre"
+  - description: "{s:Douleur mollet extrême + crépitations + nécrose cutanée + fièvre + sepsis}"
+    dx_suspecte: "{p:Fasciite nécrosante}"
+    action: "Chirurgie de débridement URGENTE + {r:ATB large spectre IV} (pipéracilline-tazobactam + clindamycine) [VÉRIFIER: protocole ATB local CHUV/HUG]; hospitalisation USI"
+
+# source: SSP_Douleur_Mollet.md lignes 181-280
+examen:
+  general:
+    - "Signes vitaux: TA (2 bras si AOMI), FC (tachycardie = EP?), T° (fièvre = infection/TVP?), FR, SaO2"
+    - "Inspection: asymétrie mollets, couleur cutanée (rougeur / pâleur / cyanose), varices, ulcères, dermite ocre"
+    - "Mesure circonférence mollets: {r:10 cm sous tubérosité tibiale} bilatéral — différence > 3 cm = TVP probable"
+  cible:
+    - |-
+      Palpation mollets (bilatérale comparative):
+      • température cutanée (chaleur = inflammation; froid = ischémie)
+      • douleur sur trajet veineux? consistance (empâtement)
+      • signe du godet: durée et remontée de l'œdème
+      • cordon veineux induré? (thrombose superficielle)
+    - |-
+      {t:Pouls périphériques} — OBLIGATOIRE:
+      • poplité / tibial postérieur / pédieux
+      • comparer les 2 côtés; pouls absents → ischémie/AOMI
+    - |-
+      Tests vasculaires veineux:
+      • {t:Signe de Homans}: dorsiflexion passive du pied → douleur mollet (peu sensible/spécifique; NE PAS forcer)
+      • {t:Signe du lacet (Lowenberg)}: brassard TA mollet, douleur < 150 mmHg = positif
+    - |-
+      Si AOMI suspectée:
+      • {t:IPS (ABI)}: < 0.9 = AOMI; < 0.5 = AOMI sévère [VÉRIFIER: seuil IPS selon guidelines ESC]
+      • auscultation souffles fémoraux/iliaques
+      • test de Buerger: pâleur à la surélévation, érythème en déclive
+    - |-
+      Examen neurologique si claudication neurogène:
+      • {t:Lasègue}, ROT achilléen/rotulien, sensibilité territoire L5-S1
+      • marche sur talons et pointes
+    - |-
+      Examen musculaire:
+      • palpation gastrocnémiens/soléaire — recherche défect (rupture) / hématome
+      • {t:Test de Thompson}: compression mollet → absence de flexion plantaire = rupture tendon achilléen
+
+# source: SSP_Douleur_Mollet.md lignes 323-337
+dd_top5:
+  - dx: "{p:Crampe / élongation musculaire}"
+    indices: "Effort sportif inhabituel, déshydratation, déséquilibre électrolytique; douleur à l'effort ou nocturne; soulagée au repos/étirement; statines ou diurétiques"
+    freq: "très fréquent"
+  - dx: "{p:TVP}"
+    indices: "Unilatéral++, {t:Wells} ≥ 2, FDR thromboemboliques, œdème unilatéral, chaleur locale, Homans ±; D-dimères + écho-Doppler veineux confirment"
+    freq: "fréquent, urgence médico-légale"
+  - dx: "{p:AOMI / claudication intermittente}"
+    indices: "Périmètre de marche fixe, soulagé à l'arrêt debout, FRCV (tabac+++), pouls diminués/absents, {t:IPS} < 0.9"
+    freq: "fréquent après 50 ans"
+  - dx: "{p:Kyste de Baker rompu}"
+    indices: "ATCD arthropathie / genou; douleur brutale 'coup de fouet', ecchymose déclive, gonflement mollet, {t:écho} confirme — peut coexister avec TVP!"
+    freq: "fréquent, souvent confondu avec TVP"
+  - dx: "{p:Cellulite / érysipèle}"
+    indices: "Fièvre, placard érythémateux chaud, porte d'entrée cutanée, adénopathie inguinale, CRP élevée; frontière peau marquée (érysipèle)"
+    freq: "fréquent"
+
+# source: SSP_Douleur_Mollet.md lignes 283-410
+pec_initiale:
+  immediate:
+    - "STOP red flags: tout Wells élevé / D-dim+ → écho-Doppler veineux AVANT autre bilan"
+    - |-
+      {p:TVP} confirmée:
+      • {r:Rivaroxaban 15 mg x2/j x21 j puis 20 mg/j} OU {r:enoxaparine 1 mg/kg x2/j SC}
+      • durée {r:3-6 mois minimum} (selon cause)
+      • contention élastique classe 2 ({r:20-30 mmHg}); mobilisation précoce (pas d'alitement)
+    - "Crampe / élongation: RICE (repos, glace 20 min/2h, compression, élévation); {r:paracétamol ± AINS courte durée}; kiné précoce"
+    - |-
+      {p:AOMI}:
+      • arrêt tabac impératif + contrôle FRCV strict
+      • {r:aspirine 100 mg/j} + statine systématique
+      • revascularisation si ischémie critique ou claudication invalidante résistante
+    - "Cellulite/érysipèle: {r:amoxicilline-clavulanate 1 g x3/j PO} (IV si signes systémiques); marquage limites érythème; traitement porte d'entrée"
+  orientation:
+    - "Urgences immédiates: suspicion TVP (Wells élevé), EP, ischémie aiguë, syndrome des loges, fasciite nécrosante"
+    - "Hospitalisation: TVP proximale, AOMI avec ischémie critique, cellulite avec signes systémiques"
+    - "Ambulatoire + suivi: TVP distale isolée à faible risque, AOMI stable, crampe/élongation légère"
+    - "Consignes retour urgences: dyspnée brutale (EP!), membre froid et pâle, douleur intolérable, fièvre élevée"
+
+examens_complementaires:
+  - "{t:Score de Wells TVP} → {t:D-dimères}: si probabilité faible/intermédiaire; D-dim négatifs = exclusion TVP fiable"
+  - "{t:Écho-Doppler veineux MI}: gold standard TVP; EN URGENCE si Wells élevé ou D-dim+"
+  - "{t:IPS (ABI)}: suspicion AOMI (< 0.9 = AOMI; < 0.5 = sévère)"
+  - "{t:FSC, CRP, VS}: suspicion infection (cellulite, fasciite); hémocultures si fièvre"
+  - "{t:Échographie musculaire / mollet}: déchirure musculaire, rupture tendon, kyste Baker"
+  - "{t:IRM lombaire}: claudication neurogène (sténose canalaire, hernie discale L4-L5/L5-S1)"
+
+criteres_hospitalisation:
+  - "Suspicion TVP proximale confirmée ou EP → anticoagulation en urgence"
+  - "Ischémie aiguë de membre (5P) → chirurgie vasculaire < 6h"
+  - "Syndrome des loges aigu → fasciotomie urgente"
+  - "Fasciite nécrosante → chirurgie + USI"
+  - "Cellulite/érysipèle avec sepsis ou immunodépression"
+
+pieges:
+  - "Banaliser une douleur mollet unilatérale avec œdème — toujours calculer {t:Wells} et exclure {p:TVP}"
+  - "Confondre {p:kyste de Baker rompu} avec TVP — l'écho confirme mais attention: peuvent coexister!"
+  - "Oublier la {t:SaO2} et les signes d'EP (dyspnée brutale) en présence d'une TVP confirmée"
+  - "Ne pas palper les pouls périphériques — manquer une {p:AOMI} sévère ou ischémie aiguë"
+  - "Méconnaître le syndrome des loges aigu post-effort (douleur disproportionnée + tension extrême = urgence chirurgicale)"
+
+cartes_liees:
+  - SYS-MSQ
+  - TOOL-WELLS-TVP
+  - SSP-CAR-01

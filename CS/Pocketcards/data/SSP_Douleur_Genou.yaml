@@ -1,0 +1,192 @@
+id: SSP-MSQ-06
+type: ssp
+title: Douleur du genou
+discipline: MSQ
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Douleur_Genou.md
+
+# source: lines 9-108
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • antérieure (rotulienne, prépatellaire) / médiale / latérale / postérieure (poplitée)?
+      • profonde (intra-articulaire) vs superficielle?
+    - |-
+      Onset — discriminant clé {s:trauma vs non-trauma}:
+      • traumatisme aigu → mécanisme précis: torsion ({p:LCA}/ménisque), valgus forcé ({p:LLI}), impact direct (fracture)
+      • progressif → usure ({p:gonarthrose}), surcharge ({p:syndrome rotulien})
+    - |-
+      Character:
+      • {s:mécanique} (aggravé effort, soulagé repos) vs {s:inflammatoire} (raideur matinale > 30 min, chaleur, épanchement)
+      • blocage articulaire → ménisque en anse de seau
+      • instabilité / dérobement → lésion ligamentaire
+    - |-
+      Radiation / Referral:
+      • irradiation cuisse ou jambe?
+      • douleur mollet associée ({s:œdème}) → {p:TVP poplitée}?
+    - |-
+      Time:
+      • délai apparition {s:gonflement} (immédiat = hémarthrose → LCA/fracture; > 24 h = épanchement inflammatoire)
+      • évolution (aiguë vs chronique)
+    - |-
+      Exacerbating:
+      • escaliers, accroupissement → syndrome rotulien / gonarthrose
+      • rotation ({s:blocage}) → ménisque
+      • mise en charge → fracture / arthrite septique
+    - "Relieving: repos, glace, AINS? Position antalgique?"
+    - |-
+      Severity:
+      • EVA 0-10; {s:impotence fonctionnelle} complète → urgence (fracture, arthrite septique)
+      • retentissement professionnel et sportif
+  specifique:
+    - |-
+      {s:Gonflement}:
+      • immédiat (< 2 h) = hémarthrose → {p:rupture LCA} ou fracture
+      • progressif (> 24 h) = épanchement inflammatoire
+      • ballottement rotulien ({r:> 10 mL}), onde liquidienne ({r:5-10 mL}) [VÉRIFIER: seuils mL épanchement]
+    - |-
+      {s:Instabilité / dérobement}:
+      • direction (antérieure = LCA, postérieure = LCP)
+      • escaliers, pivots, sport
+    - |-
+      {s:Blocage articulaire}:
+      • blocage mécanique vrai → ménisque en anse de seau
+      • pseudo-blocage antalgique → douleur
+    - "Symptômes systémiques: fièvre, AEG, autres articulations touchées → arthrite septique / rhumatisme inflammatoire?"
+    - |-
+      Contexte IST (si monoarthrite jeune adulte):
+      • partenaires récents, écoulements, brûlures mictionnelles → {p:arthrite réactionnelle / gonococcique}
+  atcd:
+    - "Traumatismes antérieurs genou: lésions, traitements (conservateur vs chirurgical), séquelles"
+    - "Interventions chirurgicales: arthroscopies, reconstructions ligamentaires, matériel"
+    - |-
+      Facteurs de risque infectieux:
+      • injection intra-articulaire récente, plaie cutanée, immunodépression
+      • voyage zone d'endémie ({p:Maladie de Lyme}) [VÉRIFIER: zones endémiques Suisse Lyme]
+    - "Profession: agenouillement répété (couvreur, carreleur) → bursite; port habituel de genouillères?"
+    - "Médicaments: AINS, anticoagulants (hémarthrose facilitée), corticoïdes (immunodépression)"
+    - |-
+      Facteurs de risque {p:TVP}:
+      • immobilisation récente, chirurgie, néoplasie, contraception orale, voyage long
+
+# source: lines 111-208
+red_flags:
+  - description: "{s:Monoarthrite fébrile} (fièvre > 38.5 °C) + épanchement chaud + douleur intense + AEG"
+    dx_suspecte: "{p:Arthrite septique}"
+    action: "Ponction articulaire STAT (liquide > {r:50 000 GB/mm³} → septique) + hémocultures + hospitalisation + {r:ATB IV: C3G + vancomycine} en urgence"
+  - description: "{s:Douleur mollet} + œdème + signe de Homans + FDR thromboemboliques après trauma / immobilisation"
+    dx_suspecte: "{p:TVP poplitée}"
+    action: "{t:Écho-Doppler veineux} urgent + D-dimères; anticoagulation thérapeutique si confirmée"
+  - description: "{s:Impotence fonctionnelle totale} post-trauma + douleur exquise + déformation osseuse, Ottawa Knee Rules positives"
+    dx_suspecte: "{p:Fracture du genou}"
+    action: "{t:Radiographies genou} (face + profil) urgentes + avis orthopédique; non-appui jusqu'à résultat"
+  - description: "{s:Déformation rotulienne visible} + appréhension + genou en flexion après trauma ou mouvement brusque (jeune sportif)"
+    dx_suspecte: "{p:Luxation rotulienne}"
+    action: "Réduction douce sous antalgie + {t:RX post-réduction} (fracture ostéochondrale) + avis orthopédique"
+  - description: "{s:Érythème migrant} + mono/oligoarthrite + notion de voyage en zone boisée / endémique"
+    dx_suspecte: "{p:Maladie de Lyme (arthrite de Lyme)}"
+    action: "{t:Sérologie Borrelia} (ELISA + Western Blot) + {r:doxycycline 100 mg × 2/j × 28 j} [VÉRIFIER: durée doxycycline arthrite Lyme selon guidelines actuels]"
+
+# source: lines 111-208
+examen:
+  general:
+    - "Signes vitaux: T°, TA, FC — T° > 38.5 °C + arthrite → urgence septique"
+    - "{t:Score d'Ottawa Knee Rules}: âge ≥ 55 ans, douleur isolée rotule, impossibilité flexion 90°, incapacité 4 pas, sensibilité tête péroné → RX si ≥ 1 critère post-trauma"
+    - "Inspection comparative bilatérale: axes (varus/valgus/recurvatum), amyotrophie quadriceps, tuméfaction, érythème"
+    - "Analyse de la marche: boiterie d'esquive, steppage, mise en charge possible?"
+  cible:
+    - |-
+      Palpation systématique:
+      • interlignes articulaires médial et latéral (sensibilité = ménisque / gonarthrose)
+      • rotule: mobilité, crépitus, douleur
+      • condyles fémoraux, tubérosité tibiale antérieure, tête du péroné
+    - |-
+      Recherche {s:épanchement articulaire}:
+      • {t:ballottement rotulien} (> 10 mL): choc rotulien sur condyle
+      • {t:signe de l'onde liquidienne} (5-10 mL): refoulement latéral
+    - |-
+      Tests {p:LCA}:
+      • {t:Lachman} (gold standard, sensibilité {r:85-95%}): genou 20-30°, traction tibia → arrêt mou = LCA rompu
+      • {t:tiroir antérieur} (genou 90°, moins sensible que Lachman)
+    - |-
+      Tests {p:LCP}:
+      • {t:tiroir postérieur} (genou 90°, recul > 5 mm = LCP rompu)
+      • {t:gravity sign (sag sign)}: recul spontané tibia profil
+    - |-
+      Tests ligaments collatéraux:
+      • {t:stress valgus} (LLI): ouverture médiale en extension et à 20° flexion
+      • {t:stress varus} (LLE): ouverture latérale
+    - |-
+      Tests méniscaux:
+      • {t:McMurray}: rotation ext + valgus (ménisque médial) / rotation int + varus (ménisque latéral) → click
+      • {t:Apley} (décubitus ventral): compression + rotation, différencie ménisque vs ligament
+    - |-
+      Appareil extenseur ({p:syndrome rotulien}):
+      • {t:rabot rotulien (grinding test)}: crépitement douloureux = chondromalacie
+      • {t:test d'appréhension patellaire}: instabilité rotulienne
+
+# source: lines 213-229
+dd_top5:
+  - dx: "{p:Gonarthrose}"
+    indices: "Sujet > 50 ans; douleur {s:mécanique} bilatérale; raideur matinale {r:< 30 min}; crépitations; déformation progressive (varus/valgus); {t:RX debout}: pincement, ostéophytes, densification sous-chondrale"
+    freq: "très fréquent (prévalence ~10 % > 55 ans)"
+  - dx: "{p:Lésion méniscale}"
+    indices: "Mécanisme de torsion / rotation + flexion; {s:blocage mécanique}; douleur interligne; {t:McMurray}+ / {t:Apley}+; {t:IRM} (sensibilité 90-95 %)"
+    freq: "fréquent (surtout 20-45 ans et dégénératif > 50 ans)"
+  - dx: "{p:Rupture ligamentaire (LCA)}"
+    indices: "Clac audible + hémarthrose immédiate + instabilité; mécanisme rotation + valgus; {t:Lachman}+ (arrêt mou); {t:IRM} confirme; triade malheureuse: LCA + LLI + ménisque médial"
+    freq: "fréquent (sport pivot-contact)"
+  - dx: "{p:Arthrite microcristalline (goutte / CPPD)}"
+    indices: "Épanchement chaud + {s:chaleur intense} + douleur aiguë; homme > 40 ans (goutte) ou sujet âgé (CPPD); {t:ponction}: cristaux d'urate (aiguilles) ou pyrophosphate (losanges) [VÉRIFIER: aspect microscopique CPPD vs goutte]; uricémie élevée (goutte)"
+    freq: "fréquent (goutte: 1-2 % adultes)"
+  - dx: "{p:Syndrome rotulien (chondromalacie)}"
+    indices: "Jeune sportif; douleur antérieure à l'effort, escaliers, accroupissement; {t:rabot rotulien}+; {t:RX défilés patellaires} (dysplasie, bascule rotulienne); quadriceps faible"
+    freq: "fréquent (10-25 % pathologies genou sportif)"
+
+# source: lines 281-324
+pec_initiale:
+  immediate:
+    - "Éliminer RED FLAG en premier — arthrite septique ou fracture → gestion urgente avant toute chose"
+    - |-
+      Trauma aigu ({s:hémarthrose}): protocole {r:RICE}:
+      • Repos (non-appui si fracture suspectée), Ice {r:20 min × 3-4/j × 48-72 h}, Compression (bandage élastique), Élévation
+    - "Douleur mécanique légère-modérée: {r:paracétamol 1 g × 3-4/j PO} ou {r:ibuprofène 400-600 mg × 3/j PO} (CI: ulcère, IR, grossesse)"
+    - "Arthrite septique: {r:ponction + lavage articulaire} + {r:C3G (ceftriaxone 2 g/j IV) + vancomycine 15-20 mg/kg/j IV} + hospitalisation"
+    - "Arthrite microcristalline aiguë: {r:AINS (ibuprofène 600-800 mg × 3/j)} ou {r:colchicine 1 mg puis 0.5 mg/h × 3 doses} (goutte) [VÉRIFIER: posologie colchicine selon poids/IR]"
+    - "LCA/lésion méniscale: attelle articulée + béquilles + repos; IRM programmée; avis orthopédique si blocage"
+  orientation:
+    - "Urgences immédiates: arthrite septique, fracture, TVP confirmée, luxation patellaire"
+    - "Orthopédie (urgent): blocage mécanique, hémarthrose, lésion ligamentaire avec instabilité"
+    - "Rhumatologie (semi-urgent): monoarthrite fébrile, cristallopathie, arthrite inflammatoire"
+    - "Médecin traitant / médecine du sport: gonarthrose, syndrome rotulien, suivi lésion méniscale dégénérative"
+
+examens_complementaires:
+  - "{t:Radiographies genou} (face + profil + défilés): trauma (Ottawa +), gonarthrose (debout), calcifications (CPPD)"
+  - "{t:IRM du genou}: gold standard pour LCA, ménisques (sensibilité 90-95 %), cartilage, contusions osseuses"
+  - "{t:Écho-Doppler veineux}: suspicion TVP poplitée (douleur mollet + œdème + FDR)"
+  - "{t:Ponction articulaire + analyse liquide synovial}: monoarthrite fébrile ou épanchement inexpliqué (cytologie, Gram, culture, cristaux)"
+  - "{t:NFS, CRP, VS + hémocultures}: suspicion arthrite septique ou rhumatisme inflammatoire"
+  - "{t:Uricémie + sérologie Borrelia}: si goutte suspectée / arthrite de Lyme"
+
+criteres_hospitalisation:
+  - "{p:Arthrite septique} confirmée ou fortement suspectée (ATB IV + drainage)"
+  - "{p:Fracture} déplacée ou instable nécessitant réduction / ostéosynthèse"
+  - "{p:TVP} confirmée avec anticoagulation à initier ou hémodynamique instable"
+  - "Hémarthrose massive avec tension intra-articulaire (décompression urgente)"
+  - "Douleur sévère non contrôlée en ambulatoire ou impotence fonctionnelle totale"
+
+pieges:
+  - "Ne pas manquer une {p:arthrite septique} derrière une présentation 'pseudo-microcristalline' — ponction systématique si doute (fièvre + épanchement chaud)"
+  - "Banaliser un genou douloureux après trauma et manquer une {p:TVP poplitée}: toujours rechercher signes mollet + FDR"
+  - "Oublier d'appliquer les {t:Ottawa Knee Rules} post-trauma → RX non demandée, fracture manquée"
+  - "Confondre {s:pseudo-blocage antalgique} (douleur → inhibition) et {s:blocage mécanique vrai} (ménisque en anse de seau) — le blocage vrai nécessite arthroscopie"
+  - "Omettre l'anamnèse IST chez un jeune adulte en monoarthrite ({p:arthrite gonococcique} / réactionnelle)"
+
+cartes_liees:
+  - SYS-MSQ
+  - TOOL-OTTAWA-KNEE
+  - SSP-MSQ-07
