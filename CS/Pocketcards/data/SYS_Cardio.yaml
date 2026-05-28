@@ -16,17 +16,87 @@ sources:
 
 anamnese_appareil:
   # Symptômes cardinaux
-  - "{s:Douleur thoracique}: siège (rétrosternal, latéral, pleurétique?), irradiation (bras gauche, mâchoire, dos), caractère (oppressive/brûlure/déchirure/pleurétique), durée, facteurs déclenchants (effort, repos, décubitus), facteurs soulageants (nitrates, position penchée en avant?), association dyspnée/sueurs/nausées — score 0-10"
-  - "{s:Dyspnée}: installation (aiguë vs progressive), classe {t:NYHA} (I = effort intense seulement, II = effort modéré, III = effort minime, IV = repos), orthopnée (nombre d'oreillers), dyspnée paroxystique nocturne, position penchée en avant (péricardite), aggravée au décubitus?"
-  - "{s:Palpitations}: début/fin brutal ou progressif, régulières ou irrégulières, rapidité, début et fin précis (suggestif de réentrée), facteurs déclenchants (café, alcool, stress, effort), durée, association lipothymie/syncope/douleur thoracique/dyspnée"
-  - "{s:Syncope/lipothymie}: prodromes (nausées, sudation, vision trouble), circonstance (debout prolongé, effort, position, miction, toux, émotion), récupération (durée, confusion post-critique absente = syncope), morsure de langue, incontinence"
-  - "{s:Œdèmes MI}: bilatéraux (IC droite, insuffisance rénale, hypoalbuminémie) ou unilatéral ({p:TVP}, insuffisance veineuse chronique), aggravation vespérale, signe du godet, progression (chevilles → jambes → lombes)"
-  - "{s:Claudication intermittente}: douleur au mollet à l'effort (distance de marche en mètres), soulagée au repos (< 10 min), facteurs de risque cardiovasculaires (tabac, diabète, HTA, dyslipidémie)"
+  - |-
+    {s:Douleur thoracique}:
+    • siège (rétrosternal, latéral, pleurétique?)
+    • irradiation (bras gauche, mâchoire, dos)
+    • caractère (oppressive/brûlure/déchirure/pleurétique)
+    • durée
+    • facteurs déclenchants (effort, repos, décubitus)
+    • facteurs soulageants ({r:nitrates}, position penchée en avant?)
+    • association dyspnée/sueurs/nausées
+    • {r:score 0-10}
+  - |-
+    {s:Dyspnée}:
+    • installation (aiguë vs progressive)
+    • classe {t:NYHA} (I = effort intense seulement, II = effort modéré, III = effort minime, IV = repos)
+    • orthopnée (nombre d'oreillers)
+    • dyspnée paroxystique nocturne
+    • position penchée en avant (péricardite)
+    • aggravée au décubitus?
+  - |-
+    {s:Palpitations}:
+    • début/fin brutal ou progressif
+    • régulières ou irrégulières
+    • rapidité
+    • début et fin précis (suggestif de réentrée)
+    • facteurs déclenchants (café, alcool, stress, effort)
+    • durée
+    • association lipothymie/syncope/douleur thoracique/dyspnée
+  - |-
+    {s:Syncope/lipothymie}:
+    • prodromes (nausées, sudation, vision trouble)
+    • circonstance (debout prolongé, effort, position, miction, toux, émotion)
+    • récupération (durée, confusion post-critique absente = syncope)
+    • morsure de langue
+    • incontinence
+  - |-
+    {s:Œdèmes MI}:
+    • bilatéraux (IC droite, insuffisance rénale, hypoalbuminémie) ou unilatéral ({p:TVP}, insuffisance veineuse chronique)
+    • aggravation vespérale
+    • signe du godet
+    • progression (chevilles → jambes → lombes)
+  - |-
+    {s:Claudication intermittente}:
+    • douleur au mollet à l'effort (distance de marche en mètres)
+    • soulagée au repos (< 10 min)
+    • facteurs de risque cardiovasculaires (tabac, diabète, HTA, dyslipidémie)
   # Facteurs de risque cardiovasculaires (à systématiser)
-  - "FRCV: tabac (paquets-années, arrêt?), HTA (connue, traitée, mesures à domicile?), diabète (type, HbA1c, complications?), dyslipidémie (LDL, traitement?), obésité (IMC), sédentarité, stress chronique"
-  - "ATCD cardiovasculaires personnels: SCA/IDM (date, coronarographie, stents?), IC (FE connue?), FA/flutter, valvulopathie, AVC/AIT, AOMI, MTEV (TVP/EP)"
-  - "ATCD familiaux: maladie coronarienne précoce (H < 55 ans, F < 65 ans), mort subite inexpliquée, cardiomyopathie, channelopathie (QT long, Brugada), syndrome de Marfan"
-  - "Traitements en cours: aspirine, {r:anticoagulants (DOAC, AVK)} (indication, INR?), bêtabloquants, IEC/ARA/ARNI, diurétiques, statines, antiarythmiques, médicaments allongeant le QT"
+  - |-
+    FRCV:
+    • tabac (paquets-années, arrêt?)
+    • HTA (connue, traitée, mesures à domicile?)
+    • diabète (type, HbA1c, complications?)
+    • dyslipidémie (LDL, traitement?)
+    • obésité (IMC)
+    • sédentarité
+    • stress chronique
+  - |-
+    ATCD cardiovasculaires personnels:
+    • SCA/IDM (date, coronarographie, stents?)
+    • IC (FE connue?)
+    • FA/flutter
+    • valvulopathie
+    • AVC/AIT
+    • AOMI
+    • MTEV (TVP/EP)
+  - |-
+    ATCD familiaux:
+    • maladie coronarienne précoce (H < 55 ans, F < 65 ans)
+    • mort subite inexpliquée
+    • cardiomyopathie
+    • channelopathie (QT long, Brugada)
+    • syndrome de Marfan
+  - |-
+    Traitements en cours:
+    • aspirine
+    • {r:anticoagulants (DOAC, AVK)} (indication, INR?)
+    • bêtabloquants
+    • IEC/ARA/ARNI
+    • diurétiques
+    • statines
+    • antiarythmiques
+    • médicaments allongeant le QT
   - "Mode de vie: alcool (UI/semaine), activité physique (type, fréquence, capacité actuelle), régime alimentaire (sel, graisses saturées)"
 
 examen_physique:
@@ -40,13 +110,28 @@ examen_physique:
     - "Membres inférieurs: œdème bilatéral (signe du godet: appui 30 sec sur tibia/malléole — coter +/+++ selon profondeur), varices, dermite ocre, atrophie blanche (insuffisance veineuse chronique), ulcère veineux (sus-malléolaire, suintant) vs artériel (sec, nécrotique, douloureux)"
     - "Membres inférieurs: gradient thermique (pied froid jusqu'à quel niveau → artériopathie oblitérante), décoloration (pâleur surélevé → rubiconde déclive = insuffisance artérielle), perte de pilosité distale, troubles trophiques"
   palpation:
-    - "Pouls radial (1 min si irrégulier, sinon 15 sec × 4): fréquence (tachycardie > 100, bradycardie < 60), rythme (régulier / {s:irrégulièrement irrégulier} = {p:FA} / régulièrement irrégulier = ESV, bloc), amplitude (bondissant = IA, filant = IC/hypovolémie), comparaison bilatérale"
+    - |-
+      Pouls radial (1 min si irrégulier, sinon 15 sec × 4):
+      • fréquence (tachycardie > 100, bradycardie < 60)
+      • rythme (régulier / {s:irrégulièrement irrégulier} = {p:FA} / régulièrement irrégulier = ESV, bloc)
+      • amplitude (bondissant = IA, filant = IC/hypovolémie)
+      • comparaison bilatérale
     - "Pression artérielle: brassard adapté (2/3 circonférence du bras), déflation 2 mmHg/sec, bruits de Korotkoff, 3 mesures à 1 min d'intervalle (moyenner les 2 dernières), les deux bras (asymétrie > 10 mmHg → {p:dissection aortique}, coarctation, AOMI sous-clavière); test orthostatique si syncope/hypotension"
     - "Pouls carotidien (un côté à la fois, jamais simultané): amplitude, retard ({s:parvus et tardus} → {p:RA serré}), auscultation souffles carotidiens avant la palpation"
-    - "{r:Choc de pointe (apexien)}: main en regard du 4e-5e EIC gauche, affiner à la pulpe des doigts; normal: 4e-5e EIC, ligne médio-claviculaire, diamètre < 2,5 cm, bref; déplacé latéralement/bas → dilatation VG; amplifié et soutenu → hypertrophie VG (HTA, RA); impalpable → épanchement péricardique, BPCO, obésité"
+    - |-
+      {r:Choc de pointe (apexien)} — main en regard du 4e-5e EIC gauche, affiner à la pulpe des doigts:
+      • normal: 4e-5e EIC, ligne médio-claviculaire, diamètre < 2,5 cm, bref
+      • déplacé latéralement/bas → dilatation VG
+      • amplifié et soutenu → hypertrophie VG (HTA, RA)
+      • impalpable → épanchement péricardique, BPCO, obésité
     - "Frémissements: main à plat sur les foyers; frémissement systolique au foyer aortique → {p:RA serré}; à l'apex → IM sévère; diastolique = rare (RM serré)"
     - "{r:Reflux hépato-jugulaire}: patient à 30-45°, compression ferme et soutenue de l'hypochondre droit (10 sec), observer la veine jugulaire interne droite; positif si distension > 3 cm pendant compression → dysfonction VD, IC congestive"
-    - "Pouls périphériques (comparer bilatéralement, coter 0 à 3+): fémoral (arc crural mi-inguinal), poplité (empoigner genou en décubitus dorsal), tibial postérieur (bord interne de la malléole interne), pédieux (dos du pied entre 1er et 2e métatarsiens — absent physiologiquement dans 8 %)"
+    - |-
+      Pouls périphériques (comparer bilatéralement, coter 0 à 3+):
+      • fémoral (arc crural mi-inguinal)
+      • poplité (empoigner genou en décubitus dorsal)
+      • tibial postérieur (bord interne de la malléole interne)
+      • pédieux (dos du pied entre 1er et 2e métatarsiens — absent physiologiquement dans 8 %)
     - "{r:Signe de Homans} (dorsiflexion passive du pied genou tendu) et palpation du mollet: douleur → TVP (faible sensibilité/spécificité; ne pas s'y fier seul); induration en cordon du trajet veineux superficiel → thrombose veineuse superficielle"
     - "Abdomen: hépatomégalie (foie cardiaque = bord inférieur > 2 travers de doigt sous rebord costal, douloureux = congestion aiguë); ascite (matité des flancs déclive, fluctuation); rate (splénomégalie = embolie septique d'endocardite)"
   percussion:
@@ -78,12 +163,52 @@ manoeuvres:
   - "{s:Signe de Kussmaul}: observer les veines jugulaires pendant une inspiration profonde; NORMAL: les jugulaires se vident (inspiration → diminution PVC); ANORMAL (Kussmaul positif): augmentation paradoxale de la distension jugulaire à l'inspiration → {p:péricardite constrictive}, cardiomyopathie restrictive, IC droite sévère, tamponnade"
 
 echelles:
-  - "{t:NYHA (New York Heart Association)} — Classification fonctionnelle de l'IC: I = aucune limitation (effort intense seulement) | II = légère limitation (effort modéré: montée > 2 étages) | III = limitation importante (effort minime: marche à plat < 100 m) | IV = symptômes au repos ou tout effort; évaluer à chaque consultation pour guider le traitement"
-  - "{t:CHA2DS2-VASc} — Risque thrombo-embolique dans la {p:FA}: C=IC ou FEVG<40% (+1), H=HTA (+1), A2=âge≥75ans (+2), D=diabète (+1), S2=AVC/AIT/MTEV antérieur (+2), V=maladie vasculaire (IDM, AOMI, plaque aortique) (+1), A=âge 65-74ans (+1), Sc=sexe féminin (+1); SCORE ≥2 (hommes) ou ≥3 (femmes): {r:anticoagulation} recommandée (DOAC préféré si pas de valve mécanique)"
-  - "{t:HAS-BLED} — Risque hémorragique sous anticoagulation: H=HTA non contrôlée (>160 systolique) (+1), A=insuffisance rénale ou hépatique (+1 chacun), S=AVC antérieur (+1), B=hémorragie antérieure ou prédisposition (+1), L=INR labile (< 60% dans la cible) (+1), E=âge>65ans (+1), D=médicaments (antiplaquettaires, AINS) ou alcool (+1); SCORE ≥3 = haut risque (ne contre-indique PAS l'anticoagulation mais justifie surveillance renforcée)"
+  - |-
+    {t:NYHA (New York Heart Association)} — Classification fonctionnelle de l'IC:
+    • I = aucune limitation (effort intense seulement)
+    • II = légère limitation (effort modéré: montée > 2 étages)
+    • III = limitation importante (effort minime: marche à plat < 100 m)
+    • IV = symptômes au repos ou tout effort
+    • évaluer à chaque consultation pour guider le traitement
+  - |-
+    {t:CHA2DS2-VASc} — Risque thrombo-embolique dans la {p:FA}:
+    • C = IC ou FEVG<40% (+1)
+    • H = HTA (+1)
+    • A2 = âge ≥75 ans (+2)
+    • D = diabète (+1)
+    • S2 = AVC/AIT/MTEV antérieur (+2)
+    • V = maladie vasculaire (IDM, AOMI, plaque aortique) (+1)
+    • A = âge 65-74 ans (+1)
+    • Sc = sexe féminin (+1)
+    • SCORE ≥2 (hommes) ou ≥3 (femmes): {r:anticoagulation} recommandée (DOAC préféré si pas de valve mécanique)
+  - |-
+    {t:HAS-BLED} — Risque hémorragique sous anticoagulation:
+    • H = HTA non contrôlée (>160 systolique) (+1)
+    • A = insuffisance rénale ou hépatique (+1 chacun)
+    • S = AVC antérieur (+1)
+    • B = hémorragie antérieure ou prédisposition (+1)
+    • L = INR labile (< 60% dans la cible) (+1)
+    • E = âge >65 ans (+1)
+    • D = médicaments (antiplaquettaires, AINS) ou alcool (+1)
+    • SCORE ≥3 = haut risque (ne contre-indique PAS l'anticoagulation mais justifie surveillance renforcée)
   - "{t:Score de GRACE} — Risque à 6 mois dans le {p:SCA}: variables: âge, FC, PAS, créatinine, classe Killip, arrêt cardiaque, déviation ST, enzymes cardiaques positives; calculateur en ligne (www.gracescore.org); SCORE < 109 = bas risque, 109-140 = modéré, > 140 = élevé; guide la stratégie de revascularisation (urgente vs semi-urgente vs conservateur)"
-  - "{t:Score de TIMI UA/NSTEMI} — Risque court terme: 7 critères (1 point chacun): âge ≥ 65 ans, ≥ 3 FRCV, sténose coronarienne connue ≥ 50%, déviation ST ≥ 0,5 mm, ≥ 2 épisodes angineux en 24h, utilisation aspirine dans les 7 jours, troponine élevée; SCORE 0-2 = bas, 3-4 = intermédiaire, 5-7 = élevé (mortalité + IDM + revascularisation urgente)"
-  - "{t:Classification de Killip} — Gravité IC dans le SCA: I = pas de signe d'IC, II = râles crépitants < 50% des champs + B3 ± turgescence jugulaire, III = OAP (râles > 50% des champs), IV = {p:choc cardiogénique} (PA < 90 + oligurie + hypoperfusion périphérique); mortalité hospitalière: I=6%, II=17%, III=38%, IV=67%"
+  - |-
+    {t:Score de TIMI UA/NSTEMI} — Risque court terme (7 critères, 1 point chacun):
+    • âge ≥ 65 ans
+    • ≥ 3 FRCV
+    • sténose coronarienne connue ≥ 50%
+    • déviation ST ≥ 0,5 mm
+    • ≥ 2 épisodes angineux en 24h
+    • utilisation aspirine dans les 7 jours
+    • troponine élevée
+    • SCORE 0-2 = bas, 3-4 = intermédiaire, 5-7 = élevé (mortalité + IDM + revascularisation urgente)
+  - |-
+    {t:Classification de Killip} — Gravité IC dans le SCA:
+    • I = pas de signe d'IC
+    • II = râles crépitants < 50% des champs + B3 ± turgescence jugulaire
+    • III = OAP (râles > 50% des champs)
+    • IV = {p:choc cardiogénique} (PA < 90 + oligurie + hypoperfusion périphérique)
+    • mortalité hospitalière: I=6%, II=17%, III=38%, IV=67%
 
 ssps_liees:
   - SSP-CAR-01

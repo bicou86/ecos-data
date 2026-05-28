@@ -13,19 +13,52 @@ sources:
 
 anamnese:
   socrates:
-    - "Site: unilatérale ou bilatérale? Temporale / frontale / occipitale / diffuse? Toujours du même côté?"
-    - "Onset: début brutal {r:< 1 min} ('coup de tonnerre') ou progressif? Première fois ou récurrent?"
+    - |-
+      Site:
+      • unilatérale ou bilatérale?
+      • temporale / frontale / occipitale / diffuse?
+      • toujours du même côté?
+    - |-
+      Onset:
+      • début brutal {r:< 1 min} ('coup de tonnerre') ou progressif?
+      • première fois ou récurrent?
     - "Character: pulsatile ('ça bat') / pression-étau / coup de poignard / décharge électrique?"
     - "Radiation: vers la nuque, épaules, mâchoire, dents?"
-    - "Time: durée (min / h / j), fréquence (quotidienne, hebdomadaire), horaire (réveil), impact sommeil?"
-    - "Exacerbating: effort physique, toux, position penchée, lumière, bruit, stress, aliments (chocolat, fromage, vin), règles?"
+    - |-
+      Time:
+      • durée (min / h / j)
+      • fréquence (quotidienne, hebdomadaire)
+      • horaire (réveil)
+      • impact sommeil?
+    - |-
+      Exacerbating:
+      • effort physique, toux
+      • position penchée
+      • lumière, bruit, stress
+      • aliments (chocolat, fromage, vin)
+      • règles?
     - "Relieving: repos dans le noir, médicaments (lesquels? efficaces?), position particulière?"
-    - "Severity: intensité 0-10 / impact activités quotidiennes / arrêts de travail?"
+    - |-
+      Severity:
+      • intensité 0-10
+      • impact activités quotidiennes
+      • arrêts de travail?
   specifique:
-    - "{s:Aura} (20-60 min avant): scotomes scintillants, hémianopsie, paresthésies progressives, aphasie transitoire, vertiges?"
+    - |-
+      {s:Aura} (20-60 min avant):
+      • scotomes scintillants
+      • hémianopsie
+      • paresthésies progressives
+      • aphasie transitoire
+      • vertiges?
     - "Photo / phonophobie / osmophobie?"
     - "Nausées / vomissements?"
-    - "Signes dysautonomiques homolatéraux ({p:Cluster}): oeil rouge, larmoiement, congestion nasale, myosis/ptosis, agitation pendant la crise?"
+    - |-
+      Signes dysautonomiques homolatéraux ({p:Cluster}):
+      • oeil rouge, larmoiement
+      • congestion nasale
+      • myosis/ptosis
+      • agitation pendant la crise?
     - "{s:Claudication de la mâchoire} / hyperesthésie cuir chevelu ('douleur au peigne') → {p:Horton} si > 50 ans?"
     - "{e:Grossesse / post-partum}?"
     - "Traumatisme crânien ou manipulation cervicale récents?"
@@ -33,9 +66,19 @@ anamnese:
     - "Céphalées habituelles: type, fréquence, évolution — cette céphalée est-elle DIFFÉRENTE?"
     - "ATCD neurologiques: épilepsie, AVC/AIT, traumatisme crânien"
     - "Maladies systémiques: HTA, diabète, cancers, maladies auto-immunes"
-    - "Médicaments: anticoagulants, contraception orale, vasodilatateurs (dérivés nitrés), {r:ABUS ANTALGIQUES} (> 10 j/mois)"
+    - |-
+      Médicaments:
+      • anticoagulants
+      • contraception orale
+      • vasodilatateurs (dérivés nitrés)
+      • {r:ABUS ANTALGIQUES} (> 10 j/mois)
     - "ATCD familiaux: migraine, anévrismes cérébraux"
-    - "Habitudes de vie: sommeil, repas sautés, hydratation, café (sevrage), tabac, alcool, cocaïne, stress"
+    - |-
+      Habitudes de vie:
+      • sommeil, repas sautés, hydratation
+      • café (sevrage)
+      • tabac, alcool, cocaïne
+      • stress
 
 red_flags:
   - description: "{s:Coup de tonnerre} (<1 min) — pire céphalée de sa vie"
@@ -67,10 +110,25 @@ examen:
     - "{t:Score de Glasgow} si altération de conscience"
     - "Inspection cutanée complète ({s:purpura pétéchial} → méningocoque)"
   cible:
-    - "{s:Syndrome méningé}: raideur de nuque (flexion passive), signe de Kernig, signe de Brudzinski nucal et controlatéral, photophobie objective"
-    - "Nerfs crâniens: acuité visuelle, champs visuels par confrontation, {t:FO} (oedème papillaire = {p:HTIC}), pupilles (taille, symétrie, réflexes, ptosis)"
+    - |-
+      {s:Syndrome méningé}:
+      • raideur de nuque (flexion passive)
+      • signe de Kernig
+      • signe de Brudzinski nucal et controlatéral
+      • photophobie objective
+    - |-
+      Nerfs crâniens:
+      • acuité visuelle
+      • champs visuels par confrontation
+      • {t:FO} (oedème papillaire = {p:HTIC})
+      • pupilles (taille, symétrie, réflexes, ptosis)
     - "Oculomotricité: mouvements oculaires (III, IV, VI), diplopie?"
-    - "Signes de latéralisation: force 4 membres, ROT symétriques?, Babinski, sensibilité"
+    - |-
+      Signes de latéralisation:
+      • force 4 membres
+      • ROT symétriques?
+      • Babinski
+      • sensibilité
     - "Etat mental: orientation temporo-spatiale, attention (mois à l'envers), langage (aphasie?)"
     - "Si {e:> 50 ans}: palpation artères temporales (induration, absence de pouls, douleur), muscles temporaux"
     - "ORL: percussion/palpation sinus, palpation ATM (dysfonction temporo-mandibulaire)"
