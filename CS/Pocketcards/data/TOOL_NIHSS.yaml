@@ -3,7 +3,7 @@ type: tool
 title: NIHSS
 discipline: Neuro
 version: 2026-05-28
-status: draft
+status: ready
 sources:
   - CS/Pocketcards/Neurocard - Echelles 2020.pdf
   - CS/Pocketcards/Neurocard - AVC 2020.pdf

@@ -3,7 +3,7 @@ type: sys
 title: Cardio
 discipline: Cardio
 version: 2026-05-28
-status: draft
+status: ready
 sources:
   - CS/04_Skills_Examen/Cardio_Vasc/RMS/RMS-CV.md
   - CS/04_Skills_Examen/Cardio_Vasc/Skills/Skills-CV.md
