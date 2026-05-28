@@ -87,6 +87,12 @@ body {
 .card[data-discipline="Hemato"] {
   --c-disc: #9f1239;
 } /* maroon */
+.card[data-discipline="Geriatrie"] {
+  --c-disc: #57534e;
+} /* stone — mature/neutral */
+.card[data-discipline="Uro"] {
+  --c-disc: #0e7490;
+} /* cyan — distinct from Nephro blue */
 
 .card {
   max-width: 760px;

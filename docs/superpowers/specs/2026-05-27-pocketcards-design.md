@@ -118,7 +118,7 @@ yarn publish --dry-run         # Simule push Notion sans appel API
 **JSON Schema** (`_build/schema/pocketcard.schema.json`)
 
 - 3 sous-schémas conditionnels selon `type` (SSP / SYS / TOOL)
-- `discipline` = enum fermé : `Cardio` `Neuro` `MSQ` `Gastro` `Pulmo` `Endocrino` `Dermato` `Gyneco` `Pediatric` `Psy` `ORL` `Ophtalmo` `Urgences` `Comm` `Nephro` `Infectio` `Hemato`
+- `discipline` = enum fermé : `Cardio` `Neuro` `MSQ` `Gastro` `Pulmo` `Endocrino` `Dermato` `Gyneco` `Pediatric` `Psy` `ORL` `Ophtalmo` `Urgences` `Comm` `Nephro` `Infectio` `Hemato` `Geriatrie` `Uro`
 - `id` = regex `^(SSP|SYS|TOOL)-([A-Z]{3,4}(-\d{2})?|[A-Z]{5,})$` — accepte aussi `SYS-CAR` (sans suffixe numérique) et `TOOL-NIHSS` (5+ lettres pour les noms d'outils)
 - Validation via `ajv` avant tout build
 

@@ -29,7 +29,9 @@
         "Comm",
         "Nephro",
         "Infectio",
-        "Hemato"
+        "Hemato",
+        "Geriatrie",
+        "Uro"
       ]
     },
     "urgency": { "enum": ["low", "medium", "high"] },
