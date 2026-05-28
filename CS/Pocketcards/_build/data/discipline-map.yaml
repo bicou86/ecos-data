@@ -1,0 +1,7 @@
+# Discipline + urgency mapping for SSP files in CS/02_SSP/
+# Populated by Phase 2.2 (LLM bootstrap + manual review)
+# Key = filename stem (without "SSP_" prefix or extension)
+# Value = { discipline: <enum>, urgency: <low|medium|high> }
+#
+# Example entries (3 Phase 1 cards already in ready):
+Cephalee: { discipline: Neuro, urgency: high }

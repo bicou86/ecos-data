@@ -13,6 +13,10 @@
     "build:pdf": "node src/build.js --pdf",
     "publish:notion": "node src/build.js --notion",
     "dev": "node src/watch.js",
+    "parse-md": "node src/parse-cli.js",
+    "audit-drafts": "node src/audit-drafts.js",
+    "promote": "node src/promote.js",
+    "check-coherence": "node src/check-coherence.js",
     "test": "vitest run",
     "test:watch": "vitest"
   },
