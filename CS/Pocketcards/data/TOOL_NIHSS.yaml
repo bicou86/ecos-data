@@ -42,7 +42,7 @@ score_interpretation:
   - score: "16-20"
     interpretation: "AVC modéré à sévère — indication thrombectomie mécanique à évaluer en urgence (occlusion M1/ICA)"
   - score: "21-42"
-    interpretation: "AVC sévère — mortalité et dépendance élevées ; thrombectomie discutée selon imagerie ; transformation hémorragique si NIHSS ≥4 points aggravé"
+    interpretation: "AVC sévère — mortalité et dépendance élevées ; thrombectomie discutée selon imagerie (M1/carotide interne)"
 
 limites:
   - "Sous-estime AVC postérieur (vertiges, diplopie, ataxie isolée peuvent avoir NIHSS=0–2 malgré occlusion basilaire)"
@@ -50,8 +50,10 @@ limites:
   - "Variabilité inter-évaluateur — formation certifiante requise pour reproductibilité optimale (kappa ≈0.7–0.9 si formé)"
   - "Non adapté au suivi cognitif fin — ne détecte pas démence vasculaire, troubles mnésiques isolés ni AVC lacunaires asymptomatiques"
   - "Influence sur la décision thérapeutique limitée aux seuils établis — NIHSS doit toujours être interprété avec imagerie (IRM DWI / CTP) et tableau clinique global"
+  - "Surveillance post-thrombolyse : aggravation NIHSS ≥4 points = ICH symptomatique → CT immédiat"
 
 ssps_ou_utiliser:
-  - SSP-NEU-AVC
-  - SSP-NEU-Vertige
-  - SSP-NEU-DeficitNeuro
+  # IDs des SSP neuro à venir (Phase 2 import)
+  - SSP-NEU-01 # AVC
+  - SSP-NEU-02 # Vertige
+  - SSP-NEU-03 # Déficit neurologique focal

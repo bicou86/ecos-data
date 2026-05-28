@@ -46,7 +46,7 @@ red_flags:
     action: AVC pathway / neuroimagerie urgente
   - description: "Fièvre + raideur de nuque (méningisme) ± éruption cutanée"
     dx_suspecte: Méningite bactérienne / méningococcémie
-    action: Antibiothérapie empirique IV immédiate (ceftriaxone 2 g); PL après CT si signes focaux
+    action: Antibiothérapie empirique IV immédiate (ceftriaxone 2 g + vancomycine 15-20 mg/kg IV); PL après CT si signes focaux
   - description: "> 50 ans: céphalée temporale nouvelle + claudication mâchoire ± artère temporale indurée"
     dx_suspecte: Artérite à cellules géantes (Horton / ACG)
     action: VS/CRP STAT; prednisone 1 mg/kg/j PO sans attendre la biopsie
@@ -100,7 +100,7 @@ pec_initiale:
     - "Migraine modérée-sévère: triptan (sumatriptan 50-100 mg PO) ± antiémétique (métoclopramide 10 mg) — CI si cardiopathie ischémique, HTA non contrôlée, grossesse"
     - "Cluster: O2 100 % haut débit 10-15 L/min × 15-20 min + sumatriptan SC 6 mg"
     - "Suspicion Horton: prednisone 1 mg/kg/j (60-80 mg) PO IMMEDIAT; si atteinte oculaire: méthylprednisolone IV 500-1000 mg × 3 j + IPP"
-    - "Suspicion méningite: ceftriaxone 2 g IV + dexaméthasone 10 mg IV AVANT ATB; + ampicilline si > 50 ans"
+    - "Suspicion méningite: ceftriaxone 2 g IV + vancomycine 15-20 mg/kg IV + dexaméthasone 10 mg IV AVANT ATB; + ampicilline si > 50 ans"
     - "HSA confirmée: hospitalisation USI, nimodipine 60 mg/4h PO, neurochirurgie urgente"
   orientation:
     - "Domicile + suivi médecin traitant: céphalée primaire typique, examen normal, pas de red flag"
