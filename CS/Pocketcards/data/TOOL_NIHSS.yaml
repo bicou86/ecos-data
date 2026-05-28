@@ -1,0 +1,57 @@
+id: TOOL-NIHSS
+type: tool
+title: NIHSS
+discipline: Neuro
+version: 2026-05-28
+status: draft
+sources:
+  - CS/Pocketcards/Neurocard - Echelles 2020.pdf
+  - CS/Pocketcards/Neurocard - AVC 2020.pdf
+
+quand_utiliser:
+  - AVC ischémique suspect — évaluation neurologique initiale aux urgences
+  - Décision de thrombolyse IV (rtPA) — NIHSS ≥4 généralement requis
+  - Décision de thrombectomie mécanique — NIHSS ≥6 pour occlusion grand vaisseau
+  - Monitoring USINV — suivi toutes les heures post-thrombolyse, puis toutes les 8h
+  - Télémédecine AVC — communication standardisée avec neurologie de référence
+
+items:
+  - "1a. Niveau de conscience (0=vigilant ; 1=somnolent ; 2=stupeur ; 3=coma/réflexes seulement)"
+  - "1b. Questions LOC — Mois ? Âge ? (0=2 correctes ; 1=1 correcte ; 2=0 correctes / aphasie / coma)"
+  - "1c. Commandes LOC — ouvrir/fermer yeux, serrer/lâcher main (0=2 correctes ; 1=1 correcte ; 2=0 correctes / coma)"
+  - "2. Regard horizontal — mouvements oculaires conjugués (0=normal ; 1=paralysie partielle ; 2=déviation forcée/paralysie complète)"
+  - "3. Champ visuel (0=absent ; 1=hémianopsie partielle ; 2=hémianopsie complète ; 3=bilatérale/aveugle/sans réponse)"
+  - "4. Paralysie faciale (0=absent ; 1=mineure ; 2=modérée ; 3=complète/bilatérale/sans réponse)"
+  - "5a. Force MS droit — bras tendu 45° (ou 90° assis), 10 s (0=tenu ; 1=chute avant 10 s ; 2=effort contre gravité ; 3=aucun effort contre gravité ; 4=aucun mouvement)"
+  - "5b. Force MS gauche — même cotation que 5a (0–4 ; X=non testable)"
+  - "6a. Force MI droit — jambe à 30° décubitus, 5 s (0=tenu ; 1=chute avant 5 s ; 2=effort contre gravité ; 3=aucun effort contre gravité ; 4=aucun mouvement)"
+  - "6b. Force MI gauche — même cotation que 6a (0–4 ; X=non testable)"
+  - "7. Ataxie membres — doigt-nez + talon-genou (0=absent ; 1=un membre ; 2=deux membres ; X=non testable si hémiplégie)"
+  - "8. Sensibilité — piqûre ou retrait (0=normal ; 1=hypoesthésie légère/modérée ; 2=sévère/abolie bilatérale)"
+  - "9. Langage — décrire image, lire phrases, nommer objets (0=normal ; 1=aphasie légère/modérée ; 2=aphasie sévère ; 3=mutique/intubé/anarthrique)"
+  - "10. Dysarthrie — lire/répéter mots (0=normal ; 1=légère/modérée ; 2=sévère/inintelligible/intubé)"
+  - "11. Extinction / Négligence — stimulation double simultanée visuelle + tactile (0=absent ; 1=unimodal ; 2=bimodal/coma)"
+
+score_interpretation:
+  - score: "0"
+    interpretation: "Pas de déficit neurologique — AVC peu probable ou AIT résolu"
+  - score: "1-4"
+    interpretation: "AVC mineur — thrombolyse discutée au cas par cas (NIHSS <4 = zone grise, évaluer handicap fonctionnel)"
+  - score: "5-15"
+    interpretation: "AVC modéré — indication thrombolyse IV si <4h30, évaluer thrombectomie si NIHSS ≥6 et occlusion grand vaisseau"
+  - score: "16-20"
+    interpretation: "AVC modéré à sévère — indication thrombectomie mécanique à évaluer en urgence (occlusion M1/ICA)"
+  - score: "21-42"
+    interpretation: "AVC sévère — mortalité et dépendance élevées ; thrombectomie discutée selon imagerie ; transformation hémorragique si NIHSS ≥4 points aggravé"
+
+limites:
+  - "Sous-estime AVC postérieur (vertiges, diplopie, ataxie isolée peuvent avoir NIHSS=0–2 malgré occlusion basilaire)"
+  - "Biais hémisphère gauche — aphasie pèse plus lourd que négligence droite à déficit fonctionnel équivalent"
+  - "Variabilité inter-évaluateur — formation certifiante requise pour reproductibilité optimale (kappa ≈0.7–0.9 si formé)"
+  - "Non adapté au suivi cognitif fin — ne détecte pas démence vasculaire, troubles mnésiques isolés ni AVC lacunaires asymptomatiques"
+  - "Influence sur la décision thérapeutique limitée aux seuils établis — NIHSS doit toujours être interprété avec imagerie (IRM DWI / CTP) et tableau clinique global"
+
+ssps_ou_utiliser:
+  - SSP-NEU-AVC
+  - SSP-NEU-Vertige
+  - SSP-NEU-DeficitNeuro
