@@ -125,7 +125,21 @@
             "type": "array",
             "items": { "type": "string" }
           },
-          "examen_physique": { "type": "array", "items": { "type": "string" } },
+          "examen_physique": {
+            "type": "object",
+            "required": [
+              "inspection",
+              "palpation",
+              "percussion",
+              "auscultation"
+            ],
+            "properties": {
+              "inspection": { "type": "array", "items": { "type": "string" } },
+              "palpation": { "type": "array", "items": { "type": "string" } },
+              "percussion": { "type": "array", "items": { "type": "string" } },
+              "auscultation": { "type": "array", "items": { "type": "string" } }
+            }
+          },
           "manoeuvres": { "type": "array", "items": { "type": "string" } },
           "echelles": { "type": "array", "items": { "type": "string" } },
           "ssps_liees": { "type": "array", "items": { "type": "string" } }

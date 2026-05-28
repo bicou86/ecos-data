@@ -83,10 +83,18 @@ export function buildPushPlan(card) {
       card.pieges.forEach((x) => blocks.push(bullet(x)));
     }
   } else if (card.type === "sys") {
-    blocks.push(heading("📋 Anamnèse par appareil"));
+    blocks.push(heading("📋 Anamnèse"));
     card.anamnese_appareil.forEach((x) => blocks.push(bullet(x)));
-    blocks.push(heading("🔍 Status d'examen"));
-    card.examen_physique.forEach((x) => blocks.push(bullet(x)));
+    blocks.push(heading("🔍 Examen clinique"));
+    for (const sub of [
+      "inspection",
+      "palpation",
+      "percussion",
+      "auscultation",
+    ]) {
+      blocks.push(paragraph(sub[0].toUpperCase() + sub.slice(1)));
+      card.examen_physique[sub].forEach((x) => blocks.push(bullet(x)));
+    }
     blocks.push(heading("✋ Manœuvres"));
     card.manoeuvres.forEach((x) => blocks.push(bullet(x)));
     if (card.echelles?.length) {

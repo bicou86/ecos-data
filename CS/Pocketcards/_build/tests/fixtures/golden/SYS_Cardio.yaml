@@ -15,10 +15,14 @@ anamnese_appareil:
   - Œdèmes des membres inférieurs
 
 examen_physique:
-  - Inspection (cyanose, jugulaires)
-  - Palpation (choc de pointe, frémissements)
-  - Percussion (matité aire cardiaque)
-  - Auscultation (B1, B2, souffles, frottement)
+  inspection:
+    - Inspection (cyanose, jugulaires)
+  palpation:
+    - Palpation (choc de pointe, frémissements)
+  percussion:
+    - Percussion (matité aire cardiaque)
+  auscultation:
+    - Auscultation (B1, B2, souffles, frottement)
 
 manoeuvres:
   - Reflux hépatojugulaire

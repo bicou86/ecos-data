@@ -200,7 +200,7 @@ exports[`renderCard > renders the golden SYS card to HTML 1`] = `
 
       <div class="grid">
         <section class="section anam">
-          <div class="label">📋 Anamnèse par appareil</div>
+          <div class="label">📋 <strong>Anamnèse</strong></div>
           <ul>
                         <li>Douleur thoracique</li>
                         <li>Dyspnée</li>
@@ -210,14 +210,28 @@ exports[`renderCard > renders the golden SYS card to HTML 1`] = `
                       </ul>
         </section>
 
-        <section class="section exam">
-          <div class="label">🔍 Status d'examen</div>
-          <ul>
-                        <li>Inspection (cyanose, jugulaires)</li>
-                        <li>Palpation (choc de pointe, frémissements)</li>
-                        <li>Percussion (matité aire cardiaque)</li>
-                        <li>Auscultation (B1, B2, souffles, frottement)</li>
-                      </ul>
+        <section class="section exam full">
+          <div class="label">🔍 <strong>Examen clinique</strong></div>
+
+          <div class="subsection">
+            <h4>Inspection</h4>
+            <ul><li>Inspection (cyanose, jugulaires)</li></ul>
+          </div>
+
+          <div class="subsection">
+            <h4>Palpation</h4>
+            <ul><li>Palpation (choc de pointe, frémissements)</li></ul>
+          </div>
+
+          <div class="subsection">
+            <h4>Percussion</h4>
+            <ul><li>Percussion (matité aire cardiaque)</li></ul>
+          </div>
+
+          <div class="subsection">
+            <h4>Auscultation</h4>
+            <ul><li>Auscultation (B1, B2, souffles, frottement)</li></ul>
+          </div>
         </section>
 
         <section class="section exam full">
