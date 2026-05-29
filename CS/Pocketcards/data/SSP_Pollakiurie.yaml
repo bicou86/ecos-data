@@ -1,0 +1,204 @@
+id: SSP-NEP-06
+type: ssp
+title: Pollakiurie
+discipline: Nephro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Pollakiurie.md
+
+# source: lines 11-139 (anamnèse systématique, étiologies)
+anamnese:
+  socrates:
+    - |-
+      Quantification mictionnelle:
+      • nombre de mictions / jour ({r:> 7-8} = pollakiurie) et / nuit ({r:≥ 1 lever} = nycturie)?
+      • volume estimé par miction ({r:< 150 mL} = vraie pollakiurie; volume normal = polyurie fractionnée)?
+      • diurèse totale {r:24h} ({r:> 3 L} = polyurie vraie à différencier!)?
+    - |-
+      Onset / évolution:
+      • début brutal ({s:cystite}) ou progressif ({s:HBP}, {s:hyperactivité})?
+      • durée des symptômes (aigu < 1 mois vs chronique > 3 mois)?
+    - |-
+      Symptômes irritatifs associés:
+      • {s:urgences mictionnelles / impériosités}?
+      • {s:brûlures mictionnelles}?
+      • {s:fuites sur urgence}?
+      • sensation de vidange incomplète?
+    - |-
+      Symptômes obstructifs (homme++):
+      • dysurie d'attente, jet faible / haché?
+      • gouttes retardataires, miction en plusieurs temps?
+      • effort de poussée?
+    - "Time / horaire: diurne, nocturne ({s:nycturie}), permanent? impact sur le sommeil?"
+    - |-
+      Severity / qualité de vie:
+      • repérage systématique des toilettes, évitement sorties?
+      • absentéisme professionnel, port de protections?
+      • score {t:IPSS} (homme) ou {t:USP} pour quantifier
+  specifique:
+    - |-
+      Étiologie {e:irritation / infection vésicale}:
+      • urines troubles, malodorantes, hématurie ({p:cystite bactérienne})?
+      • rapports sexuels récents, infections récurrentes ({p:cystite récidivante})?
+      • douleur fin de miction + hématurie terminale → {p:lithiase vésicale}?
+      • douleur pelvienne chronique soulagée par la miction, femme jeune → {p:cystite interstitielle}?
+    - |-
+      Étiologie {e:obstructive prostatique} (homme {r:> 50 ans}):
+      • {p:HBP}: dysurie progressive, score IPSS?
+      • {p:prostatite aiguë}: fièvre, frissons, douleur périnéale, brûlures?
+      • {p:cancer prostate}: amaigrissement, douleur osseuse, ATCD familial?
+    - |-
+      Étiologie {e:tumorale} (red flag):
+      • {p:cancer vessie}: {s:hématurie macroscopique indolore}, tabac, {r:> 50 ans}, exposition pro (aniline, amines aromatiques)?
+    - |-
+      Étiologie {e:neurologique}:
+      • {p:vessie neurologique}: SEP, Parkinson, AVC, diabète ancien, lésion médullaire?
+      • {p:syndrome queue de cheval}: {s:anesthésie en selle}, incontinence fécale, déficit MI?
+    - |-
+      Étiologie {e:fausse pollakiurie = polyurie} (à exclure!):
+      • {p:diabète sucré}: polydipsie, amaigrissement, asthénie, glycosurie?
+      • {p:diabète insipide}: polyurie hypotonique massive, soif intense?
+      • {p:hypercalcémie}: asthénie, constipation, douleurs osseuses, néoplasie?
+      • {p:potomanie} / apports excessifs (café, thé, alcool, édulcorants)?
+    - |-
+      Étiologie {e:gynécologique} (femme):
+      • {p:grossesse} (DDR, βHCG), {p:prolapsus} (boule vaginale), {p:ménopause} (atrophie urogénitale)?
+  atcd:
+    - |-
+      Médicaments à interroger:
+      • {r:diurétiques} (fausse pollakiurie iatrogène!), lithium (DI néphrogénique)
+      • anticholinergiques (rétention paradoxale)
+      • alpha-bloquants, antidépresseurs
+    - "Habitudes: consommation liquidienne (qty / jour), irritants vésicaux ({r:café > 3/j, thé, alcool, édulcorants}), tabac (FR cancer vessie)"
+    - "ATCD urologiques: IU récidivantes, lithiases, chirurgie / radiothérapie pelvienne, sondage répété"
+    - "ATCD gynéco-obstétricaux: parité, voie d'accouchement, épisiotomie, chirurgie pelvienne"
+    - "Comorbidités: {p:diabète} (ancienneté, équilibre), pathologie neurologique, constipation chronique, néoplasie"
+
+# source: lines 38-99 (signes spécifiques), red flags dérivés du contexte clinique
+red_flags:
+  - description: "Pollakiurie + {s:hématurie macroscopique indolore} chez patient {e:> 50 ans} (a fortiori tabagique)"
+    dx_suspecte: "{p:Cancer de vessie} (urothélial)"
+    action: "{t:Cystoscopie + cytologie urinaire + uro-CT} dans les {r:2 semaines}; avis urologie [VÉRIFIER: délai exact d'orientation selon AFU vs guidelines locales CHUV/HUG]"
+  - description: "Pollakiurie + {s:fièvre > 38,5°C} + {s:frissons} + douleur périnéale ou lombaire"
+    dx_suspecte: "{p:Prostatite aiguë} ou {p:pyélonéphrite}"
+    action: "Hémocultures + ECBU; ATB IV empirique ({r:ceftriaxone 2 g/j IV} ± aminoside si sepsis); hospit si signes de gravité [VÉRIFIER: choix exact ATB selon protocole local et résistances]"
+  - description: "Pollakiurie + {s:anesthésie en selle} ± rétention ± déficit moteur MI ± incontinence fécale"
+    dx_suspecte: "{p:Syndrome de la queue de cheval}"
+    action: "{t:IRM lombaire en URGENCE < 6h}; avis neurochirurgie immédiat; sondage vésical"
+  - description: "Fausse pollakiurie + {s:polydipsie} + {s:amaigrissement} + asthénie"
+    dx_suspecte: "{p:Diabète sucré} décompensé (révélation)"
+    action: "{t:Glycémie capillaire + veineuse + HbA1c + cétonurie}; bilan acidocétose si glycémie > 13,9 mmol/L; hospit si décompensation"
+  - description: "Pollakiurie + {s:globe vésical} (matité sus-pubienne, douleur, anurie effective)"
+    dx_suspecte: "{p:Rétention urinaire chronique avec mictions par regorgement}"
+    action: "{r:Sondage vésical immédiat} (vidange progressive {r:< 500 mL puis clamper 15 min}); ionogramme + créat; écho rénale (dilatation PCC?)"
+  - description: "Pollakiurie + {s:douleur osseuse} + {s:amaigrissement} + altération état général chez {e:homme > 50 ans}"
+    dx_suspecte: "{p:Cancer prostate métastatique}"
+    action: "{t:Toucher rectal + PSA + scintigraphie osseuse}; avis urologie dans la semaine"
+
+# source: lines 141-187 (examen clinique systématique)
+examen:
+  general:
+    - "Signes vitaux: T° (infection), TA, FC, FR, SaO2; poids et IMC"
+    - "État général: altération (cancer, infection sévère), pâleur, déshydratation"
+    - "Palpation abdominale: {s:globe vésical} sus-pubien (matité), masse abdo-pelvienne, sensibilité fosses lombaires (Giordano)"
+    - "Bandelette urinaire AU LIT (leucocytes, nitrites, hématies, glucose, protéines)"
+  cible:
+    - |-
+      Examen urologique HOMME:
+      • {t:toucher rectal}: volume prostate (normal {r:15-20 g}), consistance (souple/ferme/dure), régularité, douleur ({s:prostatite}: prostate {r:tendue, hyperalgique}), tonus sphinctérien
+      • OGE: phimosis, sténose méat, écoulement urétral, palpation testicules / épididymes
+    - |-
+      Examen gynécologique FEMME:
+      • inspection vulvaire (atrophie ménopausique?)
+      • spéculum: {t:classification POP-Q} si prolapsus
+      • TV: masses, douleur cul-de-sac, mobilité utérine
+      • testing périnéal (force 0-5), recherche {t:fuite à la toux} (vessie pleine)
+    - |-
+      Examen neurologique CIBLÉ:
+      • {s:sensibilité périnéale} (anesthésie en selle?)
+      • réflexes ostéo-tendineux MI, réflexe anal et bulbo-caverneux
+      • tonus sphinctérien anal
+      • force musculaire MI, marche, équilibre
+    - "Recherche {t:pad-test} et {t:test à la toux} si incontinence associée [VÉRIFIER: indication exacte et seuils du pad-test selon protocole urodynamique]"
+
+# source: lines 190-251 (examens complémentaires hiérarchisés)
+examens_complementaires:
+  - "{t:Bandelette urinaire + ECBU systématique}: dépistage IU; seuils {r:≥ 10⁴ UFC/mL} symptomatique; cytologie urinaire (3 échantillons) si suspicion tumeur"
+  - "{t:Calendrier mictionnel sur 3 jours} (heures, volumes, urgences, fuites, apports): outil diagnostique CLÉ pour différencier pollakiurie vraie vs polyurie vs nycturie isolée"
+  - "{t:Bilan biologique}: créatinine + DFG, glycémie à jeun + HbA1c (polyurie?), calcémie corrigée, ionogramme; {t:PSA} si homme {r:> 50 ans} avec suspicion prostate"
+  - "{t:Échographie réno-vésicale} (1ère intention): {t:résidu post-mictionnel} (normal {r:< 50 mL}), épaississement paroi (vessie de lutte), lithiase, tumeur, dilatation PCC, volume prostatique"
+  - "{t:Débitmétrie} (homme): courbe mictionnelle, {r:Qmax normal > 15 mL/s}, volume {r:> 150 mL} requis pour interprétation"
+  - "{t:Cystoscopie ± uro-CT}: indications = hématurie macroscopique, suspicion tumeur, cystite interstitielle, sténose urétrale, IU récidivantes inexpliquées"
+
+# source: lines 253-269 (DD principal), pivots cliniques
+dd_top5:
+  - dx: "{p:Cystite bactérienne aiguë}"
+    indices: "Femme++, début brutal, brûlures + urgences + pollakiurie, BU leuco+/nitrites+, ECBU > 10⁴ UFC/mL; E. coli dans ~80%"
+    freq: "Très fréquent (50% des femmes au moins 1 épisode dans la vie)"
+  - dx: "{p:Hyperactivité vésicale (vessie hyperactive)}"
+    indices: "Pollakiurie + urgences mictionnelles ± fuites sur urgences, ECBU négatif, calendrier mictionnel typique, urodynamique = hyperactivité détrusorienne; femme > homme"
+    freq: "Très fréquent (~12-17% adultes)"
+  - dx: "{p:HBP avec résidu post-mictionnel}"
+    indices: "{e:Homme > 50 ans}, dysurie + pollakiurie + nycturie, TR = prostate ferme régulière augmentée, échographie {r:RPM > 100 mL}, score {t:IPSS modéré-sévère}"
+    freq: "Très fréquent ({r:~50% hommes > 60 ans})"
+  - dx: "{p:Polyurie sur diabète sucré} (fausse pollakiurie)"
+    indices: "Polydipsie + polyurie {r:> 3 L/24h} + amaigrissement; volumes par miction normaux/augmentés; glycémie veineuse {r:≥ 7 mmol/L} à jeun ou {r:≥ 11,1} aléatoire, glycosurie + cétonurie"
+    freq: "Fréquent à éliminer SYSTÉMATIQUEMENT (diurèse 24h + glycémie)"
+  - dx: "{p:Cystite interstitielle / Bladder Pain Syndrome}"
+    indices: "Femme jeune (30-50 ans), {s:douleur sus-pubienne chronique} soulagée par miction, pollakiurie diurne + nocturne, ECBU répétés négatifs, cystoscopie + hydrodistension = {s:glomérulations / ulcères de Hunner}"
+    freq: "Rare mais sous-diagnostiquée (~2-5/1000 femmes) [VÉRIFIER: critères diagnostiques exacts AUA / ESSIC 2024]"
+
+# source: lines 271-365 (PEC graduée)
+pec_initiale:
+  immediate:
+    - "Diagnostic différentiel pollakiurie vs polyurie EN PREMIER → {t:calendrier mictionnel 3 jours + diurèse 24h + BU/ECBU + glycémie}"
+    - |-
+      Si {p:cystite simple} (femme jeune, non enceinte):
+      • {r:Fosfomycine-trométamol 3 g PO dose unique} (1ère intention)
+      • alternative: {r:nitrofurantoïne 100 mg x3/j × 5 j}
+      • réévaluation à 48-72h si non amélioration → ECBU
+    - |-
+      Si suspicion {p:prostatite aiguë} ou {p:pyélonéphrite}:
+      • hémocultures + ECBU AVANT ATB
+      • {r:ceftriaxone 2 g/j IV} ± aminoside si sepsis (puis relais oral fluoroquinolone {r:ciprofloxacine 500 mg x2/j PO × 14 j} pour prostatite) [VÉRIFIER: protocole local exact, durée 14 vs 21 j selon AFU]
+    - |-
+      Mesures hygiéno-diététiques (1ère ligne hyperactivité / HBP):
+      • restriction hydrique {r:1,5-2 L/24h}, répartition diurne, éviter le soir
+      • éviction irritants ({r:café < 2/j, thé, alcool, édulcorants, épices})
+      • arrêt tabac (FR cancer vessie + irritation)
+      • rééducation vésicale: mictions programmées, objectif espacement {r:3-4h}
+    - |-
+      Traitement médicamenteux 2ème ligne:
+      • {p:hyperactivité vésicale}: {r:solifénacine 5-10 mg/j PO} ou {r:mirabégron 50 mg/j PO} (préférer mirabégron chez sujet âgé / risque rétention)
+      • {p:HBP}: {r:tamsulosine 0,4 mg/j PO} ± {r:finastéride 5 mg/j PO} si prostate {r:> 40 g}
+      • {p:atrophie urogénitale} ménopause: estriol ovules / crème local
+    - "Si {s:globe vésical} ou rétention chronique avec regorgement: {r:sondage vésical} avec vidange progressive (clamper {r:tous les 500 mL}); surveillance polyurie post-levée d'obstacle"
+  orientation:
+    - "Domicile + suivi médecin traitant: cystite simple non récidivante, pollakiurie chronique sans red flag, BU normale"
+    - "Consultation urologie (semaines): IU récidivantes, HBP non répondeuse au traitement médical, hématurie microscopique persistante, suspicion cystite interstitielle"
+    - "Urologie URGENTE / urgences: prostatite avec sepsis, rétention aiguë sur globe, hématurie macroscopique caillotante, suspicion cancer vessie"
+    - "Neurochirurgie URGENCE: suspicion {p:syndrome queue de cheval} (IRM < 6h)"
+    - "Endocrino / médecine interne: bilan diabète révélé, hypercalcémie, suspicion diabète insipide"
+
+# source: lines 75-83 (criteres généraux d'hospit)
+criteres_hospitalisation:
+  - "Sepsis sur prostatite ou pyélonéphrite ({s:T° > 39°C}, frissons, hypoTA, lactates)"
+  - "Rétention urinaire aiguë avec IRA post-rénale (créat élevée, dilatation PCC)"
+  - "Suspicion {p:syndrome queue de cheval} → IRM + neurochir urgents"
+  - "Hématurie caillotante avec déglobulisation ou rétention sur caillots"
+  - "Décompensation diabétique révélée par polyurie (acidocétose, hyperosmolarité)"
+
+# source: lines 397-402 (erreurs fréquentes) + pivots cliniques
+pieges:
+  - "Confondre {p:pollakiurie} (petits volumes vésicaux) et {p:polyurie} ({r:> 3 L/24h}, rénale): TOUJOURS mesurer la {t:diurèse 24h} + glycémie + calendrier mictionnel avant tout"
+  - "Traiter une cystite récidivante chez {e:> 50 ans} sans rechercher cancer vessie ({t:cystoscopie + cytologie + uro-CT} si hématurie ou IU récidivantes inexpliquées)"
+  - "Prescrire {r:anticholinergiques} chez sujet âgé fragile (risque confusion, rétention, glaucome) — préférer {r:mirabégron}"
+  - "Méconnaître la {p:prostatite aiguë} chez l'homme jeune avec pollakiurie fébrile (TR douloureux = signe clé; ATB {r:14 j} minimum)"
+  - "Négliger la {p:cystite interstitielle} chez femme jeune avec pollakiurie + douleur pelvienne chronique + ECBU négatifs répétés"
+
+cartes_liees:
+  - SSP-NEP-01
+  - SSP-NEP-02
+  - SSP-URO-01

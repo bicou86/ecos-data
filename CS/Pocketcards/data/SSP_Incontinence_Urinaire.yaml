@@ -1,0 +1,214 @@
+id: SSP-NEP-05
+type: ssp
+title: Incontinence urinaire
+discipline: Nephro
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Incontinence_Urinaire.md
+
+# source: lines 15-106
+anamnese:
+  socrates:
+    - |-
+      Site/Type — caractériser le type (PIVOT diagnostique):
+      • {s:à l'effort} (toux, rire, éternuement, saut) → IUE
+      • {s:urgenturie} (besoin impérieux brutal, fuite avant les toilettes) → IUU
+      • mixte (les deux) → IUM
+      • écoulement permanent / regorgement → fistule / rétention chronique
+    - "Onset: progressif (multiparité, ménopause) vs brutal (post-chir, neurologique, fistule); délai depuis début?"
+    - |-
+      Character — mécanisme:
+      • IUE: synchrone à l'effort, sans besoin, faible volume (gouttes)
+      • IUU: besoin impérieux, volume important, pollakiurie ≥8/j + nycturie ≥2
+      • regorgement: gouttes permanentes, globe vésical, dysurie
+    - "Radiation/circonstances: debout (IUE), nuit (IUU/regorgement), situation sociale (rire en groupe)?"
+    - |-
+      Time/quantification:
+      • fréquence, nb protections/j, saturation
+      • {t:calendrier mictionnel 3 jours} (horaires, volumes, fuites)
+      • {t:pad-test} >2 g/h = significatif
+    - "Exacerbating: caféine, alcool, édulcorants, diurétiques, fluides du soir, constipation, toux chronique (tabac/BPCO)?"
+    - "Relieving: rééducation déjà essayée? médicaments (effet)?"
+    - |-
+      Severity — retentissement (sous-déclaré):
+      • social (sorties, isolement), professionnel, sexuel ({r:30-40%} évitement)
+      • psychologique (honte, dépression), économique (>{r:1000 €/an})
+      • {t:ICIQ-SF} 0-21
+  specifique:
+    - |-
+      {s:Syndrome d'hyperactivité vésicale}:
+      • pollakiurie diurne >8 mictions/j, nycturie ≥2 réveils
+      • urgenturies, sensation vidange incomplète, douleurs pelviennes?
+    - |-
+      Troubles de vidange (regorgement / obstacle):
+      • dysurie, jet faible, poussée abdominale
+      • mictions fractionnées, gouttes retardataires, résidu ressenti?
+    - |-
+      Symptômes pelviens (femmes):
+      • pesanteur, "boule" vaginale (prolapsus); dyspareunie
+      • {s:incontinence fécale/aux gaz} ({r:20%} des cas)?
+    - |-
+      Symptômes neurologiques périnéaux (à rechercher):
+      • {s:anesthésie en selle S2-S5}, déficit moteur MI, troubles fécaux
+      • → suspicion {p:syndrome de la queue de cheval}
+    - "Hématurie, fièvre, écoulement vaginal permanent post-chir/accouchement (fistule)?"
+  atcd:
+    - |-
+      Obstétricaux (femmes — facteur majeur):
+      • multiparité (risque x2 par accouchement), instrumentation (forceps, ventouse)
+      • macrosomie >4 kg, déchirures périnéales sévères
+    - |-
+      Gynéco/hormonaux:
+      • ménopause (carence œstrogénique), hystérectomie (risque x2)
+      • prolapsus génital connu, radiothérapie pelvienne
+    - "Hommes — post-chirurgie prostatique: prostatectomie radicale ({r:10-30%} d'IUE), RTUP/adénomectomie ({r:2-5%})"
+    - "Neurologiques: AVC, Parkinson, SEP, démence; lésion médullaire, neuropathie diabétique, compression"
+    - |-
+      Médicaments (causes RÉVERSIBLES — {t:DIAPPERS}):
+      • diurétiques (IUU), alpha-bloquants (IUE chez l'homme)
+      • anticholinergiques, opioïdes (rétention → regorgement)
+      • sédatifs, hypnotiques chez sujet âgé
+    - "Facteurs généraux: âge, {s:obésité IMC >30} (risque x3), constipation chronique, tabac/BPCO, diabète, troubles cognitifs"
+
+# source: lines 343-357 + pivots
+red_flags:
+  - description: "Incontinence + {s:anesthésie en selle} + {s:déficit moteur MI} + troubles fécaux"
+    dx_suspecte: "{p:Syndrome de la queue de cheval}"
+    action: "{t:IRM lombaire} URGENTE ({r:<6h}); avis neurochirurgical immédiat, décompression {r:<48h}"
+  - description: "Incontinence (gouttes permanentes) + {s:globe vésical} palpable + {s:créatinine élevée} (rétention chronique méconnue)"
+    dx_suspecte: "{p:Rétention chronique avec incontinence par regorgement} ± insuffisance rénale obstructive"
+    action: "{r:Sondage vésical} (mesure résidu) + {t:créatinine, urée, K+} + {t:échographie réno-vésicale}; arrêt anticholinergiques"
+  - description: "{e:>60 ans}: incontinence + {s:hématurie macroscopique} ± douleur pelvienne"
+    dx_suspecte: "{p:Tumeur de vessie / cancer urothélial}"
+    action: "{t:Cystoscopie} + {t:cytologie urinaire} + uro-TDM; consultation uro {r:<2 semaines}"
+  - description: "{s:Écoulement permanent vaginal} post-chirurgie pelvienne / post-accouchement / post-radiothérapie"
+    dx_suspecte: "{p:Fistule vésico-vaginale ou urétéro-vaginale}"
+    action: "{t:Test au bleu de méthylène intravésical} + {t:cystographie} ± uro-IRM; avis urologie"
+  - description: "Incontinence + {s:fièvre} + douleur lombaire/sus-pubienne + confusion (sujet âgé)"
+    dx_suspecte: "{p:Pyélonéphrite / IU compliquée avec sepsis}"
+    action: "{t:ECBU + hémocultures + CRP + créatinine}; {r:ceftriaxone 2 g IV} empirique après prélèvements; hospitalisation si signes de gravité"
+  - description: "Rétention aiguë d'urine + douleur sus-pubienne intense + globe vésical tendu"
+    dx_suspecte: "{p:Rétention aiguë d'urine} (post-chir, médicamenteuse, prostatique)"
+    action: "{r:Sondage vésical} immédiat (drainage progressif si rétention chronique pour éviter hématurie a vacuo); étiologie + uro"
+
+# source: lines 108-159
+examen:
+  general:
+    - "Signes vitaux + {s:IMC} (surpoids = facteur de risque et cible thérapeutique)"
+    - "État cognitif (impact observance, ne pas masquer un syndrome confusionnel: DIAPPERS)"
+    - "Mobilité, accessibilité des toilettes (cause fréquente chez le sujet âgé)"
+    - "{t:Test à la toux} debout puis couchée, vessie pleine: fuite synchrone = IUE (Se 90%, Sp 70%)"
+    - "Examen abdominal: {s:globe vésical} (rétention chronique), masses pelviennes, cicatrices, météorisme/fécalome"
+  cible:
+    - |-
+      Examen périnéal (position gynécologique, vessie semi-pleine 150-200 mL):
+      • inspection au repos puis en poussée (prolapsus extériorisé?)
+      • béance vulvaire / cicatrices obstétricales
+      • trophicité (atrophie vaginale → carence œstrogénique)
+    - |-
+      Tests fonctionnels:
+      • test à la toux vessie pleine: fuite synchrone = IUE
+      • manœuvre de Bonney (soutien para-urétral): disparition fuite = prédit succès chirurgie
+      • {t:cotation Oxford 0-5} de la contraction périnéale + endurance + fatigabilité
+    - |-
+      Évaluation du prolapsus (femmes — {t:classification POP-Q stades 0-4}):
+      • antérieur = cystocèle
+      • moyen = hystérocèle
+      • postérieur = rectocèle
+    - |-
+      Examen neurologique périnéal (FONDAMENTAL, souvent oublié):
+      • sensibilité S2-S4, anesthésie en selle?
+      • réflexes anal et bulbo-caverneux
+      • tonus sphinctérien anal au TR
+    - |-
+      Touchers pelviens:
+      • TV (femmes): prolapsus, masses, tonus des releveurs
+      • TR: {s:prostate} (taille, consistance, nodule), tonus anal, {s:fécalome}
+
+# source: lines 343-358 + pivots
+dd_top5:
+  - dx: "{p:Incontinence urinaire d'effort (IUE)}"
+    indices: "Fuite synchrone à la toux/effort sans besoin préalable, faible volume, femme multipare ou post-prostatectomie; test à la toux positif; ({r:50%} des IU)"
+    freq: "très fréquent — 1ère cause chez la femme"
+  - dx: "{p:Hyperactivité vésicale / urgenturie (IUU)}"
+    indices: "Besoin impérieux non maîtrisé, pollakiurie >8/j + nycturie ≥2; {r:20%} des IU; rechercher cause neurologique ou irritation vésicale (IU, calcul, tumeur)"
+    freq: "fréquent — augmente avec l'âge"
+  - dx: "{p:Incontinence mixte (IUM)}"
+    indices: "Association IUE + IUU; déterminer la composante prédominante pour orienter le traitement; plus complexe à prendre en charge; {r:30%} des IU"
+    freq: "fréquent — bilan urodynamique souvent requis"
+  - dx: "{p:Incontinence par regorgement (overflow)}"
+    indices: "Gouttes permanentes, dysurie, {s:globe vésical}, résidu post-mictionnel >150 mL, créatinine élevée; obstacle (HBP, sténose) ou hypocontractilité (neuropathie, médicaments)"
+    freq: "fréquent chez l'homme âgé et le diabétique"
+  - dx: "{p:Fistule urinaire (vésico-vaginale, urétéro-vaginale)}"
+    indices: "Écoulement permanent, post-chir gynéco/obstétrical, post-radique; test au bleu intravésical positif; rare en pays développés mais piège diagnostique majeur"
+    freq: "rare mais à ne pas méconnaître"
+    # [VÉRIFIER: ordre de fréquence IUE vs IUM en population suisse — IUE 50% IUM 30% IUU 20% selon source MD]
+
+# source: lines 216-341
+pec_initiale:
+  immediate:
+    - |-
+      Causes RÉVERSIBLES d'abord ({t:DIAPPERS}): Délirium, Infection ({t:ECBU}), Atrophie vaginale (œstrogènes locaux), Pharmaco (revoir traitement), Psy, Endocrine (diabète, diabète insipide), Restriction mobilité, Stool impaction (fécalome)
+    - |-
+      1ère ligne — RHD + rééducation périnéale (gold standard conservateur):
+      • {r:perte de poids 5-10%} si IMC >25 (↓ 50% symptômes)
+      • limiter caféine, alcool, édulcorants; arrêt tabac; traiter constipation
+      • {r:exercices de Kegel 3×10/j}, biofeedback, électrostimulation
+      • protocole {r:15-20 séances} (2-3/sem), auto-entretien à vie
+      • efficacité {r:50-70%} IUE, {r:40-60%} IUU
+    - |-
+      2e ligne — IUU (anticholinergiques ou bêta-3):
+      • {r:oxybutynine 5-15 mg/j LP} OU {r:solifénacine 5-10 mg/j} OU {r:fésotérodine 4-8 mg/j}
+      • alternative: {r:mirabégron 25-50 mg/j} (bêta-3, moins d'effets cognitifs — préférer chez le sujet âgé)
+      • CI anticholinergiques: glaucome à angle fermé, rétention urinaire, myasthénie, démence/sujet âgé fragile
+      [VÉRIFIER: posologies de démarrage en gériatrie (CHUV / HUG) — débuter à demi-dose chez >75 ans]
+    - |-
+      2e ligne — IUE:
+      • {r:duloxétine 40-80 mg/j} possible (efficacité modeste, nausées 25%)
+      • pessaire anti-incontinence, dispositifs occlusifs ponctuels
+      • {r:œstrogènes locaux} si atrophie vaginale post-ménopause
+    - |-
+      3e ligne — chirurgie (après échec conservateur documenté + {t:BUD}):
+      • IUE femme: bandelette sous-urétrale TVT/TOT (succès {r:85-90%})
+      • IUE homme post-prostatectomie: bandelette ou sphincter artificiel AMS-800
+      • IUU réfractaire: {r:toxine botulique intra-détrusor 100-200 U} (6-9 mois) ou neuromodulation sacrée S3
+    - "{p:Rétention chronique avec regorgement}: drainage par sondage + bilan obstacle (HBP, sténose), surveiller fonction rénale, arrêt anticholinergiques"
+  orientation:
+    - "Domicile + médecin traitant: IU typique sans red flag → RHD + rééducation périnéale + ECBU + réévaluation à {r:3 mois}"
+    - "Urologie ambulatoire: échec conservateur, IUM complexe, suspicion regorgement, prostate (homme), envisager {t:BUD} et chirurgie"
+    - "Gynécologie: prolapsus associé, post-ménopause, planification chirurgie pelvienne combinée"
+    - "Urgences / hospitalisation: red flag (queue de cheval, sepsis, rétention aiguë, hématurie macroscopique avec retentissement)"
+    - "Gériatrie: sujet âgé fragile, incontinence multifactorielle, troubles cognitifs (évaluation gériatrique globale, éviter anticholinergiques)"
+
+# source: lines 160-214
+examens_complementaires:
+  - "{t:Bandelette urinaire + ECBU}: SYSTÉMATIQUE avant tout traitement (éliminer infection — facteur déclenchant ou aggravant)"
+  - "{t:Calendrier mictionnel 3 jours} (horaires, volumes, fuites, urgences): analyse capacité vésicale, polyurie nocturne, pollakiurie"
+  - "{t:Résidu post-mictionnel} (échographie sus-pubienne ou bladder-scan): normal <100 mL, pathologique >150 mL → obstacle ou hypocontractilité"
+  - "{t:Créatinine + glycémie}: rétention chronique avec retentissement rénal, diabète (polyurie, neuropathie)"
+  - "{t:Bilan urodynamique (BUD)}: si échec conservateur, IUM, ATCD chirurgie pelvienne, pathologie neuro, AVANT chirurgie (cystomanométrie, profilométrie urétrale, pression/débit, EMG)"
+  - "{t:Échographie pelvienne / cystographie / uro-IRM}: prolapsus, masses, suspicion fistule, bilan pré-chirurgical"
+    # [VÉRIFIER: indications du BUD avant TVT chez femme avec IUE pure — souvent non requis selon EAU 2024]
+
+# source: lines 343-358
+criteres_hospitalisation:
+  - "{p:Syndrome de la queue de cheval} suspecté → urgence neurochirurgicale"
+  - "{p:Pyélonéphrite obstructive / sepsis urinaire} avec signes de gravité"
+  - "{p:Rétention aiguë d'urine} compliquée (insuffisance rénale aiguë, hématurie a vacuo)"
+  - "Hématurie macroscopique avec déglobulisation ou caillotage vésical"
+  - "Fistule urinaire compliquée nécessitant prise en charge chirurgicale urgente"
+
+# source: lines 370-376 + pivots cliniques
+pieges:
+  - "Banaliser comme 'âge normal' ou 'normal après plusieurs grossesses' — l'IU n'est JAMAIS une fatalité; impact qualité de vie majeur (isolement, dépression) à dépister activement"
+  - "Méconnaître la {p:rétention chronique avec regorgement}: globe vésical + créatinine élevée souvent oubliés; faire un {t:résidu post-mictionnel} systématique avant tout anticholinergique"
+  - "Prescrire un {r:anticholinergique} chez la personne âgée fragile/confuse → chute, syndrome confusionnel, glaucome aigu, rétention — préférer {r:mirabégron} ou rééducation seule"
+  - "Oublier les causes RÉVERSIBLES ({t:DIAPPERS}) avant tout bilan spécialisé: infection, fécalome, médicaments, atrophie vaginale"
+  - "Méconnaître une {p:fistule vésico-vaginale} devant un écoulement permanent post-chir/post-radique/post-obstétrical — test au bleu indispensable"
+
+cartes_liees:
+  - SSP-GAS-12
+  - SYS-NEU
+  - SSP-NEU-04

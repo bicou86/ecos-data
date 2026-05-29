@@ -1,0 +1,195 @@
+id: SSP-NEP-02
+type: ssp
+title: Colique néphrétique
+discipline: Nephro
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Colique_Néphrétique.md
+  - EAU Guidelines on Urolithiasis 2023
+  - Collège Français d'Urologie
+
+# source: line 16-54
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • {s:fosse lombaire / flanc} unilatéral
+      • côté droit ou gauche?
+      • point de départ et trajet?
+    - |-
+      Onset:
+      • {s:début BRUTAL} (minutes) ou progressif?
+      • premier épisode ou récidive?
+      • déclencheurs ({e:déshydratation}, voyage, effort)?
+    - "Character: {s:colique paroxystique} (vagues) vs douleur continue, à type de torsion / broiement?"
+    - |-
+      Radiation (indique le niveau de l'obstacle):
+      • calcul calice/bassinet → {s:flanc}
+      • uretère lombaire → {s:fosse iliaque}
+      • uretère pelvien → {s:OGE / scrotum / grande lèvre}
+      • intra-vésical → {s:pollakiurie / brûlures}
+    - |-
+      Time:
+      • durée (minutes à heures)
+      • crises paroxystiques toutes les X min?
+      • horaire (réveil nocturne fréquent)
+    - |-
+      Exacerbating / Relieving:
+      • aucune position antalgique ({s:agitation} = signature)
+      • {r:AINS} efficaces?
+      • soulagement par chaleur?
+    - "Severity: EVA souvent {r:8-10/10}, impact (impossibilité d'activité, arrêt de travail)"
+  specifique:
+    - |-
+      Signes urinaires:
+      • {s:hématurie macroscopique} (30 %, micro 90 %)
+      • {s:pollakiurie / dysurie / impériosités} (calcul juxta-vésical)
+      • diminution de la diurèse / {s:anurie}?
+    - |-
+      Signes digestifs réflexes:
+      • {s:nausées / vomissements} (50 %)
+      • {s:iléus réflexe}, ballonnement
+      • piège: peut mimer un abdomen aigu
+    - |-
+      Signes infectieux (URGENCE):
+      • {s:fièvre / frissons} → {p:pyélonéphrite obstructive}
+      • sueurs, hypotension → sepsis
+    - "{e:Grossesse} (toute femme en âge de procréer → bHCG)?"
+    - "Douleur scrotale chez {e:homme jeune} → ne pas confondre avec {p:torsion testiculaire}?"
+    - "{e:> 50 ans} avec FRCV → éliminer {p:AAA rompu} avant tout"
+  atcd:
+    - |-
+      ATCD lithiasiques:
+      • lithiases antérieures ({r:récidive 50 % à 5 ans})
+      • analyse spectrophotométrique d'un calcul connu?
+      • interventions urologiques (sonde JJ, LEC)?
+    - |-
+      Facteurs de risque:
+      • ATCD familiaux de lithiase
+      • {p:hyperparathyroïdie}, {p:goutte} / hyperuricémie
+      • {p:MICI} (Crohn), bypass gastrique
+      • infections urinaires récidivantes (calculs struvite)
+      • médicaments lithogènes (indinavir, topiramate, sulfadiazine)
+    - "Terrain à risque: {e:rein unique fonctionnel}, néphropathie chronique, {e:immunodépression}, {e:grossesse}"
+    - |-
+      Habitudes de vie:
+      • hydratation (< 1.5 L/j = FR majeur)
+      • régime salé, riche en protéines animales
+      • exposition à la chaleur (travail, voyage)
+
+red_flags:
+  - description: "{s:Fièvre > 38.5 °C + frissons} chez patient en crise de colique néphrétique"
+    dx_suspecte: "{p:Pyélonéphrite obstructive} (urgence vitale, sepsis)"
+    action: "{t:Uro-TDM} + hémocultures + ECBU STAT; {r:ceftriaxone 2 g IV + amikacine 15 mg/kg IV}; drainage urologique URGENT ({r:sonde JJ ou néphrostomie} < 6 h) [VÉRIFIER:antibiothérapie locale CHUV/HUG]"
+  - description: "{s:Anurie} ou oligurie sévère + douleur lombaire (uni ou bilatérale)"
+    dx_suspecte: "{p:Insuffisance rénale aiguë obstructive} sur {e:rein unique} ou obstacle bilatéral"
+    action: "Créatinine + ionogramme + {t:échographie} STAT; drainage urgent ({r:sonde JJ ou néphrostomie}); éviter AINS"
+  - description: "{e:> 50 ans} avec FRCV: douleur lombaire/abdo brutale + {s:masse abdominale pulsatile} ± choc ± asymétrie pouls fémoraux"
+    dx_suspecte: "{p:Anévrisme aortique abdominal rompu}"
+    action: "{t:Échographie abdominale} STAT au lit; {t:angio-TDM} si stable; appel chirurgie vasculaire IMMÉDIAT; NE PAS faire AINS"
+  - description: "{e:Femme en âge de procréer} + douleur lombo-abdominale + retard de règles ± métrorragies ± instabilité hémodynamique"
+    dx_suspecte: "{p:Grossesse extra-utérine (GEU) rompue}"
+    action: "{t:bHCG} qualitatif/quantitatif + {t:échographie pelvienne} STAT; voie veineuse; appel gynéco urgent"
+  - description: "{e:Homme jeune} + douleur scrotale brutale irradiant en lombaire + bourse rouge/œdémateuse + abolition du réflexe crémastérien"
+    dx_suspecte: "{p:Torsion testiculaire}"
+    action: "{t:Écho-Doppler scrotal} STAT; appel uro immédiat pour détorsion chirurgicale {r:< 6 h} (au-delà: nécrose)"
+  - description: "Douleur lombaire + hypotension/choc sans masse pulsatile, déshydratation majeure"
+    dx_suspecte: "{p:Sepsis urinaire} / urosepsis"
+    action: "Remplissage cristalloïdes + hémocultures + ATB IV empirique + drainage urologique"
+
+# source: line 56-78
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: {t:TA aux deux bras}, FC, T° tympanique, FR, SaO2, diurèse"
+    - "{s:Agitation psychomotrice} caractéristique (vs immobilité antalgique d'une péritonite)"
+    - "Pâleur, sueurs profuses, faciès douloureux"
+    - "Rechercher masse abdo pulsatile + auscultation aortique ({e:> 50 ans})"
+  cible:
+    - |-
+      Palpation lombaire:
+      • {s:douleur fosse lombaire} spontanée et provoquée
+      • {t:ébranlement lombaire} + (percussion douce du poing)
+      • {t:Giordano} + (percussion région costo-vertébrale)
+    - |-
+      Abdomen:
+      • {s:absence de défense / contracture} (signe NÉGATIF clé)
+      • transit conservé (parfois ralenti)
+      • {s:globe vésical}? (obstacle bas, rétention)
+      • palpation aorte, masse pulsatile?
+    - |-
+      Examen génital (selon contexte):
+      • bourses (torsion testiculaire, épididymite)
+      • toucher rectal si suspicion prostatique
+      • {t:bHCG} si femme en âge de procréer
+    - "Signes de complications: {s:fièvre} (pyélonéphrite obstructive), {s:anurie} (obstacle bilat), {s:hypotension / choc} (sepsis ou AAA)"
+    - "Recherche zona métamérique (D11-L1) — éruption vésiculaire en bande"
+
+dd_top5:
+  - dx: "{p:Lithiase urinaire obstructive (colique néphrétique simple)}"
+    indices: "Douleur lombaire brutale paroxystique + {s:agitation} + irradiation OGE + hématurie microscopique (90 %); {t:uro-TDM sans injection} sens. 95 %, spé. 98 %; pas de fièvre"
+    freq: "très fréquent (1-2 % pop./an); 80-95 % des coliques néphrétiques"
+  - dx: "{p:Pyélonéphrite obstructive}"
+    indices: "Colique néphrétique + {s:fièvre / frissons / sepsis}; BU leuco-nitrite +, ECBU positif, CRP élevée; {t:uro-TDM} confirme l'obstacle; URGENCE = drainage + ATB"
+    freq: "fréquent en pratique d'urgences (10-15 % des CN fébriles) [VÉRIFIER:proportion exacte selon registres locaux]"
+  - dx: "{p:Anévrisme aortique abdominal rompu}"
+    indices: "{e:> 50 ans} + FRCV (HTA, tabac, athérome) + douleur dorso-lombaire brutale + {s:masse pulsatile} + choc; piège majeur car mime une CN; {t:écho ou angio-TDM} URGENTE; mortalité > 80 %"
+    freq: "rare mais urgence absolue (incidence anévrisme > 50 ans ≈ 5 %)"
+  - dx: "{p:Grossesse extra-utérine (GEU)}"
+    indices: "{e:Femme} en âge de procréer + retard de règles + douleur pelvienne/lombaire + métrorragies; {t:bHCG} + + {t:écho pelvienne} (utérus vide, masse latéro-utérine); rupture = urgence vitale"
+    freq: "rare (incidence 1-2 % grossesses) mais MAJEURE à éliminer"
+  - dx: "{p:Pathologies digestives aiguës (appendicite, diverticulite, cholécystite)}"
+    indices: "Position antalgique (immobilité) + défense + fièvre; {t:TDM abdo-pelvien} avec injection; piège: appendicite rétro-cæcale mime une CN droite"
+    freq: "fréquent en différentiel (appendicite incidence 7 % à vie) [VÉRIFIER:données épidémio SSP local]"
+
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — fièvre / anurie / choc / >50 ans = imagerie/bilan AVANT antalgiques"
+    - |-
+      Antalgie de 1ère intention ({r:AINS} = gold standard):
+      • {r:kétoprofène 100 mg IV lent sur 20 min} OU
+      • {r:diclofénac 75 mg IM} OU 100 mg suppositoire
+      • CI: {e:grossesse 3e trimestre}, IRA, ulcère GD, allergie [VÉRIFIER:protocole AINS CHUV/HUG]
+    - "Antispasmodique adjuvant: {r:phloroglucinol (Spasfon) 40 mg IV} si AINS insuffisants"
+    - |-
+      Antalgie de 2e intention si échec ou CI aux AINS:
+      • {r:morphine titrée IV} 2-3 mg/5 min (max 0.1 mg/kg)
+      • {r:paracétamol 1 g IV} en association
+      • antiémétique: {r:métoclopramide 10 mg IV}
+    - "Restriction hydrique en phase aiguë ({r:500 mL/24h}), puis hyperhydratation {r:2-3 L/j} après sédation"
+    - "Tamiser les urines pour récupération du calcul (analyse spectrophotométrique)"
+    - "Alpha-bloquant (calcul distal {r:< 10 mm}): {r:tamsulosine 0.4 mg/j PO} × 4 semaines max [VÉRIFIER:indication MET selon EAU 2023]"
+  orientation:
+    - "Domicile + {r:AINS PO 5-7 j} + tamsulosine si critères: CN simple, antalgie efficace, calcul < 6 mm, pas de fièvre, pas d'IRA, fonction rénale normale, suivi possible"
+    - "Hospitalisation urologique en urgence: tout red flag, drainage à prévoir"
+    - "Consultation uro programmée à {r:48-72 h} si retour à domicile: contrôle clinique + imagerie selon évolution"
+    - "Consignes de retour aux urgences: fièvre, vomissements incoercibles, anurie, douleur réfractaire, perte de connaissance"
+
+# source: line 80-119
+examens_complementaires:
+  - "{t:Bandelette urinaire (BU)}: hématurie (85-90 %), leuco-nitrite (suspicion infection), pH (acide → urique, alcalin → phosphate/struvite)"
+  - "{t:Créatinine + ionogramme + NFS + CRP}: fonction rénale, sepsis; {t:bHCG} chez toute femme en âge de procréer AVANT imagerie"
+  - "{t:ECBU} si BU leuco-nitrite + ou fièvre (avant ATB)"
+  - "{t:Uro-TDM SANS injection} (gold standard, sens. 95 % spé. 98 %): localise calcul, taille (mm), densité (UH), dilatation; protocole low-dose si {e:< 50 ans} ou {e:récidive}"
+  - "{t:Échographie réno-vésicale}: 1ère intention si {e:grossesse}, {e:enfant}, ou indisponibilité TDM; recherche dilatation pyélocalicielle, calcul (cône d'ombre)"
+  - "{t:ASP} (rarement): repère de suivi pour calcul radio-opaque connu (calcium 80 %)"
+
+criteres_hospitalisation:
+  - "Tout red flag confirmé ({p:pyélonéphrite obstructive}, {p:IRA obstructive}, {p:AAA}, {p:GEU})"
+  - "Terrain à risque: {e:rein unique}, {e:grossesse}, {e:immunodépression}, {p:IRC} préexistante"
+  - "Calcul {r:> 6 mm} et/ou obstacle haut (peu de chance d'expulsion spontanée)"
+  - "Échec antalgique malgré {r:AINS + morphine} (douleur hyperalgique réfractaire)"
+  - "Vomissements incoercibles empêchant traitement PO ou hydratation"
+
+pieges:
+  - "Confondre {p:AAA rompu} et colique néphrétique chez {e:> 50 ans} avec FRCV — TOUJOURS palper l'aorte et faire écho abdo avant AINS"
+  - "Méconnaître la {p:pyélonéphrite obstructive} (CN + fièvre) — mortelle si non drainée en < 6 h; ATB seuls insuffisants"
+  - "Donner des {r:AINS} chez {e:déshydraté} / {e:grossesse 3e trim} / {p:IRA} / ulcère — risque IRA aiguë, fœtotoxicité"
+  - "Oublier la {t:bHCG} chez femme en âge de procréer (GEU non vue, irradiation TDM si grossesse)"
+  - "Ne pas tamiser les urines: calcul perdu → pas d'analyse spectrophotométrique → pas de prévention spécifique"
+
+cartes_liees:
+  - SYS-NEP
+  - SSP-URO-01
+  - SSP-NEP-01

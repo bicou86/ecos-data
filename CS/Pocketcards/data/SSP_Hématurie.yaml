@@ -1,0 +1,195 @@
+id: SSP-NEP-04
+type: ssp
+title: Hématurie
+discipline: Nephro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Hématurie.md
+  - Guidelines EAU 2024 — Hématurie
+  - AUA Guidelines — Microscopic hematuria
+  - Recommandations AFU
+
+# source: MD lignes 9-86
+anamnese:
+  socrates:
+    - |-
+      Site (3 temps de Guyon):
+      • {s:initiale} (début du jet) → urètre/prostate
+      • {s:terminale} (fin du jet) → vessie/col
+      • {s:totale} → haute (rein/uretère) ou massive
+    - |-
+      Onset:
+      • aigu (jours) ou chronique (semaines-mois)
+      • premier épisode ou récurrent?
+      • spontané, après effort, rapport, traumatisme?
+    - |-
+      Character — aspect:
+      • {s:rouge franc + caillots} → urologique
+      • {s:Coca-Cola, brun, thé} sans caillot → néphrologique
+      • rosé, orange → toujours confirmer par BU/ECBU
+    - "Radiation: douleur lombaire (colique néphrétique), pelvienne, périnéale?"
+    - |-
+      Time:
+      • à chaque miction ou intermittente?
+      • durée d'évolution?
+      • {s:microscopique persistante > 3 mois} sur ≥ 2 BU?
+    - "Exacerbating: effort, rapports, manoeuvres instrumentales récentes?"
+    - "Relieving: cède spontanément? répond aux ATB?"
+    - "Severity: quelques gouttes, urines entièrement sanglantes, {s:rétention par caillotage}?"
+  specifique:
+    - |-
+      LUTS associés:
+      • obstructifs (dysurie, jet faible, vidange incomplète) → {p:HBP / sténose}
+      • irritatifs (pollakiurie, urgenturie, brûlures) → {p:cystite, cancer in situ}
+    - |-
+      Signes néphrologiques:
+      • {s:œdèmes MI} + {s:HTA récente} + oligurie → {p:syndrome néphritique}
+      • hémoptysie associée → {p:syndrome pneumo-rénal} (Goodpasture, ANCA)
+      • infection ORL/cutanée 1-3 sem avant → {p:GN post-streptococcique}
+    - |-
+      Signes oncologiques (drapeau rouge):
+      • {s:altération état général}, amaigrissement, anorexie, sueurs nocturnes
+      • {s:masse lombaire palpable}, varicocèle gauche d'apparition récente
+    - |-
+      Infection:
+      • fièvre/frissons + douleur lombaire → {p:pyélonéphrite}
+      • brûlures + pollakiurie isolées → cystite hémorragique
+    - |-
+      Fausses hématuries à éliminer:
+      • règles, métrorragies, contamination vaginale (femme)
+      • coloration: betterave, myrtille, {r:rifampicine, métronidazole}, phénolphtaléine
+      • {p:myoglobinurie} (effort intense, rhabdomyolyse) / {p:hémoglobinurie} (hémolyse)
+  atcd:
+    - "Urologiques: lithiase, infections récidivantes, chirurgie/instrumentation, sondage récent, traumatisme génito-urinaire"
+    - "Néphrologiques: IRC, syndrome néphrotique/néphritique, biopsie antérieure"
+    - |-
+      Facteurs de risque oncologique (cancer urothélial):
+      • {r:tabagisme} (paquets-années) — RR × 4
+      • expositions pro: colorants, amines aromatiques, solvants, caoutchouc
+      • {e:âge > 40 ans homme / > 50 ans femme}
+      • cyclophosphamide, radiothérapie pelvienne antérieure
+    - |-
+      Médicaments:
+      • {r:anticoagulants/antiagrégants} (warfarine, NACO, aspirine) → ne PAS attribuer sans bilan
+      • AINS, aminosides (néphrotoxiques)
+      • cyclophosphamide (cystite hémorragique)
+    - "ATCD familiaux: cancers urologiques, polykystose, syndrome d'Alport, lithiase, coagulopathies"
+    - "Voyages récents, eau douce tropicale → {p:bilharziose} (Schistosoma haematobium)"
+
+# source: MD lignes 199-205 (red flags MD) + pivots cliniques
+red_flags:
+  - description: "{s:Hématurie macroscopique} + {e:> 40 ans} ± tabac ± hématurie indolore avec caillots"
+    dx_suspecte: "{p:Cancer urothélial (vessie / voies excrétrices)}"
+    action: "{t:Uro-CT triphasique} + {t:cystoscopie} + cytologie urinaire × 3; référence urologique < 15 j"
+  - description: "Hématurie + {s:fièvre + douleur lombaire / Giordano +} ± frissons"
+    dx_suspecte: "{p:Pyélonéphrite aiguë} ± obstacle (pyonéphrose)"
+    action: "ECBU + hémocultures; {r:ceftriaxone 2 g IV} ± aminoside; échographie urgente pour exclure obstacle (drainage si dilatation)"
+  - description: "{s:Caillotage vésical} avec rétention aiguë d'urines"
+    dx_suspecte: "Caillotage = obstruction; tumeur vésicale ou prostatique souvent sous-jacente"
+    action: "Sondage à double courant + irrigation vésicale; consultation urologique urgente; bilan tumoral secondairement"
+  - description: "Hématurie + {s:HTA sévère} + {s:œdèmes MI} + protéinurie + IRA"
+    dx_suspecte: "{p:Syndrome néphritique aigu} / GN rapidement progressive"
+    action: "Hospitalisation; bilan auto-immun (ANCA, anti-MBG, C3/C4, ASLO); avis néphro pour biopsie rénale [VÉRIFIER: délai biopsie selon protocole CHUV]"
+  - description: "Hématurie + {s:hémoptysie} ± dyspnée"
+    dx_suspecte: "{p:Syndrome pneumo-rénal} (Goodpasture, vascularite ANCA)"
+    action: "Hospitalisation USI; gaz du sang, RX/CT thorax; sérologie anti-MBG + ANCA STAT; avis néphro/pneumo; plasmaphérèse selon avis"
+  - description: "Hématurie + anurie ou IRA obstructive bilatérale"
+    dx_suspecte: "Obstruction urétérale bilatérale (caillot, tumeur, fibrose rétropéritonéale)"
+    action: "Bilan ionique urgent (K+); échographie/uro-CT; dérivation urinaire urgente (sonde JJ ou néphrostomie)"
+  - description: "Hématurie sous {r:anticoagulant} (warfarine, NACO) même avec INR thérapeutique"
+    dx_suspecte: "L'anticoagulant RÉVÈLE une lésion sous-jacente (cancer urothélial dans ~25 % des cas) [VÉRIFIER: pourcentage exact]"
+    action: "Ne PAS attribuer à l'AC seul; bilan complet (BU/ECBU, écho, uro-CT, cystoscopie selon âge/FdR); ajuster INR si supra-thérapeutique"
+
+# source: MD lignes 89-117
+examen:
+  general:
+    - "Signes vitaux: {t:TA aux deux bras} (HTA récente?), FC, T°, SaO2"
+    - "État général: pâleur (anémie), altération état général, IMC"
+    - "Inspection cutanée: pétéchies, ecchymoses, purpura (vascularite, coagulopathie)"
+    - "Œdèmes des membres inférieurs (godet); poids vs poids habituel"
+  cible:
+    - |-
+      Abdomen / fosses lombaires:
+      • palpation: masses, globe vésical, douleur
+      • percussion des fosses lombaires (Giordano)
+      • palpation des flancs (gros reins → polykystose, cancer rénal)
+      • recherche d'ascite si contexte néoplasique
+    - |-
+      Examen génito-urinaire homme:
+      • inspection OGE, méat (écoulement)
+      • palpation testicules/épididymes, varicocèle (gauche d'apparition récente → cancer rein)
+      • {t:toucher rectal} systématique > 40 ans: volume, consistance, nodules prostatiques
+    - |-
+      Examen gynécologique femme:
+      • exclure contamination menstruelle (refaire BU à distance des règles)
+      • examen au spéculum si doute sur origine vaginale
+    - "Aires ganglionnaires: inguinales, sus-claviculaires (Troisier → néoplasie avancée)"
+    - "Auscultation cardio-pulmonaire: souffle, crépitants (syndrome pneumo-rénal, surcharge sur IRA)"
+    - "Examen ORL/cutané si suspicion GN post-infectieuse (cicatrice impétigo, angine récente)"
+
+# source: MD lignes 154-161 + pivots
+dd_top5:
+  - dx: "{p:Cancer urothélial (vessie / voies excrétrices)}"
+    indices: "{e:> 40 ans}, tabac, exposition pro; hématurie macroscopique souvent INDOLORE avec caillots; cytologie + + {t:cystoscopie + uro-CT}; à exclure SYSTÉMATIQUEMENT chez tout patient > 40 ans avec hématurie macroscopique"
+    freq: "fréquent (incidence ↑ avec âge + tabac); 25 % des macrohématuries > 40 ans"
+  - dx: "{p:Lithiase urinaire}"
+    indices: "Douleur lombaire colique paroxystique irradiant vers OGE, agitation, nausées; hématurie souvent microscopique; {t:Uro-CT sans contraste} = gold standard"
+    freq: "très fréquent (prévalence vie 10 %)"
+  - dx: "{p:Infection urinaire (cystite hémorragique / pyélonéphrite)}"
+    indices: "Brûlures, pollakiurie, dysurie ± fièvre + Giordano; leucocytes + nitrites + à la BU; ECBU positif; femme jeune > homme"
+    freq: "très fréquent"
+  - dx: "{p:Hyperplasie bénigne de la prostate (HBP)}"
+    indices: "Homme > 50 ans, LUTS obstructifs progressifs, prostate augmentée souple au TR; diagnostic d'élimination → exclure cancer prostate/vessie [VÉRIFIER: critères PSA selon âge]"
+    freq: "très fréquent > 50 ans"
+  - dx: "{p:Glomérulonéphrite (post-streptococcique / IgA / RPGN)}"
+    indices: "Hématurie 'Coca-Cola' sans caillots, protéinurie, cylindres hématiques, hématies dysmorphiques, HTA + œdèmes; ASLO/C3 abaissé (post-strep), ANCA, anti-MBG"
+    freq: "rare mais ne pas méconnaître (urgence néphrologique)"
+
+# source: MD lignes 163-195
+pec_initiale:
+  immediate:
+    - "Confirmer l'hématurie: {t:BU} (sens. > 90 %) + {t:ECBU} (≥ 10 GR/mm³ ou > 3 GR/champ) — éliminer faux + (myoglobinurie, hémoglobinurie, betterave, rifampicine)"
+    - "Évaluer le retentissement: {t:NFS} (anémie?), créatinine, ionogramme, TP/TCA"
+    - "Caillotage vésical → {r:sondage à double courant + irrigation continue NaCl 0.9 %}; antalgiques"
+    - "Pyélonéphrite: {r:ceftriaxone 2 g IV} (± aminoside si sepsis); durée 14-21 j adaptée à l'antibiogramme [VÉRIFIER: durée selon protocole local]"
+    - "Cystite hémorragique non compliquée: {r:fosfomycine 3 g PO} dose unique ou nitrofurantoïne; ECBU avant ATB"
+    - "Colique néphrétique: AINS ({r:diclofénac 75 mg IV/IM}) ± morphine; hydratation modérée; {r:tamsulosine 0,4 mg/j} pour calcul > 5 mm distal"
+    - "Syndrome néphritique aigu / RPGN: hospitalisation; restriction hydrosodée; contrôle TA; avis néphro pour biopsie rénale"
+    - "Hématurie sous AC: NE PAS attribuer à l'AC; bilan complet même si INR élevé; ajuster INR si supra-thérapeutique sans antagoniser"
+  orientation:
+    - "Domicile + médecin traitant: hématurie microscopique isolée < 40 ans sans FdR, ECBU/BU contrôlée à 6 semaines"
+    - "Consultation urologique < 15 j: toute {s:hématurie macroscopique}, ou hématurie microscopique > 40 ans ou avec FdR"
+    - "Hospitalisation: red flag avéré (cf. section), caillotage, IRA, sepsis, anémie sévère"
+    - "Néphrologie urgente: syndrome néphritique, RPGN, hémoptysie associée, IRC découverte"
+    - "Consignes de retour: rétention urinaire, fièvre, douleur intense, aggravation, dyspnée"
+
+# source: MD lignes 121-148
+examens_complementaires:
+  - "{t:BU + ECBU avec cytologie}: confirmation + recherche infection + hématies dysmorphiques (origine glomérulaire)"
+  - "{t:Cytologie urinaire × 3} (matin à jeun): si {e:> 40 ans} ou FdR; sens. 80-90 % cancers haut grade, faible pour bas grade"
+  - "{t:Échographie réno-vésicale} + résidu post-mictionnel: première intention, dépistage masse, lithiase, obstacle"
+  - "{t:Uro-CT triphasique} (sans contraste + injecté + phase tardive excrétrice): référence > 40 ans ou hématurie macroscopique inexpliquée"
+  - "{t:Cystoscopie flexible}: SYSTÉMATIQUE si hématurie macroscopique ou {e:> 40 ans} avec hématurie persistante"
+  - "Bilan néphrologique si glomérulopathie suspectée: protéinurie/24 h, sédiment urinaire (cylindres), C3/C4, ASLO, ANCA, anti-MBG, biopsie rénale"
+
+# source: pivots cliniques
+criteres_hospitalisation:
+  - "Tout red flag avéré ({p:syndrome néphritique aigu / RPGN}, syndrome pneumo-rénal, sepsis urinaire, anurie obstructive)"
+  - "Caillotage vésical avec rétention aiguë"
+  - "Anémie aiguë symptomatique (Hb < 80 g/L ou mal tolérée)"
+  - "IRA aiguë (créatinine élevée vs base) ou hyperkaliémie"
+  - "Suspicion de cancer avec masse symptomatique ou syndrome paranéoplasique"
+
+# source: MD lignes 216-221 + pivots
+pieges:
+  - "Attribuer une hématurie à l'{r:anticoagulant} sans bilan → l'AC peut RÉVÉLER un cancer urothélial dans ~25 % des cas [VÉRIFIER: chiffre selon source]"
+  - "Oublier la {t:cystoscopie} chez tout patient > 40 ans avec hématurie macroscopique — examen INDISPENSABLE même si imagerie normale"
+  - "Confondre hématurie avec {p:hémoglobinurie / myoglobinurie} (BU + mais ECBU sans GR) ou colorations alimentaires/médicamenteuses (betterave, {r:rifampicine})"
+  - "Négliger une {s:hématurie microscopique persistante > 3 mois} — bilan complet requis même si patient asymptomatique"
+  - "Banaliser une {s:hématurie indolore} — l'absence de douleur AUGMENTE la suspicion de cancer (vessie, rein)"
+
+cartes_liees:
+  - SYS-NEP
+  - SSP-URO-DOULEUR-TESTICULES

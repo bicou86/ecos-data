@@ -1,0 +1,199 @@
+id: SSP-NEP-07
+type: ssp
+title: Syndrome néphrotique
+discipline: Nephro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Syndrome_Néphrotique.md
+
+# source: line 16-122
+anamnese:
+  socrates:
+    - |-
+      Site (œdèmes):
+      • début paupières (matin)
+      • extension MI (soir), lombes (décubitus)
+      • OGE, anasarque si sévère
+    - |-
+      Onset:
+      • rapidité d'installation (jours / semaines)
+      • prise de poids quantifiable
+      • 1er épisode ou rechute connue?
+    - "Character: œdèmes blancs, mous, indolores, prennent le godet, déclives, symétriques"
+    - "Radiation: épanchements associés (ascite, pleurésie, péricarde)?"
+    - |-
+      Time:
+      • durée des symptômes
+      • horaire (paupières au lever)
+      • évolution récente
+    - |-
+      Exacerbating:
+      • position debout / orthostatisme
+      • apports sodés
+      • infection récente, vaccin?
+    - "Relieving: diurétiques pris? restriction sodée? repos en décubitus?"
+    - |-
+      Severity:
+      • intensité œdèmes / dyspnée (épanchement pleural)
+      • {s:urines mousseuses} (protéinurie)
+      • oligurie / asthénie / anorexie
+  specifique:
+    - |-
+      {s:Signes orientant vers cause secondaire}:
+      • {p:Diabète} > 10 ans + rétinopathie (1ère cause adulte)
+      • {p:Lupus} (femme jeune, éruption malaire, arthralgies)
+      • {p:Amylose} (macroglossie, purpura, myélome)
+      • {p:Infections} : VIH, VHB, VHC, endocardite
+      • {p:Cancers} : poumon, digestif, lymphome (Hodgkin)
+    - |-
+      Médicaments inducteurs:
+      • {r:AINS}
+      • {r:sels d'or}, D-pénicillamine
+      • héroïne
+      • interférons
+    - |-
+      Complications à dépister activement:
+      • douleur thoracique / dyspnée → {p:EP}
+      • douleur lombaire brutale + hématurie → {p:thrombose veine rénale}
+      • fièvre / douleur abdo → {p:péritonite spontanée} (enfant)
+      • mollet douloureux → {p:TVP}
+    - "{s:Signes d'hypovolémie efficace}: orthostatisme, soif, oligurie, extrémités froides"
+    - "Contexte enfant: épisode infectieux récent? âge 2-6 ans (SN idiopathique = 85% des SN de l'enfant)"
+  atcd:
+    - "ATCD néphrologiques: protéinurie ou hématurie antérieures, HTA, épisodes SN antérieurs"
+    - "ATCD cardiovasculaires: dyslipidémie, diabète, tabagisme"
+    - "ATCD familiaux: néphropathies, maladies auto-immunes"
+    - |-
+      Médicaments:
+      • néphrotoxiques (AINS, IEC, aminosides)
+      • anticoagulants
+      • immunosuppresseurs antérieurs
+      • vaccinations à jour (pneumocoque, grippe)
+    - "Habitudes: apports sodés, alcool, toxiques IV (héroïne)"
+
+red_flags:
+  - description: "{s:Œdèmes massifs + dyspnée + crépitants bilatéraux} / orthopnée"
+    dx_suspecte: "{p:OAP / surcharge hydrosodée}"
+    action: "{r:furosémide 40-80 mg IV} [VÉRIFIER:posologie selon fonction rénale et réponse antérieure] + restriction sodée < 3 g/j + O2; envisager USI si détresse"
+  - description: "{s:Douleur lombaire/abdominale brutale + hématurie macroscopique + IRA}"
+    dx_suspecte: "{p:Thrombose des veines rénales} (surtout si GEM + albumine < 20 g/L)"
+    action: "{t:Angio-scanner abdo} ou Doppler veines rénales URGENT; {r:anticoagulation curative} (HBPM puis AVK ou AOD)"
+  - description: "{s:Fièvre + douleur abdo diffuse + défense} ± ascite trouble"
+    dx_suspecte: "{p:Péritonite spontanée bactérienne} (pneumocoque, E. coli — surtout enfant)"
+    action: "{t:Ponction d'ascite} (PN > 250/mm³) + hémocs; {r:ceftriaxone 2 g IV} [VÉRIFIER:dose pédiatrique 50-100 mg/kg] + perfusion albumine 1,5 g/kg J1 puis 1 g/kg J3"
+  - description: "{s:Dyspnée brutale + douleur thoracique + désaturation} ± tachycardie"
+    dx_suspecte: "{p:Embolie pulmonaire} (perte ATIII, hyperfibrinogénémie)"
+    action: "{t:Angio-CT thoracique} URGENT (ou scinti V/Q); {r:anticoagulation curative} (HBPM) sans attendre confirmation si forte probabilité"
+  - description: "{s:IRA rapidement progressive + protéinurie massive + HTA + hématurie}"
+    dx_suspecte: "{p:GN rapidement progressive (à croissants)}"
+    action: "{t:Biopsie rénale URGENTE} (< 24-48h); {r:bolus méthylprednisolone 500-1000 mg/j × 3 j} [VÉRIFIER:protocole local CHUV/HUG] puis immunosuppresseurs"
+  - description: "{s:Hypotension orthostatique + tachycardie + oligurie + extrémités froides}"
+    dx_suspecte: "{p:Hypovolémie efficace sévère} (3e secteur massif)"
+    action: "STOP diurétiques; {r:perfusion albumine 20% (100 mL) puis furosémide IV} [VÉRIFIER:indication si albumine < 20 g/L]; ionogramme, créatinine"
+
+# source: line 124-204
+examen:
+  general:
+    - "Signes vitaux: TA (debout/couché — orthostatisme), FC, T°, SaO2, FR"
+    - "{t:Poids quotidien} (référence — quantifier gain)"
+    - "État nutritionnel (dénutrition possible malgré œdèmes)"
+    - "Inspection: pâleur, cyanose, xanthomes (dyslipidémie prolongée)"
+  cible:
+    - |-
+      Œdèmes — caractérisation:
+      • blancs, mous, indolores, godet positif
+      • déclives, symétriques
+      • paupières / MI / lombes / OGE
+      • anasarque (ascite + pleurésie + péricarde) si sévère
+    - |-
+      Recherche épanchements:
+      • {t:matité déclive abdo} (ascite)
+      • {t:matité + abolition MV} bases pulmonaires (pleurésie)
+      • assourdissement BdC (péricarde — rare)
+    - |-
+      Signes de thrombose:
+      • mollet douloureux, signe de Homans, asymétrie
+      • douleur lombaire (thrombose veine rénale)
+      • dyspnée + douleur thoracique (EP)
+    - |-
+      Signes d'infection:
+      • toute fièvre = URGENCE
+      • placard inflammatoire ({p:érysipèle})
+      • défense abdo ({p:péritonite spontanée})
+    - |-
+      Hypovolémie efficace:
+      • TA orthostatique
+      • tachycardie
+      • extrémités froides, TRC > 3 s
+      • oligurie
+    - |-
+      Recherche étiologique:
+      • éruption malaire, arthrites ({p:lupus})
+      • macroglossie, purpura ({p:amylose})
+      • rétinopathie, neuropathie ({p:diabète})
+      • adénopathies, hépatomégalie, AEG (néoplasie)
+    - "Distinction SN PUR (pas d'HTA, pas d'hématurie, fonction rénale N) vs SN IMPUR (HTA + hématurie + IR) → oriente vers cause secondaire"
+
+dd_top5:
+  - dx: "{p:Néphropathie diabétique}"
+    indices: "Diabète > 10 ans, rétinopathie associée (parallélisme), HTA, protéinurie progressive; biopsie souvent évitée si tableau typique"
+    freq: "1ère cause de SN chez l'adulte"
+  - dx: "{p:Glomérulonéphrite extra-membraneuse (GEM)}"
+    indices: "Adulte, SN pur, {t:anti-PLA2R} positif (70% des GEM primitives); rechercher cancer (paranéoplasique), VHB, lupus, médicaments"
+    freq: "fréquent adulte (30-40% des SN primitifs)"
+  - dx: "{p:Hyalinose segmentaire et focale (HSF)}"
+    indices: "Adulte ou ado, souvent SN impur, HTA, IR fréquente; primitive ou secondaire (VIH, obésité, héroïne, reflux); biopsie indispensable"
+    freq: "fréquent adulte jeune"
+  - dx: "{p:Lésions glomérulaires minimes (LGM)}"
+    indices: "Enfant 2-6 ans ({r:85%} des SN idiopathiques de l'enfant), SN pur, corticosensible; adulte rare; biopsie évitée chez enfant typique"
+    freq: "1ère cause SN enfant"
+  - dx: "{p:Amylose (AL, AA)}"
+    indices: "Macroglossie, purpura péri-orbitaire, hépatomégalie, neuropathie; rechercher myélome ({t:EPP/immunofixation}); biopsie + coloration {r:rouge Congo}"
+    freq: "rare mais à ne pas manquer"
+
+pec_initiale:
+  immediate:
+    - "{r:Restriction sodée < 3 g/j NaCl} (50 mmol Na) = base du traitement symptomatique"
+    - "{r:Diurétique de l'anse} furosémide 40-500 mg/j PO ou IV [VÉRIFIER:fenêtre posologique chez adulte avec IR] selon poids et diurèse; objectif perte 0,5-1 kg/j"
+    - "Association diurétique: thiazidique ± spironolactone si résistance"
+    - "Restriction hydrique 500-1000 mL/j SI hyponatrémie < 130 mmol/L"
+    - "{r:IEC ou ARA II} pour réduire protéinurie + néphroprotection (cible PA < 130/80); CI si IRA sévère ou hyperkaliémie"
+    - "{r:Anticoagulation préventive} (HBPM dose préventive) si albumine < 20 g/L OU ATIII < 70% OU IMC > 35 OU immobilisation"
+    - "{r:Statines} si dyslipidémie persistante > 6 mois (LDL > 2,6 mmol/L)"
+    - "Vaccinations: {r:pneumocoque + grippe annuelle} (à programmer dès stabilisation, idéalement avant immunosuppression)"
+    - "Traitement étiologique: {r:corticoïdes 1 mg/kg/j} chez adulte (LGM, HSF); enfant prednisone 60 mg/m²/j [VÉRIFIER:protocole pédiatrique local]"
+  orientation:
+    - "Hospitalisation si: anasarque, complication aiguë (thrombose, infection, IRA), 1er épisode adulte pour bilan + biopsie"
+    - "Ambulatoire possible si: récidive connue, œdèmes modérés, hémodynamique stable, accès rapide aux soins"
+    - "Référence néphrologie systématique chez tout adulte (biopsie sauf diabète typique)"
+    - "Référence pédiatrique si: SN < 1 an ou > 10 ans, SN impur, corticorésistance, rechutes fréquentes"
+    - "Consignes de retour: fièvre, douleur lombaire/abdo brutale, dyspnée, prise de poids > 2 kg/j, oligurie"
+
+# source: line 206-285
+examens_complementaires:
+  - "{t:Confirmation diagnostic}: protéinurie 24h ou rapport P/C, albuminémie, protidémie, EPP urinaire (sélectivité), bandelette + sédiment urinaire"
+  - "{t:Bilan rénal et complications}: créatinine, urée, ionogramme, NFS, TP/TCA, bilan lipidique (LDL, TG)"
+  - "{t:Bilan immunologique adulte} (systématique): AAN, anti-DNA, ANCA, C3/C4/CH50, cryoglobuline, {t:anti-PLA2R} (GEM), EPP + immunofixation sérique"
+  - "{t:Sérologies}: VIH, VHB, VHC; glycémie à jeun (diabète)"
+  - "{t:Imagerie}: échographie rénale systématique (taille, différenciation); Doppler veines rénales si albumine < 20 g/L ou suspicion thrombose"
+  - "{t:Biopsie rénale}: adulte systématique (sauf diabète typique); enfant si < 1 an ou > 10 ans, SN impur, corticorésistance, rechutes fréquentes [VÉRIFIER:indication exacte selon protocole CHUV/HUG]"
+
+criteres_hospitalisation:
+  - "Anasarque ou {s:épanchements compromettant l'hémodynamique} (pleural massif, péricardique)"
+  - "Complications aiguës: {p:TVP/EP}, {p:thrombose veine rénale}, {p:péritonite}, sepsis, {p:IRA}"
+  - "1er épisode adulte: bilan étiologique + biopsie rénale programmée"
+  - "{s:Hypovolémie efficace symptomatique} ou hyponatrémie sévère < 125 mmol/L"
+  - "Échec ambulatoire (œdèmes persistants malgré diurétique, prise de poids continue)"
+
+pieges:
+  - "Ne pas anticoaguler si {s:albumine < 20 g/L} (risque TEV élevé — anticoagulation préventive même asymptomatique)"
+  - "Méconnaître {p:thrombose veine rénale} devant douleur lombaire brutale + hématurie + IRA chez patient avec SN — surtout GEM"
+  - "Omettre la {t:biopsie rénale} chez l'adulte (sauf diabète typique) — change la prise en charge dans 75% des cas"
+  - "Banaliser une fièvre chez un patient néphrotique → URGENCE infectieuse (pneumocoque, péritonite spontanée, érysipèle)"
+  - "Diurétiques sans surveillance ionogramme + créatinine → risque hypovolémie efficace + {p:IRA fonctionnelle} + hyponatrémie"
+
+cartes_liees:
+  - SYS-NEP
+  - SSP-NEP-01

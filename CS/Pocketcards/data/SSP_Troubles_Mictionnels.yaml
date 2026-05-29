@@ -1,0 +1,213 @@
+id: SSP-NEP-08
+type: ssp
+title: Troubles mictionnels
+discipline: Nephro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Mictionnels.md
+
+# source: lines 22-52, 376-432 (SBAU, IPSS, calendrier mictionnel)
+anamnese:
+  socrates:
+    - |-
+      Site / type de symptôme (classer en 3 phases):
+      • {s:remplissage} (irritatifs): pollakiurie, nycturie, urgenturie, incontinence
+      • {s:mictionnels} (obstructifs): dysurie d'attente, jet faible, jet intermittent, poussée abdo
+      • {s:post-mictionnels}: vidange incomplète, gouttes terminales
+    - |-
+      Onset:
+      • aigu (heures-jours) → infection, rétention, médicament récent?
+      • progressif (mois-années) → {p:HBP}, vessie neuro, sténose?
+    - "Character: brûlures mictionnelles (cystite) vs gêne/effort (obstacle) — distinguer dysurie 'douleur' vs dysurie 'effort'"
+    - "Radiation: douleur sus-pubienne, lombaire (PNA), périnéale (prostatite)?"
+    - |-
+      Time:
+      • diurne vs nocturne ({s:nycturie} ≥ 2 levers/nuit?)
+      • {r:pollakiurie > 8 mictions/jour}?
+      • durée totale (impact qualité de vie)
+    - |-
+      Exacerbating:
+      • alcool, café, froid (déclenchent rétention)
+      • médicaments anticholinergiques / opioïdes
+      • position, effort (incontinence d'effort femme)
+    - "Relieving: amélioration sur sondage, sur AINS / antibiotique, sur arrêt médicament?"
+    - |-
+      Severity:
+      • {t:Score IPSS 0-35} (0-7 léger / 8-19 modéré / 20-35 sévère)
+      • {t:Score qualité de vie 0-6}
+      • calendrier mictionnel ≥ 3 jours
+  specifique:
+    - |-
+      Complications déjà survenues:
+      • {p:rétention aiguë} antérieure, infections urinaires récidivantes, prostatites?
+      • hématurie macro, lithiase vésicale (douleur sus-pubienne + interruption jet)?
+    - |-
+      Signes infectieux:
+      • fièvre + douleur pelvienne (homme) → {p:prostatite aiguë}?
+      • fièvre + lombalgie + LUTS → {p:pyélonéphrite}?
+      • brûlures mictionnelles femme → cystite simple?
+    - |-
+      Signes {p:cancer} (CRUCIAL):
+      • hématurie INDOLORE → {p:cancer urothélial (vessie)} jusqu'à preuve du contraire
+      • AEG, douleurs osseuses → {p:cancer prostate} métastatique?; {e:tabagisme} (FR vessie)?
+    - |-
+      Signes {p:neurologiques} (vessie neuro):
+      • diabète, SEP, AVC, Parkinson, traumatisme médullaire?
+      • {s:anesthésie en selle} + déficit MI + sphinctériens → {p:syndrome queue de cheval}?
+    - "Sexualité (dysfonction érectile, douleurs éjaculatoires) et retentissement (sorties, sommeil, isolement)?"
+  atcd:
+    - "Urologiques: chirurgie prostate (RTUP), sondage répété, urétrite, cancer prostate/vessie/rein, lithiases"
+    - "Neurologiques (vessie neuro): AVC, Parkinson, SEP, diabète, trauma médullaire, chirurgie pelvienne (cure prolapsus, hystérectomie)"
+    - |-
+      Médicaments (CRUCIAL — interroger systématiquement):
+      • AGGRAVANTS: anticholinergiques, opioïdes, décongestionnants (alpha-agonistes), antidépresseurs tricycliques, antihistaminiques H1, neuroleptiques
+      • DIURÉTIQUES (induisent pollakiurie/nycturie); AMÉLIORANTS déjà essayés: alpha-bloquants, finastéride, anticholinergiques
+    - "ATCD familiaux: {p:cancer prostate} (père/frère → risque x2-3), BRCA2"
+    - "FR: {e:> 50 ans + homme} (HBP, cancer prostate); {e:tabagisme} (vessie); {e:origine afro-caribéenne}; multiparité, ménopause, obésité (incontinence femme)"
+
+# source: lines 250-256, 433-460 (complications urgentes)
+red_flags:
+  - description: "{s:Globe vésical} douloureux + diurèse {r:< 100 mL/24h} + créat élevée"
+    dx_suspecte: "{p:Rétention aiguë d'urine avec IRA obstructive}"
+    action: "{r:Sondage vésical urgent} (vidange progressive < 500 mL/30 min pour éviter hématurie a vacuo); si échec → {r:cathéter sus-pubien}; bilan créat/iono; surveiller {s:syndrome de levée d'obstacle} (polyurie > 200 mL/h); {r:alpha-bloquant (tamsulosine 0,4 mg/j)} avant essai désondage à 48-72 h"
+  - description: "{s:Troubles mictionnels} + {s:anesthésie en selle} + déficit moteur MI ± lombalgie aiguë"
+    dx_suspecte: "{p:Syndrome de la queue de cheval}"
+    action: "{t:IRM lombosacrée URGENTE < 6 h}; avis neurochirurgical immédiat; pas d'AINS / opiacés avant imagerie [VÉRIFIER: délai exact chirurgie en urgence selon protocole CHUV/HUG]"
+  - description: "{s:Fièvre > 38,5 °C + frissons} + douleur pelvienne/périnéale + LUTS aigus (homme)"
+    dx_suspecte: "{p:Prostatite aiguë bactérienne}"
+    action: "Hémocultures + ECBU; {r:ceftriaxone 2 g IV/j} ou {r:ciprofloxacine 500 mg x 2/j PO} 14-21 j; CI au TR appuyé / massage prostatique (risque bactériémie); hospitalisation si sepsis / immunodéprimé"
+  - description: "{s:Hématurie macroscopique} (totale ou terminale) chez {e:> 50 ans} ou {e:fumeur}"
+    dx_suspecte: "{p:Cancer urothélial vessie} / cancer rein / cancer prostate"
+    action: "{t:Cystoscopie + cytologie urinaire} < 2 semaines; {t:uro-scanner injecté} (voies excrétrices); pas d'AINS pendant bilan; avis uro"
+  - description: "{s:Fièvre > 38,5 °C + lombalgie} unilatérale + LUTS"
+    dx_suspecte: "{p:Pyélonéphrite aiguë} ± obstacle"
+    action: "ECBU + hémocultures + bilan inflammatoire; {r:ceftriaxone 2 g IV/j} (ou {r:ciprofloxacine}); {t:uro-scanner sans/avec contraste} dans les 24 h pour éliminer abcès/obstacle; hospitalisation si sepsis, grossesse, immunodéprimé"
+  - description: "Découverte d'une {s:IRA inexpliquée} avec LUTS chroniques + globe vésical permanent"
+    dx_suspecte: "{p:Rétention chronique avec mictions par regorgement} → IRA obstructive bilatérale"
+    action: "{r:Sondage vésical} (vidange lente); {t:échographie réno-vésicale} STAT (hydronéphrose bilat?); bilan créat/K+/ECG; hospitalisation néphro/uro"
+
+# source: lines 134-164, 522-581 (examen abdo, TR, neuro)
+examen:
+  general:
+    - "Signes vitaux: TA, FC, FR, T° (fièvre = infection); poids (surcharge si IRA obstructive)"
+    - "État général: AEG (cancer), score de fragilité personne âgée"
+    - "Inspection cutanée: pâleur (IRC sur obstacle chronique), purpura"
+    - "État de conscience: confusion = sepsis urinaire ou urémie sur obstacle"
+  cible:
+    - |-
+      Examen abdominal:
+      • {s:globe vésical}: matité sus-pubienne, voussure convexe, masse rénitente — RECHERCHER SYSTÉMATIQUEMENT
+      • fosses lombaires: contact lombaire (hydronéphrose), Giordano (PNA)
+      • masse abdominale (cancer vessie volumineux, rein)
+    - |-
+      Examen génital (homme):
+      • méat urétral (sténose, écoulement)
+      • phimosis (obstacle)
+      • testicules / épididyme (orchi-épididymite associée)
+    - |-
+      {t:Toucher rectal} (FONDAMENTAL homme > 50 ans avec LUTS):
+      • prostate normale: 15-20 g, ferme élastique, lisse, sillon médian présent, indolore
+      • {p:HBP}: volume augmenté, ferme élastique, lisse, symétrique, sillon effacé
+      • {p:Cancer prostate}: nodule DUR, irrégulier, asymétrie, limites floues, fixité
+      • {p:Prostatite aiguë}: très douloureuse, chaude, fluctuante → CI au massage
+      • tonus sphincter anal, sensibilité périanale
+    - |-
+      Examen neurologique périnéal (si suspicion vessie neuro):
+      • sensibilité périnéale et en selle (S2-S4)
+      • réflexe bulbo-caverneux
+      • tonus sphincter anal, contraction volontaire
+      • ROT MI, marche talons/pointes
+    - |-
+      Examen gynécologique (femme):
+      • prolapsus (cystocèle, hystérocèle, rectocèle) au {r:Valsalva}
+      • atrophie vulvo-vaginale (ménopause)
+      • test de la toux (incontinence d'effort)
+      • TV (masse pelvienne)
+
+# source: lines 168-205, 587-665 (PSA, ECBU, écho, débitmétrie)
+examens_complementaires:
+  - "{t:Bandelette urinaire + ECBU}: leucocyturie, nitrites, hématurie, protéinurie — base du bilan"
+  - "{t:Calendrier mictionnel ≥ 3 jours}: horaires, volumes, fuites, boissons (CRUCIAL pour différencier pollakiurie, polyurie, nycturie)"
+  - "{t:Échographie réno-vésicale + résidu post-mictionnel}: volume prostate (N {r:< 20-25 g}), épaississement paroi, diverticules, calculs, hydronéphrose; {r:RPM pathologique > 100-150 mL}"
+  - "{t:Créatinine + DFG} + ionogramme: dépistage IRA obstructive; surveillance avant alpha-bloquant si IR"
+  - "{t:PSA} (homme 50-75 ans après information éclairée — risques surdiagnostic): valeurs adaptées à l'âge ({r:< 4 ng/mL} avant 60 ans, {r:< 6,5 ng/mL} > 70 ans); rapport libre/total {r:< 20%} = suspect [VÉRIFIER: seuils PSA exacts selon AFU 2022 / EAU]"
+  - "{t:Débitmétrie + bilan urodynamique}: si doute vessie neuro, échec traitement médical, avant chirurgie chez < 50 ans; {r:Qmax > 15 mL/s} normal, {r:Qmax < 10 mL/s} obstruction (volume miction > 150 mL requis)"
+
+# source: lines 666-716 (DD obstructives, irritatives, neuro)
+dd_top5:
+  - dx: "{p:Hypertrophie bénigne de prostate (HBP)}"
+    indices: "{e:Homme > 50 ans}; LUTS mixtes obstructifs + irritatifs progressifs; TR: prostate augmentée, souple, symétrique; IPSS ≥ 8; PSA souvent modérément élevé (proportionnel au volume); RPM variable"
+    freq: "Très fréquent: 50% des hommes > 50 ans, 90% > 80 ans"
+  - dx: "{p:Hyperactivité vésicale (overactive bladder, OAB)}"
+    indices: "Urgenturie ± incontinence d'urgence, pollakiurie, nycturie sans obstacle; femme > homme; ECBU négatif; pas de RPM; BUD: hyperactivité détrusorienne [VÉRIFIER: critères diagnostiques ICS 2022]"
+    freq: "Fréquent (~12-17% adultes); pic > 60 ans"
+  - dx: "{p:Cystite récidivante / infection urinaire chronique}"
+    indices: "Femme jeune ou ménopausée; brûlures + pollakiurie + urgenturie ± hématurie terminale; ECBU positif ≥ 3 épisodes/an; facteurs FR (rapports, atrophie, diabète)"
+    freq: "Très fréquent femme (50% au moins 1 épisode dans la vie)"
+  - dx: "{p:Vessie neurologique}"
+    indices: "Diabète, SEP, AVC, Parkinson, traumatisme médullaire; LUTS variables (rétention ou incontinence); examen neuro anormal; BUD diagnostique (hyperactivité / hypocontractilité / dyssynergie)"
+    freq: "Fréquent dans populations neurologiques (>50% SEP, ~40% diabète évolué)"
+  - dx: "{p:Cancer urothélial vessie ou prostate}"
+    indices: "Hématurie indolore (vessie), {e:tabagisme}, exposition professionnelle (anilines); LUTS irritatifs résistants; nodule dur au TR + PSA élevé (prostate); cystoscopie / IRM diagnostiques"
+    freq: "Vessie 4e cancer homme; prostate 1er cancer homme > 50 ans"
+
+# source: lines 209-256, 720-863 (PEC HBP, RAU, prostatite)
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: éliminer queue de cheval, prostatite/PNA, rétention avec IRA, hématurie cancer avant traitement empirique"
+    - |-
+      {p:Rétention aiguë d'urine}:
+      • {r:sondage vésical} (Foley CH 16-18) avec vidange progressive (clamper si > 500 mL/30 min)
+      • si échec (sténose, faux trajets) → {r:cathéter sus-pubien}
+      • {r:tamsulosine 0,4 mg/j PO} 3-7 j avant tentative désondage à 48-72 h
+    - |-
+      {p:Cystite simple femme} non compliquée:
+      • {r:fosfomycine-trométamol 3 g PO dose unique} ou {r:nitrofurantoïne 100 mg x 3/j x 5 j}
+      • si récidive: ECBU + culture systématique [VÉRIFIER: 1ère ligne selon recommandations Société Suisse Infectiologie 2024]
+    - |-
+      {p:Prostatite aiguë}:
+      • {r:ceftriaxone 2 g IV/j} puis relais {r:ciprofloxacine 500 mg x 2/j PO} 14-21 jours total
+      • antalgiques, hydratation
+      • hospitalisation si sepsis, immunodéprimé, échec PO
+    - |-
+      {p:HBP symptomatique modérée-sévère (IPSS ≥ 8)} non compliquée:
+      • {r:alpha-bloquant (tamsulosine 0,4 mg/j)}: efficacité 48 h, ES = hypoTA orthostatique, éjaculation rétrograde
+      • {r:finastéride 5 mg/j} si prostate {r:> 40 g} (efficacité 3-6 mois, réduit PSA de 50%)
+      • bithérapie si prostate volumineuse + symptômes sévères
+      • surveillance 3 mois puis annuelle (IPSS, créat, RPM)
+    - |-
+      {p:Hyperactivité vésicale}:
+      • rééducation vésicale + mictions programmées + calendrier
+      • {r:anticholinergiques (oxybutynine, solifénacine)} après exclusion obstacle (risque RAU)
+      • alternative: {r:mirabégron 50 mg/j} (β3-agoniste) si ES anticholinergiques
+    - "Règles hygiéno-diététiques: réduction boissons soirée, éviter café/alcool/épices, mictions programmées, traiter constipation, activité physique"
+  orientation:
+    - "Urgences: rétention aiguë avec IRA, sepsis (prostatite/PNA), suspicion queue de cheval, hématurie massive avec instabilité"
+    - "Hospitalisation urologique: chirurgie HBP (RTUP, laser, adénomectomie) si indication absolue (RAU récidivante, IRA obstructive, lithiase vésicale, hématurie récidivante)"
+    - "Consultation urologie ambulatoire: HBP avec échec traitement médical, suspicion cancer prostate (PSA / TR anormal), hématurie isolée, sténose urétrale"
+    - "Médecin traitant: surveillance HBP sous traitement (3 mois puis annuel: IPSS, PSA, créat, RPM), cystites simples, conseils hygiéno-diététiques"
+    - "Consignes de retour: fièvre, rétention complète, hématurie massive, douleur lombaire violente, troubles neurologiques (MI, anesthésie en selle)"
+
+# source: lines 257-272, 794-803 (complications, indications chirurgie)
+criteres_hospitalisation:
+  - "{p:Rétention aiguë} avec IRA, hyperkaliémie, sepsis, ou impossibilité de désondage"
+  - "{p:Prostatite aiguë} avec sepsis, immunodépression, intolérance PO"
+  - "{p:Pyélonéphrite aiguë} obstructive ou compliquée (drainage urgent)"
+  - "Suspicion {p:syndrome queue de cheval} → IRM + neurochir < 6 h"
+  - "{p:Hématurie} massive avec décompensation hémodynamique ou caillotage vésical"
+
+# source: lines 285-300, 906-913 (points clés, pièges ECOS)
+pieges:
+  - "Banaliser les LUTS chez la {e:personne âgée} ('normal pour l'âge') et passer à côté de cancer, vessie neuro, ou IRA obstructive"
+  - "Négliger le {t:TR} chez l'homme > 50 ans avec LUTS — il distingue HBP / cancer / prostatite et reste obligatoire avant PSA [VÉRIFIER: ordre exact TR avant ou après PSA selon protocole local]"
+  - "Méconnaître le {p:syndrome de la queue de cheval} devant un LUTS aigu avec lombalgie — toujours examiner sensibilité en selle et tonus anal"
+  - "Manquer un {p:cancer vessie} chez patient avec cystites récidivantes ou hématurie isolée → cystoscopie indispensable > 50 ans / tabagique"
+  - "Oublier de mesurer le {t:résidu post-mictionnel} (échographie) — sous-estimation de la rétention chronique avec regorgement"
+
+cartes_liees:
+  - SSP-NEP-03
+  - SSP-NEP-04
+  - SSP-NEP-05
+  - SSP-NEP-06

@@ -1,0 +1,217 @@
+id: SSP-NEP-03
+type: ssp
+title: Dysurie
+discipline: Nephro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dysurie.md
+
+# source: lines 9-58
+anamnese:
+  socrates:
+    - |-
+      Site / caractérisation:
+      • {s:dysurie vraie} = difficulté à uriner (jet faible, hésitation, poussée, gouttes terminales) ≠ {s:brûlures mictionnelles} (signes irritatifs)
+      • localisation douleur: urètre / sus-pubienne / périnée / fosse lombaire (→ {p:pyélonéphrite})
+    - |-
+      Onset:
+      • début brutal (heures-jours: {p:cystite}, {p:prostatite}, {p:rétention aiguë}) ou progressif sur mois-années ({p:HBP}, {p:sténose urétrale})
+      • premier épisode ou récidive (cystites > 3/an = récidivantes)
+    - "Character: {s:brûlures}/picotements (irritatif → infection, IST) vs {s:pesanteur sus-pubienne} ({p:globe vésical}) vs {s:jet faible/saccadé} (obstacle)"
+    - "Radiation: vers lombaires uni- ou bilatérales ({p:pyélonéphrite}), organes génitaux, aine, périnée ({p:prostatite})"
+    - |-
+      Time / phase mictionnelle:
+      • début de miction = urétrite (IST)
+      • fin de miction = cystite (strangurie)
+      • permanente = prostatite, rétention
+      • pollakiurie diurne (> 8/j), nycturie (combien × /nuit)
+    - |-
+      Exacerbating:
+      • rapports sexuels (cystite post-coïtale, IST)
+      • effort de poussée ({p:HBP}, sténose)
+      • froid, alcool, café (irritation vésicale)
+    - "Relieving: vidange complète? AINS / antalgiques essayés? Sondage récent ayant soulagé un {p:globe vésical}?"
+    - |-
+      Severity:
+      • EVA 0-10
+      • retentissement quotidien (sommeil, activités, travail)
+      • {t:score IPSS} si suspicion {p:HBP} (7 items, 0-35 ; > 19 sévère) [VÉRIFIER: seuil IPSS exact pour gradation thérapeutique selon recos urologie suisse]
+  specifique:
+    - |-
+      Signes irritatifs ({s:remplissage}):
+      • pollakiurie, urgenturie/impériosités, brûlures, nycturie
+      • → orientent infection / cancer vessie / hyperactivité vésicale
+    - |-
+      Signes obstructifs ({s:vidange}) = dysurie vraie:
+      • {s:latence mictionnelle} (attente avant jet)
+      • {s:jet faible / saccadé / interrompu}
+      • {s:poussée abdominale} pour uriner
+      • {s:gouttes retardataires}, sensation de vidange incomplète
+    - |-
+      Signes alarmants:
+      • {s:hématurie macroscopique} ± caillots (→ {p:tumeur vessie / prostate})
+      • {s:fièvre} + frissons + lombalgie (→ {p:pyélonéphrite} / {p:prostatite})
+      • {s:rétention complète} avec impossibilité d'uriner + douleur sus-pubienne ({p:globe})
+      • {s:anesthésie en selle} S2-S5, déficit moteur MI, troubles défécation → {p:syndrome de queue de cheval}
+    - "Anamnèse sexuelle (introduction tactique) : activité, partenaires (nombre/genre/changement), protection, {r:PrEP} (couvre VIH mais pas autres IST), ATCD IST, écoulement urétral/leucorrhées chez partenaire"
+    - "Chez l'homme > 50 ans: trouble érectile / éjaculatoire associé (hémospermie → {p:cancer prostate})"
+    - "Chez la femme: leucorrhées (couleur, odeur), prurit vulvaire, dyspareunie, date dernières règles, possibilité de {e:grossesse}"
+  atcd:
+    - |-
+      Urologiques:
+      • infections urinaires antérieures (fréquence, germes, traitement, observance)
+      • {p:lithiases}, malformations, chirurgie urologique
+      • sondage récent (origine nosocomiale possible)
+      • cystoscopie / examens invasifs (risque {p:sténose urétrale})
+    - |-
+      Médicaux:
+      • {p:diabète} (risque infection, vessie neurogène)
+      • immunodépression, corticoïdes
+      • pathologie prostatique connue ({p:HBP}, cancer)
+      • {p:maladies neurologiques}: {p:SEP}, {p:Parkinson}, {p:AVC}, hernie discale, neuropathie diabétique → {p:vessie neurologique}
+      • ménopause (atrophie vaginale)
+    - |-
+      Médicaments / facteurs:
+      • {r:anticholinergiques}, opiacés, neuroleptiques → rétention
+      • {r:alphabloquants} déjà essayés? Efficacité?
+      • antibiothérapie récente, immunosuppresseurs
+      • allergies (important pour ATB)
+    - "Habitudes: hydratation (L/j), hygiène intime (essuyage avant→arrière chez femme), spermicides (facteur risque IU), tabac (cancer vessie)"
+
+# source: lines 111-114, 437-442 + clinical pivots
+red_flags:
+  - description: "{s:Impossibilité d'uriner} + douleur sus-pubienne aiguë + {s:globe vésical} palpable/mat à la percussion"
+    dx_suspecte: "{p:Rétention aiguë d'urine} (sur {p:HBP} décompensée, sténose, fécalome, médicament anticholinergique)"
+    action: "{r:Sondage vésical urétral} urgent (ou cathéter sus-pubien si échec/CI) ; {t:créatinine + échographie réno-vésicale} ; surveiller polyurie post-sondage"
+  - description: "{s:Fièvre > 38,5°C} + frissons + dysurie + {s:douleur lombaire / Giordano +} (homme: {s:TR douloureux} = prostatite)"
+    dx_suspecte: "{p:Pyélonéphrite aiguë} ou {p:prostatite aiguë} ± sepsis"
+    action: "Hémocultures + {t:ECBU} + {t:NFS/CRP/créat} + {t:échographie} ; ATB IV {r:ceftriaxone 2 g/j} ± aminoside ; drainage urgent si obstacle [VÉRIFIER: durée ATB prostatite aiguë 14-28j selon germe et recos suisses]"
+  - description: "{s:Hématurie macroscopique} (± caillots) + dysurie chez patient {e:> 50 ans}, tabagique ou exposé professionnel (amines aromatiques)"
+    dx_suspecte: "{p:Cancer de la vessie} ou {p:cancer de la prostate} avec obstruction"
+    action: "{t:Uroscanner} + {t:cystoscopie} + cytologie urinaire ; {t:PSA} ; avis urologie sous 2 semaines (filière hématurie)"
+  - description: "Dysurie + {s:déficit sensitivomoteur des membres inférieurs}, {s:anesthésie en selle} S2-S5, troubles ano-rectaux, lombalgie aiguë"
+    dx_suspecte: "{p:Syndrome de queue de cheval}"
+    action: "{t:IRM lombaire en urgence} (< 6 h) + avis neurochirurgical immédiat ; décompression chirurgicale urgente"
+  - description: "Globe ou dilatation des voies urinaires bilatérale à l'écho + {s:créatinine élevée} (anurie possible)"
+    dx_suspecte: "{p:Insuffisance rénale aiguë obstructive}"
+    action: "{r:Drainage urgent} (sonde urétrale ou néphrostomie percutanée bilatérale) ; ionogramme, kaliémie, gazométrie ; corriger hyperkaliémie [VÉRIFIER: indication néphrostomie vs sonde JJ selon niveau obstacle]"
+  - description: "{e:Grossesse} + dysurie + fièvre ou lombalgie"
+    dx_suspecte: "{p:Pyélonéphrite gravidique} (risque accouchement prématuré, sepsis maternel)"
+    action: "Hospitalisation, {t:ECBU + hémocultures}, ATB IV {r:ceftriaxone 1-2 g/j} ; échographie rénale ; surveillance contractions"
+
+# source: lines 163-247
+examen:
+  general:
+    - "Signes vitaux: {s:T°} ⚠️ (fièvre = pyélonéphrite/prostatite/sepsis), TA, FC, FR, SaO2"
+    - "État général: faciès septique, déshydratation, sueurs, confusion (sepsis du sujet âgé)"
+    - "Glycémie capillaire (diabète favorisant)"
+    - "Inspection cutanée: ictère (sepsis), éruptions (IST disséminées), purpura (sepsis sévère)"
+  cible:
+    - |-
+      Abdomen ({s:décubitus dorsal}, abdomen découvert):
+      • inspection: cicatrices, distension sus-pubienne, lésions
+      • percussion: {s:matité sus-pubienne} (= {p:globe vésical} avec rétention > 300 mL)
+      • palpation: douleur sus-pubienne (cystite), défense, globe palpable
+    - |-
+      Fosses lombaires:
+      • palpation bilatérale (douleur spontanée, contact lombaire)
+      • {t:signe de Giordano} (percussion poing fermé) + = {p:pyélonéphrite} ; comparer les deux côtés
+    - |-
+      OGE (HOMME): méat (écoulement: purulent=gonocoque/clair=chlamydia), ulcérations/vésicules (HSV/syphilis), phimosis ; palpation testicules + épididymes ({p:épididymite}), cordon
+    - "OGE (FEMME): inspection vulvaire (érythème, leucorrhées, ulcères, condylomes) ; proposer spéculum + toucher vaginal (mobilisation col → {p:PID})"
+    - |-
+      {t:Toucher rectal} ⚠️ INCONTOURNABLE chez l'homme:
+      • prostate: volume (HBP), consistance (souple/dure/pierreuse), douleur (prostatite = {s:prostate très douloureuse})
+      • nodule dur asymétrique → suspicion {p:cancer prostate}
+      • tonus sphinctérien (vessie neurologique, queue de cheval)
+    - "Examen neuro ciblé si suspicion vessie neurologique / queue de cheval: sensibilité périnéale S2-S5, ROT MI, force, réflexe bulbo-caverneux"
+    - "Aires inguinales: {s:adénopathies} (IST: HSV, syphilis, LGV), orifices herniaires"
+    - "{t:Bandelette urinaire} immédiate au lit du patient (leucocytes, nitrites, sang, protéines)"
+
+# source: lines 289-318 + clinical pivots — ordre = causes dysurie obstructive et infectieuses
+dd_top5:
+  - dx: "{p:Hyperplasie bénigne de la prostate (HBP)}"
+    indices: "Homme {e:> 50 ans}, symptômes progressifs sur mois-années, {s:jet faible}, {s:latence}, gouttes retardataires, nycturie, sensation de vidange incomplète ; TR: prostate augmentée souple lisse ; {t:IPSS} ≥ 8 ; PSA modérément élevé ; débitmétrie Qmax < 15 mL/s ; résidu post-mictionnel > 50 mL"
+    freq: "très fréquent (50 % des hommes > 50 ans, 80 % > 70 ans)"
+  - dx: "{p:Prostatite aiguë}"
+    indices: "Homme tout âge, début brutal, {s:fièvre élevée + frissons}, dysurie + brûlures + pollakiurie + impériosités, douleurs périnéales/rectales/sus-pubiennes ; {t:TR très douloureux} (prostate tendue, chaude) ; ECBU + ; PSA fortement élevé ; risque sepsis et rétention"
+    freq: "fréquent — URGENCE (sepsis possible)"
+  - dx: "{p:Cystite aiguë / urétrite}"
+    indices: "Femme jeune sexuellement active (cystite) ou IST chez sujet jeune actif (urétrite) ; {s:brûlures mictionnelles}, pollakiurie, urgenturie, douleur sus-pubienne ; APYRÉTIQUE ; BU: leucocytes+/nitrites+ (cystite) ; écoulement urétral (urétrite) ; ECBU > 10⁵ UFC/mL ou PCR Chlamydia/Gonocoque positive"
+    freq: "très fréquent (50 % des femmes ≥ 1 épisode dans leur vie)"
+  - dx: "{p:Sténose urétrale}"
+    indices: "ATCD de sondage traumatique, IST (urétrite gonococcique ancienne), chirurgie urétrale ou traumatisme périnéal ; {s:jet faible voire filiforme}, parfois jet bifide ; débitmétrie aplatie (plateau) ; diagnostic par urétrographie rétrograde ou urétroscopie [VÉRIFIER: indication urétrographie vs urétroscopie de 1ère intention selon localisation suspectée]"
+    freq: "peu fréquent (1-2 % hommes mais cause fréquente de récidive)"
+  - dx: "{p:Vessie neurologique}"
+    indices: "ATCD neuro ({p:diabète} évolué, {p:SEP}, {p:AVC}, hernie discale, traumatisme médullaire) ; dysurie + résidu post-mictionnel élevé + infections récidivantes ; signes neuro associés (sensibilité périnéale altérée, ROT modifiés) ; bilan urodynamique pour caractériser (hypocontractile vs hyperactive)"
+    freq: "fréquent chez le patient neuro / diabétique"
+
+# source: lines 320-394
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: rétention aiguë → sondage ; sepsis → ATB IV + drainage ; queue de cheval → IRM + chirurgie"
+    - |-
+      {p:Cystite simple} (femme jeune, sans facteur risque, BU+):
+      • {r:Fosfomycine-trométamol 3 g PO dose unique} (1ère intention)
+      • alternatives: {r:pivmécillinam 400 mg ×2/j × 5 j} ou {r:nitrofurantoïne 100 mg ×3/j × 5 j}
+      • hydratation 2 L/j, mictions fréquentes, pas de traitement partenaire
+    - |-
+      {p:Pyélonéphrite aiguë}:
+      • Ambulatoire si forme simple: {r:ciprofloxacine 500 mg ×2/j PO × 7 j} ou ceftriaxone IM
+      • Hospitalière: {r:ceftriaxone 1-2 g/j IV} ± aminoside × 48-72 h puis relais PO selon antibiogramme (7-14 j total)
+      • Adapter à l'antibiogramme; ECBU contrôle à 48 h si évolution défavorable
+    - |-
+      {p:Prostatite aiguë}:
+      • {r:Fluoroquinolone (ciprofloxacine 500 mg ×2/j) 14-28 j} ou {r:cotrimoxazole} si allergie
+      • AINS, antalgiques, repos
+      • {r:Alphabloquants} (tamsulosine 0,4 mg/j) si rétention associée
+      • Hospitalisation si sepsis, rétention, immunodépression
+    - |-
+      {p:HBP symptomatique}:
+      • {r:Tamsulosine 0,4 mg/j PO} (alphabloquant 1ère intention, efficacité rapide < 2 sem)
+      • {r:Finastéride 5 mg/j} ou {r:dutastéride 0,5 mg/j} si prostate > 40 g (effet en 3-6 mois, réduit risque rétention/chirurgie)
+      • Bithérapie si symptômes sévères (IPSS > 19)
+      • Chirurgie ({r:RTUP} ou laser) si échec, rétentions récidivantes, IRA obstructive, calculs vésicaux
+    - |-
+      {p:IST} (urétrite/cervicite):
+      • {r:Ceftriaxone 500 mg IM dose unique + azithromycine 1 g PO} (couvre gonocoque + chlamydia)
+      • {r:Traitement du/des partenaire(s)} systématique
+      • Dépistage IST complet (VIH, syphilis, VHB, VHC) ; déclaration gonocoque
+      • Abstinence ou préservatif jusqu'à contrôle à 7 j (gono) / 3-4 sem (chlamydia)
+    - "{e:Grossesse}: ECBU systématique ; bactériurie asymptomatique = TRAITER (risque pyélonéphrite et accouchement prématuré) ; éviter quinolones, cotrimoxazole 1er trim ; privilégier {r:fosfomycine} ou {r:céfixime / ceftriaxone}"
+  orientation:
+    - "Domicile + suivi médecin traitant: cystite simple typique, examen normal, pas de red flag, observance assurée"
+    - "Urologie ambulatoire: HBP avec IPSS ≥ 8, cystites récidivantes (> 3/an) chez la femme, hématurie microscopique persistante, dysurie chronique masculine"
+    - "Urgences: tout red flag (rétention aiguë, fièvre élevée, suspicion queue de cheval, IRA obstructive, hématurie macro symptomatique, grossesse fébrile)"
+    - "Consignes de retour: fièvre nouvelle > 38,5 °C, impossibilité d'uriner, sang abondant, douleur lombaire intense, AEG, vomissements"
+
+# source: lines 253-287
+examens_complementaires:
+  - "{t:Bandelette urinaire (BU)}: leucocytes/nitrites (infection), sang, protéines, pH — orientation 1ère intention au cabinet"
+  - "{t:ECBU avec antibiogramme}: avant ATB si possible ; systématique chez homme, {e:grossesse}, pyélonéphrite, échec, > 65 ans, récidive"
+  - "{t:NFS + CRP + créatinine}: si fièvre, douleur lombaire, suspicion sepsis ou IRA obstructive ; {t:hémocultures} si T° > 38,5 °C"
+  - "{t:Échographie réno-vésico-prostatique} + mesure résidu post-mictionnel: rétention, dysurie obstructive, fièvre, hématurie ; {t:uroscanner} si hématurie macroscopique ou colique"
+  - "{t:PSA total} chez homme > 50 ans avec dysurie nouvelle (en dehors d'épisode infectieux aigu — PSA faussement élevé) ; {t:débitmétrie} (Qmax < 15 mL/s pathologique)"
+  - "{t:PCR Chlamydia + Gonocoque} (1er jet urinaire homme / endocervicale femme) + sérologies IST (VIH, syphilis, VHB, VHC) ; {t:β-HCG} chez femme en âge de procréer ; {t:IRM lombaire} en urgence si suspicion queue de cheval"
+
+# source: lines 338-343, 437-442
+criteres_hospitalisation:
+  - "{p:Pyélonéphrite} compliquée: sepsis, vomissements empêchant ATB PO, {e:grossesse}, immunodépression, obstacle, terrain fragile"
+  - "{p:Prostatite aiguë} avec sepsis, rétention aiguë ou échec ambulatoire"
+  - "{p:Rétention aiguë} associée à {p:IRA obstructive} (créatinine élevée, hyperkaliémie) ou non drainée en ambulatoire"
+  - "Suspicion de {p:syndrome de queue de cheval} ou autre red flag neurologique"
+  - "{e:Grossesse + fièvre} ou suspicion de pyélonéphrite gravidique"
+
+# source: lines 462-468 + clinical pivots
+pieges:
+  - "Confondre {s:dysurie vraie} (difficulté à uriner / vidange) et {s:brûlures mictionnelles} (signes irritatifs) — terminologie source d'erreurs DD"
+  - "Oublier le {t:toucher rectal} chez tout homme avec dysurie: manque {p:prostatite}, {p:HBP}, {p:cancer prostate} et tonus sphinctérien (vessie neurologique)"
+  - "Ne pas mesurer le {t:résidu post-mictionnel} à l'échographie → sous-estimer rétention chronique avec {p:IRA obstructive} silencieuse (créatinine élevée sans symptôme aigu)"
+  - "Méconnaître un {p:syndrome de queue de cheval} (dysurie + anesthésie en selle + déficit MI) — perte de chance majeure si IRM différée"
+  - "Traiter une dysurie masculine sans {t:ECBU} ni bilan: chez l'homme, toute infection urinaire est considérée comme compliquée (durée ATB et exploration différentes)"
+
+cartes_liees:
+  - SYS-URO
+  - TOOL-IPSS

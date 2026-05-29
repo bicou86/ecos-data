@@ -1,0 +1,187 @@
+id: SSP-NEP-01
+type: ssp
+title: Anurie
+discipline: Nephro
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Anurie.md
+
+# source: lines 9-83 (anamnèse systématique, étiologies, gravité)
+anamnese:
+  socrates:
+    - |-
+      Quantification:
+      • dernière miction (heure et volume)?
+      • diurèse des dernières 24 h ({r:< 100 mL/24h} = anurie; {r:100-500 mL/24h} = oligurie)
+      • début brutal ou progressif?
+    - "Envie d'uriner présente? (clé pour différencier {p:rétention urinaire} → globe vésical palpable)"
+    - |-
+      Symptômes associés:
+      • douleur lombaire / abdominale / sus-pubienne?
+      • nausées, vomissements, confusion?
+      • dyspnée, orthopnée, œdèmes?
+    - |-
+      Évolution:
+      • baisse progressive de la diurèse les derniers jours?
+      • épisodes oliguriques antérieurs?
+      • prise pondérale récente (surcharge)?
+  specifique:
+    - |-
+      Étiologie {e:pré-rénale} (~70%):
+      • pertes digestives (diarrhée, vomissements), hémorragie, brûlures
+      • insuffisance cardiaque, IDM récent, trouble du rythme
+      • sepsis, fièvre, médicaments vasodilatateurs
+      • cirrhose → {p:syndrome hépato-rénal}?
+    - |-
+      Étiologie {e:post-rénale / obstructive} (~25%):
+      • lithiase connue, colique néphrétique?
+      • cancer prostate / vessie, hypertrophie prostatique (dysurie, jet faible, pollakiurie nocturne)?
+      • fibrose rétropéritonéale?
+      • {s:rein unique} connu (obstacle unilatéral suffit)?
+      • sonde vésicale en place → bouchée?
+    - |-
+      Étiologie {e:intra-rénale} (~5%):
+      • {p:NTA toxique}: aminosides, produit de contraste iodé, chimio, immunosuppresseurs?
+      • {p:NTA ischémique}: hypotension prolongée, choc, post-op?
+      • {p:rhabdomyolyse} (effort intense, crush, statines, immobilisation prolongée)?
+      • {p:hémolyse} aiguë?
+      • {p:GN aiguë}, {p:NIA} (médicament récent + fièvre + éruption)?
+    - |-
+      Signes de gravité ({p:complications IRA}):
+      • surcharge → orthopnée, OAP?
+      • urémie → confusion, astérixis, péricardite (douleur thoracique)?
+      • hyperkaliémie → faiblesse musculaire, paresthésies, palpitations?
+  atcd:
+    - |-
+      Médicaments NÉPHROTOXIQUES (CRUCIAL):
+      • {r:IEC / ARA2}, {r:AINS}, diurétiques (triade néphrotoxique)
+      • aminosides, vancomycine, ciclosporine, tacrolimus
+      • chimiothérapie (cisplatine, méthotrexate)
+      • produit de contraste iodé < 72 h
+    - "Maladie rénale chronique connue? DFG baseline? Lithiases récidivantes? Infections urinaires répétées? [VÉRIFIER: valeur baseline créat si dialogue avec patient ou médecin traitant]"
+    - "Chirurgie urologique, radiothérapie pelvienne, néoplasie urologique ou pelvienne?"
+    - "Comorbidités: diabète, HTA, IC, cancer, cirrhose, myélome (cylindres myélomateux)?"
+    - "ATCD vasculaires: athéromatose → {p:sténose artères rénales} (anurie après IEC)?"
+
+# source: lines 75-83 (gravité), 142-160 (ECG hyperK, écho rénale)
+red_flags:
+  - description: "{s:Hyperkaliémie menaçante} K+ {r:> 6,5 mmol/L} + ECG anormal (ondes T pointues, élargissement QRS, aplatissement P)"
+    dx_suspecte: "{p:Hyperkaliémie maligne} → risque arrêt cardiaque"
+    action: "{r:Gluconate de calcium 10% — 10 mL IV lent} sur 2-5 min (stabilisation membranaire); puis {r:insuline rapide 10 UI IV + G10% 500 mL} + {r:salbutamol nébulisation 10-20 mg} + {r:bicarbonate Na 8,4%} si acidose; {r:dialyse en urgence} si réfractaire [VÉRIFIER: doses exactes Ca gluconate et bicarbonate selon protocole CHUV/HUG]"
+  - description: "{s:Dilatation pyélocalicielle bilatérale} (ou unilatérale sur {e:rein unique}) à l'écho rénale"
+    dx_suspecte: "{p:Anurie obstructive} (lithiase bilat, K prostate, fibrose rétropéritonéale)"
+    action: "Drainage urinaire URGENT < {r:6 h}: {r:sondage vésical} si obstacle bas; {r:sonde JJ ou néphrostomie percutanée} si obstacle haut; surveillance {s:syndrome de levée d'obstacle} (polyurie massive)"
+  - description: "{s:Œdème aigu pulmonaire} (orthopnée, crépitants bilatéraux, désaturation) + anurie"
+    dx_suspecte: "{p:OAP sur surcharge} / IRA décompensée"
+    action: "{r:Position assise + O2 haut débit}; {r:furosémide 80-250 mg IV} bolus; {r:dérivés nitrés} si TAS > 100 mmHg; {r:hémodialyse en urgence} si OAP réfractaire (critère AEIOU)"
+  - description: "{s:Choc} (TAS < 90, marbrures, lactates > 2) + anurie"
+    dx_suspecte: "{p:IRA pré-rénale sur choc} (septique / hémorragique / cardiogénique)"
+    action: "Réanimation: 2 VVP, {r:remplissage cristalloïdes 30 mL/kg} (sauf si OAP); {r:noradrénaline} si PAM < 65 réfractaire; traitement étiologique (ATB, transfusion, inotropes)"
+  - description: "{s:Acidose métabolique sévère} pH {r:< 7,15} avec trou anionique élevé"
+    dx_suspecte: "{p:Acidose urémique réfractaire}"
+    action: "{r:Bicarbonate Na 8,4% IV} avec prudence (surcharge sodée); {r:dialyse en urgence} (critère AEIOU); recherche cause associée (lactates, cétones, intoxication méthanol/éthylène glycol)"
+  - description: "{s:Rhabdomyolyse} (myalgies, urines brunes/'coca') + CPK {r:> 5000 UI/L} + anurie"
+    dx_suspecte: "{p:NTA sur rhabdomyolyse} (effort intense, crush, statines, alcoolisation)"
+    action: "{r:Hyperhydratation NaCl 0,9% 200-500 mL/h} (objectif diurèse > 200 mL/h); {r:alcalinisation urines pH > 6,5} par bicarbonate; surveillance K+ (libération massive); {r:dialyse} si IRA établie [VÉRIFIER: seuil exact CPK pour alcalinisation systématique]"
+
+# source: lines 86-119 (examen clinique, évaluation volémique)
+examen:
+  general:
+    - "Signes vitaux: TA (orthostatisme si possible), FC, FR, T°, SaO2, {t:Glasgow}"
+    - "Poids quotidien (variation = bilan hydrique); diurèse horaire (sonde si nécessaire)"
+    - "État de conscience: confusion / astérixis = encéphalopathie urémique"
+    - "Inspection cutanée: pâleur (IRC), purpura (vascularite, CIVD), givre urémique (rare, IRA très avancée)"
+  cible:
+    - |-
+      Évaluation volémique (CRUCIAL pour orientation):
+      • {s:Hypovolémie}: pli cutané, muqueuses sèches, hypotension orthostatique, tachycardie, veines jugulaires plates
+      • {s:Hypervolémie}: œdèmes MI, TJ, reflux hépato-jugulaire, galop B3, crépitants bilatéraux
+    - |-
+      Abdomen et urologique:
+      • {s:globe vésical} (matité sus-pubienne) → {p:rétention} et non anurie
+      • palpation fosses lombaires (douleur, contact lombaire = hydronéphrose)
+      • toucher rectal: prostate (volume, induration); examen génital (phimosis, sténose méat)
+    - |-
+      Complications IRA:
+      • cardiovasculaire: frottement péricardique (péricardite urémique)
+      • pulmonaire: crépitants (OAP)
+      • neurologique: astérixis, myoclonies, troubles de conscience
+    - "ECG SYSTÉMATIQUE à la recherche de signes d'hyperkaliémie (ondes T pointues, QRS large, P aplaties, BAV)"
+
+# source: lines 122-160 (bilan biologique, imagerie)
+examens_complementaires:
+  - "{t:Urée + créatinine + DFG estimé}: confirmation IRA (créat ≥ 26,5 μmol/L en 48 h ou x1,5 baseline en 7 j); ratio urée/créat > 100 → {e:pré-rénal}"
+  - "{t:Ionogramme sanguin + gaz veineux} (K+, Na+, Cl-, HCO3-, pH): hyperkaliémie, acidose métabolique, trou anionique"
+  - "{t:NFS + CRP + PCT}: anémie (IRC), infection; {t:CPK + LDH + haptoglobine}: rhabdomyolyse, hémolyse; {t:BNP}: si suspicion IC"
+  - |-
+    {t:Bilan urinaire} (ATTENTION: sondage diagnostique CRUCIAL pour éliminer rétention):
+    • {t:bandelette}: protéinurie, hématurie, leucocyturie
+    • {t:ionogramme urinaire + FeNa}: FeNa < 1% → {e:pré-rénal}; FeNa > 2% → {e:intra-rénal/NTA}
+    • {t:sédiment}: cylindres granuleux pigmentés (NTA), hématies dysmorphiques (GN)
+  - "{t:ECG 12 dérivations} STAT: signes d'hyperkaliémie, péricardite urémique (sus-décalage diffus concave)"
+  - "{t:Échographie réno-vésicale} (1ère intention < 24 h): dilatation pyélocalicielle (obstacle); taille reins, différenciation cortico-médullaire (IRC vs IRA); résidu post-mictionnel; doppler artères rénales"
+
+# source: lines 162-180 (DD), 224-247 (étio par DD)
+dd_top5:
+  - dx: "{p:Nécrose tubulaire aiguë (NTA)}"
+    indices: "Hypotension prolongée ou toxique récent (aminosides, contraste); FeNa > 2%, Na urinaire > 40 mmol/L; cylindres granuleux 'sales'; récupération possible en 2-3 semaines"
+    freq: "Cause la plus fréquente d'IRA hospitalière (~45%)"
+  - dx: "{p:IRA pré-rénale (hypovolémie / bas débit)}"
+    indices: "Pertes (vomissements, diarrhée, hémorragie), IC, sepsis; FeNa < 1%, Na urinaire < 20 mmol/L, urée/créat > 100; réversible avec remplissage"
+    freq: "Très fréquent (~30%); 1ère étiologie ambulatoire"
+  - dx: "{p:Anurie obstructive bilatérale}"
+    indices: "Lithiase bilatérale, K prostate / vessie, fibrose rétropéritonéale, rein unique; dilatation PCC à l'écho; réversible si drainage rapide"
+    freq: "~25% des IRA; à éliminer systématiquement par écho"
+  - dx: "{p:IRA sur insuffisance rénale chronique (IRC)} (acute-on-chronic)"
+    indices: "Créat baseline élevée connue, reins petits ({r:< 9 cm}) à l'écho, anémie chronique, hypocalcémie, hyperparathyroïdie; déclencheur souvent IEC/AINS/contraste"
+    freq: "Fréquent; à différencier d'une IRA pure par taille rénale et baseline [VÉRIFIER: seuil exact taille rénale pour IRC selon âge]"
+  - dx: "{p:Syndrome hépato-rénal (SHR)}"
+    indices: "Cirrhose décompensée avec ascite; créat > 133 μmol/L; absence d'amélioration après albumine 1 g/kg x 2 j et arrêt diurétiques; protéinurie < 0,5 g/j; sédiment normal"
+    freq: "Rare mais grave (mortalité élevée sans transplantation)"
+
+# source: lines 183-262 (PEC, hyperK, dialyse, étio)
+pec_initiale:
+  immediate:
+    - "ABC + monitoring continu (scope, SaO2); 2 VVP G16; bilan biologique + ECG + écho rénale {t:< 1 h}"
+    - "ÉTAPE 0 — éliminer {p:rétention urinaire}: {r:sondage vésical} (diagnostique ET thérapeutique si obstacle bas)"
+    - |-
+      Si {e:obstacle} confirmé:
+      • bas → sondage vésical maintenu
+      • haut (dilatation PCC) → {r:sonde JJ ou néphrostomie percutanée < 6 h} (avis uro)
+      • surveillance {s:syndrome de levée d'obstacle} (polyurie > 200 mL/h)
+    - |-
+      Si {e:pré-rénal / hypovolémie}:
+      • {r:remplissage cristalloïdes (NaCl 0,9% ou Ringer) 500 mL / 30 min} puis adapter
+      • surveillance TA, FC, SaO2, diurèse, auscultation pulmonaire
+      • ÉVITER si signes de surcharge / OAP
+    - |-
+      Si {p:hyperkaliémie} K+ > 6 ou ECG anormal (séquence GIS):
+      • {r:Gluconate Ca 10% — 10 mL IV} sur 2-5 min (effet 30-60 min)
+      • {r:Insuline rapide 10 UI + G10% 500 mL IV}
+      • {r:Salbutamol nébulisation 10-20 mg}
+      • {r:Bicarbonate Na 8,4%} si acidose
+      • résines échangeuses (Kayexalate PO ou lavement) en relais
+    - |-
+      ARRÊT médicaments néphrotoxiques + adaptation posologies au DFG:
+      • IEC/ARA2, AINS, diurétiques, aminosides, metformine
+      • produit de contraste contre-indiqué tant que IRA non résolue
+    - "Indication {r:dialyse en URGENCE} (mnémo AEIOU): {p:Acidose} pH < 7,15 réfractaire, {p:Électrolytes} (hyperK > 6,5 réfractaire), {p:Intoxications} dialysables, {p:Overload} (OAP réfractaire), {p:Urémie} (péricardite, encéphalopathie)"
+  orientation:
+    - "Réanimation / USI: choc + IRA, hyperK menaçante avec ECG anormal, OAP réfractaire, indication dialyse urgente, intubation"
+    - "Néphrologie hospitalière: toute IRA établie sans critère réa, surveillance fonction rénale, évaluation étio approfondie (biopsie si IRA inexpliquée)"
+    - "Urologie: anurie obstructive haute (sonde JJ ou néphrostomie); avis dans l'heure"
+    - "Pas de retour à domicile pour une anurie vraie — hospitalisation systématique pour bilan et surveillance"
+
+# source: lines 282-296 (points clés, pièges ECOS)
+pieges:
+  - "Confondre {p:anurie} et {p:rétention urinaire}: TOUJOURS rechercher globe vésical et faire un sondage diagnostique avant tout"
+  - "Méconnaître {p:hyperkaliémie menaçante} en oubliant l'ECG systématique (K+ peut tuer en quelques minutes)"
+  - "Retarder le drainage d'un obstacle: tout retard {r:> 24-48 h} aggrave les séquelles rénales irréversibles"
+  - "Réhydrater massivement un patient avec surcharge / OAP (le remplissage aggrave la situation; privilégier diurétiques + dialyse)"
+  - "Oublier la {p:rhabdomyolyse} chez patient âgé après chute prolongée ou jeune sportif (CPK + urines brunes 'coca')"
+
+cartes_liees:
+  - SSP-URG-01
+  - SSP-NEP-02
