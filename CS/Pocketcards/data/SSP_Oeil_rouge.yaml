@@ -1,0 +1,202 @@
+id: SSP-OPH-03
+type: ssp
+title: Œil rouge
+discipline: Ophtalmo
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Oeil_rouge.md
+
+# source: line 9-220 (anamnèse)
+anamnese:
+  socrates:
+    - "Site: uni- vs bilatéral (unilatéral → bactérien/herpès/uvéite/corps étranger ; bilatéral → viral/allergique/yeux secs)"
+    - |-
+      Onset:
+      • {s:aigu < 24-48 h} ou progressif?
+      • brutal ({p:GAFA}, traumatisme) ou installation lente?
+      • 1er épisode ou récidive?
+    - "Character: type rougeur ({s:diffuse} = conjonctivite ; {s:périkératique} = {p:uvéite/GAFA} ; sectorielle = épisclérite ; circonscrite = {p:hyposphagma})"
+    - "Radiation: douleur péri-orbitaire, temporale, nuque ({p:GAFA} avec nausées)?"
+    - |-
+      Time:
+      • durée
+      • horaire (paupières collées au réveil = bactérien)
+      • saisonnalité (allergique)
+    - "Exacerbating: lumière ({s:photophobie} → {p:uvéite}/{p:kératite}), clignement, contact lentilles, frottement?"
+    - "Relieving: antihistaminiques (allergique?), larmes artificielles, fermeture œil?"
+    - |-
+      Severity — degré d'urgence:
+      • {s:douleur intense + BAV} → URGENCE ophtalmo
+      • absence douleur + vision conservée → souvent bénin
+  specifique:
+    - |-
+      {s:Baisse acuité visuelle (BAV)} — PRIORITÉ:
+      • "voyez-vous moins bien que d'habitude?"
+      • chiffrer (journal, téléphone)
+      • {s:halos colorés} autour des lumières → {p:GAFA}
+      • photopsies / mouches volantes nouvelles → décollement?
+    - |-
+      {s:Sécrétions} (orientantes):
+      • claires/lacrymales → viral/allergique
+      • purulentes épaisses + paupières collées → {p:bactérien (chlamydia, gonocoque)}
+      • séro-muqueuses → viral
+    - "{s:Prurit intense} ± rhinite associée → conjonctivite allergique"
+    - "{s:Sensation corps étranger} ± larmoiement → kératite, corps étranger sous paupière supérieure"
+    - "Symptômes uro-génitaux (écoulement, brûlures, partenaires multiples) → {p:Chlamydia / Gonocoque}"
+    - |-
+      Signes cutanés à explorer:
+      • {s:vésicules V1} (front, aile du nez = signe de Hutchinson) → {p:zona ophtalmique}
+      • herpès labial/génital concomitant
+      • rash + arthrite + urétrite → syndrome de Reiter
+    - "{s:Céphalées + nausées/vomissements + halos} → {p:GAFA} jusqu'à preuve du contraire"
+  atcd:
+    - "ATCD ophtalmo: glaucome connu (traitement?), conjonctivites récidivantes (allergique vs herpétique), uvéite (HLA-B27?), {s:œil unique fonctionnel}"
+    - |-
+      {s:Port de lentilles} — CAVE:
+      • type, fréquence, hygiène
+      • port nocturne (risque kératite à {p:Pseudomonas}!)
+      • douleur + lentilles → kératite jusqu'à preuve du contraire
+    - "{s:Chirurgie oculaire récente} (< 6 sem) → suspecter {p:endophtalmie} si douleur + BAV"
+    - |-
+      Traumatismes:
+      • physique (corps étranger métallique = meulage, perforation?)
+      • {p:chimique} — base (soude, ammoniaque) = pire pronostic, RINÇAGE IMMÉDIAT
+      • UV (soudage, ophtalmie des neiges)
+    - |-
+      Maladies systémiques associées:
+      • spondylarthrite/HLA-B27 → {p:uvéite}
+      • polyarthrite rhumatoïde → {p:sclérite}
+      • sarcoïdose, Behçet → uvéite
+      • HTA, anticoagulants → {p:hyposphagma}
+    - "Médicaments: collyres en cours (corticoïdes? antiglaucomateux?), anticholinergiques/tricycliques (risque {p:GAFA}), auto-médication (collyre 'qui traînait')"
+    - "Contexte épidémique: famille/crèche/école (conjonctivite virale très contagieuse), rapports sexuels non protégés récents"
+
+# source: line 337-401 + clinical pivots
+red_flags:
+  - description: "{s:Douleur intense (9-10/10)} + {s:halos colorés} + {s:nausées/vomissements} + {s:semi-mydriase aréflexique} + œil dur à la palpation"
+    dx_suspecte: "{p:Glaucome aigu par fermeture d'angle (GAFA)}"
+    action: "Appel ophtalmo URGENT; {r:acétazolamide 500 mg IV} puis 250 mg PO x4/j; {r:mannitol 20 % 1-2 g/kg IV} si échec; collyres hypotonisants (timolol 0,5 %, brimonidine); {r:pilocarpine 2 %} APRÈS PIO < 40 mmHg; {r:iridotomie YAG bilatérale} dans 24-72 h [VÉRIFIER: posologies CHUV/HUG]"
+  - description: "{s:BAV rapide + douleur intense + hypopion} chez patient avec {e:chirurgie oculaire < 6 sem} ou traumatisme perforant"
+    dx_suspecte: "{p:Endophtalmie}"
+    action: "Hospitalisation ophtalmo URGENTE; ponction CA + vitrectomie; {r:injections intravitréennes vancomycine 1 mg + ceftazidime 2,25 mg}; ATB systémiques IV; pronostic visuel réservé (30 % cécité)"
+  - description: "{s:Ulcération cornéenne dendritique fluo+} + douleur + photophobie + {s:vésicules V1 (signe de Hutchinson)} ou ATCD herpès"
+    dx_suspecte: "{p:Kératite herpétique (HSV/VZV) / zona ophtalmique}"
+    action: "Avis ophtalmo urgent; {r:aciclovir pommade ophtalmique x5/j} + {r:aciclovir 800 mg PO 5x/j x 7-10 j} si zona; {s:JAMAIS de corticoïdes topiques sans avis} (risque perforation)"
+  - description: "{s:Injection périkératique} + douleur sourde + photophobie + myosis + Tyndall + précipités rétro-cornéens"
+    dx_suspecte: "{p:Uvéite antérieure}"
+    action: "Avis ophtalmo DANS LES 24 h; {r:corticoïdes topiques (dexaméthasone 0,1 % ou prednisolone 1 %)} 1 gtte/h + {r:atropine 1 % x2-3/j} (mydriatique-cycloplégique); bilan étiologique (HLA-B27, TPHA-VDRL, IDR/Quantiféron, ECA)"
+  - description: "{s:Porteur de lentilles + douleur + infiltrat cornéen + fluo+}"
+    dx_suspecte: "{p:Kératite bactérienne (Pseudomonas, S. aureus)}"
+    action: "Retrait lentille; culture cornéenne + lentille/étui; {r:ciprofloxacine 0,3 % collyre 1 gtte toutes les 15 min × 6 h puis 1 gtte/h} ± collyres fortifiés (vancomycine, tobramycine) ; avis ophtalmo urgent"
+  - description: "{s:Projection chimique} — surtout base (soude, ammoniaque)"
+    dx_suspecte: "{p:Brûlure chimique cornéenne}"
+    action: "RINÇAGE IMMÉDIAT abondant ≥ 15-30 min ({r:NaCl 0,9 %} ou eau) AVANT tout examen; vérifier pH cul-de-sac; avis ophtalmo en urgence absolue"
+  - description: "{s:Sécrétions purulentes massives + œdème palpébral majeur} ± symptômes uro-génitaux"
+    dx_suspecte: "{p:Conjonctivite à gonocoque / chlamydia}"
+    action: "{t:Prélèvement PCR conjonctival} avant traitement; {r:ceftriaxone 1 g IM} (gonocoque) + {r:azithromycine 1 g PO dose unique} ou {r:doxycycline 100 mg x2/j x 7 j}; traiter partenaire(s); dépistage IST (VIH, syphilis)"
+
+# source: line 224-331
+examen:
+  general:
+    - "Constantes: TA (céphalées? HTA?), T° (infectieux?), FC"
+    - "État général: douloureux (main sur œil = photophobie/{p:GAFA}), AEG (uvéite systémique, sepsis)"
+    - "Inspection à distance: asymétrie faciale, œdème palpébral, ptosis, exophtalmie, {s:vésicules V1}"
+    - "Examen comparatif systématique des 2 yeux (éclairage, grossissement si disponible)"
+  cible:
+    - |-
+      {t:V-P-C-C-P} (mnémonique):
+      • Vision — {t:acuité visuelle} chaque œil ± Parinaud
+      • Paupières — œdème, croûtes, cils, orgelet/chalazion
+      • Conjonctive — type rougeur, sécrétions, EVERSER paupière sup
+      • Cornée — transparence, surface, {t:test fluorescéine} (ulcère, dendrite HSV)
+      • Pupilles — taille, symétrie, RPM, anisocorie nouvelle?
+    - |-
+      Type d'injection (clé diagnostique):
+      • {s:diffuse} → conjonctivite
+      • {s:périkératique (cercle violacé péricornéen)} → {p:uvéite, GAFA, kératite}
+      • sectorielle → épisclérite/sclérite
+      • circonscrite vermillon → {p:hyposphagma}
+    - |-
+      Cornée — examen ciblé:
+      • opacité/œdème ('embuée') → {p:GAFA}
+      • {s:ulcère dendritique fluo+} → {p:HSV}
+      • infiltrat blanc + porteur lentilles → {p:kératite bactérienne}
+      • {s:hypopion} (niveau purulent en CA) → uvéite sévère/endophtalmie
+    - |-
+      Pupille:
+      • {s:semi-mydriase aréflexique 4-6 mm ovale} → {p:GAFA}
+      • {s:myosis} + douleur → {p:uvéite}
+      • anisocorie nouvelle → red flag
+    - "{t:Palpation digitale douce} index sur paupière fermée: œil normal = souple comme lèvre / {s:dur comme front} → {p:GAFA}; tonométrie si disponible"
+    - "Conjonctive palpébrale (everser) : aspect {s:folliculaire} (viral) vs {s:papillaire pavé} (allergique/bactérien)"
+    - "Ganglions pré-auriculaires palpables → {p:conjonctivite virale (adénovirus) / chlamydia}"
+    - "Test phényléphrine 10 % (différenciation épisclérite/sclérite): blanchiment = épisclérite, persistance = sclérite [VÉRIFIER: disponibilité ambulatoire]"
+    - "Lampe à fente (Tyndall, précipités rétro-cornéens), FO si BAV"
+
+# source: clinical pivots + line 416-475
+dd_top5:
+  - dx: "{p:Conjonctivite (virale > bactérienne > allergique)}"
+    indices: "Rougeur diffuse, AV conservée, pas de douleur intense ni photophobie; viral = bilatéral séquentiel + larmoiement clair + ADP pré-auriculaire + IVRS; bactérien = sécrétions purulentes + paupières collées matin; allergique = prurit intense + bilatéral + atopie"
+    freq: "très fréquent (cause #1 d'œil rouge en soins primaires)"
+  - dx: "{p:Hyposphagma (hémorragie sous-conjonctivale)}"
+    indices: "Placard rouge vif circonscrit unilatéral, asymptomatique (pas de douleur ni BAV), post-effort/Valsalva/anticoagulants/HTA; bénin, résolution 1-2 sem"
+    freq: "fréquent, totalement bénin"
+  - dx: "{p:Kératite / ulcère cornéen}"
+    indices: "{s:Douleur intense + photophobie + larmoiement + BAV} ; fluo+ (dendrite = HSV, géographique = bactérien); contexte: porteur lentilles, herpès, traumatisme cornéen"
+    freq: "fréquent en urgence ophtalmo"
+  - dx: "{p:Uvéite antérieure}"
+    indices: "Injection périkératique, douleur sourde, photophobie, myosis, Tyndall+, précipités rétro-cornéens, ± hypopion; étiologies: HLA-B27 (50 %), sarcoïdose, Behçet, herpès, idiopathique"
+    freq: "modéré; ~50 % récidive [VÉRIFIER: chiffre exact]"
+  - dx: "{p:Glaucome aigu par fermeture d'angle (GAFA)}"
+    indices: "{s:Douleur intense + nausées + halos colorés + semi-mydriase + œil dur + PIO > 40 mmHg} ; femme > 50 ans hypermétrope, asiatique, déclencheur (obscurité, anticholinergiques)"
+    freq: "rare mais urgence ophtalmo absolue"
+
+# source: line 335-401, 477-567
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: {p:GAFA}, {p:endophtalmie}, kératite HSV/bactérienne, {p:brûlure chimique} → traitement immédiat avant orientation"
+    - "{p:Brûlure chimique}: RINÇAGE NaCl 0,9 % ≥ 15-30 min IMMÉDIAT, vérifier pH, AVANT tout examen"
+    - "Conjonctivite virale: larmes artificielles + compresses froides + hygiène stricte ; PAS d'antibiotiques ; éviction collectivité (très contagieux)"
+    - "Conjonctivite bactérienne (non chlamydia/gonocoque): {r:tobramycine 0,3 % collyre x4/j x 7-10 j} ou {r:ofloxacine 0,3 % collyre x4/j} ; alternatives: chloramphénicol 0,5 % [VÉRIFIER: disponibilité Suisse]"
+    - "Conjonctivite allergique: éviction allergène + {r:olopatadine ou azélastine collyre x2/j} ± {r:cétirizine 10 mg/j PO} ; corticoïdes locaux courte durée si sévère (avis ophtalmo)"
+    - "{p:Conjonctivite hyperaiguë gonocoque/chlamydia}: {r:ceftriaxone 1 g IM} + {r:azithromycine 1 g PO} ou {r:doxycycline 100 mg x2/j x 7 j} ; traiter partenaire(s) ; dépistage IST"
+    - "Hyposphagma: rassurer, résolution 1-2 sem, contrôler TA, vérifier crase si anticoagulant"
+    - "{p:Uvéite}: avis ophtalmo < 24 h, {r:corticoïdes topiques + atropine 1 % x2-3/j} ; PAS d'arrêt brutal des corticoïdes"
+    - "{p:GAFA}: protocole hypotonisant urgent (cf red flag) ; iridotomie laser dans 24-72 h"
+    - "{p:Kératite HSV}: {r:aciclovir pommade x5/j} ; {s:JAMAIS de corticoïde topique seul} (perforation cornéenne!)"
+  orientation:
+    - "Domicile + suivi médecin traitant: conjonctivite virale/allergique typique, hyposphagma, blépharite, AV conservée, pas de red flag"
+    - "Avis ophtalmo en urgence (< 24 h): suspicion uvéite, kératite, ulcère cornéen, douleur intense inexpliquée, BAV nouvelle, porteur lentilles symptomatique"
+    - "Urgences ophtalmo immédiates: {p:GAFA}, {p:endophtalmie}, {p:brûlure chimique}, traumatisme perforant, zona ophtalmique avec atteinte oculaire"
+    - "Consignes de retour: BAV nouvelle, douleur croissante, céphalées + nausées, pupille déformée, aggravation malgré traitement à 48-72 h"
+
+# source: line 403-414
+examens_complementaires:
+  - "{t:Test à la fluorescéine}: toute suspicion d'ulcère/érosion cornéenne, dendrite HSV, abrasion (geste de routine en urgence)"
+  - "{t:Tonométrie} (ou palpation digitale si non disponible): toute suspicion {p:GAFA}, uvéite, hypertonie"
+  - "{t:Prélèvement conjonctival PCR Chlamydia/Gonocoque} + culture bactérienne: conjonctivite hyperaiguë purulente, suspicion IST"
+  - "{t:Culture cornéenne} (et lentille/étui): kératite chez porteur de lentilles, infiltrat cornéen"
+  - "Bilan uvéite: {t:HLA-B27}, {t:TPHA-VDRL}, {t:IDR/Quantiféron}, sérologies HSV/VZV/toxoplasmose, {t:ECA + radio thorax} (sarcoïdose) [VÉRIFIER: ordre exact selon protocole local]"
+  - "{t:Lampe à fente} (Tyndall, précipités) + {t:FO} si BAV: examen spécialisé optimal"
+
+# source: line 337-401, clinical pivots
+criteres_hospitalisation:
+  - "Tout red flag avéré ({p:GAFA}, {p:endophtalmie}, {p:kératite sévère}, {p:brûlure chimique}, traumatisme perforant)"
+  - "BAV rapide inexpliquée ou hypopion"
+  - "Échec/aggravation sous traitement ambulatoire bien conduit à 48-72 h"
+  - "Œil unique fonctionnel avec atteinte aiguë (seuil d'hospitalisation abaissé)"
+  - "Patient immunodéprimé ou nouveau-né avec conjonctivite purulente (risque cécité)"
+
+# source: line 622-629 + clinical pivots
+pieges:
+  - "Prescrire {r:corticoïdes topiques} sur un {p:ulcère HSV} non diagnostiqué (fluo dendritique) → risque de perforation cornéenne ; JAMAIS de cortico avant fluo et avis spécialisé"
+  - "Méconnaître un {p:GAFA} chez un patient avec céphalées + nausées (penser à l'œil même si plainte digestive/neuro dominante) — palpation digitale + halos colorés = clés"
+  - "Banaliser une {p:uvéite antérieure} (injection périkératique ≠ conjonctivite) — ne pas se contenter d'un collyre ATB sans rechercher Tyndall / photophobie / myosis"
+  - "Négliger une douleur + œil rouge chez un porteur de lentilles → {p:kératite à Pseudomonas} = urgence (retrait lentille + culture + ATB topique large spectre)"
+  - "Manquer un {s:zona ophtalmique} avec signe de Hutchinson (vésicules pointe nez = V1) → risque kératite/uvéite ; {r:aciclovir PO} dans les 72 h"
+
+cartes_liees:
+  - SYS-OPH
+  - SSP-OPH-01

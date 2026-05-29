@@ -1,0 +1,195 @@
+id: SSP-OPH-02
+type: ssp
+title: Baisse d'acuité visuelle
+discipline: Ophtalmo
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Baisse_Acuite_Visuelle.md
+
+# source: pivots — BAV brutale vs progressive est le pivot diagnostique
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • {s:monoculaire} (pré-chiasmatique: œil, NO) ou {s:binoculaire} (rétro-chiasmatique: voies / cortex)?
+      • homonyme vs hétéronyme (champs visuels)?
+      • vision centrale vs périphérique vs amputation hémichamp?
+    - |-
+      Onset:
+      • {s:brutal < 24 h} → URGENCE vasculaire / inflammatoire / traumatique
+      • progressif (semaines-mois-années) → cataracte / DMLA / glaucome / RD
+      • simultané bilatéral vs successif?
+    - "Character: vision floue, voile, scotome central, {s:métamorphopsies} ({p:DMLA}), halos colorés ({p:GAFA}), brouillard ({p:cataracte}), amputation ({p:décollement rétine})?"
+    - "Radiation: douleur projetée (orbite, tempe, mâchoire), céphalée associée?"
+    - |-
+      Time:
+      • durée totale, évolution (stable, fluctuante, aggravation)
+      • {s:fluctuations} avec lumière ({p:cataracte}) ou éblouissement?
+      • amaurose fugace transitoire (< 10 min) → AIT/sténose carotidienne
+    - "Exacerbating: lumière (éblouissement / cataracte / GAFA dans pénombre), {s:mouvements oculaires} ({p:NORB}), effort de Valsalva, position penchée?"
+    - "Relieving: trou sténopéique (améliore = trouble réfractif), correction optique connue?"
+    - |-
+      Severity:
+      • {t:Monoyer} loin: 10/10 normal, < 1/10 = malvoyance, < 1/20 = cécité légale
+      • {t:Parinaud} près (P2 normal)
+      • impact: lecture, conduite, autonomie, chutes
+  specifique:
+    - |-
+      Signes d'alerte URGENCE — BAV brutale:
+      • {s:éclairs/phosphènes} + {s:myodésopsies} + voile/rideau → {p:décollement de rétine}
+      • {s:douleur oculaire} + œil rouge + halos + nausées → {p:GAFA}
+      • douleur ROM oculaire + jeune femme + dyschromatopsie → {p:NORB} / SEP
+      • indolore + > 50 ans + cardiovasculaire → {p:OACR/OVCR} (cf SSP-OPH-01)
+      • > 50 ans + {s:céphalée temporale} + claudication mâchoire → {p:Horton}
+    - "Symptômes associés: photophobie ({p:uvéite}), larmoiement, sécrétions, prurit?"
+    - "Vision des couleurs: {s:dyschromatopsie rouge-vert} (NORB), perte contraste (cataracte/DMLA)?"
+    - "Diplopie monoculaire ({p:cataracte}, astigmatisme) vs binoculaire (paralysie OM / NC III/IV/VI)?"
+    - "{s:Métamorphopsies} (lignes déformées au test d'Amsler) → {p:DMLA exsudative} / OMC"
+    - "Champ visuel rétréci en canon de fusil → {p:rétinopathie pigmentaire} / glaucome très avancé"
+  atcd:
+    - |-
+      Ophtalmologiques:
+      • amblyopie, strabisme, myopie forte, chirurgie (cataracte, réfractive, vitrectomie)
+      • laser, injections intravitréennes
+      • port lentilles (kératite / abcès)
+    - |-
+      Vasculaires / cardio:
+      • HTA, diabète (durée +++, HbA1c, dernier {t:FO}), dyslipidémie, tabac
+      • FA, valvulopathie, sténose carotidienne (emboles)
+    - "Neurologiques: {p:SEP} connue, migraine ophtalmique, AVC/AIT, HTIC"
+    - |-
+      Médicaments toxiques rétiniens:
+      • {r:hydroxychloroquine} (dose cumulée > 1000 g — maculopathie en œil de bœuf)
+      • éthambutol (neuropathie optique)
+      • amiodarone, sildénafil, tamoxifène
+      • corticoïdes (cataracte, glaucome cortisonique)
+    - "ATCD familiaux: DMLA, glaucome (1er degré), rétinopathies héréditaires"
+    - "Traumatisme oculaire / craniofacial récent? Exposition UV / soudure / chimique?"
+
+# source: pivots — red flags BAV
+red_flags:
+  - description: "{s:BAV brutale unilatérale} + {e:> 50 ans} + céphalée temporale + claudication mâchoire ± hyperesthésie cuir chevelu"
+    dx_suspecte: "{p:Neuropathie optique ischémique antérieure artéritique (NOIAA / Horton)}"
+    action: "{t:VS + CRP} STAT; {r:méthylprednisolone 250-1000 mg IV/j × 3 j} sans attendre la biopsie [VÉRIFIER: protocole CHUV/HUG corticoïdes IV vs PO 1 mg/kg], puis prednisone PO; biopsie artère temporale < 7 j"
+  - description: "{s:Phosphènes + myodésopsies récents} + {s:voile / rideau / amputation} de champ visuel"
+    dx_suspecte: "{p:Décollement de rétine rhegmatogène}"
+    action: "Ophtalmo URGENT (FO dilaté + OCT); chir vitréorétinienne < 24-72 h selon statut maculaire [VÉRIFIER: délai exact macula-on vs macula-off]; éviter Valsalva, décubitus côté décollement"
+  - description: "{s:BAV unilatérale subaiguë} (1-7 j) + {s:douleur aux mouvements oculaires} + femme jeune + {t:RAPD} + dyschromatopsie rouge-vert"
+    dx_suspecte: "{p:Névrite optique rétrobulbaire (NORB)} — pré-SEP dans ~50 % à 15 ans"
+    action: "{t:IRM cérébrale + orbites avec gadolinium} urgente; {r:méthylprednisolone IV 1 g/j × 3 j} puis prednisone PO décroissante; avis neuro pour bilan SEP"
+  - description: "Œil rouge + douleur + {s:halos colorés} + nausées/vomissements + {s:mydriase aréflexique semi-fixe} + {t:TIO > 40-50 mmHg}"
+    dx_suspecte: "{p:Glaucome aigu par fermeture de l'angle (GAFA)}"
+    action: "Ophtalmo URGENT; {r:acétazolamide 500 mg IV} + {r:pilocarpine 2 % topique} + bêta-bloquant + α2-agoniste topiques + {r:mannitol 20 % IV} si TIO réfractaire; iridotomie au laser YAG ± bilatérale"
+  - description: "{s:BAV brutale indolore} monoculaire + > 50 ans + facteurs CV (HTA, FA, carotide) ± amaurose fugace préalable"
+    dx_suspecte: "{p:OACR / OVCR}"
+    action: "Voir SSP-OPH-01 Amaurose; ophtalmo + neuro/AVC pathway < 4,5 h si OACR (équivalent AVC rétinien); bilan emboligène urgent (Doppler carotides, ECG, ETT)"
+  - description: "Diabétique connu + BAV brutale + {s:myodésopsies / vision rouge} → hémorragie vitréenne sur RD proliférative"
+    dx_suspecte: "{p:Rétinopathie diabétique proliférante avec hémorragie vitréenne}"
+    action: "Ophtalmo dans les jours; FO/B-scan, panphotocoagulation laser, anti-VEGF IVT, vitrectomie si non résorption ≥ 1-3 mois [VÉRIFIER: délai vitrectomie selon protocole local]"
+  - description: "{s:Trauma oculaire} récent + BAV + larmoiement / hyphéma / déformation pupille"
+    dx_suspecte: "{p:Contusion / plaie oculaire / corps étranger intraoculaire}"
+    action: "Ophtalmo URGENT; protéger œil par coque (PAS de pansement compressif); à jeun; ATB prophylactique IV + {r:VAT} si plaie pénétrante; TDM orbites sans IRM (CEIO ferromagnétique)"
+
+# source: pivots + MD lignes 35-49
+examen:
+  general:
+    - "Signes vitaux: TA (bilatérale), FC, T°, glycémie capillaire si diabétique"
+    - "Auscultation carotidienne (souffle → emboles), palpation artères temporales si {e:> 50 ans} (induration, absence pouls)"
+    - "État général, signes neurologiques associés (déficit focal, syndrome méningé)"
+    - "Inspection palpébrale, conjonctivale et péri-orbitaire (œdème, érythème, ptosis, exophtalmie)"
+  cible:
+    - |-
+      {t:Acuité visuelle} CHAQUE œil séparément:
+      • {t:Monoyer} loin avec ET sans correction
+      • {t:Parinaud} de près
+      • {t:trou sténopéique} (amélioration → trouble réfractif)
+      • compter doigts / mouvements main / perception lumineuse si très basse
+    - |-
+      Pupilles:
+      • taille, symétrie (anisocorie)
+      • {t:réflexe photomoteur} direct et consensuel
+      • {t:test de l'éclairage alterné (swinging flashlight)} → {s:RAPD} = atteinte NO (NORB, OACR, NOIAA)
+      • mydriase aréflexique → GAFA / III paralysé
+    - |-
+      Examen externe (idéalement {t:lampe à fente}):
+      • cornée (œdème, ulcère, opacités, KP)
+      • chambre antérieure (Tyndall, hypopyon, hyphéma, profondeur)
+      • cristallin (opacités → cataracte; phacodonèse)
+      • {t:TIO} (mesure obligatoire si œil rouge / douleur / suspicion glaucome) — normal 10-21 mmHg
+    - "Motilité oculaire (6 directions du regard), diplopie binoculaire?"
+    - |-
+      {t:Champ visuel} par confrontation (puis périmétrie automatisée):
+      • scotome central → maculopathie / NO
+      • amputation altitudinale → NOIA
+      • hémianopsie homonyme → atteinte rétro-chiasmatique
+      • rétrécissement périphérique → glaucome avancé
+    - |-
+      {t:FO} après dilatation (tropicamide 1 %) — sauf suspicion GAFA:
+      • papille (œdème = NOIA/HTIC; pâleur = atrophie; excavation = glaucome)
+      • macula (drusen, hémorragies, exsudats, œdème)
+      • vaisseaux (occlusion, néovaisseaux, hémorragies en flammèches/dot/blot, nodules cotonneux)
+      • périphérie rétinienne (déchirures, soulèvement, pigmentations)
+    - "{t:Test d'Amsler} (métamorphopsies = DMLA exsudative, OMC), {t:vision des couleurs} (Ishihara — dyschromatopsie rouge-vert = NO)"
+
+# source: pivots — DD ordonnés par fréquence/gravité (BAV progressive d'abord, brutale en cinquième regroupant les urgences)
+dd_top5:
+  - dx: "{p:Cataracte}"
+    indices: "{e:> 60 ans}, BAV progressive bilatérale (mais asymétrique), {s:vision dans le brouillard}, halos, éblouissement, myopie d'indice, opacités cristalliniennes à la {t:lampe à fente}, lueur pupillaire altérée; chirurgie (phacoémulsification + LIO) si gêne fonctionnelle"
+    freq: "Cause #1 de BAV progressive {e:> 60 ans}; prévalence ~50 % {e:> 75 ans} [VÉRIFIER: ordre exact DD selon source SSP locale]"
+  - dx: "{p:Dégénérescence maculaire liée à l'âge (DMLA)}"
+    indices: "{e:> 50 ans}, BAV centrale bilatérale, {s:métamorphopsies}, scotome central; FO: drusen, atrophie (forme sèche 80 %) ou néovaisseaux + hémorragies (forme humide 20 %); {t:OCT maculaire} + {t:angiographie}; tabac/hérédité; anti-VEGF IVT (ranibizumab/aflibercept) si forme exsudative"
+    freq: "Cause #1 de cécité légale {e:> 50 ans} en Europe; prévalence ~10 % à 75 ans"
+  - dx: "{p:Glaucome chronique à angle ouvert}"
+    indices: "Asymptomatique longtemps, BAV TARDIVE périphérique (canon de fusil), {t:TIO élevée} (souvent > 21 mmHg, mais normotensif possible), excavation papillaire (C/D > 0,6), {t:champ visuel} altéré (scotome arciforme de Bjerrum); collyres hypotonisants (PG analogues, β-bloquants, α-agonistes) ± laser SLT ± chirurgie filtrante"
+    freq: "Fréquent (prévalence 1-2 % adultes, ↑ avec âge, ATCD familiaux); 2e cause de cécité monde"
+  - dx: "{p:Rétinopathie diabétique}"
+    indices: "Diabète ancien (> 10 ans), BAV par OMC ou hémorragie vitréenne; FO: microanévrismes, hémorragies dot/blot, exsudats durs, nodules cotonneux, néovaisseaux (proliférante); {t:OCT macula} + {t:angiographie OCT} + {t:angiographie fluo}; dépistage {t:FO annuel} ALL diabétiques; équilibre glycémique/TA + laser panphotocoagulation + anti-VEGF IVT"
+    freq: "Fréquent; 1ère cause de cécité chez l'adulte {e:< 60 ans} pays industrialisés"
+  - dx: "{p:BAV brutale (groupe vasculaire / inflammatoire / mécanique)}"
+    indices: "URGENCES: {p:OACR/OVCR} (cf SSP-OPH-01), {p:décollement de rétine} (phosphènes + myodésopsies + voile), {p:NORB} (douleur ROM, RAPD, jeune femme), {p:NOIA artéritique (Horton)} {e:> 50 ans}, {p:GAFA} (œil rouge + halos + TIO++), {p:hémorragie vitréenne}; orientation ophtalmo URGENTE, FO + OCT + B-scan si milieux opaques"
+    freq: "Hétérogène; quelques %; urgence absolue car risque de cécité irréversible"
+
+# source: pivots + MD lignes 99-115
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — toute BAV brutale → ophtalmo URGENT avant antalgiques / mydriatiques"
+    - "Suspicion {p:Horton/NOIAA}: {r:méthylprednisolone 250-1000 mg IV/j × 3 j} puis prednisone 1 mg/kg/j PO [VÉRIFIER: dose exacte IV selon protocole]; biopsie artère temporale < 7 j; IPP + supplémentation K/Ca/vit D"
+    - "Suspicion {p:GAFA}: {r:acétazolamide 500 mg IV} + {r:pilocarpine 2 % topique tous les 15 min × 1 h} + timolol 0,5 % + brimonidine + {r:mannitol 20 % 1-2 g/kg IV} si TIO réfractaire; iridotomie YAG en urgence; antalgiques + antiémétiques"
+    - "Suspicion {p:NORB}: {r:méthylprednisolone IV 1 g/j × 3 j} puis prednisone PO décroissante 11 j; IRM + bilan SEP"
+    - "Suspicion {p:Décollement de rétine}: ophtalmo + chirurgie urgente (vitrectomie / cerclage / indentation); positionnement selon localisation; à jeun"
+    - "Suspicion {p:OACR}: cf SSP-OPH-01 — voie AVC; massage oculaire, paracentèse, hypotonisants n'ont pas démontré bénéfice clair [VÉRIFIER: place du massage / paracentèse dans guidelines récentes]"
+    - "BAV progressive sans red flag: pas de traitement immédiat; consultation ophtalmologique programmée"
+  orientation:
+    - "Domicile + ophtalmo ambulatoire dans semaines: BAV progressive isolée, examen rassurant, vie quotidienne préservée"
+    - "Ophtalmo en URGENCE (même jour): BAV brutale, douleur, œil rouge, phosphènes/myodésopsies récents, traumatisme, RAPD"
+    - "Urgences hospitalières: suspicion {p:Horton} (corticothérapie IV), suspicion {p:NORB} (corticoïdes IV + IRM), {p:GAFA} non résolu, {p:OACR}"
+    - "Bilan vasculaire urgent (USIC/AVC pathway) si OACR/amaurose fugace: Doppler carotides, ECG, ETT, bilan lipidique/glycémique"
+    - "Consignes de retour urgent: nouvelle BAV brutale, aggravation, douleur, voile/rideau, éclairs"
+
+examens_complementaires:
+  - "{t:OCT maculaire} (SD-OCT): DMLA (drusen, néovaisseaux, fluide), OMC, trou maculaire, œdème par OVCR/RD"
+  - "{t:Angiographie à la fluorescéine ± OCT-angiographie}: DMLA exsudative, RD proliférante, OVCR/OACR, vasculites"
+  - "{t:Champ visuel automatisé (Octopus / Humphrey)}: {p:Glaucome}, neuropathies optiques, atteintes chiasmatiques/rétro-chiasmatiques"
+  - "{t:VS + CRP} STAT si BAV brutale {e:> 50 ans}: éliminer {p:Horton}; VS > 50 mm/h, CRP élevée très évocatrices"
+  - "{t:IRM cérébrale + orbites avec gadolinium}: NORB (rehaussement NO, lésions démyélinisantes), HTIC, atteintes neuro-ophtalmologiques"
+  - "{t:Échographie B-scan}: si milieux opaques (hémorragie vitréenne, cataracte dense) pour explorer rétine — décollement, masse"
+
+criteres_hospitalisation:
+  - "{p:Horton}/NOIAA avec atteinte oculaire confirmée: corticothérapie IV initiale"
+  - "{p:GAFA} non contrôlé par traitement médical + iridotomie en urgence"
+  - "{p:NORB} avec corticothérapie IV pulse"
+  - "{p:OACR} (équivalent AVC): bilan vasculaire et neurovasculaire urgent"
+  - "Plaie pénétrante / corps étranger intraoculaire / endophtalmie post-opératoire"
+
+pieges:
+  - "Banaliser une BAV brutale {e:> 50 ans} → ne pas oublier {p:Horton}: VS/CRP STAT et corticoïdes avant biopsie (risque cécité bilatérale en heures)"
+  - "Négliger les {s:phosphènes + myodésopsies} récents → diagnostic manqué de {p:décollement de rétine} et perte de la chance chirurgicale (macula-on vs macula-off)"
+  - "Méconnaître une {p:NORB} chez une femme jeune (douleur ROM + RAPD + dyschromatopsie) → retard au diagnostic de {p:SEP}; IRM + corticoïdes IV"
+  - "Œil rouge douloureux sans mesurer la {t:TIO} → passer à côté d'un {p:GAFA} (mydriase = signe tardif); CI mydriatiques pour FO si chambre antérieure étroite"
+  - "Diabétique sans {t:FO annuel} → diagnostic tardif de rétinopathie proliférante; risque hémorragie vitréenne et décollement tractionnel évitable"
+
+cartes_liees:
+  - SSP-OPH-01
+  - SYS-NEU

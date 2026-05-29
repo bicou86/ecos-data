@@ -1,0 +1,218 @@
+id: SSP-INF-02
+type: ssp
+title: Fièvre
+discipline: Infectio
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Fièvre.md
+
+# source: line 7-105
+anamnese:
+  socrates:
+    - |-
+      Onset — caractérisation:
+      • début brutal vs progressif, date précise
+      • mode d'installation (frissons solennels = bactériémie)
+      • méthode de mesure (rectale > axillaire > tympanique > frontale)
+    - |-
+      Time — durée et pattern:
+      • aiguë < 3 sem / prolongée FUO > 3 sem
+      • continue / intermittente / hectique (abcès) / palustre (paludisme)
+      • horaire (vespérale = TB, lymphome)
+    - |-
+      Severity:
+      • T° max mesurée
+      • {e:> 40°C} + atteinte cérébrale = hyperthermie maligne, urgence
+      • dissociation pouls-température (typhoïde, légionellose)
+    - |-
+      Relieving — antipyrétiques:
+      • efficacité {r:paracétamol 1g x 4/j} ou {r:ibuprofène 400mg x 3/j}
+      • AINS peuvent MASQUER la fièvre
+    - |-
+      Associated — symptômes B (red flags):
+      • frissons solennels (bactériémie)
+      • {s:sueurs nocturnes profuses} ({p:lymphome}, {p:TB})
+      • {s:perte poids > 10% en 6 mois} (néoplasie, TB)
+      • asthénie, AEG
+  specifique:
+    - |-
+      Recherche foyer infectieux SYSTÉMATIQUE:
+      • respiratoire (toux, dyspnée, douleur pleurale)
+      • ORL (rhinorrhée, odynophagie, otalgie, anosmie)
+      • urinaire (dysurie, pollakiurie, douleur lombaire)
+      • digestif (douleur abdo, diarrhée, ictère)
+      • cutané (éruption, plaie, érysipèle)
+      • articulaire (mono-arthrite = arthrite septique)
+    - |-
+      Signes neurologiques — URGENCE:
+      • céphalée + photophobie + raideur nuque ({p:méningite})
+      • troubles conscience, confusion ({p:encéphalite})
+      • convulsions (généralisées/focales)
+    - |-
+      Contexte épidémiologique PIVOT:
+      • voyage zone tropicale < 3 mois ({p:paludisme}, dengue, typhoïde)
+      • exposition animaux (tiques = Lyme; chats = bartonellose; oiseaux)
+      • contacts malades (TB, COVID, grippe)
+      • activité sexuelle à risque (VIH, IST, syphilis)
+      • profession à risque (soignant, éleveur, vétérinaire)
+    - |-
+      Cutané fébrile — examiner systématiquement:
+      • {s:Purpura} = URGENCE absolue ({p:méningococcémie})
+      • points injection IV (endocardite UDIV)
+      • érythème migrant ({p:Lyme})
+      • nodules d'Osler / taches de Janeway ({p:endocardite})
+  atcd:
+    - |-
+      Terrain immunodéprimé — pivot décisionnel:
+      • VIH (CD4, charge virale)
+      • chimiothérapie ({s:neutropénie < 0.5 G/L} = urgence)
+      • corticothérapie > 20 mg/j > 3 sem
+      • biothérapies, immunosuppresseurs, greffe
+      • splénectomie (germes encapsulés)
+    - |-
+      Comorbidités à risque:
+      • diabète (infections récurrentes, mucormycose)
+      • valvulopathie / prothèse valvulaire ({p:endocardite})
+      • cirrhose (péritonite spontanée)
+      • BPCO (exacerbations)
+    - |-
+      Interventions/dispositifs récents:
+      • chirurgie < 30j, soins dentaires
+      • cathéter central, sonde urinaire, prothèse
+      • hospitalisation récente (BMR nosocomiales)
+    - |-
+      Médicaments — passer en revue:
+      • ATB récents (germe résistant, C. difficile)
+      • nouveau traitement < 3 sem ({p:fièvre médicamenteuse})
+      • AINS (masquent fièvre)
+      • anti-psychotique ({p:syndrome malin})
+      • sérotoninergique ({p:syndrome sérotoninergique})
+
+# source: line 178-191
+red_flags:
+  - description: "{s:qSOFA ≥ 2} (FR ≥ 22, PAS ≤ 100, GCS < 15) + foyer infectieux suspecté"
+    dx_suspecte: "{p:Sepsis / choc septique}"
+    action: "Bundle 1h: hémocultures x2 paires AVANT ATB, {t:lactates}, remplissage {r:cristalloïdes 30 mL/kg}, ATB IV large spectre ({r:pipéracilline-tazobactam 4g} + {r:gentamicine 5-7 mg/kg}) [VÉRIFIER: protocole local CHUV/HUG sepsis]"
+  - description: "{s:Purpura fébrile} non blanchissant à la vitropression"
+    dx_suspecte: "{p:Méningococcémie / purpura fulminans}"
+    action: "{r:Ceftriaxone 2g IV} IMMÉDIAT (avant tout transfert/bilan) + transfert USI + isolement gouttelettes + prophylaxie contacts"
+  - description: "Fièvre + {s:syndrome méningé} (raideur nuque, Kernig/Brudzinski) ± troubles conscience"
+    dx_suspecte: "{p:Méningite bactérienne / encéphalite}"
+    action: "Hémocultures + {t:PL} urgente (après {t:CT} si signes focaux/conscience altérée); {r:ceftriaxone 2g x 2/j IV + dexaméthasone 10mg IV} AVANT PL si retard; + {r:amoxicilline 200mg/kg/j} si > 50 ans (Listeria); + {r:aciclovir 10mg/kg x 3/j} si encéphalite suspectée"
+  - description: "Fièvre + {s:neutropénie < 0.5 G/L} (chimio, aplasie)"
+    dx_suspecte: "{p:Neutropénie fébrile}"
+    action: "Hémocultures (voie centrale + périphérique) + ATB IV large spectre dans l'heure: {r:pipéracilline-tazobactam 4g x 4/j} ± {r:gentamicine 5-7 mg/kg} si sepsis; isolement protecteur; pas d'attente du résultat NFS pour démarrer"
+  - description: "Fièvre + {s:souffle cardiaque nouveau} + AEG (ATCD valvulopathie, prothèse, UDIV, soins dentaires)"
+    dx_suspecte: "{p:Endocardite infectieuse}"
+    action: "{t:Hémocultures x3 paires sur 24h} (volume 8-10 mL/flacon) AVANT ATB + {t:ETT} puis {t:ETO} si forte suspicion; critères Duke; bithérapie IV après hémocs [VÉRIFIER: choix ATB selon germe et valve native/prothèse]"
+  - description: "Retour {e:zone tropicale} < 3 mois + fièvre (même résolutive)"
+    dx_suspecte: "{p:Paludisme} (Plasmodium falciparum)"
+    action: "{t:Frottis sanguin + goutte épaisse} + test antigénique rapide HRP2 EN URGENCE (< 2h); hospitalisation si accès grave (parasitémie > 4%, troubles conscience, ictère)"
+
+# source: line 108-172
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: T° (rectale > tympanique), {t:PA} (les deux bras), {t:FC} (dissociation pouls-T°), {t:FR} (≥ 22 = qSOFA), {t:SaO2}, {t:GCS}"
+    - "{t:Score qSOFA} (FR ≥ 22, PAS ≤ 100, GCS < 15): ≥ 2 = sepsis probable"
+    - "Apparence: aspect toxique, marbrures, temps recoloration capillaire > 3s"
+    - "Inspection cutanée INTÉGRALE (déshabiller patient): purpura, pétéchies, plaies, points d'injection"
+    - "État hydratation: pli cutané, sécheresse muqueuses, diurèse"
+  cible:
+    - |-
+      {s:Syndrome méningé}:
+      • raideur nuque (flexion passive)
+      • Kernig, Brudzinski
+      • photophobie objective
+      • {t:GCS}, déficit focal
+    - |-
+      ORL — porte d'entrée fréquente:
+      • pharynx (érythème, exsudat amygdalien)
+      • otoscopie bilatérale (OMA, otite externe)
+      • palpation/percussion sinus
+      • cavité buccale (état dentaire, abcès)
+    - |-
+      Aires ganglionnaires complètes:
+      • cervicales, sus-claviculaires (Troisier), axillaires, inguinales
+      • caractères (taille, consistance, mobilité, douleur)
+      • adénopathie isolée fixée = néoplasie/lymphome
+    - |-
+      Cardio-pulmonaire:
+      • auscultation 4 foyers: {s:souffle nouveau} = endocardite
+      • frottement péricardique
+      • crépitants, matité (pneumonie); frottement pleural
+    - |-
+      Abdominal:
+      • palpation (défense, Murphy, masses)
+      • hépato/splénomégalie
+      • {s:Giordano} (pyélonéphrite), TR si suspicion abcès
+    - "Ostéo-articulaire: arthrite (mono-arthrite fébrile = arthrite septique jusqu'à preuve du contraire); rachis (spondylodiscite)"
+
+# source: line 306-326
+dd_top5:
+  - dx: "{p:Infections bactériennes communautaires localisées}"
+    indices: "Pneumonie (toux + crépitants + Rx), pyélonéphrite (Giordano + BU+ECBU), érysipèle/cellulite (placard cutané), angine bactérienne; 80% des fièvres aiguës < 1 sem; foyer souvent évident"
+    freq: "très fréquent (cause #1 fièvre aiguë)"
+  - dx: "{p:Infections virales systémiques}"
+    indices: "Grippe (épidémique, myalgies, asthénie), COVID-19 (anosmie/agueusie), EBV (angine + adénopathies + splénomégalie + lymphocytose), CMV; hyperleucocytose modérée à prédominance lymphocytaire; CRP modérée; résolution spontanée 5-10j"
+    freq: "très fréquent"
+  - dx: "{p:Endocardite infectieuse}"
+    indices: "Fièvre prolongée + souffle cardiaque (nouveau ou modifié) + AEG; ATCD valvulopathie/prothèse/UDIV/soins dentaires; phénomènes emboliques (Osler, Janeway, splénomégalie); critères de Duke; hémocs x3 + ETT/ETO [VÉRIFIER: ordre relatif des DD 3-4]"
+    freq: "rare (3-10/100 000/an) mais grave (mortalité 20%)"
+  - dx: "{p:Néoplasies fébriles}"
+    indices: "FUO > 3 sem; lymphomes Hodgkin/non-Hodgkin (sueurs nocturnes, perte poids, adénopathies), leucémies aiguës (pancytopénie), hypernéphrome (hématurie), hépatocarcinome; bilan: TDM-TAP, biopsie ganglionnaire/médullaire"
+    freq: "25% des FUO"
+  - dx: "{p:Maladies inflammatoires systémiques}"
+    indices: "Vascularites (Horton > 50 ans, Takayasu, MAGIC), maladie de Still adulte (fièvre hectique + rash maculaire + arthralgies + hyperferritinémie), lupus, MICI, PR; bilan AAN/ANCA/VS/CRP/ferritine"
+    freq: "20% des FUO"
+
+# source: line 240-303
+pec_initiale:
+  immediate:
+    - "PRIORITÉ: identifier sepsis (qSOFA ≥ 2) → bundle 1h: O2, voie veineuse, hémocs x2 paires AVANT ATB, {t:lactates}, remplissage {r:cristalloïdes 30 mL/kg}, ATB IV large spectre"
+    - |-
+      Antipyrétiques (NE PAS retarder identification cause):
+      • {r:Paracétamol 1g x 4/j} (max 4g/j; max 3g si > 65 ans ou < 50 kg) [VÉRIFIER: dose hépatique ajustée]
+      • {r:Ibuprofène 400mg x 3/j} si CI/échec paracétamol (CI: déshydratation, IR, ulcère)
+      • alternance possible si mal tolérée; pas de cure systématique si T° < 38.5°C bien tolérée
+    - "Hémocultures AVANT toute ATB: {r:2-3 paires} aéro+anaérobies, sites différents, espacées 30 min, volume {r:8-10 mL/flacon}; 3 paires/24h si endocardite suspectée"
+    - |-
+      ATB empirique selon foyer présumé:
+      • Pneumonie communautaire: {r:amoxicilline 1g x 3/j PO} ± macrolide; 7-10j
+      • Pyélonéphrite: {r:ceftriaxone 1g/j IV} ou {r:ciprofloxacine 500mg x 2/j PO}; 10-14j; ECBU contrôle J2
+      • Méningite: {r:ceftriaxone 2g x 2/j IV} + {r:dexa 10mg x 4/j x 4j}; + ampi si > 50 ans
+      • Sepsis grave: {r:pipéracilline-tazobactam 4g x 3/j} + {r:gentamicine 5-7 mg/kg/j}; adapter J2-J3
+    - "Mesures générales: hydratation 2-3 L/j PO ou IV, repos, surveillance T° x 4/j (courbe), nutrition"
+  orientation:
+    - "USI/Réa: sepsis grave/choc, défaillance organe, lactates > 4 mmol/L, neutropénie fébrile sévère"
+    - "Hospitalisation médecine: fièvre + signe gravité, immunodépression, comorbidité décompensée, échec ambulatoire 48-72h, FUO nécessitant bilan, paludisme"
+    - "Ambulatoire + réévaluation 48-72h: fièvre aiguë avec foyer identifié, terrain sain, bonne tolérance"
+    - "Consignes de retour: persistance > 5j, frissons solennels, purpura, troubles conscience, dyspnée, oligurie, intolérance digestive"
+
+# source: line 193-238
+examens_complementaires:
+  - "Bilan première intention: {t:NFS} (leucocytose, neutropénie, lymphocytose), {t:CRP/PCT}, ionogramme, créatinine, transaminases, lactates si sepsis"
+  - "{t:BU ± ECBU}: leucocyturie + nitrites; ECBU systématique si fièvre sans foyer évident"
+  - "{t:Hémocultures} 2-3 paires AVANT ATB; 3 paires/24h si suspicion endocardite (volume 8-10 mL)"
+  - "{t:Rx thorax}: foyer pulmonaire; {t:TDM-TAP} si FUO ou recherche abcès profond/néoplasie"
+  - "Selon contexte: {t:PL} (méningite, après CT si focalisation), {t:ETT/ETO} (endocardite), frottis + goutte épaisse + test rapide HRP2 (paludisme), sérologies (VIH, hépatites, CMV, EBV, syphilis, Lyme) [VÉRIFIER: sérologies à inclure selon zone CHUV/HUG]"
+  - "FUO bilan 2e intention: PET-TDM, biopsie ganglionnaire/médullaire, AAN/ANCA, ferritine, IDR/QuantiFERON, recherche BK x3"
+
+criteres_hospitalisation:
+  - "{s:Sepsis/choc septique} (qSOFA ≥ 2, lactates > 2 mmol/L) → réa/USI"
+  - "{s:Immunodépression} (neutropénie, VIH, post-greffe) avec fièvre"
+  - "Suspicion {p:méningite}, {p:endocardite}, {p:paludisme à P. falciparum}, {p:purpura fulminans}"
+  - "Décompensation comorbidité (cardiaque, diabète, cirrhose) ou intolérance digestive ATB PO"
+  - "Échec ambulatoire à 48-72h, FUO nécessitant bilan invasif"
+
+pieges:
+  - "Prescrire des antibiotiques empiriques SANS hémocultures préalables ni recherche du foyer (sauf urgence vitale immédiate type purpura fulminans)"
+  - "Banaliser fièvre chez {e:sujet âgé / immunodéprimé}: présentation atypique (hypothermie, confusion isolée, AEG sans T° élevée) — bilan septique complet même si clinique 'rassurante' [VÉRIFIER: seuil T° significatif chez > 75 ans]"
+  - "Oublier le {p:paludisme} chez tout patient revenant de zone tropicale dans les 3 mois (même fièvre résolutive) — frottis + goutte épaisse en urgence (< 2h)"
+  - "Méconnaître l'{p:endocardite} (souffle peut être tardif/discret) chez patient avec valvulopathie, prothèse, UDIV ou soins dentaires récents — hémocs x3 systématiques"
+  - "Méconnaître les causes NON infectieuses (25%): néoplasie, vascularite (Horton > 50 ans), maladie de Still, fièvre médicamenteuse — ne pas s'acharner en ATB"
+
+cartes_liees:
+  - SYS-INF
+  - TOOL-QSOFA

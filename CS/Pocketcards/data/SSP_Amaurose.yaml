@@ -1,0 +1,216 @@
+id: SSP-OPH-01
+type: ssp
+title: Amaurose
+discipline: Ophtalmo
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Amaurose.md
+  - SFO 2022 - Urgences ophtalmologiques
+  - American Academy Ophthalmology 2023
+  - EULAR Guidelines - Artérite temporale
+
+# source: line 12-178 (Anamnèse systématique)
+anamnese:
+  socrates:
+    - |-
+      Site (latéralité = clé topographique):
+      • {s:monoculaire} → pré-chiasmatique ({s:rétine, nerf optique})
+      • {s:bilatérale simultanée} → rétro-chiasmatique ({s:chiasma, voies postérieures, occipital})
+      • successive ({s:bascule}) → {p:Horton}, glaucome
+    - |-
+      Onset (DURÉE = pronostic):
+      • {r:brutal < 1 min} indolore → {p:OACR}, {p:décollement rétine}, AVC
+      • {r:< 60 min puis récupération complète} → {p:amaurose fugace} (équivalent AIT visuel)
+      • heures-jours → {p:NORB}, {p:NOIAA}
+      • semaines-mois → cataracte, DMLA, glaucome chronique
+    - "Character: voile noir progressif (décollement) / scotome central (maculopathie, NOIA) / amputation altitudinale (NOIAA) / hémianopsie (AVC occipital) / vision floue globale (cataracte)?"
+    - "Radiation: amputation s'étend-elle (rideau qui descend → décollement rétine)? métamorphopsies ({s:lignes déformées} → DMLA)?"
+    - |-
+      Time:
+      • durée exacte de l'épisode
+      • récupération complète / partielle / nulle
+      • épisodes antérieurs ({s:amaurose fugace} = AIT oculaire répété)
+    - |-
+      Exacerbating / circonstances de survenue:
+      • réveil matin → {p:NOIAA}, AVC
+      • effort / Valsalva → insuffisance vertébro-basilaire, hémorragie vitréenne
+      • changement de position → décollement rétine
+      • traumatisme oculaire → décollement, hémorragie vitréenne
+    - "Relieving: amélioration au {t:trou sténopéique} (= vice de réfraction, NON urgence)?"
+    - |-
+      Severity:
+      • quantification: compte doigts à X mètres / perception mouvements / perception lumineuse / cécité totale
+      • {s:acuité visuelle} chiffrée OD et OG
+      • impact AVQ (conduite, lecture)
+  specifique:
+    - |-
+      Signes ophtalmo d'urgence (à interroger SYSTÉMATIQUEMENT):
+      • {s:phosphènes} (éclairs) + {s:myodésopsies} (mouches volantes) + {s:rideau noir} → {p:décollement rétine}
+      • {s:halos colorés} autour des lumières + œil rouge dur + douleur + nausées → {p:glaucome aigu par fermeture d'angle}
+      • {s:douleur rétro-orbitaire} aggravée à la mobilisation + dyschromatopsie → {p:NORB}
+    - |-
+      Drapeaux rouges {p:Horton} ({e:> 50 ans}):
+      • {s:céphalée temporale} nouvelle
+      • {s:claudication de la mâchoire} (pathognomonique)
+      • hyperesthésie cuir chevelu ('douleur au peigne')
+      • fièvre, sueurs nocturnes, perte de poids, asthénie
+      • pseudo-polyarthrite rhizomélique associée
+    - |-
+      Signes neurologiques associés (urgence AVC):
+      • paralysie faciale, dysarthrie/aphasie, déficit moteur ou sensitif
+      • vertiges vrais, troubles de coordination ({p:AVC vertébro-basilaire})
+      • diplopie, hémianopsie homonyme ({p:AVC occipital})
+      • antécédent {s:amaurose fugace} = équivalent AIT → bilan AVC obligatoire
+    - "Vision double monoculaire (persiste œil fermé controlatéral) → cataracte; vision double binoculaire → paralysie oculomotrice"
+    - "{s:Photophobie} → uvéite, kératite, méningite"
+    - "{e:Grossesse}? éclampsie possible (HTA + amaurose corticale)"
+  atcd:
+    - "FRCV (cruciaux pour OACR/NOIAA/AVC): {s:HTA}, diabète, dyslipidémie, tabagisme (paquets-années), obésité"
+    - "Cardiopathies emboligènes: {p:fibrillation auriculaire}, valvulopathie, endocardite, FOP, ATCD AVC/AIT, sténose carotidienne connue"
+    - "ATCD ophtalmologiques: {s:myopie forte > -6 D} (décollement), chirurgie oculaire récente, traumatisme, glaucome familial, amblyopie"
+    - "Maladies systémiques: SEP (NORB), lupus, sarcoïdose, drépanocytose, migraine avec aura, vascularites"
+    - |-
+      Médicaments:
+      • corticoïdes au long cours → cataracte, glaucome
+      • {r:chloroquine/hydroxychloroquine} → maculopathie
+      • {r:éthambutol, amiodarone} → névrite optique
+      • anticoagulants → hémorragie vitréenne
+      • contraception orale + tabac → thrombophilie (OVCR)
+
+# source: line 492-507 (Red flags) + lignes 64-87 (signes neuro) + clinical pivots
+red_flags:
+  - description: "{e:> 50 ans} + {s:céphalée temporale} nouvelle + {s:claudication mâchoire} ± artère temporale indurée [VÉRIFIER:seuil VS/CRP exact pour Horton selon EULAR 2024]"
+    dx_suspecte: "{p:Artérite à cellules géantes (Horton / NOIAA artéritique)}"
+    action: "{t:VS + CRP} STAT (VS > 50 mm/h, souvent > 100); {r:méthylprednisolone IV 500-1000 mg/j × 3 j} IMMÉDIAT puis prednisone 1 mg/kg PO; biopsie artère temporale < 15 j (n'invalide pas si corticoïdes déjà débutés); IPP + Ca/Vit D"
+  - description: "{s:Cécité monoculaire brutale} indolore + {s:RAPD positif} + {s:tache rouge cerise} au FO"
+    dx_suspecte: "{p:Occlusion de l'artère centrale de la rétine (OACR)}"
+    action: "URGENCE < 90 min: {r:massage oculaire intermittent}, {r:acétazolamide 500 mg IV}, paracentèse chambre antérieure; bilan embolique COMPLET (FA, carotides, ETT/ETO) + IRM cérébrale (80 % d'origine embolique); aspirine 100 mg"
+  - description: "{s:Amaurose fugace} (< 60 min) avec récupération COMPLÈTE = équivalent AIT visuel"
+    dx_suspecte: "{p:AIT rétinien} (sténose carotidienne, embolie cardiaque)"
+    action: "Bilan AVC complet: {t:IRM cérébrale + diffusion + angio-IRM}, {t:Doppler TSA}, ECG + Holter, ETT/ETO; {r:aspirine 250 mg charge} puis 100 mg/j + statine haute intensité; pas de retour à domicile sans bilan"
+  - description: "{s:Phosphènes} + {s:myodésopsies brutales} + {s:rideau noir} progressif ± myopie forte ou traumatisme"
+    dx_suspecte: "{p:Décollement de rétine}"
+    action: "Avis ophtalmo URGENT; repos strict (position selon décollement); chirurgie vitréo-rétinienne < 24-72 h (urgence absolue si macula encore on)"
+  - description: "{s:Œil rouge dur} (palpation bi-digitale) + {s:douleur intense} + {s:halos colorés} + semi-mydriase aréactive + nausées/vomissements"
+    dx_suspecte: "{p:Glaucome aigu par fermeture d'angle}"
+    action: "{r:Acétazolamide 500 mg IV} + {r:mannitol 20 % 250 mL IV} si PIO > 50; collyres ({r:timolol 0,5 %, brimonidine, dorzolamide}); pilocarpine 2 % APRÈS baisse PIO; iridotomie YAG dès que possible; NE PAS DILATER"
+  - description: "{s:Amaurose bilatérale brutale} ± signes neurologiques (hémianopsie, ataxie, dysarthrie)"
+    dx_suspecte: "{p:AVC vertébro-basilaire / occipital bilatéral}"
+    action: "Stroke alert: {t:IRM diffusion + angio-IRM} URGENT; thrombolyse IV ({r:altéplase}) si < 4,5 h et critères remplis [VÉRIFIER:fenêtre thrombectomie 6-24 h selon protocole CHUV/HUG]; USI neurovasculaire"
+  - description: "{s:Douleur rétro-orbitaire} à la mobilisation oculaire + {s:dyschromatopsie} + RAPD + sujet jeune (femme 20-40 ans)"
+    dx_suspecte: "{p:Névrite optique rétrobulbaire (NORB)} → SEP possible"
+    action: "{r:Méthylprednisolone IV 1 g/j × 3 j} puis prednisone PO 1 mg/kg × 11 j décroissance; {t:IRM cérébrale + médullaire avec gadolinium} (lésions démyélinisantes); avis neurologie"
+
+# source: line 179-296 (Examen clinique)
+examen:
+  general:
+    - "Signes vitaux: TA {s:aux 2 bras} (asymétrie → dissection aortique/carotidienne), FC ({p:FA} = embolie), T° (fièvre → {p:Horton}, endocardite), glycémie capillaire si diabète"
+    - "Inspection générale: état hémodynamique, signes de choc, signes de déshydratation"
+    - "Auscultation cardiaque: rythme irrégulier ({p:FA}), souffle (valvulopathie emboligène)"
+    - "Auscultation carotidienne: {s:souffle} = sténose carotidienne (source embolique)"
+    - "Palpation artères temporales si {e:> 50 ans}: induration, cordons durs, absence de pouls, douleur"
+  cible:
+    - |-
+      {t:Acuité visuelle} (PRIORITÉ ABSOLUE — chaque œil séparément):
+      • de loin (Snellen/Monoyer 10/10)
+      • de près (Parinaud P2-P14)
+      • avec et SANS correction habituelle
+      • {t:trou sténopéique} (amélioration → vice de réfraction)
+      • si basse: compte doigts à X m / perception mouvements / perception lumineuse / cécité totale
+    - "Inspection œil externe: paupières (ptosis → {p:CBH dissection}, III); position globe (exophtalmie); conjonctive (hyperhémie ciliaire); cornée (œdème); chambre antérieure (Tyndall); iris (synéchies)"
+    - |-
+      {t:Examen pupillaire} ESSENTIEL:
+      • taille, symétrie (mydriase III, myosis CBH)
+      • réflexe photomoteur direct + consensuel
+      • {t:RAPD (Marcus Gunn)} test du balancement → positif = atteinte voie afférente (NORB, NOIAA, OACR)
+    - "Tonus oculaire: palpation bi-digitale ({s:œil dur} = glaucome aigu); tonométrie si disponible (N: 10-21 mmHg)"
+    - |-
+      {t:Fond d'œil} APRÈS dilatation (CI si suspicion glaucome aigu):
+      • papille: pâle (atrophie), œdème (NOIAA, HTIC), excavation (cup/disc > 0,7 = glaucome)
+      • {p:OACR}: rétine blanche ischémique + {s:tache rouge cerise} maculaire
+      • {p:OVCR}: hémorragies en flammèches diffuses + œdème papillaire (aspect 'soleil couchant')
+      • {p:NOIAA}: œdème papillaire pâle sectoriel
+      • macula: drusen (DMLA), exsudats, hémorragies, œdème
+      • périphérie: décollement (soulèvement grisâtre), déchirures
+    - |-
+      {t:Champ visuel} par confrontation (4 quadrants chaque œil):
+      • {s:hémianopsie homonyme} → AVC occipital
+      • {s:hémianopsie hétéronyme bitemporale} → lésion chiasmatique
+      • {s:scotome central} → maculopathie, NOIA
+      • {s:déficit altitudinal} → NOIAA
+      • rétrécissement concentrique → glaucome évolué
+    - "Oculomotricité: 9 directions, diplopie, nystagmus, paralysie III (ptosis + mydriase), IV, VI"
+    - |-
+      Examen neurologique ({t:Cincinnati FAST}):
+      • F (face): asymétrie faciale
+      • A (arms): chute d'un bras à 10 sec
+      • S (speech): dysarthrie/aphasie
+      • T (time): heure de début EXACTE
+      • + force 4 membres, sensibilité, ROT, Babinski, coordination (doigt-nez, talon-genou)
+
+# source: line 137-152 (DD top5) + clinical pivots (urgences)
+dd_top5:
+  - dx: "{p:Occlusion artère centrale rétine (OACR)}"
+    indices: "{s:Cécité monoculaire brutale} indolore, {s:RAPD positif}, {s:tache rouge cerise} maculaire au FO, FRCV/{p:FA}/sténose carotidienne; fenêtre thérapeutique {r:< 90 min}; étiologie embolique 80 %"
+    freq: "rare (1-10/100 000/an) mais URGENCE ABSOLUE — équivalent AVC rétinien"
+  - dx: "{p:Artérite à cellules géantes (Horton / NOIAA artéritique)}"
+    indices: "{e:> 50 ans}, {s:céphalée temporale}, {s:claudication mâchoire}, artère temporale indurée, VS > 50 mm/h (souvent > 100), CRP très élevée, déficit altitudinal, œdème papillaire pâle; risque {s:cécité bilatérale} si non traité"
+    freq: "rare (15-30/100 000 > 50 ans) — urgence (corticoïdes IMMÉDIATS)"
+  - dx: "{p:Décollement de rétine}"
+    indices: "Triade: {s:phosphènes} + {s:myodésopsies brutales} + {s:rideau noir} progressif; myopie forte > -6 D, traumatisme, chirurgie oculaire récente; FO: soulèvement grisâtre, déchirures"
+    freq: "fréquent (1/10 000/an) — chirurgie < 24-72 h"
+  - dx: "{p:Glaucome aigu par fermeture d'angle}"
+    indices: "{s:Œil rouge dur} + douleur intense + {s:halos colorés} + nausées/vomissements + semi-mydriase aréactive; {e:> 50 ans}, hypermétropie; PIO > 40-50 mmHg"
+    freq: "rare mais urgence (cécité en heures si non traité)"
+  - dx: "{p:AVC vertébro-basilaire / occipital} (incluant {p:amaurose fugace} = AIT rétinien)"
+    indices: "{s:Amaurose fugace < 60 min} (équivalent AIT, bilan AVC obligatoire); ou {s:amaurose bilatérale brutale} + signes neuro (hémianopsie, ataxie, dysarthrie); FRCV majeurs"
+    freq: "AIT rétinien fréquent post-50 ans; AVC occipital bilatéral plus rare"
+
+# source: line 344-490 (Prise en charge)
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — toute amaurose brutale = urgence ophtalmo + neuro jusqu'à preuve du contraire; héliporter/transfert si centre spécialisé requis"
+    - "{p:OACR}: {r:massage oculaire} intermittent 10 sec ON/OFF + position déclive + {r:acétazolamide 500 mg IV} + paracentèse chambre antérieure (centre expert); fibrinolyse intra-artérielle si < 12 h (centres experts) [VÉRIFIER:disponibilité fibrinolyse intra-artérielle CHUV/HUG]"
+    - "{p:Horton}/NOIAA artéritique: {r:méthylprednisolone IV 500-1000 mg/j × 3 j} IMMÉDIAT (avant biopsie) + prednisone PO 1 mg/kg/j relais + {r:aspirine 100 mg/j} + IPP + Ca/Vit D"
+    - "{p:NORB} (suspicion SEP): {r:méthylprednisolone IV 1 g/j × 3 j} puis prednisone PO 1 mg/kg × 11 j décroissance rapide; IRM cérébrale gadolinium dans la foulée"
+    - "{p:Glaucome aigu}: {r:acétazolamide 500 mg IV} + {r:mannitol 20 % 250 mL IV} si PIO > 50 + collyres ({r:timolol 0,5 % × 2/j, brimonidine 0,15 %, dorzolamide 2 %}); {r:pilocarpine 2 %} APRÈS baisse PIO; iridotomie YAG urgente; NE PAS dilater"
+    - "{p:Décollement rétine}: repos strict, position selon localisation, éviter efforts; chirurgie vitréo-rétinienne (vitrectomie + tamponnement / cryothérapie / cerclage) < 24-72 h selon atteinte maculaire"
+    - "{p:Amaurose fugace}/AIT rétinien: {r:aspirine 250 mg charge puis 100 mg/j} + statine haute intensité + contrôle TA; pas de retour à domicile sans bilan AVC complet"
+  orientation:
+    - "Hospitalisation ophtalmo urgente: TOUTE amaurose brutale, OACR, décollement rétine, glaucome aigu, NORB, NOIAA"
+    - "Hospitalisation neurovasculaire (USI/stroke unit): amaurose fugace, amaurose bilatérale brutale, signes neurologiques associés"
+    - "Hospitalisation médecine interne: {p:Horton} confirmé (corticothérapie haute dose + surveillance)"
+    - "Consultation ophtalmo programmée: amaurose progressive (cataracte, DMLA, glaucome chronique, rétinopathie diabétique)"
+    - "Consignes retour aux urgences: aggravation brutale, atteinte œil controlatéral, signes neurologiques nouveaux, douleur intense"
+
+# source: line 298-342 (Examens complémentaires)
+examens_complementaires:
+  - "{t:OCT (tomographie cohérence optique)}: œdème maculaire, atteinte papille, décollement séreux; non invasif, rapide"
+  - "{t:IRM cérébrale + diffusion + angio-IRM intracrânienne et cervicale}: tout AVC/AIT, NORB, suspicion fosse postérieure, amaurose bilatérale"
+  - "{t:VS + CRP} STAT: TOUTE amaurose > 50 ans (Horton); VS > 50 mm/h très évocatrice, > 100 hautement pathognomonique [VÉRIFIER:place de l'IL-6 selon recommandations EULAR récentes]"
+  - "{t:Doppler TSA + ECG + Holter + ETT/ETO}: bilan embolique (OACR, amaurose fugace, AIT rétinien) — recherche sténose carotidienne, FA paroxystique, source cardio-embolique"
+  - "Biopsie artère temporale (gold standard {p:Horton}): segment 3-5 cm avec anastomoses, < 15 j; ne pas retarder corticoïdes en attendant"
+  - "Bilan glycémique + lipidique + créatinine: FRCV systématique; HbA1c si diabète (rétinopathie diabétique)"
+
+# source: line 501-506 (critères hospitalisation)
+criteres_hospitalisation:
+  - "TOUTE perte de vision brutale (< 24 h) jusqu'à preuve du contraire"
+  - "Suspicion {p:Horton} (risque bilatéralisation en heures-jours)"
+  - "{p:Glaucome aigu}, {p:décollement rétine}, {p:OACR}, {p:NORB}, {p:NOIAA}"
+  - "Signes neurologiques associés ({p:AVC}, AIT rétinien) — stroke unit"
+  - "{s:Amaurose fugace} chez patient sans bilan préalable (équivalent AIT)"
+
+# source: line 518-524 (pièges) + clinical pivots
+pieges:
+  - "Retarder les {r:corticoïdes IV} en attendant la biopsie d'artère temporale ({p:Horton}) → risque cécité bilatérale en heures; la biopsie reste contributive jusqu'à 15 j après début corticoïdes"
+  - "Banaliser une {s:amaurose fugace} (< 60 min, récupération complète) = équivalent AIT visuel → bilan AVC OBLIGATOIRE (IRM, Doppler, ECG, ETT)"
+  - "Ne pas tester le {t:RAPD (Marcus Gunn)} → manquer une atteinte du nerf optique (NORB, NOIAA, OACR) chez patient avec AV résiduelle"
+  - "{r:Dilater} un patient avec suspicion de glaucome aigu (œil rouge dur, halos) → majore la fermeture d'angle et l'hypertonie"
+  - "Méconnaître une {p:OACR} (fenêtre thérapeutique {r:< 90 min}) en envoyant le patient en consultation programmée plutôt qu'urgence ophtalmo immédiate"
+
+cartes_liees:
+  - SYS-NEU
+  - SYS-OPH
+  - SSP-NEU-04

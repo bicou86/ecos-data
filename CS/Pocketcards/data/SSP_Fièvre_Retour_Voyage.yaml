@@ -1,0 +1,202 @@
+id: SSP-INF-03
+type: ssp
+title: Fièvre au retour de voyage
+discipline: Infectio
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Fièvre_Retour_Voyage.md
+
+# source: lines 15-177 (anamnèse voyage détaillée)
+anamnese:
+  socrates:
+    - |-
+      Site/Onset (fièvre):
+      • début brutal (dengue, paludisme) ou progressif (typhoïde)?
+      • première fois ou récurrence (paludisme P. vivax/ovale)?
+    - |-
+      Character:
+      • continue (typhoïde) / intermittente (paludisme) / récurrente / périodique (tertiaire, quartaine)?
+      • frissons solennels (paludisme), sueurs nocturnes (TB, VIH)?
+    - "Radiation/symptômes associés: céphalées rétro-orbitaires (dengue), myalgies, arthralgies (chikungunya)"
+    - |-
+      Time — délai retour-fièvre = PIVOT:
+      • court (< 14 j): paludisme, dengue, chikungunya, typhoïde, leptospirose
+      • moyen (14j-6 mois): paludisme P. vivax/ovale, hépatites A/E, amibiase, schistosomiase aiguë
+      • long (> 6 mois): TB, paludisme P. ovale tardif, leishmaniose viscérale, VIH, hépatites B/C
+    - |-
+      Exacerbating/contexte:
+      • efforts physiques (déshydratation), exposition vectorielle
+      • repas à risque, baignade eau douce avant épisode
+    - "Relieving: antipyrétiques (réponse paracétamol), automédication ATB (interfère hémocultures)"
+    - "Severity: T° max, retentissement (asthénie, anorexie, perte de poids), critères sepsis (qSOFA, NEWS)"
+  specifique:
+    - |-
+      {s:Itinéraire géographique précis} (PIVOT diagnostique):
+      • pays + régions traversés (Afrique sub-saharienne, Asie SE, Amérique latine, Caraïbes)
+      • urbain vs rural, altitude (> 2500 m = pas de paludisme)
+      • saison sèche vs pluies (vecteurs)
+    - |-
+      Dates et chronologie:
+      • départ-retour, durée dans chaque zone
+      • délai retour → premier symptôme (calcule incubation)
+      • escales prolongées (≥ 24 h compte)
+    - |-
+      Expositions à risque:
+      • baignade eau douce → {p:schistosomiase}, {p:leptospirose}
+      • piqûres insectes (jour = dengue/chikungunya; nuit = paludisme), tiques → {p:rickettsioses}
+      • alimentation à risque (crudités, eau, glaçons, lait non pasteurisé)
+      • rapports sexuels non protégés → {p:VIH primo-infection}, {p:hépatites B/C}
+      • soins de santé locaux, drogues IV, tatouages
+      • contact animaux (rage, morsures), spéléologie ({p:histoplasmose})
+    - |-
+      {r:Chimioprophylaxie antipalustre}:
+      • molécule (atovaquone-proguanil, méfloquine, doxycycline)
+      • observance + début/fin (échec possible: résistances ou mauvaise observance — NE rassure PAS)
+    - |-
+      Vaccinations reçues:
+      • fièvre jaune (obligatoire certaines zones), typhoïde, hépatites A/B
+      • encéphalite japonaise, méningocoque (pèlerinage)
+      • DTP-Polio à jour
+    - "[VÉRIFIER: incubations exactes — varie selon souche et hôte; références CDC/OMS/Sanofi Pasteur Tropical Medicine]"
+  atcd:
+    - "{e:Immunodépression} (VIH, chimiothérapie, biothérapies, corticoïdes ≥ 20 mg/j) → tableaux atypiques"
+    - "{e:Splénectomie} ou hyposplénisme → risque paludisme grave + infections encapsulés"
+    - "{e:Grossesse} → paludisme grave +++ (P. falciparum), risque materno-fœtal, CI à certains antipalustres"
+    - "Comorbidités: diabète, cardiopathie, IRC (impact gravité + choix ATB)"
+    - "ATCD de voyages, infections tropicales antérieures, résidence prolongée zone endémique"
+    - "Allergies médicamenteuses (sulfamides → CI cotrimoxazole; quinine → cinchonisme)"
+
+# source: lines 183-253 (red flags et examen) + clinical pivots
+red_flags:
+  - description: "Fièvre + retour {e:zone endémique paludisme} (Afrique++) — quelle que soit la prophylaxie"
+    dx_suspecte: "{p:Paludisme à P. falciparum}"
+    action: "{t:Frottis sanguin + goutte épaisse + TDR} EN URGENCE; si négatif, répéter {r:3 examens / 12 h}; ne PAS attendre pour traiter si forte suspicion clinique"
+  - description: "Paludisme confirmé + ≥ 1 critère: {s:troubles conscience}, convulsions, ictère, IRA, ARDS, hypoglycémie, anémie sévère, parasitémie > 4 %"
+    dx_suspecte: "{p:Paludisme grave (P. falciparum)}"
+    action: "{r:Artésunate IV 2.4 mg/kg} à H0, H12, H24 puis /24h; transfert USI; relais oral artéméther-luméfantrine à J3 si amélioration"
+  - description: "{s:Hémorragies muqueuses} (épistaxis, gingivorragies, métrorragies) + thrombopénie + retour zone dengue ± défervescence J3-J7"
+    dx_suspecte: "{p:Dengue sévère} (extravasation plasma, choc)"
+    action: "Hospitalisation, monitoring Ht/plaquettes /6-12 h; remplissage {r:cristalloïdes 5-7 mL/kg/h}; PROSCRIRE AINS/aspirine; transfusion plaquettes si saignement actif"
+  - description: "Fièvre + {s:éruption pétéchiale/purpurique} + signes hémorragiques + retour Afrique de l'Ouest/Est"
+    dx_suspecte: "{p:Fièvre hémorragique virale (Ebola, Marburg, Lassa)}"
+    action: "ISOLEMENT STRICT + EPI niveau 3 IMMÉDIAT; alerte santé publique (médecin cantonal); transfert centre référence; traitement symptomatique + ribavirine selon agent"
+  - description: "Fièvre + {s:bradycardie relative} (dissociation pouls-T°) + douleur abdo + diarrhée/constipation + taches rosées + Asie SE/Afrique"
+    dx_suspecte: "{p:Fièvre typhoïde} (S. typhi/paratyphi)"
+    action: "{r:Ceftriaxone 2 g IV/24h} × 10-14 j (ciprofloxacine si non-Asie SE — résistances); hémocultures × 3; isolement contact; déclaration obligatoire"
+  - description: "Fièvre + {s:ictère} + IRA + injection conjonctivale + myalgies + baignade eau douce / contact animaux"
+    dx_suspecte: "{p:Leptospirose grave (syndrome de Weil)}"
+    action: "{r:Ceftriaxone 2 g IV/24h} × 7 j (ou doxycycline 100 mg × 2/j); support rénal (dialyse selon); surveillance hémorragie pulmonaire"
+  - description: "Fièvre + {s:signes méningés} ou troubles de conscience"
+    dx_suspecte: "{p:Neuropaludisme}, {p:méningite bactérienne}, encéphalite arbovirale"
+    action: "Frottis/GE + {t:CT cérébral} puis PL; {r:ceftriaxone 2 g IV + dexaméthasone 10 mg IV} empiriques avant attente résultats; artésunate IV si paludisme"
+
+# source: lines 180-253 (examen clinique)
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: T°, TA (deux bras), FC (dissociation pouls-T° → typhoïde), FR, SpO2, GCS"
+    - "{t:qSOFA / NEWS-2} pour identifier sepsis; TRC, marbrures, diurèse (signes choc)"
+    - "État général: toxique? prostré? déshydratation? amaigrissement (TB, VIH)?"
+    - "DÉSHABILLER complètement pour inspection cutanée et muqueuse exhaustive"
+  cible:
+    - |-
+      {s:Examen cutané + muqueux} (tronc, membres, paumes, plantes, conjonctives):
+      • maculopapuleux: dengue, chikungunya, typhoïde, primo-VIH
+      • pétéchies/purpura: fièvres hémorragiques, méningococcémie, dengue sévère
+      • escarre d'inoculation (tache noire) → {p:rickettsiose}
+      • taches rosées (rose spots, tronc, J5-J10) → {p:typhoïde}
+      • ulcères/nodules → leishmaniose, mycobactéries atypiques
+    - |-
+      Adénopathies (cervicales, axillaires, inguinales, épitrochléennes):
+      • généralisées: EBV/CMV, primo-VIH, toxoplasmose
+      • localisée + escarre: rickettsioses, trypanosomiase
+    - "ORL: angine (EBV/CMV), gingivorragies (dengue), aphtose"
+    - "Cardiovasculaire: souffle nouveau (endocardite tropicale), signes IC (paludisme grave)"
+    - |-
+      Pulmonaire:
+      • foyer (pneumonie banale, pneumocystose si VIH)
+      • épanchement (dengue, TB)
+      • OAP (paludisme grave, leptospirose)
+    - |-
+      Abdomen — PIVOT:
+      • {s:splénomégalie} → paludisme, typhoïde, leishmaniose viscérale, EBV
+      • hépatomégalie → hépatites, paludisme, dengue, schistosomiase
+      • ascite (extravasation dengue), défense (amibiase, perforation typhique J15-J21)
+    - |-
+      Neurologique:
+      • conscience (neuropaludisme, encéphalite, méningite)
+      • signes méningés (Kernig, Brudzinski)
+      • déficits focaux, ROT, RCP
+
+# source: lines 326-355 (DD par incubation) + pivots cliniques
+dd_top5:
+  - dx: "{p:Paludisme} (P. falciparum surtout — TOUJOURS éliminer en 1er)"
+    indices: "Retour Afrique sub-saharienne++; fièvre ± périodique, frissons, sueurs, splénomégalie, thrombopénie; incubation 7-30j (P. vivax/ovale jusqu'à années); confirmé par {t:frottis + GE + TDR}"
+    freq: "fréquent voyageurs retour zone endémique; mortalité élevée si retard (P. falciparum)"
+  - dx: "{p:Dengue}"
+    indices: "Asie SE, Amérique latine, Caraïbes; fièvre brutale + céphalées rétro-orbitaires + myalgies + thrombopénie; rash J3-J5; phase critique défervescence J4-J6 (extravasation); {t:Ag NS1 (J1-J7), PCR, IgM (J5+)}"
+    freq: "fréquent; risque vital si forme sévère (1-5 %)"
+  - dx: "{p:Fièvre typhoïde / paratyphoïde}"
+    indices: "Asie SE (Inde), Afrique; fièvre continue progressive, tuphos, douleur abdo, diarrhée/constipation, bradycardie relative, taches rosées, splénomégalie; {t:hémocultures (sens. ↓ avec semaine), sérologie Widal limitée}"
+    freq: "fréquent retour Asie SE; risque perforation J15-J21"
+  - dx: "{p:Hépatites virales aiguës A et E}"
+    indices: "Toutes zones tropicales (eau/aliments souillés); incubation 15-50j; phase pré-ictérique pseudo-grippale puis ictère, cytolyse marquée; {t:IgM VHA, IgM VHE}; E gravissime chez femme enceinte"
+    freq: "fréquent; A bénin, E sévère si grossesse"
+  - dx: "{p:Infections cosmopolites banales} (IU, pneumonie, gastro virale, grippe)"
+    indices: "Ne PAS oublier: les voyageurs ont aussi des infections courantes! anamnèse + examen + {t:BU, RX thorax, hémocultures, test grippe}; diagnostic d'élimination après écartement paludisme"
+    freq: "très fréquent — souvent diagnostic final"
+
+# source: lines 359-411 (prise en charge)
+pec_initiale:
+  immediate:
+    - "1. STOP — éliminer {p:paludisme} en priorité: {t:frottis + GE + TDR} IMMÉDIAT (avant tout autre bilan), répéter {r:3 fois sur 12 h} si négatif et suspicion forte"
+    - |-
+      2. Bilan systématique en urgence:
+      • {t:FSC + plaquettes} (thrombopénie → palu/dengue)
+      • {t:CRP, créatinine, ionogramme, bilan hépatique, LDH}
+      • {t:Hémocultures × 2-3 paires} AVANT toute ATB
+      • {t:BU + ECBU}, RX thorax, β-hCG si femme
+    - |-
+      3. Traitements ciblés (selon orientation):
+      • {p:Paludisme P. falciparum non compliqué}: {r:artéméther-luméfantrine (Riamet®) 4 cp × 2/j × 3 j} OU atovaquone-proguanil (Malarone®)
+      • {p:Paludisme grave}: {r:artésunate IV 2.4 mg/kg} H0/H12/H24 puis /24h, USI
+      • {p:Typhoïde}: {r:ceftriaxone 2 g IV/24h × 10-14 j} (ciprofloxacine 500 mg × 2/j si zone sensible)
+      • {p:Rickettsiose suspectée}: {r:doxycycline 200 mg/j × 7 j} (traitement empirique précoce améliore pronostic)
+      • {p:Dengue}: symptomatique — {r:paracétamol uniquement}; CI AINS/aspirine; remplissage si signes alarme
+    - "4. Sepsis/choc fébrile: remplissage {r:NaCl 30 mL/kg en 1 h}, hémocultures avant ATB, {r:ceftriaxone 2 g IV + métronidazole 500 mg IV} empirique, USI"
+    - "5. Isolement si suspicion forme contagieuse (fièvre hémorragique, méningococcémie, TB pulmonaire bacillifère, varicelle)"
+    - "[VÉRIFIER: posologies pédiatriques et adaptation grossesse — consulter Vidal/CDC ou InfectoTropMed CHUV]"
+  orientation:
+    - "Hospitalisation si critères de gravité, paludisme P. falciparum (même non compliqué initialement), typhoïde, dengue avec signes alarme, suspicion fièvre hémorragique (isolement)"
+    - "Surveillance ambulatoire possible si patient stable, étiologie identifiée bénigne (dengue simple, gastro), réseau social sûr + consigne de retour"
+    - "Consigne de retour: aggravation, signes hémorragiques, troubles conscience, défervescence avec malaise (dengue J4-J6), persistance fièvre > 5 j"
+    - "Avis InfectoTropMed (CHUV/HUG) si: paludisme grave, FHV suspectée, immunodépression, retour zone à risque épidémique, diagnostic incertain"
+    - "[VÉRIFIER: protocole local CHUV/HUG pour FHV et seuils de transfert centre référence]"
+
+# source: lines 257-323 (stratégie diagnostique)
+examens_complementaires:
+  - "{t:Frottis sanguin + goutte épaisse + TDR paludisme}: TOUJOURS en 1ère intention; répéter 3× / 12 h si négatif"
+  - "{t:FSC + plaquettes + CRP + créatinine + bilan hépatique + LDH}: bilan systématique; thrombopénie évoque palu/dengue; cytolyse → hépatite/leptospirose/palu"
+  - "{t:Hémocultures × 2-3 paires}: typhoïde, sepsis, endocardite — AVANT toute ATB"
+  - "Tests étiologiques ciblés selon contexte: {t:Ag NS1 + PCR + IgM dengue}, sérologies hépatites (A, B, C, E), IgM chikungunya/zika, sérologie/PCR rickettsioses, leptospirose, schistosomiase"
+  - "{t:Coproculture + parasitologie selles × 3}: si diarrhée (salmonelles, shigelles, amibes, giardia)"
+  - "{t:RX thorax + BU + ECBU}: foyers cosmopolites; {t:PL après CT} si signes méningés; {t:CT/IRM cérébrale} si neuropaludisme suspecté"
+
+criteres_hospitalisation:
+  - "Paludisme P. falciparum (même non compliqué initialement) — surveillance 48-72 h; paludisme grave → USI"
+  - "Critères sepsis (qSOFA ≥ 2), instabilité hémodynamique, troubles de conscience"
+  - "Dengue avec signes d'alarme (douleur abdo, vomissements persistants, hémorragie muqueuse, Ht↑, plaquettes < 100 G/L)"
+  - "Suspicion fièvre hémorragique virale (isolement strict + transfert centre référence)"
+  - "Fièvre typhoïde, méningite/encéphalite, hépatite fulminante (INR > 1.5 + encéphalopathie), grossesse fébrile non étiquetée"
+
+pieges:
+  - "Banaliser une fièvre comme 'grippe' SANS éliminer {p:paludisme} — la chimioprophylaxie ne le rend PAS impossible (résistances, mauvaise observance, P. vivax/ovale tardif)"
+  - "S'arrêter à un seul frottis négatif: répéter {r:3 examens / 12 h} si forte suspicion clinique avant d'exclure"
+  - "Prescrire {r:AINS / aspirine} si dengue (risque hémorragique +++); paracétamol uniquement"
+  - "Méconnaître la {p:phase critique de la dengue} à la défervescence (J4-J6): extravasation plasma → choc; surveiller Ht/plaquettes"
+  - "Oublier les pathologies cosmopolites (IU, pneumonie, grippe) ET la déclaration obligatoire (paludisme d'importation, fièvre jaune, choléra, fièvres hémorragiques)"
+
+cartes_liees:
+  - SYS-INF
+  - SSP-INF-01

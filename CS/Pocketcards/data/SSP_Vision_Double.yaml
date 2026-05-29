@@ -1,0 +1,194 @@
+id: SSP-OPH-04
+type: ssp
+title: Vision double (diplopie)
+discipline: Ophtalmo
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Vision_Double.md
+  - Neuro-ophtalmologie - SFO 2021
+  - Myasthénie - PNDS 2021
+
+# source: MD lines 11-36
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • {s:diplopie horizontale} (III, VI) / verticale (III, IV) / oblique (combinaison)?
+      • monoculaire ({e:un œil fermé persiste} = 5 %) vs binoculaire ({e:un œil fermé disparaît} = 95 %)?
+    - |-
+      Onset:
+      • {s:brutal} (< min) → AVC, {p:anévrysme}, dissection?
+      • progressif (j-sem) → tumeur, {p:Basedow}?
+      • {s:fluctuant} aggravation vespérale → {p:myasthénie}?
+    - "Character: distance entre les 2 images fixe ou variable selon direction du regard?"
+    - "Radiation: {s:position compensatrice de la tête} (torticolis), regard évitant la diplopie?"
+    - |-
+      Time:
+      • durée (min / h / j / permanent)
+      • intermittent vs constant
+      • {s:aggravation fin de journée} ou à l'effort = {p:MG}?
+    - |-
+      Exacerbating:
+      • effort physique, chaleur ({p:SEP — phénomène d'Uhthoff})
+      • regard latéral / vers le bas (escaliers = IV)
+      • stress, fatigue?
+    - "Relieving: repos, occlusion d'un œil, {t:test au glaçon} (froid améliore MG)?"
+    - "Severity: gêne fonctionnelle, conduite, chutes, impact activités?"
+  specifique:
+    - |-
+      Signes oculomoteurs associés:
+      • {s:ptosis} (III, MG, Horton)
+      • {s:mydriase} (III compressif = anévrysme)
+      • myosis ({p:Claude-Bernard-Horner} = dissection)
+      • {s:exophtalmie} pulsatile ({p:fistule carotido-caverneuse})?
+    - |-
+      Signes neurologiques:
+      • {s:céphalée brutale} (HSA, anévrysme)
+      • vertiges / ataxie / dysarthrie (tronc cérébral)
+      • troubles sensitifs faciaux (V)
+      • déficit focal ({p:AVC vertébro-basilaire})?
+    - |-
+      Signes systémiques de MG:
+      • {s:dysphagie / dysphonie} bulbaire
+      • faiblesse proximale fluctuante
+      • fatigabilité musculaire générale? [VÉRIFIER: distinguer MG oculaire pure vs généralisée]
+    - "Signes thyroïdiens: tachycardie, tremblement, amaigrissement, thermophobie, goitre ({p:Basedow})?"
+    - "{e:> 50 ans}: céphalée temporale + claudication mâchoire + hyperesthésie du cuir chevelu → {p:Horton}?"
+    - "Traumatisme crânien récent (IV très exposé) ou manipulation cervicale (dissection)?"
+  atcd:
+    - "Diabète, HTA — première cause de mononeuropathie III/VI ischémique > 50 ans"
+    - "{p:Dysthyroïdie} (Basedow), maladies auto-immunes (MG, SEP, lupus)"
+    - "Cancer (métastases base du crâne, paranéoplasique), neurofibromatose"
+    - "ATCD: épisodes neurologiques antérieurs (SEP poussées-rémissions), chirurgie strabisme/cataracte, infection récente ({p:Miller-Fisher})"
+    - |-
+      Médicaments:
+      • antiépileptiques (phénytoïne, carbamazépine — toxicité)
+      • {r:aminosides} (bloc neuromusculaire — démasque MG)
+      • lithium, statines
+      • myorelaxants
+
+# source: MD lines 110-128, 380-392 + pivots cliniques
+red_flags:
+  - description: "{s:Paralysie du III DOULOUREUSE} + {s:mydriase} + ptosis (atteinte intrinsèque ET extrinsèque)"
+    dx_suspecte: "{p:Anévrysme de l'artère communicante postérieure}"
+    action: "{t:Angio-TDM ou angio-IRM} URGENTE; neurochirurgie/neuroradiologie interventionnelle d'emblée"
+  - description: "Diplopie brutale + {s:ataxie / dysarthrie / vertiges} ± syndrome alterne"
+    dx_suspecte: "{p:AVC vertébro-basilaire / tronc cérébral}"
+    action: "{t:IRM cérébrale diffusion} urgente; pathway AVC, {r:thrombolyse IV} si < 4h30 [VÉRIFIER: fenêtres locales CHUV/HUG]"
+  - description: "{s:Ptosis et diplopie fluctuants} aggravation vespérale + faiblesse bulbaire (dysphagie, dysphonie, dyspnée)"
+    dx_suspecte: "{p:Crise myasthénique}"
+    action: "Hospitalisation USI; {t:Ac anti-RACh + anti-MuSK}, {r:Ig IV 0,4 g/kg/j × 5 j ou plasmaphérèse}; surveiller capacité vitale"
+  - description: "{e:> 50 ans}: diplopie nouvelle + céphalée temporale + claudication mâchoire ± baisse AV"
+    dx_suspecte: "{p:Artérite à cellules géantes (Horton)}"
+    action: "{t:VS / CRP} STAT; {r:prednisone 1 mg/kg/j PO} immédiate; biopsie artère temporale dans 15 j"
+  - description: "{s:Exophtalmie pulsatile} + souffle oculaire + chémosis (souvent post-traumatique)"
+    dx_suspecte: "{p:Fistule carotido-caverneuse}"
+    action: "{t:Angio-IRM} ou angio-TDM urgente; neuroradiologie interventionnelle (embolisation)"
+  - description: "Ophtalmoplégie internucléaire (adduction limitée + nystagmus controlatéral) chez {e:adulte jeune}"
+    dx_suspecte: "{p:SEP — atteinte du faisceau longitudinal médian}"
+    action: "{t:IRM cérébrale + médullaire} + PL; {r:méthylprednisolone 1 g/j IV × 3-5 j} si poussée [VÉRIFIER: critères McDonald 2017]"
+
+# source: MD lines 176-241
+examen:
+  general:
+    - "Signes vitaux: TA (les deux bras — asymétrie = dissection), FC, T°, glycémie capillaire"
+    - "{t:Acuité visuelle} chaque œil séparément ± correction (élimine cause monoculaire grossière)"
+    - "Inspection: ptosis, exophtalmie/énophtalmie, asymétrie pupillaire, position de la tête"
+    - "{t:Test d'occlusion alternée}: diplopie disparaît un œil fermé = BINOCULAIRE (95 %) → cause neuro-musculaire"
+  cible:
+    - |-
+      {t:Examen oculomoteur 9 positions du regard}:
+      • position primaire + 6 cardinales + extrêmes haut/bas
+      • œil hypoactif (parésie) / hyperactif controlatéral
+      • limitation mécanique vs paralytique
+      • nystagmus, dissociation des yeux
+    - |-
+      Sémiologie par nerf:
+      • III: œil en dehors et en bas + ptosis + mydriase (extrinsèque)
+      • IV: diplopie verticale/oblique, tête penchée côté OPPOSÉ, gêne escaliers
+      • VI: œil en dedans (convergent), diplopie horizontale max en latéral
+    - |-
+      Examen pupillaire +++:
+      • taille, symétrie, RPM direct/consensuel
+      • mydriase aréactive avec III douloureux = {p:anévrysme} jusqu'à preuve du contraire
+      • respect pupillaire dans III isolé = origine vasculaire (diabète)
+    - |-
+      Recherche {p:myasthénie}:
+      • {t:test de Cogan} (regard soutenu vers le haut > 30 s → ptosis progressif)
+      • {t:test au glaçon} (3 min sur paupière → amélioration ptosis)
+      • fatigabilité aux mouvements répétés (bras tendus, flexions)
+    - "{t:Test de Lancaster / écran de Hess}: dissociation des yeux par filtres colorés, quantifie déficit et identifie muscle/nerf atteint"
+    - |-
+      Examen neuro complet:
+      • autres NC: II (AV, CV, {t:FO} = œdème papillaire → HTIC), V, VII, IX, X, XI, XII
+      • syndrome cérébelleux, pyramidal, sensitif
+      • signes méningés
+    - "Examen orbitaire: exophtalmomètre, pulsatilité, souffle à l'auscultation, œdème péri-orbitaire, érythème"
+    - "Si {e:> 50 ans}: palpation artères temporales (induration, abolition pouls, sensibilité)"
+    - "Signes systémiques: goitre, tremblements thyroïdiens, signes de thyrotoxicose"
+
+# source: pivots cliniques + MD lines 65-128
+dd_top5:
+  - dx: "{p:Paralysie du VIème nerf (abducens)}"
+    indices: "Œil en dedans, {s:diplopie horizontale} max en latéral; causes: vasculaire (diabète, HTA) > 50 ans, HTIC (faux signe localisant) chez jeune, tumeur base du crâne, SEP"
+    freq: "Cause #1 de paralysie oculomotrice acquise"
+  - dx: "{p:Paralysie du IIIème nerf (oculomoteur commun)}"
+    indices: "Ptosis + œil en dehors et en bas + diplopie verticale/oblique; pupille = clé: mydriase = {p:anévrysme communicante post}; pupille respectée = ischémique (diabète/HTA)"
+    freq: "Fréquent; mydriase = URGENCE absolue"
+  - dx: "{p:Paralysie du IVème nerf (trochléaire)}"
+    indices: "Diplopie verticale/oblique, gêne à la descente d'escaliers, tête penchée côté OPPOSÉ; cause #1 = {s:traumatisme crânien} (nerf le plus long et exposé), congénital décompensé chez l'adulte"
+    freq: "Fréquent post-traumatique [VÉRIFIER: ordre exact #2 vs #3 dans paralysies acquises]"
+  - dx: "{p:Myasthénie grave (oculaire ou généralisée)}"
+    indices: "Ptosis + diplopie FLUCTUANTS, aggravation vespérale, fatigabilité, amélioration au repos / froid; {t:Ac anti-RACh} 85 %, ENMG décrément, scanner thymus"
+    freq: "Cause #1 de diplopie fluctuante chez adulte"
+  - dx: "{p:Ophtalmoplégie internucléaire (SEP)}"
+    indices: "Adduction limitée d'un œil + nystagmus de l'œil controlatéral en abduction; femme jeune, poussées-rémissions; {t:IRM cérébrale + PL + PEV}"
+    freq: "Évoquer chez adulte jeune avec récidive"
+
+# source: MD lines 244-373
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — diplopie de novo = IRM cérébrale + orbites + angio en règle générale"
+    - "Si III douloureux + mydriase: {t:angio-TDM} immédiate, NPO, neurochirurgie/neuroradio"
+    - "Si > 50 ans + suspicion {p:Horton}: {r:prednisone 1 mg/kg/j PO} (60-80 mg) IMMÉDIATE sans attendre biopsie; méthylprednisolone IV 500-1000 mg × 3 j si atteinte oculaire"
+    - "Si AVC vertébro-basilaire: pathway AVC, {r:thrombolyse IV < 4h30} ou thrombectomie selon"
+    - "{p:Crise myasthénique}: hospitalisation, surveillance capacité vitale, {r:Ig IV ou plasmaphérèse}, éviter aminosides/quinolones/bêtabloquants"
+    - "Symptomatique: occlusion alternée ou {r:cache translucide (Scotch dépoli)}; prismes si déviation stable < 15∆ [VÉRIFIER: indications prismes en aigu]"
+    - "Conduite automobile: CONTRE-INDICATION temporaire tant que diplopie présente; certificat d'inaptitude"
+  orientation:
+    - "Urgences neuro / neuro-ophtalmo: diplopie BRUTALE, red flag, III douloureux, signes tronc cérébral"
+    - "Neurologie urgente (24-72 h): diplopie progressive sans red flag, suspicion MG, SEP"
+    - "Ophtalmo-orthoptie ambulatoire: diplopie chronique stable, post-traumatique IV, post-AVC stable pour rééducation"
+    - "Endocrino: si {p:orbitopathie de Basedow} suspectée (TSH, T4L, Ac anti-RTSH)"
+    - "Consignes retour urgences: aggravation, céphalée, déficit nouveau, dyspnée/dysphagie, troubles conscience"
+
+# source: MD lines 246-275
+examens_complementaires:
+  - "{t:IRM cérébrale + orbites + angio-IRM}: examen pivot — coupes fines orbites/sinus caverneux, séquences T1/T2/FLAIR/diffusion; cherche AVC, anévrysme, tumeur, SEP, fistule"
+  - "{t:Angio-TDM cérébrale} si IRM contre-indiquée ou non disponible (suspicion anévrysme rompu/non rompu)"
+  - "Bilan MG: {t:Ac anti-RACh + anti-MuSK}, ENMG (décrément à stimulation répétitive ≥ 10 %), scanner thoracique (thymome)"
+  - "Bilan vasculaire/métabolique: glycémie + HbA1c, bilan lipidique, TA — toute paralysie oculomotrice de novo > 50 ans"
+  - "{t:VS + CRP} STAT chez {e:> 50 ans} + biopsie artère temporale (Horton); VS > 50 mm/h très évocatrice"
+  - "Bilan thyroïdien (TSH, T4L, T3L, Ac anti-RTSH) + écho thyroïdienne si exophtalmie ou signes Basedow"
+
+# source: MD lines 367-373 + pivots
+criteres_hospitalisation:
+  - "Tout red flag avéré: {p:anévrysme}, AVC, fistule carotido-caverneuse, Horton avec atteinte oculaire"
+  - "{p:Crise myasthénique}: troubles déglutition / phonation / respiration → USI"
+  - "Diplopie brutale sans diagnostic, en attendant imagerie urgente"
+  - "Compression orbitaire menaçant le nerf optique ({p:Basedow} sévère)"
+  - "Première paralysie oculomotrice chez sujet jeune sans facteur de risque vasculaire"
+
+# source: MD lines 387-392 + pivots
+pieges:
+  - "Rassurer 'presbytie' ou trouble réfractif devant une diplopie BINOCULAIRE: la presbytie ne donne JAMAIS de diplopie binoculaire — toujours IRM en cas de diplopie de novo"
+  - "Méconnaître la {p:myasthénie} (test de fatigabilité, test au glaçon, aggravation vespérale = clés) — ne pas conclure 'fonctionnel' devant diplopie fluctuante"
+  - "Oublier l'{p:anévrysme communicante post} devant un III DOULOUREUX avec mydriase — la mydriase signe l'atteinte des fibres parasympathiques (couche externe) compressives"
+  - "Banaliser une diplopie nouvelle chez {e:> 50 ans} sans VS/CRP — {p:Horton} entraîne cécité irréversible si retard de corticoïdes"
+  - "Autoriser la conduite avec diplopie persistante non corrigée — responsabilité médico-légale; ne lever la CI qu'après résolution ou correction efficace"
+
+cartes_liees:
+  - SSP-NEU-04
+  - SYS-NEU

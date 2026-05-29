@@ -1,0 +1,180 @@
+id: SSP-INF-01
+type: ssp
+title: Adénopathie
+discipline: Infectio
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Adénopathie.md
+
+# source: lignes 12-86 (Anamnèse systématique)
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • cervicale / sus-claviculaire / axillaire / épitrochléenne / inguinale / poplitée?
+      • uni- ou bilatérale, symétrique?
+      • isolée vs {s:généralisée} (≥ 2 territoires non contigus → maladie systémique)?
+    - |-
+      Onset & Time — règle des "7":
+      • {r:< 7 jours} → infectieux / inflammatoire aigu
+      • {r:≈ 7 semaines} → suspicion maligne (lymphome, métastase)
+      • {r:> 7 mois} → chronique bénin
+    - "Character: molle (infectieux) vs ferme vs {s:dure/pierreuse} (malin)?"
+    - "Mobility: {s:mobile sur plans profonds} (bénin) vs adhérente/fixée (malin)?"
+    - "Sensibility: douloureuse (inflammatoire) vs {s:indolore persistante} (malin)?"
+    - |-
+      Taille & évolution:
+      • mesure en cm (seuil pathologique {r:> 1 cm}, sauf inguinal > 2 cm)
+      • croissance rapide, stable, régressive?
+      • peau sus-jacente normale, inflammatoire, fistulisée?
+    - "Exacerbating: contexte infectieux ORL/dentaire/cutané du territoire de drainage?"
+  specifique:
+    - |-
+      {s:Symptômes B} (hémopathie maligne — mnémo FPS):
+      • {s:Fièvre} > 38 °C inexpliquée, vespérale
+      • {s:Perte de poids} > 10 % en 6 mois
+      • {s:Sueurs nocturnes} profuses (trempage des draps)
+      • prurit généralisé, asthénie majeure
+    - |-
+      Contexte infectieux à rechercher:
+      • angine / pharyngite / otite / sinusite (cervicales)
+      • soins dentaires / abcès (sous-mandibulaires)
+      • griffure de chat ({p:Bartonella henselae}) (axillaires / épitrochléennes)
+      • IST / comportements à risque ({p:primo-VIH}, {p:syphilis}) (inguinales / généralisées)
+      • contage tuberculeux / migration zone endémique ({p:TB ganglionnaire})
+    - "Voyage récent zone tropicale (leishmaniose, paludisme, rickettsioses)?"
+    - "Symptômes systémiques: toux/dyspnée (médiastinale), splénomégalie, arthralgies, éruption?"
+    - "Comportements à risque (IDU, rapports non protégés, partenaires multiples)?"
+  atcd:
+    - "ATCD oncologiques: néoplasie antérieure, radio/chimiothérapie, ATCD familiaux lymphome/leucémie"
+    - |-
+      Immunosuppression:
+      • {p:VIH}, hépatites B/C
+      • corticoïdes, MTX, anti-TNF, biothérapies
+      • greffe d'organe
+    - |-
+      Médicaments inducteurs de {s:pseudo-lymphome}:
+      • antiépileptiques (phénytoïne, carbamazépine)
+      • allopurinol
+      • sulfamides, pénicillines
+      • anti-TNF α
+    - "Habitudes: {s:tabac + alcool} (cancer ORL), exposition professionnelle (animaux, solvants, milieu médical)"
+    - "ATCD vaccinaux (BCG, ROR), animaux domestiques (chat, oiseaux), morsures/griffures"
+
+# source: lignes 246-260, 287-299 (Red flags + urgences)
+red_flags:
+  - description: "{s:Adénopathie sus-claviculaire} palpable (Troisier à gauche) — TOUJOURS pathologique"
+    dx_suspecte: "{p:Métastase} (digestif/gastrique à gauche, pulmonaire/ORL à droite) ou {p:lymphome}"
+    action: "{t:Scanner TAP injecté} + {t:OGD + coloscopie} si gauche; biopsie chirurgicale ganglionnaire [VÉRIFIER: priorité scanner vs endoscopie selon protocole local CHUV/HUG]"
+  - description: "Adénopathie {s:dure, fixée, indolore} > 2 cm persistante > 4-6 semaines, ± {s:symptômes B}"
+    dx_suspecte: "{p:Lymphome} (Hodgkin / non-Hodgkin) ou {p:métastase}"
+    action: "{t:Biopsie-exérèse ganglionnaire} (gold standard, PAS de cytoponction seule); {t:NFS + LDH + β2-microglobuline} + {t:scanner TAP}"
+  - description: "{s:Syndrome cave supérieur} (œdème en pèlerine, turgescence jugulaire, dyspnée) + adénopathies"
+    dx_suspecte: "{p:Masse médiastinale compressive} (lymphome, cancer bronchique)"
+    action: "{r:Hospitalisation urgente} + {t:CT thoracique injecté} + avis oncologie/hématologie; corticoïdes IV uniquement après prélèvement biopsique"
+  - description: "{s:Adénopathie + fièvre prolongée + AEG + comportement à risque ou migration}"
+    dx_suspecte: "{p:Primo-VIH} / {p:tuberculose ganglionnaire} / {p:syphilis secondaire}"
+    action: "{t:Sérologie VIH} (avec consentement) + {t:CD4 + charge virale}; {t:QuantiFERON / IDR}; {t:TPHA-VDRL}; isolement respiratoire si TB"
+  - description: "Adénopathie {s:fluctuante / suppurée / fistulisée} avec fièvre"
+    dx_suspecte: "{p:Adénite suppurée bactérienne} (staph/strepto) ou {p:scrofule tuberculeuse}"
+    action: "{t:Hémocultures} + drainage chirurgical + {r:ATB IV} (cloxacilline 2 g × 4/j ou amoxicilline-clavulanate); cultures + PCR BK [VÉRIFIER: posologie ATB selon poids et fonction rénale]"
+  - description: "{e:> 40 ans} fumeur/alcoolique avec adénopathie cervicale isolée chronique"
+    dx_suspecte: "{p:Cancer ORL} (cavité buccale, pharynx, larynx)"
+    action: "{t:Panendoscopie ORL sous AG} avec biopsies + {t:scanner cervico-thoracique injecté}; PAS de cytoponction première (risque dissémination)"
+
+# source: lignes 87-140 (Examen clinique)
+examen:
+  general:
+    - "Signes vitaux: T°, TA, FC, FR, SaO2, poids (variation récente, {s:cachexie})"
+    - "État général: pâleur, ictère, purpura, lésions cutanées (mnémo {t:ECOG / Karnofsky})"
+    - "Inspection complète: éruptions, lésions de grattage, traces de griffures"
+  cible:
+    - |-
+      {t:Palpation systématique des aires} (mnémo CAPEI):
+      • Cervicales (sous-mandibulaires, sous-mentonnières, jugulo-carotidiennes, spinales)
+      • Axillaires (centrales, pectorales, sous-scapulaires, brachiales)
+      • Poplitées (en décubitus ventral)
+      • Épitrochléennes (souvent oubliées — {p:bartonellose}, {p:syphilis})
+      • Inguinales (horizontales et verticales)
+      • Sus-claviculaires ⚠ (toujours pathologiques si palpables)
+    - |-
+      Caractérisation de chaque ganglion:
+      • taille (cm, mesure précise)
+      • consistance (molle / ferme / dure / pierreuse)
+      • mobilité (mobile vs adhérent aux plans profonds)
+      • sensibilité (douloureuse vs indolore)
+      • peau sus-jacente (normale / inflammatoire / ulcérée / fistulisée)
+    - |-
+      Recherche porte d'entrée:
+      • examen ORL complet (cavité buccale, pharynx, otoscopie, palpation thyroïde)
+      • examen cutané du territoire de drainage (plaies, abcès, griffures)
+      • examen dentaire (caries, abcès)
+    - "Abdomen: {s:hépatomégalie} (taille, surface), {s:splénomégalie} (palpation + percussion), masses (adénopathies rétropéritonéales)"
+    - "Thorax: auscultation (épanchement, pneumopathie), percussion (matité médiastinale), {s:syndrome cave supérieur}"
+    - "Recherche signes systémiques: éruption (lupus, drug-induced), arthrite, signes neurologiques de compression"
+
+# source: lignes 196-236 (Orientation étiologique)
+dd_top5:
+  - dx: "{p:Adénopathie réactionnelle infectieuse} (virale ou bactérienne locorégionale)"
+    indices: "Contexte infectieux ORL/cutané/dentaire, ganglion mou, mobile, douloureux, < 2 cm, régresse en 2-4 sem; enfant/jeune adulte; mnémo règle des 7 jours"
+    freq: "très fréquent (~70 % des adénopathies)"
+  - dx: "{p:Mononucléose infectieuse} (EBV) ± CMV / toxoplasmose / primo-VIH"
+    indices: "Adolescent/jeune adulte, fièvre + angine pseudo-membraneuse + asthénie, polyADP cervicales bilatérales, splénomégalie 50 %, {t:syndrome mononucléosique} au frottis, {t:sérologie EBV VCA IgM} ou MNI-test"
+    freq: "fréquent (15-25 ans)"
+  - dx: "{p:Tuberculose ganglionnaire} (scrofule)"
+    indices: "Migrant zone endémique / contage / immunodépression; adénopathies cervicales fermes, fistulisation possible, peu douloureuses; {t:QuantiFERON / IDR}, {t:PCR BK} sur biopsie, {t:radio thorax}"
+    freq: "rare en Suisse (mais fréquent chez migrants)"
+  - dx: "{p:Lymphome} (Hodgkin / non-Hodgkin)"
+    indices: "Adénopathies fermes/dures, indolores, persistantes > 4 sem, {s:symptômes B} (fièvre + perte poids + sueurs), {t:LDH élevées}, médiastinales (Hodgkin), atteinte extra-ganglionnaire (LNH); {t:biopsie chirurgicale} indispensable"
+    freq: "rare (incidence 15-20/100 000/an) mais à ne JAMAIS manquer"
+  - dx: "{p:Métastase ganglionnaire} de cancer solide (ORL, sein, poumon, digestif)"
+    indices: "{e:> 40 ans}, tabac/alcool, ganglion dur fixe indolore, AEG; cervicale (ORL/thyroïde), sus-clav G (Troisier-digestif), axillaire (sein), inguinale (génital/anal); {t:scanner TAP} + {t:panendoscopie}"
+    freq: "fréquent après 40 ans"
+
+# source: lignes 261-285 (Prise en charge)
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — sus-claviculaire / dure-fixée / symptômes B → bilan complet AVANT tout traitement empirique"
+    - "Adénopathie réactionnelle bénigne probable: surveillance simple {r:3-4 semaines}, AINS si douloureuse, traiter porte d'entrée"
+    - "Angine streptococcique: {r:amoxicilline 1 g × 2/j PO × 6 jours} (ou pénicilline V) [VÉRIFIER: durée selon Swissmedic/protocole local]"
+    - "Maladie des griffes du chat ({p:Bartonella}): {r:azithromycine 500 mg J1 puis 250 mg/j × 4 j} (formes étendues uniquement)"
+    - "Mononucléose: symptomatique, repos, {r:ÉVITER amoxicilline} (rash); pas de sport de contact 4 sem si splénomégalie"
+    - "Suspicion {p:TB ganglionnaire}: isolement aérien si pulmonaire associé, {r:quadrithérapie RHZE} 2 mois puis RH 4 mois — démarrage après prélèvement"
+    - "{r:PAS DE CORTICOÏDES} avant diagnostic histologique (masque le lymphome) sauf urgence vitale (sd cave supérieur)"
+  orientation:
+    - "Domicile + suivi médecin traitant: ADP réactionnelle typique < 2 cm, contexte infectieux clair, < 40 ans, sans red flag → réévaluation {r:à 3-4 semaines OBLIGATOIRE}"
+    - "Hématologie / oncologie ambulatoire: ADP persistante > 4-6 sem, symptômes B, LDH élevées → biopsie chirurgicale programmée"
+    - "ORL ambulatoire: ADP cervicale isolée > 40 ans, tabac/alcool → panendoscopie + scanner cervical"
+    - "Urgences / hospitalisation: syndrome cave supérieur, compression médullaire, fièvre + AEG sévère, masse médiastinale compressive"
+    - "Consignes de retour aux urgences: dyspnée, œdème facial, déficit neurologique, fièvre > 39 °C, croissance rapide"
+
+# source: lignes 141-192 (Examens complémentaires)
+examens_complementaires:
+  - "{t:NFS-plaquettes + frottis sanguin}: cytopénies (LNH/LAL), {s:syndrome mononucléosique} (EBV/CMV/toxo/primo-VIH), blastes"
+  - "{t:VS + CRP + LDH + β2-microglobuline}: syndrome inflammatoire, marqueurs lymphome; {t:bilan hépatique} (EBV, CMV, lymphome)"
+  - "{t:Sérologies}: EBV (VCA IgM/IgG, EBNA), CMV IgM/IgG, VIH (avec consentement), syphilis (TPHA-VDRL), toxoplasmose, hépatites B/C, Bartonella si contexte"
+  - "{t:QuantiFERON ou T-SPOT.TB}: dépistage TB latente/active, surtout migrant / immunodéprimé / contage"
+  - "{t:Radio thorax + échographie ganglionnaire}: 1ère intention; {t:scanner TAP injecté} si suspicion maligne (extension, profond)"
+  - "{t:Cytoponction écho-guidée} puis {t:biopsie-exérèse chirurgicale} (gold standard si lymphome suspecté — architecture + immunohistochimie + biologie moléculaire) [VÉRIFIER: indication 1ère intention cytoponction vs biopsie selon protocole hématologie locale]"
+
+# source: lignes 295-299 (Indications hospitalisation)
+criteres_hospitalisation:
+  - "{s:Syndrome cave supérieur} ou compression médullaire / détresse respiratoire (masse médiastinale)"
+  - "{s:Leucostase} (blastes > 100 000/mm³) ou cytopénies sévères (Hb < 7, plaq < 20)"
+  - "Fièvre > 39 °C avec immunodépression ({s:neutropénie fébrile})"
+  - "AEG sévère + amaigrissement majeur, syndrome tumoral volumineux"
+  - "Adénite suppurée avec sepsis ou échec ATB oral"
+
+# source: lignes 312-318 (Pièges à éviter)
+pieges:
+  - "Traiter '{p:ADP réactionnelle}' sans planifier la {r:réévaluation à 3-4 semaines} — un lymphome peut mimer une ADP banale au début"
+  - "{r:Prescrire des corticoïdes} avant la biopsie ganglionnaire — masque l'architecture du {p:lymphome} et retarde le diagnostic"
+  - "Faire une {t:cytoponction seule} si suspicion de lymphome → la {t:biopsie-exérèse chirurgicale} est obligatoire (architecture, IHC)"
+  - "Omettre la {t:sérologie VIH} (avec consentement) devant une polyadénopathie persistante chez adulte jeune"
+  - "Oublier la {t:panendoscopie ORL} chez un fumeur > 40 ans avec ADP cervicale isolée — risque de méconnaître un cancer ORL [VÉRIFIER: âge seuil exact pour panendoscopie systématique selon recommandation SSORL]"
+
+cartes_liees:
+  - SYS-HEM
+  - SSP-INF-02
