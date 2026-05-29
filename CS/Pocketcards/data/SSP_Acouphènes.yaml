@@ -1,0 +1,213 @@
+id: SSP-ORL-01
+type: ssp
+title: Acouphènes
+discipline: ORL
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Acouphènes.md
+  - Guidelines AAO-HNS - Tinnitus 2019
+  - European Tinnitus Guideline 2019
+  - Recommandations SFORL 2021
+
+# source: line 13-167
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • {s:unilatéral} (suspicion {p:neurinome acoustique}) / bilatéral / central?
+      • toujours du même côté?
+    - |-
+      Onset:
+      • brutal {r:< 72h} → {p:surdité brusque} (URGENCE)
+      • progressif (presbyacousie, exposition bruit chronique)
+      • post-traumatique (acoustique, crânien)
+    - |-
+      Character:
+      • {s:sifflement / grésillement} aigu → atteinte cochléaire
+      • {s:bourdonnement / ronflement} grave → trouble de transmission
+      • {s:pulsatile} synchrone au pouls → origine vasculaire ⚠️
+      • non pulsatile (majoritaire, 95%)
+    - "Radiation: localisation auriculaire stricte vs sensation 'dans la tête' (central)?"
+    - |-
+      Time:
+      • durée (aigu < 3 mois vs chronique > 3 mois — 85% des cas)
+      • constance: permanent / intermittent / fluctuant ({p:Ménière})
+      • horaire: pire la nuit (silence = absence de masquage)
+    - |-
+      Exacerbating:
+      • silence, nuit, fatigue, stress
+      • décubitus, mouvements cervicaux
+      • café, alcool, tabac
+      • exposition sonore récente
+    - "Relieving: bruit de fond, activités distractives, relaxation, compression vasculaire (si pulsatile)"
+    - |-
+      Severity:
+      • intensité 0-10 ({t:EVA})
+      • impact sommeil, concentration, travail
+      • {t:THI (Tinnitus Handicap Inventory)} si disponible
+  specifique:
+    - |-
+      Symptômes otologiques associés (85%):
+      • {s:hypoacousie} (transmission vs perception, uni/bilatérale)
+      • {s:plénitude auriculaire} ('oreille bouchée') → {p:Ménière}
+      • {s:hyperacousie} (intolérance aux sons normaux)
+      • otalgie, otorrhée → cause infectieuse
+    - |-
+      Symptômes vestibulaires:
+      • {s:vertiges rotatoires} fluctuants + plénitude → {p:Maladie de Ménière}
+      • instabilité chronique → {p:neurinome acoustique} / presbyvestibulie
+      • nausées/vomissements
+    - |-
+      Symptômes neurologiques (RED FLAGS):
+      • céphalées récentes / modifiées → {p:HTIC}
+      • troubles visuels → {p:HTIC bénigne}, adénome hypophysaire
+      • {s:paralysie faciale} ipsilatérale → {p:neurinome}
+      • ataxie, troubles coordination → atteinte cérébelleuse / APC
+    - "Modulation à la mastication / mouvements ATM → {p:dysfonction temporo-mandibulaire}"
+    - "Retentissement psychologique: anxiété, dépression réactionnelle (30%), troubles du sommeil, {s:idées suicidaires}?"
+  atcd:
+    - |-
+      ATCD otologiques:
+      • otites répétées, chirurgie otologique (stapédectomie, tympanoplastie)
+      • traumatisme crânien (fracture temporale)
+      • barotraumatisme (plongée, aviation)
+    - |-
+      Exposition au bruit (cause #1):
+      • professionnelle ({e:> 85 dB}: BTP, industrie, musique)
+      • loisirs (concerts, chasse, casque)
+      • port EPI, durée d'exposition
+    - |-
+      Médicaments ototoxiques (mnémo AAFQ):
+      • {r:Aspirine > 3 g/j} (réversible)
+      • {r:Aminosides} (gentamicine — irréversible)
+      • {r:Furosémide} fortes doses
+      • {r:Quinine, cisplatine, carboplatine}
+    - "FdR cardiovasculaires (acouphènes pulsatiles): HTA, diabète, dyslipidémie, tabac, obésité ({p:HTIC bénigne})"
+    - "ATCD familiaux: otospongiose (femme jeune, aggravation grossesse), surdité héréditaire"
+    - "Comorbidités: dysthyroïdie, insuffisance rénale, anémie sévère, diabète"
+
+# source: line 390-403 (red flags) + clinical pivots
+red_flags:
+  - description: "{s:Surdité brutale unilatérale < 72h} ± acouphène ipsilatéral"
+    dx_suspecte: "{p:Surdité brusque idiopathique}"
+    action: "{t:Audiométrie} en urgence + {r:prednisone 1 mg/kg/j PO × 7-14 j} ; consultation ORL < 7 jours (fenêtre thérapeutique). [VÉRIFIER:posologie corticoïdes selon protocole local CHUV/HUG]"
+  - description: "{s:Acouphène pulsatile} synchrone au pouls (uni ou bilatéral)"
+    dx_suspecte: "{p:Cause vasculaire} (fistule artério-veineuse durale, paragangliome, sténose carotidienne, {p:HTIC bénigne})"
+    action: "Auscultation cervico-crânienne + {t:angio-IRM / angio-CT} + Doppler carotidien ; avis ORL + neuroradiologie"
+  - description: "{s:Acouphène unilatéral persistant} + asymétrie auditive {r:> 15-20 dB} ± instabilité"
+    dx_suspecte: "{p:Neurinome acoustique} (schwannome vestibulaire)"
+    action: "{t:IRM cérébrale + angles ponto-cérébelleux (T2 haute résolution + gadolinium)} ; consultation ORL/neurochirurgie"
+  - description: "Triade: {s:acouphène + vertiges rotatoires fluctuants + hypoacousie} + plénitude auriculaire"
+    dx_suspecte: "{p:Maladie de Ménière}"
+    action: "Avis ORL ; régime hyposodé ({r:< 2 g/j}) ; {r:bétahistine 24 mg × 2/j} ; antiémétique pendant la crise. [VÉRIFIER:posologie bétahistine et critères diagnostiques AAO-HNS]"
+  - description: "Acouphène + {s:signes neurologiques centraux} (paralysie nerf crânien, ataxie cérébelleuse, céphalées progressives)"
+    dx_suspecte: "{p:Tumeur de l'angle ponto-cérébelleux}, {p:HTIC}, lésion centrale"
+    action: "{t:IRM cérébrale URGENTE} + {t:FO} (œdème papillaire); avis neuro/neurochir"
+  - description: "Acouphène + {s:céphalée + troubles visuels} chez sujet jeune obèse (femme)"
+    dx_suspecte: "{p:Hypertension intracrânienne bénigne (HTIC idiopathique)}"
+    action: "{t:FO} + IRM + IRM veineuse + {t:PL} avec mesure pression d'ouverture"
+  - description: "Retentissement psychologique sévère: {s:idées suicidaires}, dépression majeure, isolement"
+    dx_suspecte: "Détresse psychiatrique liée aux acouphènes (3% des cas)"
+    action: "Évaluation psychiatrique urgente ; {t:PHQ-9, GAD-7} ; orientation centre acouphènes + psy"
+
+# source: line 170-219
+examen:
+  general:
+    - "Signes vitaux: {t:TA aux deux bras} (HTA maligne, asymétrie carotidienne), FC, pouls (arythmies)"
+    - "Inspection cou: masses, adénopathies, cicatrices (paragangliome)"
+    - "Auscultation cardiaque: souffles (cardiopathie emboligène si AIT associé)"
+    - "Évaluation psychologique brève: {t:THI}, {t:EVA gêne 0-10}, signes dépression"
+  cible:
+    - |-
+      {t:Otoscopie bilatérale} systématique:
+      • {s:bouchon de cérumen} (cause simple, traitement immédiat)
+      • aspect tympan: bombement (OMA), rétraction (dysfonction tubaire), perforation
+      • otorrhée, exostoses, corps étranger
+      • mobilité tympanique (pneumatoscopie)
+    - |-
+      Acoumétrie au diapason 512 Hz:
+      • {t:Weber} latéralisé côté sourd → surdité de transmission
+      • {t:Weber} latéralisé côté sain → surdité de perception
+      • {t:Rinne} positif (CA > CO) = normal/perception ; négatif (CO > CA) = transmission
+    - |-
+      Auscultation SI acouphène pulsatile:
+      • régions temporales (MAV, fistules)
+      • {s:souffle carotidien} (sténose)
+      • région péri-auriculaire (paragangliome)
+      • globe oculaire (fistule carotido-caverneuse)
+      • manœuvres: compression jugulaire (disparition si origine veineuse), compression carotidienne
+    - |-
+      Examen neurologique orienté (nerfs crâniens):
+      • V (sensibilité faciale) — compression APC
+      • VII (mimique faciale) — neurinome
+      • VIII (audition + équilibre): {t:Romberg}, {t:Fukuda}, marche aveugle
+      • nystagmus spontané/provoqué ({t:Dix-Hallpike} si vertiges positionnels)
+      • épreuves cérébelleuses (doigt-nez, talon-genou)
+    - "{t:Examen ATM}: palpation articulation, mobilité, occlusion, douleur à la mastication"
+    - "Examen cervical: mobilité, points douloureux (acouphène somatosensoriel modulable)"
+
+# source: line 70-135 + clinical pivots
+dd_top5:
+  - dx: "{p:Presbyacousie / traumatisme sonore chronique}"
+    indices: "{e:> 50 ans} ou exposition bruit professionnelle, acouphène bilatéral non pulsatile (sifflement aigu), {s:hypoacousie de perception} bilatérale symétrique prédominant aigus, otoscopie normale, {t:audiométrie}: chute symétrique sur 4-8 kHz"
+    freq: "très fréquent (cause #1, 80% des cas)"
+  - dx: "{p:Surdité brusque idiopathique}"
+    indices: "Installation {r:< 72h}, acouphène unilatéral + hypoacousie de perception {r:≥ 30 dB sur 3 fréquences contiguës}, sensation plénitude, parfois vertiges ; URGENCE thérapeutique (fenêtre 7 jours)"
+    freq: "rare (5-20/100 000/an) mais urgence ORL"
+  - dx: "{p:Neurinome acoustique (schwannome vestibulaire)}"
+    indices: "{s:Acouphène unilatéral} persistant + asymétrie auditive {r:> 15-20 dB} + instabilité, parfois hypoesthésie V ou paralysie VII ; réflexes stapédiens abolis côté atteint ; {t:IRM APC} diagnostique"
+    freq: "rare (1/100 000/an) mais à ne pas méconnaître"
+  - dx: "{p:Maladie de Ménière}"
+    indices: "Triade: vertiges rotatoires {r:2-24h} + hypoacousie de perception fluctuante (aiguës) + acouphène, précédée de plénitude auriculaire ; crises récidivantes ; {t:audiométrie} inter-critique. [VÉRIFIER:critères diagnostiques AAO-HNS 2015 vs Bárány Society]"
+    freq: "peu fréquent (0,2% population)"
+  - dx: "{p:Acouphène pulsatile d'origine vasculaire}"
+    indices: "Acouphène {s:synchrone au pouls}, souvent unilatéral, souffle audible à l'auscultation, modulable par compression cervicale ; étiologies: fistule AV durale, paragangliome jugulaire, sténose carotidienne, HTIC bénigne ; {t:angio-IRM + Doppler}"
+    freq: "rare (5% des acouphènes) mais cause organique à éliminer"
+
+# source: line 266-388
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord → audiométrie + IRM/angio-IRM selon contexte AVANT prise en charge symptomatique"
+    - "{p:Surdité brusque < 72h}: {r:prednisone 1 mg/kg/j PO × 7-14 j} + IPP ; ORL en urgence pour audio + envisager corticoïdes intratympaniques en rescue. [VÉRIFIER:protocole local corticoïdes systémiques vs intratympaniques]"
+    - "{p:Maladie de Ménière} crise: antiémétique ({r:métoclopramide 10 mg}) + sédatif vestibulaire ({r:dimenhydrinate}) ; bétahistine 24 mg × 2/j au long cours + régime hyposodé"
+    - "Cause vasculaire pulsatile: contrôle HTA ({r:objectif < 140/90 mmHg}), avis neuroradiologie interventionnelle si MAV/fistule (embolisation)"
+    - "Cause médicamenteuse ototoxique: arrêt ou réduction de dose si possible, alternative thérapeutique"
+    - "Cause simple ({s:bouchon de cérumen}): extraction par irrigation/curette/aspiration (amélioration immédiate 90%)"
+    - "Acouphène chronique idiopathique: {r:enrichissement sonore} 24/24h (éviter silence) + éducation + TCC en 1ère ligne (gold standard) ; PAS de vasodilatateurs (inefficaces)"
+  orientation:
+    - "Domicile + suivi médecin traitant: acouphène chronique stable, examen normal, audiométrie sans asymétrie, retentissement faible"
+    - "ORL urgent (< 7 jours): surdité brusque, acouphène unilatéral nouveau, asymétrie auditive, vertiges associés"
+    - "Urgences: red flag avéré (signes neurologiques centraux, acouphène pulsatile avec souffle, HTIC suspectée)"
+    - "Centre acouphènes / TCC: retentissement psychologique important, échec traitement initial, {t:THI > 38}"
+    - "Psychiatrie: dépression sévère, idéations suicidaires, anxiété invalidante"
+
+# source: line 221-264
+examens_complementaires:
+  - "{t:Audiométrie tonale liminaire (CA + CO)} SYSTÉMATIQUE: classification surdité (légère < 40 dB, moyenne 40-70 dB, sévère > 70 dB), recherche asymétrie {r:> 15-20 dB} (seuil IRM)"
+  - "{t:Audiométrie vocale} ± impédancemétrie (tympanogramme + réflexes stapédiens — abolis si neurinome)"
+  - "{t:IRM cérébrale + angles ponto-cérébelleux} (T2 haute résolution + gadolinium): acouphène unilatéral, asymétrie auditive > 15 dB, signes neurologiques, suspicion neurinome"
+  - "{t:Angio-IRM / angio-CT + Doppler cervical}: acouphène pulsatile (recherche MAV, fistule AV, sténose carotidienne, paragangliome)"
+  - "{t:Potentiels évoqués auditifs (PEA)} précoces du tronc cérébral: suspicion atteinte rétrocochléaire si IRM non disponible ou contre-indiquée"
+  - "Bilan métabolique: TSH, glycémie, créatinine, NFS (étiologies générales si présentation atypique). [VÉRIFIER:utilité réelle du bilan systémique selon SFORL 2021]"
+
+# source: line 384-388
+criteres_hospitalisation:
+  - "{p:Surdité brusque} avec hypoacousie sévère (> 70 dB) ou bilatérale: hospitalisation pour corticoïdes IV + bilan étiologique"
+  - "Acouphène + signes neurologiques centraux (déficit focal, altération conscience) → urgences neuro"
+  - "{p:HTIC} suspectée (FO œdémateux, céphalées progressives) → PL + IRM"
+  - "Décompensation psychiatrique: dépression majeure avec {s:idées suicidaires}, anxiété sévère invalidante"
+  - "{p:Maladie de Ménière} avec crise vertigineuse incontrôlée et vomissements incoercibles"
+
+# source: line 415-421
+pieges:
+  - "Méconnaître la {p:surdité brusque} en considérant l'acouphène isolé: TOUJOURS audiométrie en urgence si installation < 72h (fenêtre thérapeutique de 7 jours)"
+  - "Rassurer trop vite devant un {s:acouphène unilatéral persistant}: penser au {p:neurinome acoustique}, demander IRM APC si asymétrie auditive > 15 dB"
+  - "Banaliser un {s:acouphène pulsatile}: c'est un acouphène jusqu'à preuve du contraire D'ORIGINE VASCULAIRE → angio-IRM + Doppler obligatoires"
+  - "Prescrire des {r:vasodilatateurs} (inefficaces, non recommandés) ou promettre une guérison totale (chronique dans 85% des cas)"
+  - "Négliger le retentissement psychosocial (dépression réactionnelle 30%, risque suicidaire): évaluer systématiquement THI, PHQ-9, sommeil"
+
+cartes_liees:
+  - SYS-ORL
+  - TOOL-THI

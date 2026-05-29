@@ -1,0 +1,179 @@
+id: SSP-ORL-03
+type: ssp
+title: Corps étranger
+discipline: ORL
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Corps_Etranger.md
+
+# source: clinical pivots (MD source low-yield, parse_quality=low)
+anamnese:
+  socrates:
+    - |-
+      Site (4 localisations clés):
+      • nez / oreille
+      • voies aériennes (larynx, trachée, bronches)
+      • œsophage / digestif
+      • plaie cutanée (CE traumatique)
+    - |-
+      Onset:
+      • {s:syndrome de pénétration} (toux quinteuse brutale + cyanose + suffocation post-prise)
+      • découverte différée (rhinorrhée chronique, toux trainante, pneumonie récidivante)
+    - "Character: toux, dyspnée, dysphonie, dysphagie, sialorrhée, rhinorrhée?"
+    - "Radiation: douleur cervicale irradiée vers le dos (suspicion {p:perforation œsophagienne})?"
+    - |-
+      Time:
+      • heure exacte de l'ingestion/inhalation (pile bouton {r:< 2 h} = urgence extrême)
+      • dernière prise alimentaire (anesthésie générale)
+    - |-
+      Exacerbating:
+      • dyspnée à l'effort, en décubitus
+      • dysphagie pour solides vs liquides?
+    - "Relieving: position antalgique (assise pour CE œsophagien?)"
+    - "Severity: tirage, cyanose, impossibilité de parler/tousser (= obstruction complète)?"
+  specifique:
+    - |-
+      Nature du CE (interrogatoire parents/témoins):
+      • {p:pile bouton} ou {p:aimants multiples} = urgence extrême
+      • objet pointu/coupant (épingle, aiguille, arête)
+      • organique (cacahuète, graine) vs inorganique
+      • taille, radio-opaque ou non
+    - |-
+      CE voies aériennes ({s:syndrome de pénétration}):
+      • quintes de toux brutales
+      • cyanose, suffocation
+      • intervalle libre puis toux persistante, sibilants unilatéraux
+    - |-
+      CE nasal (enfant):
+      • {s:rhinorrhée purulente UNILATÉRALE} fétide
+      • épistaxis, obstruction nasale
+    - |-
+      CE auditif:
+      • douleur, hypoacousie, bourdonnement
+      • insecte vivant ({s:sensation de mouvement} + bruit)
+    - |-
+      CE œsophagien:
+      • {s:dysphagie} + {s:sialorrhée}
+      • douleur rétrosternale
+      • refus alimentaire chez l'enfant
+    - "Statut vaccinal antitétanique (CE traumatique / plaie souillée)?"
+  atcd:
+    - "Âge: pic 1-5 ans pour inhalation/ingestion; {e:enfant pré-verbal} = anamnèse souvent absente"
+    - "ATCD de fausses routes, troubles de déglutition (paralysie cérébrale, RGO sévère)"
+    - "ATCD ORL: végétations, otites récidivantes (impactant l'examen)"
+    - "ATCD respiratoires: asthme, pneumonies récidivantes (penser CE bronchique méconnu)"
+    - "Contexte: surveillance, accès aux petits objets/piles, jouets démontables, contexte social"
+
+red_flags:
+  - description: "{s:Obstruction COMPLÈTE des voies aériennes}: impossibilité de parler/tousser + cyanose + détresse"
+    dx_suspecte: "{p:Asphyxie par CE laryngotrachéal} — URGENCE VITALE"
+    action: "Manœuvres de désobstruction immédiates: {r:Heimlich} (adulte/enfant > 1 an) OU {r:5 tapes dorsales + 5 compressions thoraciques} (nourrisson < 1 an); appel REA 144"
+  - description: "{s:Dyspnée + sibilants UNILATÉRAUX} ± toux trainante post-syndrome de pénétration (Rx peut être normale)"
+    dx_suspecte: "{p:CE bronchique inhalé}"
+    action: "{t:Fibroscopie bronchique} rigide en urgence sous AG pour extraction; à jeun, hospitalisation"
+  - description: "{p:Pile bouton} ingérée visible à l'œsophage ({t:Rx} signe du double halo / double contour)"
+    dx_suspecte: "{p:Pile bouton œsophagienne} — risque de brûlure caustique en {r:< 2 h}"
+    action: "{r:Extraction endoscopique STAT sous AG} {r:< 2 h}; NPO; ne PAS donner à boire/manger; pas de vomissement provoqué"
+  - description: "{s:Ingestion d'aimants multiples} (ou aimant + objet métallique) visibles sur {t:Rx ASP}"
+    dx_suspecte: "{p:Perforation digestive par attraction transmurale}"
+    action: "Avis chirurgie pédiatrique + endoscopie urgentes; NPO; surveillance signes de péritonite"
+  - description: "{s:Dysphonie + emphysème sous-cutané cervical} ± hémoptysie après trauma ou syndrome de pénétration"
+    dx_suspecte: "{p:CE trachéal avec lésion / perforation des voies aériennes}"
+    action: "{t:Scanner cervico-thoracique} urgent; avis ORL/chirurgie thoracique; intubation prudente"
+  - description: "{s:Stridor + tirage + hypersalivation} chez l'enfant fébrile (DD CE vs infection)"
+    dx_suspecte: "{p:Épiglottite} ou {p:CE supra-glottique}"
+    action: "Pas d'examen oropharyngé en force; transfert au bloc, intubation par anesthésiste, voie chirurgicale prête [VÉRIFIER:protocole CHUV/HUG urgences pédiatriques]"
+
+examen:
+  general:
+    - "Signes vitaux: FR, SaO2, FC, T°, TA, état de conscience"
+    - "Inspection globale: position (tripode?), tirage sus-sternal/intercostal, cyanose, sueurs"
+    - "Évaluer la {s:capacité à parler/tousser/respirer} (= clé pour graduer l'urgence)"
+    - "Ne PAS examiner la gorge en force chez l'enfant suspect d'épiglottite ou CE supra-glottique (risque d'impaction)"
+  cible:
+    - |-
+      Voies aériennes / pulmonaire:
+      • auscultation comparative: {s:asymétrie du murmure vésiculaire}, sibilants unilatéraux
+      • wheezing localisé, hyperinflation d'un hémithorax
+      • dysphonie, stridor (CE laryngé)
+    - |-
+      Examen ORL (nez):
+      • rhinoscopie antérieure: visualisation directe du CE
+      • {s:rhinorrhée purulente unilatérale fétide} = CE jusqu'à preuve du contraire
+    - |-
+      Examen auriculaire:
+      • otoscopie: CE visible (conduit auditif externe)
+      • intégrité du tympan, signes d'irritation/infection
+      • insecte: noyer dans huile/{r:lidocaïne} avant extraction [VÉRIFIER:protocole local]
+    - |-
+      Examen oropharynx / œsophage:
+      • inspection prudente cavité buccale (CE visible?)
+      • {s:sialorrhée} + refus alimentaire = CE œsophagien probable
+      • palpation cervicale: emphysème sous-cutané, douleur localisée
+    - "Examen abdominal: défense, douleur localisée (perforation digestive après aimants ou objet pointu)"
+    - "Plaie cutanée: rechercher CE résiduel (verre, métal), évaluer profondeur, statut tétanique"
+
+dd_top5:
+  - dx: "{p:CE des voies aériennes inférieures (bronche)}"
+    indices: "{s:Syndrome de pénétration} + toux quinteuse brutale, sibilants unilatéraux, asymétrie auscultatoire; {t:Rx thorax inspi/expi} (piégeage aérique) souvent normale; gold standard = {t:fibroscopie bronchique}"
+    freq: "fréquent enfants {e:1-3 ans}, cacahuète/graine en tête"
+  - dx: "{p:CE œsophagien (impacté)}"
+    indices: "Dysphagie soudaine, sialorrhée, refus alimentaire; {t:Rx cervico-thoracique} face/profil; localisation typique: rétrécissements anatomiques (sphincter sup., crosse aortique, cardia)"
+    freq: "fréquent, surtout enfants et personnes âgées (prothèses dentaires)"
+  - dx: "{p:CE nasal}"
+    indices: "Enfant, {s:rhinorrhée purulente unilatérale fétide} ± épistaxis; visualisation rhinoscopique; pile bouton intranasale = urgence (nécrose septale)"
+    freq: "fréquent chez {e:enfants 2-5 ans}"
+  - dx: "{p:CE auditif (conduit auditif externe)}"
+    indices: "Douleur, hypoacousie, sensation d'obstruction; insecte vivant: sensation de mouvement; otoscopie diagnostique"
+    freq: "fréquent enfants et adultes (cotons-tiges, insectes)"
+  - dx: "{p:Ingestion caustique} (DD si pas de CE visible)"
+    indices: "Brûlures buccales/labiales, sialorrhée, douleurs rétrosternales; contexte (produits ménagers); endoscopie {r:< 24 h} (pas de SNG, pas de vomissements provoqués)"
+    freq: "fréquence variable, contexte accidentel (enfant) ou TS"
+
+pec_initiale:
+  immediate:
+    - |-
+      {p:Obstruction complète des voies aériennes}:
+      • adulte/enfant > 1 an conscient: {r:Heimlich (5 compressions abdominales)}
+      • nourrisson < 1 an: {r:5 tapes dorsales tête en bas + 5 compressions thoraciques}
+      • inconscient: {r:RCP avec contrôle de la bouche entre cycles}; appel 144
+    - "Obstruction partielle: encourager toux spontanée, oxygénation, transfert hospitalier; NE PAS taper dans le dos en aveugle"
+    - "{p:CE bronchique} suspecté: à jeun (NPO), oxygénothérapie, transfert pour {r:fibroscopie bronchique rigide sous AG} [VÉRIFIER:disponibilité endoscopie pédiatrique selon site]"
+    - "{p:Pile bouton œsophagienne}: extraction endoscopique {r:< 2 h} sous AG; NPO STRICT; ne rien faire avaler (miel envisageable < 12 ans si < 12 h selon NASPGHAN [VÉRIFIER:protocole local CHUV/HUG])"
+    - "{p:CE œsophagien non pile/aimant}: endoscopie dans les {r:< 24 h} (objet pointu = plus urgent); NPO"
+    - "{p:CE nasal}: extraction sous anesthésie locale ± sédation, à la pince/crochet; si non coopératif ou enclavé → {r:AG au bloc ORL}"
+    - "{p:CE auditif}: extraction au microscope sous AL; insecte: noyer dans {r:huile minérale ou lidocaïne} avant extraction; orientation ORL si tympan menacé"
+    - "Plaie cutanée avec CE: extraction, lavage, exploration, {r:vaccin antitétanique} selon statut; antibioprophylaxie si contamination"
+  orientation:
+    - "Domicile possible: CE extrait sans complication, examen ORL normal, parents éduqués sur signes de reconsultation"
+    - "Hospitalisation ORL/pédiatrie: post-extraction sous AG, surveillance respiratoire 24 h après fibroscopie bronchique"
+    - "Urgences/REA: obstruction complète, détresse respiratoire, pile bouton œsophagienne, suspicion perforation"
+    - "Consignes de reconsultation: toux persistante > 1 sem post-extraction, fièvre, dyspnée, vomissements sanglants, douleur thoracique/abdominale"
+
+examens_complementaires:
+  - "{t:Rx thorax} face inspi/expi (ou décubitus latéral si nourrisson): piégeage aérique unilatéral, atélectasie, CE radio-opaque [VÉRIFIER:utilité expi en pratique courante CHUV/HUG pédiatrie]"
+  - "{t:Rx cervico-thoracique + ASP} face/profil: localisation CE radio-opaque (pile bouton = {s:double halo}), aimants multiples"
+  - "{t:Fibroscopie bronchique rigide} sous AG: gold standard CE voies aériennes inférieures (Rx normale n'exclut pas)"
+  - "{t:Endoscopie haute (OGD)} sous AG: extraction CE œsophagien/gastrique, pile bouton, objet pointu"
+  - "{t:Scanner cervico-thoracique}: suspicion perforation, emphysème sous-cutané, CE non vu en endoscopie"
+  - "{t:FSC + CRP}: surinfection (pneumonie post-inhalation, médiastinite)"
+
+criteres_hospitalisation:
+  - "Obstruction respiratoire (complète ou partielle), SaO2 < 94 % en air ambiant"
+  - "{p:Pile bouton} ou {p:aimants multiples} ingérés/inhalés (toute localisation)"
+  - "CE bronchique confirmé ou fortement suspecté → fibroscopie au bloc"
+  - "Post-extraction sous AG: surveillance 6-24 h selon localisation et complications"
+  - "Signes de complication: pneumonie d'inhalation, médiastinite, hématémèse, perforation"
+
+pieges:
+  - "Banaliser une toux résiduelle après 'fausse route' sans imagerie ni fibroscopie → CE bronchique méconnu (pneumonies récidivantes)"
+  - "Examiner la gorge en force chez un enfant suspect d'épiglottite ou CE supra-glottique → risque d'arrêt respiratoire"
+  - "Donner à boire/manger ou tenter de faire vomir avant endoscopie {p:pile bouton}/CE œsophagien → aggrave lésions et complique l'AG"
+  - "{t:Rx thorax} normale n'exclut PAS un CE bronchique → fibroscopie si syndrome de pénétration évocateur"
+  - "Oublier la {s:rhinorrhée purulente unilatérale} de l'enfant = CE nasal jusqu'à preuve du contraire (ne pas traiter comme rhinite)"
+
+cartes_liees:
+  - SYS-ORL
+  - SYS-PED

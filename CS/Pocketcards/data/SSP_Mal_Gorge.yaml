@@ -1,0 +1,196 @@
+id: SSP-ORL-06
+type: ssp
+title: Mal de gorge
+discipline: ORL
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Mal_Gorge.md
+
+# source: lines 11-179
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • pharynx central ou unilatéral ({p:phlegmon péri-amygdalien} si asymétrique)?
+      • irradiation aux oreilles (otalgie réflexe)?
+    - |-
+      Onset:
+      • début brutal (streptocoque, épiglottite) ou progressif (viral)?
+      • durée (jours / semaines / > 3 sem évoque {p:cancer ORL} chez tabagique)
+    - "Character: brûlure / serrement / piqûre / gêne simple / sensation de corps étranger?"
+    - |-
+      Time:
+      • durée totale
+      • horaire (réveil = {p:RGO laryngo-pharyngé}?)
+      • saison (hiver = viral; printemps = streptocoque)
+    - |-
+      Exacerbating:
+      • {s:déglutition} (odynophagie)
+      • solides > liquides
+      • parole / toux
+    - "Relieving: boissons chaudes/froides, antalgiques (paracétamol efficace?)"
+    - "Severity: EVA 0-10, impact alimentation/sommeil, arrêts de travail"
+  specifique:
+    - |-
+      Symptômes ORL associés:
+      • {s:dysphagie}, {s:hypersialorrhée}, {s:trismus}
+      • voix ('chaude' = phlegmon, enrouement = laryngite, aphonie)
+      • {s:halitose} fétide ({p:angine de Vincent}, phlegmon)
+      • rhinorrhée (claire = viral; purulente)
+    - |-
+      Symptômes généraux:
+      • fièvre (Tmax, frissons, brutale ou progressive)
+      • {s:AEG} (asthénie, myalgies, anorexie)
+      • syndrome grippal (toux, rhinite, conjonctivite → viral)
+      • diarrhée (entérovirus)
+    - |-
+      Drapeaux étiologiques:
+      • adolescent + asthénie intense + polyadénopathie + splénomégalie → {p:MNI}
+      • ulcération unilatérale + halitose + mauvaise hygiène → {p:angine de Vincent}
+      • vésicules postérieures → herpangine; gingivostomatite → HSV
+      • voyage récent + non vacciné → {p:diphtérie}
+    - "Pratiques sexuelles ({s:fellation non protégée}) → IST pharyngées ({p:gonocoque}, syphilis, {p:HIV primo-infection})?"
+  atcd:
+    - "ATCD ORL: angines récidivantes (fréquence/an, germe identifié), amygdalectomie, portage streptocoque connu"
+    - |-
+      Terrain à risque:
+      • {e:immunodépression} (VIH, chimio, corticothérapie)
+      • {p:valvulopathie} (risque endocardite post-strepto)
+      • diabète, {e:grossesse}
+    - |-
+      Médicaments / automédication:
+      • antalgiques, AINS (efficacité, durée)
+      • antibiotiques déjà pris (lesquels)
+      • phytothérapie, gargarismes
+    - |-
+      Facteurs de risque {p:cancer ORL}:
+      • tabac > 20 PA, alcool chronique
+      • {e:> 50 ans}, AEG, amaigrissement
+      • mal de gorge > 3 sem unilatéral
+    - "Contexte épidémiologique: collectivité (école, crèche), contage familial, vaccination diphtérie"
+    - "Question de clôture: 'Avez-vous des difficultés à respirer ou à ouvrir la bouche?'"
+
+red_flags:
+  - description: "{s:Trismus} + {s:voix pomme chaude} + déviation luette + fièvre élevée + bombement voile asymétrique"
+    dx_suspecte: "{p:Phlegmon / abcès péri-amygdalien}"
+    action: "Hospitalisation ORL urgente; ponction/drainage + {r:amoxicilline-acide clavulanique IV} ± métronidazole; corticoïdes IV si œdème"
+  - description: "{s:Stridor} + dyspnée laryngée + position tripode + {s:hypersialorrhée} + refus de s'allonger"
+    dx_suspecte: "{p:Épiglottite} / laryngite sous-glottique sévère"
+    action: "NE PAS examiner la gorge; transfert immédiat en O.R.; {r:ceftriaxone 2 g IV} + intubation prête (anesthésie/ORL au lit)"
+  - description: "{s:Tuméfaction cervicale} diffuse + œdème plancher buccal + 'cou de taureau' + dyspnée"
+    dx_suspecte: "{p:Cellulite cervicale / angine de Ludwig}"
+    action: "USI; {r:ATB IV large spectre} (amox-clav + clindamycine ou pipéracilline-tazobactam); chirurgie urgente (drainage/nécrosectomie); {t:TDM cervico-thoracique}"
+  - description: "Mal de gorge unilatéral > {e:3 semaines} + {e:tabac/alcool} + dysphagie + amaigrissement + {s:adénopathie cervicale fixée}"
+    dx_suspecte: "{p:Cancer pharyngo-laryngé}"
+    action: "Nasofibroscopie + {t:TDM cervico-thoracique} + biopsie; RCP ORL; pas d'antibiothérapie aveugle [VÉRIFIER:délai exact 3 vs 4 semaines selon référentiel SPILF/HAS]"
+  - description: "Mal de gorge + {s:AEG sévère} ou {s:sepsis} (hypotension, marbrures, confusion) + déshydratation"
+    dx_suspecte: "{p:Sepsis pharyngé} / déshydratation décompensée"
+    action: "Remplissage cristalloïdes, hémocultures, {r:ATB IV} empirique, hospitalisation; rechercher porte d'entrée profonde"
+  - description: "Mal de gorge fébrile + {e:immunodépression} (VIH, chimio, neutropénie) + fausses membranes ou ulcérations"
+    dx_suspecte: "{p:Angine ulcéro-nécrotique sur agranulocytose} / candidose / HSV invasif"
+    action: "{t:NFS urgente} (PNN < 500 = agranulocytose); cultures + {r:antifongique} ou aciclovir; isolement protecteur"
+
+# source: lines 183-262
+examen:
+  general:
+    - "Signes vitaux: T°, FC, TA, FR, SaO2 (dyspnée = épiglottite)"
+    - "État général (sepsis, déshydratation, AEG)"
+    - "Score de Glasgow si confusion"
+  cible:
+    - |-
+      Inspection oropharynx (abaisse-langue):
+      • muqueuse pharyngée (érythème, œdème)
+      • amygdales (taille 1-4, exsudat blanc/gris, fausses membranes, ulcérations, vésicules)
+      • voile du palais (symétrie — {p:phlegmon} = asymétrie + œdème luette)
+    - |-
+      Langue et haleine:
+      • langue framboisée ({p:scarlatine})
+      • langue saburrale / dépapillée
+      • haleine fétide ({p:Vincent}, phlegmon)
+    - |-
+      Palpation cervicale (aires ganglionnaires):
+      • sous-mandibulaires (satellites angine)
+      • jugulo-carotidiennes
+      • occipitales/spinales ({p:MNI})
+      • caractère: taille, sensibilité, mobilité (fixées = cancer)
+    - "ORL complet: otoscopie (otite associée?), rhinoscopie (rhinopharyngite?), cavité buccale (gingivite, aphtes)"
+    - |-
+      Examen général:
+      • {s:splénomégalie} ({p:MNI})
+      • hépatomégalie (MNI, hépatite)
+      • éruption: scarlatiniforme, morbilliforme, purpura ({p:méningocoque})
+      • signes de déshydratation
+    - |-
+      {t:Score de Mac Isaac} (FATAA):
+      • Fièvre > 38°C: +1
+      • Absence de toux: +1
+      • Adénopathies cervicales sensibles: +1
+      • Atteinte amygdalienne (volume/exsudat): +1
+      • Âge 3-14 ans: +1; 15-44: 0; ≥45: -1
+      → Score ≤ 1: pas de TDR; ≥ 2: TDR streptocoque
+
+dd_top5:
+  - dx: "{p:Pharyngite virale}"
+    indices: "~80 % des mal de gorge ambulatoires; toux, rhinite, conjonctivite, fièvre modérée, érythème pharyngé diffus, Mac Isaac ≤ 1; résolution 3-7 j; aucun ATB"
+    freq: "très fréquent (la grande majorité)"
+  - dx: "{p:Angine streptococcique (SGA)}"
+    indices: "Début brutal, fièvre élevée, absence de toux, exsudat pultacé, adénopathies sensibles, Mac Isaac ≥ 2; {t:TDR strepto} positif; risque RAA/GNA"
+    freq: "fréquent (~15-30 % chez enfant 3-14 ans, 5-15 % adulte) [VÉRIFIER:pourcentages selon SPILF 2021]"
+  - dx: "{p:Mononucléose infectieuse (EBV)}"
+    indices: "Adolescent/jeune adulte, asthénie intense, polyadénopathie cervicale postérieure + occipitale, splénomégalie, fausses membranes, MNI test + sérologie EBV; PAS d'amoxicilline (rash)"
+    freq: "fréquent chez 15-25 ans"
+  - dx: "{p:Phlegmon / abcès péri-amygdalien}"
+    indices: "Complication d'angine; trismus, voix chaude, hypersialorrhée, bombement voile unilatéral, fièvre élevée; urgence ORL [VÉRIFIER:incidence exacte angine → phlegmon ~1 %]"
+    freq: "peu fréquent mais urgence"
+  - dx: "{p:Cancer pharyngo-laryngé}"
+    indices: "> 50 ans, tabac/alcool, mal de gorge unilatéral persistant > 3 sem, dysphagie progressive, otalgie réflexe, adénopathie cervicale fixée, AEG; nasofibroscopie + biopsie"
+    freq: "rare mais à ne pas manquer [VÉRIFIER:ordre 4-5 vs phlegmon selon urgence/fréquence]"
+
+# source: lines 266-389
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: stridor / sepsis / trismus → urgence avant tout antalgique"
+    - "Calcul {t:Mac Isaac} systématique → décision TDR"
+    - "Mac Isaac ≤ 1: traitement symptomatique seul ({r:paracétamol 1 g × 4/j}); pas d'ATB"
+    - "TDR positif: {r:amoxicilline 1 g × 2/j PO × 6 jours} (adulte); {r:50 mg/kg/j en 2 prises × 6 j} (enfant)"
+    - "Allergie pénicilline non anaphylactique: {r:céfuroxime-axétil 250 mg × 2/j × 4 j} ou cefpodoxime 100 mg × 2/j × 5 j"
+    - "Allergie anaphylactique: {r:azithromycine 500 mg/j × 3 j} ou clarithromycine 250 mg × 2/j × 5 j"
+    - "{p:MNI} suspectée: repos, éviction sports contact × 1 mois (rupture rate); JAMAIS amoxicilline; corticoïdes si obstruction"
+    - "{p:Angine de Vincent}: {r:pénicilline V} ou métronidazole + soins bucco-dentaires"
+    - "{p:Phlegmon}: hospitalisation + ponction/drainage + {r:amox-clav IV} + corticoïdes"
+    - "Symptomatique commun: hydratation +++, alimentation adaptée, gargarismes; AINS avec prudence (risque cellulite à forte dose) [VÉRIFIER:position SPILF/HAS sur AINS]"
+  orientation:
+    - "Domicile: angine virale ou streptococcique non compliquée, examen normal, observance assurée"
+    - "Urgences ORL: trismus, voix chaude, asymétrie voile, dyspnée, sepsis, terrain immunodéprimé"
+    - "Consultation ORL différée: mal de gorge > 3 sem unilatéral chez fumeur (suspicion cancer)"
+    - "Consignes de retour: dyspnée, impossibilité d'avaler, trismus, fièvre persistante > 72 h"
+    - "Suivi médecin traitant: réévaluation 48-72 h si ATB; signes d'alerte RAA (2-3 sem) et GNA (10 j) post-strepto"
+
+examens_complementaires:
+  - "{t:TDR streptocoque A}: systématique si Mac Isaac ≥ 2; résultat 5-10 min (sens. ~90 %, spéc. ~95 %)"
+  - "{t:NFS}: angine sévère/atypique, suspicion MNI (syndrome mononucléosique), agranulocytose, hyperleucocytose bactérienne"
+  - "{t:MNI test + sérologie EBV (VCA-IgM)}: suspicion MNI (adolescent, polyadénopathie, splénomégalie)"
+  - "{t:Prélèvement pharyngé pour culture}: échec traitement, immunodéprimé, recherche gonocoque/diphtérie"
+  - "{t:TDM cervico-thoracique injectée}: suspicion abcès profond, cellulite cervicale, médiastinite, cancer ORL"
+  - "{t:Nasofibroscopie ORL}: mal de gorge > 3 sem, trismus, suspicion bas larynx/cancer"
+
+criteres_hospitalisation:
+  - "Signes de gravité locaux: dyspnée laryngée, dysphagie majeure, suspicion phlegmon ou cellulite"
+  - "Signes généraux graves: sepsis, déshydratation sévère (impossibilité de boire)"
+  - "Terrain fragile: immunodépression, agranulocytose, nourrisson < 3 mois, valvulopathie"
+  - "Échec traitement ambulatoire à 48-72 h ou évolution défavorable"
+  - "Suspicion {p:cancer ORL} avec dénutrition ou obstruction haute"
+
+pieges:
+  - "Prescrire {r:amoxicilline} sur 'angine pseudomembraneuse' SANS éliminer {p:MNI} → rash cutané maculo-papuleux quasi systématique"
+  - "Banaliser un mal de gorge > 3 sem chez {e:fumeur > 50 ans} sans nasofibroscopie → retard diagnostic {p:cancer ORL}"
+  - "Examiner activement la gorge en cas de {s:stridor} + position tripode chez l'enfant → risque arrêt respiratoire ({p:épiglottite}); transférer en O.R. d'abord"
+  - "ATB systématique pour 'angine' sans TDR ni score → ~80 % viral, sélection résistances, masquage phlegmon"
+  - "Sous-estimer un {s:trismus} naissant ou une voix 'pomme chaude' → {p:phlegmon} négligé évolue en cellulite cervicale / médiastinite"
+
+cartes_liees:
+  - SSP-ORL-01
+  - SYS-ORL
+  - TOOL-MAC-ISAAC

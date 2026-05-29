@@ -1,0 +1,197 @@
+id: SSP-ORL-07
+type: ssp
+title: Masses cervicales
+discipline: ORL
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Masses_Cervicales.md
+
+# source: MD lignes 9-152
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • triangle antérieur médian (thyroïde, kyste thyréoglosse)
+      • triangle antérieur latéral (adénopathies jugulo-carotidiennes, kyste branchial, parotide)
+      • triangle postérieur (adénopathies spinales, lipome, lymphangiome)
+      • {s:sus-claviculaire} (Troisier à gauche, lymphome)
+    - |-
+      Onset:
+      • brutal en quelques jours → infection / kyste infecté
+      • progressif en semaines → lymphome, métastase
+      • lent (mois-années) → tumeur bénigne, kyste congénital
+    - "Character: dure (cancer) / ferme élastique (ganglion) / molle (lipome) / fluctuante (abcès) / pulsatile (paragangliome)?"
+    - "Radiation: irradiation otalgique unilatérale ({s:otalgie réflexe} = cancer ORL jusqu'à preuve contraire), mâchoire?"
+    - |-
+      Time — CLÉ DIAGNOSTIQUE:
+      • {r:< 1 semaine} → infectieux probable
+      • 1-4 semaines → infectieux/inflammatoire
+      • {r:> 4-6 semaines} → néoplasique à éliminer
+    - "Exacerbating: épisodes inflammatoires répétés (kyste branchial surinfecté), modifications taille (sialadénite à la mastication)"
+    - "Relieving: antibiothérapie déjà essayée (efficace? rechute?)"
+    - "Severity: dimensions en cm (3 axes), retentissement (dysphagie, dyspnée, dysphonie), AEG"
+  specifique:
+    - |-
+      Symptômes locaux compressifs ({s:URGENCE}):
+      • dysphagie (œsophage)
+      • dysphonie (nerf récurrent)
+      • dyspnée stridor (trachée)
+      • {s:syndrome de Claude Bernard-Horner} (sympathique cervical)
+      • œdème en pèlerine (compression cave supérieure)
+    - |-
+      Signes B {p:lymphome}:
+      • fièvre vespérale > 38 °C
+      • sueurs nocturnes profuses
+      • amaigrissement > 10 % en 6 mois
+    - |-
+      Signes ORL associés (recherche primitif):
+      • otalgie réflexe unilatérale
+      • obstruction nasale unilatérale + épistaxis (cavum)
+      • dysphonie persistante > 3 sem
+      • odynophagie, trismus, dysphagie haute
+    - "{s:Fièvre + rougeur + chaleur + fluctuation} (adénite suppurée, abcès cervical)?"
+    - "{e:Contage tuberculeux} ou origine de zone endémique, griffure de chat (Bartonella), rapports non protégés (VIH, syphilis)?"
+    - "Localisation médiane: mobile à la déglutition (thyroïde), ascensionne à la protraction linguale (kyste thyréoglosse)?"
+  atcd:
+    - |-
+      Facteurs de risque {p:cancer ORL}:
+      • {r:tabac + alcool} (synergie)
+      • âge > 40 ans
+      • exposition professionnelle (bois, amiante, radiations)
+      • irradiation cervicale enfance
+    - |-
+      ATCD oncologiques personnels:
+      • cancer thyroïde, sein, poumon, digestif (estomac si Troisier)
+      • lymphome traité, mélanome facial/cuir chevelu
+    - "ATCD familiaux: cancer thyroïde (MEN-2), lymphome, paragangliome familial"
+    - |-
+      Immunodépression:
+      • VIH
+      • traitement immunosuppresseur, biothérapie
+      • chimiothérapie en cours
+    - "Vaccinations (BCG), pays d'origine [VÉRIFIER: épidémiologie locale tuberculose ganglionnaire CHUV/HUG]"
+    - "Infections ORL récentes/récurrentes (angines, sinusites, abcès dentaires), pathologie salivaire (lithiase, sialadénite)"
+
+# source: MD lignes 11-152, 295-447
+red_flags:
+  - description: "Adénopathie {s:dure + fixée} chez {e:> 40 ans} tabagique/éthylique ± otalgie réflexe"
+    dx_suspecte: "{p:Métastase ganglionnaire d'un cancer ORL} (cavum, oropharynx, larynx)"
+    action: "{t:Nasofibroscopie + panendoscopie ORL + TDM cervico-thoracique injecté + cytoponction écho-guidée}; RCP onco-ORL"
+  - description: "Adénopathies multiples + {s:signes B} (fièvre vespérale, sueurs nocturnes, amaigrissement > 10 %)"
+    dx_suspecte: "{p:Lymphome} (Hodgkin / non hodgkinien)"
+    action: "{r:Biopsie-exérèse ganglionnaire chirurgicale} (architecture nécessaire — PAS de cytoponction seule); {t:TDM TAP + TEP-TDM + BOM + LDH}"
+  - description: "{s:Adénopathie sus-claviculaire gauche} (ganglion de Troisier / Virchow)"
+    dx_suspecte: "{p:Cancer digestif} (gastrique surtout) ou abdomino-pelvien"
+    action: "{t:TDM TAP + endoscopie digestive haute + coloscopie}; cytoponction guidée"
+  - description: "{s:Signes compressifs aigus}: stridor, dyspnée, dysphagie haute, paralysie nerveuse récente"
+    dx_suspecte: "{p:Compression aérodigestive} (tumeur, abcès, hématome, lymphome volumineux)"
+    action: "Hospitalisation immédiate; {t:nasofibroscopie + TDM cervical injecté} en urgence; appel ORL/anesthésie pour gestion VAS"
+  - description: "Masse cervicale {s:fluctuante + rouge + chaude + fièvre} ± trismus"
+    dx_suspecte: "{p:Abcès cervical profond} / adénite suppurée / phlegmon (risque médiastinite descendante)"
+    action: "{t:TDM cervico-thoracique injecté}; {r:antibiothérapie IV} (amox-clav 2,2 g × 3/j) + drainage chirurgical [VÉRIFIER: protocole local antibiothérapie empirique CHUV/HUG]"
+  - description: "{e:Enfant} avec adénopathie chronique violacée + fistule cutanée"
+    dx_suspecte: "{p:Mycobactériose atypique} ou {p:tuberculose ganglionnaire}"
+    action: "PCR mycobactéries + culture; exérèse chirurgicale ± antituberculeux selon contexte"
+
+# source: MD lignes 155-269
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T°, FR, SaO2 (fièvre, retentissement compressif)"
+    - "État général: AEG, cachexie, pâleur (anémie de lymphome), ictère"
+    - "Inspection cervicale debout puis cou en hyperextension: asymétrie, tuméfaction médiane vs latérale, peau (rougeur, fistule, cicatrices)"
+    - "Palpation systématique des {t:6 niveaux ganglionnaires} (I-VI) bilatéraux + occipitaux, rétro/pré-auriculaires, sus-claviculaires, axillaires, inguinaux"
+  cible:
+    - |-
+      Caractérisation de la masse — 6 critères:
+      • localisation (niveau I-VI, rapport SCM/clavicule)
+      • dimensions 3 axes (cm)
+      • consistance (dure/ferme/molle/fluctuante/pulsatile)
+      • {s:mobilité} (mobile = bénin / adhérente / {s:fixée} = malin)
+      • surface (lisse/bosselée/irrégulière)
+      • sensibilité (douloureuse = inflammatoire / indolore = tumoral)
+    - |-
+      Tests spécifiques:
+      • transillumination (kyste liquidien)
+      • mobilité à la déglutition (thyroïde)
+      • ascension à la protraction linguale (kyste thyréoglosse)
+      • auscultation/pulsatilité (paragangliome, MAV)
+      • compression jugulaire (obstacle veineux)
+    - |-
+      Examen ORL complet (recherche primitif):
+      • cavité buccale: muqueuse jugale, langue (mobile + base bidigitale), plancher buccal, amygdales (asymétrie, ulcération)
+      • {t:nasofibroscopie} si > 40 ans + FdR (cavum, fosses nasales, larynx, mobilité cordes vocales)
+      • palpation parotide (Sténon) et sous-maxillaire bimanuelle (Wharton, lithiase)
+    - |-
+      Paires crâniennes ({s:extension tumorale}):
+      • VII paralysie faciale (parotide maligne)
+      • IX/X troubles déglutition
+      • XI déficit trapèze/SCM
+      • XII déviation langue
+    - "Examen cutané facial + cuir chevelu (carcinome épidermoïde, mélanome méconnu)"
+    - "Auscultation pulmonaire + palpation abdominale (HSM lymphome, masse abdo si Troisier)"
+
+# source: MD lignes 345-389 + pivots cliniques
+dd_top5:
+  - dx: "{p:Adénopathie réactionnelle / infectieuse}"
+    indices: "Contexte infectieux ORL/dentaire récent, douleur, ferme élastique, mobile, < 2 cm, régresse en 2-4 sem; NFS hyperleucocytose, CRP élevée; sérologies EBV/CMV/Toxo/Bartonella selon contexte"
+    freq: "très fréquent (cause #1 enfant et adulte jeune)"
+  - dx: "{p:Métastase ganglionnaire d'un cancer ORL ou thyroïdien}"
+    indices: "{e:> 40 ans}, tabac + alcool, dure, fixée, indolore, niveau II-III; otalgie réflexe, dysphonie; {t:panendoscopie + TDM + cytoponction}"
+    freq: "fréquent > 40 ans (1ère cause cancer cervical) [VÉRIFIER: hiérarchie épidémiologique vs lymphome chez l'adulte d'âge moyen]"
+  - dx: "{p:Lymphome} (Hodgkin / non hodgkinien)"
+    indices: "Adultes jeunes (Hodgkin) ou âgés (LNH), adénopathies multiples bilatérales, fermes indolores, signes B; LDH élevée; {r:biopsie ganglionnaire chirurgicale} obligatoire"
+    freq: "fréquent, surtout 15-40 ans (Hodgkin) et > 60 ans (LNH)"
+  - dx: "{p:Tumeur des glandes salivaires} (parotide surtout)"
+    indices: "Masse pré-auriculaire / sous-mandibulaire; adénome pléomorphe (80 %, bénin) vs carcinome ({s:paralysie faciale + douleur + fixité} = malignité); {t:IRM + cytoponction}"
+    freq: "peu fréquent (tumeur parotidienne 1-3 % cancers ORL)"
+  - dx: "{p:Kyste congénital} (kyste branchial latéral, kyste thyréoglosse médian)"
+    indices: "Adulte jeune ou enfant, masse rénitente, parfois surinfectée; kyste branchial: bord antérieur SCM; thyréoglosse: médian, ascension à la protraction linguale"
+    freq: "fréquent enfant/adulte jeune"
+
+# source: MD lignes 273-453
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: signes compressifs aigus, ganglion de Troisier, lymphome suspecté → hospitalisation / urgence ORL"
+    - "Masse < 2 sem avec signes infectieux: {r:antibiothérapie d'épreuve} (amox-clav 1 g × 3/j PO, 7-10 j) + réévaluation à 10-14 j [VÉRIFIER: posologie pédiatrique adaptée au poids]"
+    - "Abcès cervical / adénite suppurée: {r:amox-clav 2,2 g IV × 3/j} ± drainage chirurgical; ajouter clindamycine si allergie"
+    - "Masse 2-4 sem: {t:échographie cervicale} systématique + bilan bio (NFS, CRP, VS, LDH, TSH, sérologies orientées) + cytoponction écho-guidée si doute"
+    - "Masse > 4-6 sem: jamais d'antibiothérapie aveugle → {t:imagerie (écho + TDM)} + {r:histologie obligatoire} (cytoponction puis biopsie chirurgicale si lymphome suspecté)"
+    - "Suspicion {p:cancer ORL}: {t:nasofibroscopie + panendoscopie sous AG + TDM/IRM + biopsie}, présentation RCP onco-ORL"
+    - "Suspicion {p:lymphome}: {r:biopsie-exérèse ganglionnaire} (PAS de cytoponction seule), bilan extension (TDM TAP, TEP-TDM, BOM, LDH, β2-microglobuline), classification Ann Arbor, adresser hémato"
+  orientation:
+    - "Domicile + suivi MT: masse < 2 sem, contexte infectieux clair, examen rassurant, réévaluation à 10-14 j obligatoire"
+    - "Urgences ORL: signes compressifs (dyspnée, dysphagie), abcès collecté, paralysie nerveuse récente, masse rapidement progressive"
+    - "ORL programmé < 2 sem: masse > 4 sem sans diagnostic, FdR cancer (> 40 ans + tabac/alcool), suspicion cancer ORL, indication chirurgicale"
+    - "Hémato: lymphome confirmé ou fortement suspecté; endocrinologie: nodule thyroïdien suspect (Bethesda ≥ III)"
+    - "Consignes de retour: apparition dyspnée/dysphagie, fièvre élevée, augmentation rapide, paralysie faciale ou voix bitonale"
+
+# source: MD lignes 277-322
+examens_complementaires:
+  - "{t:Échographie cervicale + Doppler}: 1ère intention — différencie solide/kystique, guide la cytoponction, étudie vascularisation"
+  - "{t:Cytoponction écho-guidée (FNA, 23-25G)}: standard pour caractériser nodule thyroïdien (Bethesda) et adénopathie suspecte (sauf lymphome)"
+  - "{t:Biopsie-exérèse chirurgicale ganglionnaire}: obligatoire si suspicion {p:lymphome} (architecture), échec FNA, masse suspecte unique"
+  - "{t:TDM cervico-thoracique injecté} ± {t:IRM cervicale}: bilan d'extension tumoral, recherche primitif, tissus mous/base du crâne"
+  - "{t:TEP-TDM}: bilan extension lymphome, recherche primitif occulte si adénopathie métastatique avec primitif inconnu"
+  - "Biologie: NFS, CRP, VS, LDH (lymphome), TSH + T4 (thyroïde), calcémie, bilan hépatique; sérologies VIH, EBV, CMV, Toxo, Bartonella, TPHA-VDRL selon contexte"
+
+# source: MD lignes 442-453 + pivots
+criteres_hospitalisation:
+  - "Signes compressifs aigus: stridor, dyspnée, dysphagie haute → risque VAS"
+  - "Abcès cervical / phlegmon profond → drainage chirurgical + antibiothérapie IV"
+  - "Suspicion forte de {p:cancer ORL} avec retentissement (dénutrition, douleur incontrôlée)"
+  - "{p:Lymphome} symptomatique (signes B sévères, syndrome cave supérieur)"
+  - "Paralysie nerveuse récente (VII, IX, X, XII) ou {s:Claude Bernard-Horner} nouveau"
+
+# source: MD lignes 485-491 + pivots
+pieges:
+  - "Traiter par antibiotiques itératifs sans réévaluer une masse {r:> 4 sem} chez l'adulte > 40 ans (cancer ORL méconnu)"
+  - "Faire une biopsie d'emblée sans imagerie préalable: risque de fistule si kyste branchial, ensemencement si tumeur maligne"
+  - "Réaliser une simple {t:cytoponction} pour un {p:lymphome} suspecté — la biopsie-exérèse est indispensable pour l'architecture et le typage [VÉRIFIER: place actuelle de la microbiopsie 14-18G en remplacement de la chirurgie selon protocole local]"
+  - "Oublier la {t:panendoscopie ORL + endoscopie digestive haute} chez un fumeur/éthylique avec adénopathie cervicale (recherche primitif)"
+  - "Méconnaître la {p:tuberculose ganglionnaire} chez le patient migrant ou immunodéprimé (PCR mycobactéries + culture sur ponction)"
+
+cartes_liees:
+  - SSP-ORL-Angine
+  - SYS-ORL

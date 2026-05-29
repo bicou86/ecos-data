@@ -1,0 +1,219 @@
+id: SSP-ORL-08
+type: ssp
+title: Otalgie
+discipline: ORL
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Otalgie.md
+  - Collège ORL 2020 - Otites
+  - SPILF 2021 - Antibiothérapie ORL
+
+# source: line 9-189
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • {s:unilatérale ou bilatérale}?
+      • profonde (oreille moyenne) vs superficielle (pavillon / CAE)?
+      • douleur projetée 'dans l'oreille' sans foyer ORL → otalgie réflexe (30 %)
+    - |-
+      Onset:
+      • brutal (OMA, myringite bulleuse, barotraumatisme)
+      • progressif (otite externe, cancer ORL)
+      • post-baignade ou coton-tige (otite externe)
+    - |-
+      Character:
+      • {s:pulsatile} → {p:otite moyenne aiguë}
+      • continue, sourde, exacerbée à la mobilisation du pavillon → {p:otite externe}
+      • lancinante, brûlante → {p:zona auriculaire}
+      • plénitude / pression → otite séromuqueuse
+    - "Radiation: vers ATM, mâchoire, gorge, dents, cou (oriente vers cause réflexe)"
+    - |-
+      Time:
+      • durée (heures, jours, semaines)
+      • {r:> 3 semaines} chez adulte + otoscopie normale → bilan cancer ORL
+      • aggravée la nuit / position couchée → OMA
+    - |-
+      Exacerbating:
+      • mobilisation pavillon / pression tragus → otite externe
+      • mastication, déglutition → ATM, pharynx, dent
+      • mouchage, Valsalva, vol en avion → barotraumatisme
+    - "Relieving: position verticale, antalgiques (efficacité ?), chaleur locale"
+    - |-
+      Severity:
+      • intensité 0-10
+      • impact sommeil, alimentation, scolarité/travail
+      • résistance aux antalgiques → suspicion otite externe nécrosante
+  specifique:
+    - |-
+      Symptômes auriculaires:
+      • {s:otorrhée} purulente (OMA perforée, otite externe), claire (OSM), sanglante (trauma, tumeur), fétide ({p:cholestéatome} / otite externe nécrosante)
+      • {s:hypoacousie} de transmission (otite, bouchon) ou de perception (labyrinthite)
+      • acouphènes, plénitude auriculaire, prurit (otite externe / mycose)
+    - |-
+      Symptômes vestibulaires:
+      • vertiges rotatoires vrais → {p:labyrinthite}
+      • instabilité simple → OMA
+      • nausées, vomissements
+    - |-
+      Symptômes généraux:
+      • {s:fièvre}, frissons → OMA, mastoïdite, otite externe nécrosante
+      • {s:céphalées + raideur de nuque} → méningite otogène
+      • altération état général, AEG inexpliquée → cancer ORL si > 50 ans
+    - |-
+      Signes orientant otalgie réflexe (otoscopie normale):
+      • douleurs dentaires / soins récents (caries, dent de sagesse)
+      • odynophagie, dysphagie, dysphonie → pharynx / larynx
+      • claquements ATM, bruxisme, limitation ouverture buccale
+      • {s:vésicules pavillon/CAE} + paralysie faciale → {p:Ramsay-Hunt}
+    - "Contexte épidémique: rhinopharyngite récente, contage crèche/école (enfants), saison (hiver = OMA, été = otite externe)"
+  atcd:
+    - |-
+      ATCD ORL:
+      • otites récidivantes, chirurgies otologiques (paracentèse, aérateurs, tympanoplastie)
+      • perforation tympanique connue, cholestéatome opéré ou non
+      • traumatisme auriculaire, barotraumatisme
+    - |-
+      Terrain À RISQUE de forme grave:
+      • {e:diabète} (surtout mal équilibré) → {p:otite externe nécrosante}
+      • immunodépression (VIH, corticoïdes, chimiothérapie)
+      • {e:âge > 65 ans}
+      • {e:âge > 50 ans + tabac/alcool} → cancer pharyngo-laryngé
+    - |-
+      FdR otite externe:
+      • baignade fréquente, climat chaud/humide
+      • coton-tige, nettoyage excessif, appareils auditifs
+      • eczéma/psoriasis du CAE
+    - |-
+      Traitements essayés:
+      • antalgiques, antibiotiques (lesquels ? durée ? efficacité ?)
+      • gouttes auriculaires (CI si perforation), automédication
+    - "Vaccinations: pneumocoque, Haemophilus (otites récidivantes) ; tabagisme passif (enfant)"
+
+# source: pivots cliniques + sections complications/spécifiques MD
+red_flags:
+  - description: "{s:Otalgie persistante > 3 sem} + otoscopie normale chez adulte {e:> 50 ans} tabac/alcool ± dysphagie / dysphonie / adénopathie cervicale"
+    dx_suspecte: "{p:Cancer pharyngo-laryngé} (otalgie réflexe — 50 % des otalgies réflexes prolongées)"
+    action: "Consultation ORL urgente + {t:nasofibroscopie / panendoscopie} + {t:TDM cervico-faciale} ; biopsie des lésions suspectes. [VÉRIFIER:délai exact recommandé pour panendoscopie selon protocole CHUV/HUG]"
+  - description: "{e:Diabétique âgé} avec otalgie intense résistante aux antalgiques + otorrhée purulente persistante + tissu de granulation au plancher du CAE ± paralysie faciale"
+    dx_suspecte: "{p:Otite externe nécrosante (maligne)} à Pseudomonas (95 %)"
+    action: "Hospitalisation ORL ; {t:TDM rochers} + IRM ; {r:ciprofloxacine 400 mg IV × 3/j + ceftazidime 2 g IV × 3/j} pendant 6-12 semaines ; équilibration glycémique stricte. [VÉRIFIER:protocole antibiotique CHUV/HUG et durée minimale]"
+  - description: "{s:Otalgie intense brûlante + vésicules} (pavillon, CAE, conque, tragus) + {s:paralysie faciale périphérique} ± hypoacousie / vertiges"
+    dx_suspecte: "{p:Syndrome de Ramsay-Hunt} (zona du ganglion géniculé, VII + VIII)"
+    action: "{r:Valaciclovir 1 g PO × 3/j × 7-10 j} à débuter {r:< 72 h} + {r:prednisolone 1 mg/kg/j × 7 j} si paralysie faciale + protection oculaire + antalgiques palier 2-3"
+  - description: "OMA + {s:douleur rétro-auriculaire + décollement du pavillon + tuméfaction mastoïdienne} ± fièvre élevée ± atteinte conscience"
+    dx_suspecte: "{p:Mastoïdite} ± complications endocrâniennes (abcès, thrombophlébite sinus latéral, méningite)"
+    action: "Hospitalisation urgente ; {t:TDM rochers + IRM cérébrale} ; {r:ceftriaxone IV + métronidazole IV} ; mastoïdectomie si collection ou échec ATB 48 h"
+  - description: "Otite ± otalgie + {s:fièvre + céphalées + raideur de nuque} ± photophobie ± purpura"
+    dx_suspecte: "{p:Méningite otogène}"
+    action: "{t:TDM cérébrale} puis {t:PL} (sauf signes focaux) ; {r:ceftriaxone 2 g IV + vancomycine 15-20 mg/kg IV + dexaméthasone 10 mg IV} sans délai"
+  - description: "{s:Otite séromuqueuse unilatérale} persistante chez {e:adulte}, ± obstruction nasale / épistaxis / adénopathie cervicale"
+    dx_suspecte: "{p:Cancer du nasopharynx (cavum)}"
+    action: "Consultation ORL ; {t:nasofibroscopie} + biopsie du cavum + {t:IRM cavum} ; recherche EBV sérique. [VÉRIFIER:indication systématique nasofibroscopie devant OSM unilatérale adulte]"
+  - description: "{s:Pile bouton dans le CAE} (enfant) ou trauma pénétrant avec otorrhée hémorragique"
+    dx_suspecte: "Corps étranger caustique / perforation tympanique traumatique"
+    action: "Extraction ORL en urgence (risque brûlure caustique en < 4 h pour pile bouton) ; ne pas irriguer"
+
+# source: line 193-296
+examen:
+  general:
+    - "Signes vitaux: T°, FC, TA, FR, SaO2 ; {s:état général} (AEG → cancer / sepsis)"
+    - "Inspection cutanée: vésicules (zona), purpura (méningococcémie), signes de déshydratation chez l'enfant"
+    - "Palpation cervicale: {s:adénopathies} (localisation, taille, dureté — suspect si > 1 cm dur fixé), parotides, sous-maxillaires, thyroïde"
+    - "Examen général chez l'enfant: poids, hydratation, état d'éveil"
+  cible:
+    - |-
+      Inspection externe AVANT otoscopie:
+      • pavillon: érythème, œdème, {s:vésicules} (zona)
+      • région mastoïdienne: tuméfaction, {s:décollement du pavillon} (mastoïdite)
+      • {t:signe du tragus}: douleur à la pression → {p:otite externe}
+    - |-
+      {t:Otoscopie bilatérale comparative} (examen clé):
+      • technique: traction haut/arrière (adulte), bas/arrière (enfant < 3 ans)
+      • CAE: érythème/œdème (otite externe), otorrhée, furoncle, cérumen, {p:pile bouton} (enfant — urgence)
+      • tympan normal: gris nacré, triangle lumineux antéro-inférieur, manche du marteau
+      • {p:OMA}: hyperhémie radiée (congestif) → {s:bombement} (collecté) → perforation + otorrhée pulsatile
+      • autres: rétraction (OSM), niveau liquidien, bulles ({p:myringite bulleuse}), {s:masse blanc nacré} ({p:cholestéatome})
+    - |-
+      {t:Acoumétrie au diapason 512 Hz}:
+      • {t:Weber} latéralisé côté atteint → transmission ; latéralisé côté sain → perception
+      • {t:Rinne} négatif → surdité de transmission (OMA, bouchon, OSM)
+    - |-
+      Examen ORL complet (recherche cause réflexe si otoscopie normale):
+      • rhinoscopie + nasofibroscopie (cavum, larynx)
+      • pharynx: érythème, exsudat, voile (asymétrie → phlegmon)
+      • amygdales (hypertrophie, cryptes), base de langue
+      • dents: percussion douloureuse, caries, dent de sagesse
+      • {t:examen ATM}: palpation, amplitude ouverture, claquement, déviation
+    - |-
+      Examen neurologique orienté:
+      • {t:Nerf VII}: symétrie faciale au repos, mimique, signe de Charles Bell — paralysie faciale = urgence
+      • {t:Nerf VIII}: nystagmus spontané, Romberg, Fukuda
+      • {s:Signes méningés}: raideur de nuque, Kernig, Brudzinski, photophobie
+
+# source: pivots cliniques (table DD absente dans MD)
+dd_top5:
+  - dx: "{p:Otite moyenne aiguë (OMA)}"
+    indices: "Enfant ++ (pic 6 mois-3 ans), contexte rhinopharyngite, otalgie pulsatile + fièvre + hypoacousie de transmission ; otoscopie: tympan hyperémique puis {s:bombant} ± perforation + otorrhée pulsatile"
+    freq: "très fréquent (80 % enfants < 3 ans au moins 1 épisode)"
+  - dx: "{p:Otite externe}"
+    indices: "Adulte ++, contexte baignade / coton-tige, douleur continue exacerbée à la mobilisation du pavillon, {t:signe du tragus} +, prurit ; otoscopie: CAE érythémateux/œdémateux, débris, tympan souvent non visualisable ; Pseudomonas / S. aureus"
+    freq: "très fréquent (1/10 au cours de la vie)"
+  - dx: "{p:Otalgie réflexe sur cancer pharyngo-laryngé}"
+    indices: "{e:> 50 ans + tabac/alcool}, otalgie unilatérale persistante {r:> 3 sem}, {s:otoscopie strictement normale} + dysphagie / dysphonie / adénopathie cervicale ; nasofibroscopie pose le dx. [VÉRIFIER:seuil exact 3 vs 2 semaines selon recommandation française vs suisse]"
+    freq: "peu fréquent mais à NE PAS méconnaître (50 % des otalgies réflexes prolongées chez adulte)"
+  - dx: "{p:Otite externe nécrosante (maligne)}"
+    indices: "{e:Diabétique âgé / immunodéprimé}, otalgie intense {s:résistante aux antalgiques}, otorrhée purulente persistante, {s:tissu de granulation} au plancher du CAE, parfois paralysie faciale ; Pseudomonas aeruginosa ; TDM: ostéolyse temporale"
+    freq: "rare mais urgence vitale (mortalité 10-20 %)"
+  - dx: "{p:Zona auriculaire (Ramsay-Hunt)}"
+    indices: "Otalgie intense brûlante + {s:vésicules} zone de Ramsay-Hunt (CAE, conque, tragus) + paralysie faciale périphérique (60 %), ± hypoacousie de perception + vertiges (atteinte VIII)"
+    freq: "rare (5 / 100 000 / an) ; 2e cause de paralysie faciale périphérique"
+
+# source: line 299-373 + 397-451 + pivots
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord → identifier diabétique, otoscopie normale + adulte > 50 ans, paralysie faciale, syndrome méningé, vésicules avant tout traitement symptomatique"
+    - "{p:OMA enfant > 2 ans non compliquée}: surveillance 48-72 h + antalgiques ({r:paracétamol 60 mg/kg/j}) sans ATB d'emblée ; ATB si fièvre persistante, otalgie sévère, perforation"
+    - "{p:OMA avec critères ATB} ({e:< 2 ans}, otorrhée, otite bilatérale, terrain à risque): {r:amoxicilline 80-90 mg/kg/j PO en 2-3 prises × 5-10 j} ; adulte {r:amoxicilline 1 g × 3/j × 5 j} ; allergie pénicilline → cefpodoxime ou azithromycine"
+    - "{p:Otite externe simple}: {r:ofloxacine auriculaire 5 gouttes × 2/j × 7 j} ou ciprofloxacine + corticoïdes ; aspiration douce ; éviter eau et coton-tige ; {r:paracétamol 1 g × 4/j} ± AINS"
+    - "{p:Otite externe nécrosante}: hospitalisation ORL ; {r:ciprofloxacine 400 mg IV × 3/j + ceftazidime 2 g IV × 3/j × 6-12 sem} ; équilibration glycémique. [VÉRIFIER:choix biothérapie selon antibiogramme et protocole local]"
+    - "{p:Ramsay-Hunt}: {r:valaciclovir 1 g PO × 3/j × 7-10 j} < 72 h + {r:prednisolone 1 mg/kg/j × 7 j} si paralysie faciale + protection oculaire + antalgiques palier 2"
+    - "{p:Mastoïdite / méningite otogène}: {r:ceftriaxone IV ± métronidazole} ; mastoïdectomie / drainage si collection ; PL après imagerie si méningite suspectée"
+    - "Cause réflexe identifiée: dent → dentiste urgent ; ATM → repos, AINS, gouttière nocturne, kiné ; névralgie essentielle → {r:carbamazépine 200-400 mg × 2-3/j}"
+  orientation:
+    - "Domicile + suivi médecin traitant: OMA enfant > 2 ans non compliquée, otite externe simple, examen rassurant"
+    - "Contrôle clinique à 48-72 h si pas d'amélioration ; otoscopie à 1 mois pour OMA ; audiométrie si hypoacousie persistante"
+    - "Consultation ORL programmée: otites récidivantes (> 3 / 6 mois), OSM persistante > 3 mois, hypoacousie persistante, suspicion cholestéatome"
+    - "Consultation ORL urgente (< 7 j): adulte avec otalgie > 3 sem + otoscopie normale, OSM unilatérale adulte, paralysie faciale, vésicules"
+    - "Urgences hospitalières: tout red flag avéré (otite externe nécrosante, mastoïdite, méningite, Ramsay-Hunt avec PF, pile bouton CAE)"
+
+# source: line 301-318 + pivots
+examens_complementaires:
+  - "Aucun examen complémentaire si {p:OMA} ou {p:otite externe} simples (diagnostic clinique)"
+  - "{t:Prélèvement bactériologique} de l'otorrhée: échec ATB, otorrhée chronique, immunodépression, otite externe nécrosante"
+  - "{t:TDM des rochers sans injection}: suspicion {p:mastoïdite}, {p:cholestéatome}, {p:otite externe nécrosante} (ostéolyse), trauma temporal"
+  - "{t:IRM cérébrale + parties molles}: complications endocrâniennes (abcès, thrombophlébite), extension otite nécrosante, suspicion {p:neurinome}"
+  - "{t:Nasofibroscopie + panendoscopie + biopsies}: otalgie > 3 sem + otoscopie normale + adulte (cancer ORL) ; OSM unilatérale adulte ({p:cancer cavum}). [VÉRIFIER:indication systématique panendoscopie vs nasofibroscopie seule en 1ère intention]"
+  - "{t:Audiométrie tonale + tympanogramme}: hypoacousie persistante, OSM, suspicion neurinome, suivi OMA récidivantes"
+
+# source: line 502-506 + pivots
+criteres_hospitalisation:
+  - "{p:Otite externe nécrosante} (diabétique / immunodéprimé) → ORL en urgence"
+  - "Complications otitiques: {p:mastoïdite}, {p:méningite otogène}, abcès cérébral, thrombophlébite sinus latéral, {p:labyrinthite}"
+  - "{p:Paralysie faciale otogène} ou {p:Ramsay-Hunt} avec atteinte multinerveuse"
+  - "Échec du traitement ambulatoire à 48-72 h ; douleur incontrôlée malgré antalgiques bien conduits"
+  - "Terrain fragile: {e:nourrisson < 3 mois} avec fièvre, immunodépression sévère, déshydratation"
+
+# source: line 520-525 + pivots
+pieges:
+  - "Banaliser une {s:otalgie chez adulte > 50 ans tabac/alcool} avec otoscopie normale: TOUJOURS nasofibroscopie après {r:3 semaines} pour éliminer un cancer pharyngo-laryngé (50 % des otalgies réflexes prolongées)"
+  - "Méconnaître l'{p:otite externe nécrosante} chez le diabétique âgé: otalgie {s:résistante aux antalgiques} + otorrhée + {s:tissu de granulation} → ne pas se contenter de gouttes locales, TDM + ATB IV"
+  - "Prescrire des {r:gouttes auriculaires aminosides ou polymyxine} sur un tympan perforé ({s:otorrhée}) → risque ototoxique ; préférer ofloxacine / ciprofloxacine"
+  - "Considérer une {p:OSM unilatérale chez l'adulte} comme banale: nasofibroscopie OBLIGATOIRE pour éliminer un cancer du cavum"
+  - "Oublier de chercher des {s:vésicules} (CAE, conque, palais) devant une paralysie faciale 'a frigore' → ne pas méconnaître un {p:Ramsay-Hunt} (fenêtre thérapeutique < 72 h)"
+
+cartes_liees:
+  - SYS-ORL
+  - SSP-ORL-01

@@ -1,0 +1,198 @@
+id: SSP-ORL-09
+type: ssp
+title: Perte d'audition
+discipline: ORL
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Perte_Audition.md
+
+# source: lines 13-96
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • {s:unilatérale} (droite/gauche) ou bilatérale (symétrique/asymétrique)?
+      • oreille externe / moyenne / interne suspectée?
+    - |-
+      Onset:
+      • {s:brutale < 72 h} → URGENCE
+      • progressive (semaines/mois/années)
+      • fluctuante (Ménière)
+      • par paliers
+    - "Character: surdité de transmission (sensation oreille bouchée) vs perception (distorsion, intelligibilité réduite)?"
+    - "Radiation: acouphènes associés (sifflement / bourdonnement / pulsatile)?"
+    - |-
+      Time:
+      • durée totale, évolution stable / aggravation / amélioration
+      • premier épisode ou récurrent?
+    - |-
+      Exacerbating:
+      • {s:exposition au bruit} (professionnel > 85 dB, concerts, écouteurs)
+      • {r:médicaments ototoxiques} (aminosides, furosémide, cisplatine, aspirine HD, quinine)
+      • grossesse (otospongiose)
+      • barotraumatisme (avion, plongée)?
+    - "Relieving: paracousie de Willis (mieux dans le bruit → {p:otospongiose})?"
+    - |-
+      Severity:
+      • impact: conversation en groupe, milieu bruyant, téléphone, TV (volume++)
+      • {s:isolement social}, retentissement professionnel, psychologique
+  specifique:
+    - |-
+      Symptômes otologiques associés:
+      • {s:otalgie} (OMA, otite externe)
+      • {s:otorrhée} (claire/purulente/sanglante/{s:fétide → cholestéatome})
+      • plénitude auriculaire (OSM, Ménière)
+      • prurit auriculaire
+    - |-
+      Symptômes vestibulaires:
+      • {s:vertiges rotatoires} (secondes → VPPB, heures → {p:Ménière})
+      • instabilité, déséquilibre
+      • nausées / vomissements
+    - |-
+      Symptômes neurologiques (drapeau APC):
+      • {s:céphalées}
+      • {s:paralysie faciale} (neurinome, zona auriculaire)
+      • paresthésies faciales (V), diplopie
+      • ataxie, troubles cognitifs
+    - "Triade {p:Ménière}: vertiges récurrents + hypoacousie fluctuante + acouphènes + plénitude"
+    - "Contexte pédiatrique: dépistage néonatal (OEA/PEA), retard de langage, inattention, prématurité, ictère sévère, CMV congénital"
+  atcd:
+    - "ATCD ORL: otites à répétition, chirurgies otologiques, traumatisme crânien, méningite"
+    - |-
+      ATCD familiaux:
+      • {p:otospongiose} (femme jeune, ATCD familiaux, aggravation grossesse) [VÉRIFIER:pénétrance ATCD familiaux otospongiose]
+      • surdités héréditaires (Alport, Usher)
+    - |-
+      FDR cardiovasculaires (presbyacousie, surdité brusque):
+      • HTA, diabète, dyslipidémie, tabagisme
+    - |-
+      Médicaments:
+      • {r:aminosides} (gentamicine)
+      • {r:diurétiques de l'anse} (furosémide HD)
+      • {r:cisplatine}, {r:carboplatine}
+      • {r:aspirine HD}, AINS prolongés
+      • quinine, érythromycine IV
+    - "Habitudes: exposition bruit (profession, loisirs), écouteurs, plongée, traumatisme barométrique récent"
+
+# source: lines 264-270 + clinical pivots
+red_flags:
+  - description: "{s:Surdité unilatérale brutale < 72 h} ± acouphène / plénitude"
+    dx_suspecte: "{p:Surdité brusque idiopathique}"
+    action: "ORL en URGENCE; {r:prednisone 1 mg/kg/j PO × 10-14 j} + IPP; audio + {t:IRM IAC} dans les 15 j; {r:corticoïdes intratympaniques} si échec [VÉRIFIER:durée précise corticothérapie PO selon protocole CHUV/HUG]"
+  - description: "{s:Surdité asymétrique progressive} + acouphène unilatéral ± vertiges"
+    dx_suspecte: "{p:Neurinome acoustique (schwannome vestibulaire)}"
+    action: "{t:IRM cérébrale + angles ponto-cérébelleux avec gadolinium}; ORL pour audiométrie + PEA"
+  - description: "{s:Otorrhée chronique fétide} + perforation marginale / poche de rétraction"
+    dx_suspecte: "{p:Cholestéatome}"
+    action: "{t:Scanner des rochers}; ORL pour chirurgie (tympanoplastie / mastoïdectomie)"
+  - description: "{s:Otite séreuse unilatérale persistante chez l'adulte}"
+    dx_suspecte: "{p:Cancer du nasopharynx (cavum)}"
+    action: "{t:Nasofibroscopie} + scanner / IRM cavum + biopsie [VÉRIFIER:seuil de durée OSM unilatérale adulte justifiant biopsie cavum]"
+  - description: "Surdité + {s:déficit neurologique central} (paralysie, ataxie, troubles cognitifs, atteinte autres paires crâniennes)"
+    dx_suspecte: "{p:AVC tronc cérébral / AICA} ou lésion APC"
+    action: "{t:IRM cérébrale URGENTE} ± angio-IRM; pathway AVC si < 4.5 h"
+  - description: "Surdité + {s:vésicules zona dans CAE} + {s:paralysie faciale}"
+    dx_suspecte: "{p:Syndrome de Ramsay-Hunt} (zona auriculaire)"
+    action: "{r:Valaciclovir 1 g × 3/j × 7 j} + {r:prednisone 1 mg/kg/j} + ORL; tester aussi nystagmus / VIII"
+
+# source: lines 98-145
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T° (recherche fièvre → OMA, mastoïdite)"
+    - "Inspection pavillon (déformation, vésicules zona, sillon rétro-auriculaire)"
+    - "Palpation mastoïde (douleur → mastoïdite), ganglions cervicaux"
+    - "Voix chuchotée à 6 m chaque oreille séparément (masquage controlatéral par tragus)"
+  cible:
+    - |-
+      Otoscopie bilatérale SYSTÉMATIQUE:
+      • CAE: perméabilité (cérumen, corps étranger), parois (inflammation), otorrhée
+      • Tympan: gris nacré translucide + triangle lumineux = normal
+      • Pathologique: perforation (taille, localisation marginale → cholestéatome), opacité (OSM), bombement (OMA), rétraction (dysfonction tubaire), niveau hydro-aérique
+    - "Otoscopie normale + surdité = orienter vers surdité de perception (sens. 94 %)"
+    - |-
+      {t:Test de Weber} (diapason 512 Hz sur vertex / front):
+      • centré → normal ou surdité symétrique
+      • latéralisé côté SOURD → surdité de TRANSMISSION
+      • latéralisé côté SAIN → surdité de PERCEPTION
+    - |-
+      {t:Test de Rinne} (diapason 512 Hz devant CAE puis sur mastoïde):
+      • Rinne + (CA > CO) bilatéral → normal ou perception
+      • Rinne − (CO > CA) → TRANSMISSION du côté testé
+      • mnémo "TS" (Transmission = Sourd) / "PANEC" (Positif = Aérienne > Osseuse = Normal/Perception)
+    - "Acoumétrie vocale chuchotée: voix conversationnelle à 6 m si échec, tester chaque oreille"
+    - |-
+      Nerfs crâniens (si neurinome ou ramure centrale):
+      • V (sensibilité faciale, réflexe cornéen)
+      • VII (motricité faciale, signe de Bell)
+      • VIII (cochléaire + vestibulaire)
+      • IX-X-XI-XII (extension APC)
+    - "Examen vestibulaire si vertiges: nystagmus spontané/provoqué, Dix-Hallpike (VPPB), Romberg, Fukuda, HINTS si vertige aigu"
+    - "Examen neurologique de débrouillage: coordination (épreuves cérébelleuses), démarche, sensibilité, ROT"
+
+# source: lines 137-152 + clinical pivots DD top5
+dd_top5:
+  - dx: "{p:Presbyacousie}"
+    indices: "{e:> 60 ans}, surdité de perception bilatérale symétrique progressive prédominant sur aigus, difficulté en milieu bruyant, otoscopie normale, audiogramme en pente descendante"
+    freq: "très fréquent (~30 % > 65 ans)"
+  - dx: "{p:Surdité brusque idiopathique}"
+    indices: "{s:Installation < 72 h} unilatérale, perte ≥ 30 dB sur 3 fréquences contiguës, otoscopie normale, ± acouphène / plénitude, ± vertige — URGENCE corticoïdes"
+    freq: "rare mais urgence (5-20 / 100 000 / an)"
+  - dx: "{p:Bouchon de cérumen}"
+    indices: "Surdité de transmission progressive ± unilatérale, sensation oreille bouchée, otoscopie diagnostique, Rinne − du côté atteint, Weber latéralisé côté bouché"
+    freq: "très fréquent"
+  - dx: "{p:Otite séromuqueuse (OSM)}"
+    indices: "Surdité de transmission, plénitude, tympan rétracté/opaque/niveau, tympanométrie courbe B; chez l'{e:adulte unilatérale} → éliminer cancer du cavum"
+    freq: "fréquent (enfant++)"
+  - dx: "{p:Neurinome acoustique}"
+    indices: "Surdité de perception {s:unilatérale progressive} + acouphène + ± vertiges/déséquilibre, atteinte V/VII si > 2 cm; rétrocochléaire (rollover audiométrie vocale, PEA anormale), IRM IAC + gadolinium = gold standard"
+    freq: "rare (1/100 000 / an) [VÉRIFIER:ordre exact du ranking presbyacousie vs autres]"
+
+# source: lines 191-262 + red flag actions
+pec_initiale:
+  immediate:
+    - "STOP red flag d'abord: éliminer surdité brusque, neurinome, AVC avant rassurer"
+    - "Bouchon de cérumen: {r:lavage d'oreille} (sérum tiède, seringue) si tympan intact; sinon extraction instrumentale sous microscope; jamais lavage si suspicion perforation"
+    - "{p:OMA}: antalgiques (paracétamol) + {r:amoxicilline 1 g × 3/j × 5-7 j} si critères (douleur intense, fièvre, < 2 ans, échec 48-72 h surveillance)"
+    - "{p:OSM} > 3 mois persistante: drain transtympanique; chez l'adulte unilatérale: bilan cavum d'abord"
+    - "{p:Surdité brusque}: {r:prednisone 1 mg/kg/j PO × 10-14 j} + décroissance + IPP; {r:corticoïdes intratympaniques} (méthylprednisolone) en relais ou d'emblée si CI PO; IRM IAC < 15 j"
+    - "{p:Otospongiose}: stapédotomie ou appareillage auditif selon préférence patient"
+    - "{p:Ménière} crise: {r:acétylleucine (Tanganil) 1 g IV/PO} + antiémétique (métoclopramide 10 mg) + anxiolytique si besoin; fond: {r:bétahistine 24-48 mg/j} + régime hyposodé < 2 g/j"
+    - "{p:Neurinome} < 15 mm asymptomatique: surveillance IRM annuelle; sinon chirurgie ou radiothérapie stéréotaxique"
+  orientation:
+    - "Domicile + suivi ORL ambulatoire: presbyacousie, bouchon extrait, OSM enfant stable, hypoacousie progressive non urgente"
+    - "ORL en URGENCE (< 24-48 h): {s:surdité brusque}, surdité asymétrique récente, otorrhée fétide + perforation, mastoïdite, paralysie faciale + surdité"
+    - "Urgences hospitalières: surdité + signes neurologiques centraux, méningite suspectée, mastoïdite compliquée, surdité post-traumatique avec brèche"
+    - "Audiologie / appareillage: presbyacousie > 30 dB ou gêne sociale → prescription ORL + essai 30 j; implant cochléaire si surdité profonde bilatérale > 90 dB échec appareillage; BAHA si surdité transmission ou malformation CAE"
+    - "Pédiatrie: diagnostic avant 3 mois, appareillage avant 6 mois, orthophonie précoce intensive [VÉRIFIER:délais exacts protocole suisse romand vs HAS]"
+
+# source: lines 147-189
+examens_complementaires:
+  - "{t:Audiométrie tonale + vocale} (examen clé): CA + CO; transmission = CO normale + Rinne audio; perception = CO et CA abaissées en parallèle; mixte = composantes des deux; rollover vocal = rétrocochléaire"
+  - "{t:Tympanométrie}: courbe A normale; B = épanchement ou perforation; C = dysfonction tubaire; As = otospongiose (compliance abaissée)"
+  - "{t:Réflexe stapédien}: absent dans otospongiose, paralysie faciale, neurinome; présent = arc reflex VII-VIII intact"
+  - "{t:OEA + PEA}: OEA = dépistage néonatal + objectivation; PEA = surdité brusque, neurinome (allongement I-V), nourrisson, simulation"
+  - "{t:IRM cérébrale + IAC avec gadolinium}: surdité brusque, surdité asymétrique progressive, suspicion neurinome, signes neuro centraux"
+  - "{t:Scanner des rochers}: cholestéatome, otospongiose (foyer fenêtre ovale), trauma, malformations, avant chirurgie"
+
+# source: clinical pivots + red flags
+criteres_hospitalisation:
+  - "{p:Surdité brusque} avec corticothérapie IV ou comorbidités empêchant traitement PO ambulatoire"
+  - "Mastoïdite aiguë, méningite otogène, paralysie faciale fébrile"
+  - "Surdité + signes neurologiques centraux ({p:AVC}, {p:lésion APC} symptomatique)"
+  - "Cholestéatome compliqué (labyrinthite, abcès, thrombophlébite sinus latéral)"
+  - "Surdité brutale post-traumatique avec brèche ostéo-méningée (rhinorrhée / otoliquorrhée)"
+
+# source: lines 282-287 + clinical pivots
+pieges:
+  - "Rassurer une {s:surdité asymétrique} sans avoir éliminé un {p:neurinome} par {t:IRM IAC}"
+  - "Méconnaître la {p:surdité brusque}: fenêtre thérapeutique 7-14 j pour les corticoïdes — pronostic conditionné par la précocité du traitement"
+  - "Omettre le {t:diapason au bureau} (Weber + Rinne): seul moyen rapide de typer transmission vs perception"
+  - "Oublier {p:otospongiose} chez la femme jeune (aggravation grossesse, Carhart notch sur audio à 2 kHz, ATCD familiaux)"
+  - "Banaliser une {p:OSM unilatérale chez l'adulte} sans nasofibroscopie pour éliminer un cancer du cavum"
+
+cartes_liees:
+  - SSP-ORL-01
+  - SSP-ORL-02
+  - SYS-ORL

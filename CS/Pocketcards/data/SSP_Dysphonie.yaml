@@ -1,0 +1,214 @@
+id: SSP-ORL-04
+type: ssp
+title: Dysphonie
+discipline: ORL
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dysphonie.md
+
+# source: lignes 9-194 (Anamnèse)
+anamnese:
+  socrates:
+    - |-
+      Type de trouble vocal:
+      • {s:voix rauque/éraillée} (timbre altéré)
+      • {s:voix soufflée} (fuite glottique)
+      • voix bitonale / voix cassée
+      • {s:aphonie} (perte complète) vs hypophonie (voix faible)
+    - |-
+      Onset (mode d'apparition):
+      • {s:brutal} → trauma, hémorragie cordale, post-intubation
+      • {s:progressif} → tumeur, nodules, paralysie
+      • post-effort vocal (surmenage / forçage)
+    - |-
+      Time (durée — PIVOT MAJEUR):
+      • aiguë < 2-3 semaines → souvent virale
+      • {r:> 3 semaines = laryngoscopie OBLIGATOIRE} (éliminer cancer)
+      • fluctuante (amélioration matinale → forçage / nodules)
+    - |-
+      Exacerbating:
+      • effort vocal, fin de journée
+      • environnement bruyant, air sec/climatisé
+      • position couchée (RGO laryngé)
+    - "Relieving: repos vocal, hydratation, matin au réveil"
+    - |-
+      Severity:
+      • impact professionnel (enseignant, chanteur, commercial)
+      • {t:VHI} (Voice Handicap Index /30)
+      • arrêt de travail nécessaire?
+  specifique:
+    - |-
+      Signes laryngés associés:
+      • douleur laryngée (spontanée, déglutition, phonation)
+      • {s:sensation corps étranger} (paresthésies)
+      • hemmage (raclement de gorge)
+      • toux sèche irritative
+    - |-
+      {s:Signes respiratoires} (⚠️ URGENCE):
+      • {s:dyspnée laryngée inspiratoire}
+      • {s:stridor / cornage}
+      • tirage sus-sternal / intercostal
+    - |-
+      Troubles déglutition:
+      • dysphagie (solides / liquides)
+      • fausses routes (liquides ++)
+      • régurgitations
+    - |-
+      Signes RGO laryngé:
+      • pyrosis, régurgitations acides
+      • toux chronique matinale, hemmage
+      • {s:sensation de boule dans la gorge}
+    - |-
+      Signes d'alerte cancer larynx (⚠️ {p:DOAT}):
+      • {s:Dysphonie > 3 semaines}
+      • {s:Otalgie réflexe} unilatérale
+      • {s:Adénopathie cervicale}
+      • {e:Tabac/alcool, homme > 50 ans}
+      • amaigrissement, hémoptysie
+  atcd:
+    - |-
+      Toxiques (⚠️ cancer):
+      • {r:tabac} en paquets-années (actif/sevré), cannabis
+      • {r:alcool} quotidien (synergie tabac × alcool)
+      • expositions pro: amiante, poussières de bois, produits chimiques
+    - |-
+      Profession à risque vocal:
+      • enseignants, chanteurs, comédiens, commerciaux, personnel de crèche
+      • technique vocale? amplification disponible?
+    - |-
+      ATCD chirurgicaux (⚠️ paralysie récurrentielle):
+      • thyroïdectomie / parathyroïdectomie / chir carotidienne
+      • {r:chirurgie thoracique} (médiastin → nerf récurrent gauche)
+      • intubation récente prolongée ou difficile
+    - |-
+      Pathologies associées:
+      • hypothyroïdie (myxoedème laryngé)
+      • allergie (oedème laryngé)
+      • maladies neuro: Parkinson, SEP, SLA, myasthénie
+      • RGO connu
+    - |-
+      Médicaments inducteurs:
+      • {r:corticoïdes inhalés} (candidose laryngée)
+      • {r:IEC} (toux, oedème angio-neurotique)
+      • anticholinergiques (sécheresse)
+      • radiothérapie cervicale antérieure
+
+# source: lignes 84-332 (red flags reconstruits — bloc 'red_flags_raw' vide dans le JSON)
+red_flags:
+  - description: "{s:Dysphonie + dyspnée laryngée + stridor inspiratoire + tirage}"
+    dx_suspecte: "{p:Obstruction laryngée aiguë} (oedème, tumeur sténosante, paralysie bilatérale)"
+    action: "Position assise, {r:O2 haut débit humidifié}, {r:corticoïdes IV (méthylprednisolone 2 mg/kg)}, {r:adrénaline nébulisée 5 mg dans 5 mL NaCl 0.9 %}; appel ORL + anesthésiste; intubation sous fibroscopie / coniotomie si échec"
+  - description: "{s:Dysphagie + hypersialorrhée + voix étouffée + position tripode + fièvre}"
+    dx_suspecte: "{p:Épiglottite aiguë}"
+    action: "⚠️ {r:PAS d'examen buccal} (risque de spasme); intubation au bloc avec ORL en standby; {r:ceftriaxone IV + vancomycine IV}"
+  - description: "{s:Dysphonie > 3 semaines} chez {e:homme > 50 ans tabac/alcool} ± otalgie unilatérale ± adénopathie cervicale"
+    dx_suspecte: "{p:Cancer du larynx / pharyngo-laryngé}"
+    action: "{t:Nasofibroscopie} urgente + {t:scanner cervico-thoracique injecté} + biopsie sous laryngoscopie directe + RCP onco ORL"
+  - description: "Dysphonie brutale après {r:thyroïdectomie} / chirurgie thoracique / médiastinale"
+    dx_suspecte: "{p:Paralysie récurrentielle} (unilatérale ou bilatérale)"
+    action: "{t:Nasofibroscopie} pour évaluer mobilité cordale; {t:scanner cervico-thoracique} si pas de cause évidente; avis ORL"
+  - description: "Dysphonie + {s:adénopathie cervicale fixée} + dysphagie + amaigrissement"
+    dx_suspecte: "{p:Cancer pharyngo-laryngé étendu} (T3-T4) ou ADP métastatique"
+    action: "Panendoscopie ORL + {t:scanner cervico-thoracique} + biopsie + bilan d'extension; RCP urgente"
+  - description: "Dysphonie + {s:syndrome cave supérieur} ou {s:syndrome de Claude Bernard-Horner}"
+    dx_suspecte: "{p:Tumeur médiastinale comprimant le nerf récurrent gauche} (Pancoast, lymphome)"
+    action: "{t:Angio-scanner thoracique} + biopsie médiastinale; avis pneumo / onco urgent"
+
+# source: lignes 198-296 (Examen)
+examen:
+  general:
+    - "Signes vitaux: TA, FC, FR, {t:SpO2}, T°"
+    - "{s:Signes de détresse respiratoire}: tirage, cyanose, balancement thoraco-abdo"
+    - "État général: amaigrissement, état nutritionnel (cancer suspecté)"
+    - "Qualité vocale: timbre, intensité, projection — enregistrement utile"
+    - "Évaluation perceptive {t:GRBAS} (Grade/Roughness/Breathiness/Asthenia/Strain 0-3 chacun)"
+  cible:
+    - |-
+      {t:Laryngoscopie indirecte / nasofibroscopie} (gold standard):
+      • position assise, langue tirée, miroir chauffé OU nasofibroscope souple
+      • manoeuvres: respiration calme, phonation 'iii' aigu, 'aaa' grave, Valsalva
+    - |-
+      Cordes vocales — aspect + {s:mobilité} (essentiel):
+      • normal: blanc nacré, abduction/adduction symétrique
+      • nodules bilatéraux symétriques (1/3 ant-2/3 post) — polype unilatéral
+      • {s:oedème de Reinke} bilatéral gélatineux (tabac); leucoplasie (précancéreux)
+      • {p:tumeur} bourgeonnante, saignement au contact, immobilité cordale
+      • paralysie en position paramédiane/latérale; fixation = ankylose
+    - |-
+      Fermeture glottique + cavité buccale (examen oncologique):
+      • fuite en sablier (nodules), béance (paralysie), fuite postérieure (presbyphonie)
+      • langue (mobilité, induration de base), plancher buccal bidigital
+      • leucoplasie/érythroplasie muqueuse, amygdales asymétriques
+    - |-
+      Palpation cervicale systématique:
+      • {s:adénopathies} jugulo-carotidiennes (taille, fixité, douleur)
+      • mobilité laryngée (crépitation laryngée)
+      • thyroïde (volume, nodules, cicatrice)
+    - "Auscultation: {s:stridor inspiratoire}, cornage, auscultation pulmonaire (atélectasie?)"
+    - "Examen neurologique ciblé: paires crâniennes IX, X, XI, XII; dysarthrie associée (AVC); fatigabilité (myasthénie)"
+
+# source: lignes 124-374 (DD reconstruit — dd_table_raw vide dans le JSON)
+dd_top5:
+  - dx: "{p:Laryngite aiguë virale}"
+    indices: "Dysphonie < 2 semaines, contexte de rhinopharyngite / syndrome grippal, fébricule, toux; cordes érythémateuses oedématiées; guérison spontanée en 1-2 semaines"
+    freq: "très fréquent (cause #1 de dysphonie aiguë) [VÉRIFIER:fréquence relative en consultation générale]"
+  - dx: "{p:Nodules vocaux} (lésions bénignes)"
+    indices: "Femme jeune professionnelle de la voix (enseignante, chanteuse) ou enfant crieur; dysphonie chronique avec fatigue vocale; nodules bilatéraux symétriques 1/3 ant-2/3 post à la laryngoscopie; fuite en sablier"
+    freq: "fréquent chez professionnels de la voix"
+  - dx: "{p:Cancer du larynx} (carcinome épidermoïde)"
+    indices: "{e:Homme > 50 ans tabac + alcool}, dysphonie > 3 semaines persistante, otalgie réflexe unilatérale, adénopathie cervicale, amaigrissement; lésion bourgeonnante / leucoplasie + immobilité cordale à la laryngoscopie"
+    freq: "rare mais urgence diagnostique (~2500 nouveaux cas/an en France) [VÉRIFIER:épidémiologie suisse]"
+  - dx: "{p:Paralysie récurrentielle}"
+    indices: "Dysphonie brutale ou post-opératoire (thyroïdectomie, chirurgie thoracique); voix soufflée bitonale; immobilité cordale paramédiane à la laryngoscopie; récurrent gauche > droit (trajet médiastinal long)"
+    freq: "rare (post-thyroïdectomie ~1-2 %) [VÉRIFIER:incidence locale CHUV/HUG]"
+  - dx: "{p:Reflux laryngo-pharyngé (RLP)}"
+    indices: "Dysphonie matinale, hemmage chronique, sensation de boule, toux nocturne; pyrosis souvent absent (forme atypique 'silencieuse'); érythème aryténoïdes postérieurs + oedème inter-aryténoïdien à la laryngoscopie"
+    freq: "fréquent (sous-diagnostiqué)"
+
+# source: lignes 299-485 (PEC)
+pec_initiale:
+  immediate:
+    - "⚠️ STOP red flags d'abord: dyspnée laryngée → urgence vitale (cf. red flags); épiglottite → ne pas examiner la bouche"
+    - "{p:Laryngite aiguë virale}: {r:repos vocal strict 48-72 h}, hydratation +++, humidification air, paracétamol; PAS d'antibiotiques (viral); {r:corticoïdes courte durée si oedème} [VÉRIFIER:posologie locale]"
+    - "{p:Laryngite chronique / RLP}: sevrage tabac impératif, éviction irritants, {r:IPP (ex. oméprazole 20-40 mg/j PO)} 8-12 semaines, mesures hygiéno-diététiques (tête de lit surélevée)"
+    - "Nodules / polypes / oedème de Reinke: {r:rééducation orthophonique 1ère intention} + repos vocal relatif; microchirurgie laryngée si échec (polypes) ou décortication (Reinke après sevrage)"
+    - "{p:Paralysie récurrentielle} unilatérale: orthophonie, médialisation cordale (injection, implant) si gêne persistante > 6 mois; bilatérale avec dyspnée: {r:trachéotomie} en urgence + cordotomie postérieure différée"
+    - "{p:Cancer du larynx}: {r:RCP oncologique ORL}; options: cordectomie endoscopique (T1), laryngectomie partielle/totale, radiothérapie ± chimiothérapie; préservation laryngée privilégiée"
+    - "Dyspnée laryngée aiguë: position assise, {r:O2 haut débit humidifié}, {r:méthylprednisolone 2 mg/kg IV}, {r:adrénaline nébulisée 5 mg/5 mL NaCl}; intubation fibroscopique ou coniotomie si échec"
+  orientation:
+    - "Domicile + suivi MT: laryngite aiguë virale sans red flag, examen normal, durée < 2 semaines"
+    - "Consultation ORL semi-urgente: {r:dysphonie > 3 semaines} (toute), suspicion lésion bénigne, paralysie récurrentielle post-op, RLP résistant aux IPP"
+    - "Consultation ORL urgente / hospitalisation: dysphonie + facteurs de risque (tabac/alcool > 50 ans), adénopathie cervicale, hémoptysie, otalgie réflexe, amaigrissement"
+    - "Urgences ORL: dyspnée laryngée, stridor, suspicion épiglottite, traumatisme laryngé externe, dysphonie post-traumatique"
+    - "Consignes de retour: apparition de dyspnée, dysphagie aux liquides avec fausses routes, hémoptysie, fièvre"
+
+# source: lignes 299-323 (examens complémentaires)
+examens_complementaires:
+  - "{t:Nasofibroscopie laryngée} (consultation ORL): examen clé pour TOUTE dysphonie > 3 semaines — évalue aspect + mobilité cordale"
+  - "{t:Laryngoscopie directe en suspension} (au bloc): biopsie si lésion suspecte, panendoscopie ORL (bilan oncologique)"
+  - "{t:Stroboscopie}: analyse vibratoire (amplitude, symétrie, onde muqueuse) pour dysphonies fonctionnelles ou nodules subtils"
+  - "{t:Scanner cervico-thoracique injecté}: suspicion tumeur (extension), compression extrinsèque, recherche cause de paralysie récurrentielle (médiastin pour récurrent G)"
+  - "{t:pH-métrie ± impédancemétrie} 24 h: RLP résistant aux IPP ou diagnostic incertain [VÉRIFIER:indication pratique en Suisse]"
+  - "{t:EMG laryngé} + bilan thyroïdien ({t:TSH}): paralysie récurrentielle (différencier paralysie vs ankylose), myxoedème laryngé"
+
+# source: lignes 411-433 (urgences) + lignes 479-485 (orientation)
+criteres_hospitalisation:
+  - "{s:Dyspnée laryngée} avec stridor / tirage / désaturation"
+  - "Suspicion d'épiglottite (dysphagie + hypersialorrhée + voix étouffée + position tripode)"
+  - "Traumatisme laryngé externe (coup, strangulation) — surveillance + bilan endoscopique"
+  - "Paralysie récurrentielle bilatérale avec dyspnée d'effort"
+  - "Cancer du larynx diagnostiqué avec atteinte respiratoire ou trouble nutritionnel sévère"
+
+# source: lignes 488-509 (points clés + pièges)
+pieges:
+  - "Rassurer / banaliser une {r:dysphonie chronique chez le fumeur > 50 ans} — toujours laryngoscopie pour éliminer cancer (règle d'or > 3 semaines)"
+  - "Méconnaître le {p:RLP 'silencieux'} (sans pyrosis) — symptômes laryngés isolés (hemmage, boule, toux); ne pas étiqueter 'psychogène' avant laryngoscopie"
+  - "Oublier la {p:paralysie récurrentielle} après thyroïdectomie / chirurgie thoracique / intubation prolongée — nasofibroscopie systématique en post-op si dysphonie"
+  - "Faire {r:chuchoter} le patient en repos vocal — le chuchotement est PLUS traumatisant pour les cordes que la voix normale"
+  - "Examiner la bouche / poser un abaisse-langue en cas de suspicion {p:d'épiglottite} — risque de spasme glottique et arrêt respiratoire"
+
+cartes_liees:
+  - SYS-ORL
+  - SSP-ORL-DYSPHAGIE

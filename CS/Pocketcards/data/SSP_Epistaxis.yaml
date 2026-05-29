@@ -1,0 +1,217 @@
+id: SSP-ORL-05
+type: ssp
+title: Épistaxis
+discipline: ORL
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Epistaxis.md
+
+# source: MD line 13-29
+anamnese:
+  socrates:
+    - |-
+      Site / latéralité:
+      • unilatérale (droite/gauche) ou bilatérale?
+      • alternante?
+      • {s:unilatérale chronique} chez adulte > 40 ans → suspecter tumeur
+    - |-
+      Onset:
+      • début brutal vs progressif
+      • premier épisode ou récidivant
+      • circonstances déclenchantes (mouchage, grattage, traumatisme)
+    - |-
+      Character / mode d'écoulement:
+      • antérieur par les narines (90%)
+      • postérieur (déglutition de sang, plus grave)
+      • mixte
+    - "Radiation: vomissements de sang noir (sang dégluti)?"
+    - |-
+      Time:
+      • durée (minutes, heures)
+      • arrêt spontané ou persistance
+      • fréquence des récidives (quotidien/hebdo/mensuel)
+      • saisonnalité (hiver = air sec, printemps = allergies)
+    - |-
+      Exacerbating:
+      • mouchage violent
+      • {s:grattage nasal} (enfants++)
+      • effort physique
+      • air sec / chauffage / altitude
+    - "Relieving: compression bidigitale efficace? méchage antérieur déjà tenté?"
+    - |-
+      Severity:
+      • quantité estimée (gouttes / écoulement / remplissage bouche)
+      • {s:malaise, lipothymie, sueurs} associés?
+      • {s:échec compression > 20 min}?
+  specifique:
+    - |-
+      Traumatismes:
+      • {s:traumatisme nasal direct} (coup, chute, sport) → fracture?
+      • grattage / mouchage violent
+      • corps étranger (enfant ++)
+      • chirurgie nasale récente / septoplastie
+    - |-
+      Causes locales ORL:
+      • rhinite allergique / infectieuse / atrophique
+      • déviation septale, polypes
+      • {s:obstruction nasale unilatérale + adénopathie cervicale} → {p:tumeur nasopharynx / ethmoïde}
+      • {s:masse vascularisée chez ado garçon} → {p:fibrome nasopharyngien juvénile}
+    - |-
+      Facteurs environnementaux:
+      • air sec (chauffage, climatisation)
+      • irritants (fumée, pollution, cocaïne)
+      • altitude, variations de température
+    - |-
+      Signes hémorragiques associés:
+      • ecchymoses faciles, gingivorragies
+      • ménorragies (femme)
+      • saignements prolongés post-plaie / chirurgie
+      • ATCD familiaux de troubles hémorragiques
+    - "{s:Télangiectasies cutanéo-muqueuses + ATCD familiaux} → {p:Rendu-Osler}?"
+  atcd:
+    - "{p:HTA} connue: traitement, observance, poussée actuelle"
+    - |-
+      Médicaments hémorragipares (RECHERCHE SYSTÉMATIQUE):
+      • {r:AVK} (warfarine, acénocoumarol) — INR récent?
+      • {r:AOD} (rivaroxaban, apixaban, dabigatran)
+      • {r:antiagrégants} (aspirine, clopidogrel, prasugrel, ticagrelor)
+      • {r:AINS}, héparine (HBPM/HNF)
+    - |-
+      Pathologies hémostase:
+      • thrombopénie / thrombopathie
+      • hémophilie, maladie de Willebrand
+      • insuffisance hépatique (cirrhose)
+      • insuffisance rénale chronique (urémie)
+    - "Hémopathies: leucémies, lymphomes, aplasie médullaire"
+    - "ATCD ORL: chirurgie nasale/sinusienne, radiothérapie faciale, allergies"
+    - |-
+      Terrain:
+      • enfant: corps étranger, grattage
+      • adulte jeune: traumatisme, causes locales
+      • {e:> 65 ans}: HTA, anticoagulants, tumeurs
+
+red_flags:
+  - description: "{s:Épistaxis abondante + tachycardie + pâleur + hypotension} (choc hémorragique)"
+    dx_suspecte: "{p:Instabilité hémodynamique} sur épistaxis massive (souvent postérieure)"
+    action: "2 VVP gros calibre + {r:remplissage cristalloïdes} + NFS/groupe-RAI + {r:tamponnement postérieur} (sonde Foley CH14-16, ballonnet 10-15 ml) + appel ORL urgent + USI"
+  - description: "Épistaxis postérieure incoercible chez sujet âgé sous {r:AC/AAP}"
+    dx_suspecte: "{p:Épistaxis postérieure réfractaire} (a. sphéno-palatine)"
+    action: "Tamponnement postérieur + hospitalisation ORL + {r:embolisation sélective} (a. sphéno-palatine) ou ligature chirurgicale [VÉRIFIER: seuil de bascule embolisation vs ligature selon protocole CHUV]"
+  - description: "Épistaxis {s:unilatérale récidivante + obstruction nasale + adénopathie cervicale} chez adulte"
+    dx_suspecte: "{p:Tumeur nasopharyngée (UCNT/Schmincke)} ou tumeur ethmoïde"
+    action: "Nasofibroscopie ORL + {t:scanner / IRM massif facial} + biopsie ORL (PAS en consultation si lésion vascularisée)"
+  - description: "Épistaxis sous {r:AVK} avec {t:INR > 5} (ou hémorragie grave quel que soit INR)"
+    dx_suspecte: "{p:Surdosage AVK} / hémorragie sous anticoagulant"
+    action: "Suspendre AVK + {r:vitamine K 10 mg PO ou IV lente} + {r:PPSB (Kanokad/Octaplex) 25 UI/kg IV} si hémorragie grave; antagonisation spécifique AOD ({r:idarucizumab} dabigatran, {r:andexanet alfa} anti-Xa) [VÉRIFIER: posologie PPSB pondérée selon INR]"
+  - description: "{s:Masse nasale vascularisée chez adolescent garçon} avec épistaxis abondante"
+    dx_suspecte: "{p:Angiofibrome / fibrome nasopharyngien juvénile}"
+    action: "NE PAS BIOPSIER (risque hémorragique majeur) → {t:angio-TDM / angio-IRM} + RCP ORL + {r:embolisation préopératoire} + exérèse chirurgicale"
+  - description: "Épistaxis cataclysmique chez patient {e:post-radiothérapie cervico-faciale}"
+    dx_suspecte: "{p:Rupture carotidienne (blow-out)}"
+    action: "2 VVP + remplissage massif + {r:tamponnement bilatéral} + intubation si troubles conscience + bloc opératoire / radiologie interventionnelle URGENT"
+
+# source: MD line 149-229
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: {t:TA aux deux bras}, FC, FR, SaO2, T°"
+    - "État de conscience (GCS), pâleur cutanéo-muqueuse, TRC, marbrures"
+    - "Quantification du saignement actif (compresses, bassin)"
+    - "Recherche signes hémorragiques: pétéchies, purpura, ecchymoses spontanées, hématomes"
+    - "Glycémie capillaire si malaise ou diabétique"
+  cible:
+    - |-
+      Rhinoscopie antérieure (APRÈS stabilisation):
+      • patient assis, tête légèrement en arrière
+      • éclairage frontal + spéculum nasal
+      • aspiration douce des caillots
+      • inspection de la {s:tache vasculaire de Kiesselbach} (90% des cas, antéro-inférieur du septum)
+    - |-
+      Évaluation muqueuse:
+      • inflammatoire (rhinite) / atrophique (croûtes)
+      • {s:télangiectasies multiples} → {p:Rendu-Osler}
+      • déviation/perforation septale (trauma, cocaïne, Wegener)
+    - |-
+      Recherche masse suspecte (ne pas biopser en consultation si vascularisée):
+      • polype saignant unilatéral (adulte)
+      • angiofibrome (ado garçon)
+      • carcinome ({e:adulte > 50 ans})
+    - "Endoscopie nasale par ORL: si {s:épistaxis postérieure}, récidive inexpliquée, suspicion tumeur, échec localisation antérieure"
+    - |-
+      Examen pharyngé:
+      • {s:écoulement postérieur actif} (quantifier)
+      • caillots adhérents paroi postérieure
+      • gingivorragies, pétéchies palais (coagulopathie / thrombopénie)
+    - "Palpation cervicale: {s:adénopathies} (hémopathie, tumeur), masses"
+    - "Auscultation cardiaque (troubles du rythme — FA = AC fréquent)"
+
+dd_top5:
+  - dx: "{p:Épistaxis antérieure idiopathique / locale} (tache de Kiesselbach)"
+    indices: "90% des cas, souvent {e:enfant ou adulte jeune}, grattage / air sec / mouchage, saignement antérieur, contrôle par compression bidigitale 10 min, cautérisation au {r:nitrate d'argent}"
+    freq: "très fréquent"
+  - dx: "{p:Épistaxis sur HTA non contrôlée}"
+    indices: "{e:Sujet âgé}, TA > 180/110 mmHg, souvent postérieure, abondante; HTA = facteur favorisant majeur (corrélation aiguë controversée mais clinique constante)"
+    freq: "fréquent (cause favorisante chez > 50 ans)"
+  - dx: "{p:Épistaxis sur AC/AAP}"
+    indices: "Prise {r:AVK / AOD / aspirine / clopidogrel}; recherche INR > thérapeutique; volume souvent important, récidive fréquente; bilan crase systématique"
+    freq: "fréquent (prévalence croissante)"
+  - dx: "{p:Épistaxis post-traumatique} (fracture nasale, trauma facial)"
+    indices: "Contexte trauma direct, déformation, hématome septal (à drainer en urgence), épistaxis active, parfois LCR rhinorrhée si fracture base"
+    freq: "fréquent (jeunes, sport, AVP)"
+  - dx: "{p:Tumeur nasopharyngée (UCNT / Schmincke) ou sinusienne}"
+    indices: "{e:Adulte > 40 ans}, épistaxis {s:unilatérale chronique/récidivante}, obstruction nasale, adénopathies cervicales, otite séreuse unilatérale; terrain asiatique fréquent UCNT [VÉRIFIER: rang exact rare mais à NE PAS rater]"
+    freq: "rare mais à ne JAMAIS méconnaître"
+
+# source: MD line 237-298
+pec_initiale:
+  immediate:
+    - "{r:Position assise, tête penchée en AVANT} (éviter déglutition / inhalation)"
+    - "{r:Mouchage doux} pour évacuer les caillots, puis {r:compression bidigitale} des ailes du nez 10-15 minutes SANS relâcher"
+    - "Adjuvants: glace sur racine du nez, compression lèvre supérieure"
+    - "Si échec compression: anesthésie/vasoconstriction locale ({r:xylocaïne 5% + naphazoline 0,1%} ou {r:xylocaïne-adrénaline 1%}) sur cotonnettes 10 min [VÉRIFIER: concentration locale CHUV/HUG]"
+    - |-
+      Tamponnement antérieur (gradation):
+      • 1er choix: mèches résorbables ({r:Coalgan®}, Surgicel®, Gelfoam®)
+      • 2e choix: non résorbables ({r:Merocel®}, {r:Rapid Rhino®}, mèches grasses)
+      • technique: en accordéon, base → vestibule, fixation sparadrap
+      • durée max {r:48 h} (au-delà: nécrose, syndrome choc toxique)
+    - "Tamponnement postérieur si échec/postérieur d'emblée: {r:sonde Foley CH14-16}, ballonnet gonflé {r:10-15 ml}, traction + tamponnement antérieur → {r:hospitalisation ORL + ATB prophylaxie (amox-clav)} + monitoring SpO2"
+    - "Contrôle TA: si > 180/110 → traitement antihypertenseur PROGRESSIF (éviter baisse brutale = risque AVC)"
+    - "Antagonisation AC si hémorragie grave: {r:vitamine K} (AVK), {r:idarucizumab} (dabigatran), {r:andexanet alfa} (anti-Xa) [VÉRIFIER: indications PPSB selon volume et INR]"
+    - "Cautérisation au {r:nitrate d'argent} sur tache vasculaire visible APRÈS arrêt saignement (jamais bilatérale en même temps = risque perforation septale)"
+  orientation:
+    - "Domicile + conseils prévention: épistaxis antérieure isolée, arrêt par compression, sans red flag, sans AC/AAP, sans HTA sévère"
+    - "Consultation ORL ambulatoire à 48 h: méchage antérieur posé, cautérisation chimique programmée, récidives multiples"
+    - "Urgences + ORL: tout red flag, échec tamponnement antérieur, suspicion postérieure, sujet sous AC, instabilité, suspicion tumorale"
+    - "Hospitalisation USI / réa: choc hémorragique, épistaxis cataclysmique, tamponnement postérieur"
+    - "Consignes de retour: récidive abondante, malaise, sang dans la gorge persistant, fièvre sous méchage (syndrome choc toxique)"
+
+# source: MD line 322-336
+examens_complementaires:
+  - "{t:NFS-plaquettes}: si saignement abondant / récidivant (anémie, thrombopénie)"
+  - "{t:TP/INR + TCA + fibrinogène}: TOUT patient sous AC ou saignement abondant"
+  - "{t:Groupe sanguin + RAI}: si transfusion envisagée (Hb < 8 ou hémodynamique instable)"
+  - "{t:Ionogramme + créatinine}: insuffisance rénale (urémie = trouble hémostase)"
+  - "{t:Nasofibroscopie ORL + scanner sinusien/massif facial}: épistaxis unilatérale chronique, suspicion tumeur, traumatisme grave"
+  - "{t:Angio-TDM / angio-IRM}: suspicion fibrome nasopharyngien, rupture carotidienne, anévrisme (avant embolisation)"
+
+# source: MD line 414-419
+criteres_hospitalisation:
+  - "{s:Instabilité hémodynamique} (choc, Hb < 8 g/dL symptomatique)"
+  - "{r:Tamponnement postérieur} nécessaire (systématique)"
+  - "Échec tamponnement antérieur ou récidive sous méchage"
+  - "Troubles sévères de l'hémostase (INR > thérapeutique non contrôlable, thrombopénie < 50 G/L)"
+  - "Suspicion {p:tumeur nasopharyngée} ou cataclysmique (carotide, fibrome)"
+
+pieges:
+  - "{r:Tête en arrière} = piège classique → favorise déglutition de sang + vomissements + fausse impression d'arrêt; TOUJOURS tête en AVANT"
+  - "Méchage antérieur laissé en place > {r:48 h} sans ATB = risque {p:nécrose columellaire} et {p:syndrome de choc toxique staphylococcique}"
+  - "Banaliser une épistaxis {s:unilatérale récidivante} chez adulte > 40 ans → manquer une {p:tumeur nasopharyngée / ethmoïde} (faire nasofibroscopie + imagerie)"
+  - "Biopser une masse nasale vascularisée chez adolescent garçon = catastrophe hémorragique ({p:fibrome juvénile})"
+  - "Baisser la TA trop brutalement chez sujet âgé sous antihypertenseur = risque AVC ischémique; viser baisse PROGRESSIVE [VÉRIFIER: cible TA exacte selon SFORL/CHUV]"
+
+cartes_liees:
+  - SYS-ORL
+  - SSP-CAR-XX
+  - TOOL-CHADS-VASC

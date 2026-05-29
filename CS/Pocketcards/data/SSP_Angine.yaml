@@ -1,0 +1,198 @@
+id: SSP-ORL-02
+type: ssp
+title: Angine
+discipline: ORL
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Angine.md
+
+# source: line 9-34
+anamnese:
+  socrates:
+    - "Site: pharynx / amygdales (uni- ou bilatéral)? Latéralité unilatérale = {p:phlegmon péri-amygdalien}"
+    - |-
+      Onset:
+      • {s:début brutal} (streptocoque)
+      • progressif (viral)
+      • première fois ou récidivant?
+    - "Character: {s:odynophagie} (douleur à la déglutition), dysphagie, gêne respiratoire?"
+    - "Radiation: {s:otalgie réflexe} (douleur projetée), nuque?"
+    - |-
+      Time:
+      • durée (h / j)
+      • aggravation rapide?
+      • réveils nocturnes?
+    - "Exacerbating: déglutition solides > liquides, ouverture buccale ({s:trismus})?"
+    - "Relieving: antalgiques pris (paracétamol, AINS — quelle efficacité?), boissons fraîches?"
+    - |-
+      Severity:
+      • intensité 0-10
+      • impossibilité de s'alimenter / boire?
+      • hypersialorrhée (refus de déglutir) → red flag
+  specifique:
+    - |-
+      Symptômes ORL associés (orientent vers viral):
+      • rhinorrhée
+      • toux
+      • enrouement
+      • conjonctivite
+    - "{s:Fièvre}: intensité (> 38°C compte pour {t:McIsaac}), frissons, durée"
+    - |-
+      Symptômes généraux:
+      • asthénie marquée (EBV)
+      • myalgies / céphalées
+      • douleurs abdominales / vomissements (enfant — peuvent dominer le tableau)
+    - "{s:Éruption cutanée}: érythème granité respect péribuccal → {p:scarlatine}; rash après amoxicilline → {p:mononucléose}"
+    - |-
+      Signes d'alarme à explorer activement:
+      • {s:trismus} + {s:voix nasonnée 'pomme chaude'} → {p:phlegmon}
+      • {s:dyspnée / stridor / hypersialorrhée} → obstruction
+      • {s:torticolis fébrile} → abcès rétro-pharyngé
+      • {s:cou de taureau} + AEG → cellulite cervicale
+    - "Symptômes post-strepto à 1-3 sem: arthralgies, œdèmes, hématurie, mouvements anormaux ({p:RAA} / {p:GNA}) [VÉRIFIER: délais exacts selon source]"
+  atcd:
+    - "ATCD personnels: angines récidivantes, complications antérieures, amygdalectomie, {p:RAA}"
+    - "Allergie {r:pénicilline}: nature (rash simple vs anaphylaxie) — CRUCIAL pour choix ATB"
+    - "Immunodépression: VIH, corticothérapie, agranulocytose médicamenteuse (→ angine ulcéro-nécrotique)"
+    - "Médicaments récents: antithyroïdiens, méthimazole, clozapine (agranulocytose); {r:antibiotiques < 3 mois} (résistance)"
+    - "Vaccinations: diphtérie (à jour?)"
+    - |-
+      Épidémiologie:
+      • cas dans entourage / collectivité
+      • saison (hiver-printemps = strepto)
+      • voyages récents (zones endémiques diphtérie)
+    - "Habitudes: tabac, alcool (cofacteurs cellulite cervicale), sexualité orale ({p:primo-infection VIH}, gonococcie pharyngée)"
+
+# source: line 164-178, 259-264
+red_flags:
+  - description: "{s:Trismus} + {s:voix 'pomme chaude'} + {s:déviation luette} + dysphagie unilatérale intense"
+    dx_suspecte: "{p:Phlegmon / abcès péri-amygdalien}"
+    action: "Hospitalisation; {r:amoxicilline-clavulanate IV} + drainage chirurgical (ponction ou incision) urgent; corticoïdes en complément"
+  - description: "{s:Dyspnée} + {s:stridor} + {s:hypersialorrhée} + patient assis penché en avant (position 'tripode')"
+    dx_suspecte: "{p:Épiglottite aiguë}"
+    action: "NE PAS EXAMINER LA GORGE ni allonger; transfert urgent en salle d'opération pour {r:intubation/trachéotomie}; {r:ceftriaxone 2 g IV}"
+  - description: "{s:Torticolis fébrile} + refus mobilisation cervicale + dysphagie majeure (enfant surtout)"
+    dx_suspecte: "{p:Abcès rétro-pharyngé}"
+    action: "{t:TDM cervical injecté} urgent; hospitalisation; {r:ATB IV large spectre} + drainage chirurgical"
+  - description: "{s:Tuméfaction cervicale extensive 'cou de taureau'} + AEG + sepsis ± crépitations"
+    dx_suspecte: "{p:Cellulite cervicale extensive / angine de Ludwig / fasciite nécrosante}"
+    action: "{t:TDM cervico-thoracique} (médiastinite?); réa + chirurgie urgente + {r:ATB IV large spectre} (pipéracilline-tazobactam ± clindamycine) [VÉRIFIER: protocole CHUV/HUG]"
+  - description: "{s:Fausses membranes adhérentes} grisâtres saignant au décollement + AEG"
+    dx_suspecte: "{p:Diphtérie}"
+    action: "Isolement; déclaration obligatoire; {r:sérothérapie antidiphtérique} + {r:pénicilline G ou érythromycine}; prélèvement de gorge"
+  - description: "{s:Angine ulcéro-nécrotique} + {s:purpura / pétéchies} + neutropénie sur NFS"
+    dx_suspecte: "{p:Agranulocytose} (médicamenteuse ou hémopathie)"
+    action: "{t:NFS urgente}; arrêt du médicament suspect; isolement protecteur; hospitalisation hématologie"
+  - description: "Hypotension brutale + érythrodermie diffuse + défaillance multiviscérale post-angine"
+    dx_suspecte: "{p:Syndrome de choc toxique streptococcique (STSS)}"
+    action: "Réa; remplissage; {r:clindamycine + pénicilline G IV}; IVIG selon protocole [VÉRIFIER: indication IVIG]"
+
+# source: line 37-91
+examen:
+  general:
+    - "Constantes: T°, FC, PA, FR, SaO2 (désaturation = obstruction haute)"
+    - "Hydratation: muqueuses, pli cutané (enfant ++)"
+    - "État général: AEG marquée évoque complication ou {p:MNI}"
+    - "Examen cutané: {s:rash scarlatiniforme} (granité, respect péribuccal), pétéchies, purpura"
+  cible:
+    - |-
+      Examen pharyngé (à l'abaisse-langue, lumière):
+      • angine érythémateuse: pharynx rouge diffus, sans exsudat
+      • érythémato-pultacée: exsudat blanc-grisâtre détachable
+      • pseudo-membraneuse: fausses membranes adhérentes saignant ({p:diphtérie}, MNI)
+      • vésiculeuse: vésicules pharynx postérieur (herpangine, HSV)
+      • ulcéro-nécrotique: ulcération unilatérale + haleine fétide ({p:Vincent})
+    - |-
+      Signes de phlegmon (à rechercher SYSTÉMATIQUEMENT):
+      • {s:trismus} (ouverture buccale limitée)
+      • voussure du pilier amygdalien
+      • déviation de la luette
+      • voix nasonnée 'pomme chaude'
+    - |-
+      Cavité buccale et oropharynx:
+      • {s:pétéchies du palais mou} (évocatrices strepto)
+      • {s:langue framboisée} ({p:scarlatine})
+      • énanthème
+      • état dentaire (foyer infectieux)
+    - |-
+      Aires ganglionnaires cervicales:
+      • sous-angulo-maxillaires sensibles et mobiles (strepto)
+      • cervicales postérieures = {p:EBV/MNI}
+      • généralisées = MNI, VIH
+    - "Tympans (otoscopie): otite associée (extension), bombement"
+    - |-
+      Examen général orienté:
+      • auscultation cardiaque (souffle = {p:RAA})
+      • palpation abdominale: {s:splénomégalie} ({p:MNI} — CI sport)
+      • articulations: arthrite ({p:RAA})
+      • peau (rash, érythrodermie)
+    - "Score de {t:Centor McIsaac}: fièvre > 38°C (+1), absence de toux (+1), ADP cervicales antérieures sensibles (+1), exsudat amygdalien (+1), âge 3-14 ans (+1) / ≥ 45 ans (-1) → ≥ 3 = TDR"
+
+# source: line 210-219
+dd_top5:
+  - dx: "{p:Angine virale}"
+    indices: "Début progressif, rhinorrhée + toux + enrouement, conjonctivite, pharynx érythémateux sans exsudat, {t:McIsaac} 0-1, fièvre modérée"
+    freq: "très fréquent (~80 % des angines)"
+  - dx: "{p:Angine streptococcique groupe A}"
+    indices: "Début brutal, fièvre élevée, odynophagie sévère, exsudat amygdalien, ADP cervicales antérieures, pétéchies palais, ABSENCE de toux/rhinorrhée, âge 5-15 ans, {t:McIsaac} ≥ 3 → {t:TDR}"
+    freq: "~15-20 % adultes, ~30 % enfants 5-15 ans"
+  - dx: "{p:Mononucléose infectieuse (EBV)}"
+    indices: "Adolescent/jeune adulte, asthénie majeure, ADP cervicales POSTÉRIEURES, splénomégalie (50 %), pseudo-membranes, rash après {r:amoxicilline} (90 %); {t:MNI-test} / sérologie EBV / lymphocytes atypiques"
+    freq: "fréquent 15-25 ans"
+  - dx: "{p:Phlegmon péri-amygdalien}"
+    indices: "Complication d'angine bactérienne; douleur UNILATÉRALE intense, {s:trismus}, voix 'pomme chaude', déviation luette, voussure pilier; urgence ORL"
+    freq: "rare (~1 % angines bactériennes) [VÉRIFIER: incidence exacte]"
+  - dx: "{p:Angine de Vincent} (Borrelia + fusobactéries)"
+    indices: "Ulcération UNILATÉRALE profonde, fausses membranes nécrotiques, haleine fétide; mauvaise hygiène buccale, immunodépression; traitement {r:pénicilline + métronidazole}"
+    freq: "rare"
+
+# source: line 113-156
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — trismus / stridor / torticolis fébrile / cou de taureau → imagerie + ATB IV + chirurgie AVANT toute orientation ambulatoire"
+    - "Score {t:McIsaac} ≤ 1: pas de TDR, pas d'ATB, traitement symptomatique seul"
+    - "Score {t:McIsaac} 2-3: {t:TDR streptocoque} (écouvillonnage amygdales, résultat 5-10 min)"
+    - "Score {t:McIsaac} ≥ 4 OU TDR positif → ATB strepto"
+    - "ATB 1ère intention (adulte): {r:pénicilline V 1 MUI x 2/j PO x 6 j} OU {r:amoxicilline 1 g x 2/j PO x 6 j} [VÉRIFIER: posologies suisses CHUV/HUG]"
+    - "ATB 1ère intention (enfant): {r:amoxicilline 50 mg/kg/j en 2 prises x 6 j PO}"
+    - "Allergie pénicilline non grave: {r:cefuroxime axétil}; allergie grave: {r:clarithromycine} ou {r:azithromycine 500 mg/j x 3 j}"
+    - "Antalgie-antipyrétique: {r:paracétamol 1 g/6h} (adulte) / {r:15 mg/kg/6h} (enfant); AINS prudents (cofacteur cellulite — éviter forte dose prolongée)"
+    - "Corticothérapie ({r:prednisolone 1 mg/kg/j x 3-5 j}) UNIQUEMENT si dysphagie sévère ou phlegmon, TOUJOURS avec ATB"
+    - "Si MNI suspectée: NE PAS donner {r:amoxicilline} (rash 90 %); symptomatique; corticoïdes si obstruction"
+  orientation:
+    - "Domicile + suivi: angine non compliquée, McIsaac < 2 ou TDR négatif, hydratation OK, pas de red flag"
+    - "Hospitalisation: phlegmon, abcès rétro-pharyngé, cellulite cervicale, épiglottite, agranulocytose, choc toxique, déshydratation sévère, immunodépression"
+    - "Consultation ORL urgente: trismus inexpliqué, suspicion phlegmon, échec d'ATB à 72 h"
+    - "Éviction scolaire: 48 h après début ATB si streptocoque confirmé"
+    - "Consignes de reconsultation: aggravation, torticolis, dyspnée, éruption, persistance fièvre > 48 h sous ATB, œdèmes / hématurie / arthralgies à distance ({p:RAA} / {p:GNA})"
+
+# source: line 113-126
+examens_complementaires:
+  - "{t:TDR streptocoque} (écouvillonnage amygdales): score McIsaac 2-3, résultat 5-10 min, spécificité ~95 %, sensibilité 85-90 %"
+  - "{t:Culture pharyngée}: gold standard si TDR équivoque ou récidive; résultat 24-48 h"
+  - "{t:NFS + frottis}: suspicion {p:MNI} (lymphocytes atypiques), {p:agranulocytose} (PNN < 0,5 G/L)"
+  - "{t:MNI-test} / sérologie EBV (IgM VCA): adolescent avec angine + ADP postérieures + asthénie"
+  - "{t:TDM cervical injecté}: suspicion abcès rétro-pharyngé, cellulite cervicale, phlegmon non drainable cliniquement"
+  - "{t:ASLO} (à distance): suivi {p:RAA} suspecté; pas pour diagnostic aigu"
+
+# source: line 164-206
+criteres_hospitalisation:
+  - "Tout red flag avéré ({p:phlegmon}, {p:abcès rétro-pharyngé}, {p:cellulite cervicale}, {p:épiglottite}, {p:diphtérie}, {p:agranulocytose}, {p:STSS})"
+  - "Impossibilité totale d'alimentation/hydratation orale ou déshydratation"
+  - "AEG sévère, sepsis, signes de choc"
+  - "Échec d'antibiothérapie ambulatoire bien conduite à 72 h"
+  - "Terrain à risque: immunodépression, agranulocytose, nourrisson < 3 mois fébrile"
+
+# source: line 252-264
+pieges:
+  - "Prescrire ATB sans {t:TDR} (80 % angines virales) — antibiorésistance + effets indésirables inutiles"
+  - "Donner {r:amoxicilline} en cas de {p:MNI} (suspectée si asthénie + ADP postérieures + splénomégalie) — rash dans 90 % des cas, non allergique mais alarmant"
+  - "Méconnaître un {p:phlegmon} (trismus + voix 'pomme chaude' + déviation luette) — examiner SYSTÉMATIQUEMENT la luette et tester l'ouverture buccale"
+  - "Examiner activement la gorge en cas de suspicion d'{p:épiglottite} (stridor + hypersialorrhée) — risque d'arrêt respiratoire; appeler ORL/anesthésie en bloc"
+  - "Oublier de tracer un strepto non traité chez l'enfant — risque de {p:RAA} / {p:GNA} à 1-3 sem (rechercher arthralgies, œdèmes, protéinurie au contrôle)"
+
+cartes_liees:
+  - SYS-ORL
+  - TOOL-CENTOR-MCISAAC

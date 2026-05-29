@@ -1,0 +1,196 @@
+id: SSP-ORL-10
+type: ssp
+title: Ronflement
+discipline: ORL
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Ronflement.md
+  - Syndrome d'apnées du sommeil - SPLF 2020
+  - Prise en charge du ronflement - SFORL 2019
+
+# source: line 9-169
+anamnese:
+  socrates:
+    - |-
+      Site / nature du bruit:
+      • {s:ronflement isolé} (vibration voile + luette) vs ronflement + {s:pauses respiratoires}?
+      • bouche fermée (origine palatine) vs bouche ouverte (multiniveaux)?
+    - |-
+      Onset:
+      • ancienneté (mois / années)
+      • {s:aggravation récente} (prise de poids, ménopause, alcool)?
+      • événement déclenchant (chirurgie ORL, traumatisme nasal)?
+    - "Character: {s:intensité} (audible chambre / pièce adjacente / tout le logement), continu vs entrecoupé de silences ({s:apnées})"
+    - "Radiation: perçu par conjoint(e), voisins de chambre (voyages, hôpital)?"
+    - |-
+      Time:
+      • toutes les nuits vs quelques nuits/sem vs occasionnel
+      • horaire (toute la nuit vs 2e moitié — REM)
+      • {s:réveils en sursaut} avec sensation d'étouffement?
+    - |-
+      Exacerbating:
+      • {e:décubitus dorsal} strict vs toutes positions
+      • {r:alcool} vespéral, sédatifs/hypnotiques, repas tardif
+      • {e:prise de poids}, fatigue, congestion nasale (rhinite, allergie)
+    - "Relieving: position latérale, perte de poids, abstinence alcool, désobstruction nasale?"
+    - |-
+      Severity:
+      • {t:Échelle de Pichot / EVA gêne}
+      • impact conjugal (chambre séparée, conflits)
+      • impact professionnel (accidents, baisse productivité)
+  specifique:
+    - |-
+      Signes nocturnes évocateurs {p:SAOS} (témoignage du conjoint +++):
+      • {s:pauses respiratoires} (durée, fréquence)
+      • {s:reprise bruyante en gasp}
+      • sueurs nocturnes, mouvements fréquents
+      • {s:nycturie} (> 2 levers/nuit, signe sous-estimé)
+    - |-
+      Signes diurnes de {p:SAOS}:
+      • {s:somnolence diurne excessive} — {t:Score d'Epworth ≥ 11/24}
+      • {s:céphalées matinales} (hypercapnie nocturne)
+      • fatigue dès le réveil non réparée
+      • troubles concentration/mémoire, irritabilité, libido ↓
+    - |-
+      Dépistage du risque pré-test ({t:STOP-BANG ≥ 3} → SAOS probable):
+      • {s:S}noring fort, {s:T}iredness, {s:O}bserved apnea, {r:P}ressure (HTA)
+      • {r:B}MI > 35, {r:A}ge > 50, {r:N}eck > 40 cm, {r:G}ender masculin
+    - |-
+      {s:Risque accidentel} (à dépister TOUJOURS):
+      • somnolence au volant, presqu'accidents, accidents survenus
+      • {e:métier à risque}: chauffeur, pilote, grutier, conducteur de train
+      • obligation de déclaration et arrêt si SAOS sévère
+    - "Retentissement conjugal/social: chambre séparée, évitement voyages, conflits — souvent motif réel de consultation"
+  atcd:
+    - |-
+      Facteurs morphologiques / FdR:
+      • {r:IMC} et prise de poids récente (kg)
+      • {r:tour de cou > 43 cm homme / > 40 cm femme}
+      • {s:rétrognathie, micrognathie, macroglossie, hypertrophie amygdalienne}
+    - |-
+      Comorbidités cardiovasculaires (renforcent l'indication d'exploration):
+      • {p:HTA résistante} (≥ 3 antihypertenseurs), HTA matinale
+      • {p:FA}, cardiopathie ischémique, AVC/AIT
+      • {p:diabète type 2}, syndrome métabolique, dyslipidémie
+    - |-
+      Pathologies favorisantes à dépister:
+      • {p:Hypothyroïdie} (myxœdème pharyngé)
+      • {p:Acromégalie} (macroglossie, prognathisme)
+      • maladies neuromusculaires (myasthénie), RGO
+    - |-
+      Mode de vie:
+      • {r:alcool} vespéral (quantité), tabagisme (inflammation ORL)
+      • sédatifs, hypnotiques, opiacés
+      • hygiène de sommeil (heures, durée, siestes)
+    - "ATCD ORL: amygdalectomie, septoplastie, UVPP — efficacité? Allergies respiratoires, polypose, sinusites chroniques"
+
+# source: clinical pivots (no RF in source MD — derived from SPLF/SFORL guidelines)
+red_flags:
+  - description: "{s:Ronflement} + {s:apnées observées} + {s:somnolence Epworth ≥ 11} + {p:HTA résistante}"
+    dx_suspecte: "{p:SAOS sévère probable} (IAH attendu > 30/h)"
+    action: "{t:Polygraphie ventilatoire} sous 4-8 sem, avis pneumo/centre du sommeil ; {r:CPAP} si IAH confirmé > 30 ou 15-30 avec comorbidités. [VÉRIFIER:délai exact polygraphie selon priorité locale CHUV/HUG]"
+  - description: "SAOS suspecté + {s:somnolence au volant} ou {e:conducteur professionnel} (chauffeur, pilote, grutier)"
+    dx_suspecte: "Risque accidentel imminent — {p:SAOS} non traité"
+    action: "Information écrite d'{r:arrêt de la conduite} jusqu'à diagnostic + traitement efficace ; polygraphie urgente ; déclaration préfecture/SPAA si SAOS sévère (perte de permis groupe lourd). [VÉRIFIER:obligations légales suisses OFROU vs France/permis lourd]"
+  - description: "Enfant: {s:ronflement bruyant nocturne} + {s:apnées observées} + {s:hypertrophie amygdalo-végétative} ± {s:retard staturo-pondéral / troubles attention}"
+    dx_suspecte: "{p:SAOS pédiatrique}"
+    action: "Avis ORL pédiatrique urgent ; {t:polysomnographie pédiatrique} ; {r:adéno-amygdalectomie} en 1ère intention si hypertrophie obstructive"
+  - description: "{e:Obésité morbide} (IMC > 35) + ronflement + {s:dyspnée diurne / hypoventilation} (PaCO2 > 45 mmHg éveillé)"
+    dx_suspecte: "{p:Syndrome obésité-hypoventilation (SOH)} — Pickwick"
+    action: "{t:Gazométrie artérielle} diurne + polysomnographie ; {r:VNI (BiPAP)} plutôt que CPAP simple ; perte de poids encadrée, avis pneumo + nutrition"
+  - description: "{p:FA récidivante / réfractaire} ou {p:HTA résistante > 3 antihypertenseurs} avec ronflement et facteurs SAOS"
+    dx_suspecte: "{p:SAOS} comme cause/aggravant — traiter avant escalade cardiologique"
+    action: "Polygraphie + CPAP avant nouvelle ligne antihypertensive ou ablation FA ; co-suivi cardio + sommeil. [VÉRIFIER:recommandations ESC 2024 dépistage SAOS dans FA]"
+
+# source: line 172-219
+examen:
+  general:
+    - "Mesures: {r:poids, taille, IMC, tour de cou, tour de taille} — données OBLIGATOIRES"
+    - "Signes vitaux: {t:TA aux deux bras} (HTA fréquente), FC, rythme (FA), SpO2 éveillé"
+    - "Auscultation cardiaque: souffles, B2 pulmonaire fort ({p:HTAP})"
+    - "Signes d'{p:insuffisance cardiaque droite}: {s:OMI, turgescence jugulaire, hépatomégalie} (cœur pulmonaire)"
+    - "Vigilance, attention, {t:Epworth} renseigné en consultation"
+  cible:
+    - |-
+      Examen nasal:
+      • {t:test de Rosenthal} (perméabilité narinaire)
+      • déviation septale, hypertrophie cornets, polypose
+      • nasofibroscopie si disponible (manœuvre de Müller — collapsus rétro-vélaire/lingual)
+    - |-
+      Examen buccal et pharyngé:
+      • {t:Classification de Mallampati I-IV} (III-IV = risque ↑)
+      • {t:taille amygdales grade 0-4} (Friedman)
+      • luette (longueur, épaisseur), voile bas inséré/flasque
+      • {s:macroglossie}, palais ogival/étroit
+    - |-
+      Examen maxillo-mandibulaire:
+      • {s:rétrognathie / micrognathie} (profil)
+      • occlusion dentaire (classe II), surplomb
+      • ouverture buccale maximale (avant OAM)
+    - "Morphotype androïde, répartition graisse cervico-tronculaire"
+    - "Signes orientant étiologie spécifique: {s:myxœdème, faciès acromégalique, goitre}"
+
+# source: line 343-364 + clinical pivots
+dd_top5:
+  - dx: "{p:Ronflement simple} (ronchopathie isolée)"
+    indices: "Ronflement habituel sans apnée témoignée, {t:Epworth < 11}, pas de somnolence, pas de comorbidité CV ; polygraphie {r:IAH < 5/h} ; gêne essentiellement conjugale"
+    freq: "très fréquent (40 % hommes, 25 % femmes > 40 ans)"
+  - dx: "{p:Syndrome d'apnées obstructives du sommeil (SAOS)}"
+    indices: "Ronflement sonore + {s:apnées observées} + somnolence diurne (Epworth ≥ 11), polygraphie: {r:IAH ≥ 5/h + symptômes} ou {r:IAH ≥ 15/h asymptomatique} ; sévérité: léger 5-15, modéré 15-30, sévère > 30/h"
+    freq: "fréquent (4-9 % adultes, sous-diagnostiqué)"
+  - dx: "{p:Syndrome de résistance des voies aériennes supérieures (UARS / SHRVAS)}"
+    indices: "Ronflement + somnolence + fragmentation du sommeil ({s:micro-éveils > 10/h}) avec {r:IAH < 5/h} mais {t:RDI / RERA} élevé ; touche femmes plus minces et jeunes ; dx par polysomnographie complète"
+    freq: "peu fréquent (souvent méconnu)"
+  - dx: "{p:Syndrome obésité-hypoventilation (SOH / Pickwick)}"
+    indices: "{e:IMC > 30} + {s:hypercapnie diurne} ({r:PaCO2 > 45 mmHg}) en absence d'autre cause ; somnolence majeure, polyglobulie, cœur pulmonaire ; souvent SAOS associé"
+    freq: "rare mais à reconnaître (mortalité élevée)"
+  - dx: "{p:Apnées centrales du sommeil} (Cheyne-Stokes)"
+    indices: "Pauses respiratoires SANS effort ventilatoire ; contexte: {p:insuffisance cardiaque sévère}, AVC, opiacés, séjour en altitude ; absence ou faible ronflement ; polygraphie: apnées centrales prédominantes"
+    freq: "rare (5-10 % des troubles respiratoires du sommeil)"
+
+# source: line 222-340
+pec_initiale:
+  immediate:
+    - "STOP red flag d'abord → polygraphie / polysomnographie AVANT chirurgie ou conseils d'efficacité"
+    - "Mesures hygiéno-diététiques en 1ère intention (TOUS les patients): {r:perte de poids (objectif IMC < 25)}, arrêt alcool vespéral, arrêt tabac, éviction sédatifs/hypnotiques, position latérale ({r:balle de tennis dans le dos})"
+    - "Traitement obstruction nasale associée: {r:corticoïdes nasaux} (rhinite chronique), antihistaminiques (allergie), lavages nasaux salins quotidiens ; décongestionnants à éviter (courte durée seulement)"
+    - "{p:Ronflement simple} ou {p:SAOS léger}: {r:orthèse d'avancée mandibulaire (OAM) sur mesure} (dentiste/orthodontiste) — efficace IAH 5-15 et ronflement résiduel après HDV. [VÉRIFIER:critères de remboursement OAM en Suisse]"
+    - "{p:SAOS modéré-sévère} ({r:IAH ≥ 30/h} ou 15-30/h + symptômes/comorbidités): {r:CPAP} en 1ère intention, titration automatique, éducation thérapeutique, suivi observance ({r:≥ 4 h/nuit, ≥ 70 % des nuits})"
+    - "{p:SOH}: {r:VNI BiPAP} + perte de poids encadrée ± chirurgie bariatrique ; oxygénothérapie seule INSUFFISANTE"
+    - "Chirurgie (UVPP, septoplastie, amygdalectomie, avancée bimaxillaire, stimulation hypoglosse): cas sélectionnés après échec ou refus CPAP/OAM, anomalie anatomique nette ; résultats variables, ne PAS promettre guérison"
+  orientation:
+    - "Domicile + médecin traitant: ronflement simple isolé sans red flag, mise en place HDV, réévaluation à 3 mois"
+    - "Centre du sommeil / pneumologue: suspicion SAOS (Epworth ≥ 11, STOP-BANG ≥ 3, apnées observées, HTA résistante, FA) → polygraphie ambulatoire"
+    - "ORL: anomalie anatomique nette (Mallampati III-IV, hypertrophie amygdalienne, déviation septale), suspicion SAOS pédiatrique, échec OAM/CPAP envisageant chirurgie"
+    - "Cardiologue: comorbidités cardiovasculaires complexes (FA, IC, HTA résistante), évaluation HTAP"
+    - "Orthodontiste / dentiste: confection OAM sur mesure"
+
+# source: line 222-253 + clinical pivots
+examens_complementaires:
+  - "{t:Score d'Epworth} (somnolence diurne) et {t:STOP-BANG} (pré-test SAOS) à tout patient ronfleur"
+  - "{t:Polygraphie ventilatoire ambulatoire} (1ère intention): flux nasal, SpO2, efforts respiratoires, position ; {r:IAH < 5 normal / 5-15 léger / 15-30 modéré / > 30 sévère}"
+  - "{t:Polysomnographie en laboratoire} (EEG + EOG + EMG): polygraphie douteuse, suspicion UARS / apnées centrales / parasomnies, contexte pédiatrique. [VÉRIFIER:critères suisses de prise en charge polysomnographie LAMal]"
+  - "{t:Gazométrie artérielle diurne}: suspicion {p:SOH} (IMC > 35, dyspnée, polyglobulie) — PaCO2 > 45 mmHg = SOH"
+  - "ECG ± Holter, {t:échocardiographie} (HTAP, dysfonction VD/VG), bilan métabolique (glycémie, lipides, TSH)"
+  - "Imagerie sur mesure: céphalométrie avant chirurgie maxillo-faciale, {t:endoscopie sous sommeil induit (DISE)} si chirurgie envisagée"
+
+# source: clinical pivots + RF
+criteres_hospitalisation:
+  - "{p:SOH} avec décompensation (encéphalopathie hypercapnique, insuffisance cardiaque droite aiguë) → USI/USC pour VNI"
+  - "{p:SAOS sévère} + décompensation cardiovasculaire aiguë (OAP, FA mal tolérée, AVC) → cardio/USC avec initiation CPAP/BiPAP hospitalière"
+  - "Initiation CPAP/BiPAP avec titration en laboratoire si polysomnographie complexe ou comorbidités lourdes"
+  - "Chirurgie programmée (UVPP, avancée bimaxillaire, amygdalectomie SAOS pédiatrique) avec surveillance respiratoire post-op"
+
+# source: line 353-358 + clinical pivots
+pieges:
+  - "Rassurer un patient obèse hypertendu ronfleur sans avoir réalisé de {t:polygraphie} — méconnaître un {p:SAOS} aggrave HTA, FA, AVC"
+  - "{p:SAOS chez la femme}: présentation atypique (fatigue, insomnie, dépression, céphalées) plutôt que somnolence franche → ne pas exclure sur Epworth normal"
+  - "Oublier d'évaluer la {s:somnolence au volant} et le métier ({e:chauffeur professionnel}): non-déclaration peut engager la responsabilité médicale. [VÉRIFIER:obligations OFROU/SPAA versus secret médical]"
+  - "Méconnaître le {p:SAOS pédiatrique}: troubles attention/scolaires, énurésie, retard de croissance peuvent précéder la somnolence diurne"
+  - "Promettre une guérison par {r:chirurgie} (UVPP) ou des sprays anti-ronflement: résultats limités, ne pas retarder CPAP/OAM si SAOS modéré-sévère"
+
+cartes_liees:
+  - SSP-ORL-01
+  - SSP-PED-02
