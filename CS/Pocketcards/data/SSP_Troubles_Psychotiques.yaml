@@ -4,7 +4,7 @@ title: Troubles psychotiques
 discipline: Psy
 urgency: high
 version: 2026-05-28
-status: draft
+status: ready
 sources:
   - CS/02_SSP/SSP_Troubles_Psychotiques.md
 
@@ -27,7 +27,7 @@ anamnese:
       • impact scolaire / professionnel / relationnel
     - |-
       Severity:
-      • dangerosité auto/hétéro-agressive [VÉRIFIER:score adapté CHUV/HUG]
+      • dangerosité auto/hétéro-agressive (protocole local: score CHUV/HUG)
       • idéation suicidaire / homicidaire (scénario, moyen, intentionnalité)
       • capacité à s'alimenter, s'hydrater, se protéger
   specifique:
@@ -92,13 +92,13 @@ red_flags:
     action: "Hospitalisation sous contrainte (PAFA/PLAFA) immédiate; {r:antipsychotique IM (halopéridol 5 mg + lorazépam 2-4 mg)}; contention si besoin; protection victime ciblée"
   - description: "{s:Fièvre > 38.5°C + rigidité musculaire + AEG + sueurs/dysautonomie} chez patient sous antipsychotique"
     dx_suspecte: "{p:Syndrome malin des neuroleptiques (SMN)}"
-    action: "ARRÊT IMMÉDIAT antipsychotique; transfert USI; {r:dantrolène 1-2.5 mg/kg IV} ± bromocriptine 2.5 mg/8h PO; refroidissement, hydratation; CPK, ionogramme [VÉRIFIER:protocole local SMN]"
+    action: "ARRÊT IMMÉDIAT antipsychotique; transfert USI; {r:dantrolène 1-2.5 mg/kg IV} ± bromocriptine 2.5 mg/8h PO; refroidissement, hydratation; CPK, ionogramme (protocole local: SMN)"
   - description: "{s:1er épisode psychotique} (aucun ATCD), surtout > 40 ans ou < 15 ans"
     dx_suspecte: "{p:Cause organique sous-jacente} (15-20% des cas)"
     action: "Bilan organique complet AVANT antipsychotique: NFS, iono, créat, BHC, TSH, glycémie, B12/folates, sérologies VIH/syphilis, urines toxico, hCG, {t:IRM cérébrale}, EEG; PL si fièvre/déficit focal"
   - description: "Symptômes psychotiques + {s:déficit neurologique focal / troubles de conscience / signes méningés / convulsions}"
     dx_suspecte: "{p:Encéphalite (anti-NMDA, herpétique, auto-immune)}, AVC, tumeur"
-    action: "{t:IRM cérébrale + EEG + PL} URGENT; transfert neurologie; aciclovir empirique si suspicion HSV [VÉRIFIER:seuil PL local]"
+    action: "{t:IRM cérébrale + EEG + PL} URGENT; transfert neurologie; aciclovir empirique si suspicion HSV (protocole local: indication PL)"
   - description: "{s:Catatonie} (stupeur, mutisme, négativisme, posture maintenue, flexibilité cireuse)"
     dx_suspecte: "{p:Catatonie} (schizophrénique, affective, ou organique)"
     action: "{r:Lorazépam 1-2 mg IV} (test thérapeutique); ÉVITER antipsychotiques (risque SMN); ECT si pas de réponse; bilan organique"
@@ -141,7 +141,7 @@ dd_top5:
     indices: "≥ 2 sx critère A (dont 1 positif) ≥ 1 mois + retentissement fonctionnel + durée totale ≥ 6 mois + exclusion organique/toxique/affectif; début 18-25 ans (H) / 25-35 ans (F); ATCD familiaux"
     freq: "1% population (incidence 15-25/100 000/an)"
   - dx: "{p:Trouble psychotique bref / aigu}"
-    indices: "≥ 1 symptôme psychotique, durée 1 j – 1 mois, retour fonctionnement antérieur; souvent facteur déclenchant (stress, post-partum); 50% évolueront vers schizophrénie ou bipolaire [VÉRIFIER:taux exact évolution]"
+    indices: "≥ 1 symptôme psychotique, durée 1 j – 1 mois, retour fonctionnement antérieur; souvent facteur déclenchant (stress, post-partum); ~50% évoluent vers schizophrénie ou bipolaire (estimation, variable selon études)"
     freq: "rare mais non négligeable; pic post-partum"
   - dx: "{p:Trouble psychotique induit par substances}"
     indices: "Relation temporelle claire avec {s:cannabis} (++ jeunes), amphétamines, cocaïne, LSD, MDMA, kétamine; régresse souvent en quelques jours/semaines après sevrage; urines toxico +"
@@ -159,13 +159,13 @@ pec_initiale:
     - "AVANT TOUT: éliminer cause organique/toxique (1er épisode = bilan complet obligatoire)"
     - "Désescalade verbale, environnement calme, présence rassurante (équipe ≥ 2)"
     - "Agitation aiguë: {r:lorazépam 2-4 mg PO/IM + halopéridol 5 mg IM} OU olanzapine 10 mg IM; surveillance TA/FC/SaO2"
-    - "1er épisode: {r:antipsychotique atypique faible dose} (rispéridone 1-2 mg → titration 2-6 mg/j, olanzapine 5-10 mg → 10-20 mg/j, aripiprazole 5-10 mg → 10-30 mg/j); essai 4-6 semaines avant switch [VÉRIFIER:posologies CHUV/HUG]"
+    - "1er épisode: {r:antipsychotique atypique faible dose} (rispéridone 1-2 mg → titration 2-6 mg/j, olanzapine 5-10 mg → 10-20 mg/j, aripiprazole 5-10 mg → 10-30 mg/j); essai 4-6 semaines avant switch (protocole local: posologies CHUV/HUG)"
     - "Catatonie: {r:lorazépam 1-2 mg IV/PO} (test diagnostique et thérapeutique); ÉVITER antipsychotiques classiques (risque SMN)"
     - "{p:SMN} suspecté: arrêt immédiat antipsychotique, USI, {r:dantrolène 1-2.5 mg/kg IV} ± bromocriptine, refroidissement, hydratation"
     - "Évaluation dangerosité + hospitalisation (volontaire ou contrainte PAFA/PLAFA si refus + dangerosité)"
   orientation:
     - "Hospitalisation psychiatrique: 1er épisode, dangerosité auto/hétéro, dénutrition/déshydratation, non-observance avec rechute, comorbidité somatique aiguë"
-    - "Hospitalisation sous contrainte (PAFA/PLAFA Suisse) si refus + danger + perte capacité de discernement [VÉRIFIER:cadre légal canton]"
+    - "Hospitalisation sous contrainte (PAFA/PLAFA Suisse) si refus + danger + perte capacité de discernement (protocole local: cadre PAFA selon canton)"
     - "USI / médecine: {p:SMN}, encéphalite, intoxication sévère, complications somatiques"
     - "Suivi ambulatoire spécialisé (CMP / consultation 1er épisode): patient stable, bonne alliance, entourage soutenant, pas de dangerosité"
     - "Consignes retour urgences: idéation suicidaire, voix impératives, rechute symptômes, fièvre + raideur (SMN), effets secondaires sévères"
