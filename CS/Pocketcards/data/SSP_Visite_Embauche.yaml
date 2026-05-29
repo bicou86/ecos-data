@@ -1,0 +1,200 @@
+id: SSP-COM-12
+type: ssp
+title: Visite d'embauche
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Visite_Embauche.md
+
+# source: lines 11-25 (contexte professionnel)
+anamnese:
+  socrates:
+    - |-
+      Poste visé — cadrer la visite d'emblée:
+      • nature du poste et tâches concrètes?
+      • exigences physiques (port de charges, postures, hauteurs)?
+      • environnement (bureau, industrie, extérieur, soins)?
+      • horaires (jour fixe, {s:travail de nuit}, posté, astreintes)?
+    - |-
+      Expositions professionnelles actuelles / futures:
+      • {s:chimiques}: solvants, métaux lourds, amiante, poussières?
+      • {s:physiques}: bruit {r:> 85 dB}, vibrations, rayonnements, hauteurs?
+      • {s:biologiques}: agents infectieux, contacts patients, laboratoire?
+      • {s:ergonomiques}: port de charges, postures statiques prolongées?
+    - |-
+      Parcours professionnel antérieur (expositions passées):
+      • anciens postes à risque (BTP, industrie, mines, agriculture, soins)?
+      • durée et intensité des expositions?
+      • maladies professionnelles reconnues ou en cours?
+      • accidents du travail (AT) passés?
+    - "Poste à sécurité critique? (conduite, machines dangereuses, travaux en hauteur, manipulation produits à risque)"
+    - "Niveau de stress professionnel attendu / charge mentale / travail isolé?"
+  specifique:
+    - |-
+      Symptômes liés au travail dans les postes antérieurs [VÉRIFIER: présence dans source MD — section 4.3]:
+      • {s:toux chronique ou dyspnée} à l'effort (pneumopathie d'hypersensibilité, asthme pro)?
+      • {s:troubles cutanés} (eczéma, dermites de contact)?
+      • {s:baisse d'audition progressive} (surdité professionnelle)?
+      • {s:lombalgies / TMS} récurrents?
+    - |-
+      Vaccinations professionnelles selon secteur:
+      • {r:Hépatite B}: soignants, laboratoire — sérologie + contrôle immunité?
+      • {r:Tuberculose}: dépistage {t:QuantiFERON} si soins / pays endémique?
+      • {r:ROR, DTP, coqueluche}: carnet vaccinal à jour?
+      • {r:Grippe}: soignants ou contact personnes âgées?
+    - |-
+      Habitudes de vie / toxiques (poste sensible):
+      • {s:alcool}: consommation, dépendance (AUDIT-C)? [VÉRIFIER: seuil AUDIT-C pour poste de sécurité]
+      • {s:drogues illicites} / cannabis / médicaments psychotropes?
+      • tabac (paquets-années, motivation sevrage)?
+      • qualité du {s:sommeil} (troubles, apnées → travail de nuit)?
+  atcd:
+    - |-
+      Pathologies chroniques — rechercher CI au poste:
+      • {e:neurologiques}: épilepsie, syncopes, AVC/AIT, troubles de l'équilibre?
+      • {e:cardiovasculaires}: HTA mal contrôlée, cardiopathie, troubles du rythme?
+      • {e:respiratoires}: asthme, BPCO, allergies professionnelles (latex, isocyanates)?
+      • {e:psychiatriques}: dépression sévère, troubles anxieux, burn-out récent?
+      • {e:endocriniennes}: diabète (hypoglycémies → conduite!), dysthyroïdie?
+    - |-
+      Antécédents locomoteurs:
+      • chirurgies rachidiennes, prothèses articulaires?
+      • séquelles limitantes (port de charges, montée échelles)?
+      • TMS reconnus ou en cours de traitement?
+    - |-
+      Allergies — contexte professionnel:
+      • latex (soignants, industrie du caoutchouc)?
+      • produits chimiques, isocyanates, formaldéhyde?
+      • allergies alimentaires (restauration)?
+    - "Dépistages récents: dernier bilan biologique, ECG, dépistages oncologiques selon âge?"
+    - "Médicaments en cours: psychotropes, anticoagulants, traitements pouvant altérer vigilance ou réflexes?"
+
+# source: lines 268-274 (pièges), pivots médecine du travail CH
+red_flags:
+  - description: "{e:Épilepsie non contrôlée} → poste de conduite ou machines dangereuses"
+    dx_suspecte: "{p:Inaptitude absolue au poste de sécurité}"
+    action: "Décision inaptitude écrite à l'employeur (aptitude uniquement, sans Dx); avis neurologique + ajustement TTT avant réévaluation"
+  - description: "{s:Daltonisme} avéré → poste impliquant signalisation colorée ou chimie analytique"
+    dx_suspecte: "{p:Inaptitude partielle ou absolue selon poste}"
+    action: "Test Ishihara si non documenté; déclarer restriction à l'employeur; orienter vers poste compatible"
+  - description: "{s:Addiction active} (alcool, drogues) → poste de sécurité (conduite, hauteurs, machines)"
+    dx_suspecte: "{p:Risque AT grave — inaptitude temporaire}"
+    action: "Inaptitude temporaire; orientation addictologie; réévaluation aptitude après sevrage documenté {r:≥ 3 mois} [VÉRIFIER: délai suisse recommandé]"
+  - description: "{p:Tuberculose active} suspectée (toux + fièvre + {t:QuantiFERON} positif) → secteur soins ou enseignement"
+    dx_suspecte: "{p:TB active — risque transmission}"
+    action: "Exclusion immédiate du poste; déclaration obligatoire; bilan TB complet (rx thorax, BK crachats); initier traitement"
+  - description: "{s:Hépatite B chronique non contrôlée} (AgHBs+ + charge virale élevée) → soignant avec gestes invasifs"
+    dx_suspecte: "{p:Risque transmission professionnelle HBV}"
+    action: "Restriction gestes invasifs; évaluation infectiologue; traitement antiviral si charge > seuil [VÉRIFIER: seuil viral CH soignants]"
+  - description: "{s:HTA sévère > 180/120 mmHg} découverte → tout poste"
+    dx_suspecte: "{p:HTA maligne — risque CV aigu}"
+    action: "Aptitude suspendue; référer médecin traitant en urgence différée; réévaluation après mise en route traitement"
+  - description: "{e:Burn-out sévère} / épisode dépressif majeur non traité → poste à responsabilité ou de sécurité"
+    dx_suspecte: "{p:Inaptitude temporaire — risque erreur / AT}"
+    action: "Inaptitude temporaire; arrêt de travail; orientation psychiatrique / médecin traitant; réévaluation après stabilisation"
+
+# source: lines 117-153 (examen clinique)
+examen:
+  general:
+    - "Signes vitaux: TA (deux bras), FC, FR, T°, SpO2, IMC — aptitude cardiovasculaire globale"
+    - "État général, mobilité spontanée, marche, équilibre (Romberg si travail en hauteur)"
+    - "Aspect cutané: cicatrices, dermites, hippocratisme digital (pneumopathie chronique)"
+  cible:
+    - |-
+      Examen cardiovasculaire — poste de sécurité / conduite:
+      • auscultation (souffle, arythmie)?
+      • pouls périphériques, œdèmes membres inférieurs?
+      • signes insuffisance cardiaque?
+    - |-
+      Examen respiratoire — expositions pulmonaires:
+      • auscultation (sibilants, râles)?
+      • signes pneumopathie chronique (hippocratisme digital)?
+      • amplitude respiratoire?
+    - |-
+      Examen locomoteur — contraintes physiques:
+      • rachis: mobilité, douleurs à la flexion/extension?
+      • membres supérieurs: force (grip), amplitude (travail manuel)?
+      • membres inférieurs: stabilité, marche, accroupissement?
+      • recherche TMS (tendinopathies, syndromes canalaires)?
+    - |-
+      Examen neurologique — poste de sécurité:
+      • conscience, orientation, coordination?
+      • réflexes ostéotendineux symétriques?
+      • équilibre statique et dynamique (Romberg)?
+    - |-
+      Examens sensoriels — sécurité au travail:
+      • {t:acuité visuelle} (Snellen) + champ visuel (confrontation)?
+      • {t:test Ishihara} si conduite / signalisation?
+      • audition: voix chuchotée; {t:audiométrie} si exposition bruit?
+
+# source: pivots médecine du travail — 5 catégories risques
+dd_top5:
+  - dx: "{p:Postes à risque sécurité}"
+    indices: "Conducteurs, travaux en hauteur, machines dangereuses, manutention lourde — épilepsie, addiction, arythmie, troubles de l'équilibre = CI absolues ou relatives selon contrôle"
+    freq: "10-20 % des postes industriels / transport"
+  - dx: "{p:Expositions chimiques / biologiques}"
+    indices: "Laboratoire, agriculture, soins, industrie chimique — solvants, métaux lourds, agents infectieux, latex; surveillance spirométrie, bilan hépatique, NFS, QuantiFERON, sérologies"
+    freq: "fréquent en milieux industriels et de soins"
+  - dx: "{p:Contraintes posturales / port de charges}"
+    indices: "BTP, soins, logistique — TMS rachidiens et membres supérieurs; bilan locomoteur; ATCD chirurgie rachidienne → évaluation capacité port de charges"
+    freq: "1ère cause de MP reconnue en Suisse (Suva)"
+  - dx: "{p:Travail de nuit / horaires irréguliers}"
+    indices: "Soins, transports, industrie continue — troubles du sommeil, risque CV, diabète, troubles psychiques; SAOS contre-indiqué non traité aux postes de conduite"
+    freq: "15-20 % de la population active"
+  - dx: "{p:Travail tertiaire / bureaux}"
+    indices: "Sédentarité, travail sur écran prolongé, stress cognitif — bilan général, acuité visuelle, TA, dépistage troubles anxio-dépressifs; faible exigence physique = peu de CI absolues"
+    freq: "majoritaire (> 60 % emplois en Suisse)"
+
+# source: lines 160-255 (prise en charge, conclusions aptitude)
+pec_initiale:
+  immediate:
+    - |-
+      Conclusion d'aptitude — 4 catégories (à formaliser par écrit):
+      • {r:Apte}: aucune restriction — poste compatible avec état de santé
+      • {r:Apte avec restrictions}: aménagement poste, limitations spécifiques, EPI adaptés
+      • {r:Inapte temporaire}: pathologie en cours de traitement; réévaluation dans délai défini
+      • {r:Inapte définitif}: CI absolue; risque pour travailleur ou tiers; information sur recours
+    - |-
+      Examens complémentaires ciblés selon poste:
+      • poste de sécurité / conduite: {t:ECG de repos}
+      • exposition bruit {r:> 85 dB}: {t:audiométrie tonale}
+      • exposition poussières / amiante: {t:radiographie thoracique} + {t:spirométrie}
+      • soignants: {t:sérologie HBV/HCV}, {t:QuantiFERON}, vaccination HBV si non immun
+      • exposition solvants: {t:transaminases} + {t:NFS}
+      • exposition métaux lourds / rayonnements: {t:créatininémie} + {t:NFS}
+    - "Secret professionnel absolu: transmettre à l'employeur uniquement l'aptitude et les restrictions fonctionnelles — jamais le diagnostic"
+    - "Vaccinations manquantes: compléter carnet vaccinal selon poste (HBV, DTP, grippe, ROR)"
+    - "Prévention: information sur risques du poste, EPI obligatoires, surveillance médicale périodique selon type d'exposition"
+  orientation:
+    - "Apte sans restriction: certificat d'aptitude daté + périodicité de suivi selon exposition (annuelle si risque, biennale sinon)"
+    - "Pathologie dépistée incidente: orienter médecin traitant pour suivi; réévaluation aptitude après traitement"
+    - "Inapte temporaire: définir délai de réévaluation explicite; documenter motif médical dans dossier confidentiel"
+    - "Inapte définitif: informer le candidat de son droit de recours; rédiger courrier d'aptitude sans mention du diagnostic"
+    - "Maladie professionnelle suspectée (ATCD exposition + symptômes): déclaration Suva LAA 9 + orientation spécialiste"
+
+examens_complementaires:
+  - "{t:ECG de repos}: poste de sécurité, conduite, suspicion arythmie ou cardiopathie"
+  - "{t:Audiométrie tonale}: exposition bruit professionnel {r:> 85 dB} (OPA art. 32)"
+  - "{t:QuantiFERON-TB Gold}: soignants, travailleurs pays endémique, exposés TB"
+  - "{t:Spirométrie + Rx thorax}: exposition poussières, amiante, irritants respiratoires"
+  - "{t:Sérologie HBV} (AgHBs, anti-HBs) + {t:sérologie HCV}: soignants avec gestes invasifs"
+  - "{t:NFS + transaminases}: exposition solvants, benzène, rayonnements ionisants"
+
+criteres_hospitalisation:
+  - "{p:HTA maligne > 180/120 mmHg} avec symptômes (céphalée, troubles visuels) → urgences médicales"
+  - "Suspicion {p:TB active} avec état général altéré → pneumologie / infectiologie hospitalière"
+  - "Décompensation psychiatrique aiguë (idées suicidaires, agitation) → urgences psychiatriques"
+  - "Arythmie grave découverte (BAV haut degré, TV) → cardiologie en urgence"
+
+pieges:
+  - "Divulguer le diagnostic à l'employeur — seule l'aptitude et les restrictions fonctionnelles peuvent être transmises (secret médical LPD/Suisse)"
+  - "Confondre inapte temporaire et définitif — une épilepsie bien contrôlée sous TTT peut autoriser certains postes [VÉRIFIER: critères suisses conduite + épilepsie]"
+  - "Oublier de dépister la {p:tuberculose} latente chez les soignants (QuantiFERON systématique) — risque de passer à la forme active"
+  - "Négliger l'exposition professionnelle antérieure — une silicose ou une pneumoconiose peut être asymptomatique à l'embauche"
+  - "Aptitude sans réserve chez un patient avec addiction active à un poste de sécurité — CI formelle même si stabilité apparente"
+
+cartes_liees:
+  - SYS-COM
+  - SSP-COM-13

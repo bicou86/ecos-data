@@ -1,0 +1,156 @@
+id: SSP-COM-03
+type: ssp
+title: Entretien motivationnel — alcool
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_EM_Alcool.md
+
+# source: lines 1-59 (dépistage + seuils OMS)
+anamnese:
+  socrates:
+    - |-
+      Setup — demander permission AVANT tout:
+      • "Puis-je vous poser quelques questions sur votre consommation d'alcool ?"
+      • "Je pose ces questions à tous mes patients"
+      • Négocier l'agenda: "Qu'aimeriez-vous aborder aujourd'hui ?"
+    - |-
+      Caractérisation quantitative ({t:AUDIT-C} — 3 questions):
+      • Fréquence: jamais / ≤1×/mois / 2-4×/mois / 2-3×/sem / ≥4×/sem
+      • Quantité jour typique: 1-2 / 3-4 / 5-6 / 7-9 / ≥10 verres
+      • Fréquence ≥ 6 verres/occasion: jamais / <1×/mois / 1×/mois / 1×/sem / quotidien
+    - |-
+      Seuils {r:OMS} à risque faible:
+      • Hommes: ≤ 2 verres/j et ≤ 14 verres/sem [VÉRIFIER: seuil H 14 vs 20 verres/sem — discordance OMS vs source MD]
+      • Femmes: ≤ 1 verre/j et ≤ 7 verres/sem
+      • ≥ 2 jours sans alcool/semaine
+    - "Unité standard = {r:10 g} alcool pur: 1 dl vin = 1 bière 2.5 dl = 1 spiritueux 2.5 cl = 1 unité"
+    - "Contexte de consommation: seul / social / stress / routinier? À quelle heure? En semaine vs weekend?"
+  specifique:
+    - |-
+      {s:Signaux de dépendance} ({t:≥ 2 critères DSM-5/12 mois}):
+      • Désir puissant / envies irrépressibles (craving)
+      • Perte de contrôle sur les quantités ou l'arrêt
+      • {e:Tolérance} (même effet = plus de verres)
+      • {s:Sevrage}: tremblements matinaux, sueurs, anxiété, nausées au réveil [VÉRIFIER: critères DSM-5 vs CIM-10 — source MD cite CIM-10 (≥3/12 mois)]
+      • Abandon progressif d'activités
+      • Poursuite malgré dommages connus
+    - "Symptômes de sevrage actifs: tremblements, agitation, sueurs, tachycardie, nausées — depuis quand ?"
+    - "ATCD de sevrage compliqué: convulsions, delirium tremens?"
+    - "{e:Grossesse} actuelle ou désirée? Test bHCG si doute"
+    - "Idées suicidaires ou dépression associée?"
+  atcd:
+    - "Tentatives d'arrêt antérieures: méthodes, durée, rechutes — qu'est-ce qui a aidé?"
+    - "Comorbidités: hépatopathie, pancréatite, dépression, anxiété, autres addictions (tabac, BZD)"
+    - "Médicaments: BZD, opiacés, anticoagulants (interactions alcool)"
+    - "Contexte social: entourage buveur, situation familiale, emploi, conduites à risque (voiture)"
+
+# source: lines 60-96 (situations urgentes + red flags EM)
+red_flags:
+  - description: "{s:Sevrage actif}: tremblements + agitation + sueurs + tachycardie ± ATCD {p:delirium tremens} ou convulsions"
+    dx_suspecte: "{p:Sevrage alcoolique compliqué} / delirium tremens"
+    action: "Hospitalisation immédiate; {r:BZD (diazépam)} en titration + {r:thiamine B1 500 mg IV} avant tout apport glucosé; monitoring continu"
+  - description: "{e:Grossesse} + consommation d'alcool quelle que soit la quantité"
+    dx_suspecte: "{p:SAF — Syndrome d'alcoolisation fœtale}"
+    action: "Arrêt total alcool immédiat; référence addictologie + maternité urgente; bHCG si doute"
+  - description: "{s:Idées suicidaires} exprimées ou dépression sévère associée à la consommation"
+    dx_suspecte: "{p:Crise suicidaire} avec risque de passage à l'acte"
+    action: "Évaluation psychiatrique urgente; ne pas rester seul — orientation urgences psy"
+  - description: "{s:Ictère} + douleur abdominale + fièvre ou {s:hématémèse} chez consommateur chronique"
+    dx_suspecte: "{p:Hépatite alcoolique aiguë} / {p:Cirrhose décompensée}"
+    action: "Hospitalisation; bilan hépatique STAT ({t:bilirubine, TP, albumine}); avis gastro-entérologie"
+  - description: "{s:Confusion aiguë} / désorientation chez consommateur chronique sans autre cause évidente"
+    dx_suspecte: "{p:Encéphalopathie de Wernicke} (carence thiamine)"
+    action: "{r:Thiamine 500 mg IV} immédiat AVANT tout apport glucosé; IRM cérébrale; hospitalisation"
+
+# source: lines 113-130 (évaluation motivation + stades)
+examen:
+  general:
+    - |-
+      Évaluation du stade motivationnel (modèle Prochaska):
+      • "Sur une échelle 0-10, à quel point est-il important de changer votre consommation ?"
+      • "Sur une échelle 0-10, quelle est votre confiance en votre capacité à changer ?"
+      • Pourquoi ce chiffre et pas moins? Qu'est-ce qui vous ferait monter?
+    - "Signes vitaux si suspicion sevrage: TA, FC, T°, tremblements au repos"
+    - "Aspect général: teint, ictère subictérique, hépatomégalie? (si consommation chronique sévère)"
+  cible:
+    - |-
+      Balance décisionnelle — explorer DEUX côtés sans jugement:
+      • "Qu'est-ce que l'alcool vous apporte?" (détente, social, gestion stress)
+      • "Y a-t-il des aspects qui vous préoccupent?" (santé, famille, travail, finances)
+    - |-
+      Technique {t:Demander-Offrir-Demander} pour informer:
+      • Demander: "Que savez-vous des risques liés à l'alcool ?"
+      • Offrir: "Puis-je partager quelques informations ?"
+      • Demander: "Qu'en pensez-vous ?"
+    - "Résumé structuré: reformuler les deux côtés + demander si compris — vérifier alliance"
+    - "Gestion résistance: reflet simple / amplifié / double face — NE PAS confronter ni argumenter [VÉRIFIER: protocole OARS préféré localement (CHUV/HUG) vs modèle 5A]"
+
+# source: lines 202-272 (niveaux intervention + stades Prochaska)
+dd_top5:
+  - dx: "{p:Précontemplation}"
+    indices: "Pas de problème perçu; minimise ou nie; résistance au changement; 'Ce n'est pas un problème pour moi'"
+    freq: "Fréquent — respecter le stade, semer le doute sans insister, porte ouverte"
+  - dx: "{p:Contemplation}"
+    indices: "Ambivalence explicite: 'Je devrais peut-être...' mais pas prêt; connaît les risques; motivation ≤ 5/10"
+    freq: "Cible principale de l'EM — explorer balance, renforcer discours-changement"
+  - dx: "{p:Préparation}"
+    indices: "Intention de changer dans < 1 mois; cherche comment; pose des questions pratiques; confiance ≥ 6/10"
+    freq: "Définir plan concret + fixer objectif réaliste"
+  - dx: "{p:Action}"
+    indices: "Changement en cours depuis < 6 mois; efforts visibles; vulnérable aux rechutes précoces"
+    freq: "Renforcer + anticiper les situations à risque"
+  - dx: "{p:Maintien / Rechute}"
+    indices: "Changement > 6 mois OU rechute: normaliser ('fréquent dans le processus'), explorer sans juger, valoriser la période de réduction"
+    freq: "Rechute ≠ échec — renégocier objectifs"
+
+# source: lines 247-298 (interventions + ressources + pharmacologie)
+pec_initiale:
+  immediate:
+    - |-
+      Adapter l'intervention au stade:
+      • Précontemplation: feedback non directif, information si permission, porte ouverte
+      • Contemplation: balance décisionnelle, questions évocatrices, échelles 0-10
+      • Préparation: plan de changement concret, objectifs négociés (réduction / jours sans / abstinence)
+    - |-
+      Objectifs négociés (JAMAIS imposés):
+      • Réduction progressive ou jours sans alcool ou limites par occasion
+      • Dry month ou abstinence complète si demandé
+      • Journal de consommation (date, quantité, contexte, déclencheur)
+    - "Intervention brève ({r:5-15 min}): réduction 20-30% consommation; NNT = 8; effet maintenu 6-12 mois"
+    - |-
+      Pharmacologie si dépendance et demande du patient [VÉRIFIER: indication exacte + posologies suisses]:
+      • {r:Acamprosate} (anti-craving, post-sevrage), {r:Naltrexone} (réduction envies)
+      • {r:Baclofène} (indication hors-AMM en CH — à confirmer), {r:Disulfirame} (aversion)
+  orientation:
+    - "Domicile + MT: consommation à risque sans dépendance, patient motivé, pas de red flag"
+    - "Addictologie ambulatoire: consommation nocive ou suspicion dépendance, échec intervention brève"
+    - "Hospitalisation: sevrage compliqué, Wernicke, hépatite alcoolique, SI, grossesse (voir red flags)"
+    - "Ressources complémentaires: Alcooliques Anonymes, groupes de parole, services sociaux, ligne alcool"
+
+examens_complementaires:
+  - "{t:AUDIT-C}: dépistage ≥4 H / ≥3 F = consommation à risque; AUDIT complet (10 questions) si positif"
+  - "{t:Bilan hépatique} (ALAT, ASAT, GGT, bilirubine, TP, albumine): si suspicion hépatopathie ou > 6 mois consommation nocive"
+  - "{t:FSC + glycémie + électrolytes}: si sevrage ou dépendance sévère"
+  - "{t:Thiamine (B1) dosage}} avant supplémentation si malnutrition associée"
+  - "{t:bHCG}: toute femme en âge de procréer avec consommation nocive"
+
+criteres_hospitalisation:
+  - "{p:Sevrage compliqué}: ATCD convulsions / delirium tremens, tremblements sévères, désorientation"
+  - "{p:Encéphalopathie de Wernicke}: confusion + ataxie + ophtalmoplégie chez consommateur chronique"
+  - "{p:Hépatite alcoolique aiguë} ou cirrhose décompensée (ictère, ascite, hémorragie)"
+  - "{e:Grossesse} + consommation active malgré intervention"
+  - "{p:Crise suicidaire} associée"
+
+pieges:
+  - "Confronter ou étiqueter ('alcoolique') → renforce la résistance; utiliser reflet et recadrage"
+  - "Donner des conseils non sollicités avant demande de permission → rupture de l'alliance thérapeutique"
+  - "Oublier de dépister une dépendance physique avant de proposer un arrêt ambulatoire → risque de sevrage non médicalisé dangereux"
+  - "Confondre rechute = échec → normaliser, valoriser les progrès, renégocier sans culpabiliser"
+  - "Omettre de demander {t:bHCG} chez une femme en âge de procréer avec consommation nocive"
+
+cartes_liees:
+  - SSP-PSY-01
+  - TOOL-AUDIT

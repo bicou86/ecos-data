@@ -1,0 +1,181 @@
+id: SSP-COM-09
+type: ssp
+title: "Situations de dépistages (recommandations)"
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_SD_Dépistages.md
+
+# source: lines 1-35 (principes généraux)
+anamnese:
+  socrates:
+    - |-
+      Site (quel dépistage?) :
+      • colorectal (≥50 ans, asymptomatique)?
+      • sein F (50-69 ans)?
+      • prostate H (discussion dès 50 ans)?
+      • poumon (50-80 ans, ≥15 UPA, fumeur actif ou sevrage <10 ans)?
+    - |-
+      Onset (démarche) :
+      • invitation programme cantonal reçue?
+      • demande spontanée du patient?
+      • consultation de suivi?
+    - |-
+      Character (attentes et valeurs) :
+      • priorité détection précoce vs éviter surtraitement?
+      • comment gère-t-il l'incertitude / l'attente des résultats?
+      • expériences antérieures avec le cancer (proches)?
+    - |-
+      Time (historique) :
+      • dernière coloscopie / FIT / mammographie / PSA / scanner?
+      • intervalles respectés?
+    - |-
+      Exacerbating (profil de risque) :
+      • antécédent familial 1er degré cancer colorectal <60 ans / sein <50 ans / prostate?
+      • tabagisme (paquets-années, statut sevrage)?
+      • syndrome héréditaire connu (Lynch, PAF, BRCA)?
+    - |-
+      Relieving (freins au dépistage) :
+      • peur de la douleur / procédure invasive?
+      • peur des résultats ('je préfère ne pas savoir')?
+      • contrainte logistique / coût?
+    - "Severity (impact sur la décision) : anxiété élevée face au cancer ↔ priorité qualité de vie?"
+  specifique:
+    - |-
+      Colorectal — choix :
+      • {t:FIT} tous les 2 ans (domicile, non invasif) vs {t:coloscopie} tous les 10 ans (visualisation complète, ablation polypes)?
+      • programme cantonal disponible? (franchise {r:10%} seulement)
+    - |-
+      Sein — dépistage personnalisé si haut risque :
+      • BRCA1/2, ATCD personnel, radiothérapie thoracique <30 ans → {r:IRM sein}? [VÉRIFIER: seuil âge/IRM selon recommandations suisses actuelles]
+      • seins denses → {t:échographie} complémentaire?
+    - |-
+      Prostate — décision partagée (pas de consensus) :
+      • espérance de vie >10 ans requise pour bénéfice potentiel
+      • expliquer cascade: PSA élevé → répétition → urologie → biopsies
+      • profil 'pour': anxiété cancer, ATCD familiaux; profil 'contre': priorité QdV, crainte effets secondaires
+    - |-
+      Poumon — critères stricts :
+      • {r:≥15 UPA} fumeur actif OU sevrage <10 ans, 50-80 ans
+      • UPA = (cigarettes/jour ÷ 20) × années tabagisme
+      • message prioritaire : {r:sevrage tabagique} reste le meilleur dépistage (-50% risque à 10 ans)
+  atcd:
+    - "Dépistages antérieurs et résultats (FIT positif non suivi? coloscopie avec polypes?)"
+    - "Maladies inflammatoires intestinales (colite ulcéreuse, Crohn) → dépistage individualisé"
+    - "Comorbidités sévères / espérance de vie <10 ans → reconsidérer pertinence de tout dépistage"
+    - "Médicaments : anticoagulants (risque coloscopie), immunosuppresseurs"
+    - "ATCD familiaux 1er degré : cancer colorectal, sein, prostate, ovaire → début anticipé / fréquence augmentée"
+
+# source: lines 420-435 (erreurs ECOS + Wilson-Jungner)
+red_flags:
+  - description: "{e:Antécédent familial 1er degré} cancer colorectal <60 ans OU sein <50 ans OU syndrome héréditaire (Lynch, PAF, BRCA)"
+    dx_suspecte: "{p:Risque élevé nécessitant dépistage individualisé}"
+    action: "Ne pas appliquer protocole standard — orientation consultation spécialisée génétique/gastro/oncologie; débuter dépistage plus tôt et fréquence adaptée [VÉRIFIER: âge début coloscopie Lynch vs PAF selon centres suisses]"
+  - description: "{s:Symptômes présents} (rectorragies, masse palpable, hémoptysie, dysurie, hématurie)"
+    dx_suspecte: "{p:Pathologie active} — démarche diagnostique, pas dépistage"
+    action: "STOP dépistage → bilan diagnostique ciblé immédiat; ne pas différer par un FIT si saignement digestif actif"
+  - description: "{e:Homme >50 ans, espérance de vie <10 ans} sollicitant PSA systématique"
+    dx_suspecte: "{p:Sur-dépistage} — rapport bénéfice/risque défavorable"
+    action: "Discussion explicite : bénéfice PSA non démontré si espérance de vie <10 ans; décision éclairée documentée"
+  - description: "{s:Refus de dépistage répété} chez patient à risque élevé (fumeur 40 UPA, ATCD familial fort)"
+    dx_suspecte: "{p:Opportunité manquée} de prévention secondaire"
+    action: "Respecter autonomie après information complète; documenter dans le dossier; proposer réévaluation annuelle; ne pas culpabiliser"
+  - description: "{e:Résultat FIT positif non suivi} ou mammographie anormale sans coloscopie / biopsie programmée"
+    dx_suspecte: "{p:Cancer colorectal ou sein} non diagnostiqué"
+    action: "Coloscopie urgente si FIT positif (délai max {r:4-6 semaines}); orienter mammographie anormale vers sein-spécialiste [VÉRIFIER: délai recommandé FIT+ → coloscopie selon guidelines suisses]"
+
+# source: lines 186-200, 252-265, 120-130
+examen:
+  general:
+    - "Pas d'examen physique ciblé dans la consultation dépistage en soi — vérifier éligibilité clinique"
+    - "IMC, TA (facteurs de risque CV associés à risque cancer)"
+    - |-
+      Calculer {t:UPA} si dépistage poumon :
+      • (cigarettes/jour ÷ 20) × années de tabagisme
+      • éligible si ≥15 UPA + fumeur actif ou sevrage <10 ans
+    - "Palpation seins si consultation mammographie (ganglions axillaires, masse palpable → bilan diagnostic d'emblée)"
+  cible:
+    - |-
+      Colorectal — toucher rectal si PSA ou symptômes :
+      • masse rectale palpable → démarche diagnostique, pas dépistage
+      • hémorroïdes visibles (ne contre-indiquent pas le FIT)
+    - |-
+      Communication des bénéfices-risques en {t:fréquences naturelles} (OBLIGATOIRE) :
+      • colorectal FIT: 7 décès évités / 1000 patients sur 10 ans; 200 tests positifs nécessitant coloscopie
+      • sein: 5 vies sauvées / 1000 femmes sur 20 ans; 200 faux positifs, 5-15 surdiagnostics
+      • prostate: 1-2 décès évités / 1000 hommes sur 13 ans; 180 faux positifs, 50 surdiagnostics
+      • poumon (scanner): 3 décès évités / 1000 fumeurs sur 10 ans; 250 faux positifs
+    - |-
+      Aide à la décision — explorer les valeurs :
+      • 'Que savez-vous déjà sur ce dépistage?'
+      • 'Qu'est-ce qui vous préoccupe le plus?'
+      • 'Comment gérez-vous l'incertitude?'
+      • 'Préférez-vous maximiser les chances ou minimiser les risques?'
+    - "Utiliser {t:iconographie} (pictogramme 1000 personnes) si disponible — recommandé ECOS"
+
+# source: lines 36-175 (4 cancers)
+dd_top5:
+  - dx: "{p:Cancer colorectal} (dépistage éligible)"
+    indices: "50-69 ans asymptomatique; options FIT ts 2 ans (non invasif, -7 décès/1000) ou coloscopie ts 10 ans (ablation polypes, -8 décès/1000); haut risque si ATCD familiaux/Lynch/PAF → dépistage anticipé"
+    freq: "3e cancer en Suisse; programme cantonal organisé disponible"
+  - dx: "{p:Cancer du sein} (dépistage éligible)"
+    indices: "F 50-69 ans; {t:mammographie} ts 2 ans; -5 décès/1000 femmes/20 ans; 200 faux positifs; seins denses → sensibilité 60-70% seulement; BRCA → IRM complémentaire"
+    freq: "1er cancer F; programme organisé avec franchise 10%"
+  - dx: "{p:Cancer de la prostate} (décision partagée)"
+    indices: "H ≥50 ans (45 si risque élevé); {t:PSA} seuil 4 ng/ml; pas de dépistage systématique recommandé; 1-2 décès évités vs 50 surdiagnostics / 1000 hommes; cascade biopsies si PSA élevé"
+    freq: "1er cancer H; controversé — décision individuelle documentée"
+  - dx: "{p:Cancer du poumon} (dépistage sélectif)"
+    indices: "50-80 ans, ≥15 UPA, fumeur actif ou sevrage <10 ans; {t:scanner thoracique faible dose} annuel; Lung-RADS guide la surveillance; sevrage tabagique prioritaire (-50% risque)"
+    freq: "1re cause mortalité cancer; programme moins diffusé en Suisse [VÉRIFIER: accès scanner faible dose remboursé en Suisse 2024-2026]"
+  - dx: "{p:Absence d'indication au dépistage} (patient non éligible ou refus éclairé)"
+    indices: "Espérance de vie <10 ans, comorbidités sévères, cancer actif, ou refus après information complète; 'option ne rien faire' toujours valable"
+    freq: "Fréquent — documenter la discussion et la décision"
+
+# source: lines 410-435 (messages clés ECOS)
+pec_initiale:
+  immediate:
+    - |-
+      Structure consultation dépistage (7 étapes ECOS) :
+      • 1) Vérifier éligibilité (âge, facteurs risque, comorbidités)
+      • 2) Présenter comme choix, non obligation ('ce n'est pas obligatoire')
+      • 3) Expliquer options incluant ne rien faire
+      • 4) Utiliser fréquences naturelles (X sur 1000 personnes)
+      • 5) Explorer valeurs et préférences
+      • 6) Respecter la décision quelle qu'elle soit
+      • 7) Planifier suivi et documentation
+    - "Si {e:haut risque} (ATCD familiaux, syndrome héréditaire): orientation consultation spécialisée avant d'organiser le dépistage standard"
+    - "FIT positif → {t:coloscopie} dans un délai rapide; NE PAS réassurer sur le seul FIT"
+    - "Proposition sevrage tabagique systématique chez tout fumeur (indépendamment du dépistage poumon)"
+  orientation:
+    - "Dépistage organisé cantonal: mammographie, FIT/coloscopie → orientation via médecin traitant ou site web cantonal (franchise 10%)"
+    - "Consultation génétique: BRCA1/2 suspecté, Lynch, PAF, ATCD familiaux forts"
+    - "Urologie: PSA élevé confirmé ≥4 ng/ml (ou seuil ajusté à l'âge) après discussion partagée"
+    - "Refus éclairé documenté: réévaluation proposée annuellement; porte ouverte si changement d'avis"
+
+# source: lines 36-105 (données numériques)
+examens_complementaires:
+  - "{t:FIT} (test immunologique fécal): seuil positivité 15 μg Hb/g selles; résultat en 2 semaines; si positif → coloscopie obligatoire"
+  - "{t:Coloscopie}: résultat immédiat + biopsies; risques perforation 1/1000, saignement 2/1000; préparation intestinale requise"
+  - "{t:Mammographie}: 2 incidences/sein, 10-15 min; résultat en 8 jours ouvrables; double lecture en programme organisé"
+  - "{t:PSA}: résultat en 2-3 jours; seuil habituel 4 ng/ml (variable avec l'âge); PSA élevé → répétition avant orientation"
+  - "{t:Scanner thoracique faible dose}: 1-2 mSv (vs 7 mSv standard); résultat en 1-2 semaines; Lung-RADS 1-2 bénin / 4B-X → biopsie"
+  - "{t:IRM sein}: haut risque (BRCA, ATCD, seins denses) — complémentaire à la mammographie"
+
+# source: line 134-170, 420-435
+criteres_hospitalisation:
+  - "Pas d'hospitalisation dans le contexte dépistage — orienter si FIT positif non suivi depuis >6 semaines (cancer avancé possible)"
+  - "Symptômes révélateurs actifs (rectorragies, masse palpable, hémoptysie) → urgences ou filière diagnostique rapide (non dépistage)"
+  - "Complication de coloscopie : {s:douleur abdominale intense} post-procédure, fièvre, rectorragie abondante → urgences"
+
+pieges:
+  - "Utiliser des pourcentages relatifs seuls ('réduit le risque de 30%') sans fréquences naturelles — interdit ECOS; toujours exprimer en X/1000"
+  - "Présenter le dépistage comme obligatoire ou culpabiliser le patient en cas de refus — respecter l'autonomie, documenter"
+  - "Oublier le {p:surdiagnostic} : certains cancers n'auraient jamais causé de symptômes — concept clé à expliquer surtout pour PSA et sein"
+  - "Appliquer protocole dépistage standard chez patient à haut risque héréditaire (Lynch, BRCA) → dépistage individualisé obligatoire dès âge plus précoce"
+  - "Omettre le sevrage tabagique lors du dépistage cancer du poumon — le sevrage réduit le risque de 50% à 10 ans, priorité absolue"
+
+cartes_liees:
+  - SSP-COM-08
+  - SSP-COM-10

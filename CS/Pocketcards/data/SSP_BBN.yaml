@@ -1,0 +1,186 @@
+id: SSP-COM-01
+type: ssp
+title: Annonce d'une mauvaise nouvelle (BBN)
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_BBN.md
+
+# source: SSP_BBN.md line 18-44 (S - Setting)
+anamnese:
+  socrates:
+    - |-
+      Préparation du lieu ({s:Setting}):
+      • lieu calme et privé, porte fermée, téléphone coupé
+      • sièges à même hauteur — {r:éviter bureau} entre médecin et patient
+      • mouchoirs visibles, eau disponible
+      • durée planifiée: {r:45-60 minutes} minimum [VÉRIFIER: durée recommandée HAS 2022]
+    - |-
+      Préparation du médecin:
+      • dossier médical relu, informations clarifiées
+      • anticiper questions probables
+      • centrage émotionnel personnel avant d'entrer
+    - |-
+      Accompagnants:
+      • demander au patient s'il souhaite un proche présent
+      • identifier la personne de confiance si refus d'information
+      • se présenter si première rencontre; s'asseoir d'abord (signal de disponibilité)
+  specifique:
+    - |-
+      Explorer la {s:Perception} (SPIKES-P) — AVANT d'annoncer:
+      • "Que savez-vous déjà de votre situation?"
+      • "Qu'est-ce qu'on vous a dit jusqu'à présent?"
+      • "Que pensez-vous de vos symptômes?"
+    - |-
+      {s:Invitation} (SPIKES-I) — consentement à l'information:
+      • "Souhaitez-vous connaître tous les détails?"
+      • "Préférez-vous une vue d'ensemble ou les détails?"
+      • respecter le droit de ne pas savoir; laisser porte ouverte
+    - |-
+      Niveau de compréhension du patient:
+      • formation médicale/scientifique?
+      • âge, contexte culturel, capacité d'abstraction
+      • mécanismes de défense déjà actifs (déni, minimisation)?
+    - "Projet de vie et valeurs: qualité de vie souhaitée, priorités personnelles, croyances religieuses/culturelles"
+  atcd:
+    - |-
+      Parcours médical:
+      • history oncologique ou de maladie grave existante
+      • annonces antérieures (récidive = double traumatisme)
+      • traitements en cours, essais cliniques
+    - |-
+      Soutien social et psychologique:
+      • proches disponibles (conjoint, famille)?
+      • isolement social?
+      • suivi psychologique ou psychiatrique en cours?
+    - |-
+      Antécédents psychiatriques:
+      • dépression, tentatives de suicide [VÉRIFIER: seuil d'évaluation systématique risque suicidaire post-annonce]
+      • troubles cognitifs affectant la capacité décisionnelle
+    - "Croyances sur la maladie (causalité perçue: culpabilité?), expériences familiales antérieures (cancer, décès proche)"
+
+# source: SSP_BBN.md line 200-260 + line 323-338 (pièges éliminatoires)
+red_flags:
+  - description: "{s:Idéation suicidaire} exprimée ou comportement à risque après annonce"
+    dx_suspecte: "{p:Risque suicidaire aigu}"
+    action: "Évaluation immédiate risque (échelle SAD PERSONS); ne pas laisser seul; psychiatrie urgence si besoin [VÉRIFIER: protocole CHUV/HUG post-annonce]"
+  - description: "{s:Déni total et persistant} — refus catégorique d'entendre l'information après 2+ tentatives"
+    dx_suspecte: "{p:Déni majeur} / mécanisme de défense dépassé"
+    action: "Ne pas confronter brutalement; proposer second avis médical; planifier RDV sous {r:48-72 h} avec psychologue; maintenir lien thérapeutique"
+  - description: "{s:Altération de la capacité décisionnelle} (confusion, désorientation, trouble cognitif identifié)"
+    dx_suspecte: "{p:Incapacité décisionnelle}"
+    action: "Reporter l'annonce détaillée; impliquer représentant légal / directive anticipée; évaluation neuropsychologique si doute"
+  - description: "{s:Agressivité verbale ou physique} escaladant malgré tentatives de désamorçage"
+    dx_suspecte: "{p:Décompensation émotionnelle aiguë}"
+    action: "Rester calme, non-confrontationnel; interrompre si sécurité compromise; appel aide soignante / sécurité; reprendre consultation ultérieurement"
+  - description: "{s:Effondrement émotionnel sévère} (crise de larmes prolongée, prostration, mutisme)"
+    dx_suspecte: "{p:État de choc psychologique}"
+    action: "Présence silencieuse, contact physique si approprié; reporter informations pratiques; ne pas laisser partir seul; contact psychologue même jour si disponible"
+
+# source: SSP_BBN.md line 122-168 (Empathy / NURSE)
+examen:
+  general:
+    - |-
+      {s:Compréhension verbale}: vérifier après chaque segment d'information
+      • "Est-ce que vous me suivez?"
+      • "Qu'avez-vous retenu de ce que je viens de dire?"
+      • répéter / reformuler si incompréhension
+    - |-
+      {s:État émotionnel global}:
+      • niveau de détresse apparente (0 = calme / 10 = effondrement)
+      • cohérence entre discours et affect
+      • présence de larmes, tremblements, agitation
+    - "Capacité à dialoguer: patient peut-il poser des questions, formuler des souhaits?"
+  cible:
+    - |-
+      {s:Réactions immédiates} — identifier et nommer (technique NURSE):
+      • sidération: silence, regard fixe, immobilité → tolérer {r:30 sec – 2 min} de silence
+      • déni: "C'est impossible", "erreur de dossier" → ne pas confronter
+      • colère: agressivité verbale → valider, ne pas prendre personnellement
+    - |-
+      Langage non-verbal:
+      • contact visuel maintenu?
+      • posture (fermée/ouverte)
+      • distance interpersonnelle (respecter {r:1,5-2 m})
+      • agitation psychomotrice?
+    - |-
+      {s:Réactions différées} (Kübler-Ross):
+      • marchandage: "Et si... Peut-être que..."
+      • dépression: pleurs prolongés, prostration
+      • acceptation progressive: questions pratiques sur la suite
+    - "Signes d'incompréhension culturelle ou linguistique → interprète professionnel si barrière"
+
+# source: SSP_BBN.md line 56-64 (mécanismes de défense) + line 127-131
+dd_top5:
+  - dx: "{p:Sidération / choc}"
+    indices: "Silence, regard fixe, immobilité; patient n'entend plus rien après l'annonce; présent surtout aux 1ères secondes post-warning shot"
+    freq: "très fréquent (réaction initiale majoritaire)"
+  - dx: "{p:Déni}"
+    indices: "'C'est impossible', 'Erreur de dossier'; minimisation ('c'est pas si grave'); souvent mécanisme adaptatif transitoire; distinction déni sain vs déni pathologique persistant"
+    freq: "fréquent (20-30 % des annonces graves)"
+  - dx: "{p:Colère / agressivité}"
+    indices: "'Pourquoi si tard?', 'C'est votre faute'; dirigée vers le médecin ou le système; souvent secondaire à la peur; doit être validée sans escalade"
+    freq: "fréquent"
+  - dx: "{p:Marchandage / négociation}"
+    indices: "'Et si on refaisait les examens?', 'Peut-être qu'il y a une erreur'; demandes de second avis répétées; parfois expression de culpabilité"
+    freq: "fréquent (phase intermédiaire Kübler-Ross)"
+  - dx: "{p:Effondrement / dépression réactionnelle}"
+    indices: "Pleurs prolongés, prostration, mutisme; perte d'espoir; à distinguer d'une dépression majeure nécessitant traitement si persistant > 2 semaines"
+    freq: "fréquent; suivi psychiatrique si persistance [VÉRIFIER: seuil durée recommandé pour référence psychiatrique]"
+
+# source: SSP_BBN.md line 89-198 (SPIKES K-E-S)
+pec_initiale:
+  immediate:
+    - |-
+      SPIKES-K: {s:Warning shot} OBLIGATOIRE avant l'annonce:
+      • "{r:J'ai des nouvelles difficiles à vous annoncer...}"
+      • pause {r:3-5 secondes}, observer la réaction
+      • puis annonce progressive: 1 idée = 1 phrase, pauses fréquentes
+    - |-
+      Annonce progressive:
+      • langage simple, {r:éviter tout jargon médical}
+      • ex. cancer: "cellules anormales" → "tumeur" → "cancer"
+      • vérifier compréhension après chaque segment
+    - |-
+      SPIKES-E: réponse empathique ({t:technique NURSE}):
+      • N — Nommer: "{r:Je vois que c'est un choc énorme}"
+      • U — Comprendre: "C'est normal d'être submergé"
+      • R — Respecter: "Votre réaction est tout à fait légitime"
+      • S — Soutenir: "Vous n'affronterez pas ça seul(e)"
+      • E — Explorer: "De quoi avez-vous le plus peur?"
+    - "Tolérer les {s:silences} ({r:30 sec – 2 min}); ne pas combler immédiatement; présence stable"
+    - |-
+      SPIKES-S: Summary + Strategy:
+      • vérifier intégration: "Qu'allez-vous dire à votre famille?"
+      • corriger malentendus
+      • espoir réaliste: "On peut toujours faire quelque chose" — ni faux espoir ni fatalisme
+      • {r:éviter échéances temporelles précises} (survie en mois)
+  orientation:
+    - "Prochain RDV: {r:48-72 h maximum} après l'annonce; ne jamais laisser patient seul sans contact planifié"
+    - "Soutien psychologique: proposer systématiquement; oncopsychologie / psychologue en réseau"
+    - "Ressources: numéro d'urgence si détresse, associations de patients, ligues contre le cancer"
+    - "Information écrite: résumé verbal + brochures adaptées; laisser document de contact"
+    - "Coordination équipe soignante: transmettre le contexte de l'annonce au médecin traitant et infirmière référente"
+
+examens_complementaires:
+  - "{t:Évaluation psychiatrique urgente} si idéation suicidaire ou décompensation aiguë"
+  - "{t:Consultation psycho-oncologie} systématique proposée après toute annonce de cancer"
+  - "{t:Évaluation capacité décisionnelle} (neuropsychologie) si doute sur cognitif"
+
+criteres_hospitalisation:
+  - "Idéation suicidaire active avec plan ou intention"
+  - "Décompensation psychiatrique aiguë (épisode maniaque, psychose réactionnelle)"
+  - "Incapacité totale à rentrer seul et absence d'accompagnant disponible"
+
+pieges:
+  - "Combler les silences immédiatement après l'annonce — le silence est thérapeutique, ne pas le couper"
+  - "Omettre le {s:warning shot} et annoncer brutalement d'emblée — choc majeur, rupture thérapeutique possible"
+  - "Réassurance précoce ('tout ira bien', 'ne vous inquiétez pas') — invalide l'émotion et rompt la confiance"
+  - "Jargon médical incompréhensible ou information massive d'un coup — patient saturé, compréhension nulle"
+  - "Abandonner sans plan concret: pas de RDV fixé, pas de ressources données — isolement post-annonce"
+
+cartes_liees:
+  - COM-02
+  - SYS-PSY

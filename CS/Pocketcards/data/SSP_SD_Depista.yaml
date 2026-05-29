@@ -1,0 +1,195 @@
+id: SSP-COM-08
+type: ssp
+title: Situation de dépistage (Depista)
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_SD_Depista.md
+
+# source: line 1-8
+anamnese:
+  socrates:
+    - |-
+      Motif de consultation:
+      • check-up de routine / demande employeur / bilan assurance?
+      • inquiétude spécifique (symptôme, ATCD familial récent)?
+      • date et contenu du dernier bilan?
+    - |-
+      Âge et sexe {e:(détermine les dépistages prioritaires)}:
+      • sexe (dépistages spécifiques: sein, col, prostate)
+      • tranches clés: <40 / 40-49 / {r:50-74 ans} / >75 ans
+    - |-
+      Facteurs de risque cardiovasculaires:
+      • tabagisme (paquets-années, statut actuel/sevré)
+      • {s:TA, LDL, glycémie} — dernières valeurs et dates
+      • IMC, tour de taille (>88 cm F / >102 cm H)
+      • sédentarité professionnelle / activité physique
+    - |-
+      Antécédents oncologiques familiaux:
+      • cancer du sein (âge diagnostic, {t:BRCA}?)
+      • cancer colorectal ({p:syndrome Lynch}?)
+      • cancer de la prostate / ovaire / mélanome
+    - |-
+      Dépistages déjà réalisés:
+      • dernière {t:mammographie} / {t:frottis cervical} / {t:FIT}?
+      • dernière {t:coloscopie} (date + résultat)?
+      • {t:DEXA} (femmes >65 ans)?
+    - |-
+      Vaccination:
+      • DTP (dernier rappel)
+      • {t:HPV} (11-26 ans) / zona / pneumocoque / grippe?
+      • hépatite B — statut sérologique?
+
+  specifique:
+    - |-
+      Santé sexuelle et reproductive:
+      • contraception adaptée?
+      • {s:dépistage IST} si à risque (partenaires multiples, HSH, <25 ans)
+      • désir de grossesse ({r:acide folique} 400 µg/j)?
+      • ménopause (symptômes, discussion THS)?
+    - "Santé mentale: dépression ({t:PHQ-2/PHQ-9}), anxiété ({t:GAD-7}), consommation substances?"
+    - "Violence domestique si signes d'appel?"
+    - |-
+      Alcool et autres addictions:
+      • consommation hebdomadaire ({t:AUDIT-C})
+      • {r:maximum 10 verres/semaine} (recommandation CH 2024) [VÉRIFIER: seuil OMS actuel vs CH]
+    - |-
+      Origine ethnique:
+      • certains risques augmentés (hémochromatose, HbA, etc.)
+
+  atcd:
+    - |-
+      Antécédents cardiovasculaires:
+      • IDM précoce (<55 ans homme, <65 ans femme) — {p:hypercholestérolémie familiale}?
+      • AVC/AIT, mort subite familiale
+    - "Antécédents personnels: HTA, diabète, maladies auto-immunes, maladies rénales"
+    - "Traitements actuels: anticoagulants, corticoïdes (ostéoporose!), contraception orale"
+    - "Maladies génétiques: {p:hémochromatose}, {p:syndrome Lynch} [VÉRIFIER: critères Amsterdam II Lynch]"
+    - "Santé bucco-dentaire: contrôle annuel effectué?"
+
+# source: line 133-153
+red_flags:
+  - description: "{s:TA ≥ 180/120 mmHg} lors de la mesure systématique"
+    dx_suspecte: "{p:HTA maligne / urgence hypertensive}"
+    action: "Mesure bilatérale répétée + {t:bilan rénal/ECG} STAT; transfert urgences si symptômes (céphalée, dyspnée, déficit)"
+  - description: "{s:Lésion cutanée suspecte} (ABCDE) à l'inspection de dépistage"
+    dx_suspecte: "{p:Mélanome}"
+    action: "Photographie + référence dermatologie ≤4 semaines; ne pas biopsier en médecine générale"
+  - description: "{s:Masse palpable} (sein, abdomen, ganglion > 1 cm ferme et indolore)"
+    dx_suspecte: "{p:Néoplasie} (sein, lymphome, cancer abdominal)"
+    action: "Imagerie ciblée urgente ({t:échographie} ± {t:mammographie}); délai <2 semaines"
+  - description: "{e:>50 ans}: {t:FIT test positif} ou saignement rectal récent"
+    dx_suspecte: "{p:Cancer colorectal}"
+    action: "Coloscopie diagnostique <4 semaines; ne pas rassurer avant exploration"
+  - description: "{s:Glycémie à jeun ≥ 7.0 mmol/L} ou {s:HbA1c ≥ 48 mmol/mol}"
+    dx_suspecte: "{p:Diabète de type 2} (diagnostic)"
+    action: "Confirmation par 2e dosage ({t:glycémie à jeun répétée} ou {t:HGPO}); orientation diabétologie si symptômes [VÉRIFIER: seuils diagnostiques 2024]"
+  - description: "{s:PSA > 4 ng/mL} lors du dépistage discuté chez homme 50-70 ans"
+    dx_suspecte: "{p:Cancer de la prostate}"
+    action: "Référence urologie sans retard; biopsie prostatique selon TR et cinétique PSA"
+
+# source: line 133-153
+examen:
+  general:
+    - |-
+      Mesures anthropométriques systématiques:
+      • poids, taille, {t:IMC} (objectif 18.5-25 kg/m²)
+      • tour de taille (seuil: >88 cm femme / >102 cm homme)
+      • {t:TA} aux 2 bras (2 mesures), FC
+    - "Inspection cutanée: lésions suspectes, naevi (ABCDE), muqueuses, ictère?"
+    - "Palpation ganglionnaire: aires cervicales, axillaires, inguinales"
+    - "Palpation thyroïdienne: nodules, goitre?"
+    - "Examen abdominal: masse, organomégalie ({p:hépatomégalie}, splénomégalie)"
+    - "Pouls périphériques: dépistage {s:AOMI} (index cheville-bras si indiqué)"
+
+  cible:
+    - |-
+      Selon le sexe et l'âge:
+      • palpation seins (si indiquée, >40 ans ou ATCD familiaux)
+      • {t:toucher rectal} (homme >50 ans: prostate)
+      • examen gynécologique avec {t:frottis cervical} si dû (25-65 ans)
+    - |-
+      Après {e:65 ans}:
+      • acuité visuelle (Snellen), audition (chuchotement)
+      • {t:test cognitif} ({t:MMS} ou {t:MoCA}) si >75 ans ou plainte cognitive
+      • évaluation fragilité: test lever-chaise, vitesse marche
+    - |-
+      Dépistage psychologique:
+      • {t:PHQ-2}: "Au cours des 2 dernières semaines, avez-vous souvent été abattu(e)...?"
+      • si PHQ-2 ≥ 3: passer au {t:PHQ-9}
+
+# source: absence de DD dans le MD source — construit à partir de la logique de l'examen
+# [VÉRIFIER: pertinence des DD pour un SSP de communication vs dépistage]
+dd_top5:
+  - dx: "{p:Consultation préventive standard (patient sain)}"
+    indices: "Absence d'anomalie, facteurs de risque modifiables identifiés; dépistages à jour; travail de prévention primaire et counseling; score de risque CV (SCORE2) normal"
+    freq: "majorité des consultations de dépistage"
+  - dx: "{p:Pré-diabète / syndrome métabolique}"
+    indices: "Glycémie à jeun {r:5.6-6.9 mmol/L}, IMC >25, tour de taille élevé, HTA, dyslipidémie associée; {t:HbA1c} 39-47 mmol/mol; souvent asymptomatique [VÉRIFIER: critères ADA vs CH]"
+    freq: "fréquent (25-30 % adultes >40 ans)"
+  - dx: "{p:HTA stade 1-2 non connue}"
+    indices: "TA ≥ 140/90 mmHg confirmée à 2 consultations; souvent découverte fortuite au check-up; risque CV calculé avec {t:SCORE2}"
+    freq: "fréquent (30 % adultes)"
+  - dx: "{p:Cancer colorectal (FIT positif)}"
+    indices: "FIT positif chez 50-74 ans sans symptômes; facteurs risque: ATCD familiaux, alimentation, sédentarité; confirmation coloscopie obligatoire"
+    freq: "FIT positif ~6 % population dépistée"
+  - dx: "{p:Dépression non diagnostiquée}"
+    indices: "{t:PHQ-2} ≥ 3 chez patient consultant pour check-up; souvent présentée comme 'fatigue' ou 'stress'; prévalence élevée chez femmes 40-60 ans"
+    freq: "fréquent (15-20 % adultes, sous-diagnostiqué)"
+
+pec_initiale:
+  immediate:
+    - |-
+      Personnaliser le calendrier de dépistage selon l'âge:
+      • 18-39 ans: {t:TA} q 3-5 ans, {t:frottis cervical} q 3 ans (25-65 ans), IST si à risque
+      • 40-49 ans: {t:lipides} q 5 ans, {t:glycémie} si facteur risque, discussion {t:mammographie} dès 45 ans
+      • 50-74 ans: {t:FIT} q 2 ans, {t:mammographie} q 2 ans, {t:DEXA} femmes >65 ans
+      • >75 ans: dépistages individualisés (espérance de vie, comorbidités, préférences)
+    - |-
+      Bilan biologique de base selon profil:
+      • {t:NFS, glycémie à jeun, bilan lipidique (CT/LDL/HDL/TG), créatinine/DFG}
+      • {t:ALAT} si facteurs risque hépatiques (alcool, obésité, médicaments)
+      • {t:TSH} si symptômes thyroïdiens ou femme >50 ans
+      • {t:vitamine D} si facteurs risque (ostéoporose, peu d'ensoleillement)
+    - |-
+      Counseling mode de vie — systématique:
+      • tabac: offrir aide au sevrage (TNC, varénicline) même si non demandé
+      • alcool: {r:≤10 verres/semaine} (recommandation CH), ne pas banaliser
+      • activité physique: {r:≥150 min/semaine} d'intensité modérée
+      • alimentation méditerranéenne, 5 fruits/légumes/j, réduire sel/graisses saturées
+    - "Vaccinations: mise à jour du calendrier; DTP si >10 ans, grippe/pneumocoque/>65 ans, zona >65 ans, HPV 11-26 ans [VÉRIFIER: calendrier vaccinal CH 2024]"
+    - "Décision partagée: expliquer bénéfices ET limites (faux positifs, surdiagnostic, anxiété); respecter autonomie du patient"
+
+  orientation:
+    - "Domicile + suivi médecin traitant: bilan normal, facteurs risque identifiés → plan préventif personnalisé et rappels"
+    - "Spécialiste <4 semaines: anomalie clinique ou biologique suspecte (masse, FIT positif, glycémie diagnostic, PSA élevé)"
+    - "Urgences: red flag lors du bilan (TA ≥ 180/120 mmHg symptomatique, masse évocatrice maligne avec AEG)"
+    - "Conseil génétique: ATCD familiaux évocateurs ({p:BRCA}, {p:syndrome Lynch}) — référer onco-génétique"
+
+examens_complementaires:
+  - "{t:Glycémie à jeun + HbA1c}: dépistage diabète si IMC >25 + facteur risque, ou >45 ans"
+  - "{t:Bilan lipidique complet}: CT, LDL, HDL, TG — calcul {t:SCORE2} risque CV"
+  - "{t:FIT test} (immunochimique): dépistage cancer colorectal 50-74 ans tous les 2 ans"
+  - "{t:Mammographie}: 50-74 ans tous les 2 ans; dès 40-45 ans si ATCD familiaux"
+  - "{t:Frottis cervical / test HPV}: 25-65 ans tous les 3 ans (frottis) ou 5 ans (test HPV)"
+  - "{t:DEXA scan}: femmes >65 ans, hommes >70 ans (ou plus tôt si corticoïdes, fracture pathologique)"
+
+criteres_hospitalisation:
+  - "{s:HTA maligne ≥ 180/120 mmHg} avec symptômes (céphalée, dyspnée, confusion, atteinte organe cible)"
+  - "Masse suspecte avec signes d'alarme généraux (AEG, fièvre, amaigrissement >10 %)"
+  - "Glycémie >20 mmol/L asymptomatique ou tout diabète inaugural symptomatique (polyurie, cétose)"
+  - "Découverte d'un {s:FIT positif} avec anémie ferriprive symptomatique (Hb <80 g/L)"
+
+pieges:
+  - "Prescrire le {t:PSA} de manière systématique sans discussion bénéfices/risques avec le patient (50-70 ans) — décision partagée obligatoire"
+  - "Arrêter le dépistage mammographique/colorectal après {e:75 ans} par réflexe alors qu'il faut individualiser selon l'état général"
+  - "Rassurer sur un {t:FIT positif} sans coloscopie — ne jamais minimiser; taux de cancer colorectal ~5 %"
+  - "Oublier le dépistage {s:IST} et de la {s:dépression} chez les jeunes adultes consultant pour un check-up"
+  - "Radio thorax de routine non recommandée — ne pas la prescrire systématiquement"
+
+cartes_liees:
+  - SSP-COM-06
+  - SYS-CV
+  - SSP-COM-07

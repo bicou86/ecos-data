@@ -1,0 +1,170 @@
+id: SSP-COM-11
+type: ssp
+title: Troubles médicamenteux (iatrogénie, observance, interactions)
+discipline: Comm
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Médicamenteux.md
+
+# source: ligne 9-28 (anamnèse médicaments + chronologie)
+anamnese:
+  socrates:
+    - |-
+      Médicament(s) suspect(s) — conciliation systématique:
+      • Rx + automédication + phytothérapie + suppléments (OTC)
+      • posologie, voie, fréquence
+      • date d'introduction / modification récente
+      • qui a prescrit? patient seul ou sur conseil pharmacien?
+    - |-
+      Onset — chronologie symptôme/médicament:
+      • délai d'apparition après la (1ère) prise?
+      • relation temporelle: toujours après la prise ou indépendant?
+      • amélioré en cas d'oubli ou à l'arrêt? [VÉRIFIER: critère de causalité OMS/Naranjo]
+    - "Character: quel(s) organe(s) touchés? (cutané, digestif, neurologique, cardiaque…)"
+    - "Radiation / irradiation: symptômes systémiques associés (fièvre, AEG)?"
+    - |-
+      Time:
+      • durée des symptômes; évolution (stable / progressif / régressif)
+      • intermittent ou permanent?
+    - "Exacerbating / contexte: effort, posture, alimentation, alcool?"
+    - "Relieving: arrêt du médicament améliore? antidote pris?"
+    - |-
+      Severity:
+      • intensité 0-10; impact activités quotidiennes
+      • hospitalisations antérieures liées aux médicaments?
+  specifique:
+    - |-
+      Observance — questionnement sans jugement ({t:Morisky-8} ou BMQ):
+      • oublis (fréquence, moment)? [VÉRIFIER: seuil Morisky-8 score ≥ 2 = non-observance]
+      • arrêt volontaire (crainte effets, coût, croyances)?
+      • difficultés pratiques (dysphagie, dextérité, emballage)?
+    - "Automédication: AINS, antiacides, compléments alimentaires, phytothérapie — souvent non déclarés?"
+    - |-
+      Historique allergies / hypersensibilité:
+      • allergies documentées (molécule, type de réaction, date)
+      • cross-réactivité connue (pénicillines ↔ céphalosporines)?
+    - "Polymédication: ≥ 5 médicaments → risque interaction exponentiel; si {e:≥ 65 ans}: critères Beers/STOPP-START?"
+    - "Dépendance / sevrage: BZD, opiacés, antidépresseurs — arrêt brutal ou réduction rapide?"
+  atcd:
+    - |-
+      Fonctions d'élimination:
+      • rénale (clairance créatinine — adaptations posologiques)
+      • hépatique (cirrhose, médicaments hépatotoxiques)
+    - "ATCD iatrogénies: hospitalisations, urgences liées à des médicaments; allergies documentées?"
+    - "Maladies chroniques: IC, épilepsie, trouble psy (risque interactions ++ )"
+    - "Grossesse / allaitement: médicaments contre-indiqués (IEC, méthotrexate, valproate)?"
+
+# source: ligne 65-95 (points clés examen + syndromes)
+red_flags:
+  - description: "{s:Réaction cutanée grave}: rash confluent + fièvre + éosinophilie ou vésicules/bulles/érosions muqueuses"
+    dx_suspecte: "{p:DRESS} ou {p:Syndrome de Stevens-Johnson / Lyell}"
+    action: "Arrêt immédiat médicament causal; hospitalisation dermatologie urgente; {t:FSC + bilan hépatique + créatinine}; déclaration Swissmedic"
+  - description: "{s:Triade}: rigidité + hyperthermie > 38.5°C + troubles conscience chez patient sous neuroleptique"
+    dx_suspecte: "{p:Syndrome neuroleptique malin (SNM)}"
+    action: "Arrêt immédiat neuroleptique; transfert soins intensifs; {r:dantrolène / bromocriptine} selon protocole; [VÉRIFIER: doses dantrolène SNM en contexte suisse]"
+  - description: "{s:Surdosage intentionnel} suspecté (vide blister, anamnèse vague, contexte psy)"
+    dx_suspecte: "{p:Intoxication médicamenteuse volontaire / tentative de suicide}"
+    action: "Bilan toxicologique STAT; psychiatrie urgente; évaluation risque suicidaire (ATM si nécessaire); charbon activé si < 1h"
+  - description: "{s:Angioœdème facial / glottique} aigu chez patient sous IEC"
+    dx_suspecte: "{p:Angioœdème bradykinique} (non-allergique, retardé)"
+    action: "Arrêt IEC immédiat; {r:icatibant SC} ou plasma frais; anaphylaxie exclue (pas d'adrénaline d'emblée); switcher pour ARA2"
+  - description: "{s:Douleurs musculaires + urines foncées} chez patient sous statines + macrolide/antifongique"
+    dx_suspecte: "{p:Rhabdomyolyse médicamenteuse}"
+    action: "Arrêt statine; {t:CK + créatinine STAT}; hydratation IV massive; hospitalisation si CK > 10x N ou IR associée"
+  - description: "{s:Allergie documentée} reconnue redemandée par erreur (ex. pénicilline chez patient allergique)"
+    dx_suspecte: "{p:Anaphylaxie / choc anaphylactique}"
+    action: "{r:adrénaline 0.3 mg IM} face antéro-ext. cuisse; déclaration erreur médicamenteuse; révision liste allergies dossier"
+
+# source: ligne 31-44 (examen clinique ciblé)
+examen:
+  general:
+    - "Signes vitaux: TA (surdosage antihypertenseurs?), FC (bradycardie sous BB/digoxine?), T°, FR, SaO2"
+    - "Niveau de conscience: confusion, somnolence → signe d'intoxication (BZD, opiacés, psychotropes)"
+    - "Hydratation / diurèse (anurie → toxicité rénale: aminoglycosides, AINS, lithium)"
+  cible:
+    - |-
+      Signes d'intoxication selon classe:
+      • opiacés: myosis, bradypnée, sédation profonde
+      • BZD: sédation, hypotonie, ataxie
+      • digitaliques: bradycardie, nausées, troubles visuels (halos)
+      • anticholinergiques: mydriase, tachycardie, rétention urinaire, sécheresse
+    - |-
+      Signes de sevrage:
+      • BZD/alcool: agitation, tremblements, sueurs, crise convulsive possible
+      • opiacés: mydriase, chair de poule, tachycardie, douleurs abdominales
+    - |-
+      Atteintes organiques ciblées:
+      • cutané: rash (type, distribution, muqueuses atteintes?)
+      • neurologique: extrapyramidal (rigidité, akinésie), dystonies, akathisie
+      • hépatique: ictère, hépatomégalie, douleur HCD
+      • cardiaque: arythmie (allongement QT → cisapride, halofantrine, psychotropes?)
+    - "Evaluation observance indirecte: pilulier, ordonnances apportées, taux plasmatique si disponible"
+
+# source: ligne 49-63 + points clés tableau
+dd_top5:
+  - dx: "{p:Iatrogénie} (effet indésirable connu)"
+    indices: "Relation temporelle claire médicament→symptôme; dose-dépendant ou idiosyncrasique; s'améliore à l'arrêt; concordance avec résumé des caractéristiques produit (RCP)"
+    freq: "très fréquent — 1ère cause de consultation en pharmacovigilance"
+  - dx: "{p:Non-observance}"
+    indices: "Symptômes de sous-traitement (HTA mal contrôlée, glycémies déséquilibrées); oublis ou arrêts reconnus; score {t:Morisky-8} ≥ 2; pilulier non vidé"
+    freq: "fréquent (30-50 % patients chroniques)"
+  - dx: "{p:Interaction médicamenteuse}"
+    indices: "≥ 2 médicaments introduits simultanément; classées par Stockley ou base PharmGKB; ex. warfarine+AINS, IMAO+SSRI (syndrome sérotoninergique), QT-prolongateurs"
+    freq: "fréquent en polymédication (> 5 Rx)"
+  - dx: "{p:Surdosage} (accidentel ou intentionnel)"
+    indices: "Toxidrome reconnaissable; taux plasmatique > zone thérapeutique; contexte psy pour TS; accidentel chez {e:> 65 ans} (confusion posologique)"
+    freq: "moyen (10-15 % urgences toxicologiques)"
+  - dx: "{p:Sevrage / dépendance}"
+    indices: "Arrêt brutal BZD, opiacés, antidépresseurs, alcool; symptômes opposés à l'effet pharmacologique; délai 12-72h après arrêt; amélioration à la reprise"
+    freq: "fréquent en ambulatoire (sevrage BZD ++)"
+
+# source: ligne 47-63 (PEC médicaments)
+pec_initiale:
+  immediate:
+    - "STOP médicament suspect si red flag — évaluer bénéfice/risque AVANT arrêt si pathologie grave sous-jacente"
+    - |-
+      Conciliation médicamenteuse complète:
+      • liste unifiée Rx + OTC + phytothérapie + suppléments
+      • comparaison avec ordonnances et dossier pharmacien
+      • identifier doublons, contre-indications, interactions majeures
+    - "Antidote spécifique si disponible: {r:naloxone 0.4-2 mg IV/IM} (opiacés); {r:flumazénil 0.2 mg IV} (BZD — CI si dépendance chronique); {r:N-acétylcystéine IV} (paracétamol); {r:biperiden IV/IM} (dystonies aiguës)"
+    - |-
+      Sevrage progressif si dépendance:
+      • BZD: réduction {r:10 % / 1-2 semaines} selon protocole; [VÉRIFIER: protocoles locaux CHUV/HUG pour sevrage BZD ambulatoire]
+      • opiacés: substitution méthadone/buprénorphine si addiction
+    - "Déclaration Swissmedic (pharmacovigilance) pour tout effet indésirable grave ou inattendu — OBLIGATOIRE"
+    - "Décision partagée pour ajustement: information écrite (notice + carnet patient); lien pharmacien (entretien pharmaceutique)"
+  orientation:
+    - "Domicile: non-observance sans urgence → renforcement éducation, pilulier, app rappel; suivi à 4 semaines"
+    - "Urgences: red flag (SNM, Stevens-Johnson, surdosage intentionnel, anaphylaxie, rhabdomyolyse)"
+    - "Spécialiste: effets indésirables chroniques ou complexes (pharmacologiste clinique, dermatologue, pneumologue)"
+    - "Pharmacien: entretien pharmaceutique pour révision ordonnance, interactions, observance [VÉRIFIER: disponibilité entretiens pharmaceutiques remboursés en Suisse]"
+
+examens_complementaires:
+  - "{t:Bilan hépatique + créatinine + ionogramme}: iatrogénie suspectée; adapter posologie si dysfonction organe"
+  - "{t:CK + myoglobine}: rhabdomyolyse (statines + inhibiteur CYP3A4)"
+  - "{t:FSC avec différentielle}: agranulocytose (clozapine, carbimazole, métamizole — seuil < 500 PN = arrêt urgence)"
+  - "{t:ECG}: allongement QTc (psychotropes, antibiotiques, cisapride) — seuil QTc > 500 ms = danger"
+  - "{t:Taux plasmatique}: lithium (zone 0.6-1.2 mEq/L), digoxine (0.5-2 ng/mL), valproate, méthotrexate [VÉRIFIER: seuils toxiques lithium / digoxine selon référence suisse]"
+  - "{t:Bilan toxicologique urinaire/sanguin}: surdosage intentionnel suspecté"
+
+criteres_hospitalisation:
+  - "Red flag avéré: SNM, Stevens-Johnson/DRESS, anaphylaxie, rhabdomyolyse, intoxication intentionnelle"
+  - "Allongement QTc > 500 ms ou arythmie documentée"
+  - "Agranulocytose (PNN < 500) ou hépatotoxicité sévère (bilirubine > 3N + TP < 50 %)"
+  - "Sevrage BZD/alcool avec signes sévères (convulsions, delirium tremens)"
+  - "Lithium > 2 mEq/L ou signes neurologiques (ataxie, confusion, convulsions)"
+
+pieges:
+  - "Oublier l'automédication (AINS, phytothérapie) — souvent non déclarés et responsables d'interactions majeures (warfarine, IEC)"
+  - "Arrêt brutal d'un médicament sans sevrage progressif (BZD, BB, antidépresseurs) → rebond / sevrage sévère"
+  - "Confondre angioœdème bradykinique (IEC, retardé, histamino-résistant) avec allergie IgE-médiée → antidote différent ({r:icatibant})"
+  - "Négliger le statut rénal / hépatique avant prescription → accumulation toxique (aminoglycosides, digoxine, AINS)"
+  - "Ne pas déclarer l'effet indésirable grave à Swissmedic — obligation légale médicale en Suisse"
+
+cartes_liees:
+  - SSP-PSY-01
+  - SSP-COM-01
+  - TOOL-MORISKY

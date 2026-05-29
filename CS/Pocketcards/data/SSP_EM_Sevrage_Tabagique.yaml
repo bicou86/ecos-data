@@ -1,0 +1,170 @@
+id: SSP-COM-04
+type: ssp
+title: Entretien motivationnel — sevrage tabagique
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_EM_Sevrage_Tabagique.md
+
+# source: line 1-16 (setup consultation, 5A)
+anamnese:
+  socrates:
+    - |-
+      Setup EM — demander la permission:
+      • "Est-ce que ça vous dérange si on parle de votre tabagisme?"
+      • Adopter posture non-jugeante, empathique
+      • Nommer l'agenda: "J'aimerais comprendre où vous en êtes"
+    - |-
+      Ask — identifier la consommation:
+      • "Fumez-vous actuellement?"
+      • Nb cigarettes/jour et durée (→ {t:paquets-années} = cig/j ÷ 20 × années)
+      • Type: cigarettes, roulées, pipe, e-cigarette, tabac chauffé
+    - |-
+      Caractériser la dépendance ({t:Fagerström} — 2 questions pivot):
+      • "Combien de temps après le réveil fumez-vous votre 1ère cigarette?" (< 30 min = {r:+2 pts})
+      • "Combien de cigarettes fumez-vous par jour?" (≥ 21 = {r:+2-3 pts})
+    - |-
+      Tentatives antérieures:
+      • "Avez-vous déjà essayé d'arrêter?"
+      • "Qu'est-ce qui vous a aidé / qu'est-ce qui a achoué?"
+      • "Combien de temps avez-vous tenu?" (chaque tentative = apprentissage)
+    - |-
+      Ambivalence — balance décisionnelle:
+      • "Qu'est-ce que le tabac vous apporte?" (avantages perçus)
+      • "Y a-t-il des aspects qui vous préoccupent?"
+      • Echelle d'importance: "Sur 0-10, à quel point est-il important pour vous d'arrêter?"
+    - |-
+      Echelle de confiance:
+      • "Sur 0-10, quelle est votre confiance en votre capacité d'arrêter?"
+      • "Pourquoi [X] et pas [X-2]?" (renforcer les ressources)
+  specifique:
+    - |-
+      Stade motivationnel (Prochaska — à identifier):
+      • {s:Pré-contemplation}: "Je n'ai pas l'intention d'arrêter"
+      • {s:Contemplation}: "J'envisage d'arrêter dans les 6 mois"
+      • {s:Préparation}: "Je veux arrêter dans le mois"
+      • Action / Maintien: arrêt < ou > 6 mois
+    - |-
+      Contexte psychosocial:
+      • Stress récent, événements de vie, soutien social
+      • Co-addictions (alcool, cannabis) → compliquer sevrage
+      • {e:Grossesse} ou projet de grossesse?
+    - "Symptômes de sevrage antérieurs: irritabilité, anxiété, troubles du sommeil, craving intense?"
+    - "Contexte psychiatrique: dépression, anxiété, schizophrénie — adapter pharmacologie"
+  atcd:
+    - "Maladies cardiovasculaires: {e:post-IDM récent} (< 2 sem) → TSN avec précautions"
+    - "Épilepsie ou troubles convulsifs → {r:bupropion CI absolue}"
+    - "Troubles alimentaires (anorexie/boulimie) → {r:bupropion CI}"
+    - "Médicaments actuels: psychotropes (adapter doses après arrêt tabac), anticoagulants"
+    - "ATCD familiaux tabagisme, tentatives précédentes de sevrage, ressources disponibles"
+
+# source: line 260-285 (populations particulières), line 176-218 (sevrage, situations)
+red_flags:
+  - description: "{e:Grossesse} actuelle ou envisagée sous tabagisme actif"
+    dx_suspecte: "{p:Foetotoxicité nicotinique} — risque RCIU, prématurité, mort subite"
+    action: "Arrêt immédiat prioritaire; {r:TSN seul autorisé} (bupropion évité — données insuffisantes); suivi rapproché gynéco-obstétrical"
+  - description: "{s:Idées suicidaires ou dépression sévère} chez patient sous bupropion ou varénicline"
+    dx_suspecte: "{p:Effet neuropsychiatrique médicamenteux}"
+    action: "Arrêt immédiat bupropion/varénicline [VÉRIFIER: varénicline retiré en Suisse depuis 2021]; évaluation psychiatrique urgente"
+  - description: "{e:Épilepsie ou convulsions} présentes ou antécédents — traitement tabac envisagé"
+    dx_suspecte: "{p:Risque convulsif sous bupropion}"
+    action: "{r:Bupropion absolument contre-indiqué}; utiliser TSN seul; avis neurologique si doute"
+  - description: "{s:Syndrome de sevrage aigu sévère} (agitation, confusion, tachycardie) chez patient hospitalisé non-fumeur devenu"
+    dx_suspecte: "{p:Sevrage nicotinique aigu} iatrogène"
+    action: "{r:TSN patch 21 mg/24h} démarrer immédiatement; titrer sur symptômes; ne pas attendre"
+  - description: "Co-addictions multiples actives ({s:alcool actif, dépendance opioïdes, cannabis quotidien})"
+    dx_suspecte: "{p:Profil poly-addictif} — échec sevrage isolé très probable"
+    action: "Orienter addictologie spécialisée [VÉRIFIER: filière cantonale disponible]; sevrage tabac intégré dans prise en charge globale"
+
+# source: line 17-65 (Fagerström, évaluation motivation)
+examen:
+  general:
+    - "Observation de l'attitude: ouverture au dialogue, résistance, ambivalence verbale?"
+    - "Odeur tabagique, coloration des doigts (dépendance physique visible)"
+    - "{t:Signes vitaux}: TA, FC (adapter TSN si HTA non contrôlée)"
+    - "Etat émotionnel général: anxieux, déprimé? (influence choix pharmacologique)"
+  cible:
+    - |-
+      {t:Score de Fagerström} complet (0-10):
+      • Q1 Délai 1ère cigarette: < 5 min = 3 pts / 6-30 min = 2 pts / 31-60 min = 1 pt / > 60 min = 0
+      • Q2 Difficulté lieux interdits: oui = 1 pt
+      • Q3 Cigarette la plus importante: la 1ère = 1 pt
+      • Q4 Nb cig/j: ≤ 10 = 0 / 11-20 = 1 / 21-30 = 2 / ≥ 31 = 3
+      • Q5 Fume plus le matin: oui = 1 pt / Q6 Fume malade: oui = 1 pt
+      • {r:0-2} très faible / {r:3-4} faible / {r:5-6} moyenne / {r:7-10} forte→TSN combiné ± bupropion
+    - |-
+      Evaluer le stade motivationnel (Prochaska):
+      • Question directe: "Avez-vous l'intention d'arrêter de fumer?"
+      • Si oui → dans quel délai? (< 1 mois = préparation)
+      • Echelle d'importance (0-10) et de confiance (0-10)
+    - "Identifier le discours-changement (change talk): désir, raisons, capacité, besoin d'arrêter"
+    - "Explorer les obstacles perçus: prise de poids, stress, entourage, peur du manque"
+
+# source: line 53-59 (stades Prochaska)
+dd_top5:
+  - dx: "{s:Pré-contemplation}"
+    indices: "Patient ne perçoit pas de problème, résistance au changement, minimise risques; discours-maintien prédominant"
+    freq: "fréquent (env. 40 % des fumeurs en consultation)"
+  - dx: "{s:Contemplation}"
+    indices: "Ambivalence marquée, balance avantages/inconvénients équilibrée, 'j'aimerais bien mais...'; pas de plan concret"
+    freq: "fréquent (env. 40 % des fumeurs cherchant aide)"
+  - dx: "{s:Préparation}"
+    indices: "Date d'arrêt envisagée < 1 mois, a déjà réduit ou essayé, demande des outils concrets"
+    freq: "moins fréquent (env. 10-15 %)"
+  - dx: "{s:Action}"
+    indices: "Arrêt < 6 mois, risque de rechute élevé, besoin soutien pharmacologique et comportemental"
+    freq: "contexte de suivi actif"
+  - dx: "{s:Maintien / Rechute}"
+    indices: "Arrêt > 6 mois (maintien) ou retour consommation régulière (rechute — normaliser: moyenne {r:5 tentatives} avant succès)"
+    freq: "rechute très fréquente (60-80 % à 1 an sans aide)"
+
+# source: line 73-101 (assist selon stade), line 103-175 (pharmaco)
+pec_initiale:
+  immediate:
+    - |-
+      Adapter intervention au stade (5A):
+      • {s:Pré-contemplation} → intervention brève 3-5 min, explorer ambivalence, laisser brochure adaptée, ne pas insister; utiliser {r:5R} (Relevance/Risks/Rewards/Roadblocks/Repetition)
+      • {s:Contemplation} → EM 10-15 min, balance décisionnelle, renforcer discours-changement, proposer nouveau RDV
+      • {s:Préparation/Action} → fixer date d'arrêt (dans {r:2-4 semaines}), prescrire TSN, planifier suivi structuré
+    - |-
+      {r:TSN — 1ère intention} (adapter au score Fagerström):
+      • Forte dépendance (≥ 7): patch {r:21 mg/24h} + forme orale à la demande (gomme {r:4 mg} ou spray {r:1 mg/puff})
+      • Modérée (5-6): patch {r:14 mg/24h} 8 sem → {r:7 mg} 4 sem
+      • Faible (3-4): forme orale seule ou patch {r:7 mg}
+      • Durée minimale: {r:2-3 mois}; pas de surdosage nicotinique possible [VÉRIFIER: doses pédiatriques/grossesse]
+    - |-
+      {r:Bupropion (Zyban®)} — 2ème ligne si TSN insuffisant:
+      • J1-6: {r:150 mg × 1/j}; J7+: {r:150 mg × 2/j}; durée {r:7-9 semaines}
+      • Arrêt tabac prévu J8-J14 après début traitement
+      • CI: épilepsie, troubles alimentaires, sevrage alcool/BZD, IMAO < 14 j
+    - "OARS en consultation: {r:Questions Ouvertes} / {r:Affirmations} / {r:Reflets} (simple, double face) / {r:Résumés}"
+    - "Prise de poids attendue {r:3-4 kg}: informer, ne pas minimiser, conseiller activité physique — 'un problème à la fois'"
+  orientation:
+    - "Suivi structuré: {r:S1} (tel ou consultation) → {r:S2} → {r:S4} → {r:S8} → M3 et M6"
+    - "Ressources: Stop-tabac.ch, ligne stop-tabac {r:0848 000 181}, applis (QuitNow, Smoke Free)"
+    - "Addictologie spécialisée: co-addictions, échecs répétés, profil psychiatrique complexe"
+    - "{e:Grossesse}: suivi conjoint obstétrique + addictologie; TSN seul; renforcement psychologique"
+
+examens_complementaires:
+  - "{t:Score Fagerström} (0-10): évalue dépendance physique — guide choix et dose TSN"
+  - "{t:CO expiré} (monoxyde de carbone): objectiver tabagisme, motiver par biofeedback [VÉRIFIER: disponibilité en cabinet]"
+  - "{t:Spirométrie}: si toux chronique, dyspnée — dépister BPCO sous-jacente (renforce motivation)"
+  - "{t:Bilan CV}: TA, FC, ECG si cardiopathie connue avant TSN"
+
+criteres_hospitalisation:
+  - "Syndrome de sevrage nicotinique sévère en milieu hospitalier — initier TSN sans délai"
+  - "Idées suicidaires sous bupropion/varénicline → urgences psychiatriques"
+  - "Grossesse avec tabagisme massif non contrôlé → hospitalisation obstétricale si besoin"
+
+pieges:
+  - "Sous-doser le TSN par peur du surdosage — il n'existe pas de toxicité nicotinique clinique aux doses thérapeutiques; sous-dosage → échec"
+  - "Oublier d'évaluer le stade motivationnel avant de prescrire: donner un traitement à un pré-contemplatif = rupture de la relation et non-adhérence"
+  - "Prescrire bupropion sans vérifier ATCD d'épilepsie, troubles alimentaires ou sevrage alcool/BZD — CI absolues"
+  - "Confondre faux-pas (1-2 cig isolées) et rechute — normaliser le faux-pas, éviter la spirale de démoralisation"
+  - "Négliger la grossesse comme contexte de sevrage urgent — arrêt immédiat idéal, TSN seul autorisé"
+
+cartes_liees:
+  - SSP-COM-01
+  - SSP-PSY-01

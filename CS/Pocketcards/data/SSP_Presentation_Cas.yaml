@@ -1,0 +1,179 @@
+id: SSP-COM-05
+type: ssp
+title: Présentation d'un cas clinique
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Presentation_Cas.md
+
+# source: ligne 14-26 (Questions essentielles + Préparation)
+anamnese:
+  socrates:
+    - |-
+      But de la présentation:
+      • consultation ambulatoire (SNAPPS pédagogique)?
+      • garde / urgence (SBAR rapide)?
+      • RCP / staff multidisciplinaire (présentation formelle)?
+      • transmission infirmière ou inter-équipe?
+    - |-
+      À qui je présente:
+      • superviseur / chef de clinique → montrer raisonnement
+      • spécialiste → cadrer sur sa spécialité (ISBAR)
+      • infirmière → objectifs concrets + seuils d'alerte
+      • paire / ECOS → structure et clarté
+    - "Cas connu ou nouveau patient?"
+    - |-
+      Degré d'urgence:
+      • stable / semi-urgent / immédiat?
+      • ABCDE requis d'emblée?
+    - |-
+      Durée disponible:
+      • présentation courte {r:< 2 min} → SBAR
+      • présentation standard {r:5-7 min} → SNAPPS / structure complète
+      • grand round / staff → présentation formelle {r:> 10 min}
+    - "Données disponibles: dossier ouvert, derniers résultats consultés, signes vitaux vérifiés?"
+  specifique:
+    - |-
+      Préparation ('plan de vol'):
+      • ouvrir le dossier AVANT de commencer
+      • identifier les éléments MOMA / TADAS / PECAVE pertinents
+      • préparer 2-3 questions spécifiques si SNAPPS
+    - |-
+      Adaptation au contexte:
+      • présentation longue (visite) → anamnèse + examen + bilan + DD + PEC
+      • présentation courte (garde) → SBAR systématique
+      • présentation pédagogique → SNAPPS avec verbatim du raisonnement
+    - "Identification patient: nom, âge, sexe, motif d'admission — toujours en premier"
+    - |-
+      Éléments incontournables à mentionner:
+      • allergies et réactions documentées
+      • médicaments actuels (surtout anticoagulants, insuline)
+      • signes vitaux récents (même si normaux)
+      • statut hémodynamique actuel [VÉRIFIER: quels seuils définissent 'instable' selon protocole CHUV/HUG]
+    - "Reformulation active: résumer les consignes reçues, confirmer la compréhension mutuelle"
+  atcd:
+    - "Niveau d'expérience du présentateur: ECOS / externat / internat — adapter le degré d'exigence attendu?"
+    - |-
+      Maîtrise des acronymes fondamentaux:
+      • MOMA (Maladies, Opérations, Médicaments, Allergies)
+      • TADAS (Tabac, Alcool, Drogues, Alimentation, Sport)
+      • PECAVE (Profession, Entourage, Contage, Antécédents familiaux, Voyages, Expositions)
+      • AVIS (Attentes, Vécu, Impact, Symptômes prioritaires) [VÉRIFIER: acronyme reconnu officiellement dans curriculum SSP UNIGE/CHUV?]
+    - "Formation aux structures de présentation: exposé SBAR / SNAPPS déjà pratiqué?"
+    - "Expérience avec la spécialité concernée (pédiatrie, gériatrie, psychiatrie → éléments spécifiques requis)"
+
+# source: ligne 288-304 (Pièges) + ligne 327-344 (Urgences) — RED FLAGS = omissions critiques dans une présentation
+red_flags:
+  - description: "{s:Omission d'une allergie documentée} lors de la présentation au prescripteur"
+    dx_suspecte: "{p:Risque iatrogène / réaction anaphylactique}"
+    action: "Mentionner TOUJOURS allergies + type de réaction; si omission constatée → corriger immédiatement"
+  - description: "{s:Dégradation hémodynamique récente non signalée} (PA, FC, SaO2 modifiés)"
+    dx_suspecte: "{p:Instabilité hémodynamique non reconnue}"
+    action: "Toujours mentionner signes vitaux modifiés en premier dans SBAR Appréciation; alerter médecin de garde"
+  - description: "{s:Altération de l'état de conscience omise} (confusion aiguë, somnolence)"
+    dx_suspecte: "{p:Urgence neurologique / sepsis / hypoglycémie}"
+    action: "État de conscience figure TOUJOURS dans la présentation; ABCDE si instabilité — ne pas attendre"
+  - description: "{s:Red flag clinique sous-jacent non verbalisé} lors de la présentation (signes alarmants du patient)"
+    dx_suspecte: "{p:Pathologie grave méconnue}"
+    action: "Verbaliser explicitement les red flags cliniques du cas présenté même si diagnostic incertain"
+  - description: "{s:Médicament à risque élevé omis} (anticoagulant, insuline, immunosuppresseur) chez patient admis"
+    dx_suspecte: "{p:Interaction médicamenteuse / surdosage non détecté}"
+    action: "Mentionner médicaments critiques systématiquement dans Background SBAR / MOMA [VÉRIFIER: liste médicaments à haut risque selon standard HUG]"
+  - description: "{s:Présentation désorganisée ou incomplète} lors d'une garde urgente — interlocuteur incapable d'agir"
+    dx_suspecte: "{p:Délai de prise en charge}"
+    action: "Reprendre SBAR depuis Situation; annoncer degré d'urgence EN PREMIER"
+
+# source: ligne 346-372 (Grille d'auto-évaluation + Points clés)
+examen:
+  general:
+    - "Structure annoncée d'emblée: 'Je vais vous présenter en SBAR / selon structure SNAPPS'"
+    - "Identification patient complète en ouverture (nom, âge, sexe, motif)"
+    - "Degré d'urgence et signes vitaux mentionnés tôt dans la présentation"
+    - "Durée adaptée au contexte: court si urgence, complet si consultation élective"
+  cible:
+    - |-
+      Checklist SBAR: [VÉRIFIER: ordre exact recommandé par curriculum SSP]
+      • {t:S} - Situation: identité + motif en 1 phrase
+      • {t:B} - Background: ATCD pertinents + allergies + médicaments
+      • {t:A} - Appréciation: examen + signes vitaux + évaluation clinique
+      • {t:R} - Recommandation: ce dont j'ai besoin / demande précise
+    - |-
+      Checklist SNAPPS:
+      • {t:S} - Summarize: résumer ATCD + symptômes
+      • {t:N} - Narrow: 2-3 DD ciblés
+      • {t:A} - Analyze: arguments pour/contre chaque DD
+      • {t:P} - Plan: plan de PEC proposé
+      • {t:P} - Probe: questions au superviseur
+      • {t:S} - Self-directed: thème à approfondir
+    - "Raisonnement clinique verbalisé: hypothèses, arguments pour/contre, incertitudes nommées"
+    - "Adaptation à l'interlocuteur: langage approprié, évite jargon non expliqué"
+    - "Reformulation en fin de présentation: résumer les décisions prises / consignes reçues"
+    - "Demande d'un feedback / retour après la présentation"
+
+# source: ligne 135-225 (Adaptations selon contexte)
+dd_top5:
+  - dx: "{p:Consultation ambulatoire / superviseur}"
+    indices: "Structure complète requise: anamnèse + examen + bilan + DD + PEC; SNAPPS recommandé pour apprentissage; montrer le raisonnement clinique; préparer 2-3 questions spécifiques"
+    freq: "contexte le plus fréquent en externat / internat"
+  - dx: "{p:Transmission garde / urgence}"
+    indices: "SBAR systématique; commencer par degré d'urgence; mentionner signes vitaux modifiés; être concis ({r:< 2 min}); reformuler les consignes reçues"
+    freq: "quotidien en milieu hospitalier"
+  - dx: "{p:Présentation à un spécialiste}"
+    indices: "ISBAR (Identification + SBAR); cadrer sur pertinence pour la spécialité; identifier la question précise; adapter les éléments spécifiques (pédiatrie: développement; gériatrie: IMU, cognition, autonomie; cardio: FdR cardiovasculaires)"
+    freq: "fréquent lors des consultations spécialisées"
+  - dx: "{p:RCP / staff multidisciplinaire}"
+    indices: "Présentation formelle structurée; résumé synthétique en 1-2 phrases; DD et plan clairement proposés; objectifs de soins si gériatrie/oncologie; supports visuels si disponibles"
+    freq: "hebdomadaire dans services hospitaliers"
+  - dx: "{p:Transmission infirmière / inter-équipe}"
+    indices: "SBAR adapté: diagnostic + objectifs de PEC + spécificités du suivi + complications potentielles + seuils d'alerte + marge de manœuvre (PRN); préciser disponibilité du médecin"
+    freq: "pluriquotidien en milieu hospitalier"
+
+# source: ligne 47-105 (SBAR + SNAPPS) + ligne 253-270 (DD + Plan)
+pec_initiale:
+  immediate:
+    - |-
+      Structure SBAR (transmission rapide / garde):
+      • S: 'Je vous appelle pour M./Mme X, XX ans, hospitalisé·e pour... [problème actuel en 1 phrase]'
+      • B: 'Antécédents pertinents: ... Allergies: ... Médicaments: ...'
+      • A: 'À l'examen: TA X/X, FC X, T° X — [évaluation du problème]'
+      • R: 'Je vous demande de... / Pourriez-vous venir l'évaluer?'
+    - |-
+      Structure SNAPPS (présentation pédagogique):
+      • S: Résumer cas en 2-3 phrases (qui + symptômes + chronologie)
+      • N: '2 hypothèses principales: X le plus probable car... / Y à exclure car urgence'
+      • A: Arguments pour/contre chaque DD
+      • P: Plan proposé (examens + traitement)
+      • P: 'Ma question au superviseur: ...'
+      • S: Thème que je vais approfondir
+    - "ISBAR pour spécialiste: ajouter Identification (nom + service + hôpital) avant SBAR"
+    - "Urgence vitale: commencer par ABCDE → présenter l'instabilité AVANT les antécédents"
+    - "Débuter toujours par: se présenter (nom + fonction), annoncer le contexte et le degré d'urgence"
+  orientation:
+    - "Présentation réussie: interlocuteur peut agir sans demander de renseignements supplémentaires"
+    - "Si présentation incomplète: proposer de compléter immédiatement, ne pas attendre qu'on vous le demande"
+    - "Feedback systématique: demander un retour après chaque présentation formative"
+    - "Auto-évaluation: utiliser la checklist (présentation personnelle, identité, plainte, chronologie, ATCD, examen, paraclinique, DD, plan, questions, adaptation, durée)"
+
+examens_complementaires:
+  - "{t:Checklist SBAR} auto-évaluation: 4 éléments S-B-A-R complétés avant de commencer"
+  - "{t:Checklist SNAPPS} auto-évaluation: 6 étapes S-N-A-P-P-S avec questions préparées"
+  - "{t:Grille de présentation complète}: 12 critères (identité, plainte, chronologie, ATCD, examen, paraclinique, DD, plan, etc.)"
+  - "{t:MOMA / TADAS / PECAVE} revus avant présentation: allergies et médicaments critiques vérifiés"
+  - "{t:Signes vitaux actualisés}: vérifiés dans le dossier dans les {r:< 30 min} précédant la présentation [VÉRIFIER: délai recommandé selon contexte clinique]"
+
+criteres_hospitalisation:
+  - "N/A (compétence de communication — pas de critères d'hospitalisation directement applicables)"
+  - "Si présentation révèle un red flag clinique du patient → gérer selon la pathologie sous-jacente"
+
+pieges:
+  - "Commencer par les antécédents au lieu du problème actuel — toujours débuter par Situation (qui + quoi)"
+  - "Oublier les signes vitaux récents dans la présentation: même normaux, ils doivent être mentionnés"
+  - "Présentation trop longue en contexte de garde — s'entraîner à condenser en {r:SBAR < 2 min}"
+  - "Ne pas énoncer de plan concret: toujours terminer par une recommandation claire ou une question précise"
+  - "Jargon médical non adapté à l'interlocuteur (ex: infirmière) — adapter le niveau de langage systématiquement"
+
+cartes_liees:
+  - SSP-COM-01
+  - SSP-COM-03

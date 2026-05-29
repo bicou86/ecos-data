@@ -1,0 +1,176 @@
+id: SSP-COM-10
+type: ssp
+title: Capacité de discernement
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Capacité_Discernement.md
+
+# source: line 1-57
+anamnese:
+  socrates:
+    - |-
+      Décision concernée (spécifique à chaque évaluation):
+      • quelle décision exactement? (intervention, refus de soins, sortie contre avis…)
+      • gravité / complexité de la décision (simple vs chirurgie majeure)
+      • urgence temporelle? (reporter si non urgent)
+    - |-
+      Contexte déclencheur:
+      • refus de traitement vital?
+      • sortie contre avis médical?
+      • consentement intervention majeure / recherche clinique?
+      • rédaction directives anticipées ou don d'organe vivant?
+    - "Évolution dans le temps: capacité stable ou fluctuante? (p. ex. meilleure le matin)"
+    - |-
+      Signaux d'alerte contextuels:
+      • pressions familiales / conflits d'intérêt héritage?
+      • décision surprenante par rapport aux valeurs habituelles?
+      • patient seul ou accompagné lors de la demande?
+  specifique:
+    - |-
+      Critère 1 — {t:COMPRENDRE} (Understanding):
+      • peut-il reformuler le Dx, le Ttt, les alternatives, les risques?
+      • langage adapté fourni? interprète si besoin?
+    - |-
+      Critère 2 — {t:APPRÉCIER} (Appreciation):
+      • reconnaît-il être malade?
+      • comprend-il que le traitement le concerne personnellement?
+      • déni pathologique vs déni culturel/religieux?
+    - |-
+      Critère 3 — {t:RAISONNER} (Reasoning):
+      • compare-t-il les options? pèse-t-il bénéfices/risques?
+      • raisonnement cohérent avec ses valeurs (même si décision ≠ avis médical)?
+      • pensées magiques / influence délirante?
+    - |-
+      Critère 4 — {t:COMMUNIQUER} un choix (Expressing choice):
+      • choix clair et consistant dans le temps?
+      • maintenu à plusieurs reprises si fluctuation suspectée?
+      • moyens alternatifs si communication limitée (écrit, gestes, pictogrammes)?
+  atcd:
+    - |-
+      Facteurs de risque d'incapacité:
+      • Psychiatriques: psychose, manie, dépression sévère, intoxication/sevrage
+      • Neurologiques: {p:démence}, {p:delirium}, AVC, épilepsie
+      • Médicaux: encéphalopathie, hypoxie, hypoglycémie, infection sévère
+      • Développementaux: déficience intellectuelle, TSA
+    - "Traitements actuels: psychotropes, corticoïdes (confusion), sédatifs, analgésiques opioïdes [VÉRIFIER: impact sur seuil d'incapacité selon littérature ASSM]"
+    - "Directives anticipées existantes? Représentant thérapeutique déjà désigné (art. 370 CC)?"
+    - "Capacité dans le passé pour décisions similaires? Évaluations antérieures documentées?"
+
+# source: line 98-103, 205-235
+red_flags:
+  - description: "{s:Refus de soins urgents vitaux} + patient agité / désorienté / incoherent"
+    dx_suspecte: "{p:Incapacité présumée} — urgence légale"
+    action: "Traitement minimal nécessaire (présomption consentement); PAFA si danger immédiat; documenter + réévaluation dès stabilisation"
+  - description: "{e:Décision grave} (chirurgie majeure, fin de vie) + {p:démence avancée} (MMSE < 18)"
+    dx_suspecte: "{p:Incapacité — démence}"
+    action: "Contacter représentant thérapeutique (art. 378 CC); 2e avis médical + curateur si nécessaire [VÉRIFIER: seuil MMSE retenu par ASSM pour incapacité]"
+  - description: "{s:Fluctuation brutale} capacité — cohérent le matin, incohérent l'après-midi"
+    dx_suspecte: "{p:Delirium} (confusion aiguë)"
+    action: "Reporter toute décision non urgente; traiter cause réversible; réévaluer quotidiennement"
+  - description: "{s:Pression familiale manifeste} ou conflit d'intérêt financier évident lors de la demande"
+    dx_suspecte: "{p:Influence indue} (maltraitance financière / familiale)"
+    action: "Entretien individuel obligatoire sans tiers; signalement AS si maltraitance suspectée"
+  - description: "{s:Déni délirant} de la maladie ou {s:hallucinations commandantes} orientant le choix"
+    dx_suspecte: "{p:Troubles psychotiques}"
+    action: "Évaluation psychiatrique urgente; décision suspendue; représentant + psychiatre"
+
+# source: line 58-145, 186-204
+examen:
+  general:
+    - "Signes vitaux: T°, FC, TA, SaO2, glycémie capillaire (corriger facteurs réversibles avant l'évaluation)"
+    - "{t:MMSE} (< 24 = seuil dépistage troubles cognitifs) ou {t:MoCA} (< 26 = seuil recommandé)"
+    - "État de vigilance: {t:Score de Glasgow}, orientation temporo-spatiale, attention (mois à l'envers)"
+    - "Environnement évaluation: calme, privé, patient reposé et non douloureux — optimiser avant de conclure à l'incapacité"
+  cible:
+    - |-
+      Critère 1 — Comprendre: présenter l'information médicale puis demander:
+      • "Pouvez-vous m'expliquer ce que vous avez compris de votre maladie?"
+      • "Quelles sont les options que nous avons discutées?"
+      • "Que pourrait-il se passer si vous refusez?"
+    - |-
+      Critère 2 — Apprécier: évaluer l'application personnelle:
+      • "Pensez-vous que ces informations s'appliquent à vous?"
+      • "Croyez-vous avoir cette maladie?" → déni pathologique?
+      • "Pourquoi pensez-vous que je vous propose ce traitement?"
+    - |-
+      Critère 3 — Raisonner: explorer le processus décisionnel:
+      • "Comment êtes-vous arrivé à cette décision?"
+      • "Avez-vous pesé le pour et le contre?"
+      • "Comment cette décision s'accorde avec vos valeurs?"
+    - |-
+      Critère 4 — Communiquer: confirmer la stabilité du choix:
+      • "Quelle est votre décision?"
+      • "Avez-vous changé d'avis depuis hier?"
+      • Réévaluation à distance si doute
+    - "{t:MacCAT-T} (MacArthur Competence Assessment Tool — Treatment): outil structuré si évaluation formelle requise ou litigieuse [VÉRIFIER: disponibilité version française validée au CHUV/HUG]"
+    - "Rechercher coercition / influences indues: toujours proposer entretien individuel sans famille"
+
+# source: line 38-57
+dd_top5:
+  - dx: "{p:Delirium} (confusion aiguë)"
+    indices: "Début aigu, fluctuant, perturbation attention/vigilance, facteur déclenchant identifiable (infection, médicaments, sevrage); MMSE fluctuant; {s:incapacité souvent réversible}"
+    freq: "très fréquent en milieu hospitalier (15-25 %)"
+  - dx: "{p:Démence} (toutes étiologies)"
+    indices: "Déclin cognitif progressif, {t:MMSE < 24} ou {t:MoCA < 26}, perte autonomie; capacité réduite proportionnellement à la sévérité et à la complexité de la décision"
+    freq: "fréquent (> 50 ans, prévalence 5-10 % à 65 ans, 30 % > 85 ans)"
+  - dx: "{p:Troubles psychotiques} (schizophrénie, manie psychotique)"
+    indices: "Délire, hallucinations commandantes, désorganisation de la pensée; diagnostic psychiatrique ≠ incapacité automatique — évaluation spécifique à la décision"
+    freq: "moins fréquent (1-3 % pop.)"
+  - dx: "{p:Intoxication / sevrage actif}"
+    indices: "Alcool, benzodiazépines, opioïdes; incapacité souvent transitoire; reporter la décision si non urgente; évaluer à jeun"
+    freq: "fréquent en urgences / psychiatrie"
+  - dx: "{p:Déficience intellectuelle} / retard développemental"
+    indices: "Capacité possible pour décisions simples — évaluation adaptée à la complexité; soutien décisionnel avant substitution; adaptation communication (pictogrammes)"
+    freq: "peu fréquent (1-3 % pop.)"
+
+# source: line 237-265, 279-313
+pec_initiale:
+  immediate:
+    - "Optimiser conditions AVANT de conclure: corriger facteurs réversibles (douleur, fièvre, hypoglycémie, médicaments sédatifs), choisir le meilleur moment, répéter l'information"
+    - |-
+      Si {e:CAPABLE}: respecter la décision du patient — même si refus de soins:
+      • documenter le consentement ou le refus éclairé dans le dossier
+      • consignes de retour et suivi ambulatoire si refus
+    - |-
+      Si {e:INCAPABLE}: hiérarchie représentant thérapeutique (art. 378 CC):
+      • {r:1. Curateur avec mandat de représentation}
+      • {r:2. Conjoint/partenaire} (si vie commune)
+      • {r:3. Personne en vie commune}
+      • {r:4. Descendants} → parents → frères/sœurs
+      • Si aucun: Autorité de protection de l'adulte (APEA)
+    - "Si danger immédiat + incapable: {p:PAFA} (Placement à des Fins d'Assistance) — conditions: incapacité + danger + pas d'alternative moins restrictive + proportionnalité [VÉRIFIER: procédure cantonale spécifique VS/GE]"
+    - "Documentation obligatoire: date/heure, personnes présentes, état clinique, information fournie, questions/réponses, conclusion motivée, plan si incapacité"
+  orientation:
+    - "Réévaluation quotidienne si {p:delirium}: ne pas figer une conclusion d'incapacité sans réévaluation"
+    - "Avis spécialisé (psychiatrie, neurologie): si doute persistant, décision grave/irréversible, demande légale ou judiciaire"
+    - "Médecin traitant + proches: informer du processus, respecter secret médical si patient capable"
+    - "Mineur {r:14-18 ans}: capacité évaluée selon maturité (pas selon l'âge) — impliquer parents sauf si secret médical invoqué"
+
+# source: line 186-203
+examens_complementaires:
+  - "{t:MMSE} et/ou {t:MoCA}: dépistage systématique si doute cognitif — réaliser AVANT conclusion"
+  - "{t:MacCAT-T}: évaluation structurée formelle — indiqué si décision majeure, litige potentiel, demande légale"
+  - "{t:Glycémie capillaire, ionogramme, NFS}: éliminer cause métabolique réversible (hypoglycémie, hyponatrémie, encéphalopathie)"
+  - "{t:Imagerie cérébrale} (CT/IRM): si suspicion lésion cérébrale aiguë (AVC, tumeur) ou démence à diagnostic incertain"
+  - "Avis {t:psychiatrique} ou {t:neurologique}: si étiologie incertaine ou évaluation litigieuse"
+
+criteres_hospitalisation:
+  - "Incapacité + décision médicale urgente ne pouvant être reportée (chirurgie, transfusion)"
+  - "{p:PAFA} requise: incapacité + danger pour soi/autrui + pas d'alternative ambulatoire"
+  - "Cause réversible à traiter en urgence: {p:delirium} sévère, intoxication, hypoglycémie sévère"
+  - "Situation légale ou judiciaire requérant évaluation formelle hospitalisée"
+
+# source: line 295-313
+pieges:
+  - "Confondre diagnostic psychiatrique / neurologique et incapacité: {p:démence} ou {p:schizophrénie} ≠ incapacité automatique — l'évaluation est SPÉCIFIQUE À CHAQUE DÉCISION"
+  - "Juger la décision (irrationnelle, refus) plutôt que le processus — une décision religieuse ou atypique n'est pas une incapacité si le raisonnement est intact"
+  - "Évaluer dans de mauvaises conditions (douleur, nuit, famille présente) et figer la conclusion — toujours optimiser avant de conclure"
+  - "Oublier les facteurs réversibles: corriger avant de déclarer l'incapacité (médicaments sédatifs, hypoglycémie, infection)"
+  - "Sous-documenter: une évaluation non documentée est juridiquement inexistante — noter les questions posées, les réponses et la conclusion motivée"
+
+cartes_liees:
+  - SSP-NEU-05
+  - SSP-PSY-01

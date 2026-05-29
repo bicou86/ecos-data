@@ -1,0 +1,156 @@
+id: SSP-COM-06
+type: ssp
+title: Situations de dépistage
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_SD.md
+
+# source: line 1-30 (définition SDM + indications dépistage)
+anamnese:
+  socrates:
+    - |-
+      Setup — Établir le partenariat (Team Talk):
+      • "Je vous propose de travailler ensemble pour décider du dépistage le mieux adapté"
+      • Demander permission d'explorer les options
+      • Clarifier le rôle de chacun: médecin apporte données, patient apporte valeurs
+    - |-
+      Identification patient à risque — profil démographique:
+      • Âge + sexe (détermine dépistages indiqués)
+      • Antécédents familiaux au 1er degré (cancer sein, côlon, prostate)
+      • Statut tabagique (paquets-années, arrêt récent < 10 ans)
+    - |-
+      Option Talk — Présenter les options disponibles:
+      • Énoncer TOUTES les options (y compris "ne rien faire")
+      • Utiliser fréquences naturelles: "X sur 100 personnes comme vous"
+      • Décrire bénéfices, risques, contraintes pratiques de chaque option
+    - |-
+      Decision Talk — Explorer valeurs et préférences:
+      • "Qu'est-ce qui est le plus important pour vous ?"
+      • "Préférez-vous éviter les risques ou maximiser les bénéfices ?"
+      • Évaluer disposition à décider maintenant ou reporter [VÉRIFIER: Ottawa readiness scale utilisée en pratique CHUV?]
+  specifique:
+    - |-
+      Vérifier dépistages déjà réalisés:
+      • Dernier frottis / HPV-test (F 21-70 ans)?
+      • Dernière mammographie (F 50-74 ans)?
+      • Dernier FIT ou coloscopie (H+F 50-69 ans)?
+      • Bilan cardiovasculaire (lipides, glycémie, TA) — dès 40 ans?
+    - "Statut HIV + IST: population à risque, partenaires multiples, rapports non protégés, IVDU?"
+    - |-
+      Teach-back (vérification compréhension):
+      • "Pour m'assurer d'avoir été clair, pourriez-vous me dire ce que vous avez retenu ?"
+      • "Comment expliqueriez-vous ce choix à un proche ?"
+    - "Barrières pratiques: coût, accès, anxiété anticipatoire, mauvaise expérience antérieure?"
+  atcd:
+    - "ATCD personnels de cancer, lésions précancéreuses, maladie inflammatoire chronique (MICI → risque CCR)"
+    - "Comorbidités limitant l'espérance de vie (> 10 ans) ou rendant le traitement impossible → balance bénéfice/risque défavorable [VÉRIFIER: seuil âge/comorbidité pour arrêt dépistage sein SSMI]"
+    - "Médicaments immunosuppresseurs, anticoagulants (pertinence coloscopie?)"
+    - |-
+      Contexte socio-familial:
+      • Support familial, charge aidant
+      • Ressources (assurance, déductible → accès coloscopie vs FIT)
+
+# source: line 286-308 + pivots SD Wilson-Jungner
+red_flags:
+  - description: "{s:Symptômes d'alarme} présents (saignement rectal, AEG, masse palpable, dysphagie, hémoptysie)"
+    dx_suspecte: "{p:Cancer en phase symptomatique} — ce n'est plus du dépistage"
+    action: "Basculer vers bilan diagnostique urgent: coloscopie diagnostique / imagerie / biopsie selon symptôme — ne pas proposer FIT ou mammographie de dépistage"
+  - description: "Patient {e:> 80 ans} ou espérance de vie < {r:10 ans} avec demande de dépistage intensif (PSA, mammographie, CCR)"
+    dx_suspecte: "{p:Sur-dépistage} — balance bénéfice/risque défavorable"
+    action: "Discussion explicite des limites du dépistage chez le fragile; documenter décision partagée de non-dépistage [VÉRIFIER: seuil exact recommandation SSMI pour arrêt PSA et mammographie]"
+  - description: "{s:Faux positifs répétés anxiogènes} (> 2 mammographies avec rappel, PSA en zone grise fluctuant)"
+    dx_suspecte: "{p:Préjudice du sur-dépistage}: anxiété, examens invasifs inutiles"
+    action: "Information préalable obligatoire sur taux de faux positifs; réviser fréquence / arrêt si détresse psychologique documentée"
+  - description: "Résultat {t:FIT} positif ou polype adénomateux à la coloscopie de surveillance"
+    dx_suspecte: "{p:Cancer colorectal} ou lésion précancéreuse"
+    action: "Coloscopie diagnostique dans les {r:3 mois}; ne pas continuer FIT si coloscopie indiquée"
+  - description: "{s:Refus catégorique répété} de tout dépistage après information complète et répétée"
+    dx_suspecte: "Obstacle à l'autonomie éclairée: crainte cancer, fatalisme, détresse psychologique sous-jacente"
+    action: "Explorer barrières (peur, vécu familial); documenter le refus éclairé; proposer réévaluation ultérieure"
+
+# source: line 253-285 + pivots SD
+examen:
+  general:
+    - |-
+      Stratification du risque — évaluer AVANT de proposer un dépistage:
+      • Âge + sexe → dépistages indiqués selon calendrier suisse (OFSP/SSMI)
+      • Calcul risque cardiovasculaire: {t:AGLA/ESC Risk Score} (TA, lipides, glycémie, tabac, IMC)
+      • IMC, tour de taille (obésité → risque CCR, diabète, HTA)
+    - "TA mesurée (obligatoire chaque consultation): valeur + si traitement en cours?"
+    - "Statut tabagique objectivé: paquets-années → critères {t:CT pulmonaire basse dose} (≥ 50 ans + ≥ 15 PA + actif/arrêt < 10 ans) [VÉRIFIER: critères exacts programme dépistage poumon Suisse — non encore national en 2026]"
+  cible:
+    - |-
+      Examen physique orienté par âge/sexe:
+      • Palpation sein (F): masse, écoulement mamelonnaire? → ne remplace pas la mammographie
+      • TR (H > 50 ans si PSA discuté): volume prostate, nodule dur?
+      • Inspection cutanée: lésions pigmentées suspectes (ABCDE) → dermatoscopie si doute
+    - |-
+      Cervical (F 21-70 ans si col utérus):
+      • Date du dernier frottis / HPV-test
+      • Facteurs de risque HPV: partenaires, vaccination HPV effectuée?
+    - "Ganglions cervicaux, axillaires, inguinaux: adénopathies? → sortir du cadre dépistage si anomalie"
+
+# source: line 210-252 (cas pratiques dépistage) + pivots SD
+dd_top5:
+  - dx: "{p:Cancer du sein} — dépistage mammographique"
+    indices: "F 50-74 ans; mammographie tous les {r:2 ans}; bénéfice: {r:4 décès évités/1000} sur 20 ans; surdiagnostic {r:5-10/1000}; faux positifs {r:250/1000} rappelées"
+    freq: "Programme cantonal / OFSP — couverture variable selon canton [VÉRIFIER]"
+  - dx: "{p:Cancer colorectal} — dépistage FIT ou coloscopie"
+    indices: "H+F 50-69 ans; {t:FIT} tous {r:2 ans} OU {t:coloscopie} tous {r:10 ans}; sans dépistage 2/100 décès CCR, avec dépistage 1/100; complications colo {r:2/1000}"
+    freq: "Très fréquent (2e cause mortalité cancer CH)"
+  - dx: "{p:Cancer du col utérin} — dépistage cytologique/HPV"
+    indices: "F 21-70 ans; frottis ou {t:HPV-test} tous {r:3 ans} (dès 30 ans HPV seul possible); vaccination HPV réduit le risque de 70 %"
+    freq: "Rare en Suisse grâce au dépistage (incidence 6/100 000)"
+  - dx: "{p:Risque cardiovasculaire} — dépistage lipides + glycémie + TA"
+    indices: "Dès 40 ans (H) / 50 ans (F) ou plus tôt si ATCD familiaux; {t:AGLA Score}; glycémie à jeun + HbA1c si facteurs risque diabète; TA à chaque consultation"
+    freq: "Priorité absolue (1re cause mortalité CH)"
+  - dx: "{p:HIV/IST} — dépistage ciblé"
+    indices: "Population à risque (MSM, partenaires multiples, IVDU, post-exposition); test HIV tous les {r:3-12 mois} selon risque; syphilis, gonorrhée, chlamydia selon anamnèse sexuelle"
+    freq: "Sous-diagnostiqué: ~30 % HIV diagnostiqués tard en Suisse"
+
+# source: line 32-82 + line 253-285 (structure SDM)
+pec_initiale:
+  immediate:
+    - "Appliquer modèle {r:3-Talk}: Team Talk → Option Talk → Decision Talk (durée +{r:3 min} vs consultation standard)"
+    - "Présenter risques en fréquences naturelles: 'Sur 100 personnes comme vous...' — NE PAS utiliser % seuls"
+    - "Toujours inclure l'option 'ne rien faire' avec ses conséquences"
+    - |-
+      Outils visuels disponibles:
+      • Grille de {r:100 personnages} (iconographies) pour proportions
+      • Calculateurs de risque: {t:AGLA} (cardio), {t:Predict} (sein)
+      • Ottawa Health Research Institute: Decision Aids Library en ligne
+    - "Vérifier compréhension par teach-back avant toute décision"
+    - "Si patient dit 'c'est vous le docteur': explorer si évitement ou préférence réelle; expliciter le raisonnement"
+  orientation:
+    - "Décision prise → planifier suivi et documenter dans dossier (options présentées, outils utilisés, préférences, décision)"
+    - "Décision reportée → acceptable et à consigner; proposer délai et ressources (brochures, sites)"
+    - "Résultat dépistage positif → basculer vers filière diagnostique adaptée (gastro, senologie, gyné, cardio selon résultat)"
+    - "Refus éclairé documenté → respecter autonomie; proposer réévaluation à 1 an"
+
+examens_complementaires:
+  - "{t:FIT} (fecal immunochemical test): CCR 50-69 ans, tous les 2 ans — seuil positif {r:> 20 μg Hb/g selles} [VÉRIFIER: seuil exact laboratoire HUG/CHUV]"
+  - "{t:Mammographie bilatérale}: F 50-74 ans, incidences standard + dépistage organisé cantonal"
+  - "{t:HPV-test / frottis cervical}: F 21-70 ans, intervalle selon résultat précédent"
+  - "{t:Bilan lipidique + glycémie à jeun + TA}: risque CV dès 40 ans (H) / 50 ans (F)"
+  - "{t:Sérologie HIV + IST}: population ciblée selon anamnèse sexuelle"
+  - "{t:CT thoracique basse dose}: fumeurs ≥ 50 ans + ≥ 15 PA — programme non national en Suisse en 2026"
+
+criteres_hospitalisation:
+  - "Aucune indication d'hospitalisation en situation de dépistage pur"
+  - "Résultat positif nécessitant examen invasif urgent → adresser filière ambulatoire spécialisée (délai selon urgence)"
+  - "Détresse psychologique sévère induite par annonce résultat → évaluation psychiatrique ambulatoire"
+
+pieges:
+  - "Proposer un {t:FIT} à quelqu'un qui saigne → c'est un bilan diagnostique, pas un dépistage"
+  - "Présenter uniquement la réduction relative du risque ('{r:50 % de réduction}') sans risque absolu → surestimation du bénéfice"
+  - "Omettre l'option 'ne rien faire' dans la présentation des options → violation du consentement éclairé"
+  - "Continuer le dépistage intensif chez le {e:patient fragile > 80 ans} — balance bénéfice/risque souvent défavorable"
+  - "Ne pas documenter le processus SDM → risque médico-légal si complications d'un examen invasif consenti sans traçabilité"
+
+cartes_liees:
+  - SSP-COM-01
+  - SSP-GYN-01
+  - SSP-CAR-01

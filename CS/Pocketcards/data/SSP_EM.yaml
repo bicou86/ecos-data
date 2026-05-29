@@ -1,0 +1,166 @@
+id: SSP-COM-02
+type: ssp
+title: Entretien motivationnel
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_EM.md
+
+# source: SSP_EM.md lignes 1-62 (principes fondamentaux + structure consultation)
+anamnese:
+  socrates:
+    - |-
+      Cadre et ouverture (Engager):
+      • accueil chaleureux, agenda partagé
+      • demander permission: "Pouvons-nous parler de...?"
+      • confidentialité, durée (~30 min), non-jugement explicite
+    - |-
+      Explorer la situation (question ouverte initiale):
+      • "Qu'est-ce qui vous amène à en parler aujourd'hui?"
+      • "Comment voyez-vous la situation?"
+      • "Qu'est-ce qui vous préoccupe concernant...?"
+    - |-
+      Focaliser (comportement cible):
+      • clarifier l'agenda: tabac / alcool / alimentation / activité physique / observance?
+      • obtenir accord du patient sur le sujet principal
+      • "Qu'est-ce qui est le plus important pour vous aujourd'hui?"
+  specifique:
+    - |-
+      Identification du comportement cible:
+      • tabac: quantité, durée, dépendance ({t:Fagerström})
+      • alcool: fréquence, quantité (verres-standard/semaine), {t:AUDIT}
+      • observance: quel traitement, fréquence oublis, barrières perçues
+      • alimentation / activité: routine actuelle, obstacles
+    - |-
+      Explorer l'ambivalence (balance décisionnelle):
+      • avantages du statu quo: "Qu'est-ce que cela vous apporte?"
+      • inconvénients: "Qu'est-ce qui vous dérange dans...?"
+      • avantages du changement: "Que gagneriez-vous à changer?"
+      • échelle d'importance {r:0-10}: "Pourquoi pas moins?"
+    - |-
+      Évoquer le {s:discours-changement} (DARN-C):
+      • Désir: "J'aimerais..." / Aptitude: "Je peux..." / Raisons: "Parce que..."
+      • Nécessité: "Je dois..." / Engagement: "Je vais..."
+      • renforcer chaque discours-changement repéré par un reflet
+    - "Échelle de confiance {r:0-10}: 'Pourquoi pas 0?' → renforce auto-efficacité [VÉRIFIER: pertinence des échelles dans contexte ECOS chronométré]"
+  atcd:
+    - |-
+      Tentatives antérieures de changement:
+      • "Avez-vous déjà essayé de changer?"
+      • ce qui avait fonctionné, ce qui avait échoué
+      • rechutes: normaliser ("c'est fréquent, qu'est-ce qui s'est passé?")
+    - |-
+      Ressources et valeurs:
+      • "Qu'est-ce qui compte le plus pour vous dans la vie?"
+      • soutien entourage, motivations intrinsèques
+      • points forts déjà identifiés (emploi, famille, santé)
+    - "ATCD psychiatriques: dépression, anxiété, addictions comorbides [VÉRIFIER: seuil de référence en addictologie vs prise en charge ambulatoire]"
+    - "Contexte social: stress, précarité, isolement — éléments qui maintiennent le comportement"
+
+# source: SSP_EM.md lignes 459-515 (erreurs + red flags contextuels)
+red_flags:
+  - description: "{s:Résistance majeure} ou hostilité franche dès l'ouverture — patient contraint (employeur, justice, famille)"
+    dx_suspecte: "{p:Absence de motivation intrinsèque} — EM inefficace si coercition externe"
+    action: "Explorer l'ambivalence sur la contrainte elle-même; si refus total → ne pas forcer, proposer RDV ultérieur"
+  - description: "{s:Idées suicidaires actives ou automutilation} évoquées lors de l'exploration"
+    dx_suspecte: "{p:Crise suicidaire} — urgence psychiatrique"
+    action: "Interrompre EM; évaluation risque suicidaire immédiate; orientation urgences psychiatriques si risque élevé [VÉRIFIER: protocole CHUV/HUG crise suicidaire ambulatoire]"
+  - description: "{s:Dépendance sévère à l'alcool} avec signes de sevrage (tremblements, sueurs, agitation) à l'anamnèse"
+    dx_suspecte: "{p:Syndrome de sevrage alcoolique} — risque de délirium tremens"
+    action: "Ne pas initier sevrage sans encadrement médical; orientation addictologie/hospitalisation; {r:benzodiazépines} si signes de sevrage"
+  - description: "{s:Trouble psychiatrique actif non traité} (psychose, manie franche, dépression sévère)"
+    dx_suspecte: "{p:Comorbidité psychiatrique} compromettant la capacité de changement"
+    action: "Référer psychiatrie avant EM; EM non indiqué en phase aiguë psychiatrique"
+  - description: "{s:Urgence somatique liée au comportement} (IC décompensée, BPCO exacerbée, cirrhose Child C)"
+    dx_suspecte: "{p:Urgence vitale} — prioriser prise en charge somatique"
+    action: "Stabiliser l'urgence somatique d'abord; différer EM; coordonner avec spécialiste"
+
+# source: SSP_EM.md lignes 175-248 (stades Prochaska) + lignes 406-455 (structure consultation)
+examen:
+  general:
+    - |-
+      Évaluer le stade de Prochaska (observation clinique):
+      • {e:Pré-contemplation}: "Je n'ai pas de problème" — déni, minimisation
+      • {e:Contemplation}: "Je devrais peut-être..." — ambivalence marquée
+      • {e:Préparation}: "Je vais le faire" — planification active
+      • {e:Action}: "Je le fais" — changement en cours (<6 mois)
+      • {e:Maintien}: "Je continue" — acquis >6 mois, prévention rechute
+    - |-
+      Niveau de motivation global:
+      • échelle d'importance: score + "Qu'est-ce qui ferait monter ce chiffre?"
+      • échelle de confiance: score + "Pourquoi pas 0?" (renforce auto-efficacité)
+      • cohérence entre discours verbal et affect non verbal
+  cible:
+    - |-
+      Repérer {s:discours-changement} vs {s:discord/sustain talk}:
+      • change talk (DARN-C): désir, aptitude, raisons, nécessité, engagement
+      • sustain talk: "Oui, mais...", arguments pour le statu quo
+      • discord: résistance à la relation ("Vous ne me comprenez pas")
+    - |-
+      Technique OARS — observer la dynamique:
+      • questions {r:ouvertes} utilisées vs fermées (ratio cible > 2:1)
+      • {r:affirmations} des forces: "Je remarque votre courage de..."
+      • {r:reflets}: simple / complexe / double-face / amplifié
+      • {r:synthèses}: collecte / liaison / transition
+    - "Ambivalence manifeste: patient oscille entre pro/contre → occasion de balance décisionnelle"
+    - "Réflexe correcteur du médecin: risque d'arguments non sollicités → corriger posture [VÉRIFIER: grille d'évaluation ECOS COM spécifique EM à CHUV/HUG]"
+
+# source: SSP_EM.md lignes 175-248 (stades Prochaska adaptés en DD)
+dd_top5:
+  - dx: "{e:Pré-contemplation}"
+    indices: "Déni du problème, minimisation des risques, résistance au changement — 'Tout va bien, c'est vous qui exagérez'"
+    freq: "fréquent en première consultation, surtout si consultation imposée"
+  - dx: "{e:Contemplation}"
+    indices: "Ambivalence marquée, reconnaît le problème mais pas prêt à agir — 'Je sais que je devrais, mais...'; balance décisionnelle utile"
+    freq: "stade le plus fréquent en consultation de médecine générale"
+  - dx: "{e:Préparation/Détermination}"
+    indices: "Décision de changer prise (<1 mois), planification active, recherche de solutions concrètes — prêt pour plan SMART"
+    freq: "moins fréquent d'emblée, souvent après consultation préalable"
+  - dx: "{e:Action}"
+    indices: "Changement comportemental actif (<6 mois), efforts visibles, besoin de soutien et résolution de problèmes — célébrer les succès"
+    freq: "patient en suivi actif de sevrage ou régime"
+  - dx: "{e:Maintien/Rechute}"
+    indices: "Changement établi >6 mois (maintien) OU retour au comportement antérieur (rechute) — normaliser, replanifier, 'Qu'avez-vous appris?'"
+    freq: "rechute fréquente (60-80% dans les addictions) [VÉRIFIER: données épidémiologiques rechutes tabac/alcool]"
+
+# source: SSP_EM.md lignes 392-455 (structure consultation) + lignes 64-130 (OARS)
+pec_initiale:
+  immediate:
+    - |-
+      Esprit EM (PACE) — posture de base:
+      • {r:Partenariat}: collaboration vs confrontation; "Vous êtes l'expert de votre vie"
+      • {r:Acceptation}: valeur absolue de la personne, empathie, soutien de l'autonomie
+      • {r:Compassion}: priorité aux besoins du patient, altruisme
+      • {r:Évocation}: faire émerger les motivations intrinsèques, ne pas imposer
+    - |-
+      Outils OARS (utiliser tout au long):
+      • {r:O}uvertes: "Comment voyez-vous...?", "Qu'est-ce qui vous amène...?"
+      • {r:A}ffirmations: "Je remarque votre courage...", "Vous avez déjà réussi..."
+      • {r:R}eflets: simple / complexe / double-face ("D'un côté... et d'un autre...")
+      • {r:S}ynthèses: collecte, liaison, transition avant planification
+    - |-
+      Adapter au stade Prochaska:
+      • pré-contemplation → info non menaçante, "semer le doute", ne pas pousser
+      • contemplation → balance décisionnelle, renforcer change talk
+      • préparation → plan {r:SMART} (Spécifique/Mesurable/Atteignable/Réaliste/Temporel)
+      • action/maintien → soutenir, résoudre obstacles, prévenir rechute
+    - "Méthode Demander-Fournir-Demander avant tout conseil: demander permission → info neutre → réaction du patient"
+    - "Rouler avec la résistance: reflet simple/amplifié/double-face — ne jamais confronter ou argumenter"
+  orientation:
+    - "Consultation EM unique ou courte: résumer ambivalence, laisser porte ouverte, fixer prochain RDV"
+    - "Suivi addictologique: alcool sévère, tabac avec dépendance forte ({t:Fagerström} ≥ 7), substances illicites"
+    - "Groupes de parole / soutien par les pairs: AA, tabac-info-service, groupes de marche"
+    - "Médecin traitant / équipe pluridisciplinaire: diététicien, physiothérapeute, psychologue selon comportement cible"
+
+pieges:
+  - "{s:Réflexe correcteur}: argumenter, convaincre, prescrire le changement — génère de la résistance au lieu de la réduire"
+  - "Conseils non sollicités: donner des solutions avant d'explorer la perspective du patient — viole l'esprit EM"
+  - "Questions fermées en série (interrogatoire): transforme l'entretien en anamnèse médicale classique — bloquer l'exploration"
+  - "Juger les choix ou minimiser les difficultés: 'Vous n'avez qu'à arrêter' — rupture de l'alliance thérapeutique"
+  - "Prendre la responsabilité du changement à la place du patient: 'Je vais vous aider à arrêter' — sape l'autonomie"
+
+cartes_liees:
+  - SSP-PSY-01
+  - SSP-COM-01

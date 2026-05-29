@@ -1,0 +1,170 @@
+id: SSP-COM-07
+type: ssp
+title: Situation de dépistage — contraception
+discipline: Comm
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_SD_Contraception.md
+
+# source: SSP_SD_Contraception.md + contraception pivots task brief
+anamnese:
+  socrates:
+    - |-
+      Motif de consultation:
+      • première prescription ou changement de méthode?
+      • demande spontanée ou orientée (partenaire, parent)?
+      • urgence (oubli, rapports non protégés → contraception d'urgence)?
+    - |-
+      Méthode actuelle / passée:
+      • méthode utilisée (pilule, DIU, implant, préservatif, autre)?
+      • durée et tolérance (effets secondaires, saignements, humeur)?
+      • oublis fréquents (adhérence pilule)?
+    - "Cycle menstruel: durée, régularité, dysménorrhée, métrorragies?"
+    - |-
+      Activité sexuelle:
+      • partenaires (nombre, fixité)?
+      • risque IST / dépistage récent?
+      • désir de grossesse à court, moyen, long terme?
+    - "Grossesses antérieures: nombre, terme, mode d'accouchement, IVG?"
+  specifique:
+    - |-
+      Préférences patiente:
+      • méthode réversible vs irréversible?
+      • tolérance aux hormones (sensibilité oestrogènes, progestatifs)?
+      • contrainte de prise quotidienne acceptable?
+    - "Risque thromboembolique: ATCD TVP/EP personnels ou familiaux (1er degré < 50 ans)? [VÉRIFIER: seuil familial exact pour CI COC]"
+    - |-
+      Migraine:
+      • migraine AVEC aura (CI oestrogènes → risque AVC)?
+      • migraine sans aura (acceptable sous COC avec surveillance)?
+    - "Tabagisme: nombre cigarettes/jour, âge — tabac > 10 cig/j + âge > 35 ans → CI relative COC"
+    - |-
+      Allaitement:
+      • en cours → CI oestrogènes (prolactine, passage lait)
+      • progestatifs seuls compatibles allaitement
+    - "Cadre confidentiel: adolescente (mineur)? conjugopathie? contexte de violence?"
+  atcd:
+    - |-
+      ATCD personnels cardiovasculaires:
+      • HTA (valeur si traitée) — {r:PA > 160/100} → CI COC [VÉRIFIER: seuil exact CI HTA]
+      • cardiopathie ischémique, AVC, AIT?
+    - "ATCD cancer: {p:cancer du sein} actuel ou < 5 ans → CI hormonaux → DIU cuivre seul"
+    - |-
+      ATCD gynécologiques:
+      • ATCD MST/IST, salpingite (DIU faisable mais discuter)
+      • anomalie col utérin, myome déformant cavité (CI DIU relative)
+      • hémopathie ou trouble coagulation?
+    - |-
+      Médicaments en cours:
+      • inducteurs enzymatiques (rifampicine, antiépileptiques — carbamazépine, phénytoine) → efficacité COC réduite
+      • lithium, anticoagulants
+    - |-
+      Habitudes de vie:
+      • tabac (PA, cig/j, âge)
+      • alcool, drogues
+      • exposition IST (profession, partenaires multiples)
+
+# source: contraception pivots + recommandations SSGO [VÉRIFIER: guidelines SSGO/OMS en vigueur]
+red_flags:
+  - description: "{s:ATCD TVP/EP} personnel ou {s:thrombophilie} connue (facteur V Leiden, SAPL)"
+    dx_suspecte: "{p:Risque thromboembolique veineux majeur}"
+    action: "CI absolue COC — prescrire {r:DIU cuivre ou hormonal} ou {r:progestatif seul}; avis hématologue si thrombophilie"
+  - description: "{s:Migraine avec aura} (scotomes scintillants, hémianopsie, paresthésies progressives < 60 min)"
+    dx_suspecte: "{p:Risque AVC ischémique} sous oestrogènes"
+    action: "CI absolue COC et patch/anneau oestroprogestatifs — orienter vers {r:progestatif seul ou DIU}"
+  - description: "{s:Cancer du sein} actuel ou ATCD récent (< 5 ans)"
+    dx_suspecte: "{p:Contre-indication absolue à tous les hormonaux}"
+    action: "Seul {r:DIU cuivre} non hormonal acceptable — oncologie gynécologique à impliquer"
+  - description: "{e:HTA non contrôlée} {r:> 160/100 mmHg} à la mesure du jour"
+    dx_suspecte: "{p:Risque cardiovasculaire accru sous oestrogènes}"
+    action: "CI COC — prescrire {r:DIU ou progestatif seul}; référer médecin traitant pour contrôle tensionnel"
+  - description: "{e:Tabac > 10 cig/j} + {e:âge > 35 ans}"
+    dx_suspecte: "{p:Risque thromboembolique artériel et veineux cumulé}"
+    action: "CI COC — proposer {r:DIU (cuivre ou hormonal)} ou {r:implant}; soutien sevrage tabagique"
+  - description: "Rapports non protégés < {r:120 h} + demande contraception d'urgence"
+    dx_suspecte: "{p:Risque de grossesse non désirée}"
+    action: "{r:Ulipristal 30 mg PO} 0-120 h (ou {r:lévonorgestrel 1.5 mg} 0-72 h); DIU cuivre 0-5 j si préférence; bHCG contrôle si règles absentes"
+
+# source: SSP_SD_Contraception.md + critères choix méthode
+examen:
+  general:
+    - "Mesure {r:TA aux deux bras} (CI COC si > 160/100 mmHg) — OBLIGATOIRE"
+    - "IMC (poids/taille²): obésité → renforcer info sur efficacité pilule; DIU préférable"
+    - "Inspection cutanée: {s:acné sévère} (progestatifs anti-androgènes à privilégier)"
+  cible:
+    - |-
+      Critères de choix (bilan pré-prescription):
+      • TA mesurée
+      • IMC calculé
+      • tabagisme confirmé + âge
+      • migraine avec ou sans aura précisée
+      • ATCD TVP/EP et familiaux
+    - |-
+      Si DIU envisagé:
+      • examen gynécologique (col, utérus) + frottis à jour?
+      • grossesse exclue (test si doute) [VÉRIFIER: nécessité test grossesse systématique avant DIU]
+      • dépistage Chlamydia/gonorrhée si FDR IST
+    - "Examen des seins si ATCD familial cancer sein ou anomalie signalée"
+    - "Auscultation cardio-pulmonaire si ATCD cardiovasculaire ou HTA"
+
+# source: contraception pivots — 5 méthodes principales
+dd_top5:
+  - dx: "{p:DIU cuivre (Mona Lisa, TT 380)}"
+    indices: "Réversible, non hormonal, efficacité > 99 %, durée 5-10 ans; idéal si CI hormonaux ou désir grossesse différé; aussi contraception d'urgence (0-5 j)"
+    freq: "méthode de référence longue durée"
+  - dx: "{p:DIU hormonal (Mirena / Kyleena)}"
+    indices: "Lévonorgestrel local, efficacité > 99 %, oligoménorrhée/aménorrhée (bénéfice dysménorrhée); CI si cancer sein; Kyleena = plus petit (nullipare)"
+    freq: "méthode de référence longue durée"
+  - dx: "{p:Implant sous-cutané (Nexplanon)}"
+    indices: "Étonogestrel, durée {r:3 ans}, efficacité > 99 %, pose ambulatoire; saignements irréguliers fréquents (15-20 %); CI si cancer sein"
+    freq: "fréquent chez adolescentes et nullipares"
+  - dx: "{p:Pilule oestroprogestative (COC)}"
+    indices: "Efficacité 91 % réelle (oublis), > 99 % théorique; prise quotidienne requise; CI: MTEV, migraine avec aura, cancer sein, HTA > 160/100, tabac > 35 ans; bénéfice cycle régulier, acné"
+    freq: "très fréquent (1re méthode en Suisse)"
+  - dx: "{p:Pilule progestative seule (microprogestative)}"
+    indices: "Alternative si CI oestrogènes (allaitement, migraine avec aura, tabac > 35 ans, ATCD MTEV); prise à heure fixe (± {r:3 h}); efficacité réelle 91 %; saignements irréguliers"
+    freq: "fréquent allaitement, contre-indication oestrogènes"
+
+# source: protocole décision partagée + OMS critères médicaux
+pec_initiale:
+  immediate:
+    - "Évaluer CI absolues COC avant toute prescription hormonale (MTEV, migraine aura, cancer sein, HTA > 160/100, tabac > 35 ans)"
+    - |-
+      Algorithme de choix partagé:
+      • Désir contraception longue durée réversible → {r:DIU cuivre ou hormonal} (ou implant)
+      • CI hormonaux → {r:DIU cuivre uniquement}
+      • Adhérence quotidienne acceptable + pas de CI → {r:COC} (si pas de FDR) ou {r:progestatif seul}
+      • Allaitement en cours → {r:progestatif seul ou DIU}
+    - "Préservatif: rappeler que SEULE méthode protégeant des {p:IST} — associer systématiquement si partenaires multiples ou non dépistés"
+    - "Contraception d'urgence: information systématique ({r:lévonorgestrel 1.5 mg PO} 0-72 h; {r:ulipristal 30 mg} 0-120 h; DIU cuivre 0-5 j)"
+    - "Adolescente: consultation confidentielle garantie (loi suisse), prescription possible sans accord parental"
+  orientation:
+    - "Prescription COC ou progestatif: médecin de famille ou gynécologue; renouvellement annuel avec TA + examen"
+    - "Pose DIU ou implant: gynécologue ou médecin formé; dépistage IST avant DIU si FDR"
+    - "Suspicion grossesse (β-hCG positif) ou désir grossesse: consultation obstétrique"
+    - "Contexte de violence conjugale ou sexuelle: signalement et ressources (LAVI, Planification familiale)"
+
+examens_complementaires:
+  - "{t:Mesure TA}: avant toute prescription COC — CI si > 160/100 mmHg"
+  - "{t:β-hCG urinaire ou sérique}: doute sur grossesse avant DIU ou contraception d'urgence"
+  - "{t:Dépistage Chlamydia trachomatis + Neisseria gonorrhoeae} (PCR): avant pose DIU si FDR IST [VÉRIFIER: indication systématique vs FDR uniquement]"
+  - "{t:Frottis cervical}: à jour selon calendrier cantonal (tous les 3 ans dès 21 ans en Suisse)"
+  - "{t:Bilan coagulation} (AT III, protéine C/S, facteur V Leiden): si ATCD familial TVP < 50 ans avant COC"
+
+criteres_hospitalisation:
+  - "Aucune indication d'hospitalisation dans la consultation contraception standard"
+  - "Thrombose veineuse ou artérielle aiguë sous COC → urgences vasculaires"
+  - "Grossesse extra-utérine découverte lors du bilan → gynécologie urgente"
+
+pieges:
+  - "Oublier de mesurer la TA avant prescription COC — piège classique en consultation rapide"
+  - "Confondre migraine AVEC aura (CI COC → risque AVC) et migraine SANS aura (COC acceptable sous surveillance)"
+  - "Prescrire COC à une patiente allaitante — CI oestrogènes (inhibition lactation + passage lait); progestatif seul ou DIU"
+  - "Ne pas proposer le préservatif en complément: aucune contraception hormonale/DIU ne protège des IST"
+  - "Négliger l'information sur contraception d'urgence — à donner systématiquement y compris aux patientes sous contraception régulière (risque oubli)"
+
+cartes_liees:
+  - SYS-GYN
+  - SSP-COM-08
