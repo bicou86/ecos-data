@@ -85,7 +85,10 @@ red_flags:
     action: "AVC pathway immédiat: {t:IRM/CT cérébral STAT}; anticoagulation en urgence discutée avec neuro"
   - description: "{s:Insuffisance cardiaque aiguë} (dyspnée sévère, crépitants, SpO2 < 92%) avec FA rapide"
     dx_suspecte: "{p:Décompensation cardiaque sur FA rapide}"
-    action: "Contrôle freq {r:urgent (β-bloquant ou digoxine IV)} + {r:diurétiques IV}; hospitalisation en urgence"
+    action: "Contrôle freq {r:urgent (β-bloquant ou digoxine IV, APRÈS exclusion d'une pré-excitation)} + {r:diurétiques IV}; hospitalisation en urgence"
+  - description: "{s:FA à QRS larges, irréguliers, polymorphes}, fréquence très rapide (> 200/min), ECG de pré-excitation connu"
+    dx_suspecte: "{p:FA pré-excitée (WPW)} — risque de dégénérescence en {p:fibrillation ventriculaire}"
+    action: "JAMAIS de {r:β-bloquant / digoxine / vérapamil / diltiazem / adénosine} (accélèrent la voie accessoire → FV); {r:cardioversion électrique} si instable, sinon {r:procaïnamide} (ou amiodarone) ; avis cardiologique urgent"
   - description: "{s:Douleur de membre} + abolition de pouls périphérique (pâleur, froideur, paralysie)"
     dx_suspecte: "{p:Embolie artérielle périphérique (thrombus OG)}"
     action: "Chirurgie vasculaire urgente (embolectomie); {t:écho-doppler} membres; anticoagulation IV"
@@ -125,7 +128,7 @@ examens_complementaires:
   - "{t:Ionogramme + créatinine}: K+ et Mg2+ (maintien FA si troubles); clairance créatinine (ajustement AOD)"
   - "{t:Troponines}: si douleur thoracique associée (SCA, myocardite)"
   - "{t:Échocardiographie transthoracique}: fonction VG (FE), dilatation OG, valvulopathies, thrombus, HTAP"
-  - "{t:Holter ECG / ETO}: FA paroxystique suspectée (Holter) ou cardioversion si FA > 48 h (ETO — thrombus auricule G) [VÉRIFIER:délai 48h pour ETO avant cardioversion — protocole local CHUV/HUG]"
+  - "{t:Holter ECG / ETO}: FA paroxystique suspectée (Holter) ou cardioversion si FA > 48 h (ETO — thrombus auricule G)"
 
 # source: line 516-525 (pièges), pivots FA-specific
 dd_top5:
@@ -160,13 +163,13 @@ pec_initiale:
       • {r:Inhibiteurs calciques non-DHP}: vérapamil ou diltiazem 120-360 mg/j (CI: IC sévère)
       • {r:Digoxine}: 0,125-0,25 mg/j (3e ligne; surveiller digoxinémie)
     - |-
-      5. Anticoagulation ({t:CHA2DS2-VASc} ≥ 2 hommes / ≥ 3 femmes):
+      5. Anticoagulation ({t:CHA2DS2-VASc} ≥ 2 hommes / ≥ 3 femmes ; ESC 2024 : {t:CHA2DS2-VA} ≥ 2, sexe retiré):
       • {r:AOD 1ère ligne} (sauf valve mécanique / sténose mitrale rhumatismale):
         - apixaban {r:5 mg ×2/j} (réduction {r:2,5 mg ×2/j} si ≥ 2: âge ≥80, poids ≤60 kg, créat ≥133 µmol/L)
         - rivaroxaban {r:20 mg/j} avec repas (réduction 15 mg/j si ClCr 30-50)
         - dabigatran {r:150 mg ×2/j} (antidote: idarucizumab — réduction 110 mg si âge ≥80)
       • {r:AVK (INR 2-3)}: valves mécaniques, syndrome APL, grossesse CI
-    - "6. Cardioversion (contrôle du rythme): urgente si instable; programmée si FA > 48 h → anticoagulation {r:≥ 3 semaines} ou ETO préalable; pharmacologique: flécaïnide {r:1,5-3 mg/kg IV} (cœur normal) ou amiodarone {r:5-10 mg/kg IV} (cardiopathie) [VÉRIFIER:protocole flécaïnide IV institutionnel]"
+    - "6. Cardioversion (contrôle du rythme): urgente si instable; programmée si FA > 48 h → anticoagulation {r:≥ 3 semaines AVANT + ≥ 4 semaines APRÈS} ou ETO préalable (exclure thrombus), puis anticoagulation au long cours selon score; pharmacologique: flécaïnide {r:2 mg/kg IV (max 150 mg)} (cœur sain) ou amiodarone {r:5-10 mg/kg IV} (cardiopathie) (protocole local: flécaïnide IV)"
     - "7. Traitement étiologique: hyperthyroïdie → antithyroïdiens; SAOS → CPAP; alcool → sevrage; corrections ioniques K+/Mg2+"
   orientation:
     - "Urgences / USI: FA instable hémodynamiquement (cardioversion urgente), FA + SCA, FA + AVC, FA + IC aiguë sévère"

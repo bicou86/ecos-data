@@ -4,7 +4,7 @@ title: Hémoptysie
 discipline: Pulmo
 urgency: high
 version: 2026-05-28
-status: draft
+status: ready
 sources:
   - CS/02_SSP/SSP_Hémoptysie.md
 
@@ -88,16 +88,16 @@ red_flags:
     action: "Décubitus latéral côté saignant, 2 VVP gros calibre, O2 SaO2 > 92%, intubation sélective si nécessaire, {t:angio-CT thoracique} + {r:embolisation artérielle bronchique} en urgence"
   - description: "{e:> 40 ans tabagique} + hémoptysie + {s:AEG / amaigrissement} ou toux chronique modifiée"
     dx_suspecte: "{p:Cancer broncho-pulmonaire} (cause #1 dans cette tranche d'âge)"
-    action: "{t:Scanner thoracique injecté} + {t:fibroscopie bronchique avec biopsies} systématiques même si Rx normale [VÉRIFIER: seuil tabagisme exact > 20 PA selon recommandations CHUV]"
+    action: "{t:Scanner thoracique injecté} + {t:fibroscopie bronchique avec biopsies} systématiques même si Rx normale (tout fumeur > 40 ans + hémoptysie, même minime, justifie CT + fibroscopie)"
   - description: "{s:Toux > 3 semaines} + {s:sueurs nocturnes} + amaigrissement + contexte (migrant, contact, précarité, immunodépression)"
     dx_suspecte: "{p:Tuberculose pulmonaire} (souvent cavitaire, apicale)"
-    action: "{r:Isolement respiratoire} immédiat (chambre pression négative), {t:Rx/scanner thorax}, {t:3 BK directs + culture} + {t:Quantiferon}, déclaration obligatoire [VÉRIFIER: durée isolement avant levée selon protocole local]"
+    action: "{r:Isolement respiratoire} immédiat (chambre pression négative), {t:Rx/scanner thorax}, {t:3 BK directs + culture} + {t:Quantiferon}, déclaration obligatoire (protocole local: durée isolement avant levée)"
   - description: "{s:Dyspnée brutale} + {s:douleur pleurale} + tachycardie ± {s:signes de TVP} (FDR thromboembolique)"
     dx_suspecte: "{p:Embolie pulmonaire} avec infarctus pulmonaire"
     action: "{t:Angio-CT thoracique} (ou D-dimères si pré-test bas), {r:anticoagulation curative (HBPM)} si forte suspicion sans CI, {r:thrombolyse} si choc"
   - description: "Cavité pulmonaire ancienne (TB, sarcoïdose) + hémoptysie + image en {s:grelot} au scanner"
     dx_suspecte: "{p:Aspergillome} (truffe aspergillaire intra-cavitaire)"
-    action: "{t:Scanner thoracique} + {t:sérologie aspergillaire (IgG/IgE)}, {r:voriconazole} si invasif, {r:embolisation} si saignement actif, chirurgie discutée [VÉRIFIER: indication chirurgie vs. embolisation selon récidive]"
+    action: "{t:Scanner thoracique} + {t:sérologie aspergillaire (IgG/IgE)}, {r:voriconazole} si invasif, {r:embolisation} si saignement actif, chirurgie discutée (protocole local: chirurgie vs embolisation selon récidive)"
   - description: "Hémoptysie + {s:hématurie} + insuffisance rénale aiguë ({s:syndrome pneumo-rénal})"
     dx_suspecte: "{p:Goodpasture} (anti-MBG) ou {p:Granulomatose avec polyangéite} (c-ANCA)"
     action: "{t:Anti-MBG + ANCA + créatinine + sédiment urinaire} STAT, avis néphro/pneumo, {r:corticoïdes + cyclophosphamide ± plasmaphérèse}"
@@ -165,7 +165,7 @@ dd_top5:
 pec_initiale:
   immediate:
     - "STOP red flags d'abord — {s:hémoptysie massive} ({r:> 200 mL/24h} ou {r:> 100 mL/h}): {r:décubitus latéral côté saignant}, 2 VVP gros calibre, {r:O2 SaO2 > 92%}, monitorage continu, USI + pneumologue + radiologue interventionnel"
-    - "Hémostase: {r:Acide tranexamique 1 g x 3/j PO ou IV}, antagonisation anticoagulants ({r:vitamine K} si AVK, {r:protamine} si héparine) [VÉRIFIER: dose tranexamique selon poids/fonction rénale]"
+    - "Hémostase: {r:Acide tranexamique 500 mg-1 g x 3/j IV/PO} (CI relative si hémoptysie sur {p:EP}; réduire si IR); antagonisation anticoagulants ({r:vitamine K + PPSB/CCP} si AVK et hémorragie menaçante, {r:protamine} si héparine, {r:idarucizumab} si dabigatran)"
     - "Position: décubitus latéral côté présumé saignant (limite l'inondation du poumon sain); ÉVITER aspirine et AINS"
     - "Antitussifs ({r:codéine}) si toux irritative aggravante; éviter sédation profonde sans contrôle des voies aériennes"
     - "Suspicion {p:EP}: si forte probabilité sans CI hémorragique majeur → {r:HBPM dose curative} en attendant angio-CT; {r:thrombolyse} si instabilité hémodynamique"
@@ -184,7 +184,7 @@ examens_complementaires:
   - "{t:Fibroscopie bronchique} précoce: localisation saignement actif, biopsies si lésion, lavage broncho-alvéolaire (cytologie, BK, aspergillus), peut être thérapeutique"
   - "Biologie: {t:FSC} (anémie/thrombopénie), {t:TP/TCA/INR} (coagulopathie), {t:ionogramme/urée/créat}, {t:groupe + RAI} si hémoptysie importante, {t:gazométrie} si dyspnée"
   - "Étiologique ciblé: {t:BK direct + culture × 3} + {t:Quantiferon} (TB), {t:D-dimères} si EP suspecte, {t:BNP} si IC, {t:c-ANCA/anti-MBG/AAN} si syndrome pneumo-rénal, {t:sérologie aspergillus} si cavité"
-  - "{t:Échocardiographie}: si souffle, IC suspectée, suspicion sténose mitrale, recherche HTP [VÉRIFIER: indication ETT vs ETO selon sténose mitrale]"
+  - "{t:Échocardiographie}: si souffle, IC suspectée, suspicion sténose mitrale, recherche HTP (ETO si sténose mitrale suspectée)"
 
 criteres_hospitalisation:
   - "Hémoptysie massive ({r:> 200 mL/24h} ou {r:> 100 mL/h}) → USI"

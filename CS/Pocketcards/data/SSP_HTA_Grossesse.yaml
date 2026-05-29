@@ -4,7 +4,7 @@ title: HTA et grossesse
 discipline: Gyneco
 urgency: high
 version: 2026-05-28
-status: draft
+status: ready
 sources:
   - CS/02_SSP/SSP_HTA_Grossesse.md
 
@@ -97,10 +97,10 @@ examen:
 red_flags:
   - description: "{s:Convulsion tonico-clonique} chez femme enceinte {e:≥ 20 SA} ou post-partum < 6 sem"
     dx_suspecte: "{p:Éclampsie}"
-    action: "{r:Sulfate de magnésium IV 4-6 g bolus en 20 min puis 1-2 g/h}; PLS, libération VAS, O2; nicardipine IV si HTA sévère; extraction urgente après stabilisation"
+    action: "{r:Sulfate de magnésium IV 4 g (jusqu'à 6 g) en 15-20 min puis 1 g/h (max 2 g/h)}; PLS, libération VAS, O2; nicardipine IV si HTA sévère; extraction urgente après stabilisation"
   - description: "{s:Barre épigastrique} + {t:thrombopénie < 100 000} + {t:ASAT/ALAT > 2N} ± hémolyse (LDH ↑)"
     dx_suspecte: "{p:HELLP syndrome}"
-    action: "Bilan complet ({t:NFS, hémolyse, hépatique, hémostase}); {r:sulfate de magnésium} + USI; extraction urgente quel que soit le terme [VÉRIFIER:seuil exact extraction vs expectative selon CHUV/HUG]"
+    action: "Bilan complet ({t:NFS, hémolyse, hépatique, hémostase}); {r:sulfate de magnésium} + USI; extraction urgente quel que soit le terme (protocole local: seuil extraction vs expectative)"
   - description: "{s:TA ≥ 160/110} confirmée + protéinurie ou signes de gravité"
     dx_suspecte: "{p:Pré-éclampsie sévère}"
     action: "{r:Nicardipine IV 1-5 mg/h IVSE} (objectif baisse 25 % en 1 h, PAS 140-155); {r:sulfate de magnésium}; corticoïdes si 24-34 SA; extraction selon terme"
@@ -109,7 +109,7 @@ red_flags:
     action: "{r:Sulfate de magnésium IV} prophylactique IMMÉDIAT (4 g charge + 1-2 g/h); contrôle TA; hospitalisation USI"
   - description: "{s:RCIU sévère < 5e percentile} + Doppler ombilical pathologique (diastole inversée) ± oligoamnios"
     dx_suspecte: "{p:Souffrance fœtale chronique} sur insuffisance placentaire"
-    action: "{r:Corticoïdes} (bétaméthasone 12 mg IM ×2/24 h) si 24-34 SA; extraction selon Doppler + RCF [VÉRIFIER:délai exact extraction après corticoïdes]"
+    action: "{r:Corticoïdes} (bétaméthasone 12 mg IM ×2 à 24 h) si 24-34+6 SA; extraction selon Doppler + RCF (protocole local: délai extraction post-corticoïdes)"
   - description: "{s:HTA non contrôlée} malgré bithérapie IV OU {p:OAP} OU {s:oligurie < 500 ml/24 h} OU créat ↑"
     dx_suspecte: "{p:Pré-éclampsie compliquée} (défaillance d'organe)"
     action: "Extraction urgente quel que soit le terme; {r:sulfate de magnésium}; transfert maternité {r:type III}; USI"
@@ -126,7 +126,7 @@ dd_top5:
     indices: "HTA {e:< 20 SA} ou connue avant grossesse; persiste > 12 sem post-partum; risque PE surajoutée si aggravation + protéinurie nouvelle"
     freq: "1-5 % des grossesses"
   - dx: "{p:HELLP syndrome}"
-    indices: "Hémolyse (LDH > 600, schizocytes, haptoglobine ↓) + ASAT > 70 + plaquettes < 100 000; barre épigastrique +++, nausées; peut survenir SANS HTA marquée (20 %) [VÉRIFIER:fréquence HELLP atypique sans HTA]"
+    indices: "Hémolyse (LDH > 600, schizocytes, haptoglobine ↓) + ASAT > 70 + plaquettes < 100 000; barre épigastrique +++, nausées; peut survenir SANS HTA marquée (~15-20 %, estimation)"
     freq: "10-20 % des PE sévères"
   - dx: "{p:Éclampsie}"
     indices: "Convulsions tonico-cloniques généralisées en grossesse ≥ 20 SA ou post-partum (jusqu'à 6 sem); 25 % surviennent en post-partum; précédée parfois de céphalées/troubles visuels/épigastralgies"
@@ -136,11 +136,11 @@ dd_top5:
 pec_initiale:
   immediate:
     - "STOP red flags d'abord: tout signe de gravité → bilan + sulfate magnésium + nicardipine IV AVANT toute imagerie élective"
-    - "{p:Éclampsie} active: PLS, libération VAS, O2, {r:sulfate de magnésium 4-6 g IV en 20 min puis 1-2 g/h IVSE 24-48 h}; pas de diazépam en 1re intention"
+    - "{p:Éclampsie} active: PLS, libération VAS, O2, {r:sulfate de magnésium 4 g (jusqu'à 6 g) IV en 15-20 min puis 1 g/h (max 2 g/h) IVSE 24-48 h}; pas de diazépam en 1re intention"
     - "{p:PE sévère}: {r:nicardipine IV 1-5 mg/h} (objectif baisse 25 % en 1 h, PAS cible 140-155, PAD 90-105); {r:labétalol IV 20 mg puis 40-80 mg/10 min} en alternative"
     - "PE non sévère: {r:méthyldopa 250-500 mg PO ×2-3/j} (1re ligne), {r:labétalol 100-200 mg PO ×2-3/j} ou {r:nifédipine LP 20 mg ×2/j}"
     - "Prévention éclampsie: {r:sulfate de magnésium IV} si PE sévère, HELLP, signes neurologiques; surveillance ROT/FR/diurèse; antidote = {r:gluconate de calcium 10 % 10 ml IV} si surdosage"
-    - "Corticoïdes si {e:24-34 SA}: {r:bétaméthasone 12 mg IM ×2 à 24 h} (maturation pulmonaire) [VÉRIFIER:fenêtre exacte 24-34 SA ou 24-34+6 selon CNGOF]"
+    - "Corticoïdes si {e:24-34+6 SA}: {r:bétaméthasone 12 mg IM ×2 à 24 h} (maturation pulmonaire)"
     - "CONTRE-INDIQUÉS: {r:IEC/ARA2} (malformations rénales fœtales), {r:aténolol} (RCIU), {r:diurétiques} (hypovolémie sauf OAP)"
   orientation:
     - "Maternité {r:type III} (réa néonat + adulte): PE sévère, HELLP, éclampsie, < 34 SA"
@@ -168,7 +168,7 @@ criteres_hospitalisation:
 
 # source: line 215-219, 336-341
 pieges:
-  - "Sous-estimer une {p:PE sévère} SANS protéinurie marquée: les signes de gravité (neuro, épigastrique, thrombopénie, cytolyse) suffisent au diagnostic [VÉRIFIER:critères ISSHP 2022 vs ACOG]"
+  - "Sous-estimer une {p:PE sévère} SANS protéinurie marquée: les signes de gravité (neuro, épigastrique, thrombopénie, cytolyse) suffisent au diagnostic (critères ISSHP/ACOG)"
   - "Baisser trop rapidement la TA → {s:hypoperfusion placentaire} et souffrance fœtale; objectif PAS 140-155, baisse progressive 25 % en 1 h"
   - "Prescrire {r:IEC/ARA2}, aténolol ou diurétiques: tératogènes ou délétères (RCIU, hypovolémie)"
   - "Négliger la surveillance {e:post-partum} 48-72 h: 25 % des éclampsies et le pic HELLP (J2-J3) surviennent APRÈS l'accouchement"
