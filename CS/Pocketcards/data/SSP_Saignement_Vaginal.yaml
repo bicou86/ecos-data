@@ -1,0 +1,212 @@
+id: SSP-GYN-10
+type: ssp
+title: Saignement vaginal
+discipline: Gyneco
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Saignement_Vaginal.md
+
+# source: MD line 11-50
+anamnese:
+  socrates:
+    - |-
+      Site / origine:
+      • endo-utérin (métrorragies/ménorragies)
+      • col (post-coïtal, ectropion, polype, cancer)
+      • vagin/vulve (atrophie, déchirure, lésion)
+    - |-
+      Onset:
+      • brutal + douleur + βHCG+ → {p:GEU rompue}
+      • brutal au 3e trimestre → {p:HRP} / {p:placenta prævia}
+      • progressif (fibrome, polype, cancer, atrophie)
+    - "Character: sang rouge vif (actif), sang noir/caillots (ancien), spotting brun, présence/taille de caillots"
+    - "Radiation: scapulalgie ({s:irritation phrénique = hémopéritoine — GEU rompue}), douleur lombaire (HRP)"
+    - |-
+      Time:
+      • {s:DDR}, cyclicité, durée des règles habituelles
+      • {s:ménorragies} > 7 j ou {s:Score de Higham > 100}
+      • {s:métrorragies} (entre règles) vs {s:ménométrorragies}
+      • spotting / post-coïtal / post-ménopausique
+    - |-
+      Exacerbating:
+      • rapports sexuels ({s:saignement post-coïtal} → col/cancer)
+      • effort, traumatisme
+      • oubli pilule, changement contraception, THS récent
+    - "Relieving: réponse aux antifibrinolytiques, contraception hormonale, repos?"
+    - |-
+      Severity / quantification:
+      • {r:protections saturées en < 2 h}, débordements nocturnes
+      • caillots > 2 cm
+      • {r:Score de Higham > 100} = ménorragies
+      • impact (asthénie, absentéisme, vie sociale)
+  specifique:
+    - "Question CLÉ d'emblée: 'Pourriez-vous être enceinte? DDR?' — {t:βHCG} systématique chez toute femme en âge de procréer"
+    - |-
+      Signes d'anémie aiguë/chronique:
+      • {s:asthénie progressive, dyspnée d'effort, palpitations}
+      • {s:vertiges, malaises, pâleur} (choc hémorragique imminent)
+      • {s:céphalées}
+    - |-
+      Si {e:grossesse connue/possible}:
+      • 1er trimestre: {p:GEU}, {p:fausse couche}, {p:môle hydatiforme}
+      • 2e-3e trimestre: {p:placenta prævia} (sang rouge indolore), {p:HRP} (sang noir + contracture + choc)
+      • post-partum: {p:hémorragie de la délivrance} > 500 mL voie basse / > 1000 mL césarienne → 4T (Tonus, Trauma, Tissu, Thrombine)
+    - |-
+      Symptômes endocriniens / FdR cancer:
+      • {s:galactorrhée} (hyperprolactinémie), {s:hirsutisme} (SOPK)
+      • bouffées de chaleur (péri/post-ménopause)
+      • {s:amaigrissement, AEG} → suspicion néoplasie
+    - "Signes associés gynéco: {s:douleurs pelviennes}, {s:dyspareunie}, {s:leucorrhées} purulentes (MIP), {s:masse pelvienne}"
+    - "Saignements extragénitaux (ecchymoses, épistaxis, gencives) + ATCD familiaux → {p:Willebrand}, thrombopénie"
+  atcd:
+    - |-
+      Histoire menstruelle / contraception:
+      • ménarche, cycles habituels, DDR
+      • {e:contraception actuelle}: pilule, DIU cuivre (↑ flux), DIU LNG, implant, observance, oublis
+      • {e:THS} et équilibre
+    - |-
+      ATCD obstétricaux:
+      • parité, gestité, IVG, fausses couches
+      • {p:GEU antérieure} (↑ récidive ~10-15 %)
+      • frottis / HPV / colposcopie à jour?
+    - |-
+      ATCD gynécologiques:
+      • fibromes, polypes, endométriose, IST/MIP
+      • chirurgie pelvienne (myomectomie, césarienne → placenta accreta)
+    - |-
+      ATCD médicaux:
+      • {p:troubles coagulation} ({p:Willebrand} si depuis ménarche)
+      • pathologies thyroïdiennes, hyperprolactinémie
+      • hépatopathie/IRC (coagulopathie)
+      • {r:anticoagulants/AAP/AINS/corticoïdes/tamoxifène/psychotropes}
+    - |-
+      ATCD familiaux / FdR cancer endomètre:
+      • {p:Syndrome de Lynch}, cancer sein/colon/endomètre
+      • obésité (IMC > 30), nulliparité, ménopause tardive > 55 ans, SOPK, diabète, HTA, tamoxifène
+
+# source: MD line 19, 65, 86, 167, 280 + clinical pivots
+red_flags:
+  - description: "{s:Saignement + douleur pelvienne latéralisée + βHCG positive} ± aménorrhée 6-8 sem ± scapulalgie/malaise"
+    dx_suspecte: "{p:GEU} (rompue si signes de choc)"
+    action: "VVP × 2, NFS/groupe/RAI/crase, {t:βHCG quantitative + écho endovaginale} STAT; si rompue → {r:cœlioscopie/laparotomie en urgence + anti-D si Rh-} [VÉRIFIER: seuil βHCG discriminant 1500-2000 UI/L selon protocole local]"
+  - description: "{e:3e trimestre} + {s:saignement rouge indolore} + utérus souple"
+    dx_suspecte: "{p:Placenta prævia}"
+    action: "Hospitalisation immédiate, {t:écho obstétricale} (PAS de TV avant écho!), CTG, NFS/groupe/RAI; {r:césarienne en urgence} si saignement massif ou souffrance fœtale"
+  - description: "{e:3e trimestre} + {s:sang noirâtre} + {s:contracture utérine douloureuse} ± choc maternel ± souffrance fœtale"
+    dx_suspecte: "{p:Hématome rétro-placentaire (HRP)}"
+    action: "{r:Césarienne en extrême urgence}, réanimation maternelle (CGR, fibrinogène, surveillance CIVD), anti-D si Rh-"
+  - description: "{e:Post-partum} + {s:saignement > 500 mL voie basse} (> 1000 mL césarienne) dans les 24 h"
+    dx_suspecte: "{p:Hémorragie de la délivrance} (4T: Tonus, Trauma, Tissu, Thrombine)"
+    action: "Massage utérin + sondage vésical + {r:oxytocine 5-10 UI IV puis perfusion}; révision utérine; si échec → {r:sulprostone 500 µg/h IV} + ballonnet de Bakri ± embolisation/hystérectomie d'hémostase [VÉRIFIER: protocole CHUV/HUG]"
+  - description: "{e:Post-ménopause (> 1 an aménorrhée)} + tout saignement vaginal, même minime"
+    dx_suspecte: "{p:Cancer de l'endomètre} jusqu'à preuve du contraire"
+    action: "{t:Écho endovaginale} (endomètre > 4 mm = pathologique) + {t:biopsie d'endomètre (Pipelle)} + {t:hystéroscopie diagnostique} EN URGENCE [VÉRIFIER: seuil 4 mm vs 5 mm selon source]"
+  - description: "{s:Hémorragie active abondante} + {s:instabilité hémodynamique} (TA < 90, FC > 110, Hb < 7 g/dL)"
+    dx_suspecte: "Choc hémorragique d'origine génitale (GEU rompue, HRP, hémorragie délivrance, fibrome hémorragique)"
+    action: "Réanimation: VVP × 2, {r:cristalloïdes 500 mL bolus + CGR si Hb < 7, PFC/fibrinogène}, {r:œstrogènes conjugués 25 mg IV/4-6 h} si étiologie utérine confirmée, transfert bloc opératoire"
+  - description: "Adolescente avec ménorragies sévères {e:depuis la ménarche} ± ecchymoses ± ATCD familiaux de saignement"
+    dx_suspecte: "{p:Maladie de Willebrand} ou autre coagulopathie"
+    action: "NFS/plaquettes/TP/TCA/{t:facteur Willebrand + facteur VIII}; {r:acide tranexamique 1 g × 3-4/j PO pendant règles}; avis hémato"
+
+# source: MD line 171-213
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: TA (couché + debout — hypoTA orthostatique = hémorragie active), FC, T°, FR, SpO2"
+    - "{s:Pâleur cutanéo-muqueuse, marbrures, sueurs, TRC allongé} → choc hémorragique"
+    - "IMC (obésité = FdR cancer endomètre), AEG, état nutritionnel"
+    - "{t:βHCG urinaire IMMÉDIATE} au triage si femme en âge de procréer + bandelette urinaire"
+  cible:
+    - |-
+      Examen abdominal:
+      • {s:utérus gravide} palpable (grossesse > 12 SA)
+      • {s:masse pelvienne} (fibrome, kyste, tumeur)
+      • {s:défense/contracture} (hémopéritoine GEU rompue)
+      • {s:contracture utérine permanente} 3e trimestre = HRP
+    - |-
+      Examen au {t:spéculum} — ESSENTIEL pour origine du saignement:
+      • origine: col vs vagin vs endo-utérin (sang sortant de l'orifice cervical)
+      • col: ectropion, polype, lésion bourgeonnante (cancer), saignement au contact
+      • vagin: atrophie, déchirure, corps étranger
+      • {t:frottis cervical} ± biopsie si lésion visible
+    - |-
+      {t:Toucher vaginal bimanuel} (CI si placenta prævia suspecté !):
+      • utérus: taille (augmenté = fibromes/adénomyose/grossesse), consistance, mobilité, sensibilité
+      • annexes: masses (kyste, GEU), sensibilité
+      • {s:douleur à la mobilisation utérine} (MIP, GEU)
+      • {s:bombement du cul-de-sac de Douglas} (hémopéritoine)
+    - |-
+      Signes endocriniens:
+      • {s:goitre/nodules thyroïdiens}
+      • {s:galactorrhée} (expression mamelonnaire)
+      • {s:hirsutisme} (score Ferriman-Gallwey > 8)
+      • {s:acanthosis nigricans} (insulinorésistance/SOPK)
+    - "Recherche {s:purpura, ecchymoses spontanées, épistaxis} (coagulopathie)"
+
+# source: MD line 54-92, clinical pivots
+dd_top5:
+  - dx: "{p:Grossesse extra-utérine (GEU)}"
+    indices: "{s:Aménorrhée 6-8 sem + métrorragies brunâtres/noirâtres + douleur latéralisée}; βHCG positive + absence de sac intra-utérin à l'écho (> 1500-2000 UI/L); FdR: ATCD GEU, salpingite, DIU, tabac, PMA; rupture = hémopéritoine, choc"
+    freq: "1-2 % des grossesses; URGENCE VITALE"
+  - dx: "{p:Fausse couche spontanée (FCS)}"
+    indices: "1er trimestre, métrorragies rouge vif ± caillots ± débris, douleurs pelviennes type contractions; col ouvert (FCS en cours); écho: sac vide, absence d'activité cardiaque, hématome décidual; βHCG en baisse"
+    freq: "très fréquent: 15-20 % des grossesses cliniques"
+  - dx: "{p:Hémorragie de la délivrance / hémorragie du post-partum}"
+    indices: "Post-partum (< 24 h: précoce; 24 h-12 sem: tardive); saignement > 500 mL voie basse ou > 1000 mL césarienne; 4T: Tonus (atonie 70 %), Trauma (déchirure), Tissu (rétention), Thrombine (coagulopathie/CIVD)"
+    freq: "1ère cause de mortalité maternelle (5-15 %) [VÉRIFIER: chiffre selon registre suisse]"
+  - dx: "{p:Cancer de l'endomètre}"
+    indices: "Femme {e:post-ménopausée} (> 90 %); métrorragies indolores, parfois purulentes; FdR: obésité, nulliparité, SOPK, Lynch, tamoxifène; {t:écho endovaginale} (endomètre > 4 mm) + {t:biopsie}; type 1 endométrioïde (bon px) vs type 2 séreux (mauvais px)"
+    freq: "1er cancer gynécologique en Suisse; 1 cas pour 100 saignements post-ménopausiques"
+  - dx: "{p:Saignements utérins fonctionnels / fibrome / adénomyose}"
+    indices: "Femme en activité génitale; ménorragies/ménométrorragies cycliques; utérus augmenté à TV (fibrome) ou globuleux sensible (adénomyose); écho: myomes (siège FIGO), zone jonctionnelle épaissie; PALM-COEIN (PALM = Polype/Adénomyose/Leiomyome/Malignité; COEIN = Coagulopathie/Ovulation/Endomètre/Iatrogène/Non-classé)"
+    freq: "très fréquent (10-30 % des femmes en âge procréer)"
+
+# source: MD line 219-292
+pec_initiale:
+  immediate:
+    - "{t:βHCG urinaire ou sanguine quantitative} chez TOUTE femme en âge de procréer — règle d'or AVANT toute imagerie/médicament"
+    - "Évaluer tolérance: TA, FC, Hb capillaire; VVP × 2 + remplissage cristalloïdes si choc, NFS/groupe/RAI/crase, {r:CGR si Hb < 7 g/dL} (ou < 9 si mal toléré)"
+    - "{p:GEU non rompue}: {r:méthotrexate 50 mg/m² IM} si critères stricts (βHCG < 5000 UI/L, masse < 4 cm, pas d'activité cardiaque, stable, observance) OU {r:cœlioscopie} (salpingotomie/salpingectomie); {r:anti-D 200 µg IM} si Rh- [VÉRIFIER: seuil 250 vs 300 µg selon protocole]"
+    - "{p:GEU rompue / hémopéritoine}: réanimation + {r:cœlioscopie/laparotomie en extrême urgence}"
+    - "{p:Placenta prævia} 3e trimestre: hospitalisation + écho (PAS de TV!) + CTG + {r:césarienne} si saignement massif ou MAP; corticothérapie maturative si < 34 SA"
+    - "{p:HRP}: {r:césarienne en extrême urgence} + réanimation maternelle (PFC, fibrinogène, surveillance CIVD)"
+    - "{p:Hémorragie de la délivrance}: massage utérin + vidange vésicale + {r:oxytocine 5-10 UI IV bolus puis 20 UI/500 mL}; révision utérine; si échec → {r:sulprostone 500 µg/h IV} + ballonnet Bakri; ultime: ligature/embolisation/hystérectomie [VÉRIFIER: posologie sulprostone selon protocole CHUV/HUG]"
+    - "Hémorragie active non gravidique sévère: {r:œstrogènes conjugués 25 mg IV/4-6 h} ou {r:pilule œstroprogestative 3 cp/j × 7 j} puis décroissance; {r:acide tranexamique 1 g × 3-4/j} (max 5 j)"
+    - "Post-ménopause: aucun traitement avant {t:écho endovaginale + biopsie}; suspicion cancer → consultation gynéco-onco rapide"
+  orientation:
+    - "Bloc opératoire d'emblée: GEU rompue, HRP, placenta prævia hémorragique, hémorragie délivrance réfractaire, choc hémorragique"
+    - "Hospitalisation gynéco/obstétrique: GEU non rompue, placenta prævia stable, FCS hémorragique, hémorragie active non contrôlée, anémie sévère mal tolérée"
+    - "Consultation gynéco rapide (< 1 sem): tout saignement post-ménopausique, suspicion cancer endomètre/col, fibrome symptomatique, hyperplasie atypique"
+    - "Ambulatoire: ménorragies fonctionnelles tolérées, adolescente bilan coag prévu, péri-ménopause sans red flag — contrôle 3 mois"
+    - "Consignes de retour aux urgences: saignement abondant (> 1 protection/h), malaise/lipothymie, fièvre, douleur intense, signes de choc"
+
+# source: MD line 219-275 + clinical pivots
+examens_complementaires:
+  - "{t:βHCG urinaire/sanguine quantitative}: 1ère étape obligatoire femme en âge de procréer; cinétique × 2 / 48 h (évolutive intra-utérine vs plateau = GEU)"
+  - "{t:Échographie pelvienne endovaginale + sus-pubienne} ± Doppler: utérus, ovaires, sac gestationnel, épaisseur endométriale (seuil 4 mm post-ménopause, 12 mm pré-ménopause), Douglas"
+  - "{t:NFS, ferritine, TP/TCA/fibrinogène, groupe/Rh/RAI}: retentissement + bilan préop + dépistage coagulopathie; {t:facteur Willebrand + VIII} si adolescente ménorragique depuis ménarche"
+  - "{t:Biopsie d'endomètre (Pipelle de Cornier)} ± {t:hystéroscopie diagnostique avec biopsies dirigées}: GOLD STANDARD si > 40 ans, post-ménopause, échec traitement médical, endomètre épais"
+  - "{t:Bilan hormonal} (FSH, LH, œstradiol J3, TSH, prolactine, testostérone si hirsutisme): cycles irréguliers, suspicion SOPK/hyperprolactinémie/dysthyroïdie"
+  - "{t:Frottis cervico-vaginal + colposcopie + biopsies cervicales}: lésion col au spéculum, saignement post-coïtal, dépistage non à jour"
+
+# source: MD line 380-385
+criteres_hospitalisation:
+  - "Urgences obstétricales: {p:GEU rompue}, {p:HRP}, {p:placenta prævia} hémorragique, {p:hémorragie de la délivrance}"
+  - "{s:Instabilité hémodynamique} (TA < 90, FC > 110) ou {s:anémie sévère} (Hb < 7) mal tolérée"
+  - "Hémorragie active abondante non contrôlée par traitement ambulatoire"
+  - "Grossesse compliquée nécessitant surveillance (placenta prævia stable, menace FCS tardive)"
+  - "Suspicion cancer endomètre/col avec saignement actif nécessitant exploration urgente"
+
+# source: MD line 398-403 + clinical pivots
+pieges:
+  - "Oublier le {t:βHCG} chez toute femme en âge de procréer — règle absolue avant toute imagerie irradiante ou médicament (méconnaître {p:GEU} = catastrophe)"
+  - "Sous-estimer une {p:GEU rompue}: {s:douleur de l'épaule (scapulalgie)} = sang sous-phrénique; βHCG faible n'exclut PAS la rupture"
+  - "Faire un {t:toucher vaginal} avant l'écho au 3e trimestre devant un saignement → risque de décollement massif si {p:placenta prævia}"
+  - "Banaliser un {e:saignement post-ménopausique} (même minime, même sous THS) — {p:cancer endomètre} jusqu'à preuve du contraire"
+  - "Traiter une ménorragie chez femme > 40 ans sans diagnostic histologique préalable (manquer une hyperplasie atypique ou un cancer)"
+
+cartes_liees:
+  - SYS-GYN
+  - SSP-GYN-01
+  - SSP-GYN-03

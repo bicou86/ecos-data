@@ -1,0 +1,209 @@
+id: SSP-GYN-08
+type: ssp
+title: Masse mammaire
+discipline: Gyneco
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Masse_Mammaire.md
+
+# source: line 9-90
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • sein droit / gauche / bilatérale
+      • quadrant (supéro-externe = 50 % cancers)
+      • distance au mamelon (cm)
+    - "Onset / circonstances: auto-examen, fortuite (douche), partenaire, contrôle médical; date précise 1ère palpation"
+    - "Character (perçu par patiente): ferme/dure/molle/fluctuante; surface lisse vs irrégulière; mobile vs adhérent"
+    - "Radiation: autres masses ipsi ou controlatérales? multifocalité?"
+    - |-
+      Time:
+      • durée depuis découverte (jours / semaines / mois)
+      • évolution: stable / croissance / régression
+      • variations cycliques avec les règles?
+    - |-
+      Exacerbating:
+      • {e:phase prémenstruelle} (mastodynies bénignes)
+      • traumatisme local, geste invasif récent
+      • post-partum / allaitement (mastite)
+    - "Relieving: disparition après règles? AINS / antalgiques essayés?"
+    - "Severity: gêne, douleur 0-10, retentissement psychologique (cancérophobie)"
+  specifique:
+    - |-
+      {s:Écoulement mamelonnaire}:
+      • spontané vs provoqué
+      • unilatéral / bilatéral
+      • unipore (cancer/papillome) vs multipore (bénin)
+      • aspect: séreux, {r:sanglant}, lactescent, purulent
+    - |-
+      {s:Modifications cutanées}:
+      • rougeur, chaleur (mastite, cancer inflammatoire)
+      • {s:peau d'orange} (lymphœdème = T4b)
+      • rétraction cutanée / mamelonnaire
+      • ulcération, nodules de perméation
+    - "{s:Douleur mammaire}: cyclique (mastopathie/SOPK) vs non cyclique (cancer non douloureux le plus souvent)"
+    - "Signes B (extension): amaigrissement, asthénie, sueurs nocturnes, douleurs osseuses, dyspnée, céphalées"
+    - "{e:Statut hormonal}: position cycle (J? / X j), préménopause/périménopause/ménopause, grossesse ou allaitement en cours?"
+  atcd:
+    - |-
+      Gynéco-obstétricaux:
+      • ménarche ({e:< 12 ans = risque ↑})
+      • parité, âge 1ère grossesse à terme ({e:> 30 ans = risque ↑})
+      • allaitement total (protecteur si > 12 mois)
+      • ménopause ({e:> 55 ans = risque ↑})
+    - |-
+      Mammaires personnels:
+      • biopsies (résultats histologiques précis)
+      • lésions bénignes (fibroadénome, kyste, mastopathie)
+      • {s:lésions à haut risque} (LCIS, hyperplasie atypique)
+      • cancer antérieur (sein, ovaire), traitement reçu
+      • chirurgie / prothèses
+    - |-
+      Familiaux (BRCA1/2):
+      • cancer sein 1er-2e degré, âge dx ({e:< 50 ans significatif})
+      • cancer sein bilatéral / masculin
+      • cancer ovarien
+      • cancer pancréas / prostate (BRCA)
+      • test génétique connu (BRCA1/2, TP53, CHEK2)
+    - |-
+      Exposition hormonale:
+      • THS actuel/antérieur (type, durée)
+      • contraception œstro-progestative (durée cumulée)
+    - |-
+      Mode de vie & expositions:
+      • {r:alcool > 2 verres/j}, tabagisme
+      • surpoids/obésité post-ménopause
+      • sédentarité
+      • {t:radiothérapie thoracique antérieure} (Hodgkin pédiatrique)
+    - "Dépistage: dernière mammographie (date, BI-RADS), échographies antérieures, suivi gynéco régulier"
+
+# source: clinical pivots + line 268-273
+red_flags:
+  - description: "Masse {s:dure, fixée}, irrégulière + {s:rétraction mamelon} ± {s:peau d'orange} ± {s:adénopathie axillaire dure}"
+    dx_suspecte: "{p:Cancer du sein localement avancé} (≥ T3/T4) [VÉRIFIER:critères T4 inflammatoire vs locally advanced TNM 8e éd]"
+    action: "{t:Mammo + écho bilatérale} + {t:microbiopsie écho-guidée} sous 7 j; bilan extension ({t:TDM TAP + scintigraphie osseuse}); présentation {r:RCP sénologie} sous 15 j"
+  - description: "{s:Écoulement mamelonnaire sanglant} {r:unilatéral, unipore, spontané} ± masse palpable"
+    dx_suspecte: "{p:Carcinome intracanalaire (DCIS)} ou {p:papillome intracanalaire}"
+    action: "{t:Mammographie + écho} + {t:galactographie ou IRM mammaire}; {t:cytologie écoulement} + microbiopsie ciblée; avis sénologie sous 15 j"
+  - description: "Sein {s:rouge, chaud, œdémateux, peau d'orange diffuse} évoluant < 6 mois SANS contexte infectieux franc"
+    dx_suspecte: "{p:Cancer du sein inflammatoire (T4d)} — urgence oncologique"
+    action: "{t:Biopsie cutanée + microbiopsie mammaire} en urgence (< 7 j); NE PAS se contenter d'ATB; chimiothérapie néoadjuvante puis chirurgie/RT"
+  - description: "{e:Post-partum / allaitement}: sein {s:rouge, chaud, fièvre > 38,5 °C}, douleur intense ± fluctuation"
+    dx_suspecte: "{p:Mastite puerpérale} évoluant vers {p:abcès du sein}"
+    action: "{r:Cloxacilline 500 mg × 4/j PO 10-14 j} (ou clindamycine si allergie) [VÉRIFIER:posologie suisse SSI mastite]; poursuite allaitement; {t:écho mammaire} si pas d'amélioration à 48 h → drainage chirurgical si abcès"
+  - description: "{e:Femme < 40 ans} avec antécédent {s:familial massif} (≥ 2 apparentés du 1er degré ou cancer < 40 ans ou homme atteint)"
+    dx_suspecte: "{p:Syndrome héréditaire BRCA1/2 / TP53 / PALB2}"
+    action: "{r:Consultation onco-génétique} avant biopsie si possible; dépistage rapproché (IRM annuelle + mammo dès 30 ans); discuter chirurgie prophylactique selon mutation"
+  - description: "{e:Homme} avec masse rétro-aréolaire ferme, indolore, fixée ± écoulement"
+    dx_suspecte: "{p:Cancer du sein masculin} (à différencier de la {p:gynécomastie} bilatérale molle)"
+    action: "{t:Mammographie + écho + microbiopsie} chez tout homme > 50 ans avec masse unilatérale; rechercher mutation BRCA2"
+
+# source: line 94-154
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T°, FR (T° pour mastite/abcès)"
+    - "État général, IMC, performance status si suspicion cancer"
+    - "Inspection peau et muqueuses: pâleur (anémie/extension), ictère (métastases hépatiques)"
+    - "Auscultation cardio-pulmonaire; palpation hépatique; recherche signes osseux"
+  cible:
+    - |-
+      Inspection bilatérale ({e:patiente assise, torse nu, éclairage adéquat, consentement}):
+      • bras le long du corps: symétrie, contours, peau, mamelons
+      • bras levés / mains sur hanches: rétraction cutanée (pli, fossette), déformation, fixation
+      • {s:peau d'orange}, ulcération, nodules de perméation, écoulement spontané
+    - |-
+      Palpation systématique ({e:décubitus, bras ipsilatéral sous tête}):
+      • méthode spirale ou par quadrants, pulpe de 3 doigts
+      • pression légère → profonde, périphérie → mamelon
+      • {r:examen BILATÉRAL}, controlatéral d'abord
+      • recherche multifocalité / multicentricité
+    - |-
+      Caractérisation de la masse:
+      • localisation: quadrant, distance mamelon (cm)
+      • taille: 3 diamètres précis (cm)
+      • consistance: molle / ferme / dure / fluctuante
+      • limites: nettes (bénin) vs mal délimitées (malin)
+      • mobilité: libre vs fixée (peau / plan profond / muscle pectoral)
+      • sensibilité (manœuvre de Tillaux: mobilisation bras + masse = pectoralis fixation)
+    - |-
+      {t:Examen ganglionnaire régional}:
+      • axillaire (5 groupes: central, antérieur, postérieur, médial, apical) [VÉRIFIER:nomenclature 5 vs 3 niveaux Berg]
+      • sous-claviculaire (fosse infra-claviculaire)
+      • sus-claviculaire bilatérale (Troisier)
+      • caractériser: nombre, taille, consistance, mobilité, sensibilité
+    - |-
+      Recherche écoulement (expression douce du mamelon, éviter traumatisme):
+      • spontané vs provoqué
+      • aspect macroscopique (séreux / sanglant / lactescent / purulent)
+      • unipore / multipore, uni / bilatéral
+    - "Examen abdominal (hépatomégalie), rachis (douleurs osseuses), aires ganglionnaires cervicales et inguinales si suspicion métastases"
+
+# source: line 170-178 (DD table)
+dd_top5:
+  - dx: "{p:Fibroadénome}"
+    indices: "{e:< 30 ans} +++ ; masse {s:mobile, lisse, ferme, indolore, bien limitée}, taille < 3 cm, croissance lente, parfois multiples; {t:écho}: solide hypoéchogène ovalaire, grand axe parallèle peau, BI-RADS 2-3"
+    freq: "1ère cause < 30 ans (15-20 %)"
+  - dx: "{p:Kyste mammaire / mastopathie fibrokystique}"
+    indices: "{e:30-50 ans} ++++ ; masse {s:fluctuante, douloureuse, cyclique}, souvent multiples bilatérales, varie avec cycle; {t:écho}: anéchogène, renforcement postérieur, paroi fine; ponction = liquide clair (citrin)"
+    freq: "très fréquent (50-60 % femmes), pic 35-50 ans"
+  - dx: "{p:Cancer du sein invasif (canalaire ou lobulaire)}"
+    indices: "{e:> 40 ans} +++++ ; masse {s:dure, irrégulière, fixée, indolore, unilatérale}; ± rétraction peau/mamelon, peau d'orange, adénopathie axillaire; {t:mammo}: opacité spiculée + microcalcifications; BI-RADS 4-5; biopsie [VÉRIFIER:ordre fréquence CDI 80 % vs CLI 10 %]"
+    freq: "1ère néoplasie féminine (1/8 femmes vie entière)"
+  - dx: "{p:Mastite / abcès du sein}"
+    indices: "{e:Post-partum/allaitement} ou non puerpérale; sein {s:rouge, chaud, douloureux, fièvre}; {t:écho}: collection hypoéchogène hétérogène si abcès; staphylocoque doré le plus fréquent; ne pas méconnaître {p:cancer inflammatoire} si pas d'amélioration sous ATB à 48 h"
+    freq: "fréquent (1-10 % des allaitantes)"
+  - dx: "{p:Papillome intracanalaire / DCIS}"
+    indices: "{s:Écoulement mamelonnaire sanglant unipore unilatéral spontané} ± masse rétroaréolaire palpable; {t:galactographie / IRM} ou {t:mammographie} (microcalcifications groupées pour DCIS); microbiopsie ciblée"
+    freq: "papillome 2-3 % ; DCIS = 20-25 % des cancers dépistés"
+
+# source: line 159-256
+pec_initiale:
+  immediate:
+    - "Toute masse palpable nouvelle: {t:triple évaluation} obligatoire (clinique + imagerie + histologie si suspicion)"
+    - "{e:< 30 ans} et clinique bénigne: {t:échographie mammaire} en 1ère intention sous 4 semaines; si BI-RADS 1-2-3 stable → surveillance"
+    - "{e:30-39 ans}: {t:échographie + mammographie} selon densité et clinique"
+    - "{e:≥ 40 ans} ou clinique suspecte tout âge: {t:mammographie bilatérale + échographie} systématiques sous 2 semaines"
+    - "BI-RADS 4 ou 5: {t:microbiopsie 14G écho-guidée} (6-8 prélèvements) ou stéréotaxique si microcalcifications; clip de repérage si lésion non palpable [VÉRIFIER:délai max biopsie BI-RADS 5 protocole CHUV]"
+    - "Cancer confirmé: {r:référence sénologie/onco urgente < 15 j}, bilan d'extension ({t:TDM TAP + scintigraphie osseuse ± TEP}), {r:RCP pluridisciplinaire}, annonce structurée et soutien psychologique"
+    - "{p:Mastite puerpérale}: {r:cloxacilline 500 mg × 4/j PO 10-14 j} + poursuite allaitement + AINS; écho à 48 h si pas d'amélioration; {r:drainage écho-guidé ou chirurgical} si abcès"
+    - "{p:Kyste symptomatique}: {r:ponction évacuatrice} (analyse cytologique si liquide sanglant ou masse résiduelle); recontrôle clinique à 1 mois"
+    - "{p:Fibroadénome typique} confirmé: {r:surveillance}; exérèse si > 3 cm, croissance, gêne, doute ou souhait patiente"
+  orientation:
+    - "Domicile + suivi MT/gynéco: clinique typiquement bénigne ({e:< 30 ans}, mobile, douloureuse cyclique), imagerie BI-RADS 1-2, contrôle à 3-6 mois"
+    - "Sénologie ambulatoire rapide (< 2 semaines): tout BI-RADS 4-5, masse cliniquement suspecte, écoulement sanglant, antécédents familiaux préoccupants"
+    - "Consultation onco-génétique: ≥ 2 apparentés 1er degré, cancer < 40 ans, bilatéral, masculin, ovarien, mutation connue"
+    - "Urgences: cancer inflammatoire, abcès volumineux avec sepsis, douleur incontrôlable"
+    - "Consignes de retour: croissance rapide, apparition rétraction/écoulement sanglant, fièvre > 38,5 °C, signes systémiques"
+
+# source: line 181-227
+examens_complementaires:
+  - "{t:Échographie mammaire}: 1ère intention si {e:< 30-40 ans}, différenciation solide/kystique, complément de mammo dense, guidage biopsie"
+  - "{t:Mammographie bilatérale 2 incidences} (face + oblique externe): systématique {e:≥ 40 ans} ou clinique suspecte; recherche microcalcifications, distorsion architecturale; classification {t:BI-RADS 0-6}"
+  - "{t:IRM mammaire injectée}: indications limitées (BRCA+, bilan d'extension, foyer primitif occulte, sein opéré/prothèses, discordance imagerie/clinique) [VÉRIFIER:indications IRM SSGO/HUG]"
+  - "{t:Microbiopsie 14G écho-guidée} (≥ 6 prélèvements) ou {t:macrobiopsie stéréotaxique} (microcalcifications): histologie + immunohistochimie (RE, RP, HER2, Ki67)"
+  - "{t:Cytoponction à l'aiguille fine} d'un ganglion axillaire suspect; {t:cytologie écoulement} si sanglant"
+  - "Bilan d'extension si cancer: {t:bilan biologique} (NFS, bilan hépatique, calcémie, LDH), {t:TDM TAP injectée + scintigraphie osseuse} (ou {t:TEP-TDM} si haut risque)"
+
+# source: line 244-248, criteres de prise en charge urgente
+criteres_hospitalisation:
+  - "{p:Abcès du sein} volumineux nécessitant drainage chirurgical, sepsis, échec ATB ambulatoire"
+  - "{p:Cancer inflammatoire} pour bilan accéléré et chimiothérapie néoadjuvante urgente"
+  - "Cancer avec complications: hémorragie cutanée, ulcération profonde, douleurs incontrôlées, compression vasculaire"
+  - "Bilan d'extension révélant métastases symptomatiques (épidurite, hypercalcémie maligne, dyspnée)"
+  - "Détresse psychologique majeure post-annonce avec risque suicidaire"
+
+# source: line 268-280
+pieges:
+  - "Rassurer prématurément une {e:< 30 ans} sans triple évaluation — 5 % de cancers existent et le délai diagnostique chez la jeune femme aggrave le pronostic"
+  - "Méconnaître le {p:cancer inflammatoire} pris pour une mastite réfractaire — toute mastite non puerpérale ou ne répondant pas à 48 h d'ATB doit être biopsiée (peau + parenchyme)"
+  - "Renoncer à la {t:microbiopsie} devant une imagerie 'rassurante' alors que la clinique est suspecte (discordance radio-clinique ≈ 5 % de faux négatifs) — la clinique prime"
+  - "Oublier le {p:cancer du sein masculin} chez un homme > 50 ans avec masse rétro-aréolaire ferme indolore unilatérale"
+  - "Négliger l'enquête familiale BRCA et la {r:consultation onco-génétique} (impacte chirurgie prophylactique, dépistage des apparentées et choix thérapeutique)"
+
+cartes_liees:
+  - SYS-GYN
+  - SSP-GYN-01
+  - SSP-GYN-04

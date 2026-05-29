@@ -1,0 +1,180 @@
+id: SSP-GYN-06
+type: ssp
+title: HTA et grossesse
+discipline: Gyneco
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_HTA_Grossesse.md
+
+# source: line 43-113
+anamnese:
+  socrates:
+    - |-
+      Contexte obstétrical:
+      • âge gestationnel (SA), DDR, DPA
+      • grossesse unique / multiple
+      • parité (G_P_), suivi régulier
+    - |-
+      Découverte de l'HTA:
+      • circonstances (consultation, auto-mesure, symptômes)
+      • valeurs maximales, évolution
+      • {e:< 20 SA} (chronique) vs {e:≥ 20 SA} (gravidique)
+    - "Time: brutal vs progressif; depuis quand? aggravation récente?"
+    - "Severity: PAS/PAD max, retentissement maternel et fœtal"
+  specifique:
+    - |-
+      Signes neurologiques (PE) {s:ALARME}:
+      • {s:céphalées} intenses, rebelles aux antalgiques
+      • {s:troubles visuels}: phosphènes, scotomes, vision floue, diplopie
+      • acouphènes, vertiges
+      • agitation, confusion (éclampsie imminente)
+    - |-
+      Signes digestifs {s:HELLP}:
+      • {s:barre épigastrique} en barre (douleur de Chaussier)
+      • irradiation dorsale, nausées, vomissements
+      • douleur HCD (foie)
+    - |-
+      Signes périphériques:
+      • {s:œdèmes} face (paupières au réveil), mains (bagues serrées), MI
+      • prise de poids brutale {r:> 1 kg/sem}
+      • oligurie
+    - "Vitalité fœtale: diminution des mouvements actifs (MAF)?"
+  atcd:
+    - |-
+      ATCD obstétricaux (facteurs de RISQUE ÉLEVÉ):
+      • {p:pré-éclampsie} antérieure (RR ×7), HELLP, éclampsie
+      • HRP, MFIU, RCIU, prématurité (terme, cause)
+    - |-
+      Facteurs de haut risque maternel:
+      • {p:HTA chronique}, {p:maladie rénale chronique}
+      • diabète type 1/2, {p:maladies auto-immunes} (lupus, SAPL)
+      • grossesse multiple, FIV
+    - |-
+      Facteurs de risque modéré:
+      • primipare, âge < 20 ans ou {e:> 40 ans}
+      • {e:IMC > 30}, ATCD familiaux PE
+      • intervalle > 10 ans entre grossesses
+    - |-
+      Traitements actuels:
+      • antihypertenseurs (molécule, dose, observance)
+      • {r:aspirine préventive} (dose, début, indication)
+      • calcium, suppléments
+
+# source: line 115-152
+examen:
+  general:
+    - "Signes vitaux: TA répétée 2 mesures à ≥ 4 h (PAS ≥ 140 et/ou PAD ≥ 90 = HTA; {r:≥ 160/110 = sévère}), FC, T°, FR, SaO2, poids, diurèse"
+    - |-
+      Technique TA rigoureuse:
+      • repos 5-10 min, brassard adapté à la circonférence
+      • position assise ou décubitus latéral gauche
+      • bras au niveau du cœur, 2 mesures à 1 min
+      • aux 2 bras à la 1re consultation
+    - "Bandelette urinaire systématique (protéinurie)"
+  cible:
+    - |-
+      Neurologique (prédictif d'éclampsie):
+      • {t:ROT} rotuliens, achilléens — 3+ vifs = PE, 4+ + clonus = éclampsie imminente
+      • {s:clonus de la rotule > 3 battements} = URGENCE
+      • état mental, troubles visuels objectifs
+    - |-
+      Œdèmes (extension/gravité):
+      • face (paupières), mains, MI prenant le godet
+      • lombes, vulve (anasarque)
+    - |-
+      Cardio-pulmonaire:
+      • auscultation: galop, souffle
+      • crépitants pulmonaires ({p:OAP})
+    - |-
+      Abdomen:
+      • {s:douleur épigastrique en barre} (HELLP)
+      • hépatomégalie, défense HCD
+      • hauteur utérine (concordance terme)
+    - "Obstétrical: {t:RCF} ≥ 26 SA, MAF, contractions, métrorragies (HRP)"
+
+red_flags:
+  - description: "{s:Convulsion tonico-clonique} chez femme enceinte {e:≥ 20 SA} ou post-partum < 6 sem"
+    dx_suspecte: "{p:Éclampsie}"
+    action: "{r:Sulfate de magnésium IV 4-6 g bolus en 20 min puis 1-2 g/h}; PLS, libération VAS, O2; nicardipine IV si HTA sévère; extraction urgente après stabilisation"
+  - description: "{s:Barre épigastrique} + {t:thrombopénie < 100 000} + {t:ASAT/ALAT > 2N} ± hémolyse (LDH ↑)"
+    dx_suspecte: "{p:HELLP syndrome}"
+    action: "Bilan complet ({t:NFS, hémolyse, hépatique, hémostase}); {r:sulfate de magnésium} + USI; extraction urgente quel que soit le terme [VÉRIFIER:seuil exact extraction vs expectative selon CHUV/HUG]"
+  - description: "{s:TA ≥ 160/110} confirmée + protéinurie ou signes de gravité"
+    dx_suspecte: "{p:Pré-éclampsie sévère}"
+    action: "{r:Nicardipine IV 1-5 mg/h IVSE} (objectif baisse 25 % en 1 h, PAS 140-155); {r:sulfate de magnésium}; corticoïdes si 24-34 SA; extraction selon terme"
+  - description: "{s:Céphalées rebelles} + {s:troubles visuels} (phosphènes/scotomes) + {t:ROT polycinétiques} ± clonus"
+    dx_suspecte: "{p:Éclampsie imminente}"
+    action: "{r:Sulfate de magnésium IV} prophylactique IMMÉDIAT (4 g charge + 1-2 g/h); contrôle TA; hospitalisation USI"
+  - description: "{s:RCIU sévère < 5e percentile} + Doppler ombilical pathologique (diastole inversée) ± oligoamnios"
+    dx_suspecte: "{p:Souffrance fœtale chronique} sur insuffisance placentaire"
+    action: "{r:Corticoïdes} (bétaméthasone 12 mg IM ×2/24 h) si 24-34 SA; extraction selon Doppler + RCF [VÉRIFIER:délai exact extraction après corticoïdes]"
+  - description: "{s:HTA non contrôlée} malgré bithérapie IV OU {p:OAP} OU {s:oligurie < 500 ml/24 h} OU créat ↑"
+    dx_suspecte: "{p:Pré-éclampsie compliquée} (défaillance d'organe)"
+    action: "Extraction urgente quel que soit le terme; {r:sulfate de magnésium}; transfert maternité {r:type III}; USI"
+
+# source: line 154-181
+dd_top5:
+  - dx: "{p:Pré-éclampsie}"
+    indices: "{e:≥ 20 SA}; HTA (≥ 140/90) + protéinurie (≥ 0,3 g/24h ou ratio ≥ 30 mg/mmol) OU atteinte d'organe (thrombopénie, cytolyse, IRA, OAP, neuro); primipare, ATCD PE, FIV; sévère si ≥ 160/110 ou un signe de gravité"
+    freq: "2-5 % des grossesses"
+  - dx: "{p:HTA gestationnelle}"
+    indices: "{e:≥ 20 SA}; HTA isolée sans protéinurie ni atteinte d'organe; normalisation < 12 sem post-partum; risque évolution vers PE 25 %"
+    freq: "6-8 % des grossesses"
+  - dx: "{p:HTA chronique préexistante}"
+    indices: "HTA {e:< 20 SA} ou connue avant grossesse; persiste > 12 sem post-partum; risque PE surajoutée si aggravation + protéinurie nouvelle"
+    freq: "1-5 % des grossesses"
+  - dx: "{p:HELLP syndrome}"
+    indices: "Hémolyse (LDH > 600, schizocytes, haptoglobine ↓) + ASAT > 70 + plaquettes < 100 000; barre épigastrique +++, nausées; peut survenir SANS HTA marquée (20 %) [VÉRIFIER:fréquence HELLP atypique sans HTA]"
+    freq: "10-20 % des PE sévères"
+  - dx: "{p:Éclampsie}"
+    indices: "Convulsions tonico-cloniques généralisées en grossesse ≥ 20 SA ou post-partum (jusqu'à 6 sem); 25 % surviennent en post-partum; précédée parfois de céphalées/troubles visuels/épigastralgies"
+    freq: "1-2 % des PE sévères"
+
+# source: line 183-267
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: tout signe de gravité → bilan + sulfate magnésium + nicardipine IV AVANT toute imagerie élective"
+    - "{p:Éclampsie} active: PLS, libération VAS, O2, {r:sulfate de magnésium 4-6 g IV en 20 min puis 1-2 g/h IVSE 24-48 h}; pas de diazépam en 1re intention"
+    - "{p:PE sévère}: {r:nicardipine IV 1-5 mg/h} (objectif baisse 25 % en 1 h, PAS cible 140-155, PAD 90-105); {r:labétalol IV 20 mg puis 40-80 mg/10 min} en alternative"
+    - "PE non sévère: {r:méthyldopa 250-500 mg PO ×2-3/j} (1re ligne), {r:labétalol 100-200 mg PO ×2-3/j} ou {r:nifédipine LP 20 mg ×2/j}"
+    - "Prévention éclampsie: {r:sulfate de magnésium IV} si PE sévère, HELLP, signes neurologiques; surveillance ROT/FR/diurèse; antidote = {r:gluconate de calcium 10 % 10 ml IV} si surdosage"
+    - "Corticoïdes si {e:24-34 SA}: {r:bétaméthasone 12 mg IM ×2 à 24 h} (maturation pulmonaire) [VÉRIFIER:fenêtre exacte 24-34 SA ou 24-34+6 selon CNGOF]"
+    - "CONTRE-INDIQUÉS: {r:IEC/ARA2} (malformations rénales fœtales), {r:aténolol} (RCIU), {r:diurétiques} (hypovolémie sauf OAP)"
+  orientation:
+    - "Maternité {r:type III} (réa néonat + adulte): PE sévère, HELLP, éclampsie, < 34 SA"
+    - "Maternité {r:type II}: PE modérée 34-37 SA"
+    - "Maternité {r:type I}: PE légère > 37 SA, HTA gestationnelle simple sous surveillance"
+    - "Extraction = SEUL traitement curatif: ≥ 37 SA systématique; 34-37 SA si sévère après corticoïdes; 24-34 SA expectative si stable; voie basse si col favorable + plaquettes > 75 000, sinon césarienne"
+    - "Post-partum: surveillance 48-72 h (25 % éclampsies post-partum, HELLP pic J2-J3); maintien sulfate Mg 24-48 h; antihypertenseurs compatibles allaitement (méthyldopa, labétalol, nifédipine)"
+
+# source: line 154-181
+examens_complementaires:
+  - "{t:NFS-plaquettes} + frottis (schizocytes): {t:thrombopénie < 100 000} = sévère / HELLP; surveillance q24-48 h"
+  - "{t:Bilan hépatique} (ASAT/ALAT, LDH, bilirubine) + {t:haptoglobine}: cytolyse > 2N et hémolyse = HELLP"
+  - "{t:Fonction rénale} (créat, urée, {r:acide urique > 350 μmol/L}): IRA = signe de gravité"
+  - "{t:Protéinurie}: bandelette urinaire + ratio protéine/créat ≥ 30 mg/mmol OU protéinurie 24 h ≥ 0,3 g"
+  - "{t:Échographie obstétricale} + {t:Doppler ombilical/utérin/cérébral}: biométries (RCIU?), liquide amniotique, vitalité; {t:RCF} continu ≥ 26 SA"
+  - "{t:Hémostase} (TP, TCA, fibrinogène) + {t:bHCG} si terme incertain; imagerie cérébrale (scanner/IRM) si troubles neurologiques persistants"
+
+# source: line 185-198, 245-256
+criteres_hospitalisation:
+  - "TOUTE pré-éclampsie (même non sévère) = hospitalisation pour bilan + surveillance"
+  - "{s:HTA sévère ≥ 160/110} ou signes de gravité (neuro, épigastrique, biologique) → maternité type III"
+  - "{p:HELLP}, {p:éclampsie}, OAP, IRA, troubles visuels persistants → USI obstétricale + extraction urgente"
+  - "RCIU sévère + Doppler pathologique, oligoamnios, anomalies RCF → surveillance fœtale rapprochée"
+  - "Post-partum compliqué (TA > 160/110, signes PE persistants, HELLP J2-J3) → maintien hospitalisation"
+
+# source: line 215-219, 336-341
+pieges:
+  - "Sous-estimer une {p:PE sévère} SANS protéinurie marquée: les signes de gravité (neuro, épigastrique, thrombopénie, cytolyse) suffisent au diagnostic [VÉRIFIER:critères ISSHP 2022 vs ACOG]"
+  - "Baisser trop rapidement la TA → {s:hypoperfusion placentaire} et souffrance fœtale; objectif PAS 140-155, baisse progressive 25 % en 1 h"
+  - "Prescrire {r:IEC/ARA2}, aténolol ou diurétiques: tératogènes ou délétères (RCIU, hypovolémie)"
+  - "Négliger la surveillance {e:post-partum} 48-72 h: 25 % des éclampsies et le pic HELLP (J2-J3) surviennent APRÈS l'accouchement"
+  - "Méconnaître un {p:HELLP atypique} (sans HTA marquée ou sans protéinurie) devant une barre épigastrique isolée chez femme enceinte"
+
+cartes_liees:
+  - SSP-NEU-04
+  - SYS-GYN
+  - TOOL-MAGNESIUM

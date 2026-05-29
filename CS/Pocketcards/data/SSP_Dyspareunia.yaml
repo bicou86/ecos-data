@@ -1,0 +1,211 @@
+id: SSP-GYN-05
+type: ssp
+title: Dyspareunie
+discipline: Gyneco
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dyspareunia.md
+
+# source: lines 11-66 (anamnèse)
+anamnese:
+  socrates:
+    - |-
+      Site — pivot diagnostique majeur:
+      • {s:superficielle} (entrée/vestibule) → vulvodynie, vestibulodynie, sécheresse, infection vulvaire, vaginisme
+      • {s:profonde} (fond vaginal / pelvis) → endométriose, PID, adhérences, fibrome, prolapsus
+      • mixte
+    - |-
+      Onset:
+      • début progressif vs brutal
+      • depuis quand (semaines / mois / années)?
+      • primaire (depuis le début de la vie sexuelle) ou secondaire?
+    - "Character: brûlure / coupure / crampe / pression / décharge?"
+    - "Radiation: vers le bas-ventre, le dos, les cuisses?"
+    - |-
+      Time:
+      • à l'initiation de la pénétration / pendant / après le rapport?
+      • durée de la douleur post-coïtale
+      • cyclique (lien avec les règles → endométriose)?
+    - |-
+      Exacerbating:
+      • position, type de partenaire / pratique
+      • {e:phase du cycle} / post-règles
+      • sécheresse vaginale, stress, fatigue
+    - "Relieving: lubrifiant, préliminaires prolongés, changement de position?"
+    - |-
+      Severity:
+      • intensité 0-10
+      • impact sur fréquence des rapports, évitement
+      • retentissement sur le couple, anxiété anticipatoire
+
+  specifique:
+    - |-
+      DEMANDER CONSENTEMENT avant anamnèse sexuelle:
+      • "Puis-je vous poser des questions sur votre vie sexuelle? Tout reste confidentiel"
+      • adapter le rythme, valider les émotions
+      • environnement seul-e (jamais avec partenaire présent pour aborder violences)
+    - |-
+      Symptômes gynéco associés:
+      • {s:leucorrhées} (poisson = vaginose, caillé = candidose, purulent = cervicite/PID)
+      • {s:prurit / brûlures} vulvaires
+      • {s:saignements post-coïtaux} (cervicite, polype, néoplasie)
+      • {s:dysménorrhée secondaire} (⚠ endométriose)
+      • douleurs pelviennes chroniques en dehors des rapports
+    - |-
+      Dimension biopsychosociale:
+      • baisse libido / désir
+      • conflits conjugaux / qualité de la relation
+      • {s:anxiété anticipatoire} (cercle vicieux douleur-évitement-vaginisme)
+      • dépression, troubles de l'humeur
+    - |-
+      Dépistage violences et antécédents traumatiques (TACT):
+      • "Vous sentez-vous en sécurité à la maison?"
+      • ATCD abus physique/sexuel/émotionnel (enfance ou adulte)
+      • {p:Violences sexuelles récentes} → prophylaxie IST/VIH + suivi médico-légal
+    - |-
+      Facteurs hormonaux / vie reproductive:
+      • {e:ménopause / périménopause} (atrophie vulvo-vaginale)
+      • {e:post-partum / allaitement} (hypœstrogénie)
+      • contraception (DIU = douleur profonde possible)
+      • désir de grossesse / infertilité (endométriose)
+
+  atcd:
+    - |-
+      Gynéco-obstétricaux:
+      • parité, déchirures périnéales, épisiotomie
+      • chirurgies pelviennes (césarienne, hystérectomie, conisation)
+      • {p:Endométriose} connue ou suspectée
+      • PID antérieure, IST (chlamydia, gonorrhée, herpès, HPV)
+      • frottis cervico-vaginal (date, résultat, ATCD anormaux)
+    - |-
+      Médicaments à risque:
+      • {r:antidépresseurs ISRS} (baisse libido, dysfonction)
+      • {r:contraceptifs combinés} (sécheresse possible)
+      • antihistaminiques, anticholinergiques (sécheresse)
+      • chimiothérapie / radiothérapie pelvienne
+    - "Maladies chroniques: diabète (mycoses récidivantes), hypothyroïdie, dermatoses (lichen scléreux), MICI"
+    - "ATCD psychiatriques: dépression, anxiété, ESPT — composante centrale à ne pas omettre"
+    - "Habitudes: tabac, alcool, usage de drogues; pratiques d'hygiène (douches vaginales = facteur de risque vaginose)"
+
+# source: pivots task brief + lignes 168-174 (red flags MD original)
+red_flags:
+  - description: "Dyspareunie + {s:fièvre} + {s:leucorrhées purulentes} ± douleur annexielle / défense pelvienne"
+    dx_suspecte: "{p:Maladie inflammatoire pelvienne (PID) / salpingite aiguë}"
+    action: "Hospitalisation; PCR chlamydia/gonocoque; {r:ceftriaxone 500 mg IM} + {r:doxycycline 100 mg × 2/j PO × 14 j} + {r:métronidazole 500 mg × 2/j × 14 j}; échographie pelvienne (abcès tubo-ovarien?) [VÉRIFIER: seuil hospitalisation vs ambulatoire selon critères CDC — fièvre >38,5°C, grossesse, abcès, intolérance PO]"
+  - description: "Dyspareunie profonde + {s:dysménorrhée secondaire invalidante} + {s:infertilité} ± douleurs cycliques"
+    dx_suspecte: "{p:Endométriose pelvienne}"
+    action: "Examen avec palpation des ligaments utéro-sacrés (nodulosité); {t:échographie endovaginale} expert; {t:IRM pelvienne}; orientation gynécologue spécialisé; {t:cœlioscopie} diagnostique-thérapeutique si bilan évocateur"
+  - description: "Dyspareunie + {s:masse vulvaire ou cervicale ulcérée / saignante / indurée}"
+    dx_suspecte: "{p:Cancer vulvaire, vaginal ou du col}"
+    action: "{t:Biopsie en urgence}; orientation onco-gynécologique; bilan d'extension; ne PAS retarder par traitement empirique"
+  - description: "{s:Violences sexuelles récentes} (<72h) ou rapports forcés rapportés à l'anamnèse"
+    dx_suspecte: "{p:Agression sexuelle} — urgence médico-légale et psychologique"
+    action: "Accueil sécurisé; {r:prophylaxie post-exposition VIH} + IST (azithromycine + ceftriaxone) + {r:contraception d'urgence (lévonorgestrel 1,5 mg)}; constat médico-légal; signalement; soutien psychologique [VÉRIFIER: protocole local CHUV/HUG pour examen médico-légal et conservation des preuves <72h]"
+  - description: "{e:Post-ménopause}: dyspareunie + {s:saignement vaginal anormal} (métrorragies)"
+    dx_suspecte: "{p:Cancer de l'endomètre} ou atrophie vulvo-vaginale sévère; néoplasie vaginale"
+    action: "{t:Échographie endovaginale} (épaisseur endomètre >4 mm = pathologique); {t:biopsie de l'endomètre} (Pipelle); hystéroscopie si doute"
+  - description: "Dyspareunie aiguë brutale + douleur unilatérale annexielle + masse pelvienne ± défense"
+    dx_suspecte: "{p:Torsion d'annexe} / {p:Grossesse extra-utérine} (si retard de règles) / kyste compliqué"
+    action: "{t:bHCG} immédiat; {t:échographie pelvienne} en urgence; orientation chirurgicale; ne pas confondre avec PID"
+
+# source: lines 70-93 (examen clinique)
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T° (fièvre → PID); état général; expression de la douleur"
+    - "Recherche de signes systémiques d'IST: éruption (syphilis 2°), arthralgies (gonococcie disséminée)"
+    - "Évaluation contexte psychologique: agitation, repli, pleurs — adapter examen"
+
+  cible:
+    - |-
+      AVANT examen pelvien — OBLIGATOIRE:
+      • {r:consentement explicite verbal}, expliquer chaque étape
+      • position confortable, respect de la pudeur
+      • {r:chaperonage} proposé systématiquement
+      • interruption possible à tout moment
+    - |-
+      Inspection vulvaire (lumière + miroir):
+      • {s:érythème} (candidose, vestibulodynie), {s:fissures}, {s:ulcérations} (herpès, syphilis, lichen)
+      • atrophie (pâleur, perte des reliefs → {e:ménopause})
+      • masses, condylomes, lésions blanches (lichen scléreux, néoplasie)
+      • signes de cicatrices (mutilations génitales, déchirures)
+    - |-
+      {t:Test du coton-tige (Q-tip test)} pour vestibulodynie:
+      • toucher délicatement vestibule à 5, 7, 9, 11h
+      • allodynie / hyperalgésie ponctuelle = vestibulodynie provoquée
+    - |-
+      Examen au spéculum (lubrifiant à l'eau):
+      • col: aspect, lésions, mobilité, saignement au contact
+      • leucorrhées: aspect, odeur, pH, sniff-test (KOH 10%)
+      • {t:prélèvements}: examen direct, PCR chlamydia/gonocoque, culture mycologique, frottis si indiqué
+    - |-
+      Toucher vaginal bidigital:
+      • douleur à la mobilisation utérine ({s:cri du Douglas} → PID/endométriose)
+      • nodulosité des ligaments utéro-sacrés → endométriose
+      • masses annexielles, douleur localisée
+      • {s:hypertonie périnéale} / vaginisme réflexe
+    - "Palpation abdominale: défense, masses pelviennes, douleur fosses iliaques"
+    - "Examen périnéal: tonus, prolapsus (cystocèle/rectocèle), cicatrice épisiotomie, kinésithérapie périnéale indication"
+
+# source: lines 108-113 + pivots task brief
+dd_top5:
+  - dx: "{p:Vulvodynie / Vestibulodynie}"
+    indices: "Dyspareunie {s:superficielle} brûlante, {t:Q-tip test positif}, examen sinon normal (pas de leucorrhées, pas d'érythème), constance des symptômes, prévalence 8-16% des femmes"
+    freq: "très fréquent — souvent sous-diagnostiqué"
+  - dx: "{p:Sécheresse vaginale / Atrophie vulvo-vaginale}"
+    indices: "Contexte hormonal ({e:ménopause, post-partum, allaitement, ISRS}); muqueuse pâle/fine; soulagement avec lubrifiants/œstrogènes locaux"
+    freq: "très fréquent (50% des femmes ménopausées)"
+  - dx: "{p:Vaginisme}"
+    indices: "Contraction réflexe involontaire des muscles péri-vaginaux empêchant la pénétration; ATCD traumatiques fréquents; anxiété anticipatoire; aucune anomalie organique au repos"
+    freq: "fréquent (1-7% des femmes en âge de procréer)"
+  - dx: "{p:Endométriose pelvienne}"
+    indices: "Dyspareunie {s:profonde} cyclique, dysménorrhée secondaire invalidante, douleur pelvienne chronique, infertilité, nodulosité utéro-sacrée au TV"
+    freq: "fréquent (~10% des femmes en âge de procréer)"
+  - dx: "{p:Infection vulvo-vaginale} (candidose, vaginose, cervicite à chlamydia/gonocoque)"
+    indices: "Leucorrhées (caillé / poisson / purulent), prurit, ATCD IST, partenaire récent; pH et examen direct orientent; PCR confirme IST"
+    freq: "très fréquent — cause aiguë #1"
+
+# source: lines 99-144 (PEC) + pivots
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — PID, agression, cancer, GEU → traitement étiologique avant prise en charge dyspareunie"
+    - "Approche {r:biopsychosociale}: valider la douleur ('vos douleurs sont réelles'), informer, déculpabiliser"
+    - "Vaginose bactérienne: {r:métronidazole 500 mg × 2/j PO × 7 j} ou gel vaginal 0,75% × 5 j"
+    - "Candidose vulvo-vaginale: {r:fluconazole 150 mg dose unique PO} ± ovules antifongiques 3 j si forme sévère"
+    - "Cervicite IST (chlamydia/gonocoque): {r:ceftriaxone 500 mg IM} + {r:doxycycline 100 mg × 2/j × 7 j PO}; traitement du partenaire OBLIGATOIRE; abstinence 7 j [VÉRIFIER: nouvelles recommandations CDC/OMS 2024 — azithromycine en alternative selon résistances locales]"
+    - "Atrophie vulvo-vaginale (ménopause): {r:œstrogènes locaux} (estradiol crème ou ovules 2-3×/semaine) + lubrifiants hydrosolubles systématiquement"
+    - "Vulvodynie/vestibulodynie: lubrifiants, éviter irritants; en 2e ligne {r:amitriptyline 10-25 mg HS} ou {r:gabapentine}; kinésithérapie périnéale"
+    - "Vaginisme: désensibilisation progressive avec dilatateurs vaginaux + thérapie cognitivo-comportementale"
+  orientation:
+    - "Ambulatoire avec suivi à 2 semaines: dyspareunie non urgente, traitement étiologique simple débuté"
+    - "Gynécologue spécialisé: suspicion endométriose, douleur chronique inexpliquée, échec traitement initial"
+    - "Sexologue / thérapie de couple: composante psychologique, vaginisme, conflits conjugaux"
+    - "Kinésithérapeute périnéal: vaginisme, hypertonie pelvienne, post-partum"
+    - "Urgences gynéco: PID, GEU, torsion, agression sexuelle, hémorragie aiguë"
+
+examens_complementaires:
+  - "{t:pH vaginal} + {t:sniff-test (KOH 10%)} + examen direct: clue cells (vaginose), levures (candidose)"
+  - "{t:PCR chlamydia / gonocoque}: systématique chez femme sexuellement active avec dyspareunie [VÉRIFIER: indications de dépistage HPV/HSV/syphilis selon facteurs de risque]"
+  - "{t:Culture mycologique}: si candidose récidivante ou résistante au traitement empirique"
+  - "{t:Échographie endovaginale}: dyspareunie profonde, suspicion endométriose, masse pelvienne, post-ménopause + saignement"
+  - "{t:IRM pelvienne}: bilan endométriose profonde, masses complexes, échec écho"
+  - "{t:Biopsie} vulvaire ou endométriale: lésion suspecte, post-ménopause avec saignement, dystrophie persistante"
+
+criteres_hospitalisation:
+  - "{p:PID} avec critères de sévérité: fièvre >38,5°C, vomissements, abcès tubo-ovarien, grossesse, échec ambulatoire à 48-72h"
+  - "Suspicion {p:GEU} rompue ou {p:torsion d'annexe} → urgence chirurgicale"
+  - "Agression sexuelle <72h nécessitant accueil sécurisé + prophylaxie + médico-légal"
+  - "Hémorragie pelvienne aiguë avec retentissement hémodynamique"
+  - "Douleur incontrôlée nécessitant antalgie parentérale"
+
+pieges:
+  - "Étiqueter d'emblée la dyspareunie comme 'psychologique' sans exclure organique (endométriose, infection, atrophie, néoplasie)"
+  - "Oublier la {e:ménopause / post-partum / ISRS} comme cause de sécheresse — penser œstrogènes locaux et lubrifiants AVANT psychotropes"
+  - "Ne pas demander {r:consentement} explicite pour l'anamnèse sexuelle et l'examen pelvien (rupture d'alliance thérapeutique)"
+  - "Omettre le dépistage de {s:violences conjugales/sexuelles} — TOUJOURS en l'absence du partenaire, avec questions ouvertes"
+  - "Traiter empiriquement par antifongiques sans diagnostic (pH, examen direct, PCR) → résistances, retard diagnostic IST/PID"
+
+cartes_liees:
+  - SYS-GYN
+  - SSP-GYN-04

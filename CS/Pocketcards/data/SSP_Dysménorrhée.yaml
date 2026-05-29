@@ -1,0 +1,205 @@
+id: SSP-GYN-04
+type: ssp
+title: Dysménorrhée
+discipline: Gyneco
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dysménorrhée.md
+  - CNGOF 2021 — Dysménorrhée
+  - HAS 2022 — Endométriose
+
+# source: lignes 9-71
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • {s:hypogastrique médiane} (typique primaire)
+      • irradiation dos / cuisses?
+      • {s:unilatérale} (évocatrice endométriose / kyste)?
+    - |-
+      Onset:
+      • dès la {e:ménarche} ou 6-24 mois après → primaire
+      • {s:apparition tardive > 25 ans} ou aggravation récente → secondaire
+    - "Character: crampes rythmiques / spasmes utérins / sourde continue / coliques?"
+    - "Radiation: lombaire, périnée, faces internes cuisses?"
+    - |-
+      Time:
+      • début avant ({s:SPM}), avec ou pendant les règles
+      • pic J1-J2
+      • durée typique {r:48-72 h} (> 72 h ou persiste après règles → secondaire)
+    - |-
+      Exacerbating:
+      • dyspareunie profonde
+      • défécation ({s:dyschésie}) / miction ({s:dysurie}) cataméniales
+      • effort, stress
+    - "Relieving: {r:AINS} (efficaces 70-80% en primaire), chaleur locale, repos, contraception hormonale antérieure?"
+    - |-
+      Severity:
+      • {t:EVA 0-10}
+      • absentéisme école/travail (jours/mois)
+      • alitement, arrêt sport, anxiété anticipatoire
+  specifique:
+    - |-
+      Cycle et flux:
+      • régularité, durée règles (N: 3-7 j)
+      • {s:ménorragies} (caillots, changement protection < 2 h)
+      • {s:métrorragies} intercurrentes
+      • spotting prémenstruel
+    - |-
+      Symptômes généraux prostaglandiniques:
+      • nausées / vomissements
+      • {s:diarrhée}
+      • céphalées, lombalgies
+      • malaise, lipothymies
+    - |-
+      Drapeaux endométriose ({r:4D}):
+      • {s:Dysménorrhée} sévère résistante AINS
+      • {s:Dyspareunie profonde}
+      • {s:Dyschésie} cataméniale
+      • {s:Dysurie} cataméniale
+      • ± {s:infertilité}
+    - |-
+      Drapeaux MIP/PID:
+      • {s:fièvre} + {s:leucorrhées} purulentes
+      • douleur entre les règles
+      • {e:ATCD IST}, partenaires multiples
+    - "Contraception actuelle: {r:DIU cuivre} (aggrave) / DIU lévonorgestrel / pilule (effet protecteur)?"
+    - "{e:Désir de grossesse} actuel? infertilité? [VÉRIFIER: durée d'infertilité ≥ 12 mois définit le bilan PMA selon CNGOF]"
+  atcd:
+    - |-
+      Gynéco-obstétricaux:
+      • {e:G/P} (parité, IVG, fausses couches)
+      • âge ménarche
+      • chirurgies pelviennes (kystectomie, césarienne, conisation, curetage)
+    - "ATCD IST / MIP, examens gynéco précédents (frottis, échographies)"
+    - "ATCD médicaux: troubles hémorragiques, MICI (DD), troubles psychiatriques (impact)"
+    - |-
+      ATCD familiaux:
+      • {p:endométriose} (× 6 si 1er degré)
+      • dysménorrhée sévère familiale
+      • fibromes, cancer endomètre/ovaire
+    - |-
+      Habitudes / médicaments:
+      • {r:AINS} (dose, fréquence, efficacité, tolérance digestive)
+      • paracétamol, antispasmodiques
+      • tabac, alcool
+      • exercice physique régulier
+
+# source: lignes 581-694 (JSON) / 175-219 (MD)
+red_flags:
+  - description: "{s:Fièvre > 38°C} + {s:leucorrhées purulentes} + douleur pelvienne hors règles ± défense"
+    dx_suspecte: "{p:Maladie inflammatoire pelvienne (MIP/PID)}, abcès tubo-ovarien"
+    action: "{t:NFS-CRP, bHCG, PCR Chlamydia/Gonocoque, hémocultures si T° > 38,5}; ATB empirique IV {r:ceftriaxone 1 g IM/IV + doxycycline 100 mg ×2/j + métronidazole 500 mg ×2/j} × 14 j [VÉRIFIER: protocole local CHUV/HUG pour MIP — doses et durée]"
+  - description: "{s:Dysménorrhée invalidante résistante AINS} + {s:dyspareunie profonde} ± {s:infertilité} ± nodules utéro-sacrés au TV"
+    dx_suspecte: "{p:Endométriose} (profonde / endométriome)"
+    action: "{t:Échographie endovaginale} + {t:IRM pelvienne} de cartographie; orientation gynéco référent endométriose (cœlioscopie diagnostique + thérapeutique)"
+  - description: "{s:Métrorragies abondantes} + dysménorrhée d'apparition nouvelle chez femme {e:> 40 ans} ou post-ménopause"
+    dx_suspecte: "{p:Cancer de l'endomètre}, hyperplasie atypique, polype"
+    action: "{t:Échographie endovaginale (endomètre > 4 mm si post-ménopause)} + {t:hystéroscopie avec biopsie endométriale}; orientation oncogyné si confirmé"
+  - description: "{s:Douleur pelvienne unilatérale brutale} + masse annexielle palpable ± défense ± vomissements"
+    dx_suspecte: "{p:Torsion d'annexe} sur kyste/endométriome, rupture de kyste hémorragique"
+    action: "{t:bHCG urgent, échographie pelvienne avec Doppler} STAT; avis chirurgie gynéco urgent (cœlioscopie < 6 h si torsion)"
+  - description: "Retard de règles + dysménorrhée + métrorragies + douleur latéralisée ± lipothymie"
+    dx_suspecte: "{p:Grossesse extra-utérine (GEU)}, fausse couche"
+    action: "{t:bHCG quantitatif + échographie endovaginale} immédiat; voie veineuse, groupe + Rh; avis gynéco urgent"
+  - description: "Dysménorrhée + {s:amaigrissement} + altération état général ± masse abdomino-pelvienne"
+    dx_suspecte: "{p:Cancer ovarien ou utérin}"
+    action: "{t:Échographie pelvienne + CA-125 + bilan d'extension} (CT thoraco-abdomino-pelvien); orientation oncogyné [VÉRIFIER: seuil CA-125 selon statut ménopausique]"
+
+# source: lignes 580-693 (JSON) / 177-219 (MD)
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T° (fièvre = {p:MIP}), FR, SaO2"
+    - "Morphotype, {t:IMC} (maigreur = facteur risque, BMI < 20)"
+    - "{s:Signes d'anémie} (pâleur conjonctivale, asthénie) si ménorragies"
+    - "État émotionnel, retentissement psychologique"
+  cible:
+    - |-
+      Examen abdominal:
+      • douleur provoquée hypogastrique
+      • {s:masse pelvienne} palpable (fibrome volumineux, kyste, utérus globuleux)
+      • défense / contracture ({p:MIP} compliquée, péritonite)
+    - |-
+      Spéculum (si rapports sexuels):
+      • col: aspect, lésions, glaire
+      • {s:leucorrhées purulentes/malodorantes} ({p:cervicite})
+      • saignement provoqué (cervicite, ectropion, cancer)
+      • position des fils du DIU
+    - |-
+      Toucher vaginal (TV):
+      • utérus: taille (augmenté = {p:adénomyose}/fibrome), position, {s:mobilité limitée} (adhérences), sensibilité
+      • {s:douleur à la mobilisation utérine} ({p:MIP})
+      • annexes: masses ({p:endométriome}, kyste), sensibilité
+      • Douglas: {s:nodules utéro-sacrés} ({p:endométriose profonde})
+    - |-
+      Si {e:vierge} ou refus TV:
+      • examen abdominal seul
+      • {t:échographie sus-pubienne} en première intention
+      • TR seul (si suspicion endométriose profonde rectale)
+    - "Recherche endométriose profonde: nodules bleutés vaginaux, palpation ligaments utéro-sacrés, TV + TR combinés (cloison recto-vaginale)"
+
+# source: ordre approximatif fréquence (CNGOF 2021)
+dd_top5:
+  - dx: "{p:Dysménorrhée primaire}"
+    indices: "Adolescente / jeune femme, début 6-24 mois post-ménarche, crampes rythmiques J1-J2, durée {r:48-72 h}, examen NORMAL, soulagée par {r:AINS} (70-80%), mécanisme {s:prostaglandines}, amélioration avec âge/grossesse"
+    freq: "très fréquent (50-90% des femmes en âge de procréer, 10% formes invalidantes)"
+  - dx: "{p:Endométriose}"
+    indices: "Dysménorrhée progressive sévère, {s:dyspareunie profonde}, dyschésie/dysurie cataméniales, infertilité, ATCD familial; nodules utéro-sacrés au TV; {t:écho endovaginale + IRM} évocatrices; cœlioscopie = gold standard; retard diagnostic moyen {r:7-10 ans}"
+    freq: "10% des femmes en âge de procréer, 30-50% des dysménorrhées secondaires"
+  - dx: "{p:Adénomyose}"
+    indices: "Femme {e:> 35-40 ans} multipare, dysménorrhée + {s:ménorragies importantes}, utérus globuleux augmenté de volume au TV, sensibilité utérine diffuse; {t:écho endovaginale} (utérus hétérogène, kystes myométriaux) ou {t:IRM} (zone jonctionnelle > 12 mm) [VÉRIFIER: seuil IRM zone jonctionnelle exact selon référentiel]"
+    freq: "fréquent (20-35% des femmes 40-50 ans)"
+  - dx: "{p:Fibromes utérins} (léiomyomes)"
+    indices: "Ménorragies prédominantes, {s:pesanteur pelvienne}, masse palpable, utérus polyglobuleux, signes de compression vésicale/rectale; {t:échographie pelvienne}; risque augmenté origine africaine"
+    freq: "très fréquent (20-40% > 35 ans)"
+  - dx: "{p:DIU au cuivre}"
+    indices: "Apparition de dysménorrhée + augmentation du flux après pose de {r:DIU Cu}; ATCD pose DIU cuivre; soulagée par retrait ou switch DIU lévonorgestrel (Mirena®)"
+    freq: "fréquent chez porteuses de DIU cuivre (effet de classe)"
+
+# source: lignes 222-398 (MD)
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — fièvre + leucorrhées → bilan {p:MIP}; douleur latéralisée brutale → bHCG + écho urgents avant antalgiques"
+    - "Primaire typique: {r:Ibuprofène 400-600 mg PO ×3/j} OU {r:Naproxène 550 mg PO ×2/j} OU {r:acide méfénamique 500 mg PO ×3/j}, à débuter {r:1-2 j avant règles} ou dès premiers signes, × 2-3 j; efficacité 70-80%; CI: ulcère, allergie AINS, {e:grossesse}, IR"
+    - "Si CI/échec AINS: {r:paracétamol 1 g ×4/j} (moins efficace seul) ± {r:phloroglucinol 80 mg ×3/j} (antispasmodique)"
+    - "2ᵉ ligne si désir de contraception ou échec AINS: contraception hormonale combinée ({r:pilule œstroprogestative en continu} ou cyclique, patch, anneau); efficacité ~90% sur la douleur [VÉRIFIER: posologie continue exacte vs cyclique selon CNGOF/SSGO]"
+    - "Alternative progestative si CI œstrogènes: {r:DIU lévonorgestrel (Mirena®) 52 mg} (excellent pour adénomyose et endométriose) OU {r:diénogest 2 mg/j PO} (endométriose) OU implant"
+    - "Mesures non médicamenteuses adjuvantes: chaleur locale (bouillotte, bain), repos pic douloureux, {r:TENS}, exercice physique régulier, gestion stress"
+    - "{p:MIP} suspectée: {r:ceftriaxone 1 g IM/IV + doxycycline 100 mg PO ×2/j × 14 j + métronidazole 500 mg PO ×2/j × 14 j}; retrait DIU si abcès ou pas d'amélioration à 48-72 h"
+  orientation:
+    - "Domicile + suivi MT/gynéco ambulatoire: dysménorrhée primaire typique, examen normal, réponse aux AINS"
+    - "Gynéco ambulatoire (consultation < 4 semaines): échec AINS + contraception après 3-6 mois, suspicion endométriose, dysménorrhée secondaire, anomalie échographique"
+    - "Centre référent endométriose: 4D + nodules utéro-sacrés ± infertilité ± atteinte digestive/urinaire → IRM de cartographie + RCP"
+    - "Urgences gynéco: red flag (fièvre + douleur, masse + défense, métrorragies abondantes, suspicion GEU/torsion)"
+    - "Consignes de retour: fièvre, douleur résistante traitement bien pris, saignements abondants, dyspareunie nouvelle, syncope"
+
+# source: lignes 224-264 (MD)
+examens_complementaires:
+  - "{t:bHCG urinaire ou plasmatique}: éliminer grossesse / GEU systématiquement avant imagerie ou AINS prolongés"
+  - "{t:Échographie pelvienne sus-pubienne + endovaginale}: 1ʳᵉ ligne si secondaire suspectée — recherche endométriomes, adénomyose (utérus hétérogène, kystes myométriaux), fibromes, malformations, hydrosalpinx"
+  - "{t:IRM pelvienne avec opacification rectale}: cartographie endométriose profonde, bilan préopératoire, adénomyose (zone jonctionnelle), discordance écho/clinique"
+  - "{t:NFS + ferritine}: si ménorragies (anémie ferriprive); {t:CRP + PCR Chlamydia/Gonocoque (auto-prélèvement vaginal)} si suspicion MIP"
+  - "{t:Hystéroscopie} ± biopsie endométriale: suspicion polypes, synéchies, malformation, hyperplasie/cancer endomètre (femme > 45 ans avec ménorragies)"
+  - "{t:Cœlioscopie diagnostique avec biopsies}: gold standard endométriose, échec traitement médical, bilan infertilité; permet traitement simultané"
+
+# source: lignes 392-397 (MD)
+criteres_hospitalisation:
+  - "{p:MIP} sévère: fièvre > 38,5°C, défense, abcès tubo-ovarien, vomissements, intolérance ATB PO, échec ATB ambulatoire 48-72 h"
+  - "Suspicion {p:GEU} rompue / torsion d'annexe / kyste hémorragique compliqué (instabilité hémodynamique, défense)"
+  - "Anémie sévère sur ménorragies ({t:Hb < 8 g/dL} ou mal tolérée) → transfusion + bilan étiologique [VÉRIFIER: seuil transfusion selon tolérance clinique HAS]"
+  - "Douleur incontrôlée malgré traitement bien conduit ambulatoire (3 paliers d'antalgiques)"
+  - "Grossesse confirmée avec complication (fausse couche hémorragique, GEU)"
+
+# source: lignes 411-422 (MD) + connaissance ECOS
+pieges:
+  - "Étiqueter une dysménorrhée invalidante de '{e:psychologique}' ou 'normale' chez l'adolescente → retarder le diagnostic d'{p:endométriose} (délai moyen {r:7-10 ans})"
+  - "Oublier de demander la {e:contraception actuelle}: un {r:DIU cuivre} est une cause fréquente et réversible de dysménorrhée secondaire"
+  - "Sous-doser ou retarder les {r:AINS}: débuter {r:1-2 j AVANT} les règles ou dès les premiers signes, pas après l'installation de la douleur"
+  - "Méconnaître une {p:MIP} en attribuant fièvre + douleur pelvienne à une simple dysménorrhée → risque d'infertilité tubaire et d'abcès"
+  - "Oublier de proposer la {r:contraception hormonale} comme traitement à part entière (et non simple contraceptif) en cas d'échec/CI des AINS"
+
+cartes_liees:
+  - SSP-COM-07
+  - SYS-GYN

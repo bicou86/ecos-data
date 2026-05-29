@@ -1,0 +1,207 @@
+id: SSP-GYN-03
+type: ssp
+title: Douleur ou masse pelvienne
+discipline: Gyneco
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Douleur_Masse_Pelvienne.md
+
+# source: MD line 9-225
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • hypogastrique médiane (utérus, vessie, digestif)
+      • latéralisée droite/gauche (annexe, GEU, appendicite si FID)
+      • irradiations dos, cuisses, périnée?
+    - |-
+      Onset:
+      • brutal < 1 min ({p:torsion}, {p:rupture kyste}, {p:GEU rompue})
+      • progressif sur heures/jours (infection, kyste, tumeur)
+      • cyclique mensuel ({p:endométriose}, {p:dysménorrhée})
+    - "Character: crampes/spasmes, pesanteur (masse/fibrome), brûlure (urinaire), coup de poignard (vasculaire)?"
+    - "Radiation: scapulalgie ({s:irritation phrénique = hémopéritoine}), périnée, cuisse interne?"
+    - |-
+      Time:
+      • aiguë < 3 mois vs chronique > 6 mois
+      • durée des accès
+      • {s:DDR} et relation avec cycle (prémenstruelle, menstruelle, ovulatoire/mittelschmerz, acyclique)
+    - |-
+      Exacerbating:
+      • rapports sexuels ({s:dyspareunie profonde} → endométriose, MIP)
+      • défécation ({s:dyschésie} → endométrios profonde)
+      • miction
+      • effort, position
+    - "Relieving: position antalgique (chien de fusil), antalgiques, chaleur, repos?"
+    - |-
+      Severity:
+      • EVA 0-10
+      • impact activités, arrêts de travail, absentéisme scolaire
+      • réveil nocturne?
+  specifique:
+    - |-
+      {s:Saignements} associés:
+      • {s:aménorrhée + métrorragies + douleur latéralisée} → {p:GEU} jusqu'à preuve du contraire
+      • ménorragies abondantes ({p:fibrome}, adénomyose)
+      • spotting intermenstruel
+    - |-
+      {s:Leucorrhées}:
+      • abondance, couleur (jaune/verte → MIP), odeur, prurit
+      • partenaires multiples, ATCD IST
+    - "{s:Fièvre} + frissons → {p:salpingite/MIP}, {p:abcès tubo-ovarien}, pyélonéphrite [VÉRIFIER: seuil 38.5 °C selon protocole local]"
+    - |-
+      Signes de masse:
+      • augmentation périmètre abdominal, vêtements serrés
+      • autopalpation, découverte fortuite à l'examen
+      • {s:pollakiurie/dysurie} ou {s:constipation/ténesme} (compression)
+    - "{s:AEG (amaigrissement, asthénie, anorexie)} + ascite + masse fixée → suspicion {p:cancer ovaire}"
+    - "Question de clôture OBLIGATOIRE: 'Pourriez-vous être enceinte?' + recherche {s:malaise/scapulalgie} (rupture GEU)"
+    - "Symptômes d'endométriose ({r:5D}): Dysménorrhée, Dyspareunie, Dysurie, Dyschésie, Douleur chronique"
+  atcd:
+    - |-
+      {s:Histoire menstruelle}:
+      • DDR précise, régularité, ménarche
+      • contraception actuelle ({e:DIU} → ↑ risque salpingite et GEU)
+      • test grossesse récent et résultat
+    - |-
+      ATCD obstétricaux:
+      • parité, gestité
+      • {p:GEU antérieure} (risque récidive ~10-15 %)
+      • IVG, fausses couches, accouchements
+      • {e:PMA/FIV} en cours (grossesse hétérotopique possible)
+    - |-
+      ATCD gynécologiques:
+      • chirurgie pelvienne (adhérences)
+      • {p:IST/MIP} antérieure
+      • endométriose connue, kystes
+      • dépistage frottis/HPV à jour?
+    - |-
+      ATCD familiaux:
+      • cancers sein/ovaire ({p:mutation BRCA1/2})
+      • endométriose
+    - |-
+      Habitudes / FdR:
+      • tabac (↑ risque GEU)
+      • partenaires sexuels (FdR IST)
+      • nulliparité, ménopause (cancer ovaire)
+
+# source: MD line 89, 107, 117, 164, 451 + clinical pivots
+red_flags:
+  - description: "{s:Douleur pelvienne brutale + βHCG positive} ± métrorragies ± {s:scapulalgie/malaise}"
+    dx_suspecte: "{p:GEU rompue avec hémopéritoine}"
+    action: "VVP × 2 + remplissage, NFS/groupe/RAI/crase, {t:écho pelvienne} STAT, appel chirurgie gynéco urgente — ne pas attendre la quantification βHCG"
+  - description: "{s:Douleur unilatérale brutale intense + vomissements} ± masse annexielle connue"
+    dx_suspecte: "{p:Torsion d'annexe}"
+    action: "{t:écho pelvienne + Doppler annexiel} STAT; {r:cœlioscopie de détorsion < 6 h} (au-delà = nécrose ovarienne)"
+  - description: "{s:Fièvre > 38.5 °C + douleur sus-pubienne + leucorrhées purulentes} ± défense"
+    dx_suspecte: "{p:Salpingite aiguë / abcès tubo-ovarien}"
+    action: "Hospitalisation, NFS/CRP/hémocultures/prélèvements vaginaux, {r:ceftriaxone 1-2 g IV + doxycycline 100 mg × 2/j + métronidazole 500 mg × 3/j} [VÉRIFIER: posologie locale CHUV/HUG]"
+  - description: "{s:Défense ou contracture abdominale + signes péritonéaux} (rebond, cri du Douglas)"
+    dx_suspecte: "{p:Péritonite} (rupture kyste, abcès rompu, appendicite perforée, GEU)"
+    action: "À jeun, VVP, antalgiques IV, {t:βHCG + écho + scanner abdomino-pelvien}, avis chirurgical viscéral STAT"
+  - description: "{s:Instabilité hémodynamique} (TA < 90, FC > 110, pâleur, sueurs) chez femme en âge de procréer"
+    dx_suspecte: "{p:Hémopéritoine} (GEU rompue, rupture kyste hémorragique)"
+    action: "Réanimation: VVP × 2, {r:cristalloïdes 500 mL bolus + CGR si Hb < 8 g/dL}, écho au lit, bloc opératoire d'emblée"
+  - description: "{s:Masse pelvienne fixée + ascite + AEG} chez femme > 50 ans"
+    dx_suspecte: "{p:Cancer de l'ovaire}"
+    action: "{t:CA-125 + écho pelvienne + IRM + scanner TAP}, RCP oncogynécologique [VÉRIFIER: index ROMA si pré/post-ménopause]"
+
+# source: MD line 229-291
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: TA (couché + debout — hypoTA orthostatique = hémopéritoine), FC, T°, FR, SpO2"
+    - "{s:Pâleur conjonctivale}, marbrures, allongement TRC → choc hypovolémique"
+    - "État nutritionnel, BMI; faciès douloureux, position antalgique"
+    - "Glycémie capillaire si malaise; bandelette urinaire (leucocytes, nitrites, hématurie, βHCG urinaire IMMÉDIATE)"
+  cible:
+    - |-
+      Inspection abdominale:
+      • distension, voussure
+      • cicatrices (adhérences)
+      • circulation collatérale
+    - |-
+      Palpation abdominale:
+      • {s:défense / contracture} (péritonite)
+      • masse pelvienne (siège, taille, consistance, mobilité, sensibilité)
+      • point de McBurney (appendicite, FID droite)
+      • signe de Rovsing, psoïtis
+    - "Percussion: {s:matité déclive} (ascite, hémopéritoine), tympanisme"
+    - |-
+      Spéculum:
+      • aspect du col, saignement endo-utérin
+      • leucorrhées (couleur, abondance) + prélèvements vaginaux/cervicaux
+      • {s:douleur à la mobilisation du col} (cri du Douglas)
+    - |-
+      Toucher vaginal bimanuel:
+      • utérus (taille, position, mobilité, sensibilité)
+      • masses annexielles uni/bilatérale, taille, consistance kystique/solide, mobilité/fixité
+      • {s:bombement du cul-de-sac de Douglas} (épanchement) — cri du Douglas (irritation péritonéale)
+    - "Toucher rectal si suspicion endométriose profonde: nodules recto-vaginaux, masses postérieures"
+    - "Recherche complications: globe vésical, OMI (compression veineuse), adénopathies inguinales/sus-claviculaires (Troisier)"
+
+# source: MD line 93-185, clinical pivots
+dd_top5:
+  - dx: "{p:Grossesse extra-utérine (GEU)}"
+    indices: "{s:Aménorrhée 6-8 sem + métrorragies brunâtres + douleur latéralisée}; βHCG positive sans sac intra-utérin à l'écho (>1500 UI/L), masse annexielle ± épanchement Douglas; FdR: ATCD GEU, salpingite, DIU, PMA, tabac"
+    freq: "1-2 % des grossesses; URGENCE VITALE [VÉRIFIER: seuil βHCG discriminant 1500-2000 UI/L selon protocole]"
+  - dx: "{p:Torsion d'annexe}"
+    indices: "Douleur brutale unilatérale intense + vomissements; masse annexielle (souvent kyste > 5 cm); écho-Doppler = arrêt du flux vasculaire (signe tardif, sensibilité faible); {r:cœlioscopie < 6 h} pour préserver l'ovaire"
+    freq: "rare mais URGENCE chirurgicale; 2-3 % des urgences gynéco"
+  - dx: "{p:Kyste ovarien hémorragique / rupture}"
+    indices: "Douleur brutale en milieu de cycle (mittelschmerz) ou post-rapport, EVA 6-9, résolution progressive sur 24-72 h; écho = kyste avec contenu hétérogène ± épanchement modéré du Douglas; surveillance si stable"
+    freq: "fréquent (kystes fonctionnels), souvent bénin"
+  - dx: "{p:Salpingite aiguë / MIP}"
+    indices: "Femme jeune sexuellement active, fièvre, leucorrhées purulentes, douleur sus-pubienne + mobilisation utérine douloureuse; CRP élevée; prélèvements: {p:Chlamydia trachomatis, Neisseria gonorrhoeae}; risque infertilité, GEU"
+    freq: "fréquent (1 % des femmes 15-35 ans/an)"
+  - dx: "{p:Endométriose} (forme chronique)"
+    indices: "{r:5D}: dysménorrhée invalidante progressive, dyspareunie profonde, dyschésie, dysurie cataméniales, douleur chronique > 6 mois; infertilité associée; nodules au TR; IRM/écho endovaginale + cœlioscopie diagnostique"
+    freq: "très fréquent (10 % femmes en âge procréer); diagnostic retardé en moyenne 7-8 ans [VÉRIFIER: chiffre selon source]"
+
+# source: MD line 296-452
+pec_initiale:
+  immediate:
+    - "{t:βHCG urinaire ou sanguine quantitative} chez TOUTE femme en âge de procréer — règle d'or AVANT toute imagerie/médicament"
+    - "VVP, NFS, CRP, ionogramme, créat, groupe/RAI/crase si chirurgie probable; ECG si > 50 ans avant chirurgie"
+    - "{t:Échographie pelvienne sus-pubienne + endovaginale} ± Doppler = examen clé de 1ère intention (vessie pleine pour sus-pubienne)"
+    - "Antalgiques palier adapté: {r:paracétamol 1 g IV + AINS (kétoprofène 100 mg IV) ± morphine titrée 2 mg IV / 5 min} si EVA > 6; éviter AINS si grossesse > 24 SA ou rupture suspecte"
+    - "{p:GEU non rompue}: hospitalisation, {r:méthotrexate 50 mg/m² IM} si critères stricts (βHCG < 5000, pas d'activité cardiaque, < 4 cm, stable, compliance) OU cœlioscopie (salpingotomie/salpingectomie) [VÉRIFIER: seuils βHCG protocole local]"
+    - "{p:GEU rompue / hémopéritoine}: réanimation (cristalloïdes + CGR), {r:cœlioscopie ou laparotomie en urgence}, anti-D si Rhésus négatif"
+    - "{p:Torsion d'annexe}: {r:cœlioscopie de détorsion < 6 h} + kystectomie si kyste; annexectomie si nécrose; ne PAS retarder pour imagerie complémentaire si clinique évidente"
+    - "{p:Salpingite}: {r:ceftriaxone 1 g IM/IV + doxycycline 100 mg × 2/j PO + métronidazole 500 mg × 3/j} pendant 14 j; hospitalisation si abcès, sévère, échec ambulatoire; traiter partenaire(s) + dépistage IST [VÉRIFIER: durée 14 vs 21 j selon HUG/CHUV]"
+  orientation:
+    - "Bloc opératoire d'emblée: GEU rompue, torsion d'annexe, péritonite, instabilité hémodynamique"
+    - "Hospitalisation gynéco: GEU non rompue, salpingite sévère/abcès, fièvre + masse, douleur incontrôlée, suspicion néoplasie"
+    - "Ambulatoire: kyste fonctionnel stable, salpingite légère ambulatoire compatible, fibrome stable, endométriose connue stable — contrôle écho à 3 mois"
+    - "Consultation gynéco spécialisée: endométriose nouvelle suspectée, masse persistante, douleur chronique multidisciplinaire (algologue, psy, kiné pelvien)"
+    - "Consignes de retour: aggravation douleur, fièvre, malaise, métrorragies abondantes, signes choc"
+
+# source: MD line 296-339
+examens_complementaires:
+  - "{t:βHCG quantitative}: confirmer/quantifier grossesse, cinétique (× 2 en 48 h = évolutive intra-utérine; plateau/baisse → GEU)"
+  - "{t:Échographie pelvienne (sus-pubienne + endovaginale)} ± Doppler: 1ère ligne — utérus, ovaires, trompes, Douglas, sac gestationnel, vascularisation masses"
+  - "{t:NFS, CRP, ionogramme, créat, groupe/RAI/crase}: bilan préop, anémie, syndrome inflammatoire"
+  - "{t:Prélèvements vaginaux + endocervicaux} (PCR Chlamydia/gonocoque + culture): toute suspicion MIP/salpingite"
+  - "{t:IRM pelvienne}: caractérisation masse complexe, bilan endométriose profonde, extension cancer; {t:scanner abdomino-pelvien} si urgence abdominale ou bilan extension TAP"
+  - "{t:Marqueurs tumoraux} (CA-125 ± CA 19-9, ACE, βHCG/AFP/LDH si tumeur germinale): masse suspecte > 50 ans; cœlioscopie diagnostique si doute persistant"
+
+# source: MD line 445-452
+criteres_hospitalisation:
+  - "Urgences chirurgicales: {p:GEU rompue}, {p:torsion d'annexe}, {p:péritonite}, abcès tubo-ovarien"
+  - "{s:Instabilité hémodynamique} ou suspicion hémopéritoine (TA < 90, FC > 110, Hb < 9)"
+  - "Douleur non contrôlée malgré antalgiques palier 2-3 ambulatoires"
+  - "{s:Fièvre > 38.5 °C + masse pelvienne} (abcès), salpingite sévère, intolérance digestive aux ATB"
+  - "Suspicion néoplasie nécessitant bilan extension + RCP"
+
+# source: MD line 456-477
+pieges:
+  - "Ne pas demander {t:βHCG} chez toute femme en âge de procréer — règle absolue avant imagerie irradiante ou médicament tératogène"
+  - "Méconnaître une {p:GEU} avec βHCG faible (< 1500) — refaire à 48 h + écho endovaginale; penser grossesse hétérotopique si {e:PMA}"
+  - "Retarder la cœlioscopie en {p:torsion d'annexe} pour confirmer par imagerie — Doppler normal n'exclut pas la torsion (sensibilité ~50 %); urgence < 6 h"
+  - "Diagnostic d'{p:endométriose} retardé de 7-8 ans en moyenne — penser devant toute dysménorrhée progressive + dyspareunie profonde chez femme jeune [VÉRIFIER: source guideline]"
+  - "Opérer un kyste fonctionnel <5 cm résolutif — surveillance échographique à 3 mois suffit dans la majorité des cas"
+
+cartes_liees:
+  - SYS-GYN
+  - SSP-GYN-01

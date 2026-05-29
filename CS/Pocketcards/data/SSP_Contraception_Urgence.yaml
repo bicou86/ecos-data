@@ -1,0 +1,211 @@
+id: SSP-GYN-02
+type: ssp
+title: Contraception d'urgence
+discipline: Gyneco
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Contraception_Urgence.md
+
+# source: ligne 9-134
+anamnese:
+  socrates:
+    - |-
+      Temporalité du rapport — CRUCIAL (détermine la méthode):
+      • {r:< 24 h} (efficacité maximale, toutes options ouvertes)
+      • {r:24-72 h} (lévonorgestrel encore possible)
+      • {r:72-120 h} (UPA ou DIU cuivre uniquement)
+      • {r:> 120 h} (5 jours) → DIU cuivre seul; au-delà aucune CU efficace
+    - |-
+      Rapports antérieurs dans le cycle:
+      • dates précises de chaque rapport non protégé?
+      • contraception d'urgence déjà prise ce cycle (laquelle, quand)?
+      • si rapport > 120 h dans le cycle → CU exclut grossesse en cours mais ne protège pas du précédent
+    - |-
+      Nature de l'incident contraceptif:
+      • absence totale de contraception
+      • {s:rupture / glissement} de préservatif
+      • {s:oubli pilule} (combien? quand dans la plaquette?)
+      • {s:vomissements / diarrhée} < 3 h après pilule
+      • interaction médicamenteuse (inducteur enzymatique)
+      • retrait tardif / méthode naturelle imprécise
+    - "Éjaculation intravaginale confirmée? Si doute → considérer le risque et proposer CU"
+    - |-
+      Cycle menstruel — évaluation du risque:
+      • {r:DDR} (date dernières règles) certaine?
+      • durée et régularité des cycles habituels
+      • jour du cycle au moment du rapport — risque maximal {r:J10-J17} si cycle 28 j
+      • signes d'ovulation (glaire filante, Mittelschmerz, T° en plateau)
+    - "Symptômes de grossesse débutante (nausées, tension mammaire, retard règles, fatigue)?"
+    - "Vécu et attentes: anxiété, culpabilité, niveau d'information, demande de confidentialité"
+  specifique:
+    - |-
+      Évaluation contre-indications / précautions:
+      • {p:grossesse en cours} suspectée (CU inutile, non tératogène mais à exclure)
+      • {e:allaitement} en cours (UPA → suspension 7 j; LNG → pause 8 h)
+      • pathologies hépatiques sévères (CI relative)
+      • {p:porphyrie} aiguë intermittente (CI lévonorgestrel)
+      • hypersensibilité connue au produit
+    - |-
+      Inducteurs enzymatiques (réduisent efficacité):
+      • antiépileptiques: phénytoïne, carbamazépine, topiramate
+      • {r:rifampicine}, rifabutine
+      • {r:millepertuis} (Hypericum)
+      • antirétroviraux (efavirenz, ritonavir)
+      → préférer {r:DIU cuivre} ou doubler dose LNG [VÉRIFIER: doublement LNG selon recommandations SSGO/FSRH]
+    - |-
+      IMC et efficacité:
+      • {e:IMC > 26} ou poids > {r:70 kg} → efficacité LNG réduite
+      • {e:IMC > 30} ou poids > {r:85 kg} → préférer UPA ou DIU
+      • [VÉRIFIER: seuils poids/IMC pour escalade — données contradictoires selon études]
+    - |-
+      Contexte de violence sexuelle (à rechercher activement):
+      • {s:rapport non consenti}, pression, contrainte
+      • partenaire violent, contrôlant
+      → orientation médico-légale + soutien psychologique + prophylaxie IST/VIH
+    - "Statut IST: partenaire connu et testé? multipartenariat? dernier dépistage? vaccination HPV/VHB?"
+  atcd:
+    - |-
+      Antécédents gynéco-obstétricaux:
+      • gestité / parité (G_P_)
+      • IVG, fausses couches (nombre, dates)
+      • {p:grossesse extra-utérine} antérieure (CI relative DIU)
+      • {s:infections génitales hautes} récentes (CI DIU)
+    - |-
+      Méthode contraceptive habituelle:
+      • aucune / préservatif / pilule (laquelle, dose) / DIU / implant / méthodes naturelles
+      • observance habituelle, oublis fréquents → discuter LARC après CU
+      • CU antérieures (fréquence, méthode) → si répétée, signe d'inadéquation de la méthode régulière
+    - "Pathologies générales: cardiopathies, thromboembolie, diabète, cancer du sein/utérus"
+    - |-
+      Vie psychosociale:
+      • {e:mineure} (CU gratuite et anonyme en pharmacie pour LNG, pas d'autorisation parentale requise)
+      • contexte de violences conjugales ou familiales
+      • précarité, isolement
+      • confidentialité demandée (vérifier moyens de communication)
+
+# source: ligne 357-365 + pivots cliniques
+red_flags:
+  - description: "{s:Douleur pelvienne intense unilatérale} + saignement vaginal + DDR incertaine"
+    dx_suspecte: "{p:Grossesse extra-utérine}"
+    action: "{t:β-hCG quantitative} + {t:échographie pelvienne} en urgence; PAS de CU avant exclusion GEU; orientation gynécologie"
+  - description: "{s:Rapport non consenti / agression sexuelle} déclarée ou suspectée"
+    dx_suspecte: "{p:Violences sexuelles} — urgence médico-légale et de santé publique"
+    action: "Orientation immédiate Centre LAVI / urgences gynéco; prélèvements médico-légaux; {r:TPE VIH} si < 48 h; antibioprophylaxie IST; soutien psychologique; signalement si mineure"
+  - description: "{s:Retard règles > 7 j} après prise de CU OU saignements anormaux persistants"
+    dx_suspecte: "{p:Échec contraception d'urgence} (grossesse) ou GEU"
+    action: "{t:β-hCG} obligatoire; si positif → datation par échographie + orientation gynéco; rassurer sur non-tératogénicité"
+  - description: "Prise d'{r:inducteurs enzymatiques} (rifampicine, antiépileptiques, millepertuis, ARV) + CU hormonale envisagée"
+    dx_suspecte: "{p:Inefficacité prévisible de la CU hormonale}"
+    action: "Privilégier {r:DIU cuivre} (efficacité préservée); à défaut doubler la dose LNG (3 mg) [VÉRIFIER: protocole exact selon SSGO]; éviter UPA dans ce contexte"
+  - description: "{e:Allaitement en cours} + indication UPA (rapport > 72 h)"
+    dx_suspecte: "{p:Passage UPA dans le lait maternel}"
+    action: "Suspendre allaitement {r:7 jours} (tirer et jeter le lait); alternative LNG si < 72 h (suspension 8 h seulement); informer mère"
+  - description: "{e:IMC > 30} ou poids > {r:85 kg} + demande LNG"
+    dx_suspecte: "{p:Efficacité réduite du lévonorgestrel}"
+    action: "Préférer {r:UPA 30 mg PO} ou {r:DIU cuivre}; à défaut LNG double dose 3 mg [VÉRIFIER: seuils et alternatives selon guidelines récentes]"
+
+# source: ligne 136-151
+examen:
+  general:
+    - "Examen clinique généralement {r:NON nécessaire} pour prescription LNG/UPA — anamnèse suffit"
+    - "Signes vitaux (TA, FC, T°) si suspicion grossesse en cours, infection, ou pose de DIU envisagée"
+    - "Inspection générale: signes d'anxiété, état émotionnel; recherche discrète de traces de violences"
+  cible:
+    - |-
+      Examen indiqué si:
+      • {s:douleurs pelviennes} ou suspicion {p:GEU}
+      • signes d'{p:infection génitale} (leucorrhées, fièvre)
+      • {s:saignements anormaux} non liés au cycle
+      • avant pose de DIU (anatomie utérine)
+      • examen médico-légal après agression
+    - |-
+      Examen gynécologique si indiqué:
+      • palpation abdominale (masse, défense, douleur)
+      • inspection vulvaire (lésions, traces violences)
+      • spéculum: col, leucorrhées, saignement actif
+      • toucher vaginal: taille/position utérus, douleur annexielle (GEU?)
+    - "Avant pose DIU: vérifier absence d'{p:infection cervicale active}, anatomie utérine, exclusion grossesse par βhCG"
+
+# source: lignes 174-272 (adaptées : « DD » = options thérapeutiques)
+dd_top5:
+  - dx: "{p:Lévonorgestrel 1.5 mg PO} (Norlevo®, NorLevo®)"
+    indices: "Délai ≤ {r:72 h}; efficacité {r:95 % < 24 h, 85 % 24-48 h, 58 % 48-72 h}; sans ordonnance, gratuit mineure; mécanisme = retard ovulation; reprise dose si vomissements < 3 h"
+    freq: "1re ligne accessible si ≤ 72 h, hors UPA et hors obésité"
+  - dx: "{p:Ulipristal acétate 30 mg PO} (EllaOne®, UPA)"
+    indices: "Délai ≤ {r:120 h}; efficacité {r:~98 %} maintenue, supérieure au LNG après 48-72 h; modulateur récepteurs progestérone; ordonnance + remboursé 65 %; jeûne 2 h avant/après; suspension contraception hormonale 5 j; allaitement → pause 7 j"
+    freq: "1er choix entre 24-120 h ou si IMC > 26 / poids > 70 kg"
+  - dx: "{p:DIU au cuivre} (Mona Lisa, TT 380, Nova T)"
+    indices: "Délai ≤ {r:120 h}; efficacité {r:> 99 %} (la plus haute); mécanisme spermicide + altération endomètre; double bénéfice = contraception continue 5-10 ans; pose par professionnel formé; antibioprophylaxie {r:azithromycine 1 g} si risque IST"
+    freq: "1er choix si > 72 h, obésité, inducteurs enzymatiques, ou désir contraception au long cours"
+  - dx: "{p:Méthode de Yuzpe} (œstroprogestatifs haute dose)"
+    indices: "Méthode {r:historique abandonnée} en pratique courante; efficacité inférieure; effets secondaires plus marqués (nausées 50 %, vomissements 20 %); à connaître pour examen mais à ne plus proposer"
+    freq: "obsolète — ne pas prescrire"
+  - dx: "{p:Refus de contraception d'urgence / absence d'indication}"
+    indices: "Rapport > 120 h, ou hors période fertile certifiée, ou patiente déjà sous CU efficace; rappeler que CU n'interrompt PAS une grossesse établie; orienter contraception régulière + βhCG si retard"
+    freq: "discuter selon contexte"
+
+# source: ligne 253-355
+pec_initiale:
+  immediate:
+    - |-
+      Algorithme de choix selon délai depuis le rapport:
+      • {r:< 24 h}: UPA ou LNG (LNG si OTC nécessaire et accessible immédiatement)
+      • {r:24-72 h}: {r:UPA 30 mg PO} (1er choix) > LNG 1.5 mg
+      • {r:72-120 h}: {r:DIU cuivre} (1er choix) > UPA; LNG non efficace
+      • {r:> 120 h}: aucune CU efficace — βhCG à 3 semaines, contraception régulière
+    - |-
+      Situations particulières — adapter la méthode:
+      • {e:IMC > 26} / poids > {r:70 kg}: préférer UPA ou DIU
+      • {r:inducteurs enzymatiques}: DIU cuivre +++ (efficacité préservée)
+      • {e:allaitement}: LNG (pause 8 h) si ≤ 72 h; UPA (pause 7 j) sinon
+      • rapports multiples non protégés dans le cycle: DIU cuivre préférable
+    - "Information patiente claire: CU = {r:n'est pas 100 % efficace}, ne protège PAS rapports ultérieurs, n'est PAS abortive; reprendre dose si vomissements < 3 h"
+    - |-
+      Prévention IST associée (si FDR):
+      • {r:TPE VIH} si < 48 h et risque élevé
+      • antibioprophylaxie ({r:azithromycine 1 g} ± {r:ceftriaxone 500 mg IM}) si agression, partenaires multiples
+      • vaccination VHB si non immunisée
+      • dépistage différé 4-6 semaines (sérologies + PCR)
+    - |-
+      Quick-start contraception régulière:
+      • après {r:LNG}: démarrer pilule {r:le lendemain}; préservatif 7 jours
+      • après {r:UPA}: attendre {r:5 jours} avant pilule (sinon antagonisme); préservatif 5 + 7 jours
+      • {r:DIU posé} = contraception active immédiate
+  orientation:
+    - "Pharmacie communautaire: LNG accessible OTC (gratuit pour mineure en Suisse [VÉRIFIER: gratuité actuelle selon canton])"
+    - "Médecin de famille / planning familial: prescription UPA + counseling contraception régulière"
+    - "Gynécologue / urgences gynéco: pose DIU cuivre rapide (< 120 h), suspicion GEU, échec CU"
+    - "Centre LAVI + urgences gynéco médico-légales: agression sexuelle (24/7)"
+    - "Consultation contrôle {r:3-4 semaines}: vérifier règles, βhCG si retard, contraception en place, tolérance"
+
+# source: ligne 152-173
+examens_complementaires:
+  - "{t:β-hCG urinaire} (ou sanguine si doute): si DDR > 4 semaines, suspicion grossesse en cours, ou avant pose DIU — exclusion préalable obligatoire"
+  - "{t:Échographie pelvienne}: avant DIU si doute malformation utérine, ou si suspicion GEU"
+  - "{t:Bilan IST différé 4-6 semaines}: sérologies VIH, VHB, VHC, syphilis; PCR Chlamydia trachomatis + Neisseria gonorrhoeae"
+  - "{t:Prélèvements cervico-vaginaux}: avant DIU si FDR IST (multipartenariat, partenaire non testé, < 25 ans) [VÉRIFIER: indication systématique vs ciblée selon SSGO]"
+  - "{t:β-hCG de contrôle}: à {r:3-4 semaines} si retard règles > 7 j ou saignements anormaux après CU"
+  - "{t:Bilan médico-légal complet}: si contexte d'agression (prélèvements, sérologies HIV/VHB/syphilis, écouvillonnages)"
+
+# source: ligne 138-143, 357-365
+criteres_hospitalisation:
+  - "Suspicion {p:GEU} (douleur pelvienne + saignements + βhCG positif/équivoque) → urgence gynécologique"
+  - "{s:Saignements abondants} avec instabilité hémodynamique"
+  - "{s:Vomissements incoercibles} empêchant prise orale de la CU"
+  - "Contexte d'{p:agression sexuelle} récente → centre de référence (urgences gynéco, LAVI, médecine légale)"
+  - "Complication aiguë après pose DIU (perforation, infection sévère)"
+
+# source: ligne 366-394
+pieges:
+  - "Confondre {r:lévonorgestrel} (≤ 72 h, OTC) et {r:ulipristal} (≤ 120 h, ordonnance) — UPA est plus efficace après 24-72 h mais incompatible avec contraception hormonale (5 jours de pause)"
+  - "Croire que la CU est {p:abortive} — elle N'INTERROMPT PAS une grossesse établie; rassurer sans culpabiliser; pas tératogène en cas d'échec"
+  - "Oublier la {p:prévention IST} et la {r:TPE VIH} (< 48 h) en cas d'agression sexuelle ou rapport à risque"
+  - "Négliger le {r:retour à la contraception régulière} (quick start le lendemain du LNG; attendre 5 jours après UPA avant pilule) — sinon nouveaux risques rapidement"
+  - "Manquer la recherche de {s:violences sexuelles} ou de contraintes — toujours poser la question en consultation seule, sans le partenaire"
+
+cartes_liees:
+  - SYS-GYN
+  - SSP-COM-07
+  - SSP-GYN-01

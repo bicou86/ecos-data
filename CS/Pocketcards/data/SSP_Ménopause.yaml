@@ -1,0 +1,217 @@
+id: SSP-GYN-09
+type: ssp
+title: Ménopause
+discipline: Gyneco
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Ménopause.md
+
+# source: line 11-149
+anamnese:
+  socrates:
+    - |-
+      Statut ménopausique:
+      • {s:aménorrhée ≥ 12 mois} consécutifs (définition rétrospective)
+      • DDR, durée aménorrhée actuelle
+      • âge actuel vs âge moyen {e:51 ans (45-55)}
+    - |-
+      Onset / type:
+      • naturelle vs chirurgicale ({r:ovariectomie bilatérale}) vs iatrogène (chimio, radiothérapie)
+      • {p:précoce < 40 ans} → {p:IOP (insuffisance ovarienne prématurée)}
+      • périménopause = cycles irréguliers + climatérique débutant (2-8 ans)
+    - "Time / Character: depuis quand bouffées? fréquence/jour, intensité (légère/modérée/sévère), durée (min), déclencheurs?"
+    - |-
+      Severity / retentissement:
+      • impact sommeil, humeur, vie sexuelle, professionnelle
+      • {t:score MRS (Menopause Rating Scale)} pour quantifier
+      • arrêts de travail, isolement social?
+    - "Relieving: traitements essayés (THM, phytoestrogènes, lubrifiants, hygiène vie) — efficacité, tolérance?"
+  specifique:
+    - |-
+      {s:Symptômes vasomoteurs} (75 %):
+      • bouffées de chaleur (fréquence, intensité, durée)
+      • sueurs nocturnes (changement draps, retentissement sommeil)
+      • palpitations transitoires
+    - |-
+      {s:Syndrome génito-urinaire de la ménopause (SGUM)} (50 %):
+      • sécheresse vaginale, dyspareunie
+      • prurit vulvaire, brûlures
+      • urgenturies, pollakiurie, infections urinaires récidivantes, incontinence
+    - |-
+      Troubles psy / sommeil:
+      • insomnie (endormissement, réveils, réveil précoce)
+      • irritabilité, anxiété, humeur dépressive
+      • labilité émotionnelle, fatigue chronique
+    - |-
+      Troubles cognitifs:
+      • difficultés de mémoire / concentration
+      • « brouillard mental » (brain fog)
+    - |-
+      Modifications corporelles:
+      • prise de poids (redistribution androïde, tour de taille > 88 cm)
+      • peau sèche, rides; chute de cheveux, affinement
+      • douleurs articulaires diffuses
+    - |-
+      Sexualité:
+      • baisse libido, dyspareunie par sécheresse
+      • évitement rapports, impact relationnel
+    - |-
+      Drapeaux à dépister activement:
+      • {s:saignement post-ménopausique} (toute hémorragie après 12 mois aménorrhée) → {p:cancer endomètre} JPDC
+      • amaigrissement + palpitations + tremblements ({p:hyperthyroïdie}, simule bouffées)
+      • {s:douleur mollet unilatérale} ou dyspnée sous THM → {p:TEV}
+  atcd:
+    - |-
+      Gynéco-obstétricaux:
+      • âge ménarche, parité, allaitement
+      • contraception antérieure (durée, type)
+      • pathologies gynéco (fibromes, endométriose, hyperplasie endométriale)
+      • chirurgies pelviennes, hystérectomie? ovariectomie?
+    - |-
+      Facteurs de risque cardio-vasculaire (clés pour THM):
+      • HTA, diabète, dyslipidémie
+      • tabagisme actif, obésité, sédentarité
+      • {p:ATCD personnel/familial TEV, AVC, IDM}
+    - |-
+      Facteurs de risque ostéoporose:
+      • ATCD fracture personnelle / familiale (mère hanche)
+      • {e:IMC < 19}, corticothérapie prolongée
+      • ménopause précoce, alcool/tabac
+      • carence calcium/vitamine D
+    - |-
+      Facteurs de risque cancer (= CI THM majeures):
+      • {p:cancer sein 1er degré} ou personnel, {p:cancer ovaire}, mutation {r:BRCA1/BRCA2}
+      • hyperplasie endométriale atypique, pathologie mammaire à risque
+    - |-
+      Contre-indications absolues au THM:
+      • cancer hormono-dépendant (sein, endomètre)
+      • ATCD TEV, AVC, IDM
+      • hépatopathie sévère active
+      • saignements génitaux non explorés
+    - "Traitements antérieurs: THM (tolérance, efficacité), phytoestrogènes, ISRS, alternatives, médecines complémentaires"
+    - "Attentes / préférences: demande de traitement, craintes vis-à-vis du THM, préférence naturel vs hormonal, objectifs prioritaires (symptômes vs os vs sexualité)"
+
+# source: line 156-202 + complications longues
+red_flags:
+  - description: "{s:Saignement génital après ≥ 12 mois d'aménorrhée} (= métrorragie post-ménopausique)"
+    dx_suspecte: "{p:Cancer de l'endomètre} jusqu'à preuve du contraire (5-10 % des saignements post-ménopausiques)"
+    action: "{t:Échographie endovaginale} (endomètre > 4-5 mm anormal) + {t:biopsie d'endomètre (Pipelle)} ± {t:hystéroscopie diagnostique}; avis gynéco urgent [VÉRIFIER:seuil épaisseur endomètre Suisse 4 vs 5 mm]"
+  - description: "Bouffées de chaleur + {s:amaigrissement + palpitations + tremblements + sueurs} (au-delà du syndrome climatérique)"
+    dx_suspecte: "{p:Hyperthyroïdie} (Basedow, nodule toxique) — simule la ménopause"
+    action: "{t:TSH + T4L} STAT; échographie thyroïdienne, anti-TRAK; ne pas attribuer à la ménopause"
+  - description: "Aménorrhée + bouffées de chaleur chez femme {e:< 40 ans} (ou < 45 ans atypique)"
+    dx_suspecte: "{p:Insuffisance ovarienne prématurée (IOP)}"
+    action: "{t:FSH × 2 à 4 semaines (> 25 UI/L)} + {t:estradiol effondré}; caryotype, anti-21-OH, antiTPO; densitométrie; {r:THM précoce jusqu'à 50 ans} pour prévention CV et osseuse"
+  - description: "Sous THM: {s:douleur mollet unilatérale, oedème, dyspnée brutale} ou hémoptysie"
+    dx_suspecte: "{p:Thromboembolie veineuse (TVP / EP)}"
+    action: "ARRÊT THM immédiat; {t:D-dimères + écho-Doppler veineux} et/ou {t:angio-CT thoracique}; {r:anticoagulation thérapeutique}; éviter ré-introduction (préférer voie transdermique si reprise envisagée)"
+  - description: "Sous THM: découverte {s:nodule mammaire suspect} ou anomalie mammographique BI-RADS 4-5"
+    dx_suspecte: "{p:Cancer du sein hormono-dépendant} (risque +8/10 000 femmes-années après 5 ans)"
+    action: "ARRÊT THM; {t:mammographie ± échographie + biopsie} sous 2 semaines; avis sénologie urgente"
+  - description: "{s:Céphalée brutale, déficit focal, troubles visuels} sous THM (surtout voie orale)"
+    dx_suspecte: "{p:AVC ischémique / hémorragique}"
+    action: "AVC pathway: {t:CT cérébral} immédiat; arrêt THM définitif; bilan vasculaire"
+
+# source: line 156-202
+examen:
+  general:
+    - "Signes vitaux: TA (les deux bras), FC, T°, BMI; {e:tour de taille > 88 cm} = risque CV"
+    - "{t:Poids, taille, IMC}; perte de taille (tassement vertébral) — distance côtes-bassin < 2 travers de doigts"
+    - "Inspection cutanée: signes d'hypoestrogénie (peau sèche, rides), signes thyroïdiens, hirsutisme paradoxal"
+    - "Examen cardiovasculaire: auscultation cardiaque, pouls périphériques, recherche varices, signes de TEV"
+  cible:
+    - |-
+      Examen mammaire {e:SYSTÉMATIQUE} (avant THM et lors du suivi):
+      • inspection: asymétrie, rétraction cutanée ou mamelonnaire, peau d'orange
+      • palpation: nodules, écoulement mamelonnaire (provoqué)
+      • aires ganglionnaires axillaires et sus-claviculaires
+      • date dernière {t:mammographie} (< 2 ans)
+    - |-
+      Examen gynécologique {e:AVEC CONSENTEMENT}:
+      • vulve: atrophie (perte pilosité, amincissement grandes lèvres, pâleur), fissures, érythème
+      • prolapsus à l'effort de poussée (urétrocèle, cystocèle, rectocèle)
+      • spéculum: muqueuse vaginale pâle/sèche, pétéchies, col atrophique, leucorrhées
+      • {t:frottis cervical} si non à jour (< 3 ans) [VÉRIFIER:périodicité HPV-test suisse]
+    - |-
+      Toucher vaginal / pelvien:
+      • utérus involué (taille diminuée)
+      • annexes normalement non palpables (toute masse annexielle post-ménopausique = SUSPECTE → {t:échographie + CA-125})
+      • douleur (atrophie), sténose vaginale
+    - |-
+      Examen ostéo-articulaire (risque ostéoporose):
+      • taille (perte de cm = tassements)
+      • cyphose dorsale (gibbus)
+      • distance occiput-mur (rachis ankylosé)
+      • palpation rachidienne (douleurs)
+
+# source: clinical pivots (DD construit, MD source sans table DD)
+dd_top5:
+  - dx: "{p:Ménopause physiologique}"
+    indices: "Aménorrhée ≥ 12 mois après {e:45-55 ans}, syndrome climatérique (bouffées + sueurs nocturnes + troubles sommeil + SGUM), examen normal; {t:FSH > 25 UI/L} inutile si clinique évidente"
+    freq: "universel (toute femme, âge moyen 51 ans)"
+  - dx: "{p:Insuffisance ovarienne prématurée (IOP)}"
+    indices: "Aménorrhée + symptômes climatériques chez femme {e:< 40 ans}; {t:FSH > 25 UI/L × 2 à 4 sem} + estradiol effondré; rechercher cause (Turner, auto-immunité, post-chimio); risque CV et ostéoporose précoce"
+    freq: "1 % des femmes < 40 ans"
+  - dx: "{p:Aménorrhée hypothalamique fonctionnelle}"
+    indices: "Aménorrhée + sport intensif / restriction alimentaire / stress majeur; {t:FSH/LH ↓, estradiol ↓}; PAS de bouffées de chaleur (FSH non ↑); test progestérone négatif; réversible à la reprise pondérale"
+    freq: "fréquent chez sportives, adolescentes, TCA"
+  - dx: "{p:Hyperthyroïdie}"
+    indices: "Bouffées + amaigrissement + palpitations + tremblements + sueurs + diarrhée + insomnie; {t:TSH effondrée + T4L élevée}; goitre, anti-TRAK +; ne pas attribuer à la ménopause [VÉRIFIER:ordre DD ménopause vs hyperthyroïdie épidémiologie]"
+    freq: "fréquent femme > 50 ans (prévalence 2 %)"
+  - dx: "{p:Trouble anxio-dépressif}"
+    indices: "Humeur dépressive, anxiété, insomnie, fatigue prédominants > bouffées; antécédents psy, événement de vie; {t:PHQ-9, GAD-7} positifs; FSH peut être normale en périménopause"
+    freq: "fréquent en périménopause (vulnérabilité hormonale)"
+
+# source: line 208-377
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — tout {s:saignement post-ménopausique} → écho endovaginale + biopsie endomètre AVANT THM ou tout autre traitement hormonal"
+    - "Bilan pré-thérapeutique avant THM: mammographie (< 2 ans), frottis (< 3 ans), {t:bilan lipidique + glycémie + TSH}, écho pelvienne si métrorragies; recherche systématique des CI"
+    - |-
+      THM si syndrome climatérique invalidant ET fenêtre d'opportunité ({e:< 60 ans OU < 10 ans post-ménopause}):
+      • femme avec utérus: {r:17β-estradiol transdermique (patch 25-50 µg/j ou gel 0,5-1,5 mg/j)} + {r:progestérone naturelle 100-200 mg/j} (12-14 j/mois séquentiel ou continu)
+      • femme hystérectomisée: {r:estrogène seul} (transdermique préféré)
+      • voie transdermique = risque TEV moindre vs orale [VÉRIFIER:doses suisses 17β-estradiol — patch vs gel]
+      • dose minimale efficace, durée la plus courte possible
+    - "SGUM en 1ère ligne (avant THM systémique): {r:estrogènes locaux} (estriol crème/ovules 0,5 mg, attaque quotidienne × 2-3 sem puis entretien 2-3×/sem) — PAS d'augmentation du risque cancer; sûrs même en post-cancer du sein après avis onco"
+    - "Bouffées sans CI au THM mais refus / CI: {r:venlafaxine 37,5-75 mg/j PO} ou {r:paroxétine 10-20 mg/j PO} (CI si tamoxifène); {r:gabapentine 300-900 mg/j PO} si troubles du sommeil prédominants; clonidine 0,075-0,15 mg/j PO (2e intention)"
+    - "Mesures hygiéno-diététiques fondamentales: activité physique {r:150 min/sem}, arrêt tabac, limitation alcool, {r:calcium 1200 mg/j + vitamine D 800-1000 UI/j}, protéines 1 g/kg/j, alimentation méditerranéenne"
+    - "Prévention ostéoporose: densitométrie selon facteurs de risque; {r:bisphosphonates} si T-score < -2,5 ou fracture de fragilité; supplémentation Ca/Vit D systématique"
+  orientation:
+    - "Domicile + suivi MT/gynéco annuel: ménopause physiologique, symptômes contrôlés, pas de red flag"
+    - "Consultation gynéco rapide (< 4 sem): saignement post-ménopausique, masse pelvienne, demande de THM, CI à clarifier"
+    - "Endocrinologue: IOP confirmée, dysthyroïdie associée, ostéoporose sévère / fracture, suspicion Cushing/adénome"
+    - "Sénologie urgente: nodule mammaire, mammographie BI-RADS 4-5, écoulement sanglant, ATCD familiaux à haut risque (BRCA)"
+    - "Urgences: red flag avéré (TEV, AVC sous THM, hémorragie abondante, douleur abdominale aiguë)"
+    - "Consignes de retour: tout saignement vaginal nouveau, douleur mollet, dyspnée, céphalée brutale, nodule mammaire"
+
+# source: line 208-230
+examens_complementaires:
+  - "{t:Clinique seule} suffit au diagnostic de ménopause si {e:≥ 12 mois aménorrhée après 45 ans} + symptômes typiques; FSH/estradiol INUTILES en routine"
+  - "{t:FSH ± estradiol} en cas de doute (jeune femme < 45 ans, hystérectomisée, sous DIU/pilule continue): FSH > 25 UI/L × 2 à 6 semaines d'intervalle + estradiol < 50 pg/mL = ménopause; AMH si évaluation réserve ovarienne"
+  - "{t:Mammographie (< 2 ans), frottis cervical (< 3 ans), TSH, bilan lipidique, glycémie}: bilan pré-thérapeutique systématique avant THM"
+  - "{t:Échographie pelvienne endovaginale}: TOUT saignement post-ménopausique (endomètre > 4-5 mm anormal), masse annexielle, métrorragies sous THM"
+  - "{t:Biopsie d'endomètre (Pipelle) ± hystéroscopie}: saignement post-ménopausique, endomètre épaissi, métrorragies sous THM persistantes"
+  - "{t:Ostéodensitométrie (DEXA)}: à 65 ans systématique, plus tôt si ménopause précoce, ATCD fracture, IMC < 19, corticothérapie; {t:score FRAX} pour risque fracturaire à 10 ans"
+
+# source: line 391-397
+criteres_hospitalisation:
+  - "{p:TEV (TVP / EP)} ou {p:AVC} sous THM nécessitant anticoagulation et bilan vasculaire urgent"
+  - "{s:Métrorragie abondante post-ménopausique} avec retentissement hémodynamique"
+  - "{p:Cancer endomètre ou cancer du sein} suspecté nécessitant bilan d'extension rapide"
+  - "Suspicion {p:IOP auto-immune complexe} ou syndrome polyendocrinien nécessitant bilan multidisciplinaire"
+  - "Décompensation psychiatrique sévère (dépression sévère péri/post-ménopausique avec idéation suicidaire)"
+
+# source: line 391-402
+pieges:
+  - "Banaliser un {s:saignement post-ménopausique} comme « retour de règles » ou « atrophie » — toute hémorragie après 12 mois aménorrhée = {p:cancer endomètre} JPDC, écho + biopsie OBLIGATOIRES"
+  - "Prescrire un THM sans bilan pré-thérapeutique complet (mammographie, frottis, FRCV, recherche CI) — risque médico-légal et clinique majeur"
+  - "Méconnaître l'{p:IOP} avant 40 ans en l'attribuant au stress / sport — risque ostéoporose précoce et CV; THM jusqu'à 50 ans indiqué"
+  - "Maintenir le THM au-delà de la fenêtre d'opportunité ({e:> 60 ans ou > 10 ans post-ménopause}) — bénéfice/risque inversé"
+  - "Oublier les estrogènes locaux en 1ère ligne pour le {s:SGUM} — efficaces, sûrs (pas de surrisque cancer), souvent suffisants seuls"
+
+cartes_liees:
+  - SYS-GYN
+  - SSP-GYN-01

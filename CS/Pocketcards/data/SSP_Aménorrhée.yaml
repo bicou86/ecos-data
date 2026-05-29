@@ -1,0 +1,203 @@
+id: SSP-GYN-01
+type: ssp
+title: Aménorrhée
+discipline: Gyneco
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Aménorrhée.md
+
+# source: line 13-66
+anamnese:
+  socrates:
+    - |-
+      Type d'aménorrhée:
+      • primaire (jamais de règles à {e:16 ans} avec caractères sexuels OU {e:14 ans} sans)
+      • secondaire (arrêt ≥ {r:3 mois} si cycles réguliers, ≥ {r:6 mois} si irréguliers)
+    - |-
+      Histoire menstruelle:
+      • âge ménarche (normal 11-15 ans)
+      • régularité, durée 21-35 j, abondance antérieures
+      • date dernières règles NORMALES
+      • modifications récentes du cycle
+    - |-
+      Onset / déclencheur:
+      • brutal vs progressif?
+      • événement marquant (stress, perte de poids, arrêt pilule, accouchement, curetage)?
+      • IVG ou révision utérine récente?
+    - |-
+      Severity / retentissement:
+      • durée totale d'aménorrhée
+      • impact psychologique, désir de grossesse?
+      • symptômes accompagnateurs (bouffées de chaleur, douleurs)?
+    - "Time: depuis quand exactement? Cycles précédents prédictibles?"
+  specifique:
+    - |-
+      {s:Signes sympathiques de grossesse} (1ère cause secondaire):
+      • nausées matinales, vomissements
+      • tension mammaire, mastodynies
+      • fatigue inhabituelle, pollakiurie
+      • modifications odorat/goût
+    - "Activité sexuelle: rapports, contraception (méthode, observance, oublis), désir de grossesse?"
+    - |-
+      {s:Hyperprolactinémie}:
+      • galactorrhée spontanée/provoquée
+      • céphalées, troubles visuels (hémianopsie bitemporale → adénome)
+      • baisse libido
+    - |-
+      {s:Hyperandrogénie} (SOPK, tumeur):
+      • hirsutisme (score Ferriman-Gallwey > 8)
+      • acné, alopécie androgénique
+      • voix rauque, virilisation rapide?
+    - |-
+      {s:Hypœstrogénie}:
+      • bouffées de chaleur, sueurs nocturnes
+      • sécheresse vaginale, dyspareunie
+      • troubles du sommeil, baisse libido
+    - |-
+      Aménorrhée hypothalamique fonctionnelle:
+      • sport intensif (course, danse, gym > 8 h/sem)
+      • restriction alimentaire, peur prise poids ({p:anorexie mentale})
+      • variations pondérales > 10 % récentes
+      • stress majeur, deuil
+    - |-
+      {r:Médicaments} déclenchants:
+      • neuroleptiques, antidépresseurs (hyperprolactinémie)
+      • opiacés, métoclopramide
+      • arrêt récent contraception ({s:aménorrhée post-pilule})
+      • chimiothérapie / radiothérapie pelvienne
+  atcd:
+    - "Pathologies chroniques: diabète, dysthyroïdie, insuffisance rénale, MICI, maladie cœliaque"
+    - "ATCD gynéco-obstétricaux: curetages, conisation, hystéroscopies, césariennes multiples (→ Asherman, sténose cervicale)"
+    - "ATCD familiaux: ménopause précoce (< 40 ans), Turner, infertilité, troubles menstruels mère/sœurs"
+    - "Anorexie mentale ou TCA personnels/familiaux"
+    - |-
+      Contexte psychosocial:
+      • stress professionnel/personnel, deuil
+      • précarité, isolement, violences
+      • niveau d'activité physique
+
+# source: line 293-304
+red_flags:
+  - description: "{s:Galactorrhée} + {s:céphalées} + troubles visuels (hémianopsie bitemporale)"
+    dx_suspecte: "{p:Macroadénome hypophysaire à prolactine}"
+    action: "{t:Prolactine} STAT + {t:IRM hypophysaire avec gadolinium} urgente; avis endocrino"
+  - description: "{s:Virilisation rapide} (clitoromégalie, voix rauque, alopécie frontale, hirsutisme < 6 mois)"
+    dx_suspecte: "{p:Tumeur ovarienne ou surrénalienne androgéno-sécrétante}"
+    action: "{t:Testostérone totale + SDHEA} STAT; {t:échographie pelvienne + TDM surrénalien}; avis endocrino/gynéco-onco"
+  - description: "{s:IMC < 15 kg/m²} ou perte de poids > 25 % en 6 mois + aménorrhée"
+    dx_suspecte: "{p:Anorexie mentale} sévère avec complications somatiques"
+    action: "Bilan vital (ionogramme, ECG QTc, glycémie); {r:hospitalisation} pédopsy/médecine si bradycardie, hypoK, QTc allongé, hypoT < 35 °C"
+  - description: "Aménorrhée + bouffées de chaleur chez femme {e:< 40 ans}"
+    dx_suspecte: "{p:Insuffisance ovarienne prématurée (IOP)}"
+    action: "{t:FSH × 2} à 4 semaines d'intervalle (> 25-40 UI/L) + {t:estradiol} effondré; caryotype; bilan auto-immun"
+  - description: "Aménorrhée secondaire {e:post-curetage} ou post-accouchement compliqué + règles absentes malgré test progestérone négatif"
+    dx_suspecte: "{p:Syndrome d'Asherman} (synéchies utérines) [VÉRIFIER:critères diagnostiques différentiels avec sténose cervicale]"
+    action: "{t:Hystérosonographie} ou {t:hystéroscopie diagnostique}; avis gynéco"
+  - description: "Aménorrhée + retard pubertaire (absence règles + caractères sexuels à 14 ans)"
+    dx_suspecte: "{p:Dysgénésie gonadique (Turner 45,X0)} ou hypogonadisme hypogonadotrope"
+    action: "{t:Caryotype}, {t:FSH/LH/estradiol}, {t:IRM hypophysaire} si FSH/LH bas; avis endocrino pédiatrique"
+
+# source: line 117-162
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T°, FR; bradycardie + hypothermie évocatrices d'{p:anorexie}"
+    - |-
+      Morphologie:
+      • poids, taille, {t:IMC}
+      • morphotype eunuchoïde (envergure > taille + 5 cm) / cushingoïde
+      • Tanner mammaire (S1-S5) et pilosité (P1-P5)
+    - |-
+      {s:Hyperandrogénie}:
+      • {t:score Ferriman-Gallwey} (> 8 anormal)
+      • acné, alopécie androgénique frontale
+      • hypertrophie clitoridienne (virilisation)
+    - |-
+      Signes endocriniens:
+      • {s:acanthosis nigricans} (insulinorésistance, SOPK)
+      • {s:vergetures pourpres} larges abdominales (Cushing)
+      • goitre, signes dysthyroïdiens
+      • signes carentiels (anorexie: lanugo, hypothermie)
+  cible:
+    - |-
+      Examen mammaire:
+      • développement (Tanner)
+      • {s:galactorrhée} spontanée puis provoquée, uni/bilatérale
+      • masses, nodules
+    - |-
+      Examen gynécologique {e:AVEC CONSENTEMENT}:
+      • inspection vulve: estrogénisation, malformation (imperforation hymen, agénésie vaginale)
+      • spéculum (si rapports): col, glaire cervicale, cloisons
+      • TV: utérus (taille, mobilité), annexes (masses)
+    - |-
+      {t:Échographie pelvienne} (préférence endovaginale si possible):
+      • utérus: taille, épaisseur endomètre (atrophie si hypoestrogénie)
+      • ovaires: volume, aspect multifolliculaire (≥ 12 follicules ou volume > 10 mL → {p:SOPK})
+      • malformations müllériennes
+    - "Champ visuel par confrontation + {t:fond d'œil} si suspicion adénome hypophysaire"
+    - "Recherche signes neuro: paires crâniennes (II, III, IV, VI) si céphalées + troubles visuels"
+
+# source: line 121-161 (DD table) + epidémio line 6-11
+dd_top5:
+  - dx: "{p:Grossesse}"
+    indices: "TOUJOURS éliminée en premier — aménorrhée brutale, signes sympathiques, rapports non protégés; {t:β-HCG plasmatique +}"
+    freq: "1ère cause aménorrhée secondaire (60-70 %)"
+  - dx: "{p:SOPK}"
+    indices: "Aménorrhée secondaire ou oligoménorrhée depuis ménarche, hirsutisme, acné, surpoids, acanthosis nigricans; {t:FSH N/↓, LH ↑, androgènes ↑, test progestérone +}; échographie: ovaires polykystiques; critères de Rotterdam 2/3 [VÉRIFIER:critères Rotterdam vs AE-PCOS Society]"
+    freq: "2e cause (15-20 %), prévalence 8-13 % femmes en âge de procréer"
+  - dx: "{p:Hyperprolactinémie}"
+    indices: "Galactorrhée + aménorrhée ± céphalées/troubles visuels; {t:prolactine > 25 ng/mL} (× 3 si discordance, doser macroprolactine); {t:FSH/LH ↓, test progestérone +/-}; IRM si > 100 ng/mL ou troubles visuels"
+    freq: "5-10 % des aménorrhées secondaires"
+  - dx: "{p:Aménorrhée hypothalamique fonctionnelle} (anorexie / sport / stress)"
+    indices: "IMC < 18,5 ou perte poids récente, sport > 8 h/sem, stress majeur; {t:FSH/LH ↓, estradiol ↓, prolactine N/↓, test progestérone −}; pas de signes d'IOP"
+    freq: "3e cause (5-10 %), fréquente chez sportives et adolescentes"
+  - dx: "{p:Insuffisance ovarienne prématurée (IOP)}"
+    indices: "Aménorrhée + bouffées de chaleur avant 40 ans; {t:FSH > 25-40 UI/L × 2} à 4 semaines, estradiol effondré, test progestérone −; rechercher Turner (caryotype), auto-immunité"
+    freq: "1 % des femmes < 40 ans"
+
+# source: line 210-281
+pec_initiale:
+  immediate:
+    - "{t:β-HCG plasmatique} SYSTÉMATIQUE avant tout autre bilan ou prescription, même si déni de rapports"
+    - "Suspicion {p:macroadénome hypophysaire}: {r:cabergoline 0,25 mg × 2/sem PO} après IRM + avis endocrino; PAS d'estrogènes en urgence"
+    - "{p:Anorexie} avec IMC < 15 ou complications: hospitalisation + renutrition progressive (risque syndrome de renutrition); surveillance phosphate, K, Mg"
+    - "{p:SOPK} sans désir grossesse: {r:pilule œstro-progestative antiandrogénique (Diane 35 ou Jasmine)}; metformine 500-1000 mg × 2/j si insulinorésistance [VÉRIFIER:posologie metformine adulte]; spironolactone 50-100 mg/j si hirsutisme"
+    - "{p:Hyperprolactinémie} confirmée: {r:cabergoline 0,25-1 mg × 2/sem PO} ou bromocriptine 2,5-7,5 mg/j; arrêt médicament inducteur si possible"
+    - "{p:IOP} confirmée: {r:THS estradiol transdermique 50-100 µg/j + progestérone naturelle 200 mg J15-J25} jusqu'à 50 ans + calcium/vitamine D"
+    - "Induction d'ovulation si désir grossesse: {r:clomifène 50-150 mg J3-J7} (1ère ligne), gonadotrophines en 2e ligne sous surveillance échographique"
+  orientation:
+    - "Domicile + suivi gynéco/MT: aménorrhée stable, étiologie identifiée, traitement entrepris, pas de red flag"
+    - "Consultation gynéco rapide (< 1 mois): test progestérone à interpréter, bilan hormonal en cours, désir grossesse"
+    - "Endocrinologue: hyperprolactinémie, IOP, suspicion Cushing, dysthyroïdie sévère"
+    - "Urgences / hospitalisation: anorexie avec IMC < 15 ou hypoK/bradycardie/QTc long, virilisation rapide, suspicion adénome avec compression chiasma"
+    - "Pédopsy / unité TCA: aménorrhée + TCA confirmé"
+
+# source: line 165-208
+examens_complementaires:
+  - "{t:β-HCG plasmatique}: SYSTÉMATIQUE en 1ère intention (urinaire si test rapide; plasmatique pour confirmation/datation)"
+  - "{t:Bilan hormonal basal} (J2-J5 si règles présentes, sinon à tout moment): {r:FSH, LH, estradiol, prolactine, TSH ± T4L, testostérone totale, SDHEA}"
+  - "{t:Test à la progestérone} (médroxyprogestérone 10 mg/j × 10 j): hémorragie de privation → estrogènes présents (SOPK, hyperPRL); absence → hypoestrogénie ou atteinte utérine"
+  - "{t:Échographie pelvienne} (préférer endovaginale): morphologie utérine (épaisseur endomètre), ovaires (compte folliculaire antral, volume), malformations"
+  - "{t:IRM hypophysaire avec gadolinium}: si prolactine > 100 ng/mL OU troubles visuels OU céphalées + galactorrhée; aussi si suspicion hypogonadisme hypogonadotrope"
+  - "{t:Caryotype}: aménorrhée primaire, IOP confirmée < 40 ans (Turner 45,X0 ou mosaïques); {t:17-OH-progestérone} si hyperandrogénie (bloc en 21-OH)"
+
+# source: line 254, 295-298
+criteres_hospitalisation:
+  - "{p:Anorexie mentale} avec {t:IMC < 15} OU bradycardie < 40/min OU hypokaliémie < 3 mmol/L OU QTc > 500 ms OU hypothermie < 35 °C"
+  - "Suspicion {p:macroadénome hypophysaire} avec compression chiasmatique (hémianopsie bitemporale) ou apoplexie"
+  - "Suspicion {p:tumeur androgéno-sécrétante} (virilisation rapide) pour bilan urgent et avis multidisciplinaire"
+  - "Complications aiguës du SOPK: syndrome d'hyperstimulation ovarienne sous induction d'ovulation"
+  - "Décompensation psychiatrique sévère liée au TCA (risque suicidaire, refus alimentaire total)"
+
+# source: line 316-321
+pieges:
+  - "Oublier la {t:β-HCG} (même chez adolescente niant rapports, sous pilule, ou avec DIU) — la grossesse reste la 1ère cause d'aménorrhée secondaire"
+  - "Ne pas vérifier la prise réelle de pilule / DIU / implant (oublis, observance) ni le mode de prise (continu = aménorrhée induite physiologique)"
+  - "Sous-estimer l'aménorrhée hypothalamique fonctionnelle de la sportive ou de la restriction alimentaire — risque d'ostéoporose précoce [VÉRIFIER:seuil DEXA recommandation suisse]"
+  - "Retarder l'IRM hypophysaire devant une hyperprolactinémie persistante (> 100 ng/mL ou symptomatique) — risque d'apoplexie/compression chiasmatique"
+  - "Prescrire des estrogènes seuls sans progestatifs chez une femme avec utérus en place — risque d'hyperplasie/cancer endométrial"
+
+cartes_liees:
+  - SYS-GYN
+  - SSP-END-01

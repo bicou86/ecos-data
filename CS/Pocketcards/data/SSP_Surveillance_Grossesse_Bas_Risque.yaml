@@ -1,0 +1,210 @@
+id: SSP-GYN-11
+type: ssp
+title: Surveillance de grossesse à bas risque
+discipline: Gyneco
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Surveillance_Grossesse_Bas_Risque.md
+
+# source: line 3-72 (définition + 1ère consultation)
+anamnese:
+  socrates:
+    - |-
+      Datation et terme:
+      • DDR (1er jour des dernières règles), régularité du cycle
+      • DPA (DDR + 9 mois + 7 j) ou par {t:LCC} échographique
+      • {e:âge gestationnel} (SA + jours) à chaque consultation
+      • grossesse spontanée ou aide médicale à la procréation?
+    - |-
+      Onset / contexte:
+      • grossesse désirée? planifiée?
+      • mode de découverte (test, retard, écho)
+      • parité (G_P_, GTPAL), intervalle inter-grossesses
+    - "Time: 7 consultations CH (1/mois jusqu'à 32 SA, puis tous les 15 j); 3 échographies (12 / 22 / 32 SA)"
+    - "Severity: tolérance maternelle (nausées, fatigue, dyspnée), retentissement social/professionnel"
+  specifique:
+    - |-
+      Symptômes physiologiques à clarifier:
+      • nausées/vomissements T1 (sévérité → hyperemesis)
+      • pyrosis, constipation, lombalgies, varices
+      • mouvements actifs fœtaux ({e:MAF} dès 18-20 SA primipare, 16 SA multipare)
+    - |-
+      Signes d'alarme à rechercher SYSTÉMATIQUEMENT à chaque consultation:
+      • métrorragies (quantité, couleur, douleurs associées)
+      • {s:contractions utérines} régulières/douloureuses
+      • perte de liquide (claire/teintée → RPM)
+      • diminution {s:MAF} > 12 h après 28 SA
+      • signes PE: céphalées rebelles, phosphènes, barre épigastrique, œdèmes brutaux
+    - |-
+      Habitudes de vie:
+      • tabac, alcool, drogues (cannabis, cocaïne)
+      • automédication, plantes, compléments
+      • activité physique, profession (postures, expositions)
+      • alimentation (listériose/toxoplasmose si séroneg)
+    - "Statut vaccinal: rubéole, varicelle, coqueluche, grippe, COVID, hépatite B"
+  atcd:
+    - |-
+      ATCD obstétricaux (facteurs excluant le bas risque):
+      • {p:pré-éclampsie}, HELLP, éclampsie antérieures (RR ×7)
+      • {p:diabète gestationnel}, {p:RCIU}, MFIU, prématurité
+      • FCS répétées, GEU, césariennes (utérus cicatriciel)
+    - |-
+      ATCD médicaux maternels:
+      • {p:HTA chronique}, diabète, néphropathie, cardiopathie
+      • thrombophilie, MTEV, maladies auto-immunes (lupus, SAPL)
+      • {e:IMC > 30}, {e:âge > 35 ans} ou {e:< 18 ans}
+    - |-
+      ATCD familiaux et génétiques:
+      • anomalies chromosomiques, malformations
+      • drépanocytose (origine africaine/méditerranéenne)
+      • PE familiale, diabète, HTA
+    - |-
+      Traitements en cours:
+      • médicaments tératogènes (IEC/ARA2, AVK, isotrétinoïne, valproate)
+      • {r:acide folique 0,4 mg/j} (5 mg si ATCD AFTN) préconceptionnel → 12 SA
+      • aspirine 100-150 mg/j si ATCD PE (dès 12 SA)
+
+# source: line 26-67 + 86-94 + 117-122 (calendrier examen)
+examen:
+  general:
+    - "Signes vitaux à CHAQUE consultation: {r:TA} (assise, brassard adapté; PAS ≥ 140 ou PAD ≥ 90 = pathologique), FC, T°, poids (courbe), taille (1re visite)"
+    - "Calcul IMC préconceptionnel; prise de poids cible selon IMC ({r:11-16 kg} si IMC normal)"
+    - "{t:Bandelette urinaire} systématique chaque consultation (protéines, glucose, leucocytes, nitrites)"
+    - "Inspection: faciès, état général, œdèmes (face, mains, MI prenant le godet), varices, vergetures"
+  cible:
+    - |-
+      1re consultation < 12 SA (examen complet):
+      • cardio-pulmonaire (auscultation), thyroïde (palpation), seins
+      • abdomen, examen gynécologique (spéculum, TV, état du col)
+      • frottis cervico-utérin si > 3 ans
+    - |-
+      Suivi obstétrical à chaque visite ≥ 16-20 SA:
+      • {t:hauteur utérine} (HU): ~ SA - 4 entre 20-32 SA; 30 cm à 32 SA
+      • {t:BCF} au sonicaid dès 12 SA (Doppler), au stéthoscope de Pinard dès 22 SA
+      • {s:MAF} après 24-28 SA (perception maternelle)
+      • {s:contractions utérines} (palpation), tonicité utérine
+    - |-
+      Présentation fœtale ≥ 32 SA (manœuvres de Léopold):
+      • céphalique / siège / transverse
+      • engagement, mobilité
+      • {t:Score de Bishop} à terme (col, dilatation, effacement, position, présentation)
+    - "Examens écho ({t:dépistage T1} 11-13+6 SA, morpho 20-22 SA, T3 30-32 SA); biométries BIP/PC/PA/fémur; placenta (insertion, grade); liquide amniotique ({t:ILA})"
+
+# source: line 87-94 (col) + 230-249 (signes d'alarme) + pivots cliniques
+red_flags:
+  - description: "{s:Métrorragies} (sang rouge/noir, caillots) ± douleurs abdominales selon AG (T1: GEU/FCS; T2-T3: HRP/placenta prævia)"
+    dx_suspecte: "{p:Grossesse extra-utérine}, {p:Fausse couche}, {p:Hématome rétroplacentaire}, {p:Placenta prævia}"
+    action: "Voie veineuse, NFS-groupe-RAI, {r:bHCG quantitatifs} (T1), {t:échographie pelvienne/obstétricale urgente}, Doppler; transfert maternité si ≥ 24 SA"
+  - description: "{s:TA ≥ 140/90} confirmée à 2 mesures à ≥ 4 h + protéinurie ≥ 0,3 g/24h OU signes de gravité (céphalées, phosphènes, barre épigastrique, œdèmes brutaux)"
+    dx_suspecte: "{p:Pré-éclampsie}"
+    action: "Bilan PE complet ({t:NFS, ASAT/ALAT, créat, uricémie, LDH, haptoglobine, protéinurie 24 h}); hospitalisation; {r:aspirine 100-150 mg/j dès 12 SA} en prévention grossesse suivante"
+  - description: "{s:Contractions utérines régulières douloureuses} {e:< 37 SA} ± modification cervicale au TV ou écho col court (< 25 mm TV)"
+    dx_suspecte: "{p:Menace d'accouchement prématuré (MAP)}"
+    action: "Tocolyse ({r:nifédipine 20 mg PO puis 10-20 mg/4-6 h} ou {r:atosiban IV}); {r:corticoïdes bétaméthasone 12 mg IM ×2/24 h} si {e:24-34 SA}; sulfate Mg si < 32 SA (neuroprotection); transfert in utero maternité type II/III"
+  - description: "{s:Diminution ou absence de MAF} > 12 h après {e:28 SA} OU anomalies du {t:RCF}"
+    dx_suspecte: "{p:Souffrance fœtale aiguë}, {p:MFIU}"
+    action: "{t:RCF} immédiat, {t:échographie} (biométrie + ILA + Doppler ombilical/cérébral); extraction urgente si décélérations, diastole inversée"
+  - description: "{s:Rupture prématurée des membranes} ({e:< 37 SA}): écoulement liquide clair/teinté ± odeur ± fièvre maternelle"
+    dx_suspecte: "{p:RPM avant terme} ± {p:chorioamniotite}"
+    action: "Spéculum (test à la nitrazine, IGFBP-1/PAMG-1); {r:antibiothérapie amoxicilline ou érythromycine 7 j}; {r:corticoïdes} si 24-34 SA; transfert in utero; surveillance T°, CRP, RCF [VÉRIFIER:protocole ATB local CHUV/HUG vs amoxicilline vs érythromycine]"
+  - description: "{s:Fièvre maternelle > 38°C} persistante (PNA, listériose, chorioamniotite, grippe sévère)"
+    dx_suspecte: "{p:Pyélonéphrite gravidique}, {p:Listériose}, {p:Chorioamniotite}"
+    action: "Hémocultures, ECBU, NFS-CRP, {r:céfotaxime 1 g ×3/j IV} si PNA; ajouter {r:amoxicilline 6 g/j IV} si listériose suspectée; RCF; hospitalisation [VÉRIFIER:dose et durée ATB selon agent et terme]"
+  - description: "{s:Convulsion tonico-clonique} chez femme {e:≥ 20 SA} ou post-partum < 6 sem"
+    dx_suspecte: "{p:Éclampsie}"
+    action: "PLS, O2, {r:sulfate de magnésium IV 4 g bolus en 20 min puis 1 g/h}; nicardipine IV si HTA sévère; extraction urgente après stabilisation"
+
+# source: pivots cliniques (DD adapté au motif "surveillance")
+dd_top5:
+  - dx: "{p:Grossesse normo-évolutive (bas risque)}"
+    indices: "Absence de FdR (âge 18-35, IMC < 30, parité ≤ 5, pas d'ATCD obst./médical péjoratif); croissance HU conforme, TA et BU normales, sérologies non préoccupantes, écho T1 favorable (CTN < 3 mm), HGPO normale"
+    freq: "~ 70-80 % des grossesses"
+  - dx: "{p:Menace d'accouchement prématuré (MAP)}"
+    indices: "{s:CU régulières douloureuses} {e:< 37 SA} + modification cervicale (col raccourci < 25 mm TV ou dilatation); FdR: ATCD préma, infection urinaire/vaginale, grossesse multiple, hydramnios"
+    freq: "5-8 % des grossesses (préma 7 % en CH)"
+  - dx: "{p:Pré-éclampsie}"
+    indices: "{e:≥ 20 SA}; HTA ≥ 140/90 + protéinurie ≥ 0,3 g/24h OU atteinte d'organe; primipare, ATCD PE, FIV, {e:IMC > 30}, HTA chronique; sévère si ≥ 160/110 ou un signe de gravité"
+    freq: "2-5 % des grossesses"
+  - dx: "{p:RCIU (retard de croissance intra-utérin)}"
+    indices: "{t:EPF < 10e percentile} ou HU < SA - 4; FdR: PE, tabac, malformation, infection (CMV, toxo), pathologie placentaire; Doppler ombilical pathologique (diastole nulle/inversée = sévère) [VÉRIFIER:seuils Delphi 2016 RCIU vs PAG constitutionnel]"
+    freq: "5-10 % des grossesses"
+  - dx: "{p:Diabète gestationnel}"
+    indices: "{t:HGPO 75 g} {e:24-28 SA} ≥ 1 valeur anormale (à jeun ≥ 5,1 / H1 ≥ 10,0 / H2 ≥ 8,5 mmol/L); FdR: {e:IMC > 25}, âge > 35, ATCD DG/macrosomie, ATCD familiaux DT2, origine non européenne"
+    freq: "5-15 % des grossesses (CH ~10 %)"
+
+# source: line 41-66 + 96-156 + 159-203 (calendrier surveillance + suppléments + vaccins)
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: tout signe d'alarme (métrorragies, TA ≥ 140/90, CU avant terme, ↓MAF, RPM) → bilan + transfert AVANT poursuite ambulatoire"
+    - |-
+      Calendrier suisse de surveillance ({r:7 consultations + 3 échographies}):
+      • {r:1re visite < 12 SA}: anamnèse, examen complet, datation, bilan bio, consentement T21
+      • {r:11-13+6 SA}: écho T1 (CTN + LCC), {t:dépistage combiné} (βhCG + PAPP-A)
+      • {r:15-18 SA}: AFP si T1 non fait, BU, TA, HU
+      • {r:20-22 SA}: écho morphologique (biométries + morpho), col
+      • {r:24-28 SA}: {t:HGPO 75 g} dépistage diabète gestationnel; NFS (anémie)
+      • {r:30-32 SA}: écho T3 (biométries, présentation, ILA, placenta); {r:Rhophylac 300 μg IM} à 28-32 SA si Rh- (après RAI)
+      • {r:35-37 SA}: PV strepto B; consultation anesthésie; plan de naissance
+      • {r:39-41 SA}: Bishop, RCF, écho 40 SA si dépassement
+    - |-
+      Bilan biologique 1re visite (obligatoire):
+      • sérologies: rubéole, toxoplasmose, syphilis (VDRL/TPHA), VIH (consentement), HBs Ag
+      • NFS-plaquettes, ferritine, groupe ABO-Rh (2 déterminations), RAI
+      • glycémie à jeun (si FdR diabète), BU + ECBU
+      • drépanocytose / Chagas selon origine
+    - |-
+      Supplémentations:
+      • {r:Acide folique 0,4 mg/j} préconceptionnel → 12 SA ({r:5 mg/j} si ATCD AFTN, anti-épileptiques, IMC > 30)
+      • {r:Fer 30-60 mg/j PO} si Hb < 11 g/dL ou ferritine < 30 μg/L
+      • {r:Vitamine D 100 000 UI} dose unique au 7e mois (ou 800-1000 UI/j)
+      • {r:Iode 150-200 μg/j} (carence régionale CH)
+    - |-
+      Vaccinations recommandées:
+      • {r:Grippe inactivée}: à tout moment en saison épidémique
+      • {r:Coqueluche (dTpa)}: {e:dès 16 SA} (idéalement 28-32 SA), à chaque grossesse
+      • {r:COVID-19 ARNm}: à tout moment
+      • CONTRE-INDIQUÉS: vaccins vivants (ROR, varicelle, fièvre jaune)
+    - |-
+      Conseils hygiéno-diététiques (1re visite + renforcement):
+      • éviction stricte {r:alcool, tabac, cannabis, cocaïne}
+      • prévention {p:listériose} (pas de fromages au lait cru, charcuterie artisanale, poissons fumés, graines germées)
+      • prévention {p:toxoplasmose} si séroneg (viande > 65°C à cœur, légumes lavés, gants jardinage, éviction litière chat)
+      • activité physique modérée 30 min/j (marche, natation, yoga prénatal); CI: placenta prævia, cerclage, RPM
+  orientation:
+    - "Suivi gynécologue/sage-femme ambulatoire pour la majorité; alternance possible avec médecin traitant"
+    - "Référer maternité type II si: ATCD préma, grossesse multiple, RCIU léger, diabète gestationnel équilibré"
+    - "Référer maternité type III si: PE sévère, MAP < 32 SA, RCIU sévère, malformation fœtale, pathologie maternelle complexe"
+    - "URGENCE maternité: tout red flag (métrorragies, TA ≥ 160/110, CU < 37 SA, ↓MAF, RPM, fièvre, convulsion)"
+    - "Bascule du bas risque vers haut risque: PE, DG, RCIU, HTA chronique apparue, MAP, infections (CMV séroconversion, toxo, listériose)"
+
+# source: line 41-66 + 96-103 + 254-264 (récapitulatif examens)
+examens_complementaires:
+  - "{t:Échographies obligatoires}: T1 11-13+6 SA (datation LCC + CTN), T2 20-22 SA (morphologique), T3 30-32 SA (biométrie + présentation + ILA); écho 40 SA si dépassement [VÉRIFIER:fenêtres exactes 11-13+6 SA et 40 0/7-40 4/7 selon protocole SSGO]"
+  - "{t:Dépistage combiné T1}: CTN + βhCG libre + PAPP-A entre 11-13+6 SA (calcul de risque T21/13/18); consentement éclairé; DPNI si risque intermédiaire"
+  - "{t:HGPO 75 g} entre {e:24-28 SA}: seuils CH à jeun < 5,1 / H1 < 10,0 / H2 < 8,5 mmol/L (≥ 1 valeur = DG)"
+  - "{t:Sérologies T1}: rubéole, toxoplasmose, syphilis, VIH, HBs Ag; répéter toxoplasmose/mois si séroneg; VIH/HBs en T3 si FdR"
+  - "{t:NFS-Rh-RAI}: 1re visite + 28 SA (anémie); RAI répétée à 28 SA si Rh- AVANT Rhophylac 300 μg"
+  - "{t:Prélèvement vaginal strepto B} entre {e:35-37 SA}: antibioprophylaxie per-partum si positif ({r:pénicilline G ou amoxicilline IV})"
+
+# source: line 230-243 (signes d'alarme = critères hospit immédiate)
+criteres_hospitalisation:
+  - "{s:Métrorragies abondantes} ou métrorragies + douleurs ≥ 24 SA (HRP, prævia) → maternité"
+  - "{s:TA ≥ 160/110} OU signes de gravité PE (céphalées, phosphènes, barre épigastrique, œdèmes brutaux, oligurie) → maternité type III"
+  - "{p:MAP} avec col modifié ou contractions régulières {e:< 34 SA} → maternité type II/III + corticoïdes + tocolyse"
+  - "{p:RPM} avant terme OU chorioamniotite (fièvre + ↑CRP + tachycardie fœtale) → maternité type II/III + ATB"
+  - "{s:Diminution MAF > 12 h} ≥ 28 SA OU RCF pathologique OU diastole inversée Doppler → surveillance hospitalière, extraction si souffrance"
+
+# source: pivots cliniques + line 283-296 (points clés)
+pieges:
+  - "Sous-estimer une {p:PE} débutante: bandelette urinaire et TA OBLIGATOIRES à chaque consultation; toute protéinurie ≥ 1+ doit être confirmée (ratio prot/créat ou 24 h); les œdèmes seuls ne définissent PAS la PE"
+  - "Oublier le {r:Rhophylac 300 μg IM à 28 SA} chez la femme {e:Rh négatif} (et après tout événement potentiellement immunisant: métrorragies, amniocentèse, accouchement) [VÉRIFIER:fenêtre 28 SA vs 28-32 SA selon protocole local]"
+  - "Méconnaître un {p:diabète gestationnel} asymptomatique: l'{t:HGPO 75 g 24-28 SA} est SYSTÉMATIQUE même sans FdR; ne pas se contenter d'une glycémie à jeun"
+  - "Banaliser une {s:diminution des MAF} après 28 SA → toujours {t:RCF} + écho avec Doppler en urgence, même si la patiente est rassurée"
+  - "Confondre {p:placenta prævia} (métrorragies indolores, sang rouge) et {p:HRP} (douleur abdominale brutale + utérus de bois ± choc): l'échographie tranche, mais ne pas faire de TV avant l'écho si métrorragies T3"
+
+cartes_liees:
+  - SSP-GYN-06
+  - SYS-GYN
+  - TOOL-BISHOP

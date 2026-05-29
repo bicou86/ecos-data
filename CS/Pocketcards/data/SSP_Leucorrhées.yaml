@@ -1,0 +1,217 @@
+id: SSP-GYN-07
+type: ssp
+title: Leucorrhées
+discipline: Gyneco
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Leucorrhées.md
+
+# source: lines 9-167
+anamnese:
+  socrates:
+    - |-
+      Site / caractérisation des pertes:
+      • {s:couleur}: blanches (physiologique / {p:candidose}), grises ({p:vaginose}), jaunes-vertes ({p:trichomonase} / {p:gonocoque}), brunâtres (sang ancien)
+      • {s:aspect}: liquides, crémeuses, "lait caillé" ({p:candidose}), mousseuses ({p:trichomonase}), purulentes (cervicite)
+      • abondance: légère / modérée / importante (souillure du linge)
+    - |-
+      Onset:
+      • début brutal (IST récente?) ou progressif
+      • premier épisode ou récidive (≥ 4/an = candidose récidivante)
+    - |-
+      Character: {s:odeur}:
+      • absente (physiologique, {p:candidose})
+      • "poisson pourri" surtout post-coïtal ({p:vaginose bactérienne})
+      • nauséabonde ({p:trichomonase}, corps étranger)
+    - "Radiation: irradiation pelvienne ({s:douleurs sus-pubiennes} → suspecter {p:PID}/salpingite), lombalgie"
+    - |-
+      Time:
+      • durée (jours, semaines)
+      • intermittence vs continu
+      • relation cycle: ovulation (glaire), pré-menstruel, post-coïtal
+    - |-
+      Exacerbating:
+      • rapports sexuels (aggravation odeur = vaginose)
+      • {r:antibiothérapie récente} ({p:candidose})
+      • toilette excessive / douches vaginales
+      • vêtements serrés synthétiques
+    - "Relieving: traitement antifongique OTC, probiotiques, abstinence — efficacité?"
+    - "Severity: prurit 0-10, dyspareunie superficielle / profonde, retentissement sur sexualité et qualité de vie"
+  specifique:
+    - |-
+      Signes vulvo-vaginaux:
+      • {s:prurit} intense ({p:candidose} +++) / modéré ({p:trichomonase}) / absent ({p:vaginose})
+      • brûlures vaginales, érythème, œdème vulvaire
+      • dyspareunie superficielle ({p:candidose}) ou profonde ({p:PID})
+      • vulvodynie, fissures (grattage)
+    - "Signes urinaires: dysurie, pollakiurie, urgenturie (irritation vulvaire vs cystite associée)"
+    - |-
+      Signes pelviens / RED FLAGS {p:PID}:
+      • {s:douleurs pelviennes basses} continues
+      • {s:fièvre} > 38°C (infection haute)
+      • métrorragies, saignements post-coïtaux (cervicite, cancer du col)
+    - "{e:Grossesse}: DDR, test possible? — vaginose = risque {p:accouchement prématuré}, IST = risque transmission néonatale"
+    - "Symptômes partenaire (écoulement urétral, brûlures, ulcérations) → orientation IST"
+    - "{s:Ulcération vulvaire} ± adénopathie inguinale → {p:HSV}, {p:syphilis}, {p:chancre mou}"
+  atcd:
+    - |-
+      Gynéco:
+      • IST antérieures (chlamydia, gonocoque, HSV, HPV, syphilis)
+      • épisodes similaires: fréquence, traitements, observance
+      • contraception (DIU = facteur vaginose; OP = candidose)
+      • dernier frottis cervico-utérin (dépistage cancer du col)
+    - |-
+      Médicaux:
+      • {p:diabète} mal équilibré → candidoses récidivantes
+      • {p:VIH} / immunodépression, corticoïdes
+      • {r:antibiothérapie récente} (large spectre)
+      • allergies (latex, savons, antifongiques)
+    - |-
+      Sexuels: anamnèse sexuelle complète
+      • nombre partenaires (3 derniers mois)
+      • nouveau partenaire < 3 mois
+      • rapports non protégés, pratiques (oral, anal)
+      • partenaire symptomatique ou ATCD IST
+    - "Habitudes & hygiène: toilette intime (fréquence, douches vaginales), protège-slips, sous-vêtements synthétiques, automédication antifongique OTC, tabagisme (facteur vaginose)"
+
+# source: lines 14-30, 71-101, 165-167, 375-382
+red_flags:
+  - description: "Leucorrhées + {s:fièvre > 38°C} + {s:douleur pelvienne} ± défense / {s:douleur à la mobilisation utérine}"
+    dx_suspecte: "{p:PID / salpingite aiguë}"
+    action: "Hospitalisation, {t:NFS-CRP, β-HCG, PCR Chlamydia/Gonocoque, hémocultures}, {t:échographie pelvienne}; ATB IV {r:ceftriaxone 2g IV + doxycycline 100mg PO ×2/j + métronidazole 500mg ×3/j × 14j}"
+  - description: "{e:Grossesse} + leucorrhées + {s:fièvre} ± contractions ou rupture prématurée des membranes"
+    dx_suspecte: "{p:Chorioamniotite}"
+    action: "Hospitalisation maternité urgente; ATB IV large spectre; évaluation extraction fœtale selon terme et tolérance [VÉRIFIER: protocole local CHUV/HUG pour ATB chorioamniotite et seuil extraction]"
+  - description: "Leucorrhées + {s:saignements post-coïtaux} ou métrorragies + lésion cervicale visible (bourgeonnante, ulcérée, friable)"
+    dx_suspecte: "{p:Cancer du col utérin}"
+    action: "{t:Colposcopie + biopsie} en urgence différée; ne PAS se contenter d'un frottis si lésion visible"
+  - description: "Leucorrhées purulentes + {s:douleur sus-pubienne} + cervicite saignante au contact (col érythémateux fragile)"
+    dx_suspecte: "{p:Cervicite à gonocoque ou chlamydia} compliquée"
+    action: "{t:PCR Chlamydia/Gonocoque cervicale}, hémocultures si fièvre; ATB empirique {r:ceftriaxone 500mg IM + azithromycine 1g PO}"
+  - description: "Candidose vulvovaginale {s:récidivante} (≥ 4 épisodes/an) chez patiente > 25 ans"
+    dx_suspecte: "{p:Diabète} non diagnostiqué / {p:VIH} / immunodépression"
+    action: "{t:Glycémie à jeun + HbA1c}, {t:sérologie VIH}, recherche {p:Candida non-albicans} par culture + antifongigramme"
+  - description: "{s:Ulcérations vulvaires} multiples douloureuses ± adénopathies inguinales + leucorrhées"
+    dx_suspecte: "{p:HSV génital}, {p:syphilis primaire}, {p:chancre mou}"
+    action: "{t:PCR HSV} sur ulcération, {t:sérologies VIH/syphilis/VHB/VHC}; aciclovir empirique si HSV probable [VÉRIFIER: indication PCR HSV vs simple examen clinique selon contexte]"
+
+# source: lines 170-235
+examen:
+  general:
+    - "Signes vitaux: T° (fièvre > 38°C = infection haute / {p:PID}), TA, FC, FR"
+    - "État général: faciès septique, déshydratation"
+    - "{s:Adénopathies inguinales} (IST: HSV, syphilis, chancre mou, LGV)"
+    - "Palpation sus-pubienne: défense, douleur (PID, GEU compliquée)"
+  cible:
+    - |-
+      Inspection vulvaire ({s:position gynécologique}):
+      • érythème intense diffus ({p:candidose}) / modéré en plaques ({p:trichomonase}) / absent ({p:vaginose})
+      • œdème, excoriations (grattage), fissures
+      • ulcérations vulvaires ({p:HSV}, {p:syphilis})
+      • leucorrhées visibles à l'orifice vulvaire
+    - |-
+      Examen au {t:spéculum} ⚠️ AVANT toilette / lubrifiant aqueux uniquement:
+      • aspect des pertes (couleur, consistance, abondance, localisation)
+      • muqueuse vaginale: érythème diffus (candidose), pétéchies / "col fraise" ({p:trichomonase})
+      • col: aspect normal, cervicite (col érythémateux, friable, saignement au contact)
+      • lésion suspecte (bourgeonnante, ulcérée → {p:cancer du col})
+    - |-
+      Prélèvements ⚠️ AVANT toilette:
+      • {t:pH vaginal} sur bandelette: normal 3,8-4,5 / > 4,5 = {p:vaginose} ou {p:trichomonase}
+      • {t:Test à la potasse (KOH 10% / Whiff test)}: odeur de poisson = {p:vaginose}
+      • prélèvement vaginal (cul-de-sac postérieur): examen direct + culture
+      • prélèvement endocervical: {t:PCR Chlamydia + Gonocoque} systématique si cervicite ou IST suspectée
+    - |-
+      Examen direct microscopique (si disponible au cabinet):
+      • état frais (sérum physiologique): {s:Trichomonas mobiles}, {s:clue cells} ({p:vaginose})
+      • {s:KOH 10%}: filaments mycéliens / pseudohyphes ({p:candidose})
+      • leucocytes nombreux: cervicite / PID
+    - |-
+      Toucher vaginal bimanuel:
+      • {s:douleur à la mobilisation utérine} = signe de Chandelier ({p:PID})
+      • masses annexielles (abcès tubo-ovarien)
+      • empâtement des paramètres
+
+# source: lines 59-106 (étiologies); ordre selon prévalence MD (vaginose 40%, candidose 30%)
+dd_top5:
+  - dx: "{p:Vaginose bactérienne (Gardnerella vaginalis)}"
+    indices: "Leucorrhées {s:grises homogènes fluides}, {s:odeur poisson} surtout post-coïtal, {s:pH > 4,5}, {t:Whiff test +}, {s:clue cells} au microscope; PEU/PAS de prurit ni inflammation; critères d'Amsel (≥3/4)"
+    freq: "très fréquent (~40% des leucorrhées pathologiques)"
+  - dx: "{p:Candidose vulvo-vaginale (Candida albicans)}"
+    indices: "Leucorrhées {s:blanches épaisses 'lait caillé'}, {s:prurit intense +++}, érythème/œdème vulvaire, dyspareunie superficielle, dysurie; {s:pH < 4,5}, filaments mycéliens au KOH; SANS odeur"
+    freq: "très fréquent (~30%; 75% des femmes au moins 1 épisode)"
+  - dx: "{p:Trichomonase (Trichomonas vaginalis)}"
+    indices: "Leucorrhées {s:jaune-vertes mousseuses abondantes malodorantes}, prurit + brûlures, {s:'col fraise'} (pétéchies), pH > 4,5, protozoaires mobiles à l'état frais; {e:IST} → dépister + traiter partenaire"
+    freq: "moins fréquent (~5-10%)"
+  - dx: "{p:Cervicite à Chlamydia trachomatis / Neisseria gonorrhoeae}"
+    indices: "Leucorrhées {s:mucopurulentes} ou minimes; cervicite (col érythémateux friable, saignant au contact); {s:70% asymptomatique} (Chlamydia); risque {p:PID}, stérilité tubaire; {t:PCR endocervicale} + dépistage IST [VÉRIFIER: prévalence locale Suisse Chlamydia vs Gonocoque]"
+    freq: "fréquent chez < 25 ans / IST (Chlamydia 3-5%)"
+  - dx: "{p:Leucorrhées physiologiques}"
+    indices: "{s:Blanches inodores non irritantes}, variables selon cycle (augmentées à ovulation, {e:grossesse}, excitation), pH normal 3,8-4,5, PAS de prurit/odeur/inflammation; rassurer + éducation"
+    freq: "très fréquent — diagnostic d'exclusion après examen normal"
+
+# source: lines 261-321
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: fièvre + douleur pelvienne → bilan {p:PID} avant tout traitement empirique"
+    - |-
+      {p:Vaginose bactérienne}:
+      • {r:Métronidazole 500mg PO ×2/j × 7j} (1ère ligne)
+      • OU {r:Métronidazole 2g PO dose unique} (moins efficace)
+      • Alternative locale: {r:Métronidazole gel 0,75% × 5j} ou {r:Clindamycine crème 2% × 7j}
+      • Pas de traitement du partenaire systématique
+    - |-
+      {p:Candidose vulvo-vaginale} (non compliquée):
+      • Local: {r:Éconazole ovule 150mg × 3j} ou {r:dose unique 600mg}; crème vulvaire 2×/j × 7-14j
+      • Oral alternatif: {r:Fluconazole 150mg PO dose unique} (CI au {e:1er trimestre grossesse})
+      • Récidivante (≥4/an): induction puis {r:fluconazole 150mg/sem × 6 mois} + recherche diabète/VIH
+    - |-
+      {p:Trichomonase} ⚠️ IST:
+      • {r:Métronidazole 2g PO dose unique} OU {r:500mg ×2/j × 7j}
+      • {r:Traitement du partenaire OBLIGATOIRE} (même dose)
+      • Abstinence ou préservatifs × 7j; dépistage autres IST
+    - |-
+      {p:Cervicite}:
+      • {p:Chlamydia}: {r:Azithromycine 1g PO dose unique} ou {r:Doxycycline 100mg ×2/j × 7j}
+      • {p:Gonocoque}: {r:Ceftriaxone 500mg IM dose unique + Azithromycine 1g PO} (couvre Chlamydia + résistances) [VÉRIFIER: dose ceftriaxone 500mg vs 1g selon dernières recommandations Suisse]
+      • Traitement du/des partenaire(s) systématique
+      • Déclaration obligatoire (gonocoque)
+    - "{e:Grossesse}: privilégier traitement local; éviter {r:métronidazole oral 1er trimestre}; TRAITER vaginose (risque {p:accouchement prématuré}) [VÉRIFIER: sécurité métronidazole 1er trimestre — données plus rassurantes récemment]"
+    - "Conseils hygiène: 1-2 toilettes/j max au savon doux pH neutre, PAS de douches vaginales, sous-vêtements coton, éviter protège-slips quotidiens"
+  orientation:
+    - "Domicile + ordonnance + reconsultation à 7-14j si persistance: épisode isolé typique de candidose/vaginose, examen sans red flag"
+    - "Médecin traitant / gynécologue ambulatoire: récidives (≥4/an), échec traitement, suspicion IST avec dépistage complet, contrôle post-IST à 3-6 mois"
+    - "Centre IST / gynécologie: cervicite confirmée, bilan IST complet (VIH, syphilis, VHB, VHC), notification partenaires"
+    - "Urgences gynécologiques: {p:PID} suspectée, {e:grossesse + fièvre}, lésion cervicale suspecte de cancer, abcès tubo-ovarien"
+
+# source: lines 241-258
+examens_complementaires:
+  - "{t:pH vaginal + Whiff test + examen direct} (sérum + KOH) au cabinet — orientation immédiate étiologique"
+  - "{t:Prélèvement vaginal} avec examen direct + culture aérobie/anaérobie + antifongigramme si récidive/échec"
+  - "{t:PCR Chlamydia trachomatis + Neisseria gonorrhoeae} endocervicale: cervicite, IST suspectée, < 25 ans, facteurs risque, partenaire symptomatique"
+  - "{t:Sérologies IST}: VIH, syphilis (TPHA-VDRL), VHB (AgHBs), VHC — si IST confirmée ou facteurs risque"
+  - "{t:β-HCG}: retard règles, avant prescription d'antibiotique tératogène, douleur pelvienne (éliminer GEU)"
+  - "{t:Glycémie à jeun + HbA1c} + {t:sérologie VIH}: candidoses récidivantes (≥4/an); {t:NFS-CRP + hémocultures + échographie pelvienne} si suspicion {p:PID}"
+
+# source: lines 373-378
+criteres_hospitalisation:
+  - "Suspicion {p:PID} sévère: fièvre élevée, défense, vomissements empêchant traitement PO, abcès tubo-ovarien"
+  - "{e:Grossesse} + suspicion chorioamniotite ou IST avec fièvre"
+  - "Échec traitement ambulatoire à 48-72h ou impossibilité de suivi/observance"
+  - "Comorbidités (immunodépression, {p:VIH} non contrôlé) avec infection sévère"
+  - "Diagnostic incertain avec syndrome inflammatoire et nécessité d'investigations approfondies"
+
+# source: lines 416-422
+pieges:
+  - "{r:Traiter empiriquement sans prélèvement} en cas de récidive ou d'atypie → manque {p:Candida non-albicans}, résistance, ou IST sous-jacente"
+  - "Oublier le {r:traitement du partenaire} en cas de {p:trichomonase} ou IST (chlamydia, gonocoque) → recontamination quasi-systématique"
+  - "Recommander des {r:douches vaginales} ou banaliser leur usage → déséquilibre du microbiote, aggrave vaginose et augmente risque PID"
+  - "Méconnaître un {p:diabète} ou un {p:VIH} face à des candidoses récidivantes — ne pas se contenter de répéter le fluconazole"
+  - "Banaliser une cervicite → risque de {p:PID}, stérilité tubaire, {p:GEU} et douleurs pelviennes chroniques (10-20% post-Chlamydia non traitée)"
+
+cartes_liees:
+  - SSP-GYN-01
+  - SSP-GYN-03
+  - SYS-GYN
