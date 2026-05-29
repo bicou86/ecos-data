@@ -43,12 +43,12 @@ anamnese:
 
 # source: ERC 2021 ALS — reconnaissance ACR + algorithme chocable/non-chocable
 red_flags:
-  - description: "{s:Inconscience} + {s:absence de respiration normale} (apnée ou gasps) [VÉRIFIER: définition gasps ERC 2021 vs AHA]"
+  - description: "{s:Inconscience} + {s:absence de respiration normale} (apnée ou gasps agoniques = traiter comme un arrêt)"
     dx_suspecte: "{p:Arrêt cardio-respiratoire} (tout mécanisme)"
     action: "Appel 144, RCP immédiate {r:30:2}, mise en place {t:DAE} dès disponible"
   - description: "{s:DEM} (activité électrique sans pouls) chez patient jeune + dyspnée pré-arrêt + {e:FDR embolique}"
     dx_suspecte: "{p:Embolie pulmonaire massive}"
-    action: "Fibrinolyse intra-RCP: {r:alteplase 50 mg IV} en bolus; poursuivre RCP {r:90 min} post-fibrinolyse [VÉRIFIER: durée RCP post-lyse recommandée ERC 2021]"
+    action: "Fibrinolyse intra-RCP: {r:alteplase 50 mg IV} en bolus; poursuivre RCP {r:60-90 min} post-fibrinolyse"
   - description: "{s:DEM} + {s:déviation trachée} + {s:hyperrésonance unilatérale} + jugulaires turgescentes"
     dx_suspecte: "{p:Pneumothorax sous tension}"
     action: "Exsufflation immédiate: aiguille {r:14G au 2e EIC ligne médio-claviculaire}, puis drainage"
@@ -57,10 +57,13 @@ red_flags:
     action: "Péricardiocentèse guidée par {t:échographie} intra-RCP; {r:ponction sous-xiphoïdienne}"
   - description: "{e:Dialyse / IRC} + onde T pointues à l'ECG pré-arrêt + rythme sinusoïdal"
     dx_suspecte: "{p:Hyperkaliémie} sévère"
-    action: "{r:CaCl 1 g IV} + {r:insuline 10 UI + G30% 125 mL IV} + {r:bicarbonate 1 mEq/kg} [VÉRIFIER: ordre et doses hyperkaliémie ERC 2021]"
+    action: "{r:CaCl 1 g IV} + {r:insuline 10 UI + G30% 125 mL IV} + {r:bicarbonate 1 mEq/kg}"
   - description: "Suspicion {p:intoxication TCA} (QRS large, contexte psychiatrique) ou {p:intoxication CO}"
     dx_suspecte: "{p:ACR toxique}"
     action: "{p:TCA}: {r:bicarbonate 1 mEq/kg IV} + alcalinisation; {p:CO}: {r:O2 100% haut débit} + hyperbarie si disponible"
+  - description: "{e:Hypothermie sévère} (T° < 30°C, exposition au froid, noyade en eau froide)"
+    dx_suspecte: "{p:ACR hypothermique}"
+    action: "{r:RCP prolongée} + réchauffement actif (ECMO/CEC si dispo); défibrillation et adrénaline souvent inefficaces si T° < 30°C — espacer; « not dead until warm and dead » (réchauffer > 32-35°C avant d'arrêter)"
 
 # source: SSP_ACR.md lignes 40-47 + ERC 2021 ABCDE
 examen:
@@ -84,7 +87,7 @@ examen:
       • ratio {r:30:2} (non intubé) ou compressions continues {r:100-120/min} si intubé
     - |-
       Analyse du rythme (pause ≤ {r:5 sec} toutes 2 min):
-      • {p:FV/TV} sans pouls → chocable: {r:CEE 200 J biphasique}
+      • {p:FV/TV} sans pouls → chocable: {r:CEE ≥ 150 J biphasique} (selon appareil, escalade 200-360 J)
       • {p:asystolie / DEM} → non chocable: {r:adrénaline 1 mg/3-5 min}
     - "Après ROSC: {t:ECG 12 dérivations} immédiat — suspicion {p:SCA} → coronarographie urgente"
 
@@ -111,12 +114,12 @@ pec_initiale:
       Algorithme BLS-AED:
       • reconnaître ACR (inconscience + absence respiration normale)
       • appeler {r:144}, commencer RCP {r:30:2}
-      • défibrillation précoce si {t:DAE} disponible: choc {r:200 J biphasique}
+      • défibrillation précoce si {t:DAE} disponible: choc selon l'appareil ({r:≥ 150 J biphasique})
     - |-
       Algorithme ALS — rythme CHOCABLE ({p:FV/TV}):
-      • {r:CEE 200 J biphasique} → RCP {r:2 min} → analyse rythme → répéter
+      • {r:CEE ≥ 150 J biphasique} (escalade 200-360 J) → RCP {r:2 min} → analyse rythme → répéter
       • après {r:3e choc}: {r:adrénaline 1 mg IV} + {r:amiodarone 300 mg IV}
-      • après {r:5e choc}: {r:amiodarone 150 mg IV} supplémentaire [VÉRIFIER: timing amiodarone 2e dose ERC 2021]
+      • après {r:5e choc}: {r:amiodarone 150 mg IV} supplémentaire
     - |-
       Algorithme ALS — rythme NON CHOCABLE (asystolie/{p:DEM}):
       • {r:adrénaline 1 mg IV} dès que voie veineuse disponible, puis {r:/3-5 min}

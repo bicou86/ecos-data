@@ -66,7 +66,7 @@ red_flags:
     action: "Sécuriser environnement (retirer moyens létaux), surveillance constante; hospitalisation — PAFA si refus de soins [VÉRIFIER: procédure PAFA exacte et délais légaux CHUV/HUG]"
   - description: "{s:Confusion + tremblements + tachycardie + hyperthermie + hallucinations} (délai 24-72h post-arrêt alcool/BZD)"
     dx_suspecte: "{p:Delirium tremens}"
-    action: "{r:Diazépam 10-20 mg IV} titré (répéter q20 min), {r:thiamine 100 mg IV} AVANT glucose, monitoring USC; mortalité {r:5-15 %}"
+    action: "{r:Diazépam 10-20 mg IV} titré (répéter q20 min), {r:thiamine 300-500 mg IV} AVANT glucose (Wernicke établi/suspecté), monitoring USC; mortalité {r:5-15 %}"
   - description: "{s:Agitation + délire de persécution + comportement dangereux} avec auto/hétéro-agressivité imminente"
     dx_suspecte: "{p:Bouffée délirante aiguë} / psychose aiguë"
     action: "Désescalade verbale d'abord; si échec: {r:halopéridol 5 mg IM + lorazépam 2 mg IM}; contention physique dernier recours (5 personnes)"
@@ -78,7 +78,10 @@ red_flags:
     action: "Arrêt antipsychotique immédiat; USI; {r:dantrolène 2.5 mg/kg IV + bromocriptine 2.5-10 mg x3/j}; mortalité 10-20 %"
   - description: "{s:Mydriase + sueurs + crampes + diarrhée + agitation} chez patient sous opiacés arrêtés"
     dx_suspecte: "{p:Sevrage opiacés}"
-    action: "{r:Buprénorphine SL} ou {r:méthadone titrée} [VÉRIFIER: protocole de titration buprénorphine en urgence, dose initiale]"
+    action: "{r:Buprénorphine SL} ou {r:méthadone titrée} (protocole local: titration buprénorphine en urgence)"
+  - description: "{s:Clonus + hyperréflexie + hyperthermie + agitation + mydriase} sous sérotoninergiques (ISRS, tramadol, linézolide, IMAO, triptans)"
+    dx_suspecte: "{p:Syndrome sérotoninergique}"
+    action: "Arrêt immédiat des agents sérotoninergiques; {r:benzodiazépines} + refroidissement; {r:cyproheptadine 12 mg PO puis 2 mg/2h}; distinguer du {p:SMN} (clonus/hyperréflexie vs rigidité 'plomb')"
 
 # source: lines 336-368 (examen urgences)
 examen:
@@ -161,9 +164,10 @@ pec_initiale:
       {p:Agitation sévère}:
       • désescalade verbale (voix posée, distance 2 bras, proposer choix)
       • si échec PO: {r:lorazépam 2-4 mg PO} ± {r:olanzapine 10 mg PO}
-      • si refus: {r:halopéridol 5 mg IM + lorazépam 2 mg IM} ± prométhazine 25 mg
+      • si refus: {r:halopéridol 5 mg IM + lorazépam 2 mg IM} ± prométhazine 25 mg (NE PAS associer olanzapine IM + BZD parentérale dans l'heure → dépression cardio-respiratoire)
+      • agitation sur {p:sevrage OH/BZD}: privilégier BZD seules (halopéridol abaisse le seuil épileptogène)
       • contention physique = dernier recours (5 personnes, réévaluation /15 min)
-    - "{p:Delirium tremens}: {r:diazépam 10-20 mg IV} q20 min titré sur CIWA-Ar, {r:thiamine 100 mg IV} AVANT glucose, monitoring USC"
+    - "{p:Delirium tremens}: {r:diazépam 10-20 mg IV} q20 min titré sur CIWA-Ar, {r:thiamine 300-500 mg IV} AVANT glucose, monitoring USC"
     - "{p:Catatonie}: {r:lorazépam 2-4 mg IV/IM} — test thérapeutique; si positif: doses élevées ({r:8-24 mg/j}); éviter antipsychotiques"
     - "{p:SMN}: arrêt immédiat antipsychotique + USI + {r:dantrolène 2.5 mg/kg IV} + {r:bromocriptine} + refroidissement"
   orientation:

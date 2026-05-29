@@ -82,7 +82,7 @@ examen:
     - |-
       Test orthostatique POSITIF si:
       • chute TA systolique {r:≥ 20 mmHg} OU TA diastolique {r:≥ 10 mmHg}
-      • ou augmentation FC {r:≥ 30 bpm} — [VÉRIFIER: critère FC ≥ 30 bpm dans guidelines ESC 2018]
+      • augmentation FC {r:≥ 30 bpm} SANS chute tensionnelle = {p:POTS} (≠ hypotension orthostatique classique)
     - "Traumatisme post-chute: hématomes, plaies, déformations (fracture?); langue (morsure latérale?)"
   cible:
     - |-
@@ -123,13 +123,13 @@ red_flags:
 dd_top5:
   - dx: "{p:Syncope arythmique} (BAV, TV, FA rapide)"
     indices: "Syncope brutale sans prodrome, palpitations précédant la chute, récupération rapide, ECG: BAV/QT long/Brugada/ε-wave, cardiopathie sous-jacente; SCORE Canadian Syncope Risk"
-    freq: "~35 % des syncopes (cause cardiaque la plus fréquente)"
+    freq: "~10-15 % (arythmie = cause cardiaque la plus fréquente; toutes causes cardiaques ~10-20 %)"
   - dx: "{p:Syncope obstructive} (RAo serré, CMH, EP)"
     indices: "Syncope d'effort ⚠️, souffle systolique éjectionnel, parvus-tardus, écho confirme; EP: dyspnée + FRCV + D-dimères"
     freq: "~10-15 % — pronostic grave"
   - dx: "{p:Syncope vasovagale} (neurogène réflexe)"
     indices: "Prodromes riches (diaphorèse, voile noir, nausées), déclencheur émotionnel/douleur/chaleur/station debout prolongée, récupération rapide, sujet jeune, ECG normal"
-    freq: "~35 % — cause la plus bénigne"
+    freq: "~35-50 % — cause la plus fréquente (toutes confondues) et la plus bénigne"
   - dx: "{p:Hypotension orthostatique}"
     indices: "Syncope au lever, test orthostatique + (chute PAS ≥ 20 mmHg à 1-3 min), médicaments (antihypertenseurs, diurétiques), déshydratation, neuropathie autonome"
     freq: "~10 % — fréquent chez la personne âgée"
@@ -147,7 +147,7 @@ examens_complementaires:
 
 criteres_hospitalisation:
   - "Syncope d'effort ou syncope avec douleur thoracique / dyspnée persistante → hospitalisation cardiologie/USIC"
-  - "ECG anormal (BAV haut degré, QT > 500 ms, Brugada, TV non soutenue) → monitoring continu"
+  - "ECG anormal (BAV haut degré, QTc > 460 ms [long] ou > 500 ms [haut risque], QTc < 340 ms [court], Brugada, TV non soutenue) → monitoring continu"
   - "Cardiopathie connue (RAo, CMH, FEVG < 35 %) + syncope → urgence absolue"
   - "Signes de choc (hypotension, marbrures, tachycardie, OAP) ou traumatisme post-chute grave"
   - "Syncope récidivante inexpliquée chez patient > 65 ans ou avec ATCD familiaux mort subite"
