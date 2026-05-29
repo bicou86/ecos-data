@@ -1,0 +1,207 @@
+id: SSP-PUL-03
+type: ssp
+title: Toux
+discipline: Pulmo
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Toux.md
+
+# source: anamnese_raw (chronologie, type, expectoration, RGO, ATCD, médicaments, tabac)
+anamnese:
+  socrates:
+    - |-
+      Site / trigger anatomique:
+      • voies aériennes hautes (rhinopharynx) / basses (trachée, bronches, alvéoles)?
+      • origine extra-respiratoire (RGO, cardiaque)?
+    - |-
+      Onset / durée — pivot diagnostique:
+      • {r:< 3 sem} = AIGUË (souvent virale)
+      • {r:3-8 sem} = SUBAIGUË (post-infectieuse, coqueluche)
+      • {r:> 8 sem} = CHRONIQUE → enquête étiologique
+    - |-
+      Character:
+      • {s:sèche} (asthme, IEC, virose, cancer) vs {s:grasse / productive}
+      • {s:quinteuse} (coqueluche, corps étranger)
+      • {s:aboyante} (laryngite)
+      • {s:rauque} + dysphonie → atteinte laryngée
+    - "Radiation / signes associés: dyspnée, douleur thoracique pleurale, sibilants entendus par le patient?"
+    - |-
+      Time / horaire — souvent étiologique:
+      • {s:nocturne 2-4h} → asthme
+      • {s:décubitus / orthopnée} → IC, RGO
+      • matinale productive → BPCO, bronchiectasies
+      • à l'effort → asthme, IC
+    - |-
+      Exacerbating:
+      • {e:allergènes} (pollens, acariens)
+      • {s:air froid, irritants}, tabac
+      • décubitus, repas copieux ({p:RGO})
+      • effort ({p:asthme d'effort}, {p:IC})
+    - "Relieving: bronchodilatateurs (efficacité?), position assise, IPP, arrêt IEC?"
+    - |-
+      Severity / retentissement:
+      • impact sommeil, travail, vie sociale
+      • incontinence, syncopes de toux, fractures de côtes
+      • {r:> 30 mL/j d'expectoration} = significatif
+  specifique:
+    - |-
+      {s:Expectoration} — couleur oriente:
+      • claire/blanchâtre → virale, asthme
+      • jaune/verte → {p:infection bactérienne}
+      • {r:rouillée} → {p:pneumonie à pneumocoque}
+      • purulente fétide → {p:abcès, bronchiectasies}
+      • {s:mousseuse rosée} → {p:OAP}
+    - |-
+      {s:Hémoptysie} (cf SSP-PUL-02):
+      • filets vs caillots vs sang pur?
+      • quantifier (< 20 mL / 20-200 / {r:> 200 mL/24h = massive})
+      • différencier hématémèse, épistaxis déglutie
+    - |-
+      Signes infectieux:
+      • fièvre, frissons (pneumonie)
+      • {s:sueurs nocturnes} + amaigrissement → {p:TB} ou cancer
+      • contact tuberculeux, voyage
+    - |-
+      Signes {p:IC}:
+      • {s:orthopnée} (nb oreillers), dyspnée paroxystique nocturne
+      • OMI bilatéraux prenant le godet, nycturie
+      • turgescence jugulaire
+    - |-
+      Signes voies aériennes hautes ({p:UACS}):
+      • rhinorrhée postérieure, raclement de gorge
+      • congestion, prurit nasal, éternuements
+      • saisonnalité (asthme allergique)
+    - |-
+      Signes {p:RGO}:
+      • pyrosis, régurgitations acides
+      • goût acide matinal
+      • aggravation décubitus / repas copieux
+    - "{s:Dysphonie > 2 sem} ou dysphagie → ORL urgent (cancer larynx, paralysie récurrentielle)"
+  atcd:
+    - "Pulmonaires: asthme (spirométrie, traitement actuel), BPCO (stade GOLD, exacerbations), pneumonie récente, TB personnelle/contact, cancer pulmonaire"
+    - "Cardiovasculaires: IC (FEVG, étiologie), cardiopathie ischémique, valvulopathie"
+    - "Digestifs: RGO documenté (pH-métrie, IPP en cours?)"
+    - |-
+      Médicaments tussigènes — TOUJOURS RECHERCHER:
+      • {r:IEC} (énalapril, lisinopril, ramipril) — toux sèche, délai jours à mois, persiste 1-4 sem après arrêt
+      • bêtabloquants (bronchospasme)
+      • méthotrexate, amiodarone, nitrofurantoïne (pneumopathie)
+    - |-
+      Habitudes / exposition:
+      • {r:tabac} (paquets-années), tabagisme passif
+      • expositions pro (amiante, silice, poussières de bois, oiseaux)
+      • allergies, atopie familiale
+      • vaccinations (grippe, pneumocoque, coqueluche, COVID)
+
+# source: red_flags_raw vide → dérivés du pivot clinique (triade UACS/asthme/RGO + cancer + TB + EP)
+red_flags:
+  - description: "{s:Hémoptysie} (surtout > 20 mL) ou crachats hémoptoïques répétés"
+    dx_suspecte: "{p:Cancer broncho-pulmonaire}, {p:TB}, {p:EP}, bronchiectasies"
+    action: "{t:Rx thorax} + {t:angio-TDM thoracique}; cf SSP-PUL-02 Hémoptysie"
+  - description: "{s:Toux + tabac ≥ 20 PA + AEG / amaigrissement} chez patient {e:> 50 ans}"
+    dx_suspecte: "{p:Cancer broncho-pulmonaire}"
+    action: "{t:Rx thorax} en urgence; si anormale ou doute → {t:scanner thoracique injecté} + fibroscopie bronchique [VÉRIFIER: seuil exact PA + âge selon recommandations HAS/SSP]"
+  - description: "{s:Toux + dyspnée brutale + douleur thoracique pleurale}"
+    dx_suspecte: "{p:EP}, {p:pneumothorax}, {p:pneumonie}"
+    action: "{t:Rx thorax} + {t:D-dimères ou angio-TDM} selon score de Wells; ECG; gaz du sang"
+  - description: "{s:Toux + fièvre prolongée + sueurs nocturnes + amaigrissement} ± contact / précarité / migration"
+    dx_suspecte: "{p:Tuberculose pulmonaire}"
+    action: "{t:Rx thorax} + {t:expectorations BK x3 (microscopie + PCR + culture)} + {t:Quantiferon}; isolement respiratoire immédiat"
+  - description: "{s:Dysphonie persistante > 2 sem} ou dysphagie associée à la toux"
+    dx_suspecte: "{p:Cancer pharyngo-laryngé}, paralysie récurrentielle (cancer médiastinal)"
+    action: "Consultation ORL urgente avec nasofibroscopie; {t:scanner cervico-thoracique}"
+  - description: "{s:Crachats mousseux rosés} + orthopnée + OMI"
+    dx_suspecte: "{p:OAP / insuffisance cardiaque décompensée}"
+    action: "Position semi-assise, {r:O2}, {r:furosémide IV 40-80 mg}, {t:ECG + BNP + Rx thorax}; échocardiographie [VÉRIFIER: dose furosémide selon poids et fonction rénale]"
+  - description: "{s:Détresse respiratoire aiguë}: tirage, cyanose, SaO2 < 92%, FR > 30/min"
+    dx_suspecte: "Asthme aigu grave, exacerbation BPCO, pneumonie sévère, OAP"
+    action: "O2, monitoring, {r:salbutamol nébulisé 5 mg} ± ipratropium; corticoïdes IV; appel réa"
+
+# source: examen_raw (état général, inspection, percussion, auscultation pulmonaire et cardiaque)
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: FR, SaO2 (air ambiant), TA, FC, T°"
+    - "Détresse respiratoire: tirage intercostal/sus-claviculaire, balancement thoraco-abdominal, cyanose, muscles accessoires"
+    - "Inspection: {s:hippocratisme digital} (cancer, bronchiectasies, fibrose), cyanose unguéale/centrale, thorax en tonneau (BPCO)"
+    - "État général: amaigrissement (peser, IMC), pâleur, ganglions cervicaux et sus-claviculaires ({p:Troisier})"
+  cible:
+    - |-
+      Auscultation pulmonaire (comparer côtés):
+      • {s:sibilants expiratoires} → asthme, BPCO
+      • {s:crépitants fins velcro} → fibrose, OAP
+      • {s:crépitants moyens localisés} → pneumonie, bronchiectasies
+      • {s:silence auscultatoire} → pneumothorax, asthme aigu grave
+      • {s:stridor} → obstacle laryngo-trachéal; frottement pleural → pleurésie
+    - |-
+      Percussion: {s:matité} (condensation, épanchement), {s:tympanisme} (pneumothorax), hypersonorité (emphysème).
+      Palpation: ampliation symétrique?, vibrations vocales (↑ condensation, ↓ épanchement).
+    - "Auscultation cardiaque: {s:B3/B4} → IC; souffle; éclat B2 pulmonaire → HTAP (cœur pulmonaire)"
+    - "Signes {p:IC droite}: turgescence jugulaire 45°, reflux hépato-jugulaire, hépatomégalie, OMI godet bilatéraux"
+    - "ORL: rhinorrhée postérieure (paroi pharyngée pavée), polypose; laryngoscopie indirecte si dysphonie"
+
+# source: dérivé du pivot clinique (triade toux chronique + 2 différentiels aigus)
+dd_top5:
+  - dx: "{p:Infection respiratoire} (virale > bactérienne)"
+    indices: "Toux aiguë < 3 sem, fièvre, contexte épidémique; pneumonie si crépitants focaux + matité + {r:CRP > 100} + foyer Rx"
+    freq: "très fréquent (1ère cause de toux aiguë)"
+  - dx: "{p:Syndrome de toux d'origine haute (UACS)}"
+    indices: "Toux chronique + rhinorrhée postérieure + raclement de gorge; pharynx pavé; bonne réponse au test thérapeutique (antihistaminique H1 + corticoïde nasal) [VÉRIFIER: ordre de fréquence exact UACS vs asthme dans triade chronique selon source CHUV]"
+    freq: "très fréquent (1ère cause de toux chronique en pop. générale)"
+  - dx: "{p:Asthme} (incluant variant toux)"
+    indices: "Toux sèche nocturne, sibilants, atopie, déclenchement effort/air froid; {t:spirométrie} avec test bronchodilatateur ou test à la méthacholine"
+    freq: "fréquent (5-10 % adultes)"
+  - dx: "{p:RGO}"
+    indices: "Pyrosis, toux décubitus/postprandiale, goût acide; test thérapeutique {r:IPP forte dose 8 sem}; pH-impédancemétrie si doute"
+    freq: "fréquent (3e cause de toux chronique)"
+  - dx: "{p:BPCO / cancer broncho-pulmonaire} chez {e:fumeur > 40 ans}"
+    indices: "BPCO: toux matinale + expectoration chronique + dyspnée d'effort + obstruction non réversible ({r:VEMS/CVF < 0.7}); cancer: AEG, hémoptysie, masse Rx"
+    freq: "fréquent chez fumeurs (BPCO 5-10 %; cancer 1ère cause mortalité)"
+
+# source: pec_raw (approche selon durée, traitement symptomatique, traitements spécifiques)
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — détresse respiratoire / hémoptysie massive / OAP avant tout"
+    - "Détresse respiratoire: O2 pour SaO2 ≥ 94 % (88-92 % si BPCO), position assise, monitoring"
+    - "Asthme aigu: {r:salbutamol nébulisé 5 mg + ipratropium 0.5 mg} répété 20 min × 3; {r:prednisone 40-60 mg PO} ou méthylprednisolone IV"
+    - "Pneumonie communautaire: {r:amoxicilline 1 g x3/j PO 5-7 j} ± macrolide si atypique suspecté [VÉRIFIER: protocole local CHUV/HUG pour critères CURB-65 et choix ATB]"
+    - "Exacerbation BPCO: bronchodilatateurs, {r:prednisone 40 mg PO 5 j}, ATB si critères d'Anthonisen (amoxicilline-clavulanate ou fluoroquinolone)"
+    - "Toux sèche très invalidante (sans diagnostic d'alerte): {r:dextrométhorphane 15-30 mg x3/j}; CI si toux productive"
+    - "OAP: cf red flag — semi-assise, O2, furosémide IV, dérivés nitrés si TA conservée"
+    - "Arrêt {r:IEC} si suspect — substituer par ARA2; régression toux en 1-4 sem"
+  orientation:
+    - "Domicile + médecin traitant: toux aiguë < 3 sem virale typique, sans red flag, examen normal, SaO2 normale"
+    - "Consultation pneumo / ambulatoire: toux subaiguë persistante après 3 sem, toux chronique > 8 sem pour enquête étiologique (Rx + spiro)"
+    - "Urgences: tout red flag (hémoptysie, détresse, OAP, suspicion EP), fièvre élevée avec foyer, SaO2 < 92 %"
+    - "Isolement respiratoire + déclaration: TB suspectée, coqueluche, COVID"
+    - "Consignes retour: aggravation dyspnée, hémoptysie, fièvre persistante > 7 j, douleur thoracique nouvelle"
+
+# source: pec_raw (examens 1ère et 2e intention)
+examens_complementaires:
+  - "{t:Rx thorax face + profil}: 1ère intention si toux > 3 sem, fièvre, dyspnée, douleur thoracique, hémoptysie, tabagique > 40 ans"
+  - "{t:FSC + CRP + procalcitonine}: si fièvre / suspicion infection bactérienne"
+  - "{t:Spirométrie + test bronchodilatateur} (± test à la méthacholine): suspicion asthme, BPCO"
+  - "{t:Scanner thoracique injecté}: Rx anormale, toux chronique inexpliquée, suspicion cancer/EP/bronchiectasies/fibrose"
+  - "{t:Expectorations BK x3 + PCR + culture} + Quantiferon: suspicion TB"
+  - "{t:ECG + BNP + échocardiographie}: suspicion IC; {t:pH-impédancemétrie}: RGO atypique [VÉRIFIER: indication pH-métrie vs test thérapeutique IPP empirique selon recommandations]"
+
+# source: pec_raw (signes d'alarme - consulter en urgence)
+criteres_hospitalisation:
+  - "Détresse respiratoire: FR > 30, SaO2 < 92 % air ambiant, cyanose, tirage"
+  - "Hémoptysie {r:> 20 mL} ou répétée; OAP / IC décompensée"
+  - "Pneumonie sévère: {t:CURB-65 ≥ 2}, sepsis, comorbidités majeures, échec ATB ambulatoire"
+  - "Suspicion EP haute probabilité, pneumothorax compressif"
+  - "TB bacillifère nécessitant isolement; immunodépression + fièvre + toux"
+
+# source: pieges dérivés du pivot clinique (5 max)
+pieges:
+  - "Prescrire un {r:antitussif} sans Rx ni diagnostic — risque de masquer un cancer broncho-pulmonaire chez fumeur"
+  - "Oublier les {r:IEC} comme cause de toux sèche chronique — TOUJOURS faire l'inventaire médicamenteux (incluant IEC pris depuis des années sans toux initiale)"
+  - "Méconnaître la {p:coqueluche} chez l'adulte (toux quinteuse > 2 sem, parfois sans fièvre); penser PCR Bordetella + macrolide + isolement, vaccinations entourage"
+  - "Ne pas faire de {t:Rx thorax} devant une toux > 3 sem ou chez tout fumeur > 40 ans avec changement de toux habituelle"
+  - "Banaliser une {s:toux + dysphonie > 2 sem} — paralysie récurrentielle = cancer médiastinal jusqu'à preuve du contraire (ORL + scanner)"
+
+cartes_liees:
+  - SSP-PUL-02
+  - SYS-PULM

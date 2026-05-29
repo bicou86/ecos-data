@@ -1,0 +1,182 @@
+id: SSP-DER-03
+type: ssp
+title: Prurit
+discipline: Dermato
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Prurit.md
+
+# source: line 33-69
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • {s:localisé} (zone précise: cuir chevelu, mains, génital, anal) ou {s:généralisé}?
+      • symétrique?
+      • espaces interdigitaux / poignets / aisselles / ombilic / génital → orientation {p:gale}
+    - |-
+      Onset:
+      • {e:aigu < 6 semaines} vs {e:chronique > 6 semaines}
+      • brutal (réaction allergique, médicament) ou progressif?
+    - "Character: piqûre, brûlure, fourmillement (neuropathique)? besoin impérieux de gratter?"
+    - "Radiation: extension progressive ou rester localisé?"
+    - |-
+      Time:
+      • horaire nocturne (réveille la nuit) → {p:gale}
+      • permanent ou crises
+      • {s:immédiatement post-douche chaude} (5-30 min) → {p:polyglobulie de Vaquez}
+    - |-
+      Exacerbating:
+      • {s:eau chaude / douche} (prurit aquagénique)
+      • chaleur, stress, sueur
+      • contact avec allergène, vêtements (laine, synthétique)?
+    - "Relieving: froid, émollients, antihistaminiques (efficaces?)"
+    - |-
+      Severity:
+      • {t:EVA 0-10}
+      • impact sur sommeil
+      • lésions de grattage / surinfection
+      • retentissement psy / qualité de vie
+  specifique:
+    - |-
+      Lésions cutanées primaires? (clé du tri)
+      • OUI → dermatose (eczéma, urticaire, psoriasis, lichen, gale)
+      • NON → prurit {p:sine materia} → bilan systémique
+    - |-
+      Signes B → {p:lymphome de Hodgkin}:
+      • fièvre vespérale, sueurs nocturnes
+      • {s:amaigrissement > 10 %} sur 6 mois
+      • adénopathies palpables
+    - "{s:Ictère} / urines foncées / selles décolorées → cholestase (PBC, lithiase, {p:cancer pancréas})"
+    - "{s:Polyurie / polydipsie / asthénie} → urémie ({p:IRC}) / diabète / hyperthyroïdie"
+    - "Contagion intra-familiale ou partenaire(s) avec mêmes symptômes → {p:gale}"
+    - "{s:Pléthore faciale} + céphalées + vertiges + prurit aquagénique → {p:Vaquez (polyglobulie)}"
+    - "{e:Grossesse} 3e trimestre + prurit paumes/plantes → cholestase gravidique"
+  atcd:
+    - "Dermatoses connues: atopie, psoriasis, urticaire chronique, dermatite de contact"
+    - "Maladies systémiques: hépatopathie, IRC/dialyse, dysthyroïdie, diabète, hémopathie, VIH/VHC"
+    - |-
+      Médicaments (cause sous-estimée):
+      • {r:opioïdes} (morphine, codéine, tramadol)
+      • {r:antipaludéens} (chloroquine, hydroxychloroquine)
+      • IEC, β-bloquants
+      • allopurinol, AINS, aspirine
+      • introduction récente (< 6 sem)?
+    - "ATCD familiaux: atopie, gale dans l'entourage, hémopathies"
+    - "Habitudes: voyages récents, animaux, institution / EMS, profession (contact)"
+    - "{e:Âge > 70 ans}: xérose physiologique fréquente — mais éliminer cause organique avant [VÉRIFIER:seuil épidémio prurit gériatrique = 50% > 70 ans]"
+
+# source: line 183-189
+red_flags:
+  - description: "Prurit + {s:ictère} + {s:amaigrissement} chez patient {e:> 50 ans}"
+    dx_suspecte: "{p:Cancer pancréas / voies biliaires} ou cholestase tumorale"
+    action: "{t:Écho abdominale} en urgence + bilan hépatique complet (PAL, γGT, bili); {t:CA 19-9}; si suspicion confirmée → {t:IRM bilio-pancréatique}"
+  - description: "Prurit + {s:adénopathies} + sueurs nocturnes + amaigrissement"
+    dx_suspecte: "{p:Lymphome de Hodgkin / LNH}"
+    action: "{t:NFS + LDH + VS/CRP + Rx thorax}; consultation hémato urgente pour {t:biopsie ganglionnaire excisionnelle}"
+  - description: "{s:Prurit aquagénique} immédiatement après douche chaude + pléthore faciale"
+    dx_suspecte: "{p:Polyglobulie de Vaquez (PV)}"
+    action: "{t:NFS} STAT (Hb, Ht, plaquettes); si polyglobulie → consult hémato pour {t:mutation JAK2 V617F} et bilan EPO"
+  - description: "Prurit + {s:urticaire généralisée} + dyspnée / hypoTA / œdème laryngé"
+    dx_suspecte: "{p:Anaphylaxie}"
+    action: "{r:Adrénaline 0.5 mg IM} face antéro-latérale cuisse; O2; voie veineuse; corticoïdes + anti-H1 IV; appel REA"
+  - description: "Prurit nocturne intense + {s:sillons interdigitaux} ± contagion familiale"
+    dx_suspecte: "{p:Gale}"
+    action: "Diagnostic clinique (loupe/dermatoscope); {r:ivermectine 200 µg/kg PO J1 + J8} + traitement simultané entourage + lavage literie 60 °C"
+  - description: "Prurit + {s:fièvre} + éruption diffuse + atteinte muqueuse / décollement / DRESS"
+    dx_suspecte: "{p:Toxidermie grave (SJS / Lyell / DRESS)}"
+    action: "Arrêt IMMÉDIAT médicament suspect; hospitalisation urgences/dermato/REA; bilan hépato-rénal; pas de corticoïdes locaux sans avis"
+
+# source: line 70-95
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T°, FR, SaO2; poids (amaigrissement?)"
+    - "Inspection cutanée COMPLÈTE patient DÉSHABILLÉ (lumière naturelle si possible)"
+    - "Conjonctives / sclères ({s:ictère}); muqueuses (pâleur, sécheresse)"
+    - "Palpation aires ganglionnaires: cervicales, sus-claviculaires, axillaires, inguinales"
+    - "Palpation abdominale: {s:hépatomégalie} / {s:splénomégalie} (Hodgkin, Vaquez, cirrhose)"
+    - "Palpation thyroïdienne (goitre, nodules); œdèmes MI ({p:IRC})"
+  cible:
+    - |-
+      Lésions cutanées primaires (oriente vers dermatose):
+      • {s:plaques érythémato-squameuses} extension → psoriasis
+      • {s:vésicules + érythème + plis} → eczéma
+      • {s:papules œdémateuses fugaces < 24 h} → urticaire
+      • {s:papules violacées + stries de Wickham} → lichen plan
+    - |-
+      Recherche ciblée {p:gale} (dermatoscope si disponible):
+      • {s:sillons scabieux} espaces interdigitaux, poignets, ombilic
+      • {s:papules excoriées} verge / scrotum / mamelon
+      • nodules scabieux (gale ancienne)
+    - |-
+      Si prurit sine materia (pas de lésion primaire):
+      • {s:xérose} (peau sèche, fine)
+      • lésions secondaires: {s:excoriations linéaires}, {s:lichénification}, {s:prurigo nodulaire}
+      • dermographisme au stylet (urticaire chronique)
+    - "{t:FO} si suspicion HTIC / Vaquez (œdème papillaire, vaisseaux dilatés)"
+    - "Auscultation cardio-pulmonaire (insuffisance cardiaque, épanchements lymphome)"
+
+# source: line 120-140 (table DD)
+dd_top5:
+  - dx: "{p:Xérose / dermatite atopique}"
+    indices: "Peau sèche, fissures, plis de flexion, ATCD atopie (asthme, rhinite); fréquent chez sujet âgé et nourrisson; pas de cause systémique"
+    freq: "très fréquent (cause #1 prurit chronique sans dx)"
+  - dx: "{p:Gale}"
+    indices: "Prurit nocturne intense, contagion intra-familiale/partenaire, sillons interdigitaux, papules génitales/ombilicales; diagnostic clinique [VÉRIFIER:ordre du tri DD — gale priorisée car curable et contagieuse]"
+    freq: "fréquent (toutes classes sociales, EMS, collectivités)"
+  - dx: "{p:Urticaire chronique}"
+    indices: "Papules œdémateuses fugaces < 24 h, migratrices, dermographisme, parfois angio-œdème; idiopathique dans 70 % des cas chroniques"
+    freq: "fréquent (1 % population, prédominance femme 30-40 ans)"
+  - dx: "{p:Prurit cholestatique}"
+    indices: "{s:Ictère}, urines foncées, selles décolorées, PAL/γGT élevés; causes: PBC, cholestase gravidique, lithiase, {p:cancer pancréas/voies biliaires}; prédominance paumes/plantes"
+    freq: "20 % des prurits sine materia"
+  - dx: "{p:Prurit hématologique}"
+    indices: "Hodgkin (signes B, ADP); Vaquez (prurit aquagénique, pléthore, NFS pléthorique, JAK2+); carence martiale (ferritine ↓); méthémoglobinémie [VÉRIFIER:fréquence relative Hodgkin vs Vaquez dans série suisse]"
+    freq: "rare mais à ne pas manquer (10 % Hodgkin présentent prurit révélateur)"
+
+# source: line 141-181
+pec_initiale:
+  immediate:
+    - "Tri d'abord: prurit AVEC lésion primaire (dermato) vs SANS (bilan systémique)"
+    - "Si {p:anaphylaxie}: {r:adrénaline 0.5 mg IM} cuisse + O2 + remplissage + anti-H1/corticoïdes IV + REA"
+    - "Si {p:gale} clinique: {r:ivermectine 200 µg/kg PO J1 + J8} (ou perméthrine 5 % topique) + traitement simultané entourage + lavage textiles 60 °C / sacs hermétiques 72 h"
+    - "Si {p:urticaire} aiguë: {r:cétirizine 10 mg/j PO} (jusqu'à 4× dose); arrêt médicament suspect; corticoïdes courts si sévère [VÉRIFIER:posologie cétirizine au-delà x4 en suisse]"
+    - "Si {p:eczéma} / dermatose inflammatoire: dermocorticoïdes classe II-III en cure courte + émollients"
+    - "Prurit cholestatique: {r:acide ursodésoxycholique 13-15 mg/kg/j PO}; cholestyramine 4 g × 1-4/j; naltrexone 2e ligne"
+    - "Prurit urémique ({p:IRC}): optimisation dialyse + {r:gabapentine 100-300 mg post-dialyse} (adaptation rénale!)"
+    - "Mesures générales TOUJOURS: douches tièdes courtes, savon surgras, émollients 2×/j, ongles courts, coton, humidification, T° fraîche"
+  orientation:
+    - "Domicile + suivi médecin traitant: prurit avec dx dermato bénin (eczéma, urticaire), examen normal, pas de red flag"
+    - "Consultation dermato semi-urgente: prurit chronique sans dx, suspicion gale en collectivité, eczéma sévère/résistant"
+    - "Consultation médecine interne / hémato: prurit sine materia avec anomalies au bilan systémique"
+    - "Urgences hospitalières: anaphylaxie, suspicion toxidermie grave (SJS/Lyell/DRESS), ictère fébrile, prurit + altération état général sévère"
+    - "Consignes de retour: apparition fièvre, ictère, dyspnée, extension brutale, lésions vésiculeuses muqueuses, troubles de conscience"
+
+# source: line 97-119
+examens_complementaires:
+  - "{t:NFS-plaquettes}: {s:éosinophilie} (parasitose, toxidermie, atopie, lymphome), polyglobulie ({p:Vaquez}), anémie (carence Fe)"
+  - "{t:Bilan hépatique} (ASAT/ALAT, PAL, γGT, bilirubine totale/conjuguée) + créatinine/urée: 1ère ligne sine materia"
+  - "{t:TSH ± T4l}; glycémie à jeun; ferritine (carence martiale fréquente, à doser même sans anémie)"
+  - "{t:Sérologies VIH + VHB + VHC}: prurit chronique inexpliqué (recommandé systématique)"
+  - "{t:Écho abdominale}: si cholestase / hépatomégalie / amaigrissement; recherche masse pancréatique, dilatation voies biliaires"
+  - "{t:Rx thorax + EPP}: adénopathies, gammapathie (myélome), suspicion lymphome; {t:biopsie ganglionnaire} si ADP > 2 cm persistante"
+
+criteres_hospitalisation:
+  - "{p:Anaphylaxie} ou suspicion toxidermie grave ({p:SJS / Lyell / DRESS})"
+  - "Ictère fébrile (angiocholite) ou cholestase avec altération hépato-cellulaire sévère"
+  - "Suspicion hémopathie aiguë (Hodgkin avec compression médiastinale, leucémie)"
+  - "Surinfection cutanée extensive (érysipèle, lymphangite, sepsis) sur lésions de grattage"
+  - "Prurit incoercible avec retentissement majeur (insomnie sévère, idéation suicidaire)"
+
+pieges:
+  - "Étiqueter le prurit comme {p:psychogène} sans avoir fait un bilan systémique minimal — diagnostic d'exclusion uniquement"
+  - "Méconnaître un {p:Hodgkin} révélé par le prurit (10 % des cas) — TOUJOURS palper toutes les aires ganglionnaires + Rx thorax si signes B"
+  - "Oublier la {p:gale} chez le sujet âgé en {e:EMS / institution} (présentation atypique: dos, prurit isolé sans sillon visible) → traitement collectif"
+  - "Ne pas penser à la {p:polyglobulie de Vaquez} devant un prurit aquagénique typique (post-douche chaude immédiat) — NFS suffit au tri"
+  - "Donner des {r:dermocorticoïdes} sur une gale non diagnostiquée → aggravation et gale 'profuse / norvégienne'"
+
+cartes_liees:
+  - SYS-DERM
+  - SSP-HEM-LYMPHOME

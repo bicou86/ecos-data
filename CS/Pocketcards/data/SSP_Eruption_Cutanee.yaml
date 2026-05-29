@@ -1,0 +1,187 @@
+id: SSP-DER-01
+type: ssp
+title: Éruption cutanée
+discipline: Dermato
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Eruption_Cutanee.md
+
+# source: lines 12-64
+anamnese:
+  socrates:
+    - |-
+      Site (topographie):
+      • localisation initiale et zones atteintes vs épargnées
+      • photo-exposées (visage, décolleté, avant-bras)
+      • plis (axilles, aines)
+      • paumes/plantes
+      • muqueuses (bouche, génital, œil)
+    - |-
+      Onset:
+      • date d'apparition exacte
+      • brutal vs progressif
+      • éruption primaire ou récurrente
+    - "Character: type de lésion ressentie — qui pique, qui brûle, qui suinte, vésicules, plaques?"
+    - "Radiation: mode d'extension (centripète/centrifuge/généralisé), symétrie?"
+    - |-
+      Time:
+      • durée totale, évolution (extension, confluence, régression)
+      • horaire du prurit (nocturne → impact sommeil)
+    - "Exacerbating: soleil, sueur, contact (cosmétiques, métaux), aliments, stress?"
+    - "Relieving: arrêt d'un médicament suspect, antihistaminiques, dermocorticoïdes?"
+    - |-
+      Severity:
+      • {s:prurit 0-10}
+      • surface corporelle atteinte (règle des 9)
+      • retentissement sur sommeil/travail
+  specifique:
+    - |-
+      {s:Médicaments PRIORITAIRE} dans les {r:4 dernières semaines} (délai classique {r:7-21 j}):
+      • antibiotiques (β-lactamines, sulfamides)
+      • AINS
+      • anticonvulsivants (lamotrigine, carbamazépine)
+      • allopurinol
+      • auto-médication, phytothérapie
+    - |-
+      Signes généraux associés:
+      • fièvre (T°, durée)
+      • AEG, arthralgies
+      • signes ORL, troubles digestifs
+    - |-
+      Atteinte muqueuses (gravité):
+      • bouche (érosions, langue framboise)
+      • œil (conjonctivite, photophobie)
+      • génital (érosions)
+    - "Contexte {s:infectieux}: contact malade, collectivité (crèche, école), voyages, piscine?"
+    - "Statut vaccinal (rougeole, varicelle); grossesse en cours?"
+    - "Exposition professionnelle/environnementale: substances chimiques, détergents, nouveau cosmétique?"
+  atcd:
+    - "Dermatoses chroniques: eczéma, psoriasis, urticaire"
+    - "Terrain {s:atopique}: asthme, rhinite, allergies alimentaires"
+    - "{e:Immunodépression}: VIH, chimiothérapie, corticothérapie au long cours, biothérapies"
+    - "Allergies documentées (médicamenteuses, contact)"
+    - "ATCD familiaux: psoriasis, atopie, mélanome, maladies bulleuses auto-immunes"
+    - |-
+      Habitudes:
+      • exposition solaire, UV
+      • hygiène (savons agressifs)
+      • profession (coiffure, BTP, soins)
+
+# source: lines 123-130, 188-194 + clinical pivots
+red_flags:
+  - description: "{s:Fièvre + décollement épidermique > 30 % + atteinte muqueuses + signe de Nikolski +} post-introduction médicament"
+    dx_suspecte: "{p:Nécrolyse épidermique toxique (TEN / Lyell)} / Stevens-Johnson"
+    action: "{r:ARRÊT IMMÉDIAT du médicament suspect}; transfert {r:USI brûlés}; soins de support (réhydratation, nutrition, antalgie); avis dermato urgent; PAS de corticoïdes systémiques en première intention [VÉRIFIER: protocole CHUV/HUG TEN — corticoïdes vs IgIV vs ciclosporine]"
+  - description: "{s:Fièvre + éruption morbilliforme étendue + adénopathies + œdème facial} 2-8 sem après nouveau médicament, avec {s:éosinophilie} et atteinte hépatique/rénale"
+    dx_suspecte: "{p:DRESS} (Drug Reaction with Eosinophilia and Systemic Symptoms)"
+    action: "{r:ARRÊT du médicament suspect}; hospitalisation; bilan viscéral ({t:NFS, ASAT/ALAT, créat, TSH}); {r:corticothérapie systémique 1 mg/kg/j} si atteinte viscérale sévère; avis dermato + interniste"
+  - description: "{s:Purpura pétéchial fébrile} + AEG ± syndrome méningé ± choc"
+    dx_suspecte: "{p:Méningococcémie / purpura fulminans}"
+    action: "{r:Ceftriaxone 2 g IV IMMÉDIAT} (ne pas attendre la PL); remplissage; isolement gouttelettes; transfert USI; antibioprophylaxie de l'entourage"
+  - description: "{s:Érythrodermie} (> 90 % surface) + fièvre + tachycardie + déshydratation ± hypoTA"
+    dx_suspecte: "{p:Érythrodermie aiguë} (toxidermie, psoriasis pustuleux, Sézary)"
+    action: "Hospitalisation USC/USI; {r:réchauffement, réhydratation IV, nutrition}; arrêt cause si médicamenteuse; émollients; avis dermato urgent [VÉRIFIER: seuil exact d'érythrodermie — usuellement ≥ 80-90 %]"
+  - description: "{s:Angio-œdème + dyspnée + dysphonie + atteinte muqueuses} ± urticaire géante post-exposition (médicament, aliment, piqûre)"
+    dx_suspecte: "{p:Choc anaphylactique} / œdème de Quincke"
+    action: "{r:Adrénaline IM 0.5 mg (cuisse)} à répéter toutes 5-15 min; O2; remplissage; {r:antihistaminique IV + méthylprednisolone 1-2 mg/kg IV}; surveillance USC"
+  - description: "{s:Pustules généralisées} apparaissant en < 5 j après médicament + fièvre élevée + hyperleucocytose neutrophilique"
+    dx_suspecte: "{p:PEAG} (Pustulose exanthématique aiguë généralisée)"
+    action: "{r:Arrêt du médicament suspect}; hospitalisation; soins locaux antiseptiques; surveillance évolution; antibiothérapie SI surinfection bactérienne prouvée"
+
+# source: lines 66-101
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: T°, TA, FC, FR, SaO2; estimer {t:% surface corporelle atteinte} (règle des 9)"
+    - "État général, hydratation, signes de choc; recherche d'AEG"
+    - "Examen complet incluant {s:cuir chevelu, plis (axillaires, inguinaux, sous-mammaires), ongles, paumes/plantes, muqueuses}"
+    - "Adénopathies dans les aires de drainage"
+  cible:
+    - |-
+      Description morphologique ({s:MPVBP}):
+      • Macules (planes) / Papules (< 1 cm) / Plaques (> 1 cm)
+      • Vésicules (< 0,5 cm) / Bulles (> 0,5 cm) / Pustules
+      • Purpura (hémorragique)
+    - |-
+      Caractéristiques descriptives:
+      • couleur (rouge, rosé, brunâtre)
+      • surface (lisse, squameuse, croûteuse, suintante)
+      • contours (nets, polycycliques, annulaires)
+      • disposition (isolées, confluentes, groupées en bouquet)
+    - |-
+      Examens spécifiques au lit:
+      • {t:vitropression} (disparition de l'érythème vs purpura)
+      • {t:signe de Nikolski} (décollement épidermique au frottement → {p:TEN, pemphigus})
+      • {t:dermographisme} (urticaire physique)
+      • {t:grattage méthodique} de Brocq (psoriasis, mycose)
+    - |-
+      Muqueuses (gravité ++):
+      • buccale (érosions, signe de Koplik, langue framboise)
+      • oculaire (conjonctivite)
+      • génitale (érosions)
+    - "Recherche signes de gravité: détresse respiratoire, dysphonie, hypoTA, troubles de conscience"
+
+# source: lines 105-130 + clinical pivots
+dd_top5:
+  - dx: "{p:Exanthème viral} (parvovirus B19, EBV, CMV, rougeole, roséole)"
+    indices: "Éruption maculo-papuleuse diffuse, contexte fébrile, contage; énanthème possible (Koplik = rougeole); {t:sérologies / PCR} si doute; évolution spontanément favorable; touche surtout {e:enfant} et adulte jeune"
+    freq: "très fréquent (1re cause chez enfant)"
+  - dx: "{p:Toxidermie médicamenteuse}"
+    indices: "Délai {r:7-21 j} après nouveau médicament (β-lactamines, sulfamides, allopurinol, anticonvulsivants); morbilliforme, parfois urticarienne; amélioration à l'arrêt; rechercher signes de gravité (Nikolski, muqueuses, viscères → SJS/TEN/DRESS)"
+    freq: "fréquent (2-3 % hospitalisations)"
+  - dx: "{p:Eczéma / dermatite atopique ou de contact}"
+    indices: "Plaques érythémateuses mal limitées, prurigineuses, vésiculeuses au stade aigu puis suintantes/croûteuses puis lichénifiées; terrain atopique (asthme, rhinite); zones de contact si contact; {t:patch-tests} en différé"
+    freq: "très fréquent (15-20 % pop. atopique)"
+  - dx: "{p:Urticaire} (aiguë ou chronique)"
+    indices: "Papules œdémateuses {s:fugaces} (< 24 h sur un site), mobiles, prurigineuses, dermographisme +; rechercher angio-œdème associé (gravité); causes: médicaments, aliments, infections, idiopathique"
+    freq: "fréquent (15-25 % au cours de la vie)"
+  - dx: "{p:Infection bactérienne} (érysipèle, cellulite, impétigo)"
+    indices: "Placard érythémateux chaud douloureux à bord net (érysipèle, jambe ++); fièvre, ADP satellites; impétigo = croûtes mélicériques (enfant); recherche porte d'entrée; {t:NFS, CRP, hémocultures si sepsis}"
+    freq: "fréquent"
+
+# source: lines 144-186 + clinical pivots
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: tout signe de gravité (Nikolski, muqueuses, érythrodermie, purpura fébrile, anaphylaxie) → hospitalisation avant tout traitement étiologique"
+    - "Suspicion {p:Toxidermie/DRESS/SJS-TEN}: {r:arrêt IMMÉDIAT de tout médicament suspect non vital} (introduit dans les 8 dernières semaines); noter date + dose"
+    - "{p:Anaphylaxie}: {r:adrénaline IM 0,5 mg cuisse} (0,01 mg/kg enfant), O2, remplissage, antihistaminique IV, corticoïdes IV"
+    - "{p:Méningococcémie} suspectée (purpura fébrile): {r:ceftriaxone 2 g IV} immédiat sans attendre PL"
+    - "Infection bactérienne localisée: {r:mupirocine topique 3×/j × 5-7 j} (impétigo); {r:amoxicilline-clavulanate 1 g × 3/j × 7 j} si étendu; {r:pénicilline G ou amoxicilline} si érysipèle [VÉRIFIER: dose pédiatrique mg/kg selon poids]"
+    - "{p:Varicelle/Zona < 72 h}: {r:valaciclovir 1 g × 3/j PO × 7 j} (zona); symptomatique pour varicelle banale; aciclovir IV si immunodéprimé"
+    - "Urticaire/prurit: {r:cétirizine 10 mg/j PO} (1×/j); doser jusqu'à 4× si chronique [VÉRIFIER: posologie max selon recommandations EAACI]"
+    - "Dermatophytose limitée: {r:terbinafine crème 1 % 1-2×/j × 2-4 sem}; étendu/cuir chevelu → {r:terbinafine 250 mg/j PO × 2-4 sem}"
+  orientation:
+    - "Domicile + suivi MT/dermato ambulatoire: éruption non fébrile, sans atteinte muqueuse, sans Nikolski, examen général normal, étiologie identifiée"
+    - "Urgences/hospitalisation: tout red flag, atteinte > 10 % surface, atteinte muqueuses, AEG, déshydratation, {e:immunodéprimé} fébrile"
+    - "Dermatologie urgente: suspicion bulle auto-immune (pemphigus), érythrodermie, dermatoses graves, doute diagnostique sur lésion étendue"
+    - "Consignes de retour: fièvre nouvelle, extension rapide, atteinte muqueuses, décollement, douleur intense, dyspnée, ou apparition de purpura"
+
+# source: lines 132-142 + clinical pivots
+examens_complementaires:
+  - "{t:NFS + éosinophilie + CRP}: contexte fébrile, suspicion {p:DRESS} (éosinophilie > 1500/mm³), infection bactérienne"
+  - "{t:Bilan hépatique (ASAT/ALAT) + créatinine}: suspicion {p:DRESS} (atteinte viscérale), érythrodermie"
+  - "{t:Hémocultures + prélèvements cutanés bactériens}: fièvre + lésions purulentes/suintantes, suspicion sepsis cutané"
+  - "{t:Sérologies/PCR virales} (parvovirus B19, EBV, CMV, HSV/VZV, syphilis): éruption fébrile non identifiée, contexte évocateur"
+  - "{t:Biopsie cutanée + IFD}: suspicion bulle auto-immune (pemphigus, pemphigoïde), vasculite, lymphome cutané [VÉRIFIER: timing biopsie idéale en zone péri-lésionnelle]"
+  - "{t:KOH direct + culture mycologique}: lésion annulaire suspecte de dermatophytose; patch-tests à distance pour eczéma de contact"
+
+# source: lines 188-194 + clinical pivots
+criteres_hospitalisation:
+  - "Suspicion {p:SJS/TEN}: décollement épidermique, Nikolski +, atteinte muqueuses multiples"
+  - "Suspicion {p:DRESS}: éosinophilie + atteinte viscérale + fièvre + œdème facial"
+  - "{p:Érythrodermie} (> 80-90 % surface) avec retentissement hémodynamique/hydroélectrolytique"
+  - "{s:Purpura fébrile} (méningococcémie) ou sepsis cutané (érysipèle compliqué, fasciite)"
+  - "{e:Immunodéprimé} + éruption fébrile; nourrisson < 3 mois fébrile avec éruption"
+
+# source: lines 205-210 + clinical pivots
+pieges:
+  - "Négliger l'interrogatoire médicamenteux des {r:8 dernières semaines} ({p:DRESS} a une latence longue de 2-8 sem souvent méconnue)"
+  - "Confondre {p:érysipèle} (placard érythémateux chaud douloureux à bord net, fébrile) avec {p:TVP} (œdème mou indolore, signe de Homans) → mauvais traitement et risque embolique"
+  - "Banaliser un {s:purpura fébrile} sans rechercher méningococcémie → {r:ceftriaxone IV} doit être empirique immédiate avant tout transfert"
+  - "Prescrire des dermocorticoïdes de classe forte (très forte/forte) sur le {s:visage, plis, génital} → atrophie cutanée et rebond"
+  - "Oublier de demander un bilan auto-immun ({t:AAN, anti-DNA, ANCA, complément}) devant éruption + signes systémiques (lupus, vasculite)"
+
+cartes_liees:
+  - SYS-DER
+  - TOOL-SCORTEN

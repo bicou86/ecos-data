@@ -1,0 +1,202 @@
+id: SSP-HEM-02
+type: ssp
+title: Saignements et ecchymoses
+discipline: Hemato
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Saignements_Ecchymoses.md
+
+# source: line 9-86
+anamnese:
+  socrates:
+    - |-
+      Site / type de saignement:
+      • cutanéo-muqueux (épistaxis, gingivorragies, pétéchies, ecchymoses)
+      • profond (hémarthroses, hématomes musculaires)
+      • viscéral (méléna, hématurie, hémoptysie, ménorragies)
+    - |-
+      Onset:
+      • aigu (heures-jours) ou chronique?
+      • depuis l'enfance (héréditaire) ou récent (acquis)?
+      • spontané ou post-traumatique/post-chirurgical?
+    - "Character: saignement immédiat (hémostase primaire) ou retardé/récidivant après quelques heures (hémostase secondaire)?"
+    - "Radiation: extension d'une ecchymose, saignement multi-sites simultanés?"
+    - |-
+      Time:
+      • durée de l'épisode
+      • fréquence (combien d'épisodes/an)
+      • saignement prolongé après coupure mineure (> 10 min)?
+    - "Exacerbating: AINS/aspirine, anticoagulants, alcool, traumatisme, règles, chirurgie/extraction dentaire"
+    - "Relieving: compression locale efficace? acide tranexamique antérieur?"
+    - |-
+      Severity:
+      • nombre tampons/j ({r:> 7/j ou > 80 mL/cycle} = ménorragie)
+      • taille ecchymoses (cm)
+      • impact hémodynamique (asthénie, dyspnée, lipothymie)
+  specifique:
+    - |-
+      Sources de saignement (inventaire systématique):
+      • épistaxis (fréquence, unilatéral/bilatéral)
+      • gingivorragies au brossage
+      • méléna / rectorragies / hématurie
+      • ménorragies / hémorragie obstétricale
+    - |-
+      Saignements profonds ({p:hémostase secondaire}):
+      • hémarthroses (genoux, chevilles, coudes)
+      • hématomes musculaires profonds
+      • saignements post-extraction dentaire prolongés
+    - |-
+      Symptômes d'anémie aiguë/chronique:
+      • palpitations, dyspnée d'effort
+      • lipothymie, pâleur, asthénie
+    - "{s:Fièvre} + saignements → CIVD, sepsis, leucémie, MAT"
+    - "{s:Symptômes B} (fièvre, perte poids, sudations) → hémopathie maligne"
+    - "Diarrhées récentes + IRA + saignements → suspicion {p:SHU} (E. coli O157)"
+  atcd:
+    - |-
+      ATCD personnels hémorragiques:
+      • saignements après extractions/circoncision/accouchement
+      • amygdalectomie, adénoïdectomie
+      • transfusions antérieures
+    - |-
+      ATCD familiaux ESSENTIELS:
+      • {p:hémophilie} (garçons côté maternel)
+      • {p:maladie de Willebrand} (H+F)
+      • décès par hémorragie inexpliqué
+    - |-
+      Médicaments:
+      • {r:anticoagulants} (AVK, AOD : rivaroxaban, apixaban, dabigatran)
+      • antiagrégants ({r:aspirine, clopidogrel})
+      • {r:AINS} (thrombopathie)
+      • antibiotiques (perturbent flore → carence vit K)
+      • héparine ({r:HIT type II 5-10 j} après début)
+      • suppléments (ginkgo, ail, ginseng)
+    - |-
+      Comorbidités:
+      • insuffisance hépatique (cirrhose, hépatite B/C, alcool)
+      • insuffisance rénale (urémie → thrombopathie)
+      • infection récente ({p:PTI post-virale}, sepsis)
+      • néoplasie active
+    - "Alcool: quantité, chronicité (cirrhose, thrombopénie carentielle)"
+    - "Grossesse / post-partum (HELLP, CIVD obstétricale)"
+
+# source: red flags synthesized from anamnese + MD + clinical pivots
+red_flags:
+  - description: "{s:Thrombopénie sévère < 20 G/L} + saignements muqueux/cérébraux ou {s:purpura extensif}"
+    dx_suspecte: "{p:Thrombopénie sévère symptomatique} (PTI sévère, aplasie, leucémie aiguë)"
+    action: "Transfusion plaquettes URGENT + {r:corticoïdes 1 mg/kg/j} ± {r:IgIV 1 g/kg/j × 2 j}; cs hémato STAT; {t:CT cérébral} si signes neurologiques"
+  - description: "{s:Thrombopénie + IRA + anémie hémolytique} avec {t:schizocytes au frottis}"
+    dx_suspecte: "{p:Microangiopathie thrombotique (PTT / SHU)}"
+    action: "{r:Plasmaphérèse URGENT} + corticoïdes; NE PAS transfuser plaquettes (aggrave); avis hémato + néphro STAT [VÉRIFIER:seuil ADAMTS13 et délai plasmaphérèse selon protocole CHUV]"
+  - description: "Saignements diffus + {s:thrombopénie + fibrinogène ↓ + D-dimères ↑↑} dans contexte sepsis / néo / obstétrique"
+    dx_suspecte: "{p:Coagulation intravasculaire disséminée (CIVD)}"
+    action: "Traiter la cause + {r:PFC 10-15 mL/kg} + transfusion plaquettes si < 50 G/L + {r:fibrinogène concentré 25-50 mg/kg} si < 1.5 g/L"
+  - description: "{s:Hémorragie intracrânienne ou digestive majeure} sous anticoagulant ({r:AVK INR > 5} ou AOD)"
+    dx_suspecte: "{p:Hémorragie sous anticoagulant} (surdosage AVK, AOD)"
+    action: "Arrêt anticoagulant; {r:vit K 10 mg IV + PPSB 25-50 UI/kg} si AVK; {r:idarucizumab} (dabigatran) ou {r:andexanet alfa} (anti-Xa); {t:CT/IRM cérébral} + neurochir si HIC [VÉRIFIER:doses PPSB selon INR cible local]"
+  - description: "{s:Thrombopénie 5-10 j après début héparine} + {s:thromboses paradoxales} (sans saignement majeur)"
+    dx_suspecte: "{p:Thrombopénie induite par héparine (HIT type II)}"
+    action: "ARRÊT IMMÉDIAT toute héparine (HNF + HBPM); test 4T + Ac anti-PF4; {r:relais par anticoagulant non héparinique} (argatroban, fondaparinux); PAS de transfusion plaquettes"
+  - description: "{s:Choc hémorragique} (TA < 90/60, FC > 120, lactate ↑) avec saignement actif"
+    dx_suspecte: "{p:Hémorragie aiguë décompensée}"
+    action: "2 VVP gros calibre + {r:cristalloïdes + culots globulaires + PFC ratio 1:1:1} + {r:acide tranéxamique 1 g IV} dans les 3 h; identifier source"
+
+# source: line 90-133
+examen:
+  general:
+    - "Signes vitaux: TA (orthostatisme), FC, FR, T°, SaO2"
+    - "Etat général: {s:pâleur conjonctivale, asthénie}, signes de choc hémorragique"
+    - "Recherche hypovolémie ({t:TRC > 3 s}, pli cutané, marbrures, oligurie)"
+    - "{t:Score de Glasgow} si trauma crânien ou suspicion HIC"
+  cible:
+    - |-
+      Examen cutanéo-muqueux SYSTÉMATIQUE:
+      • {s:pétéchies} (membres inférieurs, palais) → plaquettaire
+      • {s:purpura} (ne blanchit pas à la vitropression)
+      • ecchymoses (localisation, taille, âge / couleur)
+      • {s:hématomes profonds} → hémostase secondaire
+    - |-
+      Téguments (étiologies):
+      • ictère, angiomes stellaires, érythème palmaire → {p:cirrhose}
+      • télangiectasies → {p:Rendu-Osler}
+      • livedo, nodules → vascularite
+    - |-
+      Muqueuses:
+      • buccale: gingivorragies, pétéchies palatines, bulles hémorragiques (PTI sévère)
+      • nasale: traces d'épistaxis récents, croûtes
+    - |-
+      Abdominal:
+      • {t:hépatomégalie}, {t:splénomégalie}, ascite, circulation collatérale
+      • palpation rate (PTI, hypersplénisme, hémopathie)
+      • douleur (hématome rétropéritonéal sous anticoag)
+    - |-
+      Articulaire (si douleur évoquée):
+      • hémarthrose (gonflement chaud, limitation) → genoux/chevilles/coudes
+      • arthropathie chronique (hémophilie ancienne)
+    - "Aires ganglionnaires (lymphome, leucémie)"
+    - "Toucher rectal: méléna, masses; recherche saignement occulte"
+
+# source: pivots cliniques (MD dd_table_raw partiel)
+dd_top5:
+  - dx: "{p:Purpura thrombopénique immunologique (PTI)}"
+    indices: "Thrombopénie isolée < 100 G/L (souvent < 30), pétéchies / purpura / gingivorragies, frottis normal sans schizocytes, post-viral chez enfant ou idiopathique adulte; {t:bilan élim} (sérologies VIH/VHC/VHB, ANA, électrophorèse)"
+    freq: "fréquent (incidence 3-5/100 000/an adulte)"
+  - dx: "{p:Saignement sous anticoagulant (AVK / AOD)}"
+    indices: "Prise documentée, {t:INR > 4-5} (AVK) ou activité anti-Xa ↑ (AOD); saignements muqueux/digestifs/cérébraux; interaction médicamenteuse récente (ATB, amiodarone)"
+    freq: "très fréquent (1ère cause de saignement iatrogène)"
+  - dx: "{p:Maladie de Willebrand}"
+    indices: "Saignements cutanéo-muqueux + ménorragies + ATCD familiaux H+F, TCA normal ou ↑ modéré, dosage vWF Ag / activité ristocétine / facteur VIII, type 1 (80 %)"
+    freq: "fréquent (prévalence 1 % population, sous-diagnostiquée)"
+  - dx: "{p:Hémophilie A (VIII) ou B (IX)}"
+    indices: "Homme jeune, hémarthroses récurrentes, hématomes profonds, ATCD familiaux (garçons côté maternel), {t:TCA allongé + TP normal}, dosage facteurs VIII/IX bas"
+    freq: "rare (1/5 000 garçons pour A; 1/30 000 pour B)"
+  - dx: "{p:Coagulopathie de l'insuffisance hépatique avancée}"
+    indices: "ATCD alcool/hépatite B-C, ictère, ascite, angiomes stellaires, {t:TP très allongé}, fibrinogène ↓, thrombopénie d'hypersplénisme, facteur V ↓"
+    freq: "fréquent (chez patients cirrhotiques)"
+
+# source: line 175-216
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: thrombopénie < 20 G/L symptomatique, MAT, CIVD, choc hémorragique → cs hémato STAT"
+    - "Saignement actif: {r:compression locale + acide tranéxamique 1 g IV ou PO} (CI: hématurie sur caillots, ATCD thrombose); arrêt facteurs favorisants (AINS, antiagrégants, AVK/AOD)"
+    - "Hémorragie majeure: 2 VVP, bilan préop (groupe-rh-RAI, FSC, TP/TCA, fibrinogène, créat), transfusion {r:CG + PFC + plaquettes ratio 1:1:1}"
+    - "Suspicion {p:PTI} avec saignement: {r:prednisone 1 mg/kg/j PO} ± {r:IgIV 1 g/kg/j × 2 j}; transfusion plaquettes seulement si saignement grave (peu efficace, vie courte)"
+    - "Surdosage {r:AVK INR > 10 sans saignement}: {r:vit K 5-10 mg PO}; INR > 5 avec saignement: vit K IV + PPSB 25-50 UI/kg [VÉRIFIER:dose PPSB selon poids et INR cible local]"
+    - "{p:CIVD}: traitement de la cause + PFC 10-15 mL/kg + plaquettes si < 50 G/L + fibrinogène concentré si < 1.5 g/L"
+    - "Hémophilie connue avec saignement: {r:facteur VIII recombinant 25-50 UI/kg} (A) ou {r:facteur IX 40-80 UI/kg} (B); desmopressine 0.3 µg/kg si forme mineure A ou Willebrand type 1"
+  orientation:
+    - "Domicile + cs ambulatoire: saignements anciens occasionnels, bilan en ambulatoire, examen normal, hémodynamique stable"
+    - "Urgences: tout red flag, saignement actif, thrombopénie < 50 G/L symptomatique, INR > 5 avec saignement, anémie symptomatique"
+    - "Hématologie ambulatoire: bilan d'orientation anormal (thrombopénie chronique, TCA allongé inexpliqué, suspicion vWD/hémophilie)"
+    - "Consignes de retour: saignement nouveau actif, fièvre, signes neuro, douleur abdo aiguë, vertiges/lipothymie"
+
+# source: line 139-163
+examens_complementaires:
+  - "{t:NFS + plaquettes + frottis sanguin}: anémie, thrombopénie isolée vs pancytopénie, schizocytes (MAT), blastes (leucémie)"
+  - "{t:Bilan crase}: TP/INR (voie extrinsèque, facteurs vit K), TCA (voie intrinsèque : VIII/IX/XI), fibrinogène, D-dimères (CIVD)"
+  - "{t:Bilan vWF + facteurs}: vWF Ag, activité ristocétine, facteur VIII si suspicion vWD/hémophilie; dosage facteurs IX/XI ciblé"
+  - "{t:Bilan étiologique}: bilan hépatique (ASAT/ALAT/GGT/PAL/bilirubine/albumine), créat/urée (urémie), sérologies VHB/VHC/VIH, ANA"
+  - "{t:Anti-PF4} si HIT suspecté (J5-J10 héparine + chute plaquettes > 50 %); {t:test 4T} préalable"
+  - "{t:Imagerie ciblée}: CT cérébral si céphalée/déficit/AVK; écho abdo + scanner si hématome rétropéritonéal; endoscopie si méléna/rectorragies [VÉRIFIER:indications imagerie selon protocole urgences local]"
+
+# source: synthesized
+criteres_hospitalisation:
+  - "Choc hémorragique ou anémie aiguë symptomatique (Hb < 70 g/L ou chute rapide)"
+  - "Thrombopénie < 20 G/L symptomatique ou < 10 G/L même asymptomatique"
+  - "Hémorragie active non contrôlée (digestive, intracrânienne, rétropéritonéale)"
+  - "Surdosage anticoagulant avec saignement actif ou INR > 10"
+  - "Suspicion {p:MAT}, {p:CIVD}, {p:HIT type II} (urgences hématologiques)"
+
+# source: synthesized from pivots + MD line 243-248
+pieges:
+  - "Confondre {s:purpura plaquettaire} (pétéchies déclives, muqueuses) et {s:purpura vasculaire} ({p:Henoch-Schönlein} : palpable, IgA, IRA, arthralgies)"
+  - "Transfuser des plaquettes en cas de {p:PTI stable sans saignement} (inutile, anticorps détruisent immédiatement) ou en cas de {p:MAT/HIT} (DANGEREUX → aggrave les thromboses)"
+  - "Méconnaître la {p:HIT type II} 5-10 j après héparine: thrombopénie + thromboses PARADOXALES → arrêt héparine + relais argatroban/fondaparinux [VÉRIFIER:critères 4T et alternative selon disponibilité locale]"
+  - "Oublier la {p:MAT (PTT/SHU)} devant thrombopénie + IRA + anémie hémolytique → plasmaphérèse URGENT (mortalité 90 % sans traitement)"
+  - "Antagoniser un AVK sans considérer le risque thrombotique sous-jacent (FA, valve mécanique) — adapter vit K et PPSB au contexte"
+
+cartes_liees:
+  - SYS-HEM
+  - TOOL-ISTH-BAT

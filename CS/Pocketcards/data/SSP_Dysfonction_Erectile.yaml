@@ -1,0 +1,182 @@
+id: SSP-URO-01
+type: ssp
+title: Dysfonction érectile
+discipline: Uro
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dysfonction_Erectile.md
+
+# source: pivots + lines 24-47
+anamnese:
+  socrates:
+    - |-
+      Onset:
+      • début brutal (souvent {p:psychogène})
+      • début progressif (souvent {p:organique})
+      • durée depuis > 3 mois (critère DSM-5) [VÉRIFIER: pivots > 6 mois vs MD DSM-5 ≥ 3 mois]
+    - |-
+      Caractérisation:
+      • difficulté à OBTENIR l'érection?
+      • difficulté à MAINTENIR?
+      • rigidité insuffisante durant l'acte?
+    - |-
+      Time / circonstances:
+      • permanente (toutes situations) → organique probable
+      • situationnelle (seulement avec partenaire) → psychogène probable
+      • {s:tumescence nocturne / érections matinales} préservées = psychogène
+      • tumescence absente = organique
+    - |-
+      Severity:
+      • score {t:IIEF-5} (5 questions, < 21 = DE)
+      • sévère < 40 % succès / modérée 40-60 % / légère 60-75 %
+    - "Associations: libido conservée ou diminuée? éjaculation (prématurée, retardée, absente)? orgasme?"
+    - "Impact: détresse, retentissement couple, évitement, anxiété de performance?"
+  specifique:
+    - |-
+      Facteurs cardiovasculaires (cause #1):
+      • {s:HTA}, {s:diabète}, {s:dyslipidémie}
+      • {e:tabagisme} actif, sédentarité
+      • angor, claudication, ATCD IDM/AVC
+    - |-
+      Facteurs neurologiques:
+      • neuropathie diabétique
+      • lésion médullaire, {p:SEP}, Parkinson
+      • antécédents {r:prostatectomie radicale} / chirurgie pelvienne / radiothérapie
+    - |-
+      Symptômes endocriniens:
+      • {s:libido effondrée}, asthénie, perte musculaire (hypogonadisme)
+      • {s:galactorrhée, troubles visuels, céphalées} (hyperprolactinémie)
+      • froid, prise de poids, ralentissement (hypothyroïdie)
+    - |-
+      Médicaments à risque:
+      • {r:β-bloqueurs, thiazidiques} (antiHTA)
+      • {r:ISRS, antipsychotiques} (psychotropes)
+      • {r:finastéride, antiandrogènes}
+      • opioïdes, alcool chronique
+    - |-
+      Composante psychogène:
+      • anxiété de performance
+      • dépression, stress professionnel
+      • conflit conjugal, rupture
+      • antécédents de traumatisme sexuel
+    - "Partenaire: durée relation, communication, attentes, dysfonction du partenaire?"
+  atcd:
+    - "ATCD CV: HTA, diabète, dyslipidémie, IDM, AVC, AOMI"
+    - "ATCD chirurgicaux: prostatectomie, chirurgie rectale, traumatisme pelvien, fracture du bassin"
+    - "ATCD endocriniens: hypogonadisme connu, troubles thyroïdiens, adénome hypophysaire"
+    - "Médication complète + automédication, recours aux iPDE5 d'origine inconnue"
+    - "Habitudes: tabac (paquets-années), alcool, cannabis, cocaïne, anabolisants"
+    - "ATCD psy: dépression, anxiété, addiction, traumatisme"
+
+# source: pivots red flags + line 134 'DE marqueur précoce CV'
+red_flags:
+  - description: "DE + {s:douleur thoracique} d'effort ou de repos"
+    dx_suspecte: "{p:SCA / angor instable} (DE marqueur précoce CV)"
+    action: "ECG 12 dérivations + {t:troponines hs} STAT; avis cardiologique urgent; ne PAS prescrire d'iPDE5 avant stratification CV"
+  - description: "DE nouvelle + cumul FRCV ({e:tabac, diabète, dyslipidémie}) chez homme < 60 ans"
+    dx_suspecte: "{p:Maladie CV occulte} (DE précède IDM/AVC de 3-5 ans)"
+    action: "{t:Bilan CV complet} (TA, lipidogramme, HbA1c, ECG); statine + AAP selon SCORE2; consultation cardio"
+  - description: "DE + {s:galactorrhée} + {s:céphalées} + altération du champ visuel"
+    dx_suspecte: "{p:Adénome hypophysaire à prolactine}"
+    action: "Prolactine + testostérone + {t:IRM hypophysaire}; agoniste dopaminergique ({r:cabergoline 0.25-0.5 mg × 2/sem}) [VÉRIFIER: dose initiation cabergoline selon endocrino HUG/CHUV]"
+  - description: "DE + {s:petits testicules} (< 15 ml) + signes hypogonadiques (perte pilosité, gynécomastie, asthénie)"
+    dx_suspecte: "{p:Hypogonadisme} (primaire ou secondaire)"
+    action: "{t:Testostérone totale 8h-10h} × 2 + LH/FSH; testostérone substitutive si confirmé (CI absolue: {p:cancer prostate} → PSA + TR avant)"
+  - description: "DE post-{r:prostatectomie radicale} ou post-radiothérapie pelvienne"
+    dx_suspecte: "{p:DE neurogène iatrogène}"
+    action: "Rééducation pelvienne précoce + iPDE5 quotidien à dose basse ({r:tadalafil 5 mg/j}) + injections intracaverneuses si échec"
+  - description: "{s:Érection prolongée > 4 h} après prise iPDE5 ou injection intracaverneuse"
+    dx_suspecte: "{p:Priapisme} ischémique"
+    action: "Urgence urologique: ponction/aspiration corps caverneux + injection {r:phényléphrine intracaverneuse} dans les 6 h"
+
+# source: lines 48-59
+examen:
+  general:
+    - "Signes vitaux: {t:TA aux 2 bras}, FC, IMC, tour de taille"
+    - "Inspection: signes hypogonadisme (pilosité axillaire/pubienne, gynécomastie, distribution graisseuse)"
+    - "Examen cardiovasculaire: pouls périphériques (fémoraux, pédieux), souffles carotidiens/abdominaux"
+    - "Examen neurologique ciblé: sensibilité périnéale (S2-S4), ROT membres inférieurs"
+  cible:
+    - |-
+      Examen pénien:
+      • inspection (phimosis, frein court)
+      • palpation corps caverneux ({s:plaques de Lapeyronie})
+      • méat urétral
+    - |-
+      Examen testiculaire:
+      • volume bilatéral (normal {r:15-25 ml} à l'orchidomètre de Prader)
+      • consistance, sensibilité
+      • varicocèle?
+    - "{t:Toucher rectal} si {e:> 50 ans} ou suspicion cancer prostate (taille, consistance, nodule)"
+    - |-
+      Réflexes sacrés:
+      • {t:réflexe bulbo-caverneux} (S2-S4)
+      • réflexe crémastérien
+      • tonus sphinctérien
+    - "Recherche signes maladie systémique: peau (acanthosis nigricans → diabète), thyroïde (goitre)"
+
+# source: pivots DD + lines 93-98
+dd_top5:
+  - dx: "{p:DE vasculaire (athérosclérose)}"
+    indices: "Progressive, FRCV cumulés (HTA, diabète, dyslipidémie, tabac), > 50 ans, perte érections nocturnes, pouls périphériques diminués; cause organique la plus fréquente"
+    freq: "très fréquent (60-80 % des DE organiques) [VÉRIFIER: ordre DD selon prévalence Suisse]"
+  - dx: "{p:DE neurogène}"
+    indices: "Contexte diabète ancien (neuropathie), post-{r:prostatectomie radicale}, lésion médullaire, SEP; abolition réflexe bulbo-caverneux"
+    freq: "fréquent (10-20 %)"
+  - dx: "{p:DE médicamenteuse}"
+    indices: "Chronologie: début après introduction (β-bloqueurs, thiazidiques, ISRS, finastéride, opioïdes); régression possible à l'arrêt"
+    freq: "fréquent (jusqu'à 25 % des DE iatrogènes)"
+  - dx: "{p:DE hormonale (hypogonadisme)}"
+    indices: "Libido effondrée, asthénie, perte musculaire, petits testicules, gynécomastie; {t:testostérone < 8 nmol/L} confirmée 2× le matin [VÉRIFIER: seuil testostérone selon guidelines EAU vs SSED]"
+    freq: "moins fréquent (5-10 %)"
+  - dx: "{p:DE psychogène}"
+    indices: "Début brutal, situationnelle, {s:érections matinales conservées}, anxiété de performance, conflit couple, < 40 ans souvent; tumescence nocturne préservée au Rigiscan"
+    freq: "fréquent (20 % des DE, jusqu'à 90 % des < 40 ans)"
+
+# source: lines 100-130
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — toute DE avec angor/douleur thoracique → ECG + troponines AVANT toute prescription"
+    - "Bilan CV systématique préalable: TA, ECG, lipidogramme, glycémie/HbA1c, calcul {t:SCORE2}"
+    - "1ère ligne: {r:sildénafil 50 mg 1 h avant rapport} (25-100 mg) OU {r:tadalafil 10-20 mg 30 min avant} OU 5 mg/j en continu"
+    - "CI ABSOLUE iPDE5: {r:dérivés nitrés} (hypoTA mortelle) — vérifier ttt cardiologique avant prescription"
+    - "Prudence iPDE5: HTA mal contrôlée, IDM < 3 mois, AVC < 6 mois, insuffisance cardiaque NYHA III-IV"
+    - "Substitution testostérone si {p:hypogonadisme} confirmé (2 dosages matinaux < seuil) — PSA + TR préalables OBLIGATOIRES"
+    - "Arrêt/switch médicaments imputables si possible (β-bloqueurs → IEC/ARA II; ISRS → mirtazapine/bupropion) [VÉRIFIER: avis psychiatrique avant switch antidépresseur]"
+    - "Mesures hygiéno-diététiques: arrêt tabac, activité physique 150 min/sem, perte de poids, réduction alcool"
+  orientation:
+    - "Médecin traitant: prise en charge initiale, bilan CV, 1ère prescription iPDE5"
+    - "Urologie: échec iPDE5 (3 essais à dose max), 2e ligne (injections, vacuum), 3e ligne (prothèse)"
+    - "Cardiologie: tout cumul FRCV ou angor — stratification avant reprise activité sexuelle"
+    - "Endocrinologie: hypogonadisme confirmé, hyperprolactinémie, anomalie hypophysaire"
+    - "Sexothérapie / TCC: composante psychogène prédominante, couple en demande"
+
+# source: lines 61-74
+examens_complementaires:
+  - "{t:Glycémie à jeun + HbA1c}: dépistage diabète (cause vasculaire/neurogène majeure)"
+  - "{t:Bilan lipidique} (CT, LDL, HDL, TG): stratification CV"
+  - "{t:Testostérone totale matinale 8h-10h} × 2 si basse → LH, FSH, {t:prolactine}, TSH"
+  - "{t:PSA + créatinine}: si > 50 ans ou avant substitution testostérone"
+  - "{t:ECG 12 dérivations}: si FRCV cumulés ou avant 1ère prescription iPDE5"
+  - "{t:Echo-Doppler pénien} ± injection intracaverneuse: échec iPDE5, suspicion vasculaire pure, expertise médico-légale"
+
+# source: pivots
+criteres_hospitalisation:
+  - "{p:Priapisme} > 4 h: urgence urologique (aspiration + phényléphrine)"
+  - "DE révélant {p:SCA} (douleur thoracique + ECG anormal): USIC"
+  - "Suspicion {p:adénome hypophysaire} avec atteinte visuelle aiguë: neurochirurgie"
+  - "Hypogonadisme sévère symptomatique avec décompensation (rare): endocrino"
+
+# source: pivots + golden master style
+pieges:
+  - "Prescrire {r:iPDE5} sans bilan CV préalable — risque de démasquer une cardiopathie ischémique ou interaction avec {r:nitrés}"
+  - "Oublier que la DE est un {s:marqueur sentinelle CV} précédant IDM/AVC de 3-5 ans → ne pas négliger le bilan CV même chez patient asymptomatique"
+  - "Ne pas demander la {t:testostérone le matin entre 8h-10h} (rythme circadien) — un dosage l'après-midi sous-estime systématiquement"
+  - "Méconnaître la cause médicamenteuse ({r:β-bloqueurs, ISRS, finastéride}) — toujours faire une chronologie médicamenteuse précise"
+  - "Négliger le {s:partenaire et la composante psychogène} — même dans une DE organique, le retentissement relationnel impose une prise en charge globale"
+
+cartes_liees:
+  - SYS-URO
+  - SSP-URO-02

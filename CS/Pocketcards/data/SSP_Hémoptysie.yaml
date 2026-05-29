@@ -1,0 +1,205 @@
+id: SSP-PUL-02
+type: ssp
+title: Hémoptysie
+discipline: Pulmo
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Hémoptysie.md
+
+# source: line 9-178
+anamnese:
+  socrates:
+    - |-
+      Confirmation hémoptysie vraie — différencier:
+      • toux avec sang = {s:hémoptysie} (sous-glottique)
+      • vomissement avec sang foncé/aliments = {p:hématémèse}
+      • saignement nez dégluti = {p:épistaxis postérieure}
+    - |-
+      Aspect du sang:
+      • rouge vif, aéré, mousseux, alcalin = hémoptysie (RAAM)
+      • rouge foncé, noirâtre avec aliments, acide = hématémèse (NAA)
+      • caillots?
+    - |-
+      Chronologie / Onset:
+      • depuis quand exactement?
+      • premier épisode ou récidivant?
+      • évolution (stable, aggravation)?
+    - |-
+      Quantité ⚠️ ÉVALUER GRAVITÉ:
+      • traces dans crachat / cuillère café (5 mL) / cuillère soupe (15 mL)
+      • verre entier {r:> 200 mL/24h} ou {r:> 100 mL/h} = MASSIVE
+      • total sur 24h?
+    - |-
+      Time:
+      • fréquence (épisodes/jour, à chaque toux, intermittent)
+      • circonstances déclenchantes (effort, position, toux)
+  specifique:
+    - |-
+      Toux et expectorations associées:
+      • durée toux (< 3 sem aiguë / > 3 sem chronique)
+      • sèche ou productive?
+      • couleur, aspect (purulent, mousseux rosé = {p:OAP})
+      • odeur fétide = {p:abcès pulmonaire}
+    - |-
+      Dyspnée et douleur thoracique:
+      • dyspnée brutale + douleur pleurale + tachycardie → {p:Embolie pulmonaire}
+      • orthopnée / dyspnée paroxystique nocturne → {p:Insuffisance cardiaque gauche}
+      • {s:sifflements} (wheezing) / {s:stridor} (obstruction haute)
+    - |-
+      Symptômes généraux ⚠️ RED FLAGS:
+      • {s:amaigrissement involontaire} (kg en combien de temps)
+      • {s:sueurs nocturnes profuses} → {p:Tuberculose} / {p:Cancer}
+      • {s:fièvre}, frissons, asthénie, anorexie
+    - |-
+      Contexte infectieux ({p:Tuberculose}):
+      • contact tuberculeux, toux > 3 semaines
+      • voyage zone endémique, milieu carcéral, précarité
+      • immunodépression (VIH, corticoïdes)
+    - |-
+      FDR thromboemboliques ({p:EP}):
+      • immobilisation, voyage long, chirurgie récente
+      • cancer actif, contraception hormonale, {e:grossesse / post-partum}
+      • ATCD perso/familiaux thrombose, {s:douleur mollet} (TVP)
+    - "Hématurie associée ({p:Goodpasture}, {p:Wegener}) — sinusite chronique ({p:Wegener})"
+    - "Épistaxis récidivantes + ATCD familiaux + télangiectasies → {p:Rendu-Osler}"
+    - "Hémoptysie cataméniale (femme jeune, lien règles) → {p:Endométriose thoracique}"
+  atcd:
+    - "Respiratoires: BPCO, asthme, {p:Tuberculose ancienne} (cavité résiduelle → {p:aspergillome}), bronchectasies, fibrose, pneumonies récidivantes"
+    - "Cardiovasculaires: {p:Insuffisance cardiaque}, {p:Sténose mitrale} (RAA), HTA, coronaropathie"
+    - "Néoplasiques: cancer pulmonaire ou autre (métastases)"
+    - "Auto-immuns: {p:Lupus}, {p:Goodpasture}, {p:Granulomatose avec polyangéite (Wegener)}, troubles coagulation"
+    - |-
+      Médicaments:
+      • {r:anticoagulants} (AVK/AOD/héparine — INR si AVK)
+      • {r:antiagrégants} (aspirine, clopidogrel)
+      • cocaïne (voie nasale)
+    - |-
+      Habitudes & expositions ⚠️ MAJEURS:
+      • {r:TABAC} (paquets-années, cannabis) → cancer
+      • expositions pro: amiante, silice, poussières
+      • voyage zone endémique TB, parasitoses (paragonimose)
+
+# source: line 181-344
+red_flags:
+  - description: "{s:Hémoptysie massive} ({r:> 200 mL/24h} ou {r:> 100 mL/h}) ou instabilité hémodynamique / détresse respiratoire"
+    dx_suspecte: "Asphyxie par inondation alvéolaire (mortalité 50-80% si non traitée)"
+    action: "Décubitus latéral côté saignant, 2 VVP gros calibre, O2 SaO2 > 92%, intubation sélective si nécessaire, {t:angio-CT thoracique} + {r:embolisation artérielle bronchique} en urgence"
+  - description: "{e:> 40 ans tabagique} + hémoptysie + {s:AEG / amaigrissement} ou toux chronique modifiée"
+    dx_suspecte: "{p:Cancer broncho-pulmonaire} (cause #1 dans cette tranche d'âge)"
+    action: "{t:Scanner thoracique injecté} + {t:fibroscopie bronchique avec biopsies} systématiques même si Rx normale [VÉRIFIER: seuil tabagisme exact > 20 PA selon recommandations CHUV]"
+  - description: "{s:Toux > 3 semaines} + {s:sueurs nocturnes} + amaigrissement + contexte (migrant, contact, précarité, immunodépression)"
+    dx_suspecte: "{p:Tuberculose pulmonaire} (souvent cavitaire, apicale)"
+    action: "{r:Isolement respiratoire} immédiat (chambre pression négative), {t:Rx/scanner thorax}, {t:3 BK directs + culture} + {t:Quantiferon}, déclaration obligatoire [VÉRIFIER: durée isolement avant levée selon protocole local]"
+  - description: "{s:Dyspnée brutale} + {s:douleur pleurale} + tachycardie ± {s:signes de TVP} (FDR thromboembolique)"
+    dx_suspecte: "{p:Embolie pulmonaire} avec infarctus pulmonaire"
+    action: "{t:Angio-CT thoracique} (ou D-dimères si pré-test bas), {r:anticoagulation curative (HBPM)} si forte suspicion sans CI, {r:thrombolyse} si choc"
+  - description: "Cavité pulmonaire ancienne (TB, sarcoïdose) + hémoptysie + image en {s:grelot} au scanner"
+    dx_suspecte: "{p:Aspergillome} (truffe aspergillaire intra-cavitaire)"
+    action: "{t:Scanner thoracique} + {t:sérologie aspergillaire (IgG/IgE)}, {r:voriconazole} si invasif, {r:embolisation} si saignement actif, chirurgie discutée [VÉRIFIER: indication chirurgie vs. embolisation selon récidive]"
+  - description: "Hémoptysie + {s:hématurie} + insuffisance rénale aiguë ({s:syndrome pneumo-rénal})"
+    dx_suspecte: "{p:Goodpasture} (anti-MBG) ou {p:Granulomatose avec polyangéite} (c-ANCA)"
+    action: "{t:Anti-MBG + ANCA + créatinine + sédiment urinaire} STAT, avis néphro/pneumo, {r:corticoïdes + cyclophosphamide ± plasmaphérèse}"
+
+# source: line 181-344
+examen:
+  general:
+    - "Signes vitaux PRIORITAIRES: FR (tachypnée > 20/min), FC, TA (hypotension = choc), {t:SaO2}, T°"
+    - "État général: détresse respiratoire, pâleur (anémie), cyanose (centrale/périphérique), sueurs"
+    - "Position spontanée: orthopnée, tripode; aspect expectoration visible (quantification)"
+    - "Quantification volume expectoré (pot de recueil si possible) — ESSENTIEL pour gravité"
+    - "{t:Gazométrie artérielle} si hypoxémie (test Allen préalable): PaO2, PaCO2, pH, gradient A-a"
+  cible:
+    - |-
+      Inspection spécifique:
+      • {s:hippocratisme digital} (cancer, bronchectasies, fibrose — angle Lovibond > 180°)
+      • cyanose unguéale, temps de recoloration capillaire
+      • {s:télangiectasies} lèvres/langue/muqueuse nasale ({p:Rendu-Osler})
+      • {s:turgescence jugulaire} (IC droite)
+    - |-
+      Palpation cervicale ⚠️ SYSTÉMATIQUE:
+      • adénopathies cervicales et sus-claviculaires ({s:ganglion de Troisier} → néoplasie)
+      • aires axillaires et inguinales
+    - |-
+      Thorax:
+      • forme (tonneau = BPCO), asymétrie, déformation
+      • mouvements: amplitude, symétrie, muscles accessoires, tirage, respiration paradoxale
+      • ampliation thoracique postérieure (diminuée d'un côté = pathologie unilatérale)
+      • vibrations vocales (augmentées = condensation; diminuées = épanchement)
+    - |-
+      Percussion comparative:
+      • {s:matité} (condensation, épanchement)
+      • {s:tympanisme} (pneumothorax)
+      • délimiter zones anormales
+    - |-
+      Auscultation pulmonaire MINUTIEUSE (4 plages postérieures):
+      • murmure vésiculaire (présent/symétrique/diminué/aboli)
+      • {s:râles crépitants} (pneumonie, OAP, fibrose)
+      • {s:souffle tubaire} (condensation), {s:souffle amphorique} (caverne)
+      • {s:frottement pleural} (pleurésie), sibilants (asthme/BPCO)
+    - "Cardiovasculaire: 4 foyers, B1/B2, {s:roulement diastolique} ({p:Sténose mitrale}), B3 ({p:IC}), souffles vasculaires"
+    - "Membres inférieurs: {s:œdèmes godet bilatéraux} (IC), {s:signes de TVP} (douleur mollet, Homans, asymétrie périmètre)"
+    - "Examen ORL OBLIGATOIRE: cavité buccale, fosses nasales (épistaxis postérieure?), pharynx (saignement postérieur?)"
+    - "Palpation abdominale: {s:hépatomégalie} (IC droite, métastases), splénomégalie, masses, ascite"
+
+# source: line 401-453
+dd_top5:
+  - dx: "{p:Cancer broncho-pulmonaire}"
+    indices: "{e:> 40 ans} tabagique (> 20 PA), hémoptysie récidivante, toux chronique modifiée, AEG/amaigrissement, hippocratisme digital, masse/atélectasie au {t:scanner}, biopsie au {t:fibroscopie}"
+    freq: "CAUSE #1 chez > 40 ans tabagique"
+  - dx: "{p:Tuberculose pulmonaire}"
+    indices: "Toux > 3 sem + sueurs nocturnes + amaigrissement + contexte (migrant/contact/précarité/VIH), caverne apicale au {t:scanner}, {t:BK direct/culture} positif, {t:Quantiferon} positif"
+    freq: "fréquent en Suisse (incidence ~6/100 000), recrudescence migrations"
+  - dx: "{p:Bronchectasies (DDB)}"
+    indices: "Toux productive chronique avec expectorations abondantes purulentes, infections respiratoires répétées, hippocratisme digital, {t:scanner: dilatations bronchiques} (rails, kystes)"
+    freq: "fréquent (séquelles infections, mucoviscidose, dyskinésie ciliaire)"
+  - dx: "{p:Embolie pulmonaire} avec infarctus"
+    indices: "FDR thrombose, dyspnée brutale, douleur pleurale, hémoptysie minime, ± TVP, {t:D-dimères} élevés, {t:angio-CT}: thrombus + image triangulaire à base pleurale"
+    freq: "fréquent — souvent sous-diagnostiqué"
+  - dx: "{p:Infection respiratoire} (pneumonie / aspergillome / abcès)"
+    indices: "Pneumonie: fièvre + condensation + crépitants + infiltrat. Aspergillome: cavité préexistante + grelot scanner + {t:sérologie IgG aspergillus}. Abcès: expectoration fétide + niveau hydro-aérique"
+    freq: "fréquent — couvre infections aiguës et colonisations cavitaires"
+
+# source: line 348-519
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — {s:hémoptysie massive} ({r:> 200 mL/24h} ou {r:> 100 mL/h}): {r:décubitus latéral côté saignant}, 2 VVP gros calibre, {r:O2 SaO2 > 92%}, monitorage continu, USI + pneumologue + radiologue interventionnel"
+    - "Hémostase: {r:Acide tranexamique 1 g x 3/j PO ou IV}, antagonisation anticoagulants ({r:vitamine K} si AVK, {r:protamine} si héparine) [VÉRIFIER: dose tranexamique selon poids/fonction rénale]"
+    - "Position: décubitus latéral côté présumé saignant (limite l'inondation du poumon sain); ÉVITER aspirine et AINS"
+    - "Antitussifs ({r:codéine}) si toux irritative aggravante; éviter sédation profonde sans contrôle des voies aériennes"
+    - "Suspicion {p:EP}: si forte probabilité sans CI hémorragique majeur → {r:HBPM dose curative} en attendant angio-CT; {r:thrombolyse} si instabilité hémodynamique"
+    - "Suspicion {p:Tuberculose}: {r:isolement respiratoire} (chambre pression négative), masque FFP2 pour soignants, déclaration obligatoire avant introduction RHZE"
+    - "Hémoptysie massive réfractaire: {r:embolisation artérielle bronchique} (1ère intention, succès 90%); fibroscopie thérapeutique (sérum glacé, adrénaline locale, ballonnet); chirurgie si échec"
+  orientation:
+    - "USI / réanimation: hémoptysie massive, instabilité hémodynamique, détresse respiratoire, hypoxémie sévère, hémoptysie récidivante grave"
+    - "Hospitalisation pneumologie: hémoptysie modérée nécessitant bilan, suspicion cancer/TB/vascularite, comorbidités, anticoagulation"
+    - "Ambulatoire (pneumologie) avec bilan rapide: hémoptysie minime isolée chez non-fumeur jeune, examen normal, Rx normale — scanner + fibroscopie dans la semaine"
+    - "Consignes de retour aux urgences: hémoptysie massive (> 1 verre), détresse respiratoire, douleur thoracique intense, malaise/syncope, fièvre élevée, aggravation brutale"
+
+# source: line 367-399
+examens_complementaires:
+  - "{t:Radiographie thoracique} face + profil SYSTÉMATIQUE: localisation, masse, infiltrat, caverne, cardiomégalie (mais peut être normale)"
+  - "{t:Scanner thoracique INJECTÉ (angio-CT)} ⚠️ EXAMEN CLÉ: localise source, recherche tumeur/bronchectasies/embolie/aspergillome — INDISPENSABLE même si Rx normale chez fumeur"
+  - "{t:Fibroscopie bronchique} précoce: localisation saignement actif, biopsies si lésion, lavage broncho-alvéolaire (cytologie, BK, aspergillus), peut être thérapeutique"
+  - "Biologie: {t:FSC} (anémie/thrombopénie), {t:TP/TCA/INR} (coagulopathie), {t:ionogramme/urée/créat}, {t:groupe + RAI} si hémoptysie importante, {t:gazométrie} si dyspnée"
+  - "Étiologique ciblé: {t:BK direct + culture × 3} + {t:Quantiferon} (TB), {t:D-dimères} si EP suspecte, {t:BNP} si IC, {t:c-ANCA/anti-MBG/AAN} si syndrome pneumo-rénal, {t:sérologie aspergillus} si cavité"
+  - "{t:Échocardiographie}: si souffle, IC suspectée, suspicion sténose mitrale, recherche HTP [VÉRIFIER: indication ETT vs ETO selon sténose mitrale]"
+
+criteres_hospitalisation:
+  - "Hémoptysie massive ({r:> 200 mL/24h} ou {r:> 100 mL/h}) → USI"
+  - "Instabilité hémodynamique, détresse respiratoire, {t:SaO2 < 92%} sous air"
+  - "Hémoptysie récidivante ou modérée nécessitant bilan étiologique (scanner + fibroscopie)"
+  - "Suspicion {p:Tuberculose} active (isolement respiratoire), {p:EP}, {p:Cancer} avec urgence diagnostique"
+  - "Comorbidités: anticoagulation, troubles coagulation, immunodépression, IC sévère"
+
+pieges:
+  - "Confondre {p:Hémoptysie} avec {p:Hématémèse} (sang noir, contexte digestif) ou {p:Épistaxis postérieure dégluti} → toujours examen ORL et interroger sur l'aspect (RAAM vs NAA)"
+  - "Ne PAS faire {t:scanner thoracique injecté} chez tout fumeur > 40 ans avec hémoptysie même minime, et même si Rx normale → cancer manqué"
+  - "Oublier la {p:Tuberculose} chez migrant / sd inflammatoire chronique / immunodéprimé et ne pas isoler dès la suspicion"
+  - "Méconnaître l'{p:Embolie pulmonaire} (hémoptysie peut être minime et tardive — infarctus pulmonaire), surtout si douleur pleurale + dyspnée brutale + FDR"
+  - "Banaliser hémoptysie minime persistante: même quelques mL répétés méritent scanner + fibroscopie (cancer débutant, bronchectasies, TB ancienne)"
+
+cartes_liees:
+  - SYS-PUL
+  - SSP-CAR-EP

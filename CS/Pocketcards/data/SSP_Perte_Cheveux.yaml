@@ -1,0 +1,193 @@
+id: SSP-DER-02
+type: ssp
+title: Perte de cheveux (alopécie)
+discipline: Dermato
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Perte_Cheveux.md
+
+# source: lines 10-441
+anamnese:
+  socrates:
+    - |-
+      Mode d'installation:
+      • brutal (j-sem) → {p:pelade}, {p:effluvium télogène}
+      • progressif (mois-années) → {p:alopécie androgénétique}
+      • cyclique/saisonnier?
+    - |-
+      Topographie:
+      • diffuse → {p:effluvium}, dysthyroïdie
+      • plaques rondes/ovales → {p:pelade}, {p:trichotillomanie}
+      • golfes temporaux + vertex (homme) / vertex + raie élargie (femme) → {p:androgénétique}
+    - |-
+      Quantification:
+      • cheveux sur oreiller, lavabo, brossage
+      • {t:test de traction} > 6 cheveux = pathologique
+      • photos comparatives sur 3-6 mois
+    - |-
+      Aspect du cuir chevelu:
+      • normal → effluvium, androgénétique
+      • inflammatoire/squameux → {p:teigne}, {p:lupus}
+      • cicatriciel (ostiums absents) → {p:alopécies cicatricielles}
+    - "Cheveux restants: miniaturisation (androgénétique), {s:cheveux en point d'exclamation} (pelade), cassure (trichotillomanie)"
+  specifique:
+    - |-
+      Facteurs déclenchants ({p:effluvium télogène}, ~3 mois avant):
+      • {e:accouchement}, fièvre élevée, chirurgie, traumatisme
+      • régime sévère, perte de poids
+      • stress psychologique majeur
+    - |-
+      Médicaments inducteurs:
+      • {r:chimiothérapie} (effluvium anagène)
+      • anticoagulants (héparine, AVK)
+      • bêtabloquants, IEC, anticonvulsivants
+      • {r:lithium}, antidépresseurs, rétinoïdes
+    - |-
+      Signes d'{s:hyperandrogénie} (femme):
+      • hirsutisme (score Ferriman-Gallwey)
+      • acné tardive, séborrhée
+      • troubles menstruels → {p:SOPK}
+      • virilisation (voix, clitoris) → tumeur?
+    - "{s:Arrachage compulsif} ± stress/TOC → {p:trichotillomanie}? cheveux longueurs inégales en zones accessibles"
+    - "Coiffures à traction (chignons, tresses serrées, extensions) → {p:alopécie de traction}?"
+    - "Contagiosité (école, animaux), prurit → {p:teigne}? [VÉRIFIER:fréquence teigne adulte vs enfant]"
+  atcd:
+    - "ATCD familiaux: calvitie (père, oncles maternels), pelade, maladies auto-immunes (thyroïde, vitiligo)"
+    - |-
+      ATCD personnels:
+      • dysthyroïdie, anémie ferriprive, lupus
+      • règles abondantes, post-partum récent
+      • {e:atopie} (asthme, eczéma) → pelade
+    - "Carences: dénutrition, végétalisme strict, chirurgie bariatrique, malabsorption (zinc, fer, B12)"
+    - "Soins capillaires: décolorations, lissages chimiques/thermiques, fréquence des shampooings"
+    - |-
+      Retentissement psychosocial:
+      • estime de soi, anxiété, dépression
+      • évitement social/professionnel
+      • attentes thérapeutiques (camouflage, repousse?)
+
+# source: lines 444-619
+examen:
+  general:
+    - "Inspection globale: répartition, densité estimée (%), topographie des zones atteintes"
+    - "Signes généraux: pâleur (anémie), poids/IMC, signes de dysthyroïdie (tachycardie, thermophobie, frilosité)"
+    - "Palpation thyroïdienne (goitre, nodules)"
+    - "Peau: vitiligo, lupus cutané, plaques d'atopie, lésions de grattage"
+  cible:
+    - |-
+      Examen des zones alopéciques:
+      • limites nettes (pelade) ou floues (effluvium)
+      • peau: normale / érythémateuse / squameuse / atrophique
+      • {s:ostiums folliculaires} présents (non-cicatricielle) ou absents (cicatricielle)
+    - |-
+      Cheveux périphériques:
+      • {s:cheveux en point d'exclamation} → pelade
+      • miniaturisation progressive → androgénétique
+      • cheveux cassés à longueurs inégales → trichotillomanie/teigne
+    - |-
+      {t:Test de traction (pull test)}:
+      • zone atteinte + zone saine témoin
+      • > 6 cheveux extraits sur 60 = pathologique
+      • indication: effluvium actif, pelade en poussée
+    - |-
+      {t:Trichoscopie / dermatoscope}:
+      • points jaunes/noirs (pelade)
+      • miniaturisation (androgénétique)
+      • points noirs comédoniens (teigne)
+      • disparition ostiums (cicatricielle)
+    - "Ongles: dystrophie unguéale, {s:pitting} → pelade sévère"
+    - "Sourcils/cils: atteinte → pelade universelle, FFA (alopécie frontale fibrosante)"
+    - "Signes d'{s:hyperandrogénie} (femme): hirsutisme (score Ferriman-Gallwey), acné, séborrhée, clitoromégalie"
+    - "{t:Lampe de Wood}: fluorescence verte → certaines teignes (Microsporum)"
+
+# source: red flags inferred from clinical pivots — actionable urgent referrals
+red_flags:
+  - description: "Plaques d'alopécie avec {s:érythème, atrophie, disparition des ostiums folliculaires} ± squames adhérentes périfolliculaires"
+    dx_suspecte: "{p:Alopécie cicatricielle} (lichen plan pilaire, lupus discoïde, FFA)"
+    action: "{t:Biopsie cutanée 4 mm} AVANT tout traitement; consultation dermatologique urgente (perte définitive si retard)"
+  - description: "Alopécie + {s:asthénie, pâleur, règles abondantes} ou régime restrictif"
+    dx_suspecte: "{p:Carence martiale} sévère (ferritine < 30 µg/L)"
+    action: "{t:NFS + ferritine + CRP}; supplémentation {r:fer 80-200 mg/j PO} si confirmée; cible ferritine > 70 µg/L [VÉRIFIER:cible exacte ferritine repousse]"
+  - description: "Alopécie diffuse + {s:thermophobie/frilosité, prise/perte de poids, tachycardie}"
+    dx_suspecte: "{p:Dysthyroïdie} (hypo ou hyper)"
+    action: "{t:TSH ± T4L}; traitement étiologique de la dysthyroïdie"
+  - description: "{s:Plaques érythémato-squameuses + points noirs + cheveux cassés ras} chez l'{e:enfant}, contagiosité école/animaux"
+    dx_suspecte: "{p:Teigne} (dermatophytose du cuir chevelu)"
+    action: "{t:Examen mycologique direct + culture}; {r:terbinafine 250 mg/j} ou {r:griséofulvine 15-25 mg/kg/j} (enfant) 6-12 sem; éviction scolaire jusqu'à guérison mycologique"
+  - description: "Alopécie diffuse en {s:clairière} ('mitée') + ATCD comportement sexuel à risque ± éruption palmo-plantaire"
+    dx_suspecte: "{p:Syphilis secondaire}"
+    action: "{t:TPHA/VDRL} immédiat; {r:benzathine pénicilline G 2.4 MUI IM} si confirmée; dépistage IST complet"
+  - description: "{s:Pelade rapidement extensive, totale ou universelle} ± atteinte sourcils/cils/ongles"
+    dx_suspecte: "{p:Pelade sévère} (impact psy majeur, association auto-immune)"
+    action: "Avis dermatologique sous 2-4 sem; bilan auto-immun (TSH, anti-TPO); discuter {r:JAK inhibiteurs} (baricitinib) ou corticothérapie systémique [VÉRIFIER:critères remboursement JAKi]"
+
+dd_top5:
+  - dx: "{p:Alopécie androgénétique}"
+    indices: "Progressive, golfes temporaux + vertex (homme, échelle Hamilton) / vertex + raie élargie (femme, Ludwig), miniaturisation à la trichoscopie, ATCD familiaux, ostiums conservés"
+    freq: "très fréquent (cause #1 — 50 % hommes à 50 ans, 40 % femmes à 70 ans)"
+  - dx: "{p:Effluvium télogène}"
+    indices: "Diffuse, brutale, survenant ~3 mois après facteur déclenchant (accouchement, fièvre, chirurgie, médicament, régime), test de traction +, repousse spontanée 3-6 mois"
+    freq: "fréquent (souvent transitoire)"
+  - dx: "{p:Pelade (alopecia areata)}"
+    indices: "Plaques rondes/ovales bien délimitées, {s:cheveux en point d'exclamation}, pitting unguéal, terrain atopique/auto-immun, formes sévères (totale, universelle)"
+    freq: "fréquent (prévalence vie entière ~2 %)"
+  - dx: "{p:Alopécies cicatricielles} (lichen plan pilaire, lupus discoïde, FFA, pseudopelade de Brocq)"
+    indices: "{s:Disparition des ostiums}, atrophie, érythème périfolliculaire, perte DÉFINITIVE; nécessite biopsie urgente; FFA: recul ligne frontale + sourcils chez femme ménopausée"
+    freq: "rare mais grave (irréversible)"
+  - dx: "{p:Trichotillomanie / alopécie de traction}"
+    indices: "Cheveux à longueurs inégales, zones accessibles (temporales, couronne), contexte stress/TOC; traction: lisière frontale chez patientes avec coiffures serrées (tresses, chignons)"
+    freq: "non rare (enfants, adolescents, jeunes adultes)"
+
+pec_initiale:
+  immediate:
+    - "Identifier d'abord si alopécie {p:cicatricielle} (ostiums absents) → {t:biopsie} avant tout traitement; orientation dermato urgente"
+    - |-
+      {p:Androgénétique}:
+      • homme: {r:minoxidil 5% topique 2x/j} ± {r:finastéride 1 mg/j PO}
+      • femme: {r:minoxidil 2-5% topique 2x/j}; {r:spironolactone 100-200 mg/j} si hyperandrogénie [VÉRIFIER:posologie spironolactone CH]
+      • CI absolue: {r:finastéride} chez femme en âge de procréer (tératogène)
+    - |-
+      {p:Effluvium télogène}:
+      • traiter la cause (carence, dysthyroïdie, médicament inducteur)
+      • {s:rassurance}: repousse spontanée 3-6 mois après correction
+      • supplémentation ciblée si carence documentée
+    - |-
+      {p:Pelade}:
+      • localisée < 50%: {r:corticoïdes topiques classe III} ou {r:triamcinolone intra-lésionnelle 5-10 mg/mL}
+      • étendue: {r:corticothérapie systémique}, méthotrexate, ciclosporine, {r:JAK inhibiteurs} (baricitinib)
+    - "{p:Teigne}: antifongique systémique OBLIGATOIRE — {r:terbinafine 250 mg/j 6-12 sem} (adulte) ou {r:griséofulvine 15-25 mg/kg/j} (enfant); traiter entourage + animaux"
+    - "Évaluer retentissement psychosocial systématiquement; soutien psychologique, groupes de patients (pelade)"
+  orientation:
+    - "Médecin traitant / dermato ambulatoire: androgénétique, effluvium typique, pelade localisée"
+    - "Dermato urgente (< 2-4 sem): toute suspicion d'{p:alopécie cicatricielle} (biopsie avant traitement), pelade extensive, échec 1ère ligne"
+    - "Endocrino: hyperandrogénie sévère, SOPK avec virilisation, hyperprolactinémie"
+    - "Psychiatrie/psychothérapie: trichotillomanie, retentissement psy majeur (dépression, idées suicidaires)"
+    - "Chirurgie esthétique: microgreffe capillaire (androgénétique STABLE après échec traitement médical)"
+
+# source: lines 622-733 — bilan adapté au contexte clinique
+examens_complementaires:
+  - "{t:NFS + ferritine}: dépistage carence martiale (cible ferritine > 70 µg/L pour repousse) [VÉRIFIER:seuil exact selon société]"
+  - "{t:TSH} (± T4L, anti-TPO si TSH altérée): dépistage systématique devant alopécie diffuse"
+  - "{t:Bilan hormonal} (testostérone totale/libre, SDHEA, 17-OHP, LH/FSH, prolactine): femme avec hyperandrogénie clinique"
+  - "{t:Trichoscopie ± trichogramme}: diagnostic différentiel non-cicatricielle (miniaturisation, points jaunes/noirs)"
+  - "{t:Biopsie cuir chevelu 4 mm} (zone active, AVANT traitement): toute suspicion d'alopécie cicatricielle"
+  - "{t:Examen mycologique} (direct + culture) ± {t:TPHA/VDRL}: teigne suspectée; syphilis 2re si alopécie en clairière"
+
+criteres_hospitalisation:
+  - "Pas d'indication d'hospitalisation pour l'alopécie isolée (urgence faible)"
+  - "Cause systémique grave découverte: lupus sévère, dénutrition sévère, hyperthyroïdie décompensée"
+  - "Retentissement psychiatrique majeur avec risque suicidaire"
+  - "Teigne avec surinfection bactérienne sévère (kérion volumineux fébrile)"
+
+pieges:
+  - "Méconnaître une {p:alopécie cicatricielle} et perdre la fenêtre thérapeutique → toujours examiner les ostiums; biopsie au moindre doute (érythème, squames, atrophie)"
+  - "Oublier la {p:carence martiale} chez la femme jeune avec règles abondantes — ferritine < 30 µg/L très fréquente; cible > 70 µg/L pour repousse [VÉRIFIER:cible internationale vs locale]"
+  - "Prescrire {r:finastéride / dutastéride} à une femme en âge de procréer (tératogène — anti-androgène) — utiliser spironolactone ou contraception efficace obligatoire si AMM"
+  - "Banaliser une pelade extensive ou universelle: impact psychologique majeur, comorbidités auto-immunes à dépister, accès aux {r:JAK inhibiteurs} à discuter"
+  - "Oublier la {p:syphilis secondaire} devant une alopécie en clairière ('mitée') — TPHA/VDRL même sans autres signes"
+
+cartes_liees:
+  - SSP-DER-01
+  - SYS-DER

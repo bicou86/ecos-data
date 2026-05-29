@@ -1,0 +1,201 @@
+id: SSP-HEM-01
+type: ssp
+title: Pâleur
+discipline: Hemato
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Paleur.md
+
+# source: lines 11-24
+anamnese:
+  socrates:
+    - |-
+      Site / extension:
+      • cutanéo-muqueuse diffuse vs localisée
+      • muqueuses (conjonctives, paumes, lit unguéal) ++ fiable
+      • teint cireux / jaunâtre ({s:hémolyse})?
+    - |-
+      Onset:
+      • brutale (jours) → {p:hémorragie aiguë}, {p:hémolyse aiguë}
+      • progressive (semaines/mois) → carences, IRC, inflammation
+      • ancienne stable → constitutionnelle (thalassémie)
+    - "Character: associée à teinte jaune ({s:ictère}), grisâtre (IRC), cireuse (carence)?"
+    - "Radiation: comparer paumes/conjonctives/lit unguéal (plus fiables que peau)"
+    - "Time: durée, évolution récente, fluctuante vs constante"
+    - "Exacerbating: effort, position debout (orthostatisme), règles"
+    - "Relieving: transfusions antérieures? supplémentation fer/B12 efficace?"
+    - "Severity: retentissement fonctionnel (dyspnée stade NYHA, autonomie)"
+  # source: lines 27-46
+  specifique:
+    - |-
+      {s:Syndrome anémique}:
+      • asthénie, dyspnée d'effort puis repos
+      • palpitations, angor fonctionnel
+      • céphalées, vertiges, lipothymies
+      • acouphènes, frilosité
+    - |-
+      {s:Spoliation digestive} (cause #1 chez {e:> 50 ans}):
+      • hématémèse, méléna (hautes)
+      • rectorragies, modification transit (basses)
+      • saignement occulte (rechercher activement)
+    - |-
+      {s:Spoliation gynécologique} ({e:femme en âge de procréer}):
+      • ménorragies (> 7 j, > 80 mL/cycle, > 5 protections/j)
+      • métrorragies, ménométrorragies
+    - |-
+      {s:Hémolyse}:
+      • {s:ictère} + urines foncées (hémoglobinurie)
+      • splénomégalie, lithiase biliaire pigmentaire
+      • voyage zone endémique ({p:paludisme})?
+    - |-
+      {s:Carence B12 / folates}:
+      • paresthésies, ataxie, troubles équilibre
+      • glossite de Hunter, langue lisse
+      • régime végétalien, gastrectomie?
+    - "{s:Pica / pagophagie} (envie de glace) → très évocatrice de carence martiale"
+    - "Symptômes B (fièvre, sueurs nocturnes, amaigrissement) → {p:hémopathie maligne}, néoplasie"
+  # source: lines 310-371
+  atcd:
+    - "Anémies antérieures (étiologie, traitement, transfusions)"
+    - "Pathologies digestives: ulcère, MICI, cancer colorectal, maladie cœliaque, gastrectomie"
+    - "Pathologies gynéco: fibromes, endométriose, DIU cuivre"
+    - "Hémopathies familiales: thalassémie, drépanocytose, déficit G6PD (origine ethnique++)"
+    - |-
+      Médicaments:
+      • {r:AINS} (ulcères)
+      • {r:anticoagulants / antiagrégants} (saignement)
+      • {r:chimiothérapie} (toxicité médullaire)
+      • {r:méthotrexate, triméthoprime} (anti-folates)
+      • {r:chloramphénicol, sulfamides} (aplasie / hémolyse)
+    - |-
+      Régime / mode de vie:
+      • {e:végétarisme/végétalisme} strict
+      • alcoolisme chronique → folates
+      • précarité, isolement
+      • voyage zone tropicale
+
+# source: pivots cliniques (red_flags_raw vide dans MD)
+red_flags:
+  - description: "{s:Pâleur} + {s:tachycardie > 120} + {s:hypoTA} + extrémités froides + marbrures"
+    dx_suspecte: "{p:Choc hémorragique}"
+    action: "{r:2 VVP G14-16}, remplissage cristalloïdes, {r:transfusion CG O nég} en urgence; recherche source (FOGD, scanner); avis chir/réa"
+  - description: "{s:Pâleur} + {s:ictère} + {s:splénomégalie} + hyperréticulocytose (> 120 G/L)"
+    dx_suspecte: "{p:Hémolyse aiguë} (AHAI, infection, médicament)"
+    action: "Bilan hémolyse ({t:LDH, haptoglobine, bili libre}), {t:test de Coombs direct}, frottis; corticoïdes si AHAI; arrêter médicament suspect"
+  - description: "{s:Pâleur} + {s:AEG} + amaigrissement chez {e:> 50 ans}"
+    dx_suspecte: "{p:Néoplasie occulte} (colon +++, estomac, rein)"
+    action: "{t:Coloscopie} + FOGD + {t:scanner TAP}; ne JAMAIS prescrire fer sans bilan étiologique"
+  - description: "{s:Pâleur} + paresthésies + ataxie cordonale postérieure + macrocytose (VGM > 100)"
+    dx_suspecte: "{p:Carence B12 sévère / Biermer}"
+    action: "{r:Hydroxocobalamine 1000 µg IM/j × 7 j}; AC anti-FI + anti-cellules pariétales; FOGD avec biopsies; risque séquelles neuro si retard"
+  - description: "{s:Pâleur} + adénopathies + {s:purpura}/saignement + neutropénie/leucocytose anormale"
+    dx_suspecte: "{p:Leucémie aiguë} / aplasie médullaire"
+    action: "{t:Frottis sanguin URGENT} (blastes); avis hémato STAT pour {t:médullogramme}; isolement protecteur si neutropénie fébrile"
+  - description: "{s:Pâleur} + {s:thrombopénie} + schizocytes au frottis + IRA + signes neuro"
+    dx_suspecte: "{p:Microangiopathie thrombotique} (PTT / SHU)"
+    action: "URGENCE vitale: {t:frottis} (schizocytes), {t:ADAMTS13}; {r:échanges plasmatiques} sans délai si PTT suspecté; PAS de transfusion plaquettes"
+  - description: "Anémie sévère ({t:Hb < 7 g/dL}) ou mal tolérée (dyspnée repos, angor, syncope)"
+    dx_suspecte: "Anémie décompensée"
+    action: "{r:Transfusion CG} (1-2 unités, lente si âgé/cardiopathe + {r:furosémide}); monitoring; recherche cause en parallèle"
+
+# source: lines 376-491 + pivots
+examen:
+  general:
+    - "Signes vitaux: TA (couché/debout → orthostatisme), FC, FR, T°, SaO2, glycémie"
+    - "Pâleur des conjonctives + paumes + lit unguéal (+ fiables que peau visage)"
+    - "État général, score performance, signes de choc (marbrures, TRC > 3 s)"
+    - "Inspection cutanée: {s:purpura}, ecchymoses, télangiectasies (Rendu-Osler)"
+    - "Recherche {s:ictère} sclérotique (lumière naturelle) → orientation hémolyse"
+  cible:
+    - |-
+      Signes de carence martiale:
+      • {s:koïlonychie} (ongles en cuiller)
+      • cheveux ternes, cassants
+      • {s:perlèche} (chéilite angulaire)
+      • {s:glossite} (langue dépapillée)
+      • {s:pagophagie}, syndrome jambes sans repos
+    - |-
+      Signes de carence B12:
+      • {s:glossite de Hunter} (langue rouge lisse)
+      • paresthésies, troubles sensibilité vibratoire/proprioceptive
+      • ataxie cordonale postérieure, Romberg
+      • ROT abolis ou vifs (sclérose combinée moelle)
+    - |-
+      Signes hémolyse / hémopathie:
+      • {s:splénomégalie} (palpation + percussion Castell)
+      • hépatomégalie
+      • adénopathies (cervicales, sus-clav, axillaires, inguinales)
+    - |-
+      Recherche saignement:
+      • {t:toucher rectal} (méléna, masse) — INCONTOURNABLE > 50 ans
+      • examen gynéco si ménorragies / métrorragies
+      • saignements gingivaux, épistaxis
+    - "Auscultation cardiaque: souffle systolique fonctionnel (Hb < 8), tachycardie"
+    - "Signes IC: OMI, turgescence jugulaire, crépitants (surcharge avant transfusion)"
+
+# source: pivots cliniques
+dd_top5:
+  - dx: "{p:Anémie ferriprive}"
+    indices: "Microcytaire ({t:VGM < 80}), hypochrome, {t:ferritine basse}, CST < 20 %; femme menstruée OU hémorragie occulte digestive > 50 ans (cause #1 mondiale); {s:koïlonychie}, {s:pagophagie}"
+    freq: "très fréquent (cause #1, ~25 % femmes en âge procréer)"
+  - dx: "{p:Anémie inflammatoire (maladies chroniques)}"
+    indices: "Normo- ou microcytaire, {t:ferritine normale/élevée} mais CST bas, CRP élevée; contexte infection chronique, néoplasie, maladie auto-immune, IRC légère [VÉRIFIER:seuils CST/ferritine précis pour distinguer ferriprive vs mixte]"
+    freq: "fréquent (2e cause)"
+  - dx: "{p:Carence B12 / folates}"
+    indices: "Macrocytaire ({t:VGM > 100}), parfois pancytopénie modérée; signes neuro (B12), glossite Hunter; régime végétalien, gastrectomie, Biermer, alcoolisme (folates)"
+    freq: "fréquent (surtout sujet âgé, végétariens)"
+  - dx: "{p:Anémie de l'insuffisance rénale chronique}"
+    indices: "Normocytaire normochrome arégénérative, créatinine élevée ({t:DFG < 60}), déficit EPO; carence martiale fonctionnelle associée"
+    freq: "fréquent (IRC stade 3-5)"
+  - dx: "{p:Hémolyse}"
+    indices: "Régénérative (réticulocytes > 120 G/L), {t:LDH ↑}, {t:haptoglobine ↓}, bili libre ↑, ictère, splénomégalie; auto-immune (Coombs+), constitutionnelle (drépano, thalassémie, G6PD), MAT (schizocytes)"
+    freq: "moins fréquent mais URGENT"
+
+# source: lines 556-741 + pivots
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: choc, MAT, leucémie aiguë → urgences/hémato AVANT toute prescription"
+    - "Anémie mal tolérée ou {t:Hb < 7 g/dL} (< 8 si cardiopathe / {e:> 70 ans}): {r:transfusion CG} 1-2 unités, lente, ± {r:furosémide 20 mg IV} si risque OAP"
+    - "Carence martiale prouvée: {r:sulfate ferreux 160-200 mg/j PO} à jeun + vit C; alternative {r:fer IV (carboxymaltose ferrique)} si intolérance, malabsorption ou besoin rapide [VÉRIFIER:posologies exactes carboxymaltose ferrique selon poids]"
+    - "Carence B12: {r:hydroxocobalamine 1000 µg IM/j × 7 j, puis 1×/sem × 4 sem, puis 1×/mois à vie} si Biermer"
+    - "Carence folates: {r:acide folique 5 mg/j PO × 3 mois}; TOUJOURS éliminer carence B12 associée AVANT (sinon aggravation neuro)"
+    - "Anémie IRC: {r:EPO} si Hb < 10 g/dL + correction carence martiale (ferritine cible > 100, CST > 20 %) [VÉRIFIER:cibles ferritine/CST selon protocole néphro local]"
+    - "Hémorragie active: {r:2 VVP}, remplissage, transfusion CG ± PFC/plaquettes, {r:acide tranexamique 1 g IV}; geste hémostase (endoscopique, chir, embolisation)"
+  orientation:
+    - "Domicile + suivi MT: anémie ferriprive simple femme en âge procréer, bien tolérée, étiologie identifiée (règles), Hb > 9 g/dL"
+    - "Hospitalisation: anémie mal tolérée, Hb < 7-8, hémorragie active, suspicion hémopathie/MAT, carence B12 avec signes neuro sévères"
+    - "Avis hémato URGENT: pancytopénie, blastes au frottis, schizocytes + thrombopénie, suspicion AHAI"
+    - "Avis gastro: anémie ferriprive {e:> 50 ans} ou homme/femme ménopausée → FOGD + coloscopie systématiques"
+    - "Avis gynéco: ménorragies invalidantes, échographie pelvienne"
+    - "Consignes retour: aggravation dyspnée, syncope, douleur thoracique, saignement, fièvre"
+
+# source: pivots cliniques + JSON pec_raw
+examens_complementaires:
+  - "{t:NFS + réticulocytes + frottis sanguin}: classification VGM (micro/normo/macro) + caractère régénératif; recherche schizocytes (MAT), sphérocytes, drépanocytes, blastes"
+  - "{t:Bilan martial}: ferritine, CST, fer sérique, transferrine — interpréter avec CRP (ferritine = prot inflammatoire)"
+  - "{t:B12, folates sériques}: si VGM > 100 ou signes neuro/glossite; AC anti-FI + anti-cellules pariétales si suspicion Biermer"
+  - "{t:Bilan hémolyse}: LDH, haptoglobine, bilirubine libre, ASAT; {t:test de Coombs direct} si suspicion auto-immune; électrophorèse Hb si suspicion hémoglobinopathie"
+  - "{t:Créatinine + DFG}, TSH, bilan hépatique; recherche sang occulte selles ou FOGD+coloscopie selon contexte"
+  - "{t:Myélogramme}: pancytopénie, blastes, suspicion MDS/leucémie, anémie inexpliquée [VÉRIFIER:indications exactes selon protocole hémato]"
+
+# source: pivots cliniques
+criteres_hospitalisation:
+  - "Anémie mal tolérée: dyspnée repos, angor, syncope, troubles conscience"
+  - "{t:Hb < 7 g/dL} (< 8 si cardiopathie ou {e:> 70 ans})"
+  - "Hémorragie active ou instabilité hémodynamique"
+  - "Suspicion hémopathie maligne, MAT, AHAI sévère, aplasie médullaire"
+  - "Carence B12 avec atteinte neuro sévère ou pancytopénie"
+
+# source: pivots cliniques
+pieges:
+  - "{t:Ferritine élevée} N'EXCLUT PAS une carence martiale en cas de syndrome inflammatoire — toujours interpréter avec CST (< 20 %) et CRP"
+  - "Prescrire {r:fer} sans bilan étiologique chez {e:> 50 ans} ou homme → masque cancer colorectal; TOUJOURS FOGD + coloscopie"
+  - "Donner {r:acide folique} seul sans doser B12 → aggrave sclérose combinée moelle"
+  - "Méconnaître {p:MAT} (schizocytes + thrombopénie + IRA): URGENCE vitale, PAS de transfusion plaquettes, échanges plasmatiques sans délai"
+  - "Banaliser anémie microcytaire chez sujet d'origine méditerranéenne/africaine → penser {p:thalassémie} (électrophorèse Hb avant supplémentation fer)"
+
+cartes_liees:
+  - SYS-HEMATO
+  - SSP-GAS-01

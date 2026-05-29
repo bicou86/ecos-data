@@ -1,0 +1,195 @@
+id: SSP-PUL-01
+type: ssp
+title: Dyspnée
+discipline: Pulmo
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dyspnee.md
+
+# source: line 12-150
+anamnese:
+  socrates:
+    - |-
+      Site / Onset:
+      • {s:dyspnée aiguë} < 24h vs {s:subaiguë} 24h-3sem vs {s:chronique} > 3 sem
+      • début brutal (minutes → {p:EP}, {p:pneumothorax}) vs progressif
+      • première fois ou récurrence?
+    - |-
+      Character (qualité):
+      • oppression thoracique (cardiaque)
+      • étouffement, manque d'air (respiratoire)
+      • blocage / hyperventilation (anxiété)
+      • inspiratoire (obstacle haut) / expiratoire (bronchospasme) / aux deux temps
+    - "Radiation: douleur irradiée vers bras/mâchoire ({p:SCA}), dorsalgie ({p:dissection}), mollet unilatéral ({p:TVP} → {p:EP})"
+    - |-
+      Time:
+      • durée totale, mode évolutif
+      • {s:orthopnée} (nb oreillers) → {p:IC}
+      • {s:dyspnée paroxystique nocturne} (réveil 2-4h)
+      • horaire matinal ({p:BPCO}/{p:asthme}) vs vespéral ({p:IC})
+    - |-
+      Exacerbating:
+      • effort (grader: marche plat / pente / escaliers)
+      • décubitus, allergènes, froid, tabac, stress
+      • [VÉRIFIER: échelle mMRC vs NYHA — sources sont divergentes sur seuils]
+    - "Relieving: position assise / penchée en avant, bronchodilatateurs ({r:salbutamol}), {r:O2}, {r:diurétiques}, repos"
+    - |-
+      Severity:
+      • {t:NYHA I-IV} si origine cardiaque (IV = repos)
+      • {t:mMRC 0-4} si pneumologique (4 = alité, dyspnée habillage)
+      • retentissement: parle par mots isolés? marche < 100 m?
+  specifique:
+    - |-
+      Symptômes associés respiratoires:
+      • toux sèche ({p:asthme}, {p:IEC}) vs grasse
+      • expectorations: purulentes ({p:pneumonie}), {s:mousseuses rosées} ({p:OAP}), {s:hémoptoïques} ({p:EP}/{p:cancer})
+      • {s:wheezing}, douleur pleurétique
+    - |-
+      Symptômes cardiovasculaires:
+      • {s:douleur thoracique} (oppressive → {p:SCA}; pleurétique → {p:EP})
+      • {s:OMI} bilatéraux vespéraux, {s:nycturie}, palpitations
+      • lipothymie / syncope ({p:EP massive}, {p:RAo serré})
+    - |-
+      Signes généraux:
+      • fièvre ({p:pneumonie}, fébricule {p:EP})
+      • perte de poids ({p:cancer}, {p:BPCO sévère})
+      • asthénie majeure ({p:anémie})
+    - |-
+      Facteurs de risque {p:EP} (à chercher SYSTÉMATIQUEMENT):
+      • immobilisation > 3 j, chirurgie < 4 sem
+      • {p:cancer} évolutif, thrombophilie, ATCD TVP/EP
+      • {r:contraception oestroprogestative}, {e:grossesse / post-partum}
+      • vol long-courrier récent
+    - "Exposition: tabagisme (PA), amiante/silice, allergènes, animaux, voyages, contage"
+  atcd:
+    - "Respi: {p:asthme} (sévérité, asthme quasi-fatal?), {p:BPCO} (stade GOLD, {r:O2} domicile), pneumothorax antérieurs, cancer pulmonaire, EP/TVP"
+    - "Cardio: {p:IC} (FEVG, NYHA), cardiopathie ischémique, valvulopathies, FA, HTA"
+    - "Autres: anémie chronique, insuffisance rénale, obésité (IMC), pathologie neuromusculaire ({p:SLA}, {p:myasthénie})"
+    - |-
+      Médicaments:
+      • cardiotoxiques ({r:doxorubicine}, {r:trastuzumab})
+      • pneumotoxiques ({r:bléomycine}, {r:amiodarone}, {r:MTX})
+      • {r:bêta-bloquants} (bronchospasme), {r:IEC} (toux)
+      • observance traitement chronique
+    - "Vaccination grippe / pneumocoque, immunodépression ({p:VIH}, corticoïdes au long cours)"
+
+# source: line 412-433 (red flags) + clinical pivots
+red_flags:
+  - description: "{s:Désaturation < 90%} + {s:tachycardie > 100} + douleur pleurétique ± {s:mollet asymétrique}"
+    dx_suspecte: "{p:Embolie pulmonaire}"
+    action: "{t:Score de Wells/Geneva} + {t:D-dimères} (seuil ajusté à l'âge si > 50 ans) ou {t:angio-TDM} d'emblée si haute probabilité; {r:HBPM dose thérapeutique} sans attendre confirmation"
+  - description: "{s:Déviation trachéale} + abolition murmure vésiculaire + hypersonorité + hypotension"
+    dx_suspecte: "{p:Pneumothorax compressif (suffocant)}"
+    action: "{r:Exsufflation immédiate à l'aiguille — 2e EIC ligne médio-claviculaire} AVANT imagerie; drain pleural ensuite"
+  - description: "{s:Orthopnée} + {s:crépitants bilatéraux} + {s:expectoration mousseuse rosée} ± {s:B3 / galop}"
+    dx_suspecte: "{p:OAP cardiogénique}"
+    action: "Position assise, {r:O2}, {r:furosémide 40-80 mg IV}, {r:trinitrine IV} si TAS > 100, {r:VNI (CPAP)} si hypoxémie persistante"
+  - description: "{s:Cyanose centrale} + {s:tirage sévère} + {s:épuisement / paroles par mots isolés} + {t:PaCO2} ↑ avec acidose"
+    dx_suspecte: "Exacerbation {p:BPCO} ou {p:asthme aigu grave} avec épuisement respiratoire"
+    action: "{r:VNI (BiPAP)} si {t:pH < 7.35}; bronchodilatateurs nébulisés, {r:corticoïdes IV}, ATB; intubation si échec [VÉRIFIER: seuils CHUV/HUG pour VNI vs intubation]"
+  - description: "{s:Dyspnée brutale} + {s:tachycardie} + {s:hypotension} + turgescence jugulaires sans crépitants"
+    dx_suspecte: "{p:Tamponnade} ou {p:EP massive} (choc obstructif)"
+    action: "{t:ETT au lit} immédiate; péricardiocentèse urgente si tamponnade; {r:thrombolyse} si EP massive avec choc"
+  - description: "{s:Dyspnée de Kussmaul} (ample, profonde, polypnée) + déshydratation ± odeur acétonique"
+    dx_suspecte: "{p:Acidocétose diabétique} (acidose métabolique)"
+    action: "{t:Gaz du sang}, glycémie, cétonémie, iono; {r:réhydratation IV + insuline IV} en USI"
+
+# source: line 152-230
+examen:
+  general:
+    - "{t:Triade gravité}: {s:SaO2}, {s:FR}, signes de lutte (cyanose, tirage, balancement thoraco-abdominal, battement ailes du nez)"
+    - "Constantes: TA (les deux bras si dissection suspectée), FC, T°, glycémie capillaire si Kussmaul"
+    - "Conscience: obnubilation → {s:hypercapnie} sévère; parole (phrases vs mots isolés vs incapacité)"
+    - "Position spontanée: orthopnée, tripode (mains sur cuisses → {p:asthme}/{p:BPCO} sévère)"
+    - "Inspection globale: cyanose centrale (lèvres) vs périphérique, pâleur ({p:anémie}), diaphorèse, OMI"
+  cible:
+    - |-
+      Inspection thoracique:
+      • thorax en tonneau ({p:BPCO})
+      • asymétrie ({p:pneumothorax}, épanchement)
+      • cicatrices, circulation collatérale (syndrome cave sup)
+    - |-
+      Palpation / percussion:
+      • vibrations vocales: diminuées (épanchement/pneumothorax), augmentées (condensation)
+      • ampliation symétrique?
+      • {s:matité} basale (épanchement) vs {s:hypersonorité} ({p:pneumothorax}, emphysème)
+      • emphysème sous-cutané (crépitations neigeuses)
+    - |-
+      Auscultation pulmonaire (CRUCIALE):
+      • murmure vésiculaire diminué / aboli = épanchement / pneumothorax / obstruction
+      • {s:crépitants} fins bilatéraux ({p:OAP}, fibrose) vs localisés ({p:pneumonie})
+      • {s:sibilants} (bronchospasme) — silence auscultatoire = asthme quasi-fatal
+      • {s:ronchi} (sécrétions {p:BPCO}), frottement pleural ({p:pleurésie}, {p:EP})
+    - |-
+      Examen cardiovasculaire:
+      • turgescence jugulaires (IC droite, tamponnade, EP)
+      • {s:reflux hépato-jugulaire}, hépatomégalie
+      • choc de pointe déplacé (cardiomégalie)
+      • {s:B3 / galop}, souffles ({p:RAo}, {p:IM}), frottement péricardique
+      • OMI bilatéraux (IC) vs mollet asymétrique avec signe de Homans ({p:TVP})
+    - "Examen complémentaire: ORL (œdème laryngé → anaphylaxie), neuro (faiblesse → {p:Guillain-Barré}, {p:myasthénie})"
+
+# source: line 291-333 + clinical pivots
+dd_top5:
+  - dx: "{p:OAP / IC décompensée}"
+    indices: "Orthopnée, DPN, crépitants bilatéraux, expectorations mousseuses rosées, ATCD HTA/cardiopathie, {t:BNP > 400 pg/mL}, RxT: cardiomégalie + redistribution vasculaire, ECG: HVG/FA"
+    freq: "très fréquent (15% causes, > 65 ans surtout)"
+  - dx: "{p:Embolie pulmonaire}"
+    indices: "Dyspnée brutale + douleur pleurétique + tachycardie ± hémoptysie; FdR (immobilisation, cancer, contraception OP, post-op); ECG: S1Q3T3/BBD; {t:D-dimères}, {t:angio-TDM}; {t:Score de Wells/Geneva}"
+    freq: "fréquent, urgence absolue (mortalité ↑ si massive)"
+  - dx: "{p:Exacerbation asthme / BPCO}"
+    indices: "ATCD connu, wheezing, allongement temps expiratoire; déclencheur infectieux/allergique; gazométrie (hypoxie ± hypercapnie); RxT: hyperinflation; [VÉRIFIER: critères GOLD vs GINA pour exacerbation modérée vs sévère]"
+    freq: "très fréquent (25% asthme, 20% BPCO en consultation)"
+  - dx: "{p:Pneumonie}"
+    indices: "Fièvre + toux + expectorations purulentes; crépitants localisés, matité, souffle tubaire; CRP/PCT élevées; RxT: opacité alvéolaire avec bronchogramme aérien; {t:score CRB-65/CURB-65} pour orientation"
+    freq: "fréquent (10-15% causes aiguës)"
+  - dx: "{p:Pneumothorax}"
+    indices: "Dyspnée brutale + douleur en coup de poignard; abolition MV unilatérale + hypersonorité; RxT: décollement pleural, absence de trame; risque tamponnade compressive si déviation médiastinale"
+    freq: "moins fréquent mais urgence si compressif"
+
+# source: line 335-411
+pec_initiale:
+  immediate:
+    - "Triage ABC: position demi-assise (orthopnée) ou décubitus (choc); {r:O2} titrage SaO2 {r:94-98%} (cible {r:88-92%} si {p:BPCO} hypercapnique); monitoring continu SaO2/FC/TA"
+    - "{p:OAP}: {r:furosémide 40-80 mg IV} + {r:trinitrine IV} si TAS > 100; {r:CPAP} si persistance; {r:dobutamine} si choc cardiogénique [VÉRIFIER: posologies CHUV pour furosémide selon DFG]"
+    - "{p:Asthme aigu grave}: {r:salbutamol 5 mg + ipratropium 0.5 mg nébulisation} à répéter; {r:hydrocortisone 200 mg IV} ou {r:prednisolone 40-50 mg PO}; {r:MgSO4 2 g IV} si quasi-fatal"
+    - "Exacerbation {p:BPCO}: nébulisations β2/ipratropium; {r:prednisolone 30-40 mg/j × 5 j}; {r:amoxicilline-clavulanate} si infection; {r:VNI (BiPAP)} si pH < 7.35"
+    - "Suspicion {p:EP}: {r:HBPM dose thérapeutique} (ex: {r:enoxaparine 1 mg/kg SC × 2/j}) sans attendre angio-TDM si haute probabilité; {r:thrombolyse (alteplase)} si EP massive avec choc"
+    - "{p:Pneumothorax} > 20% ou mal toléré: {r:exsufflation aiguille 2e EIC LMC} si compressif, sinon drain pleural; observation simple si < 20% bien toléré"
+    - "{p:Pneumonie}: ATB empirique selon sévérité ({r:amoxicilline} ambulatoire; {r:amoxi-clav + macrolide} si hospit; {r:ceftriaxone + macrolide} si sévère)"
+  orientation:
+    - "Domicile + suivi: dyspnée chronique stable connue, FdR contrôlés, examen normal, SaO2 > 94% AA"
+    - "Hospitalisation conventionnelle: pneumonie modérée, exacerbation BPCO sans acidose, première décompensation IC, EP non massive après anticoagulation"
+    - "USI / SI: détresse respiratoire, choc, acidose respiratoire pH < 7.35, EP massive, OAP réfractaire, asthme quasi-fatal, indication intubation"
+    - "Consignes de retour: aggravation dyspnée au repos, douleur thoracique, hémoptysie, perte de connaissance, fièvre élevée"
+
+# source: line 232-287
+examens_complementaires:
+  - "{t:Gazométrie artérielle} si SaO2 < 92% ou signes de gravité (PaO2 < 60 → hypoxémie; PaCO2 > 45 → hypercapnie; pH < 7.35 → acidose)"
+  - "{t:NFS / CRP / PCT / iono / créat / troponines / BNP-NT-proBNP / D-dimères}: D-dimères avec seuil ajusté à l'âge (× 10 si > 50 ans) [VÉRIFIER: seuil exact recommandé HUG/CHUV]"
+  - "{t:ECG 12 dérivations}: ischémie ({p:SCA}), S1Q3T3/BBD ({p:EP}), FA rapide, HVG ({p:IC})"
+  - "{t:RxT face/profil}: SYSTÉMATIQUE — OAP, pneumonie, pneumothorax, épanchement, cardiomégalie"
+  - "{t:Angio-TDM thoracique}: suspicion {p:EP} (Wells ≥ 4 ou D-dimères positifs), dyspnée inexpliquée, suspicion cancer"
+  - "{t:ETT au lit}: tamponnade, EP massive (dilatation VD), FEVG, valvulopathie, HTAP; {t:EFR + test bronchodilatateur} en différé si dyspnée chronique"
+
+# source: line 387-410
+criteres_hospitalisation:
+  - "{s:FR > 30/min} ou {s:FR < 8/min}, {s:SaO2 < 90%} malgré O2, épuisement respiratoire"
+  - "Acidose respiratoire {t:pH < 7.35} avec {t:PaCO2 > 45}, hypoxémie {t:PaO2 < 60}"
+  - "Instabilité hémodynamique (TAS < 90, FC > 120 ou < 50), altération de la conscience, cyanose centrale"
+  - "Suspicion ou confirmation {p:EP}, {p:OAP}, {p:pneumothorax} > 20%, {p:pneumonie} sévère ({t:CURB-65 ≥ 2})"
+  - "Comorbidités décompensées, échec de traitement ambulatoire, contexte social précaire / observance impossible"
+
+pieges:
+  - "Étiqueter une dyspnée comme 'psychogène' sans bilan objectif minimal (SaO2, gazométrie, RxT, ECG, D-dimères) — l'anxiété est un diagnostic d'élimination"
+  - "Méconnaître une {p:EP} chez sujet âgé avec D-dimères 'normaux' non ajustés à l'âge — utiliser le seuil ajusté (âge × 10 ng/mL si > 50 ans)"
+  - "Donner {r:O2} forte concentration à un patient {p:BPCO} hypercapnique sans surveillance (cible {r:88-92%}) — risque de narcose au CO2"
+  - "Oublier d'évoquer {p:anémie} chronique ou acidose métabolique ({p:DKA}, intoxications) devant une dyspnée 'inexpliquée' avec auscultation et RxT normales"
+  - "Diagnostiquer {p:OAP} sur la seule présence de crépitants sans BNP/RxT/ETT — pneumonie bilatérale et fibrose donnent des crépitants similaires"
+
+cartes_liees:
+  - SYS-PUL
+  - SYS-CAR
+  - TOOL-WELLS-EP
