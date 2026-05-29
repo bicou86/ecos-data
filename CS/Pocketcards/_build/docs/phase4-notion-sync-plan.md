@@ -133,13 +133,15 @@ Notion's `text` block has limited color (background colors only at block level, 
 - **Pro**: preserves all formatting
 - **Con**: embeds are not searchable in Notion
 
-## Recommended Phase 4 architecture
+## Locked Phase 4 architecture (user decisions 2026-05-29)
 
-**Workspace**: A (Single master database)
-**Direction**: A (One-way YAML → Notion)
-**Status**: B (Push all + filter view) — enables review workflow
-**Updates**: A (Idempotent upsert via notion_last_synced)
-**Markup**: A initially (strip), evaluate C (emoji prefix) post-feedback
+**Workspace**: ✅ **A** — Single master database "ECOS Pocketcards"
+**Direction**: ✅ **A** — One-way YAML → Notion (YAML is canonical)
+**Status**: ✅ **B** — Push all 149 + status filter views (enables Notion review)
+**Updates**: 🔧 **A** (default) — Idempotent upsert via `notion_page_id` field
+**Markup**: 🔧 **A** (default) — Strip on first push, evaluate emoji prefixes after user feedback
+
+Decisions 4-5 marked 🔧 are implementation defaults that can be revisited post-MVP without re-architecting.
 
 ## Implementation steps
 
