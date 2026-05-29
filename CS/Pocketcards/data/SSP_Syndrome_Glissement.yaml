@@ -1,0 +1,201 @@
+id: SSP-PSY-09
+type: ssp
+title: Syndrome de glissement
+discipline: Psy
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Syndrome_Glissement.md
+
+# source: lines 61-69 (anamnèse) + 24-37 (facteurs déclenchants/prédisposants)
+anamnese:
+  socrates:
+    - |-
+      Déclencheur (événement de vie):
+      • deuil (conjoint+++), placement institution, déménagement
+      • hospitalisation récente (chute, fracture col fémur, AVC, infection)
+      • intervention chirurgicale, contention
+    - "Délai entre événement déclenchant et début des symptômes (jours/semaines)?"
+    - |-
+      Refus alimentaire/hydratation:
+      • depuis quand? actif ('je n'ai pas faim', recrache) ou passif (ne porte pas à la bouche)?
+      • {s:perte de poids} chiffrée (kg, % du poids habituel)
+      • dernière prise hydrique?
+    - |-
+      Repli et désinvestissement:
+      • {s:mutisme}, refus de communiquer, regard fixe/absent
+      • refus de se lever, de se laver, apragmatisme
+      • perte de l'élan vital, 'comme s'il s'éteignait'
+    - |-
+      Symptômes associés:
+      • constipation, rétention urinaire (refus efforts mictionnels)
+      • insomnie ou hypersomnie
+      • plaintes douloureuses (souvent ABSENTES — méfiance!)
+    - "Verbalisation: idées suicidaires? expressions de désir de mort? directives anticipées exprimées?"
+  specifique:
+    - |-
+      Triade caractéristique à confirmer:
+      • refus alimentation/hydratation
+      • désintérêt + repli sur soi (mutisme, regard fixe)
+      • détérioration rapide état général (poids, hydratation, fonte musculaire)
+    - "Distinguer du {p:refus de soins éclairé} : capacité de discernement préservée + directives cohérentes vs désinvestissement global pathologique"
+    - "Distinguer de la {p:dépression mélancolique typique} : pas toujours de tristesse exprimée ni d'idées suicidaires verbalisées"
+    - "Rechercher {s:dépression masquée} : anhédonie, ralentissement, autodépréciation, idées de culpabilité (souvent NON spontanées chez sujet âgé)"
+    - "{e:Aidant principal} : épuisement, deuil anticipé, sentiment de culpabilité, conflit familial?"
+  atcd:
+    - |-
+      Psychiatriques:
+      • antécédents dépressifs (souvent présents)
+      • hospitalisations psychiatriques antérieures
+      • tentatives de suicide passées
+    - |-
+      Gériatriques:
+      • {t:fragilité} (CFS antérieur), démence légère/modérée
+      • chutes récurrentes, dénutrition antérieure
+      • isolement social, veuvage récent
+    - |-
+      Médicaments (cause iatrogène?):
+      • {r:neuroleptiques}, {r:BZD}, anticholinergiques, sédatifs
+      • polymédication (> 5 médicaments)
+      • introduction récente d'un traitement
+    - "ATCD médicaux: cancer (occulte?), IC, AVC, insuffisance rénale, diabète"
+    - "Personnalité antérieure: autonome, sociable? repli antérieur? personnalité dépendante?"
+    - "Sphère spirituelle/religieuse: valeurs, désirs de fin de vie, projet existentiel"
+
+# source: lines 104-111 (red flags) + pivots cliniques
+red_flags:
+  - description: "{s:Refus alimentaire complet > 48-72h + AEG rapide} (perte poids, déshydratation)"
+    dx_suspecte: "{p:Syndrome de glissement décompensé}"
+    action: "Hospitalisation gériatrique aiguë + perfusion IV prudente; envisager {r:nutrition entérale par SNG} si refus oral > 72h et pronostic réversible"
+  - description: "{s:Déshydratation sévère} (natrémie ↑, créat ↑, oligurie, pli cutané, hypotension orthostatique)"
+    dx_suspecte: "{p:Déshydratation extracellulaire sévère}"
+    action: "{r:Réhydratation IV prudente} (risque OAP chez sujet fragile); correction électrolytique progressive; monitoring diurèse + iono [VÉRIFIER: protocole CHUV/HUG de réhydratation gériatrique]"
+  - description: "{s:Idées suicidaires verbalisées} ou actes auto-agressifs (refus actif, arrachage de perfusion)"
+    dx_suspecte: "{p:Dépression mélancolique sévère} avec risque suicidaire"
+    action: "Équipe psychogériatrique en urgence; surveillance 1:1; introduction antidépresseur (ISRS/IRSN); discuter {r:ECT} si mélancolie résistante"
+  - description: "{s:Cause organique grave découverte} (cancer occulte, sepsis, IC décompensée, hyperthyroïdie apathique)"
+    dx_suspecte: "{p:Décompensation somatique masquée}"
+    action: "Traitement étiologique urgent; selon pronostic: PEC curative ou intégration {r:soins palliatifs} précoces; bilan extension si néoplasie"
+  - description: "{s:Glasgow altéré} ou confusion aiguë nouvelle (fluctuante, troubles attention)"
+    dx_suspecte: "{p:Delirium} sur cause organique (AVC, HSD, infection, métabolique)"
+    action: "{t:Scanner cérébral} + bilan métabolique complet (NFS, iono, glycémie, créat, BU, hémocultures); recherche cause réversible"
+  - description: "{s:Escarres profondes (stade III-IV) + signes infectieux locaux/systémiques}"
+    dx_suspecte: "{p:Infection escarre} ± bactériémie"
+    action: "Soins locaux pluridisciplinaires (plaies); {r:antibiothérapie} si signes systémiques; support nutritionnel renforcé; équipe douleur"
+
+# source: lines 71-86 (examen + évaluation gériatrique)
+examen:
+  general:
+    - "Signes vitaux: TA (couchée/debout — hypotension orthostatique), FC, T°, FR, SaO2, glycémie capillaire"
+    - "État général: asthénie, faciès figé, regard absent, immobilité au lit"
+    - |-
+      Anthropométrie + hydratation:
+      • poids actuel vs poids habituel, IMC, tour de mollet
+      • pli cutané, muqueuses sèches, soif?
+      • diurèse des 24h
+    - "Cutané: {s:escarres} (talons, sacrum, ischions — stade I-IV), ulcères, hématomes, déshydratation cutanée"
+    - "Bouche: sécheresse, mycoses (candidose), état dentaire, plaies, prothèses adaptées?"
+  cible:
+    - |-
+      Neurologique:
+      • {t:Glasgow}, orientation temporo-spatiale
+      • {t:MMSE} (souvent baisse récente — comparer si disponible)
+      • {t:Mini-Cog} (rapide en aigu)
+      • signes de localisation (éliminer AVC, HSD)
+    - |-
+      Cardio-pulmonaire:
+      • tachycardie, hypotension, bruits cardiaques
+      • souffle de surcharge (OAP iatrogène?)
+      • auscultation pulmonaire (foyer, encombrement)
+    - |-
+      Abdomen:
+      • palpation (masse, hépatomégalie → cancer occulte?)
+      • globe vésical (rétention urinaire?)
+      • signes de constipation/fécalome (TR si indiqué)
+    - |-
+      Évaluation gériatrique standardisée (CGA):
+      • {t:CFS} (souvent ≥ 6-7 en phase aiguë)
+      • {t:MNA-SF} ≤ 7 (dénutrition aiguë)
+      • {t:GDS-15} ≥ 10 (dépression masquée — souvent positif)
+      • {t:Échelle de Cornell} si démence associée
+    - "Évaluation capacité de discernement: comprend-il sa situation? exprime-t-il un choix cohérent et stable?"
+
+# source: lines 96-102 (examens complémentaires)
+examens_complementaires:
+  - "{t:Bilan biologique large}: NFS, CRP, créat + iono (Na, K, urée), glycémie, calcémie, ASAT/ALAT, albumine + préalbumine, BU + ECBU"
+  - "{t:TSH ± T4}: hyperthyroïdie apathique ou hypothyroïdie sévère (causes organiques masquées TRÈS fréquentes chez âgé)"
+  - "{t:B12, folates, vitamine D}: carences fréquentes aggravant l'asthénie et la confusion [VÉRIFIER: indication systématique vs ciblée selon protocole gériatrique]"
+  - "{t:Rx thorax + écho abdominale}: néoplasie occulte (poumon, abdomen), pneumonie silencieuse, IC décompensée"
+  - "{t:Scanner cérébral} sans injection: si Glasgow altéré, confusion aiguë, signes focaux nouveaux (AVC, HSD, tumeur)"
+  - "{t:ECG ± troponines ± BNP}: tachycardie, hypotension, suspicion IC décompensée; hémocultures si sepsis suspecté"
+
+# source: lines 113-143 (PEC)
+pec_initiale:
+  immediate:
+    - "{p:Hospitalisation gériatrique aiguë SYSTÉMATIQUE} (court séjour gériatrique ou gériatrie aiguë) — pas de PEC ambulatoire possible"
+    - |-
+      Réhydratation + nutrition:
+      • {r:perfusion IV prudente} (NaCl 0.9% 1-1.5 L/24h adapté au poids et fonction cardiaque)
+      • si refus oral > 72h + pronostic réversible: {r:nutrition entérale par SNG}
+      • soutien oral: compléments nutritionnels, repas fractionnés, plaisir alimentaire
+    - "Bilan étiologique organique COMPLET en parallèle (éliminer cancer, infection, dysthyroïdie, métabolique)"
+    - "Évaluation psychogériatrique précoce (< 48-72h): dépression mélancolique masquée? capacité de discernement?"
+    - |-
+      Traitement antidépresseur si dépression confirmée:
+      • {r:ISRS} (sertraline 25-50 mg/j, escitalopram 5-10 mg/j) ou {r:IRSN} (venlafaxine 37.5-75 mg/j)
+      • {r:mirtazapine 15-30 mg le soir} si troubles sommeil + appétit (effet orexigène)
+      • attendre 4-6 semaines pour effet [VÉRIFIER: posologies initiales adaptées au grand âge / fragilité]
+    - "Si {p:dépression mélancolique résistante}: {r:ECT} (efficacité rapide, supériorité chez personne âgée, bien toléré)"
+    - "ÉVITER: {r:neuroleptiques} (sauf agitation extrême — risque sédation, chutes, SMN) et {r:BZD} (chutes, confusion, paradoxal)"
+    - |-
+      Approche relationnelle (indispensable):
+      • présence régulière soignants (rythme, contact, parole)
+      • implication famille (visites, photos, objets familiers)
+      • mobilisation passive puis active (kiné + ergo)
+      • stimulation sensorielle (musique, lumière, contact)
+  orientation:
+    - "Court séjour gériatrique aigu: tableau typique sans défaillance d'organe — bilan + PEC pluridisciplinaire"
+    - "USI/USC gériatrique: déshydratation sévère, troubles ioniques majeurs, infection sévère"
+    - "Unité psychogériatrique: dépression mélancolique sévère ± risque suicidaire ± indication ECT"
+    - "{p:Soins palliatifs précoces} si cause organique avancée incurable ou refus persistant + directives anticipées claires"
+    - "Pas de retour à domicile en phase aiguë; envisager EMS/SLD après stabilisation selon évolution"
+
+criteres_hospitalisation:
+  - "TOUS les patients suspects de syndrome de glissement (urgence gériatrique — pas de PEC ambulatoire)"
+  - "Refus alimentaire/hydrique > 48-72h avec AEG rapide"
+  - "Déshydratation clinique ou biologique (natrémie > 150 ou < 130, créat ↑, oligurie)"
+  - "Idées suicidaires verbalisées ou actes auto-agressifs"
+  - "Cause organique sévère suspectée ou confirmée (sepsis, néoplasie, défaillance d'organe)"
+
+# source: lines 88-95 (DD) — top 5 selon pivots cliniques
+dd_top5:
+  - dx: "{p:Syndrome de glissement}"
+    indices: "Sujet > 75 ans + événement déclencheur identifié + triade (refus alimentaire + repli + AEG rapide) + évolution rapide en semaines; mortalité {r:70-90 %} sans PEC"
+    freq: "urgence gériatrique — sous-diagnostiquée"
+  - dx: "{p:Dépression mélancolique sévère}"
+    indices: "Tristesse exprimée (pas toujours), ralentissement psychomoteur, anhédonie, idéations suicidaires, autodépréciation; {t:GDS-15} ≥ 10, échelle Cornell si démence; SOUVENT COEXISTANTE — à traiter activement (ISRS/IRSN/ECT)"
+    freq: "très fréquent chez âgé (prévalence 10-15 %)"
+  - dx: "{p:Démence en phase terminale}"
+    indices: "Déclin cognitif progressif SANS déclencheur identifiable, MMSE très altéré (< 10), perte autonomie progressive sur mois/années, refus alimentaire tardif; pas de réversibilité"
+    freq: "fréquent (population > 85 ans)"
+  - dx: "{p:Delirium (confusion aiguë)}"
+    indices: "Début brutal/fluctuant, troubles attention, désorganisation pensée, niveau de conscience altéré, hallucinations possibles; CAUSE ORGANIQUE identifiable (infection, métabolique, iatrogène); {t:CAM} positif"
+    freq: "très fréquent (20-30 % hospit gériatrique)"
+  - dx: "{p:Refus de soins éclairé}"
+    indices: "Capacité de discernement PRÉSERVÉE (test à 4 critères: comprend, raisonne, exprime choix, stable); directives anticipées cohérentes; pas de désinvestissement global; respecter autonomie [VÉRIFIER: critères CHUV/HUG d'évaluation de la capacité de discernement gériatrique]"
+    freq: "à différencier formellement — enjeu éthique majeur"
+
+# source: lines 145-153 (pièges fréquents)
+pieges:
+  - "{r:Méconnaître le syndrome} en banalisant le refus alimentaire chez la personne âgée ('c'est l'âge') — diagnostic d'urgence à poser activement"
+  - "Confondre avec {p:démence terminale} sans rechercher une {p:dépression mélancolique masquée} traitable (ISRS/IRSN/ECT efficaces)"
+  - "Oublier la {p:cause organique} (cancer occulte, infection silencieuse, hyperthyroïdie apathique, hypothyroïdie sévère) — bilan systématique TOUJOURS"
+  - "{r:Surmédicamenter} avec neuroleptiques (aggravent sédation, chutes, SMN) ou BZD (chutes, confusion paradoxale) — à éviter"
+  - "Refuser la {r:nutrition entérale} par préjugé d'acharnement thérapeutique — peut être réversible si cause traitée et pronostic favorable"
+
+cartes_liees:
+  - SSP-PSY-02
+  - SSP-NEU-05
+  - SYS-GER
+  - TOOL-MMSE

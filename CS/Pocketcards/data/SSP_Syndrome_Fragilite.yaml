@@ -1,0 +1,187 @@
+id: SSP-GER-01
+type: ssp
+title: Syndrome de fragilité
+discipline: Geriatrie
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Syndrome_Fragilite.md
+
+# source: md line 58-77
+anamnese:
+  socrates:
+    - |-
+      Site / motif:
+      • chute, fatigue, perte de poids
+      • aidant épuisé
+      • perte d'autonomie progressive
+    - |-
+      Onset:
+      • début {r:mois vs années}?
+      • événement déclencheur (deuil, hospit, infection)?
+    - "Character: sphère prédominante — {s:physique} / {s:cognitive} / {s:sociale}?"
+    - |-
+      Retentissement:
+      • {t:ADL Katz 0-6} et {t:IADL Lawton 0-8}
+      • chutes (nombre/an)
+      • hospitalisations récentes
+    - "Associated: polypathologies, polypharmacie ({r:> 5 médicaments}), {s:dénutrition}?"
+    - |-
+      Time course:
+      • évolution sur 1 an
+      • rapidité du déclin (lent → fragilité, brutal → red flag)
+    - "Exacerbating: {s:infection récente}, deuil, hospit, changement médication?"
+    - "Severity: autonomie résiduelle, besoin d'aides à domicile?"
+  specifique:
+    - |-
+      {t:Critères de Fried} (≥ 3/5 = fragile, 1-2 = pré-fragile):
+      • {s:perte poids involontaire} > 4,5 kg ou > 5% en 1 an
+      • {s:épuisement subjectif}
+      • {s:faible activité physique} (< 383 kcal/sem H; < 270 F)
+      • {s:lenteur de marche} > 7 sec / 4,6 m
+      • {s:faiblesse} (handgrip diminué)
+    - |-
+      Médicaments — TOUJOURS détailler:
+      • critères {t:STOPP/START}
+      • {r:anticholinergiques}, {r:BZD au long cours}
+      • AC/AAP (risque chute + HSD)
+    - "Alimentation: appétit, perte de poids, troubles {s:dentition / déglutition}?"
+    - "Continence urinaire et fécale?"
+    - "Vision et audition (compensent l'autonomie)?"
+    - "Sommeil, humeur, {s:deuils récents} (→ dépression / glissement)?"
+    - |-
+      Environnement / social:
+      • logement, escaliers, sol glissant
+      • présence aidant, ressources
+      • isolement social
+  atcd:
+    - "Comorbidités: HTA, diabète, cardiopathie, BPCO, cancer, arthrose"
+    - "ATCD chutes (récidive +++) et fractures (fémur, vertèbres, poignet)"
+    - "ATCD cognitifs: troubles mémoire connus, démence, AVC"
+    - "ATCD psychiatriques: dépression, anxiété, tentatives"
+    - |-
+      Statut social:
+      • personne de confiance désignée?
+      • directives anticipées?
+      • niveau socio-éducatif, ressources
+    - "Vaccinations à jour ({r:grippe, pneumocoque, COVID, zona, dTPa})? [VÉRIFIER: schéma local CHUV/HUG]"
+
+# source: md line 103-110
+red_flags:
+  - description: "Chute avec traumatisme crânien + altération de conscience, surtout sous {r:AC / AAP}"
+    dx_suspecte: "{p:Hématome sous-dural} (aigu ou chronique)"
+    action: "{t:CT cérébral} sans contraste immédiat; correction crase si AVK ({r:CCP + vit K}) [VÉRIFIER: posologie CCP selon INR]"
+  - description: "{s:Syndrome de glissement aigu} (anorexie + repli + perte poids rapide post-événement)"
+    dx_suspecte: "{p:Syndrome de glissement} — urgence gériatrique vitale"
+    action: "Hospitalisation gériatrique; {r:réhydratation IV} + renutrition progressive + équipe psychogériatrique"
+  - description: "{s:Confusion aiguë (delirium)} sur terrain fragile"
+    dx_suspecte: "{p:Delirium} sur cause organique (IU, pneumonie, fécalome, médicament, déshydratation, AVC)"
+    action: "Bilan étiologique systématique (NFS, CRP, iono, créat, glycémie, ECBU, Rx thorax); traiter cause; {r:éviter benzodiazépines}"
+  - description: "{s:Perte d'autonomie brutale} (jours-semaines) chez patient connu autonome"
+    dx_suspecte: "{p:AVC}, {p:néoplasie occulte}, dépression sévère, infection sous-jacente"
+    action: "Hospitalisation gériatrique + imagerie cérébrale + bilan néo ciblé + GDS-15"
+  - description: "{s:Dénutrition sévère} ({r:perte > 10% en 6 mois} ou {r:albumine < 30 g/L})"
+    dx_suspecte: "{p:Dénutrition protéino-énergétique sévère} ± cause sous-jacente (néo, dépression, dysphagie)"
+    action: "Renutrition encadrée (risque syndrome de renutrition); bilan étio (TOGD, endoscopie, scan); avis diététique"
+  - description: "{s:Maltraitance suspectée}: ecchymoses d'âges différents, négligence, peur de l'aidant"
+    dx_suspecte: "{p:Maltraitance de la personne âgée} (physique, négligence, financière)"
+    action: "Examen complet documenté; signalement {r:Justice de paix / curatelle} + équipe sociale [VÉRIFIER: procédure cantonale VD/GE]"
+
+# source: md line 78-86
+examen:
+  general:
+    - "Signes vitaux: TA couché/debout (hypotension orthostatique), FC, T°, FR, SaO2, glycémie capillaire"
+    - "Poids, taille, {t:IMC} (< 21 = dénutrition chez > 70 ans), perte de poids %"
+    - "{t:Tour de mollet} < 31 cm = sarcopénie"
+    - "Inspection cutanée: escarres (sacrum, talons), hématomes (chutes/maltraitance), état d'hydratation"
+    - "Examen bouche: dents, prothèses, mycose, déshydratation"
+  cible:
+    - |-
+      {t:Mobilité} — tests fonctionnels:
+      • {t:Timed Up and Go (TUG)} > 14 sec = risque de chute
+      • appui unipodal < 5 sec
+      • vitesse de marche < 0,8 m/s
+    - |-
+      {t:Force musculaire}:
+      • {t:Handgrip} dynamomètre (H < 27 kg, F < 16 kg = sarcopénie {t:EWGSOP2})
+      • {t:lever de chaise 5x} > 15 sec
+    - |-
+      {t:Cognition}:
+      • orientation temporo-spatiale
+      • {t:MMSE} ou {t:MoCA}
+      • {t:test de l'horloge}
+    - "{t:Humeur} — {t:GDS-15} (≥ 5 = dépression suspectée)"
+    - "Continence (interrogatoire + examen périnéal si pertinent), recherche {s:fécalome} (TR)"
+    - |-
+      Examen ciblé selon contexte:
+      • neuro (Romberg, ROT, sensibilité profonde)
+      • cardio (souffles, OMI)
+      • palpation thyroïde
+      • acuité visuelle + audition (test du chuchotement)
+
+# source: md line 87-94, classification: phénotype Fried vs CFS vs sarcopénie vs DTA vs glissement
+dd_top5:
+  - dx: "{p:Fragilité physique (phénotype Fried)}"
+    indices: "≥ 3/5 critères Fried; perte poids + sarcopénie + lenteur; cognition globalement préservée; potentiellement réversible"
+    freq: "fréquent ({r:10-15%} des > 65 ans; 25-50% des > 85 ans)"
+  - dx: "{p:Pré-fragilité}"
+    indices: "1-2 critères de Fried; état intermédiaire à haut risque d'évolution; cible privilégiée de prévention; réversible"
+    freq: "très fréquent ({r:40-50%} des > 65 ans)"
+  - dx: "{p:Sarcopénie isolée (EWGSOP2)}"
+    indices: "↓ force ({t:handgrip}) + ↓ masse musculaire (mollet, DXA) + ↓ performance ({t:vitesse marche}) sans tous les critères Fried; peut précéder la fragilité"
+    freq: "fréquent (5-13% > 65 ans; jusqu'à 50% > 80 ans) [VÉRIFIER: prévalence EWGSOP2 récente]"
+  - dx: "{p:Démence débutante (Alzheimer / mixte)}"
+    indices: "{t:MMSE < 24} ou {t:MoCA < 26}; troubles mémoire épisodique + atteinte d'au moins 1 autre domaine; retentissement IADL; peut coexister avec fragilité"
+    freq: "fréquent (10% > 65 ans, 30% > 85 ans)"
+  - dx: "{p:Syndrome de glissement}"
+    indices: "Rupture brutale (refus alimentation + repli + désintérêt + AEG) après événement déclenchant; pronostic sombre sans PEC urgente; à distinguer de la dépression"
+    freq: "rare mais {r:urgence gériatrique} (mortalité 60-80% sans PEC)"
+
+# source: md line 95-101
+examens_complementaires:
+  - "{t:Évaluation gériatrique globale (CGA)}: ADL/IADL, GDS-15, MMSE/MoCA, MNA, TUG, handgrip, CFS — 1ère intention"
+  - "Biologie: {t:NFS, CRP, créat + DFG, iono, glycémie + HbA1c, albumine + préalbumine, TSH, vit D, B12 + folates, ferritine}"
+  - "{t:ECG} systématique; {t:ETT} si chutes avec syncope ou souffle cardiaque"
+  - "{t:Ostéodensitométrie (DXA)} si chute / fracture / facteurs de risque (FRAX)"
+  - "Imagerie ciblée: {t:Rx thorax} si dénutrition/chronique; {t:IRM cérébrale} si troubles cognitifs ou perte autonomie brutale"
+  - "Bilan pluridisciplinaire: physio, ergo, diététique, assistante sociale [VÉRIFIER: disponibilité hôpital de jour gériatrique local]"
+
+# source: md line 112-131
+pec_initiale:
+  immediate:
+    - "Si red flag → traiter en priorité (CT si TC + AC; bilan étio delirium; hospit si glissement)"
+    - "{r:Activité physique adaptée} = 1ère ligne thérapeutique: renforcement + équilibre + endurance, {r:2-3x/sem × 30-45 min}"
+    - "Nutrition: {r:1-1,2 g protéines/kg/j}, {r:vitamine D 800-1000 UI/j}, repas fractionnés; supplémentation orale si {t:MNA < 17}"
+    - "Révision médicamenteuse: {t:STOPP/START}, déprescription, éviter {r:anticholinergiques} et {r:BZD au long cours}"
+    - "Prévention chutes: aides techniques (canne, déambulateur), aménagement domicile, lunettes/audition, vitamine D"
+    - "Vaccinations: {r:grippe, pneumocoque, COVID-19, zona, rappel dTPa} [VÉRIFIER: schéma OFSP 2025-26]"
+    - "Anticiper: {r:directives anticipées} + désignation personne de confiance + projet de soins"
+  orientation:
+    - "Domicile avec aides multidisciplinaires (MT + IDE + physio + ergo + AS) si fragilité légère-modérée et entourage présent"
+    - "{r:Hôpital de jour gériatrique} pour CGA approfondie et plan personnalisé"
+    - "Court séjour / réhabilitation gériatrique si décompensation aiguë (chute, infection) ou syndrome de glissement"
+    - "EHPAD / institutionnalisation si maintien à domicile impossible (sécurité, épuisement aidant)"
+    - "Soins palliatifs gériatriques si {t:CFS ≥ 7} avec déclin terminal documenté"
+
+# source: md line 103-110, 142-150
+criteres_hospitalisation:
+  - "Tout red flag avéré (HSD, syndrome de glissement aigu, delirium, perte autonomie brutale, dénutrition sévère, maltraitance)"
+  - "Chute avec traumatisme ou fracture; chutes répétées inexpliquées"
+  - "Décompensation aiguë (infection, déshydratation, déséquilibre métabolique) sur terrain fragile"
+  - "Épuisement aidant majeur avec impossibilité de retour à domicile sécurisé"
+  - "{t:CFS ≥ 7} avec dégradation rapide nécessitant adaptation du projet de soins"
+
+# source: md line 133-140
+pieges:
+  - "Ne pas dépister la fragilité chez les > 75 ans ({t:CFS} et {t:Fried} devraient être systématiques en consult/urgences)"
+  - "Confondre fragilité et démence — la fragilité peut être {s:physique pure} sans atteinte cognitive (et inversement)"
+  - "Surmédiquer (polypathologie → polypharmacie → cascade iatrogène); ne pas oublier {t:STOPP/START} à chaque consult"
+  - "Sous-estimer la dénutrition (cause majeure de sarcopénie {r:réversible}) — peser systématiquement, calculer MNA"
+  - "Oublier la composante psycho-sociale (dépression, isolement, épuisement aidant) — {t:GDS-15} systématique"
+
+cartes_liees:
+  - SYS-GER
+  - TOOL-FRIED
+  - TOOL-CFS
+  - SSP-NEU-08

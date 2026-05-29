@@ -1,0 +1,170 @@
+id: SSP-END-08
+type: ssp
+title: Troubles thyroïdiens
+discipline: Endocrino
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Thyroidiens.md
+
+# source: line 41-67, 69-76
+anamnese:
+  socrates:
+    - |-
+      Symptômes hyper vs hypo:
+      • intolérance chaleur vs frilosité
+      • perte vs prise de poids
+      • diarrhée vs constipation
+      • nervosité/insomnie vs ralentissement/somnolence
+    - "Onset: début progressif (mois) ou brutal (thyroïdite De Quervain post-virale)?"
+    - "Time: durée des symptômes, évolution, fluctuations (Hashitoxicose biphasique)?"
+    - |-
+      Severity:
+      • impact fonctionnel (travail, sommeil)
+      • amaigrissement chiffré (kg/mois)
+      • dyspnée/palpitations/FA?
+    - "Cou: tuméfaction, gêne déglutition, dysphonie, douleur cervicale antérieure?"
+  specifique:
+    - |-
+      {s:Signes hyperthyroïdie}:
+      • palpitations, tachycardie, FA
+      • tremblements fins, sueurs
+      • polyphagie + amaigrissement
+      • {s:exophtalmie}, signes oculaires ({p:Basedow})
+    - |-
+      {s:Signes hypothyroïdie}:
+      • fatigue, brain fog, dépression
+      • {s:infiltration myxœdémateuse} (visage, paupières)
+      • peau sèche, queue sourcils
+      • ménorragies, hyperprolactinémie
+    - "Nodule: découverte fortuite, croissance rapide, {s:dysphonie} (paralysie récurrentielle), ADP cervicale?"
+    - "{s:Douleur cervicale antérieure} + fièvre + syndrome viral récent → {p:Thyroïdite de De Quervain}?"
+    - "{e:Grossesse}: trimestre, modification cible TSH, hyperémèse gravidique (HCG mime TSH)?"
+  atcd:
+    - "ATCD personnels: auto-immunité (DT1, vitiligo, Addison — syndrome de {p:Schmidt}), irradiation cervicale, chirurgie/iode-131"
+    - "ATCD familiaux: dysthyroïdies, cancer thyroïde, {p:MEN2} (médullaire + phéochromocytome + hyperPTH)"
+    - |-
+      Médicaments:
+      • {r:amiodarone}, lithium, interféron
+      • immunothérapie (anti-PD1/PD-L1, anti-CTLA4)
+      • lévothyroxine en cours
+      • iode (produits contraste, Bétadine)
+    - "Apports iodés: alimentation (sel iodé, fruits de mer), suppléments, voyages en zone carencée"
+    - "Habitudes: tabac (aggrave {p:orbitopathie de Basedow}), stress (déclencheur)"
+
+red_flags:
+  - description: "{s:T° > 40°C + tachy > 140 + agitation/coma + déshydratation} en contexte hyperthyroïdien"
+    dx_suspecte: "{p:Crise thyréotoxique (storm)}"
+    action: "USI + {r:PTU 600-1000 mg charge PO/SNG} + {r:propranolol 60-80 mg/4h PO ou 0,5-1 mg IV} + {r:hydrocortisone 100 mg IV/8h} + {r:Lugol 8 gouttes/6h ≥ 1h après PTU} + refroidissement [VÉRIFIER: doses exactes selon protocole CHUV/HUG]"
+  - description: "{s:Hypothermie + bradycardie + troubles conscience + hypoventilation + hyponatrémie} chez hypothyroïdien connu/négligé"
+    dx_suspecte: "{p:Coma myxœdémateux}"
+    action: "USI + {r:lévothyroxine 200-400 µg IV charge puis 50-100 µg/j} + {r:hydrocortisone 100 mg IV/8h} (avant T4 — risque crise addisonienne) + réchauffement passif + ventilation"
+  - description: "Nodule + {s:dysphonie} (paralysie récurrentielle) + ADP cervicale fixée ± croissance rapide"
+    dx_suspecte: "{p:Cancer thyroïdien anaplasique ou avancé}"
+    action: "{t:Échographie cervicale} + {t:cytoponction écho-guidée} en urgence + RCP oncologique + chirurgie ORL/endocrine"
+  - description: "{s:FA rapide nouvelle} chez {e:sujet âgé} ± amaigrissement isolé sans signes adrénergiques typiques"
+    dx_suspecte: "{p:Hyperthyroïdie apathique avec FA}"
+    action: "{t:TSH/T4L/T3L} + ECG + {r:bêtabloquant} + anticoagulation selon {t:CHA2DS2-VASc} + {r:ATS (carbimazole 20-30 mg/j)} [VÉRIFIER: seuil anticoag spécifique hyperthyroïdie]"
+  - description: "Hyperthyroïdie + {e:grossesse} (tachycardie + amaigrissement T1)"
+    dx_suspecte: "{p:Basedow gravidique} (risque foetal: Basedow néonatal, hypothyroïdie sous ATS)"
+    action: "{r:PTU au T1} (limite tératogénicité méthimazole) puis {r:méthimazole T2-T3} à dose minimale + suivi conjoint endocrino-obstétrique mensuel + anti-TRAK T3"
+  - description: "{s:Hyperthyroïdie destructrice sous amiodarone} (T4L très élevée, hypervascularisation absente)"
+    dx_suspecte: "{p:AIT type 2 (thyroïdite destructrice à l'amiodarone)}"
+    action: "{r:Prednisone 40-60 mg/j PO} + arrêt amiodarone si possible (avis cardio) + suivi mensuel [VÉRIFIER: distinguer AIT type 1 vs 2 par doppler couleur écho]"
+
+# source: line 78-86
+examen:
+  general:
+    - "Signes vitaux: TA, FC (tachy/brady), T° (storm vs myxœdème), FR, SaO2, poids"
+    - "Aspect général: agitation/ralentissement, faciès (bouffi myxœdémateux vs amaigri)"
+    - "{t:Glycémie capillaire} (hypoglycémie en coma myxœdémateux)"
+    - "Cutané: moiteur/sécheresse, infiltration prétibiale, vitiligo associé"
+  cible:
+    - |-
+      {t:Palpation thyroïdienne} (de dos, déglutition):
+      • volume (goitre diffus vs nodulaire)
+      • symétrie, consistance
+      • nodule (taille, dur, fixé, mobilité)
+      • souffle ({p:Basedow})
+      • adénopathies cervicales (sus-clav, jugulo-carotidiennes)
+    - |-
+      Yeux ({p:orbitopathie Basedow}):
+      • {s:exophtalmie} (Hertel)
+      • signe de Dalrymple (rétraction palpébrale)
+      • signe de Graefe (asynergie occulopalpébrale)
+      • motilité, diplopie, chémosis, ulcère cornéen
+    - |-
+      Cardio:
+      • rythme (FA), TA, IC haut débit (hyper) ou bas débit (hypo)
+      • épanchement péricardique (hypo)
+    - |-
+      Neuro:
+      • {t:tremblement} mains tendues + feuille de papier
+      • ROT (vifs hyper, lents hypo)
+      • force, syndrome canal carpien (hypo)
+    - "Spécifique Basedow: myxœdème prétibial, acropachie (hippocratisme + œdème mains)"
+
+# source: line 89-93
+dd_top5:
+  - dx: "{p:Hyperthyroïdie de Basedow}"
+    indices: "Femme 20-40 ans, goitre diffus + souffle, {s:exophtalmie}, anti-TRAK +, scinti diffuse hyperfixante, T4L↑/T3L↑, TSH↓"
+    freq: "Cause #1 hyperthyroïdie (70-80%)"
+  - dx: "{p:Hypothyroïdie auto-immune (Hashimoto)}"
+    indices: "Femme 30-60 ans, goitre ferme ou atrophie, fatigue/frilosité/prise poids, {t:anti-TPO +}, TSH↑/T4L↓, écho hypoéchogène"
+    freq: "Cause #1 hypothyroïdie (prévalence 4-5%)"
+  - dx: "{p:Nodule thyroïdien (bénin ou malin)}"
+    indices: "Découverte fortuite ou auto-palpation, écho + {t:EU-TIRADS 1-5}, {t:cytoponction Bethesda I-VI} selon taille/TIRADS; 5% malins"
+    freq: "Très fréquent (20-50% écho)"
+  - dx: "{p:Thyroïdite subaiguë de De Quervain}"
+    indices: "Post-virale, {s:douleur cervicale antérieure} + fièvre, VS↑↑, phase hyper→hypo→récupération, scinti BLANCHE (pas de fixation)"
+    freq: "Rare (1-3% des dysthyroïdies)"
+  - dx: "{p:Cancer thyroïdien}"
+    indices: "Nodule dur, fixé, dysphonie, ADP cervicale; papillaire 80% (bon pronostic), folliculaire 10%, médullaire 5% ({p:MEN2}, calcitonine↑), anaplasique 1-2% (mortel)"
+    freq: "Incidence ↑ (1-2% cancers)"
+
+# source: line 125-156
+pec_initiale:
+  immediate:
+    - "Urgences vitales d'abord: storm thyroïdien et coma myxœdémateux → USI immédiat (voir red flags)"
+    - "Hyperthyroïdie symptomatique: {r:propranolol 20-40 mg x3/j PO} (tachycardie, tremblements) en attendant ATS"
+    - "{p:Basedow}: {r:carbimazole 20-40 mg/j PO} (ou méthimazole, ou PTU si T1 grossesse), titration sur TSH/T4L à 4-6 sem, puis maintien 12-18 mois [VÉRIFIER: dose initiale selon T4L sévérité]"
+    - "{p:Hashimoto}: {r:lévothyroxine 1,6 µg/kg/j PO} à jeun 30 min avant repas (adulte sain); démarrer {r:25-50 µg/j} si {e:sujet âgé/coronarien}; contrôle TSH à 6-8 sem"
+    - "{e:Grossesse hypothyroïdienne}: ↑ dose lévothyroxine 25-30% dès confirmation, cible TSH T1 < 2,5 mUI/L; suivi mensuel"
+    - "Nodule: {t:échographie + EU-TIRADS} → cytoponction selon critères taille/TIRADS, RCP si Bethesda IV-VI"
+    - "{p:De Quervain}: {r:AINS} ou {r:prednisone 30-40 mg/j} si sévère + bêtabloquant transitoire (auto-résolutif)"
+  orientation:
+    - "Domicile + suivi MT/endocrinologue ambulatoire: hyper/hypothyroïdie stable, nodule bénin"
+    - "Endocrinologie urgente: hyperthyroïdie nouvellement diagnostiquée, grossesse, suspicion nodule malin"
+    - "Urgences/USI: crise thyréotoxique, coma myxœdémateux, FA rapide instable, AIT type 2 sévère"
+    - "Chirurgie ORL/endocrine: cancer prouvé, goitre compressif, échec ATS, contre-indication iode-131"
+
+# source: line 97-114
+examens_complementaires:
+  - "{t:TSH ultrasensible}: dépistage 1ère intention; cible adulte 0,4-4,5 mUI/L; cible grossesse T1 < 2,5, T2-T3 < 3,0"
+  - "{t:T4 libre + T3 libre}: si TSH anormale (confirme et type: T4L↑ hyper, T4L↓ hypo, T3 toxicose si T3↑ isolé)"
+  - "{t:Anti-TPO + anti-TG} (Hashimoto), {t:anti-TRAK} ({p:Basedow}, suivi grossesse)"
+  - "{t:Échographie thyroïdienne + EU-TIRADS 1-5}: tout nodule palpé ou découvert, critères de suspicion (hypoéchogène, microcalcifications, taller-than-wide, vascularisation centrale)"
+  - "{t:Scintigraphie Tc-99m}: hyperthyroïdie pour étiologie (diffuse=Basedow, focale=adénome toxique, multinodulaire=GMNT, blanche=De Quervain); {t:cytoponction écho-guidée + Bethesda I-VI}"
+  - "ECG (FA si hyperthyroïdie), bilan lipidique (hypo), {t:calcitonine} si suspicion médullaire, NFS si fièvre/angine sous ATS (agranulocytose)"
+
+# source: line 116-123, pertinence clinique
+criteres_hospitalisation:
+  - "{p:Crise thyréotoxique} ou {p:coma myxœdémateux} → USI"
+  - "FA rapide instable, IC décompensée ou angor en hyperthyroïdie"
+  - "{p:AIT type 2} sévère ou storm sous amiodarone"
+  - "Agranulocytose sous ATS (fièvre/angine + NFS) → arrêt + ATB + isolement"
+  - "Chirurgie thyroïdienne programmée (cancer, goitre compressif, échec ATS)"
+
+# source: line 158-166
+pieges:
+  - "Doser uniquement TSH dans suspicion {p:insuffisance hypophysaire centrale} (TSH normale ou basse + T4L bas) — penser à T4L d'emblée si contexte"
+  - "Méconnaître {p:hyperthyroïdie apathique du sujet âgé}: FA + amaigrissement isolé sans signes adrénergiques classiques"
+  - "Sous-traiter hypothyroïdie pendant {e:grossesse}: cible TSH stricte par trimestre, ↑ dose 25-30% dès confirmation"
+  - "Confondre {p:NTI (non-thyroidal illness)} avec vraie hypothyroïdie (T3 bas, T4 N/bas en contexte aigu — ne PAS traiter)"
+  - "Démarrer lévothyroxine SANS exclure {p:insuffisance surrénale associée} (Schmidt) — risque crise addisonienne, TOUJOURS substituer hydrocortisone EN PREMIER"
+
+cartes_liees:
+  - SYS-END
+  - SSP-CAR-Fibrillation_Auriculaire
+  - TOOL-EU-TIRADS
