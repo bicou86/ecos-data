@@ -1,0 +1,189 @@
+id: SSP-GAS-12
+type: ssp
+title: Incontinence fécale
+discipline: Gastro
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Incontinence_Fécale.md
+
+# source: lines 9-160
+anamnese:
+  socrates:
+    - |-
+      Site/Type:
+      • gaz seuls (mineure) / selles liquides / selles solides (majeure)?
+      • souillures, suintements ({s:soiling})?
+    - |-
+      Onset: début brutal vs progressif?
+      • délai depuis apparition?
+      • facteur déclenchant initial (accouchement, chirurgie, trauma)?
+    - |-
+      Character — mécanisme:
+      • {s:passive} (sans perception, découverte dans sous-vêtements, nocturne) → déficit sphincter interne
+      • {s:urgence/impériosité} (besoin impérieux, délai court avant accident) → déficit sphincter externe ou troubles rectaux
+      • mixte (association des deux)?
+    - |-
+      Radiation / circonstances:
+      • effort, toux, éternuement?
+      • post-prandial immédiat?
+      • stress émotionnel? certains aliments?
+    - |-
+      Time / fréquence:
+      • épisodes/semaine, évolution?
+      • port de protections? combien/jour?
+      • retentissement: sorties limitées, repérage toilettes, isolement?
+    - "Exacerbating: laxatifs, médicaments diarrhéigènes?"
+    - |-
+      Severity — {t:score de Wexner 0-20}:
+      • 0 = continence parfaite, 20 = incontinence totale
+      • arrêts de travail? invalidité?
+  specifique:
+    - |-
+      Transit associé:
+      • {s:constipation} + dyschésie + sensation évacuation incomplète → suspicion {p:fécalome}
+      • {s:diarrhée chronique}: nb selles/j, sang/glaires (MICI?)
+      • discrimination gaz/selles préservée?
+    - |-
+      Symptômes périnéaux:
+      • prolapsus rectal (boule périnéale à la poussée, réintégration manuelle)?
+      • {s:incontinence urinaire} associée ({r:30-50%} des cas)?
+      • dyspareunie, dysfonction érectile?
+    - |-
+      Symptômes neurologiques périnéaux:
+      • {s:anesthésie en selle} (S3-S5)?
+      • déficit moteur membres inférieurs?
+      • troubles urinaires associés? → {p:syndrome queue de cheval}
+    - "Rectorragies, syndrome rectal (ténesmes, faux besoins), AEG? → {p:cancer rectal}"
+  atcd:
+    - |-
+      Obstétricaux (femme):
+      • nb accouchements, voie?
+      • macrosomie (>4 kg), extraction instrumentale?
+      • {s:déchirure périnéale degré 3-4}? épisiotomie? complications?
+      [VÉRIFIER: classification déchirures — grade 3c correspond à atteinte sphincter interne complet]
+    - |-
+      Chirurgicaux:
+      • chirurgie anorectale (hémorroïdectomie, fistulotomie, sphinctérotomie laterale interne)?
+      • chirurgie pelvienne (hystérectomie, prostatectomie)?
+      • {s:radiothérapie pelvienne} (cancer prostate, col, rectum)?
+    - |-
+      Neurologiques:
+      • diabète (ancienneté, contrôle HbA1c)?
+      • SEP, Parkinson, AVC, démence?
+      • lésion médullaire, compression (hernie, tumeur)?
+    - |-
+      MICI / digestif:
+      • Crohn, RCH, fistules anales?
+      • coloscopie récente?
+      • médicaments: opioïdes (constipation → fécalome), laxatifs, anticholinergiques?
+
+# source: lines 165-265
+red_flags:
+  - description: "{s:Anesthésie en selle} + {s:incontinence fécale et urinaire} + {s:déficit moteur MI} + début brutal"
+    dx_suspecte: "{p:Syndrome de la queue de cheval}"
+    action: "{t:IRM lombaire} URGENTE ({r:<6h}); chirurgie décompressive {r:<48h}"
+  - description: "{s:Incontinence brutale} + déficit neurologique focal nouveau (parésie, aphasie, troubles déglutition)"
+    dx_suspecte: "{p:AVC ou lésion médullaire aiguë}"
+    action: "AVC pathway; {t:CT/IRM cérébral} STAT + neurologie urgente"
+  - description: "{e:>50 ans}: incontinence + {s:rectorragies} + AEG + masse au {t:TR}"
+    dx_suspecte: "{p:Cancer rectal}"
+    action: "{t:Coloscopie} urgente + bilan oncologique; pas de délai"
+  - description: "{s:Diarrhée glaireuse-sanglante} + fièvre + AEG + signes extra-intestinaux"
+    dx_suspecte: "{p:MICI sévère (poussée Mayo >6)}"
+    action: "Bilan bio (NFS, CRP, albumine) + {t:coloscopie} + gastroentérologie; {r:corticoïdes IV} si poussée sévère"
+  - description: "{s:Douleur abdominale} + {s:vomissements} + arrêt des matières + incontinence 'par débordement' (âgé/immobilisé)"
+    dx_suspecte: "{p:Fécalome avec syndrome sub-occlusif}"
+    action: "{t:TR} diagnostique immédiat; {r:désimpaction manuelle} + lavements + traiter cause (opioïdes, mobilisation)"
+
+# source: lines 165-265
+examen:
+  general:
+    - "Signes vitaux, état nutritionnel (MICI?), mobilité (accessibilité toilettes?)"
+    - "{t:Score de Glasgow} / état cognitif: démence, confusion? [VÉRIFIER: outils cognitifs recommandés en pratique gastro — MMSE vs MoCA]"
+    - "Examen neurologique: déficit sensitivo-moteur MI, ROT, Babinski, marche (steppage?)"
+    - "Inspection cutanée: signes extra-intestinaux MICI (érythème noueux, aphtose)"
+  cible:
+    - |-
+      Inspection périnéale (position gynécologique ou genupectorale):
+      • cicatrices obstétricales/chirurgicales?
+      • béance anale au repos (déficit tonus)?
+      • souillures fécales, dermatite péri-anale?
+      • prolapsus hémorroïdaire ou rectal?
+      • orifice fistuleux?
+    - |-
+      {t:Toucher rectal} (FONDAMENTAL — 80% du diagnostic):
+      • tonus au repos (sphincter interne, {r:normale 40-80 mmHg})
+      • contraction volontaire: "serrez comme pour retenir" (sphincter externe, {r:normale >100 mmHg}) — durée >30s
+      • réflexe recto-anal inhibiteur présent?
+      • fécalome, tumeur rectale, rectocèle?
+      [VÉRIFIER: valeurs de référence normales pression manométrie — à confirmer sur recommandations SNFCP 2020]
+    - |-
+      Manœuvres périnéales:
+      • effort de poussée: descente périnéale excessive? prolapsus extériorisé?
+      • réflexe anal (piqûre péri-anale → contraction) = intégrité S3-S4
+      • sensibilité périnéale (anesthésie en selle?)
+
+# source: lines 272-284
+dd_top5:
+  - dx: "{p:Lésion sphincter anal post-obstétricale ou post-chirurgicale}"
+    indices: "Femme d'âge moyen; ATCD déchirure 3-4, instrumentation, sphinctérotomie; incontinence passive; défect à l'{t:écho endoanale}"
+    freq: "cause la plus fréquente chez la femme"
+  - dx: "{p:Fécalome avec pseudo-incontinence par regorgement}"
+    indices: "Sujet âgé, immobilisé, opioïdes, démence; constipation sévère; TR = masse fécale; incontinence 'paradoxale' de selles liquides"
+    freq: "fréquent chez le sujet âgé hospitalisé"
+  - dx: "{p:Diarrhée chronique (MICI, SII, post-cholécystectomie, post-radique)}"
+    indices: "Incontinence par urgences; selles liquides nombreuses/j; contexte (ATCD chirurgical, MICI, irradiation pelvienne)"
+    freq: "fréquent"
+  - dx: "{p:Neuropathie pudendale}"
+    indices: "Diabète ancien, ATCD obstétricaux; déficit sensitif périnéal; latence motrice distale prolongée à l'{t:EMG périnéal}"
+    freq: "fréquent (diabète: prévalence IF ~20%)"
+  - dx: "{p:Atteinte neurologique centrale (SEP, AVC, démence, lésion médullaire)}"
+    indices: "Incontinence passive + déficits neurologiques associés; AVC frontal (centre cortical miction/défécation); SEP avec signes médullaires; démence (perte contrôle voluntaire)"
+    freq: "variable selon pathologie sous-jacente"
+
+# source: lines 284-406
+pec_initiale:
+  immediate:
+    - "Traiter la cause: vidange {p:fécalome} ({r:désimpaction manuelle} + {r:macrogol PO} ou lavements), adapter médicaments (arrêt opioïdes si possible)"
+    - |-
+      Régulation du transit:
+      • si diarrhée: {r:lopéramide 2-16 mg/j} PO (titre par paliers)
+      • si constipation: {r:macrogol PO} + hydratation + fibres progressives
+      [VÉRIFIER: dose lopéramide initiale recommandée dans les guidelines SNFCP — 2 mg per os après chaque selle liquide vs dose fixe]
+    - "RHD: régime adapté (fibres solubles si diarrhée, hydratation si constipation), éviter café/alcool/épices si diarrhée, protections absorbantes, soins locaux (crèmes barrières)"
+    - "Rééducation périnéale + biofeedback (1ère ligne thérapeutique): {r:10-20 séances}, efficacité {r:50-75%} amélioration — prescrire systématiquement"
+    - "Évaluation psychosociale: retentissement sur qualité de vie, dépression, isolement — abord empathique indispensable (tabou)"
+  orientation:
+    - "Domicile + médecin traitant: IF légère, cause identifiée et traitable, pas de red flag → RHD + rééducation périnéale"
+    - "Gastroentérologie / proctologie: IF modérée-sévère (Wexner >10), bilan fonctionnel ({t:manométrie ano-rectale}, {t:écho endoanale}), envisager neuromodulation sacrée"
+    - "Neurochirurgie URGENTE: syndrome de la queue de cheval → {t:IRM lombaire} + décompression chirurgicale"
+    - "Chirurgie digestive: défect sphinctérien documenté ({t:écho endoanale}), échec conservateur → sphinctérorraphie ou sphincter artificiel"
+
+# source: lines 217-270
+examens_complementaires:
+  - "{t:TR} (toucher rectal) + inspection périnéale: systématiques, diagnostiques dans 80% des cas"
+  - "{t:Anuscopie / rectoscopie}: systématique — tumeur, inflammation, hémorroïdes, prolapsus interne"
+  - "{t:Manométrie ano-rectale}: gold standard fonctionnel — pression repos, contraction, réflexe recto-anal, compliance rectale"
+  - "{t:Échographie endoanale}: morphologie sphincters — défect (rupture), atrophie, épaisseur; classification défects 0-180°"
+  - "{t:EMG périnéal}: neuropathie pudendale, latence motrice distale — si suspicion atteinte nerveuse"
+  - "{t:Coloscopie}: si rectorragies, AEG, âge >50 ans, suspicion MICI ou tumeur"
+
+criteres_hospitalisation:
+  - "{p:Syndrome de la queue de cheval} confirmé ou suspecté → urgence chirurgicale"
+  - "{p:AVC aigu} ou lésion médullaire aiguë avec incontinence nouvelle"
+  - "{p:Fécalome compliqué} (occlusion, douleur sévère, vomissements)"
+  - "{p:MICI en poussée sévère} (Mayo >6, AEG, fièvre) nécessitant corticoïdes IV"
+
+pieges:
+  - "Confondre {p:fécalome} (pseudo-incontinence par regorgement) avec incontinence vraie — le TR est diagnostique et évite un bilan fonctionnel inutile"
+  - "Négliger l'examen neurologique complet (anesthésie en selle, ROT) — le {p:syndrome de la queue de cheval} peut se présenter comme une incontinence isolée"
+  - "Omettre le retentissement psychosocial (tabou majeur) — l'incontinence est sous-déclarée; poser la question directement et sans jugement"
+  - "Proposer la chirurgie d'emblée sans avoir complété le bilan fonctionnel ({t:écho endoanale}, {t:manométrie}) — un défect sphinctérien doit être documenté avant réparation"
+  - "Méconnaître l'incontinence urinaire associée ({r:30-50%}) — à dépister systématiquement pour une prise en charge périnéale globale"
+
+cartes_liees:
+  - SSP-GAS-Constipation
+  - SSP-GAS-Diarrhee
+  - SSP-URO-IncontinenceUrinaire

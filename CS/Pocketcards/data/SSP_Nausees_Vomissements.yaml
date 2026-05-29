@@ -1,0 +1,203 @@
+id: SSP-GAS-05
+type: ssp
+title: Nausées-Vomissements
+discipline: Gastro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Nausees_Vomissements.md
+
+# source: lines 11-216 (anamnèse)
+anamnese:
+  socrates:
+    - |-
+      Site / type:
+      • aspect des vomissements: alimentaires / bilieux (jaune-vert) / {s:fécaloïdes} ({p:occlusion}) / {s:hémorragiques} ({p:hématémèse})
+      • vomissements en jet sans nausée préalable → {p:HTIC}
+    - |-
+      Onset:
+      • début brutal ou progressif?
+      • aigu < 1 semaine ou chronique > 1 semaine?
+    - |-
+      Horaire ⚠️ ORIENTATION DIAGNOSTIQUE:
+      • matinaux → {e:grossesse} (1er trimestre), {p:HTIC}
+      • post-prandiaux immédiats → {p:sténose pylorique}
+      • post-prandiaux tardifs (2-4 h) → {p:gastroparésie}
+    - "Fréquence / volume / intensité: nombre par jour, volume, nausées permanentes ou par crises?"
+    - |-
+      Facteurs déclenchants:
+      • repas (type, volume), odeurs
+      • mouvements, transport
+      • médicaments récents
+      • stress, émotions
+    - |-
+      Relieving:
+      • amélioration après vomissement?
+      • position particulière?
+    - "Retentissement: alimentation possible? liquides tolérés? perte de poids quantifiée?"
+  specifique:
+    - |-
+      Signes digestifs associés:
+      • {s:arrêt matières et gaz} → {p:occlusion}
+      • diarrhée + contexte épidémique → {p:gastro-entérite}
+      • douleurs abdominales (localisation, colique vs continue, défense)
+      • {s:ballonnements / distension abdominale}
+    - |-
+      Signes neurologiques ⚠️ HTIC:
+      • {s:céphalée matinale progressive} + vomissements en jet sans nausée
+      • diplopie, flou visuel, troubles de conscience, déficit focal
+      • {s:céphalée pulsatile unilatérale} + photo/phonophobie → {p:migraine}
+    - |-
+      Signes généraux:
+      • fièvre (infection)
+      • {s:soif + polyurie + Kussmaul} → {p:acidocétose diabétique}
+      • {s:métrorragies + aménorrhée + β-HCG très élevée} → {p:grossesse molaire/HG}
+    - |-
+      Contexte orienteur:
+      • retard de règles → {e:grossesse} — TOUJOURS ÉLIMINER
+      • voyage récent (turista)
+      • contexte épidémique
+      • nourrisson 3-6 semaines avec vomissements en jet → {p:sténose pylorique}
+    - "Syndrome de Mallory-Weiss / Boerhaave? — efforts de vomissement répétés + douleur thoracique ± hématémèse"
+  atcd:
+    - |-
+      Médicaments ⚠️ FRÉQUENT — liste complète + modifications récentes:
+      • chimiothérapie, opioïdes, antibiotiques, AINS
+      • digitaliques ({s:intoxication}), métformine, L-Dopa, contraceptifs oraux
+    - |-
+      Antécédents:
+      • chirurgie abdominale (adhérences → {p:occlusion sur bride})
+      • diabète (gastroparésie, acidocétose), IRC (urémie)
+      • migraines, pathologie neurologique connue
+    - |-
+      Terrain:
+      • femme en âge de procréer → β-HCG systématique
+      • immunodépression, âges extrêmes
+    - "Habitudes: alcool (intoxication aiguë), cannabis ({p:syndrome d'hyperémèse cannabinoïde}), tabac, toxiques"
+
+# source: lines 83-105 (red flags dérivés des sections urgences du MD)
+red_flags:
+  - description: "{s:Vomissements fécaloïdes} + {s:arrêt matières/gaz} + {s:météorisme} + douleurs abdominales coliques"
+    dx_suspecte: "{p:Occlusion intestinale} mécanique ou fonctionnelle"
+    action: "{t:ASP} + {t:CT abdominal} urgents; mise à jeun, {r:SNG en aspiration}, {r:réhydratation IV}; chirurgie si strangulation"
+  - description: "{s:Vomissements en jet sans nausée}, matinaux + {s:céphalée progressive} ± {s:œdème papillaire} au FO"
+    dx_suspecte: "{p:HTIC} (tumeur, hydrocéphalie, méningite)"
+    action: "{t:CT cérébral} sans contraste urgent; si méningite suspectée: {r:ceftriaxone 2 g IV} avant CT"
+  - description: "{s:Nausées-vomissements} + {s:soif intense} + {s:polydipsie} + {s:respiration de Kussmaul} + glycémie > {r:2,5 g/L}"
+    dx_suspecte: "{p:Acidocétose diabétique}"
+    action: "{t:Glycémie capillaire + gaz du sang + ionogramme} STAT; {r:insulinothérapie IV + réhydratation NaCl 0,9 %}; {r:KCl IV} si hypokaliémie"
+  - description: "{s:Vomissements en jet post-prandiaux immédiats} chez nourrisson {e:3-6 semaines}, amaigrissement"
+    dx_suspecte: "{p:Sténose hypertrophique du pylore}"
+    action: "{t:Échographie pylore} (diagnostic de choix) [VÉRIFIER: critères écho diagnostiques — diamètre muscle > 3-4 mm?]; {r:réhydratation IV}; chirurgie (pyloromyotomie)"
+  - description: "{s:Vomissements incoercibles} (hyperémèse gravidique) + {s:métrorragies} + {e:β-HCG très élevée} disproportionnée"
+    dx_suspecte: "{p:Grossesse molaire / hyperémèse gravidique sévère}"
+    action: "{t:Échographie pelvienne} + {t:β-HCG quantitatif}; {r:hospitalisation + réhydratation IV + antiémétiques IV}; avis gynéco"
+  - description: "{s:Douleur épigastrique transfixiante irradiant dans le dos} + vomissements + {s:lipase} > {r:3× N}"
+    dx_suspecte: "{p:Pancréatite aiguë}"
+    action: "{t:Lipase + CT abdominal} [VÉRIFIER: indication CT d'emblée vs lipase seule pour diagnostic?]; mise à jeun; {r:réhydratation IV agressive}; analgésie; hospitalisation"
+
+# source: lines 222-283 (examen clinique)
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: TA, FC (tachycardie = déshydratation/sepsis), T°, FR, SaO2, poids"
+    - |-
+      {s:Signes de déshydratation}:
+      • pli cutané persistant
+      • sécheresse des muqueuses
+      • hypotension orthostatique (TAS chute > {r:20 mmHg} debout)
+      • oligurie [VÉRIFIER: seuil diurèse < 0,5 mL/kg/h pour définir oligurie cliniquement significative?]
+    - "État de conscience (confusion → hyponatrémie, hypoK, HTIC)"
+    - "{t:Glycémie capillaire} si diabétique ou vomissements inexpliqués"
+  cible:
+    - |-
+      Examen abdominal SYSTÉMATIQUE (inspection → auscultation → palpation → percussion):
+      • inspection: cicatrices chir, {s:distension} (occlusion), péristaltisme visible
+      • auscultation (AVANT palpation): BHA absents (iléus) / métalliques ({p:occlusion}) / augmentés (gastro-entérite)
+      • palpation: douleur provoquée (localisation), {s:défense} (péritonite), masse palpable, signe de Murphy (vésicule biliaire)
+      • percussion: tympanisme (distension gazeuse), matité (ascite/globe vésical)
+    - |-
+      Touchers pelviens si indiqués:
+      • TR: fécalome, sang
+      • TV: grossesse, annexes
+    - |-
+      Neurologie (si céphalées ou vomissements en jet):
+      • {t:FO} (œdème papillaire = {p:HTIC})
+      • signes méningés (Kernig, Brudzinski, raideur nuque)
+      • déficit focal, paires crâniennes, syndrome cérébelleux
+    - "ORL si vertiges: nystagmus, examen vestibulaire, otoscopie (otite)"
+    - "Recherche alcalose métabolique / hypokaliémie (faiblesse musculaire, crampes)"
+
+# source: lines 289-328 (examens complémentaires)
+examens_complementaires:
+  - "{t:Ionogramme + créatinine + urée + glycémie}: systématique si vomissements répétés (hypoK, hypoNa, IR prérénale)"
+  - "{t:β-HCG}: ⚠️ SYSTÉMATIQUE chez toute femme en âge de procréer"
+  - "{t:Lipase + bilan hépatique}: si douleur abdominale (pancréatite, lithiase)"
+  - |-
+    {t:ASP + CT abdominal}:
+    • suspicion {p:occlusion} (NHA, pneumopéritoine)
+    • urgence chir suspectée
+  - "{t:CT / IRM cérébral}: signes neuro, suspicion {p:HTIC} ou {p:méningite}"
+  - "{t:ECG}: hypokaliémie (allongement QT), intoxication digitalique"
+
+# source: lines 92-153 (causes) + pivots du prompt
+dd_top5:
+  - dx: "{p:Gastro-entérite virale (GEA)}"
+    indices: "Contexte épidémique, diarrhée associée, fièvre possible, début brutal, auto-résolutive en 48-72 h; nausées avant vomissements"
+    freq: "très fréquent — cause #1 des NV aigus"
+  - dx: "{p:Occlusion intestinale}"
+    indices: "{s:Vomissements fécaloïdes}, {s:arrêt MG}, météorisme, douleurs coliques; ATCD chir abdominale (bride), hernie; NHA à l'ASP"
+    freq: "urgence chirurgicale — mortalité élevée si strangulation"
+  - dx: "{p:HTIC} (tumeur / hydrocéphalie / méningite)"
+    indices: "Vomissements en jet SANS nausée préalable, matinaux, avec céphalée progressive; {t:FO}: œdème papillaire; contexte néoplasie connue"
+    freq: "rare mais urgence absolue"
+  - dx: "{p:Migraine}"
+    indices: "Céphalée pulsatile unilatérale, photo/phonophobie, aura possible (20 %), nausées intenses, ATCD migraineux personnels/familiaux; aggravée à l'effort"
+    freq: "fréquent — NV symptôme d'accompagnement classique"
+  - dx: "{p:Iatrogène / médicamenteux}"
+    indices: "Nausées-vomissements débutant après introduction/modification d'un traitement; chimiothérapie, opioïdes, antibiotiques, AINS, digitaliques, métformine, L-Dopa"
+    freq: "très fréquent — toujours chercher avant tout autre bilan"
+
+# source: lines 330-472 (PEC)
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — tout red flag → bilan/imagerie AVANT antiémétiques"
+    - |-
+      {r:Réhydratation ⚠️ PRIORITÉ}:
+      • orale si tolérée: SRO, petites gorgées fréquentes, boissons froides
+      • IV si intolérance orale: {r:NaCl 0,9 % ± KCl IV} (hypoK fréquente); corriger ionogramme
+    - |-
+      Antiémétiques — choisir selon cause:
+      • {r:métoclopramide 10 mg × 3/j PO ou IV} (1re ligne; CI: occlusion, Parkinson)
+      • {r:ondansétron 4-8 mg × 2-3/j IV ou PO} (chimiothérapie, 2e ligne)
+      • {r:métopimazine (Vogalène) 15 mg × 3/j} [VÉRIFIER: disponibilité en Suisse?]
+      • {r:dompéridone 10 mg × 3/j PO} (moins d'effets centraux)
+    - "GEA: réhydratation +++ ; pas d'antibiotiques sauf cas particuliers (Salmonella invasive, immunodéprimé)"
+    - "Occlusion: mise à jeun strict + {r:SNG aspiration} + {r:réhydratation IV} + chirurgie si strangulation"
+    - "Grossesse 1er trimestre: fractionnement repas, gingembre; si HG: {r:doxylamine + pyridoxine} ± ondansétron IV, hospitalisation"
+    - "Acidocétose: {r:insuline IV + NaCl 0,9 % + KCl IV} selon protocole; surveillance horaire"
+    - "Migraine: antiémétique AVANT triptan; repos au calme et obscurité"
+  orientation:
+    - "Domicile + médecin traitant: NV aigus typiques GEA, examen normal, tolérance orale, pas de red flag"
+    - "Urgences IMMÉDIAT: red flag présent (occlusion, HTIC, acidocétose, strangulation), déshydratation sévère, trouble ionique grave, impossibilité réhydratation orale"
+    - "Gynécologie: hyperémèse gravidique, grossesse molaire suspectée"
+    - "Gastro-entérologue ambulatoire: NV chroniques inexpliqués > 4 semaines"
+
+criteres_hospitalisation:
+  - "{s:Déshydratation sévère} ou troubles ioniques importants (hypoK < {r:3 mEq/L}, hypoNa < {r:130 mEq/L})"
+  - "Urgence chirurgicale: {p:occlusion}, {p:appendicite}, {p:péritonite}"
+  - "{p:HTIC} suspectée ou confirmée"
+  - "{p:Hyperémèse gravidique} — impossibilité réhydratation orale"
+  - "Terrain fragile: âges extrêmes, immunodépression, comorbidités multiples"
+
+pieges:
+  - "Oublier {t:β-HCG} chez toute femme en âge de procréer — la grossesse (y compris molaire/GEU) doit être éliminée systématiquement"
+  - "Donner {r:métoclopramide} en cas d'{p:occlusion} intestinale — formellement contre-indiqué (aggrave le tableau)"
+  - "Méconnaître les {s:vomissements en jet sans nausée} comme signe d'{p:HTIC} — ne pas demander le FO = piège à l'ECOS"
+  - "Négliger {s:hypokaliémie} chez vomissements répétés — risque d'arythmie cardiaque; ECG si K+ < {r:3 mEq/L}"
+  - "Attribuer les NV à une cause bénigne sans exclure une {p:iatrogénie médicamenteuse} — interroger toujours la liste complète des médicaments"
+
+cartes_liees:
+  - SSP-NEU-04
+  - SSP-GYN-01
+  - SYS-ABD

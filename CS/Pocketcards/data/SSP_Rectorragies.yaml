@@ -1,0 +1,186 @@
+id: SSP-GAS-03
+type: ssp
+title: Rectorragies
+discipline: Gastro
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Rectorragies.md
+
+# source: lines 1-25
+anamnese:
+  socrates:
+    - |-
+      Aspect du sang — règle d'or HDB vs HDA:
+      • {s:rouge vif} → origine basse (côlon, rectum, anus)
+      • {s:méléna} (noir, goudron, fétide) → origine haute (> angle de Treitz)
+      • {s:rouge vif abondant} avec instabilité → peut être HDA massive ({p:choc})
+    - |-
+      Quantité & modalités:
+      • traces sur papier / quelques gouttes / filet / cuvette rouge / caillots
+      • pendant ou après la défécation (goutte-à-goutte = hémorroïdes)
+      • effort de défécation important?
+    - |-
+      Timing:
+      • depuis quand? épisode isolé ou récidivant?
+      • fréquence (chaque selle, intermittent)
+    - |-
+      Douleur associée:
+      • anale vive à la défécation → {p:fissure}
+      • douleur abdominale brutale post-prandiale + rectorragies → {p:colite ischémique}
+      • absence de douleur + rectorragies massives → {p:diverticulose}
+  specifique:
+    - |-
+      Signes digestifs associés:
+      • {s:modification du transit} (diarrhée, constipation, alternance)
+      • {s:syndrome rectal}: ténesme, épreintes, sensation de corps étranger
+      • {s:glaires dans les selles} → RCH / Crohn / cancer
+      • {s:prurit anal}, procidence, masse palpable
+    - |-
+      Signes généraux — alarme:
+      • {s:amaigrissement involontaire} ⚠️ cancer
+      • {s:asthénie}, anorexie
+      • {s:fièvre} → MICI active / colite infectieuse
+    - |-
+      Signes de retentissement hémodynamique:
+      • malaise / syncope, vertiges orthostatiques
+      • palpitations, dyspnée d'effort, soif intense
+    - |-
+      Orientation étiologique par âge:
+      • {e:< 50 ans}: hémorroïdes, fissure anale, MICI (RCH/Crohn)
+      • {e:> 50 ans}: {p:cancer colorectal} ⚠️, diverticulose, angiodysplasies, colite ischémique
+    - |-
+      Causes infectieuses à évoquer:
+      • gastro-entérite fébrile (contexte épidémique)
+      • colite à {p:C. difficile} (post-antibiotiques)
+      • amibiase / shigellose (voyage zone endémique)
+  atcd:
+    - |-
+      Antécédents digestifs:
+      • coloscopies antérieures (résultats, polypes)
+      • hémorroïdes traitées / chirurgie colorectale
+      • {p:MICI} connue
+      • {s:radiothérapie pelvienne} → rectite radique
+    - |-
+      Médicaments:
+      • {r:AINS} (ulcérations coliques)
+      • {r:anticoagulants} (révélateur / aggravant)
+      • {r:antibiotiques} récents (C. difficile)
+    - |-
+      Facteurs de risque cancer colorectal:
+      • âge > 50 ans, ATCD familiaux 1er degré
+      • polypose familiale, syndrome de Lynch
+      • MICI ancienne (> 10 ans)
+    - |-
+      Facteurs de risque hémorroïdes:
+      • constipation chronique, grossesse, station assise prolongée
+
+# source: lines 191-255
+red_flags:
+  - description: "{s:TA < 90 mmHg, tachycardie > 100, marbrures} ± Hb < 7 g/dl"
+    dx_suspecte: "{p:Choc hémorragique} — hémorragie digestive basse massive"
+    action: "Hospitalisation urgente; {r:2 VVP + remplissage NaCl 0,9% 500 mL} rapide; GS-RAI + {r:concentrés globulaires}; coloscopie ou angio-CT en urgence [VÉRIFIER: seuil exact transfusion selon protocole local CHUV/HUG]"
+  - description: "{e:> 50 ans} + {s:AEG + transit modifié + sang occulte ou macroscopique + anémie ferriprive}"
+    dx_suspecte: "{p:Cancer colorectal}"
+    action: "{t:Coloscopie totale} urgente ou différée selon stabilité; {t:TDM TAP} si cancer confirmé; RCP oncologique"
+  - description: "{s:Diarrhée glaireuse-sanglante + fièvre + anémie} chez jeune — score {t:Mayo > 6} ou {t:Truelove-Witts sévère}"
+    dx_suspecte: "{p:MICI sévère} (RCH/Crohn en poussée)"
+    action: "Hospitalisation; {r:corticoïdes IV} (méthylprednisolone {r:1 mg/kg/j}); coloscopie + biopsies étagées; avis gastro-entérologue [VÉRIFIER: dose exacte corticoïdes IV selon poids — protocole hospitalier]"
+  - description: "{e:> 60 ans + FRCV / FA}: {s:douleur abdominale brutale + diarrhée sanglante} en contexte bas débit"
+    dx_suspecte: "{p:Colite ischémique}"
+    action: "{t:Angio-CT} abdominal urgent; coloscopie différée (48-72 h); héparine selon étiologie vasculaire; correction bas débit"
+  - description: "{s:Méléna vrai} (selles noires goudronneuses fétides) — quel que soit l'âge"
+    dx_suspecte: "{p:Hémorragie digestive haute} (> angle de Treitz)"
+    action: "Reclasser comme HDA; {t:FOGD} urgente < 24 h; IPP IV; évaluer stabilité hémodynamique [VÉRIFIER: seuil FOGD urgente < 12 h vs < 24 h selon score Glasgow-Blatchford]"
+  - description: "{s:Fièvre + défense abdominale} ± diarrhée sanglante chez porteur de {p:diverticulose}"
+    dx_suspecte: "{p:Diverticulite compliquée} (Hinchey III-IV)"
+    action: "{t:CT abdomino-pelvien} urgent avec contraste; {r:ATB IV} (amoxicilline-acide clavulanique ou pip-tazo); chirurgie/drainage selon Hinchey"
+
+# source: lines 191-255
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: TA (orthostatique si stable), FC, FR, T°, SpO2"
+    - "{t:Score de Glasgow} ou évaluation conscience si instabilité"
+    - "Pâleur cutanéo-muqueuse, tachycardie → anémie significative"
+    - "Signes de choc: marbrures, TRC > 2 s, extrémités froides"
+  cible:
+    - |-
+      {t:Toucher rectal} — SYSTÉMATIQUE (ne jamais omettre):
+      • sang sur doigtier (aspect: rouge vif / méléna)
+      • tumeur rectale (distance marge anale, consistance, mobilité)
+      • fécalome, tonus sphinctérien
+    - |-
+      Inspection périnéale au repos et à la poussée:
+      • hémorroïdes externes, {s:fissure anale} postérieure
+      • fistules, abcès, condylomes
+      • prolapsus hémorroïdaire, prolapsus rectal
+    - |-
+      Examen abdominal:
+      • masse abdominale (tumeur), douleur provoquée
+      • défense (complication), organomégalie
+      • bruits hydroaériques, souffle abdominal (anévrisme)
+    - |-
+      Signes extra-digestifs (MICI):
+      • aphtes buccaux, uvéite, érythème noueux
+      • arthrites, lésions cutanées
+
+# source: lines 92-135 MD (orientation étiologique)
+dd_top5:
+  - dx: "{p:Hémorroïdes}"
+    indices: "Sang rouge vif en fin de défécation, sur papier ou goutte-à-goutte, prurit anal, procidence; sujet jeune, constipation; TR peut être normal (hémorroïdes internes non palpables); anuscopie diagnostique"
+    freq: "très fréquent — cause n°1 ambulatoire"
+  - dx: "{p:Diverticulose colique hémorragique}"
+    indices: "Rectorragies massives INDOLORES autolimitées; {e:> 60 ans}, prise {r:AAP/AINS}; arrêt spontané dans 80 % cas; localisation par angio-CT si active > 0,5 mL/min"
+    freq: "fréquent > 60 ans (diverticules présents chez 50 % > 70 ans)"
+  - dx: "{p:Cancer colorectal}"
+    indices: "{e:> 50 ans}, AEG, transit modifié, sang + glaires, anémie ferriprive chronique; masse palpable TR ou abdominale; ATCD familiaux / polypose; coloscopie totale + biopsies"
+    freq: "fréquent > 50 ans — 3e cancer en incidence"
+  - dx: "{p:MICI} (RCH / Crohn)"
+    indices: "Sujet jeune (20-40 ans), {s:diarrhée glaireuse-sanglante} chronique, ténesme, épreintes; fistules anales (Crohn); EIM (uvéite, arthrite, érythème noueux); CRP élevée, calprotectine fécale"
+    freq: "fréquent chez jeune adulte"
+  - dx: "{p:Colite ischémique}"
+    indices: "{e:> 60 ans}, FRCV (HTA, FA, AOMI, diabète), douleur abdominale brutale + diarrhée sanglante post-repas ou post-chirurgie aortique; CT: épaississement colique angle splénique"
+    freq: "peu fréquent mais sous-diagnostiqué"
+
+# source: lines 259-444 MD
+pec_initiale:
+  immediate:
+    - "STOP — évaluer stabilité hémodynamique AVANT tout: TA, FC, conscience"
+    - "Hémorragie active instable: {r:2 VVP + NaCl 0,9% 500 mL IV rapide}; GS-RAI; lactates; transfusion si {r:Hb < 7 g/dl}; endoscopie urgente"
+    - "Anémie ferriprive chronique sans urgence: {r:fer oral 200 mg/j × 3 mois}; {r:fer IV} si malabsorption / intolérance"
+    - "Hémorroïdes: régularisation transit (laxatifs osmotiques), topiques; ligature élastique si grade II-III; hémorroïdectomie si grade IV ou échec"
+    - "MICI en poussée modérée: {r:mésalazine topique + orale}; corticoïdes si poussée sévère"
+    - "Coloscopie totale indiquée si: {e:> 50 ans}, signes d'alarme, ATCD familiaux, anémie ferriprive inexpliquée"
+  orientation:
+    - "Domicile: cause bénigne certaine (hémorroïdes grade I-II jeune < 50 ans, pas de signe d'alarme), coloscopie programmée si indiquée"
+    - "Urgences: instabilité hémodynamique, hémorragie active importante, méléna, première rectorragie sévère"
+    - "Gastro-entérologue ambulatoire: coloscopie indiquée, MICI suspectée, cancer à exclure"
+    - "Proctologue: pathologie ano-rectale complexe, hémorroïdes grade III-IV, fissure chronique > 6 semaines"
+    - "Consignes retour urgences: aggravation saignement, malaise, chute TA, Hb qui baisse"
+
+examens_complementaires:
+  - "{t:NFS + ferritine + CRP}: anémie microcytaire (carence martiale), inflammation (MICI)"
+  - "{t:Groupe sanguin + RAI + bilan pré-transfusionnel}: si hémorragie importante ou Hb < 8 g/dl"
+  - "{t:TP, TCA, ionogramme, créatinine}: coagulation, terrain, préparation coloscopie"
+  - "{t:Coloscopie totale} — examen de référence: urgente si instabilité; systématique > 50 ans ou signe d'alarme [VÉRIFIER: délai optimal coloscopie urgente — < 12 h vs < 24 h selon centres]"
+  - "{t:Angio-CT abdomino-pelvien}: hémorragie active > 0,5 mL/min non localisée; diverticulite suspectée"
+  - "{t:Rectosigmoïdoscopie}: sujet jeune < 50 ans sans signe d'alarme — exploration limitée au rectosigmoïde"
+
+criteres_hospitalisation:
+  - "Instabilité hémodynamique (TA < 90, FC > 100, marbrures) ou {r:Hb < 7 g/dl} symptomatique"
+  - "Hémorragie active importante (cuvette rouge, caillots, récidive précoce)"
+  - "MICI sévère (Mayo > 6, Truelove-Witts sévère), fièvre + anémie + hypoalbuminémie"
+  - "Suspicion diverticulite compliquée (Hinchey III-IV) ou cancer compliqué (occlusion, perforation)"
+  - "Terrain fragile (anticoagulants, troubles hémostase, insuffisance rénale/hépatique)"
+
+pieges:
+  - "Attribuer aux {p:hémorroïdes} sans TR ni exploration chez > 50 ans — exclure d'abord le cancer"
+  - "Confondre {s:méléna vrai} avec selles foncées (betterave, fer) — toujours confirmer l'aspect goudronné fétide et reclasser en HDA"
+  - "Oublier la {p:colite ischémique} chez le vieux cardiaque sous diurétiques (bas débit silencieux)"
+  - "Négliger {s:anémie ferriprive chronique} sans rectorragies visibles — rechercher toujours un saignement occulte (cancer)"
+  - "Retarder la coloscopie totale chez > 50 ans en attribuant aux hémorroïdes connues — les deux peuvent coexister"
+
+cartes_liees:
+  - SYS-GAS
+  - SSP-GAS-01

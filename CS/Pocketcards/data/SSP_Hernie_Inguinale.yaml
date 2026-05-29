@@ -1,0 +1,200 @@
+id: SSP-GAS-09
+type: ssp
+title: Hernie inguinale
+discipline: Gastro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Hernie_Inguinale.md
+
+# source: lines 9-169
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • inguinale pure / inguino-scrotale?
+      • côté? bilatérale? ({r:10-15 %} des cas)
+      • position exacte: au-dessus ({p:inguinale}) ou sous l'arcade ({p:crurale})?
+    - |-
+      Onset:
+      • début brutal (effort, toux, soulèvement)?
+      • progressif (semaines–mois)?
+      • première fois ou récidive?
+    - |-
+      Character:
+      • consistance: molle / ferme / dure (tendue = alarme)?
+      • impulsive à la toux / au Valsalva?
+      • {s:réductible} spontanément en décubitus? manuellement?
+    - |-
+      Time/évolution:
+      • stable / croissante / épisodique?
+      • variation fin de journée / effort?
+    - |-
+      Exacerbating:
+      • effort, station debout prolongée?
+      • toux chronique (BPCO, tabac)?
+      • constipation, dysurie (HBP)?
+    - |-
+      Severity/impact:
+      • douleur ({s:pesanteur / tiraillement / coup de poignard} = étranglement)?
+      • gêne fonctionnelle: sport, port de charges, activité pro?
+  specifique:
+    - |-
+      {s:Signes d'étranglement} — demander systématiquement:
+      • douleur brutale intense irréductible récente?
+      • nausées / vomissements?
+      • arrêt matières et gaz?
+      • fièvre?
+    - "Réductibilité: spontanée décubitus? manuelle facile / difficile / douloureuse / impossible?"
+    - "Signes locaux: rougeur, chaleur, œdème cutané?"
+    - "Retentissement QdV: bandage herniaire porté? adaptations posturales? anxiété complications?"
+  atcd:
+    - |-
+      Facteurs prédisposants:
+      • {e:homme 9:1}, âge > 40 ans
+      • ATCD familiaux 1er degré?
+      • tissu conjonctif: Marfan, Ehlers-Danlos?
+    - |-
+      Hyperpression abdominale chronique:
+      • toux chronique (BPCO/tabac)?
+      • constipation chronique?
+      • dysurie/HBP? ascite?
+      • obésité (IMC?)?
+    - |-
+      Chirurgie antérieure:
+      • cure hernie homolatérale ou controlatérale? technique? récidive?
+      • appendicectomie, prostatectomie, chirurgie pelvienne?
+    - |-
+      Médicaments clés:
+      • anticoagulants / antiagrégants (aspirine, clopidogrel)?
+      • corticoïdes chroniques (cicatrisation)?
+      • allergie anesthésiques?
+    - |-
+      Terrain chirurgical:
+      • {t:score ASA} (1-4)?
+      • cardiopathie, BPCO sévère, diabète (équilibre glycémique)?
+      • anticoagulation: type et indication?
+
+# source: lines 170-262
+examen:
+  general:
+    - "Constantes: TA, FC, T°, FR — {s:fièvre + tachycardie} = signe d'alarme (ischémie?)"
+    - "État général: faciès algique, agitation, position antalgique?"
+    - "Abdomen: météorisme, bruits hydroaériques (occlusion?)"
+  cible:
+    - |-
+      Examen debout (OBLIGATOIRE):
+      • inspection repos puis Valsalva/toux → {s:tuméfaction visible}?
+      • localisation précise: au-dessus de l'arcade (inguinale) ou en dessous (crurale)?
+      • cicatrices chirurgicales?
+    - |-
+      Palpation debout:
+      • consistance: molle (réductible) / ferme / dure (tendue = étranglement)?
+      • {s:impulsivité à la toux}?
+      • douleur provoquée / défense?
+    - |-
+      Examen couché:
+      • réduction: spontanée? manuelle (facile, gargouillement d'anse)?
+      • test réapparition: patient se relève → sortie immédiate / progressive?
+    - |-
+      Différenciation directe/indirecte (homme):
+      • test du doigt: invagination scrotum → orifice inguinal profond
+      • {p:indirecte} = dans le doigt (latérale aux vaisseaux épigastriques)
+      • {p:directe} = médiale au doigt (médiale aux vaisseaux épigastriques, âgé)
+    - "Recherche {p:hernie crurale}: palpation sous l'arcade crurale (point de Langenbeck) — {e:femme âgée}++"
+    - "Côté controlatéral systématique (bilatérale {r:10-15 %})"
+    - |-
+      Examen complémentaire:
+      • testicules: taille, position, hydrocèle? varicocèle?
+      • TR si homme > 50 ans (HBP, cancer prostate)?
+      • adénopathies inguinales?
+
+# source: lines 244-303
+dd_top5:
+  - dx: "{p:Hernie inguinale réductible}"
+    indices: "Tuméfaction molle, indolore, apparaît à l'effort/toux, disparaît en décubitus, impulsive à la toux, au-dessus de l'arcade inguinale; {r:diagnostic clinique}"
+    freq: "très fréquent (pathologie chirurgicale la plus fréquente de l'aine)"
+  - dx: "{p:Hernie crurale (fémorale)}"
+    indices: "Tuméfaction SOUS l'arcade crurale, médiale aux vaisseaux fémoraux; {e:femme âgée++}; risque d'étranglement plus élevé ({r:15-20 %}) [VÉRIFIER: taux étranglement crurale vs inguinale]"
+    freq: "moins fréquent (10 % des hernies de l'aine, F > H)"
+  - dx: "{p:Hernie ombilicale}"
+    indices: "Tuméfaction péri-ombilicale; adulte: contexte cirrhose/ascite/obésité; enfant < 2 ans: souvent résolution spontanée; impulsive à la toux"
+    freq: "fréquent (2e hernie abdominale)"
+  - dx: "{p:Adénopathie inguinale}"
+    indices: "Masse dure, peu mobile, non impulsive à la toux; chercher porte d'entrée MI, IST (syphilis, LGV), lymphome; {t:NFS + LDH} si suspicion maligne"
+    freq: "fréquent en DD (tout patient avec tuméfaction inguinale)"
+  - dx: "{p:Lipome / kyste / tumeur du cordon spermatique}"
+    indices: "Masse molle lobulée (lipome) ou kystique transilluminable; indépendante du testicule; non impulsive à la toux; {t:échographie} si doute [VÉRIFIER: critères écho différenciation lipome vs kyste cordon]"
+    freq: "peu fréquent mais piège classique"
+
+# source: lines 508-514, pivots fournis
+red_flags:
+  - description: "{s:Douleur brutale intense + tuméfaction tendue irréductible + vomissements + arrêt matières/gaz} ± rougeur/chaleur"
+    dx_suspecte: "{p:Hernie étranglée} (ischémie d'organe)"
+    action: "Chirurgie urgente {r:< 6 h} — NE PAS tenter de réduction; VVP, bilan préop STAT ({t:NFS, ionogramme, lactates, CRP, groupe}), jeûne, analgésie IV, appel chirurgien de garde"
+  - description: "{s:Hernie irréductible sans signes occlusifs ni fièvre} (indolore ou peu douloureuse)"
+    dx_suspecte: "{p:Hernie incarcérée} (sans ischémie)"
+    action: "Taxis prudente en décubitus (Trendelenburg, analgésie); si échec → chirurgie programmée rapide; surveillance rapprochée (évolution vers étranglement)"
+  - description: "{s:Vomissements bilieux→fécaloïdes + arrêt MG + météorisme} sur hernie connue irréductible"
+    dx_suspecte: "{p:Occlusion intestinale sur hernie}"
+    action: "{t:CT abdomino-pelvien} avec contraste oral et IV en urgence; correction hydro-électrolytique; chirurgie urgente"
+  - description: "{s:Douleur disproportionnée + fièvre + défense abdominale} ± {s:lactates élevés}"
+    dx_suspecte: "{p:Ischémie / nécrose d'anse} (complication de l'étranglement)"
+    action: "Chirurgie urgente; résection intestinale si nécrose; réanimation concomitante; {t:lactates STAT} [VÉRIFIER: seuil lactates décisionnaire pour chirurgie immédiate]"
+  - description: "{e:Femme âgée} avec {s:tuméfaction SOUS l'arcade crurale} même peu symptomatique"
+    dx_suspecte: "{p:Hernie crurale} (haut risque étranglement {r:15-20 %})"
+    action: "Chirurgie programmée sans délai (ne pas surveiller); adresser chirurgien viscéral rapidement"
+
+# source: lines 263-319
+examens_complementaires:
+  - "{t:Clinique seul} suffit si hernie réductible typique évidente — pas d'imagerie systématique"
+  - "{t:Échographie inguinale}: doute diagnostique, obésité, récidive (anatomie modifiée), femme (crurale?); sonde haute fréquence, manœuvres dynamiques"
+  - "{t:CT abdomino-pelvien} avec contraste: hernie étranglée / occlusion / doute autre pathologie; évalue vitalité intestinale et niveau d'obstacle"
+  - "{t:Bilan préopératoire standard}: NFS, hémostase (si anticoag), ionogramme/créatinine (> 60 ans), glycémie (diabète), ECG (> 40 ans ou cardiopathie)"
+  - "{t:IRM inguinale} (rare): sportif haut niveau, pubalgie chronique, DD difficile après écho"
+  - "{t:Lactates veineux + CRP}: suspicion ischémie/nécrose (étranglement évolué)"
+
+# source: lines 321-346
+criteres_hospitalisation:
+  - "{p:Hernie étranglée} ou {p:occlusion intestinale} — hospitalisation chirurgicale immédiate"
+  - "{p:Hernie incarcérée} résistant au taxis — chirurgie urgente programmée"
+  - "{s:Fièvre + défense abdominale} sur hernie (péritonite, nécrose)"
+  - "Mauvaise tolérance générale: état de choc, sepsis (FC > 100, TA < 90/60, lactates > 2 mmol/L)"
+  - "Patient à haut risque ({t:ASA} 3-4) nécessitant chirurgie — discussion multidisciplinaire"
+
+# source: lines 350-503
+pec_initiale:
+  immediate:
+    - "RED FLAG → chirurgie urgente: VVP, jeûne strict, analgésie IV ({r:morphine 0.05-0.1 mg/kg IV} si douleur sévère), appel chirurgien, bilan STAT"
+    - |-
+      Hernie réductible symptomatique → chirurgie programmée:
+      • technique de {r:Lichtenstein} (voie ouverte + prothèse, gold standard, récidive {r:< 1 %})
+      • {r:cœlioscopie TEP ou TAPP} si hernie bilatérale, récidive après voie ouverte, patient actif
+      • {r:Shouldice} (sans prothèse) si contre-indication prothèse [VÉRIFIER: contre-indications absolues aux prothèses inguinales]
+    - "Hernie asymptomatique chez patient à très haut risque opératoire: surveillance possible (informer patient du risque d'étranglement)"
+    - |-
+      Antibioprophylaxie chirurgicale:
+      • {r:céfazoline 2 g IV} en préopératoire (injection 30-60 min avant incision)
+    - |-
+      Analgésie postopératoire multimodale:
+      • {r:paracétamol 1 g × 4/j PO}
+      • AINS si pas de contre-indication
+      • morphiniques si insuffisant
+  orientation:
+    - "Urgences chirurgicales: tout signe d'étranglement, occlusion, ischémie → prise en charge immédiate"
+    - "Chirurgie viscérale (ambulatoire): hernie symptomatique réductible → Lichtenstein ou cœlioscopie, sortie J0-J1"
+    - "Surveillance/réévaluation: hernie peu symptomatique, patient refusant chirurgie ou haut risque opératoire — expliquer risque d'étranglement"
+    - "Consignes retour urgences: douleur brutale intense, irréductibilité nouvelle, vomissements, arrêt MG, fièvre → appel 144 / urgences immédiatement"
+
+# source: lines 533-540 (erreurs fréquentes ECOS)
+pieges:
+  - "Méconnaître une {p:hernie crurale} chez la femme âgée (chercher SOUS l'arcade, non au-dessus) — risque d'étranglement élevé, chirurgie sans délai"
+  - "Tenter de réduire une {p:hernie étranglée} (douleur intense, tendue, irréductible) → risque de réduction en masse ou perforation intestinale"
+  - "N'examiner le patient qu'en décubitus — une hernie peut disparaître couché: TOUJOURS examiner debout + Valsalva"
+  - "Confondre une {p:adénopathie inguinale} suspecte avec une hernie (masse non impulsive à la toux, dure, fixe → imagerie + bilan hémato)"
+  - "Omettre d'examiner le côté controlatéral (hernie bilatérale {r:10-15 %) — systématique debout et couché"
+
+cartes_liees:
+  - SSP-GAS-08
+  - SYS-ABD

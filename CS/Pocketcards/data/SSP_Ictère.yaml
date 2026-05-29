@@ -1,0 +1,158 @@
+id: SSP-GAS-06
+type: ssp
+title: Ictère
+discipline: Gastro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Ictère.md
+
+# source: SSP_Ictère.md line 11-211
+anamnese:
+  socrates:
+    - |-
+      Onset:
+      • quand avez-vous remarqué la jaunisse? installation brutale ou progressive?
+      • constant ou fluctuant? aggravation récente?
+    - |-
+      Character:
+      • urines foncées (thé/coca)? → {s:bilirubine conjuguée} → cholestase
+      • urines claires? → {s:bilirubine non conjuguée} → hémolyse/Gilbert
+      • selles décolorées/mastic? → {p:obstruction biliaire}
+      • prurit généralisé nocturne? → cholestase
+    - "Radiation: douleur hypochondre droit irradiant épaule droite/dos? → colique hépatique (lithiase)"
+    - |-
+      Associated:
+      • fièvre + frissons? ⚠️ angiocholite
+      • perte de poids involontaire? ⚠️ cancer
+      • confusion/somnolence/astérixis? ⚠️ encéphalopathie
+      • saignements spontanés/hématémèse? → insuffisance hépatocellulaire
+    - "Modifying: aggravé repas gras (lithiase)? atténué jeûne (Gilbert)?"
+  specifique:
+    - |-
+      Contexte expositions hépatites virales:
+      • voyage zones endémiques (VHA, VHE)? drogues IV (VHB, VHC)?
+      • tatouages/piercings récents? transfusions avant 1991?
+      • rapports non protégés? contact personne ictérique?
+      • vaccination VHA/VHB à jour?
+    - |-
+      Toxiques et médicaments hépatotoxiques:
+      • alcool: quantité quotidienne, durée, sevrage récent?
+      • paracétamol (dose, durée)? AINS, augmentin, statines, INH, rifampicine?
+      • phytothérapie, champignons (amanite phalloïde)?
+    - "Femme: grossesse (test)? ATCD cholestase gravidique/HELLP?"
+    - |-
+      Distension abdominale? (ascite → HTP)
+      Nausées/vomissements bilieux?
+  atcd:
+    - |-
+      ATCD hépatobiliaires:
+      • lithiase biliaire connue? pancréatite? hépatite antérieure? cirrhose?
+      • cholécystectomie? chirurgie abdominale?
+    - |-
+      ATCD médicaux:
+      • diabète, obésité, syndrome métabolique (NASH)?
+      • maladie auto-immune? cancer? hémopathie (drépanocytose, thalassémie, déficit G6PD)?
+    - "ATCD familiaux: cirrhose, hémochromatose, maladie de Wilson, hémolyse héréditaire?"
+
+# source: SSP_Ictère.md line 362-410
+red_flags:
+  - description: "{s:Triade de Charcot} (fièvre + ictère + douleur HD) ± confusion + choc → pentade de Reynolds"
+    dx_suspecte: "{p:Angiocholite aiguë grave}"
+    action: "{r:C3G IV (ceftriaxone 2g) + métronidazole} ou pipéracilline-tazobactam; {t:hémocultures}; drainage biliaire CPRE < 24h; scope chirurgical"
+  - description: "{s:Encéphalopathie} + {s:TP < 50%} + ictère intense ± astérixis"
+    dx_suspecte: "{p:Hépatite fulminante / insuffisance hépatique aiguë}"
+    action: "Transfert USI immédiat; {r:N-acétylcystéine IV} si paracétamol; {t:TP/facteur V} quotidien; avis transplantation hépatique"
+  - description: "{e:> 50 ans}, ictère progressif indolore + {s:AEG/amaigrissement} + grosse vésicule palpable ({s:signe de Courvoisier})"
+    dx_suspecte: "{p:Cancer tête du pancréas / cholangiocarcinome}"
+    action: "{t:écho abdominale} STAT + {t:CT TAP injecté} + {t:IRM bilio-pancréatique}; CA 19-9; avis oncologie"
+  - description: "{s:Prise paracétamol massive} ({r:> 10 g}) ± ingestion amanite phalloïde — ictère retardé J2-J3"
+    dx_suspecte: "{p:Hépatite médicamenteuse/toxique aiguë}"
+    action: "{r:N-acétylcystéine IV} sans délai [VÉRIFIER: protocole NAC selon nomogramme Rumack-Matthew]; {t:dosage paracétamolémie}; {t:TP} quotidien; avis toxicologie"
+  - description: "{s:Pâleur aiguë} + ictère + {s:hémoglobinurie} (urines noires) + {s:chute Hb rapide}"
+    dx_suspecte: "{p:Hémolyse aiguë sévère} (auto-immune, drépanocytose en crise, G6PD)"
+    action: "{t:NFS + réticulocytes + Coombs direct + LDH + haptoglobine} STAT; transfusion si Hb < 7 g/dL; hématologue"
+
+# source: SSP_Ictère.md line 214-356
+examen:
+  general:
+    - "Signes vitaux: T°, TA (hypotension → choc septique?), FC, FR, SpO2, poids (variation récente?)"
+    - "Conscience: {t:GCS} si trouble — astérixis (bras tendus 30 s) → {p:encéphalopathie hépatique}"
+    - "Coloration: intensité ictère sclères/peau, pâleur associée (anémie hémolytique?)"
+    - |-
+      Signes d'IHC: angiomes stellaires (> 5 = cirrhose), érythrose palmaire,
+      xanthomes, gynécomastie, foetor hepaticus, hippocratisme digital
+  cible:
+    - "Sclères: confirmer ictère (vs caroténémie: sclères blanches si carotène seul)"
+    - |-
+      Abdomen — ordre OBLIGATOIRE inspection → auscultation → percussion → palpation:
+      • distension/ascite? caput medusae? cicatrices (cholécystectomie)?
+      • {t:flèche hépatique} (percussion 5e EIC → rebord costal, normale 10-12 cm); matité déclive?
+      • foie: taille (débord en cm), consistance (dur = cirrhose/cancer), surface (nodulaire?), sensibilité
+      • {s:vésicule palpable} (hydrops → {p:Courvoisier}); {t:signe de Murphy} (inspiration profonde, HD)
+      • rate: splénomégalie? (HTP, hémolyse)
+    - "Aires ganglionnaires: {s:ganglion de Troisier} (sus-claviculaire gauche → cancer digestif)"
+    - "Signes d'HTP: œdèmes membres inférieurs, circulation collatérale abdominale [VÉRIFIER: seuil ascite cliniquement détectable]"
+
+# source: SSP_Ictère.md line 436-505
+dd_top5:
+  - dx: "{p:Hépatite virale aiguë} (A/B/C/E)"
+    indices: "Transaminases ×10-100 (> 1000 UI/L), contexte (voyage, toxicomanie IV), fièvre prodromale, sérologies IgM anti-VHA/anti-VHE, AgHBs + IgM anti-HBc; VHC souvent asymptomatique"
+    freq: "fréquent; VHA et VHE = épidémique + voyage"
+  - dx: "{p:Lithiase cholédoque ± angiocholite}"
+    indices: "ATCD lithiase, colique HD post-prandiale, triade de Charcot (fièvre + ictère + douleur), PAL/GGT +++, dilatation VB à l'écho; CRP/leucocytose ↑ si angiocholite"
+    freq: "fréquent; angiocholite = urgence vitale"
+  - dx: "{p:Cancer tête pancréas / cholangiocarcinome}"
+    indices: "Ictère nu progressif indolore chez > 50 ans, AEG, vésicule de Courvoisier, CA 19-9 ↑, masse pancréatique/sténose biliaire au CT/IRM [VÉRIFIER: valeur diagnostique CA 19-9 isolé]"
+    freq: "moins fréquent mais pronostic sombre"
+  - dx: "{p:Cirrhose décompensée}"
+    indices: "ATCD hépatopathie (alcool, hépatite chronique), signes d'IHC (angiomes, érythrose, astérixis), HTP (ascite, splénomégalie, varices), TP abaissé, albumine ↓"
+    freq: "fréquent chez patient avec hépatopathie chronique"
+  - dx: "{p:Hémolyse aiguë}"
+    indices: "Ictère à bilirubine non conjuguée, urines claires, pâleur + anémie, réticulocytes ↑, LDH ↑, haptoglobine ↓, Coombs + (auto-immune); drépanocytose/G6PD selon contexte ethnique"
+    freq: "moins fréquent; penser si urines claires + anémie"
+
+# source: SSP_Ictère.md line 362-595
+pec_initiale:
+  immediate:
+    - "Red flags d'abord — tout signe de gravité → bilan hépatique + TP/facteur V + écho AVANT traitement"
+    - |-
+      {p:Angiocholite}: {r:C3G + métronidazole IV} (ou pipéracilline-tazobactam); hémocultures;
+      CPRE + sphinctérotomie < 24h si non résolutif sous ATB; drainage percutané si échec CPRE
+    - "{p:Hépatite fulminante}: {r:N-acétylcystéine IV} si paracétamol; transfert USI; avis transplantation hépatique (critères King's College)"
+    - "{p:Hémolyse sévère}: transfusion si {r:Hb < 7 g/dL}; traitement étiologique (corticoïdes si AHAI); hématologue"
+    - "Prurit cholestase: {r:cholestyramine 4g × 3/j}; rifampicine si échec [VÉRIFIER: dose rifampicine cholestase]"
+    - "Hépatite alcoolique sévère (Maddrey > 32): {r:prednisolone 40 mg/j}; {r:thiamine IV} (prévention Wernicke); nutrition entérale"
+  orientation:
+    - "Urgences STAT: angiocholite, hépatite fulminante, hémolyse aiguë sévère, suspicion cancer (bilan rapide)"
+    - "Hospitalisation: {p:TP < 50%}, encéphalopathie, insuffisance rénale associée, déshydratation sévère, contexte social défavorable"
+    - "Ambulatoire + gastro: hépatite virale bénigne (VHA sans signes de gravité), cholestase médicamenteuse légère → arrêt médicament suspect"
+    - "Consignes retour urgences: fièvre + frissons, confusion, douleur abdominale intense, saignements, urines très foncées + oligurie"
+
+# source: SSP_Ictère.md line 376-431
+examens_complementaires:
+  - "{t:Bilan hépatique complet}: bili totale + conjuguée (orientation mécanistique), ASAT/ALAT (cytolyse), PAL/GGT (cholestase), albumine, {r:TP + facteur V} (gravité)"
+  - "{t:NFS + réticulocytes + LDH + haptoglobine + Coombs direct}: si urines claires ou pâleur → hémolyse"
+  - "{t:Échographie abdominale}: première intention — dilatation VB, lithiase, masse pancréatique, cirrhose, ascite"
+  - "{t:Sérologies virales}: IgM anti-VHA, AgHBs + IgM anti-HBc, Ac anti-VHC (+ ARN VHC), IgM anti-VHE selon contexte"
+  - "{t:CT abdominal injecté ± IRM bilio-pancréatique}: si suspicion néoplasie ou écho non contributive pour voies biliaires"
+  - "{t:Dosage paracétamolémie + ammoniémie}: si intoxication suspectée ou encéphalopathie [VÉRIFIER: seuil ammoniémie encéphalopathie hépatique]"
+
+criteres_hospitalisation:
+  - "{p:Angiocholite} avérée (fièvre + ictère + douleur) — urgence"
+  - "{s:TP < 50%} ou encéphalopathie hépatique (astérixis, confusion)"
+  - "{s:Insuffisance rénale} associée ou déshydratation sévère (vomissements)"
+  - "Suspicion néoplasie bilio-pancréatique → bilan d'extension urgent"
+  - "Contexte social défavorable ou diagnostic incertain nécessitant surveillance"
+
+pieges:
+  - "Banaliser une {s:vésicule palpable} indolore chez patient ictérique → {p:Courvoisier} = cancer jusqu'à preuve du contraire (≠ Murphy positif = cholécystite inflammatoire)"
+  - "Confondre {s:caroténémie} et ictère: sclères blanches si carotène seul — l'ictère commence toujours par les sclères"
+  - "Ne pas doser le {t:TP/facteur V} systématiquement — seul marqueur précoce de gravité hépatique, indépendant de la vitamine K"
+  - "Oublier {p:intoxication paracétamol} (ictère différé J2-3, anamnèse souvent incomplète) et {p:amanite phalloïde} (délai 6-24h) — interrogatoire toxique exhaustif obligatoire"
+  - "Négliger la {e:grossesse} chez femme jeune: cholestase gravidique, stéatose aiguë, HELLP — test grossesse systématique"
+
+cartes_liees:
+  - SYS-GAS
+  - SSP-GAS-07

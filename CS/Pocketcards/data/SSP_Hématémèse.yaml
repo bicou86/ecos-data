@@ -1,0 +1,176 @@
+id: SSP-GAS-02
+type: ssp
+title: Hématémèse
+discipline: Gastro
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Hématémèse.md
+
+# source: lines 13-154 (anamnèse)
+anamnese:
+  socrates:
+    - |-
+      Onset:
+      • premier épisode ou récidive?
+      • délai depuis le 1er épisode?
+    - |-
+      Character — aspect du sang:
+      • {s:rouge vif} (saignement actif récent)
+      • noir '{s:marc de café}' (sang digéré)
+      • caillots / mélange alimentaire
+    - |-
+      Volume estimé:
+      • quelques filets / demi-verre / plusieurs verres / cuvette entière
+      • nombre total d'épisodes?
+    - "Radiation: méléna associé (selles noires goudronneuses) → HDH confirmée"
+    - "Exacerbating: effort de vomissement avant le saignement ({p:Mallory-Weiss})?"
+    - "Relieving: saignement actif ou arrêté? aggravation ou stabilisation?"
+    - |-
+      Severity — tolérance immédiate:
+      • malaise / syncope / soif intense / sueurs froides
+      • agitation, confusion
+      • dyspnée
+
+  specifique:
+    - |-
+      Différencier hématémèse vraie:
+      • {s:hémoptysie} → effort de toux, sang spumeux aéré, contexte respiratoire
+      • épistaxis déglutie / saignement buccal-pharyngé
+    - |-
+      Orientation étiologique:
+      • {s:douleur épigastrique} chronique rythmée par les repas → ulcère GD
+      • AINS / aspirine / corticoïdes → gastrite érosive ou ulcère
+      • {s:dysphagie progressive} + amaigrissement → tumeur œso-gastrique
+      • {s:vomissements répétés} précédant le saignement → Mallory-Weiss
+      • {s:pyrosis} ancien / hernie hiatale → œsophagite
+    - |-
+      Signes d'hypertension portale (suspicion varices):
+      • ascite / ictère / confusion ({s:astérixis})
+      • ATCD varices œsophagiennes connues
+      • hémorragie massive brutale rouge vif
+
+  atcd:
+    - |-
+      Terrain hépatique:
+      • cirrhose (alcoolique, virale VHB/VHC, NASH, autre)
+      • ATCD d'hémorragie digestive haute antérieure
+      • résultats endoscopies précédentes
+    - |-
+      Médicaments à risque:
+      • {r:AINS / aspirine} (même faible dose) / biphosphonates
+      • {r:anticoagulants} (AVK, AOD) / antiagrégants (clopidogrel, ticagrelor)
+      • corticoïdes
+    - |-
+      Habitudes de vie:
+      • alcool: consommation chronique (cirrhose) vs aiguë récente
+      • tabac / H. pylori connu
+    - "Chirurgie gastrique antérieure / radiothérapie thoracique"
+    - "Âge >65 ans, cardiopathie, insuffisance rénale, néoplasie → terrain à haut risque"
+
+# source: lines 392-414 (pièges/points clés) + pivots du task brief
+red_flags:
+  - description: "{s:TA <90 mmHg} + {s:FC >120/min} + marbrures / extrémités froides"
+    dx_suspecte: "{p:Choc hémorragique}"
+    action: "2 VVP gros calibre (16-18G); {r:cristalloïdes 500 ml} en 15-30 min; CGR si Hb <7; endoscopie <2h"
+  - description: "Cirrhose connue + {s:hématémèse massive rouge vif} ± ascite / ictère / astérixis"
+    dx_suspecte: "{p:Rupture de varices œsophagiennes}"
+    action: "{r:terlipressine 2 mg/4h IV} + {r:ceftriaxone 1 g/j} × 7 j; endoscopie <2h (ligature élastique) [VÉRIFIER: octréotide 50 μg bolus puis 50 μg/h comme alternative à terlipressine — confirmer protocole CHUV/HUG]"
+  - description: "{s:Ulcère actif Forrest Ia} (jet artériel) ou {s:Forrest Ib} (suintement) à l'endoscopie"
+    dx_suspecte: "{p:Ulcère gastroduodénal hémorragique}"
+    action: "Hémostase endoscopique (clips / injection adrénaline / thermocoagulation); {r:oméprazole 80 mg IV bolus} puis {r:8 mg/h IVSE}"
+  - description: "{s:Hb <7 g/dL} avec syncope / dyspnée / angor → anémie aiguë symptomatique"
+    dx_suspecte: "{p:Anémie aiguë symptomatique} (seuil <9 g/dL si {e:cardiopathie})"
+    action: "Transfusion CGR (stratégie restrictive); objectif Hb {r:7-9 g/dL} [VÉRIFIER: seuil transfusionnel optimal chez cirrhotique — certaines guidelines recommandent Hb cible <8 g/dL pour ne pas aggraver HTP]"
+  - description: "{s:Vomissements} + {s:altération de conscience} / Glasgow <15"
+    dx_suspecte: "{p:Aspiration bronchique} — complication vitale immédiate"
+    action: "Intubation protectrice avant endoscopie; érythromycine {r:250 mg IV} 30 min avant geste"
+  - description: "Patient sous {r:anticoagulants} (AVK/AOD) + HDH active + TP <50% ou plaquettes <50 000/mm³"
+    dx_suspecte: "{p:Coagulopathie} / {p:CIVD} — hémorragie aggravée"
+    action: "PFC si TP <50%; antidote AVK ({r:vitamine K IV} + CCP); reversal AOD si disponible; groupage RAI × 2 [VÉRIFIER: protocoles de reversal AOD spécifiques au centre — idarucizumab (dabigatran), andexanet alfa (Xa)]"
+
+# source: lines 162-215 (examen clinique)
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES dès l'entrée: {t:TA} (hyp. orthostatique >20 mmHg), {t:FC}, FR, T°, {t:SaO2}, {t:Glasgow}"
+    - "Évaluation classe hémorragique (I-IV): pertes <15% vs >40% — TA peut être normale jusqu'à classe III"
+    - "Scores pronostiques: {t:Glasgow-Blatchford} (admission); {t:Rockall} (post-endoscopie)"
+  cible:
+    - |-
+      Signes de choc hémorragique:
+      • pâleur, sueurs, {s:marbrures}, extrémités froides, TRC >3 sec
+      • agitation / confusion / somnolence
+    - |-
+      Signes d'hépatopathie chronique (HTP):
+      • {s:ictère} / angiomes stellaires / érythrose palmaire / gynécomastie
+      • {s:ascite} (matité flancs, signe du flot) / splénomégalie
+      • circulation collatérale abdominale
+      • {s:astérixis} (encéphalopathie hépatique)
+    - |-
+      Examen abdominal:
+      • inspection: distension / circulation collatérale
+      • palpation: douleur épigastrique, hépatomégalie, splénomégalie, ascite
+      • {t:TR}: méléna (sang digéré) ou sang rouge (HDH haute débit ou HDB)
+    - "Recherche complications: {s:polypnée} / hypoxie (aspiration), oligurie (IRA), pneumopathie d'inhalation"
+
+# source: lines 76-120 (orientation étiologique MD)
+dd_top5:
+  - dx: "{p:Ulcère gastroduodénal}"
+    indices: "Douleur épigastrique chronique rythmée repas, ATCD UGD, AINS/aspirine, H. pylori; {t:Forrest} Ia-IIa = hémostase endoscopique obligatoire"
+    freq: "~45% des HDH — cause #1"
+  - dx: "{p:Rupture de varices œsophagiennes}"
+    indices: "Cirrhose connue, hématémèse massive brutale rouge vif, signes HTP (ascite, ictère, angiomes stellaires); mortalité élevée (~20-40%)"
+    freq: "~20% des HDH"
+  - dx: "{p:Syndrome de Mallory-Weiss}"
+    indices: "Vomissements répétés précédant le saignement, contexte alcoolisation aiguë; saignement modéré souvent autolimité — bon pronostic"
+    freq: "~15% des HDH"
+  - dx: "{p:Gastrite érosive / œsophagite peptique}"
+    indices: "AINS / alcool / stress / corticoïdes; RGO chronique, pyrosis, hernie hiatale; rarement hémorragie sévère"
+    freq: "~10-15% des HDH"
+  - dx: "{p:Néoplasie œso-gastrique}"
+    indices: "Dysphagie progressive, amaigrissement, âge >50 ans; GIST possible; saignement souvent chronique mais peut être aigu"
+    freq: "~5% des HDH"
+
+# source: lines 220-388 (PEC management MD)
+pec_initiale:
+  immediate:
+    - "PRIORITÉ: évaluation hémodynamique → si choc: réanimation AVANT tout examen complémentaire"
+    - "2 VVP gros calibre {r:16-18G}; monitorage FC/TA/SaO2; sonde urinaire si choc (diurèse horaire)"
+    - "Prélèvements urgents: {t:NFS}, crase (TP/TCA/fibrinogène), ionogramme/{t:urée}/{t:créat}, bilan hépatique, {t:lactates}, gaz du sang, {t:groupe RAI × 2}"
+    - "{r:Oméprazole 80 mg IV bolus} puis {r:40 mg × 2/j IV} ou {r:8 mg/h IVSE} — SYSTÉMATIQUE avant endoscopie"
+    - "Si suspicion varices: {r:terlipressine 2 mg/4h IV} + {r:érythromycine 250 mg IV} 30 min avant endoscopie + {r:ceftriaxone 1 g/j}"
+    - "À jeun strict; intubation protectrice si Glasgow <12 ou vomissements incoercibles"
+    - "Endoscopie haute: <{r:24h} si stable; <{r:12h} si instable; <{r:2h} si varices suspectées ou hémorragie active"
+  orientation:
+    - "Réa/USI: choc hémorragique, hémorragie active, comorbidités sévères, Glasgow-Blatchford élevé"
+    - "Hospitalisation conventionnelle: tout autre cas — surveillance minimum {r:48-72h}"
+    - "Échec endoscopie: artériographie-embolisation (hémorragie active >0,5 ml/min) ou chirurgie (>6 CGR/24h)"
+    - "Varices: échec endoscopie → {t:TIPS} (shunt porto-systémique intra-hépatique)"
+
+examens_complementaires:
+  - "{t:NFS + crase} (TP, TCA, fibrinogène, plaquettes): urgence — NB: Hb initiale peut sous-estimer pertes (hémodilution retardée)"
+  - "{t:Urée + créatinine}: rapport urée/créat ↑ → évoque HDH (protéines digérées du sang absorbées)"
+  - "{t:Groupe sanguin RAI × 2 déterminations}: indispensable avant transfusion"
+  - "{t:Lactates}: reflet de l'hypoperfusion tissulaire — lactates >2 mmol/L = choc"
+  - "{t:Endoscopie digestive haute}: examen diagnostique ET thérapeutique — classification {t:Forrest} (ulcère), ligature (varices)"
+  - "{t:Bilan hépatique} (ALAT/ASAT/γGT/bilirubine/albumine/TP): suspicion hépatopathie chronique"
+
+criteres_hospitalisation:
+  - "Choc hémorragique ou instabilité hémodynamique → Réa/USI"
+  - "{t:Glasgow-Blatchford} >0: toute HDH sauf score 0 sans facteur de risque"
+  - "Hémorragie active endoscopique ou Forrest Ia/Ib/IIa"
+  - "Cirrhose connue ou suspicion HTP"
+  - "Anémie aiguë symptomatique nécessitant transfusion"
+
+pieges:
+  - "Hb normale à l'admission N'exclut PAS une hémorragie massive (hémodilution retardée de 6-24h)"
+  - "Surtransfuser chez le {e:cirrhotique} aggrave l'HTP et favorise le resaignement — cible Hb <{r:8-9 g/dL}"
+  - "Oublier l'{r:antibioprophylaxie} (ceftriaxone) chez le cirrhotique avec HDH — réduit mortalité de 20%"
+  - "Ne pas passer la sonde naso-gastrique systématiquement — inutile et délai l'endoscopie"
+  - "{s:Hémorragie 'sentinelle'} modérée puis accalmie → masque fistule aorto-digestive ou anévrisme (cause rare mais mortelle)"
+
+cartes_liees:
+  - SYS-GAS
+  - TOOL-GBS
+  - TOOL-ROCKALL

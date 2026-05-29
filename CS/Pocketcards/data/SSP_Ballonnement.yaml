@@ -1,0 +1,218 @@
+id: SSP-GAS-11
+type: ssp
+title: Ballonnement
+discipline: Gastro
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Ballonnement.md
+
+# source: lines 10-177
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • épigastre / péri-ombilical / flancs / hypogastre / diffus?
+      • unilatéral (évocateur de masse)?
+    - |-
+      Onset:
+      • aigu (<1 sem) / subaigu (1-4 sem) / {s:chronique (>4 sem)}?
+      • évolution progressive?
+    - "Character: {s:distension visible} (météorisme objectif) ou sensation pure (subjectif) — distinction clé"
+    - |-
+      Timing:
+      • matin au réveil (fonctionnel) / post-prandial immédiat 30 min / tardif 2-3 h?
+      • fin de journée? permanent?
+    - |-
+      Exacerbating:
+      • repas — quels aliments (FODMAPs: lactose, fructose, polyols, légumineuses, choux)?
+      • boissons gazeuses, alcool?
+      • stress / émotions?
+      • règles (femme) — endométriose?
+    - |-
+      Relieving:
+      • émission de gaz / selles?
+      • position allongée?
+      • jeûne / régime d'éviction?
+      • antispasmodiques?
+    - |-
+      Severity:
+      • gêne simple / limitation activités / vêtements serrés?
+      • impact vie sociale, professionnelle?
+  specifique:
+    - |-
+      Troubles du transit:
+      • constipation (<3 selles/sem) / diarrhée (>3/j) / alternance?
+      • selles pâteuses, graisseuses ({s:stéatorrhée})? {s:sang} / méléna / mucus?
+      • émission gaz augmentée / malodorante?
+    - |-
+      Autres symptômes digestifs:
+      • douleur abdominale — crampes soulagées par défécation ({p:SII})?
+      • nausées / vomissements — fécaloïdes ({p:occlusion})?
+      • {s:satiété précoce} / pesanteur post-prandiale / pyrosis?
+    - |-
+      Comportement alimentaire:
+      • vitesse ingestion (<20 min) / mastication insuffisante / parler en mangeant?
+      • chewing-gum fréquent, paille ({s:aérophagie})?
+    - |-
+      Contexte gynécologique (femme):
+      • ballonnement prémenstruel? grossesse possible?
+      • endométriose connue? masse ovarienne antérieure?
+  atcd:
+    - |-
+      ATCD digestifs:
+      • SII, MICI (Crohn / RCH), maladie cœliaque, gastroparésie
+      • chirurgie abdominale (adhérences, ATCD {p:SIBO})
+      • diverticulose
+    - |-
+      Comorbidités:
+      • diabète (gastroparésie / neuropathie)?
+      • hypothyroïdie (transit ralenti)?
+      • cirrhose / IHC (ascite)?
+      • insuffisance cardiaque (ascite)?
+    - |-
+      Médicaments ballonnisants:
+      • opiacés / anticholinergiques (iléus)
+      • fer (constipation) / métformine (gaz, diarrhée)
+      • IPP au long cours ({p:SIBO}, dysbiose)
+      • antibiotiques récents (dysbiose)
+    - "ATCD familiaux: cancer colorectal, MICI, maladie cœliaque"
+
+# source: lines 178-224
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T° — {s:fièvre} ({p:MICI}, surinfection ascite)?"
+    - "{s:AEG}: IMC, perte de poids mesurée, état général"
+    - |-
+      Inspection abdominale:
+      • {s:distension visible} — symétrique / asymétrique?
+      • cicatrices chirurgicales?
+      • {s:circulation collatérale} ({p:HTP / cirrhose})?
+      • péristaltisme visible ({p:occlusion})?
+  cible:
+    - |-
+      Auscultation:
+      • bruits hydroaériques normaux (5-35/min)?
+      • absents ({p:iléus}) / métalliques ({p:occlusion})?
+    - |-
+      Percussion:
+      • {s:tympanisme} (gaz++) / {s:matité déclive mobile} ({p:ascite})?
+      • aire hépatique (hépatomégalie)?
+    - |-
+      Palpation superficielle → profonde:
+      • défense / contracture ({p:péritonite}, urgence chirurgicale)?
+      • {s:masse palpable} — localisation, mobilité?
+      • organomégalie (foie, rate)?
+    - |-
+      Signes spécifiques:
+      • Murphy ({p:cholécystite}) / McBurney ({p:appendicite})?
+      • signe du flot / glaçon ({p:ascite importante})?
+    - "TR: {t:sang occulte}, fécalome, masse rectale?"
+    - "Examen gynécologique si indication (masse pelvienne suspectée)" # [VÉRIFIER: si TR + examen gyné systématiques ECOS ou sur indication]
+
+# source: lines 296-343
+dd_top5:
+  - dx: "{p:Syndrome de l'intestin irritable (SII)}"
+    indices: |-
+      Critères {t:Rome IV}: douleur abdominale ≥1×/sem depuis 3 mois
+      + ≥2 critères: défécation, modification fréquence/consistance selles
+      • alternance C/D, ballonnement chronique, soulagé par défécation
+      • pas de signe d'alarme, examen normal
+    freq: "très fréquent (10-15 % pop.)"
+  - dx: "{p:SIBO} (Small Intestinal Bacterial Overgrowth)"
+    indices: |-
+      {s:flatulences malodorantes postprandiales} (2-3 h), distension progressive
+      • ATCD chirurgie digestive, diabète, IPP prolongés, hypothyroïdie
+      • {t:breath test glucose/lactulose}: élévation H2 ou méthane
+    freq: "fréquent (sous-diagnostiqué)"
+  - dx: "{p:Intolérances alimentaires} (lactose, FODMAPs, gluten non cœliaque)"
+    indices: |-
+      Corrélation nette avec aliments spécifiques (produits laitiers, légumineuses, édulcorants)
+      • {t:breath test H2 lactose} ou test d'éviction-réintroduction
+      • résolution rapide à l'éviction
+    freq: "très fréquent (lactose 15 % pop. CH)"
+  - dx: "{p:Constipation chronique}"
+    indices: |-
+      <3 selles/sem, selles dures (Bristol 1-2), efforts de poussée
+      • accumulation gaz coliques → ballonnement fin de journée
+      • dyssynergie ano-rectale possible ({t:manométrie ano-rectale})
+    freq: "fréquent (15-20 % pop.)"
+  - dx: "{p:Ascite} (cirrhotique / cardiaque / tumorale)"
+    indices: |-
+      {s:distension symétrique progressive}, {s:matité déclive mobile}, {s:signe du flot}
+      • {e:cirrhose}: ictère, angiomes stellaires, érythème palmaire, HTP
+      • {e:IC}: dyspnée, oedèmes périphériques
+      • tumorale: AEG, masse palpable, antécédent néoplasique
+    freq: "moins fréquent mais à éliminer d'emblée"
+
+# source: lines 475-486
+red_flags:
+  - description: "{e:>50 ans} + {s:AEG} + {s:sang dans selles} (occulte ou macro) + {s:anémie} + modification récente du transit"
+    dx_suspecte: "{p:Cancer colorectal}"
+    action: "NFS + {t:sang occulte fécal}; {t:coloscopie} urgente; scanner abdomino-pelvien si masse palpable"
+  - description: "{s:Diarrhée chronique sanglante} ± mucus + {s:fièvre} + AEG chez sujet jeune ± manifestations extra-intestinales (arthralgies, aphtes, uvéite)"
+    dx_suspecte: "{p:MICI} (Crohn / RCH)"
+    action: "{t:calprotectine fécale} + CRP; {t:coloscopie + biopsies}; avis gastro-entérologie" # [VÉRIFIER: seuil calprotectine retenu (>50 ou >200 µg/g?)]
+  - description: "{s:Anémie ferriprive inexpliquée} ± diarrhée chronique ± {s:perte de poids} ± carences multiples ({e:ostéoporose précoce, dermatite herpétiforme})"
+    dx_suspecte: "{p:Maladie cœliaque}"
+    action: "Sérologies {t:anti-transglutaminase IgA} + IgA totaux; {t:biopsies duodénales} (VEDA); régime sans gluten si confirmé"
+  - description: "{s:Distension abdominale progressive} + {s:matité déclive} + {s:signes d'insuffisance hépatique} (ictère, angiomes) ou contexte néoplasique"
+    dx_suspecte: "{p:Ascite cirrhotique ou tumorale}"
+    action: "{t:Échographie abdominale} urgente + {t:ponction diagnostique}; bilan hépatique + {t:NFS} + {t:protéines liquide ascite}"
+  - description: "{e:Femme >50 ans}: {s:ballonnement persistant} >3 sem + {s:masse pelvienne} ± {s:signes urinaires} (pollakiurie)"
+    dx_suspecte: "{p:Cancer ovarien}"
+    action: "{t:CA-125} + {t:échographie pelvienne}; IRM pelvi-abdominale si doute; avis gynécologie urgente" # [VÉRIFIER: CA-125 comme premier test vs écho d'abord selon guidelines suisses]
+
+# source: lines 225-295
+examens_complementaires:
+  - "{t:NFS + CRP + ferritine}: anémie, inflammation — orienter vers organique vs fonctionnel"
+  - "{t:TSH + glycémie + transaminases}: hypothyroïdie, diabète (gastroparésie), hépatopathie"
+  - "{t:Sérologies anti-TG IgA + IgA totaux}: suspicion {p:maladie cœliaque} (anémie, carences)"
+  - "{t:Calprotectine fécale}: si diarrhée chronique — distinguer MICI (>200 µg/g) de SII (<50 µg/g)"
+  - "{t:Breath test H2} (glucose/lactulose pour {p:SIBO}; lactose pour intolérance): tests fonctionnels de 2e intention"
+  - "{t:Coloscopie}: si >50 ans + symptômes nouveaux / sang / modification transit / ATCD familiaux CCR; {t:échographie abdominale} si masse ou ascite suspectée"
+
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — tout signe d'alarme → bilan biologique + imagerie AVANT traitement symptomatique"
+    - |-
+      RHD 1ère ligne (efficaces 70 % SII):
+      • régime pauvre en FODMAPs {r:4-6 sem} (phase stricte puis réintroduction progressive)
+      • repas réguliers, mastication lente, éviter boissons gazeuses / chewing-gum
+      • activité physique régulière, gestion du stress (yoga, TCC)
+    - |-
+      Traitements symptomatiques:
+      • antispasmodiques: {r:phloroglucinol 80 mg x3/j} ou {r:trimébutine 200 mg x3/j}
+      • anti-gaz: {r:siméticone 40-125 mg} après repas
+      • constipation: {r:macrogol 10-20 g/j} ou psyllium {r:5-10 g/j}
+    - |-
+      Si {p:SIBO} confirmé (breath test +):
+      • {r:rifaximine 550 mg x2/j × 14 j} (non absorbé, peu de résistances) # [VÉRIFIER: posologie rifaximine SIBO — certaines sources 400 mg x3/j × 10 j]
+      • alternative: {r:métronidazole 250 mg x3/j × 10 j}
+    - "Si {p:SII} sévère: {r:amitriptyline 10-50 mg/j} (antalgique viscéral) ou ISRS {r:sertraline 25-100 mg/j}; TCC / hypnothérapie"
+  orientation:
+    - "Domicile + MT: ballonnement fonctionnel typique, examen normal, absence de red flags, RHD initiées"
+    - "Gastro-entérologie ambulatoire: échec RHD à {r:4-6 sem}, doute diagnostique, bilan à initier (coloscopie, breath test)"
+    - "Urgences / hospitalisation: {s:syndrome occlusif} (arrêt matières/gaz, vomissements fécaloïdes), {s:ascite sous tension}, {s:AEG rapide}"
+    - "Gynécologie: masse pelvienne suspectée ou signes évocateurs cancer ovarien"
+
+criteres_hospitalisation:
+  - "{s:Syndrome occlusif} avéré (arrêt matières + gaz, vomissements fécaloïdes, douleur intense)"
+  - "{p:Ascite} sous tension ou premier épisode avec instabilité hémodynamique"
+  - "{s:AEG} rapide inexpliquée nécessitant bilan urgent"
+  - "Complication de MICI (poussée sévère, mégacôlon toxique)"
+  - "Nécessité ponction ascitique diagnostique/thérapeutique urgente"
+
+pieges:
+  - "Rassurer trop vite sans éliminer les red flags — le ballonnement fonctionnel ({p:SII}) est un diagnostic d'élimination"
+  - "Oublier le {p:cancer ovarien} chez la femme >50 ans avec ballonnement persistant — demander {t:échographie pelvienne} + {t:CA-125}"
+  - "Attribuer à tort la distension à un transit sans palper abdomen ni chercher {s:matité déclive} ({p:ascite} méconnue)"
+  - "Méconnaître l'effet ballonnisant des {r:IPP} au long cours et de la {r:metformine} (SIBO / dysbiose iatrogène)"
+  - "Prescrire régime FODMAPs ultra-restrictif sans suivi diététique — risque de carences et régimes inutilement prolongés"
+
+cartes_liees:
+  - SSP-GAS-01
+  - SSP-GAS-05
+  - SSP-GAS-08
+  - SYS-GAS

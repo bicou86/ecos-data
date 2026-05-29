@@ -1,0 +1,171 @@
+id: SSP-GAS-10
+type: ssp
+title: Pyrosis
+discipline: Gastro
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Pyrosis.md
+
+# source: lines 12-196
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • rétrosternale ascendante, épigastrique?
+      • irradiation gorge, mâchoire?
+    - |-
+      Onset:
+      • ancienneté (semaines / mois / années)?
+      • évolution stable ou aggravation récente?
+    - "Character: brûlure remontante / chaleur / acidité / sensation de reflux liquide?"
+    - |-
+      Time:
+      • post-prandial (30-60 min après repas)?
+      • nocturne (réveil) / décubitus?
+      • fréquence (quotidienne / hebdomadaire)?
+    - |-
+      Exacerbating:
+      • alimentation: repas gras, chocolat, café, alcool, agrumes, épices?
+      • positions: couché, antéflexion, effort post-prandial?
+      • médicaments: AINS, aspirine, inhibiteurs calciques, biphosphonates?
+    - "Relieving: antiacides (efficacité immédiate?), position debout, IPP déjà essayés (molécule, dose, efficacité)?"
+    - |-
+      Severity:
+      • EVA 0-10
+      • impact sommeil, alimentation, activité, qualité de vie?
+  specifique:
+    - |-
+      {s:Régurgitations acides}:
+      • sans effort de vomissement, goût acide/amer?
+      • nocturnes (oreiller taché)?
+    - "Éructations fréquentes / hoquet persistant / nausées / plénitude gastrique?"
+    - |-
+      Manifestations extra-digestives du RGO {s:⚠️ souvent méconnues}:
+      • ORL: enrouement matinal, toux chronique sèche, sensation de boule dans la gorge
+      • Dentaires: érosions dentaires, halitose
+      • Respiratoires: asthme nocturne, pneumopathies récidivantes
+    - |-
+      {s:Signes d'alarme — rechercher systématiquement}:
+      • {s:dysphagie} (aux solides → liquides)?
+      • {s:amaigrissement involontaire}?
+      • {s:hématémèse / méléna}?
+      • {s:anémie} (pâleur, asthénie)?
+    - "Impact qualité de vie: sommeil perturbé, alimentation limitée, arrêts de travail?"
+  atcd:
+    - |-
+      Facteurs de risque RGO:
+      • surpoids/obésité (IMC)?
+      • tabagisme, alcool?
+      • hernie hiatale connue?
+      • grossesse actuelle?
+      • repas tardifs (<3h avant coucher)?
+    - |-
+      ATCD familiaux cancer œsophage/estomac? {s:Âge >50 ans} avec symptômes récents?
+      Endobrachyœsophage (Barrett) connu? [VÉRIFIER: facteurs de risque Barrett — RGO>10 ans, homme >50a, obésité, tabac]
+    - |-
+      Médicaments favorisant RGO:
+      • relaxants du SIO: inhibiteurs calciques, dérivés nitrés, théophylline, benzodiazépines
+      • irritants muqueux: AINS, aspirine, biphosphonates, fer, potassium
+      • anticholinergiques, progestérone
+    - "Pathologies associées: sclérodermie, diabète (gastroparésie), H. pylori connu?"
+    - "FRCV: HTA, diabète, hypercholestérolémie, tabac, âge — si douleur thoracique typique {s:éliminer SCA}?"
+
+# source: lines 84-95
+red_flags:
+  - description: "{s:Dysphagie progressive} (solides → liquides) ou {s:odynophagie}"
+    dx_suspecte: "{p:Cancer œsophage} (Barrett, OH/tabac), {p:sténose peptique}"
+    action: "{t:EOGD} urgente; ne pas attendre test IPP"
+  - description: "{s:Hémorragie digestive haute}: hématémèse ou méléna"
+    dx_suspecte: "{p:Œsophagite sévère} Los Angeles C-D, {p:ulcère gastroduodénal}, {p:cancer}"
+    action: "{t:EOGD} urgente; {t:NFS}, groupe-crossmatch; hospitalisation"
+  - description: "{s:Amaigrissement involontaire} >5% en <6 mois ou {s:anémie ferriprive} sans cause évidente"
+    dx_suspecte: "{p:Cancer œsophage} ou {p:cancer gastrique}"
+    action: "{t:EOGD} + {t:coloscopie}; {t:NFS}, ferritine; bilan néoplasique"
+  - description: "{s:Douleur thoracique} constrictive + FRCV ({e:>50 ans}, HTA, diabète) ± irradiation bras gauche/mâchoire + sueurs"
+    dx_suspecte: "{p:SCA / angor} — pseudo-pyrosis cardiaque"
+    action: "{t:ECG 12d} STAT + {t:troponines}; avis urgences si doute"
+  - description: "{s:Pyrosis résistant aux IPP} (4-8 sem pleine dose) ou {s:symptômes persistants à l'arrêt} + {e:âge >50 ans}"
+    dx_suspecte: "{p:Œsophagite à éosinophiles}, {p:achalasie}, {p:cancer} — échec test thérapeutique"
+    action: "{t:EOGD} avec biopsies [VÉRIFIER: seuil exact de résistance définissant l'échec IPP avant endoscopie]"
+
+# source: lines 199-229
+examen:
+  general:
+    - "Poids, taille, {t:IMC} — surpoids/obésité (facteur de risque RGO)?"
+    - "État nutritionnel, signes d'{s:anémie} (pâleur conjonctivale, tachycardie)"
+    - "Constantes: TA, FC, T° (éliminer urgence fébrile)"
+  cible:
+    - |-
+      Abdomen:
+      • inspection: distension?
+      • palpation: {s:épigastralgie provoquée}, défense (complication), hépatomégalie?
+      • auscultation: bruits hydroaériques normaux?
+    - |-
+      Examen ORL ciblé (manifestations extra-digestives RGO):
+      • pharynx: érythème postérieur?
+      • dentition: érosions acides?
+    - "Auscultation cardiaque et pulmonaire (DD cardiaque, complications respiratoires)"
+    - "Signes de saignement: pâleur conjonctivale, tachycardie compensatrice?"
+
+# source: lines 236-270 + pivots DD
+dd_top5:
+  - dx: "{p:RGO non érosif (NERD) ou érosif}"
+    indices: "Brûlure rétrosternale ascendante post-prandiale/nocturne, régurgitations acides, soulagée par antiacides/IPP; réponse au test IPP = argument diagnostique fort [VÉRIFIER: critères NERD vs érosif — distinction endoscopique uniquement]"
+    freq: "très fréquent (10-20 % population)"
+  - dx: "{p:Œsophagite} (peptique, candidosique, médicamenteuse, à éosinophiles)"
+    indices: "Pyrosis intense persistant ± odynophagie; Los Angeles A-D; candidose si immunodéprimé/ATB récents; éosinophiles si résistance IPP + dysphagie jeune adulte"
+    freq: "fréquent (forme compliquée du RGO)"
+  - dx: "{p:Hernie hiatale}"
+    indices: "Souvent associée au RGO; régurgitations positionnelles++; parfois asymptomatique; diagnostic radiologique ou endoscopique"
+    freq: "fréquent (20 % > 50 ans)"
+  - dx: "{p:Ulcère gastroduodénal} / {p:gastrite à H. pylori}"
+    indices: "Douleur épigastrique rythmée par les repas, périodes de rémission, soulagée par antiacides; AINS/aspirine, H. pylori; ± hémorragie"
+    freq: "fréquent"
+  - dx: "{p:SCA / angor atypique}"
+    indices: "Douleur thoracique pseudo-digestive, constrictive, FRCV, effort déclenchant ± irradiation bras gauche; sueurs, malaise; {e:>50 ans + FRCV = toujours exclure}"
+    freq: "rare mais urgence vitale"
+
+# source: lines 234-410
+pec_initiale:
+  immediate:
+    - "Rechercher red flags d'abord — tout signe d'alarme → {t:EOGD} sans délai (ne pas débuter test IPP)"
+    - "{s:Pyrosis typique sans signe d'alarme}: test thérapeutique {r:IPP dose standard 4-8 semaines} (oméprazole {r:20 mg/j PO} ou esoméprazole {r:20-40 mg/j PO}) 30 min avant repas du matin"
+    - "RHD systématiques: perte de poids si surpoids, surélévation tête de lit {r:15-20 cm}, éviter repas tardifs (>3h avant coucher), réduire café/chocolat/alcool/épices/graisses"
+    - "Antiacides/alginates (Gaviscon après repas et coucher) pour soulagement rapide symptomatique en complément IPP"
+    - "{s:Si doute cardiaque}: {t:ECG 12d} + {t:troponines} AVANT toute prise en charge digestive"
+    - "Indications {t:EOGD}: signe d'alarme, âge >50 ans avec symptômes nouveaux, résistance IPP (4-8 sem), symptômes persistants à l'arrêt [VÉRIFIER: protocole CHUV/HUG pour EOGD chez >50 ans sans signe d'alarme — indication systématique ou seulement si nouveau?]"
+  orientation:
+    - "Domicile + réévaluation 4-8 sem: pyrosis typique non compliqué, test IPP; tenter sevrage IPP annuel si réponse complète"
+    - "Gastro-entérologue: résistance IPP, signes d'alarme, complications (œsophagite C-D, Barrett, sténose)"
+    - "Urgences: hémorragie digestive, SCA suspecté, déshydratation sévère"
+    - "Chirurgie anti-reflux (Nissen laparoscopique): échec traitement médical optimal, dépendance IPP sujet jeune, volumineuse hernie hiatale — efficacité {r:85-90 %} [VÉRIFIER: indications opératoires actuelles — critères manométrie préopératoire obligatoire?]"
+
+# source: lines 234-270
+examens_complementaires:
+  - "{t:ECG 12d} + {t:troponines}: si douleur thoracique atypique ou FRCV → éliminer SCA avant tout"
+  - "{t:Test thérapeutique IPP} (4-8 sem): réponse complète = argument fort pour RGO typique"
+  - "{t:EOGD} (endoscopie œso-gastro-duodénale): signe d'alarme, âge >50 ans, résistance IPP"
+  - "{t:NFS} + ferritine: si suspicion anémie ferriprive (saignement occulte)"
+  - "{t:pH-métrie ambulatoire 24h} (arrêt IPP 7j avant): EOGD normale, confirme RGO pathologique"
+  - "{t:pH-impédancemétrie} (sous IPP possible): suspicion reflux non acide, résistance IPP malgré endoscopie normale"
+
+criteres_hospitalisation:
+  - "Hémorragie digestive haute ({s:hématémèse / méléna}) — EOGD urgente"
+  - "Dysphagie aiguë avec blocage alimentaire"
+  - "Suspicion {p:SCA} — mise en observation cardiologique"
+  - "Déshydratation sévère (vomissements répétés)"
+  - "Œsophagite Los Angeles C-D sévère avec complications"
+
+pieges:
+  - "Banaliser une douleur thoracique atypique chez {e:>50 ans + FRCV} — toujours ECG + troponines avant de conclure à un RGO"
+  - "Négliger la {s:dysphagie} ou l'{s:amaigrissement} (signes d'alarme → endoscopie immédiate, ne pas essayer IPP d'abord)"
+  - "Prescrire des IPP sans associer les RHD — les mesures hygiéno-diététiques sont fondamentales et réduisent la rechute"
+  - "Oublier les manifestations extra-digestives du RGO (toux chronique sèche, enrouement, asthme nocturne) — cause méconnue fréquente"
+  - "Arrêt brutal des IPP sans décroissance → {s:rebond acide} (hypersécrétion réactionnelle) aggravant les symptômes"
+
+cartes_liees:
+  - SYS-GAS
+  - SSP-CAR-01
+  - SSP-GAS-11

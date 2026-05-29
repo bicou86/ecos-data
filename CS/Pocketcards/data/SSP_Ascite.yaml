@@ -1,0 +1,198 @@
+id: SSP-GAS-08
+type: ssp
+title: Ascite
+discipline: Gastro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Ascite.md
+
+# source: line 10-121 (SSP_Ascite.md)
+anamnese:
+  socrates:
+    - |-
+      Site / caractère:
+      • {s:distension abdominale} globuleuse, symétrique?
+      • installation progressive (semaines) ou rapide (décompensation)?
+      • prise de poids: combien de kg en combien de temps?
+    - |-
+      Onset:
+      • depuis quand? première fois ou récurrent?
+      • facteur déclenchant identifié?
+    - "Character: {s:pesanteur abdominale}, gêne respiratoire, orthopnée?"
+    - |-
+      Associated:
+      • {s:œdèmes membres inférieurs} bilatéraux? godet? extension (chevilles → cuisses)?
+      • {s:dyspnée} d'effort / repos / orthopnée?
+      • nausées, anorexie, troubles du transit?
+    - |-
+      Exacerbating / precipitants ⚠️ SYSTÉMATIQUE:
+      • excès de sel / rechute alcool / arrêt diurétiques?
+      • {s:fièvre}, douleurs abdominales spontanées? (→ PBS)
+      • hématémèse, méléna? (→ hémorragie varices)
+      • AINS récents?
+    - "Relieving: position? soulagement après ponction antérieure?"
+    - "Severity: impact activités, limitation déplacement, qualité de vie?"
+  specifique:
+    - |-
+      Signes de {p:péritonite bactérienne spontanée (PBS)}:
+      • douleur abdominale diffuse même modérée?
+      • fièvre même légère ({r:T° > 37,8°C})?
+      • aggravation état général, confusion?
+    - |-
+      Signes de {p:syndrome hépatorénal}:
+      • oligurie? diminution diurèse (<500 mL/j)?
+      • aggravation insuffisance rénale connue?
+    - |-
+      Signes d'{p:encéphalopathie hépatique}:
+      • {s:astérixis} (flapping tremor)?
+      • confusion, inversion rythme veille/sommeil, irritabilité?
+    - "{e:État nutritionnel}: amaigrissement, dénutrition, anasarque?"
+    - "Suspicion {p:carcinose}: perte de poids, néoplasie connue, ascite récidivante rapidement?"
+  atcd:
+    - |-
+      Histoire de la {p:cirrhose}:
+      • étiologie (alcool, VHC, VHB, stéatohépatite métabolique, Wilson, hémochromatose)
+      • ancienneté, {t:score Child-Pugh} connu, décompensations antérieures
+      • candidat greffe? bilan en cours?
+    - |-
+      Complications antérieures:
+      • ascite: ponctions déjà réalisées? réfractaire?
+      • {s:hémorragie varices œsophagiennes}, ligatures?
+      • épisodes PBS, encéphalopathie?
+    - |-
+      Traitements en cours:
+      • {r:spironolactone} (dose?), {r:torasémide/furosémide} (observance?)
+      • bêtabloquants (prévention hémorragies)
+      • {r:norfloxacine} (prophylaxie PBS?)
+    - "Autres pathologies: {e:insuffisance cardiaque}, néoplasie, syndrome néphrotique?"
+    - "Contexte social: entourage, compliance, pesée quotidienne pratiquée?"
+
+# source: line 124-227 (SSP_Ascite.md)
+red_flags:
+  - description: "{s:Douleur abdominale spontanée / fièvre} ≥ 37,8°C chez cirrhotique avec ascite"
+    dx_suspecte: "{p:Péritonite bactérienne spontanée (PBS)}"
+    action: "Ponction diagnostique immédiate; si {t:PNN ascite ≥ 250/mm³} → {r:ceftriaxone 2 g/j IV} + {r:albumine 1,5 g/kg J1 + 1 g/kg J3} [VÉRIFIER: dose albumine PBS selon EASL 2018]"
+  - description: "{s:Oligurie} / créatinine > 133 µmol/L sans autre cause chez cirrhotique"
+    dx_suspecte: "{p:Syndrome hépatorénal (SHR)}"
+    action: "Arrêt diurétiques + AINS; {r:terlipressine IV} + {r:albumine 1 g/kg/j} → USI hépatologie"
+  - description: "{s:Astérixis} / confusion / inversion rythme veille-sommeil chez cirrhotique"
+    dx_suspecte: "{p:Encéphalopathie hépatique}"
+    action: "Rechercher facteur précipitant (PBS, hémorragie, médicaments); {r:lactulose PO} + avis hépatologie; hospitalisation"
+  - description: "{s:Hématémèse ou méléna} chez cirrhotique avec ascite connue"
+    dx_suspecte: "{p:Hémorragie sur varices œsophagiennes}"
+    action: "Voie IV, remplissage prudent, {r:terlipressine IV}, {r:ceftriaxone 1 g/j IV}; gastroscopie urgente ≤ 12 h"
+  - description: "{s:Ascite réfractaire} + {e:Child-Pugh C / MELD > 15} + ictère + crase altérée"
+    dx_suspecte: "{p:Cirrhose décompensée sévère}"
+    action: "Évaluation urgente transplantation hépatique; ponctions évacuatrices répétées + albumine en attente [VÉRIFIER: seuil MELD précis pour listing greffe selon protocole local]"
+
+# source: line 124-227 (SSP_Ascite.md)
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: TA (hypotension → SHR?), FC, T° ({r:fièvre même ≥ 37,8°C}), FR, poids ({s:évolution pondérale})"
+    - "État général: ictère, pâleur ({s:anémie}), dénutrition, amaigrissement"
+    - |-
+      {s:Stigmates de cirrhose}:
+      • angiomes stellaires, érythème palmaire, ongles blancs
+      • {s:circulation collatérale abdominale} (caput medusae)
+  cible:
+    - |-
+      Abdomen — percussion ⚠️ DIAGNOSTIQUE:
+      • {s:matité déclive} des flancs
+      • {s:matité mobile} en décubitus latéral (ascite ≥ 500 mL)
+      • tympanisme périombilical (anses)
+    - |-
+      Abdomen — palpation:
+      • distension globuleuse, ombilic éversé?
+      • {s:signe du flot} si ascite abondante
+      • {s:hépato/splénomégalie}, masses, nodules?
+      • douleur diffuse / défense → PBS?
+    - |-
+      {s:Œdèmes membres inférieurs}:
+      • bilatéraux, symétriques, godet (grade 0-4+)
+      • extension chevilles → cuisses?
+    - |-
+      Cardiovasculaire:
+      • turgescence jugulaire, reflux hépato-jugulaire → {p:insuffisance cardiaque}?
+      • auscultation cardiaque (galop, souffle)
+    - "Respiratoire: matité bases ({s:épanchement pleural} hydrothorax?), crépitants"
+    - |-
+      Neurologique ({p:encéphalopathie}):
+      • {s:astérixis} (mains en extension 15 sec)?
+      • vigilance, orientation, comportement
+
+# source: DD pivots (prompt) + MD
+dd_top5:
+  - dx: "{p:Cirrhose} (décompensation ascitique)"
+    indices: "Étiologie connue (alcool, VHC…), {t:GASA ≥ 11 g/L}, signes IH (angiomes, ictère, circulation collatérale), {t:Child-Pugh} B-C; cause #1 (75 %)"
+    freq: "très fréquent (75 % des ascites)"
+  - dx: "{p:Insuffisance cardiaque droite / globale}"
+    indices: "{t:GASA ≥ 11 g/L}, turgescence jugulaire, reflux hépato-jugulaire, galop, œdèmes MI rythmés, ATCD cardiopathie"
+    freq: "fréquent"
+  - dx: "{p:Carcinose péritonéale}"
+    indices: "{t:GASA < 11 g/L}, perte de poids, néoplasie connue (ovaire, colon, estomac…), ascite récidivante, cytologie positive"
+    freq: "fréquent (2e cause dans certaines séries)"
+  - dx: "{p:Tuberculose péritonéale}"
+    indices: "{t:GASA < 11 g/L}, lymphocytes ↑, {t:ADA ascite} augmentée, contexte immigration/voyage, fièvre prolongée"
+    freq: "rare (mais à ne pas manquer)"
+  - dx: "{p:Syndrome néphrotique}"
+    indices: "{t:GASA ≥ 11 g/L}, {s:protéinurie massive} > 3 g/j, hypoalbuminémie sévère, œdèmes généralisés, bandelette urinaire positive"
+    freq: "peu fréquent"
+
+# source: line 230-413 (SSP_Ascite.md)
+pec_initiale:
+  immediate:
+    - "Ponction d'ascite diagnostique ⚠️ SYSTÉMATIQUE: {t:cytologie (PNN)}, {t:GASA (albumine plasma − ascite)}, bactériologie (10 mL hémocultures), protéines totales"
+    - |-
+      Bilan biologique:
+      • {t:bilan hépatique} (ASAT, ALAT, GGT, PAL, bilirubine, albumine, TP/INR)
+      • {t:fonction rénale + ionogramme} (créatinine, urée, Na+, K+)
+      • {t:FSC} (anémie, thrombopénie, leucopénie)
+      • {t:CRP}
+    - "{t:Échographie abdominale}: confirmation ascite, morphologie foie, thrombose porte, nodules"
+    - |-
+      Traitement diurétique (ascite non tendue) ⚠️ PREMIÈRE LIGNE:
+      • {r:spironolactone 100 mg/j PO} (titration +50 mg/3-5 j, max {r:400 mg/j})
+      • si insuffisant: ajouter {r:torasémide 10-20 mg/j} (ratio spiro:toras 100:25) [VÉRIFIER: ratio exact spiro/torasémide selon recommandations EASL vs furosémide]
+      • objectif perte poids {r:0,5 kg/j}
+    - "Ascite tendue/gêne respiratoire: ponction évacuatrice complète + {r:albumine 20% 8 g/L d'ascite évacuée} (dès le 1er litre)"
+    - |-
+      Mesures générales:
+      • régime désodé {r:2-4 g NaCl/j (88 mmol/j)}
+      • pesée quotidienne
+      • restriction hydrique si {e:hyponatrémie < 130 mmol/L}
+      • arrêt AINS, éviter IECA/ARA2
+  orientation:
+    - "Hospitalisation: PBS suspectée/prouvée, SHR, encéphalopathie, ascite tendue avec détresse respiratoire, hémorragie digestive"
+    - "Hépatologie urgente: cirrhose Child C, MELD > 15, ascite réfractaire → évaluation TIPS / transplantation"
+    - "Ambulatoire + suivi rapproché: 1re décompensation légère-modérée sans complication, diurétiques efficaces, contrôle 1 semaine"
+    - "Consignes de retour: fièvre, douleur abdominale, confusion, oligurie, hématémèse → urgences immédiatement"
+
+# source: line 234-278 (SSP_Ascite.md)
+examens_complementaires:
+  - "{t:Ponction d'ascite} diagnostique: GASA, cytologie (PNN ≥ 250/mm³ = PBS), bactériologie, protéines totales, cytologie tumorale si suspicion"
+  - "{t:Bilan hépatique + TP/INR + albumine}: évaluation {t:Child-Pugh} et {t:MELD} (greffe si > 15)"
+  - "{t:Fonction rénale + ionogramme + natriurèse}: dépistage SHR, hyponatrémie dilutionnelle"
+  - "{t:Échographie abdominale}: quantifier ascite, foie (nodules, morphologie), {t:thrombose porte} systématique, rate, reins"
+  - "{t:FSC}: anémie, thrombopénie (hypersplénisme)"
+  - "{t:ADA ascite + BK culture}: si GASA < 11 + lymphocytes → suspicion TB péritonéale"
+
+# source: line 380-413 (SSP_Ascite.md)
+criteres_hospitalisation:
+  - "{p:PBS} prouvée ou suspectée ({t:PNN ≥ 250/mm³} ou douleur + fièvre)"
+  - "{p:Syndrome hépatorénal} (créatinine > 133 µmol/L en progression)"
+  - "{p:Encéphalopathie hépatique} ≥ grade 2 ({s:astérixis} + confusion)"
+  - "Ascite tendue avec {s:détresse respiratoire} ou {s:hémodynamique instable}"
+  - "{p:Cirrhose} Child-Pugh C / MELD > 15 ou première décompensation sévère"
+
+pieges:
+  - "Négliger PBS atypique (sans fièvre ni douleur franche): la PBS peut être asymptomatique → ponction systématique chez tout cirrhotique hospitalisé"
+  - "Expansion plasmatique oubliée après ponction >5 L: risque de {p:dysfonction circulatoire post-ponction} (terlipressine/albumine obligatoire)"
+  - "AINS chez cirrhotique avec ascite: précipite le SHR même à dose usuelle — contre-indication absolue"
+  - "Diurétique de l'anse en 1re intention (sans spironolactone): risque hypokaliémie + exacerbation aldostéronisme secondaire — toujours commencer par {r:spironolactone}"
+  - "GASA < 11 sans néoplasie connue: ne pas oublier {p:tuberculose péritonéale} (ADA ascite + BK culture)"
+
+cartes_liees:
+  - SYS-GAS
+  - SSP-GAS-09

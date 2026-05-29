@@ -1,0 +1,178 @@
+id: SSP-GAS-04
+type: ssp
+title: Diarrhée
+discipline: Gastro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Diarrhée.md
+
+# source: lignes 9-58 (caractérisation)
+anamnese:
+  socrates:
+    - |-
+      Site / caractérisation:
+      • Fréquence (>3 selles/j = diarrhée), volume, consistance
+      • {s:Aspect}: glairo-sanglant ({p:dysentérie}), aqueux (sécrétoire), graisseux ({p:malabsorption})
+      • {s:Sang}: rectorragies / méléna / glaires / pus?
+    - |-
+      Onset / temporalité — PIVOT DIAGNOSTIC:
+      • {e:Aiguë} (<7 j selon HUG) vs {e:persistante} (7-14 j) vs {e:chronique} (>4 sem)
+      • Début brutal (infectieux, toxique) ou progressif?
+      • Mode: continu / intermittent / rythmé?
+    - |-
+      Character / horaire:
+      • Nocturne → organique; matinal → {p:SII}
+      • Impériosités, incontinence?
+      • {s:Ténesme / épreintes}: syndrome rectal ({p:RCH})
+    - "Radiation / symptômes associés: nausées/vomissements, ballonnements, borborygmes?"
+    - |-
+      Exacerbating:
+      • Repas, aliments déclenchants (lactose, gluten, {t:FODMAPs}, édulcorants)?
+      • Stress (→ {p:SII})
+    - "Relieving: soulagement par défécation (→ {p:SII}); repos?"
+    - |-
+      Severity — retentissement:
+      • Impact activités, sommeil, vie sociale
+      • Perte de poids (AEG → organique), asthénie
+  specifique:
+    - |-
+      {s:Contexte infectieux} (diarrhée aiguë — 90% infectieuses):
+      • Cas similaires entourage / collectivité
+      • Saison (hiver: virus, été: bactéries)
+      • Aliment suspect identifié? délai 2-6h (toxique) ou 6-72h (bactérien)?
+      • {e:Voyage} zone endémique — turista ({p:E. coli ETEC}, parasites)
+    - |-
+      Médicaments — {s:iatrogène FRÉQUENT}:
+      • {r:Antibiotiques} récents (pénicillines, céphalosporines, clindamycine) → {p:C. difficile}
+      • Metformine, IPP, AINS, colchicine, chimiothérapie, laxatifs?
+    - |-
+      Signes extra-digestifs → orienter {p:MICI}:
+      • Arthralgies, uvéite, érythème noueux, aphtes buccaux, fistules anales
+  atcd:
+    - |-
+      Terrain:
+      • Âge >65 ans ou nourrisson (gravité++)
+      • Immunodépression (VIH, chimiothérapie, corticoïdes)
+      • Grossesse, comorbidités (diabète, IRC)
+    - |-
+      Antécédents digestifs:
+      • {p:MICI} connue, chirurgie digestive, radiothérapie abdominale
+      • Familiaux: MICI, cancer colorectal, maladie cœliaque
+    - "Intolérances: lactose, gluten, FODMAPs — identifiées?"
+
+# source: lignes 210-232 (signes de gravité)
+red_flags:
+  - description: "{s:Déshydratation sévère} (>10%): hypotension, {s:tachycardie >100 bpm}, oligurie, marbrures, trouble de conscience"
+    dx_suspecte: "{p:Choc hypovolémique}"
+    action: "Réhydratation IV immédiate: {r:Ringer lactate 20 ml/kg en 20 min} (bolus); ionogramme, créatinine STAT; hospitalisation"
+  - description: "{s:Diarrhée glairo-sanglante + fièvre >38.5°C} ± sepsis"
+    dx_suspecte: "{p:Diarrhée bactérienne invasive} (Salmonella, Campylobacter, Shigella)"
+    action: "{t:Coproculture} STAT + NFS/CRP; si sepsis: {r:azithromycine 500 mg/j × 3j} IV ou PO; hospitalisation [VÉRIFIER: antibiotique 1ère ligne selon protocoles CHUV/HUG 2023]"
+  - description: "{s:Diarrhée post-ATB} récente + {s:leucocytes >15G/L} ou {s:créatinine >1.5×baseline} ou hypoalbuminémie"
+    dx_suspecte: "{p:Clostridioides difficile sévère}"
+    action: "Arrêt ATB causal + {r:vancomycine PO 125 mg × 4/j × 10j}; isolement contact; recherche toxines A/B + GDH STAT [VÉRIFIER: métronidazole PO encore recommandé en forme légère en Suisse ou vancomycine systématique?]"
+  - description: "{s:Diarrhée >3 semaines au retour d'une zone endémique} ou {e:immunodéprimé}"
+    dx_suspecte: "{p:Diarrhée du voyageur} — paludisme, amibiase, Giardia, Cryptosporidium"
+    action: "{t:Parasitologie des selles} ×3 jours consécutifs + sérologies + {t:frottis sanguin} si fièvre; avis infectiologue"
+  - description: "{s:MICI sévère} — diarrhée sanglante + fièvre + {s:AEG} + {s:hypoalbuminémie}"
+    dx_suspecte: "{p:Poussée MICI sévère} (RCH Mayo >6 / Crohn CDAI >300)"
+    action: "Hospitalisation + {r:méthylprednisolone IV 1 mg/kg/j}; coloscopie/entéro-IRM; avis gastro-entérologue [VÉRIFIER: seuil Mayo pour hospitalisation et dose corticoïdes MICI]"
+
+# source: lignes 247-306 (examen clinique)
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: TA (± orthostatisme), FC, T°, FR, SaO2, poids (perte récente?)"
+    - |-
+      {s:Évaluation déshydratation}:
+      • Légère: soif, sécheresse bouche, diurèse ↓
+      • Modérée: pli cutané, yeux cernés, tachycardie légère
+      • Sévère: hypotension, tachycardie >100, oligurie, confusion, marbrures
+    - "Nourrisson: fontanelle déprimée, temps de recoloration >2s"
+  cible:
+    - |-
+      Examen abdominal complet:
+      • Inspection: distension, cicatrices, péristaltisme visible
+      • Auscultation: bruits hydroaériques augmentés (diarrhée) vs absents (iléus)
+      • Palpation: localisation douleur, défense, masse palpable, organomégalie
+    - |-
+      Examen proctologique:
+      • Inspection périnée: fissures, fistules, abcès (→ {p:Crohn})
+      • {t:TR}: tonus sphinctérien, masses, sang sur doigtier
+    - |-
+      Signes extra-digestifs → {p:MICI}:
+      • Cutanés: érythème noueux, pyoderma gangrenosum
+      • Articulaires: arthrites
+      • Oculaires: uvéite, épisclérite
+      • Buccaux: aphtes
+
+# source: lignes 314-363 (examens complémentaires)
+dd_top5:
+  - dx: "{p:Gastro-entérite virale}"
+    indices: "Contexte épidémique hiver, vomissements associés, afébrile ou fébricule, selles aqueuses non sanglantes, durée 3-5 j, évolution spontanément favorable (rotavirus, norovirus)"
+    freq: "très fréquent (80-90% diarrhées aiguës)"
+  - dx: "{p:Gastro-entérite bactérienne}"
+    indices: "Fièvre >38.5°C, selles glairo-sanglantes ({p:dysentérie}), contexte voyage/aliment suspect, Campylobacter (volaille), Salmonella (œufs, délai 6-72h), Shigella (transmission interhumaine)"
+    freq: "fréquent (5-10% diarrhées aiguës)"
+  - dx: "{p:Clostridioides difficile}"
+    indices: "ATB récente (clindamycine, céphalosporines, amoxicilline), hospitalisation récente, immunodépression; selles fétides, douleurs abdominales; {t:toxines A/B + GDH}"
+    freq: "fréquent en milieu hospitalier / post-ATB"
+  - dx: "{p:MICI} (Crohn / RCH)"
+    indices: "Chronique (>4 sem), rectorragies, {s:syndrome rectal}, douleurs, AEG, EIM (arthralgies, uvéite, aphtes, fistules anales); {t:calprotectine fécale} élevée; jeune adulte"
+    freq: "moins fréquent — à évoquer dès diarrhée chronique"
+  - dx: "{p:Syndrome de l'intestin irritable (SII)}"
+    indices: "Chronique, douleurs soulagées par défécation, alternance diarrhée/constipation, matinal, facteurs stress, examen normal, {t:calprotectine fécale} normale; critères de Rome IV"
+    freq: "fréquent (10-15% population)"
+
+# source: lignes 365-530 (prise en charge)
+pec_initiale:
+  immediate:
+    - "STOP — évaluer déshydratation d'abord: si sévère → {r:Ringer lactate IV} en urgence"
+    - |-
+      Réhydratation — PRIORITÉ ABSOLUE:
+      • {r:SRO} (Na 75, K 20, glucose 75 mmol/L): {r:200-400 ml après chaque selle} adulte
+      • IV si échec oral: {r:NaCl 0.9%} ou {r:Ringer lactate}; débit: léger 50 ml/kg/4h, modéré 100 ml/kg/4h, sévère {r:20 ml/kg/20 min}
+    - |-
+      Traitement symptomatique (diarrhée non invasive):
+      • {r:Lopéramide 4 mg} puis {r:2 mg} après chaque selle — max {r:16 mg/j} — CI si fièvre/sang/{p:C. difficile}
+      • {r:Racécadotril 100 mg × 3/j} (antisécrétoire, utilisable si invasive)
+      • {r:Diosmectite 3 sachets/j}
+    - |-
+      Antibiothérapie — INDICATIONS LIMITÉES:
+      • {p:GE bactérienne} invasive / shigellose / immunodéprimé: {r:azithromycine 500 mg/j × 3j}
+      • {p:C. difficile} léger: {r:métronidazole PO 500 mg × 3/j × 10j}; sévère: {r:vancomycine PO 125 mg × 4/j × 10j}
+      • {p:Giardia}: {r:métronidazole PO 500 mg × 3/j × 5-7j} [VÉRIFIER: posologie Giardia adulte]
+    - "Diététique: maintenir alimentation (pas de jeûne); riz, pâtes, banane, carottes cuites; éviter lait, fibres crues, café"
+  orientation:
+    - "Domicile + réévaluation 48-72h: diarrhée aiguë non sanglante, afébrile, pas de déshydratation, terrain sain"
+    - "Urgences / hospitalisation: déshydratation sévère, sepsis, terrain fragile (âge, immunodépression, grossesse), échec réhydratation orale"
+    - "Gastro-entérologie ambulatoire: diarrhée chronique inexpliquée, suspicion MICI, endoscopie indiquée"
+    - "Consignes de retour: apparition sang, fièvre >38.5°C, aggravation déshydratation, durée >3-7j sans amélioration"
+
+# source: lignes 314-363
+examens_complementaires:
+  - "{t:Ionogramme + créatinine}: toute diarrhée avec déshydratation (Na, K, bicarbonates, urée)"
+  - "{t:NFS + CRP}: si fièvre, sang, AEG ou diarrhée chronique"
+  - "{t:Coproculture} (Salmonella, Shigella, Campylobacter, Yersinia): diarrhée fébrile, sanglante, immunodéprimé, voyage, persistante >7j"
+  - "{t:Toxines C. difficile} (A/B + GDH): post-ATB récente ou hospitalisation"
+  - "{t:Parasitologie des selles} ×3 + {t:sérologies}: retour zone endémique, chronique"
+  - "{t:Calprotectine fécale}: diarrhée chronique — MICI (élevée) vs SII (normale); coloscopie si positive ou >50 ans"
+
+criteres_hospitalisation:
+  - "{s:Déshydratation sévère} (>10%): hypotension, oligurie, trouble de conscience — {r:réhydratation IV}"
+  - "Sepsis / choc: fièvre + tachycardie + hypotension → hospitalisation + {r:ATB IV}"
+  - "{p:C. difficile} sévère: leucocytes >15G/L, créatinine >1.5×baseline, {s:mégacôlon toxique}"
+  - "Terrain à risque: âge >65 ans, immunodéprimé, grossesse, MICI connue en poussée"
+  - "Échec réhydratation orale ou complications ioniques (hypokaliémie sévère)"
+
+pieges:
+  - "Donner {r:lopéramide} en cas de diarrhée invasive (fièvre, sang) → risque {p:mégacôlon toxique}"
+  - "Prescrire des {r:antibiotiques} systématiquement → sélection {p:C. difficile}, résistances"
+  - "Oublier le {p:C. difficile} en l'absence d'hospitalisation récente — l'ATB ambulatoire suffit"
+  - "Négliger l'{s:hypokaliémie} dans les diarrhées profuses (crampes, arythmies) — doser K systématiquement"
+  - "Ne pas évoquer un cancer colorectal devant toute modification récente du transit après {e:50 ans} + AEG"
+
+cartes_liees:
+  - SYS-GAS
+  - SSP-GAS-05

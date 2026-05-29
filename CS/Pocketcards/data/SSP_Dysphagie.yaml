@@ -1,0 +1,210 @@
+id: SSP-GAS-07
+type: ssp
+title: Dysphagie
+discipline: Gastro
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dysphagie.md
+
+# source: SSP_Dysphagie.md line 12-138
+anamnese:
+  socrates:
+    - |-
+      Site / localisation:
+      • blocage à la gorge → {s:dysphagie oropharyngée} (cause neurologique, Zenker)
+      • blocage rétrosternal → {s:dysphagie œsophagienne} (cause mécanique ou motrice)
+    - |-
+      Onset — Chronologie:
+      • début brutal? (corps étranger, AVC bulbaire)
+      • progressif sur semaines/mois? (cancer, achalasie)
+      • intermittent? (spasme œsophagien, anneau de Schatzki)
+    - |-
+      Character — Consistance:
+      • solides uniquement → obstacle mécanique (tumeur, sténose)
+      • liquides uniquement → trouble moteur grave (myasthénie)
+      • solides ET liquides → trouble moteur (achalasie, sclérodermie)
+      • {s:progression solides → liquides} = aggravation → {p:cancer++}
+    - "Radiation / Douleur: {s:odynophagie} (douleur à déglutition = œsophagite)? Douleurs thoraciques (spasmes)?"
+    - |-
+      Time — Évolution:
+      • durée totale? fréquence des épisodes?
+      • évolution rapide progressive? ({p:cancer})
+      • stable depuis des années? (sténose peptique, anneau)
+    - |-
+      Exacerbating:
+      • fin de journée? ({p:myasthénie})
+      • stress, émotions, aliments froids? (spasmes œsophagiens)
+    - |-
+      Relieving:
+      • liquides chauds (spasmes)? manœuvre de Valsalva (achalasie)?
+      • amélioration sous {r:IPP}? (sténose peptique sur RGO)
+    - |-
+      Severity:
+      • perte de poids involontaire? combien de kg en combien de temps?
+      • état nutritionnel: anorexie, fonte musculaire, {t:IMC}?
+  specifique:
+    - |-
+      {s:Régurgitations}:
+      • immédiates/précoces → dysphagie haute
+      • tardives non acides, alimentaires non digérées → {p:achalasie}, {p:Zenker}
+    - "Pyrosis / RGO: brûlures rétrosternales? régurgitations acides? toux nocturne?"
+    - |-
+      Signes neurologiques associés (dysphagie haute):
+      • {s:fausses routes} (toux pendant/après déglutition)?
+      • voix nasonnée, dysarthrie?
+      • {s:diplopie, ptosis, fatigabilité} → {p:myasthénie}
+      • {s:fasciculations linguales} → {p:SLA}
+    - |-
+      Terrain atopique / allergique:
+      • allergies alimentaires, asthme, eczéma? ({p:œsophagite à éosinophiles})
+      • {s:blocages alimentaires répétés} chez homme jeune → {p:EoE}
+    - |-
+      Signes systémiques sclérodermie:
+      • {s:syndrome de Raynaud}? sclérodactylie? télangiectasies?
+    - "Voyage en Amérique du Sud? ({p:maladie de Chagas} = méga-œsophage)"
+  atcd:
+    - |-
+      Facteurs de risque cancer œsophage:
+      • {e:tabac + alcool} (risque multiplié, > 50 ans)
+      • aliments très chauds? conserves?
+    - |-
+      ATCD œsophagiens:
+      • RGO chronique (sténose peptique)? œsophagite? chirurgie œsophagienne?
+      • radiothérapie thoracique/cervicale (sténose radique)?
+    - |-
+      ATCD neurologiques:
+      • AVC? Parkinson? myasthénie? SLA? myopathies?
+    - |-
+      ATCD auto-immuns:
+      • sclérodermie, CREST, dermatomyosite?
+    - |-
+      Médicaments:
+      • bisphosphonates, AINS? (œsophagite médicamenteuse)
+      • anticholinergiques? (xérostomie)
+      • immunosuppresseurs? ({p:candidose œsophagienne})
+
+# source: SSP_Dysphagie.md line 142-273
+red_flags:
+  - description: "{e:> 50 ans} + {s:dysphagie progressive} (solides puis liquides) + {s:perte de poids involontaire / AEG} ± {s:adénopathie Troisier}"
+    dx_suspecte: "{p:Cancer œsophage}"
+    action: "{t:FOGD} urgente + biopsies; si suspicion élevée: {t:CT cervico-thoraco-abdominal} pour bilan d'extension; RCP oncologique"
+  - description: "{s:Blocage alimentaire complet aigu}: impossibilité d'avaler la salive, hypersalivation"
+    dx_suspecte: "{p:Impaction / corps étranger œsophagien}"
+    action: "{t:FOGD} en urgence pour extraction endoscopique; NPO strict en attendant"
+  - description: "{s:Dysphagie} + {s:fièvre} + {s:toux productive / hypoxie}"
+    dx_suspecte: "{p:Pneumonie d'inhalation}"
+    action: "{t:Radiographie thoracique} STAT; antibiothérapie empirique (ex. {r:amoxicilline-clavulanate PO ou IV} selon gravité); évaluation orthophonique"
+  - description: "{s:Dysphagie aiguë} + {s:déficit neurologique focal} (hémiplégie, dysarthrie, diplopie)"
+    dx_suspecte: "{p:AVC bulbaire} / syndrome de Wallenberg"
+    action: "{t:CT/IRM cérébral} STAT; activation filière AVC; nutrition entérale précoce (SNG ou gastrostomie)"
+  - description: "{s:Dysphagie progressive sévère} aux solides ET liquides + régurgitations tardives + perte de poids dans contexte de {p:méga-œsophage} suspecté"
+    dx_suspecte: "{p:Achalasie sévère}"
+    action: "{t:FOGD} (exclure pseudo-achalasie tumorale) + {t:manométrie haute résolution}; dilatation pneumatique ou myotomie de Heller; [VÉRIFIER: seuil de perte de poids déclenchant hospitalisation directe vs ambulatoire]"
+  - description: "{s:Dysphagie} chez patient {e:immunodéprimé} (HIV, greffe, corticoïdes) + {s:odynophagie sévère}"
+    dx_suspecte: "{p:Œsophagite infectieuse} (candidose, herpès, CMV)"
+    action: "{t:FOGD} + biopsies; traitement empirique {r:fluconazole 200 mg/j PO} si candidose probable [VÉRIFIER: dose et durée selon contexte immunodépression]"
+
+# source: SSP_Dysphagie.md line 160-273
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T°, FR, {t:SaO2}; {t:IMC} et poids (dénutrition?)"
+    - "État nutritionnel: amaigrissement visible, fonte musculaire, pli cutané"
+    - "Pâleur (anémie saignement occulte)? Ictère (métastases)?"
+    - "Signes cutanés sclérodermie: sclérodactylie, télangiectasies, microstomie"
+  cible:
+    - |-
+      Test de déglutition standardisé:
+      • salive d'abord, puis {r:eau 3 ml → 5 ml → 10 ml} progressivement
+      • chronométrer le déclenchement; compter les déglutitions
+      • toux pendant/après? voix mouillée = stase?
+      • solides mous (biscuit) si eau tolérée
+    - |-
+      Cavité buccale + pharynx:
+      • muqueuse (ulcérations, leucoplasies, érythroplasies)?
+      • langue: {s:fasciculations} ({p:SLA}++), atrophie, mobilité
+      • voile du palais: symétrie au repos, élévation à la phonation ('Ahhh')
+      • réflexe nauséeux présent?
+    - |-
+      Paires crâniennes (IX, X, XII clés):
+      • IX (glossopharyngien): sensibilité pharynx, élévation voile
+      • X (vague): dysphonie, réflexe nauséeux, élévation larynx
+      • XII (hypoglosse): protraction langue, force contre résistance
+    - |-
+      Examen cervical:
+      • {s:adénopathie sus-claviculaire gauche (Troisier)} → métastase
+      • palpation thyroïde (goitre compressif?)
+      • masse cervicale?
+    - "Auscultation pulmonaire: foyer de pneumopathie (inhalation)?"
+    - |-
+      Tests spécifiques si dysphagie haute:
+      • {t:test du glaçon} (ptosis → myasthénie)
+      • test de fatigabilité: compter 1-50 à voix haute
+      • fasciculations + Babinski → {p:SLA}
+
+# source: SSP_Dysphagie.md line 317-345
+dd_top5:
+  - dx: "{p:Cancer œsophage}"
+    indices: "{e:> 50 ans}, tabac + alcool, dysphagie progressive rapide (solides puis liquides), perte de poids > 5 kg, AEG; {t:FOGD} + biopsies diagnostique; Troisier si métastase ganglionnaire"
+    freq: "fréquent (incidence 5-10/100 000); pronostic sombre si stade avancé"
+  - dx: "{p:Sténose peptique sur RGO chronique}"
+    indices: "ATCD RGO ancien, dysphagie aux solides stable (évolution lente), amélioration sous {r:IPP}, {t:endoscopie}: sténose régulière, biopsies bénignes"
+    freq: "fréquent; complication tardive RGO (10 % des RGO chroniques) [VÉRIFIER: prévalence exacte]"
+  - dx: "{p:Achalasie}"
+    indices: "Dysphagie solides ET liquides d'emblée, régurgitations tardives non acides, douleurs thoraciques; {t:manométrie HR}: apéristaltisme + non-relaxation SIO; évolution progressive, retard diagnostique fréquent"
+    freq: "rare (1-2/100 000/an); souvent diagnostiquée après 2-5 ans de symptômes"
+  - dx: "{p:Œsophagite à éosinophiles (EoE)}"
+    indices: "Homme jeune (20-40 ans), terrain atopique (asthme/eczéma/allergie), blocages alimentaires répétés; {t:endoscopie}: anneaux, sillons, mucose blanche; {t:biopsies} > 15 éosinophiles/champ"
+    freq: "fréquence croissante (5-10/100 000); diagnostic souvent retardé"
+  - dx: "{p:Dysphagie neurogène} (AVC, Parkinson, SLA, myasthénie)"
+    indices: "Dysphagie haute (oropharyngée), fausses routes, fuite salivaire, voix nasonnée; {s:déficit paires crâniennes IX-X-XII}; contexte neurologique connu ou signes associés (ptosis, fasciculations)"
+    freq: "fréquent (30-50 % des AVC ont une dysphagie); SLA et Parkinson également concernés"
+
+# source: SSP_Dysphagie.md line 279-312 + 362-412
+pec_initiale:
+  immediate:
+    - "STOP dysphagie totale → NPO strict; FOGD urgente si impaction; filière AVC si déficit focal"
+    - |-
+      Cancer œsophage suspecté:
+      {t:FOGD} + biopsies + {t:CT cervico-thoraco-abdominal}; RCP oncologique; gastrostomie si alimentation impossible
+    - |-
+      Sténose peptique: {r:oméprazole 40 mg x2/j PO} [VÉRIFIER: durée avant dilatation] + dilatation endoscopique progressive; IPP au long cours
+    - |-
+      Achalasie: {t:manométrie haute résolution} confirme; options thérapeutiques:
+      dilatation pneumatique (1re ligne) ou myotomie de Heller (± fundoplicature); toxine botulique si contre-indication chirurgie
+    - |-
+      EoE: {r:IPP forte dose 8 sem.} en 1re intention; {r:fluticasone déglutie} (corticoïde topique) [VÉRIFIER: dose fluticasone déglutie]; régime d'éviction si allergène identifié; dilatation prudente si sténose
+    - "Dysphagie neurogène: évaluation orthophonique + {t:vidéofluoroscopie déglutition}; adaptation textures; prévention fausses routes; position assise; nutrition entérale si fausses routes sévères"
+    - "Mesures générales: évaluation nutritionnelle (diététicien); compléments nutritionnels oraux; arrêt tabac + alcool"
+  orientation:
+    - "Urgences / hospitalisation: impaction alimentaire, AVC bulbaire, pneumonie d'inhalation, cancer suspecté avec AEG sévère"
+    - "Gastro-entérologie ambulatoire: dysphagie progressive sans urgence → FOGD en semi-urgence (< 2 sem.)"
+    - "Neurologie ambulatoire: dysphagie haute avec contexte neurologique stable"
+    - "Retour urgences si: blocage total, douleur thoracique intense, fièvre, aggravation rapide"
+
+examens_complementaires:
+  - "{t:FOGD} + biopsies: examen de 1re intention — toute dysphagie; visualisation directe, dilatation thérapeutique"
+  - "{t:Manométrie haute résolution}: troubles moteurs (achalasie, spasme) si FOGD normale"
+  - "{t:CT thoraco-abdominal}: bilan d'extension si cancer suspecté; compression extrinsèque"
+  - "{t:Vidéofluoroscopie déglutition / TOGD}: dysphagie haute, fausses routes, Zenker suspecté"
+  - "{t:Biologie}: FSC (anémie?), albumine/préalbumine (nutrition), Ac anti-récepteurs acétylcholine (myasthénie), ANA (sclérodermie), TSH"
+  - "{t:IRM cérébrale}: si AVC suspecté"
+
+criteres_hospitalisation:
+  - "{s:Impaction alimentaire totale} (impossibilité avaler salive) → FOGD urgente"
+  - "{p:AVC bulbaire} aigu ou {s:déficit neurologique focal} nouveau"
+  - "{p:Pneumonie d'inhalation} confirmée"
+  - "{s:Dénutrition sévère} ou perte de poids rapide avec incapacité alimentation orale"
+  - "{p:Cancer suspecté} avec AEG sévère nécessitant bilan en urgence"
+
+pieges:
+  - "Banaliser une dysphagie chez {e:sujet > 50 ans} — toujours éliminer {p:cancer} ({t:FOGD} obligatoire)"
+  - "Oublier le terrain atopique chez homme jeune avec blocages répétés → {p:EoE} sous-diagnostiquée"
+  - "Ne pas rechercher les signes neurologiques (paires crâniennes IX, X, XII) devant toute dysphagie haute"
+  - "Méconnaître le risque de {s:fausses routes silencieuses} (pas de toux) → pneumopathies récidivantes inexpliquées"
+  - "Ne pas penser au {p:Zenker} chez sujet âgé avec régurgitations non acides + halitose + masse cervicale gauche"
+
+cartes_liees:
+  - SYS-GAS
+  - SSP-GAS-08
