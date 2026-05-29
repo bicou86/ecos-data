@@ -1,0 +1,201 @@
+id: SSP-PSY-07
+type: ssp
+title: Troubles psychotiques
+discipline: Psy
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Psychotiques.md
+
+# source: line 145-173 (Anamnèse)
+anamnese:
+  socrates:
+    - |-
+      Mode de début:
+      • aigu (<1 mois) vs insidieux (mois-années)
+      • prodrome (retrait, baisse fonctionnement, idées étranges)?
+    - |-
+      Onset / contexte:
+      • facteur déclenchant (stress, deuil, accouchement)?
+      • intoxication récente ({s:cannabis}, amphétamines, cocaïne, LSD, MDMA)?
+      • introduction médicament (corticoïdes, L-dopa, anticholinergique)?
+    - |-
+      Time:
+      • durée des symptômes (<1 mois / 1-6 mois / >6 mois)
+      • fluctuations diurnes? troubles du sommeil?
+      • impact scolaire / professionnel / relationnel
+    - |-
+      Severity:
+      • dangerosité auto/hétéro-agressive [VÉRIFIER:score adapté CHUV/HUG]
+      • idéation suicidaire / homicidaire (scénario, moyen, intentionnalité)
+      • capacité à s'alimenter, s'hydrater, se protéger
+  specifique:
+    - |-
+      {s:Hallucinations} — exploration ouverte:
+      • auditives (75%): voix commentant, dialoguant, impératives, écho de la pensée
+      • visuelles (25%) → évoquer {p:cause organique}
+      • olfactives/gustatives → évoquer {p:épilepsie temporale}
+      • cénesthésiques (sensations corporelles bizarres)
+    - |-
+      {s:Idées délirantes} — thématiques:
+      • persécution ('on me surveille')
+      • référence ('la TV parle de moi')
+      • contrôle / insertion / vol / divulgation de la pensée (1er rang Schneider)
+      • grandeur, mystique, somatique, jalousie, érotomanie
+    - |-
+      {s:Désorganisation}:
+      • pensée (barrages, diffluence, néologismes)
+      • discours (incohérent, tangentiel)
+      • comportement (bizarre, imprévisible, catatonie)
+    - |-
+      {s:Symptômes négatifs} (5 A):
+      • alogie, aboulie/apragmatisme, anhédonie
+      • affect émoussé, athymhormie
+    - |-
+      {s:Syndrome d'influence} (URGENCE):
+      • voix impératives ordonnant un passage à l'acte?
+      • sentiment d'être contrôlé / dirigé?
+    - "Insight: 'Pensez-vous être malade?' (souvent absent/partiel → impact observance)"
+  atcd:
+    - |-
+      ATCD psychiatriques:
+      • épisodes antérieurs, hospitalisations, contraintes
+      • diagnostics posés (schizophrénie, trouble bipolaire, schizo-affectif)
+      • traitements antérieurs (efficacité, EI, observance)
+    - |-
+      ATCD familiaux psychiatriques:
+      • schizophrénie 1er degré (risque ×10)
+      • trouble bipolaire, suicide
+    - |-
+      Consommation de substances (à quantifier précisément):
+      • {s:cannabis} (++ déclencheur 1ers épisodes), amphétamines, cocaïne
+      • LSD, MDMA, kétamine, GHB, hallucinogènes
+      • alcool (hallucinose, DT), tabac
+    - |-
+      Médicaments:
+      • {r:corticoïdes} (psychose stéroïdienne), L-dopa, anticholinergiques
+      • opioïdes, interféron, isoniazide
+    - |-
+      ATCD somatiques:
+      • neurologiques (TC, épilepsie, AVC, SEP)
+      • auto-immuns (lupus, encéphalite anti-NMDA)
+      • endocriniens (thyroïde, surrénales)
+      • infectieux (VIH, syphilis)
+    - "Fonctionnement prémorbide vs actuel (échelle GAF si dispo)"
+    - "{e:Grossesse / post-partum} (psychose puerpérale = urgence absolue)"
+
+# source: line 403-422 (Urgences) + clinical pivots
+red_flags:
+  - description: "Voix impératives ordonnant passage à l'acte (auto/hétéro) ou scénario suicidaire/homicidaire structuré"
+    dx_suspecte: "{p:Syndrome d'influence avec dangerosité} (toute psychose)"
+    action: "Hospitalisation sous contrainte (PAFA/PLAFA) immédiate; {r:antipsychotique IM (halopéridol 5 mg + lorazépam 2-4 mg)}; contention si besoin; protection victime ciblée"
+  - description: "{s:Fièvre > 38.5°C + rigidité musculaire + AEG + sueurs/dysautonomie} chez patient sous antipsychotique"
+    dx_suspecte: "{p:Syndrome malin des neuroleptiques (SMN)}"
+    action: "ARRÊT IMMÉDIAT antipsychotique; transfert USI; {r:dantrolène 1-2.5 mg/kg IV} ± bromocriptine 2.5 mg/8h PO; refroidissement, hydratation; CPK, ionogramme [VÉRIFIER:protocole local SMN]"
+  - description: "{s:1er épisode psychotique} (aucun ATCD), surtout > 40 ans ou < 15 ans"
+    dx_suspecte: "{p:Cause organique sous-jacente} (15-20% des cas)"
+    action: "Bilan organique complet AVANT antipsychotique: NFS, iono, créat, BHC, TSH, glycémie, B12/folates, sérologies VIH/syphilis, urines toxico, hCG, {t:IRM cérébrale}, EEG; PL si fièvre/déficit focal"
+  - description: "Symptômes psychotiques + {s:déficit neurologique focal / troubles de conscience / signes méningés / convulsions}"
+    dx_suspecte: "{p:Encéphalite (anti-NMDA, herpétique, auto-immune)}, AVC, tumeur"
+    action: "{t:IRM cérébrale + EEG + PL} URGENT; transfert neurologie; aciclovir empirique si suspicion HSV [VÉRIFIER:seuil PL local]"
+  - description: "{s:Catatonie} (stupeur, mutisme, négativisme, posture maintenue, flexibilité cireuse)"
+    dx_suspecte: "{p:Catatonie} (schizophrénique, affective, ou organique)"
+    action: "{r:Lorazépam 1-2 mg IV} (test thérapeutique); ÉVITER antipsychotiques (risque SMN); ECT si pas de réponse; bilan organique"
+  - description: "{s:Agitation psychotique aiguë} non contrôlable par désescalade verbale, danger immédiat"
+    dx_suspecte: "{p:Episode psychotique aigu décompensé}"
+    action: "Désescalade verbale d'abord; si échec: {r:lorazépam 2-4 mg PO/IM + halopéridol 5 mg IM} OU olanzapine 10 mg IM; surveillance TA/FC/SaO2; contention en dernier recours"
+
+# source: line 175-192 + 217-230
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: TA, FC, T°, FR, SaO2, glycémie capillaire"
+    - "État d'hydratation, dénutrition (refus alimentaire?)"
+    - "Inspection cutanée: traces injection, scarifications, hématomes, signes contention"
+    - "Recherche prise de toxiques (haleine alcool, mydriase cocaïne, myosis opioïdes)"
+  cible:
+    - |-
+      {t:Status psychiatrique} structuré:
+      • apparence (négligée, bizarre, vêtements inadaptés)
+      • comportement (méfiant, replié, maniéré, agité)
+      • contact (pauvre, bizarre, hostile)
+      • affect (émoussé, inapproprié, discordant)
+      • discours (désorganisé, pauvre, néologismes)
+      • pensée (délire, diffluence, barrages)
+      • perceptions (hallucinations)
+      • cognition (attention, orientation)
+      • insight/jugement (absents/altérés)
+    - |-
+      Examen neurologique CIBLÉ (éliminer organique):
+      • Glasgow, signes de localisation
+      • nerfs crâniens (FO si HTIC suspectée)
+      • signes méningés
+      • mouvements anormaux (dyskinésie, tremblement, rigidité)
+      • {s:signes EPS} si déjà sous antipsychotique (dystonie, akathisie, parkinsonisme)
+    - "Évaluer dangerosité: idées suicidaires/homicidaires, plan, moyen, intentionnalité"
+    - "Évaluer capacité de discernement et capacité à consentir au traitement"
+
+# source: line 194-213 + clinical pivots
+dd_top5:
+  - dx: "{p:Schizophrénie}"
+    indices: "≥ 2 sx critère A (dont 1 positif) ≥ 1 mois + retentissement fonctionnel + durée totale ≥ 6 mois + exclusion organique/toxique/affectif; début 18-25 ans (H) / 25-35 ans (F); ATCD familiaux"
+    freq: "1% population (incidence 15-25/100 000/an)"
+  - dx: "{p:Trouble psychotique bref / aigu}"
+    indices: "≥ 1 symptôme psychotique, durée 1 j – 1 mois, retour fonctionnement antérieur; souvent facteur déclenchant (stress, post-partum); 50% évolueront vers schizophrénie ou bipolaire [VÉRIFIER:taux exact évolution]"
+    freq: "rare mais non négligeable; pic post-partum"
+  - dx: "{p:Trouble psychotique induit par substances}"
+    indices: "Relation temporelle claire avec {s:cannabis} (++ jeunes), amphétamines, cocaïne, LSD, MDMA, kétamine; régresse souvent en quelques jours/semaines après sevrage; urines toxico +"
+    freq: "très fréquent en urgence (jusqu'à 25% des présentations psychotiques aiguës)"
+  - dx: "{p:Trouble psychotique secondaire à condition médicale}"
+    indices: "{s:Encéphalite anti-NMDA} (jeune femme + crises + dyskinésies orofaciales), épilepsie temporale, tumeur frontale, AVC, démence, hyperthyroïdie, lupus, VIH; signes neuro / atypies (âge, début aigu)"
+    freq: "15-20% des 1ers épisodes psychotiques"
+  - dx: "{p:Trouble schizo-affectif}"
+    indices: "Critères schizophrénie + épisode thymique majeur (dépressif ou maniaque); symptômes psychotiques ≥ 2 semaines SANS trouble humeur; trouble humeur présent majorité de la maladie"
+    freq: "rare (0.3% prévalence vie)"
+
+# source: line 238-343 + 403-422
+pec_initiale:
+  immediate:
+    - "AVANT TOUT: éliminer cause organique/toxique (1er épisode = bilan complet obligatoire)"
+    - "Désescalade verbale, environnement calme, présence rassurante (équipe ≥ 2)"
+    - "Agitation aiguë: {r:lorazépam 2-4 mg PO/IM + halopéridol 5 mg IM} OU olanzapine 10 mg IM; surveillance TA/FC/SaO2"
+    - "1er épisode: {r:antipsychotique atypique faible dose} (rispéridone 1-2 mg → titration 2-6 mg/j, olanzapine 5-10 mg → 10-20 mg/j, aripiprazole 5-10 mg → 10-30 mg/j); essai 4-6 semaines avant switch [VÉRIFIER:posologies CHUV/HUG]"
+    - "Catatonie: {r:lorazépam 1-2 mg IV/PO} (test diagnostique et thérapeutique); ÉVITER antipsychotiques classiques (risque SMN)"
+    - "{p:SMN} suspecté: arrêt immédiat antipsychotique, USI, {r:dantrolène 1-2.5 mg/kg IV} ± bromocriptine, refroidissement, hydratation"
+    - "Évaluation dangerosité + hospitalisation (volontaire ou contrainte PAFA/PLAFA si refus + dangerosité)"
+  orientation:
+    - "Hospitalisation psychiatrique: 1er épisode, dangerosité auto/hétéro, dénutrition/déshydratation, non-observance avec rechute, comorbidité somatique aiguë"
+    - "Hospitalisation sous contrainte (PAFA/PLAFA Suisse) si refus + danger + perte capacité de discernement [VÉRIFIER:cadre légal canton]"
+    - "USI / médecine: {p:SMN}, encéphalite, intoxication sévère, complications somatiques"
+    - "Suivi ambulatoire spécialisé (CMP / consultation 1er épisode): patient stable, bonne alliance, entourage soutenant, pas de dangerosité"
+    - "Consignes retour urgences: idéation suicidaire, voix impératives, rechute symptômes, fièvre + raideur (SMN), effets secondaires sévères"
+
+# source: line 217-230 + clinical pivots
+examens_complementaires:
+  - "{t:Bilan 1er épisode systématique}: NFS, ionogramme, créat, glycémie, BHC, TSH, B12/folates, βHCG"
+  - "{t:Urines toxicologiques}: cannabis, amphétamines, cocaïne, opioïdes, BZD (TOUJOURS au 1er épisode)"
+  - "{t:Sérologies}: VIH, syphilis (TPHA-VDRL) au 1er épisode ou facteurs de risque"
+  - "{t:IRM cérébrale}: 1er épisode psychotique, atypies (âge > 40 ans / < 15 ans, début aigu, signes focaux, mauvaise réponse)"
+  - "{t:EEG}: suspicion épilepsie temporale, encéphalite, troubles de conscience"
+  - "{t:PL + Ac anti-NMDA}: fièvre, signes méningés, déficit focal, dyskinésies orofaciales (anti-NMDA chez jeune femme)"
+
+# source: line 403-422 + clinical pivots
+criteres_hospitalisation:
+  - "Dangerosité auto-agressive (idéation suicidaire, scénario, voix impératives)"
+  - "Dangerosité hétéro-agressive (menaces ciblées, syndrome d'influence)"
+  - "1er épisode psychotique (bilan + initiation traitement)"
+  - "Désorganisation majeure compromettant alimentation/hydratation/sécurité"
+  - "Suspicion cause organique aiguë ({p:SMN}, encéphalite, intoxication) → hospit médico-psy"
+
+# source: line 326-343 + clinical pivots
+pieges:
+  - "Prescrire antipsychotique SANS bilan organique au 1er épisode → manquer encéphalite anti-NMDA, tumeur, intoxication"
+  - "Méconnaître {p:SMN} (fièvre + rigidité + AEG sous antipsychotique) — mortalité 10% sans arrêt immédiat"
+  - "Négliger comorbidité cardio-métabolique (prise de poids 5-15 kg sous olanzapine, diabète, dyslipidémie) — surveiller poids/glycémie/lipides q3-6 mois"
+  - "Arrêt brutal d'antipsychotique → effet rebond, rechute psychotique, syndrome de sevrage dopaminergique (sevrage progressif sur semaines/mois)"
+  - "Ne pas hospitaliser malgré dangerosité par peur de la contrainte — la PAFA/PLAFA est un outil de soins, pas une punition"
+
+cartes_liees:
+  - SSP-PSY-02
+  - SSP-URG-12
+  - SSP-COM-10

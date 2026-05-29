@@ -1,0 +1,219 @@
+id: SSP-PSY-08
+type: ssp
+title: Troubles du sommeil
+discipline: Psy
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Sommeil.md
+
+# source: lines 11-83
+anamnese:
+  socrates:
+    - |-
+      Site (caractériser le trouble — 3 phénotypes d'insomnie):
+      • {s:difficulté d'endormissement} (latence > {r:30 min})
+      • {s:réveils nocturnes} fréquents (> 2×/nuit, > 30 min cumulés)
+      • {s:réveil précoce} (> 30 min avant heure habituelle)
+      • sommeil non réparateur malgré durée suffisante
+    - |-
+      Onset:
+      • début aigu (< 3 mois) ou chronique (≥ 3 mois)?
+      • facteur déclenchant: stress, deuil, voyage, travail posté?
+      • premier épisode ou récurrence?
+    - "Character: temps total de sommeil, latence, nombre/durée éveils — proposer {t:agenda du sommeil} sur {r:2 semaines}"
+    - "Radiation: retentissement diurne (fatigue, concentration, irritabilité, accidents, performance professionnelle/scolaire)"
+    - |-
+      Time:
+      • critère insomnie chronique: ≥ {r:3 nuits/sem} pendant ≥ {r:3 mois}
+      • horaires coucher/lever (régularité, week-end)
+      • siestes diurnes (durée, horaire)?
+    - |-
+      Exacerbating (hygiène & stimulants):
+      • caféine: quantité (seuil critique > {r:400 mg/j}), horaire dernière prise
+      • alcool, tabac, cannabis, écrans en soirée
+      • activité physique tardive (< 3 h avant coucher)
+      • environnement: bruit, lumière, T° chambre ({r:18-20 °C} optimale)
+    - "Relieving: mesures déjà essayées, hypnotiques (lesquels? efficacité? durée?), mélatonine, phytothérapie"
+    - |-
+      Severity:
+      • {t:Index de sévérité de l'insomnie (ISI)}: 0-7 absent, 8-14 sous-seuil, 15-21 modéré, 22-28 sévère
+      • {t:Epworth (ESS)}: somnolence diurne (> 10 anormale, > 16 sévère)
+      • retentissement fonctionnel et qualité de vie
+  specifique:
+    - |-
+      Dépistage {p:SAOS} ({t:STOP-BANG} — ≥ 3 = risque modéré, ≥ 5 = risque élevé):
+      • Snoring (ronflement bruyant)
+      • Tired (fatigue/somnolence diurne, score Epworth)
+      • Observed apnea (pauses respiratoires constatées)
+      • Pressure ({s:HTA} traitée ou non)
+      • BMI > 35, Age > 50, Neck > 40 cm, Gender masculin
+    - |-
+      Dépistage {p:Syndrome des jambes sans repos (SJSR)} — 4 critères URGE:
+      • Urge à bouger les jambes
+      • Repos déclenche
+      • Going (le mouvement soulage)
+      • Evening/night aggravation
+    - |-
+      Parasomnies & hypersomnies:
+      • {s:somnambulisme}, terreurs nocturnes, bruxisme (sommeil lent)
+      • {p:REM behavior disorder} (gestes/cris pendant rêves, {e:> 50 ans}) → risque maladie neurodégénérative
+      • cataplexie + paralysies du sommeil + hallucinations hypnagogiques → {p:Narcolepsie}
+    - |-
+      Causes psychiatriques à dépister systématiquement:
+      • anxiété ({t:GAD-7}): ruminations au coucher, tension musculaire
+      • {p:dépression} ({t:PHQ-9}): réveil précoce 4-5 h, anhédonie, idées suicidaires
+      • PTSD: cauchemars répétitifs, hypervigilance
+      • addictions (alcool, BZD, stimulants)
+    - |-
+      Causes organiques à rechercher:
+      • {p:hyperthyroïdie} (palpitations, sueurs, perte poids, tremblements)
+      • RGO nocturne, nycturie (prostate, IC, diabète)
+      • douleurs chroniques (arthrose, fibromyalgie), prurit
+      • BPCO/asthme nocturne, IC (orthopnée)
+    - "Sécurité (somnolence diurne): conduite automobile, métier à risque (chauffeur, machines), accidents récents [VÉRIFIER: obligation déclaration aptitude conduite SAOS selon OACP]"
+  atcd:
+    - "ATCD psychiatriques: anxiété, dépression, PTSD, addictions, troubles bipolaires"
+    - |-
+      ATCD médicaux:
+      • thyroïde, cardiovasculaires, BPCO, RGO
+      • douleurs chroniques, neuro (Parkinson, démence)
+      • prostate (nycturie), grossesse/ménopause
+    - |-
+      Médicaments à passer en revue (insomnogènes):
+      • corticoïdes, bêta-2 mimétiques, théophylline
+      • antidépresseurs activateurs (fluoxétine matin)
+      • bêtabloquants (cauchemars)
+      • diurétiques le soir (nycturie iatrogène)
+      • décongestionnants, levothyroxine surdosée
+    - |-
+      Substances:
+      • caféine (café, thé, sodas, chocolat, énergisants)
+      • alcool (induit endormissement mais fragmente sommeil)
+      • tabac (nicotine stimulante), cannabis
+      • cocaïne, amphétamines
+      • sevrage BZD/Z-drugs (insomnie rebond)
+    - "ATCD familiaux: insomnie, narcolepsie, SJSR (forte composante génétique), troubles thyroïdiens, psychiatriques"
+
+# source: pivot context (clinical), lines 124-186
+red_flags:
+  - description: "{s:Ronflement bruyant} + {s:apnées constatées} + {s:somnolence diurne} ({t:Epworth} > 10) ± {s:HTA résistante} ± obésité ({t:STOP-BANG} ≥ 5)"
+    dx_suspecte: "{p:Syndrome d'apnées obstructives du sommeil (SAOS)} sévère"
+    action: "{t:Polygraphie ventilatoire} ambulatoire (ou polysomnographie); avis pneumologue/centre du sommeil; mise en place {r:CPAP} si IAH ≥ 30 ou ≥ 15 avec symptômes; PAS d'hypnotique entre-temps"
+  - description: "{s:Somnolence diurne sévère} ({t:Epworth} > 16) + {s:cataplexie} (perte tonus émotion) ± paralysies sommeil ± hallucinations hypnagogiques"
+    dx_suspecte: "{p:Narcolepsie} (type 1 si cataplexie)"
+    action: "Avis neurologue/centre du sommeil; {t:polysomnographie} + {t:Test itératif de latences d'endormissement (TILE)}; restriction conduite jusqu'au bilan [VÉRIFIER: protocole TILE local CHUV/HUG]"
+  - description: "Insomnie + {s:dépression} avec {s:idéations suicidaires} actives (plan, moyens accessibles)"
+    dx_suspecte: "{p:Crise suicidaire} dans dépression"
+    action: "URGENCE psychiatrique: évaluation RUD, hospitalisation si plan précis, retrait des moyens; PAS de BZD/Z-drug seuls (risque désinhibition); traiter la dépression"
+  - description: "Insomnie + {s:agitation} + {s:perte de poids} + {s:sueurs nocturnes} + tachycardie ± tremblements ± exophtalmie"
+    dx_suspecte: "{p:Hyperthyroïdie} (Basedow, nodule toxique)"
+    action: "{t:TSH} + {t:T4L/T3L} + {t:TRAK} STAT; bilan endocrinologique; {r:bêtabloquant} symptomatique (propranolol 40-80 mg × 2-3/j); antithyroïdiens après confirmation"
+  - description: "{s:Comportements moteurs violents pendant les rêves} (gestes, coups, cris) chez patient {e:> 50 ans}, souvent décrits par conjoint(e)"
+    dx_suspecte: "{p:Trouble comportemental en sommeil paradoxal (RBD)} — précurseur fréquent de synucléinopathie (Parkinson, DCL, MSA)"
+    action: "Consultation neurologique; {t:polysomnographie} avec EMG; sécuriser la chambre (lit bas, retirer objets); {r:mélatonine 3-12 mg} ou clonazépam à faible dose [VÉRIFIER: posologie clonazépam RBD]"
+  - description: "Insomnie aiguë sévère + altération comportement + agitation + désorientation chez {e:personne âgée} ou en post-op"
+    dx_suspecte: "{p:État confusionnel (delirium)} avec inversion rythme nycthéméral"
+    action: "Bilan étiologique urgent (infection, métabolique, iatrogène); PAS de BZD (aggrave); favoriser réorientation; {r:halopéridol 0.5-1 mg} si agitation dangereuse"
+
+# source: lines 87-118
+examen:
+  general:
+    - "Signes vitaux: TA (HTA = SAOS, hyperthyroïdie, stimulants), FC (tachycardie), T°, FR, SaO2"
+    - "{t:Poids, taille, IMC, tour de cou} ({r:> 40 cm} = risque SAOS), tour de taille"
+    - "État général: signes de fatigue (cernes, teint terne), agitation psychomotrice vs ralentissement"
+    - "Examen ORL/voies aériennes supérieures: {t:score de Mallampati} III-IV, hypertrophie amygdalienne, rétrognathie, macroglossie (SAOS)"
+  cible:
+    - |-
+      Examen thyroïdien (cause organique fréquente):
+      • inspection cou (goitre visible, cicatrices)
+      • palpation thyroïde (volume, nodules, consistance)
+      • auscultation (souffle = hypervascularisation Basedow)
+    - |-
+      Signes d'hyperthyroïdie à rechercher:
+      • exophtalmie, rétraction palpébrale (signe de Dalrymple)
+      • {s:tremblements fins} mains tendues
+      • ROT vifs, peau chaude et moite
+      • myxoedème prétibial (Basedow)
+    - "Cardiovasculaire: auscultation cardiaque (FA = complication hyperthyroïdie, IC = nycturie/orthopnée), pouls périphériques"
+    - "Neurologique succinct: état psychique (anxiété, ralentissement dépressif), tremblement, marche (Parkinson), force proximale"
+    - |-
+      Examen psychiatrique structuré:
+      • humeur (déprimée, anxieuse), affect
+      • discours (ruminations, ralentissement)
+      • {t:PHQ-9} et {t:GAD-7} à la consultation
+      • exploration suicide systématique si dépression
+    - "Inspection cutanée: signes d'addiction (haleine alcool, traces piqûres), prurit (cause d'insomnie souvent négligée)"
+
+# source: clinical pivots + lines 144-151
+dd_top5:
+  - dx: "{p:Insomnie chronique psychophysiologique} (primaire)"
+    indices: "Conditionnement négatif au sommeil, hyperéveil cognitif (ruminations au coucher), latence > 30 min, ≥ 3 nuits/sem ≥ 3 mois, bilan organique normal, hygiène souvent imparfaite; {t:ISI} ≥ 15"
+    freq: "très fréquent — 1ère cause d'insomnie chronique (~10 % adultes)"
+  - dx: "{p:Insomnie comorbide d'un trouble psychiatrique}"
+    indices: "{p:Dépression} (réveil précoce 4-5 h, anhédonie), anxiété/TAG (ruminations, endormissement long), PTSD (cauchemars), addictions; {t:PHQ-9} ≥ 10 ou {t:GAD-7} ≥ 10"
+    freq: "très fréquent (40-60 % des insomnies chroniques)"
+  - dx: "{p:Syndrome d'apnées obstructives du sommeil (SAOS)}"
+    indices: "Ronflement, apnées observées, somnolence diurne, HTA, obésité, sommeil non réparateur, nycturie; {t:STOP-BANG} ≥ 3, confirmé par {t:polygraphie} (IAH ≥ 5)"
+    freq: "fréquent (5-10 % adultes, sous-diagnostiqué)"
+  - dx: "{p:Syndrome des jambes sans repos (SJSR)} ± mouvements périodiques"
+    indices: "4 critères URGE, soulagement par mouvement, ferritine < {r:50-75 µg/L} fréquente, ATCD familiaux, aggravé par antidépresseurs/antihistaminiques [VÉRIFIER: seuil ferritine recommandé pour supplémentation]"
+    freq: "5-10 % adultes (prévalence sous-estimée)"
+  - dx: "{p:Insomnie secondaire à cause organique ou iatrogène}"
+    indices: "{p:Hyperthyroïdie}, douleurs chroniques, RGO nocturne, nycturie (prostate, IC), BPCO; médicaments (corticoïdes, bêta-2, théophylline, ISRS activateurs); substances (caféine, alcool, sevrage BZD)"
+    freq: "fréquent en médecine générale (10-30 %)"
+
+# source: lines 155-198
+pec_initiale:
+  immediate:
+    - "1ère étape SYSTÉMATIQUE: {t:agenda du sommeil} sur 2 sem + {t:ISI} + {t:Epworth} + dépistage {t:STOP-BANG}, {t:PHQ-9}, {t:GAD-7}"
+    - |-
+      Hygiène du sommeil (TOUS cas — base obligatoire):
+      • horaires réguliers ± 30 min (week-end inclus)
+      • pas de caféine après {r:14 h}, max {r:300 mg/j}
+      • pas d'alcool, pas d'écrans 2 h avant coucher
+      • chambre {r:18-20 °C}, obscure, silencieuse
+      • lit = sommeil + sexe uniquement; sortir si éveillé > 20 min
+      • exercice régulier (pas < 3 h avant coucher)
+    - "Insomnie chronique 1ère ligne: {r:TCC-I (TCC de l'insomnie)} — restriction sommeil + contrôle stimulus + restructuration cognitive + relaxation (6-8 séances, efficacité 70-80 % maintenue)"
+    - "Traiter la cause: {p:SAOS} → {r:CPAP}; {p:dépression}/anxiété → {r:ISRS} + psychothérapie; {p:SJSR} → fer si ferritine < {r:75 µg/L}, agoniste dopaminergique; {p:hyperthyroïdie} → antithyroïdien"
+    - "Pharmacothérapie hypnotique en DERNIER recours, courte durée (< {r:4 sem}): {r:zolpidem 5-10 mg} ou {r:zopiclone 3.75-7.5 mg} au coucher; éviter chez {e:> 65 ans} (chutes)"
+    - "Alternatives ciblées: {r:mélatonine LP 2 mg} (chez {e:> 55 ans}, troubles rythme circadien, jet lag); {r:trazodone 25-100 mg} ou mirtazapine si dépression associée; {r:doxylamine} courte durée [VÉRIFIER: place mélatonine < 55 ans selon recos HAS 2024]"
+    - "ÉVITER en routine: {r:benzodiazépines} long terme (dépendance, chutes, troubles cognitifs), neuroleptiques sédatifs hors indication psychiatrique"
+  orientation:
+    - "Domicile + suivi médecin traitant: insomnie aiguë réactionnelle, insomnie chronique sans red flag, bonne alliance"
+    - "Centre du sommeil / pneumologue: suspicion {p:SAOS}, somnolence diurne sévère ({t:Epworth} > 12), parasomnies inhabituelles"
+    - "Neurologue: suspicion {p:narcolepsie}, {p:RBD} ({e:> 50 ans}), SJSR réfractaire"
+    - "Psychiatre: idéations suicidaires, dépression sévère, PTSD, addictions, insomnie réfractaire à TCC-I + traitement"
+    - "Consignes de retour: somnolence diurne dangereuse (conduite), idées suicidaires, virage maniaque sous antidépresseur, échec à 4-6 sem"
+
+# source: lines 124-142 + pivots
+examens_complementaires:
+  - "{t:Agenda du sommeil} 2 sem + {t:ISI} + {t:Epworth} + {t:STOP-BANG}: bilan minimal de toute insomnie chronique"
+  - "{t:TSH} ± T4L/T3L SYSTÉMATIQUE (élimine {p:hyperthyroïdie}); {t:FSC} (anémie); {t:glycémie}, créat, bilan hépatique selon contexte"
+  - "{t:Ferritine} si suspicion SJSR (cible > {r:75 µg/L}); {t:vit B12, folates, vit D} chez {e:> 65 ans}"
+  - "{t:Polygraphie ventilatoire ambulatoire} si suspicion {p:SAOS} ({t:STOP-BANG} ≥ 3); polysomnographie en centre si négative ou parasomnies"
+  - "{t:Polysomnographie} + {t:TILE} si suspicion {p:narcolepsie} ou {p:RBD}"
+  - "{t:PHQ-9}, {t:GAD-7}, {t:MDQ} si suspicion psychiatrique; bilan toxicologique si addictions [VÉRIFIER: ordre prescription bilans complémentaires selon GINA/recos suisses]"
+
+# source: clinical synthesis
+criteres_hospitalisation:
+  - "Idéations suicidaires actives avec plan dans contexte dépressif"
+  - "Somnolence diurne mettant en danger autrui (accident professionnel ou de conduite imminent)"
+  - "{p:Delirium} avec inversion nycthémérale et agitation dangereuse chez {e:personne âgée}"
+  - "{p:Hyperthyroïdie} décompensée (crise aiguë thyrotoxique) avec retentissement cardiovasculaire"
+  - "Sevrage BZD compliqué (crises, confusion) — sevrage en milieu hospitalier"
+
+# source: lines 211-216 + clinical
+pieges:
+  - "Prescrire {r:BZD/Z-drug} d'emblée sans rechercher étiologie (SAOS, dépression, hyperthyroïdie) ni essai TCC-I — risque dépendance + masque cause"
+  - "Méconnaître {p:SAOS} (ronflement + obésité + HTA + somnolence) et donner un hypnotique → {r:CPAP est le traitement}, l'hypnotique aggrave les apnées"
+  - "Ne pas demander d'{t:agenda du sommeil} (sous-estimation du temps réel de sommeil — perception altérée par hyperéveil cognitif)"
+  - "Maintenir un hypnotique au long cours chez {e:personne âgée} → chutes, fractures, troubles cognitifs, dépendance (déprescription progressive obligatoire)"
+  - "Considérer la {p:mélatonine} comme inefficace en oubliant ses indications spécifiques (> 55 ans, troubles rythme circadien, jet lag, travail posté, RBD)"
+
+cartes_liees:
+  - SSP-PSY-02
+  - SSP-PSY-03
+  - SSP-ORL-10

@@ -1,0 +1,217 @@
+id: SSP-PSY-02
+type: ssp
+title: Dépression
+discipline: Psy
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dépression.md
+
+# source: lines 37-202
+anamnese:
+  socrates:
+    - |-
+      Site (humeur & anhédonie — 2 cardinaux DSM-5):
+      • "Comment décririez-vous votre moral?"
+      • "Prenez-vous encore plaisir aux activités habituelles?"
+      • intensité 0-10, variation diurne (aggravation matinale = mélancolie)
+    - |-
+      Onset:
+      • début progressif ou brutal?
+      • facteur déclenchant identifiable (deuil, séparation, perte emploi)?
+      • premier épisode ou récurrence?
+    - "Character: tristesse, vide, désespoir, irritabilité (jeune/adolescent), plaintes somatiques masquées ({e:> 65 ans})"
+    - "Radiation: retentissement familial, professionnel, scolaire, social, financier"
+    - |-
+      Time:
+      • durée ≥ {r:2 semaines} (critère DSM-5)
+      • quasi-quotidienne, la majeure partie de la journée
+      • horaire (réveil précoce > 2 h avant habituel = mélancolie)
+      • impact sommeil et capacité de travail
+    - |-
+      Exacerbating:
+      • événements de vie récents (deuil, séparation, licenciement)
+      • stress chronique (surcharge, harcèlement, aidant)
+      • saisonnalité (automne-hiver = saisonnier)?
+      • post-partum < 4 sem?
+    - "Relieving: réactivité de l'humeur conservée (atypique) ou non (mélancolie); traitements antérieurs et efficacité"
+    - |-
+      Severity:
+      • {t:PHQ-9} (≥ 10 modéré, ≥ 15 modérément sévère, ≥ 20 sévère)
+      • nombre de critères DSM-5 (5-6 léger, 7-8 modéré, ≥ 9 sévère)
+      • retentissement fonctionnel (autonomie, hygiène, alimentation)
+  specifique:
+    - |-
+      9 critères DSM-5 EDM (≥ 5 dont ≥ 1 cardinal pendant ≥ 2 sem):
+      • {s:humeur dépressive} quasi-quotidienne (cardinal)
+      • {s:anhédonie} marquée (cardinal)
+      • variation poids/appétit ≥ 5 % en 1 mois
+      • insomnie ou hypersomnie
+      • ralentissement / agitation psychomoteur
+      • fatigue quasi-quotidienne
+      • dévalorisation, culpabilité excessive
+      • troubles concentration, indécision
+      • idées suicidaires récurrentes
+    - |-
+      {s:Mélancolie} (URGENCE PSY):
+      • anhédonie totale, absence de réactivité
+      • aggravation matinale, réveil précoce
+      • ralentissement marqué
+      • anorexie, perte de poids
+      • culpabilité délirante
+    - "Caractéristiques psychotiques: délires congruents (ruine, culpabilité, hypochondrie) ou non congruents, hallucinations auditives culpabilisantes"
+    - "Dépression {e:péripartum}: début grossesse ou < 4 sem post-partum → risque infanticide si psychose"
+    - |-
+      Évaluation suicide RUD (PRIORITÉ ABSOLUE):
+      • Risque: ATCD TS, ATCD familiaux suicide, homme > 45 ans, isolement, addictions
+      • Urgence: idéation passive ("la vie ne vaut pas la peine") / active ("je veux mourir") / planifiée
+      • Dangerosité: moyen accessible + létal (arme, pendaison, défenestration)
+      • "Avez-vous un plan précis (où, quand, comment)? Qu'est-ce qui vous retient?"
+    - "Recherche {p:bipolarité}+++: ATCD (hypo)manie, euphorie, hyperactivité, insomnie sans fatigue, logorrhée, fuite idées, comportements à risque (achats, sexualité) — questionnaire {t:MDQ}"
+  atcd:
+    - "ATCD psychiatriques: nombre d'épisodes dépressifs, durée, traitements, réponses; tentatives de suicide (nombre, moyens, contexte)"
+    - "ATCD familiaux: dépression, bipolarité, suicide (héritabilité 37 %)"
+    - |-
+      ATCD médicaux à rechercher (causes organiques):
+      • {p:hypothyroïdie}, Cushing, Addison
+      • {p:Parkinson}, démence, SEP, AVC
+      • VIH, syphilis, cancers (pancréas, poumon)
+      • carences B12, folates, vit D
+    - |-
+      Médicaments dépressogènes:
+      • corticoïdes (dose-dépendant)
+      • bêtabloquants, méthyldopa
+      • interféron alpha (30-50 %)
+      • isotrétinoïne
+      • contraceptifs progestatifs
+    - |-
+      Substances:
+      • alcool+++ (dépression secondaire fréquente)
+      • cannabis (sd amotivationnel)
+      • cocaïne (sevrage), opioïdes
+      • benzodiazépines
+    - "Comorbidités: troubles anxieux (50-60 %), addictions (30 %), troubles personnalité (20-30 %), TCA, TDAH/TSA"
+
+# source: lines 165-202, 393-403
+red_flags:
+  - description: "{s:Idéation suicidaire active} avec plan, moyens accessibles et intention (RUD score élevé)"
+    dx_suspecte: "{p:Crise suicidaire imminente}"
+    action: "URGENCE: hospitalisation immédiate (SDT/SDRE/SPI selon contexte); retrait des moyens; contrat de sécurité; surveillance continue [VÉRIFIER: modalité d'hospitalisation sous contrainte CH selon LSP]"
+  - description: "{s:Dépression mélancolique} sévère avec {s:délire congruent} (culpabilité, ruine, hypochondrie) ± hallucinations auditives"
+    dx_suspecte: "{p:Dépression psychotique}"
+    action: "Hospitalisation psychiatrique; {r:antipsychotique} (olanzapine, quétiapine) + antidépresseur; {t:ECT} si résistance ou risque vital"
+  - description: "Dépression {e:post-partum} avec {s:idéations infanticidaires} ou délire de filiation"
+    dx_suspecte: "{p:Psychose puerpérale}"
+    action: "Hospitalisation urgente en unité mère-bébé; séparation surveillée mère-enfant; avis pédopsychiatrique [VÉRIFIER: dispositif unité mère-bébé local]"
+  - description: "{s:AEG sévère} + dénutrition + refus alimentation/boisson dans contexte de mélancolie"
+    dx_suspecte: "{p:Dépression mélancolique stuporeuse}"
+    action: "Hospitalisation; rehydratation IV; renutrition progressive; {t:ECT} en première intention si pronostic vital engagé"
+  - description: "Dépression + {s:insomnie totale} + agitation + ATCD personnels/familiaux bipolaires (sous antidépresseur)"
+    dx_suspecte: "{p:Virage maniaque} sous antidépresseur"
+    action: "ARRÊT immédiat antidépresseur; introduction {r:thymorégulateur} (lithium, valproate); avis psychiatrique urgent"
+  - description: "{s:Catatonie} (stupeur, mutisme, catalepsie, négativisme, échopraxie)"
+    dx_suspecte: "{p:Dépression catatonique} ou syndrome catatonique"
+    action: "Hospitalisation; {r:lorazépam 1-2 mg IV} test diagnostique et thérapeutique; {t:ECT} si pas de réponse [VÉRIFIER: dose lorazépam test catatonie]"
+
+# source: lines 204-235, 237-260
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T°, FR, SaO2 (éliminer cause organique)"
+    - "Poids et IMC, état d'hydratation, état cutané (négligence d'hygiène)"
+    - "Examen somatique complet: thyroïde (goitre), neurologique succinct, signes d'addiction (haleine alcool, traces injection)"
+    - "Recherche d'automutilations, cicatrices de tentatives antérieures"
+  cible:
+    - |-
+      Présentation et contact:
+      • apparence (négligée, hygiène, vêtements)
+      • posture (repliée, prostrée)
+      • contact visuel (évitement)
+      • collaboration variable
+    - |-
+      Psychomotricité:
+      • {s:ralentissement} (bradykinésie, hypomimie, voix monocorde, latence réponses)
+      • OU {s:agitation anxieuse} (ne tient pas en place)
+    - |-
+      Humeur et affect:
+      • humeur subjective ("triste", "vide", "désespérée")
+      • affect observé (déprimé, peu réactif)
+      • labilité émotionnelle, pleurs faciles
+      • anxiété associée (60 %)
+    - |-
+      Pensée et discours:
+      • débit ralenti, pauvre
+      • contenu (thèmes négatifs, pessimistes)
+      • ruminations dépressives (culpabilité, échec)
+      • idées délirantes si psychotique (ruine, incurabilité)
+    - |-
+      Fonctions cognitives:
+      • attention (difficultés de concentration)
+      • mémoire (plaintes mnésiques = pseudo-démence chez {e:> 65 ans})
+      • fonctions exécutives (indécision)
+      • jugement et insight variables
+    - "Exploration suicide systématique: idées passives → actives → plan → moyens → date → ce qui retient (5 étapes Columbia)"
+
+# source: lines 262-289
+dd_top5:
+  - dx: "{p:Épisode dépressif majeur unipolaire}"
+    indices: "≥ 5/9 critères DSM-5 dont humeur dépressive ou anhédonie, durée ≥ 2 sem, retentissement fonctionnel, pas d'ATCD (hypo)manie; {t:PHQ-9} ≥ 10"
+    freq: "très fréquent (prévalence vie entière 15-20 %)"
+  - dx: "{p:Trouble bipolaire} (épisode dépressif)"
+    indices: "ATCD (hypo)manie même brève, ATCD familiaux bipolaires, début précoce < 25 ans, dépression récurrente, atypique (hypersomnie/hyperphagie), virage sous antidépresseur; {t:MDQ} positif"
+    freq: "10-15 % des dépressions étiquetées unipolaires"
+  - dx: "{p:Trouble dépressif persistant (dysthymie)}"
+    indices: "Durée ≥ 2 ans, < 5 critères DSM-5 majeur, intensité moindre mais chronicité, fonctionnement préservé partiellement"
+    freq: "prévalence 3-6 %"
+  - dx: "{p:Trouble de l'adaptation avec humeur dépressive}"
+    indices: "Stresseur identifiable < 3 mois, retentissement disproportionné, < critères EDM, résolution < 6 mois après fin du stresseur"
+    freq: "fréquent (10-30 % consultations psy)"
+  - dx: "{p:Dépression secondaire} (organique / médicamenteuse / toxique)"
+    indices: "{p:Hypothyroïdie} (TSH↑), {p:Cushing}, AVC, démence, Parkinson; médicaments (corticoïdes, bêtabloquants, interféron); alcool/cocaïne; bilan organique anormal"
+    freq: "~10-15 % des dépressions vues en médecine générale [VÉRIFIER: estimations sources francophones]"
+
+# source: lines 290-426
+pec_initiale:
+  immediate:
+    - "ÉVALUATION SUICIDAIRE SYSTÉMATIQUE: méthode RUD (Risque / Urgence / Dangerosité) avant toute orientation"
+    - "Léger ({t:PHQ-9} 10-14, 5-6 sx): {r:psychothérapie} 1ère ligne (TCC ou IPT, 12-20 séances), activation comportementale, hygiène sommeil, exercice 30 min × 3/sem"
+    - "Modéré-sévère ({t:PHQ-9} ≥ 15): {r:ISRS} 1ère ligne — sertraline 50 mg/j ↑ 100-200 mg, escitalopram 10 mg ↑ 20 mg, fluoxétine 20 mg ↑ 60 mg + psychothérapie"
+    - "Information patient: délai d'action {r:2-4 sem}, durée minimale 6-12 mois après rémission, sevrage progressif sur 4-6 sem, surveillance levée d'inhibition à J7-15"
+    - "Avec caractéristiques psychotiques: ajout {r:antipsychotique} (olanzapine 5-10 mg, quétiapine 200-400 mg) ou {t:ECT} d'emblée"
+    - "Résistante (échec ≥ 2 antidépresseurs ≥ 6-8 sem dose adéquate): switch, combinaison, augmentation par {r:lithium} (0.4-0.8 mEq/L), {r:aripiprazole 2.5-10 mg}, ou {t:ECT} (70-90 % réponse) [VÉRIFIER: posologies augmentation HUG/CHUV]"
+    - "Si suspicion bipolaire: PAS d'antidépresseur en monothérapie → {r:thymorégulateur} (lithium, valproate, lamotrigine) ± antidépresseur sous couverture"
+  orientation:
+    - "Domicile + suivi médecin traitant: dépression légère sans risque suicidaire, support familial, alliance thérapeutique solide"
+    - "Consultation psychiatrique ambulatoire: dépression modérée, première décompensation, doute diagnostique (bipolaire?), résistance traitement"
+    - "Hospitalisation psychiatrique (volontaire / SDT / SDRE): risque suicidaire élevé, mélancolie, caractéristiques psychotiques, refus de soins, isolement total, AEG sévère"
+    - "Consignes de réévaluation: aggravation, idées suicidaires nouvelles, virage maniaque (insomnie + euphorie + hyperactivité), effets indésirables ISRS (nausées, syndrome sérotoninergique)"
+
+# source: lines 237-260
+examens_complementaires:
+  - "{t:TSH} SYSTÉMATIQUE (élimine {p:hypothyroïdie})"
+  - "{t:FSC} + {t:ionogramme + créat} (anémie, SIADH sous ISRS), glycémie, bilan hépatique (alcool), {t:vit B12 + folates + vit D} si {e:> 65 ans}"
+  - "{t:ECG} avant ISRS/tricycliques (QTc, surtout citalopram > 40 mg, escitalopram > 20 mg)"
+  - "{t:bHCG} si femme en âge de procréer (avant prescription)"
+  - "{t:PHQ-9} / {t:HAM-D} / {t:MADRS} à la baseline puis à 4-6 sem (suivi quantitatif); {t:MDQ} pour dépistage bipolarité"
+  - "{t:IRM cérébrale} si début > 60 ans, signes neurologiques focaux, résistance thérapeutique, suspicion organicité [VÉRIFIER: seuil d'âge pour imagerie systématique selon recos suisses]"
+
+# source: lines 393-403
+criteres_hospitalisation:
+  - "Plan suicidaire précis avec moyen accessible OU TS récente OU intentionnalité avérée"
+  - "Caractéristiques mélancoliques sévères avec refus alimentaire / dénutrition / stupeur"
+  - "Caractéristiques psychotiques (délire, hallucinations) ou catatoniques"
+  - "Isolement social complet, perte du soutien, refus de soins"
+  - "Dépression {e:péripartum} avec idéations infanticidaires ou doute sur capacité maternelle"
+
+# source: lines 504-509
+pieges:
+  - "Méconnaître {p:bipolaire} et prescrire un antidépresseur seul → {p:virage maniaque} (15-20 %) — TOUJOURS demander ATCD (hypo)manie et faire {t:MDQ}"
+  - "Oublier d'évaluer le risque suicidaire systématiquement (RUD) — surveillance accrue à J7-15 (levée d'inhibition sous ISRS = risque accru)"
+  - "Prescrire {r:benzodiazépines} seules pour 'l'anxiété dépressive' → ne traite pas la dépression, induit dépendance, augmente risque suicidaire (désinhibition)"
+  - "Arrêt brutal d'un ISRS → syndrome d'arrêt (vertiges, paresthésies type 'décharge électrique', irritabilité); sevrage progressif sur 4-6 sem obligatoire"
+  - "Méconnaître {s:dépression masquée} chez {e:personne âgée} (plaintes somatiques, plaintes mnésiques = pseudo-démence) — TSH + {t:GDS} + essai antidépresseur thérapeutique"
+
+cartes_liees:
+  - SYS-PSY
+  - TOOL-PHQ9
+  - TOOL-MDQ

@@ -1,0 +1,216 @@
+id: SSP-PSY-04
+type: ssp
+title: Perte d'appétit
+discipline: Psy
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Perte_Appetit.md
+
+# source: line 9-100
+anamnese:
+  socrates:
+    - |-
+      Site / type:
+      • {s:anorexie} vraie (perte d'envie) vs {s:satiété précoce} (envie initiale, arrêt rapide → cause gastrique)
+      • vs {s:ARFID} (évitement sélectif certains aliments / textures)
+    - |-
+      Onset:
+      • début brutal (médicament, événement de vie, infection aiguë) ou progressif (néoplasie, dépression)?
+      • date précise du début?
+    - "Character: dégoût alimentaire (viande → cancer), modification du goût (dysgueusie), nausées associées?"
+    - "Radiation: symptômes digestifs associés (douleur épigastrique, RGO, dysphagie, troubles transit)?"
+    - |-
+      Time:
+      • durée totale (jours / semaines / mois)
+      • évolution constante ou par épisodes
+      • horaire repas (matin vs soir)?
+    - |-
+      Exacerbating:
+      • stress, événements de vie, contexte social
+      • odeurs, situation de repas (isolement)
+      • médicaments récents?
+    - "Relieving: certains aliments tolérés, contexte social favorable, jeûne intermittent volontaire?"
+    - |-
+      Severity:
+      • {r:% perte de poids} : > 5 % en 1 mois ou > 10 % en 6 mois = significatif [VÉRIFIER: seuils MUST/MNA exacts selon âge]
+      • IMC actuel, poids habituel, poids minimal / maximal
+      • retentissement fonctionnel (asthénie, capacité travail)
+  specifique:
+    - |-
+      Symptômes B ({p:néoplasie}):
+      • {s:fièvre} persistante
+      • {s:sueurs nocturnes} (qui trempent les draps)
+      • {s:amaigrissement involontaire} > 10 % en 6 mois
+      • douleurs inexpliquées, masse palpable, adénopathies
+    - |-
+      Contexte psychiatrique:
+      • {s:tristesse}, {s:anhédonie}, troubles du sommeil → {p:dépression}
+      • idées suicidaires (urgence)
+      • anxiété, ruminations, attaques de panique
+      • image corporelle altérée, déni de la maigreur → {p:anorexie mentale}
+    - |-
+      Symptômes endocriniens:
+      • {s:hyperthyroïdie} : sueurs, tremblements, palpitations, intolérance chaleur, diarrhée (paradoxalement polyphagie possible)
+      • {p:insuffisance surrénalienne} : asthénie, hypoTA, hyperpigmentation, salt-craving
+      • diabète décompensé : polyurie / polydipsie
+    - |-
+      Substances et médicaments:
+      • {r:opioïdes}, {r:ISRS}, {r:méthylphénidate}, chimiothérapie, antibiotiques (modif flore)
+      • {r:cocaïne / amphétamines} (effet coupe-faim)
+      • alcool (gastrite, hépatopathie), tabac (modification récente)
+    - |-
+      Contexte gériatrique (si > 65 ans):
+      • état dentaire, prothèses, sécheresse buccale
+      • démence, isolement, deuil
+      • polymédication, dysphagie
+  atcd:
+    - "ATCD psychiatriques: dépression, anorexie mentale, addictions, troubles anxieux"
+    - "ATCD médicaux: cancer (personnel ou familial), MICI, ulcère, hépatopathie, dysthyroïdie"
+    - |-
+      Médicaments en cours (causes très fréquentes):
+      • opioïdes, ISRS, IRSNA
+      • chimiothérapie, méthylphénidate
+      • digoxine, metformine
+      • polymédication chez sujet âgé
+    - "Anamnèse sociale: isolement, précarité alimentaire, deuil récent, perte d'autonomie"
+    - |-
+      Anamnèse alimentaire (rappel 24h):
+      • nombre de repas, composition
+      • collations, boissons (alcool, sodas)
+      • régimes restrictifs (volontaires?)
+
+# source: ECOS pivots + golden master
+red_flags:
+  - description: "{s:Amaigrissement involontaire} > 10 % en 6 mois chez {e:> 50 ans} ± symptômes B (fièvre, sueurs nocturnes)"
+    dx_suspecte: "{p:Néoplasie occulte} (digestive, pulmonaire, ovarienne, lymphome)"
+    action: "Bilan cancer complet : {t:scanner TAP} + {t:endoscopies haute et basse} + {t:NFS/VS/CRP/LDH} + dépistages selon âge/sexe"
+  - description: "{s:Jeune femme} avec IMC < 18,5 + déni de la maigreur + image corporelle altérée ± aménorrhée"
+    dx_suspecte: "{p:Anorexie mentale}"
+    action: "Évaluation MARSIPAN; hospitalisation si {r:IMC < 14}, FC < 40, TA < 80/50, T < 35 °C, K < 2,5, glycémie < 3 ou ECG anormal [VÉRIFIER: critères MARSIPAN exacts CHUV/HUG]"
+  - description: "Perte d'appétit + {s:ictère} + {s:douleur épigastrique transfixiante} + amaigrissement"
+    dx_suspecte: "{p:Cancer pancréas / voies biliaires}"
+    action: "{t:Échographie abdo} + {t:CA 19-9} + {t:scanner pancréatique} en urgence; consultation oncologie"
+  - description: "Perte d'appétit + {s:dépression} + {s:idées suicidaires} ou plan suicidaire"
+    dx_suspecte: "{p:Dépression majeure avec risque suicidaire}"
+    action: "Évaluation psychiatrique urgente; hospitalisation psy si plan suicidaire; ne pas laisser seul"
+  - description: "Perte d'appétit + {s:sueurs nocturnes} + {s:adénopathies} indolores ± splénomégalie"
+    dx_suspecte: "{p:Lymphome} (Hodgkin / non-Hodgkin)"
+    action: "{t:Biopsie ganglionnaire} (PAS cytoponction); {t:NFS/LDH/β2-microglobuline} + {t:scanner TAP}"
+  - description: "Perte d'appétit + {s:hyperpigmentation cutanée} + hypoTA orthostatique + {s:salt-craving}"
+    dx_suspecte: "{p:Insuffisance surrénalienne (Addison)}"
+    action: "{t:Cortisol 8 h + ACTH} STAT; si crise → {r:hydrocortisone 100 mg IV} + remplissage NaCl 0,9 %"
+
+# source: line 104-141
+examen:
+  general:
+    - "Signes vitaux: TA (recherche orthostatisme), FC, T°, FR, SaO2, glycémie capillaire"
+    - "{r:Poids, taille, IMC} OBLIGATOIRE; calcul {r:% perte de poids} par rapport au poids habituel"
+    - |-
+      État général:
+      • {s:cachexie}, fonte musculaire (temporale, deltoïde, quadriceps)
+      • état d'hydratation (pli cutané, muqueuses)
+      • {s:pâleur} conjonctivale (anémie)
+    - "Aspect psychiatrique: contact, humeur, ralentissement, anxiété, image corporelle"
+  cible:
+    - |-
+      Tête et cou:
+      • {s:muqueuse buccale} : candidose, ulcérations, état dentaire, prothèses, xérostomie
+      • {s:adénopathies} cervicales / sus-claviculaires (Troisier → cancer digestif)
+      • palpation {s:thyroïde} (goitre, nodules)
+    - |-
+      Examen abdominal complet:
+      • inspection : distension, circulation collatérale, cicatrices
+      • palpation : {s:masses}, {s:hépatomégalie / splénomégalie}, douleur provoquée
+      • percussion (matité déclive → ascite), auscultation (bruits hydroaériques)
+      • toucher rectal si > 50 ans (masse, méléna)
+    - |-
+      Examen général:
+      • adénopathies axillaires / inguinales
+      • {s:ictère} (sclérotiques, peau)
+      • signes de dénutrition : {s:oedème} hypoalbuminémique, fonte musculaire
+      • signes endocriniens : hyperpigmentation (Addison), exophtalmie/tremor (hyperthyroïdie)
+    - |-
+      Examen psychiatrique:
+      • {t:PHQ-9} ou {t:HAD} (dépression)
+      • {t:SCOFF} (troubles du comportement alimentaire, ≥ 2/5 évocateur) [VÉRIFIER: seuil SCOFF francophone]
+      • idées suicidaires (questions directes)
+      • {t:MMSE} si sujet âgé (démence)
+    - "Examen seins / gynéco si femme > 40 ans; toucher rectal et prostate si homme > 50 ans"
+
+# source: line 180-187 + pivots
+dd_top5:
+  - dx: "{p:Dépression}"
+    indices: "Tristesse, anhédonie, troubles du sommeil, ralentissement, contexte psychosocial, ATCD psychiatriques; {t:PHQ-9 ≥ 10}; cause #1 toutes tranches d'âge confondues"
+    freq: "très fréquent (1ère cause)"
+  - dx: "{p:Néoplasie occulte}"
+    indices: "{e:> 50 ans}, amaigrissement involontaire > 10 % en 6 mois, symptômes B, masse palpable, adénopathies, dégoût pour la viande, ATCD familiaux cancer"
+    freq: "fréquent après 50 ans, à éliminer systématiquement"
+  - dx: "{p:Anorexie mentale}"
+    indices: "Jeune femme (14-25 ans), IMC < 18,5 ± aménorrhée, déni de la maigreur, image corporelle altérée, hyperactivité physique, restriction volontaire; {t:SCOFF ≥ 2/5}"
+    freq: "incidence 4-5/100 000/an chez la femme jeune"
+  - dx: "{p:Cause médicamenteuse / substances}"
+    indices: "Introduction récente {r:opioïdes / ISRS / méthylphénidate / chimio}; {r:cocaïne / amphétamines}; polymédication chez sujet âgé; chronologie compatible"
+    freq: "très fréquent (souvent négligé)"
+  - dx: "{p:Hyperthyroïdie}"
+    indices: "Sueurs, tremblements, palpitations, intolérance chaleur, diarrhée, perte de poids malgré appétit parfois conservé, goitre; {t:TSH effondrée + T4L élevée}"
+    freq: "fréquent (1-2 % population)"
+
+# source: line 145-220
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — tout amaigrissement involontaire > 10 % chez > 50 ans → bilan oncologique avant d'étiqueter 'psy'"
+    - |-
+      Évaluation nutritionnelle systématique:
+      • {r:IMC} + {r:% perte de poids}
+      • bilan biologique : albumine, pré-albumine, NFS, ionogramme
+      • {t:MNA} si > 65 ans, {t:MUST} si adulte hospitalisé [VÉRIFIER: outil recommandé HUG/CHUV]
+    - |-
+      Support nutritionnel précoce:
+      • consultation diététique
+      • fractionnement repas (5-6/j), enrichissement protéino-calorique
+      • {r:compléments nutritionnels oraux (CNO) 2-3/j} si apports < 70 % besoins
+      • correction carences (B1, B12, folates, vit D, fer)
+    - |-
+      Réalimentation prudente si dénutrition sévère ({p:syndrome de renutrition}):
+      • démarrer {r:10-20 kcal/kg/j} et augmenter sur 5-7 j [VÉRIFIER: protocole renutrition local]
+      • monitorer {r:phosphore, magnésium, potassium} J0-J3 (risque hypoP)
+      • supplémenter {r:thiamine 200-300 mg/j IV} avant glucides
+    - "Si {p:dépression} confirmée : ISRS {r:sertraline 50 mg/j} ou mirtazapine (effet orexigène) [VÉRIFIER: 1er choix Psy CH]"
+    - "Si {p:anorexie mentale} : pesée systématique, contrat thérapeutique, CGM (consultations gestion multidisciplinaire), hospit si critères MARSIPAN"
+    - "Si cause médicamenteuse identifiée : arrêter / substituer si possible"
+  orientation:
+    - "Domicile + suivi médecin traitant: cause bénigne identifiée (stress, médicament), pas de dénutrition sévère, pas de red flag"
+    - "Consultation spécialisée: nutrition / diététique (dénutrition modérée), psychiatrie (dépression/AM), oncologie (néoplasie suspectée)"
+    - "Hospitalisation: critères MARSIPAN, dénutrition sévère avec complications, suspicion néoplasie nécessitant bilan rapide, idées suicidaires"
+    - "Consignes de retour: aggravation perte de poids, idées suicidaires, syncope, fièvre, ictère"
+
+# source: line 148-178
+examens_complementaires:
+  - "{t:NFS + VS + CRP + ferritine}: anémie, syndrome inflammatoire, néoplasie occulte"
+  - "{t:Ionogramme + créatinine + calcium + phosphore + magnésium}: troubles électrolytiques, syndrome de renutrition"
+  - "{t:Albumine + pré-albumine + protéines totales}: évaluation dénutrition (pré-albumine = dénutrition récente)"
+  - "{t:Bilan hépatique (ASAT/ALAT/GGT/PAL/bilirubine) + TP}: hépatopathie, métastases"
+  - "{t:TSH + T4 libre + cortisol 8 h ± glycémie à jeun}: dysthyroïdie, Addison, diabète"
+  - "{t:Scanner thoraco-abdomino-pelvien + endoscopies (FOGD ± coloscopie)}: si suspicion néoplasie ou amaigrissement > 10 % inexpliqué [VÉRIFIER: indications endoscopie selon âge/symptômes]"
+
+# source: line 229-233 + pivots MARSIPAN
+criteres_hospitalisation:
+  - "{p:Anorexie mentale} avec critères MARSIPAN: IMC < 14, FC < 40 bpm, TA < 80/50, T < 35 °C, K < 2,5 mmol/L, glycémie < 3 mmol/L, ECG anormal, troubles conscience"
+  - "Dénutrition sévère (perte > 10 % poids en 1 mois ou IMC < 16) avec complications (hypoTA, troubles électrolytiques)"
+  - "Suspicion forte de {p:néoplasie} nécessitant bilan rapide non réalisable en ambulatoire"
+  - "{p:Dépression} avec idées suicidaires actives ou plan structuré → hospit psychiatrique"
+  - "Troubles électrolytiques sévères (K < 3, Na < 125, hypoP < 0,4 mmol/L) ou risque syndrome de renutrition"
+
+# source: line 256-261 + pivots
+pieges:
+  - "Étiqueter perte d'appétit + amaigrissement 'stress' chez patient {e:> 50 ans} sans avoir exclu une {p:néoplasie} (NFS, VS, CRP, scanner, endoscopies)"
+  - "Rassurer en croyant à une 'diet volontaire' sans confirmer (peser, quantifier l'apport, évaluer la perte involontaire)"
+  - "Oublier de peser systématiquement une adolescente suspecte d'{p:anorexie mentale} à chaque consultation (déni fréquent)"
+  - "Négliger le {p:syndrome de renutrition} (hypophosphatémie, hypokaliémie, hypoMg) lors de la réalimentation d'une dénutrition sévère → décès"
+  - "Oublier les causes {r:médicamenteuses} (opioïdes, ISRS, méthylphénidate, chimio) et dentaires (très fréquentes, faciles à corriger)"
+
+cartes_liees:
+  - SSP-PSY-01
+  - SYS-GAS

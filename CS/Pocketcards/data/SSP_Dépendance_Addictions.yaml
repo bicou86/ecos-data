@@ -1,0 +1,209 @@
+id: SSP-PSY-01
+type: ssp
+title: Dépendance et addictions
+discipline: Psy
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dépendance_Addictions.md
+
+# source: lines 3-298 + pivots cliniques fournis (DSM-5, AUDIT, Prochaska)
+anamnese:
+  socrates:
+    - "Substance(s): alcool, tabac, cannabis, opioïdes, cocaïne/stimulants, sédatifs/BZD; polyaddiction? comportementale (jeu/écrans)?"
+    - "Quantité / fréquence / voie: verres standards/j (10g éthanol), paquets-année, dose; voie orale / sniff / fumée / injectée"
+    - "Durée et trajectoire: âge premier usage, usage régulier; dernière consommation (date/heure)? escalade (tolérance) ou stable?"
+    - "Contexte: seul/en groupe, avant midi, matinal pour fonctionner; déclencheurs (stress, émotions, rituel)"
+    - "Conséquences: somatiques (sommeil, sexualité), psychiques, familiales, sociales, professionnelles, financières, légales"
+    - "Tentatives d'arrêt antérieures: combien, durées, méthodes (seul/AA/suivi), motifs de rechute?"
+    - "Motivation actuelle au changement: {t:stades de Prochaska} (pré-contemplation → contemplation → préparation → action → maintien) [VÉRIFIER: stade exact pour adapter intervention]"
+  specifique:
+    - |-
+      {t:Critères DSM-5} (≥2 sur 11, durée 12 mois):
+      • usage prolongé / plus que prévu, échec tentatives arrêt
+      • temps consacré, craving, conséquences sociales/pro
+      • usage malgré conséquences, abandon activités
+      • usage en situation dangereuse, tolérance, {s:sevrage}
+      • sévérité: {r:2-3 légère}, {r:4-5 modérée}, {r:≥6 sévère}
+    - |-
+      Signes de sevrage actuels (selon substance):
+      • {s:alcool}: tremblements, sueurs, nausées, anxiété (6-12h)
+      • {s:opioïdes}: rhinorrhée, mydriase, crampes, diarrhée
+      • {s:BZD}: anxiété rebond, insomnie, tremblements (risque convulsions)
+      • {s:cannabis}: irritabilité, insomnie (1-4 sem)
+    - |-
+      Outils de dépistage selon substance:
+      • {t:AUDIT-C} alcool (≥3 femme, ≥4 homme) ou {t:AUDIT complet} (≥8)
+      • {t:CAGE} (≥2/4)
+      • {t:Fagerström} tabac
+      • {t:CAST} cannabis (≥3 réponses + → addictologie)
+      • {t:DAST-10 / ASSIST} drogues
+    - "{e:Grossesse / désir de grossesse} — risque fœtal majeur (alcool, opioïdes, cocaïne); {r:sevrage encadré obligatoire}"
+    - "Idées suicidaires? auto/hétéro-agressivité?"
+  atcd:
+    - |-
+      Psychiatriques (comorbidité ~50%):
+      • dépression, anxiété, TDAH
+      • troubles personnalité (borderline)
+      • psychose, troubles bipolaires
+    - |-
+      Somatiques:
+      • hépatopathie (alcool), pancréatite
+      • BPCO/cancer (tabac), troubles cardiovasculaires
+      • {p:VIH / VHB / VHC} si UDIV ou rapports à risque
+    - |-
+      Sevrages antérieurs compliqués:
+      • {p:delirium tremens}? crises épileptiques?
+      • {p:encéphalopathie de Wernicke}?
+    - |-
+      Traitement actuel / antérieur:
+      • TAO (méthadone, buprénorphine, HAT)
+      • naltrexone, acamprosate, disulfirame, baclofène
+    - |-
+      Contexte:
+      • situation familiale, conjoint(e), enfants à charge
+      • emploi, logement, situation légale (procédures, OFROU)
+      • réseau de soutien
+
+# source: lines 39-89 + 154-167 + 207-220 + 229-242 + pivots (urgences)
+red_flags:
+  - description: "{s:Tremblement + agitation + hallucinations (zoopsies) + désorientation + sueurs + HTA/tachycardie}, délai 48-96h post-arrêt alcool"
+    dx_suspecte: "{p:Delirium tremens}"
+    action: "Hospitalisation USC/USI; {r:diazépam IV titré sur score de Cushman} (10-20 mg, répéter q15-20 min); {r:thiamine 200-500 mg IV x3/j AVANT glucose}; hydratation, correction iono; mortalité {r:5-15%}"
+  - description: "{s:Myosis serré + bradypnée < 12/min + troubles de conscience/coma} chez usager d'opioïdes"
+    dx_suspecte: "{p:Overdose opioïdes}"
+    action: "{r:Naloxone 0.4-2 mg IV/IM/IN} titrée jusqu'à FR > 12/min (répéter q2-3 min); soutien ventilatoire / intubation; surveillance prolongée (re-narcotisation si méthadone)"
+  - description: "{s:Intoxication alcool aiguë + GCS < 13 + protection voies aériennes compromise}"
+    dx_suspecte: "{p:Coma éthylique}"
+    action: "Hospitalisation; PLS / intubation si GCS ≤ 8; perfusion + {r:thiamine 100-500 mg IV AVANT glucose}; éliminer hypoglycémie, traumatisme crânien, autre toxique"
+  - description: "Crise tonico-clonique généralisée 12-48h post-arrêt alcool/BZD"
+    dx_suspecte: "{p:Crise épileptique de sevrage} (peut précéder le DT)"
+    action: "{r:Diazépam 10 mg IV / lorazépam 4 mg IV} immédiat; hospitalisation; majoration BZD; bilan iono (glycémie, Na, Mg); EEG si crises récurrentes"
+  - description: "{s:Confusion + ataxie + ophtalmoplégie} (triade) chez patient dénutri/alcoolique"
+    dx_suspecte: "{p:Encéphalopathie de Gayet-Wernicke}"
+    action: "{r:Thiamine 500 mg IV x3/j pendant 2-3 j} puis 250 mg/j; NE JAMAIS donner glucose avant thiamine; relais PO {r:300 mg/j} prolongé"
+  - description: "Idées suicidaires actives + addiction (intoxication, sevrage, désespoir)"
+    dx_suspecte: "{p:Risque suicidaire imminent} sur addiction"
+    action: "Sécurisation environnement; évaluation psy urgente; hospitalisation libre ou {r:PAFA} si refus; surveillance 1:1 [VÉRIFIER: procédure PAFA exacte CHUV/HUG]"
+  - description: "{e:Grossesse + consommation active} (alcool, opioïdes, cocaïne)"
+    dx_suspecte: "Risque tératogène / sevrage néonatal"
+    action: "Orientation immédiate vers service spécialisé addiction-obstétrique; {r:NE PAS sevrer brutalement les opioïdes} (risque MFIU); TAO méthadone/buprénorphine encadré"
+
+# source: lines 7-37 + 154-166 + 209-220
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T°, FR, SaO2, glycémie capillaire SYSTÉMATIQUE"
+    - "{t:GCS} si altération conscience; alcoolémie au glucomètre si disponible"
+    - "Toxidromes: {s:myosis} (opioïdes), {s:mydriase} (stimulants, sevrage opioïdes), tremblement"
+    - "Inspection: traces d'injection (avant-bras, plis), abcès, phlébites, lésions cutanées"
+    - "Etat nutritionnel (cachexie alcoolique), hygiène, état dentaire"
+  cible:
+    - |-
+      Stigmates d'alcoolisme chronique:
+      • {s:hypertrophie parotidienne} bilatérale
+      • {s:contracture de Dupuytren}
+      • {s:angiomes stellaires}, érythème palmaire
+      • {s:rhinophyma}
+    - |-
+      Hépatique:
+      • hépatomégalie, splénomégalie
+      • {s:ictère}, ascite, circulation collatérale
+      • signes d'insuffisance hépatocellulaire (gynécomastie, atrophie testiculaire)
+    - |-
+      Neurologique (alcool / dénutrition):
+      • {s:tremblement fin} extrémités
+      • polyneuropathie sensitivo-motrice distale (ROT abolis)
+      • {s:ataxie cérébelleuse} (atrophie vermienne)
+      • {p:Wernicke}: confusion + ataxie + ophtalmoplégie
+      • {p:Korsakoff}: amnésie antérograde + confabulations
+    - |-
+      Sevrage alcool — {t:score de Cushman}:
+      • évalue tremblement, sudation, agitation, hallucinations
+      • {r:< 8} léger, {r:8-15} modéré, {r:> 15} sévère
+    - |-
+      Cardiovasculaire:
+      • HTA, tachycardie (sevrage, stimulants)
+      • souffles (endocardite si UDIV)
+      • {p:IDM/AVC} si cocaïne (jeune sans FRCV)
+    - "Examen ORL: perforation septum nasal (cocaïne sniffée)"
+    - "Évaluation psychiatrique: humeur, idées suicidaires, hallucinations, délire, insight motivation"
+
+# source: lines 280-281 + bilan standard addiction
+examens_complementaires:
+  - "{t:NFS + crase + iono + créat + glycémie}: bilan de base; macrocytose (VGM > 100) évocatrice d'alcoolisme"
+  - "{t:Transaminases (ASAT/ALAT) + GGT + bilirubine + albumine + TP}: bilan hépatique; ratio ASAT/ALAT > 2 → alcoolique; {t:CDT} marqueur spécifique de consommation chronique [VÉRIFIER: cut-off CDT laboratoire suisse]"
+  - "{t:Sérologies VIH + VHB + VHC}: systématique si UDIV ou facteurs de risque; vaccination VHB si non immune"
+  - "{t:Toxiques urinaires}: cannabis, cocaïne, opioïdes, BZD, amphétamines; alcoolémie sanguine [VÉRIFIER: durée détection selon substance — cannabis chronique jusqu'à 30 j]"
+  - "{t:ECG}: avant introduction {r:méthadone} ({r:QTc > 500 ms} = CI); cocaïne (ischémie, arythmies)"
+  - "{t:bHCG}: femme en âge de procréer avant tout traitement"
+
+# source: lines 82-89 + 156-160 + 229-243 + pivots
+criteres_hospitalisation:
+  - "{p:Delirium tremens}, crises épileptiques de sevrage, score Cushman > 15"
+  - "ATCD de DT ou crises lors de sevrages antérieurs (sevrage AMBULATOIRE contre-indiqué)"
+  - "Comorbidités sévères (cirrhose décompensée, cardiopathie, grossesse, dénutrition)"
+  - "{p:Overdose} (opioïdes, alcool aigu GCS < 13), {p:Wernicke}, sevrage BZD sévère"
+  - "Idéations suicidaires actives ou décompensation psychiatrique"
+
+# source: pivots cliniques (DD principales addictions)
+dd_top5:
+  - dx: "{p:Trouble de l'usage de l'alcool}"
+    indices: "{t:AUDIT ≥ 8} ou {t:AUDIT-C ≥ 3F/4H}, stigmates cutanés (Dupuytren, angiomes), GGT/CDT/VGM élevés, signes de sevrage 6-48h post-arrêt; risque DT/Wernicke"
+    freq: "très fréquent (~5-10% population, 1ère cause d'addiction en Suisse)"
+  - dx: "{p:Trouble de l'usage des opioïdes}"
+    indices: "Myosis, traces d'injection, syndrome pseudo-grippal au sevrage (rhinorrhée, mydriase, crampes); sérologies VIH/VHC positives possibles; toxiques urinaires positifs"
+    freq: "fréquent en milieu urbain (programmes TAO ~20 000 personnes en Suisse)"
+  - dx: "{p:Trouble de l'usage de la cocaïne / stimulants}"
+    indices: "Agitation, mydriase, HTA, tachycardie; perforation septum nasal (sniff); complications cardio (IDM jeune), neuro (AVC, convulsions); pas de sevrage physique majeur"
+    freq: "fréquent (consommation en hausse, dépistage urinaire)"
+  - dx: "{p:Addiction comportementale} (jeu pathologique, écrans, sexe)"
+    indices: "Conséquences financières/familiales massives sans substance; DSM-5 jeu pathologique (≥4/9 critères); pas d'examen biologique"
+    freq: "fréquent et sous-diagnostiqué (~1-2% jeu)"
+  - dx: "{p:Polyaddiction}"
+    indices: "≥2 substances (typique: alcool + tabac + cannabis ou opioïdes + BZD + alcool); risques de surdose majorés; sevrages complexes"
+    freq: "très fréquent (>50% des patients en addictologie)"
+
+# source: lines 73-89 + 184-205 + 257-264 + 266-287
+pec_initiale:
+  immediate:
+    - "Toujours dépister red flags d'abord: DT, overdose, Wernicke, idées suicidaires"
+    - |-
+      {p:Sevrage alcool} ambulatoire (forme simple, pas d'ATCD compliqué):
+      • {r:diazépam 10 mg PO x3-4/j} (ou {r:oxazépam 15-30 mg x3-4/j} si insuffisance hépatique)
+      • décroissance sur 7-10 j MAX
+      • {r:thiamine 100 mg/j PO} (prévention Wernicke)
+      • hydratation, consultation à 24-48h
+    - |-
+      {p:Sevrage alcool} hospitalier (forme compliquée):
+      • {r:diazépam IV} titré sur {t:Cushman}
+      • {r:thiamine 200-500 mg IV x3/j AVANT glucose}
+      • correction Na/K/Mg/phosphate; hydratation IV
+      • monitoring FC/TA/T°/conscience
+    - |-
+      {p:Sevrage opioïdes} → TAO (traitement agoniste opioïde):
+      • {r:méthadone}: début {r:20-30 mg/j}, entretien {r:60-120 mg/j}, ECG avant si QTc à risque
+      • {r:buprénorphine SL}: {r:2-4 mg/j} début, {r:8-16 mg/j} entretien (effet plafond, sécurité)
+      • {r:naloxone IM kit} à délivrer à entourage / patient [VÉRIFIER: programme HAT suisse et critères d'éligibilité]
+    - "{p:Sevrage tabac}: substituts nicotiniques (patchs 21/14/7 mg + formes orales), {r:varénicline} ou {r:bupropion} ± TCC"
+    - "{p:Sevrage BZD}: décroissance progressive obligatoire ({r:10-25% / 2 sem}); substitution par {r:diazépam} (longue demi-vie); JAMAIS d'arrêt brutal"
+    - "Entretien motivationnel adapté au {t:stade de Prochaska}; pas de jugement, écoute active"
+  orientation:
+    - "Domicile + suivi addictologie ambulatoire: sevrage simple sans ATCD, motivation, support social"
+    - "Hospitalisation médecine/addictologie: sevrage compliqué, ATCD DT/crises, comorbidités, échec ambulatoire"
+    - "USC/USI: DT, overdose, Wernicke, sevrage BZD sévère"
+    - "Service spécialisé grossesse-addiction: toute consommation active en cours de grossesse"
+    - "Maintien post-sevrage alcool: {r:naltrexone, acamprosate, disulfirame, baclofène} + suivi + AA / groupes [VÉRIFIER: indications baclofène en Suisse — usage off-label encadré]"
+
+pieges:
+  - "Donner du {r:glucose AVANT la thiamine} chez un alcoolique dénutri → précipitation de {p:Wernicke} iatrogène"
+  - "Sevrage alcool ambulatoire si ATCD de {p:DT}, crises ou comorbidités sévères → mortalité; toujours hospitaliser"
+  - "Oublier de dépister la {e:grossesse} avant traitement; sevrage opioïdes brutal en cours de grossesse = risque MFIU"
+  - "Méconnaître la {p:comorbidité psychiatrique} (dépression, TDAH, anxiété ~50%) — sevrage seul = haut risque de rechute"
+  - "Stigmatiser / juger le patient ('moralisation') → rupture du suivi; entretien motivationnel non confrontant"
+
+cartes_liees:
+  - SSP-URG-12
+  - SSP-NEU-05
+  - TOOL-AUDIT
+  - TOOL-CIWA

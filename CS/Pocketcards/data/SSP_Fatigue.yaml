@@ -1,0 +1,219 @@
+id: SSP-PSY-03
+type: ssp
+title: Fatigue
+discipline: Psy
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Fatigue.md
+
+# source: line 9-26
+anamnese:
+  socrates:
+    - |-
+      Caractérisation:
+      • depuis quand exactement? brutal ou progressif?
+      • premier épisode ou récidivant?
+      • fluctuation au cours de la journée/semaine?
+    - |-
+      Pattern temporel — distinguer:
+      • {s:asthénie psychique} (matinale, ↓ pendant activité) → {p:dépression}, burnout
+      • {s:asthénie organique} (aggravation au cours de la journée, soulagée par repos) → cause médicale
+      • {s:asthénie réactionnelle} (post-virale, post-chirurgical) → résolution spontanée
+    - |-
+      Intensité et retentissement:
+      • impact sur AVQ, travail, activité physique/mentale
+      • durée > 1 mois = pathologique
+      • fatigue dès le réveil? amélioration au repos?
+  specifique:
+    - |-
+      {s:Sommeil} (ESSENTIEL):
+      • horaires coucher/lever, durée totale
+      • réveils nocturnes, endormissement, réveil précoce (4-5h = dépression)
+      • reposé au réveil?
+      • ronflements, apnées observées, somnolence diurne → {p:SAOS}
+    - |-
+      {s:Symptômes B} (alarme oncologique):
+      • {s:perte poids > 5% en 6 mois} involontaire
+      • {s:fièvre vespérale} inexpliquée
+      • {s:sueurs nocturnes profuses} (changer draps)
+      • prurit généralisé, adénopathies
+    - |-
+      {s:Symptômes dépressifs}:
+      • humeur triste persistante, anhédonie
+      • dévalorisation, culpabilité excessive
+      • {s:idées suicidaires} ⚠️
+      • ralentissement psychomoteur, troubles concentration
+    - |-
+      Symptômes par système — endocrine:
+      • {p:hypothyroïdie}: prise de poids, frilosité, constipation, peau sèche, chute cheveux
+      • {p:diabète}: polyurie, polydipsie, perte de poids paradoxale
+      • {p:Addison}: hypotension, envies de sel, hyperpigmentation
+      • {p:hyperparathyroïdie}: lithiases, douleurs osseuses, troubles cognitifs
+    - |-
+      Autres systèmes — par appareil:
+      • cardio: dyspnée effort, orthopnée, OMI, palpitations
+      • hémato: pâleur, saignements (ménorragies, méléna, épistaxis)
+      • digestif/rhumato/neuro: douleurs abdo, arthralgies/myalgies, raideur matinale, faiblesse musculaire, paresthésies
+    - |-
+      Infectieux:
+      • voyage récent (paludisme), rapports à risque ({p:VIH}, hépatites)
+      • contact tuberculeux, ATCD COVID ({p:COVID long})
+      • syndrome pseudo-grippal prolongé, adénopathies, fièvre
+  atcd:
+    - |-
+      Habitudes & mode de vie:
+      • alimentation, hydratation
+      • alcool (quantité), tabac, drogues, café (combien/jour)
+      • activité physique, sédentarité
+      • stress professionnel (burn-out), événements de vie
+    - |-
+      Médicaments (cause fréquente sous-diagnostiquée):
+      • {r:bêta-bloquants}, antihypertenseurs
+      • antidépresseurs, somnifères, anxiolytiques
+      • antihistaminiques, opioïdes
+      • statines, corticoïdes (sevrage)
+      • changement récent de traitement?
+    - "ATCD médicaux: maladies chroniques, chirurgies récentes, infections récentes"
+    - "ATCD psy: dépression, anxiété, trouble du sommeil"
+    - "ATCD familiaux: cancer, maladies auto-immunes, endocrinopathies"
+    - |-
+      Contexte spécifique femme:
+      • {e:grossesse} / post-partum ({p:syndrome de Sheehan} si hémorragie post-partum)
+      • allaitement, retour de couches
+      • jeunes enfants, jumeaux, nuits difficiles
+
+# source: line 67-72, 536, scénarios ECOS p.574-598
+red_flags:
+  - description: "Fatigue + {s:amaigrissement > 5% en 6 mois} + {s:sueurs nocturnes} + adénopathies"
+    dx_suspecte: "{p:Néoplasie / hémopathie maligne (lymphome)}"
+    action: "{t:FSC, VS, CRP, LDH, électrophorèse}; Rx thorax; {t:scanner TAP} + avis hémato/onco; biopsie ganglionnaire si adénopathie"
+  - description: "Fatigue + {s:dyspnée d'effort} + {s:orthopnée} + OMI"
+    dx_suspecte: "{p:Insuffisance cardiaque}"
+    action: "{t:ECG} + {t:BNP/NT-proBNP} + {t:échocardiographie} + Rx thorax; avis cardio"
+  - description: "Fatigue + {s:idées suicidaires} ou dépression sévère"
+    dx_suspecte: "{p:Épisode dépressif majeur avec risque suicidaire}"
+    action: "Évaluation psychiatrique URGENTE; hospitalisation en psychiatrie selon évaluation du risque; ne pas laisser seul"
+  - description: "Fatigue + {s:signes neurologiques focaux} (déficit, ataxie, troubles cognitifs nouveaux)"
+    dx_suspecte: "{p:AVC}, {p:SEP}, processus expansif, démence"
+    action: "{t:IRM cérébrale} urgente + bilan neuro complet; avis neurologue"
+  - description: "Fatigue + {s:ictère} + ascite + amaigrissement"
+    dx_suspecte: "{p:Hépatopathie chronique} / néoplasie hépatique"
+    action: "{t:Bilan hépatique complet (ASAT, ALAT, γGT, PAL, bilirubine, TP, albumine)} + {t:échographie abdominale} + AFP; avis gastro-entérologue"
+  - description: "Femme post-partum + hémorragie + échec allaitement (agalactie) + aménorrhée"
+    dx_suspecte: "{p:Syndrome de Sheehan} (nécrose hypophysaire)"
+    action: "{t:Cortisol 8h + ACTH, FSH/LH, IGF-1, prolactine, TSH/T4}; {r:hydrocortisone IV} si insuffisance surrénalienne aiguë; IRM hypophysaire"
+  - description: "Fatigue + {s:fébricule} prolongé + souffle cardiaque nouveau"
+    dx_suspecte: "{p:Endocardite infectieuse}"
+    action: "{t:Hémocultures} × 3 sur 24h + {t:ETT/ETO} + CRP; avis cardio/infectiologue; ATB après prélèvements"
+
+# source: line 223-319
+examen:
+  general:
+    - "Signes vitaux: TA (debout/couché — {s:hypotension orthostatique} → {p:Addison}), FC, T°, FR, SaO2"
+    - "Poids, taille, IMC: variation récente, cachexie? obésité ({p:SAOS})"
+    - "État général: altération? Morphotype"
+    - |-
+      Teint:
+      • {s:pâleur} cutanéo-muqueuse → {p:anémie}
+      • {s:ictère} → hépatopathie
+      • {s:hyperpigmentation} (plis, cicatrices) → {p:Addison}
+  cible:
+    - |-
+      Examen ORL/thyroïdien:
+      • conjonctives pâles (anémie), langue dépapillée (carence B12/folates)
+      • thyroïde: volume, nodules, mobilité déglutition → {p:dysthyroïdie}
+      • {t:ROT achilléen} (retard de relaxation = {p:hypothyroïdie})
+      • pharynx (hypertrophie amygdales = {p:SAOS})
+    - |-
+      {t:Palpation aires ganglionnaires} SYSTÉMATIQUE:
+      • cervicales (sous-mentales, jugulo-carotidiennes)
+      • sus-claviculaires ({s:ganglion de Troisier})
+      • axillaires, inguinales, épitrochléennes
+    - |-
+      Cardio-vasculaire:
+      • turgescence jugulaire, OMI prenant le godet, reflux hépato-jugulaire
+      • auscultation (souffles, galop B3/B4 = IC, frottement)
+      • hépatomégalie (IC droite)
+    - |-
+      Pulmonaire & abdominal:
+      • murmure vésiculaire, râles crépitants (IC, pneumopathie)
+      • hépatomégalie, {s:splénomégalie} (hémopathie, infection)
+      • masses abdominales, percussion fosses lombaires
+    - |-
+      Neurologique:
+      • force musculaire (testing global, faiblesse proximale = myopathie)
+      • ROT symétriques (hypo = hypothyroïdie, hyper = hyperthyroïdie)
+      • Babinski, marche/équilibre, coordination
+    - |-
+      Cutané & spécifique:
+      • peau sèche, myxœdème, vitiligo (auto-immun)
+      • perte 1/3 externe sourcils, alopécie (hypothyroïdie)
+      • macroglossie, goitre
+      • {s:hippocratisme digital} (cancer pulmonaire)
+
+# source: line 397-457 (DD complet), pivots cliniques
+dd_top5:
+  - dx: "{p:Dépression / épisode dépressif majeur}"
+    indices: "Cause #1 en consultation; {s:asthénie matinale} prédominante, anhédonie, troubles sommeil (réveil précoce 4-5h), perte d'appétit, idées noires, ralentissement psychomoteur, contexte psychosocial; bilan biologique normal [VÉRIFIER: ranking exact DD selon source — la dépression est cause #1 dans la plupart des séries de consultation MG]"
+    freq: "très fréquent (1ère cause de fatigue en consultation MG)"
+  - dx: "{p:Syndrome d'épuisement professionnel (burn-out)}"
+    indices: "Stress professionnel chronique majeur (restructuration, surcharge), épuisement émotionnel, cynisme/dépersonnalisation, baisse de performance, symptômes hors weekend/vacances; bilan normal"
+    freq: "fréquent (en augmentation)"
+  - dx: "{p:Anémie / carence martiale}"
+    indices: "{s:Pâleur} cutanéo-muqueuse, dyspnée d'effort, palpitations, vertiges; saignements chroniques (ménorragies +++, méléna); {t:Hb basse, ferritine basse, VGM bas/normal}"
+    freq: "fréquent (surtout femme en âge de procréer)"
+  - dx: "{p:Hypothyroïdie}"
+    indices: "Frilosité, prise de poids, constipation, peau sèche, perte 1/3 externe sourcils, bradycardie, retard relaxation ROT; {t:TSH élevée, T4 libre basse}"
+    freq: "fréquent (2-5% adultes, surtout femmes)"
+  - dx: "{p:Syndrome d'apnées obstructives du sommeil (SAOS)}"
+    indices: "{s:Somnolence diurne excessive}, ronflements, apnées observées (conjoint), céphalées matinales, nycturie, obésité, hypertrophie amygdales; {t:polysomnographie} ou polygraphie ventilatoire"
+    freq: "fréquent (4-9% hommes, sous-diagnostiqué)"
+
+# source: line 461-495
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — éliminer causes organiques graves AVANT diagnostic psychiatrique"
+    - "{p:Dépression}: psychothérapie (TCC) + activité physique progressive; {r:antidépresseur ISRS} (sertraline 50 mg/j ou escitalopram 10 mg/j) si modérée-sévère [VÉRIFIER: choix 1ère ligne ISRS selon Société Suisse Psy / protocole CHUV]; arrêt de travail si nécessaire; évaluer risque suicidaire"
+    - "{p:Burn-out}: arrêt de travail prolongé + psychothérapie + reprise progressive + médecin du travail"
+    - "{p:Anémie ferriprive}: {r:fer oral 100-200 mg/j} (ferrosulfate ou ferrofumarate) à jeun avec vitamine C; contrôle Hb à 1 mois, ferritine à 3 mois; rechercher cause du saignement (digestif, gynéco)"
+    - "{p:Hypothyroïdie}: {r:lévothyroxine} dose progressive (initiale 25-50 µg/j, plus prudent chez âgé/coronarien); contrôle TSH à 6-8 semaines puis ajustement [VÉRIFIER: posologie initiale selon âge et comorbidités cardiaques — protocole local]"
+    - "{p:SAOS} modéré-sévère: {r:PPC (CPAP) nocturne} + perte de poids + éviter alcool/sédatifs + position latérale"
+    - "{p:Addison}: {r:hydrocortisone 15-25 mg/j} en 2-3 prises (matin 2/3, midi 1/3); éducation thérapeutique (doublement doses si stress, fièvre); carte d'insuffisant surrénalien"
+  orientation:
+    - "Domicile + suivi médecin traitant: fatigue chronique bénigne après bilan normal, étiologie identifiée et traitable en ambulatoire"
+    - "Consultation psychiatrique urgente: idées suicidaires, dépression sévère, refus de soins"
+    - "Hospitalisation: red flag avéré, dépression avec risque suicidaire élevé, insuffisance surrénalienne aiguë suspectée"
+    - "Spécialistes selon orientation: endocrinologue, hématologue, cardiologue, pneumologue (SAOS), gastro (MICI/cœliaque), psychiatre"
+    - "Consignes de retour: aggravation, idées suicidaires, perte poids importante, fièvre persistante, troubles neurologiques nouveaux"
+
+# source: line 327-391
+examens_complementaires:
+  - "{t:Bilan 1ère intention SYSTÉMATIQUE}: FSC+VS, {t:TSH}, glycémie à jeun, créatinine, ASAT/ALAT/γGT, {t:ferritine}, CRP, ionogramme (Na/K — Addison), calcémie, βHCG (femme en âge de procréer), bandelette urinaire"
+  - "{t:Selon orientation — infectieux}: sérologies {t:VIH} (avec accord), hépatites B/C, {t:EBV/CMV}, syphilis; QuantiFERON si suspicion TB; hémocultures si fièvre"
+  - "{t:Selon orientation — endocrine}: T3/T4 libre + anti-TPO si TSH anormale; {t:cortisol 8h + test au Synacthène} si Addison suspecté; PTH si hypercalcémie; HbA1c; testostérone (homme)"
+  - "{t:Selon orientation — hématologique}: réticulocytes/haptoglobine/LDH/bilirubine si hémolyse suspectée; électrophorèse protéines sériques; B12/folates"
+  - "{t:Selon orientation — néoplasique}: Rx thorax systématique; PSA (homme > 50 ans); mammographie (femme selon âge); coloscopie (> 50 ans ou signes d'appel); scanner TAP si forte suspicion"
+  - "{t:Selon orientation — SAOS / autres}: polysomnographie ou polygraphie ventilatoire; anti-transglutaminase (cœliaque); calprotectine fécale (MICI); AAN/FR/CPK selon contexte rhumato [VÉRIFIER: seuil exact de prescription polysomnographie selon score Epworth — protocole pneumo local]"
+
+# source: ECOS — synthèse "quand reconsulter" line 530-537
+criteres_hospitalisation:
+  - "Idéations suicidaires actives ou {p:dépression sévère} avec risque vital"
+  - "Red flag avéré ({p:HSA}, {p:IC} décompensée, {p:hémopathie} aiguë, {p:Sheehan} avec insuffisance surrénalienne)"
+  - "Insuffisance surrénalienne aiguë suspectée (hypotension, hyponatrémie, hyperkaliémie)"
+  - "Anémie sévère ({s:Hb < 70 g/L}) ou {s:déglobulisation} aiguë symptomatique"
+  - "Altération sévère de l'état général avec impossibilité de prise en charge ambulatoire"
+
+# source: line 560-566 + pivots cliniques
+pieges:
+  - "Étiqueter 'fonctionnel' ou 'psychosomatique' SANS bilan minimal — toujours éliminer {p:hypothyroïdie}, {p:anémie}, {p:diabète}, {p:Addison} d'abord"
+  - "Méconnaître la {p:dépression} chez le sujet âgé qui se présente avec plaintes somatiques (fatigue, douleurs) — chercher anhédonie active"
+  - "Oublier la {e:grossesse} chez femme jeune (βHCG systématique) et le {p:syndrome de Sheehan} en post-partum avec ATCD d'hémorragie + agalactie + aménorrhée"
+  - "Prescrire vitamines / compléments empiriques SANS dosage préalable (perte de chance diagnostique)"
+  - "Banaliser une fatigue chez patient > 50 ans avec {s:symptômes B} — penser cancer occulte (hémopathie, néoplasie solide)"
+
+cartes_liees:
+  - SSP-PSY-01
+  - SSP-PSY-02
+  - SYS-PSY

@@ -1,0 +1,219 @@
+id: SSP-PSY-06
+type: ssp
+title: Troubles de l'humeur
+discipline: Psy
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Humeur.md
+
+# source: lines 10-152 (EDM, manie, hypomanie, bipolaire) + pivots cliniques
+anamnese:
+  socrates:
+    - |-
+      Motif: humeur basse OU euphorique/irritable inhabituelle?
+      • plainte propre du patient ou alerte par l'entourage?
+      • impact fonctionnel (travail, relations, sommeil)?
+    - |-
+      Onset / durée:
+      • EDM: ≥ {r:2 semaines}
+      • Manie: ≥ {r:1 semaine} (ou hospit)
+      • Hypomanie: ≥ {r:4 jours} consécutifs
+    - |-
+      Caractère épisodique:
+      • premier épisode ou récidive?
+      • polarité des épisodes antérieurs (dépressif / maniaque / mixte)?
+      • intervalle libre entre les épisodes?
+    - "Time: variation circadienne (aggravation matinale = {p:mélancolie}), saisonnalité (automne/hiver)?"
+    - |-
+      Facteurs déclenchants / aggravants:
+      • stresseur récent (deuil, rupture, perte d'emploi)
+      • {e:post-partum} (≤ 4 sem) → dépression / psychose puerpérale
+      • introduction médicament (corticoïdes, interféron, L-dopa)
+      • privation de sommeil, voyage transméridien (virage maniaque)
+    - "Severity: échelles {t:PHQ-9} (dépression), {t:YMRS} (manie), {t:MDQ ≥ 7/13} (bipolarité probable) [VÉRIFIER: seuils MDQ et version française validée]"
+  specifique:
+    - |-
+      Symptômes dépressifs (DSM-5, ≥ 5 dont 1 cardinal sur 2):
+      • {s:humeur dépressive} la plupart du jour
+      • {s:anhédonie} (perte intérêt/plaisir)
+      • poids / appétit (±5 % en 1 mois)
+      • sommeil (insomnie matinale / hypersomnie)
+      • psychomoteur (ralentissement / agitation)
+      • fatigue, dévalorisation, concentration, idées de mort
+    - |-
+      Symptômes (hypo)maniaques (≥ 3, ou 4 si irritabilité seule):
+      • {s:estime de soi exagérée} / idées de grandeur
+      • {s:réduction besoin de sommeil} ('repose après 3h')
+      • {s:logorrhée} / fuite des idées / tachypsychie
+      • {s:distractibilité} / augmentation activité orientée
+      • {s:engagement risqué} (dépenses, sexe, voyages, conduite)
+    - |-
+      {s:Idées suicidaires} (RUD) — explorer systématiquement:
+      • Risque: idées passives ('mieux vaut mourir') vs actives
+      • Urgence: plan (méthode, lieu, moment), délai < 48h?
+      • Dangerosité: létalité, accès aux moyens, impulsivité
+    - "Caractéristiques psychotiques: idées délirantes (culpabilité, ruine, grandeur), hallucinations congruentes à l'humeur?"
+    - |-
+      {s:États mixtes} — risque suicidaire +++:
+      • critères (hypo)manie AVEC ≥ 3 sx dépressifs (ou inverse)
+      • cycles rapides (≥ {r:4 épisodes/12 mois}) → pronostic défavorable
+  atcd:
+    - |-
+      Psychiatriques:
+      • diagnostics antérieurs (dépression, TB I/II, cyclothymie)
+      • ATCD tentative de suicide (méthode, létalité)
+      • hospitalisations psychiatriques, ECT, observance traitements
+    - |-
+      Familiaux (héritabilité ~80 % en TB):
+      • TB, dépression, suicide, schizophrénie
+      • réponse familiale au {r:lithium} (facteur prédictif)
+    - |-
+      Médicaux organiques à éliminer:
+      • {p:dysthyroïdie} (hypo → dépression, hyper → manie)
+      • Cushing / Addison, diabète, anémie
+      • neuro: démence débutante, Parkinson, SEP, épilepsie temporale
+      • infectieux: VIH, syphilis tertiaire
+    - |-
+      Médicaments inducteurs:
+      • corticoïdes, L-dopa, isoniazide → manie
+      • interféron, β-bloquants, contraception → dépression
+      • antidépresseur récent → {p:virage maniaque}
+    - |-
+      Substances et habitudes:
+      • alcool, cocaïne, cannabis, stimulants
+      • observance / arrêt récent de stabilisateur thymique
+      • support social, conjoint, enfants à charge
+
+# source: lines 196-212 + pivots URGENCE PSY
+red_flags:
+  - description: "{s:Idées suicidaires actives + plan précis + moyens accessibles + intention < 48h}"
+    dx_suspecte: "{p:Crise suicidaire à haut risque}"
+    action: "Retrait des moyens létaux, surveillance 1:1, hospitalisation libre ou {r:PAFA} si refus de soins [VÉRIFIER: procédure PAFA et délais légaux CHUV/HUG]"
+  - description: "{s:Manie avec symptômes psychotiques} (délire, hallucinations, désorganisation majeure)"
+    dx_suspecte: "{p:Épisode maniaque sévère psychotique}"
+    action: "Hospitalisation; {r:antipsychotique atypique IM/PO (olanzapine 10 mg ou rispéridone 2 mg)} + {r:stabilisateur (lithium ou valproate)}; ECT si réfractaire"
+  - description: "{s:Manie avec impulsivité + désinhibition + dépenses inconsidérées + conduite à risque}"
+    dx_suspecte: "{p:Épisode maniaque} avec danger pour patient/tiers"
+    action: "Hospitalisation (PAFA possible); {r:antipsychotique atypique + stabilisateur thymique}; STOP antidépresseur si en cours"
+  - description: "{s:Dépression bipolaire avec idéations suicidaires} (TB connu ou ATCD hypomanie)"
+    dx_suspecte: "{p:Dépression bipolaire à risque suicidaire}"
+    action: "Hospitalisation; ne PAS donner antidépresseur en monothérapie (virage); {r:quétiapine 300 mg/j, lurasidone 20-120 mg/j, ou lithium} [VÉRIFIER: posologies exactes lurasidone selon insuffisance rénale]"
+  - description: "{s:Virage maniaque ou hypomaniaque} sous antidépresseur récent"
+    dx_suspecte: "{p:Virage thymique iatrogène}"
+    action: "ARRÊT immédiat de l'antidépresseur; introduction {r:stabilisateur thymique (lithium 600-1200 mg/j, valproate)}; réévaluation diagnostique TB"
+  - description: "{s:Tremblement + confusion + ataxie + dysarthrie + diarrhée} chez patient sous lithium (déshydratation, AINS, IEC, sartans)"
+    dx_suspecte: "{p:Intoxication au lithium}"
+    action: "{t:Lithémie STAT} (toxique > 1.5 mmol/L, sévère > 2.5); arrêt lithium, hydratation NaCl, {r:hémodialyse} si > 2.5 mmol/L ou symptômes neuro sévères"
+  - description: "{s:Dépression sévère post-partum} (≤ 4 sem) avec idées d'infanticide ou comportement bizarre"
+    dx_suspecte: "{p:Psychose puerpérale} / dépression post-partum sévère"
+    action: "Hospitalisation mère-bébé urgente; sécuriser le nourrisson; {r:antipsychotique + thymorégulateur}; ECT si résistant; allaitement à réévaluer"
+
+# source: lines 73-86 + 196-212 (sévérité, RUD)
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T° (hyperthermie → SMN si neuroleptique récent), glycémie, poids/IMC"
+    - "Inspection: tenue vestimentaire, hygiène, contact visuel, psychomotricité"
+    - "Recherche signes de prise de toxiques (haleine, traces injection, mydriase/myosis)"
+    - "Examen somatique pour éliminer cause organique (thyroïde, neuro, signes Cushing)"
+  cible:
+    - |-
+      État mental — examen psychiatrique structuré:
+      • orientation, attention (mois à l'envers, {t:MMSE} si suspicion confusion)
+      • discours: débit (logorrhée vs ralentissement), fuite des idées, coq-à-l'âne
+      • humeur (auto-évaluation) vs affect (observé) — congruents?
+      • cours de la pensée (cohérence, tangentialité)
+      • contenu (idées délirantes, persécution, grandeur, culpabilité)
+      • perceptions (hallucinations auditives, visuelles)
+    - |-
+      Évaluation {t:RUD} du risque suicidaire — SYSTÉMATIQUE:
+      • Risque: ATCD TS, dépression sévère, état mixte, isolement
+      • Urgence: plan, accès aux moyens, scénario, délai
+      • Dangerosité: létalité du moyen envisagé, impulsivité
+    - |-
+      Symptômes cibles pour scorer:
+      • {t:PHQ-9} (0-27): ≥ 10 modéré, ≥ 20 sévère
+      • {t:YMRS} (0-60): ≥ 20 manie modérée, ≥ 30 sévère
+      • {t:MDQ ≥ 7/13}: dépistage bipolarité
+    - "Recherche signes mélancoliques: aggravation matinale, réveil précoce ≥ 2h avant, anhédonie totale, ralentissement majeur"
+    - "Signes neurologiques: ROT, tonus, tremblement (lithium, sevrage), rigidité (SMN), latéralisation (cause organique)"
+
+# source: lines 155-179 + pivots bilan
+examens_complementaires:
+  - "{t:TSH ± T4 libre}: éliminer dysthyroïdie (hypo → dépression, hyper → manie); INDISPENSABLE avant lithium et en surveillance"
+  - "{t:NFS + ionogramme + créatinine + glycémie}: bilan organique de base; insuffisance rénale → CI/adaptation lithium"
+  - "{t:Bilan lipidique + HbA1c + transaminases}: avant antipsychotique atypique (syndrome métabolique) ou valproate"
+  - "{t:bHCG}: femme en âge de procréer AVANT lithium / valproate / carbamazépine (tératogènes)"
+  - "{t:Lithémie} (12h post-dose): cible {r:0.6-0.8 mmol/L} (entretien), {r:0.8-1.2} (épisode aigu); toxique > 1.5 [VÉRIFIER: cibles précises selon âge et indication]"
+  - "{t:ECG}: avant lithium (allongement QT possible) et antipsychotiques (QTc)"
+
+# source: lines 123-152 + pivots DD
+dd_top5:
+  - dx: "{p:Trouble bipolaire I}"
+    indices: "≥ 1 épisode {s:maniaque} (durée ≥ 1 sem ou hospit, ou avec symptômes psychotiques); ± EDM ± hypomanie; héritabilité élevée; gold standard {r:lithium}"
+    freq: "1 % vie entière (sexe-ratio 1:1)"
+  - dx: "{p:Trouble bipolaire II}"
+    indices: "≥ 1 épisode {s:hypomaniaque} (≥ 4j, sans hospit, sans psychose) + ≥ 1 EDM, JAMAIS de manie; souvent confondu avec dépression unipolaire récurrente"
+    freq: "1-2 % vie entière (F > H)"
+  - dx: "{p:Dépression unipolaire récurrente}"
+    indices: "EDM répétés (≥ 5 sx ≥ 2 sem dont humeur dépressive ou anhédonie); pas d'épisode (hypo)maniaque; F/H = 2/1; voir SSP-PSY-02"
+    freq: "très fréquent (20 % F, 10 % H)"
+  - dx: "{p:Cyclothymie}"
+    indices: "≥ {r:2 ans} (1 an chez enfants) de fluctuations hypomaniaques + dépressives sans atteindre critères complets EDM ni manie"
+    freq: "0.4-1 % vie entière"
+  - dx: "{p:Trouble schizo-affectif}"
+    indices: "Épisode thymique majeur ({s:dépression / manie}) + symptômes psychotiques PERSISTANT ≥ 2 sem en l'absence d'épisode thymique [VÉRIFIER: critères DSM-5 exacts ordre temporel symptômes psychotiques vs thymiques]"
+    freq: "0.3 % vie entière"
+
+# source: lines 240-280 + pivots PEC
+pec_initiale:
+  immediate:
+    - "Éliminer cause organique d'abord (TSH, glycémie, toxiques, {t:TDM cérébral} si 1er épisode > 50 ans ou signes neuro)"
+    - |-
+      {p:EDM légère-modérée}:
+      • {r:ISRS 1ère ligne} (sertraline 50-200 mg, escitalopram 10-20 mg, fluoxétine 20-60 mg)
+      • délai d'action {r:2-4 sem}; poursuite ≥ {r:6-12 mois} après rémission
+      • + psychothérapie (TCC, interpersonnelle) — efficace seule si légère
+    - |-
+      {p:EDM sévère / résistante}:
+      • IRSN (venlafaxine 75-225 mg, duloxétine 60 mg), mirtazapine 15-45 mg
+      • {r:ECT} si mélancolie sévère, psychotique, résistante, ou risque suicidaire imminent
+      • luminothérapie si saisonnière
+    - |-
+      {p:Épisode maniaque}:
+      • {r:antipsychotique atypique} (olanzapine 10-20 mg, rispéridone 2-6 mg, aripiprazole 15-30 mg)
+      • + {r:stabilisateur} (lithium 600-1200 mg/j titré sur lithémie, valproate 20-30 mg/kg/j)
+      • STOP antidépresseur si en cours; hospitalisation; sédation BZD ponctuelle
+    - |-
+      {p:Dépression bipolaire}:
+      • {r:quétiapine 300 mg/j, lurasidone, ou lithium} ± {r:lamotrigine 25→200 mg} (titration lente, {s:Stevens-Johnson})
+      • NE PAS donner antidépresseur en monothérapie [VÉRIFIER: place exacte des antidépresseurs en add-on dans la dépression bipolaire]
+    - "Traitement de fond TB: {r:lithium} (gold standard); alternatives valproate, lamotrigine (polarité dépressive), antipsychotique atypique"
+    - "Psychoéducation patient + entourage: observance, signes prodromiques, hygiène de vie, plan de crise"
+  orientation:
+    - "Ambulatoire MT/psychiatre: EDM légère-modérée, observance bonne, support social, pas de risque suicidaire"
+    - "Hospitalisation psychiatrique libre: EDM sévère, épisode maniaque/hypomaniaque avec dysfonctionnement, virage thymique"
+    - "PAFA: refus de soins + risque imminent (suicide, désorganisation grave, danger pour autrui)"
+    - "USC/USI: intoxication lithium, surdose médicamenteuse, dépression psychotique sévère, ECT"
+    - "Suivi rapproché (< 1 sem) si introduction/changement antidépresseur (surveiller virage et idées suicidaires, surtout < 25 ans)"
+
+criteres_hospitalisation:
+  - "{p:Risque suicidaire élevé} (RUD positif: plan + moyens + urgence)"
+  - "{p:Épisode maniaque} avec altération fonctionnelle, désinhibition dangereuse ou symptômes psychotiques"
+  - "{p:Dépression mélancolique / psychotique} ou sévère résistante (indication ECT)"
+  - "{p:Intoxication au lithium} (lithémie > 1.5 mmol/L ou signes neuro)"
+  - "{p:Dépression post-partum / psychose puerpérale} (unité mère-bébé)"
+
+pieges:
+  - "Prescrire un {r:antidépresseur en monothérapie} chez un patient bipolaire ou avec ATCD d'hypomanie → {p:virage maniaque}; toujours dépister TB par {t:MDQ} avant"
+  - "Méconnaître un épisode hypomaniaque ANTÉRIEUR (souvent vécu comme positif par le patient) → diagnostic erroné de dépression unipolaire récurrente"
+  - "Arrêt brutal du {r:lithium} → risque de rebond maniaque dans les semaines suivantes; toujours décroissance progressive sur ≥ 4 sem"
+  - "Oublier la surveillance sous lithium ({t:lithémie q3 mois, TSH + créatinine q6 mois}) et l'éducation patient (AINS / IEC / sartans / déshydratation = toxicité)"
+  - "Sous-estimer le risque suicidaire chez un patient apparemment 'calme' au sortir d'une décompensation ou en début d'amélioration (levée de l'inhibition)"
+
+cartes_liees:
+  - SSP-PSY-02
+  - SSP-URG-12
+  - TOOL-PHQ9
+  - TOOL-MDQ

@@ -1,0 +1,192 @@
+id: SSP-PSY-05
+type: ssp
+title: Troubles du comportement alimentaire
+discipline: Psy
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_TCA.md
+
+# source: lines 13-105
+anamnese:
+  socrates:
+    - |-
+      Site (caractérisation TCA):
+      • restriction alimentaire? crises? compensations?
+      • aliments/groupes évités (gras, sucres, viande)
+      • rituels et règles rigides (couper, peser, mâcher)
+    - |-
+      Onset:
+      • âge de début (puberté, 12-25 ans typique)
+      • événement déclencheur (régime, commentaire, trauma, transition)
+      • premier épisode ou récurrence?
+    - "Character: peur intense prendre poids, distorsion image corporelle (se voit 'gros(se)'), perte de contrôle (boulimie), culpabilité post-crise (BED)"
+    - "Radiation: retentissement scolaire/pro, isolement social, conflits familiaux, impact économique (coût nourriture)"
+    - |-
+      Time:
+      • durée évolution mois/années
+      • fréquence crises (boulimie ≥ {r:1×/sem × 3 mois} = DSM-5)
+      • pattern: repas sautés, grignotage nocturne
+    - |-
+      Exacerbating:
+      • stress, conflits, régimes restrictifs
+      • situations alimentaires sociales
+      • activités à risque (danse, sport esthétique, mannequinat)
+    - "Relieving: contrôle, perte de poids (renforcement AM), purge post-crise (boulimie)"
+    - |-
+      Severity ({t:SCOFF} ≥ 2/5 = suspicion):
+      • {s:Sick}: vous faites-vous vomir?
+      • {s:Control}: perte de contrôle alimentaire?
+      • {s:One stone}: perte > 6 kg en 3 mois?
+      • {s:Fat}: vous sentez-vous gros(se)?
+      • {s:Food}: la nourriture domine-t-elle votre vie?
+  specifique:
+    - |-
+      Histoire pondérale:
+      • poids actuel, taille → {t:IMC}
+      • poids min / max / habituel
+      • {t:%EBW} (adolescent: BMI actuel / BMI P50) — seuil < 75 % = grave
+      • poids désiré (souvent irréaliste)
+    - |-
+      Si suspicion {p:Anorexie mentale} (DSM-5 critères A-B-C):
+      • restriction → IMC < {r:17,5} (ou < {r:18,5} si AM atypique)
+      • peur intense prendre poids
+      • distorsion image corporelle, déni du trouble
+      • {s:hyperactivité} physique paradoxale, {s:aménorrhée} (≥ 3 cycles)
+      • sous-type: restrictif vs avec crises/purges
+    - |-
+      Si suspicion {p:Boulimie nerveuse}:
+      • {s:crises} (ingestion massive < 2 h + perte de contrôle)
+      • compensations: vomissements (90 %), laxatifs, diurétiques, jeûne, sport intense
+      • fréquence ≥ {r:1×/sem × 3 mois}; IMC souvent normal (18-25)
+      • estime de soi influencée par poids/forme
+    - |-
+      Si suspicion {p:Hyperphagie boulimique (BED)}:
+      • crises SANS compensation
+      • ≥ 3 caractéristiques (manger vite, jusqu'à inconfort, seul par honte)
+      • détresse marquée; surpoids/obésité fréquents
+    - "Comorbidités (80 % cas): {s:dépression majeure} (50-75 %), {s:idées suicidaires} systématique, anxiété, TOC, addictions (alcool en boulimie), automutilations, TDAH"
+    - "Populations à risque méconnu: homme, sportif, diabétique type 1 ({p:diabulimie} = omission insuline pour maigrir) — [VÉRIFIER: prévalence diabulimie selon source HAS]"
+  atcd:
+    - "ATCD TCA familiaux (risque ×7-12), troubles psychiatriques familiaux (dépression, addictions)"
+    - "ATCD personnels: trauma physique/sexuel, abus, perfectionnisme, harcèlement scolaire"
+    - "Attitudes familiales: focalisation poids, conflits alimentaires, surprotection/contrôle"
+    - |-
+      Médicaments et toxiques:
+      • laxatifs, diurétiques, coupe-faim, hormones thyroïdiennes
+      • alcool (boulimie++), substances
+      • insuline (diabétique type 1 — omission)
+    - "Habitudes: activité physique excessive (h/j), pesées multiples, comptage calories, applis fitness obsessionnelles"
+
+red_flags:
+  - description: "{s:IMC < 14 kg/m²} (adulte) ou {s:< 75 % EBW} (adolescent) ou chute pondérale > 25 % en 3-6 mois"
+    dx_suspecte: "{p:Anorexie mentale sévère — dénutrition critique}"
+    action: "Hospitalisation immédiate (médecine interne + psy); renutrition encadrée; {t:ECG} + bilan iono ({t:K, P, Mg, Ca}) avant toute renutrition"
+  - description: "{s:Bradycardie < 40 bpm} ou pauses > 3 sec, {s:TA < 80/50}, {s:T° < 35°C}, {s:hypoglycémie symptomatique}"
+    dx_suspecte: "{p:Instabilité hémodynamique — risque arrêt cardiaque}"
+    action: "Hospitalisation USI; monitoring cardiaque continu; réchauffement; {r:G10 % IV} si hypoglycémie; éviter remplissage massif"
+  - description: "{s:K⁺ < 2,5 mmol/L} OU {s:Na⁺ < 125 mmol/L} OU ECG: {t:QTc > 500 ms}, ondes T plates/inversées"
+    dx_suspecte: "{p:Trouble électrolytique grave} (purgatif: vomissements, laxatifs, diurétiques)"
+    action: "Hospitalisation; correction prudente IV ({r:KCl 10-20 mmol/h sous scope}); pas de correction rapide Na (risque myélinolyse); arrêt purgatifs"
+  - description: "{s:Phosphore < 0,3 mmol/L} + œdèmes + dyspnée/IC + confusion durant les 1ers jours de renutrition"
+    dx_suspecte: "{p:Syndrome de renutrition} (refeeding) — mortalité élevée"
+    action: "STOP renutrition; {r:thiamine 200-300 mg IV} avant glucose; supplémentation P/K/Mg; renutrition lente {r:5-10 kcal/kg/j} progressive; monitoring cardiaque [VÉRIFIER: protocole local CHUV/HUG]"
+  - description: "{s:Idées suicidaires actives} avec plan/intentionnalité + AM ou boulimie sévère"
+    dx_suspecte: "{p:Urgence psychiatrique} (mortalité AM 5-10 %, surmortalité suicide en boulimie)"
+    action: "Hospitalisation psy (volontaire ou PLAFA); contention environnementale; évaluation par psychiatre; ne pas laisser sortir contre avis"
+  - description: "{s:Hémorragie digestive} (hématémèse) après crise boulimique violente"
+    dx_suspecte: "{p:Syndrome de Mallory-Weiss} ou rupture œsophagienne (Boerhaave)"
+    action: "Urgences + endoscopie urgente; CT thoracique si suspicion Boerhaave; {r:IPP IV} (oméprazole 80 mg bolus puis 8 mg/h)"
+  - description: "{s:Emphysème sous-cutané cervical} + douleur thoracique après vomissements"
+    dx_suspecte: "{p:Pneumomédiastin / rupture œsophagienne}"
+    action: "{t:Radio thorax / CT thoracique} urgent; à jeun; avis chirurgien thoracique"
+
+examen:
+  general:
+    - "Constantes OBLIGATOIRES: TA (couché-debout = orthostatisme), FC ({s:bradycardie < 60 = AM}), T° ({s:hypothermie < 36°C}), FR, SaO2, glycémie capillaire"
+    - "{t:IMC} et {t:%EBW} (adolescent); courbes de croissance staturo-pondérales"
+    - "État général: cachexie, déshydratation (pli cutané, muqueuses sèches)"
+    - "Évaluation psychiatrique systématique: humeur, idées suicidaires (RUD), capacité de discernement"
+  cible:
+    - |-
+      Signes de {p:dénutrition} (AM):
+      • fonte musculaire et adipeuse (creusement temporal, fessier)
+      • {s:lanugo} (duvet fin dos/visage)
+      • peau sèche, froide, marbrée, acrocyanose
+      • ongles cassants, chute de cheveux
+      • {s:œdèmes} déclives (renutrition ou hypoalbuminémie)
+    - |-
+      Signes cardiovasculaires:
+      • bradycardie sinusale, hypotension orthostatique
+      • souffle systolique fonctionnel (anémie, prolapsus mitral)
+      • signes IC (œdèmes, crépitants) si renutrition rapide
+    - |-
+      Signes spécifiques {p:Boulimie} / purges:
+      • {s:hypertrophie parotidienne} bilatérale indolore
+      • {s:érosions dentaires} face linguale incisives, caries multiples
+      • pétéchies palais mou (efforts vomissements)
+      • {s:signe de Russell} (callosités/cicatrices dos main 2ᵉ-3ᵉ articulation)
+    - "Recherche complications: examen abdominal (constipation, ralentissement transit), neuro (faiblesse, ROT diminués si hypoK), peau (purpura si thrombopénie)"
+    - "Examen gynécologique non systématique mais évaluer aménorrhée, contraception, désir grossesse"
+
+dd_top5:
+  - dx: "{p:Anorexie mentale}"
+    indices: "Restriction volontaire + {t:IMC < 17,5} + peur prendre poids + distorsion image corporelle + déni; sous-types restrictif vs purgatif; mortalité 5-10 %"
+    freq: "0,5-1 % femmes (sex-ratio F/H 9:1)"
+  - dx: "{p:Boulimie nerveuse}"
+    indices: "Crises avec perte contrôle + compensations (vomissements 90 %, laxatifs, jeûne, sport) ≥ {r:1×/sem × 3 mois}; IMC normal; signe de Russell, érosions dentaires, hypertrophie parotidienne"
+    freq: "1-3 % femmes (début 17-25 ans)"
+  - dx: "{p:Hyperphagie boulimique (BED)}"
+    indices: "Crises SANS compensation, ≥ 3 caractéristiques (manger vite/seul/honte), détresse marquée, surpoids/obésité fréquents; ≥ 1×/sem × 3 mois"
+    freq: "2-3 % population générale (le plus fréquent)"
+  - dx: "{p:ARFID} (Avoidant/Restrictive Food Intake Disorder)"
+    indices: "Évitement-restriction SANS peur du poids ni distorsion image; sélectivité sensorielle, peur de s'étouffer, manque d'intérêt; enfant/ado, parfois adulte autiste [VÉRIFIER: critères DSM-5 ARFID]"
+    freq: "rare (0,3-3 %); émergent en clinique"
+  - dx: "{p:Dépression majeure avec perte d'appétit}"
+    indices: "Perte de poids INVOLONTAIRE + anhédonie + humeur dépressive + insomnie; pas de peur prendre poids, pas de distorsion image corporelle, pas de compensations"
+    freq: "fréquent (15 % vie); différenciation clé en pratique"
+
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — IMC, constantes, iono, ECG AVANT toute renutrition"
+    - "AM sévère ({t:IMC < 14}, bradycardie, troubles iono): hospitalisation; renutrition lente {r:5-10 kcal/kg/j} initial puis +200 kcal/2-3 j; {r:thiamine 200-300 mg IV/j × 5-7 j} AVANT glucose"
+    - "Supplémentation: {r:phosphate de K 30 mmol/j PO}, {r:Mg 5-10 mmol/j}, multivitamines; monitoring P/K/Mg toutes 12-24 h × 1ʳᵉ sem [VÉRIFIER: posologies P/K selon protocole NICE/HAS]"
+    - "Boulimie en ambulatoire: {r:TCC-E} 20 séances/20 sem (gold standard) + auto-surveillance alimentaire"
+    - "Boulimie pharmaco: {r:fluoxétine 60 mg/j PO} (seul ISRS avec AMM); alternatives sertraline 100-200 mg, escitalopram 15-20 mg; ÉVITER bupropion (convulsions)"
+    - "BED: TCC + {r:lisdexamfétamine 30-70 mg/j} (off-label en Europe) [VÉRIFIER: disponibilité Suisse]"
+    - "AM olanzapine {r:2,5-10 mg/j} (off-label): anxiolyse, prise de poids — après bilan ECG (QT)"
+    - "Idées suicidaires actives: PLAFA si refus + transfert psy; traiter comorbidité dépressive APRÈS stabilisation pondérale"
+  orientation:
+    - "Ambulatoire multidisciplinaire (psy + somaticien + diététicien + TCC): boulimie, BED, AM modérée sans red flag"
+    - "Hospitalisation médicale + psy (HUG/CHUV unité TCA): AM sévère, troubles iono, instabilité hémodynamique, échec ambulatoire"
+    - "Pédopsy + thérapie familiale {r:Maudsley} (parents co-thérapeutes): adolescents AM ou boulimie"
+    - "Suivi rapproché: phase aiguë 2-3×/sem, stabilisation 1×/sem, maintenance 1×/mois; durée totale {r:1-2 ans minimum}"
+    - "Consignes retour urgences: malaise, perte poids > 1 kg/sem, idées suicidaires, hématémèse, douleur thoracique"
+
+examens_complementaires:
+  - "{t:Bilan biologique systématique}: NFS (leuco-thrombopénie AM), créat/urée, {t:iono complet} (K, Na, Cl, HCO3), {t:Ca/P/Mg}, glycémie, transaminases, albumine/préalbumine, CRP"
+  - "{t:ECG 12 dérivations}: bradycardie, {t:QTc}, ondes T, signes hypokaliémie (U) — systématique AVANT renutrition"
+  - "{t:TSH ± T3/T4}: syndrome T3 bas (adaptation AM); {t:βHCG} (toute femme), {t:LH/FSH/œstradiol} si aménorrhée"
+  - "{t:Vitamines}: D, B1 (thiamine), B12, folates, fer/ferritine, zinc; {t:lipasémie} (si vomissements ou douleur abdo)"
+  - "{t:Ostéodensitométrie (DEXA)}: AM avec aménorrhée > 6 mois ou évolution > 1 an"
+  - "{t:Radio thorax / CT thoracique}: si suspicion pneumomédiastin (vomissements violents) ou Boerhaave"
+
+criteres_hospitalisation:
+  - "{s:IMC < 14} ou < 75 % EBW (ado) ou chute > 25 % en 3-6 mois"
+  - "Constantes instables: FC < 40, TA < 80/50, T° < 35°C, hypoglycémie symptomatique"
+  - "Troubles ioniques sévères: K⁺ < 2,5, Na⁺ < 125, P < 0,5 mmol/L, ou {t:QTc > 500 ms}"
+  - "Idées suicidaires actives, décompensation psychiatrique aiguë, échec ambulatoire répété"
+  - "Complications somatiques aiguës: Mallory-Weiss, pneumomédiastin, IC, IRA"
+
+pieges:
+  - "Méconnaître le {p:syndrome de renutrition} ({s:HYPOphosphorémie} mortelle) — TOUJOURS donner thiamine et démarrer lentement {r:5-10 kcal/kg/j}"
+  - "Confondre {p:AM type restrictif} (IMC < 17,5) et {p:AM atypique} (poids normal mais perte rapide + comportements identiques) — même prise en charge"
+  - "Méconnaître TCA chez l'{e:homme}, le {e:sportif} (orthorexie, hyperphagie compensée) ou le {e:diabétique type 1} ({p:diabulimie}: omettre insuline pour maigrir → acidocétose à répétition)"
+  - "Prescrire ISRS en {e:AM sévère dénutrie} sans corriger iono/ECG d'abord (risque QT, syncope) — efficacité par ailleurs faible avant restauration pondérale"
+  - "Banaliser une boulimie 'apparemment équilibrée' (IMC normal) — risque vital iono, ECG, hémorragie digestive ; évaluation suicidaire systématique"
+
+cartes_liees:
+  - SSP-PSY-02
+  - SYS-PSY
+  - TOOL-SCOFF
