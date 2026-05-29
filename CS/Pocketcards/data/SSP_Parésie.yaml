@@ -82,13 +82,16 @@ red_flags:
     action: "{t:IRM médullaire urgente}; chirurgie décompressive < 48 h [VÉRIFIER: délai optimal < 24 h selon guidelines]"
   - description: "{s:Parésie ascendante symétrique} + aréflexie + précédée infection 2-4 sem"
     dx_suspecte: "{p:Syndrome de Guillain-Barré}"
-    action: "Hospitalisation; surveillance respiratoire {t:spirométrie} 4×/j; {r:Ig IV 0.4 g/kg/j × 5 j} ou plasmaphérèse [VÉRIFIER: posologie Ig IV selon poids réel]"
+    action: "Hospitalisation; surveillance respiratoire {t:spirométrie} 4×/j; {r:Ig IV 0.4 g/kg/j × 5 j} ou plasmaphérèse"
   - description: "{s:Paraparésie / tétraparésie} progressive + niveau sensitif + troubles sphinctériens"
     dx_suspecte: "{p:Compression médullaire} (métastase, hernie discale massive, hématome épidural)"
-    action: "{t:IRM médullaire STAT}; {r:dexaméthasone IV} si cause tumorale; décompression chirurgicale"
+    action: "{t:IRM médullaire STAT}; {r:dexaméthasone 10 mg IV bolus puis 4 mg × 4/j} si cause tumorale; décompression chirurgicale"
   - description: "{s:Fièvre} + rachialgie + déficit neurologique progressif"
     dx_suspecte: "{p:Spondylodiscite / abcès épidural}"
     action: "{t:IRM rachidienne STAT} + hémocultures; antibiothérapie IV empirique après prélèvements"
+  - description: "{s:Cervicalgie / céphalée} + {s:Claude-Bernard-Horner} (ptosis-myosis) + déficit focal chez sujet jeune (± trauma cervical, manipulation)"
+    dx_suspecte: "{p:Dissection artérielle cervicale} (carotide / vertébrale)"
+    action: "{t:angio-IRM / angio-CT cervico-encéphalique} STAT; {r:antithrombotique} (antiagrégant ou anticoagulation selon protocole) ; avis neurovasculaire"
 
 # source: line 200-384
 examen:
@@ -141,9 +144,9 @@ dd_top5:
   - dx: "{p:Compression médullaire / queue de cheval}"
     indices: "Douleur radiculaire + niveau sensitif + troubles sphinctériens; cancer connu (métastases), hernie discale massive, hématome épidural; {t:IRM}: compression visible"
     freq: "urgence chirurgicale"
-  - dx: "{p:Polyneuropathie (diabétique ou autre)}"
-    indices: "Distale symétrique, prédominance sensitive puis motrice, 'gants-chaussettes', réflexes achilléens abolis précocement; diabète, alcool, carences B12; {t:EMG}: axonal ou démyélinisant"
-    freq: "très fréquent (polyneuropathie diabétique = cause #1 neuropathie périphérique)"
+  - dx: "{p:Myasthénie / atteinte de la jonction neuromusculaire}"
+    indices: "Fatigabilité fluctuante (aggravation en fin de journée), {s:ptosis} + {s:diplopie}, atteinte bulbaire (déglutition, phonation); {t:test au glaçon}, {t:Ac anti-RACh / anti-MuSK}, {t:EMG} décrément; crise myasthénique = urgence respiratoire"
+    freq: "moins fréquent mais urgence si crise (atteinte respiratoire)"
 
 # source: line 543-643
 pec_initiale:
@@ -153,17 +156,18 @@ pec_initiale:
       • 144 / SMUR; {t:CT cérébral sans contraste} STAT
       • {r:rt-PA IV 0.9 mg/kg} (max 90 mg) si AVC ischémique < 4.5 h et critères remplis
       • thrombectomie si occlusion gros vaisseau ≤ 6 h (ou 24 h si pénombre viable)
+      • {r:aspirine 300 mg} (PO/IV) à 24-48 h post-thrombolyse, ou d'emblée si pas de thrombolyse — prévention secondaire
       • unité neurovasculaire / stroke unit
     - |-
       {p:Queue de cheval} ou compression médullaire aiguë:
       • {t:IRM urgente} (< 6 h)
-      • {r:dexaméthasone IV} si œdème péritumoral
+      • {r:dexaméthasone 10 mg IV bolus puis 4 mg × 4/j} si œdème péritumoral
       • chirurgie décompressive < 48 h (idéalement < 24 h)
     - |-
       {p:Guillain-Barré}:
       • hospitalisation en neurologie ± soins intensifs
-      • {r:Ig IV 0.4 g/kg/j × 5 j} OU plasmaphérèse (4-6 échanges) [VÉRIFIER: posologie Ig IV selon poids]
-      • {t:spirométrie} 4×/j; si CV < 15 mL/kg → intubation
+      • {r:Ig IV 0.4 g/kg/j × 5 j} OU plasmaphérèse (4-6 échanges)
+      • {t:spirométrie} 4×/j; intubation si CV < 20 mL/kg, PiMax < 30 ou PeMax < 40 cmH₂O (règle 20/30/40)
       • PAS de corticoïdes (inefficaces dans la forme aiguë)
     - "Mesures générales: prévenir TVP (HBPM si alitement), prévention escarres, mobilisation précoce, surveillance déglutition"
   orientation:
@@ -191,7 +195,7 @@ criteres_hospitalisation:
 pieges:
   - "Méconnaître un {p:syndrome de la queue de cheval}: ne JAMAIS omettre la question sur les troubles sphinctériens et le {t:TR} si positif — urgence chirurgicale < 48 h"
   - "Confondre parésie centrale ({s:hyperréflexie}, Babinski +) et périphérique ({s:aréflexie}, amyotrophie) — pivot topographique détermine le bilan"
-  - "Banaliser une {p:myasthénie}: fatigabilité fluctuante + ptosis + diplopie → test glaçon, Ac anti-RACh [VÉRIFIER: place du test à l'édrophonium en ECOS]"
+  - "Banaliser une {p:myasthénie}: fatigabilité fluctuante + ptosis + diplopie → {t:test au glaçon} + {t:Ac anti-RACh / anti-MuSK} (le test à l'édrophonium/Tensilon n'est plus utilisé en Suisse — retiré du Compendium)"
   - "Attribuer une {p:SEP} à une parésie unique chez la femme jeune sans IRM — critères McDonald exigent dissémination temps ET espace"
   - "Oublier le bilan étiologique vasculaire dans un AVC ischémique: fibrillation auriculaire (ECG!), cardiopathie emboligène, sténose carotidienne"
 

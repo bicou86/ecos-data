@@ -81,7 +81,7 @@ anamnese:
 red_flags:
   - description: "{e:Prématurité < 32 SA} avec apnée"
     dx_suspecte: "{p:Apnée centrale du prématuré} par immaturité des centres respiratoires"
-    action: "Hospitalisation + monitoring cardio-respiratoire continu + {r:caféine citrate 20 mg/kg charge puis 5-10 mg/kg/j} [VÉRIFIER: posologie caféine selon poids exact et âge corrigé]"
+    action: "Hospitalisation + monitoring cardio-respiratoire continu + {r:caféine citrate 20 mg/kg charge puis 5-10 mg/kg/j} (= caféine base 10 mg/kg puis 2,5-5 mg/kg/j — TOUJOURS préciser le sel pour éviter un surdosage)"
   - description: "{s:Stimulation vigoureuse ou RCP nécessaire} pour récupérer l'épisode"
     dx_suspecte: "{p:BRUE haut risque} — arythmie (QT long, WPW), lésion neurologique"
     action: "Hospitalisation + {t:ECG} (QTc), {t:échocardiographie}, glycémie, NFS+CRP, gaz artériels, {t:EEG} si convulsions évoquées"
@@ -90,7 +90,7 @@ red_flags:
     action: "Hospitalisation + bilan étiologique étendu: PCR coqueluche, ionogramme, calcémie, ammoniémie, lactates, {t:polysomnographie}"
   - description: "{s:Toux paroxystique cyanosante} nourrisson < 3 mois, non vacciné"
     dx_suspecte: "{p:Coqueluche}"
-    action: "{r:Azithromycine PO} [VÉRIFIER: dose coqueluche nourrisson] + isolement contact + déclaration obligatoire; monitoring hospitalier si < 6 semaines"
+    action: "{r:Azithromycine 10 mg/kg/j PO × 5 j} (nourrisson < 6 mois) + isolement gouttelettes + déclaration obligatoire; monitoring hospitalier si < 6 semaines"
   - description: "{s:Lésions cutanées inexpliquées / hématomes}, version parentale incohérente, hémorragies rétiniennes"
     dx_suspecte: "{p:Syndrome du bébé secoué} / maltraitance"
     action: "Bilan radiologique squelette corps entier + fond d'œil + {t:IRM cérébrale} + bilan biologique ATM + signalement immédiat"
@@ -139,9 +139,9 @@ dd_top5:
   - dx: "{p:Coqueluche}"
     indices: "Toux paroxystique cyanosante, apnée + bradycardie, < 3 mois NON vacciné, confirmation {t:PCR coqueluche}"
     freq: "à éliminer en urgence < 3 mois"
-  - dx: "{p:Convulsions occultes}"
-    indices: "Myoclonies subtiles, hypotonie post-critique, ± anomalie EEG; contexte familial épilepsie, ATCD Apgar bas"
-    freq: "rare mais sous-diagnostiqué"
+  - dx: "{p:Infection — bronchiolite à VRS / sepsis du nourrisson}"
+    indices: "Apnée parfois révélatrice (VRS < 2-3 mois, sepsis/méningite); fièvre OU hypothermie, wheezing, AEG, refus alimentaire; {t:NFS-CRP, hémocultures, test VRS, PL} selon contexte (myoclonies/convulsions occultes = DD neurologique à évoquer si EEG anormal)"
+    freq: "fréquent en épidémie hivernale; cause majeure < 3 mois"
   - dx: "{p:Apnée centrale du prématuré}"
     indices: "< 37 SA, immaturité centres respiratoires jusqu'à {r:44 SA âge corrigé} [VÉRIFIER: seuil résolution apnée prématuré]; apnée centrale pure, réponse caféine"
     freq: "fréquent chez prématuré < 32 SA"
@@ -154,8 +154,8 @@ pec_initiale:
       Classification {t:BRUE} immédiate:
       • {r:Bas risque} (> 60 j, sans préma < 32 SA, 1er épisode, < 1 min, pas RCP): observation {r:1-4h} + ECG + glycémie; retour domicile si stable
       • {r:Haut risque}: hospitalisation + bilan complet
-    - "Apnée prématuré: {r:caféine citrate 20 mg/kg IV/PO charge} puis {r:5-10 mg/kg/j} + monitoring continu + position proclive 30°"
-    - "Coqueluche: {r:azithromycine PO} + isolement + déclaration obligatoire"
+    - "Apnée prématuré: {r:caféine citrate 20 mg/kg IV/PO charge puis 5-10 mg/kg/j} (= caféine base 10 mg/kg puis 2,5-5 mg/kg/j) + monitoring continu + position proclive 30°"
+    - "Coqueluche: {r:azithromycine 10 mg/kg/j PO × 5 j} + isolement + déclaration obligatoire"
     - "RGO documenté: {r:épaississants + fractionnement} ± IPP; pas de métoclopramide < 1 an"
     - "Prévention MIN: position dorsale STRICTE, literie ferme sans objets, chambre parentale 6 mois, pas de tabac, T° 18-20°C"
   orientation:

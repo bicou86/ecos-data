@@ -96,10 +96,10 @@ red_flags:
     action: "Hospitalisation immédiate, {t:écho obstétricale} (PAS de TV avant écho!), CTG, NFS/groupe/RAI; {r:césarienne en urgence} si saignement massif ou souffrance fœtale"
   - description: "{e:3e trimestre} + {s:sang noirâtre} + {s:contracture utérine douloureuse} ± choc maternel ± souffrance fœtale"
     dx_suspecte: "{p:Hématome rétro-placentaire (HRP)}"
-    action: "{r:Césarienne en extrême urgence}, réanimation maternelle (CGR, fibrinogène, surveillance CIVD), anti-D si Rh-"
+    action: "{r:Césarienne en extrême urgence}, réanimation maternelle (CGR, fibrinogène, surveillance CIVD) ; {r:contrôle TA (nicardipine IV)} si pré-éclampsie associée ; {r:Rhophylac (anti-D) 300 µg} si Rh-"
   - description: "{e:Post-partum} + {s:saignement > 500 mL voie basse} (> 1000 mL césarienne) dans les 24 h"
     dx_suspecte: "{p:Hémorragie de la délivrance} (4T: Tonus, Trauma, Tissu, Thrombine)"
-    action: "Massage utérin + sondage vésical + {r:oxytocine 5-10 UI IV puis perfusion}; révision utérine; si échec → {r:sulprostone 500 µg/h IV} + ballonnet de Bakri ± embolisation/hystérectomie d'hémostase [VÉRIFIER: protocole CHUV/HUG]"
+    action: "Massage utérin + sondage vésical + {r:oxytocine 5-10 UI IVD bolus puis 20-40 UI/500-1000 mL à 250 mL/h} + {r:acide tranexamique 1 g IV}; révision utérine; si échec → {r:sulprostone 500 µg/h IV} + ballonnet de Bakri ± embolisation/hystérectomie d'hémostase [VÉRIFIER: protocole CHUV/HUG]"
   - description: "{e:Post-ménopause (> 1 an aménorrhée)} + tout saignement vaginal, même minime"
     dx_suspecte: "{p:Cancer de l'endomètre} jusqu'à preuve du contraire"
     action: "{t:Écho endovaginale} (endomètre > 4 mm = pathologique) + {t:biopsie d'endomètre (Pipelle)} + {t:hystéroscopie diagnostique} EN URGENCE [VÉRIFIER: seuil 4 mm vs 5 mm selon source]"
@@ -158,20 +158,20 @@ dd_top5:
   - dx: "{p:Cancer de l'endomètre}"
     indices: "Femme {e:post-ménopausée} (> 90 %); métrorragies indolores, parfois purulentes; FdR: obésité, nulliparité, SOPK, Lynch, tamoxifène; {t:écho endovaginale} (endomètre > 4 mm) + {t:biopsie}; type 1 endométrioïde (bon px) vs type 2 séreux (mauvais px)"
     freq: "1er cancer gynécologique en Suisse; 1 cas pour 100 saignements post-ménopausiques"
-  - dx: "{p:Saignements utérins fonctionnels / fibrome / adénomyose}"
-    indices: "Femme en activité génitale; ménorragies/ménométrorragies cycliques; utérus augmenté à TV (fibrome) ou globuleux sensible (adénomyose); écho: myomes (siège FIGO), zone jonctionnelle épaissie; PALM-COEIN (PALM = Polype/Adénomyose/Leiomyome/Malignité; COEIN = Coagulopathie/Ovulation/Endomètre/Iatrogène/Non-classé)"
-    freq: "très fréquent (10-30 % des femmes en âge procréer)"
+  - dx: "{p:Placenta prævia / Hématome rétro-placentaire (HRP)}"
+    indices: "{e:2e-3e trimestre}: prævia = sang rouge INDOLORE + utérus souple (PAS de TV!); HRP = sang noir + {s:contracture utérine douloureuse} + choc maternel ± souffrance fœtale; {t:écho obstétricale} + CTG; FdR HRP: HTA/pré-éclampsie, tabac, trauma, cocaïne (saignements fonctionnels / fibrome / PALM-COEIN si hors grossesse)"
+    freq: "urgence materno-fœtale; prævia ~0,5 %, HRP ~0,5-1 % des grossesses"
 
 # source: MD line 219-292
 pec_initiale:
   immediate:
     - "{t:βHCG urinaire ou sanguine quantitative} chez TOUTE femme en âge de procréer — règle d'or AVANT toute imagerie/médicament"
     - "Évaluer tolérance: TA, FC, Hb capillaire; VVP × 2 + remplissage cristalloïdes si choc, NFS/groupe/RAI/crase, {r:CGR si Hb < 7 g/dL} (ou < 9 si mal toléré)"
-    - "{p:GEU non rompue}: {r:méthotrexate 50 mg/m² IM} si critères stricts (βHCG < 5000 UI/L, masse < 4 cm, pas d'activité cardiaque, stable, observance) OU {r:cœlioscopie} (salpingotomie/salpingectomie); {r:anti-D 200 µg IM} si Rh- [VÉRIFIER: seuil 250 vs 300 µg selon protocole]"
+    - "{p:GEU non rompue}: {r:méthotrexate 50 mg/m² IM} si critères stricts (βHCG < 5000 UI/L, masse < 4 cm, pas d'activité cardiaque, stable, observance) OU {r:cœlioscopie} (salpingotomie/salpingectomie); {r:Rhophylac (anti-D) 300 µg IM} si Rh-"
     - "{p:GEU rompue / hémopéritoine}: réanimation + {r:cœlioscopie/laparotomie en extrême urgence}"
     - "{p:Placenta prævia} 3e trimestre: hospitalisation + écho (PAS de TV!) + CTG + {r:césarienne} si saignement massif ou MAP; corticothérapie maturative si < 34 SA"
     - "{p:HRP}: {r:césarienne en extrême urgence} + réanimation maternelle (PFC, fibrinogène, surveillance CIVD)"
-    - "{p:Hémorragie de la délivrance}: massage utérin + vidange vésicale + {r:oxytocine 5-10 UI IV bolus puis 20 UI/500 mL}; révision utérine; si échec → {r:sulprostone 500 µg/h IV} + ballonnet Bakri; ultime: ligature/embolisation/hystérectomie [VÉRIFIER: posologie sulprostone selon protocole CHUV/HUG]"
+    - "{p:Hémorragie de la délivrance}: massage utérin + vidange vésicale + {r:oxytocine 5-10 UI IVD bolus puis 20-40 UI dans 500-1000 mL NaCl à 250 mL/h} + {r:acide tranexamique 1 g IV} (renouvelable à 30 min — WOMAN trial); révision utérine; si échec → {r:sulprostone 500 µg/h IV} + ballonnet Bakri; ultime: ligature/embolisation/hystérectomie [VÉRIFIER: posologie sulprostone selon protocole CHUV/HUG]"
     - "Hémorragie active non gravidique sévère: {r:œstrogènes conjugués 25 mg IV/4-6 h} ou {r:pilule œstroprogestative 3 cp/j × 7 j} puis décroissance; {r:acide tranexamique 1 g × 3-4/j} (max 5 j)"
     - "Post-ménopause: aucun traitement avant {t:écho endovaginale + biopsie}; suspicion cancer → consultation gynéco-onco rapide"
   orientation:
@@ -210,3 +210,4 @@ cartes_liees:
   - SYS-GYN
   - SSP-GYN-01
   - SSP-GYN-03
+  - SSP-GYN-06

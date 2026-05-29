@@ -40,18 +40,18 @@ anamnese:
 
 # source: lines 83-109 (signes cliniques, ABCDE, qSOFA)
 red_flags:
-  - description: "{s:Foyer infectieux} + {s:hypotension} TAS < 90 mmHg + {s:lactates > 2 mmol/L} malgré remplissage"
+  - description: "{s:Foyer infectieux} + {s:hypotension} TAS < 90 mmHg + {s:lactates > 2 mmol/L} malgré remplissage (> 4 = hyperlactatémie sévère)"
     dx_suspecte: "{p:Choc septique}"
-    action: "Hémocultures x2 AVANT ATB; {r:pipéracilline-tazobactam + vancomycine IV} < 1 h; {r:cristalloïdes 30 mL/kg}; {r:noradrénaline} si PAM < 65 réfractaire [VÉRIFIER: choix ATB empirique selon foyer et protocole local CHUV/HUG]"
+    action: "Bundle Surviving Sepsis 1 h: hémocultures x2 AVANT ATB; {r:pipéracilline-tazobactam + vancomycine IV} < 1 h; {r:cristalloïdes 30 mL/kg} si PAM < 65 ou lactates > 4; {r:noradrénaline} si PAM < 65 réfractaire au remplissage [VÉRIFIER: choix ATB empirique selon foyer et protocole local CHUV/HUG]"
   - description: "{s:Hémorragie extériorisée ou traumatisme} + {s:TAS < 90 mmHg} + {s:tachycardie > 100 bpm}"
     dx_suspecte: "{p:Choc hémorragique}"
     action: "Compression directe; {r:acide tranexamique 1 g IV} si < 3 h; transfusion massive {r:CGR:PFC:plaquettes 1:1:1}; embolisation/chirurgie hémostatique urgente [VÉRIFIER: seuil Hb pour transfusion CGR (70 vs 90 g/L selon comorbidités)]"
   - description: "{s:Douleur thoracique} ou {s:OAP} + {s:TAS < 90 mmHg} + {s:bradycardie ou tachycardie irrégulière}"
     dx_suspecte: "{p:Choc cardiogénique} sur IDM / arythmie"
-    action: "{t:ECG 12 dérivations} STAT; {t:troponines} + {t:écho-cœur} urgents; {r:dobutamine 5-20 μg/kg/min}; revascularisation coronaire (angioplastie) si IDM"
+    action: "{t:ECG 12 dérivations} STAT; {t:troponines} + {t:écho-cœur} urgents; {r:dobutamine 5-20 μg/kg/min} ± {r:noradrénaline} si PAS < 90 (PAS de remplissage massif); CPAP/diurétiques si OAP; revascularisation coronaire (angioplastie) si IDM"
   - description: "{s:Urticaire} + {s:œdème laryngé / bronchospasme} + {s:hypotension} après contact allergène"
     dx_suspecte: "{p:Choc anaphylactique}"
-    action: "{r:Adrénaline 0.5 mg IM cuisse externe} immédiat; répéter 5-10 min si besoin; {r:remplissage cristalloïdes}; {r:méthylprednisolone 1-2 mg/kg IV}; antihistaminiques H1+H2 [VÉRIFIER: dose adrénaline IM adulte — 0.3 vs 0.5 mg selon source]"
+    action: "{r:Adrénaline 0.5 mg IM cuisse externe} immédiat, répéter 5-15 min si besoin; {r:remplissage cristalloïdes}; si réfractaire: {r:adrénaline IVSE 2-10 µg/min} + {r:glucagon 1-2 mg IV} si patient bêta-bloqué; {r:méthylprednisolone 1-2 mg/kg IV} + antihistaminiques H1+H2 (adjuvants)"
   - description: "{s:Triade de Beck}: TJ + hypotension + bruits cardiaques assourdis; {s:pouls paradoxal > 20 mmHg}"
     dx_suspecte: "{p:Tamponnade péricardique}"
     action: "{t:Écho-cœur} en urgence (épanchement + collapsus VD); {r:péricardiocentèse} immédiate si instabilité hémodynamique"
@@ -101,10 +101,10 @@ pec_initiale:
     - "ABC: voies aériennes libres; O₂ haut débit si SaO₂ < 94%; intubation si GCS < 8"
     - "2 VVP G16 minimum + prélèvements STAT (GDS, lactates, NFS, iono, coag, hémocultures)"
     - |-
-      Remplissage vasculaire initial:
-      • {r:cristalloïdes 500 mL/15 min} IV, réévaluer après chaque bolus (PAM, diurèse, lactates)
-      • Éviter sur-remplissage si choc cardiogénique (aggrave OAP)
-    - "Vasopresseurs si PAM < 65 réfractaire: {r:noradrénaline} 1ère ligne (0.1-3 μg/kg/min) [VÉRIFIER: posologie noradrénaline et protocole titration locale]"
+      Remplissage vasculaire (bolus réévalués: PAM, diurèse, lactates):
+      • choc septique / hypovolémique: {r:cristalloïdes 30 mL/kg} (≈ 2 L) sur 30 min, en bolus de 500 mL
+      • choc cardiogénique: PAS de remplissage massif (aggrave l'OAP) → bolus prudents 250 mL + inotropes ± CPAP
+    - "Vasopresseurs si PAM < 65 réfractaire au remplissage: {r:noradrénaline} 1ère ligne (0.05-0.5 μg/kg/min, titrer cible PAM ≥ 65); ajouter {r:hydrocortisone 200 mg/j IV} si choc septique vasopresseur-dépendant [VÉRIFIER: posologie max noradrénaline et protocole titration locale CHUV/HUG]"
     - "Traitement étiologique SANS DÉLAI (voir red flags): ATB, adrénaline, dobutamine, péricardiocentèse selon type"
     - "Critères de réponse: PAM > 65 mmHg + diurèse > 0.5 mL/kg/h + lactates décroissants + amélioration marbrures"
   orientation:
