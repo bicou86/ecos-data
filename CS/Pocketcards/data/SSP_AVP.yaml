@@ -1,0 +1,172 @@
+id: SSP-URG-08
+type: ssp
+title: Accident de la voie publique
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_AVP.md
+
+# source: MD ligne 1-55
+anamnese:
+  socrates:
+    - |-
+      Cinétique — haute énergie si:
+      • vitesse {r:>50-60 km/h}, tonneau, éjection
+      • déformation véhicule {r:>50 cm} ou intrusion habitacle {r:>30 cm}
+      • chute {r:>6 m}, désincarcération {r:>20 min}
+      • décès dans le véhicule, piéton/cycliste percuté
+    - |-
+      Mécanisme lésionnel:
+      • port ceinture/casque? airbag déclenché?
+      • direction de l'impact (frontal, latéral, arrière)
+      • position dans le véhicule
+    - |-
+      Événements péri-traumatiques:
+      • {s:perte de connaissance initiale} (durée?)
+      • {s:amnésie post-traumatique}?
+      • évolution depuis l'accident (aggravation?)
+    - "Douleurs: localisation + intensité {r:0-10}"
+    - "Dyspnée, douleur thoracique, hémoptysie?"
+    - "{s:Céphalées}, troubles visuels, paralysie, paresthésies?"
+    - "Douleur abdominale, douleur scapulaire G ({s:signe de Kehr} = rupture rate)?"
+  specifique:
+    - |-
+      AMPLE — A: Allergies (médicaments, latex)
+      M: Médicaments (anticoagulants! → risque hémorragique majoré)
+      P: Passé médical ({e:ATCD mononucléose} → rate fragile), chirurgies
+      L: Last meal (anesthésie)
+      E: Événements (cf. cinétique ci-dessus)
+    - "Alcool/drogues avant l'accident (fréquent, modifie examen neuro)?"
+    - "{e:Grossesse}? [VÉRIFIER: protocole AVP chez femme enceinte — bHCG systématique?]"
+  atcd:
+    - "Anticoagulants / antiagrégants plaquettaires (risque hémorragique majoré — préciser molécule et dose)"
+    - "{e:ATCD mononucléose} récente (risque de rupture splénique même à faible énergie)"
+    - "Pathologies osseuses (ostéoporose, métastases) — fracture à moindre énergie possible"
+    - "Comorbidités cardio-pulmonaires (tolérabilité à l'hypoxie et à l'hypovolémie réduite)"
+
+# source: MD ligne 58-120 (ABCDE)
+examen:
+  general:
+    - "Se présenter + 'Comment vous appelez-vous?' — évalue conscience + perméabilité VAS"
+    - "{s:Immobilisation cervicale systématique} d'emblée (maintien manuel puis {t:collier rigide})"
+    - "Signes vitaux: TA, FC, FR ({r:cible 12-20/min}), SaO₂ ({r:cible >94%}), T°, {t:GCS}"
+    - "Déshabillage complet (respecter intimité) + protection thermique"
+    - "{t:FAST/e-FAST} échographie: péricarde, plèvre, liquide libre abdominal"
+  cible:
+    - |-
+      A — Airway + cervical:
+      • corps étrangers, vomissures, position langue
+      • phonation (parle = VAS perméables)
+      • immobilisation cervicale maintenue en permanence
+    - |-
+      B — Breathing:
+      • inspection: ampliation symétrique, volet costal, ecchymoses
+      • auscultation bilatérale (asymétrie = pneumothorax/hémothorax)
+      • percussion: {s:hypersonorité} (PNO) vs {s:matité} (hémothorax)
+    - |-
+      C — Circulation + hémostase:
+      • pouls radial (qualité, FC), TRC (<2s), couleur cutanée
+      • hémorragie externe visible → compression directe / garrot
+      • 2 VVP gros calibre {r:14-16G} + bilan sang
+      • {t:classification choc ATLS}: I (<15%), II (15-30%), III (30-40%), IV (>40%)
+    - |-
+      D — Disability (neuro):
+      • {t:GCS} 3 composantes (yeux/verbal/moteur, max 15)
+      • pupilles: taille, symétrie, réactivité
+      • motricité et sensibilité 4 membres
+      • glycémie capillaire si troubles conscience
+    - |-
+      E — Exposure + dos:
+      • {t:log-roll} à 4 mains minimum (chef contrôle tête-cou)
+      • palpation rachis (douleur, déformation, hématome)
+      • test bassin: compression douce 1 seule fois [VÉRIFIER: technique exacte — antéro-postérieure + latérale?]
+      • palpation os longs membres, déformation, crépitations
+
+# source: MD ligne 124-148 + pivots haute énergie
+red_flags:
+  - description: "{s:Pneumothorax sous tension} — dyspnée sévère + {s:hypersonorité} unilatérale + déviation trachée + DEM"
+    dx_suspecte: "{p:Pneumothorax sous tension}"
+    action: "Exsufflation aiguille immédiate {r:2e EIC ligne médioclaviculaire} sans attendre RX; puis drainage thoracique {r:5e EIC ligne axillaire antérieure}"
+  - description: "{s:Choc hémorragique} classe III-IV — TAS {r:<90 mmHg} + FC {r:>120/min} + marbrures + oligurie ± {t:FAST+}"
+    dx_suspecte: "{p:Hémorragie massive} (splénique, hépatique, pelvienne, rétropéritonéale)"
+    action: "MTP {r:1:1:1} (CGR:PFC:plaquettes) + {r:acide tranexamique 1 g IV} < 3h post-trauma + chirurgie damage control < 60 min si instabilité [VÉRIFIER: dose ATX selon protocole local — 1g bolus + 1g sur 8h?]"
+  - description: "{s:TC sévère} — {t:GCS <9}, {s:mydriase unilatérale} ou {s:déficit focal} nouveau"
+    dx_suspecte: "{p:Hématome extradural / sous-dural}, {p:Contusion cérébrale}, {p:HTIC}"
+    action: "Intubation + ventilation protectrice (normocapnie), {t:CT cérébral} STAT, neurochirurgie urgente; éviter hypotension (TAS {r:>90 mmHg})"
+  - description: "{s:Douleur dorsale} + {s:élargissement médiastinal} sur RX + instabilité hémodynamique"
+    dx_suspecte: "{p:Rupture aortique thoracique}"
+    action: "{t:Angio-CT thoracique} urgent; contrôle TA (bêtabloquant IV); chirurgie cardiothoracique ou TEVAR en urgence"
+  - description: "{s:Déficit moteur/sensitif} ou {s:douleur cervicale} intense après trauma haute énergie"
+    dx_suspecte: "{p:Lésion médullaire cervicale} (fracture/luxation C-spine)"
+    action: "Maintenir immobilisation stricte (collier + planche), {t:CT C-spine} ± {t:IRM} médullaire, neurochirurgie; ne pas forcer la mobilisation"
+  - description: "{s:Fracture du bassin instable} — douleur pelvienne + instabilité à compression + choc hémorragique"
+    dx_suspecte: "{p:Fracture pelvienne instable} (hématome rétropéritonéal)"
+    action: "Fermeture {r:ceinture pelvienne} (drap ou ceinture commerciale), {t:RX bassin} + {t:CT}, embolisation artérielle ou chirurgie; éviter test bassin répété"
+
+# source: MD ligne 170-180 (tableau DD) + pivots
+dd_top5:
+  - dx: "{p:Choc hémorragique}"
+    indices: "Tachycardie + hypotension + pâleur + {t:FAST+}; source: rate, foie, bassin, rétropéritoine; classe I-IV selon % perte"
+    freq: "fréquent dans trauma haute énergie — principale cause de mort évitable"
+  - dx: "{p:Traumatisme crânien grave}"
+    indices: "{s:GCS <13}, {s:anisocorie}, {s:déficit focal}, {t:CT}: HED/HSD/contusion; HED = urgence neurochirurgicale absolue"
+    freq: "fréquent; 2e cause de mortalité post-AVP"
+  - dx: "{p:Pneumothorax / hémothorax}"
+    indices: "Pneumothorax: dyspnée + {s:hypersonorité} + ↓MV; hémothorax: {s:matité} + choc si massif; {t:e-FAST} confirme"
+    freq: "fréquent trauma thoracique"
+  - dx: "{p:Tamponnade traumatique}"
+    indices: "Triade de Beck: {s:hypotension} + {s:turgescence jugulaire} + {s:bruits cardiaques assourdis}; {t:FAST} péricardique+"
+    freq: "rare mais urgence absolue"
+  - dx: "{p:Fracture rachidienne / lésion médullaire}"
+    indices: "{s:Douleur rachidienne} + {s:déficit moteur/sensitif}; risque aggravation par mobilisation sans précaution; {t:CT C-spine} obligatoire si trauma haute énergie"
+    freq: "fréquent trauma haute énergie — conséquences irréversibles si négligé"
+
+# source: MD ligne 124-148 + 197-201
+pec_initiale:
+  immediate:
+    - "ABCDE simultané: immobilisation cervicale + {r:O₂ haut débit} (masque haute concentration 10-15 L/min) dès la prise en charge"
+    - "Intubation si {t:GCS} {r:≤8} ou détresse respiratoire sévère (FR <8 ou >30/min, SaO₂ <90% sous O₂)"
+    - "Pneumothorax sous tension → exsufflation aiguille 2e EIC LMC {r:immédiate} + drainage thoracique"
+    - |-
+      Choc hémorragique:
+      • remplissage {r:cristalloïdes 20 mL/kg} (max {r:1-2L}) puis switch vers produits sanguins
+      • {r:hypotension permissive} (TAS {r:80-90 mmHg}) si pas de TC associé
+      • MTP {r:1:1:1} + {r:acide tranexamique 1 g IV} si signes de choc < 3h post-trauma
+    - "Fracture bassin instable → {r:ceinture pelvienne} immédiate (drap noué ou ceinture); éviter test bassin répété"
+    - "Protection thermique systématique (couverture chauffante) — prévention triade létale (hypothermie + acidose + coagulopathie)"
+    - "Transfert trauma center niveau 1 si critères Vittel (haute cinétique, instabilité, GCS <14)"
+  orientation:
+    - "Bloc opératoire urgence: instabilité hémodynamique + {t:FAST+} (chirurgie damage control)"
+    - "Neurochirurgie urgente: {t:GCS} <9 + CT avec lésion compressive (HED, HSD avec effet masse)"
+    - "Salle de réveil/USI: polytraumatisme stabilisé nécessitant monitoring continu"
+    - "Body-scan ({t:CT corps entier}) si haute cinétique et état permet transport — gold standard [VÉRIFIER: seuil exact clinique pour body-scan systématique selon protocole CHUV/HUG]"
+
+# source: MD ligne 124-148
+examens_complementaires:
+  - "{t:FAST/e-FAST} échographie: premier examen imagerie — épanchement péricardique, pleural, liquide libre abdominal (disponible au lit)"
+  - "{t:Body-scan CT corps entier}: gold standard trauma haute énergie si hémodynamiquement stable; tête + cou + thorax + abdomen + bassin"
+  - "Labo urgents: {t:groupe RAI} + {t:NFS} + {t:coagulation} (TP, TCA, fibrinogène) + {t:ionogramme} + {t:lactates} + {t:gaz du sang}"
+  - "{t:Troponine}: contusion myocardique (tamponnade, rupture septale)"
+  - "{t:RX thorax + bassin}: si CT non disponible ou état instable; élargissement médiastinal → rupture aortique?"
+  - "{t:ISS} (Injury Severity Score): {r:>15} = grave; {t:RTS} (Revised Trauma Score): {r:<7.84} = grave"
+
+criteres_hospitalisation:
+  - "Tout polytraumatisme haute énergie → hospitalisation systématique (USI ou soins continus)"
+  - "Choc hémorragique classe II-IV"
+  - "{t:GCS} <15 ou lésion CT (HED, HSD, contusion)"
+  - "Pneumothorax, hémothorax, contusion pulmonaire, rupture aortique"
+  - "Fracture pelvienne ou rachidienne instable"
+
+pieges:
+  - "Se focaliser sur la lésion évidente (fracture ouverte membre) et rater l'hémorragie interne ou le TC — toujours compléter l'ABCDE"
+  - "Mobiliser la tête/nuque sans immobilisation préalable — aggravation d'une lésion médullaire possible"
+  - "Sous-estimer un trauma 'bénin' à faible vitesse — lésions internes retardées (hématome rate, contusion myocardique)"
+  - "Répéter le test bassin si fracture pelvienne suspectée — 1 fois suffit, répéter aggrave le saignement"
+  - "Retarder la réanimation pour obtenir tous les examens — 'treat first, image after' si instabilité"
+
+cartes_liees:
+  - SYS-URG
+  - TOOL-GCS
+  - SSP-URG-01

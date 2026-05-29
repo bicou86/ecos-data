@@ -1,0 +1,172 @@
+id: SSP-URG-11
+type: ssp
+title: Urgences abdominales
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Urgences_Abdominales.md
+
+# source: lines 1-8 (description)
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • localisation initiale et migration (FID → appendicite?)
+      • irradiation (lombaire → colique rénale / épaule → irritation diaphragmatique)
+    - |-
+      Onset:
+      • brutal 'en coup de poignard' ({p:perforation}, {p:AAA rompu}, {p:GEU rompue}) ou progressif (inflammation)?
+      • durée depuis début
+    - "Character: colique (intermittente) vs permanente (péritonite, ischémie) — la {s:douleur permanente} est le signe d'alarme"
+    - |-
+      Radiation:
+      • dorsale ({p:AAA}) / épaule gauche (rate/péritoine) / aine ({p:colique rénale})
+    - |-
+      Time / évolution:
+      • aggravation progressive = signe de gravité
+      • douleur calmée puis réapparaissant = perforation avec péritonisation
+    - |-
+      Exacerbating / Relieving:
+      • aggravée par mouvement → péritonite
+      • soulagée par position antalgique → colique / ischémie
+    - "Severity: EVA + retentissement fonctionnel + position antalgique"
+  specifique:
+    - |-
+      Signes associés orientants:
+      • {s:fièvre} → infection/inflammation
+      • {s:vomissements} (précoces si haute, tardifs si basse) → occlusion
+      • {s:arrêt matières + gaz} → occlusion
+      • {s:métrorragies + aménorrhée} → {p:GEU}
+      • {s:ictère + frissons} → {p:angiocholite}
+    - |-
+      Terrain vasculaire:
+      • {e:FA / athérosclérose / valvulopathie} → ischémie mésentérique
+      • {e:> 60 ans + homme fumeur} → {p:AAA}
+    - |-
+      Contexte gynécologique:
+      • {e:femme en âge de procréer} : {t:bHCG} SYSTÉMATIQUE [VÉRIFIER: politique locale bHCG systématique aux urgences]
+      • contraception? dernières règles? DIU?
+    - "Chirurgies abdominales antérieures → brides (cause principale d'occlusion grêle)"
+  atcd:
+    - "ATCD digestifs: ulcère GD, lithiase biliaire, cancer digestif, MICI, chirurgie abdominale"
+    - "ATCD vasculaires: {e:FA}, {e:athérosclérose}, {e:AAA connu}, angioplasties"
+    - |-
+      Médicaments:
+      • {r:AINS / corticoïdes} → ulcère perforé
+      • anticoagulants (risque hémorragique)
+      • opioïdes (iléus paralytique)
+    - "Tabac / alcool / pancréatite antérieure → pancréatite aiguë"
+
+# source: lines 271-276 (critères gravité) + lines 251-256 (ABCDE)
+red_flags:
+  - description: "{s:Défense ou contracture abdominale généralisée} ('ventre de bois') ± silence auscultatoire ± choc"
+    dx_suspecte: "{p:Péritonite généralisée} (perforation viscérale: ulcère, sigmoïde, appendice)"
+    action: "{t:CT abdo-pelvien} STAT + antibiotiques IV large spectre ({r:pip-tazo 4,5 g IV} ou {r:C3G + métronidazole}) + chirurgie urgente (damage control) [VÉRIFIER: protocole ATB local HUG/CHUV péritonite]"
+  - description: "{s:Douleur abdominale/dorsale déchirante} + {s:masse pulsatile} + {s:hypotension} chez {e:> 60 ans}"
+    dx_suspecte: "{p:Anévrisme aorte abdominale (AAA) rompu}"
+    action: "{t:Écho FAST} si instable / {t:CT angio-aorte} si stable → bloc opératoire IMMÉDIAT ({r:hypotension permissive PAS 80-90 mmHg}) + cross-match + 2 VVP gros calibre"
+  - description: "{s:Douleur abdominale disproportionnée à l'examen} + {e:terrain emboligène (FA, IDM)} + {t:lactates élevés}"
+    dx_suspecte: "{p:Ischémie mésentérique aiguë}"
+    action: "{t:Angio-CT mésentérique} URGENT + anticoagulation IV ({r:héparine non fractionnée}) + revascularisation chirurgicale/endovasculaire [VÉRIFIER: seuil lactates déclenchant angio-CT urgent]"
+  - description: "{e:Femme en âge de procréer} + {s:douleur FI} + {s:métrorragies} + {t:bHCG positif} + {s:instabilité hémodynamique}"
+    dx_suspecte: "{p:Grossesse extra-utérine (GEU) rompue}"
+    action: "{t:Écho pelvienne} STAT + gynéco urgence + transfusion si choc → chirurgie en urgence"
+  - description: "{s:Douleur abdominale permanente} (vs. colique) + {s:arrêt matières/gaz} + {s:fièvre} + {t:lactates élevés/acidose}"
+    dx_suspecte: "{p:Occlusion intestinale avec ischémie/strangulation} (hernie étranglée, volvulus)"
+    action: "{t:CT abdo-pelvien} avec contraste IV STAT + chirurgie urgente si signes d'ischémie (pas d'attente du traitement médical)"
+
+# source: lines 249-276 (approche systématique + examen)
+examen:
+  general:
+    - "Signes vitaux COMPLETS: TA (les deux bras si suspicion {p:AAA}), FC, T°, FR, SaO2, glycémie capillaire"
+    - "{t:Score de Glasgow} si altération de conscience; {s:agitation} = signe de douleur intense ou choc"
+    - "Inspection générale: pâleur (hémorragie), ictère (biliaire), facies de souffrance, position antalgique"
+    - "{t:Lactates} artériels si instabilité ou suspicion ischémie [VÉRIFIER: seuil lactates ≥ 2 mmol/L vs ≥ 4 mmol/L pour définir choc]"
+  cible:
+    - |-
+      Inspection abdominale:
+      • cicatrices (brides post-op)
+      • hernies (inguinale, ombilicale, cicatricielle)
+      • distension (occlusion)
+      • {s:ventre de bois} = contracture généralisée = péritonite
+    - |-
+      Auscultation (AVANT palpation):
+      • {s:silence auscultatoire} → péritonite ou iléus avancé
+      • bruits métalliques 'en cascade' → occlusion mécanique
+    - |-
+      Percussion:
+      • {s:disparition matité pré-hépatique} → pneumopéritoine (perforation)
+      • {s:tympanisme} diffus → distension gazeuse
+    - |-
+      Palpation systématique 9 quadrants:
+      • {s:Blumberg (rebond)} → péritonite
+      • {s:Murphy} → cholécystite aiguë
+      • {s:McBurney / Rovsing / psoas} → appendicite
+      • {s:masse pulsatile} → {p:AAA}
+    - "Toucher rectal systématique: sang (ischémie/cancer), douleur en cul-de-sac ({p:péritonite pelvienne}), fécalome"
+    - "Examen gynécologique si femme: douleur annexielle, Douglas, col utérin"
+
+# source: lines 258-270 (examens urgents)
+examens_complementaires:
+  - "{t:Bilan biologique urgence}: NFS + CRP + PCT + lactates + lipase + bilan hépatique + ionogramme + créat + groupe RAI + crase + {t:bHCG si femme}"
+  - "{t:Gaz artériels}: acidose métabolique ({e:pH < 7,35} + {e:lactates > 2 mmol/L}) → ischémie mésentérique jusqu'à preuve contraire"
+  - "{t:CT abdo-pelvien avec contraste IV}: gold standard si hémodynamique stable — éliminer toutes urgences chirurgicales"
+  - "{t:Écho FAST abdominale}: 1ère ligne si instabilité (hémopéritoine, {p:AAA}, GEU) — résultat immédiat au chevet"
+  - "{t:ASP debout + thorax F}: pneumopéritoine (perforation), niveaux hydro-aériques (occlusion) — si CT non disponible immédiatement"
+  - "{t:Angio-CT mésentérique}: suspicion ischémie mésentérique aiguë ou {p:AAA} rompu stable"
+
+# source: lines 271-276 (critères de gravité)
+criteres_hospitalisation:
+  - "Tout red flag avéré ({p:péritonite}, {p:AAA rompu}, {p:ischémie mésentérique}, {p:GEU rompue}, {p:occlusion + ischémie})"
+  - "{s:Instabilité hémodynamique} (PAS < 90 mmHg, FC > 120) ou choc"
+  - "{t:Lactates} élevés ou acidose métabolique (ischémie tissulaire)"
+  - "SIRS / sepsis (T° > 38,5 ou < 36, FC > 90, FR > 20, GB > 12 ou < 4 G/L)"
+  - "Douleur abdominale non contrôlée après analgésie ou diagnostic incertain nécessitant surveillance"
+
+# source: lines 9-169 (urgences chirurgicales + médicales)
+dd_top5:
+  - dx: "{p:Péritonite / perforation viscérale}"
+    indices: "Douleur brutale 'coup de poignard', {s:contracture abdominale}, ventre de bois, silence auscultatoire, {s:pneumopéritoine} sur ASP; état septique"
+    freq: "urgence chirurgicale fréquente aux urgences"
+  - dx: "{p:Occlusion intestinale aiguë}"
+    indices: "Douleurs coliques + {s:arrêt matières/gaz} + {s:distension} + vomissements; {t:NHA} sur ASP; brides (60% grêle), hernie étranglée, cancer côlon"
+    freq: "cause fréquente d'admission chirurgicale urgente"
+  - dx: "{p:Ischémie mésentérique aiguë}"
+    indices: "{s:Douleur disproportionnée} à l'examen physique + {e:terrain FA/athérome} + {t:lactates élevés} + acidose; examen initial faussement rassurant = piège majeur"
+    freq: "rare mais mortalité > 60 % si retard diagnostique"
+  - dx: "{p:AAA rompu}"
+    indices: "{e:> 60 ans + homme fumeur}: douleur abdo/dorsale déchirante + {s:masse pulsatile} + {s:hypotension}; triade classique souvent incomplète"
+    freq: "urgence chirurgicale vasculaire, mortalité 50-80 %"
+  - dx: "{p:GEU rompue}"
+    indices: "{e:Femme âge procréer}: douleur FI + {s:métrorragies} + {t:bHCG positif} + {s:hémopéritoine} ± choc hémorragique; parfois présentation atypique"
+    freq: "urgence gynécologique, 1ère cause de mortalité maternelle T1"
+
+# source: lines 278-300 (pièges diagnostiques)
+pec_initiale:
+  immediate:
+    - "ABCDE d'abord: {r:O2}, 2 VVP gros calibre si instabilité, {r:remplissage NaCl 0,9 % 500 mL} si choc + prélèvements en simultané"
+    - "Analgésie PRÉCOCE ({r:morphine 0,05 mg/kg IV titré} ou {r:kétamine faible dose}) — NE PAS retarder le traitement de la douleur en attendant le diagnostic"
+    - "Péritonite/sepsis abdominal: {r:antibiotiques IV large spectre} dans les {r:< 1h}: {r:pipéracilline-tazobactam 4,5 g IV / 6h} + appel chirurgien immédiat"
+    - "{p:AAA rompu}: {r:hypotension permissive} (cible PAS 80-90 mmHg), cross-match, bloc opératoire — NE PAS dépasser 90 min de la porte au bloc"
+    - "Suspicion {p:ischémie mésentérique}: anticoagulation IV immédiate + angio-CT STAT + appel chirurgien vasculaire"
+    - "{p:GEU rompue}: remplissage + transfusion O- si choc + appel gynéco urgences — pas d'attente biologie complète"
+  orientation:
+    - "Bloc opératoire immédiat: {p:AAA rompu}, {p:GEU rompue} avec choc, {p:péritonite généralisée}"
+    - "USI/réanimation: sepsis abdominal sévère, défaillance d'organe, choc non résolu"
+    - "Urgences chirurgicales < 6h: {p:occlusion} avec strangulation, {p:ischémie mésentérique}"
+    - "Chirurgie < 24h: appendicite non compliquée, cholécystite aiguë lithiasique"
+    - "Domicile avec suivi: colique hépatique/rénale typique simple, diverticulite Hinchey I sans complication"
+
+pieges:
+  - "Banaliser une {s:douleur abdominale disproportionnée} à l'examen clinique — chez le patient {e:âgé} ou {e:immunodéprimé} c'est l'{p:ischémie mésentérique} jusqu'à preuve contraire (examen peut être faussement rassurant)"
+  - "Oublier le {t:bHCG} chez toute femme en âge de procréer ({p:GEU} peut mimer n'importe quelle douleur abdomino-pelvienne)"
+  - "Méconnaître les causes extra-abdominales: {p:IDM inférieur} (épigastralgie), {p:pneumonie basale} (douleur HCD/HCG), {p:acidocétose diabétique} (pseudo-abdomen aigu)"
+  - "Retarder le scanner par crainte de l'irradiation — en urgence abdominale, le {t:CT abdo-pelvien} est l'examen prioritaire; le retard diagnostique tue"
+  - "Soulager la douleur avant d'appeler le chirurgien — au contraire, {r:analgésie précoce} n'altère pas le diagnostic et est recommandée"
+
+cartes_liees:
+  - SYS-GAS
+  - SSP-URG-01
+  - SSP-GYN-01

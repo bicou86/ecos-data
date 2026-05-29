@@ -1,0 +1,172 @@
+id: SSP-URG-07
+type: ssp
+title: Intoxications aiguës
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Intoxications.md
+
+# source: lines 94-122 (anamnèse toxicologique 5W+H)
+anamnese:
+  socrates:
+    - |-
+      {s:QUOI}: nom exact du toxique (conserver emballage/boîte)
+      • médicament, produit ménager, drogue, champignon, plante?
+      • DCI ou marque commerciale?
+    - |-
+      {s:COMBIEN}: quantité ingérée/exposée
+      • nombre de comprimés × dosage unitaire = dose totale (mg/kg)
+      • comparer au seuil toxique connu
+    - |-
+      {s:QUAND}: heure précise de l'exposition (délai crucial)
+      • < 1h → charbon activé encore possible
+      • < 8h → N-acétylcystéine efficace à ~100% (paracétamol)
+    - |-
+      {s:COMMENT}: voie d'exposition
+      • orale / cutanée / inhalée / IV / oculaire?
+      • absorption et cinétique différentes selon la voie
+    - "{s:POURQUOI}: intentionnel (TS, récréatif) vs accidentel (enfant, confusion, erreur thérapeutique)?"
+    - "{s:HOW}: comment le patient va-t-il maintenant? symptômes depuis ingestion?"
+  specifique:
+    - "Co-intoxications: alcool (très fréquent), autres médicaments — doser systématiquement"
+    - |-
+      Intentionnalité et contexte:
+      • TS: dose massive, polytoxiques, lettre, contexte dépressif
+      • Récréatif: surdosage drogues, habitudes, tolérance
+      • Accidentel: enfant < 5 ans, erreur dosage, confusion
+    - "Mesures prises avant arrivée: vomissements (contre-indiqué!), dilution, lait"
+    - |-
+      Évaluation clinique immédiate (avant examen):
+      • {s:conscience}: GCS — agitation ou somnolence?
+      • {s:respiration}: dyspnée, bradypnée, SpO₂?
+      • {s:circulation}: FC, PA, marbrures, sueurs?
+      • {s:convulsions} survenues?
+  atcd:
+    - "Psychiatriques: dépression, TS antérieures, hospitalisations psychiatriques"
+    - "Médicaux: insuffisance hépatique ou rénale (modifient métabolisme/élimination)"
+    - "Médicamenteux habituels: interactions possibles, polymédication"
+    - "Toxicologiques: habitudes, dépendances, tolérance aux opiacés"
+
+# source: lines 406-412 + pivots (red flags opérationnels)
+red_flags:
+  - description: "{s:Myosis + bradypnée} (FR < 12/min) + altération conscience"
+    dx_suspecte: "{p:Intoxication opiacée}"
+    action: "{r:Naloxone 0.4-2 mg IV} titré; répéter q2-3 min; perfusion continue si opiacé LP"
+  - description: "{s:Paracétamol ≥ 150 mg/kg} (ou ≥ 7.5 g adulte) ou zone toxique au nomogramme Rumack-Matthew à H4"
+    dx_suspecte: "{p:Hépatotoxicité au paracétamol}"
+    action: "{r:N-acétylcystéine IV}: 150 mg/kg/1h → 50 mg/kg/4h → 100 mg/kg/16h; démarrer sans attendre si > 8h [VÉRIFIER: protocole NAC exact CHUV/HUG — 3 sachets vs 2 sachets]"
+  - description: "{s:Céphalées + nausées + confusion} dans contexte domestique (chauffage, incendie) ± cyanose chocolatée"
+    dx_suspecte: "{p:Intoxication au CO}"
+    action: "{r:O₂ 100%} au masque haute concentration immédiat; {t:HbCO}: si > 25% (ou grossesse/troubles neuro) → {r:OHB} [VÉRIFIER: seuil HbCO exact pour OHB selon protocole suisse]"
+  - description: "{s:QRS large > 100 ms} à l'ECG post-ingestion"
+    dx_suspecte: "{p:Intoxication aux antidépresseurs tricycliques} (TCA) ou anti-arythmiques"
+    action: "{r:Bicarbonate de sodium 1-2 mEq/kg IV}; monitoring ECG continu; éviter antiarythmiques de classe Ia/Ic"
+  - description: "{s:SLUDGE + myosis + bradycardie + fasciculations} après exposition pesticides ou milieu agricole"
+    dx_suspecte: "{p:Intoxication aux organophosphorés/carbamates} (syndrome cholinergique)"
+    action: "{r:Atropine 2 mg IV} q5 min jusqu'à tarissement sécrétions + {r:pralidoxime 1-2 g IV} (si organophosphorés); EPI soignants obligatoire"
+  - description: "{s:Acidose métabolique} (pH < 7.1) + {s:trou anionique élevé} ± cristaux oxalate urinaires ± odeur amande amère"
+    dx_suspecte: "{p:Méthanol / éthylène glycol / cyanure}"
+    action: "{r:Fomépizole IV} (méthanol/EG) + hémodialyse urgente si pH < 7.1; {r:hydroxocobalamine 5 g IV} (cyanure) [VÉRIFIER: dose fomépizole et rythme dialyse selon gravité]"
+
+# source: lines 134-179 (toxidromes) + 125-133 (constantes)
+examen:
+  general:
+    - "Signes vitaux COMPLETS: {t:TA}, {t:FC}, {t:FR}, {t:T°}, {t:SpO₂}, {t:GCS}, {t:glycémie capillaire} SYSTÉMATIQUE"
+    - "Pupilles: {s:myosis} (opiacés, cholinergique) vs {s:mydriase} (anticholinergique, sympathomimétique)"
+    - "{t:ECG} immédiat: QRS > 100 ms, QT long, troubles du rythme"
+    - "Traces d'injection IV, brûlures cutanées/buccales (caustiques), odeurs particulières"
+  cible:
+    - |-
+      {p:Toxidrome cholinergique} (organophosphorés, carbamates):
+      • {s:SLUDGE}: Salivation · Larmoiement · Urination · Défécation · GI · Emesis
+      • {s:myosis} punctiforme · bradycardie · hypotension · fasciculations · encombrement bronchique
+    - |-
+      {p:Toxidrome anticholinergique} (TCA, antihistaminiques, atropine):
+      • "hot as hare" {s:hyperthermie} · "dry as bone" {s:sécheresse muqueuses} · "red as beet" {s:érythème}
+      • "mad as hatter" {s:agitation/confusion} · {s:mydriase} · {s:rétention urinaire} · tachycardie
+    - |-
+      {p:Toxidrome sympathomimétique} (cocaïne, amphétamines):
+      • {s:mydriase} · {s:tachycardie} · {s:HTA} · {s:hyperthermie} · {s:agitation/psychose} · convulsions
+    - |-
+      {p:Toxidrome opioïde} (morphine, héroïne, fentanyl):
+      • Triade: {s:myosis} + {s:bradypnée} (FR < 12) + {s:coma} · hypothermie · bradycardie
+    - |-
+      {p:Toxidrome sérotoninergique} (ISRS, tramadol, IMAO):
+      • {s:hyperthermie} > 38.5°C · {s:clonus/hyperréflexie} · {s:rigidité musculaire} · agitation · tachycardie
+    - "Examen systématique: cardiovasculaire (choc?), pulmonaire (aspiration?), abdominal (défense?)"
+
+# source: lines 186-202 (examens complémentaires)
+examens_complementaires:
+  - "{t:Biologie urgente}: NFS, iono, urée, créat, glycémie, bilan hépatique, coagulation"
+  - "{t:Gaz artériels}: pH, lactates, trou anionique — acidose + TA élevé → méthanol/salicylés/cyanure"
+  - "{t:ECG 12 dérivations}: QRS (TCA), QT long (médicaments), troubles rythme"
+  - "{t:Paracétamolémie à H4} SYSTÉMATIQUE (même si non suspecté); HbCO si contexte CO; alcoolémie"
+  - "{t:Nomogramme Rumack-Matthew}: paracétamolémie H4 → zone toxique → NAC obligatoire"
+  - "Dosages ciblés: lithiémie si bipolaire (> 2.5 mEq/L → dialyse), digoxinémie, salicylémie (> 100 mg/dL → dialyse)"
+
+# source: lines 209-282 (PEC) + pivots (antidotes)
+pec_initiale:
+  immediate:
+    - "ABCDE d'abord: airway, ventilation, accès veineux × 2, monitoring continu (scope + SpO₂ + PA)"
+    - "{r:Glycémie capillaire} immédiate → glucose 30% IV si hypoglycémie (hypoglycémiants, alcool)"
+    - "{r:Thiamine 100 mg IV} avant tout apport glucosé si suspicion OH chronique (prévention Wernicke)"
+    - |-
+      Décontamination digestive si indiquée:
+      • {r:Charbon activé 1 g/kg} (max 50 g dans 250 mL eau) si < 1h post-ingestion
+      • CI absolues: troubles de conscience, caustiques, hydrocarbures, métaux
+      • Lavage gastrique: EXCEPTIONNEL (< 1h, toxique très létal, airway protégée)
+    - |-
+      Antidotes ciblés selon toxidrome:
+      • {r:Naloxone 0.4-2 mg IV} → opiacés (FR < 12 ou GCS chute)
+      • {r:Flumazénil 0.2 mg IV} → BZD isolées [CI: épilepsie, TCA co-ingérés, dépendance BZD]
+      • {r:N-acétylcystéine IV} → paracétamol (zone toxique nomogramme)
+      • {r:Atropine + pralidoxime} → organophosphorés
+      • {r:Hydroxocobalamine 5 g IV} → cyanure
+      • {r:O₂ hyperbare} → CO sévère (HbCO > 25% ou grossesse/neuro)
+    - "Troubles CV: QRS > 100 ms → {r:NaHCO₃ 1-2 mEq/kg IV}; torsades → {r:MgSO₄ 2 g IV}; choc → remplissage + noradrénaline"
+    - "Contacter {r:Tox Info Suisse 145} (24h/24) pour conseil toxicologique et dosages"
+    - "Évaluation psychiatrique OBLIGATOIRE si TS (avant sortie)"
+  orientation:
+    - "Appel 144 / réanimation: GCS ≤ 8, FR < 10, choc, convulsions réfractaires, toxique très létal"
+    - "Hospitalisation USC/soins continus: instabilité hémodynamique, antidote IV requis, dialyse"
+    - "Urgences (observation ≥ 6h): paracétamol > 150 mg/kg, toxique à risque retardé, doute quantité"
+    - "Domicile possible: substance non toxique, patient asymptomatique à H2, entourage fiable, accord centre antipoison"
+
+# source: lines 295-327 (critères gravité)
+criteres_hospitalisation:
+  - "{s:GCS} ≤ 12 ou instabilité hémodynamique (FC > 120, PA < 90/60, FR < 10 ou > 30)"
+  - "Antidote IV nécessaire ou hémodialyse (lithium, méthanol, éthylène glycol, salicylés)"
+  - "{p:Paracétamol} zone toxique au nomogramme ou ≥ 150 mg/kg + {t:paracétamolémie H4} requise"
+  - "Tentative de suicide ou contexte psychiatrique grave (risque récidive)"
+  - "Toxique à cinétique retardée: sulfamides hypoglycémiants, digitaliques, acétonitrite [VÉRIFIER: liste complète toxiques effet retard selon guidelines suisses]"
+
+# source: lines 374-380 (pièges ECOS)
+pieges:
+  - "Administrer {r:flumazénil} si épilepsie connue ou TCA co-ingérés → risque convulsions irréversibles"
+  - "Oublier la {t:paracétamolémie à H4} car le patient semble asymptomatique (phase silencieuse = fausse sécurité)"
+  - "Faire vomir: JAMAIS — aspiration pulmonaire ± re-exposition aux caustiques/hydrocarbures"
+  - "Sous-estimer les co-intoxications alcool: masque le tableau clinique et modifie le métabolisme"
+  - "Retarder la {r:N-acétylcystéine}: efficacité optimale < 8h; au-delà → hépatotoxicité sévère irréversible"
+
+dd_top5:
+  - dx: "{p:Intoxication au paracétamol}"
+    indices: "Phase 1: asymptomatique ou nausées; phase 2: cytolyse hépatique H24-72; seuil ≥ 150 mg/kg; nomogramme Rumack-Matthew à H4 décisionnel"
+    freq: "très fréquent — 1ère cause d'intoxication médicamenteuse volontaire (adulte)"
+  - dx: "{p:Intoxication aux opiacés}"
+    indices: "Triade myosis + bradypnée (FR < 12) + coma; contexte surdosage iatrogène ou TS; traces IV; réponse naloxone diagnostique"
+    freq: "fréquent — en hausse (prescriptions morphine, fentanyl, méthadone)"
+  - dx: "{p:Intoxication aux BZD / alcool} (syndrome sédatif-hypnotique)"
+    indices: "Glasgow chute progressive, bradypnée, sans mydriase; alcoolémie élevée; souvent polyintoxication TS; hypoglycémie associée"
+    freq: "très fréquent — souvent co-intoxication"
+  - dx: "{p:Intoxication au CO}"
+    indices: "Céphalées + nausées + confusion; contexte chauffage/incendie; cyanose chocolatée; {t:HbCO} élevé; plusieurs cas dans même foyer"
+    freq: "fréquent hiver — souvent méconnu (tableau trompeur)"
+  - dx: "{p:Intoxication méthanol / éthylène glycol}"
+    indices: "Acidose métabolique + trou anionique élevé + trou osmolaire; cristaux oxalate urinaires (EG); trouble visuel (méthanol); délai 12-24h après ingestion"
+    freq: "rare mais létal — urgence hémodialyse"
+
+cartes_liees:
+  - SSP-URG-01
+  - SSP-NEU-05

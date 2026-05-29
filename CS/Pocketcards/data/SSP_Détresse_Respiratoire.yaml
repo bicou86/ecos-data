@@ -1,0 +1,179 @@
+id: SSP-URG-05
+type: ssp
+title: Détresse respiratoire aiguë
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Détresse_Respiratoire.md
+
+# source: line 1-105 (MD source), enrichi par pivots cliniques de la tâche
+
+anamnese:
+  socrates:
+    - |-
+      Onset:
+      • début brutal (< 1 min) ou progressif?
+      • heure exacte de survenue?
+      • premier épisode ou récidive?
+    - |-
+      Character:
+      • dyspnée de repos / d'effort?
+      • orthopnée ({p:OAP}: ne peut s'allonger)?
+      • sensation d'oppression / sifflement / blocage?
+    - |-
+      Radiation / contexte:
+      • {s:douleur pleurale} unilatérale brutale ({p:pneumothorax}, {p:EP})?
+      • précordialgie associée?
+      • traumatisme thoracique?
+    - |-
+      Time / évolution:
+      • aggravation rapide ou stable depuis X heures?
+      • amélioration à l'érection / pire en décubitus?
+    - |-
+      Exacerbating / Relieving:
+      • meilleur assis en trépied ({e:BPCO} sévère)?
+      • calmé par bronchodilatateurs?
+      • aggravé à l'effort / par position?
+    - |-
+      Severity:
+      • {s:SpO2} actuelle?
+      • parle-t-il en phrases complètes?
+      • {r:peak flow} mesuré ({p:asthme})?
+  specifique:
+    - |-
+      Signes associés:
+      • {s:fièvre} / frissons / toux productive (pneumonie)?
+      • {s:hémoptysie} / œdème membre inférieur ({p:EP})?
+      • {s:expectorations mousseuses rosées} ({p:OAP})?
+      • {s:stridor} (obstruction haute)?
+    - |-
+      Circonstances:
+      • FDR thromboemboliques (immobilisation, chirurgie récente, cancer, contraception)?
+      • exposition allergène / piqûre insecte ({p:anaphylaxie})?
+      • ingestion corps étranger (enfant / adulte)?
+    - "Vaccination anti-grippale / pneumococcique?"
+    - "Voyages récents (TB, parasitoses, zone épidémique)?"
+  atcd:
+    - "ATCD cardiaques: insuffisance cardiaque, FA, valvulopathie, coronaropathie"
+    - "ATCD pulmonaires: asthme, BPCO, mucoviscidose, pneumothorax antérieur"
+    - "Traitements actuels: diurétiques, β-bloquants, IEC ({s:toux sèche}), anticoagulants, immunosuppresseurs"
+    - "Tabac: paquets-années; profession (exposition poussières, amiante)"
+    - "Immunodépression: VIH, corticothérapie chronique, chimiothérapie"
+
+red_flags:
+  - description: "{s:Déviation trachéale} + {s:distension jugulaire} + {s:hypersonorité unilatérale} + absence de murmure vésiculaire"
+    dx_suspecte: "{p:Pneumothorax sous tension}"
+    action: "Exsufflation à l'aiguille IMMÉDIATE {r:2e EIC ligne médio-claviculaire}; puis drain thoracique"
+  - description: "{s:Râles crépitants bilatéraux} + {s:SpO2 < 90 %} + {s:expectoration mousseuse} ± galop B3 chez insuffisant cardiaque"
+    dx_suspecte: "{p:OAP cardiogénique massif}"
+    action: "{r:O2 haut débit (15 L/min)} + {r:furosémide 40-80 mg IV} [VÉRIFIER: dose initiale selon fonction rénale] + dérivés nitrés IV + CPAP/BIPAP si SpO2 < 90% sous O2"
+  - description: "{s:TAS < 90 mmHg} + {s:dilatation VD à l'écho} + {s:signes cœur pulmonaire aigu} (S1Q3T3 ECG) + contexte FDR thromboemboliques"
+    dx_suspecte: "{p:Embolie pulmonaire massive avec choc}"
+    action: "Fibrinolyse {r:alteplase 100 mg IV sur 2 h} [VÉRIFIER: dose et CI absolues de la fibrinolyse] si pas de CI; anticoagulation héparine IV; réa/USI"
+  - description: "{s:Peak flow < 33 %} valeur théorique + {s:impossibilité de parler en phrases} + {s:FR > 30/min} + {s:SpO2 < 92 %} sous air ambiant"
+    dx_suspecte: "{p:Asthme aigu grave} / état de mal asthmatique"
+    action: "{r:β2-agonistes nébulisés en continu (salbutamol 5 mg)} + {r:ipratropium 0,5 mg nébulisé} + {r:méthylprednisolone 1 mg/kg IV} + {r:sulfate de Mg 2 g IV} [VÉRIFIER: dose sulfate Mg selon protocole local]; intubation si non-réponse"
+  - description: "{s:Cyanose} + {s:hypoxémie réfractaire à l'O2} (PaO2/FiO2 < 300) + {s:infiltrats bilatéraux} RX non liés à une surcharge cardiaque"
+    dx_suspecte: "{p:SDRA} (syndrome de détresse respiratoire aiguë)"
+    action: "Ventilation protectrice {r:Vt 6 ml/kg poids idéal} [VÉRIFIER: seuil PaO2/FiO2 pour critères Berlin SDRA] + {r:PEP ≥ 5 cmH2O}; décubitus ventral si PaO2/FiO2 < 150; USI"
+  - description: "{s:Stridor inspiratoire} + {s:voix étouffée} + {s:bavage} + {s:dysphagie} ± {e:enfant non vacciné} ou adulte immunodéprimé"
+    dx_suspecte: "{p:Épiglottite} / obstruction des voies aériennes supérieures"
+    action: "NE PAS allonger, NE PAS examiner la gorge; appel {r:anesthésiste STAT} pour sécurisation voies aériennes; bloc opératoire si dégradation rapide"
+
+examen:
+  general:
+    - "Signes vitaux COMPLETS: {s:FR}, {s:SpO2}, {s:TA} (asymétrie?), {s:FC}, {s:T°}, {t:GCS}"
+    - "Position spontanée: orthopnée ({p:OAP}), trépied ({e:BPCO}), tripode, difficulté à rester assis?"
+    - "Coloration: {s:cyanose centrale} (langue), pâleur, sueurs profuses"
+    - "{s:Tirage} inter-/sous-costal, sus-claviculaire; {s:balancement thoraco-abdominal} (épuisement)"
+    - "Auscultation cardiaque: galop B3, souffle valvulaire, tachycardie?"
+  cible:
+    - |-
+      Inspection thoracique:
+      • symétrie des mouvements (asymétrie → pneumothorax, épanchement)?
+      • distension thoracique (BPCO)?
+      • cicatrices chirurgicales?
+    - |-
+      Percussion:
+      • {s:hypersonorité} → pneumothorax
+      • {s:matité} → épanchement pleural / consolidation
+    - |-
+      Auscultation pulmonaire:
+      • {s:crépitants bilatéraux} → OAP / pneumonie
+      • {s:sibilants expiratoires} → asthme / BPCO
+      • {s:silence auscultatoire} unilatéral → pneumothorax / épanchement massif
+      • {s:frottement pleural} → pleurésie / EP
+    - |-
+      Signes cœur droit ({p:EP}):
+      • {s:turgescence jugulaire}
+      • {s:reflux hépato-jugulaire}
+      • {s:douleur hypocondre droit}
+      • {s:œdèmes membres inférieurs}
+    - "Neurologique: agitation, confusion, somnolence = signe d'hypoxémie/hypercapnie sévère → intubation imminente"
+    - "{t:Écho-cœur} ciblée POCUS: fonction VG/VD, épanchement péricardique, ligne B pulmonaires ({p:OAP})"
+
+dd_top5:
+  - dx: "{p:OAP cardiogénique}"
+    indices: "{s:Orthopnée}, {s:expectorations mousseuses rosées}, {s:crépitants bilatéraux}, tachycardie, ± galop B3; ATCD IC, FA; {t:BNP} élevé; RX: cardiomégalie, redistribution vasculaire"
+    freq: "fréquent aux urgences (25-30% des dyspnées aiguës)"
+  - dx: "{p:Crise d'asthme sévère}"
+    indices: "{s:Sibilants expiratoires}, {s:expiration prolongée}, ATCD asthme, {t:peak flow effondré} (< 50% théorique); aggravé par allergènes, AINS, β-bloquants; SOB nocturne"
+    freq: "fréquent (15-20% des dyspnées aiguës)"
+  - dx: "{p:Embolie pulmonaire}"
+    indices: "FDR thromboemboliques, {s:douleur pleurale brutale}, {s:hémoptysie}, {s:tachycardie sinusale}; {t:D-dimères} ↑; {t:score Wells} / {t:PERC}; ECG: S1Q3T3, BBD"
+    freq: "fréquent à ne pas manquer (mortalité EP massive 30%)"
+  - dx: "{p:Pneumonie / SDRA}"
+    indices: "{s:Fièvre}, {s:toux productive}, {s:foyer auscultatoire} (crépitants localisés, souffle tubaire); {t:RX}: opacité alvéolaire; {t:CRP} ↑, {s:hypoxémie réfractaire} si SDRA"
+    freq: "fréquent (15% des dyspnées aiguës admises)"
+  - dx: "{p:Pneumothorax}"
+    indices: "Début brutal, {s:douleur pleurale unilatérale}, {s:hypersonorité}, absence de MV homolatéral; jeune homme longiligne (spontané) ou BPCO (secondaire); {t:RX}: ligne de décollement"
+    freq: "moins fréquent mais urgence absolue si sous tension"
+
+pec_initiale:
+  immediate:
+    - "ABCDE d'abord: Position demi-assise; {r:O2} d'emblée si {s:SpO2 < 94%} (objectif 94-98% ou 88-92% si BPCO)"
+    - "Voie veineuse périphérique, monitoring continu (SpO2, FC, TA, ECG, FR), scope"
+    - |-
+      Selon étiologie identifiée:
+      • {p:OAP}: {r:furosémide 40 mg IV} + dérivés nitrés IV + CPAP/BIPAP si SpO2 < 90%
+      • {p:Asthme}: {r:salbutamol nébulisé 5 mg} + {r:ipratropium 0,5 mg} + {r:méthylprednisolone IV}
+      • {p:EP}: anticoagulation {r:héparine IV} immédiate; fibrinolyse si état de choc
+      • {p:Pneumothorax}: exsufflation 2e EIC LMC si sous tension; drain si > 2 cm à RX
+      • {p:Pneumonie}: {r:antibiotiques empiriques selon gravité} + O2
+    - "Critères d'intubation: {s:épuisement respiratoire}, {t:GCS < 8}, {s:hypercapnie progressive} (pCO2 > 60 mmHg), non-réponse à VNI"
+    - "VNI (CPAP/BIPAP): {p:OAP}, {p:BPCO} avec acidose pH < 7,35; {r:CPAP 5-10 cmH2O}; monitoring rapproché"
+  orientation:
+    - "USI/réanimation: intubation, pneumothorax sous tension, EP avec choc, SDRA, OAP massif"
+    - "Soins intensifs intermédiaires: VNI, asthme non répondant, pneumonie hypoxémiante"
+    - "Urgences (observation): premier épisode répondant au traitement, décompensation BPCO légère-modérée"
+    - "Consignes de retour: aggravation dyspnée, SpO2 < 92%, impossibilité de parler, confusion"
+
+examens_complementaires:
+  - "{t:Gaz artériels} (ABG): pO2, pCO2, pH, lactates — indispensable pour évaluer gravité et type (hypoxémique vs hypercapnique)"
+  - "{t:RX thorax}: infiltrats, cardiomégalie, épanchement, pneumothorax — réaliser debout si possible"
+  - "{t:ECG 12 dérivations}: S1Q3T3 ({p:EP}), BBD aigu, FA, ischémie déclenchante"
+  - "{t:NFS + CRP + D-dimères + BNP/NT-proBNP + troponines}: orientation étiologique ciblée"
+  - "{t:Angio-CT thoracique}: suspicion {p:EP} (protocole EP); CT haute résolution si {p:SDRA} / interstitiel"
+  - "{t:Écho-cœur POCUS} ciblée: fonction VG/VD, épanchement, ligne B — réalisable au lit en < 5 min"
+
+criteres_hospitalisation:
+  - "Tout red flag avéré (pneumothorax sous tension, EP avec choc, OAP massif, état de mal asthmatique, SDRA)"
+  - "{s:SpO2 < 90%} sous O2 ou {s:FR > 30/min} persistant après traitement initial"
+  - "Trouble de conscience ({t:GCS < 15}) ou épuisement respiratoire"
+  - "Hypercapnie (pCO2 > 45 mmHg) avec acidose pH < 7,35"
+  - "Non-réponse au traitement initial en urgences après 1 heure"
+
+pieges:
+  - "Normaliser la SpO2 à 100% chez le {e:BPCO}: objectif 88-92% — hyperoxie supprime le drive hypoxique et aggrave l'hypercapnie"
+  - "Oublier le {p:pneumothorax sous tension} devant une détresse aiguë unilatérale — exsuffler AVANT la RX si instabilité hémodynamique"
+  - "Confondre {p:asthme aigu grave} et silence auscultatoire: l'absence de sibilants = thorax muet = situation critique, pas une amélioration"
+  - "Retarder la fibrinolyse dans l'{p:EP} massive avec choc en attendant l'angio-CT — diagnostiquer sur l'écho si instable"
+  - "Omettre la {p:EP} devant une dyspnée isolée sans douleur pleurale — peut se présenter uniquement par tachycardie et désaturation"
+
+cartes_liees:
+  - SYS-PULMO
+  - SYS-CARDIO
+  - TOOL-ABG
+  - SSP-URG-06

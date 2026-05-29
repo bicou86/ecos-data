@@ -1,0 +1,173 @@
+id: SSP-URG-10
+type: ssp
+title: Malaise
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Malaise.md
+
+# source: line 1-8
+anamnese:
+  socrates:
+    - |-
+      Onset — circonstances de survenue:
+      • position au moment du malaise (couché / debout / effort)?
+      • activité (repos, effort, changement de position, post-prandial)?
+      • premier épisode ou récidive?
+    - |-
+      Character — type de malaise:
+      • {s:lipothymie} (sensation pré-syncopale, prodromes) ou {s:syncope vraie} (PC complète)?
+      • {s:vertiges} / {s:palpitations} / {s:faiblesse} / {s:flou visuel}?
+      • {s:mouvements anormaux} (tremblements, convulsions)?
+    - "Durée & récupération: combien de temps inconscient? {s:état post-critique} (confusion, somnolence) → épilepsie vs syncope?"
+    - |-
+      Prodromes (avant la perte de connaissance):
+      • {s:nausées, sueurs, pâleur, voile} → vagale
+      • absence de prodromes, PC brutale → cardiaque
+      • {s:palpitations} avant PC → arythmie
+    - "Hétéro-anamnèse: témoins? que décrivent-ils (chute molle/rigide, morsure langue, perte d'urines)?"
+    - "Traumatisme lors de la chute (TC, fracture)?"
+  specifique:
+    - |-
+      Orientation DD — questions ciblées:
+      • {s:malaise au lever} (hypotension orthostatique)?
+      • {s:malaise à l'effort} ou effort sportif intense ({p:CMH}, {p:sténose aortique})?
+      • déclencheur émotionnel, douleur, station debout prolongée (syncope vagale)?
+      • {s:douleur thoracique} / {s:dyspnée} / {s:diaphorèse} ({p:SCA}, {p:EP})?
+      • {s:signes neurologiques focaux} nouveaux ({p:AIT}, {p:AVC})?
+    - |-
+      Relation aux repas / glycémie:
+      • diabète connu? traitement insuline ou sulfamides?
+      • {s:tremblements, sueurs, faim intense} → {p:hypoglycémie}
+      • dernier repas?
+    - "Contexte psy / hyperventilation: {s:paresthésies périorales}, tétanie, contexte de stress → {p:crise panique}?"
+    - |-
+      {e:Grossesse possible}?
+      • bHCG si femme en âge de procréer [{VÉRIFIER: systématique ou ciblée aux urgences?}]
+    - "Altitude récente, jeûne prolongé, déshydratation, chaleur?"
+  atcd:
+    - |-
+      Antécédents cardiovasculaires:
+      • {p:HTA}, {p:insuffisance cardiaque}, {p:troubles du rythme}, {p:cardiopathie}
+      • ATCD familiaux: {p:mort subite}, {p:Brugada}, {p:QT long}, {p:CMH}
+    - "Antécédents neurologiques: {p:épilepsie} (traitement? compliance?), {p:AVC/AIT}, neuropathie"
+    - "Antécédents endocriniens: {p:diabète} (type, traitement), {p:dysthyroïdie}"
+    - |-
+      Médicaments:
+      • antihypertenseurs, diurétiques (hypotension orthostatique)
+      • antidiabétiques: insuline, sulfamides ({p:hypoglycémie})
+      • antiarythmiques, QT-prolongateurs [{VÉRIFIER: liste médicaments QT-prolongateurs à consulter}]
+    - "Habitudes: hydratation, alcool/drogues, activité physique récente, compliance médicamenteuse"
+
+# source: line 67-93
+red_flags:
+  - description: "{s:Syncope à l'effort} ou {s:palpitations précédant la PC} ± {s:ECG anormal} (QT long, onde delta, bloc de branche, sus-ST)"
+    dx_suspecte: "{p:Cause cardiaque arythmique} ({p:TV/FV}, {p:Brugada}, {p:syndrome de Wolff-Parkinson-White}, {p:QT long})"
+    action: "{t:ECG 12 dérivations} immédiat + {t:monitoring cardiaque continu} + avis cardio urgent; envisager {t:Holter} + {t:échocardiographie}"
+  - description: "{s:Douleur thoracique} ± {s:dyspnée} ± {s:diaphorèse} chez patient {e:> 50 ans + FRCV}"
+    dx_suspecte: "{p:Syndrome coronarien aigu (SCA)}"
+    action: "{t:ECG 12 dérivations} immédiat + {t:troponines STAT}; aspirine {r:300 mg PO} si SCA confirmé; avis cardio"
+  - description: "{s:Dyspnée} + {s:tachycardie} + {e:FDR thromboembolique} (immobilisation, post-op, ATCD EP/TVP)"
+    dx_suspecte: "{p:Embolie pulmonaire (EP)}"
+    action: "{t:score Wells/Geneva} + {t:D-dimères}; si haute probabilité → {t:angio-CT thoracique} STAT"
+  - description: "{s:Déficit neurologique focal nouveau} (parésie, dysarthrie, hémianopsie) ou altération de conscience persistante"
+    dx_suspecte: "{p:AVC/AIT}"
+    action: "AVC pathway immédiat; {t:CT cérébral} sans contraste; ne pas retarder si fenêtre thrombolyse"
+  - description: "{s:Glycémie capillaire < 3.0 mmol/L} ({r:< 0.55 g/L}) + {e:diabétique sous insuline/sulfamides} + {s:troubles de conscience}"
+    dx_suspecte: "{p:Hypoglycémie sévère}"
+    action: "Si conscient: {r:sucre PO 15-20 g}; si inconscient: {r:glucose 30% IV 50 mL} [{VÉRIFIER: G30% vs G40%? dose exacte selon protocole local CHUV/HUG}] ou {r:glucagon 1 mg IM}"
+  - description: "{s:Souffle cardiaque nouveau} ou {s:PC à l'effort} chez {e:jeune < 35 ans}"
+    dx_suspecte: "{p:Cardiomyopathie hypertrophique (CMH)} ou {p:sténose aortique}"
+    action: "{t:Échocardiographie} urgente + interdiction sport en attendant bilan; monitoring"
+
+# source: line 67-93
+examen:
+  general:
+    - "ABCDE systématique OBLIGATOIRE: A (voies aériennes), B (FR, SaO2), C (FC, TA, pouls), D (GCS, pupilles), E (T°, examen complet)"
+    - "{t:Glycémie capillaire} IMMÉDIATE si trouble de conscience"
+    - "{t:ECG 12 dérivations}: systématique pour tout malaise"
+    - "TA les deux bras (différence > 20 mmHg → dissection aortique)"
+  cible:
+    - |-
+      {t:Test d'hypotension orthostatique}:
+      • TA/FC couché après 5 min repos
+      • TA/FC debout immédiatement puis après 3 min
+      • Chute {r:≥ 20 mmHg systolique} ou {r:≥ 10 mmHg diastolique} = positif [{VÉRIFIER: seuil ≥20/10 mmHg — consensus ESC 2018?}]
+    - |-
+      Examen cardiovasculaire:
+      • auscultation cardiaque 4 foyers (souffle → CMH/sténose aortique)
+      • recherche arythmie, signes insuffisance cardiaque (crépitants, OMI)
+      • pouls périphériques + temps de recoloration capillaire
+    - |-
+      Examen neurologique ciblé:
+      • force 4 membres, ROT, Babinski
+      • nerfs crâniens (diplopie, dysarthrie, déglutition)
+      • orientation, langage, mémoire
+    - "Signes d'anémie: pâleur conjonctives, tachycardie de repos"
+    - "Signes d'hypovolémie: pli cutané, muqueuses sèches, tachycardie orthostatique"
+    - "Traumatismes liés à la chute: TC, fractures, plaies"
+
+dd_top5:
+  - dx: "{p:Syncope vasovagale / orthostatique}"
+    indices: "Prodromes (nausées, sueurs, voile), déclencheur émotionnel ou station debout, post-prandial, jeune adulte, déshydratation; test orthostatique positif si origine orthostatique"
+    freq: "très fréquent (#1 jeune adulte, ~50% des syncopes)"
+  - dx: "{p:Cause cardiaque} (arythmie, {p:SCA}, {p:CMH}, {p:EP})"
+    indices: "PC brutale sans prodromes, malaise à l'effort, palpitations précédant la PC, ECG anormal; ATCD familiaux mort subite; douleur thoracique / dyspnée associée"
+    freq: "10-20% des syncopes — urgence à éliminer systématiquement"
+  - dx: "{p:Hypoglycémie}"
+    indices: "Diabétique sous insuline/sulfamides, relation aux repas (à jeun ou effort), sueurs + tremblements + faim intense; glycémie capillaire < 4 mmol/L confirme"
+    freq: "fréquent chez diabétique traité; rare hors diabète"
+  - dx: "{p:Crise d'angoisse / hyperventilation}"
+    indices: "Jeune, paresthésies périorales et des extrémités, tétanie, contexte de stress/surmenage, récupération rapide, aucun déficit objectif"
+    freq: "fréquent (urgences psy ~ 10-15% des malaises)"
+  - dx: "{p:Cause neurologique} ({p:AIT}, {p:épilepsie partielle}, {p:migraine avec aura})"
+    indices: "Déficit focal transitoire, état post-critique (épilepsie), mouvements convulsifs, céphalée post-critique, ATCD épilepsie"
+    freq: "moins fréquent mais ne pas manquer AIT (urgence thérapeutique)"
+
+pec_initiale:
+  immediate:
+    - "ABCDE + monitoring (SpO2, FC, TA, ECG) + VVP si instable"
+    - "{t:ECG 12 dérivations} STAT + {t:glycémie capillaire} STAT"
+    - |-
+      Hypoglycémie sévère:
+      • conscient coopérant → {r:sucre PO 15-20 g} (3 morceaux de sucre)
+      • inconscient / non coopérant → {r:glucose 30% IV 50 mL IVL} [{VÉRIFIER: G30% 50 mL ou G40% 100 mL selon protocole local}]
+      • pas d'accès veineux → {r:glucagon 1 mg IM} [{VÉRIFIER: dose glucagon IM vs SC, disponibilité kit urgence}]
+      • contrôle glycémique toutes les 15-30 min
+    - "Hypotension orthostatique: décubitus + surélévation membres inférieurs + {r:remplissage NaCl 0.9% 500 mL} si hypovolémie; réévaluer médicaments"
+    - "Suspicion {p:SCA}: {r:aspirine 300 mg PO} + scope + troponines STAT + avis cardio urgence"
+    - "Suspicion {p:EP}: anticoagulation selon protocole si probabilité haute avant bilan si instabilité; {t:angio-CT} sinon"
+  orientation:
+    - "Syncope vasovagale typique + examen normal + ECG normal: investigation ambulatoire possible + consignes retour"
+    - "Urgences / hospitalisation: tout red flag, ECG anormal, cause cardiaque suspectée, hypoglycémie sévère récidivante, déficit neurologique"
+    - "Cardiologie urgente: syncope à l'effort, souffle, ATCD familiaux mort subite, ECG anormal"
+    - "Consignes au patient: éviter station debout prolongée, lever progressif, hydratation, ne pas conduire si syncope inexpliquée"
+
+examens_complementaires:
+  - "{t:ECG 12 dérivations}: systématique — QT long, Brugada, onde delta, bloc de branche, sus-ST"
+  - "{t:Glycémie capillaire} (+ glycémie veineuse si doute): tout malaise avec trouble conscience"
+  - "{t:NFS + iono + créatinine + troponines}: si > 40 ans ou suspicion SCA ou contexte incertain"
+  - "{t:Test orthostatique}: systématique dans le bilan d'une syncope"
+  - "{t:Score Wells/Geneva + D-dimères}: si suspicion {p:EP} (dyspnée + tachycardie + FDR)"
+  - "{t:Échocardiographie} + {t:Holter}: si suspicion {p:CMH}, sténose aortique, arythmie paroxystique"
+
+criteres_hospitalisation:
+  - "ECG anormal ou arythmie documentée → cardio en urgence"
+  - "{p:SCA} ou {p:EP} confirmé ou très probable"
+  - "Syncope à l'effort ou {s:ATCD familiaux mort subite} ou suspicion {p:CMH}"
+  - "{p:Hypoglycémie sévère} récidivante ou insuline lente en cours → risque récidive"
+  - "Déficit neurologique focal ou altération persistante de conscience → AVC pathway"
+
+pieges:
+  - "Omettre l'{t:ECG} — toute syncope sans ECG est une opportunité manquée de diagnostiquer une arythmie mortelle"
+  - "Rassurer trop vite sur une syncope 'vagale' sans ECG ni orthostatisme chez un patient > 40 ans avec FRCV"
+  - "Ne pas doser la {t:glycémie} d'emblée en cas de trouble de conscience → retard diagnostic {p:hypoglycémie}"
+  - "Méconnaître le malaise à l'effort = {p:CMH} ou {p:sténose aortique} jusqu'à preuve du contraire chez le jeune sportif"
+  - "Oublier le {t:bHCG} chez la femme en âge de procréer (grossesse extra-utérine peut se présenter comme malaise)"
+
+cartes_liees:
+  - SYS-CARDIO
+  - TOOL-ECG
+  - SSP-URG-09

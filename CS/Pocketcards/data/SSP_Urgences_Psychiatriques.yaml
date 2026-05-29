@@ -1,0 +1,186 @@
+id: SSP-URG-12
+type: ssp
+title: Urgences psychiatriques
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Urgences_Psychiatriques.md
+
+# source: lines 338-368 (évaluation urgences) + pivots fournis
+anamnese:
+  socrates:
+    - |-
+      Motif: pourquoi vient-il/elle maintenant?
+      • événement déclenchant (rupture, perte d'emploi, conflit)
+      • appel de proches, auto-présentation, amenée par secours
+    - |-
+      Crise suicidaire — RUD:
+      • {s:Risque}: idées passives ('mieux vaut mourir') ou actives ('je veux mourir')?
+      • {s:Urgence}: plan précis (méthode / lieu / moment)? délai < 48h?
+      • {s:Dangerosité}: létalité du moyen, accès aux moyens, détermination, impulsivité
+    - |-
+      Agitation: début (brutal / progressif)? contexte (prise de substances,
+      • arrêt traitement, événement traumatique)?
+      • comportement auto/hétéro-agressif?
+    - "Durée et évolution des symptômes: h / j / semaines?"
+    - |-
+      Signes de sevrage:
+      • {s:alcool/BZD}: tremblement, sueurs, nausées (délai 6-48h post-arrêt)?
+      • {s:opiacés}: mydriase, sueurs, crampes, diarrhée?
+  specifique:
+    - |-
+      Psychiatrique:
+      • antipsychotiques / humeur-stabilisateurs: lesquels, depuis quand, observance?
+      • hallucinations (type: auditive / visuelle / tactile)?
+      • délire (thème: persécution / grandiosité / référence)?
+      • humeur: maniaque (hypersomnie, grandiosité, désinhibition)?
+    - "{e:Grossesse / post-partum} — {p:psychose du post-partum} à évoquer systématiquement [VÉRIFIER: critères PAFA/hospitalisation contrainte spécifiques à la grossesse]"
+    - "Signes organiques: fièvre, céphalée, déficit focal → {p:cause organique} à éliminer avant attribution psychiatrique"
+    - |-
+      État de conscience:
+      • {t:GCS}? orientation temporo-spatiale?
+      • fluctuation → {p:delirium} organique?
+  atcd:
+    - |-
+      Psychiatriques:
+      • diagnostics connus (schizophrénie, TB, dépression sévère)
+      • ATCD tentatives de suicide (méthode, létalité, hospitalisations)
+      • hospitalisations psychiatriques antérieures
+    - |-
+      Médicaux:
+      • épilepsie, diabète, pathologie thyroïdienne
+      • maladies chroniques (facteur de risque suicidaire statique)
+    - |-
+      Substances:
+      • alcool (quantité, dernier verre), BZD, opiacés, stimulants
+      • toxiques (cocaïne, méthamphétamine → agitation / psychose)
+    - "Traitements actuels: neuroleptiques récemment introduits ou augmentés → {p:SMN} [VÉRIFIER: délai typique d'apparition du SMN post-introduction]"
+    - "Support social: vit seul? isolement? enfants à charge (facteur protecteur)?"
+
+# source: lines 26-123 + 316-334 (crise suicidaire, sevrage, SMN, catatonie)
+red_flags:
+  - description: "{s:Idées suicidaires + plan précis + moyens accessibles + intention dans < 48h}"
+    dx_suspecte: "{p:Risque suicidaire imminent}"
+    action: "Sécuriser environnement (retirer moyens létaux), surveillance constante; hospitalisation — PAFA si refus de soins [VÉRIFIER: procédure PAFA exacte et délais légaux CHUV/HUG]"
+  - description: "{s:Confusion + tremblements + tachycardie + hyperthermie + hallucinations} (délai 24-72h post-arrêt alcool/BZD)"
+    dx_suspecte: "{p:Delirium tremens}"
+    action: "{r:Diazépam 10-20 mg IV} titré (répéter q20 min), {r:thiamine 100 mg IV} AVANT glucose, monitoring USC; mortalité {r:5-15 %}"
+  - description: "{s:Agitation + délire de persécution + comportement dangereux} avec auto/hétéro-agressivité imminente"
+    dx_suspecte: "{p:Bouffée délirante aiguë} / psychose aiguë"
+    action: "Désescalade verbale d'abord; si échec: {r:halopéridol 5 mg IM + lorazépam 2 mg IM}; contention physique dernier recours (5 personnes)"
+  - description: "{s:Immobilité + mutisme + rigidité + fièvre + instabilité tensionnelle}"
+    dx_suspecte: "{p:Catatonie maligne} / {p:Syndrome malin des neuroleptiques (SMN)}"
+    action: "ARRÊT immédiat antipsychotiques; {r:lorazépam 2-4 mg IV} test thérapeutique (catatonie); si SMN: {r:dantrolène 2.5 mg/kg IV} + réanimation; ne PAS administrer antipsychotiques"
+  - description: "{s:Hyperthermie > 38°C + rigidité 'plomb' + CK élevées} post-introduction/augmentation neuroleptique"
+    dx_suspecte: "{p:Syndrome malin des neuroleptiques (SMN)}"
+    action: "Arrêt antipsychotique immédiat; USI; {r:dantrolène 2.5 mg/kg IV + bromocriptine 2.5-10 mg x3/j}; mortalité 10-20 %"
+  - description: "{s:Mydriase + sueurs + crampes + diarrhée + agitation} chez patient sous opiacés arrêtés"
+    dx_suspecte: "{p:Sevrage opiacés}"
+    action: "{r:Buprénorphine SL} ou {r:méthadone titrée} [VÉRIFIER: protocole de titration buprénorphine en urgence, dose initiale]"
+
+# source: lines 336-368 (examen urgences)
+examen:
+  general:
+    - "Signes vitaux COMPLETS: TA, FC, FR, T°, SaO2, glycémie capillaire SYSTÉMATIQUE"
+    - "{t:GCS}: altération de conscience → cause organique d'abord"
+    - "Alcoolémie au glucomètre si disponible; toxidromes: myosis (opiacés), mydriase (anticholinergiques, sympathomimétiques)"
+    - "Recherche signes de trauma crânien (ecchymoses, plaies), injection sous-cutanée (toxiques)"
+  cible:
+    - |-
+      Neurologique:
+      • déficit focal (parésie, aphasie, diplopie) → {p:cause organique urgente}
+      • {s:raideur de nuque} → {p:méningite/HSA}
+      • {t:examen des nerfs crâniens} (asymétrie pupillaire = urgence)
+    - |-
+      {s:Syndrome de sevrage alcoolique} — signes objectifs:
+      • tremblement des mains
+      • tachycardie (FC > 100), HTA, sueurs
+      • agitation, confusion → {p:delirium tremens} imminent
+    - |-
+      Évaluation psychiatrique rapide:
+      • contact, orientation, cohérence du discours
+      • hallucinations (demander directement)
+      • thème du délire, insight
+      • humeur, affect, psychomotricité (ralenti/agité)
+    - |-
+      {s:Catatonie} — échelle de Bush-Francis (≥ 2 critères):
+      • immobilité/stupeur, mutisme, négativisme
+      • catalepsie, flexibilité cireuse, posturing
+      • {r:test lorazépam}: amélioration = catatonie bénigne
+    - "Examen somatique complet: abdomen, auscultation cardio-pulmonaire (éliminer cause organique)"
+
+# source: lines 352-368 (examens complémentaires)
+examens_complementaires:
+  - "{t:Glycémie capillaire + alcoolémie}: systématiques dans TOUTE urgence psychiatrique"
+  - "{t:NFS + ionogramme + urée + créatinine}: bilan organique de base; hyponatrémie → confusion"
+  - "{t:TSH}: dysthyroïdie (hyperthyroïdie → agitation/manie, hypothyroïdie → dépression/confusion)"
+  - "{t:Toxiques urinaires + alcoolémie}: agitation ou psychose sans contexte clair [VÉRIFIER: délai de fiabilité des toxiques urinaires selon substance]"
+  - "{t:CK + myoglobinurie}: suspicion {p:SMN} ou rhabdomyolyse post-agitation/contention prolongée"
+  - "{t:TDM cérébral}: 1er épisode psychotique, confusion, déficit neurologique focal, trauma, âge > 50 ans"
+
+# source: lines 400-415 (orientation)
+criteres_hospitalisation:
+  - "{p:Risque suicidaire élevé} (plan + moyens + urgence < 48h) — libre ou sous contrainte (PAFA)"
+  - "{p:Delirium tremens} ou sevrage alcoolique sévère (CIWA-Ar ≥ 15) → USC"
+  - "{p:SMN} ou {p:catatonie maligne} → USI"
+  - "Psychose aiguë non stabilisée avec dangerosité auto/hétéro-agressive"
+  - "Incapacité aux auto-soins + isolement social total"
+
+# source: lines 127-140 + pivots + expertise clinique
+dd_top5:
+  - dx: "{p:Crise suicidaire / tentative de suicide}"
+    indices: "Idées suicidaires actives ± plan ± moyens; ATCD tentatives; contexte de perte; évaluation {t:RUD} (Risque–Urgence–Dangerosité)"
+    freq: "très fréquent aux urgences psychiatriques"
+  - dx: "{p:Agitation psychomotrice}"
+    indices: "Psychiatrique (manie, psychose) ou organique (hypoglycémie, hypoxie, intoxication, AVC); TOUJOURS éliminer organique d'abord"
+    freq: "très fréquent"
+  - dx: "{p:Delirium tremens} / sevrage alcoolique/BZD"
+    indices: "{s:Tremblement + confusion + tachycardie + sueurs + hallucinations} délai 24-72h post-arrêt; {t:CIWA-Ar} ≥ 10 → risque sévère"
+    freq: "fréquent (mortalité 5-15 % si non traité)"
+  - dx: "{p:Bouffée délirante aiguë} / décompensation psychotique"
+    indices: "Hallucinations envahissantes, délire aigu, désorganisation majeure, comportement bizarre; 1er épisode → exclure organicité ({t:TDM} + bilan bio)"
+    freq: "fréquent"
+  - dx: "{p:Syndrome malin des neuroleptiques (SMN)}"
+    indices: "{s:Hyperthermie + rigidité + troubles conscience + dysautonomie} + {t:CK} élevées; post-introduction/augmentation neuroleptique; à distinguer de catatonie maligne"
+    freq: "rare mais mortalité 10-20 %"
+
+# source: lines 93-113 + 290-297 + 329-334 (PEC)
+pec_initiale:
+  immediate:
+    - "ABCDE d'abord — glycémie + GCS + signes vitaux AVANT tout autre bilan"
+    - "Bilan organique systématique: glycémie, alcoolémie, {t:iono}, {t:TSH}, toxiques urinaires; {t:TDM cérébral} si confusion/1er épisode/déficit focal"
+    - |-
+      {p:Risque suicidaire imminent}:
+      • retrait des moyens létaux, surveillance 1:1
+      • contacter proches (avec accord ou si urgence vitale)
+      • PAFA si refus de soins avec risque imminent
+      • plan de sécurité avant tout retour à domicile
+    - |-
+      {p:Agitation sévère}:
+      • désescalade verbale (voix posée, distance 2 bras, proposer choix)
+      • si échec PO: {r:lorazépam 2-4 mg PO} ± {r:olanzapine 10 mg PO}
+      • si refus: {r:halopéridol 5 mg IM + lorazépam 2 mg IM} ± prométhazine 25 mg
+      • contention physique = dernier recours (5 personnes, réévaluation /15 min)
+    - "{p:Delirium tremens}: {r:diazépam 10-20 mg IV} q20 min titré sur CIWA-Ar, {r:thiamine 100 mg IV} AVANT glucose, monitoring USC"
+    - "{p:Catatonie}: {r:lorazépam 2-4 mg IV/IM} — test thérapeutique; si positif: doses élevées ({r:8-24 mg/j}); éviter antipsychotiques"
+    - "{p:SMN}: arrêt immédiat antipsychotique + USI + {r:dantrolène 2.5 mg/kg IV} + {r:bromocriptine} + refroidissement"
+  orientation:
+    - "Hospitalisation psychiatrique libre: psychose aiguë, risque suicidaire élevé contrôlé, stabilisation en cours"
+    - "PAFA (hospitalisation sous contrainte): refus de soins + risque imminent pour patient ou autrui"
+    - "USC/USI: delirium tremens, SMN, catatonie maligne, instabilité hémodynamique"
+    - "Suivi ambulatoire intensif (RDV < 48-72h): risque modéré, support social présent, plan de crise établi"
+
+pieges:
+  - "Attribuer un état confusionnel à la psychiatrie sans bilan organique: toujours éliminer hypoglycémie, hypoxie, AVC, méningite ({t:glycémie + GCS + TDM} avant)"
+  - "Confondre {p:SMN} et {p:catatonie maligne}: SMN → arrêter neuroleptique + dantrolène; catatonie → lorazépam + surtout NE PAS donner antipsychotiques"
+  - "Sous-estimer le risque suicidaire: un plan précis avec moyens accessibles = urgence absolue même si patient 'calme' en apparence"
+  - "Omettre la thiamine avant le glucose en cas de suspicion de dénutrition/alcoolisme → risque d'encéphalopathie de Gayet-Wernicke iatrogène"
+  - "Négliger l'évaluation somatique complète sous prétexte de présentation psychiatrique (HTA, trauma crânien occulte, hyperthyroïdie)"
+
+cartes_liees:
+  - SSP-PSY
+  - SSP-URG-01
+  - TOOL-RUD
+  - TOOL-CIWA

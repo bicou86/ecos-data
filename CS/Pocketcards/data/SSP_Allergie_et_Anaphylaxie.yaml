@@ -1,0 +1,188 @@
+id: SSP-URG-06
+type: ssp
+title: Allergie et anaphylaxie
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Allergie_et_Anaphylaxie.md
+
+# source: lines 1-10 (objectifs, terrain)
+anamnese:
+  socrates:
+    - |-
+      Site/Onset:
+      • délai exposition → symptômes (minutes = IgE-médié)?
+      • progression rapide ou stable?
+      • première réaction ou récidive?
+    - |-
+      Character:
+      • prurit cutané / urticaire / érythème?
+      • dyspnée / stridor / voix rauque?
+      • vertiges / syncope / malaise?
+    - "Radiation: atteinte combien de systèmes (cutané / respi / cardio / digestif)?"
+    - |-
+      Exacerbating — allergène déclenchant:
+      • aliment (arachide, fruits à coque, fruits de mer, œuf, lait, blé)?
+      • médicament (β-lactamine, AINS, produit de contraste, curare)?
+      • hyménoptère (piqûre d'abeille / guêpe)?
+      • latex ou autre allergène environnemental?
+    - |-
+      Time:
+      • début < 30 min après exposition = anaphylaxie probable
+      • durée des symptômes actuels
+      • réaction biphasique antérieure?
+    - "Severity: stade Müller (I-IV) — atteinte cardio-vasculaire ou respiratoire = stade ≥ III"
+  specifique:
+    - |-
+      Facteurs aggravants (risque réaction sévère):
+      • {e:β-bloquants} (masquent tachycardie, réfractaires adrénaline)
+      • {e:IEC} (angio-œdème bradykinines — non IgE-médié)
+      • {e:asthme mal contrôlé}
+      • {e:mastocytose} (tryptase basale élevée)
+    - "Exposition {e:IV} à l'allergène (produit de contraste, médicament IV) → risque +++"
+    - |-
+      ATCD réaction allergique:
+      • type de réaction, allergène identifié
+      • auto-injecteur prescrit? utilisé?
+      • suivi allergologue?
+    - "[VÉRIFIER: stade Müller exact — certaines sources utilisent des variantes de la classification]"
+  atcd:
+    - "Allergies connues documentées (liste, allergènes évités)"
+    - |-
+      Terrain atopique:
+      • eczéma, asthme, rhinite allergique
+      • {e:ATCD familiaux} d'allergie / anaphylaxie
+    - |-
+      Médicaments en cours:
+      • {r:β-bloquants} (risque réaction réfractaire)
+      • {r:IEC} (angio-œdème bradykinines)
+      • anticoagulants (contre-indication adrénaline? — non, mais noter)
+    - "Mastocytose, syndrome d'activation mastocytaire → tryptase basale à doser"
+
+# source: lines 21-62 (présentation clinique, stades)
+red_flags:
+  - description: "{s:Hypotension} (TAS < 90 mmHg) + tachycardie ± syncope après exposition allergène"
+    dx_suspecte: "{p:Choc anaphylactique} (stade IV Müller)"
+    action: "{r:Adrénaline 0.3-0.5 mg IM} vaste latéral cuisse IMMÉDIAT; remplissage {r:NaCl 20 ml/kg IV}; O2 haut débit; position Trendelenburg"
+  - description: "{s:Stridor / dysphonie / dysphagie} ± œdème lèvres-langue-luette"
+    dx_suspecte: "{p:Œdème glottique} menaçant"
+    action: "{r:Adrénaline 0.3-0.5 mg IM}; préparer intubation orotrachéale; {r:adrénaline nébulisée 5 mg} si laryngospasme; cricothyroïdotomie si échec"
+  - description: "{s:Bronchospasme sévère} (sibilants diffus, désaturation SpO2 < 92 %) sous traitement"
+    dx_suspecte: "{p:Anaphylaxie} stade III + bronchospasme réfractaire"
+    action: "{r:Salbutamol nébulisé 2.5-5 mg}; {r:méthylprednisolone 1-2 mg/kg IV}; {r:adrénaline IM} si choc associé"
+  - description: "{s:Réapparition des symptômes} 1-72 h après amélioration initiale"
+    dx_suspecte: "{p:Réaction biphasique} (20 % des anaphylaxies)"
+    action: "Surveillance {r:≥ 6-8 h} aux urgences obligatoire; prolonger à {r:24 h} si réaction sévère ou tardive"
+  - description: "{s:Angio-œdème labio-lingual isolé} sans urticaire ni prurit, sous {e:IEC}"
+    dx_suspecte: "{p:Angio-œdème à bradykinines} (non IgE-médié)"
+    action: "Arrêt immédiat IEC; {r:icatibant 30 mg SC} si disponible; adrénaline moins efficace — surveiller voies aériennes; [VÉRIFIER: disponibilité icatibant au CHUV/HUG]"
+  - description: "Patient sous {e:β-bloquants} avec anaphylaxie réfractaire à l'adrénaline"
+    dx_suspecte: "{p:Anaphylaxie réfractaire}"
+    action: "{r:Glucagon 1-5 mg IV} bolus puis perfusion; adrénaline IV continue; {r:vasopressine 10-40 UI IV} si nécessaire"
+
+# source: lines 214-228 (examen clinique cas, stades cliniques)
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: TA, FC, FR, T°, SpO2 — répéter toutes les 5 min si instable"
+    - "{t:Stade Müller}: I (cutané seul) / II (digestif + respi léger) / III (bronchospasme, laryngospasme) / IV (choc, arrêt)"
+    - "SpO2 < 92 % ou TAS < 90 mmHg → stade ≥ III → adrénaline IM IMMÉDIAT"
+    - "{t:ECG} si choc, douleur thoracique ou suspicion arythmie"
+  cible:
+    - |-
+      {s:Cutanéo-muqueux} (90 % des anaphylaxies):
+      • urticaire généralisée, érythème diffus
+      • œdème Quincke: visage, lèvres, langue, luette
+      • prurit (absent dans angio-œdème bradykinines)
+    - |-
+      {s:Respiratoire} (70 %):
+      • auscultation (sibilants = bronchospasme, stridor = laryngospasme)
+      • tirage, utilisation muscles accessoires
+      • voix rauque → menace glottique imminente
+    - |-
+      {s:Cardiovasculaire} (35 %):
+      • TA + pouls (choc = TAS < 90 ou baisse > 30 % du basal)
+      • tachycardie compensatrice ou bradycardie paradoxale
+      • TRC (normal < 2 s)
+    - |-
+      {s:Digestif} (30 %):
+      • nausées, vomissements, crampes abdominales
+      • diarrhée
+    - |-
+      Pédiatrie — signes atypiques:
+      • irritabilité, pleurs inconsolables, léthargie ({e:nourrisson})
+      • pâleur extrême, incontinence
+
+# source: lines 81-88 (diagnostic différentiel)
+dd_top5:
+  - dx: "{p:Anaphylaxie sévère} (choc anaphylactique)"
+    indices: "Atteinte ≥ 2 systèmes (cutané + respi ou cardio) après exposition allergène; ou hypoTA isolée avec allergène connu; stade III-IV Müller"
+    freq: "urgence vitale; incidence 50-100/100 000/an"
+  - dx: "{p:Réaction allergique modérée}"
+    indices: "Urticaire généralisée ± œdème Quincke sans atteinte respi/cardio (stade I-II); pas d'hypoTA; prurit intense; réponse anti-H1 rapide"
+    freq: "fréquent"
+  - dx: "{p:Angio-œdème héréditaire/acquis} (déficit C1-INH)"
+    indices: "Œdème muqueux récidivant SANS urticaire ni prurit; aggravé IEC; tryptase normale; bradykinines (non IgE-médié); ne répond pas adrénaline"
+    freq: "rare (prévalence 1/50 000)"
+  - dx: "{p:Urticaire aiguë idiopathique}"
+    indices: "Urticaire sans atteinte systémique; souvent virale ou idiopathique; pas d'allergène déclenchant identifié; signes vitaux normaux"
+    freq: "fréquent"
+  - dx: "{p:Mastocytose systémique}"
+    indices: "Anaphylaxies récidivantes souvent sans allergène évident; tryptase basale > 20 ng/mL; lésions cutanées (urticaria pigmentosa); biopsie moelle osseuse"
+    freq: "rare"
+
+# source: lines 101-127 (prise en charge)
+pec_initiale:
+  immediate:
+    - "1. STOP l'exposition à l'allergène (arrêt perfusion médicament, retirer dard hyménoptère)"
+    - |-
+      2. {r:Adrénaline IM} — PRIORITÉ ABSOLUE si stade ≥ II avec signes systémiques:
+      • adulte: {r:0.3-0.5 mg (0.3-0.5 mL à 1 mg/mL) IM} face antérolatérale cuisse
+      • enfant: {r:0.01 mg/kg IM} (max 0.3 mg < 30 kg; 0.5 mg > 30 kg)
+      • répéter toutes les {r:5-15 min} si réponse insuffisante
+    - "3. Position: Trendelenburg (choc) ou demi-assis (dyspnée) — JAMAIS debout si hypoTA"
+    - "4. O2 haut débit: {r:6-10 L/min} masque, cible SpO2 > 95 %"
+    - "5. Voie IV: {r:NaCl 0.9% 500-1000 mL IV} rapide (adulte); {r:20 mL/kg IV} (enfant)"
+    - |-
+      6. Traitements adjuvants (APRÈS adrénaline, ne retardent PAS la 1ère injection):
+      • anti-H1: {r:dexchlorphéniramine 5 mg IV} ou clémastine 2 mg IV
+      • corticoïde: {r:méthylprednisolone 1-2 mg/kg IV} (prévention biphasique)
+      • bronchospasme: {r:salbutamol nébulisé 2.5-5 mg}
+    - "[VÉRIFIER: dose adrénaline IM enfant < 6 mois / < 7.5 kg — données limitées dans les sources]"
+  orientation:
+    - "Hospitalisation USC ≥ 6-8 h TOUTE anaphylaxie (risque biphasique); 24 h si réaction sévère"
+    - "Réfractaire: adrénaline IV continue; glucagon 1-5 mg IV si β-bloquants; vasopressine; réanimation"
+    - |-
+      Avant la sortie (OBLIGATOIRE):
+      • prescription {r:EpiPen® / Jext®} auto-injecteur × 2 + formation patient/entourage
+      • antihistaminique oral 3-5 j + corticoïde court si nécessaire
+      • plan d'action écrit personnalisé
+      • RDV allergologie systématique (tests cutanés, IgE spécifiques)
+
+# source: lines 90-99 (examens complémentaires)
+examens_complementaires:
+  - "Aucun examen ne doit retarder l'adrénaline — monitoring TA/FC/SpO2 suffit en urgence"
+  - "{t:Tryptase sérique}: prélever 1-2 h après début (pic); refaire à {r:≥ 24 h} (valeur basale); > 11.4 ng/mL évoque mastocytose si basale élevée"
+  - "{t:IgE spécifiques} + {t:prick tests}: à distance (6-8 semaines) en allergologie"
+  - "{t:C3, C4, C1-INH fonctionnel}: si suspicion angio-œdème héréditaire (pas de prurit, récidivant)"
+  - "{t:ECG}: si choc, douleur thoracique ou arythmie suspectée"
+  - "{t:FSC + ionogramme + créatinine}: si choc sévère ou hospitalisation prolongée"
+
+criteres_hospitalisation:
+  - "Tout stade III-IV (bronchospasme sévère, œdème laryngé, choc anaphylactique)"
+  - "Anaphylaxie chez patient sous β-bloquants, IEC ou avec asthme sévère"
+  - "Réponse incomplète après adrénaline IM × 2 ou réaction réfractaire"
+  - "Suspicion réaction biphasique (toute anaphylaxie ≥ stade II → min 6-8 h)"
+  - "Angio-œdème laryngé ou menace des voies aériennes même si résolution partielle"
+
+pieges:
+  - "Donner antihistaminique SEUL pour stade ≥ II — l'anti-H1 ne traite pas le choc; l'adrénaline est le seul traitement de 1ère ligne"
+  - "Méconnaître l'{p:angio-œdème sous IEC} (bradykinines, non IgE-médié): adrénaline moins efficace, arrêter IEC + icatibant"
+  - "Omettre l'auto-injecteur à la sortie — toute anaphylaxie doit repartir avec 2 EpiPen® + plan d'action écrit"
+  - "Libérer trop tôt: réaction biphasique possible jusqu'à 72 h → surveillance ≥ 6-8 h obligatoire"
+  - "Sous-estimer le risque chez patient sous {r:β-bloquants}: réponse réduite à l'adrénaline, bradycardie paradoxale → glucagon"
+
+cartes_liees:
+  - SYS-URG
+  - SSP-PED-ALLERG

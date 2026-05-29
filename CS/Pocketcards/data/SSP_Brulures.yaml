@@ -1,0 +1,176 @@
+id: SSP-URG-09
+type: ssp
+title: Brûlures
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Brulures.md
+
+# source: line 9-37
+anamnese:
+  socrates:
+    - |-
+      Circonstances:
+      • heure et délai depuis la brûlure?
+      • mécanisme: thermique (flamme/liquide/contact), chimique, électrique, radiation?
+      • agent causal précis (flamme vive, huile bouillante, vapeur, acide/base)?
+      • durée d'exposition?
+    - "Lieu: espace clos? (risque inhalation fumées/CO)"
+    - |-
+      Signes associés:
+      • {s:respiratoires}: toux, {s:dysphonie}, dyspnée?
+      • {s:neurologiques}: perte de connaissance, convulsions, confusion?
+      • douleur: localisation, intensité 0-10?
+    - |-
+      Premiers soins réalisés:
+      • refroidissement: eau froide, durée (objectif {r:20 min})?
+      • retrait vêtements/bijoux non adhérents?
+      • pansements appliqués?
+      • antalgie: médicaments pris?
+  specifique:
+    - "Surface estimée: règle des 9 (tête 9% / MS 9% / tronc ant+post 18%+18% / MI 18%) ou {r:paume du patient = 1% SCT}"
+    - |-
+      Profondeur évaluée:
+      • {e:1er degré}: érythème sec, douloureux → coup de soleil
+      • {e:2e superficiel}: phlyctène + base rouge + douleur ++
+      • {e:2e profond}: fond pâle + douleur réduite + cheveux adhérents
+      • {e:3e degré}: cartonné, blanc/noir, indolore, anesthésie
+    - "Localisations à risque: face, mains/pieds, périnée, articulations, {s:circulaires}?"
+    - |-
+      Brûlure chimique: acide ou base?
+      • {r:décontamination: rinçage eau > 30 min} avec EPI
+      • acide fluorhydrique → chélation calcium [VÉRIFIER: protocole local gluconate Ca]
+    - |-
+      Brûlure électrique haute tension:
+      • points d'entrée/sortie visibles?
+      • {s:urines foncées} (myoglobinurie)?
+      • {s:troubles du rythme cardiaque}?
+  atcd:
+    - "Âge: < 5 ans ou > 60 ans (gravité majorée [VÉRIFIER: seuil SCT pédiatrique < 5 ans])"
+    - "Comorbidités: diabète, cardiopathie, immunodépression"
+    - "Vaccinations: statut tétanos +++ ({r:VAT si > 10 ans sans rappel; SAT + VAT si non vacciné})"
+    - "Allergies médicaments, latex"
+    - "Tabagisme: risque complications respiratoires"
+
+# source: line 83-110
+red_flags:
+  - description: "{s:Suie narines/bouche, vibrisses brûlées, stridor, dysphonie} — brûlure en espace clos"
+    dx_suspecte: "{p:Lésion thermique voies aériennes supérieures / inhalation fumées}"
+    action: "Intubation oro-trachéale PRÉVENTIVE avant installation de l'œdème; {r:O2 100% haut débit} immédiat"
+  - description: "{s:Brûlure circonférentielle thorax ou membres} — escarre cartonné"
+    dx_suspecte: "{p:Syndrome des loges / insuffisance respiratoire restrictive}"
+    action: "Escarotomie urgente (chirurgie) pour libérer mécanique respiratoire et perfusion distale"
+  - description: "{s:SCT > 20% adulte ou > 10% enfant} avec instabilité hémodynamique"
+    dx_suspecte: "{p:Choc hypovolémique / brûlure grave nécessitant réanimation}"
+    action: "Parkland: {r:4 mL × poids (kg) × % SCT en RL/24h} (½ en 8h + ½ en 16h); sonde urinaire; transfert centre brûlés [VÉRIFIER: seuil exact SCT enfant selon recommandations SFMU/SFB]"
+  - description: "{s:Coma, HbCO > 15%}, lactates élevés après incendie espace clos"
+    dx_suspecte: "{p:Intoxication au CO et/ou cyanure}"
+    action: "{r:O2 100% masque haute concentration} + {r:hydroxocobalamine 5 g IV} si intox cyanure suspectée; hospitalisation réanimation"
+  - description: "{s:Points d'entrée/sortie + urines foncées + arythmie} après brûlure électrique"
+    dx_suspecte: "{p:Brûlure électrique haute tension — rhabdomyolyse + arythmie + lésions internes}"
+    action: "ECG + monitoring cardiaque 24h; CK, myoglobine, créatinine; {r:alcalinisation urinaire si myoglobinurie} + hyperhydratation; avis chirurgie"
+
+# source: line 41-110
+examen:
+  general:
+    - "Constantes OBLIGATOIRES: TA, FC, FR, T°, {t:SaO2}, GCS"
+    - "Inspection cutanée: degré et surface de chaque zone brûlée"
+    - "État hémodynamique: signes de choc (tachycardie, marbrures, pouls filant)?"
+    - "Glycémie capillaire si diabète connu"
+  cible:
+    - |-
+      Classification profondeur par zone:
+      • 1er degré: érythème, sec, douloureux — ne compte PAS dans SCT pour Parkland
+      • 2e superficiel: phlyctène claire, fond rouge, très douloureux, sensibilité intacte
+      • 2e profond: phlyctène trouble/rompue, fond pâle, douleur réduite, cheveux adhérents
+      • 3e degré: cartonné, blanc nacré/brun/noir, indolore, anesthésie au test de la pointe
+    - "Calcul {t:SCT (%)} par règle des 9 de Wallace (adulte) ou Lund-Browder (enfant); paume = 1%"
+    - |-
+      Localisations à risque systématiques:
+      • face/cou: œdème VAS imminente?
+      • mains/pieds: séquelles fonctionnelles
+      • périnée: risque infectieux
+      • articulations: risque rétraction
+      • circulaires: pouls distaux, remplissage capillaire
+    - |-
+      Recherche inhalation fumées:
+      • suie narines/bouche, vibrisses brûlées
+      • dysphonie, stridor, tirage
+      • expectorations carbonacées
+    - |-
+      Si brûlure électrique:
+      • points entrée/sortie (marque noire)
+      • pouls distaux des membres atteints
+      • auscultation cardiaque, arythmie?
+
+# source: line 137-173
+dd_top5:
+  - dx: "{p:Brûlure thermique (flamme/liquide bouillant)}"
+    indices: "Mécanisme le plus fréquent; profondeur et SCT variables; risque inhalation si flamme"
+    freq: "très fréquent (> 90% des brûlures)"
+  - dx: "{p:Brûlure électrique (haute/basse tension)}"
+    indices: "Lésions internes profondes invisibles; arythmie, rhabdomyolyse, IRA; SCT surface trompeuse"
+    freq: "fréquent (accident travail, electrocution domestique)"
+  - dx: "{p:Brûlure chimique (acide/base)}"
+    indices: "Base = nécrose liquéfaction plus profonde que l'aspect; rinçage eau prolongé; acide fluorhydrique = urgence"
+    freq: "moins fréquent (accident industriel)"
+  - dx: "{p:Inhalation de fumées (CO + cyanure)}"
+    indices: "Incendie espace clos; HbCO élevée, lactates; trouble de conscience sans brûlures cutanées parfois"
+    freq: "fréquent dans incendies; mortalité élevée si non reconnu"
+  - dx: "{p:Brûlure pédiatrique avec suspicion maltraitance}"
+    indices: "Pattern atypique (brûlure en chaussette/gant, brûlure cigarette); délai de consultation; lésions multiples âges différents"
+    freq: "à exclure systématiquement chez enfant < 5 ans"
+
+# source: line 113-183
+pec_initiale:
+  immediate:
+    - "ABC en priorité — évaluer voies aériennes AVANT tout autre geste"
+    - |-
+      Refroidissement immédiat si < 3 heures:
+      • {r:eau tiède 15-25°C pendant 20 min}
+      • arrêter si frissons/hypothermie
+      • JAMAIS glace directe, corps gras, coton
+    - "Retirer vêtements non adhérents, bijoux; laisser tissus adhérents en place"
+    - |-
+      Antalgie adaptée à l'intensité:
+      • légère: {r:paracétamol 1 g PO x 4/j}
+      • modérée: {r:tramadol 50-100 mg x 3/j}
+      • sévère: {r:morphine titration IV}
+      • procédurale: MEOPA ou kétamine
+    - "Brûlure grave (> 20% SCT adulte): {r:Ringer lactate Parkland 4 mL × kg × % SCT}: ½ en {r:8h} + ½ en {r:16h}; diurèse cible {r:0.5–1 mL/kg/h}; sonde urinaire"
+    - "Tétanos: {r:VAT si non rappelé depuis > 10 ans}; {r:SAT + VAT si non vacciné}"
+    - "Thrombose veineuse: {r:HBPM si > 20% SCT ou alitement prolongé}"
+  orientation:
+    - "Domicile + médecin traitant: 1er degré ou 2e superficiel < 1% SCT, localisations non à risque, patient autonome"
+    - "Urgences hospitalières: > 10% SCT adulte (> 5% enfant), 2e profond/3e degré, localisation face/mains/périnée, brûlure chimique/électrique, inhalation suspectée, terrain (âges extrêmes, comorbidités)"
+    - "Centre spécialisé brûlés: > 20% SCT adulte (> 10% enfant), 3e degré > 5% SCT, brûlure électrique haute tension, inhalation avérée, polytraumatisme, brûlures circulaires"
+    - "Réanimation: toute instabilité hémodynamique, intoxication CO/CN, lésion VAS nécessitant intubation"
+
+# source: line 113-203
+examens_complementaires:
+  - "{t:Gaz artériels + HbCO + lactates}: toute suspicion inhalation fumées ou intoxication CO/CN"
+  - "{t:CK, myoglobine, créatinine, iono}: brûlure électrique ou > 20% SCT (rhabdomyolyse, IRA)"
+  - "{t:ECG + monitoring continu}: brûlure électrique (arythmie, bloc)"
+  - "{t:NFS, coagulation, bilan hépatique}: brûlure grave > 20% SCT ou polytraumatisme"
+  - "{t:Rx thorax}: inhalation suspectée, brûlure chimique acide, détresse respiratoire"
+  - "{t:SCT calculée + schéma corporel}: documentation initiale obligatoire avant Parkland [VÉRIFIER: outil Lund-Browder disponible localement]"
+
+criteres_hospitalisation:
+  - "SCT > 10% adulte (> 5% enfant), ou toute brûlure 2e profond / 3e degré"
+  - "Localisation face, mains, pieds, périnée, articulations majeures"
+  - "Brûlure électrique (haute ou basse tension) ou chimique"
+  - "Suspicion inhalation fumées ou intoxication CO/CN"
+  - "Terrain: âges extrêmes (< 5 ans, > 60 ans), comorbidités significatives, suspicion maltraitance"
+
+pieges:
+  - "Sous-estimer une {p:brûlure électrique}: la SCT visible est trompeuse — les lésions internes (rhabdomyolyse, arythmie) sont profondes et invisibles"
+  - "Retarder l'intubation: l'œdème laryngé s'installe en quelques heures — intuber {e:AVANT} que la VAS se ferme"
+  - "Omettre le rinçage prolongé d'une {p:brûlure chimique}: > 30 min d'eau même si 'ça brûle moins' — les bases pénètrent en profondeur"
+  - "Inclure le 1er degré dans le calcul SCT pour Parkland → surévaluation et surcharge volémique"
+  - "Oublier le statut vaccinal tétanos et la thromboprophylaxie chez brûlé grave alité"
+
+cartes_liees:
+  - SYS-URG
+  - SSP-URG-10

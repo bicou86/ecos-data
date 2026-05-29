@@ -1,0 +1,185 @@
+id: SSP-URG-14
+type: ssp
+title: Chute
+discipline: Urgences
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Chute.md
+
+# source: line 15-105
+anamnese:
+  socrates:
+    - |-
+      Site des douleurs:
+      • localisation précise (membre, rachis, crâne)
+      • irradiation distale ou radiculaire?
+      • unilatéral ou bilatéral?
+    - |-
+      Onset — mécanisme traumatique:
+      • circonstances (lieu, activité, témoins)
+      • énergie: faible ({e:personne âgée, os fragile}) / moyenne / haute ({e:AVP, sport})
+      • hauteur de chute, surface de réception
+      • position de réception (membre tendu, latérale)
+    - |-
+      Character:
+      • lancinante / sourde / pulsatile?
+      • impotence fonctionnelle: partielle ou totale?
+      • déformation visible, gonflement?
+    - "Radiation: paresthésies distales, engourdissements → atteinte vasculo-nerveuse?"
+    - |-
+      Time:
+      • heure de la chute, délai avant consultation
+      • {s:station prolongée au sol} (> 1h → rhabdomyolyse + hypothermie)?
+    - |-
+      Exacerbating/Relieving:
+      • facteurs aggravants (mise en charge, rotation)
+      • soulagement partiel en immobilisation?
+    - "Severity: intensité 0-10; impact AVQ, membre dominant atteint?"
+  specifique:
+    - |-
+      Cause de la chute — TOUJOURS demander pourquoi le patient est tombé:
+      • {s:prodrome / perte de connaissance} avant la chute → syncope à éliminer
+      • {s:vertiges}, malaise, palpitations avant impact?
+      • simple trébuchement, obstacle, sol glissant?
+    - "Récupération post-chute: état post-critique, confusion, amnésie → épilepsie / syncope?"
+    - |-
+      {s:Syndrome post-chute} (sujet âgé):
+      • refus de se relever, peur de retomber
+      • rétropulsion, désadaptation psychomotrice
+    - "Violence domestique: histoire cohérente avec lésions? Délai consultation? Partenaire contrôlant présent?"
+    - "Évaluation risque grossesse avant toute irradiation (femmes en âge de procréer)"
+  atcd:
+    - |-
+      Facteurs prédisposants chutes:
+      • troubles équilibre, vertiges récurrents
+      • {e:hypotension orthostatique} (se lever, repas)
+      • déficits sensoriels (vision, audition)
+      • ATCD chutes / fractures antérieures
+    - |-
+      Médicaments à risque (STOPP-START [VÉRIFIER: liste STOPP complète]):
+      • {r:BZD, neuroleptiques, antihypertenseurs, diurétiques, hypoglycémiants}
+      • anticoagulants (AVK/AOD → risque hémorragique si TC)
+    - "Ostéoporose, corticothérapie prolongée, maladies osseuses?"
+    - "Comorbidités: Parkinson, démence, {p:AVC} séquellaire, diabète neuropathique?"
+    - "Troubles hémostase: ecchymoses spontanées, anticoagulants, antiagrégants?"
+
+# source: line 107-155
+red_flags:
+  - description: "{s:Perte de connaissance} / syncope AVANT la chute (prodrome, amnésie)"
+    dx_suspecte: "{p:Syncope cardiaque} (arythmie, BAV, {p:IDM}), épilepsie, {p:AVC}"
+    action: "{t:ECG 12 dérivations} + {t:troponines} + glycémie STAT; monitoring continu; {t:écho-cœur} si suspicion structurale"
+  - description: "{s:Raccourcissement + rotation externe MI} + impotence fonctionnelle totale post-chute sujet âgé"
+    dx_suspecte: "{p:Fracture col fémoral}"
+    action: "{t:Radiographie bassin face + hanche} urgente; antalgie opioïde IV; chirurgie < {r:48h} [VÉRIFIER: seuil chirurgical <24h vs <48h selon centre]"
+  - description: "{s:TC + anticoagulants} (AVK ou AOD), même si Glasgow normal"
+    dx_suspecte: "{p:Hématome sous-dural (HSD)} / {p:HED} différé"
+    action: "{t:CT cérébral} sans contraste systématique; antidote anticoagulant si saignement actif"
+  - description: "{s:Station prolongée au sol > 1h} — impossibilité de se relever seul"
+    dx_suspecte: "{p:Rhabdomyolyse}, hypothermie, déshydratation sévère, escarres précoces"
+    action: "{t:CK + ionogramme + créatinine} STAT [VÉRIFIER: seuil CK pour alcalinisation — généralement > 5000 UI/L]; réchauffement; hydratation IV agressive"
+  - description: "{s:Douleur disproportionnée + paresthésies distales + tension compartimentale} après fracture"
+    dx_suspecte: "{p:Syndrome des loges (compartiment)}"
+    action: "Aponévrotomie urgente; mesure pression intracompartimentale; NE PAS surélever le membre"
+  - description: "{s:Déficit neurologique focal nouveau} (hémiparésie, aphasie, diplopie) ou altération de conscience post-chute"
+    dx_suspecte: "{p:AVC} / {p:AIT}, {p:hématome intracrânien}"
+    action: "AVC pathway; {t:CT cérébral} STAT; neurologie urgente"
+
+# source: line 107-155
+examen:
+  general:
+    - "Signes vitaux: {t:TA debout/couché} (ΔsystTA ≥ {r:20 mmHg} = HTO [VÉRIFIER: seuil HTO gériatrique: ≥20 mmHg systolique ou ≥10 mmHg diastolique]), FC, T°, SaO2, glycémie"
+    - "{t:Score de Glasgow} si traumatisme crânien ou altération conscience"
+    - "État général: détresse, coloration cutanéo-muqueuse (pâleur → anémie/choc)"
+    - "Inspection cutanée: ecchymoses multiples stades différents → violence domestique?"
+  cible:
+    - |-
+      Examen traumatologique ciblé (inspection comparative membre sain vs lésé):
+      • {s:déformation}: angulation, raccourcissement
+      • {s:gonflement}: oedème, hématome
+      • {s:plaies}: profondeur, souillure, fracture ouverte?
+    - |-
+      Palpation méthodique:
+      • douleur localisée sur points osseux
+      • {s:crépitations osseuses} → fracture
+      • {t:pouls distaux comparatifs bilatéraux} + temps recoloration (< {r:2 sec} normal)
+      • température cutanée: gradient thermique?
+    - |-
+      Testing neurologique périphérique (traumatismes membres supérieurs):
+      • Radial: tabatière anatomique (sensitif) + extension pouce/poignet (moteur)
+      • Médian: pulpe index (sensitif) + opposition pouce (moteur)
+      • Ulnaire: pulpe auriculaire (sensitif) + écartement doigts (moteur)
+    - |-
+      Examen cardiovasculaire/neurologique (recherche cause):
+      • rythme cardiaque (arythmie?)
+      • examen neurologique sommaire: force 4 membres, ROT, Babinski, orientation
+    - |-
+      Évaluation gériatrique si sujet âgé:
+      • {t:Get-Up-and-Go test} / {t:Timed Up and Go} ({r:> 14 sec} = risque élevé récidive [VÉRIFIER: seuil TUG ≥12 sec ou ≥14 sec selon référence])
+      • {t:MMSE} si troubles cognitifs suspectés
+
+# source: line 172-181
+dd_top5:
+  - dx: "{p:Cause mécanique/environnementale}"
+    indices: "Trébuchement sur obstacle, sol glissant, chaussures inadéquates; mécanisme cohérent, pas de prodrome; représente ~50% des chutes du sujet âgé"
+    freq: "très fréquent (50% chutes âgés)"
+  - dx: "{p:Hypotension orthostatique (HTO)}"
+    indices: "Malaise/vertiges au lever ou post-prandial; ΔTA ≥ 20 mmHg systolique; contexte: anti-HTA, diurétiques, déshydratation, anémie, autonomique"
+    freq: "fréquent (15-30% âgés)"
+  - dx: "{p:Cause cardiaque / syncope}"
+    indices: "{s:Perte de connaissance brutale sans prodrome} (arythmie, BAV) ou précédée de palpitations ({p:TPSV, TV}); {p:IDM} silencieux (diabétique/âgé); ECG systématique"
+    freq: "fréquent (15-20% syncopes)"
+  - dx: "{p:Cause neurologique}"
+    indices: "{p:AVC/AIT} (déficit focal), {p:Parkinson} (rigidité, micrographie), démence (trouble démarche), neuropathie périphérique (pied steppage); TUG allongé"
+    freq: "fréquent (terrain neurologique préexistant)"
+  - dx: "{p:Cause iatrogène}"
+    indices: "Chute sous {r:BZD, neuroleptiques, antihypertenseurs, hypoglycémiants}; polymédication ≥ 5 médicaments; révision systématique liste STOPP"
+    freq: "fréquent — première cause évitable"
+
+# source: line 183-229
+pec_initiale:
+  immediate:
+    - "Antalgie RAPIDE: {r:paracétamol 1g × 4/j PO} ± {r:ibuprofène 400mg × 3/j} si pas de CI; opioïdes faibles si douleur intense (tramazol, codéine)"
+    - "Fracture confirmée: immobilisation (attelle/écharpe), glace locale {r:15-20 min × 3-4/j} premières 48h, surélévation"
+    - "Fracture déplacée / col fémoral: référence orthopédique urgente; chirurgie < {r:48h}; préparation anesthésique"
+    - "TC + anticoagulants: {t:CT cérébral} systématique même si asymptomatique; antidote si saignement"
+    - "HTO confirmée: adapter médicaments antihypertenseurs, hydratation, bas de contention"
+    - "Violence domestique suspectée: entretien seule obligatoire; questions directes non-jugeantes; documentation (photos); plan de sécurité + ressources (numéros refuges)"
+    - "Syndrome post-chute: rééducation précoce kinésithérapie; éviter contention; prévention dépendance/institutionnalisation"
+  orientation:
+    - "Domicile + médecin traitant: traumatisme faible énergie, imagerie normale, bilan neuro-vasculaire distal intact, pas de red flag"
+    - "Urgences/hospit: fracture déplacée/ouverte, TC avec anticoagulants, syncope cardiaque suspectée, syndrome des loges, station prolongée avec rhabdomyolyse, contexte social défavorable"
+    - "Gériatrie ambulatoire: ≥ 2 chutes/an ou TUG > 14 sec → bilan préventif: vitamine D, ostéoporose, aménagement domicile"
+    - "Consignes retour urgences: aggravation douleur, troubles sensitifs/moteurs nouveaux, changement coloration membre, abolition pouls distaux, fièvre"
+
+# source: line 158-171
+examens_complementaires:
+  - "{t:ECG 12 dérivations}: systématique si syncope suspectée, chute inexpliquée, > 65 ans"
+  - "{t:Radiographie} standard 2 incidences minimum: selon impact clinique (membre, rachis, bassin)"
+  - "{t:CT cérébral} sans contraste: TC + anticoagulants ou GCS < 15 ou déficit neurologique focal"
+  - "{t:CK + ionogramme + créatinine + NFS}: station prolongée > 1h (rhabdomyolyse), syncope (troponines +)"
+  - "{t:Glycémie, TP/TCA}: systématique si anticoagulants, si troubles conscience, avant imagerie avec contraste"
+  - "{t:Timed Up and Go (TUG)}: évaluation risque récidive chute; CRP + VS si infection déclenchante suspectée"
+
+# source: line 210-215
+criteres_hospitalisation:
+  - "{p:Fracture ouverte ou déplacée} nécessitant chirurgie"
+  - "{p:Syndrome des loges} (urgence chirurgicale)"
+  - "{s:Atteinte neuro-vasculaire distale} confirmée"
+  - "{p:TC avec anticoagulants} ou altération de conscience"
+  - "Station prolongée > 1h ({p:rhabdomyolyse}, hypothermie) ou contexte social défavorable"
+
+# source: line 269-279
+pieges:
+  - "Oublier de demander POURQUOI le patient est tombé — la chute est un symptôme, pas un diagnostic: chercher la cause (syncope, médicament, infection)"
+  - "Omettre l'examen neuro-vasculaire distal comparatif → passer à côté d'une atteinte du nerf radial ou d'une ischémie aiguë"
+  - "Accepter histoire incohérente avec lésions sans explorer violence domestique — entretien seule obligatoire si doute"
+  - "Ne pas réaliser de CT cérébral chez un patient sous anticoagulants après TC, même si Glasgow 15 et asymptomatique"
+  - "Sous-estimer un {s:raccourcissement + rotation externe MI} chez le sujet âgé comme 'simple contusion' — fracture col fémoral jusqu'à preuve du contraire"
+
+cartes_liees:
+  - SSP-URG
+  - SYS-MSQ
+  - TOOL-TUG
+  - SSP-GER

@@ -1,0 +1,167 @@
+id: SSP-URG-04
+type: ssp
+title: Polytraumatisme
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Polytraumatisme.md
+
+# source: lines 65-84
+anamnese:
+  socrates:
+    - |-
+      Mécanisme / énergie traumatique (ATLS):
+      • type: AVP, chute > 3 m, écrasement, explosion, traumatisme pénétrant
+      • énergie: vitesse impact, déformation véhicule, hauteur chute
+      • protection: ceinture, casque, airbag? éjection du véhicule?
+    - "Délai et évolution sur les lieux: perte de connaissance (durée?), premiers secours, médicalisation?"
+    - |-
+      AMPLE (antécédents urgents):
+      • {s:A}llergies médicamenteuses
+      • {s:M}édicaments (anticoagulants, antiagrégants, antihypertenseurs)
+      • {s:P}assé médical (pathologies chroniques, chirurgies)
+      • {s:L}ast meal (heure dernière prise alimentaire)
+      • {s:É}vénements précédant le trauma (syncope, malaise, toxiques?)
+  specifique:
+    - "État de conscience initial vs actuel: perte de connaissance? durée? intervalle libre?"
+    - |-
+      Douleurs localisées:
+      • crâne / rachis cervical / thorax / abdomen / bassin / membres?
+      • douleur disproportionnée d'un membre → {s:syndrome de loge}?
+    - "Dyspnée, stridor, tirage → atteinte respiratoire?"
+    - "Saignement extériorisé visible: plaie active, hématurie, hématémèse?"
+  atcd:
+    - "Traitement anticoagulant / antiagrégant → risque hémorragique majoré [VÉRIFIER: seuil INR cible sous AVK pour décision neurochirurgicale]"
+    - "Pathologies cardiaques ou respiratoires (réserves limitées)"
+    - |-
+      Spécificités pédiatriques si enfant:
+      • âge exact → valeurs normales FC/TA âge-dépendantes
+      • rechercher maltraitance si mécanisme discordant
+
+# source: lines 27-64, 86-134
+examen:
+  general:
+    - |-
+      PRIMARY SURVEY — ABCDE (séquentiel, interrompre si red flag):
+      • {t:A} Airway: parole normale? stridor? corps étranger? fractures faciales? → minerve systématique
+      • {t:B} Breathing: FR, SaO2 (cible {r:> 95 %}), auscultation symétrique, percussion (tympanisme? matité?)
+      • {t:C} Circulation: FC, TA, TRC ({r:< 3 s}), pouls périphériques, contrôle hémorragies externes (compression directe)
+      • {t:D} Disability: {t:GCS} (pédiatrique si < 2 ans), pupilles (taille, symétrie, réactivité), déficit moteur, glycémie capillaire
+      • {t:E} Exposure: déshabillage total, prévention hypothermie (couvertures chauffantes)
+    - "Monitoring continu: FC, TA, SaO2, ECG; 2 VVP G16-18 (ou intraosseuse) [VÉRIFIER: calibre VVP recommandé en pédiatrie]"
+    - "Valeurs normales pédiatriques: FC/FR/TA âge-dépendantes (ne pas appliquer normes adultes)"
+  cible:
+    - |-
+      Thorax:
+      • inspection: déformation, asymétrie, plaies soufflantes
+      • palpation: emphysème sous-cutané, instabilité costale (volet)
+      • percussion: {s:tympanisme unilatéral} → pneumothorax; {s:matité} → hémothorax
+      • auscultation: murmure vésiculaire absent unilatéral + déviation trachée → pneumothorax sous tension
+    - |-
+      Abdomen / bassin:
+      • {s:défense, contracture}: péritonite / hémorragie intra-abdominale
+      • {s:ecchymoses Cullen / Grey Turner}: hémorragie rétropéritonéale tardive
+      • bassin: asymétrie, mobilité crêtes iliaques (un seul testing!) → fracture instable
+    - |-
+      Neurologique:
+      • {t:GCS} répété; {s:mydriase unilatérale} + chute GCS → engagement temporal
+      • {s:intervalle libre} (brève PCO puis récupération puis redégradation) → HED
+      • déficit moteur / sensitif focal → lésion médullaire?
+    - "Membres: déformation, pouls distaux, température, {s:douleur disproportionnée / compartiment tendu} → syndrome de loge"
+
+# source: lines 136-160
+dd_top5:
+  - dx: "{p:Choc hémorragique}"
+    indices: "{s:TAS < 90 mmHg}, FC > 120/min, marbrures, extrémités froides, lactates élevés; hémorragie cavitaire (thorax, abdomen, pelvis) ou fémorale"
+    freq: "très fréquent en polytrauma, cause principale de mortalité évitable"
+  - dx: "{p:Traumatisme crânien grave (HED/HSD/contusion)}"
+    indices: "{s:Chute GCS}, {s:mydriase unilatérale}, {s:intervalle libre} (HED); GCS initial < 8 = TC grave; TDM cérébral STAT"
+    freq: "fréquent; 2e cause de mortalité en polytrauma"
+  - dx: "{p:Pneumothorax sous tension}"
+    indices: "{s:Détresse respiratoire aiguë} + {s:tympanisme unilatéral} + {s:déviation trachée controlatérale} + {s:distension veines jugulaires}; DEM possible"
+    freq: "urgence vitale immédiate, rare mais mortel si non traité"
+  - dx: "{p:Tamponnade péricardique}"
+    indices: "Triade de Beck: {s:hypotension + turgescence jugulaire + bruits cardiaques assourdis}; trauma pénétrant thoracique; {t:FAST positif} (épanchement péricardique)"
+    freq: "rare mais urgence chirurgicale absolue"
+  - dx: "{p:Lésion médullaire cervicale}"
+    indices: "{s:Tétraplégie / paraplégie}, {s:priapisme}, {s:hypotension sans tachycardie} (choc neurogène), perte de sensibilité; mécanisme flexion-extension"
+    freq: "rare; séquelles définitives si non immobilisé d'emblée"
+
+# source: lines 27-64, 162-212
+red_flags:
+  - description: "{s:TAS < 90 mmHg} + {s:FC > 120/min} + marbrures + {s:lactates > 4 mmol/L}"
+    dx_suspecte: "{p:Choc hémorragique massif}"
+    action: "MTP 1:1:1 (CGR:PFC:plaquettes); {r:acide tranexamique 1 g IV} dans les {r:3 premières heures}; chirurgie damage control < {r:60 min}; ne pas attendre normalisation TA [VÉRIFIER: seuil TA cible en damage control resuscitation (permissive hypotension: TAS 80-90?)]"
+  - description: "{s:Détresse respiratoire} + {s:tympanisme unilatéral} + {s:déviation trachée} ou {s:absence MV unilatéral}"
+    dx_suspecte: "{p:Pneumothorax sous tension}"
+    action: "{r:Exsufflation immédiate} 2e EIC ligne médio-claviculaire (aiguille G14-16); puis {r:drain thoracique} 4e-5e EIC ligne axillaire antérieure"
+  - description: "{s:Triade de Beck}: hypotension + turgescence jugulaires + bruits cardiaques assourdis — trauma pénétrant ou thorax fermé"
+    dx_suspecte: "{p:Tamponnade péricardique}"
+    action: "{t:FAST} péricardique STAT; si confirmée → {r:péricardiocentèse} + chirurgie thoracique urgente"
+  - description: "{s:Chute du GCS} + {s:mydriase unilatérale} ± {s:intervalle libre} après traumatisme crânien"
+    dx_suspecte: "{p:Hématome extra-dural (HED) / engagement temporal}"
+    action: "{t:TDM cérébral} STAT; neurochirurgie évacuation en urgence; osmothérapie ({r:mannitol 1 g/kg IV} ou {r:SSH 3 %}) si engagement imminent"
+  - description: "{s:Tétraplégie} / {s:paraplégie} / {s:priapisme} / {s:hypotension sans tachycardie} après trauma à haute énergie"
+    dx_suspecte: "{p:Lésion médullaire cervicale / choc neurogène}"
+    action: "Immobilisation rachis maintenue (minerve + plan dur); {t:IRM rachis} urgente ou {t:TDM rachis}; avis neurochirurgie; ne pas remplir agressivement (risque oedème médullaire)"
+
+# source: lines 136-160
+examens_complementaires:
+  - "{t:FAST (eFAST)} écho thoraco-abdomino-péricardique: liquide libre, épanchement pleural/péricardique — 1er examen au déchocage"
+  - "{t:Body-scan TDM corps entier} avec injection: patient hémodynamiquement stable; détection lésions occultes thoraco-abdominales et cérébrales [VÉRIFIER: seuil de stabilité hémodynamique pour body-scan (TAS > 90 sous remplissage?)]"
+  - |-
+    {t:Radiographies standard} (si body-scan non disponible ou instable):
+    • thorax face (pneumothorax, hémothorax, élargissement médiastin)
+    • bassin face (fracture instable)
+    • rachis cervical face-profil-bouche ouverte
+  - "Biologie urgente: {t:FSC} + {t:crase} (TP, TCA, fibrinogène) + {t:groupe + RAI} + {t:gaz artériels} + {t:lactates} + ionogramme + créatinine"
+  - "{t:TDM cérébral} sans contraste STAT: GCS < 14, perte de connaissance, amnésie, vomissements, mydriase"
+  - "{t:ECG}: trauma thoracique (contusion myocardique, arythmie?)"
+
+# source: lines 194-213
+criteres_hospitalisation:
+  - "Tout polytraumatisme à haute énergie → hospitalisation systématique (USI ou bloc opératoire)"
+  - "{p:Choc hémorragique}: bloc opératoire urgence / damage control surgery"
+  - "{t:GCS < 14} ou {s:déficit neurologique focal}: USI ± neurochirurgie"
+  - "Fractures instables (bassin, fémurs, rachis cervical): orthopédie / neurochirurgie"
+  - "Détresse respiratoire, pneumothorax, hémothorax: USI ± chirurgie thoracique"
+
+# source: lines 162-212
+pec_initiale:
+  immediate:
+    - "Primary survey ABCDE SIMULTANÉ à la mise en place monitoring et 2 VVP G16-18; {r:O2 15 L/min MHC}"
+    - "Contrôle hémorragies externes: compression directe, garrot si membre (durée notée)"
+    - |-
+      Damage Control Resuscitation si choc:
+      • {r:MTP 1:1:1} (CGR:PFC:plaquettes)
+      • {r:acide tranexamique 1 g IV} si < 3 h du trauma (puis {r:1 g IV en 8 h})
+      • objectifs: {r:Hb > 70 g/L}, {r:plaquettes > 50 G/L}, {r:fibrinogène > 1.5 g/L}
+      • éviter hypothermie (couvertures chauffantes) + acidose (correction pH) + coagulopathie (triade létale)
+    - "Immobilisation rachis cervical: minerve rigide + plan dur dès la prise en charge pré-hospitalière"
+    - |-
+      Spécificités pédiatriques:
+      • remplissage: {r:NaCl 0.9 % 20 mL/kg} bolus, réévaluation, max {r:60 mL/kg}
+      • attention compensation hémodynamique prolongée → décompensation brutale tardive
+      • hypothermie rapide → réchauffement actif prioritaire
+    - "Analgésie systématique (ne pas retarder): {r:morphine 0.1 mg/kg IV} ± {r:paracétamol 15 mg/kg IV}"
+  orientation:
+    - "Bloc opératoire urgence: hémorragie non contrôlée, hémodynamique instable, signes péritonéaux, HED / HTIC avec engagement"
+    - "USI / Réanimation: détresse respiratoire, GCS < 14, surveillance post-opératoire"
+    - "Traumacenter niveau 1 (critères Vittel): mécanisme grave, signes vitaux altérés, lésions évidentes multiples"
+    - "Secondary survey 'head to toe' après stabilisation primaire (examen systématique de la tête aux pieds)"
+
+# source: lines 280-294
+pieges:
+  - "Sous-estimer gravité chez l'enfant: maintien TA longtemps par vasoconstriction → décompensation brutale; {s:bradycardie chez l'enfant} = signe de gravité extrême (pas tachycardie)"
+  - "Appliquer les normes adultes à l'enfant: FC, TA, doses médicaments → utiliser tables pédiatriques"
+  - "Mobiliser le rachis sans précaution avant élimination lésion cervicale → maintien minerve jusqu'à imagerie"
+  - "Retarder le damage control surgery en cherchant un diagnostic complet chez un patient instable → body-scan CI si instabilité hémodynamique"
+  - "Omettre l'acide tranexamique: {r:efficacité nulle si > 3 h} du trauma (CRASH-2); administrer dès l'arrivée en choc hémorragique"
+
+cartes_liees:
+  - SSP-URG-01
+  - SYS-ABCDE
+  - TOOL-GCS
+  - SSP-NEU-04

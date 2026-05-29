@@ -1,0 +1,150 @@
+id: SSP-URG-01
+type: ssp
+title: Choc
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Choc.md
+
+# source: lines 1-26 (définition, classification)
+anamnese:
+  socrates:
+    - |-
+      Onset:
+      • heure exacte de début, installation brutale ou progressive?
+      • circonstances: traumatisme, acte médical, fièvre, effort?
+    - |-
+      Character — type de défaillance orientant:
+      • hémorragique: hématémèse, méléna, traumatisme, GEU?
+      • infectieux: fièvre, frissons, foyer (urinaire/respi/abdo/cutané)?
+      • cardiaque: douleur thoracique, dyspnée, palpitations?
+      • allergique: contact allergène (médicament, aliment, piqûre)?
+    - "Évolution: aggravation progressive vs rapide, réponse à un traitement déjà reçu?"
+    - |-
+      Severity subjective:
+      • sensation d'évanouissement, agitation, confusion?
+      • oligurie / dernières urines?
+  specifique:
+    - "Choc hémorragique — quantité estimée de sang perdu, anticoagulants/antiagrégants en cours, GEU/post-partum?"
+    - "Choc septique — foyer infectieux identifié, immunosuppression connue (cancer, corticoïdes, VIH)?"
+    - "Choc cardiogénique — ATCD coronaropathie/IC connue, ECG ancien disponible?"
+    - "Choc anaphylactique — délai d'apparition après contact (minutes), ATCD anaphylaxie antérieure ou asthme?"
+  atcd:
+    - "Cardiopathie, coronaropathie, IC, FA — {r:β-bloquants} (masquent la tachycardie)?"
+    - "Insuffisance rénale / hépatique (modifient tolérance au remplissage et dosages)"
+    - "Anticoagulants, antiagrégants, AINS — aggravation hémorragie?"
+    - "Immunosuppression: cancer, greffe, corticothérapie chronique — risque sepsis à germes atypiques?"
+    - "Grossesse en cours: hémorragie obstétricale (HPP, GEU), embolie amniotique?"
+
+# source: lines 83-109 (signes cliniques, ABCDE, qSOFA)
+red_flags:
+  - description: "{s:Foyer infectieux} + {s:hypotension} TAS < 90 mmHg + {s:lactates > 2 mmol/L} malgré remplissage"
+    dx_suspecte: "{p:Choc septique}"
+    action: "Hémocultures x2 AVANT ATB; {r:pipéracilline-tazobactam + vancomycine IV} < 1 h; {r:cristalloïdes 30 mL/kg}; {r:noradrénaline} si PAM < 65 réfractaire [VÉRIFIER: choix ATB empirique selon foyer et protocole local CHUV/HUG]"
+  - description: "{s:Hémorragie extériorisée ou traumatisme} + {s:TAS < 90 mmHg} + {s:tachycardie > 100 bpm}"
+    dx_suspecte: "{p:Choc hémorragique}"
+    action: "Compression directe; {r:acide tranexamique 1 g IV} si < 3 h; transfusion massive {r:CGR:PFC:plaquettes 1:1:1}; embolisation/chirurgie hémostatique urgente [VÉRIFIER: seuil Hb pour transfusion CGR (70 vs 90 g/L selon comorbidités)]"
+  - description: "{s:Douleur thoracique} ou {s:OAP} + {s:TAS < 90 mmHg} + {s:bradycardie ou tachycardie irrégulière}"
+    dx_suspecte: "{p:Choc cardiogénique} sur IDM / arythmie"
+    action: "{t:ECG 12 dérivations} STAT; {t:troponines} + {t:écho-cœur} urgents; {r:dobutamine 5-20 μg/kg/min}; revascularisation coronaire (angioplastie) si IDM"
+  - description: "{s:Urticaire} + {s:œdème laryngé / bronchospasme} + {s:hypotension} après contact allergène"
+    dx_suspecte: "{p:Choc anaphylactique}"
+    action: "{r:Adrénaline 0.5 mg IM cuisse externe} immédiat; répéter 5-10 min si besoin; {r:remplissage cristalloïdes}; {r:méthylprednisolone 1-2 mg/kg IV}; antihistaminiques H1+H2 [VÉRIFIER: dose adrénaline IM adulte — 0.3 vs 0.5 mg selon source]"
+  - description: "{s:Triade de Beck}: TJ + hypotension + bruits cardiaques assourdis; {s:pouls paradoxal > 20 mmHg}"
+    dx_suspecte: "{p:Tamponnade péricardique}"
+    action: "{t:Écho-cœur} en urgence (épanchement + collapsus VD); {r:péricardiocentèse} immédiate si instabilité hémodynamique"
+  - description: "{s:Dyspnée brutale} + {s:désaturation} + {s:tachycardie} ± asymétrie auscultatoire / déviation trachée"
+    dx_suspecte: "{p:EP massive} ou {p:pneumothorax sous tension}"
+    action: "EP: {t:angio-CT thorax} ou {t:écho-cœur} (VD dilaté); {r:thrombolyse IV} si instabilité / {r:embolectomie}; PNO sous tension: exsufflation {r:aiguille 2ème EIC} ligne médioclaviculaire STAT"
+
+# source: lines 80-135 (ABCDE, signes spécifiques par type)
+examen:
+  general:
+    - "Signes vitaux: PA (les 2 bras), FC, FR, T°, SaO₂, {t:Glasgow} — mesures répétées toutes les 5-15 min"
+    - "Monitoring continu: scope cardiaque, oxymétrie, diurèse horaire (sonde vésicale)"
+    - "État de conscience: agitation, confusion, obnubilation → hypoperfusion cérébrale"
+    - "Temps de recoloration cutanée > 3 sec, marbrures (membres inférieurs en premier), cyanose, sueurs"
+  cible:
+    - |-
+      {s:Circulation (C)} — évaluation hémodynamique:
+      • TAS < 90 mmHg ou PAM < 65 mmHg = choc patent
+      • FC > 100 (attention β-bloquants masquent la tachy)
+      • {t:qSOFA} ≥ 2: altération GCS + FR ≥ 22 + PAS ≤ 100 → suspicion choc septique
+    - |-
+      Orientation étiologique:
+      • {s:extrémités froides, marbrures, TJ absent} → hypovolémique ou cardiogénique
+      • {s:extrémités chaudes, vasodilatées} → distributif (septique, anaphylactique)
+      • {s:TJ, galop B3, crépitants} → cardiogénique (IC gauche)
+      • {s:pouls paradoxal > 20 mmHg, bruits sourds} → tamponnade
+      • {s:urticaire, angio-œdème, bronchospasme} → anaphylactique
+    - |-
+      Examen ciblé selon orientation:
+      • Abdomen: défense, hémorragie interne, GEU (masse pelvienne)?
+      • Auscultation: crépitants (OAP), MV diminué asymétrique (PNO)?
+      • Peau: purpura (sepsis méningococcique), éruption (anaphylaxie)?
+      • Pupilles + GCS: hypoperfusion cérébrale sévère?
+
+# source: lines 138-162 (examens complémentaires)
+examens_complementaires:
+  - "{t:Gaz artériels + lactates}: pH < 7.35 (acidose métabolique), {r:lactates > 2 mmol/L} = hypoperfusion → gravité et suivi thérapeutique"
+  - "{t:NFS + coagulation} (TP, TCA, fibrinogène): hémorragie — Hb, thrombopénie, CIVD?"
+  - "{t:Ionogramme + créatinine + glycémie}: hyperkaliémie, IRA, hypoglycémie?"
+  - "{t:Troponines + ECG}: suspicion choc cardiogénique / IDM"
+  - "{t:Hémocultures x2} avant ATB + ECBU + CRP/PCT: bilan infectieux si sepsis"
+  - "{t:Échographie FAST + écho-cœur}: épanchement péricardique/péritonéal, fonction VG, tamponnade, VD dilaté (EP)"
+
+# source: lines 165-230 (PEC, réponse thérapeutique, critères hospit)
+pec_initiale:
+  immediate:
+    - "ABC: voies aériennes libres; O₂ haut débit si SaO₂ < 94%; intubation si GCS < 8"
+    - "2 VVP G16 minimum + prélèvements STAT (GDS, lactates, NFS, iono, coag, hémocultures)"
+    - |-
+      Remplissage vasculaire initial:
+      • {r:cristalloïdes 500 mL/15 min} IV, réévaluer après chaque bolus (PAM, diurèse, lactates)
+      • Éviter sur-remplissage si choc cardiogénique (aggrave OAP)
+    - "Vasopresseurs si PAM < 65 réfractaire: {r:noradrénaline} 1ère ligne (0.1-3 μg/kg/min) [VÉRIFIER: posologie noradrénaline et protocole titration locale]"
+    - "Traitement étiologique SANS DÉLAI (voir red flags): ATB, adrénaline, dobutamine, péricardiocentèse selon type"
+    - "Critères de réponse: PAM > 65 mmHg + diurèse > 0.5 mL/kg/h + lactates décroissants + amélioration marbrures"
+  orientation:
+    - "Réanimation / USI: tout choc nécessitant vasopresseurs, ventilation mécanique, ou ECMO"
+    - "Urgences avec monitoring: choc compensé répondant au remplissage initial, surveillance ≥ 24 h"
+    - "Bloc opératoire / radiologie interventionnelle: hémorragie interne, tamponnade, EP massive"
+    - "Retour à domicile IMPOSSIBLE en état de choc — hospitalisation systématique"
+
+# source: lines 260-266 (pièges ECOS)
+pieges:
+  - "Retarder le traitement étiologique pour attendre tous les examens — ATB dans l'heure, adrénaline immédiate"
+  - "Sur-remplir un {p:choc cardiogénique}: les cristalloïdes aggravent l'OAP → diurétiques + inotropes en 1ère ligne"
+  - "Méconnaître un {s:β-bloquant} masquant la tachycardie: choc possible malgré FC 'normale' (< 100)"
+  - "Oublier une source hémorragique INTERNE: abdomen, rétropéritonéal, thorax — échographie FAST systématique"
+  - "Confondre choc distributif et hypovolémique: extrémités CHAUDES + vasodilatation = sepsis/anaphylaxie, pas déshydratation"
+
+dd_top5:
+  - dx: "{p:Choc septique}"
+    indices: "Foyer infectieux + TAS < 90 + lactates > 2 malgré remplissage; qSOFA ≥ 2; fièvre ou hypothermie; extrémités chaudes"
+    freq: "1ère cause de choc en réanimation; mortalité 20-40 %"
+  - dx: "{p:Choc hémorragique}"
+    indices: "Traumatisme / hémorragie extériorisée / interne; tachycardie + hypotension; 4 classes ATLS selon % perte sanguine"
+    freq: "Très fréquent; urgence chirurgicale si source interne"
+  - dx: "{p:Choc cardiogénique}"
+    indices: "IDM ou IC connue + OAP + hypotension; crépitants + galop B3; troponines élevées; FEVG effondrée à l'écho"
+    freq: "Mortalité 40-60 % sans revascularisation rapide"
+  - dx: "{p:Choc anaphylactique}"
+    indices: "Début < 30 min après contact allergène; urticaire + angio-œdème + bronchospasme; vasodilatation massive"
+    freq: "Rare mais potentiellement fatal sans adrénaline < 5 min"
+  - dx: "{p:Choc obstructif} (tamponnade / EP massive / PNO)"
+    indices: "Triade de Beck (tamponnade); tachycardie + désaturation + asymétrie (PNO); VD dilaté + DVS (EP massive)"
+    freq: "Rare; mortalité très élevée si non traité en urgence"
+
+criteres_hospitalisation:
+  - "Tout état de choc → hospitalisation systématique; vasopresseurs → USI/réanimation"
+  - "Lactates > 2 mmol/L persistants après remplissage initial"
+  - "Nécessité de ventilation mécanique ou assistance circulatoire (ECMO)"
+  - "Source hémorragique interne ou tamponnade → urgence chirurgicale/interventionnelle"
+  - "Choc anaphylactique traité: observation minimum {r:6-8 h} pour risque de réaction biphasique [VÉRIFIER: durée d'observation post-anaphylaxie selon protocole local]"
+
+cartes_liees:
+  - SSP-URG-02
+  - SYS-URG

@@ -1,0 +1,156 @@
+id: SSP-URG-02
+type: ssp
+title: Coma
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Coma.md
+
+# source: line 1-7
+anamnese:
+  socrates:
+    - |-
+      Onset:
+      • heure exacte de la perte de conscience?
+      • mode d'installation: brutal (AVC, HSA) ou progressif (métabolique, intoxication)?
+      • témoin? Que s'est-il passé avant?
+    - |-
+      Character:
+      • niveau de conscience fluctuant ou stable?
+      • convulsions observées? Durée, généralisation?
+      • mouvements anormaux avant/pendant?
+    - |-
+      Time:
+      • durée du coma avant arrivée?
+      • épisodes similaires antérieurs?
+    - |-
+      Exacerbating / contexte:
+      • traumatisme crânien? Mécanisme? Chute de quelle hauteur?
+      • effort physique? Vomissements avant la chute?
+      • prise de médicaments, drogues, alcool? Lesquels? Quantité?
+  specifique:
+    - |-
+      Mnémonique {r:AEIOU TIPS}:
+      • {s:A}lcool / {s:E}pilepsie / {s:I}nsuline (hypo/hyperglycémie)
+      • {s:O}piacés / {s:U}rémie
+      • {s:T}rauma / {s:I}nfection / {s:P}oison-Psy / {s:S}troke-Shock
+    - "Signes prodromaux: céphalée 'en coup de tonnerre'? Fièvre? Aura épileptique?"
+    - "{s:Myosis bilatéral serré} → opiacés / hémorragie pontique?"
+    - "{s:Anisocorie} → engagement uncal (p:hématome, AVC massif)?"
+    - "Hypoglycémie connue? Diabétique sous insuline / sulfonylurées?"
+    - "Cirrhose hépatique? Insuffisance rénale? Hypothyroïdie?"
+  atcd:
+    - "Épilepsie connue: traitement en cours, dernière crise, compliance?"
+    - "Diabète: type, traitements hypoglycémiants, dernière glycémie connue"
+    - |-
+      Médicaments à risque:
+      • {r:BZD}, {r:opiacés}, barbituriques, antiépileptiques
+      • anticoagulants (risque hématome cérébral)
+      • insuline / sulfonylurées
+    - "ATCD d'AVC / malformation vasculaire / anévrisme / tumeur cérébrale"
+    - "Contexte: éthylisme chronique (encéphalopathie de Gayet-Wernicke), hépatopathie"
+
+# source: line 38-47, 55-58
+red_flags:
+  - description: "{t:Glycémie capillaire} < {r:0.6 g/L} (< 3.3 mmol/L)"
+    dx_suspecte: "{p:Hypoglycémie sévère}"
+    action: "{r:G30% 50 mL IV} bolus immédiat; si éthylisme → {r:B1 (thiamine) 100 mg IV} AVANT glucose"
+  - description: "{s:Myosis bilatéral serré} + {s:bradypnée} (FR < 12/min)"
+    dx_suspecte: "{p:Intoxication aux opiacés}"
+    action: "{r:Naloxone 0.4 mg IV/IM}, répéter toutes 2–3 min jusqu'à FR > 12 (max {r:2 mg}); surveillance car demi-vie courte [VÉRIFIER: dose maximale recommandée protocole CHUV/HUG]"
+  - description: "{s:Déficit neurologique focal nouveau} (hémiparésie, anisocorie, déviation du regard) + {s:Glasgow} chute rapide"
+    dx_suspecte: "{p:AVC ischémique ou hémorragique massif}, {p:HSA}"
+    action: "{t:CT cérébral} STAT; si ischémique < 4h30: {r:thrombolyse (alteplase)}; si hémorragique: neurochirurgie urgente; AVC pathway"
+  - description: "{s:Fièvre > 38.5 °C} + {s:raideur de nuque} ± {s:purpura pétéchial} + Glasgow chute"
+    dx_suspecte: "{p:Méningite bactérienne / encéphalite}"
+    action: "{t:CT} si signes focaux puis {t:PL}; {r:ceftriaxone 2 g IV} + {r:amoxicilline 2 g IV} (si > 50 ans) + {r:aciclovir 10 mg/kg IV} (si HSV suspecté) + {r:dexaméthasone 10 mg IV} AVANT ATB [VÉRIFIER: schéma posologique aciclovir et durée]"
+  - description: "{s:Glasgow ≤ 8} persistant toutes causes initiales traitées, ou {s:signes d'engagement}: mydriase unilatérale fixe, triade de Cushing ({s:HTA} + {s:bradycardie} + {s:bradypnée})"
+    dx_suspecte: "{p:HTIC} / engagement cérébral"
+    action: "Intubation oro-trachéale immédiate; {r:mannitol 20% 1 g/kg IV} ou {r:SSH 3% 150 mL}; neurochirurgie STAT [VÉRIFIER: seuil osmolarité CI mannitol]"
+  - description: "{s:Hypotonie} + {s:bradypnée} + {t:glycémie} normale + exposition connue aux {r:BZD}"
+    dx_suspecte: "{p:Intoxication aux benzodiazépines}"
+    action: "{r:Flumazénil 0.2 mg IV} titré (CI si polyintoxication aux tricycliques ou épilepsie connue); ventilation si besoin [VÉRIFIER: CI flumazénil à confirmer systématiquement]"
+
+# source: line 38-48
+examen:
+  general:
+    - "ABCDE systématique — {r:NE PAS retarder} le traitement des causes réversibles (ABCDE avant imagerie)"
+    - "Signes vitaux: TA, FC, FR, {t:SaO2}, T°, glycémie capillaire — OBLIGATOIRES en 2 min"
+    - "{t:Score de Glasgow} (G + M + V): coma = {r:GCS ≤ 8}"
+    - "Recherche de traumatisme: contusions, hématomes, asymétrie crânienne"
+  cible:
+    - |-
+      Examen pupillaire:
+      • taille (myosis bilatéral = opiacés/pontique; mydriase bilatérale = anoxie/atropine)
+      • symétrie (anisocorie → engagement uncal)
+      • réflexe photomoteur direct et consensuel
+    - |-
+      Examen neurologique systématisé:
+      • réponse à la douleur (localisation / flexion / extension / aucune)
+      • réflexes du tronc cérébral: cornéen, oculocéphalique, toux
+      • signe de Babinski bilatéral?
+    - "Signes méningés: raideur de nuque, Kernig, Brudzinski"
+    - "Peau: {s:purpura pétéchial} (méningocoque), {s:ictère} (hépatique), {s:traces de piqûres IV}"
+    - "Odeur: {s:haleine acétonique} (acidocétose), {s:alcool}, {s:fetor hepaticus}"
+
+# source: (synthèse clinique — section examens_complementaires_raw vide dans JSON)
+dd_top5:
+  - dx: "{p:AVC ischémique massif / hémorragique / HSA}"
+    indices: "Début brutal, déficit focal, anisocorie, hypertension artérielle; {t:CT} cérébral sans contraste confirme hémorragie; HSA: 'coup de tonnerre' prodromial"
+    freq: "fréquent en urgences coma (15–25 %)"
+  - dx: "{p:Causes métaboliques} (hypoglycémie, hyponatrémie sévère, urémie, encéphalopathie hépatique, hypoxémie/hypercapnie)"
+    indices: "{t:Glycémie capillaire} < 0.6 g/L; {e:Na+} < 120 mmol/L; cirrhose + ammoniémie élevée; SpO2 < 90 % ou hypercapnie; examen souvent symétrique sans signe focal"
+    freq: "très fréquent (30–40 % des comas)"
+  - dx: "{p:Intoxication} (BZD, opiacés, alcool, CO, médicamenteuse)"
+    indices: "Myosis (opiacés), hypotonie, bradypnée; contexte + anamnèse entourage; {t:bilan toxico sanguin et urinaire}; intoxication CO: SpO2 faussement normale"
+    freq: "fréquent (20–30 % des comas non-traumatiques)"
+  - dx: "{p:État de mal épileptique non-convulsivant (EMENC)}"
+    indices: "Antécédent épilepsie; absence de convulsion visible; confusion profonde persistante; diagnostic par {t:EEG} urgent"
+    freq: "sous-diagnostiqué; 8–10 % des comas inexpliqués"
+  - dx: "{p:Méningite bactérienne / encéphalite / sepsis}"
+    indices: "Fièvre, raideur méningée, purpura; ou sepsis sans foyer apparent; {t:PL} après CT si pas de contre-indication"
+    freq: "rare mais urgence vitale (mortalité > 20 % si délai traitement)"
+
+# source: line 80-86
+pec_initiale:
+  immediate:
+    - "ABCDE: libération voies aériennes, O2 15 L/min masque haute concentration, VVP × 2, monitoring continu"
+    - "{r:Intubation oro-trachéale} si GCS ≤ 8 ou protection des voies aériennes insuffisante — ne pas retarder [VÉRIFIER: seuil exact d'intubation selon protocole anesthésiste urgentiste]"
+    - "{t:Glycémie capillaire} immédiate → si < 0.6 g/L: {r:G30% 50 mL IV} + {r:thiamine 100 mg IV} si éthylisme suspecté"
+    - "Si myosis + bradypnée → {r:naloxone 0.4 mg IV} titré d'emblée"
+    - "Si fièvre + méningisme → {r:ceftriaxone 2 g IV} + {r:dexaméthasone 10 mg IV} AVANT CT si sepsis fulminant"
+    - "{t:CT cérébral} STAT après stabilisation ABCDE — ne pas envoyer un patient instable seul au scanner"
+  orientation:
+    - "USI / réanimation: tout coma GCS ≤ 8, instabilité hémodynamique, intubation"
+    - "Neurochirurgie urgente: HSA, hématome avec effet de masse, hydrocéphalie"
+    - "Soins intensifs: méningite, EMENC, intoxication grave avec défaillance respiratoire"
+
+# source: (synthèse — section vide dans JSON)
+examens_complementaires:
+  - "{t:Glycémie capillaire} + {t:gaz artériels}: STAT (hypoxémie, hypercapnie, lactate, pH)"
+  - "{t:CT cérébral sans contraste}: éliminer hémorragie, AVC massif, hématome, engagement"
+  - "{t:NFS, iono, créat, glycémie, bilan hépatique, ammoniaque, CRP}: causes métaboliques et infectieuses"
+  - "{t:Bilan toxicologique sanguin et urinaire}: si intoxication suspectée (paracétamol, salicylés, alcool, toxico)"
+  - "{t:EEG} en urgence: si coma inexpliqué, suspicion d'EMENC"
+  - "{t:PL}: après CT normal — méningite, HSA CT-négative (xanthochromie)"
+
+criteres_hospitalisation:
+  - "Tout coma GCS ≤ 8 → hospitalisation USI obligatoire"
+  - "Coma métabolique non résolu après traitement initial (glycémie corrigée mais GCS non revenu à 15)"
+  - "Intoxication avec dépression respiratoire ou instabilité hémodynamique"
+  - "AVC, HSA, HTIC confirmés"
+  - "Méningite / encéphalite / sepsis"
+
+pieges:
+  - "Oublier {r:thiamine IV} AVANT glucose chez un éthylique chronique → risque d'encéphalopathie de {p:Gayet-Wernicke} précipitée"
+  - "Méconnaître un {p:EMENC}: absence de convulsions visibles n'élimine pas l'EME → demander {t:EEG} si coma inexpliqué"
+  - "Ne pas vérifier l'intoxication au CO ({s:SpO2 faussement normale}) dans tout coma sans cause évidente en milieu fermé"
+  - "Faire le scanner avant stabilisation ABCDE: risque d'arrêt cardio-respiratoire en dehors du défibrillateur"
+  - "Donner {r:flumazénil} sans éliminer polyintoxication aux tricycliques ou antécédent épilepsie → risque de convulsions"
+
+cartes_liees:
+  - SYS-NEU
+  - TOOL-GCS
+  - SSP-NEU-05

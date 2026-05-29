@@ -1,0 +1,185 @@
+id: SSP-URG-13
+type: ssp
+title: Douleur des testicules
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Douleur_Testicules.md
+
+# source: lines 1-175 (anamnèse)
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • un seul testicule ou les deux?
+      • testicule lui-même ou épididyme ou scrotum global?
+      • irradiation vers aine / abdomen / lombaire?
+    - |-
+      Onset: CRITIQUE
+      • brutal en minutes → {p:torsion testiculaire}
+      • progressif en heures/jours → {p:orchi-épididymite}
+      • heure précise de début?
+    - |-
+      Character:
+      • torsion/tension, coup de poignard ({p:torsion})
+      • brûlure / pesanteur ({p:épididymite})
+      • colique irradiant en lombaire ({p:colique néphrétique})
+    - |-
+      Radiation:
+      • aine / abdomen inférieur ({p:torsion})
+      • lombaire / cuisse ({p:colique néphrétique})
+    - |-
+      Time / évolution:
+      • épisodes antérieurs résolutifs spontanément → {p:torsion intermittente}
+      • aggravation progressive?
+    - |-
+      Exacerbating / Relieving:
+      • {s:soulagement à l'élévation scrotale} ({s:Prehn+} = épididymite)
+      • aggravé station debout → varicocèle
+    - |-
+      Severity:
+      • intensité 0-10; douleur empêchant de marcher?
+      • nausées/vomissements associés ({p:torsion})
+  specifique:
+    - |-
+      Contexte sexuel ({p:IST/épididymite}):
+      • actif sexuellement? nouveau partenaire?
+      • rapports non protégés? HSH?
+      • {s:écoulement urétral}? couleur/odeur
+      • symptômes chez le/la partenaire?
+    - |-
+      Signes urinaires (épididymite/prostatite):
+      • brûlures mictionnelles, pollakiurie, dysurie?
+      • hématurie? urines troubles?
+    - |-
+      Contexte traumatique:
+      • traumatisme scrotal récent?
+      • sports de contact, cyclisme?
+    - "Fièvre / frissons? température mesurée? → infection ou {p:Fournier}"
+    - "{s:Masse scrotale} ou testiculaire découverte par le patient? depuis quand? évolution?"
+  atcd:
+    - |-
+      ATCD urogénitaux:
+      • torsion testiculaire antérieure (quel côté? orchidopexie?)
+      • cryptorchidie opérée? (risque cancer ++)
+      • chirurgie inguinale/scrotale (hernie, varicocèle)
+      • ATCD IST? traitement complet?
+    - |-
+      Maladies chroniques:
+      • diabète, immunosuppression → risque {p:Fournier}
+      • anticoagulants (hématome)
+    - "ATCD familiaux: cancer testiculaire?"
+
+# source: lines 178-280 (examen clinique)
+examen:
+  general:
+    - "Signes vitaux: T°, FC, TA, FR — {s:fièvre + tachycardie + hypotension} → {p:Fournier}/sepsis"
+    - "Position antalgique? patient incapable de rester debout → {p:torsion}"
+    - "Inspection abdomen: distension / défense (hernie étranglée, colique)"
+  cible:
+    - |-
+      Inspection scrotale COMPARATIVE:
+      • {s:position horizontale du testicule} = {p:torsion} ⚠️
+      • ascension d'un testicule?
+      • érythème / œdème (infection); écchymose (trauma)
+      • {s:crépitants + érythème périnéal} → {p:Fournier} ⚠️
+    - |-
+      Palpation douce et comparative:
+      • taille, consistance, surface des deux testicules
+      • {s:masse intra-testiculaire dure} → {p:cancer} ⚠️
+      • épididyme: augmenté / induré / douloureux?
+      • cordon: épaississement? "bag of worms" (varicocèle)?
+      • hernie inguinale: faire tousser, masse réductible?
+    - |-
+      Tests spécifiques:
+      • {t:Réflexe crémastérien}: {s:absent} = {p:torsion} ⚠️ (effleurer face interne cuisse)
+      • {t:Signe de Prehn}: soulever testicule — {s:soulagement} = épididymite; {s:absence de soulagement} = torsion
+      • {t:Transillumination}: transparente = hydrocèle; opaque = tumeur/hématocèle
+    - "Toucher rectal si > 35 ans: prostate douloureuse ({p:prostatite})?"
+    - "Ganglions inguinaux: taille, consistance, douleur?"
+    - "{t:Bandelette urinaire} immédiate + prélèvement urétral si écoulement"
+
+red_flags:
+  - description: "{s:Douleur scrotale brutale intense} chez jeune, {s:testicule horizontal/ascensionné}, {s:réflexe crémastérien absent}, Prehn négatif"
+    dx_suspecte: "{p:Torsion testiculaire}"
+    action: "Chirurgie EN URGENCE < {r:6h}; {t:écho-Doppler STAT} mais NE PAS retarder si clinique certaine; appel urologie immédiat"
+  - description: "{s:Érythème scrotal/périnéal} + {s:crépitants} ± nécrose cutanée, patient diabétique ou immunodéprimé"
+    dx_suspecte: "{p:Gangrène de Fournier}"
+    action: "Chirurgie débridement urgente + {r:ATB large spectre IV} (pipéracilline-tazobactam ± imipénème) + USI [VÉRIFIER: protocole ATB Fournier local]"
+  - description: "{s:Tuméfaction inguino-scrotale irréductible} + vomissements + arrêt matières/gaz"
+    dx_suspecte: "{p:Hernie inguinale étranglée}"
+    action: "Chirurgie urgente < 6h; NE PAS tenter réduction forcée si étranglement avéré"
+  - description: "{s:Masse intra-testiculaire dure indolore} à évolution progressive, homme 15-35 ans"
+    dx_suspecte: "{p:Cancer testiculaire}"
+    action: "{t:Écho scrotale} + {t:αFP/βHCG/LDH} STAT; orchidectomie inguinale (JAMAIS voie scrotale); conservation sperme avant traitement"
+  - description: "{s:Douleur scrotale récurrente avec résolution spontanée} chez le jeune"
+    dx_suspecte: "{p:Torsion intermittente}"
+    action: "Orchidopexie bilatérale programmée — risque de torsion complète à tout moment"
+
+# source: lines 320-340 (DD table)
+dd_top5:
+  - dx: "{p:Torsion testiculaire}"
+    indices: "Douleur brutale intense, jeune < 25 ans, au repos/sommeil, nausées/vomissements, testicule horizontal/ascensionné, réflexe crémastérien ABSENT, Prehn NÉGATIF — fenêtre de viabilité {r:< 6h}"
+    freq: "urgence absolue — 25-50 % des douleurs scrotales aiguës < 25 ans"
+  - dx: "{p:Orchi-épididymite}"
+    indices: "Début progressif, fièvre, signes urinaires, écoulement urétral, IST ou E. coli, Prehn POSITIF, épididyme douloureux augmenté; homme < 35a → IST (Chlamydia/Gonocoque); > 35a → entérobactéries"
+    freq: "cause infectieuse la plus fréquente"
+  - dx: "{p:Torsion hydatide de Morgagni}"
+    indices: "Enfant 7-12 ans, douleur progressive moins intense, {s:point bleu visible} au pôle supérieur, crémastérien présent, pas d'urgence vitale mais diagnostic difficile"
+    freq: "fréquent chez l'enfant"
+  - dx: "{p:Hernie inguino-scrotale étranglée}"
+    indices: "Tuméfaction inguino-scrotale irréductible, vomissements, arrêt des matières/gaz, douleur inguinale ++ — étranglement = urgence chirurgicale < 6h"
+    freq: "piège: peut mimer une torsion"
+  - dx: "{p:Cancer testiculaire}"
+    indices: "Masse dure intra-testiculaire indolore, évolution progressive, homme 15-35 ans, cryptorchidie ATCD, αFP/βHCG/LDH élevés; orchidectomie inguinale JAMAIS scrotale"
+    freq: "tumeur solide la plus fréquente 15-35 ans"
+
+# source: lines 282-430 (prise en charge)
+pec_initiale:
+  immediate:
+    - "STOP — suspicion {p:torsion testiculaire}: consultation urologique IMMÉDIATE + chirurgie < {r:6h}; {t:écho-Doppler STAT} mais NE PAS retarder la chirurgie si clinique évidente; antalgiques IV en attendant"
+    - |-
+      {p:Orchi-épididymite} < 35 ans (IST):
+      • {r:ceftriaxone 500 mg IM dose unique} + {r:doxycycline 100 mg x2/j × 10-14j}
+      • Repos 48h, suspensoir, glace protégée, {r:ibuprofène 600 mg x3/j}
+      • Traitement partenaire(s) [VÉRIFIER: protocole IST local CHUV/HUG]
+    - |-
+      {p:Orchi-épididymite} > 35 ans (entérobactéries):
+      • {r:ofloxacine 200 mg x2/j × 14j} ou {r:ciprofloxacine 500 mg x2/j × 14j}
+      [VÉRIFIER: durée antibiotique selon sévérité et résistances locales]
+    - "Suspicion {p:Gangrène de Fournier}: {r:chirurgie débridement urgente} + {r:ATB large spectre IV} + USI — ne PAS attendre imagerie si signes cliniques évidents"
+    - "Suspicion {p:cancer testiculaire}: {t:écho scrotale} + {t:αFP / βHCG / LDH} + {t:TDM TAP} + conservation sperme avant traitement; orchidectomie par voie inguinale (JAMAIS scrotale)"
+  orientation:
+    - "Urgences chirurgie / urologie: toute suspicion de torsion testiculaire (même doute), hernie étranglée, Fournier"
+    - "Urgences médicales: épididymite avec sepsis, patient immunodéprimé ou diabétique"
+    - "Ambulatoire urologie: cancer suspecté (écho + marqueurs), varicocèle symptomatique, torsion hydatide confirmée"
+    - "Médecin traitant: épididymite légère sans fièvre, consignes de retour si aggravation à 72h [VÉRIFIER: critères ambulatoire vs hospitalisation épididymite]"
+
+examens_complementaires:
+  - "{t:Écho-Doppler testiculaire STAT}: suspicion torsion (absence flux), masse, doute diagnostique — ne retarde pas chirurgie si clinique certaine"
+  - "{t:BU + ECBU + antibiogramme}: suspicion infection"
+  - "{t:PCR Chlamydia/Gonocoque sur prélèvement urétral ou 1er jet urine}: IST < 35 ans"
+  - "{t:αFP / βHCG / LDH}: masse intra-testiculaire suspecte"
+  - "{t:NFS + CRP + hémocultures}: fièvre / sepsis"
+  - "{t:TDM TAP}: extension cancer confirmé; {t:TDM low-dose abdominal}: colique néphrétique"
+
+criteres_hospitalisation:
+  - "Suspicion torsion testiculaire (urgence chirurgicale absolue)"
+  - "Suspicion {p:Gangrène de Fournier} (débridement + USI)"
+  - "Épididymite avec sepsis, fièvre > 39°C persistante, immunodépression ou diabète"
+  - "Hernie inguino-scrotale étranglée (chirurgie < 6h)"
+  - "Cancer testiculaire confirmé (bilan et orchidectomie)"
+
+pieges:
+  - "Retarder la chirurgie pour attendre l'écho-Doppler en cas de clinique typique de {p:torsion} → perte testiculaire irréversible au-delà de {r:6h}"
+  - "Diagnostiquer une épididymite sans éliminer la torsion chez le jeune — l'âge et le début brutal priment sur le tableau infectieux"
+  - "Oublier l'{p:orchidopexie controlatérale} lors de la chirurgie de torsion — risque de torsion controlatérale si anatomie en 'battant de cloche'"
+  - "Méconnaître une {p:Gangrène de Fournier} débutante: chercher crépitants et érythème périnéal chez diabétique/immunodéprimé"
+  - "Biopsie ou voie scrotale pour le {p:cancer testiculaire}: risque de dissémination lymphatique — voie inguinale obligatoire"
+
+cartes_liees:
+  - SSP-URG
+  - SYS-URO
+  - SSP-INF

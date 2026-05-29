@@ -1,0 +1,158 @@
+id: SSP-URG-03
+type: ssp
+title: Arrêt cardio-respiratoire
+discipline: Urgences
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_ACR.md
+
+# source: lines 1-103 (SSP_ACR.md) + ERC 2021 ALS guidelines (ACR pivots)
+anamnese:
+  socrates:
+    - |-
+      Onset:
+      • heure exacte de l'effondrement?
+      • mode d'installation: brutal (FV) ou progressive dégradation?
+      • témoin présent — a-t-il initié RCP?
+    - "Circumstances: effort / repos / stress / prise de substance? traumatisme?"
+    - |-
+      Context pré-arrêt:
+      • douleur thoracique / dyspnée aiguë avant l'arrêt?
+      • syncope précédente (prémonition)?
+      • palpitations?
+  specifique:
+    - |-
+      Terrain cardiovasculaire:
+      • coronaropathie connue / {p:SCA} récent
+      • {p:IC} sévère / {p:CMD} / canaux ioniques ({p:QT long}, {p:Brugada})
+      • {p:Tamponnade} chronique (péricardite)?
+    - |-
+      Facteurs favorisants:
+      • dialyse / insuffisance rénale → {e:hyperkaliémie}
+      • {e:hypothermie} (exposition au froid)?
+      • {e:grossesse} → embolie pulmonaire?
+    - "Médicaments proarythmiques: {r:QT long} (antipsychotiques, antibiotiques), digoxine, antidépresseurs TCA?"
+    - "Intoxications: CO, cyanure, TCA, bêtabloquants, digitale?"
+  atcd:
+    - "ATCD cardiovasculaires: coronaropathie, FA, IC, valvulopathie, ICD/PM?"
+    - "ATCD respiratoires: BPCO, asthme sévère, HTAP?"
+    - "Facteurs de risque {p:EP}: chirurgie récente, immobilisation, néoplasie, {e:grossesse/post-partum}?"
+    - "Traitement anticoagulant en cours?"
+
+# source: ERC 2021 ALS — reconnaissance ACR + algorithme chocable/non-chocable
+red_flags:
+  - description: "{s:Inconscience} + {s:absence de respiration normale} (apnée ou gasps) [VÉRIFIER: définition gasps ERC 2021 vs AHA]"
+    dx_suspecte: "{p:Arrêt cardio-respiratoire} (tout mécanisme)"
+    action: "Appel 144, RCP immédiate {r:30:2}, mise en place {t:DAE} dès disponible"
+  - description: "{s:DEM} (activité électrique sans pouls) chez patient jeune + dyspnée pré-arrêt + {e:FDR embolique}"
+    dx_suspecte: "{p:Embolie pulmonaire massive}"
+    action: "Fibrinolyse intra-RCP: {r:alteplase 50 mg IV} en bolus; poursuivre RCP {r:90 min} post-fibrinolyse [VÉRIFIER: durée RCP post-lyse recommandée ERC 2021]"
+  - description: "{s:DEM} + {s:déviation trachée} + {s:hyperrésonance unilatérale} + jugulaires turgescentes"
+    dx_suspecte: "{p:Pneumothorax sous tension}"
+    action: "Exsufflation immédiate: aiguille {r:14G au 2e EIC ligne médio-claviculaire}, puis drainage"
+  - description: "{s:DEM} + triade de Beck pré-arrêt (hypotension + bruits cardiaques assourdis + turgescence jugulaire)"
+    dx_suspecte: "{p:Tamponnade cardiaque}"
+    action: "Péricardiocentèse guidée par {t:échographie} intra-RCP; {r:ponction sous-xiphoïdienne}"
+  - description: "{e:Dialyse / IRC} + onde T pointues à l'ECG pré-arrêt + rythme sinusoïdal"
+    dx_suspecte: "{p:Hyperkaliémie} sévère"
+    action: "{r:CaCl 1 g IV} + {r:insuline 10 UI + G30% 125 mL IV} + {r:bicarbonate 1 mEq/kg} [VÉRIFIER: ordre et doses hyperkaliémie ERC 2021]"
+  - description: "Suspicion {p:intoxication TCA} (QRS large, contexte psychiatrique) ou {p:intoxication CO}"
+    dx_suspecte: "{p:ACR toxique}"
+    action: "{p:TCA}: {r:bicarbonate 1 mEq/kg IV} + alcalinisation; {p:CO}: {r:O2 100% haut débit} + hyperbarie si disponible"
+
+# source: SSP_ACR.md lignes 40-47 + ERC 2021 ABCDE
+examen:
+  general:
+    - "Reconnaissance ACR: {s:inconscience} + {s:absence de respiration normale} — NE PAS perdre > 10 sec"
+    - "{t:Monitoring} cardiaque continu (scope ECG) dès que possible"
+    - "TA après ROSC: cibler {r:PAM ≥ 65 mmHg}"
+    - "{t:SpO2}: cible {r:94-98 %} (éviter hyperoxie post-ROSC)"
+    - "{t:GCS} + réflexes du tronc après ROSC — évaluation neurologique initiale"
+  cible:
+    - |-
+      Pendant RCP — recherche {s:causes réversibles 4H/4T}:
+      • {t:échographie FAST}: tamponnade, pneumothorax, hypovolémie
+      • auscultation: asymétrie murmure vésiculaire → pneumothorax
+      • pouls fémoraux: si présents pendant massage → ROSC?
+    - |-
+      Qualité des compressions:
+      • fréquence {r:100-120/min}
+      • profondeur {r:5-6 cm}
+      • décompression complète
+      • ratio {r:30:2} (non intubé) ou compressions continues {r:100-120/min} si intubé
+    - |-
+      Analyse du rythme (pause ≤ {r:5 sec} toutes 2 min):
+      • {p:FV/TV} sans pouls → chocable: {r:CEE 200 J biphasique}
+      • {p:asystolie / DEM} → non chocable: {r:adrénaline 1 mg/3-5 min}
+    - "Après ROSC: {t:ECG 12 dérivations} immédiat — suspicion {p:SCA} → coronarographie urgente"
+
+dd_top5:
+  - dx: "{p:SCA / FV primaire}"
+    indices: "Cause la plus fréquente; homme > 40 ans, FDR CV, douleur thoracique précédant l'arrêt; rythme initial souvent {p:FV}; coronarographie post-ROSC si suspicion"
+    freq: "très fréquent (60-70 % des ACR extrahospitaliers)"
+  - dx: "{p:Embolie pulmonaire massive}"
+    indices: "Jeune, {e:FDR embolique}, dyspnée/douleur thoracique pré-arrêt, {p:DEM} ou {p:asystolie}; {t:écho}: dilatation VD, TAPSE bas"
+    freq: "fréquent (5-10 % des ACR)"
+  - dx: "{p:Hyperkaliémie / trouble métabolique}"
+    indices: "{e:IRC/dialyse}, ECG: onde T pointues → onde sinusoïdale; {p:DEM}; bilan ionique urgent"
+    freq: "fréquent en milieu hospitalier / dialysé"
+  - dx: "{p:Pneumothorax sous tension}"
+    indices: "Ventilé mécaniquement, asthme sévère, trauma thoracique; {p:DEM} + asymétrie auscultatoire; jugulaires turgescentes"
+    freq: "peu fréquent mais réversible immédiatement"
+  - dx: "{p:Tamponnade / ACR toxique}"
+    indices: "Tamponnade: triade Beck, péricardite connue; Toxique: contexte psychiatrique / CO / TCA; ECG: QRS large (TCA)"
+    freq: "rare mais 100 % réversible si traité"
+
+pec_initiale:
+  immediate:
+    - |-
+      Algorithme BLS-AED:
+      • reconnaître ACR (inconscience + absence respiration normale)
+      • appeler {r:144}, commencer RCP {r:30:2}
+      • défibrillation précoce si {t:DAE} disponible: choc {r:200 J biphasique}
+    - |-
+      Algorithme ALS — rythme CHOCABLE ({p:FV/TV}):
+      • {r:CEE 200 J biphasique} → RCP {r:2 min} → analyse rythme → répéter
+      • après {r:3e choc}: {r:adrénaline 1 mg IV} + {r:amiodarone 300 mg IV}
+      • après {r:5e choc}: {r:amiodarone 150 mg IV} supplémentaire [VÉRIFIER: timing amiodarone 2e dose ERC 2021]
+    - |-
+      Algorithme ALS — rythme NON CHOCABLE (asystolie/{p:DEM}):
+      • {r:adrénaline 1 mg IV} dès que voie veineuse disponible, puis {r:/3-5 min}
+      • PAS de CEE
+      • traiter cause réversible (4H/4T)
+    - "Accès vasculaire: VVP d'abord; si échec → {r:voie intra-osseuse} (tibia proximal)"
+    - "Intubation oro-trachéale: dès que possible par opérateur expérimenté — pause compression < {r:5 sec}"
+  orientation:
+    - "Post-ROSC: admission soins intensifs / réanimation systématique"
+    - "Cible T°: {r:normothermie 32-36°C × 24 h} (protection neurologique)"
+    - "ECG 12D post-ROSC: si sus-ST ou suspicion {p:SCA} → coronarographie urgente"
+    - "Pas de ROSC après {r:30 min} de RCP bien conduite + cause réversible exclue → discussion arrêt"
+
+examens_complementaires:
+  - "{t:ECG 12 dérivations}: immédiat post-ROSC — {p:SCA}? QRS large? QT long? {p:Brugada}?"
+  - "{t:Gaz du sang artériel}: pH, lactate, {e:K+}, {e:Ca2+}, {e:PaCO2} (cible normocapnie)"
+  - "{t:Échographie FAST}: tamponnade, pneumothorax, contractilité VG/VD, épanchement"
+  - "{t:Bilan biologique STAT}: ionogramme, urée, créatinine, troponine, NFS, coag, lactate"
+  - "{t:Coronarographie}: si suspicion {p:SCA} post-ROSC (sus-ST ou suspicion clinique forte)"
+  - "{t:TDM thoraco-abdominal}: si cause inexpliquée (EP, dissection, trauma) après stabilisation"
+
+criteres_hospitalisation:
+  - "Tout ACR → admission soins intensifs / réanimation systématique post-ROSC"
+  - "ROSC obtenu: monitoring neurologique, protection cérébrale, traitement cause"
+  - "No-flow < {r:5 min} + low-flow < {r:30 min} → pronostic neurologique préservé probable"
+  - "Hypothermie profonde ou noyade: RCP prolongée jusqu'à réchauffement > {r:30°C}"
+  - "ACR sous anticoagulants ou thrombus probable: ECMO/ECLS si centre disponible"
+
+pieges:
+  - "Interrompre la RCP pour {t:ECG} ou intubation > {r:5 sec} — chaque seconde sans compression = survie réduite"
+  - "Ne pas reconnaître les {s:gasps} comme équivalent d'apnée — les gasps NE sont PAS une respiration normale, RCP immédiate"
+  - "Banaliser la {p:DEM} sans chercher les causes 4H/4T — une DEM sans cause réversible diagnostiquée est une cause manquée"
+  - "Oublier la fibrinolyse intra-RCP devant suspicion {p:EP} massive — indication formelle même sans confirmation d'imagerie"
+  - "Hyperoxie post-ROSC ({e:SpO2 > 99%}) aggrave le pronostic neurologique — cibler {r:94-98%}"
+
+cartes_liees:
+  - SYS-CARDIO
+  - TOOL-DAE
+  - SSP-URG-04
