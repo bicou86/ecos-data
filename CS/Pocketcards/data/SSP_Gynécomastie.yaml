@@ -1,0 +1,196 @@
+id: SSP-END-03
+type: ssp
+title: Gynécomastie
+discipline: Endocrino
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Gynécomastie.md
+  - Société Française d'Endocrinologie — Gynécomastie 2021
+  - INCa — Cancer du sein chez l'homme 2020
+  - UpToDate — Evaluation of gynecomastia in adults
+
+# source: MD line 9-191
+anamnese:
+  socrates:
+    - |-
+      Site / Latéralité:
+      • unilatérale (quel côté?) ou bilatérale, symétrique?
+      • rétro-aréolaire (gynécomastie vraie) vs diffuse (adipomastie)
+    - |-
+      Onset:
+      • brutal ({s:médicamenteux, tumoral}) ou progressif ({e:hormonal})
+      • âge de début, contexte (puberté, prise de poids, nouveau traitement)
+    - "Character: consistance perçue ferme/élastique (glandulaire) vs molle (graisseuse); douleur/tension mammaire spontanée ou à la palpation?"
+    - "Radiation: écoulement mamelonnaire (galactorrhée, sanglant), gêne irradiée vers l'aisselle?"
+    - |-
+      Time:
+      • durée d'évolution (semaines/mois/années)
+      • stable, augmentation progressive, fluctuante
+      • {r:< 1 an} (phase floride réversible) vs {r:> 12 mois} (fibrose installée)
+    - "Exacerbating: prise de poids, nouveau médicament, alcool/cannabis, stéroïdes anabolisants?"
+    - "Relieving: arrêt d'un médicament déjà tenté, perte de poids?"
+    - "Severity: impact esthétique, retentissement psychosocial (évitement piscine/sport), {s:moqueries, harcèlement} chez l'adolescent"
+  specifique:
+    - |-
+      Recherche {s:signes d'hypogonadisme}:
+      • baisse libido, dysfonction érectile, infertilité
+      • diminution du volume testiculaire
+      • fatigue, bouffées de chaleur, perte masse musculaire
+      • ostéoporose / fracture, raréfaction pilosité
+    - |-
+      Recherche {s:signes d'hyperthyroïdie}:
+      • perte de poids paradoxale, tachycardie, tremblement fin
+      • thermophobie, sueurs, nervosité, goitre
+    - |-
+      Recherche {s:signes hépatiques} (cirrhose):
+      • ictère, angiomes stellaires, érythrose palmaire
+      • ascite, OMI, alcoolisme chronique, hépatite virale
+    - |-
+      Recherche {s:signes tumoraux} ⚠️ ÉLIMINER:
+      • masse / lourdeur testiculaire ({p:tumeur germinale hCG/œstrogène-sécrétante})
+      • masse mammaire dure, fixée, écoulement sanglant ({p:cancer du sein masculin})
+      • AEG + tabac + toux ({p:cancer bronchique hCG-sécrétant})
+      • virilisation paradoxale rapide ({p:tumeur surrénalienne})
+    - "Sx hyperprolactinémie: galactorrhée, céphalées, troubles visuels ({p:prolactinome})?"
+  atcd:
+    - |-
+      {r:Médicaments gynécomastiants} (cause #1, 25-30%):
+      • antiandrogènes: {r:spironolactone}, finastéride, dutastéride, cyprotérone, bicalutamide
+      • psychotropes: {r:rispéridone}, halopéridol, tricycliques
+      • anti-ulcéreux: {r:cimétidine}, ranitidine, IPP
+      • cardio: digitaliques, IEC, vérapamil, méthyldopa
+      • autres: kétoconazole, métronidazole, métoclopramide
+    - |-
+      Toxiques:
+      • {r:cannabis} (phytoestrogènes), alcool, opioïdes
+      • {r:stéroïdes anabolisants} (aromatisation)
+      • hormones exogènes (œstrogènes, testostérone arrêtée)
+    - "ATCD endocriniens: hypogonadisme connu, hyperthyroïdie, IRC, insuffisance surrénalienne, {p:Klinefelter (XXY)}"
+    - "ATCD chirurgicaux: orchidectomie, traumatisme/torsion testiculaire, chirurgie/RT hypophysaire ou testiculaire"
+    - "ATCD familiaux: cancer du sein (BRCA2), Klinefelter, infertilité"
+    - "Contexte nutritionnel: dénutrition / refeeding, obésité (aromatisation périphérique ↑), compléments alimentaires (phytoestrogènes)"
+
+# source: MD line 145-169 + clinical pivots
+red_flags:
+  - description: "Homme {e:> 50 ans} avec masse mammaire {s:dure, irrégulière, fixée, excentrée} ± écoulement sanglant ± rétraction cutanée ± ADP axillaire"
+    dx_suspecte: "{p:Cancer du sein masculin} (1% des cancers du sein, BRCA2)"
+    action: "{t:Mammographie + écho mammaire (BI-RADS)} + {t:cytoponction/biopsie} urgente; orientation oncologique"
+  - description: "Gynécomastie + {s:masse testiculaire palpable} dure, indolore ou ↑ volume testiculaire unilatéral"
+    dx_suspecte: "{p:Tumeur germinale testiculaire} (Leydig/Sertoli/séminome hCG-sécrétant)"
+    action: "{t:Écho testiculaire} + {t:β-hCG, AFP, LDH} urgents; orientation urologique/oncologique sans délai"
+  - description: "Gynécomastie + {s:AEG, amaigrissement, toux} chez {e:tabagique > 50 ans}"
+    dx_suspecte: "{p:Cancer bronchique à petites cellules hCG-sécrétant} (syndrome paranéo)"
+    action: "{t:CT thoraco-abdomino-pelvien} + {t:β-hCG, NSE} ; avis pneumo/onco"
+  - description: "Gynécomastie + {s:virilisation paradoxale} rapide (acné explosive, hirsutisme, HTA)"
+    dx_suspecte: "{p:Tumeur surrénalienne sécrétante} (corticosurrénalome féminisant/masculinisant)"
+    action: "{t:IRM/CT surrénales} + bilan stéroïdien (DHEAS, cortisol, œstradiol, testostérone); endocrino-onco urgent"
+  - description: "Adolescent/adulte jeune + {s:grande taille + petits testicules fermes (< 6 mL Prader)} + gynécomastie + infertilité"
+    dx_suspecte: "{p:Syndrome de Klinefelter (47,XXY)}"
+    action: "{t:Caryotype} + bilan complet (testostérone/LH/FSH, DXA ostéoporose); endocrino (substitution); surveillance ↑ risque cancer sein/lymphome"
+  - description: "Galactorrhée + céphalées ± {s:troubles du champ visuel (hémianopsie bitemporale)}"
+    dx_suspecte: "{p:Macroprolactinome / adénome hypophysaire}"
+    action: "{t:Prolactine} + {t:IRM hypophysaire} + champs visuels (Goldmann); endocrino urgent"
+
+# source: MD line 197-271
+examen:
+  general:
+    - "Signes vitaux: TA, FC, T°, poids, taille, IMC (obésité → aromatisation périphérique)"
+    - "Inspection générale: morphotype (eunuchoïde, grand vs trapu), répartition graisseuse gynoïde, masse musculaire, voix"
+    - "Pilosité (stades de Tanner): pubienne, axillaire, faciale; raréfaction = hypogonadisme"
+    - "Signes hépatiques: ictère, angiomes stellaires, érythrose palmaire, ascite, hépato-splénomégalie, circulation collatérale"
+  cible:
+    - |-
+      Examen mammaire bilatéral comparatif ⚠️:
+      • inspection: volume, symétrie, peau (rétraction, peau d'orange, inflammation)
+      • palpation pulpaire concentrique pouce-index
+      • {s:gynécomastie vraie}: disque glandulaire ferme rétro-aréolaire mobile, {r:> 2 cm} = pathologique
+      • {s:adipomastie}: tissu mou diffus sans nodule
+      • {s:malignité}: dure, irrégulière, fixée, excentrée, {r:> 4 cm}
+      • expression mamelonnaire (écoulement lactescent vs sanglant)
+      • ADP axillaires et sus-claviculaires
+    - |-
+      Classification de Simon (stadification):
+      • Grade I: ↑ minime sans excès cutané
+      • Grade IIa/IIb: ↑ modérée sans / avec excès cutané
+      • Grade III: ↑ marquée avec excès cutané
+    - |-
+      Examen testiculaire systématique ⚠️:
+      • {t:orchidométrie de Prader} (N 15-25 mL adulte; petits fermes = Klinefelter, petits mous = atrophie)
+      • masses (dure indolore → tumeur), varicocèle
+      • position scrotale, sensibilité
+    - "Examen thyroïdien: palpation (volume, nodules), signes Basedow (exophtalmie, tremblement fin, ROT vifs, tachycardie)"
+    - "Examen abdominal: masse abdominale (surrénale), hépatomégalie nodulaire (cirrhose), ascite"
+    - "Champs visuels par confrontation si suspicion adénome hypophysaire (hémianopsie bitemporale)"
+
+# source: MD line 444 + clinical pivots
+dd_top5:
+  - dx: "{p:Gynécomastie médicamenteuse / toxique}"
+    indices: "Introduction récente d'un médicament gynécomastiant ({r:spironolactone, cimétidine, anti-androgènes, rispéridone}); apparition dans les 3-12 mois; bilan hormonal souvent normal; régression à l'arrêt en 3-6 mois si < 1 an [VÉRIFIER: liste exhaustive Vidal/Compendium suisse]"
+    freq: "très fréquent (25-30% des cas adultes — première cause)"
+  - dx: "{p:Gynécomastie pubertaire physiologique}"
+    indices: "{e:Adolescent 10-17 ans} (pic 13-14 ans), souvent bilatérale, disque < 4 cm, sensible; testicules normaux/grandissants; régression spontanée en {r:6-24 mois}; bilan inutile si typique"
+    freq: "très fréquent (60-70% des adolescents — transitoire)"
+  - dx: "{p:Gynécomastie sénile / liée à l'âge}"
+    indices: "{e:Homme > 50 ans}, ↓ testostérone + ↑ aromatisation périphérique (graisse), souvent bilatérale modérée; éliminer cause organique (médicaments, cirrhose, cancer)"
+    freq: "fréquent (24-65% > 50 ans selon séries)"
+  - dx: "{p:Gynécomastie sur hypogonadisme}"
+    indices: "Primaire (Klinefelter, post-orchite, post-RT/chimio): {t:↓ testostérone + ↑ LH/FSH}; secondaire (hypopituitarisme, hyperprolactinémie): {t:↓ testo + LH/FSH bas/normales}; signes cliniques d'hypogonadisme associés"
+    freq: "intermédiaire (8% des cas adultes)"
+  - dx: "{p:Gynécomastie idiopathique}"
+    indices: "Diagnostic d'exclusion après bilan complet négatif; persistance sans cause identifiée; surveillance clinique 6-12 mois"
+    freq: "fréquent (~25% des cas après bilan)"
+
+# source: MD line 274-422
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord: toute masse dure/fixée, ADP, écoulement sanglant, masse testiculaire → bilan urgent AVANT toute prescription"
+    - |-
+      {r:Bilan hormonal de 1ère intention systématique} (matin 8-10h):
+      • testostérone totale (± libre, SHBG)
+      • LH, FSH (orientation centrale vs périphérique)
+      • {r:œstradiol}, prolactine, TSH
+      • {r:β-hCG} TOUJOURS (éliminer tumeur germinale)
+    - "Revue médicamenteuse exhaustive + arrêt/substitution du médicament gynécomastiant si possible (régression {r:3-6 mois}) ; éviction cannabis/anabolisants/alcool"
+    - "{r:Tamoxifène 10-20 mg/j PO × 3-6 mois} si gynécomastie {r:récente < 12 mois}, douloureuse, retentissement: efficace sur phase floride, inefficace si fibrose [VÉRIFIER: posologie et indication Compendium suisse / SGED 2024]"
+    - "Gynécomastie pubertaire typique: {r:réassurance} + surveillance clinique à 3-6 mois; bilan seulement si > 18 mois ou atypique"
+    - "Chirurgie (mastectomie sous-cutanée ± liposuccion) si: persistance > 12 mois (fibrose), grade III, échec médical, retentissement psychologique majeur, suspicion malignité"
+    - "Hypogonadisme confirmé: substitution {r:testostérone} (gel transdermique quotidien ou IM 3 sem-3 mois); CI: cancer prostate, désir de paternité; surveillance PSA + hématocrite [VÉRIFIER: schéma SGED hypogonadisme]"
+  orientation:
+    - "Domicile + suivi MT: gynécomastie médicamenteuse (après arrêt), pubertaire typique, idiopathique stable"
+    - "Endocrinologue: bilan hormonal anormal, hypogonadisme à traiter, suspicion Klinefelter, hyperprolactinémie"
+    - "Oncologue/chirurgien sénologue urgent: suspicion {p:cancer du sein masculin} (BI-RADS ≥ 4)"
+    - "Urologue/onco urgent: masse testiculaire palpable ou écho suspecte, β-hCG/AFP ↑"
+    - "Chirurgien plastique: indication chirurgicale (grade II-III, fibrose installée, échec tamoxifène)"
+    - "Consignes de retour: croissance rapide, masse dure, écoulement sanglant, masse testiculaire, virilisation rapide"
+
+# source: MD line 276-322
+examens_complementaires:
+  - "{t:Bilan hormonal 1ère intention} (matin): testostérone totale + libre/SHBG, LH, FSH, œstradiol, prolactine, TSH, {r:β-hCG} systématique"
+  - "{t:Bilan 2ème intention} selon orientation: AFP, cortisol/DHEAS (surrénales), bilan hépatique (ASAT/ALAT/GGT), créatinine (IRC), HbA1c, {t:caryotype} si suspicion Klinefelter"
+  - "{t:Échographie mammaire ± mammographie}: gynécomastie unilatérale, masse palpable suspecte, homme > 50 ans, doute clinique (classification BI-RADS); cytoponction/biopsie si BI-RADS ≥ 4"
+  - "{t:Échographie testiculaire}: anomalie palpation, β-hCG ou AFP élevées, gynécomastie unilatérale inexpliquée"
+  - "{t:IRM hypophysaire}: prolactine élevée, suspicion adénome (avec champs visuels)"
+  - "{t:CT thoraco-abdomino-pelvien} ou IRM surrénales: tumeur testiculaire confirmée, hCG ↑ sans tumeur testiculaire, virilisation rapide"
+
+# source: MD line 364-372 + clinical pivots
+criteres_hospitalisation:
+  - "Aucun pour la gynécomastie isolée (PEC ambulatoire); hospitalisation = pathologie sous-jacente urgente"
+  - "Suspicion {p:cancer du sein masculin} confirmée (BI-RADS ≥ 4) → programmation chirurgicale rapide"
+  - "{p:Tumeur testiculaire} confirmée → orchidectomie inguinale urgente (< 1 semaine)"
+  - "{p:Cirrhose décompensée} ou insuffisance hépatique sévère révélée par le bilan"
+  - "Suspicion {p:tumeur sécrétante} (surrénale, hypophyse macro-adénome) avec retentissement endocrinien aigu"
+
+# source: MD line 436-447 + clinical pivots
+pieges:
+  - "Rassurer 'gynécomastie pubertaire' chez un adulte > 18 ans ou un adolescent dont le tableau est atypique (unilatéral, dur, > 4 cm) — TOUJOURS bilanter au moindre doute"
+  - "Oublier la {r:β-hCG} dans le bilan de 1ère intention → laisser passer une {p:tumeur germinale testiculaire} ou un cancer bronchique paranéo"
+  - "Méconnaître un {p:Klinefelter (XXY)} chez un grand homme infertile à petits testicules fermes → ne pas demander le caryotype (sous-diagnostic majeur)"
+  - "Ne pas réviser systématiquement la liste médicamenteuse (spironolactone, IPP, rispéridone, cimétidine, anti-androgènes) — première cause adulte"
+  - "Banaliser une gynécomastie {s:unilatérale dure chez l'homme âgé} → cancer du sein masculin retardé (pronostic + sombre que chez la femme à stade égal)"
+
+cartes_liees:
+  - SSP-MSQ-Masse_Mammaire
+  - SSP-URO-Douleur_Testicules
+  - SYS-END

@@ -1,0 +1,199 @@
+id: SSP-END-04
+type: ssp
+title: Polydipsie
+discipline: Endocrino
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Polydipsie.md
+
+# source: MD lines 9-83
+anamnese:
+  socrates:
+    - |-
+      Quantification:
+      • apports hydriques précis ({r:litres/24h}, > 3 L = polydipsie)
+      • {t:diurèse 24h} mesurée (> 3 L = polyurie associée)
+      • [VÉRIFIER: seuil exact polydipsie/polyurie selon référentiel local CHUV]
+    - |-
+      Onset:
+      • début brutal (post-trauma, post-chirurgie hypophysaire) vs progressif
+      • durée (jours / semaines / mois)
+      • premier épisode ou récidive?
+    - "Character: soif {s:irrépressible} et constante (DI) vs envie ordinaire et fluctuante (potomanie)?"
+    - |-
+      Time:
+      • soif constante vs intermittente
+      • {s:réveil nocturne pour boire} et nycturie (≥ 2 fois)
+      • horaire d'aggravation?
+    - |-
+      Exacerbating:
+      • chaleur, effort
+      • repas riches en sucres / sel
+      • stress émotionnel (potomanie)
+    - "Relieving: tiédeur/froid de la boisson (préférence {s:eau glacée} très évocatrice DI central), volume vs fréquence?"
+    - "Severity: impact sur sommeil, vie sociale, travail; signes de déshydratation (vertiges orthostatiques, asthénie)"
+  specifique:
+    - |-
+      {s:Syndrome cardinal diabète} (3P):
+      • polyurie + polydipsie + polyphagie
+      • {s:perte de poids} involontaire
+      • asthénie, vision floue, mycoses, infections urinaires récidivantes
+    - |-
+      {s:Aspect des urines}:
+      • claires comme de l'eau (DI ou potomanie)
+      • mousseuses (glycosurie / protéinurie)
+      • foncées (déshydratation)
+    - |-
+      Signes orientant {p:DI central}:
+      • traumatisme crânien, chirurgie hypophysaire ou radiothérapie crânienne
+      • céphalées, troubles visuels (champ), galactorrhée, aménorrhée
+      • signes d'insuffisance antéhypophysaire associés
+    - |-
+      Signes orientant {p:DI néphrogénique}:
+      • prise de {r:lithium}, diurétiques, amphotéricine B, tétracyclines
+      • hypercalcémie symptomatique (constipation, troubles cognitifs)
+      • hypokaliémie chronique, IRC connue, drépanocytose
+    - |-
+      Signes orientant {p:potomanie / polydipsie primaire}:
+      • schizophrénie, trouble bipolaire, anxiété
+      • psychotropes (anticholinergiques → bouche sèche)
+      • soif disparaissant la nuit (vs DI = persiste la nuit)
+    - "Cétose? {s:Haleine acétonique}, douleurs abdominales, vomissements, dyspnée de Kussmaul → {p:DKA} suspectée"
+  atcd:
+    - "Diabète sucré (T1, T2, gestationnel); HbA1c connue?"
+    - "Neurochirurgie / radiothérapie crânienne, traumatisme crânien"
+    - "Néphropathie chronique, maladie kystique rénale, drépanocytose"
+    - |-
+      Médicaments:
+      • {r:lithium} (DI néphrogénique acquis)
+      • diurétiques, corticoïdes
+      • antipsychotiques (potomanie + bouche sèche)
+      • amphotéricine B, tétracyclines, foscarnet
+    - "Pathologies psychiatriques: schizophrénie, trouble bipolaire, TCA"
+    - "ATCD familiaux: diabète T1/T2, DI héréditaire (X-lié, rare), maladies auto-immunes"
+    - |-
+      Habitudes:
+      • alimentation (sucres, sodas)
+      • activité physique
+      • consommation hydrique habituelle
+      • stress psychosocial
+
+# source: MD lines 117-205, pivots cliniques
+red_flags:
+  - description: "Polydipsie + {s:hyperglycémie > 15 mmol/L} + cétonurie/cétonémie ± dyspnée de Kussmaul"
+    dx_suspecte: "{p:Acidocétose diabétique (DKA)}"
+    action: "{t:Glycémie + GA + cétonémie + iono + créat}; {r:insuline IV 0.1 UI/kg/h} + {r:NaCl 0.9 % 1 L/h} + {r:KCl} dès K < 5.5; USI"
+  - description: "Polydipsie + déshydratation sévère + {s:Na > 150 mmol/L}"
+    dx_suspecte: "{p:Hypernatrémie sévère} (DI décompensé ou pertes hydriques)"
+    action: "Réhydratation prudente {r:G5 % ou NaCl 0.45 %} (correction Na ≤ 10 mmol/L/24h); dosage osmolalité; bilan ADH"
+  - description: "Polydipsie + {s:céphalées + amputation du champ visuel} ± galactorrhée/aménorrhée"
+    dx_suspecte: "{p:Adénome / tumeur hypophysaire}"
+    action: "{t:IRM hypophysaire avec gadolinium} urgente; bilan antéhypophysaire complet (TSH, cortisol, prolactine, IGF-1); avis neurochirurgical"
+  - description: "Polydipsie + {s:signes d'hypercalcémie} (constipation, confusion, lithiase)"
+    dx_suspecte: "{p:Hypercalcémie} (cancer, hyperparathyroïdie, myélome) → DI néphrogénique secondaire"
+    action: "{t:Ca corrigé + PTH + 25-OH vit D + phosphatémie}; bilan néoplasique si Ca > 3 mmol/L; hydratation IV"
+  - description: "Polydipsie + {s:troubles de conscience / convulsions} ± hyponatrémie"
+    dx_suspecte: "{p:Intoxication par l'eau} (potomanie sévère)"
+    action: "{t:Iono + osmolalité}; restriction hydrique stricte; correction lente Na (≤ 8 mmol/L/24h, risque démyélinisation osmotique)"
+  - description: "Patient sous {r:lithium} avec polyurie/polydipsie nouvelle"
+    dx_suspecte: "{p:DI néphrogénique acquis au lithium}"
+    action: "Dosage lithémie + créat + Ca; avis psychiatre pour révision traitement; {r:hydrochlorothiazide} ± amiloride; ne JAMAIS arrêter brutalement le lithium"
+
+# source: MD lines 87-113
+examen:
+  general:
+    - "Signes vitaux: TA (couchée + debout, recherche hypotension orthostatique), FC, T°, FR, SaO2"
+    - "{r:Glycémie capillaire} IMMÉDIATE chez tout patient polydipsique"
+    - "{r:Bandelette urinaire} (glycosurie, cétonurie, densité urinaire)"
+    - "Poids actuel vs poids habituel ({s:perte de poids} = diabète sucré, prise = potomanie/œdèmes)"
+    - "{t:Score de Glasgow} si troubles cognitifs"
+  cible:
+    - |-
+      {s:Évaluation hydratation}:
+      • pli cutané (face antérieure thorax)
+      • muqueuses (langue sèche)
+      • yeux (énophtalmie, cernes)
+      • TA orthostatique
+      • diurèse récente
+    - |-
+      Examen neurologique ciblé:
+      • {t:champ visuel} par confrontation (compression chiasma → hémianopsie bitemporale)
+      • oculomotricité, pupilles
+      • {t:FO} (œdème papillaire, rétinopathie diabétique)
+      • état cognitif, orientation
+      • signes méningés (méningite chronique → DI)
+    - |-
+      Signes endocriniens:
+      • acanthosis nigricans (insulinorésistance)
+      • signes d'hypercorticisme (vergetures pourpres, faciès lunaire)
+      • galactorrhée (prolactinome)
+      • signes d'hypothyroïdie associée
+    - "Inspection des pieds diabétiques (mal perforant, mycoses, pouls périphériques)"
+    - "Abdomen: hépatomégalie (stéatose), masse rénale (polykystose), globe vésical"
+    - "Recherche signes d'hypercalcémie: faiblesse musculaire, ROT diminués, déshydratation associée"
+
+# source: pivots cliniques + MD lines 160-165
+dd_top5:
+  - dx: "{p:Diabète sucré décompensé (T2 > T1)}"
+    indices: "Triade 3P (polyurie/polydipsie/polyphagie), perte de poids, glycémie > 11 mmol/L, HbA1c > 6.5 %, glycosurie ± cétonurie; ATCD familiaux; obésité abdominale"
+    freq: "très fréquent — cause #1 de polydipsie en consultation"
+  - dx: "{p:Polydipsie primaire (potomanie)}"
+    indices: "Trouble psychiatrique (schizophrénie, trouble bipolaire, anxiété), psychotropes anticholinergiques, soif s'atténuant la nuit, hyponatrémie limite, urines diluées; Na plasma souvent bas-normal"
+    freq: "fréquent en milieu psychiatrique"
+  - dx: "{p:Diabète insipide central}"
+    indices: "Début brutal post-trauma/chirurgie hypophysaire/tumeur, soif d'eau glacée, polyurie persistante la nuit, osmolalité urinaire < 300 mOsm/kg, {r:réponse complète à la DDAVP}"
+    freq: "rare (~1/25 000)"
+  - dx: "{p:Diabète insipide néphrogénique}"
+    indices: "Médicament inducteur ({r:lithium}, amphotéricine, tétracyclines), hypercalcémie, hypokaliémie, IRC, héréditaire (X-lié); osmolalité urinaire basse, {r:pas de réponse à la DDAVP}"
+    freq: "rare; lithium = cause acquise la plus fréquente"
+  - dx: "{p:Hypercalcémie / hypokaliémie chronique}"
+    indices: "Cancer (myélome, métastases), hyperparathyroïdie primaire; constipation, troubles cognitifs, lithiases; provoque un DI néphrogénique secondaire; Ca corrigé > 2.6 mmol/L"
+    freq: "fréquent en oncologie et gériatrie"
+
+# source: MD lines 167-194, pivots cliniques
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — {t:glycémie + iono + créat + Ca + osmolalité plasma/urines} avant tout traitement"
+    - "{p:DKA} confirmée: {r:NaCl 0.9 % 1 L en 1h} puis 250-500 mL/h; {r:insuline IV 0.1 UI/kg/h} après K connu; KCl si K < 5.5; USI"
+    - "{p:Hypernatrémie sévère}: correction LENTE {r:Δ Na ≤ 10 mmol/L/24h} (G5 % ou NaCl 0.45 %); risque œdème cérébral si trop rapide"
+    - "{p:DI central} confirmé: {r:desmopressine (DDAVP) 10-20 µg intranasale} ou {r:0.1-0.2 mg PO x2-3/j}; adapter selon diurèse et natrémie [VÉRIFIER: dose initiale exacte selon protocole CHUV endocrino]"
+    - "{p:DI néphrogénique}: arrêt du médicament responsable si possible (avis psychiatre pour lithium); correction Ca/K; {r:hydrochlorothiazide 25 mg/j} ± amiloride; restriction sodée"
+    - "{p:Potomanie}: restriction hydrique progressive ENCADRÉE (1.5-2 L/j); avis psychiatrique; NE PAS donner DDAVP (risque hyponatrémie sévère)"
+    - "Diabète T2 nouvellement diagnostiqué non décompensé: {r:metformine 500 mg x2/j} + RHD + éducation thérapeutique"
+  orientation:
+    - "Domicile + suivi médecin traitant: polydipsie modérée sans signe de gravité, glycémie normale, iono normal"
+    - "Urgences: tout red flag, DKA suspectée, hypernatrémie > 150, troubles de conscience, déshydratation sévère"
+    - "Hospitalisation en endocrinologie: test de restriction hydrique programmé (surveillance étroite), DI nouvellement diagnostiqué"
+    - "IRM hypophysaire ambulatoire urgente si DI central confirmé sans contexte évident"
+    - "Avis psychiatrique si potomanie suspectée; ne pas arrêter brutalement le lithium"
+
+# source: MD lines 119-156
+examens_complementaires:
+  - "{t:Glycémie veineuse + HbA1c}: dépistage diabète sucré (seuils OMS); {t:cétonémie / cétonurie} si glycémie > 15 mmol/L"
+  - "{t:Iono complet (Na, K, Ca corrigé, créat, urée)} + {t:osmolalité plasmatique} (normale 275-295 mOsm/kg)"
+  - "{t:Bandelette urinaire + ECBU + osmolalité urinaire + densité urinaire + diurèse 24h}: distinction urines diluées (DI/potomanie) vs concentrées"
+  - "{t:Test de restriction hydrique + DDAVP} (hospitalier, surveillance médicale stricte): gold standard DI vs potomanie [VÉRIFIER: protocole exact CHUV/HUG, durée 8-12h, arrêt si perte de poids > 3-5 %]"
+  - "{t:IRM hypophysaire avec gadolinium} (perte du spot hyperintense post-hypophyse) + bilan antéhypophysaire si DI central"
+  - "{t:Bilan étiologique DI néphrogénique}: lithémie, Ca corrigé + PTH, K, créat, échographie rénale [VÉRIFIER: indication systématique vs ciblée selon contexte]"
+
+# source: pivots cliniques + MD lines 195-205
+criteres_hospitalisation:
+  - "Tout red flag avéré ({p:DKA}, hypernatrémie sévère, intoxication par l'eau, tumeur hypophysaire compressive)"
+  - "Déshydratation clinique sévère ou {s:troubles de conscience}"
+  - "Test de restriction hydrique programmé (surveillance ≥ 8h, mesures itératives)"
+  - "DI nouvellement diagnostiqué nécessitant initiation et titration de DDAVP"
+  - "Hyponatrémie symptomatique sur potomanie nécessitant correction encadrée"
+
+# source: pivots cliniques + MD lines 217-219
+pieges:
+  - "Confondre {s:polydipsie} (soif) et {s:polyurie} (volume urinaire) — TOUJOURS mesurer la {t:diurèse 24h} avant d'étiqueter"
+  - "Oublier l'{p:hypercalcémie} comme cause de DI néphrogénique secondaire (notamment myélome, hyperparathyroïdie, métastases osseuses)"
+  - "Prescrire de la {r:DDAVP} à un patient potomane sans test de restriction → {p:hyponatrémie sévère} avec œdème cérébral"
+  - "Méconnaître le {p:DI néphrogénique au lithium} et arrêter brutalement le lithium → rebond psychiatrique sévère; avis psychiatre obligatoire"
+  - "Faire un test de restriction hydrique sans surveillance médicale → déshydratation sévère ± collapsus"
+
+cartes_liees:
+  - SSP-END-01
+  - SYS-END

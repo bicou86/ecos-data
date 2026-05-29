@@ -1,0 +1,215 @@
+id: SSP-END-06
+type: ssp
+title: Syndrome métabolique
+discipline: Endocrino
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Syndrome_Metabolique.md
+  - IDF Consensus Worldwide Definition 2006
+  - NCEP-ATP III modified (AHA/NHLBI 2005)
+  - Guidelines ESC/EAS Dyslipidémies 2019; HAS Obésité adulte 2022
+
+# source: MD line 11-87
+anamnese:
+  socrates:
+    - |-
+      Histoire pondérale:
+      • poids actuel, poids maximal, taille → {t:IMC}
+      • prise de poids progressive vs récente/rapide?
+      • événements déclenchants (grossesse, arrêt sport, deuil, médicaments)
+      • tentatives antérieures: régimes, médicaments, chirurgie
+      • poids des parents et fratrie?
+    - |-
+      Alimentation:
+      • nombre de repas/j, grignotage, {s:compulsions / hyperphagie}?
+      • boissons sucrées (sodas, jus): combien/j?
+      • fast-food, plats préparés: fréquence?
+      • portions, resservir, manger devant écran?
+      • qui fait courses et cuisine?
+    - |-
+      Activité physique et sédentarité:
+      • type, durée, fréquence des activités
+      • {s:sédentarité} (heures assis/j), temps écran
+      • transport actif (marche, vélo quotidien)
+      • limitations physiques (douleurs, dyspnée)
+    - |-
+      Sommeil et SAOS:
+      • durée, qualité, horaires réguliers?
+      • {s:ronflements, apnées rapportées}, somnolence diurne
+      • {t:Score d'Epworth} ≥ 10 → polygraphie
+      • travail posté?
+  specifique:
+    - |-
+      Symptômes diabète / résistance à insuline:
+      • {s:polyurie, polydipsie, polyphagie}, perte poids paradoxale
+      • infections récurrentes (mycoses, urinaires)
+      • cicatrisation lente, troubles visuels
+      • {s:acanthosis nigricans} (taches sombres velvet cou/aisselles)
+    - |-
+      Symptômes cardiovasculaires (rechercher complications):
+      • {s:dyspnée d'effort}, douleurs thoraciques (SCA?)
+      • palpitations (FA fréquente si SAOS/obésité)
+      • claudication intermittente, œdèmes MI
+    - |-
+      Symptômes hépatiques ({p:NAFLD/NASH}):
+      • inconfort hypochondre droit
+      • asthénie, ictère/prurit (cirrhose tardive)
+    - |-
+      Femme jeune — rechercher {p:SOPK}:
+      • oligo-aménorrhée, infertilité, hirsutisme/acné
+      • bébé macrosome / DG antérieur
+    - "{s:Signes de Cushing} (vergetures pourpres > 1 cm, bosse de bison, faciès lunaire, ecchymoses, myopathie proximale)?"
+  atcd:
+    - "Métaboliques: DG, SOPK, prédiabète, ATCD HGPO pathologique"
+    - "Cardiovasculaires: HTA (depuis quand?), dyslipidémie (valeurs?), évènements CV (IDM, AVC, AOMI)"
+    - |-
+      Médicaments iatrogènes (prise de poids / hyperglycémie):
+      • {r:corticoïdes}, {r:antipsychotiques atypiques} (olanzapine, clozapine)
+      • {r:antidépresseurs} (mirtazapine, paroxétine)
+      • contraception hormonale, insuline, sulfamides
+    - |-
+      ATCD familiaux (CRUCIAL):
+      • {p:DT2} (parents, fratrie, âge dx)
+      • {p:Maladies CV précoces} ({e:< 55 ans H, < 65 ans F})
+      • obésité, dyslipidémie, HTA familiales
+    - "Habitudes: {r:alcool} (UI/sem), {r:tabac} (PA), drogues; contexte social, ressources, motivation au changement"
+
+# source: MD line 312-318 + clinical pivots
+red_flags:
+  - description: "{s:Acanthosis nigricans} étendu et d'aggravation rapide ± perte poids paradoxale"
+    dx_suspecte: "{p:Insulino-résistance sévère} / suspicion {p:néoplasie sous-jacente} (gastrique, génito-urinaire) si > 40 ans"
+    action: "{t:HGPO 75g + HbA1c + insulinémie à jeun}; bilan néoplasique (CT TAP, gastroscopie) si forme rapide chez non-obèse [VÉRIFIER: seuil d'âge déclenchant bilan néo selon ENDO Society]"
+  - description: "Syndrome métabolique + {s:douleur thoracique} typique ou atypique"
+    dx_suspecte: "{p:SCA / IDM} (risque CV global x 2-3)"
+    action: "{t:ECG 12 dérivations < 10 min} + {t:troponines hs T0 et H1-3}; aspirine 250 mg PO; appel cardio / SMUR"
+  - description: "{s:HTA résistante} (≥ 3 anti-HTA dont diurétique) + ronflements + somnolence diurne"
+    dx_suspecte: "{p:SAOS sévère}"
+    action: "{t:Polygraphie ventilatoire / polysomnographie}; CPAP si {r:IAH ≥ 15/h}; chercher hyperaldostéronisme associé (rapport aldo/rénine)"
+  - description: "Transaminases {r:ALAT > 2-3 × N} avec syndrome métabolique"
+    dx_suspecte: "{p:NASH avec fibrose avancée possible}"
+    action: "Éliminer autres causes (sérologies VHB/VHC, ferritine, auto-immunité); {t:score FIB-4} + écho hépatique; {t:élastométrie (FibroScan)} si FIB-4 > 1,3 [VÉRIFIER: seuil FIB-4 selon âge - 2,0 si > 65 ans]"
+  - description: "Femme jeune avec obésité abdominale + {s:hyperandrogénie} (hirsutisme, acné) + oligo-anovulation"
+    dx_suspecte: "{p:SOPK}"
+    action: "{t:Bilan hormonal J3} (LH, FSH, testostérone, SHBG, 17-OHP, prolactine, TSH) + écho pelvienne; HGPO; consultation gynéco-endocrino"
+  - description: "Prise de poids RAPIDE inexpliquée + {s:signes de Cushing} (vergetures pourpres, faciès lunaire, faiblesse proximale)"
+    dx_suspecte: "{p:Syndrome de Cushing} endogène ou iatrogène"
+    action: "{t:Cortisol libre urinaire 24h} ou test à la {r:dexaméthasone 1 mg overnight}; consultation endocrino"
+
+# source: MD line 91-133
+examen:
+  general:
+    - "Signes vitaux: {t:TA aux 2 bras} après 5 min repos (2 mesures, seuil SM ≥ {r:130/85 mmHg}), FC, T°, SpO2"
+    - "Anthropométrie ESSENTIELLE: poids, taille → {t:IMC}; {t:tour de taille} (debout, mi-distance côte-crête iliaque, expiration normale)"
+    - |-
+      Seuils tour de taille (critère central):
+      • Européens NCEP-ATP III: ≥ {r:102 cm (H)}, ≥ {r:88 cm (F)}
+      • IDF 2006 (origine européenne): ≥ {r:94 cm (H)}, ≥ {r:80 cm (F)}
+      • Sud-asiatiques/chinois/japonais: ≥ {r:90 cm (H)}, ≥ {r:80 cm (F)} [VÉRIFIER: seuils IDF par ethnie 2006]
+    - "Tour de hanches → ratio T/H (> 0,90 H / > 0,85 F = androïde); recherche {s:obésité tronculaire vs gynoïde}"
+    - "Bandelette urinaire: glycosurie, protéinurie, cétonurie"
+  cible:
+    - |-
+      Cutané (signes d'insulinorésistance / DD endocrino):
+      • {s:Acanthosis nigricans} (cou, aisselles, plis)
+      • {s:Acrochordons} (skin tags) multiples
+      • {s:Vergetures pourpres > 1 cm} (Cushing)
+      • {s:Xanthomes, xanthélasma} (dyslipidémie sévère)
+      • Hirsutisme (score Ferriman-Gallwey si femme)
+    - |-
+      Cardiovasculaire:
+      • inspection répartition graisse (androïde vs gynoïde)
+      • pouls périphériques (4 points), souffles carotidien/fémoral/abdominal
+      • B3 (insuffisance cardiaque), OMI, signes de TVP
+    - |-
+      Abdominal et hépatique:
+      • palpation {s:hépatomégalie ferme} (stéatose / NASH)
+      • masse abdominale, circulation collatérale
+      • recherche signes d'insuffisance hépatique (angiomes, érythrose palmaire)
+    - |-
+      Recherche complications microangiopathiques:
+      • neuropathie: {t:monofilament 10g + diapason 128 Hz} à 6 points
+      • {t:fond d'œil} (rétinopathie) si diabète établi
+      • œdèmes, signes néphro
+    - "Thyroïde: palpation (volume, nodules), signes dysthyroïdie (DD prise de poids)"
+
+# source: MD line 170-193 + clinical pivots
+dd_top5:
+  - dx: "{p:Syndrome métabolique (NCEP-ATP III modifié)}"
+    indices: "≥ 3 critères sur 5: tour taille ↑ + TG ≥ {r:1,7 mmol/L} + HDL ↓ ({r:< 1,0 H / < 1,3 F}) + TA ≥ 130/85 + GAJ ≥ 5,6 mmol/L (ou traitement spécifique)"
+    freq: "très fréquent (25-30% adultes occidentaux) [VÉRIFIER: prévalence Suisse OFS 2023]"
+  - dx: "{p:NAFLD / NASH} (stéatose hépatique non alcoolique)"
+    indices: "Souvent asymptomatique; ALAT modérément ↑ (rarement > 3×N), écho: foie hyperéchogène; {t:FIB-4 > 1,3} oriente vers fibrose; co-existe avec SM dans 70-90%"
+    freq: "très fréquent (1ère cause d'hépatopathie chronique en Occident)"
+  - dx: "{p:SOPK} (femme jeune)"
+    indices: "Critères Rotterdam (2 sur 3): oligo-anovulation, hyperandrogénie clinique/biologique, ovaires polykystiques à l'écho; obésité abdominale + insulinorésistance dans 50%"
+    freq: "fréquent (5-15% femmes en âge de procréer)"
+  - dx: "{p:SAOS}"
+    indices: "Ronflements + apnées rapportées + somnolence diurne ({t:Epworth ≥ 10}); HTA résistante; {t:IAH ≥ 5/h} à la polygraphie; lien bidirectionnel avec SM"
+    freq: "fréquent (15-30% si obésité), souvent sous-diagnostiqué"
+  - dx: "{p:Syndrome de Cushing} (endogène ou iatrogène)"
+    indices: "Prise de poids tronculaire RAPIDE, vergetures pourpres > 1 cm, faciès lunaire, bosse bison, myopathie proximale, HTA, fragilité cutanée; {t:cortisol urinaire 24h ↑}"
+    freq: "rare (incidence 1-2/million/an) mais à éliminer si présentation atypique"
+
+# source: MD line 197-310
+pec_initiale:
+  immediate:
+    - |-
+      {r:Modifications du mode de vie (1ère ligne)} — perte poids 5-10% suffit à améliorer TOUS les paramètres:
+      • alimentation type {r:méditerranéenne} (5 portions f/l, céréales complètes, poisson 2x/sem, huile d'olive)
+      • restriction: sucres simples < 10% AET, graisses saturées < 10%, sel < {r:5 g/j}, alcool max 1 verre/j F (2 H), STOP boissons sucrées
+      • {r:activité physique 150-300 min/sem} intensité modérée + renforcement 2x/sem; débuter 10 min/j progressif
+      • sommeil 7-9 h, dépistage SAOS si signes
+    - |-
+      Traitement par composante (selon critères atteints):
+      • {p:HTA}: cible {r:< 130/80}; 1ère ligne {r:IEC ou ARA-II} (néphroprotection), associer thiazidique ou inhibiteur calcique
+      • {p:Dyslipidémie}: {r:statine} selon {t:SCORE2/SCORE2-OP} et cible LDL; {r:fibrates} si TG > 5 mmol/L (prévention pancréatite)
+      • {p:Pré-DT2 / DT2 récent}: {r:metformine 500 mg x2/j} (titration jusqu'à 1000 mg x2/j) si IMC > 35 ou intolérance glucose + FR; {r:iSGLT2} ou {r:GLP-1 RA} (sémaglutide, liraglutide) si obésité + cardiopathie [VÉRIFIER: indications remboursement SwissDRG/OFSP pour GLP-1 RA hors DT2]
+    - |-
+      Traitement médicamenteux obésité (échec MHD à 6 mois):
+      • {r:sémaglutide 2,4 mg SC 1x/sem} ou {r:liraglutide 3 mg SC/j} (perte 10-15%)
+      • {r:orlistat 120 mg x3/j} (malabsorption graisses)
+      • indications: IMC ≥ {r:30} OU ≥ {r:27 avec comorbidités}
+    - |-
+      Chirurgie bariatrique (sleeve, bypass):
+      • IMC ≥ {r:40} OU ≥ {r:35 avec comorbidités} (DT2, SAOS sévère, NASH)
+      • échec PEC médicale, patient motivé, bilan multidisciplinaire pré-op
+    - "Cessation tabagique systématique (TCC, substituts nicotiniques, varénicline); vaccin grippe + COVID + pneumocoque"
+  orientation:
+    - "Médecin traitant (coordination): suivi mensuel les 3 premiers mois, trimestriel 1ère année, semestriel ensuite"
+    - "Endocrinologue: HbA1c > 7% sous metformine, hypoglycémies, comorbidités complexes, candidat chirurgie bariatrique"
+    - "Diététicien(ne) systématique; APA / kinésithérapeute; psychologue si TCA / dépression"
+    - "Cardiologue si SCORE2 élevé/très élevé, suspicion coronaropathie, FA, ICC"
+    - "Urgences: SCA, AVC, acidocétose, pré-éclampsie chez femme enceinte; consignes de retour clairement expliquées"
+
+# source: MD line 137-168
+examens_complementaires:
+  - "Bilan glucidique: {t:glycémie à jeun} + {t:HbA1c}; {t:HGPO 75g} si GAJ {r:5,6-6,9 mmol/L} (pré-DT2) ou suspicion forte"
+  - "Bilan lipidique complet à jeun: CT, HDL, LDL (calculé / direct), TG; reproduire à 3 mois après modifications"
+  - "Bilan hépatique: {t:ASAT, ALAT, GGT, PAL, bilirubine}; {t:score FIB-4} + écho abdominale (stéatose); {t:FibroScan} si FIB-4 > 1,3"
+  - "Bilan rénal: créatinine + DFGe (CKD-EPI), {t:rapport albumine/créatinine urinaire spot} (microalbuminurie ≥ 30 mg/g)"
+  - "{t:ECG 12 dérivations} (HVG, fibrillation atriale, ischémie); écho cardiaque si signes d'IC ou HVG marquée"
+  - "Selon contexte: TSH (DD prise poids), acide urique (goutte), CRP us, NFS; polygraphie si suspicion SAOS"
+
+# source: MD line 280-282 + clinical pivots
+criteres_hospitalisation:
+  - "{p:SCA / IDM} ou décompensation cardiaque sévère"
+  - "Acidocétose diabétique ou état hyperosmolaire"
+  - "Pré-éclampsie sévère si grossesse associée"
+  - "Cellulite / pied diabétique infecté nécessitant ATB IV"
+  - "Pré-opératoire chirurgie bariatrique en milieu spécialisé"
+
+# source: MD line 335-340 + clinical pivots
+pieges:
+  - "Traiter chaque composante isolément (HTA, dyslipidémie, glycémie) sans évaluer le RISQUE CV GLOBAL ({t:SCORE2/SCORE2-OP}) ni la trajectoire métabolique"
+  - "Oublier la {t:mesure du tour de taille} (critère central IDF) — un patient à IMC normal mais tour ↑ a un SM"
+  - "Méconnaître le {p:SOPK} chez la femme jeune avec acné/oligoménorrhée → manquer une fenêtre de prévention DT2 et infertilité"
+  - "Sous-estimer la {p:NAFLD/NASH}: transaminases normales N'EXCLUENT PAS la fibrose; toujours calculer le {t:FIB-4}"
+  - "Ne pas envisager la chirurgie bariatrique si IMC > 35 + DT2/SAOS — sous-utilisée alors que rémission DT2 dans 60-80% à 2 ans"
+
+cartes_liees:
+  - SSP-END-DT2
+  - SSP-END-VARIATION-PONDERALE
+  - SSP-CAR-HTA-SUIVI
+  - SSP-PSY-TCA

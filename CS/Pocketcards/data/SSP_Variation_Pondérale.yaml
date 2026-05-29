@@ -1,0 +1,207 @@
+id: SSP-END-07
+type: ssp
+title: Variation pondérale
+discipline: Endocrino
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Variation_Pondérale.md
+
+# source: lignes 12-110
+anamnese:
+  socrates:
+    - |-
+      Quantification:
+      • poids actuel vs habituel (6 / 12 mois), {r:nombre de kg}
+      • {r:% du poids corporel}: > 5 % / 6 mois ou > 10 % / 12 mois = significatif
+      • courbes pondérales historiques (carnet, dossier)
+    - "Onset & vitesse: progressif ou brutal? prise rapide en jours-semaines → rétention hydrique?"
+    - "Caractère: {e:volontaire} (régime, sport) vs {e:involontaire} (pivot clinique majeur)"
+    - "Time: durée totale; évolution stable, progressive, par paliers?"
+    - |-
+      Exacerbating / contexte:
+      • événement de vie (deuil, perte d'emploi), stress
+      • changement médicamenteux récent
+      • sevrage tabagique (prise), chirurgie digestive (bypass, résection)
+    - "Relieving: arrêt d'un médicament suspect a-t-il amélioré le poids?"
+    - "Severity: asthénie, autonomie, qualité de vie, dyspnée / oedèmes (rétention)"
+  specifique:
+    - |-
+      Enquête alimentaire:
+      • appétit ↑ / ↓ / conservé?
+      • journée type, dysphagie, satiété précoce
+      • compulsions, restrictions, purges
+    - |-
+      Si {s:perte} — symptômes B + digestifs:
+      • fièvre, sudations nocturnes, asthénie
+      • adénopathies, douleurs osseuses, rectorragies, dysphagie (→ {p:cancer})
+      • diarrhée chronique, {s:stéatorrhée}, carences (glossite, paresthésies)
+    - |-
+      Si {s:perte} — {p:hyperthyroïdie}:
+      • {s:palpitations, tremblements}, intolérance chaleur, sueurs
+      • appétit augmenté malgré perte, diarrhée, anxiété
+    - |-
+      Si {s:perte} — {p:Addison}:
+      • {s:mélanodermie} (plis, cicatrices, muqueuses)
+      • hypotension orthostatique, appétence pour le sel
+    - |-
+      Si {s:prise} — {p:hypothyroïdie}:
+      • fatigue, intolérance froid, constipation
+      • peau sèche, bradycardie, voix rauque
+    - |-
+      Si {s:prise} — {p:Cushing}:
+      • {s:répartition centripète} (tronc, face, bosse de bison)
+      • {s:vergetures pourpres} > 1 cm, ecchymoses
+      • faiblesse proximale, HTA, diabète de novo
+    - |-
+      Si {s:prise rapide} — rétention hydrosodée:
+      • {s:oedèmes MI}, dyspnée d'effort, orthopnée
+      • > 2 kg en quelques jours → IC, néphrotique, cirrhose
+    - |-
+      Psy — SIGECAPS pour {p:dépression} (≥ 5/9 + ≥ 2 sem):
+      • Sleep, Interest (anhédonie), Guilt, Energy
+      • Concentration, Appetite, Psychomotor, Suicidality
+    - |-
+      {p:TCA}:
+      • restriction + image altérée + déni ({p:anorexie})
+      • compulsions + purges ({p:boulimie})
+      • {s:hyperphagie nocturne}, hyperphagie boulimique
+  atcd:
+    - "Personnels: cancer, MICI, cœliaque, chirurgie digestive, diabète, thyroïdopathie"
+    - "Familiaux: cancers digestifs / gynéco, dysthyroïdies, MICI, TCA"
+    - |-
+      Médicaments → {s:PRISE} (RÉVISER SYSTÉMATIQUEMENT):
+      • {r:antipsychotiques} (olanzapine, clozapine, rispéridone)
+      • {r:corticoïdes} au long cours
+      • {r:antidépresseurs} (mirtazapine, paroxétine, tricycliques)
+      • {r:insuline, sulfamides hypoglycémiants}
+      • {r:antiépileptiques} (valproate, gabapentine), {r:bêta-bloquants}
+    - |-
+      Médicaments → {s:PERTE}:
+      • metformine, GLP-1 ({r:liraglutide, sémaglutide})
+      • topiramate, stimulants, chimiothérapie, IPP au long cours
+    - |-
+      Habitudes:
+      • alimentation, activité physique (sédentarité)
+      • tabac (sevrage → prise), alcool (malnutrition, hépatopathie)
+      • sommeil ({p:SAOS}), précarité, isolement
+
+# source: lignes 113-142
+red_flags:
+  - description: "{e:> 50 ans} avec amaigrissement involontaire > {r:10 % en 6 mois} ± anémie / ↑ CRP / symptômes B"
+    dx_suspecte: "{p:Néoplasie occulte} (colorectal, pancréas, poumon, prostate, gynéco, lymphome)"
+    action: "{t:Scanner TAP} + endoscopies digestives + bilan biologique étendu + selon contexte (PSA, mammo, gynéco)"
+  - description: "{s:Mélanodermie} + {s:hypotension orthostatique} + perte de poids"
+    dx_suspecte: "{p:Insuffisance surrénalienne (Addison)}"
+    action: "Cortisol 8 h + ACTH + iono STAT ({s:hyponatrémie + hyperkaliémie}); si crise: {r:hydrocortisone 100 mg IV} + NaCl 0,9 %"
+  - description: "Amaigrissement + {s:adénopathies périphériques} + sueurs nocturnes ± fièvre"
+    dx_suspecte: "{p:Lymphome}"
+    action: "FSC + LDH + scanner TAP; {t:biopsie ganglionnaire} (PAS cytoponction); avis hémato urgent"
+  - description: "Femme jeune, {e:IMC < 17,5}, restriction + déni + aménorrhée + image corporelle altérée"
+    dx_suspecte: "{p:Anorexie mentale} (forme sévère)"
+    action: "ECG + iono (K, Mg, P) STAT; critères MARSIPAN → {r:hospitalisation} si IMC < 14, K < 3, FC < 40, hypoglycémie, syncope"
+  - description: "Prise pondérale rapide + {s:vergetures pourpres larges} + {s:bosse de bison} + HTA + diabète de novo"
+    dx_suspecte: "{p:Syndrome de Cushing}"
+    action: "{t:Cortisol libre urinaire 24 h} ×2 + {t:freinage minute 1 mg dexaméthasone} + cortisol salivaire nocturne; si + → IRM hypophyse / scanner surrénales"
+  - description: "Diarrhée chronique + perte > 5 % + carences ({s:B12, fer, folates}) ± stéatorrhée"
+    dx_suspecte: "{p:Malabsorption} (cœliaque, MICI, IPE)"
+    action: "{t:Anti-transglutaminase IgA + IgA totales}, calprotectine, élastase fécale; {t:endoscopies} (gastro + biopsies duodénales + iléo-colo)"
+  - description: "Prise pondérale rapide + {s:oedèmes MI} + dyspnée + orthopnée"
+    dx_suspecte: "{p:Insuffisance cardiaque décompensée}"
+    action: "{t:BNP/NT-proBNP} + Rx thorax + ECG + écho cardiaque; {r:furosémide IV} + restriction sodée; avis cardio"
+
+# source: lignes 111-142
+examen:
+  general:
+    - "Signes vitaux: TA couché-debout (orthostatisme), FC, T°, FR, SaO2, {t:glycémie capillaire}"
+    - "{t:Poids, taille, IMC}: cachexie < 16, normal 18,5-24,9, obésité ≥ 30"
+    - "{t:Tour de taille}: > 88 cm F / > 102 cm H = androïde [VÉRIFIER: seuils IDF / NCEP-ATP III variables selon ethnie]"
+    - "État général: cachexie, fonte musculaire (temporale, deltoïde), oedèmes; hydratation (muqueuses, pli cutané)"
+  cible:
+    - |-
+      Examen thyroïdien SYSTÉMATIQUE:
+      • palpation: goitre, nodules, sensibilité
+      • {p:hyperthyroïdie}: tremblements, tachycardie, exophtalmie, peau chaude moite
+      • {p:hypothyroïdie}: bradycardie, ROT lents (Achille), oedème péri-orbitaire, peau sèche
+    - |-
+      Si {s:perte} — recherche cancer / digestif:
+      • pâleur, ictère; masses abdo, hépato / splénomégalie
+      • {s:adénopathies} (cervicales, sus-clav, axillaires, inguinales)
+      • toucher rectal, seins (F) / testicules (H)
+    - "Si {s:perte} — {p:Addison}: {s:mélanodermie} (plis palmaires, gencives, cicatrices), TA debout vs couché"
+    - |-
+      Si {s:prise} — {p:Cushing}:
+      • {s:répartition centripète} (face lunaire, bosse de bison)
+      • {s:vergetures pourpres} > 1 cm, ecchymoses, peau fine, hirsutisme (F)
+      • faiblesse proximale (lever de chaise sans appui)
+    - |-
+      Si {s:prise rapide} — rétention hydrosodée:
+      • {s:oedèmes MI} godet, turgescence jugulaire, RHJ, B3, crépitants (IC)
+      • ascite, hépatomégalie (cirrhose)
+    - "Psy: présentation, contact, affect, ralentissement, anhédonie, idéation suicidaire (toujours demander) [VÉRIFIER: hétéro-évaluation Hamilton / PHQ-9 si doute]"
+    - "Cutané: troubles trophiques (carences), acanthosis nigricans (insulino-résistance)"
+
+# source: lignes 144-194
+dd_top5:
+  - dx: "{p:Néoplasie occulte}"
+    indices: "{e:> 50 ans}, amaigrissement involontaire > {r:10 % / 6 mois}, anémie ferriprive, ↑ CRP, symptômes B; cancers: colorectal, pancréas, poumon, prostate, gynéco, lymphome"
+    freq: "cause #1 d'amaigrissement involontaire après 50 ans (~25-35 %)"
+  - dx: "{p:Dépression majeure}"
+    indices: "Anhédonie, SIGECAPS ≥ 5/9, ≥ 2 sem, contexte psychosocial; perte ou prise selon profil; idées suicidaires à rechercher"
+    freq: "très fréquent (~15-20 % des amaigrissements involontaires)"
+  - dx: "{p:Hyperthyroïdie}"
+    indices: "Perte avec {s:appétit conservé/↑}, palpitations, tremblements, intolérance chaleur, diarrhée, {t:TSH effondrée + T4l élevée}; Basedow, nodule toxique, thyroïdite"
+    freq: "fréquent (5-10 % des amaigrissements involontaires) [VÉRIFIER: rang exact selon série]"
+  - dx: "{p:Malabsorption} (cœliaque, MICI, IPE)"
+    indices: "Diarrhée chronique, {s:stéatorrhée}, carences (B12, fer, folates, vit D); sérologies cœliaque, calprotectine, élastase fécale, endoscopies + biopsies"
+    freq: "fréquent (~10-15 %)"
+  - dx: "{p:Syndrome de Cushing} (si prise)"
+    indices: "Prise rapide centripète, {s:vergetures pourpres} > 1 cm, HTA, diabète, ostéoporose, faiblesse proximale; {t:cortisol libre urinaire + freinage minute}; cause #1 = iatrogène (corticoïdes)"
+    freq: "rare endogène (~1-2/100 000), fréquent iatrogène"
+
+# source: lignes 198-232
+pec_initiale:
+  immediate:
+    - "Calculer {t:IMC} + tour de taille; documenter courbe pondérale historique; bilan bio 1ère intention (cf. examens_complementaires)"
+    - "{p:Hypothyroïdie} confirmée (TSH > 4 + T4l basse): {r:lévothyroxine 1,6 μg/kg/j PO} (25-50 μg si > 65 ans ou cardiopathie); contrôle TSH à 6-8 sem [VÉRIFIER: posologie initiale adaptée à âge et comorbidités]"
+    - "{p:Hyperthyroïdie} confirmée: {r:carbimazole 20-40 mg/j PO} + {r:bêta-bloquant} (propranolol 40-80 mg/j) si symptômes; référer endocrino"
+    - "{p:Dépression majeure}: TCC 1ère ligne; {r:ISRS} (sertraline, escitalopram) si modérée-sévère; ÉVITER {r:mirtazapine, paroxétine, tricycliques} si prise; suivi rapproché (risque suicidaire)"
+    - "{p:Anorexie} avec critères MARSIPAN: hospitalisation + correction électrolytique prudente (risque syndrome de renutrition: P, K, Mg, B1)"
+    - "Obésité non compliquée: déficit {r:-500 kcal/j}, objectif {r:-5 à -10 % en 6 mois}, activité physique {r:150 min/sem} modérée, TCC"
+  orientation:
+    - "Domicile + suivi MT: variation modérée, étiologie identifiée non urgente, bilan 1ère intention rassurant"
+    - "Consultation diététique + APA: obésité non compliquée"
+    - "Endocrino: dysthyroïdie, suspicion {p:Cushing} / {p:Addison}, obésité avec comorbidités, hypogonadisme, SOPK"
+    - "Gastro: suspicion {p:malabsorption}, MICI, cœliaque, chirurgie bariatrique"
+    - "Hospitalisation: red flags (cancer > 50 ans, MARSIPAN, IC décompensée, Addison, Cushing sévère), dénutrition sévère ({t:albumine} < 30 g/L), perte > 20 %"
+    - "Psy / addicto: TCA, dépression sévère, idées suicidaires, addictions"
+
+# source: lignes 146-174
+examens_complementaires:
+  - "{t:Biologie 1ère intention SYSTÉMATIQUE}: NFS, iono, créat, glycémie/HbA1c, bilan hépatique (ASAT/ALAT/PAL/GGT), CRP, {t:albumine + préalbumine}, B12 + folates, ferritine, vit D, Ca"
+  - "{t:TSH ± T4 libre} SYSTÉMATIQUE devant TOUTE variation pondérale inexpliquée"
+  - "Si {p:Cushing}: {t:cortisol libre urinaire 24 h ×2}, {t:freinage minute 1 mg dexaméthasone à 23 h} (cortisol 8 h < 50 nmol/L = normal), cortisol salivaire nocturne; si + : ACTH + IRM hypophyse / scanner surrénales [VÉRIFIER: protocole local CHUV / HUG]"
+  - "Si {p:Addison}: cortisol 8 h + ACTH, test au Synacthène (cortisol 60 min < 500 nmol/L pathologique), iono (Na↓, K↑)"
+  - "Si {p:cancer} (> 50 ans, perte > 10 %, symptômes B): {t:scanner TAP} + endoscopies digestives + Rx thorax; marqueurs ciblés (PSA H, mammo + écho pelv F)"
+  - "Si {s:diarrhée} / malabsorption: {t:anti-transglutaminase IgA + IgA totales}, calprotectine, élastase fécale, parasitologie selles, endoscopies + biopsies duodénales"
+
+# source: lignes 234-240
+criteres_hospitalisation:
+  - "Critères MARSIPAN ({p:anorexie} sévère): {t:IMC < 14}, K < 3, FC < 40, hypoglycémie, syncope, allongement QTc"
+  - "Cancer avec dénutrition sévère ({t:albumine < 25 g/L}, perte > 20 %) ou complications"
+  - "Crise surrénalienne ({p:Addison}): hypotension + hyponatrémie + hyperkaliémie + hypoglycémie"
+  - "Décompensation cardiaque sur prise rapide: dyspnée NYHA III-IV, oedèmes massifs"
+  - "Idées suicidaires avec plan / passage à l'acte récent → hospitalisation psychiatrique"
+
+# source: lignes 252-258 + clinical pivots
+pieges:
+  - "Rassurer 'c'est le stress' devant amaigrissement involontaire > 5 % chez {e:> 50 ans} SANS bilan oncologique → cancer manqué"
+  - "Attribuer une prise pondérale à 'sédentarité' SANS réviser systématiquement les médicaments ({r:antipsychotiques, corticoïdes, mirtazapine, valproate})"
+  - "Méconnaître un {p:Cushing} devant une obésité tronculaire avec {s:vergetures pourpres + HTA + diabète} → toujours doser cortisol libre urinaire"
+  - "Diagnostiquer une {p:dépression} avec amaigrissement SANS doser la TSH (hyperthyroïdie / hypothyroïdie peuvent mimer)"
+  - "Manquer une {p:hyperphagie boulimique} ou {p:syndrome alimentation nocturne} sans interrogatoire alimentaire ciblé"
+
+cartes_liees:
+  - SYS-END
+  - SSP-END-01

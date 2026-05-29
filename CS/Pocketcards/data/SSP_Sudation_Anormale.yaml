@@ -1,0 +1,197 @@
+id: SSP-END-05
+type: ssp
+title: Sudation anormale
+discipline: Endocrino
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Sudation_Anormale.md
+
+# source: lignes 3-111
+anamnese:
+  socrates:
+    - |-
+      Site:
+      • {s:généralisée} (oriente vers cause secondaire) ou {s:focale} (paumes/plantes/aisselles/face)?
+      • bilatérale et symétrique?
+    - |-
+      Onset:
+      • début {e:dans l'enfance/adolescence} (oriente hyperhidrose primaire)
+      • début {e:après 25 ans} → suspecter cause secondaire
+      • installation progressive ou brutale (paroxystique)?
+    - "Character: continue, paroxystique ('crises'), profuse (trempe les vêtements/draps)?"
+    - "Radiation: non applicable — préciser plutôt zones touchées et extension"
+    - |-
+      Time:
+      • {s:diurne} (effort/émotion → primaire) vs {s:nocturne} (signe d'alarme)
+      • nécessité de {s:changer les draps la nuit}?
+      • durée des épisodes, fréquence par semaine
+    - |-
+      Exacerbating:
+      • chaleur, effort, stress, émotions
+      • aliments épicés / alcool / café (sudation gustative)
+      • position, médicaments récents
+    - "Relieving: fraîcheur, repos, retrait des vêtements, antiperspirants utilisés?"
+    - |-
+      Severity:
+      • retentissement {e:psychosocial} (évitement, dépression)
+      • activité professionnelle, vie sexuelle
+      • macération, surinfection cutanée?
+  specifique:
+    - |-
+      Signes B ({p:Lymphome / TB}):
+      • {s:sueurs nocturnes profuses} + {s:fièvre vespérale}
+      • {s:perte de poids > 10 %} en 6 mois
+      • adénopathies palpables, prurit?
+    - |-
+      Triade du {p:phéochromocytome} (à rechercher activement):
+      • {s:céphalées} paroxystiques
+      • {s:palpitations} + {s:HTA paroxystique}
+      • {s:sueurs profuses} + pâleur + tremblements
+    - |-
+      Hyperthyroïdie:
+      • {s:intolérance à la chaleur}, perte pondérale avec appétit conservé
+      • palpitations, tremblements fins, diarrhée
+      • nervosité, insomnie, troubles menstruels
+    - |-
+      Ménopause / périménopause ({e:femme 45-55 ans}):
+      • bouffées de chaleur paroxystiques + sueurs nocturnes
+      • aménorrhée / irrégularités menstruelles
+      • sécheresse vaginale, troubles du sommeil
+    - |-
+      Hypoglycémie ({e:diabétique sous insuline ou sulfamides}):
+      • sueurs froides + tremblements + palpitations
+      • faim impérieuse, troubles cognitifs, malaise
+      • horaire (jeûne, post-prandial tardif)?
+    - "Sudation gustative {p:syndrome de Frey} (post-parotidectomie ou diabète): joue qui sue à la mastication?"
+    - "{s:Bouffées vasomotrices} avec flush + diarrhée → {p:syndrome carcinoïde}?"
+  atcd:
+    - "ATCD endocriniens: {p:diabète} (type 1 ou 2), thyroïdopathie, surrénale, NEM2"
+    - "ATCD oncologiques personnels/familiaux: lymphome, leucémie, cancer solide; statut tabagique"
+    - |-
+      Médicaments en cours (cause médicamenteuse fréquente):
+      • {r:ISRS/SNRI}, tricycliques, IMAO
+      • hormones thyroïdiennes, œstrogènes, tamoxifène
+      • opioïdes (effet et sevrage), tramadol
+      • cholinergiques, sulfamides hypoglycémiants/insuline
+    - "Sevrage récent: alcool, opiacés, benzodiazépines (à dater précisément)"
+    - "Voyages récents, contage TB, exposition VIH, statut vaccinal BCG"
+    - "ATCD familiaux: hyperhidrose primaire (transmission AD ~50 %), phéochromocytome (NEM2, VHL, NF1)"
+    - "{e:Grossesse} possible (femme en âge de procréer) — DDR et contraception"
+
+# source: lignes 320-336
+red_flags:
+  - description: "{s:Sueurs nocturnes profuses} + {s:fièvre vespérale} + {s:perte de poids > 10 %} ± adénopathies"
+    dx_suspecte: "{p:Lymphome} (Hodgkin/NH) ou {p:tuberculose}"
+    action: "{t:Rx thorax} + {t:NFS-CRP-LDH} + {t:IGRA/Quantiferon} + {t:scanner TAP}; biopsie ganglionnaire si adénopathie [VÉRIFIER: seuil TAP vs scanner ciblé selon point d'appel]"
+  - description: "{s:Sudation paroxystique} + {s:HTA paroxystique > 180/120} + {s:céphalées} + palpitations + pâleur"
+    dx_suspecte: "{p:Phéochromocytome}"
+    action: "{t:Métanéphrines plasmatiques libres} ou {t:urinaires 24 h} + {t:IRM surrénales}; éviter bêta-bloquant seul (HTA paradoxale)"
+  - description: "Sudation profuse + {s:douleur thoracique} ± dyspnée ({e:femme/diabétique}: présentation atypique)"
+    dx_suspecte: "{p:Syndrome coronarien aigu (IDM)}"
+    action: "{t:ECG 12 dérivations} < 10 min + {t:troponines hs} + appel cardio; {r:aspirine 250 mg PO} si pas de CI"
+  - description: "Sudation + {s:tremblements} + {s:trouble de conscience} chez {e:diabétique sous insuline/sulfamides}"
+    dx_suspecte: "{p:Hypoglycémie sévère}"
+    action: "{t:Glycémie capillaire} immédiate; si < 3.9 mmol/L: {r:glucose 30 % 20 mL IV} ou {r:glucagon 1 mg IM}; recontrôler"
+  - description: "Sudation + {s:fièvre} + {s:souffle cardiaque nouveau} ± signes périphériques (Janeway, Osler)"
+    dx_suspecte: "{p:Endocardite infectieuse}"
+    action: "{t:3 hémocultures} à 30 min d'intervalle + {t:ETT/ETO} + ATB empirique selon protocole (couvrir staph) [VÉRIFIER: protocole CHUV antibiothérapie empirique endocardite]"
+  - description: "{s:Hyperthermie > 40 °C} + tachycardie + agitation/délirium chez patient thyréotoxique"
+    dx_suspecte: "{p:Crise thyréotoxique (storm)}"
+    action: "Hospitalisation USI; {r:propranolol IV} + {r:PTU 600-1000 mg PO} + {r:hydrocortisone 100 mg IV} + iode > 1 h après PTU [VÉRIFIER: posologies adultes selon protocole local]"
+
+# source: lignes 114-167
+examen:
+  general:
+    - "Signes vitaux OBLIGATOIRES: TA (couché/debout, les 2 bras), FC, T°, FR, SaO2, glycémie capillaire"
+    - "{t:Poids + IMC} — comparer à la valeur antérieure (perte > 10 % = signe B)"
+    - "État d'hydratation: pli cutané, muqueuses, diurèse"
+    - "État général, conscience ({t:GCS}), anxiété/agitation/délirium"
+    - "Inspection cutanée complète: zones de sudation, macération, lésions infectieuses, télangiectasies, purpura"
+  cible:
+    - |-
+      Examen thyroïdien:
+      • palpation: goitre diffus / nodulaire, frémissement
+      • auscultation thyroïdienne (souffle = {p:Basedow})
+      • {s:exophtalmie}, rétraction palpébrale, ophtalmoplégie
+    - |-
+      Examen cardiovasculaire:
+      • rythme cardiaque (tachycardie, FA), souffles
+      • pouls périphériques, signes d'insuffisance cardiaque
+      • TA répétée + recherche d'{s:HTA paroxystique}
+    - |-
+      Examen neurologique ciblé:
+      • {s:tremblement fin} des extrémités (mains étendues)
+      • ROT (vifs si hyperthyroïdie)
+      • état mental, signes focaux, sd de Horner (sudation hémifaciale)
+    - |-
+      Recherche d'une cause organique:
+      • adénopathies (5 aires: cervicale, axillaire, sus-claviculaire, inguinale, épitrochléenne)
+      • hépato-splénomégalie, masse abdominale
+      • foyer infectieux (pulmonaire, cutané, ORL, dentaire)
+    - "Examen gynécologique selon contexte: atrophie vaginale (ménopause), grossesse"
+    - "Test à l'iode-amidon (Minor) pour cartographier hyperhidrose focale avant botox [VÉRIFIER: disponibilité en pratique courante]"
+
+# source: lignes 226-263
+dd_top5:
+  - dx: "{p:Hyperhidrose primaire focale idiopathique}"
+    indices: "Début {e:< 25 ans}, focale (paumes/plantes/aisselles/face), bilatérale et symétrique, {s:pas de sueurs nocturnes}, ATCD familiaux ~30-50 %, retentissement psychosocial important; diagnostic d'élimination après bilan minimal normal"
+    freq: "très fréquent (~3 % population)"
+  - dx: "{p:Ménopause / périménopause}"
+    indices: "{e:Femme 45-55 ans}, bouffées de chaleur paroxystiques + sueurs nocturnes, aménorrhée/irrégularités, sécheresse vaginale; FSH élevée, œstradiol bas (souvent dispensable si clinique typique)"
+    freq: "très fréquent (~80 % des femmes à la ménopause)"
+  - dx: "{p:Hyperthyroïdie} (Basedow, nodule toxique, thyroïdite)"
+    indices: "Intolérance chaleur, perte pondérale + appétit conservé, palpitations, tremblement fin, diarrhée, peau chaude/moite; {t:TSH effondrée, T4L élevée}"
+    freq: "fréquent (prévalence ~1-2 %)"
+  - dx: "{p:Tuberculose / lymphome} (sueurs nocturnes profuses + sd B)"
+    indices: "{s:Sueurs nocturnes B+} + fièvre vespérale + amaigrissement > 10 % + adénopathies, contage TB, terrain immunodéprimé; {t:Rx thorax + IGRA + biopsie}"
+    freq: "rare mais à ne pas manquer"
+  - dx: "{p:Phéochromocytome}"
+    indices: "{s:Triade}: céphalées + palpitations + sueurs paroxystiques, HTA paroxystique ou permanente, pâleur, anxiété; ATCD NEM2/VHL/NF1; {t:métanéphrines}"
+    freq: "rare (~0.2 % des HTA) mais grave [VÉRIFIER: ordre des DD si Hypoglycémie chez diabétique plus prévalent en pratique]"
+
+# source: lignes 265-308
+pec_initiale:
+  immediate:
+    - "STOP red flags d'abord — toute sudation paroxystique avec HTA → exclure phéochromocytome avant tout bêta-bloquant"
+    - "Bilan minimal systématique d'une sudation secondaire suspectée: {t:NFS, CRP, glycémie/HbA1c, créat, TSH, β-hCG, bilan hépatique, sérologie VIH} + Rx thorax"
+    - "Sudation primaire focale axillaire/palmaire: {r:chlorure d'aluminium 20 % topique} le soir (1ère ligne) → ionophorèse → {r:botox intra-dermique 50 U/aisselle} → sympathectomie thoracique si échec [VÉRIFIER: posologie botox et nombre de points]"
+    - "Hyperthyroïdie: {r:carbimazole 20-40 mg/j PO} + {r:propranolol 40-80 mg × 3/j PO} symptomatique"
+    - "Ménopause symptomatique handicapante: discussion {r:THM} (œstrogènes ± progestatif) si pas de CI; alternative: {r:venlafaxine 75 mg/j PO} ou phytoœstrogènes"
+    - "Hypoglycémie consciente: 15 g de sucre PO (3 morceaux ou 150 mL jus); inconscience: {r:glucose 30 % 20 mL IV} ou {r:glucagon 1 mg IM/SC}"
+    - "Phéochromocytome confirmé: {r:α-bloqueur (phénoxybenzamine 10-20 mg × 2/j PO)} 10-14 j AVANT β-bloqueur, puis surrénalectomie [VÉRIFIER: protocole local de préparation pré-op]"
+  orientation:
+    - "Domicile + suivi MT: hyperhidrose primaire focale typique avec bilan minimal normal, ménopause non compliquée"
+    - "Consultation endocrino ambulatoire: hyperthyroïdie débutante, suspicion phéochromocytome non urgente, ménopause complexe (CI au THM)"
+    - "Urgences: tout red flag, hypoglycémie sévère, crise thyréotoxique, sd coronarien suspect, HTA paroxystique sévère"
+    - "Consultation hémato/infectio: suspicion lymphome (sd B), TB suspectée, fièvre prolongée inexpliquée"
+    - "Consignes de retour: apparition fièvre, perte de poids rapide, douleur thoracique, syncope, HTA paroxystique"
+
+# source: lignes 170-220
+examens_complementaires:
+  - "{t:Bilan minimal de 1ère ligne}: NFS-plaquettes, CRP, glycémie à jeun + HbA1c, créatinine, ionogramme, bilan hépatique, {t:TSH ± T4 libre}, β-hCG si femme"
+  - "{t:Métanéphrines plasmatiques libres} ou {t:métanéphrines urinaires sur 24 h}: suspicion phéochromocytome (sensibilité plasma > 95 %, spécificité urines meilleure)"
+  - "{t:FSH + œstradiol}: utile si doute diagnostique ménopause (clinique souvent suffisante > 50 ans avec aménorrhée > 12 mois)"
+  - "{t:Rx thorax + IGRA/Quantiferon} ± crachats BAAR/GeneXpert: suspicion TB (sueurs nocturnes B+)"
+  - "{t:Sérologies VIH, hépatites, EBV, CMV} + hémocultures × 3: contexte infectieux, fièvre prolongée"
+  - "{t:Scanner thoraco-abdomino-pelvien} ± biopsie ganglionnaire / TEP-FDG: bilan d'une suspicion de lymphome ou néoplasie"
+
+# source: lignes 321-336
+criteres_hospitalisation:
+  - "Crise thyréotoxique (T° > 40 °C, tachycardie > 130, délirium) → USI"
+  - "Phéochromocytome avec HTA > 180/120 ou crise hypertensive avec retentissement d'organe"
+  - "Hypoglycémie sévère récidivante ou résistante au resucrage"
+  - "Syndrome coronarien aigu / endocardite suspecte → USIC ou cardio"
+  - "Sd B avec altération sévère de l'état général en attente de bilan oncologique en hospit"
+
+pieges:
+  - "Étiqueter 'stress / anxiété' une sudation nocturne profuse SANS bilan minimal → manquer un {p:lymphome} ou une {p:TB}"
+  - "Oublier le {p:phéochromocytome} devant une triade céphalées + palpitations + sueurs paroxystiques (HTA parfois absente entre crises)"
+  - "Donner un β-bloqueur ISOLÉ avant α-bloqueur dans un phéochromocytome → crise hypertensive paradoxale"
+  - "Méconnaître une {p:hypoglycémie} chez {e:diabétique sous insuline/sulfamides} (sueurs nocturnes = signal d'alerte; demander glycémies nocturnes 3 h)"
+  - "Ne pas demander {t:β-hCG} chez femme en âge de procréer (grossesse + hyperthyroïdie gestationnelle / présentation atypique IDM)"
+
+cartes_liees:
+  - SSP-NEU-04
+  - SYS-END

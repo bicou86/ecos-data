@@ -1,0 +1,218 @@
+id: SSP-END-02
+type: ssp
+title: Suivi du diabète
+discipline: Endocrino
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Diabète_Suivi.md
+  - Stratégie HUG 2022 — Prise en charge thérapeutique du diabète de type 2
+  - Standards of Care ADA 2024
+  - SGED/SSED recommandations diabète
+
+# source: lines 9-60
+anamnese:
+  socrates:
+    - "Site (motif): contrôle de routine, décompensation, symptôme nouveau de complication, ou orientation spécialisée (ophtalmo, néphro, podologue)?"
+    - |-
+      Onset:
+      • date du diagnostic, durée d'évolution
+      • type ({p:T1}, {p:T2}, MODY, secondaire, gestationnel ancien)
+      • mode de découverte (syndrome cardinal, fortuit, complication)
+    - "Character: ressenti général, qualité de vie, vécu de la maladie, sentiment de contrôle"
+    - "Radiation: retentissement professionnel, social, familial, financier (coût traitement, SGM)"
+    - |-
+      Time (équilibre récent):
+      • glycémies habituelles (à jeun {r:4-7 mmol/L}, post-prandiale {r:< 10 mmol/L})
+      • dernière {t:HbA1c} et trajectoire 6-12 mois
+      • fréquence auto-contrôles / {t:CGM}, carnet/application consulté
+    - "Exacerbating ({s:hyperglycémies}): repas (glucides rapides), inobservance, infection, stress, corticoïdes, baisse activité physique"
+    - |-
+      Relieving / {s:hypoglycémies} (PRIORITAIRE+++):
+      • fréquence, horaire (nocturnes?), symptômes ou {r:hypoglycémies non perçues}
+      • circonstances (jeûne, effort, alcool, insuline)
+      • resucrage utilisé, recours à tiers, glucagon
+    - "Severity: {t:HbA1c} vs cible individualisée, nombre hypos/sem ({r:> 2/sem ou 1 sévère/an} = revoir tt), retentissement (conduite, travail, hospit)"
+  specifique:
+    - |-
+      Complications microvasculaires — symptômes:
+      • {s:rétinopathie}: baisse acuité, scotomes, métamorphopsies, dernière consult ophtalmo
+      • {s:néphropathie}: œdèmes, mousse urinaire, dernière {t:créat/eGFR + ACR}
+      • {s:neuropathie périph.}: paresthésies en chaussettes, brûlures nocturnes, allodynie
+      • {s:neuropathie autonome}: gastroparésie, dysfonction érectile, hypotension orthostatique, hypoglycémies non perçues
+    - |-
+      Complications macrovasculaires:
+      • {p:coronaropathie}: douleur d'effort, dyspnée, équivalent angineux (souvent indolore chez le diabétique)
+      • {p:AVC/AIT}: déficit transitoire, troubles parole/vision
+      • {p:AOMI}: claudication, douleurs de décubitus, troubles trophiques
+    - "Pied diabétique (RECHERCHE ACTIVE): plaie même minime, ampoule, fissure inter-orteils, brûlure, perte sensibilité, déformation récente; soins podologiques, chaussage; ATCD plaie/amputation"
+    - |-
+      Auto-gestion & technique (T1 / T2 insulinotraité):
+      • technique d'injection (angle, aiguille, dose, horaires), {s:lipohypertrophies}, rotation des sites
+      • insulinothérapie fonctionnelle, ratio glucidique
+      • {t:CGM}/pompe: time-in-range cible {r:> 70 %}, time-below-range {r:< 4 %}
+    - "Vaccinations: grippe annuelle, COVID, pneumocoque, hépatite B si non immun, zona si {e:> 50 ans} [VÉRIFIER: schéma pneumocoque adulte diabétique selon OFSP]"
+    - "Santé sexuelle/reproduction: contraception, projet de grossesse (cible {t:HbA1c < 6.5 %} pré-conceptionnelle, arrêt statines/IEC)"
+    - "Santé mentale: dépistage {p:dépression}/burn-out diabétique ({t:PHQ-9}, échelle PAID)"
+  atcd:
+    - |-
+      Diabète: type, durée, traitements antérieurs (ADO, insuline, GLP-1, SGLT2)
+      • hospitalisations pour {p:DKA}, {p:HHS}, hypoglycémie sévère
+      • complications documentées (laser, dialyse, revascularisation, amputation)
+    - |-
+      Comorbidités CV (cibles):
+      • {p:HTA} (cible {r:< 130/80} si jeune/protéinurie, {r:< 140/90} générale)
+      • {p:dyslipidémie} (LDL {r:< 1.4 mmol/L} si risque très élevé, {r:< 1.8} élevé)
+      • IDM, AVC, AOMI, IC, FA; {p:SAOS} (polysomno si suspicion)
+    - "FdR modifiables: {r:tabac}, alcool (hypos), IMC, tour de taille (H<94 / F<80), activité physique ({r:≥ 150 min/sem} modérée + renforcement 2×/sem)"
+    - "Médicaments: TOUS (interactions, néphrotoxiques); corticoïdes (déséquilibre); bêtabloquants (masquent hypos); IEC/ARA II, statine, antiagrégant; inducteurs d'hypoglycémie (sulfamides, glinides, insuline)"
+    - "ATCD familiaux: diabète, événements CV précoces, néphropathie, dyslipidémie familiale"
+    - "Contexte psycho-social: littératie en santé, soutien familial, ressources (infirmière à domicile, diabétologue), {t:ETP} antérieure [VÉRIFIER: parcours ETP en cours selon réseau cantonal]"
+
+# source: red flags = complications aiguës à dépister durant le suivi (sources MD lignes 30-60 + cliniques)
+red_flags:
+  - description: "{s:Plaie du pied + signes inflammatoires} (rougeur, chaleur, écoulement, odeur) ou ulcère profond exposant tendon/os"
+    dx_suspecte: "{p:Pied diabétique infecté / ostéomyélite}"
+    action: "Hospitalisation; prélèvement profond, {t:radio + IRM} si suspicion ostéite; {r:antibiothérapie large spectre IV} (amox-clav ou pipéracilline-tazobactam); avis chir vasc + diabéto + infectiologie [VÉRIFIER: protocole ATB pied diabétique CHUV/HUG]"
+  - description: "{s:Polyurie + polydipsie + N/V + douleurs abdo + dyspnée Kussmaul} ± altération conscience, haleine acétonique"
+    dx_suspecte: "{p:Acidocétose diabétique (DKA)} — y compris {r:DKA euglycémique} sous {r:SGLT2}"
+    action: "URGENCE: {t:gazométrie + cétonémie + glycémie + ionogramme}; remplissage NaCl 0.9 %, {r:insuline IV 0.1 U/kg/h}, K+ correction, USI; ARRÊT SGLT2"
+  - description: "{e:Sujet âgé T2} + déshydratation profonde + altération conscience + {r:glycémie > 33 mmol/L} sans cétose"
+    dx_suspecte: "{p:Coma hyperosmolaire (HHS)}"
+    action: "URGENCE USI: réhydratation prudente ({r:NaCl 0.9 % puis 0.45 %}), {r:insuline IV} après début remplissage, correction lente osmolalité (risque œdème cérébral)"
+  - description: "{s:Hypoglycémie sévère} (< 3 mmol/L) avec altération de conscience, convulsions ou nécessité de tiers"
+    dx_suspecte: "{p:Hypoglycémie grave} sous insuline/sulfamides/glinides"
+    action: "{r:G30 % 30-60 mL IV} ou {r:glucagon 1 mg IM/SC}; surveillance prolongée si sulfamide (récidive); RÉVISION traitement; éducation (entourage, glucagon en réserve)"
+  - description: "{s:Œdèmes nouveaux} + protéinurie macroscopique + chute rapide {t:eGFR} (> 5 mL/min/an) ± HTA réfractaire"
+    dx_suspecte: "{p:Néphropathie diabétique évolutive} ou cause surajoutée (sténose AR, GN, néphrotoxique)"
+    action: "{t:Créat + ACR + sédiment urinaire + écho rénale}; renforcer {r:IEC/ARA II}, ajouter {r:SGLT2} (jusqu'à eGFR 20); arrêt néphrotoxiques (AINS, produits de contraste); avis néphro"
+  - description: "{s:Baisse acuité visuelle brutale} ou apparition de mouches volantes / voile / amputation du champ visuel"
+    dx_suspecte: "{p:Hémorragie du vitré / décollement rétinien} sur rétinopathie diabétique proliférante"
+    action: "Avis ophtalmologique URGENT (< 24 h); {t:OCT + angiographie}; {r:laser pan-rétinien} ou anti-VEGF; cesser aspirine si hémorragie active [VÉRIFIER: délai de prise en charge ophtalmo local]"
+
+# source: lines 63-93
+examen:
+  general:
+    - "Signes vitaux: TA aux deux bras (cible {r:< 130/80} si albuminurie/jeune, {r:< 140/90} générale), recherche {s:hypotension orthostatique} (chute ≥ 20/10 à 1-3 min)"
+    - "FC, FR, T°, SaO2, glycémie capillaire en séance"
+    - "Poids, taille, {t:IMC}, tour de taille (cible H < 94 cm, F < 80 cm); évolution pondérale depuis dernière visite"
+    - "Inspection: hygiène, état nutritionnel, signes de Cushing (corticoïdes), acanthosis nigricans (insulinorésistance)"
+  cible:
+    - |-
+      Examen cardiovasculaire:
+      • auscultation cardiaque (souffle, galop B3/B4)
+      • auscultation carotidienne, abdominale (sténose AR), fémorale
+      • palpation TOUS pouls périph. (radiaux, fémoraux, poplités, pédieux, tibiaux post.)
+      • signes IC (TVJ, RHJ, OMI, crépitants pulm.)
+    - |-
+      Examen des pieds (INDISPENSABLE — annuel min, à chaque visite si haut risque):
+      • inspection (déformations, hallux valgus, orteils en griffe, callosités, fissures, ulcères, mycose interdigitale, état des ongles)
+      • palpation pouls pédieux + tibial postérieur (et IPS si abolis)
+      • {t:monofilament 10 g} (Semmes-Weinstein) — 6 à 10 sites, perte si > 4 sites manqués
+      • {t:diapason 128 Hz} sur malléole interne (vibration), pallesthésie
+      • ROT achilléens
+      • examen des chaussures (usure, corps étrangers)
+    - |-
+      Examen neurologique des MI:
+      • sensibilité tactile, vibratoire, proprioceptive, thermoalgique
+      • force musculaire distale (extenseurs orteils)
+      • démarche, équilibre (Romberg) — risque de chute
+    - |-
+      Examen ophtalmologique:
+      • acuité visuelle (chaque œil)
+      • pupilles, réflexe photomoteur
+      • {t:FO après dilatation} si compétent (microanévrysmes, hémorragies, exsudats, néovaisseaux)
+      • vérifier rétinographie annuelle effectuée
+    - |-
+      Sites d'injection (T1 / T2 insulinotraité):
+      • inspection abdomen, cuisses, bras, fesses
+      • palpation: {s:lipohypertrophies} (cause majeure de mauvaise absorption et variabilité)
+      • technique vérifiée (rotation, longueur aiguille 4-6 mm)
+    - "Examen bucco-dentaire (parodontite favorisée par le diabète et bidirectionnelle)"
+
+# source: lines 30-46 (top 5 = complications à dépister/diagnostiquer)
+dd_top5:
+  - dx: "{p:Diabète déséquilibré} sans complication aiguë"
+    indices: "{t:HbA1c} > cible individualisée; revoir observance, inertie thérapeutique, intercurrence (infection, corticoïdes), lipohypertrophies, variabilité glycémique"
+    freq: "très fréquent — motif principal de la consultation de suivi"
+  - dx: "{p:Rétinopathie diabétique}"
+    indices: "Durée diabète, HbA1c chronique élevée, HTA; FO: microanévrysmes → hémorragies → néovaisseaux; {r:laser pan-rétinien} si proliférante; risque cécité [VÉRIFIER: classification ETDRS et seuils d'intervention]"
+    freq: "fréquent (T1 ~ 80 % à 20 ans, T2 ~ 50 %)"
+  - dx: "{p:Néphropathie diabétique}"
+    indices: "{t:ACR ≥ 3 mg/mmol} (microalbuminurie) ou ≥ 30 mg/mmol (macro); baisse {t:eGFR}; HTA; rétinopathie souvent associée; sédiment habituellement pauvre (si actif → autre cause)"
+    freq: "fréquent (~ 30 % des diabétiques, 1ère cause IRC terminale)"
+  - dx: "{p:Neuropathie diabétique périphérique}"
+    indices: "Paresthésies en chaussettes, perte au {t:monofilament 10g}, hyporéflexie achilléenne, douleurs neuropathiques nocturnes ({t:DN4}); diagnostic d'élimination (B12, alcool, hypothyroïdie)"
+    freq: "très fréquent (~ 50 % à 10 ans d'évolution)"
+  - dx: "{p:Macroangiopathie (coronaire / AVC / AOMI)}"
+    indices: "{s:Ischémie silencieuse} fréquente (neuropathie autonome); ECG ± épreuve effort si {e:> 40 ans} ou symptômes; pouls périph., IPS (< 0.9 = AOMI), souffles vasculaires; cause majeure de mortalité"
+    freq: "très fréquent (multiplie risque CV × 2-4)"
+
+# source: lines 97-154
+pec_initiale:
+  immediate:
+    - |-
+      Cible {t:HbA1c} individualisée:
+      • {r:< 7 %} adulte standard
+      • {r:< 6.5 %} jeune, diabète court, sans complications, sans risque hypo
+      • {r:< 8 %} sujet âgé fragile, comorbidités sévères, espérance vie limitée, hypoglycémies fréquentes
+      • {r:< 6.5 %} pré-conceptionnel
+    - |-
+      T2 — algorithme thérapeutique (HUG 2022 / ADA 2024):
+      • RHD + {r:metformine 500-2000 mg/j} si {t:eGFR > 30} (sinon CI; réduire si 30-45)
+      • Si maladie CV établie / IC: ajouter {r:GLP-1 RA} (sémaglutide, liraglutide, dulaglutide) OU {r:SGLT2i} (empagliflozine, dapagliflozine)
+      • Si IRC ({t:eGFR < 60} ou albuminurie): {r:SGLT2i} en priorité (jusqu'à eGFR 20)
+      • Surpoids: privilégier {r:GLP-1 RA} (sémaglutide 0.25 → 2.4 mg/sem) ou tirzepatide [VÉRIFIER: indication/remboursement tirzepatide CH]
+      • Si cible non atteinte: tri/quadrithérapie; sulfamides en dernière ligne (risque hypo); insulinothérapie basale (NPH ou analogue lent: glargine, dégludec)
+    - |-
+      T1 — schémas:
+      • basal-bolus (analogue lent + bolus prandiaux ratio glucidique) ou pompe + {t:CGM}
+      • cible time-in-range {r:> 70 %}, time-below-range {r:< 4 %}
+      • éducation insulinothérapie fonctionnelle + correction des bolus
+    - |-
+      Prévention CV (cibles strictes):
+      • {r:statine} (atorvastatine 20-80 mg) selon LDL et risque (très élevé si maladie CV/cible LDL < 1.4 mmol/L)
+      • {r:IEC/ARA II} si HTA, albuminurie, IC (cible TA {r:< 130/80} si protéinurie)
+      • {r:aspirine 100 mg/j} prévention secondaire (primaire seulement si risque très élevé après balance bénéfice/risque)
+      • {r:sevrage tabac} (counseling, substituts, varénicline)
+    - "Pied: éducation auto-inspection quotidienne, chaussures adaptées, soins podologue si haut risque (neuropathie, AOMI, déformations, ATCD ulcère)"
+    - "Vaccinations: grippe annuelle, COVID selon recos, pneumocoque, hépatite B si non immun"
+    - "Éducation thérapeutique: glucides, gestion hypoglycémie (glucagon dans l'entourage), conduite à tenir en cas d'intercurrence (jours malades — règles 'sick day': hydratation, contrôle cétones, ne PAS arrêter insuline en T1)"
+  orientation:
+    - "Médecin traitant: suivi tous les 3 mois si déséquilibré, tous les 6 mois si stable, avec HbA1c"
+    - "Diabétologue: T1, T2 sous schéma complexe, pompe/{t:CGM}, échec multithérapie, projet de grossesse, complications évolutives"
+    - "Ophtalmologue: rétinographie / FO {r:annuel}, plus rapproché si rétinopathie active"
+    - "Néphrologue: {t:eGFR < 30}, ACR > 30 mg/mmol, doute sur cause non diabétique"
+    - "Podologue / centre du pied diabétique: haut risque (neuropathie + déformations ou AOMI ou ATCD ulcère) ou plaie active"
+    - "Diététicien(ne), infirmière diabéto, psy — équipe pluridisciplinaire"
+
+# source: lines 99-114 + cliniques
+examens_complementaires:
+  - "{t:HbA1c}: tous les {r:3 mois} si déséquilibré, tous les {r:6 mois} si stable à cible"
+  - "{t:Glycémies à jeun + post-prandiales} (carnet, CGM); revue du time-in-range"
+  - "{t:Créatinine + eGFR + ACR urinaire} {r:annuel} (2×/an si albuminurie ou IRC); ionogramme, K+ surtout si IEC/ARA II/diurétique"
+  - "{t:Bilan lipidique à jeun} annuel; {t:bilan hépatique} si metformine/statine; {t:vit B12} si metformine au long cours (> 4 ans)"
+  - "{t:ECG} annuel si {e:> 40 ans} ou FRCV; épreuve d'effort / imagerie de stress si symptômes ou ischémie silencieuse suspectée"
+  - "{t:Rétinographie / FO} annuel; {t:doppler artériel MI + IPS} si AOMI suspectée; examen dentaire annuel"
+
+# source: lines 99-138 (critères d'hospitalisation = décompensation aiguë + complications)
+criteres_hospitalisation:
+  - "{p:DKA}, {p:HHS}, {p:hypoglycémie} sévère récidivante avec coma, convulsions ou inconscience prolongée"
+  - "{p:Pied diabétique infecté} (cellulite étendue, ostéomyélite suspectée, ischémie associée)"
+  - "Décompensation glycémique sévère ({r:HbA1c > 10 %} ou glycémies > 16.7 mmol/L symptomatiques) chez patient sans schéma d'urgence ambulatoire"
+  - "Initiation d'une insulinothérapie complexe non gérable en ambulatoire (T1 nouveau, refus traitement, isolement social)"
+  - "Complications CV aiguës associées (IDM, AVC, IC décompensée) → hospitalisation dans la filière correspondante"
+
+# source: lines 166-176 + cliniques
+pieges:
+  - "Fixer une cible {t:HbA1c} unique pour tous: {e:sujet âgé fragile} (HbA1c < 6.5 % → hypoglycémies, chutes, mortalité ↑) — toujours individualiser"
+  - "Oublier l'examen des pieds (monofilament + pouls + inspection) et le {t:FO} annuels — perte de points majeure et de chance pour le patient"
+  - "Maintenir la {r:metformine} si {t:eGFR < 30} ou avant injection de produit de contraste/chirurgie/sepsis (acidose lactique) — arrêt temporaire requis"
+  - "Ne pas arrêter le {r:SGLT2i} en cas d'infection sévère, chirurgie, jeûne, intercurrence (risque de {p:DKA euglycémique}) — règle des 'sick days'"
+  - "Méconnaître les {s:hypoglycémies non perçues} (perte des signes adrénergiques, neuropathie autonome, bêtabloquants) — relâcher la cible et utiliser {t:CGM}"
+
+cartes_liees:
+  - SYS-END
+  - TOOL-HbA1c
+  - TOOL-PHQ9

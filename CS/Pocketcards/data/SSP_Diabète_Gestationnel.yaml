@@ -1,0 +1,193 @@
+id: SSP-END-01
+type: ssp
+title: Diabète gestationnel
+discipline: Endocrino
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Diabète_Gestationnel.md
+  - Critères IADPSG 2010 / SGED 2017 (Suisse)
+  - Recommandations CNGOF / SFD-SFE 2023
+  - Guidelines ADA 2024 Diabetes in Pregnancy
+
+# source: MD line 9-100
+anamnese:
+  socrates:
+    - |-
+      Contexte obstétrical:
+      • âge gestationnel (SA), DDR, date écho T1
+      • G_P_ (gestité, parité)
+      • grossesse simple/multiple, PMA?
+    - |-
+      Déroulement grossesse:
+      • suivi régulier, complications
+      • prise de poids totale et rythme
+      • résultats échos
+    - |-
+      Symptômes (souvent absents):
+      • {s:polyurie, polydipsie}
+      • fatigue inhabituelle
+      • infections urinaires / mycoses récidivantes
+      • vision trouble?
+    - |-
+      Signes obstétricaux actuels:
+      • {s:mouvements fœtaux} (diminués / augmentés)
+      • contractions, perte de liquide, métrorragies
+    - |-
+      Alimentation:
+      • nombre de repas, collations, horaires
+      • sucres simples (sodas, jus, sucreries)
+      • féculents, fruits, index glycémique
+      • hydratation (eau, boissons sucrées)
+    - |-
+      Activité physique:
+      • avant grossesse (type, niveau)
+      • actuelle (marche quotidienne, restrictions)
+  specifique:
+    - |-
+      {e:Facteurs de risque DG} — mnémo "DIABETE":
+      • {p:Diabète familial 1er degré} ⚠️
+      • {p:IMC préconceptionnel ≥ 25}
+      • Âge ≥ {r:35 ans}
+      • Bébé macrosome antérieur (> 4 kg ou > 90e P)
+      • Ethnie à risque (Asie, Afrique, Moyen-Orient, Am. latine)
+      • Trouble glucidique antérieur (IGT/IFG, DG antérieur)
+      • Endocrinopathie (SOPK, acanthosis nigricans)
+    - |-
+      ATCD obstétricaux à risque:
+      • DG antérieur (récidive 30-70%)
+      • macrosomie, MFIU inexpliquée
+      • malformations, hydramnios
+    - "Prise de corticoïdes / β-mimétiques (hyperglycémie iatrogène)?"
+    - "{s:Signes de pré-éclampsie associée}: céphalées, phosphènes, acouphènes, douleur épigastrique?"
+  atcd:
+    - "Endocriniens: thyroïde, surpoids/obésité, SOPK"
+    - "Cardiovasculaires: HTA, dyslipidémie"
+    - "Rénaux: néphropathie, IU récidivantes"
+    - |-
+      Médicaments:
+      • vitamines prénatales, fer, acide folique
+      • {r:antidiabétiques oraux} arrêtés? (CI grossesse sauf metformine [VÉRIFIER: position SGED Suisse 2024 sur metformine])
+    - "ATCD familiaux: DT2 1er degré, DG (mère, sœur)"
+
+# source: MD line 4-7 + clinical pivots
+red_flags:
+  - description: "{s:Hyperglycémie + cétonurie ≥ 2+ + vomissements} chez DG/diabétique enceinte"
+    dx_suspecte: "{p:Acidocétose diabétique gravidique} (mortalité fœtale jusqu'à 35%)"
+    action: "Hospitalisation USI maternité; {r:insuline IV} + hydratation NaCl 0,9%; gaz du sang, ionogramme, RCF continu"
+  - description: "{s:HTA ≥ 140/90 + protéinurie ≥ 0,3 g/24h} ± céphalées/phosphènes/barre épigastrique"
+    dx_suspecte: "{p:Pré-éclampsie surajoutée} (RR x2-4 si DG)"
+    action: "Bilan PE (FSC, plaquettes, ASAT/ALAT, LDH, créat, uricémie, protéinurie); avis obstétrique urgent; {r:labétalol IV} si TA ≥ 160/110"
+  - description: "{s:Macrosomie EPF > 90e P + polyhydramnios} avec DG mal équilibré"
+    dx_suspecte: "Risque {p:dystocie des épaules / souffrance fœtale}"
+    action: "Intensifier insulinothérapie; écho biométrique répétée; programmer césarienne si EPF > {r:4500 g} (ou 4250 g si ATCD dystocie)"
+  - description: "{s:Diminution des mouvements actifs fœtaux} chez DG"
+    dx_suspecte: "{p:Souffrance fœtale} / MFIU imminente"
+    action: "{t:RCF en urgence} ± écho biométrie + Doppler; hospitalisation maternité si anomalie"
+  - description: "{s:Cétonurie ≥ 2+ à jeun} chez DG sous MHD ou insuline"
+    dx_suspecte: "{p:Cétose de jeûne} ou décompensation glycémique"
+    action: "Glycémie capillaire + cétonémie; collation glucidique; réévaluer répartition alimentaire et insuline; éviter jeûne > 10h"
+  - description: "Glycémie à jeun T1 ≥ {r:7,0 mmol/L (1,26 g/L)} ou HbA1c ≥ {r:6,5%}"
+    dx_suspecte: "{p:Diabète préexistant méconnu (T2)} découvert à la grossesse"
+    action: "Prise en charge diabéto urgente; écho cœur fœtal (malformations); HbA1c ciblé < 6,5% [VÉRIFIER: seuil HbA1c CHUV/HUG protocole grossesse]"
+
+# source: MD line 103-141
+examen:
+  general:
+    - "Signes vitaux: {t:TA aux 2 bras} (pré-éclampsie), FC, T°, poids actuel et prise totale, IMC"
+    - "{t:Bandelette urinaire} systématique: glycosurie, protéinurie, cétonurie, leucocytes/nitrites"
+    - "Inspection: signes de déshydratation, {s:acanthosis nigricans} (cou, aisselles), vergetures"
+    - "Œdèmes des membres inférieurs (physiologiques vs PE: prise pondérale brutale, MS, visage)"
+  cible:
+    - |-
+      Palpation abdominale obstétricale:
+      • {t:hauteur utérine} (correspondance avec terme)
+      • HU excessive → macrosomie / hydramnios
+      • présentation fœtale
+      • contractions utérines
+      • mouvements actifs fœtaux
+    - "Auscultation: {t:RCF} (N 120-160 bpm), rythme régulier"
+    - |-
+      TV (si indication):
+      • col (score de Bishop si proche terme)
+      • présentation, membranes intactes
+    - "ROT (vifs si pré-éclampsie), recherche signe de Chvostek si suspicion hypocalcémie"
+    - "Auscultation cardiaque + pulmonaire (œdème pulmonaire si PE sévère)"
+
+# source: MD line 156-164 + clinical pivots
+dd_top5:
+  - dx: "{p:Diabète gestationnel (DG)}"
+    indices: "{t:HGPO 75g} 24-28 SA pathologique ≥ 1 valeur: jeun ≥ {r:5,1 mmol/L (0,92 g/L)}, 1h ≥ {r:10,0 mmol/L (1,80 g/L)}, 2h ≥ {r:8,5 mmol/L (1,53 g/L)}; asymptomatique le plus souvent"
+    freq: "très fréquent (10-15% des grossesses en Suisse) [VÉRIFIER: prévalence SGED 2023]"
+  - dx: "{p:Diabète préexistant méconnu (T1/T2)}"
+    indices: "Glycémie à jeun T1 ≥ {r:7,0 mmol/L (1,26 g/L)} ou HbA1c ≥ {r:6,5%}; symptômes cardinaux possibles; FR T2 (IMC, ATCD familiaux)"
+    freq: "rare (~1% grossesses) mais à éliminer d'emblée"
+  - dx: "{p:Hyperglycémie transitoire}"
+    indices: "Glycémie capillaire isolée élevée (stress, corticoïdes, infection); HGPO normale au contrôle; pas de cible répétitive"
+    freq: "fréquent (artefact / réactionnel)"
+  - dx: "{p:Intolérance au glucose pré-gestationnelle}"
+    indices: "ATCD IGT/IFG documenté; HGPO 75g avec valeurs limites mais sous seuils IADPSG; FR métaboliques associés"
+    freq: "intermédiaire"
+  - dx: "{p:DG précoce / early-onset (< 24 SA)}"
+    indices: "FR multiples (IMC, ATCD), dépistage T1 positif (glycémie à jeun ≥ 5,1 mmol/L avant 24 SA); risque malformatif si méconnu"
+    freq: "rare; à dépister chez femmes à haut risque [VÉRIFIER: stratégie de dépistage précoce SGED]"
+
+# source: MD line 166-244
+pec_initiale:
+  immediate:
+    - "DG confirmé: {r:consultation diététique spécialisée sous 48-72h} + éducation auto-surveillance"
+    - |-
+      Objectifs glycémiques ("MLB"):
+      • à jeun < {r:5,3 mmol/L (0,95 g/L)}
+      • 1h post-prandial < {r:7,8 mmol/L (1,40 g/L)}
+      • 2h post-prandial < {r:6,7 mmol/L (1,20 g/L)}
+    - |-
+      {r:MHD première ligne 7-10 jours}:
+      • 3 repas + 2-3 collations, éviter jeûne > 10h
+      • glucides 40-50% (complexes IG bas), protéines 20%, lipides 30-40%, fibres+++
+      • éviter sucres simples isolés, jus, boissons sucrées
+      • activité physique 30 min/j (marche après repas)
+    - |-
+      Insuline si > 20% des valeurs hors cible après 7-10j MHD:
+      • {r:NPH au coucher 0,1-0,2 UI/kg} si jeun élevé isolé
+      • {r:rapide pré-prandiale 2-4 UI} si PP élevée
+      • basal-bolus si hyperglycémies multiples [VÉRIFIER: schéma initial CHUV/HUG diabéto-grossesse]
+    - "D'emblée insuline si GAJ > {r:7,2 mmol/L (1,30 g/L)} ou signes échographiques (macrosomie/hydramnios)"
+    - "Éducation hypoglycémie (signes, {r:resucrage 15 g glucides}, glucagon entourage)"
+    - "Acidocétose / PE sévère: hospitalisation maternité USI immédiate"
+  orientation:
+    - "Ambulatoire diabéto-obstétrique: DG bien équilibré sous MHD ± insuline, pas de complication"
+    - "Hospitalisation: acidocétose, PE, RCF anormal, mauvais contrôle persistant malgré insuline majorée"
+    - "Consultations: tous 15j si MHD seules, hebdomadaire si insuline"
+    - "Maternité de niveau adapté à terme; programmer accouchement 39-40 SA si insuline, 39 SA si macrosomie"
+    - "Consignes de retour: cétonurie ≥ 2+, MAF diminués, contractions, HTA, céphalées/phosphènes, glycémies > 2 g/L répétées"
+
+# source: MD line 149-164 + 248-269
+examens_complementaires:
+  - "{t:HGPO 75g à 24-28 SA} chez TOUTES les femmes (SGED 2017); critères IADPSG ≥ 1 valeur pathologique"
+  - "{t:Glycémie à jeun T1} si FR (IMC > 25, ATCD DG, ATCD familial DT2, ≥ 35 ans, ethnie à risque); HbA1c si suspicion DT2"
+  - "{t:Auto-surveillance glycémique (ASG) 4-6x/j}: GAJ + 1h ou 2h post-prandial, +/- pré-prandial si insuline"
+  - "{t:Bandelette urinaire à chaque consultation}: cétonurie, protéinurie, glycosurie"
+  - "{t:Écho mensuelle dès diagnostic}: biométries (PA), EPF, LA; Doppler si RCIU ou HTA"
+  - "{t:RCF dès 32-34 SA} si insuline, hebdomadaire puis bi-hebdomadaire; bilan PE si HTA/protéinurie"
+
+# source: MD line 213-220 + 280-282
+criteres_hospitalisation:
+  - "{p:Acidocétose} ou hyperglycémie majeure non contrôlée"
+  - "{p:Pré-éclampsie} (TA ≥ 140/90 + protéinurie) ou signes de gravité"
+  - "RCF pathologique / souffrance fœtale / MAF diminués"
+  - "Cétonurie ≥ 2+ persistante ou hypoglycémies sévères répétées"
+  - "Macrosomie sévère (EPF > 4500 g) → programmation césarienne"
+
+# source: MD line 388-395
+pieges:
+  - "Oublier l'{t:HGPO post-partum à 6-12 semaines} (50% DG → DT2 à 10 ans, 30-70% récidive)"
+  - "Ne pas dépister précocement en T1 chez femmes à haut risque → laisser passer un DT2 méconnu et la fenêtre de prévention malformative"
+  - "Sous-estimer le DG asymptomatique (TOUJOURS faire l'HGPO chez TOUTES, pas seulement si FR)"
+  - "Prescrire un {r:antidiabétique oral autre que metformine} → CI; metformine seule possible mais insuline reste 1ère ligne en Suisse"
+  - "Laisser à jeun > 10h ou autoriser objectifs trop laxistes → cétose de jeûne et macrosomie silencieuse"
+
+cartes_liees:
+  - SYS-OBST
+  - SSP-GYN-HTA-Grossesse
