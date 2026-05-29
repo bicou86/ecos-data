@@ -1,0 +1,193 @@
+id: SSP-PED-02
+type: ssp
+title: Apnée du nourrisson
+discipline: Pediatric
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Apnée_Nourrisson.md
+
+# source: lines 1-147 (anamnèse)
+anamnese:
+  socrates:
+    - |-
+      Site / type:
+      • {s:Apnée centrale}: arrêt complet, pas de mvts thoraciques
+      • {s:Apnée obstructive}: efforts persistants, pas de flux, tirage/stridor
+      • {s:Apnée mixte}: début central puis obstructif — la plus fréquente
+      • {e:Respiration périodique normale}: pauses <10 s, sans cyanose (<6 mois)
+    - |-
+      Onset / durée:
+      • {r:< 10 s} = probablement normale si asymptomatique
+      • {r:10-20 s} = surveillance
+      • {r:> 20 s} = pathologique — critère BRUE
+      • chronométrée ou estimée par les parents?
+    - |-
+      Caractère:
+      • reprise spontanée ou après stimulation vigoureuse?
+      • manœuvres de réanimation nécessaires?
+      • coloration: {s:cyanose centrale} / pâleur / marbrures / teint gris?
+    - |-
+      Time:
+      • épisode unique ou récidivant?
+      • fréquence (nombre/jour), depuis quand?
+      • pendant sommeil ou éveil?
+      • post-prandial? post-tussif?
+    - "Exacerbating: position ventrale? pendant tétée/biberon? après pleurs?"
+    - |-
+      Severity — critères {t:BRUE} (Brief Resolved Unexplained Event):
+      • âge < 1 an + résolution spontanée + ≥ 1 critère: cyanose/pâleur,
+        hypo/hypertonie, troubles respiration, altération conscience
+      • {r:BRUE bas risque}: > 60 j + sans prématurité < 32 SA + 1er épisode
+        + < 1 min + pas RCP → observation {r:1-4h}, pas de bilan systématique
+      • {r:BRUE haut risque}: tous autres → hospit + bilan complet
+  specifique:
+    - |-
+      {s:Signes de gravité associés}:
+      • hypotonie ('mou comme une poupée') ou hypertonie?
+      • mouvements anormaux (myoclonies, clonies)?
+      • altération de conscience / perte de réactivité?
+    - |-
+      Contexte infectieux:
+      • fièvre, rhinite, {s:toux paroxystique cyanosante} (<3 mois → {p:coqueluche})?
+      • wheezing (VRS / bronchiolite)?
+    - "Contexte digestif: régurgitations fréquentes, malaise per/post-prandial → {p:RGO sévère}?"
+    - |-
+      Facteurs de risque {p:MIN} (Mort Inattendue Nourrisson):
+      • {e:position ventrale/latérale sommeil}, literie inadaptée (matelas mou, oreiller)
+      • tabagisme passif/maternel, hyperthermie (trop couvert), cododo
+      • pic {e:2-4 mois}, sexe masculin
+    - "Protecteurs: position dorsale stricte, allaitement maternel, sucette sommeil, chambre parentale (lit séparé)"
+    - |-
+      Impact familial:
+      • anxiété parentale, culpabilité, tensions couple
+      • surveillance parentale permanente (qualité sommeil)?
+  atcd:
+    - |-
+      {e:Antécédents périnataux} — ESSENTIELS:
+      • {r:prématurité} (terme en SA?): si < 32 SA → immaturité centrale
+      • apnées néonatales? caféine prescrite? monitoring?
+      • Apgar, réanimation néonatale, durée hospit
+    - "Développement: courbes poids/taille, alimentation (RGO?), psychomotricité normale?"
+    - |-
+      Contexte actuel:
+      • infection récente? traumatisme crânien / secouement?
+      • médicaments (sédatifs, antitussifs)?
+      • {s:tabagisme passif}? exposition CO?
+    - "ATCD familiaux: QT long, mort subite nourrisson, convulsions?"
+
+# source: lines 397-407
+red_flags:
+  - description: "{e:Prématurité < 32 SA} avec apnée"
+    dx_suspecte: "{p:Apnée centrale du prématuré} par immaturité des centres respiratoires"
+    action: "Hospitalisation + monitoring cardio-respiratoire continu + {r:caféine citrate 20 mg/kg charge puis 5-10 mg/kg/j} [VÉRIFIER: posologie caféine selon poids exact et âge corrigé]"
+  - description: "{s:Stimulation vigoureuse ou RCP nécessaire} pour récupérer l'épisode"
+    dx_suspecte: "{p:BRUE haut risque} — arythmie (QT long, WPW), lésion neurologique"
+    action: "Hospitalisation + {t:ECG} (QTc), {t:échocardiographie}, glycémie, NFS+CRP, gaz artériels, {t:EEG} si convulsions évoquées"
+  - description: "{s:Récidive d'épisodes apnéiques} dans les 24-48h"
+    dx_suspecte: "{p:BRUE haut risque} — cause organique non élucidée (infectieux, métabolique, neurologique)"
+    action: "Hospitalisation + bilan étiologique étendu: PCR coqueluche, ionogramme, calcémie, ammoniémie, lactates, {t:polysomnographie}"
+  - description: "{s:Toux paroxystique cyanosante} nourrisson < 3 mois, non vacciné"
+    dx_suspecte: "{p:Coqueluche}"
+    action: "{r:Azithromycine PO} [VÉRIFIER: dose coqueluche nourrisson] + isolement contact + déclaration obligatoire; monitoring hospitalier si < 6 semaines"
+  - description: "{s:Lésions cutanées inexpliquées / hématomes}, version parentale incohérente, hémorragies rétiniennes"
+    dx_suspecte: "{p:Syndrome du bébé secoué} / maltraitance"
+    action: "Bilan radiologique squelette corps entier + fond d'œil + {t:IRM cérébrale} + bilan biologique ATM + signalement immédiat"
+  - description: "{s:Régurgitations fréquentes} + malaise per/post-prandial récurrent"
+    dx_suspecte: "{p:RGO sévère} pathologique"
+    action: "pH-métrie/impédancemétrie [VÉRIFIER: indication précise pH-métrie vs impédance chez nourrisson]; essai {r:épaississants + fractionnement}; IPP si documenté"
+
+# source: lines 148-197
+examen:
+  general:
+    - "FC, FR, TA, T°, {t:SpO2} continues — normes: nourrisson FR 25-40/min, FC 90-150/min, SpO2 > 95 %"
+    - "{t:Glycémie capillaire} immédiate si malaise inexpliqué"
+    - "État général: réactivité, conscience, coloration (rose/cyanosé/pâle), pleurs vigoureux?"
+    - "Croissance: peser, toise — courbes poids/taille à jour?"
+  cible:
+    - |-
+      Respiratoire:
+      • tirage inter-costal / sous-sternal, battement ailes du nez?
+      • stridor (obstructif)? wheezing (bronchiolite)?
+      • auscultation: crépitants, ronchi, asymétrie?
+    - |-
+      Cardiaque:
+      • auscultation: souffle, galop, arythmie?
+      • pouls fémoraux (symétrie), TRC (< 2 s?)
+      • hépatomégalie → insuffisance cardiaque?
+    - |-
+      Neurologique:
+      • fontanelle: tension, bombement → {p:HTIC} ou méningite?
+      • tonus axial et périphérique, réflexes archaïques adaptés à l'âge
+      • mouvements spontanés (myoclonies → convulsions occultes?)
+    - "ORL: obstruction nasale, sécrétions, malformations (rétrognathisme, fente)?"
+    - |-
+      {s:Recherche maltraitance} — SYSTÉMATIQUE:
+      • lésions cutanées / ecchymoses (âge/stade différents?)
+      • {t:fond d'œil}: hémorragies rétiniennes
+      • discordance anamnèse / lésions
+
+# source: lines 254-283
+dd_top5:
+  - dx: "{p:BRUE idiopathique}"
+    indices: "Diagnostic d'élimination (50 % des BRUE); épisode bref, examen normal, pas de cause retrouvée après bilan; bas risque → observation 1-4h"
+    freq: "très fréquent (50 % des BRUE)"
+  - dx: "{p:RGO sévère}"
+    indices: "Régurgitations fréquentes, malaise per/post-prandial, position voûtée (syndrome de Sandifer); pH-métrie confirmatoire"
+    freq: "fréquent (2e cause de BRUE)"
+  - dx: "{p:Coqueluche}"
+    indices: "Toux paroxystique cyanosante, apnée + bradycardie, < 3 mois NON vacciné, confirmation {t:PCR coqueluche}"
+    freq: "à éliminer en urgence < 3 mois"
+  - dx: "{p:Convulsions occultes}"
+    indices: "Myoclonies subtiles, hypotonie post-critique, ± anomalie EEG; contexte familial épilepsie, ATCD Apgar bas"
+    freq: "rare mais sous-diagnostiqué"
+  - dx: "{p:Apnée centrale du prématuré}"
+    indices: "< 37 SA, immaturité centres respiratoires jusqu'à {r:44 SA âge corrigé} [VÉRIFIER: seuil résolution apnée prématuré]; apnée centrale pure, réponse caféine"
+    freq: "fréquent chez prématuré < 32 SA"
+
+# source: lines 284-395
+pec_initiale:
+  immediate:
+    - "Stimulation tactile douce → si échec: {r:O2} + aspiration nasopharyngée → ventilation masque → RCP si ACR"
+    - |-
+      Classification {t:BRUE} immédiate:
+      • {r:Bas risque} (> 60 j, sans préma < 32 SA, 1er épisode, < 1 min, pas RCP): observation {r:1-4h} + ECG + glycémie; retour domicile si stable
+      • {r:Haut risque}: hospitalisation + bilan complet
+    - "Apnée prématuré: {r:caféine citrate 20 mg/kg IV/PO charge} puis {r:5-10 mg/kg/j} + monitoring continu + position proclive 30°"
+    - "Coqueluche: {r:azithromycine PO} + isolement + déclaration obligatoire"
+    - "RGO documenté: {r:épaississants + fractionnement} ± IPP; pas de métoclopramide < 1 an"
+    - "Prévention MIN: position dorsale STRICTE, literie ferme sans objets, chambre parentale 6 mois, pas de tabac, T° 18-20°C"
+  orientation:
+    - "Domicile: BRUE bas risque, observation 1-4h normale, pas de red flag, parents formés aux gestes urgence"
+    - "Hospitalisation: BRUE haut risque, apnée > 20 s, cyanose/bradycardie, RCP nécessaire, récidive, prématuré < 45 SA corrigées, suspicion maltraitance ou coqueluche < 6 semaines"
+    - "USI pédiatrique: récidive sous monitoring, détresse respiratoire persistante, suspicion arythmie grave (QT long)"
+    - "Consultation suivi 48-72h si retour domicile; suivi mensuel jusqu'à résolution + polysomnographie contrôle si indiquée"
+
+examens_complementaires:
+  - "{t:ECG} (QTc, WPW): tout BRUE haut risque — QTc > 450 ms = {p:QT long} [VÉRIFIER: seuil QTc pathologique nourrisson]"
+  - "{t:Glycémie + NFS + CRP + ionogramme + calcémie}: bilan étiologique 1re intention BRUE haut risque"
+  - "{t:PCR coqueluche nasopharyngée}: toux paroxystique nourrisson < 3 mois"
+  - "{t:Gaz artériels}: cyanose persistante ou suspicion acidose"
+  - "{t:Polysomnographie}: apnées récurrentes inexpliquées, suspicion obstructif, avant arrêt monitoring"
+  - "{t:Échographie transfontanellaire} puis {t:IRM cérébrale}: anomalie neuro, suspicion maltraitance"
+
+criteres_hospitalisation:
+  - "BRUE haut risque: prématuré < 32 SA, récidive, RCP nécessaire, < 60 jours, durée ≥ 1 min"
+  - "Apnée > 20 s ou cyanose/bradycardie associée"
+  - "Suspicion maltraitance (syndrome bébé secoué)"
+  - "Suspicion coqueluche < 6 semaines de vie"
+  - "Anomalie bilan ou examen clinique (souffle, convulsions, HTIC)"
+
+pieges:
+  - "Banaliser une apnée avec {s:cyanose} même brève — toujours classer BRUE haut vs bas risque avant de décider"
+  - "Oublier la {s:recherche de maltraitance} systématique (fond d'œil, squelette) — piège majeur ECOS"
+  - "Prescrire un monitoring domicile de façon systématique — anxiogène, ne réduit pas la mortalité MIN; indication ciblée"
+  - "Méconnaître {p:coqueluche} chez nourrisson < 3 mois (pas encore le 'chant du coq', juste apnée + bradycardie)"
+  - "Négliger le conseil de {e:couchage sécurisé} (position dorsale, pas de cododo): prévention MIN = acte thérapeutique"
+
+cartes_liees:
+  - SSP-PED-Bronchiolite
+  - SSP-PED-RGO
+  - SSP-PED-Convulsions
+  - SYS-PED

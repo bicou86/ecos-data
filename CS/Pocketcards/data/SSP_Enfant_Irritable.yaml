@@ -1,0 +1,201 @@
+id: SSP-PED-04
+type: ssp
+title: Enfant irritable
+discipline: Pediatric
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Enfant_Irritable.md
+
+# source: line 11-95 (MD)
+anamnese:
+  socrates:
+    - |-
+      Caractérisation des pleurs/irritabilité:
+      • âge exact (nouveau-né, nourrisson, enfant)
+      • début et évolution
+      • caractère: inconsolables vs calmables, continus vs paroxystiques
+      • moment: rapport aux repas, jour vs nuit
+    - "Durée et fréquence des épisodes — changement par rapport au comportement habituel?"
+    - |-
+      Facteurs déclenchants identifiables:
+      • fièvre (température rectale exacte)
+      • repas (pleurs post-prandiaux → {p:RGO}?)
+      • position, manipulation, contact
+    - "Moyens d'apaisement efficaces ou non (consolable = moins urgent)"
+    - |-
+      Règle des 3 ({p:Coliques}): pleurs
+      • > {r:3 h/j}
+      • > {r:3 j/semaine}
+      • > {r:3 semaines}
+  specifique:
+    - |-
+      Signes neurologiques (éliminer {p:méningite}):
+      • {s:fontanelle bombée} (< 18 mois) / {s:raideur nucale} (> 12-18 mois)
+      • {s:cris stridents} / {s:photophobie}
+      • {s:léthargie, hypotonie} / troubles de conscience
+      • {s:purpura} ne s'effaçant pas à la vitropression
+    - |-
+      Signes digestifs (éliminer {p:invagination intestinale aiguë}):
+      • {s:pleurs paroxystiques} intenses toutes les {r:10-15 min}
+      • {s:vomissements bilieux}
+      • {s:rectorragies} ("gelée de groseille")
+      • masse abdominale palpable / arrêt des selles et gaz
+    - |-
+      Autres urgences à éliminer:
+      • trauma / hématomes suspects ({p:maltraitance})
+      • masse scrotale ou inguinale ({p:torsion testiculaire} / {p:hernie étranglée})
+      • intoxication accidentelle
+      • corps étranger (oreilles, nez, œsophage)
+    - |-
+      Par âge:
+      • 0-28 j: prise pondérale, allaitement, selles (méconium), ictère, hypothermie
+      • 1-24 mois: sommeil, alimentation, dentition (hypersalivation, joues rouges), vaccinations récentes
+      • > 2 ans: communication, scolarité, troubles comportementaux
+  atcd:
+    - |-
+      Antécédents périnataux:
+      • grossesse (complications, prématurité)
+      • accouchement (voie basse, césarienne)
+      • période néonatale (réanimation, hospitalisation)
+    - |-
+      Développement et santé:
+      • courbes de croissance (poids, taille, PC) [VÉRIFIER: seuils de retard statural CHUV]
+      • vaccinations à jour selon calendrier
+      • pathologies chroniques / hospitalisations antérieures
+    - |-
+      Environnement familial et social:
+      • {e:stress parental} / épuisement / {e:dépression post-partum}
+      • support social, conditions de vie
+      • violence domestique (évaluation discrète)
+    - "Médicaments: dose, fréquence — intoxication accidentelle possible?"
+
+# source: line 98-139 (MD)
+red_flags:
+  - description: "{s:Fièvre} + {s:fontanelle bombée/tendue} ± {s:irritabilité paradoxale} (pleurs aggravés au contact) ± {s:purpura} — nourrisson < 3 mois ou tout âge"
+    dx_suspecte: "{p:Méningite bactérienne} / {p:sepsis}"
+    action: "Bilan septique (FSC, CRP, hémocultures, ECBU) + {t:PL} (si pas de signes focaux) + {r:ceftriaxone IV} STAT; hospitalisation d'urgence"
+  - description: "{s:Pleurs paroxystiques} intenses toutes les {r:10-15 min} + {s:vomissements bilieux} ± {s:rectorragies} 'gelée de groseille' ± masse abdominale — enfant {r:3 mois–3 ans}"
+    dx_suspecte: "{p:Invagination intestinale aiguë (IIA)}"
+    action: "{t:Échographie abdominale} urgente (boudin d'invagination) + lavement opaque réducteur ou chirurgie selon disponibilité [VÉRIFIER: protocole centre CHUV/HUG]"
+  - description: "{s:Irritabilité} + {s:hématomes} en localisation suspecte / multiples / à différents stades ± version parentale incohérente avec le tableau clinique"
+    dx_suspecte: "{p:Maltraitance} / {p:Shaken Baby Syndrome}"
+    action: "{t:Fond d'œil} + {t:IRM cérébrale} + {t:bilan osseux} (radiographies squelette entier) + signalement obligatoire [VÉRIFIER: procédure légale Suisse/CHUV]"
+  - description: "{s:Irritabilité} + {s:masse scrotale douloureuse} ou {s:hernie inguinale irréductible}"
+    dx_suspecte: "{p:Torsion testiculaire} / {p:hernie étranglée}"
+    action: "Exploration chirurgicale URGENTE (fenêtre de {r:6 h} pour la torsion); ne pas différer"
+  - description: "Nourrisson < {r:28 jours} avec {s:fièvre} ≥ {r:38°C} (rectale)"
+    dx_suspecte: "{p:Infection grave du nouveau-né} (méningite, sepsis, PNA)"
+    action: "Hospitalisation SYSTÉMATIQUE + bilan septique complet + {r:antibiothérapie empirique IV} immédiate après prélèvements"
+
+# source: line 156-163 (MD)
+examen:
+  general:
+    - |-
+      Observation PRIORITAIRE (avant de toucher):
+      • état général: alerte vs léthargique
+      • comportement: interactif vs apathique
+      • pleurs: consolables vs inconsolables
+      • coloration: normale / marbrée / cyanotique
+    - "Signes vitaux âge-ajustés: {t:T° rectale} (gold standard < 5 ans), FC, FR, TA si accessible, SaO2"
+    - "{t:Score de Glasgow pédiatrique} si altération de conscience"
+    - "Inspection cutanée complète: {s:purpura pétéchial} (vitropression) / hématomes / ictère / éruption"
+  cible:
+    - |-
+      Neurologique (si fièvre / troubles conscience):
+      • {s:fontanelles} (bombement, tension) si < 18 mois
+      • périmètre crânien vs courbes
+      • tonus musculaire global / réflexes archaïques (nourrisson)
+      • raideur de nuque si > 12-18 mois
+    - |-
+      Digestif (si pleurs paroxystiques / vomissements):
+      • inspection: distension abdominale
+      • auscultation: bruits intestinaux (silence = iléus)
+      • palpation douce: {s:masse / boudin d'invagination} (FID) / défense / {t:signe de Dance}
+    - |-
+      ORL + dentition (causes fréquentes):
+      • {t:otoscopie}: tympan rouge/bombé ({p:OMA})
+      • gorge: angine, herpangine
+      • gencives: inflammation, poussée dentaire
+      • nez: obstruction, corps étranger
+    - "Scrotal/inguinal: masse, douleur, irréductibilité ({p:torsion} / {p:hernie étranglée})"
+    - "État d'hydratation: pli cutané, muqueuses, fontanelle"
+
+# source: line 144-163 (MD)
+dd_top5:
+  - dx: "{p:Coliques du nourrisson}"
+    indices: "Règle des 3: {s:pleurs > 3h/j} + > 3j/sem + > 3 semaines; début 2-4 semaines, résolution avant 3-4 mois; examen normal; pas de fièvre"
+    freq: "très fréquent (15-25 % nourrissons) — diagnostic d'exclusion"
+  - dx: "{p:Otite moyenne aiguë (OMA)}"
+    indices: "{s:Irritabilité + fièvre + traction oreille}; {t:otoscopie}: tympan rouge, bombé, opaque; souvent accompagnée rhinopharyngite"
+    freq: "fréquent (cause infectieuse la plus commune chez nourrisson irritable)"
+  - dx: "{p:Infection urinaire (PNA/cystite)}"
+    indices: "{s:Fièvre isolée} sans foyer apparent chez nourrisson; irritabilité, refus alimentaire; {t:ECBU} systématique chez nourrisson fébrile [VÉRIFIER: seuil d'âge pour ECBU systématique]"
+    freq: "fréquent (15 % des nourrissons fébriles)"
+  - dx: "{p:RGO sévère}"
+    indices: "{s:Pleurs post-prandiaux}, {s:régurgitations}, {s:syndrome de Sandifer} (postures de torsion), irritabilité majorée en position allongée; symptômes maximaux 2-4 mois"
+    freq: "fréquent (2-8 % formes pathologiques)"
+  - dx: "{p:Faim / fatigue / inconfort environnemental}"
+    indices: "Pleurs calmables après alimentation / change / sommeil / réconfort; examen parfaitement normal; parents épuisés, contexte social fragile"
+    freq: "très fréquent — cause la plus commune, toujours évoquer en premier"
+
+pec_initiale:
+  immediate:
+    - "ÉLIMINER RED FLAGS EN PREMIER — tout signe de méningite, d'IIA, de maltraitance ou de torsion = bilan urgence AVANT réassurance"
+    - |-
+      Nourrisson < 28 jours + fièvre ≥ 38°C: hospitalisation SYSTÉMATIQUE
+      • bilan septique: FSC + CRP + hémocultures + ECBU + {t:PL}
+      • {r:antibiothérapie empirique IV} immédiate après prélèvements
+    - |-
+      Si {p:coliques} confirmées (règle des 3, examen normal):
+      • rassurer les parents (bénin, résolution spontanée avant {r:3-4 mois})
+      • conseils: emmaillotage, bercement, bruit blanc, position ventrale supervisée
+      • {r:Lactobacillus reuteri} (probiotiques — efficacité modérée) [VÉRIFIER: posologie exacte pédiatrique]
+    - |-
+      Si {p:OMA} confirmée à l'otoscopie:
+      • {r:paracétamol 15 mg/kg/6h} (max 60 mg/kg/j)
+      • antibiotiques selon âge/sévérité ({r:amoxicilline 80-90 mg/kg/j} si < 2 ans ou bilatérale)
+    - |-
+      Si {p:fièvre} bien tolérée sans foyer:
+      • {r:paracétamol 15 mg/kg/6h} (max 60 mg/kg/j)
+      • {t:ECBU} si nourrisson < 24 mois fiévreux sans foyer
+      • reconsultation si persistance > 72h ou dégradation
+  orientation:
+    - "Urgences pédiatriques immédiates: méningite suspectée / IIA / maltraitance / torsion testiculaire / nouveau-né fiévreux"
+    - "Consultation pédiatrique dans les 24h: nourrisson 1-3 mois fébrile (critères de Rochester), pleurs inconsolables > 2h, refus alimentaire complet > 12h"
+    - "Domicile + surveillance: coliques typiques, poussée dentaire, OMA traitée, examen normal"
+    - |-
+      Consignes de retour IMMÉDIATES:
+      • fièvre ≥ 38°C (< 3 mois) ou ≥ 39°C (3-6 mois)
+      • {s:purpura} / {s:fontanelle bombée} / léthargie soudaine
+      • {s:pleurs paroxystiques} avec vomissements
+      • épuisement parental extrême (risque maltraitance)
+
+# source: line 144-163, 207-214 (MD)
+examens_complementaires:
+  - "{t:ECBU} (culture + bandelette): systématique chez tout nourrisson < 24 mois fébrile sans foyer apparent"
+  - "{t:FSC + CRP + hémocultures}: suspicion sepsis/méningite, nourrisson < 28 jours fébrile"
+  - "{t:PL} (cytologie, protéines, glucose, culture): suspicion méningite — après {t:CT} si signes focaux"
+  - "{t:Échographie abdominale}: suspicion {p:IIA} (boudin d'invagination en pseudo-rein)"
+  - "{t:Fond d'œil + bilan osseux radiologique}: suspicion {p:maltraitance} / {p:Shaken Baby}"
+  - "{t:Otoscopie} clinique (pas de paraclinique): diagnostic {p:OMA} confirmé à l'examen direct"
+
+criteres_hospitalisation:
+  - "Nouveau-né < 28 jours avec fièvre ≥ 38°C (systématique)"
+  - "Suspicion méningite / sepsis / IIA / maltraitance / torsion (urgence chirurgicale)"
+  - "Nourrisson 1-3 mois fébrile à haut risque (critères de Rochester non satisfaits)"
+  - "Pleurs inconsolables sans étiologie malgré bilan ou refus alimentaire complet > 12h"
+  - "Épuisement parental majeur avec risque sécuritaire pour l'enfant"
+
+pieges:
+  - "Banaliser les pleurs d'un nouveau-né fiévreux (< 28 j + T° ≥ 38°C = hospitalisation SYSTÉMATIQUE sans exception)"
+  - "Attribuer l'irritabilité aux coliques sans exclure OMA, PNA ou RGO — coliques = diagnostic d'exclusion"
+  - "Négliger l'épuisement parental: facteur de risque de maltraitance; toujours demander 'Comment vous sentez-vous, vous?' [VÉRIFIER: ressources locales PMI/CHUV]"
+  - "Oublier l'invagination intestinale chez l'enfant 3 mois-3 ans avec pleurs paroxystiques — les rectorragies apparaissent tardivement"
+  - "Rater une torsion testiculaire: toujours examiner les OGE chez un nourrisson mâle irritable sans foyer évident"
+
+cartes_liees:
+  - SYS-PED
+  - SSP-INF-01
+  - SSP-URG-01

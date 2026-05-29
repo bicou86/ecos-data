@@ -1,0 +1,170 @@
+id: SSP-PED-10
+type: ssp
+title: Troubles de la puberté
+discipline: Pediatric
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Puberté.md
+
+# source: lignes 1-111
+anamnese:
+  socrates:
+    - |-
+      Début pubertaire — âge exact du 1er signe:
+      • {e:Fille} : bourgeon mammaire (S2 Tanner) normal {r:8-13 ans}; ménarche normale {r:10-15 ans}
+      • {e:Garçon} : testicules ≥4 mL (G2 Tanner) normal {r:9-14 ans}
+    - |-
+      Vitesse d'évolution:
+      • Progression rapide (<6 mois) → pathologie organique
+      • Stagnation prolongée → retard constitutionnel vs hypogonadisme
+    - "Séquence des signes: poussée staturale, pilosité, voix, acné, odeur corporelle — ordre et délais?"
+    - |-
+      Symptômes neurologiques associés ({p:cause centrale}):
+      • {s:Céphalées, troubles visuels, nausées/vomissements matinaux}
+      • Troubles comportement, irritabilité, agression
+  specifique:
+    - |-
+      Stade Tanner actuel — classer précisément:
+      • M1-M5 seins (filles) / G1-G5 génital (garçons) / P1-P5 pilosité
+      • {t:Orchidometer Prader} : volume testiculaire en mL [VÉRIFIER: seuil ≥4 mL = début puberté G2]
+    - |-
+      {e:Puberté précoce} — chercher expositions:
+      • Crèmes/gels hormonaux (mère, famille)
+      • Phytoestrogènes, compléments alimentaires
+      • Pilule contraceptive accessible
+    - |-
+      {e:Puberté tardive} — signes spécifiques:
+      • {s:Anosmie / hyposmie} → {p:Kallmann}
+      • Restriction alimentaire, sport intensif, stress chronique
+      • Fatigue, libido absente
+    - "Cycles menstruels (filles): ménarche, régularité, dysménorrhée?"
+  atcd:
+    - |-
+      Antécédents familiaux pubertaires (calculer taille cible):
+      • Âge ménarche mère / âge développement père
+      • Puberté précoce ou tardive dans la famille → {p:retard constitutionnel} si ATCD similaires
+    - |-
+      Antécédents personnels:
+      • Traumatisme crânien, méningite, irradiation crânienne → {p:cause centrale}
+      • Pathologies chroniques sévères (IBD, IC, IRC) → retard fonctionnel
+      • Anorexie mentale, sport intensif [VÉRIFIER: seuil BMI ou % poids pour retard pubertaire]
+    - "Médicaments: corticoïdes prolongés, antiépileptiques, psychotropes, hormones exogènes?"
+
+# source: lignes 114-177
+examen:
+  general:
+    - |-
+      Anthropométrie — OBLIGATOIRE:
+      • Poids, taille, BMI sur courbes percentilées
+      • Vitesse croissance annuelle (cm/an)
+      • Taille cible = (taille père + taille mère ± 13)/2
+    - "Inspection cutanée: {s:taches café-au-lait} (McCune-Albright, NF1), acné, vergetures, naevi multiples (Turner)"
+    - "Signes malnutrition: cachexie, fonte musculaire, bradycardie (anorexie)"
+  cible:
+    - |-
+      Stade Tanner complet — coter et noter:
+      • Seins M1-M5 (filles), testicules G1-G5 + volume orchidometer, pilosité P1-P5
+      • Galactorrhée? Gynécomastie (garçons)?
+    - |-
+      Morphologie — signes syndromiques:
+      • {p:Turner} : petite taille, pterygium colli, thorax en bouclier, cubitus valgus, lymphœdème
+      • {p:Klinefelter} : grande taille, eunuchoïdisme, testicules petits-durs, gynécomastie
+    - |-
+      Examen neurologique si suspicion centrale:
+      • Fond d'œil ({s:œdème papillaire} = {p:HTIC})
+      • Champ visuel par confrontation
+      • Olfaction (tube odorant) → {p:Kallmann} si anosmie
+    - |-
+      Proportions corporelles:
+      • Envergure/taille (normal ~1)
+      • Segment supérieur/inférieur (↑ = eunuchoïdisme → {p:hypogonadisme})
+      • Micropénis, cryptorchidie (garçons)
+
+# source: lignes 326-350 + pivots tâche
+red_flags:
+  - description: "{e:Garçon <9 ans} avec puberté complète (G2+ ou pilosité pubienne)"
+    dx_suspecte: "{p:Puberté précoce centrale} — étiologie organique dans ~40% (tumeur SNC)"
+    action: "{t:IRM hypothalamo-hypophysaire} urgente; {t:LH/FSH + testostérone + β-HCG}"
+  - description: "{s:Céphalées + troubles visuels + vomissements matinaux} chez enfant pubère"
+    dx_suspecte: "{p:Tumeur SNC} (craniopharyngiome, hamartome hypothalamique, gliome)"
+    action: "{t:IRM cérébrale} en urgence; consultation neurochirurgie si masse"
+  - description: "{s:Adrénarche + virilisation rapide} (clitoromégalie, accélération staturale brutale)"
+    dx_suspecte: "{p:Hyperplasie congénitale surrénale} (HCS) ou {p:tumeur surrénalienne}"
+    action: "{t:17-OH-progestérone + DHEAS + testostérone + androstènedione} STAT; {t:échographie surrénales}"
+  - description: "{e:Fille}: absence caractères sexuels secondaires à {r:14 ans} + petite taille + dysmorphie"
+    dx_suspecte: "{p:Syndrome de Turner} (45,X)"
+    action: "{t:Caryotype} urgent; {t:FSH/LH} (↑ hypergonadotrope); {t:échocardiographie} (coarctation, valve bicuspide) + {t:écho rénale}"
+  - description: "{s:Taches café-au-lait + puberté précoce périphérique} chez fille"
+    dx_suspecte: "{p:Syndrome McCune-Albright}"
+    action: "{t:Bilan endocrinien complet} (T3/T4/TSH, cortisol, IGF-1, GH); {t:scintigraphie osseuse} si douleurs"
+  - description: "{s:Anosmie} + absence puberté à 14 ans (fille) ou 15 ans (garçon)"
+    dx_suspecte: "{p:Syndrome de Kallmann} (hypogonadisme hypogonadotrope congénital)"
+    action: "{t:LH/FSH + testostérone/œstradiol basaux}; {t:test GnRH}; {t:IRM} (bulbe olfactif aplasique); avis endocrinologie [VÉRIFIER: âge seuil exact référence Kallmann]"
+
+# source: lignes 252-310 + pivots
+dd_top5:
+  - dx: "{p:Retard pubertaire simple (constitutionnel)}"
+    indices: "85% des retards; ATCD familiaux similaires; âge osseux retardé concordant avec taille; rattrapage spontané attendu; LH/FSH normales basses; test GnRH → réponse normale différée"
+    freq: "très fréquent"
+  - dx: "{p:Puberté précoce centrale (GnRH-dépendante)}"
+    indices: "Fille <8 ans ou garçon <9 ans; séquence pubertaire normale mais précoce; test GnRH → pic LH >5-7 UI/L (filles) ou >25 UI/L (garçons); idiopathique chez fille >>garçon"
+    freq: "fréquent (1/5 000 à 1/10 000)"
+  - dx: "{p:Hypogonadisme hypogonadotrope} (Kallmann, anorexie, sport)"
+    indices: "LH/FSH basses; testostérone/œstradiol bas; anosmie évocatrice Kallmann; sport intense ou restriction calorique → fonctionnel; IRM hypophyse normale [VÉRIFIER: distinction Kallmann vs retard constitutionnel tardif]"
+    freq: "peu fréquent"
+  - dx: "{p:Hypogonadisme hypergonadotrope} (Turner, Klinefelter)"
+    indices: "{p:Turner} 45,X: FSH/LH ↑↑, dysmorphie, petite taille; {p:Klinefelter} 47,XXY: FSH/LH ↑, grands pieds, gynécomastie, testicules petits-durs; caryotype diagnostique"
+    freq: "peu fréquent (Turner 1/2 500 filles; Klinefelter 1/500 garçons)"
+  - dx: "{p:Puberté précoce périphérique (gonadotropine-indépendante)}"
+    indices: "LH/FSH basses malgré signes pubertaires; fille: kyste ovarien, tumeur; garçon: tumeur testiculaire, HCS; exposition exogène (crèmes); McCune-Albright (taches café-au-lait + os)"
+    freq: "rare"
+
+# source: lignes 263-315
+pec_initiale:
+  immediate:
+    - "Évaluer stade Tanner + vitesse d'évolution → distinguer variante normale vs pathologie"
+    - |-
+      {p:Puberté précoce centrale} confirmée (test GnRH positif + IRM normale/hamartome):
+      • {r:Analogues GnRH} (leuproréline ou triptoreline IM mensuel/trimestriel)
+      • Indications traitement : fille <6 ans ou âge osseux très avancé ou impact psychologique majeur
+      • Arrêt : âge physiologique cible (10-11 ans filles, 11-12 ans garçons) [VÉRIFIER: indications précises aux guidelines pédiatriques romandes]
+    - |-
+      {p:Retard pubertaire simple} avec impact psychologique:
+      • {e:Filles} : {r:œstrogènes faibles doses PO ×6 mois} pour déclencher puberté
+      • {e:Garçons} : {r:testostérone retard IM ×3-6 mois} (énanthate/undécanoate)
+    - "Traitement étiologique si pseudo-puberté: chirurgie (tumeur), {r:hydrocortisone} (HCS), suppression exposition exogène"
+    - "Soutien psychologique : image corporelle, comparaison avec pairs — TOUJOURS associer"
+  orientation:
+    - "Endocrinologie pédiatrique: tout trouble pubertaire nécessitant bilan ou traitement"
+    - "Neurochirurgie: masse intracrânienne identifiée à l'IRM"
+    - "Gynécologie pédiatrique: masse ovarienne, troubles menstruels"
+    - "Domicile + suivi pédiatre si retard constitutionnel probable: surveillance croissance/Tanner tous 6 mois"
+
+# source: lignes 180-244
+examens_complementaires:
+  - "{t:Âge osseux} (RX poignet-main gauche): comparaison âge osseux/chronologique; avancé = précocité, retardé = retard constitutionnel"
+  - "{t:LH + FSH basales + test GnRH} (LH-RH): différentiel central/périphérique/constitutionnel; pic LH >5-7 UI/L filles ou >25 UI/L garçons → central"
+  - "{t:Œstradiol / testostérone + TSH + prolactine}: bilan hormonal de base; TSH pour hypothyroïdie associée"
+  - "{t:IRM hypothalamo-hypophysaire}: puberté précoce centrale surtout garçon, tout signe neurologique"
+  - "{t:Échographie pelvienne} (filles): volume utérin/ovarien, kyste ovarien, tumeur, épaisseur endomètre"
+  - "{t:Caryotype}: suspicion Turner (fille + FSH ↑) ou Klinefelter (garçon + FSH ↑ + morphologie)"
+
+criteres_hospitalisation:
+  - "Tumeur cérébrale identifiée à l'IRM → neurochirurgie"
+  - "Anorexie sévère avec dénutrition ou troubles électrolytiques"
+  - "Crise surrénalienne (HCS décompensée)"
+  - "Troubles psychiatriques majeurs avec risque suicidaire"
+  - "Masse ovarienne ou testiculaire nécessitant chirurgie urgente"
+
+pieges:
+  - "Rassurer trop vite un garçon avec puberté précoce → étiologie organique dans ~40% des cas (vs ~10% chez fille) — IRM systématique"
+  - "Banaliser un retard pubertaire chez un garçon de 14 ans sans chercher le syndrome de Kallmann (anosmie souvent non spontanément rapportée)"
+  - "Oublier les taches café-au-lait lors de l'examen cutané — McCune-Albright modifie toute la PEC"
+  - "Faire un test GnRH sans âge osseux préalable — les deux sont complémentaires pour le diagnostic"
+  - "Ne pas demander le caryotype devant une grande taille + gynécomastie chez garçon → Klinefelter souvent diagnostiqué avec 5-10 ans de retard"
+
+cartes_liees:
+  - SYS-PED
+  - SSP-END-01

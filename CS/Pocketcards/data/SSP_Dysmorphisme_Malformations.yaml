@@ -1,0 +1,183 @@
+id: SSP-PED-05
+type: ssp
+title: Dysmorphisme et malformations
+discipline: Pediatric
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Dysmorphisme_Malformations.md
+
+# source: ligne 1-25 (objectifs + mesures)
+anamnese:
+  socrates:
+    - |-
+      Motif de consultation:
+      • découverte néonatale (aspect anormal) ou suivi développement?
+      • signalé par qui (sage-femme, pédiatre, parents, obstétricien)?
+    - |-
+      Caractérisation des anomalies:
+      • congénitales (présentes dès la naissance) ou acquises?
+      • morphologiques (forme/taille) vs fonctionnelles (retard, déficit)?
+    - |-
+      Évolution dans le temps:
+      • stable ou progressive?
+      • impact sur développement psychomoteur, langage, scolarité?
+    - |-
+      Grossesse:
+      • {s:alcool} ({p:SAF}) — aucune dose sûre, dose totale + périodes?
+      • médicaments tératogènes ({r:valproate}, {r:isotrétinoïne}, {r:méthotrexate})?
+      • {s:infections TORCH} (rubéole, CMV, toxoplasmose, VHS)?
+      • fièvre prolongée, {s:RCIU}, oligoamnios, polyhydramnios?
+    - |-
+      Naissance:
+      • terme (SA), poids, taille, {t:PC} à la naissance — percentiles?
+      • Apgar, réanimation néonatale nécessaire?
+  specifique:
+    - |-
+      Développement psychomoteur:
+      • acquisition tenue de tête, position assise, marche (âge)?
+      • langage: premiers mots, phrases? [VÉRIFIER: âges-clés normaux selon âge actuel]
+      • {s:retard global} ou dissociatif (moteur seul, langage seul)?
+    - |-
+      Déficits sensoriels:
+      • ouïe: réactions aux bruits, bilan audiométrique déjà réalisé?
+      • vue: suivi du regard, strabisme, nystagmus?
+    - |-
+      Systèmes associés:
+      • {s:cardiopathie} (souffle, cyanose, essoufflement, mauvaise prise pondérale)?
+      • {s:anomalies digestives} (fentes, reflux sévère, malrotation)?
+      • infections répétées → suspicion {p:immunodéficience}?
+    - "Croissance staturo-pondérale: courbe régulière ou cassure? Comparaison taille parentale cible?"
+  atcd:
+    - |-
+      Antécédents familiaux:
+      • {s:consanguinité} (maladies AR)?
+      • {p:fausses couches répétées} (anomalies chromosomiques parentales)?
+      • malformations connues dans la famille (oreilles, cœur, membres)?
+      • membre de la famille avec retard mental ou syndromique?
+    - "ATCD obstétricaux maternels: diabète gestationnel, HTA, pré-éclampsie, traitements?"
+    - "Bilan génétique parental déjà réalisé (caryotype, CGH-array)?"
+    - "Diagnostics antérieurs ou en cours: dossiers médicaux, courriers spécialistes?"
+
+# source: ligne 82-87 (investigations) + pivots task
+red_flags:
+  - description: "{s:Souffle cardiaque} + {s:cyanose} ou {s:mauvaise prise pondérale} chez nourrisson dysmorphique"
+    dx_suspecte: "{p:Cardiopathie congénitale} ({p:Trisomie 21} 40-50 %, {p:DiGeorge} conotroncale)"
+    action: "{t:Écho-cœur} STAT + avis cardiopédiatrie; {t:SaO2} préductale et postductale si cyanose"
+  - description: "{s:Hypocalcémie néonatale} (tetanie, convulsions) + dysmorphie + infections récurrentes"
+    dx_suspecte: "{p:Syndrome de DiGeorge} (délétion {t:22q11.2})"
+    action: "{t:FISH 22q11} ou {t:CGH-array} URGENT; calcium IV si convulsions; immunologie pédiatrique"
+  - description: "≥ 3 {s:anomalies majeures} dans des systèmes différents (cœur, rein, SNC, squelette)"
+    dx_suspecte: "{p:Syndrome chromosomique complexe} ({p:Trisomie 13}, {p:Trisomie 18}, microdélétion)"
+    action: "Consultation génétique URGENTE; {t:caryotype} ± {t:CGH-array}; {t:écho abdo} + {t:écho cœur} + {t:IRM cérébrale}"
+  - description: "{s:Microcéphalie} (PC < -2 DS) + {s:RCIU} + exposition maternelle confirmée"
+    dx_suspecte: "{p:Embryofœtopathie} (SAF, CMV congénital, rubéole, Zika)"
+    action: "{t:Bilan TORCH complet} (sérologies mère + enfant); IgM spécifiques nouveau-né; ophtalmo + audiologie"
+  - description: "{e:Période néonatale}: phénotype sévère, absence de réflexes, anomalie vitale (apnées, hypothermie)"
+    dx_suspecte: "{p:Syndrome néonatal létal} ({p:Trisomie 18/13}, anomalies SNC majeures)"
+    action: "Annonce parentale BBN; soins de confort ± transfert soins palliatifs; génétique pour conseil familial"
+  - description: "{s:Petite taille} < -2 DS chez fille + {s:lymphœdème} des pieds ± {s:pterygium colli}"
+    dx_suspecte: "{p:Syndrome de Turner} (45,X)"
+    action: "{t:Caryotype} sur sang périphérique; {t:écho cœur} (coarctation, bicuspide aortique); {t:écho rénale}"
+
+# source: ligne 19-39 (examen systématique)
+examen:
+  general:
+    - "Signes vitaux: FC, FR, {t:SaO2}, TA; {s:cyanose} centrale ou périphérique?"
+    - |-
+      Mensurations obligatoires avec {t:percentiles}:
+      • poids, taille, {t:PC} (courbe de croissance)
+      • envergure / segment supérieur / inférieur
+      • comparaison taille cible parentale [VÉRIFIER: formule taille cible selon sexe]
+    - "Photographies: face, profil, corps entier — comparaison aux parents (photos smartphones)"
+  cible:
+    - |-
+      Crâne et face (tête à pieds):
+      • {s:micro/macrocéphalie}, craniosténose, fontanelles
+      • {s:épicanthus}, {s:fentes palpébrales} (oblique en haut → T21; oblique en bas → Turner/Noonan)
+      • {s:hypo/hypotélorisme} (distances inter-cantales)
+      • {s:micrognathie}, {s:microrétrognathie}, fentes labio-palatines
+      • implantation oreilles (basse?), morphologie (anomalie)
+    - |-
+      Cou et tronc:
+      • {s:pterygium colli} (Turner, Noonan)
+      • {s:pectus excavatum/carinatum}
+      • {s:scoliose}, anomalie des mamelons (écartement)
+    - |-
+      Extrémités:
+      • mains: {s:polydactylie}, {s:syndactylie}, {s:clinodactylie} V (T21), {s:brachydactylie}
+      • {s:pli palmaire unique} (pli simien → T21)
+      • pieds: {s:pied bot}, orteils surnuméraires, espace inter-orteils I-II élargi (T21)
+      • ongles: hypoplasie ou hyperconvexité
+    - |-
+      Peau et phanères:
+      • {s:taches café-au-lait} (≥ 6 ≥ 5 mm → neurofibromatose), {s:angiofibromes}
+      • {s:ichtyose}, {s:capillarotrichie}
+    - |-
+      Neurologie pédiatrique:
+      • {s:hypotonie axiale} (T21, Prader-Willi) vs hypertonie périphérique
+      • réflexes ostéotendineux, réflexes archaïques (nourrisson)
+      • développement psychomoteur adapté à l'âge
+
+# source: lignes 62-86 (syndromes + investigations)
+dd_top5:
+  - dx: "{p:Trisomie 21} (syndrome de Down)"
+    indices: "Épicanthus, fentes palpébrales obliques en haut, profil plat, pli simien, hypotonie, clinodactylie V; cardiopathie 40-50 % (CAV, CIV); dépistage prénatal T21"
+    freq: "fréquent (1/700 naissances)"
+  - dx: "{p:Syndrome d'alcoolisation fœtale (SAF)}"
+    indices: "{s:Lèvre supérieure mince + philtrum effacé + fentes courtes} (triade faciologique) + {s:microcéphalie}; RCIU; troubles comportement/apprentissage; exposition alcool maternelle confirmée"
+    freq: "fréquent (1-3/1000; sous-diagnostiqué)"
+  - dx: "{p:Syndrome de Turner} (45,X)"
+    indices: "Fille: petite taille, pterygium colli, lymphœdème pieds, {s:impubérisme}; cardiopathie (coarctation aorte); rein en fer à cheval; caryotype 45,X ou mosaïque"
+    freq: "peu fréquent (1/2500 filles)"
+  - dx: "{p:Syndrome de DiGeorge} (délétion 22q11)"
+    indices: "Cardiopathie conotroncale (tétralogie de Fallot, interruption de l'arche aortique); {s:hypocalcémie}; immunodéficience cellulaire; faciès (nez bulbeux, oreilles décollées); {t:FISH 22q11} ou CGH-array"
+    freq: "peu fréquent (1/4000)"
+  - dx: "{p:Embryofœtopathie} (TORCH, médicamenteuse)"
+    indices: "Rubéole: cataracte + cardiopathie + surdité; CMV: microcéphalie + calcifications périventriculaires; SAF (cf. ci-dessus); valproate: spina bifida + dysmorphie craniofaciale; isotrétinoïne: anomalies SNC + oreilles"
+    freq: "variable selon exposition"
+
+pec_initiale:
+  immediate:
+    - "Éliminer les urgences vitales d'abord: {s:cardiopathie symptomatique} ({t:SaO2}), {s:hypocalcémie} (DiGeorge), détresse respiratoire"
+    - |-
+      Annonce diagnostique selon contexte:
+      • utiliser technique {r:BBN} (bad/breaking news): espace calme, parents ensemble, pas seuls
+      • ne pas donner de pronostic définitif sans bilan complet
+      • proposer soutien psychologique et association de patients
+    - "Génétique pédiatrique: référer tout enfant avec dysmorphie + malformation associée pour coordination bilan [VÉRIFIER: délai d'attente consultation génétique CHUV/HUG]"
+    - "Trisomie 21 confirmée: écho cœur + ophtalmologie + audiologie + TSH dans les premiers mois de vie"
+  orientation:
+    - "USI néonatologie/soins intensifs: malformations multiples sévères, instabilité vitale, syndrome néonatal létal"
+    - "Cardiopédiatrie en urgence: souffle + cyanose + SaO2 < 95 % chez nourrisson dysmorphique"
+    - "Consultation génétique pédiatrique (ambulatoire ou semi-urgente): dysmorphie isolée stable, suspicion syndrome sans urgence immédiate"
+    - "Suivi multidisciplinaire: neurologie péd, orthophonie, psychomotricité, ophtalmo, ORL selon déficits"
+    - "Consignes de retour: aggravation cardio-respiratoire, convulsions, cyanose → urgences pédiatriques"
+
+# source: ligne 81-86 (investigations)
+examens_complementaires:
+  - "{t:Caryotype} standard (sang périphérique): 1er bilan chromosomique si dysmorphie inexpliquée ou retard"
+  - "{t:CGH-array} (microarray chromosomique): suspicion syndrome microdélétion (DiGeorge, Williams 7q11, Angelman 15q) si caryotype normal [VÉRIFIER: indications CGH-array vs caryotype selon institution]"
+  - "{t:FISH ciblé} (22q11, 7q11, etc.): si phénotype évocateur d'une délétion spécifique"
+  - "{t:Bilan TORCH}: IgM rubéole, CMV, toxoplasmose, VHS nouveau-né + sérologies maternelles"
+  - "{t:Écho cardiaque}: toute dysmorphie avec souffle ou suspicion cardiopathie (T21, DiGeorge, Turner)"
+  - "{t:IRM cérébrale} + {t:écho abdo} (reins): si retard développement, microcéphalie, ou ≥ 3 malformations"
+
+criteres_hospitalisation:
+  - "Cardiopathie congénitale symptomatique ({s:SaO2 < 95 %}, {s:insuffisance cardiaque}, {s:cyanose})"
+  - "Syndrome néonatal avec instabilité: hypocalcémie sévère ({p:DiGeorge}), hypothermie, apnées"
+  - "≥ 3 malformations majeures → coordination bilan urgent en hospitalisation"
+  - "Annonce d'un diagnostic lourd (T13/T18) nécessitant soins palliatifs et soutien intensif"
+  - "Nourrisson avec défaut de croissance pondérale sévère (< -2 DS) sans explication"
+
+pieges:
+  - "Banaliser un {s:souffle néonatal} comme 'fonctionnel' sans {t:écho cœur} chez un enfant dysmorphique — cardiopathie présente dans 40-50 % des T21 et DiGeorge"
+  - "Conclure à une dysmorphie 'isolée' sans examiner les parents (traits familiaux normaux peuvent mimer un syndrome)"
+  - "Oublier le {p:SAF} si la mère nie la consommation d'alcool — la triade faciologique suffit à évoquer le diagnostic"
+  - "Ne pas demander le {t:caryotype} chez une fille avec petite taille isolée sans autre signe — le {p:Turner} peut être très fruste"
+  - "Différer l'annonce aux parents en attendant tous les résultats — l'angoisse parentale nécessite une communication précoce même partielle"
+
+cartes_liees:
+  - SYS-PED
+  - SSP-PED-06

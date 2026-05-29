@@ -1,0 +1,185 @@
+id: SSP-PED-01
+type: ssp
+title: Fièvre du nourrisson
+discipline: Pediatric
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Fièvre_Nourrisson.md
+
+# source: line 11-95
+anamnese:
+  socrates:
+    - |-
+      Onset — caractérisation de la fièvre:
+      • depuis quand exactement (début précis)?
+      • comment mesurée (rectale, axillaire, auriculaire, frontale)?
+      • température maximale enregistrée?
+      • évolution: en hausse / plateau / résolution?
+    - |-
+      Relieving — réponse aux traitements:
+      • paracétamol donné? dose? résultat? [VÉRIFIER: 15 mg/kg/dose toutes 6h max 60 mg/kg/j]
+      • ibuprofène si > 6 mois? dose? résultat? [VÉRIFIER: 10 mg/kg/dose toutes 8h]
+    - |-
+      Associated — signes associés immédiats (RED FLAGS):
+      • altération état général: léthargie, irritabilité paradoxale?
+      • difficultés respiratoires: tachypnée, tirage, battement ailes du nez?
+      • refus alimentaire (biberon/sein)?
+      • qualité des pleurs: inconsolables ou absence de pleurs?
+      • fontanelle bombée (si < 18 mois)?
+  specifique:
+    - |-
+      ORL — cause la plus fréquente:
+      • oreilles: tire sur oreilles, pleurs lors manipulation?
+      • nez: rhinorrhée, obstruction nasale?
+      • gorge: refus d'avaler, déglutition difficile?
+      • laryngite: voix rauque, toux aboyante, stridor?
+    - |-
+      Respiratoire:
+      • toux productive/sèche, nocturne, quintes?
+      • sifflements (wheezing) audibles à distance?
+      • contexte épidémique (VRS automne-hiver = bronchiolite)?
+    - |-
+      Digestif/urinaire:
+      • vomissements, diarrhée?
+      • urines: couleur anormale, odeur, fréquence?
+      • douleurs abdominales (pleurs lors manipulation)?
+    - |-
+      Neurologique — URGENCE:
+      • convulsions (même fébriles)?
+      • raideur de nuque (difficile à évaluer < 12 mois)?
+      • niveau de conscience, contact visuel?
+    - "Cutané: éruption? purpura (taches ne blanchissant pas au verre)? pâleur, marbrures?"
+    - "Exposition: contacts malades (fratrie, garderie), épidémie en cours (VRS, grippe), voyages?"
+  atcd:
+    - |-
+      Nourrisson:
+      • âge (PIVOT: < 1 mois / 1-3 mois / 3-36 mois)
+      • gestationnel et poids de naissance
+      • vaccinations à jour? (important — protège contre méningocoque, Hib, pneumocoque)
+      • épisodes infectieux antérieurs, immunodéficience connue?
+    - "Alimentation: allaitement maternel ou artificiel, hydratation actuelle, acceptation?"
+    - "Famille: allergies, immunodéficiences héréditaires, grossesse/accouchement de la mère?"
+
+# source: line 274-284
+red_flags:
+  - description: "{e:Nourrisson < 1 mois} avec T° ≥ 38°C rectale"
+    dx_suspecte: "{p:Sepsis néonatal / méningite bactérienne}"
+    action: "Bilan septique complet (NFS, CRP, PCT, hémocultures, ECBU, {t:PL}) + {r:ceftriaxone + ampicilline IV} + hospitalisation STAT [VÉRIFIER: protocole local CHUV/HUG pour ATB néonatal]"
+  - description: "{s:Toxic appearance}: léthargie, irritabilité paradoxale, mauvaise perfusion, teint grisâtre"
+    dx_suspecte: "{p:Sepsis / méningite bactérienne}"
+    action: "Bilan septique complet + ATB IV STAT + USI pédiatrique"
+  - description: "{s:Purpura pétéchial ou ecchymotique} fébrile — test du verre négatif"
+    dx_suspecte: "{p:Méningococcémie / purpura fulminans}"
+    action: "{r:Ceftriaxone IV} IMMÉDIAT (avant tout bilan) + transfert USI; ne pas attendre résultats"
+  - description: "{s:Fontanelle bombée} (si < 18 mois) + fièvre + irritabilité"
+    dx_suspecte: "{p:Méningite bactérienne / HTIC}"
+    action: "{t:CT cérébral} si signes focaux, sinon {t:PL} directe + ATB IV STAT"
+  - description: "{s:Détresse respiratoire} (tirage intercostal/sous-costal, SaO2 < 95%, cyanose)"
+    dx_suspecte: "{p:Pneumonie grave / bronchiolite sévère / épiglottite}"
+    action: "{r:O2} + monitorage continu + hospitalisation urgente; si épiglottite suspectée: NE PAS examiner la gorge"
+  - description: "{s:Convulsions fébriles} < 6 mois, > 15 min, focales, ou récidive < 24h"
+    dx_suspecte: "{p:Convulsion fébrile complexe / méningite / encéphalite}"
+    action: "{r:Midazolam buccal} si toujours en crise + bilan étiologique + {t:PL} si < 18 mois et première convulsion fébrile [VÉRIFIER: seuil d'âge PL post-convulsion fébrile locale]"
+
+# source: line 176-186
+examen:
+  general:
+    - "Signes vitaux: T° (rectale si < 2 ans), {t:FC}, {t:FR} (selon âge), {t:SaO2} (doit être ≥ 95%)"
+    - "{t:Pediatric Assessment Triangle (PAT)}: apparence (tonus, regard, consolabilité), travail respiratoire, circulation cutanée"
+    - "État hydratation: yeux cernés, pli cutané, sécheresse muqueuses, fontanelle déprimée?"
+    - "Peau: couleur (pâleur, marbrures, cyanose), purpura (test du verre systématique si éruption)"
+  cible:
+    - |-
+      {s:Fontanelle antérieure} si < 18 mois:
+      • tension (bombée = HTIC)?
+      • déprimée (déshydratation)?
+    - |-
+      ORL — OBLIGATOIRE si fièvre:
+      • {t:otoscopie bilatérale}: tympan bombé/rouge/épanchement (OMA)?
+      • pharynx: érythème, exsudat?
+      • ganglions cervicaux (taille, chaleur)?
+    - |-
+      Neurologique adapté à l'âge:
+      • contact visuel et sourire social?
+      • tonus axial et appendiculaire
+      • raideur de nuque (flexion passive — difficile < 12 mois)
+      • réflexes archaïques si < 6 mois
+    - |-
+      Cardio-pulmonaire:
+      • auscultation cardiaque (souffle, rythme)
+      • auscultation pulmonaire (symétrie, râles, sibilants)
+      • tirage intercostal ou sous-costal?
+      • battement des ailes du nez?
+    - |-
+      Abdominal:
+      • inspection (distension)
+      • palpation douce (défense, hépato-splénomégalie)
+
+# source: line 175-186 (DD table)
+dd_top5:
+  - dx: "{p:Infection virale ORL (OMA, IVRS)}"
+    indices: "Cause #1 chez nourrisson; rhinorrhée, otoscopie positive (tympan bombé/rouge), contexte épidémique, fratrie malade; OMA: 6-24 mois, post-IVRS, irritabilité nocturne"
+    freq: "très fréquent (> 50 % des fièvres)"
+  - dx: "{p:Infection urinaire}"
+    indices: "15 % des nourrissons fébriles sans foyer apparent; garçon < 1 an, fille tout âge; urines malodorantes; fièvre isolée sans signe ORL; ECBU obligatoire si fièvre sans foyer"
+    freq: "fréquent (15 % des fièvres sans foyer)"
+  - dx: "{p:Bronchiolite / pneumonie}"
+    indices: "Bronchiolite: < 2 ans, automne-hiver (VRS), wheezing + difficultés alimentaires; Pneumonie: fièvre élevée + altération état général + foyer auscultatoire (parfois pauvre → RX si fièvre persistante)"
+    freq: "fréquent (épidémique en hiver)"
+  - dx: "{p:Roséole (6e maladie — HHV-6)}"
+    indices: "6-24 mois; fièvre élevée 3-5 jours puis éruption rosée tronc APRÈS défervescence; diagnostic clinique rétrospectif; enfant en bon état général pendant la fièvre"
+    freq: "fréquent (quasi-universel avant 2 ans)"
+  - dx: "{p:Méningite bactérienne / sepsis}"
+    indices: "URGENCE; toxic appearance, fontanelle bombée, raideur de nuque (difficile < 12 mois), purpura, convulsions; nourrisson < 3 mois: présentation souvent atypique (hypothermie, léthargie seule)"
+    freq: "rare mais urgence vitale"
+
+# source: line 149-241
+pec_initiale:
+  immediate:
+    - |-
+      Stratification par âge — PIVOT:
+      • {e:< 1 mois}: bilan septique complet + ATB IV + hospitalisation SYSTÉMATIQUE
+      • {e:1-3 mois}: NFS, CRP, ECBU obligatoire; PL si aspect toxique; critères Rochester pour stratifier hospit vs ambulatoire [VÉRIFIER: protocole Rochester/Boston CHUV 2024]
+      • {e:3-36 mois}: si T° < 39°C + bon état général → surveillance; si T° > 39°C ou aspect toxique → NFS, CRP, ECBU si fièvre sans foyer
+    - |-
+      Antipyrétiques — posologies:
+      • {r:Paracétamol 15 mg/kg/dose} toutes 6h (max {r:60 mg/kg/j})
+      • {r:Ibuprofène 10 mg/kg/dose} toutes 8h si > 6 mois — CI si deshydratation
+      • JAMAIS d'aspirine (syndrome de Reye)
+      • alternance non systématique
+    - "Mesures générales: hydratation orale fractionnée, désobstruction nasale (sérum physiologique), vêtements légers"
+    - "ECBU: technique adaptée à l'âge (sac collecteur puis cathétérisme si douteux); traiter si bactériurie > 10⁵ UFC + leucocyturie"
+  orientation:
+    - "Hospitalisation immédiate: âge < 3 mois + fièvre > 38°C, toxic appearance, purpura fébrile, détresse respiratoire (SaO2 < 95%), déshydratation > 5%, convulsions"
+    - "Ambulatoire avec suivi rapproché 24-48h: âge 3-6 mois selon contexte, fièvre élevée mais bon état général, contexte social défavorable"
+    - "Domicile + conseils parents: signes d'alarme à expliquer (purpura, détresse respiratoire, somnolence, fontanelle bombée, convulsions, refus alimentaire total > 8-12h)"
+    - "Reconsulter si pas d'amélioration en 48h ou apparition d'un signe d'alarme"
+
+# source: line 149-173
+examens_complementaires:
+  - "{t:ECBU} (sac collecteur ± cathétérisme): toute fièvre sans foyer chez nourrisson, fille tout âge, garçon < 1 an — SYSTÉMATIQUE"
+  - "{t:NFS + CRP ± PCT}: fièvre > 38°C < 3 mois (systématique), ou > 3 mois si aspect toxique / T° > 39°C"
+  - "{t:Hémocultures}: suspicion bactériémie/sepsis, tout nourrisson < 1 mois fébrile"
+  - "{t:PL} (cytologie + biochimie + cultures): < 1 mois systématique, 1-3 mois si aspect toxique, tout âge si suspicion méningite"
+  - "{t:Radiographie thoracique}: signes respiratoires persistants, fièvre > 7 jours sans foyer ORL, suspicion pneumonie"
+  - "{t:Test VRS rapide}: bronchiolite en période épidémique si hospitalisation envisagée"
+
+criteres_hospitalisation:
+  - "{e:Âge < 3 mois} avec toute fièvre > 38°C"
+  - "{s:Toxic appearance} / altération importante état général / score Yale bas"
+  - "{s:Purpura fébrile} ou {s:détresse respiratoire} (SaO2 < 95%, tirage)"
+  - "{s:Déshydratation > 5%} ou refus alimentaire complet"
+  - "{s:Convulsions fébriles complexes} ou suspicion méningite/sepsis"
+
+pieges:
+  - "Sous-estimer la gravité chez < 3 mois: tableau souvent atypique (hypothermie, léthargie sans fièvre) — bilan septique complet même si clinique 'rassurante'"
+  - "Oublier l'{t:otoscopie} (OMA = cause fréquente et traitable) et l'{t:ECBU} (15 % de fièvres sans foyer = pyélonéphrite)"
+  - "Prescrire des antibiotiques systématiques sans foyer identifié (85 % des fièvres sont virales); attendre résultat ECBU"
+  - "Minimiser les inquiétudes parentales sans expliquer les signes d'alarme: parents = partenaires de surveillance à domicile"
+  - "Donner ibuprofène en cas de déshydratation ou avant 6 mois (néphrotoxicité, risque hémorragique)"
+
+cartes_liees:
+  - SYS-PED
+  - TOOL-YALE

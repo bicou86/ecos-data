@@ -1,0 +1,182 @@
+id: SSP-PED-03
+type: ssp
+title: Détresse respiratoire néonatale
+discipline: Pediatric
+urgency: high
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Détresse_Respiratoire_Néonatale.md
+
+# source: ligne 1-161 (MD basse qualité) + pivots DRN fournis
+
+anamnese:
+  socrates:
+    - |-
+      Onset:
+      • âge exact à l'apparition ({r:premières 24-72 h} de vie?)
+      • début brutal ou progressif?
+      • avant ou après mise au sein?
+    - |-
+      Character:
+      • {s:geignement expiratoire} (grunting)?
+      • {s:tirage} intercostal / sus-claviculaire / sus-sternal?
+      • {s:battement des ailes du nez (BAN)}?
+      • {s:cyanose} centrale ou périphérique?
+    - "Severity: {t:SpO2} mesurée? FR mesurée (>60/min)? Alimentation possible?"
+    - |-
+      Exacerbating / Relieving:
+      • aggravé à l'effort (pleurs, tétée)?
+      • amélioré en décubitus ventral?
+    - |-
+      Time:
+      • évolution depuis la naissance: stable / progressive / fluctuante?
+      • durée totale des symptômes?
+  specifique:
+    - |-
+      Contexte obstétrical:
+      • terme (SA exactes) — {e:prématurité <34 SA}?
+      • {e:liquide amniotique méconial}?
+      • {e:rupture prématurée des membranes (RPM)} > 18 h?
+      • fièvre maternelle intrapartum? GBS maternel?
+    - |-
+      Accouchement:
+      • voie basse ou césarienne? ({e:césarienne programmée} = plus de TTN)
+      • score d'Apgar à 1 et 5 min?
+      • réanimation en salle de naissance?
+    - "Prise en charge initiale: O2 administré? CPAP posée? Surfactant donné?"
+    - "Alimentation: allaitement ou biberon? quantités? vomissements?"
+    - "Asymétrie abdominale ou thoracique à la naissance notée par sage-femme?"
+  atcd:
+    - |-
+      Antécédents maternels:
+      • {e:diabète gestationnel} (macrosomie → hypoglycémie)
+      • {e:corticoïdes anténataux} reçus? (bétaméthasone <34 SA)
+      • infection urinaire / vaginale récente?
+    - "ATCD familiaux: cardiopathies congénitales, mucoviscidose?"
+    - "Frères/sœurs: maladies pulmonaires néonatales?"
+
+# source: pivots DRN — signes cliniques
+
+red_flags:
+  - description: "{e:Prématuré <34 SA} + {s:détresse progressive} + {t:Silverman >5} + {t:RX poumons blancs / bronchogramme aérique}"
+    dx_suspecte: "{p:Maladie des membranes hyalines (MMH)}"
+    action: "Appel néonatologie / unité néonatale; {r:surfactant exogène intra-trachéal} après intubation; {r:CPAP nasale} si forme modérée; [VÉRIFIER: seuil exact Silverman pour intubation vs CPAP selon protocole local]"
+  - description: "{s:Cyanose brutale} + {s:asymétrie auscultatoire} + {s:trachée déviée} ou {t:transillumination positive}"
+    dx_suspecte: "{p:Pneumothorax sous tension}"
+    action: "Exsufflation aiguille urgente ({r:2e espace intercostal ligne médio-claviculaire}) puis drainage thoracique; O2 100 %"
+  - description: "{s:DRN sévère} + {s:abdomen plat/excavé} + {s:bruits hydroaériques thoraciques}"
+    dx_suspecte: "{p:Hernie diaphragmatique congénitale (HDC)}"
+    action: "Intubation immédiate (EVITER masque); {r:sonde gastrique} en aspiration douce; chirurgie après stabilisation hémodynamique"
+  - description: "{s:Cyanose persistante réfractaire à l'O2} ± {s:écart SpO2 main droite > main gauche/pied} ({r:>3 %})"
+    dx_suspecte: "{p:Cardiopathie congénitale ductodépendante}"
+    action: "Echocardiographie urgente; {r:prostaglandines E1 (alprostadil)} IV en perfusion continue; ne pas fermer le canal artériel; avis cardiologie pédiatrique [VÉRIFIER: dose initiale PGE1 selon poids — typiquement 0,01-0,05 µg/kg/min]"
+  - description: "{e:FDR infectieux} (RPM>18h, fièvre maternelle, GBS+) + {s:détresse respiratoire} + {s:instabilité thermique ou hypotonie}"
+    dx_suspecte: "{p:Sepsis néonatal précoce / Pneumonie néonatale à GBS}"
+    action: "Prélèvements AVANT ATB: hémoculture, NFS, CRP, PL si stable; {r:ampicilline 100-150 mg/kg/j IV} + {r:gentamicine 5 mg/kg/j IV} [VÉRIFIER: posologie gentamicine selon AG et poids exact]"
+  - description: "{e:Liquide amniotique méconial épais} + {s:détresse} + {t:RX nodules grossiers bilatéraux}"
+    dx_suspecte: "{p:Syndrome d'inhalation méconiale (SIM)}"
+    action: "Ventilation mécanique si Silverman >5; {r:surfactant} si atélectasies documentées; antibiotiques empiriques; discuter iNO si HTAP associée [VÉRIFIER: indication surfactant dans SIM vs MMH]"
+
+# source: pivots DRN — examen clinique
+
+examen:
+  general:
+    - |-
+      Signes vitaux OBLIGATOIRES:
+      • {t:FR} (N: 40-60/min; {s:tachypnée >60} = critère DRN)
+      • {t:SpO2} pré-ductale (main droite) ET post-ductale (pied gauche)
+      • FC, T°, glycémie capillaire ({r:>2,5 mmol/L})
+      • TA 4 membres si suspicion coarctation
+    - "{t:Score de Silverman-Andersen} (0-10): évaluer geignement, tirage intercostal, tirage xiphoïdien, battement des ailes du nez, balancement thoraco-abdominal"
+  cible:
+    - |-
+      Inspection thoracique:
+      • {s:tirage} intercostal / sus-claviculaire / sus-sternal?
+      • symétrie des mouvements respiratoires?
+      • entonnoir xiphoïdien?
+      • {s:cyanose} centrale (lèvres, muqueuses)?
+    - |-
+      Auscultation pulmonaire:
+      • asymétrie d'entrée d'air ({p:pneumothorax}, {p:HDC})
+      • râles fins ({p:MMH}), crépitants ({p:pneumonie})
+      • silence unilatéral → urgence!
+    - |-
+      Auscultation cardiaque:
+      • souffle systolique ou continu?
+      • bruits cardiaques déplacés à droite ({p:HDC})?
+    - |-
+      Abdomen:
+      • plat / excavé ({p:HDC})?
+      • distension (occlusion)?
+      • ombilic — aspect?
+    - "{t:Transillumination thoracique} si pneumothorax suspecté (hyperclarté = positif)"
+    - "Neurologique: tonus, réflexes archaïques (Moro, grasping), fontanelle?"
+
+# source: pivots DRN — diagnostic différentiel
+
+dd_top5:
+  - dx: "{p:Tachypnée transitoire du nouveau-né (TTN)}"
+    indices: "Nouveau-né à terme ou proche terme, {e:césarienne fréquente}; {t:RX scissurite}, hyperclarté péri-hilaire, épanchement liquidien interlobaire; résolution spontanée {r:24-72 h}; Silverman <3"
+    freq: "très fréquent (1-2 % des naissances à terme)"
+  - dx: "{p:Maladie des membranes hyalines (MMH)}"
+    indices: "{e:Prématuré <34 SA}; déficit surfactant; {t:RX poumons blancs + bronchogramme aérique}; aggravation progressive; détresse croissante"
+    freq: "très fréquent chez le prématuré (<34 SA: 60 %)"
+  - dx: "{p:Pneumonie néonatale}"
+    indices: "Contexte infectieux (GBS, RPM, fièvre maternelle); {t:RX foyer de condensation}; CRP/NFS anormale; souvent indiscernable de MMH cliniquement"
+    freq: "fréquent (cause principale de sepsis néonatal précoce)"
+  - dx: "{p:Syndrome d'inhalation méconiale (SIM)}"
+    indices: "{e:Liquide amniotique méconial} + détresse dès salle de naissance; {t:RX nodules grossiers bilatéraux}; risque HTAP néonatale; terme ≥ 37 SA"
+    freq: "peu fréquent (1-3/1000 naissances vivantes à terme)"
+  - dx: "{p:Pneumothorax néonatal}"
+    indices: "Asymétrie auscultatoire; {t:transillumination positive}; {t:RX hyperclarté unilatérale}; peut compliquer MMH/SIM ou être spontané; tachycardie + désaturation brutale"
+    freq: "rare spontané (1-2 %) ou iatrogène (ventilation)"
+
+# source: pivots DRN — prise en charge
+
+pec_initiale:
+  immediate:
+    - |-
+      ABC néonatal — ordre de priorité:
+      • Voies aériennes libres (aspiration oro-pharyngée si liquide méconial)
+      • Ventilation: {r:CPAP nasale d'emblée} si FR>60 ou Silverman ≥3
+      • Intubation si Silverman {r:>5} ou échec CPAP ou apnées
+    - "Maintien neutralité thermique: {r:incubateur ou table chauffante}, T° cible {r:36,5-37,5 °C}"
+    - "Voie veineuse ombilicale (VVO) ou périphérique pour G10 % + médicaments"
+    - |-
+      Oxygénation cible:
+      • {r:SpO2 cible 90-95 %} (éviter hyperoxie chez prématuré)
+      • O2 en lunettes / masque si forme légère
+    - "{p:MMH}: {r:surfactant intra-trachéal} (béractant ou poractant alfa) si intubé et RX confirmée"
+    - "{p:Pneumothorax tension}: exsufflation aiguille immédiate → drainage"
+    - "{p:Sepsis suspecté}: hémoculture → {r:ampicilline + gentamicine IV} sans délai"
+  orientation:
+    - "Transfert UNI/NICU immédiat: tout Silverman >3, prématuré <34 SA, suspicion cardiopathie, pneumothorax, HDC"
+    - "Surveillance rapprochée maternité 24-48 h: TTN probable (Silverman <3, terme, stabilisation rapide)"
+    - "Consignes aux parents / équipe: toute dégradation (désaturation, apnée, cyanose) → appel immédiat"
+
+examens_complementaires:
+  - "{t:RX thorax}: PREMIÈRE imagerie — distingue MMH (poumons blancs) / TTN (scissurite) / SIM (nodules) / pneumothorax (hyperclarté)"
+  - "{t:SpO2 pré- et post-ductale}: écart >3 % → cardiopathie ductodépendante"
+  - "{t:Gaz du sang artériels (VVO ou artère radiale)}: pH, pCO2, pO2, BE — évaluer acidose respiratoire/métabolique [VÉRIFIER: valeurs normales néonatales pH >7,25, pCO2 <55 mmHg]"
+  - "{t:NFS, CRP, hémoculture}: bilan infectieux si FDR; NFS: polyglobulie (Ht>65 %) ou anémie sévère"
+  - "{t:Glycémie capillaire}: dépistage systématique hypoglycémie néonatale"
+  - "{t:Echocardiographie}: cyanose persistante réfractaire O2, souffle, cardiopathie suspecte"
+
+criteres_hospitalisation:
+  - "Tout nouveau-né avec {t:Silverman >3} ou {s:FR >60/min} persistante — hospitalisation systématique"
+  - "{s:SpO2 <90 %} sous air ambiant ou besoin O2 pour maintenir SpO2 ≥90 %"
+  - "Suspicion {p:MMH}, {p:Sepsis}, {p:HDC}, {p:SIM}, {p:Pneumothorax}, {p:Cardiopathie}"
+  - "{e:Prématurité <35 SA} avec tout signe respiratoire, même modéré"
+  - "Instabilité thermique, glycémique ou hémodynamique associée"
+
+pieges:
+  - "Banaliser une {s:tachypnée légère} chez un nouveau-né à terme et ne pas mesurer le {t:Silverman}: la TTN peut masquer une MMH partielle ou un début de sepsis"
+  - "Oublier l'écart de {t:SpO2} pré/post-ductale — seul moyen rapide de dépister une {p:cardiopathie ductodépendante} avant l'écho"
+  - "Ventiler au masque une {p:HDC}: distension gastrique comprime le poumon sain → intubation systématique obligatoire"
+  - "Prescrire de l'O2 sans cible ({r:SpO2 90-95 % chez le prématuré}) — hyperoxie = rétinopathie et dysplasie bronchopulmonaire"
+  - "Retarder les ATB en attendant la PL si l'état du nourrisson est instable — hémoculture suffit; PL peut attendre la stabilisation"
+
+cartes_liees:
+  - SYS-PED
+  - TOOL-SILVERMAN

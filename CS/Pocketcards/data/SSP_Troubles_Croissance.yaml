@@ -1,0 +1,162 @@
+id: SSP-PED-08
+type: ssp
+title: Troubles de la croissance
+discipline: Pediatric
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Croissance.md
+
+# source: line 1-90
+anamnese:
+  socrates:
+    - |-
+      Caractérisation du trouble:
+      • taille actuelle (cm, percentile, DS)?
+      • retard {s:harmonieux} (taille+poids) ou {s:dysharmonieux} (taille > poids)?
+      • début ralentissement: âge précis, brutal ou progressif?
+    - |-
+      Évolution des courbes:
+      • cassure de couloir (> 2 lignes = {s:red flag})?
+      • vitesse de croissance actuelle (cm/an)?
+      • position vs taille cible parentale? [VÉRIFIER: formule exacte taille cible — garçon: (père+mère+13)/2 ± 8.5 cm; fille: (père+mère-13)/2 ± 8.5 cm]
+    - |-
+      Anamnèse alimentaire (cruciale si dysharmonieux):
+      • type et quantités allaitement/biberons (nourrisson)
+      • appétit, sélectivité, journal alimentaire 3 jours (> 12 mois)
+      • difficultés: régurgitations, refus, vomissements
+  specifique:
+    - |-
+      Signes endocriniens:
+      • {s:fatigue, constipation, frilosité} → {p:hypothyroïdie}?
+      • {s:hypoglycémies répétées, faciès poupin, micropénis} → {p:déficit GH}?
+      • {s:obésité centrale, vergetures pourpres} → {p:syndrome de Cushing}?
+    - |-
+      Signes digestifs:
+      • {s:diarrhée, ballonnements après gluten} → {p:maladie cœliaque}?
+      • {s:selles graisseuses, infections respiratoires à répétition} → {p:mucoviscidose}?
+      • {s:douleurs abdominales, sang dans selles} → {p:MICI}?
+    - |-
+      Signes génétiques:
+      • {s:lymphœdème néonatal, pterygium colli} → {p:Turner} (fille)?
+      • {s:hypotonie, obésité} → {p:Prader-Willi}?
+      • {s:RCIU, asymétrie corporelle} → {p:Silver-Russell}?
+    - "{s:Céphalées + troubles visuels} associés au retard de croissance → {p:tumeur hypophysaire}?"
+  atcd:
+    - |-
+      Familiaux (CRUCIAL):
+      • tailles parents (calcul taille cible parentale)
+      • âge puberté chez les parents (retard constitutionnel familial?)
+      • maladies génétiques ou endocriniennes
+    - |-
+      Périnataux:
+      • poids et taille naissance, terme, PC
+      • RCIU, prématurité, infections materno-fœtales (TORCH)
+      • hypoglycémies néonatales, jaunisse prolongée
+    - |-
+      Contexte psychosocial:
+      • conditions socio-économiques, précarité alimentaire
+      • stress familial, conflits, séparations
+      • signes de négligence ou maltraitance
+
+# source: line 92-132
+examen:
+  general:
+    - "Anthropométrie PRÉCISE: poids (kg), taille (cm), PC, IMC — reporter sur courbes OMS (< 5 ans) ou nationales"
+    - "Vitesse de croissance calculée (cm/an) — comparer aux normes: {r:25 cm/an} (0-1 an), {r:12 cm/an} (1-2 ans), {r:7 cm/an} (2-4 ans), {r:5-6 cm/an} (4-puberté)"
+    - "Proportions: taille assise/debout, envergure (dysmorphies osseuses?)"
+    - "{t:Stade pubertaire Tanner} (S1-S5, G1-G5); volume testiculaire ({t:orchidométre})"
+  cible:
+    - |-
+      Signes de malnutrition:
+      • maigreur, fonte musculaire, peau sèche
+      • {s:œdèmes} (kwashiorkor)
+      • pli cutané tricipital
+    - |-
+      Dysmorphies évocatrices:
+      • {s:cou palmé, thorax bouclier, cubitus valgus, mamelons espacés} → {p:Turner}
+      • {s:membres courts, macrocéphalie} → {p:achondroplasie}
+      • {s:faciès lunaire, bosse de bison, vergetures} → {p:Cushing}
+    - |-
+      Examen par système:
+      • thyroïde: goitre, nodules
+      • abdomen: distension (malabsorption), hépato-splénomégalie
+      • neurologique: développement psychomoteur, tonus, {s:signes HTIC} (FO, oedème papillaire)
+
+# source: line 167-215
+dd_top5:
+  - dx: "{p:Petite taille familiale}"
+    indices: "Parents petits; vitesse de croissance normale; {t:âge osseux} = âge chronologique; taille dans la cible parentale; pas de cassure de courbe"
+    freq: "très fréquent — cause bénigne, aucun bilan nécessaire"
+  - dx: "{p:Retard constitutionnel de croissance et de puberté (RCCP)}"
+    indices: "{t:Âge osseux} retardé; puberté différée; ATCD familiaux similaires (père/mère puberté tardive); rattrapage pubertaire attendu; taille adulte finale normale"
+    freq: "fréquent — bénin, bilan = âge osseux seul [VÉRIFIER: critère AO retard typique (AO = âge chronologique - 2 ans?)]"
+  - dx: "{p:Pathologie chronique} (cardiopathie, MICI, mucoviscidose, néphropathie)"
+    indices: "Retard dysharmonieux (poids < taille); AEG; signes spécifiques selon organe; CRP/VS élevées; anémie"
+    freq: "fréquent dans les retards dysharmonieux"
+  - dx: "{p:Endocrinopathie} (déficit GH, hypothyroïdie, Cushing)"
+    indices: "Déficit GH: {s:faciès poupin, hypoglycémies, micropénis}; Hypothyroïdie: {s:constipation, frilosité, retard psychomoteur}; Cushing: {s:obésité tronculaire + retard statural paradoxal}"
+    freq: "peu fréquent mais traitable — bilan: IGF-1, TSH, cortisolurie"
+  - dx: "{p:Syndrome génétique} (Turner 45,X chez fille; Noonan; Prader-Willi; Silver-Russell)"
+    indices: "Turner: {s:pterygium colli, mamelons espacés, lymphœdème}, caryotype 45,X; Noonan: cardiopathie congénitale; Silver-Russell: {s:RCIU + asymétrie}"
+    freq: "rare mais important — caryotype systématique chez toute fille petite"
+
+# source: line 134-165
+examens_complementaires:
+  - "{t:Bilan sanguin 1ère intention}: NFS, CRP, VS, ionogramme, créatinine, urée, calcium, phosphore, PAL, albumine"
+  - "{t:Bilan hormonal}: TSH + T4L (hypothyroïdie); IGF-1 + IGFBP-3 (déficit GH) [VÉRIFIER: seuils IGF-1 normaux selon âge et stade pubertaire]"
+  - "{t:Bilan digestif}: anti-transglutaminase IgA + IgA totaux (cœliaque); bandelette urinaire (protéinurie)"
+  - "{t:Âge osseux} ({t:RX poignet gauche}) — examen CLEF: différencie constitutionnel (AO retardé) vs familiale (AO normal)"
+  - "{t:Caryotype}: systématique chez toute fille petite taille (Turner 45,X)"
+  - "Si suspicion déficit GH confirmé: {t:2 tests de stimulation GH} (glucagon / insuline / arginine) + {t:IRM hypophysaire}"
+
+# source: line 242-275
+red_flags:
+  - description: "{s:Cassure brutale de courbe} (croisement > 2 couloirs) ou vélocité effondrée"
+    dx_suspecte: "{p:Tumeur cérébrale ou hypophysaire}, pathologie systémique sévère"
+    action: "IRM cérébrale + hypophysaire urgente; bilan endocrinien complet (IGF-1, cortisol, TSH); avis pédiatrie spécialisée"
+  - description: "{s:Céphalées + vomissements + troubles visuels} + retard de croissance"
+    dx_suspecte: "{p:Craniopharyngiome} ou tumeur hypophysaire"
+    action: "{t:IRM hypophysaire} urgente + FO (oedème papillaire) + bilan pan-hypopituitarisme"
+  - description: "{e:Fille} petite taille + {s:pterygium colli, mamelons espacés, lymphœdème néonatal}"
+    dx_suspecte: "{p:Syndrome de Turner (45,X)}"
+    action: "{t:Caryotype} en urgence + {t:échocardiographie} (coarctation aortique) + bilan rénal"
+  - description: "{s:Hypoglycémies répétées} + retard de croissance chez nourrisson"
+    dx_suspecte: "{p:Déficit en GH sévère} ou hypopituitarisme"
+    action: "Glycémie STAT; IGF-1, cortisol, GH sur prélèvement hypoglycémique; {t:IRM hypophysaire}; hospitalisation si hypoglycémie < {r:2.6 mmol/L}"
+  - description: "Retard staturo-pondéral + {s:ecchymoses inexpliquées, fractures, discordance anamnèse-lésions}"
+    dx_suspecte: "{p:Maltraitance / négligence}"
+    action: "Signalement ATM immédiat; bilan corps entier; hospitalisation protectrice; travail social urgent"
+
+# source: line 255-276
+pec_initiale:
+  immediate:
+    - "Vérifier les STOP red flags — tout red flag → imagerie ou bilan urgent AVANT traitement étiologique"
+    - "Calculer systématiquement la {r:taille cible parentale} et reporter l'enfant sur les courbes adaptées à l'âge"
+    - "Si {p:hypothyroïdie} confirmée: {r:lévothyroxine} (dose selon TSH et poids) — rattrapage rapide attendu"
+    - "Si {p:déficit GH} confirmé (2 tests): {r:GH recombinante 0.025-0.035 mg/kg/j SC} — jusqu'à fin croissance [VÉRIFIER: dose exacte selon recommandations pédiatriques actuelles]"
+    - "Si {p:Turner}: {r:GH recombinante} (même sans déficit GH) + {r:œstrogènes} à l'adolescence + suivi cardiologique"
+    - "Si {p:maladie cœliaque}: {r:régime sans gluten strict} à vie + éducation famille + suivi spécialisé"
+  orientation:
+    - "Suivi ambulatoire: petite taille familiale ou RCCP confirmé, courbe stable, examen normal → mesures trimestrielles"
+    - "Pédiatrie spécialisée (endocrinologie): suspicion déficit GH, Turner, pathologie endocrinienne — bilan de 2e intention"
+    - "Hospitalisation: malnutrition sévère, hypoglycémies répétées, contexte psychosocial à risque, investigation complexe"
+
+criteres_hospitalisation:
+  - "{s:Malnutrition sévère} avec risque vital (< P3 + œdèmes ou perte pondérale rapide)"
+  - "{s:Hypoglycémies récurrentes} (suspicion déficit GH / hypopituitarisme)"
+  - "Suspicion {p:tumeur hypophysaire} ou {p:craniopharyngiome} (imagerie urgente)"
+  - "Contexte {p:maltraitance / négligence} (hospitalisation protectrice)"
+  - "Échec prise en charge ambulatoire ou investigation complexe nécessaire"
+
+pieges:
+  - "Oublier les causes constitutionnelles ({r:80%} des retards!) — toujours calculer la taille cible parentale et l'âge osseux avant tout bilan extensif"
+  - "Méconnaître une {p:cassure de courbe} brutale (> 2 couloirs) comme signe de tumeur cérébrale — ne pas la banaliser comme 'petite taille familiale'"
+  - "{p:Turner}: caryotype systématique chez TOUTE fille petite taille, même sans dysmorphies évidentes — les stigmates peuvent être discrets"
+  - "Traiter sans diagnostic étiologique établi — la GH recombinante est indiquée seulement après confirmation par 2 tests de stimulation"
+  - "Oublier le contexte psychosocial et la carence affective — rattrapage de croissance en milieu favorable = diagnostic"
+
+cartes_liees:
+  - SYS-PED
+  - TOOL-COURBES-CROISSANCE

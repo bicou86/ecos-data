@@ -1,0 +1,170 @@
+id: SSP-PED-06
+type: ssp
+title: Pronation douloureuse
+discipline: Pediatric
+urgency: medium
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Pronation_Douloureuse.md
+
+# source: lines 1-102 (anamnese)
+anamnese:
+  socrates:
+    - |-
+      Site: coude (rarement avant-bras)?
+      • côté dominant ou non-dominant?
+      • douleur localisée ou diffuse?
+    - |-
+      Onset: début immédiat après traction/chute?
+      • installation brutale au moment du mécanisme?
+    - "Character: pleurs immédiats + refus d'utiliser le bras; consolable avec l'autre main?"
+    - |-
+      Time: depuis combien de temps?
+      • tentatives de mobilisation par les parents?
+      • amélioration spontanée partielle?
+    - |-
+      Exacerbating: mobilisation du bras (supination)?
+      • contact avec le coude?
+    - "Relieving: position spontanée en pronation protectrice?"
+    - "Severity: intensité des pleurs; consolable ou inconsolable?"
+  specifique:
+    - |-
+      {s:Mécanisme pathognomonique} — demander EXACTEMENT:
+      • «Un adulte a tiré l'enfant par la main/poignet?»
+      • «L'enfant allait tomber, on l'a rattrapé par le poignet?»
+      • «On le faisait tourner/balancer en le tenant par les mains?»
+      • «Passage des manches lors de l'habillage?»
+    - |-
+      {s:Position antalgique typique} décrite par les parents:
+      • bras pendant le long du corps?
+      • coude légèrement fléchi, avant-bras en pronation?
+      • main contre l'abdomen?
+    - "Refus total de mobiliser le bras depuis le traumatisme? [VÉRIFIER: durée habituelle avant consultation]"
+    - "{e:Âge de l'enfant}: entre {r:18 mois et 5 ans} (pic 2-3 ans) — confirmer tranche d'âge typique"
+    - "Épisodes antérieurs de pronation douloureuse? Même bras ou autre? Fréquence?"
+  atcd:
+    - "ATCD de fractures ou de fragilité osseuse (ostéogenèse imparfaite)?"
+    - "Développement psychomoteur: marche acquise, utilisation bimanuelle normale?"
+    - |-
+      Contexte familial:
+      • qui était présent lors du traumatisme?
+      • cohérence entre histoire et mécanisme suspecté?
+      • culpabilité parentale (très fréquente — rassurer d'emblée)
+
+# source: lines 83-244 (red_flags — section piège et examen)
+red_flags:
+  - description: "{s:Mécanisme traumatique à haute énergie} (chute de hauteur, choc direct, AVP)"
+    dx_suspecte: "{p:Fracture supracondylienne humérus} ou fracture diaphysaire"
+    action: "{t:RX coude face + profil} avant toute manœuvre; appel orthopédie pédiatrique si fracture"
+  - description: "{s:Tuméfaction franche / hématome / déformation visible ou palpable} du coude ou avant-bras"
+    dx_suspecte: "{p:Fracture} (supracondylienne, Salter-Harris, olécranienne)"
+    action: "{t:RX coude face + profil} AVANT toute tentative de réduction; ne pas manœuvrer"
+  - description: "{s:Fièvre} + articulation chaude + impotence majeure + {s:douleur à la palpation articulaire}"
+    dx_suspecte: "{p:Arthrite septique du coude}"
+    action: "Bilan biologique STAT ({t:CRP, FSC, hémocultures}); ponction articulaire urgente; orthopédie pédiatrique"
+  - description: "Histoire parentale {s:incohérente} avec le mécanisme, lésions multiples/à différents stades, retard de consultation"
+    dx_suspecte: "{p:Maltraitance} (syndrome de l'enfant maltraité)"
+    action: "{t:Bilan radiologique squelettique complet}; signalement médecin scolaire / APEA; [VÉRIFIER: protocole maltraitance CHUV/HUG]"
+  - description: "{s:Échec de réduction après 2 tentatives} avec méthodes différentes"
+    dx_suspecte: "{p:Fracture occulte} ou autre lésion ligamentaire"
+    action: "{t:RX coude face + profil} (incl. comparatif controlatéral si doute); orthopédie pédiatrique"
+
+# source: lines 105-244 (examen)
+examen:
+  general:
+    - "État général: consolable, joue avec l'autre bras? Fièvre ({t:T°})? Autres traumatismes associés?"
+    - "Inspection globale: autres ecchymoses / hématomes à distance? (→ maltraitance)"
+    - "Signes vasculaires distaux: {t:pouls radial}, coloration, temps de recoloration {r:< 3 s}, symétrie"
+  cible:
+    - |-
+      {s:Position antalgique pathognomonique} (inspection avant tout):
+      • coude fléchi ~{r:90°}, avant-bras en pronation complète
+      • main contre abdomen, bras immobile
+      • enfant protège activement le bras
+    - |-
+      Inspection du coude:
+      • absence de déformation visible (→ fracture si déformation présente)
+      • œdème absent ou minime; ecchymoses absentes
+      • {t:Triangle de Nélaton} (olécrâne-épicondyles): normal
+    - |-
+      Palpation douce (prudente):
+      • tête radiale: peut être sensible au point
+      • épicondyles, olécrâne, diaphyses: non douloureux
+      • pas de mobilité anormale, pas de crépitation
+    - |-
+      {s:Mobilité passive — CLÉ DU DIAGNOSTIC}:
+      • pronation: {r:possible et indolore}
+      • supination: {r:impossible ou très douloureuse} (blocage mécanique)
+      • flexion-extension: possible mais douloureuse
+    - "Test ludique (actif): proposer jouet/bonbon — enfant utilise UNIQUEMENT l'autre bras [VÉRIFIER: valeur prédictive du test ludique post-réduction]"
+
+# source: lines 137-152 (dd)
+dd_top5:
+  - dx: "{p:Pronation douloureuse}"
+    indices: "Âge {r:2-5 ans}, mécanisme traction axiale pathognomonique, position pronation protectrice, supination impossible, absence de déformation/œdème/fièvre"
+    freq: "très fréquent (1re cause traumatologie pédiatrique ambulatoire)"
+  - dx: "{p:Fracture supracondylienne de l'humérus}"
+    indices: "Chute paume tendue (bras tendu), douleur intense, tuméfaction rapidement progressive, déformation possible (signe de Puteau), tous âges pédiatriques"
+    freq: "fréquent — urgence orthopédique"
+  - dx: "{p:Fracture épiphysaire radius distal (Salter-Harris)}"
+    indices: "Chute poignet en extension, douleur + tuméfaction poignet (pas coude), RX parfois discrète chez enfant (cartilage)"
+    freq: "fréquent [VÉRIFIER: distinction clinique coude vs poignet]"
+  - dx: "{p:Arthrite septique du coude}"
+    indices: "Fièvre, articulation chaude + rouge + tuméfiée, impotence totale, douleur à la palpation articulaire, CRP/FSC élevés"
+    freq: "rare mais urgence chirurgicale"
+  - dx: "{p:Maltraitance}"
+    indices: "Mécanisme incohérent, retard de consultation, lésions multiples à différents stades, comportement de l'enfant atypique, ATCD répétés"
+    freq: "rare mais à éliminer systématiquement"
+
+# source: lines 248-275 (examens complémentaires)
+examens_complementaires:
+  - "PAS de {t:RX} si: mécanisme typique + âge {r:2-5 ans} + tableau classique + réduction réussie"
+  - "{t:RX coude face + profil}: mécanisme atypique, âge {r:< 18 mois ou > 6 ans}, déformation, œdème, échec réduction ×2"
+  - "{t:RX comparatif controlatéral}: doute sur épiphyse (ossification variable selon âge) [VÉRIFIER: âge standard apparition centres ossification coude]"
+  - "{t:Bilan biologique (CRP, FSC, hémocultures)}: suspicion arthrite septique"
+  - "{t:Bilan radiologique squelette complet}: suspicion maltraitance"
+
+# source: lines 282-358 (pec)
+pec_initiale:
+  immediate:
+    - "Réduction SANS antalgie préalable (masquerait les signes de succès) [VÉRIFIER: pratique CHUV/HUG sur antalgie pré-manœuvre]"
+    - |-
+      {r:Méthode 1 — Hyperpronation} (RECOMMANDÉE, moins douloureuse):
+      • main gauche: pouce sur tête radiale, saisit le coude
+      • main droite: saisit le poignet fermement
+      • geste: pronation forcée rapide → maintenir {r:15-20 s}
+      • succès: «clic» palpable + soulagement immédiat
+    - |-
+      {r:Méthode 2 — Flexion-supination} (classique):
+      • même prise qu'hyperpronation
+      • temps 1: flexion coude 90° → 150°
+      • temps 2: supination forcée rapide en un geste fluide → maintenir {r:15-20 s}
+    - "Vérifier le succès: test ludique (objet attractif), utilisation spontanée du bras en {r:10-15 min}"
+    - "Échec: changer de méthode; maximum {r:2-3 tentatives}; si échec persistant → RX + orthopédie"
+  orientation:
+    - "Domicile direct si réduction réussie + récupération fonctionnelle confirmée + parents informés"
+    - "Observation {r:15-30 min} post-réduction; contrôle à 24-48h si douleur résiduelle ou récidive rapide"
+    - "Urgences / orthopédie pédiatrique: RX positive, échec réduction, suspicion maltraitance"
+    - |-
+      Conseils prévention (OBLIGATOIRES — 15% ECOS):
+      • ne jamais tirer/soulever par les mains ou poignets
+      • saisir sous les aisselles ou l'avant-bras
+      • récidives {r:15-30%}, diminuent après {r:5 ans}
+
+criteres_hospitalisation:
+  - "Fracture confirmée à la RX → orthopédie pédiatrique"
+  - "Arthrite septique suspectée → chirurgie pédiatrique (ponction articulaire urgente)"
+  - "Suspicion maltraitance → protection de l'enfant + bilan complet"
+  - "Échec réduction après 2-3 tentatives avec RX anormale"
+
+pieges:
+  - "Demander des RX systématiques si présentation typique — inutile et irradiant; RX uniquement si doute ou échec"
+  - "Administrer antalgie avant réduction — masque les signes de succès (le «clic» et le comportement)"
+  - "Ne PAS vérifier fonctionnellement après réduction (test ludique obligatoire avant libération)"
+  - "Culpabiliser les parents — accident quotidien, mécanisme involontaire; les rassurer d'emblée"
+  - "Méconnaître la maltraitance si histoire incohérente — toujours confronter mécanisme décrit et lésions observées"
+
+cartes_liees:
+  - SYS-PED
+  - SSP-PED-07

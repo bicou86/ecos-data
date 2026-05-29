@@ -1,0 +1,171 @@
+id: SSP-PED-09
+type: ssp
+title: Troubles du développement
+discipline: Pediatric
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Troubles_Développement.md
+
+# source: line 9-82 (milestones + signaux d'alarme)
+anamnese:
+  socrates:
+    - |-
+      Motif / plainte principale:
+      • qui consulte — parents, école, PMI?
+      • depuis quand le souci est-il noté?
+      • une compétence a-t-elle été PERDUE (régression)?
+    - |-
+      Domaines à préciser:
+      • {s:motricité globale} (marche, équilibre, escaliers)
+      • {s:motricité fine} (pince, dessin, puzzle)
+      • {s:langage/communication} (mots, phrases, compréhension)
+      • {s:cognitif} (imitation, jeu symbolique, autonomie)
+      • {s:socialisation/affectif} (regard, sourire, jeu partagé)
+    - |-
+      Milestones — âges-clés à vérifier:
+      • tête tenue 3 mois / station assise {r:6-9 mois}
+      • marche {r:9-18 mois} / 1er mot {r:12 mois}
+      • phrases 2 mots {r:24 mois} / propreté diurne {r:36 mois}
+    - "Sévérité: retentissement école / famille / AVQ? Intensité subjective des parents?"
+    - "Évolution: progressive / stable / fluctuante?"
+  specifique:
+    - |-
+      Dépistage TSA ({p:M-CHAT-R} 16-30 mois):
+      • réponse au prénom (12 mois)?
+      • pointage proto-déclaratif (14 mois)?
+      • jeu symbolique 'faire-semblant' (18 mois)?
+      • contact visuel, sourire social, réciprocité?
+      • stéréotypies / routines rigides?
+    - |-
+      TDAH (DSM-5):
+      • inattention / impulsivité / agitation depuis {r:< 12 ans}?
+      • présent dans ≥ {r:2 contextes} (maison + école)?
+      • retentissement fonctionnel significatif?
+    - |-
+      Troubles spécifiques (dys-):
+      • difficultés lecture, écriture ou calcul isolées?
+      • QI globalement normal par ailleurs?
+    - "Audition: otites répétées, réponse aux sons, réponse au prénom? [VÉRIFIER: seuil d'indication PEAA selon âge et protocole local]"
+    - "Vision: suivi visuel, strabisme, acuité?"
+  atcd:
+    - |-
+      Grossesse / périnatal:
+      • infections TORCH, toxiques (alcool, drogues)
+      • prématurité, asphyxie, ictère nucléaire, hypoglycémie sévère
+    - "ATCD familiaux: consanguinité, retard intellectuel, TSA, X fragile, épilepsie"
+    - "Développement antérieur: carnet de santé, anciens bilans (kiné, logo, psychomotricité)"
+    - |-
+      Environnement:
+      • langue(s) parlée(s) à la maison (bilinguisme ≠ retard pathologique)
+      • stimulation, maltraitance, négligence suspectée?
+    - "Vaccinations à jour? Pathologies intercurrentes? Médicaments?"
+
+# source: line 67-82 + pivots red flags critiques
+red_flags:
+  - description: "{s:Régression des acquis} — perte d'une compétence définitivement acquise (marche, mots)"
+    dx_suspecte: "{p:Syndrome neurodégénératif} (Rett, Heller, leucodystrophie, métabolique)"
+    action: "IRM cérébrale + EEG + bilan métabolique (lactate, ammoniaque, acides aminés) + génétique URGENT; avis neuropédiatrie"
+  - description: "{s:Absence réponse prénom + pas de pointage + stéréotypies} avant 18 mois"
+    dx_suspecte: "{p:Trouble du spectre autistique (TSA)}"
+    action: "{t:M-CHAT-R} immédiat; si ≥ 3/20 → bilan PEAA + évaluation multidisciplinaire TSA (ADOS-2); ne pas 'attendre'"
+  - description: "{s:Microcéphalie progressive} (PC < -2 DS avec décélération sur courbe)"
+    dx_suspecte: "{p:Encéphalopathie progressive} / Rett (fille + mutation MECP2) / TORCH"
+    action: "IRM cérébrale + bilan TORCH + caryotype/CGH-array + avis génétique URGENT [VÉRIFIER: seuil PC exact selon référentiel OMS vs courbes nationales]"
+  - description: "{s:Convulsions associées} au retard développemental"
+    dx_suspecte: "{p:Encéphalopathie épileptique} (West, Lennox-Gastaut, métabolique)"
+    action: "{t:EEG} URGENT + IRM cérébrale + bilan métabolique; hospitalisation si crises non contrôlées"
+  - description: "{s:Signes de maltraitance/négligence sévère} (retard inexpliqué + contexte social précaire + lésions)"
+    dx_suspecte: "{p:Privation environnementale} / syndrome de l'enfant maltraité"
+    action: "Bilan social complet + {r:signalement obligatoire} (cellule de protection de l'enfance); hospitalisation si danger immédiat"
+
+# source: line 116-149 + 390-426
+examen:
+  general:
+    - "Signes vitaux: FC, FR, T°, poids, taille, {s:périmètre crânien (PC)} sur courbe — tendance +++ [VÉRIFIER: courbes de référence recommandées en Suisse — OMS vs Prader]"
+    - "Carnet de santé: courbes de croissance, vaccinations, bilans antérieurs"
+    - "Comportement lors de la consultation: contact avec examinateur, jeu spontané, interaction parents"
+    - "Aspect général: dysmorphie évidente (trisomie 21, X fragile)?"
+  cible:
+    - |-
+      Neurologique pédiatrique:
+      • tonus (hypotonie axiale — signe X fragile, trisomie 21, Prader-Willi)
+      • réflexes ostéo-tendineux, signe de Babinski
+      • coordination, démarche, montée escaliers
+    - |-
+      Dysmorphie systématique:
+      • PC / morphologie crâne / oreilles / yeux / palais
+      • taches café-au-lait (neurofibromatose)
+      • organomégalie (maladies lysosomales)
+    - |-
+      {t:Denver II} ou équivalent (dépistage 0-6 ans):
+      • 4 domaines: motricité globale/fine, langage, perso-social
+      • résultat: normal / suspect / retard
+    - |-
+      Dépistage TSA (observation directe):
+      • contact visuel, sourire réciproque, pointage, imitation
+      • stéréotypies motrices, intérêts restreints
+    - "Audition: test de dépistage (OEA, PEAA si doute); vision: acuité, strabisme, réflexe photomoteur"
+    - "Peau: taches cutanées (neurofibromatose, sclérose tubéreuse)"
+
+# source: line 84-89 + 166-216 + 241-273
+dd_top5:
+  - dx: "{p:Retard global de développement / Déficience intellectuelle}"
+    indices: "QI < 70 + atteinte ≥ 2 domaines + début < 18 ans (DSM-5); avant 5 ans = retard global de développement; prévalence 1-3%; bilan étiologique: CGH-array, X fragile, IRM"
+    freq: "1-3% des enfants"
+  - dx: "{p:Trouble du spectre autistique (TSA)}"
+    indices: "Triade: déficit interaction sociale + communication + comportements restreints/répétitifs; M-CHAT-R ≥ 3 → évaluation; ADOS-2 + ADI-R pour confirmation; 1 garçon / 4 filles"
+    freq: "1-2% (prévalence croissante)"
+  - dx: "{p:TDAH}"
+    indices: "Inattention et/ou hyperactivité-impulsivité ≥ 6 symptômes × 6 mois; début < 12 ans; ≥ 2 milieux; retentissement fonctionnel; questionnaires Conners/SNAP-IV indispensables"
+    freq: "5-8% des enfants d'âge scolaire"
+  - dx: "{p:Troubles spécifiques des apprentissages (dys-)}"
+    indices: "Dyslexie / dyscalculie / dysgraphie / dysphasie; QI NORMAL avec dissociation dans un domaine; diagnostic après {r:2 ans} de scolarisation; bilan psychométrique WISC-V + orthophonie"
+    freq: "5-15% selon trouble"
+  - dx: "{p:Retard simple / transitoire}"
+    indices: "Retard isolé 1 domaine, pas de régression, pas de dysmorphie, contexte (prématurité, bilinguisme, stimulation insuffisante); rattrapage spontané si stimulation adaptée — diagnostic d'élimination"
+    freq: "fréquent, bénin"
+
+# source: line 151-165 + 217-230 + 301-328
+pec_initiale:
+  immediate:
+    - "1. Éliminer RED FLAGS: régression, microcéphalie progressive, convulsions → bilan urgent"
+    - "2. Évaluation audition SYSTÉMATIQUE ({t:PEAA} ou OEA) — cause traitable fréquente et réversible"
+    - "3. Orientation vers équipe multidisciplinaire: pédiatre développement + psychomotricien + orthophoniste + psy"
+    - "TDAH ≥ 6 ans: {r:méthylphénidate 0.3-1 mg/kg/j} (courte ou longue action) si échec mesures non-pharm.; surveiller poids, taille, TA, FC [VÉRIFIER: posologie pédiatrique selon poids exact et formulation disponible en Suisse]"
+    - "TSA: approche ABA / TEACCH / Denver Model — pas de traitement médicamenteux curatif; rispéridone si agressivité sévère"
+  orientation:
+    - "Domicile + médecin traitant: retard léger isolé, pas de red flag, bilan auditif/visuel normal → réévaluation 3 mois"
+    - "Centre de développement pédiatrique / neuropédiatrie: retard global ≥ 2 domaines, suspicion TSA, régression, épilepsie"
+    - "Signalement (cellule protection enfance): si maltraitance/négligence avérée ou suspectée"
+    - "Soutien familial: psychoéducation, groupes soutien, aide sociale/financière, répit parental"
+
+# source: line 138-149
+examens_complementaires:
+  - "{t:Bilan auditif} (PEAA ou OEA): SYSTÉMATIQUE devant tout retard langage ou développement"
+  - "{t:CGH-array} (micropuces chromosomiques): retard global + dysmorphie ou cause inconnue — 1ère intention [VÉRIFIER: disponibilité et délai CHUV/HUG]"
+  - "{t:IRM cérébrale}: régression des acquis, microcéphalie progressive, épilepsie, signes neurologiques focaux"
+  - "{t:EEG}: suspicion épilepsie, régression des acquis"
+  - "{t:TSH + T4, CPK, plombémie, ferritine}: bilan systématique 1ère ligne (hypothyroïdie, myopathie, saturnisme, carence fer)"
+  - "{t:Bilan métabolique} (lactate, ammoniaque, acides aminés sanguins): si suspicion maladie métabolique ou régression"
+
+# source: pivots red flags + MD line 91-105
+criteres_hospitalisation:
+  - "Régression des acquis documentée → bilan urgent (IRM + métabolique) en milieu hospitalier"
+  - "Convulsions associées non contrôlées"
+  - "Suspicion maltraitance / danger immédiat pour l'enfant"
+  - "Microcéphalie progressive avec signes neurologiques évolutifs"
+  - "Décompensation comportementale sévère (auto/hétéro-agressivité non gérable en ambulatoire)"
+
+pieges:
+  - "Attendre pour le TSA: 'il va rattraper' — chaque mois perdu = plasticité perdue; intervention avant {r:3 ans} = meilleur pronostic"
+  - "Confondre bilinguisme / faible stimulation avec retard pathologique → chercher TOUS les domaines, pas seulement le langage"
+  - "Négliger le bilan auditif: une surdité bilatérale moderate simuler un retard global — le PEAA est obligatoire"
+  - "Diagnostiquer un TSA sans bilan auditif + génétique préalable (X fragile chez garçon, Rett chez fille)"
+  - "Banaliser une régression (perte d'un acquis) comme 'phase normale' — TOUJOURS pathologique → bilan d'urgence"
+
+cartes_liees:
+  - SYS-PED
+  - TOOL-DENVER
+  - TOOL-MCHAT

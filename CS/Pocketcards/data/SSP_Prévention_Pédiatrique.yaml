@@ -1,0 +1,177 @@
+id: SSP-PED-07
+type: ssp
+title: Prévention pédiatrique
+discipline: Pediatric
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Prévention_Pédiatrique.md
+
+# source: task brief + MD lines 16-55 + OFSP calendrier vaccinal suisse
+anamnese:
+  socrates:
+    - |-
+      Visite préventive actuelle:
+      • quelle visite? (J1 / J7 / 1 / 2 / 4 / 6 / 9 / 12 / 18 / 24 mois / annuel)
+      • motif amené par les parents?
+      • carnet de santé disponible?
+    - |-
+      Croissance & nutrition:
+      • poids / taille / PC à chaque visite — sur courbes {t:WHO 0-5 ans} puis {t:CDC}
+      • allaitement maternel (exclusif ≥ 6 mois recommandé)?
+      • diversification introduite entre {r:4-6 mois}?
+      • supplémentation {r:vit D 400 UI/j} de 0 à 3 ans et {r:vit K néonatale}?
+    - |-
+      Développement psychomoteur:
+      • sourire social ({r:≥ 6 semaines}), tenue de tête ({r:3-4 mois})
+      • position assise ({r:9 mois}), marche ({r:15-18 mois})
+      • premier mot ({r:12 mois}), 2 mots combinés ({r:24 mois})
+      • utilise les 2 mains symétriquement?
+    - |-
+      Vaccinations (calendrier OFSP):
+      • DTPa-IPV-Hib-HBV-PCV13 à {r:2 / 4 / 12 mois} [VÉRIFIER: schéma 2+1 vs 3+1 selon cohorte]
+      • ROR à {r:9 mois et 12 mois}
+      • méningo C à {r:12 mois}
+      • HPV dès {r:11-26 ans}
+      • carnet à jour?
+  specifique:
+    - |-
+      Prévention mort subite du nourrisson (MSN):
+      • position de sommeil ({s:décubitus dorsal exclusif})?
+      • partage du lit, alcool/tabac dans l'environnement?
+      • température chambre ({r:16-20 °C})?
+      • smoking status des parents (tabagisme passif)?
+    - |-
+      Sécurité / prévention accidents:
+      • siège auto homologué, sens de la route?
+      • piscine, baignoire (surveillance constante)?
+      • produits ménagers / médicaments accessibles?
+      • casque vélo dès la marche?
+    - "Dépistages réalisés: Guthrie ({r:J2-5}), dépistage auditif (OEAA/PEAA), examen ophtalmo répété?"
+    - "Santé bucco-dentaire: brossage dès premières dents, fluor?"
+  atcd:
+    - |-
+      ATCD familiaux pertinents:
+      • MSN dans la fratrie
+      • maladies métaboliques / génétiques
+      • surdité familiale
+      • troubles du développement / autisme
+    - "Grossesse et accouchement: terme ({e:prématurité < 37 SA}?), poids de naissance, score d'Apgar, soins néonataux particuliers?"
+    - "ATCD médicaux de l'enfant: hospitalisations, maladies chroniques, allergie?"
+    - "Situation familiale / sociale: monoparentalité, précarité, ressources parentales, signes de surmenage?"
+
+# source: task brief red flags + MD lines 64-70
+red_flags:
+  - description: "{s:Retard développement} : pas de tenue assise à 9 mois, pas de marche à 18 mois, pas de 1er mot à 18 mois, ou perte d'une compétence acquise"
+    dx_suspecte: "{p:Trouble développement, TSA, pathologie neurologique}"
+    action: "Bilan développemental pédiatrique + référence neuropédiatrie; IRM si régression"
+  - description: "{s:Lésions cutanées inexpliquées} (hématomes multiples, brûlures, fractures) + version parentale incohérente + retard à la consultation"
+    dx_suspecte: "{p:Maltraitance / syndrome de l'enfant battu}"
+    action: "Bilan radiologique squelettique + FO + avis pédiatrie urgente; signalement si suspicion confirmée"
+  - description: "{s:Tachypnée persistante}: > 50/min < 1 an, > 40/min > 1 an, avec signes de détresse respiratoire"
+    dx_suspecte: "{p:Pneumonie bactérienne / bronchiolite sévère}"
+    action: "{r:Amoxicilline 80 mg/kg/j en 2 doses × 7 j} si > 3 mois sans signe de gravité; hospitalisation si détresse sévère [VÉRIFIER: seuils d'hospitalisation selon âge et SaO2]"
+  - description: "{s:Fièvre + pétéchies / purpura} non décolorable à la pression"
+    dx_suspecte: "{p:Méningococcémie / purpura fulminans}"
+    action: "{r:Ceftriaxone 100 mg/kg IV/IM} IMMÉDIAT avant bilan; appel urgences SAMU; chimioprophylaxie entourage"
+  - description: "{s:Fontanelle bombée} + fièvre + irritabilité / {s:torticolis} + photophobie"
+    dx_suspecte: "{p:Méningite bactérienne du nourrisson}"
+    action: "Antibiothérapie IV urgente ({r:ceftriaxone 100 mg/kg/j}) + PL après stabilisation; hospitalisation USI pédiatrique"
+  - description: "{e:BMI > 97e percentile} avec accélération inhabituelle de la courbe pondérale ou {s:apnées du sommeil} chez un enfant"
+    dx_suspecte: "{p:Obésité précoce} + comorbidités (SAHOS, dyslipidémie, NAFLD)"
+    action: "Counseling diététique précoce + activité physique; bilan lipidique + glycémie à jeun [VÉRIFIER: seuil d'âge pour bilan métabolique selon guidelines CH]"
+  - description: "Pâleur progressive, fatigabilité, glossite, ralentissement croissance chez nourrisson avec allaitement prolongé sans diversification"
+    dx_suspecte: "{p:Carence martiale / anémie ferriprive}"
+    action: "{t:NFS + ferritine + CRP}; {r:supplémentation fer 3-6 mg/kg/j} si confirmée [VÉRIFIER: dosage fer oral pédiatrique par tranche d'âge]"
+
+# source: MD lines 16-55 + task brief
+examen:
+  general:
+    - "Signes vitaux: FC, FR, T°, SaO2, TA (dès 3 ans); courbes OMS/CDC poids / taille / PC tracées et interprétées"
+    - "Aspect général: état nutritionnel, tonus, couleur (pâleur, ictère), humeur/interaction"
+    - "Carnet de santé: vérification vaccinations à jour, courbes antérieures, dépistages"
+  cible:
+    - |-
+      Examen développemental structuré selon l'âge:
+      • motricité globale (retournement, station assise, marche)
+      • motricité fine (pince pouce-index, construction, dessin)
+      • langage (vocalises, mots, phrases)
+      • sociabilité (contact visuel, jeu symbolique, interaction parents)
+    - |-
+      Examen neurologique:
+      • tonus axial et périphérique
+      • réflexes archaïques (< 4 mois)
+      • asymétrie des membres?
+      • fontanelle antérieure (ouverte jusqu'à {r:18-24 mois})
+    - |-
+      Dépistages ciblés selon visite:
+      • audition: OEAA/PEAA en maternité; test comportemental à 9 mois et 4-5 ans
+      • vision: réflexe photo-pupillaire, reflet cornéen, strabisme (couverture), acuité à 3-4 ans
+      • hanches: manœuvres Ortolani/Barlow jusqu'à marche acquise
+      • testicules: descente bilatérale
+    - "Examen ORL: otoscope (otite séreuse?), pharynx; auscultation cardio-pulmonaire; palpation abdominale"
+    - "Peau: taches café-au-lait (neurofibromatose?), hémangiomes, lésions suspectes → noter et documenter"
+
+# source: task brief dd_top5 (5 axes préventifs prioritaires)
+dd_top5:
+  - dx: "{p:Retard de développement psychomoteur}"
+    indices: "Milestones non atteints selon l'âge, asymétrie motrice, perte de compétences, ATCD prématurité ou hypoxie néonatale; TSA si isolement social + stéréotypies"
+    freq: "5-10 % des enfants (toutes causes)"
+  - dx: "{p:Carence nutritionnelle (fer, vit D, iode)}"
+    indices: "Allaitement exclusif prolongé > 6 mois sans supplémentation, diversification tardive, obésité, pâleur, cassure de courbe"
+    freq: "Carence en fer : 20-30 % nourrissons en CH"
+  - dx: "{p:Maladie dépistable néonatale (Guthrie)}"
+    indices: "Hypothyroïdie congénitale, phénylcétonurie, mucoviscidose, hyperplasie congénitale des surrénales — asymptomatiques à la naissance → dépistage J2-5 obligatoire CH"
+    freq: "1/800-3000 selon pathologie"
+  - dx: "{p:Infection récurrente / immunodéficience}"
+    indices: "> 8 OMA/an, > 2 pneumonies/an, infections opportunistes, candidose persistante, pas de prise de poids malgré alimentation correcte"
+    freq: "Immunodéficience primitive : 1/2000"
+  - dx: "{p:Trouble de la relation parents-enfant / maltraitance}"
+    indices: "Interactions pauvres, mère avec dépression du post-partum, famille isolée, lésions inexpliquées, disparité entre version et lésions, consultations tardives répétées"
+    freq: "3-5 % des enfants exposés à une forme de maltraitance"
+
+# source: task brief pec + OFSP calendrier
+pec_initiale:
+  immediate:
+    - |-
+      Counseling préventif à chaque visite (5 axes):
+      • vaccinations selon calendrier OFSP — vérifier et administrer si retard
+      • alimentation adaptée à l'âge ({r:allaitement ≥ 6 mois}, diversification {r:4-6 mois}, vit D {r:400 UI/j} jusqu'à 3 ans)
+      • prévention MSN: décubitus dorsal, chambre séparée {r:16-20 °C}, pas de tabac
+      • sécurité: siège auto, surveillance piscine, casque, produits ménagers hors de portée
+      • stimulation développementale: lecture, jeu, limites écrans < 2 ans
+    - "Red flag développement → référence neuropédiatrie sans délai; ne pas 'attendre encore 3 mois'"
+    - "Suspicion maltraitance → pédiatrie urgence + documentation photographique des lésions + signalement selon procédure cantonale"
+    - "Retard vaccinal → rattrapage selon calendrier OFSP; ne pas contre-indiquer une vaccination sans indication formelle"
+  orientation:
+    - "Suivi pédiatrique régulier: J1 / J7 / 1 / 2 / 4 / 6 / 9 / 12 / 18 / 24 mois puis annuel"
+    - "Pédiatrie urgence: tout red flag (purpura, détresse respiratoire, méningisme, maltraitance suspectée)"
+    - "Spécialiste ambulatoire: retard développement (neuropédiatrie), strabisme (ophtalmo), surdité (ORL/audio)"
+    - "Médecin de famille / SSEP (service social): surmenage parental, précarité, dépression post-partum"
+
+examens_complementaires:
+  - "{t:Dépistage Guthrie} (TSH, phénylalaninémie, IRT mucoviscidose, 17-OHP, etc.): J2-5 obligatoire CH — {r:16 maladies dépistées}"
+  - "{t:OEAA + PEAA}: dépistage auditif néonatal universel; répéter si échec ou suspicion à 9 mois / 4-5 ans"
+  - "{t:NFS + ferritine + CRP}: suspicion carence martiale (nourrisson allaité > 6 mois, pâleur)"
+  - "{t:TSH + T4L}: cassure de courbe pondérale + bradycardie + constipation → hypothyroïdie secondaire"
+  - "{t:Bilan lipidique + glycémie à jeun}: obésité (BMI > 97e p) dès l'âge scolaire [VÉRIFIER: âge minimal recommandé en CH]"
+  - "Imagerie squelettique ('babygram') + {t:fond d'oeil}: suspicion syndrome de l'enfant battu"
+
+criteres_hospitalisation:
+  - "{p:Purpura fulminans} / méningococcémie → USI pédiatrique IMMEDIAT"
+  - "Détresse respiratoire sévère (SaO2 < 92 %, tirage marqué, signes d'épuisement)"
+  - "Suspicion maltraitance avec lésions actives ou danger immédiat pour l'enfant"
+  - "Déshydratation > 10 % ou refus alimentaire chez < 3 mois"
+  - "Convulsion fébrile complexe ou déficit neurologique aigu"
+
+pieges:
+  - "Rassurer trop vite sur un retard de développement ('il rattrapera') — un milestone manqué à 18 mois (marche, mot) justifie bilan sans délai"
+  - "Oublier la {p:dépression du post-partum} maternelle comme facteur de risque de négligence et de trouble de l'attachement — interroger systématiquement"
+  - "Banaliser les infections ORL récurrentes — > 8 OMA/an ou > 2 pneumonies/an → bilan immunologique [VÉRIFIER: seuils exacts selon guidelines]"
+  - "Contre-indiquer à tort une vaccination (URTI légère, fièvre < 38.5 °C, allaitement ne sont PAS des contre-indications)"
+  - "Sous-estimer l'obésité précoce: pas d'action = opportunité manquée; les habitudes se fixent avant 5 ans"
+
+cartes_liees:
+  - SSP-PED-01
+  - SYS-PED

@@ -1,0 +1,188 @@
+id: SSP-PED-11
+type: ssp
+title: Énurésie nocturne
+discipline: Pediatric
+urgency: low
+version: 2026-05-28
+status: draft
+sources:
+  - CS/02_SSP/SSP_Enurésie_Nocturne.md
+
+# source: MD lines 1-113 / JSON anamnese_raw categories 1-6
+anamnese:
+  socrates:
+    - |-
+      Site / Type:
+      • fréquence (nuits/semaine)?
+      • quantité (draps trempés ou humides)?
+      • horaire (début/milieu/fin de nuit)?
+    - |-
+      Onset:
+      • {s:primaire} = jamais continent la nuit > {r:6 mois}?
+      • {s:secondaire} = rechute après période sèche ≥ {r:6 mois}?
+      • durée totale du problème?
+    - "Évolution: stable, amélioration ou aggravation progressive?"
+    - |-
+      Continence diurne ⚠️ clé pour dysfonction vésicale:
+      • continence diurne complète?
+      • {s:urgences mictionnelles} diurnes / {s:fuites diurnes}?
+      • manœuvres de retenue (danser, croiser les jambes)?
+      • fréquence mictionnelle normale ({r:5-7/jour})?
+    - |-
+      Troubles du transit ⚠️ constipation fréquente:
+      • fréquence des selles (normale {r:≥ 3/semaine})?
+      • consistance (échelle de Bristol)?
+      • {s:encoprésie} associée?
+  specifique:
+    - |-
+      Troubles du sommeil:
+      • {s:ronflements / apnées} nocturnes (→ {p:SAOS})?
+      • sommeil profond, difficile à réveiller?
+      • somnambulisme, terreurs nocturnes?
+    - |-
+      Symptômes généraux orientant vers cause organique:
+      • {s:soif excessive + polyurie diurne} (→ {p:diabète})?
+      • {s:dysurie + brûlures mictionnelles} (→ {p:infection urinaire})?
+      • fatigue diurne, troubles comportementaux?
+    - |-
+      Facteurs déclenchants (énurésie secondaire):
+      • événements stressants: divorce, déménagement, naissance fratrie, changement école?
+      • {s:abus sexuels} (aborder délicatement si secondaire sans facteur évident)?
+    - "Impact psychologique: gêne, estime de soi, évite soirées pyjama, performances scolaires?"
+    - |-
+      Réactions parentales ⚠️ approche non culpabilisante:
+      • attitude compréhensive ou punitive?
+      • niveau de stress parental?
+  atcd:
+    - "ATCD familiaux ⚠️ hérédité forte: parents / fratrie / oncles atteints? ({r:70%} si 2 parents, {r:40%} si 1 parent)"
+    - |-
+      ATCD personnels:
+      • infections urinaires antérieures / récidivantes?
+      • constipation chronique?
+      • développement psychomoteur normal?
+      • traumatismes périnéaux?
+    - "Mesures déjà tentées: restriction hydrique le soir, réveil programmé, alarme d'énurésie (efficacité?), desmopressine?"
+
+# source: MD lines 261-267 / ICCS 2014 pivots
+red_flags:
+  - description: "{s:Énurésie secondaire} sans facteur psychologique évident (context calme, pas d'événement de vie)"
+    dx_suspecte: "{p:Infection urinaire, diabète, diabète insipide} — cause organique à exclure en priorité"
+    action: "{t:Bandelette urinaire + ECBU} STAT; {t:glycémie} à jeun; si polyurie franche → {t:osmolalité urinaire/plasmatique}"
+  - description: "{s:Soif excessive + polyurie diurne + perte de poids} associée à l'énurésie"
+    dx_suspecte: "{p:Diabète sucré (type 1)}"
+    action: "{t:Glycémie capillaire} immédiate; si {r:glycémie > 11 mmol/L} → urgences pédiatriques"
+  - description: "{s:Ronflements nocturnes + pauses respiratoires + fatigabilité diurne}"
+    dx_suspecte: "{p:Syndrome d'apnées obstructives du sommeil (SAOS)}"
+    action: "Adresser {r:ORL pédiatrique} pour évaluation adénoïdes/amygdales; {t:polygraphie nocturne} si doute"
+  - description: "{s:Énurésie + encoprésie + constipation chronique sévère}"
+    dx_suspecte: "{p:Dysfonction vésico-intestinale} / {p:Mégacôlon fonctionnel}"
+    action: "Traitement constipation en 1ère intention (PEG + fibres); réévaluation à {r:4-6 semaines} avant toute thérapie énurésie"
+  - description: "{s:Fossette sacrale / touffe de poils / asymétrie fessière} + déficit neurologique périnéal"
+    dx_suspecte: "{p:Spina bifida occulta / moelle attachée}"
+    action: "{t:IRM lombosacrée} urgente; {r:adresser neuropédiatrie + urologie pédiatrique}"
+  - description: "{s:Énurésie + symptômes diurnes importants} (urgenturie, fuites, augmentation/diminution fréquence)"
+    dx_suspecte: "{p:Vessie hyperactive / dysfonction vésicale non mono-symptomatique}"
+    action: "{t:Échographie rénale + vésicale + résidu post-mictionnel}; {t:calendrier mictionnel 48h}; {r:adresser urologie pédiatrique}"
+
+# source: MD lines 117-153 / JSON examen_raw
+examen:
+  general:
+    - "Poids, taille, IMC (courbes de croissance), TA (si suspicion pathologie rénale)"
+    - "État général, développement psychomoteur, puberté"
+  cible:
+    - |-
+      Abdomen:
+      • {s:globe vésical} (palpation sus-pubienne)?
+      • {s:matières fécales palpables} (constipation)?
+      • sensibilité fosses lombaires?
+    - |-
+      Périnée ⚠️ recherche malformations:
+      • fille: synéchies, position méat, irritation vulvaire
+      • garçon: phimosis, hypospadias, cryptorchidie
+    - |-
+      Examen neurologique sacré:
+      • {s:fossette / pilosité / dépression sacrée} → spina bifida occulta?
+      • sensibilité périnéale (S2-S4)?
+      • tonus sphincter anal (si suspicion neurologique)?
+      • réflexes cutanés abdominaux?
+    - "Marche, coordination (ataxie?), réflexes ostéo-tendineux 4 membres"
+
+# source: MD lines 160-168 / JSON pec_raw categories 1-2
+examens_complementaires:
+  - "{t:Bandelette urinaire} (leucocytes, nitrites, protéines): SYSTÉMATIQUE ⚠️ [VÉRIFIER: obligatoire 1ère consultation vs sélectif CHUV/HUG]"
+  - "{t:ECBU}: si bandelette positive ou anomalie"
+  - "{t:Glycémie à jeun}: si polyurie / soif excessive / perte de poids [VÉRIFIER: indication glycémie systématique vs ciblée selon ICCS]"
+  - "{t:Échographie rénale + vésicale + résidu post-mictionnel}: si symptômes diurnes, infections récidivantes ou échec 1ère ligne"
+  - "{t:IRM lombosacrée}: si signes neurologiques, fossette sacrée, spina bifida occulta suspecté"
+  - "{t:Polygraphie nocturne}: si suspicion {p:SAOS} (ronflements + pauses)"
+
+# source: MD lines 170-178 / ICCS 2014 classification pivots
+dd_top5:
+  - dx: "{p:Énurésie primaire mono-symptomatique}"
+    indices: "Jamais continent la nuit, ATCD familiaux positifs, continence diurne parfaite, développement normal; mécanismes: polyurie nocturne (↓ ADH nuit), capacité vésicale réduite, défaut d'éveil"
+    freq: "très fréquent (80 % des énurésies, 15-20 % des enfants à 5 ans)"
+  - dx: "{p:Énurésie secondaire d'origine psychologique}"
+    indices: "Rechute après ≥ 6 mois de propreté; facteur déclenchant identifiable (naissance fratrie, divorce, changement école, hospitalisation); évaluation psychologique positive"
+    freq: "fréquent (20 % des énurésies secondaires)"
+  - dx: "{p:Dysfonction vésicale / vessie hyperactive}"
+    indices: "Urgenturie + impériosité + petites mictions fréquentes + fuites diurnes; manœuvres de retenue; infections récidivantes; constipation souvent associée → NON mono-symptomatique"
+    freq: "fréquent si symptômes diurnes associés"
+  - dx: "{p:Infection urinaire}"
+    indices: "Dysurie, urgenturie, ± fièvre; bandelette positive (leucocytes + nitrites); cause #1 d'énurésie secondaire organique à éliminer systématiquement"
+    freq: "fréquent comme déclencheur secondaire"
+  - dx: "{p:Diabète sucré type 1}"
+    indices: "Polyurie nocturne + soif excessive + amaigrissement + fatigue; glycémie > 11 mmol/L; polyurie diurne aussi présente"
+    freq: "rare mais urgence à ne pas manquer"
+
+# source: MD lines 179-248 / JSON pec_raw catégories 3-9
+pec_initiale:
+  immediate:
+    - "⚠️ Éliminer causes organiques d'abord: {t:bandelette urinaire} + glycémie si signes évocateurs"
+    - |-
+      Étape 1 — Mesures comportementales (1ère ligne):
+      • éducation famille: dédramatiser, ne jamais punir, {r:renforcement positif}
+      • {t:calendrier mictionnel} (3 semaines min.)
+      • mictions programmées diurnes (toutes {r:3-4 h})
+      • miction systématique avant coucher
+      • hydratation normale dans la journée, ↓ modérée après 17h, pas de caféine
+    - |-
+      Étape 2 — Traitement constipation si présente (avant alarme/médicament):
+      • PEG ({r:0,4-0,8 g/kg/j}), fibres alimentaires, hydratation++
+      • position défécation (réducteur WC + marche-pied)
+      • [VÉRIFIER: dose PEG pédiatrique selon poids pour le protocole local CHUV]
+    - |-
+      Étape 3 — {r:Alarme d'énurésie} ⚠️ traitement le plus efficace à long terme:
+      • efficacité {r:70-80 %} si bonne observance
+      • durée: minimum {r:3 mois} après dernière nuit humide
+      • avantage: guérison durable, pas d'effets secondaires
+      • inconvénients: réveils familiaux, contraignant
+    - |-
+      Étape 4 — {r:Desmopressine} (DDAVP) si échec alarme ou contre-indication:
+      • {r:120-240 µg sublingual au coucher} (Minirin) [VÉRIFIER: dose sublingual vs oral comprimé 0,2-0,4 mg selon formulation disponible HUG/CHUV]
+      • efficacité {r:70 %} mais rechute fréquente à l'arrêt
+      • durée: {r:3-6 mois} puis sevrage progressif
+      • surveillance: {s:natrémie} (risque hyponatrémie si excès boissons)
+      • CI: insuffisance cardiaque, polydipsie, cystite active
+  orientation:
+    - "Domicile + suivi MT/pédiatre: énurésie primaire isolée, examen normal, bandelette négative → mesures comportementales 4-8 semaines avant réévaluation"
+    - "Réévaluation M1 (mesures comportementales), M3 (décision alarme), M6 (évaluation alarme ou DDAVP)"
+    - "Adresser urologie/néphropédiatrie: symptômes diurnes persistants, infections récidivantes, échec 2 lignes de traitement, suspicion anomalie anatomique ou neurologique"
+    - "Adresser ORL pédiatrique: ronflement + pauses respiratoires nocturnes → évaluation {p:SAOS}"
+    - "Adresser psychologue: retentissement psychologique majeur (honte, isolement, troubles humeur), contexte de maltraitance suspectée"
+
+criteres_hospitalisation:
+  - "{s:Hypoglycémie / hyperglycémie} confirmée → urgences pédiatriques ({p:diabète})"
+  - "{s:Détresse respiratoire nocturne} sévère sur {p:SAOS}"
+  - "Suspicion {p:maltraitance / abus sexuels}"
+  - "Énurésie avec déficit neurologique aigu (nouveau)"
+
+pieges:
+  - "Prescrire d'emblée desmopressine sans mesures comportementales préalables → rechute systématique à l'arrêt"
+  - "Oublier de traiter la constipation en 1er: elle peut à elle seule résoudre l'énurésie et rend les autres traitements inefficaces"
+  - "Manquer une énurésie secondaire organique ({p:infection urinaire, diabète}): bandelette urinaire et glycémie systématiques si context atypique"
+  - "Culpabiliser l'enfant ou cautionner des punitions parentales → aggrave l'estime de soi et le pronostic fonctionnel"
+  - "Négliger les signes rachidiens (fossette sacrée, pilosité) → spina bifida occulta peut se présenter comme énurésie isolée"
+
+cartes_liees:
+  - SYS-PED
+  - SSP-PED-12
