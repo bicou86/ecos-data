@@ -1,0 +1,62 @@
+id: TOOL-MMSE
+type: tool
+title: MMSE (Mini-Mental State Examination)
+discipline: Psy
+version: 2026-05-28
+status: draft
+sources:
+  - Folstein MF, Folstein SE, McHugh PR. J Psychiatr Res 1975
+  - Recommandations HAS troubles cognitifs
+
+quand_utiliser:
+  - "Dépistage des {p:troubles cognitifs} chez le sujet {e:âgé} ou avec plainte mnésique"
+  - "Évaluation initiale et suivi de la {p:démence} (Alzheimer, vasculaire, mixte, Lewy)"
+  - "Diagnostic différentiel {p:syndrome confusionnel} (delirium) vs {p:démence} (CAM + MMSE)"
+  - "Critère de prescription / remboursement des {r:anticholinestérasiques} (donépézil, rivastigmine, galantamine) en France et Suisse"
+  - "Outil court (10 min), administré par le médecin — gold standard historique"
+
+items:
+  - |-
+    Score sur 30 — 5 domaines évalués :
+  - |-
+    **Orientation (10 points)** :
+    • Temps (5) : année, saison, date, jour, mois
+    • Lieu (5) : pays, canton/région, ville, hôpital/lieu, étage
+  - "**Apprentissage (3 points)** : répéter 3 mots après l'examinateur (citron, clé, ballon) — 1 point par mot"
+  - "**Attention/calcul (5 points)** : compter à rebours de 100 par 7 (5 étapes : 93, 86, 79, 72, 65) OU épeler MONDE à l'envers (E-D-N-O-M)"
+  - "**Rappel différé (3 points)** : redemander les 3 mots appris (sans indice initial)"
+  - |-
+    **Langage et praxies (9 points)** :
+    • Dénomination (2) : montrer crayon + montre
+    • Répétition (1) : « Pas de mais, de si, ni de et »
+    • Compréhension (3) : « Prenez la feuille avec la main droite, pliez-la en deux, posez-la par terre »
+    • Lecture (1) : exécuter la consigne écrite « Fermez les yeux »
+    • Écriture (1) : écrire une phrase complète et sensée
+    • Praxie constructive (1) : copier la figure de 2 pentagones entrecroisés (10 angles)
+
+score_interpretation:
+  - score: "27-30"
+    interpretation: "Cognition {s:normale} — pas d'argument pour démence ; rassurer mais reconsidérer si plainte persistante avec retentissement fonctionnel"
+  - score: "24-26"
+    interpretation: "{p:Trouble cognitif léger} (MCI — Mild Cognitive Impairment) — bilan étiologique (NFS, TSH, B12, IRM cérébrale) + suivi à 6 mois"
+  - score: "18-23"
+    interpretation: "{p:Démence légère à modérée} — bilan étiologique complet + {r:anticholinestérasique} si Alzheimer probable + évaluation gériatrique globale + soutien aidant"
+  - score: "10-17"
+    interpretation: "{p:Démence modérée à sévère} — {r:mémantine} ± anticholinestérasique + adaptation environnement + auxiliaires de vie + anticiper directives anticipées"
+  - score: "< 10"
+    interpretation: "{p:Démence sévère} — soins de confort + soutien aidant prioritaire + envisager institutionnalisation"
+  - score: "Toujours ajuster selon"
+    interpretation: "Âge, niveau d'éducation, langue maternelle (utiliser version validée), troubles sensoriels (vision, audition) — un faible MMSE chez un sujet à très basse scolarité n'est pas synonyme de démence"
+
+limites:
+  - "Biais d'éducation et culturel important — peu sensible chez sujets très instruits (effet plafond, démence débutante manquée) ; peu spécifique chez sujets peu instruits ou non francophones"
+  - "Peu sensible aux atteintes {p:frontales/sous-corticales} (démence vasculaire débutante, démence fronto-temporale, Parkinson) — préférer {t:MoCA} (Montreal Cognitive Assessment) plus sensible aux fonctions exécutives"
+  - "Influence de la {p:dépression}, {p:anxiété}, {p:fatigue} aiguë — interpréter avec prudence chez patient confus aigu"
+  - "Ne distingue pas {p:delirium} et {p:démence} — utiliser {t:CAM} (Confusion Assessment Method) en parallèle"
+  - "Ne pose PAS de diagnostic — il dépiste ; la confirmation requiert imagerie + bilan étiologique + critères DSM-5"
+
+ssps_ou_utiliser:
+  - SSP-NEU-Troubles_Memoire # Troubles mémoire
+  - SSP-NEU-05 # État confusionnel
+  - SSP-GER-01 # Syndrome de fragilité
+  - SSP-PSY-09 # Syndrome de glissement

@@ -1,0 +1,53 @@
+id: TOOL-TUG
+type: tool
+title: Timed Up and Go (TUG)
+discipline: Geriatrie
+version: 2026-05-28
+status: draft
+sources:
+  - Podsiadlo D, Richardson S. J Am Geriatr Soc 1991
+  - Recommandations HAS prévention des chutes du sujet âgé
+
+quand_utiliser:
+  - "Dépistage du {p:risque de chute} chez le sujet {e:âgé} (> 65 ans) en consultation"
+  - "Évaluation de la {s:mobilité fonctionnelle} et de l'autonomie"
+  - "Composante de l'évaluation gériatrique globale (CGA) et critère de {p:fragilité} (Fried)"
+  - "Suivi de la réponse à la {r:rééducation} ou à l'introduction d'une aide technique (canne, déambulateur)"
+  - "Mesure rapide (< 2 minutes) sans équipement coûteux — chronomètre + chaise + 3 m d'espace"
+
+items:
+  - |-
+    Matériel : chaise standard avec accoudoirs, chronomètre, ligne tracée à 3 m
+  - |-
+    Procédure standardisée :
+    • Patient assis sur la chaise, dos appuyé, bras sur accoudoirs, chaussures habituelles, aide technique habituelle autorisée
+    • Au signal « Partez ! », le patient se lève, marche 3 m à vitesse confortable, demi-tour, revient, se rassoit
+    • Chronométrer du signal jusqu'à ce que les fesses retouchent la chaise
+  - "Observer qualitativement : équilibre statique au lever, posture pendant la marche, longueur de pas, demi-tour (sécurisé vs en bloc), assise contrôlée"
+  - "Réaliser un essai non chronométré puis 1-2 essais chronométrés ; prendre le meilleur temps"
+  - "Variante TUG-Cog : ajouter une tâche cognitive (compter à rebours de 100 par 3) — chute > 15 s = risque accru de démence/chute"
+
+score_interpretation:
+  - score: "< 10 s"
+    interpretation: "Mobilité {s:normale} — pas de risque de chute particulier"
+  - score: "10-14 s"
+    interpretation: "Mobilité {s:limite} — surveillance + {r:activité physique adaptée} (renforcement + équilibre)"
+  - score: "≥ 14 s"
+    interpretation: "{p:Risque de chute élevé} — bilan complet (vision, audition, médications, environnement) + {r:rééducation} kinésithérapie + {r:vitamine D} 800-1000 UI/j + aménagement domicile"
+  - score: "≥ 20 s"
+    interpretation: "Mobilité {s:très altérée} — perte d'autonomie probable, prise en charge multidisciplinaire (ergothérapie, aides techniques, évaluation institutionnelle)"
+  - score: "≥ 30 s ou impossibilité"
+    interpretation: "Dépendance fonctionnelle majeure — orientation vers {r:réhabilitation gériatrique} ou évaluation pour EHPAD"
+
+limites:
+  - "Influence des {e:douleurs articulaires} (gonarthrose, coxarthrose) — un TUG long n'est pas spécifique du risque de chute"
+  - "Effet plafond chez le sujet jeune ou très actif — peu utile < 65 ans sans contexte spécifique"
+  - "Variabilité selon les {e:chaussures}, l'environnement (sol, éclairage) et la motivation"
+  - "Ne mesure pas le {p:risque de chute nocturne} (déséquilibre vestibulaire, hypotension orthostatique)"
+  - "Doit être combiné à d'autres tests (appui unipodal, vitesse de marche 4 m, Berg Balance Scale) pour évaluation complète"
+
+ssps_ou_utiliser:
+  - SSP-GER-01 # Syndrome de fragilité
+  - SSP-URG-CHUTE # Chute
+  - SSP-NEU-Troubles_Marche # Troubles de la marche
+  - SSP-NEU-09 # Neuropathie périphérique

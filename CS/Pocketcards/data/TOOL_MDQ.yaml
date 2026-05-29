@@ -1,0 +1,54 @@
+id: TOOL-MDQ
+type: tool
+title: MDQ (Mood Disorder Questionnaire)
+discipline: Psy
+version: 2026-05-28
+status: draft
+sources:
+  - Hirschfeld RM et al. Am J Psychiatry 2000
+  - CS/02_SSP/SSP_Troubles_Humeur.md
+
+quand_utiliser:
+  - "Dépistage du {p:trouble bipolaire} chez patient avec épisode dépressif actuel ou ATCD"
+  - "AVANT de prescrire un {r:antidépresseur} chez patient avec EDM — éviter le {p:virage maniaque}"
+  - "Évaluation de patients avec {p:cycles d'humeur} ou symptômes atypiques (irritabilité, hyperénergie, impulsivité)"
+  - "Suivi d'enfants/adolescents de parents bipolaires (familial — risque ×10)"
+  - "Auto-questionnaire (5 min) — utile en soins primaires"
+
+items:
+  - |-
+    **Section 1** : 13 questions oui/non sur la vie entière. Avez-vous déjà connu une période où :
+  - "1. Vous étiez si euphorique ou « high » que vous attiriez l'attention"
+  - "2. Vous étiez si irritable que vous criiez ou commenciez des disputes"
+  - "3. Vous vous sentiez beaucoup plus confiant(e) que d'habitude"
+  - "4. Vous dormiez beaucoup moins et n'étiez pas fatigué(e)"
+  - "5. Vous parliez plus vite ou beaucoup plus que d'habitude"
+  - "6. Vos pensées défilaient si vite que vous ne pouviez pas les arrêter"
+  - "7. Vous étiez si facilement distrait(e) que vous ne pouviez pas vous concentrer"
+  - "8. Vous aviez beaucoup plus d'énergie que d'habitude"
+  - "9. Vous étiez beaucoup plus actif(ve) ou faisiez beaucoup plus de choses"
+  - "10. Vous étiez beaucoup plus sociable, par exemple téléphoner à des amis au milieu de la nuit"
+  - "11. Vous étiez beaucoup plus intéressé(e) par le {s:sexe} qu'habituellement"
+  - "12. Vous faisiez des choses inhabituelles ou {s:risquées} (dépenses, sexualité imprudente)"
+  - "13. Vous {s:dépensiez de l'argent} de manière excessive ou imprudente"
+  - "**Section 2** : Plusieurs de ces symptômes sont survenus pendant la même période ? (oui/non)"
+  - "**Section 3** : Ont-ils causé des problèmes (familial, professionnel, légal, financier) ? (cotation 0 = pas de problème ; 1 = mineur ; 2 = modéré ; 3 = sérieux)"
+
+score_interpretation:
+  - score: "Section 1 ≥ 7/13 ET Section 2 = oui ET Section 3 ≥ 2"
+    interpretation: "Test {s:positif} — {p:trouble bipolaire} probable. NE PAS prescrire d'antidépresseur en monothérapie ; orienter vers {r:psychiatre} pour confirmation (DSM-5) et instauration d'un {r:stabilisateur de l'humeur} (lithium, valproate, lamotrigine, quétiapine)"
+  - score: "Section 1 ≥ 7 mais autres critères absents"
+    interpretation: "Probabilité {s:modérée} — entretien clinique structuré + collatéral (témoignage entourage souvent crucial — l'hypomanie est souvent vécue positivement et sous-déclarée)"
+  - score: "Section 1 < 7"
+    interpretation: "Test {s:négatif} — trouble bipolaire peu probable mais NE l'exclut PAS, notamment bipolaire de type II (hypomanies subtiles)"
+
+limites:
+  - "Sensibilité modérée pour {p:bipolaire type II} (∼ 60%) — hypomanies souvent non détectées (vécues comme « bonnes périodes »)"
+  - "Faible spécificité chez patients avec {p:TDAH}, {p:trouble de la personnalité borderline}, {p:abus de substances} — chevauchement symptomatique important"
+  - "Auto-questionnaire — biais de mémoire (épisodes anciens), introspection limitée pendant épisode dépressif actuel"
+  - "Ne distingue pas type I et II ; ne quantifie pas la {s:sévérité} d'un épisode actuel"
+  - "Témoignage de l'{e:entourage} (conjoint, parents) souvent plus informatif que l'auto-déclaration pour les hypomanies"
+
+ssps_ou_utiliser:
+  - SSP-PSY-02 # Dépression
+  - SSP-PSY-06 # Troubles de l'humeur

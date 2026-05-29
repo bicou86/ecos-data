@@ -1,0 +1,58 @@
+id: TOOL-PHQ-09
+type: tool
+title: PHQ-9 (Patient Health Questionnaire-9)
+discipline: Psy
+version: 2026-05-28
+status: draft
+sources:
+  - Kroenke K, Spitzer RL, Williams JBW. The PHQ-9. J Gen Intern Med 2001
+  - CS/02_SSP/SSP_Dépression.md
+
+quand_utiliser:
+  - "Dépistage de la {p:dépression} en soins primaires — questionnaire auto-administré (5 min)"
+  - "Évaluation de la {s:sévérité} d'un épisode dépressif majeur (EDM)"
+  - "Suivi de la réponse au {r:traitement antidépresseur} (cible : baisse ≥ 5 points)"
+  - "Évaluation systématique du {s:risque suicidaire} (question 9)"
+  - "Outil PRO (Patient-Reported Outcome) intégré dans la pratique courante"
+
+items:
+  - |-
+    Au cours des 2 dernières semaines, à quelle fréquence avez-vous été gêné(e) par les problèmes suivants ?
+    Cotation : 0 = jamais ; 1 = plusieurs jours ; 2 = plus de la moitié des jours ; 3 = presque tous les jours
+  - "1. Peu d'intérêt ou de plaisir à faire les choses ({s:anhédonie})"
+  - "2. Se sentir triste, déprimé(e), désespéré(e)"
+  - "3. Difficultés à s'endormir, à rester endormi(e), ou hypersomnie"
+  - "4. Sentiment de fatigue ou manque d'énergie"
+  - "5. Mauvais appétit ou hyperphagie"
+  - "6. Mauvaise perception de soi (échec, déception personnelle ou familiale)"
+  - "7. Difficultés à se concentrer (lecture, télévision)"
+  - "8. Ralentissement ou agitation psychomotrice perceptible par autrui"
+  - "9. Pensées que vous seriez mieux mort(e), ou idées de vous faire du mal ({p:idées suicidaires} — question critique)"
+
+score_interpretation:
+  - score: "0-4"
+    interpretation: "Pas de {p:dépression} ou minimale — pas de traitement spécifique requis ; suivi clinique"
+  - score: "5-9"
+    interpretation: "Dépression {s:légère} — {r:psychothérapie} ou surveillance active ; revoir à 2-4 semaines"
+  - score: "10-14"
+    interpretation: "Dépression {s:modérée} — {r:psychothérapie} (TCC, IPT) ± {r:antidépresseur ISRS} (sertraline, escitalopram)"
+  - score: "15-19"
+    interpretation: "Dépression {s:modérément sévère} — {r:antidépresseur} + {r:psychothérapie} systématiques ; suivi rapproché"
+  - score: "20-27"
+    interpretation: "Dépression {s:sévère} — {r:antidépresseur} immédiat + {r:psychothérapie} + envisager hospitalisation si idées suicidaires actives ou retentissement fonctionnel majeur"
+  - score: "Q9 ≥ 1"
+    interpretation: "{p:Idéations suicidaires} présentes — évaluer scénario, moyens, intention ; contrat de sécurité ; hospitalisation sous contrainte si refus avec risque imminent"
+
+limites:
+  - "Auto-questionnaire — biais de désirabilité sociale et déni possibles, surtout dans la {e:culture professionnelle masculine}"
+  - "Sensibilité diminuée chez le sujet {e:âgé} (privilégier GDS-15) et l'{e:adolescent} (PHQ-A)"
+  - "Ne distingue pas {p:dépression unipolaire} et {p:bipolaire} — TOUJOURS associer le {t:MDQ} (Mood Disorder Questionnaire) avant prescription d'antidépresseur"
+  - "Ne remplace pas l'examen clinique structuré (DSM-5) — score élevé requiert confirmation diagnostique par entretien"
+  - "Score 10 = seuil opérationnel mais sensibilité 88% / spécificité 88% en soins primaires (variable selon populations)"
+
+ssps_ou_utiliser:
+  - SSP-PSY-02 # Dépression
+  - SSP-PSY-03 # Fatigue
+  - SSP-PSY-06 # Troubles de l'humeur
+  - SSP-PSY-09 # Syndrome de glissement
+  - SSP-GER-01 # Syndrome de fragilité

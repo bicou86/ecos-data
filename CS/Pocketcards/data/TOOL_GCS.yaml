@@ -1,0 +1,66 @@
+id: TOOL-GCS
+type: tool
+title: GCS (Glasgow Coma Scale)
+discipline: Neuro
+version: 2026-05-28
+status: draft
+sources:
+  - Teasdale G, Jennett B. Assessment of coma. Lancet 1974
+  - CS/02_SSP/SSP_Coma.md
+
+quand_utiliser:
+  - "Évaluation systématique de tout {p:trouble de la conscience} aux urgences"
+  - "{p:TCC} (traumatisme crânien) — classification : léger 13-15 ; modéré 9-12 ; sévère ≤ 8"
+  - "Indication d'{r:intubation} : GCS ≤ 8 (protection des voies aériennes)"
+  - "Surveillance neurologique post-traumatique, post-AVC, post-opératoire"
+  - "Critère de transfert en {r:USI} ou de {r:scanner cérébral} en urgence"
+
+items:
+  - |-
+    Score total = ouverture des yeux (E) + réponse verbale (V) + réponse motrice (M) ; min 3 (E1V1M1), max 15 (E4V5M6)
+  - |-
+    **Ouverture des yeux (E, /4)**:
+    • E4 = spontanée
+    • E3 = à la {s:demande verbale}
+    • E2 = à la {s:douleur}
+    • E1 = absente
+  - |-
+    **Réponse verbale (V, /5)**:
+    • V5 = orientée (lieu, temps, personne)
+    • V4 = confuse (réponses inappropriées mais cohérentes)
+    • V3 = mots inappropriés
+    • V2 = sons incompréhensibles (gémissements)
+    • V1 = aucune
+  - |-
+    **Réponse motrice (M, /6)** — la plus discriminante :
+    • M6 = obéit aux ordres simples
+    • M5 = localise la douleur (main au-dessus du sternum à la pression sternale)
+    • M4 = retrait à la douleur (flexion normale)
+    • M3 = {s:flexion anormale} (décortication — lésion hémisphérique)
+    • M2 = {s:extension anormale} (décérébration — lésion tronc cérébral)
+    • M1 = aucune réponse
+  - "Si patient {e:intubé} : noter V comme « T » (V tube) et score sur E + M / 10 ou utiliser GCS-Pupillaire (GCS-P) qui soustrait 0-2 selon réactivité"
+
+score_interpretation:
+  - score: "13-15"
+    interpretation: "{p:TCC léger} — surveillance clinique ; {t:scanner cérébral} selon critères Canadian CT Head Rule (vomissements ≥ 2, amnésie > 30 min, âge ≥ 65, anticoagulants, mécanisme à haute énergie)"
+  - score: "9-12"
+    interpretation: "{p:TCC modéré} — {t:scanner cérébral} systématique + hospitalisation + surveillance horaire ; envisager USI selon contexte"
+  - score: "≤ 8"
+    interpretation: "{p:TCC sévère} ou {p:coma} — {r:intubation} pour protection des voies aériennes + {t:scanner cérébral} immédiat + transfert USI + cs neurochirurgie"
+  - score: "Aggravation ≥ 2 points"
+    interpretation: "{p:Dégradation neurologique} — {t:scanner cérébral} immédiat (suspicion HSD, HED, œdème, engagement) + cs neurochirurgie URGENTE"
+
+limites:
+  - "Sous-estimation si {e:aphasie}, {e:intoxication alcoolique} sévère ou {e:sédation} pharmacologique"
+  - "Composante V inapplicable en cas d'{e:intubation} — utiliser GCS-P ou FOUR Score (alternative validée USI)"
+  - "Ne reflète pas les {p:atteintes neurologiques focales} (paralysie, aphasie, déficits sensitifs) — TOUJOURS compléter par examen neuro complet"
+  - "Variabilité inter-évaluateur — entraînement requis ; documentation détaillée des sous-scores plus utile que le total"
+  - "Ne prédit pas isolément le pronostic — combiner avec âge, réactivité pupillaire, {t:imagerie cérébrale}"
+
+ssps_ou_utiliser:
+  - SSP-NEU-04 # Céphalée
+  - SSP-NEU-05 # État confusionnel
+  - SSP-URG-TCC # TCC
+  - SSP-URG-COMA # Coma
+  - SSP-URG-INTOXICATIONS

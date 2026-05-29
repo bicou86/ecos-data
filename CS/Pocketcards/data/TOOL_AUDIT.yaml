@@ -1,0 +1,57 @@
+id: TOOL-AUDIT
+type: tool
+title: AUDIT-C et AUDIT (Alcohol Use Disorders Identification Test)
+discipline: Comm
+version: 2026-05-28
+status: draft
+sources:
+  - Saunders JB et al. Addiction 1993 (AUDIT)
+  - Bush K et al. Arch Intern Med 1998 (AUDIT-C)
+  - OMS - Manuel AUDIT
+
+quand_utiliser:
+  - "Dépistage de la {p:consommation à risque} d'alcool en soins primaires (AUDIT-C, 3 questions) — ECOS standard"
+  - "Évaluation complète du {p:trouble d'usage d'alcool} (AUDIT 10 questions) si AUDIT-C positif"
+  - "Entretien motivationnel — base pour intervention brève (« 5 A's » : Ask, Advise, Assess, Assist, Arrange)"
+  - "Pré-opératoire, médecine du travail, médecine générale annuelle"
+  - "TOUJOURS dépister AVANT prescription d'antidépresseur ou de BZD (interactions, observance, sevrage)"
+
+items:
+  - |-
+    **AUDIT-C — 3 questions (score 0-12)** :
+  - "1. À quelle fréquence buvez-vous des boissons alcoolisées ? (0 = jamais ; 1 = ≤ 1×/mois ; 2 = 2-4×/mois ; 3 = 2-3×/semaine ; 4 = ≥ 4×/semaine)"
+  - "2. Combien de verres standards consommez-vous un jour où vous buvez ? (0 = 1-2 ; 1 = 3-4 ; 2 = 5-6 ; 3 = 7-9 ; 4 = ≥ 10)"
+  - "3. Avec quelle fréquence buvez-vous ≥ 6 verres en une occasion ? (0 = jamais ; 1 = < 1×/mois ; 2 = 1×/mois ; 3 = 1×/semaine ; 4 = ≥ tous les jours)"
+  - |-
+    **AUDIT complet — 7 questions supplémentaires** (score total 0-40) :
+  - "4. Au cours des 12 derniers mois, n'avez-vous pas pu vous arrêter de boire après avoir commencé ?"
+  - "5. N'avez-vous pas réussi à faire ce qu'on attendait de vous à cause de l'alcool ?"
+  - "6. Avez-vous eu besoin de boire dès le matin pour vous remettre ?"
+  - "7. Vous êtes-vous senti(e) coupable ou eu des remords après avoir bu ?"
+  - "8. N'avez-vous pas pu vous souvenir de ce qui s'était passé la veille ? ({s:black-out})"
+  - "9. Vous-même ou quelqu'un d'autre a-t-il été blessé à cause de votre consommation d'alcool ?"
+  - "10. Un proche, un médecin ou un soignant a-t-il manifesté de l'inquiétude ou suggéré que vous réduisiez votre consommation ?"
+
+score_interpretation:
+  - score: "AUDIT-C ≥ 3 femme / ≥ 4 homme"
+    interpretation: "{p:Consommation à risque} probable — compléter par AUDIT complet ; {r:intervention brève} (5 minutes, repères OMS : ≤ 10 verres/sem ET ≤ 2/j pour la femme ; idem pour l'homme depuis 2020) ; suivi à 3-6 mois"
+  - score: "AUDIT 0-7"
+    interpretation: "Consommation à {s:faible risque} — renforcer comportement actuel"
+  - score: "AUDIT 8-15"
+    interpretation: "Consommation à {s:risque} — {r:intervention brève} structurée + conseils de réduction + feuille de monitoring auto-enregistrée"
+  - score: "AUDIT 16-19"
+    interpretation: "Consommation {s:nocive} — {r:thérapie cognitivo-comportementale} + bilan biologique (GGT, CDT, ASAT/ALAT, NFS, VGM) + envisager pharmacothérapie ({r:naltrexone}, {r:acamprosate})"
+  - score: "AUDIT ≥ 20"
+    interpretation: "{p:Dépendance probable} — orientation spécialisée (addictologie) + bilan complet + {r:sevrage encadré} (hospit si DT antérieur, comorbidités, isolement) ; envisager {r:HAT}, {r:naltrexone}, {r:disulfirame}, {r:baclofène} (Suisse)"
+
+limites:
+  - "Auto-déclaration — sous-estimation fréquente (déni, désirabilité sociale) ; corréler à biomarqueurs ({t:GGT}, {t:CDT}, {t:VGM}) et témoignage entourage"
+  - "Sensibilité réduite chez {e:sujet âgé} (préférer SMAST-G) et {e:adolescent} (préférer CRAFFT)"
+  - "{s:Verre standard} varie selon les pays (10 g éthanol en Suisse/France vs 14 g aux USA) — calibrer la traduction"
+  - "Ne dépiste pas les {p:autres addictions} (cannabis, opioïdes, jeu) — compléter par ASSIST si polyaddiction suspectée"
+  - "Pendant {e:grossesse} ou {e:allaitement} : ANY consommation = à risque, tout score > 0 mérite intervention"
+
+ssps_ou_utiliser:
+  - SSP-PSY-01 # Dépendance et addictions
+  - SSP-COM-EM_Alcool # EM Alcool
+  - SSP-COM-EM_Sevrage_Tabagique # EM Sevrage

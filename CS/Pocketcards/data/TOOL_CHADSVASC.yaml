@@ -1,0 +1,52 @@
+id: TOOL-CHADSVASC
+type: tool
+title: CHA₂DS₂-VASc (risque thromboembolique dans la FA)
+discipline: Cardio
+version: 2026-05-28
+status: draft
+sources:
+  - Lip GY et al. Chest 2010
+  - ESC Guidelines on Atrial Fibrillation 2024
+
+quand_utiliser:
+  - "Décision d'{r:anticoagulation orale} chez patient avec {p:fibrillation auriculaire} (non valvulaire) — paroxystique, persistante ou permanente"
+  - "Réévaluation périodique du risque (au moins annuelle) — le score évolue avec l'âge et nouvelles comorbidités"
+  - "Choix entre {r:AOD} (apixaban, rivaroxaban, dabigatran, edoxaban) et {r:AVK} (warfarine) selon clairance créatinine, observance, interactions"
+  - "Décision combinée avec {t:HAS-BLED} (risque hémorragique) — l'anticoagulation reste indiquée même si HAS-BLED élevé"
+  - "FA + valvulopathie significative (sténose mitrale rhumatismale) ou prothèse mécanique = {r:AVK} obligatoire (AOD contre-indiqués)"
+
+items:
+  - |-
+    8 critères pondérés — score total 0-9 :
+  - "**C** (Congestive heart failure / {p:Insuffisance cardiaque} systolique ou clinique récente) — 1 point"
+  - "**H** ({p:Hypertension artérielle} traitée ou TA habituelle > 140/90) — 1 point"
+  - "**A₂** ({e:Âge} ≥ 75 ans) — 2 points"
+  - "**D** ({p:Diabète} sucré traité) — 1 point"
+  - "**S₂** ({p:Stroke} = ATCD AVC, AIT ou thromboembolie systémique) — 2 points"
+  - "**V** ({p:Vasculaire} = ATCD IDM, AOMI, plaque aortique complexe) — 1 point"
+  - "**A** ({e:Âge} 65-74 ans) — 1 point"
+  - "**Sc** ({e:Sexe} féminin — uniquement si autre facteur de risque présent ; isolé chez femme < 65 ans sans autre FR : score = 0) — 1 point"
+
+score_interpretation:
+  - score: "Homme 0 / Femme 1 (isolé)"
+    interpretation: "Risque thromboembolique {s:très faible} (< 1%/an) — {r:pas d'anticoagulation} ; éducation et réévaluation annuelle"
+  - score: "Homme 1 / Femme 2"
+    interpretation: "Risque {s:intermédiaire} (∼ 1-2%/an) — {r:anticoagulation orale} à discuter selon préférences patient, risque hémorragique (HAS-BLED), comorbidités"
+  - score: "Homme ≥ 2 / Femme ≥ 3"
+    interpretation: "Risque {s:élevé} (≥ 2%/an, jusqu'à > 10%/an si score 6+) — {r:anticoagulation orale} indiquée : {r:AOD} en 1ère intention (apixaban, rivaroxaban) sauf FA valvulaire (AVK), prothèse mécanique (AVK), IRC sévère (DFG < 15 = AVK)"
+  - score: "Score 0 (homme)"
+    interpretation: "{r:Aspirine seule}, désormais {s:NON recommandée} — l'aspirine ne réduit pas significativement le risque embolique et augmente le saignement ; abstention ou anticoagulation selon réévaluation"
+
+limites:
+  - "Ne prend PAS en compte {p:FA paroxystique courte durée}, durée totale en FA, charge de FA (recommandations 2024 commencent à intégrer)"
+  - "Ne distingue PAS les types de prévention ({p:FA non valvulaire} uniquement) — FA valvulaire ou prothèses mécaniques nécessitent AVK d'emblée"
+  - "Sous-estime le risque chez patients avec {p:cardiomyopathie hypertrophique}, {p:amylose cardiaque}, {p:cancer évolutif}"
+  - "L'âge est un FR majeur — chez sujet > 75 ans, anticoagulation quasi-systématique malgré risque hémorragique"
+  - "Ne remplace pas le {t:HAS-BLED} (risque hémorragique) — utiliser les deux scores conjointement (mais HAS-BLED élevé n'est PAS une contre-indication à l'anticoagulation, plutôt un signal pour corriger facteurs modifiables : HTA, alcool, AINS, INR labile)"
+  - "Sexe féminin isolé (sans autre FR) — pas un facteur indépendant (recommandations ESC 2024 retirent cette pondération chez femmes < 65 ans sans autre FR)"
+
+ssps_ou_utiliser:
+  - SSP-CAR-Fibrillation_Auriculaire # FA
+  - SSP-CAR-Palpitations # Palpitations
+  - SSP-NEU-04 # Céphalée (DD AVC)
+  - SSP-URG-MALAISE # Malaise / syncope

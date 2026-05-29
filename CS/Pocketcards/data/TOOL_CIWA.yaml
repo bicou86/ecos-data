@@ -1,0 +1,55 @@
+id: TOOL-CIWA
+type: tool
+title: CIWA-Ar (Clinical Institute Withdrawal Assessment – Alcohol revised)
+discipline: Psy
+version: 2026-05-28
+status: draft
+sources:
+  - Sullivan JT et al. Br J Addiction 1989
+  - CS/02_SSP/SSP_Dépendance_Addictions.md
+
+quand_utiliser:
+  - "Évaluation systématique du {p:syndrome de sevrage alcoolique} à l'admission et toutes les 1-4h"
+  - "Indication et titration des {r:benzodiazépines} (diazépam, oxazépam, lorazépam)"
+  - "Prédiction du risque de {p:delirium tremens} et de {p:crise convulsive de sevrage}"
+  - "Protocole « symptom-triggered » : administrer BZD seulement si CIWA ≥ 8-10 — moins de BZD totale, meilleur pronostic vs schéma fixe"
+  - "Documentation objective de la sévérité — utile pour transmissions et décisions de transfert USI"
+
+items:
+  - |-
+    10 items cotés indépendamment, score total 0-67 :
+  - "1. **{s:Nausées et vomissements}** (0-7) : 0 absentes ; 1 nausées légères sans vomissement ; 4 nausées intermittentes + haut-le-cœur ; 7 nausées constantes + vomissements"
+  - "2. **{s:Tremblements}** (0-7) : 0 absents ; 1 non visibles, ressentis bout des doigts ; 4 modérés bras tendus ; 7 sévères même bras au repos"
+  - "3. **{s:Sueurs paroxystiques}** (0-7) : 0 absentes ; 1 moiteur paumes à peine perceptible ; 4 sueurs visibles front ; 7 sueurs profuses"
+  - "4. **{s:Anxiété}** (0-7) : 0 absente ; 1 légèrement anxieux ; 4 modérément anxieux ; 7 panique aiguë / réaction psychotique"
+  - "5. **{s:Agitation}** (0-7) : 0 activité normale ; 1 un peu plus que la normale ; 4 modérément agité ; 7 marche / s'agite constamment"
+  - "6. **{s:Trouble tactile}** (0-7) : 0 absent ; 1 picotements/brûlures très légers ; 4 modérés + hallucinations tactiles ; 7 hallucinations continues"
+  - "7. **{s:Trouble auditif}** (0-7) : 0 absent ; 1 dureté/effrayé par bruits ; 4 hallucinations modérées ; 7 hallucinations continues"
+  - "8. **{s:Trouble visuel}** (0-7) : 0 absent ; 1 photophobie très légère ; 4 hallucinations modérées ; 7 hallucinations continues"
+  - "9. **{s:Céphalée}** (0-7) : 0 absente ; 1 très légère ; 4 modérée à sévère ; 7 extrêmement sévère"
+  - "10. **{s:Orientation et obnubilation}** (0-4) : 0 orienté + somme à 4 chiffres ; 1 ne peut pas faire la somme ; 2 désorienté pour date < 2 j ; 3 date > 2 j ; 4 désorienté lieu et personne"
+
+score_interpretation:
+  - score: "≤ 9"
+    interpretation: "Sevrage {s:léger} — pas de BZD systématique ; {r:hydratation} + {r:thiamine} 500 mg IV/IM (PRÉVENTION Wernicke — AVANT toute perfusion glucosée) + surveillance"
+  - score: "10-15"
+    interpretation: "Sevrage {s:modéré} — {r:diazépam} 10 mg PO ou {r:oxazépam} 30 mg (préférer si insuffisance hépatique) ; ré-évaluer CIWA toutes les 1-2h"
+  - score: "16-19"
+    interpretation: "Sevrage {s:modérément sévère} — {r:diazépam} 20 mg PO (ou IV 10 mg) ; surveillance horaire ; risque accru de {p:delirium tremens}"
+  - score: "≥ 20"
+    interpretation: "Sevrage {s:sévère} — transfert {r:USI} ; {r:diazépam} IV 10-20 mg jusqu'à sédation contrôlée ; {r:thiamine} + {r:magnésium} ; risque vital ({p:DT}, crises, AVC, troubles du rythme)"
+  - score: "Convulsion généralisée"
+    interpretation: "{p:Crise convulsive de sevrage} — {r:diazépam} IV ou {r:lorazépam} IV en charge ; protection voies aériennes ; transfert USI ; éliminer cause organique ({t:scanner cérébral})"
+
+limites:
+  - "Items {e:subjectifs} (anxiété, hallucinations) — sous-cotation possible chez patient peu communicatif, intubé, ou méfiant"
+  - "Pas adapté en {e:USI} sédaté/ventilé — préférer RASS + protocole spécifique"
+  - "Sous-estime sevrage chez patient avec {p:démence}, {p:troubles psychiatriques chroniques} ou {e:barrière linguistique}"
+  - "Ne remplace pas la {r:prévention de l'encéphalopathie de Wernicke} (thiamine TOUJOURS, dose élevée 500 mg IV/IM x3/j pendant 2-3 j puis 250 mg)"
+  - "Ne couvre pas les troubles électrolytiques (Mg, K, P) — bilan sanguin systématique en parallèle"
+  - "Risque de {p:syndrome de Korsakoff} si Wernicke non traité — IRRÉVERSIBLE"
+
+ssps_ou_utiliser:
+  - SSP-PSY-01 # Dépendance et addictions
+  - SSP-URG-AGITATION # Agitation psychiatrique
+  - SSP-URG-INTOXICATIONS # Intoxications

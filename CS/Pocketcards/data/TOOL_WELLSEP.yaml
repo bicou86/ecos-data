@@ -1,0 +1,50 @@
+id: TOOL-WELLSEP
+type: tool
+title: Score de Wells (embolie pulmonaire)
+discipline: Pulmo
+version: 2026-05-28
+status: draft
+sources:
+  - Wells PS et al. Ann Intern Med 2001
+  - ESC Guidelines on Pulmonary Embolism 2019
+
+quand_utiliser:
+  - "Évaluation de la probabilité pré-test d'{p:embolie pulmonaire} (EP) chez patient suspect aux urgences"
+  - "Décision : {t:D-dimères} (probabilité faible/intermédiaire) vs {t:angio-TDM thoracique} d'emblée (probabilité haute)"
+  - "Stratégie YEARS / PERC complémentaire pour exclusion ambulatoire"
+  - "Standardisation du raisonnement clinique face à une {s:dyspnée} ou {s:douleur thoracique} inexpliquée"
+
+items:
+  - |-
+    7 critères pondérés. Score total = somme des points :
+  - "{s:Signes cliniques de {p:TVP}} (œdème + douleur jambe) — 3 points"
+  - "EP est le diagnostic le {s:plus probable} (clinique ne plaide pas pour une alternative) — 3 points"
+  - "{s:Fréquence cardiaque} > 100 bpm — 1,5 points"
+  - "{r:Immobilisation} (alitement ≥ 3 j) ou {r:chirurgie} dans les 4 dernières semaines — 1,5 points"
+  - "ATCD personnel d'{p:EP} ou de {p:TVP} — 1,5 points"
+  - "{s:Hémoptysie} — 1 point"
+  - "{p:Cancer actif} (traité dans les 6 derniers mois ou palliatif) — 1 point"
+
+score_interpretation:
+  - score: "≤ 4 (2 niveaux : EP improbable)"
+    interpretation: "Probabilité {s:faible/modérée} — doser {t:D-dimères} (cutoff ajusté à l'âge si > 50 ans : âge × 10 µg/L) ; si négatifs, EP exclue sans imagerie"
+  - score: "> 4 (EP probable)"
+    interpretation: "Probabilité {s:haute} — {t:angio-TDM thoracique} d'emblée (ou {t:scintigraphie V/Q} si CI au scanner : grossesse, IR sévère, allergie iode)"
+  - score: "0-1 (3 niveaux : faible)"
+    interpretation: "EP très peu probable — appliquer score {t:PERC} ; si tous critères négatifs, exclure EP sans D-dimères"
+  - score: "2-6 (3 niveaux : modérée)"
+    interpretation: "EP intermédiaire — D-dimères + imagerie selon résultat"
+  - score: "≥ 7 (3 niveaux : haute)"
+    interpretation: "EP très probable — angio-TDM + initier {r:anticoagulation} (HBPM ou HNF) en attendant le résultat si pas de saignement actif"
+
+limites:
+  - "Item « EP plus probable » {e:subjectif} — variabilité inter-observateur"
+  - "Mauvaise performance chez {e:patient hospitalisé}, {e:cancer évolutif}, {e:grossesse} (préférer algorithme YEARS adapté)"
+  - "Score haut ne dispense pas d'évaluer la {s:stabilité hémodynamique} (TA, lactates) → EP massive = {r:thrombolyse}"
+  - "{t:D-dimères} : excellent VPN mais nombreux faux positifs (inflammation, post-chir, grossesse, âge avancé)"
+  - "Ne s'applique pas à l'EP sub-segmentaire isolée ni au suivi sous anticoagulation"
+
+ssps_ou_utiliser:
+  - SSP-PUL-01 # Dyspnée
+  - SSP-PUL-02 # Hémoptysie
+  - SSP-CAR-Douleur_Thoracique # Douleur thoracique

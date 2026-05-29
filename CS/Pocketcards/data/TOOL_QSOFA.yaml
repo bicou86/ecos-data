@@ -1,0 +1,45 @@
+id: TOOL-QSOFA
+type: tool
+title: qSOFA (quick Sequential Organ Failure Assessment)
+discipline: Urgences
+version: 2026-05-28
+status: draft
+sources:
+  - Singer M et al. JAMA 2016 (Sepsis-3 definition)
+  - Surviving Sepsis Campaign Guidelines 2021
+
+quand_utiliser:
+  - "Dépistage rapide du {p:sepsis} chez tout patient avec infection suspectée hors USI"
+  - "Triage aux urgences — qSOFA ≥ 2 = risque accru de mortalité hospitalière (10×)"
+  - "Outil simple, pas de prise de sang requise — utilisable en pré-hospitalier"
+  - "Alerte pour {r:remplissage}, {r:hémocultures avant ATB}, {r:antibiothérapie large spectre dans l'heure} (« sepsis bundle 1h »)"
+  - "Décision de transfert {r:USI} ou de surveillance rapprochée"
+
+items:
+  - |-
+    3 critères cliniques simples — 1 point chacun, score 0-3 :
+  - "1. **{s:Altération de l'état mental}** : Glasgow < 15 (toute baisse — confusion, désorientation, agitation, somnolence)"
+  - "2. **{s:Tachypnée}** : fréquence respiratoire ≥ 22/min"
+  - "3. **{s:Hypotension}** : TA systolique ≤ 100 mmHg"
+
+score_interpretation:
+  - score: "0-1"
+    interpretation: "Risque {s:faible} de mortalité — surveillance standard, ré-évaluer si dégradation ; ne PAS exclure le sepsis sur ce seul score"
+  - score: "≥ 2"
+    interpretation: "{p:Sepsis} probable — mortalité hospitalière ∼ 10% (vs 1% si qSOFA ≤ 1) ; lancer {r:sepsis bundle 1h} : 2 paires d'hémocultures + lactates + {r:ATB IV large spectre} (selon foyer suspecté) + {r:remplissage cristalloïdes 30 mL/kg} si hypotension ou lactates > 4 mmol/L"
+  - score: "≥ 2 + lactates > 2 mmol/L"
+    interpretation: "{p:Sepsis sévère / choc septique débutant} — transfert {r:USI} + monitoring continu + envisager {r:noradrénaline} si hypoT persistante après remplissage (TA moyenne cible ≥ 65 mmHg)"
+
+limites:
+  - "Faible {s:sensibilité} (60-70%) — sepsis peut être manqué surtout chez {e:sujet âgé} (tachypnée et altération mentale moins nettes) ou {e:immunodéprimé}"
+  - "Pas adapté aux {e:patients en USI} — utiliser SOFA complet (PaO2/FiO2, plaquettes, bilirubine, créatinine)"
+  - "Spécifique mais peu sensible aux {p:infections débutantes} — ne pas exclure sepsis sur qSOFA = 0 si tableau clinique évocateur"
+  - "Sous-performe chez {e:patient sous ventilation mécanique} (FR contrôlée), {e:bêtabloquants} (pas de tachycardie compensatrice)"
+  - "Ne précise PAS le {s:foyer infectieux} — examen clinique + imagerie + microbiologie indispensables"
+  - "SIRS (Systemic Inflammatory Response Syndrome) abandonné en 2016 — Sepsis-3 retient qSOFA et SOFA"
+
+ssps_ou_utiliser:
+  - SSP-INF-02 # Fièvre
+  - SSP-INF-03 # Fièvre retour de voyage
+  - SSP-URG-CHOC # Choc
+  - SSP-URG-DETRESSE_RESP # Détresse respiratoire
