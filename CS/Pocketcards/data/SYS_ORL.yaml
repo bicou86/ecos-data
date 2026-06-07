@@ -1,0 +1,253 @@
+id: SYS-ORL
+type: sys
+title: ORL
+discipline: ORL
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/ORL/Skills/Skills-ORL.md
+  - CS/04_Skills_Examen/ORL/RMS/RMS-ORL.md
+  - Guide de l'examen clinique (Bickerley/Bates) — chapitre tête et cou, oreilles, nez, gorge
+  - Séméiologie ORL (Collège Français d'ORL et de Chirurgie Cervico-Faciale, référentiel CFORL)
+  - Guidelines AAO-HNS — Acute Otitis Externa, Sudden Hearing Loss, BPPV
+  - SSP Lausanne/Genève — examen otoscopique, rhinoscopie antérieure et examen de la cavité buccale
+
+anamnese_appareil:
+  # Symptômes cardinaux
+  - |-
+    {s:Otalgie} (douleur d'oreille):
+    • unilatérale vs bilatérale
+    • caractère (pulsatile, lancinante, à type de pression)
+    • intensité (score 0-10), rythme (nocturne?)
+    • signe du tragus (douleur à la pression du tragus → {p:otite externe})
+    • otalgie réflexe (oreille normale à l'otoscopie → origine dentaire, pharyngée, ATM, rachis cervical, {p:cancer ORL})
+    • facteurs déclenchants (baignade, bâtonnet ouaté, voyage en avion = barotraumatisme)
+    • signes associés (otorrhée, fièvre, hypoacousie)
+  - |-
+    {s:Otorrhée} (écoulement d'oreille):
+    • aspect (purulent → {p:otite moyenne perforée}/externe; séreux/clair → eczéma, LCR si traumatisme = otoliquorrhée; sanglant → traumatisme, tumeur)
+    • odeur (fétide → {p:cholestéatome})
+    • abondance, durée, récidive
+    • contexte (post-otalgie soulagée = perforation tympanique spontanée)
+  - |-
+    {s:Hypoacousie} (baisse de l'audition):
+    • uni ou bilatérale
+    • installation (brutale → {p:surdité brusque} = urgence; progressive → presbyacousie, otospongiose, neurinome)
+    • type ressenti (oreille bouchée = transmission; distorsion/recrutement = perception)
+    • fluctuante ({p:maladie de Ménière}), avec acouphènes/vertiges
+    • exposition au bruit (professionnelle, loisirs), ototoxiques (aminosides, cisplatine, diurétiques de l'anse, aspirine)
+  - |-
+    {s:Acouphènes}:
+    • subjectif (perçu par le patient seul) vs objectif (pulsatile, synchrone du pouls → cause vasculaire)
+    • uni ou bilatéral
+    • tonalité (aigu/grave), continu ou intermittent
+    • retentissement (sommeil, concentration, anxiété)
+    • association hypoacousie/vertige/plénitude
+  - |-
+    {s:Vertige}:
+    • vrai vertige rotatoire (sensation de mouvement → atteinte vestibulaire) vs instabilité/lipothymie
+    • durée des crises (secondes → {p:VPPB}; minutes-heures → Ménière; jours → névrite vestibulaire, AVC)
+    • déclenchement positionnel ({r:manœuvre de Dix-Hallpike})
+    • signes cochléaires associés (hypoacousie, acouphènes, plénitude → atteinte périphérique)
+    • signes neurologiques (diplopie, dysarthrie, paresthésies, céphalée → suspecter atteinte centrale = drapeau rouge)
+    • nausées/vomissements, nystagmus
+  - |-
+    {s:Obstruction nasale}:
+    • uni (déviation septale, polype, corps étranger chez l'enfant, {p:tumeur} si unilatérale chronique) ou bilatérale (rhinite, {p:polypose})
+    • permanente vs intermittente/alternante (cycle nasal physiologique)
+    • saisonnière (rhinite allergique) ou perannuelle
+    • associée à rhinorrhée, éternuements, prurit, anosmie
+  - |-
+    {s:Rhinorrhée}:
+    • aspect (claire/aqueuse = allergique ou rhinoliquorrhée si post-traumatique; mucopurulente = {p:sinusite}; sanglante unilatérale chronique = tumeur)
+    • antérieure et/ou postérieure (jetage postérieur, hemmage)
+    • bilatérale vs unilatérale
+  - |-
+    {s:Épistaxis} (saignement de nez):
+    • antérieure (tache vasculaire de la cloison = zone de Kiesselbach, fréquente, bénigne) vs postérieure (abondante, sujet âgé/HTA)
+    • uni ou bilatérale, abondance, récidive
+    • facteurs (traumatisme/grattage, HTA, {r:anticoagulants/antiagrégants}, troubles de la coagulation, Rendu-Osler, tumeur)
+  - |-
+    {s:Dysphagie / odynophagie}:
+    • douloureuse (odynophagie → {p:angine}, abcès) vs indolore (suspecter tumeur, trouble moteur)
+    • aux solides et/ou liquides, progression
+    • localisation (haute = oro/hypopharynx; basse = œsophage)
+    • signes d'alarme (amaigrissement, dysphonie, fausses routes, otalgie réflexe, adénopathie)
+  - |-
+    {s:Dysphonie} (modification de la voix):
+    • durée (toute dysphonie > 3 semaines chez fumeur → laryngoscopie obligatoire pour exclure {p:cancer du larynx})
+    • caractère (voix rauque, soufflée, bitonale)
+    • contexte (surmenage vocal, RGO, tabac/alcool, post-chirurgie thyroïdienne = paralysie récurrentielle)
+    • dyspnée laryngée associée (stridor = urgence)
+  - |-
+    {s:Odynophagie/angine et signes pharyngés}:
+    • mal de gorge, fièvre, dysphagie
+    • trismus + voix de canard (oropharynx encombré) → {p:phlegmon péri-amygdalien}
+    • dyspnée + hypersialorrhée → {p:épiglottite} (urgence, ne pas abaisser la langue)
+  # Antécédents et facteurs de risque ORL
+  - |-
+    Facteurs de risque carcinologiques ORL:
+    • tabac (paquets-années) et alcool (synergie majeure pour cancers VADS)
+    • exposition professionnelle (bois → adénocarcinome ethmoïdal; nickel, chrome, amiante)
+    • {p:HPV} (oropharynx, amygdale, base de langue)
+    • EBV ({p:cancer du cavum/nasopharynx})
+    • dysphonie/dysphagie/otalgie unilatérale persistante, adénopathie cervicale
+  - |-
+    Antécédents ORL personnels:
+    • otites à répétition, pose d'aérateurs transtympaniques (drains)
+    • chirurgie ORL (amygdalectomie, septoplastie, tympanoplastie, thyroïdectomie)
+    • allergies (rhinite, asthme, triade de Widal: polypose + asthme + intolérance AINS)
+    • RGO (toux, raclements, dysphonie matinale)
+    • traumatismes (nez, base du crâne, barotraumatismes)
+  - |-
+    Traitements en cours / exposition:
+    • {r:anticoagulants/antiagrégants} (épistaxis)
+    • ototoxiques (aminosides, cisplatine, furosémide, salicylés à forte dose)
+    • corticoïdes/antihistaminiques (rhinite), décongestionnants (risque de rhinite médicamenteuse si usage prolongé)
+    • exposition au bruit (port de protections?)
+  - "Mode de vie: profession (voix professionnelle, bruit, poussières de bois), baignade/plongée, tabac et alcool (UI/semaine), vaccination (pneumocoque, Hib)"
+
+examen_physique:
+  "Otoscopie & oreille":
+    - "Inspection du pavillon et de la région péri-auriculaire: déformations (oreille en chou-fleur post-traumatique), érythème/œdème, vésicules de la conque (zona auriculaire = {p:syndrome de Ramsay-Hunt}, rechercher paralysie faciale), fistule pré-auriculaire, tuméfaction rétro-auriculaire avec décollement du pavillon → {p:mastoïdite}"
+    - "{r:Signe du tragus} et palpation: douleur à la pression du tragus ou à la traction du pavillon → {p:otite externe}; palpation de la mastoïde (douleur → mastoïdite), des adénopathies pré/rétro-auriculaires"
+    - |-
+      {r:Otoscopie} — technique:
+      • choisir le plus gros spéculum adapté, tenir l'otoscope comme un stylo (appui de l'auriculaire sur la joue pour éviter de blesser si mouvement)
+      • tracter le pavillon en haut et en arrière chez l'adulte (en bas et en arrière chez le nourrisson) pour redresser le conduit
+      • toujours examiner l'oreille saine en premier
+    - "Conduit auditif externe (CAE): cérumen (bouchon obstruant), érythème/œdème/débris ({p:otite externe}), furoncle, exostoses (surfeurs), corps étranger, otorrhée"
+    - |-
+      Membrane tympanique (tympan) normale:
+      • gris perle, translucide, légèrement concave
+      • repères: manche du marteau (vertical), umbo (centre), apophyse courte (saillie antéro-supérieure), triangle lumineux (réflexe lumineux antéro-inférieur)
+      • mobilité conservée
+    - "Tympan pathologique: bombé, rouge, opaque, perte du triangle lumineux → {p:otite moyenne aiguë (OMA)}; niveau hydro-aérique ou rétraction + tympan ambré → {p:otite séromuqueuse (OSM)}; perforation (préciser siège, taille); poche de rétraction/squames blanchâtres → {p:cholestéatome}; tympan bleuté = hémotympan (fracture du rocher)"
+    - "{r:Otoscopie pneumatique} (poire de Siegle): insufflation d'air → mobilité du tympan; mobilité diminuée/absente → épanchement rétro-tympanique (OSM) ou perforation; utile au diagnostic d'OSM chez l'enfant"
+  "Nez & sinus":
+    - "Inspection externe de la pyramide nasale: déformation (déviation, ensellure, bosse), signes traumatiques (œdème, ecchymose, épistaxis), élargissement de la racine (rhinophyma), battement des ailes du nez (détresse respiratoire)"
+    - "Test de perméabilité narinaire: occlure une narine et faire respirer (buée sur miroir/test du coton sous chaque narine) → apprécier l'obstruction de chaque côté séparément"
+    - |-
+      {r:Rhinoscopie antérieure} (spéculum nasal + lumière frontale, tête en légère extension):
+      • cloison nasale: déviation, éperon, perforation, tache vasculaire de la zone de Kiesselbach (source d'{s:épistaxis} antérieure)
+      • cornets inférieurs: hypertrophie, muqueuse pâle/œdémateuse violacée (allergie) vs rouge (infection)
+      • méats: sécrétions purulentes au méat moyen → {p:sinusite}
+      • masses: {p:polypes} (translucides, mobiles, indolores, bilatéraux) vs tumeur (unilatérale, saigne au contact)
+    - "Examen de l'odorat (olfactométrie simple): substances non irritantes (café, vanille) narine par narine → anosmie/hyposmie (polypose, post-viral, traumatisme de la lame criblée, neurodégénératif)"
+    - |-
+      Palpation/percussion des sinus (sinusite):
+      • douleur à la pression des points sinusiens: sus-orbitaire (sinus frontal), sous-orbitaire/fosse canine (sinus maxillaire)
+      • douleur accrue à l'antéflexion de la tête (procubitus)
+      • transillumination (pénombre, source lumineuse sous le rebord orbitaire/contre le palais): opacité d'un sinus → comblement (peu sensible/spécifique)
+    - "Signes de gravité d'une sinusite (complications): œdème palpébral, exophtalmie, ophtalmoplégie, troubles visuels → cellulite/abcès orbitaire; céphalées intenses, syndrome méningé, troubles de conscience → complication endocrânienne (urgence)"
+  "Cavité buccale & pharynx":
+    - |-
+      Inspection de la cavité buccale (abaisse-langue + lumière, retirer prothèses):
+      • lèvres et muqueuse jugale: aphtes, leucoplasie/érythroplasie (lésions précancéreuses), candidose (enduit blanchâtre détachable), lésion ulcéro-bourgeonnante indurée → {p:cancer}
+      • gencives et dents: gingivite, foyers infectieux dentaires (otalgie réflexe), état dentaire
+      • plancher buccal et faces latérales/ventrale de la langue (sièges fréquents de cancer): palpation bimanuelle obligatoire de toute zone suspecte (induration)
+    - "Langue: protraction (déviation = atteinte du XII/hypoglosse du côté dévié), mobilité, amyotrophie/fasciculations; macroglossie; lésions (leucoplasie, ulcération indurée)"
+    - |-
+      Oropharynx (abaisse-langue, dire « ââ »):
+      • amygdales palatines: taille (gradation 0 à 4), aspect (érythémateuses, enduit/exsudat blanchâtre → {p:angine}; fausses membranes; ulcération unilatérale → angine de Vincent/tumeur), caséum
+      • voile du palais et luette: symétrie au phonème « ââ » (déviation de la luette vers le côté SAIN → paralysie du IX/X du côté dévié; voussure + déplacement médian de l'amygdale + trismus → {p:phlegmon péri-amygdalien})
+      • paroi pharyngée postérieure: jetage postérieur, granulations
+    - "Réflexe nauséeux (IX afférent, X efférent): stimulation de la paroi pharyngée; abolition uni/bilatérale → atteinte du IX/X (à interpréter avec prudence)"
+    - "Glandes salivaires (orifices canalaires): orifice du canal de Sténon (Wharton parotidien) en regard de la 2e molaire supérieure, orifice du canal de Wharton sous-mandibulaire au plancher; expression à la palpation → écoulement purulent (sialadénite/lithiase) ou clair"
+    - "Larynx (si symptômes): voix (rauque, bitonale, soufflée), examen au miroir laryngé ou nasofibroscopie (mobilité des cordes vocales, lésion); toute dysphonie > 3 semaines chez fumeur → laryngoscopie pour exclure {p:cancer du larynx}"
+  "Cou & glandes salivaires":
+    - |-
+      Inspection du cou: tuméfactions (médiane vs latérale), cicatrices, fistules, asymétrie, mobilité à la déglutition:
+      • masse médiane mobile à la déglutition et à la protraction de la langue → kyste du tractus thyréoglosse
+      • masse mobile à la déglutition seule → origine thyroïdienne
+    - |-
+      {r:Palpation des aires ganglionnaires cervicales} (examinateur derrière le patient, tête légèrement fléchie, pulpe des doigts, comparatif):
+      • chaînes: sous-mentale, sous-mandibulaire, jugulo-carotidienne (haute/moyenne/basse), spinale, sus-claviculaire (ganglion de Troisier à gauche → néoplasie abdo-thoracique), pré/rétro-auriculaire, occipitale
+      • caractériser: taille, nombre, consistance (dure = suspecte de malignité; ferme/élastique = inflammatoire), sensibilité (douloureuse = infectieuse), mobilité (fixée aux plans profonds = suspecte), localisation
+    - |-
+      Palpation de la glande thyroïde (de dos, repérer le cartilage thyroïde puis l'isthme sous le cricoïde, faire déglutir):
+      • taille, symétrie, consistance, nodule (préciser taille, mobilité)
+      • mobilité à la déglutition (caractéristique thyroïdienne)
+      • auscultation (souffle → hypervascularisation, maladie de Basedow)
+    - |-
+      Palpation des glandes salivaires:
+      • parotide (en avant et sous le lobule de l'oreille): tuméfaction (parotidite, lithiase, {p:tumeur}); une tumeur parotidienne avec paralysie faciale homolatérale = signe de malignité
+      • sous-maxillaire (sous le rebord mandibulaire, palpation bimanuelle bouche-cou): lithiase (douleur/tuméfaction rythmées par les repas = colique salivaire)
+    - "Palpation laryngo-trachéale: mobilité du larynx (signe de l'ascenseur laryngé conservé), crépitation laryngée (signe de Moure: perte = tumeur rétrocricoïdienne), position de la trachée (déviée?)"
+  "Acoumétrie (Weber/Rinne)":
+    - |-
+      Principe (diapason 512 Hz): distinguer surdité de TRANSMISSION (atteinte oreille externe/moyenne) et de PERCEPTION (atteinte cochlée/nerf):
+      • transmission: la conduction osseuse (CO) devient meilleure que la conduction aérienne (CA)
+      • perception: CA et CO diminuées du même côté, CA reste > CO
+    - |-
+      {t:Test de Weber} — diapason vibrant posé sur le vertex (ou le front), demander où le son est perçu:
+      • normal: son perçu au centre (non latéralisé)
+      • {s:latéralisé du côté MALADE} → surdité de TRANSMISSION de ce côté
+      • {s:latéralisé du côté SAIN} → surdité de PERCEPTION du côté opposé (malade)
+    - |-
+      {t:Test de Rinne} — comparer conduction aérienne (devant le CAE) et osseuse (sur la mastoïde) de la MÊME oreille:
+      • Rinne POSITIF (normal): CA > CO (encore entendu devant l'oreille après l'arrêt sur la mastoïde) → audition normale ou surdité de perception
+      • Rinne NÉGATIF: CO > CA → surdité de TRANSMISSION de cette oreille
+    - |-
+      Synthèse Weber + Rinne:
+      • Weber au centre + Rinne positif bilatéral → normal
+      • Weber latéralisé au côté sourd + Rinne négatif de ce côté → surdité de transmission (bouchon, OMA/OSM, perforation, otospongiose)
+      • Weber latéralisé au côté sain + Rinne positif bilatéral → surdité de perception (presbyacousie, traumatisme sonore, surdité brusque, neurinome)
+    - "Limite/piège: dans une surdité de perception unilatérale profonde (cophose), le Weber se latéralise vers l'oreille SAINE et le Rinne peut être faussement négatif du côté sourd (transmission osseuse controlatérale = faux Rinne); compléter par une audiométrie tonale et vocale"
+
+manoeuvres:
+  - "{r:Test de Weber}: diapason 512 Hz vibrant sur le vertex/front; POSITIF (latéralisé) du côté malade = surdité de transmission, du côté sain = surdité de perception controlatérale; jamais latéralisé = normal ou symétrique"
+  - "{r:Test de Rinne}: diapason 512 Hz, comparer conduction aérienne (CAE) et osseuse (mastoïde) d'une même oreille; NÉGATIF (CO>CA) = surdité de transmission; POSITIF (CA>CO) = normal ou surdité de perception"
+  - "{r:Otoscopie pneumatique} (poire de Siegle): insuffler de l'air dans le CAE; tympan mobile = normal; mobilité réduite/nulle = épanchement rétro-tympanique ({p:OSM}) ou perforation/tube; améliore la sensibilité diagnostique de l'OSM/OMA"
+  - "{r:Manœuvre de Dix-Hallpike} (diagnostic du {p:VPPB} du canal postérieur): patient assis, tête tournée à 45° d'un côté, allonger rapidement en arrière tête en hyperextension (-20°) hors du lit; POSITIF: nystagmus rotatoire géotrope retardé de quelques secondes, épuisable, avec vertige reproduit → VPPB du canal postérieur du côté testé (côté déclive)"
+  - "{r:Manœuvre libératoire d'Epley} (traitement du VPPB du canal postérieur): séquence de rotations de la tête après un Dix-Hallpike positif pour repositionner les otoconies dans l'utricule; efficacité élevée en 1 à 2 manœuvres"
+  - "{r:Head Impulse Test (HIT) / test d'Halmagyi}: fixation d'une cible, rotations rapides et brèves de la tête; saccade de rattrapage = réflexe vestibulo-oculaire déficient → atteinte vestibulaire PÉRIPHÉRIQUE; HIT NORMAL devant un vertige aigu = drapeau rouge faisant suspecter une cause CENTRALE (AVC)"
+  - "{t:HINTS} (Head-Impulse — Nystagmus — Test of Skew) dans le syndrome vestibulaire aigu: oriente vers une cause centrale si HIT normal, nystagmus changeant de direction (bidirectionnel), ou skew deviation présente (déviation verticale au cover-test); plus sensible que l'IRM précoce pour l'AVC de fosse postérieure"
+  - "{r:Épreuve de la déglutition / fausses routes}: faire avaler de l'eau, observer toux/voix mouillée → trouble de déglutition (paralysie pharyngo-laryngée); test du verre d'eau de 90 mL"
+  - "{r:Test de mouchage (manœuvre de Valsalva nasale) / Toynbee}: apprécier la perméabilité tubaire; bourdonnement/ressaut tympanique à l'otoscopie pendant la déglutition (Toynbee) ou le Valsalva → trompe d'Eustache perméable"
+  - "Examen des paires crâniennes pertinentes en ORL: VII (motricité faciale — paralysie périphérique avec atteinte du front), VIII (audition/équilibre), IX-X (réflexe nauséeux, symétrie du voile, déviation de la luette), XI (trapèze/SCM), XII (protraction de langue)"
+
+echelles:
+  - |-
+    {t:Score de Centor / McIsaac} — probabilité d'angine à streptocoque A (orienter le test rapide/antibiothérapie):
+    • fièvre > 38°C (+1)
+    • absence de toux (+1)
+    • adénopathies cervicales antérieures douloureuses (+1)
+    • exsudat/tuméfaction amygdalienne (+1)
+    • âge 3-14 ans (+1) ; 15-44 ans (0) ; ≥ 45 ans (-1)
+    • score bas → angine probablement virale; score élevé → test de diagnostic rapide (TDR) puis antibiotique si positif
+  - |-
+    {t:Échelle de House-Brackmann} — gradation de la {p:paralysie faciale} périphérique (I à VI):
+    • I = normal
+    • II = dysfonction légère (asymétrie minime)
+    • III = dysfonction modérée (fermeture de l'œil avec effort)
+    • IV = dysfonction modérément sévère (fermeture incomplète de l'œil)
+    • V = dysfonction sévère (mouvements à peine perceptibles)
+    • VI = paralysie totale (aucun mouvement)
+  - |-
+    {t:Classification de Friedman / gradation amygdalienne} (taille des amygdales palatines):
+    • 0 = amygdalectomie
+    • 1+ = dans la loge (< 25 % de l'oropharynx)
+    • 2+ = 25-50 %
+    • 3+ = 50-75 %
+    • 4+ = > 75 % (amygdales jointives « kissing tonsils »)
+  - |-
+    {t:Critères HINTS} (syndrome vestibulaire aigu) — distinguer périphérique vs central:
+    • Head Impulse: anormal (saccade) = périphérique rassurant ; normal = central suspect
+    • Nystagmus: unidirectionnel/horizontal = périphérique ; bidirectionnel/vertical = central
+    • Test of Skew: absent = périphérique ; présent (déviation verticale) = central
+    • « INFARCT » (Impulse Normal, Fast-phase Alternating, Refixation on Cover Test) → AVC jusqu'à preuve du contraire
+  - "{t:Échelle visuelle analogique (EVA) acouphènes / THI (Tinnitus Handicap Inventory)}: quantifie le retentissement des {s:acouphènes} (sommeil, concentration, anxiété); guide la prise en charge (TCC, thérapie sonore)"
+  - "{t:NYHA des VADS — classification de la dyspnée laryngée}: apprécier l'urgence (stridor au repos, tirage, cyanose = détresse → prise en charge immédiate des voies aériennes)"
+
+ssps_liees:
+  - SSP-ORL-01
+  - SSP-ORL-02
+  - SSP-ORL-03
+  - SSP-ORL-04
+  - SSP-ORL-05
+  - SSP-ORL-06
+  - SSP-ORL-07
+  - SSP-ORL-08
+  - SSP-ORL-09
+  - SSP-ORL-10

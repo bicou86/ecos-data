@@ -1,0 +1,226 @@
+id: SYS-MSQ
+type: sys
+title: Locomoteur
+discipline: MSQ
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Locomoteur/RMS/RMS-Locomoteur.md
+  - CS/04_Skills_Examen/Locomoteur/Skills/Skills-Locomoteur.md
+  - CS/Pocketcards/RMS/Carte_Locomoteur.pdf
+  - "Hoppenfeld S. — Examen clinique des membres et du rachis (Physical Examination of the Spine and Extremities)"
+  - "Magee DJ. — Orthopedic Physical Assessment, 7e éd."
+  - "EULAR recommendations — examen articulaire et arthrites inflammatoires"
+
+anamnese_appareil:
+  # Symptômes cardinaux
+  - |-
+    {s:Douleur articulaire/arthralgie}:
+    • siège (mono- / oligo- / polyarticulaire; axiale vs périphérique; grosses vs petites articulations)
+    • horaire {s:inflammatoire} (réveil nocturne 2e partie de nuit, raideur matinale > 30-60 min, dérouillage à l'effort) vs {s:mécanique} (déclenchée par l'effort, soulagée au repos, raideur < 15 min)
+    • mode d'installation (aigu = {p:goutte}/{p:arthrite septique}/traumatisme; subaigu/chronique = {p:polyarthrite rhumatoïde}/{p:arthrose})
+    • caractère migrateur (RAA, gonococcie) vs additif/fixe
+    • facteurs déclenchants/soulageants (repos, AINS, repas riche/alcool → goutte)
+    • {r:score EVA 0-10}
+  - |-
+    {s:Gonflement articulaire (tuméfaction)}:
+    • {s:épanchement} (choc rotulien, flot) vs {s:synovite} (tuméfaction molle, chaude) vs ostéophytose dure (arthrose)
+    • signes inflammatoires locaux (chaleur, rougeur, douleur — {e:arthrite})
+    • nombre et symétrie des articulations atteintes (symétrique petites mains → {p:PR}; asymétrique enthèses → {p:spondyloarthrite})
+    • déformations associées
+  - |-
+    {s:Raideur}:
+    • raideur matinale (durée: > 30-60 min = inflammatoire)
+    • dérouillage
+    • enraidissement après immobilité (phénomène du gel)
+    • limitation fonctionnelle (habillage, toilette, marche, préhension)
+  - |-
+    {s:Lombalgie / rachialgie}:
+    • localisation (cervicale, dorsale, lombaire, sacro-iliaque)
+    • irradiation radiculaire ({s:sciatique} L5/S1, {s:cruralgie} L3/L4)
+    • horaire mécanique vs inflammatoire (réveil nocturne, raideur matinale → {p:spondyloarthrite axiale})
+    • {e:drapeaux rouges} (âge < 20 ou > 50, fièvre, perte de poids, ATCD néoplasie, déficit neuro, {s:syndrome de la queue de cheval}: anesthésie en selle, troubles sphinctériens)
+  - |-
+    {s:Faiblesse / impotence fonctionnelle}:
+    • vraie faiblesse musculaire (myopathie, atteinte neurologique) vs limitation par douleur
+    • proximale (se relever d'une chaise, lever les bras → myosite) vs distale
+    • topographie (radiculaire, tronculaire, médullaire)
+    • fatigabilité
+  - |-
+    {s:Instabilité / blocage / dérobement}:
+    • {s:blocage} vrai (lésion méniscale, corps étranger)
+    • {s:dérobement} (instabilité ligamentaire, lâchage du quadriceps, douleur)
+    • sensation de ressaut/accrochage
+    • circonstances (escaliers, terrain irrégulier, pivot)
+  # Manifestations extra-articulaires / contexte
+  - |-
+    {s:Signes extra-articulaires} (orientent vers connectivite/spondyloarthrite):
+    • cutanés (psoriasis, érythème noueux, photosensibilité, nodules)
+    • oculaires ({p:uvéite}, sécheresse oculaire — Gougerot-Sjögren)
+    • digestifs (MICI, diarrhée — arthrite réactionnelle/entéropathique)
+    • génito-urinaires (urétrite — Fiessinger-Leroy-Reiter)
+    • Raynaud, aphtose, sécheresse buccale
+    • signes généraux (fièvre, AEG, amaigrissement)
+  # Facteurs de risque / ATCD pertinents
+  - |-
+    Facteurs de risque & ATCD:
+    • âge, sexe, profession (gestes répétitifs, port de charges), sport
+    • surcharge pondérale (IMC → {p:arthrose} portante, {p:goutte})
+    • traumatismes/chirurgies orthopédiques antérieurs
+    • {p:ostéoporose} (fractures de fragilité, ménopause, corticothérapie prolongée)
+    • métabolique (goutte/hyperuricémie, diabète, hémochromatose, dysthyroïdie)
+    • notion de morsure de tique / voyage (Lyme, arboviroses)
+  - |-
+    ATCD familiaux:
+    • {p:PR}, {p:spondyloarthrite}/HLA-B27, psoriasis, MICI
+    • {p:goutte}, arthrose précoce
+    • maladies osseuses constitutionnelles, ostéoporose familiale
+  - |-
+    Traitements en cours:
+    • antalgiques / {r:AINS} (gastro-protection?), {r:corticoïdes} (dose, durée → ostéoporose cortisonique)
+    • {r:DMARD} (méthotrexate, sulfasalazine), {r:biothérapies} (anti-TNF, etc.)
+    • {r:colchicine} / hypouricémiants (allopurinol, fébuxostat)
+    • diurétiques (favorisent l'hyperuricémie), inhibiteurs de pompe à protons (effet osseux)
+  - "Mode de vie: activité physique (type, fréquence), profession et ergonomie, alcool (UI/semaine → goutte), tabac (aggrave PR), apports calcium/vitamine D, retentissement fonctionnel (échelle d'autonomie, aides techniques)"
+
+examen_physique:
+  "Inspection (Look)":
+    - "Principe général: examen comparatif et bilatéral, patient suffisamment déshabillé, articulation comparée au côté sain; observer au repos puis pendant le mouvement; règle {r:Look–Feel–Move} (inspection → palpation → mobilité) systématique pour chaque articulation"
+    - "Démarche et statique globale (patient debout puis à la marche): boiterie d'esquive (antalgique: appui raccourci côté douloureux), {s:boiterie de Trendelenburg} (bascule du bassin → faiblesse moyen fessier/coxopathie), steppage (déficit releveurs du pied — L5/nerf fibulaire), démarche à petits pas; usage de cannes/aides techniques"
+    - "Statique du rachis (de dos et de profil): courbures physiologiques (lordose cervicale/lombaire, cyphose dorsale); {s:scoliose} (gibbosité au test de Adams = flexion antérieure), {s:hypercyphose}, hyperlordose, rectitude/inversion; bascule du bassin, asymétrie des épaules et des plis de taille; déséquilibre sagittal/fil à plomb (C7-pli interfessier)"
+    - "{s:Tuméfaction articulaire}: gonflement fusiforme (synovite des IPP → PR), épanchement (genou: comblement des méplats parapatellaires); différencier tuméfaction molle (synovite/épanchement) d'une hypertrophie osseuse dure (ostéophytes — {s:nodules d'Heberden} IPD, {s:nodules de Bouchard} IPP dans l'arthrose digitale)"
+    - "Rougeur et signes inflammatoires: érythème + chaleur localisés → {e:arthrite}; monoarthrite aiguë très inflammatoire rouge/luisante → {p:goutte} (1re MTP = podagre), {p:arthrite septique} (urgence), {p:chondrocalcinose}"
+    - "Amyotrophie: fonte musculaire en regard d'une articulation pathologique (quadriceps dans la gonarthrose/épanchement chronique, déltoïde/sus-épineux dans l'épaule, éminence thénar dans le canal carpien); mesurer la circonférence comparative (cuisse, mollet, bras)"
+    - "Déformations caractéristiques: {p:PR} — déviation cubitale des doigts (coup de vent), col de cygne, boutonnière, pouce en Z, mains rhumatoïdes; {p:arthrose} — hallux valgus, genu varum/valgum; rhumatisme psoriasique — doigt/orteil 'en saucisse' ({s:dactylite})"
+    - "Peau et phanères (orientation étiologique): plaques de {p:psoriasis} (coudes, genoux, cuir chevelu, ombilic, pli interfessier), atteinte unguéale (onycholyse, ponctuations), nodules sous-cutanés (nodules rhumatoïdes coude/tendons, {s:tophus} goutteux pavillon de l'oreille/coudes/doigts), érythème noueux, cicatrices chirurgicales"
+    - "Attitude antalgique et position de fonction: épaule en adduction-rotation interne, coude en flexion, genou en flexum, hanche en flessum-rotation externe (épanchement/coxopathie); rechercher une attitude vicieuse fixée"
+  "Palpation (Feel)":
+    - "Température cutanée: comparer avec le dos de la main des deux côtés; {s:chaleur locale} en regard d'une articulation = synovite active/arthrite (signe d'inflammation, oriente vers cause inflammatoire ou septique)"
+    - "Points douloureux et interligne articulaire: palper systématiquement l'interligne (genou en flexion 90°, interlignes digitaux), les insertions et {e:enthèses} (talon/insertion achilléenne et plantaire → enthésite des spondyloarthrites), les épines iliaques, le grand trochanter (bursite trochantérienne); reproduire la douleur du patient"
+    - "Synovite: palpation d'un empâtement élastique synovial le long de l'interligne (signe le plus fiable d'arthrite); {r:squeeze test} (compression transversale de la rangée des MCP ou MTP) — douleur = synovite débutante/PR; gonflement caoutchouteux différent de l'os dur (ostéophyte)"
+    - |-
+      {r:Recherche d'épanchement du genou}:
+      • {s:choc rotulien} — main proximale chasse le liquide du cul-de-sac sous-quadricipital vers le bas, l'index de l'autre main déprime la rotule: rebond perçu = épanchement de moyenne/grande abondance
+      • {r:signe du flot (glaçon)} — vider le compartiment médial puis percuter le latéral: onde liquidienne visible côté médial = petit épanchement
+    - "Crépitations et ressauts: main posée sur l'articulation pendant la mobilisation; {s:crépitation} fine (cartilage — arthrose fémoro-patellaire) ou grossière (os contre os); ressaut tendineux palpable (doigt à ressaut: nodule fléchisseur sur la poulie A1; ressaut de hanche)"
+    - "Palpation tendineuse et bursale: tendinopathies (coiffe des rotateurs, épicondyliens, tendon d'Achille — recherche d'un nodule/comblement), ténosynovite (de Quervain au poignet), bursites superficielles (olécrânienne, pré-patellaire, trochantérienne — tuméfaction fluctuante)"
+    - "Pouls et examen vasculaire périphérique des membres concernés: pouls distaux (radial, pédieux, tibial postérieur — toujours en cas de douleur/traumatisme de membre), chaleur et coloration distales, temps de recoloration capillaire (recherche de complication ischémique, syndrome des loges)"
+    - "Examen neurologique segmentaire (intégré au membre): sensibilité dans les dermatomes, force par myotomes (cotation MRC 0-5), réflexes ostéo-tendineux (bicipital C5-C6, tricipital C7, rotulien L3-L4, achilléen S1); rechercher signes de souffrance radiculaire/tronculaire (canal carpien: {r:signe de Tinel}, déficit médian)"
+    - "Adénopathies et palpation osseuse: ganglions de drainage (épitrochléens, axillaires, inguinaux — arthrite septique/réactionnelle); douleur osseuse focale à la pression (fracture, métastase, ostéomyélite, fracture de fatigue)"
+  "Mobilité (Move)":
+    - "Principe: tester d'abord la {r:mobilité active} (le patient mobilise — explore douleur, motivation, force, fonction) puis la {r:mobilité passive} (l'examinateur mobilise — explore l'amplitude vraie articulaire); active < passive → cause musculo-tendineuse/neurologique; active = passive limitées → cause articulaire (capsule, cartilage, épanchement). Comparer toujours au côté sain et mesurer en degrés"
+    - |-
+      Épaule (amplitudes normales):
+      • abduction 0-180° (180°), antépulsion/flexion 0-180°, rétropulsion 0-50°
+      • rotation externe 0-90° (bras au corps), rotation interne (pouce remonte jusqu'à T7-T9)
+      • {s:arc douloureux} 60-120° → conflit sous-acromial/coiffe; limitation globale active+passive douloureuse → {p:capsulite rétractile}
+    - |-
+      Rachis cervical:
+      • flexion (menton-sternum), extension, rotations 0-80° de chaque côté, inclinaisons latérales 0-45°
+      • limitation douloureuse → cervicarthrose, torticolis; reproduction d'une douleur radiculaire à l'extension-rotation homolatérale → {r:signe de Spurling} (conflit radiculaire)
+    - |-
+      Rachis lombaire:
+      • flexion antérieure ({t:distance doigts-sol}), extension, inclinaisons et rotations
+      • {t:test de Schöber} (repère L5 + 10 cm au-dessus; l'écart doit augmenter de ≥ 5 cm en flexion; < 4 cm = ankylose → {p:spondylarthrite ankylosante})
+    - |-
+      Hanche (décubitus dorsal):
+      • flexion 0-120°, extension 0-15° (procubitus), abduction 0-45°, adduction 0-30°
+      • rotations en flexion 90°: RI 0-40°, RE 0-45° (la rotation interne est la première limitée et douloureuse dans la {p:coxarthrose})
+    - |-
+      Genou:
+      • flexion 0-140°, extension 0° (rechercher flessum = déficit d'extension; recurvatum)
+      • mobilité douloureuse, craquements; déficit d'extension active (rupture de l'appareil extenseur) à distinguer du flessum fixé
+    - |-
+      Cheville / pied et poignet / main:
+      • cheville: flexion dorsale 0-20°, flexion plantaire 0-50°, inversion/éversion sous-talienne
+      • poignet: flexion/extension 0-80°, inclinaisons radiale 0-20°/cubitale 0-30°, prosupination de l'avant-bras
+      • main: opposition du pouce, flexion/extension des doigts, mesurer la {t:distance pulpe-paume} (mobilité globale en flexion)
+    - "Mobilité segmentaire vertébrale et sacro-iliaque: souplesse globale du rachis (ondulation), épreuves de provocation sacro-iliaque (FABER/Patrick, compression-écartement des ailes iliaques); raideur globale multidirectionnelle = atteinte inflammatoire axiale évoluée"
+  "Tests spécifiques":
+    - "Épaule — {r:tests de la coiffe}: Jobe (abduction 90° + antépulsion 30° + rotation interne, résistance vers le bas → sus-épineux), Patte (rotation externe contrariée → sous-épineux/petit rond), Gerber/lift-off (main décollée du dos → sous-scapulaire), Hawkins et Neer ({r:tests de conflit} sous-acromial), Palm-up/Speed (long biceps)"
+    - "Coude/poignet: {r:test de Cozen} et Mill (extension contrariée du poignet → épicondylite latérale 'tennis elbow'); {r:test de Finkelstein} (pouce empoigné, inclinaison cubitale → ténosynovite de De Quervain); {r:signe de Tinel} et {r:Phalen} au poignet → {p:syndrome du canal carpien} (paresthésies territoire médian)"
+    - |-
+      Genou — ligaments et ménisques:
+      • {r:Lachman} (flexion 20-30°, tiroir antérieur — test le plus sensible pour le {s:LCA}) et tiroir antérieur 90°
+      • {r:tiroir postérieur} → LCP
+      • {r:stress en varus/valgus} (extension et 30° de flexion) → LLE/LLI
+      • {r:McMurray} et {r:Apley} (grinding) → lésions méniscales (douleur/ressaut sur l'interligne)
+    - |-
+      Hanche et bassin:
+      • {r:test de Trendelenburg} (appui monopodal: bascule du bassin du côté opposé = insuffisance du moyen fessier)
+      • {r:FABER/Patrick} (Flexion-ABduction-Rotation Externe → douleur coxo-fémorale ou sacro-iliaque)
+      • {r:FADIR} (Flexion-ADduction-Rotation Interne → conflit fémoro-acétabulaire)
+      • {r:Thomas} (flexion controlatérale maximale: déflexion de la hanche testée = flessum/rétraction du psoas)
+    - |-
+      Rachis et racines:
+      • {r:Lasègue} (élévation jambe tendue: douleur radiculaire L5/S1 entre 30-60° = conflit disco-radiculaire; douleur lombaire seule non spécifique) et {r:Lasègue inversé}/Léri (cruralgie L3-L4, en procubitus)
+      • {r:Spurling} (compression-extension-rotation cervicale → radiculalgie du membre supérieur)
+      • {r:Schöber} (mobilité lombaire — voir Move)
+    - "Cheville/pied: {r:test de Thompson/Simmonds} (compression du mollet en procubitus: absence de flexion plantaire = rupture du tendon d'Achille); test du tiroir antérieur de cheville et stress en inversion (laxité ligament talo-fibulaire antérieur après entorse)"
+    - "Tests d'hyperlaxité et systémiques: {t:score de Beighton} (hyperlaxité), recherche de syndrome méniscal/ressaut; en cas de monoarthrite aiguë inexpliquée → indication d'une {r:ponction articulaire} (analyse cytologique, microcristaux urate/pyrophosphate, culture) pour distinguer {p:arthrite septique}, {p:goutte}, {p:chondrocalcinose}"
+
+manoeuvres:
+  - "{r:Look–Feel–Move}: trame d'examen de toute articulation — Inspection (déformation, gonflement, rougeur, amyotrophie) → Palpation (chaleur, interligne, épanchement, points douloureux) → Mobilité active puis passive comparée au côté sain. POSITIF si reproduction de la douleur/limitation → localise l'atteinte (articulaire vs péri-articulaire vs neurologique)"
+  - "{r:Choc rotulien}: genou en extension, vider le cul-de-sac sous-quadricipital d'une main, déprimer brusquement la rotule de l'autre; POSITIF (rotule qui 'flotte' et rebondit sur les condyles) → épanchement intra-articulaire du genou de moyenne à grande abondance"
+  - "{r:Test de Lachman}: genou fléchi 20-30°, une main stabilise le fémur, l'autre tire le tibia vers l'avant; POSITIF si translation antérieure augmentée avec arrêt mou comparé au côté sain → rupture du {s:LCA} (sensibilité supérieure au tiroir antérieur à 90°)"
+  - "{r:Test de McMurray}: genou en flexion maximale, rotation externe + valgus puis extension (ménisque interne); rotation interne + varus (ménisque externe); POSITIF si douleur et/ou ressaut perçu sur l'interligne → lésion méniscale correspondante"
+  - "{r:Test de Trendelenburg}: patient en appui monopodal sur le côté examiné; NORMAL = le bassin reste horizontal/monte côté soulevé; POSITIF (bascule/chute du bassin côté en suspension) → insuffisance du moyen fessier (coxopathie, atteinte du nerf glutéal supérieur L5, luxation de hanche)"
+  - "{r:Manœuvre de Lasègue}: patient en décubitus dorsal, élévation passive du membre inférieur tendu; POSITIF si douleur radiculaire (sciatalgie) irradiant dans le territoire L5/S1 entre 30° et 60° → conflit disco-radiculaire; soulagement par flexion du genou; douleur lombaire isolée = non spécifique"
+  - "{r:Signe de Spurling}: extension + inclinaison + rotation de la tête vers le côté symptomatique avec légère compression axiale; POSITIF si reproduction d'une douleur/paresthésie radiculaire dans le membre supérieur → conflit radiculaire cervical (rétrécissement foraminal)"
+  - "{r:Test de Schöber}: debout, repérer L5 (épines iliaques postéro-supérieures) et marquer 10 cm au-dessus; mesurer l'allongement en flexion antérieure maximale; NORMAL: augmentation ≥ 5 cm (≥ 15 cm total); POSITIF (< 4 cm) → ankylose lombaire (spondyloarthrite axiale, {p:spondylarthrite ankylosante})"
+  - "{r:Tests de la coiffe des rotateurs} (Jobe / Patte / Gerber): contraction résistée isolant chaque muscle (sus-épineux / sous-épineux-petit rond / sous-scapulaire); POSITIF si douleur ET/OU faiblesse → tendinopathie ou rupture du tendon testé; les {r:tests de conflit} (Neer, Hawkins) sont positifs en cas de conflit sous-acromial"
+  - "{r:Tinel et Phalen} (canal carpien): Tinel = percussion du nerf médian à la face antérieure du poignet; Phalen = flexion maximale des poignets maintenue 60 sec; POSITIFS si paresthésies/décharges dans les 3 premiers doigts et demi → {p:syndrome du canal carpien} (compression du nerf médian)"
+  - "{r:Test de Thompson (Simmonds)}: patient en procubitus, pied pendant, compression manuelle du mollet; NORMAL = flexion plantaire réflexe du pied; POSITIF (absence de flexion plantaire) → rupture complète du tendon d'Achille"
+  - "{r:Test de Thomas}: décubitus dorsal, flexion maximale de la hanche controlatérale (efface la lordose); POSITIF si la cuisse examinée se soulève du plan (flexion involontaire) → flessum de hanche / rétraction des fléchisseurs (psoas-iliaque)"
+  - "{r:FABER (Patrick)} et {r:FADIR}: FABER (Flexion-ABduction-Rotation Externe, talon sur le genou opposé, pression sur le genou) → douleur inguinale = coxo-fémorale, douleur fessière = sacro-iliaque; FADIR (Flexion-ADduction-Rotation Interne) reproduisant la douleur → conflit fémoro-acétabulaire (cam/pincer)"
+  - "{r:Squeeze test} MCP/MTP: compression transversale ferme de la rangée des articulations métacarpo- ou métatarso-phalangiennes; POSITIF (douleur exquise) → synovite précoce, argument pour une polyarthrite inflammatoire débutante ({p:PR})"
+
+echelles:
+  - |-
+    {t:DAS28 (Disease Activity Score 28)} — Activité de la {p:polyarthrite rhumatoïde}:
+    • nombre d'articulations douloureuses (/28)
+    • nombre d'articulations gonflées (/28)
+    • VS ou CRP
+    • évaluation globale du patient (EVA)
+    • interprétation: < 2,6 = rémission; 2,6-3,2 = activité faible; 3,2-5,1 = modérée; > 5,1 = forte; guide l'escalade thérapeutique (treat-to-target)
+  - |-
+    {t:Critères ACR/EULAR 2010 de la PR} — Classification (seuil ≥ 6/10):
+    • atteinte articulaire (type et nombre, 0-5)
+    • sérologie (FR et/ou {s:anti-CCP}, 0-3)
+    • réactants de phase aiguë (VS/CRP, 0-1)
+    • durée des symptômes ≥ 6 semaines (0-1)
+    • un score ≥ 6 classe une PR certaine
+  - |-
+    {t:Score de Beighton} — Hyperlaxité ligamentaire généralisée (/9):
+    • dorsiflexion du 5e doigt > 90° (1 pt × 2)
+    • apposition du pouce à l'avant-bras (1 pt × 2)
+    • hyperextension du coude > 10° (1 pt × 2)
+    • hyperextension du genou > 10° (1 pt × 2)
+    • mains à plat au sol genoux tendus (1 pt)
+    • ≥ 5/9 (adulte) = hyperlaxité (oriente vers Ehlers-Danlos hypermobile si critères associés)
+  - |-
+    {t:Échelle MRC (force musculaire)} — Cotation 0-5 (Medical Research Council):
+    • 0 = aucune contraction
+    • 1 = contraction visible sans mouvement
+    • 2 = mouvement possible sans pesanteur
+    • 3 = mouvement contre pesanteur
+    • 4 = mouvement contre résistance partielle
+    • 5 = force normale; cotation systématique des myotomes en cas d'atteinte radiculaire/neurologique
+  - |-
+    {t:Critères de Ottawa (cheville et genou)} — Indication de radiographie après traumatisme:
+    • cheville: douleur malléolaire + (sensibilité bord postérieur/pointe malléole OU incapacité de faire 4 pas)
+    • genou: âge ≥ 55 ans, sensibilité tête fibula/rotule, flexion impossible à 90°, incapacité de 4 pas
+    • règle de décision validée pour limiter les radiographies inutiles (haute sensibilité pour les fractures)
+  - "{t:WOMAC / indice de Lequesne} — Retentissement de l'{p:arthrose} de hanche/genou: évalue douleur, raideur et fonction (marche, escaliers, activités quotidiennes); permet le suivi de la gêne fonctionnelle et l'indication d'une prise en charge chirurgicale (prothèse) lorsque l'atteinte fonctionnelle est sévère"
+
+ssps_liees:
+  - SSP-MSQ-01
+  - SSP-MSQ-02
+  - SSP-MSQ-03
+  - SSP-MSQ-04
+  - SSP-MSQ-05
+  - SSP-MSQ-06
+  - SSP-MSQ-07
+  - SSP-MSQ-08
+  - SSP-MSQ-09
+  - SSP-MSQ-10

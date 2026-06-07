@@ -1,0 +1,194 @@
+id: SYS-PUL
+type: sys
+title: Pulmonaire
+discipline: Pulmo
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Pneumo/RMS/RMS-Pneumo.md
+  - CS/04_Skills_Examen/Pneumo/Skills/Skills-Pneumo.md
+  - Bates' Guide to Physical Examination and History Taking (12e éd., chap. Thorax et poumons)
+  - Macleod's Clinical Examination (14e éd., examen respiratoire)
+  - Guidelines GOLD 2024 (Global Initiative for Chronic Obstructive Lung Disease)
+  - Guidelines GINA 2024 (Global Initiative for Asthma)
+
+anamnese_appareil:
+  # Symptômes cardinaux
+  - |-
+    {s:Dyspnée}:
+    • installation (aiguë: {p:EP}, {p:pneumothorax}, OAP, crise d'{p:asthme}; subaiguë/chronique: {p:BPCO}, {p:fibrose}, épanchement)
+    • mode de survenue (effort vs repos, position)
+    • classe {t:mMRC} (0 = effort intense seulement → 4 = dyspnée au moindre effort/habillage)
+    • orthopnée et platypnée (debout)
+    • trépopnée (en décubitus latéral)
+    • caractère permanent vs paroxystique (sifflement nocturne = asthme)
+    • facteurs déclenchants (allergènes, effort, froid, infection, exposition professionnelle)
+  - |-
+    {s:Toux}:
+    • aiguë (< 3 sem) vs subaiguë (3-8 sem) vs chronique (> 8 sem)
+    • sèche (irritative, IEC, fibrose, asthme) vs productive
+    • horaire (matinale = {p:BPCO}/bronchite; nocturne = asthme, RGO, IC gauche)
+    • facteurs déclenchants (décubitus, effort, parole, froid)
+    • quinteuse/émétisante (coqueluche)
+    • prise d'{r:IEC} (toux sèche médicamenteuse)
+  - |-
+    {s:Expectorations}:
+    • quantité (bronchorrhée = DDB, OAP)
+    • aspect (muqueux clair, purulent jaune-vert = infection, rouillé = pneumocoque, mousseux rosé = OAP)
+    • {s:hémoptysie} (sang rouge aéré, émis à l'effort de toux; quantifier; éliminer épistaxis/hématémèse → {p:cancer bronchique}, {p:EP}, {p:tuberculose}, DDB)
+    • horaire et facteur déclenchant
+  - |-
+    {s:Douleur thoracique respiratoire}:
+    • caractère {s:pleurétique} (latérale, en coup de poignard, majorée à l'inspiration profonde et à la toux → atteinte pleurale: {p:pleurésie}, {p:pneumothorax}, {p:EP})
+    • siège et irradiation
+    • position antalgique (couché sur le côté atteint)
+    • association fièvre/dyspnée/hémoptysie
+  - |-
+    {s:Sibilances / wheezing perçu par le patient}:
+    • sifflement expiratoire (asthme, BPCO) vs inspiratoire ({s:stridor} → obstruction des voies aériennes supérieures, corps étranger)
+    • caractère permanent vs paroxystique nocturne
+    • réversibilité après bronchodilatateur
+  - |-
+    Signes généraux et systémiques:
+    • fièvre/frissons (infection, pneumonie)
+    • sueurs nocturnes + amaigrissement ({p:tuberculose}, néoplasie)
+    • asthénie, anorexie
+    • symptômes B (lymphome, cancer)
+    • signes ORL associés (rhinorrhée, douleur sinusienne — syndrome de toux des voies aériennes supérieures)
+  # Facteurs de risque / expositions
+  - |-
+    Tabagisme et toxiques inhalés:
+    • tabac (paquets-années = paquets/jour × années; sevrage?)
+    • cannabis, vapotage
+    • tabagisme passif
+    • cannabis/drogues inhalées
+  - |-
+    Expositions professionnelles et environnementales:
+    • poussières minérales (silice, amiante → {p:asbestose}, {p:mésothéliome})
+    • poussières organiques (foin moisi, oiseaux → {p:pneumopathie d'hypersensibilité})
+    • gaz/fumées irritants
+    • profession précise + durée + protections
+    • animaux domestiques, moisissures au domicile
+  - |-
+    ATCD respiratoires personnels et facteurs de risque:
+    • asthme/atopie (eczéma, rhinite allergique, allergies)
+    • BPCO, emphysème
+    • pneumonies récidivantes, DDB, tuberculose (traitée?)
+    • cancer pulmonaire, chirurgie thoracique
+    • {p:EP}/MTEV (FDR thrombo-emboliques: alitement, chirurgie, voyage, néoplasie, contraception, grossesse)
+    • SAOS (ronflements, somnolence diurne)
+    • immunosuppression (VIH, corticoïdes, biothérapies)
+  - |-
+    Traitements en cours et vaccination:
+    • bronchodilatateurs (BDCA/BDLA, anticholinergiques)
+    • {r:corticoïdes inhalés / systémiques}
+    • oxygénothérapie de longue durée (débit, durée/jour)
+    • {r:anticoagulants} (si suspicion EP)
+    • IEC (toux), bêtabloquants (bronchospasme)
+    • vaccinations (grippe, pneumocoque, COVID-19)
+  - "Mode de vie: contage infectieux récent, voyages (zone d'endémie TB), animal/oiseau au domicile, exposition au radon, capacité fonctionnelle (périmètre de marche, étages)"
+
+examen_physique:
+  "Inspection":
+    - "État général: conscience (somnolence → hypercapnie, agitation → hypoxie), position (assise penchée en avant mains appuyées = position du tripode → détresse; orthopnée), aptitude à parler (phrases complètes vs mots isolés = {s:dyspnée sévère}), état nutritionnel (cachexie → BPCO sévère, néoplasie)"
+    - "Signes de détresse respiratoire: {s:tachypnée} (FR > 20-25/min), {s:tirage} (mise en jeu des muscles accessoires: sterno-cléido-mastoïdiens, intercostaux, balancement thoraco-abdominal), battement des ailes du nez, {s:cyanose centrale} (lèvres, langue → hypoxémie SpO2 < 85%), {r:lèvres pincées} (pursed-lip breathing → BPCO)"
+    - "Fréquence et rythme respiratoire: compter sur 1 min sans que le patient le sache; eupnée 12-20/min; bradypnée (intoxication, atteinte centrale); {s:respiration de Cheyne-Stokes} (périodes crescendo-decrescendo + apnées → IC, atteinte neurologique); respiration de Kussmaul (ample et profonde → acidose métabolique)"
+    - "Rapport inspiration/expiration: expiration normalement passive et brève; {s:expiration prolongée et active} (frein expiratoire → obstruction bronchique: asthme, BPCO)"
+    - "Morphologie du thorax: {s:thorax en tonneau} (augmentation du diamètre antéro-postérieur → emphysème/BPCO), cyphoscoliose (syndrome restrictif), pectus excavatum/carinatum, déformations costales"
+    - "Mains et extrémités: {s:hippocratisme digital} (clubbing — angle de Lovibond > 180°, perte de l'angle unguéal → fibrose, DDB, cancer bronchique, suppuration chronique), {s:tremblements / astérixis} (flapping → encéphalopathie hypercapnique), coloration nicotinique des doigts, cyanose périphérique"
+    - "Symétrie et ampliation thoracique: observer l'expansion des deux hémithorax à l'inspiration; asymétrie (diminution du côté pathologique → épanchement, pneumothorax, condensation, atélectasie); cicatrices (thoracotomie, drain thoracique), circulation veineuse collatérale (syndrome cave supérieur)"
+    - "Signes associés: turgescence jugulaire et OMI (cœur pulmonaire chronique → {p:HTAP}), érythème noueux (sarcoïdose), adénopathies cervico-sus-claviculaires (ganglion de Troisier)"
+  "Palpation":
+    - |-
+      {r:Ampliation thoracique (expansion)}: mains à plat sur le dos, pouces rapprochés sur la ligne médiane (bases puis sommets), demander une inspiration profonde:
+      • normal: pouces s'écartent symétriquement de 3-5 cm
+      • asymétrie → côté qui se mobilise moins = côté pathologique (épanchement, pneumothorax, condensation, paralysie phrénique)
+    - |-
+      {r:Vibrations vocales (frémitus tactile)}: bord cubital ou paume des mains sur le thorax, comparaison symétrique de haut en bas, faire répéter "33" (ou "tracteur"):
+      • AUGMENTÉES → transmission par un parenchyme condensé ({p:pneumonie}, condensation)
+      • DIMINUÉES/ABOLIES → interposition (air ou liquide): {p:épanchement pleural}, {p:pneumothorax}, obstruction bronchique, emphysème, obésité
+    - "Trachée: palpation de la position trachéale dans la fourchette sternale (index de part et d'autre); déviation vers le côté atteint (atélectasie, fibrose rétractile) ou vers le côté sain (épanchement massif, {p:pneumothorax sous tension})"
+    - "Recherche d'adénopathies: aires cervicales, sus-claviculaires (Troisier = ganglion de Virchow gauche → néoplasie digestive/thoracique) et axillaires"
+    - "Recherche d'emphysème sous-cutané: crépitation neigeuse à la palpation des parties molles cervico-thoraciques → fuite aérienne (pneumothorax, traumatisme, post-drainage)"
+    - "Palpation des points douloureux pariétaux: reproduction de la douleur à la pression (origine pariétale/costale: fracture, costochondrite → oriente contre une cause pleuro-pulmonaire), recherche de fracture costale"
+  "Percussion":
+    - |-
+      Technique: percussion digito-digitale (doigt plessimètre appliqué dans l'espace intercostal, frappé par le médius de l'autre main), comparaison symétrique de haut en bas, faces postérieure, latérale et antérieure:
+      • {s:sonorité normale} (résonnance pulmonaire)
+      • {s:matité} (son mat, sensation de résistance → liquide ou solide: {p:épanchement pleural}, {p:condensation/pneumonie}, atélectasie, tumeur)
+      • {s:tympanisme / hypersonorité} (son trop résonnant → air en excès: {p:pneumothorax}, emphysème, grosse bulle)
+    - "Matité déclive et mobile: épanchement pleural → matité des bases à limite supérieure concave (courbe de Damoiseau); confirmer le caractère déclive en changeant la position du patient"
+    - "{r:Recherche de la mobilité diaphragmatique}: percuter la limite inférieure de sonorité en expiration puis en inspiration profonde; normal: descente de 3-5 cm; diminuée → paralysie phrénique, distension (BPCO), épanchement"
+    - "Percussion des creux sus-claviculaires (sommets) et de l'aire de Krönig; matité d'un sommet → tuberculose apicale, tumeur de Pancoast"
+  "Auscultation":
+    - "Technique: membrane du stéthoscope, patient assis, bouche ouverte, respiration ample par la bouche; comparaison symétrique de haut en bas (sommets → bases), faces postérieure, latérale (creux axillaires) et antérieure; au moins un cycle respiratoire complet par point"
+    - "{s:Murmure vésiculaire (MV)} normal: bruit doux, inspiratoire surtout, entendu sur les champs pulmonaires; DIMINUÉ/ABOLI → épanchement, pneumothorax, emphysème, obstruction bronchique, atélectasie, obésité"
+    - "{s:Souffle tubaire}: bruit rude, intense, à prédominance inspiratoire et expiratoire, transmis par une condensation à bronche perméable → {p:pneumonie/condensation alvéolaire}; le souffle pleurétique (doux, voilé) borde un épanchement"
+    - "{s:Râles crépitants}: bruits fins, secs, en fin d'inspiration ('marche dans la neige'/velcro) → {p:pneumonie} (foyer localisé), {p:OAP} (bilatéraux des bases), {p:fibrose pulmonaire} (secs, type velcro, bases)"
+    - "{s:Râles bronchiques (ronchi)}: bruits graves, ronflants, inspiratoires et expiratoires, mobilisés/modifiés par la toux → encombrement bronchique (bronchite, BPCO)"
+    - "{s:Sibilances (wheezing)}: bruits musicaux, aigus, à prédominance expiratoire, diffus → {p:asthme}, {p:BPCO} (bronchospasme); sibilance localisée fixe → obstruction localisée (tumeur, corps étranger)"
+    - "{s:Stridor}: bruit inspiratoire intense, aigu, audible sans stéthoscope → obstruction des voies aériennes supérieures (laryngées/trachéales): œdème, corps étranger, sténose — URGENCE"
+    - "{s:Frottement pleural}: bruit de cuir/pas dans la neige, superficiel, aux deux temps (systolo... non: aux deux temps respiratoires), DISPARAÎT EN APNÉE (distingue du frottement péricardique), localisé → {p:pleurésie sèche}, infarctus pulmonaire"
+    - |-
+      Auscultation de la voix (transmission) sur les zones suspectes:
+      • {r:bronchophonie} (voix plus forte/nette) et {r:pectoriloquie aphone} (chuchotement '33' transmis distinctement) → condensation
+      • {r:égophonie} (voix nasonnée 'bêlante', le 'é' devient 'a') → limite supérieure d'un épanchement pleural / condensation
+      • transmission diminuée → épanchement, pneumothorax
+    - "Syndromes auscultatoires à reconnaître: condensation (souffle tubaire + crépitants + bronchophonie + matité + VV augmentées); épanchement (MV aboli + matité + VV abolies + égophonie au sommet); pneumothorax (MV aboli + tympanisme + VV abolies)"
+
+manoeuvres:
+  - "{r:Vibrations vocales (frémitus tactile)}: paume/bord cubital sur le thorax, comparaison symétrique, faire dire '33'; AUGMENTÉES → condensation à bronche perméable (pneumonie); DIMINUÉES/ABOLIES → épanchement pleural, pneumothorax, emphysème, obstruction bronchique"
+  - "{r:Recherche d'égophonie}: ausculter pendant que le patient dit 'iii' de façon prolongée; POSITIF si le 'i' est entendu comme un 'a' nasonné/bêlant → bordure supérieure d'un épanchement pleural ou condensation sous-jacente"
+  - "{r:Pectoriloquie aphone}: ausculter pendant que le patient chuchote '33' (ou 'un-deux-trois'); POSITIF si les mots chuchotés sont transmis clairement et distinctement → condensation parenchymateuse (transmission accrue par le poumon dense)"
+  - "{r:Manœuvre d'ampliation thoracique}: pouces sur la ligne médiane (bases postérieures), inspiration profonde; NORMAL: écartement symétrique 3-5 cm; ASYMÉTRIQUE → réduction d'expansion du côté pathologique (épanchement, pneumothorax, condensation, paralysie diaphragmatique)"
+  - "{r:Test de Müller / mobilité diaphragmatique à la percussion}: marquer la limite inférieure de sonorité en expiration forcée puis en inspiration profonde; NORMAL: course de 3-5 cm; RÉDUITE → distension (BPCO), paralysie phrénique, épanchement ou atélectasie basale"
+  - "{r:Spirométrie / test de réversibilité bronchique}: VEMS et CVF avant/après bronchodilatateur; OBSTRUCTION si Tiffeneau VEMS/CVF < 0,70; RÉVERSIBLE (asthme) si gain VEMS ≥ 12% ET ≥ 200 ml après BDCA; obstruction fixe → {p:BPCO} (stadification GOLD selon VEMS)"
+  - "{r:Débit expiratoire de pointe (peak-flow)}: mesure au débitmètre, meilleur de 3 essais, comparé au théorique/meilleur personnel; variabilité diurne > 20% → {p:asthme}; chute → guide la sévérité d'une crise et l'efficacité du traitement"
+  - "{r:Oxymétrie de pouls (SpO2)}: capteur au doigt; normale ≥ 95% en air ambiant; hypoxémie si < 92% (cible adaptée 88-92% chez le BPCO hypercapnique connu); attention aux faux positifs (vernis, hypoperfusion, intoxication CO surestime la SpO2)"
+  - "{r:Test de marche de 6 minutes}: distance parcourue en 6 min sur terrain plat avec SpO2 continue; évalue la tolérance à l'effort et la désaturation d'effort (chute SpO2 ≥ 4% ou < 90% = significative) → fibrose, BPCO, HTAP, indication d'oxygénothérapie"
+
+echelles:
+  - |-
+    {t:mMRC (modified Medical Research Council)} — Échelle de dyspnée:
+    • 0 = dyspnée pour effort intense seulement
+    • 1 = dyspnée à la marche rapide ou en montée légère
+    • 2 = marche plus lentement que les gens du même âge, ou arrêt en marchant à plat à son rythme
+    • 3 = arrêt après ~100 m ou quelques minutes de marche à plat
+    • 4 = dyspnée au moindre effort (habillage), empêche de sortir
+    • utilisée dans l'évaluation de la {p:BPCO} (groupes GOLD)
+  - |-
+    {t:CAT (COPD Assessment Test)} — Impact de la {p:BPCO}:
+    • 8 items cotés 0-5 (toux, expectorations, oppression, dyspnée à l'effort, activités, confiance, sommeil, énergie)
+    • score total 0-40
+    • < 10 = impact faible; ≥ 10 = impact significatif (seuil GOLD pour le traitement)
+  - |-
+    {t:Score de Wells (EP)} — Probabilité clinique d'{p:embolie pulmonaire}:
+    • signes cliniques de TVP (+3)
+    • diagnostic alternatif moins probable que l'EP (+3)
+    • FC > 100/min (+1,5)
+    • immobilisation/chirurgie < 4 sem (+1,5)
+    • ATCD de TVP/EP (+1,5)
+    • hémoptysie (+1)
+    • cancer actif (+1)
+    • probabilité: ≤ 4 = EP improbable (→ {t:D-dimères}); > 4 = EP probable (→ angio-TDM)
+  - |-
+    {t:Score CURB-65} — Gravité de la {p:pneumonie} communautaire (1 point chacun):
+    • Confusion
+    • Urée > 7 mmol/l
+    • FR ≥ 30/min
+    • PA systolique < 90 ou diastolique ≤ 60 mmHg
+    • âge ≥ 65 ans
+    • 0-1 = ambulatoire; 2 = hospitalisation à discuter; ≥ 3 = sévère (envisager soins intensifs)
+  - |-
+    {t:Stadification GOLD de la {p:BPCO}} — Sévérité de l'obstruction (sur VEMS post-bronchodilatateur, si VEMS/CVF < 0,70):
+    • GOLD 1 (léger): VEMS ≥ 80% du théorique
+    • GOLD 2 (modéré): 50% ≤ VEMS < 80%
+    • GOLD 3 (sévère): 30% ≤ VEMS < 50%
+    • GOLD 4 (très sévère): VEMS < 30%
+    • groupes A/B/E selon symptômes (mMRC/CAT) et exacerbations pour guider le traitement
+
+ssps_liees:
+  - SSP-PUL-01
+  - SSP-PUL-02
+  - SSP-PUL-03
+  - SSP-URG-05

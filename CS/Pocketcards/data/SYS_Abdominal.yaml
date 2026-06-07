@@ -1,0 +1,209 @@
+id: SYS-ABD
+type: sys
+title: Abdominal
+discipline: Gastro
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Abdo/RMS/RMS-Abdo.md
+  - CS/04_Skills_Examen/Abdo/Skills/Skills-Abdo.md
+  - CS/Pocketcards/RMS/Carte_Abdominale.pdf
+  - Bates' Guide to Physical Examination and History Taking (12e éd.)
+  - Macleod's Clinical Examination (14e éd.)
+  - Guidelines ESGE/AGA Hémorragie digestive haute non variqueuse 2021
+
+anamnese_appareil:
+  # Symptômes cardinaux
+  - |-
+    {s:Douleur abdominale}:
+    • siège (épigastre, hypochondres, péri-ombilical, fosses iliaques, hypogastre) et migration (péri-ombilicale → FID = {p:appendicite})
+    • irradiation (dos/transfixiante → {p:pancréatite}, scapulaire droite → {p:colique biliaire}, descendante vers les bourses → {p:colique néphrétique})
+    • caractère (crampe/colique, brûlure, torsion, pesanteur, transfixiante)
+    • mode d'installation (brutal → perforation/ischémie/torsion; progressif → inflammatoire)
+    • intensité {r:EVA 0-10} et évolution
+    • facteurs déclenchants/aggravants (repas, gras, jeûne, décubitus, mouvement)
+    • facteurs soulageants ({r:antiacides}, position en chien de fusil, émission de selles/gaz)
+    • signes associés (fièvre, vomissements, arrêt des matières et des gaz, troubles du transit)
+  - |-
+    {s:Nausées / vomissements}:
+    • horaire (matinal, post-prandial précoce vs tardif → obstacle pylorique)
+    • contenu (alimentaire, bilieux, fécaloïde → {p:occlusion} basse, sang/marc de café → {s:hématémèse})
+    • abondance et fréquence
+    • soulagement de la douleur après vomissement (obstacle haut)
+    • retentissement (déshydratation, perte de poids)
+  - |-
+    {s:Troubles du transit}:
+    • {s:diarrhée}: nombre/jour, aiguë vs chronique (> 4 sem), aqueuse/graisseuse (stéatorrhée)/glairo-sanglante, nocturne (organique), impériosité
+    • {s:constipation}: fréquence, consistance ({t:échelle de Bristol}), date des dernières selles et derniers gaz
+    • alternance diarrhée-constipation ({p:cancer colorectal}, {p:SII})
+    • modification récente du transit après 50 ans → drapeau rouge
+  - |-
+    {s:Saignement digestif}:
+    • {s:hématémèse} (sang rouge / marc de café → hémorragie digestive HAUTE)
+    • {s:méléna} (selles noires goudronneuses nauséabondes → saignement haut)
+    • {s:rectorragies} (sang rouge → saignement BAS, ou haut massif)
+    • sang sur le papier / mêlé aux selles / après les selles
+    • retentissement hémodynamique (lipothymie, tachycardie, pâleur)
+  - |-
+    {s:Ictère}:
+    • coloration jaune des conjonctives/peau, mode d'installation
+    • urines foncées (bilirubine conjuguée) et selles décolorées (mastic → cholestase, obstacle biliaire)
+    • prurit (cholestase)
+    • douleur associée ({p:lithiase cholédocienne}) vs ictère indolore ({p:cancer pancréas} — loi de Courvoisier)
+    • fièvre + douleur + ictère = {t:triade de Charcot} ({p:angiocholite})
+  - |-
+    {s:Dysphagie / pyrosis}:
+    • dysphagie aux solides puis liquides (organique, sténose/{p:cancer œsophage}) vs paradoxale (trouble moteur)
+    • pyrosis/régurgitations acides ({p:RGO}), aggravés au décubitus/penché en avant
+    • odynophagie (œsophagite)
+    • blocage alimentaire, niveau ressenti
+  - |-
+    {s:Distension / météorisme}:
+    • ballonnement, augmentation du périmètre abdominal
+    • localisé vs diffus
+    • associé à arrêt des gaz/matières (occlusion) ou à matité déclive ({p:ascite})
+    • flatulences, éructations
+  - |-
+    {s:Symptômes généraux et drapeaux rouges}:
+    • perte de poids involontaire, anorexie, asthénie
+    • fièvre / sueurs nocturnes
+    • masse palpée par le patient
+    • anémie ferriprive inexpliquée
+    • âge > 50 ans avec symptômes nouveaux
+  # Facteurs de risque / ATCD / traitements de l'appareil
+  - |-
+    Facteurs de risque digestifs:
+    • alcool (UI/semaine → {p:cirrhose}, {p:pancréatite})
+    • tabac ({p:ulcère}, {p:Crohn}, {p:cancers digestifs})
+    • {r:AINS}/aspirine/corticoïdes (ulcère, gastrite)
+    • régime (fibres, viande rouge transformée, sel)
+    • surpoids/obésité ({p:RGO}, {p:NASH}, lithiase biliaire)
+    • voyages récents, eau/aliments à risque (diarrhée infectieuse)
+  - |-
+    ATCD digestifs personnels:
+    • chirurgie abdominale (cicatrices, brides → occlusion)
+    • {p:ulcère gastro-duodénal} / {p:H. pylori} traité
+    • {p:MICI} (Crohn, RCUH)
+    • lithiase biliaire / cholécystectomie
+    • {p:hépatite} virale (B, C), {p:cirrhose}
+    • polypes/{p:cancer colorectal}, coloscopie de dépistage
+    • diverticulose
+  - |-
+    ATCD familiaux:
+    • {p:cancer colorectal} / polypose (PAF, Lynch)
+    • {p:MICI}
+    • maladie cœliaque
+    • cancer gastrique, hépatocarcinome
+    • lithiase biliaire
+  - |-
+    Traitements en cours:
+    • {r:IPP} / antiacides / antihistaminiques H2
+    • {r:AINS}, corticoïdes, {r:anticoagulants} / antiagrégants (risque hémorragique)
+    • laxatifs, antidiarrhéiques
+    • antibiotiques récents ({p:colite à C. difficile})
+    • fer (selles noires non méléniques), opiacés (constipation)
+  - "Mode de vie: alcool (UI/semaine et type), tabac (paquets-années), alimentation (fibres, gras, irritants), hydratation, activité physique, contexte de stress (axe cerveau-intestin), sexualité et orientation (hépatites, IST anorectales)"
+
+examen_physique:
+  "Inspection":
+    - "Préalables et installation: patient en décubitus dorsal, bras le long du corps, tête sur un oreiller, genoux légèrement fléchis (relâchement de la paroi), vessie vidée, abdomen découvert des mamelons au pubis, examinateur à droite, mains et stéthoscope réchauffés, demander de pointer la zone douloureuse (examiner cette zone en DERNIER)"
+    - "État général et signes systémiques: faciès (souffrance, déshydratation, teint terreux/cirrhotique), {s:ictère} conjonctival (à la lumière du jour), pâleur conjonctivale (anémie/saignement), état nutritionnel (cachexie néoplasique vs surpoids), position antalgique (immobile = irritation péritonéale, agité = douleur de type colique)"
+    - "Morphologie de l'abdomen: plat / ballonné / distendu / 'en besace' (batracien → {p:ascite}) / scaphoïde (dénutrition); symétrie; respiration abdominale (immobilité = irritation péritonéale/péritonite)"
+    - "Peau et paroi: cicatrices (situer: McBurney → appendicectomie, Kocher → voies biliaires, Pfannenstiel → pelvienne, médiane, trocarts de laparoscopie), vergetures (récentes pourpres → {p:Cushing}, ascite), {s:circulation veineuse collatérale} (péri-ombilicale en 'tête de méduse' → {p:hypertension portale}), ecchymoses péri-ombilicale ({s:signe de Cullen}) ou des flancs ({s:signe de Grey-Turner}) → {p:pancréatite} nécrotico-hémorragique / hémopéritoine"
+    - "Ombilic: déplissé/saillant (ascite, hernie ombilicale), nodule dur ({s:nodule de Sœur Marie-Joseph} → métastase de carcinose péritonéale)"
+    - "Hernies et orifices: voussure à l'inspection puis à la toux/poussée (hernie inguinale, crurale, ombilicale, de la ligne blanche, éventration sur cicatrice); rechercher étranglement (irréductible, douloureuse, peau inflammatoire)"
+    - "Mouvements anormaux: {s:ondulations péristaltiques} visibles à travers la paroi (lutte → {p:occlusion} mécanique), pulsation épigastrique étalée et expansive ({p:anévrisme aorte abdominale})"
+    - "Signes cutanés de l'hépatopathie: {s:angiomes stellaires} (territoire cave supérieur), {s:érythème palmaire}, gynécomastie, ictère, hippocratisme digital, foetor hepaticus (rechercher en complément à distance de l'abdomen)"
+  "Auscultation":
+    - "AVANT la palpation et la percussion (qui modifieraient le péristaltisme): membrane du stéthoscope, ausculter au moins 1 zone (péri-ombilicale) — convention 4 quadrants si doute"
+    - "{s:Bruits hydro-aériques (BHA)}: normaux = 5-30/min, gargouillements irréguliers; AUGMENTÉS et métalliques/timbre aigu (lutte) → {p:occlusion mécanique} débutante; ABSENTS (écouter ≥ 2 min, idéalement plusieurs minutes avant de conclure 'silence') → {p:iléus paralytique}, péritonite, occlusion évoluée"
+    - "Bruits de clapotage (succussion): perçus en secouant le bassin du patient à jeun depuis plusieurs heures → stase gastrique / obstacle pylorique"
+    - "{s:Souffles vasculaires}: souffle systolique épigastrique/para-ombilical → {p:anévrisme} ou sténose aortique abdominale; souffles latéro-ombilicaux (flancs) → sténose des artères rénales (HTA rénovasculaire); souffles iliaques/fémoraux → AOMI"
+    - "{s:Frottement hépatique ou splénique}: bruit de cuir râpeux synchrone de la respiration en regard du foie ou de la rate → péri-hépatite (tumeur, infarctus), péri-splénite (infarctus splénique)"
+    - "Murmure veineux ({r:bruit de Cruveilhier-Baumgarten}): souffle veineux continu péri-ombilical accentué en Valsalva → {p:hypertension portale} avec recanalisation de la veine ombilicale"
+  "Percussion":
+    - "Technique: percussion digito-digitale douce, systématique sur les 4 quadrants; le tympanisme prédomine normalement (gaz digestifs); rechercher des zones de matité anormale"
+    - "{r:Matité hépatique} (mesure de la hauteur du foie): percuter de haut en bas sur la ligne médio-claviculaire droite — passage sonorité pulmonaire → matité = bord supérieur (~5e EIC), puis tympanisme colique = bord inférieur; hauteur normale 6-12 cm; > 12 cm → hépatomégalie; disparition de la matité préhépatique ({s:signe de Jobert}) → {p:pneumopéritoine} (perforation)"
+    - "{r:Matité splénique} (espace de Traube): zone sonore délimitée par 6e côte (haut), ligne axillaire antérieure (gauche), rebord costal (bas); matité à ce niveau ou {r:signe de Castell} (matité au point intercostal le plus bas sur la ligne axillaire antérieure en inspiration profonde) → splénomégalie"
+    - "{r:Recherche d'ascite — matité déclive et matité mobile}: en décubitus dorsal, matité des flancs déclive avec tympanisme péri-ombilical (anses qui flottent); puis tourner le patient en décubitus latéral et re-percuter: déplacement de la limite tympanisme/matité ({s:matité déplaçable}) confirme un épanchement libre"
+    - "{r:Signe du flot (vague)}: pour ascite abondante; un aide pose le tranchant de la main sur la ligne médiane (bloque la transmission par la paroi), l'examinateur percute un flanc et perçoit l'onde transmise sur le flanc opposé → ascite de grande abondance"
+    - "Percussion vésicale et utérine: matité sus-pubienne arrondie à convexité supérieure → globe vésical (rétention) ou utérus gravide/masse pelvienne"
+  "Palpation":
+    - "Palpation SUPERFICIELLE d'abord (main à plat, doigts joints, mouvements doux sur les 4 quadrants, en terminant par la zone douloureuse): apprécier la souplesse, repérer une {s:défense} (contraction réflexe localisée à la palpation), une sensibilité, une masse superficielle; observer le visage du patient pendant l'examen"
+    - "{s:Contracture abdominale} ('ventre de bois'): rigidité tonique, permanente, généralisée et invincible de la paroi → {p:péritonite} aiguë généralisée (urgence chirurgicale)"
+    - "Palpation PROFONDE bimanuelle: caractériser toute masse (siège, taille, forme, consistance, surface, sensibilité, mobilité, pulsatilité, caractère battant/expansif); rechercher empâtement"
+    - |-
+      {r:Palpation du foie}: main droite à plat en fosse iliaque droite remontant vers le rebord costal pendant que le patient inspire profondément; le bord inférieur vient buter contre la pulpe des doigts:
+      • apprécier: flèche hépatique (combinée à la percussion), bord (mousse/tranchant), surface (lisse/nodulaire), consistance (molle/ferme/dure pierreuse), sensibilité, reflux hépato-jugulaire (foie cardiaque)
+      • {s:hépatomégalie} régulière sensible → congestion/hépatite; dure nodulaire → {p:cirrhose}/métastases
+    - |-
+      {r:Palpation de la rate}: main gauche soulevant la paroi costale postérieure gauche, main droite partant de la FID vers l'hypochondre gauche pendant l'inspiration; répéter en décubitus latéral droit:
+      • normalement NON palpable; une rate palpable = splénomégalie (au moins ×2-3)
+      • caractères distinctifs du pôle splénique: descend en inspiration, bord crénelé/encoche, on ne passe pas la main au-dessus (vs rein)
+    - "{r:Palpation des reins} (ballottement bimanuel): une main dans la loge lombaire, l'autre en avant; le rein est refoulé (contact lombaire); normalement non palpables sauf chez le sujet maigre (pôle inférieur droit); rechercher gros rein, hydronéphrose, polykystose"
+    - "Palpation de l'aorte: en regard de l'épigastre/sus-ombilical, apprécier le diamètre entre deux mains; masse pulsatile EXPANSIVE (qui écarte les doigts) > 3 cm → suspicion d'{p:anévrisme de l'aorte abdominale}"
+    - "Recherche d'une masse pelvienne / globe: palpation hypogastrique d'une masse mate régulière (globe vésical, fibrome, grossesse) — toujours penser à la vessie pleine"
+    - "Orifices herniaires: palper les régions inguinales et crurales, au repos et à la toux; apprécier la réductibilité; un sac herniaire irréductible, tendu et douloureux = étranglement (urgence)"
+    - "Touchers pelviens (à proposer/mentionner): {r:toucher rectal} (tonus sphinctérien, fécalome, masse rectale, prostate, sang/méléna au doigtier, douleur du cul-de-sac de Douglas → 'cri du Douglas') et toucher vaginal selon contexte; complètent l'examen abdominal"
+    - "Adénopathies: rechercher un ganglion sus-claviculaire gauche ({s:ganglion de Troisier} → néoplasie digestive/abdominale), aires inguinales"
+
+manoeuvres:
+  - "{r:Signe de McBurney}: pression au point de McBurney (union 1/3 externe – 2/3 internes de la ligne épine iliaque antéro-supérieure droite – ombilic); POSITIF = douleur élective → évoque l'{p:appendicite aiguë}"
+  - "{r:Signe de Blumberg (douleur à la décompression / rebound)}: enfoncer lentement la main puis relâcher brusquement; POSITIF = douleur plus vive au relâchement qu'à la pression → irritation péritonéale localisée (appendicite, péritonite)"
+  - "{r:Signe de Rovsing}: la pression de la fosse iliaque GAUCHE réveille une douleur en fosse iliaque DROITE; POSITIF → irritation péritonéale appendiculaire (douleur référée par déplacement du gaz colique)"
+  - "{r:Signe du psoas}: extension passive de la cuisse droite (patient en décubitus latéral gauche) ou flexion contrariée de la hanche; POSITIF = douleur → appendice rétro-cæcal en contact avec le muscle psoas"
+  - "{r:Signe de l'obturateur}: rotation interne passive de la hanche droite fléchie à 90°; POSITIF = douleur hypogastrique → appendice pelvien irritant le muscle obturateur interne"
+  - "{r:Signe de Murphy}: doigts crochetés sous le rebord costal droit (ligne médio-claviculaire) pendant une inspiration profonde; POSITIF = arrêt brutal de l'inspiration par la douleur quand la vésicule descend au contact des doigts → {p:cholécystite aiguë} (à vérifier comparativement à gauche: la douleur doit être unilatérale droite)"
+  - "{r:Recherche d'ascite (matité déplaçable et signe du flot)}: matité des flancs qui se déplace au changement de décubitus = épanchement libre (sensible dès ~1500 mL); le signe du flot (onde transmise d'un flanc à l'autre, un aide bloquant la paroi médiane) est spécifique de l'ascite de grande abondance"
+  - "{r:Signe de Carnett}: repérer le point douloureux puis demander au patient de contracter la paroi abdominale (relever la tête/jambes tendues); si la douleur AUGMENTE à la contraction → origine PARIÉTALE (paroi), si elle DIMINUE → origine VISCÉRALE/intra-abdominale"
+  - "{r:Manœuvre du ressaut hépato-jugulaire / palpation du foie en inspiration}: faire respirer amplement le patient pour faire descendre le bord hépatique sous les doigts; couplée au reflux hépato-jugulaire pour le foie cardiaque congestif"
+  - "{r:Toucher rectal}: en décubitus latéral ou genu-pectoral; apprécier tonus sphinctérien, ampoule (vide/fécalome), masse, douleur du Douglas, prostate, et inspecter le doigtier (méléna, sang frais, glaires) → essentiel devant douleur abdominale aiguë, saignement digestif, occlusion ou trouble du transit"
+
+echelles:
+  - |-
+    {t:Score d'Alvarado} — Probabilité d'{p:appendicite aiguë} (MANTRELS, /10):
+    • M = douleur Migrant en FID (+1)
+    • A = Anorexie (+1)
+    • N = Nausées/vomissements (+1)
+    • T = sensibilité (Tenderness) en FID (+2)
+    • R = Rebound / défense (+1)
+    • E = Élévation de température ≥ 37,3 °C (+1)
+    • L = Leucocytose ≥ 10 G/L (+2)
+    • S = déviation gauche (Shift, neutrophilie) (+1)
+    • interprétation: < 4 = appendicite peu probable; 5-6 = compatible (observation/imagerie); ≥ 7 = appendicite probable (avis chirurgical)
+  - |-
+    {t:Échelle de Bristol} — Consistance des selles (forme, type 1 à 7):
+    • 1 = billes dures séparées / 2 = en saucisse grumeleuse → {s:constipation}
+    • 3 = saucisse fissurée / 4 = saucisse lisse → normal
+    • 5 = morceaux mous à bords nets / 6 = morceaux floconneux / 7 = liquide → {s:diarrhée}
+    • outil de suivi du transit et de la réponse au traitement
+  - |-
+    {t:Score de Child-Pugh} — Sévérité de la {p:cirrhose} (5 items: bilirubine, albumine, INR/TP, ascite, encéphalopathie; 1-3 points chacun):
+    • classe A = 5-6 points (compensée)
+    • classe B = 7-9 points
+    • classe C = 10-15 points (décompensée, pronostic réservé)
+    • guide le pronostic et l'opérabilité
+  - |-
+    {t:Score de Glasgow-Blatchford (GBS)} — Risque dans l'{p:hémorragie digestive haute} (pré-endoscopique):
+    • variables: urée, hémoglobine, PAS, fréquence cardiaque, méléna, syncope, hépatopathie, insuffisance cardiaque
+    • SCORE = 0 → bas risque, prise en charge ambulatoire possible; score élevé → endoscopie/hospitalisation
+    • prédit le besoin de transfusion / endoscopie / intervention
+  - |-
+    {t:Score de Rockall} — Risque de mortalité/récidive après {p:hémorragie digestive haute}:
+    • clinique (âge, choc, comorbidités) ± endoscopique (diagnostic, signes de saignement récent)
+    • stratifie le risque de récidive hémorragique et de décès
+  - "{t:Critères de Rome IV} — Diagnostic positif du {p:syndrome de l'intestin irritable (SII)}: douleur abdominale récurrente ≥ 1 jour/semaine sur les 3 derniers mois, associée à ≥ 2 critères (liée à la défécation, modification de la fréquence des selles, modification de la consistance des selles); diagnostic clinique après exclusion des drapeaux rouges"
+
+ssps_liees:
+  - SSP-GAS-01
+  - SSP-GAS-02
+  - SSP-GAS-03
+  - SSP-GAS-04
+  - SSP-GAS-05
+  - SSP-GAS-06
+  - SSP-GAS-07
+  - SSP-GAS-08
+  - SSP-GAS-09
+  - SSP-GAS-10
+  - SSP-GAS-11
+  - SSP-GAS-12

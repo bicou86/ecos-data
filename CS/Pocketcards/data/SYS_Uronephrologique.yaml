@@ -1,0 +1,183 @@
+id: SYS-URO
+type: sys
+title: Uro-néphrologique
+discipline: Nephro
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Uro_Nephro/RMS/RMS-Uro.md
+  - CS/04_Skills_Examen/Uro_Nephro/Skills/Skills-Uro.md
+  - CS/Pocketcards/RMS/Carte_Uro-nephrologique.pdf
+  - Bates' Guide to Physical Examination and History Taking (séméiologie uro-génitale et rénale)
+  - Guidelines EAU (European Association of Urology) 2024 — HBP, hématurie, troubles mictionnels
+  - KDIGO 2024 Clinical Practice Guideline (insuffisance rénale aiguë et chronique)
+
+anamnese_appareil:
+  # Symptômes cardinaux
+  - |-
+    {s:Douleur lombaire / colique néphrétique}:
+    • siège (fosse lombaire uni/bilatérale, angle costo-vertébral)
+    • irradiation (descendante vers flanc → fosse iliaque → organes génitaux/face interne cuisse = {p:lithiase urétérale})
+    • caractère (paroxystique, intense, sans position antalgique = colique; sourde et fixe = pyélonéphrite/obstruction chronique)
+    • facteurs déclenchants (effort, voyage, déshydratation)
+    • association {s:fièvre} (→ {p:pyélonéphrite}, urgence), nausées/vomissements, agitation
+    • {r:score 0-10}
+  - |-
+    {s:Troubles mictionnels — symptômes du bas appareil (LUTS)}:
+    • symptômes de remplissage (irritatifs): {s:pollakiurie} (fréquence diurne), {s:nycturie} (nombre de réveils), {s:urgenturie} (besoin impérieux), {s:incontinence}
+    • symptômes de vidange (obstructifs): dysurie d'attente (retard à l'initiation), jet faible/haché, poussée abdominale, gouttes retardataires, sensation de vidange incomplète
+    • {s:rétention aiguë d'urine} (impossibilité d'uriner + globe douloureux = urgence)
+    • {t:score IPSS} pour quantifier
+  - |-
+    {s:Hématurie}:
+    • timing (initiale = urétro-prostatique; terminale = vésicale; totale = haut appareil/rénale)
+    • macro vs microscopique
+    • caillots (suggèrent origine vésicale/tumorale)
+    • douloureuse ({p:lithiase}, {p:cystite}) vs indolore (alarme: {p:tumeur urothéliale/vésicale}, surtout si tabac + > 50 ans)
+    • diagnostics différentiels colorants (betterave, rifampicine, myoglobinurie)
+  - |-
+    {s:Troubles de la diurèse}:
+    • {s:oligo-anurie} (< 500 / < 100 mL/24h → {p:IRA}, obstruction, choc)
+    • {s:polyurie} (> 3 L/24h → diabète, diabète insipide, potomanie)
+    • soif anormale (polydipsie)
+    • mousse dans les urines / urines troubles (→ {s:protéinurie}, infection)
+    • bilan entrées/sorties
+  - |-
+    {s:Symptômes urémiques / IRC}:
+    • asthénie, anorexie, nausées matinales, goût métallique
+    • prurit, crampes, jambes sans repos
+    • dyspnée (surcharge), œdèmes
+    • troubles cognitifs/somnolence (encéphalopathie urémique)
+    • antécédents néphrotoxiques (AINS, produits de contraste, aminosides)
+  - |-
+    {s:Symptômes génitaux}:
+    • douleur scrotale aiguë (→ {p:torsion testiculaire} = urgence < 6h, vs {p:orchi-épididymite})
+    • masse/tuméfaction scrotale (hydrocèle, varicocèle, hernie, {p:tumeur testiculaire})
+    • {s:dysfonction érectile}, troubles de l'éjaculation
+    • écoulement urétral, dyspareunie
+    • anamnèse sexuelle (partenaires, protection → {p:IST})
+  # Facteurs de risque / ATCD pertinents
+  - |-
+    Facteurs de risque uro-néphrologiques:
+    • {p:HTA} et {p:diabète} (1res causes d'IRC)
+    • tabac (FR majeur de tumeur vésicale/rénale)
+    • lithiase (récidive, antécédent familial, déshydratation, régime)
+    • exposition professionnelle (amines aromatiques → vessie)
+    • infections urinaires récidivantes, sondage, manœuvres endo-urologiques
+  - |-
+    ATCD uro-néphrologiques personnels:
+    • {p:IRA}/{p:IRC} (stade, eGFR connue, dialyse, greffe rénale)
+    • lithiases (nature, traitement: LEC, urétéroscopie)
+    • {p:HBP} / chirurgie prostatique (RTUP)
+    • cancers (rein, vessie, prostate, testicule)
+    • uropathie malformative, reflux vésico-urétéral, rein unique
+  - |-
+    Traitements en cours (néphrotoxiques / urologiques):
+    • {r:AINS}, IEC/ARA II (hémodynamique rénale)
+    • diurétiques (de l'anse, thiazidiques)
+    • {r:alpha-bloquants} (tamsulosine), {r:inhibiteurs 5-alpha-réductase} (finastéride)
+    • anticholinergiques / bêta-3-agonistes (vessie hyperactive)
+    • aminosides, produits de contraste iodés, lithium, ciclosporine
+  - "Mode de vie: apports hydriques (L/jour), consommation de sel et protéines, sport (rhabdomyolyse), exposition à des néphrotoxiques, anamnèse sexuelle et continence (impact qualité de vie)"
+
+examen_physique:
+  "Inspection":
+    - "État général: état d'hydratation (pli cutané, muqueuses sèches, soif → déshydratation; vs surcharge: œdèmes, prise pondérale), teint (pâleur de l'anémie de l'{p:IRC}, teint urémique gris-jaunâtre), état nutritionnel (dénutrition de l'IRC, cachexie tumorale)"
+    - "Signes de surcharge hydro-sodée: {s:œdèmes} déclives (signe du godet aux MI, lombaires chez l'alité), bouffissure du visage et œdème péri-orbitaire matinal (évocateur du {p:syndrome néphrotique}), ascite, épanchements"
+    - "Peau et phanères: lésions de grattage (prurit urémique), purpura/ecchymoses (troubles de l'hémostase de l'urémie), pâleur cutanéo-muqueuse (anémie de l'IRC), givre urémique (rare, urémie terminale)"
+    - "Abdomen / flancs: voussure d'un flanc (gros rein: {p:hydronéphrose}, polykystose, tumeur), voussure hypogastrique (globe vésical en cas de {p:rétention d'urine}), cicatrices (néphrectomie, transplant en fosse iliaque, dérivation urinaire, sonde sus-pubienne), circulation veineuse collatérale"
+    - "Accès de dialyse: fistule artério-veineuse (avant-bras: cicatrice, dilatation veineuse — rechercher le frémissement/thrill), cathéter de dialyse péritonéale ou cathéter veineux central tunnelisé"
+    - "Région génitale et périnée (inspection): excoriations, écoulement, lésions cutanées; observer le jet mictionnel si possible (déviation, faiblesse)"
+  "Palpation rénale":
+    - |-
+      {r:Palpation bimanuelle des reins (méthode du ballottement de Guyon)} — patient en décubitus dorsal, examinateur à droite:
+      • une main postérieure dans l'angle costo-vertébral (soulève le rein), une main antérieure sous le rebord costal
+      • demander une inspiration profonde: le rein descend et vient buter contre la main antérieure
+      • rein normal: habituellement non palpable (le pôle inférieur du rein droit peut l'être chez le sujet maigre)
+      • contact lombaire et ballottement = caractère rétropéritonéal d'une masse rénale (différencie d'une masse intrapéritonéale)
+    - "Gros rein palpable: bilatéral → {p:polykystose rénale} (reins bosselés, volumineux); unilatéral → {p:hydronéphrose}, tumeur rénale, kyste solitaire; sensibilité associée → pyélonéphrite/abcès"
+    - "{r:Palpation du globe vésical}: masse hypogastrique sus-pubienne, rénitente, mate à la percussion, convexe vers le haut, dont la pression déclenche une envie d'uriner → {p:rétention vésicale}; à distinguer d'une masse pelvienne (utérus, kyste ovarien)"
+    - "Palpation des points urétéraux: point urétéral supérieur (bord externe du grand droit au niveau ombilical) et moyen (jonction tiers externe-tiers moyen de la ligne bi-iliaque); douleur provoquée → atteinte urétérale/lithiase"
+    - "Palpation abdominale générale: rechercher un anévrisme aortique (masse battante et expansive épigastrique — DD douleur lombaire), une sensibilité des fosses iliaques, des adénopathies inguinales (drainage génital/testiculaire)"
+  "Percussion (Giordano)":
+    - |-
+      {r:Manœuvre de Giordano (ébranlement lombaire / punch rénal)} — patient assis penché en avant:
+      • placer une main à plat sur l'angle costo-vertébral (12e côte / muscles paravertébraux)
+      • percuter le dos de cette main avec le bord cubital de l'autre poing, d'un coup sec mais modéré
+      • comparer les deux côtés
+      • POSITIF: douleur vive reproduite du côté atteint → irritation/inflammation de la loge rénale ({p:pyélonéphrite}, {p:colique néphrétique} obstructive, abcès péri-rénal)
+      • NÉGATIF: simple sensation de choc indolore (normal)
+    - "Percussion hypogastrique: matité sus-pubienne convexe vers le haut → {p:globe vésical} (la matité d'une vessie pleine remonte au-dessus du pubis; confirme l'inspection/palpation d'une rétention)"
+    - "Percussion des flancs et recherche d'ascite: matité déclive des flancs avec matité mobile/déplaçable au changement de position (signe du flot) → ascite, fréquente dans le syndrome néphrotique et l'IRC surchargée"
+  "Examen génital externe":
+    - "Examen génital MASCULIN — verge: rétracter le prépuce (rechercher phimosis, paraphimosis, balanite), localiser le méat urétral (hypospadias/épispadias), palper le long de l'urètre (induration, écoulement provoqué), inspecter pour lésions/ulcérations (IST, carcinome)"
+    - |-
+      Examen génital MASCULIN — bourses (debout puis couché, salle chaude):
+      • palper chaque testicule entre pouce et index: taille, consistance (induration/nodule dur indolore → {p:tumeur testiculaire}), sensibilité
+      • palper l'épididyme (postéro-supérieur): tuméfaction douloureuse → {p:orchi-épididymite}
+      • cordon spermatique: varicocèle (« sac de vers », gauche surtout, augmente à la {r:manœuvre de Valsalva}, disparaît en décubitus)
+      • {r:transillumination}: masse translucide → {p:hydrocèle} (liquidienne); opaque → masse solide (tumeur) ou hématocèle
+    - "Examen génital MASCULIN — réflexe crémastérien: stimulation de la face interne de la cuisse → ascension du testicule homolatéral; ABOLI dans la {p:torsion testiculaire} (signe d'orientation, à intégrer au contexte)"
+    - "Examen génital FÉMININ (orienté uro-gynécologique): inspecter le méat urétral et le vestibule (caroncule, écoulement, prolapsus de la muqueuse urétrale), rechercher un prolapsus génital (cystocèle/rectocèle à la poussée), tester l'{s:incontinence urinaire d'effort} (fuite à la toux/poussée)"
+    - "Recherche de hernie inguinale (homme): index invaginé dans le canal inguinal via le scrotum, faire tousser → impulsion (différencie hernie d'une masse scrotale pure); inspecter les orifices herniaires"
+  "Toucher rectal & prostate":
+    - |-
+      {r:Toucher rectal (TR)} — patient en décubitus latéral genoux fléchis ou penché en avant, doigt ganté et lubrifié, consentement et explication préalables:
+      • temps anal: tonus sphinctérien, fissures, hémorroïdes, masse du canal anal
+      • temps rectal: ampoule (selles, masse, sang sur le doigtier)
+      • puis évaluation de la prostate sur la face antérieure
+    - |-
+      {r:Évaluation de la PROSTATE au TR} — caractériser systématiquement:
+      • TAILLE/volume (normale ≈ châtaigne; augmentée et régulière → {p:HBP})
+      • SURFACE et CONSISTANCE (lisse, élastique et régulière = bénin; dure, irrégulière, nodulaire, pierreuse → suspicion de {p:cancer prostatique})
+      • SILLON médian (effacé en cas d'hypertrophie volumineuse)
+      • SENSIBILITÉ (prostate chaude, douloureuse, bombée → {p:prostatite aiguë} — TR doux, ne pas masser)
+      • mobilité/fixité, limites
+    - "Interprétation et suite: un TR normal n'exclut pas un cancer (zone antérieure non accessible) → corréler au {t:PSA}; tout nodule dur ou asymétrie justifie un avis urologique (IRM/biopsie); ne jamais masser une prostate en prostatite aiguë (risque de bactériémie)"
+    - "Tonus sphinctérien et sensibilité périnéale: hypotonie + anesthésie en selle + globe vésical → suspicion de {p:syndrome de la queue de cheval} (urgence neurochirurgicale); explorer les réflexes périnéaux (bulbo-caverneux)"
+
+manoeuvres:
+  - "{r:Manœuvre de Giordano (ébranlement de la loge rénale)}: percussion de l'angle costo-vertébral avec le bord cubital du poing, patient assis penché en avant, comparatif; POSITIF si réveil d'une douleur vive homolatérale → {p:pyélonéphrite}, obstruction urétérale aiguë, abcès péri-rénal; NÉGATIF si simple ébranlement indolore"
+  - "{r:Recherche du globe vésical}: inspection (voussure hypogastrique), palpation (masse rénitente sus-pubienne déclenchant l'envie d'uriner), percussion (matité convexe vers le haut); POSITIF → {p:rétention aiguë d'urine} (sondage en urgence); différencier d'un fécalome ou d'une masse pelvienne"
+  - "{r:Transillumination scrotale}: en salle obscure, appliquer une source lumineuse derrière la bourse tuméfiée; POSITIF (la masse laisse passer la lumière, halo translucide) → contenu liquidien = {p:hydrocèle}/kyste épididymaire; NÉGATIF (masse opaque) → masse solide ({p:tumeur testiculaire}) ou hématocèle → échographie scrotale urgente"
+  - "{r:Manœuvre de Valsalva pour varicocèle}: patient debout, palper le cordon spermatique pendant qu'il pousse en bloquant la respiration; POSITIF si le « sac de vers » veineux apparaît/se majore et disparaît en décubitus → {p:varicocèle} (gauche surtout; une varicocèle droite isolée ou non réductible impose de rechercher une cause obstructive rétropéritonéale/rénale)"
+  - "{r:Test de toux (incontinence d'effort)}: vessie modérément remplie, patiente debout/lithotomie, demander une toux franche; POSITIF si fuite urinaire synchrone du jet de toux → {p:incontinence urinaire d'effort} (insuffisance sphinctérienne/hypermobilité urétrale); une fuite retardée évoque plutôt une hyperactivité détrusorienne"
+  - "{r:Réflexe crémastérien}: griffer la face interne de la cuisse de haut en bas; NORMAL: contraction du crémaster → ascension du testicule homolatéral; ABOLI du côté atteint → argument pour une {p:torsion du cordon spermatique} (à confronter au tableau aigu: testicule ascensionné, horizontalisé, signe de Prehn négatif)"
+  - "{r:Signe de Prehn}: soulever le testicule douloureux vers le pubis; soulagement de la douleur → en faveur d'une {p:orchi-épididymite} (Prehn positif); absence de soulagement/aggravation → en faveur d'une {p:torsion testiculaire} (Prehn négatif) — signe d'orientation, non suffisant pour exclure une torsion"
+  - "{r:Recherche d'hypotension orthostatique} (contexte déshydratation/IRA fonctionnelle, néphropathie autonomique du diabète): PA et FC couché puis debout à 1 et 3 min; POSITIF si chute systolique ≥ 20 mmHg ou diastolique ≥ 10 mmHg → hypovolémie/déshydratation (orientant une IRA pré-rénale)"
+  - "Évaluation de l'état volémique (à intégrer en néphro): turgescence jugulaire, reflux hépato-jugulaire, crépitants des bases (surcharge) vs pli cutané, hypotension orthostatique, muqueuses sèches (déplétion); guide la distinction IRA pré-rénale vs surcharge de l'IRC oligo-anurique"
+
+echelles:
+  - |-
+    {t:IPSS (International Prostate Symptom Score)} — sévérité des troubles mictionnels (HBP):
+    • 7 items (vidange incomplète, fréquence, jet intermittent, urgence, faiblesse du jet, poussée, nycturie), cotés 0-5
+    • SCORE 0-7 = symptômes légers; 8-19 = modérés; 20-35 = sévères
+    • + 1 question de qualité de vie (0-6)
+    • oriente l'indication thérapeutique ({r:surveillance} vs {r:alpha-bloquant}/inhibiteur 5-alpha-réductase vs chirurgie)
+  - |-
+    {t:Stades KDIGO de l'IRC} — selon le DFG estimé (eGFR, mL/min/1,73 m2):
+    • G1 ≥ 90 (lésions rénales avec DFG normal)
+    • G2 = 60-89 (légèrement diminué)
+    • G3a = 45-59 / G3b = 30-44 (modéré)
+    • G4 = 15-29 (sévère)
+    • G5 < 15 (insuffisance rénale terminale → suppléance)
+    • à croiser avec l'albuminurie (A1 < 30, A2 = 30-300, A3 > 300 mg/g) pour le pronostic
+  - |-
+    {t:Classification KDIGO de l'IRA} — sévérité de l'insuffisance rénale aiguë:
+    • Stade 1: créatinine × 1,5-1,9 ou + 26,5 µmol/L; diurèse < 0,5 mL/kg/h pendant 6-12h
+    • Stade 2: créatinine × 2-2,9; diurèse < 0,5 mL/kg/h ≥ 12h
+    • Stade 3: créatinine × 3 ou ≥ 354 µmol/L ou dialyse; diurèse < 0,3 mL/kg/h ≥ 24h ou anurie ≥ 12h
+    • orienter la démarche pré-rénale / rénale / post-rénale (obstruction)
+  - "{t:Échelle de Bristol}: typologie des selles (type 1-7), utile au TR et dans le bilan d'une constipation pouvant aggraver une dysurie/rétention; type 1-2 = constipation, 3-4 = normal, 5-7 = selles molles/diarrhée"
+  - "{t:PSA (antigène spécifique de prostate)}: non un score clinique mais seuil de référence — valeur globalement < 4 ng/mL (à pondérer selon âge et volume prostatique); cinétique (PSA velocity) et rapport PSA libre/total affinent le risque; toujours interpréter avec le TR (un TR suspect impose un avis même si PSA normal)"
+
+ssps_liees:
+  - SSP-NEP-01
+  - SSP-NEP-02
+  - SSP-NEP-03
+  - SSP-NEP-04
+  - SSP-NEP-05
+  - SSP-NEP-06
+  - SSP-NEP-07
+  - SSP-NEP-08
+  - SSP-URO-01

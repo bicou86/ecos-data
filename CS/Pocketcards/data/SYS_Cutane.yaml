@@ -1,0 +1,183 @@
+id: SYS-DER
+type: sys
+title: Cutané
+discipline: Dermato
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Dermato/Skills/Skills-Dermato.md
+  - CS/04_Skills_Examen/Dermato/RMS/RMS-Dermato.md
+  - Saurat J.-H. et al., Dermatologie et infections sexuellement transmissibles, 6e éd., Elsevier Masson 2017 (sémiologie des lésions élémentaires)
+  - Bolognia J. et al., Dermatology, 4th ed., Elsevier 2018
+  - Habif T.P., Clinical Dermatology, 6th ed., Elsevier 2016 (manœuvres et examen clinique)
+  - Guidelines suisses SSDV / recommandations dépistage mélanome (règle ABCDE, dermatoscopie)
+
+anamnese_appareil:
+  # Symptômes cardinaux
+  - |-
+    {s:Prurit}:
+    • localisé vs généralisé
+    • horaire (nocturne aggravé → {p:gale}, lymphome; matinal)
+    • intensité (impact sur le sommeil, lésions de grattage)
+    • facteurs déclenchants (eau/bain = prurit aquagénique → {p:polyglobulie}, contact, chaleur)
+    • facteurs soulageants ({r:émollients}, antihistaminiques)
+    • contexte d'entourage (prurit familial collectif → gale, parasitose)
+    • prurit sans lésion primaire (sine materia → cause systémique: cholestase, IRC, thyroïde, hémopathie)
+  - |-
+    {s:Éruption / rash}:
+    • mode d'installation (aigu vs chronique, brutal vs progressif)
+    • topographie initiale et extension (centrifuge, centripète, métamérique)
+    • évolution (fixe, migratrice, fluctuante, poussées)
+    • symptômes associés (prurit, douleur, brûlure, fièvre)
+    • chronologie vs prise médicamenteuse (délai 7-21 j → {p:toxidermie})
+    • facteurs déclenchants (soleil → photosensibilité, froid, stress, frottement = {s:phénomène de Koebner})
+  - |-
+    {s:Lésion isolée / "grain de beauté" qui change}:
+    • ancienneté et évolutivité récente (taille, couleur, relief, saignement)
+    • règle {t:ABCDE} subjective rapportée par le patient
+    • prurit, saignement spontané, ulcération, croûte qui ne cicatrise pas
+    • antécédent de la même lésion (nævus connu vs lésion de novo)
+  - |-
+    {s:Plaie / ulcère cutané}:
+    • localisation (jambe, pied, zone d'appui = {p:escarre})
+    • ancienneté et cinétique de cicatrisation
+    • douleur (artériel = très douloureux; veineux = peu; neuropathique = indolore)
+    • exsudat, odeur, signes d'infection
+    • contexte vasculaire ({p:insuffisance veineuse}, {p:AOMI}, diabète)
+  - |-
+    {s:Modification des phanères}:
+    • cheveux: chute (diffuse vs en plaques = {p:pelade}, télogène, androgénétique), date, vitesse
+    • ongles: déformation, décollement (onycholyse), coloration, ponctuations (psoriasis), périonyxis
+    • muqueuses: aphtes, érosions buccales/génitales, sécheresse
+  # Facteurs de risque et terrain dermatologique (à systématiser)
+  - |-
+    Facteurs de risque de cancer cutané:
+    • phototype (I-II clair = risque ↑; classification de Fitzpatrick)
+    • exposition solaire cumulée et coups de soleil de l'enfance, cabines UV
+    • profession/loisirs en extérieur
+    • antécédent personnel/familial de {p:mélanome} ou carcinome
+    • nombre de nævus (> 50), nævus atypiques, syndrome du nævus dysplasique
+    • immunosuppression (greffe d'organe → carcinomes), radiothérapie antérieure
+  - |-
+    Terrain et ATCD dermato-allergologiques:
+    • atopie (eczéma, asthme, rhinite — terrain atopique familial)
+    • {p:psoriasis}, dermatoses chroniques connues
+    • allergies de contact connues (nickel, parfums, cosmétiques)
+    • allergies/intolérances médicamenteuses (type de réaction, gravité)
+    • maladies systémiques à expression cutanée (lupus, sarcoïdose, diabète, MICI)
+  - |-
+    Traitements en cours et exogènes:
+    • {r:dermocorticoïdes} (classe, durée → atrophie, dermite péri-orale)
+    • {r:immunosuppresseurs/biologiques} (méthotrexate, anti-TNF, dupilumab)
+    • {r:rétinoïdes} (isotrétinoïne — tératogène, sécheresse)
+    • médicaments photosensibilisants (cyclines, amiodarone, thiazidiques)
+    • cosmétiques, topiques en vente libre, médecines parallèles
+  - "Mode de vie et expositions: profession (contacts professionnels, port de gants), animaux domestiques, voyages récents (dermatoses tropicales), habitudes solaires, tabac (cicatrisation), hygiène"
+
+examen_physique:
+  "Lésions élémentaires":
+    - "Conditions d'examen: lumière du jour ou éclairage blanc puissant, patient entièrement déshabillé (examen de TOUT le tégument incluant plis, cuir chevelu, paumes/plantes, espaces interdigitaux, ongles, muqueuses, OGE), {r:dermatoscope} pour les lésions pigmentées; décrire toujours: type de lésion élémentaire, couleur, taille, forme/bordure, nombre, disposition et topographie"
+    - "{s:Macule}: lésion plane, non palpable, de taille < 1 cm, simple modification de couleur (érythémateuse = s'efface à la vitropression → vasodilatation; purpurique = ne s'efface PAS → extravasation, cf {r:vitropression}); tache > 1 cm. Ex.: vitiligo (achromique), éphélides (hyperpigmentée)"
+    - "{s:Papule}: lésion solide, palpable, surélevée, < 1 cm, résolutive sans cicatrice (ex.: {p:lichen plan}, verrue plane). Plaque = papule étendue > 1 cm ou confluence (ex.: {p:psoriasis} = plaque érythémato-squameuse). Nodule = lésion solide profonde > 1 cm (derme/hypoderme)"
+    - "{s:Vésicule / bulle}: collection liquidienne claire, surélevée; vésicule < 5 mm (eczéma, {p:herpès}, varicelle), bulle ≥ 5 mm ({p:pemphigoïde}, {p:pemphigus}, brûlure); préciser le toit (flasque vs tendue) et le contenu (clair/hémorragique/purulent)"
+    - "{s:Pustule}: collection de pus (blanc-jaunâtre), folliculaire (folliculite, acné) ou non folliculaire ({p:psoriasis pustuleux}); amicrobienne possible"
+    - "{s:Lésions par perte de substance}: érosion (perte épidermique superficielle, cicatrise sans séquelle), {s:ulcération} (perte dermique profonde, cicatrice), fissure (linéaire), excoriation (grattage), {s:croûte} (sérosité/sang/pus desséchés)"
+    - "{s:Squame}: lamelle de couche cornée détachable; fine/farineuse (pityriasis) vs épaisse/argentée ({p:psoriasis}); préciser par le {r:grattage méthodique de Brocq}. Kératose = épaississement corné adhérent ({p:kératose actinique} = précancéreuse)"
+    - "Lésions séquellaires: {s:atrophie} (amincissement, peau cigarette à papier), sclérose (induration), {s:lichénification} (épaississement quadrillé par grattage chronique), cicatrice (atrophique/hypertrophique/chéloïde)"
+    - "Lésions vasculaires: {s:purpura} (ne s'efface pas: pétéchies < 3 mm, ecchymoses, vibices; pétéchial → thrombopénie; infiltré/palpable → {p:vascularite}), télangiectasies, angiome, livedo"
+  "Palpation":
+    - "Caractère de surface et consistance: passer la pulpe sur la lésion — rugueuse/kératosique ({p:kératose actinique}, verrue), lisse, molle (lipome), dure/indurée (carcinome, dermatofibrome), fluctuante (kyste, abcès)"
+    - "{r:Signe de la pastille / bouton de chemise}: le {p:dermatofibrome} se déprime en son centre au pincement latéral (fossette de Fitzpatrick) — distingue d'un nævus ou mélanome"
+    - "Infiltration et profondeur: palper la base de la lésion entre deux doigts pour évaluer l'extension dermo-hypodermique (nodule vs papule), l'adhérence aux plans profonds (fixité = signe de gravité tumorale), les berges (perlée et indurée → {p:carcinome basocellulaire})"
+    - "Sensibilité et température: lésion douloureuse à la palpation (furoncle, hidradénite, érythème noueux); chaleur locale + rougeur + douleur + œdème → {p:érysipèle}/{p:dermohypodermite} bactérienne (placard inflammatoire, bourrelet périphérique)"
+    - "{r:Signe du godet}: pression 30 sec sur un œdème — godet persistant (œdème de surcharge) vs absence de godet (lymphœdème, myxœdème); apprécier l'épaisseur cutanée (épaississement = sclérodermie, signe du pli impossible à plisser)"
+    - "Adénopathies de drainage: palper systématiquement les aires ganglionnaires de drainage de toute lésion tumorale ou infectieuse (cervical, axillaire, inguinal) — taille, consistance, mobilité, sensibilité (essentiel devant un {p:mélanome} ou carcinome épidermoïde)"
+  "Topographie & distribution":
+    - "Distribution générale: localisée vs diffuse/généralisée (érythrodermie si > 90 % du tégument); symétrique (cause endogène/systémique: psoriasis, eczéma atopique) vs asymétrique (cause exogène: contact, infection)"
+    - "Zones photo-exposées (visage, V du décolleté, dos des mains, nuque) → photosensibilité, {p:lupus}, kératoses actiniques, photo-toxidermie; respect des zones couvertes oriente le diagnostic"
+    - "Zones bastion du {p:psoriasis}: coudes, genoux (faces d'extension), cuir chevelu, région sacrée, ombilic, ongles; à l'inverse l'{p:eczéma atopique} prédomine aux plis de flexion (creux poplités, plis du coude)"
+    - "Disposition particulière: en bande/métamérique (suit un dermatome → {p:zona}), {s:phénomène de Koebner} (lésions sur trajet de grattage/traumatisme → psoriasis, lichen, vitiligo), annulaire (centre clair: dermatophytie, granulome annulaire), linéaire, en cocarde/cible ({p:érythème polymorphe})"
+    - "Atteinte des plis (intertrigo: candidosique = fond rouge vernissé + collerette; dermatophytique = bordure active), des muqueuses, et des extrémités (acral) — toute atteinte palmo-plantaire évoque syphilis secondaire, eczéma dyshidrosique, psoriasis pustuleux"
+    - "Cartographie / mapping: chez le patient à nævus multiples, noter localisation et taille des lésions suspectes (photographie de suivi, dermatoscopie séquentielle) pour comparer dans le temps"
+  "Phanères & muqueuses":
+    - "Cuir chevelu et cheveux: type de chute — diffuse (effluvium télogène, carence martiale) vs en plaques alopéciques sans cicatrice avec cheveux en point d'exclamation ({p:pelade}); alopécie cicatricielle (lichen plan pilaire, lupus); {r:test de traction} (> 6 cheveux arrachés = pathologique)"
+    - "Ongles: ponctuations en dé à coudre + onycholyse + tache d'huile + hyperkératose sous-unguéale → {p:psoriasis} unguéal; mélanonychie longitudinale (bande pigmentée → surveiller {p:mélanome} matriciel, signe de Hutchinson = débord péri-unguéal); hippocratisme digital; périonyxis (panaris chronique, candidose)"
+    - "Muqueuse buccale: érosions/aphtes, réseau blanc réticulé des joues ({p:lichen plan} muqueux), érythème, muguet candidosique, taches (Koplik), atteinte gingivale; les muqueuses sont aussi atteintes dans pemphigus, érythème polymorphe majeur, {p:syndrome de Stevens-Johnson}"
+    - "Muqueuses génitales et anales: ulcérations (chancre syphilitique indolore, herpès douloureux), végétations (condylomes), balanite/vulvite, lichen scléreux; examen indispensable mais avec consentement et chaperon"
+    - "Conjonctives et téguments associés: pâleur conjonctivale (anémie), ictère, signes d'atteinte muqueuse oculaire (synéchies dans les dermatoses bulleuses, Stevens-Johnson)"
+  "Manœuvres dermatologiques":
+    - "{r:Vitropression (diascopie)}: appuyer un verre de montre/lame transparente sur la lésion — efface l'érythème (origine vasculaire, vasodilatation) mais le {s:purpura} et le pigment persistent; aspect 'gelée de pomme' jaunâtre → granulome (sarcoïdose, lupus tuberculeux, lupus vulgaire)"
+    - "{r:Grattage méthodique de Brocq}: gratter la squame d'une plaque psoriasique au bord d'une curette — (1) signe de la tache de bougie (squames blanchâtres qui se détachent), (2) signe de la dernière pellicule décollable, (3) {s:signe d'Auspitz} = rosée sanglante (piqueté hémorragique) confirmant le {p:psoriasis}"
+    - "{r:Dermatoscopie} de toute lésion pigmentée: analyse des structures (réseau pigmentaire, points/globules, voile bleu-blanc, structures de régression, pseudopodes); guide la règle {t:ABCDE} et le diagnostic de {p:mélanome}; outil de dépistage de référence"
+    - "{r:Signe de Nikolsky}: pression tangentielle ferme sur peau saine péri-bulleuse — POSITIF si décollement épidermique (clivage) → {p:pemphigus}, nécrolyse épidermique toxique ({p:Lyell}); signe de gravité imposant une prise en charge urgente"
+    - "{r:Dermographisme}: frotter fermement la peau saine avec une pointe mousse — apparition d'une papule urticarienne linéaire en quelques minutes → {p:urticaire} physique (dermographisme = urticaire factice)"
+    - "{r:Friction des lésions (signe de Darier)}: frotter une macule pigmentée — apparition d'une papule urticarienne/œdème → activation mastocytaire → {p:mastocytose} (urticaire pigmentaire)"
+    - "{r:Examen en lumière de Wood} (UV 365 nm en chambre noire): fluorescence — verdâtre (teignes microsporiques, érythrasma corail-rouge à Corynebacterium), accentuation des taches de vitiligo (blanc craie) et des hypochromies; aide à délimiter dépigmentations et infections"
+  "Recherche de signes de gravité / systémiques":
+    - "Signes de gravité d'une toxidermie/dermatose bulleuse: atteinte muqueuse (≥ 2 muqueuses), décollement épidermique > 10 % (NET/{p:Lyell}), signe de Nikolsky positif, douleur cutanée intense, fièvre, œdème du visage, adénopathies (DRESS) → urgence, recherche SCORTEN"
+    - "Signes infectieux locaux/généraux: extension rapide d'un placard, douleur disproportionnée, crépitation, zones de nécrose/lividité → suspicion de {p:fasciite nécrosante} (urgence chirurgicale); fièvre + frissons + lymphangite → érysipèle"
+    - "Évaluation de l'étendue: règle des 9 de Wallace ou règle de la paume (1 %) pour quantifier une brûlure ou un décollement; score {t:PASI} / BSA pour le psoriasis étendu, {t:SCORAD} pour la dermatite atopique"
+
+manoeuvres:
+  - "{r:Vitropression (diascopie)}: application d'une lame de verre transparente avec pression sur la lésion. POSITIF (érythème qui s'efface) → origine vasculaire (érythème) ; NÉGATIF (la couleur persiste) → {s:purpura} (extravasation sanguine) ou dépôt pigmentaire ; aspect lupoïde 'gelée de pomme' → infiltrat granulomateux (sarcoïdose, lupus vulgaire)"
+  - "{r:Grattage méthodique de Brocq}: grattage doux et répété de la squame à la curette. POSITIF pour le {p:psoriasis} si succession: tache de bougie → dernière pellicule → {s:signe d'Auspitz} (rosée sanglante ponctuée); permet de distinguer psoriasis d'autres dermatoses squameuses"
+  - "{r:Signe de Nikolsky}: friction tangentielle d'une zone de peau apparemment saine. POSITIF (décollement de l'épiderme sous la pression) → maladies bulleuses intra-épidermiques par acantholyse ({p:pemphigus}) ou nécrolyse ({p:Lyell}); NÉGATIF dans la pemphigoïde bulleuse (clivage sous-épidermique). Signe de gravité"
+  - "{r:Signe de Darier}: friction d'une lésion pigmentée maculo-papuleuse. POSITIF si turgescence/œdème urticarien et érythème immédiats (dégranulation mastocytaire) → {p:mastocytose cutanée} (urticaire pigmentaire); quasi pathognomonique"
+  - "{r:Recherche du dermographisme}: trait appuyé sur la peau saine avec un objet mousse. POSITIF si triade de Lewis (érythème, œdème en relief, réaction reproduisant le trait) en 1-5 min → {p:urticaire} physique factice"
+  - "{r:Test de traction des cheveux (pull test)}: saisir 40-60 cheveux et tirer fermement. POSITIF si > 10 % (> 6 cheveux) restent dans la main → effluvium télogène actif ou {p:pelade} en phase d'extension; NÉGATIF (< 3 cheveux) = chute physiologique"
+  - "{r:Examen en lumière de Wood}: éclairage UV 365 nm en obscurité. Fluorescence corail-rouge → érythrasma; vert-jaune → teigne microsporique; blanc-craie net → {p:vitiligo}; absence de fluorescence n'exclut pas l'infection (teignes trichophytiques non fluorescentes)"
+  - "{r:Dermatoscopie (épiluminescence)}: loupe polarisée ×10 avec/sans gel d'immersion sur la lésion. Recherche les critères de malignité (réseau atypique, asymétrie de structures, voile bleu-blanc, pseudopodes, structures de régression); guide la décision d'exérèse d'un nævus suspect de {p:mélanome}"
+  - "{r:Application de la règle ABCDE} sur une lésion pigmentée: inspection ± dermatoscope. POSITIF (lésion suspecte) si Asymétrie + Bords irréguliers + Couleur hétérogène + Diamètre > 6 mm + Évolution → adresser pour exérèse-biopsie; tout 'vilain petit canard' (nævus différent des autres) est également suspect"
+  - "{r:Recherche du signe de Hutchinson}: inspection de la matrice et du repli unguéal devant une mélanonychie longitudinale. POSITIF si débord du pigment sur le repli proximal/latéral ou la cuticule → forte suspicion de {p:mélanome} sous-unguéal → biopsie matricielle"
+
+echelles:
+  - |-
+    {t:Règle ABCDE} — dépistage du {p:mélanome}:
+    • A = Asymétrie (une moitié ≠ l'autre)
+    • B = Bords irréguliers, mal délimités, encochés
+    • C = Couleur inhomogène (plusieurs teintes: brun, noir, rouge, bleu, blanc)
+    • D = Diamètre > 6 mm
+    • E = Évolution (modification récente de taille/couleur/relief/symptôme) — critère le plus important
+    • + signe du 'vilain petit canard' (nævus se distinguant des autres du patient)
+  - |-
+    {t:Phototypes de Fitzpatrick} — risque solaire:
+    • I = peau très claire, brûle toujours, ne bronze jamais (roux)
+    • II = claire, brûle facilement, bronze peu
+    • III = intermédiaire, brûle modérément, bronze progressivement
+    • IV = mate, brûle peu, bronze bien
+    • V = brun foncé, brûle rarement
+    • VI = peau noire, ne brûle jamais
+    • phototypes I-II = risque accru de cancer cutané et coups de soleil
+  - |-
+    {t:Classification de Clark / indice de Breslow} — pronostic du {p:mélanome}:
+    • Breslow = épaisseur tumorale en mm (mesure histologique, principal facteur pronostique): in situ; ≤ 1 mm; 1-2; 2-4; > 4 mm
+    • Clark = niveau d'invasion anatomique (I épiderme → V hypoderme)
+    • Breslow guide les marges d'exérèse et l'indication du ganglion sentinelle (≥ 0,8 mm)
+  - |-
+    {t:Règle des 9 de Wallace} — surface corporelle brûlée (adulte):
+    • tête et cou = 9 %
+    • chaque membre supérieur = 9 %
+    • face antérieure du tronc = 18 %, face postérieure = 18 %
+    • chaque membre inférieur = 18 %
+    • périnée = 1 %
+    • alternative: paume du patient (doigts inclus) ≈ 1 % de la surface corporelle
+  - |-
+    {t:PASI / BSA} et {t:SCORAD} — sévérité des dermatoses inflammatoires:
+    • PASI (Psoriasis Area and Severity Index): combine érythème, induration, desquamation et surface par région → suivi du {p:psoriasis} (réponse PASI 75/90)
+    • BSA = pourcentage de surface corporelle atteinte (paume ≈ 1 %)
+    • SCORAD: étendue + intensité + signes subjectifs (prurit, perte de sommeil) → suivi de la {p:dermatite atopique}
+  - |-
+    {t:SCORTEN} — pronostic de la nécrolyse épidermique ({p:Lyell}/Stevens-Johnson), 1 point chacun:
+    • âge > 40 ans
+    • néoplasie associée
+    • fréquence cardiaque > 120/min
+    • surface décollée > 10 % à J1
+    • urée > 10 mmol/L
+    • glycémie > 14 mmol/L
+    • bicarbonates < 20 mmol/L
+    • mortalité croissante avec le score (≥ 5 → mortalité > 90 %) — urgence en unité de brûlés
+
+ssps_liees:
+  - SSP-DER-01
+  - SSP-DER-02
+  - SSP-DER-03

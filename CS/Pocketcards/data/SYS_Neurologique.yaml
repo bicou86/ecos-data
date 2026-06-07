@@ -1,0 +1,207 @@
+id: SYS-NEU
+type: sys
+title: Neurologique
+discipline: Neuro
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Neuro/RMS/RMS-Neuro.md
+  - CS/04_Skills_Examen/Neuro/Skills/Skills-Neuro.md
+  - CS/Pocketcards/RMS/Carte_Neurologique.pdf
+  - Bickerstaff's Neurological Examination in Clinical Practice (7e éd., Wiley-Blackwell)
+  - DeJong's The Neurologic Examination (8e éd., Wolters Kluwer)
+  - Guidelines ESO/AHA-ASA AVC ischémique aigu (Stroke 2019;50:e344-e418)
+
+anamnese_appareil:
+  # Symptômes cardinaux
+  - |-
+    {s:Céphalée}:
+    • installation (brutale «coup de tonnerre» < 1 min → {p:HSA}; progressive)
+    • topographie (hémicrânie, holocrânienne, occipitale, en casque)
+    • caractère (pulsatile, en étau, en éclair)
+    • intensité {r:score 0-10} et caractère inhabituel («pire de ma vie»)
+    • facteurs déclenchants/aggravants (effort, Valsalva, décubitus, position)
+    • horaire (matinal réveillant → HTIC; recrudescence nocturne)
+    • signes d'accompagnement (nausées, photo/phonophobie, aura, fièvre, raideur de nuque)
+    • drapeaux rouges (âge > 50 ans nouveau, immunodépression, néoplasie, déficit focal, œdème papillaire)
+  - |-
+    {s:Déficit moteur/parésie}:
+    • topographie (hémicorps, para-/tétra-, mono-, facio-brachio-crural)
+    • mode d'installation (brutal → {p:AVC}; progressif → tumoral, dégénératif)
+    • systématisé (central) vs tronculaire/radiculaire (périphérique)
+    • fluctuation (myasthénie: fatigabilité; AIT: transitoire < 24h)
+    • troubles associés (langage, sensibilité, vision)
+    • heure exacte de début (= heure du dernier état normal connu → fenêtre thrombolyse)
+  - |-
+    {s:Troubles sensitifs}:
+    • type (paresthésies, hypoesthésie, anesthésie, douleur neuropathique, allodynie)
+    • topographie (en gant/chaussette = polyneuropathie; dermatomale = radiculaire; hémicorps = central)
+    • marche progressive (de distal à proximal)
+    • signe de Lhermitte (décharge le long du rachis à la flexion → atteinte cordonale postérieure/SEP)
+  - |-
+    {s:Troubles de l'équilibre / vertige}:
+    • vrai vertige rotatoire (origine vestibulaire) vs instabilité/lipothymie
+    • positionnel ({p:VPPB}) vs permanent
+    • signes associés (acouphènes, hypoacousie → atteinte périphérique; diplopie, dysarthrie, déficit → atteinte centrale)
+    • {t:HINTS} si vertige aigu (différencier central/périphérique)
+  - |-
+    {s:Troubles de la conscience / crise}:
+    • perte de connaissance (durée, témoin, prodrome)
+    • mouvements anormaux (clonies, automatismes, version oculaire/céphalique)
+    • morsure de langue (latérale = évocatrice de crise), perte d'urines
+    • phase post-critique (confusion, déficit de Todd, amnésie)
+    • aura (épigastrique, olfactive, déjà-vu)
+  - |-
+    {s:Troubles cognitifs / langage}:
+    • mémoire (récente vs ancienne), désorientation temporo-spatiale
+    • aphasie (manque du mot, paraphasies, compréhension)
+    • retentissement sur les activités (IADL/ADL)
+    • fluctuations, hallucinations (corps de Lewy)
+    • mode évolutif (brutal vasculaire vs progressif dégénératif)
+  # Facteurs de risque / contexte
+  - |-
+    Facteurs de risque vasculaires (pour AVC):
+    • HTA, diabète, dyslipidémie, tabac
+    • {p:FA} et cardiopathie emboligène
+    • AVC/AIT antérieur, AOMI, sténose carotidienne
+    • contraception œstroprogestative, migraine avec aura
+  - |-
+    ATCD neurologiques personnels:
+    • épilepsie (type, traitement, observance)
+    • migraine / céphalées primaires
+    • SEP, maladie de Parkinson, neuropathie
+    • traumatisme crânien, méningite/encéphalite
+    • troubles cognitifs connus
+  - |-
+    ATCD familiaux:
+    • migraine, épilepsie
+    • maladies neurodégénératives (Alzheimer, Parkinson, Huntington)
+    • maladies neuromusculaires héréditaires (Charcot-Marie-Tooth)
+    • AVC précoce, anévrismes
+  - |-
+    Traitements et toxiques:
+    • antiépileptiques, L-DOPA / agonistes dopaminergiques
+    • psychotropes (benzodiazépines, neuroleptiques → syndrome extrapyramidal)
+    • anticoagulants/antiagrégants (risque hémorragique)
+    • alcool (sevrage, Wernicke), drogues, neurotoxiques professionnels
+  - "Mode de vie: alcool (UI/semaine), conduite automobile (épilepsie, vertiges), profession exposée (toxiques, postures), autonomie au domicile, aidants"
+
+examen_physique:
+  "Conscience & fonctions supérieures":
+    - "État de vigilance: éveil spontané, somnolence, obnubilation, stupeur, coma; quantifier par le {t:Glasgow Coma Scale} (Y/V/M, score /15, ≤ 8 = coma → protection des voies aériennes)"
+    - "Orientation: temporelle (date, jour, saison) et spatiale (lieu, étage, ville); désorientation → {p:syndrome confusionnel} ou démence"
+    - "Attention/concentration: épeler MONDE à l'envers, soustractions sériées (100-7), empan de chiffres; déficit → confusion, atteinte frontale"
+    - "Mémoire: rappel immédiat et différé de 3 mots (à 3-5 min), mémoire ancienne (biographie); atteinte du rappel différé → {p:maladie d'Alzheimer}"
+    - "Langage: fluence du discours spontané, dénomination d'objets, répétition, compréhension d'ordres, lecture, écriture; classer l'{s:aphasie} (Broca = non fluente; Wernicke = fluente avec troubles de compréhension; globale; conduction)"
+    - "Praxies: gestes sur imitation et commande (saluer, peigner), praxie idéomotrice et constructive (dessin de cube/horloge → {t:test de l'horloge}); apraxie → atteinte pariétale"
+    - "Gnosies: reconnaissance visuelle, héminégligence (barrage de lignes, bissection, double stimulation simultanée → extinction → lésion pariétale droite), anosognosie, somatognosie"
+    - "Fonctions exécutives: séquences motrices de Luria (poing-tranche-paume), fluence verbale (animaux en 1 min, norme ≥ 15), abstraction (proverbes), comportement (désinhibition frontale)"
+    - "Humeur et comportement: thymie, idéation, hallucinations, signes frontaux; utiliser {t:MMSE} (/30) ou {t:MoCA} (/30) en dépistage cognitif structuré"
+  "Nerfs crâniens":
+    - "{r:I Olfactif}: identification d'odeurs non irritantes narine par narine (café, vanille); anosmie → fracture étmoïde, méningiome olfactif, neurodégénératif débutant (rarement testé)"
+    - "{r:II Optique}: acuité visuelle (échelle/comptage des doigts), champ visuel par confrontation (quadrant par quadrant → hémianopsie, quadranopsie), vision des couleurs, fond d'œil (œdème papillaire = {p:HTIC}, pâleur = atrophie optique); réflexe photomoteur (afférence)"
+    - "{r:III, IV, VI Oculomotricité}: position primaire et poursuite dans les 6 directions du regard (en H), recherche de {s:diplopie} et de strabisme; III complet = ptôse + œil en abduction/abaissement + mydriase (compression → anévrisme = urgence); IV = diplopie verticale à la descente d'escalier; VI = déficit d'abduction (peu localisateur, HTIC)"
+    - "{r:III Pupilles}: taille, symétrie, réflexe photomoteur direct et consensuel, réflexe d'accommodation; {s:anisocorie}, mydriase aréactive (engagement), myosis (Horner, opioïdes), dissociation lumière-accommodation (Argyll Robertson)"
+    - "{r:V Trijumeau}: sensibilité des 3 territoires (V1 front, V2 joue, V3 mâchoire) au tact/piqûre, motricité masticatrice (palper masséters/temporaux, ouverture mandibule), {r:réflexe cornéen} (afférence V1, efférence VII → clignement)"
+    - "{r:VII Facial}: motricité mimique haute (fermer les yeux, plisser le front) et basse (sourire, gonfler les joues, montrer les dents); {s:paralysie faciale centrale} (respecte le front, controlatérale à la lésion) vs {s:paralysie faciale périphérique} (touche tout l'hémiface + signe de Charles Bell + signe des cils de Souques)"
+    - "{r:VIII Vestibulo-cochléaire}: audition (frottement des doigts, voix chuchotée), épreuves de {r:Weber} (diapason au vertex, latéralisation) et {r:Rinne} (conduction aérienne vs osseuse); nystagmus spontané/provoqué; recherche vestibulaire (Romberg, head impulse test)"
+    - "{r:IX, X Glosso-pharyngien et Vague}: élévation symétrique du voile («Aaah» → signe du rideau si déviation vers le côté sain), réflexe nauséeux (afférent IX, efférent X), déglutition, voix (dysphonie/voix nasonnée → atteinte du X)"
+    - "{r:XI Spinal accessoire}: force du sterno-cléido-mastoïdien (rotation de la tête contre résistance) et du trapèze (haussement des épaules contre résistance)"
+    - "{r:XII Hypoglosse}: protraction de la langue (déviation vers le côté atteint en cas de paralysie), force, atrophie et {s:fasciculations} (atteinte du motoneurone périphérique/SLA)"
+  "Motricité":
+    - "Inspection: trophicité musculaire (amyotrophie focale/diffuse), {s:fasciculations} (contractions involontaires → atteinte motoneurone inférieur), mouvements anormaux (tremblement, chorée, dystonie, myoclonies), attitude des membres"
+    - "{s:Tonus musculaire}: mobilisation passive; {s:spasticité} (hypertonie élastique, vitesse-dépendante, en lame de canif → atteinte pyramidale), {s:rigidité} (hypertonie plastique en tuyau de plomb / roue dentée → syndrome extrapyramidal), hypotonie (atteinte cérébelleuse ou périphérique)"
+    - "Force segmentaire cotée selon l'échelle {t:MRC 0-5} (0 = aucune contraction; 1 = contraction visible sans mouvement; 2 = mouvement sans pesanteur; 3 = contre pesanteur; 4 = contre résistance partielle; 5 = normale); tester de façon comparative et systématique racine par racine"
+    - "{r:Épreuve de Barré} (membres supérieurs): bras tendus, paumes vers le haut, yeux fermés 20-30 sec; chute et/ou pronation d'un membre → déficit pyramidal débutant; {r:épreuve de Mingazzini} (membres inférieurs): cuisses fléchies à 90°, jambes à l'horizontale → chute = déficit"
+    - "Sémiologie topographique: {s:déficit pyramidal} (déficit prédominant sur les extenseurs aux MS / fléchisseurs aux MI, spasticité, ROT vifs, Babinski) vs {s:déficit périphérique} (amyotrophie, fasciculations, hypotonie, ROT abolis, distribution tronculaire/radiculaire)"
+    - "Manœuvres fines: opposition pouce-doigts, tapotements rapides, marche sur les talons (releveurs L4-L5) et sur la pointe des pieds (triceps sural S1)"
+  "Sensibilité":
+    - "Sensibilité superficielle: tact léger (coton), piqûre (aiguille à usage unique, discrimination piqué/touché), température (tubes chaud/froid); explorer voie spinothalamique (douleur/température, croisée) en comparant les hémicorps et en cartographiant les niveaux"
+    - "Sensibilité profonde (voie lemniscale / cordons postérieurs): sens de position des orteils et doigts (mouvements passifs haut/bas yeux fermés), {r:pallesthésie} (diapason 128 Hz sur les saillies osseuses — malléoles, rotule), graphesthésie, stéréognosie"
+    - "Recherche d'un {s:niveau sensitif} (atteinte médullaire: limite supérieure nette de l'hypoesthésie → repère métamérique, urgence si compression), distribution radiculaire (dermatome) ou tronculaire (territoire d'un nerf)"
+    - "Polynévrite: hypoesthésie distale symétrique «en chaussettes/gants», progression ascendante; rechercher diabète, alcool, carence B12"
+    - "{r:Signe de Romberg}: debout pieds joints, yeux ouverts puis fermés; positif = chute uniquement les yeux fermés → atteinte proprioceptive (cordonale postérieure) ou vestibulaire (≠ ataxie cérébelleuse où l'instabilité persiste yeux ouverts)"
+    - "{r:Signe de Lhermitte}: flexion antérieure du cou → décharge électrique le long du rachis et des membres → atteinte cordonale postérieure cervicale ({p:SEP}, compression, carence B12)"
+  "Réflexes":
+    - "{r:Réflexes ostéo-tendineux (ROT)}: bicipital (C5-C6), stylo-radial (C6), tricipital (C7), rotulien (L3-L4), achilléen (S1); coter de 0 à 4+ (0 = aboli; 1+ = diminué; 2+ = normal; 3+ = vif; 4+ = polycinétique avec clonus); comparer droite/gauche; abolis → atteinte périphérique; vifs/diffusés → atteinte pyramidale"
+    - "{r:Manœuvre de Jendrassik}: accrocher les mains et tirer pour faciliter un ROT difficile à obtenir aux membres inférieurs (déconcentration)"
+    - "{r:Signe de Babinski}: stimulation du bord externe de la plante du talon vers les orteils; NORMAL = flexion des orteils; PATHOLOGIQUE = extension lente du gros orteil ± éventail des autres → {s:syndrome pyramidal} (atteinte du faisceau cortico-spinal)"
+    - "{r:Équivalents du Babinski}: signe de Chaddock (bord externe du pied), Oppenheim (crête tibiale), Gordon (mollet); {r:clonus} de la cheville (dorsiflexion brusque et soutenue → secousses répétées → libération pyramidale)"
+    - "{r:Réflexes cutanés abdominaux}: stimulation des 4 quadrants → contraction localisée; abolition unilatérale → atteinte pyramidale; {r:réflexe crémastérien} (L1-L2), {r:réflexe cutané plantaire}"
+    - "{r:Réflexes archaïques/frontaux}: grasping, réflexe palmo-mentonnier, moue; leur réapparition chez l'adulte → atteinte frontale diffuse / démence"
+  "Coordination & équilibre":
+    - "{r:Épreuve doigt-nez} (membres supérieurs): l'index du patient va de son nez à l'index de l'examinateur; rechercher {s:dysmétrie} (hypermétrie au but), tremblement intentionnel s'aggravant à l'approche de la cible → {p:syndrome cérébelleux} cinétique homolatéral"
+    - "{r:Épreuve talon-genou} (membres inférieurs): le talon descend le long de la crête tibiale controlatérale; décomposition et déviation → ataxie cérébelleuse"
+    - "{r:Adiadococinésie}: mouvements alternatifs rapides (marionnettes, tapotement paume/dos de main); lenteur et désorganisation → atteinte cérébelleuse homolatérale"
+    - "Recherche d'autres signes cérébelleux: {s:dysarthrie} cérébelleuse (parole scandée/explosive), {s:nystagmus}, hypotonie, tremblement d'attitude, troubles oculomoteurs (poursuite saccadique)"
+    - "Équilibre statique: station debout pieds joints; ataxie cérébelleuse = élargissement du polygone, oscillations dès les yeux ouverts (≠ Romberg proprioceptif positif uniquement yeux fermés)"
+    - "{r:Épreuve des bras tendus / rebond} (Stewart-Holmes): le membre relâché brusquement rebondit excessivement → hypotonie cérébelleuse"
+  "Marche":
+    - "Marche normale spontanée: demander au patient de marcher quelques mètres, observer demi-tour, ballant des bras, attaque du pas, largeur du polygone, longueur et symétrie des pas"
+    - "{s:Marche hémiplégique} (en fauchant): membre inférieur spastique en extension, circumduction du pied → séquelle d'{p:AVC} / atteinte pyramidale unilatérale"
+    - "{s:Marche parkinsonienne}: à petits pas, lente, festinante, perte du ballant des bras, instabilité au demi-tour, freezing → {p:syndrome parkinsonien}"
+    - "{s:Marche cérébelleuse} (ébrieuse): élargie, titubante, irrégulière, déviation vers le côté lésé → {p:syndrome cérébelleux}"
+    - "{s:Marche steppante}: relevé exagéré du genou par déficit des releveurs du pied (pied tombant → atteinte L5/nerf fibulaire/polyneuropathie); {s:marche dandinante} (myopathie des ceintures)"
+    - "{s:Marche talonnante} (ataxie proprioceptive): regard fixé au sol, pas brusques, aggravée dans l'obscurité → atteinte cordonale postérieure"
+    - "{r:Marche en tandem} (pied devant pied sur une ligne) et marche sur talons/pointes: démasque une ataxie discrète, un déficit des releveurs (L5) ou du triceps sural (S1); {r:test de Romberg} en complément"
+
+manoeuvres:
+  - "{r:Signes méningés}: {s:raideur de nuque} (flexion passive du cou douloureuse et limitée), {r:signe de Kernig} (extension passive du genou hanche fléchie → résistance/douleur), {r:signe de Brudzinski} (flexion du cou → flexion réflexe des hanches/genoux); POSITIFS → {p:méningite}, {p:hémorragie sous-arachnoïdienne} (urgence)"
+  - "{r:Manœuvre de Dix-Hallpike} (VPPB): patient assis, tête tournée à 45°, allongé rapidement tête en extension par-dessus le bord du lit; POSITIF = {s:nystagmus} torsionnel géotropique retardé (latence 1-5 sec), épuisable et fatigable → {p:VPPB} du canal postérieur du côté testé"
+  - "{r:Test d'impulsion céphalique (Head Impulse Test, HINTS)}: rotation rapide passive de la tête en fixant une cible; saccade de rattrapage = atteinte vestibulaire PÉRIPHÉRIQUE (rassurant dans le vertige aigu); HINTS normal/central (test normal + nystagmus changeant de sens + skew deviation) → suspecter AVC du tronc/cervelet"
+  - "{r:Test de Lasègue} (sciatique L5-S1): patient en décubitus dorsal, élévation passive du membre inférieur tendu; POSITIF si douleur radiculaire reproduite < 60° irradiant sous le genou → {p:conflit disco-radiculaire}; {r:Lasègue croisé} (douleur du côté atteint à l'élévation du membre sain) = très spécifique de hernie"
+  - "{r:Signe de Tinel et test de Phalen} (syndrome du canal carpien): percussion du nerf médian au poignet (Tinel) ou flexion forcée maintenue des poignets 60 sec (Phalen); POSITIF = paresthésies dans le territoire médian (pouce-index-majeur) → {p:syndrome du tunnel carpien}"
+  - "{r:Test de fatigabilité} (myasthénie): maintien du regard vers le haut (recherche de ptôse) ou abduction répétée des bras; aggravation à l'effort répété et récupération au repos → {p:myasthénie}; test au glaçon sur la paupière ptosée (amélioration = évocateur)"
+  - "{r:Épreuve de Romberg sensibilisé / Fukuda}: marche sur place 50 pas yeux fermés bras tendus; rotation/déviation > 45° → atteinte vestibulaire du côté de la déviation"
+  - "{r:Manœuvre de Hoover}: en décubitus, demander de lever une jambe pendant qu'on palpe le talon controlatéral; absence d'appui controlatéral attendu → déficit organique; appui présent = en faveur d'un déficit fonctionnel (non organique)"
+  - "{r:Recherche d'un syndrome de Claude Bernard-Horner}: triade myosis + ptôsis (modéré) + énophtalmie (± anhidrose hémifaciale) → atteinte de la voie sympathique (dissection carotidienne, Pancoast, syndrome de Wallenberg)"
+
+echelles:
+  - |-
+    {t:Glasgow Coma Scale (GCS)} — Profondeur du trouble de conscience (score /15):
+    • Ouverture des yeux (E): 4 spontanée, 3 à la voix, 2 à la douleur, 1 nulle
+    • Réponse verbale (V): 5 orientée, 4 confuse, 3 inappropriée, 2 incompréhensible, 1 nulle
+    • Réponse motrice (M): 6 aux ordres, 5 orientée à la douleur, 4 évitement, 3 flexion (décortication), 2 extension (décérébration), 1 nulle
+    • ≤ 8 = coma → indication de protection des voies aériennes (intubation)
+  - |-
+    {t:NIHSS (National Institutes of Health Stroke Scale)} — Sévérité de l'{p:AVC} (0-42):
+    • items: vigilance, oculomotricité, champ visuel, paralysie faciale, motricité des 4 membres, ataxie, sensibilité, langage, dysarthrie, négligence
+    • 0 = pas de déficit; 1-4 mineur; 5-15 modéré; 16-20 modéré-sévère; > 20 sévère
+    • répété pour suivre l'évolution et guider la {r:thrombolyse/thrombectomie}
+  - |-
+    {t:Score ABCD2} — Risque d'AVC après un {p:AIT} (0-7):
+    • A = Âge ≥ 60 ans (+1)
+    • B = Blood pressure ≥ 140/90 (+1)
+    • C = Clinique: déficit moteur (+2) ou trouble du langage sans déficit moteur (+1)
+    • D = Durée ≥ 60 min (+2), 10-59 min (+1)
+    • D = Diabète (+1)
+    • ≥ 4 = risque élevé → bilan et prise en charge rapides
+  - |-
+    {t:MMSE (Mini Mental State Examination)} — Dépistage cognitif (/30):
+    • orientation temporelle (/5) et spatiale (/5), apprentissage (/3), attention-calcul (/5), rappel (/3), langage et praxie (/9)
+    • < 24/30 = atteinte cognitive probable (ajuster au niveau d'éducation)
+    • alternative: {t:MoCA} (/30, plus sensible pour les troubles légers et exécutifs; seuil < 26)
+  - |-
+    {t:Échelle de Hoehn et Yahr} — Stade de la {p:maladie de Parkinson}:
+    • 1 = atteinte unilatérale; 2 = bilatérale sans trouble de l'équilibre
+    • 3 = atteinte bilatérale + instabilité posturale, autonome
+    • 4 = handicap sévère, marche/station debout encore possibles sans aide
+    • 5 = grabataire ou en fauteuil, dépendance complète
+  - |-
+    {t:Échelle de Hunt et Hess} — Gravité d'une {p:hémorragie sous-arachnoïdienne}:
+    • I = asymptomatique ou céphalée minime
+    • II = céphalée sévère, raideur de nuque, sans déficit (sauf nerf crânien)
+    • III = somnolence/confusion, déficit focal léger
+    • IV = stupeur, hémiparésie modérée-sévère
+    • V = coma profond, décérébration (pronostic réservé)
+
+ssps_liees:
+  - SSP-NEU-04
+  - SSP-NEU-05
+  - SSP-NEU-06
+  - SSP-NEU-07
+  - SSP-NEU-08
+  - SSP-NEU-09
+  - SSP-NEU-10
+  - SSP-NEU-11
+  - SSP-URG-02

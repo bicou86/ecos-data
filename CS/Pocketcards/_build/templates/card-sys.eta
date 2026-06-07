@@ -33,25 +33,12 @@
         <section class="section exam">
           <div class="label">🔍 Examen clinique</div>
 
+          <% Object.keys(it.card.examen_physique).forEach(function(sectionName){ var sectionItems = it.card.examen_physique[sectionName]; %>
           <div class="subsection">
-            <h4>Inspection</h4>
-            <ul><% it.card.examen_physique.inspection.forEach(function(item){ %><li><%~ it.fmt(item) %></li><% }) %></ul>
+            <h4><%= sectionName %></h4>
+            <ul><% sectionItems.forEach(function(item){ %><li><%~ it.fmt(item) %></li><% }) %></ul>
           </div>
-
-          <div class="subsection">
-            <h4>Palpation</h4>
-            <ul><% it.card.examen_physique.palpation.forEach(function(item){ %><li><%~ it.fmt(item) %></li><% }) %></ul>
-          </div>
-
-          <div class="subsection">
-            <h4>Percussion</h4>
-            <ul><% it.card.examen_physique.percussion.forEach(function(item){ %><li><%~ it.fmt(item) %></li><% }) %></ul>
-          </div>
-
-          <div class="subsection">
-            <h4>Auscultation</h4>
-            <ul><% it.card.examen_physique.auscultation.forEach(function(item){ %><li><%~ it.fmt(item) %></li><% }) %></ul>
-          </div>
+          <% }) %>
         </section>
 
         <section class="section exam full">

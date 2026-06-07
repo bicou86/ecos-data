@@ -1,0 +1,203 @@
+id: SYS-PSY
+type: sys
+title: État mental
+discipline: Psy
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Psy/RMS/RMS-Etat-mental.md
+  - CS/04_Skills_Examen/Psy/Skills/Skills-Etat-mental.md
+  - Trzepacz & Baker, The Psychiatric Mental Status Examination, Oxford University Press
+  - American Psychiatric Association, DSM-5-TR (Diagnostic and Statistical Manual), 2022
+  - Semiologie psychiatrique (J.-D. Guelfi, Ph. Boyer) — sémiologie clinique de l'adulte
+  - Maxwell, The Psychiatric Interview & MSE (Maudsley); folstein MMSE 1975
+
+anamnese_appareil:
+  # Symptômes cardinaux psychiatriques
+  - |-
+    {s:Humeur dépressive / tristesse}:
+    • durée (≥ 2 semaines pour {p:épisode dépressif majeur})
+    • caractère (variation nycthémérale: pire le matin?)
+    • {s:anhédonie} (perte d'intérêt/plaisir — symptôme cardinal)
+    • retentissement fonctionnel (travail, relations, hygiène)
+    • {s:idées noires}/idéation suicidaire (à explorer systématiquement, voir risque)
+    • symptômes somatiques (sommeil, appétit, poids, libido, énergie)
+  - |-
+    {s:Anxiété}:
+    • forme (anxiété généralisée vs paroxystique = {p:attaque de panique})
+    • symptômes cognitifs (inquiétude, anticipation, rumination)
+    • symptômes somatiques (palpitations, dyspnée, sueurs, tremblements, paresthésies)
+    • déclencheurs/évitements (phobie, agoraphobie, anxiété sociale)
+    • {s:obsessions}/{s:compulsions} ({p:TOC})
+    • durée et fréquence des crises
+  - |-
+    {s:Trouble du sommeil}:
+    • insomnie d'endormissement / de maintien / réveil précoce (réveil précoce = dépression mélancolique)
+    • hypersomnie (dépression atypique, hypothyroïdie)
+    • cauchemars / reviviscences nocturnes ({p:TSPT})
+    • réduction du besoin de sommeil sans fatigue ({p:épisode maniaque})
+    • cyclicité, retentissement diurne
+  - |-
+    {s:Symptômes psychotiques}:
+    • {s:hallucinations} (auditives = voix commentant/commandant?, visuelles, cénesthésiques, olfactives)
+    • {s:idées délirantes} (persécution, référence, grandeur, mystique, somatique)
+    • caractère (systématisé vs non, adhésion/conviction)
+    • {s:syndrome d'influence} / automatisme mental (vol/divulgation/imposition de la pensée)
+    • désorganisation, retrait, négligence
+    • début et évolution (aigu vs insidieux)
+  - |-
+    {s:Variations de l'humeur / cyclicité} ({p:trouble bipolaire}):
+    • épisodes d'humeur élevée/expansive/irritable ({e:manie}/{e:hypomanie})
+    • augmentation de l'énergie, des dépenses, de la libido, des projets
+    • logorrhée, fuite des idées, distractibilité
+    • alternance avec phases dépressives
+    • antécédent de virage maniaque sous antidépresseur
+  - |-
+    {s:Plaintes cognitives}:
+    • mémoire (oublis récents, répétition de questions, objets égarés)
+    • attention/concentration (lecture, conversation)
+    • désorientation temporo-spatiale
+    • mode d'installation (aigu/fluctuant = {p:delirium} vs progressif = {p:démence})
+    • retentissement sur les activités instrumentales (gestion finances, médicaments)
+  - |-
+    {s:Consommation de substances}:
+    • alcool (quantité UI/sem, CAGE, sevrage, {p:delirium tremens})
+    • tabac, cannabis, cocaïne, stimulants, opioïdes, benzodiazépines
+    • mode (intoxication vs sevrage), date dernière prise
+    • impact d'une substance sur l'état mental actuel (toujours considérer)
+  # Antécédents et contexte (à systématiser)
+  - |-
+    ATCD psychiatriques personnels:
+    • diagnostics antérieurs (dépression, bipolarité, schizophrénie, troubles anxieux)
+    • hospitalisations psychiatriques (volontaires/sous contrainte = PAFA en Suisse)
+    • {s:tentatives de suicide} antérieures (nombre, méthode, létalité, contexte)
+    • automutilations
+    • réponse aux traitements antérieurs
+  - |-
+    ATCD familiaux et facteurs de risque:
+    • troubles de l'humeur, psychose, suicide dans la famille
+    • abus/traumatismes dans l'enfance (négligence, violence, abus sexuels)
+    • événements de vie récents (deuil, séparation, perte d'emploi, dette)
+    • isolement social, précarité, absence de soutien
+    • maladie somatique chronique/douloureuse
+  - |-
+    Traitements en cours / iatrogénie:
+    • {r:antidépresseurs} (ISRS, IRSN, tricycliques), délai d'action, virage
+    • {r:thymorégulateurs} (lithium, valproate, lamotrigine)
+    • {r:antipsychotiques} (typiques/atypiques — effets extrapyramidaux, syndrome malin)
+    • {r:benzodiazépines} (dépendance, sevrage, chutes/confusion chez l'âgé)
+    • corticoïdes, interféron, L-dopa, antiparkinsoniens (causes secondaires)
+    • observance, automédication
+  - "Mode de vie & fonctionnement: logement, emploi/études, réseau social, capacité d'autonomie (ADL/IADL), conduite automobile, port d'arme, statut légal/curatelle"
+
+examen_physique:
+  "Présentation & comportement":
+    - "Apparence générale: âge apparent vs réel, hygiène et soin (incurie = {p:dépression sévère}, {p:démence}, psychose), tenue vestimentaire (adaptée? extravagante/débraillée?), état nutritionnel (cachexie = anorexie/dépression), signes de négligence corporelle"
+    - "Niveau de conscience et vigilance: alerte / somnolent / obnubilé / stuporeux / comateux; fluctuations = drapeau rouge pour {p:delirium} (cause organique à exclure en priorité)"
+    - "Attitude vis-à-vis de l'examinateur: coopérant, méfiant/sur la défensive (paranoïa), hostile, séducteur, théâtral, indifférent, sur-familier (désinhibition frontale/manie)"
+    - "Activité psychomotrice: {s:ralentissement psychomoteur} (latence, gestes rares, faciès figé → dépression mélancolique, parkinsonisme) vs {s:agitation/akathisie} (impossibilité de rester assis, déambulation → anxiété, manie, akathisie iatrogène aux antipsychotiques)"
+    - "Mouvements anormaux: tremblements (lithium, sevrage), {s:dyskinésies tardives} (mouvements bucco-linguo-faciaux → neuroleptiques au long cours), tics, maniérisme, stéréotypies, catatonie (immobilité, flexibilité cireuse, négativisme, écho-phénomènes)"
+    - "Contact visuel: présent/fuyant/fixe perçant (méfiance), regard absent (dissociation, hébétude); congruence du comportement avec le discours rapporté"
+  "Discours":
+    - "Débit: logorrhée/pression du discours (difficile à interrompre → {p:manie}) vs pauvreté du discours/mutisme (dépression, schizophrénie déficitaire, catatonie)"
+    - "Volume et prosodie: voix forte (manie) vs basse/monocorde (dépression); aprosodie (perte de modulation émotionnelle)"
+    - "Latence de réponse: allongée (ralentissement, dépression, réflexion délirante) vs raccourcie/interruptions (manie)"
+    - "Articulation et langage: dysarthrie (intoxication, AVC), {s:manque du mot}/paraphasies (aphasie → cause neurologique), néologismes (création de mots → psychose), {s:jargonaphasie}"
+    - "Quantité et spontanéité: discours spontané vs réponses laconiques par oui/non; cohérence formelle (vs troubles du cours de la pensée, voir section dédiée)"
+  "Humeur & affect":
+    - "{s:Humeur} (état émotionnel subjectif, durable — ce que le patient rapporte): la demander textuellement ('Comment décririez-vous votre humeur ?') et citer ses mots; qualifier: euthymique, déprimée/triste, élevée/euphorique, irritable, anxieuse, dysphorique, expansive"
+    - "{s:Affect} (expression émotionnelle observée, instantanée): décrire la qualité (triste, anxieux, colérique, plat), l'intensité, la réactivité"
+    - "Étendue/gamme de l'affect: normale vs {s:affect émoussé} (réduit) vs {s:affect plat/abrasé} (quasi absent → schizophrénie, dépression sévère, parkinsonisme) vs affect expansif"
+    - "Stabilité: {s:labilité émotionnelle} (passages rapides rires/pleurs → manie, atteinte frontale, pseudobulbaire); incontinence émotionnelle"
+    - "{s:Congruence} humeur/affect avec le contenu du discours: incongruence (rire en évoquant un drame → schizophrénie) ou congruence d'un délire avec l'humeur (délire de ruine congruent à la dépression)"
+    - "Idéation suicidaire à coter ici en première intention si l'humeur est abaissée (détaillée dans Évaluation du risque)"
+  "Pensée (cours & contenu)":
+    - "COURS de la pensée — vitesse: {s:tachypsychie}/fuite des idées (associations rapides par assonance/coq-à-l'âne → manie) vs {s:bradypsychie} (ralentissement → dépression, démence)"
+    - "COURS — organisation/cohérence: {s:relâchement des associations} (idées sans lien logique), tangentialité (réponses à côté sans jamais revenir au but), circonstancialité (détours mais arrive au but), {s:fuite des idées}, {s:barrages} (arrêt brutal → schizophrénie), incohérence/'salade de mots'"
+    - "COURS — persévération (répétition de la même idée/mot → atteinte frontale, démence); écholalie"
+    - "CONTENU — {s:idées délirantes} (croyances fausses, inébranlables, hors contexte culturel): thème (persécution, référence, grandeur, mystique, somatique/hypocondriaque, jalousie, érotomanie, négation d'organe = syndrome de Cotard), systématisation, degré d'adhésion"
+    - "CONTENU — automatisme mental / {s:syndrome d'influence}: vol, divulgation, écho, imposition ou commentaire de la pensée (symptômes de premier rang de Schneider → schizophrénie)"
+    - "CONTENU — {s:obsessions} (pensées intrusives, égodystoniques, reconnues comme siennes → {p:TOC}) et compulsions associées; ruminations anxieuses/dépressives"
+    - "CONTENU — {s:idées suicidaires} / d'homicide / phobies / idées de référence non délirantes: à rechercher activement"
+  "Perceptions":
+    - "{s:Hallucinations} (perception sans objet): préciser la modalité — AUDITIVES (voix: nombre, à la 2e ou 3e personne, commentant les actes, donnant des ordres = impératives → risque) les plus évocatrices de schizophrénie"
+    - "Hallucinations VISUELLES (évoquer d'abord une cause organique: {p:delirium}, sevrage alcoolique, démence à corps de Lewy, lésion occipitale)"
+    - "Hallucinations OLFACTIVES/GUSTATIVES (évoquer épilepsie temporale, tumeur) et CÉNESTHÉSIQUES/tactiles (zoopsies du delirium tremens; sensation de parasites)"
+    - "{s:Illusions} (perception déformée d'un objet réel — fréquentes dans le delirium, l'anxiété)"
+    - "Hallucinations physiologiques bénignes à distinguer: hypnagogiques (endormissement) / hypnopompiques (réveil)"
+    - "Phénomènes de {s:dépersonnalisation} (étrangeté de soi) et {s:déréalisation} (étrangeté du monde — dissociation, anxiété, TSPT, intoxication)"
+  "Cognition":
+    - "{s:Orientation}: temporelle (date, jour, saison, année), spatiale (lieu, étage, ville, canton), personne (identité, entourage); la désorientation temporelle est la plus précoce/sensible"
+    - "{s:Attention/concentration}: épreuves de calcul mental (100−7 en série, {t:Serial 7s}), épellation à l'envers du mot 'MONDE', empan de chiffres (≥ 5 en avant); déficit = delirium, anxiété, dépression"
+    - "{s:Mémoire}: immédiate (répétition de 3 mots), à court terme/épisodique (rappel des 3 mots après 3-5 min — atteint dans Alzheimer, restitué par l'indiçage si trouble attentionnel), ancienne (événements biographiques, faits historiques)"
+    - "{s:Fonctions exécutives}: abstraction (proverbes, similitudes 'pomme/orange'), planification, fluence verbale (citer max d'animaux en 1 min, norme ≥ 15-18), inhibition (Go/No-Go)"
+    - "{s:Praxies} (test de l'horloge — visuoconstruction + exécutif), {s:gnosies}, langage (dénomination, compréhension) — atteintes corticales focales"
+    - "Distinction clé: installation aiguë + fluctuation + inattention + altération de la vigilance = {p:delirium} (urgence, cause somatique) vs déclin progressif, conscience claire = {p:démence}; un MMSE bas isolé ne distingue pas les deux"
+  "Insight & jugement":
+    - "{s:Insight} (conscience du trouble): gradient — reconnaissance de la maladie + besoin de traitement (bon) → reconnaissance partielle → déni complet/attribution externe (mauvais, typique de la psychose et de la manie); impacte l'adhésion thérapeutique"
+    - "Conscience du caractère pathologique des symptômes (les obsessions du TOC sont reconnues comme absurdes = insight conservé, vs le délire = insight aboli)"
+    - "{s:Jugement} (capacité de décision adaptée): évaluer via des situations concrètes/hypothétiques et surtout les décisions récentes du patient (mise en danger, dépenses, refus de soins)"
+    - "Capacité de discernement (notion médico-légale suisse): aptitude à comprendre l'information, raisonner, exprimer un choix cohérent — déterminante pour le consentement aux soins et une éventuelle PAFA"
+    - "Fiabilité du récit: cohérence interne, concordance avec les sources collatérales (famille, dossier) — un défaut d'insight réduit la fiabilité"
+  "Évaluation du risque":
+    - "{r:Risque suicidaire} — explorer en gradation: idées de mort passives → idées suicidaires actives → intentionnalité → plan (méthode, moyens disponibles, létalité) → préparatifs (lettre, dons, accès à une arme/médicaments) → date/lieu; aborder le sujet ne crée PAS le risque"
+    - "Facteurs aggravants du risque suicidaire: TS antérieure (facteur prédictif majeur), {p:dépression}, désespoir, douleur psychique intense, insomnie sévère, abus de substances, accès létal (arme), isolement, sexe masculin, âge avancé, maladie somatique"
+    - "Facteurs protecteurs: alliance thérapeutique, soutien social, enfants à charge, croyances, projets, capacité à demander de l'aide"
+    - "{r:Risque hétéro-agressif}: idées d'homicide, cible identifiée, antécédents de violence, accès aux moyens, intoxication, délire de persécution avec désignation, agitation; devoir d'avertissement si tiers menacé"
+    - "Risque d'auto-négligence/incurie: refus de s'alimenter/s'hydrater, abandon du traitement somatique vital, mise en danger par désorganisation (gaz, déambulation)"
+    - "Vulnérabilité et exploitation: capacité à se protéger (manie avec dépenses/sexualité à risque, démence avec abus financier), conduite automobile, garde d'enfants"
+
+manoeuvres:
+  - "{t:MMSE (Mini-Mental State de Folstein)}: 30 points, ~10 min; explore orientation (10), enregistrement (3), attention/calcul (5), rappel (3), langage et praxies (9); INTERPRÉTATION: < 24/30 évoque un trouble cognitif (ajuster au niveau d'éducation); peu sensible aux atteintes frontales et dysexécutives; outil de dépistage et de suivi, non diagnostique"
+  - "{t:MoCA (Montreal Cognitive Assessment)}: 30 points, plus sensible que le MMSE pour les troubles cognitifs légers et dysexécutifs (test de l'horloge, fluence, abstraction, trail-making); seuil ~26/30 (ajouter 1 point si ≤ 12 ans de scolarité)"
+  - "{r:Test des 3 mots / rappel différé}: faire répéter 3 mots non liés, vaquer à une autre tâche 3-5 min, puis demander le rappel libre; si échec, proposer l'INDIÇAGE catégoriel: rappel restauré par l'indice → trouble attentionnel/sous-cortical; non restauré → atteinte hippocampique/Alzheimer (signature du déficit de stockage)"
+  - "{r:Serial 7s / épellation à l'envers}: soustraire 7 à partir de 100 (93-86-79-72-65) ou épeler 'MONDE' à l'envers; teste l'attention soutenue et la mémoire de travail; échec = inattention (delirium, dépression, anxiété)"
+  - "{r:Test de l'horloge}: demander de dessiner un cadran, placer tous les chiffres et indiquer 11h10; évalue planification, visuoconstruction et fonctions exécutives; anormal → atteinte frontale/visuospatiale (utile dans la démence, l'héminégligence)"
+  - "{r:Fluence verbale}: citer un maximum d'animaux (fluence catégorielle) ou de mots en 'P' (fluence littérale) en 1 minute; norme grossière ≥ 15-18 animaux; abaissée dans les atteintes frontales et la démence"
+  - "{r:CAGE} (dépistage alcool, 2 ou + = suspicion): Cut down (besoin de réduire?), Annoyed (agacé par les critiques?), Guilty (culpabilité?), Eye-opener (alcool dès le matin?)"
+  - "{r:Épreuves frontales (abstraction)}: similitudes ('en quoi une pomme et une orange se ressemblent ?' — réponse concrète vs abstraite), interprétation de proverbes; la pensée concrète/littérale évoque une atteinte frontale ou une psychose"
+  - "{r:Recherche de signes organiques (frontal release signs)}: réflexe de préhension (grasping), de succion, palmo-mentonnier; leur présence oriente vers une cause neurologique d'un trouble de l'état mental"
+
+echelles:
+  - |-
+    {t:PHQ-9} — Dépistage et sévérité de la {p:dépression} (9 items, 0-27):
+    • 1-4 = minimale
+    • 5-9 = légère
+    • 10-14 = modérée
+    • 15-19 = modérément sévère
+    • ≥ 20 = sévère
+    • l'item 9 (idées de mort/automutilation) impose une évaluation du risque suicidaire
+  - |-
+    {t:GAD-7} — Sévérité de l'{p:anxiété généralisée} (7 items, 0-21):
+    • 0-4 = minimale
+    • 5-9 = légère
+    • 10-14 = modérée
+    • ≥ 15 = sévère
+    • seuil de 10 = bonne sensibilité/spécificité pour l'anxiété cliniquement significative
+  - |-
+    {t:CAGE} — Dépistage rapide du mésusage d'alcool (4 questions, 1 point chacune):
+    • Cut down — Annoyed — Guilty — Eye-opener
+    • ≥ 2 réponses positives = forte probabilité de trouble lié à l'alcool (sensibiliser, approfondir)
+  - |-
+    {t:GDS (Geriatric Depression Scale)} — Dépression du sujet âgé (version 15 items):
+    • centrée sur l'affect (peu de symptômes somatiques, confondants chez l'âgé)
+    • ≥ 5/15 = dépression probable
+    • utile quand les plaintes somatiques ou cognitives masquent la dépression
+  - "{t:CAM (Confusion Assessment Method)} — Diagnostic du {p:delirium} au lit: requiert (1) début aigu ET fluctuation, (2) inattention, PLUS (3) pensée désorganisée OU (4) altération de la vigilance; (1)+(2)+(3 ou 4) = delirium; outil de référence, sensibilité/spécificité élevées"
+  - |-
+    {t:C-SSRS (Columbia Suicide Severity Rating Scale)} — Gradation du {r:risque suicidaire}:
+    • idéation: souhait de mort → pensées suicidaires actives → avec méthode → avec intention → avec plan
+    • comportement: actes préparatoires → tentative interrompue/avortée → tentative
+    • structure l'entretien et hiérarchise l'urgence d'intervention
+  - "{t:MMSE / MoCA} — voir manœuvres: scores cognitifs globaux de dépistage et de suivi (MMSE < 24, MoCA < 26 = à investiguer); à interpréter selon l'âge, le niveau d'éducation et l'état attentionnel"
+
+ssps_liees:
+  - SSP-PSY-01
+  - SSP-PSY-02
+  - SSP-PSY-03
+  - SSP-PSY-04
+  - SSP-PSY-05
+  - SSP-PSY-06
+  - SSP-PSY-07
+  - SSP-PSY-08
+  - SSP-PSY-09

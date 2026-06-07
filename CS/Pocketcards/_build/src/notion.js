@@ -108,14 +108,9 @@ export function buildPushPlan(card) {
     blocks.push(heading("📋 Anamnèse"));
     card.anamnese_appareil.forEach((x) => pushItemBlocks(blocks, x));
     blocks.push(heading("🔍 Examen clinique"));
-    for (const sub of [
-      "inspection",
-      "palpation",
-      "percussion",
-      "auscultation",
-    ]) {
-      blocks.push(paragraph(sub[0].toUpperCase() + sub.slice(1)));
-      card.examen_physique[sub].forEach((x) => pushItemBlocks(blocks, x));
+    for (const [sub, items] of Object.entries(card.examen_physique)) {
+      blocks.push(paragraph(sub.charAt(0).toUpperCase() + sub.slice(1)));
+      items.forEach((x) => pushItemBlocks(blocks, x));
     }
     blocks.push(heading("✋ Manœuvres"));
     card.manoeuvres.forEach((x) => pushItemBlocks(blocks, x));

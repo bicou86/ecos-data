@@ -1,0 +1,184 @@
+id: SYS-END
+type: sys
+title: Thyroïde & Cou
+discipline: Endocrino
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Endocrino/Skills/Skills-Thyroide.md
+  - CS/04_Skills_Examen/Endocrino/RMS/RMS-Thyroide_Cou.md
+  - Bates' Guide to Physical Examination and History Taking, 13e (chapitre Cou & Thyroïde)
+  - Talley & O'Connor's Clinical Examination, 9e (Endocrine system, Thyroid)
+  - Guidelines ETA (European Thyroid Association) Hyperthyroïdie 2018 et Hypothyroïdie 2013
+  - Guidelines EU-TIRADS 2017 (stratification échographique des nodules thyroïdiens)
+
+anamnese_appareil:
+  # Symptômes cardinaux d'hyperthyroïdie
+  - |-
+    {s:Symptômes d'hyperthyroïdie (thyrotoxicose)}:
+    • thermophobie / intolérance à la chaleur, sudation excessive
+    • perte de poids malgré appétit conservé ou augmenté (polyphagie)
+    • palpitations / tachycardie (rechercher {p:FA})
+    • nervosité, irritabilité, anxiété, insomnie
+    • tremblements fins des extrémités
+    • diarrhée / accélération du transit
+    • faiblesse musculaire proximale (difficulté à se relever d'une chaise)
+    • oligoménorrhée / aménorrhée
+    • prurit, peau chaude et moite
+  # Symptômes cardinaux d'hypothyroïdie
+  - |-
+    {s:Symptômes d'hypothyroïdie}:
+    • frilosité / intolérance au froid
+    • prise de poids malgré appétit diminué
+    • asthénie, somnolence, ralentissement psychomoteur
+    • constipation
+    • peau sèche, cheveux cassants, chute des cheveux, dépilation de la queue des sourcils (signe de Hertoghe)
+    • bradycardie
+    • ménorragies, troubles de la libido
+    • dépression, troubles de la mémoire/concentration
+    • œdème (myxœdème), voix rauque, syndrome du canal carpien
+  # Symptômes locaux cervicaux
+  - |-
+    {s:Symptômes locaux cervicaux (goitre/nodule/compression)}:
+    • tuméfaction cervicale antérieure (durée, vitesse de croissance, asymétrie)
+    • douleur cervicale (thyroïdite subaiguë de De Quervain → douleur + fièvre)
+    • {s:dysphagie} (compression œsophagienne)
+    • {s:dyspnée} / stridor (compression trachéale, goitre plongeant)
+    • {s:dysphonie} / voix bitonale (atteinte du nerf laryngé récurrent → suspecter malignité ou compression)
+    • sensation d'oppression / striction cervicale
+    • adénopathies cervicales palpées par le patient
+  # Symptômes ophtalmologiques (orbitopathie)
+  - |-
+    {s:Symptômes ophtalmologiques (orbitopathie de Basedow)}:
+    • exophtalmie / protrusion oculaire (souvent bilatérale, parfois asymétrique)
+    • larmoiement, photophobie, sensation de sable/corps étranger
+    • douleur rétro-orbitaire, gêne aux mouvements oculaires
+    • diplopie (atteinte des muscles oculomoteurs)
+    • rougeur conjonctivale, œdème palpébral
+    • baisse d'acuité visuelle (signe d'alarme: neuropathie optique compressive → urgence)
+  # Facteurs de risque et terrain
+  - |-
+    Facteurs de risque / terrain:
+    • sexe féminin (rapport F/H ~ 5-10/1 pour les dysthyroïdies auto-immunes)
+    • ATCD personnels ou familiaux de maladie auto-immune ({p:thyroïdite de Hashimoto}, {p:Basedow}, diabète type 1, vitiligo, maladie cœliaque, Biermer)
+    • post-partum (thyroïdite du post-partum dans les 12 mois)
+    • carence ou surcharge iodée (régime, produits de contraste iodés)
+    • irradiation cervicale dans l'enfance (facteur de risque de cancer)
+    • ATCD familial de cancer thyroïdien / NEM2 (carcinome médullaire)
+    • tabagisme (aggrave l'orbitopathie de Basedow)
+  # Traitements et iatrogénie
+  - |-
+    Traitements en cours / iatrogénie thyroïdienne:
+    • {r:lévothyroxine} (dose, observance, dernière TSH)
+    • {r:antithyroïdiens de synthèse} (carbimazole, thiamazole, PTU — surveillance NFS/agranulocytose)
+    • {r:amiodarone} (dysthyroïdie type 1 ou 2)
+    • {r:lithium} (hypothyroïdie)
+    • {r:interféron, inhibiteurs de tyrosine kinase, immunothérapie anti-PD1} (thyroïdites)
+    • produits de contraste iodés récents (effet Jod-Basedow ou Wolff-Chaikoff)
+    • supplémentation iodée / compléments alimentaires
+  - "Mode de vie et antécédents: tabac (paquets-années, lien orbitopathie), grossesse en cours ou désir de grossesse (adaptation TSH cible), ATCD de chirurgie thyroïdienne ou d'iode radioactif, qualité de vie/retentissement fonctionnel"
+
+examen_physique:
+  "Inspection":
+    - "État général: agitation/hyperkinésie et fébrilité du regard ({p:hyperthyroïdie}) vs ralentissement, faciès bouffi/infiltré et voix rauque ({p:hypothyroïdie}/myxœdème); état nutritionnel (amaigrissement récent en thyrotoxicose)"
+    - "Peau et phanères: peau chaude, moite et fine + érythème palmaire (hyperthyroïdie) vs peau sèche, froide, pâle/jaunâtre (caroténodermie) et épaissie (hypothyroïdie); chute des cheveux, dépilation du tiers externe des sourcils ({s:signe de Hertoghe}); onycholyse (ongle de Plummer); {s:myxœdème prétibial} (placards infiltrés indurés non prenant le godet, face antérieure des jambes → {p:Basedow})"
+    - "Inspection du cou (patient assis, cou en légère extension, bon éclairage tangentiel): rechercher une {s:tuméfaction cervicale antérieure} (goitre diffus vs nodule), son volume, sa symétrie, son siège (loge thyroïdienne, en regard des 2e-4e anneaux trachéaux), une cicatrice de cervicotomie, une circulation veineuse collatérale (compression cave par goitre plongeant)"
+    - "{r:Test de déglutition visuel}: demander au patient de boire une gorgée d'eau et déglutir; une masse thyroïdienne (ou un kyste du tractus thyréoglosse) ASCENSIONNE à la déglutition (solidarité avec l'axe laryngo-trachéal); une adénopathie ou une masse extra-thyroïdienne ne bouge pas"
+    - "{r:Test de protraction linguale}: faire tirer la langue; un {p:kyste du tractus thyréoglosse} (masse médiane) ascensionne à la protraction de la langue (distingue d'un nodule du lobe pyramidal); une masse latérale ne bouge pas"
+    - "Yeux ({p:orbitopathie de Basedow}): {s:exophtalmie} (protrusion, sclère visible au-dessus du limbe), rétraction palpébrale supérieure ({s:signe de Dalrymple}), œdème et rougeur palpébro-conjonctivale, chémosis, asynergie oculo-palpébrale; coter avec le score NOSPECS / {t:Clinical Activity Score (CAS)}"
+    - "Mains et extrémités: {s:tremblement fin} des doigts (poser une feuille de papier sur les mains tendues), moiteur palmaire (hyperthyroïdie); acropachie thyroïdienne (hippocratisme digital, rare, Basedow)"
+  "Palpation thyroïdienne":
+    - |-
+      {r:Technique de palpation (approche postérieure recommandée)}:
+      • examinateur derrière le patient assis, cou en légère flexion (relâche les muscles)
+      • pulpe des 2e-3e-4e doigts des deux mains de part et d'autre de la trachée, sous le cartilage cricoïde
+      • repérer l'isthme (en avant des 2e-4e anneaux trachéaux) puis chaque lobe latéral
+      • faire déglutir (gorgée d'eau): la glande ascensionne sous les doigts → confirme l'origine thyroïdienne
+      • approche antérieure possible (face au patient, pouce refoulant la trachée du côté examiné)
+    - |-
+      Caractériser un {s:goitre} (hypertrophie diffuse):
+      • volume (classification {t:OMS}: grade 0 = non palpable/non visible; grade 1 = palpable non visible cou en position neutre; grade 2 = visible cou en position neutre)
+      • consistance (souple = goitre simple; ferme = Hashimoto; dur/pierreux = thyroïdite de Riedel ou cancer)
+      • caractère diffus vs multinodulaire
+      • sensibilité (douloureux → thyroïdite subaiguë de De Quervain)
+      • limite inférieure palpable (si non atteinte à la déglutition → goitre plongeant rétrosternal)
+    - |-
+      Caractériser un {s:nodule thyroïdien} (signes de suspicion de malignité):
+      • taille (mesurer), nombre (unique vs multinodulaire)
+      • consistance dure/pierreuse (suspect) vs élastique/molle (kystique, bénin)
+      • mobilité: fixation aux plans profonds/superficiels = SUSPECT
+      • surface irrégulière, contours mal définis = SUSPECT
+      • croissance rapide = SUSPECT
+      • toujours coupler à la palpation des aires ganglionnaires cervicales
+    - "Palpation des aires ganglionnaires cervicales (systématique): chaînes jugulo-carotidiennes (secteurs II-III-IV), sus-claviculaires (secteur V, ganglion de Troisier à gauche), sous-mentonniers/sous-maxillaires (secteur I), spinaux; une adénopathie dure, fixée, indolore en regard d'un nodule oriente vers une {p:malignité} (carcinome papillaire)"
+    - "Palpation de la trachée: rechercher une déviation trachéale (compression/refoulement par un goitre volumineux ou plongeant), apprécier la position médiane du cartilage cricoïde et thyroïde"
+    - "Recherche d'un {s:frémissement (thrill)} palpable sur les lobes: vibration perçue à la pulpe → traduit une hypervascularisation (goitre hyperfonctionnel de {p:Basedow}); précède l'auscultation d'un souffle"
+  "Auscultation":
+    - "{r:Auscultation des lobes thyroïdiens}: appliquer la membrane (puis la cloche) du stéthoscope sur chaque lobe, patient en apnée (éviter l'interférence des bruits respiratoires et du souffle carotidien); rechercher un {s:souffle thyroïdien} systolo-diastolique continu → hypervascularisation de l'hyperthyroïdie ({p:maladie de Basedow}); signe de forte valeur"
+    - "Diagnostic différentiel du souffle: distinguer un vrai souffle thyroïdien d'un souffle carotidien transmis (ausculter la carotide séparément) et d'un souffle veineux jugulaire (disparaît à la compression douce de la veine jugulaire ou en décubitus)"
+    - "Auscultation cervicale complémentaire: rechercher un stridor laryngé (compression trachéale) à l'auscultation trachéale; ausculter les bases pulmonaires (épanchement en cas d'insuffisance cardiaque sur thyrotoxicose ou hypothyroïdie sévère)"
+  "Signes périphériques de dysthyroïdie":
+    - "Cardiovasculaire: prendre le pouls et la PA — {s:tachycardie} de repos voire {p:FA} (hyperthyroïdie, surtout sujet âgé), pouls bondissant et PA différentielle élargie; à l'inverse {s:bradycardie} et hypertension diastolique (hypothyroïdie); rechercher des signes d'insuffisance cardiaque à haut débit"
+    - "Neuromusculaire (hyperthyroïdie): {s:tremblement} fin et rapide, hyperréflexie ostéo-tendineuse avec phase de relaxation rapide, faiblesse musculaire proximale ({r:tester le relevé de chaise / l'accroupissement-relevé})"
+    - "Neuromusculaire (hypothyroïdie): {s:réflexe achilléen ralenti} (allongement caractéristique de la phase de relaxation — signe de Woltman), ralentissement idéomoteur, syndrome du canal carpien (signe de Tinel/Phalen)"
+    - "Œil et regard (hyperthyroïdie non spécifique, signes sympathiques): {s:signe de von Graefe} (asynergie oculo-palpébrale: la paupière supérieure retarde sur le globe lors du regard vers le bas), {s:signe de Dalrymple} (rétraction palpébrale), {s:signe de Stellwag} (raréfaction du clignement), {s:signe de Moebius} (insuffisance de convergence)"
+    - "Téguments et œdèmes: {s:myxœdème} généralisé infiltrant ne prenant pas le godet (hypothyroïdie sévère) vs myxœdème prétibial localisé (Basedow); peau ictérique-caroténodermique des paumes en hypothyroïdie"
+
+manoeuvres:
+  - "{r:Test de déglutition (ascension thyroïdienne)}: faire boire une gorgée d'eau au patient et observer/palper le cou pendant la déglutition; POSITIF = la masse ascensionne avec l'axe laryngo-trachéal → origine thyroïdienne (goitre, nodule) ou kyste thyréoglosse; NÉGATIF (pas d'ascension) → masse extra-thyroïdienne (adénopathie, lipome, kyste branchial)"
+  - "{r:Test de protraction de la langue}: faire tirer la langue au patient en observant une masse cervicale médiane; POSITIF = ascension de la masse → {p:kyste du tractus thyréoglosse} (relié au foramen caecum de la langue); permet de le distinguer d'un nodule thyroïdien isthmique ou du lobe pyramidal"
+  - "{r:Signe de Pemberton}: demander au patient de lever les deux bras au-dessus de la tête et de les maintenir 1 minute (manœuvre qui remonte le goitre dans le défilé cervico-thoracique); POSITIF si apparition d'une congestion faciale, cyanose, turgescence jugulaire, stridor ou dyspnée → {p:goitre plongeant} comprimant le défilé thoracique (syndrome cave supérieur a minima)"
+  - "{r:Recherche du tremblement (feuille de papier)}: patient assis, bras tendus en avant, doigts écartés; poser une feuille de papier sur le dos des mains; un {s:tremblement fin et rapide} fait osciller la feuille → thyrotoxicose (à distinguer du tremblement plus ample du parkinsonien ou de l'alcoolique)"
+  - "{r:Test du relâchement musculaire / réflexe achilléen}: percuter le tendon d'Achille et observer la phase de relaxation; POSITIF (hypothyroïdie) = relaxation ralentie et prolongée ({s:signe de Woltman}); à l'inverse, relaxation vive en hyperthyroïdie"
+  - "{r:Signe de von Graefe}: demander au patient de suivre du regard le doigt de l'examinateur qui descend lentement; POSITIF = retard de la paupière supérieure qui ne suit pas le globe oculaire vers le bas (sclère visible au-dessus de l'iris) → rétraction palpébrale de la thyrotoxicose"
+  - "{r:Évaluation de l'exophtalmie}: inspection de profil et par-dessus (vue du vertex, examinateur derrière le patient regardant vers le bas) pour apprécier la protrusion; mesure objective à l'{t:exophtalmomètre de Hertel} (normal < 20 mm, asymétrie pathologique si > 2 mm entre les deux côtés)"
+  - "{r:Recherche du frémissement et auscultation séquentielle}: palper d'abord chaque lobe à la recherche d'un thrill, puis ausculter au même endroit en apnée; la séquence palpation→auscultation d'un {s:souffle systolo-diastolique} a une forte valeur pour la maladie de Basedow (glande hypervascularisée)"
+
+echelles:
+  - |-
+    {t:Classification OMS du goitre} — évaluation clinique du volume:
+    • Grade 0 = thyroïde non palpable et non visible
+    • Grade 1 = goitre palpable mais non visible quand le cou est en position neutre (devient visible en extension)
+    • Grade 2 = goitre visible quand le cou est en position neutre
+    • utile pour le suivi épidémiologique (carence iodée) et clinique
+  - |-
+    {t:Score de Burch-Wartofsky} — probabilité de {p:crise aiguë thyrotoxique (orage thyroïdien)}:
+    • température, dysfonction du SNC (agitation → coma), troubles digestifs-hépatiques (nausées, ictère)
+    • tachycardie (points croissants > 90 à > 140/min), insuffisance cardiaque, fibrillation auriculaire
+    • facteur déclenchant présent ou non
+    • SCORE < 25 = peu probable; 25-44 = imminente; ≥ 45 = orage thyroïdien hautement probable (URGENCE vitale)
+  - |-
+    {t:Clinical Activity Score (CAS)} — activité de l'{p:orbitopathie de Basedow} (1 point par item, sur 7):
+    • douleur rétro-bulbaire spontanée
+    • douleur à la mobilisation oculaire
+    • rougeur palpébrale
+    • rougeur conjonctivale
+    • œdème palpébral
+    • chémosis (œdème conjonctival)
+    • inflammation de la caroncule/du pli
+    • SCORE ≥ 3/7 = orbitopathie active (justifie une corticothérapie/avis ophtalmo)
+  - |-
+    {t:Classification EU-TIRADS} — stratification du risque de malignité d'un {s:nodule} (échographie):
+    • EU-TIRADS 2 = bénin (kystique/spongiforme) → pas de cytoponction
+    • EU-TIRADS 3 = bas risque (2-4%) → ponction si > 20 mm
+    • EU-TIRADS 4 = risque intermédiaire (6-17%) → ponction si > 15 mm
+    • EU-TIRADS 5 = haut risque (26-87%: solide hypoéchogène + signe(s) de malignité) → ponction si > 10 mm
+    • signes de suspicion: hypoéchogénicité marquée, contours irréguliers, microcalcifications, forme plus haute que large
+  - |-
+    {t:Score de Bethesda} — catégorie cytologique de la cytoponction (FNA) du nodule:
+    • I = non diagnostique/non satisfaisant → reponctionner
+    • II = bénin (risque malin 0-3%) → surveillance
+    • III = atypies de signification indéterminée (10-30%)
+    • IV = néoplasme folliculaire (25-40%)
+    • V = suspect de malignité (50-75%)
+    • VI = malin (97-99%) → chirurgie
+
+ssps_liees:
+  - SSP-END-01
+  - SSP-END-02
+  - SSP-END-03
+  - SSP-END-04
+  - SSP-END-05
+  - SSP-END-06
+  - SSP-END-07
+  - SSP-END-08

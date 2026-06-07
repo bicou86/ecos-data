@@ -1,0 +1,187 @@
+id: SYS-VAS
+type: sys
+title: Vasculaire
+discipline: Cardio
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Cardio_Vasc/RMS/RMS-CV.md
+  - CS/04_Skills_Examen/Cardio_Vasc/Skills/Skills-CV.md
+  - CS/Pocketcards/RMS/Carte_Cardiovasculaire.pdf
+  - CS/Pocketcards/Angiocard - MTEV.PDF
+  - CS/Pocketcards/Angiocard - DOAC.pdf
+  - Guidelines ESC/ESVS Artériopathie périphérique (AOMI) 2017 (Eur Heart J 2018;39:763-816)
+  - Guidelines ESC Diagnostic et prise en charge de l'embolie pulmonaire 2019
+  - Rutherford's Vascular Surgery, séméiologie vasculaire
+
+anamnese_appareil:
+  # Symptômes cardinaux
+  - |-
+    {s:Claudication intermittente} (insuffisance artérielle des membres):
+    • douleur/crampe à la marche, soulagée par l'arrêt en < 10 min (≠ claudication neurogène qui exige la flexion/assise)
+    • topographie = un étage SOUS la sténose (mollet → fémoro-poplité; cuisse/fesse → ilio-fémoral = {p:syndrome de Leriche} avec impuissance)
+    • périmètre de marche (distance en mètres, stable ou en régression?)
+    • douleur de décubitus / repos (pied pendant hors du lit = {e:ischémie critique}, stade III Leriche-Fontaine)
+    • troubles trophiques (ulcère/nécrose = stade IV)
+    • FRCV associés (tabac+++, diabète, HTA, dyslipidémie)
+  - |-
+    {s:Douleur de jambe aiguë} (suspicion {p:ischémie aiguë de membre} — urgence):
+    • 6 P: Pain, Pallor, Pulselessness, Paresthesia, Paralysis, Poïkilothermie (froideur)
+    • début brutal (embolie, souvent sur {p:FA}) vs subaigu (thrombose sur artériopathie connue)
+    • délai d'installation (fenêtre de revascularisation ~6 h)
+    • source embolique (FA, IDM récent, anévrisme)
+  - |-
+    {s:Douleur/œdème unilatéral de membre} (suspicion {p:TVP}):
+    • œdème unilatéral, chaleur, rougeur, douleur du mollet
+    • facteurs de risque {t:Wells TVP} (alitement, chirurgie récente, néoplasie, immobilisation plâtrée, voyage prolongé, contraception/grossesse, ATCD MTEV, thrombophilie)
+    • dyspnée/douleur thoracique associée (rechercher {p:embolie pulmonaire})
+  - |-
+    {s:Symptômes d'insuffisance veineuse chronique}:
+    • lourdeur/pesanteur des jambes en fin de journée, améliorée par la surélévation et la marche
+    • œdème vespéral déclive
+    • varices, crampes nocturnes, prurit, jambes sans repos
+    • ATCD de TVP (syndrome post-thrombotique), grossesses, station debout prolongée
+  - |-
+    {s:Symptômes de maladie carotidienne / cérébro-vasculaire}:
+    • {s:AIT/AVC} (déficit focal: hémiparésie, troubles du langage, amaurose fugace homolatérale)
+    • caractère transitoire (< 24 h = AIT) ou constitué
+    • souffle cervical connu
+  - |-
+    {s:Anévrisme} (le plus souvent asymptomatique):
+    • {p:AAA} (anévrisme de l'aorte abdominale): masse battante/expansive, douleur abdo/lombaire (fissuration = urgence vitale), dépistage écho chez H 65-75 ans tabagique
+    • anévrisme poplité (souvent bilatéral, source d'embolies distales)
+  - |-
+    {s:Phénomène de Raynaud} (acrosyndrome):
+    • triphasique: blancheur (ischémie) → cyanose → rougeur (reperfusion), déclenché par le froid/stress
+    • primaire (jeune femme, symétrique, bénin) vs secondaire (asymétrique, ulcérations, connectivite → sclérodermie, lupus)
+  # Facteurs de risque et antécédents
+  - |-
+    FRCV (déterminants majeurs de l'athérosclérose, à systématiser):
+    • tabac (paquets-années — FR le plus fort pour l'AOMI et l'AAA, arrêt?)
+    • diabète (microangiopathie + macroangiopathie, pied diabétique)
+    • HTA
+    • dyslipidémie (LDL)
+    • âge, sexe masculin, hérédité
+    • insuffisance rénale chronique
+  - |-
+    ATCD vasculaires personnels et facteurs pro-thrombotiques:
+    • MTEV antérieure (TVP/EP, provoquée ou non)
+    • thrombophilie connue (facteur V Leiden, déficit AT/PC/PS, SAPL)
+    • néoplasie active (état pro-thrombotique)
+    • chirurgie/traumatisme/immobilisation récents
+    • athérome connu (coronaropathie, AVC, AOMI = polyvasculaire)
+  - |-
+    Traitements en cours:
+    • {r:antiagrégants} (aspirine, clopidogrel) — prévention secondaire AOMI/carotide
+    • {r:anticoagulants (DOAC, AVK, HBPM)} (indication: MTEV, FA, valve; INR/anti-Xa?)
+    • {r:statines} (objectif LDL < 1.4 mmol/L en prévention secondaire)
+    • antihypertenseurs, vasodilatateurs (cilostazol)
+    • contraception œstroprogestative / THS (risque MTEV)
+  - "Mode de vie: tabac (sevrage = traitement clé de l'AOMI), activité physique (la marche est thérapeutique dans la claudication), profession (station debout/assise prolongée → insuffisance veineuse)"
+
+examen_physique:
+  "Inspection":
+    - "Conditions: patient déshabillé des deux membres (comparaison bilatérale OBLIGATOIRE), pièce tempérée (le froid fausse coloration et pouls), examen comparatif systématique côte à côte"
+    - "Coloration cutanée (membres): {s:pâleur} (ischémie artérielle — accentuée à la surélévation), {s:cyanose} déclive (stase, ischémie sévère), {s:érythrose/rubéose déclive} (vasodilatation réactionnelle de l'ischémie chronique — pied 'rouge homard' pendant), marbrures/livedo (microembolies de cholestérol, vasospasme)"
+    - "Troubles trophiques artériels: peau fine/luisante/atrophique, dépilation distale, ongles épaissis/cassants, fonte des coussinets pulpaires, retard de cicatrisation, gangrène sèche (nécrose noire des orteils)"
+    - "{s:Ulcère artériel}: distal/apical (orteils, talon, points d'appui), sec, à l'emporte-pièce, fond nécrotique pâle, TRÈS douloureux (sauf neuropathie), peau péri-ulcéreuse froide et pâle"
+    - "{s:Ulcère veineux}: péri-malléolaire interne (région de la guêtre), large, peu profond, exsudatif, fond bourgeonnant rouge, peu/pas douloureux, sur peau de dermite ocre"
+    - "Signes d'insuffisance veineuse chronique: {s:varices} (trajets veineux dilatés/tortueux, debout), œdème déclive, dermite ocre (dépôts d'hémosidérine brun-ocre), atrophie blanche, lipodermatosclérose (peau scléreuse en 'bouteille de champagne inversée'), eczéma variqueux, couronne phlébectasique malléolaire"
+    - "Signes de {p:TVP}: augmentation de volume unilatérale du mollet (mesurer le périmètre des 2 mollets à 10 cm sous la TTA — différence > 3 cm significative), érythème, dilatation des veines superficielles non variqueuses (circulation collatérale), perte du ballottement du mollet"
+    - "Inspection abdominale: masse battante épigastrique/péri-ombilicale (suspicion {p:AAA} chez sujet maigre), circulation veineuse collatérale (obstruction cave)"
+    - "Inspection cervicale et faciale: turgescence jugulaire (obstacle cave supérieur), œdème en pèlerine (syndrome cave supérieur)"
+    - "Mains/doigts: phénomène de {p:Raynaud} en crise (doigts blancs nets), ulcérations pulpaires, sclérodactylie, micro-infarctus (athéro-embolies, endocardite)"
+  "Palpation des pouls":
+    - "Méthode: pulpe de 2-3 doigts (jamais le pouce — son propre pouls), pression douce, TOUJOURS bilatéral et comparatif, coter de 0 à 3+ (0 = absent, 1+ = diminué/filant, 2+ = normal, 3+ = bondissant)"
+    - "Pouls du membre SUPÉRIEUR: radial (gouttière du pouls), cubital, huméral (gouttière bicipitale interne), axillaire; comparer les 2 côtés (asymétrie → sténose sous-clavière, dissection, vol sous-clavier)"
+    - "Pouls carotidien: UN CÔTÉ À LA FOIS (jamais simultané — risque de syncope/bradycardie réflexe), sous l'angle mandibulaire en avant du SCM; ausculter AVANT de palper; amplitude, retard ({s:parvus et tardus} → RA), souffle"
+    - |-
+      {r:Pouls du membre INFÉRIEUR} (comparer bilatéralement, coter 0-3+):
+      • fémoral (mi-arcade crurale, à mi-distance épine iliaque antéro-supérieure–pubis)
+      • poplité (genou semi-fléchi, mains empoignant le creux poplité, comprimer contre le plateau tibial)
+      • tibial postérieur (en arrière de la malléole interne)
+      • pédieux/dorsal du pied (dos du pied, latéral au tendon de l'extenseur de l'hallux — ABSENT physiologiquement chez ~8-10%)
+    - "Interprétation de l'abolition: pouls fémoral aboli → atteinte aorto-iliaque; poplité aboli avec fémoral présent → atteinte fémoro-poplitée; distaux abolis seuls → atteinte jambière (typique du diabète)"
+    - "Palpation abdominale de l'aorte: à plat, mains de part et d'autre de la ligne médiane sus-ombilicale; aorte normale palpable chez le sujet maigre (< 3 cm); masse EXPANSIVE (écarte les doigts, ≠ simplement transmise) et battante → {p:AAA} (mesurer largeur estimée; un AAA non rompu n'est PAS douloureux à la palpation)"
+    - "Température cutanée: dos de la main, comparatif, de proximal en distal — repérer le niveau du gradient thermique (limite supérieure du froid = niveau approximatif de l'occlusion artérielle); chaleur unilatérale du mollet → TVP"
+    - "Frémissement (thrill): palpable sur une sténose serrée ou une fistule artério-veineuse (frémissement continu); sur abord de dialyse = thrill normal de la fistule fonctionnelle"
+    - "Ballottement / consistance du mollet: mollet TVP = tendu, douloureux à la palpation profonde, perte du ballottement; cordon veineux superficiel induré et chaud → thrombose veineuse superficielle (paraphlébite)"
+  "Auscultation (souffles)":
+    - "Principe: {s:souffle vasculaire} = écoulement turbulent sur sténose (généralement 50-90%; une sténose pré-occlusive très serrée ou une occlusion complète peut être SILENCIEUSE); ausculter sur le trajet artériel, patient en apnée, stéthoscope appliqué sans comprimer (une compression crée un faux souffle)"
+    - "{s:Souffle carotidien}: bifurcation carotidienne (sous l'angle mandibulaire); souffle systolique → {p:sténose carotidienne} athéromateuse (mais corréler à l'écho-Doppler — sensibilité/spécificité imparfaites); distinguer d'un souffle cardiaque irradié (RA: maximal au foyer aortique, décroît vers le cou)"
+    - "Souffle sous-clavier: creux sus-claviculaire → sténose de la sous-clavière (asymétrie tensionnelle des bras, vol sous-clavier)"
+    - "Souffle aortique abdominal: épigastre → {p:AAA} ou sténose aortique abdominale; latéralisé para-ombilical → {p:sténose de l'artère rénale} (évoquer HTA réno-vasculaire, surtout si HTA résistante du sujet jeune ou âgé athéromateux)"
+    - "Souffle iliaque/fémoral: fosse iliaque et triangle de Scarpa (inguinal) → sténose ilio-fémorale; reproductible/majoré après effort"
+    - "Auscultation d'une fistule artério-veineuse: souffle CONTINU (systolo-diastolique) avec renforcement systolique → fistule (abord de dialyse normal, ou fistule post-traumatique pathologique)"
+  "Tests vasculaires":
+    - "{t:Index de pression systolique cheville-bras (IPS/ABI)}: PAS cheville (Doppler tibial post. ou pédieux, la plus haute des 2) ÷ PAS humérale (la plus haute des 2 bras); NORMAL 0.90-1.40; ≤ 0.90 = {p:AOMI}; < 0.50 = ischémie sévère; > 1.40 = artères incompressibles (médiacalcose: diabète, IRC → IPS ininterprétable, recourir à l'index orteil-bras)"
+    - "{r:Temps de recoloration cutanée} (recoloration capillaire): pression 5 sec sur la pulpe d'un orteil/ongle puis relâcher; NORMAL < 2-3 sec; allongé → mauvaise perfusion distale"
+    - "{r:Temps de remplissage veineux}: membre surélevé (vidange des veines) puis abaissé pendant; NORMAL remplissage des veines dorsales en < 15-20 sec; allongé → insuffisance artérielle"
+    - "Recoloration au test de surélévation: en position couchée, surélever les jambes à 45° 1-2 min → pâleur plantaire = ischémie; puis pendre les jambes hors du lit → érythrose déclive + remplissage veineux retardé > 20 sec confirme l'ischémie (cf. test de Buerger / Ratschow)"
+    - "Test de surélévation des membres supérieurs / test d'Allen: cf. section manœuvres (perméabilité radiale/cubitale)"
+    - "Évaluation du godet (œdème): pression 5-10 sec sur la face antérieure du tibia/malléole; godet persistant = œdème mou (cardiaque, rénal, veineux, hypoalbuminémie) — ≠ œdème dur sans godet (lymphœdème, myxœdème)"
+
+manoeuvres:
+  - "{t:Calcul de l'IPS (ABI)}: brassard + sonde Doppler de poche; mesurer PAS aux 2 bras (huméral) et aux 2 chevilles (tibial postérieur et pédieux); IPS de chaque jambe = (PAS la plus haute à la cheville de cette jambe) / (PAS humérale la plus haute des 2 bras); INTERPRÉTATION: > 1.40 incompressible, 0.91-1.40 normal, 0.90-0.41 AOMI (claudication), ≤ 0.40 ischémie critique"
+  - "{r:Test de Buerger (surélévation-déclivité)}: patient en décubitus, surélever les 2 jambes à 45-60° pendant 1-2 min; POSITIF si {s:pâleur plantaire} apparaît (angle de Buerger < 20° = ischémie sévère); puis asseoir le patient jambes pendantes: la réapparition lente de la couleur avec {s:érythrose déclive} (rougeur réactionnelle) et un remplissage veineux > 20 sec confirment l'insuffisance artérielle"
+  - "{r:Test d'Allen} (perméabilité de l'arcade palmaire avant ponction radiale): le patient serre le poing, l'examinateur comprime SIMULTANÉMENT les artères radiale ET cubitale; le patient ouvre la main (paume pâle); relâcher la CUBITALE seule → recoloration de la paume en < 5-10 sec = arcade perméable (cubitale fonctionnelle = ponction radiale sûre); recoloration > 10 sec / paume restant pâle = test ANORMAL (risque ischémique, éviter la radiale)"
+  - "{r:Signe de Homans}: dorsiflexion passive du pied genou tendu; douleur du mollet = signe classique de {p:TVP} mais FAIBLE sensibilité et spécificité → NE JAMAIS s'y fier seul (jamais utilisé pour exclure/confirmer; combiner au score de Wells + D-dimères + écho-Doppler)"
+  - "{r:Manœuvre/test de Trendelenburg} (incontinence valvulaire des saphènes): patient couché jambe surélevée pour vider les varices, poser un garrot à la racine de la cuisse (compression de la crosse de la grande saphène), faire lever le patient; si les varices restent vides puis se remplissent BRUTALEMENT au relâchement du garrot → incontinence de la jonction saphéno-fémorale; si remplissage rapide MALGRÉ le garrot → incontinence des perforantes sous-jacentes"
+  - "{r:Test de la toux / percussion (Schwartz)}: une main palpe la grande saphène à la cuisse, l'autre percute/déclenche la toux distalement; une onde transmise (frémissement) vers le haut indique une colonne sanguine continue par valvules incontinentes"
+  - "{r:Recherche du reflux hépato-jugulaire}: utile pour rattacher un œdème des MI à une cause cardiaque droite (cf. carte Cardio) plutôt que vasculaire locale"
+  - "{r:Test de provocation du syndrome du défilé thoraco-brachial (Adson)}: palper le pouls radial, faire tourner la tête vers le côté examiné en inspiration profonde + extension du cou; ABOLITION/diminution du pouls radial → compression du paquet vasculo-nerveux au défilé (interpréter avec prudence: faux positifs fréquents)"
+  - "Mesure comparative des périmètres de membre: ruban métrique à un repère osseux fixe (10 cm sous la TTA pour le mollet, 15 cm au-dessus du bord sup. de la rotule pour la cuisse); différence > 3 cm (mollet) en faveur d'une TVP ou d'un lymphœdème; intègre le {t:score de Wells}"
+
+echelles:
+  - |-
+    {t:Score de Wells (TVP)} — Probabilité clinique de thrombose veineuse profonde:
+    • cancer actif (+1)
+    • paralysie/parésie ou immobilisation plâtrée d'un MI (+1)
+    • alitement > 3 j ou chirurgie majeure < 12 sem (+1)
+    • douleur sur le trajet veineux profond (+1)
+    • œdème de tout le membre (+1)
+    • mollet > 3 cm de plus que controlatéral (+1)
+    • œdème prenant le godet du côté symptomatique (+1)
+    • circulation veineuse collatérale superficielle (+1)
+    • ATCD de TVP documentée (+1)
+    • diagnostic alternatif au moins aussi probable (−2)
+    • INTERPRÉTATION (modèle à 2 niveaux): ≤ 1 = TVP improbable (D-dimères → si négatifs, exclut); ≥ 2 = TVP probable (écho-Doppler veineux)
+  - |-
+    {t:Score de Wells (embolie pulmonaire)} — Probabilité clinique d'EP:
+    • signes cliniques de TVP (+3)
+    • diagnostic alternatif moins probable que l'EP (+3)
+    • FC > 100/min (+1.5)
+    • immobilisation/chirurgie < 4 sem (+1.5)
+    • ATCD de TVP/EP (+1.5)
+    • hémoptysie (+1)
+    • cancer actif (+1)
+    • INTERPRÉTATION (2 niveaux): ≤ 4 = EP improbable (→ D-dimères); > 4 = EP probable (→ angio-CT thoracique)
+  - |-
+    {t:Classification de Leriche-Fontaine} — Stades de l'{p:AOMI}:
+    • I = asymptomatique (lésions présentes, IPS abaissé sans plainte)
+    • IIa = claudication intermittente, périmètre de marche > 200 m
+    • IIb = claudication, périmètre < 200 m
+    • III = douleurs de décubitus / repos (ischémie critique)
+    • IV = troubles trophiques (ulcère, gangrène)
+    • les stades III et IV = {e:ischémie critique chronique} (menace du membre)
+  - |-
+    {t:Classification de Rutherford} — Ischémie aiguë de membre (pronostic/conduite):
+    • I = viable (pas de menace immédiate; pas de déficit sensitif/moteur, Doppler audible)
+    • IIa = menacé marginalement (déficit sensitif minime, récupérable si traité)
+    • IIb = menacé immédiatement (déficit sensitivo-moteur, douleur de repos — revascularisation URGENTE)
+    • III = irréversible (anesthésie profonde + paralysie + rigidité musculaire → amputation)
+  - |-
+    {t:Classification CEAP} — Maladie veineuse chronique (axe clinique C0-C6):
+    • C0 = pas de signe visible/palpable
+    • C1 = télangiectasies / veines réticulaires
+    • C2 = varices
+    • C3 = œdème
+    • C4 = troubles trophiques (a: pigmentation/eczéma; b: lipodermatosclérose/atrophie blanche)
+    • C5 = ulcère cicatrisé
+    • C6 = ulcère veineux actif
+    • (E = étiologie, A = anatomie, P = physiopathologie complètent la classification)
+
+ssps_liees:
+  - SSP-CAR-05
+  - SSP-CAR-06
+  - SSP-MSQ-09

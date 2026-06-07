@@ -1,0 +1,201 @@
+id: SYS-GYN
+type: sys
+title: Gynécologique
+discipline: Gyneco
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Gyneco/Skills/Skills-Gyneco.md
+  - CS/04_Skills_Examen/Gyneco/RMS/RMS-Gyneco.md
+  - CS/Pocketcards/RMS/Carte_Gynecologique.pdf
+  - Bates' Guide to Physical Examination and History Taking (12e éd.)
+  - Référentiel Collège National des Gynécologues et Obstétriciens Français (CNGOF)
+  - Recommandations OFSP/Swiss Cancer Screening — dépistage du cancer du col (frottis/HPV)
+
+anamnese_appareil:
+  # Symptômes cardinaux
+  - |-
+    {s:Douleurs pelviennes}:
+    • siège (médian sus-pubien, fosse iliaque D/G, latéralisé)
+    • caractère (crampe, pesanteur, brûlure, à type de contraction)
+    • aiguë vs chronique (> 6 mois)
+    • rythme par rapport au cycle (dysménorrhée: J1-J3; douleur péri-ovulatoire = {s:syndrome intermenstruel/Mittelschmerz})
+    • {s:dyspareunie} (superficielle à l'intromission vs profonde aux chocs)
+    • irradiation (lombaire, périnéale, crurale)
+    • signes associés (fièvre, leucorrhées, métrorragies, signes urinaires/digestifs)
+    • {r:score 0-10} et retentissement (absentéisme, antalgiques)
+  - |-
+    {s:Troubles du cycle / saignements anormaux}:
+    • caractériser le cycle: durée (normal 24-38 j), régularité, durée des règles (≤ 8 j), abondance (nombre de protections/jour, caillots, signes d'anémie)
+    • {s:ménorragies/règles abondantes} (>80 mL — {t:score de Higham/PBAC})
+    • {s:métrorragies} (saignement en dehors des règles)
+    • {s:ménométrorragies}
+    • {s:spotting} (micro-saignements)
+    • {s:saignement post-coïtal} (drapeau rouge → {p:cancer du col}, ectropion, cervicite)
+    • {s:saignement post-ménopausique} (TOUJOURS pathologique jusqu'à preuve du contraire → {p:cancer de l'endomètre})
+    • {s:aménorrhée} (primaire: pas de règles à 15 ans; secondaire: arrêt > 3 cycles) — penser {e:grossesse} en premier
+  - |-
+    {s:Leucorrhées / pertes vaginales}:
+    • aspect (blanchâtres grumeleuses = {p:candidose}; grises homogènes malodorantes = {p:vaginose bactérienne}; verdâtres mousseuses = {p:trichomonase})
+    • odeur (poisson pourri → vaginose, test à la potasse positif)
+    • quantité, prurit/brûlure associés
+    • leucorrhées physiologiques (glaire claire, augmentent en péri-ovulatoire et en début de grossesse)
+    • contexte (rapports non protégés, nouveau partenaire, antibiothérapie récente)
+  - |-
+    {s:Symptômes vulvaires}:
+    • prurit (lichen, candidose, dermatose)
+    • brûlure, douleur localisée ({p:vulvodynie}, {s:vestibulodynie})
+    • tuméfaction (kyste/abcès de la {p:glande de Bartholin} — labium majus postéro-inférieur)
+    • lésion/ulcération (HSV, syphilis, néoplasie vulvaire)
+    • sécheresse (carence œstrogénique, syndrome génito-urinaire de la ménopause)
+  - |-
+    {s:Symptômes mammaires}:
+    • masse (date d'apparition, évolution avec le cycle, mobilité, douleur)
+    • mastodynie (cyclique = bénigne; non cyclique → bilan)
+    • écoulement mamelonnaire (uni/bilatéral, spontané vs provoqué, séreux/lactescent/sanglant — sanglant unipore = drapeau rouge → {p:papillome}/{p:carcinome})
+    • modifications cutanées (rétraction, peau d'orange, érythème → {p:mastite}/{p:cancer inflammatoire})
+    • galactorrhée (hyperprolactinémie, médicaments)
+  - |-
+    {s:Symptômes de prolapsus / troubles pelvi-périnéaux}:
+    • sensation de boule/pesanteur vaginale ({p:cystocèle}, {p:hystérocèle}, {p:rectocèle})
+    • {s:incontinence urinaire} (d'effort: toux/rire; par urgenturie; mixte)
+    • dysurie, pollakiurie, sensation de vidange incomplète
+    • incontinence anale, dyschésie
+  - |-
+    {s:Symptômes climatériques (ménopause)}:
+    • bouffées de chaleur, sueurs nocturnes
+    • sécheresse vaginale, dyspareunie
+    • troubles de l'humeur, du sommeil
+    • date des dernières règles (ménopause confirmée après 12 mois d'aménorrhée)
+  # Antécédents et anamnèse systématique
+  - |-
+    Anamnèse gynéco-obstétricale (à systématiser):
+    • formule obstétricale G_P_ (gestité = nb de grossesses; parité = nb d'accouchements ≥ 22 SA), détailler AVB/césariennes, FCS, IVG, GEU
+    • ménarche (âge des 1res règles), date des dernières règles (DDR)
+    • régularité et caractéristiques du cycle
+    • contraception actuelle et antérieure (type, tolérance, observance)
+    • {e:statut ménopausique} (péri-/post-, THM éventuel)
+    • date et résultat du dernier frottis cervico-utérin / test {t:HPV}
+    • date et résultat de la dernière mammographie
+    • {e:statut HPV / vaccination}
+  - |-
+    ATCD gynécologiques personnels:
+    • {p:IST} (chlamydia, gonocoque, HSV, syphilis, VIH)
+    • {p:salpingite/MIP} (risque de stérilité tubaire, GEU)
+    • {p:endométriose} / {p:adénomyose}
+    • {p:SOPK} (syndrome des ovaires polykystiques)
+    • {p:fibromes/myomes}, kystes ovariens
+    • dysplasie cervicale, conisation
+    • chirurgie pelvienne (hystérectomie, annexectomie, césarienne)
+    • problèmes de fertilité, PMA
+  - |-
+    ATCD familiaux (oncogénétique):
+    • {p:cancer du sein} et de l'ovaire (âge de survenue, bilatéralité)
+    • mutation {t:BRCA1/BRCA2} connue, syndrome de Lynch
+    • cancer de l'endomètre, du côlon
+    • âge de la ménopause de la mère
+  - |-
+    Facteurs de risque oncologiques:
+    • sein/endomètre: nulliparité, ménarche précoce/ménopause tardive (exposition œstrogénique prolongée), obésité, THM, tamoxifène, ATCD familiaux/BRCA
+    • col: HPV oncogène (16/18), tabac, multipartenariat, immunodépression, premiers rapports précoces
+    • ovaire: nulliparité, BRCA, âge
+  - |-
+    Traitements et mode de vie en cours:
+    • contraception hormonale ({r:œstroprogestatifs}, {r:progestatifs}, {r:DIU}), {r:THM}
+    • {r:anticoagulants} (impact sur les ménorragies)
+    • médicaments hyperprolactinémiants (neuroleptiques, antiémétiques)
+    • tabac (CI relative aux œstroprogestatifs après 35 ans), alcool (FR cancer du sein)
+    • {e:statut vaccinal HPV}, dépistage IST à jour
+
+examen_physique:
+  "Examen des seins":
+    - "Conditions: patiente torse nu, pièce chaude, consentement et chaperon proposé; examen en première partie de cycle (J7-J10) si patiente non ménopausée (seins moins tendus); examen comparatif et systématique des deux seins et des aires ganglionnaires"
+    - "Inspection (4 positions): bras le long du corps, bras levés, mains sur les hanches (contraction des pectoraux), puis penchée en avant; rechercher: asymétrie, voussure/masse visible, {s:rétraction cutanée} ou mamelonnaire, {s:peau d'orange} (œdème cutané → {p:cancer inflammatoire}), érythème, ulcération, écoulement spontané, anomalie aréolo-mamelonnaire (maladie de Paget = eczéma/croûte du mamelon)"
+    - |-
+      Palpation glandulaire (patiente en décubitus dorsal, bras homolatéral relevé sous la tête):
+      • pulpe de 3 doigts, mouvements circulaires, pression légère/moyenne/profonde
+      • balayage systématique (radiaire, en spirale ou par bandes verticales) couvrant les 4 quadrants + prolongement axillaire de Spence + sillon sous-mammaire
+      • caractériser toute masse: siège (quadrant horaire + distance au mamelon), taille (cm), forme, contours (réguliers/irréguliers), consistance (ferme/dure/élastique), mobilité (mobile vs fixée aux plans profonds/cutanés), sensibilité
+    - "Caractères orientant: masse {s:dure, irrégulière, fixée, indolore} → suspicion de {p:malignité}; masse {s:ferme, lisse, mobile, élastique} → {p:fibroadénome} (jeune); masse molle, rénitente, douloureuse, mobile, qui peut varier avec le cycle → {p:kyste}"
+    - "Mamelon et aréole: pression douce péri-aréolaire pour rechercher un écoulement; noter pore concerné, caractère (lactescent/séreux/sanglant); écoulement {s:sanglant unipore spontané} = drapeau rouge ({p:papillome intracanalaire}, carcinome)"
+    - "Aires ganglionnaires: palpation axillaire (patiente assise, bras soutenu par l'examinateur pour relâcher le creux axillaire — explorer les 5 groupes: central, latéral, pectoral, sous-scapulaire, apical), sus- et sous-claviculaires; adénopathie {s:dure, fixée} → drapeau rouge"
+  "Examen abdomino-pelvien":
+    - "Conditions: vessie vidée, patiente en décubitus dorsal genoux fléchis, abdomen relâché; inspection: cicatrices (Pfannenstiel sus-pubienne, laparoscopie péri-ombilicale), distension, voussure (globe utérin/vésical, masse), vergetures, circulation collatérale"
+    - "Palpation abdominale superficielle puis profonde: rechercher une {s:masse pelvienne} sus-pubienne (utérus gravide/myomateux, kyste ovarien, globe vésical); une masse pelvienne d'origine génitale naît du pelvis (on ne passe pas la main entre la masse et la symphyse)"
+    - "Signes péritonéaux (urgence): défense, contracture, {s:douleur à la décompression (Blumberg)} → {p:pelvi-péritonite}, {p:GEU rompue}, torsion/rupture de kyste; recherche de la douleur provoquée des fosses iliaques"
+    - "Percussion: matité d'une masse pleine (utérus, kyste volumineux) vs tympanisme des anses; matité déclive des flancs avec signe du flot → {s:ascite} (carcinose ovarienne)"
+    - "Palpation des aires inguinales et des orifices herniaires; palpation des fosses lombaires (contact lombaire, ébranlement) si suspicion de retentissement urétéral d'une masse pelvienne"
+  "Spéculum":
+    - |-
+      Conditions et technique:
+      • consentement éclairé, chaperon, vessie vide, position gynécologique (décubitus dorsal, pieds aux étriers)
+      • choisir la taille du spéculum (Cusco), réchauffer, lubrifier à l'eau si pas de prélèvement cytologique (lubrifiant peut altérer le frottis)
+      • introduction oblique puis horizontalisation, ouverture douce jusqu'à exposer le col
+    - "Inspection des parois vaginales (en retirant lentement le spéculum): coloration, trophicité (pâleur/sécheresse → carence œstrogénique), leucorrhées (recueillir aspect/odeur), lésions (condylomes, ulcérations, atrophie), cloisons/malformations, bombement des parois (cystocèle paroi antérieure, rectocèle paroi postérieure)"
+    - "Inspection du col: aspect (rosé lisse normal; {s:ectropion} = muqueuse endocervicale rouge éversée autour de l'orifice, fréquent et bénin), orifice externe (punctiforme nullipare / fente transversale multipare), {s:saignement de contact} (→ {p:lésion cervicale}), lésions bourgeonnantes/ulcérées (drapeau rouge → {p:cancer du col}), kystes de Naboth, polype"
+    - "Prélèvements: {t:frottis cervico-utérin / test HPV} (jonction pavimento-cylindrique — spatule d'Ayre exocol + cytobrosse endocol, ou prélèvement en milieu liquide), prélèvements bactériologiques/PCR (chlamydia, gonocoque, mycoplasmes), pH vaginal, test à la potasse (sniff test) si suspicion de vaginose"
+    - "Recherche de prolapsus sous spéculum/valve unique: faire pousser (Valsalva) → quantifier l'extériorisation des parois et du col ({t:classification POP-Q} ou stades de Baden-Walker)"
+  "Toucher vaginal":
+    - |-
+      Toucher vaginal combiné au palper abdominal (TV bimanuel) — technique:
+      • 1 ou 2 doigts gantés et lubrifiés dans le vagin, main abdominale sus-pubienne qui rapproche les organes
+      • explorer successivement: vagin, col, corps utérin, annexes (culs-de-sac latéraux), cul-de-sac de Douglas
+    - "Col: consistance (ferme = nez normal hors grossesse; ramolli = grossesse/Hegar), position, longueur, ouverture de l'orifice; {r:douleur à la mobilisation cervicale (signe de l'agitation du Douglas)} → drapeau rouge: {p:MIP/salpingite}, {p:GEU}, péritonite pelvienne"
+    - |-
+      Corps utérin (apprécié entre les deux mains):
+      • position (antéversé/antéfléchi le plus fréquent vs rétroversé)
+      • taille (normal ≈ noix; augmenté → {p:fibrome}, {e:grossesse}, adénomyose)
+      • forme et surface (bosselée → myomes), consistance, mobilité (fixé/douloureux → endométriose, séquelles inflammatoires)
+    - "Annexes (culs-de-sac latéraux): normalement non palpables; rechercher une masse latéro-utérine ({p:kyste ovarien}, hydrosalpinx, masse tubaire), sa taille, mobilité et sensibilité; un empâtement/douleur annexielle → MIP, endométriose, GEU"
+    - "Cul-de-sac de Douglas (postérieur): {s:comblement/bombement douloureux} → épanchement (sang d'une GEU rompue, pus), nodules indurés du Douglas/ligaments utéro-sacrés → {p:endométriose profonde}"
+    - "Toucher rectal (si indication): complément pour évaluer la cloison recto-vaginale, les paramètres et les ligaments utéro-sacrés (endométriose profonde, extension d'un cancer du col), ou chez la patiente vierge"
+
+manoeuvres:
+  - "{r:Test à la potasse / sniff test (whiff test)}: déposer la sécrétion vaginale sur une lame + 1 goutte de KOH 10 %; POSITIF si dégagement d'une odeur de poisson (amines volatiles) → en faveur d'une {p:vaginose bactérienne} (1 des critères d'Amsel); le pH vaginal > 4,5 complète l'orientation"
+  - "{r:Recherche de saignement de contact}: au spéculum, frotter doucement la surface du col (spatule/cytobrosse); POSITIF si saignement facile au contact → ectropion fragile, cervicite, ou drapeau rouge pour une {p:lésion néoplasique cervicale} nécessitant colposcopie"
+  - "{r:Douleur à la mobilisation cervicale (cervical motion tenderness)}: au TV, mobiliser latéralement le col entre les doigts; POSITIF si douleur vive (irritation péritonéale annexielle) → évoque une {p:MIP/salpingite}, une {p:GEU} ou une pelvi-péritonite (critère mineur de MIP de Hager/CDC)"
+  - "{r:Manœuvre de Valsalva / effort de poussée} (bilan de prolapsus): patiente en position gynécologique, demander de tousser/pousser; observer l'extériorisation des parois (antérieure = cystocèle, postérieure = rectocèle) et la descente du col/utérus; permet de stadifier le prolapsus ({t:POP-Q})"
+  - "{r:Test à la toux (recherche d'incontinence urinaire d'effort)}: vessie modérément remplie, demander de tousser; POSITIF si fuite urinaire synchrone de l'effort → {p:incontinence urinaire d'effort}; un soutènement de l'urètre/col vésical qui supprime la fuite oriente vers une IUE par hypermobilité"
+  - "Manœuvre d'inspection mammaire dynamique (mains sur hanches + pencher en avant): la contraction des pectoraux et la mise en tension des ligaments de Cooper font apparaître une {s:rétraction cutanée} fixée non visible au repos → drapeau rouge pour une lésion sous-jacente rétractile ({p:carcinome})"
+  - "{r:Expression mamelonnaire}: pression radiaire douce de l'aréole vers le mamelon; caractériser un écoulement provoqué (pore unique vs multiple, couleur); un écoulement {s:sanglant, spontané, unipore} impose un bilan (galactographie/IRM, exérèse) — papillome ou carcinome"
+  - "{r:Palpation bimanuelle des annexes}: doigts vaginaux dans le cul-de-sac latéral, main abdominale en fosse iliaque homolatérale qui descend vers le pelvis; permet de palper une masse annexielle, d'en apprécier la mobilité (mobile vs fixée), la consistance et la sensibilité (torsion d'annexe = douleur exquise + masse)"
+
+echelles:
+  - |-
+    {t:Critères d'Amsel} — Diagnostic clinique de la {p:vaginose bactérienne} (≥ 3/4):
+    • leucorrhées grises homogènes adhérentes
+    • pH vaginal > 4,5
+    • sniff test (KOH) positif (odeur de poisson)
+    • clue cells (cellules indicatrices) au microscope (> 20 %)
+  - |-
+    {t:Critères de MIP (CDC, minimaux)} — Débuter le traitement si:
+    • douleur à la mobilisation du col, OU
+    • douleur à la palpation utérine, OU
+    • douleur à la palpation annexielle
+    • critères additionnels renforçant: fièvre > 38,3 °C, leucorrhées/cervicite, CRP/VS élevées, PCR chlamydia/gonocoque positive
+  - |-
+    {t:Score de Bishop} — Maturité cervicale (pronostic de déclenchement, 0-13):
+    • dilatation, effacement, consistance, position du col, hauteur de la présentation
+    • score ≥ 7 = col favorable (déclenchement plus probablement efficace); < 6 = col défavorable (maturation préalable)
+  - |-
+    {t:Classification POP-Q (Pelvic Organ Prolapse Quantification)} — Stadification du {p:prolapsus}:
+    • mesure de 6 points (paroi antérieure, postérieure, apex) par rapport à l'hymen lors d'un effort de poussée
+    • stade 0 = pas de prolapsus; I = point > 1 cm au-dessus de l'hymen; II = entre -1 et +1 cm; III = > 1 cm sous l'hymen sans éversion complète; IV = éversion complète
+  - |-
+    {t:Stadification FIGO} — Classification des cancers gynécologiques (col, endomètre, ovaire, vulve):
+    • basée sur l'extension anatomique (I = limité à l'organe → IV = métastases à distance)
+    • le cancer du col et de la vulve = stadification clinique; endomètre et ovaire = stadification chirurgicale
+    • détermine le pronostic et la stratégie thérapeutique
+
+ssps_liees:
+  - SSP-GYN-01
+  - SSP-GYN-02
+  - SSP-GYN-03
+  - SSP-GYN-04
+  - SSP-GYN-05
+  - SSP-GYN-06
+  - SSP-GYN-07
+  - SSP-GYN-08
+  - SSP-GYN-09
+  - SSP-GYN-10
+  - SSP-GYN-11
