@@ -101,6 +101,7 @@ function parseArgs(argv) {
     else if (arg === "--validate-only") opts.validateOnly = true;
     else if (arg === "--pdf") opts.pdf = true;
     else if (arg === "--notion") opts.notion = true;
+    else if (arg === "--diagrams") opts.diagrams = true;
     else if (arg.startsWith("--only=")) opts.only = arg.slice(7);
   }
   return opts;
@@ -134,6 +135,10 @@ async function main() {
   if (opts.notion && !opts.validateOnly) {
     const { runNotion } = await import("./notion.js");
     await runNotion({ verbose: opts.verbose });
+  }
+  if (opts.diagrams && !opts.validateOnly) {
+    const { runDiagrams } = await import("./diagram.js");
+    await runDiagrams({ verbose: opts.verbose });
   }
 
   process.exit(report.failed > 0 ? 1 : 0);

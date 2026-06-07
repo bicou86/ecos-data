@@ -12,6 +12,7 @@
     "build": "node src/build.js",
     "build:pdf": "node src/build.js --pdf",
     "publish:notion": "node src/build.js --notion",
+    "publish:diagrams": "node src/diagram.js",
     "dev": "node src/watch.js",
     "parse-md": "node src/parse-cli.js",
     "audit-drafts": "node src/audit-drafts.js",
