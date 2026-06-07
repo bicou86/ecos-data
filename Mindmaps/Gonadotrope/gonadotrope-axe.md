@@ -1,11 +1,10 @@
 <!--
-source: CK/04_Resumes_par_Discipline/Endocrino/Endocrinologie.pdf — p. 51-53 (axe masculin, hypogonadisme), p. 131 (puberté/Tanner)
-statut: brouillon
-provenance: texte allemand (König, Staatsexamen 2013) traduit en FR ; couche texte fiable.
-note: l'axe FÉMININ / cycle menstruel n'est PAS détaillé dans ce résumé (renvoi à « Endokrine Gynäkologie », p. 53). Non inventé.
+DOUBLE SOURCE — axe masculin : CK/04_Resumes_par_Discipline/Endocrino/Endocrinologie.pdf (König, p. 51-53, p. 131), DE→FR, couche texte.
+                axe féminin : StatPearls « Physiology, Menstrual Cycle » NBK500020 (https://www.ncbi.nlm.nih.gov/books/NBK500020/) — source web autoritaire externe, citée.
+statut: brouillon. Aucun envoi Notion. Voir gonadotrope-axe-audit.md pour le verbatim.
 -->
 
-# 🧬 Axe gonadotrope (HHG) — homme (p. 51-53)
+# 🧬 Axe gonadotrope (HHG)
 
 ## Hypothalamus — GnRH
 
@@ -67,6 +66,21 @@ note: l'axe FÉMININ / cycle menstruel n'est PAS détaillé dans ce résumé (re
 - Thélarche (M2) : ↑ taille du mamelon par effet œstrogénique
 - Ménarche : 1re menstruation spontanée (CH, moyenne ~12,5 ans)
 
-## Axe féminin / cycle menstruel
+## ♀ Axe féminin / cycle menstruel — _source : StatPearls NBK500020_
 
-- Non détaillé dans ce résumé — renvoi à « Endokrine Gynäkologie » (p. 53)
+- GnRH pulsatile → FSH (pulses lents) + LH (pulses rapides)
+- **Phase folliculaire (proliférative)**
+  - FSH → granulosa : aromatase → 17-β estradiol
+  - Modèle 2 cellules / 2 gonadotrophines : LH → thèque → androgènes ; FSH → granulosa → aromatase → estradiol
+  - Follicule dominant : ↑ récepteurs FSH (sensibilité) malgré FSH ↓
+  - Inhibine B (granulosa) → inhibe la FSH
+- **Ovulation (~J14)**
+  - Estradiol : feedback négatif puis, au seuil critique, feedback **positif**
+  - → pic de LH (×10) + petite hausse de FSH
+  - Ovulation ~36-44 h après le début du pic de LH ; formation du corps jaune
+- **Phase lutéale (sécrétoire) ~14 j**
+  - Corps jaune → progestérone (stimulée par LH) + estradiol
+  - Progestérone : maturation de l'endomètre (implantation) ; glaire cervicale épaisse/peu élastique
+- **Fin de cycle**
+  - Sans grossesse : lutéolyse → chute progestérone + estradiol → menstruation
+  - Grossesse : hCG (œuf fécondé) → maintient le corps jaune et la progestérone
