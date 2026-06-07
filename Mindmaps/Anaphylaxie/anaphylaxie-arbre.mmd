@@ -1,0 +1,75 @@
+%% @id: ANAPH-DX
+%% @page-title: SSP — Allergie et Anaphylaxie
+%% @page-id:
+%% @caption: 🌡️ Réaction anaphylactique — degrés (Müller I–IV) + conduite à tenir
+%% @anchor-after:
+%% @source: Mindmaps/Immuno | Réaction anaphylactique.pdf (p.1) [gradation] + CS/02_SSP/SSP_Allergie_et_Anaphylaxie.md [traitement]
+%% @audit: Mindmaps/Anaphylaxie/anaphylaxie-arbre-audit.md
+%% @status: brouillon
+%% --- Provenance (lignes %% non poussées vers Notion) ---
+%% DOUBLE SOURCE : la gradation Degré I-IV vient du mind map imprimé (1 page, texte + PNG 180 dpi).
+%% Le volet CONDUITE À TENIR vient de CS/02_SSP/SSP_Allergie_et_Anaphylaxie.md (§ Prise en charge) — ajouté pour combler le gap, ancré, pas inventé.
+%% Coquille source corrigée : « plis de l'aîné » → « plis de l'aine » (région inguinale).
+flowchart TD
+  R["Réaction anaphylactique"]:::start
+
+  R --> GEN["Réaction allergique généralisée<br/>• Libération massive de médiateurs<br/>• Pas d'association chronologique obligatoire<br/>• Souvent même degré d'anaphylaxie pour une 2e réaction"]:::note
+
+  R --> D1["Degré I"]:::d1
+  R --> D2["Degré II"]:::d2
+  R --> D3["Degré III"]:::d3
+  R --> D4["Degré IV"]:::d4
+
+  D1 --> D1a["Urticaire généralisé"]:::leaf
+  D1 --> D1b["Prurit"]:::leaf
+  D1b --> D1bnote["CAE, paume des mains et plis de l'aine<br/>= point de départ du prurit anaphylactique"]:::note
+  D1 --> D1c["Malaise"]:::leaf
+  D1 --> D1d["Anxiété"]:::leaf
+  D1 --> D1e["Tachycardie"]:::leaf
+  D1 --> D1f["Pâleur"]:::leaf
+
+  D2 --> D2a["Angioedème"]:::leaf
+  D2 --> D2b["Oppression thoracique"]:::leaf
+  D2 --> D2c["Diarrhée"]:::leaf
+  D2 --> D2d["Sensation vertigineuse"]:::leaf
+
+  D3 --> D3a["Dyspnée (asthme)"]:::leaf
+  D3 --> D3b["Dysphagie"]:::leaf
+  D3 --> D3c["Voix rauque (dysphonie)"]:::leaf
+  D3 --> D3d["Faiblesse"]:::leaf
+  D3 --> D3e["État confusionnel"]:::leaf
+
+  D4 --> D4a["Chute de pression"]:::leaf
+  D4 --> D4b["Perte de connaissance"]:::leaf
+  D4 --> D4c["Incontinence"]:::leaf
+  D4 --> D4d["Cyanose"]:::leaf
+  D4 --> D4e["CHOC ANAPHYLACTIQUE"]:::crit
+
+  %% --- Conduite à tenir (source : SSP_Allergie_et_Anaphylaxie.md) ---
+  R --> PEC["⚡ Prise en charge — source SSP Allergie"]:::ttt
+  PEC --> P1["1. Arrêt de l'exposition à l'allergène"]:::ttt
+  PEC --> P2["2. Position : décubitus dorsal, jambes surélevées (sauf si dyspnée)"]:::ttt
+  PEC --> P3["3. ADRÉNALINE IM — priorité absolue"]:::crit
+  P3 --> P3a["0,01 mg/kg (max 0,5 mg adulte / 0,3 mg enfant)"]:::ttt
+  P3 --> P3b["face antéro-latérale de la cuisse ; répéter toutes les 5-15 min"]:::ttt
+  PEC --> ADJ["Adjuvants"]:::ttt
+  ADJ --> A1["O2 haut débit"]:::leaf
+  ADJ --> A2["Remplissage : NaCl 0,9% 20 ml/kg"]:::leaf
+  ADJ --> A3["Anti-H1 IV (cétirizine / clémastine)"]:::leaf
+  ADJ --> A4["Corticoïdes : méthylprednisolone 1-2 mg/kg IV"]:::leaf
+  ADJ --> A5["Bronchodilatateur (salbutamol) si bronchospasme"]:::leaf
+  PEC --> REF["Cas réfractaire"]:::ttt
+  REF --> RF1["Adrénaline IV en perfusion continue"]:::leaf
+  REF --> RF2["Glucagon 1-5 mg IV si β-bloquants"]:::leaf
+  REF --> RF3["Intubation si œdème laryngé"]:::leaf
+  PEC --> SURV["Surveillance : 6-8 h (risque biphasique 20%) ; 24 h si sévère"]:::ttt
+
+  classDef start fill:#1f2937,color:#ffffff,stroke:#111111,stroke-width:2px;
+  classDef note fill:#fef9c3,color:#000000,stroke:#ca8a04,stroke-width:1px;
+  classDef d1 fill:#ede9fe,color:#000000,stroke:#7c3aed,stroke-width:1px;
+  classDef d2 fill:#cffafe,color:#000000,stroke:#0891b2,stroke-width:1px;
+  classDef d3 fill:#d1fae5,color:#000000,stroke:#059669,stroke-width:1px;
+  classDef d4 fill:#dcfce7,color:#000000,stroke:#16a34a,stroke-width:1px;
+  classDef leaf fill:#f3f4f6,color:#000000,stroke:#9ca3af;
+  classDef crit fill:#fee2e2,color:#000000,stroke:#dc2626,stroke-width:2px;
+  classDef ttt fill:#ffedd5,color:#000000,stroke:#ea580c,stroke-width:1px;

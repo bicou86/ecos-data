@@ -1,0 +1,61 @@
+%% @id: ACR-DX
+%% @page-title: SSP — ACR
+%% @page-id:
+%% @caption: 🫀 ACR — Algorithme ALS (adulte)
+%% @anchor-after:
+%% @source: Mindmaps/ABCDE-FG | ACR Algorithme.pdf (1 page)
+%% @audit: Mindmaps/ACR/acr-arbre-audit.md
+%% @status: brouillon
+%% --- Provenance (lignes %% non poussées vers Notion) ---
+%% Source = "Adult Cardiac Arrest Algorithm", American Heart Association © 2020 (PDF iOS Quartz, 1 page).
+%% Couche texte présente et fiable (pdftotext -layout) ; layout confirmé en vision (pdftoppm 180-320 dpi). Confiance élevée.
+%% Traduction EN→FR par le rédacteur (verbatim anglais cité dans l'audit). Quelques glyphes chiffrés dans le PDF (ex. « >10 mmHg », « American Heart Association ») rétablis via la vision.
+flowchart TD
+  start["1. Début RCP<br/>• Donner O2<br/>• Brancher moniteur/défibrillateur"]:::action
+  start --> q1{"Rythme<br/>chocable ?"}
+
+  q1 -->|"Oui"| vfpvt["2. FV / TV sans pouls"]:::chocable
+  q1 -->|"Non"| asys["9. Asystolie / AESP (PEA)"]:::nonchocable
+
+  %% --- Branche CHOCABLE (FV/TVsp) ---
+  vfpvt --> shock3["3. Choc"]:::choc
+  shock3 --> cpr4["4. RCP 2 min<br/>• Accès IV/IO"]:::action
+  cpr4 --> q4{"Rythme<br/>chocable ?"}
+  q4 -->|"Non"| asys
+  q4 -->|"Oui"| shock5["5. Choc"]:::choc
+  shock5 --> cpr6["6. RCP 2 min<br/>• Adrénaline toutes les 3-5 min<br/>• Envisager voie aérienne avancée, capnographie"]:::action
+  cpr6 --> q6{"Rythme<br/>chocable ?"}
+  q6 -->|"Non"| asys
+  q6 -->|"Oui"| shock7["7. Choc"]:::choc
+  shock7 --> cpr8["8. RCP 2 min<br/>• Amiodarone ou lidocaïne<br/>• Traiter les causes réversibles"]:::action
+  cpr8 --> q12
+
+  %% --- Branche NON CHOCABLE (Asystolie/AESP) ---
+  asys --> epi["Adrénaline dès que possible (ASAP)"]:::drug
+  epi --> cpr10["10. RCP 2 min<br/>• Accès IV/IO<br/>• Adrénaline toutes les 3-5 min<br/>• Envisager voie aérienne avancée, capnographie"]:::action
+  cpr10 --> q10{"Rythme<br/>chocable ?"}
+  q10 -->|"Oui"| shock5
+  q10 -->|"Non"| cpr11["11. RCP 2 min<br/>• Traiter les causes réversibles"]:::action
+  cpr11 --> q11{"Rythme<br/>chocable ?"}
+  q11 -->|"Oui"| shock7
+  q11 -->|"Non"| q12
+
+  %% --- Réévaluation finale ---
+  q12["12. • Si pas de signe de RACS (ROSC) : aller à 10 ou 11<br/>• Si RACS : aller aux Soins post-arrêt cardiaque<br/>• Évaluer la pertinence de poursuivre la réanimation"]:::decision
+
+  %% --- Encadrés latéraux (rappels) ---
+  causes["Causes réversibles (4H/4T)<br/>• Hypovolémie • Hypoxie<br/>• Ion H+ (acidose) • Hypo-/hyperkaliémie • Hypothermie<br/>• Pneumothorax sous tension • Tamponnade cardiaque<br/>• Toxiques • Thrombose pulmonaire • Thrombose coronaire"]:::aide
+  doses["Médicaments<br/>• Adrénaline IV/IO : 1 mg toutes les 3-5 min<br/>• Amiodarone IV/IO : 1re dose 300 mg bolus ; 2e dose 150 mg<br/>• ou Lidocaïne IV/IO : 1re dose 1-1,5 mg/kg ; 2e dose 0,5-0,75 mg/kg"]:::aide
+  energie["Énergie de choc (défibrillation)<br/>• Biphasique : recommandation du fabricant (ex. 120-200 J) ; si inconnue, max disponible<br/>• Monophasique : 360 J"]:::aide
+
+  cpr8 -.-> doses
+  cpr8 -.-> causes
+  shock3 -.-> energie
+
+  classDef action fill:#dbeafe,stroke:#1e40af,color:#0b2447;
+  classDef chocable fill:#e5e7eb,stroke:#374151,color:#111827;
+  classDef nonchocable fill:#e5e7eb,stroke:#374151,color:#111827;
+  classDef choc fill:#fee2e2,stroke:#b91c1c,color:#7f1d1d;
+  classDef drug fill:#fef9c3,stroke:#a16207,color:#713f12;
+  classDef decision fill:#fde68a,stroke:#b45309,color:#7c2d12;
+  classDef aide fill:#f1f5f9,stroke:#64748b,color:#334155;
