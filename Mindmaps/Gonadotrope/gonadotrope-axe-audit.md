@@ -1,7 +1,7 @@
 <!--
 Audit d'ancrage — diagramme GONADO-AXIS (Axe gonadotrope / HHG)
 Source : CK/04_Resumes_par_Discipline/Endocrino/Endocrinologie.pdf (couche texte, extraction pdftotext -layout)
-Document source en allemand (König, Staatsexamen 2013). Verbatim = allemand original ; le diagramme est la traduction FR.
+DOUBLE SOURCE : axe MASCULIN = König (Staatsexamen 2013, DE→FR, couche texte). Axe FÉMININ = StatPearls NBK500020 (source web autoritaire EXTERNE citée), car absent du dépôt.
 Statut : brouillon. Aucun envoi Notion.
 -->
 
@@ -34,10 +34,27 @@ Statut : brouillon. Aucun envoi Notion.
 | 23  | Spermiogramme (concentration, motilité, morphologie)                                                                                                                     | « Spermiogramm … Konzentration … Motilität … Morphologie » (p. 52-53)                                                                                                                                                                                       | Élevée                     |
 | 24  | Traitement : substitution testostérone (i.m.), primaire et secondaire                                                                                                    | « Hormonersatz (Testosteron) … Meist i.m. … Bei primärem & sekundärem Hypogonadismus » (p. 53)                                                                                                                                                              | Élevée                     |
 | 25  | Substitution/stimulation des gonadotrophines (parentéral), rare, pour la fertilité                                                                                       | « Ersatz/ Stimulation von Gonadotropinen (parenteral) … Nur in seltenen Fällen, um Fertilität zu erzielen » (p. 53)                                                                                                                                         | Élevée                     |
-| 26  | Axe féminin / cycle menstruel non détaillé ici (renvoi à Endokrine Gynäkologie)                                                                                          | « Hormonstörungen bei der Frau — siehe Zusammenfassung der „Endokrinen Gynäkologie“ » (p. 53)                                                                                                                                                               | Élevée — absence confirmée |
+| 26  | Axe féminin (König) renvoyé à « Endokrine Gynäkologie » → complété depuis StatPearls (voir section dédiée ci-dessous)                                                    | « Hormonstörungen bei der Frau — siehe Zusammenfassung der „Endokrinen Gynäkologie“ » (p. 53)                                                                                                                                                               | Élevée — absence confirmée |
 | 27  | Puberté — Pubarche (P2) : pilosité pubienne par action androgénique, 8-14 ans                                                                                            | « P2: Pubarche = Beginn des Wachstums der Schamhaare (infolge Androgenwirkung) … zwischen dem 8. und dem 14. Lebensjahr » (p. 131)                                                                                                                          | Élevée                     |
 | 28  | Thélarche (M2) : ↑ taille du mamelon par effet œstrogénique                                                                                                              | « M2: Thelarche = Zunahme der Mamillengrösse (infolge Östrogeneinwirkung) » (p. 131)                                                                                                                                                                        | Élevée                     |
 | 29  | Ménarche : 1re menstruation spontanée (CH ~12,5 ans)                                                                                                                     | « im Durchschnitt mit 12,5 Jahren Menarche (= 1. spontane Menstruationsblutung) » (p. 131)                                                                                                                                                                  | Élevée                     |
+
+## Axe féminin / cycle menstruel — SOURCE EXTERNE : StatPearls « Physiology, Menstrual Cycle » (NCBI NBK500020)
+
+> ⚠️ **Hors dépôt** : ancré sur une référence physiologique web autoritaire (citée), le cycle féminin étant absent des sources locales. URL : https://www.ncbi.nlm.nih.gov/books/NBK500020/
+
+| #   | Affirmation (FR)                                                                        | Verbatim StatPearls (EN)                                                                                                                             | Statut     |
+| --- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| F1  | GnRH pulsatile → FSH (pulses lents) + LH (pulses rapides)                               | « Low-frequency GnRH pulses are responsible for FSH secretion, whereas high-frequency pulses are responsible for LH secretion »                      | 🟢 externe |
+| F2  | FSH → granulosa : aromatase → 17-β estradiol                                            | « FSH stimulates the enzyme aromatase within the granulosa cells to convert androstenedione to testosterone and then to 17-β estradiol »             | 🟢 externe |
+| F3  | Modèle 2 cellules : LH → thèque → androgènes/progestérone ; FSH → granulosa → estradiol | « LH stimulates theca cells to produce progesterone and androstenedione by activating the enzyme cholesterol desmolase » (+ F2)                      | 🟢 externe |
+| F4  | Inhibine B (granulosa) inhibe la FSH                                                    | « Granulosa cells… produce inhibin B and activin, which inhibit and stimulate FSH release from the anterior pituitary, respectively »                | 🟢 externe |
+| F5  | Estradiol : feedback négatif puis POSITIF au seuil critique                             | « When a critical level of 17-β estradiol is reached, it provides positive feedback to the anterior pituitary, leading to a surge in FSH and LH »    | 🟢 externe |
+| F6  | Pic de LH (×10) → ovulation ~36-44 h après le début du pic                              | « LH levels increasing 10-fold during the LH surge » ; « Ovulation typically occurs approximately 36 to 44 hours after the onset of the LH surge »   | 🟢 externe |
+| F7  | Phase lutéale ~14 j : corps jaune → progestérone (stim. LH)                             | « the luteal or secretory phase… typically lasting 14 days » ; « The dominant hormone during this phase is progesterone, which is stimulated by LH » | 🟢 externe |
+| F8  | Progestérone : maturation de l'endomètre + glaire cervicale épaisse                     | « Progesterone stimulates the maturation of the endometrium… » ; « progesterone thickens and decreases the elasticity of cervical mucus »            | 🟢 externe |
+| F9  | Sans grossesse : lutéolyse → chute progestérone/estradiol → menstruation                | « The abrupt decline in progesterone and estradiol levels at the end of the luteal phase triggers the shedding of the endometrium »                  | 🟢 externe |
+| F10 | Grossesse : hCG → maintient le corps jaune                                              | « A fertilized ovum releases human chorionic gonadotropin (hCG), which stimulates the corpus luteum to maintain progesterone production »            | 🟢 externe |
 
 ## Complétude (présent dans la source mais OMIS du diagramme)
 
@@ -53,5 +70,5 @@ Statut : brouillon. Aucun envoi Notion.
 
 - Le symbole « " » dans les verbatims = flèche « → » dans le PDF original (artefact d'extraction de la police).
 - Tout le contenu provient de la couche texte (pdftotext -layout), confiance élevée ; aucune lecture d'image nécessaire.
-- L'axe est présenté **chez l'homme uniquement** dans cette source ; le versant féminin (cycle ovarien, LH/FSH-pic, œstrogènes/progestérone, corps jaune) est explicitement renvoyé à un autre document et n'a donc PAS été reconstruit.
-- Aucun fait « [socle] » ajouté : le diagramme ne contient que du contenu sourcé.
+- L'axe **masculin** vient de König (couche texte, confiance élevée). Le versant **féminin** (cycle ovarien) a été **ajouté depuis StatPearls NBK500020** (source web externe citée), König le renvoyant à un autre document.
+- Aucun fait « [socle] » ajouté : tout est sourcé (König pour l'homme, StatPearls pour la femme).
