@@ -12,20 +12,21 @@ npm install      # or: yarn install
 
 ## Commands
 
-| Command                  | Purpose                                                |
-| ------------------------ | ------------------------------------------------------ |
-| `npm run validate`       | AJV check on every YAML in `../data/`                  |
-| `npm run build`          | HTML only (fast — Eta render)                          |
-| `npm run build:pdf`      | HTML + PDF (slow — Puppeteer)                          |
-| `npm run publish:notion` | Build the Notion push-manifest (`dist/notion/`)        |
-| `npm run dev`            | Watch mode + preview server on `http://localhost:3000` |
-| `npm test`               | Vitest suite                                           |
-| `npm run test:watch`     | Vitest in watch mode                                   |
+| Command                    | Purpose                                                            |
+| -------------------------- | ------------------------------------------------------------------ |
+| `npm run validate`         | AJV check on every YAML in `../data/`                              |
+| `npm run build`            | HTML only (fast — Eta render)                                      |
+| `npm run build:pdf`        | HTML + PDF (slow — Puppeteer)                                      |
+| `npm run publish:notion`   | Build the Notion push-manifest (`dist/notion/`)                    |
+| `npm run publish:diagrams` | Build the Mermaid diagrams plan (`dist/notion/diagrams-plan.json`) |
+| `npm run dev`              | Watch mode + preview server on `http://localhost:3000`             |
+| `npm test`                 | Vitest suite                                                       |
+| `npm run test:watch`       | Vitest in watch mode                                               |
 
 ## CLI flags
 
 ```
-node src/build.js [--pdf] [--notion] [--include-drafts] [--only=<id>] [--verbose] [--validate-only]
+node src/build.js [--pdf] [--notion] [--diagrams] [--include-drafts] [--only=<id>] [--verbose] [--validate-only]
 ```
 
 ## Where to edit content
@@ -60,6 +61,50 @@ See `docs/superpowers/specs/2026-05-27-pocketcards-design.md` for the full desig
 4. **Review** : author resolves `[VÉRIFIER:]` markers in the YAML.
 5. **Promote** : `npm run promote` moves draft → ready (refuses if markers remain).
 6. **Coherence** : `npm run check-coherence` catches broken links / duplicate ids before commit.
+
+## Diagrammes (Mermaid ancré → Notion)
+
+Diagrammes de révision (arbres décisionnels, cascades) en **diagram-as-code** Mermaid,
+ancrés dans une source vérifiable. Mêmes principes qu'`encart.js` : transformation
+déterministe, _plan-first_ (n'appelle jamais l'API Notion), idempotent.
+
+### Source
+
+Un fichier `.mmd` par diagramme, sous `Mindmaps/` (scan récursif). Front-matter en
+commentaires Mermaid `%% @clé: valeur` en tête de fichier :
+
+| Clé             | Rôle                                                            |
+| --------------- | --------------------------------------------------------------- |
+| `@id`           | **requis** — identifiant stable (ex. `ANEMIE-DX`)               |
+| `@page-title`   | titre de la page Notion cible                                   |
+| `@page-id`      | id de la page Notion cible (recommandé — non ambigu)            |
+| `@caption`      | légende affichée au-dessus du diagramme                         |
+| `@anchor-after` | titre de section après lequel insérer (1ʳᵉ insertion seulement) |
+| `@source`       | source ancrante (ex. `Mindmaps/Hémato \| Anémie.pdf`)           |
+| `@audit`        | chemin du tableau d'audit (= source de vérité)                  |
+| `@status`       | `validé` / `brouillon`                                          |
+
+Le corps (à partir de `flowchart TD`, `graph`, `mindmap`, …) est poussé tel quel,
+**moins toutes les lignes `%%`** (commentaires = dev-only, non poussés vers Notion).
+
+### Marqueur idempotent
+
+`diagram.js` injecte `%% id: <ID>` en **ligne 2** du code poussé (le type de diagramme
+reste en ligne 1, Notion le détecte toujours). À la re-synchro, on retrouve le bloc
+Mermaid contenant ce marqueur et on le **remplace** — jamais de doublon. Tout bloc
+poussé doit donc conserver son marqueur dans Notion.
+
+### Workflow
+
+1. Créer/éditer le `.mmd` (+ son `*-audit.md`) sous `Mindmaps/`.
+2. `npm run publish:diagrams` → `dist/notion/diagrams-plan.json` (validation légère :
+   `@id` présent, type de diagramme reconnu, crochets/guillemets équilibrés).
+3. **Exécution par l'agent (MCP, pas Node)** : pour chaque entrée, valider le Mermaid
+   (`validate_and_render_mermaid_diagram`) puis `update_content` sur le bloc portant
+   `entry.marker` ; à défaut, insérer après `entry.anchor_after` (sinon append).
+
+> Comme `notion.js`/`encart.js`, ce module **écrit un manifeste** — il n'écrit rien
+> dans Notion, et le corps des pages SSP n'est jamais régénéré.
 
 ## Semantic color coding markup
 
