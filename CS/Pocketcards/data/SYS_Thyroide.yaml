@@ -122,7 +122,7 @@ examen_physique:
     - "Neuromusculaire (hyperthyroïdie): {s:tremblement} fin et rapide, hyperréflexie ostéo-tendineuse avec phase de relaxation rapide, faiblesse musculaire proximale ({r:tester le relevé de chaise / l'accroupissement-relevé})"
     - "Neuromusculaire (hypothyroïdie): {s:réflexe achilléen ralenti} (allongement caractéristique de la phase de relaxation — signe de Woltman), ralentissement idéomoteur, syndrome du canal carpien (signe de Tinel/Phalen)"
     - "Œil et regard (hyperthyroïdie non spécifique, signes sympathiques): {s:signe de von Graefe} (asynergie oculo-palpébrale: la paupière supérieure retarde sur le globe lors du regard vers le bas), {s:signe de Dalrymple} (rétraction palpébrale), {s:signe de Stellwag} (raréfaction du clignement), {s:signe de Moebius} (insuffisance de convergence)"
-    - "Téguments et œdèmes: {s:myxœdème} généralisé infiltrant ne prenant pas le godet (hypothyroïdie sévère) vs myxœdème prétibial localisé (Basedow); peau ictérique-caroténodermique des paumes en hypothyroïdie"
+    - "Téguments et œdèmes: {s:myxœdème} généralisé infiltrant ne prenant pas le godet (hypothyroïdie sévère) vs myxœdème prétibial localisé (Basedow); teinte jaune caroténodermique des paumes/plantes en hypothyroïdie (caroténémie, sans ictère: sclères blanches)"
 
 manoeuvres:
   - "{r:Test de déglutition (ascension thyroïdienne)}: faire boire une gorgée d'eau au patient et observer/palper le cou pendant la déglutition; POSITIF = la masse ascensionne avec l'axe laryngo-trachéal → origine thyroïdienne (goitre, nodule) ou kyste thyréoglosse; NÉGATIF (pas d'ascension) → masse extra-thyroïdienne (adénopathie, lipome, kyste branchial)"

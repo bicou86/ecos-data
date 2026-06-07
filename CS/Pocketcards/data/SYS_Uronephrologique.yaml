@@ -21,7 +21,7 @@ anamnese_appareil:
     • caractère (paroxystique, intense, sans position antalgique = colique; sourde et fixe = pyélonéphrite/obstruction chronique)
     • facteurs déclenchants (effort, voyage, déshydratation)
     • association {s:fièvre} (→ {p:pyélonéphrite}, urgence), nausées/vomissements, agitation
-    • {r:score 0-10}
+    • {t:score de douleur EVA 0-10}
   - |-
     {s:Troubles mictionnels — symptômes du bas appareil (LUTS)}:
     • symptômes de remplissage (irritatifs): {s:pollakiurie} (fréquence diurne), {s:nycturie} (nombre de réveils), {s:urgenturie} (besoin impérieux), {s:incontinence}

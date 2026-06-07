@@ -61,7 +61,7 @@ anamnese_appareil:
     • tabac (paquets-années = paquets/jour × années; sevrage?)
     • cannabis, vapotage
     • tabagisme passif
-    • cannabis/drogues inhalées
+    • autres drogues inhalées
   - |-
     Expositions professionnelles et environnementales:
     • poussières minérales (silice, amiante → {p:asbestose}, {p:mésothéliome})
@@ -128,7 +128,7 @@ examen_physique:
     - "{s:Râles bronchiques (ronchi)}: bruits graves, ronflants, inspiratoires et expiratoires, mobilisés/modifiés par la toux → encombrement bronchique (bronchite, BPCO)"
     - "{s:Sibilances (wheezing)}: bruits musicaux, aigus, à prédominance expiratoire, diffus → {p:asthme}, {p:BPCO} (bronchospasme); sibilance localisée fixe → obstruction localisée (tumeur, corps étranger)"
     - "{s:Stridor}: bruit inspiratoire intense, aigu, audible sans stéthoscope → obstruction des voies aériennes supérieures (laryngées/trachéales): œdème, corps étranger, sténose — URGENCE"
-    - "{s:Frottement pleural}: bruit de cuir/pas dans la neige, superficiel, aux deux temps (systolo... non: aux deux temps respiratoires), DISPARAÎT EN APNÉE (distingue du frottement péricardique), localisé → {p:pleurésie sèche}, infarctus pulmonaire"
+    - "{s:Frottement pleural}: bruit de cuir/pas dans la neige, superficiel, aux deux temps respiratoires, DISPARAÎT EN APNÉE (distingue du frottement péricardique), localisé → {p:pleurésie sèche}, infarctus pulmonaire"
     - |-
       Auscultation de la voix (transmission) sur les zones suspectes:
       • {r:bronchophonie} (voix plus forte/nette) et {r:pectoriloquie aphone} (chuchotement '33' transmis distinctement) → condensation
@@ -141,7 +141,7 @@ manoeuvres:
   - "{r:Recherche d'égophonie}: ausculter pendant que le patient dit 'iii' de façon prolongée; POSITIF si le 'i' est entendu comme un 'a' nasonné/bêlant → bordure supérieure d'un épanchement pleural ou condensation sous-jacente"
   - "{r:Pectoriloquie aphone}: ausculter pendant que le patient chuchote '33' (ou 'un-deux-trois'); POSITIF si les mots chuchotés sont transmis clairement et distinctement → condensation parenchymateuse (transmission accrue par le poumon dense)"
   - "{r:Manœuvre d'ampliation thoracique}: pouces sur la ligne médiane (bases postérieures), inspiration profonde; NORMAL: écartement symétrique 3-5 cm; ASYMÉTRIQUE → réduction d'expansion du côté pathologique (épanchement, pneumothorax, condensation, paralysie diaphragmatique)"
-  - "{r:Test de Müller / mobilité diaphragmatique à la percussion}: marquer la limite inférieure de sonorité en expiration forcée puis en inspiration profonde; NORMAL: course de 3-5 cm; RÉDUITE → distension (BPCO), paralysie phrénique, épanchement ou atélectasie basale"
+  - "{r:Mobilité diaphragmatique à la percussion}: marquer la limite inférieure de sonorité en expiration forcée puis en inspiration profonde; NORMAL: course de 3-5 cm; RÉDUITE → distension (BPCO), paralysie phrénique, épanchement ou atélectasie basale"
   - "{r:Spirométrie / test de réversibilité bronchique}: VEMS et CVF avant/après bronchodilatateur; OBSTRUCTION si Tiffeneau VEMS/CVF < 0,70; RÉVERSIBLE (asthme) si gain VEMS ≥ 12% ET ≥ 200 ml après BDCA; obstruction fixe → {p:BPCO} (stadification GOLD selon VEMS)"
   - "{r:Débit expiratoire de pointe (peak-flow)}: mesure au débitmètre, meilleur de 3 essais, comparé au théorique/meilleur personnel; variabilité diurne > 20% → {p:asthme}; chute → guide la sévérité d'une crise et l'efficacité du traitement"
   - "{r:Oxymétrie de pouls (SpO2)}: capteur au doigt; normale ≥ 95% en air ambiant; hypoxémie si < 92% (cible adaptée 88-92% chez le BPCO hypercapnique connu); attention aux faux positifs (vernis, hypoperfusion, intoxication CO surestime la SpO2)"

@@ -114,7 +114,7 @@ examen_physique:
     - "Souffle iliaque/fémoral: fosse iliaque et triangle de Scarpa (inguinal) → sténose ilio-fémorale; reproductible/majoré après effort"
     - "Auscultation d'une fistule artério-veineuse: souffle CONTINU (systolo-diastolique) avec renforcement systolique → fistule (abord de dialyse normal, ou fistule post-traumatique pathologique)"
   "Tests vasculaires":
-    - "{t:Index de pression systolique cheville-bras (IPS/ABI)}: PAS cheville (Doppler tibial post. ou pédieux, la plus haute des 2) ÷ PAS humérale (la plus haute des 2 bras); NORMAL 0.90-1.40; ≤ 0.90 = {p:AOMI}; < 0.50 = ischémie sévère; > 1.40 = artères incompressibles (médiacalcose: diabète, IRC → IPS ininterprétable, recourir à l'index orteil-bras)"
+    - "{t:Index de pression systolique cheville-bras (IPS/ABI)}: PAS cheville (Doppler tibial post. ou pédieux, la plus haute des 2) ÷ PAS humérale (la plus haute des 2 bras); NORMAL 1.00-1.40 (0.91-0.99 limite); ≤ 0.90 = {p:AOMI}; < 0.40 = ischémie sévère; > 1.40 = artères incompressibles (médiacalcose: diabète, IRC → IPS ininterprétable, recourir à l'index orteil-bras)"
     - "{r:Temps de recoloration cutanée} (recoloration capillaire): pression 5 sec sur la pulpe d'un orteil/ongle puis relâcher; NORMAL < 2-3 sec; allongé → mauvaise perfusion distale"
     - "{r:Temps de remplissage veineux}: membre surélevé (vidange des veines) puis abaissé pendant; NORMAL remplissage des veines dorsales en < 15-20 sec; allongé → insuffisance artérielle"
     - "Recoloration au test de surélévation: en position couchée, surélever les jambes à 45° 1-2 min → pâleur plantaire = ischémie; puis pendre les jambes hors du lit → érythrose déclive + remplissage veineux retardé > 20 sec confirme l'ischémie (cf. test de Buerger / Ratschow)"

@@ -20,7 +20,7 @@ anamnese_appareil:
     • irradiation (dos/transfixiante → {p:pancréatite}, scapulaire droite → {p:colique biliaire}, descendante vers les bourses → {p:colique néphrétique})
     • caractère (crampe/colique, brûlure, torsion, pesanteur, transfixiante)
     • mode d'installation (brutal → perforation/ischémie/torsion; progressif → inflammatoire)
-    • intensité {r:EVA 0-10} et évolution
+    • intensité {t:EVA 0-10} et évolution
     • facteurs déclenchants/aggravants (repas, gras, jeûne, décubitus, mouvement)
     • facteurs soulageants ({r:antiacides}, position en chien de fusil, émission de selles/gaz)
     • signes associés (fièvre, vomissements, arrêt des matières et des gaz, troubles du transit)
@@ -170,7 +170,7 @@ echelles:
     • E = Élévation de température ≥ 37,3 °C (+1)
     • L = Leucocytose ≥ 10 G/L (+2)
     • S = déviation gauche (Shift, neutrophilie) (+1)
-    • interprétation: < 4 = appendicite peu probable; 5-6 = compatible (observation/imagerie); ≥ 7 = appendicite probable (avis chirurgical)
+    • interprétation: ≤ 4 = appendicite peu probable; 5-6 = compatible (observation/imagerie); ≥ 7 = appendicite probable (avis chirurgical)
   - |-
     {t:Échelle de Bristol} — Consistance des selles (forme, type 1 à 7):
     • 1 = billes dures séparées / 2 = en saucisse grumeleuse → {s:constipation}

@@ -107,7 +107,7 @@ examen_physique:
   "Humeur & affect":
     - "{s:Humeur} (état émotionnel subjectif, durable — ce que le patient rapporte): la demander textuellement ('Comment décririez-vous votre humeur ?') et citer ses mots; qualifier: euthymique, déprimée/triste, élevée/euphorique, irritable, anxieuse, dysphorique, expansive"
     - "{s:Affect} (expression émotionnelle observée, instantanée): décrire la qualité (triste, anxieux, colérique, plat), l'intensité, la réactivité"
-    - "Étendue/gamme de l'affect: normale vs {s:affect émoussé} (réduit) vs {s:affect plat/abrasé} (quasi absent → schizophrénie, dépression sévère, parkinsonisme) vs affect expansif"
+    - "Étendue/gamme de l'affect: normale vs {s:affect émoussé} (réduit) vs {s:affect plat/aboli} (quasi absent → schizophrénie, dépression sévère, parkinsonisme) vs affect expansif"
     - "Stabilité: {s:labilité émotionnelle} (passages rapides rires/pleurs → manie, atteinte frontale, pseudobulbaire); incontinence émotionnelle"
     - "{s:Congruence} humeur/affect avec le contenu du discours: incongruence (rire en évoquant un drame → schizophrénie) ou congruence d'un délire avec l'humeur (délire de ruine congruent à la dépression)"
     - "Idéation suicidaire à coter ici en première intention si l'humeur est abaissée (détaillée dans Évaluation du risque)"

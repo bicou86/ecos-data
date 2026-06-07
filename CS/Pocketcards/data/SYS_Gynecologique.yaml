@@ -23,7 +23,7 @@ anamnese_appareil:
     • {s:dyspareunie} (superficielle à l'intromission vs profonde aux chocs)
     • irradiation (lombaire, périnéale, crurale)
     • signes associés (fièvre, leucorrhées, métrorragies, signes urinaires/digestifs)
-    • {r:score 0-10} et retentissement (absentéisme, antalgiques)
+    • {t:EVA/score 0-10} et retentissement (absentéisme, antalgiques)
   - |-
     {s:Troubles du cycle / saignements anormaux}:
     • caractériser le cycle: durée (normal 24-38 j), régularité, durée des règles (≤ 8 j), abondance (nombre de protections/jour, caillots, signes d'anémie)
@@ -140,7 +140,7 @@ examen_physique:
       Toucher vaginal combiné au palper abdominal (TV bimanuel) — technique:
       • 1 ou 2 doigts gantés et lubrifiés dans le vagin, main abdominale sus-pubienne qui rapproche les organes
       • explorer successivement: vagin, col, corps utérin, annexes (culs-de-sac latéraux), cul-de-sac de Douglas
-    - "Col: consistance (ferme = nez normal hors grossesse; ramolli = grossesse/Hegar), position, longueur, ouverture de l'orifice; {r:douleur à la mobilisation cervicale (signe de l'agitation du Douglas)} → drapeau rouge: {p:MIP/salpingite}, {p:GEU}, péritonite pelvienne"
+    - "Col: consistance (ferme = nez normal hors grossesse; ramolli = grossesse, signe de Goodell), position, longueur, ouverture de l'orifice; {r:douleur à la mobilisation cervicale (cri du Douglas)} → drapeau rouge: {p:MIP/salpingite}, {p:GEU}, péritonite pelvienne"
     - |-
       Corps utérin (apprécié entre les deux mains):
       • position (antéversé/antéfléchi le plus fréquent vs rétroversé)
@@ -176,7 +176,7 @@ echelles:
   - |-
     {t:Score de Bishop} — Maturité cervicale (pronostic de déclenchement, 0-13):
     • dilatation, effacement, consistance, position du col, hauteur de la présentation
-    • score ≥ 7 = col favorable (déclenchement plus probablement efficace); < 6 = col défavorable (maturation préalable)
+    • score ≥ 6 = col favorable (déclenchement plus probablement efficace); < 6 = col défavorable (maturation préalable)
   - |-
     {t:Classification POP-Q (Pelvic Organ Prolapse Quantification)} — Stadification du {p:prolapsus}:
     • mesure de 6 points (paroi antérieure, postérieure, apex) par rapport à l'hymen lors d'un effort de poussée

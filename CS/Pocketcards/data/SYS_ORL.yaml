@@ -150,10 +150,10 @@ examen_physique:
     - |-
       Oropharynx (abaisse-langue, dire « ââ »):
       • amygdales palatines: taille (gradation 0 à 4), aspect (érythémateuses, enduit/exsudat blanchâtre → {p:angine}; fausses membranes; ulcération unilatérale → angine de Vincent/tumeur), caséum
-      • voile du palais et luette: symétrie au phonème « ââ » (déviation de la luette vers le côté SAIN → paralysie du IX/X du côté dévié; voussure + déplacement médian de l'amygdale + trismus → {p:phlegmon péri-amygdalien})
+      • voile du palais et luette: symétrie au phonème « ââ » (en cas de paralysie du X, le voile se soulève moins du côté atteint et la luette est attirée vers le côté SAIN → atteinte du côté OPPOSÉ à la déviation; voussure + déplacement médian de l'amygdale + trismus → {p:phlegmon péri-amygdalien})
       • paroi pharyngée postérieure: jetage postérieur, granulations
     - "Réflexe nauséeux (IX afférent, X efférent): stimulation de la paroi pharyngée; abolition uni/bilatérale → atteinte du IX/X (à interpréter avec prudence)"
-    - "Glandes salivaires (orifices canalaires): orifice du canal de Sténon (Wharton parotidien) en regard de la 2e molaire supérieure, orifice du canal de Wharton sous-mandibulaire au plancher; expression à la palpation → écoulement purulent (sialadénite/lithiase) ou clair"
+    - "Glandes salivaires (orifices canalaires): orifice du canal de Sténon (parotide) en regard de la 2e molaire supérieure, orifice du canal de Wharton (sous-mandibulaire) au plancher buccal de part et d'autre du frein lingual; expression à la palpation → écoulement purulent (sialadénite/lithiase) ou clair"
     - "Larynx (si symptômes): voix (rauque, bitonale, soufflée), examen au miroir laryngé ou nasofibroscopie (mobilité des cordes vocales, lésion); toute dysphonie > 3 semaines chez fumeur → laryngoscopie pour exclure {p:cancer du larynx}"
   "Cou & glandes salivaires":
     - |-
@@ -225,7 +225,7 @@ echelles:
     • V = dysfonction sévère (mouvements à peine perceptibles)
     • VI = paralysie totale (aucun mouvement)
   - |-
-    {t:Classification de Friedman / gradation amygdalienne} (taille des amygdales palatines):
+    {t:Gradation amygdalienne de Brodsky} (taille des amygdales palatines, 0 à 4+):
     • 0 = amygdalectomie
     • 1+ = dans la loge (< 25 % de l'oropharynx)
     • 2+ = 25-50 %
@@ -238,7 +238,7 @@ echelles:
     • Test of Skew: absent = périphérique ; présent (déviation verticale) = central
     • « INFARCT » (Impulse Normal, Fast-phase Alternating, Refixation on Cover Test) → AVC jusqu'à preuve du contraire
   - "{t:Échelle visuelle analogique (EVA) acouphènes / THI (Tinnitus Handicap Inventory)}: quantifie le retentissement des {s:acouphènes} (sommeil, concentration, anxiété); guide la prise en charge (TCC, thérapie sonore)"
-  - "{t:NYHA des VADS — classification de la dyspnée laryngée}: apprécier l'urgence (stridor au repos, tirage, cyanose = détresse → prise en charge immédiate des voies aériennes)"
+  - "{t:Gradation de la dyspnée laryngée} (sévérité de l'obstruction des voies aériennes hautes): apprécier l'urgence (stridor au repos, tirage/cornage, cyanose, troubles de conscience = détresse → prise en charge immédiate des voies aériennes)"
 
 ssps_liees:
   - SSP-ORL-01
