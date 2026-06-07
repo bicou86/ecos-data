@@ -1,0 +1,77 @@
+%% @id: ANEMIE-DX
+%% @page-title: SSP — Pâleur & Anémie
+%% @page-id: 31a85631-48fa-815c-9e8a-e3a540f4b53d
+%% @caption: 🗺️ Arbre décisionnel — réticulocytes puis VGM
+%% @anchor-after: ## 🔄 DIAGNOSTIC DIFFÉRENTIEL — par VGM
+%% @source: Mindmaps/Hémato | Anémie.pdf
+%% @audit: Mindmaps/Anémie/anemie-audit.md
+%% @status: validé
+%% --- Provenance & notes (lignes %% non poussées vers Notion par diagram.js) ---
+%% Source autoritaire : algorithme imprimé « Anémie » (p.1). Validé Damien 2026-06-07.
+%% Liens pointillés (-. .->) = transverses DÉDUITS (pédagogiques), PAS dans la source.
+%% ⚠ Source = photo → vérification = relecture visuelle, pas grep verbatim (voir anemie-audit.md).
+flowchart TD
+  A["Anémie — Hb F &lt; 120 / H &lt; 130 g/L"]:::start --> RET{"Réticulocytes / IPR"}:::dec
+
+  RET -->|"↑ &gt; 120 G/L"| HYPER["Anémie hyperrégénérative"]:::hyper
+  RET -->|"N ou ↓ &lt; 120 G/L"| HYPO["Anémie hyporégénérative"]:::hypo
+
+  %% ---- Branche hyperrégénérative ----
+  HYPER --> BH{"Bilan hémolytique"}:::dec
+  BH -->|"Négatif"| HEMORR["Hémorragie aiguë"]:::leaf
+  BH -->|"Positif"| HEMOL["Anémie hémolytique"]:::hyper
+  HEMOL --> COOMBS{"Test de Coombs"}:::dec
+  COOMBS -->|"Positif → hémolyse immune"| IMM["Bilan immunologique"]:::hyper
+  COOMBS -->|"Négatif → hémolyse non auto-immune"| NAI["Hémolyse non auto-immune"]:::hyper
+
+  IMM --> AIH["Hémolyse auto-immune (Ac chauds/froids):<br/>infection, mal. rhumatismales, paranéoplasique,<br/>lymphomes, médicamenteuse"]:::leaf
+  IMM --> ALLO["Hémolyse allo-immune:<br/>réaction transfusionnelle, greffe CSH"]:::leaf
+
+  NAI --> CONG["Congénital"]:::hyper
+  NAI --> ACQ["Acquis"]:::hyper
+  CONG --> CG1["Hémoglobinopathies:<br/>thalassémie, drépanocytose, Hb instables"]:::leaf
+  CONG --> CG2["Enzymopathies:<br/>déficit G6PD, déficit pyruvate kinase"]:::leaf
+  CONG --> CG3["Membranopathies:<br/>sphérocytose, elliptocytose"]:::leaf
+  ACQ --> AQ1["Microangiopathie thrombotique<br/>(SHU, PTT, HELLP)"]:::leaf
+  ACQ --> AQ2["HPN (déficit acquis gène PIG-A)"]:::leaf
+  ACQ --> AQ3["Infection sévère / sepsis<br/>(babesia, malaria, bartonella, C. difficile)"]:::leaf
+  ACQ --> AQ4["Trauma / brûlure sévère"]:::leaf
+  ACQ --> AQ5["Médicamenteux"]:::leaf
+  ACQ --> AQ6["Hémolyse du coureur"]:::leaf
+  ACQ --> AQ7["Sténose aortique"]:::leaf
+
+  %% ---- Branche hyporégénérative ----
+  HYPO --> MCV{"MCV / VGM"}:::dec
+  MCV -->|"&lt; 80 fL"| MICRO["Anémie hypochrome microcytaire<br/>Labo: ferritine, sat. transferrine"]:::hypo
+  MCV -->|"80–100 fL"| NORMO["Anémie normochrome normocytaire<br/>± avis hémato"]:::hypo
+  MCV -->|"&gt; 100 fL"| MACRO["Anémie macrocytaire<br/>Labo: vit. B12, ac. folique ± avis hémato"]:::hypo
+
+  MICRO --> MI1["Ferriprive"]:::leaf
+  MICRO --> MI2["Tumorale"]:::leaf
+  MICRO --> MI3["Inflammatoire"]:::leaf
+  MICRO --> MI4["Hémoglobinopathie → électrophorèse Hb"]:::leaf
+
+  NORMO --> NO1["Tumorale"]:::leaf
+  NORMO --> NO2["Infectieuse"]:::leaf
+  NORMO --> NO3["Rénale (si ClCr &lt; 30 mL/min)"]:::leaf
+  NORMO --> NO4["Aplasique"]:::leaf
+  NORMO --> NO5["Néoplasies myéloïdes"]:::leaf
+  NORMO --> NO6["Moelle remplacée/comprimée:<br/>fibrose, lymphome, myélome, métastases"]:::leaf
+
+  MACRO --> MA1["Hypovitaminose B12"]:::leaf
+  MACRO --> MA2["Carence en acide folique"]:::leaf
+  MACRO --> MA3["Hypothyroïdie"]:::leaf
+  MACRO --> MA4["Syndromes myélodysplasiques"]:::leaf
+  MACRO --> MA5["Grossesse"]:::leaf
+  MACRO --> MA6["Hépatopathie alcoolique"]:::leaf
+  MACRO --> MA7["Médicaments: TMP/SMX, méthotrexate, phénytoïne…"]:::leaf
+
+  %% ---- Liens transverses DÉDUITS (à valider) : le graphe ----
+  MI3 -. "même entité (maladie chronique)" .-> NO1
+  MI4 -. "thalassémie = aussi hémolyse congénitale" .-> CG1
+
+  classDef start fill:#1f2937,color:#ffffff,stroke:#111111,stroke-width:2px;
+  classDef dec fill:#fde68a,color:#000000,stroke:#d97706,stroke-width:1px;
+  classDef hyper fill:#fee2e2,color:#000000,stroke:#dc2626;
+  classDef hypo fill:#dbeafe,color:#000000,stroke:#2563eb;
+  classDef leaf fill:#f3f4f6,color:#000000,stroke:#9ca3af;
