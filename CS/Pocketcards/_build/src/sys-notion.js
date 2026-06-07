@@ -81,6 +81,16 @@ export function buildSysMarkdown(card) {
   return out.join("\n");
 }
 
+const SYS_TITLE_OVERRIDE = {
+  "Neurologique": "Neurologie",
+  "Hématologique": "Hématologie",
+  "Uro-néphrologique": "Uro-néphrologie",
+  "Thyroïde & Cou": "Thyroïde & cou",
+  "Ophtalmologique": "Ophtalmologie",
+  "Gynécologique": "Gynécologie",
+};
+const notionSysTitle = (t) => `Carte — ${SYS_TITLE_OVERRIDE[t] ?? t}`;
+
 function run() {
   mkdirSync(OUT_DIR, { recursive: true });
   const sspMap = JSON.parse(readFileSync(MAP_PATH, "utf8"));
@@ -101,7 +111,7 @@ function run() {
     }
     index.push({
       id: card.id,
-      title: card.title,
+      title: notionSysTitle(card.title),
       discipline: card.discipline,
       file,
       ssp_page_ids: [...new Set(sspPageIds)],

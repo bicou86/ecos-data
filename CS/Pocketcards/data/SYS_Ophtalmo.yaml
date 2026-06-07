@@ -1,0 +1,153 @@
+id: SYS-OPH
+type: sys
+title: Ophtalmologique
+discipline: Ophtalmo
+version: 2026-06-07
+status: draft
+sources:
+  - CS/04_Skills_Examen/Ophtalmo/Skills/Skills-Ophtalmo.md
+  - CS/04_Skills_Examen/Ophtalmo/RMS/RMS-Ophtalmo.md
+  - Kanski's Clinical Ophthalmology (9e éd., Elsevier)
+  - Bates' Guide to Physical Examination — chapitre œil
+  - Compas 4e éd. — Œil rouge (chapitre 10)
+  - Guidelines AAO Preferred Practice Pattern (œil rouge, glaucome aigu, DMLA, rétinopathie diabétique)
+
+anamnese_appareil:
+  # Symptômes cardinaux
+  - |-
+    {s:Baisse d'acuité visuelle (BAV)}:
+    • mode d'installation (brutale → {p:OACR}, {p:OVCR}, {p:décollement de rétine}, {p:NOIAA}, {p:névrite optique}; progressive → cataracte, {p:DMLA}, glaucome chronique)
+    • uni ou bilatérale
+    • indolore ({p:OACR}, OVCR, décollement, DMLA) vs douloureuse ({p:GFA glaucome aigu}, kératite, uvéite, névrite optique)
+    • de loin (myopie, cataracte) vs de près (presbytie)
+    • transitoire (amaurose fugace → embolie carotidienne; éclipses visuelles → HTIC)
+    • signes associés (rougeur, douleur, halos, métamorphopsies, scotome, amputation du champ)
+  - |-
+    {s:Œil rouge}:
+    • douloureux + BAV → drapeau rouge ({p:GFA}, {p:uvéite antérieure}, {p:kératite}, {p:sclérite}) → avis ophtalmo urgent
+    • indolore sans BAV → bénin (conjonctivite, {p:hémorragie sous-conjonctivale}, épisclérite)
+    • localisé/sectoriel (épisclérite, hémorragie) vs diffus (conjonctivite) vs cercle périkératique (atteinte profonde)
+    • sécrétions (purulentes → bactérienne; claires/aqueuses → virale/allergique), prurit (allergie), notion de contage
+    • porteur de lentilles (→ suspecter {p:kératite/abcès cornéen}, urgence)
+  - |-
+    {s:Douleur oculaire}:
+    • superficielle/sensation de corps étranger (atteinte cornéo-conjonctivale: corps étranger, kératite, ulcère)
+    • profonde/périorbitaire avec photophobie ({p:uvéite}, {p:sclérite})
+    • intense + nausées/vomissements + halos colorés + œil rouge dur → {p:glaucome aigu par fermeture de l'angle} (urgence)
+    • à la mobilisation du globe → {p:névrite optique rétrobulbaire}, myosite
+  - |-
+    {s:Diplopie}:
+    • monoculaire (persiste œil sain caché → cause optique: cataracte, astigmatisme, kératocône) vs binoculaire (disparaît à l'occlusion d'un œil → atteinte oculomotrice)
+    • horizontale (III, VI) vs verticale/oblique (IV, III)
+    • douloureuse + ptôse + mydriase → {p:anévrisme} comprimant le III (urgence)
+    • variable/fatigable → {p:myasthénie}; associée à exophtalmie → orbitopathie dysthyroïdienne
+  - |-
+    {s:Anomalie du champ visuel}:
+    • amputation altitudinale ({p:NOIAA}, décollement), scotome central (atteinte maculaire/névrite), hémianopsie (atteinte chiasmatique/rétrochiasmatique)
+    • myodésopsies (« mouches volantes ») + phosphènes (« éclairs ») → déchirure/{p:décollement de rétine} (consultation rapide)
+    • rideau noir progressif → décollement de rétine
+  - |-
+    {s:Larmoiement / sécrétions / photophobie}:
+    • larmoiement clair (irritation, allergie, obstruction des voies lacrymales)
+    • photophobie ({p:uvéite}, kératite, migraine)
+    • blépharospasme, sensation de sable (sécheresse oculaire)
+  # Antécédents et facteurs de risque
+  - |-
+    Antécédents ophtalmologiques et facteurs de risque:
+    • amétropie (myopie forte = risque de décollement), chirurgie (cataracte, réfractive), port de lentilles
+    • glaucome (ATCD familiaux), DMLA, rétinopathie
+    • {p:diabète} et {p:HTA} (rétinopathie), tabac (DMLA), maladies auto-immunes (uvéite: spondylarthrite, sarcoïdose)
+    • athérome/FA (embolies → OACR/amaurose fugace), artérite à cellules géantes (Horton → NOIAA, BAV + céphalées/claudication mâchoire chez > 50 ans)
+  - |-
+    Traitements et exposition:
+    • corticoïdes (cataracte, glaucome cortisonique), {r:anticholinergiques} et sympathomimétiques (risque de GFA si angle étroit)
+    • amiodarone, hydroxychloroquine (maculopathie), éthambutol/isoniazide (neuropathie optique)
+    • traumatisme, projection chimique (→ {r:lavage abondant immédiat}, urgence absolue), exposition UV/soudure
+  - "Mode de vie: profession (écrans, soudure, poussières), conduite (acuité et champ requis), antécédents familiaux (glaucome, DMLA), vaccination/voyage"
+
+examen_physique:
+  "Acuité visuelle & réfraction":
+    - "{t:Mesure de l'acuité visuelle (AV)} de loin (échelle de Snellen/Monoyer à 5 m) et de près (Parinaud), chaque œil séparément (cache), puis binoculaire; avec correction habituelle (port de lunettes/lentilles)"
+    - "{t:Trou sténopéique}: si l'AV s'améliore à travers le trou → cause réfractive (amétropie non corrigée); si elle ne s'améliore pas → cause organique (cornée, cristallin, rétine, nerf optique)"
+    - "Si AV très basse: compter les doigts (à préciser la distance), voir les mouvements de la main, perception lumineuse (PL+/PL−); PL négative = cécité de l'œil"
+    - "Vision des couleurs (planches d'Ishihara): dyschromatopsie d'axe rouge-vert → atteinte du nerf optique ({p:névrite}); désaturation au rouge en mono-oculaire = signe précoce de souffrance du nerf optique"
+  "Champ visuel (confrontation)":
+    - |-
+      {r:Champ visuel par confrontation} (examinateur face au patient, ~1 m, chaque œil séparément, comparer au sien):
+      • présenter les doigts/un objet dans les 4 quadrants → repérer une amputation
+      • hémianopsie bitemporale → atteinte chiasmatique ({p:adénome hypophysaire}); hémianopsie latérale homonyme → atteinte rétrochiasmatique (AVC, tumeur)
+      • amputation altitudinale → {p:NOIAA}/décollement; scotome central → atteinte maculaire ou du nerf optique
+    - "Test de la double stimulation simultanée (extinction visuelle) → héminégligence (lésion pariétale)"
+  "Pupilles & voies optiques":
+    - "Inspection: taille, symétrie ({s:anisocorie}), forme (régulière/déformée: synéchies, traumatisme), position"
+    - |-
+      {r:Réflexe photomoteur} (RPM) direct et consensuel (lumière dans un œil → myosis des deux):
+      • mydriase aréactive unilatérale → compression du III (anévrisme, engagement), traumatisme
+      • myosis serré → {p:Horner} (+ ptôsis + énophtalmie), opioïdes, uvéite (synéchies)
+    - |-
+      {r:Test de la lampe oscillante (swinging flashlight)} → recherche d'un {s:déficit pupillaire afférent relatif (DPAR/Marcus Gunn)}:
+      • en balançant la lumière d'un œil à l'autre, la pupille de l'œil atteint se DILATE quand on l'éclaire (au lieu de rester en myosis)
+      • POSITIF → atteinte du nerf optique ({p:névrite optique}, NOIAA, OACR, atteinte rétinienne étendue) de ce côté
+    - "Réflexe d'accommodation-convergence: myosis à la vision de près; dissociation lumière-près (RPM aboli mais accommodation conservée) → pupille d'Argyll Robertson (neurosyphilis), pupille tonique d'Adie"
+  "Oculomotricité & alignement":
+    - "{r:Poursuite oculaire} dans les 9 positions du regard (en « H »): rechercher une limitation, une {s:diplopie}, un nystagmus; III (adduction, élévation, abaissement), IV (abaissement en adduction), VI (abduction)"
+    - "Paralysie du III: ptôsis + œil en abduction/abaissement (« down and out ») + mydriase (si compression); IV: diplopie verticale majorée à la descente des escaliers, tête inclinée du côté sain; VI: déficit d'abduction, ésotropie"
+    - "{r:Test de Hirschberg} (reflets cornéens d'une lumière): reflets symétriques = alignement normal; reflet décentré = strabisme manifeste (tropie)"
+    - "{r:Cover-test / cover-uncover}: occlure puis découvrir alternativement chaque œil → mouvement de refixation = strabisme (tropie si manifeste, phorie si latent); cover-test alterné quantifie la déviation"
+  "Segment antérieur":
+    - "Paupières & annexes: ptôsis, lagophtalmie (paralysie faciale → kératite d'exposition), œdème, orgelet/chalazion, ectropion/entropion, vésicules du V1 ({p:zona ophtalmique} → atteinte cornéenne possible, signe de Hutchinson)"
+    - "Conjonctive & sclère: hyperhémie diffuse (conjonctivite) vs cercle périkératique (atteinte profonde: uvéite, kératite, GFA); {p:hémorragie sous-conjonctivale} (placard rouge homogène indolore); chémosis; nodule/rougeur sectorielle (épisclérite/sclérite)"
+    - "Cornée: transparence, ulcère/abcès (porteur de lentilles), œdème (cornée trouble + GFA), corps étranger; {r:test à la fluorescéine} + lumière bleue cobalt → prise de colorant = abrasion/ulcère/kératite (dendrites → {p:kératite herpétique})"
+    - "Chambre antérieure & iris: profondeur (CA étroite = risque de GFA), hypopion (niveau de pus → endophtalmie/uvéite sévère), hyphéma (sang, post-traumatique), Tyndall (uvéite); pupille en semi-mydriase aréactive + cornée trouble + œil dur → {p:glaucome aigu}"
+    - "Cristallin: opacification (cataracte → leucocorie chez l'adulte âgé; chez l'enfant leucocorie → {p:rétinoblastome}/cataracte congénitale, urgence)"
+  "Fond d'œil & segment postérieur":
+    - |-
+      {r:Fundoscopie à l'ophtalmoscope direct} (pénombre, œil droit de l'examinateur pour l'œil droit du patient; dilatation pupillaire utile sauf si suspicion de GFA):
+      • {s:reflet rouge rétinien} (absent → opacité des milieux: cataracte dense, hémorragie du vitré, rétinoblastome)
+    - "Papille optique: couleur, contours (flous + saillie → {p:œdème papillaire}/HTIC, papillite), excavation (rapport cup/disc augmenté > 0,5 → {p:glaucome}), pâleur (atrophie optique)"
+    - "Macula: reflet fovéolaire, drusen/altérations pigmentaires ({p:DMLA}), œdème maculaire; tache rouge cerise → {p:OACR}"
+    - "Vaisseaux rétiniens: croisements artério-veineux, signe du fil de cuivre/argent (HTA), hémorragies en flammèches + œdème papillaire + veines dilatées tortueuses → {p:OVCR}; rétine blanche ischémique → OACR"
+    - "Rétine périphérique: hémorragies/microanévrismes/exsudats/néovaisseaux → {p:rétinopathie diabétique}; déhiscence/soulèvement → {p:décollement de rétine}"
+  "Tonus oculaire & palpation":
+    - "Palpation bidigitale du globe à travers la paupière (comparatif): œil « dur comme une bille » → {p:glaucome aigu} (hypertonie majeure); œil hypotone → plaie perforante/déhiscence"
+    - "{t:Tonométrie} (à l'aplanation de Goldmann ou air pulsé): PIO normale 10-21 mmHg; > 21 = hypertonie (glaucome); GFA souvent 40-60 mmHg"
+    - "Exophtalmie (mesure à l'exophtalmomètre de Hertel): bilatérale → orbitopathie dysthyroïdienne (Basedow); unilatérale → tumeur/cellulite orbitaire, fistule carotido-caverneuse"
+
+manoeuvres:
+  - "{r:Test de la lampe oscillante (swinging flashlight)}: recherche un {s:DPAR (signe de Marcus Gunn)}; pupille qui se dilate paradoxalement à l'éclairage → atteinte du nerf optique ou rétinienne étendue homolatérale"
+  - "{r:Test à la fluorescéine} + lumière bleue cobalt: colore les zones de désépithélialisation cornéenne → abrasion, ulcère, kératite (image dendritique = {p:herpès}); {t:test de Seidel} (écoulement clair lavant la fluorescéine) → plaie perforante du globe"
+  - "{r:Éversion de la paupière supérieure} (coton-tige + traction des cils): recherche d'un corps étranger sous-palpébral devant tout syndrome de corps étranger persistant"
+  - "{r:Mesure de l'acuité visuelle + trou sténopéique}: différencie cause réfractive (améliorée) d'une cause organique (non améliorée)"
+  - "{r:Cover-test / Hirschberg}: dépistage et caractérisation d'un strabisme (tropie/phorie); essentiel chez l'enfant (amblyopie) et dans la diplopie"
+  - "{r:Champ visuel par confrontation}: dépistage d'une hémianopsie/quadranopsie ou d'une amputation altitudinale au lit du patient"
+  - "{r:Lavage oculaire abondant immédiat} (sérum physiologique/eau, ≥ 15-30 min, éverser les paupières) devant toute {p:brûlure chimique} — AVANT tout autre examen; mesurer le pH conjonctival jusqu'à normalisation"
+  - "{r:Examen à la lampe à fente} (biomicroscope): examen de référence du segment antérieur (cornée, CA, Tyndall, cristallin) — à connaître comme orientation/référence en station"
+
+echelles:
+  - |-
+    {t:Acuité visuelle (notation)}:
+    • Snellen (anglo-saxon, ex. 20/20, 20/40), Monoyer (décimal, 10/10), logMAR (recherche)
+    • « 20/40 » = lit à 20 pieds ce qu'un œil normal lit à 40 → acuité réduite
+    • catégories OMS de malvoyance/cécité selon AV du meilleur œil corrigé
+  - |-
+    {t:Triage de l'œil rouge} (orientation du degré d'urgence):
+    • RASSURANT: indolore, AV normale, pas de photophobie (conjonctivite, hémorragie sous-conjonctivale, épisclérite)
+    • GRAVE → avis ophtalmo urgent: douleur profonde, BAV, photophobie, cercle périkératique, cornée trouble, pupille anormale, porteur de lentilles ({p:GFA}, {p:uvéite}, {p:kératite}, {p:sclérite}, {p:endophtalmie})
+  - |-
+    {t:Classification de Roper-Hall} (gravité des {p:brûlures chimiques} oculaires, I-IV):
+    • I = cornée claire, pas d'ischémie limbique (bon pronostic)
+    • II = cornée trouble mais iris visible, ischémie < 1/3 du limbe
+    • III = perte épithéliale totale, trouble cornéen masquant l'iris, ischémie 1/3-1/2
+    • IV = cornée opaque, ischémie > 1/2 du limbe (pronostic réservé)
+  - |-
+    {t:Rétinopathie diabétique} (gradation simplifiée):
+    • non proliférante minime/modérée/sévère (microanévrismes, hémorragies, exsudats, AMIR)
+    • proliférante (néovaisseaux → risque d'hémorragie du vitré, décollement) → photocoagulation/anti-VEGF
+    • maculopathie diabétique (œdème maculaire = 1re cause de BAV chez le diabétique)
+  - "{t:Rapport cup/disc (excavation papillaire)}: > 0,5 ou asymétrie > 0,2 entre les deux yeux → suspicion de {p:glaucome}; à corréler à la PIO et au champ visuel"
+
+ssps_liees:
+  - SSP-OPH-01
+  - SSP-OPH-02
+  - SSP-OPH-03
+  - SSP-OPH-04
