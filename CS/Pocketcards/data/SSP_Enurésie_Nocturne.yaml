@@ -70,7 +70,7 @@ red_flags:
     action: "{t:Bandelette urinaire + ECBU} STAT; {t:glycémie} à jeun; si polyurie franche → {t:osmolalité urinaire/plasmatique}"
   - description: "{s:Soif excessive + polyurie diurne + perte de poids} associée à l'énurésie"
     dx_suspecte: "{p:Diabète sucré (type 1)}"
-    action: "{t:Glycémie capillaire} immédiate; si {r:glycémie > 11 mmol/L} → urgences pédiatriques"
+    action: "{t:Glycémie capillaire} immédiate; si {t:glycémie > 11 mmol/L} → urgences pédiatriques"
   - description: "{s:Ronflements nocturnes + pauses respiratoires + fatigabilité diurne}"
     dx_suspecte: "{p:Syndrome d'apnées obstructives du sommeil (SAOS)}"
     action: "Adresser {r:ORL pédiatrique} pour évaluation adénoïdes/amygdales; {t:polygraphie nocturne} si doute"

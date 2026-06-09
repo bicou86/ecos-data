@@ -49,7 +49,7 @@ anamnese:
       • programme cantonal disponible? (franchise {r:10%} seulement)
     - |-
       Sein — dépistage personnalisé si haut risque :
-      • BRCA1/2, ATCD personnel, radiothérapie thoracique <30 ans → {r:IRM sein}? [VÉRIFIER: seuil âge/IRM selon recommandations suisses actuelles]
+      • BRCA1/2, ATCD personnel, radiothérapie thoracique <30 ans → {t:IRM sein}? [VÉRIFIER: seuil âge/IRM selon recommandations suisses actuelles]
       • seins denses → {t:échographie} complémentaire?
     - |-
       Prostate — décision partagée (pas de consensus) :

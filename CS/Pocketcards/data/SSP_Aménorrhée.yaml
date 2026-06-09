@@ -176,7 +176,7 @@ pec_initiale:
 # source: line 165-208
 examens_complementaires:
   - "{t:β-HCG plasmatique}: SYSTÉMATIQUE en 1ère intention (urinaire si test rapide; plasmatique pour confirmation/datation)"
-  - "{t:Bilan hormonal basal} (J2-J5 si règles présentes, sinon à tout moment): {r:FSH, LH, estradiol, prolactine, TSH ± T4L, testostérone totale, SDHEA}"
+  - "{t:Bilan hormonal basal} (J2-J5 si règles présentes, sinon à tout moment): {t:FSH, LH, estradiol, prolactine, TSH ± T4L, testostérone totale, SDHEA}"
   - "{t:Test à la progestérone} (médroxyprogestérone 10 mg/j × 10 j): hémorragie de privation → estrogènes présents (SOPK, hyperPRL); absence → hypoestrogénie ou atteinte utérine"
   - "{t:Échographie pelvienne} (préférer endovaginale): morphologie utérine (épaisseur endomètre), ovaires (compte folliculaire antral, volume), malformations"
   - "{t:IRM hypophysaire avec gadolinium}: si prolactine > 100 ng/mL OU troubles visuels OU céphalées + galactorrhée; aussi si suspicion hypogonadisme hypogonadotrope"

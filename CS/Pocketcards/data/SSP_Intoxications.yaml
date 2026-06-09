@@ -110,7 +110,7 @@ examens_complementaires:
 pec_initiale:
   immediate:
     - "ABCDE d'abord: airway, ventilation, accès veineux × 2, monitoring continu (scope + SpO₂ + PA)"
-    - "{r:Glycémie capillaire} immédiate → glucose 30% IV si hypoglycémie (hypoglycémiants, alcool)"
+    - "{t:Glycémie capillaire} immédiate → glucose 30% IV si hypoglycémie (hypoglycémiants, alcool)"
     - "{r:Thiamine 100 mg IV} avant tout apport glucosé si suspicion OH chronique (prévention Wernicke)"
     - |-
       Décontamination digestive si indiquée:

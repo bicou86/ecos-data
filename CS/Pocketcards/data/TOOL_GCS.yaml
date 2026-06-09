@@ -13,7 +13,7 @@ quand_utiliser:
   - "{p:TCC} (traumatisme crânien) — classification : léger 13-15 ; modéré 9-12 ; sévère ≤ 8"
   - "Indication d'{r:intubation} : GCS ≤ 8 (protection des voies aériennes)"
   - "Surveillance neurologique post-traumatique, post-AVC, post-opératoire"
-  - "Critère de transfert en {r:USI} ou de {r:scanner cérébral} en urgence"
+  - "Critère de transfert en {r:USI} ou de {t:scanner cérébral} en urgence"
 
 items:
   - |-
