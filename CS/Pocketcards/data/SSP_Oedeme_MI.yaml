@@ -183,7 +183,7 @@ pec_initiale:
 # source: line 162-186 (SSP_Oedeme_MI.md)
 examens_complementaires:
   - "{t:D-dimères} + {t:écho-Doppler veineux MI}: si suspicion {p:TVP} (score Wells ≥ 2 ou D-dimères positifs)"
-  - "{t:BNP / NT-proBNP}: suspicion {p:IC} ({r:BNP > 100 ng/L} = probable IC) [VÉRIFIER: seuil NT-proBNP selon âge]"
+  - "{t:BNP / NT-proBNP}: suspicion {p:IC} ({t:BNP > 100 ng/L} = probable IC) [VÉRIFIER: seuil NT-proBNP selon âge]"
   - "{t:Ionogramme complet + créatinine + urée}: systématique si diurétique ou surcharge volémique"
   - "{t:Albumine + protéines totales} + {t:bandelette urinaire} + {t:protéinurie 24h}: suspicion {p:syndrome néphrotique}"
   - "{t:Bilan hépatique} (ALAT, ASAT, bilirubine, GGT, TP, albumine): suspicion {p:cirrhose}"

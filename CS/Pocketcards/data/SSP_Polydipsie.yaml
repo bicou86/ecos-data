@@ -105,8 +105,8 @@ red_flags:
 examen:
   general:
     - "Signes vitaux: TA (couchée + debout, recherche hypotension orthostatique), FC, T°, FR, SaO2"
-    - "{r:Glycémie capillaire} IMMÉDIATE chez tout patient polydipsique"
-    - "{r:Bandelette urinaire} (glycosurie, cétonurie, densité urinaire)"
+    - "{t:Glycémie capillaire} IMMÉDIATE chez tout patient polydipsique"
+    - "{t:Bandelette urinaire} (glycosurie, cétonurie, densité urinaire)"
     - "Poids actuel vs poids habituel ({s:perte de poids} = diabète sucré, prise = potomanie/œdèmes)"
     - "{t:Score de Glasgow} si troubles cognitifs"
   cible:

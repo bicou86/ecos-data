@@ -144,7 +144,7 @@ examen:
 # source: dérivé du pivot clinique (triade toux chronique + 2 différentiels aigus)
 dd_top5:
   - dx: "{p:Infection respiratoire} (virale > bactérienne)"
-    indices: "Toux aiguë < 3 sem, fièvre, contexte épidémique; pneumonie si crépitants focaux + matité + {r:CRP > 100} + foyer Rx"
+    indices: "Toux aiguë < 3 sem, fièvre, contexte épidémique; pneumonie si crépitants focaux + matité + {t:CRP > 100} + foyer Rx"
     freq: "très fréquent (1ère cause de toux aiguë)"
   - dx: "{p:Syndrome de toux d'origine haute (UACS)}"
     indices: "Toux chronique + rhinorrhée postérieure + raclement de gorge; pharynx pavé; bonne réponse au test thérapeutique (antihistaminique H1 + corticoïde nasal) [VÉRIFIER: ordre de fréquence exact UACS vs asthme dans triade chronique selon source CHUV]"
