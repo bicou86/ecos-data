@@ -13,6 +13,8 @@
     "build:pdf": "node src/build.js --pdf",
     "publish:notion": "node src/build.js --notion",
     "publish:diagrams": "node src/diagram.js",
+    "render:d2": "node src/diagram-d2.js",
+    "build:anki": "python3 anki/build_anki.py",
     "dev": "node src/watch.js",
     "parse-md": "node src/parse-cli.js",
     "audit-drafts": "node src/audit-drafts.js",
@@ -22,6 +24,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "@terrastruct/d2": "^0.1.33",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "chokidar": "^4.0.1",
